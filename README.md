@@ -5,7 +5,7 @@ La **partie analyse** de SmartSkin : questionnaire + photo de visage contrôlée
 > Séparé de la vitrine + blog (`smart-skin.ai`, hébergés sur Lovable). Déployé sur **Render (EU)**.
 
 ## Statut
-🟢 **Plans 1 (Fondation) et 2 (Tunnel) terminés** — scaffold Next.js 16, tests Vitest, env zod, Prisma 7, config Render ; tunnel landing → q1 → capture (placeholder) → q2…q7 fidèle aux maquettes, état en mémoire (Zustand).
+🟢 **Plans 1, 2 et 3 terminés** — fondation (Next.js 16, Vitest, Prisma 7, Render), tunnel complet fidèle aux maquettes, capture live (MediaPipe + 6 critères bloquants en TDD, gate strict du déclencheur, photo en mémoire). Test caméra réelle à faire en local.
 
 ## Documents
 - **Spec :** [`docs/specs/2026-06-11-app-analyse-design.md`](docs/specs/2026-06-11-app-analyse-design.md)
