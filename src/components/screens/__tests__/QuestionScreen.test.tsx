@@ -1,0 +1,66 @@
+import { describe, it, expect, beforeEach, vi } from "vitest";
+import { render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+import { QuestionScreen } from "@/components/screens/QuestionScreen";
+import { useFunnel } from "@/features/funnel/store";
+
+const push = vi.fn();
+vi.mock("next/navigation", () => ({ useRouter: () => ({ push }) }));
+
+describe("QuestionScreen q1", () => {
+  beforeEach(() => {
+    useFunnel.getState().reset();
+    push.mockClear();
+  });
+
+  it("affiche le titre et désactive Continuer tant que rien n'est choisi", () => {
+    render(<QuestionScreen step="q1" />);
+    expect(screen.getByText(/améliorer en priorité/)).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Continuer/ })).toBeDisabled();
+  });
+
+  it("active Continuer après une sélection et compte les choix (maquette : n/3)", async () => {
+    render(<QuestionScreen step="q1" />);
+    await userEvent.click(screen.getByText("Pores"));
+    expect(screen.getByRole("button", { name: /Continuer/ })).toBeEnabled();
+    expect(screen.getByText(/\/3 choisies/)).toBeInTheDocument();
+  });
+
+  it("q1 continue vers /capture (flux maquette q1 → capture)", async () => {
+    render(<QuestionScreen step="q1" />);
+    await userEvent.click(screen.getByText("Pores"));
+    await userEvent.click(screen.getByRole("button", { name: /Continuer/ }));
+    expect(push).toHaveBeenCalledWith("/capture");
+  });
+});
+
+describe("QuestionScreen q5 (gate)", () => {
+  beforeEach(() => {
+    useFunnel.getState().reset();
+    push.mockClear();
+  });
+
+  it("révèle les symptômes après « Oui » et exige ≥1 symptôme", async () => {
+    render(<QuestionScreen step="q5" />);
+    const cta = screen.getByRole("button", { name: /Continuer/ });
+    expect(cta).toBeDisabled();
+    await userEvent.click(screen.getByText(/Oui, quelque chose a changé/));
+    expect(cta).toBeDisabled();
+    await userEvent.click(screen.getByText("Plus sèche"));
+    expect(cta).toBeEnabled();
+  });
+});
+
+describe("QuestionScreen q7", () => {
+  beforeEach(() => {
+    useFunnel.getState().reset();
+    push.mockClear();
+  });
+
+  it("affiche « Lancer mon analyse » et route vers /compte", async () => {
+    render(<QuestionScreen step="q7" />);
+    await userEvent.click(screen.getByText("Rien à signaler"));
+    await userEvent.click(screen.getByRole("button", { name: /Lancer mon analyse/ }));
+    expect(push).toHaveBeenCalledWith("/compte");
+  });
+});
