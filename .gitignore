@@ -20,6 +20,7 @@ gcloud-key.json
 
 # prisma
 prisma/*.db
+src/generated/
 
 # logs / os
 *.log

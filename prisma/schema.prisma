@@ -1,0 +1,51 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ── Auth.js gère Account / Session / VerificationToken (ajoutés au Plan 4) ──
+
+model User {
+  id        String     @id @default(cuid())
+  email     String     @unique
+  name      String?
+  createdAt DateTime   @default(now())
+  analyses  Analysis[]
+}
+
+model Analysis {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  score    Int      // ex. 72
+  skinType String   // ex. "mixte"
+
+  // Détails lus d'un bloc → JSON (PAS la photo, jamais stockée)
+  answers  Json     // réponses q1–q7
+  metrics  Json     // [{ name, value, label }]
+  concerns Json     // string[]
+  actives  Json     // [{ name, blogSlug, reason }]
+
+  @@index([userId, createdAt])
+}
+
+// Calibrage des seuils de capture (Phase 1.5) — métriques anonymes, pas d'image
+model CaptureMetric {
+  id           String   @id @default(cuid())
+  createdAt    DateTime @default(now())
+  passed       Boolean
+  mean         Float?
+  stddev       Float?
+  lateralDelta Float?
+  yaw          Float?
+  pitch        Float?
+  roll         Float?
+  stability    Float?
+  sharpness    Float?
+}
