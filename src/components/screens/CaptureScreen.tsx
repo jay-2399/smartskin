@@ -1,10 +1,11 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useFunnel } from "@/features/funnel/store";
 import { startCamera, stopCamera, captureJpeg } from "@/features/capture/camera";
 import { loadFaceMesh } from "@/features/capture/faceMesh";
 import { startValidationLoop } from "@/features/capture/validationLoop";
+import { VALIDATION_CONFIG } from "@/features/capture/config";
 import type { Status, ValidationState } from "@/features/capture/types";
 
 /* Port fidèle de reference/User_flow_screens/03-capture.html,
@@ -66,23 +67,52 @@ export function CaptureScreen() {
     };
   }, []);
 
-  // Le bouton ne peut JAMAIS s'activer tant que le modèle charge (spec, précondition transverse)
+  // La capture ne peut JAMAIS se déclencher tant que le modèle charge (spec, précondition transverse)
   const canCapture = !loading && !fatalError && (state?.canCapture ?? false);
 
-  const shoot = async () => {
+  // Capture AUTOMATIQUE : 3 s de tout-vert continu → photo (décision produit, remplace le bouton).
+  // Le compte à rebours s'annule si une condition repasse au rouge.
+  const [countdown, setCountdown] = useState<number | null>(null);
+  const shotRef = useRef(false);
+
+  const shoot = useCallback(async () => {
     const video = videoRef.current;
-    if (!video || !canCapture) return;
+    if (!video || shotRef.current) return;
+    shotRef.current = true;
     const blob = await captureJpeg(video);
     useFunnel.getState().setPhoto(blob); // en mémoire uniquement — jamais uploadée ici
     router.push("/questions/q2");
-  };
+  }, [router]);
+
+  useEffect(() => {
+    if (!canCapture || shotRef.current) {
+      setCountdown(null);
+      return;
+    }
+    const total = Math.round(VALIDATION_CONFIG.autoCapture.holdMs / 1000);
+    setCountdown(total);
+    let n = total;
+    const iv = setInterval(() => {
+      n -= 1;
+      if (n <= 0) {
+        clearInterval(iv);
+        setCountdown(0);
+        void shoot();
+      } else {
+        setCountdown(n);
+      }
+    }, 1000);
+    return () => clearInterval(iv);
+  }, [canCapture, shoot]);
 
   const hintText = fatalError
     ? fatalError
     : loading
       ? "Initialisation de l'IA…"
-      : canCapture
-        ? "Parfait, ne bouge plus"
+      : countdown !== null
+        ? countdown > 0
+          ? `Ne bouge plus — capture dans ${countdown}s`
+          : "Capture !"
         : state?.topMessage ?? "Détection…";
 
   return (
@@ -116,6 +146,9 @@ export function CaptureScreen() {
           <path className="vf-corner" d="M366 364 L366 382 L348 382" />
         </svg>
         <div className="vf-hint"><span className="ld" /><span>{hintText}</span></div>
+        {countdown !== null && countdown > 0 && (
+          <div className="vf-count" aria-live="polite">{countdown}</div>
+        )}
         {loading && !fatalError && (
           <div className="vf-loading"><span className="spinner" aria-hidden />Initialisation de l&apos;IA…</div>
         )}
@@ -131,17 +164,10 @@ export function CaptureScreen() {
         ))}
       </div>
 
-      {/* SHUTTER */}
+      {/* STATUT (capture automatique — pas de bouton) */}
       <div className="shutter-zone">
-        <button
-          type="button"
-          className={`shutter${canCapture ? " on" : ""}`}
-          disabled={!canCapture}
-          aria-label="Prendre la photo"
-          onClick={shoot}
-        />
-        <span className={`shutter-lbl${canCapture ? " ready" : ""}`}>
-          {canCapture ? "Appuie pour capturer" : "Ajuste ton cadrage…"}
+        <span className={`shutter-lbl${countdown !== null ? " ready" : ""}`}>
+          {countdown !== null ? "Capture automatique en cours…" : "Ajuste ton cadrage…"}
         </span>
         <span className="reassure-capture">Ta photo est analysée puis supprimée.</span>
       </div>

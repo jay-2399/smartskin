@@ -6,15 +6,15 @@ import { StabilityTracker } from "@/features/capture/metrics/stability";
 
 describe("faceSizeStatus", () => {
   it("trop loin → error 'Approche-toi'", () => {
-    const r = faceSizeStatus({ projectedHeight: 900, ratio: 0.5 });
+    const r = faceSizeStatus({ projectedHeight: 900, ratio: 0.3 });
     expect(r.status).toBe("error");
     expect(r.message).toMatch(/Approche/);
   });
   it("trop proche → error 'Recule'", () => {
-    expect(faceSizeStatus({ projectedHeight: 900, ratio: 0.95 }).message).toMatch(/Recule/);
+    expect(faceSizeStatus({ projectedHeight: 900, ratio: 0.98 }).message).toMatch(/Recule/);
   });
   it("projection insuffisante → error", () => {
-    expect(faceSizeStatus({ projectedHeight: 700, ratio: 0.75 }).status).toBe("error");
+    expect(faceSizeStatus({ projectedHeight: 300, ratio: 0.75 }).status).toBe("error");
   });
   it("ok", () => {
     expect(faceSizeStatus({ projectedHeight: 900, ratio: 0.75 }).status).toBe("ok");

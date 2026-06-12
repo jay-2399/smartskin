@@ -205,14 +205,14 @@
 .c.warn { color:var(--arsenic); }
 .c.warn .ico { border-color:#E8A33D; background:rgba(232,163,61,0.14); }
 
-/* déclencheur */
+/* compte à rebours de capture automatique (remplace le bouton déclencheur) */
+.vf-count { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; z-index:2; pointer-events:none;
+  font-weight:800; font-size:96px; letter-spacing:-0.04em; color:#fff;
+  text-shadow:0 4px 24px rgba(0,0,0,0.45); animation:countTick 1s cubic-bezier(.22,1,.36,1) infinite; }
+@keyframes countTick { 0%{opacity:0; transform:scale(1.25);} 18%{opacity:1; transform:scale(1);} 85%{opacity:1;} 100%{opacity:0.4; transform:scale(0.96);} }
+
+/* zone de statut sous les critères */
 .shutter-zone { margin-top:auto; padding:22px 0 30px; display:flex; flex-direction:column; align-items:center; gap:14px; animation:rise .55s ease both .5s; }
-.shutter { width:74px; height:74px; border-radius:50%; border:none; cursor:not-allowed; background:var(--smoke); position:relative; display:flex; align-items:center; justify-content:center; transition:background .3s, transform .15s; box-shadow:0 6px 18px rgba(0,0,0,0.12); }
-.shutter::after { content:''; width:58px; height:58px; border-radius:50%; border:3px solid var(--bg); background:var(--steel); transition:background .3s; }
-.shutter.on { background:var(--ink); cursor:pointer; animation:pulseBtn 1.8s ease-in-out infinite; }
-.shutter.on::after { background:var(--ink); border-color:#fff; }
-.shutter.on:active { transform:scale(0.94); }
-@keyframes pulseBtn { 0%,100%{box-shadow:0 6px 18px rgba(26,29,33,0.25), 0 0 0 0 rgba(166,195,214,0.5);} 60%{box-shadow:0 6px 18px rgba(26,29,33,0.25), 0 0 0 14px rgba(166,195,214,0);} }
 .shutter-lbl { font-family:var(--fm); font-size:9.5px; letter-spacing:0.06em; color:var(--space); transition:color .3s; }
 .shutter-lbl.ready { color:var(--green); }
 .reassure-capture { font-family:var(--fm); font-size:9px; letter-spacing:0.04em; color:var(--space); }
