@@ -81,7 +81,7 @@ export function CaptureScreen() {
     shotRef.current = true;
     const blob = await captureJpeg(video);
     useFunnel.getState().setPhoto(blob); // en mémoire uniquement — jamais uploadée ici
-    router.push("/questions/q2");
+    router.push("/capture/apercu"); // prévisualisation : reprendre ou continuer
   }, [router]);
 
   useEffect(() => {

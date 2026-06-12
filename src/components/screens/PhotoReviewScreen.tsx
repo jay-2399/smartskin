@@ -1,0 +1,68 @@
+"use client";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useFunnel } from "@/features/funnel/store";
+
+/* Prévisualisation de la photo capturée : reprendre ou continuer.
+   La photo vit dans le store (mémoire uniquement, jamais uploadée ici). */
+
+export function PhotoReviewScreen() {
+  const router = useRouter();
+  const photo = useFunnel((s) => s.photo);
+  const [url, setUrl] = useState<string | null>(null);
+
+  // Pas de photo (accès direct ou rechargement) → retour à la capture
+  useEffect(() => {
+    if (!photo) {
+      router.replace("/capture");
+      return;
+    }
+    const u = URL.createObjectURL(photo);
+    setUrl(u);
+    return () => URL.revokeObjectURL(u);
+  }, [photo, router]);
+
+  const retake = () => {
+    useFunnel.getState().setPhoto(null); // on jette la photo refusée
+    router.push("/capture");
+  };
+
+  if (!photo) return null;
+
+  return (
+    <div className="screen capture">
+      <div className="topbar capture-topbar">
+        <button type="button" className="back" aria-label="Retour" onClick={retake}>
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13L5 8l5-5" /></svg>
+        </button>
+        <span className="tb-title">Ta photo</span>
+        <span className="tb-step">03</span>
+      </div>
+
+      <div className="head">
+        <h1>Elle te convient ?</h1>
+        <p>Vérifie que ton visage est net et bien éclairé.</p>
+      </div>
+
+      <div className="vf review">
+        {/* eslint-disable-next-line @next/next/no-img-element -- blob en mémoire, next/image ne gère pas les object URLs */}
+        {url && <img className="review-photo" src={url} alt="Photo capturée de ton visage" />}
+      </div>
+
+      <div className="review-actions">
+        <button type="button" className="btn-ghost" onClick={retake}>
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M2 8a6 6 0 1 1 1.7 4.2M2 12.5V8.8h3.7" /></svg>
+          Reprendre
+        </button>
+        <button type="button" className="cta-btn" onClick={() => router.push("/questions/q2")}>
+          Continuer
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M8 4l4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
+        </button>
+      </div>
+
+      <div className="shutter-zone">
+        <span className="reassure-capture">Ta photo est analysée puis supprimée.</span>
+      </div>
+    </div>
+  );
+}

@@ -107,6 +107,12 @@ export const QUESTIONS: Record<string, QuestionDef> = {
         icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 3c1 2.5 3.5 4 3.5 7a3.5 3.5 0 0 1-7 0c0-1.4.7-2.4 1.4-3.3C9.7 8.2 11 6 11 3Z"/><path d="M6 14a5 5 0 0 0 10 0" opacity=".5"/></svg>` },
       { value: "spots", label: "Taches / marques", sub: "apparues récemment",
         icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M8 8.5a1.6 1.6 0 1 0 .01 0M14 13a1.3 1.3 0 1 0 .01 0M13.5 8a1 1 0 1 0 .01 0" fill="currentColor" stroke="none" opacity=".75"/></svg>` },
+      { value: "pores", label: "Pores plus visibles", sub: "grain de peau irrégulier",
+        icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="8" cy="8" r="2.2"/><circle cx="14" cy="8.6" r="1.8"/><circle cx="9" cy="14" r="2"/><circle cx="14.6" cy="14.2" r="1.5"/></svg>` },
+      { value: "dull", label: "Teint plus terne", sub: "manque d'éclat",
+        icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="4"/><path d="M11 2.5v2M11 17.5v2M2.5 11h2M17.5 11h2M5 5l1.4 1.4M15.6 15.6L17 17M17 5l-1.4 1.4M6.4 15.6L5 17"/></svg>` },
+      { value: "fine_lines", label: "Ridules plus marquées", sub: "traits tirés, fatigue",
+        icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 7.5c2.4-1.6 4.8 1.6 7.2 0s4.8-1.6 6.8 0M4 13c2.4-1.6 4.8 1.6 7.2 0s4.8-1.6 6.8 0"/></svg>` },
     ],
   },
   q6: {
