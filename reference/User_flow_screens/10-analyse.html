@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartSkin AI — Analyse en cours</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:#F1F3F6; --ink:#1A1D21; --accent:#A6C3D6; --accent-d:#7FA6BE;
+  --card:#FFFFFF; --cloud:#EDEFF7; --smoke:#D3D6E0; --steel:#BCBFCC;
+  --space:#9DA2B3; --graphite:#6E7180; --arsenic:#40424D;
+  --fd:'Manrope',sans-serif; --fm:'JetBrains Mono',monospace;
+}
+html, body {
+  background:#DEE0E5; display:flex; justify-content:center; align-items:flex-start;
+  min-height:100vh; padding:48px 16px 80px; font-family:var(--fd); -webkit-font-smoothing:antialiased;
+}
+.phone { width:430px; background:var(--bg); border-radius:52px; overflow:hidden;
+  box-shadow:0 0 0 1px rgba(0,0,0,0.07),0 4px 8px rgba(0,0,0,0.05),0 32px 80px rgba(0,0,0,0.18),0 12px 32px rgba(0,0,0,0.09); }
+.screen { height:932px; display:flex; flex-direction:column; align-items:center;
+  padding:0 30px; position:relative;
+  background:radial-gradient(ellipse 90% 46% at 50% 40%, rgba(166,195,214,0.20), transparent 70%), var(--bg); }
+
+/* kicker */
+.kicker { display:flex; align-items:center; gap:8px; margin-top:70px; font-family:var(--fm); font-size:10px;
+  letter-spacing:0.2em; text-transform:uppercase; color:var(--accent-d); }
+.live { width:6px; height:6px; border-radius:50%; background:var(--accent-d); animation:blink 1.4s ease-in-out infinite; }
+@keyframes blink { 0%,100%{opacity:1; box-shadow:0 0 0 0 rgba(127,166,190,0.5);} 50%{opacity:0.4; box-shadow:0 0 0 5px rgba(127,166,190,0);} }
+
+/* scan frame */
+.scan { position:relative; width:236px; height:296px; margin-top:36px; border-radius:26px; overflow:hidden;
+  background:var(--cloud); box-shadow:0 18px 48px rgba(40,60,80,0.22), 0 4px 12px rgba(0,0,0,0.08);
+  animation:scanIn 0.7s cubic-bezier(0.22,1,0.36,1) both 0.1s; }
+@keyframes scanIn { from{opacity:0; transform:translateY(14px) scale(0.97);} to{opacity:1; transform:none;} }
+.scan img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 22%; }
+.scan-tint { position:absolute; inset:0; background:linear-gradient(180deg, rgba(26,29,33,0.12), transparent 30%, transparent 70%, rgba(26,29,33,0.35)); }
+.scan-svg { position:absolute; inset:0; width:100%; height:100%; }
+
+/* mesh points pulse en vague */
+@keyframes ptGlow { 0%,100%{ opacity:0.25; transform:scale(0.7);} 45%{ opacity:1; transform:scale(1.25);} }
+.mp { transform-box:fill-box; transform-origin:center; animation:ptGlow 2.2s ease-in-out infinite; }
+.ml { stroke:rgba(255,255,255,0.32); stroke-width:0.7; }
+
+/* zones qui défilent */
+@keyframes zoneCycle { 0%{opacity:0;} 6%{opacity:1;} 27%{opacity:1;} 34%{opacity:0;} 100%{opacity:0;} }
+.zone { opacity:0; animation:zoneCycle 4.8s ease-in-out infinite; }
+.zone rect { fill:rgba(166,195,214,0.18); stroke:#A6C3D6; stroke-width:1.2; stroke-dasharray:4 3; }
+.zone text { font-family:'JetBrains Mono',monospace; font-size:8px; letter-spacing:0.12em; fill:#fff; }
+.z1{animation-delay:0s;} .z2{animation-delay:1.6s;} .z3{animation-delay:3.2s;}
+
+/* corners */
+.scan-corner { stroke:rgba(255,255,255,0.65); stroke-width:1.6; fill:none; stroke-linecap:round; }
+
+/* progress */
+.prog-wrap { width:236px; margin-top:30px; animation:rise 0.6s cubic-bezier(0.22,1,0.36,1) both 0.5s; }
+.prog-top { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:9px; }
+.prog-label { font-weight:700; font-size:15px; color:var(--ink); letter-spacing:-0.02em; }
+.prog-pct { font-family:var(--fm); font-size:12px; color:var(--accent-d); font-weight:500; }
+.prog-track { height:5px; background:var(--cloud); border-radius:100px; overflow:hidden; }
+.prog-fill { height:100%; width:0%; border-radius:100px; background:linear-gradient(to right, var(--accent), var(--accent-d)); transition:width 0.2s linear; }
+
+/* status message */
+.status { display:flex; align-items:center; gap:9px; margin-top:22px; min-height:18px; animation:rise 0.6s cubic-bezier(0.22,1,0.36,1) both 0.62s; }
+.status-dots { display:flex; gap:3px; }
+.status-dots i { width:4px; height:4px; border-radius:50%; background:var(--accent-d); animation:bob 1s ease-in-out infinite; }
+.status-dots i:nth-child(2){ animation-delay:0.15s; } .status-dots i:nth-child(3){ animation-delay:0.3s; }
+@keyframes bob { 0%,100%{transform:translateY(0); opacity:0.4;} 50%{transform:translateY(-3px); opacity:1;} }
+#msg { font-weight:500; font-size:13.5px; color:var(--graphite); letter-spacing:-0.01em; transition:opacity 0.25s; }
+
+.reassure { position:absolute; bottom:44px; display:flex; align-items:center; gap:7px; font-family:var(--fm); font-size:9px; letter-spacing:0.04em; color:var(--space); animation:rise 0.6s ease both 0.8s; }
+
+@keyframes rise { from{opacity:0; transform:translateY(12px);} to{opacity:1; transform:none;} }
+</style>
+</head>
+<body>
+<div class="phone">
+<div class="screen">
+
+  <div class="kicker"><span class="live"></span>Analyse IA en cours</div>
+
+  <!-- SCAN -->
+  <div class="scan">
+    <img src="capture-face.jpg" alt="">
+    <div class="scan-tint"></div>
+    <svg class="scan-svg" viewBox="0 0 236 296" fill="none">
+      <!-- mesh connectors -->
+      <g class="ml" fill="none">
+        <path d="M118 70 L88 96 M118 70 L148 96"/>
+        <path d="M88 96 L82 116 L108 116 M148 96 L154 116 L128 116"/>
+        <path d="M82 116 L72 150 L118 158 L164 150 L154 116"/>
+        <path d="M72 150 L92 178 L118 210 L144 178 L164 150"/>
+        <path d="M118 158 L92 178 M118 158 L144 178"/>
+        <path d="M108 116 L118 158 L128 116"/>
+      </g>
+      <!-- mesh points (pulse en vague) -->
+      <g fill="#A6C3D6">
+        <circle class="mp" cx="118" cy="70"  r="2.3" style="animation-delay:0s"/>
+        <circle class="mp" cx="88"  cy="96"  r="2.1" style="animation-delay:0.15s"/>
+        <circle class="mp" cx="148" cy="96"  r="2.1" style="animation-delay:0.15s"/>
+        <circle class="mp" cx="82"  cy="116" r="2"   style="animation-delay:0.3s"/>
+        <circle class="mp" cx="108" cy="116" r="2"   style="animation-delay:0.3s"/>
+        <circle class="mp" cx="128" cy="116" r="2"   style="animation-delay:0.3s"/>
+        <circle class="mp" cx="154" cy="116" r="2"   style="animation-delay:0.3s"/>
+        <circle class="mp" cx="72"  cy="150" r="2.1" style="animation-delay:0.5s"/>
+        <circle class="mp" cx="164" cy="150" r="2.1" style="animation-delay:0.5s"/>
+        <circle class="mp" cx="118" cy="158" r="2.5" style="animation-delay:0.65s"/>
+        <circle class="mp" cx="92"  cy="178" r="2"   style="animation-delay:0.8s"/>
+        <circle class="mp" cx="144" cy="178" r="2"   style="animation-delay:0.8s"/>
+        <circle class="mp" cx="118" cy="210" r="2.2" style="animation-delay:0.95s"/>
+      </g>
+
+      <!-- zones détectées (défilent) -->
+      <g class="zone z1"><rect x="96" y="58" width="44" height="108" rx="12"/><text x="118" y="52" text-anchor="middle">ZONE T</text></g>
+      <g class="zone z2"><rect x="64" y="128" width="40" height="48" rx="11"/><rect x="132" y="128" width="40" height="48" rx="11"/><text x="118" y="122" text-anchor="middle">JOUES</text></g>
+      <g class="zone z3"><rect x="74" y="100" width="88" height="30" rx="12"/><text x="118" y="94" text-anchor="middle">CONTOUR YEUX</text></g>
+
+      <!-- corners -->
+      <path class="scan-corner" d="M18 34 L18 18 L34 18"/>
+      <path class="scan-corner" d="M218 34 L218 18 L202 18"/>
+      <path class="scan-corner" d="M18 262 L18 278 L34 278"/>
+      <path class="scan-corner" d="M218 262 L218 278 L202 278"/>
+    </svg>
+  </div>
+
+  <!-- PROGRESS -->
+  <div class="prog-wrap">
+    <div class="prog-top"><span class="prog-label" id="plabel">Analyse de ta peau</span><span class="prog-pct" id="ppct">0%</span></div>
+    <div class="prog-track"><div class="prog-fill" id="pfill"></div></div>
+  </div>
+
+  <!-- STATUS -->
+  <div class="status">
+    <div class="status-dots"><i></i><i></i><i></i></div>
+    <span id="msg">Détection du visage…</span>
+  </div>
+
+  <div class="reassure">Ta photo est analysée puis supprimée — jamais conservée.</div>
+
+</div>
+</div>
+
+<script>
+(function(){
+  var msgs = [
+    "Détection du visage…",
+    "Lecture du grain de peau…",
+    "Analyse des pores et du sébum…",
+    "Cartographie du teint et de l'éclat…",
+    "Évaluation des zones sensibles…",
+    "Compilation de ton diagnostic…"
+  ];
+  var msgEl = document.getElementById('msg');
+  var fill = document.getElementById('pfill');
+  var pct = document.getElementById('ppct');
+  var label = document.getElementById('plabel');
+  var i = 0;
+
+  // messages qui défilent
+  var msgTimer = setInterval(function(){
+    i = (i + 1) % msgs.length;
+    msgEl.style.opacity = 0;
+    setTimeout(function(){ msgEl.textContent = msgs[i]; msgEl.style.opacity = 1; }, 250);
+  }, 850);
+
+  // progression 0 -> 100
+  var start = null, dur = 5200;
+  function ease(t){ return 1 - Math.pow(1 - t, 2.2); }
+  function step(ts){
+    if(!start) start = ts;
+    var p = Math.min((ts - start) / dur, 1);
+    var v = Math.round(ease(p) * 100);
+    fill.style.width = v + '%';
+    pct.textContent = v + '%';
+    if(p < 1){ requestAnimationFrame(step); }
+    else {
+      clearInterval(msgTimer);
+      msgEl.style.opacity = 0;
+      setTimeout(function(){ msgEl.textContent = "Diagnostic prêt"; msgEl.style.color = '#1A1D21'; msgEl.style.opacity = 1; }, 250);
+      label.textContent = "Terminé";
+      // transition automatique vers les résultats
+      setTimeout(function(){ window.location.href = 'prop_1.html'; }, 1300);
+    }
+  }
+  setTimeout(function(){ requestAnimationFrame(step); }, 600);
+})();
+</script>
+</body>
+</html>

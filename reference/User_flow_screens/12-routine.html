@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartSkin AI — Ta routine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg:#F1F3F6; --ink:#1A1D21; --accent:#A6C3D6; --accent-d:#7FA6BE; --accent-bg:rgba(166,195,214,0.14);
+  --card:#FFFFFF; --cloud:#EDEFF7; --smoke:#D3D6E0; --steel:#BCBFCC;
+  --space:#9DA2B3; --graphite:#6E7180; --arsenic:#40424D;
+  --fd:'Manrope',sans-serif; --fm:'JetBrains Mono',monospace;
+}
+html, body { background:#DEE0E5; display:flex; justify-content:center; align-items:flex-start;
+  min-height:100vh; padding:48px 16px 80px; font-family:var(--fd); -webkit-font-smoothing:antialiased; }
+.phone { width:430px; background:var(--bg); border-radius:52px; overflow:hidden;
+  box-shadow:0 0 0 1px rgba(0,0,0,0.07),0 4px 8px rgba(0,0,0,0.05),0 32px 80px rgba(0,0,0,0.18),0 12px 32px rgba(0,0,0,0.09); }
+.screen { height:932px; display:flex; flex-direction:column; background:var(--bg); }
+
+.nav { position:relative; padding:52px 22px 0; display:flex; align-items:center; gap:14px; animation:rise .5s cubic-bezier(.22,1,.36,1) both .05s; }
+.nav-logo { position:absolute; left:50%; top:52px; transform:translateX(-50%); height:40px; display:flex; align-items:center; pointer-events:none; }
+.nav-logo img { height:25px; width:auto; display:block; }
+.back { width:40px; height:40px; border-radius:50%; background:var(--card); border:1px solid rgba(0,0,0,0.05); box-shadow:0 1px 5px rgba(0,0,0,0.06); display:flex; align-items:center; justify-content:center; color:var(--ink); cursor:pointer; flex-shrink:0; }
+.nav-step { margin-left:auto; font-family:var(--fm); font-size:10px; color:var(--space); letter-spacing:0.1em; }
+
+.head { padding:16px 26px 14px; animation:rise .55s cubic-bezier(.22,1,.36,1) both .12s; }
+.head h1 { font-weight:800; font-size:27px; line-height:1.08; letter-spacing:-0.035em; color:var(--ink); }
+.head p { font-weight:400; font-size:12.5px; color:var(--graphite); margin-top:8px; }
+
+/* tabs */
+.tabs { margin:6px 22px 0; background:var(--cloud); border-radius:14px; padding:4px; display:flex; gap:4px; position:relative; animation:rise .55s cubic-bezier(.22,1,.36,1) both .2s; }
+.tab { flex:1; height:42px; border:none; background:transparent; cursor:pointer; border-radius:11px; font-family:var(--fd); font-weight:600; font-size:13.5px; color:var(--graphite); display:flex; align-items:center; justify-content:center; gap:7px; z-index:1; transition:color .25s; }
+.tab svg { width:15px; height:15px; }
+.tab.on { color:var(--ink); }
+.tab-slider { position:absolute; top:4px; left:4px; width:calc(50% - 6px); height:42px; background:var(--card); border-radius:11px; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform .3s cubic-bezier(.22,1,.36,1); }
+.tabs.night .tab-slider { transform:translateX(calc(100% + 4px)); }
+
+.scroll { flex:1; overflow-y:auto; padding:16px 22px 8px; scrollbar-width:none; }
+.scroll::-webkit-scrollbar { display:none; }
+.routine { display:flex; flex-direction:column; gap:10px; }
+.routine.hide { display:none; }
+
+/* ── product card (inspi-2, pleine largeur) ── */
+.pcard { background:var(--card); border-radius:20px; padding:13px; box-shadow:0 1px 2px rgba(0,0,0,0.025),0 8px 22px rgba(0,0,0,0.045);
+  display:flex; gap:14px; transition:transform .2s; animation:rise .5s cubic-bezier(.22,1,.36,1) both; }
+.pcard:active { transform:scale(0.99); }
+.pcard-img { position:relative; width:92px; height:110px; flex-shrink:0; background:var(--cloud); border-radius:15px; display:flex; align-items:center; justify-content:center; color:var(--graphite); overflow:hidden; }
+.pcard-img > img { max-width:80%; max-height:86%; width:auto; object-fit:contain; display:block; filter:drop-shadow(0 5px 9px rgba(26,29,33,0.14)); }
+.pcard-step { position:absolute; top:7px; left:7px; width:20px; height:20px; border-radius:50%; background:var(--ink); color:#fff; font-weight:700; font-size:10px; display:flex; align-items:center; justify-content:center; }
+.pcard-body { flex:1; min-width:0; display:flex; flex-direction:column; }
+.pcard-head { display:flex; align-items:center; gap:8px; }
+.pcard-cat { font-family:var(--fm); font-size:7.5px; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent-d); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); padding:3px 8px; border-radius:100px; }
+.pcard-brand { font-family:var(--fm); font-size:8px; letter-spacing:0.1em; text-transform:uppercase; color:var(--space); }
+.pcard-name { font-weight:700; font-size:14.5px; color:var(--ink); letter-spacing:-0.025em; line-height:1.12; margin-top:6px; }
+.pcard-why { font-size:11.5px; line-height:1.45; color:var(--graphite); margin-top:8px; padding-left:9px; border-left:2px solid var(--accent); }
+.pcard-why b { color:var(--arsenic); font-weight:600; }
+.pcard-foot { display:flex; align-items:center; justify-content:space-between; margin-top:auto; padding-top:11px; }
+.pcard-priceblock { display:flex; align-items:baseline; gap:8px; }
+.pcard-price { font-weight:800; font-size:18px; color:var(--ink); letter-spacing:-0.03em; }
+.pcard-freq { font-family:var(--fm); font-size:8px; letter-spacing:0.03em; color:var(--space); }
+.pcard-cta { display:inline-flex; align-items:center; gap:6px; height:36px; padding:0 14px; border-radius:11px; border:1.5px solid var(--smoke); background:var(--card); color:var(--ink); font-weight:600; font-size:12px; letter-spacing:-0.01em; text-decoration:none; cursor:pointer; flex-shrink:0; transition:border-color .2s, background .2s, color .2s, transform .15s; }
+.pcard-cta:hover { border-color:var(--ink); background:var(--ink); color:#fff; }
+.pcard-cta:active { transform:scale(0.96); }
+
+/* footer */
+.footer { padding:13px 22px 30px; background:linear-gradient(to top, var(--bg) 76%, transparent); animation:rise .55s cubic-bezier(.22,1,.36,1) both .4s; }
+.foot-card { background:var(--card); border:1px solid rgba(26,29,33,0.05); border-radius:18px; padding:14px 16px 15px; box-shadow:0 6px 20px rgba(0,0,0,0.06); }
+.foot-main { display:flex; align-items:center; gap:12px; justify-content:space-between; }
+.foot-left { display:flex; align-items:center; gap:12px; min-width:0; }
+.foot-icon { width:44px; height:44px; border-radius:13px; flex-shrink:0; background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); display:flex; align-items:center; justify-content:center; color:var(--accent-d); }
+.foot-title { font-weight:700; font-size:16px; color:var(--ink); letter-spacing:-0.03em; line-height:1; }
+.foot-sub { font-size:11.5px; color:var(--graphite); margin-top:5px; }
+.foot-total { font-weight:800; font-size:24px; color:var(--ink); letter-spacing:-0.035em; white-space:nowrap; flex-shrink:0; }
+.foot-note { display:flex; align-items:center; justify-content:center; gap:6px; margin-top:11px; font-family:var(--fm); font-size:8.5px; letter-spacing:0.04em; color:var(--space); }
+.foot-note svg { color:var(--accent-d); }
+
+@keyframes rise { from{opacity:0; transform:translateY(12px);} to{opacity:1; transform:none;} }
+
+/* svg flacons */
+.bottle { stroke:currentColor; stroke-width:1.4; fill:none; }
+</style>
+</head>
+<body>
+<div class="phone">
+<div class="screen">
+
+  <nav class="nav">
+    <div class="back" onclick="location.href='ingredients.html'"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"/></svg></div>
+    <div class="nav-logo"><img src="logo-smartskin.png" alt="SmartSkin AI"></div>
+    <span class="nav-step">Routine</span>
+  </nav>
+
+  <div class="head">
+    <h1>Ta routine sur-mesure.</h1>
+    <p>Chaque produit est choisi pour répondre à ton diagnostic — dans le bon ordre.</p>
+  </div>
+
+  <div class="tabs" id="tabs">
+    <div class="tab-slider"></div>
+    <button class="tab on" data-tab="day">
+      <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="9" cy="9" r="3.4"/><path d="M9 1.8v1.8M9 14.4v1.8M2.2 9h1.8M14 9h1.8M4 4l1.3 1.3M12.7 12.7L14 14M14 4l-1.3 1.3M5.3 12.7L4 14"/></svg>
+      Jour
+    </button>
+    <button class="tab" data-tab="night">
+      <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M14.5 10.4A6 6 0 1 1 7.6 3.5a4.6 4.6 0 0 0 6.9 6.9Z"/></svg>
+      Nuit
+    </button>
+  </div>
+
+  <div class="scroll">
+
+    <!-- JOUR -->
+    <div class="routine day" id="r-day">
+      <div class="pcard" style="animation-delay:.05s">
+        <div class="pcard-img"><span class="pcard-step">1</span><img src="prod-effaclar.png" alt="La Roche-Posay Effaclar"></div>
+        <div class="pcard-body">
+          <div class="pcard-head"><span class="pcard-cat">Nettoyant</span><span class="pcard-brand">La Roche-Posay</span></div>
+          <div class="pcard-name">Effaclar Gel Cleanser</div>
+          <div class="pcard-why">Nettoie et désincruste à l'<b>acide salicylique 2%</b> — cible l'<b>excès de sébum</b> et les <b>imperfections</b> sans décaper.</div>
+          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">$18.99</span></div><a class="pcard-cta" href="https://www.laroche-posay.us/our-products/face/acne-products/effaclar-medicated-acne-face-wash-effaclaracnewash.html" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+        </div>
+      </div>
+
+      <div class="pcard" style="animation-delay:.1s">
+        <div class="pcard-img"><span class="pcard-step">2</span><img src="prod-niacinamide.png" alt="The Ordinary Niacinamide 10% + Zinc 1%"></div>
+        <div class="pcard-body">
+          <div class="pcard-head"><span class="pcard-cat">Sérum</span><span class="pcard-brand">The Ordinary</span></div>
+          <div class="pcard-name">Niacinamide 10% + Zinc 1%</div>
+          <div class="pcard-why">Régule le <b>sébum</b> et resserre les <b>pores</b> — la <b>niacinamide</b> atténue imperfections et marques.</div>
+          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">~$6.50</span></div><a class="pcard-cta" href="https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+        </div>
+      </div>
+
+      <div class="pcard" style="animation-delay:.15s">
+        <div class="pcard-img"><span class="pcard-step">3</span><img src="prod-typology.png" alt="Typology A31 Sérum Hydratant"></div>
+        <div class="pcard-body">
+          <div class="pcard-head"><span class="pcard-cat">Sérum</span><span class="pcard-brand">Typology</span></div>
+          <div class="pcard-name">A31 — Sérum Hydratant</div>
+          <div class="pcard-why">Hydrate et repulpe à l'<b>acide hyaluronique</b> + <b>B5</b> — texture légère, <b>toutes peaux</b>.</div>
+          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">~$30</span></div><a class="pcard-cta" href="https://us.typology.com/products/hyaluronic-acid" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+        </div>
+      </div>
+
+      <div class="pcard" style="animation-delay:.2s">
+        <div class="pcard-img"><span class="pcard-step">4</span><img src="prod-dralthea.png" alt="Dr. Althea 345 Relief Cream"></div>
+        <div class="pcard-body">
+          <div class="pcard-head"><span class="pcard-cat">Crème</span><span class="pcard-brand">Dr. Althea</span></div>
+          <div class="pcard-name">345 Relief Cream</div>
+          <div class="pcard-why">Hydrate et <b>apaise</b> sans graisser — <b>non comédogène</b>, pensée pour les peaux <b>post-acné</b> et <b>sensibles</b>.</div>
+          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">$24–27</span></div><a class="pcard-cta" href="https://www.ulta.com/p/345-relief-cream-pimprod2056740" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NUIT -->
+    <div class="routine night hide" id="r-night">
+      <div class="pcard">
+        <div class="pcard-img"><span class="pcard-step">1</span><img src="prod-effaclar.png" alt="La Roche-Posay Effaclar"></div>
+        <div class="pcard-body">
+          <div class="pcard-head"><span class="pcard-cat">Nettoyant</span><span class="pcard-brand">La Roche-Posay</span></div>
+          <div class="pcard-name">Effaclar Gel Cleanser</div>
+          <div class="pcard-why">Retire le <b>sébum</b> et la pollution de la journée à l'<b>acide salicylique 2%</b> — clé avant les actifs du soir.</div>
+          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">$18.99</span></div><a class="pcard-cta" href="https://www.laroche-posay.us/our-products/face/acne-products/effaclar-medicated-acne-face-wash-effaclaracnewash.html" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+        </div>
+      </div>
+
+      <div class="pcard">
+        <div class="pcard-img"><span class="pcard-step">2</span><img src="prod-paula.png" alt="Paula's Choice 2% BHA Liquid Exfoliant"></div>
+        <div class="pcard-body">
+          <div class="pcard-head"><span class="pcard-cat">Exfoliant</span><span class="pcard-brand">Paula's Choice</span></div>
+          <div class="pcard-name">Skin Perfecting 2% BHA</div>
+          <div class="pcard-why">Désobstrue les pores à l'<b>acide salicylique (BHA)</b> — réduit <b>points noirs</b> et <b>imperfections</b>, lisse le grain.</div>
+          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">$37</span><span class="pcard-freq">2-3×/sem</span></div><a class="pcard-cta" href="https://www.paulaschoice.com/skin-perfecting-2pct-bha-liquid-exfoliant/201-2010.html" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+        </div>
+      </div>
+
+      <div class="pcard">
+        <div class="pcard-img"><span class="pcard-step">3</span><img src="prod-typology.png" alt="Typology A31 Sérum Hydratant"></div>
+        <div class="pcard-body">
+          <div class="pcard-head"><span class="pcard-cat">Sérum</span><span class="pcard-brand">Typology</span></div>
+          <div class="pcard-name">A31 — Sérum Hydratant</div>
+          <div class="pcard-why">Repulpe et <b>réhydrate</b> à l'<b>acide hyaluronique</b> + <b>B5</b> — compense l'effet desséchant de l'exfoliant.</div>
+          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">~$30</span></div><a class="pcard-cta" href="https://us.typology.com/products/hyaluronic-acid" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+        </div>
+      </div>
+
+      <div class="pcard">
+        <div class="pcard-img"><span class="pcard-step">4</span><img src="prod-dralthea.png" alt="Dr. Althea 345 Relief Cream"></div>
+        <div class="pcard-body">
+          <div class="pcard-head"><span class="pcard-cat">Crème</span><span class="pcard-brand">Dr. Althea</span></div>
+          <div class="pcard-name">345 Relief Cream</div>
+          <div class="pcard-why">Hydrate, <b>apaise</b> et répare la <b>barrière cutanée</b> pendant la nuit — <b>non comédogène</b>, peaux <b>sensibles</b>.</div>
+          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">$24–27</span></div><a class="pcard-cta" href="https://www.ulta.com/p/345-relief-cream-pimprod2056740" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="foot-card">
+      <div class="foot-main">
+        <div class="foot-left">
+          <div class="foot-icon" id="footIcon"><svg width="20" height="20" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="9" cy="9" r="3.4"/><path d="M9 1.8v1.8M9 14.4v1.8M2.2 9h1.8M14 9h1.8M4 4l1.3 1.3M12.7 12.7L14 14M14 4l-1.3 1.3M5.3 12.7L4 14"/></svg></div>
+          <div>
+            <div class="foot-title" id="footTitle">Routine du jour</div>
+            <div class="foot-sub" id="footSub">4 produits · à appliquer le matin</div>
+          </div>
+        </div>
+        <span class="foot-total" id="footTotal2">$80</span>
+      </div>
+    </div>
+    <div class="foot-note"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l4-4M9 3H6.6M9 3v2.4"/><path d="M9 7.2V9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h1.8"/></svg>Liens affiliés vers les marques</div>
+  </div>
+
+</div>
+</div>
+
+<script>
+(function(){
+  var tabs = document.getElementById('tabs');
+  var tabBtns = tabs.querySelectorAll('.tab');
+  var rDay = document.getElementById('r-day');
+  var rNight = document.getElementById('r-night');
+  var footTitle = document.getElementById('footTitle');
+  var footSub = document.getElementById('footSub');
+  var footTotal = document.getElementById('footTotal2');
+  var footIcon = document.getElementById('footIcon');
+  var sun = '<svg width="20" height="20" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="9" cy="9" r="3.4"/><path d="M9 1.8v1.8M9 14.4v1.8M2.2 9h1.8M14 9h1.8M4 4l1.3 1.3M12.7 12.7L14 14M14 4l-1.3 1.3M5.3 12.7L4 14"/></svg>';
+  var moon = '<svg width="20" height="20" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M14.5 10.4A6 6 0 1 1 7.6 3.5a4.6 4.6 0 0 0 6.9 6.9Z"/></svg>';
+  var data = {
+    day:   { title:'Routine du jour', sub:'4 produits · à appliquer le matin', total:'$80', icon:sun },
+    night: { title:'Routine du soir', sub:'4 produits · à appliquer le soir',  total:'$111', icon:moon }
+  };
+
+  tabBtns.forEach(function(b){
+    b.addEventListener('click', function(){
+      var t = b.dataset.tab;
+      tabBtns.forEach(function(x){ x.classList.toggle('on', x===b); });
+      tabs.classList.toggle('night', t==='night');
+      rDay.classList.toggle('hide', t!=='day');
+      rNight.classList.toggle('hide', t!=='night');
+      var d = data[t];
+      footTitle.textContent = d.title;
+      footSub.textContent = d.sub;
+      footTotal.textContent = d.total;
+      footIcon.innerHTML = d.icon;
+    });
+  });
+
+})();
+</script>
+</body>
+</html>

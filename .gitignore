@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# next.js
+.next/
+out/
+build/
+dist/
+
+# env / secrets — JAMAIS commités
+.env
+.env*.local
+.env.production
+
+# vertex / google credentials
+*-credentials.json
+gcloud-key.json
+
+# prisma
+prisma/*.db
+
+# logs / os
+*.log
+.DS_Store
+npm-debug.log*
+yarn-error.log*
+
+# editor
+.vscode/
+.idea/

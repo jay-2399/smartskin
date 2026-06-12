@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartSkin AI — Capture photo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:#F1F3F6; --ink:#1A1D21; --accent:#A6C3D6; --accent-d:#7FA6BE;
+  --green:#1FC977; --green-bg:rgba(31,201,119,0.16);
+  --card:#FFFFFF; --cloud:#EDEFF7; --smoke:#D3D6E0; --steel:#BCBFCC;
+  --space:#9DA2B3; --graphite:#6E7180; --arsenic:#40424D;
+  --fd:'Manrope',sans-serif; --fm:'JetBrains Mono',monospace;
+}
+html, body { background:#DEE0E5; display:flex; justify-content:center; align-items:flex-start;
+  min-height:100vh; padding:48px 16px 80px; font-family:var(--fd); -webkit-font-smoothing:antialiased; }
+.phone { width:430px; background:var(--bg); border-radius:52px; overflow:hidden;
+  box-shadow:0 0 0 1px rgba(0,0,0,0.07),0 4px 8px rgba(0,0,0,0.05),0 32px 80px rgba(0,0,0,0.18),0 12px 32px rgba(0,0,0,0.09); }
+.screen { height:932px; display:flex; flex-direction:column; padding:0 22px; background:var(--bg); }
+
+/* topbar */
+.topbar { padding:52px 2px 0; display:flex; align-items:center; gap:14px; animation:rise .5s cubic-bezier(.22,1,.36,1) both .05s; }
+.back { width:40px; height:40px; border-radius:50%; background:var(--card); border:1px solid rgba(0,0,0,0.05); box-shadow:0 1px 5px rgba(0,0,0,0.06); display:flex; align-items:center; justify-content:center; color:var(--ink); cursor:pointer; flex-shrink:0; }
+.tb-title { font-weight:700; font-size:15px; color:var(--ink); letter-spacing:-0.02em; }
+.tb-step { margin-left:auto; font-family:var(--fm); font-size:10px; color:var(--space); letter-spacing:0.08em; }
+
+.head { padding:18px 4px 14px; animation:rise .55s cubic-bezier(.22,1,.36,1) both .12s; }
+.head h1 { font-weight:800; font-size:23px; line-height:1.1; letter-spacing:-0.03em; color:var(--ink); }
+.head p { font-weight:400; font-size:12.5px; color:var(--graphite); margin-top:7px; }
+
+/* viewfinder */
+.vf { position:relative; width:100%; height:418px; border-radius:26px; overflow:hidden; background:#22252b;
+  box-shadow:0 16px 44px rgba(40,55,75,0.22); animation:scanIn .7s cubic-bezier(.22,1,.36,1) both .18s; }
+@keyframes scanIn { from{opacity:0; transform:translateY(14px) scale(.97);} to{opacity:1; transform:none;} }
+.vf img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 24%; }
+.vf-ovl { position:absolute; inset:0; width:100%; height:100%; }
+@keyframes mpGlow { 0%,100%{opacity:.3; transform:scale(.7);} 45%{opacity:1; transform:scale(1.2);} }
+.mp { transform-box:fill-box; transform-origin:center; animation:mpGlow 2.2s ease-in-out infinite; }
+.guide-oval { fill:none; stroke:rgba(255,255,255,0.85); stroke-width:2.2; stroke-dasharray:6 7; transition:stroke .4s; }
+.vf.ready .guide-oval { stroke:var(--green); stroke-dasharray:none; }
+.vf-corner { stroke:rgba(255,255,255,0.6); stroke-width:1.8; fill:none; stroke-linecap:round; }
+/* hint live en haut du cadre */
+.vf-hint { position:absolute; top:14px; left:50%; transform:translateX(-50%); font-family:var(--fm); font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#fff; background:rgba(26,29,33,0.5); -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px); padding:6px 12px; border-radius:100px; display:flex; align-items:center; gap:7px; transition:background .4s; }
+.vf-hint .ld { width:6px; height:6px; border-radius:50%; background:var(--accent); animation:blink 1.3s infinite; }
+.vf.ready .vf-hint { background:rgba(31,201,119,0.9); }
+.vf.ready .vf-hint .ld { background:#fff; animation:none; }
+@keyframes blink { 0%,100%{opacity:1;} 50%{opacity:.35;} }
+
+/* critères */
+.crit { display:grid; grid-template-columns:1fr 1fr; gap:7px 10px; padding:16px 4px 4px; animation:rise .55s cubic-bezier(.22,1,.36,1) both .3s; }
+.c { display:flex; align-items:center; gap:8px; font-size:11.5px; font-weight:500; color:var(--space); transition:color .3s; }
+.c .ico { width:18px; height:18px; border-radius:50%; flex-shrink:0; border:1.5px solid var(--smoke); background:var(--card); display:flex; align-items:center; justify-content:center; color:transparent; transition:all .3s cubic-bezier(.34,1.56,.64,1); }
+.c.ok { color:var(--arsenic); }
+.c.ok .ico { background:var(--green); border-color:var(--green); color:#fff; transform:scale(1.06); }
+
+/* tips */
+.tips { display:flex; flex-wrap:wrap; gap:6px; padding:14px 4px 0; animation:rise .55s ease both .4s; }
+.tip { font-family:var(--fm); font-size:8.5px; letter-spacing:0.03em; color:var(--graphite); background:var(--card); border:1px solid var(--smoke); padding:6px 10px; border-radius:100px; display:inline-flex; align-items:center; gap:6px; }
+.tip svg { color:var(--accent-d); }
+
+/* shutter */
+.shutter-zone { margin-top:30px; padding-bottom:38px; display:flex; flex-direction:column; align-items:center; gap:14px; animation:rise .55s ease both .5s; }
+.shutter { width:74px; height:74px; border-radius:50%; border:none; cursor:not-allowed; background:var(--smoke); position:relative; display:flex; align-items:center; justify-content:center; transition:background .3s, transform .15s; box-shadow:0 6px 18px rgba(0,0,0,0.12); }
+.shutter::after { content:''; width:58px; height:58px; border-radius:50%; border:3px solid var(--bg); background:var(--steel); transition:background .3s; }
+.shutter.on { background:var(--ink); cursor:pointer; animation:pulseBtn 1.8s ease-in-out infinite; }
+.shutter.on::after { background:var(--ink); border-color:#fff; }
+.shutter.on:active { transform:scale(0.94); }
+@keyframes pulseBtn { 0%,100%{box-shadow:0 6px 18px rgba(26,29,33,0.25), 0 0 0 0 rgba(166,195,214,0.5);} 60%{box-shadow:0 6px 18px rgba(26,29,33,0.25), 0 0 0 14px rgba(166,195,214,0);} }
+.shutter-lbl { font-family:var(--fm); font-size:9.5px; letter-spacing:0.06em; color:var(--space); transition:color .3s; }
+.shutter-lbl.ready { color:var(--green); }
+.reassure { font-family:var(--fm); font-size:9px; letter-spacing:0.04em; color:var(--space); }
+
+@keyframes rise { from{opacity:0; transform:translateY(12px);} to{opacity:1; transform:none;} }
+</style>
+</head>
+<body>
+<div class="phone">
+<div class="screen">
+
+  <div class="topbar">
+    <div class="back" onclick="location.href='q1.html'"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"/></svg></div>
+    <span class="tb-title">Capture photo</span>
+    <span class="tb-step">03</span>
+  </div>
+
+  <div class="head">
+    <h1>Cadre ton visage dans l'ovale.</h1>
+    <p>La photo se déclenche dès que tout est au vert.</p>
+  </div>
+
+  <!-- VIEWFINDER -->
+  <div class="vf" id="vf">
+    <img src="capture-face.jpg" alt="">
+    <svg class="vf-ovl" viewBox="0 0 386 418" fill="none" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <mask id="hole"><rect width="386" height="418" fill="#fff"/><ellipse cx="193" cy="206" rx="118" ry="150" fill="#000"/></mask>
+      </defs>
+      <rect width="386" height="418" fill="rgba(20,23,28,0.5)" mask="url(#hole)"/>
+      <ellipse class="guide-oval" cx="193" cy="206" rx="118" ry="150"/>
+      <!-- corners -->
+      <path class="vf-corner" d="M20 54 L20 36 L38 36"/>
+      <path class="vf-corner" d="M366 54 L366 36 L348 36"/>
+      <path class="vf-corner" d="M20 364 L20 382 L38 382"/>
+      <path class="vf-corner" d="M366 364 L366 382 L348 382"/>
+      <!-- mesh points sur le visage -->
+      <g fill="#A6C3D6">
+        <circle class="mp" cx="193" cy="118" r="2.4" style="animation-delay:0s"/>
+        <circle class="mp" cx="150" cy="160" r="2.2" style="animation-delay:.15s"/>
+        <circle class="mp" cx="236" cy="160" r="2.2" style="animation-delay:.15s"/>
+        <circle class="mp" cx="140" cy="200" r="2"   style="animation-delay:.3s"/>
+        <circle class="mp" cx="246" cy="200" r="2"   style="animation-delay:.3s"/>
+        <circle class="mp" cx="193" cy="214" r="2.6" style="animation-delay:.45s"/>
+        <circle class="mp" cx="160" cy="252" r="2"   style="animation-delay:.6s"/>
+        <circle class="mp" cx="226" cy="252" r="2"   style="animation-delay:.6s"/>
+        <circle class="mp" cx="193" cy="298" r="2.3" style="animation-delay:.75s"/>
+      </g>
+    </svg>
+    <div class="vf-hint" id="hint"><span class="ld"></span><span id="hintTxt">Détection…</span></div>
+  </div>
+
+  <!-- CRITÈRES -->
+  <div class="crit" id="crit">
+    <div class="c" data-i="0"><span class="ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.2l2 2 4-4.4"/></svg></span>Visage détecté</div>
+    <div class="c" data-i="1"><span class="ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.2l2 2 4-4.4"/></svg></span>Bonne distance</div>
+    <div class="c" data-i="2"><span class="ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.2l2 2 4-4.4"/></svg></span>Bien centré</div>
+    <div class="c" data-i="3"><span class="ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.2l2 2 4-4.4"/></svg></span>Face à la caméra</div>
+    <div class="c" data-i="4"><span class="ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.2l2 2 4-4.4"/></svg></span>Lumière suffisante</div>
+    <div class="c" data-i="5"><span class="ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.2l2 2 4-4.4"/></svg></span>Image nette</div>
+  </div>
+
+  <!-- SHUTTER -->
+  <div class="shutter-zone">
+    <button class="shutter" id="shutter" disabled></button>
+    <span class="shutter-lbl" id="slbl">Ajuste ton cadrage…</span>
+    <span class="reassure">Ta photo est analysée puis supprimée.</span>
+  </div>
+
+</div>
+</div>
+
+<script>
+(function(){
+  var crit = Array.prototype.slice.call(document.querySelectorAll('.c'));
+  var vf = document.getElementById('vf');
+  var shutter = document.getElementById('shutter');
+  var slbl = document.getElementById('slbl');
+  var hint = document.getElementById('hint');
+  var hintTxt = document.getElementById('hintTxt');
+
+  // les 6 critères passent au vert un à un (simulation détection live)
+  crit.forEach(function(c, idx){
+    setTimeout(function(){
+      c.classList.add('ok');
+      if (idx === 0) hintTxt.textContent = 'Visage détecté';
+    }, 700 + idx*420);
+  });
+
+  // tout vert -> prêt
+  setTimeout(function(){
+    vf.classList.add('ready');
+    hintTxt.textContent = 'Parfait, ne bouge plus';
+    shutter.classList.add('on');
+    shutter.disabled = false;
+    slbl.textContent = 'Appuie pour capturer';
+    slbl.classList.add('ready');
+  }, 700 + 6*420 + 250);
+
+  shutter.addEventListener('click', function(){
+    if (shutter.disabled) return;
+    // flash de capture puis transition (vers les questions Q2-Q7)
+    document.body.style.transition = 'opacity .25s';
+    window.location.href = 'q2.html';
+  });
+})();
+</script>
+</body>
+</html>
