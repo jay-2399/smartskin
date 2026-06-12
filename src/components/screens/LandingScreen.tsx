@@ -12,42 +12,7 @@ export function LandingScreen() {
   const router = useRouter();
   return (
     <div className="screen landing">
-      {/* PHOTO en bas */}
-      <div className="hero-photo">
-        <Image src="/woman-acne.png" alt="" width={2048} height={1810} priority />
-      </div>
-
-      {/* RECO CARD derrière la photo (z-index < visage) */}
-      <div className="reco-card rc1 reco-behind">
-        <div className="reco-img">
-          <Image src="/prod-effaclar.png" alt="La Roche-Posay Effaclar" width={1440} height={1440} />
-        </div>
-        <div className="reco-brand">La Roche-Posay</div>
-        <div className="reco-name">Effaclar Gel Cleanser</div>
-        <span className="reco-price">$18.99</span>
-      </div>
-
-      {/* RECO CARDS par-dessus la photo */}
-      <div className="reco">
-        <div className="reco-card rc2">
-          <div className="reco-img">
-            <Image src="/prod-dralthea.png" alt="Dr. Althea 345 Relief Cream" width={800} height={800} />
-          </div>
-          <div className="reco-brand">Dr. Althea</div>
-          <div className="reco-name">345 Relief Cream</div>
-          <span className="reco-price">$24.00</span>
-        </div>
-        <div className="reco-card rc3">
-          <div className="reco-img">
-            <Image src="/prod-paula.png" alt="Paula's Choice 2% BHA" width={1200} height={900} />
-          </div>
-          <div className="reco-brand">Paula&apos;s Choice</div>
-          <div className="reco-name">2% BHA Liquid Exfoliant</div>
-          <span className="reco-price">$35.00</span>
-        </div>
-      </div>
-
-      {/* CONTENU au-dessus */}
+      {/* CONTENU en haut (flux normal) */}
       <div className="content">
         <div className="brand">
           <Image src="/logo-smartskin.png" alt="SmartSkin AI" width={154} height={30} priority />
@@ -68,6 +33,43 @@ export function LandingScreen() {
           <p className="subtitle">
             Une IA analyse ta peau en quelques secondes. <b>Pas un quiz</b> — une vraie analyse visuelle.
           </p>
+        </div>
+      </div>
+
+      {/* ZONE HÉRO flexible : photo ancrée en bas + cartes produits */}
+      <div className="hero">
+        <div className="hero-photo">
+          <Image src="/woman-acne.png" alt="" width={2048} height={1810} priority />
+        </div>
+
+        {/* RECO CARD derrière la photo (z-index < visage) */}
+        <div className="reco-card rc1 reco-behind">
+          <div className="reco-img">
+            <Image src="/prod-effaclar.png" alt="La Roche-Posay Effaclar" width={1440} height={1440} />
+          </div>
+          <div className="reco-brand">La Roche-Posay</div>
+          <div className="reco-name">Effaclar Gel Cleanser</div>
+          <span className="reco-price">$18.99</span>
+        </div>
+
+        {/* RECO CARDS par-dessus la photo */}
+        <div className="reco">
+          <div className="reco-card rc2">
+            <div className="reco-img">
+              <Image src="/prod-dralthea.png" alt="Dr. Althea 345 Relief Cream" width={800} height={800} />
+            </div>
+            <div className="reco-brand">Dr. Althea</div>
+            <div className="reco-name">345 Relief Cream</div>
+            <span className="reco-price">$24.00</span>
+          </div>
+          <div className="reco-card rc3">
+            <div className="reco-img">
+              <Image src="/prod-paula.png" alt="Paula's Choice 2% BHA" width={1200} height={900} />
+            </div>
+            <div className="reco-brand">Paula&apos;s Choice</div>
+            <div className="reco-name">2% BHA Liquid Exfoliant</div>
+            <span className="reco-price">$35.00</span>
+          </div>
         </div>
       </div>
 

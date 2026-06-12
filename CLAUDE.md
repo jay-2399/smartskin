@@ -76,7 +76,7 @@ La **partie analyse** de SmartSkin : questionnaire + photo de visage contrôlée
 
 ## G. État
 **Plans 1 (Fondation) et 2 (Tunnel) exécutés.** Next.js 16 + Vitest + Prisma 7 + charte + render.yaml ; tunnel landing → q1 → capture (placeholder) → q2…q7 fidèle aux maquettes, état Zustand en mémoire, parcours vérifié au navigateur. Prochaine étape : Plan 3 (Capture MediaPipe).
-- **Les maquettes `reference/User_flow_screens/` sont la source de vérité visuelle** (libellés, icônes, max 3 sur q1, flux q1→capture→q2). En cas d'écart plan/maquette, suivre la maquette.
+- **Les maquettes `reference/User_flow_screens/` sont la source de vérité visuelle** (libellés, icônes, max 3 sur q1, flux q1→capture→q2). En cas d'écart plan/maquette, suivre la maquette — **SAUF le cadre « faux téléphone »** (fond gris, 430×932 figé) : c'était un artifice de présentation. **L'app est responsive** (exigence utilisateur) : plein viewport sur mobile, colonne centrée max 480px sur tablette/desktop, hauteur fluide (100dvh), landing en colonne flexible (zone héro extensible, cartes produits en % de la zone).
 Notes d'implémentation :
 - **Prisma 7** (décision validée) : URL de connexion dans `prisma.config.ts` (plus dans le schéma), client généré dans `src/generated/prisma/` (gitignoré, régénéré au `postinstall`), connexion via `@prisma/adapter-pg` dans `src/lib/db.ts`.
 - **Pas de Postgres local** (ni Docker) : la migration init a été générée hors-ligne (`prisma migrate diff`) ; Render l'applique via `migrate deploy`.
