@@ -5,7 +5,7 @@ La **partie analyse** de SmartSkin : questionnaire + photo de visage contrôlée
 > Séparé de la vitrine + blog (`smart-skin.ai`, hébergés sur Lovable). Déployé sur **Render (EU)**.
 
 ## Statut
-🟡 **Design validé** — implémentation pas encore commencée.
+🟢 **Plan 1 (Fondation) terminé** — scaffold Next.js 16, tests Vitest, env zod, Prisma 7, charte, config Render.
 
 ## Documents
 - **Spec :** [`docs/specs/2026-06-11-app-analyse-design.md`](docs/specs/2026-06-11-app-analyse-design.md)
