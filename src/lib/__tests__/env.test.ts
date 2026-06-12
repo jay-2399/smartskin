@@ -17,6 +17,7 @@ describe("parseEnv", () => {
   });
 
   it("rejette une DATABASE_URL absente", () => {
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars -- omission volontaire de la clé
     const { DATABASE_URL, ...rest } = valid;
     expect(() => parseEnv(rest)).toThrow();
   });
