@@ -4,7 +4,6 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useResult } from "@/features/analysis/resultStore";
 import { toSections } from "@/features/analysis/format";
-import { topConcerns } from "@/features/analysis/highlights";
 import { CARNATION_SWATCHES, UNDERTONE_SWATCHES } from "@/features/analysis/attributes";
 import { SAMPLE_RESULT } from "@/features/analysis/sample";
 import { ScoreGauge } from "@/components/ui/ScoreGauge";
@@ -37,7 +36,6 @@ export function ResultsScreen() {
   if (!result) return null;
 
   const sections = toSections(result);
-  const concerns = topConcerns(result, 3);
   const p = result.profile;
 
   return (
@@ -57,25 +55,6 @@ export function ResultsScreen() {
           <div className="hc-eyebrow">Résultat diagnostic</div>
           <ScoreGauge value={result.score} state={result.state} sub={result.sub} />
         </div>
-      </div>
-
-      {/* PRIORITÉS — synthèse personnalisée */}
-      <div className="priorities">
-        {concerns.length > 0 ? (
-          <>
-            <span className="prio-label">Tes priorités</span>
-            <div className="prio-chips">
-              {concerns.map((c, i) => (
-                <span className="prio-chip" key={c.id} style={{ ["--i" as string]: i }}>
-                  <span className="prio-dot" />
-                  {c.label}
-                </span>
-              ))}
-            </div>
-          </>
-        ) : (
-          <span className="prio-clear">Rien de préoccupant — ta peau est en pleine forme ✨</span>
-        )}
       </div>
 
       {/* PROFIL DE PEAU */}

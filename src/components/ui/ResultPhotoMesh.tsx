@@ -52,8 +52,8 @@ export function ResultPhotoMesh({ src }: { src: string | null }) {
 
         const ctx = canvas.getContext("2d")!;
         const du = new DrawingUtils(ctx);
-        du.drawConnectors(lms, FaceLandmarker.FACE_LANDMARKS_TESSELATION, { color: "rgba(166,195,214,0.30)", lineWidth: 0.5 * dpr });
-        const c = { color: "rgba(166,195,214,0.65)", lineWidth: 0.9 * dpr };
+        du.drawConnectors(lms, FaceLandmarker.FACE_LANDMARKS_TESSELATION, { color: "rgba(255,255,255,0.18)", lineWidth: 0.4 * dpr });
+        const c = { color: "rgba(255,255,255,0.4)", lineWidth: 0.6 * dpr };
         du.drawConnectors(lms, FaceLandmarker.FACE_LANDMARKS_FACE_OVAL, c);
         du.drawConnectors(lms, FaceLandmarker.FACE_LANDMARKS_LEFT_EYE, c);
         du.drawConnectors(lms, FaceLandmarker.FACE_LANDMARKS_RIGHT_EYE, c);
