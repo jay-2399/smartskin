@@ -39,7 +39,7 @@
   position:relative; display:flex; flex-direction:row; align-items:center; gap:14px;
   background:var(--card); border:1.5px solid rgba(26,29,33,0.07); border-radius:18px;
   padding:15px 48px 15px 15px; cursor:pointer; -webkit-tap-highlight-color:transparent;
-  font:inherit; text-align:left; color:inherit;
+  font:inherit; text-align:left; color:inherit; flex-shrink:0; /* jamais écrasé par le flex de .list */
   transition:background .22s, border-color .22s, transform .15s, box-shadow .22s, opacity .22s;
   /* backwards (pas both) : fill-mode both retiendrait opacity:1 et bloquerait .dim */
   animation:rise .5s cubic-bezier(.22,1,.36,1) backwards;
@@ -70,7 +70,7 @@
 
 /* ── q5 : gate (pastille carrée) + bloc révélé ── */
 .opt.gate .opt-radio { border-radius:8px; }
-.reveal { display:flex; flex-direction:column; gap:10px; overflow:hidden; max-height:0; opacity:0;
+.reveal { display:flex; flex-direction:column; gap:10px; overflow:hidden; max-height:0; opacity:0; flex-shrink:0;
   transform:translateY(-4px); transition:max-height .42s cubic-bezier(.22,1,.36,1), opacity .3s ease, transform .42s cubic-bezier(.22,1,.36,1); }
 /* plafond largement au-dessus du contenu réel (8 options ≈ 820px) — sinon il tronque */
 .reveal.open { max-height:1400px; opacity:1; transform:none; }
