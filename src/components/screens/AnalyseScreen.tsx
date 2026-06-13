@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useFunnel } from "@/features/funnel/store";
 import { useResult } from "@/features/analysis/resultStore";
@@ -28,21 +28,17 @@ async function blobToBase64(blob: Blob): Promise<string> {
 export function AnalyseScreen() {
   const router = useRouter();
   const photo = useFunnel((s) => s.photo);
-  const [photoUrl, setPhotoUrl] = useState<string | null>(null);
+  const photoUrl = useMemo(() => (photo ? URL.createObjectURL(photo) : null), [photo]);
   const [pct, setPct] = useState(0);
   const [msg, setMsg] = useState(MESSAGES[0]);
   const [error, setError] = useState(false);
   const started = useRef(false);
 
   useEffect(() => {
-    if (!photo) {
-      router.replace("/capture");
-      return;
-    }
-    const url = URL.createObjectURL(photo);
-    setPhotoUrl(url);
-    return () => URL.revokeObjectURL(url);
+    if (!photo) router.replace("/capture");
   }, [photo, router]);
+
+  useEffect(() => () => { if (photoUrl) URL.revokeObjectURL(photoUrl); }, [photoUrl]);
 
   useEffect(() => {
     if (started.current || !photo) return;

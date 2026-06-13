@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { useFunnel } from "@/features/funnel/store";
 
@@ -9,18 +9,15 @@ import { useFunnel } from "@/features/funnel/store";
 export function PhotoReviewScreen() {
   const router = useRouter();
   const photo = useFunnel((s) => s.photo);
-  const [url, setUrl] = useState<string | null>(null);
+  const url = useMemo(() => (photo ? URL.createObjectURL(photo) : null), [photo]);
 
   // Pas de photo (accès direct ou rechargement) → retour à la capture
   useEffect(() => {
-    if (!photo) {
-      router.replace("/capture");
-      return;
-    }
-    const u = URL.createObjectURL(photo);
-    setUrl(u);
-    return () => URL.revokeObjectURL(u);
+    if (!photo) router.replace("/capture");
   }, [photo, router]);
+
+  // Libère l'object URL quand la photo change / au démontage
+  useEffect(() => () => { if (url) URL.revokeObjectURL(url); }, [url]);
 
   const retake = () => {
     useFunnel.getState().setPhoto(null); // on jette la photo refusée
