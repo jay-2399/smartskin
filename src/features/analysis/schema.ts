@@ -23,6 +23,9 @@ export const AttributeResultSchema = z.object({
 });
 
 export const AnalysisResultSchema = z.object({
+  // Observations zone par zone rédigées par l'IA AVANT de noter (ancre son
+  // raisonnement → notes plus justes). Optionnel : ne bloque pas le bilan si absent.
+  observations: z.string().optional(),
   score: z.number().int().min(0).max(100),
   state: z.string().min(1),              // ex. "Bon état général"
   sub: z.string().min(1),                // ex. "Continue, tu es sur la bonne voie."

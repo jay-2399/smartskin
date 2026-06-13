@@ -4,6 +4,8 @@ import type { AnalysisResult } from "./schema";
 // pour pouvoir parcourir l'app de bout en bout sans appel réel ni compte.
 // Valeurs reprises de la maquette 11-prop_1-resultats.html.
 export const SAMPLE_RESULT: AnalysisResult = {
+  observations:
+    "Front : peau plutôt nette, légère brillance. Zone T : brillance marquée sur le nez, quelques pores dilatés. Joues : rougeurs localisées sur les ailes du nez, marques post-acné résiduelles. Menton : RAS. Yeux : cernes colorés modérés, pas de poches. Teint d'ensemble : uniforme et frais.",
   score: 84,
   state: "Bon état général",
   sub: "Continue, tu es sur la bonne voie.",
