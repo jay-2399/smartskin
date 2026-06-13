@@ -51,3 +51,17 @@ export function evaluateFrame(
 
   return { ...crit, canCapture, topMessage: firstError?.message ?? null };
 }
+
+/** Valide une image STATIQUE (photo uploadée) : mêmes critères que le live,
+ *  SANS la stabilité (inapplicable). Le centrage reste soft (non bloquant). */
+export function evaluateStaticImage(f: FaceFrame): { ok: boolean; message: string | null } {
+  const blocking = [
+    faceCountStatus(f.faceCount),
+    faceSizeStatus(f),
+    luminanceStatus(f.luminance),
+    orientationStatus(f.pose),
+    sharpnessStatus(f.sharpness),
+  ];
+  const firstError = blocking.find((c) => c.status !== "ok");
+  return { ok: !firstError, message: firstError?.message ?? null };
+}

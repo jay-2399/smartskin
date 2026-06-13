@@ -63,15 +63,18 @@ const NO_FACE: Omit<FaceFrame, "faceCount"> = {
   movementDelta: 1,
 };
 
-/** Extrait une FaceFrame d'une frame vidéo (live-analysis.md §3-4). */
-export function extractFrame(
-  landmarker: FaceLandmarker,
-  video: HTMLVideoElement,
-  prevCenter: { x: number; y: number } | null,
-  nowMs: number
+type Pt = { x: number; y: number };
+
+/** Construit une FaceFrame à partir de landmarks + d'une source dessinable
+ *  (vidéo OU image). Cœur commun à l'analyse live et à l'upload. */
+function buildFrame(
+  faces: Pt[][],
+  matrixData: number[] | undefined,
+  srcW: number,
+  srcH: number,
+  source: CanvasImageSource,
+  prevCenter: Pt | null
 ): ExtractResult {
-  const res = landmarker.detectForVideo(video, nowMs);
-  const faces = res.faceLandmarks ?? [];
   if (faces.length !== 1) {
     return { frame: { faceCount: faces.length, ...NO_FACE }, center: null };
   }
@@ -87,46 +90,74 @@ export function extractFrame(
   const bboxH = maxY - minY;
   const center = { x: (minX + maxX) / 2, y: (minY + maxY) / 2 };
 
-  // Taille : ratio vs ovale guide + hauteur projetée sur l'image finale
   const ratio = bboxH / (2 * OVAL.ryFrac);
-  const projectedHeight = bboxH * video.videoHeight;
-
-  // Pose (matrice faciale)
-  const matrix = res.facialTransformationMatrixes?.[0]?.data;
-  const pose = matrix ? eulerFromMatrix(Array.from(matrix)) : { yaw: 0, pitch: 0, roll: 0 };
-
-  // Centrage : offsets normalisés par les dimensions de l'ovale (spec §06)
+  const projectedHeight = bboxH * srcH;
+  const pose = matrixData ? eulerFromMatrix(matrixData) : { yaw: 0, pitch: 0, roll: 0 };
   const centerOffset = {
     x: Math.abs(center.x - OVAL.cx) / (2 * OVAL.rxFrac),
     y: Math.abs(center.y - OVAL.cy) / (2 * OVAL.ryFrac),
   };
-
-  // Stabilité : distance euclidienne vs frame précédente (fraction de largeur)
   const movementDelta = prevCenter
     ? Math.hypot(center.x - prevCenter.x, center.y - prevCenter.y)
     : 0;
 
   // Luminance + netteté sur la zone visage réduite à 64×64
   const ctx = sampleCtx();
-  ctx.drawImage(
-    video,
-    minX * video.videoWidth, minY * video.videoHeight,
-    (maxX - minX) * video.videoWidth, bboxH * video.videoHeight,
-    0, 0, SAMPLE, SAMPLE
-  );
+  ctx.drawImage(source, minX * srcW, minY * srcH, (maxX - minX) * srcW, bboxH * srcH, 0, 0, SAMPLE, SAMPLE);
   const rgba = ctx.getImageData(0, 0, SAMPLE, SAMPLE).data;
 
   return {
     frame: {
-      faceCount: 1,
-      projectedHeight,
-      ratio,
+      faceCount: 1, projectedHeight, ratio,
       luminance: luminanceStats(rgba, SAMPLE),
       pose,
       sharpness: laplacianVariance(rgba, SAMPLE),
-      centerOffset,
-      movementDelta,
+      centerOffset, movementDelta,
     },
     center,
   };
+}
+
+/** Extrait une FaceFrame d'une frame vidéo (live-analysis.md §3-4). */
+export function extractFrame(
+  landmarker: FaceLandmarker,
+  video: HTMLVideoElement,
+  prevCenter: Pt | null,
+  nowMs: number
+): ExtractResult {
+  const res = landmarker.detectForVideo(video, nowMs);
+  return buildFrame(
+    res.faceLandmarks ?? [],
+    res.facialTransformationMatrixes?.[0]?.data ? Array.from(res.facialTransformationMatrixes[0].data) : undefined,
+    video.videoWidth, video.videoHeight, video, prevCenter
+  );
+}
+
+/** Charge un FaceLandmarker en mode IMAGE (pour valider une photo uploadée). */
+export async function loadFaceMeshImage(): Promise<FaceLandmarker> {
+  const fileset = await FilesetResolver.forVisionTasks(
+    "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision/wasm"
+  );
+  return FaceLandmarker.createFromOptions(fileset, {
+    baseOptions: {
+      modelAssetPath:
+        "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task",
+    },
+    runningMode: "IMAGE",
+    numFaces: 2,
+    outputFacialTransformationMatrixes: true,
+  });
+}
+
+/** Extrait une FaceFrame d'une image statique (upload). movementDelta = 0. */
+export function extractFrameFromImage(
+  landmarker: FaceLandmarker,
+  img: HTMLImageElement
+): ExtractResult {
+  const res = landmarker.detect(img);
+  return buildFrame(
+    res.faceLandmarks ?? [],
+    res.facialTransformationMatrixes?.[0]?.data ? Array.from(res.facialTransformationMatrixes[0].data) : undefined,
+    img.naturalWidth, img.naturalHeight, img, null
+  );
 }

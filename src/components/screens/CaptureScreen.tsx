@@ -5,6 +5,7 @@ import { useFunnel } from "@/features/funnel/store";
 import { startCamera, stopCamera, captureJpeg } from "@/features/capture/camera";
 import { loadFaceMesh } from "@/features/capture/faceMesh";
 import { startValidationLoop } from "@/features/capture/validationLoop";
+import { validateAndPrepareUpload } from "@/features/capture/uploadValidation";
 import { VALIDATION_CONFIG } from "@/features/capture/config";
 import type { Status, ValidationState } from "@/features/capture/types";
 
@@ -105,6 +106,28 @@ export function CaptureScreen() {
     return () => clearInterval(iv);
   }, [canCapture, shoot]);
 
+  // ── Upload d'une photo existante ──
+  const fileRef = useRef<HTMLInputElement>(null);
+  const [uploading, setUploading] = useState(false);
+  const [uploadError, setUploadError] = useState<string | null>(null);
+
+  const onPick = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    e.target.value = ""; // permet de re-sélectionner le même fichier
+    if (!file) return;
+    setUploadError(null);
+    setUploading(true);
+    const res = await validateAndPrepareUpload(file);
+    setUploading(false);
+    if (!res.ok || !res.blob) {
+      setUploadError(res.message ?? "Photo non conforme.");
+      return;
+    }
+    // l'utilisateur a choisi cette photo → on continue directement, sans écran d'aperçu
+    useFunnel.getState().setPhoto(res.blob);
+    router.push("/questions/q2");
+  };
+
   const hintText = fatalError
     ? fatalError
     : loading
@@ -169,6 +192,19 @@ export function CaptureScreen() {
         <span className={`shutter-lbl${countdown !== null ? " ready" : ""}`}>
           {countdown !== null ? "Capture automatique en cours…" : "Ajuste ton cadrage…"}
         </span>
+
+        {/* Alternative : importer une photo existante */}
+        <input ref={fileRef} type="file" accept="image/*" hidden onChange={onPick} />
+        <button
+          type="button"
+          className="upload-link"
+          disabled={uploading}
+          onClick={() => fileRef.current?.click()}
+        >
+          {uploading ? "Vérification de la photo…" : "ou importer une photo"}
+        </button>
+        {uploadError && <span className="upload-err">{uploadError}</span>}
+
         <span className="reassure-capture">Ta photo est analysée puis supprimée.</span>
       </div>
     </div>

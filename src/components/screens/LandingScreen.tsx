@@ -1,6 +1,8 @@
 "use client";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useFunnel } from "@/features/funnel/store";
+import { useResult } from "@/features/analysis/resultStore";
 
 /* Port fidèle de reference/User_flow_screens/01-landing.html. */
 
@@ -10,6 +12,15 @@ const CheckIcon = () => (
 
 export function LandingScreen() {
   const router = useRouter();
+
+  // Nouvelle analyse → on repart d'un état vierge (sinon réponses/photo/résultat
+  // précédents restent en mémoire : cases pré-cochées, ancien bilan affiché).
+  const start = () => {
+    useFunnel.getState().reset();
+    useResult.getState().clear();
+    router.push("/questions/q1");
+  };
+
   return (
     <div className="screen landing">
       {/* CONTENU en haut (flux normal) */}
@@ -74,7 +85,7 @@ export function LandingScreen() {
       </div>
 
       <div className="cta-zone">
-        <button type="button" className="cta-btn" onClick={() => router.push("/questions/q1")}>
+        <button type="button" className="cta-btn" onClick={start}>
           Diagnostiquer ma peau en 1 minute
           <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M3 8.5h9M8 4l4.5 4.5L8 13" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </button>

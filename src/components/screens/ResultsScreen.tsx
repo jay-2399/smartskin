@@ -3,6 +3,7 @@ import { useEffect, useMemo } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useResult } from "@/features/analysis/resultStore";
+import { useFunnel } from "@/features/funnel/store";
 import { toSections } from "@/features/analysis/format";
 import { CARNATION_SWATCHES, UNDERTONE_SWATCHES } from "@/features/analysis/attributes";
 import { SAMPLE_RESULT } from "@/features/analysis/sample";
@@ -129,7 +130,7 @@ export function ResultsScreen() {
       ))}
 
       <div className="cta-wrap">
-        <button type="button" className="cta-btn" onClick={() => router.push("/")}>
+        <button type="button" className="cta-btn" onClick={() => { useFunnel.getState().reset(); useResult.getState().clear(); router.push("/"); }}>
           Refaire une analyse
           <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5h8M7.5 4l3.5 3.5-3.5 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </button>
