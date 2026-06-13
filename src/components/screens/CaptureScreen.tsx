@@ -46,7 +46,12 @@ export function CaptureScreen() {
     if (!file) return;
     setUploadError(null);
     setUploading(true);
+    const startedAt = Date.now();
     const res = await validateAndPrepareUpload(file);
+    // L'analyse peut être quasi instantanée (modèle en cache) ; on la garde VISIBLE
+    // au moins ~1 s pour que l'utilisateur voie que la photo a bien été vérifiée.
+    const elapsed = Date.now() - startedAt;
+    if (elapsed < 1000) await new Promise((r) => setTimeout(r, 1000 - elapsed));
     setUploading(false);
     if (!res.ok || !res.blob) {
       setUploadError(res.message ?? "Photo non conforme.");
@@ -103,6 +108,14 @@ function ChoiceView({
 }: { uploading: boolean; uploadError: string | null; onLive: () => void; onImport: () => void }) {
   return (
     <>
+      {uploading && (
+        <div className="cap-analyzing" role="status" aria-live="polite">
+          <span className="spinner" aria-hidden />
+          <p>Analyse de ta photo…</p>
+          <span className="cap-analyzing-sub">On vérifie le visage, le cadrage, la netteté et la lumière</span>
+        </div>
+      )}
+
       <div className="head">
         <h1>Ta photo de visage.</h1>
         <p>Prends-la maintenant avec ta caméra, ou importe une photo nette de ton visage.</p>
