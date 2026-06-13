@@ -42,7 +42,13 @@ export function AnalyseScreen() {
   const [pct, setPct] = useState(0);
   const [msg, setMsg] = useState(STAGES[0].msg);
   const [error, setError] = useState(false);
-  const started = useRef(false);
+
+  // État de l'appel, partagé entre les (re)montages StrictMode : l'appel ne part
+  // qu'une fois, mais la boucle d'animation, elle, est relancée à chaque montage.
+  const work = useRef<{
+    started: boolean; t0: number;
+    result: AnalysisResult | null; doneAt: number | null; failed: boolean;
+  }>({ started: false, t0: 0, result: null, doneAt: null, failed: false });
 
   useEffect(() => {
     if (!photo) router.replace("/capture");
@@ -51,50 +57,47 @@ export function AnalyseScreen() {
   useEffect(() => () => { if (photoUrl) URL.revokeObjectURL(photoUrl); }, [photoUrl]);
 
   useEffect(() => {
-    if (started.current || !photo) return;
-    started.current = true;
+    if (!photo) return;
+    const w = work.current;
 
+    // 1) appel réel — une seule fois
+    if (!w.started) {
+      w.started = true;
+      w.t0 = performance.now();
+      const answers = useFunnel.getState().answers;
+      (async () => {
+        try {
+          const res = await fetch("/api/analyze", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({ answers, image: await blobToBase64(photo) }),
+          });
+          if (res.status === 422) { router.replace("/capture"); return; }
+          if (!res.ok) { w.failed = true; return; }
+          w.result = await res.json();
+          w.doneAt = performance.now();
+        } catch {
+          w.failed = true;
+        }
+      })();
+    }
+
+    // 2) boucle d'animation — (re)démarrée à chaque montage
     let raf = 0;
-    let result: AnalysisResult | null = null;
-    let doneAt: number | null = null;   // moment où le résultat est arrivé
-    let pctAtDone: number | null = null; // % au moment de l'arrivée (pour finir en douceur)
+    let pctAtDone: number | null = null;
     let finishedAt: number | null = null;
-    let failed = false;
-    let navigated = false;
     let last = 0;
-    const t0 = performance.now();
 
-    // appel réel
-    const answers = useFunnel.getState().answers;
-    (async () => {
-      try {
-        const res = await fetch("/api/analyze", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({ answers, image: await blobToBase64(photo) }),
-        });
-        if (res.status === 422) { navigated = true; router.replace("/capture"); return; }
-        if (!res.ok) { failed = true; return; }
-        result = await res.json();
-        doneAt = performance.now();
-      } catch {
-        failed = true;
-      }
-    })();
-
-    // barre calée sur la durée réelle : avance vers ~90 % en attendant,
-    // puis termine à 100 % quand le résultat est là.
     const tick = (ts: number) => {
-      if (navigated) return;
-      if (failed) { setError(true); return; }
+      if (w.failed) { setError(true); return; }
 
       let value: number;
-      if (doneAt !== null) {
+      if (w.doneAt !== null) {
         if (pctAtDone === null) pctAtDone = last;
-        const k = Math.min((ts - doneAt) / 700, 1); // remontée vers 100 sur 700 ms
+        const k = Math.min((ts - w.doneAt) / 700, 1); // remontée vers 100 sur 700 ms
         value = pctAtDone + (100 - pctAtDone) * k;
       } else {
-        const p = Math.min((ts - t0) / EXPECTED_MS, 1);
+        const p = Math.min((ts - w.t0) / EXPECTED_MS, 1);
         value = (1 - Math.pow(1 - p, 2.4)) * 90; // ease-out plafonné à 90 % tant que l'IA répond
       }
       last = value;
@@ -104,8 +107,7 @@ export function AnalyseScreen() {
         setMsg("Diagnostic prêt");
         if (finishedAt === null) finishedAt = ts;
         if (ts - finishedAt >= 600) { // petit temps fort « prêt »
-          navigated = true;
-          if (result) useResult.getState().set(result, photo);
+          if (w.result) useResult.getState().set(w.result, photo);
           router.replace("/resultats");
           return;
         }
