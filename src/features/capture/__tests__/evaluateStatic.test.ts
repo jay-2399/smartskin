@@ -36,4 +36,25 @@ describe("evaluateStaticImage", () => {
   it("le centrage (soft) ne bloque pas", () => {
     expect(evaluateStaticImage({ ...good, centerOffset: { x: 0.4, y: 0 } }).ok).toBe(true);
   });
+
+  it("un selfie au visage plus petit que l'ovale du live → OK (seuils upload assouplis)", () => {
+    // ratio 0.30 échouerait au live (ratioMin 0.45) mais convient à une photo importée
+    expect(evaluateStaticImage({ ...good, ratio: 0.3, projectedHeight: 500 }).ok).toBe(true);
+  });
+
+  it("un léger 3/4 (yaw 28°) → OK pour un upload", () => {
+    expect(evaluateStaticImage({ ...good, pose: { yaw: 28, pitch: 5, roll: 4 } }).ok).toBe(true);
+  });
+
+  it("visage minuscule (ratio 0.10) → refus", () => {
+    const r = evaluateStaticImage({ ...good, ratio: 0.1, projectedHeight: 150 });
+    expect(r.ok).toBe(false);
+    expect(r.message).toMatch(/plus grand/i);
+  });
+
+  it("photo très sombre → refus", () => {
+    const r = evaluateStaticImage({ ...good, luminance: { mean: 30, stddev: 20, lateralDelta: 5 } });
+    expect(r.ok).toBe(false);
+    expect(r.message).toMatch(/sombre/i);
+  });
 });

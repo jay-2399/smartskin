@@ -52,16 +52,28 @@ export function evaluateFrame(
   return { ...crit, canCapture, topMessage: firstError?.message ?? null };
 }
 
-/** Valide une image STATIQUE (photo uploadée) : mêmes critères que le live,
- *  SANS la stabilité (inapplicable). Le centrage reste soft (non bloquant). */
+/** Valide une image STATIQUE (photo importée) avec des seuils ASSOUPLIS
+ *  (C.upload) : on n'impose PAS le cadrage ovale du live (une photo normale a un
+ *  visage plus petit et parfois un léger 3/4). Pas de stabilité ni de centrage. */
 export function evaluateStaticImage(f: FaceFrame): { ok: boolean; message: string | null } {
-  const blocking = [
+  const U = C.upload;
+  const checks: Criterion[] = [
     faceCountStatus(f.faceCount),
-    faceSizeStatus(f),
-    luminanceStatus(f.luminance),
-    orientationStatus(f.pose),
-    sharpnessStatus(f.sharpness),
+    f.ratio < U.ratioMin || f.projectedHeight < U.minProjected
+      ? { status: "error", message: "Le visage doit être plus grand sur la photo" }
+      : { status: "ok", message: null },
+    f.luminance.mean < U.meanMin
+      ? { status: "error", message: "Photo trop sombre" }
+      : f.luminance.mean > U.meanMax
+        ? { status: "error", message: "Photo trop claire (surexposée)" }
+        : { status: "ok", message: null },
+    Math.abs(f.pose.yaw) > U.yaw || Math.abs(f.pose.pitch) > U.pitch || Math.abs(f.pose.roll) > U.roll
+      ? { status: "error", message: "Le visage doit être de face" }
+      : { status: "ok", message: null },
+    f.sharpness < U.minVariance
+      ? { status: "error", message: "Photo trop floue" }
+      : { status: "ok", message: null },
   ];
-  const firstError = blocking.find((c) => c.status !== "ok");
+  const firstError = checks.find((c) => c.status !== "ok");
   return { ok: !firstError, message: firstError?.message ?? null };
 }

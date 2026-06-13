@@ -10,7 +10,8 @@ import { VALIDATION_CONFIG } from "@/features/capture/config";
 import type { Status, ValidationState } from "@/features/capture/types";
 
 /* Port fidèle de reference/User_flow_screens/03-capture.html,
-   branché sur la validation live (docs/specs/live-analysis.md). */
+   branché sur la validation live (docs/specs/live-analysis.md).
+   Choix d'abord : « Prendre une photo » (caméra live) ou « Importer une photo ». */
 
 const CheckIcon = () => (
   <svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M2 5.2l2 2 4-4.4" /></svg>
@@ -28,7 +29,123 @@ const CHIPS: { key: keyof Pick<ValidationState, "faceCount" | "faceSize" | "cent
 
 const chipClass = (s: Status) => (s === "ok" ? " ok" : s === "warning" ? " warn" : "");
 
+type Mode = "choice" | "live";
+
 export function CaptureScreen() {
+  const router = useRouter();
+  const [mode, setMode] = useState<Mode>("choice");
+
+  // ── Import d'une photo existante (disponible depuis l'écran de choix) ──
+  const fileRef = useRef<HTMLInputElement>(null);
+  const [uploading, setUploading] = useState(false);
+  const [uploadError, setUploadError] = useState<string | null>(null);
+
+  const onPick = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    e.target.value = ""; // permet de re-sélectionner le même fichier
+    if (!file) return;
+    setUploadError(null);
+    setUploading(true);
+    const res = await validateAndPrepareUpload(file);
+    setUploading(false);
+    if (!res.ok || !res.blob) {
+      setUploadError(res.message ?? "Photo non conforme.");
+      return;
+    }
+    // l'utilisateur a choisi cette photo → on continue directement, sans écran d'aperçu
+    useFunnel.getState().setPhoto(res.blob);
+    router.push("/questions/q2");
+  };
+
+  return (
+    <div className="screen capture">
+      <div className="topbar capture-topbar">
+        <button
+          type="button"
+          className="back"
+          aria-label="Retour"
+          onClick={() => (mode === "live" ? setMode("choice") : router.push("/questions/q1"))}
+        >
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13L5 8l5-5" /></svg>
+        </button>
+        <span className="tb-title">Capture photo</span>
+        <span className="tb-step">03</span>
+      </div>
+
+      {/* input fichier partagé (caché), déclenché depuis l'écran de choix */}
+      <input ref={fileRef} type="file" accept="image/*" hidden onChange={onPick} />
+
+      {mode === "choice" ? (
+        <ChoiceView
+          uploading={uploading}
+          uploadError={uploadError}
+          onLive={() => { setUploadError(null); setMode("live"); }}
+          onImport={() => fileRef.current?.click()}
+        />
+      ) : (
+        <LiveView onBack={() => setMode("choice")} />
+      )}
+    </div>
+  );
+}
+
+/* ───────────────────────── Écran de CHOIX ───────────────────────── */
+
+const CameraIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M3 8.5A1.5 1.5 0 014.5 7H7l1.2-1.8A1 1 0 019 4.8h6a1 1 0 01.8.4L17 7h2.5A1.5 1.5 0 0121 8.5v9A1.5 1.5 0 0119.5 19h-15A1.5 1.5 0 013 17.5z" /><circle cx="12" cy="12.5" r="3.3" /></svg>
+);
+const UploadIcon = () => (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M12 15V4" /><path d="M8 8l4-4 4 4" /><path d="M4 14v3.5A1.5 1.5 0 005.5 19h13a1.5 1.5 0 001.5-1.5V14" /></svg>
+);
+
+function ChoiceView({
+  uploading, uploadError, onLive, onImport,
+}: { uploading: boolean; uploadError: string | null; onLive: () => void; onImport: () => void }) {
+  return (
+    <>
+      <div className="head">
+        <h1>Ta photo de visage.</h1>
+        <p>Prends-la maintenant avec ta caméra, ou importe une photo nette de ton visage.</p>
+      </div>
+
+      <div className="cap-choice">
+        <button type="button" className="opt cap-opt" onClick={onLive} disabled={uploading}>
+          <span className="opt-ic"><CameraIcon /></span>
+          <span className="opt-tx">
+            <span className="opt-l">Prendre une photo</span>
+            <span className="opt-s">Cadrage guidé, capture automatique</span>
+          </span>
+          <span className="cap-opt-arrow">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M6 3l5 5-5 5" /></svg>
+          </span>
+        </button>
+
+        <button type="button" className="opt cap-opt" onClick={onImport} disabled={uploading}>
+          <span className="opt-ic"><UploadIcon /></span>
+          <span className="opt-tx">
+            <span className="opt-l">{uploading ? "Vérification de la photo…" : "Importer une photo"}</span>
+            <span className="opt-s">Depuis ta galerie — vérifiée automatiquement</span>
+          </span>
+          <span className="cap-opt-arrow">
+            {uploading
+              ? <span className="spinner sm" aria-hidden />
+              : <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M6 3l5 5-5 5" /></svg>}
+          </span>
+        </button>
+
+        {uploadError && <p className="cap-choice-err" role="alert">{uploadError}</p>}
+      </div>
+
+      <div className="shutter-zone cap-choice-foot">
+        <span className="reassure-capture">Ta photo est analysée puis supprimée — jamais conservée.</span>
+      </div>
+    </>
+  );
+}
+
+/* ───────────────────────── Écran LIVE (caméra) ───────────────────────── */
+
+function LiveView({ onBack }: { onBack: () => void }) {
   const router = useRouter();
   const videoRef = useRef<HTMLVideoElement>(null);
   const [loading, setLoading] = useState(true);
@@ -55,8 +172,8 @@ export function CaptureScreen() {
         setLoading(false);
         setFatalError(
           e instanceof DOMException && (e.name === "NotAllowedError" || e.name === "PermissionDeniedError")
-            ? "Autorise l'accès à la caméra pour continuer."
-            : "Impossible d'initialiser l'analyse, recharge la page."
+            ? "Autorise l'accès à la caméra, ou importe une photo."
+            : "Impossible d'initialiser la caméra, importe une photo."
         );
       }
     })();
@@ -106,28 +223,6 @@ export function CaptureScreen() {
     return () => clearInterval(iv);
   }, [canCapture, shoot]);
 
-  // ── Upload d'une photo existante ──
-  const fileRef = useRef<HTMLInputElement>(null);
-  const [uploading, setUploading] = useState(false);
-  const [uploadError, setUploadError] = useState<string | null>(null);
-
-  const onPick = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    e.target.value = ""; // permet de re-sélectionner le même fichier
-    if (!file) return;
-    setUploadError(null);
-    setUploading(true);
-    const res = await validateAndPrepareUpload(file);
-    setUploading(false);
-    if (!res.ok || !res.blob) {
-      setUploadError(res.message ?? "Photo non conforme.");
-      return;
-    }
-    // l'utilisateur a choisi cette photo → on continue directement, sans écran d'aperçu
-    useFunnel.getState().setPhoto(res.blob);
-    router.push("/questions/q2");
-  };
-
   const hintText = fatalError
     ? fatalError
     : loading
@@ -139,15 +234,7 @@ export function CaptureScreen() {
         : state?.topMessage ?? "Détection…";
 
   return (
-    <div className="screen capture">
-      <div className="topbar capture-topbar">
-        <button type="button" className="back" aria-label="Retour" onClick={() => router.push("/questions/q1")}>
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13L5 8l5-5" /></svg>
-        </button>
-        <span className="tb-title">Capture photo</span>
-        <span className="tb-step">03</span>
-      </div>
-
+    <>
       <div className="head">
         <h1>Cadre ton visage dans l&apos;ovale.</h1>
         <p>La photo se déclenche dès que tout est au vert.</p>
@@ -192,21 +279,13 @@ export function CaptureScreen() {
         <span className={`shutter-lbl${countdown !== null ? " ready" : ""}`}>
           {countdown !== null ? "Capture automatique en cours…" : "Ajuste ton cadrage…"}
         </span>
-
-        {/* Alternative : importer une photo existante */}
-        <input ref={fileRef} type="file" accept="image/*" hidden onChange={onPick} />
-        <button
-          type="button"
-          className="upload-link"
-          disabled={uploading}
-          onClick={() => fileRef.current?.click()}
-        >
-          {uploading ? "Vérification de la photo…" : "ou importer une photo"}
-        </button>
-        {uploadError && <span className="upload-err">{uploadError}</span>}
-
+        {fatalError && (
+          <button type="button" className="upload-link" onClick={onBack}>
+            ← importer une photo à la place
+          </button>
+        )}
         <span className="reassure-capture">Ta photo est analysée puis supprimée.</span>
       </div>
-    </div>
+    </>
   );
 }

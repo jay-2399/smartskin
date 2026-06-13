@@ -12,4 +12,15 @@ export const VALIDATION_CONFIG = {
   sharpness: { minVariance: 60 }, // à calibrer (Phase 1.5)
   centering: { maxOffset: 0.15 },
   autoCapture: { holdMs: 3000 }, // capture auto 3 s après tout-vert (décision produit)
+  // Seuils ASSOUPLIS pour une photo IMPORTÉE : pas de cadrage ovale imposé.
+  // Un selfie normal a un visage bien plus petit que l'ovale du live (ratio ~0.2-0.4)
+  // et souvent un léger 3/4 — on ne valide donc que l'essentiel pour l'analyse :
+  // un seul visage, assez grand et net, à peu près de face, ni trop sombre ni cramé.
+  upload: {
+    ratioMin: 0.18, // visage ≥ ~18 % du cadre (rejette un visage minuscule dans une photo large)
+    minProjected: 220, // au moins ~220 px de haut pour voir la peau
+    yaw: 32, pitch: 32, roll: 35, // 3/4 léger toléré
+    meanMin: 55, meanMax: 235, // ni trop sombre ni surexposé
+    minVariance: 35, // netteté (photos compressées un peu plus tolérées)
+  },
 } as const;
