@@ -130,9 +130,12 @@ export function ResultsScreen() {
       ))}
 
       <div className="cta-wrap">
-        <button type="button" className="cta-btn" onClick={() => { useFunnel.getState().reset(); useResult.getState().clear(); router.push("/"); }}>
-          Refaire une analyse
+        <button type="button" className="cta-btn" onClick={() => router.push("/routine")}>
+          Voir ma routine sur-mesure
           <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5h8M7.5 4l3.5 3.5-3.5 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+        </button>
+        <button type="button" className="cta-link" onClick={() => { useFunnel.getState().reset(); useResult.getState().clear(); router.push("/"); }}>
+          Refaire une analyse
         </button>
       </div>
     </div>
