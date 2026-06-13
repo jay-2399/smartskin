@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { analyzeWithGemini } from "@/features/analysis/gemini";
+import { analyzePhoto } from "@/features/analysis/analyze";
 
 // Analyse la photo + les réponses et renvoie le bilan.
 // Pas d'auth ni de sauvegarde pour l'instant (mode test sans compte) :
@@ -11,7 +11,7 @@ export async function POST(request: Request) {
   }
 
   const jpeg = Buffer.from(image, "base64");
-  const result = await analyzeWithGemini(jpeg, answers);
+  const result = await analyzePhoto(jpeg, answers);
 
   if (!result.photoQuality.ok) {
     return NextResponse.json(

@@ -26,7 +26,8 @@ export const AnalysisResultSchema = z.object({
   score: z.number().int().min(0).max(100),
   state: z.string().min(1),              // ex. "Bon état général"
   sub: z.string().min(1),                // ex. "Continue, tu es sur la bonne voie."
-  photoQuality: z.object({ ok: z.boolean(), issue: z.string().optional() }),
+  // issue : nullish — les LLM renvoient souvent null pour « non applicable »
+  photoQuality: z.object({ ok: z.boolean(), issue: z.string().nullish() }),
   profile: ProfileSchema,
   attributes: z.array(AttributeResultSchema),
 });
