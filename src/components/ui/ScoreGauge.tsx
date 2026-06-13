@@ -33,8 +33,8 @@ export function ScoreGauge({ value, state, sub }: { value: number; state: string
   useEffect(() => {
     // animations réduites (ou rAF indisponible) → afficher directement le score final
     if (typeof window !== "undefined" && window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
-      setNum(v);
-      return;
+      const id = requestAnimationFrame(() => setNum(v)); // différé : pas de setState synchrone
+      return () => cancelAnimationFrame(id);
     }
     // remplissage de l'arc
     const fill = fillRef.current;

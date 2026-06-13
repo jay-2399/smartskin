@@ -3,19 +3,29 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useFunnel } from "@/features/funnel/store";
 import { useResult } from "@/features/analysis/resultStore";
+import type { AnalysisResult } from "@/features/analysis/schema";
 
-/* Port fidèle de reference/User_flow_screens/10-analyse.html.
-   En parallèle de l'animation, appelle POST /api/analyze puis route vers /resultats. */
+/* Port de reference/User_flow_screens/10-analyse.html.
+   La barre de progression est calée sur la durée réelle de l'analyse :
+   elle avance jusqu'à ~90 % pendant l'attente (messages par étape), puis
+   termine à 100 % dès que le résultat arrive. */
 
-const MESSAGES = [
-  "Détection du visage…",
-  "Lecture du grain de peau…",
-  "Analyse des pores et du sébum…",
-  "Cartographie du teint et de l'éclat…",
-  "Évaluation des zones sensibles…",
-  "Compilation de ton diagnostic…",
+// Étapes affichées selon l'avancement (%). Tirées du déroulé d'une analyse.
+const STAGES: { at: number; msg: string }[] = [
+  { at: 0, msg: "Détection du visage…" },
+  { at: 14, msg: "Lecture du grain de peau…" },
+  { at: 30, msg: "Analyse des pores et du sébum…" },
+  { at: 48, msg: "Cartographie du teint et de l'éclat…" },
+  { at: 65, msg: "Évaluation des zones sensibles…" },
+  { at: 82, msg: "Compilation de ton diagnostic…" },
 ];
-const MIN_DURATION = 5200; // ms — laisse l'animation se jouer même si l'API répond vite
+const EXPECTED_MS = 26000; // latence typique gpt-5.5 (la barre s'y cale, sans jamais coller à 100)
+
+function stageFor(pct: number): string {
+  let m = STAGES[0].msg;
+  for (const s of STAGES) if (pct >= s.at) m = s.msg;
+  return m;
+}
 
 async function blobToBase64(blob: Blob): Promise<string> {
   const buf = await blob.arrayBuffer();
@@ -30,7 +40,7 @@ export function AnalyseScreen() {
   const photo = useFunnel((s) => s.photo);
   const photoUrl = useMemo(() => (photo ? URL.createObjectURL(photo) : null), [photo]);
   const [pct, setPct] = useState(0);
-  const [msg, setMsg] = useState(MESSAGES[0]);
+  const [msg, setMsg] = useState(STAGES[0].msg);
   const [error, setError] = useState(false);
   const started = useRef(false);
 
@@ -44,48 +54,70 @@ export function AnalyseScreen() {
     if (started.current || !photo) return;
     started.current = true;
 
-    // messages qui défilent
-    let mi = 0;
-    const msgTimer = setInterval(() => {
-      mi = (mi + 1) % MESSAGES.length;
-      setMsg(MESSAGES[mi]);
-    }, 850);
-
-    // progression animée
-    const t0 = performance.now();
     let raf = 0;
+    let result: AnalysisResult | null = null;
+    let doneAt: number | null = null;   // moment où le résultat est arrivé
+    let pctAtDone: number | null = null; // % au moment de l'arrivée (pour finir en douceur)
+    let finishedAt: number | null = null;
+    let failed = false;
+    let navigated = false;
+    let last = 0;
+    const t0 = performance.now();
+
+    // appel réel
+    const answers = useFunnel.getState().answers;
+    (async () => {
+      try {
+        const res = await fetch("/api/analyze", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ answers, image: await blobToBase64(photo) }),
+        });
+        if (res.status === 422) { navigated = true; router.replace("/capture"); return; }
+        if (!res.ok) { failed = true; return; }
+        result = await res.json();
+        doneAt = performance.now();
+      } catch {
+        failed = true;
+      }
+    })();
+
+    // barre calée sur la durée réelle : avance vers ~90 % en attendant,
+    // puis termine à 100 % quand le résultat est là.
     const tick = (ts: number) => {
-      const p = Math.min((ts - t0) / MIN_DURATION, 1);
-      setPct(Math.round((1 - Math.pow(1 - p, 2.2)) * 100));
-      if (p < 1) raf = requestAnimationFrame(tick);
+      if (navigated) return;
+      if (failed) { setError(true); return; }
+
+      let value: number;
+      if (doneAt !== null) {
+        if (pctAtDone === null) pctAtDone = last;
+        const k = Math.min((ts - doneAt) / 700, 1); // remontée vers 100 sur 700 ms
+        value = pctAtDone + (100 - pctAtDone) * k;
+      } else {
+        const p = Math.min((ts - t0) / EXPECTED_MS, 1);
+        value = (1 - Math.pow(1 - p, 2.4)) * 90; // ease-out plafonné à 90 % tant que l'IA répond
+      }
+      last = value;
+
+      if (value >= 99.5) {
+        setPct(100);
+        setMsg("Diagnostic prêt");
+        if (finishedAt === null) finishedAt = ts;
+        if (ts - finishedAt >= 600) { // petit temps fort « prêt »
+          navigated = true;
+          if (result) useResult.getState().set(result, photo);
+          router.replace("/resultats");
+          return;
+        }
+      } else {
+        setPct(Math.round(value));
+        setMsg(stageFor(value));
+      }
+      raf = requestAnimationFrame(tick);
     };
     raf = requestAnimationFrame(tick);
 
-    // appel API en parallèle
-    const answers = useFunnel.getState().answers;
-    const apiCall = (async () => {
-      const res = await fetch("/api/analyze", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ answers, image: await blobToBase64(photo) }),
-      });
-      return res;
-    })();
-
-    const minDelay = new Promise((r) => setTimeout(r, MIN_DURATION));
-
-    Promise.all([apiCall, minDelay])
-      .then(async ([res]) => {
-        if (res.status === 422) { router.replace("/capture"); return; }
-        if (!res.ok) { setError(true); return; }
-        const result = await res.json();
-        useResult.getState().set(result, photo);
-        router.replace("/resultats");
-      })
-      .catch(() => setError(true))
-      .finally(() => { clearInterval(msgTimer); cancelAnimationFrame(raf); });
-
-    return () => { clearInterval(msgTimer); cancelAnimationFrame(raf); };
+    return () => cancelAnimationFrame(raf);
   }, [photo, router]);
 
   return (
