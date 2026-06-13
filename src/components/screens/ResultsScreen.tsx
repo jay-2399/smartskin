@@ -4,9 +4,12 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useResult } from "@/features/analysis/resultStore";
 import { toSections } from "@/features/analysis/format";
+import { topConcerns } from "@/features/analysis/highlights";
 import { CARNATION_SWATCHES, UNDERTONE_SWATCHES } from "@/features/analysis/attributes";
 import { SAMPLE_RESULT } from "@/features/analysis/sample";
 import { ScoreGauge } from "@/components/ui/ScoreGauge";
+import { ResultPhotoMesh } from "@/components/ui/ResultPhotoMesh";
+import { Reveal } from "@/components/ui/Reveal";
 
 const ROMAN = ["I", "II", "III", "IV", "V", "VI"];
 
@@ -34,6 +37,7 @@ export function ResultsScreen() {
   if (!result) return null;
 
   const sections = toSections(result);
+  const concerns = topConcerns(result, 3);
   const p = result.profile;
 
   return (
@@ -48,19 +52,34 @@ export function ResultsScreen() {
 
       {/* HERO : photo + jauge de score */}
       <div className="hero-card">
-        <div className="hero-photo-big">
-          {/* eslint-disable-next-line @next/next/no-img-element -- blob en mémoire */}
-          {photoUrl && <img src={photoUrl} alt="Visage analysé" />}
-          <div className="frame-corners"><span className="fc-tl" /><span className="fc-tr" /><span className="fc-bl" /><span className="fc-br" /></div>
-        </div>
+        <ResultPhotoMesh src={photoUrl} />
         <div className="hero-score">
           <div className="hc-eyebrow">Résultat diagnostic</div>
           <ScoreGauge value={result.score} state={result.state} sub={result.sub} />
         </div>
       </div>
 
+      {/* PRIORITÉS — synthèse personnalisée */}
+      <div className="priorities">
+        {concerns.length > 0 ? (
+          <>
+            <span className="prio-label">Tes priorités</span>
+            <div className="prio-chips">
+              {concerns.map((c, i) => (
+                <span className="prio-chip" key={c.id} style={{ ["--i" as string]: i }}>
+                  <span className="prio-dot" />
+                  {c.label}
+                </span>
+              ))}
+            </div>
+          </>
+        ) : (
+          <span className="prio-clear">Rien de préoccupant — ta peau est en pleine forme ✨</span>
+        )}
+      </div>
+
       {/* PROFIL DE PEAU */}
-      <div className="r-section">
+      <Reveal as="section" className="r-section">
         <div className="sec-head"><span className="sec-name">Profil de peau</span></div>
         <div className="meta">
           <div className="pvar"><span className="pvar-name">Type de peau</span><span className="meta-v">{p.skinType}</span></div>
@@ -94,15 +113,15 @@ export function ResultsScreen() {
             <span className="meta-v pheading">Type {ROMAN[p.phototype - 1]}<small>{p.phototypeSub}</small></span>
           </div>
         </div>
-      </div>
+      </Reveal>
 
       {/* SECTIONS D'ATTRIBUTS */}
       {sections.map((sec) => (
-        <div className="r-section" key={sec.id}>
+        <Reveal as="section" className="r-section" key={sec.id}>
           <div className="sec-head"><span className="sec-name">{sec.label}</span></div>
           <div className="bento">
-            {sec.items.map((a) => (
-              <div className="vcard" key={a.id}>
+            {sec.items.map((a, i) => (
+              <div className="vcard" key={a.id} style={{ ["--i" as string]: i }}>
                 <div className="vc-main">
                   <div className="vc-id">
                     {a.icon && (
@@ -127,7 +146,7 @@ export function ResultsScreen() {
               </div>
             ))}
           </div>
-        </div>
+        </Reveal>
       ))}
 
       <div className="cta-wrap">

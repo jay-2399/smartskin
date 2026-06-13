@@ -17,6 +17,13 @@ function arc(a1: number, a2: number, r: number): string {
   return `M${x1.toFixed(2)} ${y1.toFixed(2)} A${r} ${r} 0 ${large} 1 ${x2.toFixed(2)} ${y2.toFixed(2)}`;
 }
 
+function scoreBand(v: number): string {
+  if (v >= 80) return "great";
+  if (v >= 60) return "good";
+  if (v >= 40) return "fair";
+  return "low";
+}
+
 export function ScoreGauge({ value, state, sub }: { value: number; state: string; sub: string }) {
   const v = Math.max(0, Math.min(100, value));
   const vA = sA + (span * v) / 100;
@@ -63,7 +70,7 @@ export function ScoreGauge({ value, state, sub }: { value: number; state: string
   }
 
   return (
-    <div className="scoregauge">
+    <div className={`scoregauge band-${scoreBand(v)}`}>
       <svg className="sg-svg" viewBox="0 0 240 168" overflow="visible">
         <defs>
           <linearGradient id="sgbgrad" x1="0" y1="1" x2="1" y2="0">
