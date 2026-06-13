@@ -1,6 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 
-const analyzeMock = vi.fn();
+const { analyzeMock } = vi.hoisted(() => ({ analyzeMock: vi.fn() }));
 vi.mock("@/features/analysis/gemini", () => ({ analyzeWithGemini: analyzeMock }));
 
 import { POST } from "@/app/api/analyze/route";
