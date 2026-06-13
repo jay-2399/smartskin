@@ -5,7 +5,11 @@ La **partie analyse** de SmartSkin : questionnaire + photo de visage contrôlée
 > Séparé de la vitrine + blog (`smart-skin.ai`, hébergés sur Lovable). Déployé sur **Render (EU)**.
 
 ## Statut
-🟢 **Plans 1, 2 et 3 terminés** — fondation (Next.js 16, Vitest, Prisma 7, Render), tunnel complet fidèle aux maquettes, capture live (MediaPipe + 6 critères bloquants en TDD, gate strict du déclencheur, photo en mémoire). Test caméra réelle à faire en local.
+🟢 **Plans 1, 2, 3 et 5 terminés** (Plan 4 Auth reporté). Parcours complet landing → questions → capture live → analyse Gemini → résultats, fidèle aux maquettes et responsive.
+
+- **Analyse** : `@google/genai` + clé Google AI Studio (`GEMINI_API_KEY`). Sans clé → bilan d'exemple (mode démo, sans compte).
+- **Démo résultats** sans webcam : `/resultats?demo=1`.
+- Reste : Plan 4 (compte email + mot de passe), Vertex AI EU pour la prod, persistance des analyses.
 
 ## Documents
 - **Spec :** [`docs/specs/2026-06-11-app-analyse-design.md`](docs/specs/2026-06-11-app-analyse-design.md)
