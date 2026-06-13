@@ -2,7 +2,15 @@ import type { AnalysisResult } from "./schema";
 import { SAMPLE_RESULT } from "./sample";
 import { openaiConfigured, analyzeWithOpenAI } from "./openai";
 import { geminiConfigured, analyzeWithGemini } from "./gemini";
+import { computeScore, scoreState } from "./score";
 import type { Answers } from "@/features/funnel/types";
+
+/** Remplace le score (et l'état) choisis librement par l'IA par un score
+ *  CALCULÉ à partir des 16 notes — cohérent et reproductible (cf. score.ts). */
+function withComputedScore(r: AnalysisResult): AnalysisResult {
+  const score = computeScore(r.attributes);
+  return { ...r, score, state: scoreState(score) };
+}
 
 export type Provider = "openai" | "gemini" | "demo";
 
@@ -21,10 +29,10 @@ export async function analyzePhoto(
 ): Promise<AnalysisResult> {
   switch (activeProvider()) {
     case "openai":
-      return analyzeWithOpenAI(imageJpeg, answers);
+      return withComputedScore(await analyzeWithOpenAI(imageJpeg, answers));
     case "gemini":
-      return analyzeWithGemini(imageJpeg, answers);
+      return withComputedScore(await analyzeWithGemini(imageJpeg, answers));
     default:
-      return SAMPLE_RESULT;
+      return SAMPLE_RESULT; // déjà cohérent par construction (cf. sample.ts)
   }
 }
