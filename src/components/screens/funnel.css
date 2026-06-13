@@ -72,7 +72,8 @@
 .opt.gate .opt-radio { border-radius:8px; }
 .reveal { display:flex; flex-direction:column; gap:10px; overflow:hidden; max-height:0; opacity:0;
   transform:translateY(-4px); transition:max-height .42s cubic-bezier(.22,1,.36,1), opacity .3s ease, transform .42s cubic-bezier(.22,1,.36,1); }
-.reveal.open { max-height:760px; opacity:1; transform:none; }
+/* plafond largement au-dessus du contenu réel (8 options ≈ 820px) — sinon il tronque */
+.reveal.open { max-height:1400px; opacity:1; transform:none; }
 .sub { font-family:var(--fm); font-size:10.5px; letter-spacing:0.07em; text-transform:uppercase; color:var(--graphite); padding:8px 4px 0; display:flex; align-items:center; gap:8px; }
 .sub::before { content:""; flex:0 0 18px; height:1px; background:var(--smoke); }
 
