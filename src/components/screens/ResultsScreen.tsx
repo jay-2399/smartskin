@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useResult } from "@/features/analysis/resultStore";
 import { toSections } from "@/features/analysis/format";
 import { CARNATION_SWATCHES, UNDERTONE_SWATCHES } from "@/features/analysis/attributes";
+import { SAMPLE_RESULT } from "@/features/analysis/sample";
 import { ScoreGauge } from "@/components/ui/ScoreGauge";
 
 const ROMAN = ["I", "II", "III", "IV", "V", "VI"];
@@ -13,8 +14,14 @@ const ROMAN = ["I", "II", "III", "IV", "V", "VI"];
    alimenté par le bilan en mémoire (useResult). */
 export function ResultsScreen() {
   const router = useRouter();
-  const result = useResult((s) => s.result);
+  const stored = useResult((s) => s.result);
   const photo = useResult((s) => s.photo);
+  // ?demo=1 → affiche le bilan d'exemple sans passer par la capture (démo testeurs)
+  const demo = useMemo(
+    () => typeof window !== "undefined" && new URLSearchParams(window.location.search).has("demo"),
+    []
+  );
+  const result = stored ?? (demo ? SAMPLE_RESULT : null);
   const photoUrl = useMemo(() => (photo ? URL.createObjectURL(photo) : null), [photo]);
 
   // Accès direct sans bilan en mémoire → retour à l'accueil

@@ -24,6 +24,11 @@ export function ScoreGauge({ value, state, sub }: { value: number; state: string
   const [num, setNum] = useState(0);
 
   useEffect(() => {
+    // animations réduites (ou rAF indisponible) → afficher directement le score final
+    if (typeof window !== "undefined" && window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
+      setNum(v);
+      return;
+    }
     // remplissage de l'arc
     const fill = fillRef.current;
     if (fill) {
