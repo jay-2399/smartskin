@@ -25,10 +25,11 @@ export function QuestionScreen({ step }: { step: StepId }) {
   const valid = isStepValid(step, answers);
   const i = STEP_ORDER.indexOf(step);
 
-  // Flux des maquettes : landing → q1 → capture → q2 … q7 → analyse (mur /compte au Plan 4)
+  // Flux : landing → q1 → capture → q2 … q7 → /analyse
+  // (le mur d'inscription /compte sera intercalé ici au Plan 4)
   const next = () => {
     if (step === "q1") router.push("/capture");
-    else if (step === "q7") router.push("/compte");
+    else if (step === "q7") router.push("/analyse");
     else router.push(`/questions/${STEP_ORDER[i + 1]}`);
   };
   const back = () => {

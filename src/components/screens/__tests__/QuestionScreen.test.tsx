@@ -57,10 +57,10 @@ describe("QuestionScreen q7", () => {
     push.mockClear();
   });
 
-  it("affiche « Lancer mon analyse » et route vers /compte", async () => {
+  it("affiche « Lancer mon analyse » et route vers /analyse", async () => {
     render(<QuestionScreen step="q7" />);
     await userEvent.click(screen.getByText("Rien à signaler"));
     await userEvent.click(screen.getByRole("button", { name: /Lancer mon analyse/ }));
-    expect(push).toHaveBeenCalledWith("/compte");
+    expect(push).toHaveBeenCalledWith("/analyse");
   });
 });
