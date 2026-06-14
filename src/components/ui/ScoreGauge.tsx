@@ -86,7 +86,8 @@ export function ScoreGauge({ value, state, sub }: { value: number; state: string
         <text className="sg-num" x="120" y="150" textAnchor="middle">{num}</text>
       </svg>
       <div className="sg-state">{state}</div>
-      <div className="sg-sub">{sub}</div>
+      {/* le sub peut contenir <b>…</b> (emphase de l'IA) → rendu HTML, pas texte brut */}
+      <div className="sg-sub" dangerouslySetInnerHTML={{ __html: sub }} />
     </div>
   );
 }

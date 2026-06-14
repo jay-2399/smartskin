@@ -10,14 +10,28 @@ export type RoutineStep = {
 };
 
 export type Routine = {
-  day: RoutineStep[];
-  night: RoutineStep[];
+  // Phase 1 = PROTOCOLE d'actifs (liste unique, ordonnée par étape de soin).
+  // PAS de routine produits matin/soir : ça, c'est la Phase 2.
+  steps: RoutineStep[];
   priorities: string[]; // libellés des préoccupations traitées en priorité
   avoid: string[]; // « à éviter pour toi » (issus de q2/q7)
   gentleStart: boolean; // introduire un actif à la fois
   timeline: string; // « ce que tu peux espérer »
-  minimal: boolean; // routine volontairement minimale (traitement dermato en cours)
+  minimal: boolean; // protocole volontairement minimal (traitement dermato en cours)
 };
+
+// Ordre d'application des soins (du plus fin au plus couvrant).
+const ROLE_ORDER: Record<string, number> = {
+  Nettoyant: 0, Sérum: 1, Traitement: 2, Hydratant: 3, Protection: 4,
+};
+
+/** Dédoublonne par id et ordonne par étape de soin. */
+function toSteps(actives: Active[], concerns: string[]): RoutineStep[] {
+  const seen = new Set<string>();
+  const unique = actives.filter((a) => (seen.has(a.id) ? false : (seen.add(a.id), true)));
+  unique.sort((a, b) => (ROLE_ORDER[a.role] ?? 9) - (ROLE_ORDER[b.role] ?? 9));
+  return unique.map((a) => step(a, concerns));
+}
 
 // Importance d'un attribut pour prioriser les préoccupations (aligné au barème).
 const IMPORTANCE: Record<string, number> = {
@@ -64,51 +78,38 @@ export function buildRoutine(result: AnalysisResult, answers: Answers): Routine 
     return true;
   };
 
-  // Routine MINIMALE si traitement dermato en cours (on n'ajoute pas d'actif).
+  // Protocole MINIMAL si traitement dermato en cours (on n'ajoute aucun actif).
   if (treatment) {
-    const day = [step(ACTIVES.gentle_cleanser, concerns), step(ACTIVES.moisturizer, concerns), step(ACTIVES.spf, concerns)];
-    const night = [step(ACTIVES.gentle_cleanser, concerns), step(ACTIVES.moisturizer, concerns)];
     return {
-      day, night, priorities: concerns.slice(0, 3).map((c) => CONCERN_PHRASE[c]),
+      steps: toSteps([ACTIVES.gentle_cleanser, ACTIVES.moisturizer, ACTIVES.spf], concerns),
+      priorities: concerns.slice(0, 3).map((c) => CONCERN_PHRASE[c]),
       avoid: avoidList(irritants, { pregnancy, condition, treatment }),
       gentleStart: true, timeline: timelineFor(concerns), minimal: true,
     };
   }
 
-  // Sérum du MATIN : vitamine C (éclat/taches) sinon niacinamide sinon hydratation.
-  const morningSerum =
+  // Actif « éclat/teint » : vitamine C (taches/éclat) sinon niacinamide sinon hydratation.
+  const brightening =
     (has("dark_spots") || has("radiance") || has("tone_evenness")) && usable(ACTIVES.vitamin_c)
       ? ACTIVES.vitamin_c
       : ACTIVES.niacinamide.targets.some(has)
         ? ACTIVES.niacinamide
         : ACTIVES.hyaluronic_acid;
 
-  // Traitement du SOIR : on prend le 1er actif pertinent (par ordre de priorité) et utilisable.
-  const nightCandidates = [ACTIVES.salicylic_acid, ACTIVES.retinoid, ACTIVES.aha, ACTIVES.azelaic_acid];
-  const nightTreatment =
-    nightCandidates.find((a) => a.targets.some(has) && usable(a)) ??
+  // Traitement principal : 1er actif pertinent (par ordre de priorité) et utilisable.
+  const treatmentCandidates = [ACTIVES.salicylic_acid, ACTIVES.retinoid, ACTIVES.aha, ACTIVES.azelaic_acid];
+  const mainTreatment =
+    treatmentCandidates.find((a) => a.targets.some(has) && usable(a)) ??
     (ACTIVES.niacinamide.targets.some(has) ? ACTIVES.niacinamide : ACTIVES.hyaluronic_acid);
 
-  // MATIN : nettoyant → sérum → hydratant → SPF
-  const day: RoutineStep[] = [
-    step(ACTIVES.gentle_cleanser, concerns),
-    step(morningSerum, concerns),
-    step(ACTIVES.moisturizer, concerns),
-    step(ACTIVES.spf, concerns),
-  ];
-
-  // SOIR : nettoyant → traitement → (apaisant si rougeurs et peau sensible) → hydratant
-  const night: RoutineStep[] = [step(ACTIVES.gentle_cleanser, concerns), step(nightTreatment, concerns)];
-  if (condition && has("redness") && nightTreatment.id !== ACTIVES.azelaic_acid.id) {
-    night.push(step(ACTIVES.centella, concerns));
-  }
-  if (has("flaking") && nightTreatment.id !== ACTIVES.hyaluronic_acid.id) {
-    night.push(step(ACTIVES.hyaluronic_acid, concerns));
-  }
-  night.push(step(ACTIVES.moisturizer, concerns));
+  // Protocole : nettoyant + actif éclat + traitement + (apaisant / hydratant ciblés) + crème + SPF.
+  const selected: Active[] = [ACTIVES.gentle_cleanser, brightening, mainTreatment];
+  if (condition && has("redness")) selected.push(ACTIVES.centella);
+  if (has("flaking")) selected.push(ACTIVES.hyaluronic_acid);
+  selected.push(ACTIVES.moisturizer, ACTIVES.spf);
 
   return {
-    day, night,
+    steps: toSteps(selected, concerns),
     priorities: concerns.slice(0, 3).map((c) => CONCERN_PHRASE[c]),
     avoid: avoidList(irritants, { pregnancy, condition, treatment }),
     gentleStart: noExperience || condition,

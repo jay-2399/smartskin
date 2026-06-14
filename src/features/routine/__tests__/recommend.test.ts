@@ -15,8 +15,7 @@ function result(overrides: Record<string, number> = {}): AnalysisResult {
 }
 const ans = (o: Partial<Answers> = {}): Answers => ({ ...EMPTY_ANSWERS, ...o });
 
-const names = (r: ReturnType<typeof buildRoutine>) =>
-  [...r.day, ...r.night].map((s) => s.active);
+const names = (r: ReturnType<typeof buildRoutine>) => r.steps.map((s) => s.active);
 
 describe("buildRoutine", () => {
   it("propose TOUJOURS un nettoyant, un hydratant et une protection solaire", () => {
