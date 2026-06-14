@@ -96,15 +96,26 @@ export function buildRoutine(result: AnalysisResult, answers: Answers): Routine 
         ? ACTIVES.niacinamide
         : ACTIVES.hyaluronic_acid;
 
-  // Traitement principal : 1er actif pertinent (par ordre de priorité) et utilisable.
-  const treatmentCandidates = [ACTIVES.salicylic_acid, ACTIVES.retinoid, ACTIVES.aha, ACTIVES.azelaic_acid];
-  const mainTreatment =
-    treatmentCandidates.find((a) => a.targets.some(has) && usable(a)) ??
-    (ACTIVES.niacinamide.targets.some(has) ? ACTIVES.niacinamide : ACTIVES.hyaluronic_acid);
+  // Traitement principal — choisi selon le TYPE de préoccupation dominante,
+  // PAS une liste fixe. Un exfoliant fort n'est proposé que s'il est vraiment pertinent :
+  //  - acide salicylique (BHA) : seulement si acné ou points noirs ;
+  //  - rétinoïde : signes d'âge / texture ;
+  //  - sinon (pores/brillance seuls → niacinamide ; taches/éclat → vitamine C).
+  const pick = (...ids: string[]) => ids.some(has);
+  let mainTreatment: Active | null = null;
+  if (pick("acne", "comedones")) {
+    mainTreatment = usable(ACTIVES.salicylic_acid) ? ACTIVES.salicylic_acid : ACTIVES.azelaic_acid;
+  } else if (pick("fine_lines", "wrinkles", "texture")) {
+    mainTreatment = usable(ACTIVES.retinoid) ? ACTIVES.retinoid
+      : usable(ACTIVES.aha) ? ACTIVES.aha : ACTIVES.azelaic_acid;
+  } else if (has("redness")) {
+    mainTreatment = ACTIVES.azelaic_acid; // doux : apaise rougeurs + estompe marques
+  }
 
-  // Protocole : nettoyant + actif éclat + traitement + (apaisant / hydratant ciblés) + crème + SPF.
-  const selected: Active[] = [ACTIVES.gentle_cleanser, brightening, mainTreatment];
-  if (condition && has("redness")) selected.push(ACTIVES.centella);
+  // Protocole : nettoyant + actif éclat + (traitement si pertinent) + apaisant/hydratant ciblés + crème + SPF.
+  const selected: Active[] = [ACTIVES.gentle_cleanser, brightening];
+  if (mainTreatment) selected.push(mainTreatment);
+  if (condition && has("redness") && mainTreatment?.id !== ACTIVES.azelaic_acid.id) selected.push(ACTIVES.centella);
   if (has("flaking")) selected.push(ACTIVES.hyaluronic_acid);
   selected.push(ACTIVES.moisturizer, ACTIVES.spf);
 

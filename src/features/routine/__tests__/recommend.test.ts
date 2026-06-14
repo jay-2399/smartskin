@@ -32,6 +32,13 @@ describe("buildRoutine", () => {
     expect(all.some((n) => /salicylique|Niacinamide/.test(n))).toBe(true);
   });
 
+  it("pores/brillance SANS acné → niacinamide, PAS d'acide salicylique", () => {
+    const r = buildRoutine(result({ pores: 2, shine: 2 }), ans());
+    const all = names(r).join(" | ");
+    expect(all).toMatch(/Niacinamide/);
+    expect(all).not.toMatch(/salicylique/i);
+  });
+
   it("SÉCURITÉ grossesse : aucun rétinoïde ni acide salicylique", () => {
     const r = buildRoutine(result({ acne: 3, fine_lines: 3, texture: 3 }), ans({ q7: ["pregnancy"] }));
     const all = names(r).join(" | ");
