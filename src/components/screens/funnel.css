@@ -126,8 +126,10 @@
 /* ancrées en bas, en % de la zone héro : suivent la photo sur toute hauteur d'écran */
 .reco-behind { z-index:0; }
 .rc1 { bottom:64%; left:42px; }
-.rc2 { bottom:19%; left:30px; }
-.rc3 { bottom:32%; right:22px; }
+/* plancher en px : les cartes basses restent toujours au-dessus du CTA (bottom 42px
+   + 58px = 100px), quelle que soit la hauteur d'écran (le % seul cassait sur desktop). */
+.rc2 { bottom:max(19%, 132px); left:30px; }
+.rc3 { bottom:max(32%, 132px); right:22px; }
 
 @keyframes pop { from{opacity:0; transform:translateY(26px) scale(.92);} to{opacity:1; transform:none;} }
 @keyframes floatA { 0%,100%{transform:translateY(0) rotate(-4deg);} 50%{transform:translateY(-9px) rotate(-4deg);} }
