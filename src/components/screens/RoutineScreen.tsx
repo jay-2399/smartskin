@@ -6,7 +6,7 @@ import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
 import { SAMPLE_RESULT } from "@/features/analysis/sample";
 import { EMPTY_ANSWERS } from "@/features/funnel/types";
-import { buildRoutine, type RoutineStep } from "@/features/routine/recommend";
+import { buildRoutine, type RoutineStep, type Layer } from "@/features/routine/recommend";
 
 function StepCard({ s, n }: { s: RoutineStep; n: number }) {
   return (
@@ -24,9 +24,9 @@ function StepCard({ s, n }: { s: RoutineStep; n: number }) {
   );
 }
 
-/* Phase 1 — PROTOCOLE de soin : les actifs/ingrédients conseillés + des conseils
-   généraux propres au profil. AUCUNE marque, aucun produit (= Phase 2), et PAS
-   de routine produits matin/soir (= Phase 2 aussi). Suite directe du reveal. */
+/* Phase 1 — PROTOCOLE de soin construit selon le playbook : 3 couches
+   (socle quotidien · actifs ciblés rotatifs · rituel hebdo), dosées par le
+   budget de tolérance. Ancien layout en cartes, AUCUNE marque ni produit. */
 export function RoutineScreen() {
   const router = useRouter();
   const stored = useResult((s) => s.result);
@@ -48,6 +48,12 @@ export function RoutineScreen() {
 
   if (!result || !routine) return null;
 
+  // Les 3 couches du playbook (§1), affichées en sections de cartes (même layout).
+  const byLayer = (l: Layer) => routine.steps.filter((s) => s.layer === l);
+  const socle = byLayer("socle");
+  const actifs = byLayer("actif");
+  const rituel = byLayer("rituel");
+
   return (
     <div className="screen routine">
       <nav className="r-nav">
@@ -60,7 +66,7 @@ export function RoutineScreen() {
 
       <div className="rt-headblock">
         <h1>Ton protocole sur-mesure.</h1>
-        <p>Voici les <b>actifs</b> dont ta peau a besoin et le <b>pourquoi</b> de chacun — sans marque ni produit. À toi de choisir des soins qui contiennent ces ingrédients.</p>
+        <p>Trois couches : le <b>socle</b> quotidien, les <b>actifs ciblés</b> sur ton bilan, et un <b>rituel</b>. Sans marque ni produit — à toi de choisir des soins qui contiennent ces ingrédients.</p>
       </div>
 
       {routine.priorities.length > 0 && (
@@ -72,24 +78,49 @@ export function RoutineScreen() {
         </div>
       )}
 
-      {routine.minimal && (
+      {routine.medicalNote && (
         <div className="rt-note warn">
-          <strong>Protocole volontairement minimal.</strong> Tu as indiqué un suivi dermatologique en cours :
-          on s&apos;en tient au nettoyage, à l&apos;hydratation et à la protection. <b>Valide tout nouvel actif avec ton dermatologue.</b>
+          <strong>À retenir.</strong> {routine.medicalNote}
         </div>
       )}
 
-      <div className="rt-secname">Les actifs recommandés pour toi</div>
-      <div className="rt-steps">
-        {routine.steps.map((s, i) => <StepCard key={s.active} s={s} n={i + 1} />)}
+      {/* Couche 1 — socle quotidien (coût 0, tous les jours). */}
+      {socle.length > 0 && (
+        <>
+          <div className="rt-secname"><span>Ton socle quotidien</span><span className="rt-tag">tous les jours</span></div>
+          <div className="rt-steps">
+            {socle.map((s, i) => <StepCard key={s.active} s={s} n={i + 1} />)}
+          </div>
+        </>
+      )}
+
+      {/* Couche 2 — actifs ciblés, dosés par le budget de tolérance. */}
+      {actifs.length > 0 && (
+        <>
+          <div className="rt-secname">
+            <span>Tes actifs ciblés</span>
+            <span className="rt-tag load" title="Charge d'irritation de la semaine vs ce que ta peau tolère">charge {routine.load}/{routine.ceiling}</span>
+          </div>
+          <div className="rt-steps">
+            {actifs.map((s, i) => <StepCard key={s.active} s={s} n={i + 1} />)}
+          </div>
+          <p className="rt-cap">Un seul actif fort par soir, jamais deux — et la fréquence ci-dessus est calée sur ce que ta peau encaisse, pour traiter sans irriter.</p>
+        </>
+      )}
+
+      {/* Couche 3 — rituel hebdo. */}
+      {rituel.length > 0 && (
+        <>
+          <div className="rt-secname"><span>Ton rituel hebdo</span></div>
+          <div className="rt-steps">
+            {rituel.map((s, i) => <StepCard key={s.active} s={s} n={i + 1} />)}
+          </div>
+        </>
+      )}
+
+      <div className="rt-note">
+        <strong>Comment doser.</strong> {routine.introduction}
       </div>
-
-      {routine.gentleStart && (
-        <div className="rt-note">
-          <strong>Commence en douceur.</strong> Introduis <b>un seul actif à la fois</b>, 2-3 fois par semaine au début,
-          puis augmente si ta peau le tolère. Mieux vaut lent et régulier que fort et irritant.
-        </div>
-      )}
 
       {routine.avoid.length > 0 && (
         <div className="rt-avoid">

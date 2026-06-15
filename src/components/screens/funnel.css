@@ -391,7 +391,10 @@
 .rt-prio-chips { display:flex; flex-wrap:wrap; gap:7px; }
 .rt-chip { font-size:12px; font-weight:600; color:var(--ink); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); padding:6px 12px; border-radius:100px; }
 
-.rt-secname { margin:18px 24px 0; font-family:var(--fm); font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:var(--space); animation:rise .55s ease both .2s; }
+.rt-secname { margin:18px 24px 0; display:flex; align-items:center; justify-content:space-between; gap:10px; font-family:var(--fm); font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:var(--space); animation:rise .55s ease both .2s; }
+.rt-tag { font-size:8.5px; letter-spacing:0.05em; color:var(--smoke); text-transform:none; }
+.rt-tag.load { color:var(--accent-d); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.35); padding:3px 9px; border-radius:100px; }
+.rt-cap { padding:6px 24px 0; font-size:11px; line-height:1.5; color:var(--space); }
 .rt-steps { padding:10px 22px 2px; display:flex; flex-direction:column; gap:10px; }
 .rt-card { display:flex; gap:13px; background:var(--card); border:1px solid rgba(26,29,33,0.05); border-radius:18px; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.02),0 8px 20px rgba(0,0,0,0.045); animation:rise .5s cubic-bezier(.22,1,.36,1) backwards; }
 .rt-step { width:24px; height:24px; border-radius:50%; background:var(--ink); color:#fff; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
