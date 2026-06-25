@@ -24,7 +24,7 @@ export function OptionList({
           <button
             type="button"
             key={o.value}
-            className={`opt${gate ? " gate" : ""}${isSel ? " sel" : ""}${isDim ? " dim" : ""}`}
+            className={`opt${gate ? " gate" : ""}${isSel ? " sel" : ""}${isDim ? " dim" : ""}${o.badge ? " featured" : ""}`}
             aria-pressed={isSel}
             onClick={() => onToggle(o.value)}
             style={baseDelay !== undefined ? { animationDelay: `${baseDelay + i * 0.04}s` } : undefined}
@@ -33,7 +33,10 @@ export function OptionList({
               <span className="opt-ic" aria-hidden dangerouslySetInnerHTML={{ __html: o.icon }} />
             )}
             <span className="opt-tx">
-              <span className="opt-l">{o.label}</span>
+              <span className="opt-l">
+                {o.label}
+                {o.badge && <span className="opt-badge">{o.badge}</span>}
+              </span>
               {o.sub && <span className="opt-s">{o.sub}</span>}
             </span>
             <span className="opt-radio" aria-hidden dangerouslySetInnerHTML={{ __html: CHECK_ICON }} />

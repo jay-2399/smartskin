@@ -48,6 +48,10 @@
 .opt-ic { width:46px; height:46px; border-radius:13px; background:var(--cloud); display:flex; align-items:center; justify-content:center; color:var(--graphite); flex-shrink:0; transition:background .22s, color .22s; }
 .opt-tx { min-width:0; display:block; }
 .opt-l { display:block; font-weight:700; font-size:15px; color:var(--ink); letter-spacing:-0.025em; line-height:1.12; transition:color .22s; }
+.opt-badge { display:inline-block; margin-left:8px; font-size:9.5px; font-weight:700; letter-spacing:0.03em; text-transform:uppercase; color:var(--gold-d,#b8860b); background:rgba(245,166,35,0.14); border:1px solid rgba(245,166,35,0.4); padding:2px 7px; border-radius:100px; vertical-align:middle; white-space:nowrap; }
+.opt.featured { border-color:rgba(245,166,35,0.45); background:linear-gradient(180deg, rgba(245,166,35,0.05), transparent); }
+.opt.featured.sel { background:var(--ink); }
+.opt.sel .opt-badge { color:#fff; background:rgba(255,255,255,0.16); border-color:rgba(255,255,255,0.3); }
 .opt-s { display:block; font-size:11.5px; color:var(--space); margin-top:3px; line-height:1.25; transition:color .22s; }
 .opt-radio { position:absolute; top:50%; right:15px; transform:translateY(-50%); width:24px; height:24px; border-radius:50%; border:1.8px solid var(--smoke);
   display:flex; align-items:center; justify-content:center; color:transparent; transition:all .22s cubic-bezier(.34,1.56,.64,1); }
@@ -101,9 +105,10 @@
 /* zone héro flexible : prend la hauteur restante sous le texte, photo ancrée en bas */
 .hero { position:relative; flex:1; min-height:240px; margin:0 -28px; overflow:hidden; }
 
-/* photo (plein bas de la zone héro) */
-.hero-photo { position:absolute; left:0; right:0; bottom:0; display:flex; justify-content:center; z-index:1; pointer-events:none; }
-.hero-photo img { width:126%; height:auto; max-width:none; display:block; transform:translateY(-140px); }
+/* photo : ancrée par le HAUT (le visage est en haut de l'image → toujours visible,
+   quelle que soit la hauteur d'écran) ; le cou descend et se fond dans le fond. */
+.hero-photo { position:absolute; left:0; right:0; top:0; display:flex; justify-content:center; z-index:1; pointer-events:none; }
+.hero-photo img { width:108%; height:auto; max-width:none; display:block; }
 .hero-photo::after { content:''; position:absolute; left:0; right:0; bottom:0; height:300px; background:linear-gradient(to top, var(--bg) 0%, var(--bg) 46%, rgba(241,243,246,0.55) 68%, transparent 100%); }
 
 /* cartes produits flottantes (positionnées dans .hero, ancrées en bas comme la photo) */
@@ -359,12 +364,13 @@
 .gauge { position:relative; height:42px; }
 .gauge-tip { position:absolute; top:0; left:clamp(24px, var(--p), calc(100% - 24px)); transform:translateX(-50%); font-weight:600; font-size:11.5px; letter-spacing:-0.01em; color:var(--graphite); white-space:nowrap; }
 .gauge.lv1 .gauge-tip { color:var(--space); }
-.gauge-track { position:absolute; left:0; right:0; top:29px; height:5px; background:var(--cloud); border-radius:100px; }
-.gauge-fill { position:absolute; left:0; top:29px; height:5px; border-radius:100px; width:var(--p); background:linear-gradient(to right, var(--smoke), var(--tan, #A6C3D6)); animation:gFill 1.1s cubic-bezier(.22,1,.36,1) both .25s; }
-.gauge.lv1 .gauge-fill { background:var(--smoke); }
+/* bande support = gradient vert (bon) → rouge (mauvais). Par défaut le BAS de la
+   jauge est le bon côté → vert à gauche. `.good-high` inverse (vert à droite)
+   pour une éventuelle métrique « plus = mieux ». Le curseur (knob) se place à --p. */
+.gauge-track { position:absolute; left:0; right:0; top:29px; height:5px; border-radius:100px;
+  background:linear-gradient(to right, var(--green) 0%, #EBAE3C 50%, #E15C53 100%); }
+.gauge.good-high .gauge-track { background:linear-gradient(to right, #E15C53 0%, #EBAE3C 50%, var(--green) 100%); }
 .gauge-knob { position:absolute; top:31.5px; left:var(--p); width:7.5px; height:25px; border-radius:100px; background:var(--ink); transform:translate(-50%,-50%); box-shadow:0 2px 7px rgba(26,29,33,0.42); animation:gKnob 1.1s cubic-bezier(.22,1,.36,1) both .25s; }
-.gauge.lv1 .gauge-knob { background:var(--space); }
-@keyframes gFill { from{width:0;} to{width:var(--p);} }
 @keyframes gKnob { from{left:0;} to{left:var(--p);} }
 .gauge-ends { display:flex; justify-content:space-between; margin-top:9px; }
 .ge { font-family:var(--fm); font-size:8px; color:var(--steel); letter-spacing:0.03em; }
@@ -377,55 +383,6 @@
 .cta-btn.ghost { background:var(--card); color:var(--ink); box-shadow:none; border:1.5px solid var(--smoke); }
 .cta-btn.ghost:hover { border-color:var(--steel); }
 .cta-link { background:none; border:none; color:var(--graphite); font-family:var(--fm); font-size:11.5px; letter-spacing:0.02em; text-decoration:underline; cursor:pointer; padding:4px 6px; }
-
-/* ════════════════════════════════════════════════════════════════════
-   Routine — Phase 1 (conseils 100 % actifs, AUCUNE marque)
-   Réutilise les onglets Jour/Nuit de la maquette 12-routine.
-   ════════════════════════════════════════════════════════════════════ */
-.screen.routine { overflow-y:auto; scrollbar-width:none; }
-.screen.routine::-webkit-scrollbar { display:none; }
-.rt-headblock { padding:16px 24px 4px; animation:rise .55s cubic-bezier(.22,1,.36,1) both .1s; }
-.rt-headblock h1 { font-weight:800; font-size:24px; line-height:1.08; letter-spacing:-0.035em; color:var(--ink); }
-.rt-headblock p { font-size:12.5px; line-height:1.5; color:var(--graphite); margin-top:9px; }
-
-.rt-prio { padding:12px 24px 2px; display:flex; flex-direction:column; gap:8px; animation:rise .55s ease both .16s; }
-.rt-prio-lbl { font-family:var(--fm); font-size:9px; letter-spacing:0.08em; text-transform:uppercase; color:var(--space); }
-.rt-prio-chips { display:flex; flex-wrap:wrap; gap:7px; }
-.rt-chip { font-size:12px; font-weight:600; color:var(--ink); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); padding:6px 12px; border-radius:100px; }
-
-.rt-secname { margin:18px 24px 0; display:flex; align-items:center; justify-content:space-between; gap:10px; font-family:var(--fm); font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:var(--space); animation:rise .55s ease both .2s; }
-.rt-tag { font-size:8.5px; letter-spacing:0.05em; color:var(--smoke); text-transform:none; }
-.rt-tag.load { color:var(--accent-d); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.35); padding:3px 9px; border-radius:100px; }
-.rt-cap { padding:6px 24px 0; font-size:11px; line-height:1.5; color:var(--space); }
-.rt-steps { padding:10px 22px 2px; display:flex; flex-direction:column; gap:10px; }
-.rt-card { display:flex; gap:13px; background:var(--card); border:1px solid rgba(26,29,33,0.05); border-radius:18px; padding:14px; box-shadow:0 1px 2px rgba(0,0,0,0.02),0 8px 20px rgba(0,0,0,0.045); animation:rise .5s cubic-bezier(.22,1,.36,1) backwards; }
-.rt-step { width:24px; height:24px; border-radius:50%; background:var(--ink); color:#fff; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
-.rt-body { flex:1; min-width:0; }
-.rt-top { display:flex; align-items:center; gap:8px; }
-.rt-role { font-family:var(--fm); font-size:8px; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent-d); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); padding:3px 8px; border-radius:100px; }
-.rt-freq { font-family:var(--fm); font-size:8.5px; letter-spacing:0.03em; color:var(--space); }
-.rt-name { font-weight:700; font-size:15px; color:var(--ink); letter-spacing:-0.025em; line-height:1.12; margin-top:7px; }
-.rt-why { font-size:11.5px; line-height:1.45; color:var(--graphite); margin-top:7px; padding-left:9px; border-left:2px solid var(--accent); }
-.rt-why b { color:var(--arsenic); font-weight:600; }
-
-.rt-note { margin:12px 22px 0; background:var(--cloud); border-radius:14px; padding:13px 15px; font-size:12px; line-height:1.5; color:var(--arsenic); }
-.rt-note strong { color:var(--ink); }
-.rt-note b { color:var(--ink); font-weight:600; }
-.rt-note.warn { background:rgba(232,163,61,0.1); border:1px solid rgba(232,163,61,0.25); }
-
-.rt-avoid { margin:12px 22px 0; background:var(--card); border:1px solid rgba(26,29,33,0.06); border-radius:16px; padding:14px 16px; }
-.rt-avoid-lbl { font-family:var(--fm); font-size:9px; letter-spacing:0.08em; text-transform:uppercase; color:#C2410C; }
-.rt-avoid ul { margin:9px 0 0; padding-left:18px; }
-.rt-avoid li { font-size:12px; line-height:1.55; color:var(--graphite); }
-
-.rt-timeline { margin:12px 22px 0; display:flex; gap:12px; align-items:flex-start; background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); border-radius:16px; padding:14px 16px; }
-.rt-tl-ico { color:var(--accent-d); flex-shrink:0; margin-top:1px; }
-.rt-timeline p { font-size:12px; line-height:1.5; color:var(--arsenic); }
-.rt-timeline strong { color:var(--ink); }
-.rt-timeline b { color:var(--ink); font-weight:600; }
-
-.rt-soon { margin:16px 22px 2px; text-align:center; font-family:var(--fm); font-size:10px; letter-spacing:0.03em; line-height:1.6; color:var(--space); }
-.rt-soon b { color:var(--graphite); }
 
 /* ════════════════════════════════════════════════════════════════════
    Reveal & chorégraphie des résultats

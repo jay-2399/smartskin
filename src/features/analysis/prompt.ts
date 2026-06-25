@@ -37,7 +37,6 @@ function describeAnswers(a: Answers): string {
     `- Actifs déjà tolérés : ${labelsFor("q3", a.q3)}`,
     `- Crème solaire (SPF) : ${singleLabel("q4", a.q4)}`,
     `- Peau a changé récemment (3 mois) : ${changed}`,
-    `- Budget skincare mensuel : ${singleLabel("q6", a.q6)}`,
     `- Situations à signaler (contre-indications) : ${labelsFor("q7", a.q7)}`,
   ].join("\n");
 }

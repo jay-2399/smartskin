@@ -19,8 +19,8 @@ import { ACTIVES, CONCERN_PHRASE, type Active } from "./actives";
    100 % déterministe.
    ─────────────────────────────────────────────────────────────────────────── */
 
-type Phase = 1 | 2 | 3;
-type Bucket = "fragile" | "sensible" | "normale" | "tolerante";
+export type Phase = 1 | 2 | 3;
+export type Bucket = "fragile" | "sensible" | "normale" | "tolerante";
 export type Layer = "socle" | "actif" | "rituel"; // les 3 couches du playbook (§1)
 
 export type RoutineStep = {
@@ -60,12 +60,12 @@ const BASE_CEILING: Record<Bucket, number> = { fragile: 2, sensible: 6, normale:
 // La tolérance se construit : le plafond monte avec les phases d'introduction (§5).
 const PHASE_FACTOR: Record<Phase, number> = { 1: 0.5, 2: 0.75, 3: 1 };
 
-function levelOf(result: AnalysisResult, id: string): number {
+export function levelOf(result: AnalysisResult, id: string): number {
   return result.attributes.find((a) => a.id === id)?.level ?? 1;
 }
 
 /** Préoccupations (niveau ≥ 2) triées des plus importantes aux moins. */
-function topConcerns(result: AnalysisResult): string[] {
+export function topConcerns(result: AnalysisResult): string[] {
   return result.attributes
     .filter((a) => a.level >= 2)
     .sort((a, b) => (IMPORTANCE[b.id] ?? 1) * b.level - (IMPORTANCE[a.id] ?? 1) * a.level)
@@ -74,7 +74,7 @@ function topConcerns(result: AnalysisResult): string[] {
 
 /* ── Déduire sensibilité + barrière (décision produit : on DÉDUIT depuis les
    données existantes, on ne change pas le contrat IA). ── */
-function deriveBucket(result: AnalysisResult, answers: Answers): Bucket {
+export function deriveBucket(result: AnalysisResult, answers: Answers): Bucket {
   const redness = levelOf(result, "redness");
   const flaking = levelOf(result, "flaking"); // binaire : 1 absent, ≥ 2 présent
   const vessels = levelOf(result, "visible_vessels");
@@ -90,7 +90,7 @@ function deriveBucket(result: AnalysisResult, answers: Answers): Bucket {
 }
 
 /* ── Phase d'introduction (§5) déduite de l'expérience déclarée (q3). ── */
-function derivePhase(answers: Answers): Phase {
+export function derivePhase(answers: Answers): Phase {
   if (answers.q3.includes("retinol") || answers.q3.includes("acids")) return 3;
   if (answers.q3.includes("vitc") || answers.q3.includes("niacinamide")) return 2;
   return 1; // débutant → on introduit en douceur

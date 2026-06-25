@@ -13,6 +13,7 @@ export type AttributeView = {
   icon?: string;
   level: number;
   percent: number;
+  betterHigh: boolean; // true = une valeur élevée est le bon côté (gradient inversé)
   tip: string;
   situation: string;
 };
@@ -39,6 +40,7 @@ export function toSections(result: AnalysisResult): SectionView[] {
           icon: def.icon,
           level: r.level,
           percent: LEVEL_TO_PERCENT[r.level] ?? 6,
+          betterHigh: !!def.betterHigh,
           tip: r.tip,
           situation: r.situation,
         };

@@ -6,6 +6,7 @@ export type OptionDef = {
   sub?: string;        // sous-texte optionnel
   icon?: string;       // SVG inline (markup repris des maquettes)
   exclusive?: boolean; // si coché, vide les autres (ex. "none", "discover")
+  badge?: string;      // pastille de mise en avant (ex. q6 « ★ Recommandé »)
 };
 
 export type QuestionDef = {

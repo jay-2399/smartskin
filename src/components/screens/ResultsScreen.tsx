@@ -113,10 +113,9 @@ export function ResultsScreen() {
                     <div className="vc-idtext"><span className="vc-title">{a.label}</span></div>
                   </div>
                   <div className="vc-measure">
-                    <div className={`gauge lv${a.level}`} style={{ ["--p" as string]: `${a.percent}%` }}>
+                    <div className={`gauge lv${a.level} ${a.betterHigh ? "good-high" : "good-low"}`} style={{ ["--p" as string]: `${a.percent}%` }}>
                       <span className="gauge-tip">{a.tip}</span>
                       <div className="gauge-track" />
-                      <div className="gauge-fill" />
                       <div className="gauge-knob" />
                     </div>
                     <div className="gauge-ends"><span className="ge">{a.low}</span><span className="ge hi">{a.high}</span></div>

@@ -1,0 +1,82 @@
+import { describe, it, expect } from "vitest";
+import { buildEngineProfile, normalizeSkinType, enveloppe } from "@/features/recommendation/profile";
+import { ATTRIBUTES } from "@/features/analysis/attributes";
+import { EMPTY_ANSWERS } from "@/features/funnel/types";
+import type { AnalysisResult } from "@/features/analysis/schema";
+import type { Answers } from "@/features/funnel/types";
+
+function result(overrides: Record<string, number> = {}, skinType = "Mixte"): AnalysisResult {
+  return {
+    score: 60, state: "x", sub: "y", photoQuality: { ok: true },
+    profile: { skinType, ageRange: "25-35", carnation: 3, carnationLabel: "x",
+      undertone: 2, undertoneLabel: "x", phototype: 3, phototypeSub: "x" },
+    attributes: ATTRIBUTES.map((a) => ({ id: a.id, level: overrides[a.id] ?? 1, tip: "x", situation: "y" })),
+  };
+}
+const ans = (o: Partial<Answers> = {}): Answers => ({ ...EMPTY_ANSWERS, ...o });
+
+describe("normalizeSkinType", () => {
+  it("mappe les libellés FR de l'IA vers l'enum byProfile", () => {
+    expect(normalizeSkinType("Mixte")).toBe("mixte");
+    expect(normalizeSkinType("Grasse")).toBe("grasse");
+    expect(normalizeSkinType("Peau sèche")).toBe("seche");
+    expect(normalizeSkinType("Normale")).toBe("normale");
+  });
+  it("« Grasse sensible » → type de base grasse (la sensibilité est séparée)", () => {
+    expect(normalizeSkinType("Grasse sensible")).toBe("grasse");
+  });
+  it("« Sensible » seul → sensible ; inconnu → normale par défaut", () => {
+    expect(normalizeSkinType("Sensible")).toBe("sensible");
+    expect(normalizeSkinType("???")).toBe("normale");
+  });
+});
+
+describe("enveloppe (budget palier → plafond Σ prix)", () => {
+  it("paliers bornés = borne haute de la tranche (budget total routine)", () => {
+    expect(enveloppe("lt30")).toBe(30);
+    expect(enveloppe("30-60")).toBe(60);
+    expect(enveloppe("60-100")).toBe(100);
+  });
+  it("gt100 = no_limit ; pas de réponse = no_limit", () => {
+    expect(enveloppe("gt100")).toBe("no_limit");
+    expect(enveloppe(null)).toBe("no_limit");
+  });
+});
+
+describe("buildEngineProfile", () => {
+  it("dérive concerns (ordonnés), pregnant (q7), budget (q6), skinType normalisé", () => {
+    const p = buildEngineProfile(result({ acne: 3, pores: 2 }), ans({ q7: ["pregnancy"], q6: "lt30" }));
+    expect(p.concerns[0]).toBe("acne");
+    expect(p.concerns).toContain("pores");
+    expect(p.pregnant).toBe(true);
+    expect(p.breastfeeding).toBe(true);
+    expect(p.budgetTier).toBe("lt30");
+    expect(p.budget).toBe(30);
+    expect(p.skinType).toBe("mixte");
+  });
+
+  it("sensitive=true si rosacée/eczéma (q7 condition)", () => {
+    const p = buildEngineProfile(result({ redness: 3 }), ans({ q7: ["condition"] }));
+    expect(p.sensitive).toBe(true);
+    expect(p.medicalConditions).toContain("condition");
+  });
+
+  it("sensitive=true si l'IA qualifie la peau de sensible", () => {
+    const p = buildEngineProfile(result({}, "Grasse sensible"), ans());
+    expect(p.skinType).toBe("grasse");
+    expect(p.sensitive).toBe(true);
+  });
+
+  it("gt100 → budget no_limit", () => {
+    const p = buildEngineProfile(result(), ans({ q6: "gt100" }));
+    expect(p.budget).toBe("no_limit");
+  });
+
+  it("dérive bucket (sensibilité) et phase (expérience q3) pour le plafond d'irritation", () => {
+    const reactive = buildEngineProfile(result({ redness: 3 }), ans({ q7: ["condition"], q3: ["retinol"] }));
+    expect(reactive.bucket).toBe("sensible");
+    expect(reactive.phase).toBe(3); // q3 rétinol → expert
+    const debutant = buildEngineProfile(result(), ans());
+    expect(debutant.phase).toBe(1); // aucune expérience déclarée
+  });
+});

@@ -25,6 +25,11 @@ export type AttributeDef = {
   high: string;  // libellé extrémité droite
   binary?: boolean; // absent/présent (jauge à 2 crans)
   icon?: string;    // fichier dans /public ; absent = tuile masquée (comme la maquette)
+  // Polarité pour le gradient de la jauge (rouge = mauvais → vert = bon).
+  // TOUS les attributs actuels sont des « défauts » : niveau 1 (bas) = idéal → le
+  // bas est VERT. Mettre `betterHigh: true` seulement pour une future métrique où
+  // une valeur ÉLEVÉE serait le bon côté (ex. hydratation) → le gradient s'inverse.
+  betterHigh?: boolean;
 };
 
 export const ATTRIBUTES: AttributeDef[] = [

@@ -31,3 +31,5 @@ yarn-error.log*
 # editor
 .vscode/
 .idea/
+bright_key.txt
+data/products-raw.json

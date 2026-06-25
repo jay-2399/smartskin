@@ -23,7 +23,7 @@ export function QuestionScreen({ step }: { step: StepId }) {
   const { setSingle, toggleMulti, setGate, toggleSymptom } = useFunnel.getState();
 
   const valid = isStepValid(step, answers);
-  const i = STEP_ORDER.indexOf(step);
+  const i = (STEP_ORDER as readonly StepId[]).indexOf(step);
 
   // Flux : landing → q1 → capture → q2 … q7 → /analyse
   // (le mur d'inscription /compte sera intercalé ici au Plan 4)

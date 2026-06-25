@@ -17,6 +17,7 @@ describe("toSections", () => {
     expect(acne.low).toBe("aucune");
     expect(acne.high).toBe("sévères");
     expect(acne.percent).toBe(30); // level 2 → 30%
+    expect(acne.betterHigh).toBe(false); // défaut : le bas (peu d'imperfections) = bon côté = vert
   });
 
   it("marque les attributs binaires", () => {

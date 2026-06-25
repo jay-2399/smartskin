@@ -6,20 +6,22 @@
 <title>SmartSkin AI — Ta routine</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
   --bg:#F1F3F6; --ink:#1A1D21; --accent:#A6C3D6; --accent-d:#7FA6BE; --accent-bg:rgba(166,195,214,0.14);
   --card:#FFFFFF; --cloud:#EDEFF7; --smoke:#D3D6E0; --steel:#BCBFCC;
-  --space:#9DA2B3; --graphite:#6E7180; --arsenic:#40424D;
-  --fd:'Manrope',sans-serif; --fm:'JetBrains Mono',monospace;
+  --space:#9DA2B3; --graphite:#6E7180; --arsenic:#40424D; --keep:#3A8F6F;
+  --love:#FF4E8A; --love-d:#F22A6E; --no:#FF4D4D; --no-d:#E33636;
+  --gold:#F5A623; --gold-d:#E08A00;
+  --fd:'Manrope',sans-serif; --fm:'Manrope',sans-serif;
 }
 html, body { background:#DEE0E5; display:flex; justify-content:center; align-items:flex-start;
   min-height:100vh; padding:48px 16px 80px; font-family:var(--fd); -webkit-font-smoothing:antialiased; }
 .phone { width:430px; background:var(--bg); border-radius:52px; overflow:hidden;
   box-shadow:0 0 0 1px rgba(0,0,0,0.07),0 4px 8px rgba(0,0,0,0.05),0 32px 80px rgba(0,0,0,0.18),0 12px 32px rgba(0,0,0,0.09); }
-.screen { height:932px; display:flex; flex-direction:column; background:var(--bg); }
+.screen { height:932px; display:flex; flex-direction:column; background:var(--bg); position:relative; }
 
 .nav { position:relative; padding:52px 22px 0; display:flex; align-items:center; gap:14px; animation:rise .5s cubic-bezier(.22,1,.36,1) both .05s; }
 .nav-logo { position:absolute; left:50%; top:52px; transform:translateX(-50%); height:40px; display:flex; align-items:center; pointer-events:none; }
@@ -27,61 +29,278 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
 .back { width:40px; height:40px; border-radius:50%; background:var(--card); border:1px solid rgba(0,0,0,0.05); box-shadow:0 1px 5px rgba(0,0,0,0.06); display:flex; align-items:center; justify-content:center; color:var(--ink); cursor:pointer; flex-shrink:0; }
 .nav-step { margin-left:auto; font-family:var(--fm); font-size:10px; color:var(--space); letter-spacing:0.1em; }
 
-.head { padding:16px 26px 14px; animation:rise .55s cubic-bezier(.22,1,.36,1) both .12s; }
-.head h1 { font-weight:800; font-size:27px; line-height:1.08; letter-spacing:-0.035em; color:var(--ink); }
-.head p { font-weight:400; font-size:12.5px; color:var(--graphite); margin-top:8px; }
+.head { padding:14px 26px 10px; animation:rise .55s cubic-bezier(.22,1,.36,1) both .12s; }
+.head h1 { font-weight:800; font-size:23px; line-height:1.08; letter-spacing:-0.035em; color:var(--ink); }
+.head p { font-weight:400; font-size:12px; color:var(--graphite); margin-top:6px; }
 
 /* tabs */
-.tabs { margin:6px 22px 0; background:var(--cloud); border-radius:14px; padding:4px; display:flex; gap:4px; position:relative; animation:rise .55s cubic-bezier(.22,1,.36,1) both .2s; }
-.tab { flex:1; height:42px; border:none; background:transparent; cursor:pointer; border-radius:11px; font-family:var(--fd); font-weight:600; font-size:13.5px; color:var(--graphite); display:flex; align-items:center; justify-content:center; gap:7px; z-index:1; transition:color .25s; }
+.tabs { margin:4px 22px 0; background:var(--cloud); border-radius:14px; padding:4px; display:flex; gap:4px; position:relative; animation:rise .55s cubic-bezier(.22,1,.36,1) both .2s; }
+.tab { flex:1; height:40px; border:none; background:transparent; cursor:pointer; border-radius:11px; font-family:var(--fd); font-weight:600; font-size:13.5px; color:var(--graphite); display:flex; align-items:center; justify-content:center; gap:7px; z-index:1; transition:color .25s; }
 .tab svg { width:15px; height:15px; }
 .tab.on { color:var(--ink); }
-.tab-slider { position:absolute; top:4px; left:4px; width:calc(50% - 6px); height:42px; background:var(--card); border-radius:11px; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform .3s cubic-bezier(.22,1,.36,1); }
+.tab-slider { position:absolute; top:4px; left:4px; width:calc(50% - 6px); height:40px; background:var(--card); border-radius:11px; box-shadow:0 2px 8px rgba(0,0,0,0.08); transition:transform .3s cubic-bezier(.22,1,.36,1); }
 .tabs.night .tab-slider { transform:translateX(calc(100% + 4px)); }
 
-.scroll { flex:1; overflow-y:auto; padding:16px 22px 8px; scrollbar-width:none; }
-.scroll::-webkit-scrollbar { display:none; }
-.routine { display:flex; flex-direction:column; gap:10px; }
-.routine.hide { display:none; }
+/* ── stage / deck ── */
+.stage { flex:1; display:flex; flex-direction:column; padding:14px 22px 4px; min-height:0; animation:rise .55s cubic-bezier(.22,1,.36,1) both .28s; }
+.progress { display:flex; align-items:center; justify-content:space-between; padding:0 2px 12px; }
+.dots { display:flex; gap:7px; }
+.dot { width:8px; height:8px; border-radius:50%; background:var(--smoke); transition:all .3s cubic-bezier(.22,1,.36,1); }
+.dot.done { background:var(--accent-d); }
+.dot.active { background:var(--ink); transform:scale(1.3); }
+.step-label { font-family:var(--fm); font-size:10px; letter-spacing:0.08em; color:var(--space); }
 
-/* ── product card (inspi-2, pleine largeur) ── */
-.pcard { background:var(--card); border-radius:20px; padding:13px; box-shadow:0 1px 2px rgba(0,0,0,0.025),0 8px 22px rgba(0,0,0,0.045);
-  display:flex; gap:14px; transition:transform .2s; animation:rise .5s cubic-bezier(.22,1,.36,1) both; }
-.pcard:active { transform:scale(0.99); }
-.pcard-img { position:relative; width:92px; height:110px; flex-shrink:0; background:var(--cloud); border-radius:15px; display:flex; align-items:center; justify-content:center; color:var(--graphite); overflow:hidden; }
-.pcard-img > img { max-width:80%; max-height:86%; width:auto; object-fit:contain; display:block; filter:drop-shadow(0 5px 9px rgba(26,29,33,0.14)); }
-.pcard-step { position:absolute; top:7px; left:7px; width:20px; height:20px; border-radius:50%; background:var(--ink); color:#fff; font-weight:700; font-size:10px; display:flex; align-items:center; justify-content:center; }
-.pcard-body { flex:1; min-width:0; display:flex; flex-direction:column; }
-.pcard-head { display:flex; align-items:center; gap:8px; }
-.pcard-cat { font-family:var(--fm); font-size:7.5px; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent-d); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); padding:3px 8px; border-radius:100px; }
-.pcard-brand { font-family:var(--fm); font-size:8px; letter-spacing:0.1em; text-transform:uppercase; color:var(--space); }
-.pcard-name { font-weight:700; font-size:14.5px; color:var(--ink); letter-spacing:-0.025em; line-height:1.12; margin-top:6px; }
-.pcard-why { font-size:11.5px; line-height:1.45; color:var(--graphite); margin-top:8px; padding-left:9px; border-left:2px solid var(--accent); }
-.pcard-why b { color:var(--arsenic); font-weight:600; }
-.pcard-foot { display:flex; align-items:center; justify-content:space-between; margin-top:auto; padding-top:11px; }
-.pcard-priceblock { display:flex; align-items:baseline; gap:8px; }
-.pcard-price { font-weight:800; font-size:18px; color:var(--ink); letter-spacing:-0.03em; }
-.pcard-freq { font-family:var(--fm); font-size:8px; letter-spacing:0.03em; color:var(--space); }
-.pcard-cta { display:inline-flex; align-items:center; gap:6px; height:36px; padding:0 14px; border-radius:11px; border:1.5px solid var(--smoke); background:var(--card); color:var(--ink); font-weight:600; font-size:12px; letter-spacing:-0.01em; text-decoration:none; cursor:pointer; flex-shrink:0; transition:border-color .2s, background .2s, color .2s, transform .15s; }
-.pcard-cta:hover { border-color:var(--ink); background:var(--ink); color:#fff; }
-.pcard-cta:active { transform:scale(0.96); }
+.deck { position:relative; flex:1; min-height:0; }
 
-/* footer */
-.footer { padding:13px 22px 30px; background:linear-gradient(to top, var(--bg) 76%, transparent); animation:rise .55s cubic-bezier(.22,1,.36,1) both .4s; }
-.foot-card { background:var(--card); border:1px solid rgba(26,29,33,0.05); border-radius:18px; padding:14px 16px 15px; box-shadow:0 6px 20px rgba(0,0,0,0.06); }
-.foot-main { display:flex; align-items:center; gap:12px; justify-content:space-between; }
-.foot-left { display:flex; align-items:center; gap:12px; min-width:0; }
-.foot-icon { width:44px; height:44px; border-radius:13px; flex-shrink:0; background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); display:flex; align-items:center; justify-content:center; color:var(--accent-d); }
-.foot-title { font-weight:700; font-size:16px; color:var(--ink); letter-spacing:-0.03em; line-height:1; }
-.foot-sub { font-size:11.5px; color:var(--graphite); margin-top:5px; }
-.foot-total { font-weight:800; font-size:24px; color:var(--ink); letter-spacing:-0.035em; white-space:nowrap; flex-shrink:0; }
-.foot-note { display:flex; align-items:center; justify-content:center; gap:6px; margin-top:11px; font-family:var(--fm); font-size:8.5px; letter-spacing:0.04em; color:var(--space); }
-.foot-note svg { color:var(--accent-d); }
+.swipe-card { position:absolute; top:0; left:0; width:100%; height:calc(100% - 30px);
+  background:var(--card); border-radius:26px; padding:15px; display:flex; flex-direction:column;
+  box-shadow:0 1px 2px rgba(0,0,0,0.04),0 18px 40px rgba(0,0,0,0.12);
+  transform-origin:center; overflow:hidden;
+  transition:transform .42s cubic-bezier(.22,1,.36,1), opacity .42s ease; }
+.swipe-card.depth-0 { z-index:3; cursor:grab; touch-action:pan-y; }   /* pan-y : scroll vertical du texte OK, l'horizontal reste géré par le swipe JS */
+.swipe-card.grabbing { cursor:grabbing; transition:none; will-change:transform; }
+.swipe-card.fresh { animation:cardIn .46s cubic-bezier(.22,1,.36,1) both; will-change:transform; }
+.swipe-card.depth-1 { z-index:2; transform:translateY(15px) scale(.965); opacity:.9; }
+.swipe-card.depth-2 { z-index:1; transform:translateY(30px) scale(.93); opacity:.6; }
+.swipe-card.flown { z-index:6; will-change:transform; }
+/* entrée : la carte monte de la pile en restant OPAQUE (pas de fondu → pas de transparence sur la carte du dessous) */
+@keyframes cardIn { from{ transform:translateY(28px) scale(.94);} to{ transform:none;} }
+
+.card-img { position:relative; height:172px; flex-shrink:0; border-radius:18px; background:linear-gradient(158deg,var(--cloud),#fff 78%); display:flex; align-items:center; justify-content:center; overflow:hidden; }
+.card-img::after { content:''; position:absolute; bottom:-30%; left:50%; transform:translateX(-50%); width:74%; height:60%; background:radial-gradient(ellipse at center, rgba(166,195,214,.22), transparent 70%); }
+.card-img img { position:relative; max-width:60%; max-height:82%; width:auto; object-fit:contain; filter:drop-shadow(0 9px 15px rgba(26,29,33,0.18)); }
+.card-img .flacon { position:relative; width:82px; height:auto; color:var(--accent-d); filter:drop-shadow(0 9px 14px rgba(127,166,190,0.30)); }
+.card-step { position:absolute; top:12px; left:12px; width:26px; height:26px; border-radius:50%; background:var(--ink); color:#fff; font-weight:700; font-size:12px; display:flex; align-items:center; justify-content:center; z-index:2; }
+/* mini-scrollbar verticale, coin bas-droit de l'image */
+.scroll-cue { position:absolute; right:8px; bottom:9px; width:4px; height:50px; border-radius:100px; background:rgba(26,29,33,0.10); z-index:3; overflow:hidden; transition:opacity .25s ease; }
+.scroll-thumb { position:absolute; left:0; width:100%; height:18px; border-radius:100px; background:var(--accent-d); box-shadow:0 0 0 1px rgba(255,255,255,0.35); transition:transform .08s linear; }
+.scroll-cue.hidden { opacity:0; }
+.alt-badge { position:absolute; top:12px; right:12px; font-family:var(--fm); font-weight:600; font-size:8.5px; letter-spacing:0.06em; color:var(--accent-d); background:rgba(255,255,255,0.82); border:1px solid rgba(166,195,214,0.4); padding:5px 9px; border-radius:100px; backdrop-filter:blur(4px); z-index:2; }
+.reco-badge { position:absolute; top:12px; right:12px; display:flex; align-items:center; gap:5px; font-family:var(--fm); font-weight:700; font-size:8.5px; letter-spacing:0.06em; text-transform:uppercase; color:var(--gold-d);
+  background:linear-gradient(135deg, rgba(255,240,205,0.95), rgba(255,250,238,0.95)); border:1px solid rgba(245,166,35,0.45); padding:5px 10px 5px 8px; border-radius:100px; backdrop-filter:blur(4px); z-index:2;
+  box-shadow:0 0 0 3px rgba(245,166,35,0.12), 0 4px 14px rgba(245,166,35,0.40); animation:recoGlow 2.4s ease-in-out infinite; }
+.reco-badge svg { width:11px; height:11px; color:var(--gold); filter:drop-shadow(0 0 3px rgba(245,166,35,0.85)); }
+@keyframes recoGlow { 0%,100%{ box-shadow:0 0 0 3px rgba(245,166,35,0.10), 0 4px 12px rgba(245,166,35,0.30); } 50%{ box-shadow:0 0 0 4px rgba(245,166,35,0.18), 0 6px 18px rgba(245,166,35,0.55); } }
+
+.card-info { flex:1; min-height:0; display:flex; flex-direction:column; padding:13px 5px 4px; }
+.card-head { display:flex; align-items:center; gap:8px; flex-shrink:0; }
+.card-cat { font-family:var(--fm); font-size:8px; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent-d); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); padding:3px 9px; border-radius:100px; }
+.card-brand { font-family:var(--fm); font-size:8.5px; letter-spacing:0.1em; text-transform:uppercase; color:var(--space); }
+.card-name { font-weight:800; font-size:20px; color:var(--ink); letter-spacing:-0.03em; line-height:1.1; margin-top:9px; flex-shrink:0; }
+/* zone scrollable : la carte garde sa taille même si le texte grandit */
+.card-scroll { flex:1; min-height:0; overflow-y:auto; margin-top:11px; padding-right:2px; scrollbar-width:none; -webkit-overflow-scrolling:touch; }
+.card-scroll::-webkit-scrollbar { display:none; }
+.why-title { display:flex; align-items:center; gap:6px; font-weight:700; font-size:11px; color:var(--ink); letter-spacing:0.005em; margin-bottom:7px; }
+.why-title svg { width:12px; height:12px; color:var(--accent-d); flex-shrink:0; }
+.card-why { font-size:12.5px; line-height:1.5; color:var(--graphite); padding-left:11px; border-left:2px solid var(--accent); }
+.card-why b { color:var(--arsenic); font-weight:600; }
+.card-foot { display:flex; align-items:flex-end; justify-content:space-between; padding-top:11px; margin-top:4px; flex-shrink:0; border-top:1px solid rgba(26,29,33,0.06); }
+.card-priceblock { display:flex; flex-direction:column; gap:3px; }
+.card-price { font-weight:800; font-size:23px; color:var(--ink); letter-spacing:-0.035em; line-height:1; }
+.card-freq { font-family:var(--fm); font-size:8px; letter-spacing:0.03em; color:var(--space); }
+.card-tag { font-family:var(--fm); font-size:8.5px; letter-spacing:0.05em; color:var(--space); display:flex; align-items:center; gap:6px; }
+.card-tag svg { color:var(--accent-d); }
+
+/* overlay teinte progressive pendant le swipe (rose = love / rouge = nope) */
+.card-glow { position:absolute; inset:0; pointer-events:none; opacity:0; z-index:4; mix-blend-mode:multiply; transition:opacity .12s linear; }
+.card-glow.like { background:
+    radial-gradient(160% 140% at 118% 50%, rgba(255,52,120,1), rgba(255,78,138,0.55) 50%, rgba(255,78,138,0.18) 80%, transparent 92%),
+    linear-gradient(90deg, rgba(255,78,138,0.14), rgba(255,78,138,0.34)); }
+.card-glow.nope { background:
+    radial-gradient(160% 140% at -18% 50%, rgba(255,46,46,1), rgba(255,77,77,0.55) 50%, rgba(255,77,77,0.18) 80%, transparent 92%),
+    linear-gradient(270deg, rgba(255,77,77,0.14), rgba(255,77,77,0.34)); }
+
+/* stamps Tinder (cœur / croix) */
+.stamp { position:absolute; top:20px; width:70px; height:70px; border-radius:50%; display:flex; align-items:center; justify-content:center;
+  background:rgba(255,255,255,0.96); opacity:0; transform:scale(.55); z-index:6; pointer-events:none; }
+.stamp svg { width:38px; height:38px; }
+.stamp.keep { left:20px; color:var(--love); box-shadow:0 8px 22px rgba(255,78,138,0.40), inset 0 0 0 3px var(--love); }
+.stamp.swap { right:20px; color:var(--no); box-shadow:0 8px 22px rgba(255,77,77,0.38), inset 0 0 0 3px var(--no); }
+
+/* actions — cercles blancs, icône colorée (façon Tinder) */
+.actions { display:flex; align-items:center; justify-content:center; gap:20px; padding:14px 0 2px; }
+.act { border-radius:50%; border:none; background:#fff; display:flex; align-items:center; justify-content:center; cursor:pointer;
+  box-shadow:0 10px 22px rgba(40,44,60,0.13), 0 2px 6px rgba(40,44,60,0.08); transition:transform .16s cubic-bezier(.34,1.56,.64,1), box-shadow .2s, opacity .2s; }
+.act:hover { transform:translateY(-3px); box-shadow:0 16px 30px rgba(40,44,60,0.18), 0 2px 6px rgba(40,44,60,0.08); }
+.act:active { transform:scale(0.9); }
+.act.replay { width:52px; height:52px; }
+.act.replay svg { width:23px; height:23px; }
+.act.swap { width:64px; height:64px; }
+.act.swap svg { width:27px; height:27px; }
+.act.keep { width:64px; height:64px; }
+.act.keep svg { width:28px; height:28px; }
+.act.replay.disabled { opacity:0.34; pointer-events:none; box-shadow:0 6px 14px rgba(40,44,60,0.08); transform:none; }
+
+.hint { text-align:center; font-family:var(--fm); font-size:9px; letter-spacing:0.04em; color:var(--space); padding-top:11px; opacity:0.85; }
+
+/* summary — l'espace où l'on consulte les produits gardés */
+.summary { position:absolute; inset:0; height:calc(100% - 30px); background:var(--card); border-radius:26px; padding:22px 20px 18px; display:flex; flex-direction:column; box-shadow:0 1px 2px rgba(0,0,0,0.04),0 18px 40px rgba(0,0,0,0.12); animation:cardIn .5s cubic-bezier(.22,1,.36,1) both; }
+.sum-badge { display:inline-flex; align-self:flex-start; align-items:center; gap:6px; font-family:var(--fm); font-size:9px; letter-spacing:0.08em; text-transform:uppercase; color:var(--keep); background:rgba(58,143,111,0.1); border:1px solid rgba(58,143,111,0.25); padding:5px 11px; border-radius:100px; }
+.sum-title { font-weight:800; font-size:21px; color:var(--ink); letter-spacing:-0.035em; margin-top:12px; line-height:1.1; }
+.sum-sub { font-size:11.5px; color:var(--graphite); margin-top:6px; }
+.sum-list { margin-top:14px; display:flex; flex-direction:column; gap:6px; overflow-y:auto; scrollbar-width:none; }
+.sum-group + .sum-group { margin-top:8px; }
+.sum-grouphead { display:flex; align-items:center; gap:7px; font-family:var(--fm); font-weight:700; font-size:9px; letter-spacing:0.09em; text-transform:uppercase; color:var(--graphite); margin:2px 0 5px; }
+.sum-grouphead svg { width:13px; height:13px; color:var(--accent-d); }
+.sum-list::-webkit-scrollbar { display:none; }
+.sum-row { display:flex; align-items:center; gap:12px; text-decoration:none; padding:7px 8px; margin:0 -8px; border-radius:14px; transition:background .18s; }
+.sum-row:hover { background:var(--cloud); }
+.sum-thumb { width:44px; height:50px; flex-shrink:0; border-radius:11px; background:var(--cloud); display:flex; align-items:center; justify-content:center; overflow:hidden; }
+.sum-thumb img { max-width:76%; max-height:82%; object-fit:contain; }
+.sum-thumb .flacon { width:27px; color:var(--accent-d); }
+.sum-meta { flex:1; min-width:0; }
+.sum-cat { font-family:var(--fm); font-size:7.5px; letter-spacing:0.08em; text-transform:uppercase; color:var(--space); }
+.sum-pname { font-weight:700; font-size:13px; color:var(--ink); letter-spacing:-0.02em; line-height:1.18; margin-top:2px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; transition:color .18s; }
+.sum-row:hover .sum-pname { color:var(--accent-d); }
+.sum-right { display:flex; align-items:center; gap:9px; flex-shrink:0; }
+.sum-pprice { font-weight:700; font-size:13.5px; color:var(--ink); letter-spacing:-0.02em; }
+.sum-go { color:var(--steel); display:flex; transition:color .18s, transform .18s; }
+.sum-row:hover .sum-go { color:var(--accent-d); transform:translateX(2px); }
+.sum-total { display:flex; align-items:center; justify-content:space-between; margin-top:13px; padding-top:13px; border-top:1px solid rgba(26,29,33,0.07); }
+.sum-total .lbl { font-weight:600; font-size:13px; color:var(--graphite); }
+.sum-total .val { font-weight:800; font-size:24px; color:var(--ink); letter-spacing:-0.035em; }
+.sum-cta { margin-top:14px; height:50px; border-radius:15px; background:var(--ink); color:#fff; border:none; cursor:pointer; font-family:var(--fd); font-weight:700; font-size:14.5px; letter-spacing:-0.01em; display:flex; align-items:center; justify-content:center; gap:8px; transition:transform .15s, opacity .2s; }
+.sum-cta:active { transform:scale(0.98); }
+.sum-reset { margin-top:11px; background:none; border:none; cursor:pointer; font-family:var(--fm); font-size:9.5px; letter-spacing:0.04em; color:var(--space); display:flex; align-items:center; justify-content:center; gap:6px; }
+.sum-reset:hover { color:var(--graphite); }
+
+/* plateau "Ta sélection" — se remplit à chaque produit gardé */
+.tray { padding:11px 22px 24px; background:linear-gradient(to top, var(--bg) 78%, transparent); animation:rise .55s cubic-bezier(.22,1,.36,1) both .4s; }
+.tray-card { background:var(--card); border:1px solid rgba(26,29,33,0.05); border-radius:18px; padding:12px 14px 13px; box-shadow:0 6px 20px rgba(0,0,0,0.06); }
+.tray-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
+.tray-label { font-family:var(--fm); font-weight:700; font-size:9px; letter-spacing:0.12em; text-transform:uppercase; color:var(--graphite); }
+.tray-meta { display:flex; align-items:baseline; gap:7px; font-family:var(--fm); font-size:9.5px; color:var(--space); }
+.tray-meta b { color:var(--ink); font-weight:800; font-size:12.5px; letter-spacing:-0.01em; }
+.tray-slots { display:flex; gap:9px; }
+.tray-slot { flex:1; height:48px; border-radius:12px; display:flex; align-items:center; justify-content:center; overflow:hidden; background:var(--bg); box-shadow:inset 0 0 0 1.5px var(--smoke); transition:box-shadow .3s, background .3s; }
+.tray-slot.current { background:var(--accent-bg); box-shadow:inset 0 0 0 1.5px var(--accent-d); animation:trayPulse 1.7s ease-in-out infinite; }
+.tray-slot.filled { background:var(--card); box-shadow:0 2px 9px rgba(0,0,0,0.09); }
+.tray-slot.filled img { max-width:64%; max-height:74%; object-fit:contain; }
+.tray-slot.filled .flacon { width:20px; height:auto; color:var(--accent-d); }
+@keyframes trayPulse { 0%,100%{ box-shadow:inset 0 0 0 1.5px var(--accent-d);} 50%{ box-shadow:inset 0 0 0 2px var(--accent-d), 0 0 0 5px rgba(166,195,214,0.18);} }
+.tray-note { display:flex; align-items:center; justify-content:center; gap:6px; margin-top:10px; font-family:var(--fm); font-size:8.5px; letter-spacing:0.04em; color:var(--space); }
+.tray-note svg { color:var(--accent-d); }
 
 @keyframes rise { from{opacity:0; transform:translateY(12px);} to{opacity:1; transform:none;} }
-
-/* svg flacons */
 .bottle { stroke:currentColor; stroke-width:1.4; fill:none; }
+
+/* ── storytelling d'intro (plein écran, non skippable) ── */
+.intro { position:absolute; inset:0; z-index:60; background:var(--bg); overflow:hidden; transition:opacity .65s ease; }
+.intro.gone { opacity:0; pointer-events:none; }
+.intro-bg { position:absolute; inset:0; background:
+    radial-gradient(115% 70% at 50% 20%, rgba(166,195,214,0.34), transparent 58%),
+    radial-gradient(95% 55% at 50% 104%, rgba(255,78,138,0.12), transparent 72%);
+  animation:introBg 6s ease-in-out infinite alternate; }
+@keyframes introBg { from{ transform:scale(1) translateY(0);} to{ transform:scale(1.09) translateY(-10px);} }
+
+.intro-stack { position:absolute; top:104px; left:0; right:0; display:flex; flex-direction:column; align-items:center; padding:0 44px; }
+.intro-logo { height:26px; width:auto; margin-bottom:16px; opacity:0; animation:introIn .8s ease forwards .1s; }
+.intro-eyebrow { font-family:var(--fm); font-weight:600; font-size:10px; letter-spacing:0.22em; text-transform:uppercase; color:var(--accent-d); opacity:0; animation:introIn .8s ease forwards .2s; }
+.intro-eyebrow.daymode { display:inline-flex; align-items:center; gap:7px; letter-spacing:0.08em; color:var(--gold-d); background:rgba(245,166,35,0.10); border:1px solid rgba(245,166,35,0.32); padding:6px 13px; border-radius:100px; box-shadow:0 4px 14px rgba(245,166,35,0.22); animation:introIn .5s cubic-bezier(.22,1,.36,1) both; }
+.intro-eyebrow.daymode svg { width:13px; height:13px; color:var(--gold); }
+.intro-titles { position:relative; width:100%; min-height:108px; margin-top:30px; }
+.intro-line { position:absolute; top:0; left:0; right:0; text-align:center; font-weight:800; font-size:25px; line-height:1.2; letter-spacing:-0.035em; color:var(--ink); opacity:0; transform:translateY(12px) scale(.985); filter:blur(10px); }
+.intro-line.in { animation:introIn .72s cubic-bezier(.22,1,.36,1) forwards; }
+.intro-line.out { animation:introOut .5s cubic-bezier(.4,0,.6,1) forwards; }
+@keyframes introIn { 0%{opacity:0; transform:translateY(12px) scale(.985); filter:blur(10px);} 100%{opacity:1; transform:none; filter:blur(0);} }
+@keyframes introOut { 0%{opacity:1; transform:none; filter:blur(0);} 100%{opacity:0; transform:translateY(-10px) scale(.99); filter:blur(8px);} }
+
+/* loader "analyse en direct" sous le titre */
+.intro-load { width:100%; max-width:296px; margin-top:4px; opacity:0; transform:translateY(8px); transition:opacity .45s ease, transform .45s ease; }
+.intro-load.show { opacity:1; transform:none; }
+.intro-prog { height:3px; border-radius:100px; background:rgba(26,29,33,0.08); overflow:hidden; }
+.intro-prog i { display:block; height:100%; width:0; border-radius:100px; background:linear-gradient(90deg, var(--accent), var(--accent-d)); }
+.intro-status { display:flex; align-items:center; justify-content:center; gap:8px; margin-top:15px; min-height:15px; font-family:var(--fm); font-size:11px; letter-spacing:0.01em; color:var(--graphite); }
+.intro-spin { width:13px; height:13px; border-radius:50%; border:2px solid rgba(127,166,190,0.30); border-top-color:var(--accent-d); animation:introSpin .7s linear infinite; flex-shrink:0; }
+.intro-spin.done { border-color:var(--keep); border-top-color:var(--keep); animation:none; }
+@keyframes introSpin { to{ transform:rotate(360deg); } }
+.intro-count { margin-top:18px; text-align:center; opacity:0; transition:opacity .3s ease; }
+.intro-count.on { opacity:1; }
+.intro-count .num { font-weight:800; font-size:33px; letter-spacing:-0.03em; color:var(--ink); font-variant-numeric:tabular-nums; }
+.intro-count small { display:block; font-family:var(--fm); font-weight:600; font-size:9.5px; letter-spacing:0.06em; text-transform:uppercase; color:var(--space); margin-top:5px; }
+
+/* interstitiel jour → nuit */
+.phase { position:absolute; inset:0; z-index:55; background:var(--bg); overflow:hidden; opacity:0; pointer-events:none; transition:opacity .5s ease; }
+.phase.show { opacity:1; pointer-events:auto; }
+.phase-stack { position:absolute; top:300px; left:0; right:0; display:flex; flex-direction:column; align-items:center; padding:0 44px; }
+.phase-badge { display:inline-flex; align-items:center; gap:7px; font-family:var(--fm); font-weight:600; font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:var(--keep); background:rgba(58,143,111,0.10); border:1px solid rgba(58,143,111,0.25); padding:7px 14px; border-radius:100px; }
+.phase.show .phase-badge { animation:introIn .6s ease both .05s; }
+.phase-title { margin-top:22px; max-width:280px; text-align:center; font-weight:800; font-size:25px; line-height:1.2; letter-spacing:-0.035em; color:var(--ink); }
+.phase.show .phase-title { animation:introIn .7s cubic-bezier(.22,1,.36,1) both .15s; }
+.phase-moon { margin-top:34px; width:60px; height:60px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:var(--accent-d); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.4); }
+.phase.show .phase-moon { animation:introIn .7s ease both .28s, phaseFloat 3s ease-in-out infinite 1s; }
+.phase-moon svg { width:28px; height:28px; }
+@keyframes phaseFloat { 0%,100%{ transform:translateY(0);} 50%{ transform:translateY(-6px);} }
+
+/* ── écran de génération (transition vers le protocole) ── */
+.gen { position:absolute; inset:0; z-index:59; background:var(--bg); overflow:hidden; opacity:0; pointer-events:none; transition:opacity .5s ease; }
+.gen.show { opacity:1; pointer-events:auto; }
+.gen-stack { position:absolute; top:360px; left:0; right:0; display:flex; flex-direction:column; align-items:center; padding:0 50px; }
+.gen-ring { width:54px; height:54px; border-radius:50%; border:3px solid rgba(127,166,190,0.25); border-top-color:var(--accent-d); animation:introSpin .7s linear infinite; }
+.gen-ring.done { border-color:var(--keep); border-top-color:var(--keep); animation:none; }
+.gen-title { margin-top:24px; text-align:center; font-weight:800; font-size:21px; letter-spacing:-0.035em; color:var(--ink); }
+.gen-bar { width:100%; max-width:230px; height:3px; border-radius:100px; background:rgba(26,29,33,0.08); overflow:hidden; margin-top:22px; }
+.gen-bar i { display:block; height:100%; width:0; border-radius:100px; background:linear-gradient(90deg,var(--accent),var(--accent-d)); }
+
+/* ── screen Protocole (ordonnance) — overlay scrollable ── */
+.protocol { position:absolute; inset:0; z-index:58; background:var(--bg); overflow-y:auto; scrollbar-width:none; opacity:0; pointer-events:none; transition:opacity .55s ease; }
+.protocol::-webkit-scrollbar { display:none; }
+.protocol.show { opacity:1; pointer-events:auto; }
+.protocol.show .proto { animation:rise .6s cubic-bezier(.22,1,.36,1) both .05s; }
+.proto { padding:18px 22px 26px; }
+.proto-h1 { font-weight:800; font-size:27px; line-height:1.08; letter-spacing:-0.04em; color:var(--ink); }
+.proto-sub { font-size:12.5px; color:var(--graphite); margin-top:9px; }
+.proto-sub b { color:var(--ink); font-weight:700; }
+.proto-diag { margin-top:14px; display:flex; flex-wrap:wrap; gap:6px; }
+.proto-chip { font-family:var(--fm); font-size:8.5px; letter-spacing:0.04em; text-transform:uppercase; color:var(--accent-d); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); padding:4px 9px; border-radius:100px; }
+.sec-head { display:flex; align-items:center; gap:11px; margin:26px 0 14px; }
+.sec-ic { width:34px; height:34px; border-radius:11px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.sec-ic.day { color:var(--gold-d); background:rgba(245,166,35,0.12); border:1px solid rgba(245,166,35,0.28); }
+.sec-ic.night { color:var(--accent-d); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); }
+.sec-ic svg { width:18px; height:18px; }
+.sec-txt b { display:block; font-weight:800; font-size:16px; letter-spacing:-0.03em; line-height:1; }
+.sec-txt span { font-size:11px; color:var(--graphite); }
+/* timeline (rail numéroté) + fiche ordonnance dans chaque nœud */
+.tl-track { position:relative; }
+.tl-track::before { content:''; position:absolute; left:14px; top:18px; bottom:20px; width:2px; background:linear-gradient(var(--smoke), var(--cloud)); border-radius:2px; z-index:0; }
+.tl-step { position:relative; display:flex; align-items:flex-start; gap:13px; padding-bottom:14px; }
+.tl-node { width:30px; height:30px; flex-shrink:0; margin-top:14px; border-radius:50%; background:var(--card); box-shadow:0 0 0 4px var(--bg), inset 0 0 0 1.5px var(--smoke); color:var(--graphite); font-weight:800; font-size:12px; display:flex; align-items:center; justify-content:center; z-index:1; }
+.rx { flex:1; min-width:0; background:var(--card); border-radius:18px; padding:13px; box-shadow:0 1px 2px rgba(0,0,0,0.025),0 8px 22px rgba(0,0,0,0.05); }
+.rx-top { display:flex; align-items:center; gap:12px; }
+.rx-num { width:24px; height:24px; flex-shrink:0; border-radius:50%; background:var(--ink); color:#fff; font-weight:700; font-size:11px; display:flex; align-items:center; justify-content:center; }
+.rx-thumb { width:52px; height:60px; flex-shrink:0; border-radius:12px; background:var(--cloud); display:flex; align-items:center; justify-content:center; overflow:hidden; }
+.rx-thumb img { max-width:74%; max-height:80%; object-fit:contain; }
+.rx-thumb .flacon { width:26px; height:auto; color:var(--accent-d); }
+.rx-id { flex:1; min-width:0; }
+.rx-cat { font-family:var(--fm); font-size:8px; letter-spacing:0.07em; text-transform:uppercase; color:var(--accent-d); }
+.rx-name { font-weight:700; font-size:14px; color:var(--ink); letter-spacing:-0.02em; line-height:1.12; margin-top:3px; }
+.rx-brand { font-family:var(--fm); font-size:8.5px; letter-spacing:0.08em; text-transform:uppercase; color:var(--space); margin-top:3px; }
+.rx-price { font-weight:800; font-size:14px; letter-spacing:-0.03em; flex-shrink:0; align-self:flex-start; color:var(--ink); }
+.rx-poso { margin-top:12px; background:var(--bg); border:1px solid rgba(26,29,33,0.05); border-radius:13px; padding:10px 11px; }
+.rx-poso-tags { display:flex; flex-wrap:wrap; gap:7px; }
+.rx-tag { display:inline-flex; align-items:center; gap:5px; font-family:var(--fm); font-weight:600; font-size:9px; letter-spacing:0.03em; padding:5px 9px; border-radius:100px; }
+.rx-tag.when { color:var(--ink); background:var(--card); box-shadow:inset 0 0 0 1px var(--smoke); }
+.rx-tag.when.day svg { color:var(--gold); } .rx-tag.when.night svg { color:var(--accent-d); }
+.rx-tag.freq { color:var(--accent-d); background:var(--accent-bg); }
+.rx-tag svg { width:11px; height:11px; }
+.rx-how { font-size:11.5px; line-height:1.45; color:var(--arsenic); margin-top:9px; padding-left:9px; border-left:2px solid var(--accent); }
+.rx-why { font-size:11px; line-height:1.42; color:var(--graphite); margin-top:11px; }
+.rx-why b { color:var(--arsenic); font-weight:600; }
+.rx-why .lbl { font-family:var(--fm); font-weight:700; font-size:8.5px; letter-spacing:0.06em; text-transform:uppercase; color:var(--accent-d); }
+.rx-buy { display:flex; align-items:center; justify-content:center; gap:8px; margin-top:13px; height:40px; border-radius:12px; background:var(--card); color:var(--ink); box-shadow:inset 0 0 0 1.5px var(--ink); font-weight:700; font-size:12.5px; letter-spacing:-0.01em; text-decoration:none; transition:background .2s, color .2s, transform .15s; }
+.rx-buy:hover { background:var(--ink); color:#fff; }
+.rx-buy:active { transform:scale(0.98); }
+.rx-buy svg { width:15px; height:15px; }
+.proto-cta { margin-top:24px; }
+.proto-total { display:flex; align-items:center; justify-content:space-between; padding:0 4px 14px; }
+.proto-total .lbl { font-weight:600; font-size:13px; color:var(--graphite); }
+.proto-total .val { font-weight:800; font-size:24px; letter-spacing:-0.035em; color:var(--ink); }
+.proto-save { height:52px; border-radius:15px; background:var(--ink); color:#fff; border:none; cursor:pointer; font-family:var(--fd); font-weight:700; font-size:14.5px; letter-spacing:-0.01em; display:flex; align-items:center; justify-content:center; gap:8px; width:100%; transition:transform .15s, opacity .2s; }
+.proto-save:active { transform:scale(0.98); }
+.proto-restart { margin-top:11px; width:100%; background:none; border:none; cursor:pointer; font-family:var(--fm); font-size:9.5px; letter-spacing:0.04em; color:var(--space); display:flex; align-items:center; justify-content:center; gap:6px; }
+.proto-restart:hover { color:var(--graphite); }
+.proto-note { display:flex; align-items:center; justify-content:center; gap:6px; margin-top:14px; font-family:var(--fm); font-size:8.5px; letter-spacing:0.04em; color:var(--space); }
+.proto-note svg { color:var(--accent-d); }
 </style>
 </head>
 <body>
@@ -95,163 +314,582 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
   </nav>
 
   <div class="head">
-    <h1>Ta routine sur-mesure.</h1>
-    <p>Chaque produit est choisi pour répondre à ton diagnostic — dans le bon ordre.</p>
+    <h1 id="headTitle">Ta routine du jour.</h1>
+    <p>Glisse à droite pour garder le produit, à gauche pour en voir un autre dans la même catégorie.</p>
   </div>
 
-  <div class="tabs" id="tabs">
-    <div class="tab-slider"></div>
-    <button class="tab on" data-tab="day">
-      <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="9" cy="9" r="3.4"/><path d="M9 1.8v1.8M9 14.4v1.8M2.2 9h1.8M14 9h1.8M4 4l1.3 1.3M12.7 12.7L14 14M14 4l-1.3 1.3M5.3 12.7L4 14"/></svg>
-      Jour
-    </button>
-    <button class="tab" data-tab="night">
-      <svg viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M14.5 10.4A6 6 0 1 1 7.6 3.5a4.6 4.6 0 0 0 6.9 6.9Z"/></svg>
-      Nuit
-    </button>
+  <div class="stage">
+    <div class="progress">
+      <div class="dots" id="dots"></div>
+      <div class="step-label" id="stepLabel">Étape 1 / 4</div>
+    </div>
+    <div class="deck" id="deck"></div>
+    <div class="actions" id="actions">
+      <button class="act replay" id="btnReplay" aria-label="Revenir au produit précédent">
+        <svg viewBox="0 0 24 24" fill="none" stroke="url(#gGold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><defs><linearGradient id="gGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFD64D"/><stop offset="1" stop-color="#F5A623"/></linearGradient></defs><path d="M4 12a8 8 0 1 0 2.5-5.8L3.5 9"/><path d="M3.2 4.4V9h4.6"/></svg>
+      </button>
+      <button class="act swap" id="btnSwap" aria-label="Refuser ce produit">
+        <svg viewBox="0 0 24 24" fill="none" stroke="url(#gRed)" stroke-width="3" stroke-linecap="round"><defs><linearGradient id="gRed" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF6B6B"/><stop offset="1" stop-color="#E33636"/></linearGradient></defs><path d="M7 7l10 10M17 7L7 17"/></svg>
+      </button>
+      <button class="act keep" id="btnKeep" aria-label="Garder ce produit">
+        <svg viewBox="0 0 24 24" fill="url(#gRose)"><defs><linearGradient id="gRose" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF7AAE"/><stop offset="1" stop-color="#F22A6E"/></linearGradient></defs><path d="M12 20.7c-.4 0-.8-.14-1.1-.4C6.3 16.45 3 13.6 3 9.9 3 7.2 5.1 5.2 7.6 5.2c1.5 0 2.95.74 3.9 1.9l.5.6.5-.6c.95-1.16 2.4-1.9 3.9-1.9 2.5 0 4.6 2 4.6 4.7 0 3.7-3.3 6.55-7.9 10.4-.3.26-.7.4-1.1.4Z"/></svg>
+      </button>
+    </div>
+    <div class="hint" id="hint">‹ glisse la carte · ou utilise les boutons ›</div>
   </div>
 
-  <div class="scroll">
-
-    <!-- JOUR -->
-    <div class="routine day" id="r-day">
-      <div class="pcard" style="animation-delay:.05s">
-        <div class="pcard-img"><span class="pcard-step">1</span><img src="prod-effaclar.png" alt="La Roche-Posay Effaclar"></div>
-        <div class="pcard-body">
-          <div class="pcard-head"><span class="pcard-cat">Nettoyant</span><span class="pcard-brand">La Roche-Posay</span></div>
-          <div class="pcard-name">Effaclar Gel Cleanser</div>
-          <div class="pcard-why">Nettoie et désincruste à l'<b>acide salicylique 2%</b> — cible l'<b>excès de sébum</b> et les <b>imperfections</b> sans décaper.</div>
-          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">$18.99</span></div><a class="pcard-cta" href="https://www.laroche-posay.us/our-products/face/acne-products/effaclar-medicated-acne-face-wash-effaclaracnewash.html" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
-        </div>
+  <div class="tray" id="tray">
+    <div class="tray-card">
+      <div class="tray-head">
+        <span class="tray-label">Ta sélection</span>
+        <span class="tray-meta"><b id="trayCount">0/4</b><span id="trayTotal"></span></span>
       </div>
+      <div class="tray-slots" id="traySlots"></div>
+    </div>
+    <div class="tray-note"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l4-4M9 3H6.6M9 3v2.4"/><path d="M9 7.2V9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h1.8"/></svg>Liens affiliés vers les marques</div>
+  </div>
 
-      <div class="pcard" style="animation-delay:.1s">
-        <div class="pcard-img"><span class="pcard-step">2</span><img src="prod-niacinamide.png" alt="The Ordinary Niacinamide 10% + Zinc 1%"></div>
-        <div class="pcard-body">
-          <div class="pcard-head"><span class="pcard-cat">Sérum</span><span class="pcard-brand">The Ordinary</span></div>
-          <div class="pcard-name">Niacinamide 10% + Zinc 1%</div>
-          <div class="pcard-why">Régule le <b>sébum</b> et resserre les <b>pores</b> — la <b>niacinamide</b> atténue imperfections et marques.</div>
-          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">~$6.50</span></div><a class="pcard-cta" href="https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
-        </div>
+  <div class="intro" id="intro">
+    <div class="intro-bg"></div>
+    <div class="intro-stack">
+      <img class="intro-logo" src="logo-smartskin.png" alt="SmartSkin AI">
+      <div class="intro-eyebrow" id="introEyebrow">Analyse terminée</div>
+      <div class="intro-titles">
+        <p class="intro-line">Composons maintenant ton protocole sur-mesure.</p>
+        <p class="intro-line">Commençons par ta routine de jour.</p>
       </div>
-
-      <div class="pcard" style="animation-delay:.15s">
-        <div class="pcard-img"><span class="pcard-step">3</span><img src="prod-typology.png" alt="Typology A31 Sérum Hydratant"></div>
-        <div class="pcard-body">
-          <div class="pcard-head"><span class="pcard-cat">Sérum</span><span class="pcard-brand">Typology</span></div>
-          <div class="pcard-name">A31 — Sérum Hydratant</div>
-          <div class="pcard-why">Hydrate et repulpe à l'<b>acide hyaluronique</b> + <b>B5</b> — texture légère, <b>toutes peaux</b>.</div>
-          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">~$30</span></div><a class="pcard-cta" href="https://us.typology.com/products/hyaluronic-acid" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
-        </div>
-      </div>
-
-      <div class="pcard" style="animation-delay:.2s">
-        <div class="pcard-img"><span class="pcard-step">4</span><img src="prod-dralthea.png" alt="Dr. Althea 345 Relief Cream"></div>
-        <div class="pcard-body">
-          <div class="pcard-head"><span class="pcard-cat">Crème</span><span class="pcard-brand">Dr. Althea</span></div>
-          <div class="pcard-name">345 Relief Cream</div>
-          <div class="pcard-why">Hydrate et <b>apaise</b> sans graisser — <b>non comédogène</b>, pensée pour les peaux <b>post-acné</b> et <b>sensibles</b>.</div>
-          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">$24–27</span></div><a class="pcard-cta" href="https://www.ulta.com/p/345-relief-cream-pimprod2056740" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
-        </div>
+      <div class="intro-load" id="introLoad">
+        <div class="intro-prog"><i id="introFill"></i></div>
+        <div class="intro-status"><span class="intro-spin" id="introSpin"></span><span id="introStatus">…</span></div>
+        <div class="intro-count" id="introCount"><span class="num" id="introNum">0</span><small id="introLabel"></small></div>
       </div>
     </div>
-
-    <!-- NUIT -->
-    <div class="routine night hide" id="r-night">
-      <div class="pcard">
-        <div class="pcard-img"><span class="pcard-step">1</span><img src="prod-effaclar.png" alt="La Roche-Posay Effaclar"></div>
-        <div class="pcard-body">
-          <div class="pcard-head"><span class="pcard-cat">Nettoyant</span><span class="pcard-brand">La Roche-Posay</span></div>
-          <div class="pcard-name">Effaclar Gel Cleanser</div>
-          <div class="pcard-why">Retire le <b>sébum</b> et la pollution de la journée à l'<b>acide salicylique 2%</b> — clé avant les actifs du soir.</div>
-          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">$18.99</span></div><a class="pcard-cta" href="https://www.laroche-posay.us/our-products/face/acne-products/effaclar-medicated-acne-face-wash-effaclaracnewash.html" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
-        </div>
-      </div>
-
-      <div class="pcard">
-        <div class="pcard-img"><span class="pcard-step">2</span><img src="prod-paula.png" alt="Paula's Choice 2% BHA Liquid Exfoliant"></div>
-        <div class="pcard-body">
-          <div class="pcard-head"><span class="pcard-cat">Exfoliant</span><span class="pcard-brand">Paula's Choice</span></div>
-          <div class="pcard-name">Skin Perfecting 2% BHA</div>
-          <div class="pcard-why">Désobstrue les pores à l'<b>acide salicylique (BHA)</b> — réduit <b>points noirs</b> et <b>imperfections</b>, lisse le grain.</div>
-          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">$37</span><span class="pcard-freq">2-3×/sem</span></div><a class="pcard-cta" href="https://www.paulaschoice.com/skin-perfecting-2pct-bha-liquid-exfoliant/201-2010.html" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
-        </div>
-      </div>
-
-      <div class="pcard">
-        <div class="pcard-img"><span class="pcard-step">3</span><img src="prod-typology.png" alt="Typology A31 Sérum Hydratant"></div>
-        <div class="pcard-body">
-          <div class="pcard-head"><span class="pcard-cat">Sérum</span><span class="pcard-brand">Typology</span></div>
-          <div class="pcard-name">A31 — Sérum Hydratant</div>
-          <div class="pcard-why">Repulpe et <b>réhydrate</b> à l'<b>acide hyaluronique</b> + <b>B5</b> — compense l'effet desséchant de l'exfoliant.</div>
-          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">~$30</span></div><a class="pcard-cta" href="https://us.typology.com/products/hyaluronic-acid" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
-        </div>
-      </div>
-
-      <div class="pcard">
-        <div class="pcard-img"><span class="pcard-step">4</span><img src="prod-dralthea.png" alt="Dr. Althea 345 Relief Cream"></div>
-        <div class="pcard-body">
-          <div class="pcard-head"><span class="pcard-cat">Crème</span><span class="pcard-brand">Dr. Althea</span></div>
-          <div class="pcard-name">345 Relief Cream</div>
-          <div class="pcard-why">Hydrate, <b>apaise</b> et répare la <b>barrière cutanée</b> pendant la nuit — <b>non comédogène</b>, peaux <b>sensibles</b>.</div>
-          <div class="pcard-foot"><div class="pcard-priceblock"><span class="pcard-price">$24–27</span></div><a class="pcard-cta" href="https://www.ulta.com/p/345-relief-cream-pimprod2056740" target="_blank" rel="noopener">Voir le produit <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
-        </div>
-      </div>
-    </div>
-
   </div>
 
-  <div class="footer">
-    <div class="foot-card">
-      <div class="foot-main">
-        <div class="foot-left">
-          <div class="foot-icon" id="footIcon"><svg width="20" height="20" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="9" cy="9" r="3.4"/><path d="M9 1.8v1.8M9 14.4v1.8M2.2 9h1.8M14 9h1.8M4 4l1.3 1.3M12.7 12.7L14 14M14 4l-1.3 1.3M5.3 12.7L4 14"/></svg></div>
-          <div>
-            <div class="foot-title" id="footTitle">Routine du jour</div>
-            <div class="foot-sub" id="footSub">4 produits · à appliquer le matin</div>
-          </div>
-        </div>
-        <span class="foot-total" id="footTotal2">$80</span>
-      </div>
+  <div class="phase" id="phaseShift">
+    <div class="intro-bg"></div>
+    <div class="phase-stack">
+      <span class="phase-badge"><svg width="12" height="12" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 7.5l3 3 6-6.5"/></svg>Routine du jour validée</span>
+      <p class="phase-title">Passons à ta routine du soir.</p>
+      <div class="phase-moon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.7a6.6 6.6 0 0 0 8.8 8.8A8.6 8.6 0 1 1 12 2.7Z"/><circle cx="18.1" cy="5.3" r="1.05"/><circle cx="20.3" cy="8.7" r="0.7"/></svg></div>
     </div>
-    <div class="foot-note"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l4-4M9 3H6.6M9 3v2.4"/><path d="M9 7.2V9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h1.8"/></svg>Liens affiliés vers les marques</div>
   </div>
+
+  <div class="gen" id="protoGen">
+    <div class="intro-bg"></div>
+    <div class="gen-stack">
+      <div class="gen-ring" id="genRing"></div>
+      <p class="gen-title" id="genTitle">On assemble ton protocole…</p>
+      <div class="gen-bar"><i id="genFill"></i></div>
+    </div>
+  </div>
+
+  <div class="protocol" id="protocol"></div>
 
 </div>
 </div>
 
 <script>
 (function(){
-  var tabs = document.getElementById('tabs');
-  var tabBtns = tabs.querySelectorAll('.tab');
-  var rDay = document.getElementById('r-day');
-  var rNight = document.getElementById('r-night');
-  var footTitle = document.getElementById('footTitle');
-  var footSub = document.getElementById('footSub');
-  var footTotal = document.getElementById('footTotal2');
-  var footIcon = document.getElementById('footIcon');
-  var sun = '<svg width="20" height="20" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="9" cy="9" r="3.4"/><path d="M9 1.8v1.8M9 14.4v1.8M2.2 9h1.8M14 9h1.8M4 4l1.3 1.3M12.7 12.7L14 14M14 4l-1.3 1.3M5.3 12.7L4 14"/></svg>';
-  var moon = '<svg width="20" height="20" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"><path d="M14.5 10.4A6 6 0 1 1 7.6 3.5a4.6 4.6 0 0 0 6.9 6.9Z"/></svg>';
-  var data = {
-    day:   { title:'Routine du jour', sub:'4 produits · à appliquer le matin', total:'$80', icon:sun },
-    night: { title:'Routine du soir', sub:'4 produits · à appliquer le soir',  total:'$111', icon:moon }
+  /* ── flacons SVG (alternatives sans image dédiée) ── */
+  var FLACONS = {
+    pump:'<svg class="flacon" viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"><rect x="15" y="28" width="30" height="56" rx="9"/><path d="M24 28v-6h12v6"/><rect x="26" y="9" width="9" height="13" rx="2.5"/><path d="M35 13h7v6"/><path d="M21 48h18" stroke-width="1.4" opacity=".5"/></svg>',
+    dropper:'<svg class="flacon" viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"><rect x="16" y="36" width="28" height="48" rx="8"/><path d="M23 36v-4h14v4"/><rect x="25" y="10" width="10" height="22" rx="3"/><path d="M30 14v14" stroke-width="1.6"/><path d="M21 50h18" stroke-width="1.4" opacity=".5"/></svg>',
+    jar:'<svg class="flacon" viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"><rect x="12" y="38" width="36" height="40" rx="11"/><rect x="10" y="26" width="40" height="14" rx="5"/><path d="M18 33h24" stroke-width="1.4" opacity=".5"/></svg>',
+    bottle:'<svg class="flacon" viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"><path d="M19 84V40c0-3 1-4 3-6l1-3v-6h14v6l1 3c2 2 3 3 3 6v44a4 4 0 0 1-4 4H23a4 4 0 0 1-4-4Z"/><rect x="24" y="9" width="12" height="10" rx="2"/><path d="M22 52h16" stroke-width="1.4" opacity=".5"/></svg>'
+  };
+  var ARROW = '<svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M3 8h8M7 4l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  var HEART = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 20.7c-.4 0-.8-.14-1.1-.4C6.3 16.45 3 13.6 3 9.9 3 7.2 5.1 5.2 7.6 5.2c1.5 0 2.95.74 3.9 1.9l.5.6.5-.6c.95-1.16 2.4-1.9 3.9-1.9 2.5 0 4.6 2 4.6 4.7 0 3.7-3.3 6.55-7.9 10.4-.3.26-.7.4-1.1.4Z"/></svg>';
+  var CROSS = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M7 7l10 10M17 7L7 17"/></svg>';
+  var STAR  = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"/></svg>';
+  var CLOCK = '<svg width="11" height="11" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="5.4"/><path d="M7 4v3l2 1.4"/></svg>';
+  var CHEVRON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>';
+  var SPARK = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l1.7 5.6L19.3 9l-5.6 1.4L12 16l-1.7-5.6L4.7 9l5.6-1.4z"/></svg>';
+  var SUN  = '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4.6"/><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 2.9v1.7"/><path d="M12 19.4v1.7"/><path d="M21.1 12h-1.7"/><path d="M4.6 12H2.9"/><path d="M18.45 5.55l-1.2 1.2"/><path d="M6.75 17.25l-1.2 1.2"/><path d="M18.45 18.45l-1.2-1.2"/><path d="M6.75 6.75L5.55 5.55"/></g></svg>';
+  var MOON = '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.7a6.6 6.6 0 0 0 8.8 8.8A8.6 8.6 0 1 1 12 2.7Z"/><circle cx="18.1" cy="5.3" r="1.05"/><circle cx="20.3" cy="8.7" r="0.7"/></svg>';
+  var REPEAT = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 0 1 13-6.2L20.5 8"/><path d="M20.5 3.5V8H16"/><path d="M20 12a8 8 0 0 1-13 6.2L3.5 16"/><path d="M3.5 20.5V16H8"/></svg>';
+  var CART = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7.5h13l-1.2 9.2a2.2 2.2 0 0 1-2.2 1.9H9.4a2.2 2.2 0 0 1-2.2-1.9L6 7.5Z"/><path d="M9 7.5a3 3 0 0 1 6 0"/></svg>';
+
+  /* ── catalogue alternatives partagées ── */
+  var CLEANSER = [
+    { brand:'La Roche-Posay', name:'Effaclar Gel Cleanser', img:'prod-effaclar.png', price:'$18.99', p:19,
+      why:'Ton diagnostic a relevé un <b>excès de sébum</b> et des <b>imperfections</b> sur la zone T. Ce gel nettoie en profondeur grâce à l\'<b>acide salicylique 2%</b>, qui dissout le sébum incrusté et désobstrue les pores sans agresser ta peau. Utilisé matin et soir, il prépare la peau à recevoir les actifs ciblés de ta routine et limite l\'apparition de nouvelles imperfections.',
+      url:'https://www.laroche-posay.us/our-products/face/acne-products/effaclar-medicated-acne-face-wash-effaclaracnewash.html' },
+    { brand:'CeraVe', name:'Foaming Cleanser', price:'$15', p:15,
+      why:'Une alternative plus douce si ta peau a tendance à tirailler. Sa <b>niacinamide</b> et ses <b>céramides</b> éliminent l\'<b>excès de sébum</b> relevé par ton diagnostic tout en renforçant la <b>barrière cutanée</b>. Bon compromis efficacité/tolérance pour un usage quotidien.',
+      url:'https://www.cerave.com/skincare/cleansers/foaming-facial-cleanser' },
+    { brand:'Avène', name:'Cleanance Gel Nettoyant', price:'$17', p:17,
+      why:'Pensé pour les peaux <b>grasses à imperfections</b> comme l\'indique ton diagnostic. Ce gel purifie et matifie la zone T et cible l\'<b>excès de sébum</b> sans décaper, le tout testé sous contrôle dermatologique.',
+      url:'https://www.aveneusa.com' },
+    { brand:'The Inkey List', name:'Salicylic Acid Cleanser', price:'$11', p:11,
+      why:'Même logique que le produit recommandé, à prix mini. L\'<b>acide salicylique 2%</b> et le <b>zinc</b> désincrustent les pores et ciblent les <b>points noirs</b> repérés dans ton diagnostic.',
+      url:'https://www.theinkeylist.com' }
+  ];
+  var SERUM_NIA = [
+    { brand:'The Ordinary', name:'Niacinamide 10% + Zinc 1%', img:'prod-niacinamide.png', price:'~$6.50', p:6.5,
+      why:'Ton diagnostic pointe un <b>sébum</b> abondant et des <b>pores</b> visibles. La <b>niacinamide 10%</b> régule la production de sébum pendant que le <b>zinc</b> apaise les imperfections. En quelques semaines, le grain de peau s\'affine et les marques s\'atténuent. À appliquer le matin avant l\'hydratant pour matifier la journée.',
+      url:'https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html' },
+    { brand:'Naturium', name:'Niacinamide Serum 12%', price:'$16', p:16,
+      why:'Version plus concentrée pour les mêmes besoins. La <b>niacinamide 12%</b> resserre les <b>pores</b> identifiés dans ton diagnostic et unifie le teint, dans une texture fluide non collante.',
+      url:'https://naturium.com' },
+    { brand:'Paula\'s Choice', name:'10% Niacinamide Booster', price:'$49', p:49,
+      why:'Un booster premium très ciblé sur les <b>pores</b> dilatés et le grain irrégulier de ton diagnostic. La <b>niacinamide 10%</b> affine la peau dans une base soyeuse, à mélanger à ton sérum ou hydratant.',
+      url:'https://www.paulaschoice.com' },
+    { brand:'Good Molecules', name:'Niacinamide Serum', price:'$12', p:12,
+      why:'L\'essentiel au prix le plus juste. Une <b>niacinamide</b> simple et efficace qui régule l\'<b>excès de sébum</b> relevé par ton diagnostic, idéale pour débuter sans se ruiner.',
+      url:'https://goodmolecules.com' }
+  ];
+  var SERUM_HYDRA = [
+    { brand:'Typology', name:'A31 — Sérum Hydratant', img:'prod-typology.png', price:'~$30', p:30,
+      why:'Même une peau grasse manque d\'eau : ton diagnostic révèle une <b>déshydratation</b> sous l\'excès de sébum. L\'<b>acide hyaluronique</b> repulpe et la <b>vitamine B5</b> apaise, dans une texture légère <b>non grasse</b> qui n\'obstrue pas les pores. Elle rééquilibre la peau et limite l\'effet rebond de sébum lié au dessèchement.',
+      url:'https://us.typology.com/products/hyaluronic-acid' },
+    { brand:'The Ordinary', name:'Hyaluronic Acid 2% + B5', price:'$9', p:9,
+      why:'Le même bénéfice hydratant à prix mini. L\'<b>acide hyaluronique</b> multi-poids et la <b>B5</b> repulpent la <b>déshydratation</b> notée dans ton diagnostic, sous une texture légère adaptée aux peaux mixtes à grasses.',
+      url:'https://theordinary.com' },
+    { brand:'La Roche-Posay', name:'Hyalu B5 Sérum', price:'$40', p:40,
+      why:'Plus réparateur, si ton diagnostic montre aussi des <b>zones sensibilisées</b>. L\'<b>acide hyaluronique</b>, la <b>vitamine B5</b> et le madécassoside repulpent et réparent les peaux fragilisées.',
+      url:'https://www.laroche-posay.us' },
+    { brand:'Vichy', name:'Minéral 89 Booster', price:'$30', p:30,
+      why:'Un booster fortifiant : l\'<b>acide hyaluronique</b> et l\'eau volcanique renforcent la <b>barrière cutanée</b> et hydratent intensément la peau déshydratée repérée dans ton diagnostic.',
+      url:'https://www.vichyusa.com' }
+  ];
+  var CREAM = [
+    { brand:'Dr. Althea', name:'345 Relief Cream', img:'prod-dralthea.png', price:'$24–27', p:25,
+      why:'Pour sceller l\'hydratation sans relancer le <b>sébum</b> relevé par ton diagnostic. Cette crème <b>non comédogène</b> hydrate et <b>apaise</b> les zones <b>post-acné</b> et sensibles sans laisser de film gras. Elle clôt ta routine du matin et garde la peau confortable toute la journée.',
+      url:'https://www.ulta.com/p/345-relief-cream-pimprod2056740' },
+    { brand:'CeraVe', name:'Moisturizing Cream', price:'$17', p:17,
+      why:'Riche en <b>céramides</b> et <b>acide hyaluronique</b>, elle restaure la <b>barrière cutanée</b> sans provoquer de comédons — adaptée aux zones sensibilisées identifiées dans ton diagnostic.',
+      url:'https://www.cerave.com' },
+    { brand:'La Roche-Posay', name:'Toleriane Double Repair', price:'$21', p:21,
+      why:'<b>Céramides</b> et niacinamide pour apaiser et réparer au quotidien la peau réactive notée dans ton diagnostic, sans surcharger les pores.',
+      url:'https://www.laroche-posay.us' },
+    { brand:'Avène', name:'Tolérance Control Crème', price:'$32', p:32,
+      why:'Formule minimaliste et apaisante : elle calme les <b>rougeurs</b> et l\'inconfort des zones sensibles relevées par ton diagnostic, idéale en cas de peau réactive.',
+      url:'https://www.aveneusa.com' }
+  ];
+  var EXFO = [
+    { brand:'Paula\'s Choice', name:'Skin Perfecting 2% BHA', img:'prod-paula.png', price:'$37', p:37, freq:'2-3×/sem',
+      why:'Ton diagnostic révèle des <b>pores obstrués</b> et des <b>points noirs</b>. Cet exfoliant à l\'<b>acide salicylique (BHA)</b> pénètre dans le pore pour dissoudre sébum et impuretés, lisse le grain et prévient les imperfections. À utiliser 2-3 soirs par semaine, jamais en même temps que d\'autres actifs forts.',
+      url:'https://www.paulaschoice.com/skin-perfecting-2pct-bha-liquid-exfoliant/201-2010.html' },
+    { brand:'The Ordinary', name:'Salicylic Acid 2% Solution', price:'$9', p:9, freq:'2-3×/sem',
+      why:'Le même actif à prix mini. L\'<b>acide salicylique 2%</b> cible les <b>pores obstrués</b> et les <b>points noirs</b> de ton diagnostic, à raison de 2-3 fois par semaine.',
+      url:'https://theordinary.com' },
+    { brand:'COSRX', name:'BHA Blackhead Power Liquid', price:'$25', p:25, freq:'le soir',
+      why:'Plus doux pour débuter l\'exfoliation. Le <b>BHA</b> associé au saule blanc déloge les <b>points noirs</b> repérés dans ton diagnostic tout en respectant la peau.',
+      url:'https://www.cosrx.com' },
+    { brand:'COSRX', name:'AHA/BHA Clarifying Toner', price:'$19', p:19, freq:'2-3×/sem',
+      why:'Une exfoliation légère <b>AHA/BHA</b> en entretien : elle affine le grain et désobstrue les <b>pores</b> notés dans ton diagnostic, en douceur.',
+      url:'https://www.cosrx.com' }
+  ];
+
+  function withWhy(list, idx, why){ var c={}; for(var k in list[idx]) c[k]=list[idx][k]; if(why) c.why=why; return c; }
+  var ROUTINE = {
+    day: [
+      { cat:'Nettoyant', icon:'pump',    freq:'Chaque matin', use:'Masse sur peau humide ~30 s, puis rince à l\'eau tiède.', options:CLEANSER },
+      { cat:'Sérum',     icon:'dropper', freq:'Chaque matin', use:'3-4 gouttes sur peau propre, à faire pénétrer avant l\'hydratant.', options:SERUM_NIA },
+      { cat:'Sérum',     icon:'dropper', freq:'Chaque matin', use:'Quelques gouttes sur peau encore légèrement humide.', options:SERUM_HYDRA },
+      { cat:'Crème',     icon:'jar',     freq:'Chaque matin', use:'Une noisette pour sceller l\'hydratation. Termine toujours par un SPF.', options:CREAM }
+    ],
+    night: [
+      { cat:'Nettoyant', icon:'pump',    freq:'Chaque soir', use:'Masse pour retirer sébum et pollution du jour, puis rince.', options:[ withWhy(CLEANSER,0,'Au fil de la journée, sébum et pollution s\'accumulent et obstruent les pores — à l\'origine des <b>points noirs</b> repérés dans ton diagnostic. Ce nettoyant à l\'<b>acide salicylique 2%</b> retire cet <b>excès de sébum</b> le soir et remet la peau à zéro avant les actifs nocturnes. Étape clé pour désincruster sans dessécher.'), CLEANSER[1], CLEANSER[2], CLEANSER[3] ] },
+      { cat:'Exfoliant', icon:'bottle',  freq:'2-3 soirs / sem', use:'Sur peau sèche après nettoyage, ne pas rincer. Jamais avec d\'autres acides le même soir.', options:EXFO },
+      { cat:'Sérum',     icon:'dropper', freq:'Chaque soir', use:'Réhydrate juste après l\'exfoliant, sur peau légèrement humide.', options:[ withWhy(SERUM_HYDRA,0,'Après l\'exfoliant du soir, la peau peut tirailler. Ce sérum <b>acide hyaluronique</b> + <b>B5</b> réhydrate en profondeur et calme les <b>zones sensibilisées</b> repérées dans ton diagnostic. Il compense l\'effet asséchant de l\'exfoliation et préserve la <b>barrière cutanée</b> pendant la nuit.'), SERUM_HYDRA[1], SERUM_HYDRA[2], SERUM_HYDRA[3] ] },
+      { cat:'Crème',     icon:'jar',     freq:'Chaque soir', use:'Une noisette en dernière étape, pour réparer la nuit.', options:[ withWhy(CREAM,0,'La nuit, la peau se répare. Cette crème <b>non comédogène</b> nourrit, <b>apaise</b> et soutient la <b>barrière cutanée</b> fragilisée par les imperfections et les marques <b>post-acné</b> de ton diagnostic, sans risque d\'obstruer les pores.'), CREAM[1], CREAM[2], CREAM[3] ] }
+    ]
   };
 
-  tabBtns.forEach(function(b){
-    b.addEventListener('click', function(){
-      var t = b.dataset.tab;
-      tabBtns.forEach(function(x){ x.classList.toggle('on', x===b); });
-      tabs.classList.toggle('night', t==='night');
-      rDay.classList.toggle('hide', t!=='day');
-      rNight.classList.toggle('hide', t!=='night');
-      var d = data[t];
-      footTitle.textContent = d.title;
-      footSub.textContent = d.sub;
-      footTotal.textContent = d.total;
-      footIcon.innerHTML = d.icon;
+  var META = {
+    day:   { title:'Routine du jour', sub:'4 produits · à appliquer le matin', icon:SUN, period:'le matin' },
+    night: { title:'Routine du soir', sub:'4 produits · à appliquer le soir',  icon:MOON, period:'le soir' }
+  };
+
+  function freshState(){ return { step:0, ptrs:[0,0,0,0], kept:[null,null,null,null], history:[] }; }
+  var STATE = { day:freshState(), night:freshState() };
+  var tab = 'day';
+  var animating = false;
+
+  var deck = document.getElementById('deck');
+  var actions = document.getElementById('actions');
+  var hint = document.getElementById('hint');
+  var dotsEl = document.getElementById('dots');
+  var stepLabel = document.getElementById('stepLabel');
+  var trayEl = document.getElementById('tray');
+  var traySlots = document.getElementById('traySlots');
+  var trayCount = document.getElementById('trayCount');
+  var trayTotal = document.getElementById('trayTotal');
+  var btnReplay = document.getElementById('btnReplay');
+  var headTitle = document.getElementById('headTitle');
+
+  function updateReplay(){ if(btnReplay) btnReplay.classList.toggle('disabled', STATE[tab].history.length === 0); }
+
+  function visual(prod, icon){ return prod.img ? '<img src="'+prod.img+'" alt="'+prod.brand+' '+prod.name+'">' : (FLACONS[icon]||FLACONS.bottle); }
+
+  /* entrée animée — on retire 'fresh' dès la fin (sinon animation-fill 'both' bloque les transforms inline du drag) */
+  function markFresh(card){
+    card.classList.add('fresh');
+    card.addEventListener('animationend', function(){ card.classList.remove('fresh'); }, { once:true });
+  }
+
+  function totalNum(t){
+    var st=STATE[t], sum=0;
+    ROUTINE[t].forEach(function(s,i){ var idx = st.kept[i]!=null ? st.kept[i] : st.ptrs[i]; sum += s.options[idx].p; });
+    return sum;
+  }
+  function liveTotal(t){ return '$' + Math.round(totalNum(t)); }
+
+  function buildCard(step, depth, stepIdx){
+    var st = STATE[tab];
+    var ptr = (depth===0) ? st.ptrs[stepIdx] : 0;
+    var prod = step.options[ptr];
+    var card = document.createElement('div');
+    card.className = 'swipe-card depth-' + depth;
+    var topBadge = (ptr>0)
+      ? '<span class="alt-badge">Alternative '+ptr+' / '+(step.options.length-1)+'</span>'
+      : '<span class="reco-badge">'+STAR+'Recommandé</span>';   // 1re carte de catégorie = produit recommandé
+    var right = prod.freq ? '<div class="card-tag">'+CLOCK+prod.freq+'</div>' : '';
+    var whyTitle = (ptr>0) ? 'Pourquoi cette alternative ?' : 'Pourquoi on vous le recommande';
+    card.innerHTML =
+      '<div class="card-img"><span class="card-step">'+(stepIdx+1)+'</span>'+topBadge+visual(prod, step.icon)+'<span class="scroll-cue hidden"><span class="scroll-thumb"></span></span></div>'+
+      '<div class="card-info">'+
+        '<div class="card-head"><span class="card-cat">'+step.cat+'</span><span class="card-brand">'+prod.brand+'</span></div>'+
+        '<div class="card-name">'+prod.name+'</div>'+
+        '<div class="card-scroll">'+
+          '<div class="why-title">'+SPARK+whyTitle+'</div>'+
+          '<div class="card-why">'+prod.why+'</div>'+
+        '</div>'+
+        '<div class="card-foot"><div class="card-priceblock"><span class="card-price">'+prod.price+'</span></div>'+right+'</div>'+
+      '</div>'+
+      '<div class="card-glow like"></div><div class="card-glow nope"></div>'+
+      '<div class="stamp keep">'+HEART+'</div><div class="stamp swap">'+CROSS+'</div>';
+    return card;
+  }
+
+  function renderDots(){
+    var st = STATE[tab], html='';
+    for(var i=0;i<ROUTINE[tab].length;i++){
+      var cls='dot';
+      if(i < st.step) cls+=' done'; else if(i === st.step) cls+=' active';
+      html += '<div class="'+cls+'"></div>';
+    }
+    dotsEl.innerHTML = html;
+  }
+  function renderFooter(){
+    if(headTitle) headTitle.textContent = (tab==='night') ? 'Ta routine du soir.' : 'Ta routine du jour.';
+    renderTray();
+  }
+
+  /* plateau "Ta sélection" : vignettes des produits gardés + slots restants */
+  function renderTray(){
+    if(!trayEl) return;
+    var st = STATE[tab], steps = ROUTINE[tab];
+    if(st.step >= steps.length){ trayEl.style.display='none'; return; }   // récap : masqué
+    trayEl.style.display='';
+    var html='', sum=0;
+    for(var i=0;i<steps.length;i++){
+      if(st.kept[i]!=null){
+        var prod = steps[i].options[st.kept[i]]; sum += prod.p;
+        var thumb = prod.img ? '<img src="'+prod.img+'" alt="">' : (FLACONS[steps[i].icon]||FLACONS.bottle);
+        html += '<div class="tray-slot filled">'+thumb+'</div>';
+      } else if(i===st.step){
+        html += '<div class="tray-slot current"></div>';
+      } else {
+        html += '<div class="tray-slot"></div>';
+      }
+    }
+    traySlots.innerHTML = html;
+    trayCount.textContent = st.step + '/' + steps.length;
+    trayTotal.textContent = st.step>0 ? '· ~$'+Math.round(sum) : '';
+  }
+
+  /* fin de la routine du jour → on bascule automatiquement sur le soir (flux séquentiel, sans onglets) */
+  function goToNight(){
+    actions.style.display='none'; hint.style.display='none';
+    var ph = document.getElementById('phaseShift');
+    ph.classList.add('show');
+    setTimeout(function(){
+      tab = 'night';
+      render();                       // construit le deck du soir derrière l'overlay
+      ph.classList.remove('show');    // l'interstitiel se dissout, le deck du soir apparaît
+    }, 2000);
+  }
+
+  /* fin de la routine du soir → court écran de génération, puis le protocole (transition douce) */
+  function goToProtocol(){
+    actions.style.display='none'; hint.style.display='none';
+    if(trayEl) trayEl.style.display='none';
+    var gen=document.getElementById('protoGen'), ring=document.getElementById('genRing'),
+        title=document.getElementById('genTitle'), fill=document.getElementById('genFill');
+    ring.classList.remove('done'); title.textContent='On assemble ton protocole…';
+    fill.style.transition='none'; fill.style.width='0';
+    gen.classList.add('show');
+    requestAnimationFrame(function(){ fill.style.transition='width 1.5s cubic-bezier(.4,0,.2,1)'; fill.style.width='100%'; });
+    setTimeout(function(){ ring.classList.add('done'); title.textContent='Ton protocole est prêt.'; }, 1550);
+    setTimeout(function(){
+      renderProtocol();               // construit + affiche le protocole derrière l'overlay
+      gen.classList.remove('show');   // l'écran de génération se dissout par-dessus
+    }, 2250);
+  }
+
+  function render(){
+    var st = STATE[tab], steps = ROUTINE[tab];
+    renderDots(); renderFooter(); updateReplay();
+    if(st.step >= steps.length){ (tab==='day') ? goToNight() : goToProtocol(); return; }
+    actions.style.display=''; hint.style.display='';
+    stepLabel.textContent = 'Étape '+(st.step+1)+' / '+steps.length;
+    deck.innerHTML = '';
+    var maxDepth = Math.min(2, steps.length-1-st.step);
+    for(var depth = maxDepth; depth >= 0; depth--){
+      var c = buildCard(steps[st.step+depth], depth, st.step+depth);
+      if(depth===0) markFresh(c);
+      deck.appendChild(c);
+    }
+    var f0 = deck.querySelector('.depth-0');
+    attachDrag(f0); initScrollCue(f0);
+  }
+
+  /* récap final : jour + soir réunis */
+  /* screen Protocole (ordonnance) : routine matin/soir avec posologie + pourquoi */
+  function renderProtocol(){
+    var protoEl = document.getElementById('protocol');
+    if(!protoEl) return;
+    if(headTitle) headTitle.textContent = 'Ton protocole.';
+    if(trayEl) trayEl.style.display='none';
+    actions.style.display='none'; hint.style.display='none';
+
+    function chosen(t,i){ var st=STATE[t], s=ROUTINE[t][i]; return s.options[ st.kept[i]!=null ? st.kept[i] : st.ptrs[i] ]; }
+    function vis(p,icon){ return p.img ? '<img src="'+p.img+'" alt="">' : (FLACONS[icon]||FLACONS.bottle); }
+    function firstSentence(why){ var i = why.indexOf('. '); return i>0 ? why.slice(0,i+1) : why; }   // « pourquoi » condensé
+
+    function card(t,i){
+      var s = ROUTINE[t][i], p = chosen(t,i);
+      var dn = t==='day'?'day':'night', ico = t==='day'?SUN:MOON, when = t==='day'?'Matin':'Soir';
+      return '<div class="tl-step"><div class="tl-node">'+(i+1)+'</div>'+   // n° sur le rail timeline
+        '<div class="rx">'+
+          '<div class="rx-top"><div class="rx-thumb">'+vis(p,s.icon)+'</div>'+
+            '<div class="rx-id"><div class="rx-cat">'+s.cat+'</div><div class="rx-name">'+p.name+'</div><div class="rx-brand">'+p.brand+'</div></div>'+
+            '<span class="rx-price">'+p.price+'</span></div>'+
+          '<div class="rx-poso"><div class="rx-poso-tags">'+
+              '<span class="rx-tag when '+dn+'">'+ico+when+'</span>'+
+              '<span class="rx-tag freq">'+REPEAT+s.freq+'</span>'+
+            '</div><div class="rx-how">'+s.use+'</div></div>'+
+          '<div class="rx-why"><span class="lbl">Pourquoi&nbsp;:</span> '+firstSentence(p.why)+'</div>'+
+          '<a class="rx-buy" href="'+p.url+'" target="_blank" rel="noopener">'+CART+'Acheter le produit</a>'+
+        '</div></div>';
+    }
+    function sec(t, ico, label, sub){
+      var rows=''; ROUTINE[t].forEach(function(_,i){ rows += card(t,i); });
+      return '<div class="sec-head"><div class="sec-ic '+(t==='day'?'day':'night')+'">'+ico+'</div><div class="sec-txt"><b>'+label+'</b><span>'+sub+'</span></div></div>'+
+        '<div class="tl-track">'+rows+'</div>';
+    }
+    var total = '$' + Math.round(totalNum('day') + totalNum('night'));
+
+    protoEl.innerHTML =
+      '<nav class="nav"><div class="back" id="protoBack"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"/></svg></div><div class="nav-logo"><img src="logo-smartskin.png" alt="SmartSkin AI"></div></nav>'+
+      '<div class="proto">'+
+        '<div class="proto-h1">Ton protocole sur-mesure.</div>'+
+        '<div class="proto-sub">Établi d\'après ton analyse · <b>8 produits</b></div>'+
+        '<div class="proto-diag"><span class="proto-chip">Excès de sébum</span><span class="proto-chip">Pores obstrués</span><span class="proto-chip">Imperfections</span></div>'+
+        sec('day', SUN, 'Routine du matin', 'Réveille &amp; protège')+
+        sec('night', MOON, 'Routine du soir', 'Répare &amp; régénère')+
+        '<div class="proto-cta"><div class="proto-total"><span class="lbl">Total estimé</span><span class="val">'+total+'</span></div>'+
+          '<button class="proto-save" id="protoSave">Enregistrer mon protocole</button>'+
+          '<button class="proto-restart" id="protoRestart"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 10a8 8 0 0 1 13.4-4.5L20.5 8"/><path d="M20.5 3.5V8H16"/></svg> Tout recommencer</button>'+
+          '<div class="proto-note"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l4-4M9 3H6.6M9 3v2.4"/><path d="M9 7.2V9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h1.8"/></svg>Liens affiliés vers les marques</div>'+
+        '</div>'+
+      '</div>';
+
+    protoEl.scrollTop = 0;
+    protoEl.classList.add('show');
+
+    function restart(){ protoEl.classList.remove('show'); STATE.day = freshState(); STATE.night = freshState(); tab='day'; render(); }
+    document.getElementById('protoBack').addEventListener('click', restart);
+    document.getElementById('protoRestart').addEventListener('click', restart);
+    document.getElementById('protoSave').addEventListener('click', function(){ this.style.opacity='.65'; this.textContent='Protocole enregistré ✓'; });
+  }
+
+  /* ── décision : dir>0 garder · dir<0 refuser ──
+     La carte de devant s'envole, puis on reconstruit une pile propre (render).
+     Simple et sans état résiduel : la nouvelle carte est toujours opaque + draggable. */
+  function decide(dir){
+    if(animating) return;
+    var front = deck.querySelector('.depth-0');
+    if(!front) return;
+    animating = true;
+    var st = STATE[tab], steps = ROUTINE[tab];
+    st.history.push({ step:st.step, ptrs:st.ptrs.slice(), kept:st.kept.slice() });   // pour le bouton replay
+    if(st.history.length > 24) st.history.shift();
+    var keep = front.querySelector('.stamp.keep'), swap = front.querySelector('.stamp.swap');
+    var glow = front.querySelector(dir>0 ? '.card-glow.like' : '.card-glow.nope');
+    var stamp = dir>0 ? keep : swap, other = dir>0 ? swap : keep;
+    if(stamp){ stamp.style.opacity='1'; stamp.style.transform='scale(1.1)'; }
+    if(other){ other.style.opacity='0'; }
+    if(glow){ glow.style.opacity='1'; }
+    front.classList.remove('depth-0', 'fresh'); front.classList.add('flown');
+    front.style.transition = 'transform .5s cubic-bezier(.2,.6,.25,1), opacity .42s ease';
+    front.style.transform = 'translate('+(dir>0?780:-780)+'px,-55px) rotate('+(dir*20)+'deg)';
+    front.style.opacity = '0';
+
+    if(dir>0){ st.kept[st.step] = st.ptrs[st.step]; st.step++; }
+    else { var n = steps[st.step].options.length; st.ptrs[st.step] = (st.ptrs[st.step] + 1) % n; }
+
+    renderDots(); renderFooter();
+    setTimeout(function(){ animating = false; render(); }, 340);   // render() wipe la carte envolée (déjà hors écran)
+  }
+
+  /* ── drag (Pointer Events : souris + tactile) ──
+     Listeners move/up posés sur document (pas de setPointerCapture) : robuste
+     même quand la carte est retirée du DOM en plein geste. */
+  function attachDrag(card){
+    if(!card) return;
+    var keep = card.querySelector('.stamp.keep'), swap = card.querySelector('.stamp.swap');
+    var glowLike = card.querySelector('.card-glow.like'), glowNope = card.querySelector('.card-glow.nope');
+    var startX = 0, dx = 0, dragging = false;
+
+    function paint(dir, r){            // dir +1 love (rose) · -1 nope (rouge)
+      var sc = 'scale('+(0.55 + 0.55*r)+')';
+      var g = Math.min(1, r*1.25);     // overlay plus fort, monte plus vite
+      if(dir > 0){
+        if(keep){ keep.style.opacity=r; keep.style.transform=sc; }
+        if(swap){ swap.style.opacity=0; }
+        if(glowLike) glowLike.style.opacity = g;
+        if(glowNope) glowNope.style.opacity = 0;
+      } else {
+        if(swap){ swap.style.opacity=r; swap.style.transform=sc; }
+        if(keep){ keep.style.opacity=0; }
+        if(glowNope) glowNope.style.opacity = g;
+        if(glowLike) glowLike.style.opacity = 0;
+      }
+    }
+    function clearPaint(){
+      if(keep){ keep.style.opacity=0; keep.style.transform='scale(.55)'; }
+      if(swap){ swap.style.opacity=0; swap.style.transform='scale(.55)'; }
+      if(glowLike) glowLike.style.opacity = 0;
+      if(glowNope) glowNope.style.opacity = 0;
+    }
+    function move(e){
+      if(!dragging) return;
+      dx = e.clientX - startX;
+      card.style.transform = 'translate('+dx+'px,'+(Math.abs(dx)*0.035)+'px) rotate('+(dx*0.055)+'deg)';
+      var r = Math.min(1, Math.abs(dx)/95);
+      if(dx > 0) paint(1, r); else if(dx < 0) paint(-1, r); else clearPaint();
+    }
+    function up(){
+      if(!dragging) return;
+      dragging = false;
+      document.removeEventListener('pointermove', move);
+      document.removeEventListener('pointerup', up);
+      document.removeEventListener('pointercancel', up);
+      card.classList.remove('grabbing');
+      if(dx > 95) { decide(1); }
+      else if(dx < -95) { decide(-1); }
+      else {
+        card.style.transition = 'transform .45s cubic-bezier(.34,1.56,.64,1)';
+        card.style.transform = '';
+        setTimeout(function(){ card.style.transition=''; }, 460);
+        clearPaint();
+      }
+      dx = 0;
+    }
+    card.addEventListener('pointerdown', function(e){
+      if(animating) return;
+      if(e.pointerType === 'mouse') e.preventDefault();   // tactile : laisse le scroll vertical natif (touch-action:pan-y)
+      dragging = true; startX = e.clientX; dx = 0;
+      card.classList.remove('fresh');   /* libère les transforms inline (animation-fill 'both') */
+      card.classList.add('grabbing');
+      document.addEventListener('pointermove', move);
+      document.addEventListener('pointerup', up);
+      document.addEventListener('pointercancel', up);
     });
+  }
+
+  /* mini-scrollbar (coin bas-droit de l'image) : thumb proportionnel + position de lecture */
+  function initScrollCue(card){
+    if(!card) return;
+    var sc = card.querySelector('.card-scroll'), cue = card.querySelector('.scroll-cue'), thumb = card.querySelector('.scroll-thumb');
+    if(!sc || !cue || !thumb) return;
+    function upd(){
+      var ratio = sc.clientHeight / sc.scrollHeight;
+      if(ratio >= 0.999){ cue.classList.add('hidden'); return; }   // rien à scroller
+      cue.classList.remove('hidden');
+      var track = cue.clientHeight;
+      var th = Math.max(12, track * ratio);
+      var maxScroll = sc.scrollHeight - sc.clientHeight;
+      var prog = maxScroll > 0 ? sc.scrollTop / maxScroll : 0;
+      thumb.style.height = th + 'px';
+      thumb.style.transform = 'translateY(' + ((track - th) * prog) + 'px)';
+    }
+    sc.addEventListener('scroll', upd);
+    requestAnimationFrame(upd); requestAnimationFrame(function(){ requestAnimationFrame(upd); });
+  }
+
+  document.getElementById('btnKeep').addEventListener('click', function(){ decide(1); });
+  document.getElementById('btnSwap').addEventListener('click', function(){ decide(-1); });
+
+  /* replay : annule le dernier swipe (garder ou refuser) */
+  btnReplay.addEventListener('click', function(){
+    if(animating) return;
+    var st = STATE[tab];
+    if(!st.history.length) return;
+    var snap = st.history.pop();
+    st.step = snap.step; st.ptrs = snap.ptrs; st.kept = snap.kept;
+    render();
   });
 
+  /* (plus d'onglets : le flux passe automatiquement du jour au soir) */
+
+  /* ── storytelling d'intro : 2 phrases (plus hautes, qui restent) + analyse en direct, puis le deck (non skippable) ── */
+  (function(){
+    var intro = document.getElementById('intro');
+    if(!intro){ render(); return; }
+    var lines  = intro.querySelectorAll('.intro-line');
+    var load   = document.getElementById('introLoad');
+    var fill   = document.getElementById('introFill');
+    var spin   = document.getElementById('introSpin');
+    var status = document.getElementById('introStatus');
+    var countEl= document.getElementById('introCount');
+    var num    = document.getElementById('introNum');
+    var label  = document.getElementById('introLabel');
+    var eyebrow= document.getElementById('introEyebrow');
+    var timers = [];
+    function after(ms, fn){ timers.push(setTimeout(fn, ms)); }
+    function setFill(pct, ms){ fill.style.transition = 'width '+ms+'ms cubic-bezier(.4,0,.2,1)'; fill.style.width = pct+'%'; }
+    function cycle(msgs, interval){ var i=0; status.textContent=msgs[0]; var id=setInterval(function(){ i++; if(i<msgs.length) status.textContent=msgs[i]; else clearInterval(id); }, interval); timers.push(id); }
+    function tick(to, dur){ var t0=performance.now(); var id=setInterval(function(){ var t=Math.min(1,(performance.now()-t0)/dur); num.textContent=Math.round((1-Math.pow(1-t,2))*to).toLocaleString('fr-FR'); if(t>=1) clearInterval(id); }, 45); timers.push(id); }
+
+    load.classList.add('show');
+
+    /* PHASE 1 — analyse du diagnostic (titre haut, reste ~3.2s) */
+    lines[0].classList.add('in');
+    cycle(['Lecture de ton diagnostic…','Sébum · pores · imperfections ciblés','Définition de tes priorités…'], 1150);
+    setFill(34, 3000);
+    after(3300, function(){ lines[0].classList.remove('in'); lines[0].classList.add('out'); });
+
+    /* PHASE 2 — recherche en direct parmi 2 000+ produits (~3.8s) */
+    after(3850, function(){
+      lines[1].classList.add('in');
+      if(eyebrow){ eyebrow.classList.add('daymode'); eyebrow.innerHTML = SUN + 'Routine du jour'; }   // ☀ icône routine du jour
+      countEl.classList.add('on');
+      label.textContent = 'produits analysés · 2 000+ en base';
+      cycle(['Connexion à la base produits…','Analyse en direct…','Recherche du meilleur match…'], 1250);
+      setFill(100, 3500);
+      tick(2137, 3200);
+    });
+    after(7700, function(){
+      spin.classList.add('done');
+      status.textContent = 'Sélection prête';
+      num.textContent = '4';
+      label.textContent = 'produits retenus pour toi';
+    });
+    after(9300, function(){            // frame "4 retenus" tenue ~1.6s
+      lines[1].classList.remove('in'); lines[1].classList.add('out');
+      load.classList.remove('show');
+    });
+    after(9850, function(){
+      render();                       // le deck monte (cardIn)
+      intro.classList.add('gone');    // l'overlay se dissout par-dessus
+      after(700, function(){ if(intro.parentNode) intro.parentNode.removeChild(intro); });
+    });
+  })();
 })();
 </script>
 </body>

@@ -115,9 +115,11 @@ export const QUESTIONS: Record<string, QuestionDef> = {
         icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 7.5c2.4-1.6 4.8 1.6 7.2 0s4.8-1.6 6.8 0M4 13c2.4-1.6 4.8 1.6 7.2 0s4.8-1.6 6.8 0"/></svg>` },
     ],
   },
+  // q6 (budget) — RETIRÉ du parcours V1 : absent de STEP_ORDER, donc jamais posé.
+  // Conservé ici + dans le moteur (profile.ts) en dormance, pour réactivation en V2.
   q6: {
     id: "q6", index: 6, mode: "single",
-    title: "Ton budget skincare mensuel ?",
+    title: "Ton budget pour ta routine skincare ?",
     helperHtml: `On adapte la routine à <b>ton budget</b>, sans compromis.`,
     options: [
       { value: "lt30", label: "Moins de $30", sub: "l'essentiel, malin",
@@ -126,12 +128,12 @@ export const QUESTIONS: Record<string, QuestionDef> = {
         icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6.5h16v9H3z"/><circle cx="11" cy="11" r="2.3"/><path d="M5.5 11h.01M16.5 11h.01"/></svg>` },
       { value: "60-100", label: "$60 – $100", sub: "une routine complète",
         icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8l3-3h8l3 3-7 9z"/><path d="M4 8h14M9.5 5l1.5 3 1.5-3"/></svg>` },
-      { value: "gt100", label: "Plus de $100", sub: "le meilleur pour ma peau",
+      { value: "gt100", label: "Laisse l'IA composer", sub: "la meilleure routine, sans plafond de prix", badge: "★ Recommandé",
         icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 3l2.4 4.9 5.4.8-3.9 3.8.9 5.4L11 15.3 6.2 17.9l.9-5.4L3.2 8.7l5.4-.8z"/></svg>` },
     ],
   },
   q7: {
-    id: "q7", index: 7, mode: "multi", ctaLabel: "Lancer mon analyse",
+    id: "q7", index: 6, mode: "multi", ctaLabel: "Lancer mon analyse",
     title: "Une situation à signaler ?",
     helperHtml: `Pour <b>écarter les actifs déconseillés</b> dans ton cas.`,
     options: [
@@ -147,4 +149,5 @@ export const QUESTIONS: Record<string, QuestionDef> = {
   },
 };
 
-export const STEP_ORDER = ["q1", "q2", "q3", "q4", "q5", "q6", "q7"] as const;
+// q6 (budget) retiré du parcours V1 → le funnel passe q5 → q7 (6 étapes).
+export const STEP_ORDER = ["q1", "q2", "q3", "q4", "q5", "q7"] as const;
