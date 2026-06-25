@@ -101,9 +101,19 @@ function buildFrame(
     ? Math.hypot(center.x - prevCenter.x, center.y - prevCenter.y)
     : 0;
 
-  // Luminance + netteté sur la zone visage réduite à 64×64
+  // Luminance + netteté sur la zone CENTRALE du visage (la peau), réduite à 64×64.
+  // On resserre la bbox des landmarks (INSET) pour EXCLURE la périphérie sombre —
+  // cheveux (haut), barbe (bas), oreilles/casque (côtés) — sinon leur contraste avec
+  // la peau gonfle `stddev` et déclenche un faux « contre-jour ». Un vrai contre-jour
+  // rend le CENTRE du visage sombre → capté par `meanMin` (« pas assez de lumière »).
+  const INSET_X = 0.20, INSET_Y = 0.16;
+  const bw = maxX - minX, bh = bboxH;
+  const sx = (minX + bw * INSET_X) * srcW;
+  const sy = (minY + bh * INSET_Y) * srcH;
+  const sw = bw * (1 - 2 * INSET_X) * srcW;
+  const sh = bh * (1 - 2 * INSET_Y) * srcH;
   const ctx = sampleCtx();
-  ctx.drawImage(source, minX * srcW, minY * srcH, (maxX - minX) * srcW, bboxH * srcH, 0, 0, SAMPLE, SAMPLE);
+  ctx.drawImage(source, sx, sy, sw, sh, 0, 0, SAMPLE, SAMPLE);
   const rgba = ctx.getImageData(0, 0, SAMPLE, SAMPLE).data;
 
   return {
