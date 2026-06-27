@@ -182,7 +182,9 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
       ))}
 
       <div className="cta-wrap">
-        <button type="button" className="cta-btn" onClick={() => router.push(demo ? "/checkout?demo=1" : "/checkout")}>
+        {/* ⚠️ TEMPORAIRE : checkout/paywall désactivés → on va direct à la routine.
+            Réactiver : router.push(demo ? "/checkout?demo=1" : "/checkout"). */}
+        <button type="button" className="cta-btn" onClick={() => router.push(demo ? "/routine?demo=1" : "/routine")}>
           Voir ma routine sur-mesure
           <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5h8M7.5 4l3.5 3.5-3.5 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </button>
