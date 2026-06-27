@@ -66,14 +66,14 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
       onExit: () => router.back(),
       // « Enregistrer mon protocole » : persiste le scan (best-effort) puis va au dashboard.
       // En démo (non connecté) /api/scan renvoie 401 → ignoré, on redirige quand même.
-      onSave: async () => {
-        try {
-          await fetch("/api/scan", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ result, answers: demo && !stored ? EMPTY_ANSWERS : answers }),
-          });
-        } catch { /* best-effort : le dashboard retombe sur le bilan d'exemple */ }
+      onSave: () => {
+        // Persiste le scan en ARRIÈRE-PLAN (best-effort) — on N'ATTEND PAS, pour
+        // rediriger immédiatement. En démo (non connecté) → 401 ignoré.
+        void fetch("/api/scan", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ result, answers: demo && !stored ? EMPTY_ANSWERS : answers }),
+        }).catch(() => {});
         router.push("/dashboard");
       },
       routine: reco.routine,

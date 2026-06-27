@@ -29,8 +29,9 @@ export default async function Page() {
     score = latest.score;
   }
 
-  // Vraie routine (mêmes produits que /routine) construite côté serveur.
-  const reco = await buildRecommendedRoutine(result, answers);
+  // Vraie routine (mêmes produits que /routine) construite côté serveur. Le dashboard
+  // n'affiche PAS les textes « pourquoi » → on saute l'IA (rendu ~1 s au lieu de ~40 s).
+  const reco = await buildRecommendedRoutine(result, answers, { useLlm: false });
   // Prénom Google si dispo, sinon début de l'email, sinon démo.
   const name = session?.user?.name?.split(" ")[0] ?? session?.user?.email?.split("@")[0] ?? "Sarah";
 

@@ -39,7 +39,7 @@ function withPregnancyTopUp(
   return [...pool, ...borrowed];
 }
 
-export async function buildRecommendedRoutine(result: AnalysisResult, answers: Answers): Promise<RecommendationResult> {
+export async function buildRecommendedRoutine(result: AnalysisResult, answers: Answers, options: { useLlm?: boolean } = {}): Promise<RecommendationResult> {
   const profile = buildEngineProfile(result, answers);
   const constraints: Constraints = buildConstraints(profile);
   const byCat = catalogByCategory(loadCatalog());
@@ -77,8 +77,10 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
   }
 
   // ── Étape 5 : choix + « pourquoi » LLM (sur shortlists), sinon repli déterministe. ──
+  //    `useLlm:false` (dashboard) → on saute l'IA : rendu instantané (le dashboard
+  //    n'affiche pas les textes « pourquoi », inutile d'attendre ~40 s). ──
   const llmWhy = new Map<number, string>();
-  if (openaiConfigured()) {
+  if (options.useLlm !== false && openaiConfigured()) {
     try {
       const choices = await pickAndExplain(picks, profile);
       for (const [cat, choice] of choices) {
