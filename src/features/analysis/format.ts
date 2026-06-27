@@ -20,6 +20,21 @@ export type AttributeView = {
 
 export type SectionView = { id: Section; label: string; items: AttributeView[] };
 
+/** Écart âge de peau (estimé photo) − âge réel déclaré, pour la stat « Âge de peau ».
+ *  `deltaText` est mis en gras dans l'UI, `suffix` reste normal. Retourne null si
+ *  l'un des deux manque (→ le bloc se masque). « − » = U+2212. */
+export function skinAgeDelta(
+  skinAge: number | null | undefined,
+  realAge: number | null | undefined
+): { years: number; deltaText: string; suffix: string } | null {
+  if (skinAge == null || realAge == null) return null;
+  const years = skinAge - realAge;
+  const abs = Math.abs(years);
+  const unit = abs > 1 ? "ans" : "an";
+  if (years === 0) return { years, deltaText: "Pile ton âge", suffix: "" };
+  return { years, deltaText: `${years > 0 ? "+" : "−"}${abs} ${unit}`, suffix: "vs ton âge réel" };
+}
+
 /** Regroupe les attributs du bilan par section (ordre du catalogue) et y attache
  *  les métadonnées d'affichage (libellés de bornes, icône, position de jauge). */
 export function toSections(result: AnalysisResult): SectionView[] {

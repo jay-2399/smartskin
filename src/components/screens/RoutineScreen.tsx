@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
@@ -19,20 +19,18 @@ type Reco = {
    protocole). La routine PERSONNALISÉE est construite CÔTÉ SERVEUR (moteur de reco
    sur le catalogue de 140 produits + IA) via /api/routine, puis injectée dans
    l'expérience impérative (storytelling.ts). */
-export function RoutineScreen() {
+// `demo` lu côté serveur (page) et passé en prop → pas d'erreur d'hydratation.
+export function RoutineScreen({ demo = false }: { demo?: boolean }) {
   const router = useRouter();
   const rootRef = useRef<HTMLDivElement>(null);
   const stored = useResult((s) => s.result);
   const answers = useFunnel((s) => s.answers);
-  const demo = useMemo(
-    () => typeof window !== "undefined" && new URLSearchParams(window.location.search).has("demo"),
-    []
-  );
   const result = stored ?? (demo ? SAMPLE_RESULT : null);
   const [reco, setReco] = useState<Reco | null>(null);
   const [error, setError] = useState(false);
 
-  // Pas de bilan en mémoire → on renvoie à l'accueil (sauf démo).
+  // Pas de bilan en mémoire → on renvoie à l'accueil. (Le paywall est géré côté
+  // serveur dans routine/page.tsx via la session.)
   useEffect(() => {
     if (!result) router.replace("/");
   }, [result, router]);

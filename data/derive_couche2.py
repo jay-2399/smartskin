@@ -69,7 +69,8 @@ for r in c1:
         rating=r.get('rating'),reviews=r.get('reviews'),bsr=r.get('bsr'),bought=r.get('bought'),keyActives=r['actif'],
         targets=sorted(tg),skinTypes=skintypes(tg),moment=moment,frequency=freq,unsafePregnancy=preg,unsafeSensitive=sens,
         irritationCost=cost,activeStrength=st,evidenceLevel=ev,fragranceFree=ff,alcoholFree=af,image=r.get('image'),ingredients=r.get('ingredients'),
-        night=bool(r.get('night')),texture=r.get('texture')))
+        night=bool(r.get('night')),texture=r.get('texture'),
+        size_value=r.get('size_value'),size_unit=r.get('size_unit'),size_ml=r.get('size_ml'),image_amazon=r.get('image_amazon')))
 
 json.dump(out,open(os.path.join(HERE,'catalog-couche1-2.json'),'w'),ensure_ascii=False)
 with open(os.path.join(HERE,'catalog-full.csv'),'w',newline='',encoding='utf-8') as f:

@@ -11,6 +11,18 @@ export const SAMPLE_RESULT: AnalysisResult = {
   state: "Bon état général",
   sub: "Ta peau est globalement équilibrée : surtout de la brillance en zone T et de petites imperfections à accompagner en douceur.",
   photoQuality: { ok: true },
+  skinAge: 26,
+  skinTypeBreakdown: "zone T grasse · joues normales",
+  verdict: {
+    title: "Une bonne base d'ensemble — un seul levier ressort de ton analyse : <em>la régulation du sébum</em>.",
+    body: "Trois signaux convergent : <b>brillance en zone T</b>, <b>pores visibles</b> et <b>rougeurs localisées</b>. Ce ne sont pas trois problèmes séparés — c'est <b>un seul levier</b> : réguler le sébum sans décaper, sinon rougeurs et marques s'entretiennent.",
+    behavioralLink: "D'après tes réponses — <b>peu de SPF</b> au quotidien — tes marques post-acné mettent plus de temps à s'estomper : sans protection, le soleil les entretient.",
+    plan: [
+      { label: "Réguler le sébum sans décaper", sub: "la priorité — tout le reste en dépend" },
+      { label: "Estomper marques & taches post-acné", sub: "actifs ciblés, en 2ᵉ temps" },
+      { label: "Apaiser rougeurs & renforcer la barrière", sub: "en entretien, au quotidien" },
+    ],
+  },
   profile: {
     skinType: "Mixte",
     ageRange: "25–35 ans",

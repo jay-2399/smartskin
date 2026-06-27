@@ -18,7 +18,7 @@ export function LandingScreen() {
   const start = () => {
     useFunnel.getState().reset();
     useResult.getState().clear();
-    router.push("/questions/q1");
+    router.push("/questions/age");
   };
 
   return (

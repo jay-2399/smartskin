@@ -14,6 +14,8 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     // Client Prisma généré (prisma generate)
     "src/generated/**",
+    // Tests E2E Playwright (pas du React → règles React inapplicables, ex. fixture `use`)
+    "e2e/**",
   ]),
 ]);
 

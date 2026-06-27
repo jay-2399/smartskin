@@ -1,0 +1,183 @@
+"use client";
+import { useState } from "react";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { signIn } from "next-auth/react";
+import { useResult } from "@/features/analysis/resultStore";
+import { useFunnel } from "@/features/funnel/store";
+import "./auth.css";
+
+/* Écran d'auth partagé.
+   - `login`  : nouvel écran SANS mot de passe (Google + lien magique). Branché pour
+     de vrai dès que les providers sont configurés (cf. PROVIDERS_LIVE / Temps B).
+   - `signup` : inscription après le paiement simulé du checkout (email + mot de passe,
+     mécanisme actuel) — sera migré en passwordless au Temps B. */
+
+// Google + lien magique configurés (clés dans .env, providers branchés). Les boutons
+// appellent les vrais providers Auth.js.
+const PROVIDERS_LIVE = true;
+
+const GoogleIcon = () => (
+  <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden>
+    <path fill="#4285F4" d="M23.5 12.27c0-.79-.07-1.54-.2-2.27H12v4.51h6.47a5.53 5.53 0 0 1-2.4 3.63v3h3.86c2.26-2.08 3.57-5.15 3.57-8.87Z" />
+    <path fill="#34A853" d="M12 24c3.24 0 5.96-1.08 7.95-2.91l-3.86-3c-1.08.72-2.45 1.16-4.09 1.16-3.13 0-5.78-2.11-6.73-4.96H1.29v3.09A12 12 0 0 0 12 24Z" />
+    <path fill="#FBBC05" d="M5.27 14.29a7.2 7.2 0 0 1 0-4.58V6.62H1.29a12 12 0 0 0 0 10.76l3.98-3.09Z" />
+    <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42A11.95 11.95 0 0 0 12 0 12 12 0 0 0 1.29 6.62l3.98 3.09C6.22 6.86 8.87 4.75 12 4.75Z" />
+  </svg>
+);
+const MailIcon = () => (
+  <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+    <rect x="3" y="5" width="18" height="14" rx="2.5" /><path d="m4 7 8 6 8-6" />
+  </svg>
+);
+const CheckIcon = () => (
+  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
+    <path d="M4 12.5l5 5L20 6" />
+  </svg>
+);
+
+function LoginScreen() {
+  const [email, setEmail] = useState("");
+  const [sent, setSent] = useState(false);
+  const [info, setInfo] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+
+  const google = async () => {
+    if (!PROVIDERS_LIVE) { setInfo("Connexion Google bientôt active (configuration en cours)."); return; }
+    setLoading(true);
+    await signIn("google", { callbackUrl: "/dashboard" });
+  };
+
+  const magicLink = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email) return;
+    if (!PROVIDERS_LIVE) { setInfo("Le lien magique sera bientôt actif (configuration de l'envoi d'emails en cours)."); return; }
+    setLoading(true);
+    setInfo(null);
+    const res = await signIn("resend", { email, redirect: false, callbackUrl: "/dashboard" });
+    setLoading(false);
+    if (res?.error) setInfo("Impossible d'envoyer le lien. Réessaie.");
+    else setSent(true);
+  };
+
+  return (
+    <div className="auth">
+      <div className="auth-brand"><Image src="/logo-smartskin.png" alt="SmartSkin AI" width={133} height={26} priority /></div>
+      <div className="auth-card">
+        <h1 className="auth-title">Bon retour</h1>
+        <p className="auth-sub">Connecte-toi pour retrouver ton protocole.</p>
+
+        {sent ? (
+          <div className="auth-sent">
+            <span className="auth-sent-ic"><MailIcon /></span>
+            <b>Vérifie ta boîte mail</b>
+            <p>On a envoyé un lien de connexion à <strong>{email}</strong>. Tape dessus pour entrer — pas de mot de passe.</p>
+          </div>
+        ) : (
+          <>
+            <button type="button" className="auth-oauth" onClick={google} disabled={loading}>
+              <GoogleIcon />Continuer avec Google
+            </button>
+
+            <div className="auth-divider"><span>ou avec un email</span></div>
+
+            <form onSubmit={magicLink} className="auth-form">
+              <label className="auth-field">
+                <span>Email</span>
+                <input type="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="toi@email.com" />
+              </label>
+              <button type="submit" className="auth-magic" disabled={loading || !email}>
+                <MailIcon />Recevoir un lien de connexion
+              </button>
+            </form>
+
+            <p className="auth-reassure"><CheckIcon />Pas de mot de passe — tu cliques juste sur le lien qu’on envoie.</p>
+            {info && <p className="auth-error">{info}</p>}
+          </>
+        )}
+
+        <p className="auth-switch">Pas encore de compte ? <a href="/checkout">Débloquer mon protocole</a></p>
+      </div>
+    </div>
+  );
+}
+
+export function AuthScreen({ mode }: { mode: "signup" | "login" }) {
+  const router = useRouter();
+  const result = useResult((s) => s.result);
+  const answers = useFunnel((s) => s.answers);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+
+  if (mode === "login") return <LoginScreen />;
+
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (loading) return;
+    setLoading(true);
+    setError(null);
+    try {
+      const reg = await fetch("/api/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
+      });
+      // 200 (nouveau) ou 409 (déjà client) → on tente la connexion ; sinon erreur.
+      if (reg.status !== 200 && reg.status !== 409) {
+        const data = await reg.json().catch(() => ({}));
+        setError(data?.issues?.password?.[0] ?? data?.issues?.email?.[0] ?? "Inscription impossible.");
+        setLoading(false);
+        return;
+      }
+      const res = await signIn("credentials", { email, password, redirect: false });
+      if (res?.error) {
+        setError("Connexion impossible.");
+        setLoading(false);
+        return;
+      }
+      // On rattache le scan en mémoire au nouveau compte (best effort).
+      if (result) {
+        await fetch("/api/scan", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ result, answers }),
+        }).catch(() => {});
+      }
+      router.push("/routine");
+    } catch {
+      setError("Une erreur est survenue.");
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div className="auth">
+      <div className="auth-brand"><Image src="/logo-smartskin.png" alt="SmartSkin AI" width={133} height={26} priority /></div>
+      <div className="auth-card">
+        <h1 className="auth-title">Crée ton compte</h1>
+        <p className="auth-sub">Pour sauvegarder ton protocole et suivre tes progrès.</p>
+
+        <form onSubmit={submit} className="auth-form">
+          <label className="auth-field">
+            <span>Email</span>
+            <input type="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="toi@email.com" />
+          </label>
+          <label className="auth-field">
+            <span>Mot de passe</span>
+            <input type="password" autoComplete="new-password" required minLength={8} value={password} onChange={(e) => setPassword(e.target.value)} placeholder="8 caractères minimum" />
+          </label>
+
+          {error && <p className="auth-error">{error}</p>}
+
+          <button type="submit" className="auth-cta" disabled={loading || !email || password.length < 8}>
+            {loading ? "Un instant…" : "Créer mon compte"}
+          </button>
+        </form>
+
+        <p className="auth-switch">Déjà un compte ? <a href="/login">Se connecter</a></p>
+      </div>
+    </div>
+  );
+}

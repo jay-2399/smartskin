@@ -20,12 +20,12 @@ export function QuestionScreen({ step }: { step: StepId }) {
   const router = useRouter();
   const q = QUESTIONS[step];
   const answers = useFunnel((s) => s.answers);
-  const { setSingle, toggleMulti, setGate, toggleSymptom } = useFunnel.getState();
+  const { setAge, setSingle, toggleMulti, setGate, toggleSymptom } = useFunnel.getState();
 
   const valid = isStepValid(step, answers);
   const i = (STEP_ORDER as readonly StepId[]).indexOf(step);
 
-  // Flux : landing → q1 → capture → q2 … q7 → /analyse
+  // Flux : landing → age → q1 → capture → q2 … q7 → /analyse
   // (le mur d'inscription /compte sera intercalé ici au Plan 4)
   const next = () => {
     if (step === "q1") router.push("/capture");
@@ -33,9 +33,9 @@ export function QuestionScreen({ step }: { step: StepId }) {
     else router.push(`/questions/${STEP_ORDER[i + 1]}`);
   };
   const back = () => {
-    if (step === "q1") router.push("/");
-    else if (step === "q2") router.push("/capture");
-    else router.push(`/questions/${STEP_ORDER[i - 1]}`);
+    if (step === "age") router.push("/");          // 1ʳᵉ étape → landing
+    else if (step === "q2") router.push("/capture"); // q2 vient après la capture
+    else router.push(`/questions/${STEP_ORDER[i - 1]}`); // q1 → age, q3 → q2, etc.
   };
 
   // q1 : options grisées (maquette) — exclusive posée, ou max atteint
@@ -73,6 +73,24 @@ export function QuestionScreen({ step }: { step: StepId }) {
       </div>
 
       <div className={`list${q.grid ? " grid2" : ""}`}>
+        {q.mode === "age" && (
+          <div className="age-field">
+            <input
+              type="number"
+              inputMode="numeric"
+              min={13}
+              max={99}
+              className="age-input"
+              value={answers.age ?? ""}
+              onChange={(e) => setAge(e.target.value === "" ? null : Math.floor(Number(e.target.value)))}
+              placeholder="—"
+              aria-label="Ton âge"
+              autoFocus
+            />
+            <span className="age-unit">ans</span>
+          </div>
+        )}
+
         {q.mode === "single" && (
           <OptionList
             options={q.options}

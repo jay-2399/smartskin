@@ -20,6 +20,7 @@ gcloud-key.json
 
 # prisma
 prisma/*.db
+prisma/schema.sqlite.prisma
 src/generated/
 
 # logs / os
@@ -33,3 +34,9 @@ yarn-error.log*
 .idea/
 bright_key.txt
 data/products-raw.json
+
+# playwright (artefacts de test : captures, traces)
+test-results/
+playwright-report/
+blob-report/
+.last-run.json

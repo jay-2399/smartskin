@@ -1,0 +1,47 @@
+/* Écrans d'auth (inscription / connexion) — minimal, tokens SmartSkin. */
+.auth { min-height:100dvh; width:100%; max-width:480px; margin:0 auto; background:var(--bg); display:flex; flex-direction:column; align-items:center; justify-content:center; gap:22px; padding:32px 24px calc(env(safe-area-inset-bottom) + 32px); }
+.auth-brand img { height:26px; width:auto; display:block; }
+
+.auth-card { width:100%; background:var(--card); border:1px solid rgba(0,0,0,0.05); border-radius:24px; padding:26px 22px 22px; box-shadow:0 1px 3px rgba(0,0,0,0.04), 0 12px 34px rgba(0,0,0,0.06); }
+.auth-title { font-weight:800; font-size:24px; letter-spacing:-0.04em; color:var(--ink); line-height:1.08; }
+.auth-sub { font-size:13px; line-height:1.5; color:var(--graphite); margin-top:8px; }
+
+.auth-form { display:flex; flex-direction:column; gap:14px; margin-top:20px; }
+.auth-field { display:flex; flex-direction:column; gap:6px; }
+.auth-field span { font-family:var(--fm); font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:var(--space); }
+.auth-field input { height:48px; border:1px solid var(--smoke, #D3D6E0); border-radius:13px; background:var(--bg); padding:0 14px; font-size:15px; color:var(--ink); outline:none; transition:border-color .18s, box-shadow .18s, background .18s; }
+.auth-field input:focus { border-color:var(--accent-d); box-shadow:0 0 0 3px rgba(166,195,214,0.22); background:#fff; }
+.auth-field input::placeholder { color:rgba(0,0,0,0.28); }
+
+.auth-error { font-size:12px; color:#C2410C; font-weight:500; line-height:1.4; }
+
+.auth-cta { margin-top:4px; height:54px; border:none; border-radius:15px; background:linear-gradient(150deg,#2a2e36,var(--ink)); color:#fff; font-weight:700; font-size:15px; letter-spacing:-0.01em; cursor:pointer; box-shadow:0 14px 30px rgba(26,29,33,0.30); transition:transform .14s, opacity .2s; }
+.auth-cta:active { transform:scale(0.99); }
+.auth-cta:disabled { opacity:0.45; cursor:not-allowed; box-shadow:none; }
+
+.auth-switch { text-align:center; margin-top:18px; font-size:12.5px; color:var(--graphite); }
+.auth-switch a { color:var(--ink); font-weight:600; text-decoration:underline; text-underline-offset:2px; }
+
+/* ── Login passwordless (Google + lien magique) ── */
+.auth-oauth { margin-top:22px; width:100%; height:54px; display:flex; align-items:center; justify-content:center; gap:10px; border:1px solid var(--smoke,#D3D6E0); border-radius:15px; background:#fff; color:var(--ink); font-family:var(--fd); font-weight:700; font-size:15px; letter-spacing:-0.01em; cursor:pointer; transition:border-color .18s, box-shadow .18s, transform .14s; }
+.auth-oauth:hover { border-color:var(--steel,#BCBFCC); box-shadow:0 6px 18px rgba(26,29,33,0.06); }
+.auth-oauth:active { transform:scale(0.99); }
+.auth-oauth:disabled { opacity:0.5; cursor:not-allowed; }
+
+.auth-divider { display:flex; align-items:center; gap:12px; margin:20px 0 4px; }
+.auth-divider::before, .auth-divider::after { content:''; flex:1; height:1px; background:var(--smoke,#D3D6E0); }
+.auth-divider span { font-family:var(--fm); font-size:9px; letter-spacing:0.12em; text-transform:uppercase; color:var(--space); }
+
+.auth-magic { margin-top:2px; height:54px; display:flex; align-items:center; justify-content:center; gap:9px; border:none; border-radius:15px; background:linear-gradient(150deg,#2a2e36,var(--ink)); color:#fff; font-family:var(--fd); font-weight:700; font-size:15px; letter-spacing:-0.01em; cursor:pointer; box-shadow:0 14px 30px rgba(26,29,33,0.30); transition:transform .14s, opacity .2s; }
+.auth-magic:active { transform:scale(0.99); }
+.auth-magic:disabled { opacity:0.45; cursor:not-allowed; box-shadow:none; }
+
+.auth-reassure { display:flex; align-items:center; justify-content:center; gap:7px; margin-top:14px; font-size:12px; color:var(--graphite); text-align:center; }
+.auth-reassure svg { color:var(--green-d,#13A35F); flex-shrink:0; }
+
+/* état « lien envoyé » */
+.auth-sent { margin-top:22px; text-align:center; display:flex; flex-direction:column; align-items:center; gap:8px; }
+.auth-sent-ic { width:52px; height:52px; border-radius:16px; background:var(--accent-bg); color:var(--accent-d); display:flex; align-items:center; justify-content:center; margin-bottom:4px; }
+.auth-sent-ic svg { width:24px; height:24px; }
+.auth-sent b { font-weight:800; font-size:17px; letter-spacing:-0.02em; color:var(--ink); }
+.auth-sent p { font-size:13px; line-height:1.5; color:var(--graphite); }

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartSkin AI — Code gate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+:root {
+  --bg:#F1F3F6; --ink:#1A1D21; --tan:#A6C3D6; --card:#FFFFFF; --cloud:#EDEFF7;
+  --smoke:#D3D6E0; --steel:#BCBFCC; --space:#9DA2B3; --graphite:#6E7180; --arsenic:#40424D;
+  --fd:'Manrope',sans-serif; --fm:'JetBrains Mono',monospace;
+}
+html { background:#DEE0E5; -webkit-font-smoothing:antialiased; }
+body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex; justify-content:center; align-items:flex-start; }
+.phone { position:relative; width:100%; max-width:430px; min-height:100dvh; background:var(--bg); overflow:hidden; }
+@media (min-width:480px){
+  body { padding:40px 16px 80px; }
+  .phone { min-height:min(calc(100dvh - 120px), 900px); border-radius:52px;
+    box-shadow:0 0 0 1px rgba(0,0,0,0.07),0 32px 80px rgba(0,0,0,0.18),0 12px 32px rgba(0,0,0,0.09); }
+}
+
+/* ── faux reveal derrière (uniquement pour rendre le blur/tease lisible) ── */
+.reveal-mock { position:absolute; inset:0; padding:56px 22px 22px; display:flex; flex-direction:column; gap:14px; }
+.rm-logo { height:26px; display:flex; justify-content:center; margin-bottom:4px; }
+.rm-logo img { height:26px; width:auto; }
+.rm-hero { background:var(--card); border-radius:20px; padding:16px; display:flex; gap:14px; box-shadow:0 10px 30px rgba(0,0,0,0.05); }
+.rm-photo { width:46%; min-height:152px; border-radius:14px; background:var(--cloud); overflow:hidden; }
+.rm-photo img { width:100%; height:100%; object-fit:cover; object-position:center 20%; }
+.rm-score { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:5px; }
+.rm-tag { font-family:var(--fm); font-size:9px; letter-spacing:.12em; text-transform:uppercase; color:var(--space); }
+.rm-num { font-weight:800; font-size:58px; letter-spacing:-0.05em; line-height:1; }
+.rm-state { font-weight:700; font-size:13px; color:var(--ink); }
+.rm-block { background:var(--card); border-radius:18px; box-shadow:0 8px 24px rgba(0,0,0,0.045); }
+.rm-block.b1 { height:128px; }
+.rm-block.b2 { height:82px; }
+
+/* ════════ CODE GATE — overlay TikTok (reveal premium) ════════ */
+.codegate { position:absolute; inset:0; z-index:100; display:flex; align-items:center; justify-content:center; padding:24px;
+  background:
+    radial-gradient(130% 68% at 50% 6%, rgba(166,195,214,0.30), transparent 52%),
+    radial-gradient(100% 55% at 50% 108%, rgba(166,195,214,0.10), transparent 70%),
+    rgba(18,20,24,0.52);
+  -webkit-backdrop-filter:blur(12px) saturate(1.08); backdrop-filter:blur(12px) saturate(1.08);
+  transition:opacity 0.6s ease, visibility 0.6s; }
+.codegate::before { content:''; position:absolute; inset:0; pointer-events:none; opacity:0.5; mix-blend-mode:soft-light;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E"); }
+.codegate.unlocked { opacity:0; visibility:hidden; pointer-events:none; }
+
+.cg-card { position:relative; width:100%; max-width:332px; padding:30px 26px 24px; text-align:center;
+  background:linear-gradient(180deg, rgba(255,255,255,0.97), rgba(247,249,252,0.94));
+  border:1px solid rgba(255,255,255,0.8); border-radius:30px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.10), 0 44px 90px rgba(8,10,16,0.50), inset 0 1px 0 rgba(255,255,255,0.95);
+  animation:cgIn 0.7s cubic-bezier(0.22,1,0.36,1) both 0.08s; }
+.cg-card::after { content:''; position:absolute; top:0; left:24px; right:24px; height:1px;
+  background:linear-gradient(90deg, transparent, rgba(166,195,214,0.75), transparent); }
+@keyframes cgIn { from { opacity:0; transform:translateY(18px) scale(0.96); } to { opacity:1; transform:none; } }
+
+.cg-status { display:inline-flex; align-items:center; gap:7px; font-family:var(--fm); font-size:8.5px; letter-spacing:0.22em; text-transform:uppercase; color:var(--tan); font-weight:500; margin-bottom:15px; }
+.cg-status .dot { width:6px; height:6px; border-radius:50%; background:var(--tan); animation:cgPulse 1.9s ease-out infinite; }
+@keyframes cgPulse { 0% { box-shadow:0 0 0 0 rgba(166,195,214,0.55); } 70% { box-shadow:0 0 0 8px rgba(166,195,214,0); } 100% { box-shadow:0 0 0 0 rgba(166,195,214,0); } }
+
+.cg-emblem { width:56px; height:56px; margin:0 auto 18px; border-radius:50%; background:var(--ink); color:var(--tan);
+  display:flex; align-items:center; justify-content:center; box-shadow:0 10px 24px rgba(26,29,33,0.30); }
+.cg-emblem svg { width:24px; height:24px; }
+
+.cg-title { font-weight:800; font-size:23px; letter-spacing:-0.04em; color:var(--ink); line-height:1.06; }
+.cg-sub { font-size:12.5px; line-height:1.5; color:var(--graphite); margin-top:9px; }
+
+.cg-cells { display:flex; gap:8px; justify-content:center; margin-top:22px; }
+.cg-cell { width:46px; height:56px; padding:0; border:1.5px solid var(--smoke); border-radius:13px; background:var(--bg);
+  text-align:center; font-family:var(--fm); font-size:22px; font-weight:600; color:var(--ink); text-transform:uppercase;
+  caret-color:var(--tan); transition:border-color 0.18s, box-shadow 0.18s, background 0.18s, transform 0.18s; }
+.cg-cell:focus { outline:none; border-color:var(--tan); box-shadow:0 0 0 3px rgba(166,195,214,0.25); background:#fff; }
+.cg-cell.filled { border-color:var(--ink); background:#fff; transform:translateY(-1px); }
+
+.cg-btn { position:relative; overflow:hidden; width:100%; margin-top:18px; height:54px; border:none; border-radius:15px;
+  background:linear-gradient(150deg, #2a2e36, var(--ink)); color:#fff;
+  font-family:var(--fd); font-weight:700; font-size:14.5px; letter-spacing:-0.01em; cursor:pointer;
+  display:flex; align-items:center; justify-content:center; gap:8px; box-shadow:0 14px 30px rgba(26,29,33,0.34);
+  transition:transform 0.14s, opacity 0.2s; }
+.cg-btn:active { transform:scale(0.985); }
+.cg-btn:disabled { opacity:0.4; cursor:not-allowed; box-shadow:none; }
+.cg-btn:not(:disabled)::after { content:''; position:absolute; top:0; left:-60%; width:40%; height:100%;
+  background:linear-gradient(100deg, transparent, rgba(255,255,255,0.24), transparent); transform:skewX(-18deg); animation:cgShine 3s ease-in-out infinite 0.8s; }
+@keyframes cgShine { 0% { left:-60%; } 55%, 100% { left:130%; } }
+.cg-btn .cg-spark { color:var(--tan); width:15px; height:15px; position:relative; z-index:1; }
+.cg-btn span { position:relative; z-index:1; }
+
+.cg-foot { display:inline-flex; align-items:center; justify-content:center; gap:6px; margin-top:16px; font-size:10.5px; color:var(--graphite); }
+.cg-foot svg { width:13px; height:13px; color:#3A8F6F; }
+.cg-hint { margin-top:9px; font-size:11px; color:var(--space); line-height:1.4; }
+.cg-hint b { color:var(--graphite); font-weight:600; }
+</style>
+</head>
+<body>
+<div class="phone">
+
+  <!-- faux reveal flouté derrière (le tease) -->
+  <div class="reveal-mock">
+    <div class="rm-logo"><img src="logo-smartskin.png" alt="SmartSkin AI"></div>
+    <div class="rm-hero">
+      <div class="rm-photo"><img src="capture-face.jpg" alt=""></div>
+      <div class="rm-score"><span class="rm-tag">Skin score</span><span class="rm-num">84</span><span class="rm-state">Good</span></div>
+    </div>
+    <div class="rm-block b1"></div>
+    <div class="rm-block b2"></div>
+  </div>
+
+  <!-- ════════ CODE GATE ════════ -->
+  <div class="codegate" id="codegate">
+    <div class="cg-card">
+      <div class="cg-status"><span class="dot"></span>Analysis complete</div>
+      <div class="cg-emblem">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 L13.9 10.1 L22 12 L13.9 13.9 L12 22 L10.1 13.9 L2 12 L10.1 10.1 Z"/></svg>
+      </div>
+      <h3 class="cg-title">Your results are waiting.</h3>
+      <p class="cg-sub">Enter the code from your TikTok video to reveal them.</p>
+      <div class="cg-cells">
+        <input class="cg-cell" type="text" maxlength="1" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false">
+        <input class="cg-cell" type="text" maxlength="1" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false">
+        <input class="cg-cell" type="text" maxlength="1" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false">
+        <input class="cg-cell" type="text" maxlength="1" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false">
+        <input class="cg-cell" type="text" maxlength="1" inputmode="text" autocomplete="off" autocapitalize="characters" spellcheck="false">
+      </div>
+      <button id="cgBtn" class="cg-btn" disabled>
+        <svg class="cg-spark" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 L13.9 10.1 L22 12 L13.9 13.9 L12 22 L10.1 13.9 L2 12 L10.1 10.1 Z"/></svg>
+        <span>Reveal my results</span>
+      </button>
+      <div class="cg-foot">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg>
+        100% free · no sign-up
+      </div>
+      <p class="cg-hint">The code is <b>pinned under the video</b> on TikTok.</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  var gate = document.getElementById('codegate');
+  var btn  = document.getElementById('cgBtn');
+  if(!gate || !btn) return;
+  var cells = Array.prototype.slice.call(gate.querySelectorAll('.cg-cell'));
+  if(!cells.length) return;
+
+  function value(){ return cells.map(function(c){ return c.value; }).join(''); }
+  function sync(){
+    cells.forEach(function(c){ c.classList.toggle('filled', !!c.value); });
+    btn.disabled = value().replace(/\s/g, '').length < cells.length;
+  }
+  function unlock(){
+    if(btn.disabled) return;
+    gate.classList.add('unlocked');
+  }
+
+  cells.forEach(function(c, i){
+    c.addEventListener('input', function(){
+      c.value = c.value.toUpperCase().slice(0, 1);
+      if(c.value && i < cells.length - 1) cells[i + 1].focus();
+      sync();
+    });
+    c.addEventListener('keydown', function(e){
+      if(e.key === 'Backspace' && !c.value && i > 0){ cells[i - 1].focus(); }
+      if(e.key === 'Enter') unlock();
+    });
+    c.addEventListener('paste', function(e){
+      e.preventDefault();
+      var t = ((e.clipboardData || window.clipboardData).getData('text') || '').toUpperCase().replace(/\s/g, '');
+      for(var k = 0; k < cells.length; k++){ cells[k].value = t.charAt(k) || ''; }
+      sync();
+      (cells[Math.min(t.length, cells.length - 1)] || cells[0]).focus();
+    });
+  });
+
+  btn.addEventListener('click', unlock);
+  sync();
+})();
+</script>
+</body>
+</html>

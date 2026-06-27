@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
-import { toSections } from "@/features/analysis/format";
+import { toSections, skinAgeDelta } from "@/features/analysis/format";
 import { CARNATION_SWATCHES, UNDERTONE_SWATCHES } from "@/features/analysis/attributes";
 import { SAMPLE_RESULT } from "@/features/analysis/sample";
 import { ScoreGauge } from "@/components/ui/ScoreGauge";
@@ -15,15 +15,14 @@ const ROMAN = ["I", "II", "III", "IV", "V", "VI"];
 
 /* Port de reference/User_flow_screens/11-prop_1-resultats.html, responsive,
    alimenté par le bilan en mémoire (useResult). */
-export function ResultsScreen() {
+// `demo` est lu côté serveur (page) et passé en prop → pas de divergence SSR/client
+// (lire window.location au render cause une erreur d'hydratation). ?demo=1 → affiche
+// le bilan d'exemple sans passer par la capture (démo testeurs).
+export function ResultsScreen({ demo = false }: { demo?: boolean }) {
   const router = useRouter();
   const stored = useResult((s) => s.result);
   const photo = useResult((s) => s.photo);
-  // ?demo=1 → affiche le bilan d'exemple sans passer par la capture (démo testeurs)
-  const demo = useMemo(
-    () => typeof window !== "undefined" && new URLSearchParams(window.location.search).has("demo"),
-    []
-  );
+  const answers = useFunnel((s) => s.answers);
   const result = stored ?? (demo ? SAMPLE_RESULT : null);
   const photoUrl = useMemo(() => (photo ? URL.createObjectURL(photo) : null), [photo]);
 
@@ -38,6 +37,8 @@ export function ResultsScreen() {
 
   const sections = toSections(result);
   const p = result.profile;
+  const ageDelta = skinAgeDelta(result.skinAge, answers.age);
+  const v = result.verdict;
 
   return (
     <div className="screen results">
@@ -57,6 +58,58 @@ export function ResultsScreen() {
           <ScoreGauge value={result.score} state={result.state} sub={result.sub} />
         </div>
       </div>
+
+      {/* STATS PARTAGEABLES (reveal v2) — masquées si la donnée manque */}
+      {(result.skinAge != null || result.skinTypeBreakdown) && (
+        <Reveal as="div" className="hero-stats">
+          {result.skinAge != null && (
+            <div className="hstat">
+              <span className="hstat-k">Âge de peau</span>
+              <span className="hstat-v">{result.skinAge}<small>ans</small></span>
+              {ageDelta && (
+                <span className="hstat-note"><b>{ageDelta.deltaText}</b>{ageDelta.suffix ? ` ${ageDelta.suffix}` : ""}</span>
+              )}
+            </div>
+          )}
+          <div className="hstat">
+            <span className="hstat-k">Type de peau</span>
+            <span className="hstat-v hstat-type">{p.skinType}</span>
+            {result.skinTypeBreakdown && <span className="hstat-note">{result.skinTypeBreakdown}</span>}
+          </div>
+        </Reveal>
+      )}
+
+      {/* VERDICT — lecture experte (reveal v2) — masqué si absent */}
+      {v && (
+        <Reveal as="section" className="verdict">
+          <div className="verdict-head">
+            <span className="verdict-kicker">Lecture experte</span>
+            <span className="verdict-chip">
+              <svg viewBox="0 0 14 14" fill="currentColor" width="11" height="11"><path d="M7 0 C7 4 7 4 7 4 C7 4 10 7 14 7 C10 7 7 7 7 7 C7 7 7 10 7 14 C7 10 7 7 7 7 C7 7 4 7 0 7 C4 7 7 7 7 7 C7 7 7 4 7 0 Z" /></svg>
+              Photo × tes 7 réponses
+            </span>
+          </div>
+          <h2 className="verdict-title" dangerouslySetInnerHTML={{ __html: v.title }} />
+          <p className="verdict-body" dangerouslySetInnerHTML={{ __html: v.body }} />
+          <div className="verdict-link">
+            <span className="vl-ic"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" width="15" height="15"><path d="M4 3v5a2 2 0 0 0 2 2h6" /><path d="M9.5 7.5L12 10l-2.5 2.5" /></svg></span>
+            <p dangerouslySetInnerHTML={{ __html: v.behavioralLink }} />
+          </div>
+          <div className="verdict-prio">
+            <span className="vp-label">Ton plan, dans l&apos;ordre</span>
+            {v.plan.map((step, idx) => (
+              <div className={`vp-item${idx === v.plan.length - 1 ? " soft" : ""}`} key={idx}>
+                <span className="vp-num">{idx + 1}</span>
+                <div className="vp-tx"><b>{step.label}</b><span>{step.sub}</span></div>
+                <span className="vp-tag">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="11" height="11"><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V8a4 4 0 0 1 8 0v3" /></svg>
+                  protocole
+                </span>
+              </div>
+            ))}
+          </div>
+        </Reveal>
+      )}
 
       {/* PROFIL DE PEAU */}
       <Reveal as="section" className="r-section">
@@ -129,7 +182,7 @@ export function ResultsScreen() {
       ))}
 
       <div className="cta-wrap">
-        <button type="button" className="cta-btn" onClick={() => router.push("/routine")}>
+        <button type="button" className="cta-btn" onClick={() => router.push(demo ? "/checkout?demo=1" : "/checkout")}>
           Voir ma routine sur-mesure
           <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5h8M7.5 4l3.5 3.5-3.5 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </button>

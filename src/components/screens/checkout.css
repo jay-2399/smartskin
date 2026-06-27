@@ -1,0 +1,90 @@
+/* Checkout / paywall — porté de checkout-package/checkout.html.
+   Tout est scopé sous .checkout (les classes .hero/.cta/.sub… existent ailleurs),
+   keyframes renommées coRise/coShine (rise existe déjà dans funnel.css).
+   Tokens mockup → SmartSkin : --keep/--gold/--glass/--smoke/--steel inlinés. */
+
+.checkout { width:100%; max-width:480px; margin:0 auto; min-height:100dvh; background:var(--bg); overflow:hidden; display:flex; flex-direction:column; }
+.checkout .co-scroll { flex:1; overflow-y:auto; scrollbar-width:none; display:flex; flex-direction:column; }
+.checkout .co-scroll::-webkit-scrollbar { display:none; }
+
+/* ── HERO ── */
+.checkout .co-hero { position:relative; min-height:340px; flex-shrink:0; overflow:hidden;
+  background:
+    radial-gradient(115% 78% at 50% -4%, rgba(166,195,214,0.60), transparent 60%),
+    radial-gradient(80% 50% at 82% 26%, rgba(245,166,35,0.12), transparent 70%),
+    linear-gradient(180deg, #E6EDF3 0%, var(--bg) 86%); }
+.checkout .hero-grain { position:absolute; inset:0; pointer-events:none; opacity:0.45; mix-blend-mode:soft-light; z-index:2;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E"); }
+.checkout .hero-video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 45%; z-index:1; }
+.checkout .hero-top { position:relative; z-index:5; padding:calc(env(safe-area-inset-top) + 18px) 22px 0; display:flex; align-items:center; justify-content:space-between; }
+.checkout .x { width:34px; height:34px; border-radius:50%; background:rgba(255,255,255,0.7); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); border:1px solid rgba(255,255,255,0.6); display:flex; align-items:center; justify-content:center; color:var(--arsenic); cursor:pointer; box-shadow:0 2px 8px rgba(0,0,0,0.06); }
+.checkout .x svg { width:13px; height:13px; }
+.checkout .hero-logo { position:absolute; left:50%; transform:translateX(-50%); top:calc(env(safe-area-inset-top) + 18px); z-index:5; display:flex; align-items:center; pointer-events:none; }
+
+/* ── SHEET glassmorphique ── */
+.checkout .sheet { position:relative; z-index:6; margin-top:-30px; flex:1;
+  background:rgba(255,255,255,0.66); -webkit-backdrop-filter:blur(22px) saturate(1.18); backdrop-filter:blur(22px) saturate(1.18);
+  border-top:1px solid rgba(255,255,255,0.6); border-radius:34px 34px 0 0;
+  box-shadow:0 -16px 50px rgba(40,44,60,0.10), inset 0 1px 0 rgba(255,255,255,0.7);
+  padding:10px 24px calc(env(safe-area-inset-bottom) + 22px); }
+.checkout .grip { width:38px; height:4px; border-radius:100px; background:rgba(26,29,33,0.12); margin:0 auto 16px; }
+
+/* social proof */
+.checkout .proof { display:flex; align-items:center; gap:12px; justify-content:center; animation:coRise .55s ease both .1s; }
+.checkout .avatars { display:flex; flex-shrink:0; }
+.checkout .av { width:32px; height:32px; border-radius:50%; border:2.5px solid var(--bg); margin-left:-10px; box-shadow:0 2px 6px rgba(0,0,0,0.14); position:relative; overflow:hidden; }
+.checkout .av:first-child { margin-left:0; }
+.checkout .av1 { background:#EDEFF7 url("https://smart-skin.ai/avatar-1.jpg") center/cover no-repeat; }
+.checkout .av2 { background:#EDEFF7 url("https://smart-skin.ai/avatar-2.jpg") center/cover no-repeat; }
+.checkout .av3 { background:#EDEFF7 url("https://smart-skin.ai/avatar-3.jpg") center/cover no-repeat; }
+.checkout .av4 { background:#EDEFF7 url("https://smart-skin.ai/avatar-4.jpg") center/cover no-repeat; }
+.checkout .proof-tx { display:flex; flex-direction:column; gap:2px; }
+.checkout .stars { display:flex; gap:2px; }
+.checkout .stars svg { width:12px; height:12px; color:#F5A623; }
+.checkout .proof-sub { font-size:11px; color:var(--graphite); }
+.checkout .proof-sub b { color:var(--ink); font-weight:700; }
+
+.checkout h1 { text-align:center; font-weight:800; font-size:27px; line-height:1.04; letter-spacing:-0.04em; margin-top:16px; animation:coRise .55s ease both .16s; }
+.checkout h1 .soft { color:var(--accent-d); }
+.checkout .co-sub { text-align:center; font-size:13px; line-height:1.5; color:var(--graphite); margin:9px auto 0; max-width:300px; animation:coRise .55s ease both .2s; }
+
+.checkout .feats { margin:17px auto 0; width:fit-content; max-width:100%; display:flex; flex-direction:column; gap:11px; animation:coRise .55s ease both .24s; }
+.checkout .feat { display:flex; align-items:center; gap:11px; font-size:13.5px; font-weight:600; letter-spacing:-0.015em; color:var(--arsenic); }
+.checkout .fcheck { width:22px; height:22px; flex-shrink:0; border-radius:50%; background:var(--accent-bg); border:1px solid rgba(166,195,214,0.45); color:var(--accent-d); display:flex; align-items:center; justify-content:center; }
+.checkout .fcheck svg { width:12px; height:12px; }
+
+/* plan sélectionné */
+.checkout .plan { position:relative; margin-top:20px; display:flex; align-items:center; gap:13px; padding:16px 16px 16px 15px;
+  background:rgba(255,255,255,0.72); -webkit-backdrop-filter:blur(12px); backdrop-filter:blur(12px);
+  border:1.6px solid var(--accent); border-radius:20px;
+  box-shadow:0 0 0 4px rgba(166,195,214,0.16), 0 14px 34px rgba(40,44,60,0.10); animation:coRise .6s cubic-bezier(.22,1,.36,1) both .3s; }
+.checkout .plan-check { width:24px; height:24px; flex-shrink:0; border-radius:50%; background:var(--accent-d); color:#fff; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 10px rgba(127,166,190,0.5); }
+.checkout .plan-check svg { width:13px; height:13px; }
+.checkout .plan-info { flex:1; min-width:0; }
+.checkout .plan-name { font-weight:800; font-size:16px; letter-spacing:-0.03em; }
+.checkout .plan-meta { font-size:11px; color:var(--graphite); margin-top:2px; }
+.checkout .plan-price { text-align:right; flex-shrink:0; }
+.checkout .pp-now { font-weight:800; font-size:24px; letter-spacing:-0.04em; line-height:1; }
+.checkout .pp-old { font-size:12px; font-weight:700; color:#BCBFCC; text-decoration:line-through; margin-top:3px; }
+.checkout .plan-badge { position:absolute; top:-11px; right:16px; font-size:9px; font-weight:800; letter-spacing:0.04em; text-transform:uppercase; color:#fff; background:linear-gradient(150deg,#F5A623,#E08A00); padding:5px 10px; border-radius:100px; box-shadow:0 6px 14px rgba(245,166,35,0.42); }
+
+/* CTA */
+.checkout .cta { margin-top:18px; width:100%; height:62px; border:none; cursor:pointer; border-radius:100px; padding:0 7px 0 26px;
+  background:linear-gradient(150deg,#2a2e36,var(--ink)); color:#fff; display:flex; align-items:center; justify-content:space-between;
+  box-shadow:0 16px 34px rgba(26,29,33,0.34); position:relative; overflow:hidden; transition:transform .14s; animation:coRise .6s cubic-bezier(.22,1,.36,1) both .36s; }
+.checkout .cta:active { transform:scale(0.99); }
+.checkout .cta::after { content:''; position:absolute; top:0; left:-60%; width:38%; height:100%; background:linear-gradient(100deg,transparent,rgba(255,255,255,0.2),transparent); transform:skewX(-18deg); animation:coShine 3.6s ease-in-out infinite 1s; }
+.checkout .cta-tx { font-weight:800; font-size:16px; letter-spacing:-0.01em; text-align:left; position:relative; z-index:1; }
+.checkout .cta-tx small { display:block; font-weight:500; font-size:10.5px; letter-spacing:0; color:rgba(255,255,255,0.62); margin-top:1px; }
+.checkout .cta-arrow { width:48px; height:48px; flex-shrink:0; border-radius:50%; background:#fff; color:var(--ink); display:flex; align-items:center; justify-content:center; position:relative; z-index:1; }
+.checkout .cta-arrow svg { width:18px; height:18px; }
+
+.checkout .co-reassure { display:flex; justify-content:center; gap:13px; margin-top:14px; flex-wrap:wrap; animation:coRise .55s ease both .42s; }
+.checkout .co-reassure span { display:inline-flex; align-items:center; gap:5px; font-size:10px; color:var(--graphite); font-weight:500; }
+.checkout .co-reassure svg { width:12px; height:12px; color:#3A8F6F; }
+
+.checkout .terms { text-align:center; margin-top:13px; font-size:10.5px; color:var(--space); }
+.checkout .terms a { color:var(--graphite); text-decoration:underline; text-underline-offset:2px; }
+
+@keyframes coRise { from{opacity:0; transform:translateY(13px);} to{opacity:1; transform:none;} }
+@keyframes coShine { 0%{ left:-60%;} 55%,100%{ left:130%;} }

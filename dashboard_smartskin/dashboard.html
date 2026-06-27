@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartSkin AI — Mon espace</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg:#F1F3F6; --ink:#1A1D21; --accent:#A6C3D6; --accent-d:#7FA6BE; --accent-bg:rgba(166,195,214,0.14);
+  --card:#FFFFFF; --cloud:#EDEFF7; --smoke:#D3D6E0; --steel:#BCBFCC;
+  --space:#9DA2B3; --graphite:#6E7180; --arsenic:#40424D; --keep:#3A8F6F;
+  --love:#FF4E8A; --gold:#F5A623; --gold-d:#E08A00; --warn:#E8954E;
+  --fd:'Manrope',sans-serif; --fm:'Manrope',sans-serif;
+}
+html, body { background:#DEE0E5; display:flex; justify-content:center; align-items:flex-start; min-height:100vh; padding:48px 16px 80px; font-family:var(--fd); -webkit-font-smoothing:antialiased; color:var(--ink); }
+.phone { width:430px; background:var(--bg); border-radius:52px; overflow:hidden; box-shadow:0 0 0 1px rgba(0,0,0,0.07),0 4px 8px rgba(0,0,0,0.05),0 32px 80px rgba(0,0,0,0.18),0 12px 32px rgba(0,0,0,0.09); }
+.screen { height:932px; display:flex; flex-direction:column; position:relative;
+  background:
+    radial-gradient(120% 46% at 50% -2%, rgba(166,195,214,0.34), transparent 56%),
+    radial-gradient(100% 38% at 50% 103%, rgba(245,166,35,0.07), transparent 72%),
+    var(--bg); }
+
+/* header */
+.top { padding:52px 24px 14px; display:flex; align-items:center; justify-content:space-between; }
+.hello { font-weight:800; font-size:32px; letter-spacing:-0.04em; line-height:1.05; }
+.date { font-size:12px; color:var(--graphite); margin-top:4px; text-transform:capitalize; }
+.ava { width:44px; height:44px; border-radius:50%; overflow:hidden; background:linear-gradient(150deg,var(--accent),var(--accent-d)); color:#fff; font-weight:800; font-size:17px; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 12px rgba(127,166,190,0.4); }
+.ava img { width:100%; height:100%; object-fit:cover; object-position:center 22%; }
+
+.scroll { flex:1; overflow-y:auto; scrollbar-width:none; padding:6px 20px 30px; }
+.scroll::-webkit-scrollbar { display:none; }
+.card { background:rgba(255,255,255,0.64); -webkit-backdrop-filter:blur(18px) saturate(1.12); backdrop-filter:blur(18px) saturate(1.12); border:1px solid rgba(255,255,255,0.6); border-radius:20px; box-shadow:0 1px 2px rgba(0,0,0,0.02),0 10px 28px rgba(40,44,60,0.07); padding:16px; margin-bottom:14px; }
+.sec-label { font-family:var(--fm); font-weight:700; font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:var(--graphite); margin:6px 4px 10px; }
+
+/* routine du jour */
+.rt-head { display:flex; align-items:center; justify-content:space-between; gap:10px; }
+.rt-title { font-weight:800; font-size:17px; letter-spacing:-0.03em; }
+.seg { display:inline-flex; background:var(--cloud); border-radius:11px; padding:3px; gap:2px; }
+.seg button { border:none; background:transparent; cursor:pointer; border-radius:9px; padding:6px 11px; font-family:var(--fd); font-weight:700; font-size:11px; color:var(--graphite); display:flex; align-items:center; gap:5px; transition:all .2s; }
+.seg button svg { width:13px; height:13px; }
+.seg button.on { background:var(--card); color:var(--ink); box-shadow:0 1px 4px rgba(0,0,0,0.1); }
+.seg button.on.day svg { color:var(--gold); } .seg button.on.night svg { color:var(--accent-d); }
+
+.rt-prog { display:flex; align-items:center; gap:13px; margin:15px 0 6px; }
+.ring { position:relative; width:54px; height:54px; flex-shrink:0; }
+.ring svg { transform:rotate(-90deg); }
+.ring .trk { fill:none; stroke:var(--cloud); stroke-width:6; }
+.ring .val { fill:none; stroke:var(--keep); stroke-width:6; stroke-linecap:round; transition:stroke-dashoffset .5s cubic-bezier(.22,1,.36,1); }
+.ring span { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:14px; letter-spacing:-0.03em; }
+.rt-prog-txt b { font-weight:800; font-size:14px; } .rt-prog-txt div { font-size:12px; color:var(--graphite); margin-top:2px; }
+
+.rt-step { width:100%; display:flex; align-items:center; gap:12px; padding:9px 4px; background:none; border:none; cursor:pointer; text-align:left; border-top:1px solid rgba(26,29,33,0.05); }
+.rt-check { width:24px; height:24px; flex-shrink:0; border-radius:50%; border:2px solid var(--smoke); display:flex; align-items:center; justify-content:center; color:#fff; transition:all .2s; }
+.rt-check svg { width:13px; height:13px; opacity:0; transform:scale(.5); transition:all .2s; }
+.rt-step.done .rt-check { background:var(--keep); border-color:var(--keep); }
+.rt-step.done .rt-check svg { opacity:1; transform:none; }
+.rt-thumb { width:38px; height:44px; flex-shrink:0; border-radius:10px; background:var(--cloud); display:flex; align-items:center; justify-content:center; overflow:hidden; }
+.rt-thumb img { max-width:74%; max-height:80%; object-fit:contain; }
+.rt-thumb .flacon { width:18px; color:var(--accent-d); }
+.rt-info { flex:1; min-width:0; }
+.rt-cat { font-family:var(--fm); font-size:7.5px; letter-spacing:0.07em; text-transform:uppercase; color:var(--accent-d); }
+.rt-name { font-weight:700; font-size:13px; letter-spacing:-0.02em; line-height:1.1; margin-top:2px; }
+.rt-use { font-size:10.5px; color:var(--graphite); margin-top:3px; line-height:1.3; }
+.rt-step.done .rt-name { color:var(--space); } .rt-step.done .rt-thumb { opacity:.6; }
+
+/* streak */
+.streak { display:flex; align-items:center; gap:16px; }
+.streak-l { display:flex; align-items:center; gap:11px; flex-shrink:0; }
+.streak-fire { width:42px; height:42px; border-radius:13px; background:rgba(245,166,35,0.14); display:flex; align-items:center; justify-content:center; font-size:21px; }
+.streak-l b { font-weight:800; font-size:18px; letter-spacing:-0.03em; display:block; line-height:1; }
+.streak-l span { font-size:11px; color:var(--graphite); }
+.streak-week { flex:1; display:flex; justify-content:space-between; }
+.dow { display:flex; flex-direction:column; align-items:center; gap:6px; }
+.dow i { font-family:var(--fm); font-size:9px; color:var(--space); font-style:normal; }
+.dot { width:22px; height:22px; border-radius:50%; background:var(--cloud); display:flex; align-items:center; justify-content:center; color:#fff; }
+.dot svg { width:11px; height:11px; }
+.dot.done { background:var(--gold); }
+.dot.today { box-shadow:inset 0 0 0 2px var(--accent-d); background:var(--accent-bg); }
+
+/* ta peau */
+.skin-top { display:flex; align-items:center; gap:16px; }
+.ring.big { width:84px; height:84px; }
+.ring.big .val { stroke:var(--accent-d); }
+.ring.big span { font-size:24px; }
+.ring.big span small { font-size:10px; color:var(--space); font-weight:600; }
+.skin-label { font-family:var(--fm); font-weight:700; font-size:10px; letter-spacing:0.08em; text-transform:uppercase; color:var(--graphite); }
+.skin-trend { display:inline-flex; align-items:center; gap:5px; font-weight:800; font-size:15px; color:var(--keep); margin-top:5px; letter-spacing:-0.02em; }
+.skin-sub { font-size:11.5px; color:var(--graphite); margin-top:5px; line-height:1.35; }
+.skin-next { display:flex; align-items:center; gap:11px; margin-top:15px; padding-top:14px; border-top:1px solid rgba(26,29,33,0.06); }
+.skin-next-ic { width:38px; height:38px; border-radius:12px; flex-shrink:0; background:var(--accent-bg); color:var(--accent-d); display:flex; align-items:center; justify-content:center; }
+.skin-next-ic svg { width:19px; height:19px; }
+.skin-next-tx { flex:1; min-width:0; } .skin-next-tx b { font-weight:700; font-size:13px; } .skin-next-tx div { font-size:11px; color:var(--graphite); margin-top:2px; }
+.skin-next-cta { flex-shrink:0; height:34px; padding:0 14px; border-radius:10px; background:var(--ink); color:#fff; border:none; cursor:pointer; font-family:var(--fd); font-weight:700; font-size:11.5px; }
+
+/* skin score chart (hero) */
+.chart-card { padding:18px 18px 14px; }
+.ch-head { display:flex; align-items:flex-start; justify-content:space-between; gap:10px; }
+.ch-label { font-size:11px; font-weight:600; letter-spacing:0.02em; color:var(--graphite); }
+.ch-num { display:flex; align-items:baseline; gap:9px; font-weight:800; font-size:36px; letter-spacing:-0.045em; margin-top:2px; line-height:1; }
+.ch-trend { font-size:14px; font-weight:800; color:var(--keep); letter-spacing:-0.02em; }
+.ch-go { width:36px; height:36px; border-radius:50%; background:var(--cloud); border:none; cursor:pointer; color:var(--ink); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.ch-go svg { width:15px; height:15px; }
+.ch-plot { position:relative; height:84px; margin-top:14px; }
+.ch-svg { position:absolute; inset:0; width:100%; height:100%; }
+.ch-dot { position:absolute; width:11px; height:11px; border-radius:50%; background:var(--accent-d); border:2.5px solid var(--card); box-shadow:0 2px 6px rgba(127,166,190,0.55); transform:translate(-50%,-50%); z-index:2; }
+.ch-guide { position:absolute; width:0; border-left:1px dashed rgba(166,195,214,0.6); z-index:1; }
+.ch-side { position:absolute; right:0; top:50%; transform:translateY(-50%); width:84px; z-index:2; }
+.ch-side .gl-k { font-size:10px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--space); }
+.ch-side .gl-v { font-weight:800; font-size:20px; color:var(--accent-d); letter-spacing:-0.04em; line-height:1.15; }
+.ch-side .gl-s { font-size:10.5px; color:var(--graphite); margin-top:1px; }
+.ch-ticks { display:flex; justify-content:space-between; align-items:flex-end; height:8px; margin-top:7px; }
+.ch-ticks i { width:1.5px; height:8px; background:var(--smoke); border-radius:2px; opacity:0.7; }
+
+/* 3 priorities — spectre + avant/maintenant + commentaire */
+.p3card { padding:15px 16px 14px; }
+.p3-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:13px; }
+.p3-name { font-weight:800; font-size:15px; letter-spacing:-0.025em; }
+.p3-pill { font-size:10px; font-weight:700; padding:4px 9px; border-radius:100px; letter-spacing:-0.01em; }
+.p3-pill.up { color:var(--keep); background:rgba(58,143,111,0.12); }
+.p3-tip-row { position:relative; height:25px; }
+.p3-tip { position:absolute; bottom:3px; transform:translateX(-50%); background:var(--ink); color:#fff; font-size:10.5px; font-weight:700; letter-spacing:-0.01em; padding:4px 10px; border-radius:8px; white-space:nowrap; box-shadow:0 3px 9px rgba(26,29,33,0.28); }
+.p3-tip::after { content:''; position:absolute; left:50%; bottom:-3px; width:8px; height:8px; background:var(--ink); border-radius:1.5px; transform:translateX(-50%) rotate(45deg); }
+.p3-spec { position:relative; height:26px; margin-bottom:10px; }
+.p3-track { position:absolute; left:0; right:0; top:50%; transform:translateY(-50%); height:7px; border-radius:100px; background:linear-gradient(90deg, #54A074 0%, #E8BE55 50%, #E07A6B 100%); }
+.p3-seg { position:absolute; top:50%; transform:translateY(-50%); height:2px; border-radius:100px; background:rgba(26,29,33,0.18); z-index:1; }
+.p3-was { position:absolute; top:50%; transform:translate(-50%,-50%); width:6px; height:17px; border-radius:100px; background:var(--card); border:1.5px solid var(--steel); opacity:0.92; z-index:2; }
+.p3-now { position:absolute; top:50%; transform:translate(-50%,-50%); width:7px; height:24px; border-radius:100px; background:var(--ink); box-shadow:0 0 0 2.5px var(--card), 0 3px 8px rgba(26,29,33,0.45); z-index:3; }
+.p3-ends { display:flex; justify-content:space-between; font-family:var(--fm); font-size:9px; letter-spacing:0.04em; color:var(--space); }
+.p3-comment { display:flex; align-items:flex-start; gap:8px; margin-top:13px; padding-top:12px; border-top:1px solid var(--cloud); font-size:11.5px; line-height:1.45; color:var(--graphite); }
+.p3-comment svg { width:14px; height:14px; color:var(--keep); flex-shrink:0; margin-top:1px; }
+.p3-comment b { color:var(--ink); font-weight:700; }
+
+/* objectif */
+.goal-head { display:flex; align-items:center; gap:9px; font-weight:800; font-size:14.5px; letter-spacing:-0.02em; }
+.goal-head .em { width:30px; height:30px; border-radius:9px; background:rgba(255,78,138,0.10); display:flex; align-items:center; justify-content:center; font-size:15px; }
+.goal-bar { height:9px; border-radius:100px; background:var(--cloud); overflow:hidden; margin:14px 0 9px; }
+.goal-bar i { display:block; height:100%; border-radius:100px; background:linear-gradient(90deg,var(--accent),var(--accent-d)); }
+.goal-foot { display:flex; align-items:center; justify-content:space-between; font-size:11px; color:var(--graphite); }
+.goal-foot b { color:var(--ink); font-weight:700; }
+
+/* protocole card */
+.pc { display:flex; align-items:center; gap:13px; }
+.pc-ic { width:46px; height:46px; border-radius:14px; flex-shrink:0; background:var(--ink); color:#fff; display:flex; align-items:center; justify-content:center; }
+.pc-ic svg { width:22px; height:22px; }
+.pc-tx { flex:1; min-width:0; } .pc-tx b { font-weight:800; font-size:15.5px; letter-spacing:-0.03em; display:block; } .pc-tx span { font-size:11.5px; color:var(--graphite); }
+.pc-go { flex-shrink:0; width:36px; height:36px; border-radius:50%; background:var(--cloud); border:none; cursor:pointer; color:var(--ink); display:flex; align-items:center; justify-content:center; }
+
+/* produits / rachat */
+.prod { display:flex; align-items:center; gap:12px; padding:11px 13px; }
+.prod-thumb { width:42px; height:48px; flex-shrink:0; border-radius:11px; background:var(--cloud); display:flex; align-items:center; justify-content:center; overflow:hidden; }
+.prod-thumb img { max-width:74%; max-height:80%; object-fit:contain; }
+.prod-thumb .flacon { width:20px; color:var(--accent-d); }
+.prod-info { flex:1; min-width:0; }
+.prod-name { font-weight:700; font-size:13px; letter-spacing:-0.02em; line-height:1.12; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.prod-left { display:inline-flex; align-items:center; gap:5px; font-family:var(--fm); font-size:9.5px; letter-spacing:0.01em; color:var(--space); margin-top:5px; }
+.prod-left.low { color:var(--warn); font-weight:600; }
+.prod-left .pip { width:6px; height:6px; border-radius:50%; background:var(--steel); } .prod-left.low .pip { background:var(--warn); }
+.prod-buy { flex-shrink:0; height:34px; padding:0 14px; border-radius:10px; background:var(--accent-bg); color:var(--accent-d); box-shadow:inset 0 0 0 1.5px rgba(166,195,214,0.45); font-weight:700; font-size:11.5px; text-decoration:none; display:flex; align-items:center; gap:6px; transition:all .2s; }
+.prod-buy:hover { background:var(--accent-d); color:#fff; box-shadow:inset 0 0 0 1.5px var(--accent-d); }
+.prod-buy svg { width:13px; height:13px; }
+.prod.low .prod-buy { background:var(--warn); color:#fff; box-shadow:none; }
+.restock-bar { height:5px; border-radius:100px; background:var(--cloud); margin-top:8px; overflow:hidden; max-width:170px; }
+.restock-bar i { display:block; height:100%; border-radius:100px; background:var(--warn); }
+
+/* bottom nav */
+.tabbar { display:flex; padding:10px 14px 26px; background:var(--card); box-shadow:0 -1px 0 rgba(26,29,33,0.05),0 -8px 24px rgba(0,0,0,0.04); }
+.tb { flex:1; display:flex; flex-direction:column; align-items:center; gap:4px; background:none; border:none; cursor:pointer; color:var(--space); font-family:var(--fm); font-weight:600; font-size:9px; letter-spacing:0.02em; }
+.tb svg { width:22px; height:22px; }
+.tb.on { color:var(--ink); }
+.bottle { stroke:currentColor; stroke-width:1.4; fill:none; }
+
+/* ── Check-in ── */
+.ci-q { font-weight:800; font-size:15px; letter-spacing:-0.025em; margin-bottom:13px; }
+.ci-opts { display:flex; gap:7px; }
+.ci-opt { flex:1; min-width:0; background:var(--cloud); border:none; border-radius:13px; padding:10px 3px; cursor:pointer; display:flex; flex-direction:column; align-items:center; gap:6px; font-family:var(--fd); font-weight:600; font-size:9.5px; letter-spacing:-0.01em; color:var(--graphite); transition:background .18s, color .18s, transform .14s; }
+.ci-opt:active { transform:scale(0.96); }
+.ci-opt .ci-ic { width:20px; height:20px; color:var(--graphite); display:flex; align-items:center; justify-content:center; }
+.ci-opt .ci-ic svg { width:20px; height:20px; }
+.ci-opt:hover { background:#fff; }
+.ci-opt.on { background:var(--ink); color:#fff; }
+.ci-opt.on .ci-ic { color:var(--accent); }
+
+/* ── Check-in modal (centré) ── */
+.ci-modal { position:absolute; inset:0; z-index:200; display:flex; align-items:center; justify-content:center; padding:24px; transition:opacity .35s ease, visibility .35s; }
+.ci-modal.hidden { opacity:0; visibility:hidden; pointer-events:none; }
+.ci-scrim { position:absolute; inset:0; background:rgba(18,20,24,0.45); -webkit-backdrop-filter:blur(4px); backdrop-filter:blur(4px); }
+.ci-sheet { position:relative; z-index:1; width:100%; max-width:330px; background:#fff; border-radius:28px; padding:24px 24px 22px; box-shadow:0 30px 70px rgba(0,0,0,0.34); transition:transform .4s cubic-bezier(.22,1,.36,1), opacity .35s; }
+.ci-modal.hidden .ci-sheet { transform:scale(0.95); opacity:0; }
+.ci-x { position:absolute; top:15px; right:18px; width:30px; height:30px; border-radius:50%; background:var(--cloud); border:none; cursor:pointer; color:var(--graphite); display:flex; align-items:center; justify-content:center; }
+.ci-x svg { width:12px; height:12px; }
+.ci-title { font-weight:800; font-size:23px; letter-spacing:-0.04em; text-align:center; }
+.ci-sub { font-size:12.5px; color:var(--graphite); text-align:center; margin-top:7px; margin-bottom:20px; }
+.ci-skip { display:block; margin:18px auto 0; background:none; border:none; color:var(--space); font-size:12px; font-weight:600; text-decoration:underline; text-underline-offset:2px; cursor:pointer; font-family:var(--fd); }
+
+/* ── Tonight (dynamic routine) ── */
+.tn-top { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:13px; }
+.tn-kicker { font-family:var(--fm); font-size:10px; font-weight:700; letter-spacing:0.07em; text-transform:uppercase; color:var(--accent-d); }
+.tn-note { font-size:12px; line-height:1.45; color:var(--graphite); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); border-radius:12px; padding:10px 12px; margin-bottom:6px; }
+.tn-note.alert { color:var(--arsenic); background:rgba(232,149,78,0.13); border-color:rgba(232,149,78,0.32); }
+.tn-warn { font-size:10.5px; line-height:1.4; color:var(--space); margin-top:11px; padding-left:9px; border-left:2px solid var(--smoke); }
+.tn-foot { margin-top:13px; padding-top:12px; border-top:1px solid rgba(26,29,33,0.06); font-size:11.5px; color:var(--graphite); }
+.tn-foot .tn-prog { font-weight:800; color:var(--ink); }
+.tn-confirm { width:100%; height:46px; border-radius:13px; border:1.5px solid var(--smoke); background:#fff; color:var(--ink); font-family:var(--fd); font-weight:700; font-size:13px; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px; transition:background .18s, border-color .18s, color .18s; }
+.tn-confirm:hover { border-color:var(--accent); }
+.tn-confirm.done { background:rgba(58,143,111,0.12); border-color:transparent; color:var(--keep); }
+.tn-confirm svg { width:15px; height:15px; }
+.rt-num { width:24px; height:24px; flex-shrink:0; border-radius:50%; background:var(--cloud); color:var(--graphite); font-weight:700; font-size:12px; display:flex; align-items:center; justify-content:center; }
+.rt-step.ref { cursor:default; }
+.rt-step.paused { opacity:0.62; cursor:default; }
+.rt-step.paused .rt-check { border-style:dashed; }
+.rt-step.paused .rt-name { text-decoration:line-through; color:var(--space); }
+
+/* ── Routine plan (what's next) ── */
+.plan-tl { display:flex; margin:2px 0 4px; }
+.plan-node { flex:1; display:flex; flex-direction:column; align-items:center; gap:9px; position:relative; }
+.plan-node:not(:first-child)::before { content:''; position:absolute; top:6px; left:-50%; width:100%; height:2px; background:var(--smoke); z-index:0; }
+.plan-node.done::before, .plan-node.now::before { background:var(--accent-d); }
+.plan-dot { width:13px; height:13px; border-radius:50%; background:var(--card); border:2px solid var(--smoke); position:relative; z-index:1; }
+.plan-node.done .plan-dot { background:var(--accent-d); border-color:var(--accent-d); }
+.plan-node.now .plan-dot { background:var(--ink); border-color:var(--ink); box-shadow:0 0 0 4px rgba(26,29,33,0.10); }
+.plan-lab { font-size:9px; font-weight:600; color:var(--space); text-align:center; line-height:1.15; letter-spacing:-0.01em; }
+.plan-node.now .plan-lab { color:var(--ink); font-weight:700; }
+.plan-next { margin-top:15px; padding-top:13px; border-top:1px solid rgba(26,29,33,0.06); display:flex; flex-direction:column; gap:10px; }
+.plan-next-row { display:flex; align-items:flex-start; gap:9px; font-size:11.5px; line-height:1.45; color:var(--graphite); }
+.plan-next-row svg { width:15px; height:15px; color:var(--accent-d); flex-shrink:0; margin-top:1px; }
+.plan-next-row b { color:var(--ink); font-weight:700; }
+</style>
+</head>
+<body>
+<div class="phone">
+<div class="screen">
+
+  <div class="top">
+    <div>
+      <div class="hello">Bonjour Sarah 👋</div>
+      <div class="date" id="today">Lundi 16 juin</div>
+    </div>
+    <div class="ava"><img src="capture-face.jpg" alt="You"></div>
+  </div>
+
+  <div class="scroll">
+
+    <!-- Skin score chart (hero) -->
+    <div class="card chart-card">
+      <div class="ch-head">
+        <div>
+          <div class="ch-label">Skin score</div>
+          <div class="ch-num">84<span class="ch-trend">↑ +8</span></div>
+        </div>
+        <button class="ch-go" aria-label="History"><svg viewBox="0 0 16 16" fill="none"><path d="M5 3l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+      <div class="ch-plot" id="chPlot">
+        <span class="ch-guide" id="chGuide"></span>
+        <span class="ch-dot" id="chDot"></span>
+        <div class="ch-side">
+          <div class="gl-k">Goal</div>
+          <div class="gl-v">90</div>
+          <div class="gl-s">6 pts to go</div>
+        </div>
+      </div>
+      <div class="ch-ticks" id="chTicks"></div>
+      <div class="skin-next">
+        <div class="skin-next-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <div class="skin-next-tx"><b>Next scan in 18 days</b><div>To adjust your protocol as your skin evolves.</div></div>
+        <button class="skin-next-cta">Analyze</button>
+      </div>
+    </div>
+
+    <!-- 3 priorities evolution -->
+    <div class="sec-label">Your 3 priorities</div>
+
+    <div class="card p3card">
+      <div class="p3-head"><span class="p3-name">Sebum</span><span class="p3-pill up">Improving</span></div>
+      <div class="p3-tip-row"><span class="p3-tip" style="left:38%">Mild</span></div>
+      <div class="p3-spec">
+        <div class="p3-track"></div>
+        <div class="p3-seg" style="left:38%;width:26%"></div>
+        <div class="p3-was" style="left:64%"></div>
+        <div class="p3-now" style="left:38%"></div>
+      </div>
+      <div class="p3-ends"><span>REGULATED</span><span>EXCESS</span></div>
+      <div class="p3-comment"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 11V7h-4"/></svg><span><b>Moderate → Mild</b> · your sebum is regulating well since your last scan.</span></div>
+    </div>
+
+    <div class="card p3card">
+      <div class="p3-head"><span class="p3-name">Marks</span><span class="p3-pill up">Improving</span></div>
+      <div class="p3-tip-row"><span class="p3-tip" style="left:52%">Fading</span></div>
+      <div class="p3-spec">
+        <div class="p3-track"></div>
+        <div class="p3-seg" style="left:52%;width:20%"></div>
+        <div class="p3-was" style="left:72%"></div>
+        <div class="p3-now" style="left:52%"></div>
+      </div>
+      <div class="p3-ends"><span>CLEAR</span><span>MARKED</span></div>
+      <div class="p3-comment"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 11V7h-4"/></svg><span><b>Marked → Fading</b> · post-acne marks are clearing nicely.</span></div>
+    </div>
+
+    <div class="card p3card">
+      <div class="p3-head"><span class="p3-name">Barrier</span><span class="p3-pill up">Improving</span></div>
+      <div class="p3-tip-row"><span class="p3-tip" style="left:34%">Solid</span></div>
+      <div class="p3-spec">
+        <div class="p3-track"></div>
+        <div class="p3-seg" style="left:34%;width:30%"></div>
+        <div class="p3-was" style="left:64%"></div>
+        <div class="p3-now" style="left:34%"></div>
+      </div>
+      <div class="p3-ends"><span>SOLID</span><span>FRAGILE</span></div>
+      <div class="p3-comment"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 11V7h-4"/></svg><span><b>Fragile → Solid</b> · your barrier is noticeably more resilient.</span></div>
+    </div>
+
+    <!-- Tonight — dynamic routine -->
+    <div class="card tonight">
+      <div class="tn-top">
+        <div class="tn-kicker" id="tnKicker">TONIGHT · EXFOLIANT NIGHT</div>
+        <div class="seg" id="seg">
+          <button class="night on" data-m="evening"></button>
+          <button class="day" data-m="morning"></button>
+        </div>
+      </div>
+      <div class="tn-note" id="tnNote">It's been 2 days — tonight's your BHA night.</div>
+      <div id="tnSteps"></div>
+      <div class="tn-warn" id="tnWarn"></div>
+      <div class="tn-foot" id="tnFoot"></div>
+    </div>
+
+    <!-- What's next — routine plan -->
+    <div class="sec-label">Your routine plan</div>
+    <div class="card plan">
+      <div class="plan-tl">
+        <div class="plan-node done"><span class="plan-dot"></span><span class="plan-lab">Start</span></div>
+        <div class="plan-node now"><span class="plan-dot"></span><span class="plan-lab">BHA 2×/wk</span></div>
+        <div class="plan-node"><span class="plan-dot"></span><span class="plan-lab">BHA 3×/wk</span></div>
+        <div class="plan-node"><span class="plan-dot"></span><span class="plan-lab">+ Retinoid</span></div>
+        <div class="plan-node"><span class="plan-dot"></span><span class="plan-lab">Maintain</span></div>
+      </div>
+      <div class="plan-next">
+        <div class="plan-next-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span><b>Next week:</b> your BHA bumps to 3×/week — if your skin stays calm.</span></div>
+        <div class="plan-next-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"/></svg><span><b>In ~2 weeks:</b> a retinoid joins for your marks, once your barrier is fully solid.</span></div>
+      </div>
+    </div>
+
+    <!-- Restock (contextuel — données mockées) -->
+    <div class="restock-wrap">
+      <div class="sec-label">Running low</div>
+      <div id="restock"></div>
+    </div>
+
+  </div>
+
+  <!-- Check-in modal (au chargement) -->
+  <div class="ci-modal hidden" id="ciModal">
+    <div class="ci-scrim" id="ciScrim"></div>
+    <div class="ci-sheet">
+      <button class="ci-x" id="ciX" aria-label="Close"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 2l10 10M12 2L2 12"/></svg></button>
+      <div class="ci-title">How's your skin today?</div>
+      <div class="ci-sub">We'll tailor tonight's routine to it.</div>
+      <div class="ci-opts" id="ciOpts">
+        <button class="ci-opt" data-mood="good"><span class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14a4 4 0 0 0 7 0"/><path d="M9 10h.01M15 10h.01"/></svg></span>Good</button>
+        <button class="ci-opt" data-mood="sensitive"><span class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3s6 6.5 6 10.5a6 6 0 0 1-12 0C6 9.5 12 3 12 3Z"/></svg></span>Sensitive</button>
+        <button class="ci-opt" data-mood="irritated"><span class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l8.5 15h-17z"/><path d="M12 10v3.5"/><path d="M12 16.5h.01"/></svg></span>Irritated</button>
+        <button class="ci-opt" data-mood="breakout"><span class="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="2.4" fill="currentColor" stroke="none"/></svg></span>Breakout</button>
+      </div>
+      <button class="ci-skip" id="ciSkip">Skip for now</button>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<script>
+(function(){
+  var FLACONS = {
+    pump:'<svg class="flacon" viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"><rect x="15" y="28" width="30" height="56" rx="9"/><path d="M24 28v-6h12v6"/><rect x="26" y="9" width="9" height="13" rx="2.5"/><path d="M35 13h7v6"/></svg>',
+    dropper:'<svg class="flacon" viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"><rect x="16" y="36" width="28" height="48" rx="8"/><path d="M23 36v-4h14v4"/><rect x="25" y="10" width="10" height="22" rx="3"/></svg>',
+    jar:'<svg class="flacon" viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"><rect x="12" y="38" width="36" height="40" rx="11"/><rect x="10" y="26" width="40" height="14" rx="5"/></svg>',
+    bottle:'<svg class="flacon" viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"><path d="M19 84V40c0-3 1-4 3-6l1-3v-6h14v6l1 3c2 2 3 3 3 6v44a4 4 0 0 1-4 4H23a4 4 0 0 1-4-4Z"/><rect x="24" y="9" width="12" height="10" rx="2"/></svg>'
+  };
+  var SUN  = '<svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="4.6"/><g stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M12 2.9v1.7"/><path d="M12 19.4v1.7"/><path d="M21.1 12h-1.7"/><path d="M4.6 12H2.9"/><path d="M18.45 5.55l-1.2 1.2"/><path d="M6.75 17.25l-1.2 1.2"/><path d="M18.45 18.45l-1.2-1.2"/><path d="M6.75 6.75L5.55 5.55"/></g></svg>';
+  var MOON = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.7a6.6 6.6 0 0 0 8.8 8.8A8.6 8.6 0 1 1 12 2.7Z"/><circle cx="18.1" cy="5.3" r="1.05"/><circle cx="20.3" cy="8.7" r="0.7"/></svg>';
+  var CHECK = '<svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 7.5l3 3 6-6.5"/></svg>';
+  var CART  = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7.5h13l-1.2 9.2a2.2 2.2 0 0 1-2.2 1.9H9.4a2.2 2.2 0 0 1-2.2-1.9L6 7.5Z"/><path d="M9 7.5a3 3 0 0 1 6 0"/></svg>';
+
+  var ROUTINE = {
+    evening: {
+      kicker:'TONIGHT · EXFOLIANT NIGHT',
+      note:"It's been 2 days — tonight's your BHA night.",
+      warn:'No Vitamin C tonight — that\'s a morning step.',
+      steps:[
+        { cat:'Cleanse',    icon:'pump',   name:'Toleriane Cleanser',        use:'Removes the day\'s oil & SPF.' },
+        { cat:'Exfoliate',  icon:'bottle', name:'Paula\'s 2% BHA',           use:'On dry skin, wait 5 min. No rinse.', key:'bha' },
+        { cat:'Moisturize', icon:'jar',    name:'CeraVe Moisturizing Cream', use:'Last step — seal everything in.' }
+      ]
+    },
+    morning: {
+      kicker:'THIS MORNING · ANTIOXIDANT + SHIELD',
+      note:'Vitamin C protects your skin all day under SPF.',
+      warn:'',
+      steps:[
+        { cat:'Cleanse',    icon:'pump',    name:'Toleriane Cleanser',        use:'Lukewarm water, massage, rinse.' },
+        { cat:'Vitamin C',  icon:'dropper', name:'TruSkin Vitamin C',         use:'3–4 drops on dry skin.' },
+        { cat:'Moisturize', icon:'jar',     name:'CeraVe Moisturizing Cream', use:'A pea-size amount.' },
+        { cat:'Protect',    icon:'bottle',  name:'EltaMD UV Clear SPF 46',    use:'Generous, last step. Reapply midday.' }
+      ]
+    }
+  };
+
+  function vis(s){ return FLACONS[s.icon] || FLACONS.bottle; }
+
+  /* date du jour */
+  try {
+    var d = new Date();
+    var s = d.toLocaleDateString('fr-FR', { weekday:'long', day:'numeric', month:'long' });
+    document.getElementById('today').textContent = s.charAt(0).toUpperCase()+s.slice(1);
+  } catch(e){}
+
+  /* toggle morning / evening */
+  var seg = document.getElementById('seg');
+  seg.querySelector('[data-m=evening]').innerHTML = MOON+'Evening';
+  seg.querySelector('[data-m=morning]').innerHTML = SUN+'Morning';
+
+  var moment='evening', mood=null, morningDone=false, done={ evening:{} };
+  var stepsEl=document.getElementById('tnSteps'), kickerEl=document.getElementById('tnKicker'),
+      noteEl=document.getElementById('tnNote'), warnEl=document.getElementById('tnWarn'), footEl=document.getElementById('tnFoot');
+
+  function skipBHA(){ return moment==='evening' && (mood==='irritated' || mood==='sensitive'); }
+
+  function render(){
+    var R=ROUTINE[moment], isMorning=(moment==='morning'), skip=!isMorning && skipBHA(), breakout=!isMorning && mood==='breakout';
+    kickerEl.textContent = skip ? 'TONIGHT · GENTLE NIGHT' : R.kicker;
+    noteEl.textContent = skip ? 'Skipping the BHA tonight — your barrier needs a pause. Just cleanse + moisturize.'
+      : breakout ? 'Keep your BHA tonight — it targets congestion. Dab a little extra on the breakout.'
+      : R.note;
+    noteEl.className = 'tn-note' + (skip ? ' alert' : '');
+
+    stepsEl.innerHTML = R.steps.map(function(s,i){
+      if(isMorning){
+        /* matin = référence (numéroté, non cochable) */
+        return '<div class="rt-step ref">'+
+          '<span class="rt-num">'+(i+1)+'</span>'+
+          '<span class="rt-thumb">'+vis(s)+'</span>'+
+          '<span class="rt-info"><span class="rt-cat">'+s.cat+'</span><div class="rt-name">'+s.name+'</div><div class="rt-use">'+s.use+'</div></span>'+
+        '</div>';
+      }
+      var paused = skip && s.key==='bha';
+      var isDone = !!done.evening[i] && !paused;
+      return '<button class="rt-step'+(isDone?' done':'')+(paused?' paused':'')+'" data-i="'+i+'">'+
+        '<span class="rt-check">'+CHECK+'</span>'+
+        '<span class="rt-thumb">'+vis(s)+'</span>'+
+        '<span class="rt-info"><span class="rt-cat">'+s.cat+(paused?' · paused':'')+'</span><div class="rt-name">'+s.name+'</div><div class="rt-use">'+(paused?'On pause — barrier comes first.':s.use)+'</div></span>'+
+      '</button>';
+    }).join('');
+
+    if(!isMorning){
+      [].forEach.call(stepsEl.querySelectorAll('.rt-step'), function(btn){
+        if(btn.classList.contains('paused')) return;
+        btn.addEventListener('click', function(){ var i=+btn.dataset.i; done.evening[i]=!done.evening[i]; render(); });
+      });
+    }
+
+    if(R.warn && !skip && !isMorning){ warnEl.textContent=R.warn; warnEl.style.display=''; } else { warnEl.style.display='none'; }
+
+    if(isMorning){
+      /* matin = une seule confirmation rétrospective */
+      footEl.innerHTML = '<button class="tn-confirm'+(morningDone?' done':'')+'" id="tnConfirm">'+(morningDone?CHECK+'Done this morning':'I did my morning routine')+'</button>';
+      document.getElementById('tnConfirm').addEventListener('click', function(){ morningDone=!morningDone; render(); });
+    } else {
+      var total=0, n=0;
+      R.steps.forEach(function(s,i){ if(skip && s.key==='bha') return; total++; if(done.evening[i]) n++; });
+      footEl.innerHTML = '<span class="tn-prog">'+n+'/'+total+'</span> done tonight';
+    }
+  }
+
+  seg.querySelectorAll('button').forEach(function(b){
+    b.addEventListener('click', function(){ moment=b.dataset.m; seg.querySelectorAll('button').forEach(function(x){ x.classList.toggle('on', x===b); }); render(); });
+  });
+
+  /* ── restock contextuel (logique réelle, données mockées) ── */
+  (function(){
+    var listEl = document.getElementById('restock');
+    if(!listEl) return;
+    var DOSE = { nettoyant:2, serum:0.5, creme:1.2, 'crème':1.2, hydratant:1.2, spf:1.2, exfoliant:1 };  /* ml par usage, par catégorie */
+    var FREQ = { 'daily':1, '3x/sem':3/7, '1-2x/sem':1.5/7 };                                            /* usages par jour */
+    function estimate(p){
+      var dose = DOSE[p.category] || 1, perDay = FREQ[p.frequency] || 1;
+      if(p.moment==='both' && p.frequency==='daily') perDay = 2;        /* matin + soir */
+      var total = p.size_ml / (dose * perDay);                          /* durée de vie totale (jours) */
+      var left = Math.max(0, Math.round(total - p.elapsedDays));
+      return { left: left, pctUsed: Math.min(100, Math.round(p.elapsedDays / total * 100)) };
+    }
+    /* produits FICTIFS pour la démo (en prod : catalog-final.json + date d'achat + cochages) */
+    var MOCK = [
+      { name:'EltaMD UV Clear SPF 46',     icon:'bottle',  category:'spf',   frequency:'daily', moment:'AM',   size_ml:50,  elapsedDays:38, asin:'B002MSN3QQ' },
+      { name:'TruSkin Vitamin C Serum',    icon:'dropper', category:'serum', frequency:'daily', moment:'AM',   size_ml:30,  elapsedDays:52, asin:'B01M4MCUAF' },
+      { name:'CeraVe Moisturizing Cream',  icon:'jar',     category:'creme', frequency:'daily', moment:'both', size_ml:340, elapsedDays:20, asin:'B00TTD9BRC' }
+    ];
+    var low = MOCK.map(function(p){ return { p:p, e:estimate(p) }; })
+                  .filter(function(x){ return x.e.left <= 10; })          /* contextuel : seulement les bientôt finis */
+                  .sort(function(a,b){ return a.e.left - b.e.left; });
+    if(!low.length){ document.querySelector('.restock-wrap').style.display = 'none'; return; }
+    listEl.innerHTML = low.map(function(x){
+      var p=x.p, e=x.e;
+      return '<div class="card prod low">'+
+        '<div class="prod-thumb">'+(FLACONS[p.icon]||FLACONS.bottle)+'</div>'+
+        '<div class="prod-info">'+
+          '<div class="prod-name">'+p.name+'</div>'+
+          '<div class="prod-left low"><span class="pip"></span>Runs out in ~'+e.left+' days</div>'+
+          '<div class="restock-bar"><i style="width:'+e.pctUsed+'%"></i></div>'+
+        '</div>'+
+        '<a class="prod-buy" href="https://www.amazon.com/dp/'+p.asin+'" target="_blank" rel="noopener">'+CART+'Restock</a>'+
+      '</div>';
+    }).join('');
+  })();
+
+  /* check-in modal → adapte le soir */
+  var ci=document.getElementById('ciOpts'), modal=document.getElementById('ciModal');
+  function closeCI(){ modal.classList.add('hidden'); }
+  ci.querySelectorAll('.ci-opt').forEach(function(b){
+    b.addEventListener('click', function(){
+      mood=b.dataset.mood;
+      ci.querySelectorAll('.ci-opt').forEach(function(x){ x.classList.toggle('on', x===b); });
+      render();
+      setTimeout(closeCI, 320);
+    });
+  });
+  document.getElementById('ciX').addEventListener('click', closeCI);
+  document.getElementById('ciSkip').addEventListener('click', closeCI);
+  document.getElementById('ciScrim').addEventListener('click', closeCI);
+  /* ouverture au chargement */
+  setTimeout(function(){ modal.classList.remove('hidden'); }, 250);
+
+  render();
+})();
+</script>
+
+<script>
+/* Skin score chart — courbe SVG montante (données démo) */
+(function(){
+  var plot = document.getElementById('chPlot');
+  if(!plot) return;
+  var scores = [70,71,69,72,74,73,76,78,81,84];
+  var n = scores.length;
+  var lo = Math.min.apply(null, scores) - 4, hi = Math.max.apply(null, scores) + 3;
+  var x0 = 4, x1 = 68, y0 = 14, y1 = 82; /* % : la courbe occupe la gauche, le label la droite */
+  function X(i){ return x0 + (x1 - x0) * i / (n - 1); }
+  function Y(v){ return y0 + (y1 - y0) * (1 - (v - lo) / (hi - lo)); }
+  var p = scores.map(function(v, i){ return [X(i), Y(v)]; });
+  var line = 'M' + p.map(function(q){ return q[0].toFixed(2) + ' ' + q[1].toFixed(2); }).join(' L');
+  var area = line + ' L' + p[n-1][0].toFixed(2) + ' 100 L' + p[0][0].toFixed(2) + ' 100 Z';
+  var last = p[n-1];
+
+  plot.insertAdjacentHTML('afterbegin',
+    '<svg class="ch-svg" viewBox="0 0 100 100" preserveAspectRatio="none">'
+    + '<defs><linearGradient id="chArea" x1="0" y1="0" x2="0" y2="1">'
+    + '<stop offset="0%" stop-color="#A6C3D6" stop-opacity="0.45"/>'
+    + '<stop offset="100%" stop-color="#A6C3D6" stop-opacity="0"/></linearGradient></defs>'
+    + '<path d="' + area + '" fill="url(#chArea)"/>'
+    + '<path d="' + line + '" fill="none" stroke="#7FA6BE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>'
+    + '</svg>');
+
+  var dot = document.getElementById('chDot'); dot.style.left = last[0] + '%'; dot.style.top = last[1] + '%';
+  var g = document.getElementById('chGuide'); g.style.left = last[0] + '%'; g.style.top = last[1] + '%'; g.style.height = (100 - last[1]) + '%';
+  var ticks = document.getElementById('chTicks'); var t = ''; for(var k=0;k<34;k++) t += '<i></i>'; ticks.innerHTML = t;
+})();
+</script>
+</body>
+</html>

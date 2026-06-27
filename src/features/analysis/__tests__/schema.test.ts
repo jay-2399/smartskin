@@ -27,4 +27,25 @@ describe("AnalysisResultSchema", () => {
     const bad = { ...SAMPLE_RESULT, attributes: [{ id: "acne", level: 9, tip: "x", situation: "y" }] };
     expect(() => AnalysisResultSchema.parse(bad)).toThrow();
   });
+
+  it("reveal v2 : conserve skinAge / skinTypeBreakdown / verdict du bilan d'exemple", () => {
+    const r = AnalysisResultSchema.parse(SAMPLE_RESULT);
+    expect(r.skinAge).toBe(26);
+    expect(r.verdict?.plan).toHaveLength(3);
+    expect(r.skinTypeBreakdown).toContain("zone T");
+  });
+
+  it("reveal v2 : tolère l'absence des nouveaux champs (bilan « ancien » sans verdict)", () => {
+    const { skinAge: _a, skinTypeBreakdown: _b, verdict: _c, ...sansReveal } = SAMPLE_RESULT;
+    void _a; void _b; void _c;
+    const r = AnalysisResultSchema.parse(sansReveal);
+    expect(r.verdict).toBeUndefined();
+    expect(r.skinAge).toBeUndefined();
+  });
+
+  it("reveal v2 : un verdict malformé est neutralisé (.catch) sans casser le bilan", () => {
+    const r = AnalysisResultSchema.parse({ ...SAMPLE_RESULT, verdict: { title: "x" } }); // plan manquant
+    expect(r.verdict).toBeUndefined(); // .catch(undefined) → masqué, pas d'exception
+    expect(r.score).toBe(SAMPLE_RESULT.score); // le reste du bilan survit
+  });
 });

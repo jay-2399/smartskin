@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartSkin AI — Unlock</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+:root {
+  --bg:#F1F3F6; --ink:#1A1D21; --accent:#A6C3D6; --accent-d:#7FA6BE; --accent-bg:rgba(166,195,214,0.14);
+  --card:#FFFFFF; --cloud:#EDEFF7; --smoke:#D3D6E0; --steel:#BCBFCC;
+  --space:#9DA2B3; --graphite:#6E7180; --arsenic:#40424D; --keep:#3A8F6F; --gold:#F5A623; --gold-d:#E08A00;
+  --glass:rgba(255,255,255,0.66); --glass-brd:rgba(255,255,255,0.6); --glass-blur:blur(22px) saturate(1.18);
+  --fd:'Manrope',sans-serif; --fm:'JetBrains Mono',monospace;
+}
+html { -webkit-font-smoothing:antialiased; }
+body { background:#DEE0E5; min-height:100dvh; font-family:var(--fd); color:var(--ink); display:flex; justify-content:center; }
+.screen { position:relative; width:100%; max-width:430px; min-height:100dvh; margin:0 auto; background:var(--bg); overflow:hidden; display:flex; flex-direction:column; }
+@media (min-width:480px){
+  body { padding:24px 16px; align-items:flex-start; }
+  .screen { min-height:min(calc(100dvh - 48px), 924px); border-radius:46px; box-shadow:0 0 0 1px rgba(0,0,0,0.07),0 32px 80px rgba(0,0,0,0.18),0 12px 32px rgba(0,0,0,0.09); }
+}
+.scroll { flex:1; overflow-y:auto; scrollbar-width:none; display:flex; flex-direction:column; }
+.scroll::-webkit-scrollbar { display:none; }
+
+/* ───── HERO immersif ───── */
+.hero { position:relative; min-height:340px; flex-shrink:0; overflow:hidden;
+  background:
+    radial-gradient(115% 78% at 50% -4%, rgba(166,195,214,0.60), transparent 60%),
+    radial-gradient(80% 50% at 82% 26%, rgba(245,166,35,0.12), transparent 70%),
+    linear-gradient(180deg, #E6EDF3 0%, var(--bg) 86%); }
+.hero-grain { position:absolute; inset:0; pointer-events:none; opacity:0.45; mix-blend-mode:soft-light;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E"); }
+.hero-img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 45%; z-index:1; }
+
+.hero-top { position:relative; z-index:5; padding:calc(env(safe-area-inset-top) + 18px) 22px 0; display:flex; align-items:center; justify-content:space-between; }
+.x { width:34px; height:34px; border-radius:50%; background:rgba(255,255,255,0.7); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); border:1px solid rgba(255,255,255,0.6); display:flex; align-items:center; justify-content:center; color:var(--arsenic); cursor:pointer; box-shadow:0 2px 8px rgba(0,0,0,0.06); }
+.x svg { width:13px; height:13px; }
+.restore { font-size:12px; font-weight:600; color:var(--graphite); text-decoration:none; }
+.hero-logo { position:absolute; left:50%; transform:translateX(-50%); top:calc(env(safe-area-inset-top) + 18px); height:34px; display:flex; align-items:center; pointer-events:none; }
+.hero-logo img { height:23px; width:auto; display:block; }
+
+.hero-eyebrow { position:relative; z-index:5; margin:14px auto 0; width:max-content; display:flex; align-items:center; gap:7px; font-family:var(--fm); font-size:8.5px; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent-d); background:rgba(255,255,255,0.55); border:1px solid rgba(255,255,255,0.6); padding:6px 12px; border-radius:100px; -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px); }
+.hero-eyebrow .dot { width:5px; height:5px; border-radius:50%; background:var(--accent); }
+
+/* floating glass product cards (la routine déverrouillée) */
+.pcard { position:absolute; z-index:3; background:var(--glass); -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  border:1px solid var(--glass-brd); border-radius:16px; padding:11px 12px 10px; box-shadow:0 14px 34px rgba(40,44,60,0.16);
+  width:128px; animation:floaty 1s cubic-bezier(.22,1,.36,1) both; }
+.pc-thumb { height:50px; border-radius:9px; background:rgba(237,239,247,0.7); display:flex; align-items:center; justify-content:center; overflow:hidden; margin-bottom:8px; }
+.pc-thumb img { max-width:62%; max-height:90%; object-fit:contain; }
+.pc-brand { font-family:var(--fm); font-size:7px; letter-spacing:0.1em; text-transform:uppercase; color:var(--space); }
+.pc-name { font-size:11px; font-weight:700; letter-spacing:-0.02em; margin-top:2px; line-height:1.1; }
+.pc-price { font-size:11px; font-weight:800; color:var(--ink); margin-top:5px; }
+.pcard.a { top:86px; left:20px; transform:rotate(-3deg); animation-delay:.12s; }
+.pcard.b { top:62px; right:18px; transform:rotate(3deg); width:120px; animation-delay:.22s; }
+.pcard.c { top:176px; left:50%; margin-left:-66px; z-index:4; animation-delay:.32s; box-shadow:0 18px 44px rgba(40,44,60,0.2); }
+@keyframes floaty { from { opacity:0; transform:translateY(16px) scale(0.95) rotate(var(--r,0)); } }
+
+/* ───── SHEET glassmorphique ───── */
+.sheet { position:relative; z-index:6; margin-top:-30px; flex:1;
+  background:var(--glass); -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  border-top:1px solid var(--glass-brd); border-radius:34px 34px 0 0;
+  box-shadow:0 -16px 50px rgba(40,44,60,0.10), inset 0 1px 0 rgba(255,255,255,0.7);
+  padding:10px 24px calc(env(safe-area-inset-bottom) + 22px); }
+.grip { width:38px; height:4px; border-radius:100px; background:rgba(26,29,33,0.12); margin:0 auto 16px; }
+
+/* social proof */
+.proof { display:flex; align-items:center; gap:12px; justify-content:center; animation:rise .55s ease both .1s; }
+.avatars { display:flex; flex-shrink:0; }
+.av { width:32px; height:32px; border-radius:50%; border:2.5px solid var(--bg); margin-left:-10px; box-shadow:0 2px 6px rgba(0,0,0,0.14); position:relative; overflow:hidden; }
+.av:first-child { margin-left:0; }
+.av::before { content:''; position:absolute; left:50%; top:15%; width:34%; height:34%; transform:translateX(-50%); border-radius:50%; background:rgba(255,255,255,0.34); }
+.av::after { content:''; position:absolute; left:50%; bottom:-22%; width:62%; height:62%; transform:translateX(-50%); border-radius:50%; background:rgba(255,255,255,0.3); }
+.av1 { background:linear-gradient(150deg,#EBCBB2,#C99B7E); } .av2 { background:linear-gradient(150deg,#F1D7C4,#D6AC92); }
+.av3 { background:linear-gradient(150deg,#C7A284,#9A7253); } .av4 { background:linear-gradient(150deg,#ECD4C0,#CBA585); }
+.proof-tx { display:flex; flex-direction:column; gap:2px; }
+.stars { display:flex; gap:2px; } .stars svg { width:12px; height:12px; color:var(--gold); }
+.proof-sub { font-size:11px; color:var(--graphite); } .proof-sub b { color:var(--ink); font-weight:700; }
+
+h1 { text-align:center; font-weight:800; font-size:27px; line-height:1.04; letter-spacing:-0.04em; margin-top:16px; animation:rise .55s ease both .16s; }
+h1 .soft { color:var(--accent-d); }
+.sub { text-align:center; font-size:13px; line-height:1.5; color:var(--graphite); margin:9px auto 0; max-width:300px; animation:rise .55s ease both .2s; }
+
+.feats { margin:17px auto 0; width:fit-content; max-width:100%; display:flex; flex-direction:column; gap:11px; animation:rise .55s ease both .24s; }
+.feat { display:flex; align-items:center; gap:11px; font-size:13.5px; font-weight:600; letter-spacing:-0.015em; color:var(--arsenic); }
+.fcheck { width:22px; height:22px; flex-shrink:0; border-radius:50%; background:var(--accent-bg); border:1px solid rgba(166,195,214,0.45); color:var(--accent-d); display:flex; align-items:center; justify-content:center; }
+.fcheck svg { width:12px; height:12px; }
+
+/* plan sélectionné (glass + accent) */
+.plan { position:relative; margin-top:20px; display:flex; align-items:center; gap:13px; padding:16px 16px 16px 15px;
+  background:rgba(255,255,255,0.72); -webkit-backdrop-filter:blur(12px); backdrop-filter:blur(12px);
+  border:1.6px solid var(--accent); border-radius:20px;
+  box-shadow:0 0 0 4px rgba(166,195,214,0.16), 0 14px 34px rgba(40,44,60,0.10); animation:rise .6s cubic-bezier(.22,1,.36,1) both .3s; }
+.plan-check { width:24px; height:24px; flex-shrink:0; border-radius:50%; background:var(--accent-d); color:#fff; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 10px rgba(127,166,190,0.5); }
+.plan-check svg { width:13px; height:13px; }
+.plan-info { flex:1; min-width:0; }
+.plan-name { font-weight:800; font-size:16px; letter-spacing:-0.03em; }
+.plan-meta { font-size:11px; color:var(--graphite); margin-top:2px; }
+.plan-price { text-align:right; flex-shrink:0; }
+.pp-now { font-weight:800; font-size:24px; letter-spacing:-0.04em; line-height:1; }
+.pp-old { font-size:12px; font-weight:700; color:var(--steel); text-decoration:line-through; margin-top:3px; }
+.plan-badge { position:absolute; top:-11px; right:16px; font-size:9px; font-weight:800; letter-spacing:0.04em; text-transform:uppercase; color:#fff; background:linear-gradient(150deg,var(--gold),var(--gold-d)); padding:5px 10px; border-radius:100px; box-shadow:0 6px 14px rgba(245,166,35,0.42); }
+
+/* CTA pilule + flèche ronde */
+.cta { margin-top:18px; width:100%; height:62px; border:none; cursor:pointer; border-radius:100px; padding:0 7px 0 26px;
+  background:linear-gradient(150deg,#2a2e36,var(--ink)); color:#fff; font-family:var(--fd); display:flex; align-items:center; justify-content:space-between;
+  box-shadow:0 16px 34px rgba(26,29,33,0.34); position:relative; overflow:hidden; transition:transform .14s; animation:rise .6s cubic-bezier(.22,1,.36,1) both .36s; }
+.cta:active { transform:scale(0.99); }
+.cta::after { content:''; position:absolute; top:0; left:-60%; width:38%; height:100%; background:linear-gradient(100deg,transparent,rgba(255,255,255,0.2),transparent); transform:skewX(-18deg); animation:shine 3.6s ease-in-out infinite 1s; }
+.cta-tx { font-weight:800; font-size:16px; letter-spacing:-0.01em; text-align:left; position:relative; z-index:1; }
+.cta-tx small { display:block; font-weight:500; font-size:10.5px; letter-spacing:0; color:rgba(255,255,255,0.62); margin-top:1px; }
+.cta-arrow { width:48px; height:48px; flex-shrink:0; border-radius:50%; background:#fff; color:var(--ink); display:flex; align-items:center; justify-content:center; position:relative; z-index:1; }
+.cta-arrow svg { width:18px; height:18px; }
+
+.reassure { display:flex; justify-content:center; gap:13px; margin-top:14px; flex-wrap:wrap; animation:rise .55s ease both .42s; }
+.reassure span { display:inline-flex; align-items:center; gap:5px; font-size:10px; color:var(--graphite); font-weight:500; }
+.reassure svg { width:12px; height:12px; color:var(--keep); }
+
+.note { text-align:center; font-size:10.5px; line-height:1.5; color:var(--space); margin-top:13px; animation:rise .55s ease both .46s; }
+.note b { color:var(--graphite); font-weight:600; }
+.terms { text-align:center; margin-top:11px; font-size:10.5px; color:var(--space); }
+.terms a { color:var(--graphite); text-decoration:underline; text-underline-offset:2px; }
+
+@keyframes rise { from{opacity:0; transform:translateY(13px);} to{opacity:1; transform:none;} }
+@keyframes shine { 0%{ left:-60%;} 55%,100%{ left:130%;} }
+</style>
+</head>
+<body>
+<div class="screen">
+<div class="scroll">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-grain"></div>
+    <div class="hero-top">
+      <button class="x" aria-label="Close"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 2l10 10M12 2L2 12"/></svg></button>
+      <div class="hero-logo"><img src="logo-smartskin.png" alt="SmartSkin AI"></div>
+    </div>
+
+    <img class="hero-img" src="hero-products.png" alt="Your routine — real products">
+
+  </div>
+
+  <!-- SHEET -->
+  <div class="sheet">
+    <div class="grip"></div>
+
+    <div class="proof">
+      <div class="avatars"><span class="av av1"></span><span class="av av2"></span><span class="av av3"></span><span class="av av4"></span></div>
+      <div class="proof-tx">
+        <div class="stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"/></svg>
+        </div>
+        <div class="proof-sub">Already <b>1,000+ users</b></div>
+      </div>
+    </div>
+
+    <h1>Unlock your <span class="soft">protocol.</span></h1>
+    <p class="sub">Your morning &amp; evening routine, built for your top 3 priorities.</p>
+
+    <div class="feats">
+      <div class="feat"><span class="fcheck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>Your morning &amp; evening routine</div>
+      <div class="feat"><span class="fcheck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>Exact doses &amp; order, like a prescription</div>
+      <div class="feat"><span class="fcheck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>Your full skin report</div>
+      <div class="feat"><span class="fcheck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>Progress tracking &amp; re-scans</div>
+    </div>
+
+    <div class="plan">
+      <span class="plan-badge">−50% launch</span>
+      <span class="plan-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span>
+      <div class="plan-info">
+        <div class="plan-name">Lifetime access</div>
+        <div class="plan-meta">One-time payment · no subscription</div>
+      </div>
+      <div class="plan-price">
+        <div class="pp-now">$19.99</div>
+        <div class="pp-old">$39.99</div>
+      </div>
+    </div>
+
+    <button class="cta">
+      <span class="cta-tx">Unlock my protocol<small>Pay once · keep forever</small></span>
+      <span class="cta-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M12 5l7 7-7 7"/></svg></span>
+    </button>
+
+    <div class="reassure">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.4-3 7.6-7 9-4-1.4-7-4.6-7-9V6l7-3Z"/></svg>Secured by Stripe</span>
+    </div>
+
+    <div class="terms"><a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></div>
+
+  </div>
+
+</div>
+</div>
+</body>
+</html>

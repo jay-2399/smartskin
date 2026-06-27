@@ -22,6 +22,16 @@ export const AttributeResultSchema = z.object({
   situation: z.string().min(1),          // phrase d'analyse
 });
 
+// Verdict « Lecture experte » (reveal v2) : la couche de synthèse/raisonnement.
+// Optionnel + .catch(undefined) côté résultat → un verdict malformé masque le
+// bloc sans faire échouer tout le bilan.
+export const VerdictSchema = z.object({
+  title: z.string().min(1),          // synthèse : le levier dominant
+  body: z.string().min(1),           // cause-racine : signaux → un seul levier
+  behavioralLink: z.string().min(1), // une réponse q1-q7 reliée à un résultat
+  plan: z.array(z.object({ label: z.string().min(1), sub: z.string().min(1) })).min(1), // 3 priorités
+});
+
 export const AnalysisResultSchema = z.object({
   // Observations zone par zone rédigées par l'IA AVANT de noter (ancre son
   // raisonnement → notes plus justes). Optionnel : ne bloque pas le bilan si absent.
@@ -33,6 +43,10 @@ export const AnalysisResultSchema = z.object({
   photoQuality: z.object({ ok: z.boolean(), issue: z.string().nullish() }),
   profile: ProfileSchema,
   attributes: z.array(AttributeResultSchema),
+  // Reveal v2 — champs optionnels, tolérants à l'absence/malformation (.catch) :
+  skinAge: z.number().int().min(10).max(100).optional().catch(undefined),       // âge de peau estimé (photo)
+  skinTypeBreakdown: z.string().optional().catch(undefined),                    // « zone T grasse · joues normales »
+  verdict: VerdictSchema.optional().catch(undefined),
 });
 
 export type AnalysisResult = z.infer<typeof AnalysisResultSchema>;

@@ -1,4 +1,4 @@
-export type StepId = "q1" | "q2" | "q3" | "q4" | "q5" | "q6" | "q7";
+export type StepId = "age" | "q1" | "q2" | "q3" | "q4" | "q5" | "q6" | "q7";
 
 export type OptionDef = {
   value: string;
@@ -14,7 +14,7 @@ export type QuestionDef = {
   index: number;       // 1..7 (pour la barre de progression)
   title: string;
   helperHtml: string;  // texte d'aide sous le titre (peut contenir <b>)
-  mode: "single" | "multi" | "gate";
+  mode: "single" | "multi" | "gate" | "age";
   options: OptionDef[];
   maxSelect?: number;  // q1 : 3 choix max (compteur + options grisées)
   grid?: boolean;      // q1 : liste en grille 2 colonnes
@@ -25,6 +25,7 @@ export type QuestionDef = {
 };
 
 export type Answers = {
+  age: number | null;           // 1ʳᵉ question (âge réel déclaré, pour l'« âge de peau » du reveal)
   q1: string[];                 // multi, "discover" exclusif, max 3
   q2: string[];                 // multi, "none" exclusif
   q3: string[];                 // multi, "none" exclusif
@@ -35,6 +36,7 @@ export type Answers = {
 };
 
 export const EMPTY_ANSWERS: Answers = {
+  age: null,
   q1: [], q2: [], q3: [], q4: null,
   q5: { changed: null, symptoms: [] },
   q6: null, q7: [],

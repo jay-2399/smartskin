@@ -2,9 +2,9 @@
 
 const pad = (n: number) => String(n).padStart(2, "0");
 
-/** Topbar des écrans question : retour + barre de progression + « 01 / 06 » (maquettes 02–09). */
+/** Topbar des écrans question : retour + barre de progression + « 01 / 07 » (maquettes 02–09). */
 export function TopBar({
-  index, total = 6, onBack,
+  index, total = 7, onBack,
 }: {
   index: number;
   total?: number;

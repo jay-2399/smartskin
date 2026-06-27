@@ -7,8 +7,15 @@ const CHECK = `<svg width="12" height="12" viewBox="0 0 12 12" fill="none" strok
 export const CHECK_ICON = CHECK;
 
 export const QUESTIONS: Record<string, QuestionDef> = {
+  // 1ʳᵉ question (reveal v2) : âge réel, pour situer l'« âge de peau » estimé.
+  age: {
+    id: "age", index: 1, mode: "age",
+    title: "Quel âge as-tu ?",
+    helperHtml: `Pour situer ton <b>âge de peau</b> par rapport à ton âge réel.`,
+    options: [],
+  },
   q1: {
-    id: "q1", index: 1, mode: "multi", maxSelect: 3, grid: true,
+    id: "q1", index: 2, mode: "multi", maxSelect: 3, grid: true,
     title: "Qu'est-ce que tu aimerais améliorer en priorité ?",
     helperHtml: `Choisis <b>jusqu'à 3</b> priorités.`,
     options: [
@@ -39,7 +46,7 @@ export const QUESTIONS: Record<string, QuestionDef> = {
     ],
   },
   q2: {
-    id: "q2", index: 2, mode: "multi",
+    id: "q2", index: 3, mode: "multi",
     title: "Des ingrédients qui irritent ta peau ?",
     helperHtml: `Plusieurs choix possibles — <b>optionnel</b>.`,
     options: [
@@ -56,7 +63,7 @@ export const QUESTIONS: Record<string, QuestionDef> = {
     ],
   },
   q3: {
-    id: "q3", index: 3, mode: "multi",
+    id: "q3", index: 4, mode: "multi",
     title: "As-tu déjà utilisé ces actifs ?",
     helperHtml: `Coche ce que ta peau <b>tolère déjà</b> — on dose le reste en douceur.`,
     options: [
@@ -73,7 +80,7 @@ export const QUESTIONS: Record<string, QuestionDef> = {
     ],
   },
   q4: {
-    id: "q4", index: 4, mode: "single",
+    id: "q4", index: 5, mode: "single",
     title: "Tu mets de la crème solaire ?",
     helperHtml: `Le <b>SPF</b> change toute la stratégie anti-taches.`,
     options: [
@@ -86,7 +93,7 @@ export const QUESTIONS: Record<string, QuestionDef> = {
     ],
   },
   q5: {
-    id: "q5", index: 5, mode: "gate",
+    id: "q5", index: 6, mode: "gate",
     title: "Ta peau a changé récemment ?",
     helperHtml: `Sur les <b>3 derniers mois</b> — pour distinguer une poussée passagère d'un état installé.`,
     options: [
@@ -133,7 +140,7 @@ export const QUESTIONS: Record<string, QuestionDef> = {
     ],
   },
   q7: {
-    id: "q7", index: 6, mode: "multi", ctaLabel: "Lancer mon analyse",
+    id: "q7", index: 7, mode: "multi", ctaLabel: "Lancer mon analyse",
     title: "Une situation à signaler ?",
     helperHtml: `Pour <b>écarter les actifs déconseillés</b> dans ton cas.`,
     options: [
@@ -149,5 +156,5 @@ export const QUESTIONS: Record<string, QuestionDef> = {
   },
 };
 
-// q6 (budget) retiré du parcours V1 → le funnel passe q5 → q7 (6 étapes).
-export const STEP_ORDER = ["q1", "q2", "q3", "q4", "q5", "q7"] as const;
+// age en 1ʳᵉ position ; q6 (budget) retiré du parcours → 7 étapes (age → q1…q5 → q7).
+export const STEP_ORDER = ["age", "q1", "q2", "q3", "q4", "q5", "q7"] as const;

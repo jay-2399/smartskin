@@ -7,32 +7,100 @@ datasource db {
   provider = "postgresql"
 }
 
-// ── Auth.js gère Account / Session / VerificationToken (ajoutés au Plan 4) ──
+// ── Auth.js (NextAuth v5) — Google OAuth + lien magique (Resend) via l'adaptateur
+//    Prisma. Account/Session/VerificationToken sont requis par l'adaptateur même en
+//    sessions JWT (le lien magique stocke son jeton dans VerificationToken). ──
 
 model User {
-  id        String     @id @default(cuid())
-  email     String     @unique
-  name      String?
-  createdAt DateTime   @default(now())
-  analyses  Analysis[]
+  id             String       @id @default(cuid())
+  email          String       @unique
+  name           String?
+  image          String?      // avatar fourni par Google (jamais la photo de scan)
+  emailVerified  DateTime?    // requis par l'adaptateur Auth.js
+  passwordHash   String?      // legacy email + mot de passe (inscription checkout, en migration)
+  lifetimeAccess Boolean      @default(false) // débloqué au checkout (paywall) — simulé pour l'instant
+  createdAt      DateTime     @default(now())
+  accounts       Account[]
+  sessions       Session[]
+  analyses       Analysis[]
+  protocols      Protocol[]
+  restocks       RestockLog[]
 }
 
+// Identité externe liée (Google) — gérée par l'adaptateur Auth.js.
+model Account {
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([provider, providerAccountId])
+}
+
+model Session {
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// Jeton du lien magique (email) — consommé à la connexion.
+model VerificationToken {
+  identifier String
+  token      String
+  expires    DateTime
+
+  @@id([identifier, token])
+}
+
+// Un scan = un bilan daté. userId NULLABLE : le 1ᵉ scan est gratuit AVANT le compte,
+// puis rattaché au moment du checkout. Alimente la courbe d'évolution du dashboard.
 model Analysis {
+  id        String   @id @default(cuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  score    Int      // ex. 72
+  skinAge  Int?     // âge de peau estimé
+  skinType String   // ex. "Mixte"
+
+  // Bilan complet en JSON (PAS la photo, jamais stockée).
+  answers  Json     // réponses du questionnaire
+  result   Json     // AnalysisResult complet (score, 16 attributs, verdict, profil…)
+
+  @@index([userId, createdAt])
+}
+
+// Protocole sauvegardé (les produits jour/nuit que l'utilisateur a retenus).
+model Protocol {
   id        String   @id @default(cuid())
   userId    String
   user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
   createdAt DateTime @default(now())
-
-  score    Int      // ex. 72
-  skinType String   // ex. "mixte"
-
-  // Détails lus d'un bloc → JSON (PAS la photo, jamais stockée)
-  answers  Json     // réponses q1–q7
-  metrics  Json     // [{ name, value, label }]
-  concerns Json     // string[]
-  actives  Json     // [{ name, blogSlug, reason }]
+  products  Json     // [{ num, asin, category, moment, name, image }]
 
   @@index([userId, createdAt])
+}
+
+// Journal de rachat (date d'achat par produit → estimation « jours restants » du restock).
+model RestockLog {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  productNum  Int
+  asin        String
+  purchasedAt DateTime @default(now())
+
+  @@index([userId, productNum])
 }
 
 // Calibrage des seuils de capture (Phase 1.5) — métriques anonymes, pas d'image
