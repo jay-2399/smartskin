@@ -20,13 +20,23 @@ services:
           property: connectionString
       - key: AUTH_SECRET
         generateValue: true
+      # Auth.js — Google OAuth + lien magique (Resend)
       - key: GOOGLE_CLIENT_ID
         sync: false
       - key: GOOGLE_CLIENT_SECRET
         sync: false
       - key: RESEND_API_KEY
         sync: false
-      - key: GOOGLE_CLOUD_PROJECT
+      # Expéditeur du lien magique. Test : onboarding@resend.dev (n'écrit qu'à toi).
+      # Prod : adresse d'un domaine vérifié, ex. "SmartSkin <noreply@smart-skin.ai>".
+      - key: EMAIL_FROM
+        value: onboarding@resend.dev
+      # Analyse photo (OpenAI). Sans clé → bilan d'exemple (démo).
+      - key: OPENAI_API_KEY
         sync: false
-      - key: GOOGLE_CLOUD_LOCATION
-        value: europe-west1
+      # Paiement Stripe (accès à vie). Webhook : endpoint configuré dans le Dashboard
+      # Stripe une fois l'app en ligne → fournit STRIPE_WEBHOOK_SECRET.
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
