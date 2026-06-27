@@ -120,6 +120,14 @@ function toUiProduct(p: CatalogProduct, profile: EngineProfile, llmWhy: Map<numb
     actives: p.keyActives ? p.keyActives.split(/[\/,]/).map((s) => s.trim()).filter(Boolean) : [],
     unsafePregnancy: p.unsafePregnancy || undefined,
     unsafeSensitive: p.unsafeSensitive || undefined,
+    // ── Avis (couche3) → carte du reveal. `p.reviews` = NOMBRE total ; `couche3.reviews` = liste. ──
+    rating: p.rating,
+    reviewCount: p.reviews,
+    customersSay: p.couche3?.customers_say || undefined,
+    aspects: Object.entries(p.couche3?.aspects ?? {}).slice(0, 6),
+    reviews: (p.couche3?.reviews ?? []).slice(0, 5).map((r) => ({
+      author: r.author || "Amazon Customer", rating: r.rating, verified: !!r.verified, date: r.date, text: r.text,
+    })),
   };
 }
 

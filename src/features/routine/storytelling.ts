@@ -47,6 +47,38 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
   const MOON = '<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.7a6.6 6.6 0 0 0 8.8 8.8A8.6 8.6 0 1 1 12 2.7Z"/><circle cx="18.1" cy="5.3" r="1.05"/><circle cx="20.3" cy="8.7" r="0.7"/></svg>';
   const REPEAT = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 0 1 13-6.2L20.5 8"/><path d="M20.5 3.5V8H16"/><path d="M20 12a8 8 0 0 1-13 6.2L3.5 16"/><path d="M3.5 20.5V16H8"/></svg>';
   const CART = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7.5h13l-1.2 9.2a2.2 2.2 0 0 1-2.2 1.9H9.4a2.2 2.2 0 0 1-2.2-1.9L6 7.5Z"/><path d="M9 7.5a3 3 0 0 1 6 0"/></svg>';
+  const STAR_PATH = '<path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"/>';
+  const VBADGE = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg>';
+
+  /* ── Avis clients : helpers de formatage + blocs (alimentés par couche3). ── */
+  const ESC: Record<string, string> = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" };
+  const esc = (s: string) => String(s).replace(/[&<>"]/g, (c) => ESC[c]);
+  const fmtN = (n: number) => (n >= 1000 ? (n >= 10000 ? Math.round(n / 1000) + "k" : (n / 1000).toFixed(1).replace(".0", "") + "k") : String(n));
+  const stars5 = (r: number) => {
+    const k = Math.round(r);
+    let s = "";
+    for (let i = 1; i <= 5; i++) s += `<svg class="st${i <= k ? " on" : ""}" viewBox="0 0 24 24" fill="currentColor">${STAR_PATH}</svg>`;
+    return s;
+  };
+  const fmtDate = (d: string) => { try { return new Date(d).toLocaleDateString("fr-FR", { month: "short", year: "numeric" }); } catch { return d; } };
+  const ratingRow = (p: Product) => (p.rating == null ? "" :
+    `<div class="card-rating"><b>${p.rating.toFixed(1)}</b><svg class="star1" viewBox="0 0 24 24" fill="currentColor">${STAR_PATH}</svg><span>· ${fmtN(p.reviewCount ?? 0)} avis</span></div>`);
+  const csBlock = (p: Product) => {
+    if (!p.customersSay) return "";
+    const chips = (p.aspects ?? []).map(([name, val]) => `<span class="cs-chip">${esc(name)} <b>${esc(val)}</b></span>`).join("");
+    return `<div class="cs"><div class="cs-h">Ce que disent les clients</div><p class="cs-say">${esc(p.customersSay)}</p>` +
+      (chips ? `<div class="cs-chips">${chips}</div>` : "") +
+      `<div class="cs-ai">${SPARK}Synthèse générée par IA à partir des avis</div></div>`;
+  };
+  const revBlock = (p: Product) => {
+    if (!p.reviews || !p.reviews.length) return "";
+    return `<div class="rev-h">Avis vérifiés</div>` + p.reviews.map((v) =>
+      `<div class="rev"><div class="rev-top"><span class="rev-av">${esc(v.author.charAt(0))}</span>` +
+        `<div class="rev-meta"><div class="rev-author">${esc(v.author)}${v.verified ? `<span class="rev-badge">${VBADGE}Vérifié</span>` : ""}</div>` +
+        `<div class="rev-sub"><span class="rev-stars">${stars5(v.rating)}</span><b class="rev-note">${v.rating.toFixed(1)}</b><span class="rev-date">${fmtDate(v.date)}</span></div></div></div>` +
+        `<p class="rev-text">${esc(v.text)}</p></div>`,
+    ).join("");
+  };
 
   /* ── données : routine personnalisée injectée (RoutineScreen) ou catalogue
      par défaut (démo `?demo=1`). Le diagnostic et le nombre de produits du
@@ -206,11 +238,17 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     const right = prod.freq ? `<div class="card-tag">${CLOCK}${prod.freq}</div>` : "";
     const whyTitle = ptr > 0 ? "Pourquoi cette alternative ?" : "Pourquoi on vous le recommande";
     card.innerHTML =
-      `<div class="card-img"><span class="card-step">${stepIdx + 1}</span>${topBadge}${visual(prod, step.icon)}<span class="scroll-cue hidden"><span class="scroll-thumb"></span></span></div>` +
+      `<div class="card-img"><span class="card-step">${stepIdx + 1}</span>${topBadge}${visual(prod, step.icon)}</div>` +
       `<div class="card-info">` +
+        `<span class="scroll-cue hidden"><span class="scroll-thumb"></span></span>` +
         `<div class="card-head"><span class="card-cat">${step.cat}</span><span class="card-brand">${prod.brand}</span></div>` +
         `<div class="card-name">${prod.name}</div>` +
-        `<div class="card-scroll"><div class="why-title">${SPARK}${whyTitle}</div><div class="card-why">${prod.why}</div></div>` +
+        ratingRow(prod) +
+        `<div class="scroll-wrap"><div class="card-scroll">` +
+          `<div class="why-title">${SPARK}${whyTitle}</div>` +
+          `<div class="card-why">${prod.why}</div>` +
+          csBlock(prod) + revBlock(prod) +
+        `</div><div class="scroll-fade"></div></div>` +
         `<div class="card-foot"><div class="card-priceblock"><span class="card-price">${prod.price}</span></div>${right}</div>` +
       `</div>` +
       `<div class="card-glow like"></div><div class="card-glow nope"></div>` +
@@ -480,6 +518,10 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     const thumb = card.querySelector<HTMLElement>(".scroll-thumb");
     if (!sc || !cue || !thumb) return;
     const upd = () => {
+      // Header collapse : l'image se réduit au scroll, reprend sa taille en haut
+      // (hystérésis 12/4 px → anti-clignotement).
+      if (sc.scrollTop > 12) card.classList.add("scrolled");
+      else if (sc.scrollTop < 4) card.classList.remove("scrolled");
       const ratio = sc.clientHeight / sc.scrollHeight;
       if (ratio >= 0.999) { cue.classList.add("hidden"); return; }
       cue.classList.remove("hidden");

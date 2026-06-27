@@ -11,6 +11,13 @@
 export type IconKey = "pump" | "dropper" | "jar" | "bottle";
 export type TabKey = "day" | "night";
 
+export interface Review {
+  author: string;
+  rating: number;
+  verified: boolean;
+  date: string;
+  text: string;
+}
 export interface Product {
   brand: string;
   name: string;
@@ -24,6 +31,12 @@ export interface Product {
   actives: string[];
   unsafePregnancy?: boolean;
   unsafeSensitive?: boolean;
+  // ── Avis clients (carte du reveal) — alimentés par couche3 du catalogue ──
+  rating?: number; // note moyenne /5 (ex. 4.8)
+  reviewCount?: number; // nb total d'avis (ex. 102671)
+  customersSay?: string; // synthèse IA des avis
+  aspects?: [string, string][]; // [["Effectiveness","2.7K"], …] — top 6, déjà formaté
+  reviews?: Review[]; // 0 à 5 avis vérifiés
 }
 export interface Step {
   cat: string;

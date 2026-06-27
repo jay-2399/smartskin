@@ -70,12 +70,13 @@
 .swipe-card.flown { z-index:6; will-change:transform; }
 @keyframes rvCardIn { from{ transform:translateY(28px) scale(.94);} to{ transform:none;} }
 
-.card-img { position:relative; flex:0 1 168px; min-height:112px; border-radius:18px; background:linear-gradient(158deg,var(--cloud),#fff 78%); display:flex; align-items:center; justify-content:center; overflow:hidden; }
+.card-img { position:relative; height:180px; flex-shrink:0; border-radius:18px; background:linear-gradient(158deg,var(--cloud),#fff 78%); display:flex; align-items:center; justify-content:center; overflow:hidden; transition:height .42s cubic-bezier(.4,0,.2,1); }
+.swipe-card.scrolled .card-img { height:100px; }   /* au scroll : l'image se réduit → plus de place pour lire les avis */
 .card-img::after { content:''; position:absolute; bottom:-30%; left:50%; transform:translateX(-50%); width:74%; height:60%; background:radial-gradient(ellipse at center, rgba(166,195,214,.22), transparent 70%); }
 .card-img img { position:relative; max-width:60%; max-height:82%; width:auto; object-fit:contain; filter:drop-shadow(0 9px 15px rgba(26,29,33,0.18)); }
 .card-img .flacon { position:relative; width:82px; height:auto; color:var(--accent-d); filter:drop-shadow(0 9px 14px rgba(127,166,190,0.30)); }
 .card-step { position:absolute; top:12px; left:12px; width:26px; height:26px; border-radius:50%; background:var(--ink); color:#fff; font-weight:700; font-size:12px; display:flex; align-items:center; justify-content:center; z-index:2; }
-.scroll-cue { position:absolute; right:8px; bottom:9px; width:4px; height:50px; border-radius:100px; background:rgba(26,29,33,0.10); z-index:3; overflow:hidden; transition:opacity .25s ease; }
+.scroll-cue { position:absolute; right:2px; bottom:50px; width:3.5px; height:44px; border-radius:100px; background:rgba(26,29,33,0.10); z-index:3; overflow:hidden; transition:opacity .25s ease; }
 .scroll-thumb { position:absolute; left:0; width:100%; height:18px; border-radius:100px; background:var(--accent-d); box-shadow:0 0 0 1px rgba(255,255,255,0.35); transition:transform .08s linear; }
 .scroll-cue.hidden { opacity:0; }
 .alt-badge { position:absolute; top:12px; right:12px; font-family:var(--fm); font-weight:600; font-size:8.5px; letter-spacing:0.06em; color:var(--accent-d); background:rgba(255,255,255,0.82); border:1px solid rgba(166,195,214,0.4); padding:5px 9px; border-radius:100px; backdrop-filter:blur(4px); z-index:2; }
@@ -85,18 +86,53 @@
 .reco-badge svg { width:11px; height:11px; color:var(--gold); filter:drop-shadow(0 0 3px rgba(245,166,35,0.85)); }
 @keyframes recoGlow { 0%,100%{ box-shadow:0 0 0 3px rgba(245,166,35,0.10), 0 4px 12px rgba(245,166,35,0.30); } 50%{ box-shadow:0 0 0 4px rgba(245,166,35,0.18), 0 6px 18px rgba(245,166,35,0.55); } }
 
-.card-info { flex:1; min-height:0; display:flex; flex-direction:column; padding:13px 5px 4px; }
+.card-info { position:relative; flex:1; min-height:0; display:flex; flex-direction:column; padding:13px 5px 4px; }
 .card-head { display:flex; align-items:center; gap:8px; flex-shrink:0; }
 .card-cat { font-family:var(--fm); font-size:8px; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent-d); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); padding:3px 9px; border-radius:100px; }
 .card-brand { font-family:var(--fm); font-size:8.5px; letter-spacing:0.1em; text-transform:uppercase; color:var(--space); }
 .card-name { font-weight:800; font-size:20px; color:var(--ink); letter-spacing:-0.03em; line-height:1.1; margin-top:6px; flex-shrink:0; }
-.card-scroll { flex:1; min-height:0; overflow-y:auto; margin-top:11px; padding-right:2px; scrollbar-width:none; -webkit-overflow-scrolling:touch; }
+.scroll-wrap { position:relative; flex:1; min-height:0; display:flex; margin-top:11px; }
+.card-scroll { flex:1; min-height:0; overflow-y:auto; padding-right:2px; scrollbar-width:none; -webkit-overflow-scrolling:touch; }
+.scroll-fade { position:absolute; left:0; right:0; bottom:0; height:42px; background:linear-gradient(to bottom, rgba(255,255,255,0), #FFFFFF); pointer-events:none; z-index:2; }
 .card-scroll::-webkit-scrollbar { display:none; }
 .why-title { display:flex; align-items:center; gap:6px; font-weight:700; font-size:11px; color:var(--ink); letter-spacing:0.005em; margin-bottom:7px; }
 .why-title svg { width:12px; height:12px; color:var(--accent-d); flex-shrink:0; }
 .card-why { font-size:12.5px; line-height:1.5; color:var(--graphite); padding-left:11px; border-left:2px solid var(--accent); }
 .card-why b { color:var(--arsenic); font-weight:600; }
-.card-foot { display:flex; align-items:flex-end; justify-content:space-between; padding-top:8px; margin-top:3px; flex-shrink:0; border-top:1px solid rgba(26,29,33,0.06); }
+/* ── note compacte (toujours visible, sous le titre) ── */
+.st { color:var(--smoke); flex-shrink:0; }
+.st.on { color:var(--gold); }
+.card-rating { display:flex; align-items:center; gap:4px; margin-top:6px; flex-shrink:0; }
+.card-rating b { font-weight:800; font-size:14px; color:var(--ink); letter-spacing:-0.02em; }
+.card-rating .star1 { width:14px; height:14px; color:var(--gold); }
+.card-rating span { font-size:12px; color:var(--space); margin-left:2px; }
+/* ── « ce que disent les clients » (synthèse IA + aspects) ── */
+.cs { margin-top:16px; padding:13px 14px; background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); border-radius:14px; }
+.cs-h { font-weight:800; font-size:13px; letter-spacing:-0.02em; color:var(--ink); margin-bottom:8px; }
+.cs-say { font-size:12px; line-height:1.5; color:var(--graphite); }
+.cs-chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:11px; }
+.cs-chip { font-family:var(--fm); font-size:9.5px; letter-spacing:0.01em; color:var(--graphite); background:#fff; border:1px solid var(--smoke); padding:4px 9px; border-radius:100px; }
+.cs-chip b { color:var(--ink); font-weight:700; }
+.cs-ai { display:flex; align-items:center; gap:6px; margin-top:11px; font-size:9.5px; color:var(--space); font-style:italic; }
+.cs-ai svg { width:11px; height:11px; color:var(--accent-d); flex-shrink:0; }
+/* ── avis vérifiés ── */
+.rev-h { font-weight:800; font-size:13px; letter-spacing:-0.02em; color:var(--ink); margin:18px 0 12px; }
+.rev { padding:13px 0; border-top:1px solid rgba(26,29,33,0.06); }
+.rev:first-of-type { border-top:none; padding-top:2px; }
+.rev-top { display:flex; align-items:center; gap:10px; }
+.rev-av { width:30px; height:30px; flex-shrink:0; border-radius:50%; background:var(--cloud); color:var(--graphite); font-weight:700; font-size:13px; display:flex; align-items:center; justify-content:center; text-transform:uppercase; }
+.rev-meta { flex:1; min-width:0; }
+.rev-author { font-weight:700; font-size:12.5px; color:var(--ink); display:flex; align-items:center; gap:7px; letter-spacing:-0.01em; }
+.rev-badge { display:inline-flex; align-items:center; gap:3px; font-family:var(--fm); font-weight:600; font-size:8px; letter-spacing:0.03em; text-transform:uppercase; color:var(--keep); background:rgba(58,143,111,0.12); padding:2px 7px 2px 5px; border-radius:100px; }
+.rev-badge svg { width:9px; height:9px; }
+.rev-sub { display:flex; align-items:center; gap:7px; margin-top:3px; }
+.rev-stars { display:inline-flex; gap:1.5px; }
+.rev-sub .st { width:12px; height:12px; }
+.rev-note { font-weight:800; font-size:11.5px; color:var(--ink); margin-left:2px; letter-spacing:-0.01em; }
+.rev-date { font-family:var(--fm); font-size:9px; color:var(--space); text-transform:capitalize; margin-left:auto; }
+/* avis réels longs (Amazon) → plafonnés à 6 lignes pour garder la carte lisible */
+.rev-text { font-size:11.5px; line-height:1.5; color:var(--graphite); margin-top:8px; display:-webkit-box; -webkit-line-clamp:6; -webkit-box-orient:vertical; overflow:hidden; }
+.card-foot { display:flex; align-items:flex-end; justify-content:space-between; padding-top:8px; margin-top:2px; flex-shrink:0; }
 .card-priceblock { display:flex; flex-direction:column; gap:3px; }
 .card-price { font-weight:800; font-size:23px; color:var(--ink); letter-spacing:-0.035em; line-height:1; }
 .card-freq { font-family:var(--fm); font-size:8px; letter-spacing:0.03em; color:var(--space); }

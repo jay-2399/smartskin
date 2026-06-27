@@ -20,12 +20,22 @@ export const CATEGORIES: Category[] = [
   "exfoliant", "traitement", "masque", "contour_yeux", "soin_cible",
 ];
 
+/** Un avis client individuel (Amazon US — texte en anglais). 0 à 5 par produit. */
+export interface CatalogReview {
+  author: string;
+  rating: number;
+  verified: boolean;
+  date: string; // ISO AAAA-MM-JJ
+  text: string;
+}
+
 export interface Couche3 {
   sentiment: number;
   byProfile: Partial<Record<SkinTypeKey, ByProfileVerdict>>;
   note?: string;
   customers_say?: string;
-  aspects?: Record<string, string>;
+  aspects?: Record<string, string>; // { "Effectiveness": "2.7K", "Gentle": "646" } — déjà formaté
+  reviews?: CatalogReview[]; // jusqu'à 5 vrais avis (cf. docs/donnees-avis-pour-design.md)
   quotes?: string[];
 }
 
