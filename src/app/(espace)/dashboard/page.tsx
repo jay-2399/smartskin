@@ -54,6 +54,7 @@ export default async function Page() {
       routine={reco.routine}
       restock={reco.restock}
       startedDaysAgo={startedDaysAgo}
+      loggedIn={!!userId}
     />
   );
 }

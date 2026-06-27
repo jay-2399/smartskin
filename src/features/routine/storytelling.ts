@@ -21,13 +21,21 @@ interface RState extends Snap {
   history: Snap[];
 }
 
+interface RoutinePayload {
+  routine: RoutineData;
+  totaux?: { prix: number; budget: number | "no_limit"; dansLeBudget: boolean };
+  warnings?: string[];
+}
 export interface InitOptions {
   onExit?: () => void;
-  onSave?: () => void; // clic « Enregistrer mon protocole » → persiste + redirige (RoutineScreen)
-  routine?: RoutineData; // routine personnalisée (sinon catalogue par défaut)
+  onSave?: (validated: RoutineData) => void; // « Enregistrer » → reçoit la routine VALIDÉE (produits gardés)
+  routine?: RoutineData; // routine SYNCHRONE (catalogue démo par défaut)
   totaux?: { prix: number; budget: number | "no_limit"; dansLeBudget: boolean }; // Σ coût + tenue du budget
   warnings?: string[]; // avertissements (off-ramp dermato), affichés en bandeau
   faceUrl?: string; // photo de l'analyse (en mémoire) pour le médaillon de l'intro V2
+  // Charge la routine de façon ASYNCHRONE : l'intro joue PENDANT le chargement (~40 s),
+  // puis le deck se révèle dès que la donnée arrive → plus d'écran de chargement séparé.
+  load?: () => Promise<RoutinePayload>;
 }
 
 export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => void {
@@ -80,11 +88,13 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     ).join("");
   };
 
-  /* ── données : routine personnalisée injectée (RoutineScreen) ou catalogue
-     par défaut (démo `?demo=1`). Le diagnostic et le nombre de produits du
-     protocole en découlent. ── */
-  const data: RoutineData = opts.routine ?? DEFAULT_ROUTINE;
-  const ROUTINE: Record<TabKey, Step[]> = { day: data.day, night: data.night };
+  /* ── données : routine injectée (RoutineScreen) ou catalogue par défaut (démo).
+     MUTABLES : si `opts.load` est fourni, la vraie routine arrive APRÈS (l'intro
+     joue pendant) → on réaffecte data/ROUTINE/STATE/totaux/warnings à ce moment. ── */
+  let data: RoutineData = opts.routine ?? DEFAULT_ROUTINE;
+  let ROUTINE: Record<TabKey, Step[]> = { day: data.day, night: data.night };
+  let totaux = opts.totaux;
+  let warnings = opts.warnings;
   // Médaillon de l'intro : photo de l'analyse (en mémoire) ou repli générique.
   const faceUrl = opts.faceUrl ?? "/capture-face.jpg";
 
@@ -187,10 +197,20 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
   const setI = (fn: () => void, ms: number) => { const id = setInterval(fn, ms); intervals.push(id); return id; };
   let docMove: ((e: PointerEvent) => void) | null = null;
   let docUp: (() => void) | null = null;
+  let destroyed = false; // démontage : ignore un chargement asynchrone qui reviendrait après
 
   const freshState = (n: number): RState => ({ step: 0, ptrs: Array(n).fill(0), kept: Array(n).fill(null), history: [] });
-  const STATE: Record<TabKey, RState> = { day: freshState(ROUTINE.day.length), night: freshState(ROUTINE.night.length) };
+  let STATE: Record<TabKey, RState> = { day: freshState(ROUTINE.day.length), night: freshState(ROUTINE.night.length) };
   let tab: TabKey = "day";
+
+  // Applique la vraie routine quand elle arrive (chargement asynchrone, cf. intro).
+  function applyData(d: RoutinePayload) {
+    data = d.routine;
+    ROUTINE = { day: data.day, night: data.night };
+    STATE = { day: freshState(ROUTINE.day.length), night: freshState(ROUTINE.night.length) };
+    totaux = d.totaux;
+    warnings = d.warnings;
+  }
   let animating = false;
 
   const deck = byId("deck")!;
@@ -382,11 +402,11 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
         `<div class="proto-h1">Ton protocole sur-mesure.</div>` +
         `<div class="proto-sub">Établi d'après ton analyse · <b>${data.productCount} produits</b></div>` +
         `<div class="proto-diag">${data.diagnostic.map((d) => `<span class="proto-chip">${d}</span>`).join("")}</div>` +
-        (opts.totaux && opts.totaux.budget !== "no_limit"
-          ? `<div class="proto-budget ${opts.totaux.dansLeBudget ? "ok" : "over"}">Coût estimé <b>$${Math.round(opts.totaux.prix)}</b> · budget $${opts.totaux.budget}${opts.totaux.dansLeBudget ? " · dans ton budget" : " · légèrement au-dessus"}</div>`
+        (totaux && totaux.budget !== "no_limit"
+          ? `<div class="proto-budget ${totaux.dansLeBudget ? "ok" : "over"}">Coût estimé <b>$${Math.round(totaux.prix)}</b> · budget $${totaux.budget}${totaux.dansLeBudget ? " · dans ton budget" : " · légèrement au-dessus"}</div>`
           : "") +
-        (opts.warnings && opts.warnings.length
-          ? `<div class="proto-warn">${opts.warnings.map((w) => `<span>${w}</span>`).join("")}</div>`
+        (warnings && warnings.length
+          ? `<div class="proto-warn">${warnings.map((w) => `<span>${w}</span>`).join("")}</div>`
           : "") +
         sec("day", SUN, "Routine du matin", "Réveille &amp; protège") +
         sec("night", MOON, "Routine du soir", "Répare &amp; régénère") +
@@ -408,7 +428,15 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
       if (b.dataset.saving) return; // anti double-clic
       b.dataset.saving = "1";
       b.style.opacity = ".65"; b.textContent = "Protocole enregistré ✓";
-      opts.onSave?.(); // persiste le scan + redirige vers le dashboard (RoutineScreen)
+      // Routine VALIDÉE = les produits réellement gardés (chosen) → option[0] de chaque
+      // étape. Transmise au dashboard pour qu'il affiche exactement ça.
+      const validated: RoutineData = {
+        day: ROUTINE.day.map((s, i) => ({ ...s, options: [chosen("day", i)] })),
+        night: ROUTINE.night.map((s, i) => ({ ...s, options: [chosen("night", i)] })),
+        diagnostic: data.diagnostic,
+        productCount: data.productCount,
+      };
+      opts.onSave?.(validated); // persiste le scan + redirige vers le dashboard (RoutineScreen)
     });
   }
 
@@ -554,7 +582,19 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
      produits qui s'animent + analyse en direct, puis le deck (non skippable) ── */
   (function intro() {
     const introEl = byId("intro");
-    if (!introEl) { render(); return; }
+    const loading = !!opts.load;
+    let dataReady = !loading;   // routine synchrone (démo) → déjà prête
+    let phase2Done = false;
+    let revealed = false;
+
+    // Pas d'overlay d'intro (cas limite) : on attend la donnée puis on rend le deck.
+    if (!introEl) {
+      const reveal = () => { if (!revealed && !destroyed) { revealed = true; render(); } };
+      if (loading) opts.load!().then((d) => { if (!destroyed) applyData(d); reveal(); }).catch(reveal);
+      else reveal();
+      return;
+    }
+
     const lines = introEl.querySelectorAll<HTMLElement>(".intro-line");
     const scene = byId("introScene")!;
     const spin = byId("introSpin")!;
@@ -573,6 +613,29 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
       const id = setI(() => { const t = Math.min(1, (performance.now() - t0) / dur); num.textContent = Math.round((1 - Math.pow(1 - t, 2)) * to).toLocaleString("fr-FR"); if (t >= 1) clearInterval(id); }, 45);
     };
 
+    // Final : « Sélection prête » → on dissout l'intro et on révèle le deck.
+    const finale = () => {
+      if (revealed || destroyed) return;
+      revealed = true;
+      spin.classList.add("done"); statusEl.textContent = "Sélection prête";
+      num.textContent = String(data.productCount); label.textContent = "produits retenus pour toi";
+      setT(() => { lines[1].classList.remove("in"); lines[1].classList.add("out"); scene.classList.remove("show"); }, 1450);
+      setT(() => { render(); introEl.classList.add("gone"); }, 2000);
+    };
+    // On révèle SEULEMENT quand l'animation a fini sa phase d'analyse ET que la donnée est arrivée.
+    const maybeFinale = () => { if (dataReady && phase2Done) finale(); };
+    const showError = () => {
+      if (revealed || destroyed) return;
+      revealed = true;
+      introEl.innerHTML = `<div class="intro-bg"></div><div class="rv-err"><p>Impossible de composer ta routine pour le moment.</p><button type="button" id="rvErrBack">Retour</button></div>`;
+      introEl.querySelector("#rvErrBack")?.addEventListener("click", () => opts.onExit?.());
+    };
+
+    // Charge la routine EN PARALLÈLE de l'intro : l'intro masque l'attente (~40 s).
+    if (loading) {
+      opts.load!().then((d) => { if (destroyed) return; applyData(d); dataReady = true; maybeFinale(); }).catch(() => showError());
+    }
+
     scene.classList.add("show");
     countEl.classList.add("on");
     label.textContent = "produits analysés · 2 000+ en base";
@@ -590,13 +653,18 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
       cycle(["On associe les produits à ta peau…", "Match sébum · marques · barrière…", "Recherche du meilleur match…"], 1250);
       cards.forEach((c, i) => setT(() => c.classList.add("in"), 200 + i * 430));
     }, 3850);
-    setT(() => { spin.classList.add("done"); statusEl.textContent = "Sélection prête"; num.textContent = String(data.productCount); label.textContent = "produits retenus pour toi"; }, 7700);
-    setT(() => { lines[1].classList.remove("in"); lines[1].classList.add("out"); scene.classList.remove("show"); }, 9300);
-    setT(() => { render(); introEl.classList.add("gone"); }, 9850);
+    // Fin de la phase d'analyse : si la donnée est déjà là → final ; sinon on TIENT sur
+    // « Recherche du meilleur match… » (spinner tournant) jusqu'à son arrivée.
+    setT(() => {
+      phase2Done = true;
+      if (dataReady) maybeFinale();
+      else statusEl.textContent = "Recherche du meilleur match…";
+    }, 7700);
   })();
 
   /* ── cleanup ── */
   return () => {
+    destroyed = true;
     timeouts.forEach(clearTimeout);
     intervals.forEach(clearInterval);
     if (docMove) document.removeEventListener("pointermove", docMove);

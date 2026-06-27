@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
+import { useResult } from "@/features/analysis/resultStore";
 import type { IconKey, RoutineData, RestockItem } from "@/features/routine/products";
 import "./dashboard.css";
 
@@ -58,13 +59,20 @@ function estimate(p: RestockItem, elapsedDays: number) {
   return { left: Math.max(0, Math.round(total - elapsedDays)), pctUsed: Math.min(100, Math.round((elapsedDays / total) * 100)) };
 }
 
-export function DashboardScreen({ name, score, routine, restock, startedDaysAgo }: { name: string; score: number; routine: RoutineData; restock: RestockItem[]; startedDaysAgo: number }) {
+export function DashboardScreen({ name, score, routine, restock, startedDaysAgo, loggedIn }: { name: string; score: number; routine: RoutineData; restock: RestockItem[]; startedDaysAgo: number; loggedIn: boolean }) {
   const [moment, setMoment] = useState<"evening" | "morning">("evening");
   const [mood, setMood] = useState<Mood | null>(null);
   const [eveningDone, setEveningDone] = useState<Record<number, boolean>>({});
   const [morningDone, setMorningDone] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [today, setToday] = useState("");
+  // Routine VALIDÉE au reveal (gardée en mémoire) → prioritaire sur celle recalculée
+  // côté serveur. Lue APRÈS le montage (SSR = prop) pour éviter un mismatch d'hydratation.
+  const [validated, setValidated] = useState<RoutineData | null>(null);
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setValidated(useResult.getState().validatedRoutine);
+  }, []);
 
   useEffect(() => {
     try {
@@ -73,9 +81,15 @@ export function DashboardScreen({ name, score, routine, restock, startedDaysAgo 
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setToday(s.charAt(0).toUpperCase() + s.slice(1));
     } catch { /* noop */ }
+  }, []);
+
+  // Check-in « comment va ta peau » : proposé UNIQUEMENT à un utilisateur connecté
+  // (un vrai scan déjà enregistré). En démo (non connecté) → pas de modale.
+  useEffect(() => {
+    if (!loggedIn) return;
     const t = setTimeout(() => setModalOpen(true), 250);
     return () => clearTimeout(t);
-  }, []);
+  }, [loggedIn]);
 
   // Tonight = vrais produits (moteur de reco). day → matin, night → soir.
   const toSteps = (steps: RoutineData["day"]): TnStep[] =>
@@ -88,8 +102,10 @@ export function DashboardScreen({ name, score, routine, restock, startedDaysAgo 
       icon: s.icon,
       pausable: /exfoliant/i.test(s.cat),
     }));
-  const evening = useMemo(() => toSteps(routine.night), [routine]);
-  const morning = useMemo(() => toSteps(routine.day), [routine]);
+  // Routine affichée : celle VALIDÉE par l'utilisateur si dispo, sinon la prop serveur.
+  const effRoutine = validated ?? routine;
+  const evening = useMemo(() => toSteps(effRoutine.night), [effRoutine]);
+  const morning = useMemo(() => toSteps(effRoutine.day), [effRoutine]);
 
   const chart = useMemo(() => buildChart(score), [score]);
   const goal = Math.min(100, score + 6);

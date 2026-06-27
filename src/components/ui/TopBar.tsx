@@ -1,8 +1,6 @@
 "use client";
 
-const pad = (n: number) => String(n).padStart(2, "0");
-
-/** Topbar des écrans question : retour + barre de progression + « 01 / 07 » (maquettes 02–09). */
+/** Topbar des écrans question : retour + barre de progression (maquettes 02–09). */
 export function TopBar({
   index, total = 7, onBack,
 }: {
@@ -19,7 +17,6 @@ export function TopBar({
       <div className="prog" role="progressbar" aria-label={`Étape ${index} sur ${total}`} aria-valuenow={index} aria-valuemin={1} aria-valuemax={total}>
         <div className="prog-fill" style={{ "--pw": `${pct}%` } as React.CSSProperties} />
       </div>
-      <span className="prog-step">{pad(index)} / {pad(total)}</span>
     </div>
   );
 }

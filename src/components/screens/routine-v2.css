@@ -35,6 +35,10 @@
 }
 .routine-loading button { margin-top:6px; padding:10px 18px; border-radius:100px; border:1px solid rgba(0,0,0,0.12); background:var(--card,#fff); color:var(--ink); cursor:pointer; }
 @keyframes rvSpin { to { transform:rotate(360deg); } }
+/* erreur de chargement de la routine (affichée dans l'overlay d'intro) */
+.rv-err { position:absolute; inset:0; z-index:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:16px; padding:24px; text-align:center; color:var(--graphite); }
+.rv-err p { font-size:14px; }
+.rv-err button { padding:10px 18px; border-radius:100px; border:1px solid rgba(0,0,0,0.12); background:var(--card); color:var(--ink); cursor:pointer; font-family:var(--fd); }
 
 .nav { position:relative; padding:52px 22px 0; display:flex; align-items:center; gap:14px; animation:rvRise .5s cubic-bezier(.22,1,.36,1) both .05s; }
 .rv-nav-logo { position:absolute; left:50%; top:52px; transform:translateX(-50%); height:40px; display:flex; align-items:center; pointer-events:none; }

@@ -47,7 +47,6 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13L5 8l5-5" /></svg>
         </button>
         <div className="nav-logo"><Image src="/logo-smartskin.png" alt="SmartSkin AI" width={154} height={30} priority /></div>
-        <span className="nav-count">07 / 07</span>
       </nav>
 
       {/* HERO : photo + jauge de score */}
