@@ -38,12 +38,14 @@ export default async function Page() {
   // Restock RÉEL : produits réellement recommandés + jours écoulés depuis le scan
   // (proxy de « depuis quand tu utilises tes produits »). Sans scan (démo) → valeur
   // d'exemple pour illustrer la section.
+  // « Depuis quand tu utilises tes produits » = jours écoulés depuis TON ANALYSE (le scan).
+  // On part du principe que l'utilisateur commence ses produits le jour de l'analyse.
   // Server Component rendu une fois par requête → lire l'heure courante est légitime.
   // eslint-disable-next-line react-hooks/purity
   const now = Date.now();
   const startedDaysAgo = latest
-    ? Math.max(1, Math.floor((now - new Date(latest.createdAt).getTime()) / 86_400_000))
-    : 36; // démo (pas de scan) : ~5 semaines écoulées, pour illustrer la section restock
+    ? Math.max(0, Math.floor((now - new Date(latest.createdAt).getTime()) / 86_400_000))
+    : 0; // démo : analyse « à l'instant » → 0 jour utilisé → rien n'est encore bientôt fini
 
   return (
     <DashboardScreen

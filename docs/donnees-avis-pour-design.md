@@ -14,7 +14,7 @@
 | **A. « Customers say »** | Une **synthèse IA** + des **aspects** chiffrés + un score de sentiment | `couche3` | Un encart résumé |
 | **B. Avis individuels** | Jusqu'à **5 vrais avis** (auteur, note, date, commentaire) | `couche3` | Une liste de cartes |
 
-> ⚠️ **Piège de nommage à connaître :** au niveau **produit**, le champ `reviews` = **un NOMBRE** (le total d'avis). Dans `couche3`, la liste des avis s'appelle **`review_samples`** (un TABLEAU). Ce sont **deux choses différentes** — ne pas les confondre.
+> ⚠️ **Piège de nommage à connaître :** au niveau **produit**, le champ `reviews` = **un NOMBRE** (le total d'avis). Dans `couche3`, la liste des avis s'appelle **`reviews`** (un TABLEAU). Ce sont **deux choses différentes** — ne pas les confondre.
 
 ---
 
@@ -37,7 +37,7 @@
     },
 
     // ─────── BLOC B : avis individuels (0 à 5) ───────
-    "review_samples": [
+    "reviews": [
       {
         "author": "Sarah M.",                 // nom/pseudo de l'auteur
         "rating": 5,                           // note de CET avis, /5
@@ -70,7 +70,7 @@
 | `sentiment` | nombre `0–1` | Score de positivité global. Ex. `0.86` = très positif | Non |
 | `aspects` | objet `{nom: nombre}` | Thèmes les plus cités + nb de mentions → **chips**. Montrer **4 à 6 max**, triés décroissant | Parfois `{}` |
 
-### Bloc B — un avis (`review_samples[i]`)
+### Bloc B — un avis (`reviews[i]`)
 
 | Champ | Type | Description | Peut être vide ? |
 |---|---|---|---|
@@ -97,7 +97,7 @@
       "Effectiveness": 2700, "Skin compatibility": 1800, "Gentle": 646,
       "Moisturizing": 547, "Value for money": 467, "Ease of removal": 290
     },
-    "review_samples": [
+    "reviews": [
       { "author": "Sarah M.", "rating": 5, "verified": true, "date": "2026-05-04",
         "text": "Been using this CeraVe foaming cleanser daily for months and my skin has never looked better. It removes oil without stripping." },
       { "author": "James T.", "rating": 5, "verified": true, "date": "2026-06-17",
@@ -144,10 +144,8 @@
 
 | Donnée | Statut actuel |
 |---|---|
-| `rating` + `reviews` (note globale + nombre) | ✅ déjà dans le catalogue (155/155) |
-| `customers_say` + `aspects` + `sentiment` | ✅ déjà dans le catalogue (~139) |
-| `review_samples` : **note** (`rating`) + date + texte | ✅ déjà collecté (133 produits, dont 102 avec ≥ 5) |
-| `review_samples` : **`author`** + **`verified`** | ⏳ **à récupérer** (1 re-scrape ; l'API les fournit — `author_name` + `is_verified` — on ne les avait pas stockés) |
-| Produits **sans aucun avis** | 22 (dont les 15 crèmes de nuit) → petit scrape ciblé |
+| `rating` + `reviews` (note globale + nombre) | ✅ **155 / 155** |
+| `customers_say` + `aspects` + `sentiment` | ✅ **155 / 155** |
+| `couche3.reviews` : **5 avis** avec `author` + `rating` + `verified` + `date` + `text` | ✅ **155 / 155** (775 avis, tous champs remplis) |
 
-> La **structure ci-dessus est définitive** → le design peut démarrer dessus. Côté données, il reste à récupérer l'**`author`** et à compléter les 22 produits sans avis.
+> ✅ **Données complètes — le catalogue (`catalog-final.json`) contient 100 % de ce que la carte affiche.** Le design **et** l'intégration peuvent partir dessus directement.
