@@ -1,7 +1,11 @@
 import OpenAI from "openai";
 import { z } from "zod";
+import { CONCERN_PHRASE } from "@/features/routine/actives";
 import type { CatalogProduct } from "./catalog";
 import type { EngineProfile } from "./profile";
+
+/** Préoccupation (id interne) → libellé français prêt à citer (« tes imperfections »). */
+const frConcern = (id: string): string => CONCERN_PHRASE[id] ?? id;
 
 /* Étape 5 — IA choix + « pourquoi », UNIQUEMENT sur les shortlists (~5 fiches/cat).
    Le LLM ne voit jamais les 140, ne refait NI la sécurité NI le matching (verrouillés
@@ -24,19 +28,20 @@ const ResponseSchema = z.object({
   choix: z.array(z.object({ category: z.string(), num: z.number(), pourquoi: z.string() })),
 });
 
-/** Fiche allégée envoyée au LLM (le matching/byProfile sont déjà résolus). */
+/** Fiche allégée envoyée au LLM (le matching/byProfile sont déjà résolus). Clés EN
+ *  FRANÇAIS, `traite` traduit en libellés citables → réduit les fuites de jargon. */
 function lighten(p: CatalogProduct, skinType: string) {
   return {
     num: p.num,
-    name: p.name,
-    brand: p.brand,
-    price: p.price,
-    keyActives: p.keyActives,
-    targets: p.targets,
-    irritationCost: p.irritationCost,
-    byProfile_user: p.couche3?.byProfile?.[skinType as keyof NonNullable<typeof p.couche3>["byProfile"]] ?? "unknown",
-    note: p.couche3?.note ?? "",
-    customers_say: (p.couche3?.customers_say ?? "").slice(0, 400),
+    nom: p.name,
+    marque: p.brand,
+    prix: p.price,
+    actif_cle: p.keyActives,
+    traite: p.targets.map(frConcern),
+    irritation: p.irritationCost,
+    avis_pour_ta_peau: p.couche3?.byProfile?.[skinType as keyof NonNullable<typeof p.couche3>["byProfile"]] ?? "unknown",
+    synthese: p.couche3?.note ?? "",
+    avis_clients: (p.couche3?.customers_say ?? "").slice(0, 400),
   };
 }
 
@@ -50,12 +55,22 @@ function buildPrompt(shortlists: Record<string, CatalogProduct[]>, profile: Engi
     "La sécurité et la pertinence sont déjà vérifiées : tu juges la qualité du match + les avis.",
     "",
     `Profil : type de peau = ${profile.skinType}${profile.sensitive ? " (sensible)" : ""} ;`,
-    `préoccupations prioritaires = ${profile.concerns.join(", ") || "aucune"}.`,
+    `préoccupations prioritaires (libellés français à reprendre TELS QUELS) = ${profile.concerns.map(frConcern).join(", ") || "aucune"}.`,
     "",
-    "Pour chaque produit choisi, rédige un « pourquoi » court (1–2 phrases, FR, tutoiement),",
-    "appuyé sur les avis (customers_say/note) et byProfile_user. C'est un BILAN, pas un avis médical :",
-    "pas de promesse de soin, pas de vocabulaire médical. Ne vante pas pour peau sensible un produit",
-    "noté « caution » pour elle.",
+    "Pour chaque produit choisi, rédige un « pourquoi » COURT et PERCUTANT, rapide à lire :",
+    "MAXIMUM 200 caractères (vise 150-180), 1 à 2 phrases brèves, FR, tutoiement. En 2 temps :",
+    "  1) DIAGNOSTIC — cite 1 préoccupation prioritaire ci-dessus que CE produit adresse.",
+    "  2) MÉCANISME — en quelques mots, COMMENT son actif clé agit (appuie-toi sur la synthèse/les avis).",
+    "Va à l'essentiel : pas de phrase d'usage, pas de remplissage. Mets en gras (balises <b>…</b>,",
+    "le HTML est rendu) la préoccupation citée ET l'actif clé.",
+    "",
+    "IMPÉRATIF DE STYLE : écris UNIQUEMENT en français naturel, pour une cliente. N'emploie JAMAIS",
+    "de mots anglais ni de noms de champs techniques (acne, comedones, targets, byProfile, avis_pour_ta_peau,",
+    "avis_clients…). Pour nommer une préoccupation, reprends EXACTEMENT les libellés français fournis",
+    "(« tes imperfections », « tes points noirs »…), jamais l'identifiant brut.",
+    "C'est un BILAN beauté, PAS un avis médical : pas de promesse de guérison, pas de vocabulaire",
+    "médical (pathologie, traitement, ordonnance) — reste cosmétique et honnête. Ne vante pas pour une",
+    "peau sensible un produit noté « à surveiller » pour elle.",
     "",
     "Candidats (JSON) :",
     JSON.stringify(cat),
@@ -73,7 +88,8 @@ export async function pickAndExplain(
   const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
   const response = await client.chat.completions.create({
     model: MODEL,
-    temperature: 0.2,
+    // Pas de `temperature` : gpt-5.x n'accepte que la valeur par défaut (un override
+    // → 400 « unsupported_value », l'appel échouait silencieusement et retombait sur le repli).
     response_format: { type: "json_object" },
     messages: [{ role: "user", content: buildPrompt(shortlists, profile) }],
   });

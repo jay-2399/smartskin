@@ -39,6 +39,18 @@ export interface RoutineData {
   productCount: number;
 }
 
+/* Donnée de restock d'un produit choisi (consommable de la routine) : tout ce qu'il
+   faut au dashboard pour estimer « fini dans ~X jours » avec la formule réelle. */
+export interface RestockItem {
+  name: string;
+  asin: string;
+  icon: IconKey;
+  category: string;
+  frequency: string;
+  moment: string;
+  size_ml: number;
+}
+
 /* Nettoyant — peau grasse / imperfections (BHA en rinçage = OK grossesse). */
 export const CLEANSER: Product[] = [
   { brand: "La Roche-Posay", name: "Effaclar Gel Cleanser", img: "/prod-effaclar.png", price: "$18.99", p: 19, targets: ["acne", "comedones", "pores", "shine"], actives: ["salicylic_acid"], unsafeSensitive: true, why: "Ton diagnostic a relevé un <b>excès de sébum</b> et des <b>imperfections</b> sur la zone T. Ce gel nettoie en profondeur grâce à l'<b>acide salicylique 2%</b>, qui dissout le sébum incrusté et désobstrue les pores sans agresser ta peau. Utilisé matin et soir, il prépare la peau à recevoir les actifs ciblés de ta routine et limite l'apparition de nouvelles imperfections.", url: "https://www.laroche-posay.us/our-products/face/acne-products/effaclar-medicated-acne-face-wash-effaclaracnewash.html" },

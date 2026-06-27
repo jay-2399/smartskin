@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
-import type { IconKey, RoutineData } from "@/features/routine/products";
+import type { IconKey, RoutineData, RestockItem } from "@/features/routine/products";
 import "./dashboard.css";
 
 /* Dashboard — espace de suivi post-achat (port de dashboard_smartskin/dashboard.html,
@@ -46,24 +46,19 @@ function buildChart(score: number) {
   return { line, area, dotX: last[0], dotY: last[1], trend: score - scores[0] };
 }
 
-// ── Restock : formule réelle (quantité ÷ dose × usages/jour), données démo. ──
-const DOSE: Record<string, number> = { nettoyant: 2, serum: 0.5, creme: 1.2, hydratant: 1.2, spf: 1.2, exfoliant: 1 };
+// ── Restock : formule réelle (contenance ÷ dose × usages/jour). Produits = les VRAIS
+//    produits recommandés ; `elapsedDays` = jours écoulés depuis le scan de l'utilisateur. ──
+const DOSE: Record<string, number> = { nettoyant: 2, démaquillant: 2, serum: 0.5, creme: 1.2, hydratant: 1.2, spf: 1.2, exfoliant: 1 };
 const FREQ: Record<string, number> = { daily: 1, "3x/sem": 3 / 7, "1-2x/sem": 1.5 / 7 };
-type MockProd = { name: string; icon: IconKey; category: string; frequency: string; moment: string; size_ml: number; elapsedDays: number; asin: string };
-const RESTOCK_MOCK: MockProd[] = [
-  { name: "EltaMD UV Clear SPF 46", icon: "bottle", category: "spf", frequency: "daily", moment: "AM", size_ml: 50, elapsedDays: 38, asin: "B002MSN3QQ" },
-  { name: "TruSkin Vitamin C Serum", icon: "dropper", category: "serum", frequency: "daily", moment: "AM", size_ml: 30, elapsedDays: 52, asin: "B01M4MCUAF" },
-  { name: "CeraVe Moisturizing Cream", icon: "jar", category: "creme", frequency: "daily", moment: "both", size_ml: 340, elapsedDays: 20, asin: "B00TTD9BRC" },
-];
-function estimate(p: MockProd) {
+function estimate(p: RestockItem, elapsedDays: number) {
   const dose = DOSE[p.category] || 1;
   let perDay = FREQ[p.frequency] || 1;
   if (p.moment === "both" && p.frequency === "daily") perDay = 2;
   const total = p.size_ml / (dose * perDay);
-  return { left: Math.max(0, Math.round(total - p.elapsedDays)), pctUsed: Math.min(100, Math.round((p.elapsedDays / total) * 100)) };
+  return { left: Math.max(0, Math.round(total - elapsedDays)), pctUsed: Math.min(100, Math.round((elapsedDays / total) * 100)) };
 }
 
-export function DashboardScreen({ name, score, routine }: { name: string; score: number; routine: RoutineData }) {
+export function DashboardScreen({ name, score, routine, restock, startedDaysAgo }: { name: string; score: number; routine: RoutineData; restock: RestockItem[]; startedDaysAgo: number }) {
   const [moment, setMoment] = useState<"evening" | "morning">("evening");
   const [mood, setMood] = useState<Mood | null>(null);
   const [eveningDone, setEveningDone] = useState<Record<number, boolean>>({});
@@ -117,8 +112,8 @@ export function DashboardScreen({ name, score, routine }: { name: string; score:
 
   const pickMood = (m: Mood) => { setMood(m); setTimeout(() => setModalOpen(false), 320); };
 
-  const lowRestock = RESTOCK_MOCK.map((p) => ({ p, e: estimate(p) }))
-    .filter((x) => x.e.left <= 10)
+  const lowRestock = restock.map((p) => ({ p, e: estimate(p, startedDaysAgo) }))
+    .filter((x) => x.e.left <= 14)
     .sort((a, b) => a.e.left - b.e.left);
 
   return (

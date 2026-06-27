@@ -34,5 +34,23 @@ export default async function Page() {
   // Prénom Google si dispo, sinon début de l'email, sinon démo.
   const name = session?.user?.name?.split(" ")[0] ?? session?.user?.email?.split("@")[0] ?? "Sarah";
 
-  return <DashboardScreen name={name} score={score} routine={reco.routine} />;
+  // Restock RÉEL : produits réellement recommandés + jours écoulés depuis le scan
+  // (proxy de « depuis quand tu utilises tes produits »). Sans scan (démo) → valeur
+  // d'exemple pour illustrer la section.
+  // Server Component rendu une fois par requête → lire l'heure courante est légitime.
+  // eslint-disable-next-line react-hooks/purity
+  const now = Date.now();
+  const startedDaysAgo = latest
+    ? Math.max(1, Math.floor((now - new Date(latest.createdAt).getTime()) / 86_400_000))
+    : 36; // démo (pas de scan) : ~5 semaines écoulées, pour illustrer la section restock
+
+  return (
+    <DashboardScreen
+      name={name}
+      score={score}
+      routine={reco.routine}
+      restock={reco.restock}
+      startedDaysAgo={startedDaysAgo}
+    />
+  );
 }

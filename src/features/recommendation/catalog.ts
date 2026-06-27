@@ -46,6 +46,7 @@ export interface CatalogProduct {
   moment: "am" | "pm" | "both";
   night?: boolean | null; // crème de nuit dédiée (catégorie hydratant) — cf. splitCreams
   frequency: string;
+  size_ml?: number | null; // contenance en ml (présent dans les données) — sert au calcul du restock
   unsafePregnancy: boolean;
   unsafeSensitive: boolean;
   irritationCost: number;

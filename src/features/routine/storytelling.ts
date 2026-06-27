@@ -23,9 +23,11 @@ interface RState extends Snap {
 
 export interface InitOptions {
   onExit?: () => void;
+  onSave?: () => void; // clic « Enregistrer mon protocole » → persiste + redirige (RoutineScreen)
   routine?: RoutineData; // routine personnalisée (sinon catalogue par défaut)
   totaux?: { prix: number; budget: number | "no_limit"; dansLeBudget: boolean }; // Σ coût + tenue du budget
   warnings?: string[]; // avertissements (off-ramp dermato), affichés en bandeau
+  faceUrl?: string; // photo de l'analyse (en mémoire) pour le médaillon de l'intro V2
 }
 
 export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => void {
@@ -51,6 +53,8 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
      protocole en découlent. ── */
   const data: RoutineData = opts.routine ?? DEFAULT_ROUTINE;
   const ROUTINE: Record<TabKey, Step[]> = { day: data.day, night: data.night };
+  // Médaillon de l'intro : photo de l'analyse (en mémoire) ou repli générique.
+  const faceUrl = opts.faceUrl ?? "/capture-face.jpg";
 
   /* ── squelette injecté dans root ── */
   root.innerHTML = `
@@ -94,6 +98,7 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
   </div>
   <div class="intro" id="intro">
     <div class="intro-bg"></div>
+    <div class="intro-grain"></div>
     <div class="intro-stack">
       <img class="intro-logo" src="/logo-smartskin.png" alt="SmartSkin AI">
       <div class="intro-eyebrow" id="introEyebrow">Analyse terminée</div>
@@ -101,11 +106,27 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
         <p class="intro-line">Composons maintenant ton protocole sur-mesure.</p>
         <p class="intro-line">Commençons par ta routine de jour.</p>
       </div>
-      <div class="intro-load" id="introLoad">
-        <div class="intro-prog"><i id="introFill"></i></div>
-        <div class="intro-status"><span class="intro-spin" id="introSpin"></span><span id="introStatus">…</span></div>
-        <div class="intro-count" id="introCount"><span class="num" id="introNum">0</span><small id="introLabel"></small></div>
+      <div class="intro-scene" id="introScene">
+        <div class="scene-face-wrap">
+          <svg class="scene-ring" viewBox="0 0 100 100"><circle cx="50" cy="50" r="49"/></svg>
+          <div class="scene-face">
+            <img src="${faceUrl}" alt="">
+            <svg class="scene-mesh" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
+              <path class="mesh-lines" d="M50 22L38 27M50 22L62 27M38 27L31 38M38 27L45 35M62 27L69 38M62 27L55 35M45 35L55 35M45 35L50 45M55 35L50 45M31 38L45 35M69 38L55 35M31 38L35 49M69 38L65 49M35 49L50 45M65 49L50 45M35 49L40 63M65 49L60 63M50 45L40 63M50 45L60 63M50 45L50 55M50 55L40 63M50 55L60 63M40 63L50 69M60 63L50 69"/>
+              <g class="mesh-node"><circle cx="50" cy="22" r="0.85"/><circle cx="38" cy="27" r="0.85"/><circle cx="62" cy="27" r="0.85"/><circle cx="31" cy="38" r="0.85"/><circle cx="45" cy="35" r="0.85"/><circle cx="55" cy="35" r="0.85"/><circle cx="69" cy="38" r="0.85"/><circle cx="35" cy="49" r="0.85"/><circle cx="50" cy="45" r="0.85"/><circle cx="65" cy="49" r="0.85"/><circle cx="50" cy="55" r="0.85"/><circle cx="40" cy="63" r="0.85"/><circle cx="60" cy="63" r="0.85"/><circle cx="50" cy="69" r="0.85"/></g>
+            </svg>
+            <div class="scene-scan"></div>
+          </div>
+        </div>
+        <div class="scene-deck">
+          <div class="scene-pc"><div class="pc-ic"><svg viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="15" y="28" width="30" height="56" rx="9"/><path d="M24 28v-6h12v6"/><rect x="26" y="9" width="9" height="13" rx="2.5"/><path d="M35 13h7v6"/></svg></div><div class="pc-cat">Nettoyant</div></div>
+          <div class="scene-pc"><div class="pc-ic"><svg viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M19 84V40c0-3 1-4 3-6l1-3v-6h14v6l1 3c2 2 3 3 3 6v44a4 4 0 0 1-4 4H23a4 4 0 0 1-4-4Z"/><rect x="24" y="9" width="12" height="10" rx="2"/></svg></div><div class="pc-cat">Sérum</div></div>
+          <div class="scene-pc"><div class="pc-ic"><svg viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="16" y="36" width="28" height="48" rx="8"/><path d="M23 36v-4h14v4"/><rect x="25" y="10" width="10" height="22" rx="3"/></svg></div><div class="pc-cat">Soin</div></div>
+          <div class="scene-pc"><div class="pc-ic"><svg viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="12" y="38" width="36" height="40" rx="11"/><rect x="10" y="26" width="40" height="14" rx="5"/></svg></div><div class="pc-cat">Crème</div></div>
+        </div>
       </div>
+      <div class="intro-status"><span class="intro-spin" id="introSpin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span id="introStatus">…</span></div>
+      <div class="intro-count" id="introCount"><span class="num" id="introNum">0</span><small id="introLabel"></small></div>
     </div>
   </div>
   <div class="phase" id="phaseShift">
@@ -185,11 +206,11 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     const right = prod.freq ? `<div class="card-tag">${CLOCK}${prod.freq}</div>` : "";
     const whyTitle = ptr > 0 ? "Pourquoi cette alternative ?" : "Pourquoi on vous le recommande";
     card.innerHTML =
-      `<div class="card-img"><span class="card-step">${stepIdx + 1}</span>${topBadge}${visual(prod, step.icon)}</div>` +
+      `<div class="card-img"><span class="card-step">${stepIdx + 1}</span>${topBadge}${visual(prod, step.icon)}<span class="scroll-cue hidden"><span class="scroll-thumb"></span></span></div>` +
       `<div class="card-info">` +
         `<div class="card-head"><span class="card-cat">${step.cat}</span><span class="card-brand">${prod.brand}</span></div>` +
         `<div class="card-name">${prod.name}</div>` +
-        `<div class="card-scrollwrap"><div class="card-scroll"><div class="why-title">${SPARK}${whyTitle}</div><div class="card-why">${prod.why}</div></div><span class="scroll-cue hidden"><span class="scroll-thumb"></span></span></div>` +
+        `<div class="card-scroll"><div class="why-title">${SPARK}${whyTitle}</div><div class="card-why">${prod.why}</div></div>` +
         `<div class="card-foot"><div class="card-priceblock"><span class="card-price">${prod.price}</span></div>${right}</div>` +
       `</div>` +
       `<div class="card-glow like"></div><div class="card-glow nope"></div>` +
@@ -346,7 +367,10 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     protoEl.querySelector("#protoRestart")?.addEventListener("click", restart);
     protoEl.querySelector<HTMLElement>("#protoSave")?.addEventListener("click", (e) => {
       const b = e.currentTarget as HTMLElement;
+      if (b.dataset.saving) return; // anti double-clic
+      b.dataset.saving = "1";
       b.style.opacity = ".65"; b.textContent = "Protocole enregistré ✓";
+      opts.onSave?.(); // persiste le scan + redirige vers le dashboard (RoutineScreen)
     });
   }
 
@@ -484,20 +508,20 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
   });
   byId("rvBack")?.addEventListener("click", () => opts.onExit?.());
 
-  /* ── storytelling d'intro (2 phrases + analyse en direct, puis le deck) ── */
+  /* ── storytelling d'intro V2 : 2 phrases + médaillon visage (mesh/scan) + cartes
+     produits qui s'animent + analyse en direct, puis le deck (non skippable) ── */
   (function intro() {
     const introEl = byId("intro");
     if (!introEl) { render(); return; }
     const lines = introEl.querySelectorAll<HTMLElement>(".intro-line");
-    const load = byId("introLoad")!;
-    const fill = byId("introFill")!;
+    const scene = byId("introScene")!;
     const spin = byId("introSpin")!;
     const statusEl = byId("introStatus")!;
     const countEl = byId("introCount")!;
     const num = byId("introNum")!;
     const label = byId("introLabel")!;
     const eyebrow = byId("introEyebrow")!;
-    const setFill = (pct: number, ms: number) => { fill.style.transition = `width ${ms}ms cubic-bezier(.4,0,.2,1)`; fill.style.width = pct + "%"; };
+    const cards = introEl.querySelectorAll<HTMLElement>(".scene-pc");
     const cycle = (msgs: string[], interval: number) => {
       let i = 0; statusEl.textContent = msgs[0];
       const id = setI(() => { i++; if (i < msgs.length) statusEl.textContent = msgs[i]; else clearInterval(id); }, interval);
@@ -507,23 +531,25 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
       const id = setI(() => { const t = Math.min(1, (performance.now() - t0) / dur); num.textContent = Math.round((1 - Math.pow(1 - t, 2)) * to).toLocaleString("fr-FR"); if (t >= 1) clearInterval(id); }, 45);
     };
 
-    load.classList.add("show");
+    scene.classList.add("show");
+    countEl.classList.add("on");
+    label.textContent = "produits analysés · 2 000+ en base";
+
+    // PHASE 1 — lecture du diagnostic (~3.3 s)
     lines[0].classList.add("in");
-    cycle(["Lecture de ton diagnostic…", "Sébum · pores · imperfections ciblés", "Définition de tes priorités…"], 1150);
-    setFill(34, 3000);
+    cycle(["Lecture de ton diagnostic…", "Ciblage : sébum · pores · marques", "Définition de tes priorités…"], 1150);
+    tick(2137, 4400);
     setT(() => { lines[0].classList.remove("in"); lines[0].classList.add("out"); }, 3300);
 
+    // PHASE 2 — on relie ta peau à tes produits (cartes qui montent)
     setT(() => {
       lines[1].classList.add("in");
       eyebrow.classList.add("daymode"); eyebrow.innerHTML = SUN + "Routine du jour";
-      countEl.classList.add("on");
-      label.textContent = "produits analysés · 2 000+ en base";
-      cycle(["Connexion à la base produits…", "Analyse en direct…", "Recherche du meilleur match…"], 1250);
-      setFill(100, 3500);
-      tick(2137, 3200);
+      cycle(["On associe les produits à ta peau…", "Match sébum · marques · barrière…", "Recherche du meilleur match…"], 1250);
+      cards.forEach((c, i) => setT(() => c.classList.add("in"), 200 + i * 430));
     }, 3850);
-    setT(() => { spin.classList.add("done"); statusEl.textContent = "Sélection prête"; num.textContent = String(ROUTINE.day.length); label.textContent = "produits retenus pour toi"; }, 7700);
-    setT(() => { lines[1].classList.remove("in"); lines[1].classList.add("out"); load.classList.remove("show"); }, 9300);
+    setT(() => { spin.classList.add("done"); statusEl.textContent = "Sélection prête"; num.textContent = String(data.productCount); label.textContent = "produits retenus pour toi"; }, 7700);
+    setT(() => { lines[1].classList.remove("in"); lines[1].classList.add("out"); scene.classList.remove("show"); }, 9300);
     setT(() => { render(); introEl.classList.add("gone"); }, 9850);
   })();
 

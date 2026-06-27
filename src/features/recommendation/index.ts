@@ -1,12 +1,12 @@
 import type { AnalysisResult } from "@/features/analysis/schema";
 import type { Answers } from "@/features/funnel/types";
-import type { RoutineData } from "@/features/routine/products";
+import type { RoutineData, RestockItem } from "@/features/routine/products";
 import { loadCatalog, catalogByCategory, type CatalogProduct, type Category } from "./catalog";
 import { buildEngineProfile, type EngineProfile } from "./profile";
 import { buildConstraints, type Constraints } from "./medical-guard";
 import { hardFilter, shortlist, planCategories, nightActiveCategories, splitCreams, reconcile, type Swap, type Totals } from "./engine";
 import { openaiConfigured, pickAndExplain } from "./llm-choice";
-import { toRoutineData } from "./to-routine-data";
+import { toRoutineData, CAT_ICON } from "./to-routine-data";
 
 /* Orchestrateur du moteur de reco (contrat §7bis). Enchaîne :
    profil → garde médicale → filtre/score/shortlist par catégorie → choix+pourquoi
@@ -18,6 +18,7 @@ export interface RecommendationResult {
   totaux: Totals;
   swaps: Swap[];
   avertissements: string[];
+  restock: RestockItem[]; // produits choisis (consommables) → restock réel côté dashboard
 }
 
 // Actifs sûrs grossesse qu'on peut « emprunter » pour remplir le créneau traitement
@@ -87,8 +88,10 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
         if (idx > 0) picks[cat] = [opts[idx], ...opts.slice(0, idx), ...opts.slice(idx + 1)]; // promeut le choix en [0]
         llmWhy.set(choice.num, choice.pourquoi);
       }
-    } catch {
+    } catch (e) {
       // L'IA est un bonus : en cas d'échec, on garde le top-score déterministe.
+      // On LOGGE quand même (un échec silencieux avait masqué un bug temperature gpt-5.x).
+      console.error("[routine LLM] pickAndExplain a échoué, repli déterministe :", e);
     }
   }
 
@@ -113,6 +116,17 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
     .filter((k): k is string => !!k && has(k));
   const routine = toRoutineData({ dayKeys, nightKeys, picks: reconciled, profile, llmWhy });
 
+  // Restock : pour chaque étape, le produit choisi (option[0]) avec sa contenance et
+  // sa fréquence → le dashboard estime « fini dans ~X jours » à partir de la date du
+  // scan. On écarte les produits sans contenance connue (size_ml absent).
+  const restock: RestockItem[] = [...dayKeys, ...nightKeys]
+    .map((k): RestockItem | null => {
+      const p = reconciled[k]?.[0];
+      if (!p || !p.size_ml) return null;
+      return { name: p.name, asin: p.asin, icon: CAT_ICON[p.category] ?? "bottle", category: p.category, frequency: p.frequency, moment: p.moment, size_ml: p.size_ml };
+    })
+    .filter((x): x is RestockItem => x !== null);
+
   const avertissements = constraints.adviseDoctor ? [constraints.adviseDoctor] : [];
-  return { routine, totaux: totals, swaps, avertissements };
+  return { routine, totaux: totals, swaps, avertissements, restock };
 }

@@ -15,7 +15,7 @@ const CAT_LABEL: Record<Category, string> = {
   contour_yeux: "Contour des yeux", soin_cible: "Soin ciblé",
 };
 
-const CAT_ICON: Record<Category, IconKey> = {
+export const CAT_ICON: Record<Category, IconKey> = {
   nettoyant: "pump", démaquillant: "bottle", serum: "dropper", traitement: "dropper",
   exfoliant: "bottle", hydratant: "jar", spf: "pump", masque: "jar",
   contour_yeux: "dropper", soin_cible: "dropper",
@@ -85,6 +85,28 @@ export function templateWhy(p: CatalogProduct, profile: EngineProfile): string {
   return `${head}${note}`;
 }
 
+/** Met une majuscule à la 1ʳᵉ lettre visible, même si elle ouvre une balise (ex.
+ *  « <b>ta brillance</b>… » → « <b>Ta brillance</b>… »). L'IA démarre parfois en
+ *  minuscule pour gagner des caractères. */
+export function capitalizeFirst(html: string): string {
+  return html.replace(/^((?:<[^>]+>|\s)*)([a-zà-ÿ])/iu, (_m, pre, ch) => pre + ch.toUpperCase());
+}
+
+/** Plafonne le « pourquoi » à ~200 caractères VISIBLES (lecture rapide), en coupant à
+ *  une fin de phrase — jamais au milieu d'une balise <b> → HTML toujours équilibré. */
+export function capWhy(html: string, max = 200): string {
+  const visible = (s: string) => s.replace(/<[^>]+>/g, "").length;
+  if (visible(html) <= max) return html;
+  const sentences = html.split(/(?<=[.!?])\s+/);
+  let out = "";
+  for (const s of sentences) {
+    const next = out ? `${out} ${s}` : s;
+    if (out && visible(next) > max) break; // garde au moins la 1ʳᵉ phrase complète
+    out = next;
+  }
+  return out || html;
+}
+
 function toUiProduct(p: CatalogProduct, profile: EngineProfile, llmWhy: Map<number, string>): Product {
   return {
     brand: p.brand,
@@ -92,7 +114,7 @@ function toUiProduct(p: CatalogProduct, profile: EngineProfile, llmWhy: Map<numb
     img: p.image, // jamais image_amazon (backup)
     price: priceLabel(p.price),
     p: p.price,
-    why: llmWhy.get(p.num) ?? templateWhy(p, profile),
+    why: capitalizeFirst(capWhy(llmWhy.get(p.num) ?? templateWhy(p, profile))),
     url: affiliateUrl(p.asin),
     targets: p.targets,
     actives: p.keyActives ? p.keyActives.split(/[\/,]/).map((s) => s.trim()).filter(Boolean) : [],
