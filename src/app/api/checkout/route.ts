@@ -8,7 +8,9 @@ export async function POST(request: Request) {
   if (!process.env.STRIPE_SECRET_KEY) {
     return NextResponse.json({ error: "stripe_not_configured" }, { status: 503 });
   }
-  const origin = new URL(request.url).origin;
+  // Derrière le proxy Render, request.url = host interne (localhost:10000) → on
+  // préfère l'URL publique canonique (AUTH_URL) pour les redirections Stripe.
+  const origin = process.env.AUTH_URL ?? new URL(request.url).origin;
   try {
     const session = await stripe.checkout.sessions.create({
       mode: "payment",
