@@ -107,7 +107,7 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
   </nav>
   <div class="rv-head">
     <h1 id="headTitle">Ta routine du jour.</h1>
-    <p>Glisse à droite pour garder le produit, à gauche pour en voir un autre dans la même catégorie.</p>
+    <p>Glisse à droite pour garder, à gauche pour changer de produit.</p>
   </div>
   <div class="stage">
     <div class="progress">

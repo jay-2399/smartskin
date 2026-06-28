@@ -51,12 +51,12 @@
 .nav-step { margin-left:auto; font-family:var(--fm); font-size:10px; color:var(--space); letter-spacing:0.1em; }
 
 .rv-head { padding:6px 26px 8px; animation:rvRise .55s cubic-bezier(.22,1,.36,1) both .12s; }
-.rv-head h1 { font-weight:800; font-size:23px; line-height:1.08; letter-spacing:-0.035em; color:var(--ink); }
+.rv-head h1 { font-weight:800; font-size:21px; line-height:1.05; letter-spacing:-0.035em; color:var(--ink); }
 .rv-head p { font-weight:400; font-size:12px; color:var(--graphite); margin-top:6px; }
 
 /* ── stage / deck ── */
 .stage { flex:1; display:flex; flex-direction:column; padding:8px 22px 4px; min-height:0; animation:rvRise .55s cubic-bezier(.22,1,.36,1) both .28s; }
-.progress { display:flex; align-items:center; justify-content:space-between; padding:0 2px 12px; }
+.progress { display:flex; align-items:center; justify-content:space-between; padding:0 2px 8px; }
 .dots { display:flex; gap:7px; }
 .dot { width:8px; height:8px; border-radius:50%; background:var(--smoke); transition:all .3s cubic-bezier(.22,1,.36,1); }
 .dot.done { background:var(--accent-d); }
@@ -65,7 +65,7 @@
 
 .deck { position:relative; flex:1; min-height:0; }
 
-.swipe-card { position:absolute; top:0; left:0; width:100%; height:calc(100% - 30px);
+.swipe-card { position:absolute; top:0; left:0; width:100%; height:calc(100% - 20px);
   background:var(--card); border-radius:26px; padding:15px; display:flex; flex-direction:column;
   box-shadow:0 1px 2px rgba(0,0,0,0.04),0 18px 40px rgba(0,0,0,0.12);
   transform-origin:center; overflow:hidden;
@@ -78,10 +78,10 @@
 .swipe-card.flown { z-index:6; will-change:transform; }
 @keyframes rvCardIn { from{ transform:translateY(28px) scale(.94);} to{ transform:none;} }
 
-/* Image ADAPTATIVE (au lieu de 180px fixe) : ~96px sur mobile (carte courte → grande zone
-   de lecture du « pourquoi »/avis), jusqu'à 178px sur desktop (carte haute). */
-.card-img { position:relative; height:clamp(96px, 25%, 178px); flex-shrink:0; border-radius:18px; background:linear-gradient(158deg,var(--cloud),#fff 78%); display:flex; align-items:center; justify-content:center; overflow:hidden; transition:height .42s cubic-bezier(.4,0,.2,1); }
-.swipe-card.scrolled .card-img { height:80px; }   /* au scroll : l'image se réduit encore → plus de place pour lire */
+/* Image au format produit (prominente), hauteur FIXE → toute la hauteur gagnée sur la
+   carte va à la zone « pourquoi » (et non à l'image). Réduite au scroll pour lire plus. */
+.card-img { position:relative; height:165px; flex-shrink:0; border-radius:18px; background:linear-gradient(158deg,var(--cloud),#fff 78%); display:flex; align-items:center; justify-content:center; overflow:hidden; transition:height .42s cubic-bezier(.4,0,.2,1); }
+.swipe-card.scrolled .card-img { height:104px; }   /* au scroll : l'image se réduit → plus de place pour lire */
 .card-img::after { content:''; position:absolute; bottom:-30%; left:50%; transform:translateX(-50%); width:74%; height:60%; background:radial-gradient(ellipse at center, rgba(166,195,214,.22), transparent 70%); }
 .card-img img { position:relative; max-width:60%; max-height:82%; width:auto; object-fit:contain; filter:drop-shadow(0 9px 15px rgba(26,29,33,0.18)); }
 .card-img .flacon { position:relative; width:82px; height:auto; color:var(--accent-d); filter:drop-shadow(0 9px 14px rgba(127,166,190,0.30)); }
@@ -189,7 +189,7 @@
 .tray-meta { display:flex; align-items:baseline; gap:7px; font-family:var(--fm); font-size:9.5px; color:var(--space); }
 .tray-meta b { color:var(--ink); font-weight:800; font-size:12.5px; letter-spacing:-0.01em; }
 .tray-slots { display:flex; gap:9px; }
-.tray-slot { flex:1; height:40px; border-radius:12px; display:flex; align-items:center; justify-content:center; overflow:hidden; background:var(--bg); box-shadow:inset 0 0 0 1.5px var(--smoke); transition:box-shadow .3s, background .3s; }
+.tray-slot { flex:1; height:36px; border-radius:12px; display:flex; align-items:center; justify-content:center; overflow:hidden; background:var(--bg); box-shadow:inset 0 0 0 1.5px var(--smoke); transition:box-shadow .3s, background .3s; }
 .tray-slot.current { background:var(--accent-bg); box-shadow:inset 0 0 0 1.5px var(--accent-d); animation:trayPulse 1.7s ease-in-out infinite; }
 .tray-slot.filled { background:var(--card); box-shadow:0 2px 9px rgba(0,0,0,0.09); }
 .tray-slot.filled img { max-width:64%; max-height:74%; object-fit:contain; }
