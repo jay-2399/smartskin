@@ -4,7 +4,7 @@ import { buildRecommendedRoutine } from "@/features/recommendation";
 import { AnalysisResultSchema } from "@/features/analysis/schema";
 import { SAMPLE_RESULT } from "@/features/analysis/sample";
 import { EMPTY_ANSWERS, type Answers } from "@/features/funnel/types";
-import { topConcerns, levelOf } from "@/features/routine/recommend";
+import { topConcerns, levelOf, derivePhase } from "@/features/routine/recommend";
 import { ATTRIBUTE_BY_ID, LEVEL_TO_PERCENT } from "@/features/analysis/attributes";
 import { DashboardScreen } from "@/components/screens/DashboardScreen";
 
@@ -78,6 +78,9 @@ export default async function Page() {
   const nextDateRaw = new Date(nextMs).toLocaleDateString("fr-FR", { weekday: "short", day: "numeric", month: "short" });
   const nextDateFull = nextDateRaw.charAt(0).toUpperCase() + nextDateRaw.slice(1);
 
+  // Plan de routine = phase de progression déduite de l'expérience déclarée (q3).
+  const phase = derivePhase(answers);
+
   return (
     <DashboardScreen
       name={name}
@@ -91,6 +94,7 @@ export default async function Page() {
       firstDateLabel={firstDateLabel}
       nextDateLabel={nextDateLabel}
       nextDateFull={nextDateFull}
+      phase={phase}
     />
   );
 }

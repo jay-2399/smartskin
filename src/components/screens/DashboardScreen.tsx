@@ -42,6 +42,14 @@ const Cart = () => (<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" s
 // Cadence de re-scan : hebdomadaire (7 j) → repère du prochain scan.
 const NEXT_SCAN_DAYS = 7;
 
+// Plan de routine : 4 jalons de progression (selon la phase) + 2 lignes « maintenant / la suite ».
+const PLAN_LABELS = ["Départ", "Mise en route", "Renforcement", "Entretien"];
+const PLAN_NEXT: Record<number, [string, string]> = {
+  1: ["Les premières semaines, on garde une routine douce le temps que ta peau s'habitue.", "Ensuite, on monte progressivement la fréquence de tes actifs ciblés."],
+  2: ["Ta peau tolère déjà les actifs : on peut augmenter la fréquence sans l'agresser.", "Un actif plus puissant (type rétinoïde) pourra rejoindre la routine pour tes marques."],
+  3: ["Ta routine est complète — tu es en phase d'entretien.", "On ajuste seulement selon l'évolution de ta peau, scan après scan."],
+};
+
 // ── Restock : formule réelle (contenance ÷ dose × usages/jour). Produits = les VRAIS
 //    produits recommandés ; `elapsedDays` = jours écoulés depuis le scan de l'utilisateur. ──
 const DOSE: Record<string, number> = { nettoyant: 2, démaquillant: 2, serum: 0.5, creme: 1.2, hydratant: 1.2, spf: 1.2, exfoliant: 1 };
@@ -54,7 +62,7 @@ function estimate(p: RestockItem, elapsedDays: number) {
   return { left: Math.max(0, Math.round(total - elapsedDays)), pctUsed: Math.min(100, Math.round((elapsedDays / total) * 100)) };
 }
 
-export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn, history, priorities, lastAnswers, firstDateLabel, nextDateLabel, nextDateFull }: { name: string; score: number; routine: RoutineData; startedDaysAgo: number; loggedIn: boolean; history: HistPoint[]; priorities: PriorityData[]; lastAnswers: Answers; firstDateLabel: string | null; nextDateLabel: string; nextDateFull: string }) {
+export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn, history, priorities, lastAnswers, firstDateLabel, nextDateLabel, nextDateFull, phase }: { name: string; score: number; routine: RoutineData; startedDaysAgo: number; loggedIn: boolean; history: HistPoint[]; priorities: PriorityData[]; lastAnswers: Answers; firstDateLabel: string | null; nextDateLabel: string; nextDateFull: string; phase: number }) {
   const router = useRouter();
   // « Analyser » : re-scan = on réutilise les réponses du dernier scan, on ne refait
   // que la photo, et on reviendra au dashboard à la fin (cf. funnel store `rescan`).
@@ -118,6 +126,7 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
   const rawDaysToNext = NEXT_SCAN_DAYS - startedDaysAgo;
   const scanLocked = rawDaysToNext > 0;
   const daysToNext = Math.max(0, rawDaysToNext);
+  const planNext = PLAN_NEXT[phase] ?? PLAN_NEXT[1];
   // Graphe : ≥ 2 scans → courbe + aire (points 8 %→55 %, « aujourd'hui » au centre) ;
   // 1 scan → point « Départ » à gauche. Anneau « prochain scan » à droite (78 %).
   const yOf = (s: number) => 86 - Math.max(0, Math.min(100, s)) * 0.56; // % top : haut = score élevé
@@ -279,19 +288,17 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
           </div>
         </div>
 
-        {/* ── Routine plan (démo) ── */}
+        {/* ── Ton plan de routine — progression réelle selon ta phase (expérience déclarée) ── */}
         <div className="sec-label">Ton plan de routine</div>
         <div className="card plan">
           <div className="plan-tl">
-            <PlanNode state="done" label="Départ" />
-            <PlanNode state="now" label="BHA 2×/sem" />
-            <PlanNode label="BHA 3×/sem" />
-            <PlanNode label="+ Rétinoïde" />
-            <PlanNode label="Entretien" />
+            {PLAN_LABELS.map((label, i) => (
+              <PlanNode key={i} state={i < phase ? "done" : i === phase ? "now" : undefined} label={label} />
+            ))}
           </div>
           <div className="plan-next">
-            <div className="plan-next-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></svg><span><b>Semaine prochaine :</b> ton BHA passe à 3×/sem — si ta peau reste calme.</span></div>
-            <div className="plan-next-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z" /></svg><span><b>Dans ~2 semaines :</b> un rétinoïde rejoint la routine pour tes marques, une fois ta barrière bien solide.</span></div>
+            <div className="plan-next-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></svg><span><b>Maintenant :</b> {planNext[0]}</span></div>
+            <div className="plan-next-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z" /></svg><span><b>La suite :</b> {planNext[1]}</span></div>
           </div>
         </div>
 
