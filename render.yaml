@@ -40,3 +40,7 @@ services:
         sync: false
       - key: STRIPE_WEBHOOK_SECRET
         sync: false
+      # Code-gate viral : code épinglé sous la vidéo TikTok pour révéler les résultats.
+      # Non secret (partagé sur TikTok) → en clair ; reste côté serveur, hors bundle client.
+      - key: REVEAL_GATE_CODE
+        value: GLOW23
