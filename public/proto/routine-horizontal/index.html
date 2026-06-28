@@ -400,7 +400,7 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
 
   <div class="head">
     <h1 id="headTitle">Ta routine du jour.</h1>
-    <p>Glisse à droite pour garder le produit, à gauche pour en voir un autre dans la même catégorie.</p>
+    <p>Glisse la carte pour parcourir le produit. Garde-le ou change-le avec les boutons ♥ / ✗.</p>
   </div>
 
   <div class="stage">
@@ -420,7 +420,7 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
         <svg viewBox="0 0 24 24" fill="url(#gRose)"><defs><linearGradient id="gRose" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF7AAE"/><stop offset="1" stop-color="#F22A6E"/></linearGradient></defs><path d="M12 20.7c-.4 0-.8-.14-1.1-.4C6.3 16.45 3 13.6 3 9.9 3 7.2 5.1 5.2 7.6 5.2c1.5 0 2.95.74 3.9 1.9l.5.6.5-.6c.95-1.16 2.4-1.9 3.9-1.9 2.5 0 4.6 2 4.6 4.7 0 3.7-3.3 6.55-7.9 10.4-.3.26-.7.4-1.1.4Z"/></svg>
       </button>
     </div>
-    <div class="hint" id="hint">‹ tape les côtés pour changer de vue · glisse la carte pour garder / changer ›</div>
+    <div class="hint" id="hint">‹ glisse pour changer de vue · ♥ garder · ✗ changer ›</div>
   </div>
 
   <div class="tray" id="tray">
@@ -933,8 +933,8 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
   /* ── drag (Pointer Events : souris + tactile) ──
      Listeners move/up posés sur document (pas de setPointerCapture) : robuste
      même quand la carte est retirée du DOM en plein geste. */
-  /* modèle Tinder : GLISSER la carte = décider (like/dislike) · TAPER un côté = changer de vue ·
-     vertical = scroll natif du panneau (avis) · tap sur un point = aller à une vue. Tap vs glissé = deux gestes distincts, zéro conflit. */
+  /* GLISSER horizontalement = changer de vue (carrousel, suit le doigt + snap au seuil) ·
+     garder / changer le produit = boutons ♥ / ✗ · glissé vertical = scroll natif du panneau (avis) · tap sur un point = aller à une vue. */
   function attachCard(card){
     if(!card) return;
     var pager = card.querySelector('.card-pager');
@@ -942,12 +942,14 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
     var dots  = card.querySelectorAll('.card-dots i');
     var n     = card.querySelectorAll('.card-pane').length;
     if(!pager) return;
-    var keep = card.querySelector('.stamp.keep'), swap = card.querySelector('.stamp.swap');
-    var glowLike = card.querySelector('.card-glow.like'), glowNope = card.querySelector('.card-glow.nope');
-    var panel = 0, startX = 0, startY = 0, dx = 0, dy = 0, lock = null, dragging = false, downOnDot = false;
+    var panel = 0, startX = 0, startY = 0, dx = 0, dy = 0, lock = null, dragging = false, pagerW = 0;
+    var EASE = 'transform .38s cubic-bezier(.22,1,.36,1)';
 
+    /* Modèle de gestes : GLISSER horizontalement = changer de vue (carrousel).
+       Garder / changer le produit = boutons ♥ / ✗. Glissé vertical = scroll natif (avis). */
     function go(i){
       panel = Math.max(0, Math.min(n - 1, i));
+      track.style.transition = EASE;
       track.style.transform = 'translateX(' + (-panel * 100) + '%)';
       for(var k = 0; k < dots.length; k++) dots[k].classList.toggle('on', k === panel);
     }
@@ -955,47 +957,38 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
       dots[idx].addEventListener('click', function(e){ e.stopPropagation(); go(idx); });
     })(d); }
 
-    function paint(dir, r){
-      var sc = 'scale(' + (0.55 + 0.55 * r) + ')', g = Math.min(1, r * 1.25);
-      if(dir > 0){ if(keep){ keep.style.opacity = r; keep.style.transform = sc; } if(swap) swap.style.opacity = 0; if(glowLike) glowLike.style.opacity = g; if(glowNope) glowNope.style.opacity = 0; }
-      else { if(swap){ swap.style.opacity = r; swap.style.transform = sc; } if(keep) keep.style.opacity = 0; if(glowNope) glowNope.style.opacity = g; if(glowLike) glowLike.style.opacity = 0; }
-    }
-    function clearPaint(){ if(keep){ keep.style.opacity = 0; keep.style.transform = 'scale(.55)'; } if(swap){ swap.style.opacity = 0; swap.style.transform = 'scale(.55)'; } if(glowLike) glowLike.style.opacity = 0; if(glowNope) glowNope.style.opacity = 0; }
-
     function move(e){
       if(!dragging) return;
       dx = e.clientX - startX; dy = e.clientY - startY;
       if(lock === null){ if(Math.abs(dx) > 8 || Math.abs(dy) > 8) lock = Math.abs(dx) > Math.abs(dy) ? 'h' : 'v'; else return; }
-      if(lock === 'v') return;                       // scroll vertical natif (avis)
+      if(lock === 'v') return;                        // scroll vertical natif (avis)
       e.preventDefault();
-      card.style.transform = 'translate(' + dx + 'px,' + (Math.abs(dx) * 0.035) + 'px) rotate(' + (dx * 0.055) + 'deg)';
-      var r = Math.min(1, Math.abs(dx) / 95);
-      if(dx > 0) paint(1, r); else if(dx < 0) paint(-1, r); else clearPaint();
+      var off = dx;
+      if((panel === 0 && dx > 0) || (panel === n - 1 && dx < 0)) off = dx * 0.35;  // résistance aux extrémités
+      track.style.transition = 'none';
+      track.style.transform = 'translateX(' + (-panel * pagerW + off) + 'px)';
     }
-    function up(e){
+    function up(){
       document.removeEventListener('pointermove', move);
       document.removeEventListener('pointerup', up);
       document.removeEventListener('pointercancel', up);
       card.classList.remove('grabbing');
       if(!dragging) return; dragging = false;
-      /* TAP (aucun mouvement) sur un côté = changer de vue */
-      if(lock === null && Math.abs(dx) < 8 && Math.abs(dy) < 8){
-        if(downOnDot) return;                        // un tap sur un point est géré par le point
-        var rect = card.getBoundingClientRect();
-        if(e.clientX - rect.left > rect.width * 0.5) go(panel + 1); else go(panel - 1);
-        return;
+      if(lock === 'h'){
+        var th = Math.max(40, pagerW * 0.18);          // seuil ~18 % de la largeur
+        if(dx <= -th) go(panel + 1);
+        else if(dx >= th) go(panel - 1);
+        else go(panel);
+      } else {
+        go(panel);                                     // tap / vertical : on re-cale la vue courante
       }
-      if(lock !== 'h'){ card.style.transform = ''; clearPaint(); return; }
-      /* GLISSÉ horizontal = décision si au-delà du seuil, sinon retour */
-      if(dx > 95) decide(1);
-      else if(dx < -95) decide(-1);
-      else { card.style.transition = 'transform .45s cubic-bezier(.34,1.56,.64,1)'; card.style.transform = ''; setTimeout(function(){ card.style.transition = ''; }, 460); clearPaint(); }
     }
     card.addEventListener('pointerdown', function(e){
       if(animating) return;
+      if(e.target.closest && e.target.closest('.card-dots')) return;   // les points gèrent leur propre clic
       if(e.pointerType === 'mouse') e.preventDefault();
+      pagerW = pager.getBoundingClientRect().width;
       dragging = true; startX = e.clientX; startY = e.clientY; dx = 0; dy = 0; lock = null;
-      downOnDot = !!(e.target.closest && e.target.closest('.card-dots'));
       card.classList.remove('fresh'); card.classList.add('grabbing');
       document.addEventListener('pointermove', move);
       document.addEventListener('pointerup', up);
