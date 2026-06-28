@@ -54,7 +54,7 @@ function estimate(p: RestockItem, elapsedDays: number) {
   return { left: Math.max(0, Math.round(total - elapsedDays)), pctUsed: Math.min(100, Math.round((elapsedDays / total) * 100)) };
 }
 
-export function DashboardScreen({ name, score, routine, restock, startedDaysAgo, loggedIn, history, priorities, lastAnswers, firstDateLabel, nextDateLabel, nextDateFull }: { name: string; score: number; routine: RoutineData; restock: RestockItem[]; startedDaysAgo: number; loggedIn: boolean; history: HistPoint[]; priorities: PriorityData[]; lastAnswers: Answers; firstDateLabel: string | null; nextDateLabel: string; nextDateFull: string }) {
+export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn, history, priorities, lastAnswers, firstDateLabel, nextDateLabel, nextDateFull }: { name: string; score: number; routine: RoutineData; startedDaysAgo: number; loggedIn: boolean; history: HistPoint[]; priorities: PriorityData[]; lastAnswers: Answers; firstDateLabel: string | null; nextDateLabel: string; nextDateFull: string }) {
   const router = useRouter();
   // « Analyser » : re-scan = on réutilise les réponses du dernier scan, on ne refait
   // que la photo, et on reviendra au dashboard à la fin (cf. funnel store `rescan`).
@@ -149,10 +149,17 @@ export function DashboardScreen({ name, score, routine, restock, startedDaysAgo,
 
   const pickMood = (m: Mood) => { setMood(m); setTimeout(() => setModalOpen(false), 320); };
 
-  // Tous les consommables recommandés, du plus proche de la fin au plus loin. Chaque
-  // produit passe en alerte (style « low » + « Fini dans ») à ≤ 14 j de la fin ;
-  // sinon affichage neutre « Il te reste ~X j ».
-  const restockList = restock.map((p) => ({ p, e: estimate(p, startedDaysAgo) }))
+  // Restock = consommables de la routine AFFICHÉE (validée au swipe si dispo, sinon
+  // serveur) → toujours cohérent avec « Tonight ». On reconstruit les RestockItem depuis
+  // les produits choisis. Alerte (« low » + « Fini dans ») à ≤ 14 j ; sinon « Il te reste ~X j ».
+  const restockItems: RestockItem[] = [...effRoutine.day, ...effRoutine.night]
+    .map((s): RestockItem | null => {
+      const p = s.options[0];
+      if (!p || !p.size_ml) return null;
+      return { name: p.name, asin: p.asin ?? "", icon: s.icon, category: p.category ?? "", frequency: p.frequency ?? "daily", moment: p.moment ?? "both", size_ml: p.size_ml };
+    })
+    .filter((x): x is RestockItem => x !== null);
+  const restockList = restockItems.map((p) => ({ p, e: estimate(p, startedDaysAgo) }))
     .sort((a, b) => a.e.left - b.e.left);
 
   return (

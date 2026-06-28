@@ -83,7 +83,6 @@ export default async function Page() {
       name={name}
       score={score}
       routine={reco.routine}
-      restock={reco.restock}
       startedDaysAgo={startedDaysAgo}
       loggedIn={!!userId}
       history={history}

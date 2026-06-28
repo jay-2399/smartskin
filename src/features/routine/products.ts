@@ -31,6 +31,13 @@ export interface Product {
   actives: string[];
   unsafePregnancy?: boolean;
   unsafeSensitive?: boolean;
+  // ── Champs restock (consommable) : portés par le produit pour que le restock du
+  //    dashboard suive la routine VALIDÉE au swipe (et non une routine recalculée). ──
+  asin?: string;
+  size_ml?: number | null;
+  frequency?: string;
+  moment?: string;
+  category?: string;
   // ── Avis clients (carte du reveal) — alimentés par couche3 du catalogue ──
   rating?: number; // note moyenne /5 (ex. 4.8)
   reviewCount?: number; // nb total d'avis (ex. 102671)

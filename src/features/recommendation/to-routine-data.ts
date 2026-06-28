@@ -120,6 +120,12 @@ function toUiProduct(p: CatalogProduct, profile: EngineProfile, llmWhy: Map<numb
     actives: p.keyActives ? p.keyActives.split(/[\/,]/).map((s) => s.trim()).filter(Boolean) : [],
     unsafePregnancy: p.unsafePregnancy || undefined,
     unsafeSensitive: p.unsafeSensitive || undefined,
+    // ── Champs restock (consommable) → le restock du dashboard suit la routine validée. ──
+    asin: p.asin,
+    size_ml: p.size_ml ?? null,
+    frequency: p.frequency,
+    moment: p.moment,
+    category: p.category,
     // ── Avis (couche3) → carte du reveal. `p.reviews` = NOMBRE total ; `couche3.reviews` = liste. ──
     rating: p.rating,
     reviewCount: p.reviews,
