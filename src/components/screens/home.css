@@ -174,10 +174,13 @@ html { scroll-behavior:smooth; }
   @media (max-width:980px) {
     /* mobile : fond continu (pas de bande au-dessus) → la carte hero se fond dans la section */
     :scope { background:var(--bg); }
-    .hero-wrap { padding:0 0 36px; }
+    .hero-wrap { padding:0; }
     .hero { grid-template-columns:1fr; min-height:0; padding-bottom:0; position:relative; overflow:hidden; border-radius:0; box-shadow:none; background:var(--bg); }
     .nav { padding:max(env(safe-area-inset-top), 16px) 22px 0; }
     .copy { padding:34px 30px 0; max-width:none; text-align:center; }
+    /* preuve sociale en colonne : avatars au-dessus du texte */
+    .social { flex-direction:column; gap:10px; }
+    .social-tx { text-align:center; }
     .reassure, .cta-zone { justify-content:center; }
     .subtitle { margin-left:auto; margin-right:auto; }
     .woman { position:relative; z-index:1; display:block; height:auto; width:118%; max-width:none;
