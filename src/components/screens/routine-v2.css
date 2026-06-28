@@ -10,10 +10,10 @@
    ────────────────────────────────────────────────────────────────────────── */
 
 .routine-v2 {
-  /* hauteur d'un téléphone (comme la maquette `.screen{height:932px}`) : plancher
-     pour que la carte + boutons + plateau ne soient jamais écrasés ; sur une
-     fenêtre plus courte (desktop), la PAGE défile au lieu de tout compresser. */
-  position:relative; min-height:max(100dvh, 880px); max-width:480px; margin:0 auto; display:flex; flex-direction:column;
+  /* Mobile : on tient EXACTEMENT dans le viewport (100dvh) → carte + boutons + indice
+     visibles sans rognage (overflow:hidden ci-dessous coupait le bas avec l'ancien
+     plancher 880px sur iPhone). Le plancher est réservé au desktop (cf. média plus bas). */
+  position:relative; min-height:100dvh; max-width:480px; margin:0 auto; display:flex; flex-direction:column;
   background:var(--bg); color:var(--ink); font-family:var(--fd);
   -webkit-font-smoothing:antialiased; overflow:hidden;
   /* tokens manquants côté app + mono → Manrope */
@@ -21,6 +21,10 @@
   --keep:#3A8F6F;
   --love:#FF4E8A; --love-d:#F22A6E; --no:#FF4D4D; --no-d:#E33636;
   --gold:#F5A623; --gold-d:#E08A00;
+}
+/* Desktop/tablette : on garde le plancher (carte non écrasée sur fenêtre courte). */
+@media (min-width: 481px) {
+  .routine-v2 { min-height:max(100dvh, 880px); }
 }
 
 .routine-loading {
@@ -40,8 +44,8 @@
 .rv-err p { font-size:14px; }
 .rv-err button { padding:10px 18px; border-radius:100px; border:1px solid rgba(0,0,0,0.12); background:var(--card); color:var(--ink); cursor:pointer; font-family:var(--fd); }
 
-.nav { position:relative; padding:52px 22px 0; display:flex; align-items:center; gap:14px; animation:rvRise .5s cubic-bezier(.22,1,.36,1) both .05s; }
-.rv-nav-logo { position:absolute; left:50%; top:52px; transform:translateX(-50%); height:40px; display:flex; align-items:center; pointer-events:none; }
+.nav { position:relative; padding:max(env(safe-area-inset-top), 16px) 22px 0; display:flex; align-items:center; gap:14px; animation:rvRise .5s cubic-bezier(.22,1,.36,1) both .05s; }
+.rv-nav-logo { position:absolute; left:50%; top:max(env(safe-area-inset-top), 16px); transform:translateX(-50%); height:40px; display:flex; align-items:center; pointer-events:none; }
 .rv-nav-logo img { height:25px; width:auto; display:block; }
 .rv-back { width:40px; height:40px; border-radius:50%; background:var(--card); border:1px solid rgba(0,0,0,0.05); box-shadow:0 1px 5px rgba(0,0,0,0.06); display:flex; align-items:center; justify-content:center; color:var(--ink); cursor:pointer; flex-shrink:0; }
 .nav-step { margin-left:auto; font-family:var(--fm); font-size:10px; color:var(--space); letter-spacing:0.1em; }
