@@ -19,4 +19,7 @@ html, body {
   color:var(--ink);
   font-family:var(--fd);
   -webkit-font-smoothing:antialiased;
+  /* iOS : coupe le rebond élastique qui révèle une bande claire en haut/bas
+     quand on tire au-delà du contenu (sur toutes les pages). */
+  overscroll-behavior:none;
 }
