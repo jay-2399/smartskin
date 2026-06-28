@@ -93,7 +93,8 @@ export function CodeGate() {
       <div className="cg-card">
         <div className="cg-status"><span className="dot" />Analyse terminée</div>
         <div className="cg-emblem">
-          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 L13.9 10.1 L22 12 L13.9 13.9 L12 22 L10.1 13.9 L2 12 L10.1 10.1 Z" /></svg>
+          <span className="cg-ring"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" /></svg></span>
+          <svg className="cg-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 L13.9 10.1 L22 12 L13.9 13.9 L12 22 L10.1 13.9 L2 12 L10.1 10.1 Z" /></svg>
         </div>
         <h3 className="cg-title">Tes résultats t&apos;attendent.</h3>
         <p className="cg-sub">Saisis le code de ta vidéo TikTok pour les révéler.</p>
