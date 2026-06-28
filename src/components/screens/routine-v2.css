@@ -102,7 +102,7 @@
 .card-brand { font-family:var(--fm); font-size:8.5px; letter-spacing:0.1em; text-transform:uppercase; color:var(--space); }
 .card-name { font-weight:800; font-size:18px; color:var(--ink); letter-spacing:-0.03em; line-height:1.12; margin-top:5px; flex-shrink:0; }
 .scroll-wrap { position:relative; flex:1; min-height:0; display:flex; margin-top:11px; }
-.card-scroll { flex:1; min-height:0; overflow-y:auto; padding-right:2px; scrollbar-width:none; -webkit-overflow-scrolling:touch; }
+.card-scroll { flex:1; min-height:0; overflow-y:auto; padding-right:2px; scrollbar-width:none; -webkit-overflow-scrolling:touch; touch-action:pan-y; overscroll-behavior:contain; }
 .scroll-fade { position:absolute; left:0; right:0; bottom:0; height:42px; background:linear-gradient(to bottom, rgba(255,255,255,0), #FFFFFF); pointer-events:none; z-index:2; }
 .card-scroll::-webkit-scrollbar { display:none; }
 .why-title { display:flex; align-items:center; gap:6px; font-weight:700; font-size:11px; color:var(--ink); letter-spacing:0.005em; margin-bottom:7px; }
