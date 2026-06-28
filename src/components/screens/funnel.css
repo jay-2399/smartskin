@@ -479,31 +479,40 @@
 /* ═══════ Code-gate — overlay viral TikTok par-dessus le reveal ═══════ */
 .codegate { position:fixed; inset:0; z-index:1000; display:flex; align-items:center; justify-content:center; padding:24px;
   background:
-    radial-gradient(130% 68% at 50% 6%, rgba(166,195,214,0.30), transparent 52%),
-    radial-gradient(100% 55% at 50% 108%, rgba(166,195,214,0.10), transparent 70%),
-    rgba(18,20,24,0.52);
-  -webkit-backdrop-filter:blur(12px) saturate(1.08); backdrop-filter:blur(12px) saturate(1.08);
+    radial-gradient(130% 66% at 50% 2%, rgba(166,195,214,0.42), transparent 56%),
+    radial-gradient(96% 50% at 50% 114%, rgba(245,166,35,0.10), transparent 72%),
+    rgba(238,241,245,0.58);
+  -webkit-backdrop-filter:blur(16px) saturate(1.1); backdrop-filter:blur(16px) saturate(1.1);
   transition:opacity 0.6s ease, visibility 0.6s; }
 .codegate::before { content:''; position:absolute; inset:0; pointer-events:none; opacity:0.5; mix-blend-mode:soft-light;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E"); }
 .codegate.unlocked { opacity:0; visibility:hidden; pointer-events:none; }
 
 .cg-card { position:relative; width:100%; max-width:332px; padding:30px 26px 24px; text-align:center;
-  background:linear-gradient(180deg, rgba(255,255,255,0.97), rgba(247,249,252,0.94));
-  border:1px solid rgba(255,255,255,0.8); border-radius:30px;
-  box-shadow:0 2px 8px rgba(0,0,0,0.10), 0 44px 90px rgba(8,10,16,0.50), inset 0 1px 0 rgba(255,255,255,0.95);
+  background:linear-gradient(180deg, rgba(255,255,255,0.85), rgba(248,250,253,0.78));
+  -webkit-backdrop-filter:blur(28px) saturate(1.3);
+  backdrop-filter:blur(28px) saturate(1.3);
+  border:1px solid rgba(255,255,255,0.9); border-radius:30px;
+  box-shadow:0 2px 6px rgba(40,60,90,0.06), 0 26px 60px rgba(40,60,90,0.20), inset 0 1px 0 rgba(255,255,255,0.9);
   animation:cgIn 0.7s cubic-bezier(0.22,1,0.36,1) both 0.08s; }
 .cg-card::after { content:''; position:absolute; top:0; left:24px; right:24px; height:1px;
   background:linear-gradient(90deg, transparent, rgba(166,195,214,0.75), transparent); }
 @keyframes cgIn { from { opacity:0; transform:translateY(18px) scale(0.96); } to { opacity:1; transform:none; } }
 
-.cg-status { display:inline-flex; align-items:center; gap:7px; font-family:var(--fm); font-size:8.5px; letter-spacing:0.22em; text-transform:uppercase; color:var(--accent); font-weight:500; margin-bottom:15px; }
-.cg-status .dot { width:6px; height:6px; border-radius:50%; background:var(--accent); animation:cgPulse 1.9s ease-out infinite; }
+.cg-status { display:inline-flex; align-items:center; gap:7px; font-family:var(--fm); font-size:8.5px; letter-spacing:0.22em; text-transform:uppercase; color:var(--accent-d); font-weight:600; margin-bottom:15px; }
+.cg-status .dot { width:6px; height:6px; border-radius:50%; background:var(--accent-d); animation:cgPulse 1.9s ease-out infinite; }
 @keyframes cgPulse { 0% { box-shadow:0 0 0 0 rgba(166,195,214,0.55); } 70% { box-shadow:0 0 0 8px rgba(166,195,214,0); } 100% { box-shadow:0 0 0 0 rgba(166,195,214,0); } }
 
-.cg-emblem { width:56px; height:56px; margin:0 auto 18px; border-radius:50%; background:var(--ink); color:var(--accent);
-  display:flex; align-items:center; justify-content:center; box-shadow:0 10px 24px rgba(26,29,33,0.30); }
-.cg-emblem svg { width:24px; height:24px; }
+.cg-emblem { position:relative; width:60px; height:60px; margin:2px auto 20px; border-radius:50%;
+  background:radial-gradient(circle at 50% 34%, #2c313b, var(--ink)); color:var(--accent);
+  display:flex; align-items:center; justify-content:center;
+  box-shadow:0 12px 26px rgba(26,29,33,0.34), 0 0 26px rgba(166,195,214,0.22), inset 0 1px 0 rgba(255,255,255,0.08); }
+.cg-emblem .cg-star { width:25px; height:25px; filter:drop-shadow(0 0 5px rgba(166,195,214,0.85)); animation:cgStarPulse 2.6s ease-in-out infinite; }
+@keyframes cgStarPulse { 0%,100% { transform:scale(1); opacity:0.95; } 50% { transform:scale(1.1); opacity:1; } }
+.cg-ring { position:absolute; inset:-7px; pointer-events:none; }
+.cg-ring svg { width:100%; height:100%; }
+.cg-ring circle { fill:none; stroke:rgba(166,195,214,0.5); stroke-width:1; stroke-dasharray:3 7; transform-origin:center; animation:cgRingSpin 16s linear infinite; }
+@keyframes cgRingSpin { to { transform:rotate(360deg); } }
 
 .cg-title { font-weight:800; font-size:23px; letter-spacing:-0.04em; color:var(--ink); line-height:1.06; }
 .cg-sub { font-size:12.5px; line-height:1.5; color:var(--graphite); margin-top:9px; }
@@ -511,7 +520,7 @@
 .cg-cells { display:flex; gap:8px; justify-content:center; margin-top:22px; }
 .cg-cells.err { animation:cgShake 0.4s; }
 @keyframes cgShake { 0%,100%{transform:translateX(0);} 20%,60%{transform:translateX(-7px);} 40%,80%{transform:translateX(7px);} }
-.cg-cell { width:46px; height:56px; padding:0; border:1.5px solid #D3D6E0; border-radius:13px; background:var(--bg);
+.cg-cell { width:46px; height:56px; padding:0; border:1.5px solid #D3D6E0; border-radius:13px; background:rgba(255,255,255,0.55);
   text-align:center; font-family:var(--fm); font-size:22px; font-weight:600; color:var(--ink); text-transform:uppercase;
   caret-color:var(--accent); transition:border-color 0.18s, box-shadow 0.18s, background 0.18s, transform 0.18s; }
 .cg-cell:focus { outline:none; border-color:var(--accent); box-shadow:0 0 0 3px rgba(166,195,214,0.25); background:#fff; }
