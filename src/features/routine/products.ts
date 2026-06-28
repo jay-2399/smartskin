@@ -65,6 +65,7 @@ export interface RestockItem {
   name: string;
   asin: string;
   icon: IconKey;
+  img?: string;
   category: string;
   frequency: string;
   moment: string;

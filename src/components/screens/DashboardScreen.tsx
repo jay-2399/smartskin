@@ -188,7 +188,7 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
     .map((s): RestockItem | null => {
       const p = s.options[0];
       if (!p || !p.size_ml) return null;
-      return { name: p.name, asin: p.asin ?? "", icon: s.icon, category: p.category ?? "", frequency: p.frequency ?? "daily", moment: p.moment ?? "both", size_ml: p.size_ml };
+      return { name: p.name, asin: p.asin ?? "", icon: s.icon, img: p.img, category: p.category ?? "", frequency: p.frequency ?? "daily", moment: p.moment ?? "both", size_ml: p.size_ml };
     })
     .filter((x): x is RestockItem => x !== null);
   const restockList = restockItems.map((p) => ({ p, e: estimate(p, startedDaysAgo) }))
@@ -333,7 +333,7 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
               const low = e.left <= 14;
               return (
                 <div key={i} className={`card prod ${low ? "low" : ""}`}>
-                  <div className="prod-thumb"><Flacon icon={p.icon} /></div>
+                  <div className="prod-thumb">{p.img ? <img src={p.img} alt="" /> : <Flacon icon={p.icon} />}</div>
                   <div className="prod-info">
                     <div className="prod-name">{p.name}</div>
                     <div className={`prod-left ${low ? "low" : ""}`}><span className="pip" />{low ? `Fini dans ~${e.left} jours` : `Il te reste ~${e.left} jours`}</div>
