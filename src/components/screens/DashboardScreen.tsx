@@ -1,7 +1,10 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import { useResult } from "@/features/analysis/resultStore";
 import type { IconKey, RoutineData, RestockItem } from "@/features/routine/products";
+import { useFunnel } from "@/features/funnel/store";
+import type { Answers } from "@/features/funnel/types";
 import "./dashboard.css";
 
 /* Dashboard — espace de suivi post-achat (port de dashboard_smartskin/dashboard.html,
@@ -11,6 +14,11 @@ import "./dashboard.css";
 
 type Mood = "good" | "sensitive" | "irritated" | "breakout";
 type TnStep = { cat: string; name: string; use: string; img?: string; icon: IconKey; pausable: boolean };
+// Historique (1 point/scan) pour la courbe + données d'une priorité dynamique.
+type HistPoint = { date: string; score: number };
+type PriorityData = { name: string; low: string; high: string; now: number; was: number | null; tip: string; prevTip: string | null };
+// Majuscule à la 1ʳᵉ lettre (les `tip` du bilan sont en minuscules).
+const cap = (s: string) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
 
 // ── Icônes flacon (par catégorie) ──
 function Flacon({ icon }: { icon: IconKey }) {
@@ -31,21 +39,8 @@ const Moon = () => (<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.
 const Check = () => (<svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M2.5 7.5l3 3 6-6.5" /></svg>);
 const Cart = () => (<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round"><path d="M6 7.5h13l-1.2 9.2a2.2 2.2 0 0 1-2.2 1.9H9.4a2.2 2.2 0 0 1-2.2-1.9L6 7.5Z" /><path d="M9 7.5a3 3 0 0 1 6 0" /></svg>);
 
-// ── Courbe : trajectoire de démo dont le DERNIER point = le vrai score. ──
-const DELTAS = [-14, -13, -15, -12, -10, -11, -8, -6, -3, 0];
-function buildChart(score: number) {
-  const scores = DELTAS.map((d) => Math.max(0, score + d));
-  const n = scores.length;
-  const lo = Math.min(...scores) - 4, hi = Math.max(...scores) + 3;
-  const x0 = 4, x1 = 68, y0 = 14, y1 = 82;
-  const X = (i: number) => x0 + (x1 - x0) * (i / (n - 1));
-  const Y = (v: number) => y0 + (y1 - y0) * (1 - (v - lo) / (hi - lo));
-  const pts = scores.map((v, i) => [X(i), Y(v)] as const);
-  const line = "M" + pts.map((q) => `${q[0].toFixed(2)} ${q[1].toFixed(2)}`).join(" L");
-  const last = pts[n - 1];
-  const area = `${line} L${last[0].toFixed(2)} 100 L${pts[0][0].toFixed(2)} 100 Z`;
-  return { line, area, dotX: last[0], dotY: last[1], trend: score - scores[0] };
-}
+// Cadence de re-scan : hebdomadaire (7 j) → repère du prochain scan.
+const NEXT_SCAN_DAYS = 7;
 
 // ── Restock : formule réelle (contenance ÷ dose × usages/jour). Produits = les VRAIS
 //    produits recommandés ; `elapsedDays` = jours écoulés depuis le scan de l'utilisateur. ──
@@ -59,12 +54,20 @@ function estimate(p: RestockItem, elapsedDays: number) {
   return { left: Math.max(0, Math.round(total - elapsedDays)), pctUsed: Math.min(100, Math.round((elapsedDays / total) * 100)) };
 }
 
-export function DashboardScreen({ name, score, routine, restock, startedDaysAgo, loggedIn }: { name: string; score: number; routine: RoutineData; restock: RestockItem[]; startedDaysAgo: number; loggedIn: boolean }) {
+export function DashboardScreen({ name, score, routine, restock, startedDaysAgo, loggedIn, history, priorities, lastAnswers }: { name: string; score: number; routine: RoutineData; restock: RestockItem[]; startedDaysAgo: number; loggedIn: boolean; history: HistPoint[]; priorities: PriorityData[]; lastAnswers: Answers }) {
+  const router = useRouter();
+  // « Analyser » : re-scan = on réutilise les réponses du dernier scan, on ne refait
+  // que la photo, et on reviendra au dashboard à la fin (cf. funnel store `rescan`).
+  const startRescan = () => {
+    useFunnel.setState({ answers: lastAnswers, rescan: true });
+    router.push("/capture");
+  };
   const [moment, setMoment] = useState<"evening" | "morning">("evening");
   const [mood, setMood] = useState<Mood | null>(null);
   const [eveningDone, setEveningDone] = useState<Record<number, boolean>>({});
   const [morningDone, setMorningDone] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
+  const [lockOpen, setLockOpen] = useState(false); // modal « patiente » si re-scan trop tôt
   const [today, setToday] = useState("");
   // Routine VALIDÉE au reveal (gardée en mémoire) → prioritaire sur celle recalculée
   // côté serveur. Lue APRÈS le montage (SSR = prop) pour éviter un mismatch d'hydratation.
@@ -107,8 +110,22 @@ export function DashboardScreen({ name, score, routine, restock, startedDaysAgo,
   const evening = useMemo(() => toSteps(effRoutine.night), [effRoutine]);
   const morning = useMemo(() => toSteps(effRoutine.day), [effRoutine]);
 
-  const chart = useMemo(() => buildChart(score), [score]);
   const goal = Math.min(100, score + 6);
+  // Verrou du re-scan : le décompte va jusqu'au jour J (0). Tant que > 0 → scan bloqué
+  // (un clic « Analyser » ouvre le modal « patiente »). À 0 ou moins → analyse possible.
+  const rawDaysToNext = NEXT_SCAN_DAYS - startedDaysAgo;
+  const scanLocked = rawDaysToNext > 0;
+  const daysToNext = Math.max(0, rawDaysToNext);
+  // Courbe : hauteur d'un point dans le plot (% du haut) — score élevé = haut.
+  const yOf = (s: number) => 80 - Math.max(0, Math.min(100, s)) * 0.66;
+  // ≥ 2 scans → un point par scan (répartis 6 %→55 %, le dernier près du repère),
+  // reliés par une ligne. 1 scan (ou compte neuf) → point unique à gauche.
+  const multi = history.length >= 2;
+  const pts = multi
+    ? history.map((h, i) => ({ x: 8 + (58 * i) / (history.length - 1), y: yOf(h.score) }))
+    : [{ x: 8, y: yOf(score) }];
+  const last = pts[pts.length - 1];
+  const nextX = multi ? 86 : 52; // position horizontale du repère « prochain scan »
   const isMorning = moment === "morning";
   const skip = !isMorning && (mood === "irritated" || mood === "sensitive");
   const hasExfo = evening.some((s) => s.pausable);
@@ -128,8 +145,10 @@ export function DashboardScreen({ name, score, routine, restock, startedDaysAgo,
 
   const pickMood = (m: Mood) => { setMood(m); setTimeout(() => setModalOpen(false), 320); };
 
-  const lowRestock = restock.map((p) => ({ p, e: estimate(p, startedDaysAgo) }))
-    .filter((x) => x.e.left <= 14)
+  // Tous les consommables recommandés, du plus proche de la fin au plus loin. Chaque
+  // produit passe en alerte (style « low » + « Fini dans ») à ≤ 14 j de la fin ;
+  // sinon affichage neutre « Il te reste ~X j ».
+  const restockList = restock.map((p) => ({ p, e: estimate(p, startedDaysAgo) }))
     .sort((a, b) => a.e.left - b.e.left);
 
   return (
@@ -143,42 +162,62 @@ export function DashboardScreen({ name, score, routine, restock, startedDaysAgo,
       </div>
 
       <div className="dash-scroll">
-        {/* ── Skin score (hero) — score réel, courbe démo ── */}
+        {/* ── Skin score (hero) — score réel. 1 seul scan → pas de courbe : point unique
+             à gauche (= score actuel) + repère vertical du futur scan (la courbe viendra
+             avec l'historique). ── */}
         <div className="card chart-card">
           <div className="ch-head">
             <div>
               <div className="ch-label">Skin score</div>
-              <div className="ch-num">{score}{chart.trend > 0 && <span className="ch-trend">↑ +{chart.trend}</span>}</div>
+              <div className="ch-num">{score}</div>
             </div>
-            <button className="ch-go" aria-label="Historique"><svg viewBox="0 0 16 16" fill="none"><path d="M5 3l5 5-5 5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg></button>
+            {/* Objectif déplacé dans l'en-tête → toute la largeur du plot est libre. */}
+            <div className="ch-goal">
+              <span className="ch-goal-k">Objectif</span>
+              <span className="ch-goal-v">{goal}</span>
+              <span className="ch-goal-s">{goal - score} pts restants</span>
+            </div>
           </div>
           <div className="ch-plot">
-            <svg className="ch-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-              <defs><linearGradient id="chArea" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor="#A6C3D6" stopOpacity="0.45" /><stop offset="100%" stopColor="#A6C3D6" stopOpacity="0" /></linearGradient></defs>
-              <path d={chart.area} fill="url(#chArea)" />
-              <path d={chart.line} fill="none" stroke="#7FA6BE" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" />
-            </svg>
-            <span className="ch-guide" style={{ left: `${chart.dotX}%`, top: `${chart.dotY}%`, height: `${100 - chart.dotY}%` }} />
-            <span className="ch-dot" style={{ left: `${chart.dotX}%`, top: `${chart.dotY}%` }} />
-            <div className="ch-side">
-              <div className="gl-k">Objectif</div>
-              <div className="gl-v">{goal}</div>
-              <div className="gl-s">{goal - score} pts restants</div>
-            </div>
+            {/* ≥ 2 scans : la ligne reliant les points + la projection (pointillés)
+                vers le prochain scan (coords en % du plot). */}
+            {multi && (
+              <svg className="ch-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <polyline points={pts.map((p) => `${p.x.toFixed(2)} ${p.y.toFixed(2)}`).join(" ")} fill="none" stroke="#7FA6BE" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" vectorEffect="non-scaling-stroke" />
+                <line x1={last.x} y1={last.y} x2={nextX} y2={last.y} stroke="#7FA6BE" strokeWidth="1.6" strokeDasharray="3 3" opacity="0.55" vectorEffect="non-scaling-stroke" />
+              </svg>
+            )}
+            {/* points des scans précédents (cas courbe) */}
+            {pts.slice(0, -1).map((p, i) => (
+              <span key={i} className="ch-dot past" style={{ left: `${p.x}%`, top: `${p.y}%` }} />
+            ))}
+            {/* dernier point = aujourd'hui (valeur au-dessus ; « Aujourd'hui » en mode 1 scan) */}
+            <span className="ch-nowval" style={{ left: `${last.x}%`, top: `calc(${last.y}% - 16px)` }}>{score}</span>
+            <span className="ch-dot" style={{ left: `${last.x}%`, top: `${last.y}%` }} />
+            {!multi && <span className="ch-nowlab" style={{ left: "3%", top: `calc(${last.y}% + 9px)` }}>Aujourd’hui</span>}
+            {/* repère du prochain scan : anneau creux + ligne verticale + label en bas */}
+            <span className="ch-ring" style={{ left: `${nextX}%`, top: `${last.y}%` }} />
+            <span className="ch-guide" style={{ left: `${nextX}%`, top: `${last.y}%`, height: `calc(100% - ${last.y}%)` }} />
+            <span className="ch-flab" style={{ left: `${nextX}%` }}>Prochain scan</span>
           </div>
           <div className="ch-ticks">{Array.from({ length: 34 }, (_, i) => <i key={i} />)}</div>
           <div className="skin-next">
             <div className="skin-next-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2" /><circle cx="12" cy="12" r="3" /></svg></div>
-            <div className="skin-next-tx"><b>Prochain scan dans 18 jours</b><div>Pour ajuster ton protocole à mesure que ta peau évolue.</div></div>
-            <button className="skin-next-cta">Analyser</button>
+            <div className="skin-next-tx"><b>{scanLocked ? `Prochain scan dans ${daysToNext} jour${daysToNext > 1 ? "s" : ""}` : "Ton analyse est disponible"}</b><div>{scanLocked ? "Pour mesurer un vrai changement de ta peau." : "Refais un scan pour mettre à jour ton suivi."}</div></div>
+            <button className={`skin-next-cta ${scanLocked ? "locked" : ""}`} onClick={() => (scanLocked ? setLockOpen(true) : startRescan())}>
+              {scanLocked && <svg className="cta-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V7a4 4 0 0 1 8 0v4" /></svg>}
+              Analyser
+            </button>
           </div>
         </div>
 
-        {/* ── 3 priorités (démo) ── */}
-        <div className="sec-label">Tes 3 priorités</div>
-        <Priority name="Sébum" pill="En progrès" tip="Modéré" tipLeft={38} segLeft={38} segW={26} was={64} now={38} left="RÉGULÉ" right="EXCÈS" comment={<><b>Modéré → Léger</b> · ton sébum se régule bien depuis ton dernier scan.</>} />
-        <Priority name="Marques" pill="En progrès" tip="S'estompe" tipLeft={52} segLeft={52} segW={20} was={72} now={52} left="NET" right="MARQUÉ" comment={<><b>Marqué → S’estompe</b> · les marques post-acné s’éclaircissent.</>} />
-        <Priority name="Barrière" pill="En progrès" tip="Solide" tipLeft={34} segLeft={34} segW={30} was={64} now={34} left="SOLIDE" right="FRAGILE" comment={<><b>Fragile → Solide</b> · ta barrière est nettement plus résistante.</>} />
+        {/* ── Priorités dynamiques (top préoccupations du scan + évolution) ── */}
+        {priorities.length > 0 && (
+          <>
+            <div className="sec-label">Tes priorités</div>
+            {priorities.map((p, i) => <Priority key={i} data={p} multiScan={multi} />)}
+          </>
+        )}
 
         {/* ── Tonight — routine réelle (dynamique) ── */}
         <div className="card tonight">
@@ -240,21 +279,24 @@ export function DashboardScreen({ name, score, routine, restock, startedDaysAgo,
           </div>
         </div>
 
-        {/* ── Running low (restock, formule réelle / données démo) ── */}
-        {lowRestock.length > 0 && (
+        {/* ── Recharges : tous les consommables, alerte (low) à ≤ 14 j ── */}
+        {restockList.length > 0 && (
           <div className="restock-wrap">
-            <div className="sec-label">Bientôt fini</div>
-            {lowRestock.map(({ p, e }, i) => (
-              <div key={i} className="card prod low">
-                <div className="prod-thumb"><Flacon icon={p.icon} /></div>
-                <div className="prod-info">
-                  <div className="prod-name">{p.name}</div>
-                  <div className="prod-left low"><span className="pip" />Fini dans ~{e.left} jours</div>
-                  <div className="restock-bar"><i style={{ width: `${e.pctUsed}%` }} /></div>
+            <div className="sec-label">Tes recharges</div>
+            {restockList.map(({ p, e }, i) => {
+              const low = e.left <= 14;
+              return (
+                <div key={i} className={`card prod ${low ? "low" : ""}`}>
+                  <div className="prod-thumb"><Flacon icon={p.icon} /></div>
+                  <div className="prod-info">
+                    <div className="prod-name">{p.name}</div>
+                    <div className={`prod-left ${low ? "low" : ""}`}><span className="pip" />{low ? `Fini dans ~${e.left} jours` : `Il te reste ~${e.left} jours`}</div>
+                    <div className="restock-bar"><i style={{ width: `${e.pctUsed}%` }} /></div>
+                  </div>
+                  <a className="prod-buy" href={`https://www.amazon.com/dp/${p.asin}`} target="_blank" rel="noopener noreferrer"><Cart />Racheter</a>
                 </div>
-                <a className="prod-buy" href={`https://www.amazon.com/dp/${p.asin}`} target="_blank" rel="noopener noreferrer"><Cart />Racheter</a>
-              </div>
-            ))}
+              );
+            })}
           </div>
         )}
       </div>
@@ -275,24 +317,50 @@ export function DashboardScreen({ name, score, routine, restock, startedDaysAgo,
           <button className="ci-skip" onClick={() => setModalOpen(false)}>Plus tard</button>
         </div>
       </div>
+
+      {/* ── Modal « patiente » : re-scan bloqué tant que le décompte n'est pas fini ── */}
+      <div className={`ci-modal ${lockOpen ? "" : "hidden"}`}>
+        <div className="ci-scrim" onClick={() => setLockOpen(false)} />
+        <div className="ci-sheet">
+          <button className="ci-x" aria-label="Fermer" onClick={() => setLockOpen(false)}><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M2 2l10 10M12 2L2 12" /></svg></button>
+          <div className="ci-lock-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V7a4 4 0 0 1 8 0v4" /></svg></div>
+          <div className="ci-title">Encore {daysToNext} jour{daysToNext > 1 ? "s" : ""} à patienter</div>
+          <div className="ci-sub">Ta peau évolue sur environ une semaine. On attend la prochaine analyse pour mesurer un vrai changement — pas du bruit au jour le jour.</div>
+          <button className="ci-skip" onClick={() => setLockOpen(false)}>Compris</button>
+        </div>
+      </div>
     </div>
   );
 }
 
-// ── Carte « priorité » (spectre + avant/maintenant + commentaire) ──
-function Priority(props: { name: string; pill: string; tip: string; tipLeft: number; segLeft: number; segW: number; was: number; now: number; left: string; right: string; comment: React.ReactNode }) {
+// ── Carte « priorité » DYNAMIQUE (spectre + avant/maintenant + commentaire).
+//    `now`/`was` sont déjà des % (LEVEL_TO_PERCENT) ; niveau bas = mieux (1 = idéal). ──
+function Priority({ data, multiScan }: { data: PriorityData; multiScan: boolean }) {
+  const hasPrev = multiScan && data.was != null;
+  const was = data.was ?? data.now;
+  const improving = hasPrev && data.now < was;
+  const worsening = hasPrev && data.now > was;
+  const pill = !hasPrev ? "1ᵉ scan" : improving ? "En progrès" : worsening ? "À surveiller" : "Stable";
+  const pillCls = improving ? "up" : worsening ? "down" : "flat";
+  const segLeft = Math.min(was, data.now);
+  const segW = Math.abs(data.now - was);
   return (
     <div className="card p3card">
-      <div className="p3-head"><span className="p3-name">{props.name}</span><span className="p3-pill up">{props.pill}</span></div>
-      <div className="p3-tip-row"><span className="p3-tip" style={{ left: `${props.tipLeft}%` }}>{props.tip}</span></div>
+      <div className="p3-head"><span className="p3-name">{data.name}</span><span className={`p3-pill ${pillCls}`}>{pill}</span></div>
+      <div className="p3-tip-row"><span className="p3-tip" style={{ left: `${data.now}%` }}>{cap(data.tip)}</span></div>
       <div className="p3-spec">
         <div className="p3-track" />
-        <div className="p3-seg" style={{ left: `${props.segLeft}%`, width: `${props.segW}%` }} />
-        <div className="p3-was" style={{ left: `${props.was}%` }} />
-        <div className="p3-now" style={{ left: `${props.now}%` }} />
+        {hasPrev && segW > 0 && <div className="p3-seg" style={{ left: `${segLeft}%`, width: `${segW}%` }} />}
+        {hasPrev && <div className="p3-was" style={{ left: `${was}%` }} />}
+        <div className="p3-now" style={{ left: `${data.now}%` }} />
       </div>
-      <div className="p3-ends"><span>{props.left}</span><span>{props.right}</span></div>
-      <div className="p3-comment"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 17l6-6 4 4 8-8" /><path d="M21 11V7h-4" /></svg><span>{props.comment}</span></div>
+      <div className="p3-ends"><span>{data.low.toUpperCase()}</span><span>{data.high.toUpperCase()}</span></div>
+      <div className="p3-comment">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 17l6-6 4 4 8-8" /><path d="M21 11V7h-4" /></svg>
+        <span>{hasPrev
+          ? <><b>{cap(data.prevTip ?? "")} → {cap(data.tip)}</b> · {improving ? "en progrès depuis ton dernier scan." : worsening ? "à surveiller depuis ton dernier scan." : "stable depuis ton dernier scan."}</>
+          : <><b>{cap(data.tip)}</b> · on mesurera l’évolution à ton prochain scan.</>}</span>
+      </div>
     </div>
   );
 }

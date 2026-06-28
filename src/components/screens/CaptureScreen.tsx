@@ -59,7 +59,8 @@ export function CaptureScreen() {
     }
     // l'utilisateur a choisi cette photo → on continue directement, sans écran d'aperçu
     useFunnel.getState().setPhoto(res.blob);
-    router.push("/questions/q2");
+    // re-scan (depuis le dashboard) → analyse directe ; sinon, suite du questionnaire.
+    router.push(useFunnel.getState().rescan ? "/analyse" : "/questions/q2");
   };
 
   return (

@@ -51,7 +51,7 @@ export function PhotoReviewScreen() {
           <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M2 8a6 6 0 1 1 1.7 4.2M2 12.5V8.8h3.7" /></svg>
           Reprendre
         </button>
-        <button type="button" className="cta-btn" onClick={() => router.push("/questions/q2")}>
+        <button type="button" className="cta-btn" onClick={() => router.push(useFunnel.getState().rescan ? "/analyse" : "/questions/q2")}>
           Continuer
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M8 4l4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </button>

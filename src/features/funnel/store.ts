@@ -7,6 +7,9 @@ import { toggleOption } from "./validation";
 type FunnelState = {
   answers: Answers;
   photo: Blob | null;
+  // Re-scan depuis le dashboard (« Analyser ») : on réutilise les réponses du dernier
+  // scan, on ne refait que la photo, et on revient au dashboard à la fin.
+  rescan: boolean;
   setAge: (value: number | null) => void;
   setSingle: (step: "q4" | "q6", value: string) => void;
   toggleMulti: (step: "q1" | "q2" | "q3" | "q7", value: string, exclusive: boolean) => void;
@@ -19,6 +22,7 @@ type FunnelState = {
 export const useFunnel = create<FunnelState>((set) => ({
   answers: structuredClone(EMPTY_ANSWERS),
   photo: null,
+  rescan: false,
   setAge: (value) => set((s) => ({ answers: { ...s.answers, age: value } })),
   setSingle: (step, value) =>
     set((s) => ({ answers: { ...s.answers, [step]: value } })),
@@ -41,5 +45,5 @@ export const useFunnel = create<FunnelState>((set) => ({
       },
     })),
   setPhoto: (blob) => set({ photo: blob }),
-  reset: () => set({ answers: structuredClone(EMPTY_ANSWERS), photo: null }),
+  reset: () => set({ answers: structuredClone(EMPTY_ANSWERS), photo: null, rescan: false }),
 }));

@@ -31,17 +31,20 @@
 .dash .ch-head { display:flex; align-items:flex-start; justify-content:space-between; gap:10px; }
 .dash .ch-label { font-size:11px; font-weight:600; letter-spacing:0.02em; color:var(--graphite); }
 .dash .ch-num { display:flex; align-items:baseline; gap:9px; font-weight:800; font-size:36px; letter-spacing:-0.045em; margin-top:2px; line-height:1; }
-.dash .ch-trend { font-size:14px; font-weight:800; color:var(--keep); letter-spacing:-0.02em; }
-.dash .ch-go { width:36px; height:36px; border-radius:50%; background:var(--cloud); border:none; cursor:pointer; color:var(--ink); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
-.dash .ch-go svg { width:15px; height:15px; }
+.dash .ch-goal { text-align:right; flex-shrink:0; }
+.dash .ch-goal-k { display:block; font-size:10px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--space); }
+.dash .ch-goal-v { display:block; font-weight:800; font-size:22px; color:var(--accent-d); letter-spacing:-0.04em; line-height:1.05; }
+.dash .ch-goal-s { display:block; font-size:10.5px; color:var(--graphite); margin-top:1px; }
 .dash .ch-plot { position:relative; height:84px; margin-top:14px; }
-.dash .ch-svg { position:absolute; inset:0; width:100%; height:100%; }
+.dash .ch-svg { position:absolute; inset:0; width:100%; height:100%; z-index:1; } /* courbe (≥ 2 scans) */
 .dash .ch-dot { position:absolute; width:11px; height:11px; border-radius:50%; background:var(--accent-d); border:2.5px solid var(--card); box-shadow:0 2px 6px rgba(127,166,190,0.55); transform:translate(-50%,-50%); z-index:2; }
-.dash .ch-guide { position:absolute; width:0; border-left:1px dashed rgba(166,195,214,0.6); z-index:1; }
-.dash .ch-side { position:absolute; right:0; top:50%; transform:translateY(-50%); width:84px; z-index:2; }
-.dash .ch-side .gl-k { font-size:10px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--space); }
-.dash .ch-side .gl-v { font-weight:800; font-size:20px; color:var(--accent-d); letter-spacing:-0.04em; line-height:1.15; }
-.dash .ch-side .gl-s { font-size:10.5px; color:var(--graphite); margin-top:1px; }
+.dash .ch-dot.past { width:9px; height:9px; opacity:0.92; } /* scans précédents (plus discrets) */
+.dash .ch-ring { position:absolute; width:11px; height:11px; border-radius:50%; background:var(--card); border:2.5px dashed var(--accent); box-sizing:border-box; transform:translate(-50%,-50%); z-index:2; } /* repère prochain scan */
+.dash .ch-guide { position:absolute; width:0; border-left:1px dashed rgba(166,195,214,0.85); z-index:1; }
+.dash .ch-flab { position:absolute; bottom:0; transform:translateX(-50%); font-size:10px; font-weight:600; color:var(--graphite); white-space:nowrap; z-index:3; }
+.dash .ch-nowval { position:absolute; transform:translateX(-50%); font-size:11px; font-weight:800; color:var(--accent-d); letter-spacing:-0.02em; z-index:3; }
+.dash .ch-nowlab { position:absolute; font-size:10px; font-weight:600; color:var(--graphite); white-space:nowrap; z-index:3; }
+/* (Objectif déplacé dans l'en-tête → .ch-goal) */
 .dash .ch-ticks { display:flex; justify-content:space-between; align-items:flex-end; height:8px; margin-top:7px; }
 .dash .ch-ticks i { width:1.5px; height:8px; background:var(--smoke); border-radius:2px; opacity:0.7; }
 
@@ -49,7 +52,9 @@
 .dash .skin-next-ic { width:38px; height:38px; border-radius:12px; flex-shrink:0; background:var(--accent-bg); color:var(--accent-d); display:flex; align-items:center; justify-content:center; }
 .dash .skin-next-ic svg { width:19px; height:19px; }
 .dash .skin-next-tx { flex:1; min-width:0; } .dash .skin-next-tx b { font-weight:700; font-size:13px; } .dash .skin-next-tx div { font-size:11px; color:var(--graphite); margin-top:2px; }
-.dash .skin-next-cta { flex-shrink:0; height:34px; padding:0 14px; border-radius:10px; background:var(--ink); color:#fff; border:none; cursor:pointer; font-family:var(--fd); font-weight:700; font-size:11.5px; }
+.dash .skin-next-cta { flex-shrink:0; height:34px; padding:0 14px; border-radius:10px; background:var(--ink); color:#fff; border:none; cursor:pointer; font-family:var(--fd); font-weight:700; font-size:11.5px; display:inline-flex; align-items:center; gap:5px; }
+.dash .skin-next-cta.locked { background:var(--cloud); color:var(--graphite); } /* re-scan verrouillé (avant le jour J) */
+.dash .cta-lock { width:13px; height:13px; }
 
 /* 3 priorities */
 .dash .p3card { padding:15px 16px 14px; }
@@ -57,6 +62,8 @@
 .dash .p3-name { font-weight:800; font-size:15px; letter-spacing:-0.025em; }
 .dash .p3-pill { font-size:10px; font-weight:700; padding:4px 9px; border-radius:100px; letter-spacing:-0.01em; }
 .dash .p3-pill.up { color:var(--keep); background:rgba(58,143,111,0.12); }
+.dash .p3-pill.down { color:var(--warn); background:rgba(232,149,78,0.15); }
+.dash .p3-pill.flat { color:var(--graphite); background:var(--cloud); }
 .dash .p3-tip-row { position:relative; height:25px; }
 .dash .p3-tip { position:absolute; bottom:3px; transform:translateX(-50%); background:var(--ink); color:#fff; font-size:10.5px; font-weight:700; letter-spacing:-0.01em; padding:4px 10px; border-radius:8px; white-space:nowrap; box-shadow:0 3px 9px rgba(26,29,33,0.28); }
 .dash .p3-tip::after { content:''; position:absolute; left:50%; bottom:-3px; width:8px; height:8px; background:var(--ink); border-radius:1.5px; transform:translateX(-50%) rotate(45deg); }
@@ -146,6 +153,8 @@
 .dash .ci-modal.hidden .ci-sheet { transform:scale(0.95); opacity:0; }
 .dash .ci-x { position:absolute; top:15px; right:18px; width:30px; height:30px; border-radius:50%; background:var(--cloud); border:none; cursor:pointer; color:var(--graphite); display:flex; align-items:center; justify-content:center; }
 .dash .ci-x svg { width:12px; height:12px; }
+.dash .ci-lock-ic { width:48px; height:48px; margin:2px auto 13px; border-radius:15px; background:var(--accent-bg); color:var(--accent-d); display:flex; align-items:center; justify-content:center; }
+.dash .ci-lock-ic svg { width:23px; height:23px; }
 .dash .ci-title { font-weight:800; font-size:23px; letter-spacing:-0.04em; text-align:center; }
 .dash .ci-sub { font-size:12.5px; color:var(--graphite); text-align:center; margin-top:7px; margin-bottom:20px; }
 .dash .ci-opts { display:flex; gap:7px; }

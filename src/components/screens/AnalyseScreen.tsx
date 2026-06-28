@@ -107,8 +107,20 @@ export function AnalyseScreen() {
         setMsg("Diagnostic prêt");
         if (finishedAt === null) finishedAt = ts;
         if (ts - finishedAt >= 600) { // petit temps fort « prêt »
-          if (w.result) useResult.getState().set(w.result, photo);
-          router.replace("/resultats");
+          const res = w.result;
+          if (res) useResult.getState().set(res, photo);
+          if (res && useFunnel.getState().rescan) {
+            // re-scan depuis le dashboard : enregistre le nouveau scan sous le compte
+            // (déjà connecté) PUIS revient au dashboard (un nouveau point apparaît).
+            const answers = useFunnel.getState().answers;
+            useFunnel.getState().reset();
+            void (async () => {
+              await fetch("/api/scan", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ result: res, answers }) }).catch(() => {});
+              router.replace("/dashboard");
+            })();
+          } else {
+            router.replace("/resultats");
+          }
           return;
         }
       } else {

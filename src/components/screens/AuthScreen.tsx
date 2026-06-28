@@ -8,14 +8,8 @@ import { useFunnel } from "@/features/funnel/store";
 import "./auth.css";
 
 /* Écran d'auth partagé.
-   - `login`  : nouvel écran SANS mot de passe (Google + lien magique). Branché pour
-     de vrai dès que les providers sont configurés (cf. PROVIDERS_LIVE / Temps B).
-   - `signup` : inscription après le paiement simulé du checkout (email + mot de passe,
-     mécanisme actuel) — sera migré en passwordless au Temps B. */
-
-// Google + lien magique configurés (clés dans .env, providers branchés). Les boutons
-// appellent les vrais providers Auth.js.
-const PROVIDERS_LIVE = true;
+   - `login`  : connexion email + mot de passe (méthode retenue), avec Google en option.
+   - `signup` : inscription après le paiement simulé du checkout (email + mot de passe). */
 
 const GoogleIcon = () => (
   <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden>
@@ -25,39 +19,30 @@ const GoogleIcon = () => (
     <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42A11.95 11.95 0 0 0 12 0 12 12 0 0 0 1.29 6.62l3.98 3.09C6.22 6.86 8.87 4.75 12 4.75Z" />
   </svg>
 );
-const MailIcon = () => (
-  <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-    <rect x="3" y="5" width="18" height="14" rx="2.5" /><path d="m4 7 8 6 8-6" />
-  </svg>
-);
-const CheckIcon = () => (
-  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-    <path d="M4 12.5l5 5L20 6" />
-  </svg>
-);
-
 function LoginScreen() {
+  const router = useRouter();
   const [email, setEmail] = useState("");
-  const [sent, setSent] = useState(false);
-  const [info, setInfo] = useState<string | null>(null);
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
   const google = async () => {
-    if (!PROVIDERS_LIVE) { setInfo("Connexion Google bientôt active (configuration en cours)."); return; }
     setLoading(true);
     await signIn("google", { callbackUrl: "/dashboard" });
   };
 
-  const magicLink = async (e: React.FormEvent) => {
+  const login = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!email) return;
-    if (!PROVIDERS_LIVE) { setInfo("Le lien magique sera bientôt actif (configuration de l'envoi d'emails en cours)."); return; }
+    if (loading || !email || !password) return;
     setLoading(true);
-    setInfo(null);
-    const res = await signIn("resend", { email, redirect: false, callbackUrl: "/dashboard" });
-    setLoading(false);
-    if (res?.error) setInfo("Impossible d'envoyer le lien. Réessaie.");
-    else setSent(true);
+    setError(null);
+    const res = await signIn("credentials", { email, password, redirect: false });
+    if (res?.error) {
+      setError("Email ou mot de passe incorrect.");
+      setLoading(false);
+      return;
+    }
+    router.push("/dashboard");
   };
 
   return (
@@ -65,36 +50,30 @@ function LoginScreen() {
       <div className="auth-brand"><Image src="/logo-smartskin.png" alt="SmartSkin AI" width={133} height={26} priority /></div>
       <div className="auth-card">
         <h1 className="auth-title">Bon retour</h1>
-        <p className="auth-sub">Connecte-toi pour retrouver ton protocole.</p>
+        <p className="auth-sub">Connecte-toi pour retrouver ton suivi.</p>
 
-        {sent ? (
-          <div className="auth-sent">
-            <span className="auth-sent-ic"><MailIcon /></span>
-            <b>Vérifie ta boîte mail</b>
-            <p>On a envoyé un lien de connexion à <strong>{email}</strong>. Tape dessus pour entrer — pas de mot de passe.</p>
-          </div>
-        ) : (
-          <>
-            <button type="button" className="auth-oauth" onClick={google} disabled={loading}>
-              <GoogleIcon />Continuer avec Google
-            </button>
+        <button type="button" className="auth-oauth" onClick={google} disabled={loading}>
+          <GoogleIcon />Continuer avec Google
+        </button>
 
-            <div className="auth-divider"><span>ou avec un email</span></div>
+        <div className="auth-divider"><span>ou avec ton email</span></div>
 
-            <form onSubmit={magicLink} className="auth-form">
-              <label className="auth-field">
-                <span>Email</span>
-                <input type="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="toi@email.com" />
-              </label>
-              <button type="submit" className="auth-magic" disabled={loading || !email}>
-                <MailIcon />Recevoir un lien de connexion
-              </button>
-            </form>
+        <form onSubmit={login} className="auth-form">
+          <label className="auth-field">
+            <span>Email</span>
+            <input type="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="toi@email.com" />
+          </label>
+          <label className="auth-field">
+            <span>Mot de passe</span>
+            <input type="password" autoComplete="current-password" required value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Ton mot de passe" />
+          </label>
 
-            <p className="auth-reassure"><CheckIcon />Pas de mot de passe — tu cliques juste sur le lien qu’on envoie.</p>
-            {info && <p className="auth-error">{info}</p>}
-          </>
-        )}
+          {error && <p className="auth-error">{error}</p>}
+
+          <button type="submit" className="auth-cta" disabled={loading || !email || !password}>
+            {loading ? "Un instant…" : "Se connecter"}
+          </button>
+        </form>
 
         <p className="auth-switch">Pas encore de compte ? <a href="/checkout">Débloquer mon protocole</a></p>
       </div>
