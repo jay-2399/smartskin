@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Manrope, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -16,6 +16,14 @@ const jetbrains = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "SmartSkin — Analyse de peau",
   description: "Bilan de peau personnalisé par IA. Pas un diagnostic médical.",
+};
+
+// viewport-fit=cover : le contenu va sous la zone du statut/notch iOS (plus de
+// bande claire en haut) et active les `env(safe-area-inset-*)` utilisés dans l'app.
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
 };
 
 export default function RootLayout({
