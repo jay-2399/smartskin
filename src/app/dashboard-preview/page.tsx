@@ -1,8 +1,7 @@
 import { buildRecommendedRoutine } from "@/features/recommendation";
 import { SAMPLE_RESULT } from "@/features/analysis/sample";
 import { EMPTY_ANSWERS, type Answers } from "@/features/funnel/types";
-import { topConcerns, levelOf, derivePhase } from "@/features/routine/recommend";
-import { ATTRIBUTE_BY_ID, LEVEL_TO_PERCENT } from "@/features/analysis/attributes";
+import { derivePhase } from "@/features/routine/recommend";
 import { DashboardScreen } from "@/components/screens/DashboardScreen";
 
 // Preview LOCALE du dashboard (hors mur d'auth, sans DB) — pour le consulter sans
@@ -22,32 +21,23 @@ export default async function Page() {
   ];
   const history = scans.map((s) => ({ date: new Date(s.d).toISOString(), score: s.score }));
 
-  // 3 priorités dynamiques (top-3 du bilan), avec un « avant » simulé à 1 niveau au-dessus
-  // (= amélioration) pour montrer l'évolution.
-  const priorities = topConcerns(result).slice(0, 3).map((id) => {
-    const def = ATTRIBUTE_BY_ID[id];
-    const cur = result.attributes.find((a) => a.id === id);
-    const lvl = levelOf(result, id);
-    return {
-      name: def?.label ?? id,
-      low: def?.low ?? "",
-      high: def?.high ?? "",
-      now: LEVEL_TO_PERCENT[lvl],
-      was: LEVEL_TO_PERCENT[Math.min(4, lvl + 1)],
-      tip: cur?.tip ?? "",
-      prevTip: null,
-    };
-  });
+  // 3 priorités d'exemple, en anglais (la preview ne dépend pas des libellés FR du data
+  // layer). « was » > « now » = amélioration → pastille « Improving ».
+  const priorities = [
+    { name: "Blemishes", low: "none", high: "severe", now: 30, was: 53, tip: "mild", prevTip: "moderate" },
+    { name: "Redness", low: "none", high: "widespread", now: 30, was: 53, tip: "localized", prevTip: "diffuse" },
+    { name: "Blackheads", low: "none", high: "many", now: 30, was: 53, tip: "rare", prevTip: "frequent" },
+  ];
 
   const reco = await buildRecommendedRoutine(result, answers, { useLlm: false });
   const phase = derivePhase(answers);
-  const fmtShort = (ms: number) => new Date(ms).toLocaleDateString("fr-FR", { day: "numeric", month: "short" });
+  const fmtShort = (ms: number) => new Date(ms).toLocaleDateString("en-US", { day: "numeric", month: "short" });
   const nextMs = scans[scans.length - 1].d + 7 * day;
-  const nextRaw = new Date(nextMs).toLocaleDateString("fr-FR", { weekday: "short", day: "numeric", month: "short" });
+  const nextRaw = new Date(nextMs).toLocaleDateString("en-US", { weekday: "short", day: "numeric", month: "short" });
 
   return (
     <DashboardScreen
-      name="toi"
+      name="Sarah"
       score={scans[scans.length - 1].score}
       routine={reco.routine}
       startedDaysAgo={1}

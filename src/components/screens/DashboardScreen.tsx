@@ -43,11 +43,11 @@ const Cart = () => (<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" s
 const NEXT_SCAN_DAYS = 7;
 
 // Plan de routine : 4 jalons de progression (selon la phase) + 2 lignes « maintenant / la suite ».
-const PLAN_LABELS = ["Départ", "Mise en route", "Renforcement", "Entretien"];
+const PLAN_LABELS = ["Start", "Ramp-up", "Strengthen", "Maintain"];
 const PLAN_NEXT: Record<number, [string, string]> = {
-  1: ["Les premières semaines, on garde une routine douce le temps que ta peau s'habitue.", "Ensuite, on monte progressivement la fréquence de tes actifs ciblés."],
-  2: ["Ta peau tolère déjà les actifs : on peut augmenter la fréquence sans l'agresser.", "Un actif plus puissant (type rétinoïde) pourra rejoindre la routine pour tes marques."],
-  3: ["Ta routine est complète — tu es en phase d'entretien.", "On ajuste seulement selon l'évolution de ta peau, scan après scan."],
+  1: ["For the first weeks, we keep a gentle routine while your skin adjusts.", "Then we gradually raise the frequency of your targeted actives."],
+  2: ["Your skin already tolerates actives: we can raise the frequency without irritating it.", "A stronger active (like a retinoid) can join the routine for your marks."],
+  3: ["Your routine is complete — you're in the maintenance phase.", "We only adjust based on how your skin evolves, scan after scan."],
 };
 
 // ── Restock : formule réelle (contenance ÷ dose × usages/jour). Produits = les VRAIS
@@ -87,7 +87,7 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
 
   useEffect(() => {
     try {
-      const s = new Date().toLocaleDateString("fr-FR", { weekday: "long", day: "numeric", month: "long" });
+      const s = new Date().toLocaleDateString("en-US", { weekday: "long", day: "numeric", month: "long" });
       // Date locale du client (évite un mismatch SSR/CSR) → setState en effet justifié.
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setToday(s.charAt(0).toUpperCase() + s.slice(1));
@@ -161,13 +161,13 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
   const isMorning = moment === "morning";
   const skip = !isMorning && (mood === "irritated" || mood === "sensitive");
   const hasExfo = evening.some((s) => s.pausable);
-  const kicker = isMorning ? "CE MATIN · ANTIOXYDANT + BOUCLIER"
-    : skip ? "CE SOIR · NUIT DOUCE"
-    : hasExfo ? "CE SOIR · NUIT EXFOLIANTE" : "CE SOIR";
-  const note = isMorning ? "Le matin protège ta peau pour la journée — sérum puis SPF."
-    : skip ? "On met l'exfoliant en pause ce soir — ta barrière a besoin d'une trêve. Juste nettoie + hydrate."
-    : mood === "breakout" ? "Garde ton exfoliant ce soir — il cible les imperfections. Mets-en un peu plus sur la zone concernée."
-    : hasExfo ? "Ce soir, c'est ta nuit exfoliante." : "Ta routine du soir, étape par étape.";
+  const kicker = isMorning ? "THIS MORNING · ANTIOXIDANT + SHIELD"
+    : skip ? "TONIGHT · GENTLE NIGHT"
+    : hasExfo ? "TONIGHT · EXFOLIANT NIGHT" : "TONIGHT";
+  const note = isMorning ? "Mornings protect your skin all day — serum, then SPF."
+    : skip ? "Skipping the exfoliant tonight — your barrier needs a break. Just cleanse + moisturize."
+    : mood === "breakout" ? "Keep your exfoliant tonight — it targets breakouts. Dab a little extra on the affected area."
+    : hasExfo ? "Tonight is your exfoliant night." : "Your evening routine, step by step.";
 
   const steps = isMorning ? morning : evening;
   const eveningTotal = evening.filter((s) => !(skip && s.pausable)).length;
@@ -198,7 +198,7 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
     <div className="dash">
       <div className="dash-top">
         <div>
-          <div className="hello">Bonjour {name.charAt(0).toUpperCase() + name.slice(1)} 👋</div>
+          <div className="hello">Hi {name.charAt(0).toUpperCase() + name.slice(1)} 👋</div>
           <div className="date">{today}</div>
         </div>
         <div className="ava">{initial}</div>
@@ -216,13 +216,13 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
                 {score}
                 {multi
                   ? (trend !== 0 && <span className={`ch-trend ${trend > 0 ? "up" : "down"}`}>{trend > 0 ? "↑ +" : "↓ "}{Math.abs(trend)}</span>)
-                  : <span className="ch-base">Départ</span>}
+                  : <span className="ch-base">Baseline</span>}
               </div>
             </div>
             <div className="ch-goal">
-              <span className="ch-goal-k">Objectif</span>
+              <span className="ch-goal-k">Goal</span>
               <span className="ch-goal-v">{GOAL_SCORE}</span>
-              <span className="ch-goal-s">{goalRemaining > 0 ? `${goalRemaining} restants` : "atteint 🎉"}</span>
+              <span className="ch-goal-s">{goalRemaining > 0 ? `${goalRemaining} to go` : "reached 🎉"}</span>
             </div>
           </div>
           <div className="ch-plot">
@@ -238,23 +238,23 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
               <line x1={last.x} y1={last.y} x2={nextX} y2={last.y} stroke="#7FA6BE" strokeWidth="1.6" strokeDasharray="3 3" opacity="0.5" vectorEffect="non-scaling-stroke" />
             </svg>
             {/* pastilles : « Départ » (1 scan) au-dessus du point + « Prochain scan » au-dessus de l'anneau */}
-            {!multi && <span className="ch-pill" style={{ left: `${last.x}%` }}>Départ</span>}
-            <span className="ch-pill" style={{ left: `${nextX}%` }}>Prochain scan</span>
+            {!multi && <span className="ch-pill" style={{ left: `${last.x}%` }}>Baseline</span>}
+            <span className="ch-pill" style={{ left: `${nextX}%` }}>Next scan</span>
             {/* point « aujourd'hui » (dernier scan) + anneau du prochain scan */}
             <span className="ch-dot today" style={{ left: `${last.x}%`, top: `${last.y}%` }} />
             <span className="ch-ring" style={{ left: `${nextX}%`, top: `${last.y}%` }} />
           </div>
           <div className="ch-axis">
             {multi && firstDateLabel && <span style={{ left: "8%" }}>{firstDateLabel}</span>}
-            <span className="now" style={{ left: `${last.x}%` }}>Aujourd’hui</span>
+            <span className="now" style={{ left: `${last.x}%` }}>Today</span>
             <span style={{ left: `${nextX}%` }}>{nextDateLabel}</span>
           </div>
           <div className="skin-next">
             <div className="skin-next-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2" /><circle cx="12" cy="12" r="3" /></svg></div>
-            <div className="skin-next-tx"><b>{scanLocked ? `Prochain scan · ${nextDateFull}` : "Ton analyse est disponible"}</b><div>{scanLocked ? `Dans ${daysToNext} jour${daysToNext > 1 ? "s" : ""} · on affine ton protocole à chaque scan.` : "Refais un scan pour mettre à jour ton suivi."}</div></div>
+            <div className="skin-next-tx"><b>{scanLocked ? `Next scan · ${nextDateFull}` : "Your analysis is ready"}</b><div>{scanLocked ? `In ${daysToNext} day${daysToNext > 1 ? "s" : ""} · we fine-tune your routine after each scan.` : "Re-scan to update your tracking."}</div></div>
             <button className={`skin-next-cta ${scanLocked ? "locked" : ""}`} onClick={() => (scanLocked ? setLockOpen(true) : startRescan())}>
               {scanLocked && <svg className="cta-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V7a4 4 0 0 1 8 0v4" /></svg>}
-              Analyser
+              Analyze
             </button>
           </div>
         </div>
@@ -262,7 +262,7 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
         {/* ── Priorités dynamiques (top préoccupations du scan + évolution) ── */}
         {priorities.length > 0 && (
           <>
-            <div className="sec-label">Tes priorités</div>
+            <div className="sec-label">Your priorities</div>
             {priorities.map((p, i) => <Priority key={i} data={p} multiScan={multi} />)}
           </>
         )}
@@ -272,8 +272,8 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
           <div className="tn-top">
             <div className="tn-kicker">{kicker}</div>
             <div className="seg">
-              <button className={`night ${!isMorning ? "on" : ""}`} onClick={() => setMoment("evening")}><Moon />Soir</button>
-              <button className={`day ${isMorning ? "on" : ""}`} onClick={() => setMoment("morning")}><Sun />Matin</button>
+              <button className={`night ${!isMorning ? "on" : ""}`} onClick={() => setMoment("evening")}><Moon />Evening</button>
+              <button className={`day ${isMorning ? "on" : ""}`} onClick={() => setMoment("morning")}><Sun />Morning</button>
             </div>
           </div>
           <div className={`tn-note ${skip ? "alert" : ""}`}>{note}</div>
@@ -295,7 +295,7 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
                   onClick={() => !paused && setEveningDone((d) => ({ ...d, [i]: !d[i] }))}>
                   <span className="rt-check"><Check /></span>
                   <span className="rt-thumb">{s.img ? <img src={s.img} alt="" /> : <Flacon icon={s.icon} />}</span>
-                  <span className="rt-info"><span className="rt-cat">{s.cat}{paused ? " · en pause" : ""}</span><div className="rt-name">{s.name}</div><div className="rt-use">{paused ? "En pause — la barrière d'abord." : s.use}</div></span>
+                  <span className="rt-info"><span className="rt-cat">{s.cat}{paused ? " · paused" : ""}</span><div className="rt-name">{s.name}</div><div className="rt-use">{paused ? "Paused — barrier first." : s.use}</div></span>
                 </button>
               );
             })}
@@ -303,16 +303,16 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
           <div className="tn-foot">
             {isMorning ? (
               <button className={`tn-confirm ${morningDone ? "done" : ""}`} onClick={() => setMorningDone((v) => !v)}>
-                {morningDone && <Check />}{morningDone ? "Fait ce matin" : "J'ai fait ma routine du matin"}
+                {morningDone && <Check />}{morningDone ? "Done this morning" : "I did my morning routine"}
               </button>
             ) : (
-              <><span className="tn-prog">{eveningCount}/{eveningTotal}</span> fait ce soir</>
+              <><span className="tn-prog">{eveningCount}/{eveningTotal}</span> done tonight</>
             )}
           </div>
         </div>
 
         {/* ── Ton plan de routine — progression réelle selon ta phase (expérience déclarée) ── */}
-        <div className="sec-label">Ton plan de routine</div>
+        <div className="sec-label">Your routine plan</div>
         <div className="card plan">
           <div className="plan-tl">
             {PLAN_LABELS.map((label, i) => (
@@ -320,15 +320,15 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
             ))}
           </div>
           <div className="plan-next">
-            <div className="plan-next-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></svg><span><b>Maintenant :</b> {planNext[0]}</span></div>
-            <div className="plan-next-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z" /></svg><span><b>La suite :</b> {planNext[1]}</span></div>
+            <div className="plan-next-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></svg><span><b>Now:</b> {planNext[0]}</span></div>
+            <div className="plan-next-row"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z" /></svg><span><b>Next:</b> {planNext[1]}</span></div>
           </div>
         </div>
 
         {/* ── Recharges : tous les consommables, alerte (low) à ≤ 14 j ── */}
         {restockList.length > 0 && (
           <div className="restock-wrap">
-            <div className="sec-label">Tes recharges</div>
+            <div className="sec-label">Your restock</div>
             {restockList.map(({ p, e }, i) => {
               const low = e.left <= 14;
               return (
@@ -336,10 +336,10 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
                   <div className="prod-thumb">{p.img ? <img src={p.img} alt="" /> : <Flacon icon={p.icon} />}</div>
                   <div className="prod-info">
                     <div className="prod-name">{p.name}</div>
-                    <div className={`prod-left ${low ? "low" : ""}`}><span className="pip" />{low ? `Fini dans ~${e.left} jours` : `Il te reste ~${e.left} jours`}</div>
+                    <div className={`prod-left ${low ? "low" : ""}`}><span className="pip" />{low ? `Out in ~${e.left} days` : `~${e.left} days left`}</div>
                     <div className="restock-bar"><i style={{ width: `${e.pctUsed}%` }} /></div>
                   </div>
-                  <a className="prod-buy" href={`https://www.amazon.com/dp/${p.asin}`} target="_blank" rel="noopener noreferrer"><Cart />Racheter</a>
+                  <a className="prod-buy" href={`https://www.amazon.com/dp/${p.asin}`} target="_blank" rel="noopener noreferrer"><Cart />Restock</a>
                 </div>
               );
             })}
@@ -352,15 +352,15 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
         <div className="ci-scrim" onClick={() => setModalOpen(false)} />
         <div className="ci-sheet">
           <button className="ci-x" aria-label="Fermer" onClick={() => setModalOpen(false)}><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M2 2l10 10M12 2L2 12" /></svg></button>
-          <div className="ci-title">Comment va ta peau aujourd’hui ?</div>
-          <div className="ci-sub">On adapte ta routine du soir en conséquence.</div>
+          <div className="ci-title">How's your skin today?</div>
+          <div className="ci-sub">We'll tailor tonight's routine to it.</div>
           <div className="ci-opts">
-            <button className={`ci-opt ${mood === "good" ? "on" : ""}`} onClick={() => pickMood("good")}><span className="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9" /><path d="M8.5 14a4 4 0 0 0 7 0" /><path d="M9 10h.01M15 10h.01" /></svg></span>Bien</button>
-            <button className={`ci-opt ${mood === "sensitive" ? "on" : ""}`} onClick={() => pickMood("sensitive")}><span className="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3s6 6.5 6 10.5a6 6 0 0 1-12 0C6 9.5 12 3 12 3Z" /></svg></span>Sensible</button>
-            <button className={`ci-opt ${mood === "irritated" ? "on" : ""}`} onClick={() => pickMood("irritated")}><span className="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3.5l8.5 15h-17z" /><path d="M12 10v3.5" /><path d="M12 16.5h.01" /></svg></span>Irritée</button>
-            <button className={`ci-opt ${mood === "breakout" ? "on" : ""}`} onClick={() => pickMood("breakout")}><span className="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7"><circle cx="12" cy="12" r="8" /><circle cx="12" cy="12" r="2.4" fill="currentColor" stroke="none" /></svg></span>Boutons</button>
+            <button className={`ci-opt ${mood === "good" ? "on" : ""}`} onClick={() => pickMood("good")}><span className="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="9" /><path d="M8.5 14a4 4 0 0 0 7 0" /><path d="M9 10h.01M15 10h.01" /></svg></span>Good</button>
+            <button className={`ci-opt ${mood === "sensitive" ? "on" : ""}`} onClick={() => pickMood("sensitive")}><span className="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3s6 6.5 6 10.5a6 6 0 0 1-12 0C6 9.5 12 3 12 3Z" /></svg></span>Sensitive</button>
+            <button className={`ci-opt ${mood === "irritated" ? "on" : ""}`} onClick={() => pickMood("irritated")}><span className="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3.5l8.5 15h-17z" /><path d="M12 10v3.5" /><path d="M12 16.5h.01" /></svg></span>Irritated</button>
+            <button className={`ci-opt ${mood === "breakout" ? "on" : ""}`} onClick={() => pickMood("breakout")}><span className="ci-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7"><circle cx="12" cy="12" r="8" /><circle cx="12" cy="12" r="2.4" fill="currentColor" stroke="none" /></svg></span>Breakout</button>
           </div>
-          <button className="ci-skip" onClick={() => setModalOpen(false)}>Plus tard</button>
+          <button className="ci-skip" onClick={() => setModalOpen(false)}>Skip for now</button>
         </div>
       </div>
 
@@ -370,9 +370,9 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
         <div className="ci-sheet">
           <button className="ci-x" aria-label="Fermer" onClick={() => setLockOpen(false)}><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M2 2l10 10M12 2L2 12" /></svg></button>
           <div className="ci-lock-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V7a4 4 0 0 1 8 0v4" /></svg></div>
-          <div className="ci-title">Encore {daysToNext} jour{daysToNext > 1 ? "s" : ""} à patienter</div>
-          <div className="ci-sub">Ta peau évolue sur environ une semaine. On attend la prochaine analyse pour mesurer un vrai changement — pas du bruit au jour le jour.</div>
-          <button className="ci-skip" onClick={() => setLockOpen(false)}>Compris</button>
+          <div className="ci-title">{daysToNext} more day{daysToNext > 1 ? "s" : ""} to wait</div>
+          <div className="ci-sub">Your skin changes over about a week. We wait for the next scan to measure real change — not day-to-day noise.</div>
+          <button className="ci-skip" onClick={() => setLockOpen(false)}>Got it</button>
         </div>
       </div>
     </div>
@@ -386,7 +386,7 @@ function Priority({ data, multiScan }: { data: PriorityData; multiScan: boolean 
   const was = data.was ?? data.now;
   const improving = hasPrev && data.now < was;
   const worsening = hasPrev && data.now > was;
-  const pill = !hasPrev ? "1ᵉ scan" : improving ? "En progrès" : worsening ? "À surveiller" : "Stable";
+  const pill = !hasPrev ? "1st scan" : improving ? "Improving" : worsening ? "Watch" : "Stable";
   const pillCls = improving ? "up" : worsening ? "down" : "flat";
   const segLeft = Math.min(was, data.now);
   const segW = Math.abs(data.now - was);
@@ -404,8 +404,8 @@ function Priority({ data, multiScan }: { data: PriorityData; multiScan: boolean 
       <div className="p3-comment">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M3 17l6-6 4 4 8-8" /><path d="M21 11V7h-4" /></svg>
         <span>{hasPrev
-          ? <><b>{cap(data.prevTip ?? "")} → {cap(data.tip)}</b> · {improving ? "en progrès depuis ton dernier scan." : worsening ? "à surveiller depuis ton dernier scan." : "stable depuis ton dernier scan."}</>
-          : <><b>{cap(data.tip)}</b> · on mesurera l’évolution à ton prochain scan.</>}</span>
+          ? <><b>{cap(data.prevTip ?? "")} → {cap(data.tip)}</b> · {improving ? "improving since your last scan." : worsening ? "to watch since your last scan." : "stable since your last scan."}</>
+          : <><b>{cap(data.tip)}</b> · we'll measure the change at your next scan.</>}</span>
       </div>
     </div>
   );
