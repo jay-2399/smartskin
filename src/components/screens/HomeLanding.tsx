@@ -177,6 +177,7 @@ export function HomeLanding() {
                   <span className="av a3"><img src={AV[2]} alt="" width={40} height={40} style={{ objectPosition: "center 52%" }} /></span>
                   <span className="av a4"><img src={AV[3]} alt="" width={40} height={40} style={{ objectPosition: "68% 28%" }} /></span>
                 </div>
+                <div className="social-divider" />
                 <div className="social-tx">
                   <div className="stars">★★★★★</div>
                   <div className="social-l">Déjà <b>+ de 1000 utilisateurs</b> conquis</div>

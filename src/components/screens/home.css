@@ -71,6 +71,7 @@ html { scroll-behavior:smooth; }
   .copy { position:relative; z-index:3; padding:72px 24px 72px 76px; max-width:560px; }
   .social { display:inline-flex; align-items:center; gap:14px; margin-bottom:26px;
     animation:rise .6s cubic-bezier(.22,1,.36,1) both .26s; }
+  .social-divider { width:1px; align-self:stretch; min-height:36px; background:rgba(26,29,33,0.13); flex-shrink:0; }
   .avatars { display:flex; }
   .av { width:38px; height:38px; border-radius:50%; border:2.5px solid var(--bg); margin-left:-12px; overflow:hidden;
     display:flex; align-items:center; justify-content:center; color:rgba(26,29,33,0.32);
@@ -178,9 +179,6 @@ html { scroll-behavior:smooth; }
     .hero { grid-template-columns:1fr; min-height:0; padding-bottom:0; position:relative; overflow:hidden; border-radius:0; box-shadow:none; background:var(--bg); }
     .nav { padding:max(env(safe-area-inset-top), 16px) 22px 0; }
     .copy { padding:34px 30px 0; max-width:none; text-align:center; }
-    /* preuve sociale en colonne : avatars au-dessus du texte */
-    .social { flex-direction:column; gap:10px; }
-    .social-tx { text-align:center; }
     .reassure, .cta-zone { justify-content:center; }
     .subtitle { margin-left:auto; margin-right:auto; }
     .woman { position:relative; z-index:1; display:block; height:auto; width:118%; max-width:none;
