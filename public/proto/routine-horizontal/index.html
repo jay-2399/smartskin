@@ -141,7 +141,7 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
 .card-pane.pad { overflow-y:auto; padding:2px 1px 6px; scrollbar-width:none; touch-action:pan-y; }
 .card-pane.pad::-webkit-scrollbar { display:none; }
 .card-pane.center { justify-content:center; }
-.card-pane.cover .card-img { flex:1; height:auto; min-height:130px; }
+.card-pane.cover .card-img { flex:1 1 0; height:auto; min-height:64px; }
 .card-pane.cover .card-head { margin-top:13px; }
 .card-dots { display:flex; justify-content:center; align-items:center; gap:8px; padding-top:13px; flex-shrink:0; }
 .card-dots i { width:6px; height:6px; border-radius:100px; background:var(--smoke); cursor:pointer; transition:width .3s cubic-bezier(.34,1.56,.64,1), background .3s ease; }
@@ -382,7 +382,9 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
 @media (max-width: 480px) {
   html, body { padding:0; min-height:0; background:var(--bg); display:block; }
   .phone { width:100%; border-radius:0; box-shadow:none; }
-  .screen { height:100dvh; }
+  /* Plancher de hauteur : la carte garde sa taille cible ; si l'écran est plus
+     court (barres Safari), la page défile au lieu d'écraser la carte. */
+  .screen { height:auto; min-height:max(100dvh, 880px); }
   .nav { padding-top:max(env(safe-area-inset-top), 14px); }
   .nav-logo { top:max(env(safe-area-inset-top), 14px); }
 }
@@ -400,7 +402,7 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
 
   <div class="head">
     <h1 id="headTitle">Ta routine du jour.</h1>
-    <p>Glisse la carte pour parcourir le produit. Garde-le ou change-le avec les boutons ♥ / ✗.</p>
+    <p>Glisse la carte pour parcourir le produit. Garde-le ou change-le avec les boutons du bas.</p>
   </div>
 
   <div class="stage">
