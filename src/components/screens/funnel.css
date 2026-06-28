@@ -517,11 +517,11 @@
 .cg-title { font-weight:800; font-size:23px; letter-spacing:-0.04em; color:var(--ink); line-height:1.06; }
 .cg-sub { font-size:12.5px; line-height:1.5; color:var(--graphite); margin-top:9px; }
 
-.cg-cells { display:flex; gap:8px; justify-content:center; margin-top:22px; }
+.cg-cells { display:flex; gap:6px; justify-content:center; margin-top:22px; }
 .cg-cells.err { animation:cgShake 0.4s; }
 @keyframes cgShake { 0%,100%{transform:translateX(0);} 20%,60%{transform:translateX(-7px);} 40%,80%{transform:translateX(7px);} }
-.cg-cell { width:46px; height:56px; padding:0; border:1.5px solid #D3D6E0; border-radius:13px; background:rgba(255,255,255,0.55);
-  text-align:center; font-family:var(--fm); font-size:22px; font-weight:600; color:var(--ink); text-transform:uppercase;
+.cg-cell { width:40px; height:54px; padding:0; border:1.5px solid #D3D6E0; border-radius:12px; background:rgba(255,255,255,0.55);
+  text-align:center; font-family:var(--fm); font-size:20px; font-weight:600; color:var(--ink); text-transform:uppercase;
   caret-color:var(--accent); transition:border-color 0.18s, box-shadow 0.18s, background 0.18s, transform 0.18s; }
 .cg-cell:focus { outline:none; border-color:var(--accent); box-shadow:0 0 0 3px rgba(166,195,214,0.25); background:#fff; }
 .cg-cell.filled { border-color:var(--ink); background:#fff; transform:translateY(-1px); }

@@ -8,7 +8,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
    débloqué dans la session. */
 
 const KEY = "smartskin_gate_unlocked";
-const LEN = 5;
+const LEN = 6; // longueur du code de campagne (ex. GLOW23)
 
 export function CodeGate() {
   const [dismissed, setDismissed] = useState(false);
