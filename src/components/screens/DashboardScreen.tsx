@@ -94,13 +94,32 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
     } catch { /* noop */ }
   }, []);
 
-  // Check-in « comment va ta peau » : proposé UNIQUEMENT à un utilisateur connecté
-  // (un vrai scan déjà enregistré). En démo (non connecté) → pas de modale.
+  // Check-in « comment va ta peau » : on RESTAURE le choix du jour (localStorage) → la
+  // routine du soir reste adaptée après reload et la modale ne re-popup pas. Sinon, on la
+  // propose à un utilisateur connecté.
   useEffect(() => {
+    const key = "ss_mood_" + new Date().toLocaleDateString("en-CA");
+    const saved = (() => { try { return localStorage.getItem(key); } catch { return null; } })();
+    if (saved) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setMood(saved as Mood); // déjà répondu aujourd'hui
+      return;
+    }
     if (!loggedIn) return;
     const t = setTimeout(() => setModalOpen(true), 250);
     return () => clearTimeout(t);
   }, [loggedIn]);
+
+  // Scan fait AVANT une inscription Google (mémoire perdue à la redirection OAuth → stocké
+  // en sessionStorage) : on l'enregistre sous le nouveau compte puis on rafraîchit la page.
+  useEffect(() => {
+    const raw = (() => { try { return sessionStorage.getItem("ss_pending_scan"); } catch { return null; } })();
+    if (!raw) return;
+    try { sessionStorage.removeItem("ss_pending_scan"); } catch { /* noop */ }
+    fetch("/api/scan", { method: "POST", headers: { "Content-Type": "application/json" }, body: raw })
+      .then(() => router.refresh())
+      .catch(() => {});
+  }, [router]);
 
   // Tonight = vrais produits (moteur de reco). day → matin, night → soir.
   const toSteps = (steps: RoutineData["day"]): TnStep[] =>
@@ -156,7 +175,11 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
 
   const initial = (name.charAt(0) || "S").toUpperCase();
 
-  const pickMood = (m: Mood) => { setMood(m); setTimeout(() => setModalOpen(false), 320); };
+  const pickMood = (m: Mood) => {
+    setMood(m);
+    try { localStorage.setItem("ss_mood_" + new Date().toLocaleDateString("en-CA"), m); } catch { /* noop */ }
+    setTimeout(() => setModalOpen(false), 320);
+  };
 
   // Restock = consommables de la routine AFFICHÉE (validée au swipe si dispo, sinon
   // serveur) → toujours cohérent avec « Tonight ». On reconstruit les RestockItem depuis

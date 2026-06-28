@@ -131,12 +131,25 @@ export function AuthScreen({ mode }: { mode: "signup" | "login" }) {
     }
   };
 
+  // Inscription via Google : le scan en mémoire est perdu à la redirection OAuth → on le
+  // stocke en sessionStorage, il est rattaché au compte une fois arrivé sur le dashboard.
+  const google = async () => {
+    if (result) sessionStorage.setItem("ss_pending_scan", JSON.stringify({ result, answers }));
+    setLoading(true);
+    await signIn("google", { callbackUrl: "/dashboard" });
+  };
+
   return (
     <div className="auth">
       <div className="auth-brand"><Image src="/logo-smartskin.png" alt="SmartSkin AI" width={133} height={26} priority /></div>
       <div className="auth-card">
         <h1 className="auth-title">Crée ton compte</h1>
         <p className="auth-sub">Pour sauvegarder ton protocole et suivre tes progrès.</p>
+
+        <button type="button" className="auth-oauth" onClick={google} disabled={loading}>
+          <GoogleIcon />Continuer avec Google
+        </button>
+        <div className="auth-divider"><span>ou avec ton email</span></div>
 
         <form onSubmit={submit} className="auth-form">
           <label className="auth-field">
