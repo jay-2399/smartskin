@@ -150,7 +150,7 @@
 .card-tag svg { color:var(--accent-d); }
 
 /* overlay teinte progressive pendant le swipe (rose = love / rouge = nope) */
-.card-glow { position:absolute; inset:0; pointer-events:none; opacity:0; z-index:4; mix-blend-mode:multiply; transition:opacity .12s linear; }
+.card-glow { position:absolute; inset:0; pointer-events:none; opacity:0; z-index:4; mix-blend-mode:multiply; border-radius:26px; transition:opacity .12s linear; }
 .card-glow.like { background:
     radial-gradient(160% 140% at 118% 50%, rgba(255,52,120,1), rgba(255,78,138,0.55) 50%, rgba(255,78,138,0.18) 80%, transparent 92%),
     linear-gradient(90deg, rgba(255,78,138,0.14), rgba(255,78,138,0.34)); }
