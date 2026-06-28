@@ -50,12 +50,12 @@
 .rv-back { width:40px; height:40px; border-radius:50%; background:var(--card); border:1px solid rgba(0,0,0,0.05); box-shadow:0 1px 5px rgba(0,0,0,0.06); display:flex; align-items:center; justify-content:center; color:var(--ink); cursor:pointer; flex-shrink:0; }
 .nav-step { margin-left:auto; font-family:var(--fm); font-size:10px; color:var(--space); letter-spacing:0.1em; }
 
-.rv-head { padding:14px 26px 10px; animation:rvRise .55s cubic-bezier(.22,1,.36,1) both .12s; }
+.rv-head { padding:6px 26px 8px; animation:rvRise .55s cubic-bezier(.22,1,.36,1) both .12s; }
 .rv-head h1 { font-weight:800; font-size:23px; line-height:1.08; letter-spacing:-0.035em; color:var(--ink); }
 .rv-head p { font-weight:400; font-size:12px; color:var(--graphite); margin-top:6px; }
 
 /* ── stage / deck ── */
-.stage { flex:1; display:flex; flex-direction:column; padding:14px 22px 4px; min-height:0; animation:rvRise .55s cubic-bezier(.22,1,.36,1) both .28s; }
+.stage { flex:1; display:flex; flex-direction:column; padding:8px 22px 4px; min-height:0; animation:rvRise .55s cubic-bezier(.22,1,.36,1) both .28s; }
 .progress { display:flex; align-items:center; justify-content:space-between; padding:0 2px 12px; }
 .dots { display:flex; gap:7px; }
 .dot { width:8px; height:8px; border-radius:50%; background:var(--smoke); transition:all .3s cubic-bezier(.22,1,.36,1); }
@@ -78,8 +78,10 @@
 .swipe-card.flown { z-index:6; will-change:transform; }
 @keyframes rvCardIn { from{ transform:translateY(28px) scale(.94);} to{ transform:none;} }
 
-.card-img { position:relative; height:180px; flex-shrink:0; border-radius:18px; background:linear-gradient(158deg,var(--cloud),#fff 78%); display:flex; align-items:center; justify-content:center; overflow:hidden; transition:height .42s cubic-bezier(.4,0,.2,1); }
-.swipe-card.scrolled .card-img { height:100px; }   /* au scroll : l'image se réduit → plus de place pour lire les avis */
+/* Image ADAPTATIVE (au lieu de 180px fixe) : ~96px sur mobile (carte courte → grande zone
+   de lecture du « pourquoi »/avis), jusqu'à 178px sur desktop (carte haute). */
+.card-img { position:relative; height:clamp(96px, 25%, 178px); flex-shrink:0; border-radius:18px; background:linear-gradient(158deg,var(--cloud),#fff 78%); display:flex; align-items:center; justify-content:center; overflow:hidden; transition:height .42s cubic-bezier(.4,0,.2,1); }
+.swipe-card.scrolled .card-img { height:80px; }   /* au scroll : l'image se réduit encore → plus de place pour lire */
 .card-img::after { content:''; position:absolute; bottom:-30%; left:50%; transform:translateX(-50%); width:74%; height:60%; background:radial-gradient(ellipse at center, rgba(166,195,214,.22), transparent 70%); }
 .card-img img { position:relative; max-width:60%; max-height:82%; width:auto; object-fit:contain; filter:drop-shadow(0 9px 15px rgba(26,29,33,0.18)); }
 .card-img .flacon { position:relative; width:82px; height:auto; color:var(--accent-d); filter:drop-shadow(0 9px 14px rgba(127,166,190,0.30)); }
@@ -98,7 +100,7 @@
 .card-head { display:flex; align-items:center; gap:8px; flex-shrink:0; }
 .card-cat { font-family:var(--fm); font-size:8px; letter-spacing:0.08em; text-transform:uppercase; color:var(--accent-d); background:var(--accent-bg); border:1px solid rgba(166,195,214,0.3); padding:3px 9px; border-radius:100px; }
 .card-brand { font-family:var(--fm); font-size:8.5px; letter-spacing:0.1em; text-transform:uppercase; color:var(--space); }
-.card-name { font-weight:800; font-size:20px; color:var(--ink); letter-spacing:-0.03em; line-height:1.1; margin-top:6px; flex-shrink:0; }
+.card-name { font-weight:800; font-size:18px; color:var(--ink); letter-spacing:-0.03em; line-height:1.12; margin-top:5px; flex-shrink:0; }
 .scroll-wrap { position:relative; flex:1; min-height:0; display:flex; margin-top:11px; }
 .card-scroll { flex:1; min-height:0; overflow-y:auto; padding-right:2px; scrollbar-width:none; -webkit-overflow-scrolling:touch; }
 .scroll-fade { position:absolute; left:0; right:0; bottom:0; height:42px; background:linear-gradient(to bottom, rgba(255,255,255,0), #FFFFFF); pointer-events:none; z-index:2; }
@@ -164,30 +166,30 @@
 .stamp.swap { right:20px; color:var(--no); box-shadow:0 8px 22px rgba(255,77,77,0.38), inset 0 0 0 3px var(--no); }
 
 /* actions — cercles blancs, icône colorée (façon Tinder) */
-.actions { display:flex; align-items:center; justify-content:center; gap:20px; padding:14px 0 2px; }
+.actions { display:flex; align-items:center; justify-content:center; gap:18px; padding:8px 0 2px; }
 .act { border-radius:50%; border:none; background:#fff; display:flex; align-items:center; justify-content:center; cursor:pointer;
   box-shadow:0 10px 22px rgba(40,44,60,0.13), 0 2px 6px rgba(40,44,60,0.08); transition:transform .16s cubic-bezier(.34,1.56,.64,1), box-shadow .2s, opacity .2s; }
 .act:hover { transform:translateY(-3px); box-shadow:0 16px 30px rgba(40,44,60,0.18), 0 2px 6px rgba(40,44,60,0.08); }
 .act:active { transform:scale(0.9); }
-.act.replay { width:52px; height:52px; }
-.act.replay svg { width:23px; height:23px; }
-.act.swap { width:64px; height:64px; }
-.act.swap svg { width:27px; height:27px; }
-.act.keep { width:64px; height:64px; }
-.act.keep svg { width:28px; height:28px; }
+.act.replay { width:46px; height:46px; }
+.act.replay svg { width:21px; height:21px; }
+.act.swap { width:56px; height:56px; }
+.act.swap svg { width:25px; height:25px; }
+.act.keep { width:56px; height:56px; }
+.act.keep svg { width:25px; height:25px; }
 .act.replay.disabled { opacity:0.34; pointer-events:none; box-shadow:0 6px 14px rgba(40,44,60,0.08); transform:none; }
 
 .hint { text-align:center; font-family:var(--fm); font-size:9px; letter-spacing:0.04em; color:var(--space); padding-top:11px; opacity:0.85; }
 
 /* plateau "Ta sélection" — se remplit à chaque produit gardé */
-.tray { padding:11px 22px 24px; background:linear-gradient(to top, var(--bg) 78%, transparent); animation:rvRise .55s cubic-bezier(.22,1,.36,1) both .4s; }
-.tray-card { background:var(--card); border:1px solid rgba(26,29,33,0.05); border-radius:18px; padding:12px 14px 13px; box-shadow:0 6px 20px rgba(0,0,0,0.06); }
+.tray { padding:6px 22px max(env(safe-area-inset-bottom), 10px); background:linear-gradient(to top, var(--bg) 78%, transparent); animation:rvRise .55s cubic-bezier(.22,1,.36,1) both .4s; }
+.tray-card { background:var(--card); border:1px solid rgba(26,29,33,0.05); border-radius:18px; padding:9px 14px 10px; box-shadow:0 6px 20px rgba(0,0,0,0.06); }
 .tray-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
 .tray-label { font-family:var(--fm); font-weight:700; font-size:9px; letter-spacing:0.12em; text-transform:uppercase; color:var(--graphite); }
 .tray-meta { display:flex; align-items:baseline; gap:7px; font-family:var(--fm); font-size:9.5px; color:var(--space); }
 .tray-meta b { color:var(--ink); font-weight:800; font-size:12.5px; letter-spacing:-0.01em; }
 .tray-slots { display:flex; gap:9px; }
-.tray-slot { flex:1; height:48px; border-radius:12px; display:flex; align-items:center; justify-content:center; overflow:hidden; background:var(--bg); box-shadow:inset 0 0 0 1.5px var(--smoke); transition:box-shadow .3s, background .3s; }
+.tray-slot { flex:1; height:40px; border-radius:12px; display:flex; align-items:center; justify-content:center; overflow:hidden; background:var(--bg); box-shadow:inset 0 0 0 1.5px var(--smoke); transition:box-shadow .3s, background .3s; }
 .tray-slot.current { background:var(--accent-bg); box-shadow:inset 0 0 0 1.5px var(--accent-d); animation:trayPulse 1.7s ease-in-out infinite; }
 .tray-slot.filled { background:var(--card); box-shadow:0 2px 9px rgba(0,0,0,0.09); }
 .tray-slot.filled img { max-width:64%; max-height:74%; object-fit:contain; }
