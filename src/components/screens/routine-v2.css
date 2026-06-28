@@ -80,8 +80,8 @@
 
 /* Image au format produit (prominente), hauteur FIXE → toute la hauteur gagnée sur la
    carte va à la zone « pourquoi » (et non à l'image). Réduite au scroll pour lire plus. */
-.card-img { position:relative; height:165px; flex-shrink:0; border-radius:18px; background:linear-gradient(158deg,var(--cloud),#fff 78%); display:flex; align-items:center; justify-content:center; overflow:hidden; transition:height .42s cubic-bezier(.4,0,.2,1); }
-.swipe-card.scrolled .card-img { height:104px; }   /* au scroll : l'image se réduit → plus de place pour lire */
+.card-img { position:relative; height:180px; flex-shrink:0; border-radius:18px; background:linear-gradient(158deg,var(--cloud),#fff 78%); display:flex; align-items:center; justify-content:center; overflow:hidden; transition:height .42s cubic-bezier(.4,0,.2,1); }
+.swipe-card.scrolled .card-img { height:100px; }   /* au scroll : l'image se réduit → plus de place pour lire */
 .card-img::after { content:''; position:absolute; bottom:-30%; left:50%; transform:translateX(-50%); width:74%; height:60%; background:radial-gradient(ellipse at center, rgba(166,195,214,.22), transparent 70%); }
 .card-img img { position:relative; max-width:60%; max-height:82%; width:auto; object-fit:contain; filter:drop-shadow(0 9px 15px rgba(26,29,33,0.18)); }
 .card-img .flacon { position:relative; width:82px; height:auto; color:var(--accent-d); filter:drop-shadow(0 9px 14px rgba(127,166,190,0.30)); }
