@@ -30,23 +30,25 @@
 .dash .chart-card { padding:18px 18px 14px; }
 .dash .ch-head { display:flex; align-items:flex-start; justify-content:space-between; gap:10px; }
 .dash .ch-label { font-size:11px; font-weight:600; letter-spacing:0.02em; color:var(--graphite); }
-.dash .ch-num { display:flex; align-items:baseline; gap:9px; font-weight:800; font-size:36px; letter-spacing:-0.045em; margin-top:2px; line-height:1; }
+.dash .ch-num { display:flex; align-items:baseline; gap:10px; font-weight:800; font-size:36px; letter-spacing:-0.045em; margin-top:2px; line-height:1; }
+.dash .ch-trend { font-size:14px; font-weight:800; letter-spacing:-0.02em; }
+.dash .ch-trend.up { color:var(--keep); }
+.dash .ch-trend.down { color:var(--warn); }
+.dash .ch-base { font-size:11px; font-weight:700; color:var(--graphite); background:var(--cloud); padding:3px 9px; border-radius:100px; letter-spacing:0.04em; text-transform:uppercase; }
 .dash .ch-goal { text-align:right; flex-shrink:0; }
 .dash .ch-goal-k { display:block; font-size:10px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--space); }
 .dash .ch-goal-v { display:block; font-weight:800; font-size:22px; color:var(--accent-d); letter-spacing:-0.04em; line-height:1.05; }
 .dash .ch-goal-s { display:block; font-size:10.5px; color:var(--graphite); margin-top:1px; }
-.dash .ch-plot { position:relative; height:84px; margin-top:14px; }
-.dash .ch-svg { position:absolute; inset:0; width:100%; height:100%; z-index:1; } /* courbe (≥ 2 scans) */
-.dash .ch-dot { position:absolute; width:11px; height:11px; border-radius:50%; background:var(--accent-d); border:2.5px solid var(--card); box-shadow:0 2px 6px rgba(127,166,190,0.55); transform:translate(-50%,-50%); z-index:2; }
-.dash .ch-dot.past { width:9px; height:9px; opacity:0.92; } /* scans précédents (plus discrets) */
-.dash .ch-ring { position:absolute; width:11px; height:11px; border-radius:50%; background:var(--card); border:2.5px dashed var(--accent); box-sizing:border-box; transform:translate(-50%,-50%); z-index:2; } /* repère prochain scan */
-.dash .ch-guide { position:absolute; width:0; border-left:1px dashed rgba(166,195,214,0.85); z-index:1; }
-.dash .ch-flab { position:absolute; bottom:0; transform:translateX(-50%); font-size:10px; font-weight:600; color:var(--graphite); white-space:nowrap; z-index:3; }
-.dash .ch-nowval { position:absolute; transform:translateX(-50%); font-size:11px; font-weight:800; color:var(--accent-d); letter-spacing:-0.02em; z-index:3; }
-.dash .ch-nowlab { position:absolute; font-size:10px; font-weight:600; color:var(--graphite); white-space:nowrap; z-index:3; }
-/* (Objectif déplacé dans l'en-tête → .ch-goal) */
-.dash .ch-ticks { display:flex; justify-content:space-between; align-items:flex-end; height:8px; margin-top:7px; }
-.dash .ch-ticks i { width:1.5px; height:8px; background:var(--smoke); border-radius:2px; opacity:0.7; }
+/* hero graph — pastilles en haut · courbe+aire (≥2 scans) ou ligne plate (1 scan) · axe de dates en bas */
+.dash .ch-plot { position:relative; height:104px; margin-top:8px; }
+.dash .ch-svg { position:absolute; inset:0; width:100%; height:100%; z-index:1; }
+.dash .ch-dot { position:absolute; width:11px; height:11px; border-radius:50%; background:var(--accent-d); border:2.5px solid var(--card); box-shadow:0 2px 6px rgba(127,166,190,0.55); transform:translate(-50%,-50%); z-index:3; }
+.dash .ch-dot.today { width:14px; height:14px; }
+.dash .ch-ring { position:absolute; width:13px; height:13px; border-radius:50%; background:var(--card); border:2.5px dashed var(--accent); box-sizing:border-box; transform:translate(-50%,-50%); z-index:3; }
+.dash .ch-pill { position:absolute; top:0; transform:translateX(-50%); font-size:9.5px; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; color:var(--space); background:var(--cloud); padding:4px 10px; border-radius:100px; white-space:nowrap; z-index:4; }
+.dash .ch-axis { position:relative; height:16px; margin-top:6px; }
+.dash .ch-axis span { position:absolute; transform:translateX(-50%); font-size:11px; color:var(--graphite); white-space:nowrap; }
+.dash .ch-axis span.now { font-weight:700; color:var(--ink); }
 
 .dash .skin-next { display:flex; align-items:center; gap:11px; margin-top:15px; padding-top:14px; border-top:1px solid rgba(26,29,33,0.06); }
 .dash .skin-next-ic { width:38px; height:38px; border-radius:12px; flex-shrink:0; background:var(--accent-bg); color:var(--accent-d); display:flex; align-items:center; justify-content:center; }

@@ -69,6 +69,15 @@ export default async function Page() {
     ? Math.max(0, Math.floor((now - latest.date.getTime()) / 86_400_000))
     : 0;
 
+  // Dates FR (côté serveur → pas de mismatch d'hydratation). Prochain scan = dernier
+  // scan + cadence (7 j) ; « Aujourd'hui » = état du dernier scan ; 1ᵉ scan = repère gauche.
+  const nextMs = (latest ? latest.date.getTime() : now) + 7 * 86_400_000;
+  const fmtShort = (ms: number) => new Date(ms).toLocaleDateString("fr-FR", { day: "numeric", month: "short" });
+  const firstDateLabel = parsed.length >= 2 ? fmtShort(parsed[0].date.getTime()) : null;
+  const nextDateLabel = fmtShort(nextMs);
+  const nextDateRaw = new Date(nextMs).toLocaleDateString("fr-FR", { weekday: "short", day: "numeric", month: "short" });
+  const nextDateFull = nextDateRaw.charAt(0).toUpperCase() + nextDateRaw.slice(1);
+
   return (
     <DashboardScreen
       name={name}
@@ -80,6 +89,9 @@ export default async function Page() {
       history={history}
       priorities={priorities}
       lastAnswers={answers}
+      firstDateLabel={firstDateLabel}
+      nextDateLabel={nextDateLabel}
+      nextDateFull={nextDateFull}
     />
   );
 }
