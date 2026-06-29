@@ -13,9 +13,9 @@ describe("toSections", () => {
 
   it("attache libellés de bornes et position de jauge", () => {
     const acne = sections[0].items.find((i) => i.id === "acne")!;
-    expect(acne.label).toBe("Imperfections");
-    expect(acne.low).toBe("aucune");
-    expect(acne.high).toBe("sévères");
+    expect(acne.label).toBe("Blemishes");
+    expect(acne.low).toBe("none");
+    expect(acne.high).toBe("severe");
     expect(acne.percent).toBe(30); // level 2 → 30%
     expect(acne.betterHigh).toBe(false); // défaut : le bas (peu d'imperfections) = bon côté = vert
   });
@@ -28,16 +28,16 @@ describe("toSections", () => {
 
 describe("skinAgeDelta", () => {
   it("peau plus jeune que l'âge réel → « −X ans »", () => {
-    expect(skinAgeDelta(26, 28)).toEqual({ years: -2, deltaText: "−2 ans", suffix: "vs ton âge réel" });
+    expect(skinAgeDelta(26, 28)).toEqual({ years: -2, deltaText: "−2 yrs", suffix: "vs your real age" });
   });
   it("peau plus âgée → « +X ans »", () => {
-    expect(skinAgeDelta(40, 35)).toEqual({ years: 5, deltaText: "+5 ans", suffix: "vs ton âge réel" });
+    expect(skinAgeDelta(40, 35)).toEqual({ years: 5, deltaText: "+5 yrs", suffix: "vs your real age" });
   });
   it("écart d'un an → singulier", () => {
-    expect(skinAgeDelta(27, 28)?.deltaText).toBe("−1 an");
+    expect(skinAgeDelta(27, 28)?.deltaText).toBe("−1 yr");
   });
   it("même âge → pas de suffixe", () => {
-    expect(skinAgeDelta(30, 30)).toEqual({ years: 0, deltaText: "Pile ton âge", suffix: "" });
+    expect(skinAgeDelta(30, 30)).toEqual({ years: 0, deltaText: "Spot on", suffix: "" });
   });
   it("donnée manquante (âge non renseigné) → null", () => {
     expect(skinAgeDelta(26, null)).toBeNull();

@@ -11,10 +11,10 @@ export const SECTIONS = [
 export type Section = (typeof SECTIONS)[number];
 
 export const SECTION_LABELS: Record<Section, string> = {
-  imperfections: "Imperfections",
-  teint_eclat: "Teint & Éclat",
-  signes_age: "Signes d'âge",
-  zone_yeux: "Zone yeux",
+  imperfections: "Blemishes",
+  teint_eclat: "Tone & Radiance",
+  signes_age: "Signs of aging",
+  zone_yeux: "Eye area",
 };
 
 export type AttributeDef = {
@@ -34,25 +34,25 @@ export type AttributeDef = {
 
 export const ATTRIBUTES: AttributeDef[] = [
   // ── Imperfections ──
-  { id: "acne", label: "Imperfections", section: "imperfections", low: "aucune", high: "sévères", icon: "/icon-acne.png" },
-  { id: "comedones", label: "Points noirs", section: "imperfections", low: "aucun", high: "très nombreux", icon: "/icon-comedones.png" },
-  { id: "post_acne_marks", label: "Marques post-acné", section: "imperfections", low: "aucune", high: "marquées" },
-  { id: "pores", label: "Pores", section: "imperfections", low: "invisibles", high: "dilatés" },
-  { id: "texture", label: "Grain de peau", section: "imperfections", low: "très lisse", high: "très rugueux" },
-  { id: "flaking", label: "Desquamation", section: "imperfections", low: "absente", high: "présente", binary: true },
-  // ── Teint & Éclat ──
-  { id: "tone_evenness", label: "Irrégularités", section: "teint_eclat", low: "très uniforme", high: "très irrégulier" },
-  { id: "radiance", label: "Teint terne", section: "teint_eclat", low: "lumineux", high: "très terne" },
-  { id: "dark_spots", label: "Taches", section: "teint_eclat", low: "aucune", high: "très marquées", icon: "/icon-dark-spots.png" },
-  { id: "redness", label: "Rougeurs", section: "teint_eclat", low: "aucune", high: "diffuses" },
-  { id: "shine", label: "Brillance", section: "teint_eclat", low: "mate", high: "très grasse" },
-  { id: "visible_vessels", label: "Vaisseaux", section: "teint_eclat", low: "absent", high: "présent", binary: true, icon: "/icon-vessels.png" },
-  // ── Signes d'âge ──
-  { id: "fine_lines", label: "Ridules", section: "signes_age", low: "aucune", high: "marquées" },
-  { id: "wrinkles", label: "Rides", section: "signes_age", low: "absentes", high: "profondes" },
-  // ── Zone yeux ──
-  { id: "under_eye_circles", label: "Cernes", section: "zone_yeux", low: "absents", high: "marqués" },
-  { id: "under_eye_puffiness", label: "Poches yeux", section: "zone_yeux", low: "absentes", high: "présentes", binary: true },
+  { id: "acne", label: "Blemishes", section: "imperfections", low: "none", high: "severe", icon: "/icon-acne.png" },
+  { id: "comedones", label: "Blackheads", section: "imperfections", low: "none", high: "many", icon: "/icon-comedones.png" },
+  { id: "post_acne_marks", label: "Post-acne marks", section: "imperfections", low: "none", high: "marked" },
+  { id: "pores", label: "Pores", section: "imperfections", low: "invisible", high: "enlarged" },
+  { id: "texture", label: "Skin texture", section: "imperfections", low: "very smooth", high: "very rough" },
+  { id: "flaking", label: "Flaking", section: "imperfections", low: "absent", high: "present", binary: true },
+  // ── Tone & Radiance ──
+  { id: "tone_evenness", label: "Unevenness", section: "teint_eclat", low: "very even", high: "very uneven" },
+  { id: "radiance", label: "Dullness", section: "teint_eclat", low: "bright", high: "very dull" },
+  { id: "dark_spots", label: "Dark spots", section: "teint_eclat", low: "none", high: "very marked", icon: "/icon-dark-spots.png" },
+  { id: "redness", label: "Redness", section: "teint_eclat", low: "none", high: "diffuse" },
+  { id: "shine", label: "Shine", section: "teint_eclat", low: "matte", high: "very oily" },
+  { id: "visible_vessels", label: "Vessels", section: "teint_eclat", low: "absent", high: "present", binary: true, icon: "/icon-vessels.png" },
+  // ── Signs of aging ──
+  { id: "fine_lines", label: "Fine lines", section: "signes_age", low: "none", high: "marked" },
+  { id: "wrinkles", label: "Wrinkles", section: "signes_age", low: "absent", high: "deep" },
+  // ── Eye area ──
+  { id: "under_eye_circles", label: "Dark circles", section: "zone_yeux", low: "absent", high: "marked" },
+  { id: "under_eye_puffiness", label: "Eye puffiness", section: "zone_yeux", low: "absent", high: "present", binary: true },
 ];
 
 export const ATTRIBUTE_IDS = ATTRIBUTES.map((a) => a.id);

@@ -53,9 +53,9 @@ describe("computeScore", () => {
 
 describe("scoreState", () => {
   it("associe un libellé cohérent au score", () => {
-    expect(scoreState(90)).toMatch(/bel état/i);
-    expect(scoreState(40)).toMatch(/accompagner/i);
-    expect(scoreState(20)).toMatch(/rééquilibrer/i);
+    expect(scoreState(90)).toMatch(/excellent/i);
+    expect(scoreState(40)).toMatch(/close care/i);
+    expect(scoreState(20)).toMatch(/rebalance/i);
   });
 });
 

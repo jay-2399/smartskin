@@ -58,9 +58,9 @@ export function computeScore(attributes: AttributeResult[]): number {
 
 /** Libellé d'état (headline) cohérent avec le score calculé. */
 export function scoreState(score: number): string {
-  if (score >= 80) return "Très bel état général";
-  if (score >= 65) return "Bon état général";
-  if (score >= 50) return "État correct, à surveiller";
-  if (score >= 35) return "À accompagner de près";
-  return "Peau à rééquilibrer";
+  if (score >= 80) return "Excellent overall condition";
+  if (score >= 65) return "Good overall condition";
+  if (score >= 50) return "Decent condition, keep an eye on it";
+  if (score >= 35) return "Needs close care";
+  return "Skin to rebalance";
 }

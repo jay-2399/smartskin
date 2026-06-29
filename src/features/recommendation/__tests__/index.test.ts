@@ -21,7 +21,7 @@ describe("buildRecommendedRoutine — pipeline complet (vrai catalogue, sans LLM
   it("produit une routine cohérente (socle nettoyant/hydratant/SPF, vrais produits)", async () => {
     const { routine } = await buildRecommendedRoutine(result({ acne: 3, shine: 2, pores: 2 }), ans({ q6: "60-100" }));
     const dayCats = routine.day.map((s) => s.cat);
-    expect(dayCats).toEqual(expect.arrayContaining(["Nettoyant", "Crème jour", "Protection"]));
+    expect(dayCats).toEqual(expect.arrayContaining(["Cleanser", "Day cream", "Protection"]));
     expect(routine.productCount).toBe(routine.day.length + routine.night.length);
     // chaque étape propose AU PLUS 3 produits (1 reco + 2 alternatives) — jamais plus.
     for (const s of [...routine.day, ...routine.night]) {
@@ -49,18 +49,18 @@ describe("buildRecommendedRoutine — pipeline complet (vrai catalogue, sans LLM
     const { routine } = await buildRecommendedRoutine(result({ acne: 3, under_eye_circles: 2 }), ans({ q6: "60-100" }));
     const dayCats = routine.day.map((s) => s.cat);
     const nightCats = routine.night.map((s) => s.cat);
-    expect(dayCats).toContain("Nettoyant");
-    expect(nightCats).not.toContain("Nettoyant"); // pas de double choix du nettoyant
-    expect([...dayCats, ...nightCats]).not.toContain("Contour des yeux");
+    expect(dayCats).toContain("Cleanser");
+    expect(nightCats).not.toContain("Cleanser"); // pas de double choix du nettoyant
+    expect([...dayCats, ...nightCats]).not.toContain("Eye care");
   });
 
   it("deux crèmes distinctes : « Crème jour » (matin) + « Crème nuit » (soir)", async () => {
     const { routine } = await buildRecommendedRoutine(result({ acne: 3 }), ans({ q6: "60-100" }));
-    expect(routine.day.map((s) => s.cat)).toContain("Crème jour");
-    expect(routine.night.map((s) => s.cat)).toContain("Crème nuit");
+    expect(routine.day.map((s) => s.cat)).toContain("Day cream");
+    expect(routine.night.map((s) => s.cat)).toContain("Night cream");
     // 2 produits réellement différents
-    const jour = routine.day.find((s) => s.cat === "Crème jour")!.options[0];
-    const nuit = routine.night.find((s) => s.cat === "Crème nuit")!.options[0];
+    const jour = routine.day.find((s) => s.cat === "Day cream")!.options[0];
+    const nuit = routine.night.find((s) => s.cat === "Night cream")!.options[0];
     expect(jour.name).not.toBe(nuit.name);
   });
 
@@ -95,7 +95,7 @@ describe("buildRecommendedRoutine — pipeline complet (vrai catalogue, sans LLM
 
   it("peau sans préoccupation → routine de base + diagnostic « Peau équilibrée »", async () => {
     const { routine } = await buildRecommendedRoutine(result(), ans({ q6: "30-60" }));
-    expect(routine.diagnostic).toEqual(["Peau équilibrée"]);
-    expect(routine.day.map((s) => s.cat)).toEqual(expect.arrayContaining(["Nettoyant", "Protection"]));
+    expect(routine.diagnostic).toEqual(["Balanced skin"]);
+    expect(routine.day.map((s) => s.cat)).toEqual(expect.arrayContaining(["Cleanser", "Protection"]));
   });
 });

@@ -30,7 +30,7 @@ export function buildConstraints(profile: EngineProfile): Constraints {
     maxIrritationPerProduct: sensitive ? 2 : 5,
     excludeActives: treatment ? [...RETINOIDS] : [],
     adviseDoctor: treatment
-      ? "Tu as indiqué un suivi dermatologique en cours : valide tout nouvel actif avec ton médecin avant de l'ajouter."
+      ? "You indicated an ongoing dermatological treatment: check any new active with your doctor before adding it."
       : null,
   };
 }

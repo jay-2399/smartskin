@@ -1,12 +1,11 @@
-/* Catalogue produits de la routine v2 (« storytelling »).
-   Extrait de storytelling.ts pour être réutilisable par le sélecteur
-   personnalisé (personalize.ts). Chaque produit est TAGUÉ :
-   - `targets` : ids de préoccupations (cf. analysis/attributes.ts) qu'il adresse ;
-   - `actives` : actifs clés (sert au filtrage / à la cohérence avec recommend.ts) ;
-   - `unsafePregnancy` / `unsafeSensitive` : exclusions de sécurité (q7).
-   Les textes « why » (marketing) sont conservés tels quels : un produit n'est
-   montré que lorsque ses `targets` correspondent au bilan, donc sa justification
-   reste pertinente. */
+/* Routine v2 product catalog (« storytelling »).
+   Extracted from storytelling.ts to be reusable by the personalized selector
+   (personalize.ts). Each product is TAGGED:
+   - `targets`: concern ids (cf. analysis/attributes.ts) it addresses;
+   - `actives`: key actives (used for filtering / consistency with recommend.ts);
+   - `unsafePregnancy` / `unsafeSensitive`: safety exclusions (q7).
+   The « why » (marketing) texts are kept: a product is only shown when its
+   `targets` match the assessment, so its rationale stays relevant. */
 
 export type IconKey = "pump" | "dropper" | "jar" | "bottle";
 export type TabKey = "day" | "night";
@@ -31,19 +30,19 @@ export interface Product {
   actives: string[];
   unsafePregnancy?: boolean;
   unsafeSensitive?: boolean;
-  // ── Champs restock (consommable) : portés par le produit pour que le restock du
-  //    dashboard suive la routine VALIDÉE au swipe (et non une routine recalculée). ──
+  // ── Restock fields (consumable): carried by the product so the dashboard restock
+  //    follows the routine VALIDATED on swipe (not a recomputed routine). ──
   asin?: string;
   size_ml?: number | null;
   frequency?: string;
   moment?: string;
   category?: string;
-  // ── Avis clients (carte du reveal) — alimentés par couche3 du catalogue ──
-  rating?: number; // note moyenne /5 (ex. 4.8)
-  reviewCount?: number; // nb total d'avis (ex. 102671)
-  customersSay?: string; // synthèse IA des avis
-  aspects?: [string, string][]; // [["Effectiveness","2.7K"], …] — top 6, déjà formaté
-  reviews?: Review[]; // 0 à 5 avis vérifiés
+  // ── Customer reviews (reveal card) — fed by catalog layer 3 ──
+  rating?: number; // average rating /5 (e.g. 4.8)
+  reviewCount?: number; // total number of reviews (e.g. 102671)
+  customersSay?: string; // AI summary of the reviews
+  aspects?: [string, string][]; // [["Effectiveness","2.7K"], …] — top 6, pre-formatted
+  reviews?: Review[]; // 0 to 5 verified reviews
 }
 export interface Step {
   cat: string;
@@ -59,8 +58,8 @@ export interface RoutineData {
   productCount: number;
 }
 
-/* Donnée de restock d'un produit choisi (consommable de la routine) : tout ce qu'il
-   faut au dashboard pour estimer « fini dans ~X jours » avec la formule réelle. */
+/* Restock data for a chosen product (routine consumable): everything the dashboard
+   needs to estimate « out in ~X days » with the real formula. */
 export interface RestockItem {
   name: string;
   asin: string;
@@ -72,95 +71,95 @@ export interface RestockItem {
   size_ml: number;
 }
 
-/* Nettoyant — peau grasse / imperfections (BHA en rinçage = OK grossesse). */
+/* Cleanser — oily / blemish-prone skin (rinse-off BHA = pregnancy-safe). */
 export const CLEANSER: Product[] = [
-  { brand: "La Roche-Posay", name: "Effaclar Gel Cleanser", img: "/prod-effaclar.png", price: "$18.99", p: 19, targets: ["acne", "comedones", "pores", "shine"], actives: ["salicylic_acid"], unsafeSensitive: true, why: "Ton diagnostic a relevé un <b>excès de sébum</b> et des <b>imperfections</b> sur la zone T. Ce gel nettoie en profondeur grâce à l'<b>acide salicylique 2%</b>, qui dissout le sébum incrusté et désobstrue les pores sans agresser ta peau. Utilisé matin et soir, il prépare la peau à recevoir les actifs ciblés de ta routine et limite l'apparition de nouvelles imperfections.", url: "https://www.laroche-posay.us/our-products/face/acne-products/effaclar-medicated-acne-face-wash-effaclaracnewash.html" },
-  { brand: "CeraVe", name: "Foaming Cleanser", price: "$15", p: 15, targets: ["acne", "comedones", "pores", "shine"], actives: ["niacinamide"], why: "Une alternative plus douce si ta peau a tendance à tirailler. Sa <b>niacinamide</b> et ses <b>céramides</b> éliminent l'<b>excès de sébum</b> relevé par ton diagnostic tout en renforçant la <b>barrière cutanée</b>. Bon compromis efficacité/tolérance pour un usage quotidien.", url: "https://www.cerave.com/skincare/cleansers/foaming-facial-cleanser" },
-  { brand: "Avène", name: "Cleanance Gel Nettoyant", price: "$17", p: 17, targets: ["acne", "comedones", "pores", "shine"], actives: [], why: "Pensé pour les peaux <b>grasses à imperfections</b> comme l'indique ton diagnostic. Ce gel purifie et matifie la zone T et cible l'<b>excès de sébum</b> sans décaper, le tout testé sous contrôle dermatologique.", url: "https://www.aveneusa.com" },
-  { brand: "The Inkey List", name: "Salicylic Acid Cleanser", price: "$11", p: 11, targets: ["acne", "comedones", "pores"], actives: ["salicylic_acid"], unsafeSensitive: true, why: "Même logique que le produit recommandé, à prix mini. L'<b>acide salicylique 2%</b> et le <b>zinc</b> désincrustent les pores et ciblent les <b>points noirs</b> repérés dans ton diagnostic.", url: "https://www.theinkeylist.com" },
+  { brand: "La Roche-Posay", name: "Effaclar Gel Cleanser", img: "/prod-effaclar.png", price: "$18.99", p: 19, targets: ["acne", "comedones", "pores", "shine"], actives: ["salicylic_acid"], unsafeSensitive: true, why: "Your analysis flagged <b>excess sebum</b> and <b>blemishes</b> on the T-zone. This gel cleans deeply thanks to <b>2% salicylic acid</b>, which dissolves embedded sebum and unclogs pores without harshness. Used morning and evening, it primes the skin for your routine's targeted actives and limits new blemishes.", url: "https://www.laroche-posay.us/our-products/face/acne-products/effaclar-medicated-acne-face-wash-effaclaracnewash.html" },
+  { brand: "CeraVe", name: "Foaming Cleanser", price: "$15", p: 15, targets: ["acne", "comedones", "pores", "shine"], actives: ["niacinamide"], why: "A gentler alternative if your skin tends to feel tight. Its <b>niacinamide</b> and <b>ceramides</b> remove the <b>excess sebum</b> flagged by your analysis while strengthening the <b>skin barrier</b>. A good efficacy/tolerance balance for daily use.", url: "https://www.cerave.com/skincare/cleansers/foaming-facial-cleanser" },
+  { brand: "Avène", name: "Cleanance Cleansing Gel", price: "$17", p: 17, targets: ["acne", "comedones", "pores", "shine"], actives: [], why: "Designed for <b>oily, blemish-prone skin</b> as your analysis indicates. This gel purifies and mattifies the T-zone and targets <b>excess sebum</b> without stripping, all dermatologist-tested.", url: "https://www.aveneusa.com" },
+  { brand: "The Inkey List", name: "Salicylic Acid Cleanser", price: "$11", p: 11, targets: ["acne", "comedones", "pores"], actives: ["salicylic_acid"], unsafeSensitive: true, why: "Same logic as the recommended product, at a tiny price. The <b>2% salicylic acid</b> and <b>zinc</b> clear the pores and target the <b>blackheads</b> spotted in your analysis.", url: "https://www.theinkeylist.com" },
 ];
-const CLEANSER_GENTLE: Product = { brand: "CeraVe", name: "Hydrating Cleanser", price: "$16", p: 16, targets: [], actives: [], why: "Un nettoyant doux non moussant qui retire impuretés et sébum du jour sans décaper la <b>barrière cutanée</b>. Il convient à toutes les peaux et prépare la peau aux soins suivants.", url: "https://www.cerave.com" };
+const CLEANSER_GENTLE: Product = { brand: "CeraVe", name: "Hydrating Cleanser", price: "$16", p: 16, targets: [], actives: [], why: "A gentle, non-foaming cleanser that removes the day's impurities and sebum without stripping the <b>skin barrier</b>. It suits all skin types and primes the skin for the next steps.", url: "https://www.cerave.com" };
 
-/* Sérum niacinamide — sébum, pores, rougeurs, marques. */
+/* Niacinamide serum — sebum, pores, redness, marks. */
 export const SERUM_NIA: Product[] = [
-  { brand: "The Ordinary", name: "Niacinamide 10% + Zinc 1%", img: "/prod-niacinamide.png", price: "~$6.50", p: 6.5, targets: ["shine", "pores", "redness", "post_acne_marks", "tone_evenness"], actives: ["niacinamide"], why: "Ton diagnostic pointe un <b>sébum</b> abondant et des <b>pores</b> visibles. La <b>niacinamide 10%</b> régule la production de sébum pendant que le <b>zinc</b> apaise les imperfections. En quelques semaines, le grain de peau s'affine et les marques s'atténuent. À appliquer le matin avant l'hydratant pour matifier la journée.", url: "https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html" },
-  { brand: "Naturium", name: "Niacinamide Serum 12%", price: "$16", p: 16, targets: ["shine", "pores", "tone_evenness"], actives: ["niacinamide"], why: "Version plus concentrée pour les mêmes besoins. La <b>niacinamide 12%</b> resserre les <b>pores</b> identifiés dans ton diagnostic et unifie le teint, dans une texture fluide non collante.", url: "https://naturium.com" },
-  { brand: "Paula's Choice", name: "10% Niacinamide Booster", price: "$49", p: 49, targets: ["pores", "shine"], actives: ["niacinamide"], why: "Un booster premium très ciblé sur les <b>pores</b> dilatés et le grain irrégulier de ton diagnostic. La <b>niacinamide 10%</b> affine la peau dans une base soyeuse, à mélanger à ton sérum ou hydratant.", url: "https://www.paulaschoice.com" },
-  { brand: "Good Molecules", name: "Niacinamide Serum", price: "$12", p: 12, targets: ["shine", "pores"], actives: ["niacinamide"], why: "L'essentiel au prix le plus juste. Une <b>niacinamide</b> simple et efficace qui régule l'<b>excès de sébum</b> relevé par ton diagnostic, idéale pour débuter sans se ruiner.", url: "https://goodmolecules.com" },
+  { brand: "The Ordinary", name: "Niacinamide 10% + Zinc 1%", img: "/prod-niacinamide.png", price: "~$6.50", p: 6.5, targets: ["shine", "pores", "redness", "post_acne_marks", "tone_evenness"], actives: ["niacinamide"], why: "Your analysis points to abundant <b>sebum</b> and visible <b>pores</b>. <b>10% niacinamide</b> regulates sebum production while <b>zinc</b> calms blemishes. Within a few weeks, the skin texture refines and marks fade. Apply in the morning before moisturizer to mattify the day.", url: "https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html" },
+  { brand: "Naturium", name: "Niacinamide Serum 12%", price: "$16", p: 16, targets: ["shine", "pores", "tone_evenness"], actives: ["niacinamide"], why: "A more concentrated version for the same needs. <b>12% niacinamide</b> tightens the <b>pores</b> identified in your analysis and evens the tone, in a fluid, non-sticky texture.", url: "https://naturium.com" },
+  { brand: "Paula's Choice", name: "10% Niacinamide Booster", price: "$49", p: 49, targets: ["pores", "shine"], actives: ["niacinamide"], why: "A premium booster very targeted on the enlarged <b>pores</b> and uneven texture in your analysis. <b>10% niacinamide</b> refines the skin in a silky base, to mix into your serum or moisturizer.", url: "https://www.paulaschoice.com" },
+  { brand: "Good Molecules", name: "Niacinamide Serum", price: "$12", p: 12, targets: ["shine", "pores"], actives: ["niacinamide"], why: "The essentials at the fairest price. A simple, effective <b>niacinamide</b> that regulates the <b>excess sebum</b> flagged by your analysis, ideal to start without breaking the bank.", url: "https://goodmolecules.com" },
 ];
 
-/* Sérum hydratant — déshydratation, éclat. */
+/* Hydrating serum — dehydration, radiance. */
 export const SERUM_HYDRA: Product[] = [
-  { brand: "Typology", name: "A31 — Sérum Hydratant", img: "/prod-typology.png", price: "~$30", p: 30, targets: ["flaking", "radiance"], actives: ["hyaluronic_acid"], why: "Même une peau grasse manque d'eau : ton diagnostic révèle une <b>déshydratation</b> sous l'excès de sébum. L'<b>acide hyaluronique</b> repulpe et la <b>vitamine B5</b> apaise, dans une texture légère <b>non grasse</b> qui n'obstrue pas les pores. Elle rééquilibre la peau et limite l'effet rebond de sébum lié au dessèchement.", url: "https://us.typology.com/products/hyaluronic-acid" },
-  { brand: "The Ordinary", name: "Hyaluronic Acid 2% + B5", price: "$9", p: 9, targets: ["flaking", "radiance"], actives: ["hyaluronic_acid"], why: "Le même bénéfice hydratant à prix mini. L'<b>acide hyaluronique</b> multi-poids et la <b>B5</b> repulpent la <b>déshydratation</b> notée dans ton diagnostic, sous une texture légère adaptée aux peaux mixtes à grasses.", url: "https://theordinary.com" },
-  { brand: "La Roche-Posay", name: "Hyalu B5 Sérum", price: "$40", p: 40, targets: ["flaking", "radiance", "redness"], actives: ["hyaluronic_acid"], why: "Plus réparateur, si ton diagnostic montre aussi des <b>zones sensibilisées</b>. L'<b>acide hyaluronique</b>, la <b>vitamine B5</b> et le madécassoside repulpent et réparent les peaux fragilisées.", url: "https://www.laroche-posay.us" },
-  { brand: "Vichy", name: "Minéral 89 Booster", price: "$30", p: 30, targets: ["flaking", "radiance"], actives: ["hyaluronic_acid"], why: "Un booster fortifiant : l'<b>acide hyaluronique</b> et l'eau volcanique renforcent la <b>barrière cutanée</b> et hydratent intensément la peau déshydratée repérée dans ton diagnostic.", url: "https://www.vichyusa.com" },
+  { brand: "Typology", name: "Hyaluronic Acid Serum", img: "/prod-typology.png", price: "~$30", p: 30, targets: ["flaking", "radiance"], actives: ["hyaluronic_acid"], why: "Even oily skin lacks water: your analysis reveals <b>dehydration</b> under the excess sebum. <b>Hyaluronic acid</b> plumps and <b>vitamin B5</b> soothes, in a light, <b>non-greasy</b> texture that doesn't clog pores. It rebalances the skin and limits the sebum rebound caused by dryness.", url: "https://us.typology.com/products/hyaluronic-acid" },
+  { brand: "The Ordinary", name: "Hyaluronic Acid 2% + B5", price: "$9", p: 9, targets: ["flaking", "radiance"], actives: ["hyaluronic_acid"], why: "The same hydrating benefit at a tiny price. Multi-weight <b>hyaluronic acid</b> and <b>B5</b> plump the <b>dehydration</b> noted in your analysis, in a light texture suited to combination-to-oily skin.", url: "https://theordinary.com" },
+  { brand: "La Roche-Posay", name: "Hyalu B5 Serum", price: "$40", p: 40, targets: ["flaking", "radiance", "redness"], actives: ["hyaluronic_acid"], why: "More repairing, if your analysis also shows <b>sensitized areas</b>. <b>Hyaluronic acid</b>, <b>vitamin B5</b> and madecassoside plump and repair fragile skin.", url: "https://www.laroche-posay.us" },
+  { brand: "Vichy", name: "Minéral 89 Booster", price: "$30", p: 30, targets: ["flaking", "radiance"], actives: ["hyaluronic_acid"], why: "A fortifying booster: <b>hyaluronic acid</b> and volcanic water strengthen the <b>skin barrier</b> and intensely hydrate the dehydrated skin spotted in your analysis.", url: "https://www.vichyusa.com" },
 ];
 
-/* Crème — hydratation finale, non comédogène. */
+/* Cream — final hydration, non-comedogenic. */
 export const CREAM: Product[] = [
-  { brand: "Dr. Althea", name: "345 Relief Cream", img: "/prod-dralthea.png", price: "$24–27", p: 25, targets: ["flaking", "post_acne_marks", "redness"], actives: ["moisturizer"], why: "Pour sceller l'hydratation sans relancer le <b>sébum</b> relevé par ton diagnostic. Cette crème <b>non comédogène</b> hydrate et <b>apaise</b> les zones <b>post-acné</b> et sensibles sans laisser de film gras. Elle clôt ta routine du matin et garde la peau confortable toute la journée.", url: "https://www.ulta.com/p/345-relief-cream-pimprod2056740" },
-  { brand: "CeraVe", name: "Moisturizing Cream", price: "$17", p: 17, targets: ["flaking"], actives: ["moisturizer"], why: "Riche en <b>céramides</b> et <b>acide hyaluronique</b>, elle restaure la <b>barrière cutanée</b> sans provoquer de comédons — adaptée aux zones sensibilisées identifiées dans ton diagnostic.", url: "https://www.cerave.com" },
-  { brand: "La Roche-Posay", name: "Toleriane Double Repair", price: "$21", p: 21, targets: ["flaking", "redness"], actives: ["moisturizer"], why: "<b>Céramides</b> et niacinamide pour apaiser et réparer au quotidien la peau réactive notée dans ton diagnostic, sans surcharger les pores.", url: "https://www.laroche-posay.us" },
-  { brand: "Avène", name: "Tolérance Control Crème", price: "$32", p: 32, targets: ["redness", "flaking"], actives: ["moisturizer"], why: "Formule minimaliste et apaisante : elle calme les <b>rougeurs</b> et l'inconfort des zones sensibles relevées par ton diagnostic, idéale en cas de peau réactive.", url: "https://www.aveneusa.com" },
+  { brand: "Dr. Althea", name: "345 Relief Cream", img: "/prod-dralthea.png", price: "$24–27", p: 25, targets: ["flaking", "post_acne_marks", "redness"], actives: ["moisturizer"], why: "To seal in hydration without restarting the <b>sebum</b> flagged by your analysis. This <b>non-comedogenic</b> cream hydrates and <b>soothes</b> the <b>post-acne</b> and sensitive areas without leaving a greasy film. It closes your morning routine and keeps the skin comfortable all day.", url: "https://www.ulta.com/p/345-relief-cream-pimprod2056740" },
+  { brand: "CeraVe", name: "Moisturizing Cream", price: "$17", p: 17, targets: ["flaking"], actives: ["moisturizer"], why: "Rich in <b>ceramides</b> and <b>hyaluronic acid</b>, it restores the <b>skin barrier</b> without triggering comedones — suited to the sensitized areas identified in your analysis.", url: "https://www.cerave.com" },
+  { brand: "La Roche-Posay", name: "Toleriane Double Repair", price: "$21", p: 21, targets: ["flaking", "redness"], actives: ["moisturizer"], why: "<b>Ceramides</b> and niacinamide to soothe and repair, daily, the reactive skin noted in your analysis, without overloading the pores.", url: "https://www.laroche-posay.us" },
+  { brand: "Avène", name: "Tolerance Control Cream", price: "$32", p: 32, targets: ["redness", "flaking"], actives: ["moisturizer"], why: "A minimalist, soothing formula: it calms the <b>redness</b> and discomfort of the sensitive areas flagged by your analysis, ideal for reactive skin.", url: "https://www.aveneusa.com" },
 ];
 
-/* Exfoliant BHA (leave-on) — pores, points noirs. Déconseillé grossesse / peau réactive. */
+/* BHA exfoliant (leave-on) — pores, blackheads. Not advised in pregnancy / reactive skin. */
 export const EXFO: Product[] = [
-  { brand: "Paula's Choice", name: "Skin Perfecting 2% BHA", img: "/prod-paula.png", price: "$37", p: 37, freq: "2-3×/sem", targets: ["acne", "comedones", "pores"], actives: ["salicylic_acid"], unsafePregnancy: true, unsafeSensitive: true, why: "Ton diagnostic révèle des <b>pores obstrués</b> et des <b>points noirs</b>. Cet exfoliant à l'<b>acide salicylique (BHA)</b> pénètre dans le pore pour dissoudre sébum et impuretés, lisse le grain et prévient les imperfections. À utiliser 2-3 soirs par semaine, jamais en même temps que d'autres actifs forts.", url: "https://www.paulaschoice.com/skin-perfecting-2pct-bha-liquid-exfoliant/201-2010.html" },
-  { brand: "The Ordinary", name: "Salicylic Acid 2% Solution", price: "$9", freq: "2-3×/sem", p: 9, targets: ["acne", "comedones", "pores"], actives: ["salicylic_acid"], unsafePregnancy: true, unsafeSensitive: true, why: "Le même actif à prix mini. L'<b>acide salicylique 2%</b> cible les <b>pores obstrués</b> et les <b>points noirs</b> de ton diagnostic, à raison de 2-3 fois par semaine.", url: "https://theordinary.com" },
-  { brand: "COSRX", name: "BHA Blackhead Power Liquid", price: "$25", freq: "le soir", p: 25, targets: ["comedones", "pores"], actives: ["salicylic_acid"], unsafePregnancy: true, unsafeSensitive: true, why: "Plus doux pour débuter l'exfoliation. Le <b>BHA</b> associé au saule blanc déloge les <b>points noirs</b> repérés dans ton diagnostic tout en respectant la peau.", url: "https://www.cosrx.com" },
-  { brand: "COSRX", name: "AHA/BHA Clarifying Toner", price: "$19", freq: "2-3×/sem", p: 19, targets: ["pores", "texture"], actives: ["salicylic_acid", "aha"], unsafePregnancy: true, unsafeSensitive: true, why: "Une exfoliation légère <b>AHA/BHA</b> en entretien : elle affine le grain et désobstrue les <b>pores</b> notés dans ton diagnostic, en douceur.", url: "https://www.cosrx.com" },
+  { brand: "Paula's Choice", name: "Skin Perfecting 2% BHA", img: "/prod-paula.png", price: "$37", p: 37, freq: "2-3×/week", targets: ["acne", "comedones", "pores"], actives: ["salicylic_acid"], unsafePregnancy: true, unsafeSensitive: true, why: "Your analysis reveals <b>clogged pores</b> and <b>blackheads</b>. This <b>salicylic acid (BHA)</b> exfoliant penetrates the pore to dissolve sebum and impurities, smooths the texture and prevents blemishes. Use 2-3 evenings a week, never with other strong actives.", url: "https://www.paulaschoice.com/skin-perfecting-2pct-bha-liquid-exfoliant/201-2010.html" },
+  { brand: "The Ordinary", name: "Salicylic Acid 2% Solution", price: "$9", freq: "2-3×/week", p: 9, targets: ["acne", "comedones", "pores"], actives: ["salicylic_acid"], unsafePregnancy: true, unsafeSensitive: true, why: "The same active at a tiny price. <b>2% salicylic acid</b> targets the <b>clogged pores</b> and <b>blackheads</b> in your analysis, 2-3 times a week.", url: "https://theordinary.com" },
+  { brand: "COSRX", name: "BHA Blackhead Power Liquid", price: "$25", freq: "evening", p: 25, targets: ["comedones", "pores"], actives: ["salicylic_acid"], unsafePregnancy: true, unsafeSensitive: true, why: "Gentler to start exfoliating. <b>BHA</b> combined with white willow loosens the <b>blackheads</b> spotted in your analysis while respecting the skin.", url: "https://www.cosrx.com" },
+  { brand: "COSRX", name: "AHA/BHA Clarifying Toner", price: "$19", freq: "2-3×/week", p: 19, targets: ["pores", "texture"], actives: ["salicylic_acid", "aha"], unsafePregnancy: true, unsafeSensitive: true, why: "A light <b>AHA/BHA</b> exfoliation for maintenance: it refines the texture and unclogs the <b>pores</b> noted in your analysis, gently.", url: "https://www.cosrx.com" },
 ];
 
-/* Protection solaire — étape jour indispensable (anti-taches / anti-âge n°1). */
+/* Sunscreen — essential daytime step (#1 anti-spot / anti-aging). */
 export const SPF: Product[] = [
-  { brand: "La Roche-Posay", name: "Anthelios UVMune 400 SPF 50+", price: "$33", p: 33, targets: ["dark_spots", "post_acne_marks"], actives: ["spf"], why: "La protection solaire est le geste <b>anti-taches</b> et <b>anti-âge</b> n°1 : sans elle, les UV foncent les marques et la pigmentation et annulent les efforts du reste de la routine. Cette texture fluide ne laisse pas de fini blanc et se porte tous les jours, même sous le maquillage.", url: "https://www.laroche-posay.us" },
-  { brand: "EltaMD", name: "UV Clear SPF 46", price: "$43", p: 43, targets: ["dark_spots", "redness"], actives: ["spf"], why: "Très apprécié des peaux à imperfections et sensibles : sa <b>niacinamide</b> apaise pendant que le SPF protège des UV, dans un fini léger non gras qui n'obstrue pas les pores.", url: "https://eltamd.com" },
-  { brand: "Supergoop!", name: "Unseen Sunscreen SPF 40", price: "$38", p: 38, targets: ["dark_spots"], actives: ["spf"], why: "Un fini totalement invisible et velouté, parfait comme base de teint. Il protège des UV au quotidien sans trace blanche ni effet collant.", url: "https://supergoop.com" },
-  { brand: "CeraVe", name: "Hydrating Mineral SPF 30", price: "$17", p: 17, targets: ["dark_spots", "redness"], actives: ["spf"], why: "Une protection minérale douce à petit prix, avec <b>céramides</b> et <b>niacinamide</b> : idéale pour les peaux réactives qui ne tolèrent pas les filtres chimiques.", url: "https://www.cerave.com" },
+  { brand: "La Roche-Posay", name: "Anthelios UVMune 400 SPF 50+", price: "$33", p: 33, targets: ["dark_spots", "post_acne_marks"], actives: ["spf"], why: "Sunscreen is the #1 <b>anti-spot</b> and <b>anti-aging</b> step: without it, UV darkens marks and pigmentation and cancels the rest of your routine's efforts. This fluid texture leaves no white cast and wears every day, even under makeup.", url: "https://www.laroche-posay.us" },
+  { brand: "EltaMD", name: "UV Clear SPF 46", price: "$43", p: 43, targets: ["dark_spots", "redness"], actives: ["spf"], why: "A favorite of blemish-prone and sensitive skin: its <b>niacinamide</b> soothes while the SPF protects from UV, in a light, non-greasy finish that doesn't clog pores.", url: "https://eltamd.com" },
+  { brand: "Supergoop!", name: "Unseen Sunscreen SPF 40", price: "$38", p: 38, targets: ["dark_spots"], actives: ["spf"], why: "A totally invisible, velvety finish, perfect as a makeup base. It protects from UV daily with no white cast or sticky feel.", url: "https://supergoop.com" },
+  { brand: "CeraVe", name: "Hydrating Mineral SPF 30", price: "$17", p: 17, targets: ["dark_spots", "redness"], actives: ["spf"], why: "A gentle mineral protection at a low price, with <b>ceramides</b> and <b>niacinamide</b>: ideal for reactive skin that doesn't tolerate chemical filters.", url: "https://www.cerave.com" },
 ];
 
-/* Masque purifiant (argile) — rituel hebdo pour peau grasse / pores / imperfections. */
+/* Purifying mask (clay) — weekly ritual for oily skin / pores / blemishes. */
 export const MASK_PURIFYING: Product[] = [
-  { brand: "Innisfree", name: "Super Volcanic Pore Clay Mask", price: "$18", p: 18, freq: "1×/sem le soir", targets: ["shine", "pores", "acne", "comedones"], actives: ["clay"], why: "Une fois par semaine, ce masque à l'<b>argile volcanique</b> absorbe l'excès de sébum et désincruste les pores en profondeur. Idéal pour la zone T grasse : il affine le grain et prévient les points noirs sans dessécher le reste du visage.", url: "https://us.innisfree.com" },
-  { brand: "The INKEY List", name: "Kaolin Clay Mask", price: "$11", p: 11, freq: "1×/sem le soir", targets: ["shine", "pores", "comedones"], actives: ["clay"], why: "L'essentiel à prix mini : l'<b>argile kaolin</b> matifie et resserre visiblement les pores. Doux pour un usage hebdomadaire.", url: "https://www.theinkeylist.com" },
-  { brand: "L'Oréal", name: "Pure-Clay Detox Mask", price: "$13", p: 13, freq: "1×/sem le soir", targets: ["shine", "pores"], actives: ["clay", "charcoal"], why: "Trois argiles + <b>charbon</b> pour détoxifier la peau grasse et illuminer le teint terne. Une cure éclat hebdomadaire.", url: "https://www.lorealparisusa.com" },
-  { brand: "Aztec Secret", name: "Indian Healing Clay", price: "$14", p: 14, freq: "1×/sem le soir", targets: ["pores", "acne"], actives: ["clay"], why: "Le pot culte : <b>bentonite</b> 100 % pure, très absorbante. À réserver aux peaux grasses tolérantes, 1×/sem grand maximum.", url: "https://www.aztecsecret.com" },
+  { brand: "Innisfree", name: "Super Volcanic Pore Clay Mask", price: "$18", p: 18, freq: "1×/week evening", targets: ["shine", "pores", "acne", "comedones"], actives: ["clay"], why: "Once a week, this <b>volcanic clay</b> mask absorbs excess sebum and deeply clears the pores. Ideal for an oily T-zone: it refines the texture and prevents blackheads without drying out the rest of the face.", url: "https://us.innisfree.com" },
+  { brand: "The INKEY List", name: "Kaolin Clay Mask", price: "$11", p: 11, freq: "1×/week evening", targets: ["shine", "pores", "comedones"], actives: ["clay"], why: "The essentials at a tiny price: <b>kaolin clay</b> mattifies and visibly tightens pores. Gentle enough for weekly use.", url: "https://www.theinkeylist.com" },
+  { brand: "L'Oréal", name: "Pure-Clay Detox Mask", price: "$13", p: 13, freq: "1×/week evening", targets: ["shine", "pores"], actives: ["clay", "charcoal"], why: "Three clays + <b>charcoal</b> to detoxify oily skin and brighten a dull complexion. A weekly radiance treatment.", url: "https://www.lorealparisusa.com" },
+  { brand: "Aztec Secret", name: "Indian Healing Clay", price: "$14", p: 14, freq: "1×/week evening", targets: ["pores", "acne"], actives: ["clay"], why: "The cult jar: 100% pure <b>bentonite</b>, highly absorbent. Reserve for tolerant oily skin, 1×/week max.", url: "https://www.aztecsecret.com" },
 ];
 
-/* Masque hydratant — rituel hebdo pour peau sèche / déshydratée / teint terne. */
+/* Hydrating mask — weekly ritual for dry / dehydrated skin / dull complexion. */
 export const MASK_HYDRATING: Product[] = [
-  { brand: "Laneige", name: "Water Sleeping Mask", price: "$29", p: 29, freq: "1-2×/sem le soir", targets: ["flaking", "radiance"], actives: ["hyaluronic_acid"], why: "Un masque de nuit qui repulpe la peau pendant le sommeil. Au réveil, le teint est <b>frais et rebondi</b> : parfait quand la peau tiraille ou manque d'éclat.", url: "https://us.laneige.com" },
-  { brand: "Typology", name: "Masque de Nuit Repulpant", price: "$30", p: 30, freq: "1-2×/sem le soir", targets: ["flaking", "radiance"], actives: ["hyaluronic_acid"], why: "Formule courte et clean à l'<b>acide hyaluronique</b> : il hydrate intensément la nuit et lisse le teint terne relevé dans ton diagnostic.", url: "https://us.typology.com" },
-  { brand: "Garnier", name: "Moisture Bomb Sheet Mask", price: "$4", p: 4, freq: "1-2×/sem le soir", targets: ["flaking", "radiance"], actives: ["hyaluronic_acid"], why: "Le coup de boost express à petit prix : un masque tissu gorgé d'<b>acide hyaluronique</b> pour réhydrater en 15 minutes.", url: "https://www.garnierusa.com" },
-  { brand: "e.l.f.", name: "Holy Hydration! Face Mask", price: "$14", p: 14, freq: "1-2×/sem le soir", targets: ["flaking"], actives: ["hyaluronic_acid"], why: "Crème-masque nourrissante à l'<b>acide hyaluronique</b> et au squalane : confort immédiat pour les peaux qui tiraillent.", url: "https://www.elfcosmetics.com" },
+  { brand: "Laneige", name: "Water Sleeping Mask", price: "$29", p: 29, freq: "1-2×/week evening", targets: ["flaking", "radiance"], actives: ["hyaluronic_acid"], why: "An overnight mask that plumps the skin during sleep. On waking, the complexion is <b>fresh and bouncy</b>: perfect when the skin feels tight or lacks glow.", url: "https://us.laneige.com" },
+  { brand: "Typology", name: "Plumping Night Mask", price: "$30", p: 30, freq: "1-2×/week evening", targets: ["flaking", "radiance"], actives: ["hyaluronic_acid"], why: "A short, clean <b>hyaluronic acid</b> formula: it hydrates intensely overnight and smooths the dull complexion noted in your analysis.", url: "https://us.typology.com" },
+  { brand: "Garnier", name: "Moisture Bomb Sheet Mask", price: "$4", p: 4, freq: "1-2×/week evening", targets: ["flaking", "radiance"], actives: ["hyaluronic_acid"], why: "The express boost at a tiny price: a sheet mask soaked in <b>hyaluronic acid</b> to rehydrate in 15 minutes.", url: "https://www.garnierusa.com" },
+  { brand: "e.l.f.", name: "Holy Hydration! Face Mask", price: "$14", p: 14, freq: "1-2×/week evening", targets: ["flaking"], actives: ["hyaluronic_acid"], why: "A nourishing cream-mask with <b>hyaluronic acid</b> and squalane: instant comfort for skin that feels tight.", url: "https://www.elfcosmetics.com" },
 ];
 
-/* Variante « pourquoi » d'un produit (réutilisé le soir avec un autre texte). */
+/* « why » variant of a product (reused in the evening with different text). */
 export function withWhy(list: Product[], idx: number, why: string): Product {
   return { ...list[idx], why };
 }
 
-/* Routine par défaut (peau mixte/grasse) — utilisée en démo `?demo=1` et comme
-   secours si l'on n'a pas de bilan. Reproduit le catalogue d'origine + SPF. */
+/* Default routine (combination/oily skin) — used in demo `?demo=1` and as a
+   fallback if there is no assessment. Reproduces the original catalog + SPF. */
 export const DEFAULT_ROUTINE: RoutineData = {
   day: [
-    { cat: "Nettoyant", icon: "pump", freq: "Chaque matin", use: "Masse sur peau humide ~30 s, puis rince à l'eau tiède.", options: CLEANSER },
-    { cat: "Sérum", icon: "dropper", freq: "Chaque matin", use: "3-4 gouttes sur peau propre, à faire pénétrer avant l'hydratant.", options: SERUM_NIA },
-    { cat: "Sérum", icon: "dropper", freq: "Chaque matin", use: "Quelques gouttes sur peau encore légèrement humide.", options: SERUM_HYDRA },
-    { cat: "Crème", icon: "jar", freq: "Chaque matin", use: "Une noisette pour sceller l'hydratation.", options: CREAM },
-    { cat: "Protection", icon: "pump", freq: "Chaque matin", use: "En dernière étape, généreusement. À renouveler en cas d'exposition.", options: SPF },
+    { cat: "Cleanser", icon: "pump", freq: "Every morning", use: "Massage onto damp skin ~30s, then rinse with lukewarm water.", options: CLEANSER },
+    { cat: "Serum", icon: "dropper", freq: "Every morning", use: "3-4 drops on clean skin, let it absorb before moisturizer.", options: SERUM_NIA },
+    { cat: "Serum", icon: "dropper", freq: "Every morning", use: "A few drops on still slightly damp skin.", options: SERUM_HYDRA },
+    { cat: "Cream", icon: "jar", freq: "Every morning", use: "A pea-size amount to seal in hydration.", options: CREAM },
+    { cat: "Protection", icon: "pump", freq: "Every morning", use: "Last step, generously. Reapply after sun exposure.", options: SPF },
   ],
   night: [
-    { cat: "Nettoyant", icon: "pump", freq: "Chaque soir", use: "Masse pour retirer sébum et pollution du jour, puis rince.", options: [withWhy(CLEANSER, 0, "Au fil de la journée, sébum et pollution s'accumulent et obstruent les pores — à l'origine des <b>points noirs</b> repérés dans ton diagnostic. Ce nettoyant à l'<b>acide salicylique 2%</b> retire cet <b>excès de sébum</b> le soir et remet la peau à zéro avant les actifs nocturnes. Étape clé pour désincruster sans dessécher."), CLEANSER[1], CLEANSER[2], CLEANSER[3]] },
-    { cat: "Exfoliant", icon: "bottle", freq: "2-3 soirs / sem", use: "Sur peau sèche après nettoyage, ne pas rincer. Jamais avec d'autres acides le même soir.", options: EXFO },
-    { cat: "Sérum", icon: "dropper", freq: "Chaque soir", use: "Réhydrate juste après l'exfoliant, sur peau légèrement humide.", options: [withWhy(SERUM_HYDRA, 0, "Après l'exfoliant du soir, la peau peut tirailler. Ce sérum <b>acide hyaluronique</b> + <b>B5</b> réhydrate en profondeur et calme les <b>zones sensibilisées</b> repérées dans ton diagnostic. Il compense l'effet asséchant de l'exfoliation et préserve la <b>barrière cutanée</b> pendant la nuit."), SERUM_HYDRA[1], SERUM_HYDRA[2], SERUM_HYDRA[3]] },
-    { cat: "Crème", icon: "jar", freq: "Chaque soir", use: "Une noisette en dernière étape, pour réparer la nuit.", options: [withWhy(CREAM, 0, "La nuit, la peau se répare. Cette crème <b>non comédogène</b> nourrit, <b>apaise</b> et soutient la <b>barrière cutanée</b> fragilisée par les imperfections et les marques <b>post-acné</b> de ton diagnostic, sans risque d'obstruer les pores."), CREAM[1], CREAM[2], CREAM[3]] },
+    { cat: "Cleanser", icon: "pump", freq: "Every evening", use: "Massage to remove the day's sebum and pollution, then rinse.", options: [withWhy(CLEANSER, 0, "Through the day, sebum and pollution build up and clog the pores — the source of the <b>blackheads</b> spotted in your analysis. This <b>2% salicylic acid</b> cleanser removes that <b>excess sebum</b> in the evening and resets the skin before the night actives. A key step to clear without drying."), CLEANSER[1], CLEANSER[2], CLEANSER[3]] },
+    { cat: "Exfoliant", icon: "bottle", freq: "2-3 nights / week", use: "On dry skin after cleansing, do not rinse. Never with other acids the same night.", options: EXFO },
+    { cat: "Serum", icon: "dropper", freq: "Every evening", use: "Rehydrate right after the exfoliant, on slightly damp skin.", options: [withWhy(SERUM_HYDRA, 0, "After the evening exfoliant, the skin can feel tight. This <b>hyaluronic acid</b> + <b>B5</b> serum rehydrates deeply and calms the <b>sensitized areas</b> spotted in your analysis. It offsets the drying effect of exfoliation and preserves the <b>skin barrier</b> overnight."), SERUM_HYDRA[1], SERUM_HYDRA[2], SERUM_HYDRA[3]] },
+    { cat: "Cream", icon: "jar", freq: "Every evening", use: "A pea-size amount as the last step, to repair overnight.", options: [withWhy(CREAM, 0, "At night, the skin repairs itself. This <b>non-comedogenic</b> cream nourishes, <b>soothes</b> and supports the <b>skin barrier</b> weakened by the blemishes and <b>post-acne</b> marks in your analysis, with no risk of clogging pores."), CREAM[1], CREAM[2], CREAM[3]] },
   ],
-  diagnostic: ["Excès de sébum", "Pores obstrués", "Imperfections"],
+  diagnostic: ["Excess sebum", "Clogged pores", "Blemishes"],
   productCount: 9,
 };
 
-/* Nettoyant doux dédié quand la peau n'a pas d'enjeu sébum/imperfections. */
+/* Dedicated gentle cleanser when the skin has no sebum/blemish concern. */
 export { CLEANSER_GENTLE };

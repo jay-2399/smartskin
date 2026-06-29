@@ -203,13 +203,9 @@
 /* ── storytelling d'intro V2 (plein écran, non skippable) ── */
 .intro { position:absolute; inset:0; z-index:60; background:var(--bg); overflow:hidden; transition:opacity .65s ease; }
 .intro.gone { opacity:0; pointer-events:none; }
-.intro-bg { position:absolute; inset:0; background:
-    radial-gradient(120% 62% at 50% 2%, rgba(166,195,214,0.44), transparent 56%),
-    radial-gradient(90% 50% at 50% 110%, rgba(245,166,35,0.10), transparent 72%);
-  animation:introBg 7s ease-in-out infinite alternate; }
-@keyframes introBg { from{ transform:scale(1) translateY(0);} to{ transform:scale(1.08) translateY(-10px);} }
-.intro-grain { position:absolute; inset:0; pointer-events:none; opacity:0.5; mix-blend-mode:soft-light;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E"); }
+/* Fond plat identique au deck (.routine-v2) → aucune « bande » en haut. */
+.intro-bg { position:absolute; inset:0; background:var(--bg); }
+.intro-grain { display:none; }
 
 .intro-stack { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:flex-start; padding:calc(env(safe-area-inset-top) + 18px) 40px 40px; }
 .intro-logo { height:26px; width:auto; margin-bottom:16px; opacity:0; animation:introIn .8s ease forwards .1s; }

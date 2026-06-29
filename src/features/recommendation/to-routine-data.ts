@@ -10,9 +10,9 @@ import type { EngineProfile } from "./profile";
 const TAG = process.env.AMAZON_AFFILIATE_TAG || "smartskin-20";
 
 const CAT_LABEL: Record<Category, string> = {
-  nettoyant: "Nettoyant", démaquillant: "Démaquillant", serum: "Sérum", traitement: "Traitement",
-  exfoliant: "Exfoliant", hydratant: "Hydratant", spf: "Protection", masque: "Masque",
-  contour_yeux: "Contour des yeux", soin_cible: "Soin ciblé",
+  nettoyant: "Cleanser", démaquillant: "Makeup remover", serum: "Serum", traitement: "Treatment",
+  exfoliant: "Exfoliant", hydratant: "Moisturizer", spf: "Protection", masque: "Mask",
+  contour_yeux: "Eye care", soin_cible: "Targeted care",
 };
 
 export const CAT_ICON: Record<Category, IconKey> = {
@@ -22,25 +22,25 @@ export const CAT_ICON: Record<Category, IconKey> = {
 };
 
 const CAT_USE: Record<Category, string> = {
-  nettoyant: "Masse sur peau humide ~30 s, puis rince à l'eau tiède.",
-  démaquillant: "Le soir, masse sur peau sèche pour dissoudre maquillage et SPF, puis rince.",
-  serum: "Quelques gouttes sur peau propre, à faire pénétrer avant l'hydratant.",
-  traitement: "Sur peau propre, en couche fine. Monte en fréquence selon ta tolérance.",
-  exfoliant: "Sur peau sèche après nettoyage, ne pas rincer. Jamais avec un autre acide le même soir.",
-  hydratant: "Une noisette pour sceller l'hydratation.",
-  spf: "En dernière étape le matin, généreusement. À renouveler en cas d'exposition.",
-  masque: "Sur peau propre, laisse poser 10-15 min puis rince. Pas le même soir que l'exfoliant.",
-  contour_yeux: "Tapote une petite quantité autour de l'œil, sans tirer la peau.",
-  soin_cible: "En touche locale sur la zone concernée, après le sérum.",
+  nettoyant: "Massage onto damp skin ~30s, then rinse with lukewarm water.",
+  démaquillant: "In the evening, massage onto dry skin to dissolve makeup and SPF, then rinse.",
+  serum: "A few drops on clean skin, let it absorb before moisturizer.",
+  traitement: "On clean skin, in a thin layer. Increase frequency as your tolerance allows.",
+  exfoliant: "On dry skin after cleansing, do not rinse. Never with another acid the same night.",
+  hydratant: "A pea-size amount to seal in hydration.",
+  spf: "Last morning step, generously. Reapply after sun exposure.",
+  masque: "On clean skin, leave on 10-15 min then rinse. Not the same night as the exfoliant.",
+  contour_yeux: "Dab a small amount around the eye, without pulling the skin.",
+  soin_cible: "As a local touch on the affected area, after the serum.",
 };
 
 // Libellé court d'une préoccupation pour les puces « diagnostic » du protocole.
 const CHIP: Record<string, string> = {
-  acne: "Imperfections", comedones: "Points noirs", pores: "Pores dilatés", shine: "Excès de sébum",
-  post_acne_marks: "Marques post-acné", texture: "Grain irrégulier", flaking: "Sécheresse",
-  tone_evenness: "Teint irrégulier", radiance: "Teint terne", dark_spots: "Taches", redness: "Rougeurs",
-  visible_vessels: "Vaisseaux", fine_lines: "Ridules", wrinkles: "Rides",
-  under_eye_circles: "Cernes", under_eye_puffiness: "Poches",
+  acne: "Blemishes", comedones: "Blackheads", pores: "Enlarged pores", shine: "Excess sebum",
+  post_acne_marks: "Post-acne marks", texture: "Uneven texture", flaking: "Dryness",
+  tone_evenness: "Uneven tone", radiance: "Dull complexion", dark_spots: "Dark spots", redness: "Redness",
+  visible_vessels: "Vessels", fine_lines: "Fine lines", wrinkles: "Wrinkles",
+  under_eye_circles: "Dark circles", under_eye_puffiness: "Puffiness",
 };
 
 function affiliateUrl(asin: string): string {
@@ -53,21 +53,21 @@ function priceLabel(price: number): string {
 
 /** Traduit la fréquence catalogue en libellé lisible pour un moment donné. */
 function frequencyToFr(frequency: string, moment: "matin" | "soir"): string {
-  if (frequency === "3x/sem") return moment === "soir" ? "3 soirs / sem" : "3×/sem";
-  if (frequency === "1-2x/sem") return moment === "soir" ? "1-2 soirs / sem" : "1-2×/sem";
-  return moment === "soir" ? "Chaque soir" : "Chaque matin";
+  if (frequency === "3x/sem") return moment === "soir" ? "3 nights / week" : "3×/week";
+  if (frequency === "1-2x/sem") return moment === "soir" ? "1-2 nights / week" : "1-2×/week";
+  return moment === "soir" ? "Every evening" : "Every morning";
 }
 
 function freqLabel(key: string, moment: "am" | "pm", product: CatalogProduct): string {
   if (key === "exfoliant") return frequencyToFr(product.frequency, "soir");
-  if (key === "masque") return "1×/sem le soir";
-  return moment === "am" ? "Chaque matin" : "Chaque soir";
+  if (key === "masque") return "1×/week evening";
+  return moment === "am" ? "Every morning" : "Every evening";
 }
 
 /** Libellé / icône / mode d'emploi d'une étape — y compris les 2 crèmes jour/nuit. */
 function stepMeta(key: string): { cat: string; icon: IconKey; use: string } {
-  if (key === "hydratant_jour") return { cat: "Crème jour", icon: "jar", use: "Texture légère le matin, avant le SPF — non grasse sous le maquillage." };
-  if (key === "hydratant_nuit") return { cat: "Crème nuit", icon: "jar", use: "Texture plus riche le soir, pour nourrir et réparer la barrière pendant la nuit." };
+  if (key === "hydratant_jour") return { cat: "Day cream", icon: "jar", use: "Light texture in the morning, before SPF — non-greasy under makeup." };
+  if (key === "hydratant_nuit") return { cat: "Night cream", icon: "jar", use: "Richer texture in the evening, to nourish and repair the barrier overnight." };
   const c = key as Category;
   return { cat: CAT_LABEL[c], icon: CAT_ICON[c], use: CAT_USE[c] };
 }
@@ -80,8 +80,8 @@ export function templateWhy(p: CatalogProduct, profile: EngineProfile): string {
   const raw = p.couche3?.note?.trim();
   const note = raw ? ` ${raw.charAt(0).toUpperCase()}${raw.slice(1)}.` : "";
   const head = phrase
-    ? `Recommandé pour <b>${phrase}</b> grâce à <b>${p.keyActives}</b>.`
-    : `Étape socle adaptée à ta peau ${profile.skinType}, sans actif agressif.`;
+    ? `Recommended for <b>${phrase}</b> thanks to <b>${p.keyActives}</b>.`
+    : `A foundation step suited to your ${profile.skinType} skin, with no harsh active.`;
   return `${head}${note}`;
 }
 
@@ -171,7 +171,7 @@ export function toRoutineData(args: {
 
   const diagnostic = profile.concerns.length
     ? [...new Set(profile.concerns.slice(0, 4).map((c) => CHIP[c] ?? c))]
-    : ["Peau équilibrée"];
+    : ["Balanced skin"];
 
   return { day, night, diagnostic, productCount: day.length + night.length };
 }

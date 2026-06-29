@@ -165,6 +165,7 @@ export function AnalyseScreen() {
           <path className="scan-corner" d="M18 262 L18 278 L34 278" />
           <path className="scan-corner" d="M218 262 L218 278 L202 278" />
         </svg>
+        <div className="scan-sweep" />
       </div>
 
       <div className="prog-wrap">

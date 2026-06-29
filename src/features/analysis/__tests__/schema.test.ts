@@ -32,7 +32,7 @@ describe("AnalysisResultSchema", () => {
     const r = AnalysisResultSchema.parse(SAMPLE_RESULT);
     expect(r.skinAge).toBe(26);
     expect(r.verdict?.plan).toHaveLength(3);
-    expect(r.skinTypeBreakdown).toContain("zone T");
+    expect(r.skinTypeBreakdown).toContain("T-zone");
   });
 
   it("reveal v2 : tolère l'absence des nouveaux champs (bilan « ancien » sans verdict)", () => {

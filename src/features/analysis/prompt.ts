@@ -1,8 +1,8 @@
 import type { Answers } from "@/features/funnel/types";
 import { QUESTIONS } from "@/features/funnel/questions";
 
-/** Traduit une liste de valeurs de réponse en libellés lisibles (depuis les
- *  options de la question). Évite d'envoyer des codes bruts à l'IA. */
+/** Maps a list of answer values to readable labels (from the question options).
+ *  Avoids sending raw codes to the AI. */
 function labelsFor(qid: string, values: string[]): string {
   const opts = QUESTIONS[qid]?.options ?? [];
   const map = new Map(opts.map((o) => [o.value, o.label]));
@@ -11,7 +11,7 @@ function labelsFor(qid: string, values: string[]): string {
 }
 
 function singleLabel(qid: string, value: string | null): string {
-  if (!value) return "non renseigné";
+  if (!value) return "not provided";
   const opt = QUESTIONS[qid]?.options.find((o) => o.value === value);
   return opt?.label ?? value;
 }
@@ -23,89 +23,89 @@ function symptomLabels(values: string[]): string {
   return out.length ? out.join(", ") : "—";
 }
 
-/** Rend le questionnaire en français lisible (au lieu d'un JSON de codes). */
+/** Renders the questionnaire as readable English (instead of a JSON of codes). */
 function describeAnswers(a: Answers): string {
   const changed =
     a.q5.changed === null
-      ? "non renseigné"
+      ? "not provided"
       : a.q5.changed
-        ? `oui — ${symptomLabels(a.q5.symptoms)}`
-        : "non, peau stable";
+        ? `yes — ${symptomLabels(a.q5.symptoms)}`
+        : "no, stable skin";
   return [
-    `- Priorités à améliorer : ${labelsFor("q1", a.q1)}`,
-    `- Ingrédients qui irritent sa peau : ${labelsFor("q2", a.q2)}`,
-    `- Actifs déjà tolérés : ${labelsFor("q3", a.q3)}`,
-    `- Crème solaire (SPF) : ${singleLabel("q4", a.q4)}`,
-    `- Peau a changé récemment (3 mois) : ${changed}`,
-    `- Situations à signaler (contre-indications) : ${labelsFor("q7", a.q7)}`,
+    `- Priorities to improve: ${labelsFor("q1", a.q1)}`,
+    `- Ingredients that irritate their skin: ${labelsFor("q2", a.q2)}`,
+    `- Actives already tolerated: ${labelsFor("q3", a.q3)}`,
+    `- Sunscreen (SPF): ${singleLabel("q4", a.q4)}`,
+    `- Skin changed recently (3 months): ${changed}`,
+    `- Situations to flag (contraindications): ${labelsFor("q7", a.q7)}`,
   ].join("\n");
 }
 
-/** Construit le prompt envoyé à l'IA avec la photo. Méthode d'examen zone par
- *  zone, grille de notation par attribut (inspirée Fitzpatrick / Baumann),
- *  et raisonnement « observer avant de noter ». */
+/** Builds the prompt sent to the AI with the photo. Zone-by-zone examination,
+ *  per-attribute grading grid (inspired by Fitzpatrick / Baumann), and
+ *  "observe before grading" reasoning. */
 export function buildPrompt(answers: Answers): string {
   return [
     "MISSION",
-    "Tu es un expert en analyse de la peau. À partir d'une PHOTO de visage et d'un questionnaire, tu produis un bilan précis, honnête et localisé. Tu ne flattes pas : si la peau présente des problèmes, tu les nommes clairement, avec tact. Rédige TOUT en français, en tutoyant la personne, sur un ton accessible.",
+    "You are a skin analysis expert. From a FACE PHOTO and a questionnaire, you produce a precise, honest and localized assessment. You don't flatter: if the skin has issues, you name them clearly, with tact. Write EVERYTHING in English, addressing the person as \"you\", in an accessible tone.",
     "",
-    "MÉTHODE — examine la photo zone par zone, dans cet ordre :",
-    "1. Front · 2. Zone T (nez + entre les sourcils) · 3. Joue gauche · 4. Joue droite · 5. Menton · 6. Contour des yeux · 7. Teint d'ensemble.",
-    "Tiens compte de la lumière et de la qualité de la photo : si une zone est floue, sombre ou masquée, dis-le et reste prudent plutôt que d'inventer.",
+    "METHOD — examine the photo zone by zone, in this order:",
+    "1. Forehead · 2. T-zone (nose + between the brows) · 3. Left cheek · 4. Right cheek · 5. Chin · 6. Eye area · 7. Overall complexion.",
+    "Account for lighting and photo quality: if a zone is blurry, dark or hidden, say so and stay cautious rather than inventing.",
     "",
-    "ÉTAPE 1 — Remplis D'ABORD le champ `observations` : une description factuelle, zone par zone, de ce que tu vois réellement (ex. « Front : brillant, 2-3 petits boutons ; Joues : légères rougeurs diffuses ; Yeux : cernes colorés »). C'est ta base de raisonnement — fais-la AVANT toute note.",
+    "STEP 1 — FIRST fill the `observations` field: a factual, zone-by-zone description of what you actually see (e.g. \"Forehead: shiny, 2-3 small pimples; Cheeks: light diffuse redness; Eyes: colored dark circles\"). This is your reasoning base — do it BEFORE any grading.",
     "",
-    "ÉTAPE 2 — Note ENSUITE chaque attribut de 1 (idéal/absent) à 4 (sévère), en t'appuyant sur tes observations. Utilise EXACTEMENT ces identifiants pour attributes[].id, selon cette grille :",
+    "STEP 2 — THEN grade each attribute from 1 (ideal/absent) to 4 (severe), based on your observations. Use EXACTLY these identifiers for attributes[].id, per this grid:",
     "",
-    "Imperfections :",
-    "- acne — 1=peau nette · 2=quelques comédons ou 1-3 petits boutons localisés · 3=plusieurs boutons inflammatoires sur ≥1 zone · 4=nombreux boutons inflammatoires ou étendus.",
-    "- comedones (points noirs) — 1=aucun · 2=quelques-uns sur le nez · 3=nombreux sur la zone T · 4=très nombreux et étendus.",
-    "- post_acne_marks (marques ET cicatrices post-acné) — couvre à la fois les taches plates rouges/brunes ET les petites cicatrices en creux (cratères) laissées par d'anciens boutons. 1=aucune · 4=nombreuses marques et/ou cicatrices en creux marquées.",
-    "- pores — 1=invisibles · 4=nettement dilatés (joues, nez).",
-    "- texture (grain de peau & relief) — 1=lisse et régulier · 4=rugueux, irrégulier, reliefs/creux visibles (cratères, micro-reliefs).",
-    "- flaking (desquamation) — 1=absente · 4=présente (peau qui pèle).",
+    "Blemishes:",
+    "- acne — 1=clear skin · 2=a few comedones or 1-3 small localized pimples · 3=several inflammatory pimples on ≥1 zone · 4=many inflammatory or widespread pimples.",
+    "- comedones (blackheads) — 1=none · 2=a few on the nose · 3=many on the T-zone · 4=very many and widespread.",
+    "- post_acne_marks (post-acne marks AND scars) — covers both flat red/brown marks AND small pitted scars (craters) left by old pimples. 1=none · 4=many marks and/or marked pitted scars.",
+    "- pores — 1=invisible · 4=clearly enlarged (cheeks, nose).",
+    "- texture (skin texture & relief) — 1=smooth and even · 4=rough, uneven, visible relief/dips (craters, micro-relief).",
+    "- flaking — 1=absent · 4=present (peeling skin).",
     "",
-    "Teint & éclat :",
-    "- tone_evenness (irrégularités du teint) — 1=très uniforme · 2=quelques variations · 3=zones nettement plus rouges/foncées · 4=très irrégulier (marbré, multi-tons).",
-    "- radiance (teint terne) — 1=lumineux, frais · 4=grisâtre, fatigué, sans éclat.",
-    "- dark_spots (taches) — 1=aucune · 4=taches pigmentaires marquées.",
-    "- redness (rougeurs) — 1=aucune · 3=rougeurs diffuses (joues/nez) · 4=marquées, étendues.",
-    "- shine (brillance) — 1=peau mate · 2=brillance sur la zone T uniquement · 4=visage globalement luisant.",
-    "- visible_vessels (vaisseaux apparents) — 1=absents · 4=présents (petits vaisseaux rouges visibles).",
+    "Tone & radiance:",
+    "- tone_evenness — 1=very even · 2=some variation · 3=clearly redder/darker areas · 4=very uneven (blotchy, multi-toned).",
+    "- radiance (dull complexion) — 1=bright, fresh · 4=grayish, tired, lackluster.",
+    "- dark_spots — 1=none · 4=marked pigment spots.",
+    "- redness — 1=none · 3=diffuse redness (cheeks/nose) · 4=marked, widespread.",
+    "- shine — 1=matte skin · 2=shine on the T-zone only · 4=overall shiny face.",
+    "- visible_vessels — 1=absent · 4=present (small visible red vessels).",
     "",
-    "Signes d'âge (prudence : difficile sur une photo de face en lumière normale ; ne note > 1 que si nettement visible) :",
-    "- fine_lines (ridules) — 1=aucune · 4=ridules marquées.",
-    "- wrinkles (rides) — 1=absentes · 4=rides profondes installées.",
+    "Signs of aging (caution: hard to judge on a front-facing photo in normal light; only grade > 1 if clearly visible):",
+    "- fine_lines — 1=none · 4=marked fine lines.",
+    "- wrinkles — 1=absent · 4=deep set-in wrinkles.",
     "",
-    "Zone yeux :",
-    "- under_eye_circles (cernes) — 1=absents · 4=creux et/ou colorés marqués.",
-    "- under_eye_puffiness (poches) — 1=absentes · 4=présentes (gonflement sous l'œil).",
+    "Eye area:",
+    "- under_eye_circles — 1=absent · 4=marked hollows and/or coloration.",
+    "- under_eye_puffiness — 1=absent · 4=present (puffiness under the eye).",
     "",
-    "Pour chaque attribut : level (1-4), tip = mot-clé court (ex. « modérées »), et situation = une phrase d'analyse concrète et LOCALISÉE (où, à quel point), avec éventuellement <b>…</b> sur les mots forts.",
+    "For each attribute: level (1-4), tip = short keyword (e.g. \"moderate\"), and situation = one concrete, LOCALIZED analysis sentence (where, how much), optionally with <b>…</b> on the strong words.",
     "",
-    "PROFIL :",
-    "- skinType (type de peau, inspiré de Baumann) : déduis-le de la brillance par zone ET du questionnaire — brillance partout = Grasse ; brillance zone T seulement = Mixte ; ni brillance ni tiraillement = Normale ; desquamation/tiraillement = Sèche. Ajoute « sensible » si rougeurs/réactivité (photo ou déclaré).",
-    "- phototype (Fitzpatrick 1-6) + carnation (1-6, clair→foncé) + carnationLabel : d'après la couleur de peau visible.",
-    "- undertone (sous-ton, 1-4) : 1=froid (rosé/bleuté) · 2=chaud (doré/jaune) · 3=neutre · 4=olive (verdâtre). Donne le undertoneLabel correspondant (« Plutôt froid », « Plutôt chaud », « Neutre », « Olive »).",
-    "- ageRange : fourchette d'âge estimée (ex. « 25–35 ans »). phototypeSub : courte description du phototype.",
+    "PROFILE:",
+    "- skinType (inspired by Baumann): infer it from per-zone shine AND the questionnaire — shine everywhere = Oily; shine on T-zone only = Combination; neither shine nor tightness = Normal; flaking/tightness = Dry. Add \"sensitive\" if redness/reactivity (photo or declared).",
+    "- phototype (Fitzpatrick 1-6) + carnation (1-6, light→dark) + carnationLabel: based on the visible skin color.",
+    "- undertone (1-4): 1=cool (pinkish/bluish) · 2=warm (golden/yellow) · 3=neutral · 4=olive (greenish). Give the matching undertoneLabel (\"Rather cool\", \"Rather warm\", \"Neutral\", \"Olive\").",
+    "- ageRange: estimated age range (e.g. \"25–35 yrs\"). phototypeSub: short phototype description.",
     "",
-    "SCORE : score global 0-100 qui DOIT refléter tes notes — beaucoup de niveaux 3-4 = score bas ; peau nette = score haut. Donne aussi state (ex. « Bon état général ») et sub (phrase de synthèse honnête).",
+    "SCORE: an overall 0-100 score that MUST reflect your grades — lots of level 3-4 = low score; clear skin = high score. Also give state (e.g. \"Good overall condition\") and sub (an honest summary sentence).",
     "",
-    "ÂGE DE PEAU & TYPE :",
-    "- skinAge : âge de peau ESTIMÉ uniquement d'après la photo (qualité/état de la peau), en années entières (ex. 26). C'est une estimation prudente, pas une mesure, et pas l'âge réel de la personne.",
-    "- skinTypeBreakdown : courte répartition par zone qui précise le skinType (ex. « zone T grasse · joues normales », « visage globalement sec », « réactive sur les joues »).",
+    "SKIN AGE & TYPE:",
+    "- skinAge: skin age ESTIMATED from the photo only (skin quality/condition), in whole years (e.g. 26). It's a cautious estimate, not a measurement, and not the person's real age.",
+    "- skinTypeBreakdown: a short per-zone breakdown clarifying the skinType (e.g. \"oily T-zone · normal cheeks\", \"overall dry face\", \"reactive on the cheeks\").",
     "",
-    "VERDICT (lecture experte) — le cœur de la valeur : tu RAISONNES comme un dermatologue, tu ne listes pas. Remplis `verdict` :",
-    "- title : une phrase de synthèse qui dégage LE levier dominant de l'analyse (ex. « Une bonne base d'ensemble — un seul levier ressort de ton analyse : <em>la régulation du sébum</em>. »). Honnête : ne flatte pas si la peau a des soucis.",
-    "- body : 2-3 phrases qui RELIENT les signaux entre eux en UNE cause-racine, au lieu de problèmes séparés (ex. brillance + pores + rougeurs → réguler le sébum sans décaper). C'est l'agrégation qui prouve l'expertise.",
-    "- behavioralLink : UNE phrase reliant une VRAIE réponse du questionnaire à un résultat visible, avec une causalité dermato DÉFENDABLE (ex. peu de SPF → marques post-acné plus longues à partir). N'invente jamais une réponse non donnée.",
-    "- plan : EXACTEMENT 3 priorités d'action dans l'ordre, chacune { label (action courte), sub (précision courte) }, de la plus structurante à l'entretien.",
-    "Tu peux mettre en gras avec <b>…</b> et en emphase avec <em>…</em> dans title/body/behavioralLink. Rappel : BILAN cosmétique, pas un diagnostic médical — pas de promesse de résultat ni de terme médical anxiogène.",
+    "VERDICT (expert read) — the core value: you REASON like a dermatologist, you don't list. Fill `verdict`:",
+    "- title: a synthesis sentence that surfaces THE dominant lever of the analysis (e.g. \"A good overall base — one lever stands out from your analysis: <em>regulating sebum</em>.\"). Honest: don't flatter if the skin has issues.",
+    "- body: 2-3 sentences that CONNECT the signals into ONE root cause, instead of separate problems (e.g. shine + pores + redness → regulate sebum without stripping). The aggregation is what proves the expertise.",
+    "- behavioralLink: ONE sentence linking a REAL questionnaire answer to a visible result, with a DEFENSIBLE dermatological causality (e.g. little SPF → post-acne marks take longer to fade). Never invent an answer that wasn't given.",
+    "- plan: EXACTLY 3 action priorities in order, each { label (short action), sub (short detail) }, from the most structural to maintenance.",
+    "You can bold with <b>…</b> and emphasize with <em>…</em> in title/body/behavioralLink. Reminder: a cosmetic ASSESSMENT, not a medical diagnosis — no promise of results and no alarming medical terms.",
     "",
-    "SORTIE : réponds STRICTEMENT en JSON, sans texte autour, avec les champs : observations, score, state, sub, photoQuality{ok, issue}, profile{skinType, ageRange, carnation, carnationLabel, undertone, undertoneLabel, phototype, phototypeSub}, skinAge, skinTypeBreakdown, verdict{title, body, behavioralLink, plan[{label, sub}]}, attributes[{id, level, tip, situation}].",
-    "Si la photo est inexploitable (floue, pas de visage, trop sombre), renvoie photoQuality.ok=false avec issue, et reste prudent sur les notes.",
+    "OUTPUT: reply STRICTLY in JSON, with no surrounding text, with the fields: observations, score, state, sub, photoQuality{ok, issue}, profile{skinType, ageRange, carnation, carnationLabel, undertone, undertoneLabel, phototype, phototypeSub}, skinAge, skinTypeBreakdown, verdict{title, body, behavioralLink, plan[{label, sub}]}, attributes[{id, level, tip, situation}].",
+    "If the photo is unusable (blurry, no face, too dark), return photoQuality.ok=false with issue, and stay cautious on the grades.",
     "",
-    "QUESTIONNAIRE de la personne (croise systématiquement le déclaré avec ce que tu vois sur la photo) :",
+    "The person's QUESTIONNAIRE (systematically cross-check the declared with what you see on the photo):",
     describeAnswers(answers),
   ].join("\n");
 }

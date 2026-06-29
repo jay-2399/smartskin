@@ -11,14 +11,14 @@ describe("buildPrompt", () => {
   });
 
   it("produit un bilan via une méthode d'examen zone par zone", () => {
-    expect(p).toMatch(/bilan/i);
-    expect(p).toMatch(/zone par zone/i);
-    expect(p).toContain("Front");
+    expect(p).toMatch(/assessment/i);
+    expect(p).toMatch(/zone by zone/i);
+    expect(p).toContain("Forehead");
   });
 
   it("impose d'observer AVANT de noter (champ observations)", () => {
     expect(p).toContain("observations");
-    expect(p).toMatch(/AVANT/);
+    expect(p).toMatch(/BEFORE/);
   });
 
   it("injecte les réponses du questionnaire en clair (libellés, pas codes)", () => {
@@ -32,8 +32,8 @@ describe("buildPrompt", () => {
     expect(p).toContain("under_eye_puffiness");
   });
 
-  it("impose une réponse JSON et le français", () => {
+  it("impose une réponse JSON et l'anglais", () => {
     expect(p).toMatch(/JSON/);
-    expect(p).toMatch(/français/i);
+    expect(p).toMatch(/English/i);
   });
 });

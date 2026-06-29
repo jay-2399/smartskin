@@ -70,7 +70,7 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
   };
   const fmtDate = (d: string) => { try { return new Date(d).toLocaleDateString("fr-FR", { month: "short", year: "numeric" }); } catch { return d; } };
   const ratingRow = (p: Product) => (p.rating == null ? "" :
-    `<div class="card-rating"><b>${p.rating.toFixed(1)}</b><svg class="star1" viewBox="0 0 24 24" fill="currentColor">${STAR_PATH}</svg><span>· ${fmtN(p.reviewCount ?? 0)} avis</span></div>`);
+    `<div class="card-rating"><b>${p.rating.toFixed(1)}</b><svg class="star1" viewBox="0 0 24 24" fill="currentColor">${STAR_PATH}</svg><span>· ${fmtN(p.reviewCount ?? 0)} reviews</span></div>`);
   const csBlock = (p: Product) => {
     if (!p.customersSay) return "";
     const chips = (p.aspects ?? []).map(([name, val]) => `<span class="cs-chip">${esc(name)} <b>${esc(val)}</b></span>`).join("");
@@ -347,7 +347,7 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     renderDots(); renderFooter(); updateReplay();
     if (st.step >= steps.length) { if (tab === "day") goToNight(); else goToProtocol(); return; }
     actions.style.display = ""; hint.style.display = "";
-    stepLabel.textContent = `Étape ${st.step + 1} / ${steps.length}`;
+    stepLabel.textContent = `Step ${st.step + 1} / ${steps.length}`;
     deck.innerHTML = "";
     const maxDepth = Math.min(2, steps.length - 1 - st.step);
     for (let depth = maxDepth; depth >= 0; depth--) {

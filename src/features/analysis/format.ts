@@ -30,9 +30,9 @@ export function skinAgeDelta(
   if (skinAge == null || realAge == null) return null;
   const years = skinAge - realAge;
   const abs = Math.abs(years);
-  const unit = abs > 1 ? "ans" : "an";
-  if (years === 0) return { years, deltaText: "Pile ton âge", suffix: "" };
-  return { years, deltaText: `${years > 0 ? "+" : "−"}${abs} ${unit}`, suffix: "vs ton âge réel" };
+  const unit = abs > 1 ? "yrs" : "yr";
+  if (years === 0) return { years, deltaText: "Spot on", suffix: "" };
+  return { years, deltaText: `${years > 0 ? "+" : "−"}${abs} ${unit}`, suffix: "vs your real age" };
 }
 
 /** Regroupe les attributs du bilan par section (ordre du catalogue) et y attache
