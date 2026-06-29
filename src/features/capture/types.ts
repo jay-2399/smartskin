@@ -22,7 +22,7 @@ export type FaceFrame = {
   faceCount: number;
   projectedHeight: number; // px sur l'image finale
   ratio: number;           // faceHeight / ovalHeight
-  luminance: { mean: number; stddev: number; lateralDelta: number };
+  luminance: { mean: number; stddev: number; lateralDelta: number; shadowRange: number };
   pose: { yaw: number; pitch: number; roll: number };
   sharpness: number;       // variance Laplacien
   centerOffset: { x: number; y: number }; // fraction 0..1

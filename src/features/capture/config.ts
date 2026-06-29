@@ -6,7 +6,10 @@
 // Calibrage fin via logging CaptureMetric en Phase 1.5 (Plan 6).
 export const VALIDATION_CONFIG = {
   faceSize: { minProjected: 400, ratioMin: 0.45, ratioMax: 0.95 },
-  luminance: { meanMin: 100, meanMax: 200, stddevMax: 50, lateralDeltaMax: 30 },
+  // shadowRangeMax : écart max toléré entre la case la plus sombre et la plus claire
+  // de la grille 3×3 du visage (réglage MODÉRÉ — ne bloque qu'une ombre marquée ;
+  // à calibrer finement via CaptureMetric en Phase 1.5).
+  luminance: { meanMin: 100, meanMax: 200, stddevMax: 50, lateralDeltaMax: 30, shadowRangeMax: 65 },
   orientation: { yaw: 20, pitch: 20, roll: 25 },
   stability: { maxDeltaFrac: 0.015, holdMs: 500 },
   sharpness: { minVariance: 60 }, // à calibrer (Phase 1.5)
@@ -21,6 +24,7 @@ export const VALIDATION_CONFIG = {
     minProjected: 220, // au moins ~220 px de haut pour voir la peau
     yaw: 32, pitch: 32, roll: 35, // 3/4 léger toléré
     meanMin: 55, meanMax: 235, // ni trop sombre ni surexposé
+    shadowRangeMax: 80, // ombre marquée sur le visage (un peu plus tolérant qu'en live)
     minVariance: 35, // netteté (photos compressées un peu plus tolérées)
   },
 } as const;

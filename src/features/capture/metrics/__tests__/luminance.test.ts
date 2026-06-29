@@ -9,11 +9,12 @@ function solid(size: number, v: number): Uint8ClampedArray {
 }
 
 describe("luminanceStats (64×64)", () => {
-  it("image unie → mean = valeur, stddev ≈ 0, lateralDelta ≈ 0", () => {
+  it("image unie → mean = valeur, stddev ≈ 0, lateralDelta ≈ 0, shadowRange ≈ 0", () => {
     const s = luminanceStats(solid(64, 150), 64);
     expect(Math.round(s.mean)).toBe(150);
     expect(s.stddev).toBeLessThan(1);
     expect(s.lateralDelta).toBeLessThan(1);
+    expect(s.shadowRange).toBeLessThan(1);
   });
 
   it("moitié gauche sombre / droite claire → lateralDelta élevé", () => {
@@ -26,5 +27,18 @@ describe("luminanceStats (64×64)", () => {
     }
     const s = luminanceStats(a, size);
     expect(s.lateralDelta).toBeGreaterThan(100);
+  });
+
+  it("ombre EN HAUT (que lateralDelta ne voit pas) → shadowRange élevé", () => {
+    const size = 64;
+    const a = new Uint8ClampedArray(size * size * 4);
+    for (let y = 0; y < size; y++) for (let x = 0; x < size; x++) {
+      const v = y < size / 2 ? 40 : 200; // moitié haute sombre
+      const i = (y * size + x) * 4;
+      a[i]=v; a[i+1]=v; a[i+2]=v; a[i+3]=255;
+    }
+    const s = luminanceStats(a, size);
+    expect(s.lateralDelta).toBeLessThan(1);   // gauche/droite identiques → angle mort
+    expect(s.shadowRange).toBeGreaterThan(100); // la grille 3×3 le capte
   });
 });

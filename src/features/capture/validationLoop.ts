@@ -28,6 +28,7 @@ function smooth(prev: FaceFrame | null, f: FaceFrame): FaceFrame {
       mean: ema(prev.luminance.mean, f.luminance.mean),
       stddev: ema(prev.luminance.stddev, f.luminance.stddev),
       lateralDelta: ema(prev.luminance.lateralDelta, f.luminance.lateralDelta),
+      shadowRange: ema(prev.luminance.shadowRange, f.luminance.shadowRange),
     },
   };
 }

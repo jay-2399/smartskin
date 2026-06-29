@@ -56,7 +56,7 @@ export type ExtractResult = {
 
 const NO_FACE: Omit<FaceFrame, "faceCount"> = {
   projectedHeight: 0, ratio: 0,
-  luminance: { mean: 0, stddev: 0, lateralDelta: 0 },
+  luminance: { mean: 0, stddev: 0, lateralDelta: 0, shadowRange: 0 },
   pose: { yaw: 0, pitch: 0, roll: 0 },
   sharpness: 0,
   centerOffset: { x: 1, y: 1 },

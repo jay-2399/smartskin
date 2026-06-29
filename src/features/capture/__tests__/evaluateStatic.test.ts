@@ -5,7 +5,7 @@ import type { FaceFrame } from "@/features/capture/types";
 const good: FaceFrame = {
   faceCount: 1,
   projectedHeight: 900, ratio: 0.75,
-  luminance: { mean: 150, stddev: 20, lateralDelta: 5 },
+  luminance: { mean: 150, stddev: 20, lateralDelta: 5, shadowRange: 15 },
   pose: { yaw: 2, pitch: 1, roll: 3 },
   sharpness: 200,
   centerOffset: { x: 0.05, y: 0.05 },
@@ -53,8 +53,14 @@ describe("evaluateStaticImage", () => {
   });
 
   it("photo très sombre → refus", () => {
-    const r = evaluateStaticImage({ ...good, luminance: { mean: 30, stddev: 20, lateralDelta: 5 } });
+    const r = evaluateStaticImage({ ...good, luminance: { mean: 30, stddev: 20, lateralDelta: 5, shadowRange: 15 } });
     expect(r.ok).toBe(false);
     expect(r.message).toMatch(/dark/i);
+  });
+
+  it("photo avec une ombre marquée (shadowRange élevé) → refus", () => {
+    const r = evaluateStaticImage({ ...good, luminance: { ...good.luminance, shadowRange: 95 } });
+    expect(r.ok).toBe(false);
+    expect(r.message).toMatch(/shadow/i);
   });
 });

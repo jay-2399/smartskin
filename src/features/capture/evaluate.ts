@@ -18,6 +18,8 @@ function luminanceStatus(l: FaceFrame["luminance"]): Criterion {
     return { status: "error", message: "You are backlit, turn toward the light" };
   if (l.lateralDelta >= C.luminance.lateralDeltaMax)
     return { status: "error", message: "Light too strong on one side, balance your lighting" };
+  if (l.shadowRange >= C.luminance.shadowRangeMax)
+    return { status: "error", message: "Shadow on your face, even out the lighting" };
   return { status: "ok", message: null };
 }
 
@@ -67,6 +69,9 @@ export function evaluateStaticImage(f: FaceFrame): { ok: boolean; message: strin
       : f.luminance.mean > U.meanMax
         ? { status: "error", message: "Photo too bright (overexposed)" }
         : { status: "ok", message: null },
+    f.luminance.shadowRange >= U.shadowRangeMax
+      ? { status: "error", message: "Too much shadow on the face, even out the lighting" }
+      : { status: "ok", message: null },
     Math.abs(f.pose.yaw) > U.yaw || Math.abs(f.pose.pitch) > U.pitch || Math.abs(f.pose.roll) > U.roll
       ? { status: "error", message: "Your face must face the camera" }
       : { status: "ok", message: null },

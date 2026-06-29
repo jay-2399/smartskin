@@ -6,7 +6,7 @@ import type { FaceFrame } from "@/features/capture/types";
 const goodFrame: FaceFrame = {
   faceCount: 1,
   projectedHeight: 900, ratio: 0.75,
-  luminance: { mean: 150, stddev: 20, lateralDelta: 5 },
+  luminance: { mean: 150, stddev: 20, lateralDelta: 5, shadowRange: 15 },
   pose: { yaw: 2, pitch: 1, roll: 3 },
   sharpness: 200,
   centerOffset: { x: 0.05, y: 0.05 },
@@ -33,6 +33,16 @@ describe("evaluateFrame", () => {
     const s = evaluateFrame({ ...goodFrame, centerOffset: { x: 0.3, y: 0 } }, tracker, 600);
     expect(s.centering.status).toBe("warning");
     expect(s.canCapture).toBe(true);
+  });
+
+  it("ombre marquée sur le visage (shadowRange élevé) → bloque la capture", () => {
+    const tracker = new StabilityTracker();
+    const shadowed = { ...goodFrame, luminance: { ...goodFrame.luminance, shadowRange: 90 } };
+    evaluateFrame(shadowed, tracker, 0);
+    const s = evaluateFrame(shadowed, tracker, 600);
+    expect(s.luminance.status).toBe("error");
+    expect(s.luminance.message).toMatch(/shadow/i);
+    expect(s.canCapture).toBe(false);
   });
 
   it("message prioritaire = premier critère bloquant en erreur", () => {
