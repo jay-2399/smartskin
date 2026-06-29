@@ -6,24 +6,24 @@ import { centeringStatus } from "./metrics/centering";
 import { StabilityTracker } from "./metrics/stability";
 
 function faceCountStatus(n: number): Criterion {
-  if (n === 0) return { status: "error", message: "Place ton visage dans le cadre" };
-  if (n > 1) return { status: "error", message: "Une seule personne dans le cadre" };
+  if (n === 0) return { status: "error", message: "Place your face in the frame" };
+  if (n > 1) return { status: "error", message: "Only one person in the frame" };
   return { status: "ok", message: null };
 }
 
 function luminanceStatus(l: FaceFrame["luminance"]): Criterion {
-  if (l.mean < C.luminance.meanMin) return { status: "error", message: "Pas assez de lumière" };
-  if (l.mean > C.luminance.meanMax) return { status: "error", message: "Trop de lumière directe" };
+  if (l.mean < C.luminance.meanMin) return { status: "error", message: "Not enough light" };
+  if (l.mean > C.luminance.meanMax) return { status: "error", message: "Too much direct light" };
   if (l.stddev >= C.luminance.stddevMax)
-    return { status: "error", message: "Tu es à contre-jour, tourne-toi face à la lumière" };
+    return { status: "error", message: "You are backlit, turn toward the light" };
   if (l.lateralDelta >= C.luminance.lateralDeltaMax)
-    return { status: "error", message: "Lumière trop forte d'un côté, équilibre ton éclairage" };
+    return { status: "error", message: "Light too strong on one side, balance your lighting" };
   return { status: "ok", message: null };
 }
 
 function sharpnessStatus(v: number): Criterion {
   if (v < C.sharpness.minVariance)
-    return { status: "error", message: "Image floue, attends la mise au point" };
+    return { status: "error", message: "Blurry image, wait for focus" };
   return { status: "ok", message: null };
 }
 
@@ -60,18 +60,18 @@ export function evaluateStaticImage(f: FaceFrame): { ok: boolean; message: strin
   const checks: Criterion[] = [
     faceCountStatus(f.faceCount),
     f.ratio < U.ratioMin || f.projectedHeight < U.minProjected
-      ? { status: "error", message: "Le visage doit être plus grand sur la photo" }
+      ? { status: "error", message: "Your face must be larger in the photo" }
       : { status: "ok", message: null },
     f.luminance.mean < U.meanMin
-      ? { status: "error", message: "Photo trop sombre" }
+      ? { status: "error", message: "Photo too dark" }
       : f.luminance.mean > U.meanMax
-        ? { status: "error", message: "Photo trop claire (surexposée)" }
+        ? { status: "error", message: "Photo too bright (overexposed)" }
         : { status: "ok", message: null },
     Math.abs(f.pose.yaw) > U.yaw || Math.abs(f.pose.pitch) > U.pitch || Math.abs(f.pose.roll) > U.roll
-      ? { status: "error", message: "Le visage doit être de face" }
+      ? { status: "error", message: "Your face must face the camera" }
       : { status: "ok", message: null },
     f.sharpness < U.minVariance
-      ? { status: "error", message: "Photo trop floue" }
+      ? { status: "error", message: "Photo too blurry" }
       : { status: "ok", message: null },
   ];
   const firstError = checks.find((c) => c.status !== "ok");

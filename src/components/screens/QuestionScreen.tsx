@@ -151,11 +151,11 @@ export function QuestionScreen({ step }: { step: StepId }) {
         <div className="foot-row">
           {q.maxSelect !== undefined && (
             <span className="counter">
-              <b>{multiSelected.length}</b>/{q.maxSelect} choisies
+              <b>{multiSelected.length}</b>/{q.maxSelect} selected
             </span>
           )}
           <button type="button" className="cta-btn" disabled={!valid} onClick={next}>
-            {q.ctaLabel ?? "Continuer"}
+            {q.ctaLabel ?? "Continue"}
             <ArrowIcon />
           </button>
         </div>

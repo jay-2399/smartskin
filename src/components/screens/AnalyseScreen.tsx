@@ -12,12 +12,12 @@ import type { AnalysisResult } from "@/features/analysis/schema";
 
 // Étapes affichées selon l'avancement (%). Tirées du déroulé d'une analyse.
 const STAGES: { at: number; msg: string }[] = [
-  { at: 0, msg: "Détection du visage…" },
-  { at: 14, msg: "Lecture du grain de peau…" },
-  { at: 30, msg: "Analyse des pores et du sébum…" },
-  { at: 48, msg: "Cartographie du teint et de l'éclat…" },
-  { at: 65, msg: "Évaluation des zones sensibles…" },
-  { at: 82, msg: "Compilation de ton diagnostic…" },
+  { at: 0, msg: "Detecting your face…" },
+  { at: 14, msg: "Reading your skin texture…" },
+  { at: 30, msg: "Analyzing pores and oil…" },
+  { at: 48, msg: "Mapping tone and radiance…" },
+  { at: 65, msg: "Assessing sensitive areas…" },
+  { at: 82, msg: "Compiling your diagnosis…" },
 ];
 const EXPECTED_MS = 26000; // latence typique gpt-5.5 (la barre s'y cale, sans jamais coller à 100)
 
@@ -104,7 +104,7 @@ export function AnalyseScreen() {
 
       if (value >= 99.5) {
         setPct(100);
-        setMsg("Diagnostic prêt");
+        setMsg("Diagnosis ready");
         if (finishedAt === null) finishedAt = ts;
         if (ts - finishedAt >= 600) { // petit temps fort « prêt »
           const res = w.result;
@@ -136,7 +136,7 @@ export function AnalyseScreen() {
 
   return (
     <div className="screen analyse">
-      <div className="kicker"><span className="live" />Analyse IA en cours</div>
+      <div className="kicker"><span className="live" />AI analysis in progress</div>
 
       <div className="scan">
         {/* eslint-disable-next-line @next/next/no-img-element -- blob en mémoire */}
@@ -169,7 +169,7 @@ export function AnalyseScreen() {
 
       <div className="prog-wrap">
         <div className="prog-top">
-          <span className="prog-label">{pct >= 100 ? "Terminé" : "Analyse de ta peau"}</span>
+          <span className="prog-label">{pct >= 100 ? "Done" : "Analyzing your skin"}</span>
           <span className="prog-pct">{pct}%</span>
         </div>
         <div className="prog-track"><div className="prog-fill" style={{ width: `${pct}%` }} /></div>
@@ -178,7 +178,7 @@ export function AnalyseScreen() {
       <div className="status">
         {error ? (
           <button type="button" className="retry" onClick={() => location.reload()}>
-            L&apos;analyse a échoué. Réessayer
+            Analysis failed. Retry
           </button>
         ) : (
           <>
@@ -188,7 +188,7 @@ export function AnalyseScreen() {
         )}
       </div>
 
-      <div className="reassure-analyse">Ta photo est analysée puis supprimée — jamais conservée.</div>
+      <div className="reassure-analyse">Your photo is analyzed then deleted — never stored.</div>
     </div>
   );
 }

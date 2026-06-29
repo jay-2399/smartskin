@@ -19,12 +19,12 @@ const CheckIcon = () => (
 
 /* Pastilles critères de la maquette (la stabilité vit dans le hint du viewfinder). */
 const CHIPS: { key: keyof Pick<ValidationState, "faceCount" | "faceSize" | "centering" | "orientation" | "luminance" | "sharpness">; label: string }[] = [
-  { key: "faceCount", label: "Visage détecté" },
-  { key: "faceSize", label: "Bonne distance" },
-  { key: "centering", label: "Bien centré" },
-  { key: "orientation", label: "Face à la caméra" },
-  { key: "luminance", label: "Lumière suffisante" },
-  { key: "sharpness", label: "Image nette" },
+  { key: "faceCount", label: "Face detected" },
+  { key: "faceSize", label: "Good distance" },
+  { key: "centering", label: "Well centered" },
+  { key: "orientation", label: "Facing the camera" },
+  { key: "luminance", label: "Enough light" },
+  { key: "sharpness", label: "Sharp image" },
 ];
 
 const chipClass = (s: Status) => (s === "ok" ? " ok" : s === "warning" ? " warn" : "");
@@ -112,22 +112,22 @@ function ChoiceView({
       {uploading && (
         <div className="cap-analyzing" role="status" aria-live="polite">
           <span className="spinner" aria-hidden />
-          <p>Analyse de ta photo…</p>
-          <span className="cap-analyzing-sub">On vérifie le visage, le cadrage, la netteté et la lumière</span>
+          <p>Analyzing your photo…</p>
+          <span className="cap-analyzing-sub">Checking your face, framing, sharpness and light</span>
         </div>
       )}
 
       <div className="head">
-        <h1>Ta photo de visage.</h1>
-        <p>Prends-la maintenant avec ta caméra, ou importe une photo nette de ton visage.</p>
+        <h1>Your face photo.</h1>
+        <p>Take it now with your camera, or upload a sharp photo of your face.</p>
       </div>
 
       <div className="cap-choice">
         <button type="button" className="opt cap-opt" onClick={onLive} disabled={uploading}>
           <span className="opt-ic"><CameraIcon /></span>
           <span className="opt-tx">
-            <span className="opt-l">Prendre une photo</span>
-            <span className="opt-s">Cadrage guidé, capture automatique</span>
+            <span className="opt-l">Take a photo</span>
+            <span className="opt-s">Guided framing, automatic capture</span>
           </span>
           <span className="cap-opt-arrow">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M6 3l5 5-5 5" /></svg>
@@ -137,8 +137,8 @@ function ChoiceView({
         <button type="button" className="opt cap-opt" onClick={onImport} disabled={uploading}>
           <span className="opt-ic"><UploadIcon /></span>
           <span className="opt-tx">
-            <span className="opt-l">{uploading ? "Vérification de la photo…" : "Importer une photo"}</span>
-            <span className="opt-s">Depuis ta galerie — vérifiée automatiquement</span>
+            <span className="opt-l">{uploading ? "Checking the photo…" : "Upload a photo"}</span>
+            <span className="opt-s">From your gallery — checked automatically</span>
           </span>
           <span className="cap-opt-arrow">
             {uploading
@@ -151,7 +151,7 @@ function ChoiceView({
       </div>
 
       <div className="shutter-zone cap-choice-foot">
-        <span className="reassure-capture">Ta photo est analysée puis supprimée — jamais conservée.</span>
+        <span className="reassure-capture">Your photo is analyzed then deleted — never stored.</span>
       </div>
     </>
   );
@@ -186,8 +186,8 @@ function LiveView({ onBack }: { onBack: () => void }) {
         setLoading(false);
         setFatalError(
           e instanceof DOMException && (e.name === "NotAllowedError" || e.name === "PermissionDeniedError")
-            ? "Autorise l'accès à la caméra, ou importe une photo."
-            : "Impossible d'initialiser la caméra, importe une photo."
+            ? "Allow camera access, or upload a photo."
+            : "Couldn't start the camera, upload a photo."
         );
       }
     })();
@@ -240,18 +240,18 @@ function LiveView({ onBack }: { onBack: () => void }) {
   const hintText = fatalError
     ? fatalError
     : loading
-      ? "Initialisation de l'IA…"
+      ? "Starting the AI…"
       : countdown !== null
         ? countdown > 0
-          ? `Ne bouge plus — capture dans ${countdown}s`
-          : "Capture !"
-        : state?.topMessage ?? "Détection…";
+          ? `Hold still — capturing in ${countdown}s`
+          : "Capturing!"
+        : state?.topMessage ?? "Detecting…";
 
   return (
     <>
       <div className="head">
-        <h1>Cadre ton visage dans l&apos;ovale.</h1>
-        <p>La photo se déclenche dès que tout est au vert.</p>
+        <h1>Frame your face in the oval.</h1>
+        <p>The photo is taken as soon as everything turns green.</p>
       </div>
 
       {/* VIEWFINDER */}
@@ -274,7 +274,7 @@ function LiveView({ onBack }: { onBack: () => void }) {
           <div className="vf-count" aria-live="polite">{countdown}</div>
         )}
         {loading && !fatalError && (
-          <div className="vf-loading"><span className="spinner" aria-hidden />Initialisation de l&apos;IA…</div>
+          <div className="vf-loading"><span className="spinner" aria-hidden />Starting the AI…</div>
         )}
       </div>
 
@@ -291,14 +291,14 @@ function LiveView({ onBack }: { onBack: () => void }) {
       {/* STATUT (capture automatique — pas de bouton) */}
       <div className="shutter-zone">
         <span className={`shutter-lbl${countdown !== null ? " ready" : ""}`}>
-          {countdown !== null ? "Capture automatique en cours…" : "Ajuste ton cadrage…"}
+          {countdown !== null ? "Auto-capturing…" : "Adjust your framing…"}
         </span>
         {fatalError && (
           <button type="button" className="upload-link" onClick={onBack}>
-            ← importer une photo à la place
+            ← upload a photo instead
           </button>
         )}
-        <span className="reassure-capture">Ta photo est analysée puis supprimée.</span>
+        <span className="reassure-capture">Your photo is analyzed then deleted.</span>
       </div>
     </>
   );

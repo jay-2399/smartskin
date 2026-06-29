@@ -29,36 +29,36 @@ export function PhotoReviewScreen() {
   return (
     <div className="screen capture">
       <div className="topbar capture-topbar">
-        <button type="button" className="back" aria-label="Retour" onClick={retake}>
+        <button type="button" className="back" aria-label="Back" onClick={retake}>
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13L5 8l5-5" /></svg>
         </button>
-        <span className="tb-title">Ta photo</span>
+        <span className="tb-title">Your photo</span>
         <span className="tb-step">03</span>
       </div>
 
       <div className="head">
-        <h1>Elle te convient ?</h1>
-        <p>Vérifie que ton visage est net et bien éclairé.</p>
+        <h1>Happy with it?</h1>
+        <p>Make sure your face is sharp and well lit.</p>
       </div>
 
       <div className="vf review">
         {/* eslint-disable-next-line @next/next/no-img-element -- blob en mémoire, next/image ne gère pas les object URLs */}
-        {url && <img className="review-photo" src={url} alt="Photo capturée de ton visage" />}
+        {url && <img className="review-photo" src={url} alt="Captured photo of your face" />}
       </div>
 
       <div className="review-actions">
         <button type="button" className="btn-ghost" onClick={retake}>
           <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M2 8a6 6 0 1 1 1.7 4.2M2 12.5V8.8h3.7" /></svg>
-          Reprendre
+          Retake
         </button>
         <button type="button" className="cta-btn" onClick={() => router.push(useFunnel.getState().rescan ? "/analyse" : "/questions/q2")}>
-          Continuer
+          Continue
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M8 4l4 4-4 4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </button>
       </div>
 
       <div className="shutter-zone">
-        <span className="reassure-capture">Ta photo est analysée puis supprimée.</span>
+        <span className="reassure-capture">Your photo is analyzed then deleted.</span>
       </div>
     </div>
   );

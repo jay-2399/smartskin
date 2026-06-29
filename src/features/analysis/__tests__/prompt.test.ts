@@ -23,8 +23,8 @@ describe("buildPrompt", () => {
 
   it("injecte les réponses du questionnaire en clair (libellés, pas codes)", () => {
     expect(p).toContain("Pores");           // q1: pores → libellé
-    expect(p).toContain("Jamais");          // q4: never → libellé
-    expect(p).toContain("Plus de boutons"); // q5 symptôme: breakouts → libellé
+    expect(p).toContain("Never");           // q4: never → libellé
+    expect(p).toContain("More breakouts");  // q5 symptôme: breakouts → libellé
   });
 
   it("borne le vocabulaire aux identifiants d'attributs du catalogue", () => {

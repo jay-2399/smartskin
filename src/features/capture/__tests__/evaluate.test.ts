@@ -37,6 +37,6 @@ describe("evaluateFrame", () => {
 
   it("message prioritaire = premier critère bloquant en erreur", () => {
     const s = evaluateFrame({ ...goodFrame, faceCount: 0, sharpness: 1 }, new StabilityTracker(), 600);
-    expect(s.topMessage).toMatch(/visage/i); // présence prioritaire sur netteté
+    expect(s.topMessage).toMatch(/face/i); // présence prioritaire sur netteté
   });
 });

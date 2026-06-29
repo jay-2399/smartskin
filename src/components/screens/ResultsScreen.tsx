@@ -43,7 +43,7 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
   return (
     <div className="screen results">
       <nav className="r-nav">
-        <button type="button" className="nav-back" aria-label="Retour" onClick={() => router.push("/")}>
+        <button type="button" className="nav-back" aria-label="Back" onClick={() => router.push("/")}>
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13L5 8l5-5" /></svg>
         </button>
         <div className="nav-logo"><Image src="/logo-smartskin.png" alt="SmartSkin AI" width={154} height={30} priority /></div>
@@ -53,7 +53,7 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
       <div className="hero-card">
         <ResultPhotoMesh src={photoUrl} />
         <div className="hero-score">
-          <div className="hc-eyebrow">Résultat diagnostic</div>
+          <div className="hc-eyebrow">Diagnostic result</div>
           <ScoreGauge value={result.score} state={result.state} sub={result.sub} />
         </div>
       </div>
@@ -63,15 +63,15 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
         <Reveal as="div" className="hero-stats">
           {result.skinAge != null && (
             <div className="hstat">
-              <span className="hstat-k">Âge de peau</span>
-              <span className="hstat-v">{result.skinAge}<small>ans</small></span>
+              <span className="hstat-k">Skin age</span>
+              <span className="hstat-v">{result.skinAge}<small>yrs</small></span>
               {ageDelta && (
                 <span className="hstat-note"><b>{ageDelta.deltaText}</b>{ageDelta.suffix ? ` ${ageDelta.suffix}` : ""}</span>
               )}
             </div>
           )}
           <div className="hstat">
-            <span className="hstat-k">Type de peau</span>
+            <span className="hstat-k">Skin type</span>
             <span className="hstat-v hstat-type">{p.skinType}</span>
             {result.skinTypeBreakdown && <span className="hstat-note">{result.skinTypeBreakdown}</span>}
           </div>
@@ -82,10 +82,10 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
       {v && (
         <Reveal as="section" className="verdict">
           <div className="verdict-head">
-            <span className="verdict-kicker">Lecture experte</span>
+            <span className="verdict-kicker">Expert read</span>
             <span className="verdict-chip">
               <svg viewBox="0 0 14 14" fill="currentColor" width="11" height="11"><path d="M7 0 C7 4 7 4 7 4 C7 4 10 7 14 7 C10 7 7 7 7 7 C7 7 7 10 7 14 C7 10 7 7 7 7 C7 7 4 7 0 7 C4 7 7 7 7 7 C7 7 7 4 7 0 Z" /></svg>
-              Photo × tes 7 réponses
+              Photo × your 7 answers
             </span>
           </div>
           <h2 className="verdict-title" dangerouslySetInnerHTML={{ __html: v.title }} />
@@ -95,14 +95,14 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
             <p dangerouslySetInnerHTML={{ __html: v.behavioralLink }} />
           </div>
           <div className="verdict-prio">
-            <span className="vp-label">Ton plan, dans l&apos;ordre</span>
+            <span className="vp-label">Your plan, in order</span>
             {v.plan.map((step, idx) => (
               <div className={`vp-item${idx === v.plan.length - 1 ? " soft" : ""}`} key={idx}>
                 <span className="vp-num">{idx + 1}</span>
                 <div className="vp-tx"><b>{step.label}</b><span>{step.sub}</span></div>
                 <span className="vp-tag">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" width="11" height="11"><rect x="5" y="11" width="14" height="9" rx="2" /><path d="M8 11V8a4 4 0 0 1 8 0v3" /></svg>
-                  protocole
+                  protocol
                 </span>
               </div>
             ))}
@@ -112,12 +112,12 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
 
       {/* PROFIL DE PEAU */}
       <Reveal as="section" className="r-section">
-        <div className="sec-head"><span className="sec-name">Profil de peau</span></div>
+        <div className="sec-head"><span className="sec-name">Skin profile</span></div>
         <div className="meta">
-          <div className="pvar"><span className="pvar-name">Type de peau</span><span className="meta-v">{p.skinType}</span></div>
-          <div className="pvar"><span className="pvar-name">Tranche d&apos;âge</span><span className="meta-v">{p.ageRange}</span></div>
+          <div className="pvar"><span className="pvar-name">Skin type</span><span className="meta-v">{p.skinType}</span></div>
+          <div className="pvar"><span className="pvar-name">Age range</span><span className="meta-v">{p.ageRange}</span></div>
           <div className="pvar">
-            <span className="pvar-name">Carnation</span>
+            <span className="pvar-name">Skin tone</span>
             <div className="pvar-inline">
               <div className="sw-row">{CARNATION_SWATCHES.map((c, i) => (
                 <span key={c} className={`sw${i + 1 === p.carnation ? " on" : ""}`} style={{ background: c }} />
@@ -126,7 +126,7 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
             </div>
           </div>
           <div className="pvar">
-            <span className="pvar-name">Sous-ton</span>
+            <span className="pvar-name">Undertone</span>
             <div className="pvar-inline">
               <div className="sw-row">{UNDERTONE_SWATCHES.map((c, i) => (
                 <span key={c} className={`sw${i + 1 === p.undertone ? " on" : ""}`} style={{ background: c }} />
@@ -135,7 +135,7 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
             </div>
           </div>
           <div className="pvar">
-            <span className="pvar-name">Réaction au soleil</span>
+            <span className="pvar-name">Sun reaction</span>
             <div className="photo-slider" style={{ ["--n" as string]: p.phototype }}>
               <div className="ps-bar"><div className="ps-track" /><div className="ps-handle" /></div>
               <div className="ps-ticks">{ROMAN.map((r, i) => (
@@ -184,11 +184,11 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
         {/* ⚠️ TEMPORAIRE : checkout/paywall désactivés → on va direct à la routine.
             Réactiver : router.push(demo ? "/checkout?demo=1" : "/checkout"). */}
         <button type="button" className="cta-btn" onClick={() => router.push(demo ? "/routine?demo=1" : "/routine")}>
-          Voir ma routine sur-mesure
+          See my custom routine
           <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5h8M7.5 4l3.5 3.5-3.5 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </button>
         <button type="button" className="cta-link" onClick={() => { useFunnel.getState().reset(); useResult.getState().clear(); router.push("/"); }}>
-          Refaire une analyse
+          Start over
         </button>
       </div>
     </div>

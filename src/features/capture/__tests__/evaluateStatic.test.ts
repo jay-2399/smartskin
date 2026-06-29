@@ -20,13 +20,13 @@ describe("evaluateStaticImage", () => {
   it("pas de visage → refus avec message", () => {
     const r = evaluateStaticImage({ ...good, faceCount: 0 });
     expect(r.ok).toBe(false);
-    expect(r.message).toMatch(/visage/i);
+    expect(r.message).toMatch(/face/i);
   });
 
   it("trop floue → refus", () => {
     const r = evaluateStaticImage({ ...good, sharpness: 1 });
     expect(r.ok).toBe(false);
-    expect(r.message).toMatch(/floue/i);
+    expect(r.message).toMatch(/blurry/i);
   });
 
   it("la stabilité n'entre PAS en compte (movementDelta ignoré)", () => {
@@ -49,12 +49,12 @@ describe("evaluateStaticImage", () => {
   it("visage minuscule (ratio 0.10) → refus", () => {
     const r = evaluateStaticImage({ ...good, ratio: 0.1, projectedHeight: 150 });
     expect(r.ok).toBe(false);
-    expect(r.message).toMatch(/plus grand/i);
+    expect(r.message).toMatch(/larger/i);
   });
 
   it("photo très sombre → refus", () => {
     const r = evaluateStaticImage({ ...good, luminance: { mean: 30, stddev: 20, lateralDelta: 5 } });
     expect(r.ok).toBe(false);
-    expect(r.message).toMatch(/sombre/i);
+    expect(r.message).toMatch(/dark/i);
   });
 });

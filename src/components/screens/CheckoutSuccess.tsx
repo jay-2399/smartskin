@@ -33,10 +33,10 @@ export function CheckoutSuccess({ email, paid }: { email: string | null; paid: b
     signIn("resend", { email, redirect: false, callbackUrl: "/routine" })
       .then((res) => {
         if (!alive) return;
-        if (res?.error) setError("Le lien n'a pas pu être envoyé à cette adresse.");
+        if (res?.error) setError("The link couldn't be sent to this address.");
         else setSent(true);
       })
-      .catch(() => { if (alive) setError("Une erreur est survenue."); });
+      .catch(() => { if (alive) setError("Something went wrong."); });
     return () => { alive = false; };
   }, [paid, email]);
 
@@ -45,9 +45,9 @@ export function CheckoutSuccess({ email, paid }: { email: string | null; paid: b
       <div className="auth">
         <div className="auth-brand"><Image src="/logo-smartskin.png" alt="SmartSkin AI" width={133} height={26} priority /></div>
         <div className="auth-card">
-          <h1 className="auth-title">Paiement non confirmé</h1>
-          <p className="auth-sub">On n’a pas pu confirmer ton paiement. Tu peux réessayer.</p>
-          <p className="auth-switch"><a href="/checkout">Retour au paiement</a></p>
+          <h1 className="auth-title">Payment not confirmed</h1>
+          <p className="auth-sub">We couldn't confirm your payment. You can try again.</p>
+          <p className="auth-switch"><a href="/checkout">Back to payment</a></p>
         </div>
       </div>
     );
@@ -59,21 +59,21 @@ export function CheckoutSuccess({ email, paid }: { email: string | null; paid: b
       <div className="auth-card">
         <div className="auth-sent">
           <span className="auth-sent-ic"><CheckIcon /></span>
-          <b>Paiement réussi 🎉</b>
+          <b>Payment successful 🎉</b>
           <p>
             {sent
-              ? <>On t’a envoyé un lien de connexion à <strong>{email}</strong>. Clique dessus pour accéder à ton protocole.</>
+              ? <>We sent a sign-in link to <strong>{email}</strong>. Click it to access your protocol.</>
               : error
                 ? error
-                : <>On prépare ton accès…</>}
+                : <>Preparing your access…</>}
           </p>
         </div>
 
-        <div className="auth-divider"><span>ou connecte-toi avec</span></div>
+        <div className="auth-divider"><span>or sign in with</span></div>
         <button type="button" className="auth-oauth" onClick={() => signIn("google", { callbackUrl: "/routine" })}>
-          <GoogleIcon />Continuer avec Google
+          <GoogleIcon />Continue with Google
         </button>
-        {email && <p className="auth-reassure"><CheckIcon />Utilise de préférence <strong>{email}</strong> (l’adresse de ton paiement).</p>}
+        {email && <p className="auth-reassure"><CheckIcon />Preferably use <strong>{email}</strong> (your payment address).</p>}
       </div>
     </div>
   );

@@ -3,10 +3,10 @@ import type { Criterion } from "../types";
 
 export function orientationStatus(p: { yaw: number; pitch: number; roll: number }): Criterion {
   if (Math.abs(p.yaw) > C.orientation.yaw)
-    return { status: "error", message: "Tourne ta tête bien en face" };
+    return { status: "error", message: "Turn your head straight to the camera" };
   if (Math.abs(p.pitch) > C.orientation.pitch)
-    return { status: "error", message: "Garde la tête droite, ni trop haut ni trop bas" };
+    return { status: "error", message: "Keep your head level, not too high or low" };
   if (Math.abs(p.roll) > C.orientation.roll)
-    return { status: "error", message: "Redresse ta tête" };
+    return { status: "error", message: "Straighten your head" };
   return { status: "ok", message: null };
 }

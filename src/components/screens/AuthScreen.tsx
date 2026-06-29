@@ -38,7 +38,7 @@ function LoginScreen() {
     setError(null);
     const res = await signIn("credentials", { email, password, redirect: false });
     if (res?.error) {
-      setError("Email ou mot de passe incorrect.");
+      setError("Incorrect email or password.");
       setLoading(false);
       return;
     }
@@ -49,33 +49,33 @@ function LoginScreen() {
     <div className="auth">
       <div className="auth-brand"><Image src="/logo-smartskin.png" alt="SmartSkin AI" width={133} height={26} priority /></div>
       <div className="auth-card">
-        <h1 className="auth-title">Bon retour</h1>
-        <p className="auth-sub">Connecte-toi pour retrouver ton suivi.</p>
+        <h1 className="auth-title">Welcome back</h1>
+        <p className="auth-sub">Sign in to find your tracking.</p>
 
         <button type="button" className="auth-oauth" onClick={google} disabled={loading}>
-          <GoogleIcon />Continuer avec Google
+          <GoogleIcon />Continue with Google
         </button>
 
-        <div className="auth-divider"><span>ou avec ton email</span></div>
+        <div className="auth-divider"><span>or with your email</span></div>
 
         <form onSubmit={login} className="auth-form">
           <label className="auth-field">
             <span>Email</span>
-            <input type="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="toi@email.com" />
+            <input type="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="you@email.com" />
           </label>
           <label className="auth-field">
-            <span>Mot de passe</span>
-            <input type="password" autoComplete="current-password" required value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Ton mot de passe" />
+            <span>Password</span>
+            <input type="password" autoComplete="current-password" required value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Your password" />
           </label>
 
           {error && <p className="auth-error">{error}</p>}
 
           <button type="submit" className="auth-cta" disabled={loading || !email || !password}>
-            {loading ? "Un instant…" : "Se connecter"}
+            {loading ? "One moment…" : "Sign in"}
           </button>
         </form>
 
-        <p className="auth-switch">Pas encore de compte ? <a href="/checkout">Débloquer mon protocole</a></p>
+        <p className="auth-switch">No account yet? <a href="/checkout">Unlock my protocol</a></p>
       </div>
     </div>
   );
@@ -106,13 +106,13 @@ export function AuthScreen({ mode }: { mode: "signup" | "login" }) {
       // 200 (nouveau) ou 409 (déjà client) → on tente la connexion ; sinon erreur.
       if (reg.status !== 200 && reg.status !== 409) {
         const data = await reg.json().catch(() => ({}));
-        setError(data?.issues?.password?.[0] ?? data?.issues?.email?.[0] ?? "Inscription impossible.");
+        setError(data?.issues?.password?.[0] ?? data?.issues?.email?.[0] ?? "Sign-up failed.");
         setLoading(false);
         return;
       }
       const res = await signIn("credentials", { email, password, redirect: false });
       if (res?.error) {
-        setError("Connexion impossible.");
+        setError("Sign-in failed.");
         setLoading(false);
         return;
       }
@@ -126,7 +126,7 @@ export function AuthScreen({ mode }: { mode: "signup" | "login" }) {
       }
       router.push("/routine");
     } catch {
-      setError("Une erreur est survenue.");
+      setError("Something went wrong.");
       setLoading(false);
     }
   };
@@ -143,32 +143,32 @@ export function AuthScreen({ mode }: { mode: "signup" | "login" }) {
     <div className="auth">
       <div className="auth-brand"><Image src="/logo-smartskin.png" alt="SmartSkin AI" width={133} height={26} priority /></div>
       <div className="auth-card">
-        <h1 className="auth-title">Crée ton compte</h1>
-        <p className="auth-sub">Pour sauvegarder ton protocole et suivre tes progrès.</p>
+        <h1 className="auth-title">Create your account</h1>
+        <p className="auth-sub">To save your protocol and track your progress.</p>
 
         <button type="button" className="auth-oauth" onClick={google} disabled={loading}>
-          <GoogleIcon />Continuer avec Google
+          <GoogleIcon />Continue with Google
         </button>
-        <div className="auth-divider"><span>ou avec ton email</span></div>
+        <div className="auth-divider"><span>or with your email</span></div>
 
         <form onSubmit={submit} className="auth-form">
           <label className="auth-field">
             <span>Email</span>
-            <input type="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="toi@email.com" />
+            <input type="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} placeholder="you@email.com" />
           </label>
           <label className="auth-field">
-            <span>Mot de passe</span>
-            <input type="password" autoComplete="new-password" required minLength={8} value={password} onChange={(e) => setPassword(e.target.value)} placeholder="8 caractères minimum" />
+            <span>Password</span>
+            <input type="password" autoComplete="new-password" required minLength={8} value={password} onChange={(e) => setPassword(e.target.value)} placeholder="8 characters minimum" />
           </label>
 
           {error && <p className="auth-error">{error}</p>}
 
           <button type="submit" className="auth-cta" disabled={loading || !email || password.length < 8}>
-            {loading ? "Un instant…" : "Créer mon compte"}
+            {loading ? "One moment…" : "Create my account"}
           </button>
         </form>
 
-        <p className="auth-switch">Déjà un compte ? <a href="/login">Se connecter</a></p>
+        <p className="auth-switch">Already have an account? <a href="/login">Sign in</a></p>
       </div>
     </div>
   );

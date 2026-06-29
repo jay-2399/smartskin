@@ -15,21 +15,21 @@ describe("QuestionScreen q1", () => {
 
   it("affiche le titre et désactive Continuer tant que rien n'est choisi", () => {
     render(<QuestionScreen step="q1" />);
-    expect(screen.getByText(/améliorer en priorité/)).toBeInTheDocument();
-    expect(screen.getByRole("button", { name: /Continuer/ })).toBeDisabled();
+    expect(screen.getByText(/improve first/)).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Continue/ })).toBeDisabled();
   });
 
   it("active Continuer après une sélection et compte les choix (maquette : n/3)", async () => {
     render(<QuestionScreen step="q1" />);
     await userEvent.click(screen.getByText("Pores"));
-    expect(screen.getByRole("button", { name: /Continuer/ })).toBeEnabled();
-    expect(screen.getByText(/\/3 choisies/)).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /Continue/ })).toBeEnabled();
+    expect(screen.getByText(/\/3 selected/)).toBeInTheDocument();
   });
 
   it("q1 continue vers /capture (flux maquette q1 → capture)", async () => {
     render(<QuestionScreen step="q1" />);
     await userEvent.click(screen.getByText("Pores"));
-    await userEvent.click(screen.getByRole("button", { name: /Continuer/ }));
+    await userEvent.click(screen.getByRole("button", { name: /Continue/ }));
     expect(push).toHaveBeenCalledWith("/capture");
   });
 });
@@ -42,11 +42,11 @@ describe("QuestionScreen q5 (gate)", () => {
 
   it("révèle les symptômes après « Oui » et exige ≥1 symptôme", async () => {
     render(<QuestionScreen step="q5" />);
-    const cta = screen.getByRole("button", { name: /Continuer/ });
+    const cta = screen.getByRole("button", { name: /Continue/ });
     expect(cta).toBeDisabled();
-    await userEvent.click(screen.getByText(/Oui, quelque chose a changé/));
+    await userEvent.click(screen.getByText(/Yes, something changed/));
     expect(cta).toBeDisabled();
-    await userEvent.click(screen.getByText("Plus sèche"));
+    await userEvent.click(screen.getByText("Drier"));
     expect(cta).toBeEnabled();
   });
 });
@@ -59,8 +59,8 @@ describe("QuestionScreen q7", () => {
 
   it("affiche « Lancer mon analyse » et route vers /analyse", async () => {
     render(<QuestionScreen step="q7" />);
-    await userEvent.click(screen.getByText("Rien à signaler"));
-    await userEvent.click(screen.getByRole("button", { name: /Lancer mon analyse/ }));
+    await userEvent.click(screen.getByText("Nothing to report"));
+    await userEvent.click(screen.getByRole("button", { name: /Start my analysis/ }));
     expect(push).toHaveBeenCalledWith("/analyse");
   });
 });

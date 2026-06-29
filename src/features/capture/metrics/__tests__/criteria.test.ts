@@ -8,10 +8,10 @@ describe("faceSizeStatus", () => {
   it("trop loin → error 'Approche-toi'", () => {
     const r = faceSizeStatus({ projectedHeight: 900, ratio: 0.3 });
     expect(r.status).toBe("error");
-    expect(r.message).toMatch(/Approche/);
+    expect(r.message).toMatch(/closer/);
   });
   it("trop proche → error 'Recule'", () => {
-    expect(faceSizeStatus({ projectedHeight: 900, ratio: 0.98 }).message).toMatch(/Recule/);
+    expect(faceSizeStatus({ projectedHeight: 900, ratio: 0.98 }).message).toMatch(/back/);
   });
   it("projection insuffisante → error", () => {
     expect(faceSizeStatus({ projectedHeight: 300, ratio: 0.75 }).status).toBe("error");
