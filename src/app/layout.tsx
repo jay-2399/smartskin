@@ -24,6 +24,9 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
+  // iOS : teinte la zone de la status bar avec le fond de l'app (--bg) au lieu
+  // du blanc système → supprime la « bande blanche » en haut sur certains écrans.
+  themeColor: "#F1F3F6",
 };
 
 export default function RootLayout({
