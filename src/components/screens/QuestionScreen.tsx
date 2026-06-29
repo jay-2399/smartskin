@@ -75,28 +75,18 @@ export function QuestionScreen({ step }: { step: StepId }) {
       <div className={`list${q.grid ? " grid2" : ""}${q.mode === "age" ? " list-age" : ""}`}>
         {q.mode === "age" && (
           <div className="age-field">
-            <div className="age-stepper">
-              <button type="button" className="age-step" aria-label="Decrease age"
-                onClick={() => setAge(Math.max(13, (answers.age ?? 26) - 1))}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round"><path d="M5 12h14" /></svg>
-              </button>
-              <input
-                type="number"
-                inputMode="numeric"
-                min={13}
-                max={99}
-                className="age-input"
-                value={answers.age ?? ""}
-                onChange={(e) => setAge(e.target.value === "" ? null : Math.floor(Number(e.target.value)))}
-                placeholder="25"
-                aria-label="Your age"
-                autoFocus
-              />
-              <button type="button" className="age-step" aria-label="Increase age"
-                onClick={() => setAge(Math.min(99, (answers.age ?? 24) + 1))}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round"><path d="M12 5v14M5 12h14" /></svg>
-              </button>
-            </div>
+            <input
+              type="number"
+              inputMode="numeric"
+              min={13}
+              max={99}
+              className="age-input"
+              value={answers.age ?? ""}
+              onChange={(e) => setAge(e.target.value === "" ? null : Math.floor(Number(e.target.value)))}
+              placeholder="25"
+              aria-label="Your age"
+              autoFocus
+            />
             <span className="age-unit">years old</span>
           </div>
         )}
