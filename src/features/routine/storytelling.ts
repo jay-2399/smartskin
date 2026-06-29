@@ -74,15 +74,15 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
   const csBlock = (p: Product) => {
     if (!p.customersSay) return "";
     const chips = (p.aspects ?? []).map(([name, val]) => `<span class="cs-chip">${esc(name)} <b>${esc(val)}</b></span>`).join("");
-    return `<div class="cs"><div class="cs-h">Ce que disent les clients</div><p class="cs-say">${esc(p.customersSay)}</p>` +
+    return `<div class="cs"><div class="cs-h">What customers say</div><p class="cs-say">${esc(p.customersSay)}</p>` +
       (chips ? `<div class="cs-chips">${chips}</div>` : "") +
-      `<div class="cs-ai">${SPARK}Synthèse générée par IA à partir des avis</div></div>`;
+      `<div class="cs-ai">${SPARK}AI summary from reviews</div></div>`;
   };
   const revBlock = (p: Product) => {
     if (!p.reviews || !p.reviews.length) return "";
-    return `<div class="rev-h">Avis vérifiés</div>` + p.reviews.map((v) =>
+    return `<div class="rev-h">Verified reviews</div>` + p.reviews.map((v) =>
       `<div class="rev"><div class="rev-top"><span class="rev-av">${esc(v.author.charAt(0))}</span>` +
-        `<div class="rev-meta"><div class="rev-author">${esc(v.author)}${v.verified ? `<span class="rev-badge">${VBADGE}Vérifié</span>` : ""}</div>` +
+        `<div class="rev-meta"><div class="rev-author">${esc(v.author)}${v.verified ? `<span class="rev-badge">${VBADGE}Verified</span>` : ""}</div>` +
         `<div class="rev-sub"><span class="rev-stars">${stars5(v.rating)}</span><b class="rev-note">${v.rating.toFixed(1)}</b><span class="rev-date">${fmtDate(v.date)}</span></div></div></div>` +
         `<p class="rev-text">${esc(v.text)}</p></div>`,
     ).join("");
@@ -106,47 +106,47 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     <span class="nav-step">Routine</span>
   </nav>
   <div class="rv-head">
-    <h1 id="headTitle">Ta routine du jour.</h1>
-    <p>Glisse à droite pour garder, à gauche pour changer de produit.</p>
+    <h1 id="headTitle">Your day routine.</h1>
+    <p>Swipe right to keep, left to change product.</p>
   </div>
   <div class="stage">
     <div class="progress">
       <div class="dots" id="dots"></div>
-      <div class="step-label" id="stepLabel">Étape 1 / 4</div>
+      <div class="step-label" id="stepLabel">Step 1 / 4</div>
     </div>
     <div class="deck" id="deck"></div>
     <div class="actions" id="actions">
-      <button class="act replay" id="btnReplay" aria-label="Revenir au produit précédent">
+      <button class="act replay" id="btnReplay" aria-label="Go back to previous product">
         <svg viewBox="0 0 24 24" fill="none" stroke="url(#gGold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><defs><linearGradient id="gGold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFD64D"/><stop offset="1" stop-color="#F5A623"/></linearGradient></defs><path d="M4 12a8 8 0 1 0 2.5-5.8L3.5 9"/><path d="M3.2 4.4V9h4.6"/></svg>
       </button>
-      <button class="act swap" id="btnSwap" aria-label="Refuser ce produit">
+      <button class="act swap" id="btnSwap" aria-label="Reject this product">
         <svg viewBox="0 0 24 24" fill="none" stroke="url(#gRed)" stroke-width="3" stroke-linecap="round"><defs><linearGradient id="gRed" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF6B6B"/><stop offset="1" stop-color="#E33636"/></linearGradient></defs><path d="M7 7l10 10M17 7L7 17"/></svg>
       </button>
-      <button class="act keep" id="btnKeep" aria-label="Garder ce produit">
+      <button class="act keep" id="btnKeep" aria-label="Keep this product">
         <svg viewBox="0 0 24 24" fill="url(#gRose)"><defs><linearGradient id="gRose" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF7AAE"/><stop offset="1" stop-color="#F22A6E"/></linearGradient></defs><path d="M12 20.7c-.4 0-.8-.14-1.1-.4C6.3 16.45 3 13.6 3 9.9 3 7.2 5.1 5.2 7.6 5.2c1.5 0 2.95.74 3.9 1.9l.5.6.5-.6c.95-1.16 2.4-1.9 3.9-1.9 2.5 0 4.6 2 4.6 4.7 0 3.7-3.3 6.55-7.9 10.4-.3.26-.7.4-1.1.4Z"/></svg>
       </button>
     </div>
-    <div class="hint" id="hint">‹ glisse la carte · ou utilise les boutons ›</div>
+    <div class="hint" id="hint">‹ swipe the card · or use the buttons ›</div>
   </div>
   <div class="tray" id="tray">
     <div class="tray-card">
       <div class="tray-head">
-        <span class="tray-label">Ta sélection</span>
+        <span class="tray-label">Your selection</span>
         <span class="tray-meta"><b id="trayCount">0/4</b><span id="trayTotal"></span></span>
       </div>
       <div class="tray-slots" id="traySlots"></div>
     </div>
-    <div class="tray-note"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l4-4M9 3H6.6M9 3v2.4"/><path d="M9 7.2V9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h1.8"/></svg>Liens affiliés vers les marques</div>
+    <div class="tray-note"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l4-4M9 3H6.6M9 3v2.4"/><path d="M9 7.2V9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h1.8"/></svg>Affiliate links to brands</div>
   </div>
   <div class="intro" id="intro">
     <div class="intro-bg"></div>
     <div class="intro-grain"></div>
     <div class="intro-stack">
       <img class="intro-logo" src="/logo-smartskin.png" alt="SmartSkin AI">
-      <div class="intro-eyebrow" id="introEyebrow">Analyse terminée</div>
+      <div class="intro-eyebrow" id="introEyebrow">Analysis complete</div>
       <div class="intro-titles">
-        <p class="intro-line">Composons maintenant ton protocole sur-mesure.</p>
-        <p class="intro-line">Commençons par ta routine de jour.</p>
+        <p class="intro-line">Now let's build your custom protocol.</p>
+        <p class="intro-line">Let's start with your day routine.</p>
       </div>
       <div class="intro-scene" id="introScene">
         <div class="scene-face-wrap">
@@ -161,10 +161,10 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
           </div>
         </div>
         <div class="scene-deck">
-          <div class="scene-pc"><div class="pc-ic"><svg viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="15" y="28" width="30" height="56" rx="9"/><path d="M24 28v-6h12v6"/><rect x="26" y="9" width="9" height="13" rx="2.5"/><path d="M35 13h7v6"/></svg></div><div class="pc-cat">Nettoyant</div></div>
-          <div class="scene-pc"><div class="pc-ic"><svg viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M19 84V40c0-3 1-4 3-6l1-3v-6h14v6l1 3c2 2 3 3 3 6v44a4 4 0 0 1-4 4H23a4 4 0 0 1-4-4Z"/><rect x="24" y="9" width="12" height="10" rx="2"/></svg></div><div class="pc-cat">Sérum</div></div>
-          <div class="scene-pc"><div class="pc-ic"><svg viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="16" y="36" width="28" height="48" rx="8"/><path d="M23 36v-4h14v4"/><rect x="25" y="10" width="10" height="22" rx="3"/></svg></div><div class="pc-cat">Soin</div></div>
-          <div class="scene-pc"><div class="pc-ic"><svg viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="12" y="38" width="36" height="40" rx="11"/><rect x="10" y="26" width="40" height="14" rx="5"/></svg></div><div class="pc-cat">Crème</div></div>
+          <div class="scene-pc"><div class="pc-ic"><svg viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="15" y="28" width="30" height="56" rx="9"/><path d="M24 28v-6h12v6"/><rect x="26" y="9" width="9" height="13" rx="2.5"/><path d="M35 13h7v6"/></svg></div><div class="pc-cat">Cleanser</div></div>
+          <div class="scene-pc"><div class="pc-ic"><svg viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><path d="M19 84V40c0-3 1-4 3-6l1-3v-6h14v6l1 3c2 2 3 3 3 6v44a4 4 0 0 1-4 4H23a4 4 0 0 1-4-4Z"/><rect x="24" y="9" width="12" height="10" rx="2"/></svg></div><div class="pc-cat">Serum</div></div>
+          <div class="scene-pc"><div class="pc-ic"><svg viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="16" y="36" width="28" height="48" rx="8"/><path d="M23 36v-4h14v4"/><rect x="25" y="10" width="10" height="22" rx="3"/></svg></div><div class="pc-cat">Care</div></div>
+          <div class="scene-pc"><div class="pc-ic"><svg viewBox="0 0 60 92" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"><rect x="12" y="38" width="36" height="40" rx="11"/><rect x="10" y="26" width="40" height="14" rx="5"/></svg></div><div class="pc-cat">Cream</div></div>
         </div>
       </div>
       <div class="intro-status"><span class="intro-spin" id="introSpin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span id="introStatus">…</span></div>
@@ -174,8 +174,8 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
   <div class="phase" id="phaseShift">
     <div class="intro-bg"></div>
     <div class="phase-stack">
-      <span class="phase-badge"><svg width="12" height="12" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 7.5l3 3 6-6.5"/></svg>Routine du jour validée</span>
-      <p class="phase-title">Passons à ta routine du soir.</p>
+      <span class="phase-badge"><svg width="12" height="12" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 7.5l3 3 6-6.5"/></svg>Day routine confirmed</span>
+      <p class="phase-title">Now to your evening routine.</p>
       <div class="phase-moon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.7a6.6 6.6 0 0 0 8.8 8.8A8.6 8.6 0 1 1 12 2.7Z"/><circle cx="18.1" cy="5.3" r="1.05"/><circle cx="20.3" cy="8.7" r="0.7"/></svg></div>
     </div>
   </div>
@@ -183,7 +183,7 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     <div class="intro-bg"></div>
     <div class="gen-stack">
       <div class="gen-ring" id="genRing"></div>
-      <p class="gen-title" id="genTitle">On assemble ton protocole…</p>
+      <p class="gen-title" id="genTitle">Assembling your protocol…</p>
       <div class="gen-bar"><i id="genFill"></i></div>
     </div>
   </div>
@@ -254,9 +254,9 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     card.className = "swipe-card depth-" + depth;
     const topBadge = ptr > 0
       ? `<span class="alt-badge">Alternative ${ptr} / ${step.options.length - 1}</span>`
-      : `<span class="reco-badge">${STAR}Recommandé</span>`;
+      : `<span class="reco-badge">${STAR}Recommended</span>`;
     const right = prod.freq ? `<div class="card-tag">${CLOCK}${prod.freq}</div>` : "";
-    const whyTitle = ptr > 0 ? "Pourquoi cette alternative ?" : "Pourquoi on vous le recommande";
+    const whyTitle = ptr > 0 ? "Why this alternative?" : "Why we recommend it";
     card.innerHTML =
       `<div class="card-img"><span class="card-step">${stepIdx + 1}</span>${topBadge}${visual(prod, step.icon)}</div>` +
       `<div class="card-info">` +
@@ -288,7 +288,7 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
   }
 
   function renderFooter() {
-    headTitle.textContent = tab === "night" ? "Ta routine du soir." : "Ta routine du jour.";
+    headTitle.textContent = tab === "night" ? "Your evening routine." : "Your day routine.";
     renderTray();
   }
 
@@ -337,7 +337,7 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     fill.style.transition = "none"; fill.style.width = "0";
     gen.classList.add("show");
     requestAnimationFrame(() => { fill.style.transition = "width 1.5s cubic-bezier(.4,0,.2,1)"; fill.style.width = "100%"; });
-    setT(() => { ring.classList.add("done"); title.textContent = "Ton protocole est prêt."; }, 1550);
+    setT(() => { ring.classList.add("done"); title.textContent = "Your protocol is ready."; }, 1550);
     setT(() => { renderProtocol(); gen.classList.remove("show"); }, 2250);
   }
 
@@ -378,15 +378,15 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
       const p = chosen(t, i);
       const dn = t === "day" ? "day" : "night";
       const ico = t === "day" ? SUN : MOON;
-      const when = t === "day" ? "Matin" : "Soir";
+      const when = t === "day" ? "Morning" : "Evening";
       return `<div class="tl-step"><div class="tl-node">${i + 1}</div>` +
         `<div class="rx">` +
           `<div class="rx-top"><div class="rx-thumb">${vis(p, s.icon)}</div>` +
             `<div class="rx-id"><div class="rx-cat">${s.cat}</div><div class="rx-name">${p.name}</div><div class="rx-brand">${p.brand}</div></div>` +
             `<span class="rx-price">${p.price}</span></div>` +
           `<div class="rx-poso"><div class="rx-poso-tags"><span class="rx-tag when ${dn}">${ico}${when}</span><span class="rx-tag freq">${REPEAT}${s.freq}</span></div><div class="rx-how">${s.use}</div></div>` +
-          `<div class="rx-why"><span class="lbl">Pourquoi&nbsp;:</span> ${firstSentence(p.why)}</div>` +
-          `<a class="rx-buy" href="${p.url}" target="_blank" rel="noopener">${CART}Acheter le produit</a>` +
+          `<div class="rx-why"><span class="lbl">Why&nbsp;:</span> ${firstSentence(p.why)}</div>` +
+          `<a class="rx-buy" href="${p.url}" target="_blank" rel="noopener">${CART}Buy the product</a>` +
         `</div></div>`;
     }
     function sec(t: TabKey, ico: string, label: string, sub: string): string {
@@ -399,21 +399,21 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     protoEl.innerHTML =
       `<nav class="nav"><div class="rv-back" id="protoBack"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"/></svg></div><div class="rv-nav-logo"><img src="/logo-smartskin.png" alt="SmartSkin AI"></div></nav>` +
       `<div class="proto">` +
-        `<div class="proto-h1">Ton protocole sur-mesure.</div>` +
-        `<div class="proto-sub">Établi d'après ton analyse · <b>${data.productCount} produits</b></div>` +
+        `<div class="proto-h1">Your custom protocol.</div>` +
+        `<div class="proto-sub">Built from your analysis · <b>${data.productCount} products</b></div>` +
         `<div class="proto-diag">${data.diagnostic.map((d) => `<span class="proto-chip">${d}</span>`).join("")}</div>` +
         (totaux && totaux.budget !== "no_limit"
-          ? `<div class="proto-budget ${totaux.dansLeBudget ? "ok" : "over"}">Coût estimé <b>$${Math.round(totaux.prix)}</b> · budget $${totaux.budget}${totaux.dansLeBudget ? " · dans ton budget" : " · légèrement au-dessus"}</div>`
+          ? `<div class="proto-budget ${totaux.dansLeBudget ? "ok" : "over"}">Estimated cost <b>$${Math.round(totaux.prix)}</b> · budget $${totaux.budget}${totaux.dansLeBudget ? " · within budget" : " · slightly over"}</div>`
           : "") +
         (warnings && warnings.length
           ? `<div class="proto-warn">${warnings.map((w) => `<span>${w}</span>`).join("")}</div>`
           : "") +
-        sec("day", SUN, "Routine du matin", "Réveille &amp; protège") +
-        sec("night", MOON, "Routine du soir", "Répare &amp; régénère") +
-        `<div class="proto-cta"><div class="proto-total"><span class="lbl">Total estimé</span><span class="val">${total}</span></div>` +
-          `<button class="proto-save" id="protoSave">Enregistrer mon protocole</button>` +
-          `<button class="proto-restart" id="protoRestart"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 10a8 8 0 0 1 13.4-4.5L20.5 8"/><path d="M20.5 3.5V8H16"/></svg> Tout recommencer</button>` +
-          `<div class="proto-note"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l4-4M9 3H6.6M9 3v2.4"/><path d="M9 7.2V9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h1.8"/></svg>Liens affiliés vers les marques</div>` +
+        sec("day", SUN, "Morning routine", "Wake &amp; protect") +
+        sec("night", MOON, "Evening routine", "Repair &amp; renew") +
+        `<div class="proto-cta"><div class="proto-total"><span class="lbl">Estimated total</span><span class="val">${total}</span></div>` +
+          `<button class="proto-save" id="protoSave">Save my protocol</button>` +
+          `<button class="proto-restart" id="protoRestart"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 10a8 8 0 0 1 13.4-4.5L20.5 8"/><path d="M20.5 3.5V8H16"/></svg> Start over</button>` +
+          `<div class="proto-note"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l4-4M9 3H6.6M9 3v2.4"/><path d="M9 7.2V9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h1.8"/></svg>Affiliate links to brands</div>` +
         `</div>` +
       `</div>`;
 
@@ -427,7 +427,7 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
       const b = e.currentTarget as HTMLElement;
       if (b.dataset.saving) return; // anti double-clic
       b.dataset.saving = "1";
-      b.style.opacity = ".65"; b.textContent = "Protocole enregistré ✓";
+      b.style.opacity = ".65"; b.textContent = "Protocol saved ✓";
       // Routine VALIDÉE = les produits réellement gardés (chosen) → option[0] de chaque
       // étape. Transmise au dashboard pour qu'il affiche exactement ça.
       const validated: RoutineData = {
@@ -617,8 +617,8 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     const finale = () => {
       if (revealed || destroyed) return;
       revealed = true;
-      spin.classList.add("done"); statusEl.textContent = "Sélection prête";
-      num.textContent = String(data.productCount); label.textContent = "produits retenus pour toi";
+      spin.classList.add("done"); statusEl.textContent = "Selection ready";
+      num.textContent = String(data.productCount); label.textContent = "products picked for you";
       setT(() => { lines[1].classList.remove("in"); lines[1].classList.add("out"); scene.classList.remove("show"); }, 1450);
       setT(() => { render(); introEl.classList.add("gone"); }, 2000);
     };
@@ -627,7 +627,7 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     const showError = () => {
       if (revealed || destroyed) return;
       revealed = true;
-      introEl.innerHTML = `<div class="intro-bg"></div><div class="rv-err"><p>Impossible de composer ta routine pour le moment.</p><button type="button" id="rvErrBack">Retour</button></div>`;
+      introEl.innerHTML = `<div class="intro-bg"></div><div class="rv-err"><p>Couldn't build your routine right now.</p><button type="button" id="rvErrBack">Back</button></div>`;
       introEl.querySelector("#rvErrBack")?.addEventListener("click", () => opts.onExit?.());
     };
 
@@ -638,19 +638,19 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
 
     scene.classList.add("show");
     countEl.classList.add("on");
-    label.textContent = "produits analysés · 2 000+ en base";
+    label.textContent = "products analyzed · 2,000+ in database";
 
     // PHASE 1 — lecture du diagnostic (~3.3 s)
     lines[0].classList.add("in");
-    cycle(["Lecture de ton diagnostic…", "Ciblage : sébum · pores · marques", "Définition de tes priorités…"], 1150);
+    cycle(["Reading your diagnosis…", "Targeting: oil · pores · marks", "Setting your priorities…"], 1150);
     tick(2137, 4400);
     setT(() => { lines[0].classList.remove("in"); lines[0].classList.add("out"); }, 3300);
 
     // PHASE 2 — on relie ta peau à tes produits (cartes qui montent)
     setT(() => {
       lines[1].classList.add("in");
-      eyebrow.classList.add("daymode"); eyebrow.innerHTML = SUN + "Routine du jour";
-      cycle(["On associe les produits à ta peau…", "Match sébum · marques · barrière…", "Recherche du meilleur match…"], 1250);
+      eyebrow.classList.add("daymode"); eyebrow.innerHTML = SUN + "Day routine";
+      cycle(["Matching products to your skin…", "Match oil · marks · barrier…", "Finding the best match…"], 1250);
       cards.forEach((c, i) => setT(() => c.classList.add("in"), 200 + i * 430));
     }, 3850);
     // Fin de la phase d'analyse : si la donnée est déjà là → final ; sinon on TIENT sur

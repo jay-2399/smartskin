@@ -8,11 +8,11 @@ export class StabilityTracker {
   update(movementDelta: number, now: number): Criterion {
     if (movementDelta >= C.stability.maxDeltaFrac) {
       this.stableSince = null;
-      return { status: "error", message: "Tiens-toi stable…" };
+      return { status: "error", message: "Hold still…" };
     }
     if (this.stableSince === null) this.stableSince = now;
     if (now - this.stableSince >= C.stability.holdMs) return { status: "ok", message: null };
-    return { status: "warning", message: "Tiens-toi stable…" };
+    return { status: "warning", message: "Hold still…" };
   }
 
   reset() { this.stableSince = null; }
