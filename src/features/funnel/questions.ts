@@ -9,9 +9,9 @@ export const CHECK_ICON = CHECK;
 export const QUESTIONS: Record<string, QuestionDef> = {
   // 1ʳᵉ question (reveal v2) : âge réel, pour situer l'« âge de peau » estimé.
   age: {
-    id: "age", index: 1, mode: "age",
-    title: "Quel âge as-tu ?",
-    helperHtml: `Pour situer ton <b>âge de peau</b> par rapport à ton âge réel.`,
+    id: "age", index: 1, mode: "age", ctaLabel: "Continue",
+    title: "How old are you?",
+    helperHtml: `To place your <b>skin age</b> against your real age.`,
     options: [],
   },
   q1: {

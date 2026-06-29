@@ -102,18 +102,17 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
 .ch-label { font-size:11px; font-weight:600; letter-spacing:0.02em; color:var(--graphite); }
 .ch-num { display:flex; align-items:baseline; gap:9px; font-weight:800; font-size:36px; letter-spacing:-0.045em; margin-top:2px; line-height:1; }
 .ch-trend { font-size:14px; font-weight:800; color:var(--keep); letter-spacing:-0.02em; }
-.ch-go { width:36px; height:36px; border-radius:50%; background:var(--cloud); border:none; cursor:pointer; color:var(--ink); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
-.ch-go svg { width:15px; height:15px; }
-.ch-plot { position:relative; height:84px; margin-top:14px; }
+.ch-goal-kpi { text-align:right; flex-shrink:0; }
+.ch-goal-kpi .gk-k { font-size:10px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--space); }
+.ch-goal-kpi .gk-v { font-weight:800; font-size:22px; color:var(--accent-d); letter-spacing:-0.04em; line-height:1.1; }
+.ch-goal-kpi .gk-s { font-size:10px; color:var(--graphite); margin-top:1px; }
+.ch-plot { position:relative; height:92px; margin-top:16px; }
 .ch-svg { position:absolute; inset:0; width:100%; height:100%; }
 .ch-dot { position:absolute; width:11px; height:11px; border-radius:50%; background:var(--accent-d); border:2.5px solid var(--card); box-shadow:0 2px 6px rgba(127,166,190,0.55); transform:translate(-50%,-50%); z-index:2; }
-.ch-guide { position:absolute; width:0; border-left:1px dashed rgba(166,195,214,0.6); z-index:1; }
-.ch-side { position:absolute; right:0; top:50%; transform:translateY(-50%); width:84px; z-index:2; }
-.ch-side .gl-k { font-size:10px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--space); }
-.ch-side .gl-v { font-weight:800; font-size:20px; color:var(--accent-d); letter-spacing:-0.04em; line-height:1.15; }
-.ch-side .gl-s { font-size:10.5px; color:var(--graphite); margin-top:1px; }
-.ch-ticks { display:flex; justify-content:space-between; align-items:flex-end; height:8px; margin-top:7px; }
-.ch-ticks i { width:1.5px; height:8px; background:var(--smoke); border-radius:2px; opacity:0.7; }
+.ch-future { position:absolute; width:13px; height:13px; border-radius:50%; background:var(--card); border:2px dashed var(--accent-d); transform:translate(-50%,-50%); z-index:2; }
+.ch-flag { position:absolute; transform:translate(-50%,-150%); font-family:var(--fm); font-size:9px; font-weight:600; letter-spacing:0.03em; text-transform:uppercase; color:var(--accent-d); white-space:nowrap; background:var(--accent-bg); border:1px solid rgba(166,195,214,0.4); padding:2px 8px; border-radius:100px; z-index:3; }
+.ch-dates { position:relative; height:13px; margin-top:10px; font-family:var(--fm); font-size:9.5px; color:var(--space); }
+.ch-dates span { position:absolute; white-space:nowrap; }
 
 /* 3 priorities — spectre + avant/maintenant + commentaire */
 .p3card { padding:15px 16px 14px; }
@@ -251,21 +250,17 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
           <div class="ch-label">Skin score</div>
           <div class="ch-num">84<span class="ch-trend">↑ +8</span></div>
         </div>
-        <button class="ch-go" aria-label="History"><svg viewBox="0 0 16 16" fill="none"><path d="M5 3l5 5-5 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="ch-goal-kpi"><div class="gk-k">Goal</div><div class="gk-v">90</div><div class="gk-s">6 to go</div></div>
       </div>
       <div class="ch-plot" id="chPlot">
-        <span class="ch-guide" id="chGuide"></span>
         <span class="ch-dot" id="chDot"></span>
-        <div class="ch-side">
-          <div class="gl-k">Goal</div>
-          <div class="gl-v">90</div>
-          <div class="gl-s">6 pts to go</div>
-        </div>
+        <span class="ch-future" id="chFuture"></span>
+        <span class="ch-flag" id="chFlag">Next scan</span>
       </div>
-      <div class="ch-ticks" id="chTicks"></div>
+      <div class="ch-dates" id="chDates"></div>
       <div class="skin-next">
         <div class="skin-next-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V6a2 2 0 0 1 2-2h2M16 4h2a2 2 0 0 1 2 2v2M20 16v2a2 2 0 0 1-2 2h-2M8 20H6a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="3"/></svg></div>
-        <div class="skin-next-tx"><b>Next scan in 18 days</b><div>To adjust your protocol as your skin evolves.</div></div>
+        <div class="skin-next-tx"><b>Next scan · Sun, Jul 26</b><div>In 4 weeks · we re-scan every 4 weeks to fine-tune your protocol.</div></div>
         <button class="skin-next-cta">Analyze</button>
       </div>
     </div>
@@ -543,8 +538,8 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
   if(!plot) return;
   var scores = [70,71,69,72,74,73,76,78,81,84];
   var n = scores.length;
-  var lo = Math.min.apply(null, scores) - 4, hi = Math.max.apply(null, scores) + 3;
-  var x0 = 4, x1 = 68, y0 = 14, y1 = 82; /* % : la courbe occupe la gauche, le label la droite */
+  var lo = Math.min.apply(null, scores) - 5, hi = Math.max.apply(null, scores) + 4;
+  var x0 = 4, x1 = 56, futureX = 82, y0 = 20, y1 = 80; /* courbe à gauche, nœud "prochain scan" à droite */
   function X(i){ return x0 + (x1 - x0) * i / (n - 1); }
   function Y(v){ return y0 + (y1 - y0) * (1 - (v - lo) / (hi - lo)); }
   var p = scores.map(function(v, i){ return [X(i), Y(v)]; });
@@ -559,11 +554,19 @@ html, body { background:#DEE0E5; display:flex; justify-content:center; align-ite
     + '<stop offset="100%" stop-color="#A6C3D6" stop-opacity="0"/></linearGradient></defs>'
     + '<path d="' + area + '" fill="url(#chArea)"/>'
     + '<path d="' + line + '" fill="none" stroke="#7FA6BE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>'
+    /* lead pointillé vers le prochain scan — sans valeur prédite (horizontal) */
+    + '<line x1="' + last[0].toFixed(2) + '" y1="' + last[1].toFixed(2) + '" x2="' + futureX + '" y2="' + last[1].toFixed(2) + '" stroke="#9DB6C9" stroke-width="1.6" stroke-dasharray="1.6 2.6" stroke-linecap="round" vector-effect="non-scaling-stroke"/>'
     + '</svg>');
 
-  var dot = document.getElementById('chDot'); dot.style.left = last[0] + '%'; dot.style.top = last[1] + '%';
-  var g = document.getElementById('chGuide'); g.style.left = last[0] + '%'; g.style.top = last[1] + '%'; g.style.height = (100 - last[1]) + '%';
-  var ticks = document.getElementById('chTicks'); var t = ''; for(var k=0;k<34;k++) t += '<i></i>'; ticks.innerHTML = t;
+  function pos(id, xp, yp){ var el = document.getElementById(id); el.style.left = xp + '%'; el.style.top = yp + '%'; }
+  pos('chDot', last[0], last[1]);
+  pos('chFuture', futureX, last[1]);     // nœud creux = prochain scan (à venir, pas de score)
+  pos('chFlag', futureX, last[1]);
+
+  document.getElementById('chDates').innerHTML =
+      '<span style="left:' + x0 + '%">Apr 6</span>'
+    + '<span style="left:' + x1 + '%;transform:translateX(-50%);color:var(--graphite);font-weight:600">Today</span>'
+    + '<span style="left:' + futureX + '%;transform:translateX(-50%)">Jul 26</span>';
 })();
 </script>
 </body>
