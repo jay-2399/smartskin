@@ -11,6 +11,7 @@
    ────────────────────────────────────────────────────────────────────────── */
 
 import { DEFAULT_ROUTINE, type IconKey, type TabKey, type Product, type Step, type RoutineData } from "./products";
+import { paintFaceMesh } from "@/features/analysis/paintFaceMesh";
 
 interface Snap {
   step: number;
@@ -152,11 +153,8 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
         <div class="scene-face-wrap">
           <svg class="scene-ring" viewBox="0 0 100 100"><circle cx="50" cy="50" r="49"/></svg>
           <div class="scene-face">
-            <img src="${faceUrl}" alt="">
-            <svg class="scene-mesh" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
-              <path class="mesh-lines" d="M50 22L38 27M50 22L62 27M38 27L31 38M38 27L45 35M62 27L69 38M62 27L55 35M45 35L55 35M45 35L50 45M55 35L50 45M31 38L45 35M69 38L55 35M31 38L35 49M69 38L65 49M35 49L50 45M65 49L50 45M35 49L40 63M65 49L60 63M50 45L40 63M50 45L60 63M50 45L50 55M50 55L40 63M50 55L60 63M40 63L50 69M60 63L50 69"/>
-              <g class="mesh-node"><circle cx="50" cy="22" r="0.85"/><circle cx="38" cy="27" r="0.85"/><circle cx="62" cy="27" r="0.85"/><circle cx="31" cy="38" r="0.85"/><circle cx="45" cy="35" r="0.85"/><circle cx="55" cy="35" r="0.85"/><circle cx="69" cy="38" r="0.85"/><circle cx="35" cy="49" r="0.85"/><circle cx="50" cy="45" r="0.85"/><circle cx="65" cy="49" r="0.85"/><circle cx="50" cy="55" r="0.85"/><circle cx="40" cy="63" r="0.85"/><circle cx="60" cy="63" r="0.85"/><circle cx="50" cy="69" r="0.85"/></g>
-            </svg>
+            <img class="scene-face-img" src="${faceUrl}" alt="">
+            <canvas class="scene-mesh" aria-hidden></canvas>
             <div class="scene-scan"></div>
           </div>
         </div>
@@ -597,6 +595,17 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
 
     const lines = introEl.querySelectorAll<HTMLElement>(".intro-line");
     const scene = byId("introScene")!;
+
+    // Maillage facial réel (MediaPipe) sur le médaillon — identique au reveal.
+    const faceWrap = scene.querySelector<HTMLElement>(".scene-face");
+    const faceImg = scene.querySelector<HTMLImageElement>(".scene-face-img");
+    const faceMesh = scene.querySelector<HTMLCanvasElement>(".scene-mesh");
+    if (faceWrap && faceImg && faceMesh && !window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
+      void paintFaceMesh(faceImg, faceMesh, faceWrap, { objectPositionY: 0.20 }).then((ok) => {
+        if (ok && !destroyed) faceMesh.classList.add("on");
+      });
+    }
+
     const spin = byId("introSpin")!;
     const statusEl = byId("introStatus")!;
     const countEl = byId("introCount")!;
@@ -658,7 +667,7 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     setT(() => {
       phase2Done = true;
       if (dataReady) maybeFinale();
-      else statusEl.textContent = "Recherche du meilleur match…";
+      else statusEl.textContent = "Finding your best match…";
     }, 7700);
   })();
 

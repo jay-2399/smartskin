@@ -3,6 +3,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useFunnel } from "@/features/funnel/store";
 import { useResult } from "@/features/analysis/resultStore";
+import { paintFaceMesh } from "@/features/analysis/paintFaceMesh";
 import type { AnalysisResult } from "@/features/analysis/schema";
 
 /* Port de reference/User_flow_screens/10-analyse.html.
@@ -42,6 +43,9 @@ export function AnalyseScreen() {
   const [pct, setPct] = useState(0);
   const [msg, setMsg] = useState(STAGES[0].msg);
   const [error, setError] = useState(false);
+  const scanRef = useRef<HTMLDivElement>(null);
+  const imgRef = useRef<HTMLImageElement>(null);
+  const meshRef = useRef<HTMLCanvasElement>(null);
 
   // État de l'appel, partagé entre les (re)montages StrictMode : l'appel ne part
   // qu'une fois, mais la boucle d'animation, elle, est relancée à chaque montage.
@@ -55,6 +59,20 @@ export function AnalyseScreen() {
   }, [photo, router]);
 
   useEffect(() => () => { if (photoUrl) URL.revokeObjectURL(photoUrl); }, [photoUrl]);
+
+  // Maillage facial réel (MediaPipe), identique au reveal, dessiné sur la photo scannée.
+  useEffect(() => {
+    if (!photoUrl) return;
+    if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
+    let cancelled = false;
+    (async () => {
+      const img = imgRef.current, canvas = meshRef.current, wrap = scanRef.current;
+      if (!img || !canvas || !wrap) return;
+      const ok = await paintFaceMesh(img, canvas, wrap, { objectPositionY: 0.22 });
+      if (ok && !cancelled) canvas.classList.add("on");
+    })();
+    return () => { cancelled = true; };
+  }, [photoUrl]);
 
   useEffect(() => {
     if (!photo) return;
@@ -138,28 +156,12 @@ export function AnalyseScreen() {
     <div className="screen analyse">
       <div className="kicker"><span className="live" />AI analysis in progress</div>
 
-      <div className="scan">
+      <div className="scan" ref={scanRef}>
         {/* eslint-disable-next-line @next/next/no-img-element -- blob en mémoire */}
-        {photoUrl && <img src={photoUrl} alt="" />}
+        {photoUrl && <img ref={imgRef} src={photoUrl} alt="" />}
         <div className="scan-tint" />
+        <canvas className="scan-mesh" ref={meshRef} aria-hidden />
         <svg className="scan-svg" viewBox="0 0 236 296" fill="none">
-          <g className="ml" fill="none">
-            <path d="M118 70 L88 96 M118 70 L148 96" />
-            <path d="M88 96 L82 116 L108 116 M148 96 L154 116 L128 116" />
-            <path d="M82 116 L72 150 L118 158 L164 150 L154 116" />
-            <path d="M72 150 L92 178 L118 210 L144 178 L164 150" />
-            <path d="M118 158 L92 178 M118 158 L144 178" />
-          </g>
-          <g fill="#A6C3D6">
-            {[
-              [118, 70, 2.3, 0], [88, 96, 2.1, 0.15], [148, 96, 2.1, 0.15],
-              [82, 116, 2, 0.3], [108, 116, 2, 0.3], [128, 116, 2, 0.3], [154, 116, 2, 0.3],
-              [72, 150, 2.1, 0.5], [164, 150, 2.1, 0.5], [118, 158, 2.5, 0.65],
-              [92, 178, 2, 0.8], [144, 178, 2, 0.8], [118, 210, 2.2, 0.95],
-            ].map(([cx, cy, r, d], i) => (
-              <circle key={i} className="mp" cx={cx} cy={cy} r={r} style={{ animationDelay: `${d}s` }} />
-            ))}
-          </g>
           <path className="scan-corner" d="M18 34 L18 18 L34 18" />
           <path className="scan-corner" d="M218 34 L218 18 L202 18" />
           <path className="scan-corner" d="M18 262 L18 278 L34 278" />
