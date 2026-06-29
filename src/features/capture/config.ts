@@ -5,12 +5,14 @@
 // - pitch ±10°→±20°, yaw ±15°→±20° : webcam de laptop = légère contre-plongée.
 // Calibrage fin via logging CaptureMetric en Phase 1.5 (Plan 6).
 export const VALIDATION_CONFIG = {
-  faceSize: { minProjected: 400, ratioMin: 0.45, ratioMax: 0.95 },
+  // Distance resserrée « un peu » (ratioMin 0.45→0.52, minProjected 400→470) :
+  // visage un peu plus grand dans le cadre → texture/pores mieux visibles.
+  faceSize: { minProjected: 470, ratioMin: 0.52, ratioMax: 0.95 },
   // shadowRangeMax : écart max toléré entre la case la plus sombre et la plus claire
   // de la grille 3×3 du visage (réglage MODÉRÉ — ne bloque qu'une ombre marquée ;
   // à calibrer finement via CaptureMetric en Phase 1.5).
-  // meanMin 100→120 : refuse la pénombre (la capture passait dans une lumière trop faible).
-  luminance: { meanMin: 120, meanMax: 200, stddevMax: 50, lateralDeltaMax: 30, shadowRangeMax: 65 },
+  // meanMin remonté progressivement (100→120→132) : exige une lumière un peu plus franche.
+  luminance: { meanMin: 132, meanMax: 200, stddevMax: 50, lateralDeltaMax: 30, shadowRangeMax: 65 },
   orientation: { yaw: 20, pitch: 20, roll: 25 },
   stability: { maxDeltaFrac: 0.015, holdMs: 500 },
   sharpness: { minVariance: 60 }, // à calibrer (Phase 1.5)
