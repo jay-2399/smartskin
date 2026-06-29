@@ -305,7 +305,7 @@
 /* hero : photo + score */
 .hero-card { margin:6px 20px 0; background:var(--card); border:1px solid rgba(0,0,0,0.05); border-radius:22px; padding:16px; box-shadow:0 1px 3px rgba(0,0,0,0.04), 0 10px 30px rgba(0,0,0,0.055); display:flex; gap:16px; animation:heroIn .7s cubic-bezier(.22,1,.36,1) both .05s; }
 @keyframes heroIn { from{opacity:0; transform:translateY(16px) scale(.985);} to{opacity:1; transform:none;} }
-.hero-photo-big { position:relative; flex:0 0 50%; min-height:246px; border-radius:16px; background:var(--cloud); box-shadow:0 7px 20px rgba(0,0,0,0.16); }
+.hero-photo-big { position:relative; flex:0 0 44%; min-height:246px; border-radius:16px; background:var(--cloud); box-shadow:0 7px 20px rgba(0,0,0,0.16); }
 .hero-photo-big img { width:100%; height:100%; object-fit:cover; object-position:center 20%; border-radius:16px; transform:scaleX(-1); }
 .frame-corners span { position:absolute; width:32px; height:32px; border:6px solid var(--cloud); pointer-events:none; filter:drop-shadow(0 1px 2px rgba(0,0,0,0.28)); }
 .frame-corners .fc-tl { top:-3px; left:-3px; border-right:0; border-bottom:0; border-top-left-radius:19px; }
@@ -316,8 +316,8 @@
 .hc-eyebrow { font-family:var(--fm); font-size:9.5px; letter-spacing:0.15em; text-transform:uppercase; color:var(--space); margin-bottom:4px; }
 
 /* score gauge */
-.scoregauge { position:relative; width:168px; margin:0 auto; }
-.sg-svg { width:168px; height:118px; display:block; overflow:visible; }
+.scoregauge { position:relative; width:100%; max-width:168px; margin:0 auto; }
+.sg-svg { width:100%; height:auto; display:block; overflow:visible; }
 .sg-track { stroke:#E7EBF2; }
 .sg-tick { stroke:rgba(26,29,33,0.16); stroke-width:1.5; stroke-linecap:round; }
 .sg-needle-l { stroke:var(--ink); stroke-width:3.6; stroke-linecap:round; }
@@ -469,12 +469,19 @@
 .vp-tag svg { width:8px; height:8px; }
 
 /* ═══════ Reveal v2 — saisie d'âge (1ʳᵉ question) ═══════ */
-.age-field { display:flex; align-items:baseline; justify-content:center; gap:10px; padding:24px 0 8px; }
-.age-input { width:140px; text-align:center; font-weight:800; font-size:54px; letter-spacing:-0.04em; color:var(--ink); background:transparent; border:none; border-bottom:2px solid rgba(0,0,0,0.12); padding:4px 0; outline:none; -moz-appearance:textfield; }
+.list-age { justify-content:center; align-items:center; }   /* centre le champ âge dans l'espace dispo */
+.age-field { display:flex; flex-direction:column; align-items:center; gap:14px; padding:0; }
+.age-stepper { display:flex; align-items:center; gap:20px; }
+.age-step { width:52px; height:52px; border-radius:50%; border:1.5px solid rgba(26,29,33,0.10); background:var(--card); color:var(--ink);
+  display:flex; align-items:center; justify-content:center; cursor:pointer; flex-shrink:0;
+  box-shadow:0 2px 8px rgba(0,0,0,0.05); transition:transform .14s, border-color .2s, background .2s; }
+.age-step:hover { border-color:var(--accent-d); }
+.age-step:active { transform:scale(0.9); }
+.age-input { width:118px; text-align:center; font-weight:800; font-size:68px; letter-spacing:-0.045em; line-height:1; color:var(--ink);
+  background:transparent; border:none; outline:none; -moz-appearance:textfield; }
 .age-input::-webkit-outer-spin-button, .age-input::-webkit-inner-spin-button { -webkit-appearance:none; margin:0; }
-.age-input:focus { border-bottom-color:var(--accent-d); }
-.age-input::placeholder { color:rgba(0,0,0,0.18); }
-.age-unit { font-weight:600; font-size:18px; color:var(--graphite); }
+.age-input::placeholder { color:rgba(0,0,0,0.16); }
+.age-unit { font-family:var(--fm); font-weight:500; font-size:12px; letter-spacing:0.16em; text-transform:uppercase; color:var(--space); }
 
 /* ═══════ Code-gate — overlay viral TikTok par-dessus le reveal ═══════ */
 .codegate { position:fixed; inset:0; z-index:1000; display:flex; align-items:center; justify-content:center; padding:24px;
