@@ -5,56 +5,23 @@ import { useFunnel } from "@/features/funnel/store";
 import { useResult } from "@/features/analysis/resultStore";
 import "./home.css";
 
-/* Home marketing (1ʳᵉ page du scan) — reproduction fidèle de home-v2.html.
-   Isolée de funnel.css via la route (home). Les CTA lancent le scan ;
-   nav / cartes ingrédients / footer sont décoratifs. */
+/* Home marketing (1ʳᵉ page du scan). Isolée de funnel.css via la route (home).
+   Les CTA lancent le scan ; nav / footer sont décoratifs. */
 
 const AV = [1, 2, 3, 4].map((n) => `https://smart-skin.ai/avatar-${n}.jpg`);
-const ING = "https://yitigxyfibpqvhkrwuiz.supabase.co/storage/v1/object/public/content-images/ingredients";
 
-type Ingr = { fam: string; key: string; img: string; family: string; name: string; ben: string };
-const ROW_A: Ingr[] = [
-  { fam: "f-imperf", key: "niacinamide", img: `${ING}/niacinamide/cover-35a901a1.jpg`, family: "Sébum & pores", name: "Niacinamide", ben: "Resserre, matifie, apaise" },
-  { fam: "f-hydra", key: "acide-hyaluronique", img: `${ING}/acide-hyaluronique/cover-ec09473f.jpg`, family: "Hydratation", name: "Acide Hyaluronique", ben: "Repulpe & retient l'eau" },
-  { fam: "f-age", key: "retinol", img: `${ING}/retinol/cover-e23ce5ec.jpg`, family: "Anti-âge", name: "Rétinol", ben: "Rides & renouvellement" },
-  { fam: "f-eclat", key: "vitamine-c", img: `${ING}/vitamine-c/cover-5f1baeb3.jpg`, family: "Éclat", name: "Vitamine C", ben: "Anti-taches, coup d'éclat" },
-  { fam: "f-imperf", key: "acide-salicylique", img: `${ING}/acide-salicylique/cover-9ef058e3.jpg`, family: "Anti-imperfections", name: "Acide Salicylique", ben: "Désincruste les pores (BHA)" },
-  { fam: "f-age", key: "peptides", img: `${ING}/peptides/cover-fdf058a1.jpg`, family: "Fermeté", name: "Peptides", ben: "Soutien & rebond" },
-];
-const ROW_B: Ingr[] = [
-  { fam: "f-age", key: "bakuchiol", img: `${ING}/bakuchiol/cover-4a71181b.jpg`, family: "Anti-âge doux", name: "Bakuchiol", ben: "L'alternative au rétinol" },
-  { fam: "f-soothe", key: "acide-azelaique", img: `${ING}/acide-azelaique/hero.png`, family: "Anti-rougeurs", name: "Acide Azélaïque", ben: "Rosacée & taches" },
-  { fam: "f-hydra", key: "ceramides", img: `${ING}/ceramides/cover-fbbe95ca.jpg`, family: "Barrière", name: "Céramides", ben: "Répare & protège" },
-  { fam: "f-eclat", key: "acide-glycolique", img: `${ING}/acide-glycolique/cover-abc52acb.jpg`, family: "Exfoliant", name: "Acide Glycolique", ben: "Lisse le grain (AHA)" },
-  { fam: "f-soothe", key: "panthenol", img: `${ING}/panthenol/cover-b54e51cd.jpg`, family: "Réparateur", name: "Panthénol (B5)", ben: "Apaise & hydrate" },
-  { fam: "f-eclat", key: "acide-mandelique", img: `${ING}/acide-mandelique/cover-ec8a0479.jpg`, family: "Exfoliant doux", name: "Acide Mandélique", ben: "Pour peaux sensibles" },
-];
 const QROWS: [string, string][] = [
-  ["Type de peau", "Mixte"], ["Sensibilité", "Modérée"], ["Objectif", "Acné"], ["Âge", "25–34"],
-  ["Soleil", "Type III"], ["Routine", "5 min"], ["Budget", "~$50"], ["Allergies", "Aucune"],
+  ["Skin type", "Combination"], ["Sensitivity", "Moderate"], ["Goal", "Acne"], ["Age", "25–34"],
+  ["Sun", "Type III"], ["Routine", "5 min"], ["Budget", "~$50"], ["Allergies", "None"],
 ];
 const PCARDS = [
   { step: 1, img: "/prod-effaclar.png", brand: "La Roche-Posay", name: "Effaclar Gel Cleanser", price: "$18.99" },
   { step: 2, img: "/prod-niacinamide.png", brand: "The Ordinary", name: "Niacinamide 10%", price: "$6.50" },
-  { step: 3, img: "/prod-typology.png", brand: "Typology", name: "A31 Sérum Hydratant", price: "~$30" },
+  { step: 3, img: "/prod-typology.png", brand: "Typology", name: "A31 Hydrating Serum", price: "~$30" },
   { step: 4, img: "/prod-dralthea.png", brand: "Dr. Althea", name: "345 Relief Cream", price: "$24–27" },
   { step: 5, img: "/prod-paula.png", brand: "Paula's Choice", name: "2% BHA Exfoliant", price: "$37" },
 ];
 
-const Arrow = ({ s = 14 }: { s?: number }) => (
-  <svg width={s} height={s} viewBox="0 0 16 16" fill="none"><path d="M3 8h9M8 4l4 4-4 4" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" /></svg>
-);
-const IngCard = ({ d, hidden }: { d: Ingr; hidden?: boolean }) => (
-  <a className={`ing ${d.fam}`} href="#" data-ing={d.key} aria-hidden={hidden} onClick={(e) => e.preventDefault()}>
-    <div className="ing-ic ing-ic-img"><img src={d.img} alt="" loading="lazy" /></div>
-    <div className="ing-tx">
-      <div className="ing-fam">{d.family}</div>
-      <div className="ing-name">{d.name}</div>
-      <div className="ing-ben">{d.ben}</div>
-    </div>
-    <div className="ing-go"><Arrow /></div>
-  </a>
-);
 const Pcard = ({ p }: { p: (typeof PCARDS)[number] }) => (
   <div className="pcard2">
     <div className="pcard2-img"><span className="pcard2-step">{p.step}</span><img src={p.img} alt="" /></div>
@@ -164,7 +131,7 @@ export function HomeLanding() {
       <div className="s-hero">
         <nav className="nav">
           <a href="#" onClick={noNav}><img src="/logo-smartskin.png" alt="SmartSkin AI" /></a>
-          <button className="nav-login" onClick={() => router.push("/login")}>Connexion</button>
+          <button className="nav-login" onClick={() => router.push("/login")}>Login</button>
         </nav>
 
         <div className="hero-wrap">
@@ -180,27 +147,27 @@ export function HomeLanding() {
                 <div className="social-divider" />
                 <div className="social-tx">
                   <div className="stars">★★★★★</div>
-                  <div className="social-l">Déjà <b>+ de 1000 utilisateurs</b> conquis</div>
+                  <div className="social-l">Loved by <b>1,000+ users</b></div>
                 </div>
               </div>
-              <h1 className="title"><span className="soft">Découvre enfin</span> ce dont ta peau a besoin.</h1>
+              <h1 className="title"><span className="soft">Better skin</span> starts with the right <span className="soft">routine.</span></h1>
               <div className="reassure">
-                <span className="ra"><span className="ck"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"><path d="M2.6 7.4 7.4 2.6H11.4V6.6L6.6 11.4a1 1 0 0 1-1.4 0L2.6 8.8a1 1 0 0 1 0-1.4z" /><circle cx="9.3" cy="4.7" r="0.7" /></svg></span>Gratuit</span>
+                <span className="ra"><span className="ck"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"><path strokeWidth="1.6" d="M3.4 7.6 6 10.2 10.6 4.4" /></svg></span>Built for your skin</span>
                 <span className="ra-sep"></span>
-                <span className="ra"><span className="ck"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"><circle cx="7" cy="7.4" r="4.8" /><path d="M7 4.6V7.4l1.9 1.2" /><path d="M5.4 1.8h3.2" /></svg></span>1 minute</span>
+                <span className="ra"><span className="ck"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"><path strokeWidth="1.6" d="M3.4 7.6 6 10.2 10.6 4.4" /></svg></span>Unbiased picks</span>
                 <span className="ra-sep"></span>
-                <span className="ra"><span className="ck"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"><path d="M7 2 11 3.6V7c0 2.7-1.8 4.6-4 5.4C4.8 11.6 3 9.7 3 7V3.6z" /><circle cx="7" cy="6.4" r="0.85" /><path d="M7 7.1v1.5" /></svg></span>photo non conservée</span>
+                <span className="ra"><span className="ck"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"><path strokeWidth="1.6" d="M3.4 7.6 6 10.2 10.6 4.4" /></svg></span>Stop wasting money</span>
               </div>
-              <p className="subtitle">Notre IA analyse ton visage et te propose une routine sur-mesure, composée de <b>tous les produits dont tu auras besoin</b> pour avoir une peau parfaite !</p>
+              <p className="subtitle">Snap a photo and our AI finds <b>the products that actually work</b> on your acne, pores, wrinkles or dark spots — so you stop wasting money on the ones that don’t.</p>
               <div className="cta-zone">
                 <button className="cta-btn" onClick={start}>
-                  <span>Ma routine sur-mesure <em style={{ fontStyle: "italic", fontWeight: 500 }}>en 1 min</em></span>
+                  <span>Fix my skin <em style={{ fontStyle: "italic", fontWeight: 500 }}>in 1 min</em></span>
                   <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M3 8.5h9M8 4l4.5 4.5L8 13" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" /></svg>
                 </button>
               </div>
             </div>
 
-            <img className="woman" src="/woman-acne.png" alt="Analyse de peau" width={900} height={1100} fetchPriority="high" decoding="async" />
+            <img className="woman" src="/woman-acne.png" alt="Skin analysis" width={900} height={1100} fetchPriority="high" decoding="async" />
 
             <div className="reco-card rc1">
               <div className="reco-img"><img src="/prod-effaclar.png" alt="La Roche-Posay Effaclar" /></div>
@@ -222,37 +189,37 @@ export function HomeLanding() {
             </div>
 
             <div className="scan-card">
-              <div className="gauge" data-value="36" data-state="À améliorer"></div>
+              <div className="gauge" data-value="36" data-state="Needs work"></div>
               <div className="scan-metrics">
-                <div className="sm-row"><span className="sm-label">Imperfections</span><span className="sm-bar"><i style={{ width: "56%" }}></i></span><span className="sm-val">Modéré</span></div>
-                <div className="sm-row"><span className="sm-label">Pores</span><span className="sm-bar"><i style={{ width: "62%" }}></i></span><span className="sm-val">Visibles</span></div>
-                <div className="sm-row"><span className="sm-label">Éclat</span><span className="sm-bar"><i style={{ width: "73%" }}></i></span><span className="sm-val">Bon</span></div>
+                <div className="sm-row"><span className="sm-label">Blemishes</span><span className="sm-bar"><i style={{ width: "56%" }}></i></span><span className="sm-val">Moderate</span></div>
+                <div className="sm-row"><span className="sm-label">Pores</span><span className="sm-bar"><i style={{ width: "62%" }}></i></span><span className="sm-val">Visible</span></div>
+                <div className="sm-row"><span className="sm-label">Glow</span><span className="sm-bar"><i style={{ width: "73%" }}></i></span><span className="sm-val">Good</span></div>
               </div>
-              <div className="scan-tag">Peau mixte · Zone T grasse</div>
+              <div className="scan-tag">Combination skin · Oily T-zone</div>
             </div>
           </section>
         </div>
       </div>
 
-      {/* ═══ SECTION 2 — COMMENT ÇA MARCHE ═══ */}
+      {/* ═══ SECTION 2 — HOW IT WORKS ═══ */}
       <section className="s-how" id="how">
         <div className="wrap">
           <header className="shead">
-            <span className="eyebrow"><span className="dot"></span>Comment ça marche</span>
-            <h2>De ta photo à ta routine,<br /><span className="soft">en 5 étapes.</span></h2>
-            <p>Une IA qui comprend vraiment ta peau — <b>scan</b>, diagnostic, routine sur-mesure et <b>suivi</b> dans le temps.</p>
+            <span className="eyebrow"><span className="dot"></span>How it works</span>
+            <h2>From your photo to your routine,<br /><span className="soft">in 5 steps.</span></h2>
+            <p>An AI that truly gets your skin — <b>scan</b>, diagnosis, custom routine and <b>tracking</b> over time.</p>
           </header>
 
           <section className="bento">
             <article className="card b01">
               <div className="c-left2">
                 <div className="c-top"><span className="tag green">Scan</span><span className="num">01</span></div>
-                <h2 className="c-title">Scannez votre peau en 30 secondes</h2>
-                <p className="c-desc">Une photo, notre IA analyse <b>12 zones</b> et <b>40+ marqueurs</b> cutanés.</p>
+                <h2 className="c-title">Scan your skin in 30 seconds</h2>
+                <p className="c-desc">One photo — our AI reads <b>12 zones</b> and <b>40+ skin markers</b>.</p>
               </div>
               <div className="vf">
                 <img src="/capture-face.jpg" alt="" />
-                <div className="vf-badge"><span className="pulse"></span>Visage détecté</div>
+                <div className="vf-badge"><span className="pulse"></span>Face detected</div>
                 <svg className="vf-svg" viewBox="0 0 300 254" preserveAspectRatio="xMidYMid slice">
                   <ellipse className="vf-oval" cx="150" cy="120" rx="78" ry="98" />
                   <circle className="vf-mk" cx="150" cy="58" r="2" style={{ animationDelay: ".1s" }} />
@@ -269,17 +236,17 @@ export function HomeLanding() {
                 </svg>
                 <div className="vf-stats">
                   <div className="vf-chip"><b>12</b>zones</div>
-                  <div className="vf-chip"><b>40+</b>marqueurs</div>
-                  <div className="vf-chip"><b>30s</b>analyse</div>
+                  <div className="vf-chip"><b>40+</b>markers</div>
+                  <div className="vf-chip"><b>30s</b>scan</div>
                 </div>
               </div>
             </article>
 
             <article className="card b02">
               <div className="c-left2">
-                <div className="c-top"><span className="tag">Profil</span><span className="num">02</span></div>
-                <h2 className="c-title">Répondez à 8 questions ciblées</h2>
-                <p className="c-desc">Mode de vie, sensibilités, objectifs — pour affiner le diagnostic.</p>
+                <div className="c-top"><span className="tag">Profile</span><span className="num">02</span></div>
+                <h2 className="c-title">Answer 8 targeted questions</h2>
+                <p className="c-desc">Lifestyle, sensitivities, goals — to sharpen the diagnosis.</p>
               </div>
               <div className="qfeed">
                 <div className="qfeed-track">
@@ -291,15 +258,15 @@ export function HomeLanding() {
             </article>
 
             <article className="card b03">
-              <div className="c-top"><span className="tag">Diagnostic</span><span className="num">03</span></div>
-              <h2 className="c-title">Recevez votre score peau</h2>
-              <div className="gauge" data-value="47" data-state="État à améliorer"></div>
+              <div className="c-top"><span className="tag">Diagnosis</span><span className="num">03</span></div>
+              <h2 className="c-title">Get your skin score</h2>
+              <div className="gauge" data-value="47" data-state="Room to improve"></div>
             </article>
 
             <article className="card b04">
               <div className="c-top"><span className="tag sand">Routine</span><span className="num">04</span></div>
-              <h2 className="c-title">Un protocole sur-mesure, étape par étape</h2>
-              <p className="c-desc">Une routine à suivre <b>chaque jour</b> — chaque produit choisi pour votre peau.</p>
+              <h2 className="c-title">A custom protocol, step by step</h2>
+              <p className="c-desc">A daily routine to follow — <b>every product</b> picked for your skin.</p>
               <div className="pscroll">
                 <div className="pscroll-track">
                   {[...PCARDS, ...PCARDS].map((p, i) => <Pcard p={p} key={i} />)}
@@ -308,8 +275,8 @@ export function HomeLanding() {
             </article>
 
             <article className="card b05">
-              <div className="c-top"><span className="tag green">Suivi</span><span className="num">05</span></div>
-              <h2 className="c-title">Suivez vos progrès dans le temps</h2>
+              <div className="c-top"><span className="tag green">Tracking</span><span className="num">05</span></div>
+              <h2 className="c-title">Track your progress over time</h2>
               <div className="chart">
                 <div className="chart-head">
                   <span className="chart-delta"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M2 8.5l3-3 2.2 2.2L10.5 3M10.5 3H8M10.5 3v2.5" /></svg>+16 pts</span>
@@ -343,80 +310,39 @@ export function HomeLanding() {
         </div>
       </section>
 
-      {/* ═══ SECTION 3 — INGRÉDIENTS ═══ */}
-      <section className="s-ingredients" id="ingredients">
-        <div className="wrap">
-          <div className="shead">
-            <div className="eyebrow"><span className="dot"></span> Glossaire des actifs <span className="sep"></span> <span className="count">24 décryptés</span></div>
-            <h2>Chaque ingrédient,<br /><span className="soft">décrypté pour ta peau.</span></h2>
-            <p>Comprends vraiment ce que tu appliques. Explore les actifs star un par un — leur <b>rôle</b>, leurs <b>bénéfices</b> et pour <b>quels besoins</b>.</p>
-          </div>
-
-          <div className="legend">
-            <span className="lg f-hydra">Hydratation</span>
-            <span className="lg f-eclat">Éclat &amp; taches</span>
-            <span className="lg f-imperf">Imperfections</span>
-            <span className="lg f-soothe">Apaisant</span>
-            <span className="lg f-age">Anti-âge</span>
-          </div>
-
-          <div className="marquees">
-            <div className="row rowA">
-              <div className="track">
-                {ROW_A.map((d, i) => <IngCard d={d} key={"a" + i} />)}
-                {ROW_A.map((d, i) => <IngCard d={d} hidden key={"a2" + i} />)}
-              </div>
-            </div>
-            <div className="row rowB">
-              <div className="track">
-                {ROW_B.map((d, i) => <IngCard d={d} key={"b" + i} />)}
-                {ROW_B.map((d, i) => <IngCard d={d} hidden key={"b2" + i} />)}
-              </div>
-            </div>
-          </div>
-
-          <div className="foot">
-            <a className="explore" href="#" onClick={noNav}>
-              Explorer tous les ingrédients
-              <Arrow s={16} />
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ═══ SECTION 4 — CTA FINAL ═══ */}
+      {/* ═══ SECTION 3 — FINAL CTA ═══ */}
       <section className="s-cta">
         <div className="cta-panel">
           <div className="cta-glow1"></div>
           <div className="cta-glow2"></div>
           <div className="cta-dots"></div>
-          <span className="cta-tag"><span className="dot"></span>Ta routine t'attend</span>
-          <h2 className="cta-h">Ta peau mérite mieux<br />que des <span className="hl">essais au hasard.</span></h2>
-          <p className="cta-sub">En <b>1 minute</b>, obtiens un diagnostic précis et la routine faite pour toi.</p>
-          <div className="cta-go-wrap">
-            <button className="cta-go" onClick={start}>
-              Démarrer mon diagnostic
-              <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M3 8.5h9M8 4l4.5 4.5L8 13" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" /></svg>
-            </button>
-          </div>
           <div className="cta-social">
             <div className="cta-avatars">
               {AV.map((src, i) => <span className="cav" key={i}><img src={src} alt="" /></span>)}
             </div>
             <div>
               <div className="cta-stars">★★★★★</div>
-              <div className="cta-soc-l">Déjà <b>+ de 1000 utilisateurs</b></div>
+              <div className="cta-soc-l">Loved by <b>1,000+ users</b></div>
             </div>
           </div>
+          <h2 className="cta-h">Your skin deserves better<br />than <span className="hl">guesswork.</span></h2>
+          <p className="cta-sub">In <b>1 minute</b>, get a precise diagnosis and the routine made for you.</p>
+          <div className="cta-go-wrap">
+            <button className="cta-go" onClick={start}>
+              Fix my skin in 1 min
+              <svg width="17" height="17" viewBox="0 0 17 17" fill="none"><path d="M3 8.5h9M8 4l4.5 4.5L8 13" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" /></svg>
+            </button>
+          </div>
+          <img className="cta-phone" src="/home-cta-phone.png" alt="The SmartSkin app on iPhone" />
         </div>
 
         <footer className="site-foot">
           <img src="/logo-smartskin.png" alt="SmartSkin AI" />
           <div className="foot-links">
             <a href="#" onClick={noNav}>Articles</a>
-            <a href="#" onClick={noNav}>Ingrédients</a>
-            <a href="#" onClick={noNav}>Comparatifs</a>
-            <a href="#" onClick={noNav}>Types de peau</a>
+            <a href="#" onClick={noNav}>Ingredients</a>
+            <a href="#" onClick={noNav}>Comparisons</a>
+            <a href="#" onClick={noNav}>Skin types</a>
           </div>
           <div className="foot-copy">© 2026 SmartSkin™</div>
         </footer>
