@@ -51,6 +51,31 @@ export function normalizeSkinType(raw: string): SkinTypeKey {
   return "normale";
 }
 
+/* Priorités déclarées par l'utilisateur (q1) → ids de concerns (mêmes ids que les
+   16 attributs / les `targets` des produits). Ce que l'utilisateur DIT vouloir doit
+   peser sur le choix des produits, pas seulement ce que l'IA détecte. */
+const Q1_CONCERNS: Record<string, string[]> = {
+  hydration: ["flaking"],
+  radiance: ["radiance"],
+  blemishes: ["acne", "comedones", "post_acne_marks"],
+  pores: ["pores", "texture"],
+  dark_spots: ["dark_spots", "tone_evenness"],
+  fine_lines: ["fine_lines", "wrinkles"],
+  firmness: ["wrinkles"],
+  redness: ["redness", "visible_vessels"],
+  eye_area: ["under_eye_circles", "under_eye_puffiness"],
+  oiliness: ["shine"],
+  texture: ["texture", "pores"],
+  // "discover" (« je ne suis pas sûr ») = aucune priorité déclarée.
+};
+
+/** Fusionne les priorités déclarées (q1, en tête) avec les concerns détectés par
+ *  l'IA (en complément). Dédupliqué, ordre = priorité (1er = + important). */
+export function mergeConcerns(q1: string[], detected: string[]): string[] {
+  const wanted = q1.flatMap((v) => Q1_CONCERNS[v] ?? []);
+  return [...new Set([...wanted, ...detected])];
+}
+
 export function buildEngineProfile(result: AnalysisResult, answers: Answers): EngineProfile {
   const bucket = deriveBucket(result, answers);
   const reactiveStr = /sensible|sensitive|réactive|reactive/i.test(result.profile.skinType);
@@ -61,7 +86,7 @@ export function buildEngineProfile(result: AnalysisResult, answers: Answers): En
     sensitive: bucket === "sensible" || bucket === "fragile" || reactiveStr,
     bucket,
     phase: derivePhase(answers),
-    concerns: topConcerns(result),
+    concerns: mergeConcerns(answers.q1, topConcerns(result)),
     pregnant: answers.q7.includes("pregnancy"),
     breastfeeding: answers.q7.includes("pregnancy"), // q7 couvre « Grossesse / allaitement »
     medicalConditions: answers.q7.filter((v) => v === "condition" || v === "treatment"),

@@ -58,6 +58,7 @@ export function buildPrompt(answers: Answers): string {
     "STEP 1 — FIRST fill the `observations` field: a factual, zone-by-zone description of what you actually see (e.g. \"Forehead: shiny, 2-3 small pimples; Cheeks: light diffuse redness; Eyes: colored dark circles\"). This is your reasoning base — do it BEFORE any grading.",
     "",
     "STEP 2 — THEN grade each attribute from 1 (ideal/absent) to 4 (severe), based on your observations. Use EXACTLY these identifiers for attributes[].id, per this grid:",
+    "CALIBRATION (decisive — be discriminating): level 1 is the DEFAULT. Only raise an attribute above 1 when the sign is genuinely visible; clear, healthy skin MUST get mostly 1s and a HIGH score. Do NOT pad: don't assume everyone is oily or blemish-prone. Distinguish real excess sebum from a simple light reflection, and real pimples from normal pores/texture. Two genuinely different faces (e.g. clear skin vs acne-prone skin) MUST end up with clearly different grades, skinType and score — never a one-size-fits-all assessment.",
     "",
     "Blemishes:",
     "- acne — 1=clear skin · 2=a few comedones or 1-3 small localized pimples · 3=several inflammatory pimples on ≥1 zone · 4=many inflammatory or widespread pimples.",

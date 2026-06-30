@@ -72,6 +72,18 @@ describe("buildEngineProfile", () => {
     expect(p.budget).toBe("no_limit");
   });
 
+  it("les priorités déclarées (q1) passent EN TÊTE des concerns, même non détectées par l'IA", () => {
+    const p = buildEngineProfile(result({ redness: 3 }), ans({ q1: ["blemishes"] }));
+    expect(p.concerns[0]).toBe("acne");        // q1 « blemishes » → acne prioritaire
+    expect(p.concerns).toContain("comedones"); // mapping multi-concerns
+    expect(p.concerns).toContain("redness");   // détecté par l'IA → conservé en complément
+  });
+
+  it("dédup : une priorité q1 déjà détectée par l'IA n'apparaît qu'une fois", () => {
+    const p = buildEngineProfile(result({ shine: 2 }), ans({ q1: ["oiliness"] }));
+    expect(p.concerns.filter((c) => c === "shine")).toHaveLength(1);
+  });
+
   it("dérive bucket (sensibilité) et phase (expérience q3) pour le plafond d'irritation", () => {
     const reactive = buildEngineProfile(result({ redness: 3 }), ans({ q7: ["condition"], q3: ["retinol"] }));
     expect(reactive.bucket).toBe("sensible");
