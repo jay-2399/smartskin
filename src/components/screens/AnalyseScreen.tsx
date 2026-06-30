@@ -179,7 +179,7 @@ export function AnalyseScreen() {
           <span className="prog-label">{pct >= 100 ? "Done" : "Analyzing your skin"}</span>
           <span className="prog-pct">{pct}%</span>
         </div>
-        <div className="prog-track"><div className="prog-fill" style={{ width: `${pct}%` }} /></div>
+        <div className="prog-track"><div className="ana-fill" style={{ width: `${pct}%` }} /></div>
       </div>
 
       <div className="status">
