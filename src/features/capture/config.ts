@@ -11,8 +11,8 @@ export const VALIDATION_CONFIG = {
   // shadowRangeMax : écart max toléré entre la case la plus sombre et la plus claire
   // de la grille 3×3 du visage (réglage MODÉRÉ — ne bloque qu'une ombre marquée ;
   // à calibrer finement via CaptureMetric en Phase 1.5).
-  // meanMin remonté progressivement (100→120→132) : exige une lumière un peu plus franche.
-  luminance: { meanMin: 132, meanMax: 200, stddevMax: 50, lateralDeltaMax: 30, shadowRangeMax: 65 },
+  // meanMin remonté progressivement (100→120→132→145) : exige une lumière plus franche en live.
+  luminance: { meanMin: 145, meanMax: 200, stddevMax: 50, lateralDeltaMax: 30, shadowRangeMax: 65 },
   orientation: { yaw: 20, pitch: 20, roll: 25 },
   stability: { maxDeltaFrac: 0.015, holdMs: 500 },
   sharpness: { minVariance: 60 }, // à calibrer (Phase 1.5)
