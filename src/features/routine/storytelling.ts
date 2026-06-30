@@ -24,14 +24,14 @@ interface RState extends Snap {
 
 interface RoutinePayload {
   routine: RoutineData;
-  totaux?: { prix: number; budget: number | "no_limit"; dansLeBudget: boolean };
+  totaux?: { prix: number; irritation: number };
   warnings?: string[];
 }
 export interface InitOptions {
   onExit?: () => void;
   onSave?: (validated: RoutineData) => void; // « Enregistrer » → reçoit la routine VALIDÉE (produits gardés)
   routine?: RoutineData; // routine SYNCHRONE (catalogue démo par défaut)
-  totaux?: { prix: number; budget: number | "no_limit"; dansLeBudget: boolean }; // Σ coût + tenue du budget
+  totaux?: { prix: number; irritation: number }; // Σ coût (informatif) + charge d'irritation
   warnings?: string[]; // avertissements (off-ramp dermato), affichés en bandeau
   faceUrl?: string; // photo de l'analyse (en mémoire) pour le médaillon de l'intro V2
   // Charge la routine de façon ASYNCHRONE : l'intro joue PENDANT le chargement (~40 s),
@@ -400,9 +400,6 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
         `<div class="proto-h1">Your custom protocol.</div>` +
         `<div class="proto-sub">Built from your analysis · <b>${data.productCount} products</b></div>` +
         `<div class="proto-diag">${data.diagnostic.map((d) => `<span class="proto-chip">${d}</span>`).join("")}</div>` +
-        (totaux && totaux.budget !== "no_limit"
-          ? `<div class="proto-budget ${totaux.dansLeBudget ? "ok" : "over"}">Estimated cost <b>$${Math.round(totaux.prix)}</b> · budget $${totaux.budget}${totaux.dansLeBudget ? " · within budget" : " · slightly over"}</div>`
-          : "") +
         (warnings && warnings.length
           ? `<div class="proto-warn">${warnings.map((w) => `<span>${w}</span>`).join("")}</div>`
           : "") +

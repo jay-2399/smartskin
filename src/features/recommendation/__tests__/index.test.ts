@@ -113,18 +113,6 @@ describe("buildRecommendedRoutine — pipeline complet (vrai catalogue, sans LLM
     expect(allOptions(routine).some((o) => o.unsafeSensitive)).toBe(false);
   });
 
-  it("budget serré (lt30) → respecte l'enveloppe ou tente des swaps", async () => {
-    const { totaux, swaps } = await buildRecommendedRoutine(result({ acne: 3, dark_spots: 2, redness: 2 }), ans({ q6: "lt30" }));
-    expect(totaux.budget).toBe(30);
-    expect(totaux.dansLeBudget || swaps.length > 0).toBe(true);
-  });
-
-  it("budget gt100 (no_limit) → aucune contrainte de prix", async () => {
-    const { totaux } = await buildRecommendedRoutine(result({ dark_spots: 3 }), ans({ q6: "gt100" }));
-    expect(totaux.budget).toBe("no_limit");
-    expect(totaux.dansLeBudget).toBe(true);
-  });
-
   it("traitement dermato (q7) → avertissement d'orientation médecin", async () => {
     const { avertissements } = await buildRecommendedRoutine(result({ acne: 3 }), ans({ q7: ["treatment"] }));
     expect(avertissements.length).toBeGreaterThan(0);

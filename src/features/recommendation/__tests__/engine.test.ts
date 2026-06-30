@@ -26,7 +26,7 @@ function profile(over: Partial<EngineProfile> = {}): EngineProfile {
     skinType: "mixte", sensitive: false, bucket: "normale", phase: 3, concerns: [],
     needs: {}, strengthCeiling: 3,
     pregnant: false, breastfeeding: false, medicalConditions: [],
-    budgetTier: "30-60", budget: 80, freeText: "",
+    freeText: "",
     ...over,
   };
 }
@@ -38,31 +38,25 @@ function constraints(over: Partial<Constraints> = {}): Constraints {
 describe("hardFilter — Étape 2", () => {
   it("grossesse → élimine les produits unsafePregnancy", () => {
     const list = [prod({ num: 1 }), prod({ num: 2, unsafePregnancy: true })];
-    const out = hardFilter(list, profile({ pregnant: true }), constraints({ excludePregnancyUnsafe: true }), Infinity);
+    const out = hardFilter(list, profile({ pregnant: true }), constraints({ excludePregnancyUnsafe: true }));
     expect(out.map((p) => p.num)).toEqual([1]);
   });
 
   it("peau sensible → élimine unsafeSensitive et au-dessus du plafond d'irritation", () => {
     const list = [prod({ num: 1, irritationCost: 1 }), prod({ num: 2, unsafeSensitive: true }), prod({ num: 3, irritationCost: 4 })];
-    const out = hardFilter(list, profile({ sensitive: true }), constraints({ excludeSensitiveUnsafe: true, maxIrritationPerProduct: 2 }), Infinity);
+    const out = hardFilter(list, profile({ sensitive: true }), constraints({ excludeSensitiveUnsafe: true, maxIrritationPerProduct: 2 }));
     expect(out.map((p) => p.num)).toEqual([1]);
   });
 
   it("byProfile == negative pour la peau du user → éliminé", () => {
     const list = [prod({ num: 1 }), prod({ num: 2, couche3: { sentiment: 0.8, byProfile: { ...POS(), mixte: "negative" } } })];
-    const out = hardFilter(list, profile({ skinType: "mixte" }), constraints(), Infinity);
+    const out = hardFilter(list, profile({ skinType: "mixte" }), constraints());
     expect(out.map((p) => p.num)).toEqual([1]);
-  });
-
-  it("budget borné → élimine au-dessus du cap par produit ; no_limit désactive le filtre prix", () => {
-    const list = [prod({ num: 1, price: 12 }), prod({ num: 2, price: 40 })];
-    expect(hardFilter(list, profile({ budget: 30 }), constraints(), 30).map((p) => p.num)).toEqual([1]);
-    expect(hardFilter(list, profile({ budget: "no_limit" }), constraints(), Infinity).map((p) => p.num)).toEqual([1, 2]);
   });
 
   it("traitement dermato → exclut les rétinoïdes (excludeActives sur keyActives)", () => {
     const list = [prod({ num: 1, keyActives: "niacinamide" }), prod({ num: 2, keyActives: "retinol" })];
-    const out = hardFilter(list, profile(), constraints({ excludeActives: ["retinol"] }), Infinity);
+    const out = hardFilter(list, profile(), constraints({ excludeActives: ["retinol"] }));
     expect(out.map((p) => p.num)).toEqual([1]);
   });
 });
@@ -177,37 +171,23 @@ describe("irritationTolerance — matrice bucket × phase (§4.6)", () => {
   });
 });
 
-describe("reconcile — Étape 6 (budget + irritation)", () => {
-  it("dépassement de budget → swap vers moins cher jusqu'à rentrer dans l'enveloppe", () => {
-    const picks: Record<string, CatalogProduct[]> = {
-      serum: [prod({ num: 1, price: 25 }), prod({ num: 2, price: 8 })],
-      hydratant: [prod({ num: 3, price: 25, category: "hydratant" }), prod({ num: 4, price: 8, category: "hydratant" })],
-    };
-    const p = profile({ budget: 30 });
-    const r = reconcile(picks, p);
-    expect(r.totals.prix).toBeLessThanOrEqual(30);
-    expect(r.totals.dansLeBudget).toBe(true);
-    expect(r.swaps.length).toBeGreaterThan(0);
-    expect(r.swaps[0].reason).toBe("budget");
-  });
-
+describe("reconcile — Étape 6 (irritation)", () => {
   it("dépassement d'irritation → swap vers plus doux", () => {
     const picks: Record<string, CatalogProduct[]> = {
       exfoliant: [prod({ num: 1, irritationCost: 4 }), prod({ num: 2, irritationCost: 1 })],
       traitement: [prod({ num: 3, irritationCost: 4 }), prod({ num: 4, irritationCost: 1 })],
     };
-    const p = profile({ bucket: "sensible", phase: 2, budget: "no_limit" }); // tol = 5
+    const p = profile({ bucket: "sensible", phase: 2 }); // tol = 5
     const r = reconcile(picks, p);
     expect(r.totals.irritation).toBeLessThanOrEqual(5);
     expect(r.swaps.some((s) => s.reason === "irritation")).toBe(true);
   });
 
-  it("no_limit + tolérance respectée → aucun swap, dansLeBudget true", () => {
+  it("tolérance respectée → aucun swap ; prix reste informatif", () => {
     const picks: Record<string, CatalogProduct[]> = { serum: [prod({ num: 1, price: 200 })] };
-    const r = reconcile(picks, profile({ budget: "no_limit" }));
+    const r = reconcile(picks, profile());
     expect(r.swaps).toHaveLength(0);
-    expect(r.totals.dansLeBudget).toBe(true);
-    expect(totalsOf(picks, profile({ budget: "no_limit" })).prix).toBe(200);
+    expect(totalsOf(picks).prix).toBe(200);
   });
 
   it("taille fixe : aucun retrait d'étape même si le plafond est dépassé (swap seulement)", () => {
@@ -215,15 +195,15 @@ describe("reconcile — Étape 6 (budget + irritation)", () => {
       exfoliant: [prod({ num: 2, irritationCost: 4, frequency: "daily", category: "exfoliant" })], // pas d'alternative
       traitement: [prod({ num: 3, irritationCost: 4, frequency: "daily", category: "traitement" })],
     };
-    const r = reconcile(picks, profile({ bucket: "sensible", phase: 1, budget: "no_limit" })); // tol = 3
+    const r = reconcile(picks, profile({ bucket: "sensible", phase: 1 })); // tol = 3
     expect(r.picks.exfoliant).toBeDefined(); // RIEN n'est retiré
     expect(r.picks.traitement).toBeDefined();
     expect(r.swaps).toHaveLength(0); // aucun swap possible non plus
   });
 
   it("l'irritation est pondérée par la fréquence : un exfoliant 1-2×/sem pèse ≪ qu'un quotidien", () => {
-    const occasional = totalsOf({ exfoliant: [prod({ irritationCost: 3, frequency: "1-2x/sem" })] }, profile());
-    const daily = totalsOf({ exfoliant: [prod({ irritationCost: 3, frequency: "daily" })] }, profile());
+    const occasional = totalsOf({ exfoliant: [prod({ irritationCost: 3, frequency: "1-2x/sem" })] });
+    const daily = totalsOf({ exfoliant: [prod({ irritationCost: 3, frequency: "daily" })] });
     expect(daily.irritation).toBe(3); // quotidien → coût plein
     expect(occasional.irritation).toBeLessThan(daily.irritation); // 1-2×/sem → bien moins
   });

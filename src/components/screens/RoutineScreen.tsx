@@ -11,7 +11,7 @@ import "./routine-v2.css";
 
 type Reco = {
   routine: RoutineData;
-  totaux: { prix: number; irritation: number; budget: number | "no_limit"; dansLeBudget: boolean };
+  totaux: { prix: number; irritation: number };
   avertissements: string[];
 };
 

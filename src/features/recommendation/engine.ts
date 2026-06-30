@@ -7,12 +7,11 @@ import type { Constraints } from "./medical-guard";
 
 /* ───────────── Étape 2 — Filtres durs, par catégorie ───────────── */
 
-/** Un produit passe-t-il les filtres durs pour ce profil ? (sécurité + budget). */
+/** Un produit passe-t-il les filtres durs pour ce profil ? (sécurité — plus de budget prix). */
 export function passesFilters(
   p: CatalogProduct,
   profile: EngineProfile,
-  constraints: Constraints,
-  perProductCap: number
+  constraints: Constraints
 ): boolean {
   if (constraints.excludePregnancyUnsafe && p.unsafePregnancy) return false;
   if (constraints.excludeSensitiveUnsafe && p.unsafeSensitive) return false;
@@ -21,17 +20,15 @@ export function passesFilters(
   if (constraints.excludeActives.some((a) => ka.includes(a))) return false;
   // byProfile == negative pour la peau du user → on élimine (règle d'or §2.4).
   if (p.couche3?.byProfile?.[profile.skinType] === "negative") return false;
-  if (profile.budget !== "no_limit" && p.price > perProductCap) return false;
   return true;
 }
 
 export function hardFilter(
   products: CatalogProduct[],
   profile: EngineProfile,
-  constraints: Constraints,
-  perProductCap: number
+  constraints: Constraints
 ): CatalogProduct[] {
-  return products.filter((p) => passesFilters(p, profile, constraints, perProductCap));
+  return products.filter((p) => passesFilters(p, profile, constraints));
 }
 
 /* ───────────── Étape 3 — Scoring déterministe ───────────── */
@@ -158,20 +155,20 @@ export function splitCreams(creams: CatalogProduct[]): { day: CatalogProduct[]; 
   return { day, night };
 }
 
-/* ───────────── Étape 6 — Réconciliation panier (budget + irritation) ───────────── */
+/* ───────────── Étape 6 — Réconciliation panier (IRRITATION uniquement) ─────────────
+   Le budget PRIX a été retiré du produit (plus de question budget) → ici on ne réconcilie
+   plus que la charge d'irritation cumulée de la routine (sécurité). */
 
 export interface Swap {
   category: Category;
   from: string; // "Marque Nom"
   to: string;
-  reason: "budget" | "irritation";
+  reason: "irritation";
 }
 
 export interface Totals {
-  prix: number;
+  prix: number; // informatif (Σ prix de la routine)
   irritation: number;
-  budget: number | "no_limit";
-  dansLeBudget: boolean;
 }
 
 /* Plafond d'irritation §4.6 — barème RECOPIÉ de recommend.ts (deriveBucket/derivePhase).
@@ -203,50 +200,42 @@ export function dailyIrritation(p: CatalogProduct): number {
   return (p.irritationCost * weeklyTimes(p.frequency)) / 7;
 }
 
-/** Σ prix / Σ irritation (pondérée par la fréquence) sur les produits choisis. */
-export function totalsOf(picks: Record<string, CatalogProduct[]>, profile: EngineProfile): Totals {
+/** Σ prix (informatif) / Σ irritation (pondérée par la fréquence) sur les produits choisis. */
+export function totalsOf(picks: Record<string, CatalogProduct[]>): Totals {
   const chosen = Object.values(picks).map((o) => o[0]).filter(Boolean);
   const prix = round2(chosen.reduce((s, p) => s + p.price, 0));
   const irritation = round1(chosen.reduce((s, p) => s + dailyIrritation(p), 0));
-  const dansLeBudget = profile.budget === "no_limit" || prix <= profile.budget;
-  return { prix, irritation, budget: profile.budget, dansLeBudget };
+  return { prix, irritation };
 }
 
-/** Échange glouton : remplace le produit choisi le plus cher / le plus irritant par
- *  le candidat suivant de SA shortlist jusqu'à respecter budget ET tolérance. */
+/** Échange glouton : si la charge d'IRRITATION cumulée dépasse la tolérance de la peau,
+ *  on remplace le produit le plus irritant par le candidat suivant de SA shortlist,
+ *  jusqu'à rentrer sous le plafond. (Plus aucun arbitrage prix : le budget a été retiré.) */
 export function reconcile(
   picks: Record<string, CatalogProduct[]>,
   profile: EngineProfile
 ): { picks: Record<string, CatalogProduct[]>; swaps: Swap[]; totals: Totals } {
   const swaps: Swap[] = [];
   const tol = irritationTolerance(profile);
-  const budget = profile.budget;
 
   for (let guard = 0; guard < 60; guard++) {
-    const t = totalsOf(picks, profile);
-    const overBudget = budget !== "no_limit" && t.prix > budget;
-    const overIrr = t.irritation > tol;
-    if (!overBudget && !overIrr) break;
-    const reason: "budget" | "irritation" = overBudget ? "budget" : "irritation";
+    if (totalsOf(picks).irritation <= tol) break;
 
-    // Catégorie dont l'échange réduit le plus la contrainte qui bloque.
+    // Catégorie dont l'échange réduit le plus l'irritation.
     let best: { cat: string; gain: number } | null = null;
     for (const [cat, opts] of Object.entries(picks)) {
       if (opts.length < 2) continue;
-      const cur = opts[0];
-      const next = opts[1];
-      const gain = reason === "budget" ? cur.price - next.price : dailyIrritation(cur) - dailyIrritation(next);
+      const gain = dailyIrritation(opts[0]) - dailyIrritation(opts[1]);
       if (gain > 0 && (!best || gain > best.gain)) best = { cat, gain };
     }
     // Taille de routine FIXE : on ne retire jamais d'étape. Si aucun swap n'aide plus,
-    // on s'arrête (un éventuel dépassement budget/irritation est affiché honnêtement —
-    // le filtre de sécurité par produit a déjà écarté les produits trop agressifs).
+    // on s'arrête (le filtre de sécurité par produit a déjà écarté les trop agressifs).
     if (!best) break;
 
     const opts = picks[best.cat];
-    swaps.push({ category: best.cat as Category, from: label(opts[0]), to: label(opts[1]), reason });
+    swaps.push({ category: best.cat as Category, from: label(opts[0]), to: label(opts[1]), reason: "irritation" });
     picks[best.cat] = [opts[1], opts[0], ...opts.slice(2)]; // promeut le n°2
   }
 
-  return { picks, swaps, totals: totalsOf(picks, profile) };
+  return { picks, swaps, totals: totalsOf(picks) };
 }

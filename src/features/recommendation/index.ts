@@ -11,7 +11,7 @@ import { toRoutineData, CAT_ICON } from "./to-routine-data";
 
 /* Orchestrateur du moteur de reco (contrat §7bis). Enchaîne :
    profil → garde médicale → filtre/score/shortlist par catégorie → choix+pourquoi
-   LLM (repli déterministe) → réconciliation budget → placement → adaptateur UI.
+   LLM (repli déterministe) → réconciliation irritation → placement → adaptateur UI.
    Fonctionne ENTIÈREMENT sans clé OpenAI (socle déterministe). */
 
 export interface RecommendationResult {
@@ -67,7 +67,6 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
   const byCat = catalogByCategory(loadCatalog());
 
   const cats = planCategories();
-  const perProductCap = profile.budget === "no_limit" ? Infinity : profile.budget;
 
   // ── Étapes 2-4 : par catégorie, filtre dur → score → shortlist top-3. ──
   //    L'hydratant est traité à part juste après (2 crèmes distinctes jour/nuit).
@@ -77,7 +76,7 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
     if (cat === "hydratant") continue;
     let pool = byCat[cat] ?? [];
     if (cat === "traitement") pool = withPregnancyTopUp(pool, byCat, profile, usedNums);
-    const survivors = hardFilter(pool, profile, constraints, perProductCap);
+    const survivors = hardFilter(pool, profile, constraints);
     // Gate pertinence (base : repli toléré ; soin ciblé : pas de repli), PUIS classement
     // par ADÉQUATION (fit) — la popularité ne départage que des produits équivalents.
     const sl = selectByFit(relevantPool(survivors, profile, cat !== "traitement"), profile, 3);
@@ -91,7 +90,7 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
   //    hydratant (et non une shortlist commune de 3) → 3 options garanties de chaque
   //    côté. Partition jour/nuit par `moment`/`night` (donnée catalogue). ──
   {
-    const survivors = hardFilter(byCat.hydratant ?? [], profile, constraints, perProductCap);
+    const survivors = hardFilter(byCat.hydratant ?? [], profile, constraints);
     // La crème = HYDRATATION adaptée au TYPE DE PEAU (texture), PAS un soin ciblé : un besoin
     // (rougeur, etc.) se traite via le sérum/soin, pas via la crème. Donc le type de peau est
     // un FILTRE DUR ici — sinon une crème oil-free (grasse) ciblant la rougeur atterrissait sur
@@ -133,7 +132,7 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
     }
   }
 
-  // ── Étape 6 : réconciliation budget + irritation (swaps). ──
+  // ── Étape 6 : réconciliation irritation (swaps). ──
   const { picks: reconciled, swaps, totals } = reconcile(picks, profile);
 
   // ── Étape 7 : structure FIXE — Matin: nettoyant·sérum·crème jour·spf /
@@ -195,7 +194,7 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
       strongCount--;
     } else if (inSl === -1) {
       const cat = SOFTEN_CAT[k];
-      const gentlePool = hardFilter(byCat[cat] ?? [], profile, constraints, perProductCap)
+      const gentlePool = hardFilter(byCat[cat] ?? [], profile, constraints)
         .filter((p) => (p.irritationCost ?? 0) < 2 && !usedNums.has(p.num));
       const best = selectByFit(gentlePool, profile, 1)[0];
       if (best) {

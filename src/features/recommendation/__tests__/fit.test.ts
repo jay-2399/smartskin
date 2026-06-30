@@ -23,7 +23,7 @@ function profile(over: Partial<EngineProfile> = {}): EngineProfile {
     skinType: "mixte", sensitive: false, bucket: "normale", phase: 3, concerns: [],
     needs: {}, strengthCeiling: 3,
     pregnant: false, breastfeeding: false, medicalConditions: [],
-    budgetTier: "gt100", budget: "no_limit", freeText: "",
+    freeText: "",
     ...over,
   };
 }

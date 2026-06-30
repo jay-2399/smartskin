@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { buildEngineProfile, normalizeSkinType, enveloppe } from "@/features/recommendation/profile";
+import { buildEngineProfile, normalizeSkinType } from "@/features/recommendation/profile";
 import { ATTRIBUTES } from "@/features/analysis/attributes";
 import { EMPTY_ANSWERS } from "@/features/funnel/types";
 import type { AnalysisResult } from "@/features/analysis/schema";
@@ -31,27 +31,13 @@ describe("normalizeSkinType", () => {
   });
 });
 
-describe("enveloppe (budget palier → plafond Σ prix)", () => {
-  it("paliers bornés = borne haute de la tranche (budget total routine)", () => {
-    expect(enveloppe("lt30")).toBe(30);
-    expect(enveloppe("30-60")).toBe(60);
-    expect(enveloppe("60-100")).toBe(100);
-  });
-  it("gt100 = no_limit ; pas de réponse = no_limit", () => {
-    expect(enveloppe("gt100")).toBe("no_limit");
-    expect(enveloppe(null)).toBe("no_limit");
-  });
-});
-
 describe("buildEngineProfile", () => {
-  it("dérive concerns (ordonnés, niveau ≥3 pour les produits), pregnant (q7), budget (q6), skinType", () => {
-    const p = buildEngineProfile(result({ acne: 3, pores: 3 }), ans({ q7: ["pregnancy"], q6: "lt30" }));
+  it("dérive concerns (ordonnés, niveau ≥3 pour les produits), pregnant (q7), skinType", () => {
+    const p = buildEngineProfile(result({ acne: 3, pores: 3 }), ans({ q7: ["pregnancy"] }));
     expect(p.concerns[0]).toBe("acne");
     expect(p.concerns).toContain("pores");
     expect(p.pregnant).toBe(true);
     expect(p.breastfeeding).toBe(true);
-    expect(p.budgetTier).toBe("lt30");
-    expect(p.budget).toBe(30);
     expect(p.skinType).toBe("mixte");
   });
 
@@ -65,11 +51,6 @@ describe("buildEngineProfile", () => {
     const p = buildEngineProfile(result({}, "Grasse sensible"), ans());
     expect(p.skinType).toBe("grasse");
     expect(p.sensitive).toBe(true);
-  });
-
-  it("gt100 → budget no_limit", () => {
-    const p = buildEngineProfile(result(), ans({ q6: "gt100" }));
-    expect(p.budget).toBe("no_limit");
   });
 
   it("un signal LÉGER (niveau 2) ne devient PAS un concern produit (seuil ≥3)", () => {

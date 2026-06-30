@@ -22,7 +22,7 @@ Le **type de peau** vient de l'analyse photo (`skinType`). Les **besoins** vienn
 ## Comment un produit est choisi, pour chaque étape (4 temps)
 
 ### 1. Sécurité — on élimine d'abord (filtre dur, jamais contournable)
-On écarte d'office : grossesse / allaitement (produits non sûrs), peau sensible (produits non sûrs sensible), actif que l'utilisateur a déclaré mal tolérer (q2), produit trop irritant pour la tolérance de la peau, hors budget, produit noté « négatif » pour ce type de peau.
+On écarte d'office : grossesse / allaitement (produits non sûrs), peau sensible (produits non sûrs sensible), actif que l'utilisateur a déclaré mal tolérer (q2), produit trop irritant pour la tolérance de la peau, produit noté « négatif » pour ce type de peau. *(Plus aucun filtre prix : le budget a été retiré du produit.)*
 
 ### 2. Éligibilité — « ce produit a-t-il un sens pour CETTE personne ? »
 La condition d'entrée dépend de l'étape :
@@ -51,14 +51,14 @@ Entre des produits **également adaptés** (même niveau d'adéquation), on pren
 ### 5. L'IA tranche (si clé Anthropic présente)
 Sur la shortlist, **Claude** lit les **vrais avis clients** (`customers_say` + `aspects` : ex. « 26 mentions irritation ») et choisit le meilleur pour cette peau (drapeaux d'irritation pour une peau sensible…) + écrit le « pourquoi ». Sans clé → on garde le classement déterministe (étape 3-4), qui est déjà bon.
 
-### 6. Budget
-Si la routine dépasse l'enveloppe (q6), on échange des produits chers contre des moins chers de la même shortlist.
+### 6. Réconciliation irritation (sécurité)
+Plus aucun arbitrage de prix (le budget n'existe plus). On vérifie seulement que la **charge d'irritation cumulée** de la routine reste sous la tolérance de la peau ; si elle déborde, on échange le produit le plus irritant contre l'alternative plus douce de sa shortlist. Le prix reste affiché à titre **informatif**, jamais filtrant.
 
 ---
 
 ## En une phrase
 
-> **Sécurité → on garde ce qui est ADAPTÉ (type de peau pour les bases, besoin pour les ciblés) → on classe par ADÉQUATION → la popularité départage → l'IA tranche avec les vrais avis → on ajuste au budget.**
+> **Sécurité → on garde ce qui est ADAPTÉ (type de peau pour les bases, besoin pour les ciblés) → on classe par ADÉQUATION → la popularité départage → l'IA tranche avec les vrais avis → on vérifie la charge d'irritation.**
 
 ---
 
