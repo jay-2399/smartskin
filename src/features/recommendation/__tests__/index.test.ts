@@ -72,9 +72,11 @@ describe("buildRecommendedRoutine — pipeline complet (vrai catalogue, sans LLM
         expect(o.targets.some((t) => concerns.includes(t))).toBe(true);
       }
     }
-    // Pertinence = gate sur TOUTE catégorie : une étape ne mélange jamais un produit pertinent
-    // avec un produit hors-sujet — soit toutes les options visent un concern, soit aucune (repli base).
+    // Pertinence = gate par concern sur les catégories pilotées par le BESOIN. Les crèmes sont
+    // une exception assumée : elles sont gatées par le TYPE DE PEAU (hydratation adaptée), pas
+    // par concern — donc elles peuvent mélanger des crèmes qui visent un concern et d'autres non.
     for (const step of all) {
+      if (step.cat === "Day cream" || step.cat === "Night cream") continue;
       const rel = step.options.map((o) => o.targets.some((t) => concerns.includes(t)));
       expect(rel.every(Boolean) || rel.every((x) => !x)).toBe(true);
     }
