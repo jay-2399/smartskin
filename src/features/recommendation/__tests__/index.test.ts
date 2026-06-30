@@ -36,14 +36,25 @@ describe("buildRecommendedRoutine — pipeline complet (vrai catalogue, sans LLM
     }
   });
 
-  it("structure FIXE : toujours 4 matin + 5 soir = 9 étapes, quel que soit le profil", async () => {
-    for (const ov of [{}, { acne: 3, shine: 2 }, { redness: 3, flaking: 2 }, { fine_lines: 3, dark_spots: 2 }]) {
-      const { routine } = await buildRecommendedRoutine(result(ov), ans({ q6: "gt100" }));
-      expect(routine.day).toHaveLength(4);
-      expect(routine.night).toHaveLength(5);
-      expect(routine.productCount).toBe(9);
-    }
+  it("acné → garde l'ENTRETIEN (sérum/exfoliant/masque) + ajoute un soin ciblé acné", async () => {
+    const { routine } = await buildRecommendedRoutine(result({ acne: 3, shine: 2 }), ans({ q6: "gt100" }));
+    const cats = [...routine.day, ...routine.night].map((s) => s.cat);
+    expect(cats).toEqual(expect.arrayContaining(["Cleanser", "Serum", "Day cream", "Protection", "Exfoliant", "Night cream", "Mask"]));
+    expect(cats).toContain("Treatment"); // soin ciblé acné présent
+    expect(routine.day).toHaveLength(4);
+    expect(routine.night).toHaveLength(5);
   });
+
+  it("peau nette (0 concern) → GARDE l'entretien (sérum/exfoliant/masque) mais AUCUN soin ciblé", async () => {
+    const { routine } = await buildRecommendedRoutine(result(), ans({ q6: "gt100" }));
+    const cats = [...routine.day, ...routine.night].map((s) => s.cat);
+    // entretien complet conservé (gestes utiles pour toute peau)
+    expect(cats).toEqual(expect.arrayContaining(["Cleanser", "Serum", "Day cream", "Protection", "Exfoliant", "Night cream", "Mask"]));
+    // mais PAS de soin ciblé problème (plus de gel/patch anti-acné sur une peau sans souci)
+    expect(cats).not.toContain("Treatment");
+    expect(cats).not.toContain("Targeted care");
+  });
+
 
   it("le soir ne re-propose pas le nettoyant du matin ; aucune carte « Contour des yeux »", async () => {
     const { routine } = await buildRecommendedRoutine(result({ acne: 3, under_eye_circles: 2 }), ans({ q6: "60-100" }));

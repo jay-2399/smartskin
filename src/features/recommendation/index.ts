@@ -4,7 +4,7 @@ import type { RoutineData, RestockItem } from "@/features/routine/products";
 import { loadCatalog, catalogByCategory, type CatalogProduct, type Category } from "./catalog";
 import { buildEngineProfile, type EngineProfile } from "./profile";
 import { buildConstraints, type Constraints } from "./medical-guard";
-import { hardFilter, shortlist, planCategories, nightActiveCategories, splitCreams, reconcile, type Swap, type Totals } from "./engine";
+import { hardFilter, shortlist, planCategories, splitCreams, reconcile, type Swap, type Totals } from "./engine";
 import { openaiConfigured, pickAndExplain } from "./llm-choice";
 import { toRoutineData, CAT_ICON } from "./to-routine-data";
 
@@ -104,17 +104,32 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
   //    Soir: démaquillant·soin traitant·bonus·crème nuit·masque. Les 2 slots actifs
   //    du soir suivent le profil, avec repli si la catégorie visée est vide. ──
   const has = (k: string) => (reconciled[k]?.length ?? 0) > 0;
-  const [soinPref, bonusPref] = nightActiveCategories(profile);
-  const FALLBACK = ["traitement", "exfoliant", "soin_cible"];
-  const pickActive = (prefer: string, exclude: string | null): string | null => {
-    for (const c of [prefer, ...FALLBACK]) if (c !== exclude && has(c)) return c;
-    return null;
+  // Le SOCLE + l'ENTRETIEN (nettoyant, sérum, crèmes, SPF, démaquillant, EXFOLIANT,
+  // MASQUE) sont là pour TOUT LE MONDE — ce sont de bons gestes quelle que soit la peau.
+  // SEUL le soin CIBLÉ (traitement anti-acné / soin_cible anti-taches…) est conditionnel :
+  // on ne l'ajoute que si un concern appelle un VRAI traitement (pas pores/grain, gérés par
+  // l'exfoliant) ET que le produit retenu vise réellement un concern (sinon on l'omet →
+  // fini le patch anti-acné collé sur une peau sèche ou un gel acné sur une peau nette).
+  // Seuls ces concerns appellent un VRAI soin ciblé. Pores/grain/brillance = gérés par
+  // l'exfoliant (déjà là) ; sécheresse = gérée par l'hydratation du socle (sérum + crèmes).
+  const TREAT_CAT: Record<string, "traitement" | "soin_cible"> = {
+    acne: "traitement", comedones: "traitement", fine_lines: "traitement", wrinkles: "traitement",
+    post_acne_marks: "soin_cible", dark_spots: "soin_cible", tone_evenness: "soin_cible", redness: "soin_cible",
   };
-  const soinKey = pickActive(soinPref, null);
-  const bonusKey = pickActive(bonusPref, soinKey);
+  const treatConcern = profile.concerns.find((c) => c in TREAT_CAT);
+  let soinKey: string | null = treatConcern && has(TREAT_CAT[treatConcern]) ? TREAT_CAT[treatConcern] : null;
+  if (soinKey) {
+    // Garde-fou pertinence : on PROMEUT le 1er produit de la shortlist qui vise vraiment un
+    // concern ; si AUCUN ne matche, on n'ajoute pas de soin ciblé (mieux que coller un
+    // produit hors-sujet, ex. patch anti-acné sur une autre peau).
+    const opts = reconciled[soinKey] ?? [];
+    const idx = opts.findIndex((p) => p.targets.some((t) => profile.concerns.includes(t)));
+    if (idx === -1) soinKey = null;
+    else if (idx > 0) reconciled[soinKey] = [opts[idx], ...opts.slice(0, idx), ...opts.slice(idx + 1)];
+  }
 
   const dayKeys = ["nettoyant", "serum", "hydratant_jour", "spf"].filter(has);
-  const nightKeys = ["démaquillant", soinKey, bonusKey, "hydratant_nuit", "masque"]
+  const nightKeys = ["démaquillant", soinKey, "exfoliant", "hydratant_nuit", "masque"]
     .filter((k): k is string => !!k && has(k));
   const routine = toRoutineData({ dayKeys, nightKeys, picks: reconciled, profile, llmWhy });
 
