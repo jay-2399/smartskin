@@ -37,11 +37,16 @@ export function fitScore(p: CatalogProduct, profile: EngineProfile): number {
   // Garde-fou douceur : tout dépassement du plafond de tolérance est lourdement pénalisé.
   const overCeiling = strength > profile.strengthCeiling ? -(strength - profile.strengthCeiling) * 3 : 0;
 
-  // 3) TYPE DE PEAU + 4) PREUVE (adéquation/qualité, pas popularité).
+  // 3) TYPE DE PEAU — fort : le produit est-il fait POUR ce type de peau (champ skinTypes) ?
+  //    Quand skinTypes est resserré (ex. crèmes : 1 seul type), ça départage vraiment —
+  //    un gel pour peau grasse ne remonte plus sur une peau sèche. Bonus appuyé (3) pour
+  //    passer DEVANT la popularité ; complété par byProfile (nuance positive/caution).
+  const typeMatch = (p.skinTypes ?? []).includes(profile.skinType) ? 1 : 0;
   const skinFit = BP_FIT[p.couche3?.byProfile?.[profile.skinType] ?? "unknown"] ?? 0;
+  // 4) PREUVE (qualité, pas popularité).
   const evidence = (p.evidenceLevel ?? 1) / 5; // 0.2 → 1
 
-  return 5 * coverage + 1.5 * mismatch + overCeiling + skinFit + evidence;
+  return 5 * coverage + 1.5 * mismatch + overCeiling + 3 * typeMatch + skinFit + evidence;
 }
 
 /** Popularité (avis × volume), NORMALISÉE 0-1. Sert UNIQUEMENT de départage. */
