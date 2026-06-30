@@ -381,8 +381,10 @@
 .gauge-track { position:absolute; left:0; right:0; top:29px; height:5px; border-radius:100px;
   background:linear-gradient(to right, var(--green) 0%, #EBAE3C 50%, #E15C53 100%); }
 .gauge.good-high .gauge-track { background:linear-gradient(to right, #E15C53 0%, #EBAE3C 50%, var(--green) 100%); }
-.gauge-knob { position:absolute; top:31.5px; left:var(--p); width:7.5px; height:25px; border-radius:100px; background:var(--ink); transform:translate(-50%,-50%); box-shadow:0 2px 7px rgba(26,29,33,0.42); animation:gKnob 1.1s cubic-bezier(.22,1,.36,1) both .25s; }
-@keyframes gKnob { from{left:0;} to{left:var(--p);} }
+/* `left` clampé : à --p:0 (absence) le curseur se cale RAS du bord gauche du rail
+   (sa demi-largeur, ~4px) au lieu de déborder ; idem côté droit. */
+.gauge-knob { position:absolute; top:31.5px; left:clamp(4px, var(--p), calc(100% - 4px)); width:7.5px; height:25px; border-radius:100px; background:var(--ink); transform:translate(-50%,-50%); box-shadow:0 2px 7px rgba(26,29,33,0.42); animation:gKnob 1.1s cubic-bezier(.22,1,.36,1) both .25s; }
+@keyframes gKnob { from{left:4px;} to{left:clamp(4px, var(--p), calc(100% - 4px));} }
 .gauge-ends { display:flex; justify-content:space-between; margin-top:9px; }
 .ge { font-family:var(--fm); font-size:8px; color:var(--steel); letter-spacing:0.03em; }
 .ge.hi { color:var(--graphite); }

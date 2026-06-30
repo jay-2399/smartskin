@@ -62,5 +62,6 @@ export const ATTRIBUTE_BY_ID = Object.fromEntries(ATTRIBUTES.map((a) => [a.id, a
 export const CARNATION_SWATCHES = ["#F6E0CE", "#EECBA6", "#DFAE84", "#C5895A", "#9B6440", "#5E3A25"];
 export const UNDERTONE_SWATCHES = ["#E4B3B0", "#E8C496", "#DEBDA0", "#C7BB8E"];
 
-// Mapping niveau (1..4) → position de la jauge (%) et classe, repris de la maquette
-export const LEVEL_TO_PERCENT: Record<number, number> = { 1: 6, 2: 30, 3: 53, 4: 76 };
+// Mapping niveau (1..4) → position de la jauge (%). Niveau 1 = absent → curseur
+// COLLÉ tout à gauche (0%, le rail le cale proprement sans déborder). 2-4 ensuite.
+export const LEVEL_TO_PERCENT: Record<number, number> = { 1: 0, 2: 30, 3: 53, 4: 76 };
