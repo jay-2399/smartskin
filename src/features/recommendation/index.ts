@@ -92,9 +92,14 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
   //    côté. Partition jour/nuit par `moment`/`night` (donnée catalogue). ──
   {
     const survivors = hardFilter(byCat.hydratant ?? [], profile, constraints, perProductCap);
-    let { day, night } = splitCreams(relevantPool(survivors, profile, true));
-    // Garde-fou : une crème jour ET une crème nuit sont toujours dues → si le gate vide un
-    // côté (aucune crème pertinente le jour ou la nuit), on le recomplète depuis le vivier adapté.
+    // La crème = HYDRATATION adaptée au TYPE DE PEAU (texture), PAS un soin ciblé : un besoin
+    // (rougeur, etc.) se traite via le sérum/soin, pas via la crème. Donc le type de peau est
+    // un FILTRE DUR ici — sinon une crème oil-free (grasse) ciblant la rougeur atterrissait sur
+    // une peau sèche déshydratée. selectByFit classe ensuite À L'INTÉRIEUR du bon type.
+    const sameType = survivors.filter((p) => (p.skinTypes ?? []).includes(profile.skinType));
+    let { day, night } = splitCreams(sameType.length ? sameType : survivors);
+    // Garde-fou : une crème jour ET une crème nuit sont toujours dues → si un côté est vide
+    // (type de peau sous-doté), on le recomplète depuis le vivier adapté.
     if (!day.length || !night.length) {
       const full = splitCreams(survivors);
       if (!day.length) day = full.day;

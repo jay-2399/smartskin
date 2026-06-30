@@ -97,7 +97,7 @@ export function buildPrompt(answers: Answers): string {
     "SCORE: an overall 0-100 score that MUST reflect your grades — lots of level 3-4 = low score; clear skin = high score. Also give state (e.g. \"Good overall condition\") and sub (an honest summary sentence).",
     "",
     "SKIN AGE & TYPE:",
-    "- skinAge: skin age ESTIMATED from the photo only (skin quality/condition), in whole years (e.g. 26). It's a cautious estimate, not a measurement, and not the person's real age.",
+    "- skinAge: skin age ESTIMATED from the photo only (skin quality/condition), in whole years (e.g. 26). It's a cautious estimate, not a measurement, and not the person's real age. This field is REQUIRED — ALWAYS return a whole number between 10 and 100; never omit it or leave it null. If the photo is hard to read (mask, lighting), still give your best cautious estimate.",
     "- skinTypeBreakdown: a short per-zone breakdown clarifying the skinType (e.g. \"oily T-zone · normal cheeks\", \"overall dry face\", \"reactive on the cheeks\").",
     "",
     "VERDICT (expert read) — the core value: you REASON like a dermatologist, you don't list. Fill `verdict`:",
