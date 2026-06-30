@@ -223,12 +223,14 @@
 .intro-scene { position:relative; width:100%; max-width:344px; display:flex; flex-direction:column; align-items:center; margin-top:26px; opacity:0; transform:translateY(12px); transition:opacity .55s ease, transform .55s ease; }
 .intro-scene.show { opacity:1; transform:none; }
 .scene-face-wrap { position:relative; width:132px; height:132px; }
-/* La rotation est portée par l'élément <svg> lui-même (centre fiable sur tous les
-   navigateurs), PAS par le <circle> : sur iOS Safari, faire tourner une forme SVG
-   via transform-origin la décentre (elle « orbite »). */
-.scene-ring { position:absolute; inset:-9px; transform-origin:center; animation:sceneSpin 16s linear infinite; }
-.scene-ring circle { fill:none; stroke:rgba(127,166,190,0.5); stroke-width:1.2; stroke-dasharray:3 6; }
-@keyframes sceneSpin { to{ transform:rotate(360deg); } }
+/* AUCUNE rotation d'élément : sur iOS Safari, transform-origin sur un <svg> est résolu
+   en unités de viewBox (0-100) et non en px → le centre de rotation tombe à côté et
+   l'anneau « orbite » autour de la photo (décentré). On laisse donc l'anneau STATIQUE
+   et on fait défiler les tirets via stroke-dashoffset : même effet animé, centre parfait
+   sur tous les navigateurs (rien ne bouge, seuls les tirets avancent). */
+.scene-ring { position:absolute; inset:-9px; }
+.scene-ring circle { fill:none; stroke:rgba(127,166,190,0.5); stroke-width:1.2; stroke-dasharray:3 6; animation:sceneDash .5s linear infinite; }
+@keyframes sceneDash { to{ stroke-dashoffset:-9; } }
 .scene-face { position:absolute; inset:0; border-radius:50%; overflow:hidden; background:var(--cloud);
   box-shadow:0 6px 20px rgba(0,0,0,0.18), 0 2px 5px rgba(0,0,0,0.1), inset 0 0 0 1px rgba(255,255,255,0.5); }
 .scene-face img { width:100%; height:100%; object-fit:cover; object-position:center 20%; }
@@ -275,12 +277,17 @@
 /* ── écran de génération (transition vers le protocole) ── */
 .gen { position:absolute; inset:0; z-index:59; background:var(--bg); overflow:hidden; opacity:0; pointer-events:none; transition:opacity .5s ease; }
 .gen.show { opacity:1; pointer-events:auto; }
-.gen-stack { position:absolute; top:360px; left:0; right:0; display:flex; flex-direction:column; align-items:center; padding:0 50px; }
-.gen-ring { width:54px; height:54px; border-radius:50%; border:3px solid rgba(127,166,190,0.25); border-top-color:var(--accent-d); animation:introSpin .7s linear infinite; }
-.gen-ring.done { border-color:var(--keep); border-top-color:var(--keep); animation:none; }
-.gen-title { margin-top:24px; text-align:center; font-weight:800; font-size:21px; letter-spacing:-0.035em; color:var(--ink); }
-.gen-bar { width:100%; max-width:230px; height:3px; border-radius:100px; background:rgba(26,29,33,0.08); overflow:hidden; margin-top:22px; }
-.gen-bar i { display:block; height:100%; width:0; border-radius:100px; background:linear-gradient(90deg,var(--accent),var(--accent-d)); }
+.gen-stack { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:0 50px; }
+.gen-ring { width:64px; height:64px; border-radius:50%; border:3px solid rgba(127,166,190,0.22); border-top-color:var(--accent-d); animation:introSpin .7s linear infinite; display:flex; align-items:center; justify-content:center; color:#fff; }
+.gen-ring .gen-check { width:30px; height:30px; display:flex; opacity:0; transform:scale(.4); transition:opacity .3s ease .08s, transform .42s cubic-bezier(.34,1.56,.64,1) .08s; }
+.gen-ring .gen-check svg { width:100%; height:100%; }
+.gen-ring.done { border:none; background:var(--keep); box-shadow:0 8px 24px rgba(58,143,111,0.38); animation:genPop .5s cubic-bezier(.34,1.56,.64,1) both; }
+.gen-ring.done .gen-check { opacity:1; transform:none; }
+@keyframes genPop { 0%{ transform:scale(.7);} 60%{ transform:scale(1.08);} 100%{ transform:scale(1);} }
+.gen-title { margin-top:26px; text-align:center; font-weight:800; font-size:22px; letter-spacing:-0.035em; color:var(--ink); transition:color .35s ease; }
+.gen-bar { width:100%; max-width:220px; height:4px; border-radius:100px; background:rgba(26,29,33,0.07); overflow:hidden; margin-top:24px; }
+.gen-bar i { display:block; height:100%; width:0; border-radius:100px; background:linear-gradient(90deg,var(--accent),var(--accent-d)); transition:width 1.5s cubic-bezier(.4,0,.2,1), background .4s ease; }
+.gen-ring.done ~ .gen-bar i { background:var(--keep); }
 
 /* ── screen Protocole (ordonnance) — overlay scrollable ── */
 .protocol { position:absolute; inset:0; z-index:58; background:var(--bg); overflow-y:auto; scrollbar-width:none; opacity:0; pointer-events:none; transition:opacity .55s ease; }
