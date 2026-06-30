@@ -64,10 +64,13 @@ export function levelOf(result: AnalysisResult, id: string): number {
   return result.attributes.find((a) => a.id === id)?.level ?? 1;
 }
 
-/** Préoccupations (niveau ≥ 2) triées des plus importantes aux moins. */
-export function topConcerns(result: AnalysisResult): string[] {
+/** Préoccupations détectées, triées des plus importantes aux moins. `minLevel` =
+ *  sévérité minimale retenue : 2 (léger) pour l'AFFICHAGE du bilan, mais 3 (modéré)
+ *  pour le CHOIX DES PRODUITS — on ne pousse un actif ciblé que si le souci est
+ *  vraiment là (évite un anti-taches sur une peau quasi nette notée « léger »). */
+export function topConcerns(result: AnalysisResult, minLevel = 2): string[] {
   return result.attributes
-    .filter((a) => a.level >= 2)
+    .filter((a) => a.level >= minLevel)
     .sort((a, b) => (IMPORTANCE[b.id] ?? 1) * b.level - (IMPORTANCE[a.id] ?? 1) * a.level)
     .map((a) => a.id);
 }

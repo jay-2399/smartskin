@@ -86,7 +86,9 @@ export function buildEngineProfile(result: AnalysisResult, answers: Answers): En
     sensitive: bucket === "sensible" || bucket === "fragile" || reactiveStr,
     bucket,
     phase: derivePhase(answers),
-    concerns: mergeConcerns(answers.q1, topConcerns(result)),
+    // Seuil ≥ 3 (modéré) pour le CHOIX PRODUITS : un signal « léger » (niveau 2) ne
+    // déclenche pas d'actif ciblé. Les priorités déclarées (q1) restent prioritaires.
+    concerns: mergeConcerns(answers.q1, topConcerns(result, 3)),
     pregnant: answers.q7.includes("pregnancy"),
     breastfeeding: answers.q7.includes("pregnancy"), // q7 couvre « Grossesse / allaitement »
     medicalConditions: answers.q7.filter((v) => v === "condition" || v === "treatment"),

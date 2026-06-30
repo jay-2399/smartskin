@@ -59,6 +59,8 @@ export function buildPrompt(answers: Answers): string {
     "",
     "STEP 2 — THEN grade each attribute from 1 (ideal/absent) to 4 (severe), based on your observations. Use EXACTLY these identifiers for attributes[].id, per this grid:",
     "CALIBRATION (decisive — be discriminating): level 1 is the DEFAULT. Only raise an attribute above 1 when the sign is genuinely visible; clear, healthy skin MUST get mostly 1s and a HIGH score. Do NOT pad: don't assume everyone is oily or blemish-prone. Distinguish real excess sebum from a simple light reflection, and real pimples from normal pores/texture. Two genuinely different faces (e.g. clear skin vs acne-prone skin) MUST end up with clearly different grades, skinType and score — never a one-size-fits-all assessment.",
+    "DO NOT INVENT (critical): when you are not CLEARLY certain a sign is present, grade it 1. It is far better to UNDER-report than to invent a problem the person does not have. On clearly healthy, even skin it is normal and EXPECTED that 12-16 of the 16 attributes are level 1 — do not manufacture concerns to look thorough. Only grade an attribute >1 if you could literally point to where it is on the photo.",
+    "PIGMENT — be especially strict: natural freckles, a normal even complexion, an existing tan, makeup, or a lighting shadow are NOT dark_spots / post_acne_marks / uneven tone. Grade dark_spots, post_acne_marks or tone_evenness above 1 ONLY if there are clearly defined darker marks or patches you can point to — otherwise 1.",
     "",
     "Blemishes:",
     "- acne — 1=clear skin · 2=a few comedones or 1-3 small localized pimples · 3=several inflammatory pimples on ≥1 zone · 4=many inflammatory or widespread pimples.",

@@ -44,8 +44,8 @@ describe("enveloppe (budget palier → plafond Σ prix)", () => {
 });
 
 describe("buildEngineProfile", () => {
-  it("dérive concerns (ordonnés), pregnant (q7), budget (q6), skinType normalisé", () => {
-    const p = buildEngineProfile(result({ acne: 3, pores: 2 }), ans({ q7: ["pregnancy"], q6: "lt30" }));
+  it("dérive concerns (ordonnés, niveau ≥3 pour les produits), pregnant (q7), budget (q6), skinType", () => {
+    const p = buildEngineProfile(result({ acne: 3, pores: 3 }), ans({ q7: ["pregnancy"], q6: "lt30" }));
     expect(p.concerns[0]).toBe("acne");
     expect(p.concerns).toContain("pores");
     expect(p.pregnant).toBe(true);
@@ -70,6 +70,12 @@ describe("buildEngineProfile", () => {
   it("gt100 → budget no_limit", () => {
     const p = buildEngineProfile(result(), ans({ q6: "gt100" }));
     expect(p.budget).toBe("no_limit");
+  });
+
+  it("un signal LÉGER (niveau 2) ne devient PAS un concern produit (seuil ≥3)", () => {
+    // peau quasi nette notée « léger » sur dark_spots → aucun actif ciblé déclenché
+    const p = buildEngineProfile(result({ dark_spots: 2, redness: 2 }), ans());
+    expect(p.concerns).toHaveLength(0);
   });
 
   it("les priorités déclarées (q1) passent EN TÊTE des concerns, même non détectées par l'IA", () => {
