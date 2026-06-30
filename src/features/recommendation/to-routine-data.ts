@@ -72,17 +72,21 @@ function stepMeta(key: string): { cat: string; icon: IconKey; use: string } {
   return { cat: CAT_LABEL[c], icon: CAT_ICON[c], use: CAT_USE[c] };
 }
 
+// Clé d'enum (FR, côté moteur) → libellé peau en anglais pour le texte affiché.
+const SKINTYPE_LABEL: Record<string, string> = {
+  mixte: "combination", grasse: "oily", seche: "dry", normale: "normal", sensible: "sensitive",
+};
+
 /** « pourquoi » déterministe, HONNÊTE : ne cite une préoccupation que si elle est
- *  dans le bilan. Sert de repli (sans LLM) et pour les alternatives du deck. */
+ *  dans le bilan. Sert de repli (sans LLM) et pour les alternatives du deck.
+ *  100% anglais : on n'y injecte AUCUNE donnée catalogue brute (note couche3 = FR). */
 export function templateWhy(p: CatalogProduct, profile: EngineProfile): string {
   const hit = profile.concerns.find((c) => p.targets.includes(c));
   const phrase = hit ? CONCERN_PHRASE[hit] : null;
-  const raw = p.couche3?.note?.trim();
-  const note = raw ? ` ${raw.charAt(0).toUpperCase()}${raw.slice(1)}.` : "";
-  const head = phrase
+  const skin = SKINTYPE_LABEL[profile.skinType] ?? profile.skinType;
+  return phrase
     ? `Recommended for <b>${phrase}</b> thanks to <b>${p.keyActives}</b>.`
-    : `A foundation step suited to your ${profile.skinType} skin, with no harsh active.`;
-  return `${head}${note}`;
+    : `A gentle foundation step suited to your <b>${skin}</b> skin.`;
 }
 
 /** Met une majuscule à la 1ʳᵉ lettre visible, même si elle ouvre une balise (ex.

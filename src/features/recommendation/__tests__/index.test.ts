@@ -1,5 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { buildRecommendedRoutine } from "@/features/recommendation";
+import { buildEngineProfile } from "@/features/recommendation/profile";
 import { loadCatalog } from "@/features/recommendation/catalog";
 import { ATTRIBUTES } from "@/features/analysis/attributes";
 import { EMPTY_ANSWERS } from "@/features/funnel/types";
@@ -56,6 +57,28 @@ describe("buildRecommendedRoutine — pipeline complet (vrai catalogue, sans LLM
     expect(cats).not.toContain("Targeted care");
   });
 
+
+  it("slot ciblé (Treatment) : CHAQUE produit affiché traite un vrai concern (jamais de hors-sujet)", async () => {
+    // Peau ROUGE (pas de taches) : le slot ciblé ne doit JAMAIS afficher un sérum anti-taches,
+    // même en alternative bien notée. Tout produit du slot doit viser un concern du profil.
+    const r = result({ redness: 3 });
+    const a = ans({ q6: "gt100" });
+    const { routine } = await buildRecommendedRoutine(r, a);
+    const concerns = buildEngineProfile(r, a).concerns;
+    const all = [...routine.day, ...routine.night];
+    // Slot ciblé : 100% pertinent, jamais de produit hors-sujet (même en alternative).
+    for (const step of all.filter((s) => s.cat === "Treatment" || s.cat === "Targeted care")) {
+      for (const o of step.options) {
+        expect(o.targets.some((t) => concerns.includes(t))).toBe(true);
+      }
+    }
+    // Pertinence = gate sur TOUTE catégorie : une étape ne mélange jamais un produit pertinent
+    // avec un produit hors-sujet — soit toutes les options visent un concern, soit aucune (repli base).
+    for (const step of all) {
+      const rel = step.options.map((o) => o.targets.some((t) => concerns.includes(t)));
+      expect(rel.every(Boolean) || rel.every((x) => !x)).toBe(true);
+    }
+  });
 
   it("le soir ne re-propose pas le nettoyant du matin ; aucune carte « Contour des yeux »", async () => {
     const { routine } = await buildRecommendedRoutine(result({ acne: 3, under_eye_circles: 2 }), ans({ q6: "60-100" }));
@@ -117,6 +140,15 @@ describe("buildRecommendedRoutine — pipeline complet (vrai catalogue, sans LLM
     const chosenStrong = [...routine.day, ...routine.night].filter((s) => (irr.get(s.options[0].name) ?? 0) >= 2);
     expect(chosenStrong.length).toBeLessThanOrEqual(2);
     expect(strong.length).toBeGreaterThan(0); // il reste bien des actifs (pas tout adouci)
+  });
+
+  it("peau NETTE (aucun concern) → que de l'entretien DOUX : aucun actif fort (irritation ≥ 2)", async () => {
+    // Un produit n'a pas à viser un besoin pour être pertinent — mais sur une peau sans
+    // concern, on ne propose QUE du doux (pas de BHA/acne pad fort type Stridex).
+    const irr = new Map(loadCatalog().map((p) => [p.name, p.irritationCost ?? 0]));
+    const { routine } = await buildRecommendedRoutine(result(), ans({ q6: "gt100" }));
+    const strong = allOptions(routine).map((o) => o.name).filter((n) => (irr.get(n) ?? 0) >= 2);
+    expect(strong).toEqual([]);
   });
 
   it("peau sans préoccupation → routine de base + diagnostic « Peau équilibrée »", async () => {

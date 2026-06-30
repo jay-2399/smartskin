@@ -39,6 +39,27 @@ function withPregnancyTopUp(
   return [...pool, ...borrowed];
 }
 
+const STRONG_IRRITATION = 2; // irritationCost ≥ 2 = actif fort/médicamenteux (cohérent avec STRONG_CAP)
+
+/* PERTINENCE par rapport au PROFIL = condition d'entrée (sine qua non), pas un bonus de score.
+   La pertinence a DEUX dimensions (un produit n'a pas à viser un besoin pour être pertinent) :
+     1. BESOIN — il traite un concern réel de l'utilisateur (priorité absolue) ; OU
+     2. ENTRETIEN — pour une peau SANS concern dans cette catégorie, un bon produit de base
+        DOUX adapté au type de peau (un actif fort/médicamenteux n'a rien à faire sur une peau
+        nette : il vise un problème absent).
+   Les avis/preuve/sentiment (scoreProduct) ne CLASSENT que ce qui est déjà pertinent — jamais
+   pour remonter un produit populaire mais inutile. Vaut pour TOUTE catégorie.
+   `allowBase=false` (soin ciblé) : pas de besoin → pas de produit (aucun repli). */
+function relevantPool(survivors: CatalogProduct[], profile: EngineProfile, allowBase: boolean): CatalogProduct[] {
+  // 1) Pertinence par BESOIN — le produit vise un concern réel.
+  const onConcern = survivors.filter((p) => p.targets.some((t) => profile.concerns.includes(t)));
+  if (onConcern.length) return onConcern;
+  if (!allowBase) return []; // soin ciblé sans besoin → rien
+  // 2) Étape de BASE, peau sans concern → entretien DOUX (les actifs forts sont hors-sujet ici).
+  const gentle = survivors.filter((p) => (p.irritationCost ?? 0) < STRONG_IRRITATION);
+  return gentle.length ? gentle : survivors; // jamais vider une étape de base
+}
+
 export async function buildRecommendedRoutine(result: AnalysisResult, answers: Answers, options: { useLlm?: boolean } = {}): Promise<RecommendationResult> {
   const profile = buildEngineProfile(result, answers);
   const constraints: Constraints = buildConstraints(profile);
@@ -56,7 +77,8 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
     let pool = byCat[cat] ?? [];
     if (cat === "traitement") pool = withPregnancyTopUp(pool, byCat, profile, usedNums);
     const survivors = hardFilter(pool, profile, constraints, perProductCap);
-    const sl = shortlist(survivors, profile, 3);
+    // Gate pertinence : base (repli toléré) sauf le soin ciblé (traitement) qui ne se replie pas.
+    const sl = shortlist(relevantPool(survivors, profile, cat !== "traitement"), profile, 3);
     if (sl.length) {
       picks[cat] = sl;
       usedNums.add(sl[0].num);
@@ -68,7 +90,14 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
   //    côté. Partition jour/nuit par `moment`/`night` (donnée catalogue). ──
   {
     const survivors = hardFilter(byCat.hydratant ?? [], profile, constraints, perProductCap);
-    const { day, night } = splitCreams(survivors);
+    let { day, night } = splitCreams(relevantPool(survivors, profile, true));
+    // Garde-fou : une crème jour ET une crème nuit sont toujours dues → si le gate vide un
+    // côté (aucune crème pertinente le jour ou la nuit), on le recomplète depuis le vivier adapté.
+    if (!day.length || !night.length) {
+      const full = splitCreams(survivors);
+      if (!day.length) day = full.day;
+      if (!night.length) night = full.night;
+    }
     const jour = shortlist(day, profile, 3);
     const dayNum = jour[0]?.num;
     const nuit = shortlist(night.filter((p) => p.num !== dayNum), profile, 3); // nuit ≠ jour
@@ -121,13 +150,16 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
   const treatConcern = profile.concerns.find((c) => TREATABLE.has(c));
   let soinKey: string | null = treatConcern && has("traitement") ? "traitement" : null;
   if (soinKey) {
-    // Garde-fou pertinence : on PROMEUT le 1er produit de la shortlist qui vise vraiment un
-    // concern ; si AUCUN ne matche, on n'ajoute pas de soin ciblé (mieux que coller un
-    // produit hors-sujet, ex. un rétinoïde générique sur une peau qui veut juste les taches).
-    const opts = reconciled.traitement ?? [];
-    const idx = opts.findIndex((p) => p.targets.some((t) => profile.concerns.includes(t)));
-    if (idx === -1) soinKey = null;
-    else if (idx > 0) reconciled.traitement = [opts[idx], ...opts.slice(0, idx), ...opts.slice(idx + 1)];
+    // Garde-fou pertinence (TOUTES les options, pas seulement la #1) : un slot « Treatment »
+    // est CIBLÉ — chaque produit affiché DOIT traiter un concern que l'utilisateur a vraiment.
+    // Le scoring récompense la pertinence mais ne l'exige pas (un sérum hors-sujet très bien
+    // noté pouvait remplir une alternative). On ne garde donc QUE les produits on-concern,
+    // dans leur ordre de score. Aucun → pas de soin ciblé (mieux qu'un produit hors-sujet).
+    const relevant = (reconciled.traitement ?? []).filter((p) =>
+      p.targets.some((t) => profile.concerns.includes(t))
+    );
+    if (relevant.length === 0) soinKey = null;
+    else reconciled.traitement = relevant;
   }
 
   const dayKeys = ["nettoyant", "serum", "hydratant_jour", "spf"].filter(has);
