@@ -3,7 +3,7 @@
    keyframes renommées coRise/coShine (rise existe déjà dans funnel.css).
    Tokens mockup → SmartSkin : --keep/--gold/--glass/--smoke/--steel inlinés. */
 
-.checkout { width:100%; max-width:480px; margin:0 auto; min-height:100dvh; background:var(--bg); overflow:hidden; display:flex; flex-direction:column; }
+.checkout { width:100%; max-width:480px; margin:0 auto; min-height:100dvh; background:#FF00FF; overflow:hidden; display:flex; flex-direction:column; }
 .checkout .co-scroll { flex:1; overflow-y:auto; scrollbar-width:none; display:flex; flex-direction:column; overscroll-behavior-y:none; }
 .checkout .co-scroll::-webkit-scrollbar { display:none; }
 
