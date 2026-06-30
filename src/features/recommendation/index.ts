@@ -133,6 +133,40 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
   const dayKeys = ["nettoyant", "serum", "hydratant_jour", "spf"].filter(has);
   const nightKeys = ["démaquillant", soinKey, "exfoliant", "hydratant_nuit", "masque"]
     .filter((k): k is string => !!k && has(k));
+
+  // ── Plafond d'ACTIFS FORTS (irritation ≥ 2) : max 2 par routine. Un derm n'empile
+  //    pas 3-4 acides (azélaïque + salicylique + AHA/BHA + peel) sur une même peau —
+  //    surtout marquée → sur-exfoliation = irritation. On adoucit les surplus en
+  //    promouvant l'option la plus douce de leur shortlist. Ordre de protection :
+  //    traitement > exfoliant > sérum > masque (donc on adoucit le masque en 1er). ──
+  const STRONG_CAP = 2;
+  const irrOf = (k: string) => reconciled[k]?.[0]?.irritationCost ?? 0;
+  const SOFTEN_CAT: Record<string, Category> = { masque: "masque", serum: "serum", exfoliant: "exfoliant" };
+  if (soinKey) SOFTEN_CAT[soinKey] = "traitement";
+  let strongCount = [...dayKeys, ...nightKeys].filter((k) => irrOf(k) >= 2).length;
+  for (const k of ["masque", "serum", "exfoliant", soinKey ?? ""]) {
+    if (strongCount <= STRONG_CAP) break;
+    if (!k || irrOf(k) < 2) continue;
+    const opts = reconciled[k] ?? [];
+    // 1) une option douce dans la shortlist ? sinon 2) le meilleur produit DOUX de TOUTE
+    //    la catégorie (les masques/exfoliants doux n'entrent pas dans le top-3 « concern »).
+    const inSl = opts.findIndex((p) => (p.irritationCost ?? 0) < 2);
+    if (inSl > 0) {
+      reconciled[k] = [opts[inSl], ...opts.slice(0, inSl), ...opts.slice(inSl + 1)];
+      strongCount--;
+    } else if (inSl === -1) {
+      const cat = SOFTEN_CAT[k];
+      const gentlePool = hardFilter(byCat[cat] ?? [], profile, constraints, perProductCap)
+        .filter((p) => (p.irritationCost ?? 0) < 2 && !usedNums.has(p.num));
+      const best = shortlist(gentlePool, profile, 1)[0];
+      if (best) {
+        reconciled[k] = [best, ...opts].slice(0, 3); // garde ≤3 options/étape
+        usedNums.add(best.num);
+        strongCount--;
+      }
+    }
+  }
+
   const routine = toRoutineData({ dayKeys, nightKeys, picks: reconciled, profile, llmWhy });
 
   // Restock : pour chaque étape, le produit choisi (option[0]) avec sa contenance et

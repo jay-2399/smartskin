@@ -1,5 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { buildRecommendedRoutine } from "@/features/recommendation";
+import { loadCatalog } from "@/features/recommendation/catalog";
 import { ATTRIBUTES } from "@/features/analysis/attributes";
 import { EMPTY_ANSWERS } from "@/features/funnel/types";
 import type { AnalysisResult } from "@/features/analysis/schema";
@@ -102,6 +103,20 @@ describe("buildRecommendedRoutine — pipeline complet (vrai catalogue, sans LLM
   it("traitement dermato (q7) → avertissement d'orientation médecin", async () => {
     const { avertissements } = await buildRecommendedRoutine(result({ acne: 3 }), ans({ q7: ["treatment"] }));
     expect(avertissements.length).toBeGreaterThan(0);
+  });
+
+  it("plafond actifs forts : jamais plus de 2 produits irritation≥2 (anti sur-exfoliation)", async () => {
+    const irr = new Map(loadCatalog().map((p) => [p.name, p.irritationCost ?? 0]));
+    // profil très chargé qui pousserait à empiler acides/rétinoïdes
+    const { routine } = await buildRecommendedRoutine(
+      result({ acne: 3, post_acne_marks: 3, dark_spots: 3, texture: 3, fine_lines: 3 }, "Oily"),
+      ans({ q6: "gt100" })
+    );
+    const strong = allOptions(routine).map((o) => o.name).filter((n) => (irr.get(n) ?? 0) >= 2);
+    // au plus 2 produits forts EN TÊTE de chaque étape (les options[0] retenues)
+    const chosenStrong = [...routine.day, ...routine.night].filter((s) => (irr.get(s.options[0].name) ?? 0) >= 2);
+    expect(chosenStrong.length).toBeLessThanOrEqual(2);
+    expect(strong.length).toBeGreaterThan(0); // il reste bien des actifs (pas tout adouci)
   });
 
   it("peau sans préoccupation → routine de base + diagnostic « Peau équilibrée »", async () => {
