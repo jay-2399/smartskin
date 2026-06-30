@@ -223,8 +223,11 @@
 .intro-scene { position:relative; width:100%; max-width:344px; display:flex; flex-direction:column; align-items:center; margin-top:26px; opacity:0; transform:translateY(12px); transition:opacity .55s ease, transform .55s ease; }
 .intro-scene.show { opacity:1; transform:none; }
 .scene-face-wrap { position:relative; width:132px; height:132px; }
-.scene-ring { position:absolute; inset:-9px; }
-.scene-ring circle { fill:none; stroke:rgba(127,166,190,0.5); stroke-width:1.2; stroke-dasharray:3 6; transform-box:fill-box; transform-origin:center; animation:sceneSpin 16s linear infinite; }
+/* La rotation est portée par l'élément <svg> lui-même (centre fiable sur tous les
+   navigateurs), PAS par le <circle> : sur iOS Safari, faire tourner une forme SVG
+   via transform-origin la décentre (elle « orbite »). */
+.scene-ring { position:absolute; inset:-9px; transform-origin:center; animation:sceneSpin 16s linear infinite; }
+.scene-ring circle { fill:none; stroke:rgba(127,166,190,0.5); stroke-width:1.2; stroke-dasharray:3 6; }
 @keyframes sceneSpin { to{ transform:rotate(360deg); } }
 .scene-face { position:absolute; inset:0; border-radius:50%; overflow:hidden; background:var(--cloud);
   box-shadow:0 6px 20px rgba(0,0,0,0.18), 0 2px 5px rgba(0,0,0,0.1), inset 0 0 0 1px rgba(255,255,255,0.5); }
