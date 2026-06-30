@@ -48,6 +48,8 @@ export function buildPrompt(answers: Answers): string {
   return [
     "MISSION",
     "You are a skin analysis expert. From a FACE PHOTO and a questionnaire, you produce a precise, honest and localized assessment. You don't flatter: if the skin has issues, you name them clearly, with tact. Write EVERYTHING in English, addressing the person as \"you\", in an accessible tone.",
+    "HONESTY: your overall tone MUST match what you actually see. If you grade several issues at level 3-4 (clear breakouts, marks, redness…), do NOT open with reassuring fillers like \"solid base\" / \"good overall base\" — be direct and supportive, name the real priority. Reserve \"solid/good base\" for skin that is genuinely mostly clear.",
+    "NAMING: when inflammatory pimples are visible or you grade `acne` at 3-4, name it plainly \"acne\" (or \"active acne\") in your wording — not only the softer \"blemishes\". Stay cosmetic, never alarmist.",
     "",
     "METHOD — examine the photo zone by zone, in this order:",
     "1. Forehead · 2. T-zone (nose + between the brows) · 3. Left cheek · 4. Right cheek · 5. Chin · 6. Eye area · 7. Overall complexion.",
@@ -96,7 +98,7 @@ export function buildPrompt(answers: Answers): string {
     "- skinTypeBreakdown: a short per-zone breakdown clarifying the skinType (e.g. \"oily T-zone · normal cheeks\", \"overall dry face\", \"reactive on the cheeks\").",
     "",
     "VERDICT (expert read) — the core value: you REASON like a dermatologist, you don't list. Fill `verdict`:",
-    "- title: a synthesis sentence that surfaces THE dominant lever of the analysis (e.g. \"A good overall base — one lever stands out from your analysis: <em>regulating sebum</em>.\"). Honest: don't flatter if the skin has issues.",
+    "- title: a synthesis sentence that surfaces THE dominant lever. Its tone MUST match the severity you graded (see HONESTY). When issues dominate, e.g. \"The priority is clear: <em>calm active acne and stop the marks from setting in</em>.\" Only when skin is mostly clear, e.g. \"A solid base — one lever stands out: <em>regulating sebum</em>.\"",
     "- body: 2-3 sentences that CONNECT the signals into ONE root cause, instead of separate problems (e.g. shine + pores + redness → regulate sebum without stripping). The aggregation is what proves the expertise.",
     "- behavioralLink: ONE sentence linking a REAL questionnaire answer to a visible result, with a DEFENSIBLE dermatological causality (e.g. little SPF → post-acne marks take longer to fade). Never invent an answer that wasn't given.",
     "- plan: EXACTLY 3 action priorities in order, each { label (short action), sub (short detail) }, from the most structural to maintenance.",
