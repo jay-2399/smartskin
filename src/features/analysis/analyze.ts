@@ -1,5 +1,6 @@
 import type { AnalysisResult } from "./schema";
 import { SAMPLE_RESULT } from "./sample";
+import { anthropicConfigured, analyzeWithAnthropic } from "./anthropic";
 import { openaiConfigured, analyzeWithOpenAI } from "./openai";
 import { geminiConfigured, analyzeWithGemini } from "./gemini";
 import { computeScore, scoreState } from "./score";
@@ -12,10 +13,11 @@ function withComputedScore(r: AnalysisResult): AnalysisResult {
   return { ...r, score, state: scoreState(score) };
 }
 
-export type Provider = "openai" | "gemini" | "demo";
+export type Provider = "anthropic" | "openai" | "gemini" | "demo";
 
-/** Fournisseur actif selon les clés présentes (OpenAI prioritaire). */
+/** Fournisseur actif selon les clés présentes (Anthropic prioritaire). */
 export function activeProvider(): Provider {
+  if (anthropicConfigured()) return "anthropic";
   if (openaiConfigured()) return "openai";
   if (geminiConfigured()) return "gemini";
   return "demo";
@@ -28,6 +30,8 @@ export async function analyzePhoto(
   answers: Answers
 ): Promise<AnalysisResult> {
   switch (activeProvider()) {
+    case "anthropic":
+      return withComputedScore(await analyzeWithAnthropic(imageJpeg, answers));
     case "openai":
       return withComputedScore(await analyzeWithOpenAI(imageJpeg, answers));
     case "gemini":

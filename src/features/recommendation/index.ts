@@ -5,7 +5,7 @@ import { loadCatalog, catalogByCategory, type CatalogProduct, type Category } fr
 import { buildEngineProfile, type EngineProfile } from "./profile";
 import { buildConstraints, type Constraints } from "./medical-guard";
 import { hardFilter, shortlist, planCategories, splitCreams, reconcile, type Swap, type Totals } from "./engine";
-import { openaiConfigured, pickAndExplain } from "./llm-choice";
+import { llmConfigured, pickAndExplain } from "./llm-choice";
 import { toRoutineData, CAT_ICON } from "./to-routine-data";
 
 /* Orchestrateur du moteur de reco (contrat §7bis). Enchaîne :
@@ -80,7 +80,7 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
   //    `useLlm:false` (dashboard) → on saute l'IA : rendu instantané (le dashboard
   //    n'affiche pas les textes « pourquoi », inutile d'attendre ~40 s). ──
   const llmWhy = new Map<number, string>();
-  if (options.useLlm !== false && openaiConfigured()) {
+  if (options.useLlm !== false && llmConfigured()) {
     try {
       const choices = await pickAndExplain(picks, profile);
       for (const [cat, choice] of choices) {

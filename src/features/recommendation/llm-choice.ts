@@ -1,4 +1,5 @@
 import OpenAI from "openai";
+import Anthropic from "@anthropic-ai/sdk";
 import { z } from "zod";
 import { CONCERN_PHRASE } from "@/features/routine/actives";
 import type { CatalogProduct } from "./catalog";
@@ -13,10 +14,48 @@ const frConcern = (id: string): string => CONCERN_PHRASE[id] ?? id;
    Garde-fous : num hors shortlist → ignoré (repli déterministe côté orchestrateur).
    Cf. docs/moteur-reco-implementation.md §4 Étape 5 / §6. */
 
-const MODEL = "gpt-5.5";
+// Texte seul (pas d'image) → Sonnet 4.6 suffit (2× moins cher qu'Opus, rapide).
+const ANTHROPIC_MODEL = "claude-sonnet-4-6";
+const OPENAI_MODEL = "gpt-5.5";
 
-export function openaiConfigured(): boolean {
-  return !!process.env.OPENAI_API_KEY;
+function anthropicConfigured(): boolean {
+  return !!process.env.ANTHROPIC_API_KEY;
+}
+
+/** True si un LLM est dispo pour le « pourquoi » (Anthropic prioritaire, sinon OpenAI).
+ *  Faux → l'orchestrateur garde le top-score déterministe (sans texte « pourquoi »). */
+export function llmConfigured(): boolean {
+  return anthropicConfigured() || !!process.env.OPENAI_API_KEY;
+}
+
+/** Extrait l'objet JSON d'une réponse (tolère ```json … ``` ou du texte autour). */
+function extractJson(text: string): string {
+  const fenced = text.match(/```(?:json)?\s*([\s\S]*?)```/);
+  const body = fenced ? fenced[1] : text;
+  const start = body.indexOf("{");
+  const end = body.lastIndexOf("}");
+  return start >= 0 && end > start ? body.slice(start, end + 1) : body;
+}
+
+/** Un appel LLM texte → JSON brut. Anthropic (Sonnet 4.6) si clé présente, sinon OpenAI. */
+async function callLlm(prompt: string): Promise<string> {
+  if (anthropicConfigured()) {
+    const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+    const response = await client.messages.create({
+      model: ANTHROPIC_MODEL,
+      max_tokens: 4000,
+      messages: [{ role: "user", content: prompt }],
+    });
+    const block = response.content.find((b) => b.type === "text");
+    return block?.type === "text" ? block.text : "{}";
+  }
+  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+  const response = await client.chat.completions.create({
+    model: OPENAI_MODEL,
+    response_format: { type: "json_object" },
+    messages: [{ role: "user", content: prompt }],
+  });
+  return response.choices[0]?.message?.content ?? "{}";
 }
 
 export interface LlmChoice {
@@ -85,16 +124,8 @@ export async function pickAndExplain(
   shortlists: Record<string, CatalogProduct[]>,
   profile: EngineProfile
 ): Promise<Map<string, LlmChoice>> {
-  const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-  const response = await client.chat.completions.create({
-    model: MODEL,
-    // Pas de `temperature` : gpt-5.x n'accepte que la valeur par défaut (un override
-    // → 400 « unsupported_value », l'appel échouait silencieusement et retombait sur le repli).
-    response_format: { type: "json_object" },
-    messages: [{ role: "user", content: buildPrompt(shortlists, profile) }],
-  });
-  const raw = response.choices[0]?.message?.content ?? "{}";
-  const parsed = ResponseSchema.parse(JSON.parse(raw));
+  const raw = await callLlm(buildPrompt(shortlists, profile));
+  const parsed = ResponseSchema.parse(JSON.parse(extractJson(raw)));
 
   const byCategory = new Map<string, LlmChoice>();
   for (const c of parsed.choix) {
