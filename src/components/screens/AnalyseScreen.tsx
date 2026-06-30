@@ -20,7 +20,10 @@ const STAGES: { at: number; msg: string }[] = [
   { at: 65, msg: "Assessing sensitive areas…" },
   { at: 82, msg: "Compiling your diagnosis…" },
 ];
-const EXPECTED_MS = 26000; // latence typique gpt-5.5 (la barre s'y cale, sans jamais coller à 100)
+// Constante de temps du remplissage : la barre avance EN CONTINU (creep asymptotique)
+// vers ~97 % sans jamais se figer, même si l'IA met plus longtemps que prévu (~40 s).
+// Elle ne saute à 100 % que lorsque le résultat arrive réellement.
+const FILL_TAU_MS = 14000;
 
 function stageFor(pct: number): string {
   let m = STAGES[0].msg;
@@ -115,8 +118,9 @@ export function AnalyseScreen() {
         const k = Math.min((ts - w.doneAt) / 700, 1); // remontée vers 100 sur 700 ms
         value = pctAtDone + (100 - pctAtDone) * k;
       } else {
-        const p = Math.min((ts - w.t0) / EXPECTED_MS, 1);
-        value = (1 - Math.pow(1 - p, 2.4)) * 90; // ease-out plafonné à 90 % tant que l'IA répond
+        // Creep continu : 97·(1−e^(−t/τ)). Toujours croissant → jamais figé, et plafonne
+        // doucement sous 100 tant que l'IA n'a pas répondu (le 100 vient via w.doneAt).
+        value = 97 * (1 - Math.exp(-(ts - w.t0) / FILL_TAU_MS));
       }
       last = value;
 
