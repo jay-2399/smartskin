@@ -24,6 +24,7 @@ function prod(over: Partial<CatalogProduct> = {}): CatalogProduct {
 function profile(over: Partial<EngineProfile> = {}): EngineProfile {
   return {
     skinType: "mixte", sensitive: false, bucket: "normale", phase: 3, concerns: [],
+    needs: {}, strengthCeiling: 3,
     pregnant: false, breastfeeding: false, medicalConditions: [],
     budgetTier: "30-60", budget: 80, freeText: "",
     ...over,

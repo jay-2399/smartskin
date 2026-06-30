@@ -4,7 +4,8 @@ import type { RoutineData, RestockItem } from "@/features/routine/products";
 import { loadCatalog, catalogByCategory, type CatalogProduct, type Category } from "./catalog";
 import { buildEngineProfile, type EngineProfile } from "./profile";
 import { buildConstraints, type Constraints } from "./medical-guard";
-import { hardFilter, shortlist, planCategories, splitCreams, reconcile, type Swap, type Totals } from "./engine";
+import { hardFilter, planCategories, splitCreams, reconcile, type Swap, type Totals } from "./engine";
+import { selectByFit } from "./fit";
 import { llmConfigured, pickAndExplain } from "./llm-choice";
 import { toRoutineData, CAT_ICON } from "./to-routine-data";
 
@@ -77,8 +78,9 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
     let pool = byCat[cat] ?? [];
     if (cat === "traitement") pool = withPregnancyTopUp(pool, byCat, profile, usedNums);
     const survivors = hardFilter(pool, profile, constraints, perProductCap);
-    // Gate pertinence : base (repli toléré) sauf le soin ciblé (traitement) qui ne se replie pas.
-    const sl = shortlist(relevantPool(survivors, profile, cat !== "traitement"), profile, 3);
+    // Gate pertinence (base : repli toléré ; soin ciblé : pas de repli), PUIS classement
+    // par ADÉQUATION (fit) — la popularité ne départage que des produits équivalents.
+    const sl = selectByFit(relevantPool(survivors, profile, cat !== "traitement"), profile, 3);
     if (sl.length) {
       picks[cat] = sl;
       usedNums.add(sl[0].num);
@@ -98,9 +100,9 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
       if (!day.length) day = full.day;
       if (!night.length) night = full.night;
     }
-    const jour = shortlist(day, profile, 3);
+    const jour = selectByFit(day, profile, 3);
     const dayNum = jour[0]?.num;
-    const nuit = shortlist(night.filter((p) => p.num !== dayNum), profile, 3); // nuit ≠ jour
+    const nuit = selectByFit(night.filter((p) => p.num !== dayNum), profile, 3); // nuit ≠ jour
     if (jour.length) { picks.hydratant_jour = jour; usedNums.add(jour[0].num); }
     if (nuit.length) { picks.hydratant_nuit = nuit; usedNums.add(nuit[0].num); }
   }
@@ -190,7 +192,7 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
       const cat = SOFTEN_CAT[k];
       const gentlePool = hardFilter(byCat[cat] ?? [], profile, constraints, perProductCap)
         .filter((p) => (p.irritationCost ?? 0) < 2 && !usedNums.has(p.num));
-      const best = shortlist(gentlePool, profile, 1)[0];
+      const best = selectByFit(gentlePool, profile, 1)[0];
       if (best) {
         reconciled[k] = [best, ...opts].slice(0, 3); // garde ≤3 options/étape
         usedNums.add(best.num);

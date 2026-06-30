@@ -76,11 +76,13 @@ function lighten(p: CatalogProduct, skinType: string) {
     marque: p.brand,
     prix: p.price,
     actif_cle: p.keyActives,
+    force: p.activeStrength ?? 1, // 1 doux → 4 fort : à confronter au plafond de tolérance
     traite: p.targets.map(frConcern),
     irritation: p.irritationCost,
     avis_pour_ta_peau: p.couche3?.byProfile?.[skinType as keyof NonNullable<typeof p.couche3>["byProfile"]] ?? "unknown",
     synthese: p.couche3?.note ?? "",
     avis_clients: (p.couche3?.customers_say ?? "").slice(0, 400),
+    aspects: p.couche3?.aspects ?? {}, // classification des avis : { "Dark spot reduction": "147", "Skin irritation": "26" }
   };
 }
 
@@ -88,13 +90,24 @@ function buildPrompt(shortlists: Record<string, CatalogProduct[]>, profile: Engi
   const cat = Object.fromEntries(
     Object.entries(shortlists).map(([c, list]) => [c, list.map((p) => lighten(p, profile.skinType))])
   );
+  const needsLine = Object.entries(profile.needs)
+    .map(([id, lvl]) => `${frConcern(id)} (${lvl === 4 ? "marked" : lvl === 3 ? "moderate" : "light"})`)
+    .join(", ") || "none (healthy skin)";
   return [
-    "You help finalize a skincare routine. For EACH category, choose the BEST product",
+    "You help finalize a skincare routine. For EACH category, choose the BEST-MATCHED product",
     "AMONG the candidates provided (only — never invent a product or a `num` outside the list).",
-    "Safety and relevance are already checked: you judge the match quality + the reviews.",
+    "Safety is already filtered. Your job is the FIT to THIS skin — popularity comes LAST.",
     "",
-    `Profile: skin type = ${profile.skinType}${profile.sensitive ? " (sensitive)" : ""};`,
-    `priority concerns (use these exact labels) = ${profile.concerns.map(frConcern).join(", ") || "none"}.`,
+    `Profile: skin type = ${profile.skinType}${profile.sensitive ? " (sensitive)" : ""}.`,
+    `Graded needs (what to treat, AND how much) = ${needsLine}.`,
+    `Strength ceiling = ${profile.strengthCeiling}/4 — NEVER pick a product whose \`force\` exceeds it (too strong for this skin).`,
+    "",
+    "HOW TO CHOOSE (in this order):",
+    "  1) NEED FIT — it addresses a real graded need; match its `force` to the need's severity, capped by the ceiling.",
+    "  2) RISK CHECK — read `aspects` (review classification) and `avis_clients`: a high `Skin irritation`/`Fragrance` count",
+    "     is a RED FLAG for a sensitive skin; favor what customers report working FOR a skin like this one.",
+    "  3) Only THEN, between equally-fitting products, prefer the better-reviewed one.",
+    "Never let a popular product win if it fits the skin worse.",
     "",
     "For each chosen product, write a SHORT, PUNCHY « why », quick to read:",
     "MAXIMUM 200 characters (aim 150-180), 1 to 2 brief sentences, in English, addressing the user as \"you\". In 2 beats:",
@@ -104,8 +117,8 @@ function buildPrompt(shortlists: Record<string, CatalogProduct[]>, profile: Engi
     "the HTML is rendered) the cited concern AND the key active.",
     "",
     "STYLE RULE: write ONLY in natural English, for a customer. NEVER use",
-    "technical field names (acne, comedones, targets, byProfile, avis_pour_ta_peau,",
-    "avis_clients…). To name a concern, reuse EXACTLY the labels provided",
+    "technical field names (acne, comedones, targets, byProfile, force, aspects,",
+    "avis_pour_ta_peau, avis_clients…). To name a concern, reuse EXACTLY the labels provided",
     "(« your blemishes », « your blackheads »…), never the raw identifier.",
     "It's a beauty ASSESSMENT, NOT medical advice: no promise of cure, no medical",
     "vocabulary (pathology, treatment, prescription) — stay cosmetic and honest. Don't praise for a",

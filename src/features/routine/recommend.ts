@@ -49,7 +49,7 @@ const ROLE_ORDER: Record<string, number> = {
 };
 
 // Importance d'un attribut pour prioriser les préoccupations (aligné au barème).
-const IMPORTANCE: Record<string, number> = {
+export const IMPORTANCE: Record<string, number> = {
   acne: 3, redness: 3, dark_spots: 3,
   comedones: 2, pores: 2, post_acne_marks: 2, texture: 2, shine: 2, tone_evenness: 2, radiance: 2,
   flaking: 1, visible_vessels: 1, fine_lines: 1, wrinkles: 1, under_eye_circles: 1, under_eye_puffiness: 1,
