@@ -180,7 +180,7 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
   <div class="gen" id="protoGen">
     <div class="intro-bg"></div>
     <div class="gen-stack">
-      <div class="gen-ring" id="genRing"></div>
+      <div class="gen-ring" id="genRing"><span class="gen-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span></div>
       <p class="gen-title" id="genTitle">Assembling your protocol…</p>
       <div class="gen-bar"><i id="genFill"></i></div>
     </div>
@@ -331,10 +331,10 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     const ring = byId("genRing")!;
     const title = byId("genTitle")!;
     const fill = byId("genFill")!;
-    ring.classList.remove("done"); title.textContent = "On assemble ton protocole…";
+    ring.classList.remove("done"); title.textContent = "Assembling your protocol…";
     fill.style.transition = "none"; fill.style.width = "0";
     gen.classList.add("show");
-    requestAnimationFrame(() => { fill.style.transition = "width 1.5s cubic-bezier(.4,0,.2,1)"; fill.style.width = "100%"; });
+    requestAnimationFrame(() => { fill.style.transition = "width 1.5s cubic-bezier(.4,0,.2,1), background .4s ease"; fill.style.width = "100%"; });
     setT(() => { ring.classList.add("done"); title.textContent = "Your protocol is ready."; }, 1550);
     setT(() => { renderProtocol(); gen.classList.remove("show"); }, 2250);
   }
