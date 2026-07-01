@@ -34,11 +34,11 @@ export function CheckoutScreen() {
     // Démo → on saute le paiement. Sinon → session Stripe Checkout puis redirection
     // vers la page de paiement hébergée par Stripe.
     if (demo) { router.push("/routine?demo=1"); return; }
-    // On met le bilan + la photo de côté AVANT de partir sur Stripe : au retour (création
-    // de compte), la mémoire est vide → on réhydrate depuis là pour afficher la routine
-    // ET le médaillon avec la vraie photo.
+    // On met le bilan + la photo + la routine déjà construite (/preparation) de côté
+    // AVANT de partir sur Stripe : au retour (création de compte), la mémoire est vide
+    // → on réhydrate depuis là → deck direct, médaillon avec la vraie photo.
     const result = useResult.getState().result;
-    if (result) await stashPendingScan(result, useFunnel.getState().answers, useResult.getState().photo);
+    if (result) await stashPendingScan(result, useFunnel.getState().answers, useResult.getState().photo, useResult.getState().preparedReco);
     setLoading(true);
     try {
       const res = await fetch("/api/checkout", { method: "POST" });

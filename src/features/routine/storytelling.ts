@@ -37,6 +37,8 @@ export interface InitOptions {
   // Charge la routine de façon ASYNCHRONE : l'intro joue PENDANT le chargement (~40 s),
   // puis le deck se révèle dès que la donnée arrive → plus d'écran de chargement séparé.
   load?: () => Promise<RoutinePayload>;
+  // Routine déjà construite AVANT le paywall (/preparation) → pas d'intro, deck direct.
+  skipIntro?: boolean;
 }
 
 export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => void {
@@ -139,7 +141,7 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
     </div>
     <div class="tray-note"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7l4-4M9 3H6.6M9 3v2.4"/><path d="M9 7.2V9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h1.8"/></svg>Affiliate links to brands</div>
   </div>
-  <div class="intro" id="intro">
+  ${opts.skipIntro ? "" : `<div class="intro" id="intro">
     <div class="intro-bg"></div>
     <div class="intro-grain"></div>
     <div class="intro-stack">
@@ -168,7 +170,7 @@ export function initRoutine(root: HTMLElement, opts: InitOptions = {}): () => vo
       <div class="intro-status"><span class="intro-spin" id="introSpin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span id="introStatus">…</span></div>
       <div class="intro-count" id="introCount"><span class="num" id="introNum">0</span><small id="introLabel"></small></div>
     </div>
-  </div>
+  </div>`}
   <div class="phase" id="phaseShift">
     <div class="intro-bg"></div>
     <div class="phase-stack">

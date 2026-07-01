@@ -44,9 +44,10 @@ export function PaywallB() {
   const unlock = async () => {
     posthog.capture("paywall_cta_clicked", { variant: "B" });
     if (demo) { router.push("/routine?demo=1"); return; }
-    // Bilan + photo mis de côté avant Stripe (réhydratés au retour, après création de compte).
+    // Bilan + photo + routine déjà construite mis de côté avant Stripe (réhydratés au
+    // retour, après création de compte → deck direct).
     const result = useResult.getState().result;
-    if (result) await stashPendingScan(result, useFunnel.getState().answers, useResult.getState().photo);
+    if (result) await stashPendingScan(result, useFunnel.getState().answers, useResult.getState().photo, useResult.getState().preparedReco);
     setLoading(true);
     try {
       const res = await fetch("/api/checkout", { method: "POST" });

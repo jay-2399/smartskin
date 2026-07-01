@@ -1,16 +1,19 @@
 import type { AnalysisResult } from "./schema";
+import type { PreparedReco } from "./resultStore";
 import type { Answers } from "@/features/funnel/types";
 
 /* Le bilan à mettre de côté AVANT le départ vers Stripe (le paiement + la connexion
    Google quittent le site → la mémoire est vidée). On le réhydrate au retour sur /routine.
    La photo est une donnée sensible et n'est JAMAIS envoyée au serveur ni mise en base :
    ici elle transite seulement par le sessionStorage du navigateur (même onglet, effacé
-   juste après affichage). Le bilan (léger) est écrit EN PREMIER et de façon fiable ; la
-   photo (lourde) est ajoutée en best-effort → si elle dépasse le quota, le bilan survit. */
+   juste après affichage). Le bilan + la reco préparée (légers) sont écrits EN PREMIER et
+   de façon fiable ; la photo (lourde) est ajoutée en best-effort → si elle dépasse le
+   quota, le reste survit. `reco` = la routine construite par /preparation → au retour,
+   le deck s'affiche sans refaire les ~40 s de calcul. */
 
 const KEY = "smartskin-pending-scan";
 
-type Stored = { result: AnalysisResult; answers: Answers; photo?: string | null };
+type Stored = { result: AnalysisResult; answers: Answers; photo?: string | null; reco?: PreparedReco | null };
 
 function blobToDataUrl(blob: Blob): Promise<string> {
   return new Promise((resolve, reject) => {
@@ -34,10 +37,16 @@ function dataUrlToBlob(dataUrl: string): Blob | null {
   }
 }
 
-export async function stashPendingScan(result: AnalysisResult, answers: Answers, photo: Blob | null): Promise<void> {
-  // 1) Le bilan seul, fiable (petit) → garantit la réhydratation même sans photo.
+export async function stashPendingScan(
+  result: AnalysisResult,
+  answers: Answers,
+  photo: Blob | null,
+  reco: PreparedReco | null = null
+): Promise<void> {
+  // 1) Bilan + reco préparée, fiables (petits) → garantit la réhydratation même sans photo.
+  const base: Stored = reco ? { result, answers, reco } : { result, answers };
   try {
-    sessionStorage.setItem(KEY, JSON.stringify({ result, answers } satisfies Stored));
+    sessionStorage.setItem(KEY, JSON.stringify(base));
   } catch {
     return; // sessionStorage indispo → tant pis
   }
@@ -45,7 +54,7 @@ export async function stashPendingScan(result: AnalysisResult, answers: Answers,
   if (!photo) return;
   try {
     const photoDataUrl = await blobToDataUrl(photo);
-    sessionStorage.setItem(KEY, JSON.stringify({ result, answers, photo: photoDataUrl } satisfies Stored));
+    sessionStorage.setItem(KEY, JSON.stringify({ ...base, photo: photoDataUrl } satisfies Stored));
   } catch {
     /* photo trop lourde / lecture échouée → on garde le bilan sans photo (médaillon générique) */
   }
@@ -55,15 +64,16 @@ export function readPendingScan(): {
   result: AnalysisResult;
   answers: Answers;
   photo: Blob | null; // pour le médaillon (URL.createObjectURL)
-  photoDataUrl: string | null; // pour l'upload vers /api/scan (Supabase Storage)
+  photoDataUrl: string | null; // pour l'upload vers /api/scan
+  reco: PreparedReco | null; // routine déjà construite par /preparation
 } | null {
   try {
     const raw = sessionStorage.getItem(KEY);
     if (!raw) return null;
-    const { result, answers, photo } = JSON.parse(raw) as Stored;
+    const { result, answers, photo, reco } = JSON.parse(raw) as Stored;
     if (!result) return null;
     const photoDataUrl = typeof photo === "string" ? photo : null;
-    return { result, answers, photo: photoDataUrl ? dataUrlToBlob(photoDataUrl) : null, photoDataUrl };
+    return { result, answers, photo: photoDataUrl ? dataUrlToBlob(photoDataUrl) : null, photoDataUrl, reco: reco ?? null };
   } catch {
     return null;
   }

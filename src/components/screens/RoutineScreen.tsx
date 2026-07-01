@@ -1,20 +1,13 @@
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
-import { useResult } from "@/features/analysis/resultStore";
+import { useResult, type PreparedReco } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
 import { SAMPLE_RESULT } from "@/features/analysis/sample";
 import { readPendingScan, clearPendingScan } from "@/features/analysis/pendingScan";
 import { EMPTY_ANSWERS } from "@/features/funnel/types";
 import { initRoutine } from "@/features/routine/storytelling";
-import type { RoutineData } from "@/features/routine/products";
 import "./routine-v2.css";
-
-type Reco = {
-  routine: RoutineData;
-  totaux: { prix: number; irritation: number };
-  avertissements: string[];
-};
 
 /* Routine v2 — expérience « storytelling » (intro → deck de swipe jour→soir →
    protocole). La routine PERSONNALISÉE est construite CÔTÉ SERVEUR (/api/routine,
@@ -26,6 +19,7 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
   const rootRef = useRef<HTMLDivElement>(null);
   const stored = useResult((s) => s.result);
   const photo = useResult((s) => s.photo);
+  const prepared = useResult((s) => s.preparedReco); // routine déjà construite par /preparation
   const answers = useFunnel((s) => s.answers);
   const [rehydrated, setRehydrated] = useState(false);
   const result = stored ?? (demo ? SAMPLE_RESULT : null);
@@ -42,6 +36,7 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
     const pending = readPendingScan();
     if (pending) {
       useResult.getState().set(pending.result, pending.photo);
+      if (pending.reco) useResult.getState().setPreparedReco(pending.reco); // routine déjà construite → deck direct
       if (pending.answers) useFunnel.setState({ answers: pending.answers });
       clearPendingScan();
       void fetch("/api/scan", {
@@ -80,16 +75,21 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
         router.push("/dashboard");
       },
       faceUrl,
+      // Routine déjà construite par /preparation → deck direct, sans intro ni re-calcul.
+      // Sinon (accès direct, planque perdue) → comportement d'avant : intro + /api/routine.
+      skipIntro: !!prepared,
       load: () =>
-        fetch("/api/routine", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload),
-        })
-          .then((r) => (r.ok ? r.json() : Promise.reject(new Error("routine"))))
-          .then((d: Reco) => ({ routine: d.routine, totaux: d.totaux, warnings: d.avertissements })),
+        prepared
+          ? Promise.resolve({ routine: prepared.routine, totaux: prepared.totaux, warnings: prepared.avertissements })
+          : fetch("/api/routine", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(payload),
+            })
+              .then((r) => (r.ok ? r.json() : Promise.reject(new Error("routine"))))
+              .then((d: PreparedReco) => ({ routine: d.routine, totaux: d.totaux, warnings: d.avertissements })),
     });
-  }, [result, answers, demo, stored, faceUrl, router]);
+  }, [result, answers, demo, stored, faceUrl, router, prepared]);
 
   if (!result) return null;
   return <div className="routine-v2" ref={rootRef} />;

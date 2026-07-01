@@ -1,0 +1,77 @@
+/* Écran /preparation — load « montée de tension » (liquid glass), porté de
+   routine-intro-liquid-glass/preview.html (source de vérité visuelle). Joue PENDANT le
+   vrai calcul de la reco (~40 s), juste AVANT le paywall. Aucune UI de routine dévoilée.
+   Scopé sous .rprep ; layout fluide (100dvh), pas le cadre téléphone du mockup. */
+
+.rprep {
+  --keep:#2E9E6B;
+  min-height:100dvh; position:relative; z-index:0; isolation:isolate;
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  padding:40px 40px calc(56px + env(safe-area-inset-bottom));
+  font-family:var(--fd); background:linear-gradient(168deg,#EFF2F7,#E5EAF1);
+  max-width:480px; margin:0 auto;
+}
+.rprep::before { content:''; position:absolute; inset:-12%; z-index:-1; filter:saturate(1.06); transition:filter .6s ease;
+  background:radial-gradient(36% 26% at 15% 6%,rgba(166,195,214,.72),transparent 68%),radial-gradient(44% 30% at 52% 104%,rgba(157,188,166,.42),transparent 70%),radial-gradient(30% 24% at 92% 70%,rgba(179,160,201,.34),transparent 70%); }
+.rprep.climax::before { filter:saturate(1.18) brightness(1.03); }
+
+.rprep .rp-logo { height:32px; width:auto; opacity:0; animation:rp-fin .8s ease forwards .1s; }
+.rprep .rp-eyebrow { margin-top:20px; display:inline-flex; align-items:center; gap:8px;
+  font-weight:600; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:var(--graphite);
+  background:rgba(255,255,255,.5); backdrop-filter:blur(12px) saturate(1.4); -webkit-backdrop-filter:blur(12px) saturate(1.4);
+  border:1px solid rgba(255,255,255,.7); padding:7px 14px; border-radius:100px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.85); opacity:0; animation:rp-fin .8s ease forwards .25s; }
+.rprep .rp-eyebrow svg { width:13px; height:13px; color:#C99A3E; }
+.rprep .rp-title { margin-top:22px; text-align:center; font-weight:800; font-size:24px; line-height:1.12;
+  letter-spacing:-.035em; color:var(--ink); max-width:290px; opacity:0; filter:blur(10px);
+  animation:rp-blurin .8s cubic-bezier(.22,1,.36,1) forwards .4s; transition:opacity .4s; }
+.rprep.done .rp-title { opacity:0; }
+
+/* médaillon + jauge */
+.rprep .rp-wrap { position:relative; width:158px; height:158px; margin-top:34px; opacity:0; transform:translateY(12px); animation:rp-fin .6s ease forwards .6s; }
+.rprep .rp-face { position:absolute; inset:9px; border-radius:50%; overflow:hidden;
+  background:linear-gradient(158deg,var(--cloud),#fff 80%);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.6),0 10px 26px rgba(40,55,75,.16); transition:box-shadow .5s; }
+.rprep.climax .rp-face { box-shadow:inset 0 0 0 1px rgba(255,255,255,.7),0 14px 40px rgba(110,154,182,.4); }
+.rprep .rp-face img { width:100%; height:100%; object-fit:cover; object-position:center 20%; }
+.rprep .rp-gleam { position:absolute; inset:9px; border-radius:50%; overflow:hidden; pointer-events:none; }
+.rprep .rp-gleam::before { content:''; position:absolute; top:-25%; left:-70%; width:70%; height:150%; transform:rotate(16deg);
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.5),transparent); filter:blur(3px);
+  animation:rp-sweep 3s cubic-bezier(.45,0,.4,1) infinite; }
+.rprep.climax .rp-gleam::before { animation-duration:1.3s; }
+.rprep .rp-pring { position:absolute; inset:0; transform:rotate(-90deg); }
+.rprep .rp-pring circle { fill:none; stroke-linecap:round; }
+.rprep .rp-pring .bg { stroke:rgba(127,166,190,.18); stroke-width:3; }
+.rprep .rp-pring .fg { stroke:var(--accent-d); stroke-width:3.5; transition:stroke .4s; }
+.rprep.done .rp-pring .fg { stroke:var(--keep); }
+.rprep .rp-check { position:absolute; top:2px; left:50%; transform:translateX(-50%) scale(.4); width:26px; height:26px; border-radius:50%;
+  background:var(--keep); color:#fff; display:flex; align-items:center; justify-content:center; opacity:0;
+  transition:opacity .3s ease,transform .4s cubic-bezier(.34,1.56,.64,1); box-shadow:0 4px 12px rgba(46,158,107,.5); }
+.rprep.done .rp-check { opacity:1; transform:translateX(-50%) scale(1); }
+.rprep .rp-check svg { width:15px; height:15px; }
+
+/* chips data perso */
+.rprep .rp-chips { display:flex; gap:7px; margin-top:26px; min-height:26px; justify-content:center; flex-wrap:wrap; }
+.rprep .rp-chip { font-weight:600; font-size:10px; letter-spacing:.03em; text-transform:uppercase; color:var(--accent-d);
+  background:rgba(255,255,255,.55); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px);
+  border:1px solid rgba(166,195,214,.5); padding:5px 11px; border-radius:100px;
+  opacity:0; transform:translateY(6px) scale(.9);
+  transition:opacity .4s,transform .5s cubic-bezier(.34,1.56,.64,1); box-shadow:inset 0 1px 0 rgba(255,255,255,.8); }
+.rprep .rp-chip.in { opacity:1; transform:none; }
+
+/* statut + compteur */
+.rprep .rp-status { margin-top:26px; font-weight:500; font-size:15px; color:var(--graphite); min-height:20px; text-align:center; transition:opacity .28s,color .3s; }
+.rprep .rp-status.big { font-weight:800; font-size:20px; letter-spacing:-.02em; color:var(--ink); }
+.rprep .rp-count { margin-top:14px; text-align:center; display:flex; flex-direction:column; gap:2px; transition:opacity .4s; }
+.rprep.done .rp-count { opacity:0; }
+.rprep .rp-num { font-weight:800; font-size:24px; letter-spacing:.01em; color:var(--ink); font-variant-numeric:tabular-nums; }
+.rprep .rp-count small { font-weight:600; font-size:10px; letter-spacing:.06em; text-transform:uppercase; color:var(--space); }
+
+@keyframes rp-fin { to { opacity:1; transform:none; } }
+@keyframes rp-blurin { to { opacity:1; filter:blur(0); } }
+@keyframes rp-sweep { 0% { left:-70%; } 55% { left:150%; } 100% { left:150%; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .rprep .rp-logo, .rprep .rp-eyebrow, .rprep .rp-title, .rprep .rp-wrap { animation:none; opacity:1; transform:none; filter:none; }
+  .rprep .rp-gleam::before { animation:none; }
+}
