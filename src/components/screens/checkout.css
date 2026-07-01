@@ -4,9 +4,11 @@
    Tokens mockup → SmartSkin : --keep/--gold/--glass/--smoke/--steel inlinés. */
 
 /* Le bord HAUT de l'écran (et donc la vidéo) épouse le bord du navigateur : on tire
-   .checkout vers le haut de la hauteur du safe-area (zone du notch/status bar), et on
-   rallonge min-height d'autant pour ne pas créer de vide en bas. Croix/logo redescendus. */
-.checkout { width:100%; max-width:480px; margin:calc(-1 * env(safe-area-inset-top)) auto 0; min-height:calc(100dvh + env(safe-area-inset-top)); background:var(--bg); overflow:hidden; display:flex; flex-direction:column; }
+   .checkout vers le haut de la hauteur du safe-area (zone du notch/status bar). HAUTEUR
+   BORNÉE à la fenêtre (height, pas min-height) : sinon .checkout grandit avec le contenu
+   et le scroll interne de .co-scroll devient inutile → sur desktop court, le CTA est coupé
+   et non atteignable. Avec height fixe, .co-scroll déborde et scrolle → CTA accessible. */
+.checkout { width:100%; max-width:480px; margin:calc(-1 * env(safe-area-inset-top)) auto 0; height:calc(100dvh + env(safe-area-inset-top)); background:var(--bg); overflow:hidden; display:flex; flex-direction:column; }
 .checkout .co-scroll { flex:1; overflow-y:auto; scrollbar-width:none; display:flex; flex-direction:column; overscroll-behavior-y:none; }
 .checkout .co-scroll::-webkit-scrollbar { display:none; }
 
