@@ -83,39 +83,39 @@
 .pwb .pw-offer-meta b { color:var(--white); font-weight:700; }
 
 /* CTA blanc — effet "glass" glossy (galbe + reflet bombé) */
-.pwb .pw-cta { margin-top:16px; position:relative; overflow:hidden; height:58px; border-radius:18px; border:none; cursor:pointer; width:100%;
-  color:var(--ink); font-family:var(--fd); font-weight:800; font-size:15.5px; letter-spacing:-0.015em;
-  display:flex; align-items:center; justify-content:center; gap:10px;
-  background:linear-gradient(180deg, #fdfdfe 0%, #e8ebf0 50%, #cfd4de 100%);
+/* CTA en style « verre » de la landing (.cta-btn de home.css), mais VERSION BLANCHE :
+   même recette d'ombres en couches (fin liseré blanc en haut, ombre interne douce en bas,
+   halos portés), gradient clair au lieu du sombre. Forme conservée (h58, radius 18, pleine
+   largeur). Plus de dôme brillant `::before` : le lustre vient uniquement des box-shadow. */
+.pwb .pw-cta { margin-top:16px; position:relative; height:58px; border-radius:18px; border:none; cursor:pointer; width:100%;
+  color:#15171b; font-family:var(--fd); font-weight:700; font-size:15.5px; letter-spacing:-0.01em;
+  display:flex; align-items:center; justify-content:center; gap:11px;
+  background:linear-gradient(180deg, #ffffff 0%, #f4f6f9 52%, #e6e9ef 100%);
   box-shadow:
-    inset 0 2px 0 rgba(255,255,255,1),
-    inset 0 -13px 18px rgba(80,92,114,0.48),
-    inset 0 0 0 1px rgba(0,0,0,0.07),
-    0 3px 6px rgba(0,0,0,0.32),
-    0 12px 26px rgba(0,0,0,0.44),
-    0 26px 54px rgba(0,0,0,0.32);
+    inset 0 1.5px 0.5px rgba(255,255,255,0.95),
+    inset 0 -4px 7px rgba(90,100,120,0.20),
+    inset 0 0 0 1px rgba(0,0,0,0.06),
+    0 2px 4px rgba(0,0,0,0.28),
+    0 10px 20px rgba(0,0,0,0.30),
+    0 22px 42px rgba(0,0,0,0.22);
   transition:transform .15s, box-shadow .2s; }
 .pwb .pw-cta:disabled { opacity:0.7; cursor:default; }
-.pwb .pw-cta::before { content:''; position:absolute; left:3px; right:3px; top:2px; height:52%; z-index:0; pointer-events:none;
-  border-radius:15px 15px 46% 46% / 15px 15px 28px 28px;
-  background:linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.4) 56%, rgba(255,255,255,0) 100%); }
-.pwb .pw-cta svg, .pwb .pw-cta span { position:relative; z-index:1; }
 .pwb .pw-cta svg { width:16px; height:16px; }
 .pwb .pw-cta:hover { transform:translateY(-2px);
   box-shadow:
-    inset 0 2px 0 rgba(255,255,255,1),
-    inset 0 -13px 18px rgba(80,92,114,0.48),
-    inset 0 0 0 1px rgba(0,0,0,0.07),
-    0 5px 10px rgba(0,0,0,0.36),
-    0 18px 36px rgba(0,0,0,0.48),
-    0 34px 66px rgba(0,0,0,0.36); }
-.pwb .pw-cta:active { transform:translateY(2px);
+    inset 0 1.5px 0.5px rgba(255,255,255,0.95),
+    inset 0 -4px 7px rgba(90,100,120,0.20),
+    inset 0 0 0 1px rgba(0,0,0,0.06),
+    0 4px 8px rgba(0,0,0,0.30),
+    0 16px 30px rgba(0,0,0,0.34),
+    0 30px 58px rgba(0,0,0,0.24); }
+.pwb .pw-cta:active { transform:translateY(1.5px);
   box-shadow:
-    inset 0 1px 0 rgba(255,255,255,0.95),
-    inset 0 -7px 11px rgba(80,92,114,0.5),
-    inset 0 0 0 1px rgba(0,0,0,0.07),
-    0 2px 5px rgba(0,0,0,0.30),
-    0 7px 16px rgba(0,0,0,0.36); }
+    inset 0 1px 0.5px rgba(255,255,255,0.9),
+    inset 0 -2px 5px rgba(90,100,120,0.24),
+    inset 0 0 0 1px rgba(0,0,0,0.06),
+    0 2px 4px rgba(0,0,0,0.28),
+    0 6px 14px rgba(0,0,0,0.20); }
 
 .pwb .pw-fine { display:flex; align-items:center; justify-content:center; gap:7px; flex-wrap:wrap; margin-top:13px; font-size:10.5px; color:var(--t3); }
 .pwb .pw-fine svg { width:11px; height:11px; color:var(--green); vertical-align:middle; margin-right:3px; }
