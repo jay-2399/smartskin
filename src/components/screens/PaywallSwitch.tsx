@@ -14,7 +14,7 @@ import { PaywallB } from "./PaywallB";
    Émet `paywall_viewed` (PostHog) + tag la variante dans Clarity pour filtrer les replays. */
 
 const PH_CONFIGURED = !!process.env.NEXT_PUBLIC_POSTHOG_KEY;
-const FLAG = "paywall-experiment";
+const FLAG = "paywall-ab-split-test"; // clé du feature flag / experiment côté PostHog
 
 export function PaywallSwitch() {
   const override = useMemo<"A" | "B" | null>(() => {
@@ -23,11 +23,11 @@ export function PaywallSwitch() {
     return v === "b" ? "B" : v === "a" ? "A" : null;
   }, []);
 
-  const flag = useFeatureFlagVariantKey(FLAG); // "control" | "test" | undefined (en cours/absent)
+  const flag = useFeatureFlagVariantKey(FLAG); // "control" | "test" | … | undefined (en cours/absent)
 
   // A par défaut (jamais de page blanche, même si le flag n'existe pas / PostHog absent) ;
-  // on ne bascule sur B que si le flag dit explicitement "test".
-  const variant: "A" | "B" = override ?? (flag === "test" ? "B" : "A");
+  // on bascule sur B pour TOUTE variante ≠ "control" (robuste au nom exact de la variante).
+  const variant: "A" | "B" = override ?? (typeof flag === "string" && flag !== "control" ? "B" : "A");
 
   // On n'émet paywall_viewed que quand la variante est CERTAINE (override, PostHog absent,
   // ou flag résolu) → évite de compter un "A" transitoire pendant le chargement du flag.
