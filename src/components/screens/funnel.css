@@ -364,12 +364,13 @@
 .bento { display:flex; flex-direction:column; gap:10px; }
 .vcard { position:relative; background:var(--card); border:1px solid rgba(26,29,33,0.05); border-radius:18px; padding:16px 18px; box-shadow:0 1px 2px rgba(0,0,0,0.025), 0 6px 18px rgba(0,0,0,0.04); display:flex; flex-direction:column; transition:transform .25s cubic-bezier(.22,1,.36,1), box-shadow .25s, border-color .25s; }
 .vcard:hover { transform:translateY(-2px); border-color:rgba(166,195,214,0.4); box-shadow:0 2px 6px rgba(0,0,0,0.04), 0 16px 34px rgba(0,0,0,0.07); }
-.vc-main { display:flex; align-items:center; gap:14px; }
-.vc-id { flex:0 0 38%; min-width:0; display:flex; align-items:center; gap:11px; }
+/* Carte reveal en layout ENTIÈREMENT VERTICAL : titre → spectre → commentaire. */
+.vc-main { display:flex; flex-direction:column; align-items:stretch; gap:12px; }
+.vc-id { min-width:0; display:flex; align-items:center; gap:11px; }
 .vc-tile { width:46px; height:46px; flex-shrink:0; display:flex; align-items:center; justify-content:center; }
 .vc-tile img { width:46px; height:46px; object-fit:contain; }
 .vc-title { font-weight:700; font-size:15.5px; color:var(--ink); letter-spacing:-0.025em; line-height:1.1; }
-.vc-measure { flex:1; min-width:0; }
+.vc-measure { min-width:0; }
 
 /* jauge linéaire */
 .gauge { position:relative; height:42px; }

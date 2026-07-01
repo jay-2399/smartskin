@@ -155,13 +155,8 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
             {sec.items.map((a, i) => (
               <div className="vcard" key={a.id} style={{ ["--i" as string]: i }}>
                 <div className="vc-main">
+                  {/* Icônes retirées pour l'instant (le champ a.icon reste dispo pour réactivation). */}
                   <div className="vc-id">
-                    {a.icon && (
-                      <div className="vc-tile">
-                        {/* eslint-disable-next-line @next/next/no-img-element -- onError masque les icônes absentes */}
-                        <img src={a.icon} alt="" onError={(e) => { (e.currentTarget.closest(".vc-tile") as HTMLElement).style.display = "none"; }} />
-                      </div>
-                    )}
                     <div className="vc-idtext"><span className="vc-title">{a.label}</span></div>
                   </div>
                   <div className="vc-measure">

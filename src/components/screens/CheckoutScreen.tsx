@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import posthog from "posthog-js";
 import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
+import { stashPendingScan } from "@/features/analysis/pendingScan";
 import "./checkout.css";
 
 /* Checkout / paywall — port de checkout-package/checkout.html (anglais, tokens
@@ -33,12 +34,11 @@ export function CheckoutScreen() {
     // Démo → on saute le paiement. Sinon → session Stripe Checkout puis redirection
     // vers la page de paiement hébergée par Stripe.
     if (demo) { router.push("/routine?demo=1"); return; }
-    // On met le bilan de côté AVANT de partir sur Stripe : au retour (création de compte),
-    // la mémoire est vide → on le réhydratera depuis là pour afficher la routine.
-    try {
-      const result = useResult.getState().result;
-      if (result) sessionStorage.setItem("smartskin-pending-scan", JSON.stringify({ result, answers: useFunnel.getState().answers }));
-    } catch { /* sessionStorage indispo → tant pis */ }
+    // On met le bilan + la photo de côté AVANT de partir sur Stripe : au retour (création
+    // de compte), la mémoire est vide → on réhydrate depuis là pour afficher la routine
+    // ET le médaillon avec la vraie photo.
+    const result = useResult.getState().result;
+    if (result) await stashPendingScan(result, useFunnel.getState().answers, useResult.getState().photo);
     setLoading(true);
     try {
       const res = await fetch("/api/checkout", { method: "POST" });

@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
 import { SAMPLE_RESULT } from "@/features/analysis/sample";
+import { readPendingScan, clearPendingScan } from "@/features/analysis/pendingScan";
 import { EMPTY_ANSWERS } from "@/features/funnel/types";
 import { initRoutine } from "@/features/routine/storytelling";
 import type { RoutineData } from "@/features/routine/products";
@@ -35,17 +36,12 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
   // protocole » (onSave ci-dessous) qui écrit le scan sous le compte (une seule fois).
   useEffect(() => {
     if (useResult.getState().result || demo) { setRehydrated(true); return; }
-    try {
-      const raw = sessionStorage.getItem("smartskin-pending-scan");
-      if (raw) {
-        const { result: r, answers: a } = JSON.parse(raw);
-        if (r) {
-          useResult.getState().set(r, null);
-          if (a) useFunnel.setState({ answers: a });
-          sessionStorage.removeItem("smartskin-pending-scan");
-        }
-      }
-    } catch { /* JSON invalide → ignoré */ }
+    const pending = readPendingScan();
+    if (pending) {
+      useResult.getState().set(pending.result, pending.photo);
+      if (pending.answers) useFunnel.setState({ answers: pending.answers });
+      clearPendingScan();
+    }
     setRehydrated(true);
   }, [demo]);
 

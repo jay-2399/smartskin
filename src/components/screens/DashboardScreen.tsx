@@ -237,8 +237,8 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
               {/* projection pointillée du dernier point vers le prochain scan */}
               <line x1={last.x} y1={last.y} x2={nextX} y2={last.y} stroke="#7FA6BE" strokeWidth="1.6" strokeDasharray="3 3" opacity="0.5" vectorEffect="non-scaling-stroke" />
             </svg>
-            {/* pastilles : « Départ » (1 scan) au-dessus du point + « Prochain scan » au-dessus de l'anneau */}
-            {!multi && <span className="ch-pill" style={{ left: `${last.x}%` }}>Baseline</span>}
+            {/* pastille « Prochain scan » au-dessus de l'anneau (le « Baseline » du point est
+                déjà porté par le badge à côté du score → on évite le doublon) */}
             <span className="ch-pill" style={{ left: `${nextX}%` }}>Next scan</span>
             {/* point « aujourd'hui » (dernier scan) + anneau du prochain scan */}
             <span className="ch-dot today" style={{ left: `${last.x}%`, top: `${last.y}%` }} />
