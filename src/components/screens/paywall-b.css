@@ -1,0 +1,124 @@
+/* Paywall — Variant B (dark immersif) — porté de paywall/B/paywall.html.
+   TOUTES les classes sont préfixées .pw-… (en plus du scope .pwb) : le mockup utilise
+   des noms génériques (.brand, .sub, .cta, .feat…) qui existent en global (funnel.css…)
+   et fuient via animation/padding. Le préfixe garantit une isolation totale.
+   Vars de thème sur .pwb (pas :root) ; polices = celles de l'app (--fd/--fm globaux). */
+.pwb {
+  --ink:#0E1014; --white:#FFFFFF;
+  --t1:rgba(255,255,255,0.96); --t2:rgba(255,255,255,0.64); --t3:rgba(255,255,255,0.42);
+  --accent:#BCD5E6; --accent-soft:rgba(166,195,214,0.16); --accent-line:rgba(188,213,230,0.85);
+  --green:#39D286; --green-bg:rgba(57,210,134,0.16);
+  --glass:rgba(255,255,255,0.055); --glass-line:rgba(255,255,255,0.13);
+  --ease:cubic-bezier(.22,1,.36,1);
+  position:relative; width:100%; max-width:430px; min-height:100dvh; margin:0 auto;
+  display:flex; flex-direction:column; background:var(--ink); color:var(--white); overflow:hidden;
+  -webkit-font-smoothing:antialiased; font-family:var(--fd);
+}
+@media (min-width:480px){
+  .pwb { min-height:min(calc(100dvh - 48px), 884px); border-radius:46px; margin:24px auto;
+    box-shadow:0 0 0 1px rgba(0,0,0,0.5),0 32px 80px rgba(0,0,0,0.5); }
+}
+
+/* ── média plein écran (vidéo produits portrait 9:16) ── */
+.pwb .pw-bg { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center center; z-index:0;
+  transform:translateY(-12%); filter:brightness(0.56) saturate(1.08) contrast(1.03); }
+.pwb .pw-scrim { position:absolute; inset:0; z-index:1; pointer-events:none;
+  background:
+    radial-gradient(120% 80% at 50% 8%, rgba(166,195,214,0.16), transparent 52%),
+    linear-gradient(180deg, rgba(14,16,20,0.55) 0%, rgba(14,16,20,0.12) 24%, rgba(13,15,18,0.72) 56%, rgba(11,12,15,0.94) 78%, #0B0C0F 100%); }
+.pwb .pw-grain { position:absolute; inset:0; z-index:1; pointer-events:none; opacity:0.4; mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+
+/* ── couche UI ── */
+.pwb .pw-ui { position:relative; z-index:2; flex:1; display:flex; flex-direction:column;
+  padding:calc(env(safe-area-inset-top) + 20px) 24px calc(env(safe-area-inset-bottom) + 22px); }
+
+.pwb .pw-uitop { position:relative; display:flex; align-items:center; justify-content:space-between; }
+.pwb .pw-brand { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); pointer-events:none; animation:none; padding:0; }
+.pwb .pw-brand img { height:28px; width:auto; display:block; opacity:0.96; }
+.pwb .pw-icbtn { width:38px; height:38px; border-radius:50%; background:rgba(255,255,255,0.10); border:1px solid rgba(255,255,255,0.14); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); display:flex; align-items:center; justify-content:center; color:var(--white); text-decoration:none; cursor:pointer; transition:transform .14s; }
+.pwb .pw-icbtn:active { transform:scale(0.94); }
+.pwb .pw-icbtn svg { width:16px; height:16px; }
+.pwb .pw-restore { font-size:12px; font-weight:600; color:var(--t2); text-decoration:none; letter-spacing:-0.01em; background:none; border:none; cursor:pointer; font-family:var(--fd); }
+.pwb .pw-restore:active { color:var(--white); }
+
+.pwb .pw-spacer { flex:1; min-height:96px; }
+
+.pwb .pw-content { animation:pwbRise .6s var(--ease) both .08s; }
+.pwb .pw-h1 { font-weight:800; font-size:33px; line-height:1.03; letter-spacing:-0.044em; margin-top:0; }
+.pwb .pw-h1 .pw-soft { font-weight:300; color:var(--t2); }
+.pwb .pw-sub { font-size:13.5px; line-height:1.5; color:var(--t2); margin-top:11px; max-width:320px; }
+.pwb .pw-sub b { color:var(--t1); font-weight:700; }
+
+.pwb .pw-feats { margin-top:18px; display:flex; flex-direction:column; gap:10px; }
+.pwb .pw-feat { display:flex; align-items:center; gap:10px; }
+.pwb .pw-feat .pw-ck { width:19px; height:19px; flex-shrink:0; border-radius:50%; background:var(--accent-soft); border:1px solid var(--glass-line); color:var(--accent); display:flex; align-items:center; justify-content:center; }
+.pwb .pw-feat .pw-ck svg { width:11px; height:11px; }
+.pwb .pw-feat span { font-size:13px; font-weight:500; color:var(--t1); letter-spacing:-0.01em; }
+.pwb .pw-feat span b { font-weight:700; }
+
+/* ── social proof (au-dessus du titre) ── */
+.pwb .pw-proof { display:flex; align-items:center; gap:11px; margin-bottom:16px; }
+.pwb .pw-avatars { display:flex; }
+.pwb .pw-av { width:30px; height:30px; border-radius:50%; border:2.5px solid #fff; margin-left:-9px; overflow:hidden; }
+.pwb .pw-av:first-child { margin-left:0; }
+.pwb .pw-av img { width:100%; height:100%; object-fit:cover; display:block; }
+.pwb .pw-av.a1 { background:#CBD9E1; } .pwb .pw-av.a2 { background:#DCCDB6; } .pwb .pw-av.a3 { background:#C7D9CC; } .pwb .pw-av.a4 { background:#D6D2DE; }
+.pwb .pw-prooftx .pw-stars { color:#F1C15A; font-size:12px; letter-spacing:2px; line-height:1; }
+.pwb .pw-prooftx .pw-proofl { font-size:12px; color:var(--t2); margin-top:3px; letter-spacing:-0.005em; }
+.pwb .pw-prooftx .pw-proofl b { color:var(--white); font-weight:700; }
+
+/* ── offre unique (lifetime) ── */
+.pwb .pw-offer { position:relative; margin-top:18px; border-radius:18px; padding:16px 17px 15px; background:var(--accent-soft); border:1.5px solid var(--accent-line); -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px); }
+.pwb .pw-offer-top { display:flex; align-items:center; justify-content:space-between; }
+.pwb .pw-offer-name { font-family:var(--fm); font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:var(--t2); }
+.pwb .pw-offer-badge { font-size:10px; font-weight:800; letter-spacing:0.04em; color:var(--green); background:var(--green-bg); padding:3px 9px; border-radius:100px; }
+.pwb .pw-offer-price { display:flex; align-items:baseline; gap:11px; margin-top:10px; }
+.pwb .pw-offer-now { font-size:34px; font-weight:800; letter-spacing:-0.04em; }
+.pwb .pw-offer-old { font-size:16px; font-weight:700; color:var(--t3); text-decoration:line-through; }
+.pwb .pw-offer-meta { font-size:11.5px; color:var(--t2); margin-top:5px; }
+.pwb .pw-offer-meta b { color:var(--white); font-weight:700; }
+
+/* CTA blanc — effet "glass" glossy (galbe + reflet bombé) */
+.pwb .pw-cta { margin-top:16px; position:relative; overflow:hidden; height:58px; border-radius:18px; border:none; cursor:pointer; width:100%;
+  color:var(--ink); font-family:var(--fd); font-weight:800; font-size:15.5px; letter-spacing:-0.015em;
+  display:flex; align-items:center; justify-content:center; gap:10px;
+  background:linear-gradient(180deg, #fdfdfe 0%, #e8ebf0 50%, #cfd4de 100%);
+  box-shadow:
+    inset 0 2px 0 rgba(255,255,255,1),
+    inset 0 -13px 18px rgba(80,92,114,0.48),
+    inset 0 0 0 1px rgba(0,0,0,0.07),
+    0 3px 6px rgba(0,0,0,0.32),
+    0 12px 26px rgba(0,0,0,0.44),
+    0 26px 54px rgba(0,0,0,0.32);
+  transition:transform .15s, box-shadow .2s; }
+.pwb .pw-cta:disabled { opacity:0.7; cursor:default; }
+.pwb .pw-cta::before { content:''; position:absolute; left:3px; right:3px; top:2px; height:52%; z-index:0; pointer-events:none;
+  border-radius:15px 15px 46% 46% / 15px 15px 28px 28px;
+  background:linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.4) 56%, rgba(255,255,255,0) 100%); }
+.pwb .pw-cta svg, .pwb .pw-cta span { position:relative; z-index:1; }
+.pwb .pw-cta svg { width:16px; height:16px; }
+.pwb .pw-cta:hover { transform:translateY(-2px);
+  box-shadow:
+    inset 0 2px 0 rgba(255,255,255,1),
+    inset 0 -13px 18px rgba(80,92,114,0.48),
+    inset 0 0 0 1px rgba(0,0,0,0.07),
+    0 5px 10px rgba(0,0,0,0.36),
+    0 18px 36px rgba(0,0,0,0.48),
+    0 34px 66px rgba(0,0,0,0.36); }
+.pwb .pw-cta:active { transform:translateY(2px);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.95),
+    inset 0 -7px 11px rgba(80,92,114,0.5),
+    inset 0 0 0 1px rgba(0,0,0,0.07),
+    0 2px 5px rgba(0,0,0,0.30),
+    0 7px 16px rgba(0,0,0,0.36); }
+
+.pwb .pw-fine { display:flex; align-items:center; justify-content:center; gap:7px; flex-wrap:wrap; margin-top:13px; font-size:10.5px; color:var(--t3); }
+.pwb .pw-fine svg { width:11px; height:11px; color:var(--green); vertical-align:middle; margin-right:3px; }
+.pwb .pw-fine .pw-sep { opacity:0.4; }
+
+.pwb a:focus-visible, .pwb button:focus-visible { outline:2px solid var(--accent); outline-offset:3px; border-radius:14px; }
+
+@keyframes pwbRise { from{opacity:0; transform:translateY(13px);} to{opacity:1; transform:none;} }
+@media (prefers-reduced-motion: reduce){ .pwb *, .pwb *::before, .pwb *::after{ animation:none !important; transition:none !important; } }
