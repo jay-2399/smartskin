@@ -28,6 +28,11 @@
     linear-gradient(180deg, rgba(14,16,20,0.55) 0%, rgba(14,16,20,0.12) 24%, rgba(13,15,18,0.72) 56%, rgba(11,12,15,0.94) 78%, #0B0C0F 100%); }
 .pwb .pw-grain { position:absolute; inset:0; z-index:1; pointer-events:none; opacity:0.4; mix-blend-mode:overlay;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+/* Dégradé du haut : noir plein tout en haut (raccord avec le fond derrière le notch)
+   → transparent plus bas, pour une transition douce vers la vidéo. z-index 1 = sous la
+   couche UI (z-index 2), donc le logo/retour restent visibles au-dessus. */
+.pwb .pw-topfade { position:absolute; top:0; left:0; right:0; height:230px; z-index:1; pointer-events:none;
+  background:linear-gradient(180deg, #0A0B0E 0%, rgba(10,11,14,0.88) 22%, rgba(10,11,14,0.45) 52%, transparent 100%); }
 
 /* ── couche UI ── */
 .pwb .pw-ui { position:relative; z-index:2; flex:1; display:flex; flex-direction:column;
@@ -39,8 +44,6 @@
 .pwb .pw-icbtn { width:38px; height:38px; border-radius:50%; background:rgba(255,255,255,0.10); border:1px solid rgba(255,255,255,0.14); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); display:flex; align-items:center; justify-content:center; color:var(--white); text-decoration:none; cursor:pointer; transition:transform .14s; }
 .pwb .pw-icbtn:active { transform:scale(0.94); }
 .pwb .pw-icbtn svg { width:16px; height:16px; }
-.pwb .pw-restore { font-size:12px; font-weight:600; color:var(--t2); text-decoration:none; letter-spacing:-0.01em; background:none; border:none; cursor:pointer; font-family:var(--fd); }
-.pwb .pw-restore:active { color:var(--white); }
 
 .pwb .pw-spacer { flex:1; min-height:96px; }
 

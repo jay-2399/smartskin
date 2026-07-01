@@ -57,6 +57,9 @@ export function PaywallB() {
       <video ref={videoRef} className="pw-bg" src="/paywall-b/hero-portrait.mp4" poster="/paywall-b/hero-portrait.png" autoPlay muted loop playsInline />
       <div className="pw-scrim" />
       <div className="pw-grain" />
+      {/* Dégradé du haut : fond le noir (derrière le notch) dans la vidéo, transition douce.
+          Sous la couche UI (z-index 2) → le logo reste visible au-dessus. */}
+      <div className="pw-topfade" />
 
       <div className="pw-ui">
         <div className="pw-uitop">
@@ -64,7 +67,6 @@ export function PaywallB() {
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13L5 8l5-5" /></svg>
           </button>
           <div className="pw-brand"><img src="/paywall-b/logo-smartskin-white.png" alt="SmartSkin AI" height={28} /></div>
-          <button type="button" className="pw-restore" onClick={() => router.push("/login")}>Restore</button>
         </div>
 
         <div className="pw-spacer" />
