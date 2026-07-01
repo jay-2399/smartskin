@@ -17,6 +17,7 @@ export function TopBar({
       <div className="prog" role="progressbar" aria-label={`Étape ${index} sur ${total}`} aria-valuenow={index} aria-valuemin={1} aria-valuemax={total}>
         <div className="prog-fill" style={{ "--pw": `${pct}%` } as React.CSSProperties} />
       </div>
+      <span className="prog-step">{String(index).padStart(2, "0")} / {String(total).padStart(2, "0")}</span>
     </div>
   );
 }

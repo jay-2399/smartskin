@@ -7,6 +7,7 @@ import { isStepValid } from "@/features/funnel/validation";
 import { OptionList } from "@/components/ui/OptionList";
 import { TopBar } from "@/components/ui/TopBar";
 import type { StepId } from "@/features/funnel/types";
+import "./questions-glass.css";
 
 /* Icône « i » du helper et flèche du CTA — repris des maquettes. */
 const HelperIcon = () => (
@@ -57,7 +58,7 @@ export function QuestionScreen({ step }: { step: StepId }) {
       : [];
 
   return (
-    <div className="screen">
+    <div className="screen qglass">
       <div className="brand">
         <Image src="/logo-smartskin.png" alt="SmartSkin AI" width={133} height={26} priority />
       </div>
@@ -72,23 +73,14 @@ export function QuestionScreen({ step }: { step: StepId }) {
         </p>
       </div>
 
-      <div className={`list${q.grid ? " grid2" : ""}${q.mode === "age" ? " list-age" : ""}`}>
+      <div className={`list${q.grid ? " grid2" : ""}`}>
         {q.mode === "age" && (
-          <div className="age-field">
-            <input
-              type="number"
-              inputMode="numeric"
-              min={13}
-              max={99}
-              className="age-input"
-              value={answers.age ?? ""}
-              onChange={(e) => setAge(e.target.value === "" ? null : Math.floor(Number(e.target.value)))}
-              placeholder="25"
-              aria-label="Your age"
-              autoFocus
-            />
-            <span className="age-unit">years old</span>
-          </div>
+          <OptionList
+            options={q.options}
+            selected={answers.age ? [answers.age] : []}
+            onToggle={(v) => setAge(v)}
+            baseDelay={0.16}
+          />
         )}
 
         {q.mode === "single" && (

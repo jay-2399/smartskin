@@ -25,7 +25,7 @@ export type QuestionDef = {
 };
 
 export type Answers = {
-  age: number | null;           // 1ʳᵉ question (âge réel déclaré, pour l'« âge de peau » du reveal)
+  age: string | null;           // 1ʳᵉ question : TRANCHE d'âge (under_18…45_plus / prefer_not), pour l'« âge de peau »
   q1: string[];                 // multi, "discover" exclusif, max 3
   q2: string[];                 // multi, "none" exclusif
   q3: string[];                 // multi, "none" exclusif

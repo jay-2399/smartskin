@@ -10,7 +10,7 @@ type FunnelState = {
   // Re-scan depuis le dashboard (« Analyser ») : on réutilise les réponses du dernier
   // scan, on ne refait que la photo, et on revient au dashboard à la fin.
   rescan: boolean;
-  setAge: (value: number | null) => void;
+  setAge: (value: string | null) => void;
   setSingle: (step: "q4" | "q6", value: string) => void;
   toggleMulti: (step: "q1" | "q2" | "q3" | "q7", value: string, exclusive: boolean) => void;
   setGate: (changed: boolean) => void;

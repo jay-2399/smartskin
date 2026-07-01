@@ -27,7 +27,7 @@ export function toggleOption(
 
 export function isStepValid(step: StepId, answers: Answers): boolean {
   switch (step) {
-    case "age": return answers.age !== null && Number.isInteger(answers.age) && answers.age >= 13 && answers.age <= 99;
+    case "age": return answers.age !== null; // une tranche d'âge choisie
     case "q1": return answers.q1.length > 0;
     case "q2": return answers.q2.length > 0;
     case "q3": return answers.q3.length > 0;

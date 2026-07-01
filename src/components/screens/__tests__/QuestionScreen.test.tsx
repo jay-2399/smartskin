@@ -15,7 +15,7 @@ describe("QuestionScreen q1", () => {
 
   it("affiche le titre et désactive Continuer tant que rien n'est choisi", () => {
     render(<QuestionScreen step="q1" />);
-    expect(screen.getByText(/improve first/)).toBeInTheDocument();
+    expect(screen.getByText(/improve on your skin/)).toBeInTheDocument();
     expect(screen.getByRole("button", { name: /Continue/ })).toBeDisabled();
   });
 

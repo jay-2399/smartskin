@@ -1,0 +1,114 @@
+/* Refonte visuelle « liquid glass » des 7 écrans de questions (Q-liquid-glass).
+   TOUT est scopé sous `.qglass` (posé sur le root `.screen` de QuestionScreen) pour ne
+   PAS toucher les écrans qui partagent funnel.css (résultats, capture, analyse…).
+   On garde le LAYOUT fluide/responsive de l'app (pas le cadre device figé des maquettes) :
+   on ne redéfinit ni la taille ni le flux de `.screen`, seulement la peau (verre + orbes). */
+
+.qglass {
+  --blue-d:#6E9AB6;
+  --glass:rgba(255,255,255,0.46); --glass-hi:rgba(255,255,255,0.66);
+  --glass-line:rgba(255,255,255,0.7); --glass-sheen:inset 0 1px 0 rgba(255,255,255,0.75);
+  --blur:blur(18px) saturate(165%);
+  position:relative; z-index:0; isolation:isolate;
+  background:linear-gradient(168deg,#EFF2F7 0%,#E5EAF1 100%);
+}
+/* orbes de couleur floues en fond (palette 100 % froide : bleu, vert, mauve) */
+.qglass::before {
+  content:''; position:absolute; inset:-12%; z-index:-1; pointer-events:none;
+  background:
+    radial-gradient(36% 26% at 15% 5%,   rgba(166,195,214,0.72), transparent 68%),
+    radial-gradient(44% 30% at 52% 103%, rgba(157,188,166,0.50), transparent 70%),
+    radial-gradient(30% 22% at 95% 70%,  rgba(179,160,201,0.34), transparent 70%);
+  filter:saturate(1.06);
+}
+
+/* ── Topbar : retour + barre de progression en verre ── */
+.qglass .back {
+  background:var(--glass); backdrop-filter:blur(12px) saturate(160%); -webkit-backdrop-filter:blur(12px) saturate(160%);
+  border:1px solid var(--glass-line); box-shadow:var(--glass-sheen), 0 4px 12px rgba(40,55,75,0.10);
+}
+.qglass .prog {
+  background:rgba(255,255,255,0.4); backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px);
+  border:1px solid rgba(255,255,255,0.55); box-shadow:inset 0 1px 2px rgba(40,55,75,0.06);
+}
+.qglass .prog-fill {
+  width:var(--pw, 28%); background:linear-gradient(90deg, var(--blue-d), #40424D);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.35); animation:qg-grow .9s cubic-bezier(.22,1,.36,1) both .2s;
+}
+@keyframes qg-grow { from { width:0; } }
+.qglass .prog-step { font-family:var(--fm, 'JetBrains Mono', monospace); font-size:10px; color:var(--graphite); letter-spacing:0.08em; flex-shrink:0; }
+
+/* ── En-tête ── */
+.qglass .question { letter-spacing:-0.035em; font-weight:800; color:var(--ink); }
+.qglass .helper { color:var(--graphite); }
+.qglass .helper b { color:var(--ink); font-weight:700; }
+
+/* ── Liste : mono-colonne par défaut, grille 2 col. quand `.grid2` ── */
+.qglass .list.grid2 { display:grid; grid-template-columns:1fr 1fr; gap:9px; align-content:start; }
+
+/* ── Option : carte en verre dépoli ── */
+.qglass .opt {
+  --fam-tint:rgba(166,195,214,0.30); --fam-glow:rgba(110,154,182,0.30); --fam-d:var(--graphite);
+  position:relative; display:flex; flex-direction:row; align-items:center; gap:14px;
+  padding:14px 46px 14px 14px; border-radius:18px; cursor:pointer;
+  background:var(--glass); backdrop-filter:var(--blur); -webkit-backdrop-filter:var(--blur);
+  border:1px solid var(--glass-line); box-shadow:0 8px 22px rgba(40,55,75,0.10), var(--glass-sheen);
+  transition:background .24s, border-color .24s, transform .15s, box-shadow .24s, opacity .22s;
+}
+.qglass .opt:hover { background:var(--glass-hi); box-shadow:0 12px 28px rgba(40,55,75,0.14), inset 0 1px 0 rgba(255,255,255,0.85); }
+.qglass .opt:active { transform:scale(0.985); }
+/* en grille : carte verticale (icône en haut) */
+.qglass .grid2 .opt { flex-direction:column; align-items:flex-start; gap:11px; padding:14px 14px 15px; }
+
+.qglass .opt-ic {
+  width:46px; height:46px; border-radius:13px; flex-shrink:0;
+  background:rgba(255,255,255,0.5); backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px);
+  border:1px solid rgba(255,255,255,0.6); box-shadow:inset 0 1px 0 rgba(255,255,255,0.8);
+  display:flex; align-items:center; justify-content:center; color:var(--fam-d);
+  transition:background .24s, color .24s, box-shadow .24s, border-color .24s;
+}
+.qglass .opt-l { font-weight:700; letter-spacing:-0.025em; color:var(--ink); }
+.qglass .opt-s { color:var(--space, #9DA2B3); }
+
+.qglass .opt-radio {
+  position:absolute; top:50%; right:14px; transform:translateY(-50%);
+  width:24px; height:24px; border-radius:50%;
+  border:1.5px solid rgba(110,154,182,0.4); background:rgba(255,255,255,0.4); box-shadow:var(--glass-sheen);
+  display:flex; align-items:center; justify-content:center; color:transparent;
+  transition:all .22s cubic-bezier(.34,1.56,.64,1);
+}
+/* en grille : puce en haut à droite (pas centrée verticalement) */
+.qglass .grid2 .opt-radio { top:13px; transform:none; }
+
+/* état sélectionné */
+.qglass .opt.sel { background:var(--fam-tint); border-color:rgba(166,195,214,0.85); box-shadow:0 14px 30px var(--fam-glow), inset 0 1px 0 rgba(255,255,255,0.7); }
+.qglass .opt.sel .opt-ic { background:linear-gradient(160deg, #B7CFDF, var(--blue-d)); border-color:rgba(255,255,255,0.55); color:#fff; box-shadow:0 6px 14px var(--fam-glow), inset 0 1px 0 rgba(255,255,255,0.5); }
+.qglass .opt.sel .opt-s { color:var(--graphite); }
+.qglass .opt.sel .opt-radio { background:linear-gradient(160deg, #B7CFDF, var(--blue-d)); border-color:transparent; color:#fff; box-shadow:0 3px 8px var(--fam-glow), inset 0 1px 0 rgba(255,255,255,0.5); transform:translateY(-50%) scale(1.06); }
+.qglass .grid2 .opt.sel .opt-radio { transform:scale(1.06); }
+.qglass .opt.dim { opacity:0.42; pointer-events:none; }
+
+/* gate (oui/non) : puce carrée pour distinguer du sous-bloc détail */
+.qglass .opt.gate .opt-radio { border-radius:8px; }
+
+/* sous-bloc conditionnel révélé (q6) */
+.qglass .sub {
+  font-family:var(--fm, 'JetBrains Mono', monospace); font-size:10.5px; letter-spacing:0.07em;
+  text-transform:uppercase; color:var(--graphite); padding:8px 4px 2px; display:flex; align-items:center; gap:8px;
+}
+.qglass .sub::before { content:""; flex:0 0 18px; height:1px; background:rgba(110,154,182,0.4); }
+
+/* pied : compteur + CTA sombre (scopé → n'affecte pas les autres .cta-btn) */
+.qglass .counter { font-family:var(--fm, 'JetBrains Mono', monospace); color:var(--graphite); letter-spacing:0.05em; white-space:nowrap; }
+.qglass .counter b { color:var(--ink); font-weight:500; }
+.qglass .cta-btn {
+  flex:1; height:56px; border-radius:16px; border:1px solid rgba(255,255,255,0.08); cursor:pointer;
+  background:linear-gradient(180deg, #2A2D34 0%, #1A1D21 100%); color:#fff; font-weight:600; letter-spacing:-0.01em;
+  display:flex; align-items:center; justify-content:center; gap:9px;
+  box-shadow:0 8px 20px rgba(26,29,33,0.26), inset 0 1px 0 rgba(255,255,255,0.22);
+  transition:opacity .2s, transform .18s, box-shadow .2s;
+}
+.qglass .cta-btn:disabled { opacity:0.34; box-shadow:none; cursor:not-allowed; }
+.qglass .cta-btn:not(:disabled):hover { transform:translateY(-2px); box-shadow:0 12px 26px rgba(26,29,33,0.30), inset 0 1px 0 rgba(255,255,255,0.28); }
+.qglass .cta-btn svg { transition:transform .2s; }
+.qglass .cta-btn:not(:disabled):hover svg { transform:translateX(3px); }

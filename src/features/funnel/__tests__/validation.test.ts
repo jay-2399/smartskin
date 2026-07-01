@@ -28,11 +28,10 @@ describe("toggleOption (multi avec exclusif)", () => {
 });
 
 describe("isStepValid", () => {
-  it("age (1ʳᵉ question) : null invalide, âge plausible valide, hors bornes invalide", () => {
+  it("age (1ʳᵉ question) : null invalide, tranche choisie valide", () => {
     expect(isStepValid("age", EMPTY_ANSWERS)).toBe(false);            // null
-    expect(isStepValid("age", { ...EMPTY_ANSWERS, age: 28 })).toBe(true);
-    expect(isStepValid("age", { ...EMPTY_ANSWERS, age: 12 })).toBe(false); // < 13
-    expect(isStepValid("age", { ...EMPTY_ANSWERS, age: 120 })).toBe(false); // > 99
+    expect(isStepValid("age", { ...EMPTY_ANSWERS, age: "25_34" })).toBe(true);
+    expect(isStepValid("age", { ...EMPTY_ANSWERS, age: "prefer_not" })).toBe(true);
   });
 
   it("q1 (multi) invalide si vide, valide si ≥1", () => {

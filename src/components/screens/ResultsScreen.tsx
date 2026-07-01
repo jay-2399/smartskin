@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
+import { ageRangeToYears } from "@/features/funnel/questions";
 import { toSections, skinAgeDelta } from "@/features/analysis/format";
 import { CARNATION_SWATCHES, UNDERTONE_SWATCHES } from "@/features/analysis/attributes";
 import { SAMPLE_RESULT } from "@/features/analysis/sample";
@@ -37,7 +38,7 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
 
   const sections = toSections(result);
   const p = result.profile;
-  const ageDelta = skinAgeDelta(result.skinAge, answers.age);
+  const ageDelta = skinAgeDelta(result.skinAge, ageRangeToYears(answers.age));
   const v = result.verdict;
 
   return (
