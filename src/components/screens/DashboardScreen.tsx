@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
+import { signOut } from "next-auth/react";
 import { useResult } from "@/features/analysis/resultStore";
 import type { IconKey, RoutineData, RestockItem } from "@/features/routine/products";
 import { useFunnel } from "@/features/funnel/store";
@@ -201,9 +202,14 @@ export function DashboardScreen({ name, avatarUrl, score, routine, startedDaysAg
           <div className="hello">Hi {name.charAt(0).toUpperCase() + name.slice(1)} 👋</div>
           <div className="date">{today}</div>
         </div>
-        <div className="ava">{avatarUrl
-          ? <img src={avatarUrl} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit", display: "block" }} />
-          : initial}</div>
+        <div className="dash-head-right">
+          <button type="button" className="dash-logout" onClick={() => signOut({ callbackUrl: "/" })} aria-label="Log out" title="Log out">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M15 17l5-5-5-5" /><path d="M20 12H9" /><path d="M9 21H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3" /></svg>
+          </button>
+          <div className="ava">{avatarUrl
+            ? <img src={avatarUrl} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit", display: "block" }} />
+            : initial}</div>
+        </div>
       </div>
 
       <div className="dash-scroll">
