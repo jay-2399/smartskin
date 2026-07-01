@@ -14,7 +14,7 @@ import { PaywallB } from "./PaywallB";
    Émet `paywall_viewed` (PostHog) + tag la variante dans Clarity pour filtrer les replays. */
 
 const PH_CONFIGURED = !!process.env.NEXT_PUBLIC_POSTHOG_KEY;
-const FLAG = "paywall-ab-split-test"; // clé du feature flag / experiment côté PostHog
+const FLAG = "different-paywall-page"; // clé du feature flag / experiment côté PostHog
 
 export function PaywallSwitch() {
   const override = useMemo<"A" | "B" | null>(() => {
