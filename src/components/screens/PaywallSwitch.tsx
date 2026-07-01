@@ -23,20 +23,20 @@ export function PaywallSwitch() {
     return v === "b" ? "B" : v === "a" ? "A" : null;
   }, []);
 
-  const flag = useFeatureFlagVariantKey(FLAG); // "control" | "test" | undefined (en cours)
+  const flag = useFeatureFlagVariantKey(FLAG); // "control" | "test" | undefined (en cours/absent)
 
-  let variant: "A" | "B" | null;
-  if (override) variant = override;
-  else if (!PH_CONFIGURED) variant = "A";
-  else if (flag === undefined) variant = null; // flag pas encore résolu → on attend (évite un mauvais comptage)
-  else variant = flag === "test" ? "B" : "A";
+  // A par défaut (jamais de page blanche, même si le flag n'existe pas / PostHog absent) ;
+  // on ne bascule sur B que si le flag dit explicitement "test".
+  const variant: "A" | "B" = override ?? (flag === "test" ? "B" : "A");
 
+  // On n'émet paywall_viewed que quand la variante est CERTAINE (override, PostHog absent,
+  // ou flag résolu) → évite de compter un "A" transitoire pendant le chargement du flag.
+  const resolved = !!override || !PH_CONFIGURED || flag !== undefined;
   useEffect(() => {
-    if (!variant) return;
+    if (!resolved) return;
     posthog.capture("paywall_viewed", { variant, source: override ? "override" : "flag" });
     (window as unknown as { clarity?: (...a: unknown[]) => void }).clarity?.("set", "paywall_variant", variant);
-  }, [variant, override]);
+  }, [resolved, variant, override]);
 
-  if (variant === null) return null; // bref, le temps que le flag se résolve
   return variant === "B" ? <PaywallB /> : <CheckoutScreen />;
 }
