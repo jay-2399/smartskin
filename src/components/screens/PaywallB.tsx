@@ -29,6 +29,14 @@ export function PaywallB() {
     }
   }, []);
 
+  // Écran immersif sombre : on passe le fond <body> en sombre (retiré au démontage)
+  // pour que les zones safe-area (bas de la barre Safari, notch) prolongent le noir
+  // au lieu d'afficher le gris clair global → plus de bande claire autour de l'écran.
+  useEffect(() => {
+    document.documentElement.classList.add("pwb-dark");
+    return () => document.documentElement.classList.remove("pwb-dark");
+  }, []);
+
   const unlock = async () => {
     if (demo) { router.push("/routine?demo=1"); return; }
     setLoading(true);
