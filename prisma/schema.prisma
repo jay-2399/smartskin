@@ -73,7 +73,10 @@ model Analysis {
   skinAge  Int?     // âge de peau estimé
   skinType String   // ex. "Mixte"
 
-  // Bilan complet en JSON (PAS la photo, jamais stockée).
+  // Chemin de la photo du scan dans Supabase Storage (bucket privé `scan-photos`).
+  // Null si l'upload a échoué ou photo absente → l'avatar retombe sur l'initiale.
+  photoPath String?
+
   answers  Json     // réponses du questionnaire
   result   Json     // AnalysisResult complet (score, 16 attributs, verdict, profil…)
 

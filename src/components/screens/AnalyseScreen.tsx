@@ -195,7 +195,7 @@ export function AnalyseScreen() {
         )}
       </div>
 
-      <div className="reassure-analyse">Your photo is analyzed then deleted — never stored.</div>
+      <div className="reassure-analyse">Your photo stays private to your account.</div>
     </div>
   );
 }

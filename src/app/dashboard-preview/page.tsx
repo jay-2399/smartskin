@@ -38,6 +38,7 @@ export default async function Page() {
   return (
     <DashboardScreen
       name="Sarah"
+      avatarUrl={null}
       score={scans[scans.length - 1].score}
       routine={reco.routine}
       startedDaysAgo={1}

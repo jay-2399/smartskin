@@ -151,7 +151,7 @@ function ChoiceView({
       </div>
 
       <div className="shutter-zone cap-choice-foot">
-        <span className="reassure-capture">Your photo is analyzed then deleted — never stored.</span>
+        <span className="reassure-capture">Your photo stays private to your account.</span>
       </div>
     </>
   );
@@ -298,7 +298,7 @@ function LiveView({ onBack }: { onBack: () => void }) {
             ← upload a photo instead
           </button>
         )}
-        <span className="reassure-capture">Your photo is analyzed then deleted.</span>
+        <span className="reassure-capture">Your photo stays private to your account.</span>
       </div>
     </>
   );

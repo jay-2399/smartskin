@@ -51,13 +51,19 @@ export async function stashPendingScan(result: AnalysisResult, answers: Answers,
   }
 }
 
-export function readPendingScan(): { result: AnalysisResult; answers: Answers; photo: Blob | null } | null {
+export function readPendingScan(): {
+  result: AnalysisResult;
+  answers: Answers;
+  photo: Blob | null; // pour le médaillon (URL.createObjectURL)
+  photoDataUrl: string | null; // pour l'upload vers /api/scan (Supabase Storage)
+} | null {
   try {
     const raw = sessionStorage.getItem(KEY);
     if (!raw) return null;
     const { result, answers, photo } = JSON.parse(raw) as Stored;
     if (!result) return null;
-    return { result, answers, photo: typeof photo === "string" ? dataUrlToBlob(photo) : null };
+    const photoDataUrl = typeof photo === "string" ? photo : null;
+    return { result, answers, photo: photoDataUrl ? dataUrlToBlob(photoDataUrl) : null, photoDataUrl };
   } catch {
     return null;
   }

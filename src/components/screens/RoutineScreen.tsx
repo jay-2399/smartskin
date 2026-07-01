@@ -32,8 +32,11 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
 
   // Après paiement (retour de Stripe + création de compte), la mémoire est vide : on
   // réhydrate le bilan depuis sessionStorage (posé avant le départ vers Stripe) → la
-  // routine s'affiche enfin. On ne persiste PAS ici : c'est le bouton « Enregistrer mon
-  // protocole » (onSave ci-dessous) qui écrit le scan sous le compte (une seule fois).
+  // routine s'affiche enfin. On PERSISTE le scan ICI, dès l'arrivée : c'est fiable et
+  // ça ne dépend plus du fait que l'utilisateur termine le deck et clique « Enregistrer »
+  // (avant, un scan non sauvegardé laissait le dashboard afficher un ancien scan). La
+  // page reste montée pendant que la routine se compose → le fetch a le temps d'aboutir.
+  // Une seule écriture : la garde `getState().result` bloque tout second passage.
   useEffect(() => {
     if (useResult.getState().result || demo) { setRehydrated(true); return; }
     const pending = readPendingScan();
@@ -41,6 +44,11 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
       useResult.getState().set(pending.result, pending.photo);
       if (pending.answers) useFunnel.setState({ answers: pending.answers });
       clearPendingScan();
+      void fetch("/api/scan", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ result: pending.result, answers: pending.answers, photo: pending.photoDataUrl }),
+      }).catch(() => {});
     }
     setRehydrated(true);
   }, [demo]);
@@ -64,16 +72,11 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
     const payload = { result, answers: demo && !stored ? EMPTY_ANSWERS : answers };
     return initRoutine(el, {
       onExit: () => router.back(),
-      // « Enregistrer mon protocole » : persiste le scan en arrière-plan (best-effort,
-      // 401 ignoré en démo) puis redirige immédiatement vers le dashboard.
+      // « Enregistrer mon protocole » : le scan est DÉJÀ persisté (à la réhydratation
+      // ci-dessus). Ici on garde juste la routine VALIDÉE en mémoire → le dashboard
+      // l'affiche telle quelle, puis on redirige.
       onSave: (validated) => {
-        // Garde la routine VALIDÉE en mémoire → le dashboard l'affiche telle quelle.
         useResult.getState().setValidatedRoutine(validated);
-        void fetch("/api/scan", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(payload),
-        }).catch(() => {});
         router.push("/dashboard");
       },
       faceUrl,

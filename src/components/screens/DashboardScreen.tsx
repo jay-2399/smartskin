@@ -62,7 +62,7 @@ function estimate(p: RestockItem, elapsedDays: number) {
   return { left: Math.max(0, Math.round(total - elapsedDays)), pctUsed: Math.min(100, Math.round((elapsedDays / total) * 100)) };
 }
 
-export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn, history, priorities, lastAnswers, firstDateLabel, nextDateLabel, nextDateFull, phase }: { name: string; score: number; routine: RoutineData; startedDaysAgo: number; loggedIn: boolean; history: HistPoint[]; priorities: PriorityData[]; lastAnswers: Answers; firstDateLabel: string | null; nextDateLabel: string; nextDateFull: string; phase: number }) {
+export function DashboardScreen({ name, avatarUrl, score, routine, startedDaysAgo, loggedIn, history, priorities, lastAnswers, firstDateLabel, nextDateLabel, nextDateFull, phase }: { name: string; avatarUrl: string | null; score: number; routine: RoutineData; startedDaysAgo: number; loggedIn: boolean; history: HistPoint[]; priorities: PriorityData[]; lastAnswers: Answers; firstDateLabel: string | null; nextDateLabel: string; nextDateFull: string; phase: number }) {
   const router = useRouter();
   // « Analyser » : re-scan = on réutilise les réponses du dernier scan, on ne refait
   // que la photo, et on reviendra au dashboard à la fin (cf. funnel store `rescan`).
@@ -201,7 +201,9 @@ export function DashboardScreen({ name, score, routine, startedDaysAgo, loggedIn
           <div className="hello">Hi {name.charAt(0).toUpperCase() + name.slice(1)} 👋</div>
           <div className="date">{today}</div>
         </div>
-        <div className="ava">{initial}</div>
+        <div className="ava">{avatarUrl
+          ? <img src={avatarUrl} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit", display: "block" }} />
+          : initial}</div>
       </div>
 
       <div className="dash-scroll">

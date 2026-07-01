@@ -3,7 +3,8 @@ import { analyzePhoto } from "@/features/analysis/analyze";
 
 // Analyse la photo + les réponses et renvoie le bilan.
 // Pas d'auth ni de sauvegarde pour l'instant (mode test sans compte) :
-// le compte + l'historique viendront avec le Plan 4. La photo n'est jamais stockée.
+// le compte + l'historique viendront avec le Plan 4. Cette route n'écrit rien : la photo
+// n'est stockée qu'à la sauvegarde du scan (/api/scan → Supabase Storage).
 export async function POST(request: Request) {
   const { answers, image } = await request.json();
   if (!answers || !image) {
