@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
@@ -26,7 +26,29 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
   const stored = useResult((s) => s.result);
   const photo = useResult((s) => s.photo);
   const answers = useFunnel((s) => s.answers);
+  const [rehydrated, setRehydrated] = useState(false);
   const result = stored ?? (demo ? SAMPLE_RESULT : null);
+
+  // Après paiement (retour de Stripe + création de compte), la mémoire est vide : on
+  // réhydrate le bilan depuis sessionStorage (posé avant le départ vers Stripe) → la
+  // routine s'affiche enfin. Si connecté, on persiste le scan sous le compte (best
+  // effort) pour qu'il apparaisse aussi au dashboard, puis on nettoie la clé.
+  useEffect(() => {
+    if (useResult.getState().result || demo) { setRehydrated(true); return; }
+    try {
+      const raw = sessionStorage.getItem("smartskin-pending-scan");
+      if (raw) {
+        const { result: r, answers: a } = JSON.parse(raw);
+        if (r) {
+          useResult.getState().set(r, null);
+          if (a) useFunnel.setState({ answers: a });
+          void fetch("/api/scan", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ result: r, answers: a }) }).catch(() => {});
+          sessionStorage.removeItem("smartskin-pending-scan");
+        }
+      }
+    } catch { /* JSON invalide → ignoré */ }
+    setRehydrated(true);
+  }, [demo]);
 
   // Médaillon de l'intro V2 : la VRAIE photo de l'analyse (en mémoire, jamais
   // stockée), repli sur un visage générique en démo (sans photo).
@@ -34,10 +56,10 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
   useEffect(() => () => { if (photoUrl) URL.revokeObjectURL(photoUrl); }, [photoUrl]);
   const faceUrl = photoUrl ?? "/capture-face.jpg";
 
-  // Pas de bilan en mémoire → on renvoie à l'accueil.
+  // Pas de bilan, MÊME après tentative de réhydratation → on renvoie à l'accueil.
   useEffect(() => {
-    if (!result) router.replace("/");
-  }, [result, router]);
+    if (rehydrated && !result) router.replace("/");
+  }, [rehydrated, result, router]);
 
   // Monte l'expérience impérative IMMÉDIATEMENT : l'intro animée joue pendant que
   // `load` compose la routine côté serveur, puis le deck se révèle (cleanup au démontage).

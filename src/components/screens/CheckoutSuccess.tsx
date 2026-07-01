@@ -1,13 +1,15 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 import "./auth.css";
 
-/* Page de retour après paiement Stripe (flux « paiement puis compte »). Si le paiement
-   est confirmé, on envoie automatiquement un lien de connexion à l'EMAIL PAYÉ → le
-   compte (créé par le webhook avec l'accès « à vie ») se connecte sans risque de
-   divergence d'email. Google reste proposé comme alternative. */
+/* Page de retour après paiement Stripe. Un nouveau payeur n'a PAS encore de compte :
+   on lui fait donc CRÉER un compte (email + mot de passe), pas « se connecter ».
+   L'email est verrouillé sur l'EMAIL DU PAIEMENT (le webhook a accordé l'accès « à vie »
+   à cet email). Une fois le compte créé, on va sur /routine : RoutineScreen réhydrate le
+   bilan depuis sessionStorage (posé avant le départ vers Stripe) → la routine s'affiche. */
 
 const GoogleIcon = () => (
   <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden>
@@ -17,28 +19,51 @@ const GoogleIcon = () => (
     <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42A11.95 11.95 0 0 0 12 0 12 12 0 0 0 1.29 6.62l3.98 3.09C6.22 6.86 8.87 4.75 12 4.75Z" />
   </svg>
 );
-const CheckIcon = () => (
-  <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-    <path d="M4 12.5l5 5L20 6" />
-  </svg>
-);
 
-export function CheckoutSuccess({ email, paid }: { email: string | null; paid: boolean }) {
-  const [sent, setSent] = useState(false);
+export function CheckoutSuccess({ email: paidEmail, paid }: { email: string | null; paid: boolean }) {
+  const router = useRouter();
+  const [email, setEmail] = useState(paidEmail ?? "");
+  const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const emailLocked = !!paidEmail; // l'accès est lié à l'email payé → on le verrouille
 
-  useEffect(() => {
-    if (!paid || !email) return;
-    let alive = true;
-    signIn("resend", { email, redirect: false, callbackUrl: "/routine" })
-      .then((res) => {
-        if (!alive) return;
-        if (res?.error) setError("The link couldn't be sent to this address.");
-        else setSent(true);
-      })
-      .catch(() => { if (alive) setError("Something went wrong."); });
-    return () => { alive = false; };
-  }, [paid, email]);
+  const submit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (loading || !email || password.length < 8) return;
+    setError(null);
+    setLoading(true);
+    try {
+      const reg = await fetch("/api/register", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
+      });
+      // 200 (nouveau) ou 409 (email déjà utilisé → il se connecte) → on continue ; sinon erreur.
+      if (reg.status !== 200 && reg.status !== 409) {
+        const data = await reg.json().catch(() => ({}));
+        setError(data?.issues?.password?.[0] ?? data?.issues?.email?.[0] ?? "Sign-up failed.");
+        setLoading(false);
+        return;
+      }
+      const res = await signIn("credentials", { email, password, redirect: false });
+      if (res?.error) {
+        setError(reg.status === 409 ? "This email already has an account — wrong password?" : "Sign-in failed.");
+        setLoading(false);
+        return;
+      }
+      // Compte OK → la routine se réhydrate sur /routine (depuis sessionStorage).
+      router.push("/routine");
+    } catch {
+      setError("Something went wrong.");
+      setLoading(false);
+    }
+  };
+
+  const google = () => {
+    setLoading(true);
+    signIn("google", { callbackUrl: "/routine" });
+  };
 
   if (!paid) {
     return (
@@ -46,7 +71,7 @@ export function CheckoutSuccess({ email, paid }: { email: string | null; paid: b
         <div className="auth-brand"><Image src="/logo-smartskin.png" alt="SmartSkin AI" width={133} height={26} priority /></div>
         <div className="auth-card">
           <h1 className="auth-title">Payment not confirmed</h1>
-          <p className="auth-sub">We couldn't confirm your payment. You can try again.</p>
+          <p className="auth-sub">We couldn&apos;t confirm your payment. You can try again.</p>
           <p className="auth-switch"><a href="/checkout">Back to payment</a></p>
         </div>
       </div>
@@ -57,23 +82,34 @@ export function CheckoutSuccess({ email, paid }: { email: string | null; paid: b
     <div className="auth">
       <div className="auth-brand"><Image src="/logo-smartskin.png" alt="SmartSkin AI" width={133} height={26} priority /></div>
       <div className="auth-card">
-        <div className="auth-sent">
-          <span className="auth-sent-ic"><CheckIcon /></span>
-          <b>Payment successful 🎉</b>
-          <p>
-            {sent
-              ? <>We sent a sign-in link to <strong>{email}</strong>. Click it to access your protocol.</>
-              : error
-                ? error
-                : <>Preparing your access…</>}
-          </p>
-        </div>
+        <h1 className="auth-title">Payment successful 🎉</h1>
+        <p className="auth-sub">Create your account to unlock your protocol.</p>
 
-        <div className="auth-divider"><span>or sign in with</span></div>
-        <button type="button" className="auth-oauth" onClick={() => signIn("google", { callbackUrl: "/routine" })}>
+        <button type="button" className="auth-oauth" onClick={google} disabled={loading}>
           <GoogleIcon />Continue with Google
         </button>
-        {email && <p className="auth-reassure"><CheckIcon />Preferably use <strong>{email}</strong> (your payment address).</p>}
+        <div className="auth-divider"><span>or with a password</span></div>
+
+        <form onSubmit={submit} className="auth-form">
+          <label className="auth-field">
+            <span>Email</span>
+            <input type="email" autoComplete="email" required value={email} readOnly={emailLocked}
+              onChange={(e) => setEmail(e.target.value)} placeholder="you@email.com" />
+          </label>
+          <label className="auth-field">
+            <span>Choose a password</span>
+            <input type="password" autoComplete="new-password" required minLength={8} value={password}
+              onChange={(e) => setPassword(e.target.value)} placeholder="8 characters minimum" />
+          </label>
+
+          {error && <p className="auth-error">{error}</p>}
+
+          <button type="submit" className="auth-cta" disabled={loading || !email || password.length < 8}>
+            {loading ? "One moment…" : "Create my account & see my protocol"}
+          </button>
+        </form>
+
+        {emailLocked && <p className="auth-reassure">Use <strong>{paidEmail}</strong> — the email of your payment.</p>}
       </div>
     </div>
   );

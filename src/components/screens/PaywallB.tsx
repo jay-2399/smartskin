@@ -2,6 +2,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import posthog from "posthog-js";
+import { useResult } from "@/features/analysis/resultStore";
+import { useFunnel } from "@/features/funnel/store";
 import "./paywall-b.css";
 
 /* Paywall — Variant B (dark immersif) pour l'A/B test. Port de paywall/B/paywall.html.
@@ -41,6 +43,11 @@ export function PaywallB() {
   const unlock = async () => {
     posthog.capture("paywall_cta_clicked", { variant: "B" });
     if (demo) { router.push("/routine?demo=1"); return; }
+    // Bilan mis de côté avant Stripe (réhydraté au retour, après création de compte).
+    try {
+      const result = useResult.getState().result;
+      if (result) sessionStorage.setItem("smartskin-pending-scan", JSON.stringify({ result, answers: useFunnel.getState().answers }));
+    } catch { /* sessionStorage indispo → tant pis */ }
     setLoading(true);
     try {
       const res = await fetch("/api/checkout", { method: "POST" });
