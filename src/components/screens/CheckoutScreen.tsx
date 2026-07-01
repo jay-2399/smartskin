@@ -2,6 +2,7 @@
 import { useMemo, useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import posthog from "posthog-js";
 import "./checkout.css";
 
 /* Checkout / paywall — port de checkout-package/checkout.html (anglais, tokens
@@ -26,6 +27,7 @@ export function CheckoutScreen() {
   const [loading, setLoading] = useState(false);
 
   const unlock = async () => {
+    posthog.capture("paywall_cta_clicked", { variant: "A" });
     // Démo → on saute le paiement. Sinon → session Stripe Checkout puis redirection
     // vers la page de paiement hébergée par Stripe.
     if (demo) { router.push("/routine?demo=1"); return; }

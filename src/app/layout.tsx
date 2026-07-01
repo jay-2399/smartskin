@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Manrope, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Clarity } from "@/components/Clarity";
+import { PostHogProvider } from "@/components/PostHogProvider";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -37,7 +38,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className={`${manrope.variable} ${jetbrains.variable}`}>
-      <body><Clarity />{children}</body>
+      <body><PostHogProvider><Clarity />{children}</PostHogProvider></body>
     </html>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import posthog from "posthog-js";
 import "./paywall-b.css";
 
 /* Paywall — Variant B (dark immersif) pour l'A/B test. Port de paywall/B/paywall.html.
@@ -38,6 +39,7 @@ export function PaywallB() {
   }, []);
 
   const unlock = async () => {
+    posthog.capture("paywall_cta_clicked", { variant: "B" });
     if (demo) { router.push("/routine?demo=1"); return; }
     setLoading(true);
     try {
