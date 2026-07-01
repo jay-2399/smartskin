@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartSkin AI — Ton protocole est prêt</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+:root {
+  --ink:#0E1014; --white:#FFFFFF;
+  --t1:rgba(255,255,255,0.96); --t2:rgba(255,255,255,0.64); --t3:rgba(255,255,255,0.42);
+  --accent:#BCD5E6; --accent-soft:rgba(166,195,214,0.16); --accent-line:rgba(188,213,230,0.85);
+  --green:#39D286; --green-bg:rgba(57,210,134,0.16);
+  --glass:rgba(255,255,255,0.055); --glass-line:rgba(255,255,255,0.13);
+  --fd:'Manrope',sans-serif; --fm:'JetBrains Mono',monospace;
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+html { -webkit-font-smoothing:antialiased; }
+body { background:#0A0B0E; min-height:100dvh; font-family:var(--fd); color:var(--white); display:flex; justify-content:center; }
+.phone { display:contents; }
+/* écran responsive : largeur fluide (max 430, cible 390), hauteur en dvh — jamais de px fixe. */
+.screen { position:relative; width:100%; max-width:430px; min-height:100dvh; margin:0 auto; display:flex; flex-direction:column; background:var(--ink); overflow:hidden; }
+@media (min-width:480px){
+  body { padding:24px 16px; align-items:flex-start; }
+  .screen { min-height:min(calc(100dvh - 48px), 884px); border-radius:46px; box-shadow:0 0 0 1px rgba(0,0,0,0.5),0 32px 80px rgba(0,0,0,0.5); }
+}
+
+/* ── média plein écran (placeholder vidéo produits — swappe src/poster, ou remplace par <img class="bg">) ── */
+.bg { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center center; z-index:0;
+  transform:translateY(-12%);  /* remonte les produits (centrés dans la source) au-dessus du contenu */
+  filter:brightness(0.56) saturate(1.08) contrast(1.03); }
+.scrim { position:absolute; inset:0; z-index:1; pointer-events:none;
+  background:
+    radial-gradient(120% 80% at 50% 8%, rgba(166,195,214,0.16), transparent 52%),
+    linear-gradient(180deg, rgba(14,16,20,0.55) 0%, rgba(14,16,20,0.12) 24%, rgba(13,15,18,0.72) 56%, rgba(11,12,15,0.94) 78%, #0B0C0F 100%); }
+.grain { position:absolute; inset:0; z-index:1; pointer-events:none; opacity:0.4; mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+
+/* ── couche UI ── */
+.ui { position:relative; z-index:2; flex:1; display:flex; flex-direction:column;
+  padding:calc(env(safe-area-inset-top) + 20px) 24px calc(env(safe-area-inset-bottom) + 22px); }
+
+.ui-top { position:relative; display:flex; align-items:center; justify-content:space-between; }
+.brand { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); pointer-events:none; }
+.brand img { height:28px; width:auto; display:block; opacity:0.96; }
+.icbtn { width:38px; height:38px; border-radius:50%; background:rgba(255,255,255,0.10); border:1px solid rgba(255,255,255,0.14); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); display:flex; align-items:center; justify-content:center; color:var(--white); text-decoration:none; transition:transform .14s; }
+.icbtn:active, .icbtn:active { transform:scale(0.94); }
+.icbtn svg { width:16px; height:16px; }
+.restore-top { font-size:12px; font-weight:600; color:var(--t2); text-decoration:none; letter-spacing:-0.01em; }
+.restore-top:active { color:var(--white); }
+
+.spacer { flex:1; min-height:96px; }
+
+.content { animation:rise .6s var(--ease) both .08s; }
+.eyebrow { display:inline-flex; align-items:center; gap:7px; font-family:var(--fm); font-size:10px; letter-spacing:0.16em; text-transform:uppercase; color:var(--accent); font-weight:500; }
+.eyebrow .dot { width:7px; height:7px; border-radius:50%; background:var(--green); box-shadow:0 0 0 4px var(--green-bg); }
+h1 { font-weight:800; font-size:33px; line-height:1.03; letter-spacing:-0.044em; margin-top:0; }
+h1 .soft { font-weight:300; color:var(--t2); }
+.sub { font-size:13.5px; line-height:1.5; color:var(--t2); margin-top:11px; max-width:320px; }
+.sub b { color:var(--t1); font-weight:700; }
+
+.feats { margin-top:18px; display:flex; flex-direction:column; gap:10px; }
+.feat { display:flex; align-items:center; gap:10px; }
+.feat .ck { width:19px; height:19px; flex-shrink:0; border-radius:50%; background:var(--accent-soft); border:1px solid var(--glass-line); color:var(--accent); display:flex; align-items:center; justify-content:center; }
+.feat .ck svg { width:11px; height:11px; }
+.feat span { font-size:13px; font-weight:500; color:var(--t1); letter-spacing:-0.01em; }
+.feat span b { font-weight:700; }
+
+/* ── social proof (au-dessus du titre) ── */
+.proof { display:flex; align-items:center; gap:11px; margin-bottom:16px; }
+.avatars { display:flex; }
+.av { width:30px; height:30px; border-radius:50%; border:2.5px solid #fff; margin-left:-9px; overflow:hidden; }
+.av:first-child { margin-left:0; }
+.av img { width:100%; height:100%; object-fit:cover; display:block; }
+.av.a1 { background:#CBD9E1; } .av.a2 { background:#DCCDB6; } .av.a3 { background:#C7D9CC; } .av.a4 { background:#D6D2DE; }
+.proof-tx .stars { color:#F1C15A; font-size:12px; letter-spacing:2px; line-height:1; }
+.proof-tx .proof-l { font-size:12px; color:var(--t2); margin-top:3px; letter-spacing:-0.005em; }
+.proof-tx .proof-l b { color:var(--white); font-weight:700; }
+
+/* ── offre unique (lifetime) ── */
+.offer { position:relative; margin-top:18px; border-radius:18px; padding:16px 17px 15px; background:var(--accent-soft); border:1.5px solid var(--accent-line); -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px); }
+.offer-top { display:flex; align-items:center; justify-content:space-between; }
+.offer-name { font-family:var(--fm); font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:var(--t2); }
+.offer-badge { font-size:10px; font-weight:800; letter-spacing:0.04em; color:var(--green); background:var(--green-bg); padding:3px 9px; border-radius:100px; }
+.offer-price { display:flex; align-items:baseline; gap:11px; margin-top:10px; }
+.offer-now { font-size:34px; font-weight:800; letter-spacing:-0.04em; }
+.offer-old { font-size:16px; font-weight:700; color:var(--t3); text-decoration:line-through; }
+.offer-meta { font-size:11.5px; color:var(--t2); margin-top:5px; }
+.offer-meta b { color:var(--white); font-weight:700; }
+
+/* CTA blanc — effet "glass" glossy (galbe + reflet bombé) */
+.cta { margin-top:16px; position:relative; overflow:hidden; height:58px; border-radius:18px; border:none; cursor:pointer; width:100%;
+  color:var(--ink); font-family:var(--fd); font-weight:800; font-size:15.5px; letter-spacing:-0.015em;
+  display:flex; align-items:center; justify-content:center; gap:10px;
+  background:linear-gradient(180deg, #fdfdfe 0%, #e8ebf0 50%, #cfd4de 100%);
+  box-shadow:
+    inset 0 2px 0 rgba(255,255,255,1),
+    inset 0 -13px 18px rgba(80,92,114,0.48),
+    inset 0 0 0 1px rgba(0,0,0,0.07),
+    0 3px 6px rgba(0,0,0,0.32),
+    0 12px 26px rgba(0,0,0,0.44),
+    0 26px 54px rgba(0,0,0,0.32);
+  transition:transform .15s, box-shadow .2s; }
+/* reflet de verre bombé sur la moitié haute */
+.cta::before { content:''; position:absolute; left:3px; right:3px; top:2px; height:52%; z-index:0; pointer-events:none;
+  border-radius:15px 15px 46% 46% / 15px 15px 28px 28px;
+  background:linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.4) 56%, rgba(255,255,255,0) 100%); }
+.cta svg, .cta span { position:relative; z-index:1; }
+.cta svg { width:16px; height:16px; }
+.cta:hover { transform:translateY(-2px);
+  box-shadow:
+    inset 0 2px 0 rgba(255,255,255,1),
+    inset 0 -13px 18px rgba(80,92,114,0.48),
+    inset 0 0 0 1px rgba(0,0,0,0.07),
+    0 5px 10px rgba(0,0,0,0.36),
+    0 18px 36px rgba(0,0,0,0.48),
+    0 34px 66px rgba(0,0,0,0.36); }
+.cta:active { transform:translateY(2px);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.95),
+    inset 0 -7px 11px rgba(80,92,114,0.5),
+    inset 0 0 0 1px rgba(0,0,0,0.07),
+    0 2px 5px rgba(0,0,0,0.30),
+    0 7px 16px rgba(0,0,0,0.36); }
+
+.later { display:block; text-align:center; margin-top:14px; font-size:13px; font-weight:600; color:var(--t2); text-decoration:none; }
+.later:active { color:var(--white); }
+.fine { display:flex; align-items:center; justify-content:center; gap:7px; flex-wrap:wrap; margin-top:13px; font-size:10.5px; color:var(--t3); }
+.fine svg { width:11px; height:11px; color:var(--green); vertical-align:middle; margin-right:3px; }
+.fine .sep { opacity:0.4; }
+
+a:focus-visible, button:focus-visible { outline:2px solid var(--accent); outline-offset:3px; border-radius:14px; }
+
+@keyframes rise { from{opacity:0; transform:translateY(13px);} to{opacity:1; transform:none;} }
+@keyframes shine { 0%{ left:-60%;} 55%,100%{ left:130%;} }
+@media (prefers-reduced-motion: reduce){ *,*::before,*::after{ animation:none !important; transition:none !important; } }
+</style>
+</head>
+<body>
+<div class="phone">
+<div class="screen">
+  <!-- MÉDIA : vidéo produits portrait 9:16. Swappe src/poster pour un autre visuel. -->
+  <video class="bg" src="hero-portrait.mp4" poster="hero-portrait.png" autoplay muted loop playsinline></video>
+  <div class="scrim"></div>
+  <div class="grain"></div>
+
+  <div class="ui">
+    <div class="ui-top">
+      <a class="icbtn" href="face-reveal.html" aria-label="Back to diagnosis"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"/></svg></a>
+      <div class="brand"><img src="logo-smartskin-white.png" alt="SmartSkin AI"></div>
+      <a class="restore-top" href="#">Restore</a>
+    </div>
+
+    <div class="spacer"></div>
+
+    <div class="content">
+      <div class="proof">
+        <div class="avatars">
+          <span class="av a1"><img src="avatar-1.jpg" alt="" style="object-position:center 32%"></span>
+          <span class="av a2"><img src="avatar-2.jpg" alt="" style="object-position:center 26%"></span>
+          <span class="av a3"><img src="avatar-3.jpg" alt="" style="object-position:center 52%"></span>
+          <span class="av a4"><img src="avatar-4.jpg" alt="" style="object-position:68% 28%"></span>
+        </div>
+        <div class="proof-tx">
+          <div class="stars">★★★★★</div>
+          <div class="proof-l">Loved by <b>1,000+ users</b></div>
+        </div>
+      </div>
+      <h1>Your protocol<br><span class="soft">is</span> ready.</h1>
+      <p class="sub">Your morning &amp; evening routine, <b>made specifically for your skin</b>.</p>
+
+      <div class="feats">
+        <div class="feat"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span><b>Morning &amp; evening routine</b> · 8 real products</span></div>
+        <div class="feat"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span>Full dosage, like a prescription</span></div>
+        <div class="feat"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span>Full report · 16 metrics &amp; actives</span></div>
+        <div class="feat"><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg></span><span>Track &amp; re-scan your skin over time</span></div>
+      </div>
+
+      <div class="offer">
+        <div class="offer-top">
+          <span class="offer-name">Lifetime access</span>
+          <span class="offer-badge">−84%</span>
+        </div>
+        <div class="offer-price">
+          <span class="offer-now">$7.95</span>
+          <span class="offer-old">$49.95</span>
+        </div>
+        <div class="offer-meta">One-time payment · <b>no subscription</b>, yours forever.</div>
+      </div>
+
+      <button class="cta" onclick="location.href='checkout.html'">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 11V8a5 5 0 0 1 9.9-1"/><rect x="5" y="11" width="14" height="9" rx="2.5"/><path d="M12 15v2"/></svg>
+        <span>Unlock my protocol · $7.95</span>
+      </button>
+
+      <div class="fine">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Secure payment</span>
+        <span class="sep">·</span><span>no subscription</span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+  // Respect prefers-reduced-motion: freeze the video on its poster.
+  if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.querySelectorAll('video').forEach(v => { v.removeAttribute('autoplay'); v.pause(); });
+  }
+</script>
+</body>
+</html>

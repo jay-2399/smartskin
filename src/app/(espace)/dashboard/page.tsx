@@ -7,7 +7,6 @@ import { EMPTY_ANSWERS, type Answers } from "@/features/funnel/types";
 import { topConcerns, levelOf, derivePhase } from "@/features/routine/recommend";
 import { ATTRIBUTE_BY_ID, LEVEL_TO_PERCENT } from "@/features/analysis/attributes";
 import { DashboardScreen } from "@/components/screens/DashboardScreen";
-import { signedPhotoUrl } from "@/lib/storage";
 
 // Dashboard = espace de suivi. Données RÉELLES : TOUT l'historique des scans du compte
 // → la courbe (un point par scan) + l'évolution des 3 priorités (dernier vs précédent)
@@ -25,7 +24,7 @@ export default async function Page() {
   // prédicat de type : un scan invalide donne [] (filtré), un valide donne [objet].
   const parsed = scans.flatMap((s) => {
     const r = AnalysisResultSchema.safeParse(s.result);
-    return r.success ? [{ date: s.createdAt, score: s.score, result: r.data, answers: s.answers, photoPath: s.photoPath }] : [];
+    return r.success ? [{ date: s.createdAt, score: s.score, result: r.data, answers: s.answers, photoData: s.photoData }] : [];
   });
 
   const latest = parsed.at(-1) ?? null;
@@ -82,9 +81,9 @@ export default async function Page() {
   // Plan de routine = phase de progression déduite de l'expérience déclarée (q3).
   const phase = derivePhase(answers);
 
-  // Photo de profil = photo du DERNIER scan (bucket privé → URL signée courte durée).
-  // Null si pas de photo → l'avatar retombe sur l'initiale.
-  const avatarUrl = latest?.photoPath ? await signedPhotoUrl(latest.photoPath) : null;
+  // Photo de profil = photo du DERNIER scan (data URL stockée en base, utilisable telle
+  // quelle dans <img>). Null si absente → l'avatar retombe sur l'initiale.
+  const avatarUrl = latest?.photoData ?? null;
 
   return (
     <DashboardScreen

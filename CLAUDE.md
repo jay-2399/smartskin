@@ -66,7 +66,7 @@ La **partie analyse** de SmartSkin : questionnaire + photo de visage contrôlée
 - `app/(funnel)` = public ; `app/(espace)` = protégé (session requise).
 
 ## F. Contraintes NON négociables
-- **La photo du scan EST stockée** (décision produit du 2026-07-01, revient sur l'ancienne règle « jamais stockée ») : uploadée dans **Supabase Storage** (bucket PRIVÉ `scan-photos`), seul son chemin est gardé en base (`Analysis.photoPath`) ; affichée en avatar via URL signée. Pas de colonne binaire en base. ⚠️ Donnée sensible/biométrique : consentement explicite RGPD **non** encore implémenté (choix assumé, à traiter avant lancement large).
+- **La photo du scan EST stockée** (décision produit du 2026-07-01, revient sur l'ancienne règle « jamais stockée ») : gardée **directement en base** (data URL base64 dans `Analysis.photoData`) → affichée en avatar du dashboard. Simple, zéro infra externe ; à migrer vers un vrai stockage fichier si volumétrie. ⚠️ Donnée sensible/biométrique : consentement explicite RGPD **non** encore implémenté (choix assumé, à traiter avant lancement large).
 - **Tout traitement de la photo dans l'UE** (Vertex AI europe-west + DPA). Photo de visage = donnée sensible.
 - **Clé Gemini côté serveur uniquement** (jamais exposée au navigateur). `/api/analyze` rate-limité.
 - **Le bouton capture est désactivé tant que TOUS les critères bloquants ne sont pas verts** (6 bloquants + modèle chargé ; centrage = soft). Pas d'échappatoire « prendre quand même ».
