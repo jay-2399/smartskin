@@ -31,8 +31,8 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
 
   // Après paiement (retour de Stripe + création de compte), la mémoire est vide : on
   // réhydrate le bilan depuis sessionStorage (posé avant le départ vers Stripe) → la
-  // routine s'affiche enfin. Si connecté, on persiste le scan sous le compte (best
-  // effort) pour qu'il apparaisse aussi au dashboard, puis on nettoie la clé.
+  // routine s'affiche enfin. On ne persiste PAS ici : c'est le bouton « Enregistrer mon
+  // protocole » (onSave ci-dessous) qui écrit le scan sous le compte (une seule fois).
   useEffect(() => {
     if (useResult.getState().result || demo) { setRehydrated(true); return; }
     try {
@@ -42,7 +42,6 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
         if (r) {
           useResult.getState().set(r, null);
           if (a) useFunnel.setState({ answers: a });
-          void fetch("/api/scan", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ result: r, answers: a }) }).catch(() => {});
           sessionStorage.removeItem("smartskin-pending-scan");
         }
       }
