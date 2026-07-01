@@ -1,0 +1,96 @@
+/* Refonte visuelle « liquid glass » du FACE REVEAL (écran résultats), portée de
+   face-reveal-liquidglass/face-reveal.html (source de vérité visuelle). TOUT est scopé
+   sous `.results` (la classe est déjà sur le root `.screen.results`) → n'affecte que le
+   reveal, pas les écrans qui partagent funnel.css. On garde le markup + le contenu
+   DYNAMIQUE de l'app ; on ne change que la peau (verre + orbes + curseurs sombres). */
+
+.screen.results {
+  --tan:#A6C3D6; --cloud:#EDEFF7; --arsenic:#40424D;
+  position:relative; z-index:0; isolation:isolate;
+  background:linear-gradient(168deg,#EFF2F7 0%,#E5EAF1 100%);
+}
+/* orbes atmosphériques froids (version atténuée du tunnel), bande haute, derrière tout */
+.screen.results::before {
+  content:''; position:absolute; top:-6%; left:-12%; right:-12%; height:130vh;
+  z-index:-1; pointer-events:none;
+  background:
+    radial-gradient(36% 22% at 15% 4%,  rgba(166,195,214,0.45), transparent 68%),
+    radial-gradient(30% 20% at 92% 30%, rgba(179,160,201,0.20), transparent 70%),
+    radial-gradient(44% 24% at 52% 96%, rgba(157,188,166,0.28), transparent 70%);
+  filter:saturate(1.06);
+}
+
+/* bouton retour en verre */
+.results .nav-back {
+  background:linear-gradient(180deg, rgba(255,255,255,0.72), rgba(255,255,255,0.46));
+  backdrop-filter:blur(14px) saturate(1.5); -webkit-backdrop-filter:blur(14px) saturate(1.5);
+  border:1px solid rgba(255,255,255,0.7);
+  box-shadow:inset 0 1px 1px rgba(255,255,255,0.9), 0 2px 8px rgba(26,29,33,0.12), 0 0 0 0.5px rgba(0,0,0,0.04);
+}
+
+/* ── cartes en verre dépoli (hero, stats, verdict, profil, métriques) ── */
+.results .hero-card,
+.results .hstat,
+.results .meta,
+.results .vcard {
+  background:linear-gradient(180deg, rgba(255,255,255,0.80), rgba(255,255,255,0.62));
+  backdrop-filter:blur(18px) saturate(1.4); -webkit-backdrop-filter:blur(18px) saturate(1.4);
+  border:1px solid rgba(255,255,255,0.62);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.75), 0 1px 2px rgba(0,0,0,0.03), 0 8px 22px rgba(40,55,75,0.075);
+}
+.results .hero-card { backdrop-filter:blur(20px) saturate(1.4); -webkit-backdrop-filter:blur(20px) saturate(1.4);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.75), 0 1px 3px rgba(0,0,0,0.04), 0 12px 30px rgba(40,55,75,0.08); }
+/* la « lecture experte » : verre un peu plus opaque (texte long, lisibilité d'abord) */
+.results .verdict {
+  background:linear-gradient(180deg, rgba(255,255,255,0.88), rgba(255,255,255,0.74));
+  backdrop-filter:blur(20px) saturate(1.4); -webkit-backdrop-filter:blur(20px) saturate(1.4);
+  border:1px solid rgba(255,255,255,0.66);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.8), 0 1px 3px rgba(0,0,0,0.035), 0 14px 36px rgba(40,55,75,0.09);
+}
+.results .hstat::after { content:''; position:absolute; top:0; right:0; width:60px; height:60px;
+  background:radial-gradient(circle at 100% 0, rgba(166,195,214,0.22), transparent 70%); pointer-events:none; }
+
+/* ── nuancier carnation / sous-ton : billes glossy ── */
+.results .sw { position:relative; box-shadow:inset 0 0 0 1px rgba(0,0,0,0.10), 0 1px 2px rgba(0,0,0,0.18); }
+.results .sw::after { content:''; position:absolute; inset:0; border-radius:50%; pointer-events:none;
+  background:radial-gradient(circle at 32% 26%, rgba(255,255,255,0.72), rgba(255,255,255,0.12) 42%, rgba(0,0,0,0.14) 100%); }
+.results .sw.on { box-shadow:inset 0 0 0 1px rgba(0,0,0,0.12), 0 0 0 2px #fff, 0 0 0 3.5px var(--ink), 0 3px 7px rgba(26,29,33,0.28); }
+
+/* ── réaction au soleil : barre dégradé peau + handle = lentille verre ── */
+.results .ps-track {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 48%),
+    linear-gradient(to right, #F6E0CE, #EECBA6, #DFAE84, #C5895A, #9B6440, #5E3A25);
+  box-shadow:inset 0 1px 1px rgba(255,255,255,0.55), inset 0 -1.5px 2.5px rgba(0,0,0,0.22),
+    inset 0 0 0 0.5px rgba(255,255,255,0.30), 0 1px 2px rgba(26,29,33,0.14);
+}
+.results .ps-handle {
+  background:linear-gradient(180deg, rgba(255,255,255,0.82) 0%, rgba(255,255,255,0.42) 100%);
+  backdrop-filter:blur(2.5px) saturate(1.6); -webkit-backdrop-filter:blur(2.5px) saturate(1.6);
+  border:1px solid rgba(255,255,255,0.8);
+  box-shadow:inset 0 1.5px 1px rgba(255,255,255,0.95), inset 0 -3px 5px rgba(78,90,110,0.32),
+    0 3px 9px rgba(26,29,33,0.36), 0 0 0 0.5px rgba(0,0,0,0.06);
+}
+.results .ps-handle::after { content:''; position:absolute; top:3.5px; left:4.5px; width:7px; height:6px; border-radius:50%;
+  pointer-events:none; background:radial-gradient(circle, rgba(255,255,255,0.95), rgba(255,255,255,0) 70%); }
+
+/* ── spectres des métriques : canal de verre + curseur pilule sombre ── */
+.results .gauge-track {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0) 48%),
+    linear-gradient(90deg, #2BC182 0%, #86C65C 28%, #EBC44E 54%, #EA9A54 78%, #E06657 100%);
+  box-shadow:inset 0 1px 1px rgba(255,255,255,0.6), inset 0 -1.5px 2.5px rgba(0,0,0,0.22),
+    inset 0 0 0 0.5px rgba(255,255,255,0.35), 0 1px 2px rgba(26,29,33,0.14);
+}
+.results .gauge-knob {
+  width:10px; height:27px; border-radius:100px;
+  background:linear-gradient(180deg, #2E3138 0%, #1A1D21 100%);
+  border:1.5px solid rgba(255,255,255,0.92);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.28), 0 3px 8px rgba(26,29,33,0.34), 0 0 0 0.5px rgba(0,0,0,0.06);
+}
+.results .gauge-knob::before { content:''; position:absolute; top:3px; left:50%; transform:translateX(-50%);
+  width:2px; height:8px; border-radius:100px; background:linear-gradient(180deg, rgba(255,255,255,0.5), rgba(255,255,255,0)); }
+
+/* ── CTA sombre (le contenu/lien reste piloté par ResultsScreen) ── */
+.results .cta-btn { background:var(--ink); box-shadow:none; }
+.results .cta-btn:hover { opacity:0.88; }

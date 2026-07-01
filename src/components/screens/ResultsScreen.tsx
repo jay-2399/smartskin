@@ -11,6 +11,7 @@ import { SAMPLE_RESULT } from "@/features/analysis/sample";
 import { ScoreGauge } from "@/components/ui/ScoreGauge";
 import { ResultPhotoMesh } from "@/components/ui/ResultPhotoMesh";
 import { Reveal } from "@/components/ui/Reveal";
+import "./results-glass.css";
 
 const ROMAN = ["I", "II", "III", "IV", "V", "VI"];
 
