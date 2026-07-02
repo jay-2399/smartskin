@@ -30,6 +30,10 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     Google({
       clientId: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
+      // Le webhook Stripe pré-crée le User (email payé) SANS Google lié → sans ça,
+      // se connecter avec Google au même email échoue (OAuthAccountNotLinked) et
+      // renvoie en boucle sur /login. Google vérifie les emails → liaison sûre.
+      allowDangerousEmailAccountLinking: true,
     }),
     Resend({
       apiKey: process.env.RESEND_API_KEY,

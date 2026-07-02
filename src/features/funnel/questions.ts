@@ -41,7 +41,7 @@ export const QUESTIONS: Record<string, QuestionDef> = {
         icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 3C11 3 5 9.5 5 13a6 6 0 0 0 12 0C17 9.5 11 3 11 3Z" stroke-linejoin="round"/></svg>` },
       { value: "radiance", label: "Radiance", sub: "dull, tired look",
         icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="4"/><path d="M11 2.5v2M11 17.5v2M2.5 11h2M17.5 11h2M5 5l1.4 1.4M15.6 15.6L17 17M17 5l-1.4 1.4M6.4 15.6L5 17"/></svg>` },
-      { value: "blemishes", label: "Clear skin", sub: "breakouts, blackheads",
+      { value: "blemishes", label: "Acne & breakouts", sub: "pimples, blackheads",
         icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><circle cx="8.5" cy="9.5" r="1.4" fill="currentColor" stroke="none"/><circle cx="13.5" cy="9" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="13.5" r="1.2" fill="currentColor" stroke="none"/></svg>` },
       { value: "pores", label: "Pores", sub: "visible, uneven",
         icon: `<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 7H8Q9.2 7 9.2 9.3L9.2 13.2Q9.2 17.6 11 17.6"/><path d="M19.5 7H14Q12.8 7 12.8 9.3L12.8 13.2Q12.8 17.6 11 17.6"/></svg>` },

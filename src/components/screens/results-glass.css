@@ -91,6 +91,12 @@
 .results .gauge-knob::before { content:''; position:absolute; top:3px; left:50%; transform:translateX(-50%);
   width:2px; height:8px; border-radius:100px; background:linear-gradient(180deg, rgba(255,255,255,0.5), rgba(255,255,255,0)); }
 
-/* ── CTA sombre (le contenu/lien reste piloté par ResultsScreen) ── */
-.results .cta-btn { background:var(--ink); box-shadow:none; }
-.results .cta-btn:hover { opacity:0.88; }
+/* ── CTA : même pilule sombre glossy que les boutons des questions ── */
+.results .cta-btn {
+  border:1px solid rgba(255,255,255,0.08);
+  background:linear-gradient(180deg, #2A2D34 0%, #1A1D21 100%);
+  box-shadow:0 8px 20px rgba(26,29,33,0.26), inset 0 1px 0 rgba(255,255,255,0.22);
+  transition:transform .18s, box-shadow .2s;
+}
+.results .cta-btn:hover { transform:translateY(-2px);
+  box-shadow:0 12px 26px rgba(26,29,33,0.30), inset 0 1px 0 rgba(255,255,255,0.28); }

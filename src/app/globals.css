@@ -22,4 +22,7 @@ html, body {
   /* iOS : coupe le rebond élastique qui révèle une bande claire en haut/bas
      quand on tire au-delà du contenu (sur toutes les pages). */
   overscroll-behavior:none;
+  /* coupe tout débordement horizontal (orbes glass ::before, etc.) → plus de
+     « ballotement » latéral au scroll/interaction. */
+  overflow-x:hidden;
 }
