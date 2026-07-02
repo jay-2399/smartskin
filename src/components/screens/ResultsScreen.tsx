@@ -8,6 +8,7 @@ import { ageRangeToYears } from "@/features/funnel/questions";
 import { toSections, skinAgeDelta } from "@/features/analysis/format";
 import { CARNATION_SWATCHES, UNDERTONE_SWATCHES } from "@/features/analysis/attributes";
 import { SAMPLE_RESULT } from "@/features/analysis/sample";
+import type { AnalysisResult } from "@/features/analysis/schema";
 import { ScoreGauge } from "@/components/ui/ScoreGauge";
 import { ResultPhotoMesh } from "@/components/ui/ResultPhotoMesh";
 import { Reveal } from "@/components/ui/Reveal";
@@ -20,20 +21,23 @@ const ROMAN = ["I", "II", "III", "IV", "V", "VI"];
 // `demo` est lu côté serveur (page) et passé en prop → pas de divergence SSR/client
 // (lire window.location au render cause une erreur d'hydratation). ?demo=1 → affiche
 // le bilan d'exemple sans passer par la capture (démo testeurs).
-export function ResultsScreen({ demo = false }: { demo?: boolean }) {
+// `presetResult` + `presetPhotoUrl` : reveal AUTONOME hors funnel (ex. page /exclusive)
+// → on n'attend rien du store, on affiche un bilan + une photo fixés.
+export function ResultsScreen({ demo = false, presetResult, presetPhotoUrl }: { demo?: boolean; presetResult?: AnalysisResult; presetPhotoUrl?: string }) {
   const router = useRouter();
   const stored = useResult((s) => s.result);
   const photo = useResult((s) => s.photo);
   const answers = useFunnel((s) => s.answers);
-  const result = stored ?? (demo ? SAMPLE_RESULT : null);
-  const photoUrl = useMemo(() => (photo ? URL.createObjectURL(photo) : null), [photo]);
+  const result = stored ?? presetResult ?? (demo ? SAMPLE_RESULT : null);
+  const blobUrl = useMemo(() => (photo ? URL.createObjectURL(photo) : null), [photo]);
+  const photoUrl = presetPhotoUrl ?? blobUrl;
 
-  // Accès direct sans bilan en mémoire → retour à l'accueil
+  // Accès direct sans bilan en mémoire → retour à l'accueil (sauf preset : autonome).
   useEffect(() => {
-    if (!result) router.replace("/");
-  }, [result, router]);
+    if (!result && !presetResult) router.replace("/");
+  }, [result, presetResult, router]);
 
-  useEffect(() => () => { if (photoUrl) URL.revokeObjectURL(photoUrl); }, [photoUrl]);
+  useEffect(() => () => { if (blobUrl) URL.revokeObjectURL(blobUrl); }, [blobUrl]);
 
   if (!result) return null;
 
@@ -180,8 +184,8 @@ export function ResultsScreen({ demo = false }: { demo?: boolean }) {
       <div className="cta-wrap">
         {/* Le CTA mène à /preparation : la routine se CONSTRUIT (écran de montée de
             tension), PUIS le paywall. Flux : résultats → preparation → checkout → routine. */}
-        <button type="button" className="cta-btn" onClick={() => router.push(demo ? "/preparation?demo=1" : "/preparation")}>
-          See my custom routine
+        <button type="button" className="cta-btn" onClick={() => router.push(presetResult ? "/" : (demo ? "/preparation?demo=1" : "/preparation"))}>
+          {presetResult ? "Get my own analysis" : "See my custom routine"}
           <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5h8M7.5 4l3.5 3.5-3.5 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </button>
         <button type="button" className="cta-link" onClick={() => { useFunnel.getState().reset(); useResult.getState().clear(); router.push("/"); }}>

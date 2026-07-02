@@ -441,6 +441,7 @@
 
 /* teinte discrète du state selon la tranche de score (sobre) */
 .scoregauge.band-great .sg-state { color:var(--green-d); }
+.scoregauge.band-fair .sg-state { color:#B45309; } /* score moyen (40-59) → warning ambré */
 .scoregauge.band-low .sg-state { color:#C2410C; }
 
 /* ═══════ Reveal v2 — stats partageables (âge de peau / type de peau) ═══════ */
