@@ -7,6 +7,9 @@
 .screen.results {
   --tan:#A6C3D6; --cloud:#EDEFF7; --arsenic:#40424D;
   position:relative; z-index:0; isolation:isolate;
+  /* coupe les orbes ::before qui débordent (−12%) → plus de scroll/rubber-band
+     horizontal (iOS compris). `clip` n'affecte pas le scroll vertical. */
+  overflow-x:clip;
   background:linear-gradient(168deg,#EFF2F7 0%,#E5EAF1 100%);
 }
 /* orbes atmosphériques froids (version atténuée du tunnel), bande haute, derrière tout */
