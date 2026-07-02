@@ -91,13 +91,13 @@ export function CodeGate() {
   return (
     <div className={`codegate${unlocking ? " unlocked" : ""}`}>
       <div className="cg-card">
-        <div className="cg-status"><span className="dot" />Analyse terminée</div>
+        <div className="cg-status"><span className="dot" />Analysis complete</div>
         <div className="cg-emblem">
           <span className="cg-ring"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="48" /></svg></span>
           <svg className="cg-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 L13.9 10.1 L22 12 L13.9 13.9 L12 22 L10.1 13.9 L2 12 L10.1 10.1 Z" /></svg>
         </div>
-        <h3 className="cg-title">Tes résultats t&apos;attendent.</h3>
-        <p className="cg-sub">Saisis le code de ta vidéo TikTok pour les révéler.</p>
+        <h3 className="cg-title">Your results are ready.</h3>
+        <p className="cg-sub">Enter the code from your TikTok video to reveal them.</p>
         <div className={`cg-cells${error ? " err" : ""}`}>
           {cells.map((c, i) => (
             <input
@@ -114,21 +114,21 @@ export function CodeGate() {
               onChange={(e) => setCell(i, e.target.value)}
               onKeyDown={(e) => onKeyDown(i, e)}
               onPaste={onPaste}
-              aria-label={`Caractère ${i + 1} du code`}
+              aria-label={`Character ${i + 1} of the code`}
               autoFocus={i === 0}
             />
           ))}
         </div>
         <button type="button" className="cg-btn" disabled={!complete || loading} onClick={submit}>
           <svg className="cg-spark" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2 L13.9 10.1 L22 12 L13.9 13.9 L12 22 L10.1 13.9 L2 12 L10.1 10.1 Z" /></svg>
-          <span>{loading ? "Vérification…" : "Révéler mes résultats"}</span>
+          <span>{loading ? "Checking…" : "Reveal my results"}</span>
         </button>
-        {error && <p className="cg-err">Code invalide — vérifie sous la vidéo TikTok.</p>}
+        {error && <p className="cg-err">Invalid code — check under the TikTok video.</p>}
         <div className="cg-foot">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg>
-          100% gratuit · sans inscription
+          100% free · no sign-up
         </div>
-        <p className="cg-hint">Le code est <b>épinglé sous la vidéo</b> sur TikTok.</p>
+        <p className="cg-hint">The code is <b>pinned under the video</b> on TikTok.</p>
       </div>
     </div>
   );

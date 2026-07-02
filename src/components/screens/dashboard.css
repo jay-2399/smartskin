@@ -55,7 +55,8 @@
 .dash .ch-dot { position:absolute; width:11px; height:11px; border-radius:50%; background:var(--accent-d); border:2.5px solid var(--card); box-shadow:0 2px 6px rgba(127,166,190,0.55); transform:translate(-50%,-50%); z-index:3; }
 /* dernier scan : point mis en avant (plus gros + halo) pour bien le repérer */
 .dash .ch-dot.today { width:17px; height:17px; box-shadow:0 0 0 6px rgba(127,166,190,0.16), 0 2px 8px rgba(127,166,190,0.6); }
-.dash .ch-ring { position:absolute; width:13px; height:13px; border-radius:50%; background:var(--card); border:2.5px dashed var(--accent); box-sizing:border-box; transform:translate(-50%,-50%); z-index:3; }
+/* prochain scan : anneau plus grand, tireté foncé + halo → bien repérable comme cible */
+.dash .ch-ring { position:absolute; width:16px; height:16px; border-radius:50%; background:var(--card); border:2.5px dashed var(--accent-d); box-sizing:border-box; box-shadow:0 0 0 4px rgba(127,166,190,0.14); transform:translate(-50%,-50%); z-index:3; }
 .dash .ch-pill { position:absolute; top:0; transform:translateX(-50%); font-size:9.5px; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; color:var(--space); background:var(--cloud); padding:4px 10px; border-radius:100px; white-space:nowrap; z-index:4; }
 .dash .ch-axis { position:relative; height:16px; margin-top:6px; }
 .dash .ch-axis span { position:absolute; transform:translateX(-50%); font-size:11px; color:var(--graphite); white-space:nowrap; }
@@ -102,6 +103,8 @@
 .dash .tn-note.alert { color:var(--arsenic); background:rgba(232,149,78,0.13); border-color:rgba(232,149,78,0.32); }
 .dash .tn-foot { margin-top:13px; padding-top:12px; border-top:1px solid rgba(26,29,33,0.06); font-size:11.5px; color:var(--graphite); }
 .dash .tn-foot .tn-prog { font-weight:800; color:var(--ink); }
+.dash .tn-foot .tn-complete { display:inline-flex; align-items:center; gap:7px; color:var(--green-d); font-weight:700; }
+.dash .tn-foot .tn-complete svg { width:14px; height:14px; flex-shrink:0; }
 .dash .tn-confirm { width:100%; height:46px; border-radius:13px; border:1.5px solid var(--smoke); background:#fff; color:var(--ink); font-family:var(--fd); font-weight:700; font-size:13px; cursor:pointer; display:flex; align-items:center; justify-content:center; gap:8px; transition:background .18s, border-color .18s, color .18s; }
 .dash .tn-confirm:hover { border-color:var(--accent); }
 .dash .tn-confirm.done { background:rgba(58,143,111,0.12); border-color:transparent; color:var(--keep); }

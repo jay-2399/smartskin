@@ -75,6 +75,7 @@ export function DashboardScreen({ name, avatarUrl, score, routine, startedDaysAg
   const [mood, setMood] = useState<Mood | null>(null);
   const [eveningDone, setEveningDone] = useState<Record<number, boolean>>({});
   const [morningDone, setMorningDone] = useState(false);
+  const [routineHydrated, setRoutineHydrated] = useState(false); // cases restaurées depuis localStorage ?
   const [modalOpen, setModalOpen] = useState(false);
   const [lockOpen, setLockOpen] = useState(false); // modal « patiente » si re-scan trop tôt
   const [today, setToday] = useState("");
@@ -110,6 +111,28 @@ export function DashboardScreen({ name, avatarUrl, score, routine, startedDaysAg
     const t = setTimeout(() => setModalOpen(true), 250);
     return () => clearTimeout(t);
   }, [loggedIn]);
+
+  // Cases cochées de la routine : restaurées depuis localStorage (clé du jour) → l'état
+  // survit au reload et se remet à zéro chaque jour. `routineHydrated` évite d'écraser
+  // la valeur restaurée par un enregistrement de l'état initial vide.
+  const routineKey = "ss_routine_" + new Date().toLocaleDateString("en-CA");
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(routineKey);
+      if (raw) {
+        const s = JSON.parse(raw) as { evening?: Record<number, boolean>; morning?: boolean };
+        if (s.evening) setEveningDone(s.evening);
+        if (s.morning) setMorningDone(true);
+      }
+    } catch { /* ignoré */ }
+    setRoutineHydrated(true);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+  useEffect(() => {
+    if (!routineHydrated) return;
+    try { localStorage.setItem(routineKey, JSON.stringify({ evening: eveningDone, morning: morningDone })); } catch { /* ignoré */ }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [eveningDone, morningDone, routineHydrated]);
 
   // Scan fait AVANT une inscription Google (mémoire perdue à la redirection OAuth → stocké
   // en sessionStorage) : on l'enregistre sous le nouveau compte puis on rafraîchit la page.
@@ -313,6 +336,8 @@ export function DashboardScreen({ name, avatarUrl, score, routine, startedDaysAg
               <button className={`tn-confirm ${morningDone ? "done" : ""}`} onClick={() => setMorningDone((v) => !v)}>
                 {morningDone && <Check />}{morningDone ? "Done this morning" : "I did my morning routine"}
               </button>
+            ) : eveningTotal > 0 && eveningCount === eveningTotal ? (
+              <span className="tn-complete"><Check />Tonight&apos;s routine complete — great consistency. See you tomorrow.</span>
             ) : (
               <><span className="tn-prog">{eveningCount}/{eveningTotal}</span> done tonight</>
             )}
