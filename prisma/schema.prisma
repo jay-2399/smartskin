@@ -18,7 +18,8 @@ model User {
   image          String?      // avatar fourni par Google (jamais la photo de scan)
   emailVerified  DateTime?    // requis par l'adaptateur Auth.js
   passwordHash   String?      // legacy email + mot de passe (inscription checkout, en migration)
-  lifetimeAccess Boolean      @default(false) // débloqué au checkout (paywall) — simulé pour l'instant
+  lifetimeAccess Boolean      @default(false) // débloqué au checkout (paywall)
+  paymentSessionId String?    @unique // session Stripe payée qui a débloqué ce compte (1 seule fois)
   createdAt      DateTime     @default(now())
   accounts       Account[]
   sessions       Session[]

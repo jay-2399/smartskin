@@ -48,6 +48,22 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
     setRehydrated(true);
   }, [demo]);
 
+  // Retour de Google post-paiement : ?claim=<session Stripe> → on rattache l'accès payé
+  // à CE compte (peu importe l'email Google), puis on nettoie l'URL. Une seule fois.
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const claim = params.get("claim");
+    if (!claim) return;
+    void fetch("/api/checkout/claim", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ sessionId: claim }),
+    }).catch(() => {});
+    params.delete("claim");
+    const q = params.toString();
+    window.history.replaceState({}, "", window.location.pathname + (q ? `?${q}` : ""));
+  }, []);
+
   // Médaillon de l'intro V2 : la VRAIE photo de l'analyse (en mémoire, jamais
   // stockée), repli sur un visage générique en démo (sans photo).
   const photoUrl = useMemo(() => (photo ? URL.createObjectURL(photo) : null), [photo]);

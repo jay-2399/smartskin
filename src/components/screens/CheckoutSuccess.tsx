@@ -20,7 +20,7 @@ const GoogleIcon = () => (
   </svg>
 );
 
-export function CheckoutSuccess({ email: paidEmail, paid }: { email: string | null; paid: boolean }) {
+export function CheckoutSuccess({ email: paidEmail, paid, sessionId }: { email: string | null; paid: boolean; sessionId: string | null }) {
   const router = useRouter();
   const [email, setEmail] = useState(paidEmail ?? "");
   const [password, setPassword] = useState("");
@@ -52,7 +52,15 @@ export function CheckoutSuccess({ email: paidEmail, paid }: { email: string | nu
         setLoading(false);
         return;
       }
-      // Compte OK → la routine se réhydrate sur /routine (depuis sessionStorage).
+      // Compte OK → on rattache l'accès payé À CE COMPTE (peu importe l'email), sur
+      // preuve de la session payée. Puis /routine (la routine se réhydrate depuis sessionStorage).
+      if (sessionId) {
+        await fetch("/api/checkout/claim", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ sessionId }),
+        }).catch(() => {});
+      }
       router.push("/routine");
     } catch {
       setError("Something went wrong.");
@@ -62,7 +70,10 @@ export function CheckoutSuccess({ email: paidEmail, paid }: { email: string | nu
 
   const google = () => {
     setLoading(true);
-    signIn("google", { callbackUrl: "/routine" });
+    // Google redirige → on transporte la session à réclamer dans l'URL de retour ;
+    // /routine la consomme pour rattacher l'accès au compte Google (email quelconque).
+    const callbackUrl = sessionId ? `/routine?claim=${encodeURIComponent(sessionId)}` : "/routine";
+    signIn("google", { callbackUrl });
   };
 
   if (!paid) {

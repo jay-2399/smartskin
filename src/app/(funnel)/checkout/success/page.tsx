@@ -16,5 +16,5 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ s
       /* session invalide / introuvable → traité comme non payé */
     }
   }
-  return <CheckoutSuccess email={email} paid={paid} />;
+  return <CheckoutSuccess email={email} paid={paid} sessionId={paid ? (session_id ?? null) : null} />;
 }
