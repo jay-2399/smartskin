@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useMemo, useRef, useState } from "react";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useFunnel } from "@/features/funnel/store";
 import { useResult } from "@/features/analysis/resultStore";
@@ -158,6 +159,7 @@ export function AnalyseScreen() {
 
   return (
     <div className="screen analyse">
+      <Image className="analyse-logo" src="/logo-smartskin.png" alt="SmartSkin AI" width={150} height={29} priority />
       <div className="kicker"><span className="live" />AI analysis in progress</div>
 
       <div className="scan" ref={scanRef}>

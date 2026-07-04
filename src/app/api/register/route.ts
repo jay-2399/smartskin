@@ -9,6 +9,7 @@ import { hashPassword } from "@/features/auth/password";
 const schema = z.object({
   email: z.string().email(),
   password: z.string().min(8, "8 caractères minimum"),
+  name: z.string().trim().min(1).max(120).optional(), // nom du payeur (Stripe) → affiché au dashboard
 });
 
 export async function POST(request: Request) {
@@ -23,6 +24,6 @@ export async function POST(request: Request) {
   }
 
   const passwordHash = await hashPassword(parsed.data.password);
-  await db.user.create({ data: { email, passwordHash, lifetimeAccess: true } });
+  await db.user.create({ data: { email, passwordHash, lifetimeAccess: true, name: parsed.data.name ?? null } });
   return NextResponse.json({ ok: true });
 }

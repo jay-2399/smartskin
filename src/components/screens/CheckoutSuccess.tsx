@@ -20,7 +20,7 @@ const GoogleIcon = () => (
   </svg>
 );
 
-export function CheckoutSuccess({ email: paidEmail, paid, sessionId }: { email: string | null; paid: boolean; sessionId: string | null }) {
+export function CheckoutSuccess({ email: paidEmail, name: paidName, paid, sessionId }: { email: string | null; name?: string | null; paid: boolean; sessionId: string | null }) {
   const router = useRouter();
   const [email, setEmail] = useState(paidEmail ?? "");
   const [password, setPassword] = useState("");
@@ -37,7 +37,7 @@ export function CheckoutSuccess({ email: paidEmail, paid, sessionId }: { email: 
       const reg = await fetch("/api/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ email, password, name: paidName ?? undefined }),
       });
       // 200 (nouveau) ou 409 (email déjà utilisé → il se connecte) → on continue ; sinon erreur.
       if (reg.status !== 200 && reg.status !== 409) {
