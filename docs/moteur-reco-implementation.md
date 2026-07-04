@@ -78,7 +78,6 @@ PROFIL (JSON, mécanique)
   "unsafeSensitive": true,         // ⚠ déconseillé peau sensible (FILTRE DUR si sensible)
   "irritationCost": 2,             // 0..5 — agressivité (sert au budget irritation)
   "activeStrength": 3,             // 1..5 — puissance de l'actif
-  "evidenceLevel": 5,              // 1..5 — niveau de preuve scientifique
   "fragranceFree": null,           // true | false | null(inconnu) — bonus si sensible
   "alcoholFree": null,             // true | false | null
   "ingredients": null,             // INCI si dispo, sinon null
@@ -229,9 +228,6 @@ def score(p, profile):
     # 2) byProfile (negative déjà filtré en amont)
     bp_score = {"positive": 1.0, "unknown": 0.0, "caution": -0.7}.get(bp, 0.0)
 
-    # 3) preuve scientifique (1..5 → 0..1)
-    evidence = (p["evidenceLevel"] - 1) / 4
-
     # 4) sentiment des avis (0..1), neutre si couche3 absente
     sentiment = c3.get("sentiment", 0.5)
 
@@ -253,7 +249,6 @@ def score(p, profile):
     return (
         4.0 * match
       + 2.0 * bp_score
-      + 1.5 * evidence
       + 2.0 * sentiment
       + 1.5 * social
       - 1.5 * irritation_pen

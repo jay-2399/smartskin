@@ -70,7 +70,7 @@ La réconciliation est **le seul** moment cross-catégories, **parce que** le bu
 | Garde médicale | **cases + IA** | cases explicites (condition/traitement déclarés) **+** l'IA scanne le texte comme **filet** → off-ramp dermato |
 | Filtres | **Règles** | retirer non-sûr (sécurité) + hors-budget → le « plateau » |
 | Rassembler les preuves | **Mécanique** | lookup `byProfile` + récup vectorielle des avis (pgvector) |
-| Shortlist | **Règles** | tri par **qualité de match** (evidence, byProfile, targets) — « pas cher » = peu coûteux en calcul, **jamais par prix** → garder ~5 |
+| Shortlist | **Règles** | tri par **qualité de match** (byProfile, targets) — « pas cher » = peu coûteux en calcul, **jamais par prix** → garder ~5 |
 | IA · choix | **IA (LLM, lourd)** | classer les 5 + rédiger le « pourquoi » |
 | Réconciliation / Prix-stock | **Règles** | arithmétique sur les totaux + fraîcheur |
 
@@ -99,7 +99,7 @@ rating, reviewCount
 type, keyActives[{name, percent}], targets[ConcernId], skinTypes,
 moment(am/pm/both), frequency,
 unsafePregnancy, unsafeSensitive, irritationCost(0-5),
-activeStrength(1-5), evidenceLevel(1-5), fragranceFree, alcoholFree
+activeStrength(1-5), fragranceFree, alcoholFree
 
 // Couche 3 — Avis minés (reviewInsights) — OPTIONNEL (dégradation gracieuse)
 reviewInsights: {
@@ -124,7 +124,7 @@ reviewInsights: {
 - **L'IA classe** (pas un score rigide), **mais sur un plateau déjà sûr** (« le plateau ») → elle peut être audacieuse, tout ce qu'elle voit est sûr.
 - **Réconciliation panier** : le budget **et** l'irritation sont des contraintes **de routine**, pas de produit → un point global qui équilibre par **swaps** (promotion du n°2 déjà classé). **Heuristique gloutonne assumée « assez bon »**, pas l'optimum (mini sac-à-dos) — l'espace est minuscule (~3⁵ combinaisons) → force brute possible si besoin. Le **budget irritation/semaine** vient de la **sensibilité** (déclarée + dérivée de rougeurs/desquamation) **× phase** (playbook §7.2, déjà implémenté dans `recommend.ts`).
 - **Repli si < 3 produits** dans une catégorie : on **élargit le budget** (préférence), **jamais la sécurité**, et on l'affiche honnêtement.
-- **Shortlist = tri par MATCH, pas par prix.** Le LLM ne voit que les ~5 shortlistés → tri par **qualité de match** (evidence, `byProfile`, targets). Trier par prix biaiserait vers le bas de gamme et rendrait invisible un meilleur match « 6ᵉ en prix mais dans le budget ». Le prix est **déjà** géré au filtre + à la réconciliation.
+- **Shortlist = tri par MATCH, pas par prix.** Le LLM ne voit que les ~5 shortlistés → tri par **qualité de match** (`byProfile`, targets). Trier par prix biaiserait vers le bas de gamme et rendrait invisible un meilleur match « 6ᵉ en prix mais dans le budget ». Le prix est **déjà** géré au filtre + à la réconciliation.
 - **Diversité des « 3 produits »** : une contrainte empêche 3 quasi-doublons (3 sérums vit. C similaires) → max 1 par actif/marque dominante, ou varier actif/gamme.
 - **Avis = minage structuré** (`byProfile`) **+ récup vectorielle** (pgvector). Pas de pure similarité cosinus : profil semblable ≠ bon produit (un avis « même profil mais ça m'a fait des boutons » est ultra-similaire mais c'est une raison de fuir).
 - **RAG : le vecteur RÉCUPÈRE, le LLM JUGE.** Le vecteur sort les avis « gens comme toi », le LLM lit s'ils sont positifs. Règle proprement le sentiment.

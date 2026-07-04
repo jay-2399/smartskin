@@ -61,7 +61,6 @@ export interface CatalogProduct {
   unsafeSensitive: boolean;
   irritationCost: number;
   activeStrength?: number | null;
-  evidenceLevel: number;
   fragranceFree?: boolean | null;
   alcoholFree?: boolean | null;
   ingredients?: string | null;
@@ -90,7 +89,6 @@ const ProductSchema = z
     unsafePregnancy: z.boolean().nullish(),
     unsafeSensitive: z.boolean().nullish(),
     irritationCost: z.number().nullish(),
-    evidenceLevel: z.number().nullish(),
     image: z.string().nullish(),
   })
   .passthrough();
@@ -112,7 +110,6 @@ export function loadCatalog(): CatalogProduct[] {
     unsafePregnancy: p.unsafePregnancy ?? false,
     unsafeSensitive: p.unsafeSensitive ?? false,
     irritationCost: p.irritationCost ?? 0,
-    evidenceLevel: p.evidenceLevel ?? 1,
   })) as unknown as CatalogProduct[];
   return cache;
 }

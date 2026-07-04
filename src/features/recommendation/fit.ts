@@ -12,8 +12,7 @@ import type { EngineProfile } from "./profile";
      1. COUVERTURE des besoins, pondérée par gravité × importance (terme dominant) ;
      2. INTENSITÉ bien dosée : la force du produit doit coller à la sévérité du besoin,
         plafonnée par la tolérance de la peau (un actif trop fort est lourdement pénalisé) ;
-     3. adéquation au TYPE DE PEAU (byProfile) ;
-     4. PREUVE scientifique (evidenceLevel) — qualité, pas popularité. */
+     3. adéquation au TYPE DE PEAU (byProfile). */
 
 const BP_FIT: Record<string, number> = { positive: 1, unknown: 0, caution: -1, negative: -3 };
 
@@ -43,10 +42,8 @@ export function fitScore(p: CatalogProduct, profile: EngineProfile): number {
   //    passer DEVANT la popularité ; complété par byProfile (nuance positive/caution).
   const typeMatch = (p.skinTypes ?? []).includes(profile.skinType) ? 1 : 0;
   const skinFit = BP_FIT[p.couche3?.byProfile?.[profile.skinType] ?? "unknown"] ?? 0;
-  // 4) PREUVE (qualité, pas popularité).
-  const evidence = (p.evidenceLevel ?? 1) / 5; // 0.2 → 1
 
-  return 5 * coverage + 1.5 * mismatch + overCeiling + 3 * typeMatch + skinFit + evidence;
+  return 5 * coverage + 1.5 * mismatch + overCeiling + 3 * typeMatch + skinFit;
 }
 
 /** Popularité (avis × volume), NORMALISÉE 0-1. Sert UNIQUEMENT de départage. */

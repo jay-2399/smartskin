@@ -41,7 +41,7 @@ Parmi les produits éligibles, on classe sur « à quel point ça colle à cette
 1. **Couverture des besoins** — traite-t-il tes soucis, pondéré par leur gravité × importance ; *(terme dominant)*
 2. **Intensité dosée** — la force du produit (`activeStrength`) doit coller à la sévérité du besoin, **plafonnée par la tolérance** (peau nette / sensible / débutante → doux ; problème sévère + peau tolérante/expérimentée → plus fort) ;
 3. **Match du type de peau** (`skinTypes`) ;
-4. **Type de peau** (avis-par-profil) + **preuve scientifique** (`evidenceLevel`).
+4. **Type de peau** (avis-par-profil, `byProfile`).
 
 👉 **Aucun signal de popularité ici** (ni note, ni nombre d'avis).
 

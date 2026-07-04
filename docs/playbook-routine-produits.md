@@ -217,13 +217,12 @@ Coût indicatif par application : SPF/HA/niacinamide/azélaïque/apaisants **0**
 ### d) Puissance & preuve des actifs
 Deux produits du même actif ne se valent pas (L-AA 15 % vs SAP/MAP ; rétinol < rétinal < trétinoïne).
 - **`activeStrength` (1-5)** : choisir l'intensité selon la **tolérance** (débutant/sensible → basse ; tolérant → haute).
-- **`evidenceLevel` (1-5)** : niveau de preuve, pour départager à puissance égale. *(utile mais secondaire.)*
 
 ### e) Scores explicatifs *(CALCULÉS à la sélection, pas stockés)*
 Pour chaque produit candidat :
 - **`matchScore`** = recouvrement `targets` × priorité des concerns présents.
 - **`irritationRisk`** = `irritationCost` × sensibilité (− tolérance).
-- **`expectedBenefit`** = `matchScore` × `activeStrength` (pondéré par `evidenceLevel`).
+- **`expectedBenefit`** = `matchScore` × `activeStrength`.
 → Permet une **justification transparente** : *« On recommande l'acide azélaïque plutôt qu'un rétinoïde : ton risque d'irritation est élevé alors que le bénéfice attendu est similaire. »* C'est l'application directe de la règle « justification honnête ».
 
 ### f) Objectifs utilisateur *(dépend d'une nouvelle question)*
@@ -238,7 +237,7 @@ L'acné a des formes (inflammatoire / comédonienne / hormonale…) qui n'appell
 | **Haute** | hiérarchie « barrière d'abord » (a) · confiance globale (b) · scores explicatifs (e) | calculable avec l'existant |
 | **Haute** | interactions graduées (c) | donnée DB à remplir |
 | **Moyenne** | `activeStrength` (d) · objectifs utilisateur (f) | **f = nouvelle question** |
-| **Basse / à venir** | `confidenceScore` par concern (b) · sous-types (g) · `evidenceLevel` (d) | **b = changement contrat IA** |
+| **Basse / à venir** | `confidenceScore` par concern (b) · sous-types (g) | **b = changement contrat IA** |
 
 ---
 
@@ -267,7 +266,6 @@ type Product = {
   unsafeSensitive?: boolean;
   irritationCost?: number;    // 0..5 (cf. §7.2) pour le budget de tolérance
   activeStrength?: 1|2|3|4|5; // puissance réelle de l'actif (cf. §8 bis-d)
-  evidenceLevel?: 1|2|3|4|5;  // niveau de preuve (optionnel ; départage à puissance égale)
   // NB : les incompatibilités ne sont PLUS un booléen par produit mais une table
   // d'interactions GRADUÉES : { activeA, activeB, level: "safe"|"caution"|"avoid" } (§8 bis-c).
   // matchScore / irritationRisk / expectedBenefit = CALCULÉS à la sélection, pas stockés (§8 bis-e).

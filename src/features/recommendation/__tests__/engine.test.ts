@@ -14,7 +14,7 @@ function prod(over: Partial<CatalogProduct> = {}): CatalogProduct {
     num: 1, asin: "A", name: "P", brand: "B", category: "serum",
     price: 20, rating: 4.5, reviews: 1000, bsr: 500,
     keyActives: "niacinamide", targets: [], skinTypes: [], moment: "both", frequency: "daily",
-    unsafePregnancy: false, unsafeSensitive: false, irritationCost: 0, evidenceLevel: 3,
+    unsafePregnancy: false, unsafeSensitive: false, irritationCost: 0,
     fragranceFree: null, image: "img",
     couche3: { sentiment: 0.8, byProfile: POS() },
   };

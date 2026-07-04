@@ -47,7 +47,6 @@ export function scoreProduct(p: CatalogProduct, profile: EngineProfile): number 
   });
 
   const bpScore = BP_SCORE[bp] ?? 0;
-  const evidence = ((p.evidenceLevel ?? 1) - 1) / 4; // 1..5 → 0..1
   const sentiment = c3?.sentiment ?? 0.5; // neutre si couche3 absente
   const social = (p.rating / 5) * Math.min(Math.log10(Math.max(p.reviews, 1)) / 5, 1);
   const sensFactor = profile.sensitive ? 1.6 : 1;
@@ -58,7 +57,6 @@ export function scoreProduct(p: CatalogProduct, profile: EngineProfile): number 
   return (
     4 * match +
     2 * bpScore +
-    1.5 * evidence +
     2 * sentiment +
     1.5 * social -
     1.5 * irritationPen +
