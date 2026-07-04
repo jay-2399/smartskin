@@ -7,6 +7,7 @@ import { EMPTY_ANSWERS, type Answers } from "@/features/funnel/types";
 import { topConcerns, levelOf, derivePhase } from "@/features/routine/recommend";
 import { ATTRIBUTE_BY_ID, LEVEL_TO_PERCENT } from "@/features/analysis/attributes";
 import { DashboardScreen } from "@/components/screens/DashboardScreen";
+import { ContactWidget } from "@/components/ui/ContactWidget";
 
 // Dashboard = espace de suivi. Données RÉELLES : TOUT l'historique des scans du compte
 // → la courbe (un point par scan) + l'évolution des 3 priorités (dernier vs précédent)
@@ -86,20 +87,23 @@ export default async function Page() {
   const avatarUrl = latest?.photoData ?? null;
 
   return (
-    <DashboardScreen
-      name={name}
-      avatarUrl={avatarUrl}
-      score={score}
-      routine={reco.routine}
-      startedDaysAgo={startedDaysAgo}
-      loggedIn={!!userId}
-      history={history}
-      priorities={priorities}
-      lastAnswers={answers}
-      firstDateLabel={firstDateLabel}
-      nextDateLabel={nextDateLabel}
-      nextDateFull={nextDateFull}
-      phase={phase}
-    />
+    <>
+      <DashboardScreen
+        name={name}
+        avatarUrl={avatarUrl}
+        score={score}
+        routine={reco.routine}
+        startedDaysAgo={startedDaysAgo}
+        loggedIn={!!userId}
+        history={history}
+        priorities={priorities}
+        lastAnswers={answers}
+        firstDateLabel={firstDateLabel}
+        nextDateLabel={nextDateLabel}
+        nextDateFull={nextDateFull}
+        phase={phase}
+      />
+      <ContactWidget defaultEmail={session?.user?.email} />
+    </>
   );
 }
