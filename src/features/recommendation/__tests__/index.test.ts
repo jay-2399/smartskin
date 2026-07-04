@@ -47,6 +47,19 @@ describe("buildRecommendedRoutine — pipeline complet (vrai catalogue, sans LLM
     expect(routine.night).toHaveLength(5);
   });
 
+  it("le sérum du MATIN n'est jamais un acide soir-only (moment=pm)", async () => {
+    // Profil très exfoliation-appétent + tolérant : sans le garde-fou, un acide `pm`
+    // (Framboos, salicylique…) remontait dans le sérum du matin. Il doit désormais être
+    // écarté (l'exfoliation acide est gérée par le slot exfoliant du soir).
+    const { routine } = await buildRecommendedRoutine(
+      result({ acne: 3, comedones: 3, shine: 3, pores: 3, texture: 3 }),
+      ans({ q6: "gt100", q3: ["acids"] }),
+    );
+    const serum = routine.day.find((s) => s.cat === "Serum");
+    expect(serum).toBeTruthy();
+    expect(serum!.options[0].moment).not.toBe("pm");
+  });
+
   it("peau nette (0 concern) → GARDE l'entretien (sérum/exfoliant/masque) mais AUCUN soin ciblé", async () => {
     const { routine } = await buildRecommendedRoutine(result(), ans({ q6: "gt100" }));
     const cats = [...routine.day, ...routine.night].map((s) => s.cat);

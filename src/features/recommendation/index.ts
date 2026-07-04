@@ -76,6 +76,11 @@ export async function buildRecommendedRoutine(result: AnalysisResult, answers: A
     if (cat === "hydratant") continue;
     let pool = byCat[cat] ?? [];
     if (cat === "traitement") pool = withPregnancyTopUp(pool, byCat, profile, usedNums);
+    // Le SÉRUM est placé le MATIN (structure fixe, cf. dayKeys). Un acide exfoliant
+    // taggé `moment:"pm"` (photosensibilisant) n'a donc rien à y faire — l'exfoliation
+    // du soir est déjà couverte par le slot `exfoliant`. On restreint le vivier sérum
+    // du matin aux produits `am`/`both` (antioxydants, niacinamide, hydratation…).
+    if (cat === "serum") pool = pool.filter((p) => p.moment !== "pm");
     const survivors = hardFilter(pool, profile, constraints);
     // Gate pertinence (base : repli toléré ; soin ciblé : pas de repli), PUIS classement
     // par ADÉQUATION (fit) — la popularité ne départage que des produits équivalents.
