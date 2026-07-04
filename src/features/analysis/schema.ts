@@ -18,8 +18,12 @@ export const ProfileSchema = z.object({
 export const AttributeResultSchema = z.object({
   id: z.enum(ATTRIBUTE_IDS as [string, ...string[]]),
   level: z.number().int().min(1).max(4), // 1 = idéal/absent, 4 = sévère
-  tip: z.string().min(1),                // mot-clé court (ex. "modérées")
-  situation: z.string().min(1),          // phrase d'analyse
+  // `tip`/`situation` : texte cosmétique par attribut. L'IA les OMET parfois pour
+  // quelques attributs → sans tolérance, tout le bilan (16 critères) était rejeté et
+  // le scan échouait. On défaute à "" : le critère s'affiche sans son mot-clé plutôt
+  // que de faire planter l'analyse entière.
+  tip: z.string().min(1).catch(""),      // mot-clé court (ex. "modérées")
+  situation: z.string().min(1).catch(""), // phrase d'analyse
 });
 
 // Verdict « Lecture experte » (reveal v2) : la couche de synthèse/raisonnement.

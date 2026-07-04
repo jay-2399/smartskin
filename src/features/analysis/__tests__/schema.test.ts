@@ -48,4 +48,18 @@ describe("AnalysisResultSchema", () => {
     expect(r.verdict).toBeUndefined(); // .catch(undefined) → masqué, pas d'exception
     expect(r.score).toBe(SAMPLE_RESULT.score); // le reste du bilan survit
   });
+
+  it("tolère des `tip`/`situation` manquants (l'IA les omet parfois) sans faire échouer le scan", () => {
+    // Reproduit le scan raté en prod : l'IA n'avait pas rempli le `tip` des 4 derniers
+    // attributs → tout le bilan était rejeté. Désormais → défaut "" et le bilan survit.
+    const attrs = SAMPLE_RESULT.attributes.map((a, i) => {
+      if (i >= 12) { const { tip: _t, situation: _s, ...rest } = a; void _t; void _s; return rest; }
+      return a;
+    });
+    const r = AnalysisResultSchema.parse({ ...SAMPLE_RESULT, attributes: attrs } as unknown);
+    expect(r.attributes[15].tip).toBe("");        // manquant → "" (pas d'exception)
+    expect(r.attributes[15].situation).toBe("");
+    expect(r.attributes[0].tip.length).toBeGreaterThan(0); // les présents sont conservés
+    expect(r.score).toBe(SAMPLE_RESULT.score);    // le reste du bilan est intact
+  });
 });
