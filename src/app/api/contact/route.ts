@@ -39,6 +39,10 @@ export async function POST(request: Request) {
   }).catch(() => null);
 
   if (!res || !res.ok) {
+    // Journalise la raison exacte renvoyée par Resend (domaine non vérifié,
+    // expéditeur refusé, etc.) → visible dans les logs Render pour diagnostiquer.
+    const detail = res ? await res.text().catch(() => "") : "network error";
+    console.error(`[contact] Resend refusé (status ${res?.status ?? "n/a"}) from=${from} to=${to} :: ${detail}`);
     return NextResponse.json({ error: "send_failed" }, { status: 502 });
   }
   return NextResponse.json({ ok: true });

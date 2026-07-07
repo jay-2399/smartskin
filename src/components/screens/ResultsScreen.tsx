@@ -185,7 +185,7 @@ export function ResultsScreen({ demo = false, presetResult, presetPhotoUrl }: { 
         {/* Le CTA mène à /preparation : la routine se CONSTRUIT (écran de montée de
             tension), PUIS le paywall. Flux : résultats → preparation → checkout → routine. */}
         <button type="button" className="cta-btn" onClick={() => router.push(presetResult ? "/" : (demo ? "/preparation?demo=1" : "/preparation"))}>
-          {presetResult ? "Get my own analysis" : "See my custom routine"}
+          {presetResult ? "Get my custom routine" : "See my custom routine"}
           <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5h8M7.5 4l3.5 3.5-3.5 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </button>
         <button type="button" className="cta-link" onClick={() => { useFunnel.getState().reset(); useResult.getState().clear(); router.push("/"); }}>
