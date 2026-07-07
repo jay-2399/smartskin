@@ -6,5 +6,5 @@ import { EXCLUSIVE_RESULT } from "@/features/analysis/exclusive";
 export const metadata = { title: "SmartSkin — Exclusive analysis" };
 
 export default function Page() {
-  return <ResultsScreen presetResult={EXCLUSIVE_RESULT} presetPhotoUrl="/exclusive-face.jpg" />;
+  return <ResultsScreen presetResult={EXCLUSIVE_RESULT} presetPhotoUrl="/exclusive-face-v2.jpg" />;
 }
