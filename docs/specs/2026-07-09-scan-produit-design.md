@@ -17,6 +17,7 @@ Rôle stratégique : **outil d'acquisition**. Le scan est gratuit et ouvert à t
 | Accès / business | **Gratuit et générique** pour tous ; personnalisation « pour TA peau » réservée aux utilisateurs avec bilan (payant) |
 | Persistance | **Éphémère** : rien n'est sauvegardé. La compat routine se calcule contre la routine officielle du bilan (`Protocol`), pas entre scans |
 | Moteur de reconnaissance | **Photo → LLM vision** (pas de code-barres/base externe). Le LLM extrait les faits produit ; le score vient du moteur déterministe existant |
+| Une seule photo (amendement 2026-07-09) | Pas de 2e photo « liste INCI » : l'IA identifie le produit depuis la face et **retrouve l'INCI elle-même** (connaissances modèle / base interne). Confiance insuffisante → échec honnête, jamais de faux verdict |
 | Livrable | **Prototype mocké** `product-scan-liquidglass/` avec vraie caméra (getUserMedia arrière, fallback simulé) |
 
 ## Parcours utilisateur (validé)
@@ -25,13 +26,12 @@ Deux points d'entrée, un seul flux :
 - **Public (gratuit)** : route `/scan` sans compte, partageable en marketing, mise en avant sur la landing.
 - **Espace client** : carte « Scan a product » sur le `DashboardScreen`, à côté du bloc rescan.
 
-Le flux en 4 temps :
-1. **Capture** — caméra arrière (`facingMode: "environment"`), cadre de visée produit, validation légère (netteté Laplacien + luminance ; PAS de MediaPipe). **Capture manuelle** (on vise un objet, pas un visage — pas d'auto-capture 3 s). Option « importer une photo » conservée.
-2. **Identification** — le LLM reçoit la photo de face : marque + produit + catégorie + données structurées (actifs, INCI, flags). **Si confiance faible ou INCI incertain → 2e photo demandée** (gros plan liste d'ingrédients). C'est le garde-fou anti-hallucination, demandé une seule fois.
-3. **Analyse** — écran d'attente court, copy escaladante (« Reading the formula… », « Checking 42 ingredients… »).
-4. **Résultat** — verdict immédiat au-dessus de la ligne de flottaison, détail scrollable dessous. Contenu selon le statut (voir ci-dessous).
+Le flux en 3 temps :
+1. **Capture** — caméra arrière (`facingMode: "environment"`), cadre de visée produit, validation légère (netteté Laplacien + luminance ; PAS de MediaPipe). **Capture manuelle** (on vise un objet, pas un visage — pas d'auto-capture 3 s). Option « importer une photo » conservée. **Une seule photo** : la face du produit.
+2. **Identification + analyse** — le LLM reçoit la photo de face : marque + produit + catégorie, et restitue les données structurées (actifs, INCI, flags) **de ses propres connaissances** — l'utilisateur n'a pas à photographier la liste d'ingrédients. Écran d'attente avec copy escaladante (« Identifying the product… », « Checking its ingredients… »). Le champ `confidence` du schéma décide : confiance insuffisante → échec honnête.
+3. **Résultat** — verdict immédiat au-dessus de la ligne de flottaison, détail scrollable dessous. Contenu selon le statut (voir ci-dessous).
 
-Échec honnête : produit illisible même avec l'INCI → « We couldn't read this product » + conseils (lumière, angle) + retry. Objet non-skincare → « This doesn't look like a skincare product ». Jamais de faux verdict.
+Échec honnête : produit non identifié avec confiance → « We couldn't read this product » + conseils (lumière, angle) + retry. Objet non-skincare → « This doesn't look like a skincare product ». Jamais de faux verdict.
 
 ## Résultat : deux niveaux (validé)
 
@@ -59,12 +59,11 @@ Dossier plat à la racine de `~/dev/smartskin.app` (convention écrans livrés),
 | Fichier | Écran |
 |---|---|
 | `01-scan.html` | Viseur produit **vraie caméra** (getUserMedia arrière ; fallback visuel simulé si refus/desktop), cadre de visée, hint « Center the product », bouton capture manuel, lien « upload a photo » |
-| `02-inci.html` | Étape fallback « Now photograph the ingredients list » (gros plan INCI) |
-| `03-analyzing.html` | Attente, copy escaladante en 3 temps |
-| `04-result-free.html` | Résultat générique + carte match score verrouillée/floutée + CTA acquisition |
-| `05-result-match.html` | Résultat personnalisé complet : score, verdict, 3 groupes d'ingrédients, compat routine, alternatives |
+| `02-analyzing.html` | Attente : identification + lecture de la formule (ticker INCI), copy escaladante en 3 temps |
+| `03-result-free.html` | Résultat générique + carte match score verrouillée/floutée + CTA acquisition |
+| `04-result-match.html` | Résultat personnalisé complet : score, verdict, 3 groupes d'ingrédients, compat routine, alternatives |
 
-**Données mock** : The Ordinary **Niacinamide 10% + Zinc 1%** (INCI publique et courte, actif star, démo-friendly). Le `05-result-match` montre un bon match (~82 %) avec au moins 1 ingrédient « Watch out » pour démontrer les 3 groupes. La section alternatives y figure aussi à titre de démo (en production elle n'apparaît que si le score est faible).
+**Données mock** : The Ordinary **Niacinamide 10% + Zinc 1%** (INCI publique et courte, actif star, démo-friendly). Le `04-result-match` montre un bon match (~82 %) avec au moins 1 ingrédient « Watch out » pour démontrer les 3 groupes. La section alternatives y figure aussi à titre de démo (en production elle n'apparaît que si le score est faible).
 
 **Style** : tokens liquid glass validés (blur 18px saturate 165 %, bordure haute `rgba(255,255,255,.7)`, orbes froids), **accent unique `#A6C3D6`** (glyphe `#6E9AB6`), titres Manrope 800 uniformes, **contenu en anglais**, CTA pilule sombre. **Règles viewport fluides** : `max-width` 430 (cible 390), `min-height: 100dvh` (jamais de hauteur px fixe), `safe-area-inset` — PAS le cadre fixe 430×932 de `Q-liquid-glass/`.
 
@@ -72,7 +71,7 @@ Dossier plat à la racine de `~/dev/smartskin.app` (convention écrans livrés),
 
 ## Architecture cible (référence — PAS dans ce livrable)
 
-- `src/features/product-scan/` : `schema.ts` (zod `ProductScanResult` : `identification { brand, name, category, confidence }`, `inci[]`, `keyActives[]`, `flags`, `genericVerdict`) · `prompt.ts` (vision produit, 2e passe INCI) · `match.ts` (mapping faits produit → moteur existant : `fitScore` adapté + `medical-guard` → score, groupes, compat routine ; déterministe, testé en vitest).
+- `src/features/product-scan/` : `schema.ts` (zod `ProductScanResult` : `identification { brand, name, category, confidence }`, `inci[]`, `keyActives[]`, `flags`, `genericVerdict`) · `prompt.ts` (vision produit : identification depuis la photo de face + INCI restitué des connaissances du modèle, avec consigne d'honnêteté sur `confidence`) · `match.ts` (mapping faits produit → moteur existant : `fitScore` adapté + `medical-guard` → score, groupes, compat routine ; déterministe, testé en vitest).
 - Réutilise le dispatcher LLM existant (Anthropic > OpenAI > Gemini > démo) et `features/capture/camera.ts` (+ métriques sharpness/luminance, sans FaceMesh).
 - `POST /api/scan-product` : publique, rate-limitée comme `/api/analyze`, reçoit `{ images: base64[] }`. Si session → charge `Analysis` + `Protocol` côté serveur ; le profil peau ne quitte jamais le serveur ; réponse taggée `generic` | `personalized`.
 - **Zéro persistance** : pas de table, pas de migration ; photos produit en mémoire puis jetées (non biométrique, traitement serveur UE conservé).
