@@ -60,7 +60,8 @@ Dossier plat à la racine de `~/dev/smartskin.app` (convention écrans livrés),
 |---|---|
 | `01-scan.html` | Viseur produit **vraie caméra** (getUserMedia arrière ; fallback visuel simulé si refus/desktop), cadre de visée, hint « Center the product », bouton capture manuel, lien « upload a photo » (file picker fonctionnel) |
 | `02-analyzing.html` | Attente : identification + lecture de la formule (ticker INCI), copy escaladante en 3 temps |
-| `03-result-match.html` | Résultat personnalisé complet : score, verdict, 3 groupes d'ingrédients, compat routine, alternatives |
+| `03-result-match.html` | Résultat personnalisé — scénario A « bon match » (The Ordinary Niacinamide, 82/100, profil peau mixte/pores) |
+| `04-result-nomatch.html` | Résultat personnalisé — scénario B « mauvais match » (Nivea Creme, 23/100, profil acnéique/sensible : parfum + allergènes, lanolin alcohol, occlusifs ; alternatives mises en avant) |
 
 **Amendement 2026-07-09 (bis)** : l'écran de résultat **générique/gratuit a été retiré du prototype** — la démo doit impressionner, elle va droit au résultat personnalisé. Les « deux niveaux » ci-dessus restent la vision produit pour la prod ; le traitement du non-membre (même écran avec score verrouillé + CTA tunnel, recommandé, vs scan réservé aux membres) sera tranché à l'implémentation.
 
