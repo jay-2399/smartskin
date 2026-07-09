@@ -58,12 +58,13 @@ Dossier plat à la racine de `~/dev/smartskin.app` (convention écrans livrés),
 
 | Fichier | Écran |
 |---|---|
-| `01-scan.html` | Viseur produit **vraie caméra** (getUserMedia arrière ; fallback visuel simulé si refus/desktop), cadre de visée, hint « Center the product », bouton capture manuel, lien « upload a photo » |
+| `01-scan.html` | Viseur produit **vraie caméra** (getUserMedia arrière ; fallback visuel simulé si refus/desktop), cadre de visée, hint « Center the product », bouton capture manuel, lien « upload a photo » (file picker fonctionnel) |
 | `02-analyzing.html` | Attente : identification + lecture de la formule (ticker INCI), copy escaladante en 3 temps |
-| `03-result-free.html` | Résultat générique + carte match score verrouillée/floutée + CTA acquisition |
-| `04-result-match.html` | Résultat personnalisé complet : score, verdict, 3 groupes d'ingrédients, compat routine, alternatives |
+| `03-result-match.html` | Résultat personnalisé complet : score, verdict, 3 groupes d'ingrédients, compat routine, alternatives |
 
-**Données mock** : The Ordinary **Niacinamide 10% + Zinc 1%** (INCI publique et courte, actif star, démo-friendly). Le `04-result-match` montre un bon match (~82 %) avec au moins 1 ingrédient « Watch out » pour démontrer les 3 groupes. La section alternatives y figure aussi à titre de démo (en production elle n'apparaît que si le score est faible).
+**Amendement 2026-07-09 (bis)** : l'écran de résultat **générique/gratuit a été retiré du prototype** — la démo doit impressionner, elle va droit au résultat personnalisé. Les « deux niveaux » ci-dessus restent la vision produit pour la prod ; le traitement du non-membre (même écran avec score verrouillé + CTA tunnel, recommandé, vs scan réservé aux membres) sera tranché à l'implémentation.
+
+**Données mock** : The Ordinary **Niacinamide 10% + Zinc 1%** (INCI réelle vérifiée, actif star, démo-friendly ; packshot officiel DECIEM dans le package). Le `03-result-match` montre un bon match (~82 %) avec au moins 1 ingrédient « Watch out » pour démontrer les 3 groupes. La section alternatives y figure aussi à titre de démo (en production elle n'apparaît que si le score est faible).
 
 **Style** : tokens liquid glass validés (blur 18px saturate 165 %, bordure haute `rgba(255,255,255,.7)`, orbes froids), **accent unique `#A6C3D6`** (glyphe `#6E9AB6`), titres Manrope 800 uniformes, **contenu en anglais**, CTA pilule sombre. **Règles viewport fluides** : `max-width` 430 (cible 390), `min-height: 100dvh` (jamais de hauteur px fixe), `safe-area-inset` — PAS le cadre fixe 430×932 de `Q-liquid-glass/`.
 
