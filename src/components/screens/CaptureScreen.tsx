@@ -9,6 +9,15 @@ import { validateAndPrepareUpload } from "@/features/capture/uploadValidation";
 import { VALIDATION_CONFIG } from "@/features/capture/config";
 import type { Status, ValidationState } from "@/features/capture/types";
 
+// Pont app iOS native : drapeau injecté par la WebView + fonctions du canal natif.
+declare global {
+  interface Window {
+    __SMARTSKIN_NATIVE__?: boolean;
+    __smartskinReceivePhoto?: (dataUrl: string) => void;
+    webkit?: { messageHandlers?: { native?: { postMessage: (msg: unknown) => void } } };
+  }
+}
+
 /* Port fidèle de reference/User_flow_screens/03-capture.html,
    branché sur la validation live (docs/specs/live-analysis.md).
    Choix d'abord : « Prendre une photo » (caméra live) ou « Importer une photo ». */
@@ -39,6 +48,29 @@ export function CaptureScreen() {
   const fileRef = useRef<HTMLInputElement>(null);
   const [uploading, setUploading] = useState(false);
   const [uploadError, setUploadError] = useState<string | null>(null);
+
+  // ── Pont app native : « prendre une photo » ouvre la caméra native (Apple Vision),
+  //    qui renvoie la photo ici via window.__smartskinReceivePhoto (data URL → Blob). ──
+  const isNative = typeof window !== "undefined" && window.__SMARTSKIN_NATIVE__ === true;
+
+  useEffect(() => {
+    if (!isNative) return;
+    window.__smartskinReceivePhoto = async (dataUrl: string) => {
+      const blob = await (await fetch(dataUrl)).blob();
+      useFunnel.getState().setPhoto(blob);
+      router.push("/capture/apercu");
+    };
+    return () => { delete window.__smartskinReceivePhoto; };
+  }, [isNative, router]);
+
+  const onLive = () => {
+    setUploadError(null);
+    if (isNative) {
+      window.webkit?.messageHandlers?.native?.postMessage({ action: "openCamera" });
+    } else {
+      setMode("live");
+    }
+  };
 
   const onPick = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -85,7 +117,7 @@ export function CaptureScreen() {
         <ChoiceView
           uploading={uploading}
           uploadError={uploadError}
-          onLive={() => { setUploadError(null); setMode("live"); }}
+          onLive={onLive}
           onImport={() => fileRef.current?.click()}
         />
       ) : (
