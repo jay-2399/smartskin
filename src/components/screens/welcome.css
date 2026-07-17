@@ -28,7 +28,7 @@
 }
 .welcome .portrait {
   position: absolute; bottom: 0; left: 50%; height: 90%; width: auto; max-width: none; z-index: 3;
-  margin-left: -74%;
+  margin-left: -70%;
   filter: drop-shadow(0 18px 40px rgba(40,55,75,0.18));
 }
 
@@ -42,7 +42,7 @@
 }
 
 /* 1 · Jauge (écran Résultats) — glissée DERRIÈRE la chevelure (z-index 2) */
-.welcome .m-gauge { top: calc(96px + env(safe-area-inset-top)); left: 12px; width: 146px; padding: 11px 11px 12px; text-align: center; z-index: 2; animation: w-cardIn .7s var(--ease) both .5s; }
+.welcome .m-gauge { top: calc(96px + env(safe-area-inset-top)); left: 12px; width: 146px; padding: 11px 11px 12px; text-align: center; z-index: 2; transform: scale(0.86); transform-origin: top left; animation: w-cardIn .7s var(--ease) both .5s; }
 .welcome .g-eyebrow { font-weight: 600; font-size: 7.5px; letter-spacing: 0.13em; text-transform: uppercase; color: var(--space); }
 .welcome .scoregauge { position: relative; width: 110px; margin: 6px auto 0; }
 .welcome .sg-svg { width: 100%; height: auto; display: block; overflow: visible; }
@@ -56,7 +56,7 @@
 .welcome .sg-sub { text-align: center; font-size: 8px; color: var(--graphite); margin-top: 2px; line-height: 1.35; }
 
 /* 2 · Type de peau — DEVANT (z-index 5) */
-.welcome .m-type { top: calc(21px + env(safe-area-inset-top)); right: 38px; padding: 10px 14px 11px; border-radius: 16px; width: 150px; z-index: 5; animation: w-cardIn .7s var(--ease) both .85s; }
+.welcome .m-type { top: calc(21px + env(safe-area-inset-top)); right: 38px; padding: 10px 14px 11px; border-radius: 16px; width: 150px; z-index: 5; background: rgba(255,255,255,0.60); -webkit-backdrop-filter: blur(22px) saturate(185%); backdrop-filter: blur(22px) saturate(185%); animation: w-cardIn .7s var(--ease) both .85s; }
 .welcome .t-label { font-weight: 600; font-size: 7.5px; letter-spacing: 0.13em; text-transform: uppercase; color: var(--graphite); }
 .welcome .t-val { margin-top: 3px; font-size: 13.5px; font-weight: 700; letter-spacing: -0.02em; }
 .welcome .t-swatches { display: flex; align-items: center; gap: 4px; margin-top: 7px; }
@@ -76,7 +76,7 @@
 .welcome .st-price { margin-top: 2px; font-size: 12px; font-weight: 800; letter-spacing: -0.03em; }
 
 /* ── Bottom sheet ── */
-.welcome .sheet { position: relative; z-index: 6; flex: 0 0 auto; background: var(--card); border-radius: 34px 34px 0 0; margin-top: -34px; padding: 26px 24px calc(16px + env(safe-area-inset-bottom)); box-shadow: 0 -14px 40px rgba(40,55,75,0.10); animation: w-sheetUp .8s var(--ease) both .25s; }
+.welcome .sheet { position: relative; z-index: 6; flex: 0 0 auto; background: var(--card); border-radius: 34px 34px 0 0; margin-top: -34px; padding: 26px 24px 5px; box-shadow: 0 -14px 40px rgba(40,55,75,0.10); animation: w-sheetUp .8s var(--ease) both .25s; }
 .welcome .w-brand { line-height: 1; }
 .welcome .w-brand img { height: 38px; width: auto; max-width: 100%; display: block; }
 .welcome .tagline { margin-top: 10px; font-size: 16.5px; font-weight: 400; color: var(--graphite); letter-spacing: -0.01em; }
