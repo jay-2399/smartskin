@@ -1,5 +1,6 @@
 import { ResultsScreen } from "@/components/screens/ResultsScreen";
-import { CodeGate } from "@/components/ui/CodeGate";
+// TEMP 2026-07-16 : code-gate TikTok désactivé pour les tests. Réactiver = décommenter les 2 lignes.
+// import { CodeGate } from "@/components/ui/CodeGate";
 
 // `demo` lu côté serveur (évite une erreur d'hydratation côté écran).
 // Le code-gate viral (code de la vidéo TikTok) s'affiche par-dessus le reveal :
@@ -10,7 +11,7 @@ export default async function Page({ searchParams }: { searchParams: Promise<{ d
   return (
     <>
       <ResultsScreen demo={demo !== undefined} />
-      <CodeGate />
+      {/* <CodeGate /> */}
     </>
   );
 }
