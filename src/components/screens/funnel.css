@@ -175,7 +175,7 @@
    Capture (03-capture.html) — viewfinder live + critères + déclencheur
    ════════════════════════════════════════════════════════════════════ */
 .screen.capture { padding:0 22px; }
-.capture-topbar { padding:30px 2px 0; }
+.capture-topbar { padding:max(30px, calc(env(safe-area-inset-top) + 12px)) 2px 0; }
 .tb-title { font-weight:700; font-size:15px; color:var(--ink); letter-spacing:-0.02em; }
 .tb-step { margin-left:auto; font-family:var(--fm); font-size:10px; color:var(--space); letter-spacing:0.08em; }
 
@@ -310,7 +310,7 @@
 
 .r-nav { position:sticky; top:0; z-index:20; display:flex; justify-content:space-between; align-items:center; padding:30px 24px 14px; background:linear-gradient(to bottom, var(--bg) 70%, transparent); }
 .nav-back { width:44px; height:44px; border-radius:50%; background:var(--card); border:1px solid rgba(0,0,0,0.05); box-shadow:0 1px 6px rgba(0,0,0,0.08); display:flex; align-items:center; justify-content:center; color:var(--ink); cursor:pointer; }
-.nav-logo { position:absolute; left:50%; top:30px; transform:translateX(-50%); display:flex; align-items:center; pointer-events:none; }
+.nav-logo { position:absolute; left:50%; top:max(30px, calc(env(safe-area-inset-top) + 6px)); transform:translateX(-50%); display:flex; align-items:center; pointer-events:none; }
 .nav-logo img { height:30px; width:auto; }
 .nav-count { font-family:var(--fm); font-size:12px; color:var(--space); letter-spacing:0.18em; }
 
