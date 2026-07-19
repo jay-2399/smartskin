@@ -5,6 +5,7 @@ import Resend from "next-auth/providers/resend";
 import Credentials from "next-auth/providers/credentials";
 import { db } from "@/lib/db";
 import { verifyPassword } from "./password";
+import { verifyAppleIdToken } from "./apple";
 
 /* Auth.js (NextAuth v5) — PASSWORDLESS : Google OAuth + lien magique (Resend), via
    l'adaptateur Prisma. Credentials (email + mot de passe) est CONSERVÉ le temps de
@@ -48,6 +49,26 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         const user = await db.user.findUnique({ where: { email } });
         if (!user?.passwordHash) return null;
         if (!(await verifyPassword(password, user.passwordHash))) return null;
+        return { id: user.id, email: user.email, name: user.name, lifetimeAccess: user.lifetimeAccess };
+      },
+    }),
+    // Sign in with Apple (app iOS native) : le natif obtient un jeton d'identité,
+    // le web appelle signIn("apple", { idToken }). On vérifie le jeton et on
+    // crée/retrouve le compte par email (pas de migration DB).
+    Credentials({
+      id: "apple",
+      name: "Apple",
+      credentials: { idToken: {} },
+      authorize: async (creds) => {
+        const idToken = String(creds?.idToken ?? "");
+        if (!idToken) return null;
+        const identity = await verifyAppleIdToken(idToken).catch(() => null);
+        if (!identity) return null;
+        const user = await db.user.upsert({
+          where: { email: identity.email },
+          update: {},
+          create: { email: identity.email, emailVerified: new Date() },
+        });
         return { id: user.id, email: user.email, name: user.name, lifetimeAccess: user.lifetimeAccess };
       },
     }),
