@@ -1,11 +1,17 @@
 import { NextResponse } from "next/server";
 import { auth } from "@/features/auth";
 import { db } from "@/lib/db";
+import { writeRateLimit } from "@/lib/rate-limit";
 
 // Persiste un scan (bilan daté + photo) sous le compte connecté. Appelé à l'inscription
 // (rattache le 1ᵉ scan gratuit) puis à chaque re-scan. La photo (data URL base64) est
 // gardée directement dans la colonne `photoData` → affichée en avatar du dashboard.
 export async function POST(request: Request) {
+  const rl = writeRateLimit(request, "scan", 30);
+  if (!rl.ok) {
+    return NextResponse.json({ error: "rate_limited" }, { status: 429, headers: { "Retry-After": String(rl.retryAfterSec) } });
+  }
+
   const session = await auth();
   if (!session?.user?.id) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });

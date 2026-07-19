@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { z } from "zod";
 import { db } from "@/lib/db";
 import { hashPassword } from "@/features/auth/password";
+import { writeRateLimit } from "@/lib/rate-limit";
 
 // Inscription email + mot de passe (Auth.js ne gère pas la création de compte).
 // Appelée au CHECKOUT (paywall) : le compte naît avec l'accès débloqué — paiement
@@ -13,6 +14,11 @@ const schema = z.object({
 });
 
 export async function POST(request: Request) {
+  const rl = writeRateLimit(request, "register", 10);
+  if (!rl.ok) {
+    return NextResponse.json({ error: "rate_limited" }, { status: 429, headers: { "Retry-After": String(rl.retryAfterSec) } });
+  }
+
   const parsed = schema.safeParse(await request.json().catch(() => ({})));
   if (!parsed.success) {
     return NextResponse.json({ error: "invalid", issues: parsed.error.flatten().fieldErrors }, { status: 400 });

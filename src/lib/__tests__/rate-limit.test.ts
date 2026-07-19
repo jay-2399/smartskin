@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { rateLimit, clientIp } from "../rate-limit";
+import { rateLimit, clientIp, writeRateLimit } from "../rate-limit";
 
 describe("rateLimit (fenêtre glissante)", () => {
   it("autorise jusqu'à la limite puis bloque", () => {
@@ -32,5 +32,20 @@ describe("clientIp", () => {
   });
   it("retombe sur 'unknown' sans en-tête", () => {
     expect(clientIp(req({}))).toBe("unknown");
+  });
+});
+
+describe("writeRateLimit (routes d'écriture)", () => {
+  const req = (ip: string) => new Request("http://x", { headers: { "x-forwarded-for": ip } });
+  it("bloque après `limit` requêtes pour une IP", () => {
+    const t = 5_000_000;
+    for (let i = 0; i < 2; i++) expect(writeRateLimit(req("9.9.9.9"), "register", 2, t).ok).toBe(true);
+    expect(writeRateLimit(req("9.9.9.9"), "register", 2, t).ok).toBe(false);
+  });
+  it("isole les routes entre elles pour une même IP", () => {
+    const t = 6_000_000;
+    for (let i = 0; i < 2; i++) writeRateLimit(req("8.8.8.8"), "register", 2, t);
+    expect(writeRateLimit(req("8.8.8.8"), "register", 2, t).ok).toBe(false); // register saturé
+    expect(writeRateLimit(req("8.8.8.8"), "scan", 2, t).ok).toBe(true); // scan intact
   });
 });

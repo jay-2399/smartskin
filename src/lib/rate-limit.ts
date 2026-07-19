@@ -43,3 +43,17 @@ export function aiRateLimit(request: Request, now: number = Date.now()): RateLim
   if (!perIp.ok) return perIp;
   return rateLimit("global:ai", GLOBAL_DAY, DAY, now);
 }
+
+const PER_IP_WRITE_HOUR = Number(process.env.RATE_LIMIT_WRITE_PER_IP_HOUR ?? 20);
+
+/** Garde des routes d'ÉCRITURE (register, scan, contact) contre le spam/brute-force :
+ *  `limit` requêtes par heure et par IP, avec un compteur DISTINCT par `route` (saturer
+ *  l'inscription n'épuise pas le scan). `limit` par défaut réglable via env. */
+export function writeRateLimit(
+  request: Request,
+  route: string,
+  limit: number = PER_IP_WRITE_HOUR,
+  now: number = Date.now()
+): RateLimitResult {
+  return rateLimit(`w:${route}:${clientIp(request)}`, limit, HOUR, now);
+}

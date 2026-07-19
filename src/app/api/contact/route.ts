@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
+import { writeRateLimit } from "@/lib/rate-limit";
 
 // Formulaire de contact (widget concierge). Envoie un email via l'API HTTP Resend
 // (déjà utilisé pour les liens magiques) → aucune dépendance ajoutée. Le message part
@@ -14,6 +15,11 @@ const schema = z.object({
 });
 
 export async function POST(request: Request) {
+  const rl = writeRateLimit(request, "contact", 5);
+  if (!rl.ok) {
+    return NextResponse.json({ error: "rate_limited" }, { status: 429, headers: { "Retry-After": String(rl.retryAfterSec) } });
+  }
+
   const parsed = schema.safeParse(await request.json().catch(() => ({})));
   if (!parsed.success) {
     return NextResponse.json({ error: "invalid", issues: parsed.error.flatten().fieldErrors }, { status: 400 });
