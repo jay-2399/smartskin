@@ -64,7 +64,7 @@
 .welcome .sw.on { box-shadow: 0 0 0 1.6px #fff, 0 0 0 3px var(--ink); }
 
 /* 3 · Étape routine — DEVANT (z-index 5) */
-.welcome .m-step { bottom: 46px; left: 12px; width: 196px; padding: 10px 11px 11px; z-index: 5; animation: w-cardIn .7s var(--ease) both 1.15s; }
+.welcome .m-step { bottom: 56px; left: 47px; width: 196px; padding: 10px 11px 11px; z-index: 2; animation: w-cardIn .7s var(--ease) both 1.15s; }
 .welcome .st-head { display: flex; align-items: center; gap: 6px; }
 .welcome .st-num { width: 16px; height: 16px; border-radius: 50%; background: var(--ink); color: #fff; font-size: 8.5px; font-weight: 700; display: inline-flex; align-items: center; justify-content: center; flex-shrink: 0; }
 .welcome .st-tag { font-weight: 600; font-size: 7px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--arsenic); background: var(--accent-bg); border: 1px solid rgba(127,166,190,0.45); border-radius: 100px; padding: 2.5px 8px; }
