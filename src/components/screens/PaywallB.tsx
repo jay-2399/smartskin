@@ -27,11 +27,16 @@ export function PaywallB() {
   const [loading, setLoading] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
-  // prefers-reduced-motion : on fige la vidéo sur son poster.
+  // prefers-reduced-motion : on fige la vidéo sur son poster. Sinon, dans l'app iOS
+  // (WKWebView), l'attribut autoPlay ne suffit pas toujours → on FORCE play() au montage.
   useEffect(() => {
+    const v = videoRef.current;
+    if (!v) return;
     if (typeof window !== "undefined" && window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
-      videoRef.current?.pause();
+      v.pause();
+      return;
     }
+    v.play().catch(() => {});
   }, []);
 
   // Écran immersif sombre : on passe le fond <body> en sombre (retiré au démontage)
