@@ -15,6 +15,10 @@ export function isNativeApp(): boolean {
 
 /** Lance l'achat Apple natif ; `onDone(true)` si le paiement a réussi. */
 export function startNativePurchase(onDone: (ok: boolean) => void): void {
-  window.__smartskinPurchaseDone = (ok) => onDone(!!ok);
+  window.__smartskinPurchaseDone = async (ok) => {
+    // Achat vérifié côté natif → on débloque l'accès à vie en base (compte connecté).
+    if (ok) await fetch("/api/iap/grant", { method: "POST" }).catch(() => {});
+    onDone(!!ok);
+  };
   window.webkit?.messageHandlers?.native?.postMessage({ action: "purchase" });
 }

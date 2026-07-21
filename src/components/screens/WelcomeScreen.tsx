@@ -8,7 +8,7 @@ import "./welcome.css";
 // déjà déclarés côté CaptureScreen).
 declare global {
   interface Window {
-    __smartskinAppleAuth?: (idToken: string) => void;
+    __smartskinAppleAuth?: (idToken: string, name?: string) => void;
   }
 }
 
@@ -34,8 +34,8 @@ export function WelcomeScreen() {
   // le jeton ici → on ouvre la session NextAuth (provider "apple") puis on route.
   useEffect(() => {
     if (!isNative) return;
-    window.__smartskinAppleAuth = async (idToken: string) => {
-      const res = await signIn("apple", { idToken, redirect: false });
+    window.__smartskinAppleAuth = async (idToken: string, name?: string) => {
+      const res = await signIn("apple", { idToken, name: name ?? "", redirect: false });
       if (res?.ok) router.push("/dashboard");
     };
     return () => { delete window.__smartskinAppleAuth; };

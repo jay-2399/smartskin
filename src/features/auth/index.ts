@@ -58,16 +58,19 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     Credentials({
       id: "apple",
       name: "Apple",
-      credentials: { idToken: {} },
+      credentials: { idToken: {}, name: {} },
       authorize: async (creds) => {
         const idToken = String(creds?.idToken ?? "");
         if (!idToken) return null;
         const identity = await verifyAppleIdToken(idToken).catch(() => null);
         if (!identity) return null;
+        // Apple ne fournit le nom qu'au 1ᵉ login → on le pose à la création, et on complète
+        // un compte existant qui n'en aurait pas (update seulement si un nom est fourni).
+        const appleName = String(creds?.name ?? "").trim() || null;
         const user = await db.user.upsert({
           where: { email: identity.email },
-          update: {},
-          create: { email: identity.email, emailVerified: new Date() },
+          update: appleName ? { name: appleName } : {},
+          create: { email: identity.email, name: appleName, emailVerified: new Date() },
         });
         return { id: user.id, email: user.email, name: user.name, lifetimeAccess: user.lifetimeAccess };
       },
