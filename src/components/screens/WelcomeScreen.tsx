@@ -42,10 +42,10 @@ export function WelcomeScreen() {
   }, [isNative, router]);
 
   const startScan = () => router.push("/questions/age");
-  // TEMP(auth-apple) : Sign in with Apple désactivé (compte Apple gratuit → la capacité
-  // n'est pas signable). Le bouton démarre le scan en « invité » le temps de passer au
-  // compte payant. REBRANCHER : if (isNative) postMessage({ action: "signInWithApple" }).
-  const continueWithApple = () => startScan();
+  const continueWithApple = () => {
+    if (isNative) window.webkit?.messageHandlers?.native?.postMessage({ action: "signInWithApple" });
+    else startScan(); // hors app : Apple natif indisponible → on démarre le scan
+  };
 
   return (
     <div className="welcome">
