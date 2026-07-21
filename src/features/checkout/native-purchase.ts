@@ -5,6 +5,7 @@
 declare global {
   interface Window {
     __smartskinPurchaseDone?: (ok: boolean) => void;
+    __smartskinPrice?: (price: string) => void;
   }
 }
 
@@ -21,4 +22,10 @@ export function startNativePurchase(onDone: (ok: boolean) => void): void {
     onDone(!!ok);
   };
   window.webkit?.messageHandlers?.native?.postMessage({ action: "purchase" });
+}
+
+/** Demande au natif le prix localisé (StoreKit) ; le renvoie via `onPrice`. */
+export function fetchNativePrice(onPrice: (price: string) => void): void {
+  window.__smartskinPrice = (p) => { if (p) onPrice(p); };
+  window.webkit?.messageHandlers?.native?.postMessage({ action: "getPrice" });
 }

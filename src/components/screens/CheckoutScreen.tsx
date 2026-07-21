@@ -7,6 +7,7 @@ import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
 import { stashPendingScan } from "@/features/analysis/pendingScan";
 import { isNativeApp, startNativePurchase } from "@/features/checkout/native-purchase";
+import { useNativePrice } from "@/features/checkout/useNativePrice";
 import "./checkout.css";
 
 /* Checkout / paywall — port de checkout-package/checkout.html (anglais, tokens
@@ -29,6 +30,7 @@ export function CheckoutScreen() {
   );
   const to = (path: string) => (demo ? `${path}?demo=1` : path);
   const [loading, setLoading] = useState(false);
+  const price = useNativePrice("$7.95"); // vrai prix localisé Apple dans l'app iOS
 
   const unlock = async () => {
     posthog.capture("paywall_cta_clicked", { variant: "A" });
@@ -107,7 +109,7 @@ export function CheckoutScreen() {
               <div className="plan-meta">One-time payment · no subscription</div>
             </div>
             <div className="plan-price">
-              <div className="pp-now">$7.95</div>
+              <div className="pp-now">{price}</div>
               <div className="pp-old">$49.95</div>
             </div>
           </div>

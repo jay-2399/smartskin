@@ -6,6 +6,7 @@ import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
 import { stashPendingScan } from "@/features/analysis/pendingScan";
 import { isNativeApp, startNativePurchase } from "@/features/checkout/native-purchase";
+import { useNativePrice } from "@/features/checkout/useNativePrice";
 import "./paywall-b.css";
 
 /* Paywall — Variant B (dark immersif) pour l'A/B test. Port de paywall/B/paywall.html.
@@ -25,6 +26,7 @@ export function PaywallB() {
   );
   const to = (path: string) => (demo ? `${path}?demo=1` : path);
   const [loading, setLoading] = useState(false);
+  const price = useNativePrice("$7.95"); // vrai prix localisé Apple dans l'app iOS
   const videoRef = useRef<HTMLVideoElement>(null);
 
   // prefers-reduced-motion : on fige la vidéo sur son poster. Sinon, dans l'app iOS
@@ -121,7 +123,7 @@ export function PaywallB() {
               <span className="pw-offer-badge">−84%</span>
             </div>
             <div className="pw-offer-price">
-              <span className="pw-offer-now">$7.95</span>
+              <span className="pw-offer-now">{price}</span>
               <span className="pw-offer-old">$49.95</span>
             </div>
             <div className="pw-offer-meta">One-time payment · <b>no subscription</b>, yours forever.</div>
@@ -129,7 +131,7 @@ export function PaywallB() {
 
           <button type="button" className="pw-cta" onClick={unlock} disabled={loading}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 11V8a5 5 0 0 1 9.9-1" /><rect x="5" y="11" width="14" height="9" rx="2.5" /><path d="M12 15v2" /></svg>
-            <span>{loading ? "Redirecting to checkout…" : "Unlock my protocol · $7.95"}</span>
+            <span>{loading ? "Redirecting to checkout…" : `Unlock my protocol · ${price}`}</span>
           </button>
 
           <div className="pw-fine">
