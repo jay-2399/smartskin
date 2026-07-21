@@ -129,7 +129,6 @@ export function PaywallB() {
 
           <div className="pw-fine">
             <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg>Secure payment</span>
-            <span className="pw-sep">·</span><span>no subscription</span>
           </div>
         </div>
       </div>
