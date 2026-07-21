@@ -1,3 +1,4 @@
+import { redirect } from "next/navigation";
 import { auth } from "@/features/auth";
 import { db } from "@/lib/db";
 import { buildRecommendedRoutine } from "@/features/recommendation";
@@ -27,6 +28,10 @@ export default async function Page() {
     const r = AnalysisResultSchema.safeParse(s.result);
     return r.success ? [{ date: s.createdAt, score: s.score, result: r.data, answers: s.answers, photoData: s.photoData }] : [];
   });
+
+  // Nouvel utilisateur connecté SANS aucun scan → on l'envoie scanner (sinon il tombe sur
+  // le dashboard d'exemple). Une fois le scan fait connecté, il revient ici avec SES données.
+  if (userId && parsed.length === 0) redirect("/questions/age");
 
   const latest = parsed.at(-1) ?? null;
   const prev = parsed.at(-2)?.result ?? null;
