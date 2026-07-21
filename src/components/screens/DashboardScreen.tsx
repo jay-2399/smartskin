@@ -226,7 +226,7 @@ export function DashboardScreen({ name, avatarUrl, score, routine, startedDaysAg
           <div className="date">{today}</div>
         </div>
         <div className="dash-head-right">
-          <button type="button" className="dash-logout" onClick={() => signOut({ callbackUrl: "/" })} aria-label="Log out" title="Log out">
+          <button type="button" className="dash-logout" onClick={() => signOut({ callbackUrl: "/welcome" })} aria-label="Log out" title="Log out">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M15 17l5-5-5-5" /><path d="M20 12H9" /><path d="M9 21H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3" /></svg>
           </button>
           <div className="ava">{avatarUrl

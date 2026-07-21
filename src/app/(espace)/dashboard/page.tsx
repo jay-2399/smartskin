@@ -60,7 +60,13 @@ export default async function Page() {
   // Vraie routine (mêmes produits que /routine) construite côté serveur, sans IA
   // (le dashboard n'affiche pas les « pourquoi » → rendu ~1 s au lieu de ~40 s).
   const reco = await buildRecommendedRoutine(result, answers, { useLlm: false });
-  const name = session?.user?.name?.split(" ")[0] ?? session?.user?.email?.split("@")[0] ?? "toi";
+  // Nom d'accueil : le vrai nom du compte si connu, sinon le préfixe d'un VRAI email
+  // (on ignore un relais privé Apple `@privaterelay.appleid.com`, qui donnerait une suite
+  // aléatoire), sinon un générique. (Le nom Apple n'est fourni qu'au 1ᵉ login — voir TODO.)
+  const realEmail = session?.user?.email && !session.user.email.includes("privaterelay.appleid.com")
+    ? session.user.email
+    : null;
+  const name = session?.user?.name?.split(" ")[0] ?? realEmail?.split("@")[0] ?? "toi";
 
   // « Depuis quand tu utilises tes produits » = jours écoulés depuis le DERNIER scan.
   // Server Component rendu une fois par requête → lire l'heure courante est légitime.
