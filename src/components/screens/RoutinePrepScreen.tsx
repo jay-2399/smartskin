@@ -121,9 +121,8 @@ export function RoutinePrepScreen({ demo = false }: { demo?: boolean }) {
         statusEl.classList.add("big");
         statusEl.style.opacity = "1";
       }, 260);
-      // TEMP 2026-07-16 : paywall désactivé pour les tests iOS → routine directe.
-      // ↩︎ Réactiver le paywall : remettre to("/checkout") à la place de to("/routine").
-      setT(() => { if (!destroyed) router.push(to("/routine")); }, 2100);
+      // Paywall réactivé : reveal → preparation → checkout (ta page paywall) → routine.
+      setT(() => { if (!destroyed) router.push(to("/checkout")); }, 2100);
     };
 
     // reduced-motion : pas d'animation — jauge pleine dès l'arrivée de la donnée.

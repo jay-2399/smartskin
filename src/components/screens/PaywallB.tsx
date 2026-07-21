@@ -5,6 +5,7 @@ import posthog from "posthog-js";
 import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
 import { stashPendingScan } from "@/features/analysis/pendingScan";
+import { isNativeApp, startNativePurchase } from "@/features/checkout/native-purchase";
 import "./paywall-b.css";
 
 /* Paywall — Variant B (dark immersif) pour l'A/B test. Port de paywall/B/paywall.html.
@@ -44,6 +45,13 @@ export function PaywallB() {
   const unlock = async () => {
     posthog.capture("paywall_cta_clicked", { variant: "B" });
     if (demo) { router.push("/routine?demo=1"); return; }
+    // Dans l'app iOS : paiement Apple natif (StoreKit) au lieu de Stripe. Design inchangé ;
+    // au succès → routine débloquée.
+    if (isNativeApp()) {
+      setLoading(true);
+      startNativePurchase((ok) => { if (ok) router.push(to("/routine")); else setLoading(false); });
+      return;
+    }
     // Bilan + photo + routine déjà construite mis de côté avant Stripe (réhydratés au
     // retour, après création de compte → deck direct).
     const result = useResult.getState().result;

@@ -6,6 +6,7 @@ import posthog from "posthog-js";
 import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
 import { stashPendingScan } from "@/features/analysis/pendingScan";
+import { isNativeApp, startNativePurchase } from "@/features/checkout/native-purchase";
 import "./checkout.css";
 
 /* Checkout / paywall — port de checkout-package/checkout.html (anglais, tokens
@@ -34,6 +35,13 @@ export function CheckoutScreen() {
     // Démo → on saute le paiement. Sinon → session Stripe Checkout puis redirection
     // vers la page de paiement hébergée par Stripe.
     if (demo) { router.push("/routine?demo=1"); return; }
+    // Dans l'app iOS : paiement Apple natif (StoreKit) au lieu de Stripe. Cette page
+    // (design inchangé) demande l'achat au natif ; au succès → routine débloquée.
+    if (isNativeApp()) {
+      setLoading(true);
+      startNativePurchase((ok) => { if (ok) router.push(to("/routine")); else setLoading(false); });
+      return;
+    }
     // On met le bilan + la photo + la routine déjà construite (/preparation) de côté
     // AVANT de partir sur Stripe : au retour (création de compte), la mémoire est vide
     // → on réhydrate depuis là → deck direct, médaillon avec la vraie photo.
