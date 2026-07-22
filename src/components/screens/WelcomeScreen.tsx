@@ -51,7 +51,7 @@ export function WelcomeScreen() {
     <div className="welcome">
       <div className="media">
         {/* eslint-disable-next-line @next/next/no-img-element -- portrait détouré positionné en absolu (next/image gêne le layout) */}
-        <img className="portrait" src="/welcome-portrait.png" alt="AI face analysis" />
+        <img className="portrait" src="/welcome-portrait.webp" alt="AI face analysis" />
 
         <div className="mcard m-gauge">
           <div className="g-eyebrow">Diagnostic result</div>
@@ -78,7 +78,7 @@ export function WelcomeScreen() {
           </div>
           <div className="st-body">
             {/* eslint-disable-next-line @next/next/no-img-element -- visuel produit simple */}
-            <div className="st-img"><img src="/prod-effaclar.png" alt="" /></div>
+            <div className="st-img"><img src="/prod-effaclar.webp" alt="" /></div>
             <div>
               <div className="st-name">Effaclar Gel Cleanser</div>
               <div className="st-price">$18.99</div>
