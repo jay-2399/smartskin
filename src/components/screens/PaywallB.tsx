@@ -176,6 +176,8 @@ export function PaywallB() {
           <button type="button" className="pw-cta" onClick={unlock} disabled={loading}>
             <span className="pw-cta-tx">{loading ? "Redirecting to checkout…" : "Start my glow-up"}</span>
           </button>
+
+          <div className="pw-legal"><a href="/terms">Terms</a> · <a href="/privacy">Privacy</a></div>
         </div>
       </div>
     </div>

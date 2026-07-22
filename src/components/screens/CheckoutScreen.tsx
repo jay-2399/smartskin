@@ -194,7 +194,7 @@ export function CheckoutScreen() {
             <span className="cta-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12h15M12 5l7 7-7 7" /></svg></span>
           </button>
 
-          <div className="terms"><a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></div>
+          <div className="terms"><a href="/terms">Terms of Service</a> and <a href="/privacy">Privacy Policy</a></div>
         </div>
       </div>
     </div>
