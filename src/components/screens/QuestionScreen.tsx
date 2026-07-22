@@ -34,7 +34,7 @@ export function QuestionScreen({ step }: { step: StepId }) {
     else router.push(`/questions/${STEP_ORDER[i + 1]}`);
   };
   const back = () => {
-    if (step === "age") router.push("/");          // 1ʳᵉ étape → landing
+    if (step === "age") router.push("/welcome");   // 1ʳᵉ étape → accueil de l'app
     else if (step === "q2") router.push("/capture"); // q2 vient après la capture
     else router.push(`/questions/${STEP_ORDER[i - 1]}`); // q1 → age, q3 → q2, etc.
   };

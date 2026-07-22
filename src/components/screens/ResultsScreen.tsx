@@ -49,7 +49,7 @@ export function ResultsScreen({ demo = false, presetResult, presetPhotoUrl, pres
   return (
     <div className="screen results">
       <nav className="r-nav">
-        <button type="button" className="nav-back" aria-label="Back" onClick={() => router.push("/")}>
+        <button type="button" className="nav-back" aria-label="Back" onClick={() => router.push("/welcome")}>
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13L5 8l5-5" /></svg>
         </button>
         <div className="nav-logo"><Image src="/logo-smartskin.png" alt="SmartSkin AI" width={154} height={30} priority /></div>
@@ -188,7 +188,7 @@ export function ResultsScreen({ demo = false, presetResult, presetPhotoUrl, pres
           {presetResult ? "Get my custom routine" : "See my custom routine"}
           <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5h8M7.5 4l3.5 3.5-3.5 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
         </button>
-        <button type="button" className="cta-link" onClick={() => { useFunnel.getState().reset(); useResult.getState().clear(); router.push("/"); }}>
+        <button type="button" className="cta-link" onClick={() => { useFunnel.getState().reset(); useResult.getState().clear(); router.push("/welcome"); }}>
           Start over
         </button>
       </div>
