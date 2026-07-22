@@ -121,29 +121,30 @@ export function PaywallB() {
             </div>
             <div className="pw-prooftx">
               <div className="pw-stars">★★★★★</div>
-              <div className="pw-proofl">Loved by <b>100 users</b></div>
+              <div className="pw-proofl">Loved by <b>+100 users</b></div>
             </div>
           </div>
 
           <h1 className="pw-h1">You&apos;re one step away<br />from your glow-up.</h1>
 
           <div className="pw-feats">
-            <div className="pw-feat"><span className="pw-featic"><img src="/paywall-b/ic-routine.png" alt="" /></span><span><b>Morning &amp; evening routine</b> · 8 real products</span></div>
-            <div className="pw-feat"><span className="pw-featic"><img src="/paywall-b/ic-dosage.png" alt="" /></span><span>Full dosage, like a prescription</span></div>
-            <div className="pw-feat"><span className="pw-featic"><img src="/paywall-b/ic-report.png" alt="" /></span><span>Full report · 16 metrics &amp; actives</span></div>
-            <div className="pw-feat"><span className="pw-featic"><img src="/paywall-b/ic-track.png" alt="" /></span><span>Track &amp; re-scan your skin over time</span></div>
+            <div className="pw-feat"><span className="pw-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg></span><span><b>Morning &amp; evening routine</b> · 8 real products</span></div>
+            <div className="pw-feat"><span className="pw-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg></span><span>Full dosage, like a prescription</span></div>
+            <div className="pw-feat"><span className="pw-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg></span><span>Full report · 16 metrics &amp; actives</span></div>
+            <div className="pw-feat"><span className="pw-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg></span><span>Track &amp; re-scan your skin over time</span></div>
           </div>
 
           <div className="pw-plans" role="radiogroup" aria-label="Choose your plan">
             <div className={`pw-plan${plan === "lifetime" ? " sel" : ""}`} role="radio" aria-checked={plan === "lifetime"} tabIndex={0}
                  onClick={() => setPlan("lifetime")} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setPlan("lifetime"); } }}>
+              <span className="pw-plan-savebadge">Save 62%</span>
               <div className="pw-plan-in">
                 <div className="pw-plan-top">
                   <span className="pw-plan-name">Lifetime</span>
                   <span className="pw-radio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg></span>
                 </div>
                 <div className="pw-plan-price"><span className="pw-plan-now">$29.95</span></div>
-                <div className="pw-plan-cmp"><span className="pw-plan-old">$79.95</span><span className="pw-plan-badge">−62%</span></div>
+                <div className="pw-plan-cmp"><span className="pw-plan-old">$79.95</span></div>
               </div>
             </div>
 

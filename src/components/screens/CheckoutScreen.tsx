@@ -1,12 +1,12 @@
 "use client";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import posthog from "posthog-js";
 import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
 import { stashPendingScan } from "@/features/analysis/pendingScan";
-import { isNativeApp, startNativePurchase } from "@/features/checkout/native-purchase";
+import { isNativeApp, startNativePurchase, startNativeRestore } from "@/features/checkout/native-purchase";
 import { useNativePrice } from "@/features/checkout/useNativePrice";
 import "./checkout.css";
 
@@ -32,6 +32,33 @@ export function CheckoutScreen() {
   const [loading, setLoading] = useState(false);
   const [plan, setPlan] = useState<"lifetime" | "weekly">("lifetime");
   const price = useNativePrice("$29.95"); // vrai prix localisé Apple dans l'app iOS
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  // iOS/WKWebView : l'autoplay muet exige que la vidéo soit VRAIMENT muette. React
+  // n'applique pas toujours l'attribut `muted` au DOM → le navigateur la croit sonore
+  // et BLOQUE l'autoplay (le bouton play reste affiché). On force muted + playsInline
+  // en JS puis on (re)tente play() maintenant ET dès que la vidéo est prête.
+  // prefers-reduced-motion : on fige alors la vidéo sur son poster.
+  useEffect(() => {
+    const v = videoRef.current;
+    if (!v) return;
+    if (typeof window !== "undefined" && window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) {
+      v.pause();
+      return;
+    }
+    v.muted = true;
+    v.setAttribute("muted", "");
+    v.playsInline = true;
+    v.setAttribute("playsinline", "");
+    const tryPlay = () => { v.play().catch(() => {}); };
+    tryPlay();
+    v.addEventListener("canplay", tryPlay, { once: true });
+    v.addEventListener("loadeddata", tryPlay, { once: true });
+    return () => {
+      v.removeEventListener("canplay", tryPlay);
+      v.removeEventListener("loadeddata", tryPlay);
+    };
+  }, []);
 
   // Un seul handler clic/clavier par carte (Enter/Espace = sélection, façon radio).
   const pick = (p: "lifetime" | "weekly") => (e: { key?: string; preventDefault: () => void }) => {
@@ -72,6 +99,16 @@ export function CheckoutScreen() {
     }
   };
 
+  // Restauration des achats (obligatoire App Store) : le natif resync StoreKit ; si un
+  // achat est retrouvé → accès redonné → routine. Hors app (web) : rien à restaurer.
+  const onRestore = () => {
+    if (!isNativeApp()) return;
+    startNativeRestore((ok) => {
+      if (ok) router.push(to("/routine"));
+      else alert("No previous purchase found on this Apple ID.");
+    });
+  };
+
   return (
     <div className="checkout">
       <div className="co-scroll">
@@ -83,8 +120,9 @@ export function CheckoutScreen() {
               <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M2 2l10 10M12 2L2 12" /></svg>
             </button>
             <div className="hero-logo"><Image src="/logo-smartskin.png" alt="SmartSkin AI" width={118} height={23} priority /></div>
+            <button type="button" className="co-restore" onClick={onRestore}>Restore</button>
           </div>
-          <video className="hero-video" autoPlay loop muted playsInline poster="/hero-products.png" aria-label="Your routine — real products">
+          <video ref={videoRef} className="hero-video" autoPlay loop muted playsInline poster="/hero-products.png" aria-label="Your routine — real products">
             <source src="/hero-products.mp4" type="video/mp4" />
           </video>
         </div>
@@ -99,7 +137,7 @@ export function CheckoutScreen() {
             </div>
             <div className="proof-tx">
               <div className="stars"><Star /><Star /><Star /><Star /><Star /></div>
-              <div className="proof-sub">Already <b>100 users</b></div>
+              <div className="proof-sub">Already <b>+100 users</b></div>
             </div>
           </div>
 
@@ -116,7 +154,7 @@ export function CheckoutScreen() {
           <div className="plans" role="radiogroup" aria-label="Choose your plan">
             <div className={`plan${plan === "lifetime" ? " sel" : ""}`} role="radio" aria-checked={plan === "lifetime"} tabIndex={0}
                  onClick={pick("lifetime")} onKeyDown={pick("lifetime")}>
-              <span className="plan-badge">−62% launch</span>
+              <span className="plan-badge">Save 62%</span>
               <div className="plan-top">
                 <span className="plan-name">Lifetime</span>
                 <span className="plan-radio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg></span>
