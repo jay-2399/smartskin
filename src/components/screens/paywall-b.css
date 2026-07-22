@@ -70,30 +70,44 @@
 .pwb .pw-prooftx .pw-proofl { font-size:12px; color:var(--t2); margin-top:3px; letter-spacing:-0.005em; }
 .pwb .pw-prooftx .pw-proofl b { color:var(--white); font-weight:700; }
 
-/* ── offre unique (lifetime) — carte "plan sélectionné" : bordure dégradée + reflet animé ── */
-.pwb .pw-offer { position:relative; margin-top:18px; border-radius:20px; padding:1.5px; overflow:hidden;
-  background:linear-gradient(132deg, rgba(188,213,230,0.9) 0%, rgba(188,213,230,0.34) 36%, rgba(188,213,230,0.16) 64%, rgba(188,213,230,0.55) 100%);
+/* ── plans (lifetime / weekly) — deux cartes radio côte à côte ── */
+.pwb .pw-plans { margin-top:18px; display:flex; gap:10px; align-items:stretch; }
+.pwb .pw-plan { position:relative; flex:1; border-radius:20px; padding:1.5px; overflow:hidden; cursor:pointer;
+  background:rgba(255,255,255,0.13); transition:background .25s var(--ease), box-shadow .25s var(--ease); }
+.pwb .pw-plan.sel { background:linear-gradient(132deg, rgba(188,213,230,0.9) 0%, rgba(188,213,230,0.34) 36%, rgba(188,213,230,0.16) 64%, rgba(188,213,230,0.55) 100%);
   box-shadow:0 14px 34px rgba(0,0,0,0.35), 0 0 24px rgba(188,213,230,0.10); }
-.pwb .pw-offer-in { position:relative; overflow:hidden; border-radius:18.5px; padding:15px 17px 14px;
-  background:linear-gradient(180deg, rgba(38,46,56,0.93) 0%, rgba(22,26,32,0.95) 58%, rgba(15,17,21,0.96) 100%);
+.pwb .pw-plan-in { position:relative; overflow:hidden; height:100%; border-radius:18.5px; padding:13px 14px 12px;
+  background:linear-gradient(180deg, rgba(28,33,41,0.92), rgba(16,19,24,0.94));
   -webkit-backdrop-filter:blur(12px); backdrop-filter:blur(12px); }
-.pwb .pw-offer-in::before { content:''; position:absolute; inset:0; pointer-events:none;
+.pwb .pw-plan.sel .pw-plan-in { background:linear-gradient(180deg, rgba(38,46,56,0.93) 0%, rgba(22,26,32,0.95) 58%, rgba(15,17,21,0.96) 100%); }
+.pwb .pw-plan.sel .pw-plan-in::before { content:''; position:absolute; inset:0; pointer-events:none;
   background:radial-gradient(90% 120% at 12% 0%, rgba(188,213,230,0.22), transparent 58%); }
-.pwb .pw-offer-in::after { content:''; position:absolute; top:-40%; bottom:-40%; left:-60%; width:34%;
+.pwb .pw-plan.sel .pw-plan-in::after { content:''; position:absolute; top:-40%; bottom:-40%; left:-60%; width:34%;
   transform:rotate(16deg); pointer-events:none;
   background:linear-gradient(90deg, transparent, rgba(255,255,255,0.09) 42%, rgba(255,255,255,0.20) 50%, rgba(255,255,255,0.09) 58%, transparent);
   animation:pwShine 4.8s var(--ease) infinite 1.4s; }
-.pwb .pw-offer-top { position:relative; display:flex; align-items:center; justify-content:space-between; }
-.pwb .pw-offer-name { font-family:var(--fm); font-size:10px; letter-spacing:0.14em; text-transform:uppercase; color:var(--accent); }
-.pwb .pw-offer-check { width:22px; height:22px; border-radius:50%; background:var(--accent); color:var(--ink); display:flex; align-items:center; justify-content:center; box-shadow:0 0 0 4px rgba(188,213,230,0.16), 0 2px 6px rgba(0,0,0,0.3); }
-.pwb .pw-offer-check svg { width:12px; height:12px; }
-.pwb .pw-offer-price { position:relative; display:flex; align-items:baseline; gap:10px; margin-top:9px; }
-.pwb .pw-offer-now { font-size:38px; font-weight:800; letter-spacing:-0.045em; text-shadow:0 2px 14px rgba(188,213,230,0.18); }
-.pwb .pw-offer-old { font-size:16px; font-weight:700; color:var(--t3); text-decoration:line-through; text-decoration-thickness:1.5px; }
-.pwb .pw-offer-badge { align-self:center; font-size:10px; font-weight:800; letter-spacing:0.04em; color:var(--green); background:var(--green-bg); border:1px solid rgba(57,210,134,0.28); padding:3px 9px; border-radius:100px; }
-.pwb .pw-offer-meta { position:relative; font-size:11.5px; color:var(--t2); margin-top:6px; display:flex; align-items:center; gap:6px; }
-.pwb .pw-offer-meta svg { width:12px; height:12px; color:var(--green); flex-shrink:0; }
-.pwb .pw-offer-meta b { color:var(--white); font-weight:700; }
+.pwb .pw-plan-top { position:relative; display:flex; align-items:center; justify-content:space-between; }
+.pwb .pw-plan-name { font-family:var(--fd); font-weight:700; font-size:10.5px; letter-spacing:0.13em; text-transform:uppercase; color:var(--t2); transition:color .2s; }
+.pwb .pw-plan.sel .pw-plan-name { color:var(--accent); }
+.pwb .pw-radio { width:22px; height:22px; flex-shrink:0; border-radius:50%; border:1.5px solid rgba(255,255,255,0.22); background:transparent; color:var(--ink); display:flex; align-items:center; justify-content:center; transition:background .2s, border-color .2s, box-shadow .2s; }
+.pwb .pw-radio svg { width:12px; height:12px; opacity:0; transition:opacity .2s; }
+.pwb .pw-plan.sel .pw-radio { background:var(--accent); border-color:var(--accent); box-shadow:0 0 0 4px rgba(188,213,230,0.16), 0 2px 6px rgba(0,0,0,0.3); }
+.pwb .pw-plan.sel .pw-radio svg { opacity:1; }
+.pwb .pw-plan-price { position:relative; display:flex; align-items:baseline; gap:7px; margin-top:9px; }
+.pwb .pw-plan-now { font-size:27px; font-weight:800; letter-spacing:-0.045em; }
+.pwb .pw-plan.sel .pw-plan-now { text-shadow:0 2px 14px rgba(188,213,230,0.18); }
+.pwb .pw-plan-unit { font-size:12.5px; font-weight:700; color:var(--t2); }
+.pwb .pw-plan-cmp { position:relative; display:flex; align-items:center; gap:7px; margin-top:4px; min-height:20px; }
+.pwb .pw-plan-old { font-size:13.5px; font-weight:700; color:var(--t3); text-decoration:line-through; text-decoration-thickness:1.5px; }
+.pwb .pw-plan-badge { font-size:9.5px; font-weight:800; letter-spacing:0.04em; color:var(--accent); background:var(--accent-soft); border:1px solid rgba(188,213,230,0.30); padding:2.5px 8px; border-radius:100px; }
+/* mention du plan sélectionné, au-dessus du CTA — chip verre pressé */
+.pwb .pw-plan-note { margin-top:14px; display:flex; justify-content:center; }
+.pwb .pw-note { display:none; align-items:center; gap:8px; font-size:12px; font-weight:600; color:var(--t1); letter-spacing:-0.005em;
+  padding:9px 16px; border-radius:100px; border:1px solid rgba(255,255,255,0.45); background:rgba(255,255,255,0.055);
+  -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px);
+  box-shadow:inset 0 2px 7px rgba(0,0,0,0.42), inset 0 1px 0 rgba(255,255,255,0.12); }
+.pwb .pw-note.on { display:inline-flex; }
+.pwb .pw-note svg { width:15px; height:15px; color:var(--white); flex-shrink:0; }
 
 /* CTA blanc — effet "glass" glossy (galbe + reflet bombé) */
 /* CTA en style « verre » de la landing (.cta-btn de home.css), mais VERSION BLANCHE :

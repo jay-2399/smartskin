@@ -5,4 +5,6 @@ import Stripe from "stripe";
 export const stripe = new Stripe(process.env.STRIPE_SECRET_KEY ?? "");
 
 // Prix de l'accès « à vie » (paiement unique), en centimes USD. Cf. CheckoutScreen.
-export const PRICE_CENTS = 795; // 7,95 $
+export const PRICE_CENTS = 2995; // 29,95 $
+// Prix de l'abonnement hebdomadaire, en centimes USD.
+export const WEEKLY_PRICE_CENTS = 495; // 4,95 $ / semaine

@@ -30,10 +30,18 @@ export function CheckoutScreen() {
   );
   const to = (path: string) => (demo ? `${path}?demo=1` : path);
   const [loading, setLoading] = useState(false);
-  const price = useNativePrice("$7.95"); // vrai prix localisé Apple dans l'app iOS
+  const [plan, setPlan] = useState<"lifetime" | "weekly">("lifetime");
+  const price = useNativePrice("$29.95"); // vrai prix localisé Apple dans l'app iOS
+
+  // Un seul handler clic/clavier par carte (Enter/Espace = sélection, façon radio).
+  const pick = (p: "lifetime" | "weekly") => (e: { key?: string; preventDefault: () => void }) => {
+    if (e.key !== undefined && e.key !== "Enter" && e.key !== " ") return;
+    if (e.key !== undefined) e.preventDefault();
+    setPlan(p);
+  };
 
   const unlock = async () => {
-    posthog.capture("paywall_cta_clicked", { variant: "A" });
+    posthog.capture("paywall_cta_clicked", { variant: "A", plan });
     // Démo → on saute le paiement. Sinon → session Stripe Checkout puis redirection
     // vers la page de paiement hébergée par Stripe.
     if (demo) { router.push("/routine?demo=1"); return; }
@@ -51,7 +59,11 @@ export function CheckoutScreen() {
     if (result) await stashPendingScan(result, useFunnel.getState().answers, useResult.getState().photo, useResult.getState().preparedReco);
     setLoading(true);
     try {
-      const res = await fetch("/api/checkout", { method: "POST" });
+      const res = await fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ plan }),
+      });
       const data = await res.json();
       if (data.url) window.location.href = data.url;
       else setLoading(false);
@@ -101,32 +113,44 @@ export function CheckoutScreen() {
             <div className="feat"><span className="fcheck"><Check /></span>Progress tracking &amp; re-scans</div>
           </div>
 
-          <div className="plan">
-            <span className="plan-badge">−84% launch</span>
-            <span className="plan-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg></span>
-            <div className="plan-info">
-              <div className="plan-name">Lifetime access</div>
-              <div className="plan-meta">One-time payment · no subscription</div>
+          <div className="plans" role="radiogroup" aria-label="Choose your plan">
+            <div className={`plan${plan === "lifetime" ? " sel" : ""}`} role="radio" aria-checked={plan === "lifetime"} tabIndex={0}
+                 onClick={pick("lifetime")} onKeyDown={pick("lifetime")}>
+              <span className="plan-badge">−62% launch</span>
+              <div className="plan-top">
+                <span className="plan-name">Lifetime</span>
+                <span className="plan-radio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg></span>
+              </div>
+              <div className="plan-price-row">
+                <span className="pp-now">{price}</span>
+                <span className="pp-old">$79.95</span>
+              </div>
             </div>
-            <div className="plan-price">
-              <div className="pp-now">{price}</div>
-              <div className="pp-old">$49.95</div>
+            <div className={`plan${plan === "weekly" ? " sel" : ""}`} role="radio" aria-checked={plan === "weekly"} tabIndex={0}
+                 onClick={pick("weekly")} onKeyDown={pick("weekly")}>
+              <div className="plan-top">
+                <span className="plan-name">Weekly</span>
+                <span className="plan-radio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg></span>
+              </div>
+              <div className="plan-price-row">
+                <span className="pp-now">$4.95</span>
+                <span className="pp-unit">/ week</span>
+              </div>
             </div>
           </div>
 
-          <div className="co-guarantee">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3l7 3v5c0 4.4-3 7.6-7 9-4-1.4-7-4.6-7-9V6l7-3Z" /><path d="M9 12l2 2 4-4" /></svg>
-            No commitment · one-time payment
+          <div className="co-note">
+            {plan === "lifetime" ? (
+              <span className="note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 11V8a5 5 0 0 1 10 0v3" /><rect x="5" y="11" width="14" height="9" rx="2.5" /></svg>One-time payment</span>
+            ) : (
+              <span className="note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2l7 3v6.2c0 4.8-3.2 8-7 9.8-3.8-1.8-7-5-7-9.8V5l7-3z" /><path d="M9 12l2.2 2.2L15.5 9.8" /></svg>No commitment, cancel anytime</span>
+            )}
           </div>
 
           <button type="button" className="cta" onClick={unlock} disabled={loading}>
-            <span className="cta-tx">{loading ? "Redirecting to checkout…" : <>Unlock my protocol<small>Pay once · keep forever</small></>}</span>
+            <span className="cta-tx">{loading ? "Redirecting to checkout…" : "Start my glow-up"}</span>
             <span className="cta-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12h15M12 5l7 7-7 7" /></svg></span>
           </button>
-
-          <div className="co-reassure">
-            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3l7 3v5c0 4.4-3 7.6-7 9-4-1.4-7-4.6-7-9V6l7-3Z" /></svg>Secured by Stripe</span>
-          </div>
 
           <div className="terms"><a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></div>
         </div>

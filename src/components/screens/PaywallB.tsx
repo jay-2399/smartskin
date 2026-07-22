@@ -6,7 +6,6 @@ import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
 import { stashPendingScan } from "@/features/analysis/pendingScan";
 import { isNativeApp, startNativePurchase, startNativeRestore } from "@/features/checkout/native-purchase";
-import { useNativePrice } from "@/features/checkout/useNativePrice";
 import "./paywall-b.css";
 
 /* Paywall — Variant B (dark immersif) pour l'A/B test. Port de paywall/B/paywall.html.
@@ -22,7 +21,7 @@ export function PaywallB() {
   );
   const to = (path: string) => (demo ? `${path}?demo=1` : path);
   const [loading, setLoading] = useState(false);
-  const price = useNativePrice("$7.95"); // vrai prix localisé Apple dans l'app iOS
+  const [plan, setPlan] = useState<"lifetime" | "weekly">("lifetime"); // plan sélectionné
   const videoRef = useRef<HTMLVideoElement>(null);
 
   // prefers-reduced-motion : on fige la vidéo sur son poster. Sinon, dans l'app iOS
@@ -135,28 +134,43 @@ export function PaywallB() {
             <div className="pw-feat"><span className="pw-featic"><img src="/paywall-b/ic-track.png" alt="" /></span><span>Track &amp; re-scan your skin over time</span></div>
           </div>
 
-          <div className="pw-offer">
-            <div className="pw-offer-in">
-              <div className="pw-offer-top">
-                <span className="pw-offer-name">Lifetime access</span>
-                <span className="pw-offer-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg></span>
+          <div className="pw-plans" role="radiogroup" aria-label="Choose your plan">
+            <div className={`pw-plan${plan === "lifetime" ? " sel" : ""}`} role="radio" aria-checked={plan === "lifetime"} tabIndex={0}
+                 onClick={() => setPlan("lifetime")} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setPlan("lifetime"); } }}>
+              <div className="pw-plan-in">
+                <div className="pw-plan-top">
+                  <span className="pw-plan-name">Lifetime</span>
+                  <span className="pw-radio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg></span>
+                </div>
+                <div className="pw-plan-price"><span className="pw-plan-now">$29.95</span></div>
+                <div className="pw-plan-cmp"><span className="pw-plan-old">$79.95</span><span className="pw-plan-badge">−62%</span></div>
               </div>
-              <div className="pw-offer-price">
-                <span className="pw-offer-now">{price}</span>
-                <span className="pw-offer-old">$49.95</span>
-                <span className="pw-offer-badge">−84%</span>
+            </div>
+
+            <div className={`pw-plan${plan === "weekly" ? " sel" : ""}`} role="radio" aria-checked={plan === "weekly"} tabIndex={0}
+                 onClick={() => setPlan("weekly")} onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); setPlan("weekly"); } }}>
+              <div className="pw-plan-in">
+                <div className="pw-plan-top">
+                  <span className="pw-plan-name">Weekly</span>
+                  <span className="pw-radio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg></span>
+                </div>
+                <div className="pw-plan-price"><span className="pw-plan-now">$4.95</span><span className="pw-plan-unit">/ week</span></div>
+                <div className="pw-plan-cmp" />
               </div>
-              <div className="pw-offer-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M7 11V8a5 5 0 0 1 10 0v3" /><rect x="5" y="11" width="14" height="9" rx="2.5" /></svg><span>One-time payment · <b>no subscription</b>, yours forever.</span></div>
             </div>
           </div>
 
-          <button type="button" className="pw-cta" onClick={unlock} disabled={loading}>
-            <span className="pw-cta-tx">{loading ? "Redirecting to checkout…" : <>Unlock my protocol<small><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3l7 3v5c0 4.4-3 7.6-7 9-4-1.4-7-4.6-7-9V6l7-3Z" /><path d="M9 12l2 2 4-4" /></svg>No commitment · one-time payment</small></>}</span>
-          </button>
-
-          <div className="pw-fine">
-            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg>Secure payment</span>
+          <div className="pw-plan-note">
+            {plan === "lifetime" ? (
+              <span className="pw-note on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 11V8a5 5 0 0 1 10 0v3" /><rect x="5" y="11" width="14" height="9" rx="2.5" /></svg>One-time payment</span>
+            ) : (
+              <span className="pw-note on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2l7 3v6.2c0 4.8-3.2 8-7 9.8-3.8-1.8-7-5-7-9.8V5l7-3z" /><path d="M9 12l2.2 2.2L15.5 9.8" /></svg>No commitment, cancel anytime</span>
+            )}
           </div>
+
+          <button type="button" className="pw-cta" onClick={unlock} disabled={loading}>
+            <span className="pw-cta-tx">{loading ? "Redirecting to checkout…" : "Start my glow-up"}</span>
+          </button>
         </div>
       </div>
     </div>
