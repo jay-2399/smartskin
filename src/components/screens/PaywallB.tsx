@@ -66,7 +66,7 @@ export function PaywallB() {
     // au succès → routine débloquée.
     if (isNativeApp()) {
       setLoading(true);
-      startNativePurchase((ok) => { if (ok) router.push(to("/routine")); else setLoading(false); });
+      startNativePurchase(plan, (ok) => { if (ok) router.push(to("/routine")); else setLoading(false); });
       return;
     }
     // Bilan + photo + routine déjà construite mis de côté avant Stripe (réhydratés au

@@ -15,14 +15,21 @@ export function isNativeApp(): boolean {
   return typeof window !== "undefined" && window.__SMARTSKIN_NATIVE__ === true;
 }
 
-/** Lance l'achat Apple natif ; `onDone(true)` si le paiement a réussi. */
-export function startNativePurchase(onDone: (ok: boolean) => void): void {
+/** Lance l'achat Apple natif du plan choisi ; `onDone(true)` si le paiement a réussi. */
+export function startNativePurchase(plan: "lifetime" | "weekly", onDone: (ok: boolean) => void): void {
   window.__smartskinPurchaseDone = async (ok) => {
-    // Achat vérifié côté natif → on débloque l'accès à vie en base (compte connecté).
-    if (ok) await fetch("/api/iap/grant", { method: "POST" }).catch(() => {});
+    // Achat vérifié côté natif → on débloque l'accès en base (compte connecté).
+    // ⚠️ v1 : pose `lifetimeAccess` pour les DEUX plans. L'expiration d'un abonnement
+    // weekly côté serveur (App Store Server Notifications) reste à gérer.
+    if (ok) await fetch("/api/iap/grant", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ plan }),
+    }).catch(() => {});
     onDone(!!ok);
   };
-  window.webkit?.messageHandlers?.native?.postMessage({ action: "purchase" });
+  // Le natif mappe le plan vers le bon product id App Store (1234 / 5678).
+  window.webkit?.messageHandlers?.native?.postMessage({ action: "purchase", plan });
 }
 
 /** Restaure un achat déjà effectué (obligatoire App Store) ; `onDone(true)` si un achat est retrouvé. */

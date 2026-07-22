@@ -49,7 +49,7 @@ export function CheckoutScreen() {
     // (design inchangé) demande l'achat au natif ; au succès → routine débloquée.
     if (isNativeApp()) {
       setLoading(true);
-      startNativePurchase((ok) => { if (ok) router.push(to("/routine")); else setLoading(false); });
+      startNativePurchase(plan, (ok) => { if (ok) router.push(to("/routine")); else setLoading(false); });
       return;
     }
     // On met le bilan + la photo + la routine déjà construite (/preparation) de côté
