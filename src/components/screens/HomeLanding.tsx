@@ -147,7 +147,7 @@ export function HomeLanding() {
                 <div className="social-divider" />
                 <div className="social-tx">
                   <div className="stars">★★★★★</div>
-                  <div className="social-l">Loved by <b>1,000+ users</b></div>
+                  <div className="social-l">Loved by <b>100 users</b></div>
                 </div>
               </div>
               <h1 className="title"><span className="soft">Better skin</span> starts with the right <span className="soft">routine.</span></h1>
@@ -322,7 +322,7 @@ export function HomeLanding() {
             </div>
             <div>
               <div className="cta-stars">★★★★★</div>
-              <div className="cta-soc-l">Loved by <b>1,000+ users</b></div>
+              <div className="cta-soc-l">Loved by <b>100 users</b></div>
             </div>
           </div>
           <h2 className="cta-h">Your skin deserves better<br />than <span className="hl">guesswork.</span></h2>

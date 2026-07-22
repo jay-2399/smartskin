@@ -87,12 +87,12 @@ export function CheckoutScreen() {
             </div>
             <div className="proof-tx">
               <div className="stars"><Star /><Star /><Star /><Star /><Star /></div>
-              <div className="proof-sub">Already <b>1,000+ users</b></div>
+              <div className="proof-sub">Already <b>100 users</b></div>
             </div>
           </div>
 
-          <h1>Unlock your <span className="soft">protocol.</span></h1>
-          <p className="co-sub">Your morning &amp; evening routine, built for your top 3 priorities.</p>
+          <h1>You&apos;re one step away<br />from your <span className="soft">glow-up.</span></h1>
+          <p className="co-sub">A custom routine of real products, made for your skin and your concerns.</p>
 
           <div className="feats">
             <div className="feat"><span className="fcheck"><Check /></span>Your morning &amp; evening routine</div>
@@ -112,6 +112,11 @@ export function CheckoutScreen() {
               <div className="pp-now">{price}</div>
               <div className="pp-old">$49.95</div>
             </div>
+          </div>
+
+          <div className="co-guarantee">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3l7 3v5c0 4.4-3 7.6-7 9-4-1.4-7-4.6-7-9V6l7-3Z" /><path d="M9 12l2 2 4-4" /></svg>
+            No commitment · one-time payment
           </div>
 
           <button type="button" className="cta" onClick={unlock} disabled={loading}>

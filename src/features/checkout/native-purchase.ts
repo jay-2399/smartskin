@@ -6,6 +6,7 @@ declare global {
   interface Window {
     __smartskinPurchaseDone?: (ok: boolean) => void;
     __smartskinPrice?: (price: string) => void;
+    __smartskinRestoreDone?: (ok: boolean) => void;
   }
 }
 
@@ -22,6 +23,16 @@ export function startNativePurchase(onDone: (ok: boolean) => void): void {
     onDone(!!ok);
   };
   window.webkit?.messageHandlers?.native?.postMessage({ action: "purchase" });
+}
+
+/** Restaure un achat déjà effectué (obligatoire App Store) ; `onDone(true)` si un achat est retrouvé. */
+export function startNativeRestore(onDone: (ok: boolean) => void): void {
+  window.__smartskinRestoreDone = async (ok) => {
+    // Achat retrouvé côté natif → on redonne l'accès à vie en base (compte connecté).
+    if (ok) await fetch("/api/iap/grant", { method: "POST" }).catch(() => {});
+    onDone(!!ok);
+  };
+  window.webkit?.messageHandlers?.native?.postMessage({ action: "restore" });
 }
 
 /** Demande au natif le prix localisé (StoreKit) ; le renvoie via `onPrice`. */

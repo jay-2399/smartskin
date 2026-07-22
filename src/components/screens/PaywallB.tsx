@@ -5,7 +5,7 @@ import posthog from "posthog-js";
 import { useResult } from "@/features/analysis/resultStore";
 import { useFunnel } from "@/features/funnel/store";
 import { stashPendingScan } from "@/features/analysis/pendingScan";
-import { isNativeApp, startNativePurchase } from "@/features/checkout/native-purchase";
+import { isNativeApp, startNativePurchase, startNativeRestore } from "@/features/checkout/native-purchase";
 import { useNativePrice } from "@/features/checkout/useNativePrice";
 import "./paywall-b.css";
 
@@ -13,10 +13,6 @@ import "./paywall-b.css";
    Même logique de paiement que le Variant A (CheckoutScreen) : CTA → /api/checkout →
    page Stripe ($7.95) ; le webhook accorde l'accès. En démo (?demo=1) : on saute le
    paiement et on enchaîne sur /routine?demo=1. Classes préfixées .pw- (isolation). */
-
-const Check = () => (
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg>
-);
 
 export function PaywallB() {
   const router = useRouter();
@@ -74,14 +70,21 @@ export function PaywallB() {
     }
   };
 
+  // Restauration des achats (obligatoire App Store) : le natif resync StoreKit ; si un
+  // achat est retrouvé → accès redonné → routine. Hors app (web) : rien à restaurer.
+  const onRestore = () => {
+    if (!isNativeApp()) return;
+    startNativeRestore((ok) => {
+      if (ok) router.push(to("/routine"));
+      else alert("No previous purchase found on this Apple ID.");
+    });
+  };
+
   return (
     <div className="pwb">
       <video ref={videoRef} className="pw-bg" src="/paywall-b/hero-portrait.mp4" poster="/paywall-b/hero-portrait.png" autoPlay muted loop playsInline />
       <div className="pw-scrim" />
       <div className="pw-grain" />
-      {/* Dégradé du haut : fond le noir (derrière le notch) dans la vidéo, transition douce.
-          Sous la couche UI (z-index 2) → le logo reste visible au-dessus. */}
-      <div className="pw-topfade" />
 
       <div className="pw-ui">
         <div className="pw-uitop">
@@ -89,6 +92,7 @@ export function PaywallB() {
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M10 13L5 8l5-5" /></svg>
           </button>
           <div className="pw-brand"><img src="/paywall-b/logo-smartskin-white.png" alt="SmartSkin AI" height={28} /></div>
+          <button type="button" className="pw-restore" onClick={onRestore}>Restore</button>
         </div>
 
         <div className="pw-spacer" />
@@ -103,35 +107,36 @@ export function PaywallB() {
             </div>
             <div className="pw-prooftx">
               <div className="pw-stars">★★★★★</div>
-              <div className="pw-proofl">Loved by <b>1,000+ users</b></div>
+              <div className="pw-proofl">Loved by <b>100 users</b></div>
             </div>
           </div>
 
-          <h1 className="pw-h1">Your protocol<br /><span className="pw-soft">is</span> ready.</h1>
-          <p className="pw-sub">Your morning &amp; evening routine, <b>made specifically for your skin</b>.</p>
+          <h1 className="pw-h1">You&apos;re one step away<br />from your glow-up.</h1>
 
           <div className="pw-feats">
-            <div className="pw-feat"><span className="pw-ck"><Check /></span><span><b>Morning &amp; evening routine</b> · 8 real products</span></div>
-            <div className="pw-feat"><span className="pw-ck"><Check /></span><span>Full dosage, like a prescription</span></div>
-            <div className="pw-feat"><span className="pw-ck"><Check /></span><span>Full report · 16 metrics &amp; actives</span></div>
-            <div className="pw-feat"><span className="pw-ck"><Check /></span><span>Track &amp; re-scan your skin over time</span></div>
+            <div className="pw-feat"><span className="pw-featic"><img src="/paywall-b/ic-routine.png" alt="" /></span><span><b>Morning &amp; evening routine</b> · 8 real products</span></div>
+            <div className="pw-feat"><span className="pw-featic"><img src="/paywall-b/ic-dosage.png" alt="" /></span><span>Full dosage, like a prescription</span></div>
+            <div className="pw-feat"><span className="pw-featic"><img src="/paywall-b/ic-report.png" alt="" /></span><span>Full report · 16 metrics &amp; actives</span></div>
+            <div className="pw-feat"><span className="pw-featic"><img src="/paywall-b/ic-track.png" alt="" /></span><span>Track &amp; re-scan your skin over time</span></div>
           </div>
 
           <div className="pw-offer">
-            <div className="pw-offer-top">
-              <span className="pw-offer-name">Lifetime access</span>
-              <span className="pw-offer-badge">−84%</span>
+            <div className="pw-offer-in">
+              <div className="pw-offer-top">
+                <span className="pw-offer-name">Lifetime access</span>
+                <span className="pw-offer-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12.5l4.5 4.5L19 7" /></svg></span>
+              </div>
+              <div className="pw-offer-price">
+                <span className="pw-offer-now">{price}</span>
+                <span className="pw-offer-old">$49.95</span>
+                <span className="pw-offer-badge">−84%</span>
+              </div>
+              <div className="pw-offer-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M7 11V8a5 5 0 0 1 10 0v3" /><rect x="5" y="11" width="14" height="9" rx="2.5" /></svg><span>One-time payment · <b>no subscription</b>, yours forever.</span></div>
             </div>
-            <div className="pw-offer-price">
-              <span className="pw-offer-now">{price}</span>
-              <span className="pw-offer-old">$49.95</span>
-            </div>
-            <div className="pw-offer-meta">One-time payment · <b>no subscription</b>, yours forever.</div>
           </div>
 
           <button type="button" className="pw-cta" onClick={unlock} disabled={loading}>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 11V8a5 5 0 0 1 9.9-1" /><rect x="5" y="11" width="14" height="9" rx="2.5" /><path d="M12 15v2" /></svg>
-            <span>{loading ? "Redirecting to checkout…" : `Unlock my protocol · ${price}`}</span>
+            <span className="pw-cta-tx">{loading ? "Redirecting to checkout…" : <>Unlock my protocol<small><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3l7 3v5c0 4.4-3 7.6-7 9-4-1.4-7-4.6-7-9V6l7-3Z" /><path d="M9 12l2 2 4-4" /></svg>No commitment · one-time payment</small></>}</span>
           </button>
 
           <div className="pw-fine">
