@@ -34,7 +34,22 @@ export function PaywallB() {
       v.pause();
       return;
     }
-    v.play().catch(() => {});
+    // iOS/WKWebView : l'autoplay muet exige que la vidéo soit VRAIMENT muette. React
+    // n'applique pas toujours l'attribut `muted` au DOM → le navigateur la croit sonore
+    // et BLOQUE l'autoplay (le bouton play reste affiché). On force muted + playsInline
+    // en JS, puis on (re)tente play() maintenant ET dès que la vidéo est prête.
+    v.muted = true;
+    v.setAttribute("muted", "");
+    v.playsInline = true;
+    v.setAttribute("playsinline", "");
+    const tryPlay = () => { v.play().catch(() => {}); };
+    tryPlay();
+    v.addEventListener("canplay", tryPlay, { once: true });
+    v.addEventListener("loadeddata", tryPlay, { once: true });
+    return () => {
+      v.removeEventListener("canplay", tryPlay);
+      v.removeEventListener("loadeddata", tryPlay);
+    };
   }, []);
 
   // Écran immersif sombre : on passe le fond <body> en sombre (retiré au démontage)
