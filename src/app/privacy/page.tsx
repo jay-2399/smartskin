@@ -23,7 +23,7 @@ export default function PrivacyPage() {
       <h2>1. Who we are</h2>
       <p>
         SmartSkin is operated by DaVinci Digitale. For any privacy question or request, contact us
-        at <a href="mailto:support@smart-skin.ai">support@smart-skin.ai</a>.
+        at <a href="mailto:byllel@davinci-digitale.fr">byllel@davinci-digitale.fr</a>.
       </p>
 
       <h2>2. What we collect</h2>
@@ -74,7 +74,7 @@ export default function PrivacyPage() {
       <p>
         Depending on where you live (including under the EU GDPR), you can access, correct, delete,
         export, or object to the processing of your data. To exercise any right — including deleting
-        your photos and account — email <a href="mailto:support@smart-skin.ai">support@smart-skin.ai</a>{" "}
+        your photos and account — email <a href="mailto:byllel@davinci-digitale.fr">byllel@davinci-digitale.fr</a>{" "}
         and we will act within the legal timeframe.
       </p>
 
@@ -94,7 +94,7 @@ export default function PrivacyPage() {
       </p>
 
       <h2>11. Contact</h2>
-      <p>Questions or requests: <a href="mailto:support@smart-skin.ai">support@smart-skin.ai</a>.</p>
+      <p>Questions or requests: <a href="mailto:byllel@davinci-digitale.fr">byllel@davinci-digitale.fr</a>.</p>
     </main>
   );
 }

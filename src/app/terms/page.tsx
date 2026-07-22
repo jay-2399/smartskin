@@ -65,7 +65,7 @@ export default function TermsPage() {
       <p>We may update these Terms. We will change the date above; continued use means you accept the changes.</p>
 
       <h2>9. Contact</h2>
-      <p>Questions: <a href="mailto:support@smart-skin.ai">support@smart-skin.ai</a>.</p>
+      <p>Questions: <a href="mailto:byllel@davinci-digitale.fr">byllel@davinci-digitale.fr</a>.</p>
     </main>
   );
 }
