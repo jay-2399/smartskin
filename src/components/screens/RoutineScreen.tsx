@@ -72,7 +72,7 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
 
   // Pas de bilan, MÊME après tentative de réhydratation → on renvoie à l'accueil.
   useEffect(() => {
-    if (rehydrated && !result) router.replace("/");
+    if (rehydrated && !result) router.replace("/welcome");
   }, [rehydrated, result, router]);
 
   // Monte l'expérience impérative IMMÉDIATEMENT : l'intro animée joue pendant que

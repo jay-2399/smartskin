@@ -76,7 +76,11 @@ export function CheckoutScreen() {
     // (design inchangé) demande l'achat au natif ; au succès → routine débloquée.
     if (isNativeApp()) {
       setLoading(true);
-      startNativePurchase(plan, (ok) => { if (ok) router.push(to("/routine")); else setLoading(false); });
+      // Scan mis de côté (comme pour Stripe) → sauvegardé sur le compte après la connexion.
+      const result = useResult.getState().result;
+      if (result) await stashPendingScan(result, useFunnel.getState().answers, useResult.getState().photo, useResult.getState().preparedReco);
+      // Achat OK → écran de connexion post-paiement (Sign in with Apple → grant → routine).
+      startNativePurchase(plan, (ok) => { if (ok) router.push(`/checkout/save?plan=${plan}`); else setLoading(false); });
       return;
     }
     // On met le bilan + la photo + la routine déjà construite (/preparation) de côté

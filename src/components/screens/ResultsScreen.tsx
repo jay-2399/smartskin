@@ -34,7 +34,7 @@ export function ResultsScreen({ demo = false, presetResult, presetPhotoUrl, pres
 
   // Accès direct sans bilan en mémoire → retour à l'accueil (sauf preset : autonome).
   useEffect(() => {
-    if (!result && !presetResult) router.replace("/");
+    if (!result && !presetResult) router.replace("/welcome");
   }, [result, presetResult, router]);
 
   useEffect(() => () => { if (blobUrl) URL.revokeObjectURL(blobUrl); }, [blobUrl]);

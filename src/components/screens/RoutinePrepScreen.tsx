@@ -50,7 +50,7 @@ export function RoutinePrepScreen({ demo = false }: { demo?: boolean }) {
 
   // Accès direct sans bilan → accueil.
   useEffect(() => {
-    if (!result) router.replace("/");
+    if (!result) router.replace("/welcome");
   }, [result, router]);
 
   useEffect(() => {

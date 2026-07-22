@@ -66,7 +66,11 @@ export function PaywallB() {
     // au succès → routine débloquée.
     if (isNativeApp()) {
       setLoading(true);
-      startNativePurchase(plan, (ok) => { if (ok) router.push(to("/routine")); else setLoading(false); });
+      // Scan mis de côté (comme pour Stripe) → sauvegardé sur le compte après la connexion.
+      const result = useResult.getState().result;
+      if (result) await stashPendingScan(result, useFunnel.getState().answers, useResult.getState().photo, useResult.getState().preparedReco);
+      // Achat OK → écran de connexion post-paiement (Sign in with Apple → grant → routine).
+      startNativePurchase(plan, (ok) => { if (ok) router.push(`/checkout/save?plan=${plan}`); else setLoading(false); });
       return;
     }
     // Bilan + photo + routine déjà construite mis de côté avant Stripe (réhydratés au
