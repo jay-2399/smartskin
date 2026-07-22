@@ -71,7 +71,7 @@ export default async function Page() {
   const realEmail = session?.user?.email && !session.user.email.includes("privaterelay.appleid.com")
     ? session.user.email
     : null;
-  const name = session?.user?.name?.split(" ")[0] ?? realEmail?.split("@")[0] ?? "toi";
+  const name = session?.user?.name?.split(" ")[0] ?? realEmail?.split("@")[0] ?? "there";
 
   // « Depuis quand tu utilises tes produits » = jours écoulés depuis le DERNIER scan.
   // Server Component rendu une fois par requête → lire l'heure courante est légitime.

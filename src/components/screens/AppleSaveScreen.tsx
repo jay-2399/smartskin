@@ -64,7 +64,7 @@ export function AppleSaveScreen({ plan }: { plan: "lifetime" | "weekly" }) {
         <h1 className="auth-title">Payment successful 🎉</h1>
         <p className="auth-sub">One last tap to save your routine to your account — so you can track your progress over time.</p>
         <button type="button" className="auth-cta" onClick={continueWithApple} disabled={loading}
-          style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}>
+          style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, width: "100%" }}>
           <AppleIcon />{loading ? "One moment…" : "Continue with Apple"}
         </button>
         {error && <p className="auth-error">{error}</p>}
