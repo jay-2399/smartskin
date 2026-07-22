@@ -3,6 +3,7 @@ import { Manrope, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Clarity } from "@/components/Clarity";
 import { PostHogProvider } from "@/components/PostHogProvider";
+import { NativeAccessSync } from "@/components/NativeAccessSync";
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -38,7 +39,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr" className={`${manrope.variable} ${jetbrains.variable}`}>
-      <body><PostHogProvider><Clarity />{children}</PostHogProvider></body>
+      <body><PostHogProvider><Clarity /><NativeAccessSync />{children}</PostHogProvider></body>
     </html>
   );
 }

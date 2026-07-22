@@ -3,7 +3,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
-import { isNativeApp } from "@/features/checkout/native-purchase";
+import { isNativeApp, syncNativeAccess } from "@/features/checkout/native-purchase";
 import { readPendingScan, clearPendingScan } from "@/features/analysis/pendingScan";
 import "./auth.css";
 
@@ -49,6 +49,8 @@ export function AppleSaveScreen({ plan }: { plan: "lifetime" | "weekly" }) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ plan }),
       }).catch(() => {});
+      // Corrige l'accès avec la date d'expiration RÉELLE de l'abonnement (entitlement StoreKit).
+      await syncNativeAccess();
       clearPendingScan();
       router.push("/routine");
     };

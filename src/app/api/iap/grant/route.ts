@@ -16,6 +16,13 @@ export async function POST(request: Request) {
   if (!session?.user?.id) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
-  await db.user.update({ where: { id: session.user.id }, data: { lifetimeAccess: true } });
+  // Baseline immédiat selon le plan acheté. Pour weekly, la date d'expiration RÉELLE d'Apple
+  // est corrigée juste après par la synchro StoreKit (/api/iap/sync).
+  const { plan } = await request.json().catch(() => ({ plan: "lifetime" }));
+  if (plan === "weekly") {
+    await db.user.update({ where: { id: session.user.id }, data: { accessUntil: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000) } });
+  } else {
+    await db.user.update({ where: { id: session.user.id }, data: { lifetimeAccess: true } });
+  }
   return NextResponse.json({ ok: true });
 }

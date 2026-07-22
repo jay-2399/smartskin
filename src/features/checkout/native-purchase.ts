@@ -7,6 +7,7 @@ declare global {
     __smartskinPurchaseDone?: (ok: boolean) => void;
     __smartskinPrice?: (price: string) => void;
     __smartskinRestoreDone?: (ok: boolean) => void;
+    __smartskinEntitlement?: (productId: string | null, expiresAt: number | null) => void;
   }
 }
 
@@ -39,4 +40,26 @@ export function startNativeRestore(onDone: (ok: boolean) => void): void {
 export function fetchNativePrice(onPrice: (price: string) => void): void {
   window.__smartskinPrice = (p) => { if (p) onPrice(p); };
   window.webkit?.messageHandlers?.native?.postMessage({ action: "getPrice" });
+}
+
+/** Demande au natif l'entitlement StoreKit courant (product id + date d'expiration ms) et
+ *  synchronise l'accès en base via /api/iap/sync. À appeler après l'achat ET à chaque ouverture
+ *  de l'app (prolonge l'abonnement au renouvellement, laisse l'expiration se faire par la date).
+ *  Résout toujours (filet de 4 s si le natif ne répond pas). Hors app : no-op immédiat. */
+export function syncNativeAccess(): Promise<void> {
+  return new Promise((resolve) => {
+    if (!isNativeApp()) { resolve(); return; }
+    let settled = false;
+    const done = () => { if (!settled) { settled = true; resolve(); } };
+    window.__smartskinEntitlement = async (productId, expiresAt) => {
+      await fetch("/api/iap/sync", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ productId, expiresAt }),
+      }).catch(() => {});
+      done();
+    };
+    window.webkit?.messageHandlers?.native?.postMessage({ action: "getEntitlement" });
+    setTimeout(done, 4000);
+  });
 }
