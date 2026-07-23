@@ -6,6 +6,7 @@ import { useResult } from "@/features/analysis/resultStore";
 import type { IconKey, RoutineData, RestockItem } from "@/features/routine/products";
 import { useFunnel } from "@/features/funnel/store";
 import type { Answers } from "@/features/funnel/types";
+import posthog from "posthog-js";
 import "./dashboard.css";
 
 /* Dashboard — espace de suivi post-achat (port de dashboard_smartskin/dashboard.html,
@@ -65,6 +66,7 @@ function estimate(p: RestockItem, elapsedDays: number) {
 
 export function DashboardScreen({ name, avatarUrl, score, routine, startedDaysAgo, loggedIn, history, priorities, lastAnswers, firstDateLabel, nextDateLabel, nextDateFull, phase }: { name: string; avatarUrl: string | null; score: number; routine: RoutineData; startedDaysAgo: number; loggedIn: boolean; history: HistPoint[]; priorities: PriorityData[]; lastAnswers: Answers; firstDateLabel: string | null; nextDateLabel: string; nextDateFull: string; phase: number }) {
   const router = useRouter();
+  useEffect(() => { posthog.capture("dashboard_viewed", { logged_in: loggedIn }); }, [loggedIn]);
   // « Analyser » : re-scan = on réutilise les réponses du dernier scan, on ne refait
   // que la photo, et on reviendra au dashboard à la fin (cf. funnel store `rescan`).
   const startRescan = () => {

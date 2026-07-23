@@ -60,7 +60,7 @@ export function PaywallB() {
   }, []);
 
   const unlock = async () => {
-    posthog.capture("paywall_cta_clicked", { variant: "B" });
+    posthog.capture("paywall_cta_clicked", { variant: "B", plan });
     if (demo) { router.push("/routine?demo=1"); return; }
     // Dans l'app iOS : paiement Apple natif (StoreKit) au lieu de Stripe. Design inchangé ;
     // au succès → routine débloquée.
@@ -70,7 +70,10 @@ export function PaywallB() {
       const result = useResult.getState().result;
       if (result) await stashPendingScan(result, useFunnel.getState().answers, useResult.getState().photo, useResult.getState().preparedReco);
       // Achat OK → écran de connexion post-paiement (Sign in with Apple → grant → routine).
-      startNativePurchase(plan, (ok) => { if (ok) router.push(`/checkout/save?plan=${plan}`); else setLoading(false); });
+      startNativePurchase(plan, (ok) => {
+        if (ok) { posthog.capture("purchase_completed", { plan, variant: "B" }); router.push(`/checkout/save?plan=${plan}`); }
+        else { posthog.capture("purchase_cancelled", { plan, variant: "B" }); setLoading(false); }
+      });
       return;
     }
     // Bilan + photo + routine déjà construite mis de côté avant Stripe (réhydratés au

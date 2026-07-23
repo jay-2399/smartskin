@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 import { isNativeApp, syncNativeAccess } from "@/features/checkout/native-purchase";
 import { readPendingScan, clearPendingScan } from "@/features/analysis/pendingScan";
+import posthog from "posthog-js";
 import "./auth.css";
 
 /* Écran de connexion JUSTE APRÈS l'achat natif (StoreKit), iOS-exclusif.
@@ -35,6 +36,7 @@ export function AppleSaveScreen({ plan }: { plan: "lifetime" | "weekly" }) {
     window.__smartskinAppleAuth = async (idToken: string, name?: string) => {
       const res = await signIn("apple", { idToken, name: name ?? "", redirect: false });
       if (!res?.ok) { setError("Sign-in failed. Please try again."); setLoading(false); return; }
+      posthog.capture("account_created", { method: "apple", plan });
       // Compte ouvert → session présente. On sauve le scan (best-effort) puis on pose l'accès.
       const pending = readPendingScan();
       if (pending) {

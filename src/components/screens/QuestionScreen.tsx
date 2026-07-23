@@ -7,6 +7,7 @@ import { isStepValid } from "@/features/funnel/validation";
 import { OptionList } from "@/components/ui/OptionList";
 import { TopBar } from "@/components/ui/TopBar";
 import type { StepId } from "@/features/funnel/types";
+import posthog from "posthog-js";
 import "./questions-glass.css";
 
 /* Icône « i » du helper et flèche du CTA — repris des maquettes. */
@@ -29,6 +30,7 @@ export function QuestionScreen({ step }: { step: StepId }) {
   // Flux : landing → age → q1 → capture → q2 … q7 → /analyse
   // (le mur d'inscription /compte sera intercalé ici au Plan 4)
   const next = () => {
+    posthog.capture("question_answered", { step, index: q.index, answer: (answers as Record<string, unknown>)[step] });
     if (step === "q1") router.push("/capture");
     else if (step === "q7") router.push("/analyse");
     else router.push(`/questions/${STEP_ORDER[i + 1]}`);

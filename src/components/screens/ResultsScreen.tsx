@@ -8,6 +8,8 @@ import { ageRangeToYears } from "@/features/funnel/questions";
 import { toSections, skinAgeDelta } from "@/features/analysis/format";
 import { CARNATION_SWATCHES, UNDERTONE_SWATCHES } from "@/features/analysis/attributes";
 import { SAMPLE_RESULT } from "@/features/analysis/sample";
+import { topConcerns } from "@/features/routine/recommend";
+import posthog from "posthog-js";
 import type { AnalysisResult } from "@/features/analysis/schema";
 import { ScoreGauge } from "@/components/ui/ScoreGauge";
 import { ResultPhotoMesh } from "@/components/ui/ResultPhotoMesh";
@@ -38,6 +40,10 @@ export function ResultsScreen({ demo = false, presetResult, presetPhotoUrl, pres
   }, [result, presetResult, router]);
 
   useEffect(() => () => { if (blobUrl) URL.revokeObjectURL(blobUrl); }, [blobUrl]);
+
+  useEffect(() => {
+    if (result && !presetResult) posthog.capture("results_viewed", { score: result.score, top_concern: topConcerns(result)[0] });
+  }, [result, presetResult]);
 
   if (!result) return null;
 

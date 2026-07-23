@@ -80,7 +80,10 @@ export function CheckoutScreen() {
       const result = useResult.getState().result;
       if (result) await stashPendingScan(result, useFunnel.getState().answers, useResult.getState().photo, useResult.getState().preparedReco);
       // Achat OK → écran de connexion post-paiement (Sign in with Apple → grant → routine).
-      startNativePurchase(plan, (ok) => { if (ok) router.push(`/checkout/save?plan=${plan}`); else setLoading(false); });
+      startNativePurchase(plan, (ok) => {
+        if (ok) { posthog.capture("purchase_completed", { plan, variant: "A" }); router.push(`/checkout/save?plan=${plan}`); }
+        else { posthog.capture("purchase_cancelled", { plan, variant: "A" }); setLoading(false); }
+      });
       return;
     }
     // On met le bilan + la photo + la routine déjà construite (/preparation) de côté

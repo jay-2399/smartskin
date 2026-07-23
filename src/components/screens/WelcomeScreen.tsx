@@ -2,6 +2,7 @@
 import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
+import posthog from "posthog-js";
 import "./welcome.css";
 
 // Renvoi du jeton Apple par le natif (window.__SMARTSKIN_NATIVE__ / webkit sont
@@ -41,7 +42,10 @@ export function WelcomeScreen() {
     return () => { delete window.__smartskinAppleAuth; };
   }, [isNative, router]);
 
-  const startScan = () => router.push("/questions/age");
+  const startScan = () => {
+    posthog.capture("onboarding_started");
+    router.push("/questions/age");
+  };
   const continueWithApple = () => {
     if (isNative) window.webkit?.messageHandlers?.native?.postMessage({ action: "signInWithApple" });
     else startScan(); // hors app : Apple natif indisponible → on démarre le scan

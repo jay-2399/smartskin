@@ -7,6 +7,7 @@ import { loadFaceMesh } from "@/features/capture/faceMesh";
 import { startValidationLoop } from "@/features/capture/validationLoop";
 import { validateAndPrepareUpload } from "@/features/capture/uploadValidation";
 import { VALIDATION_CONFIG } from "@/features/capture/config";
+import posthog from "posthog-js";
 import type { Status, ValidationState } from "@/features/capture/types";
 
 // Pont app iOS native : drapeau injecté par la WebView + fonctions du canal natif.
@@ -56,6 +57,7 @@ export function CaptureScreen() {
   useEffect(() => {
     if (!isNative) return;
     window.__smartskinReceivePhoto = async (dataUrl: string) => {
+      posthog.capture("scan_completed", { method: "camera" });
       const blob = await (await fetch(dataUrl)).blob();
       useFunnel.getState().setPhoto(blob);
       router.push("/capture/apercu");
@@ -65,6 +67,7 @@ export function CaptureScreen() {
 
   const onLive = () => {
     setUploadError(null);
+    posthog.capture("scan_started", { method: "camera" });
     if (isNative) {
       window.webkit?.messageHandlers?.native?.postMessage({ action: "openCamera" });
     } else {
@@ -77,6 +80,7 @@ export function CaptureScreen() {
     e.target.value = ""; // permet de re-sélectionner le même fichier
     if (!file) return;
     setUploadError(null);
+    posthog.capture("scan_started", { method: "upload" });
     setUploading(true);
     const startedAt = Date.now();
     const res = await validateAndPrepareUpload(file);
@@ -86,10 +90,12 @@ export function CaptureScreen() {
     if (elapsed < 1000) await new Promise((r) => setTimeout(r, 1000 - elapsed));
     setUploading(false);
     if (!res.ok || !res.blob) {
+      posthog.capture("scan_failed", { method: "upload", reason: res.message ?? "invalid" });
       setUploadError(res.message ?? "Photo non conforme.");
       return;
     }
     // l'utilisateur a choisi cette photo → on continue directement, sans écran d'aperçu
+    posthog.capture("scan_completed", { method: "upload" });
     useFunnel.getState().setPhoto(res.blob);
     // re-scan (depuis le dashboard) → analyse directe ; sinon, suite du questionnaire.
     router.push(useFunnel.getState().rescan ? "/analyse" : "/questions/q2");
@@ -216,6 +222,7 @@ function LiveView({ onBack }: { onBack: () => void }) {
       } catch (e) {
         if (cancelled) return;
         setLoading(false);
+        posthog.capture("scan_failed", { method: "camera", reason: e instanceof DOMException ? e.name : "camera_error" });
         setFatalError(
           e instanceof DOMException && (e.name === "NotAllowedError" || e.name === "PermissionDeniedError")
             ? "Allow camera access, or upload a photo."
@@ -244,6 +251,7 @@ function LiveView({ onBack }: { onBack: () => void }) {
     if (!video || shotRef.current) return;
     shotRef.current = true;
     const blob = await captureJpeg(video);
+    posthog.capture("scan_completed", { method: "camera" });
     useFunnel.getState().setPhoto(blob); // en mémoire uniquement — jamais uploadée ici
     router.push("/capture/apercu"); // prévisualisation : reprendre ou continuer
   }, [router]);

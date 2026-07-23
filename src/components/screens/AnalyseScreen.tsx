@@ -6,6 +6,7 @@ import { useFunnel } from "@/features/funnel/store";
 import { useResult } from "@/features/analysis/resultStore";
 import { paintFaceMesh } from "@/features/analysis/paintFaceMesh";
 import type { AnalysisResult } from "@/features/analysis/schema";
+import posthog from "posthog-js";
 
 /* Port de reference/User_flow_screens/10-analyse.html.
    La barre de progression est calée sur la durée réelle de l'analyse :
@@ -98,6 +99,7 @@ export function AnalyseScreen() {
           if (!res.ok) { w.failed = true; return; }
           w.result = await res.json();
           w.doneAt = performance.now();
+          posthog.capture("analysis_completed", { score: w.result?.score });
         } catch {
           w.failed = true;
         }

@@ -7,6 +7,7 @@ import { SAMPLE_RESULT } from "@/features/analysis/sample";
 import { readPendingScan, clearPendingScan } from "@/features/analysis/pendingScan";
 import { EMPTY_ANSWERS } from "@/features/funnel/types";
 import { initRoutine } from "@/features/routine/storytelling";
+import posthog from "posthog-js";
 import "./routine-v2.css";
 
 /* Routine v2 — expérience « storytelling » (intro → deck de swipe jour→soir →
@@ -106,6 +107,10 @@ export function RoutineScreen({ demo = false }: { demo?: boolean }) {
               .then((d: PreparedReco) => ({ routine: d.routine, totaux: d.totaux, warnings: d.avertissements })),
     });
   }, [result, answers, demo, stored, faceUrl, router, prepared]);
+
+  useEffect(() => {
+    if (result) posthog.capture("routine_viewed");
+  }, [result]);
 
   if (!result) return null;
   return <div className="routine-v2" ref={rootRef} />;
