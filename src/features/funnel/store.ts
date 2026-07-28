@@ -10,12 +10,15 @@ type FunnelState = {
   // Re-scan depuis le dashboard (« Analyser ») : on réutilise les réponses du dernier
   // scan, on ne refait que la photo, et on revient au dashboard à la fin.
   rescan: boolean;
+  // Consentement explicite avant l'envoi de la photo à l'IA tierce (Anthropic) — requis App Store (5.1.2(i)).
+  aiConsent: boolean;
   setAge: (value: string | null) => void;
   setSingle: (step: "q4" | "q6", value: string) => void;
   toggleMulti: (step: "q1" | "q2" | "q3" | "q7", value: string, exclusive: boolean) => void;
   setGate: (changed: boolean) => void;
   toggleSymptom: (value: string) => void;
   setPhoto: (blob: Blob | null) => void;
+  setAiConsent: (value: boolean) => void;
   reset: () => void;
 };
 
@@ -23,6 +26,7 @@ export const useFunnel = create<FunnelState>((set) => ({
   answers: structuredClone(EMPTY_ANSWERS),
   photo: null,
   rescan: false,
+  aiConsent: false,
   setAge: (value) => set((s) => ({ answers: { ...s.answers, age: value } })),
   setSingle: (step, value) =>
     set((s) => ({ answers: { ...s.answers, [step]: value } })),
@@ -45,5 +49,6 @@ export const useFunnel = create<FunnelState>((set) => ({
       },
     })),
   setPhoto: (blob) => set({ photo: blob }),
-  reset: () => set({ answers: structuredClone(EMPTY_ANSWERS), photo: null, rescan: false }),
+  setAiConsent: (value) => set({ aiConsent: value }),
+  reset: () => set({ answers: structuredClone(EMPTY_ANSWERS), photo: null, rescan: false, aiConsent: false }),
 }));

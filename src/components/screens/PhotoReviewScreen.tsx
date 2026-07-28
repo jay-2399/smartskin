@@ -58,7 +58,7 @@ export function PhotoReviewScreen() {
       </div>
 
       <div className="shutter-zone">
-        <span className="reassure-capture">Your photo stays private to your account.</span>
+        <span className="reassure-capture">Your photo is never sold or used for ads.</span>
       </div>
     </div>
   );

@@ -189,7 +189,7 @@ function ChoiceView({
       </div>
 
       <div className="shutter-zone cap-choice-foot">
-        <span className="reassure-capture">Your photo stays private to your account.</span>
+        <span className="reassure-capture">Your photo is never sold or used for ads.</span>
       </div>
     </>
   );
@@ -338,7 +338,7 @@ function LiveView({ onBack }: { onBack: () => void }) {
             ← upload a photo instead
           </button>
         )}
-        <span className="reassure-capture">Your photo stays private to your account.</span>
+        <span className="reassure-capture">Your photo is never sold or used for ads.</span>
       </div>
     </>
   );

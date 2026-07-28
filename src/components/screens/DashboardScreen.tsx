@@ -80,6 +80,8 @@ export function DashboardScreen({ name, avatarUrl, score, routine, startedDaysAg
   const [routineHydrated, setRoutineHydrated] = useState(false); // cases restaurées depuis localStorage ?
   const [modalOpen, setModalOpen] = useState(false);
   const [lockOpen, setLockOpen] = useState(false); // modal « patiente » si re-scan trop tôt
+  const [deleteOpen, setDeleteOpen] = useState(false); // modal de confirmation de suppression de compte
+  const [deleting, setDeleting] = useState(false);
   const [today, setToday] = useState("");
   // Routine VALIDÉE au reveal (gardée en mémoire) → prioritaire sur celle recalculée
   // côté serveur. Lue APRÈS le montage (SSR = prop) pour éviter un mismatch d'hydratation.
@@ -219,6 +221,16 @@ export function DashboardScreen({ name, avatarUrl, score, routine, startedDaysAg
     .filter((x): x is RestockItem => x !== null);
   const restockList = restockItems.map((p) => ({ p, e: estimate(p, startedDaysAgo) }))
     .sort((a, b) => a.e.left - b.e.left);
+
+  // Suppression de compte (App Store 5.1.1(v)) : appelle l'API puis DÉCONNECTE
+  // (session JWT → le cookie doit être effacé, sinon l'utilisateur supprimé reste « connecté »).
+  const onDeleteAccount = async () => {
+    setDeleting(true);
+    const res = await fetch("/api/account/delete", { method: "POST" }).catch(() => null);
+    if (res?.ok) { await signOut({ callbackUrl: "/welcome" }); return; }
+    setDeleting(false);
+    alert("Couldn't delete your account. Please try again.");
+  };
 
   return (
     <div className="dash">
@@ -380,6 +392,9 @@ export function DashboardScreen({ name, avatarUrl, score, routine, startedDaysAg
             })}
           </div>
         )}
+
+        {/* ── Suppression de compte (RGPD / App Store 5.1.1(v)) ── */}
+        <button type="button" onClick={() => setDeleteOpen(true)} style={{ display: "block", width: "fit-content", margin: "10px auto 2px", padding: 8, border: "none", background: "transparent", color: "#9AA1AC", fontSize: 13, textDecoration: "underline", cursor: "pointer" }}>Delete account</button>
       </div>
 
       {/* ── Check-in modal (au chargement) ── */}
@@ -408,6 +423,20 @@ export function DashboardScreen({ name, avatarUrl, score, routine, startedDaysAg
           <div className="ci-title">{daysToNext} more day{daysToNext > 1 ? "s" : ""} to wait</div>
           <div className="ci-sub">Your skin changes over about a week. We wait for the next scan to measure real change — not day-to-day noise.</div>
           <button className="ci-skip" onClick={() => setLockOpen(false)}>Got it</button>
+        </div>
+      </div>
+
+      {/* ── Suppression de compte : confirmation (RGPD / App Store 5.1.1(v)) ── */}
+      <div className={`ci-modal ${deleteOpen ? "" : "hidden"}`}>
+        <div className="ci-scrim" onClick={() => { if (!deleting) setDeleteOpen(false); }} />
+        <div className="ci-sheet">
+          <button className="ci-x" aria-label="Close" onClick={() => setDeleteOpen(false)} disabled={deleting}><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M2 2l10 10M12 2L2 12" /></svg></button>
+          <div className="ci-title">Delete your account?</div>
+          <div className="ci-sub">This permanently deletes your account and all your data — scans, photos and results. This can&apos;t be undone.</div>
+          <button type="button" onClick={onDeleteAccount} disabled={deleting} style={{ width: "100%", padding: 13, marginTop: 4, border: "none", borderRadius: 12, background: "#E5484D", color: "#fff", fontSize: 15, fontWeight: 600, cursor: "pointer", opacity: deleting ? 0.7 : 1 }}>
+            {deleting ? "Deleting…" : "Delete permanently"}
+          </button>
+          <button className="ci-skip" onClick={() => setDeleteOpen(false)} disabled={deleting}>Cancel</button>
         </div>
       </div>
     </div>

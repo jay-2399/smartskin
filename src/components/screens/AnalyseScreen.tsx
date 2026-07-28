@@ -44,6 +44,7 @@ async function blobToBase64(blob: Blob): Promise<string> {
 export function AnalyseScreen() {
   const router = useRouter();
   const photo = useFunnel((s) => s.photo);
+  const aiConsent = useFunnel((s) => s.aiConsent);
   const photoUrl = useMemo(() => (photo ? URL.createObjectURL(photo) : null), [photo]);
   const [pct, setPct] = useState(0);
   const [msg, setMsg] = useState(STAGES[0].msg);
@@ -81,6 +82,8 @@ export function AnalyseScreen() {
 
   useEffect(() => {
     if (!photo) return;
+    // Consentement explicite requis avant tout envoi de la photo à l'IA tierce (Anthropic) — App Store 5.1.2(i).
+    if (!aiConsent) return;
     const w = work.current;
 
     // 1) appel réel — une seule fois
@@ -157,7 +160,7 @@ export function AnalyseScreen() {
     raf = requestAnimationFrame(tick);
 
     return () => cancelAnimationFrame(raf);
-  }, [photo, router]);
+  }, [photo, router, aiConsent]);
 
   return (
     <div className="screen analyse">
@@ -199,7 +202,33 @@ export function AnalyseScreen() {
         )}
       </div>
 
-      <div className="reassure-analyse">Your photo stays private to your account.</div>
+      <div className="reassure-analyse">Analyzed securely in the EU — never sold or used for ads.</div>
+
+      {/* Consentement explicite AVANT l'envoi de la photo à l'IA tierce (Anthropic) — requis App Store (5.1.2(i)).
+          Tant que non accepté, l'appel /api/analyze est bloqué (voir l'effet ci-dessus). */}
+      {!aiConsent && (
+        <div style={{ position: "fixed", inset: 0, zIndex: 50, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(12,14,18,0.55)", backdropFilter: "blur(3px)", WebkitBackdropFilter: "blur(3px)", padding: 16 }}>
+          <div style={{ width: "100%", maxWidth: 440, background: "#fff", borderRadius: 22, padding: "24px 22px 20px", boxShadow: "0 12px 40px rgba(0,0,0,0.25)" }}>
+            <div style={{ width: 44, height: 44, borderRadius: 12, background: "#EAF1FF", display: "flex", alignItems: "center", justifyContent: "center", marginBottom: 14 }}>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M12 2l7 3v6.2c0 4.8-3.2 8-7 9.8-3.8-1.8-7-5-7-9.8V5l7-3z" /><path d="M9 12l2.2 2.2L15.5 9.8" /></svg>
+            </div>
+            <h2 style={{ fontSize: 20, fontWeight: 600, lineHeight: 1.25, margin: "0 0 8px", color: "#14181F" }}>Analyze your photo</h2>
+            <p style={{ fontSize: 14.5, lineHeight: 1.5, margin: "0 0 6px", color: "#3A4250" }}>
+              To build your skin analysis, your <b>photo</b> and your <b>answers</b> are sent securely to our AI provider, <b>Anthropic (Claude)</b>. Processing takes place in the <b>European Union</b>.
+            </p>
+            <p style={{ fontSize: 13, lineHeight: 1.5, margin: "0 0 18px", color: "#6B7280" }}>
+              Your photo is never sold and never used for advertising.{" "}
+              <a href="/privacy" style={{ color: "#2563EB", textDecoration: "underline" }}>Privacy Policy</a>
+            </p>
+            <button type="button" onClick={() => useFunnel.getState().setAiConsent(true)} style={{ width: "100%", padding: 14, border: "none", borderRadius: 14, background: "#14181F", color: "#fff", fontSize: 15.5, fontWeight: 600, cursor: "pointer" }}>
+              Agree &amp; analyze
+            </button>
+            <button type="button" onClick={() => router.push("/welcome")} style={{ width: "100%", padding: 12, marginTop: 8, border: "none", borderRadius: 14, background: "transparent", color: "#6B7280", fontSize: 14, fontWeight: 500, cursor: "pointer" }}>
+              Cancel
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

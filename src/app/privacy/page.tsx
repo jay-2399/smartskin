@@ -12,7 +12,7 @@ export default function PrivacyPage() {
     <main className="legal">
       <LegalBack />
       <h1>Privacy Policy</h1>
-      <p className="legal-updated">Last updated: July 22, 2026</p>
+      <p className="legal-updated">Last updated: July 28, 2026</p>
 
       <p>
         SmartSkin (&ldquo;we&rdquo;, &ldquo;us&rdquo;) provides an AI-powered skincare analysis app.
@@ -72,10 +72,15 @@ export default function PrivacyPage() {
 
       <h2>7. Your rights</h2>
       <p>
-        Depending on where you live (including under the EU GDPR), you can access, correct, delete,
-        export, or object to the processing of your data. To exercise any right — including deleting
-        your photos and account — email <a href="mailto:byllel@davinci-digitale.fr">byllel@davinci-digitale.fr</a>{" "}
-        and we will act within the legal timeframe.
+        <strong>Delete your account and data in the app:</strong> you can permanently delete your
+        account — and with it all your scans, photos, and results — directly from your dashboard
+        (the &ldquo;Delete account&rdquo; option). Deletion is immediate and cannot be undone.
+      </p>
+      <p>
+        Depending on where you live (including under the EU GDPR), you can also access, correct,
+        delete, export, or object to the processing of your data. To exercise any other right, email{" "}
+        <a href="mailto:byllel@davinci-digitale.fr">byllel@davinci-digitale.fr</a> and we will act
+        within the legal timeframe.
       </p>
 
       <h2>8. Not a medical service</h2>
