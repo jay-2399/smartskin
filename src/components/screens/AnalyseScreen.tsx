@@ -68,7 +68,7 @@ export function AnalyseScreen() {
 
   // Maillage facial réel (MediaPipe), identique au reveal, dessiné sur la photo scannée.
   useEffect(() => {
-    if (!photoUrl) return;
+    if (!photoUrl || !aiConsent) return; // le maillage (visuel « analyse ») n'apparaît qu'après consentement
     if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
     let cancelled = false;
     (async () => {
@@ -78,7 +78,7 @@ export function AnalyseScreen() {
       if (ok && !cancelled) canvas.classList.add("on");
     })();
     return () => { cancelled = true; };
-  }, [photoUrl]);
+  }, [photoUrl, aiConsent]);
 
   useEffect(() => {
     if (!photo) return;
@@ -165,7 +165,7 @@ export function AnalyseScreen() {
   return (
     <div className="screen analyse">
       <Image className="analyse-logo" src="/logo-smartskin.png" alt="SmartSkin AI" width={150} height={29} priority />
-      <div className="kicker"><span className="live" />AI analysis in progress</div>
+      {aiConsent && <div className="kicker"><span className="live" />AI analysis in progress</div>}
 
       <div className="scan" ref={scanRef}>
         {/* eslint-disable-next-line @next/next/no-img-element -- blob en mémoire */}
@@ -178,29 +178,35 @@ export function AnalyseScreen() {
           <path className="scan-corner" d="M18 262 L18 278 L34 278" />
           <path className="scan-corner" d="M218 262 L218 278 L202 278" />
         </svg>
-        <div className="scan-sweep" />
+        {aiConsent && <div className="scan-sweep" />}
       </div>
 
-      <div className="prog-wrap">
-        <div className="prog-top">
-          <span className="prog-label">{pct >= 100 ? "Done" : "Analyzing your skin"}</span>
-          <span className="prog-pct">{pct}%</span>
-        </div>
-        <div className="prog-track"><div className="ana-fill" style={{ width: `${pct}%` }} /></div>
-      </div>
+      {aiConsent ? (
+        <>
+          <div className="prog-wrap">
+            <div className="prog-top">
+              <span className="prog-label">{pct >= 100 ? "Done" : "Analyzing your skin"}</span>
+              <span className="prog-pct">{pct}%</span>
+            </div>
+            <div className="prog-track"><div className="ana-fill" style={{ width: `${pct}%` }} /></div>
+          </div>
 
-      <div className="status">
-        {error ? (
-          <button type="button" className="retry" onClick={() => location.reload()}>
-            Analysis failed. Retry
-          </button>
-        ) : (
-          <>
-            <div className="status-dots"><i /><i /><i /></div>
-            <span className="status-msg">{msg}</span>
-          </>
-        )}
-      </div>
+          <div className="status">
+            {error ? (
+              <button type="button" className="retry" onClick={() => location.reload()}>
+                Analysis failed. Retry
+              </button>
+            ) : (
+              <>
+                <div className="status-dots"><i /><i /><i /></div>
+                <span className="status-msg">{msg}</span>
+              </>
+            )}
+          </div>
+        </>
+      ) : (
+        <div className="status"><span className="status-msg">Review the details below to start your analysis.</span></div>
+      )}
 
       <div className="reassure-analyse">Analyzed securely in the EU — never sold or used for ads.</div>
 
