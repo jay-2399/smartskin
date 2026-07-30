@@ -53,19 +53,31 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       },
     }),
     // Sign in with Apple (app iOS native) : le natif obtient un jeton d'identité,
-    // le web appelle signIn("apple", { idToken }). On vérifie le jeton et on
-    // crée/retrouve le compte par email (pas de migration DB).
+    // le web appelle signIn("apple", { idToken, mode }). On vérifie le jeton, puis
+    // `mode` décide si un compte absent doit être créé ou non.
     Credentials({
       id: "apple",
       name: "Apple",
-      credentials: { idToken: {}, name: {} },
+      credentials: { idToken: {}, name: {}, mode: {} },
       authorize: async (creds) => {
         const idToken = String(creds?.idToken ?? "");
         if (!idToken) return null;
         const identity = await verifyAppleIdToken(idToken).catch(() => null);
         if (!identity) return null;
-        // Apple ne fournit le nom qu'au 1ᵉ login → on le pose à la création, et on complète
-        // un compte existant qui n'en aurait pas (update seulement si un nom est fourni).
+
+        // mode "login" = bouton « Already have an account? Log in » de l'accueil. Un
+        // Apple ID sans compte SmartSkin ne doit RIEN créer : sinon le bouton inscrit en
+        // douce puis dépose l'utilisateur sur le questionnaire — le bug signalé par Apple
+        // (rejet 2026-07-30, Guideline 2.1(a)). Ici, pas de compte = pas de session.
+        if (creds?.mode === "login") {
+          const user = await db.user.findUnique({ where: { email: identity.email } });
+          if (!user) return null;
+          return { id: user.id, email: user.email, name: user.name, lifetimeAccess: user.lifetimeAccess };
+        }
+
+        // Sinon (écran d'APRÈS-PAIEMENT) : créer/retrouver le compte est bien le rôle de
+        // l'écran. Apple ne fournit le nom qu'au 1ᵉ login → on le pose à la création, et on
+        // complète un compte existant qui n'en aurait pas (update seulement si nom fourni).
         const appleName = String(creds?.name ?? "").trim() || null;
         const user = await db.user.upsert({
           where: { email: identity.email },

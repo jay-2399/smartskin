@@ -40,7 +40,9 @@ export function AppleSaveScreen({ plan }: { plan: "lifetime" | "weekly" }) {
     };
     // Le natif ouvre la feuille Apple (Face ID) et rappelle ici avec le jeton d'identité.
     window.__smartskinAppleAuth = async (idToken: string, name?: string) => {
-      const res = await signIn("apple", { idToken, name: name ?? "", redirect: false });
+      // mode "signup" : cet écran vient APRÈS le paiement — créer le compte est
+      // précisément son rôle. L'accueil, lui, se contente de connecter (mode "login").
+      const res = await signIn("apple", { idToken, name: name ?? "", mode: "signup", redirect: false });
       if (!res?.ok) { setError("Sign-in failed. Please try again."); setLoading(false); return; }
       posthog.capture("account_created", { method: "apple", plan });
       // Compte ouvert → session présente. On sauve le scan (best-effort) puis on pose l'accès.

@@ -38,9 +38,12 @@ export function WelcomeScreen() {
   useEffect(() => {
     if (!isNative) return;
     window.__smartskinAppleAuth = async (idToken: string, name?: string) => {
-      const res = await signIn("apple", { idToken, name: name ?? "", redirect: false });
+      // mode "login" : ce bouton CONNECTE, il n'inscrit pas. Un Apple ID sans compte
+      // SmartSkin repart sans session (voir features/auth) → on le dit clairement au
+      // lieu de créer un compte fantôme et de l'envoyer sur le questionnaire.
+      const res = await signIn("apple", { idToken, name: name ?? "", mode: "login", redirect: false });
       if (res?.ok) router.push("/dashboard");
-      else setErreur("Sign-in failed. Please try again.");
+      else setErreur("No SmartSkin account found for this Apple ID. Tap “Scan my skin” to get started.");
     };
     // Échec/annulation côté natif : sans ce rappel, le tap sur « Sign in » ne produisait
     // rien de visible — c'est ce qu'Apple a signalé (Guideline 2.1(a)).
@@ -110,8 +113,9 @@ export function WelcomeScreen() {
         {/* CTA principal : scan invité (le login + l'achat se font au paywall). */}
         <button type="button" className="scan-btn" onClick={startScan}>Scan my skin</button>
 
-        {/* Secondaire : les utilisateurs qui reviennent se connectent (Apple) → dashboard. */}
-        <button type="button" className="ghost" onClick={continueWithApple}>Already have an account? <b>Sign in</b></button>
+        {/* Secondaire : les utilisateurs qui reviennent se connectent (Apple) → dashboard.
+            Libellé « Log in » (et non « Sign in ») : ce bouton ne crée jamais de compte. */}
+        <button type="button" className="ghost" onClick={continueWithApple}>Already have an account? <b>Log in</b></button>
         {erreur && <p className="signin-error">{erreur}</p>}
 
         <div className="privacy">
