@@ -160,3 +160,6 @@ html.pwb-dark, html.pwb-dark body { background:#0A0B0E; }
 @keyframes pwbRise { from{opacity:0; transform:translateY(13px);} to{opacity:1; transform:none;} }
 @keyframes pwShine { 0%{ left:-60%;} 55%,100%{ left:130%;} }
 @media (prefers-reduced-motion: reduce){ .pwb *, .pwb *::before, .pwb *::after{ animation:none !important; transition:none !important; } }
+
+/* Paiement tenté hors app iOS : plus aucun moyen de payer depuis un navigateur. */
+.pw-indispo { margin: 10px 0 0; text-align: center; font-size: 13px; line-height: 1.45; opacity: .7; }

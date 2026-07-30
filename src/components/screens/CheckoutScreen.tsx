@@ -11,8 +11,9 @@ import { useNativePrice } from "@/features/checkout/useNativePrice";
 import "./checkout.css";
 
 /* Checkout / paywall — port de checkout-package/checkout.html (anglais, tokens
-   SmartSkin). Paiement RÉEL via Stripe : le CTA crée une session Checkout (/api/checkout)
-   et redirige vers la page de paiement Stripe ($7.95). Le webhook accorde l'accès. */
+   SmartSkin). Paiement RÉEL via StoreKit (achat in-app Apple) : le CTA demande l'achat
+   au natif, puis /checkout/save (Sign in with Apple) accorde l'accès. Hors app iOS,
+   aucun paiement n'est possible — SmartSkin est iOS-exclusif (Stripe retiré). */
 
 const Star = () => (
   <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z" /></svg>
@@ -30,6 +31,7 @@ export function CheckoutScreen() {
   );
   const to = (path: string) => (demo ? `${path}?demo=1` : path);
   const [loading, setLoading] = useState(false);
+  const [indispo, setIndispo] = useState(false);   // paiement tenté hors app iOS
   const [plan, setPlan] = useState<"lifetime" | "weekly">("lifetime");
   const price = useNativePrice("$29.95"); // vrai prix localisé Apple dans l'app iOS
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -69,14 +71,11 @@ export function CheckoutScreen() {
 
   const unlock = async () => {
     posthog.capture("paywall_cta_clicked", { variant: "A", plan });
-    // Démo → on saute le paiement. Sinon → session Stripe Checkout puis redirection
-    // vers la page de paiement hébergée par Stripe.
     if (demo) { router.push("/routine?demo=1"); return; }
-    // Dans l'app iOS : paiement Apple natif (StoreKit) au lieu de Stripe. Cette page
-    // (design inchangé) demande l'achat au natif ; au succès → routine débloquée.
+    // Paiement Apple natif (StoreKit) — seul moyen de paiement depuis le retrait de Stripe.
     if (isNativeApp()) {
       setLoading(true);
-      // Scan mis de côté (comme pour Stripe) → sauvegardé sur le compte après la connexion.
+      // Scan mis de côté → sauvegardé sur le compte après la connexion.
       const result = useResult.getState().result;
       if (result) await stashPendingScan(result, useFunnel.getState().answers, useResult.getState().photo, useResult.getState().preparedReco);
       // Achat OK → écran de connexion post-paiement (Sign in with Apple → grant → routine).
@@ -86,24 +85,8 @@ export function CheckoutScreen() {
       });
       return;
     }
-    // On met le bilan + la photo + la routine déjà construite (/preparation) de côté
-    // AVANT de partir sur Stripe : au retour (création de compte), la mémoire est vide
-    // → on réhydrate depuis là → deck direct, médaillon avec la vraie photo.
-    const result = useResult.getState().result;
-    if (result) await stashPendingScan(result, useFunnel.getState().answers, useResult.getState().photo, useResult.getState().preparedReco);
-    setLoading(true);
-    try {
-      const res = await fetch("/api/checkout", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ plan }),
-      });
-      const data = await res.json();
-      if (data.url) window.location.href = data.url;
-      else setLoading(false);
-    } catch {
-      setLoading(false);
-    }
+    // Hors app (navigateur) : plus aucun paiement possible — SmartSkin est iOS-exclusif.
+    setIndispo(true);
   };
 
   // Restauration des achats (obligatoire App Store) : le natif resync StoreKit ; si un
@@ -193,9 +176,10 @@ export function CheckoutScreen() {
           </div>
 
           <button type="button" className="cta" onClick={unlock} disabled={loading}>
-            <span className="cta-tx">{loading ? "Redirecting to checkout…" : "Start my glow-up"}</span>
+            <span className="cta-tx">{loading ? "One moment…" : "Start my glow-up"}</span>
             <span className="cta-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12h15M12 5l7 7-7 7" /></svg></span>
           </button>
+          {indispo && <p className="co-indispo">SmartSkin is available on iPhone — open the app to unlock your routine.</p>}
 
           <div className="terms"><a href="/terms">Terms of Service</a> and <a href="/privacy">Privacy Policy</a></div>
         </div>

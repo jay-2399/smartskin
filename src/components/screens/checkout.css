@@ -126,3 +126,6 @@
 
 @keyframes coRise { from{opacity:0; transform:translateY(13px);} to{opacity:1; transform:none;} }
 @keyframes coShine { 0%{ left:-60%;} 55%,100%{ left:130%;} }
+
+/* Paiement tenté hors app iOS : plus aucun moyen de payer depuis un navigateur. */
+.co-indispo { margin: 10px 0 0; text-align: center; font-size: 13px; line-height: 1.45; opacity: .75; }

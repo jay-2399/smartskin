@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 import posthog from "posthog-js";
@@ -10,6 +10,7 @@ import "./welcome.css";
 declare global {
   interface Window {
     __smartskinAppleAuth?: (idToken: string, name?: string) => void;
+    __smartskinAppleAuthError?: (raison?: string) => void;
   }
 }
 
@@ -23,6 +24,7 @@ declare global {
 export function WelcomeScreen() {
   const router = useRouter();
   const gaugeRef = useRef<HTMLDivElement>(null);
+  const [erreur, setErreur] = useState<string | null>(null);
   const isNative = typeof window !== "undefined" && window.__SMARTSKIN_NATIVE__ === true;
 
   // Jauge de score animée (port du builder SVG de l'écran Résultats).
@@ -38,8 +40,17 @@ export function WelcomeScreen() {
     window.__smartskinAppleAuth = async (idToken: string, name?: string) => {
       const res = await signIn("apple", { idToken, name: name ?? "", redirect: false });
       if (res?.ok) router.push("/dashboard");
+      else setErreur("Sign-in failed. Please try again.");
     };
-    return () => { delete window.__smartskinAppleAuth; };
+    // Échec/annulation côté natif : sans ce rappel, le tap sur « Sign in » ne produisait
+    // rien de visible — c'est ce qu'Apple a signalé (Guideline 2.1(a)).
+    window.__smartskinAppleAuthError = (raison?: string) => {
+      setErreur(raison === "canceled" ? null : "Sign-in failed. Please try again.");
+    };
+    return () => {
+      delete window.__smartskinAppleAuth;
+      delete window.__smartskinAppleAuthError;
+    };
   }, [isNative, router]);
 
   const startScan = () => {
@@ -101,6 +112,7 @@ export function WelcomeScreen() {
 
         {/* Secondaire : les utilisateurs qui reviennent se connectent (Apple) → dashboard. */}
         <button type="button" className="ghost" onClick={continueWithApple}>Already have an account? <b>Sign in</b></button>
+        {erreur && <p className="signin-error">{erreur}</p>}
 
         <div className="privacy">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"><path d="M7 1.4 11.4 3.1V6.8c0 2.9-1.9 4.9-4.4 5.8-2.5-.9-4.4-2.9-4.4-5.8V3.1z" /><path d="m5 6.9 1.4 1.4L9.2 5.5" /></svg>

@@ -9,9 +9,9 @@ import { isNativeApp, startNativePurchase, startNativeRestore } from "@/features
 import "./paywall-b.css";
 
 /* Paywall — Variant B (dark immersif) pour l'A/B test. Port de paywall/B/paywall.html.
-   Même logique de paiement que le Variant A (CheckoutScreen) : CTA → /api/checkout →
-   page Stripe ($7.95) ; le webhook accorde l'accès. En démo (?demo=1) : on saute le
-   paiement et on enchaîne sur /routine?demo=1. Classes préfixées .pw- (isolation). */
+   Même logique de paiement que le Variant A (CheckoutScreen) : achat StoreKit natif,
+   puis /checkout/save accorde l'accès. En démo (?demo=1) : on saute le paiement et on
+   enchaîne sur /routine?demo=1. Classes préfixées .pw- (isolation). */
 
 export function PaywallB() {
   const router = useRouter();
@@ -21,6 +21,7 @@ export function PaywallB() {
   );
   const to = (path: string) => (demo ? `${path}?demo=1` : path);
   const [loading, setLoading] = useState(false);
+  const [indispo, setIndispo] = useState(false);   // paiement tenté hors app iOS
   const [plan, setPlan] = useState<"lifetime" | "weekly">("lifetime"); // plan sélectionné
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -76,19 +77,8 @@ export function PaywallB() {
       });
       return;
     }
-    // Bilan + photo + routine déjà construite mis de côté avant Stripe (réhydratés au
-    // retour, après création de compte → deck direct).
-    const result = useResult.getState().result;
-    if (result) await stashPendingScan(result, useFunnel.getState().answers, useResult.getState().photo, useResult.getState().preparedReco);
-    setLoading(true);
-    try {
-      const res = await fetch("/api/checkout", { method: "POST" });
-      const data = await res.json();
-      if (data.url) window.location.href = data.url;
-      else setLoading(false);
-    } catch {
-      setLoading(false);
-    }
+    // Hors app (navigateur) : plus aucun paiement possible — SmartSkin est iOS-exclusif.
+    setIndispo(true);
   };
 
   // Restauration des achats (obligatoire App Store) : le natif resync StoreKit ; si un
@@ -177,8 +167,9 @@ export function PaywallB() {
           </div>
 
           <button type="button" className="pw-cta" onClick={unlock} disabled={loading}>
-            <span className="pw-cta-tx">{loading ? "Redirecting to checkout…" : "Start my glow-up"}</span>
+            <span className="pw-cta-tx">{loading ? "One moment…" : "Start my glow-up"}</span>
           </button>
+          {indispo && <p className="pw-indispo">SmartSkin is available on iPhone — open the app to unlock your routine.</p>}
 
           <div className="pw-legal"><a href="/terms">Terms</a> · <a href="/privacy">Privacy</a></div>
         </div>

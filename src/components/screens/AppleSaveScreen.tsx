@@ -32,6 +32,12 @@ export function AppleSaveScreen({ plan }: { plan: "lifetime" | "weekly" }) {
     if (!isNativeApp()) { router.push("/routine"); return; }
     setError(null);
     setLoading(true);
+    // Le natif rappelle ici si la feuille Apple échoue ou est annulée. Sans ce rappel,
+    // le bouton restait désactivé sur « One moment… » sans possibilité de réessayer.
+    window.__smartskinAppleAuthError = (raison?: string) => {
+      setLoading(false);
+      setError(raison === "canceled" ? null : "Sign-in failed. Please try again.");
+    };
     // Le natif ouvre la feuille Apple (Face ID) et rappelle ici avec le jeton d'identité.
     window.__smartskinAppleAuth = async (idToken: string, name?: string) => {
       const res = await signIn("apple", { idToken, name: name ?? "", redirect: false });

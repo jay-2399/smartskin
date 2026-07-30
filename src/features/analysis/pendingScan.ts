@@ -2,7 +2,7 @@ import type { AnalysisResult } from "./schema";
 import type { PreparedReco } from "./resultStore";
 import type { Answers } from "@/features/funnel/types";
 
-/* Le bilan à mettre de côté AVANT le départ vers Stripe (le paiement + la connexion
+/* Le bilan à mettre de côté AVANT le paiement (l'achat StoreKit + la connexion
    Google quittent le site → la mémoire est vidée). On le réhydrate au retour sur /routine.
    La photo est une donnée sensible et n'est JAMAIS envoyée au serveur ni mise en base :
    ici elle transite seulement par le sessionStorage du navigateur (même onglet, effacé
