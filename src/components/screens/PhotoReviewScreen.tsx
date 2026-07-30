@@ -2,6 +2,7 @@
 import { useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { useFunnel } from "@/features/funnel/store";
+import posthog from "posthog-js";
 
 /* Prévisualisation de la photo capturée : reprendre ou continuer.
    La photo vit dans le store (mémoire uniquement, jamais uploadée ici). */
@@ -10,6 +11,10 @@ export function PhotoReviewScreen() {
   const router = useRouter();
   const photo = useFunnel((s) => s.photo);
   const url = useMemo(() => (photo ? URL.createObjectURL(photo) : null), [photo]);
+
+  // Chronométrage du gel post-capture : delta scan_completed → apercu_shown dans
+  // PostHog = durée réelle, sur appareil, entre la photo reçue et cet écran affiché.
+  useEffect(() => { posthog.capture("apercu_shown"); }, []);
 
   // Pas de photo (accès direct ou rechargement) → retour à la capture
   useEffect(() => {

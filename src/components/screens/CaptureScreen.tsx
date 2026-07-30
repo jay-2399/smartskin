@@ -39,6 +39,22 @@ const CHIPS: { key: keyof Pick<ValidationState, "faceCount" | "faceSize" | "cent
 
 const chipClass = (s: Status) => (s === "ok" ? " ok" : s === "warning" ? " warn" : "");
 
+/* Data URL (photo native) → Blob, en décodage direct. Surtout PAS `fetch(dataUrl)` :
+   sur une URL d'~1 Mo dans WKWebView, ce fetch gelait l'écran plusieurs secondes
+   entre la fermeture de la caméra et l'aperçu. (Même technique que pendingScan.) */
+function dataUrlToBlob(dataUrl: string): Blob | null {
+  try {
+    const [meta, b64] = dataUrl.split(",");
+    const mime = meta.match(/data:(.*?);base64/)?.[1] ?? "image/jpeg";
+    const bin = atob(b64);
+    const arr = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i);
+    return new Blob([arr], { type: mime });
+  } catch {
+    return null;
+  }
+}
+
 type Mode = "choice" | "live";
 
 export function CaptureScreen() {
@@ -56,11 +72,21 @@ export function CaptureScreen() {
 
   useEffect(() => {
     if (!isNative) return;
-    window.__smartskinReceivePhoto = async (dataUrl: string) => {
+    // La page d'aperçu n'est jamais atteinte via un <Link> → sans prefetch, le push
+    // post-capture doit d'abord la télécharger, écran figé pendant ce temps.
+    router.prefetch("/capture/apercu");
+    window.__smartskinReceivePhoto = (dataUrl: string) => {
+      const t0 = performance.now();
       posthog.capture("scan_completed", { method: "camera" });
-      const blob = await (await fetch(dataUrl)).blob();
-      useFunnel.getState().setPhoto(blob);
+      // Décodage DIRECT base64 → Blob (≈50 ms, comme pendingScan) : l'ancien
+      // `await fetch(dataUrl)` sur ~1 Mo gelait l'écran plusieurs secondes dans
+      // WKWebView (bug vu sur iPhone le 2026-07-30 : 8-10 s entre la fermeture
+      // de la caméra et l'aperçu).
+      const blob = dataUrlToBlob(dataUrl);
+      if (blob) useFunnel.getState().setPhoto(blob);
       router.push("/capture/apercu");
+      // Chronométrage réel sur appareil : delta scan_completed → apercu_shown = le gel perçu.
+      posthog.capture("scan_handoff", { decode_ms: Math.round(performance.now() - t0), ok: !!blob });
     };
     return () => { delete window.__smartskinReceivePhoto; };
   }, [isNative, router]);
