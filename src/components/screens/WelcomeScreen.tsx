@@ -42,7 +42,10 @@ export function WelcomeScreen() {
       // SmartSkin repart sans session (voir features/auth) → on le dit clairement au
       // lieu de créer un compte fantôme et de l'envoyer sur le questionnaire.
       const res = await signIn("apple", { idToken, name: name ?? "", mode: "login", redirect: false });
-      if (res?.ok) router.push("/dashboard");
+      // ⚠️ NextAuth v5 : un login refusé revient en HTTP 200 (`ok: true`) avec `error`
+      // rempli — tester `ok` seul poussait vers /dashboard sans session, que l'(espace)
+      // renvoyait sur /login, l'ancienne page web e-mail/mot de passe.
+      if (res?.ok && !res.error) router.push("/dashboard");
       else setErreur("No SmartSkin account found for this Apple ID. Tap “Scan my skin” to get started.");
     };
     // Échec/annulation côté natif : sans ce rappel, le tap sur « Sign in » ne produisait

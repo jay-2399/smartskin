@@ -45,18 +45,23 @@ describe("WelcomeScreen — le bouton de retour compte", () => {
   });
 
   it("envoie au dashboard quand le compte existe", async () => {
-    signIn.mockResolvedValue({ ok: true });
+    // Forme réelle d'un succès v5 : ok, pas d'`error`, une `url`.
+    signIn.mockResolvedValue({ ok: true, error: undefined, code: undefined, status: 200, url: "https://app.smart-skin.ai/welcome" });
     render(<WelcomeScreen />);
     await window.__smartskinAppleAuth!("jeton-apple", "Jayden");
     await waitFor(() => expect(push).toHaveBeenCalledWith("/dashboard"));
   });
 
   it("dit clairement qu'il n'y a pas de compte, au lieu d'en créer un et de rediriger", async () => {
-    signIn.mockResolvedValue({ ok: false }); // Apple ID inconnu → aucune session ouverte
+    // ⚠️ Forme RÉELLE d'un refus NextAuth v5 : HTTP 200 → `ok: true`, l'échec est dans
+    // `error`. Le 1ᵉ correctif testait `ok` seul avec un mock `{ok:false}` inventé →
+    // il poussait vers /dashboard sans session, et l'utilisateur atterrissait sur
+    // /login, l'ancienne page web e-mail/mot de passe (bug vu sur iPhone le 2026-07-30).
+    signIn.mockResolvedValue({ ok: true, error: "CredentialsSignin", code: "credentials", status: 200, url: null });
     render(<WelcomeScreen />);
     await window.__smartskinAppleAuth!("jeton-apple", "");
     expect(await screen.findByText(/No SmartSkin account found/i)).toBeInTheDocument();
-    expect(push).not.toHaveBeenCalled();
+    expect(push).not.toHaveBeenCalled(); // surtout pas de push("/dashboard") → rebond /login
   });
 
   it("reste muet si l'utilisateur annule simplement la feuille Apple", async () => {
