@@ -202,8 +202,21 @@ export function ResultsScreen({ demo = false, presetResult, presetPhotoUrl, pres
         </Reveal>
       ))}
 
+      <div className="cta-wrap">
+        {/* Le CTA mène à /preparation : la routine se CONSTRUIT (écran de montée de
+            tension), PUIS le paywall. Flux : résultats → preparation → checkout → routine. */}
+        <button type="button" className="cta-btn" onClick={() => router.push(presetResult ? (presetCtaHref ?? "/") : (demo ? "/preparation?demo=1" : "/preparation"))}>
+          {presetResult ? "Get my custom routine" : "See my custom routine"}
+          <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5h8M7.5 4l3.5 3.5-3.5 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
+        </button>
+        <button type="button" className="cta-link" onClick={() => { useFunnel.getState().reset(); useResult.getState().clear(); router.push("/welcome"); }}>
+          Start over
+        </button>
+      </div>
+
       {/* SOURCES (Guideline 1.4.1) : citations des références qui fondent le bilan
-          et les recommandations + rappel « pas un diagnostic médical ». */}
+          et les recommandations + rappel « pas un diagnostic médical ». SOUS le CTA
+          (décision produit : le bouton reste la fin du parcours, les sources en pied). */}
       <Reveal as="section" className="r-section sources">
         <div className="sec-head"><span className="sec-name">Sources</span></div>
         <p className="src-note">
@@ -220,18 +233,6 @@ export function ResultsScreen({ demo = false, presetResult, presetPhotoUrl, pres
           ))}
         </ul>
       </Reveal>
-
-      <div className="cta-wrap">
-        {/* Le CTA mène à /preparation : la routine se CONSTRUIT (écran de montée de
-            tension), PUIS le paywall. Flux : résultats → preparation → checkout → routine. */}
-        <button type="button" className="cta-btn" onClick={() => router.push(presetResult ? (presetCtaHref ?? "/") : (demo ? "/preparation?demo=1" : "/preparation"))}>
-          {presetResult ? "Get my custom routine" : "See my custom routine"}
-          <svg width="15" height="15" viewBox="0 0 15 15" fill="none"><path d="M3 7.5h8M7.5 4l3.5 3.5-3.5 3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" /></svg>
-        </button>
-        <button type="button" className="cta-link" onClick={() => { useFunnel.getState().reset(); useResult.getState().clear(); router.push("/welcome"); }}>
-          Start over
-        </button>
-      </div>
     </div>
   );
 }
