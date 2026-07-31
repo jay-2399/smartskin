@@ -109,4 +109,4 @@
 .results .src-list { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:9px; }
 .results .src-list li { font-size:12px; line-height:1.5; color:var(--ink); }
 .results .src-list b { font-weight:700; }
-.results .src-ref { display:block; font-family:var(--fm); font-size:10px; letter-spacing:0.02em; color:var(--space); word-break:break-all; }
+.results .src-ref { display:block; font-family:var(--fm); font-size:8.5px; letter-spacing:0; color:var(--space); opacity:0.75; margin-top:1px; word-break:break-all; }
