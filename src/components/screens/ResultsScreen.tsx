@@ -18,21 +18,6 @@ import "./results-glass.css";
 
 const ROMAN = ["I", "II", "III", "IV", "V", "VI"];
 
-/* Références affichées sous le bilan (App Store Guideline 1.4.1 : toute info
-   santé doit citer ses sources, faciles à trouver). Chaque URL a été vérifiée
-   le 2026-07-31 (HTTP 200 + titre conforme) — ne rien ajouter sans vérifier.
-   Citations en TEXTE, pas en liens : dans l'app iOS la WebView n'a pas
-   d'uiDelegate (target="_blank" = tap mort silencieux) et une navigation
-   externe en place perdrait le bilan en mémoire. */
-const SOURCES = [
-  { org: "American Academy of Dermatology", title: "Skin care basics", ref: "aad.org/public/everyday-care/skin-care-basics" },
-  { org: "American Academy of Dermatology", title: "Acne Resource Center", ref: "aad.org/public/diseases/acne" },
-  { org: "American Academy of Dermatology", title: "Sunscreen FAQs", ref: "aad.org/public/everyday-care/sun-protection/sunscreen-patients/sunscreen-faqs" },
-  { org: "MedlinePlus — U.S. National Library of Medicine", title: "Aging skin", ref: "medlineplus.gov/skinaging.html" },
-  { org: "MedlinePlus — U.S. National Library of Medicine", title: "Skin conditions", ref: "medlineplus.gov/skinconditions.html" },
-  { org: "DermNet", title: "Skin phototype (Fitzpatrick skin type)", ref: "dermnetnz.org/topics/skin-phototype" },
-];
-
 /* Port de reference/User_flow_screens/11-prop_1-resultats.html, responsive,
    alimenté par le bilan en mémoire (useResult). */
 // `demo` est lu côté serveur (page) et passé en prop → pas de divergence SSR/client
@@ -214,25 +199,17 @@ export function ResultsScreen({ demo = false, presetResult, presetPhotoUrl, pres
         </button>
       </div>
 
-      {/* SOURCES (Guideline 1.4.1) : citations des références qui fondent le bilan
-          et les recommandations + rappel « pas un diagnostic médical ». SOUS le CTA
-          (décision produit : le bouton reste la fin du parcours, les sources en pied). */}
-      <Reveal as="section" className="r-section sources">
-        <div className="sec-head"><span className="sec-name">Sources</span></div>
-        <p className="src-note">
-          SmartSkin provides a cosmetic skin assessment, not a medical diagnosis. If you have a
-          skin concern, consult a dermatologist or another qualified health professional. Our
-          analysis and recommendations follow published guidance from these references:
-        </p>
-        <ul className="src-list">
-          {SOURCES.map((s) => (
-            <li key={s.ref}>
-              <b>{s.org}</b> — {s.title}
-              <span className="src-ref">{s.ref}</span>
-            </li>
-          ))}
-        </ul>
-      </Reveal>
+      {/* SOURCES (Guideline 1.4.1) : ligne clairement libellée en pied de bilan →
+          page dédiée /sources (citations + méthodologie). Le rappel « pas un
+          diagnostic médical / voir un médecin » reste VISIBLE ici, en sous-titre,
+          comme l'exige la guideline (« remind users to check with a doctor »). */}
+      <button type="button" className="src-row" onClick={() => router.push("/sources")}>
+        <div className="src-row-tx">
+          <span className="src-row-t">Sources &amp; medical disclaimer</span>
+          <span className="src-row-s">Cosmetic assessment, not a medical diagnosis — always check with a doctor.</span>
+        </div>
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"><path d="M6 3l5 5-5 5" /></svg>
+      </button>
     </div>
   );
 }
