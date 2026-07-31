@@ -18,6 +18,21 @@ import "./results-glass.css";
 
 const ROMAN = ["I", "II", "III", "IV", "V", "VI"];
 
+/* Références affichées sous le bilan (App Store Guideline 1.4.1 : toute info
+   santé doit citer ses sources, faciles à trouver). Chaque URL a été vérifiée
+   le 2026-07-31 (HTTP 200 + titre conforme) — ne rien ajouter sans vérifier.
+   Citations en TEXTE, pas en liens : dans l'app iOS la WebView n'a pas
+   d'uiDelegate (target="_blank" = tap mort silencieux) et une navigation
+   externe en place perdrait le bilan en mémoire. */
+const SOURCES = [
+  { org: "American Academy of Dermatology", title: "Skin care basics", ref: "aad.org/public/everyday-care/skin-care-basics" },
+  { org: "American Academy of Dermatology", title: "Acne Resource Center", ref: "aad.org/public/diseases/acne" },
+  { org: "American Academy of Dermatology", title: "Sunscreen FAQs", ref: "aad.org/public/everyday-care/sun-protection/sunscreen-patients/sunscreen-faqs" },
+  { org: "MedlinePlus — U.S. National Library of Medicine", title: "Aging skin", ref: "medlineplus.gov/skinaging.html" },
+  { org: "MedlinePlus — U.S. National Library of Medicine", title: "Skin conditions", ref: "medlineplus.gov/skinconditions.html" },
+  { org: "DermNet", title: "Skin phototype (Fitzpatrick skin type)", ref: "dermnetnz.org/topics/skin-phototype" },
+];
+
 /* Port de reference/User_flow_screens/11-prop_1-resultats.html, responsive,
    alimenté par le bilan en mémoire (useResult). */
 // `demo` est lu côté serveur (page) et passé en prop → pas de divergence SSR/client
@@ -186,6 +201,25 @@ export function ResultsScreen({ demo = false, presetResult, presetPhotoUrl, pres
           </div>
         </Reveal>
       ))}
+
+      {/* SOURCES (Guideline 1.4.1) : citations des références qui fondent le bilan
+          et les recommandations + rappel « pas un diagnostic médical ». */}
+      <Reveal as="section" className="r-section sources">
+        <div className="sec-head"><span className="sec-name">Sources</span></div>
+        <p className="src-note">
+          SmartSkin provides a cosmetic skin assessment, not a medical diagnosis. If you have a
+          skin concern, consult a dermatologist or another qualified health professional. Our
+          analysis and recommendations follow published guidance from these references:
+        </p>
+        <ul className="src-list">
+          {SOURCES.map((s) => (
+            <li key={s.ref}>
+              <b>{s.org}</b> — {s.title}
+              <span className="src-ref">{s.ref}</span>
+            </li>
+          ))}
+        </ul>
+      </Reveal>
 
       <div className="cta-wrap">
         {/* Le CTA mène à /preparation : la routine se CONSTRUIT (écran de montée de
