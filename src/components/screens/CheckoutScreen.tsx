@@ -32,6 +32,7 @@ export function CheckoutScreen() {
   const to = (path: string) => (demo ? `${path}?demo=1` : path);
   const [loading, setLoading] = useState(false);
   const [indispo, setIndispo] = useState(false);   // paiement tenté hors app iOS
+  const [achatKo, setAchatKo] = useState(false);   // achat natif échoué/annulé → feedback visible
   const [plan, setPlan] = useState<"lifetime" | "weekly">("lifetime");
   const price = useNativePrice("$29.95"); // vrai prix localisé Apple dans l'app iOS
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -70,6 +71,7 @@ export function CheckoutScreen() {
   };
 
   const unlock = async () => {
+    setAchatKo(false);
     posthog.capture("paywall_cta_clicked", { variant: "A", plan });
     if (demo) { router.push("/routine?demo=1"); return; }
     // Paiement Apple natif (StoreKit) — seul moyen de paiement depuis le retrait de Stripe.
@@ -81,7 +83,10 @@ export function CheckoutScreen() {
       // Achat OK → écran de connexion post-paiement (Sign in with Apple → grant → routine).
       startNativePurchase(plan, (ok) => {
         if (ok) { posthog.capture("purchase_completed", { plan, variant: "A" }); router.push(`/checkout/save?plan=${plan}`); }
-        else { posthog.capture("purchase_cancelled", { plan, variant: "A" }); setLoading(false); }
+        // Échec OU annulation (le natif ne distingue pas) : on l'AFFICHE. Sans ça, un
+        // StoreKit qui ne charge pas ses produits (rejet 2.1(b)) échouait en silence
+        // total — bouton revenu à la normale, zéro feedback.
+        else { posthog.capture("purchase_cancelled", { plan, variant: "A" }); setLoading(false); setAchatKo(true); }
       });
       return;
     }
@@ -180,6 +185,7 @@ export function CheckoutScreen() {
             <span className="cta-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12h15M12 5l7 7-7 7" /></svg></span>
           </button>
           {indispo && <p className="co-indispo">SmartSkin is available on iPhone — open the app to unlock your routine.</p>}
+          {achatKo && <p className="co-indispo">Purchase didn&apos;t complete — nothing was charged. Please try again.</p>}
 
           <div className="terms"><a href="/terms">Terms of Service</a> and <a href="/privacy">Privacy Policy</a></div>
         </div>

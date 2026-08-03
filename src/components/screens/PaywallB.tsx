@@ -22,6 +22,7 @@ export function PaywallB() {
   const to = (path: string) => (demo ? `${path}?demo=1` : path);
   const [loading, setLoading] = useState(false);
   const [indispo, setIndispo] = useState(false);   // paiement tenté hors app iOS
+  const [achatKo, setAchatKo] = useState(false);   // achat natif échoué/annulé → feedback visible
   const [plan, setPlan] = useState<"lifetime" | "weekly">("lifetime"); // plan sélectionné
   const videoRef = useRef<HTMLVideoElement>(null);
 
@@ -61,6 +62,7 @@ export function PaywallB() {
   }, []);
 
   const unlock = async () => {
+    setAchatKo(false);
     posthog.capture("paywall_cta_clicked", { variant: "B", plan });
     if (demo) { router.push("/routine?demo=1"); return; }
     // Dans l'app iOS : paiement Apple natif (StoreKit) au lieu de Stripe. Design inchangé ;
@@ -73,7 +75,9 @@ export function PaywallB() {
       // Achat OK → écran de connexion post-paiement (Sign in with Apple → grant → routine).
       startNativePurchase(plan, (ok) => {
         if (ok) { posthog.capture("purchase_completed", { plan, variant: "B" }); router.push(`/checkout/save?plan=${plan}`); }
-        else { posthog.capture("purchase_cancelled", { plan, variant: "B" }); setLoading(false); }
+        // Échec OU annulation (le natif ne distingue pas) : feedback visible — un StoreKit
+        // sans produits chargés (rejet 2.1(b)) échouait sinon en silence total.
+        else { posthog.capture("purchase_cancelled", { plan, variant: "B" }); setLoading(false); setAchatKo(true); }
       });
       return;
     }
@@ -170,6 +174,7 @@ export function PaywallB() {
             <span className="pw-cta-tx">{loading ? "One moment…" : "Start my glow-up"}</span>
           </button>
           {indispo && <p className="pw-indispo">SmartSkin is available on iPhone — open the app to unlock your routine.</p>}
+          {achatKo && <p className="pw-indispo">Purchase didn&apos;t complete — nothing was charged. Please try again.</p>}
 
           <div className="pw-legal"><a href="/terms">Terms</a> · <a href="/privacy">Privacy</a></div>
         </div>
