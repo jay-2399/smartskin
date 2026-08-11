@@ -86,9 +86,19 @@
 .welcome .scan-btn svg { flex-shrink: 0; margin-top: -2px; }
 .welcome .scan-btn:focus-visible { outline: 2px solid var(--accent-d); outline-offset: 3px; }
 
-.welcome .ghost { display: block; width: fit-content; margin: 14px auto 0; font-family: var(--fd); font-size: 14px; font-weight: 600; letter-spacing: -0.01em; color: var(--graphite); background: none; border: none; cursor: pointer; text-decoration: none; padding: 4px 8px; border-radius: 8px; }
-.welcome .ghost:active { color: var(--ink); }
-.welcome .ghost b { color: var(--ink); font-weight: 700; }
+/* Bouton « Sign in with Apple » — déclinaison BLANCHE À CONTOUR, l'une des trois
+   autorisées par la HIG, prescrite pour un fond clair (« Use this style on white or
+   light-color backgrounds »). Le bouton principal étant noir, un second bouton noir
+   lui volerait la vedette.
+   Contraintes respectées : minimum 140×30 pt (on est à 100 % × 58 px) ; logo et texte
+   tous deux noirs ; rayon aligné sur .scan-btn comme la HIG y invite (« use a corner
+   radius value that matches the other buttons in your UI »). */
+.welcome .apple-signin { margin-top: 10px; width: 100%; height: 58px; border-radius: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 8px; background: #fff; color: #000; border: 1px solid #000; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif; font-weight: 600; font-size: 16px; letter-spacing: -0.01em; transition: transform .15s, background .2s; }
+/* Hauteur PLEINE du bouton, largeur automatique : la marge verticale est déjà dans
+   le viewBox du logo, en ajouter le déformerait (« Don't add vertical padding »). */
+.welcome .apple-signin svg { flex-shrink: 0; height: 100%; width: auto; }
+.welcome .apple-signin:active { transform: translateY(1.5px); background: #f2f2f2; }
+.welcome .apple-signin:focus-visible { outline: 2px solid var(--accent-d); outline-offset: 3px; }
 
 .welcome .privacy { margin-top: 12px; display: flex; align-items: center; justify-content: center; gap: 7px; font-size: 12px; font-weight: 500; color: var(--space); letter-spacing: -0.005em; }
 .welcome .privacy svg { flex-shrink: 0; color: var(--accent-d); }
@@ -99,6 +109,7 @@
   .welcome .w-brand img { height: 32px; }
   .welcome .tagline { margin-top: 7px; font-size: 15px; }
   .welcome .scan-btn { margin-top: 15px; height: 54px; }
+  .welcome .apple-signin { margin-top: 8px; height: 50px; }
   .welcome .m-type { display: none; }
   .welcome .m-step { bottom: 44px; }
 }

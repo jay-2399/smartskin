@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { signIn } from "next-auth/react";
 import posthog from "posthog-js";
+import { AppleLogo } from "@/components/ui/AppleLogo";
 import "./welcome.css";
 
 // Renvoi du jeton Apple par le natif (window.__SMARTSKIN_NATIVE__ / webkit sont
@@ -117,8 +118,15 @@ export function WelcomeScreen() {
         <button type="button" className="scan-btn" onClick={startScan}>Scan my skin</button>
 
         {/* Secondaire : les utilisateurs qui reviennent se connectent (Apple) → dashboard.
-            Libellé « Log in » (et non « Sign in ») : ce bouton ne crée jamais de compte. */}
-        <button type="button" className="ghost" onClick={continueWithApple}>Already have an account? <b>Log in</b></button>
+            ⚠️ Guideline 4 (refus Apple du 2026-08-11) : tout contrôle qui ouvre la feuille
+            Sign in with Apple doit se VOIR comme tel. L'ancien lien texte « Already have an
+            account? Log in » déclenchait Face ID sans logo ni libellé officiel → refusé.
+            Déclinaison blanche à liseré (l'une des trois autorisées) : le bouton principal
+            est noir, un second bouton noir lui volerait la vedette. */}
+        <button type="button" className="apple-signin" onClick={continueWithApple}>
+          <AppleLogo />
+          Sign in with Apple
+        </button>
         {erreur && <p className="signin-error">{erreur}</p>}
 
         <div className="privacy">
