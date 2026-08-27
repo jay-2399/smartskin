@@ -822,9 +822,32 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
     <p class="verdict-s">It targets <b>your breakouts and oily T-zone</b>, but the fragrance clashes with <b>your reactive skin</b>. Patch-test first.</p>
   </div>
 
-  <!-- Bloc « Reviews » retiré le 27/08 : il était écrit en dur (4,4 étoiles, 29 431 notes,
-       citations fixes) et s'affichait à l'identique sur tous les produits. Le catalogue ne porte
-       aucune donnée d'avis. À rebrancher le jour où on en aura de vraies, par produit. -->
+  <!-- Avis clients RÉELS (Amazon), rendus seulement quand on en a pour CE produit.
+       Le bloc précédent était écrit en dur et montrait les mêmes 4,4 étoiles partout ; celui-ci
+       reste masqué s'il n'y a rien à dire. On n'affiche pas de note globale : la source ne la
+       porte pas, et l'inventer serait repartir dans le même travers. -->
+  <div class="section s0" id="d-avis" hidden>
+    <span class="sec-name" style="display:block">What customers say</span>
+    <div class="vcard" style="margin-top:8px">
+      <input type="checkbox" id="rev-toggle" class="rev-toggle" checked="">
+      <label class="rev-head" for="rev-toggle" aria-label="Customer reviews">
+        <div class="rev-meta" style="flex:1">
+          <p class="rev-count" id="d-avis-n">Reviews from buyers</p>
+        </div>
+        <span class="rev-src">by <img src="amazon.svg" alt="Amazon"></span>
+        <span class="rev-chev"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5.2L7 9.2l4-4"></path></svg></span>
+      </label>
+      <div class="rev-body"><div>
+        <div class="rev-say">
+          <span class="rev-say-k">What buyers report</span>
+          <p id="d-avis-resume"></p>
+          <div class="rev-chips" id="d-avis-aspects"></div>
+        </div>
+        <div class="rev-list" id="d-avis-extraits"></div>
+      </div></div>
+    </div>
+  </div>
+
   <div class="section s0 why-sec">
     <span class="sec-name" style="display:block; margin-top:22px">Why this score, for you</span>
     <div class="vcard" style="margin-top:8px">
@@ -1118,6 +1141,33 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     }
     afficher("perso");
     mieuxPourToi(p, pe);
+    avisClients(d.avis);
+  }
+
+  // Avis RÉELS d'acheteurs, quand on en a pour ce produit. Rien d'inventé : pas de données,
+  // pas de bloc. On n'affiche pas non plus de note globale — la source ne la fournit pas.
+  function avisClients(a) {
+    if (!a || !a.resume) return;
+    document.getElementById("d-avis-resume").textContent = a.resume;
+
+    var chips = (a.aspects || []).map(function(x){
+      return '<span class="rchip pos">' + x.nom.replace(/</g, "&lt;")
+           + ' <b style="opacity:.6; font-weight:600">' + x.mentions + '</b></span>';
+    }).join("");
+    document.getElementById("d-avis-aspects").innerHTML = chips;
+
+    var ex = (a.extraits || []).map(function(r){
+      var etoiles = "";
+      for (var i = 0; i < 5; i++) etoiles += (i < r.note ? "\u2605" : "\u2606");
+      return '<div class="rev-row"><div class="rev-rate">'
+        + '<span class="rev-stars">' + etoiles + '</span>'
+        + (r.date ? '<span class="rev-name">' + r.date.replace(/</g, "&lt;") + '</span>' : '')
+        + '</div><p class="rev-txt">' + r.texte.replace(/</g, "&lt;") + '</p></div>';
+    }).join("");
+    document.getElementById("d-avis-extraits").innerHTML = ex;
+    document.getElementById("d-avis-n").textContent =
+      (a.extraits && a.extraits.length ? a.extraits.length + " reviews shown" : "Summary of buyer reviews");
+    document.getElementById("d-avis").hidden = false;
   }
 
   // Trois produits du MÊME rayon, mieux notés pour cette peau. Uniquement sous le vert :
