@@ -1,0 +1,946 @@
+{
+ "pid": "pimprod2043784",
+ "asin": null,
+ "nom": "Good Molecules Vitamin C Serum with Oryzanol",
+ "categorie": "serum",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/vitamin-c-serum-with-oryzanol-pimprod2043784",
+ "note": 3.82,
+ "nbAvis": 180,
+ "distribution": {
+  "one_star": 22,
+  "two_star": 25,
+  "three_star": 14,
+  "four_star": 22,
+  "five_star": 97
+ },
+ "avis": [
+  {
+   "note": 1,
+   "auteur": "it's a pass",
+   "titre": "not a vitamin C serum",
+   "texte": "this is nothing like a vitamin C serum. The texture is more like a moisturizer, it does not brighten the skin at all, and it doesn't layer well with other products. Maybe if you had oily skin and could only use one product you can use this as like a vitamin C moisturizer, but that's the only way I could see it working for someone.",
+   "date": "2026-07-08",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 1,
+   "auteur": "lupe r",
+   "titre": "not good",
+   "texte": "I use everything from good molecules. I tried this and put sunscreen over it & it peeled. I had to wash my face at work because it was so bad. I wouldn't buy it and I wouldn't recommend it.",
+   "date": "2026-06-22",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 2,
+   "auteur": "Leah",
+   "titre": "The Great Pilling",
+   "texte": "This seems to work fine, but it pills like crazy unless you treat it very carefully. I use it with other Good Molecules products, but the only way to not get it to pill is to let it sit for at least 15 minutes and you have to use a gel moisturizer. I would not repurchase as it's just too fussy.",
+   "date": "2026-06-01",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth",
+   "titre": "Great for sensitive skin",
+   "texte": "Bought this to reintroduce to my sensitive skin that is almost acclimated to tret. Little irritation, smells good. Has TWO vitamin C derivatives and many other ingredients to soothe skin. Great price too.",
+   "date": "2026-05-18",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Sandy",
+   "titre": "It works!",
+   "texte": "This is the least expensive vitamin C serum I have ever tried and it works better than the other brands! I only use a little in the morning and a little at night and have no issues with pilling or flaking. I've been using this brand about 7 weeks now and I have very noticeable difference. My face is much much brighter and after applying a light foundation and blush I can still see how much my skin has improved! Once our weather gets it's life together and the sun comes out more I will only use the product at night.",
+   "date": "2026-04-11",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 1,
+   "auteur": "AEB",
+   "titre": "Doesn't Work for my Skin Type",
+   "texte": "I usually have very oily skin, but this product dries me out and leaves a weird film. It doesnt mix well with any product either, and tends to bead up on me if i make any attempt to add hydration to my face. It may work for you, but it is not something that works for me and my current regiment, so I'm still on the hunt for a good vitamin c cream/serum!",
+   "date": "2026-03-20",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 2,
+   "auteur": "Piper",
+   "titre": "It peels",
+   "texte": "Every single time use this product it starts to peel and i have flakes all over my skin. Ive even tried it on a freshly clean face only still to be horrifed when i looked in the mirror 45mins later ive even tried to mix it with my actual moisturizer and it does the same no matter the amount. I thinking you might need next to nothing for this product bit to reveal itself on your face",
+   "date": "2026-02-05",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "Valpal",
+   "titre": "Great for my combination/ sensitive skin",
+   "texte": "Been using for over a year and love it. Was looking for a Vitamin C treatment for my face and this helped smooth out rough patches that I was constantly dealing with. Smell could be better, but I'd rather have it as it is than some fake floral nonsense. The smell doesnt linger, in my opinion.",
+   "date": "2026-02-02",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 4,
+   "auteur": "H",
+   "titre": "Good molecules Vitamin C Serum",
+   "texte": "The good molecules Vitamin C serum I think is pretty good its very hydrating for me and it makes your skin glowy. However the downside if this is if you don't let it set in your skin when you're doing your makeup it will cause your makeup to peal and get patchy but if you let it settle in your skin for about a minute youll be fine. And this is also my first time trying a good molecules product and I think its a good brand as well.",
+   "date": "2026-01-22",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 2,
+   "auteur": "Erica",
+   "titre": "not great, pills a lot",
+   "texte": "It's okay, but it pills up a lot. I'll keep using it until it's empty, but probably only on my chest or days that I'm not really going anywhere. Won't repurchase.",
+   "date": "2026-01-16",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 4,
+   "auteur": "Duc",
+   "titre": "Good for the price",
+   "texte": "It does make your face a bit sticky. It has some pilling sometimes, but not often for me.",
+   "date": "2026-01-16",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 2,
+   "auteur": "Cara",
+   "titre": "maybe good but I cant get passed the smell",
+   "texte": "I originally got this for my boyfriend and I used it myself. When my boyfriend first used it, it legit smelled like a goat and sheep pen at a farm. I worked with Sheep and Goats for over 6 years so I'll know. I can't imagine smelling like that daily; the smell is super strong! Nowadays I just use No7 Vitamin C serum (smells like oranges) which is also affordable and is from an Asian brand (Thailand).",
+   "date": "2025-12-24",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "Maricela",
+   "titre": "Yes",
+   "texte": "It's okay. Tries it instead of the ordinary brand since it was out. I just have to give it a chance I suppose.",
+   "date": "2025-12-21",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "rae",
+   "titre": "wouldn't buy again",
+   "texte": "I like a lot of products from this brand, but not this one. it's super sticky and makes me face feel like I have a layer of glue on it",
+   "date": "2025-11-28",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 1,
+   "auteur": "Mack Rack",
+   "titre": "Absolutely not",
+   "texte": "I was gifted this product and it straight up sucks. It makes my face feel super tight at first and when i put moisturizer on the product starts to pill and come away from my skin. I like good molecules as a brand overall but this is definitely a miss.",
+   "date": "2025-11-24",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 1,
+   "auteur": "Ari",
+   "titre": "Can't use under makeup",
+   "texte": "I can only use it at night because it pills under my makeup. Don't recommend.",
+   "date": "2025-11-09",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 4,
+   "auteur": "Sevcan",
+   "titre": "Very Gentle but.....",
+   "texte": "I've tried a few different vitamin c serums and I did like it but only with certain moisturizers. If I used anything containing SPF it would pill up on my face throughout the day (I've been using the Cerave one for 3+ years now and didn't have an issue until this serum). It works very well with the photoceramide moisturizer from the ordinary. Overall, if you have sensitive skin I would recommend but only at night to avoid any pilling.",
+   "date": "2025-11-09",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Mom",
+   "titre": "Happy Face",
+   "texte": "I been using it for a couple weeks now.. I noticed my dark spots fading.. doesn't irritate my skin.. a little bit goes a long ways",
+   "date": "2025-11-07",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "Andria",
+   "titre": "Something new",
+   "texte": "Only been using it for couple weeks Don't see any difference Hopefully I will see a difference soon I have sensitive skin it doesn't bother my skin A little bit goes a long way Will be posting again on couple weeks hopefully by then I see a difference",
+   "date": "2025-11-04",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "Delulud",
+   "titre": "Dries and peels the face",
+   "texte": "Unless I put a good amount of moisturizer on my face, the vitamin C dries up and peels on different part of my face. I love good molecules products, but will not repurchased this.",
+   "date": "2025-10-29",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "Katrina D.",
+   "titre": "Brighten Your Skin with This Light Vitamin C Serum",
+   "texte": "I've been using the Good Molecules Vitamin C Serum with Oryzanol for a few weeks, and I love its smooth, lightweight texture that glides easily on my skin. It absorbs quickly without leaving any sticky or greasy feeling. My skin looks brighter, more even, and has a healthy glow. It's a simple, affordable serum that makes my daily routine feel refreshing.",
+   "date": "2025-10-08",
+   "verifie": true,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Good Product!",
+   "texte": "I bought this serum to replace another more expensive serum I had been using…great results and great price point!",
+   "date": "2025-09-27",
+   "verifie": true,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Vitamin C Serum with Oryzanol",
+   "texte": "I absolutely love this serum! I've been using it every morning for a couple of months with my other products, and I just bought it again. My skin looks so much more even, fresh, and radiant. It really gives me a healthy glow. It doesn't dry out or irritate.",
+   "date": "2025-09-19",
+   "verifie": true,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Nailah E.",
+   "titre": "Helps with discoloration",
+   "texte": "I love this serum to use before putting on my makeup. It really hydrates my skin and has gotten rid of discoloration over time.",
+   "date": "2025-09-11",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Marin O.",
+   "titre": "Number one product",
+   "texte": "the best product I've ever used makes my skin feel amazing every time",
+   "date": "2025-09-09",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "Ks",
+   "titre": "Like wearing fleece on your face in 90 degree weather",
+   "texte": "I love my good molecules routine, so I thought I'd try expanding it to this product. Can't say if it's effective, or not, because for me, this product worked like wearing a fleece blanket on my face during the summer. It felt like it created a barrier that my skin would sweat beneath. Not breathable, and not comfortable, for me. I also experienced some pilling, as other reviewers noted.",
+   "date": "2025-09-08",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Hlynnes",
+   "titre": "Dries face and peels off",
+   "texte": "I looked up online how to ise it because I experienced the peeling and flaking off. It said to wait for it to dry before applying your moisturizer and makeup. Still didnt work.",
+   "date": "2025-08-23",
+   "verifie": false,
+   "utiles": 6
+  },
+  {
+   "note": 2,
+   "auteur": "Kai",
+   "titre": "Would not buy again",
+   "texte": "I only use this at night because it leaves a white cast, it peels and it is dry kn my skin. It does lighten blemishes a little bit.",
+   "date": "2025-08-23",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Madison H.",
+   "titre": "love it",
+   "texte": "so brightening & great no scent yellow in color for brightening effect & makes my dull dry skin come back to life! I love this product & good molecules in general!",
+   "date": "2025-08-23",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "SJ_repped",
+   "titre": "Love it",
+   "texte": "One of my favorite vitamins C products. I apply right after my serums and before moisturizing. I do let it dry for 10 mins before adding my moisturizer and I've had no issues with piling or anything like that. I love this product, and would recommend it. It's a fantastic price and I see great results after a few weeks of consistent use.",
+   "date": "2025-08-18",
+   "verifie": false,
+   "utiles": 7
+  },
+  {
+   "note": 4,
+   "auteur": "A.H.",
+   "titre": "l ike this vitamin c formula",
+   "texte": "I like the this thick vitamin c formula - it does peel if you don't let it dry but I actually mix with my fav vitamin c serum and it does not peel at all. I will buy again",
+   "date": "2025-08-10",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Robyn",
+   "titre": "Great product",
+   "texte": "Does exactly what expected. Great affordable brand will definitely purchase again.",
+   "date": "2025-07-24",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Vitamin C serum with Oryzanol",
+   "texte": "I have been using this product for over a year. I really like it. It does not dry out or tighten my skin. My face looks moisturized. I recommend it.",
+   "date": "2025-07-13",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "bree",
+   "titre": "just use it correctly",
+   "texte": "all of the comments says that this pills like crazy but you just have to use a vitamin c serum properly! after putting it on let it dry down and soak into your skin for about 20 before putting on moisturizer and it works perfectly. it will get tight but it loosens up and doesnt pill after that",
+   "date": "2025-07-03",
+   "verifie": false,
+   "utiles": 29
+  },
+  {
+   "note": 5,
+   "auteur": "Lauren",
+   "titre": "This is my go-to Vitamin C",
+   "texte": "Most Vitamin C bottles are bad because they're glass (sunlight is bad for them) and because their dropper makes oxygen touch it. This is the perfect Vitamin C packaging.",
+   "date": "2025-07-02",
+   "verifie": false,
+   "utiles": 7
+  },
+  {
+   "note": 1,
+   "auteur": "JT",
+   "titre": "Pills and peels",
+   "texte": "I've tried this several different ways and it always peels and pills. My skin feels tight and dry. Do not recomend.",
+   "date": "2025-06-24",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 3,
+   "auteur": "Victoria",
+   "titre": "Vitamin C serum",
+   "texte": "Feels good on skin but does have w white clumpy texture when dry",
+   "date": "2025-06-22",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "Shelby",
+   "titre": "Finally!",
+   "texte": "This is the first vitamin c serum I've ever used that doesn't irritate my sensitive, acne prone, rosacea skin! I love that you start to see results pretty quickly too. I've been using it for a few weeks and notice that my skin is smooth and some dark spots are fading.",
+   "date": "2025-06-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah Jane",
+   "titre": "The best",
+   "texte": "This is probably my all-time favorite vitamin C serum. It works great.",
+   "date": "2025-06-05",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Good",
+   "texte": "This product is really good it's great on my skin. I do wish that it had more vitamin C in it..... It's on the lower end of the vitamin C spectrum.... It needs to have a little bit more vitamin C.",
+   "date": "2025-05-30",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 4,
+   "auteur": "Zouup",
+   "titre": "Works Great!",
+   "texte": "I have no issues with this product and I use it all over my face. Nothing different from any other Vitamin C.",
+   "date": "2025-05-23",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "VICKIE",
+   "titre": "Love it sos far",
+   "texte": "So far so good. I can see a difference in the brightness of my skin and I haven't had any issues. I allow the product I use 1st to completely dry then I apply the vitamin C serum.",
+   "date": "2025-05-08",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 4,
+   "auteur": "Ari",
+   "titre": "So far so good!",
+   "texte": "This is my first good molecules product and so far I love it! I apply it right after my retinol and I really enjoy it. You have to wait for the previous product to fully dry otherwise it'll create little pealing.",
+   "date": "2025-05-06",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "Nat",
+   "titre": "I wanted to love this",
+   "texte": "This product does not absorb into the skin, it will peel off and flake.",
+   "date": "2025-05-06",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "Nat",
+   "titre": "I wanted to love this",
+   "texte": "This product does not absorb into the skin, it will peel off and flake.",
+   "date": "2025-05-06",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 4,
+   "auteur": "Tammy",
+   "titre": "Like this product",
+   "texte": "This is my 2nd or 3rd tube of this vitamin C. I don't know if it's working, but I like it better than other vitamin C products I've used. It doesn't oxidize as much.",
+   "date": "2025-05-05",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Donald D.",
+   "titre": "Vitamin C cream",
+   "texte": "Love the packaging love the texture of the product the feel on my skin and how it is in an airtight container so it doesn't oxidize!",
+   "date": "2025-05-04",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "R",
+   "titre": "It works…but it pills",
+   "texte": "This product works well for brightening, so I have to give it a few stars for doing its job. However, the pilling is horrible. I can only use this at night or when working from home - because of the pilling, I can't wear it with makeup or sunblock.",
+   "date": "2025-05-03",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Jeremy",
+   "titre": "I see a difference in a w",
+   "texte": "I see a difference in a week of using this i highly recommend it",
+   "date": "2025-05-02",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "Pranati",
+   "titre": "Not sure about results ye",
+   "texte": "Not sure about results yet, but it's a very sticky consistency",
+   "date": "2025-05-01",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "",
+   "titre": "So drying!!",
+   "texte": "This serum is so drying for my face, it feels like I'm wearing a mask. It's also a bit irritating. I usually love good molecules products, but this one is a no for me.",
+   "date": "2025-04-28",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 3,
+   "auteur": "Anonymous",
+   "titre": "Fine",
+   "texte": "I decided to try this because my usual brand of vitamin c serum has been out of stock for ages, and I have loved some of GM's products. I like the price point, the simplicity of the formula, the lack of fragrance, and that it didn't cause my slightly sensitive skin to freak out. One downside is that it feels a bit filmy as it's setting, like maybe it's drying on the skin some instead of absorbing into it. I haven't noticed any difference in the time I've been using it, so I can't say I'm amazed, but I'll keep using it and may buy it again.",
+   "date": "2025-04-26",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "Chey",
+   "titre": "Wanted to Love It",
+   "texte": "I wanted to love this! It feels good upon application, but after it dries, it peels terribly! Good Molecules, please reformulate. I love the price point, but can't do the peeling; It ruins my makeup.",
+   "date": "2025-04-22",
+   "verifie": false,
+   "utiles": 9
+  },
+  {
+   "note": 5,
+   "auteur": "Daniella",
+   "titre": "This is so great people w",
+   "texte": "This is so great people who works out go out or do anything with direct in the sun",
+   "date": "2025-04-22",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Malak",
+   "titre": "Whattt",
+   "texte": "Why r the reviews so bad for this i genuinely love the texture and it has never pilled not once it is a great price and has no smell or cons ived used this bubbles and bueaty of joseans and this and bubble r tied id recoment both but this is a little but thickrr which i like",
+   "date": "2025-04-17",
+   "verifie": false,
+   "utiles": 5
+  },
+  {
+   "note": 1,
+   "auteur": "Han",
+   "titre": "Would not recommend",
+   "texte": "I purchased this serum and have been using it wvery morning for the last month and not only have I seen 0 progress or change for my skin, it pills like CRAZY. Initially after putting the product on, my face is very sticky. After it dries, it completely flakes and peels off in tiny pills all over my face - I hate the feeling. I tried wearing it alone and it still peeled, I tried wearing it hnder makeup, it peeled and took my foundation with it. I just cannot get it to work. Not impressed.",
+   "date": "2025-04-15",
+   "verifie": false,
+   "utiles": 8
+  },
+  {
+   "note": 1,
+   "auteur": "Tanisha Q.",
+   "titre": "Peeling product",
+   "texte": "I was so disappointed with how this worked. I put it on and then by the time I got outside there was white flaky product all over my face and clothes. It was as if my skin was peeling but it was just the product itself.",
+   "date": "2025-04-11",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Do not recommend",
+   "titre": "Not right for me",
+   "texte": "After doing research it is possible that the products im using with my vitamin c could be affecting the results but I have used serums in the past and never dealt with peeling or dryness. Whether I apply this product first or last it never fails to leave white stuff on my face and it peels. Sadly this did not work for me",
+   "date": "2025-04-09",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 1,
+   "auteur": "TRBH",
+   "titre": "It's a no for me",
+   "texte": "I was looking for a vitamin C serum to use for my under eye circles that was available in store. The one I used before was online only. Ive been using this a month now and have seen no significant improvement. I have extremely sensitive skin but I've had no negative reaction to this. It hasn't made my skin dry either. I don't recommend this product because it didn't do anything for me. It might have a different result for others though. Good Molucules do make some good products.",
+   "date": "2025-04-06",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "Megan",
+   "titre": "Dries out my skin",
+   "texte": "I bought this product as a last minute need because I left town for an emergency, so I didn't read the reviews, but I love Good Molecules products. This product dried my skin in less than 5 minutes and also cause white flakes/ pilling on my face. I was surprised of this result due to my previous great results of using Good Moleules products.",
+   "date": "2025-03-19",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 2,
+   "auteur": "Erika",
+   "titre": "Wanted to love the is product",
+   "texte": "Purchased this as a place holder for another Vitamin C serum- was sadly disappointed. Serum dries like a mask to my face and pills up all my other products.",
+   "date": "2025-03-18",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Mo Bee",
+   "titre": "Great product….",
+   "texte": "I love it!! Just like the other Good Molecules products this is AMAZING! I didn't experience PEELING. I'm curious as to why people are saying PILLING. Anyway, try this for yourself and you will determine what works for your skin.",
+   "date": "2025-03-13",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 2,
+   "auteur": "Ash",
+   "titre": "Uncomfortable",
+   "texte": "Begins to peel when i apply other products and makes my skin feel a bit dry",
+   "date": "2025-03-01",
+   "verifie": false,
+   "utiles": 4
+  },
+  {
+   "note": 1,
+   "auteur": "Felicia",
+   "titre": "Serious Reaction",
+   "texte": "I so wanted this product to work for so many reasons. First, I wanted a skin care line that I could purchase from ULTA, in leui of Beauty of Joseon (which, I love). I decided to try Good Molecules. I purchased pretty much the entire package. However, half into my day, my face began to itch. I did my night routine. The morning after, my face, eyes and neck was swollen. I couldn't even open my eyes. I will try again but in a small amount.",
+   "date": "2025-02-24",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Sabrina",
+   "titre": "Love this product. Give m",
+   "texte": "Love this product. Give my skin a glow, it doesn't irritate my skin, and I have sensitive skin. It goes on smooth, silky, and lightweight. Definitely recommend!",
+   "date": "2025-02-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Michelle S.",
+   "titre": "Good Product.",
+   "texte": "This product is good. Clarification of skin has improved since using this product. Love that it reduces dead skin cells.",
+   "date": "2025-02-12",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Bt",
+   "titre": "Absolutely LOVE",
+   "texte": "I started using this for its Kojic Acid and Vitamin C properties, and it has become a part of my daily and nightly routine. Just like all of GM products, it goes so smoothly and doesn't feel like it's caked on your face. I also loved how it leaves me face with a glowing finish.",
+   "date": "2025-02-11",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "April",
+   "titre": "I like it!",
+   "texte": "I was a little nervous buying this because of the mixed reviews but gor the price, I thought I'd give it a go. I don't have any problems with it pilling. Maybe they reformulated it? I cleanse, use the Thayers milky toner, then this vitamin c and my k beauty moisturizer. No issues. It feels tacky at first but in literally 30 seconds, it sinks in and feels very nice. I'll keep buying. Can't beat Good Molecules prices!",
+   "date": "2025-02-06",
+   "verifie": false,
+   "utiles": 7
+  },
+  {
+   "note": 2,
+   "auteur": "",
+   "titre": "This product is not only severely pilling, but also drying",
+   "texte": "I really want to love it, but it's really pilling and drying your skin. Super uncomforable to use.",
+   "date": "2025-01-26",
+   "verifie": false,
+   "utiles": 6
+  },
+  {
+   "note": 4,
+   "auteur": "Skin looks brighter !",
+   "titre": "Brightened my skin",
+   "texte": "Ive been using thus product about 2 weeks now & i hane noticed a difference. Im wondering if formula was changed because I have not experienced the pilling.",
+   "date": "2025-01-23",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 4,
+   "auteur": "Skin looks brighter !",
+   "titre": "Brightened my skin",
+   "texte": "Ive been using thus product about 2 weeks now & i hane noticed a difference. Im wondering if formula was changed because I have not experienced the pilling.",
+   "date": "2025-01-23",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Vitamin C Serum with Oryzanol",
+   "texte": "The Vitamin C Serum with Oryzanol has been a great addition to my skincare routine. As someone in my late 50s with medium brown skin, I love how it enhances my skin's radiance and reduces the appearance of fine lines. I use it twice daily with other Goid Molecules products for oily, aging skin. Oryzanol offers multiple benefits, including UV protection, anti-aging properties, moisturizing, antioxidant effects, and skin tone improvement. It helps keep my skin hydrated and balanced, even during winter. Overall, I'm very pleased with the results!",
+   "date": "2025-01-17",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Finally something that works!!!!!",
+   "texte": "Brightens and keeps my face smooth. Love that my skin doesn't break out .",
+   "date": "2025-01-17",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Lawrence N.",
+   "titre": "This is one great product",
+   "texte": "As soon as you put it on do you feel a smoothing and tightening effect. Your skin is glowing and it's almost all that you need to do to walk out the door. It's a fantastic solution. I wish it came in a bigger size.",
+   "date": "2025-01-16",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Vitamin c",
+   "texte": "I had fantastic results using the Vitamin c with my daily regimen",
+   "date": "2025-01-16",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Yeah it's good",
+   "texte": "It's good! I love that you don't have to refrigerate this vit c cream to keep the molecules stable. A little tacky on application but the feeling goes away quick. Definitely the most cost effective and just plain effective vit c I've found so far that doesn't also cost an arm and a leg. Ive purchased this multiple times and plan to keep doing so",
+   "date": "2025-01-16",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "M.B.",
+   "titre": "Love it!",
+   "texte": "Love it! It feels nice on my skin and makes me look bright and glowy. I didn't experience any peeling.",
+   "date": "2025-01-15",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 2,
+   "auteur": "Amber N.",
+   "titre": "I wanted to love it",
+   "texte": "After looking through the reviews I was excited to give this product a chance. I tried it twice and it was a no for me! It made my skin feel so tight after applying it and left a weird crusty outline where I applied it around my face. I've tried reaching out to the company several times via email, phone calls and live chat and cannot get a response about a return! Not happy about that part.",
+   "date": "2025-01-10",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Dawn S.",
+   "titre": "Found the Magic!",
+   "texte": "Unbelievable. I am shocked at the amazing results I am benefiting from this product. However, I find my amazing results came when I combined this with another one of your products - The Pineapple Scrub. I have what I believe are xanthomas on my forehead. They may even have some combination with melasma as well. I do not have this on my cheeks as is usually the case. About three weeks ago, I started using the scrub three to four times a week while bathing. I leave it on for 10 to 20 minutes and let it dry out. After rinsing off, I use an Apple Cider Vinegar rinse and then toner. The last two steps I have been doing forever, but not with noticeable results. When the Vit. C with Oryzanol product came out I began using it twice daily as recommended. It has only been 3 weeks or slightly less and it is clear as day that they are drying up, majorly decreased in size, color and texture. I am sooo happy. I will write again in a few months. I had been using your using your discoloration serum prior and have noticed some results but my amazing results came with the combo of the Pineapple scrub and Vit. C with Oryzanol....truly amazing.",
+   "date": "2025-01-06",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "Jay",
+   "titre": "Pilling",
+   "texte": "I want to love this product but it just flakes and makes my entire skin care routine rub off. If they could find a way to stop the pilling it would be a good product.",
+   "date": "2025-01-03",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Susan",
+   "titre": "Love it!",
+   "texte": "This Vitamin C serum works just as well as the high end/priced serums. I've used it for the past 2 years & have noticed a difference on my mature skin.",
+   "date": "2024-12-28",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 3,
+   "auteur": "Holly",
+   "titre": "Won't purchase again",
+   "texte": "Love the clean ingredients, hate the how sticky a dried out my skin feels. I will not purchase again.",
+   "date": "2024-12-24",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "abi",
+   "titre": "user error",
+   "texte": "I've been using this product for over a month and a half and it has greatly helped fade my post acne dark spots. and it has also helped lighted around my mouth/mustache area. I've read comments that it piles after using other products on top. it did that on my first two uses then realized I wasn't letting the product dry before adding my next skin step routine. you have to let it dry down completely before adding another product. keep patting and fanning ur face until it has no sticky feeling. so far it works with my sunscreen and foundations.",
+   "date": "2024-12-23",
+   "verifie": false,
+   "utiles": 9
+  },
+  {
+   "note": 5,
+   "auteur": "Adina",
+   "titre": "I love the pump dispenser",
+   "texte": "I love the pump dispenser for this! It is a little hard to make sure you get the right amount in one pump. All in all, a great product!",
+   "date": "2024-12-23",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Aslin D.",
+   "titre": "Love!",
+   "texte": "Love this product, it has lasted me 6 months so far and I just ordered another one for the new year!",
+   "date": "2024-12-18",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "C",
+   "titre": "Love!",
+   "texte": "I would purchase again. Especially during winter whne i just feel i lack in brightness",
+   "date": "2024-12-11",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Kels",
+   "titre": "Amazing for oily and sensitive skin!! Years of cystic acne a",
+   "texte": "I was a little stumped because it felt like the vitamin c serum from this brand was no longer working. So I decided to try this one and im SO glad I did!!! My skin ate this serum right uppp. It does go on a bit more tacky and much less liquidy like the other serum but in almost two months my skin was essentially clear AND my oiliness was so under control! I used to be a really oily gal but with this brand it felt much less and like I had normal skin. With this serum my skin looked good AND MATTE. I was so happy and not all expecting it! My skin felt so smooth, brighter and more even. Ultimately I went back to the regular vitamin c serum because I miss it being more liquidy and idk if its because of this serum, but when I switched back my skin ate up the regular vitamin c serum even more! Within the second month of using that, my skin was completely clear and even toned. No dark spots, no nothing. I literally almost cried because as someone who used to have horrible cystic acne, painful bumps, sores and dark spots everywhere, these two serums help heal almost decades of it in almost less than two years. Genuinely, thank you good molecules!!!",
+   "date": "2024-12-09",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Jen",
+   "titre": "Peels",
+   "texte": "I have tried many combinations to get this product to work. I tried on a double cleansed face by itself, still peeled.",
+   "date": "2024-12-04",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "R A",
+   "titre": "Love this product",
+   "texte": "Love this product. Combines well with other products. I only use a hydrating toner , this product and a day cream. Will purchase again",
+   "date": "2024-11-30",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Jazzy",
+   "titre": "Love for the price!",
+   "texte": "I keep reading reviews about pilling and flaking,but I didn't experience that when using it. I actually really enjoyed the product and used the entire bottle without issue. I layered it with other Good Molecules products, as well as other brands. I do tend to have more dry skin and I'm older (34) with two kids. So, I really think it just depends on the individual's skin more than anything.",
+   "date": "2024-11-26",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 4,
+   "auteur": "Skincareshawty",
+   "titre": "I like it but ...",
+   "texte": "I have noticed peeling as well BUT only when I'm adding the most to my skin ... now that I have cut back and only use a PEA SIZE I don't see peeling as much ... and antioxidants should be the first thing you use after cleansing and toning (if you tone) apply on complete dry skin and let it set for about 2 mins before adding any other products.",
+   "date": "2024-11-24",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "Evelyn",
+   "titre": "love it so far",
+   "texte": "I've been using it nightly for about two weeks now and I can see my complexion is brighter than before. I've not suffered any breakouts from it so far. I have not experienced any of the pilling I've seen others mention. I only use it at night. My regimen is washing with Tula purifying cleanser, then layer three pumps of Kate Somerville hydrakate recharging serum. Once that completely dries, I add two pumps of this, then I layer with Tula 24-7 moisture intense. Twice a week I also exfoliate with Kate Somerville exfolikate intensive treatment. My face is incredibly soft and now brighter than before. I don't think I'll ever stop using this stuff. I usually suffer from dryness, but that has gone away recently too.",
+   "date": "2024-11-24",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "Francesca",
+   "titre": "This product pills and can be sensitizing",
+   "texte": "I love this product, but it can be sensitizing in the beginning. When I first started this, I didn't know why my skin was irritated and more dry, but I realized it was this new product. I had to restart and slowly integrate it into my routine by applying it every other day and increasing usage slowly. That was fine for me, but a heads up for other people who are more sensitive that me. It also pills a lot for me no matter how much I try to alter the application process. Again, it's okay for the most part, but when I'm applying make up, it makes me make up patchy and unpleasant. Overall, I love this product though. It has made my skin so much brighter! I will keep using this, but I hope formulation changes so it doesn't pill so much.",
+   "date": "2024-11-24",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Lamar",
+   "titre": "I fell love this product.",
+   "texte": "I fell love this product. My texture of my face has improved since I started using it. It's a lot more smoother than before and a lot less breakouts. Definitely keeping it in my skincare routine",
+   "date": "2024-11-02",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Gina",
+   "titre": "Pills",
+   "texte": "Agreeing with other comments. Thick product that pills quickly. Not worth it for the affordable price.",
+   "date": "2024-10-25",
+   "verifie": false,
+   "utiles": 7
+  },
+  {
+   "note": 3,
+   "auteur": "Kadee",
+   "titre": "It's okay",
+   "texte": "I don't know if, I would buy again. I can't tell if it's working.",
+   "date": "2024-10-23",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Lawrence N.",
+   "titre": "Great Product",
+   "texte": "This is a great product My skin felt smooth as soon as I put it on and the next morning I could see an improvement. I wish it came in a larger size. I'd like to take a bath in it!",
+   "date": "2024-10-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Good",
+   "texte": "This is my second tube, and I don't have any specifics, but my skin looks better overall. I will continue to use it, as it makes my face feel hydrated and smooth.",
+   "date": "2024-10-17",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "Andrea",
+   "titre": "Pills",
+   "texte": "This serum pills with everything. Even other Good Molecules products. I've tried it every which way with no luck other than to use it completely by itself. Very disappointing considering I am a die hard Good Molecules fan. This was their 1st fail for me.",
+   "date": "2024-09-25",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 4,
+   "auteur": "EMILY",
+   "titre": "Good so far",
+   "texte": "Have used for two weeks about, I am very sensitive and have noticed improvement without any adverse reaction or breakout",
+   "date": "2024-09-18",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "Mia K.",
+   "titre": "Bye, Acne Scars!",
+   "texte": "This Vitamin C is lovely. It doesn't pill or leave a film, but I feel its definitely helped with my acne scars. I've already finished a tube.",
+   "date": "2024-09-17",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 4,
+   "auteur": "Laila",
+   "titre": "I was thoroughly surprised",
+   "texte": "Most vitamin C I have seen are more on the expensive side of skin care. This is a great, inexpensive alternative for those with blemishes and stubborn dark spots that need a bit of help fading away. Has a good percentage of vitamin C to get the job done. PRO TIP: wear sunscreen to protect yourself from some exposure (that can lead to the overproduction of melanin aka dark spots!)",
+   "date": "2024-09-16",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Raven",
+   "titre": "I would by this product again",
+   "texte": "I've been using this product for a few weeks night during my nightly routine, it leaves my skin so soft. The consistency is so light weight and thin, very easy to apply. I noticed that my skin is starting to even out, even with using it once a day.",
+   "date": "2024-09-12",
+   "verifie": false,
+   "utiles": 0
+  }
+ ]
+}

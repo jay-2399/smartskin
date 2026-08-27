@@ -1,0 +1,28 @@
+{
+ "pid": "pimprod2057309",
+ "asin": null,
+ "nom": "medicube Zero Foam Cleanser",
+ "categorie": "cleanser",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/zero-foam-cleanser-pimprod2057309",
+ "note": 5,
+ "nbAvis": 1,
+ "distribution": {
+  "one_star": 0,
+  "two_star": 0,
+  "three_star": 0,
+  "four_star": 0,
+  "five_star": 1
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Michele",
+   "titre": "Wow!",
+   "texte": "no foam and very very creamy texture like a shaving cream. So clean afterwards. I have tried many facial cleansers, and this one is very unique.",
+   "date": "2026-03-26",
+   "verifie": false,
+   "utiles": 5
+  }
+ ]
+}

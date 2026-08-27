@@ -17,7 +17,10 @@ import fs from "node:fs";
 import path from "node:path";
 
 const RACINE = process.cwd();
-const ENTREE = path.join(RACINE, "data", "avis-bruts");
+// La source est réglable : les avis Amazon sont rangés par ASIN, ceux d'Ulta par identifiant
+// PowerReviews. Le pipeline ne connaît qu'une « référence » — le nom du fichier — et s'en moque.
+const iSrc = process.argv.indexOf("--source");
+const ENTREE = path.join(RACINE, "data", iSrc > 0 ? process.argv[iSrc + 1] : "avis-bruts");
 const SORTIE = path.join(RACINE, "data", "avis-enrichis");
 const CLE = process.env.ANTHROPIC_API_KEY
   || (fs.readFileSync(path.join(RACINE, ".env"), "utf8").match(/^\s*ANTHROPIC_API_KEY\s*=\s*["']?([^"'\r\n]+)/m) || [])[1];
@@ -139,7 +142,7 @@ if (iPrep > 0) {
     const texte = `${CONSIGNE}\n\nPRODUIT : ${brut.nom} (${brut.categorie})\n` +
       `NOTE GLOBALE : ${brut.note ?? "?"}/5 sur ${brut.nbAvis ?? "?"} avis\n\nAVIS :\n` +
       lus.map((r, i) => `[${i}] ${r.note}/5 — ${r.titre}\n${r.texte}`).join("\n\n");
-    fs.writeFileSync(path.join(dossier, "in", brut.asin + ".txt"), texte);
+    fs.writeFileSync(path.join(dossier, "in", f.replace(/\.json$/, "") + ".txt"), texte);
     n++; car += texte.length;
   }
   console.log(`${n} consignes écrites dans ${dossier}/in · ${(car / 1e6).toFixed(2)} M car.`);
@@ -155,8 +158,8 @@ if (iFin > 0) {
     .filter(([k, v]) => permis.includes(k) && typeof v === "string" && v.trim()));
   let ok = 0; const soucis = [];
   for (const f of fs.readdirSync(path.join(dossier, "out")).filter((x) => x.endsWith(".json"))) {
-    const asin = f.replace(/\.json$/, "");
-    const brut = charge(asin + ".json");
+    const ref = f.replace(/\.json$/, "");
+    const brut = charge(ref + ".json");
     const lus = choisirPertinents(brut);
     const out = JSON.parse(fs.readFileSync(path.join(dossier, "out", f), "utf8"));
     const extraits = (out.extraits || [])
@@ -165,11 +168,12 @@ if (iFin > 0) {
     const seg = tri(out.segments, PEAUX), con = tri(out.concerns, SOUCIS);
     const perdus = Object.keys(out.segments || {}).filter((k) => !PEAUX.includes(k))
       .concat(Object.keys(out.concerns || {}).filter((k) => !SOUCIS.includes(k)));
-    if (perdus.length) soucis.push(`${asin} : clés hors liste ignorées — ${perdus.join(", ")}`);
-    if (!extraits.length) soucis.push(`${asin} : aucun extrait valide`);
-    if (!Object.keys(seg).length && !Object.keys(con).length) soucis.push(`${asin} : ni peau ni problème`);
-    fs.writeFileSync(path.join(SORTIE, asin + ".json"), JSON.stringify({
-      asin: brut.asin, nom: brut.nom, note: brut.note, nbAvis: brut.nbAvis,
+    if (perdus.length) soucis.push(`${ref} : clés hors liste ignorées — ${perdus.join(", ")}`);
+    if (!extraits.length) soucis.push(`${ref} : aucun extrait valide`);
+    if (!Object.keys(seg).length && !Object.keys(con).length) soucis.push(`${ref} : ni peau ni problème`);
+    fs.writeFileSync(path.join(SORTIE, ref + ".json"), JSON.stringify({
+      ref, asin: brut.asin ?? null, pid: brut.pid ?? null, source: brut.source || "amazon",
+       nom: brut.nom, note: brut.note, nbAvis: brut.nbAvis,
       lus: lus.length, collectes: brut.avis.length,
       segments: seg, concerns: con,
       aspects: (out.aspects || []).filter((a) => a && a.libelle && (a.polarite === "pos" || a.polarite === "neg")).slice(0, 7),
@@ -206,7 +210,8 @@ for (const [i, f] of lot.entries()) {
       .slice(0, 7)
       .map((e) => ({ ...lus[e.i], peau: e.peau || null, sujets: Array.isArray(e.sujets) ? e.sujets : [] }));
     fs.writeFileSync(path.join(SORTIE, f), JSON.stringify({
-      asin: brut.asin, nom: brut.nom, note: brut.note, nbAvis: brut.nbAvis,
+      ref: f.replace(/\.json$/, ""), asin: brut.asin ?? null, pid: brut.pid ?? null,
+      source: brut.source || "amazon", nom: brut.nom, note: brut.note, nbAvis: brut.nbAvis,
       lus: lus.length, collectes: brut.avis.length,
       segments: out.segments || {},
       concerns: out.concerns || {},

@@ -1,0 +1,46 @@
+{
+ "pid": "pimprod2059609",
+ "asin": null,
+ "nom": "SKIN1004 Madagascar Centella Azelaic Acid 10% Ampoule",
+ "categorie": "serum",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/madagascar-centella-azelaic-acid-10-ampoule-pimprod2059609",
+ "note": 3.67,
+ "nbAvis": 3,
+ "distribution": {
+  "one_star": 1,
+  "two_star": 0,
+  "three_star": 0,
+  "four_star": 0,
+  "five_star": 2
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "April",
+   "titre": "My new Azelaic!",
+   "texte": "Absolutely love this stuff. I needed something that would not tug my skin when applying and this does not sting my skin. Started slow and layered it properly.",
+   "date": "2026-07-28",
+   "verifie": false,
+   "utiles": 5
+  },
+  {
+   "note": 5,
+   "auteur": "peyton",
+   "titre": "love it!",
+   "texte": "my skin is so so reactive and this is the best azealic acid ive ever used ( over the ordinary and naturium) i pair it with the medicube pink serum and mandelic acid in my routine and its been really helping!!",
+   "date": "2026-07-25",
+   "verifie": false,
+   "utiles": 8
+  },
+  {
+   "note": 1,
+   "auteur": "Jay",
+   "titre": "Skin irritation",
+   "texte": "This product broke me out into an itchy rash within minutes of using it",
+   "date": "2026-07-08",
+   "verifie": false,
+   "utiles": 3
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "pid": "pimprod2051824",
+ "asin": null,
+ "nom": "SOME BY MI Clear Spot Patch",
+ "categorie": "treatment",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/clear-spot-patch-pimprod2051824",
+ "note": 4.4,
+ "nbAvis": 5,
+ "distribution": {
+  "one_star": 0,
+  "two_star": 1,
+  "three_star": 0,
+  "four_star": 0,
+  "five_star": 4
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Allie",
+   "titre": "The best!",
+   "texte": "These are better than most pimple patches I've tried. My favorite! Please keep these in stock!",
+   "date": "2026-03-23",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 2,
+   "auteur": "Ari",
+   "titre": "Meh",
+   "texte": "Love that the patches are barely noticeable, but they did not do anything for my breakouts. In fact, some pimples got worse. I wanted to like them, but i did not :(.",
+   "date": "2026-03-17",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "M. Leigh",
+   "titre": "Work great, gentle and effective",
+   "texte": "They adhere well and have better absorption than competitors.",
+   "date": "2026-02-22",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Dominica C.",
+   "titre": "Effective and invisible",
+   "texte": "Absolutely love these. They are super thin yet work really really well!",
+   "date": "2025-08-22",
+   "verifie": false,
+   "utiles": 4
+  },
+  {
+   "note": 5,
+   "auteur": "Jess",
+   "titre": "Get it",
+   "texte": "At first, I was a little concerned about the price since it's relatively cheaper compared to higher-end brands, but I'd say it performs better than most. The patch itself pulls out the gunk, and you can actually see it being extracted. I also appreciate the patch blending in with my skin.",
+   "date": "2025-07-23",
+   "verifie": false,
+   "utiles": 10
+  }
+ ]
+}

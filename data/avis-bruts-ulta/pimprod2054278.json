@@ -1,0 +1,37 @@
+{
+ "pid": "pimprod2054278",
+ "asin": null,
+ "nom": "VT Cosmetics PDRN Glow Ampoule",
+ "categorie": "serum",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/pdrn-glow-ampoule-pimprod2054278",
+ "note": 4.5,
+ "nbAvis": 2,
+ "distribution": {
+  "one_star": 0,
+  "two_star": 0,
+  "three_star": 0,
+  "four_star": 1,
+  "five_star": 1
+ },
+ "avis": [
+  {
+   "note": 4,
+   "auteur": "NotYourB",
+   "titre": "So far it's nice!",
+   "texte": "Have not tried too many skin care mists, but this one seems to plump my skin in a moisturizing way. So far I like it and no skin irritatation. Would recommend and the price is reasonable for the product. Have used it about a week and my skin looks refreshed.",
+   "date": "2026-02-22",
+   "verifie": false,
+   "utiles": 7
+  },
+  {
+   "note": 5,
+   "auteur": "Ana",
+   "titre": "Glow and moisture for the skin",
+   "texte": "Makes my skin glow, i apply it few times during the day and i feel my skin moisturized all the time. Doesnt feel heavy or greasy",
+   "date": "2026-01-05",
+   "verifie": false,
+   "utiles": 11
+  }
+ ]
+}

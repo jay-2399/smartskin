@@ -1,0 +1,55 @@
+{
+ "pid": "pimprod2056431",
+ "asin": null,
+ "nom": "VT Cosmetics Reedle Shot 700",
+ "categorie": "serum",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/reedle-shot-700-pimprod2056431",
+ "note": 5,
+ "nbAvis": 4,
+ "distribution": {
+  "one_star": 0,
+  "two_star": 0,
+  "three_star": 0,
+  "four_star": 0,
+  "five_star": 4
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Rosario",
+   "titre": "Reedle Shot 700",
+   "texte": "I've been using VT Cosmetics Reedle Shot 700 for a while now and honestly I love how it makes my skin feel smoother and glow the next morning. The tingling sensation can feel intense at first, but after a few uses my skin looked more refreshed, soft, and glass-like. It definitely feels like a strong treatment, so I only use it at night, but overall it made my skin look healthier and more radiant.",
+   "date": "2026-05-16",
+   "verifie": false,
+   "utiles": 7
+  },
+  {
+   "note": 5,
+   "auteur": "Libet",
+   "titre": "I would buy this product again and again",
+   "texte": "Love this product so much. My skin feels smoother, looks brighter, and gives me the prettiest glow. The tingling feeling was weird at first, but now I'm obsessed with how soft and glassy my skin looks after using it.",
+   "date": "2026-05-16",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "Linda",
+   "titre": "Tingling in a good way!",
+   "texte": "This reedle shot is so good for my skin! The reedle shot is not painful at all, and my skin tingles a little bit with a scratchy sensation but feels and looks amazing after! Highly recommend!",
+   "date": "2026-05-16",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "Rita",
+   "titre": "Staple product in my skin care routine",
+   "texte": "Slight tingling sensation when applied, but this product definitely helps with the absorption of the products I layer on top!",
+   "date": "2026-05-15",
+   "verifie": false,
+   "utiles": 3
+  }
+ ]
+}

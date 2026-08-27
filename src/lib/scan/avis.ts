@@ -16,7 +16,8 @@ type Extrait = {
   verifie: boolean; utiles: number; peau: string | null; sujets: string[];
 };
 type Enrichi = {
-  asin: string; nom: string; note: number | null; nbAvis: number | null;
+  ref: string; asin: string | null; pid: string | null; source: "amazon" | "ulta";
+  nom: string; note: number | null; nbAvis: number | null;
   lus: number; collectes: number;
   segments: Record<string, string>;
   concerns: Record<string, string>;
@@ -28,6 +29,10 @@ type Enrichi = {
 /** Ce que la fiche affiche, une fois filtré pour CETTE utilisatrice. */
 export type Avis = {
   note: number | null; nbAvis: number | null; collectes: number;
+  /** d'où viennent les avis — la fiche l'affiche, on ne masque jamais la source */
+  source: "amazon" | "ulta";
+  /** Ulta ne renseigne jamais l'achat vérifié : l'afficher serait mentir */
+  verifiable: boolean;
   /** le segment de sa peau — `substitut` est renseigné quand personne n'a déclaré sa peau */
   pourElle: { peau: string; texte: string; substitut: string | null } | null;
   /** un bloc par problème qu'elle a déclaré, et rien d'autre */
@@ -35,7 +40,6 @@ export type Avis = {
   aspects: { libelle: string; polarite: "pos" | "neg" }[];
   extraits: Extrait[];
   reserve: string | null;
-  source: "amazon";
 };
 
 export type ProfilAvis = { skinType?: string; concerns?: Record<string, number> };
@@ -66,18 +70,26 @@ const LIBELLE_SOUCI: Record<string, string> = {
   oiliness: "Shine & oily T-zone",
 };
 
-let _parAsin: Record<string, Enrichi> | null = null;
+let _parRef: Record<string, Enrichi> | null = null;
 let _parNom: Map<string, Enrichi> | null = null;
 
+/** L'identifiant PowerReviews d'une URL Ulta — le dernier segment. */
+export function pidUlta(url?: string): string | null {
+  const m = String(url || "").split("?")[0].match(/\/p\/[^/?]*?-([A-Za-z]+\d+)$/);
+  return m ? m[1] : null;
+}
+
 function charger() {
-  if (_parAsin) return;
-  _parAsin = {}; _parNom = new Map();
+  if (_parRef) return;
+  _parRef = {}; _parNom = new Map();
   let noms: string[] = [];
   try { noms = fs.readdirSync(ENRICHIS).filter((f) => f.endsWith(".json")); } catch { return; }
   for (const f of noms) {
     try {
       const e: Enrichi = JSON.parse(fs.readFileSync(path.join(ENRICHIS, f), "utf8"));
-      if (e?.asin) _parAsin[e.asin] = e;
+      // indexé par sa référence, qu'elle soit un ASIN Amazon ou un identifiant Ulta
+      if (e?.ref) _parRef[e.ref] = e;
+      if (e?.asin) _parRef[e.asin] = e;
       const n = norm(e?.nom || "");
       if (n) _parNom.set(n, e);
     } catch { /* fichier illisible : on l'ignore plutôt que de tout casser */ }
@@ -128,16 +140,21 @@ function pourProfil(e: Enrichi, profil: ProfilAvis): Avis | null {
   extraits.sort((a, b) => (b.note ?? 0) - (a.note ?? 0));
 
   if (!pourElle && !problemes.length && !aspects.length) return null;
+  const source = e.source === "ulta" ? "ulta" : "amazon";
   return {
     note: e.note, nbAvis: e.nbAvis, collectes: e.collectes,
-    pourElle, problemes, aspects, extraits, reserve: e.reserve, source: "amazon",
+    source, verifiable: source === "amazon",
+    pourElle, problemes, aspects, extraits, reserve: e.reserve,
   };
 }
 
 /** Avis d'un produit pour un profil, par ASIN puis par nom. `null` si on n'a rien à dire. */
-export function avisPour(produit: { name?: string; asin?: string }, profil: ProfilAvis = {}): Avis | null {
+export function avisPour(produit: { name?: string; asin?: string; url?: string }, profil: ProfilAvis = {}): Avis | null {
   charger();
-  const direct = produit.asin ? _parAsin![produit.asin] : null;
+  // par référence exacte d'abord : ASIN Amazon, puis identifiant tiré de l'URL Ulta. Aucun de
+  // ces deux chemins ne peut se tromper de produit — contrairement à l'appariement par nom.
+  const ref = produit.asin || pidUlta(produit.url);
+  const direct = ref ? _parRef![ref] : null;
   if (direct) return pourProfil(direct, profil);
 
   const nom = norm(produit.name || "");
@@ -152,12 +169,16 @@ export function avisPour(produit: { name?: string; asin?: string }, profil: Prof
   return null;
 }
 
-/** Tous les avis bruts d'un produit — ce que sert « See all reviews ». */
-export function tousLesAvis(asin: string) {
-  try {
-    const b = JSON.parse(fs.readFileSync(path.join(DOSSIER, "avis-bruts", asin + ".json"), "utf8"));
-    return { note: b.note, nbAvis: b.nbAvis, distribution: b.distribution, avis: b.avis };
-  } catch { return null; }
+/** Tous les avis bruts d'un produit — ce que sert « See all reviews ». La référence est un ASIN
+ *  Amazon ou un identifiant Ulta ; on cherche dans les deux dépôts. */
+export function tousLesAvis(ref: string) {
+  for (const [dossier, source] of [["avis-bruts", "amazon"], ["avis-bruts-ulta", "ulta"]] as const) {
+    try {
+      const b = JSON.parse(fs.readFileSync(path.join(DOSSIER, dossier, ref + ".json"), "utf8"));
+      return { note: b.note, nbAvis: b.nbAvis, distribution: b.distribution, avis: b.avis, source };
+    } catch { /* pas dans ce dépôt : on essaie l'autre */ }
+  }
+  return null;
 }
 
 /** Combien de produits d'une liste ont des avis — sert à mesurer la couverture. */

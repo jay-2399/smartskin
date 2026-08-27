@@ -40,3 +40,6 @@ test-results/
 playwright-report/
 blob-report/
 .last-run.json
+
+# travail intermédiaire d’enrichissement : volumineux, régénérable, jamais versionné
+data/_travail-enrichissement/

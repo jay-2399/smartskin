@@ -1,0 +1,28 @@
+{
+ "pid": "pimprod2059663",
+ "asin": null,
+ "nom": "Hero Cosmetics Gentle Cleanser",
+ "categorie": "cleanser",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/gentle-cleanser-pimprod2059663",
+ "note": 5,
+ "nbAvis": 1,
+ "distribution": {
+  "one_star": 0,
+  "two_star": 0,
+  "three_star": 0,
+  "four_star": 0,
+  "five_star": 1
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "AK",
+   "titre": "Gentle but works!",
+   "texte": "Helped clear up my perioral dermatitis flare! Very gentle but cleans effectively. Love this!",
+   "date": "2026-08-21",
+   "verifie": false,
+   "utiles": 0
+  }
+ ]
+}

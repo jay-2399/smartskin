@@ -1,0 +1,901 @@
+{
+ "pid": "mkt77008635",
+ "asin": null,
+ "nom": "Dr. Brandt No More Baggage",
+ "categorie": "eye-cream",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/no-more-baggage-mkt77008635",
+ "note": 3.77,
+ "nbAvis": 2093,
+ "distribution": {
+  "one_star": 442,
+  "two_star": 115,
+  "three_star": 124,
+  "four_star": 205,
+  "five_star": 1207
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Ashley",
+   "titre": "Great product!",
+   "texte": "I had terrible eye bags before I started using this treatment, it actually changed my life. My baggage went away after a few treatments you can visibly see the results. I would totally recommend! I havent used it in years because my eye bags stayed away but now I have to buy again because my bags came back, but that's due to stress and a new work environment. Im even buying one for my mom, I would totally recommend!!",
+   "date": "2026-07-07",
+   "verifie": false,
+   "utiles": 5
+  },
+  {
+   "note": 1,
+   "auteur": "Deborah",
+   "titre": "Would not purchase again",
+   "texte": "I was excited to get the product and tried it immediately. I've used it many times and notice no improvement in my under eye bags. It's quite thick and doesn't apply easily. I tried warming it between my fingers as directions state, but if you do that it just rubs into your fingers and there is nothing left for your eyes. Big waste of money for me!",
+   "date": "2025-07-30",
+   "verifie": false,
+   "utiles": 8
+  },
+  {
+   "note": 4,
+   "auteur": "Vivi",
+   "titre": "Temporary fix",
+   "texte": "Basically what this eye cream does is tighten the area underneath your eye and stretch it out, which definitely feels a little weird on my skin, but significantly helped to reduce the bags under my skin. I don't think this is a product meant to for long-term use – it won't help reverse signs of aging – but it will help to lift your eyes temporarily. I would use a different product if you are looking for long-term benefits, but it works for a night out or somerning like that.",
+   "date": "2025-05-22",
+   "verifie": false,
+   "utiles": 21
+  },
+  {
+   "note": 5,
+   "auteur": "Jules",
+   "titre": "Great if you use correctly",
+   "texte": "Warm up the gel between fingertips. Pat it on over your eye bags. Wait a few min without moving your face. This will last 6-8 hours unless you get it wet. Its great for an evening out. Prior to this product I used Sudden Change. It was harder to apply and if you used to much you got a white film and flakiness. Thats why I prefer the Dr Brandt product. Sadly ive never been apply to get it to play well with makeup so I dont use makeup under my eyes. The gel has a peachy tint so it looks good with no makeup over it.",
+   "date": "2025-03-29",
+   "verifie": false,
+   "utiles": 15
+  },
+  {
+   "note": 5,
+   "auteur": "Rachael J.",
+   "titre": "Eye cream",
+   "texte": "Really works! My bags disappeared right before my eyes. I love this !",
+   "date": "2025-02-23",
+   "verifie": true,
+   "utiles": 3
+  },
+  {
+   "note": 1,
+   "auteur": "Nancy H.",
+   "titre": "Not happy, return please",
+   "texte": "I am sorry , excited to try but after an hour my underneath eye became be very dry and skin looked crepey. Will say some delivery to my home was quick but will return.",
+   "date": "2025-02-20",
+   "verifie": true,
+   "utiles": 2
+  },
+  {
+   "note": 1,
+   "auteur": "Chantal Y.",
+   "titre": "I don't see a difference",
+   "texte": "I've tried it a couple of times now and I don't see a difference…",
+   "date": "2025-02-20",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "David A.",
+   "titre": "Useless, highly priced fake product!",
+   "texte": "Junk!..Didn't work...applied 4x in 16 hours. Felt slight tightening of under eye skin, but that's it. Had I known this, rather than the bs favorable descriptors provided by the manufacturer, I NEVER would have purchased this gunky junk!",
+   "date": "2025-02-20",
+   "verifie": true,
+   "utiles": 3
+  },
+  {
+   "note": 1,
+   "auteur": "Mary N.",
+   "titre": "Does make bags smaller and accentuates wrinkles",
+   "texte": "It did nothing for bags and it tightens your skin so it accentuates wrinkles in areas that weren't really wrinkled before.",
+   "date": "2025-02-19",
+   "verifie": true,
+   "utiles": 5
+  },
+  {
+   "note": 1,
+   "auteur": "Wilson",
+   "titre": "No visible results",
+   "texte": "There is so much hype around this product, I wanted this to work so bad but I tried it every kind of way and it didn't.There's also a slight burning sensation after application and a slight residue. Maybe it works for some but it didn't for me. Feel like I wasted my money.",
+   "date": "2025-02-16",
+   "verifie": false,
+   "utiles": 4
+  },
+  {
+   "note": 5,
+   "auteur": "Michelle",
+   "titre": "No more puffy eyes",
+   "texte": "I love this! It takes away the puffiness under my eyes. It feels soothing when I put it on and lasts all day. I use it a few times a week when I really need a lift.",
+   "date": "2025-02-15",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Beverly C.",
+   "titre": "No more baggage",
+   "texte": "Was pleasantly surprised how with just a little pat to the right and left under my eyes followed by my eye Creme gave a smooth under eye look. Have tryed other products and this one is a must have winner.",
+   "date": "2025-02-13",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Brenda S.",
+   "titre": "Impressed",
+   "texte": "Well, read the reviews first before purchase. I must say, I didn't much but definitely see a slight decrease in the baggage department. Very happy with the results so far. Will continue to use. Thank you!",
+   "date": "2025-02-12",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "Elida H.",
+   "titre": "Did not work",
+   "texte": "Make sure to test it to see if it is old. Mine was hard to squeeze, it would come out in globs. I notified the company but only got a lady telling me to keep trying it but it did not work.",
+   "date": "2025-02-12",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "Linda K.",
+   "titre": "Bags remain",
+   "texte": "This did not work at all for me. I've tried some other brands for a similar product and saw remarkable results. With this, there was zero difference. Glad I only purchased the smallest size.",
+   "date": "2025-02-10",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "Lauren C.",
+   "titre": "No results.",
+   "texte": "I bought this to reduce the appearance of dark circles and got no results whatsoever. The first time I put it on I could feel a tightening but no change in the color. I followed the directions and even tried different types of base eye cream. I did not have high expectations but was hopeful.",
+   "date": "2025-02-09",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 2,
+   "auteur": "AZMOM",
+   "titre": "Did Nothing",
+   "texte": "I was hoping this would diminish my eye puffiness & dark circles. But after 2 weeks of using I compared with pictures and did not see any difference. I am in my 40s and have dryness too and sensitive skin. So I tried under and over moisturizer. Did not cause irritation but did have a slight orange cast. Unfortunately I ended up returning.",
+   "date": "2025-02-06",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 1,
+   "auteur": "Kristen",
+   "titre": "Didn't work for me",
+   "texte": "I tried it for a week and never noticed anything but dried flakes under my eyes. I never felt or saw any tightening effect. Disappointing because it was so well reviewed.",
+   "date": "2025-02-06",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "Marge W.",
+   "titre": "Don't waste your money!",
+   "texte": "Doesn't do anything. Might as well rub lotion under your eyes. Don't waste your time or money just another snake oil scam",
+   "date": "2025-02-06",
+   "verifie": true,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Delia Q.",
+   "titre": "Amazing product",
+   "texte": "I love the no more baggage I've been using for couple months !",
+   "date": "2025-02-06",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Nicole J.",
+   "titre": "Disappointed",
+   "texte": "Unfortunately I did not see positive results with the \"no more baggage\" cream. I was so excited for the possibility of temporarily helping the bags under my eyes, there was no change after using the cream.",
+   "date": "2025-02-01",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Eugenia C.",
+   "titre": "Eye bag",
+   "texte": "Love this eye cream really works it's the best I've tried will keep buying",
+   "date": "2025-02-01",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "Marian P.",
+   "titre": "Disappointed",
+   "texte": "Have been using for about 5 days and not seeing any difference . Have used the product after moisturiser pre foundation and also on top of foundation . Maybe I'm not using enough of the product - I do not feel any tightening of the skin . Sorry for the negative comments but was expecting to see/feel a difference",
+   "date": "2025-01-31",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Disappointed",
+   "titre": "Disappointed",
+   "texte": "I used this every day and night for just over 3 weeks and didn't see a difference, which was diappointing since I have large bags under my eyes and my hooded eyes are heavy. It's not heavy. Not a very creamy eye cream, but I'd rate it 6/10 in hydration. I regret my purchase and wouldn't buy it again.",
+   "date": "2025-01-30",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 2,
+   "auteur": "Tamara Q.",
+   "titre": "No result other than Fine Lines?",
+   "texte": "I really wish I had a glowing review because I had really high hopes for this product. Sadly the only thing I notice when I apply it, is an increase in little fine lines due to the dryness it causes? I don't see any difference in my dark circles....lol I still look tired.",
+   "date": "2025-01-30",
+   "verifie": true,
+   "utiles": 2
+  },
+  {
+   "note": 2,
+   "auteur": "Steph",
+   "titre": "can't seem to get a smooth application",
+   "texte": "There might be some minimal depuffing but I've followed the application instructions and always have orange crumbly chunks on my skin. I also notice that it makes my skin under my eyes very dry which isn't ideal for makeup application. It was worth a shot but i'm not going to purchase again",
+   "date": "2025-01-29",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "Jac W.",
+   "titre": "No effect at all",
+   "texte": "To be honest , it hasn't worked at all . I tried on freshly washed skin , after eye cream had dried and both times it had no effect . Really disappointed as the item was expensive for me and of no use .",
+   "date": "2025-01-29",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "Trudy W.",
+   "titre": "Haven't noticed any changes",
+   "texte": "I had big hopes for this product after seeing amazing results on social media but I haven't noticed any effects after using it",
+   "date": "2025-01-29",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Laveta G.",
+   "titre": "Really Works!",
+   "texte": "I love this product. I used to use it all the time and had stopped for some reason. It works so quickly to my HUGE baggy undereyes.",
+   "date": "2025-01-29",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Ann W.",
+   "titre": "True to what it says",
+   "texte": "I am a lady in my 70's, who of late have been getting bags under my eyes . After using this cream now for a few days I already see a big difference. I'll certainly get some more once this tube has finished. Ann",
+   "date": "2025-01-28",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "Beth",
+   "titre": "Not for me, sadly",
+   "texte": "I used a pea size amount on my eyes and waited 5 minutes and this was the result...did nothing for me bags and if I'd used more, I'd have apricot colored bags.",
+   "date": "2025-01-27",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 3,
+   "auteur": "Karen K.",
+   "titre": "Doesn't work for me",
+   "texte": "Bought to even out eye bags. No change for mine. Can feel the tightening but it's not visibly noticeable.",
+   "date": "2025-01-27",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "James B.",
+   "titre": "Product fine - nightmare social and email!!!",
+   "texte": "Decent product but PLEASE stop the email and social bombardment. It's insane and actually drives customers away. 3 emails a day and endless social tagging is just exhausting and is making me not want to buy…",
+   "date": "2025-01-27",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Anais A.",
+   "titre": "Wondeful !!",
+   "texte": "I am absolutely thrilled with this product. It delivers on its promise. the formula is lightweight, non greasy and absorbs quickly into skin. It truly targets and reduces the appearance of dark circles and discoloration, It's Amazing !",
+   "date": "2025-01-27",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Nicole B.",
+   "titre": "Bananas!",
+   "texte": "This actually works. I was skeptical-my left eye always has a bulged out bag under it-worsened with aging-this took them away in less than 5 minutes! Couldn't believe it. Worth the spend—a little goes a long way!",
+   "date": "2025-01-26",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "Gabriela W.",
+   "titre": "Decent product but am disappointed",
+   "texte": "The product in itself is ok and has a tightening efect but it is slight effect and nothing revolutionary!! It also sometimes leaves a grainy residue which isn't great under concealer which I still have to use to cover undereye circles. However, I am disappointed by the false claims of minis and samples - my delivery slip listed one that I was hoping to try out before investing but it wasn't in the box. When I contacted Customer service I was told they were subject to availability but frankly, it looked like someone had knicked mine or it was taken out! Not sure I would be repurchasing after this.",
+   "date": "2025-01-25",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "allison R.",
+   "titre": "Eye baggage review",
+   "texte": "I really don't see any difference. I feel some tightening but don't see results.",
+   "date": "2025-01-24",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Kim B.",
+   "titre": "Younger looking",
+   "texte": "I love Dr Brandt's no more baggage. I had more on my plate than usual and under eye bags were visable. My 81 yr old mom reminded me how good this product is for smoothing out the under eye area. I will always have No More Baggage in my makeup bag.",
+   "date": "2025-01-24",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "Yvonne K.",
+   "titre": "eye cream.",
+   "texte": "Unless I am using it incorrrectly it has ade no difference. Please respond.",
+   "date": "2025-01-23",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Anna M.",
+   "titre": "Very disappointed",
+   "texte": "The texture of this cream won't rub or sink in, and very quickly it dries and flakes on my skin which looks terrible. It looks as if I have awful eczema under my eyes, which is just the product texture. Doesn't work for me at all, looks terrible and feels horrible and dry on my skin.",
+   "date": "2025-01-22",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "C B.",
+   "titre": "Inconsistent results, have to still use ice pack",
+   "texte": "Was hoping this would finally cure my under-eye puffiness which just started with a new medication (known side-effect). Some days there is noticeable improvement but I still need to apply ice in the mornings to de-puff under eyes.",
+   "date": "2025-01-22",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "D M.",
+   "titre": "Made no difference at all",
+   "texte": "It made no difference at all. It took a very long time to arrive I won't recommend and won't purchase again. My skin is normal but there is no box for that so I chose combination , I chose fine line lines and wrinkles because the box I wanted wasn't there either and you can't submit without choosing a box. Please don't waste your money",
+   "date": "2025-01-18",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "michelle M.",
+   "titre": "Disappointing",
+   "texte": "The product has made literally no difference whatsoever. Really disappointed.",
+   "date": "2025-01-17",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Cathy",
+   "titre": "Not for me",
+   "texte": "As soon as I put the gel under my eyes I felt it pulling And it looked better. When I woke up in the morning my eyes were so swollen and puffy. I immediately returned product.",
+   "date": "2025-01-16",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Janiece B.",
+   "titre": "Love this product!",
+   "texte": "This product is better than any. I've tried before. It blends well on under my eyes. And leaves no trace so it blends with my make up beautifully and it stays all day for me. I'm 66 years old, almost 67 and loving it will continue to purchase.",
+   "date": "2025-01-16",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Christina R.",
+   "titre": "That's right NO MORE BAGGAGES",
+   "texte": "I used No More Baggage for a month now and it actually works. I work night shift as a nurse and I have allergy eyes. I have used different eye creams and such but this one by Dr. Brandt is absolutely a game changer. I saw a difference with my eye bags and I look well rested on my days off from work. I like that it is not sticky and glides on easily and absorbs well into my under eye. I would most def purchase again.",
+   "date": "2025-01-14",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "DiVincenzo D.",
+   "titre": "It works!",
+   "texte": "Pleased with product. It does what it said it would do. It's worth giving it a try.",
+   "date": "2025-01-14",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Stacy S.",
+   "titre": "It Actually Works",
+   "texte": "I was really skeptical but since they had a money-back guarantee, I decided to try it. I'm amazed, it actually worked.",
+   "date": "2025-01-13",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "Beth F.",
+   "titre": "Disappointed",
+   "texte": "After reading all of the reviews and videos, I was really excited to purchase. I have been using for over a week and only see a tad improvement. Will not be ordering again.",
+   "date": "2025-01-13",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Catherine G.",
+   "titre": "Great product!",
+   "texte": "I absolutely love Dr. Brandt NEEDLES NO MORE - NO MORE BAGGAGE under eye treatment! This lightweight gel cream has become an essential part of my beauty routine. It instantly tightens and smooths my skin, reducing puffiness and brightening dark circles. I was amazed to see visible results in just 5 minutes! The formula feels so luxurious, and the Filmatrix technology combined with caffeine and peptides creates a second-skin effect that keeps my under-eye area looking fresh and stress-free all day. I also love that it works beautifully under makeup or on its own. Whether I'm getting ready for a big event or just need a quick pick-me-up, this product delivers immediate results and provides long-term benefits for overall under-eye health. It's perfect for all skin types, and I can see why it's a go-to for influencers, makeup artists, and celebrities.",
+   "date": "2025-01-13",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "Kathleen E.",
+   "titre": "Less than expected",
+   "texte": "Was very excited to try this product. Although there is some differences in the appearance of my under eye bags, it is minimal",
+   "date": "2025-01-13",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Kimberly M.",
+   "titre": "No more Baggage",
+   "texte": "I love this product, it is amazing !!! I have invested in so many others , that simply dod not work , this works , I totally see a difference.",
+   "date": "2025-01-11",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Marie",
+   "titre": "Did nothing.",
+   "texte": "Bought to reduce eye bags, but cant see any difference. The skin does feel soft to touch, but no visible difference for me. Also the product rubs off after a while leaving crumbs. Really doubting the before / after pictures I'm seeing. Not worth 50£ and waiting for 2 weeks to receive. Disappointed.",
+   "date": "2025-01-10",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Norma P.",
+   "titre": "Eyecream",
+   "texte": "I love this product. I always wake up with bags under my eyes. Within a few minutes of applying the eye cream my bags are gone! I highly recommend this product",
+   "date": "2025-01-10",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Jill L.",
+   "titre": "Pretty Much Gone!",
+   "texte": "My under eye bags are significantly decreased with this product! Plus it lasts until evening. I'm sold!",
+   "date": "2025-01-08",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Nadia Z.",
+   "titre": "Doesn't work for me",
+   "texte": "I applied it and don't really see a difference. Not sure what I'm doing wrong to be honest. I will try again but may need to return as it doesn't seem to be working for me unfortunately.",
+   "date": "2025-01-08",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Adair W.",
+   "titre": "Bags be gone",
+   "texte": "Fascinating product, watched my bags disappear in the mirror in moments, definitely a keeper!",
+   "date": "2025-01-07",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Newsie1",
+   "titre": "This works…",
+   "texte": "This product works! Review the videos and tips - warm the dabs and tap on - the color looks good on me (doesn't show up as orange unless I applied incorrectly). The best thing is the tightening effect and the bags are gone like magic - lasts all day too!",
+   "date": "2025-01-06",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Isabel K.",
+   "titre": "Was really hoping",
+   "texte": "Unfortunately I didn't notice any change at all... Hope it works for some people but unfortunately I'm not one of them.",
+   "date": "2025-01-06",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Shell-B",
+   "titre": "No more bags at 57!",
+   "texte": "4 weeks from more years over 50 and this product is a daily use under my make up to smooth out my under eye area!!",
+   "date": "2025-01-04",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "Shell-B",
+   "titre": "No more bags at 57!",
+   "texte": "4 weeks from more years over 50 and this product is a daily use under my make up to smooth out my under eye area!!",
+   "date": "2025-01-04",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "Kasane",
+   "titre": "I don't know if I got a faulty tube or what. . .",
+   "texte": "The description says that it's \"light, like a gel,\" but instead the consistency was like a very thick, salmon-colored putty. I've used it daily for a month now and have gotten zero results. I never leave bad reviews, but this is disappointing.",
+   "date": "2025-01-04",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Mahwish M.",
+   "titre": "Excellent product",
+   "texte": "It's an amazing product. I used it once to try and it was just amazing . My undereye puffiness all gone. There were no eye bags , even my husband noticed it and complimented my skin!",
+   "date": "2025-01-04",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "Lisa H.",
+   "titre": "Same amount of baggage.",
+   "texte": "Unfortunately as I expected, this didn't make any difference to my under eye bags.",
+   "date": "2025-01-03",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Sheila B.",
+   "titre": "Disappointed",
+   "texte": "I haven't noticed a change in my dark circles since starting the product about 2 weeks ago. I am disappointed 😞.",
+   "date": "2025-01-02",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "Nicole A.",
+   "titre": "Not so great",
+   "texte": "I wanted so badly to love this product but it didn't deliver. I am a seasoned skin care user and applied this product exactly as directed and it would pill around my eyes. I didn't use too much so I'm not sure why it pilled. And my bags didn't reduce. I've used other Dr Brandt products that are amazing but this wasn't one of them.",
+   "date": "2024-12-31",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Corinna H.",
+   "titre": "Didnt work for me",
+   "texte": "May well work on younger women but sadly made no difference to puffiness under my 60+ eyes.",
+   "date": "2024-12-30",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Misty B.",
+   "titre": "This really works!",
+   "texte": "I was skeptical at first like with everything I've tried in the past for under eye bags and dark circles. Spent hundreds of dollars on products that promise to work and they didn't. I was completely blown away with the results from No More Baggage. I got compliments after just a few days. I'm a forever customer now.",
+   "date": "2024-12-30",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "allison W.",
+   "titre": "It really works!",
+   "texte": "Much to my amazement, this absolutely works and I love it! I'm not a big selfie person so no photo, but at 67 I am thrilled to find a product that actually does what it claims! SO thrilled! Purchase without hesitation!",
+   "date": "2024-12-29",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa B.",
+   "titre": "Definitely works",
+   "texte": "I was a little sceptical about this product at first and didn't see any discernible results after applying it over my under eye concealer. However it's a game changer when you apply straight after cleansing. You can actually feel the skin tightening. It is very effective and lasts most of the day. I have ordered a second tube in case I run out. Delivery takes a while as it's not from a UK distribution centre but it's worth the wait.",
+   "date": "2024-12-29",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 4,
+   "auteur": "CKNY",
+   "titre": "Works - if applied right",
+   "texte": "I do think this is the best product out there to de-puff those under eye bags but you must watch the videos etc available. I cleanse, moisture, apply primer (if I'm doong a full face of makeup)- warm up a little b/w the pads of my fingers - then dab on. Let that dry and finish your makeup routine.",
+   "date": "2024-12-28",
+   "verifie": false,
+   "utiles": 5
+  },
+  {
+   "note": 4,
+   "auteur": "Tamara S.",
+   "titre": "Nice results",
+   "texte": "This product does its job… blends well.. takes quite a bit to last the day.. because of that , this product becomes very pricey…",
+   "date": "2024-12-28",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "Kathi P.",
+   "titre": "Doesn't work",
+   "texte": "Does not help with puffiness. I've had my eyes done upper and lower. thought this would help on days when I haven't slept well but I see no difference. Was hopeful but just didn't work for me",
+   "date": "2024-12-27",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "Debbie F.",
+   "titre": "Nice product, but not effective",
+   "texte": "Bought this product because I have some puffiness under my right eye. Was very hopeful that this would do the trick but disappointed that it's not really reducing the puffiness under my eye. Will continue to use to see if it works better over time.",
+   "date": "2024-12-27",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Never again",
+   "titre": "Terrible",
+   "texte": "I ordered this because it looks like the original but buyer beware its the new revised version which is terrible. They ate trying to pass this off as the original but its a terribke version, dies not work and i have to wait 30 days for my mobeu back. I wonder if they woyld have waited for 30 days for my oayment. Overall worst experience ever with a store and product. I will never shop here again and would suggest you be very wary of this store and it service",
+   "date": "2024-12-24",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 1,
+   "auteur": "Katy N.",
+   "titre": "Dark Circles",
+   "texte": "Disappointed, as it seems to make no difference on my dark inner eye and circles. I had high hopes buying from this brand, but still no solution.",
+   "date": "2024-12-23",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Mark M.",
+   "titre": "Dreadful",
+   "texte": "This did nothing for me except irritate my under eye and make it look dry and crepey. Complete waste of money",
+   "date": "2024-12-23",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Nina R",
+   "titre": "Nope",
+   "texte": "Skip it- The formula is chunky and hard to squeeze out of the package. I applied this in the morning and it looks terrible (cakey) under makeup. I did not see any results from this, i rubbed it between my fingers to warm up as instructions say - expensive and disappointing- I Trashed it!",
+   "date": "2024-12-22",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Mary",
+   "titre": "Absolutely no difference",
+   "texte": "Followed the instructions carefully, tried it several times. No change in undereye puffiness, it actually looked worse. Settled into fine lines and concealer pilled. (If I put any less on there'd be nothing there and, yes, I did warm it as directed. Wasn't looking for a miracle, but a little difference would have been nice. Now, on to find the refund process.",
+   "date": "2024-12-22",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Toni L.",
+   "titre": "Does not work of course",
+   "texte": "It does not dissolve completely and left residue and bags are still there. Would not recommend.",
+   "date": "2024-12-22",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "Lynn A.",
+   "titre": "Still undecided about its efficacy",
+   "texte": "I've been using the No More Baggage eye cream for a few weeks. It seems to maybe work a little, but doesn't really take a lot of the underage puffiness. I think it's important to put it onto a finger first and spread it. Otherwise, it seems to not go on smoothly. I will continue to use it, but I'm still not sure it's worth the money.",
+   "date": "2024-12-22",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "Mark W.",
+   "titre": "Baggage care",
+   "texte": "I have only used a couple of times the first time seen significant improvement 2nd time not so much",
+   "date": "2024-12-21",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Kirsten M.",
+   "titre": "Wanted to love this!!",
+   "texte": "I really wanted to love this and had high hopes but it did nothing for me. I'm super disappointed !",
+   "date": "2024-12-21",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Cynthia R.",
+   "titre": "Eye Cream",
+   "texte": "My favorite eye cream! I notice a tightening of bags under eyes and reduction of puffiness within minutes!❤️ Definitely a keeper!",
+   "date": "2024-12-21",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Wendy L.",
+   "titre": "Not seeing results",
+   "texte": "I was expecting more from this product. I don't see any benefits at all. My regular moisturizer seems to work better, actually. Quite disappointed.",
+   "date": "2024-12-21",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Ilana B.",
+   "titre": "Best product",
+   "texte": "Yes. I'm enjoying it very much. Thank you. I wish the shipping was a little faster.",
+   "date": "2024-12-21",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Lucie L.",
+   "titre": "Disappointing",
+   "texte": "I was really excited to try No More Baggage but since using it I haven't noticed any difference in my under eye bags. Very disappointing. Will not be purchasing again.",
+   "date": "2024-12-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Melanie M.",
+   "titre": "Does not work",
+   "texte": "at all! My undereye bags were more pronounced than when I use nothing. I would give zero stars if that were an option.",
+   "date": "2024-12-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Sonia G.",
+   "titre": "Not good results at all",
+   "texte": "Not a great product at all. Does not do as it says on the label. Will not be buying any more.",
+   "date": "2024-12-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Jadeen F.",
+   "titre": "It works wonderfully!",
+   "texte": "I'm a 63 year old woman with bags and dark circles under my eye from lack of sleep and long work hours and this product performs miracles!! Love it. It's my z3rd time ordering and will continue whenever it goes on sale!!",
+   "date": "2024-12-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Jackie F.",
+   "titre": "Under eye cream",
+   "texte": "Did not do anything ; made no difference in appearance at all unfortunately.",
+   "date": "2024-12-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Trisha M.",
+   "titre": "No More Baggage",
+   "texte": "This is a great product.it definitely works as advertised. I highly recommend!",
+   "date": "2024-12-19",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "JULIET E.",
+   "titre": "Jury is out",
+   "texte": "So far I have seen no difference. I used it just under one eye so I could see the difference but there was none. Disappointed to be honest.",
+   "date": "2024-12-19",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Annette M.",
+   "titre": "Disappointed",
+   "texte": "I had high expectations for this product but unfortunately it did not work for me. The only good thing I would say is that it's easy to apply, doesn't settle into wrinkles and does not dry into a white paste but it does nothing for me. I don't even consider it a good moisturizer. I would like my money back.",
+   "date": "2024-12-19",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Paula C.",
+   "titre": "Terrible!",
+   "texte": "If you want your underbags to go from a noticeable flesh tone to a noticeable bright pink this is the product for you. A complete waste of money. I keep thinking maybe I got a bad batch but at this point I'll just consider it lesson learned.",
+   "date": "2024-12-18",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Sheliah E.",
+   "titre": "No more baggage rating",
+   "texte": "It does nothing for me. I used it faithfully and it just does not work! May I return",
+   "date": "2024-12-17",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "sheri S.",
+   "titre": "not working for me",
+   "texte": "I have used it now for a full week and there is no difference in the reduction of the puffiness or dark circles :-(",
+   "date": "2024-12-16",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Diane B.",
+   "titre": "Don't leave home without it!",
+   "texte": "Love it! What a difference! I, seriously, never leave home without it!",
+   "date": "2024-12-16",
+   "verifie": true,
+   "utiles": 0
+  }
+ ]
+}

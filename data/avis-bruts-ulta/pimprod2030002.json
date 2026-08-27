@@ -1,0 +1,55 @@
+{
+ "pid": "pimprod2030002",
+ "asin": null,
+ "nom": "CHANEL LE TONIQUE Anti-Pollution Invigorating Toner",
+ "categorie": "toner",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/le-tonique-anti-pollution-invigorating-toner-pimprod2030002",
+ "note": 4.43,
+ "nbAvis": 7,
+ "distribution": {
+  "one_star": 1,
+  "two_star": 0,
+  "three_star": 0,
+  "four_star": 0,
+  "five_star": 6
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Carol",
+   "titre": "I didn't want to like it",
+   "texte": "But if you are a cleanser and toner junkie, you're going to love Chanel's toner. It smells great and softens the skin. I love it.",
+   "date": "2026-03-23",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "Lauren",
+   "titre": "Not for me",
+   "texte": "Pricey and broke me out. You would think for the price it wouldn't break out skin.",
+   "date": "2025-01-03",
+   "verifie": false,
+   "utiles": 4
+  },
+  {
+   "note": 5,
+   "auteur": "Glamgirl94270",
+   "titre": "My favorite toner!!",
+   "texte": "This toner feels soothing but doesn't leave my skin feeling sticky at all. The scent is amazing and very light, but of course like all chanel products, if you are very sensitive to fragrance I would recommend a sample before buying. Alcohol free so its great for my dry leaning skin, still an excellent makeup remover. Preps my skin nicely for the rest of my routine. This is a staple for me!!",
+   "date": "2024-10-18",
+   "verifie": false,
+   "utiles": 6
+  },
+  {
+   "note": 5,
+   "auteur": "Savannah Gal",
+   "titre": "Expensive but Totally Worth It!",
+   "texte": "I have used plenty of toners in the past but this product is by far the best. The gal at the Chanel counter recommended it and she was so right! Any leftover grime or makeup on my face is gently removed when I use this toner with a white cotton pad. Others leave behind grime but this one captures at all!",
+   "date": "2022-01-24",
+   "verifie": true,
+   "utiles": 6
+  }
+ ]
+}

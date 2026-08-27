@@ -1,0 +1,37 @@
+{
+ "pid": "pimprod2058106",
+ "asin": null,
+ "nom": "Dr. Melaxin Peel Shot Glow White Rice Toner",
+ "categorie": "toner",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/peel-shot-glow-white-rice-toner-pimprod2058106",
+ "note": 3,
+ "nbAvis": 2,
+ "distribution": {
+  "one_star": 1,
+  "two_star": 0,
+  "three_star": 0,
+  "four_star": 0,
+  "five_star": 1
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Melissa",
+   "titre": "Great hydration toner",
+   "texte": "Great toner. Adds hydration and glass skin effect after washing. Not sticky like some toners. Works great! Love dr Melaxin products",
+   "date": "2026-05-12",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 1,
+   "auteur": "Susan",
+   "titre": "This product burned my skin.",
+   "texte": "This product burned my skin. It's been weeks and I've found no relief. I fear I may be scared. I asked for help on their website 'chat' and they refused to give me advice.",
+   "date": "2026-03-10",
+   "verifie": false,
+   "utiles": 28
+  }
+ ]
+}

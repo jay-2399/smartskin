@@ -1,0 +1,37 @@
+{
+ "pid": "pimprod2059139",
+ "asin": null,
+ "nom": "medicube Collagen Glow Sunscreen SPF 50",
+ "categorie": "sunscreen",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/collagen-glow-sunscreen-spf-50-pimprod2059139",
+ "note": 5,
+ "nbAvis": 4,
+ "distribution": {
+  "one_star": 0,
+  "two_star": 0,
+  "three_star": 0,
+  "four_star": 0,
+  "five_star": 4
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Ziglet",
+   "titre": "Great sunscreen",
+   "texte": "I love this sunscreen and it goes on easy with no white cast and doesnt cause my foundation to cake either. Very hydrating",
+   "date": "2026-08-18",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Colle",
+   "titre": "Perfect for sunscreen haters. Truly weightless.",
+   "texte": "I've always avoided putting sunscreen on my face because I hated the idea of it feeling heavy or greasy, but this is the first one I've ever tried. I am blown away. It is so lightweight that I completely forget I'm wearing it. It doesn't feel weird, sticky, or make my skin feel dirty by the end of the day. If you hate the feeling of traditional sunscreen, try this one.",
+   "date": "2026-07-18",
+   "verifie": false,
+   "utiles": 10
+  }
+ ]
+}

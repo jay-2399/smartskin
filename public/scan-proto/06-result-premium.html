@@ -135,9 +135,12 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 /* ── USER REVIEWS (synthèse type « Customers say » Amazon) — accordéon ── */
 .rev-toggle { position:absolute; opacity:0; pointer-events:none; }
 .rev-head { display:flex; align-items:center; gap:14px; cursor:pointer; -webkit-tap-highlight-color:transparent; }
-.rev-src { margin-left:auto; display:inline-flex; align-items:center; gap:6px; flex-shrink:0;
+.rev-src { margin-left:auto; display:inline-flex; align-items:center; gap:5px; flex-shrink:0;
+  white-space:nowrap;
   font-size:10px; font-weight:600; color:var(--space); line-height:1; }
-.rev-src img { height:15px; width:auto; display:block; position:relative; top:2.5px; }
+.rev-src img { height:14px; width:auto; display:block; position:relative; top:2.5px; }
+/* le logo Ulta est plus haut que large par rapport à celui d'Amazon : on l'aligne à l'œil */
+.rev-src img.lg-ulta { height:17px; top:0; }
 .rev-chev { width:32px; height:32px; border-radius:50%; flex-shrink:0;
   background:linear-gradient(180deg, rgba(255,255,255,0.7), rgba(255,255,255,0.45));
   border:1px solid rgba(255,255,255,0.75);
@@ -920,7 +923,7 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
           <span class="rev-stars" id="d-avis-etoiles"></span>
           <p class="rev-count" id="d-avis-n"></p>
         </div>
-        <span class="rev-src">by <img src="amazon.svg" alt="Amazon"></span>
+        <span class="rev-src" id="d-avis-src-logo">Smart reviews with <img src="amazon.svg" alt="Amazon"></span>
         <span class="rev-chev"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5.2L7 9.2l4-4"></path></svg></span>
       </label>
       <div class="rev-body"><div>
@@ -1014,7 +1017,7 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
         <div id="ar-liste"></div>
         <button class="ar-more" type="button" id="ar-plus" hidden>Load 20 more</button>
       </div>
-      <p class="ar-src">Collected from Amazon. Every written review we have.</p>
+      <p class="ar-src" id="ar-src">Every written review we have.</p>
     </div>
   </div>
 
@@ -1259,7 +1262,7 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     }
     afficher("perso");
     mieuxPourToi(p, pe);
-    avisClients(d.avis, d.produit && d.produit.asin);
+    avisClients(d.avis, d.produit && (d.produit.ref || d.produit.asin));
   }
 
   // Avis RÉELS d'acheteurs. Rien d'inventé : pas de données, pas de bloc. Et rien qui ne la
@@ -1279,7 +1282,13 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     if (!a) return;
     _asinCourant = asin || null;
 
-    document.getElementById("d-avis-note").textContent = a.note != null ? a.note : "—";
+    // la source est affichée telle qu'elle est : écrire « amazon » sur des avis Ulta serait faux
+    document.getElementById("d-avis-src-logo").innerHTML = "Smart reviews with "
+      + (a.source === "ulta" ? '<img class="lg-ulta" src="ulta.png" alt="Ulta Beauty">'
+                             : '<img src="amazon.svg" alt="Amazon">');
+
+    document.getElementById("d-avis-note").textContent =
+      a.note != null ? (Math.round(a.note * 10) / 10).toFixed(1) : "—";
     document.getElementById("d-avis-etoiles").innerHTML = a.note != null ? etoiles(a.note) : "";
     document.getElementById("d-avis-n").innerHTML =
       a.nbAvis != null ? "<b>" + Number(a.nbAvis).toLocaleString("en-US") + "</b> global ratings" : "";
@@ -1318,7 +1327,7 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
 
     document.getElementById("d-avis-extraits").innerHTML = (a.extraits || []).map(function(r){
       return '<div class="rev"><div class="rev-row"><span class="rev-name">' + ech(r.auteur || "Verified buyer")
-        + (r.verifie ? '<span class="rev-vf">· verified</span>' : '')
+        + (a.verifiable && r.verifie ? '<span class="rev-vf">· verified</span>' : '')
         + '</span><span class="rev-rate">' + etoiles(r.note) + '</span></div>'
         + '<p class="rev-txt">' + ech(String(r.texte || "").slice(0, 260)) + '…</p></div>';
     }).join("");
@@ -1333,7 +1342,8 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     // on annonce exactement ce qui a été lu, et la réserve du modèle quand l'échantillon est mince
     document.getElementById("d-avis-src").textContent =
       (a.reserve ? a.reserve + " " : "")
-      + (a.collectes ? "Read from a balanced sample of the " + a.collectes + " written reviews collected on Amazon." : "");
+      + (a.collectes ? "Read from a balanced sample of the " + a.collectes
+          + " written reviews collected on " + (a.source === "ulta" ? "Ulta" : "Amazon") + "." : "");
 
     document.getElementById("d-avis").hidden = false;
   }
@@ -1361,17 +1371,20 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
   function arCharger(depuis) {
     var btn = document.getElementById("ar-plus");
     btn.disabled = true;
-    fetch("/api/produit/avis?asin=" + encodeURIComponent(_asinCourant) + "&depuis=" + depuis)
+    fetch("/api/produit/avis?ref=" + encodeURIComponent(_asinCourant) + "&depuis=" + depuis)
       .then(function(r){ return r.ok ? r.json() : null; })
       .then(function(d){
         btn.disabled = false;
         if (!d || !d.avis) { btn.hidden = true; return; }
         if (depuis === 0) {
-          document.getElementById("ar-note").textContent = d.note != null ? d.note : "—";
+          document.getElementById("ar-note").textContent =
+            d.note != null ? (Math.round(d.note * 10) / 10).toFixed(1) : "—";
           document.getElementById("ar-nb").textContent =
             d.nbAvis != null ? Number(d.nbAvis).toLocaleString("en-US") + " ratings" : "";
           document.getElementById("ar-count").textContent =
             d.total + " written reviews · most helpful first";
+          document.getElementById("ar-src").textContent =
+            "Collected from " + (d.source === "ulta" ? "Ulta" : "Amazon") + ". Every written review we have.";
           var t = d.distribution || {}, cles = ["five_star","four_star","three_star","two_star","one_star"];
           var tot = cles.reduce(function(a, k){ return a + (Number(t[k]) || 0); }, 0);
           document.getElementById("ar-dist").innerHTML = tot ? cles.map(function(k, i){

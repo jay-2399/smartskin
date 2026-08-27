@@ -3,7 +3,7 @@ import {
   catalogue, dictionnaire, profil, moteurDisponible,
   scoreFormule, scorePerso, ficheIngredients, type Produit,
 } from "@/lib/scan/moteur";
-import { avisPour } from "@/lib/scan/avis";
+import { avisPour, pidUlta } from "@/lib/scan/avis";
 
 // Fiche d'un produit du CATALOGUE : identité + les deux notes + le détail des ingrédients.
 // Lecture seule, aucune écriture en base, aucun appel réseau — donc rien qui puisse traîner.
@@ -36,7 +36,7 @@ export async function GET(request: Request) {
     const f = scoreFormule(p.inci || "", p.category, p.filtresUV);
     const pe = scorePerso(p.inci || "", pr, p.category, f, p.filtresUV);
     return NextResponse.json({
-      produit: { nom: p.name, marque: p.brand, image: p.image, categorie: p.category, inci: p.inci, asin: p.asin },
+      produit: { nom: p.name, marque: p.brand, image: p.image, categorie: p.category, inci: p.inci, asin: p.asin, ref: p.asin || pidUlta(p.url) },
       score: { disponible: moteurDisponible(), formule: f, perso: pe },
       ingredients: ficheIngredients(p.inci || "", dictionnaire(), pr),
       // `null` quand on n'a rien à dire À ELLE sur ce produit : l'écran n'affiche alors rien

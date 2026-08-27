@@ -1,0 +1,37 @@
+{
+ "pid": "pimprod2053111",
+ "asin": null,
+ "nom": "Mario Badescu Advanced Collagen Hydrogel Mask",
+ "categorie": "mask",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/advanced-collagen-hydrogel-mask-pimprod2053111",
+ "note": 5,
+ "nbAvis": 2,
+ "distribution": {
+  "one_star": 0,
+  "two_star": 0,
+  "three_star": 0,
+  "four_star": 0,
+  "five_star": 2
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Mel",
+   "titre": "Calming mask",
+   "texte": "This mask feels so luxurious and calmed my skin. My skin felt so hydrated and soft after. I will definitely repurchase.",
+   "date": "2026-03-28",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Randi B",
+   "titre": "Love this mask!",
+   "texte": "Finally found a mask thay forms to my face and fits well! So hydrating and leaces my skin glowing! Also love that its fragrance free!",
+   "date": "2025-12-31",
+   "verifie": false,
+   "utiles": 17
+  }
+ ]
+}

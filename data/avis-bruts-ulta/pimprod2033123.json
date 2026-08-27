@@ -1,0 +1,910 @@
+{
+ "pid": "pimprod2033123",
+ "asin": null,
+ "nom": "Clinique Smart Clinical Repair Wrinkle Correcting Face Cream",
+ "categorie": "moisturizer",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/smart-clinical-repair-wrinkle-correcting-face-cream-pimprod2033123",
+ "note": 4.43,
+ "nbAvis": 2325,
+ "distribution": {
+  "one_star": 61,
+  "two_star": 33,
+  "three_star": 189,
+  "four_star": 611,
+  "five_star": 1431
+ },
+ "avis": [
+  {
+   "note": 4,
+   "auteur": "Macy206",
+   "titre": "Great Base Moisturizer",
+   "texte": "I received this product for free from Clinique for testing and review purposes. I really like the simple packaging, especially that it comes in a glass container. Overall, the cream feels very moisturizing and absorbs well into my skin. I use it both morning and evening. It does leave a very slight greasy residue, but it's minimal and doesn't bother me much. I also appreciate that it's fragrance-free, which makes it great for my sensitive skin. I've been using it alongside my retinol cream, and it does a great job of keeping my skin moisturized and preventing dryness. However, I haven't noticed any significant difference in my skin from using this particular PDRN moisturizer compared with other moisturizers I've used. While I like it as a moisturizer, I'm not sure the PDRN provides any noticeable additional benefits for my skin.",
+   "date": "2026-08-10",
+   "verifie": false,
+   "utiles": 4
+  },
+  {
+   "note": 3,
+   "auteur": "Shanda",
+   "titre": "I want to love it, but it doesn't love my skin",
+   "texte": "I was looking for a new peptide moisturizer. I was recommended this product. Overnight I could see how very hydrating it was and plumping, but I noticed it started to break me out. I tried to give it another try but I woke up with yet another blemish. Unfortunately, no I have to pass.",
+   "date": "2026-08-04",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "ToT",
+   "titre": "Best night creme ever",
+   "texte": "Clinique is always at the top of its game in skincare. This night creme is not sting to my sensitive skin, making me face look and feel good in the morning.",
+   "date": "2026-07-12",
+   "verifie": false,
+   "utiles": 4
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda",
+   "titre": "Exceptional product",
+   "texte": "This is one of my favorite facial products. It goes on lightly and has no noticeable fragrance to it.",
+   "date": "2026-07-10",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Kim",
+   "titre": "I would buy it again.",
+   "texte": "I would buy the product again, but it is very pricey. It would be nice to get itvat more of a discount",
+   "date": "2026-06-21",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Joan",
+   "titre": "No",
+   "texte": "Sorry to say I had a very negative reaction. I did mention I have sensitive skin, but I have used Clinique products in the past with no issues. However, the store and staff are welcoming and attentive.",
+   "date": "2026-05-20",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "CW7",
+   "titre": "Smooths my wrinkles",
+   "texte": "This wrinkle repair cream is silky smooth and lightweight. It smooths wrinkles and makes my skin look better, younger and also healthier.",
+   "date": "2026-05-04",
+   "verifie": false,
+   "utiles": 7
+  },
+  {
+   "note": 5,
+   "auteur": "Diana",
+   "titre": "I have been using this product for many years.",
+   "texte": "Have tried various face creams intermittently, but t prefer Clinique's Smart Clinical Repair. After using this cream for many years, I highly recommend it to every woman concerned with what harm aging can do to your skin. People are amazed when they learn my age.",
+   "date": "2026-04-29",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Lynn",
+   "titre": "I will buy this product again and again",
+   "texte": "Love Clingue's products. NOT allergic. Does not break me out as other products do.",
+   "date": "2026-04-15",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Patricia",
+   "titre": "I buy this product again and again",
+   "texte": "Love the creamy rich feel of this moisturizer. I use it at night as part of my daily routine.",
+   "date": "2026-03-14",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Angela",
+   "titre": "I would definitely recommend",
+   "texte": "This works great even if you have very sensitive skin. I would recommend using this product.",
+   "date": "2026-02-28",
+   "verifie": false,
+   "utiles": 5
+  },
+  {
+   "note": 5,
+   "auteur": "Lindamarie",
+   "titre": "Love, love, love this product",
+   "texte": "The very best as soon as I start getting low I order. Really don't want to ever be out, its that good.",
+   "date": "2026-02-26",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "Bibliogatta",
+   "titre": "My skin looks fab",
+   "texte": "I received this as a gift and I fully expected to not like it because my acne prone skin hates thick creams. I was wildly surprised to love it, even after one night my skin looked refreshed and glowing. This is a keeper!",
+   "date": "2026-02-20",
+   "verifie": false,
+   "utiles": 19
+  },
+  {
+   "note": 5,
+   "auteur": "Jillian8",
+   "titre": "Makes my skin soft and smooth",
+   "texte": "Despite its thick, rich texture, this moisturizer doesn't break me out even when I use it twice a day. It leaves my skin soft and smooth, with a healthy glow. I think it is helping to soften fine lines :)",
+   "date": "2026-02-03",
+   "verifie": false,
+   "utiles": 16
+  },
+  {
+   "note": 5,
+   "auteur": "Erin",
+   "titre": "Love love",
+   "texte": "I bought this to help with early fine lines and ive been using for 6 months and can definitley tell a difference. It is very hydrating. I do switch this on and off with a retinol though, as this does not have any. Its very hydrating and the container has lasted me a good amount of time which is good since its so expensive. It lasts me about 2-3 months. I do have sensitive skin so when my skin is irritated or dry i cant use this and must use something gentler.",
+   "date": "2026-02-01",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Armine",
+   "titre": "The best one I've tried",
+   "texte": "It really helps to prevent, if you already have wrinkles, I guess it will be more difficult. As well as it is lightweight, antiaging creams are usually heavy ones",
+   "date": "2026-01-06",
+   "verifie": false,
+   "utiles": 13
+  },
+  {
+   "note": 1,
+   "auteur": "Jaz",
+   "titre": "No difference",
+   "texte": "Used entire jar, as recommended. Saw zero difference. So sad.",
+   "date": "2025-12-27",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Judith",
+   "titre": "I will,probably repurchase at some later date",
+   "texte": "It may not help the lines and aging affects on my fqc3 but the cream makes my face feel smooth, youthful and healthy. It may not be so but it feels good",
+   "date": "2025-12-21",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 1,
+   "auteur": "Naynan",
+   "titre": "Sunburn like reaction. Rosacea-like symptoms. EVEN flushing!",
+   "texte": "I thought this was a great product and that the flushing on the neck and breakouts on the apple of my cheeks was due to rosacea. Nope. It was this cream. Under the sun with this cream it is even worse. Tricky part: not all my face was burning nor breaking out. And burning is not immediately after applying! I stopped using this cream and my face is on its way to recovery. So, be aware. I read another comment stating kind of the same situation. I was actually going to reoder, but was curious about the 1 star reviews and finding \"that especific comment\" put an end to my nightmare.",
+   "date": "2025-12-17",
+   "verifie": false,
+   "utiles": 6
+  },
+  {
+   "note": 1,
+   "auteur": "Nay",
+   "titre": "Finally figured out this was causing my issues!",
+   "texte": "I was going to reorder this product, but I was curious about the 1 star reviews and someone mentioned experiencing the same issues as me. Looking back at the date I started using this product \"THE RICH CREAM\" and doing the math I realized that this product causes rosacea-like symptoms. I was even flushing and sensitive to heat. Expose to the sun with this cream on was cooking my skin. Yes, I'm beating myself up, because I was actually thinking the whole time that this cream was helping me keep my skin moisturized at least. Here is the tricky part: not all my face broke out, felt hot or uncomfortable. My forehead, chin and nose were normal and moisturized by this cream. All symptoms were strong on the apple of the cheek (malar fat pad). Therefore, my dermatologist told me it was just rosacea. Another tricky part; I didn't feel any stinging or burning immediately after applying. The symptoms were triggered with heat and moist. I can reasurre that the issue was this cream. I put it to test. I rarely leave reviews these days, but this whole situation was a nightmare to me and I hope I can help others.",
+   "date": "2025-12-13",
+   "verifie": false,
+   "utiles": 5
+  },
+  {
+   "note": 5,
+   "auteur": "Dagney",
+   "titre": "Love it",
+   "texte": "This goes so smooth on my skin. I can see the difference on my neck after a week",
+   "date": "2025-11-18",
+   "verifie": false,
+   "utiles": 13
+  },
+  {
+   "note": 1,
+   "auteur": "Bross",
+   "titre": "Too thick and peels up",
+   "texte": "I wanted this to be good as I use Clinique daily moisterizer. Its hard to rub into your skin and peels up. Feels gross! Glad I biught the smallest size! Waste of money!",
+   "date": "2025-11-15",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 1,
+   "auteur": "Momoftwo",
+   "titre": "Ineffective",
+   "texte": "I have been using the Smart Clinical Repair Cream for a month and wrinkles and loss of elasticity are worse. Completely ineffective.",
+   "date": "2025-10-29",
+   "verifie": false,
+   "utiles": 24
+  },
+  {
+   "note": 5,
+   "auteur": "Cheryl",
+   "titre": "I really like this products creamy feeling.",
+   "texte": "I haven't had it long enough to see if it helps wrinkles but I do really like the feeling of it. I definitely will buy again",
+   "date": "2025-10-25",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Kerry",
+   "titre": "So good",
+   "texte": "This has made a noticeable difference in my fine lines and skin texture. Absorbs well, and feels good on the skin. The price point is good, a little goes a long way. Definitely a staple product for my skin care routine.",
+   "date": "2025-08-22",
+   "verifie": false,
+   "utiles": 5
+  },
+  {
+   "note": 5,
+   "auteur": "Melanie",
+   "titre": "Great as always",
+   "texte": "This is a wonderful face cream. It leaves my face feeling so soft.",
+   "date": "2025-08-04",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Margo",
+   "titre": "Clinique",
+   "texte": "Love Clinique, great for mature skin, love Ulta they have everything you need!",
+   "date": "2025-07-18",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Mec",
+   "titre": "Better than expected!!",
+   "texte": "Love their cleansing balm, absolutely the best. Been an \"it\" girl forever, figured I'd give it a try. Could tell a difference in just a couple days!",
+   "date": "2025-06-07",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Amy",
+   "titre": "Love this moisturizer",
+   "texte": "I love this moisturizer. I just feel it being absorbed into my skin. A little pricey but Ultas discount was great .",
+   "date": "2025-05-06",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Lori",
+   "titre": "Love Clinique Products",
+   "texte": "This rich cream offers extra moisture without being heavy. Feels great on skin. It really works on fine lines too. I use the clinical repair serum and eye cream also.",
+   "date": "2025-05-03",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "",
+   "titre": "Excellent",
+   "texte": "I'm in my 40's and I started noticing very fine lines on my forehead. I've been using this for about 3 weeks and the wrinkles have diminished…I love this product. I haven't used Clinique in years and I decided to try it again after using a lot of the newer skin care lines. Thank goodness I decided to go back…CLINIQUE IS THE G.O.A.T.",
+   "date": "2025-04-10",
+   "verifie": false,
+   "utiles": 6
+  },
+  {
+   "note": 5,
+   "auteur": "Altagracia",
+   "titre": "Younger",
+   "texte": "Getting to look younger, lots of compliments about how my skin looks!",
+   "date": "2025-03-14",
+   "verifie": false,
+   "utiles": 10
+  },
+  {
+   "note": 2,
+   "auteur": "Reni",
+   "titre": "Does not rub in well",
+   "texte": "I am older and thought this product would be great for me. It just doesn't rub in very well so you have white stuff on your face. I would not recommend",
+   "date": "2025-03-05",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Marcy",
+   "titre": "Sticky and tacky",
+   "texte": "I have been using Clinique skin care since the early 90's. This new line is not the same. This particular moisturizer feels sticky and doesn't absorb correctly. It leaves the skin feeling tacky. I cannot believe that I wasted my money on this. Bring back the older moisturizers. So disappointed by this product.",
+   "date": "2025-02-12",
+   "verifie": false,
+   "utiles": 23
+  },
+  {
+   "note": 5,
+   "auteur": "shelly",
+   "titre": "I look younger!",
+   "texte": "made my skin feel hydrated balanced smooth healthy looking skin",
+   "date": "2025-01-24",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 3,
+   "auteur": "Jess",
+   "titre": "Better before still good",
+   "texte": "I still like this product, its gentle and feels good, non greasy, light. If you have really sensitive skin this might be it.. but Before they changed the packaging i swear the product was better, it made my skin looker younger, hydrated, and would clear my skin.",
+   "date": "2025-01-04",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa",
+   "titre": "I'm started this moisturizer about 2 months ago and I'm hook",
+   "texte": "I moved here from Texas and this moisturizer is the only cream I use in this cold weather.",
+   "date": "2025-01-03",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "CrystalJules",
+   "titre": "Makes My Skin Glow",
+   "texte": "I have been using Clinique Smart Clinical Repair Wrinkle Correcting Cream for more than a year and I love how my complexion looks. I have received compliments about how my complexion looks from strangers!",
+   "date": "2024-12-24",
+   "verifie": false,
+   "utiles": 16
+  },
+  {
+   "note": 5,
+   "auteur": "Sharon",
+   "titre": "Love the moisturizer but no miracles with the wrinkles",
+   "texte": "This is a great moisturizer but unfortunately there's no change in wrinkles",
+   "date": "2024-12-24",
+   "verifie": false,
+   "utiles": 6
+  },
+  {
+   "note": 2,
+   "auteur": "Renee",
+   "titre": "Why does everyone keep changing their products?",
+   "texte": "I used to love Clinique and this moisturizer was great, but they changed something and it now gives me acne.",
+   "date": "2024-12-23",
+   "verifie": false,
+   "utiles": 7
+  },
+  {
+   "note": 5,
+   "auteur": "Lisa",
+   "titre": "Makes my skin look fresh.",
+   "texte": "Can't tell much about this product as I use it rarely, but when I use it I don't feel my wrinkles vanished. Mostly my skin is moisturized but the wrinkles don't go. But I like this product.",
+   "date": "2024-12-12",
+   "verifie": false,
+   "utiles": 13
+  },
+  {
+   "note": 2,
+   "auteur": "Lynne",
+   "titre": "Smart Clinical Repair",
+   "texte": "Please bring back the old custom moisturizer, I used it for years and loved that cream. This new cream is greasy and heavy and does not go into the skin well. It even gets the hair on my forehead greasy causing me to have to shampoo more often. My skin often breaks out after using it and I never had that problem with the old cream. I am a senior with very dry skin, I need a good overnight moisturizer. I'll have to seek out another companies product until you offer something much better.",
+   "date": "2024-11-23",
+   "verifie": false,
+   "utiles": 37
+  },
+  {
+   "note": 5,
+   "auteur": "P",
+   "titre": "Game changer !",
+   "texte": "I've been using this for the past few months and my skin has never been better- Great cream that moisturizes without being greasy, absorbs fully into skin . i have very dry skin and it works wonders !",
+   "date": "2024-11-22",
+   "verifie": false,
+   "utiles": 4
+  },
+  {
+   "note": 5,
+   "auteur": "Amy",
+   "titre": "I am sticking with this moisturizer",
+   "texte": "I love this moisturizer for aging skin. It makes skin brighter, soft, and silky. My fine lines at my mouth already look better. I had been using a retinoid based cream but it was burning my skin, not this stuff though. It's a bit pricey but I highly recommend it!",
+   "date": "2024-11-05",
+   "verifie": false,
+   "utiles": 5
+  },
+  {
+   "note": 1,
+   "auteur": "Cher",
+   "titre": "Harsh On Skin",
+   "texte": "I've used Clinique all my life, at 76 I never thought it would reck my skin like it did! Red patches all over my face!",
+   "date": "2024-10-30",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Amy1980",
+   "titre": "Leaves Skin Soft and Smooth",
+   "texte": "I have fine lines on one side of my mouth and I have tried other wrinkle reducing moisturizers that helped but they were harsh on my skin. It felt like my skin was getting burnt and it would turn red. I also have very dry skin and in the summer combination skin. This product is going to be my keeper. It doesn't burn my skin, it makes it soft and silky, fine lines at my mouth are diminishing, does not make my skin oily, and does not burn it or cause redness. I highly recommend this product to anyone who cannot handle retinol and has sensitive skin.",
+   "date": "2024-10-28",
+   "verifie": false,
+   "utiles": 16
+  },
+  {
+   "note": 5,
+   "auteur": "shelly",
+   "titre": "makes skin feel comfortable",
+   "texte": "love how this makes my skin feel comfortable and plumped hydrated skin. never felt better",
+   "date": "2024-10-26",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 2,
+   "auteur": "PamperMySkin",
+   "titre": "Breakouts with rash when used with Wrinkle Correcting Serum",
+   "texte": "I started with applying the wrinkle correcting cream around the mouth and the chin where the lines are deep. I was fine with this cream until I started using the wrinkle correcting serum with the cream. After about a week, I began to have rashes and burning sensation as soon as I applied the cream. I then stopped using the wrinkle correcting cream but continued to use the wrinkle correcting serum. My skin returned to normal. I guess too much of a good thing (wrinkle correcting serum + wrinkle correcting cream) does not work for my skin. I have no problem in using the wrinkle correcting serum with the lifting face + neck cream.",
+   "date": "2024-10-23",
+   "verifie": false,
+   "utiles": 11
+  },
+  {
+   "note": 1,
+   "auteur": "Sarah",
+   "titre": "Breakouts",
+   "texte": "Any time I try to use this cream, I wake up with red bumps all over my face. It's not itchy so it doesn't feel like a rash, and I tried ignoring it for a couple of weeks hoping it was just my skin acclimating to the new ingredients. But I haven't broken out like this since before starting to use Clinique 17 years ago and refuse to be ok with breakouts now! I stopped using it and my skin cleared back up instantly, like within two days.",
+   "date": "2024-09-10",
+   "verifie": false,
+   "utiles": 27
+  },
+  {
+   "note": 5,
+   "auteur": "Maria",
+   "titre": "Makes my skin feel amazing!",
+   "texte": "Product makes my skin feel smoother and healthier. Great product and highly recommend.",
+   "date": "2024-08-22",
+   "verifie": false,
+   "utiles": 10
+  },
+  {
+   "note": 5,
+   "auteur": "Jamie",
+   "titre": "THE ONE!",
+   "texte": "I've tried numerous skincare products over the years, but the Clinique Smart Clinical Repair line stands out like nothing else. The potency of the formula is remarkable, and the speed at which I noticed results was truly amazing. Within a short period, my skin felt smoother, firmer, and more rejuvenated. It's evident that this product is designed with high-quality ingredients that actually work. If you're looking for something that delivers visible results quickly, I highly recommend giving this a try!",
+   "date": "2024-08-21",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "Courmeg",
+   "titre": "Very effective and works after days of application",
+   "texte": "Fragrance free, smooth, and effective cream. Beautifully packaged. After a week of using this overnight repair cream, I have seen a wonderful noticeable change. My skin is smoother, brighter, firmer, and the fine lines are less noticeable.",
+   "date": "2024-07-23",
+   "verifie": false,
+   "utiles": 7
+  },
+  {
+   "note": 4,
+   "auteur": "Nubian",
+   "titre": "Bye, bye wrinkles",
+   "texte": "Received a complementary sample of Clinique smart clinical repair cream. I used the product for a few days before reviewing. This product had left my skin feeling hydrated, soft and smooth. There is also practically no scent which I also love.",
+   "date": "2024-07-15",
+   "verifie": false,
+   "utiles": 12
+  },
+  {
+   "note": 5,
+   "auteur": "Di",
+   "titre": "Fantastic",
+   "texte": "I'm 72yrs young I have very little wrinkles for my age good genes yet I can tell you I've been using Clinique products for over 50 years an this smart clinical repair is phenomenal skin is so very smooth and soft primer goes on incredibly easy no drag it's the best so far especially in humid summer weather will continue to use til fall and switch to moisture barrier surge this stuff really works for me",
+   "date": "2024-06-25",
+   "verifie": false,
+   "utiles": 19
+  },
+  {
+   "note": 5,
+   "auteur": "EE",
+   "titre": "wonderfull",
+   "texte": "I just try this for the first time and works wonderful for small wrinkles. I have been using for over 6 years the \"all about eyes eye cream\" which has been great too with my very dark circles , but this one is better for the wrinkles I am starting to show",
+   "date": "2024-06-18",
+   "verifie": false,
+   "utiles": 11
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley",
+   "titre": "Wonderful Cream",
+   "texte": "Lovely cream. Feels very hydrating without the heavy feeling of some wrinkle cream. My lines have smoothed and texture is reduced. Highly recommend!",
+   "date": "2024-06-18",
+   "verifie": false,
+   "utiles": 9
+  },
+  {
+   "note": 5,
+   "auteur": "Ccass2379",
+   "titre": "Great face cream for wrinkles",
+   "texte": "I absolutely love this face cream it makes my face so soft and smooth. Defently helps with my fine lines and wrinkles.. Will purchase again !",
+   "date": "2024-06-11",
+   "verifie": false,
+   "utiles": 11
+  },
+  {
+   "note": 1,
+   "auteur": "Parand",
+   "titre": "Very disappointed",
+   "texte": "Unfortunately, didn't live up to expectations. Despite being marketed for various skin types, it proved problematic for my combination oily skin. Every time I used it, instead of addressing the first signs of aging, I found myself dealing with frequent breakouts and acne flare-ups. If you're looking to avoid breakouts and maintain a balanced complexion, I'd recommend exploring other options instead.",
+   "date": "2024-06-03",
+   "verifie": false,
+   "utiles": 14
+  },
+  {
+   "note": 5,
+   "auteur": "Kenny",
+   "titre": "Great Wrinkle Reducing Product",
+   "texte": "I use this product along with the wrinkle reducing serum and feel that this combination has been very beneficial to my skin, which looks far younger than my age.",
+   "date": "2024-05-26",
+   "verifie": true,
+   "utiles": 3
+  },
+  {
+   "note": 1,
+   "auteur": "ML",
+   "titre": "Very disappointed",
+   "texte": "Does not hydrate and very hard to apply. Bring back Smart Night.",
+   "date": "2024-05-09",
+   "verifie": false,
+   "utiles": 12
+  },
+  {
+   "note": 1,
+   "auteur": "MomR2",
+   "titre": "Was a good product",
+   "texte": "I have used the Smart Night line for years. I always went back to it and my skin looked great. I don't know what they did to this product, but it has made by skin break out with a terrible allergic reaction. This formula is NO good. I will be returning this.",
+   "date": "2024-05-03",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 1,
+   "auteur": "Ben",
+   "titre": "Sits on skin",
+   "texte": "Clinique really missed the mark on this one, it's completely unbalanced with too much Occlusives that prevent the cream to be absorbed instead it just sits on your skin making it greasy and pore clogging, get ready for milia and breakouts",
+   "date": "2024-05-01",
+   "verifie": false,
+   "utiles": 12
+  },
+  {
+   "note": 5,
+   "auteur": "Rere",
+   "titre": "Good product",
+   "texte": "It's a great product but after using for a week I thought it was my allergies then I realized it was this cream I was putting on my face. Yes I recommend it but I'm allergic to it.",
+   "date": "2024-04-26",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Sara",
+   "titre": "This actually works!",
+   "texte": "I am due for my Btx, however, I've been using this for 3 days and I can put it off. off. It plumps those vertical wrinkles that go down the side of my face. I don't know what is in this but it's kind of magical! works a lot faster than my tret",
+   "date": "2024-03-25",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Ashly",
+   "titre": "Highly recommend this product",
+   "texte": "I use this product every night after I wash my face. It has improved the texture of my skin tremendously! It's not too thick and goes on smoothly. I highly recommend this product!",
+   "date": "2024-03-11",
+   "verifie": true,
+   "utiles": 3
+  },
+  {
+   "note": 1,
+   "auteur": "AP61",
+   "titre": "Does not sink in skin",
+   "texte": "I've been using this product along with the serum & eye cream. The cream does not sink in the skin, actually feels sticky no matter how much you rub it in. In the morning my make up does not blend on top of this cream either. It blotches or rolls up and I have to wipe it off my face. I've had to use coconut cream before my foundation just to get it to set.",
+   "date": "2024-03-10",
+   "verifie": false,
+   "utiles": 21
+  },
+  {
+   "note": 1,
+   "auteur": "Liz",
+   "titre": "Horrible",
+   "texte": "I tried this product, even bought 2 of them thinking I could trust Clinique with my skin, and I really regretted it. First time I used it my skin broke out terribly. This is the first product in the 30+ years I've been using Clinique, that did that to my Irish skin. What a nightmare. Now, unable to find repairwear as it is always out of stock, I find myself not trusting Clinique to provide a product that would be safe dermatologically, which, by the way, was the founding principles of Clinique and the sole reason why I bought their products all these many years. Don't you test your products anymore?",
+   "date": "2024-03-03",
+   "verifie": false,
+   "utiles": 35
+  },
+  {
+   "note": 3,
+   "auteur": "Lori",
+   "titre": "Causes breakouts",
+   "texte": "I thought I'd try this along with the serum instead of my usual retinol product regimen. I'm sorry to say, it was a waste of money for me. Within 2 days my face began to break out like a teenager... which hasn't happened to me in over 40 years. It leaves a bit of a greasy feeling to it. Maybe good for some but not me.",
+   "date": "2024-03-03",
+   "verifie": false,
+   "utiles": 3
+  },
+  {
+   "note": 1,
+   "auteur": "Nancy",
+   "titre": "Leave well enough alone",
+   "texte": "I tried both the daytime with an spf and the nighttime. I found the daytime very thick and difficult to use. Both of them irritated my skin so I ended up returning them. I'm afraid that Clinique has lost me as a customer at least for moisturizer.",
+   "date": "2024-02-19",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "Vandermeer",
+   "titre": "Does not melt into skin like other creams do",
+   "texte": "Not impressed by another NEW treatment for wrinkles. This cream sits on top of the skin and does not seem to sink into my face like others. After using it... it feels dry. Same for the eye cream. Why not give less freebies and upgrade Clinique's products and reduce prices. Not impressed by this and I have been using Clinique for decades.",
+   "date": "2024-02-18",
+   "verifie": false,
+   "utiles": 28
+  },
+  {
+   "note": 4,
+   "auteur": "Mar Garcia Tang-Petersen",
+   "titre": "Great PM cream!",
+   "texte": "Got this one as a sample and started using it right away. Texture is thick but not greasy, which I love in a night cream. The next morning your skin still feels hydrated and smooth. This is definitely a keeper for me. I highly recommend it!",
+   "date": "2024-02-02",
+   "verifie": false,
+   "utiles": 23
+  },
+  {
+   "note": 5,
+   "auteur": "Azali",
+   "titre": "Amazing Product",
+   "texte": "It results in a more youthful appearance by increasing skin texture and decreasing wrinkles.",
+   "date": "2024-01-24",
+   "verifie": false,
+   "utiles": 20
+  },
+  {
+   "note": 1,
+   "auteur": "Sandy",
+   "titre": "White Bumps",
+   "texte": "I am so glad I read these reviews because after changing to this product from Repairwear, I too have noticed the white bumps. It is only now that I can relate them to this product. I will no longer be using it. I may have to go to any company for my skin care which is very, very disappointing to me.",
+   "date": "2024-01-16",
+   "verifie": false,
+   "utiles": 27
+  },
+  {
+   "note": 1,
+   "auteur": "Mimi170",
+   "titre": "Beware, causes breakouts and roseacea flare up....",
+   "texte": "I'm so disappointed as Clinique discontinued the Smart Night and Day that I used for years and had no trouble. I have this serum which caused under skin breakouts along with roseacea flare ups. On a Clinique chat, the rep said that wouldn't happen with this but after three days, my skin was a mess. For the price, I hope I can exchange as it was a requested Christmas gift as it was recommended my Clinique when knowing my skin issues. Again, so disappointed!",
+   "date": "2024-01-14",
+   "verifie": false,
+   "utiles": 24
+  },
+  {
+   "note": 3,
+   "auteur": "Not worth it",
+   "titre": "Blah product",
+   "texte": "I dont look hydrated in the morning and if i get it close to the outside of my eyes, it will make my eye area irritated and dry. It caused my skin at the outside tempke area of my eye, crack and become painful and sensitive.",
+   "date": "2024-01-02",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "Marie0641",
+   "titre": "Breakouts",
+   "texte": "I actually came across the reviews for this product unintentionally. I originally came here to reorder this product; however, I am glad I read the reviews first. I clearly like this product enough to reorder it, but I can confirm as well that this product has caused my face to break out worse than it ever has in my life at 38 years of age. I have been trying for months to figure out what has been irritating my skin. After reading the reviews and doing the math, the breakouts started after I started using the product.",
+   "date": "2023-12-07",
+   "verifie": false,
+   "utiles": 23
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer",
+   "titre": "I will buy this again and again!",
+   "texte": "This is so thick and creamy, yet soaks in and your face feels smooth and hydrated! No greasy feel at all! Love this product!",
+   "date": "2023-11-16",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 1,
+   "auteur": "Kim",
+   "titre": "Skin breaking out",
+   "texte": "Have been using Clinique since my 20s - now in my 50s - sensitive skin with no issues. Used the Smart Night and Smart Day for years and loved them. For some reason they are discontinued and consultant recommended this - horrible experience with red bumps and white pimples all over my face. Bring back the old Smart Day with sunscreen and Smart Night. Now I need to find another brand for my sensitive skin.",
+   "date": "2023-11-05",
+   "verifie": false,
+   "utiles": 87
+  },
+  {
+   "note": 5,
+   "auteur": "GGD",
+   "titre": "Smoother, Retexturized & Hydrated Skin",
+   "texte": "This is an amazing de-aging day/night cream! Reversing signs of aging you already see ✨Will be repurchasing!",
+   "date": "2023-10-30",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Clinique lover",
+   "titre": "It's amazing",
+   "texte": "It's amazing i love the texture and its the only cream that doesnt make me breakout. I can't believe this has such bad reviews its amazing for me.",
+   "date": "2023-10-27",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 1,
+   "auteur": "Mary June",
+   "titre": "Silicones!!",
+   "texte": "Why does Clinique use the cheap ingredient Dimethicone? It is a silicone that zaps the natural oil from your face and dies not allow your skin to properly soak it in. It just causes acne. Silicones are a cheap synthetic that Prestige companies use instead of glycerin or petrolatum. Probably to cut corners. Clinique has gotten really bad over the years. Especially for middle aged skin.",
+   "date": "2023-10-21",
+   "verifie": false,
+   "utiles": 12
+  },
+  {
+   "note": 1,
+   "auteur": "CY",
+   "titre": "Sensitive Skin Beware",
+   "texte": "Sensitive Skin Beware, I have extremely sensitive and dry skin. I have been using Clinique since my late teens. I am now 41. I have tried all types of skincare products and nothing works like Clinique. However, this particular Wrinkle repair cream was horrible. I used it at night before bed and woke up with the worst reaction. Red blotchy skin with bumps all over that were irritating. I have never had this type of reaction with Clinique products before. This was the first time. Just frustrating that I don't know what caused it. I called CS and sent it back.",
+   "date": "2023-10-17",
+   "verifie": false,
+   "utiles": 58
+  },
+  {
+   "note": 2,
+   "auteur": "Jbest",
+   "titre": "To strong for my sensitive skin",
+   "texte": "I used the old Smart Night cream for years, it was perfect for my skin and I received many Complaints. This is too harsh for my skin. I wish you would reconsider and bring the old Smart Night back.",
+   "date": "2023-09-30",
+   "verifie": false,
+   "utiles": 39
+  },
+  {
+   "note": 1,
+   "auteur": "Sandinmyshoes",
+   "titre": "Very disappointed",
+   "texte": "I tried a sample size of this cream. My skin is now breaking out like it hasn't in decades. I have a red spot on my face today. Something is very irritating in this cream. I trusted Clinique for oil free products for years. I don't think it's truly oil free. Please bring back Smart NightCream. That one was wonderful. I really don't know what to use now.",
+   "date": "2023-09-25",
+   "verifie": false,
+   "utiles": 39
+  },
+  {
+   "note": 1,
+   "auteur": "BEA",
+   "titre": "Skin sensitive to this product",
+   "texte": "Prior to purchasing I discussed this product with a Clinique Rep who recommended it because the Laser Focus serum was no longer available. The Clinique Smart Clinical Repair burns my skin and eyes. It does not feel like it is fragrance free. It is very thick and is NOTHING like the Laser Focus which was a great product. I waited to review this product hoping that I would feel differently, however I can only say I would NEVER purchase this again and I would like to see Laser Focus return. I suggest if you are thinking of purchasing this product, get a sample first.",
+   "date": "2023-09-15",
+   "verifie": false,
+   "utiles": 27
+  },
+  {
+   "note": 5,
+   "auteur": "HB",
+   "titre": "This product actually works as promised",
+   "texte": "I have tried many creams, including ones by other manufacturers that are reviewed very highly, and have generally seen lackluster results. THIS ONE ACTUALLY WORKS as claimed and I saw an immediate result after applying the product to my skin and neck. I tried the smallest size and have reordered more! Thank you, Clinique.",
+   "date": "2023-08-09",
+   "verifie": false,
+   "utiles": 20
+  },
+  {
+   "note": 1,
+   "auteur": "BGB",
+   "titre": "Review as a replacement to Smart Night",
+   "texte": "This is not a review of the product's effectiveness. It's a review of why they discontinued Smart Night Custom Repair Moisturizer and this is the replacement. This product costs 50% more than Smart Night which was effective for me. And they don't have a comparable product at a comparable cost. Price gouging. I refuse to buy this product based on that alone.",
+   "date": "2023-08-05",
+   "verifie": false,
+   "utiles": 9
+  },
+  {
+   "note": 2,
+   "auteur": "Lynn",
+   "titre": "Skin still very dry and dull.",
+   "texte": "I have used the serum, moisturizer and eye cream for several months now hoping to see an improvement in my skin but unfortunately it has not worked. I used the previous smart day and night moisturizer with much better results. I do not know what to use now. Have always been a loyal Clinique customer but don't know what to do at this point. Very unhappy with these products and my complexion!",
+   "date": "2023-08-03",
+   "verifie": false,
+   "utiles": 16
+  },
+  {
+   "note": 1,
+   "auteur": "Leslie",
+   "titre": "Really Miss the Smart Night Cream that was Discontinued!",
+   "texte": "Cannot believe this cream replaced the Smart Night Cream that I loved and used for years! This cream is heavy and almost sticky and does not glide smoothly onto my skin like the Smart Night did. I am sad Clinique discontinued Smart Night and replaced it with this. Will not be purchasing again.",
+   "date": "2023-06-02",
+   "verifie": false,
+   "utiles": 49
+  },
+  {
+   "note": 1,
+   "auteur": "Marley 89",
+   "titre": "Was great for my skin But..",
+   "texte": "I was actually allergic ti one of the ingredients. Made my throat feeling like it was closing and needed to take allergy medicine. I have used Clinique for over 20 years and never had a problem like this. My reaction was quite severe",
+   "date": "2023-05-21",
+   "verifie": false,
+   "utiles": 14
+  },
+  {
+   "note": 5,
+   "auteur": "Schnickerfritz",
+   "titre": "Lifting",
+   "texte": "I received a pretty good size sample of this and have since bought the full size. I repurchased just based on the fact that this cream felt so good in my routine and seem to be smoothing out my skin right away. I have very, very sensitive skin that is dry and so I can't really use a lot of products, but this works for me. I can see a lift after using it for about 3 weeks and my skin is smoother and most of the wrinkles are gone. I'm really shocked I did not think of cream could do that. I do use mostly Clinique products and have worked it into my routine, meaning this is not the only moisturizer from Clinique that I layer. It works very well in my routine, you might be able to get away with just using this moisturizer on its own, I live in a very dry desert climate so that's just not a possibility for me. Take advantage of the consultants that they have on their website to help you if you have questions.",
+   "date": "2023-05-19",
+   "verifie": false,
+   "utiles": 18
+  },
+  {
+   "note": 1,
+   "auteur": "Francesca",
+   "titre": "Miss the Regular Clinique Smart Night Cream",
+   "texte": "I tried this out because I've been searching for a replacement for the clinique smart night cream, which was amazing. This was overpriced and instead of focusing on hydration and ease of application (like the night cream) the consistency of this product just feels like it's layered onto your skin harshly. For anyone looking for a replacement for the night cream, I finally settled on Rhode barrier restore cream and it's pretty good!",
+   "date": "2023-05-10",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Barbara",
+   "titre": "Exactly what I need!",
+   "texte": "I received help from an associate selecting a Clinique product for my sensitive 70+ skin. This product is perfect; a richer night cream than my prior choice. I will definitely buy again.",
+   "date": "2023-05-02",
+   "verifie": true,
+   "utiles": 2
+  },
+  {
+   "note": 1,
+   "auteur": "BethL",
+   "titre": "My face is broken out like a teenager!",
+   "texte": "Long time and satisfied user of Clinique skin care and makeup. I recently got this wrinkle cream as a free sample and I'm glad I didn't actually pay for it. It is heavier than my usual night cream but after several days of use, my face started breaking out. First one side of my face, now both sides and my neck. My husband wanted to take me to the doctor this morning. It doesn't hurt but I look ridiculous. I will say that I think I applied too much the first couple of nights, as I didn't realize how much heavier it is than my usual Turnaround Overnight Revitalizing Moisturizer. I will be throwing the rest away.",
+   "date": "2023-04-26",
+   "verifie": false,
+   "utiles": 21
+  },
+  {
+   "note": 2,
+   "auteur": "RR",
+   "titre": "Bring back the old Clinique please!!!",
+   "texte": "Im in my sixties with combination skin and cant use spf! Miss the old smart night cream!!!",
+   "date": "2023-04-20",
+   "verifie": false,
+   "utiles": 5
+  },
+  {
+   "note": 3,
+   "auteur": "Sr",
+   "titre": "Undecided",
+   "texte": "I just started using this. It goes on nicely, not heavy but slightly more grease than I'm use to. Will keep trying for a few weeks.",
+   "date": "2023-04-16",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Kathy",
+   "titre": "LOVE THIS ONE!",
+   "texte": "A little goes a long way and it makes my face feel smooth and nourished! Fragrance free is a huge plus too!",
+   "date": "2023-04-11",
+   "verifie": true,
+   "utiles": 2
+  },
+  {
+   "note": 1,
+   "auteur": "Boochie",
+   "titre": "Burned my face",
+   "texte": "I am a long time buyer of Clinique products so I felt secure buying a new product. However shortly after application my face turned very red and was burning. What happened to your new product Smart Clinical line? Cant use it!",
+   "date": "2023-04-08",
+   "verifie": false,
+   "utiles": 33
+  },
+  {
+   "note": 5,
+   "auteur": "Johanna",
+   "titre": "Game changer!",
+   "texte": "This is a game changer! I am almost 50 with sun damaged skin and this has reduced the fine wrinkles around my eyes and cheeks with only one use! I haven't used Clinique in a long time because the hydration just wasn't there for me. This hits just right! Thanks Clinique!",
+   "date": "2023-04-01",
+   "verifie": false,
+   "utiles": 9
+  }
+ ]
+}

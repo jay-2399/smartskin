@@ -1,0 +1,37 @@
+{
+ "pid": "pimprod2054261",
+ "asin": null,
+ "nom": "MEDIHEAL Teatree Trouble Calming Cleanser",
+ "categorie": "cleanser",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/teatree-trouble-calming-cleanser-pimprod2054261",
+ "note": 3.67,
+ "nbAvis": 3,
+ "distribution": {
+  "one_star": 1,
+  "two_star": 0,
+  "three_star": 0,
+  "four_star": 0,
+  "five_star": 2
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Jordyn",
+   "titre": "Best I've Ever Had",
+   "texte": "Truly the best cleanser I've ever used. I'm on my third tube.",
+   "date": "2026-08-11",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Nyah",
+   "titre": "Really calming and a deep clean!",
+   "texte": "This was an unexpected love! It really does give a deep clean without overly stripping, and the tea tree does help for calming redness. It's especially nice as a second step in a double cleanse. Might not be great for dryer skin types, but if you're oily, definitely give it a try!",
+   "date": "2026-03-05",
+   "verifie": false,
+   "utiles": 6
+  }
+ ]
+}

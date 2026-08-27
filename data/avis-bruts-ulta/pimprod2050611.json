@@ -1,0 +1,658 @@
+{
+ "pid": "pimprod2050611",
+ "asin": null,
+ "nom": "RODAN + FIELDS Active Hydration Face Serum With Hyaluronic Acid",
+ "categorie": "serum",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/active-hydration-face-serum-with-hyaluronic-acid-pimprod2050611",
+ "note": 4.79,
+ "nbAvis": 13482,
+ "distribution": {
+  "one_star": 136,
+  "two_star": 124,
+  "three_star": 414,
+  "four_star": 1038,
+  "five_star": 11770
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "BabsNAz",
+   "titre": "The best skin hydrating serum!!!",
+   "texte": "This is Amazing! I literally felt like my face was drinking it in!",
+   "date": "2026-08-11",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Sara J",
+   "titre": "Active Hydration",
+   "texte": "I love using this in the morning before applying any other cream or serum. Hydration at its best!",
+   "date": "2026-04-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Eva G",
+   "titre": "Hydration with a Glow",
+   "texte": "I've tried several serums in the past and nothing compares to Active Hydration Serum. It's light weight, no strong scent and my skin feels hydrated all day.",
+   "date": "2026-04-18",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Patricia A",
+   "titre": "Amazing",
+   "texte": "This item had made a BIG difference in my complexion I less than three weeks. Love it!",
+   "date": "2026-04-15",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Kristin C",
+   "titre": "Hydration station",
+   "texte": "Love this. After a super cold dry winter my skin still looked great. So much hydration but not greasy",
+   "date": "2026-04-15",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 4,
+   "auteur": "Saisha K",
+   "titre": "Good stuff for dry skin",
+   "texte": "Gives my face the moisture it needs. Noticed softer skin after a week of using this twice a day.",
+   "date": "2026-04-15",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Anna H",
+   "titre": "Really Like it",
+   "texte": "Like the product, dont think its made a huge impact, but would use it again",
+   "date": "2026-04-14",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Lori L",
+   "titre": "Love hydration!",
+   "texte": "Don't know how I've done without this product! A vital part of my facial care! Love hydrating affects! My face feels supple and Dewey! Definitely part of why I do not look 60!",
+   "date": "2026-04-12",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Karen B",
+   "titre": "Fountain of Youth.",
+   "texte": "I have been using RODAN & FIELDS active hydration serum many many years, approximately 10 years. I never want to be without it! I apply it every morning first thing after freshening my skin, and frankly, I think it makes my skin look younger every year.",
+   "date": "2026-04-09",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Theresa O",
+   "titre": "Great results",
+   "texte": "My skin is super dry, and this serum has really moisturized it well. My skin looks fresher and dare I say a bit younger!",
+   "date": "2026-04-07",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 4,
+   "auteur": "Jackie L",
+   "titre": "The product enhances my moisturizer",
+   "texte": "The product enhances my moisturizer I use it daily in the winter.",
+   "date": "2026-04-06",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda F",
+   "titre": "Love my lashes!!",
+   "texte": "This is the product that made me a loyal R+F customer, and then consultant. I will never stop using it. I have never loved my lashes more!",
+   "date": "2026-04-05",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley H",
+   "titre": "Excellent product",
+   "texte": "I love using this serum every day, it keeps my skin feeling balanced and fresh and glowing!",
+   "date": "2026-04-03",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Kirstan B",
+   "titre": "So light. I have oily",
+   "texte": "So light. I have oily to dry skin, but I live in Colorado. So it's more of a combination skin type. This hydration helps my dry spots, but doesn't feel heavy at all. It seems to help my dry spots very well.",
+   "date": "2026-03-31",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Heidi O",
+   "titre": "Ultra moisturizing",
+   "texte": "Vastly improves overall moisture retention throughout the day and night.",
+   "date": "2026-03-30",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Molly B",
+   "titre": "One of my favorite products.",
+   "texte": "One of my favorite products. I like how it hydrates my skin. A consistent part of my skincare routine.",
+   "date": "2026-03-30",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "W S",
+   "titre": "Consultant",
+   "texte": "This is a Fabulous Product that Works!!! Use at night over Vitamin C and wake up with plump Glowing Skin. vitamin C Glow and Hydration Plumping! Worth Every Penny!!",
+   "date": "2026-03-28",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Victoria K",
+   "titre": "Active Hydration Serum",
+   "texte": "Beautiful light yet powerful serum. Wake up with a great morning glow!",
+   "date": "2026-03-28",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Mary J",
+   "titre": "Hydration Serum",
+   "texte": "I have used this product for years and Love it. For 63 I'm told all the time how great my skin looks and that I don't look my age. this is 1 of many R&D products that I use.",
+   "date": "2026-03-23",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "CHRISTI C",
+   "titre": "Hydration plus",
+   "texte": "I have trouble keeping my skin hydrated and this has helped tremendously. I use it day and night.",
+   "date": "2026-03-22",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Hollee C",
+   "titre": "Love AHS!!",
+   "texte": "I love this product! I use it twice daily and my skin misses it when I skip a day!",
+   "date": "2026-03-19",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Mary J",
+   "titre": "Hydration Serum",
+   "texte": "Haven't been using for long. I do like it and it seems to be helping my skin",
+   "date": "2026-03-16",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Gale G",
+   "titre": "Amazing Hydration",
+   "texte": "My skin is combination dry and oily. I have always had to use multiple creams, lotions,etc to get the smoothness I wanted. This hydration is a game changer!! I love the way my face looks and feels using this product!",
+   "date": "2026-03-13",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Debi M",
+   "titre": "Hydration serum",
+   "texte": "This is a amazing I know for face but I use a little On legs love it",
+   "date": "2026-03-11",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Lauren I",
+   "titre": "Very Hydrating",
+   "texte": "My skin was going through a very dry period during our New York winter and actually felt like sand paper. I had a few free samples from a previous R & F purchase and after one use I noticed a huge difference. I finished the 3 samples and then bought the full size!",
+   "date": "2026-03-08",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Kerry N",
+   "titre": "Absolutely The Best !",
+   "texte": "This is my Absolute favorite product!!! I seriously stock up on this serum I get so many compliments on my smooth glowing skin. So many people ask what I use and I wish I could get samples of this to pass out because it would sell off the shelf! I use this daily and my face is smooth silky and it look like glass or a glazed donut. I look like I have perfect hydrated skin. Love love love !",
+   "date": "2026-03-07",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Nalini A",
+   "titre": "I have been using Hydration",
+   "texte": "I have been using Hydration Serum for couple of years and am very happy with it.",
+   "date": "2026-03-05",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Candace G",
+   "titre": "THE DRINK MY SKIN NEEDED!!!",
+   "texte": "Will never go without this product! Turned my extreme dryness around in about 3 days!!!",
+   "date": "2026-02-23",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Ann S",
+   "titre": "Amazing hydration",
+   "texte": "Amazing product - great hydration! I have really dry skin and this is the only product that works for me.",
+   "date": "2026-02-18",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Virginia C",
+   "titre": "I've been using this serum for years.",
+   "texte": "The active hydration serum is a great product. I get many compliments on my skin. I use it daily as Step 3 of my cleansing routine and no longer use makeup on my face. I highly recommend it.",
+   "date": "2026-02-18",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Bonnie G",
+   "titre": "Great product",
+   "texte": "My dry spots on my nose and cheek have disappeared, my skin looks healthier and younger.",
+   "date": "2026-02-17",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Kara B",
+   "titre": "Favorite Product!",
+   "texte": "Love this hydration serum. Goes on smooth and absorbs right into my skin. I put it on at night and wake up to completely hydrated skin. Great product, it you are 40+ this is your must have!",
+   "date": "2026-02-17",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "Patricia K",
+   "titre": "No change",
+   "texte": "Haven't noticed any improvements with my skin, just an extra product that is not needed in my regimen",
+   "date": "2026-02-14",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Betsy S",
+   "titre": "My favorite product!",
+   "texte": "I love this product! It hydrates and plumps up my skin and diminishes my lines on my face. I can't recommend it more.",
+   "date": "2026-02-11",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Kristin C",
+   "titre": "Amazing moisturizer/ necessary game changer",
+   "texte": "Amazing moisturizer/ necessary game changer for dry winter skin!",
+   "date": "2026-02-09",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Merry R",
+   "titre": "Post chemo",
+   "texte": "Since having had a Bone Marrow Transplant (and subsequent chemo), my skin has become very dry to the point of my face stinging by the end of the day. This R & F serum (approved by my doctor), introduced to me by my daughter-in-law gives my face a normal feeling; no more waking in the night to sore skin. Thank you.",
+   "date": "2026-02-07",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Tammy O",
+   "titre": "Active Hydration Serum",
+   "texte": "Completely feels as if moisture is restored therefore decreasing appearance of lines and wrinkles.",
+   "date": "2026-02-06",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 3,
+   "auteur": "Lori P",
+   "titre": "Not worth the money",
+   "texte": "This serum is hydrating but not anymore than some more moderately priced products. It smells very nice and goes on smoothly without feeling oily.",
+   "date": "2026-02-04",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Ana S",
+   "titre": "HYDRATION SERUM IS THE BEST",
+   "texte": "Been using the serum for over five years. I am now 69 and although you can tell I am elder, my skin looks and feels great.",
+   "date": "2026-02-03",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Linda W",
+   "titre": "Active Hydration Serum a favorite.",
+   "texte": "Active Hydration Serum is one of my favorite products! It keeps your skin moist and hydrated all day. I follow with my AM Cream and my skin feels so soft and smooth.",
+   "date": "2026-02-02",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Jessica D",
+   "titre": "Serum smoothness",
+   "texte": "Serum feels light like a feather when applying. Non-oily. Leaves fresh clean face feeling protected and smooth.",
+   "date": "2026-02-01",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer B",
+   "titre": "My favorite R+F product",
+   "texte": "I can't live without this product in the winter. It is hte best HA product on the market and truly makes my skin glow.",
+   "date": "2026-01-31",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Michele T",
+   "titre": "Hydration Serum",
+   "texte": "This is my go to product! I love the look and feel of my skin after using this. I use this every morning before applying the tinted moisturizer.",
+   "date": "2026-01-30",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Roberta W",
+   "titre": "I love this serum. I",
+   "texte": "I love this serum. I feel it hydrates and refreshes my skin and keeps me young looking!",
+   "date": "2026-01-27",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Tiffany",
+   "titre": "Can't live without AHS",
+   "texte": "I have been a R&F customer for over 10 years and this is in my top 3 favorite products. I can't live without it. I use it all year long.",
+   "date": "2026-01-26",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Jean S",
+   "titre": "Survey",
+   "texte": "Love R&F. I can only buy when it is on sale. I get many compliments on my skin",
+   "date": "2026-01-26",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Pam F",
+   "titre": "A drink for your face",
+   "texte": "like this product, noy greasy and it doesnt make my face red like some other products i have used.",
+   "date": "2026-01-26",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Christina S",
+   "titre": "Game changer",
+   "texte": "I love this stuff. My skin is clearer/brighter and fewer fine lines when I use it",
+   "date": "2026-01-24",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Dr N",
+   "titre": "Hydration supreme",
+   "texte": "I've used this product for several years and love it. As soon as apply it, my face feels moisturized. It also adds brightness.",
+   "date": "2026-01-24",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Carla S",
+   "titre": "Incredible moisture and suppleness",
+   "texte": "This product is in my top 3 favorites!!! I can literally feel the immediate hydration and suppleness of my skin and literally my complexion feels fresh the rest of the day and evening! My foundation goes on so smoothly! This is a powerhouse product!!!",
+   "date": "2026-01-22",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Karen K",
+   "titre": "Love this serum for a",
+   "texte": "Love this serum for a healthy, hydrated looking skin in the winter months!",
+   "date": "2026-01-22",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Debra B",
+   "titre": "Hydration Serum",
+   "texte": "Love this. Makes my face feel nice. Looks better to, not so dry.",
+   "date": "2026-01-21",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Mary L",
+   "titre": "Serums are the Bomb",
+   "texte": "Been using this for years Still love the fragrance and silkiness of the serum Mostly used as a nighttime regimen for protecting and hydrating this aging skin with lots of age spots But I can attest that for 70+ I still only have minimal wrinkles Yea!!!",
+   "date": "2026-01-21",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Michelle D",
+   "titre": "Hydration Serum",
+   "texte": "Love this product. It is my base every morning and night. It feels so smooth on my skin and makes everything else go on nicer",
+   "date": "2026-01-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Nidia A",
+   "titre": "I always get this product",
+   "texte": "I always get this product all the time, so obviously I love it. It really does make your skin firm.",
+   "date": "2026-01-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Jeanne K",
+   "titre": "Great product with results. I",
+   "texte": "Great product with results. I would love a container/dispenser with a clear vertical \"window\" line to see how much is used or left. Otherwise, very happy with the serum.",
+   "date": "2026-01-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Dina G",
+   "titre": "My every day item!",
+   "texte": "Even when I'm not leaving the house, this is my everyday hydration tool! Not greasy or heavy, just a light serum that does the trick and gives my face a little glow!",
+   "date": "2026-01-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Sue L",
+   "titre": "Looking for soft skin?",
+   "texte": "this is the product for you! This serum leaves your skin feeling soft and supple",
+   "date": "2026-01-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth S",
+   "titre": "Hydration",
+   "texte": "Right now, my skin is normal and dry due to the winter. I love using this serum with my recharge and redefine regimens and it absorbs quickly!",
+   "date": "2026-01-19",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Kelly G",
+   "titre": "This is the best stuff",
+   "texte": "I use this every evening and some mornings before my moisturizer and make up. I can feel that face is soft and hydrated all day long. Rodan and Fields is the best. I usually try other brands but always come back to Rodan & Fields.",
+   "date": "2026-01-19",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Blanca H",
+   "titre": "Active Hydration Serum",
+   "texte": "The best product ever, I do not know what I would do it I did not have it. It visibly penetrates my skin and reduces my fine lines.",
+   "date": "2026-01-14",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Dixie L",
+   "titre": "Hydrated",
+   "texte": "This is great to add to routine for hydration especially in a cold dry climate",
+   "date": "2026-01-13",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 1,
+   "auteur": "Syd",
+   "titre": "Not a good brand",
+   "texte": "Not sure how the MLM brand wound up in Ulta. This hydration serum is nowhere worth 100+ dollars. You will achieve much better results with some of the more wallet froendly brands such as Byoma or heck even The ordinary. This stuff made me break put with HORRIBLE cystic acne.",
+   "date": "2026-01-12",
+   "verifie": false,
+   "utiles": 5
+  },
+  {
+   "note": 5,
+   "auteur": "Deborah D",
+   "titre": "Great product but too expensive",
+   "texte": "I love the way it makes my face feel but it is so expensive that I don't think it is something I can purchase on a regular basis.",
+   "date": "2026-01-12",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Holly H",
+   "titre": "I love this serum and",
+   "texte": "I love this serum and use it morning and night all year round.",
+   "date": "2026-01-12",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Shelley R",
+   "titre": "Hydration serum",
+   "texte": "This is exactly what I needed, in the coldest climate in NW Pennsylvania. I can use astringent in my face and follow up with the serum, and I have beautiful, hydrated skin in the morning.",
+   "date": "2026-01-10",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth N",
+   "titre": "One of my favorite R+F products",
+   "texte": "One of my favorite R+F products since reaching my late 40s. Its imperative to hydrate and I love the packaging of the tear dropper applicator.",
+   "date": "2026-01-08",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Janice W",
+   "titre": "my never-ever-miss-a-day serum. . . . great product, helping",
+   "texte": "my never-ever-miss-a-day serum. . . . great product, helping my skin stay hydrated and moisturized.",
+   "date": "2026-01-08",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Jeanete B",
+   "titre": "I use the serum every",
+   "texte": "I use the serum every morning before my sunscreen. Specially, in the winter that my skin gets drier you can also use at night and it makes your skin so hydrated and not oily. That's the good thing about it. You have to try to see how good it is I highly recommend to everybody. It definitely change your skin.",
+   "date": "2026-01-08",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Danielle R",
+   "titre": "Love the Active Hydration Serum",
+   "texte": "This serum is amazing! It works so well and makes my skin feel so soft throughout the entire year.",
+   "date": "2026-01-07",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "B J",
+   "titre": "A drink of water",
+   "texte": "Love adding this into my routine during the drier winter months. Has me glowing!",
+   "date": "2026-01-02",
+   "verifie": true,
+   "utiles": 0
+  }
+ ]
+}

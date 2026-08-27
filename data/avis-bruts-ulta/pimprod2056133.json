@@ -1,0 +1,856 @@
+{
+ "pid": "pimprod2056133",
+ "asin": null,
+ "nom": "HERBIVORE AQUARIUS BHA + Blue Tansy Clarity Cleanser",
+ "categorie": "cleanser",
+ "source": "ulta",
+ "url": "https://www.ulta.com/p/aquarius-bha-blue-tansy-clarity-cleanser-pimprod2056133",
+ "note": 4.88,
+ "nbAvis": 130,
+ "distribution": {
+  "one_star": 1,
+  "two_star": 1,
+  "three_star": 0,
+  "four_star": 8,
+  "five_star": 120
+ },
+ "avis": [
+  {
+   "note": 1,
+   "auteur": "Jayne",
+   "titre": "Changed the formula :(",
+   "texte": "I'm begging companies to STOP doing this. I have been purchasing this cleanser for years. It was my favorite cleanser! I bought a new one and the packaging was different and I was suspicious. Once I smelled it I could tell they changed something but I decided to try it and it burned my face! I googled it and on a surface level everything says they haven't changed the formula but I went onto a Time Machine site to look at the product page to compare ingredients and as expected they have overhauled the formula. You can guess why. The ingredients are cheaper. So disappointed :(",
+   "date": "2026-08-14",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 2,
+   "auteur": "Katie",
+   "titre": "Just Ok",
+   "texte": "Broke me out. But i like the smell and was able to take my makeup off decently well.",
+   "date": "2026-08-08",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth",
+   "titre": "LOVE!!",
+   "texte": "Best face wash I've used in a very long time. Removes dirt, sweat & make-up. Leaves my skin feeling clean, not stripped! I'd been having some breakouts (at 56! 😳), my skin has been clear since trying this. I will buy again!!",
+   "date": "2026-06-09",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "FIONA!!",
+   "titre": "favorite face wash",
+   "texte": "I love this face wash i use it as a morning and night cleanser and I feel lile it doesn't strip my skin or dry it out. my skin has also cleared up significantly my acne has definitely gotten better!",
+   "date": "2026-03-05",
+   "verifie": false,
+   "utiles": 4
+  },
+  {
+   "note": 5,
+   "auteur": "Val",
+   "titre": "Clearer skin after 2 uses",
+   "texte": "I used this product and my skin was clearer after a couple uses… my forehead has a lot of small tiny pimples and they r basically gone & my skin feels less inflamed. My skin is also very sensitive and this product did not irritate my skin. I use it twice per day with a collagen lotion during the day & trentinoin layered with lotion at night. Love it!",
+   "date": "2026-01-12",
+   "verifie": false,
+   "utiles": 8
+  },
+  {
+   "note": 4,
+   "auteur": "Yarrow S.",
+   "titre": "Non - drying, clarifying",
+   "texte": "Especially in tandem with the Aquarius cream, this cleanser is gentle and soothing. Very good daily maintenance cleanser.",
+   "date": "2025-11-11",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Laura K.",
+   "titre": "Does what they say it does!",
+   "texte": "I struggle with pore congestion, why I purchased this cleanser in tandem with the tansy clarity cream and oil. The combo is a dream and quickly cleared my issue.",
+   "date": "2025-10-24",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Christen",
+   "titre": "5 Stars",
+   "texte": "Im brand new herbivore botanicals user never tried the brand before and I am so glad that I made this purchase. I'm absolutely obsessed with the cleanser, and they even threw in a full size bottle of the green magic, which was genius marketing on their part because I will absolutely be purchasing it again",
+   "date": "2025-10-10",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Lacey",
+   "titre": "5 Stars",
+   "texte": "Makes me skin feel cool and refreshed! Will use continuously!",
+   "date": "2025-09-19",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Sadiya Z.",
+   "titre": "New Favorite Cleanser",
+   "texte": "This cleanser makes my skin feel so clear and fresh! It has really cleared up my skin as well.",
+   "date": "2025-08-27",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Kelley O.",
+   "titre": "A Wonderful Cleanser",
+   "texte": "I love this clarifying cleanser, and I actually use it as an added mixture to my regular \"creamy\" cleanser. I add one to two pumps to add a clarifying component to my other cleanser, which can be too heavy feeling. Adding this cleanser adds just the right amount of power to it!",
+   "date": "2025-08-25",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Abbey H.",
+   "titre": "Great cleanser",
+   "texte": "Its cleanses really well and skin is looking good so far. The glass packaging is wonderful.",
+   "date": "2025-08-08",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Ekua C.",
+   "titre": "Bathroom staple",
+   "texte": "I switched to Aquarius a few years ago and I haven't looked back!",
+   "date": "2025-07-23",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda H.",
+   "titre": "Great Cleanser",
+   "texte": "This cleanser does a great job of getting my skin clean. I use it after the Pink Cleanser to do a deeper clean. It smells so nice too.",
+   "date": "2025-06-06",
+   "verifie": true,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "Karissa",
+   "titre": "5 Stars",
+   "texte": "This might be my new favorite face wash!! Love the essential oil smell and it cleans really well!",
+   "date": "2025-05-22",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Lindsey",
+   "titre": "5 Stars",
+   "texte": "Best stuff ever - smells amazing and cleans the skin like no other",
+   "date": "2025-04-08",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Cassidy J.",
+   "titre": "New Routine Favorite",
+   "texte": "I use this everyday, sometimes more than once, and my skin loves it. I have tried many products and this works well for me.",
+   "date": "2025-03-25",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth S.",
+   "titre": "Great for everyone",
+   "texte": "I use this to keep away occasional hormonal acne. It works so well my husband and my teenage son have started stealing it and I have to buy this more than the pink cleanser I use daily.",
+   "date": "2025-03-17",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley M.",
+   "titre": "Gentle but tough",
+   "texte": "This doesn't over dry my skin but has significantly improved the overall texture and appearance",
+   "date": "2025-03-11",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "EmillyAnn R.",
+   "titre": "Fresh and clean!",
+   "texte": "Love this cleaner for a once or twice of week cleanse! Soft, sudsy and makes my face feel clean!",
+   "date": "2025-03-02",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Heather",
+   "titre": "5 Stars",
+   "texte": "Obsessed!! This cleanser has healed my skin so much. I had the first month \"breakout\" while it cleaned my pores out. Now probably two years of using this, my skin has never felt better",
+   "date": "2025-03-01",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Leo H.",
+   "titre": "Gentle and effective",
+   "texte": "I love this cleanser!! It leaves skin feeling cared for and comfortable. A little goes a long way.",
+   "date": "2025-02-22",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Pasquale",
+   "titre": "Super impressed!",
+   "texte": "Hey Herbivore team! 👋 I came across your products by chance and I completely fell in love! Today I bought this cleanser out of curiosity and was blown away! I use it in combination with the Aquarius moisturizer and Blue Tansy mask, makes my skin feel super soft and well cleansed. I can see what you guys are doing and I absolutely LOVE IT! I've tried so many products, and this is by far the best I've ever used!",
+   "date": "2025-02-20",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Maggie G.",
+   "titre": "Great cleanser",
+   "texte": "This cleanser keeps my skin clear but doesn't feel harsh or dry out my skin. Plus it smells great :)",
+   "date": "2025-01-30",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Jensen H.",
+   "titre": "Awesome",
+   "texte": "Perfect for my combo skin, I love it. It also smells so good. I'm super sensitive to smells and it's not too much. I'd buy a perfume of this.",
+   "date": "2024-12-31",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "n g.",
+   "titre": "Love the cleanser",
+   "texte": "I absolutely love this cleanser! I've been using it for almost three weeks, and it leaves my skin feeling amazing after every wash. It's gentle, doesn't irritate my skin, and the texture is nice. I also love the smell - no added fragrance, which is a big plus for me. I was using a similar product from another brand but decided to switch things up so my skin doesn't get too used to one product. This cleanser has been great for my acne - no purging, it prevents further breakouts, and helps with existing ones. I do experience a small breakout right before my period, so I might need to add something stronger specifically for those days",
+   "date": "2024-12-24",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Nely Y.",
+   "titre": "Great cleanser",
+   "texte": "It's light and effective. Love how gentle it's on my sensitive skin. Leaves my face feeling clean. Love it.",
+   "date": "2024-12-14",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Zoe",
+   "titre": "5 Stars",
+   "texte": "Really nice face wash, great exfoliation mixed with the benefits of the blue tansy. It does have a potent sweet smell but I used to use the blue tansy mask so I was prepared. Comes in a really beautiful glass bottle which is lovely to have in my shower. It should last a decent while since one pump is plenty to get a good lather on my face. Definitely will want to repurchase this although it is a little pricey for a cleanser.",
+   "date": "2024-12-06",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Cristina M.",
+   "titre": "Love it",
+   "texte": "So far I'm loving it. Super gentle but gives a really deep clean.",
+   "date": "2024-09-08",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Val",
+   "titre": "Love it BUT hate the glass bottle",
+   "texte": "I love the product, it's gentle but strong enough to remove sunscreen. I'm holding out for a packaging change. I do lament the ubiquity of plastic and appreciate the glass packaging, but I like to wash my face IN the shower. All surfaces in my bathroom are hard—tile, bath, sink—so I just can't take the risk anymore after breaking a bottle in the shower.",
+   "date": "2024-08-19",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Birdie",
+   "titre": "Sorcery in a bottle",
+   "texte": "I picked this up on a whim and I'm not sure why, because I have very sensitive skin and trying new products historically has done me more harm than good. I used tret in the past but could never get past the sensitivity that came with it. I decided to try a more active cleanser for my redness and irritation prone combo skin, and this product literally gave my face ten years back. I did experience some mild flaking and purging in the beginning, but I did not lose hope. After about a month of consistent use I have radiant skin for the first time in my life in my 30s. I will repurchase this into the next lifetime.",
+   "date": "2024-08-04",
+   "verifie": false,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Yessenia G.",
+   "titre": "I feel so clean",
+   "texte": "This cleanser is really it. It feels so refreshing on my face and clean. It does not make me oily or feel as if I have residue in my face after washing it off. It has helped with balancing my skin. Will buy again",
+   "date": "2024-07-19",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Zama J.",
+   "titre": "Aquarius cleanser",
+   "texte": "My daughter loves this cleanser , so much so that now I have to buy her the rest of the line!",
+   "date": "2024-06-14",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Rebecca J.",
+   "titre": "My teenager happy with it",
+   "texte": "It has a nice scent and isn't overly drying. Skin feels smooth after using.",
+   "date": "2024-06-13",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Rachel R.",
+   "titre": "gets those pores looking clean",
+   "texte": "I don't use this cleanser ever day because I think it would be a bit harsh and drying to use in combination with the exfoliating I do as well. But several times a week I will use it with a washcloth, and it really helps with all those pores that were filling up to become blackheads or look like gray speckles all over my T zone. So I am very happy with it. However, the directions are to gently massage onto face, so perhaps if you are better at following directions than I am you will love it as a daily cleanser!",
+   "date": "2024-04-27",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Abby H.",
+   "titre": "Great smell, smooth skin",
+   "texte": "My skin texture has improved since using this product. I've also had less breakouts.",
+   "date": "2024-04-16",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Dayna W.",
+   "titre": "Wow wow wow!",
+   "texte": "I have been trying to transition myself away from using scrubs twice daily for a long time now and frankly days of using cleanser were always blegh.... until this stuff! It is so refreshing and makes my skin bright and smooth with NO DRYNESS!!! Every acne cleanser I have ever used until now leaves me with patches of scaly skin, but not this! I love the refreshing \"mintyness\" too! My adult acne cleared up dramatically in less than a week of use! LOVE LOVE LOVE! Now I need to try more of the blue tansy products...",
+   "date": "2024-04-01",
+   "verifie": true,
+   "utiles": 2
+  },
+  {
+   "note": 5,
+   "auteur": "Michael H.",
+   "titre": "Favorite cleanser on the market",
+   "texte": "Purchased it several times and will always be in the rotation. Great smell, easy to rinse, super clean glow after",
+   "date": "2024-03-31",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Cydney C.",
+   "titre": "So Far So Good",
+   "texte": "I've been using this for a couple weeks now and I love it! The gel to foam texture, the slight floral smell, the beautiful, sustainable packaging - I will definitely be repurchasing!",
+   "date": "2024-03-30",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Abigail",
+   "titre": "Finally",
+   "texte": "A cleanser that neither strips me dry or is too moisturizing for my acne-prone skin. I sometimes use it in the shower as well when I get acne on my shoulders. I just hope we can buy it in massive bottles someday like with the pink cleanser!",
+   "date": "2024-02-18",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Krystal P.",
+   "titre": "Very good!",
+   "texte": "First off, the smell of this is divine. I use this in the mornings after I work out and Pink Jelly cleanser at night to take off my sunscreen. The wash is good and slippy and doesn't feel too drying.",
+   "date": "2024-01-27",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Victoria L.",
+   "titre": "Great for oily skin",
+   "texte": "I have been using this product for about a week now and I really see a difference with oil production during the day. The cleanser has a nice almost herby scent that dissipates quickly, leaves my skin feeling cleansed, but not stripped. I really like this product.",
+   "date": "2024-01-07",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer Z.",
+   "titre": "Amazing",
+   "texte": "I love the blue tansy mask so I was really excited to see this cleanser that incorporated the same ingredients. I was looking for a gentler cleanser that kept my skin clear and this fit the bill. Love that it's packaged in glass too. Looking forward to trying the moisturizer next!",
+   "date": "2023-12-17",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Desiree S.",
+   "titre": "Best cleanser for acne!!!",
+   "texte": "This was the cleanser I was looking for! I tried so many things for my crazy hormonal acne, and this was the only thing that has helped!! After a week, I saw a huge improvement and now I rarely see any breakouts at all! I think my skin is still purging all the other chemicals from previous treatments, but it is so less red and no new acne! I paired this with the face cream and the clarity mask and it is perfect! Now I just need to fade the dark spots!",
+   "date": "2023-12-13",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Victoria",
+   "titre": "5 Stars",
+   "texte": "You've likely never come across a cleanser that packs a gentle but effective benefit like this! It's a recipe made in skin care heaven. Perfectly removes a day (or days) of grime from your skin, pores are refined and left satisfied. A staple in my skin care line up! I buy 2 at a time.",
+   "date": "2023-12-09",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 4,
+   "auteur": "Kierra W.",
+   "titre": "cleansing and refreshing",
+   "texte": "The Blue Tansy cleanser is gentle yet effective, I can truly see improvements in my blemishes and breakouts yet the cleanser isn't abrasive or irritating.",
+   "date": "2023-11-22",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 4,
+   "auteur": "Jasmine M.",
+   "titre": "Great",
+   "texte": "Worked well in reducing my acne flares and didn't bring up any new ones constantly. Didn't feel like it stripped my face harshly, it was gentle in cleaning my face.",
+   "date": "2023-11-16",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Sydney S.",
+   "titre": "I'm a fan",
+   "texte": "Since using this (for about a week and a half) I've definitely noticed less sebaceous filaments in my t-zone which I'm really happy about because I've tried other cleansers that didn't do much to help. (Cera Ve SA cleanser for example) I also love the packaging. I've been using the Lapis oil too, and I think these two work well together.",
+   "date": "2023-10-31",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Rachel",
+   "titre": "5 Stars",
+   "texte": "I get awful hormonal cystic acne on my cheeks and along my jaw line, and this stuff has been miracle working! I will continue you to update you about my results, I just received my package last week. But I'm super excited!",
+   "date": "2023-10-26",
+   "verifie": false,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda N.",
+   "titre": "Love Blue Tansy ❤️",
+   "texte": "This cleanser is amazingly refreshing, does not dry out your skin, removes makeup and leaves your face clean and smooth. Love all things Blue Tansy! It's a miracle worker on oily or combination skin and the scent is just heavenly.",
+   "date": "2023-10-05",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Carrie Z.",
+   "titre": "So refreshing",
+   "texte": "I absolutely love this cleanser! it easily takes off my makeup and leave me glowing! This whole Aquarius line is amazing. I am acne prone and it def has helped my skin stay clear.",
+   "date": "2023-10-03",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Keli R.",
+   "titre": "Fave cleanser",
+   "texte": "This cleanser smells so clean, it's gentle, removes makeup and dirt like a dream. I've re ordered it 3 times it's so good. I'm oily, large pores, and a little red.",
+   "date": "2023-10-02",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "rikki t.",
+   "titre": "Love it",
+   "texte": "My face feels so clean and soft. Doesn't dry me out and it leaves my skin feeling cool. My skin doesn't breakout too bad but around my menstrual cycle I get hormonal breakouts around my chin and jaw and it's helped a lot with that and helped my blackheads and pores. My skin is on the sensitive side and it's gentle enough for it too!",
+   "date": "2023-09-30",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Whitney R.",
+   "titre": "Great cleasner for combination skin",
+   "texte": "I'm so glad there is a facial cleanser with blue tansy. I love the facial oil so I knew this was going to be a good one. Very calming and definitely helps skin issues such as acne and or redness. Next should be an Aquarius body cleanser.",
+   "date": "2023-09-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Meagan H.",
+   "titre": "Smells so good",
+   "texte": "This face wash smells so good and it is gentle enough for my sensitive skin. Doesn't dry me out and makes my face smell good all day. I think this is now my go-to face wash.",
+   "date": "2023-08-28",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "KT",
+   "titre": "Great cleasner",
+   "texte": "I really like this cleanser. My face feels so clean after using it. I like the scent. It gets like a little strong for me if I use everyday though so I alternate with a more mild cleanser.",
+   "date": "2023-08-20",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer B.",
+   "titre": "Amazing",
+   "texte": "I bought this for my teens and they love it. Used it on my son's back (plays the tuba, practiced in the hot sun) help clear up the acne and redness.",
+   "date": "2023-08-16",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "SF",
+   "titre": "Amazing cleanser and it smells so good",
+   "texte": "This has been so good for my acne-prone skin. It leaves my skin feeling great and I love the way it smells.",
+   "date": "2023-08-10",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Riss",
+   "titre": "Absolutely love this product.",
+   "texte": "I have probably purchased about 3-4 bottles already this year. I love this product and ever since I started using it daily, my face has been noticeably better. I like the way that this product smells and makes my face feel.",
+   "date": "2023-08-03",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Sophia M.",
+   "titre": "New favorite facewash",
+   "texte": "It really helps minimize the appearance of pores and also clears up those occasional spots of acne. It leaves a lovely tingly clean sensation without stripping all the moisture from your face. Love this!",
+   "date": "2023-07-29",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley L.",
+   "titre": "Favorite Cleanser",
+   "texte": "This is my new favorite cleanser! I really appreciate how my skin feels afterwards and it has not caused any breakouts. This does NOT over dry my skin either! The smell is nice and subtle. You will not regret purchasing this!",
+   "date": "2023-07-27",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Jeri R.",
+   "titre": "Cleany McCleanFace",
+   "texte": "Really nice work of cleaning the face. Used at night and in conjunction with the Aquarius moisturizer. Kept a premenstrual breakout at bay. Impressive stuff. Pretty packaging too. That always helps.",
+   "date": "2023-07-21",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Jeannie O.",
+   "titre": "Great product!",
+   "texte": "I highly recommend the Aquarius Clarity Cleanser! It makes my skin feel fresh & clean & does not feel tight & dry as some facial cleaners do. I have sensitive skin with occasional breakouts around my nose & chin area, & while using this cleanser I'm seeing great results. I am in my mid 60's so have tried many cleansers over the years.",
+   "date": "2023-07-18",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Skincare",
+   "titre": "Great Cleanser!",
+   "texte": "This one is part of my nighttime routine. I've been using it for over 6 mos and I haven't had one single pimple come up. Smells good and feels refreshing. 52yo with medium skin.",
+   "date": "2023-07-17",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Lori E.",
+   "titre": "Love this new cleanser!",
+   "texte": "The Aquarius cleanser leaves my skin feeling super clean. I think it also helps a little to clear up breakouts. I would definitely recommend this product.",
+   "date": "2023-07-12",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "April B.",
+   "titre": "Best cleanser ever!",
+   "texte": "This cleanser is the only one that has ever helped my daughter's skin from breaking out! It's AMAZING!",
+   "date": "2023-07-09",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Patty K.",
+   "titre": "1 squirt works wonders!",
+   "texte": "I love this cleanser! I am a goldsmith and my face gets dirty black pores after a days work. Aquarius Cleanser removes all the dirty and leaves my face so clean, shiny and smooth. I recommend it highly !",
+   "date": "2023-07-07",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "MaDonna H.",
+   "titre": "Absolutely LOVE",
+   "texte": "I'm in love with this cleanser. It has calmed my skin so much. I will not go without this!",
+   "date": "2023-06-21",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 4,
+   "auteur": "Jennifer S.",
+   "titre": "Great",
+   "texte": "Thought I would try the new cleanser and so far after using for about a month I can see some results. It doesn't dry my skin out or make it flakey. It feels like it's cleansed after using.",
+   "date": "2023-06-13",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Tiana S.",
+   "titre": "Real clean",
+   "texte": "My main skin problems are visible pores and dryness. I have to say my skin feels so refreshed after this cleaner and the tansy mask. It's combined has reduced my pores and my skin feels so hydrated after week 1!",
+   "date": "2023-06-12",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "jessica e.",
+   "titre": "Love it",
+   "texte": "Great product. The jelly cleanser is more foamy, but this one feels like it deep cleans",
+   "date": "2023-06-05",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Tanisha S.",
+   "titre": "Daughter loves it!",
+   "texte": "I bought this for my teen daughter because her face has been breaking out. She's only used it a couple times but loves it and it's helping her acne. One of her favorite parts she says is that it has a pine smell that quickly goes away. She loves the smell though!",
+   "date": "2023-05-14",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Brynn K.",
+   "titre": "I love this cleanser!!",
+   "texte": "This is my second time purchasing and I will buy this forever! This cleanser plus the Aquarius cream has healed so much of my acne on my chin and it's looking clearer every day! I love it so much!",
+   "date": "2023-05-14",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Heidi W.",
+   "titre": "Amazing!",
+   "texte": "Love this cleanser. I have very sensitive skin that is prone to eczema and this is a better face wash then products I have used made just for eczema prone skin.",
+   "date": "2023-05-07",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Emily B.",
+   "titre": "AMAZING",
+   "texte": "If you want clarified skin that feels SO CLEAN this is the product for you!!!!!! I have combination skin and in the warmer months tend to need the blue tansy ingredients! I love this so much",
+   "date": "2023-05-01",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Holly S.",
+   "titre": "perfect calm and clear cleanser",
+   "texte": "Love this cleanser. It soothes and deep cleans at the same time, leaving skin both refreshed and soft.",
+   "date": "2023-04-30",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Christen B.",
+   "titre": "Love this cleanser!",
+   "texte": "Highly recommend this cleanser! It's very gentle and makes my skin feel so clean!",
+   "date": "2023-04-24",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Yino W.",
+   "titre": "Helps breakouts",
+   "texte": "Love this cleanser. Been using a daily facial sunscreen and experiencing some stubborn chin breakouts. This cleanser has really helped clear things up and compared to my other cleansers, really takes off the thicker layer of sunscreen.",
+   "date": "2023-04-17",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Christina Z.",
+   "titre": "Love it!",
+   "texte": "Love this cleanser! It actually feels like my face is getting squeaky clean! I've been using it for a little over a week and notice that my skin is brighter, clearer and less oily afterwards. If you have oily skin, I highly recommend this product along with the blue tansy face mask & the aquarius cream.",
+   "date": "2023-04-12",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Bernadette H.",
+   "titre": "Love it!",
+   "texte": "I previously used the cloud jelly face wash, and I thought it worked fine, but I have oily/combination skin and left my skin too moisturized. This is what I needed! It smells lovely, it cleans without drying, and is a much better fit.",
+   "date": "2023-04-06",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Stephanie R.",
+   "titre": "Smells UH-MAH-ZEEN",
+   "texte": "LOVE this cleaner! I've used the pink cloud cleanser but was hoping for one targeting acne and pores. BAM! This is it!",
+   "date": "2023-04-06",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Rebecca M.",
+   "titre": "Thought I'd give to my teen, but kept for myself!",
+   "texte": "First thing you'll notice about the cleanser is the beautiful, simple packaging. It will look great out on your counter with all of your other Herbivore products! No need to take them off the sink, they look lovely. It comes out as a thin gel, and doesn't make a lather. If you're used to a foam, you might be put off. However, once you use it, your skin feels smooth and clean. Even a little tighter, but not dry. I had blue tansy in another product that I liked, so I was excited to try this one. It didn't disappoint. Also, its totally worth it, because this cleanser will last a long time!",
+   "date": "2023-04-04",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Paige",
+   "titre": "Wow",
+   "texte": "I've been using the lapis oil and blue tansy mask for several years now and was sooo excited to learn Herbivore created a blue tansy cleanser. I have problematic skin, hormonal acne and enlarged pores but this cleanser has brought my skin back to life. It doesn't dry out my skin but leaves it feeling soft, clean, calm and balanced. I already noticed an improvement in texture after less than a week of using it. I'm also an Aquarius so #doublewami! Thank you herbivore for this amazing cleanser! I'll be repurchasing for sure.",
+   "date": "2023-04-03",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 4,
+   "auteur": "Tess M.",
+   "titre": "Good so far!",
+   "texte": "I like this cleanser so far. It definitely doesn't overdraw and seems to help control oil.",
+   "date": "2023-04-03",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Denise c.",
+   "titre": "Aquarius clarity cleanser",
+   "texte": "Was so excited to try this and I love it! Removes all my make up and makes my skin feel amazing. After using for one week my pores are smaller. I use before applying my other Herbivore products. Highly recommend!",
+   "date": "2023-04-02",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Kelly",
+   "titre": "Great Cleanser",
+   "texte": "I love this cleanser. I use it as part two of my double cleanse. It makes my skin feel very clean and refreshed. It has a nice, light scent, but is not too overwhelming. I have combination skin, yet I don't find it too drying. The glass bottle and pump make it easy to use. Overall, this is a great cleanser.",
+   "date": "2023-03-27",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Miranda",
+   "titre": "I'm hooked!",
+   "texte": "Herbivore, you've done it again. You just keep knocking it out of the park, and this cleanser is no exception. Each time i try another of your products, I'm in awe! As with the Pink Cloud cleanser, and the Aquarius cream moisturizer, and the Moon Fruit serum...from the very first use, I feel my face and my response is just \"WOW\" so soft! Smooth and luscious skin...every time. Seriously. I've never responded to facial products this way before in my life (and I'm 45, with newly noticeable aging skin). It makes me want to try everything you make, and you've definitely got yourself a new loyal customer. Thank you so much!",
+   "date": "2023-03-27",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Emma",
+   "titre": "LOVE! - from an Oily Cystic Ance Prone Gal!",
+   "texte": "I'm hooked! My skin is very sensitive to breakouts with any changes to my skin care routine. When I do break out it is typically cystic. I introduced this cleanser into my routine for just my evening wash to start, and I had a very very mild breakout (2-3 zits) that didn't last very long. I am pleased to say that's already cleared up and my skin has been looking pretty clear, even after going on a weekend trip - I ALWAYS break out after traveling! But I'm still in the clear! (Pun intended) I also love the feeling of the cleanser. I do a double cleanse whenever I wash my face. The first wash with the Aquarius cleanser (I use 2 pumps, I'm an oily girl!!) got the first layer off and didn't feel like much at first, but the second cleanse (another 2 pumps) it gets a nice gentle foam and I can feel it getting a deeper clean! I also personally love the Blue Tansy face mask, so I love the scent of the cleanser as well! All around really happy with this product!",
+   "date": "2023-03-22",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Angel",
+   "titre": "Luxurious",
+   "texte": "This is very luxurious. The texture is almost gel like, not too thick and not too thin. It lathers nicely. It left my skin feeling very soft and very clean but not stripped at all. I have combo dry skin and this worked out perfectly for me.",
+   "date": "2023-03-18",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "jenny",
+   "titre": "Love this cleanser",
+   "texte": "What a beautiful cleanser. The blue gel cleanser creates creamy bubble and can effectively remove dirts and makeup on my face (but not so much for eye makeup). It doesn't rip off all the oil and keep my skin soft. complimentary from Herbivore Botanicals",
+   "date": "2023-03-12",
+   "verifie": false,
+   "utiles": 0
+  },
+  {
+   "note": 4,
+   "auteur": "lasha",
+   "titre": "Gentle and great",
+   "texte": "Oh I love a gentle cleanser gifted by Herbivore Botanicals. It will pair great with my Aquarius moisturizer also from herbivore . I like the texture of this. jelly like and cleans well without stripping the skin and drying it out.",
+   "date": "2023-03-10",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Pat",
+   "titre": "Amazing",
+   "texte": "Love this cleanser. It's smells beautiful like blue tansy. It contains BHA and really helps me when I have occasional breakouts. Besides that it's really gently and helps me to clean my pores from any impurities. Gifted by Herbivore",
+   "date": "2023-03-09",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 5,
+   "auteur": "Nj",
+   "titre": "Amazing",
+   "texte": "This cleanser is amazing ! My daughter is in love and has been using it daily ! It makes her face feels so clean and refreshed and she has been using ti daily ! It doesn't dry her skin out at all !! Amazing",
+   "date": "2023-03-09",
+   "verifie": false,
+   "utiles": 0
+  }
+ ]
+}
