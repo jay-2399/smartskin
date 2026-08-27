@@ -673,6 +673,35 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
   padding:6px 12px; font-family:inherit; font-size:11.5px; font-weight:600; color:var(--ink); cursor:pointer; }
 .lu-opt.on { background:var(--ink); color:#fff; border-color:var(--ink); }
 .lu-opt:focus-visible { outline:2px solid var(--blue-d); outline-offset:2px; }
+
+/* « voir tout » du bloc Why : les lignes au-delà de la 5e sont masquées jusqu'au clic.
+   Avant le 27/08 le lien était un simple <p> décoratif, sans aucun gestionnaire. */
+.why-xtra { display:none; }
+#d-why.tout .why-xtra { display:flex; }
+.why-plus { display:block; width:100%; border:none; background:none; text-align:center;
+  padding:12px 0 3px; font-family:inherit; font-size:11.5px; font-weight:700;
+  color:var(--blue-d); cursor:pointer; }
+.why-plus:focus-visible { outline:2px solid var(--blue-d); outline-offset:2px; border-radius:6px; }
+
+/* ── « mieux pour ta peau » : 3 produits du même rayon quand le score n'est pas au vert ── */
+.mieux-s { margin:3px 0 0; font-size:12.5px; color:var(--graphite); }
+.mieux-list { display:flex; flex-direction:column; gap:8px; margin-top:12px; }
+.mieux-row { display:flex; align-items:center; gap:12px; padding:11px 13px; border-radius:15px;
+  background:#fff; border:1px solid rgba(26,29,33,0.07); cursor:pointer; text-align:left;
+  width:100%; font-family:inherit; box-shadow:0 1px 2px rgba(20,30,50,.04); }
+.mieux-row:active { transform:scale(0.99); }
+.mieux-row:focus-visible { outline:2px solid var(--blue-d); outline-offset:2px; }
+.mieux-row img { width:40px; height:48px; object-fit:contain; flex-shrink:0; border-radius:8px;
+  background:#fff; mix-blend-mode:multiply; }
+.mieux-txt { flex:1; min-width:0; }
+.mieux-n { margin:0; font-size:12.5px; font-weight:700; color:var(--ink); line-height:1.3;
+  letter-spacing:-0.01em; }
+.mieux-m { margin:2px 0 0; font-size:10.5px; color:var(--space); }
+.mieux-sc { flex-shrink:0; text-align:right; }
+.mieux-sc b { display:block; font-size:18px; font-weight:800; letter-spacing:-0.03em; color:#178F60;
+  font-variant-numeric:tabular-nums; line-height:1; }
+.mieux-sc span { font-family:var(--fm); font-size:8px; font-weight:700; letter-spacing:0.11em;
+  text-transform:uppercase; color:var(--space); }
 </style>
 
 <style>
@@ -715,6 +744,35 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
   padding:6px 12px; font-family:inherit; font-size:11.5px; font-weight:600; color:var(--ink); cursor:pointer; }
 .lu-opt.on { background:var(--ink); color:#fff; border-color:var(--ink); }
 .lu-opt:focus-visible { outline:2px solid var(--blue-d); outline-offset:2px; }
+
+/* « voir tout » du bloc Why : les lignes au-delà de la 5e sont masquées jusqu'au clic.
+   Avant le 27/08 le lien était un simple <p> décoratif, sans aucun gestionnaire. */
+.why-xtra { display:none; }
+#d-why.tout .why-xtra { display:flex; }
+.why-plus { display:block; width:100%; border:none; background:none; text-align:center;
+  padding:12px 0 3px; font-family:inherit; font-size:11.5px; font-weight:700;
+  color:var(--blue-d); cursor:pointer; }
+.why-plus:focus-visible { outline:2px solid var(--blue-d); outline-offset:2px; border-radius:6px; }
+
+/* ── « mieux pour ta peau » : 3 produits du même rayon quand le score n'est pas au vert ── */
+.mieux-s { margin:3px 0 0; font-size:12.5px; color:var(--graphite); }
+.mieux-list { display:flex; flex-direction:column; gap:8px; margin-top:12px; }
+.mieux-row { display:flex; align-items:center; gap:12px; padding:11px 13px; border-radius:15px;
+  background:#fff; border:1px solid rgba(26,29,33,0.07); cursor:pointer; text-align:left;
+  width:100%; font-family:inherit; box-shadow:0 1px 2px rgba(20,30,50,.04); }
+.mieux-row:active { transform:scale(0.99); }
+.mieux-row:focus-visible { outline:2px solid var(--blue-d); outline-offset:2px; }
+.mieux-row img { width:40px; height:48px; object-fit:contain; flex-shrink:0; border-radius:8px;
+  background:#fff; mix-blend-mode:multiply; }
+.mieux-txt { flex:1; min-width:0; }
+.mieux-n { margin:0; font-size:12.5px; font-weight:700; color:var(--ink); line-height:1.3;
+  letter-spacing:-0.01em; }
+.mieux-m { margin:2px 0 0; font-size:10.5px; color:var(--space); }
+.mieux-sc { flex-shrink:0; text-align:right; }
+.mieux-sc b { display:block; font-size:18px; font-weight:800; letter-spacing:-0.03em; color:#178F60;
+  font-variant-numeric:tabular-nums; line-height:1; }
+.mieux-sc span { font-family:var(--fm); font-size:8px; font-weight:700; letter-spacing:0.11em;
+  text-transform:uppercase; color:var(--space); }
 </style>
 </head>
 <body>
@@ -764,43 +822,9 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
     <p class="verdict-s">It targets <b>your breakouts and oily T-zone</b>, but the fragrance clashes with <b>your reactive skin</b>. Patch-test first.</p>
   </div>
 
-  <div class="section s0">
-    <span class="sec-name" style="display:block">Reviews, for your profile</span>
-    <div class="vcard" style="margin-top:8px">
-      <input type="checkbox" id="rev-toggle" class="rev-toggle" checked="">
-      <label class="rev-head" for="rev-toggle" aria-label="Customer reviews">
-        <span class="rev-num">4.4</span>
-        <div class="rev-meta">
-          <span class="rev-stars">&#9733;&#9733;&#9733;&#9733;<span class="half">&#9733;</span></span>
-          <p class="rev-count"><b>29,431</b> global ratings</p>
-        </div>
-        <span class="rev-src">by <img src="amazon.svg" alt="Amazon"></span>
-        <span class="rev-chev"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5.2L7 9.2l4-4"></path></svg></span>
-      </label>
-      <div class="rev-body"><div>
-      <div class="rev-say">
-        <span class="rev-say-k">Customers like you say</span>
-        <p>Reviewers with <b>oily, breakout-prone skin</b> report <b>fewer breakouts within weeks</b>. <b>Sensitive-skin reviewers</b> are the ones who flag the scent.</p>
-        <div class="rev-chips">
-          <span class="rchip pos">&#10003; Clears breakouts</span>
-          <span class="rchip pos">&#10003; Fades marks</span>
-          <span class="rchip neg">&#10007; Scent, if sensitive</span>
-        </div>
-      </div>
-      <div class="rev-list">
-        <div class="rev">
-          <div class="rev-row"><span class="rev-name">Maya R. &middot; sensitive skin</span><span class="rev-rate">&#9733;&#9733;&#9733;&#9733;<span class="off">&#9733;</span></span></div>
-          <p class="rev-txt">It works &mdash; but the scent tingles on my reactive days.</p>
-        </div>
-        <div class="rev">
-          <div class="rev-row"><span class="rev-name">In&egrave;s B. &middot; oily, acne-prone</span><span class="rev-rate">&#9733;&#9733;&#9733;&#9733;&#9733;</span></div>
-          <p class="rev-txt">Six weeks in &mdash; breakouts halved, marks fading.</p>
-        </div>
-      </div>
-      </div></div>
-    </div>
-  </div>
-
+  <!-- Bloc « Reviews » retiré le 27/08 : il était écrit en dur (4,4 étoiles, 29 431 notes,
+       citations fixes) et s'affichait à l'identique sur tous les produits. Le catalogue ne porte
+       aucune donnée d'avis. À rebrancher le jour où on en aura de vraies, par produit. -->
   <div class="section s0 why-sec">
     <span class="sec-name" style="display:block; margin-top:22px">Why this score, for you</span>
     <div class="vcard" style="margin-top:8px">
@@ -819,15 +843,23 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
         <label class="inx-tb good" for="inx-t-good"><i></i>Good <span id="d-n-good">0</span></label>
         <label class="inx-tb neu" for="inx-t-neu"><i></i>Neutral <span id="d-n-neu">0</span></label>
       </div>
+      <input type="checkbox" id="inx-all" class="rev-toggle">
       <div class="inx-list inx-bad" id="d-list-bad"></div>
       <div class="inx-list inx-good" id="d-list-good"></div>
       <div class="inx-list inx-neu" id="d-list-neu"></div>
-      <input type="checkbox" id="inx-all" class="rev-toggle">
       <label class="inx-more" for="inx-all">
         <span class="m-good">See all</span><span class="m-neu">See all</span><span class="m-less">See less</span>
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4l4 4 4-4"></path></svg>
       </label>
     </div>
+  </div>
+
+  <!-- Proposé UNIQUEMENT si la note pour la peau est sous le vert : dire « moyen » sans montrer
+       ce qui ferait mieux ne sert à rien. Trois produits du MÊME rayon, classés pour cette peau. -->
+  <div class="section s3" id="d-mieux" hidden>
+    <span class="sec-name" style="display:block">Better for your skin</span>
+    <p class="mieux-s" id="d-mieux-s">Same job, higher score for you.</p>
+    <div class="mieux-list" id="d-mieux-list"></div>
   </div>
 
   <div class="cta-wrap">
@@ -1005,28 +1037,49 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     function majWhy(vue) {
     var src = vue === "formule"
       ? f.details.filter(function(d){ return Math.abs(d.pts) >= 1; })
-          .sort(function(a,b){ return Math.abs(b.pts) - Math.abs(a.pts); }).slice(0, 5)
+          .sort(function(a,b){ return Math.abs(b.pts) - Math.abs(a.pts); })
           .map(function(d){
             // v2 : les lignes \u00ab merite \u00bb / \u00ab faute \u00bb portent d\u00e9j\u00e0 leur libell\u00e9 m\u00e9tier tout fait
             if (d.dit) { var t = d.dit.charAt(0).toUpperCase() + d.dit.slice(1); return { label: t, points: d.pts }; }
             return { label: (d.inci ? d.inci.charAt(0) + d.inci.slice(1).toLowerCase() : libelleType(d.type))
               + (d.type === "actif" ? " \u2014 proven active" : d.type === "risque" ? " \u2014 known irritant"
               : d.type === "filtres-uv" ? "" : " \u2014 " + libelleType(d.type)), points: d.pts }; })
-      : (pe.factsAffiches && pe.factsAffiches.length ? pe.factsAffiches : pe.facts.slice(0, 5));
+      : (function(){
+          // `factsAffiches` est la sélection resserrée (faits assez marquants pour être montrés
+          // d'emblée). Le « voir tout » doit ouvrir sur le RESTE, pas s'arrêter là : on met la
+          // sélection en tête, puis tous les autres faits derrière.
+          var tete = (pe.factsAffiches && pe.factsAffiches.length) ? pe.factsAffiches : [];
+          var vus = {};
+          tete.forEach(function(x){ vus[(x.inci || "") + "|" + x.label] = 1; });
+          var reste = (pe.facts || []).filter(function(x){ return !vus[(x.inci || "") + "|" + x.label]; });
+          return tete.concat(reste);
+        })();
     var aff = src;
     var w = "";
-    aff.forEach(function(x){
+    aff.forEach(function(x, i){
       var bon = (x.points || 0) > 0;
-      w += '<div class="why-row"><span class="rt-ic ' + (bon ? "good" : "bad") + '" style="flex-shrink:0">'
+      w += '<div class="why-row' + (i >= 5 ? " why-xtra" : "") + '"><span class="rt-ic ' + (bon ? "good" : "bad") + '" style="flex-shrink:0">'
         + (bon ? '<svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"/></svg>'
                : '<svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M3 3l6 6M9 3l-6 6"/></svg>')
         + '</span><p>' + x.label + ' <b>' + (x.points > 0 ? "+" : "") + (x.points === null ? "" : x.points) + '</b></p></div>';
     });
-    var total = vue === "formule" ? f.details.length : pe.facts.length;
-    var reste = total - aff.length;
-    if (reste > 0) w += '<p style="text-align:center; padding:11px 0 3px; font-size:11.5px; font-weight:700; color:var(--blue-d); cursor:pointer">See the full breakdown (' + reste + ' more)</p>';
+    // Toutes les lignes sont rendues ; celles au-delà de la 5e portent `why-xtra` et sont
+    // masquées. Le « reste » est donc ce qui est CACHÉ, pas ce qui manquerait à la liste.
+    var VISIBLES = 5;
+    var reste = Math.max(0, aff.length - VISIBLES);
+    if (reste > 0) w += '<button type="button" class="why-plus" id="d-why-plus">See the full breakdown (' + reste + ' more)</button>';
     var cible = document.getElementById("d-why");
-    if (cible) cible.innerHTML = w; else document.querySelector(".why-rows").innerHTML = w;
+    // On repart replié à chaque rendu : sinon la classe « tout » survit à une bascule de vue
+    // alors que le libellé du bouton, lui, est recréé — et les deux se contredisent.
+    if (cible) { cible.classList.remove("tout"); cible.innerHTML = w; }
+    else document.querySelector(".why-rows").innerHTML = w;
+    // Le bouton est recréé à chaque bascule de vue : on le recâble ici, jamais une seule fois
+    // au chargement — sinon il devient inerte dès qu'on passe de « My skin » à « Formula ».
+    var plus = document.getElementById("d-why-plus");
+    if (plus && cible) plus.addEventListener("click", function() {
+      var ouvert = cible.classList.toggle("tout");
+      plus.textContent = ouvert ? "Show less" : "See the full breakdown (" + reste + " more)";
+    });
     var titre = document.querySelector(".why-sec .sec-name");
     if (titre) titre.textContent = vue === "formule" ? "Why this formula score" : "Why this score, for you";
     }
@@ -1064,6 +1117,36 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
       document.getElementById("d-ing-sec").style.display = "";
     }
     afficher("perso");
+    mieuxPourToi(p, pe);
+  }
+
+  // Trois produits du MÊME rayon, mieux notés pour cette peau. Uniquement sous le vert :
+  // au-dessus, le produit scanné fait déjà l'affaire et proposer autre chose serait du bruit.
+  function mieuxPourToi(p, pe) {
+    var SEUIL = 75;
+    if (!p.categorie || p.categorie === "indetermine" || pe.score >= SEUIL) return;
+    var url = "/api/produit/alternatives?categorie=" + encodeURIComponent(p.categorie)
+            + "&exclure=" + encodeURIComponent(p.nom || "") + "&min=" + pe.score + "&n=3";
+    fetch(url).then(function(r){ return r.json(); }).then(function(d){
+      var l = (d && d.alternatives) || [];
+      if (!l.length) return;                       // rien de mieux : on n'invente pas
+      var sec = document.getElementById("d-mieux");
+      document.getElementById("d-mieux-s").textContent =
+        "Same job, better for your skin than " + pe.score + "/100.";
+      document.getElementById("d-mieux-list").innerHTML = l.map(function(a){
+        return '<button type="button" class="mieux-row" data-n="' + (a.nom || "").replace(/"/g, "&quot;") + '">'
+          + (a.image ? '<img src="' + a.image + '" alt="">' : '<span style="width:40px"></span>')
+          + '<span class="mieux-txt"><p class="mieux-n">' + (a.nom || "").replace(/</g, "&lt;") + '</p>'
+          + '<p class="mieux-m">' + (a.marque || "") + ' &middot; formula ' + a.formule + '</p></span>'
+          + '<span class="mieux-sc"><b>' + a.perso + '</b><span>for you</span></span></button>';
+      }).join("");
+      sec.querySelectorAll(".mieux-row").forEach(function(b){
+        b.addEventListener("click", function(){
+          location.href = "06-result-premium.html?p=" + encodeURIComponent(b.dataset.n);
+        });
+      });
+      sec.hidden = false;
+    }).catch(function(){});
   }
 
   source.then(function(d){ rendre(d); bandeauEtiquette(d); }).catch(function(){});
