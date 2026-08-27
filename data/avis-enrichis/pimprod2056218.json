@@ -9,58 +9,70 @@
  "lus": 80,
  "collectes": 199,
  "segments": {
-  "oily": "Reviewers with oily or combination-oily skin say the mask controls shine and reduces oiliness in the T-zone without over-drying, though one reviewer with an oily-leaning skin type still calls it 'a tad bit drying.'",
-  "dry": "Dry-skin reviewers are split: several report real dryness, dry patches, tightness, or the need to double up on moisturizer afterward, while a larger number, including some who specifically feared clay masks would over-dry them, say it left their dry skin soft and unstripped, particularly when used only about once a week.",
-  "combination": "Reviewers with combination skin describe applying the mask only where needed, such as the T-zone, and say it leaves skin soft and plump without a tight or stripped feeling, even with regular use.",
-  "sensitive": "Sensitive-skin reviewers mostly report no burning, stinging, or redness, several calling it the first clay mask that hasn't irritated them unlike others they've tried, although a couple describe tingling, burning, or temporary redness on application or removal.",
-  "mature": "The one reviewer who describes her skin as mature and postmenopausal says the mask was not overly drying, and a 44-year-old reviewer who listed fine lines among her concerns reported a visible improvement in skin texture after targeted use."
+  "oily": "Reviewers with oily or acne-prone oily skin, including combination-oily skin and one reviewer's oily-skinned husband, say the mask draws out excess oil and shine without over-drying, and several consider it best suited to oilier skin types.",
+  "dry": "Dry-skin reviewers are split: a few say the mask is too drying and left visible dry patches, but a larger group — including several who say they normally avoid clay masks — report the current formulation doesn't strip their dry skin as long as they follow up with a moisturizer.",
+  "combination": "Combination-skin reviewers, including combination-oily and combination-sensitive skin, say the mask works well, particularly when applied only to the T-zone or oilier areas.",
+  "sensitive": "Sensitive-skin reviewers, including several with rosacea, mostly report the reformulated mask doesn't burn, sting or leave redness the way other clay masks did for them, though one reviewer with sensitive skin still experienced tingling, burning and some redness.",
+  "mature": "The one reviewer who identifies as having mature, postmenopausal skin says the mask did not feel overly drying despite her skin type."
  },
  "concerns": {
-  "aging": "The single reviewer who names fine lines as one of her skin concerns, a 44-year-old, used the mask on her cheeks, nose, and fine-line areas and reported a noticeable improvement in texture, though this is the only review in the set that addresses aging directly.",
-  "dehydration": "Most reviewers, including many with dry skin, describe the mask as surprisingly non-stripping or even hydrating for a clay mask, with several saying it didn't over-dry them despite expecting it to. A smaller number disagree, reporting real dryness, dry patches, or a tight, stripped feeling, sometimes bad enough to require doubling up on moisturizer afterward.",
-  "redness": "Several reviewers say the mask calms existing redness, including one who reports it eases her rosacea and another whose usual facial redness 'is gone down completely'; sensitive-skin reviewers in particular note it caused no redness where other clay masks have. A few dissent, describing tingling, burning, or visible redness for a few minutes right after application or removal.",
-  "spots": "Reviewers who mention blackheads, especially around the nose and T-zone, consistently say the mask visibly reduces their appearance with regular, typically weekly, use.",
-  "blemishes": "Reviewers with acne-prone or breakout-prone skin generally report the mask helps, including as a spot treatment for hormonal or cystic breakouts, without triggering new blemishes for most users. Two reviewers dissent with a specific warning, saying the mask can cause the skin to 'purge,' bringing on a temporary breakout that clears up within a day.",
-  "oiliness": "Reviewers with oily or combination skin say the mask reduces shine and leaves the T-zone feeling less greasy, with one noting it worked even better on her husband's oilier skin than on her own."
+  "dehydration": "Reviewers who mention dryness or tightness are split: several say the mask leaves visible dry patches or a 'crazy dry' feeling that requires double moisturizing afterward, especially in cold or winter conditions, while others say the current formulation leaves skin soft rather than stripped, provided they moisturize right after.",
+  "redness": "Most reviewers who mention redness or rosacea say the mask calms existing redness or, unlike other clay masks they've tried, doesn't trigger new redness or irritate rosacea; a couple of reviewers still report some redness or a burning sensation immediately after use.",
+  "barrier": "A couple of reviewers specifically credit the reformulated, non-stripping version with not disrupting the skin barrier even with regular use, in contrast to how they describe older clay masks behaving.",
+  "blemishes": "Acne-prone reviewers generally say the mask dries out active blemishes and clogged pores without over-irritating, including one using it as a spot treatment during pregnancy-safe hormonal breakouts; two reviewers note it can bring underlying pimples to the surface right after use, causing a brief purge that clears up within a day.",
+  "oiliness": "Reviewers with oily or oily-combination skin consistently say the mask draws out excess oil and reduces shine, particularly when focused on the T-zone, and several consider it best suited to oilier skin types specifically."
  },
  "aspects": [
   {
-   "libelle": "Smooth, easy-to-spread texture",
+   "libelle": "Cooling sensation on application",
    "polarite": "pos",
    "concerne": []
   },
   {
-   "libelle": "Fragrance-free or very light scent",
-   "polarite": "pos",
-   "concerne": []
-  },
-  {
-   "libelle": "Mild tingling or tightness while drying",
+   "libelle": "Tingling or burning for some users",
    "polarite": "neg",
    "concerne": []
   },
   {
-   "libelle": "Dries in about ten minutes",
+   "libelle": "Dries quickly, often under 10 minutes",
    "polarite": "pos",
    "concerne": []
   },
   {
-   "libelle": "Rinses off cleanly, little residue",
+   "libelle": "Rinses off easily with no residue",
    "polarite": "pos",
    "concerne": []
   },
   {
-   "libelle": "Small amount needed, jar lasts long",
-   "polarite": "pos",
-   "concerne": []
-  },
-  {
-   "libelle": "Jar requires dipping in with fingers",
+   "libelle": "Jar packaging means scooping with fingers",
    "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Little to no fragrance",
+   "polarite": "pos",
    "concerne": []
   }
  ],
  "extraits": [
+  {
+   "note": 2,
+   "auteur": "Michele",
+   "titre": "Burned my skin!",
+   "texte": "[I received this product in exchange for my honest review] Wanted to love this, but it made my face feel like it was burning! Unsure what ingredient caused a burning sensation, but it went away after a few minutes. Once I wiped it off, I felt it start burning again.",
+   "date": "2026-03-04",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
   {
    "note": 3,
    "auteur": "Lauren",
@@ -76,15 +88,16 @@
   },
   {
    "note": 4,
-   "auteur": "Juhnay",
-   "titre": "Time for a mask?",
-   "texte": "[I received this product in exchange for my honest review] I was looking forward to testing this face mask for myself because I've heard good things. I have combo to sensitive skin I live in a dry cold climate so I only apply the mask where it's needed. Really enjoy the texture it applied very easily and stays put. I think this is nice because it doesn't feel like it's stripping my skin, while performing like it should. I try not to over use it because I want to keep my skin balanced and I think this helps with that. I agree the formula is soothing and even if I needed to use it more often I am confident it wouldn't completely damage my skin barrier. While the Amazonian Clay does draw out the impurities from my clogged pores. I know this is a more pricey product but I do believe the size of this jar will get you through your challenging times in a pinch.",
-   "date": "2026-02-12",
+   "auteur": "Catherine",
+   "titre": "Good product, just not good for me",
+   "texte": "[I received this product in exchange for my honest review] Okay so I have some mixed feelings because I love Kiehl's products and I noticed maybe the tiniest difference in my pores, but I don't think I'm the intended audience for this product. Solely because I have dry skin and this is marketed for normal, oily, and combination skin (but as I was given this product free in exchange for my review I gotta try it). It did feel nice on the skin and maybe helped a little with my redness but my skin felt so crazy dry after using it that I had to double moisturize. Overall I think it's a good product and would be helpful for others, just not the product for me. So if you have dry skin I probably wouldn't get it but I do think it works well enough.",
+   "date": "2026-01-23",
    "verifie": false,
    "utiles": 0,
-   "peau": "combination",
+   "peau": "dry",
    "sujets": [
-    "dehydration"
+    "dehydration",
+    "redness"
    ]
   },
   {
@@ -97,8 +110,9 @@
    "utiles": 1,
    "peau": "dry",
    "sujets": [
-    "aging",
-    "redness"
+    "dehydration",
+    "redness",
+    "blemishes"
    ]
   },
   {
@@ -111,43 +125,30 @@
    "utiles": 1,
    "peau": "oily",
    "sujets": [
+    "blemishes",
     "oiliness",
-    "blemishes"
-   ]
-  },
-  {
-   "note": 5,
-   "auteur": "Nance",
-   "titre": "Perfect for sensitive skin!",
-   "texte": "[I received this product in exchange for my honest review] The first mask I've tried in a very long time that didn't irritate my skin or cause a burning sensation. I've tried other clay masks and they always cause redness. This one didn't! It's very thick, as you can see in the video I uploaded but really you only need a thin layer and small amount of product to cover your whole face. I can see this jar lasting a long time. It dries fast and is easy to remove with a washcloth or even with just warm water. My skin didn't feel dry and stretched out either. It felt moisturized even before applying my moisturizer! I haven't noticed any difference in the size of my pores though but my skin did feel very refreshed, clean and soft so I can only expect good things to come of using this product. My skin loved it.",
-   "date": "2026-01-22",
-   "verifie": false,
-   "utiles": 0,
-   "peau": "sensitive",
-   "sujets": [
     "redness"
    ]
   },
   {
    "note": 5,
-   "auteur": "Patricia",
-   "titre": "Cleans pores, not drying",
-   "texte": "I have dry skin that isn't particularly sensitive, but I am acne-prone and struggle with blackheads, especially around my nose, T-zone, and chin. I was pleasantly surprised by how effective this mask is without feeling harsh or over-irritating. It draws out impurities and visibly clears blackheads, leaving my pores looking cleaner and more refined. It rinses off easily with no residue and has little to no scent, just a subtle natural clay smell. While it feels slightly tightening as it dries, following up with a good moisturizer leaves my skin feeling balanced rather than stripped. The sturdy, high-quality packaging makes it easy to use, and with weekly use, my pores look noticeably clearer.",
-   "date": "2026-01-31",
+   "auteur": "Rebecca",
+   "titre": "Love this mask",
+   "texte": "[I received this product in exchange for my honest review] This mask comes in a clean container and is easy to apply after cleansing due to its creamy texture. It's light on my skin with no strong scent. There is a strong tingling/cooling feeling around my nose when I first put it on and while it was drying, and then a refreshing mild cool feeling stays for the rest of the 10 minutes. It dried very quickly, so it doesn't make a mess and is a quick and easy step added to my PM routine now. I started with putting this around my nose, forehead and cheeks at night, where my large pores bother me the most, and then started using it on my whole face every night. My skin is sensitive and dry and not oily, so I didn't see a big difference with my pore, but this mask left my skin feeling very soft. My skin did not feel dried out at all, but I did follow it up with my moisturizer. I probably wouldn't have purchased this due to the price, but after trying it, I will order some once this is all used up and continue to use this as part of my PM routine.",
+   "date": "2026-01-23",
    "verifie": false,
    "utiles": 0,
    "peau": "dry",
    "sujets": [
-    "spots",
-    "blemishes"
+    "dehydration"
    ]
   },
   {
    "note": 5,
-   "auteur": "Cindy",
-   "titre": "A must in your routine!",
-   "texte": "[I received this product in exchange for my honest review] Such a treat for your skin! It did well getting rid of my blackheads. It did make my skin purge a bit so be prepared to deal with that. However, after the breakouts, my skin looked so smooth. As for application, it applies well as a thin layer and easily builds up. Remember to only leave it on for the specified time to not dry out your skin. It also washes off well without much residue.",
-   "date": "2026-02-13",
+   "auteur": "Tia",
+   "titre": "Pulls out impurities",
+   "texte": "[I received this product in exchange for my honest review] So this mask is a hit for me. It draws out all the impurity and leaves your skin feeling clean and pores less noticeable. It dries really fast but it doesn't pull tight like some clay mask. It's very comfortable but I will say if you have anything lurking under the surface like pimples or anything this mask will draw it out so you may notice a breakout afterwards but it goes away within a day",
+   "date": "2026-01-29",
    "verifie": false,
    "utiles": 0,
    "peau": null,

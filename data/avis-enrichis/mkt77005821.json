@@ -1,0 +1,158 @@
+{
+ "ref": "mkt77005821",
+ "asin": null,
+ "pid": "mkt77005821",
+ "source": "ulta",
+ "nom": "Timebeam Sunbeam Daily Mineral Sunscreen Broad Spectrum SPF 50",
+ "note": 4.55,
+ "nbAvis": 123,
+ "lus": 80,
+ "collectes": 122,
+ "segments": {
+  "oily": "Reviewers with oily skin or an oily T-zone describe the formula as surprisingly non-greasy and not oil-slicking, though one noted a shiny finish right after application that settled as it absorbed.",
+  "dry": "The one reviewer who describes her skin as dry, mature, and textured says the formula feels good and leaves a healthy glow.",
+  "combination": "Reviewers with combination skin are split: several describe it as lightweight and hydrating even across an oily T-zone and drier areas, while two say it left their skin extremely dry and flaky, especially without a moisturizer underneath.",
+  "sensitive": "Reviewers with sensitive skin report no irritation, stinging, or redness even close to the eyes, and several specifically value that the formula is fragrance-free.",
+  "mature": "The one reviewer who calls her skin mature and textured describes the formula as feeling and looking good, like 'skincare with sunscreen.'"
+ },
+ "concerns": {
+  "dehydration": "Most reviewers, including several with combination or oily skin, describe the formula as hydrating with a dewy finish and no greasy after-feel, with a few saying it let them skip a separate moisturizer; two reviewers with combination skin found it left their skin extremely dry and flaky, particularly when worn without a moisturizer underneath.",
+  "redness": "A reviewer with recurring redness flare-ups found the formula soothing rather than irritating, and several others report no redness, stinging, or discomfort even close to the eyes; one reviewer prone to sunburn and pigmentation says her skin reacted better than usual after sun exposure.",
+  "spots": "One reviewer prone to sun-triggered pigmentation reports reacting better than usual with no redness after sun exposure, and two others say the pink-tinted formula visually evens out their skin tone as it blends in, though that reads as the tint's effect rather than a treatment claim.",
+  "blemishes": "Most reviewers who address breakouts, including one with combination skin worried about blackheads and one with acne-prone skin, report the formula is noncomedogenic and did not cause new blemishes; one reviewer noted new forehead congestion after starting it but had also changed her diet around the same time and wasn't sure of the cause.",
+  "oiliness": "A reviewer with a very oily T-zone expected the 'dewy' formula to leave her looking like 'an oil field' as other sunscreens do, and instead found it kept her oiliness in check overall, though she noted looking shiny immediately after application; two other reviewers with oily skin also report no added grease or shine through the day."
+ },
+ "aspects": [
+  {
+   "libelle": "Cap is hard to twist open",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast on any skin tone",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup, no pilling",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent noticeable despite fragrance-free claim",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cute, purse-friendly packaging design",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Cait",
+   "titre": "Very drying",
+   "texte": "This unfortunately didn't work for me it made my combination skin extremely dry & flakey. I wanted to love it. Great packaging & a little mixer ball which I thought was innovative. But not matter why I used under it for serum & moisturizer it dried my skin out extremely bad. Bummed it won't work.",
+   "date": "2026-04-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Colette",
+   "titre": "On the fence",
+   "texte": "I use this as the last step in my morning face routine. The texture of the spf is nice and it isn't heavy or greasy, and it provides a very subtle glow. The bottle, however, has been a struggle. I found the cap incredibly difficult to get off initially, and even now that I've figured it out, it's still a bit of a daily battle! The dispensing is also inconsistent; sometimes the product flows easily, while other times it feels like it's getting clogged or stuck. It definitely isn't the most user friendly design. In terms of skin health, I'm still on the fence. I've noticed some new congestion and breakouts on my forehead since starting this. I have been making small tweaks to my diet as well, so it is hard to pinpoint right now what is causing this, but still felt it worth mentioning. I did receive this product as part of an educational promotion.",
+   "date": "2026-03-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cb084",
+   "titre": "Kept very oily t-zone in check!",
+   "texte": "i know hiw damaging the sun can be for your skin in aging you and also for cancer risk,so i wear it daily. Through the years I have tried and failed on so many pricey medical grade and over the counter skincare SPF since I have a very oily t-zone…which sunscreens tend to amplify whether theyre tinted, mineral, or anything else…even with a mattifying setting spray and powder. So when i got selected to test this product as a part of an educational promotion, I was honestly instantly disappointed when i saw \"dewy\" in it's description. Dewy anything on me usually equals my face looking an oil field. I am completely shocked that it was completely opposite of this! First impression was that it came in super girly and cute pink bottle. It's cuteness was trying to decieve me I thought. It has a shaker ball that mixes it up, and feels like it dies the job well since it feels heavier when you shake it. Dispensing it into my fingers made me doubt it again because it looked like chalky pink version of the white pearly mineral sunscreen versions that always made my face look oil glazed and shinier. It felt nice and nourishing while rubbing it in and was on the thicker side. The pearly chalky color went away as it absorbed but It definitely made me look shiny as heck immediately after. There is a slight smell to it, but it's not fragrance. More of like a very faint natural medicinal plant. It's not bad smelling, but i tend to like lightly fragranced facial products since im not sensitive t",
+   "date": "2026-03-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lorin",
+   "titre": "Glowy hydrating dewy sunscreen!",
+   "texte": "Product was received as part of an educational promotion. As a child of the 90s, I grew up without wearing sunscreen and constant burns throughout my childhood. Because of this, I've always hated sunscreen. Now as a mom in my thirties, I fully understand the importance of sun protection & was so happy to use Sunbeam Daily Mineral Sunscreen Broad Spectrum SPF 50. I love it and will probably purchase it in the future! The lotion comes out pink in color, applies white, and absorbs very quickly into my skin. There are no white streaks & it dissolves into a dewy glow! I've never loved a sunscreen so much. It is hydrating and non-irritating. I have been having some redness flare ups and this has been amazing! It claims it is \"lightweight, fragrance free and non greasy,\" and this is absolutely the truth! It is a smaller size package, but a little goes a long way. It also allows one step skincare application, as you won't need to apply a serum or lotion with it if you don't want to. It really is an awesome product!",
+   "date": "2026-03-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dinara",
+   "titre": "My New Favorite Daily SPF ☀️",
+   "texte": "This SPF honestly surprised me in a really good way. At first, I was drawn to the look — it's stylish, feels nice in the hand, and the color of the packaging immediately caught my attention. But what really matters is how it performs on the skin. It goes on smoothly, doesn't leave a white cast (which is rare for mineral sunscreens), doesn't pill, and doesn't make my face greasy. Instead, it leaves a light, healthy glow. My skin burns very easily and tends to develop pigmentation, so I take sun protection seriously. With this sunscreen, I feel much more at ease — I've used it several times in the sun, and my skin reacted much better than usual. No redness or неприятных последствий. Overall, it's one of those rare SPFs that you actually want to use every day, not something you have to force yourself to apply. I'll definitely be repurchasing and highly recommend it! I received this as a part of an educational promotion.",
+   "date": "2026-03-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristy",
+   "titre": "I love this mineral based sunscreen!",
+   "texte": "If I find a sunscreen that doesn't cause irritation or numbs for me, it's a lottery wining. My face is extremely sensitive to sunscreens however I've found that mineral sunscreens work best and this one is great. It apply evenly, smooth and I noticed no white cast. I used it both without makeup and with. It did not cause any problems with my makeup application. I liked it without makeup too because I feel like it gave me skin a glow. I spend a lot of time outside everyday so I'm always looking for the best sunscreen product. Honestly, this one gets a 10/10 for me. The only other sunscreen I've ever found I like for my face is the Caudalie but it's very watery and liquid which makes it difficult to apply. This one is a thicker texture but not too thick. I definitely recommend for those looking for a mineral based sunscreen.",
+   "date": "2026-03-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nicole",
+   "titre": "Beyond glowy, this is skincare.",
+   "texte": "This sunbeam daily mineral sunscreen is so beautiful, I love the pink color. I think it works as a color corrector on the skin, after I apply my skin looks more evened out. This feels lightweight on your skin. I did not find a chemical smell whatsoever since it's mineral based. This is ski care with sunscreen, it feels good and looks good on. Love it has niacinamide, vitamin C and green tea. Along with the potent antioxidant. The size of the package is just perfect to throw in your bag. It fits in a little pocket in your purse, so it's easy to find. If you are into a glow this sunscreen is for you. I love it and recommend it. I have dry, mature, textured skin. Gifted for educational purposes",
+   "date": "2026-03-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}
