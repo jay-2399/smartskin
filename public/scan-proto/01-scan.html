@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SmartSkin">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+<title>SmartSkin AI — Scan a product</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --ink:#1A1D21; --cloud:#EDEFF7; --smoke:#D3D6E0; --steel:#BCBFCC;
+  --space:#9DA2B3; --graphite:#6E7180;
+  --blue:#A6C3D6; --blue-d:#6E9AB6;
+  --fd:'Manrope',sans-serif; --fm:'Manrope',sans-serif;
+}
+html { background:#DEE0E5; -webkit-font-smoothing:antialiased; }
+body { font-family:var(--fd); color:#fff; min-height:100dvh; display:flex; justify-content:center; align-items:flex-start; }
+
+/* conteneur fluide : plein écran mobile, mockup encadré ≥480px */
+.phone { position:relative; width:100%; max-width:430px; min-height:100dvh;
+  background:#101216; overflow:hidden; z-index:0; isolation:isolate;
+  display:flex; flex-direction:column; }
+@media (min-width:480px) {
+  body { padding:40px 16px 80px; }
+  .phone { min-height:860px; border-radius:52px;
+    box-shadow:0 0 0 1px rgba(0,0,0,0.07),0 4px 8px rgba(0,0,0,0.05),0 32px 80px rgba(0,0,0,0.28),0 12px 32px rgba(0,0,0,0.12); }
+}
+
+/* ── CAMERA STAGE ── */
+video.cam { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:-2; display:none; }
+body.live video.cam { display:block; }
+/* fallback démo : rayon simulé (dégradé froid + produit dans le réticule) */
+.stage-demo { position:absolute; inset:0; z-index:-2; display:none;
+  background:
+    radial-gradient(60% 42% at 50% 30%, rgba(166,195,214,0.20), transparent 70%),
+    radial-gradient(50% 36% at 18% 88%, rgba(157,188,166,0.12), transparent 70%),
+    linear-gradient(170deg,#23272E 0%,#14161B 58%,#0E1013 100%); }
+body.demo .stage-demo { display:block; }
+/* vignette permanente pour lisibilité de l'UI */
+.vignette { position:absolute; inset:0; z-index:-1; pointer-events:none;
+  background:
+    linear-gradient(to bottom, rgba(10,12,15,0.62) 0%, rgba(10,12,15,0) 22%),
+    linear-gradient(to top,    rgba(10,12,15,0.72) 0%, rgba(10,12,15,0) 30%),
+    radial-gradient(120% 90% at 50% 46%, rgba(10,12,15,0) 52%, rgba(10,12,15,0.42) 100%); }
+
+/* ── NAV ── */
+.nav { position:relative; z-index:5; display:flex; justify-content:space-between; align-items:center;
+  padding:calc(env(safe-area-inset-top) + 26px) 24px 14px; }
+.nav-back { width:44px; height:44px; border-radius:50%;
+  background:linear-gradient(180deg, rgba(255,255,255,0.20), rgba(255,255,255,0.08));
+  -webkit-backdrop-filter:blur(14px) saturate(1.5); backdrop-filter:blur(14px) saturate(1.5);
+  border:1px solid rgba(255,255,255,0.30);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.30), 0 2px 8px rgba(0,0,0,0.30);
+  display:flex; align-items:center; justify-content:center; color:#fff; cursor:pointer; }
+.nav-back:focus-visible { outline:2px solid var(--blue); outline-offset:2px; }
+.nav-logo { position:absolute; left:50%; top:calc(env(safe-area-inset-top) + 26px); transform:translateX(-50%);
+  height:44px; display:flex; align-items:center; pointer-events:none; }
+.nav-logo img { height:30px; width:auto; display:block; }
+.nav-spacer { width:44px; height:44px; }
+
+/* ── EYEBROW ── */
+.mode { position:relative; z-index:5; display:flex; justify-content:center; margin-top:6px;
+  animation:rise .5s cubic-bezier(.22,1,.36,1) both .1s; }
+.mode-chip { font-family:var(--fm); font-size:9px; letter-spacing:0.18em; text-transform:uppercase; color:rgba(255,255,255,0.78);
+  background:linear-gradient(180deg, rgba(255,255,255,0.16), rgba(255,255,255,0.06));
+  -webkit-backdrop-filter:blur(12px) saturate(1.4); backdrop-filter:blur(12px) saturate(1.4);
+  border:1px solid rgba(255,255,255,0.24); border-radius:100px; padding:8px 14px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.22); display:inline-flex; align-items:center; gap:8px; }
+.mode-chip i { width:6px; height:6px; background:var(--blue); border-radius:50%; box-shadow:0 0 8px rgba(166,195,214,0.9); }
+
+/* ── RETICLE ── */
+.stage { position:relative; z-index:4; flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px 34px; }
+.reticle { position:relative; width:100%; max-width:280px; aspect-ratio:3/4; animation:breathe 3.6s ease-in-out infinite; }
+.reticle span.rt { position:absolute; width:34px; height:34px; border:2.5px solid rgba(255,255,255,0.92);
+  filter:drop-shadow(0 1px 6px rgba(0,0,0,0.4)); }
+.reticle span.rt-tl { top:0; left:0; border-right:0; border-bottom:0; border-radius:10px 0 0 0; }
+.reticle span.rt-tr { top:0; right:0; border-left:0; border-bottom:0; border-radius:0 10px 0 0; }
+.reticle span.rt-bl { bottom:0; left:0; border-right:0; border-top:0; border-radius:0 0 0 10px; }
+.reticle span.rt-br { bottom:0; right:0; border-left:0; border-top:0; border-radius:0 0 10px 0; }
+@keyframes breathe { 0%,100% { transform:scale(1); } 50% { transform:scale(1.015); } }
+/* produit de démo dans le réticule (mode demo uniquement) */
+.rt-product { position:absolute; inset:6% 20%; display:none; align-items:center; justify-content:center; }
+body.demo .rt-product { display:flex; }
+.rt-product svg { width:52%; max-height:100%; filter:drop-shadow(0 18px 30px rgba(0,0,0,0.5)); }
+.demo-chip { position:absolute; left:50%; bottom:-44px; transform:translateX(-50%); white-space:nowrap;
+  font-family:var(--fm); font-size:8.5px; letter-spacing:0.1em; text-transform:uppercase; color:rgba(255,255,255,0.55);
+  border:1px dashed rgba(255,255,255,0.28); border-radius:100px; padding:6px 12px; display:none; }
+body.demo .demo-chip { display:block; }
+
+/* ── QUALITY TICKS ── */
+.ticks { position:relative; z-index:5; display:flex; justify-content:center; gap:8px; margin-top:26px;
+  animation:rise .5s cubic-bezier(.22,1,.36,1) both .2s; }
+.tick { font-family:var(--fm); font-size:8.5px; letter-spacing:0.12em; text-transform:uppercase; color:rgba(255,255,255,0.55);
+  background:linear-gradient(180deg, rgba(255,255,255,0.13), rgba(255,255,255,0.05));
+  -webkit-backdrop-filter:blur(10px) saturate(1.4); backdrop-filter:blur(10px) saturate(1.4);
+  border:1px solid rgba(255,255,255,0.20); border-radius:100px; padding:7px 12px;
+  display:inline-flex; align-items:center; gap:7px; transition:color .3s, border-color .3s, background .3s; }
+.tick i { width:5px; height:5px; border-radius:50%; background:transparent; box-shadow:inset 0 0 0 1.2px rgba(255,255,255,0.5); transition:all .3s; }
+.tick.ok { color:#fff; border-color:rgba(166,195,214,0.55); background:linear-gradient(180deg, rgba(166,195,214,0.28), rgba(166,195,214,0.10)); }
+.tick.ok i { background:var(--blue); box-shadow:0 0 8px rgba(166,195,214,0.9); }
+
+/* ── HINT + SHUTTER ── */
+.foot { position:relative; z-index:5; padding:18px 24px calc(env(safe-area-inset-bottom) + 30px);
+  display:flex; flex-direction:column; align-items:center; gap:18px; }
+.hint { font-weight:600; font-size:14px; letter-spacing:-0.01em; color:rgba(255,255,255,0.92); text-align:center;
+  text-shadow:0 1px 8px rgba(0,0,0,0.5); animation:rise .5s cubic-bezier(.22,1,.36,1) both .28s; }
+.shutter { width:76px; height:76px; border-radius:50%; border:none; cursor:pointer; position:relative;
+  background:linear-gradient(180deg, rgba(255,255,255,0.24), rgba(255,255,255,0.10));
+  -webkit-backdrop-filter:blur(14px) saturate(1.5); backdrop-filter:blur(14px) saturate(1.5);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.35), 0 0 0 2.5px rgba(255,255,255,0.9), 0 10px 28px rgba(0,0,0,0.45);
+  transition:transform .15s, opacity .3s; animation:rise .5s cubic-bezier(.22,1,.36,1) both .34s; }
+.shutter::after { content:''; position:absolute; inset:9px; border-radius:50%;
+  background:linear-gradient(180deg,#FFFFFF 0%,#E8ECF2 100%);
+  box-shadow:inset 0 -2px 5px rgba(40,55,75,0.25); transition:opacity .3s; }
+.shutter:active { transform:scale(0.93); }
+.shutter:disabled { opacity:0.38; cursor:not-allowed; }
+.shutter:focus-visible { outline:2px solid var(--blue); outline-offset:4px; }
+.alt { font-weight:500; font-size:12.5px; color:rgba(255,255,255,0.62); text-decoration:none; letter-spacing:-0.005em;
+  border-bottom:1px solid rgba(255,255,255,0.25); padding-bottom:2px; cursor:pointer; animation:rise .5s cubic-bezier(.22,1,.36,1) both .4s; }
+.alt:hover { color:#fff; }
+.alt:focus-visible { outline:2px solid var(--blue); outline-offset:3px; }
+
+/* flash de capture */
+.flash { position:absolute; inset:0; z-index:50; background:#fff; opacity:0; pointer-events:none; }
+.flash.go { animation:flash .5s ease both; }
+@keyframes flash { 0% { opacity:0; } 18% { opacity:0.95; } 100% { opacity:0; } }
+
+/* labels utilitaires : Manrope demande plus de graisse que l'ex-mono à ces tailles */
+.mode-chip, .tick, .demo-chip { font-weight:600; }
+
+@keyframes rise { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
+@media (prefers-reduced-motion: reduce) {
+  .reticle { animation:none; }
+  .mode, .ticks, .hint, .shutter, .alt { animation:none; }
+}
+</style>
+</head>
+<body>
+<div class="phone">
+
+  <video class="cam" autoplay playsinline muted></video>
+  <div class="stage-demo"></div>
+  <div class="vignette"></div>
+  <div class="flash" id="flash"></div>
+
+  <div class="nav">
+    <div class="nav-back" role="button" tabindex="0" onclick="history.back()" aria-label="Back">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"/></svg>
+    </div>
+    <div class="nav-logo"><img src="logo-smartskin-white.png" alt="SmartSkin AI"></div>
+    <div class="nav-spacer"></div>
+  </div>
+
+  <div class="mode"><span class="mode-chip"><i></i>Product scan</span></div>
+
+  <div class="stage">
+    <div class="reticle">
+      <span class="rt rt-tl"></span><span class="rt rt-tr"></span><span class="rt rt-bl"></span><span class="rt rt-br"></span>
+      <div class="rt-product">
+        <svg viewBox="0 0 120 260" aria-hidden="true">
+          <rect x="49" y="6" width="22" height="36" rx="5" fill="#23262B"/>
+          <rect x="44" y="42" width="32" height="9" rx="3" fill="#3A3E45"/>
+          <rect x="31" y="51" width="58" height="196" rx="11" fill="#F4F6F9"/>
+          <rect x="31" y="51" width="58" height="196" rx="11" fill="url(#shine)" opacity="0.5"/>
+          <defs><linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff"/><stop offset=".45" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#C9CFD9"/></linearGradient></defs>
+          <text x="60" y="118" text-anchor="middle" font-family="Manrope,sans-serif" font-weight="700" font-size="8.5" fill="#1A1D21">The Ordinary.</text>
+          <text x="60" y="140" text-anchor="middle" font-family="Manrope,sans-serif" font-weight="800" font-size="9" fill="#1A1D21">Niacinamide 10%</text>
+          <text x="60" y="152" text-anchor="middle" font-family="Manrope,sans-serif" font-weight="600" font-size="7.5" fill="#6E7180">+ Zinc 1%</text>
+          <text x="60" y="176" text-anchor="middle" font-family="Manrope,sans-serif" font-size="4.6" fill="#9DA2B3">HIGH-STRENGTH VITAMIN AND</text>
+          <text x="60" y="184" text-anchor="middle" font-family="Manrope,sans-serif" font-size="4.6" fill="#9DA2B3">MINERAL BLEMISH FORMULA</text>
+          <text x="60" y="226" text-anchor="middle" font-family="Manrope,sans-serif" font-size="5" fill="#BCBFCC">30 ml e 1 fl oz</text>
+        </svg>
+      </div>
+      <span class="demo-chip">Demo mode — camera unavailable</span>
+    </div>
+  </div>
+
+  <div class="foot">
+    <p class="hint" id="hint">Center the front of the product</p>
+    <button class="shutter" id="shutter" disabled aria-label="Capture"></button>
+    <label class="alt" for="upload" role="button" tabindex="0">Upload a photo instead</label>
+    <a class="alt" href="08-search.html" style="margin-top:-4px">Or search by name</a>
+    <input type="file" id="upload" accept="image/*" hidden>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  var video = document.querySelector('video.cam');
+  var shutter = document.getElementById('shutter');
+  var hint = document.getElementById('hint');
+
+  function boot(mode){
+    document.body.classList.add(mode);
+    /* le déclencheur s'arme après un court temps de stabilisation */
+    setTimeout(function(){
+      shutter.disabled = false;
+      hint.textContent = 'Hold steady — tap to capture';
+    }, 1200);
+  }
+
+  if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+    navigator.mediaDevices.getUserMedia({ video:{ facingMode:'environment', width:{ ideal:1920 }, height:{ ideal:1080 } }, audio:false })
+      .then(function(stream){ video.srcObject = stream; boot('live'); })
+      .catch(function(){ boot('demo'); });
+  } else { boot('demo'); }
+
+  /* la photo capturée voyage jusqu'aux résultats via sessionStorage (jetée à la fermeture de l'onglet) */
+  function savePhoto(dataUrl){ try { sessionStorage.setItem('ss-scan-photo', dataUrl); } catch(e){} }
+  function go(){
+    document.getElementById('flash').classList.add('go');
+    setTimeout(function(){ location.href = '07-confirm.html'; }, 420);
+  }
+
+  shutter.addEventListener('click', function(){
+    try {
+      if (document.body.classList.contains('live') && video.videoWidth) {
+        var scale = Math.min(1, 900 / video.videoHeight);
+        var c = document.createElement('canvas');
+        c.width = Math.round(video.videoWidth * scale);
+        c.height = Math.round(video.videoHeight * scale);
+        c.getContext('2d').drawImage(video, 0, 0, c.width, c.height);
+        savePhoto(c.toDataURL('image/jpeg', 0.85));
+      } else { sessionStorage.removeItem('ss-scan-photo'); }
+    } catch(e){}
+    go();
+  });
+
+  document.getElementById('upload').addEventListener('change', function(){
+    var f = this.files && this.files[0];
+    if (!f) return;
+    var img = new Image();
+    img.onload = function(){
+      var scale = Math.min(1, 900 / Math.max(img.width, img.height));
+      var c = document.createElement('canvas');
+      c.width = Math.round(img.width * scale);
+      c.height = Math.round(img.height * scale);
+      c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+      savePhoto(c.toDataURL('image/jpeg', 0.85));
+      URL.revokeObjectURL(img.src);
+      go();
+    };
+    img.src = URL.createObjectURL(f);
+  });
+})();
+</script>
+</body>
+</html>
