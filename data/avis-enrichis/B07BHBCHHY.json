@@ -1,0 +1,138 @@
+{
+ "asin": "B07BHBCHHY",
+ "nom": "Acne Free Terminator 10 Acne Spot Treatment With Benzoyl Peroxide 10% Maximum Strength Acne Cream Treatment",
+ "note": 4.6,
+ "nbAvis": 758,
+ "lus": 8,
+ "collectes": 8,
+ "segments": {
+  "sensitive": "The one reviewer with sensitive skin reports it works well for her as long as she applies moisturizer first, since using it without that step dries her skin out.",
+  "dry": "The same reviewer with dry skin reports good results once she learned to pair it with a moisturizer beforehand, without which it dries her skin out."
+ },
+ "concerns": {
+  "dehydration": "Reviewers disagree on this point: two say it will dry out the skin with regular all-over use unless paired with a moisturizer applied first, while another long-term user reports it doesn't make her face feel dry at all.",
+  "blemishes": "Most reviewers, including two describing persistent adult acne, report it clears breakouts effectively and better than pricier alternatives they've tried, though one reviewer reports it simply didn't work for her."
+ },
+ "aspects": [
+  {
+   "libelle": "Can stain or bleach towels and fabric",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Budget-friendly compared to pricier acne treatments",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works quickly with visible results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Some orders arrive as the wrong product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Flexible to use as a spot treatment or all over the face",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Dr K",
+   "titre": "Ruins Towels",
+   "texte": "I bought this product at Walmart and let me just say, be careful!!! It ruined $20 worth of towels for me. Oh, and it doesn't even work either. There are much better products out there that don't contain Benzoyl Peroxide.",
+   "date": "June 12, 2024",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Renee D.",
+   "titre": "Product misrepresented",
+   "texte": "Rather than receiving the product as ordered (Terminator Acne Treatment). We received lotions within the packaging. Too much hassle to send back.",
+   "date": "June 15, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "LittleGrabbies",
+   "titre": "Best value and results!!",
+   "texte": "I am 26 years old and still experience acne if I don't pay special attention to my skin every morning and evening. I have tried nearly everything, from prescription benzoyl peroxide to other chemicals and organic/natural treatments. This stuff is the best I've found, not just in its price range, but out of everything. It is head and shoulders above much more expensive options. A couple notes: - You can use this as a spot treatment or all over your face (I use it all over). - You can use this anywhere from once every other day to twice a day (I use it twice a day when breaking out and every other day when my skin is clear). - This WILL cause dryness if you use it regularly all over your face. Make sure you have a reliable moisturizer (a deep-penetrating night moisturizer and one with an SPF for daytime is best). - For best results (but also more dryness), you can pair with a toner or astringent.",
+   "date": "November 15, 2018",
+   "verifie": true,
+   "utiles": 22,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ALY4561 ",
+   "titre": "Works great",
+   "texte": "This product works great for me But before you put it on your face make sure you use moisturizer first then add it because you put it with out moisture it will dry out your skin . I have sensitive and dry skin i just know how to use it . Great product Con:make sure you have a special clothes because it will mess up all of your towel just have one for your face when you drying your face .",
+   "date": "June 27, 2022",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Christopher.",
+   "titre": "Great product.",
+   "texte": "I have been using this product for a few years. I really like it because it works well for me. It is more budget friendly than some other products out their that I have tried and don't work. It also doesn't make my face feel dry.",
+   "date": "January 6, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "michelle kovacs",
+   "titre": "This stuff works really well",
+   "texte": "It’s a shame that even though I am an adult I managed to still get acne, but, this stuff works absolutely fantastic",
+   "date": "November 30, 2025",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anne Savage",
+   "titre": "A must have!",
+   "texte": "My husband has a lifelong problem with acne, and this product is the only one that is effective. Can't find it at Walmart anymore...😔",
+   "date": "December 31, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Only 8 reviews are available for a product with 758 total, and only one names a specific skin type, so this reading — especially the sensitive and dry skin segments — rests on very limited evidence."
+}

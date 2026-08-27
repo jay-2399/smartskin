@@ -1,0 +1,135 @@
+{
+ "asin": "B0DDBZ7Z74",
+ "nom": "Curology Hydration Serum",
+ "note": 4,
+ "nbAvis": 61,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {
+  "combination": "One reviewer with combination skin reports it hydrates and plumps her skin, pairing well with her night cream for a hydrated glow by morning.",
+  "sensitive": "Reviewers with sensitive skin, including one allergic to fragrance, report they appreciate the fragrance-free formula and good hydration with no issues."
+ },
+ "concerns": {
+  "dehydration": "Nearly every reviewer reports strong, fast-absorbing hydration that leaves skin soft, plump and supple, with one reviewer saying the Curology moisturizer impressed her more than this serum did.",
+  "blemishes": "One reviewer with fungal acne who bought it mainly for the urea reports no issues but hasn't noticed clear additional benefits yet, while another reports her face has stayed smooth and blemish-free since using it."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Glass dropper bottle seen as clean and hygienic",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value, a little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "One reviewer received an already-opened, partially used bottle",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "lovie",
+   "titre": "Already opened and used product",
+   "texte": "Disgusting! I was sold a used product. At least a quarter of the product was used",
+   "date": "January 18, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 3,
+   "auteur": "Jackie",
+   "titre": "Love the Curology moisturizer but this doesnt seem too impressive",
+   "texte": "Love the Curology moisturizer but this doesnt seem too impressive",
+   "date": "April 17, 2025",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Amazing-zon",
+   "titre": "I love urea.",
+   "texte": "Honestly, I primarily purchased this product because it contains Urea, which I really like, especially since I have fungal acne. So far, I haven't noticed any issues with it. While I can't say I've experienced any additional benefits yet, I will continue using it as long as I don't encounter any negative side effects.",
+   "date": "April 26, 2025",
+   "verifie": true,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Betty G.",
+   "titre": "Love this hyaluronic acid serum!",
+   "texte": "I’ve tried several different brands of hyaluronic acid. Due to my sensitive skin, I do appreciate that CUROLOGY offers this! I would recommend if you’re using any CUROLOGY brand skincare.",
+   "date": "January 14, 2025",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Placeholder",
+   "titre": "Fragrance Free, Clean Ingredients In a Glass Bottle",
+   "texte": "I appreciate the clean ingredients and packaging of this bottle of hyaluronic from Curology. The bottle came packaged in a cardboard box with no additional plastic (yay!). The hyaluronic itself has a smooth and goes on with a glass dropper. It has a faint medicinal odor but no fragrance, which I'm very appreciative of since I am allergic and sensitive to fragrance. It makes no sense to me why people put allergens like fragrance in products that you put on your face! Nice hydration from a known brand.",
+   "date": "February 4, 2025",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amazon Customer",
+   "titre": "Perfect for my combo skin!",
+   "texte": "This serum is absolutely amazing, hydrating and plumping what it feels like. Soaks up fairly quickly and leaves skin soft and smooth, plus works so nicely with my night cream, it’s definitely my goodnight sleep for my skin. I love that my skin agrees with it so much and definitely having this rested and hydrated glow in the morning! Great quality and definitely effective, love this!",
+   "date": "January 21, 2025",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Samantha Martinez",
+   "titre": "Terrific product",
+   "texte": "I absolutely love this product! My face has been very smooth and blemish free, not sure if that was the intended outcome but it is! I will be buying another bottle.",
+   "date": "April 22, 2025",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Only a small number of reviews are available, so patterns by skin type and by concerns beyond hydration rest on limited data."
+}

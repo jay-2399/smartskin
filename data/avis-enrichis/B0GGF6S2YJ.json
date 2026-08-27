@@ -1,0 +1,75 @@
+{
+ "asin": "B0GGF6S2YJ",
+ "nom": "e11ement Hypochlorous Acid Spray for Skin",
+ "note": 4.6,
+ "nbAvis": 101,
+ "lus": 3,
+ "collectes": 3,
+ "segments": {},
+ "concerns": {
+  "redness": "The one reviewer who addresses this reports using the spray to calm irritated skin and scalp after sun exposure.",
+  "dehydration": "The one reviewer who addresses this reports her skin feels clean rather than tight or dry after use."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, water-like texture that leaves no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way across repeat purchases",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Versatile: used before a routine, post-gym, or as a daily refresh",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can be used on the scalp as well as the face",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Don",
+   "titre": "Great skin care tool!",
+   "texte": "This is the second bottle I’ve ordered. It’s great for calming irritated skin, including the scalp, after the sun. A great tool to have in your medicine cabinet.",
+   "date": "July 12, 2026",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Briana Andrade",
+   "titre": "10/10 PRODUCT",
+   "texte": "I will forever repurchase this. I use it before my skincare routines, after the gym, daily whenever I need a refresh.",
+   "date": "August 9, 2026",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Willa",
+   "titre": "Obsessed",
+   "texte": "I’m literally OBSESSED with this stuff. I’ve now purchased 3 times. A little bit goes a long way. It leaves no residue and is light as water. My skin feels clean without feeling taut. Love love love and highly recommend.",
+   "date": "August 24, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "Only three reviews were supplied, none stating a skin type, so this reading is too thin to draw reliable conclusions."
+}

@@ -1,0 +1,128 @@
+{
+ "asin": "B0D14X62VG",
+ "nom": "Neutrogena Deep Clean Gentle Daily Facial Scrub",
+ "note": 4.6,
+ "nbAvis": 7583,
+ "lus": 19,
+ "collectes": 20,
+ "segments": {
+  "oily": "The one long-time reviewer with oily skin reports the classic formula worked perfectly for 15 years, but says the reformulated version leaves her skin feeling oily and greasy instead of clean.",
+  "dry": "The one reviewer with dry skin reports it lifts dirt effectively without a strong scent and suits her skin well.",
+  "sensitive": "Multiple reviewers with sensitive skin report it is gentle enough not to burn or dry out their skin, with several calling it a reliable, non-harsh daily option.",
+  "mature": "The reviewer over 50 who has used this for two decades credits it with skin so smooth that people don't believe her age, though she advises going lightly at first since it can feel harsh initially."
+ },
+ "concerns": {
+  "dehydration": "Reviewers report the scrub cleans without stripping moisture or drying out the skin, including some who specifically have sensitive or dry skin.",
+  "blemishes": "The one reviewer who is normally breakout-prone reports clear, bright skin while using this alongside a broader routine change, with breakouts now limited to hair removal rather than her skin care.",
+  "oiliness": "This is a point of sharp disagreement tied to a recent reformulation: one long-time reviewer with oily skin says the original formula always left her clean, but the new version leaves her face feeling oily and greasy instead; others describe the formula as oil-free and non-greasy."
+ },
+ "aspects": [
+  {
+   "libelle": "Recent reformulation seen as a downgrade (removed ingredients, added alcohol)",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, light citrus scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle microbeads provide light daily exfoliation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doesn't lather on its own, best paired with a foaming cleanser",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value, especially on Amazon",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging appearance seen as low quality",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "AmazonFan",
+   "titre": "Long time user; new formula DOES NOT WORK",
+   "texte": "I’ve used this product for like 15 years. I have oily skin and it always cleaned my face and left me feeling great after my shower EVERY MORNING. They just reformulated it and removed most of the original ingredients. BIG mistake - it no longer works and leaves by face feeling oily and gross every morning. Epic fail! I’m actively looking for a replacement product - if you know of one please post a review and mention it. I’m looking at using Cetaphil Daily Facial Cleanser? Any thoughts?",
+   "date": "October 16, 2021",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Amazon Customer",
+   "titre": "Not the same product",
+   "texte": "Product has been completely reformulated and the ingredients no longer match what is described above. For instance, jojoba is no longer an ingredient. The reformulated product doesn’t smell as good, feels greasy and is difficult to wash off, and is not something I will use going forward. Have used this for years and wonder why it was changed when so many loyal customers like myself loved this cleanser the way it was.",
+   "date": "May 17, 2021",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Paige Milligan",
+   "titre": "Great for daily use",
+   "texte": "Smells citrus-y, like oranges. I didn't think this would really help me because I'm prone to breakouts normally. The beads are gentle, I'm a bit concerned that they don't dissolve and feel guilty for whatever they might be made out of but my skin is clear, and bright even. I changed my usual hormone dosage a couple of months ago and have only broken out from hair removal since! I tried to make this same change about two years ago and immediately broke out with incredibly itchy, painful cystic acne along my jaw and had to go back to my usual hormone dose. I've always trusted the brand. I use this and their oil free moisturizer daily, their sensitive skin wipes in a pinch and j&j baby shampoo for make up remover (mountain falls I'm trying this month, we'll see). The combo has been working well for about 4 months now.",
+   "date": "May 4, 2019",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gwendolyn Gist",
+   "titre": "Good Facial Cleanser",
+   "texte": "I like my facial scrub. Thus is a very good product to lift dirt, and clean your face. It does not have a strong scent, and its good for my dry skin. I will be buying more. Thank you. Cheaper on Amazon, then some stores.",
+   "date": "May 4, 2026",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa Rivera",
+   "titre": "Gentle exfoliator!",
+   "texte": "I love how gentle this exfoliating scrub is on my face. I have sensitive skin and it doesn’t burn and doesn’t dry my skin out. A must in my skincare routine. I highly recommend.",
+   "date": "June 17, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Theresa Crosby",
+   "titre": "Used for Years",
+   "texte": "This is a great daily exfoliator! I've used it for over 20 years. People never believe my age (over 50) and ask what products I use and this is one of them. I recommend being very careful in the beginning because it can be harsh on your skin, so go lightly at first. First. Then over time your skin will get used to it and exfoliate nicely removing a thin layer everyday. My skin is super smooth. It's like a microderm abrasion in a tube.",
+   "date": "June 9, 2024",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

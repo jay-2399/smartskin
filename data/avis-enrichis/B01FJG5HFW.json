@@ -1,0 +1,127 @@
+{
+ "asin": "B01FJG5HFW",
+ "nom": "Asepxia 2% Salicylic Acid Acne Spot Treatment Cream",
+ "note": 4.4,
+ "nbAvis": 2622,
+ "lus": 11,
+ "collectes": 18,
+ "segments": {
+  "sensitive": "The one reviewer who mentions sensitive skin cautions, in general terms rather than describing her own reaction, that the treatment can cause dryness or flaking, especially on sensitive or already irritated skin."
+ },
+ "concerns": {
+  "dehydration": "One detailed reviewer reports the treatment can cause dryness or flaking, especially on sensitive or already irritated skin, and recommends pairing it with a light moisturizer to prevent flakiness.",
+  "redness": "One reviewer reports a horrible allergic reaction after applying the cream to fungal-acne-affected skin; this is the only report of this kind in the reviews supplied.",
+  "barrier": "One reviewer reports a severe allergic reaction after use, while another notes the formula can cause dryness or flaking on sensitive or already irritated skin.",
+  "blemishes": "Most reviewers report the treatment helps reduce breakouts and prevent new ones with consistent use, though one notes results took longer than expected; two reviewers who say the formula recently changed report it no longer works as well and doesn't absorb into the skin the way the previous version did."
+ },
+ "aspects": [
+  {
+   "libelle": "Reported formula or texture change from the classic cream",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tubes sometimes arrive unsealed, opened, or partly empty",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small, portable tube convenient for spot treatment on the go",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Multi-packs sometimes arrive with a short remaining shelf life",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Amazon Customer",
+   "titre": "BE CAUTIOUS!!!!",
+   "texte": "Please be cautious when using this product! I had a horrible allergic reaction! Wasn’t sure if this was suppose to come with a protective seal there was not one on this product when I received it. I put a thin layer of it my affected areas of fungal acne. When I woke up this what I was looking at in the mirror.",
+   "date": "September 25, 2020",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Katerine",
+   "titre": "Convenient and Effective, But Requires Patience",
+   "texte": "I’ve been using the Asepxia 2% Salicylic Acid Acne Spot Treatment, and overall, I think it’s a solid product. It did help reduce my breakouts, but it took a bit longer than I expected to see noticeable results—even when following the instructions carefully. That said, it’s very easy to use and apply directly on blemishes, and the small tube is perfect for carrying in your bag and reapplying as needed throughout the day. It's a practical and travel-friendly option for spot treatment. The formula is effective but can cause some dryness, especially on sensitive or already irritated skin. I recommend using a light moisturizer alongside it to prevent flakiness. Pros: Helps reduce acne with consistent use Easy to apply directly to spots Portable size, perfect for on-the-go use Practical for daily skincare routines Non-greasy formula Cons: Results may take longer than expected Can cause dryness or flaking on some skin types Not ideal for large areas—best for small spots If you’re looking for a portable and targeted treatment for acne that fits in your bag, this is a good option. Just be patient and make sure to hydrate your skin during use.",
+   "date": "August 4, 2025",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Klabbe",
+   "titre": "New formula? Awful",
+   "texte": "The last two tubes I bought, the contents were like a clearish gel that is NOTHING like the white cream that it usually is! It creates a film on the skin and rubs off. GROSS!!!! 🤮 the original stuff always absorbed and worked. This crap doesn’t work at ALL. And feels nasty on my skin! Help! Is it a bad batch?!? I am so mad and want the real stuff.",
+   "date": "July 25, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Laura",
+   "titre": "Read label if u bought before its not the same formulaRead label if u bought before its not the same formula",
+   "texte": "I’ve bought this product five times and this time is no longer benzoyl peroxide it’s now salicylic acid which is strange to me cause the formula is clear and sits on skin! It doesn’t penetrate like the BP not a fan!",
+   "date": "May 6, 2026Reviewed in t",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yonathan Sierra",
+   "titre": "La mejor crema para acne",
+   "texte": "Esta es la mejor crema para acné que he comprado me ha ayudado muchísimo y llevo años comprándola ya que me ayuda a controlar mi acné y prevenir nuevos brotes",
+   "date": "June 28, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Malaika",
+   "titre": "It really works",
+   "texte": "The next day I used it I started seeing results. It's very good. Now I'm looking to buy the soap.",
+   "date": "August 11, 2018",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "The reviews supplied mostly discuss formula changes, packaging, and shipping rather than the reviewer's own skin type, so skin-type-specific conclusions are limited."
+}

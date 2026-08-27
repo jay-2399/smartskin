@@ -1,0 +1,34 @@
+{
+ "asin": "B0GZHKHVM2",
+ "nom": "Triple Enzyme Green Tea Exfoliating Aqua Peel Gel",
+ "categorie": "exfoliant",
+ "note": 3.6,
+ "nbAvis": 79,
+ "distribution": {
+  "one_star": 17,
+  "two_star": 8,
+  "three_star": 5,
+  "four_star": 8,
+  "five_star": 42
+ },
+ "avis": [
+  {
+   "note": 1,
+   "auteur": "Yolanda Perryman",
+   "titre": "Don’t believe the hype",
+   "texte": "Product does not work as stated on label or ad. I saw no significant change than a normal face cleaner.",
+   "date": "August 6, 2026",
+   "verifie": true,
+   "utiles": 2
+  },
+  {
+   "note": 1,
+   "auteur": "Mjcsongbird",
+   "titre": "Coracode Triple enzyme exfoliating gel.Coracode Triple enzyme exfoliating gel.",
+   "texte": "This product did NOTHING! I’m giving it one star because it arrived.",
+   "date": "August 23, 2026Reviewed ",
+   "verifie": true,
+   "utiles": 0
+  }
+ ]
+}

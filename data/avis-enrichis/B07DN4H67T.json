@@ -1,0 +1,128 @@
+{
+ "asin": "B07DN4H67T",
+ "nom": "LAPCOS K Beauty Collagen Sheet - Skin Firming Face Mask (Pack of 5)",
+ "note": 4.5,
+ "nbAvis": 2222,
+ "lus": 14,
+ "collectes": 14,
+ "segments": {},
+ "concerns": {
+  "aging": "Reports are mixed on the product's firming claim: one reviewer says she noticed no significant anti-aging or firming effect, while another with textured skin credits it with a clear softening and smoothing effect, noting the change even ahead of a scheduled Botox appointment.",
+  "dehydration": "Most reviewers report a strong hydrating effect, describing skin left soft, smooth and moisturized after use, with the freshness and softness lasting up to two days for one reviewer.",
+  "blemishes": "Two reviewers report breaking out after use — one in fine bumps across her whole face, another noticing acne the morning after — though neither is certain the mask was the cause."
+ },
+ "aspects": [
+  {
+   "libelle": "Nose cutout can be too large to cover the nose well",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sheet fits well without feeling thick or messy",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Generous leftover essence in the packet, reusable on neck",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for a pack of five",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sticky residue after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Refreshing when chilled in the fridge beforehand",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Momof3",
+   "titre": "Nope",
+   "texte": "Was so excited to try this but not only did it not moisturize it made me break out in fine bumps all over my face. Had to toss it",
+   "date": "January 16, 2021",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Amyla",
+   "titre": "It’s ok, better out there",
+   "texte": "It’s inexpensive But the effect on my skin was not noticeable, except it was wet. I can’t say I noticed any significant anti-aging or firmness or anything that it claims it’s going to do. I would not repurchase.",
+   "date": "September 6, 2024",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Caroline ",
+   "titre": "It’s ok",
+   "texte": "The nose hole was way to big and did not cover my nose I have rosacea we will see it is cooling but I also did put in the refrigerator too",
+   "date": "January 25, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Miya",
+   "titre": "Smell is good , It's very moisturizing, but I have acne。",
+   "texte": "Smell is pretty good, i use to my face in the night time , next day the morning , I look at my face Acne ，have It's very moisturizing, but I have acne, I don’t know is good or bad products , I just tell people, is this good for every one,",
+   "date": "August 16, 2021",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "a martinez",
+   "titre": "Best mask I’ve ever used and I’ve gone through many!",
+   "texte": "I have textured skin and these are (topical masks) life changing. I’m softer smoother with a glow. My softening was cleat before my Botox time. I bought the honey as well and glow 🎉",
+   "date": "February 13, 2026",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "TITA",
+   "titre": "Los resultados son inmediatos...Los resultados son inmediatos...",
+   "texte": "Me gustó mucho las mascarilla, contiene bastante producto en la mascarilla y te queda en el empaque más para aplicar de nuevo en la cara y cuello en el momento, en mi caso en 30 minutos se quedó seca, y me duró la sensación de frescura, suavidad y firmeza dos días. Vienen 5 mascarillas Excelente compra.",
+   "date": "September 24, 2020Review",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": "Reviewers rarely stated their skin type in this sample, so no skin-type segments could be drawn with confidence; conclusions here lean on the smaller pool of concern-specific comments."
+}

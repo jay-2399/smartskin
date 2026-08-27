@@ -1,0 +1,147 @@
+{
+ "asin": "B07SY2XJZ3",
+ "nom": "Amazon Essentials Exfoliating Apricot Face Scrub",
+ "note": 4.4,
+ "nbAvis": 9537,
+ "lus": 30,
+ "collectes": 31,
+ "segments": {
+  "oily": "Reviewers with oily-prone areas, particularly around the nose, report the scrub clears built-up oil, and one long-term user credits it with less oil and fewer breakouts over time.",
+  "dry": "The one reviewer who describes her skin as very dry and sensitive reports it leaves her skin soft with no issues, though another reviewer notes skin can feel a little dry and itchy right after rinsing until it fully dries.",
+  "sensitive": "Reviewers with sensitive skin consistently report no irritation and finer, gentler granules than name-brand scrubs that felt like glass on their skin."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers, including ones with dry or sensitive skin, report the scrub doesn't dry their skin out even with daily use, though one reviewer notes her skin feels a little dry and itchy right after rinsing until the water fully evaporates.",
+  "redness": "Most reviewers, including several with sensitive skin, report no irritation at all; one reviewer, however, describes an extreme, unprecedented reaction to the product, though she does not specify having sensitive skin.",
+  "blemishes": "One long-term reviewer reports less acne over years of consistent use.",
+  "oiliness": "Most reviewers report reduced oil, including one who says built-up oil on her nose was completely gone after use; one reviewer, however, describes the opposite effect, with her skin overproducing oil to the point of staining her pillowcase."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong, unpleasant scent while applying",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent fades quickly, doesn't linger",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube arrives unsealed or leaking",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Much cheaper than name-brand scrubs",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentler feel than regular soap",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value multi-tube pack",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Angela B Thomas",
+   "titre": "Nope nope nope.....",
+   "texte": "Amazon brand has never let me down until now. Bad reaction to my face/skin, the scent alone smelled like cheap candles and the film left behind was undeniable. My skin over produced oil to the point of stained my pillow case 😳😔 And I have never had any face care product create such an EXTREME reaction!",
+   "date": "April 18, 2022",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "KitchenMonk",
+   "titre": "Not For Pre-Shave",
+   "texte": "I have used Walnut shell and Apricot shell face scrubs in the past to soften whiskers for pre-shave with great success, but unfortunately they are harder to find as dermatologists have deemed them too abrasive. Like many \"scrubs\" on the market today, this is simply a moisturizer with miniscule micro-grains. The scent, too, is unremarkable. Of the 3 Features I was given to rate: 5-stars for Sensitive Skin and Moisturizing properties; 2-stars for Scent. There was no option to rate Exfoliation Effectiveness, which tells you exactly what to expect from this product.",
+   "date": "November 26, 2023",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Abir Mohammad Hadi",
+   "titre": "Good Scrub",
+   "texte": "Skin feels a little dry and a bit itchy until the water dries out from the skin",
+   "date": "January 13, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Margarita",
+   "titre": "Best scrub",
+   "texte": "this scrub has changed over the years since i have been using it and i feel it it has gotten better every time. I have a subscription because i refuse to use anything else. I love how much exfoliant is inside and how smooth and clear it makes my face. the scent is not all amazing but also not bad at all. this has changed my face and skin so much for the better, less acne less oil and dryness.",
+   "date": "December 14, 2024",
+   "verifie": true,
+   "utiles": 21,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "🔹Carla🔹",
+   "titre": "I Like It Better Than The Name Brand Face Scrub! 😃",
+   "texte": "An order is 3, 6 ounce tubes. This Apricot Scrub has a light fruity scent, it's really nice & refreshing. It's light tan in color with bits of darker pieces. I found the texture nice. It's creamy with a little grit. I liked that the actual \"scrub\" part, the granules were small like sand. Very fine. I've tried name brand facial scrubs & didn't like that the \"scrub granules\" were quite large & therefore very irritating to my sensitive skin. Often times they felt like glass scraping against my skin. With this scrub I had no skin irritation or side effects. My skin felt smoother after I used it.",
+   "date": "August 20, 2019",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amazon Customer",
+   "titre": "Great scrub for skin care rotation",
+   "texte": "This scrub is very rich with beads and very creamy. Scent is light, barely noticeable, not overpowering at all. This scrub removed all of my make up residue and I really scrubbed my nose since it’s my bad area with oils built up. I’m very happy with the result I received. Skin soft & silky, oils on my nose completely gone, skin was prepped for night time routine. I’m going to use it every other night rotating this scrub and regular cleanser. Very nice results, skin smooth. I liked it!",
+   "date": "September 17, 2019",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mai",
+   "titre": "Great cleanser",
+   "texte": "I love the feeling when applying it on my skin it makes it soft and I have very dry sensitive skin. I really like it and great deal for the price .",
+   "date": "July 15, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

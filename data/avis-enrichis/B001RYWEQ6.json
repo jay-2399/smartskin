@@ -1,0 +1,127 @@
+{
+ "asin": "B001RYWEQ6",
+ "nom": "St. Ives Apricot Facial Scrub",
+ "note": 4.8,
+ "nbAvis": 8665,
+ "lus": 10,
+ "collectes": 11,
+ "segments": {
+  "mature": "Two long-time reviewers, ages 40 and 52, who have used this scrub for two to three decades, say it doesn't dry out or irritate their skin and credit it with keeping their skin soft and youthful-looking."
+ },
+ "concerns": {
+  "aging": "One long-time user in her 40s says people think she looks a decade younger, crediting consistent use of the scrub over many years.",
+  "dehydration": "A couple of reviewers say it removes dry, flaky skin without drying out their face afterward, leaving skin soft.",
+  "redness": "One reviewer reports the scrub leaves her face red in some areas and washed-out in others when used in the morning, even with a gentle touch, but says nighttime use gives her an even glow with no such issue.",
+  "blemishes": "One long-time user says other facial scrubs she tried irritated her skin and caused breakouts, while this one has never caused that problem for her in decades of use."
+ },
+ "aspects": [
+  {
+   "libelle": "Container feels small for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, well-liked scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works better used at night than in the morning",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Reaches deep into pores, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle yet thorough cleanse",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Well-balanced amount of exfoliating grit",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Rene ",
+   "titre": "Too small and feels almost empty for that price",
+   "texte": "🙄 I paid 8.99 for this product i thought it was gonig to be regular size for thwt price and it was a mini size too expencive for that. I recomend to buy it at walgreens is cheaper and bigger size the photo is (the little one I received) and feels empty",
+   "date": "February 6, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "JR",
+   "titre": "Nightly Use Only",
+   "texte": "I ONLY use this at NIGHT. If I use in the morning, my skin is red in some places and totally washed out in others. Makes my face look weird. But if I use it at night, my face has that glow like it does with all the other St. Ives face wash I've used so far (the pink, blackhead/green, and regular apricot. Altho I also feel since they have rebranded the pink and blackhead/green face wash they are not as good 🫤) aNyWaY I like this stuff! I tried to be very gentle with it during a morning use, still had the same effect of making my face both red and washed out. But nightly use is amazing!",
+   "date": "March 23, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kate",
+   "titre": "Buen exfoliador",
+   "texte": "He comprado de esta marca varias veces, es de una buena calidad y además huele super bien! Exfolia muy bien, hay muchos productos para exfoliar que no hace nada pero esto si. Ayuda en quitar el piel seco, y luego es fácil para quitar. Deja el piel muy suave, y el olor es muy agradable!",
+   "date": "March 26, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rosa L.",
+   "titre": "Great stuff!",
+   "texte": "I’ve been using this product for years. I love how my skin feels after washing with it. It’s gentle but thorough, and a little serum and moisturizer and I’m set for the day. I have been recommending it for years. Try it – you’ll love it.",
+   "date": "July 28, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Dawn B.",
+   "titre": "Best Facial Scrub on the Market!",
+   "texte": "I’ve been using the scrub since I was a teenager. I’m 52. I’ve tried others. They irritated my skin. I’ve broke out this face scrub truly is the best scrub. My skin is so soft. It cleans it thoroughly, It doesn’t dry me out. I love it!",
+   "date": "August 12, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rolling Stone",
+   "titre": "Excellent",
+   "texte": "I love this product and I've been using this face scrub for about 20 yrs. I love it! I'm 40 but still look 30.",
+   "date": "December 13, 2023",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": "Only 10 reviews were available for this product, several of them brief, so segment and concern coverage is limited and several conclusions rest on a single reviewer."
+}

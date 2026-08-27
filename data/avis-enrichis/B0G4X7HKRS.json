@@ -1,0 +1,125 @@
+{
+ "asin": "B0G4X7HKRS",
+ "nom": "NIDA White Rice Whitehead Exfoliating Serum",
+ "note": 4.5,
+ "nbAvis": 150,
+ "lus": 8,
+ "collectes": 8,
+ "segments": {
+  "oily": "The one reviewer who reports on oily skin describes her teenage son's greasy, blackhead- and whitehead-prone face clearing up substantially with daily use, after other face washes hadn't worked.",
+  "mature": "The one reviewer who mentions her age, 63, reports loving what the serum does for her pores and skin overall."
+ },
+ "concerns": {
+  "dehydration": "One reviewer reports dry patches around her mouth and peeling on her nose when using the serum more than once a week, and recommends limiting use to weekly.",
+  "spots": "One reviewer reports the serum helped with her melasma alongside giving a deep cleanse.",
+  "blemishes": "Most reviewers report clear improvement in blackheads, whiteheads, and small bumps with regular use; one reviewer, however, saw plenty of visible residue come off but no real change in her pore size.",
+  "oiliness": "The one reviewer who addresses oiliness describes her son's greasy skin clearing up substantially with daily use of the serum."
+ },
+ "aspects": [
+  {
+   "libelle": "Quick rub-on, wash-off application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible residue confirms it's working",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Very affordable for the results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pairs well with companion serums",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Risk of dryness if overused",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Erin K",
+   "titre": "Works okay",
+   "texte": "Lots of white residue came off my face but my pores didn’t really change",
+   "date": "June 17, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "alanna love",
+   "titre": "Great results",
+   "texte": "Super impressed by the results from using this daily. Bought for my 13 year old son. His face had a combination of blackheads and whiteheads. He also has greasy skin on his face despite using a variety of face wash products. I bought this along with the Nida Blackhead Serum. He has been using the two products each evening after showering. His face has cleared up substantially. His cheeks and chin area are clear. His forehead is nearly clear. I highly recommend these products as we have tried so many other products that did nothing.",
+   "date": "May 14, 2026",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lanny T. Fiorillo",
+   "titre": "Love this",
+   "texte": "This stuff is like magic! Love it but I would t recommend using it more than once a week… at least for me I was using it twice or three times a week and had dry patches of skin around my mouth and my nose was peeling so much.",
+   "date": "June 7, 2026",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Deborah Felton",
+   "titre": "I'm really impressed",
+   "texte": "I'm 63 and im loving what this is doing for my pores and skin in general! It also seems to be increasing the benefits of my other skin care products by keeping my pores clear. I bought their black rice serum too",
+   "date": "February 5, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Amazon Customer",
+   "titre": "Smooth feeling",
+   "texte": "Awesome product does exactly what it claims. Using it for small bumps under the chin. An easy scrub and leaves the skin smooth. I use it three times a week.",
+   "date": "April 11, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maribel L.",
+   "titre": "Un buen producto me encantó lo volveré a comprarUn buen producto me encantó lo volveré a comprar",
+   "texte": "Tremendo producto me ayudó con el melasma y es una limpieza profunda .",
+   "date": "August 17, 2026Reviewed ",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": "Based on a very small sample of 8 reviews, so most patterns rest on a single individual report and should be read with caution."
+}

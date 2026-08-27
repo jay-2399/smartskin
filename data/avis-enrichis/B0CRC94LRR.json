@@ -1,0 +1,137 @@
+{
+ "asin": "B0CRC94LRR",
+ "nom": "Paula's Choice 6% Mandelic + 2% Lactic Acid Liquid Exfoliant",
+ "note": 4.5,
+ "nbAvis": 1020,
+ "lus": 26,
+ "collectes": 32,
+ "segments": {
+  "sensitive": "This product is heavily used and recommended by reviewers with sensitive skin, including rosacea, who report no flares, breakouts or irritation even with nightly use; one reviewer without stating a skin type reports a severe reaction instead, with burning, itchy red spots on her neck that took three weeks to heal.",
+  "dry": "The one reviewer with dry, sensitive skin, in her late 40s, calls this a skincare savior after most products broke her out or didn't agree with her skin, leaving her skin clear, soft and radiant.",
+  "mature": "The one reviewer who mentions her age, close to 50, reports it works well alongside her dry, sensitive skin, leaving it clear and radiant."
+ },
+ "concerns": {
+  "aging": "A couple of reviewers report early but visible improvement in fine lines, including forehead lines looking less noticeable after just one use and a broader reduction in the appearance of wrinkles after a few uses.",
+  "redness": "One reviewer reports a severe reaction — burning, itchy red spots on her neck that took three weeks to heal after applying it to her whole face and neck; by contrast, reviewers with rosacea or self-described red, sensitive skin report it does not trigger flares and leaves skin calm.",
+  "spots": "Multiple reviewers report visible fading of discoloration, dark acne scars, and marks from ingrown hairs with continued use, including one who says it succeeded where glycolic acid had failed her.",
+  "blemishes": "Most reviewers report the exfoliant calms breakouts and clears bumps over time, including for rosacea-related and small acne bumps; one reviewer warns that it can trigger a purging phase of worse breakouts for four to six weeks before skin clears."
+ },
+ "aspects": [
+  {
+   "libelle": "Bottle seen as very small for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Can arrive with a loose seal or looking previously opened",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thin, watery texture rather than a thick serum",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly with no greasy or sticky residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild tingling or stinging that fades quickly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, subtle scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Full-size bottle offers better value than the trial size",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "PMD",
+   "titre": "BE CAUTIOUS OF THE PRODUCT",
+   "texte": "I was excited to try this to brighten my skin. I did a test area on my face and all went well. I then applied the product to my whole face and neck. This exfoliant burned the skin on my neck and also caused red spots that became really itchy. It has taken 3 weeks for it to get better. I am not sure how well this product works as I only used it once. Be careful. This is strong stuff.",
+   "date": "April 21, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "L H",
+   "titre": "Helped fine lines on forehead 👍🏼",
+   "texte": "I’m just giving it four stars for now because I just received it. I’ve only used it once but being the first time that I use it, I noticed my skin felt tighter. And I have some light forehead lines and they look less noticeable. I think I’m gonna like this product.",
+   "date": "June 20, 2026",
+   "verifie": true,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Isabella Ramirez",
+   "titre": "Works but will break you out",
+   "texte": "If you're looking for a product that's going to get rid of all your dirt, oil , ect , that's been hiding deep under your Skin for years. This is the product for you. However, you will immediately break out and look like pizza face for 4-6 weeks. Do your research and don't mix certain products while using this at the same time. It's been two weeks and my purging phase is coming to an end for me . My face feels a lot cleaner and smoother. Would recommend if used correctly.",
+   "date": "June 24, 2026",
+   "verifie": true,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chana",
+   "titre": "Dry-Sensitive skin saviour!!!",
+   "texte": "I love love this product! I have sensitive skin that breaks out and does not tolerate just about every product. But, Paula's products are perfect for my dry, sensitive, and almost 50 year old skin. My skin is clear, soft, radiant",
+   "date": "July 24, 2026",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Rachel",
+   "titre": "Excellent and gentle",
+   "texte": "I have rosacea, so a lot of products trigger flares and breakouts. This one does not! When I put it on at night after a shower, I wake up with a beautiful taught glowing skin. An excellent exfoliant to alternate with azalaic acid (which is also great for rosacea skin).",
+   "date": "August 23, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amazon Customer",
+   "titre": "Reduced bumps and coloration",
+   "texte": "I’m honestly amazed this has been working. I have tired everything to lighten my acne scars and nothing has helped. The only other thing that has helped has been glycolic acid but it really didn’t lighten them. This mandelic acid has also decreased my bumps!",
+   "date": "February 4, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

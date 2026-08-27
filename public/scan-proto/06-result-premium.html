@@ -163,10 +163,94 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 .rev-say p { font-size:12.5px; line-height:1.55; color:var(--graphite); margin-top:6px; letter-spacing:-0.005em; }
 .rev-say p b { font-weight:700; color:var(--arsenic); }
 .rev-chips { display:flex; flex-wrap:wrap; gap:6px; margin-top:11px; }
-.rchip { font-size:8.5px; font-weight:600; letter-spacing:0.05em; text-transform:uppercase;
-  padding:4px 9px; border-radius:100px; display:inline-flex; align-items:center; gap:5px; }
-.rchip.pos { color:#189A66; background:rgba(43,193,130,0.12); border:1px solid rgba(43,193,130,0.35); }
-.rchip.neg { color:#D8543F; background:rgba(224,102,87,0.10); border:1px solid rgba(224,102,87,0.32); }
+/* ce que rapportent les acheteurs : une liste, pas des pastilles — la coche porte la polarité,
+   le trait sépare les deux camps. Les pastilles produisaient des largeurs ragged illisibles. */
+.rep { margin-top:10px; display:flex; flex-direction:column; }
+.rep-l { display:flex; align-items:flex-start; gap:9px; padding:7px 0; }
+.rep-l + .rep-l { border-top:1px solid rgba(26,29,33,0.055); }
+.rep-l.turn { margin-top:5px; padding-top:12px; border-top:1px solid rgba(26,29,33,0.13); }
+.rep-ic { flex-shrink:0; width:16px; height:16px; border-radius:50%; margin-top:1px;
+  display:flex; align-items:center; justify-content:center; }
+.rep-ic svg { width:10px; height:10px; display:block; }
+.rep-ic.pos { color:#189A66; background:rgba(43,193,130,0.16); }
+.rep-ic.neg { color:#C9482F; background:rgba(224,102,87,0.15); }
+.rep-l span { font-size:12.5px; line-height:1.45; color:var(--arsenic); letter-spacing:-0.005em; }
+/* ── AVIS SEGMENTÉS : on ne montre QUE sa peau et les problèmes qu'elle a déclarés ── */
+.seg-toi { background:linear-gradient(180deg, rgba(166,195,214,.20), rgba(166,195,214,.09));
+  border:1px solid rgba(110,154,182,.30); border-radius:15px; padding:13px 15px; margin-top:12px; }
+.seg-k { display:block; font-size:8.5px; font-weight:700; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--blue-d); }
+.seg-toi p { margin:6px 0 0; font-size:12.5px; line-height:1.55; color:var(--arsenic); letter-spacing:-.005em; }
+.seg-vide { margin:6px 0 0; font-size:11.5px; line-height:1.5; color:var(--graphite); font-style:italic; }
+.seg-hd { display:block; font-size:8.5px; font-weight:700; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--space); margin:14px 0 -4px; }
+.seg-autres { margin-top:12px; display:flex; flex-direction:column; gap:1px;
+  background:rgba(26,29,33,.07); border-radius:13px; overflow:hidden; }
+.seg-l { background:#fff; padding:11px 14px; }
+.seg-n { display:block; font-size:8.5px; font-weight:700; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--space); margin-bottom:3px; }
+.seg-l p { margin:0; font-size:11.5px; line-height:1.5; color:var(--graphite); }
+.rev-vf { font-weight:600; font-size:10px; color:var(--space); margin-left:5px; letter-spacing:0; }
+.see-all { display:flex; align-items:center; justify-content:center; gap:7px; width:100%; margin-top:14px;
+  padding:12px; border-radius:13px; cursor:pointer; font-family:inherit;
+  background:rgba(255,255,255,0.62); border:1px solid rgba(255,255,255,0.8);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.9), 0 2px 8px rgba(26,29,33,0.06);
+  font-size:12.5px; font-weight:700; color:var(--ink); letter-spacing:-0.01em; }
+/* ── FEUILLE « TOUS LES AVIS » ── ouverte par « See all N reviews ». C'est la porte de sortie
+   de la personnalisation : la fiche ne montre que ce qui la concerne, ici on montre TOUT ce
+   qu'on a, sans filtre ni tri d'opinion, du plus voté utile au moins voté. ── */
+.ar-fond { position:fixed; inset:0; z-index:60; background:rgba(26,29,33,0.34);
+  -webkit-backdrop-filter:blur(3px); backdrop-filter:blur(3px); opacity:0; pointer-events:none;
+  transition:opacity .28s ease; }
+.ar-fond.on { opacity:1; pointer-events:auto; }
+.ar-feuille { position:fixed; left:0; right:0; bottom:0; z-index:61; max-height:92dvh;
+  display:flex; flex-direction:column; border-radius:26px 26px 0 0; background:var(--ground);
+  transform:translateY(100%); transition:transform .34s cubic-bezier(.22,1,.36,1);
+  box-shadow:0 -8px 40px rgba(26,29,33,0.18); }
+.ar-feuille.on { transform:translateY(0); }
+@media (min-width:520px) { .ar-feuille { left:50%; right:auto; width:480px; transform:translate(-50%,100%); }
+  .ar-feuille.on { transform:translate(-50%,0); } }
+@media (prefers-reduced-motion: reduce) { .ar-fond, .ar-feuille { transition:none; } }
+.ar-top { display:flex; align-items:center; gap:12px; padding:18px 20px 12px; flex-shrink:0; }
+.ar-back { width:34px; height:34px; border-radius:50%; flex-shrink:0; cursor:pointer;
+  display:flex; align-items:center; justify-content:center; color:var(--graphite);
+  background:rgba(255,255,255,0.66); border:1px solid rgba(255,255,255,0.8);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(26,29,33,0.07); }
+.ar-ttl { min-width:0; }
+.ar-ttl b { display:block; font-size:17px; font-weight:800; letter-spacing:-0.03em; color:var(--ink); }
+.ar-ttl span { display:block; font-size:11px; color:var(--space); margin-top:1px;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.ar-corps { overflow-y:auto; -webkit-overflow-scrolling:touch; padding:0 20px 28px; }
+.ar-sum { display:flex; align-items:center; gap:16px; padding:15px 16px; border-radius:17px;
+  background:rgba(255,255,255,0.56); border:1px solid rgba(255,255,255,0.75);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.85), 0 3px 12px rgba(26,29,33,0.05); }
+.ar-big { font-weight:800; font-size:34px; letter-spacing:-1.4px; line-height:1; color:var(--ink); }
+.ar-big + div { font-size:10.5px; color:var(--graphite); margin-top:5px; }
+.dist { flex:1; display:flex; flex-direction:column; gap:3px; min-width:0; }
+.dist-l { display:flex; align-items:center; gap:5px; }
+.dist-n { font-size:9.5px; font-weight:700; color:var(--graphite); width:6px; }
+.dist-b { flex:1; height:5px; border-radius:100px; background:rgba(26,29,33,0.08); overflow:hidden; }
+.dist-b i { display:block; height:100%; border-radius:100px; background:#EA9A54; }
+.dist-p { font-size:9px; color:var(--space); width:23px; text-align:right; font-variant-numeric:tabular-nums; }
+.ar-card { margin-top:14px; padding:4px 16px 16px; border-radius:18px;
+  background:var(--glass-bg); border:1px solid var(--glass-line); box-shadow:var(--glass-shadow); }
+.ar-count { margin:14px 0 2px; font-size:8.5px; font-weight:700; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--space); }
+.fr { padding:14px 0 13px; border-bottom:1px solid rgba(26,29,33,0.07); }
+.fr:last-of-type { border-bottom:none; }
+.fr-h { display:flex; align-items:baseline; justify-content:space-between; gap:10px; }
+.fr-n { font-weight:700; font-size:13px; color:var(--ink); letter-spacing:-0.01em; }
+.fr-r { color:#EA9A54; font-size:11px; letter-spacing:1.5px; white-space:nowrap; }
+.fr-r .off { color:var(--steel); }
+.fr-m { font-size:10px; color:var(--space); margin-top:3px; }
+.fr-t { font-size:12.5px; line-height:1.5; color:var(--graphite); margin:7px 0 0; letter-spacing:-0.005em; }
+.fr-t b { font-weight:700; color:var(--arsenic); }
+.ar-more { display:flex; align-items:center; justify-content:center; gap:8px; margin-top:16px; padding:12px;
+  border-radius:13px; cursor:pointer; font-family:inherit; width:100%;
+  background:rgba(255,255,255,0.62); border:1px solid rgba(255,255,255,0.8);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.9); font-size:12.5px; font-weight:700; color:var(--ink); }
+.ar-src { margin:12px 0 0; font-size:10.5px; line-height:1.5; color:var(--space); text-align:center; }
+.src-note { margin:10px 0 0; font-size:10.5px; line-height:1.5; color:var(--space); }
 .rev { padding:12px 0 11px; border-top:1px solid var(--cloud); }
 .rev-list { margin-top:13px; }
 .rev-list .rev:first-child { border-top:none; padding-top:0; }
@@ -822,28 +906,38 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
     <p class="verdict-s">It targets <b>your breakouts and oily T-zone</b>, but the fragrance clashes with <b>your reactive skin</b>. Patch-test first.</p>
   </div>
 
-  <!-- Avis clients RÉELS (Amazon), rendus seulement quand on en a pour CE produit.
-       Le bloc précédent était écrit en dur et montrait les mêmes 4,4 étoiles partout ; celui-ci
-       reste masqué s'il n'y a rien à dire. On n'affiche pas de note globale : la source ne la
-       porte pas, et l'inventer serait repartir dans le même travers. -->
+  <!-- Avis clients RÉELS (Amazon), rendus seulement quand on a quelque chose à dire À ELLE.
+       Deux règles : on n'invente rien (pas de données → pas de bloc), et on ne montre que ce qui
+       la concerne — le segment de SA peau, les problèmes qu'ELLE a déclarés. Le reste existe dans
+       le fichier mais ne s'affiche pas ; elle y accède par « See all reviews ». -->
   <div class="section s0" id="d-avis" hidden>
-    <span class="sec-name" style="display:block">What customers say</span>
+    <span class="sec-name" style="display:block">What buyers say</span>
     <div class="vcard" style="margin-top:8px">
-      <input type="checkbox" id="rev-toggle" class="rev-toggle" checked="">
+      <input type="checkbox" id="rev-toggle" class="rev-toggle">
       <label class="rev-head" for="rev-toggle" aria-label="Customer reviews">
-        <div class="rev-meta" style="flex:1">
-          <p class="rev-count" id="d-avis-n">Reviews from buyers</p>
+        <span class="rev-num" id="d-avis-note">4.6</span>
+        <div class="rev-meta">
+          <span class="rev-stars" id="d-avis-etoiles"></span>
+          <p class="rev-count" id="d-avis-n"></p>
         </div>
         <span class="rev-src">by <img src="amazon.svg" alt="Amazon"></span>
         <span class="rev-chev"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5.2L7 9.2l4-4"></path></svg></span>
       </label>
       <div class="rev-body"><div>
-        <div class="rev-say">
+        <div class="seg-toi" id="d-avis-peau" hidden>
+          <span class="seg-k" id="d-avis-peau-k"></span>
+          <p id="d-avis-peau-t"></p>
+          <p class="seg-vide" id="d-avis-peau-v" hidden></p>
+        </div>
+        <span class="seg-hd" id="d-avis-souci-hd" hidden>On what you flagged</span>
+        <div class="seg-autres" id="d-avis-soucis" hidden></div>
+        <div class="rev-say" style="margin-top:14px" id="d-avis-rap" hidden>
           <span class="rev-say-k">What buyers report</span>
-          <p id="d-avis-resume"></p>
-          <div class="rev-chips" id="d-avis-aspects"></div>
+          <div class="rep" id="d-avis-aspects"></div>
         </div>
         <div class="rev-list" id="d-avis-extraits"></div>
+        <button class="see-all" type="button" id="d-avis-tous" hidden></button>
+        <p class="src-note" id="d-avis-src"></p>
       </div></div>
     </div>
   </div>
@@ -899,6 +993,30 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
   <div style="height:26px"></div>
 </div>
 
+
+  <!-- Tous les avis : aucun filtre, aucun tri d'opinion. La note et les barres viennent
+       directement d'Amazon — c'est la seule donnée non biaisée qu'on possède sur ce produit. -->
+  <div class="ar-fond" id="ar-fond"></div>
+  <div class="ar-feuille" id="ar-feuille" role="dialog" aria-modal="true" aria-labelledby="ar-h">
+    <div class="ar-top">
+      <button class="ar-back" type="button" id="ar-fermer" aria-label="Close">
+        <svg width="15" height="15" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M8.8 3l-4 4 4 4"></path></svg>
+      </button>
+      <div class="ar-ttl"><b id="ar-h">All reviews</b><span id="ar-nom"></span></div>
+    </div>
+    <div class="ar-corps">
+      <div class="ar-sum">
+        <div><div class="ar-big" id="ar-note">—</div><div id="ar-nb"></div></div>
+        <div class="dist" id="ar-dist"></div>
+      </div>
+      <div class="ar-card">
+        <p class="ar-count" id="ar-count"></p>
+        <div id="ar-liste"></div>
+        <button class="ar-more" type="button" id="ar-plus" hidden>Load 20 more</button>
+      </div>
+      <p class="ar-src">Collected from Amazon. Every written review we have.</p>
+    </div>
+  </div>
 
 <script>
 function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "parfum": "Fragrance", "HE": "Essential oil", "alcool": "Drying alcohol", "creuse": "Few actives", "filtres-uv": "UV protection" })[t] || t; }
@@ -1141,34 +1259,151 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     }
     afficher("perso");
     mieuxPourToi(p, pe);
-    avisClients(d.avis);
+    avisClients(d.avis, d.produit && d.produit.asin);
   }
 
-  // Avis RÉELS d'acheteurs, quand on en a pour ce produit. Rien d'inventé : pas de données,
-  // pas de bloc. On n'affiche pas non plus de note globale — la source ne la fournit pas.
-  function avisClients(a) {
-    if (!a || !a.resume) return;
-    document.getElementById("d-avis-resume").textContent = a.resume;
+  // Avis RÉELS d'acheteurs. Rien d'inventé : pas de données, pas de bloc. Et rien qui ne la
+  // concerne pas : le serveur a déjà filtré sur SA peau et SES problèmes déclarés.
+  var _asinCourant = null;
 
-    var chips = (a.aspects || []).map(function(x){
-      return '<span class="rchip pos">' + x.nom.replace(/</g, "&lt;")
-           + ' <b style="opacity:.6; font-weight:600">' + x.mentions + '</b></span>';
-    }).join("");
-    document.getElementById("d-avis-aspects").innerHTML = chips;
+  function ech(t) { return String(t == null ? "" : t).replace(/[&<>]/g, function(c){
+    return c === "&" ? "&amp;" : c === "<" ? "&lt;" : "&gt;"; }); }
 
-    var ex = (a.extraits || []).map(function(r){
-      var etoiles = "";
-      for (var i = 0; i < 5; i++) etoiles += (i < r.note ? "\u2605" : "\u2606");
-      return '<div class="rev-row"><div class="rev-rate">'
-        + '<span class="rev-stars">' + etoiles + '</span>'
-        + (r.date ? '<span class="rev-name">' + r.date.replace(/</g, "&lt;") + '</span>' : '')
-        + '</div><p class="rev-txt">' + r.texte.replace(/</g, "&lt;") + '</p></div>';
+  function etoiles(n) {
+    var s = "", e = Math.max(0, Math.min(5, Math.round(Number(n) || 0)));
+    for (var i = 0; i < 5; i++) s += i < e ? "★" : '<span class="off">★</span>';
+    return s;
+  }
+
+  function avisClients(a, asin) {
+    if (!a) return;
+    _asinCourant = asin || null;
+
+    document.getElementById("d-avis-note").textContent = a.note != null ? a.note : "—";
+    document.getElementById("d-avis-etoiles").innerHTML = a.note != null ? etoiles(a.note) : "";
+    document.getElementById("d-avis-n").innerHTML =
+      a.nbAvis != null ? "<b>" + Number(a.nbAvis).toLocaleString("en-US") + "</b> global ratings" : "";
+
+    // le segment de SA peau — et quand personne n'a déclaré sa peau, on le dit au lieu de
+    // faire passer une moyenne pour une lecture personnalisée
+    var bp = document.getElementById("d-avis-peau");
+    if (a.pourElle) {
+      document.getElementById("d-avis-peau-k").textContent = "For your " + a.pourElle.peau + " skin";
+      document.getElementById("d-avis-peau-t").textContent = a.pourElle.texte;
+      var v = document.getElementById("d-avis-peau-v");
+      if (a.pourElle.substitut) {
+        v.textContent = "No reviewer described their skin as " + a.pourElle.peau
+          + ". This is what " + a.pourElle.substitut + " skin reports — the closest read we have.";
+        v.hidden = false;
+      } else { v.hidden = true; }
+      bp.hidden = false;
+    } else { bp.hidden = true; }
+
+    // un bloc par problème qu'elle a déclaré, et aucun autre
+    var bs = document.getElementById("d-avis-soucis");
+    bs.innerHTML = (a.problemes || []).map(function(x){
+      return '<div class="seg-l"><span class="seg-n">' + ech(x.libelle) + '</span><p>' + ech(x.texte) + '</p></div>';
     }).join("");
-    document.getElementById("d-avis-extraits").innerHTML = ex;
-    document.getElementById("d-avis-n").textContent =
-      (a.extraits && a.extraits.length ? a.extraits.length + " reviews shown" : "Summary of buyer reviews");
+    bs.hidden = !(a.problemes && a.problemes.length);
+    document.getElementById("d-avis-souci-hd").hidden = bs.hidden;
+
+    var COCHE = '<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M2.4 6.3l2.5 2.5 4.7-5"></path></svg>';
+    var CROIX = '<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"><path d="M3.2 3.2l5.6 5.6M8.8 3.2l-5.6 5.6"></path></svg>';
+    var pos = (a.aspects || []).filter(function(x){ return x.polarite === "pos"; });
+    var neg = (a.aspects || []).filter(function(x){ return x.polarite === "neg"; });
+    document.getElementById("d-avis-aspects").innerHTML =
+      pos.map(function(x){ return '<div class="rep-l"><span class="rep-ic pos">' + COCHE + '</span><span>' + ech(x.libelle) + '</span></div>'; }).join("")
+      + neg.map(function(x, i){ return '<div class="rep-l' + (i === 0 && pos.length ? ' turn' : '') + '"><span class="rep-ic neg">' + CROIX + '</span><span>' + ech(x.libelle) + '</span></div>'; }).join("");
+    document.getElementById("d-avis-rap").hidden = !(a.aspects && a.aspects.length);
+
+    document.getElementById("d-avis-extraits").innerHTML = (a.extraits || []).map(function(r){
+      return '<div class="rev"><div class="rev-row"><span class="rev-name">' + ech(r.auteur || "Verified buyer")
+        + (r.verifie ? '<span class="rev-vf">· verified</span>' : '')
+        + '</span><span class="rev-rate">' + etoiles(r.note) + '</span></div>'
+        + '<p class="rev-txt">' + ech(String(r.texte || "").slice(0, 260)) + '…</p></div>';
+    }).join("");
+
+    var bt = document.getElementById("d-avis-tous");
+    if (_asinCourant && a.collectes) {
+      bt.innerHTML = "See all " + a.collectes + " reviews"
+        + '<svg width="13" height="13" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5.2 3l4 4-4 4"></path></svg>';
+      bt.hidden = false;
+    } else { bt.hidden = true; }
+
+    // on annonce exactement ce qui a été lu, et la réserve du modèle quand l'échantillon est mince
+    document.getElementById("d-avis-src").textContent =
+      (a.reserve ? a.reserve + " " : "")
+      + (a.collectes ? "Read from a balanced sample of the " + a.collectes + " written reviews collected on Amazon." : "");
+
     document.getElementById("d-avis").hidden = false;
   }
+
+  // ── FEUILLE « TOUS LES AVIS » ──────────────────────────────────────────────
+  // Elle ne filtre rien et ne trie sur aucune opinion : c'est le contrepoids honnête à une
+  // fiche qui, elle, ne montre délibérément que ce qui concerne l'utilisatrice.
+  var _arSuivant = null, _arCharge = false;
+
+  function arOuvrir() {
+    if (!_asinCourant) return;
+    document.getElementById("ar-nom").textContent =
+      (document.getElementById("d-name") || {}).textContent || "";
+    document.getElementById("ar-fond").classList.add("on");
+    document.getElementById("ar-feuille").classList.add("on");
+    document.body.style.overflow = "hidden";
+    if (!_arCharge) { _arCharge = true; arCharger(0); }
+  }
+  function arFermer() {
+    document.getElementById("ar-fond").classList.remove("on");
+    document.getElementById("ar-feuille").classList.remove("on");
+    document.body.style.overflow = "";
+  }
+
+  function arCharger(depuis) {
+    var btn = document.getElementById("ar-plus");
+    btn.disabled = true;
+    fetch("/api/produit/avis?asin=" + encodeURIComponent(_asinCourant) + "&depuis=" + depuis)
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(d){
+        btn.disabled = false;
+        if (!d || !d.avis) { btn.hidden = true; return; }
+        if (depuis === 0) {
+          document.getElementById("ar-note").textContent = d.note != null ? d.note : "—";
+          document.getElementById("ar-nb").textContent =
+            d.nbAvis != null ? Number(d.nbAvis).toLocaleString("en-US") + " ratings" : "";
+          document.getElementById("ar-count").textContent =
+            d.total + " written reviews · most helpful first";
+          var t = d.distribution || {}, cles = ["five_star","four_star","three_star","two_star","one_star"];
+          var tot = cles.reduce(function(a, k){ return a + (Number(t[k]) || 0); }, 0);
+          document.getElementById("ar-dist").innerHTML = tot ? cles.map(function(k, i){
+            var pc = Math.round((Number(t[k]) || 0) / tot * 100);
+            return '<div class="dist-l"><span class="dist-n">' + (5 - i) + '</span>'
+              + '<span class="rev-rate" style="font-size:9px; letter-spacing:0">★</span>'
+              + '<span class="dist-b"><i style="width:' + pc + '%"></i></span>'
+              + '<span class="dist-p">' + pc + '%</span></div>';
+          }).join("") : "";
+          document.getElementById("ar-liste").innerHTML = "";
+        }
+        document.getElementById("ar-liste").insertAdjacentHTML("beforeend", d.avis.map(function(r){
+          return '<div class="fr"><div class="fr-h"><span class="fr-n">' + ech(r.auteur || "Verified buyer")
+            + '</span><span class="fr-r">' + etoiles(r.note) + '</span></div>'
+            + '<div class="fr-m">' + ech(r.date)
+            + (r.verifie ? " · verified purchase" : "")
+            + (r.utiles ? " · " + r.utiles + " found this helpful" : "") + '</div>'
+            + '<p class="fr-t"><b>' + ech(r.titre) + '</b> ' + ech(r.texte) + '</p></div>';
+        }).join(""));
+        _arSuivant = d.suivant;
+        btn.hidden = _arSuivant == null;
+      })
+      .catch(function(){ btn.disabled = false; btn.hidden = true; });
+  }
+
+  document.getElementById("d-avis-tous").addEventListener("click", arOuvrir);
+  document.getElementById("ar-fermer").addEventListener("click", arFermer);
+  document.getElementById("ar-fond").addEventListener("click", arFermer);
+  document.getElementById("ar-plus").addEventListener("click", function(){
+    if (_arSuivant != null) arCharger(_arSuivant);
+  });
+  document.addEventListener("keydown", function(e){ if (e.key === "Escape") arFermer(); });
 
   // Trois produits du MÊME rayon, mieux notés pour cette peau. Uniquement sous le vert :
   // au-dessus, le produit scanné fait déjà l'affaire et proposer autre chose serait du bruit.
@@ -1202,5 +1437,6 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
   source.then(function(d){ rendre(d); bandeauEtiquette(d); }).catch(function(){});
 })();
 </script>
+
 </body>
 </html>

@@ -1,0 +1,147 @@
+{
+ "asin": "B006RFZ5ZM",
+ "nom": "Biore Pore Unclogging Scrub With Salicylic Acid",
+ "note": 4.6,
+ "nbAvis": 7352,
+ "lus": 18,
+ "collectes": 22,
+ "segments": {
+  "oily": "The reviewer with oily skin reports it thoroughly removes dirt without drying her skin out, best used with lukewarm water.",
+  "sensitive": "The reviewer with sensitive skin found it gentle and usable, though softer and less gritty than she expected from a pore-clearing scrub."
+ },
+ "concerns": {
+  "dehydration": "The one reviewer with oily skin who addresses this reports it cleans thoroughly without drying her skin out.",
+  "redness": "One reviewer reports her face turned red immediately after applying it and she had to rinse it off and apply a soothing cream.",
+  "barrier": "Most reviewers describe the scrub as gentle and non-irritating; one reviewer, however, had an immediate reaction of redness strong enough that she rinsed it off right away.",
+  "spots": "One reviewer reports the skin on a blemish-prone area of her forehead lightened somewhat after repeated use.",
+  "blemishes": "Reports are mixed: some reviewers say it visibly shrank their pores and reduced blackheads over one to two months of consistent use, while others say it did nothing for their pimples and did not meaningfully reduce their breakouts even after months of regular use."
+ },
+ "aspects": [
+  {
+   "libelle": "Tiny, gentle exfoliating beads with creamy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, minty tingle after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant scent, though strength varies by reviewer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Too gentle or not gritty enough for a deep scrub",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pores look smaller with continued use",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Munisa",
+   "titre": "Big mistake !!!",
+   "texte": "I wanted to give a try to some new different scrub and read reviews in Amazon. Today used this scrub for the first time and instantly regretted . My face got red after literally applying . I had to rinse off immediately and apply soothing cream.",
+   "date": "October 19, 2024",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lady",
+   "titre": "Not good at all",
+   "texte": "I tried switching up my products to help with a breakout. After reading the reviews, I decided to try this out. I have used it for about a month and am fed up. It does nothing for pimples, and it does not even clean deeply. I would go over my face with witch hazel right after using this and clean up so much that was left behind. It doesn't foam at all, and as you can see in the picture, it is almost greasy. It's a pain to rinse off and does not leave my face feeling clean or smooth.",
+   "date": "November 6, 2016",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Carly Bewley",
+   "titre": "Average Daily Scrub — Okay for Basic Use, No Major Changes Over TimeAverage Daily Scrub — Okay for Basic Use, No Major C",
+   "texte": "⭐️⭐️⭐️☆☆ Nothing special, works okay but didn’t change much for me I’ve been using this scrub consistently for a few months now, and overall it’s been pretty average for my skin. Performance: It does an okay job with basic cleansing and light exfoliation, but I didn’t notice a big improvement in clogged pores or skin texture over time. I was hoping for more noticeable results with consistent use, but things have stayed fairly the same. Breakouts / blemishes: Even with regular use, I still get blemishes. It hasn’t really helped prevent breakouts in a meaningful way for me personally. Texture & feel: The scrub itself is fine—nothing harsh or irritating, but also nothing that stands out as especially effective or unique. Scent: Mild and not overpowering, which is nice for daily use. Overall: It’s an okay basic scrub if you just want something simple, but based on my experience using it for months, I didn’t see major improvements in skin clarity or congestion. Probably not something I would repurchase.",
+   "date": "May 18, 2026Reviewed in ",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kayla",
+   "titre": "Wish it was grittier...",
+   "texte": "This is a good cleaner for sensitive skin but I was hoping and expecting it to be a little grittier, especially due to its marketing of being a “free your pores scrub”. It’s very soft and gentle and I was just hoping it would really scrub and cleanse my skin. It’s an ok product for me that I’ll use until it’s gone, but likely won’t buy again. I’m including a few photos of the product just to provide a closer look of what to expect - hope that helps!",
+   "date": "August 23, 2020",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rajat D",
+   "titre": "Deep cleaning for oily skin!",
+   "texte": "I do not have acne but I use this Biore Face Scrub with Salicylic Acid as it thoroughly removes dirt from my oily skin. It doesn't dry out my skin and I find it helpful to use it before going to bed. Works best with lukewarm water.",
+   "date": "January 6, 2022",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "alex",
+   "titre": "Give it time",
+   "texte": "Give it 1-2 Months. I started using the Biore Unclogging Scrub 3-4 times per week (dove bar soap other days) 2 months ago. My pores have visibly shrunk and I have significantly less blackheads. No issues with acne or any other issues. 10/10 recommend this product",
+   "date": "August 19, 2026",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Serena",
+   "titre": "Feel Fresh and clean",
+   "texte": "I've used apricot scrub in the past by St.Ives and thought it was the same texture. I like that this has tiny beads and goes on soft and forms a good later with a little bit of water (I was in a hurry and had applied directly on my face with no water) so if you want to save some product follow instructions lol and apply to wet face first. Also, I have blemishes on my forehead but after using this product a few times, I noticed that skin has lightened somewhat on that area. My primary use is to deep clean and feel fresh. There you have it...nice, fresh, clean skin.",
+   "date": "November 3, 2024",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

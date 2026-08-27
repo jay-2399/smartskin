@@ -1,0 +1,138 @@
+{
+ "asin": "B0CKLB1X8F",
+ "nom": "Vitamin C Face Scrub",
+ "note": 4.2,
+ "nbAvis": 1336,
+ "lus": 15,
+ "collectes": 15,
+ "segments": {
+  "sensitive": "A reviewer whose skin can be sensitive reports no irritation at all, with the right amount of exfoliation for daily use.",
+  "mature": "A 54-year-old reviewer reports the scrub makes her face feel clean but does not notice any special effect for her skin beyond that."
+ },
+ "concerns": {
+  "aging": "One 54-year-old reviewer reports the scrub cleans her face well but does not notice it doing anything further for her skin.",
+  "dehydration": "Reviewers describe the scrub as hydrating, leaving skin soft, plump and moisturized rather than stripped.",
+  "redness": "One reviewer reports rashes and infections on several spots of her face that worsened over three days of use; other reviewers, including one with sensitive skin and one who used it on a partner's sunburned face, report no irritation at all."
+ },
+ "aspects": [
+  {
+   "libelle": "Undisclosed or unclear ingredient list",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Container arrives with less product than expected",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, light citrus scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle exfoliating texture with visible beads",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Comes with a small spatula for sanitary application",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Amazon Customer",
+   "titre": "Not good.  It gave me Rashes and infections",
+   "texte": "Not good. Gave me rashes and infections on several spots on my face. Still after 3 days of use I’m getting more skin problems. Not sure what ingredients are inside, but for sure I’m not going to use it again.",
+   "date": "August 7, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "BlueJean",
+   "titre": "Generic w/undisclosed Ingredients",
+   "texte": "*** WALNUT SHELL POWDER IS USED AS THE EXFOLIANT SCRUB. ( Is it possibly harmful to humans with nut allergies?!?) Not worth the money at all. Risky if you have sensitive skin or allergies. True ingredients unknown. Manufacturers plant in China and sold to wholesalers who sell to retailers who send to Amazon for sale and delivery. Not backed by a brand, no ingredients listed on this sellers page or on the product label, possibly contains nutshell and does not have any DOM or EXP dates. Found this information listed by another retailer w/exact item: The YAFUSIPE Vitamin C and Retinol Facial Scrub contains the following complete ingredient list: Main Ingredients: Water (base) 3-0-Ethyl Ascorbic Acid (Vitamin C derivative) Retinyl Palmitate (Vitamin A/Retinol) Key Components: Mineral Oil, Ethylhexyl Palmitate (moisturizing agents) Glycerin (hydrating) Dimethicone (silicone for smoothness) Juglans Regia (Walnut) Shell Powder (natural exfoliant - creates the sandy texture) Stephania Tetrandra Extract (botanical extract) Citrus Aurantium Dulcis (Orange) Peel Oil (orange scent) Preservatives & Stabilizers: Phenoxyethanol, Propylparaben, BHT, Disodium EDTA The walnut shell powder provides the gentle sandy exfoliating texture that customers mention in reviews, while the vitamin C and retinol work to brighten and smooth skin.",
+   "date": "February 24, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Amazon Customer",
+   "titre": "Makes my face feel clean- doesn’t do anything for 54 year old skin",
+   "texte": "I like this scrub a lot- makes my face feel clean. What I don’t like is the ingredients are not on the jar itself. I don’t like when that happens. I feel like the jar should have had more product in it.",
+   "date": "October 22, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kate",
+   "titre": "A nice face scrub!",
+   "texte": "I like this! I’m in my early 40s and was looking for an affordable face scrub to use in the shower. I selected this one and I’ve ordered it twice now. I’m not sure it has any life changing properties, but I’ve been very happy with it. It has not irritated my skin (which can be sensitive) at all and has the right amount of exfoliation for daily use, not too much, not too little. Smell is very subtle, but is nice.",
+   "date": "December 5, 2025",
+   "verifie": true,
+   "utiles": 15,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chiquita",
+   "titre": "Good exfoliator",
+   "texte": "Very exfoliating and hydrating . Skin feels so soft. Not too harsh on face but can feel buds. Will definitely buy again.",
+   "date": "February 18, 2026",
+   "verifie": true,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brittany Crandall",
+   "titre": "Love it!",
+   "texte": "This is a very nice skincare product! Has no scent which is great for sensitive skin. Has a creamy consistency with gentle exfoliating beads. Leaves my skin plump, bright, & moisturized. Comes with a mini spatula for a sanitary application. 100% reccomend!",
+   "date": "September 22, 2024",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maria",
+   "titre": "Not a harsh scrub",
+   "texte": "Loved it especially when my boyfriend had a sunburn and needed something gentle to exfoliate his face",
+   "date": "June 19, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

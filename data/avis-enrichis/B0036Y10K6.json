@@ -1,0 +1,113 @@
+{
+ "asin": "B0036Y10K6",
+ "nom": "St Ives Gentle Apricot Facial Scrub 150Ml",
+ "note": 4.8,
+ "nbAvis": 1494,
+ "lus": 8,
+ "collectes": 8,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers, including one who says every other scrub irritates her skin, report this one does not and works well for blemish control.",
+  "mature": "A 58-year-old reviewer reports the scrub is not just for blemishes and does not dry out her skin."
+ },
+ "concerns": {
+  "dehydration": "One reviewer reports the scrub does not dry out her skin.",
+  "redness": "Reviewers, including one with sensitive skin, report no irritation, with one noting that other scrubs irritate her skin while this one does not.",
+  "blemishes": "Reviewers consistently report the scrub helps with acne and blemishes, in some cases within a couple of days, leaving skin clearer and smoother; no reviewer reports it worsening breakouts."
+ },
+ "aspects": [
+  {
+   "libelle": "Comes in a tube rather than a tub, hard to get all product out",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Water lets you adjust the scrub's thickness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeably gritty, effective exfoliating texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-standing formula with loyal repeat customers",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Kel",
+   "titre": "Best facial scrub EVER!",
+   "texte": "I've been using St Ives Gentle Apricot Facial Scrub for 15 years. I can never find this exact formula in stores anymore. All the other stuff irritates my skin. This one is the best and only one I'll ever use. Makes my skin so soft! Best once a week scrub. Please never change it. It would be even better if it came in a tub instead of a tube as I have to cut the tube open to get out all of the product.",
+   "date": "April 27, 2026",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "mmcc421",
+   "titre": "Good product",
+   "texte": "Makes my skin smoother and softer, helps with my acne in a couple days",
+   "date": "January 17, 2026",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Victoria M",
+   "titre": "For stubborn acne.",
+   "texte": "I love the exfoliating apricot so I knew the blemish control would be of high quality as well. Smells nice. Great face wash for stubborn acne. I have sensitive skin and this brand is great.",
+   "date": "June 6, 2026",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sharyn Lynch",
+   "titre": "Repeat customer for sure!!",
+   "texte": "I am 58 year old who loves using this product. It's not just for blemishes. It doesn't dry me out.",
+   "date": "August 23, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Thickaz bear",
+   "titre": "Get it !!!",
+   "texte": "It fades your blemishes leaving you with a clearer and smoother skin works like magic",
+   "date": "February 19, 2024",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Only 8 reviews were available, all 5-star, so this reading has no critical perspective and rests on a narrow sample."
+}

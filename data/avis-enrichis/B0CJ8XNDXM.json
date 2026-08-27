@@ -1,0 +1,129 @@
+{
+ "asin": "B0CJ8XNDXM",
+ "nom": "Curology Clear Pimple Patch Clusters for Face",
+ "note": 4.6,
+ "nbAvis": 259,
+ "lus": 14,
+ "collectes": 14,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin are split: one had a welt-like, irritated reaction on three blemish sites, another found her face too sensitive for the patches to use at all, while a third with self-described super sensitive skin reported no irritation whatsoever."
+ },
+ "concerns": {
+  "redness": "One reviewer with sensitive skin reported the patches left irritated, welt-like marks on three separate blemish sites; another reviewer who describes her skin as super sensitive, however, said the patches never irritated her skin at all.",
+  "blemishes": "Most reviewers report the patches visibly draw out oil and gunk from clustered breakouts and whiteheads within hours to about a day, with some describing pimples resolved within 30 minutes to a year of stubborn use; one reviewer, however, hadn't seen any noticeable change on her chin after her first few uses.",
+  "oiliness": "Multiple reviewers report the patches visibly pull oil and gunk out of clogged pores, leaving skin feeling smoother and cleaner after just one use."
+ },
+ "aspects": [
+  {
+   "libelle": "Sticks well and stays on for hours, even under moisturizer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thin and comfortable, unnoticeable while sleeping",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Covers larger, clustered areas better than single spot patches",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Peels off easily without hardening or hurting",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pricey",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Chris Kahler",
+   "titre": "Left a welt",
+   "texte": "Be careful is you have sensitive skin. Left an irritated mark. I had a blemish on my upper arms and back and left a welt on all 3 spots.",
+   "date": "April 15, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Tina",
+   "titre": "Yay more surface area",
+   "texte": "I loved these way better than the spot patches merely because they are more catered to breakouts and cover more surface area atonce time. I left it on for 24hrs to ensure that all of the oil and gunk was removed.",
+   "date": "January 3, 2024",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Maria ",
+   "titre": "So far so good",
+   "texte": "I like these acne patches so far. I put them on at night since they can stay on for up to 6 hours. I haven’t seen any noticeable change on my chin so far after use. I’m hoping they start to work eventually.",
+   "date": "January 4, 2024",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Morgan Bardsley",
+   "titre": "OBSESSED!",
+   "texte": "Curology crushed the pimple patch game. these work so quickly and get so much out of your pores! Leaves your face feeling so smooth and clean after one use. Pros: - do not hurt when peeling off of your face like other brands have in the past to me - the size of them works great for a bunch of problem areas where you need oil/pores cleaned out - do not feel them on your face if sleeping with them on - i have used these for 3hours up to 8 hours and even for the shorter time frames they still pull a ton out - do not irritate the skin (i have super sensitive skin) - They do not get hard and “crunchy” like other brands Cons: - not one complaint about these at all!",
+   "date": "August 26, 2024",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amazon Customer",
+   "titre": "10/10",
+   "texte": "Love this brand!! Works great on my chin and nose. Sucks us lots of oil and works wonders in pimples with a whitehead!",
+   "date": "March 20, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Destiny Hare",
+   "titre": "Pimple patches",
+   "texte": "Bought these, unfortunately my face is too sensitive for them, but they’re pretty good quality.",
+   "date": "July 27, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

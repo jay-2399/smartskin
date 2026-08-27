@@ -1,0 +1,142 @@
+{
+ "asin": "B0CJ92RPT2",
+ "nom": "Curology Micellar Water Makeup Remover",
+ "note": 4.3,
+ "nbAvis": 431,
+ "lus": 14,
+ "collectes": 14,
+ "segments": {
+  "dry": "A reviewer whose skin was normally dried out by regular micellar water reports this thicker formula has not dried out her face.",
+  "sensitive": "A reviewer whose skin usually reacts roughly to makeup removers reports passing an initial patch test with no sensitivity problems using this product."
+ },
+ "concerns": {
+  "dehydration": "Reviewers consistently report the product feels moisturizing or hydrating rather than stripping, including one who switched to it because regular micellar water dried out her skin.",
+  "redness": "Most reviewers report no irritation or sensitivity, including one who specifically noted no problems despite rough reactions to other makeup removers; two reviewers, however, report stinging or burning, one severely around the eyes."
+ },
+ "aspects": [
+  {
+   "libelle": "Thicker, gel-like consistency unlike typical watery micellar water",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No oily or greasy residue left behind",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented or very mild scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "More expensive than typical drugstore micellar water",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick bottle can be hard to open for less-dexterous hands",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "LOVES2SHOP",
+   "titre": "Burning Eyes!",
+   "texte": "I bought this as an eye makeup remover. I applied to a cotton pad and gently wiped over my closed eyes. My eyes began to burn and continued till I put multiple refresh eye drops in my eyes. The drops minimized the burning but I still have discomfort! There’s no way I would ever use this product again.",
+   "date": "November 3, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "PintJunkie",
+   "titre": "Good",
+   "texte": "I bought this after regular micellar water dried out my skin. This cleanser is definitely thicker than what I’m used to but I just rinse with water after use. So far it has not dried out my face.",
+   "date": "November 8, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Flava",
+   "titre": "Unusual Texture",
+   "texte": "I bought this to remove eye makeup and it worked well. It removed all of my shadow, liner, and mascara in 10 seconds. Required a good warm water rinse after so no irritation after. I applied it using cotton rounds on tightly closed eyes. The real joy came when I used it on my face to remove sunscreen. My skin felt so refreshed and actually moisturized. The texture is unlike anything I've tried before. It's a gel. Unscented. Doesn't strip the skin. I never wear waterproof mascara so your mileage will vary.",
+   "date": "August 7, 2025",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lili Gonzalez",
+   "titre": "VERY GENTLE FOR YOUR SKIN",
+   "texte": "I have been using my Curology custom formula since 2020 and my provider has recommended me to use Bioderma Micellar Warte to remove my makeup before using my treatment but I came across their micellar here in Amazon for half of the price I would pay for the Bioderma one. I have to say I really like this one. I can easily remove waterproof makeup and my skin feels moisturized and not sticky as I thought I could get due to the gel like texture of it.",
+   "date": "July 12, 2024",
+   "verifie": true,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gwen Gerety Hays",
+   "titre": "Great Make Up Remover",
+   "texte": "I bought this make up remover after having purchased Thrive Causmetics mascara and read that the mascara can be difficult to remove. This works well. I have to be careful though as it stings. It works great in foundation and eyebrow tint.",
+   "date": "September 29, 2024",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sammy P.",
+   "titre": "Love the consistency; have a hard time opening the bottle",
+   "texte": "I ordered this micellar water makeup remover and have been using it for a few weeks now. It does a great job of taking off makeup and sunscreen. I really like the consistency. Most micellar water products are very thin and watery, but this one is a bit thicker. I much prefer this, as I am less wasteful with the product. It passed the initial skin patch test, and I've had no problems with sensitivity while using it. Makeup removal products can be quite rough on my skin, so I'm happy about this. The bottle is thick, which is my biggest problem. It is difficult for my tiny, arthritic hands to hold and also unscrew the top.",
+   "date": "January 26, 2024",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shaboo",
+   "titre": "Works amazing with no oily residue!",
+   "texte": "It’s so hard for me to find a makeup remover that is gentle, works well, and doesn’t leave an oily residue. I think I found my new favorite makeup remover! - A little goes a long way. Just a small amount and I was able to take off all my eye makeup remover with just one cotton pad - No residue. Once dried I didn’t have oily residue. - Gentle on the skin. I didn’t have to rub to get the makeup off, and my skin feels very soft after! - No smells!",
+   "date": "January 2, 2024",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,43 @@
+{
+ "asin": "B0GGF6S2YJ",
+ "nom": "e11ement Hypochlorous Acid Spray for Skin",
+ "categorie": "toner",
+ "note": 4.6,
+ "nbAvis": 101,
+ "distribution": {
+  "one_star": 5,
+  "two_star": 1,
+  "three_star": 5,
+  "four_star": 4,
+  "five_star": 86
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Don",
+   "titre": "Great skin care tool!",
+   "texte": "This is the second bottle I’ve ordered. It’s great for calming irritated skin, including the scalp, after the sun. A great tool to have in your medicine cabinet.",
+   "date": "July 12, 2026",
+   "verifie": true,
+   "utiles": 3
+  },
+  {
+   "note": 5,
+   "auteur": "Briana Andrade",
+   "titre": "10/10 PRODUCT",
+   "texte": "I will forever repurchase this. I use it before my skincare routines, after the gym, daily whenever I need a refresh.",
+   "date": "August 9, 2026",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Willa",
+   "titre": "Obsessed",
+   "texte": "I’m literally OBSESSED with this stuff. I’ve now purchased 3 times. A little bit goes a long way. It leaves no residue and is light as water. My skin feels clean without feeling taut. Love love love and highly recommend.",
+   "date": "August 24, 2026",
+   "verifie": true,
+   "utiles": 0
+  }
+ ]
+}

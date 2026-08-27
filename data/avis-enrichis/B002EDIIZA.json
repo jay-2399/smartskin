@@ -1,0 +1,129 @@
+{
+ "asin": "B002EDIIZA",
+ "nom": "Burt's Bees Deep Cleansing Pore Scrub with Peach and Willow Bark",
+ "note": 4.7,
+ "nbAvis": 1264,
+ "lus": 12,
+ "collectes": 12,
+ "segments": {
+  "sensitive": "The one reviewer who names sensitive, allergy-prone skin reports the scrub rejuvenates and exfoliates her skin well without irritation, describing it as silkier and gentler than traditional apricot-pit scrubs."
+ },
+ "concerns": {
+  "blemishes": "Reports are split at the extremes: one reviewer says her acne was already clearing up after just a week of use, while another had a severe reaction, breaking out badly with wounds around her eyebrows, and recommends against using it on the face at all, though she says it's fine on the body.",
+  "dehydration": "Reviewers consistently report the scrub cleans without over-drying the skin, leaving a moisturized feeling and a soft glow rather than tightness.",
+  "redness": "Reviewers, including one who is allergic to many products, report no irritation from this scrub; the one reviewer who had a bad reaction describes it in terms of breakouts and wounds rather than redness specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Multi-packs sometimes arrive with fewer tubes than labeled",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottles can appear only half full",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle, fine-grain texture, silkier than apricot-pit scrubs",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Priced higher on Amazon than in some stores",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Wish the ingredient list were fully clean or natural",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Amazon Customer",
+   "titre": "Do not use on face",
+   "texte": "Made me break out really bad. I developed wounds in my eyebrows. Wouldnt recommend for use on face. Body use is fine.",
+   "date": "November 30, 2019",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer Hollis",
+   "titre": "BURT'S BEES FACIAL SCRUBBURT'S BEES FACIAL SCRUB",
+   "texte": "SO I DO HAVE SENSITIVE SKIN AND AM ALLERGIC TO SO MANY THINGS. THIS LIGHT FACIAL SCRUB REGUVENATES MY SKIN AND IT EXFOLIATES WELL BUT IT DOESN'T SCRUB YOUR FACE WITH LARGE APRICOT PIT. THIS ONE BY BURT'S BEES IS SILKIER AND IT IS NOT TESTED ON ANIMALS. SO I ALSO HIGHLY RECOMMEND IT.",
+   "date": "February 5, 2026Reviewed",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Haley G",
+   "titre": "AMAZING!!",
+   "texte": "this stuff is amazing only had it for a week and my acne is already clearing up, save your $$ and get it for $8 at sprouts instead of $21 here👍🏼",
+   "date": "January 18, 2016",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "julie garza",
+   "titre": "Worth it",
+   "texte": "I love Burt’s bees products and how my skin feels afterward . This cleans my face but not over dries it . I see a soft glow after cleaning my face with the scrub .",
+   "date": "March 20, 2026",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary P",
+   "titre": "Great product.",
+   "texte": "This is a great product. Gentle on the skin and makes your face feel clean. Moisturized feeling, not a dry feeling.",
+   "date": "March 15, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Theresa R.",
+   "titre": "My absolute favorite face scrub!",
+   "texte": "This is my absolute favorite face scrub!! I love the scent as well as the way it feels on my skin. I don't ever get any irritation from them and they work really well for me!",
+   "date": "January 10, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

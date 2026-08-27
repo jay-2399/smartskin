@@ -36,12 +36,13 @@ export async function GET(request: Request) {
     const f = scoreFormule(p.inci || "", p.category, p.filtresUV);
     const pe = scorePerso(p.inci || "", pr, p.category, f, p.filtresUV);
     return NextResponse.json({
-      produit: { nom: p.name, marque: p.brand, image: p.image, categorie: p.category, inci: p.inci },
+      produit: { nom: p.name, marque: p.brand, image: p.image, categorie: p.category, inci: p.inci, asin: p.asin },
       score: { disponible: moteurDisponible(), formule: f, perso: pe },
       ingredients: ficheIngredients(p.inci || "", dictionnaire(), pr),
-      // `null` quand on n'a pas d'avis pour ce produit : l'écran n'affiche alors rien
-      // plutôt que d'inventer. (Le bloc précédent montrait les mêmes 4,4 étoiles partout.)
-      avis: avisPour(p),
+      // `null` quand on n'a rien à dire À ELLE sur ce produit : l'écran n'affiche alors rien
+      // plutôt que d'inventer. Les avis passent par le MÊME profil que le score perso — on ne
+      // montre que le segment de sa peau et les problèmes qu'elle a déclarés.
+      avis: avisPour(p, pr),
     });
   } catch {
     return NextResponse.json({ statut: "erreur" }, { status: 500 });

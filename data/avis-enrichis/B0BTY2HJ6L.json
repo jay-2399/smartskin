@@ -1,0 +1,150 @@
+{
+ "asin": "B0BTY2HJ6L",
+ "nom": "Amazon Basics Rose Water Hydrating Facial Toner",
+ "note": 4.5,
+ "nbAvis": 2071,
+ "lus": 23,
+ "collectes": 23,
+ "segments": {
+  "oily": "Reviewers with oily skin, including one whose forehead gets oily throughout the day despite moisturizing, report it helps control oil and doesn't feel greasy afterward.",
+  "sensitive": "Sensitive-skin reviewers report no irritation, including comfortable use right around the eyes, and say it doesn't over-dry their skin.",
+  "dry": "The one reviewer identifying as dry-skinned says it keeps her face hydrated and is her favorite toner.",
+  "mature": "The one reviewer in his late 70s reports it keeps his skin looking less dry, with the witch hazel content giving a mild tightening effect he associates with looking less aged."
+ },
+ "concerns": {
+  "aging": "The only comment on aging comes from one long-term user in his late 70s, who credits the witch hazel content with a mild tightening effect and says it helps him look less aged, though this is a single account.",
+  "dehydration": "Most reviewers report soft, hydrated skin after use, several noting their other products absorb better afterward, but one reviewer reports the opposite — no fresh or hydrated feeling, with her skin turning rigid as the product dried.",
+  "redness": "Reviewers consistently report no stinging or irritation, including comfortable use close to the eyes and on the lips.",
+  "oiliness": "Reviewers with oily skin, including one whose forehead gets oily throughout the day, report it helps control excess oil without feeling greasy."
+ },
+ "aspects": [
+  {
+   "libelle": "Bottle or cap sometimes arrives damaged, empty, or leaking",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large 16oz bottle offers strong value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent leans more witch hazel than rose",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-sticky, no residue left behind",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bulky bottle, better decanted into a spray bottle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Free of parabens, sulfates, and alcohol",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Amazon Customer",
+   "titre": "Gasté mi dinero por gusto",
+   "texte": "El producto llegó a tiempo y en buen estado lo estuve usando casi una semana antes de poner el Review, tiene un aroma ligero y agradable. En mi caso cuando me lo apliqué no se siente que te deja la piel fresca y menos hidratada yo me lo eché con un rociador y a medida que se seca la piel se pone rígida. Entiendo que por el precio era un milagro tener un mejor resultado he usado otras marcas y los resultado ha sido completamente diferente. pero definitivamente no lo volvería a comprar.",
+   "date": "February 9, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JC",
+   "titre": "Cool and refreshing hydrating toner! Incredible value!",
+   "texte": "I recently started doing a skin care routine to help with the dry and dull skin on my face and just added this rose water toner to my routine based on peoples comments and reviews on the serum and moisturizer products I use (I had never heard of Rose water before!). I was shocked to see how inexpensive this toner is and ordered it right away. My forehead tends to get oily throughout the day (even with morning and evening moisturizer) however I have noticed that since I have added this to my routine it has helped significantly with that issue. It takes a very small amount on a cotton ball to cover entire face and neck so the 16oz bottle will last a very long time. It feels so cool and refreshing when applying. I apply after washing my face but somehow it still gets more oil and grime off! I wait a few minutes for it to dry and then apply a hyaluronic acid serum and moisturizer and my skin looks and feels great, firm and smooth! I tend to have sensitive skin and I have not had any issues with this product at all. I will definitely continue using this in my morning and evening routine. I highly recommend it! Update: I have also since tried the Pore Perfecting Toner (Witch Hazel water) of this same brand, and it does not smell good at all! I definitely prefer this Rose Water with Witch Hazel Toner.",
+   "date": "June 12, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Deyo",
+   "titre": "Great I like it",
+   "texte": "I really like this and I'm sensitive. It cleans with a cotton ball and it doesn't over dry your face. No irritation I even used it around my eyes. I would buy this again",
+   "date": "August 9, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Renaee Smith",
+   "titre": "My fav",
+   "texte": "This is my absolute fav, I have dry skin and this keeps my fave Hydrated",
+   "date": "April 6, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "trilingual1946",
+   "titre": "A Pleasant, Effective and Inexpensive Toner",
+   "texte": "I’m an old guy (nearly 80) who looks somewhat younger and still have some vestigial vanity. I’ve been using a variety of products to keep my face looking healthy and moisturized and this skin toner definitely helps. I’ve put it into a smaller spray bottle that I can carry around so I can give myself an extra spritz when needed. In hot weather I keep the spray bottle in the fridge – very refreshing to use in the midst of a midwestern summer! The scent is very mild and not lingering but pleasant when it’s being applied. The toner does help keep my skin looking less dry and the witch hazel does tighten things up a bit. I’m not looking for things that will make me look like a teenager (fat chance!) but that keep me looking healthy and less aged and this helps accomplish that! Plus it’s pleasant to use.",
+   "date": "January 8, 2026",
+   "verifie": true,
+   "utiles": 42,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mil",
+   "titre": "good and bad points",
+   "texte": "hi guye I want to share my experience with you about this item. good points: 1.this toner has very nice scent 2.after using it I feel fresh and hydrating on my skin 3. although I have oily skin, I don't feel greasy after using it 4.it worth the money bad points: I haven't find any bad point yet",
+   "date": "June 25, 2023",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "DRpascua",
+   "titre": "The best toner",
+   "texte": "Out of all the other expensive toners I have used over the years, this is one of the best ones so far. It doesn’t sting my skin, my skin feels so refreshed and hydrated. Smells amazing and nothing can beat the price for the amount you get. I use it after I wash my face and I also pat it on my lips before putting on my lip balm. Since I’ve been doing this my lips have been much more hydrated too. This bottle will last a long time. I’ve been using it everyday for the past few months and I haven’t even used half the bottle yet. I will totally be buying this again!",
+   "date": "June 3, 2026",
+   "verifie": true,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

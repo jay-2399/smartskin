@@ -1,0 +1,114 @@
+{
+ "asin": "B08FCWHJVX",
+ "nom": "Exfoliating Face Scrub with Monoi Oil & Sea Kelp",
+ "note": 4.4,
+ "nbAvis": 377,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {
+  "sensitive": "The one reviewer with sensitive skin reports the scrub never irritates her skin.",
+  "mature": "Reviewers with mature or aging skin, including one in her seventies, describe the scrub as mild enough to use without harshness, leaving skin smooth and soft without drying it out, and note that aging skin does not need it as often as younger skin might."
+ },
+ "concerns": {
+  "aging": "Reviewers with mature or aging skin describe this scrub as mild rather than harsh, doing the job without irritation; one notes her aging skin does not need it as often as younger skin might use it.",
+  "dehydration": "The one reviewer who addresses hydration, who has aging skin, reports the scrub leaves her skin smooth and soft without drying it out, unlike some other exfoliating products she has used.",
+  "redness": "The one reviewer with sensitive skin reports the scrub never irritates her skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Thin, watery consistency dispenses quickly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Exfoliating texture is gentle, not abrasive",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant salt-air fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains artificial dyes despite natural marketing",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube sometimes appears underfilled",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Chloegirlsworld",
+   "titre": "\"NATURAL\" is a heck of a stretch!",
+   "texte": "FAR FROM NATURAL! While there are natural ingredients - IT IS NOT NATURAL! There are LOADS of dyes in here which I'm sure is why they didn't have the list of ingredients listed. Opened it, smelt great. Checked the back to see all ingredients and red, blue and yellow dyes all over the place. NOT HAPPY. Returning. AGAIN NOT NATURAL.",
+   "date": "December 6, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 3,
+   "auteur": "Meridith Grover",
+   "titre": "Too watery",
+   "texte": "I loved the scent and the feel of this scrub and so did my teenage son. The biggest downfall was how watery it is! We went through a tube of this in no time as it would just pour out! There was nothing you could do!",
+   "date": "June 5, 2026",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Gina Casas",
+   "titre": "Great for mature skin",
+   "texte": "I’ve only used this a few times, but it seems to be a really mild spoliator. It is great for aging skin. My only problem is that it is very thin in consistency. It comes out fast and is not as thick as other products I have used. it definitely does the job!",
+   "date": "June 21, 2026",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Wendy Gordon",
+   "titre": "This stuff is wonderful!!",
+   "texte": "Leaves my skin smooth and soft---without harsh particles! I'm 71 and have pretty good skin that I've taken care of. But occasionally it feels less-than-smooth, and I like to use a scrub. This one is amazing---my skin feels like glass, but it doesn't dry me out. It also doesn't tear my skin, like things with so-called 'natural' scrubbers (looking at you, peach pits!) will. I also use it on my chest and neck. My 'aging skin' doesn't need multiple times a week, but younger skin sure could!",
+   "date": "June 15, 2026",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maria Gonzalez",
+   "titre": "Great product!",
+   "texte": "Love this product. I have sensitive skin and this product never irritates my skin.",
+   "date": "August 20, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

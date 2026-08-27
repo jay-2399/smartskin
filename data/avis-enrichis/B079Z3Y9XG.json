@@ -1,0 +1,105 @@
+{
+ "asin": "B079Z3Y9XG",
+ "nom": "St. Ives Exfoliant Face Scrub",
+ "note": 4.6,
+ "nbAvis": 1873,
+ "lus": 14,
+ "collectes": 14,
+ "segments": {
+  "sensitive": "The one reviewer who mentions sensitive skin reports the scrub is gentle on it, with a pleasant scent and no chemical smell.",
+  "oily": "One long-time reviewer reports this is still the only product that helps control her oil."
+ },
+ "concerns": {
+  "barrier": "The one reviewer who mentions sensitive skin reports the scrub is gentle on it and does not irritate.",
+  "oiliness": "One long-time reviewer reports this remains the only product that helps control her oil; no other reviewer discusses oil control in detail."
+ },
+ "aspects": [
+  {
+   "libelle": "Recent reformulation seen as smaller size or less product for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Finer, gentler granules than the classic Apricot scrub",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, fruity scent, though a little perfumey for some",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Some bottles arrive leaking",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Kay Anna Whyte ",
+   "titre": "Smaller than regular size",
+   "texte": "Giving 3 stars because idk why I thought it would be bigger, I bought the coffee scrub too and it’s in a way bigger packaging but any I’ve been a long time user of St.Ives but most times I get it at the super market so first time ordering and I wished it was the usual size, this is kind of a travel size-ish 🫤🫤",
+   "date": "June 11, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Mtnmom",
+   "titre": "Gentle exfoliation for face and body.",
+   "texte": "I wouldn’t use anything else but St. Ives for my face. I use a few times a week to exfoliate. Nice scent and gentle on my sensitive skin. Convenient packaging for the shower. Nice scent with no chemicals smell.",
+   "date": "August 21, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jolynn",
+   "titre": "A staple",
+   "texte": "Always will have this available. It is still the only product that helps control oil.",
+   "date": "August 17, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "DanvilleBelle",
+   "titre": "Great cleanser at a great price",
+   "texte": "My skin is noticeably smoother and brighter after using this product for just under two weeks. The exfoliation is gentle and the scent is so refreshing - highly recommended.",
+   "date": "June 14, 2026",
+   "verifie": true,
+   "utiles": 4,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Amazon Customer",
+   "titre": "Delicate",
+   "texte": "Much lighter and softer grit than original. Doesn’t feel like ‘it’s scrubbing’ like original does but skin actually looks exfoliated afterwards. Consistency it’s wetter and looser . See pic. Smell a little perfumey…not crazy about it. Not terrible tho. May go back to original formula.",
+   "date": "November 18, 2023",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "Skin-type and concern detail is limited in the reviews supplied, which focus mostly on scent, texture, and value rather than specific skin outcomes."
+}

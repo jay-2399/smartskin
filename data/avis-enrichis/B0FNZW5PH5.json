@@ -1,0 +1,136 @@
+{
+ "asin": "B0FNZW5PH5",
+ "nom": "Rael Hydrogel Masks",
+ "note": 4.6,
+ "nbAvis": 190,
+ "lus": 23,
+ "collectes": 23,
+ "segments": {
+  "dry": "One reviewer with very dry skin who uses masks for an intense moisture boost a couple of times a week reports this one stayed on well and left her skin plumper and deeply hydrated with no irritation.",
+  "sensitive": "One reviewer with sensitive skin reports this is the first mask she has used that doesn't irritate or burn her skin, though she didn't notice much visible difference beyond the immediate post-removal effect.",
+  "mature": "One reviewer who says she increasingly feels the need for more collagen and hydration as she ages reports the mask delivered a noticeable boost in plumpness and hydration after using it twice."
+ },
+ "concerns": {
+  "aging": "Reviewers report visible plumping and firming effects, including one who says the mask reduced the wrinkle between her eyebrows after repeat use and another who describes a younger, fuller-looking appearance the morning after an overnight application.",
+  "dehydration": "Reviewers consistently report a strong, immediate hydration boost, describing skin as plumper, softer, and smoother right after use, including one reviewer with very dry skin who found it deeply hydrating; several note the effect is short-lived, working best as a quick boost rather than a long-term replacement for a daily moisturizer.",
+  "barrier": "Reviewers with sensitive or reactive skin report no burning or irritation, including one for whom this was the first mask that didn't irritate or burn her skin, and others who specifically note no irritation despite skin sensitivities."
+ },
+ "aspects": [
+  {
+   "libelle": "Textured side grips skin, prevents slipping",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Two-piece design fits facial contours well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragile, prone to tearing at cutouts",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doesn't always turn fully transparent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Grip texture can leave temporary marks",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Anna Melaia",
+   "titre": "Don’t recommend",
+   "texte": "I don’t like this mask! I tried many and this one doesn’t do its job",
+   "date": "May 21, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "S. C.",
+   "titre": "Great moisture boost",
+   "texte": "I just tried this hydrogel mask and it was a great experience. I have very dry skin and use masks a couple of times a week for a more intense moisture boost and this one is a wonderful choice. I found this mask to be thicker than most so it was easy to manipulate and place it on the face. It stayed put very well until I removed it 35 minutes later. It felt very soothing with no irritation. Once I removed it my skin felt plumper and deeply hydrated. I really like this mask.",
+   "date": "September 15, 2025",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Ashlyn",
+   "titre": "Sensitive skin approved",
+   "texte": "This is the first face mask I’ve used that doesn’t irritate or burn my skin. I have pretty sensitive skin so I was impressed. I didn’t notice a big difference in my skin aside from immediately removing it. I’d still continue to use this product",
+   "date": "June 23, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Pamela",
+   "titre": "Hydration, plumpness and pores!",
+   "texte": "As I get older I feel the need for direct collagen and more hydration to my face. After trying this mask out twice and wearing it one hour each time I felt the difference. This mask truly gives your face the boost of plumpness and hydration needed. I love the side with the ridges which allows the mask to stay on your face and not slip off. I’ll be purchasing more and using them weekly.",
+   "date": "June 30, 2026",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Josefa cobas chaveco",
+   "titre": "Lo máximo",
+   "texte": "La es comprado por segunda vez porque resultado es magnífico me has reducido una arrugas en el entrecejo",
+   "date": "June 9, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Amz Customer",
+   "titre": "Daily Face Mask",
+   "texte": "On days when your skin needs a little more moisture, this made in Korea hydrogel mask is a cool choice. The gel-like texture provides a cooling sensation that is immediately calming and sticks to the face well without slipping. It is a pleasant pick-me-up for dry or exhausted complexions because it leaves skin feeling plumper and more revitalized after use. I love that they are fragrance free. On the down side, the masks require careful handling during application due to their fragility. It is more effective as a short-term boost than a long-term fix because the hydration impact is evident but temporary. All things considered, these masks are a fun and easy way to hydrate your skin more, especially when you want to have a spa-like experience at home. Instead of replacing a daily moisturizer, they work best for temporary refreshment.",
+   "date": "September 14, 2025",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

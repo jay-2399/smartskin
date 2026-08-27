@@ -1,0 +1,150 @@
+{
+ "asin": "B0BNC5ZF3T",
+ "nom": "Neutrogena Alcohol-Free Gentle Daily Facial Toner",
+ "note": 4.6,
+ "nbAvis": 3960,
+ "lus": 20,
+ "collectes": 24,
+ "segments": {
+  "oily": "One reviewer with very oily skin reports the toner removes leftover oil after cleansing and doesn't burn, tighten or dry her skin, though it also didn't cut down her oiliness the way she'd hoped.",
+  "dry": "One reviewer describes the toner as gentle on dry and sensitive skin.",
+  "combination": "One reviewer with combination skin reports it leaves her skin fresh and clean without burning, unlike other toners she's tried.",
+  "sensitive": "Most reviewers with sensitive skin report no irritation or dryness and describe it as gentle and calming, but one reviewer developed an allergic reaction after a few days of use.",
+  "mature": "One 73-year-old reviewer who worried the toner would dry out her skin reports it didn't, leaving her face clean and healthy-looking."
+ },
+ "concerns": {
+  "dehydration": "Reviewers across different skin types consistently report the toner cleanses without drying out their skin or leaving it feeling tight, even reviewers who were specifically worried it would.",
+  "redness": "Most reviewers report no irritation at all, but a few describe adverse reactions, including one who says it burned her face and another who developed an allergic reaction after a few days of use.",
+  "barrier": "One reviewer credits the alcohol-free formula with helping keep her skin's natural barrier intact.",
+  "spots": "One reviewer reports her skin tone has evened out and looks less spotty since adding this toner to her routine.",
+  "oiliness": "One reviewer with very oily skin reports the toner removes leftover oil missed by cleansing, though it didn't cut down her underlying oiliness the way she had hoped."
+ },
+ "aspects": [
+  {
+   "libelle": "Fragrance-free, no noticeable scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels like water on a cotton pad, yet visibly lifts residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Very affordable compared to pricier toners",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Recurring packaging or shipping issues: missing seal, opened look, spills",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Some report the reformulated bottle differs from the older version",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Julia Newman",
+   "titre": "Not the same product; might be tampered!!!",
+   "texte": "I have used this Neutrogena product for years. I have seen that it is now in a different bottle. The bottle I used to buy was blue. Like other customers have said, I received it without a factory seal on it and there was a piece of tape over it from the company stating \"helps prevent liquid leaks\". I tried it one time anyway and it is also burning my face. If it's alcohol-free it should not feel this way. The product that I have always used has never made my face burn. I think this is a mock version of the Neutrogena product. I will be returning and never buying from this company again!!!",
+   "date": "July 9, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "SM",
+   "titre": "Allergic reaction",
+   "texte": "Sadly I developed an allergic reation to this product after using for a few days",
+   "date": "September 5, 2024",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dorkus",
+   "titre": "Cleans off extra oils even after cleansing",
+   "texte": "It’s crazy what still comes off of your skin even after you’ve just cleaned it. The photo of the pad was using this toner about 10-15 minutes after I had just cleaned my face with my typical cleanser. The toner looks and has the consistency of alcohol but it’s alcohol free! That means it’s not supposed to dry out your face and it tones it for whatever the next step is in your routine. Some days I just go about my day after applying this toner and other times I’ll wait until my skin relaxes and then go on with my makeup routine. This has helped clear out my pores and make them more even to apply makeup. It has no fragrance and doesn’t have any kind of reaction on my skin. It doesn’t burn, make my skin tight, or dry it out. Honestly, I have incredibly oily skin and I had hoped that it would dry out my skin a little! It’s really easy to use I just apply it to a cotton pad as shown and a little goes a long way since it doesn’t evaporate like alcohol would.",
+   "date": "March 20, 2023",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maleah Diggs",
+   "titre": "Excellent toner",
+   "texte": "I have been using this toner for about a month, and it's amazing! I use it after washing my face with the Ultra Gentle Daily Cleanser and I also use it after removing facial hair off my face! It leaves my skin so fresh and clean! I have combination skin, so this product for perfect for me! Most toners that I used in the past would burn my skin. What I love about the Neutrogena Toner is that it's fragrance free and alcohol free! It doesn't burn or dries out my skin! This helps my pores stay open and allowing my skin to breathe! This is my 1st time buying this toner, and I'm so glad that I did! The perfect product to add to my skincare routine! I will definitely buy it again! Highly recommend it 👌🏾☺️💙",
+   "date": "April 10, 2024",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth Horton-Newton, Author",
+   "titre": "Won’t Dry Out Skin",
+   "texte": "I was hesitant to try this toner as I’m 73 years old. I was concerned it would dry out my skin. I’m glad I took a chance. It’s incredible for the price. Doesn’t dry out my skin and leaves my face looking clean and healthy.",
+   "date": "July 27, 2026",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ForrestGreen",
+   "titre": "Tones skin an perfect for sensitive skin",
+   "texte": "You can add this to your daily routine after washing your face use this then add a moisturizer an your done, i use this daily an my face tone has evened out an isnt as spotty as it was. An its the full size bottle, i use a makeup rag but im switching to cotton wipes.definitly reccomend",
+   "date": "March 24, 2023",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Scarlen Abad Rijo",
+   "titre": "Tónico suave y efectivo para pieles sensibles ⭐⭐⭐⭐⭐",
+   "texte": "e estado usando este tónico de Neutrogena durante unas semanas y estoy muy impresionada. Es increíblemente suave para mi piel sensible y no me causa irritación ni sequedad. Lo uso después de la limpieza y noto cómo elimina los restos de suciedad y maquillaje, dejando mi piel fresca y equilibrada. Me encanta que no contenga alcohol, ya que esto ayuda a mantener la barrera natural de la piel intacta. Además, tiene un aroma sutil y agradable. Definitivamente, seguiré usando este tónico en mi rutina diaria de cuidado de la piel. ¡Altamente recomendado para cualquiera que busque un tónico suave y eficaz!",
+   "date": "October 25, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}
