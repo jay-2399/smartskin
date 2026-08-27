@@ -1,0 +1,161 @@
+{
+ "ref": "xlsImpprod15791005",
+ "asin": null,
+ "pid": "xlsImpprod15791005",
+ "source": "ulta",
+ "nom": "Differin Adapalene 0.1% Acne Treatment Gel",
+ "note": 4.03,
+ "nbAvis": 340,
+ "lus": 80,
+ "collectes": 121,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin are sharply divided: several who used it daily at full strength report severe reactions, including a ruined skin barrier, bright red peeling skin, or months to recover; others who started slowly (every other day, at night, with a heavy moisturizer) report it clears their skin well, sometimes after a rough second week.",
+  "dry": "Reviewers with dry skin generally find the gel very drying, with one describing lasting barrier damage and fragility; others who paired it with a heavier moisturizer and a slow ramp-up say it worked without lasting harm.",
+  "oily": "Reviewers with oily skin get mixed results: some say it clears hormonal breakouts quickly and effectively, while others report it stripped their skin of moisture entirely, leaving dry, flaky, red patches despite their naturally oily skin.",
+  "mature": "Reviewers in their late 40s and 50s, using the gel partly for anti-aging, report fewer visible wrinkles and fine lines after months of consistent, low-frequency use."
+ },
+ "concerns": {
+  "blemishes": "Reports on blemishes are sharply divided: many reviewers, especially those managing hormonal or cystic acne, describe dramatic, lasting clearing after an expected 'purge' period of two to six months; but a substantial number say their acne got significantly worse and never recovered, including several who developed painful cystic acne for the first time or saw existing cystic acne worsen permanently after months of use.",
+  "dehydration": "Nearly all reviewers say the gel is drying, ranging from mild dryness that a heavier moisturizer easily offsets to, for a minority, severe and lasting damage: several describe their skin as far drier, flakier and more fragile than before, with a couple reporting it took months to recover or required a dermatologist visit.",
+  "redness": "Several reviewers say the gel reduces general redness and calms individual blemishes faster once past the adjustment period; others report the opposite while adjusting, describing their whole face turning bright red and peely, or new redness and irritation appearing when they start.",
+  "barrier": "The clearest report on the skin barrier is negative: one reviewer with dry, sensitive, acne-prone skin says the gel completely ruined her skin barrier and needed months to recover, though others describe deliberately pairing it with a rich moisturizer specifically to protect their barrier while using it.",
+  "spots": "A few reviewers say the gel has helped fade acne scarring or discoloration over time, but others report the opposite, that using the product itself left them with new scarring or hyperpigmentation once their skin reacted badly.",
+  "aging": "Reviewers using it partly for anti-aging, mostly in their late 40s and 50s, report fewer visible wrinkles and fine lines after months of consistent use."
+ },
+ "aspects": [
+  {
+   "libelle": "Long purge period before visible improvement",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Only a pea-sized amount needed, more irritates",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, unscented gel texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or burns if layered with other actives",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable versus prescription retinoids",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small tube, pricier than expected for the size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Increases sun sensitivity, needs daily SPF",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Cheli",
+   "titre": "Regret using this product!",
+   "texte": "Before using this product, I had pretty clear smooth skin. I was getting a few pimples here and there so i wanted to try this since there was a lot of positive reviews. I'm 27 and never experience severe acne (even in my teens) until when using this product. I was consitent with the adepalane for 4 months, but It gave painful cystic acne so I stopped using it because it wasn't getting any better. Im still suffering with the cystic acne even after I stop using it 5 months ago and I'm still healing from the scarring. I really wish i never bought this product.",
+   "date": "2024-04-03",
+   "verifie": false,
+   "utiles": 20,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "mackenzie",
+   "titre": "don't use w dry acne prone",
+   "texte": "please do not use this product if you have dry, acne prone skin/sensitive dry. i used the entire bottle of the different gel and i ended up need to see a dermo just to help my skin a little. it completely ruined my skin berier, to the point it'll take months and month to recover, it left my skin so so dry, so fragile and way worse then it was to start with, i would stay away if you have combo skin that's more of the dry side, dry skin, sensitive. there products that will work for dry skin that isn't this one. i have never such an issue with my skin to the point where it's making me cry about the state of my skin.",
+   "date": "2022-10-31",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Zucely",
+   "titre": "I would not buy this product again!",
+   "texte": "I would not buy this product again, my face is super sensitive and it makes my face more irritated, and super dry, and it leaves me why patches on my face. This product is not good for sensitive skin.",
+   "date": "2023-11-05",
+   "verifie": true,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "50/50",
+   "titre": "Terrible",
+   "texte": "It made my pimples smaller, but it wrecked my face. Sucked out all of the moisture, and I have very oily skin. Now I have dry flakey red patches all over my face. I did use my regular dermasil daily face moisturizer, but it's not helping at all.",
+   "date": "2021-10-24",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Savannah",
+   "titre": "LIFE CHANGER!!",
+   "texte": "I have tried several acne products but none have worked. I started to lose hope until I purchased this and it is AMAZING. If you have dry skin it may be too damaging. I have oily skin and it causes peeling and stinging, but the pain is worth it. Many people are giving it bad reviews because they are using it as a spot treatment when its a purging treatment. BE PATIENT. It does take time but it works soooo well. 10/10",
+   "date": "2025-05-02",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stephanie",
+   "titre": "Using for Anti-Aging",
+   "texte": "A while back, I was curious if adapelene could be used for anti-aging since it is a retinoid. Turns out, several studies have been done and have confirmed it's effective for anti-aging. I've been using it for 18 months now and have seen a decrease in wrinkles and fine lines. I have always used it in cycles. At first it was a day on and two days off. Now it's 2 days off, 1 day of an AHA, 3 days on, 1 day of AHA and then back to 2 days off everything. You just have to find what works best for your skin type. So, if you're like me and can't afford the higher priced retinoids for anti-aging, this works quite well. My picture is attached and, for reference, I'm 48. I'll be 49 in a few weeks.",
+   "date": "2022-10-18",
+   "verifie": true,
+   "utiles": 84,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kezy",
+   "titre": "It really works with time",
+   "texte": "It is great for acne prone skin . Skin cleared for only 1 week then , dried out my skin and I started to purge really bad . I had huge pimples all over face and my sensitive skin was affected on the 2nd week. Acne started actually clearing around the 4th week. And now my skin in glowing. Give it 6-8 weeks . It really works . I would suggest using a hydrating moisturizer before applying and using vaseline around your nose eyes. Make sure you avoid these areas when applying the product. Use the product only at night and use sunscreen during the day.",
+   "date": "2023-06-06",
+   "verifie": false,
+   "utiles": 21,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}
