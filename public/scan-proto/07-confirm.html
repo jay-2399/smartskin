@@ -851,7 +851,9 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
     yes.disabled = false; yes.style.opacity = '1';
     not.classList.toggle('hidden', alts.length === 0);
   }
-  function renderFail(msg) {
+  var motifEchec = null;
+  function renderFail(msg, titreFeuille) {
+    motifEchec = { titre: titreFeuille || "We couldn't identify it", detail: msg };
     clearInterval(waitTimer);
     stage.classList.remove('wait'); chip.classList.remove('chip-wait');
     chipT.textContent = 'No match';
@@ -882,9 +884,13 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
   window.openSheet = function() {
     buildSheet();
     // Sans candidats, la feuille ne propose que les deux issues : le titre doit le dire.
-    document.getElementById('sheet-h').textContent = alts.length ? 'Which one is it?' : 'Find your product';
-    document.getElementById('sheet-sub').textContent = alts.length
-      ? 'The other matches for your photo.' : 'Three ways to get to your product.';
+    // La feuille PORTE le motif de l'échec : c'est elle qui couvre l'écran, donc c'est elle
+    // qui doit dire ce qui s'est passé avant de proposer quoi faire.
+    document.getElementById('sheet-h').textContent =
+      alts.length ? 'Which one is it?' : (motifEchec ? motifEchec.titre : 'Find your product');
+    document.getElementById('sheet-sub').textContent =
+      alts.length ? 'The other matches for your photo.'
+      : (motifEchec && motifEchec.detail ? motifEchec.detail : 'Three ways to get to your product.');
     document.getElementById('sheet-sep').style.display = alts.length ? 'flex' : 'none';
     document.getElementById('scrim').classList.remove('hidden');
   };
@@ -915,17 +921,29 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
         if (r.niveau === 'probable' && r.note) sub.textContent = 'Is this your product? (label may differ)';
       } else if (r.alternatives && r.alternatives.length) {
         alts = r.alternatives.map(fiche2cand);
-        renderFail('Not sure \u2014 is it one of these?');
+        renderFail('These are the closest we found.', 'Not sure \u2014 is it one of these?');
       } else if (r.statut === 'photo_illisible') {
-        renderFail('The photo is too hard to read \u2014 try closer, label facing you.');
+        renderFail('Nothing in this photo looks like a skincare product. Fill the frame with the bottle, label facing you.',
+                   'We couldn\u2019t read this photo');
+      } else if (r.statut === 'marque_inconnue') {
+        renderFail('We can see a product but not which brand \u2014 it may not be in our catalogue yet. Scanning the ingredient list works on any product.',
+                   'We don\u2019t know this brand');
+      } else if (r.statut === 'aucune_proposition') {
+        renderFail('We recognised the brand' + (r.marque ? ' (' + r.marque + ')' : '') + ' but not which product. Scanning the ingredient list works either way.',
+                   'We couldn\u2019t pin down the product');
       } else if (r.statut === 'service_indisponible') {
-        renderFail('Photo recognition is offline right now \u2014 find your product by name.');
-        not.classList.remove('hidden'); not.textContent = 'Search by name'; openSheet();
+        renderFail('Photo recognition is offline right now \u2014 the other two ways still work.',
+                   'Recognition is unavailable');
+      } else if (r.statut === 'trop_de_requetes') {
+        renderFail('Too many scans in a short time. Wait a minute, then try again.', 'Slow down a moment');
       } else {
-        renderFail();
+        renderFail('Try again with the label facing you, in good light \u2014 or scan the ingredient list on the back.',
+                   'We couldn\u2019t identify it');
       }
     })
-    .catch(function() { renderFail('Connection problem \u2014 try again.'); });
+    .catch(function() {
+      renderFail('Check your connection and try again.', 'Connection problem');
+    });
 })();
 </script>
 </div>
