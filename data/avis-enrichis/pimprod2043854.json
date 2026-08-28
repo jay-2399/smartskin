@@ -1,0 +1,160 @@
+{
+ "ref": "pimprod2043854",
+ "asin": null,
+ "pid": "pimprod2043854",
+ "source": "ulta",
+ "nom": "First Aid Beauty Facial Radiance Niacinamide Dark Spot Serum",
+ "note": 4.13,
+ "nbAvis": 190,
+ "lus": 80,
+ "collectes": 119,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone skin, including one who also has eczema, report the serum controls oil production without causing pilling, on top of a brightening effect.",
+  "dry": "Reviewers with dry skin report the serum adds a bit of hydration and does not dry out or irritate their skin further, unlike some other niacinamide serums they had tried before.",
+  "combination": "The reviewer with combination, acne-prone skin reports the serum evened her skin tone remarkably well after years of acne scarring, dark spots and redness.",
+  "sensitive": "Many reviewers with sensitive skin, including some who call it hypersensitive, describe the serum as gentle and non-irritating even around the eyes, though one with sensitive skin says combining it with the wrong product caused irritation until she adjusted her routine.",
+  "normal": "The reviewer with normal skin reports only a slight hydration boost and modest fading of her hyperpigmentation, suggesting vitamin C or retinol might work better than this niacinamide serum for non-sensitive skin.",
+  "mature": "Reviewers in their late 40s and 50s report mixed results: several say age spots, old redness or dark blotches fade with consistent daily use, while one 48-year-old used a full bottle without seeing any fading of her hyperpigmentation."
+ },
+ "concerns": {
+  "spots": "The large majority of reviewers, covering dark spots, melasma, sun spots, age spots and post-acne marks, report visible fading within one to eight weeks of twice-daily use, several comparing it favorably to prescription creams; a notable minority, including some who finished a full bottle over a month or more, say they saw no fading at all.",
+  "blemishes": "Most reviewers say the serum does not cause breakouts and some highlight it as gentle even on acne-prone skin, but a handful report it caused breakouts or made existing acne worse, one calling it her worst breakout in years.",
+  "redness": "A few reviewers report the serum reduced redness or red blotches on their face, but two others describe adverse reactions to it: one with swelling and lingering dryness and redness after use, another with an allergic-type reaction including hives.",
+  "oiliness": "Several reviewers, including one who otherwise has to powder her face repeatedly through the day, report the serum visibly reduces shine and oil production alongside its brightening effect.",
+  "dehydration": "A few reviewers note the serum adds a bit of hydration and does not dry out their skin, unlike other niacinamide serums, including one from the Ordinary, that some had found drying.",
+  "aging": "One reviewer also reports an improvement in skin texture and fine lines while using the serum primarily for sun spots."
+ },
+ "aspects": [
+  {
+   "libelle": "Dropper makes product hard to dispense",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-sticky texture that absorbs quickly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way, good value per bottle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Considered expensive for what it is",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Can pill or peel under makeup or moisturizer",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented, well liked by fragrance-sensitive users",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Momofhoftp",
+   "titre": "It's a no for me",
+   "texte": "I'm 48 with a little hyperpigmentation. I used the whole bottle applying twice daily. The serum itself is fine but I didn't notice any results as far as fading hyperpigmentation. My biggest complaint is the dropper, it's terrible! Barely pulls any product out of the bottle. Each time I used this I had to try several times before I'd get any product in the dropper. I wound up bypassing the dropper and poured a small amount onto my hand. For the price of this product I'd expect a much better dropper.",
+   "date": "2022-04-16",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lola89",
+   "titre": "Do NOT use this product!",
+   "texte": "Hyperpigmentation has been an issue for me for some time and I haven't had a reaction like I did with this product. I used less than the instructions said to use, but within a day of using this product my skin was red, swollen and noticeably worse-my spots had gotten worse. Days after stopping the use of the Facial Radiance my skin is noticeably dry and red on the spots I applied this serum. I've used many products over the years and have never had a negative reaction such as this.",
+   "date": "2022-11-17",
+   "verifie": true,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "rachelh360",
+   "titre": "Hydrates and helps even skin tone but not the best",
+   "texte": "I have normal skin with hyperpigmentation on my cheeks. This niacinamide is okay, I feel like my skin feels a bit more hydrated after I use it and it helps lighten my dark spots a tad. The consistency of the serum is a little thick and looks milky. If you don't have sensitive skin and you are wanting to lighten dark spots and even your skin tone, I would suggest a vitamin c serum or retinol over this. If your skin is sensitive this could definitely help, however I don't like the fact that first aid beauty doesn't state the percentage of niacinamide and you could get something cheaper from the ordinary that works about the same.",
+   "date": "2022-03-11",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "normal",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "lauraonh",
+   "titre": "One of My Favorites",
+   "texte": "I love this Serum! I use it under my moisturizer at night, and it has made the sunspots on my forehead disappear. My skin is more even toned, and feels smoother. I have dry skin, but this Serum does not irritate my face or make my skin dryer.",
+   "date": "2022-08-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JustA20Something",
+   "titre": "Cleared my (sensitive!!)skin in less than one week",
+   "texte": "Oh my gosh, I can't state how much I'm in love with this product. I had been using a prescribed cream medication for over two years that couldn't hold a candle to the way my skin cleared up when I incorporated FAB's Niacinamide into my skin care routine. I've been using it now for about two months, and the breakouts that I've had since I was 13 have almost stopped. I was able to quit using my prescription cream, and for the first time in literal years I'm confident enough in my skin to wear minimal concealer instead of heavy cover -up foundations. THANK YOU FAB!",
+   "date": "2023-07-29",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cacky",
+   "titre": "Like a magic eraser for your face!",
+   "texte": "I was skeptical of how well this product would work. I have combination/ance prone skin. I also have acne scarring, dark spots, and redness since high school. Little has been effective address these skin issues so I was like \"why not try this?\" I was amazed! Using this product regularly, it evens my skin tone remarkably well! It literally is like a magic eraser for my skin. My partner actually thought I was wearing make-up because my skin looks so healthy, even, and clear. I haven't been this happy with my skin in years! So grateful for First Aid Beauty and the Facial Radiance Niacinamide Dark Spot Serum in particular! Highly recommend!",
+   "date": "2021-09-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "McFatGirl",
+   "titre": "Must Have!",
+   "texte": "Does what it claims. My skin has never looked better! I have Oily skin and this has helped keep my oil production down to a minimum and my skin definitely has lightened up a bit. This will not give you overnight results but Istarted seeing results and noticed the changes in my skin after about 2 weeks of use.",
+   "date": "2021-05-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

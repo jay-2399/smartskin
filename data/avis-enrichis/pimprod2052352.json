@@ -1,0 +1,156 @@
+{
+ "ref": "pimprod2052352",
+ "asin": null,
+ "pid": "pimprod2052352",
+ "source": "ulta",
+ "nom": "La Roche-Posay Effaclar Multi-Target Blemish Patches",
+ "note": 4.49,
+ "nbAvis": 2059,
+ "lus": 80,
+ "collectes": 124,
+ "segments": {
+  "oily": "Reviewers with oily skin have mixed experiences: one says the patches adhered well overnight but her pimple looked the same the next morning, while another with oily skin reports the patches worked wonders, and a promotional review repeats the brand's claim that they are especially good at absorbing excess oil.",
+  "combination": "Reviewers with combination skin report the patches flattened active breakouts and reduced redness and swelling, working well overall.",
+  "sensitive": "Reviewers who describe their skin as sensitive or acne-prone, including some who say most spot treatments burn or dry them out, report these patches feel gentle and do not irritate their skin.",
+  "normal": "One reviewer with normal skin and occasional blemishes calls the patches perfect for a quick fix."
+ },
+ "concerns": {
+  "blemishes": "The large majority of reviewers report the patches flatten pimples, pull out fluid or gunk, and speed healing overnight or within a day or two, including several with acne-prone or cystic acne; a minority found them ineffective, unable to stick well, or no better than cheaper competitors, and one reviewer with hormonal acne says the patches made her blemishes harder and more stubborn to clear.",
+  "redness": "Many reviewers describe visibly reduced redness and swelling by the next morning, including on active breakouts and under-the-skin bumps; a couple of dissenting reviewers say the patches did not help with redness even though they worked on the blemish itself.",
+  "oiliness": "A couple of reviewers with oily skin say the patches worked well despite their skin type, and one review repeats the product's own claim that it absorbs excess oil and gunk, described as particularly beneficial for oily skin.",
+  "dehydration": "A couple of reviewers who say other spot treatments usually dry them out note that this one stayed gentle and did not dry out their skin, even with sensitive or acne-prone skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Thin and nearly invisible, even under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stays on securely overnight without peeling off",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes cleanly with no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented, noted as suited to sensitive skin",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pricier than competing patch brands",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains latex, unwelcome for latex-sensitive users",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Samantha",
+   "titre": "Would not buy again.",
+   "texte": "Redness around my pimple went down along with the puffiness. I have tried better pimple patches and will not buy this product again.",
+   "date": "2026-03-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Tran",
+   "titre": "Does not do much",
+   "texte": "[I received this product in exchange for my honest review] I received this product in exchange for my honest review. I don't often get large zits on my face but when I do I will put this product over it. It adheres well to my skin overnight even though I have oily skin. When I wake up in the morning my pimple does not look better but at least it doesn't look worse. I think it does a good job at protecting the area from further friction. There is no residue.",
+   "date": "2026-05-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "TG",
+   "titre": "I like it",
+   "texte": "[I received this product in exchange for my honest review] It really does the job. I have sensitive, acne-prone skin, and most spot treatments either burn too much or dry me out, but this one feels surprisingly gentle. It goes on like a light cream, absorbs quickly, and doesn't leave any sticky or shiny layer, so I can even use it under makeup… but I don't. When I use it on active pimples, it helps calm the redness and brings the size down within a day or two. It doesn't make the pimple vanish overnight, but it definitely helps it heal faster. I also like that from some angles it's almost invisible once applied, but you would notice it up close… so I can wear it during the day for remote work as well.. without anyone noticing. Just make sure your skin is clean and dry before applying it that makes it stick and work better. Overall, it's been one of the few treatments that actually works for me without irritating my skin.",
+   "date": "2025-11-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kat",
+   "titre": "Great but pricy",
+   "texte": "[I received this product in exchange for my honest review] I'm on my second box and I love these but they're so pricy. They are very effective on surfacing my acne, but I wouldn't say they help with redness. They're quick acting, easy to remove without peeling off skin and absorb the gunk fast. Still kinda pricey for me but they're the better ones on the market",
+   "date": "2026-02-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dede",
+   "titre": "La Roche-Posay Strikes again",
+   "texte": "[I received this product in exchange for my honest review] I like these patches , they are very good . They stick really well and stayed on overnight without peeling up. I have combination skin. I have used them on a few active breakouts and they helped flatten them out and make them appear less red and swollen as promised. The hydrocolloid makes them very comfortable and skin like. Easy to wear easy to apply , I highly recommend.",
+   "date": "2026-03-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mackenzie",
+   "titre": "Great for occasional blemishes",
+   "texte": "I received the La Roche- apostate blemish patches from a campaign in exchange for my honest review. The packaging is nice and there was no harsh scent. They adhere well to the skin and last as described. I have normal type skin with occasional blemishes and these are perfect for a quick fix as needed.",
+   "date": "2025-11-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "normal",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Resa",
+   "titre": "Good",
+   "texte": "I received this product in exchange for my honest review easy to use stays on really nicely especially because my face gets oily and it works wonders I would recommend and buy it again the instructions are easy nothing difficult.",
+   "date": "2025-11-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

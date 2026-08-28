@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2052896",
+ "asin": null,
+ "pid": "pimprod2052896",
+ "source": "ulta",
+ "nom": "Shiseido Urban Environment Mineral Clear Sunscreen SPF 50",
+ "note": 4.69,
+ "nbAvis": 512,
+ "lus": 81,
+ "collectes": 117,
+ "segments": {
+  "oily": "The few reviewers who mention oily or combination skin say the formula feels light and non-greasy, and one notes a related oil-free version in the same line is specifically suited to normal, combination and oily skin types.",
+  "dry": "Reviewers with dry skin generally report it feels lightweight yet nourishing and keeps skin hydrated, though one reviewer describing normal-to-dry skin found it stayed greasy and never fully absorbed.",
+  "combination": "Combination-skin reviewers describe it as lightweight and sheer with good protection, though one notes a slightly oily feel and stays cautious about breakouts even though none had occurred yet.",
+  "sensitive": "Sensitive-skin reviewers are the most vocal group and largely report no irritation, redness or breakouts, including reviewers with rosacea, vitiligo or general allergies, though one reviewer says the fragrance and plant extracts irritated her sensitive skin."
+ },
+ "concerns": {
+  "dehydration": "Many reviewers say the sunscreen keeps skin feeling hydrated and comfortable through the day, including on dry skin and in hot, humid climates; no reviewer reports it leaving skin feeling dry.",
+  "redness": "A rosacea-prone reviewer says the non-irritating formula suits her sensitive, redness-prone skin, and another with very sensitive skin reports no irritation or redness after use; one dissenting reviewer says it irritated her sensitive skin instead.",
+  "blemishes": "Reviewers with sensitive or combination skin generally report no new breakouts from this mineral sunscreen, though one combination-skin reviewer says it still feels a little oily and stays wary about breaking out over time.",
+  "oiliness": "Most reviewers say the formula is not greasy and sits well under makeup, including on oily and combination skin, but a couple of reviewers — one a 3-star review — describe it as greasy, slow to absorb, and sitting on top of the skin instead of blending in."
+ },
+ "aspects": [
+  {
+   "libelle": "Temporary white cast until fully blended",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sheer-to-clear finish that looks natural once worked in",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle relative to the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Layers well under makeup without pilling",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Needs shaking and careful blending to avoid patchiness",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "A",
+   "titre": "Not worth the price tag",
+   "texte": "The sunscreen has a thin fluid texture and a satin finish. There was minimal white cast (although I'm very pale). However, the price is absolutely insane for the teeny tiny size. It also irritated my sensitive skin. I've never had that problem with mineral sunscreens so I think it's all the extracts and fragrances. Disappointing overall!",
+   "date": "2026-07-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Molly",
+   "titre": "Nice sunscreen but didn't work for me",
+   "texte": "Really wanted to like this because it was mineral, but it was greasy and stayed that way. Texture was too fluid to use the recommended 1/4 teaspoon, it didn't absorb, could not rub it in and sat on top of my skin (even when using nothing underneath). Normal to dry skin for reference. Bottle is very small for the price. Would try another one but i received a sample of another sunscreen and the fragrance was too intense.",
+   "date": "2026-05-04",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "CB",
+   "titre": "Nice!",
+   "texte": "Gifted by Shiseido, but all opinions are my own. I have enjoyed this sunscreen. I like its nice compact size. It applies nicely and feels lightweight on the skin. However, it is still a tad oily on my combo skin. I have not received a breakout yet, but I am weary.",
+   "date": "2026-08-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lee",
+   "titre": "Best Mineral Sunscreen Ever",
+   "texte": "I have used so so many different facial SPF over the years and could never find the perfect one until now. All products I tried before were too heavy to be worn comfortably under makeup, left a shiny or white sheen, and often irritated my sensitive skin. The Urban Environment Mineral Clear Sunscreen is THE perfect one, and I hope Shiseido NEVER stops making it. This product feels so weightless and absolutely beautiful, and feels like you are wearing nothing. It is not greasy, does not leave an oily or white sheen, and layers seamlessly with your make up because it goes on so smoothly. I have very sensitive skin and this product so far has not cause any irritation or redness. This is truly a wonderful product and worth purchasing.",
+   "date": "2025-10-06",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jacklyn",
+   "titre": "Love it!",
+   "texte": "I ordered the mineral sunscreen as it was recommended for rosacea due to the superior non-irritating ingredients for my sensitive skin. I love the product as it is light, clear and wears well under my tinted sunscreen.",
+   "date": "2026-02-22",
+   "verifie": true,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "BeachGirl",
+   "titre": "I love this product and will most likely buy it once I run o",
+   "texte": "Honestly, I love this sunscreen. Having dry skin and living at the beach makes it difficult to find a long lasting and moisturizing sunscreen. This is lightweight, nourishing, and protects flawlessly!",
+   "date": "2025-08-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gizem",
+   "titre": "Best mineral sunscreen!",
+   "texte": "Been loving this mineral sunscreen! It's super light weight and blends very well into my skin. Starts off a bit sheer but turns clear within seconds. I have sensitive skin but this product did not break me out. The bottle is a bit small but a little bit of product does go a long way. Would definitely recommend, complimentary from shiseido.",
+   "date": "2026-08-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

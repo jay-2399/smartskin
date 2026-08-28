@@ -1,0 +1,151 @@
+{
+ "ref": "pimprod2052950",
+ "asin": null,
+ "pid": "pimprod2052950",
+ "source": "ulta",
+ "nom": "Kopari Beauty Ceramide Grinding Cleansing Balm",
+ "note": 4.66,
+ "nbAvis": 106,
+ "lus": 80,
+ "collectes": 102,
+ "segments": {
+  "sensitive": "Reviewers who describe their skin as sensitive or reactive consistently report no irritation, stinging, or breakouts from the balm, even skin that reacts easily in winter.",
+  "dry": "Reviewers with dry skin report the balm cleanses without leaving their face feeling tight, stripped, or dry, describing their skin as soft and hydrated afterward.",
+  "oily": "One reviewer with oily skin reports the balm helps control excess oil without stripping the skin, while another reviewer with dry skin was unsure how the formula would perform on oily skin.",
+  "combination": "One reviewer with combination skin reports the balm leaves her skin feeling hydrated even when followed by her regular cleanser.",
+  "mature": "Several reviewers in their 40s, 50s, and 60s report the balm removes makeup without tugging or pulling, leaving their skin soft and plump, and one hopes the brand will add a dedicated anti-aging line."
+ },
+ "concerns": {
+  "aging": "A few reviewers who mention their skin as aging or in their 40s to 60s report the balm removes makeup gently, without the tugging or pulling they associate with adding lines, and describe their skin as smooth and plump afterward.",
+  "dehydration": "The majority of reviewers, across dry, sensitive, combination, and mature skin, report the balm leaves their skin feeling hydrated, soft, and never tight or stripped; one reviewer, however, found it did not moisturize or emulsify well and rated the overall experience unremarkable.",
+  "barrier": "A couple of reviewers note the ceramide formula is meant to support the skin barrier, describing their skin as moisturized rather than stripped after cleansing.",
+  "blemishes": "Most reviewers, including several with sensitive skin, report no breakouts or acne issues from the balm; a couple of critical reviewers, however, describe a painful pimple appearing the day after use or milia they attribute to a synthetic wax in the formula.",
+  "oiliness": "One reviewer with oily skin reports the balm helps cleanse away excess oil without stripping the skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Twist dispenser is mess-free and hygienic",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dispenser mechanism confusing at first",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich, creamy texture that melts on contact",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, light fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rinses off cleanly with no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can sting or irritate the eyes",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Aby",
+   "titre": "Ingredients?",
+   "texte": "I don't know what ingredients is in this product but every time I use it, the next day I would get like a pimple that hurt, so it broke me out.",
+   "date": "2026-07-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Denise",
+   "titre": "It's okay",
+   "texte": "I like the packaging but not the product. The actual cleanser is mid - takes off makeup well enough but doesn't emulsify or moisturize. Personally, I don't like the smell and rush to double cleanse right after just to take the smell off of my face. Not worth the money, it's nothing special.",
+   "date": "2026-07-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jeanine",
+   "titre": "Moisturizing cleanser!",
+   "texte": "The Ceramide Grinding Cleansing Balm is amazing! I've been using it as step 1 to double cleanse at night, and I'm impressed! I have oily skin, and it helps with cleanse the excess oil while not stripping my skin. It also has a really pleasant smell, and I would definitely recommend it to anyone.",
+   "date": "2025-07-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brie",
+   "titre": "Instant Favorite!",
+   "texte": "This cleansing balm smells incredible and melts away makeup without any effort. My skin feels so soft, smooth, and hydrated after using it. The twist dispenser is great for keeping the product clean and hygienic and it's also super fun to use. As someone with dry skin, I love that this product cleans thoroughly without leaving my face feeling tight or stripped. Total game changer in my routine!",
+   "date": "2025-08-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elisabeth M",
+   "titre": "Smells Devine and My Skin Says Thank You",
+   "texte": "This reminds me of an oil cleanser, but smells better and the dispenser makes life easier. I have combination skin and find that this leaves my skin feeling hydrated, even after following with my normal cleanser. I'm using less moisturizer and staying hydrated throughout the day. Highly recommended!",
+   "date": "2025-07-22",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Biliana",
+   "titre": "Lovely!!",
+   "texte": "Amazing powerful makeup melting cleaning balm!! I have very sensitive skin and this product feels and performs so good!! It melts away long-wear makeup, waterproof mascara, and SPF - without ever stripping the skin! Even my skin feels hydrated and looks nourished after I use it! Gifted by Kopari",
+   "date": "2025-07-23",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Connie",
+   "titre": "Interesting cleanser",
+   "texte": "When I got this cleanser out of the bag that night to use it I was a little lost on how to use it at first but quickly figured it out!! I gave the lid on the jar a full turn and quickly realized I didn't need that much cleanser because it was concentrated. I started using small circular motions around my face and forehead and I dreaded using it over my eyes because cleansers burn my eyes due to chronic dry eye syndrome. To my surprise it didn't burn! It removed all of my makeup including my longwear mascara and waterproof foundation very easily. No pulling and tugging, as I am 53 and do not want to add any more lines and wrinkles to my face. This melted like butter and when mixed with warm water rinsed away completely, no residue or greasy feeling left behind. Just smooth soft, hydrated skin. I hope Kopari will eventually come out with products that are anti aging and that will help women who are 50 and above. Other than that I would definitely recommend this cleanser. I will say I like the gel cleanser for the morning as I don't need something that buttery for my morning routine. Thanks Kopari and I'm so happy you are back at ULTA as I was so sad when you left last time. I have tried almost all of your products and I do have alot of them! They are great and I love the smell of them. Your sunscreens are superb! Thanks again! A highly satisfied customer from MO!",
+   "date": "2026-02-15",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

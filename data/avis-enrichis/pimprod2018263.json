@@ -1,0 +1,161 @@
+{
+ "ref": "pimprod2018263",
+ "asin": null,
+ "pid": "pimprod2018263",
+ "source": "ulta",
+ "nom": "La Roche-Posay Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream",
+ "note": 4.66,
+ "nbAvis": 3104,
+ "lus": 78,
+ "collectes": 121,
+ "segments": {
+  "oily": "The few reviewers with oily skin report it works well under makeup without irritation, though a general caution in other reviews notes the thick texture and possible white cast make it less ideal under makeup for oily skin.",
+  "dry": "Dry-skin reviewers are the largest group and consistently report the balm relieves flaking, cracking and tightness on the face, hands, elbows and feet, especially during winter.",
+  "combination": "The small number of combination-skin reviewers report it doesn't clog pores and works well as a recovery step after retinol or tretinoin.",
+  "sensitive": "Reviewers with sensitive, eczema-prone or reactive skin describe the fragrance-free formula as calming, gentle enough for babies, and free of new breakouts.",
+  "mature": "One reviewer in her fifties uses it as extra moisture and soothing after in-office laser treatments on mature skin."
+ },
+ "concerns": {
+  "dehydration": "Reviewers battling dryness, especially in winter, widely report the balm restores softness and comfort within a day or overnight; one reviewer using an apparently newer formulation says it made her skin drier and thinner-feeling instead of more hydrated.",
+  "redness": "Multiple reviewers say visible redness and irritation calm down quickly, including after laser treatment, shaving, or acne flare-ups.",
+  "barrier": "Many describe rebuilding a compromised barrier after over-exfoliation, harsh actives, or retinol/tretinoin use, with less stinging from other products afterward; two reviewers report the opposite on what they describe as a reformulated version — one says it 'ruined' her barrier and another that it no longer works as a protectant.",
+  "blemishes": "Several acne-prone reviewers say the balm did not trigger new breakouts and even helped calm active acne, but results are inconsistent for others — one calls it 'hit or miss' with clogged pores on some pimples, and one reformulation review reports a bad breakout.",
+  "spots": "A couple of reviewers recovering from acne mention it helped clear acne marks and scarring, though this is only raised by a small number of reviews.",
+  "oiliness": "One reviewer with oily skin says it worked well under makeup without irritation, while another warns the thick texture and possible white cast make it less ideal under makeup specifically for oily skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Thick, balm-like texture that still absorbs",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can leave a white cast if over-applied",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free, well tolerated by reactive skin",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Recent reformulation feels thinner and less protective",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Economical, a little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doesn't stay put as a targeted spot treatment",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Only sold in a small tube",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Kerry",
+   "titre": "use if you want to ruin your skin barrier",
+   "texte": "if you have sensitive skin or possibly normal find something else similar but not this this ruined my barrier and know im a month later still trying to correct my skin. ladies seriously please try something else!!",
+   "date": "2026-03-15",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Donna",
+   "titre": "Wasn't great",
+   "texte": "[I received this product in exchange for my honest review] Honestly I didn't like it at all. It really seemed to make my skin more dry. I had read so many good things about it so I was hoping it would be moisturizing. Instead it reminded me of sunscreen. Left a white cast. And didn't sit well on my skin.",
+   "date": "2026-02-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yanner",
+   "titre": "love it for my mature skin and post treatment",
+   "texte": "I used it post Picosure Pro laser treatment on my face along with the gel. My skin was inflammed, dry, red, irritated and needed soothing. I continued to use it bc my 56 year old skin needs all the moisture it can get. I usually apply after a serum, whether retinol or others at night and in the morning after I splash water on my face.",
+   "date": "2026-08-02",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "thebear1992",
+   "titre": "I wanted to hate this product",
+   "texte": "My skin barrier had been severley compromised to the point where sunscreen and a milky cleanser would BURN. After constanst use of the cicaplast and not using any actives other than a toner this removed that burning feeling and I can start fresh. I will purchase again!!",
+   "date": "2026-02-28",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Natalie",
+   "titre": "A winter skincare must-have",
+   "texte": "[I received this product in exchange for my honest review] I love using this balm on my face, especially during winter when my skin gets very dry. Even though I have combination skin, it doesn't clog my pores or cause breakouts. It's fragrance free which I really appreciate because it doesn't irritate my skin, and it absorbs well. I get the best results when I apply it as the last step after my regular moisturizer. It really helps seal in hydration.",
+   "date": "2026-03-13",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emma",
+   "titre": "Holy grail for acne",
+   "texte": "I had acne inflammation red acne! Worked like a holygrail fixed my barrier clear acne marks and mow using the gel version for acne marks ✨✨✨✨✨✨",
+   "date": "2026-08-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Victoria",
+   "titre": "Thick and gentle cream",
+   "texte": "[I received this product in exchange for my honest review] This cream is one of a kind . It is so gentle and soothing on my skin . It is on the thicker side of textures and a little will go a long way . This cream was formulated for the most dry and sensitive types of skin . My skin has been more sensitive these days and I had been experiencing more breakouts than usual . I have been using this cream faithfully for the past week or so and have seen a noticeable improvement in my skin . It is definitely very hydrating and soothing . I would suggest purchasing this if you are suffering from dry or sensitive skin .",
+   "date": "2026-03-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}
