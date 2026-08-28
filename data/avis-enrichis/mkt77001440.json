@@ -1,0 +1,134 @@
+{
+ "ref": "mkt77001440",
+ "asin": null,
+ "pid": "mkt77001440",
+ "source": "ulta",
+ "nom": "Rovectin Aqua Gentle Cleansing Gel",
+ "note": 4.67,
+ "nbAvis": 6,
+ "lus": 6,
+ "collectes": 6,
+ "segments": {
+  "dry": "Reviewers with dry skin report the gel does not leave the tight or stripped feeling common after cleansing, and one describes it as deeply moisturizing.",
+  "sensitive": "Sensitive reviewers, including one with rosacea, report no irritation, redness, tightness, or stinging even during flare-ups.",
+  "mature": "One 49-year-old reviewer with rosacea and very sensitive, dry skin reports no issues across different climates.",
+  "combination": "One reviewer reports the cleanser keeps her skin's oil-water balance in check."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers with dry or dehydrated skin report the cleanser leaves skin feeling hydrated rather than tight or stripped, though one reviewer felt it did not make her skin feel clean and left a sticky film.",
+  "redness": "A reviewer with rosacea reports no redness or stinging during flare-ups, and another with rosacea and eczema reports no sting either.",
+  "barrier": "Reviewers describe the cleanser as gentle on a compromised or sensitized barrier, with no reported tightness or irritation.",
+  "blemishes": "One reviewer states it is acne-prone safe, with no further detail on breakouts."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaves a sticky film",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No tight or stripped feeling",
+   "polarite": "pos",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Light lather, little product needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No fragrance",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Works well as second cleanse step",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Availability at Ulta valued",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Aly",
+   "titre": "Good not great",
+   "texte": "Its a regular cleanser. Didnt make me feel clean but it did make my face feel hydrated. Though, a big downside is that it left a weird film on my face. Even after drying my fave with a facial towel, any toners or serums turn into a sticky paste because the soap wouldnt wash off.",
+   "date": "2026-07-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "citygrrl76",
+   "titre": "Holy Grail status cleanser",
+   "texte": "Light and highly effective facial cleanser. Just as gentle as a cream cleanser, but I prefer textures that bubble. Directions say 2-3 pumps, but thats way too much—a single, half pump lathered well is all you need. I use it twice a day—its gentle in the AM and and a perfect second step double cleanse in the PM (Klairs Gentle Black Deep Cleaning Oil). Even when my skin is sensitized, it has never caused irritation, redness, or tightness. Im 49, with rosacea, very sensitive, dry skin but no problem in any climate—from Chicago winters to the Tucson desert.",
+   "date": "2025-11-24",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sunny",
+   "titre": "A truly gentle cleanser !",
+   "texte": "Maybe it's all that hyaluronic acid, but my skin feels super hydrated instead of dry after washing. I've been using it for a week, and it's not just taking care of dead skin cells, but also it feels like it's moisturizing deep down. Bonus, it's amazing at keeping my skin's oil-water balance perfectly in check!",
+   "date": "2025-10-15",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Diana",
+   "titre": "My fav cleanser ever!",
+   "texte": "this cleanser is so gentle omg, skin literally doesn't feel tight or stripped after 🥹 such a solid everyday gel that everyone needs in their routine. also acne prone safe so bonus points",
+   "date": "2026-08-04",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yoyo",
+   "titre": "Favorite cleanser",
+   "texte": "My all time favorite number one cleanser. I have very dry skin and this is one of the few cleansers that doesn't give me that tight feeling after washing my face. Foams well and no scent. Doesn't sting when I have my rosacea and eczema flare ups. I've gone through 5+ bottles of this.",
+   "date": "2026-05-24",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": "Only six reviews are available, so conclusions per skin type and concern rest on very few individual accounts."
+}

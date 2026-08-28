@@ -1,0 +1,170 @@
+{
+ "ref": "pimprod2021596",
+ "asin": null,
+ "pid": "pimprod2021596",
+ "source": "ulta",
+ "nom": "Avène Cleanance Cleansing Gel",
+ "note": 4.37,
+ "nbAvis": 1028,
+ "lus": 77,
+ "collectes": 113,
+ "segments": {
+  "oily": "Reviewers with oily skin frequently report the gel controls excess sebum, cleans deep-set oil and grease, and leaves skin matte without over-drying, with several calling it their favorite cleanser for oily or oily-acne-prone skin.",
+  "dry": "Reviewers with dry skin are split: some describe it as stripping, tight-feeling and too drying for daily use, while others with dry skin say it cleans without over-drying and pairs well with a moisturizer afterward.",
+  "combination": "Reviewers with combination skin generally describe it as balancing, gentle on the oilier T-zone without stripping the drier areas, and helpful for acne on one part of the face while not drying the rest.",
+  "sensitive": "Reviewers with sensitive skin are divided: several say fragrance triggered irritation, flare-ups or made them abandon the product, while others with sensitive or rosacea-prone skin report no irritation, no redness, and a calming effect.",
+  "mature": "One reviewer reports improvement in fine lines and wrinkles alongside acne, but this is not a widely discussed segment in the reviews supplied."
+ },
+ "concerns": {
+  "aging": "A single reviewer reports visible improvement in fine lines and wrinkles alongside clearer skin; this is not corroborated elsewhere in the reviews.",
+  "dehydration": "Multiple reviewers describe the product as drying or stripping natural moisture, especially with daily use or on already-dry skin; others report no dryness and describe skin as clean without tightness, so experience is mixed.",
+  "redness": "Reviewers using it for rosacea-prone or reactive skin generally report no increase in redness and a calming effect; one reviewer noted a temporary increase in redness and oiliness during the first few days of adjustment.",
+  "barrier": "Some reviewers say the cleanser strips the skin barrier or natural oils, particularly when used daily without a fuller routine, while others explicitly say it does not strip the barrier and leaves skin balanced.",
+  "spots": "Several reviewers with acne-prone skin report a visible reduction in breakouts, clearer skin, and fewer new blemishes over weeks to months of use, though a couple with sensitive/fragrance-reactive skin report their acne flared up after switching to this product.",
+  "blemishes": "Reviewers frequently credit the cleanser with helping manage blemishes and clogged pores over continued use, including on the back and chin; one reviewer's acne flared shortly after starting it, attributed to fragrance sensitivity.",
+  "oiliness": "Reviewers with oily skin consistently report reduced shine, less sebum, and a mattifying effect after cleansing, with no complaints of increased oiliness found in the reviews."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong, polarizing fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pleasant, light scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gel lathers nicely without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mattifying, non-greasy finish",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Strips moisture with regular use",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Packaging dispenses product poorly or wastefully",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus higher-end dupes",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Vanessa",
+   "titre": "Not if you are sensitive to fragrance.",
+   "texte": "So I have very oily skin. I used Avene thermal water when traveling so I had high hopes for this face wash. I do not recommend if your sensitive to fragrance. I keep my skincare routine regular but I rarely change products. Since this was from France I didn't think this would cause my skin to react. It made my acne flare up, something that hasn't happened to me in 6 years. The fragrance is strong if you're sensitive to strong scents. I don't recommend.",
+   "date": "2026-05-18",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Mari M.",
+   "titre": "Please bring back Avene Oil-Free Gel Cleanser",
+   "texte": "I have extremely sensitive skin. I tried multiple cleanser. All of them irritated my skin until I found Avene Oil-Free Gel Cleanser. That product was AMAZING. I was so happy! I tried Cleanance as the website recommended it as a replacement, however, it is causing my skin to be more and more irritated the more I use it. Please consider brining back Avene Oil-Free Gel Cleans. Thank you!",
+   "date": "2023-06-30",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sof",
+   "titre": "Good Gel Cleanser",
+   "texte": "The cleanser is heavily fragranced, so if you have sensitive skin, I don't recommend. This cleanser is also not very sudsy, but does dry/mattify skin, so I don't recommend for people with dry skin either. This works OK as a second cleanser in my skincare routine but doesn't really cleanse the first step off well unless I use a ton of product. If you have a simple skincare routine or don't wear makeup, I'd suggest this.",
+   "date": "2022-05-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Megan M",
+   "titre": "Everyday cleanser",
+   "texte": "I received a free trial size and have been using as an everyday cleanser, usually in the mornings. It has a nice, light scent and a good gel consistency - not too runny or thick. It took a few days for my sensitive skin to adjust because I felt slightly more oily and red in the beginning, but now my skin appears healthier. Will consider purchasing in the future.",
+   "date": "2022-05-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vanessa J.",
+   "titre": "Oily skin friendly!",
+   "texte": "This cleanser is definitely for oily skin! I use it during the Summer, (warmer/humid temperatures) as this is when my face is the most oily. I have noticed a decrease in sebum production while using this cleanser. It leaves my face feeling clean and not overly dry. It smells great and I like the consistency. Only con would be at times my face can be a little sensitive to it. However, after following up with a good hydrating serum/cream, that sensitivity feeling goes away. I highly recommend to my oily skin friends !",
+   "date": "2023-09-06",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gabby",
+   "titre": "Gentle on Sensitive skin!",
+   "texte": "I have very dry sensitive skin in the Humid months of Texas and this has helped my skin so much from further cracking!! Very light fragrance and not too soapy on my skin!",
+   "date": "2022-08-29",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tara C.",
+   "titre": "Great cleanser",
+   "texte": "I bought this after getting a sample. My skin is combination with an oilier T-zone and I find it gentle and hydrating. It also doesn't strip my skin barrier that some cleansers unfortunately will do.",
+   "date": "2023-01-10",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

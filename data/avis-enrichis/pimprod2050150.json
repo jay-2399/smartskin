@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2050150",
+ "asin": null,
+ "pid": "pimprod2050150",
+ "source": "ulta",
+ "nom": "STARFACE Star Wash + Salicylic Acid",
+ "note": 4.47,
+ "nbAvis": 85,
+ "lus": 58,
+ "collectes": 58,
+ "segments": {
+  "oily": "Reviewers with oily skin generally report the cleanser removes excess oil, absorbs quickly and leaves a glassy, non-greasy finish without over-drying.",
+  "dry": "Reviewers with dry skin are split: several say it hydrated and did not dry their face further, while others report it left their skin very dry, itchy or caused chemical burn.",
+  "combination": "Reviewers with combination skin describe it as keeping their T-zone under control and clearing skin without drying it out, though one desert-climate reviewer found it too drying.",
+  "sensitive": "Reviewers with sensitive skin are divided: some (including one with eczema) say it is surprisingly gentle with no breakouts, while others report it made them break out or caused severe dryness and eye irritation.",
+  "mature": "The few reviewers identifying as older or menopausal report it cleared oiliness and occasional spots and worked well as part of their routine."
+ },
+ "concerns": {
+  "aging": "One reviewer in her 40s and one going through menopause report positive results, describing it as effective and glowing, but the sample is too small to generalize.",
+  "dehydration": "Several reviewers say it hydrates without leaving skin dry or tight; however, a notable number report it left their skin extremely dry, itchy, or tight, especially those with dry or sensitive skin.",
+  "redness": "Reviewers mention reduced redness and calmer-looking skin after use, with one noting it helped soothe sore, red spots, though one reviewer reported new red dots appearing after use.",
+  "barrier": "A minority of reviewers describe reactions suggesting barrier disruption, including chemical burn, burning eye pain from accidental contact, and itching when sweating.",
+  "spots": "Most reviewers report a reduction in spots and blackheads over time, including teens and adults, though a few say it did not noticeably help or made spots worse.",
+  "blemishes": "Many reviewers report fewer breakouts and shrinking pimples with continued use, but several others report their worst breakouts occurred after starting the product.",
+  "oiliness": "Reviewers with oily skin consistently report reduced oiliness and a matte, non-greasy finish after use, with no dissent found on this point."
+ },
+ "aspects": [
+  {
+   "libelle": "Glittery, sparkly texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lathers well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cute, sanitary packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle empties quickly, small size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good price for effectiveness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy, lightweight finish",
+   "polarite": "pos",
+   "concerne": [
+    "oily",
+    "oiliness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "K",
+   "titre": "Chemical burn",
+   "texte": "This was recommended for teen skin. If you are dry or sensitive, this isnt for you. If you are oily and acne prone it may not be for you either. Caused chemical burn and extreme drynesss after one use.",
+   "date": "2025-12-22",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "SRAH",
+   "titre": "not for me",
+   "texte": "I loved how this made my skin feel, however it is not for me. I have very sensitive skin and even though the bottle says it is for my skin type, it made me break out. Would not buy again.",
+   "date": "2025-11-29",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Baylee",
+   "titre": "Works wonders for acne but makes my skin dry",
+   "texte": "I got this cleanser hoping for better control of my acne and it worked for that aspect but it made my skin incredibly dry and uncomfortable.",
+   "date": "2025-04-16",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Heatherk00",
+   "titre": "Love the glow",
+   "texte": "I purchase a lot of high-end moisturizers. I always assumed that high end meant superior, and that they were the only ones that would work for my skin. However, I have somewhat acne prone skin, and some of those high end. moisturizers also broke me out from time to time. I started searching for something without any pore cloggers in this one passed the test. It wears perfectly under makeup, and does not pill. As long as you don't use too much, as with any moisturizer, it soaks nicely into the skin after a few minutes. I feel soft and hydrated, but never greasy. it does not make you look dull, you will look nice and glowy. It is pretty hydrating, and I have combination skin with some dryness around my chin. I do use this only in the mornings. In the evening before bed, I prefer to use something a little bit more moisturizing simply because I am in my 40s and I need it. The price point on this is so amazing and I hope it continues to stick around for I will purchase it continuously. Also have not suffered from any new breakouts since I started using this over a week ago.",
+   "date": "2025-07-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MissMars",
+   "titre": "I'm Impressed!",
+   "texte": "I'm 33 and still get breakouts from time to time and I have very oily skin. Saw this in a ad and thought why not, since I've been looking for a better cleanser I've been using. After using it for a few days I'm so happy with it! Removes all the excess oil on my face but doesn't leave it feeling super dry or tight. And i definitely feel like it's helping with the redness and acne on my face. Good price, love that it is unscented and it's just cute packaging too.",
+   "date": "2025-05-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Imnobodiee 7.",
+   "titre": "Very clean and refreshed feeling after use!",
+   "texte": "This has replaced my original face cleanser for the time being and I'm not disappointed! I have very sensitive skin and this surprisingly doesn't cause any breakouts! My face feels really clean after and I pair it with the moisturizer. Lathers real well and I don't feel oily any throughout the day!",
+   "date": "2025-11-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JoAnna W.",
+   "titre": "I have extremely sensitive skin",
+   "texte": "I have extremely sensitive skin and eczema so finding something that works for my skin is amazing",
+   "date": "2025-12-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

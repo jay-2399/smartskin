@@ -1,0 +1,166 @@
+{
+ "ref": "mkt77000616",
+ "asin": null,
+ "pid": "mkt77000616",
+ "source": "ulta",
+ "nom": "Seoul Ceuticals Korean Skin Care Exfoliating Toner for Oily, Acne-Prone Skin",
+ "note": 4.98,
+ "nbAvis": 50,
+ "lus": 33,
+ "collectes": 33,
+ "segments": {
+  "oily": "One reviewer with very oily skin reports the toner dried her skin slightly but found it manageable, alongside overall brightening.",
+  "sensitive": "Several reviewers describe sensitive skin; most report no irritation or burning, though one experienced redness when using it twice daily and resolved it by switching to nightly use."
+ },
+ "concerns": {
+  "aging": "Reviewers using it for lines and wrinkles report fading lines, firmer-feeling skin, and help with wrinkles, with no dissent noted.",
+  "dehydration": "One reviewer reports lessened dryness alongside dark spot fading; another with very oily skin notes slight drying that she considers manageable.",
+  "redness": "One reviewer with sensitive skin reports her skin became red when using the product twice a day, but irritation resolved once she switched to nightly application; other reviewers, including other sensitive-skin users, report no redness or burning.",
+  "barrier": "Reviewers mention no irritation or burning as a positive, suggesting the product is tolerated well, though this overlaps with the one dissenting redness report.",
+  "spots": "Numerous reviewers report fading, lightening, or disappearance of dark spots, age spots, sunspots, and freckles over one to several weeks of use; one notes spots on the forehead were more stubborn but still lightened.",
+  "blemishes": "One reviewer reports her blemish became less dark and her complexion improved; no negative reports on breakouts appear.",
+  "oiliness": "One reviewer with very oily skin reports slight drying of the skin with continued use, describing it as manageable rather than problematic."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast visible results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin tone evening and brightening",
+   "polarite": "pos",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Pleasant smell",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Quick absorption into skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Nice packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Irritation with twice-daily use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "JoanI",
+   "titre": "Excellent Product",
+   "texte": "Ive used this product for 4 weeks. I started noticing a difference a couple weeks ago as my blemish wasnt as dark. Initially I used it twice a day, but I have sensitive skin and it became red. I now use it nightly and have no irritation.",
+   "date": "2022-07-08",
+   "verifie": true,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "GinaB",
+   "titre": "Miracle Product!!!",
+   "texte": "I am shocked!!! After a little over a week my dark spots have nearly disappeared, my skin looks brighter and the dryness has lessened!! I'm a customer for life!!!",
+   "date": "2022-07-08",
+   "verifie": true,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jo",
+   "titre": "So far, so good...",
+   "texte": "So far, so good! I have been using it for 2 weeks and I see notable difference. I have very oily face and this has dried a little bit but somehow manageable.",
+   "date": "2022-07-08",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "EdA",
+   "titre": "Love the smooth look of my skin",
+   "texte": "Very nice product. I have sensitive skin and this product does not irritate at all. It leaves my skin smooth and feeling loved.",
+   "date": "2022-07-08",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "NadinaM",
+   "titre": "it was absolutely good.",
+   "texte": "Works great,saw quick results I'm very happy with the product. I didn't have any issues with burning, redness or anything like that. Totally recommend!",
+   "date": "2022-07-08",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristina",
+   "titre": "Absorptive and brightening",
+   "texte": "I love how this toner makes my skin feel energized. I have sensitive skin and most hyaluronic products don't absorb as well as this.",
+   "date": "2022-01-08",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "DeliaR",
+   "titre": "Great serum",
+   "texte": "I like that it absorbs quickly and seems to help with my wrinkles.",
+   "date": "2022-02-05",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

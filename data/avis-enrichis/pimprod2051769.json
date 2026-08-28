@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2051769",
+ "asin": null,
+ "pid": "pimprod2051769",
+ "source": "ulta",
+ "nom": "I'm From Rice Toner",
+ "note": 4.93,
+ "nbAvis": 522,
+ "lus": 79,
+ "collectes": 113,
+ "segments": {
+  "oily": "Several reviewers with oily or oily-combination skin report the toner absorbs without greasiness and still adds hydration and glow, with one saying a single layer is enough.",
+  "dry": "Reviewers with dry skin describe it as their go-to hydrating layer that reduces flaking and dullness, often recommending multiple layers for extra moisture.",
+  "combination": "Combination-skin reviewers, including those oily in the T-zone and dry elsewhere, say the toner balances both areas without feeling heavy.",
+  "sensitive": "Sensitive-skin reviewers mostly report the fragrance-free formula is calming and non-irritating, though one says it must be used less often or her skin reacts.",
+  "mature": "No reviews specifically describe mature skin."
+ },
+ "concerns": {
+  "aging": "A couple of reviewers mention improved elasticity and a more youthful glow with regular layered use, though this is not the main theme of most reviews.",
+  "dehydration": "This is the most repeated benefit: reviewers with dry or dehydrated skin describe visible plumpness, softness and reduced flakiness, especially when layered.",
+  "redness": "Multiple reviewers report visible calming of redness and rosacea-related irritation, with no dissenting reports of increased redness.",
+  "barrier": "Reviewers using retinol or actives say it helps maintain barrier moisture and calms irritation from over-exfoliation; one notes it specifically helped a weakened barrier.",
+  "spots": "Some reviewers report fading of acne marks and hyperpigmentation with continued use, while others make no mention of any effect on spots.",
+  "blemishes": "Most reviewers mentioning breakouts report fewer or no new blemishes and clearer skin; one dissenting sensitive-skin reviewer says overuse can trigger a reaction rather than help.",
+  "oiliness": "Oily-skin reviewers report it does not add greasiness or heaviness, and one describes it as also helping keep sebum at bay."
+ },
+ "aspects": [
+  {
+   "libelle": "Milky lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires shaking before use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption without stickiness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Packaging changed from glass to plastic",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value from repeat repurchases",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels heavy for daytime on oily/combo skin",
+   "polarite": "neg",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Louise H.",
+   "titre": "I do like this toner",
+   "texte": "I do like this toner, but if I use it every time then my (super sensitive) skin reacts to it. In my case I need to be careful how often I use it, but overall I think it's a good toner.",
+   "date": "2025-05-23",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ima S.",
+   "titre": "I noticed that my skin feels soft and looks brighter wheneve",
+   "texte": "I have used this serum during my evening routine after cleansing my face and retinol. I apply 3 layers of this toner followed by the rice serum & cream (review coming soon). I noticed that my skin feels soft and looks brighter whenever I use this. This also helps with keeping my skin barrier moisturized whenever I am using retinol. However, it I find this too heavy for my skin during day time. 𝗪𝗵𝗮𝘁 𝗜 𝗹𝗼𝘃𝗲: 🤍 Formulated with gentle and irritant-free ingredients. 🤍 Milky texture and fast-absorbing. 🤍 Promotes healthy skin barrier. 🤍 Keeps my skin moisturized and dewy. 🤍 Evens out my skin tone, and slightly brightens post-acne hyperpigmentation. 𝗧𝗵𝗶𝗻𝗴𝘀 𝗜 𝗮𝗺 𝗻𝗼𝘁 𝗳𝗼𝗻𝗱 𝗼𝗳: 🤎 May feel too moisturizing for day time wear especially for people with oil, combo, and acne-prone skin.",
+   "date": "2023-10-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Charli G.",
+   "titre": "This formula looks so rich and milky in the bottle, but it's",
+   "texte": "I'm absolutely head over heels for the I'm from Rice Toner! This formula looks so rich and milky in the bottle, but it's surprisingly lightweight and watery. It's fragrance-free, absorbs quickly, and doesn't cause any irritation. It gives the hydration my skin craves without the heaviness of a cream. I love packing on the hydration and using multiple layers of the product. My dry and sensitive skin gives this toner two thumbs up! After using, my skin feels incredibly healthy and plump. And, my complexion looks so glowy and radiant!",
+   "date": "2023-08-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Aysha",
+   "titre": "This rice toner needs no introduction, it's one of the best",
+   "texte": "This rice toner needs no introduction, it's one of the best milky toners that I've been using for years now. Having combo skin, I didn't think I would enjoy heavier toners but the rice toner has a very light and comfortable texture. It's hydrating but also moisturizing without feeling too heavy. One layer is enough for my oily skin but if you have dry skin you can layer this multiple times for extra moisture. It leaves my skin looking very dewy and brighter overtime.",
+   "date": "2023-08-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jamila Nesreen M.",
+   "titre": "Love how my skin just slurps it all even though I am an oily",
+   "texte": "I have been hearing amazing reviews about this product and the first time I used it, I instantly knew why this is loved by many! It is so hydrating but does not leave you with that greasy feeling, instead it leaves your skin plump and it looks like you've drank 8 cups of water! Love how my skin just slurps it all even though I am an oily-combination skin, this really worked well on me. Would recommend 10/10!",
+   "date": "2023-08-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gatty Garnet G.",
+   "titre": "So glad that this product contains niacinamide. It has no fr",
+   "texte": "So glad that this product contains niacinamide. It has no fragrance and is very milky. It leaves my skin hydrated and glowing. I do suffer from breakouts that leave my skin with acne marks and I noticed that some of my pimple marks are starting to fade with the help of this toner.",
+   "date": "2023-08-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Franklin's mom",
+   "titre": "Has helped with redness",
+   "texte": "I began using this after a friend gifted it to me. At this point, i've used it over a couple months and almost the entire bottle. I've been shocked to see a major improvement in my rosacea and redness. Typically, even the most gentle moisturizer makes my skin red, but not this one.",
+   "date": "2026-01-10",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

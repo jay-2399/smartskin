@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2045641",
+ "asin": null,
+ "pid": "pimprod2045641",
+ "source": "ulta",
+ "nom": "Naturium Retinol Complex Serum",
+ "note": 4.29,
+ "nbAvis": 193,
+ "lus": 79,
+ "collectes": 120,
+ "segments": {
+  "oily": "Oily-skin reviewers report the serum absorbs without feeling greasy or oily and works well as an introductory retinol alongside BHA or niacinamide.",
+  "dry": "Reviewers with dry skin, including one who calls it very dry and sensitive, say it does not worsen dryness and one found it hydrating enough to keep using long-term.",
+  "combination": "One reviewer notes it made her skin feel more oily than tightening, which she found unusual compared to stronger retinols she was used to.",
+  "sensitive": "Most self-described sensitive-skin reviewers report no irritation and good tolerance even with frequent use, but a minority describe serious reactions including barrier damage, rosacea flare-ups, or breakouts, so tolerance is inconsistent.",
+  "mature": "Reviewers in their late 40s to late 70s report smoother texture, softened fine lines and wrinkles, and improved firmness, describing the product as gentle enough for regular use at their age.",
+  "normal": "One reviewer with self-assessed sensitive-but-not-very-sensitive skin reports full tolerance and visible improvement over a few months of nightly use."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report smoothed fine lines, reduced wrinkles (including one describing a deep brow wrinkle nearly gone), firmer skin and improved texture over weeks to months; one long-term user with diabetes-related dark spots saw smoother, more hydrated skin but no improvement in those specific spots.",
+  "dehydration": "One reviewer found the serum hydrating and noted improved plumpness, while another with sensitive skin reported no added dryness; conversely, one reviewer describes it as drying with residual grit that did not dissolve.",
+  "redness": "Several reviewers, including some prone to redness or rosacea-adjacent sensitivity, report no redness or flare-ups and less reactivity than other retinols; one rosacea sufferer had it trigger a significant flare, and one reviewer with severe reaction described her skin becoming hot, red, and painful.",
+  "barrier": "One detailed critical review describes severe barrier damage after only three nights of use, with pain, stinging, and pus-filled bumps taking weeks to heal; other reviewers, including some with sensitive skin, report no barrier issues even with nightly use.",
+  "spots": "Reviewers report fading of hyperpigmentation, acne scars, dark spots, and more even skin tone, sometimes within a few weeks; one exception is a diabetes-related dark spot case where no improvement was seen despite better texture and hydration.",
+  "blemishes": "Most acne-prone reviewers report clearer skin, fewer hormonal breakouts, and faster healing of acne, with some noting only mild purging; a few reviewers experienced a serious breakout, cystic-type reaction, or a bad reaction when paired with a vitamin C serum.",
+  "oiliness": "Reviewers with oily skin describe the texture as absorbing quickly without a greasy after-feel, though one user with combination skin found it left her skin feeling more oily than expected."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong or unpleasant natural scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gritty or grainy texture that does not dissolve",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Reduced bottle size for same price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No retinol percentage disclosed",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for amount of product",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging quality and seal concerns",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "G.H.",
+   "titre": "Not recommended for sensitive skin",
+   "texte": "I got really terrible irritation and skin barrier damage from using this product. Not purging, no breakouts. This wasn't my first experience with a beginner retinol serum, and I used it carefully, using the \"blanket\" methods to sandwich 1/2 to 1 pump between layers of moisturizer (stuff I've used for years, no fragrance, minimal ingredient list, never had a reaction to it before). I used it 3 nights in a row, and slowly developed very painful, red, hot, dry, rough, stinging skin the next morning/day. I should have stopped it after night 2, b/c I my cheeks felt warm the day after night 2, but I didn't think it was a negative reaction. After my skin barrier was completely compromised by this product, on day 4, microscopic bumps appeared over every pore on my face filled with a creamy substance like pus. My whole face hurt so I probed just 1 and then left the rest alone. It took me 3 weeks to restore my damaged skin barrier, and another 2 months to get it back to healthy enough to handle other retinol products. It was the most pain I've been in from a reaction to a skincare product. I couldn't use any exfoliators of any kind for over a month. I've only had reactions of this kind once or twice before and this was by far the worst, and took the longest to heal. If you have sensitive skin, I wouldn't even patch test on your neck. Start with the back of your hand for 3-4 days in a row, then patch test for a couple nights under your ear. Be very careful.",
+   "date": "2021-03-17",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Rachel",
+   "titre": "Not for Sensitive Skin!",
+   "texte": "Don't use if you have sensitive skin! I have type 1 rosacea and this really triggered it. I've used a lot of other retinols with no issue.",
+   "date": "2025-09-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jennay",
+   "titre": "Does a good job",
+   "texte": "So far, I'm enjoying this product because it's more gentle on my skin. I usually get the retinol cream and I have found that it can make me too sensitive even though I use it twice a week. The serum is more tolerable for me - I can use this up to 3x a week without any sensitivity. As for the results, I do see some progress. I have a lot of deep acne scars and adding this to my routine has helped fade them and even out my skin tone.",
+   "date": "2022-10-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Taracheree",
+   "titre": "Gentle and effective for sensitive mature skin",
+   "texte": "I have been using this twice a week to incorporate it into my nightly routine. I was using plant derived retinol prior to this one and having sensitive skin figured this would be a good next step for me. It's gentle enough yet effective for sensitive maturing skin. I will definitely be repurchasing.",
+   "date": "2023-12-12",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Holly",
+   "titre": "Enjoy using this Retinol",
+   "texte": "I've been using this Retinol for a year now and I love it. I do have sensitive dry skin but it hasn't bothered my skin at all. I have a problem with the pores on my nose and under my eyes being a bit bigger. My makeup did nothing to diminish the look of my pores. Using this retinol has really helped, I noticed when I used makeup a month ago (I don't wear it a lot) that the pores weren't as visible as they once were. I'm happy I now have a skin care routine, with products I love. Just makes self care enjoyable",
+   "date": "2023-02-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda S.",
+   "titre": "Best my skin has ever been",
+   "texte": "I have had horrible acne for year. I have used countless products and medications. I started using the Naturium line 6-8 weeks and everything started to go away. I have slight redness where a zit comes through but I will take that over the cyst!",
+   "date": "2021-08-14",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Janet Z.",
+   "titre": "1st timer",
+   "texte": "I bought this item along with the vitamin C super serum. My 1st time trying any retinol, I used them both same night & it broke me out. I waited a few days until my face cleared, now I'm just using the vitamin C serum. Since I haven't had another reaction like the 1st time, I guess it's safe to say it was this retinol that broke me out:(",
+   "date": "2021-03-21",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

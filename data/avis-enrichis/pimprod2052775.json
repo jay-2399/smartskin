@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2052775",
+ "asin": null,
+ "pid": "pimprod2052775",
+ "source": "ulta",
+ "nom": "DERMA E Vitamin C Foaming Oil Cleanser",
+ "note": 4.39,
+ "nbAvis": 61,
+ "lus": 47,
+ "collectes": 47,
+ "segments": {
+  "oily": "One reviewer with oily-leaning skin found it balancing and non-drying, while another with excess sebum reports it lifts oil without stripping.",
+  "dry": "Reviewers report the cleanser did not dry out their skin, leaving it hydrated even in winter, though one found it not as hydrating as hoped.",
+  "sensitive": "Sensitive-skin reviewers report the cleanser felt clean and gentle without irritation to skin or eyes.",
+  "mature": "Reviewers describing their skin as older or mentioning age report no dryness and a youthful, glowing feel."
+ },
+ "concerns": {
+  "aging": "Reviewers seeking anti-aging benefits report a brighter, more youthful-looking glow and skin that feels rejuvenated; effects described are cosmetic and immediate rather than long-term.",
+  "dehydration": "Most reviewers report the cleanser leaves skin hydrated and not stripped, even feeling like a moisturizer was applied; one reviewer found it less hydrating than expected.",
+  "redness": "One reviewer notes it did not irritate the eyes or skin, but redness is not otherwise discussed.",
+  "barrier": "Reviewers with sensitive or reactive skin report the cleanser felt gentle and balancing rather than stripping.",
+  "spots": "No reviewers specifically describe effects on spots or blemishes; general brightening is mentioned instead.",
+  "blemishes": "One reviewer expected the oil to cause breakouts but reports none occurred; no other reviewer discusses blemishes directly.",
+  "oiliness": "Reviewers with oily or sebum-prone skin report it removes excess oil while keeping skin balanced, with no reports of over-drying or increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Citrus scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent too strong near nose",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Foaming lather quality",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Makeup removal effectiveness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult to rinse off",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight non-greasy texture",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Excess product dispensed",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jen",
+   "titre": "Do not recommend.",
+   "texte": "I love every one of the Derma E products I have tried, into now. This didn't foam and I didn't feel clean. I am very disappointed. Do not recommend.",
+   "date": "2025-12-05",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Mere A",
+   "titre": "Gentle, clean and refreshing",
+   "texte": "It's a nice, light-weight product with a pleasant texture and scent that feels clean (of toxins) and refreshing on the skin. The consistency of the foam was gentle on my skin, but acted strong enough to remove dirt and oil off my face. My skin leans on the oily side, but can easily dry-out from harsh cleansers and my skin felt very balanced after using this product, although it wasn't necessarily glowing. Also, the foam was a little stubborn to wash away with just my hands & water and I needed a washcloth to remove all of the cleanser from my skin.",
+   "date": "2025-07-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Cr",
+   "titre": "Fresh, Light",
+   "texte": "The smell was very nice without being overly perfume heavy. The cleanser felt very light and did not have any type of residue after rinsing. I have sensitive skin and it felt clean and gentle after use.",
+   "date": "2025-07-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ali",
+   "titre": "Love this cleanser",
+   "texte": "Lightweight & hydrating, this cleanser is gentle & leaves my skin feeling clean and fresh. I thought the oil might make me break out, but my skin has responded really well to it. I use this cleanser with the Vitamin C Whipped Radiance Polish for extra glow.",
+   "date": "2025-07-26",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "AndyR",
+   "titre": "Clean soft hydrated skin",
+   "texte": "I love how clean and hydrated my skin felt after washing. My skin felt smooth and soft. I have older skin and it didn't dry it out.",
+   "date": "2025-07-11",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Spsuzieq",
+   "titre": "Refreshing clean for my sensitive skin",
+   "texte": "Love how this lightly scented cleanser created a gentle, not at all oily (despite its name) lather, rinsed off cleanly and left my skin feeling dewy and looking bright. It is kind to my sensitive skin.",
+   "date": "2025-07-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "GlowGetter",
+   "titre": "Like a Spa Day in My Bathroom!",
+   "texte": "I have excess sebum and work long hours so this cleansing oil really helps lift the bad oils while maintaining the good! I used it with my steamer and my face was left feeling super clean!",
+   "date": "2025-07-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

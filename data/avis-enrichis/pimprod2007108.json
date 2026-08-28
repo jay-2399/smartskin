@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2007108",
+ "asin": null,
+ "pid": "pimprod2007108",
+ "source": "ulta",
+ "nom": "The Ordinary Alpha Arbutin 2% + Hyaluronic Acid for Hyperpigmentation",
+ "note": 4.21,
+ "nbAvis": 2522,
+ "lus": 79,
+ "collectes": 109,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone skin describe the product as useful for controlling shine and wearing well under makeup, though one notes it works best paired with sunscreen and foundation.",
+  "dry": "Several reviewers with dry skin report the formula can be drying or unsuitable without heavy moisturizer follow-up, though one uses it on dry body skin to smooth bumps.",
+  "combination": "Combination-skin reviewers report good results for acne and texture, with one noting the product's needs shift seasonally between oilier summer and drier winter skin.",
+  "sensitive": "Reviewers who identify as sensitive mostly report no irritation and good tolerance, often when sandwiched with moisturizer, though a few describe stinging, tingling, or a pilling reaction.",
+  "mature": "One reviewer in her mid-40s reports the product helps her skin seasonally, though she suspects it could be too much for younger or oilier skin."
+ },
+ "concerns": {
+  "aging": "One mid-40s reviewer with combination skin credits the product with saving her skin in winter conditions; no other aging-specific reports are present.",
+  "dehydration": "Multiple reviewers describe dryness or the need to follow with moisturizer, with one explicitly warning it is 'not for dry skin' and dried her skin badly, while others report no dryness when layered correctly.",
+  "redness": "Many reviewers, especially those with rosacea, report significant reduction in redness and flare-ups, sometimes within days to weeks; a few report only slight or gradual improvement requiring 6+ weeks of use.",
+  "barrier": "One reviewer used it to help reintroduce actives after barrier damage from over-exfoliation and reports success; another cautions against use if the barrier is already compromised due to dryness.",
+  "spots": "Most reviewers report fading of hyperpigmentation, dark spots, freckles, or acne scars over weeks, though a couple report no visible effect on their pigmentation.",
+  "blemishes": "The majority of acne-prone reviewers, including several with hormonal, cystic, or pregnancy-related acne, report clearer skin and fewer breakouts, but a few report new breakouts, blackheads, or burning after formula changes.",
+  "oiliness": "A few reviewers report it helps control oiliness and works well under makeup, though this is only mentioned by a small number."
+ },
+ "aspects": [
+  {
+   "libelle": "Pilling under other products",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fishy or garlicky smell after reformulation",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Silky soft skin feel after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging often underfilled",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable price for results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reformulation broke out or burned skin",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Dispenser hard to control amount",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "DK",
+   "titre": "Not what it used to be!",
+   "texte": "This was my HOLY GRAIL for 2 years but 6 months ago seems like they changed the formula and it broke me out so bad! Thought it was a bad batch and bought another one but same thing! happened! The burning was so bad! Now I use a diff brand...",
+   "date": "2025-02-14",
+   "verifie": false,
+   "utiles": 16,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "chaeysa",
+   "titre": "Not for Dry Skin",
+   "texte": "I bought this to help with dark spots and dull skin but this dried out my skin so badly. Definitely only use if you have oily skin.",
+   "date": "2025-04-09",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Abby",
+   "titre": "I wish I'd found this sooner",
+   "texte": "I have combination hormonal acne-prone skin and I'm a licensed esthi. While I was in esthi school my barrier was suffering a bit, I was trying to re-introduce retinoids, and then unexpectedly in school we had to do 2 exfoliating treatments in a row including a chemical peel.... my skin reacted badly with a few cysts. I needed to give my barrier time to heal and then reintroduce a gentler active to help, and I chose to use azelaic acid. I started seeing results in as little as a week! It calmed my inflammation and prevented new breakouts. It's been a few months since that big breakout and now my skin has stayed calm thanks to regular use of azelaic, and I've been able to successfully reintroduce my retinoid too. And I've had no issues with the texture of this product. Love it!",
+   "date": "2026-05-24",
+   "verifie": false,
+   "utiles": 23,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SB",
+   "titre": "Great for my aging skin",
+   "texte": "I'm in my mid-40s w/ combo normal/oily skin in summertime, combo dry/normal skin in wintertime. This stuff saves my skin during the winter. During the summer I don't really use it, since our summers are super humid and HOT. That said, I can see how it could be too much for younger skin or oily skin, but for me, its really saves my skin seasonally!",
+   "date": "2025-08-21",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jess",
+   "titre": "WOW",
+   "texte": "Love this product, noticed results almost immediately. I have cystic acne/hormonal acne and this product has helped with blemishes and post acne dark spots. I have tried numerous products for acne and this has been the most helpful so far. I also have sensitive skin and havent noticed any irritation in the 2 weeks ive been using this product. My skin has also felt softer/smoother. HIGHLY RECOMMEND!!!!",
+   "date": "2025-10-22",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Corrie",
+   "titre": "Helps rosacea, buying again!",
+   "texte": "Have been using it daily and have very sensitive skin with no issues. ( use moisturizer with it and f.a.b. cream if I seemed dry. Rosasia has significantly lessened in redness and ever all color. Love the texture if the crem as well",
+   "date": "2025-07-24",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "skysky1344",
+   "titre": "Skin game changer",
+   "texte": "bought this because i read good reviews about it helping with perioral dermatitis. honestly this has helped so much with clearing my dermatits, BUTT has also helped so much with evening texture. i believe it has also helped control oiliness. i wpildnt recommend to someone with dry skin because it can be drying",
+   "date": "2025-12-29",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

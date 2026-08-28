@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2056627",
+ "asin": null,
+ "pid": "pimprod2056627",
+ "source": "ulta",
+ "nom": "COSRX Advanced The Vitamin C 23 Serum with Super Vitamin E & Hyaluronic Acid",
+ "note": 4.56,
+ "nbAvis": 57,
+ "lus": 46,
+ "collectes": 46,
+ "segments": {
+  "dry": "One reviewer with usually dry skin reports the serum provided noticeable hydration and kept skin moisturized under makeup.",
+  "sensitive": "Reviewers with sensitive skin report mixed results: one saw no breakouts despite reactive skin, another found the tingling suggested it may be too strong for sensitive skin, and one experienced burning.",
+  "mature": "Reviewers addressing aging or mature skin report softened fine lines, a firmer and more youthful look, and one calls it a high-quality find as her skin ages."
+ },
+ "concerns": {
+  "aging": "Several reviewers report softened fine lines, firmer and more luminous skin, and improved texture with continued use; one credits it with protecting skin from aging over three years.",
+  "dehydration": "Reviewers report the serum feels hydrating and keeps skin moisturized under makeup, including one with normally dry skin.",
+  "redness": "One reviewer reports the serum helped with redness as part of post-partum skin recovery.",
+  "barrier": "One reviewer pairs it with a barrier serum and reports healthy, hydrated-feeling skin; no barrier damage is described.",
+  "spots": "Many reviewers report visible fading of dark spots, hyperpigmentation and discoloration within days to weeks; one reports an age spot almost completely faded after four uses, and one recommends it for dark acne marks.",
+  "blemishes": "Most reviewers report no new breakouts, including one prone to breaking out and one with reactive sensitive skin; one reports jawline bumps disappeared, but one reviewer's skin burned and another reports no visible change.",
+  "oiliness": "One reviewer reports the serum is not sticky and does not stay greasy; another found it made her face very sticky."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong or unpleasant smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or burning on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Oxidizes or turns orange over time",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires refrigeration, seen as inconvenient",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle underfilled or dropper too short",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Shannon",
+   "titre": "Would not purchase again",
+   "texte": "I did not enjoy this product. It burned my skin after I applied it. Returned item for a refund.",
+   "date": "2026-03-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "santhi",
+   "titre": "I like how this makes my skin feel. But it burns.",
+   "texte": "Like the product. But it burns my skin for some reason. I have not used it much because of the burning.",
+   "date": "2026-03-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lorisa",
+   "titre": "Holy Grail VitC",
+   "texte": "After pregnancy and post-partum wrecked my skin, I needed something to help with dark spots, redness, rough texture, and dullness. I was using a different vit C serum that didn't seem to help. Three days of using this and my skin already started looking amazing! Discoloration is improved and my skin feels and looks incredibly smooth and bouncy. It did tingle slightly the first few uses, so it may be too strong for sensitive skin. Keep it in the fridge.",
+   "date": "2026-05-11",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ole Meller",
+   "titre": "Game changer",
+   "texte": "I knew I had some discoloration on my face and my skin felt dull, but hot dog I didn't realize how much so until I started to use this product and saw such a difference! I have dark purple circles around my eyes and nose and just a few drops at the top of my cheeks, under my eyebrows (don't want to get too close to my eyes), and around my nose have changed the game!! The texture of my skin has improved, there's so much less dicoloration, and my fine lines are softening. This truly was the step I was missing from my beauty routine! I can't recommend it enough, especially for the price.",
+   "date": "2026-03-30",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer G.",
+   "titre": "Overall enjoying it.",
+   "texte": "So far I am liking this product. Not seeing any big changes but I am still new to using it. It isn't breaking me out which is nice because I have sensitive skin that reacts to many products.",
+   "date": "2025-11-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cecelia C.",
+   "titre": "Provides great hyrdation for my",
+   "texte": "Provides great hyrdation for my skin and my skin is usually pretty dry. Also works well at keep my skin moisturized underneath my makeup.",
+   "date": "2025-08-08",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Laura",
+   "titre": "Disappointed",
+   "texte": "I bought their Vit C serum in the past and had a great experience, so im thinking this may be a malfuction with this specific bottle. I have only used this twice as i bought it 2 days ago… and its turning my face orange :/ like a streaky orange tanning lotion orange. Its not good, and the smell is strange enough that my husband mentioned its smell on my face after it being on all day since morning.",
+   "date": "2026-08-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

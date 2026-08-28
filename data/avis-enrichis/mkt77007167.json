@@ -1,0 +1,173 @@
+{
+ "ref": "mkt77007167",
+ "asin": null,
+ "pid": "mkt77007167",
+ "source": "ulta",
+ "nom": "Proactiv Complexion Perfecting Hydrator",
+ "note": 4.4,
+ "nbAvis": 336,
+ "lus": 50,
+ "collectes": 50,
+ "segments": {
+  "oily": "Reviewers with oily, acne-prone skin describe the moisturizer as long-time favorite that does not add greasiness, though one user asks for a lower-oil option because it still feels too oily on her skin.",
+  "dry": "Reviewers with dry or extra-dry skin are split: several say it finally solved chronic dryness or flaking, while others report it made their skin drier, flaky, red and burning, or simply not hydrating enough.",
+  "combination": "Reviewers with combination skin report it balances dry and oily areas and hydrates without greasiness, sometimes after an initial adjustment period of dryness.",
+  "sensitive": "Reviewers with sensitive skin say it does not break them out and feels gentle and soothing, whereas one older reviewer with sensitive skin still experienced small breakouts and is undecided.",
+  "mature": "Reviewers with mature or aging skin generally value it for aging-related concerns, but several say it does not keep their skin moisturized all day and needs frequent reapplication or a richer alternative.",
+  "normal": "One reviewer describing normal skin reports clear, even, glowing skin with only occasional hormonal pimples."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on aging skin say it hydrates without heaviness and helps their skin look smoother and less dull, though some wish for added ingredients like niacinamide and others find it insufficient to keep mature skin hydrated all day.",
+  "dehydration": "Most reviewers citing dryness report the product finally relieved flaking and dry patches and left skin soft; a notable minority instead report increased dryness, burning, redness, or insufficient hydration.",
+  "redness": "One reviewer reports the product caused facial redness and a burning, sunburn-like sensation, while others with sensitive skin describe it as soothing and non-irritating.",
+  "barrier": "A few reviewers note an initial harsh or drying adjustment period with dry patches that resolved after reducing the amount used or continuing use.",
+  "spots": "One reviewer reports reduced appearance of dark spots with continued use; this is not otherwise widely discussed.",
+  "blemishes": "Reviewers dealing with acne and blemishes largely report clearing of adult, hormonal, or teen acne, sometimes within days to a couple of months; a few report no improvement after months of disciplined use.",
+  "oiliness": "Several reviewers say the product controls oiliness and does not feel greasy, but one reviewer with oily skin finds it still too oily for her skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Clears acne with continued use",
+   "polarite": "pos",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "No improvement despite months of use",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Non-greasy, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes dryness, flaking or burning",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Small amount needed, goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Price increase and availability frustration",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging seen as unattractive",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "urmom",
+   "titre": "do NOT use if you have dry skin",
+   "texte": "to keep it simple, the fact this product is always one of the top three whenever i am looking for a moisturizer specifically for dry skin is absolutely wild, because so many of the ingredients are very drying. this left my face brught red and cinstsntly burning like a sunburn, skin so dry that its constantly flakking off my fsce.",
+   "date": "2023-08-06",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Nette",
+   "titre": "Not for Mature Skin",
+   "texte": "The reason for the three stars is because though this moisturizer is decent it fails to keep my mature skin moisturized all day. I found myself reapplying this moisturizer two, sometimes three times a day depending on what season we are in, due to dry patches that become so vivid on my face. There use to be a moisturizer that Proactiv carried that kept my mature skin moisturized all day. I don't know why it was discontinued it and unfortunately, I cannot remember the name. I love the night-time moisturizer for mature skin, it is amazing however, it is not meant for all day moisturizing. Please bring back the moisturizer that was discontinued or introduce a new one that is solely meant for skin that needs an abundance of moisture.",
+   "date": "2025-02-16",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shirley C.",
+   "titre": "Great Product!",
+   "texte": "I have adult stress and hormone-related acne. This product solves the problem quickly. Within days of using, acne was reduced or gone, and with continued use, this product keeps new acne at bay while also reducing the appearance of dark spots. It's also not too drying, but you really need to use a good moisturizer on top of the Perfecting Hydrator. Just give each layer of product a couple of minutes to completely absorb into your skin. Give it a try. You'll be pleased with the results.",
+   "date": "2023-07-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kyra W.",
+   "titre": "My Skin is baby smooth",
+   "texte": "I had to go through a lot of dryness when I first started using the proactive+ kit. But now that it's been 2 months and my skin is starting to adjust, OMG it loves this moisturizer. I have combination skin. If you're experiencing too much dryness, I recommend alternating this with the green tea moisturizer.",
+   "date": "2023-07-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Leigh R.",
+   "titre": "Fantastic product!",
+   "texte": "I love this product! It hydrates my skin without being oily or sticky feeling. I have sensitive skin and feel moisturizers often break me out. This one doesn't and feels so good on. A little goes a long way.",
+   "date": "2024-08-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Molly",
+   "titre": "Been using for years.. holy grail!",
+   "texte": "I love this moisturizer. It works great on my oily acne prone skin. Its been ny holy grail for years!",
+   "date": "2025-06-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Eugene B.",
+   "titre": "Love it but to much",
+   "texte": "Love it but to much oil. I have oily skin. What would recomrmene",
+   "date": "2023-08-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,160 @@
+{
+ "ref": "pimprod2030021",
+ "asin": null,
+ "pid": "pimprod2030021",
+ "source": "ulta",
+ "nom": "Vichy LiftActiv Vitamin B3 Face Serum for Dark Spots & Wrinkles",
+ "note": 3.77,
+ "nbAvis": 13,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {
+  "dry": "A 29-year-old with dry, sensitive skin reports no visible improvement, worsened texture, redness, and enlarged pores, though the skin feels soft to the touch.",
+  "sensitive": "A reviewer with sensitive, dry skin reports increased redness and sensitive-looking areas while using the serum; a separate reviewer describes a sudden breakout of tiny red bumps after first use."
+ },
+ "concerns": {
+  "aging": "Reviewers in their 20s and 30s use the serum for early anti-aging purposes; one reports visible dark-spot fading and tightening, while another (dry, sensitive skin) sees no improvement and worse texture.",
+  "dehydration": "One dry-skin reviewer finds the serum leaves skin soft to the touch but does not address her dryness-related texture concerns.",
+  "redness": "Two reviewers report redness: one describes ongoing red, sensitive areas during use, another describes tiny red bumps appearing all over the face and chest after a single use.",
+  "spots": "Several reviewers report fading or diminished dark spots with continued use; one reviewer using it for seven months on two dark spots reports no change at all.",
+  "blemishes": "One reviewer describes a bad breakout with tiny red bumps after using a sample, suspecting an allergic reaction; no other reviewer reports breakouts."
+ },
+ "aspects": [
+  {
+   "libelle": "Dark spot fading",
+   "polarite": "pos",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "No visible effect on spots",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Greasy feel that sits on skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Soft skin feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Wears well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Awkward dropper applicator",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Mel",
+   "titre": "Waste of money",
+   "texte": "I've been using this product for 7 months on two little dark spots, and they are going no where.",
+   "date": "2024-10-15",
+   "verifie": false,
+   "utiles": 25,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Sarah",
+   "titre": "Allergic Reaction",
+   "texte": "I received a sample of this and used it on my face two nights ago. I'm not sure if I had an allergic reaction or it just broke me out very badly but I woke up with tiny red bumps all over my face and chest. I've never had any issues with their other products but I certainly cannot recommend this. My skin was completely clear and smooth before this and now I don't know when it will recover.",
+   "date": "2022-08-26",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Lindsey",
+   "titre": "Not for me…..",
+   "texte": "I don't see any improvement in my skin while using this product. I'm very religious with skin care routine and have been for a few years. I'm 29 with dry, sensitive skin. My goals are to stop signs of aging before they start showing up and to help even out texture due to dry skin. I notice poor skin texture while using this product and a lot of red and sensitive areas. My pores are very large while using this product too. It's one redeeming quality is that my skin feels soft to the touch but that doesn't make up for how my skin looks while using this. It was sent to me as a free gift so I have absolutely no bias. I wouldn't recommend this to anyone. Again I do have sensitive dry skin so maybe others with different skin textures and needs have had better responses.",
+   "date": "2022-12-15",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Nyno",
+   "titre": "Love the different benefits",
+   "texte": "Im 23, always looking for helpful ingredients for anti aging, texture and dark spots. I like the bottle and only been using it for a couple of days and dont like how it feels on my face. The touch of it is really greasey sitting on my face and i am only applying it once at night. I dont feel like it obsobers into the face and kinda just sits on it with fresh clean skin. Im not a fan maybe for others it works i do love different benfits of it in one serum.",
+   "date": "2024-12-01",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hannah",
+   "titre": "Bright Skin",
+   "texte": "Definitely feels like it works and it works very quickly. I tried the deluxe sample and ordered it right away. I am 34 and starting to get slight dark spots on my skin, this serum was amazing. I can see this being a staple.",
+   "date": "2023-02-11",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "",
+   "titre": "Yes going to other products as well",
+   "texte": "Can't wait to try other products already seeing results from this wonderful product . My dark spots are fading",
+   "date": "2024-04-24",
+   "verifie": true,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Karen N",
+   "titre": "Great product",
+   "texte": "Great product. Literally you can wear it under makeup and it won't feel heavy on you. VICHY is a good brand.",
+   "date": "2024-01-04",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "With only 13 reviews and few explicit skin-type mentions, conclusions for types like oily, combination, or normal skin cannot be drawn."
+}

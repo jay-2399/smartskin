@@ -1,0 +1,149 @@
+{
+ "ref": "pimprod2049124",
+ "asin": null,
+ "pid": "pimprod2049124",
+ "source": "ulta",
+ "nom": "ANUA Heartleaf 70 Intense Calming Cream",
+ "note": 3.56,
+ "nbAvis": 9,
+ "lus": 8,
+ "collectes": 8,
+ "segments": {
+  "dry": "Reviewers with dry skin report strong hydration and describe the cream as thick, rich, and comfortable for nightly use in cold weather.",
+  "sensitive": "Sensitive-skin reviewers are split: some report no breakouts and calmer skin, while others describe immediate burning, redness, and splotchiness after application."
+ },
+ "concerns": {
+  "redness": "Several reviewers link the product to visibly calmer redness, including one with rosacea and one redhead with dry skin; however, others report new redness and splotchiness after use.",
+  "barrier": "One long-term user credits the Heartleaf line with finally working for reactive, easily-broken-out skin, though a recent purchase caused a reaction she attributes to a possible formula change.",
+  "blemishes": "One reviewer describes a reaction resembling chicken pox-like bumps after using a newer batch, contrasting with her previous experience of no breakouts on this line."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich, thick texture",
+   "polarite": "pos",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Noticeable slip on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Too heavy for daytime use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Possible recent formula change",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Free gift with purchase",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Sirena",
+   "titre": "Burning",
+   "texte": "Idk i applied this cream and it instantly make me burn all over my face im not sure whats gonna happen i just washed it all off….",
+   "date": "2025-06-08",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Changed formula",
+   "titre": "Changed The Formula",
+   "texte": "I spent most my life relying on just vitamin E oil because ALL moisturizers broke me out because i was just that sensitive and reactive but then i found the Heartleaf line which o originally started ordering from IHerb, and i thought wow!!! Finally something made for me, this is my 3rd time restocking and I am heartbroken! I even emailed Anua told them to never change their ingredients, ipdate packaging but leave ingredients alone that it was perfect as it was…oh we wont we stand by our line blah blah blah now, i look like I have chicken pox and red as blood! Ruined! Back to square 1.",
+   "date": "2026-02-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Liz",
+   "titre": "Immediate Burn",
+   "texte": "I had to wash this product off immediately. It made me all splotchy and red and burn. I am still kind of red and splotchy the next day but I definitely will not be using again.",
+   "date": "2026-01-28",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sums",
+   "titre": "Whoa the Hydration!",
+   "texte": "I am a redhead with very dry skin and this has vesn amazing in this cold weather we have been having. I've been using it nightly and my redness has calm down tremoundously.",
+   "date": "2025-02-26",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ajh713",
+   "titre": "AMAZING! Glad I decided to try this cream",
+   "texte": "This cream is thick and hydrating, you can feel the \"slip\" and thickness of this product in a nice way. I use it before bed, I wouldn't use it during the day, probably too thick. But I'm a big fan of the heartleaf ingredient for redness from rosacea, and this cream is a winner.",
+   "date": "2025-04-15",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chris",
+   "titre": "Great Moisturizer!!",
+   "texte": "Amazing for the value, i have really senestive skin and i didnt break me out or flare up my rocsea. Very rich but not oily!",
+   "date": "2025-06-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": "With only nine reviews, and several disputing whether the formula recently changed, conclusions about consistency of results should be treated with caution."
+}

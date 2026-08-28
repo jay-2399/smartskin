@@ -1,0 +1,159 @@
+{
+ "ref": "mkt77003734",
+ "asin": null,
+ "pid": "mkt77003734",
+ "source": "ulta",
+ "nom": "The Face Shop Rice Water Bright Rice Bran Gentle Exfoliating Cleanser",
+ "note": 4.79,
+ "nbAvis": 53,
+ "lus": 46,
+ "collectes": 46,
+ "segments": {
+  "sensitive": "Multiple reviewers with self-described sensitive skin report the exfoliation as gentle and non-irritating, though one notes it burns her eyes and one found the fragrance irritating.",
+  "dry": "Reviewers with dry skin report the cleanser does not strip or over-dry, leaving skin soft, hydrated and not tight.",
+  "combination": "The one reviewer identifying combination (sensitive/comb) skin reports it cleans effectively and leaves skin soft.",
+  "mature": "No specific mature-skin reports beyond general brightening claims are present in sufficient detail to segment."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers say their skin feels hydrated, soft and not dry or tight after use; one reviewer did note her face felt a little tight after washing.",
+  "redness": "A reviewer with rosacea reports the cleanser was gentle and did not strip her skin, with no irritation noted.",
+  "barrier": "Reviewers describe the cleanser as non-stripping and non-drying, leaving skin feeling clean without damaging it; one reviewer's skin still felt tight afterward.",
+  "spots": "Reviewers with dark spots, acne scars, or hyperpigmentation report visible brightening and fading of marks over a few weeks of use.",
+  "blemishes": "Most reviewers report no breakouts or purging, including one who specifically noted no reaction on first use; however one reviewer reports breaking out more than with her prior product and another mentions a small amount of purging."
+ },
+ "aspects": [
+  {
+   "libelle": "Creamy-to-foam lather",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fine exfoliating granules",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Product goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Generous packaging size for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unrecognizable/non-minimal ingredients",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin feels tight after washing",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Ashley RN",
+   "titre": "Such a wonderful feeling exfoliant",
+   "texte": "I absolutely loved the smell and texture of this product. It went on creamy but definitely had some texture that was great for exfoliation. The only reason I gave it a 3 was because it did have a lot of unrecognizable ingredients and i like to have minimally made beauty products. Also, I did break out more with this product compared to my prior one.",
+   "date": "2024-02-27",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jam",
+   "titre": "Surprisingly good",
+   "texte": "Thank you BZzagent and The Face Shop for this gifting me this product in exchange for my honest review. I have never heard of this brand previously and I am pleasantly surprised by the performance of this product. I have rosacea so I'm usually skeptical skeptical of any exfoliating wash but this foam cleanser uses rice and rice bran extract creating a super gentle experience. It removed my makeup with ease and did not leave my face feeling stripped. I'm impressed.",
+   "date": "2024-03-07",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jay",
+   "titre": "Love!!!!",
+   "texte": "The hype is real! I had heard about the benefits of rice water all over the internet! I have hyper pigmentation and I can see my skin getting brighter and the marks fading. It leaves my skin hydrated while removing the dead skin! i can't wait to try the other products in the line",
+   "date": "2024-02-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bessie",
+   "titre": "New favorite",
+   "texte": "This is the most gentle exfoliant facial cleanser I've ever used. I have sensitive and comb skin. It actually did a great job on cleaning. My skin feels so soft and refreshing after every wash. The smell is very pleasant. My new favorite cleanser now!",
+   "date": "2024-02-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Banana",
+   "titre": "Must have!",
+   "texte": "This is by far my new favorite cleanser. The tiniest amount goes so far! I mean pea size is more than enough. It doesn't dry my skin out or break it out and I have very sensitive skin. Highly recommend!",
+   "date": "2024-02-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rose",
+   "titre": "I would definitely buy this cleanser !",
+   "texte": "The Face Shop sent me this free sample through the BzzAgent sampling program and I'm so glad I was able to try it out! This face wash was different from other face washes I've tried because it didn't break me out during my first use. Normally I would have some reaction but this one didn't cause any reaction for me. The texture is a very thick and creamy texture but it suds up very well. It wasn't too drying but my face did feel a little tight after washing. What's great is the exfoliation isn't too harsh it's the perfect level of physical exfoliation that I feel wouldn't be damaging to the skin. Just from the creamy texture, how it wasn't irritating, and the potential benefits to brighten the skin and keep it smooth, I would definitely purchase this face wash and recommend that others try it. Also it smells really nice , not like a perfume scent just a creamy fresh sent, but more creamy. I will continue to use it as it has proven to be a quality product thus far!",
+   "date": "2024-02-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Mimi",
+   "titre": "I would definitely repurchase!",
+   "texte": "I really liked the Rice water exfoliating cleanser! It has tiny granuals in it that make exfoliation not too rough but a perfect amount. My skin doesn't real tight or extra dry with this as well which is a plus. The only thing I didn't like was the fragrance, but even then it wasn't too bad just a light soapy vanilla. The lather was nice as well, it was foamy and creamy which feels lux. But I do have sensitive skin and don't love fragrance in skincare. Overall I really liked it!",
+   "date": "2024-02-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

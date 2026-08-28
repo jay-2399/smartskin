@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2051413",
+ "asin": null,
+ "pid": "pimprod2051413",
+ "source": "ulta",
+ "nom": "TAN-LUXE Sci-Tech Sunscreen Photoadaptive Hydra-Gel Face SPF 30",
+ "note": 4.87,
+ "nbAvis": 470,
+ "lus": 79,
+ "collectes": 125,
+ "segments": {
+  "oily": "Reviewers with oily skin report the gel absorbs without adding shine or greasiness, and describe it as not breaking them out even under makeup.",
+  "dry": "Reviewers with dry skin describe the gel as hydrating and say it helps with dryness rather than worsening it.",
+  "combination": "Reviewers with combination skin say it controls the T-zone without over-drying other areas and call the formula friendly to combination skin.",
+  "sensitive": "Reviewers with sensitive skin repeatedly report no irritation, stinging, or breakouts, and several call it their go-to for sensitive skin.",
+  "mature": "One reviewer links consistent use to a preventative anti-aging effect and a younger-looking glow, but mature skin is barely represented."
+ },
+ "concerns": {
+  "aging": "A couple of reviewers frame the product as a preventative anti-aging step and mention it leaving skin looking younger, though this is based on only two mentions.",
+  "dehydration": "Most reviewers describe the gel as hydrating with skin feeling moisturized all day; one reviewer felt it was 'not super hydrating' by comparison to richer sunscreens.",
+  "redness": "A small number report skin looking calmer and more balanced with no new irritation, but redness itself is rarely named directly.",
+  "barrier": "No reviewer explicitly discusses barrier repair or damage.",
+  "spots": "One reviewer credits it with reducing risk of sun spots given the added antioxidant protection, but this is a single mention with no before/after evidence.",
+  "blemishes": "Several reviewers with oily or acne-prone skin state it did not cause breakouts and one specifically calls it good for acne-prone skin; no reviewer reports new blemishes from use.",
+  "oiliness": "Multiple reviewers, including self-described oily-skin users, say it controls shine and doesn't feel greasy; no reviewer reports increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, serum-like texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills when layered with other products",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump packaging easy to dispense",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "SPF level felt too low",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Classic sunscreen scent bothers some",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Lola",
+   "titre": "Amazing texture but pills",
+   "texte": "Complimentary from Tan-Luxe in exchange for my honest review. I've never tried a sunscreen like this before. It honestly doesn't even feel like sunscreen, more like serum. Goes in completely clear and has a beautiful hydrated finish to it. Super lightweight and non greasy. My only issue is that sometimes it does pill on me. I tent to layer my skincare and I feel like it's not the best for layering and better used on its own.",
+   "date": "2025-07-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "texture"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Shelly",
+   "titre": "Good SPF 50",
+   "texte": "I've been loving the Sci-Tech Photoadaptive Hydra-Gel Face SPF 50! It feels super lightweight—almost like a serum—and leaves no white cast at all. I really appreciate how hydrating it is without feeling greasy, and it sits beautifully under makeup. Plus, it's non-GMO, made without any artificial fragrance, and great for sensitive skin. It's become my go-to daily SPF. Gifted by Tan-Luxe.",
+   "date": "2025-07-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Wyndi",
+   "titre": "Must have!!",
+   "texte": "Gifted by tanluxe. This sunscreen became one of my fave product because of how light weight it is. I have oily skin type and this one is perfect. It hydrates my skin but doesnt feel like you are wearing one. It also doesnt leave a white cast! Love it under my make up! Definitely a must try!",
+   "date": "2025-07-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sandrine",
+   "titre": "great investment",
+   "texte": "This sunscreen is THAT girl! Lightweight, non-greasy, and no white cast exactly what I look for in a daily SPF. It blends into my skin like a moisturizer and leaves a natural glow, not that oily, sticky feeling some sunscreens give. I've been wearing it under my makeup, and it doesn't pill or mess with my base. Perfect for sensitive skin too no irritation or breakouts. Plus, it gives me the sun protection I need without making my skin feel heavy. Whether I'm running errands or going for a walk with my toddler, I feel protected and confident. Definitely a new favorite in my skincare routine! Gifted by tanluxe",
+   "date": "2025-07-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Storm",
+   "titre": "Buying again & again",
+   "texte": "Im an oily skin girl and most sunscreens break me out and this one did not. I was also looking for an everyday sunscreen that I could wear under my full face makeup and it wouldnt make it oily, this last all day. I recently was outside in the california sun for way longer than expected; i only had this sunscreen on my face and while the rest if me did get sunbrunt, this kept my face sunburnt free. This is now my staple.",
+   "date": "2026-07-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Pramila",
+   "titre": "Best sunscreen",
+   "texte": "I was gifted by tan luxe in exchange for an honest review. This sunscreen glides in smoothly; no white cast. I use their tanning lotions and gel now I have their full set. I love this brand and suites my acne prone skin well. Absolutely recommended.",
+   "date": "2025-07-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Angy",
+   "titre": "great gel sun screen",
+   "texte": "Tech Sunscreen Photoadaptive Hydra-Gel Face SPF 50 is very gentle on the skin. I really like its gel consistency because it adheres well. I have dry skin, and this product helps hydrate my face and protects me from the sun. Gifted by tan luxe!",
+   "date": "2025-07-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

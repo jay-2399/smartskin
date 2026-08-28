@@ -1,0 +1,167 @@
+{
+ "ref": "xlsImpprod5780106",
+ "asin": null,
+ "pid": "xlsImpprod5780106",
+ "source": "ulta",
+ "nom": "Dermalogica Clear Start Breakout Clearing Foaming Wash",
+ "note": 4.61,
+ "nbAvis": 3384,
+ "lus": 79,
+ "collectes": 97,
+ "segments": {
+  "oily": "Reviewers with oily or combination skin report the wash keeps them clear with consistent use, including one in a humid climate who still breaks out only around her cycle.",
+  "dry": "Reviewers with naturally dry skin say it clears occasional breakouts within a few days and does not leave them feeling stripped or dry.",
+  "combination": "One combination/oily-skin reviewer found it did not outperform her usual face wash and required double cleansing to remove makeup.",
+  "sensitive": "Reviewers with sensitive or reactive skin, including a teenager and a rosacea sufferer, report it does not irritate or burn and keeps breakouts controlled.",
+  "mature": "A 39-year-old and a 49-year-old reviewer report improved skin texture and appearance with long-term use, though these comments concern the wider Dermalogica line rather than the wash alone."
+ },
+ "concerns": {
+  "spots": "Multiple reviewers, including teens and an adult acne sufferer, report stubborn blackheads or acne clearing within a week to ten days; one reviewer bought it specifically for blackheads and was still testing results.",
+  "blemishes": "Most reviewers describe fewer breakouts and faster clearing of active pimples, including hormonal chin breakouts and cystic-cycle acne on the cheeks; one reviewer saw no improvement in pigmentation and switched to retinol instead.",
+  "redness": "One reviewer with redness-prone skin reports the wash reduced visible redness on her face.",
+  "barrier": "Sensitive-skin and rosacea reviewers report no burning, irritation, or dryness after use.",
+  "oiliness": "An oily-skin reviewer says her face 'stays so clear' with consistent use, but no reviewer specifically comments on oil control itself.",
+  "dehydration": "Dry-skin reviewers say the wash does not dry them out further, though none describe active hydration from the cleanser itself."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast visible results",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Pleasant lather and rinse",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light citrus or tea tree scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong fish oil smell developing over time",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Bottle underfilled on arrival",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragile bottle prone to breaking",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires double cleansing for makeup removal",
+   "polarite": "neg",
+   "concerne": [
+    "combination"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Jacolackalyn",
+   "titre": "It's o-k",
+   "texte": "I tried this to see if I would like it enough to switch from my super fantastic exuviance face wash. The answer is no. I have to wash my face twice in order to get most of my makeup off. The exuviance, I dont. This stuff is nothing to right home about for my skin. I have oily/combination skin.",
+   "date": "2024-10-16",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Shauna",
+   "titre": "Trying it",
+   "texte": "I've got some really stubborn blackheads and have tried so many different types of facial cleanser that didn't help. I'm hoping since this comes from Ulta Beauty that this one will do the job of getting rid of these stubborn blackheads and hopefully will keep rid of them. I like how easily it lathers and the smell of it is nice",
+   "date": "2025-09-07",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Andrea",
+   "titre": "Would buy again",
+   "texte": "Bought this for my preteen son who has been going through some changes. He's been using it faithfully going on two weeks now and we have noticed a difference in texture and breakouts on his cheeks, jawline and forehead. It's gentle on his sensitive skin and doesn't dry him out.",
+   "date": "2024-03-12",
+   "verifie": true,
+   "utiles": 18,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maria",
+   "titre": "Clear skin",
+   "texte": "My skin is generally clear but always break out during my cycle due to hormones. This product works sooo fast. I love it. Its my third bottle. Reference: Combination skin, mostlt oily, living in humid FL.",
+   "date": "2025-06-15",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kat",
+   "titre": "SAVED MY SKIN",
+   "texte": "My skin was having horrible breakouts. They would start on my right side of my cheek. It would be there for like a week and a half, clear up, and then go to my left cheek. The cycle would continue for ages. Back in November of 2026 i wanted to try a new product so i got the 3 pack as a trial. My skin is cleared up.",
+   "date": "2026-03-13",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Angelina S.",
+   "titre": "This product works wonders on",
+   "texte": "This product works wonders on my skin. I have very dry skin naturally but I do get the occasional hormonal breakout around my chin. This face wash usually clears it up around two-three days after my breakout pops up. It really is amazing!",
+   "date": "2023-10-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Donna K.",
+   "titre": "I love this biolumin C.",
+   "texte": "I love this biolumin C. I can't go without it. I have always had trouble with adult acne due to Rosacea. I didn't think I could use moisturizer. But this has given me the moisture and keeps my skin clear. Will never stop using it.",
+   "date": "2025-05-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

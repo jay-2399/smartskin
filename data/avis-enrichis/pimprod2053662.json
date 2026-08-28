@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2053662",
+ "asin": null,
+ "pid": "pimprod2053662",
+ "source": "ulta",
+ "nom": "Personal Day Unplug Blackhead-Melting Nose Strips",
+ "note": 4.27,
+ "nbAvis": 90,
+ "lus": 78,
+ "collectes": 78,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are split: some report severe redness, irritation, or a reaction resembling burns, while at least one recommends the brand to sensitive skin and another finds it gentle and non-stinging.",
+  "dry": "The one reviewer identifying as dry (and sensitive) describes irritation, wounds, and redness rather than dryness itself."
+ },
+ "concerns": {
+  "blemishes": "Most reviewers describe visible blackhead and gunk removal, smaller pores, and less recurring congestion with continued use, but several report the product did nothing at all and blackheads remained as hard to extract as before.",
+  "redness": "Multiple reviewers report their nose or chin turned red, blotchy, or inflamed after use, including one describing a reaction with small wounds and another calling it a beet-red, inflamed second-use reaction; others explicitly say it left skin not irritated at all.",
+  "oiliness": "Reviewers with visible sebum or sebaceous filaments report the strips melted and removed the oily buildup, making pores look smaller or 'invisible.'"
+ },
+ "aspects": [
+  {
+   "libelle": "Included plastic scraper tool useless",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle, non-ripping removal versus traditional strips",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible gunk/sebum extraction satisfying",
+   "polarite": "pos",
+   "concerne": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "No effect for some users despite following directions",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Redness or irritation after use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Requires metal extractor tool for best results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast shipping and nice packaging",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Tushia",
+   "titre": "Not for me",
+   "texte": "My skin is sensitive but usually handles most profucts pretty well but this was a big fat no. It was easy to use, followed directions and left on for 10 min. The plastic applicator is useless and has a cotton swab on one end?? Washed my face after 10 min and was fine. At first didnt do much for my skin, but as the day progressed my skin started to get more and more irrtiated without me touching it and now wherw the products are used i have huge red blotches on my nose and chin. Definitely do not recommend for anyone with remotely sensitive skin or dry skin for that matter.",
+   "date": "2026-02-02",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "MJHC",
+   "titre": "Unfortunately not the best for me.",
+   "texte": "I LOVE Lili and wanted to try out her product. Unfortunately for me, this wasnt a good product. My nose is now red and blotchy ans a ton of small little wounds. I have sensitive and dry skin.",
+   "date": "2025-12-30",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Bailey P.",
+   "titre": "Sensitive skin - Beware",
+   "texte": "I loved these strips the first time I tried them but on the second go I developed a terrible reaction. My skin is beet red and inflamed. I have no known allergies and have never experienced a reaction like this to any skin care or other product. I do consider my skin sensitive which generally presents as dryness. I used as directed (even set a 5 min timer). Having to do damage control now. If you have sensitive skin - I would avoid.",
+   "date": "2025-05-22",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Isha",
+   "titre": "Good product!",
+   "texte": "This is a great product, but the directions are slightly misleading. First off, the plastic applicator is totally useless, and the product doesn't work without an effective scraper. I bought a metal blackhead remover kit (I'm sure you'll be able to find it, it has eight different tools, it was like $10) and have been using much more sturdy tools to scrape out blackheads after leaving this on for ten minutes. I still find the formula really effective, but the plastic tool does nothing so the product requires extra tools to be effective. Also the results they show don't really come from a single use. I had pretty minor blackheads and had to use the product a couple of times to get things clear.",
+   "date": "2026-01-27",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Savannah",
+   "titre": "Actually works!!",
+   "texte": "My sebaceous filaments on my nose have always been so prominent and most exfoliants dont do much to clean them. This literally melted the sebum and made the pores on my nose practically invisible! Its the best and easiest treatment that I've found, it also has acne safe/minimal ingredients! 10/10 reccomend, will forever repurchase.",
+   "date": "2025-08-16",
+   "verifie": false,
+   "utiles": 16,
+   "peau": null,
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Delaney F.",
+   "titre": "Best pore strips I've tried!",
+   "texte": "These are amazing, and work so well! They leave my skin feeling good and not irritated which has always been my biggest issue when trying to find skincare.",
+   "date": "2025-07-29",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Zoe H.",
+   "titre": "Gentle but effective",
+   "texte": "I used to use those biore pore strips that dried out my skin and caused burst capillaries; this is the exact opposite of that! These strips are gentle yet effective, I follow the instructions and love the results every time.",
+   "date": "2025-06-05",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

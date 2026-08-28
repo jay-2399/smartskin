@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2023938",
+ "asin": null,
+ "pid": "pimprod2023938",
+ "source": "ulta",
+ "nom": "Good Molecules Caffeine Energizing Hydrogel Eye Patches",
+ "note": 3.68,
+ "nbAvis": 853,
+ "lus": 73,
+ "collectes": 108,
+ "segments": {
+  "sensitive": "Reports are split: several reviewers with sensitive skin describe burning, tingling, redness, or rash within minutes of application (e.g. reviews 4, 5, 16, 36), while others with self-described very sensitive skin or eczema report no irritation and good hydration (52, 53).",
+  "mature": "One reviewer with mature skin uses the patches nightly after a retinol oil and reports no irritation, hydration, and smoother under-eyes.",
+  "dry": "One reviewer with normal-to-dry skin found the patches insufficiently hydrating and prone to pilling before other products could be applied."
+ },
+ "concerns": {
+  "aging": "Reviewers report smoother, tighter, and brighter under-eye skin with regular use, including reduced appearance of fine lines and smile lines; one wished for a full-face version, and one mature-skin user found it fit well into an anti-aging routine with retinol.",
+  "dehydration": "Most reviewers describe an immediate cooling, hydrating effect and softer, plumper under-eye skin after use; a few say the patches did not fully absorb or hydrate enough for their skin type.",
+  "redness": "Numerous reviewers report the patches themselves caused new redness, chemical-burn-like marks, or bright red swollen patches shaped like the pads, sometimes lasting hours; a smaller number report no redness or irritation at all.",
+  "barrier": "Several reviewers describe burning, tingling, dermatitis, or rash-like reactions they attribute to a compromised or reactive barrier response, including one who developed persistent dermatitis for days; others with normal or resilient skin report no such response.",
+  "spots": "A few reviewers note reduction in dark circles or discoloration under the eyes with continued use, though one says the dark-circle issue is still a work in progress.",
+  "blemishes": "One reviewer reports the product consistently caused milia bumps under the eyes.",
+  "oiliness": "Not discussed by reviewers."
+ },
+ "aspects": [
+  {
+   "libelle": "Serum pills and rolls off skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or tingling reaction",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Slimy, goopy texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult to remove from packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable for the value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Instant depuffing and brightening look",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Hales",
+   "titre": "Burned my skin",
+   "texte": "I added these into my skincare routine because they looked great. However, I put them on as directed, they were on for about 4 minutes before I ripped them off. They had burned my face! A horrible angey burn that was broken out into a burning rash all over my face by the next day and lasted several days. I did not have anything else on my skin when I put these on so there was no chemical reaction with another product. I do not have sensitive skin. My skin was clean and dry as directed. After a deep dive into reviews on TikTok, many others have the same issue with this product.",
+   "date": "2026-02-12",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Kiki",
+   "titre": "Not great for sensitive skin",
+   "texte": "It was cooling in the beginning, but after leaving them on for 10 min, they made my skin have little red dots and feel really tight after removing. I dont have extremely sensitive skin, but these def gave me some problems. Looking for new eyepatches!",
+   "date": "2025-09-24",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Kira",
+   "titre": "Not for adult skin or before makeup",
+   "texte": "I bought this to try to incorporate moisturizing, cooling eye masks into my morning routine. I have genetic dark circles, eye bags, and normal to dry skin. These feel wet on the skin, but not cooling , so didnt help \"wake me up\". Also, these were not hydrating enough for my skin type. Additionally, these pilled immediately, before I put on other products. I gave these to my teenager daughters and they enjoyed them. I think these are only suitable for youth as an introduction to eye masks.",
+   "date": "2026-01-22",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Cloey",
+   "titre": "Great product!",
+   "texte": "I've been using these eye patches for a couple years now and I love them! They definitely help make my under eyes look hydrated! I personally keep them in the refrigerator to make the experience more relaxing. Not quite sure if you're supposed to do that, but it feels great! The reasoning for 4/5 stars is because after 5 ish minutes it starts to tingle and become uncomfortable. But I don't ever have a bad reaction! The product is still great imo. I just have sensitive skin!",
+   "date": "2025-07-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Olivia",
+   "titre": "Great for Mature Skin — A Nighttime Staple",
+   "texte": "I have mature skin, and these Good Molecules caffeine hydrogel patches have become a true staple in my nighttime routine. After applying my Good Molecules 1% retinol oil, I put these on and they add the perfect boost of hydration and depuffing. They never irritate my skin, and the cooling feel is such a relaxing way to end the day. I wake up looking more refreshed, and my under‑eyes feel smoother and well‑hydrated. I keep coming back to them because they truly make a difference.",
+   "date": "2025-12-24",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mir",
+   "titre": "Finally a product I like",
+   "texte": "Ive seen a lot of reviews about skin rashes… as someone with VERY sensitive skin + eczema, I was shocked this product feel as good as it does. Right when I put them on I feel thwm working and they brighten my undereyes and depuff so well. My favprite part is that I can wear them to places and people dont really notice I have them on lol.",
+   "date": "2026-08-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brittney",
+   "titre": "My favorite eye product!",
+   "texte": "I buy these on repeat! They always make me look less tired and they leave the area under the eye looking hydrated and tight. I have very sensitive skin, and they never irritate my skin. I like to put them in the fridge too, the cold always wakes me up :)",
+   "date": "2025-08-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2057248",
+ "asin": null,
+ "pid": "pimprod2057248",
+ "source": "ulta",
+ "nom": "Kopari Beauty Sun Veil Illuminating Elixir Face Sunscreen SPF 38",
+ "note": 4.24,
+ "nbAvis": 66,
+ "lus": 52,
+ "collectes": 52,
+ "segments": {
+  "dry": "One reviewer with dry skin plus eczema/psoriasis reports no irritation and good absorption, while another dry-skin-adjacent reviewer found the product would not rub in and stayed dry/flaky on top of the skin.",
+  "combination": "A reviewer with combination skin found the product too heavy, drying, and sticky despite giving a nice glow.",
+  "sensitive": "One reviewer with sensitive skin reports no issues and a lightweight, dewy result; another non-specified reviewer notes the product previously burned her eyes.",
+  "mature": "Reviewers in their late 60s report smooth application and a pleasant sparkle/glow with repeat purchase intent, with no negative effects mentioned."
+ },
+ "concerns": {
+  "aging": "One mature reviewer (67) reports smooth, glowy results with no complaints; no anti-aging claims are otherwise discussed.",
+  "dehydration": "Several reviewers say the product hydrates and leaves skin dewy or plumped, but two others report it dried out their skin or emphasized existing dry patches.",
+  "redness": "One reviewer with eczema and psoriasis, prone to irritation, reports no irritation or flare from this product.",
+  "barrier": "One reviewer states the product supports her skin barrier while providing SPF; no other barrier-specific comments appear.",
+  "spots": "Not discussed by reviewers.",
+  "blemishes": "One reviewer reports the product never causes breakouts; no dissent is present in the reviews supplied.",
+  "oiliness": "One reviewer notes the finish is matte and not greasy or sticky, while another describes the texture as sticky and heavy on her skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Golden or yellow cast on fair skin",
+   "polarite": "neg",
+   "concerne": [
+    "fair skin"
+   ]
+  },
+  {
+   "libelle": "Glowy, radiant finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pilling under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Blends smoothly, no white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky or heavy feel",
+   "polarite": "neg",
+   "concerne": [
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Pleasant tropical scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Elegant, chic bottle design",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Margarita",
+   "titre": "Couldn't love it",
+   "texte": "I have combination skin and it dried our my skin. I wanted to love it but I can't. Its too heavy on the face and leaves a sticky feeling. I am not even sure if i can still return it. I was soooo determined to love it but can't. It definitely does give a nice glow and coverage but not worth how heavy it leaves my face feeling.",
+   "date": "2026-03-08",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lolaaaa",
+   "titre": "LOVE this product !!!!",
+   "texte": "An influencer that i loveeee, was using this product and thought to give it a try. Iwas skeptical at first and usually try to be very careful with the products i use due to me having pretty dry skin and my eczema and psoriasis get in the way were sometimes my skin gets irritated or can be super super sensitive. But when trying it, IT WAS AMAZING. It gives me theperfect glow im looking for its super nice and soft in my skin. Doesn't irritate it at all and is perfect under my makeup. Gives me a smooth surface and doesn't pill at all. I know every ones skin is different and ir could vary but for me it works and i would totally recommend it to anyone that has a similarskin situation as me.",
+   "date": "2026-03-06",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alexandra O",
+   "titre": "New fav spf",
+   "texte": "This is my new favorite skin product. I got it for a tropical vacation and am continuing to use it back home for my daily glowy look. It's so lightweight and makes my skin look dewy and fresh. I have sensitive skin and have had no issues with this product. If you're on the fence, just buy it! It's SO good!",
+   "date": "2026-03-28",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Grace",
+   "titre": "Love it!",
+   "texte": "I'm 67 and I love this. It goes on really smooth and gives me some sparkle when I don't wear make up. Will be buying again.",
+   "date": "2026-03-10",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Izzy",
+   "titre": "Beautiful in theory",
+   "texte": "I have tan skin and this looks really beautiful but it feels very thick to put on, more so than a normal spf. The sparkles are so intense that my fingers look stained and sparkly after applying so know you'll have to wash your hands after. I dont have dry skin but this enhanced a few dry areas that were already irritated from flu season and using tissues. I will continue to use this but I do wish it was diluted a little more",
+   "date": "2026-03-26",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Angelina",
+   "titre": "Threw away after first use",
+   "texte": "I love lipstick spray sunscreen but this is the worst product for the face I have ever used. I keep my products even if they are not the best for back up or vacation, but this one I threw away immediately! Waste of money! It never blended or absorbed it pilled up and had giant flakes sitting on top of my skin that fell onto my eyelashes and shirt for an hour. Had to wash my face and start over!",
+   "date": "2026-05-03",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dylan M",
+   "titre": "Obsessed",
+   "texte": "I LOVEEEE when sunscreen has skincare in it this product is so amazing and lightweight! Never makes me breakout",
+   "date": "2026-03-04",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

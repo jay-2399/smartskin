@@ -1,0 +1,164 @@
+{
+ "ref": "xlsImpprod13691013",
+ "asin": null,
+ "pid": "xlsImpprod13691013",
+ "source": "ulta",
+ "nom": "Clinique Take The Day Off Cleansing Oil Makeup Remover",
+ "note": 4.27,
+ "nbAvis": 165,
+ "lus": 80,
+ "collectes": 110,
+ "segments": {
+  "oily": "Reviewers with oily skin report the oil removes makeup without a greasy feeling and does not seem to dry out their skin, though it must be followed by a cleanser.",
+  "dry": "Reviewers with dry skin report it leaves no residue, does not strip the skin, and leaves it comfortable and ready for serum.",
+  "combination": "Reviewers with combination skin (including combo-acne-prone and oily T-zone/dry cheeks) report it removes makeup effectively without triggering breakouts or irritation, though one experienced an initial short purge.",
+  "sensitive": "Reviewers describing their skin as sensitive most often report no irritation, no redness, and comfort even with rosacea, but a minority with sensitive skin report burning eyes, a rash, or breakouts.",
+  "mature": "One reviewer in her 40s with combination, acne-prone mature skin reports the product is effective and non-stripping without breakouts."
+ },
+ "concerns": {
+  "aging": "Not enough reviewers link this product specifically to visible aging effects to characterize a pattern.",
+  "dehydration": "Reviewers concerned with dryness/dehydration report the product does not strip the skin and leaves it feeling hydrated or comfortable, with no reports of increased dryness.",
+  "redness": "Reviewers with redness or rosacea report the product is gentle and does not worsen redness, with one describing it as soothing to rosacea; no dissenting reports of increased redness were found.",
+  "barrier": "Reviewers focused on barrier sensitivity report no stinging, no reaction, and a fragrance-free formula that suits reactive skin; a few nonetheless report burning or blurring specifically around the eyes.",
+  "spots": "Not clearly distinguished from blemishes/acne concerns in these reviews; reviewers largely conflate spots with breakouts (see 'blemishes').",
+  "blemishes": "Most reviewers report the product does not cause breakouts and even reduces bumps or clears skin over time; however, several reviewers explicitly report cystic acne, whiteheads, or horrible breakouts after use, including some who do not consider their skin acne-prone.",
+  "oiliness": "Reviewers with oily skin and those disliking oily residue report the formula rinses clean, is thin rather than heavy, and does not leave a greasy after-feel, though a couple mention lingering oiliness or residue."
+ },
+ "aspects": [
+  {
+   "libelle": "Rinses off cleanly, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves oily film or residue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burns or blurs vision in eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective on waterproof mascara",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Product arrives spilled or damaged",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value, lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "rose",
+   "titre": "yes YES YES",
+   "texte": "only make up remove i'll use. i have acne prone sensitive combo skin (fun right?) this stuff takes off everything! use a few pumps on dry hands and dry face. massage for a minute and then add a little water and massage for another minute. optional but you can go in with a water-based cleanser after. hasn't broken me out or anything. love that it's fragrance and dye free.",
+   "date": "2021-02-14",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cold Chicago",
+   "titre": "Love and good price point",
+   "texte": "I have dry skin this hydrating does not leave behind and residue. My skin is sensitive I have no issues with redness it's is fragrance free as well and soothes my rosacea! Skin is comfortable and clean removed bronzing foundation and mascara.",
+   "date": "2024-08-18",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dallas",
+   "titre": "Best makeup remover",
+   "texte": "My friend that is an esthetician recommended this to me and at first I was skeptical because I do have combo skin and very sensitive skin at that. However, I wanted to stop using makeup wipes because they tug at the skin and always break me out even after cleansing afterwards. I started using this with my skincare line and the makeup comes off so easy! Even waterproof mascara that usually won't budge with makeup wipes! I did purge the first day or two because my skin was not used to the double cleansing but after that no more bumps! I absolutely love this product and I feel like it's definitely worth a shot if you are looking for an alternative makeup remover.",
+   "date": "2020-02-01",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Sunday",
+   "titre": "Love how well it removes make up but gives break outs",
+   "texte": "Works great on removing make up but cause break outs like nothing else. Even if I use micellar water and cleanser after still gives you the worst acne.",
+   "date": "2020-09-07",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jessica",
+   "titre": "Amazing!",
+   "texte": "I suffer from rosacea and I was struggling finding something gentle to remove my makeup. Since I have rosacea I wear makeup daily to cover the redness. I love to use this as part of my double cleansing. I apply this oil and then massage my face until the makeup is dissolved. Then I rinse my face with lukewarm water. I then apply a gentle cleanser and cleanse. Pat dry! Immediately put on moisturizer.",
+   "date": "2020-04-29",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Audrey",
+   "titre": "Major Breakout",
+   "texte": "I was excited to try this cleansing oil to remove my makeup before following with my Cerave hydrating face wash. While the oil did do a good job of dissolving the makeup, my skin started to breakout horribly after a few days. Whiteheads were popping up all over my face, which does not normally happen. My skin isn't terribly sensitive and I thought the ingredients of this product seemed good -- so I was quite surprised and disappointed when it made me breakout. Aside from the breakout it caused, the oil also clouded my vision when used to remove mascara from my lashes and did cause an uncomfortable feeling in my eyes that I needed to wash out in order to make it go away. If it didn't cause me to breakout so horribly, I would have continued to use this oil because it did do a good job of removing the makeup.",
+   "date": "2022-06-10",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "NM",
+   "titre": "Oil/ acne prone skin",
+   "texte": "I have severely oily and acne prone skin. I used to use DHC cleansing oil, but it broke me out mostly bc my skin didn't like the mineral oil in that one and also it was so thick I was rubbing my face so much and making my skin even redder and acne hurt more. I like this oil because it is soooo thin and slides over my face very well, and will clean out stuff from my pores in a minute. It's a lifesaver!",
+   "date": "2020-08-24",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

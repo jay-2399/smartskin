@@ -1,0 +1,120 @@
+{
+ "ref": "pimprod2056428",
+ "asin": null,
+ "pid": "pimprod2056428",
+ "source": "ulta",
+ "nom": "VT Cosmetics PDRN Grinding Cleansing Balm",
+ "note": 5,
+ "nbAvis": 5,
+ "lus": 5,
+ "collectes": 5,
+ "segments": {
+  "dry": "A reviewer in her mid-40s with skin she describes as dry as dirt reports the balm cleanses without drying her skin further or leaving it greasy.",
+  "sensitive": "A 31-year-old reviewer with sensitive, eczema-prone skin reports the balm worked well and became her new favorite despite usual skepticism about cleansers."
+ },
+ "concerns": {
+  "dehydration": "One reviewer with very dry, mature skin reports the balm does not dry her skin out further and does not leave it greasy; another notes it removes makeup without leaving skin feeling stripped or raw.",
+  "barrier": "A reviewer with eczema-prone, sensitive skin reports the balm did not irritate her skin and became a favorite.",
+  "oiliness": "One reviewer reports her skin feels clean and not oily at all after rinsing."
+ },
+ "aspects": [
+  {
+   "libelle": "Melts and removes makeup easily",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Emulsifies and rinses off quickly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Soft, non-drying texture",
+   "polarite": "pos",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "No greasy or oily residue after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Hygienic pump dispenser, no finger dipping",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "BattyBetty",
+   "titre": "My New Fave Way To Cleanse",
+   "texte": "I absolutely love this cleanser i am almost 45 and my skin has become dry as dirt so having something that doesnt feel like its drying out my skin even more is amazing! But it doesn't leave your skin greasy.",
+   "date": "2026-03-10",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "mae",
+   "titre": "new favorite cleansing balm",
+   "texte": "this cleansing balm is SO soft and melts off all my waterproof makeup, it emulsifies instantly with water and rinses off so fast and easy. definitely the best cleansing balm i've tried so far. my skin feels clean and not oily at all after rinsing and it's the perfect first step of a double cleanse. 10/10 definitely worth the price",
+   "date": "2026-04-06",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alexis",
+   "titre": "Love it. With sensitive skin.",
+   "texte": "I am 31 with sensitive eczema prone skin, so i am always skeptical about cleansers. This one i figured i would try out because I have never tried a cleansing balm. I loved it and it is my new favorite.",
+   "date": "2026-03-27",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Zahra",
+   "titre": "Prefer over oil cleanser",
+   "texte": "I love the way that this product dispenses so there is no finger dipping. It removes sunscreen and makeup. Rinses clean. Love this product.",
+   "date": "2026-03-08",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "ThatUhOneChick",
+   "titre": "10/10 Love",
+   "texte": "First ever review here. My favorite makeup remover to date. Takes everything off without making my face feel stripped or raw. I will forever have this in my rotation!",
+   "date": "2026-08-16",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "Only five reviews are available, all five-star and largely positive, so segment and concern coverage is thin and no critical review exists to include."
+}

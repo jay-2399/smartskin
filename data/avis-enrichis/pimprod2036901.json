@@ -1,0 +1,151 @@
+{
+ "ref": "pimprod2036901",
+ "asin": null,
+ "pid": "pimprod2036901",
+ "source": "ulta",
+ "nom": "Sun Bum Kids SPF 50 Face Stick",
+ "note": 4.55,
+ "nbAvis": 20,
+ "lus": 16,
+ "collectes": 16,
+ "segments": {
+  "sensitive": "Reviewers describe mixed results on sensitive skin: some report no reaction despite fragrance sensitivity, while others report irritation, inflammation, rash, or cracking skin, particularly in young children.",
+  "normal": "Reviewers with no stated skin issues report easy, smooth application with a clear, non-greasy finish and pleasant scent."
+ },
+ "concerns": {
+  "redness": "One reviewer's child developed facial irritation that progressed to inflammation, a rash, and cracked, scabbing skin after a second application; another reviewer's child had tiny bumps and irritation after use; most other reviewers report no redness or irritation at all.",
+  "blemishes": "One reviewer reports the product caused tiny bumps/clogged pores on her daughter's face, while no other reviewer mentions breakouts."
+ },
+ "aspects": [
+  {
+   "libelle": "Small product size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Clear, non-greasy application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant fruity scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or lingering scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Easy for kids to self-apply",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Risk of skin reaction on repeat use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Liz",
+   "titre": "So tiny and clogs pores",
+   "texte": "Liked the smell. Liked that it was clear and didn't leave a film the way other sunscreens do however the stick itself is so small. I used it on my daughter and this gave her tiny bumps all over her face so i immediately stopped using it.",
+   "date": "2025-02-27",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "M",
+   "titre": "Not for sensitive skin",
+   "texte": "Got this sunscreen for my 1yr old as we are getting into warmer weather and we live in the desert. I tested it on my skin (back of my hand) first since we use a lot of the same lotions/soaps and i wore it with no problem. It does smell like bananas but it wears off and it does absorb into the skin and gives a nice glow. Applied it to my son with no reactions. Next day, applied it on him again. When we got home from the park his face started to look irritated. Two hours later it was very inflamed and had a rash, the skin actially ended up cracking shortly after and he ended up with a couple little scabs :( He also had a little bit of rash on the back of his neck where i applied it and the beginings of a rash on his arms. A day later its looking better but still very noticeable on his face and im having to apply Aquaphor religiously. I really wanted this product to work for us. He usually has no problem with fragrances or the sunscreen. If you/your kids skin seems to be resistant to irritation, this would work well for you, otherwise, AVOID! 2 stars instead of 0 because the application and absorption were nice.",
+   "date": "2023-04-20",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "B",
+   "titre": "No sunburns",
+   "texte": "Purchased this for my 7 year old to use, she has fair skin but tans well - after using it for a week at the beach i was glad see no sunburn. She has sensitive skin when it comes to fragrances and had no reaction to this thankfully. Application is so easy she can do it herself.",
+   "date": "2023-06-12",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katie",
+   "titre": "Good Sunscreen, Strong Scent",
+   "texte": "Good sunscreen, goes on clear and has a light texture on the skin. Has a bubblegum scent that doesn't linger thankfully. Please make an unscented version as well!",
+   "date": "2024-11-06",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "",
+   "titre": "THE BEST - better than Super Goop Glow Stick SPF 50",
+   "texte": "It's better than the super goop glow stick, in price, application, and less oily!",
+   "date": "2023-05-01",
+   "verifie": false,
+   "utiles": 21,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "acid",
+   "titre": "repurchased and loved",
+   "texte": "it is sheer, smells yummy, & perfect for both adults and kiddos. 10/10, there are even more expensive ones that do not work as well",
+   "date": "2025-11-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "normal",
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Mich",
+   "titre": "Easy to use, but tiny",
+   "texte": "I was surprised when i opened it that it wasnt the size of a typical SPF stick. It's the size of a mini. I wish the amount of product was states in the description. Its 15g. Im a small woman and the entire product fits in my palm. But its easy to apply and my kids love the texture. Makes it really easy to reapply af school.",
+   "date": "2023-09-30",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

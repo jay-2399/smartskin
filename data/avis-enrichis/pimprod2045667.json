@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2045667",
+ "asin": null,
+ "pid": "pimprod2045667",
+ "source": "ulta",
+ "nom": "Naturium Vitamin Bright Illuminating Eye Cream",
+ "note": 3.55,
+ "nbAvis": 124,
+ "lus": 80,
+ "collectes": 117,
+ "segments": {
+  "dry": "Reviewers with dry under-eyes describe the cream as either notably hydrating and rich (helpful for dry skin per multiple 5-star reviews) or, in a smaller set, as failing to moisturize and even leaving eyes drier and peeling.",
+  "sensitive": "Sensitive-eyed reviewers are split: several say this is one of the few eye creams that doesn't irritate them, while others report burning, welts, swelling, or tearing on application.",
+  "mature": "Reviewers who identify as mature or middle-aged report brightening, help blending concealer without creasing, and reduced appearance of fine lines, with one still 'liking it so far' after limited use.",
+  "combination": "One reviewer with combination skin and sun damage reports the cream is moisturizing and helped an under-eye eczema patch that dermatologist visits hadn't resolved."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on fine lines report the tint doesn't settle into creases and lines look less visible when wearing it, though one reviewer says it actually accentuated her fine lines.",
+  "dehydration": "Many reviewers call it richly moisturizing with all-day hydration and no dryness; a minority say it did nothing for moisture or even left under-eyes dry and flaky.",
+  "redness": "A couple of reviewers note reduced redness or a soothing, calming feel, but others report the product itself caused redness, puffiness, or itching as a reaction.",
+  "barrier": "Several reviewers describe burning, swelling, welts, or allergic-feeling reactions on first or repeated use, suggesting irritation for compromised or reactive skin; other reviewers report zero irritation even with sensitive eyes.",
+  "spots": "Two reviewers report small breakouts or milia appearing after use, while most other reviewers make no mention of new blemishes.",
+  "blemishes": "Only isolated mentions exist (milia, tiny break-outs around the eyes after one use), with no broader pattern of blemish complaints in the set.",
+  "oiliness": "Not a personal skin-oiliness complaint but a product-texture one: many reviewers report the cream itself separates into an oily layer over time, though this doesn't seem tied to the user's own oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Product separates or turns oily over time",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills or balls up under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich, moisturizing creamy texture",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Visible shimmer or glitter finish",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Subtle brightening glow under makeup",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Jar arrives half-empty or leaked",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus pricier dupes",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "DIBmakeup",
+   "titre": "I love this product",
+   "texte": "I sit on the tail end of medium-light, sometimes (depending on the brand) I'm labeled medium when it comes to foundation. I have a cool undertone, and I would say this cream in the medium/deep shade is perfect for me. I'm mixed race, I have very dry, sensitive skin. I suffer with eczema, pretty severe post-inflammatory hyperpigmentation in the eye area, and I have very narrow deep-set eyes that extenuate the discoloration. This product looks beautiful. It helps reduce the appearance of the hyperpigmentation, and I've been able to use it in place of hydrocortisone ointment I was using to treat the eczema. My eyes never feel dry, and the moisture lasts all day as long as I don't wipe or wash it away. I've purchased it twice now. It lays beautifully under makeup. It's easy to use, and you don't need a lot to get great results. I've only been using it for close to 3 months now. I don't currently notice any fading of the discoloration itself, but I think the factors I've listed previously would make that a pretty impossible expectation to meet for a skincare product. Especially considering that I haven't used it that long. So I can't speak to long term effects. If I have the ability to update this review, I would gladly share more about the effects of long term use, but for now I'm really happy with my purchase.",
+   "date": "2024-01-21",
+   "verifie": true,
+   "utiles": 49,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "JMMJ",
+   "titre": "Burned my skin. Very painful",
+   "texte": "Each time I've used the vitamin bright eye cream, my skin has burned.. quite painfully. I thought it would be temporary, but this last time, it made a red swollen welt under my eye. It's safe to say I gave it a fair try. I must be allergic or something in it isn't good for my skin.",
+   "date": "2024-08-24",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shanna",
+   "titre": "I like it",
+   "texte": "I'm a middle-aged woman with combo skin and sun damage. I had eczema under my left eye for the longest time. I've been to the dermatologist numerous times but nothing helped. until this. I bought it because I saw a TikTok and figured, \"Why not?\", and I'm very glad I did. I love this stuff. it's very moisturizing and clean. it gives a bit of shimmer to help with my undereye bags. I'll keep buying it unless the recipe changes. I also have the facial lotion with sunscreen, but that's a different review.",
+   "date": "2025-05-24",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Andrea",
+   "titre": "Bright, sparkly, and nurturing!",
+   "texte": "I am 57yo with fine lines around my eyes. I won't wear concealers because they ALL make lines more apparent. I've wasted money on many types. This brightens and does not show lines! I use the darker shade do a hint of subtle color. Love it!",
+   "date": "2025-12-06",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "FionaBlue",
+   "titre": "High on shimmer and low on moisture and tint",
+   "texte": "I got this in the darker shade because it's more peachy, which is a better corrector shade for me. There's a minimal amount of tint in this, definitely not enough to correct or make a difference. Even though it has shea butter in it, the product didn't moisturize my dry undereye area well. You're left with tons and tons of shimmery mica deposited on your dry, dark undereye.",
+   "date": "2024-02-19",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "keyyahnuh",
+   "titre": "Conflicted",
+   "texte": "Am I using this wrong?! I'm the only person to not be in love with this. I initially tried it on and saw some brightening and was excited and hopeful that with continued use my desk circles would diminish or even disappear. With my first use i took a tiny dab on my pinky and gently spread, and saw some brightness and was excited, but within a minute or so my eyes started tearing, more left eye than right, but both crying. I didn't feel any itchiness or discomfort so I chalked it up that maybe I applied too close to my waterline and just wiped with atissue, but the crying persisted for some hours after. Repeat EVERY TIME I put this on! It's come to the point that I reach for it less, maybe once a week or when I have important video calls and need a little brightening, but the tearing is just an unlucky side effect, so the cute points i gained from less dark circle is lost by having tear streaks or irritated looking eyes. The container is small but since a little goes a long way I knew this would last forever, but now that I can't comfortably wear it often, it'll take even longer and I now feel wasteful. Stuck between a rock and hard place - i see a bit of a benefit, but it comes at such a weird cost.",
+   "date": "2024-11-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Honey's Mom",
+   "titre": "Very Hydrating",
+   "texte": "If you have dry under eyes, this is a must! Its very hydrating and feels luxurious. I was previously using the It Cosmetics Confidence In An Eye Cream and made the switch to this. The tint is more of a pearl-like reflector that makes my dark circles less noticeable. Again, the tint doesn't conceal my dark circles completely, but it does tone down the darkness a bit. I think this is a great product and you cannot beat the price point.",
+   "date": "2024-10-24",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

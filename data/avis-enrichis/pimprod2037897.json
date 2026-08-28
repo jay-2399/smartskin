@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2037897",
+ "asin": null,
+ "pid": "pimprod2037897",
+ "source": "ulta",
+ "nom": "Peace Out Salicylic Acid Sheer Acne Day Dots",
+ "note": 4.73,
+ "nbAvis": 294,
+ "lus": 77,
+ "collectes": 121,
+ "segments": {
+  "oily": "One reviewer recommends the patches for oily or acne-prone skin, and another notes they absorbed excess oil on her face.",
+  "sensitive": "Several reviewers with sensitive or sensitive acne-prone skin report no irritation or dryness, with one specifically praising them for calming her sensitive skin without issue.",
+  "combination": "One reviewer with combination skin says the patches work really well as a spot treatment."
+ },
+ "concerns": {
+  "redness": "Many reviewers report visibly reduced redness and swelling within hours to a day of use, describing pimples as looking 'less angry' or less inflamed; no dissent reported on this point.",
+  "barrier": "Reviewers describe the patches as gentle, non-drying, and non-irritating, with several noting no dryness or irritation even on sensitive skin.",
+  "spots": "The large majority describe visible shrinking, flattening, or disappearance of individual spots within hours to a couple of days, including on deep or cystic pimples; one reviewer found they did not extract whiteheads as well as hoped and one found the jumbo version fell off and released pus less effectively.",
+  "blemishes": "Reviewers report fewer or less noticeable breakouts over time, faster healing, and prevention of picking/touching, which several credit with reducing scarring or lingering marks; no dissenting reports on repeated use.",
+  "oiliness": "One reviewer noted the patches absorbed excess oil from her skin; this is the only mention of oil control."
+ },
+ "aspects": [
+  {
+   "libelle": "Ultra-thin, nearly invisible on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Blends well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong adhesion, stays on all day/night",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pricey for the amount included",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Whitehead extraction underwhelming",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Jumbo/daytime version less effective and falls off",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Does not dry out or irritate skin",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Naybae",
+   "titre": "Okay",
+   "texte": "I have tried so many acne patches on the market and these ones from Peace Out Skincare are just okay. They are the thinnest I have tried and conceal really easily on the face. I wish they did a better job of extracting whiteheads. Gifted by Peace Out Skincare.",
+   "date": "2026-01-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Jack T",
+   "titre": "Does not work as well",
+   "texte": "The dots I bought were the daytime jumbo dots. They don't work as well as the acne ones they fall off easily and don't release pus as well",
+   "date": "2025-02-17",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "bella",
+   "titre": "Great for Acne Prone Skin",
+   "texte": "complimentary of peace out skincare gifted by peace out skincare These patches are amazing and they do a great job or working overnight. I would definitely recommend to anyone looking for a new patch to try if you have acne prone skin or have oily skin!",
+   "date": "2025-12-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Angeleena",
+   "titre": "These are the BEST p...",
+   "texte": "These are the BEST pimple patches that exist! I've tried many different ones and these work SO well to reduce acne, even on my cystic acne. Anytime i get a zit, with other patches it still takes a week or 2 for the cystic acne to get smaller, but with the Peace Out ones it literally gets smaller in one day and after a couple days of using these acne dote, its completely gone! It works like magic and I cant live without them!",
+   "date": "2025-08-18",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ketie",
+   "titre": "Little savers",
+   "texte": "I honestly love these dots! They're super thin and actually look cute on the skin. I wear them out without feeling self-conscious. What I love most is that they calm the redness pretty quickly and stop me from touching or picking at my skin (which is a miracle in itself). I put one on in the morning and just go on with my day, makeup sits pretty nicely on top and the pimple looks less angry by the evening. It's not harsh, doesn't dry my skin out and didn't cause any irritation at all (and you know my skin can be sensitive). Definitely one of those things I keep in my bag \"just in case\" and end up using way more often than planned. complimentary from Peace Out Skincare",
+   "date": "2026-01-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marina",
+   "titre": "Lifesavers",
+   "texte": "These are absolutely my favorite pimple patches ever as somebody who has extremely acne prone skin. These are absolutely Lifesavers. They feel so gentle on the skin. You can wear them out and they're basically invisible. Gifted by peaceoutskincare I have to have these on deck at all times because they are genuinely lifesavers.",
+   "date": "2025-03-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Pat",
+   "titre": "Great for travel",
+   "texte": "These are the best and most-effective acne-zapping product I've tried yet. I have sensitive acne-prone skin and these shrink and disappear my pimples after a day's use. I keep these in my suitcase whenever I travel. Gifted by Peace Out Skincare",
+   "date": "2025-12-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

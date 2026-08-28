@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2004196",
+ "asin": null,
+ "pid": "pimprod2004196",
+ "source": "ulta",
+ "nom": "Clinique Blackhead Solutions Self-Heating Blackhead Extractor with Salicylic Acid",
+ "note": 3.71,
+ "nbAvis": 66,
+ "lus": 55,
+ "collectes": 55,
+ "segments": {
+  "oily": "Reviewers with oily, acne-prone skin and large pores report both strong satisfaction (visible blackhead and pore reduction) and at least one case of the product being too rough and causing redness lasting over an hour.",
+  "sensitive": "Reviewers describing sensitive or reactive skin are split: some report cystic breakouts, burning and peeling, while others report no irritation and call it gentle and even effective for sensitive skin.",
+  "combination": "The one reviewer identifying as sensitive-combination skin reports the product triggered severe cystic acne rather than helping her usual blackheads."
+ },
+ "concerns": {
+  "spots": "Most reviewers use this specifically for nose and chin blackheads; many report visible reduction or disappearance after one to few uses, but a sizable number used it for weeks with no change at all.",
+  "blemishes": "Several reviewers report new breakouts, cystic pimples, or purging after use, while others report no new blemishes and even resolution of existing cystic spots overnight.",
+  "barrier": "Some reviewers describe chemical burns, peeling skin, or a sandy/harsh scrubbing sensation; others describe the treatment as gentle with no dryness or irritation.",
+  "redness": "One reviewer with oily skin reports redness lasting over an hour after gentle use; another reports no redness at all after use.",
+  "oiliness": "A few reviewers mention smaller-looking pores and less visible oil-clogged areas after repeated use, though this is not extensively discussed.",
+  "dehydration": "One reviewer used it to address dryness around the nose and chin and reports the treatment left skin hydrated rather than dry, contrary to her expectation."
+ },
+ "aspects": [
+  {
+   "libelle": "Self-heating sensation on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Heating effect too weak or absent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Applicator tip awkward or hard to clean",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin feeling soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to tube size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Confusing usage instructions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels like scrubbing with sand",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "combination"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Hay hay",
+   "titre": "Gave me cystic acne; feels like exfoliating with sand.",
+   "texte": "So I have sensitive combination skin, I'm in my early 20s, and I tend to get breakouts when I'm stressed. Because of this, my nose and chin look like the surface of the moon. I began using the Clinique foaming acne cleanser, the 7 day blackhead scrub, their alcohol free toner, the ID hydrating gel for imperfections, and the dramatically different moisturizer. My skin was doing great! I added this bad boy in because a friend recommended it. Unfortunately, all this seemed to do was break me out… REALLY BAD. Normally I just have issues with blackheads, but this gave me those super deep, super painful cystic pimples. When I put it on my face, it feels like I'm rubbing hot magical sand into my skin. The applicator tip is really hard to use and it yellowed very quickly despite my best efforts to clean it (I'm a clean freak). I'm not sure what the deal is, but this seemed add new problems, not erase them.",
+   "date": "2021-07-07",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "SarahMae",
+   "titre": "Not for sensitive skin",
+   "texte": "I wanted to love this product, I love everything Clinique from their skincare to their make up... I should buy stock in \"Happy\" it's been my favorite for years... I have oily skin and large pores and I tend to get blackheads on occasion. This was very rough for my skin, and it made me red for well over an hour. I pressed very gently and followed directions to a T.",
+   "date": "2019-05-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "GenXGeekGirl",
+   "titre": "It's weird, but it works!",
+   "texte": "Blackheads and clogged pores have plagued my skin my whole life, so I've tried everything. I've used acne products that heat-up, scrubs, and exfoliators - but a plastic scrubber tip, no. It seemed a bit weird, but the results aren't - it works! I also have reactive, sensitive skin and this product wasn't irritating or too drying.",
+   "date": "2019-06-01",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Georgia",
+   "titre": "Incredible",
+   "texte": "I bought this two days ago and I'm already seeing results, I've been getting really bad break outs recently and wanted to try something new. I've used in 2 days consecutively and woke up this morning with a huge reduction in pore size and it's cleared up a few cystic pimples over night. Did not notice any irritation or drying but I did follow up use with moisture surge from Clinique. Will definitely continue to use.",
+   "date": "2019-08-15",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Best blackhead solution ever used!",
+   "titre": "A must have!",
+   "texte": "Allergy season and tissues caused dry skin around my nose, chin and upper lip, which became a vicious cycle of applying moisturizer, breakouts, and then Dryness (from trying to treat the blackheads). After first use my skin felt hydrated and smooth. The black heads and dry skin were gone. A must have for my skincare regimen.",
+   "date": "2020-09-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brazilangal",
+   "titre": "Magic!!",
+   "texte": "This is exactly what I was looking for. I was very sensitive skin and this is effective and gentle at the same time. Will definitely buy again!",
+   "date": "2020-03-27",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lisa",
+   "titre": "Caution - chemical burns",
+   "texte": "I have tried this product about three times. Each time, The area being treated becomes very red and irritated with a terrible burning sensation. It appears to be a chemical burn from the use of this product.",
+   "date": "2021-12-02",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

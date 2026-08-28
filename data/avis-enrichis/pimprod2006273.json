@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2006273",
+ "asin": null,
+ "pid": "pimprod2006273",
+ "source": "ulta",
+ "nom": "Clinique Moisture Surge Eye 96-Hour Hydro Filler Concentrate",
+ "note": 3.92,
+ "nbAvis": 473,
+ "lus": 79,
+ "collectes": 106,
+ "segments": {
+  "dry": "Reviewers describing dry or very dry under-eye skin report strong hydration and relief from dry patches, though some with dry skin also report stinging, redness or cracking.",
+  "sensitive": "Reviewers who self-identify as having sensitive skin mostly report the product soothes redness, burning and irritation without aggravating rosacea, but sensitive skin also accounts for several reports of swelling, dermatitis and burning reactions.",
+  "mature": "Reviewers in their 50s-70s report firming, plumping and reduced creasing under makeup, describing it as effective for older or crepe-y eye skin.",
+  "oily": "One reviewer with oily eyelids notes the gel format prevents the 'melted' makeup look that heavier eye creams cause."
+ },
+ "concerns": {
+  "aging": "Many reviewers report reduced fine lines, plumping, firmness and smoother concealer application over days to weeks of use; a few older users see visible tightening, though one reviewer says the product made her wrinkles more visible.",
+  "dehydration": "Most reviewers describe strong, lasting hydration and plumping ('drinks it up', 'glass skin'), but several say hydration is minimal or fades within an hour.",
+  "redness": "Several reviewers with red, irritated, or burning under-eye skin say the product calmed and de-reddened the area quickly; others report the product itself caused new redness or red bumps.",
+  "barrier": "A subset of reviewers report serious barrier reactions — swelling, dermatitis, cracking, steroid-requiring flare-ups — attributed to the microbeads or formula.",
+  "spots": "One reviewer reports clogged pores and small breakouts under the eyes after use; this contrasts with the majority who report no bumps or clogged pores.",
+  "blemishes": "A couple of reviewers describe painful red bumps or pimple-like lesions developing after repeated use, though this is not widely reported.",
+  "oiliness": "Reviewers with oily eyelids or concerns about makeup sliding report the gel absorbs without greasy residue and helps concealer/eyeshadow stay put."
+ },
+ "aspects": [
+  {
+   "libelle": "Sticky or tacky on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs and settles once fully dry",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser clogs or malfunctions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, refreshing sensory feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy gel texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube or bottle breaks with use",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Carr",
+   "titre": "Still recovering",
+   "texte": "I had such a severe reaction to this product that, with little improvement after 2 days I had to go to the doctor and start taking steroids and antihistamines. I'm hoping my skin returns to normal and will no longer be a faithful Clinique customer.",
+   "date": "2022-01-30",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lara",
+   "titre": "Addicted - I have used it on my whole face for a year",
+   "texte": "I received a sample tube, and did not read the labeling. I used a small amount on moist skin as a facial moisturizer. It made my skin look amazing, and it was only when I ran out and decided to buy a full size that I read the label and realized it was an eye gel. I have used just a small amount on moist skin for a full year now, and my skin looks and feels like smooth glass. No bumps, no clogged pores, no blackheads and my formerly dull skin glows like it did ten years ago. Half the time I don't even use foundation any more - just this product. I have sensitive skin and have tried many solutions over the years, but this simple product has excelled. Clinique has had many great products over the years that have been discontinued, and I am BEGGING that they keep this one around forever!",
+   "date": "2024-10-09",
+   "verifie": false,
+   "utiles": 62,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Honey",
+   "titre": "Wow!",
+   "texte": "I have very dry undereyes. It's always a challenge to find a great eye cream that can stand up to the job. This deeply moisturizing eye serum is a game-changer! I use it as a serum and apply it first on the whole eye area, let it sink-in for a little while & follow it with a good eye cream. Wonderful moisturization, line-plumping & smoothing! Also, it is very cooling & soothing to the entire eye area. It doesn't get better than this!",
+   "date": "2022-04-23",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sam",
+   "titre": "Plumps and fills in lines",
+   "texte": "Love this stuff!!! It doesn't aggravate my rosacea at all, which is saying a lot. Makes my eyes look brighter and more awake. It de-puffs my eyes a TON! Can't say enough good stuff about it.",
+   "date": "2022-06-13",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kathryn",
+   "titre": "Love it",
+   "texte": "I don't know why this product doesn't have more 5 star reviews. I love it. Like most face products, it took me about a week of using it to really see results. It really hydrates around my eyes so much better than any other product I've found and it works well to layer on top of. I also have super sensitive skin and this doesn't irritate at all. I have quickly become dependent on this product in my skincare routine.",
+   "date": "2024-10-05",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "amy",
+   "titre": "Disappointed, especially for a Clinique product",
+   "texte": "So far, not really happy...been using for a week, not hydrated at all, skin under my eyes is breaking out - wish I could return",
+   "date": "2022-04-19",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Judy76",
+   "titre": "Great for older skin",
+   "texte": "I am 76 years old and this helps tighten under my eyes and my eye lids, so my eye shadow goes on without creasing.",
+   "date": "2023-02-21",
+   "verifie": false,
+   "utiles": 49,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

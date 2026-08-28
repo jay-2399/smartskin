@@ -1,0 +1,142 @@
+{
+ "ref": "pimprod2057064",
+ "asin": null,
+ "pid": "pimprod2057064",
+ "source": "ulta",
+ "nom": "ANUA Azelaic Acid Cica Skin Soothing Moisturizer",
+ "note": 4.14,
+ "nbAvis": 7,
+ "lus": 6,
+ "collectes": 6,
+ "segments": {
+  "combination": "Reviewers with combination/oily skin describe the moisturizer as light, non-greasy, and calming rather than heavy.",
+  "sensitive": "One reviewer with sensitive, fragrance-prone skin reports a very strong scent that made her eyes tear up, though without other adverse reaction; another mentions irritated skin feeling helped."
+ },
+ "concerns": {
+  "redness": "Reviewers report the product controls redness and calms irritated skin.",
+  "blemishes": "One reviewer credits it with helping adult acne more than other, costlier products; no other reviewer discusses acne directly.",
+  "oiliness": "Combination/oily-skin reviewers describe the texture as non-greasy and light, not adding oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong fragrance on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Light herbal scent that fades",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": [
+    "combination",
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Pump dispenser preferred over jar",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No pore-clogging ingredients",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Calming, soothing feel on skin",
+   "polarite": "pos",
+   "concerne": [
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Mattie Boo",
+   "titre": "VERY Strong Scent",
+   "texte": "This product has a VERY strong scent when first applied. It actually made my eyes tear up, and I've never experienced that with a moisturizer before. If you have sensitive skin, especially fragrance prone sensitivity, I'd avoid this. I (thankfully) didn't have any adverse reaction. While I typically love Azelaic Acid and Cica, this just isn't it for me. On the plus side, it doesn't have any pore clogging ingredients (I always check for that now). But the overwhelming scent just really turns me off, as someone with sensitive skin.",
+   "date": "2026-02-13",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Toni",
+   "titre": "Amazing",
+   "texte": "I have combo oily skin. This is not heavy or greasy. I really feel like it help calm my skin. It has a light smell but nothing crazy. Would recommend for ouly combo skin.",
+   "date": "2026-03-24",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joselin",
+   "titre": "Acid azelaic moisturizer",
+   "texte": "I am delighted with this product, I like how refreshing it makes my skin feel, it controls my redness a lot and is an important complement to the anua azelaic acid serum",
+   "date": "2026-02-09",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Toni",
+   "titre": "Amazing",
+   "texte": "I really enjoyed this cream helps with my irritated skin. It has a smell nothing bad after a minute it goes away. Its a herbal smell nothing crazy.",
+   "date": "2026-03-04",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Leslie",
+   "titre": "LOVE",
+   "texte": "Nice & light with a great smell! I have very combo skin but this with the Anua sheer sunscreen is my favorite!",
+   "date": "2026-04-02",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Christy",
+   "titre": "I have already purchased a second when it was on sale.",
+   "texte": "I honestly believe this has helped my adult acne more than thousands of dollars' worth of other products. Moisturizing level is on par with other Korean beauty moisturizers. Non-greasy, pleasant clean fragrance. Love the pump feature rather than dipping into a jar. 5 stars!",
+   "date": "2026-04-25",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Only seven reviews are available, so segment and concern coverage is thin and may not generalize."
+}

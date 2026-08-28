@@ -1,0 +1,174 @@
+{
+ "ref": "pimprod2038231",
+ "asin": null,
+ "pid": "pimprod2038231",
+ "source": "ulta",
+ "nom": "Murad Retinal ReSculpt Overnight Treatment",
+ "note": 4.75,
+ "nbAvis": 571,
+ "lus": 80,
+ "collectes": 123,
+ "segments": {
+  "oily": "One reviewer with oily, acne-prone skin reports occasional bumps when overusing the product on the face, but no breakouts on areas used sparingly, and another says it did not make her skin oily.",
+  "dry": "Several reviewers with dry skin report the product did not further dry or flake their skin and left it smooth and moisturized, though one noted a few tiny dry patches on first use and another advises not to skip a moisturizer after application since it can be drying.",
+  "combination": "Reviewers with combination skin report softer, more radiant skin and smoother forehead lines without irritation, and improved elasticity with continued use.",
+  "sensitive": "Many reviewers with sensitive skin, including some with rosacea or reactive/acne-prone sensitive skin, report no irritation, redness, or peeling and describe the product as gentle; a couple mention minor tingling on first use or slight dry patches initially.",
+  "mature": "Reviewers describing themselves as mature (40s-50s) report firmer, lifted-looking skin, softened jawline sagging, and reduced neck wrinkles after several weeks of use."
+ },
+ "concerns": {
+  "aging": "Most reviewers report visibly reduced fine lines, improved firmness, and a lifted look on the face, jawline, and neck within two to four weeks; a few long-term retinoid/tretinoin users or those with only mild wrinkles saw little to no change.",
+  "dehydration": "Reviewers with dehydrated or dry skin report the product hydrates without greasiness and does not worsen dryness; one noted needing extra moisturizer afterward to avoid tightness.",
+  "redness": "One reviewer noted redness during the first week that resolved with continued use; others with sensitive or rosacea-prone skin report no increase in redness at all.",
+  "barrier": "Several reviewers say the product did not damage or compromise their skin barrier the way other retinols had, with one specifically noting it restored the skin's natural barrier.",
+  "spots": "A few reviewers with hyperpigmentation or age/sun spots report fading or improvement after weeks of use; this is mentioned by a minority rather than most reviewers.",
+  "blemishes": "Several reviewers with acne-prone or blemish-prone skin report no new breakouts; one reviewer with oily, acne-prone skin describes occasional bumps appearing the day after applying more product than usual to the face.",
+  "oiliness": "One reviewer notes the product does not make skin oily; oiliness is otherwise rarely discussed."
+ },
+ "aspects": [
+  {
+   "libelle": "Creamy, thick texture that absorbs well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or musky fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Little to no scent detected",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting bottle relative to cost",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Disliked outer packaging design",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy, lightweight finish on skin",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Lynnette",
+   "titre": "No discernible change, strong scent",
+   "texte": "I like several Murad products, but this one after two months has not shown me it was worth the cost. Very strong perfume scent, only a serviceable moisturizer with little in the way of resurfacing, a bit irritating with the fragrance. I will not buy again.",
+   "date": "2024-11-10",
+   "verifie": false,
+   "utiles": 31,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Tiffany",
+   "titre": "Comfortable on Dry Skin",
+   "texte": "Murad gifted me this product complimentary in exchange for my honest review. I have dry, sensitive skin and am nearing 30. I've used many retinols and retinoids over the years and have had issues with dry patches and sensitivity from some of them. I've been using this product for about two weeks and have yet to experience any sensitivity or dry patches (not even in the eye area)! It has a smooth and comfortable consistency and layers well under my night cream and face oil. As I have only used this for two weeks, I haven't noticed a huge difference in my fine lines yet at this point. I am a regular retinoid and sunscreen user (and 30 is pretty young), so my lines are not deep and differences may not be noticeable quite yet. I will keep testing!",
+   "date": "2023-04-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Flower",
+   "titre": "Worth the expense!",
+   "texte": "This is the best Retinal cream I have used! I'm olive undertone, with mildly dry sensitive skin, in my mid 40's. This is the first cream that did not excessively dry and peel my skin. All other retinol creams, including rx, have irritated and dried my skin worse. Murad has the secret formula!! This product is pricey, and rarely on sale. So definitely use your points and buy it with any discount possible. Murad has smoothed and noticeably rejuvenated my face",
+   "date": "2024-10-07",
+   "verifie": false,
+   "utiles": 37,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "caryann",
+   "titre": "Impressive Results in 4 weeks",
+   "texte": "First let me say, I am 53 with dehydrated skin, hyperpigmentation, dynamic wrinkles (no Botox or fillers) and volume loss. When looking for skincare, I'm not looking for anti-aging, I do not expect miracles. I'm looking to \"Age Well\" I want my skin to look the best it can. Myra's are sculpting made my dehydrated skin feel hydrated without feeling greasy, the fine line have diminished and creepiness reduced. I will be repurchasing this skincare gem",
+   "date": "2023-09-05",
+   "verifie": false,
+   "utiles": 26,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rally22",
+   "titre": "Such a great product!",
+   "texte": "This product was gifted to me by Murad Skincare. I have been using this serum for a month now and these are my honest thoughts. I have sensitive combination skin that is very reactive to Retinol, so I have to be careful. I am happy to report that my skin tolerated this Retinal serum very well and I did not experience any discomfort, redness or peeling. I like its lightweight formula that just melts into my skin and the pleasant smell. I have been using this product consistently every other night and my skin feels so smooth and tighten. I started to see improvements on my fine lines on my forehead and mouth area. My skin feels hydrated and glowy. I can't wait to see what this one will do in the long run!",
+   "date": "2023-06-22",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mindy",
+   "titre": "Actually works!",
+   "texte": "I got this on the 21 days of beauty sell… I hate that I love it so much. It actually works! The onky thing that has actually helped my neck wrinkles and has tightened it. Ive lost 100 pounds and my neck has been so wrinoly and loose looking. Its helped so much with my confidence! After only a few weeks at that. Haha i hate it because i didnt intend to rebuy at full price. It was just a treat myself while its on sale purchase. But this is absolutely a rebuy and worth the money. I will day that i have oily acne probe skin. When I put this on my face I will notice a bump come up the next day here or there. But honestly its so good i dont mind. I mainly use it on my next and will take the excess to my smile lines and forehead. I rarely do a full pump on my face. Which is typically when ill botice a breakout. It doesnt break out my neck though which was thw main area i got it for.",
+   "date": "2025-04-11",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melody",
+   "titre": "For sensitive skin",
+   "texte": "Gifted by Myra's a skincare. I normally damage my skin barrier when I start using retinol, but this hasn't done that! It's perfect for my sensitive skin! I use it at night about 3 times a week and I started to see results in about 2 weeks. The fine lines on my forehead and breakouts on my cheek are gone! My skin looks the best it's ever looked!",
+   "date": "2023-04-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "aging",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

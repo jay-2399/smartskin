@@ -1,0 +1,144 @@
+{
+ "ref": "pimprod2053644",
+ "asin": null,
+ "pid": "pimprod2053644",
+ "source": "ulta",
+ "nom": "medicube PDRN Pink Peptide Cream",
+ "note": 4.5,
+ "nbAvis": 8,
+ "lus": 7,
+ "collectes": 7,
+ "segments": {
+  "sensitive": "One reviewer with sensitive, acne-prone skin reports the cream calmed her skin and strengthened her barrier without irritation, though she notes fragrance did not bother her specifically.",
+  "normal": "A 47-year-old reviewer with fair/normal skin describes the product as unscented, very nourishing, and good under makeup.",
+  "mature": "The one reviewer who mentions her age (47) reports the cream is very nourishing and works well under makeup."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers describe the cream as hydrating, glowy, and good under makeup; one reviewer felt it did not moisturize deeply enough and found it more gel-like than expected.",
+  "barrier": "One reviewer with sensitive, acne-prone skin reports it strengthened her skin barrier and kept her skin calm.",
+  "blemishes": "Two reviewers with acne-prone or breakout-tendency skin report the cream did not cause new breakouts and is non-comedogenic.",
+  "spots": "No reviewer specifically discusses spots or hyperpigmentation."
+ },
+ "aspects": [
+  {
+   "libelle": "Fragrance presence disputed",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slightly greasy on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glowy, glassy skin finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gel-like, insufficient moisturizing depth",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Too rich for summer daytime use",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Aimee",
+   "titre": "BEWARE this product has fragrance",
+   "texte": "I did not expect this product to have fragrance, but it does and it's not pleasant at all. Luckily, it didn't irritate my skin but this product is more of a gel and doesn't moisturize as deeply as I would've liked. Definitely won't be buying again.",
+   "date": "2025-11-01",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "melmakeup",
+   "titre": "someone is warning of fragrance",
+   "texte": "im not trying to fight, but I wanted to say I think it is unscented very nourishing and great under makeup for reference I am 47yo with very fair/ normal skin",
+   "date": "2026-03-08",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "normal",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ana",
+   "titre": "Great!!",
+   "texte": "This cream helped strengthen my skin barrier and keeps my skin calm and hydrated. The texture is light, non-greasy, and completely non-comedogenic. Great for sensitive and acne-prone skin. I will use it all winter twice a day, dor the summer it will be a bit too much during the day.",
+   "date": "2026-01-05",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "l",
+   "titre": "Smoother glowier skin!",
+   "texte": "gave me glowy skin after some uses and is a little bit greasy but if put on some toner before it this gives such a beautiful glow on my face! doesn't break me out and keeps my face hydrated. will buy more when i'm done using this one",
+   "date": "2025-11-27",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hope",
+   "titre": "Obsessed!",
+   "texte": "My skin loves this cream. Goes very well under makeup. Leaves skin glowy and hydrated",
+   "date": "2025-12-29",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah F",
+   "titre": "Super Hydrating",
+   "texte": "This moisturizer is extremely hydrating and softening. A favorite of medicube",
+   "date": "2026-07-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "With only 8 short reviews and little detail on skin type or specific concerns beyond hydration, conclusions for concerns like aging, redness, spots, and oiliness cannot be drawn."
+}

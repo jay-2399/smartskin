@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2050500",
+ "asin": null,
+ "pid": "pimprod2050500",
+ "source": "ulta",
+ "nom": "Well People Daygleamer Mineral Sunscreen Serum Broad Spectrum SPF 34",
+ "note": 4.69,
+ "nbAvis": 1465,
+ "lus": 80,
+ "collectes": 118,
+ "segments": {
+  "dry": "Dry-skin reviewers report the texture is too light to manage extremely dry patches for one, while others describe it as hydrating and creamy enough to skip a moisturizer.",
+  "sensitive": "Sensitive-skin reviewers mostly report no irritation, burning, or breakouts, though one with sensitive combination skin experienced itchiness and irritation during drying.",
+  "combination": "Combination-skin reviewers describe it as creamy, hydrating, and non-breakout-inducing, comparing it to a tinted moisturizer.",
+  "mature": "One reviewer in her early thirties calls it well-suited to slightly mature skin, citing the smooth glide and lightweight feel."
+ },
+ "concerns": {
+  "aging": "Only a single mention ties the product to mature skin, noting it glides on smoothly and suits early signs of aging; no broader anti-aging effect is described.",
+  "dehydration": "Several reviewers with dry or dehydrated skin describe it as hydrating enough to replace a moisturizer, though one says it is not sufficient for extremely dry patches around the nose and chin.",
+  "redness": "One reviewer with an autoimmune condition causing rashes reports no reaction; another with sensitive skin reports it burned her eyes was avoided and felt no eye irritation.",
+  "barrier": "One reviewer reports skin felt irritated and itchy through the drying process; others with compromised or reactive skin report no burning or stinging.",
+  "spots": "Reviewers report the sunscreen does not clog pores, and one gave it to her daughter specifically to help reduce breakouts with good results; no reviewer reports worsened acne.",
+  "blemishes": "Reviewers describe no new breakouts and mention it works well on acne-prone skin; no dissent on blemishes is reported.",
+  "oiliness": "Multiple reviewers say it does not make skin feel oily or greasy despite mineral formulation; no reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "No white cast after blending",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves visible white cast",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight serum-like texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Peels or pills on skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or subtle scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Not sweat or water proof",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sleek compact travel packaging",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Mox9",
+   "titre": "Ok Addition to Skin Care",
+   "texte": "What I like about this sunscreen serum is that there is no fragrance and/or the fragrance is very subtle. The application was smooth after my toner and other serums; however, my skin felt irritated and itchy throughout its drying process every time. The sunscreen serum says it is a good base/primer for makeup, although I did not experience this. I used this as a standalone without additional moisturizer or my usual makeup primer, and my makeup did not last throughout the day per usual if I would have used makeup primer. I like the SPF content but would not use this as a standalone moisturizer or makeup primer. I believe my sensitive combination skin just did not react well to this sunscreen serum.",
+   "date": "2025-08-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Niki",
+   "titre": "This is the fragrance free MVP",
+   "texte": "I like how light the texture is although its not sufficient for my dry skin right now. I hate fragrance in my facial products and I couldn't detect any in this one. I usually have a problem with experiencing a burning sensation when I use other sunscreens except for the 2 others I currently use and I didn't experience any with this one. Great overall product just not sufficient for the extremely dry patches I have around my nose and chin",
+   "date": "2025-08-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Anonymously_Ray",
+   "titre": "Seemless application",
+   "texte": "I am greatly surprised about this product, it is great for all types of skin. I have super sensitive and acne prone skin and this sunscreen works very well and causes no clogged poors.",
+   "date": "2025-08-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "msh",
+   "titre": "Creamy!!!",
+   "texte": "Excellent product if you have dry /combo skin with goodness of SPF. It feels like tinted moisturizer on the skin.",
+   "date": "2025-08-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "PJ",
+   "titre": "Hydration",
+   "texte": "First of all , I never expected a full size sample. Thank u so much . And to top it , it is very hydrating. First felt a little sticky but that feeling goes away in 5 min . I have combination sensitive skin . No breakouts yet . Has a bit of medicinal smell bcz of no fragrance but u get used to it . Maybe bcz im used to a light fragrance in all my products",
+   "date": "2025-08-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alyssa",
+   "titre": "New Favorite",
+   "texte": "I really like this sunscreen! It is very lightweight and easily spreads across the skin without leaving a white tint like a lot of mineral sunscreens do. It has also been very friendly with my skin (very acne-prone but also dry). A little goes a longgg way so I know it'll also last me. Can't wait for more!",
+   "date": "2025-08-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maddy50",
+   "titre": "Excellent!",
+   "texte": "This product is amazing. I have sensitive skin and most SPF products irritate it, make me oily and cause break outs. This serum smells so good, gives me a beautiful glow and has the SPF benefits. Makeup goes on very easily over this as well.",
+   "date": "2025-08-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2023647",
+ "asin": null,
+ "pid": "pimprod2023647",
+ "source": "ulta",
+ "nom": "Urban Veda Purifying Neem & Tea Tree Exfoliating Facial Polish",
+ "note": 4.86,
+ "nbAvis": 22,
+ "lus": 19,
+ "collectes": 19,
+ "segments": {
+  "oily": "Reviewers with oily skin are split: several report the scrub keeps breakouts and acne clear and leaves skin dewy, while one with oily skin reports it leaves an oily film she dislikes.",
+  "dry": "One reviewer describes her dryish skin and says the product is not drying for her.",
+  "combination": "One reviewer with dry/combo/oily skin reports her skin looks smoother and more even after use.",
+  "sensitive": "One reviewer with sensitive skin reports gentle exfoliation that leaves skin feeling clean and breathable without irritation.",
+  "mature": "One reviewer describes his mature (almost 50-year-old) skin and reports his face glows after use."
+ },
+ "concerns": {
+  "aging": "One mature-skin reviewer reports his face glows after use; no other aging-specific outcomes are mentioned.",
+  "dehydration": "One reviewer with dryish skin reports the product does not dry out her skin, and another describes skin left smooth and hydrated.",
+  "redness": "One reviewer notes the scrub does not irritate despite being effective, but no redness-specific complaints or resolutions are described in detail.",
+  "barrier": "One reviewer contrasts this scrub with rougher ones she says damage the skin barrier, describing this one as gentle while still effective.",
+  "spots": "Reviewers with acne-prone or breakout-prone skin report their acne and breakouts cleared or lessened; one reviewer with oily acne-prone skin says it keeps her skin very clear.",
+  "blemishes": "Multiple reviewers report skin looking blemish-free or breakout-free after use, including one who says breakouts stopped happening; no dissent is reported on this point.",
+  "oiliness": "Reports diverge: some with oily skin say the product keeps oiliness and breakouts controlled and leaves skin more dewy, while one reviewer explicitly states it leaves a film of oil she disliked and had to wash off."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaves oily film after rinsing",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Gentle, non-abrasive scrub texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Creamy texture with visible scrub granules",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong tea tree and mint scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Deep-cleans and unclogs pores",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, cost-effective tub",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Not drying despite exfoliation",
+   "polarite": "pos",
+   "concerne": [
+    "dry"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Mile",
+   "titre": "I don't like that it leaves a film of oil on my face",
+   "texte": "It feels weird when you wash it off- like I just applied baby oil. I didn't like the feeling at all and had to wash my face after. I like the smell and the gentle scrub, but this is not good for oily skin.",
+   "date": "2022-12-21",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Ashley",
+   "titre": "I like it!",
+   "texte": "I've been using this for about a week and so far so good. It has a really nice gentle exfoliation making it great for sensitive skin. My skin feels clean and breathable after using it.",
+   "date": "2022-09-08",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Angel",
+   "titre": "I JUST BOUGHT FOR THE 2nd TIME!",
+   "texte": "I have struggled my whole life with acne, breakouts, dry/combo/oily skin (I'm 37 now) and I have tried everything under the sun - especially just a daily cleanser. My skin has never looked so amazing. Not only has my acne gone away, my skin is so much smoother and it's coloring has evened out. For the first time in my life, I am comfortable and confident going out without full makeup coverage. The exfoliating little scrubbers are just enough to leave my face feeling smooth and clean without being harsh. Somehow it moisturizes while removing dirt, oil and makeup. I use it twice a day - morning and night- and now I am looking at their face lotions and oils to add to my routine!",
+   "date": "2022-06-20",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maneesh",
+   "titre": "Great for mature male skin",
+   "texte": "Wow! I'm an almost 50-year old man and this product is THE one. I love it. Feels so great on the face and it smells so dang good. And my face glows! Great product in every way.",
+   "date": "2024-12-11",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stevi",
+   "titre": "I will buy this product again!!",
+   "texte": "This product really works! I have super oily acne prone skin and its keeping it very clear. VERY EXCITING! Thank you.",
+   "date": "2024-12-05",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "mg",
+   "titre": "love this scrub",
+   "texte": "most face scrubs are really rough and bad for your skin barrier but this one is very gentle yet gets the job done",
+   "date": "2024-05-30",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "HelsB",
+   "titre": "Great Product",
+   "texte": "Great product - love the mint which is refreshing and it isn't drying even for my dryish skin!",
+   "date": "2021-08-25",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2059208",
+ "asin": null,
+ "pid": "pimprod2059208",
+ "source": "ulta",
+ "nom": "ILIA Sun Serum Mineral Sunscreen SPF 50 with 8-Hour Oil Control",
+ "note": 4.73,
+ "nbAvis": 595,
+ "lus": 80,
+ "collectes": 111,
+ "segments": {
+  "oily": "Reviewers with oily skin (including combination/oily) report the product controls shine and oil throughout the day, giving a glow rather than greasiness, though one notes it did not make her already-oily nose oilier.",
+  "dry": "Reviewers with dry skin find the formula lightweight and non-drying overall, but two say it is not hydrating enough alone and one found it outright drying on her skin.",
+  "combination": "Combination-skin reviewers describe good oil control, smooth application under makeup, and no irritation or breakouts.",
+  "sensitive": "Sensitive-skin reviewers are split: several report no irritation, stinging-free wear, and it being their first tolerated daily SPF, while one describes a slight stinging sensation and suspects poor tolerance to some ingredient.",
+  "mature": "Reviewers with mature skin (including rosacea-prone and 40s-70s) report a natural, non-aging-emphasizing finish that sits well without settling into lines, though one over 65 notes it doesn't cover age spots or redness and another with rosacea sees the tint turn orange-ish over the day."
+ },
+ "concerns": {
+  "aging": "Reviewers over 40-70 report the product sinks in smoothly without settling into fine lines or creases and gives a youthful glow; one near-70 reviewer notes it does not cover age spots.",
+  "dehydration": "Most reviewers, including dry-skin users, describe the formula as hydrating and non-tight; a minority report it as insufficiently hydrating alone or even drying.",
+  "redness": "A rosacea-prone reviewer reports the tint helps mask redness somewhat but oxidizes orange over the day; another with rosacea reports the product replaced an irritating prior SPF with no issues.",
+  "barrier": "No breakage of the skin barrier is reported; several reviewers state no irritation or reaction even on sensitive skin, apart from the isolated stinging complaint.",
+  "spots": "One reviewer reports the high SPF helps prevent new sun-triggered freckles/splotches from forming; another notes it doesn't cover existing age spots.",
+  "blemishes": "Multiple reviewers, including one with hormonally-triggered adult acne, report no new breakouts and no pore-clogging; no reviewer reports the product causing breakouts.",
+  "oiliness": "The large majority of reviewers, especially oily and combination skin types, report effective oil control and a matte-to-dewy (not greasy) finish lasting through the day; dissent is minimal and concerns hydration rather than oil."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight serum-like texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult squeeze packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small size for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sheer, low coverage tint",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Shade oxidizes orange over time",
+   "polarite": "neg",
+   "concerne": [
+    "mature",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Fragrance-free but faint detectable scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Seyda",
+   "titre": "Slight Stinging Sensation",
+   "texte": "I really wanted to love this sunscreen because I adore ILIA products and the texture is beautiful—very lightweight, serum-like, and it blends into the skin so easily without feeling heavy or greasy. It also gives a nice natural glow and sits well under makeup. However, on my sensitive skin I did notice a slight stinging sensation after a few uses. It's not severe, but I am usually quite sensitive so I think my skin may not fully tolerate some ingredients in the formula. I appreciate that it's mineral-based and feels elegant to apply, but I would say it may not be the best choice for very reactive skin types. Overall, it's a beautiful formula cosmetically and feels like skincare + sunscreen in one, but just something to keep in mind if you have sensitive skin like me.",
+   "date": "2026-05-28",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kristen",
+   "titre": "Perfect-ish",
+   "texte": "I wish I knew how to best rate this. I absolutely love this product. I love how light weight and easy it goes on. I enjoy that I only need to add a little concealer and mascara, and I feel like I'm good for the day. This is the only review I've ever done in my life for any item. I truly love this product. The only downside for me is that I feel like it gets a little orange-ish throughout the day. For reference, I do have a extremely pale, rosacea prone skin. If this product could come either in a color lighter, or be worn without turning kind of orange, it'd be perfect for my skin.",
+   "date": "2026-05-19",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Karen",
+   "titre": "Fabulous!",
+   "texte": "This is a super lightweight tinted sunscreen and a mineral sunscreen at that. It blends readily into your skin and afterwards your skin, well, still feels like skin. I've got mature skin that breaks out due to HRT. This product gives a hint of coverage without clogging pores or causing additional acne. Highly recommend!",
+   "date": "2026-06-08",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vera",
+   "titre": "Great sunscreen",
+   "texte": "I wanted to try this sunscreen so much as I love the ILIA super serum tint and that's what I normally wear but wanted something with less coverage. This is awesome, lightweight, doesn't make me break out, it is moisturizing and doesn't sting around eyes - I'm pretty sensitive to that, most sunscreen bother my eyes so I have to apply really far from them.... Very happy with this purchase, another product staple for me",
+   "date": "2026-05-18",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vee",
+   "titre": "LOVE this",
+   "texte": "Im in LOVE with this sunscreen. It goes on beautifully and looks so natural. I find it very very hydrating. It leaves me with a glowy, youthful looking sheen. It goes on clear and i like how lightweight it feels. This is the perfect sunscreen for my sensitive skin. I will definitely be buying this time and time again. I received this product for free in exchange for my honest review.",
+   "date": "2026-05-27",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stevie",
+   "titre": "Makes me glow",
+   "texte": "Really loving the Sun Serum Mineral Sunscreen with SPF 50. I have really oily skin, but this gives me a healthy glow all while protecting me from the sun. Goes on light and smooth. Will definitely be adding this to my daily routine.",
+   "date": "2026-05-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Jacqueline",
+   "titre": "First time sun serum user",
+   "texte": "I find this very drying on my skin and I expected the tint to have more coverage. I am disappointed and won't purchase again,",
+   "date": "2026-06-08",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

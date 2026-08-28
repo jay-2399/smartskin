@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2042274",
+ "asin": null,
+ "pid": "pimprod2042274",
+ "source": "ulta",
+ "nom": "OLEHENRIKSEN Banana Bright Mineral Face Sunscreen SPF 30",
+ "note": 4.38,
+ "nbAvis": 100,
+ "lus": 79,
+ "collectes": 85,
+ "segments": {
+  "oily": "Reviewers with oily or combination skin report the sunscreen absorbs quickly, does not feel greasy, and can mattify rather than shine.",
+  "dry": "Reviewers with dry skin report it supplies noticeable slip and hydration for a couple of hours, though some others with dry-leaning skin still found it drying or chalky over the day.",
+  "combination": "Combination-skin reviewers describe it as glowy but controllable, absorbing well and sitting fine under makeup without extra shine.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it caused burning, stinging, or increasing dryness (some blaming the fragrance or Vitamin C), while many others with self-described sensitive skin report no irritation and even praise it as gentle around the eyes.",
+  "mature": "One reviewer suggests it would suit mature skin well, and another frames the mineral formula as an anti-aging plus, but detailed mature-specific feedback is limited."
+ },
+ "concerns": {
+  "aging": "A couple of reviewers link the mineral formula and Vitamin C content to anti-aging benefits and brightening, but no one reports on wrinkles or fine lines specifically.",
+  "dehydration": "Several reviewers say the sunscreen leaves skin feeling dry, chalky, or flaky over the day, while a comparable number describe it as hydrating and plump with no dryness; results seem to vary by skin type and how long it's worn.",
+  "redness": "One reviewer with sensitive skin reports it helps correct redness, and another says it caused no redness on acne-prone skin, but a different sensitive-skin reviewer reports her skin burned and became inflamed.",
+  "barrier": "No reviewers discuss barrier repair or damage directly.",
+  "spots": "A few reviewers mention it brightens discoloration and dullness, especially in winter, with visible improvement in radiance, but no one addresses dark spots or hyperpigmentation specifically.",
+  "blemishes": "One reviewer with acne-prone combination skin says it does not break her out or cause redness, and another confirms no new breakouts; one reviewer reports it clogs pores and leaves residue.",
+  "oiliness": "Most reviewers describe it as non-greasy and lightweight, with several noting it mattifies; only one mentions it left oily residue on the skin's surface, and that was resolved with drying-down time."
+ },
+ "aspects": [
+  {
+   "libelle": "Pilling and flaking under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Citrus/orange scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance irritates over time",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "No white cast on most skin tones",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "White or grey cast on darker skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick texture hard to blend",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy finish",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "AishawithGod",
+   "titre": "It Burned my skin…",
+   "texte": "I have sensitive skin so maybe it was the Vitamin C that burned my face but whenever I put this on my skin burned so bad! I was inflamed something terrible. I am dark skin and this did leave a slight white cast on my face but nothing too crazy. All my other skin care is from OLE but i couldnt do the sunscreen sadly.",
+   "date": "2023-12-20",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kathy",
+   "titre": "Great but wish it had no fragrance",
+   "texte": "Loved it in the beginning but saw it had fragrance. I have really sensitive skin so over time it made my skin really dry at the end which is shocking considering i have oily combo skin. No white white cast which is a bonus! Would've been perfect if it had no fragrance.",
+   "date": "2024-04-26",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Jen",
+   "titre": "Wanted to love",
+   "texte": "I was hoping this would fall in like with the rest of their products which are very hydrating & glowy. This unfortunately dried my skin out & left it feeling chalky & matte. It also peels. I have used many mineral sunscreens & know that it can cause issues like this but there are others I have tried that don't.",
+   "date": "2024-07-02",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SadieCakes",
+   "titre": "Great sunscreen for oily/combo skin",
+   "texte": "Haven't written a review in years but I adore this product and thought I should explain why. I have combination, acne-prone skin. This absorbs quickly, does not leave you greasy, and does not pill under makeup. It does not break me out or cause redness. Also, no white cast. Fresh subtle citrus scent that is not over-powering. I will continue to repurchase.",
+   "date": "2023-12-29",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ashlysvanity",
+   "titre": "I received t...",
+   "texte": "I received this complimentary from Ole Henriksen. I am super pleased with this SPF. I have wore this on my skin itself and it provided my dry skin with enough slip and hydration for the first two hours, until the reapplication. It has a very light illumination, as well as a light citrus scent that dissipates after about 20 minutes or so. It's not irritating to my extremely sensitive eyes and it actually sinks in and dries down. Leaving no oiliness on top of the skin. Even after a few reapplications. I wish this was more affordable but it's not. Also, no cast of any sorts. I love this.",
+   "date": "2023-03-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "sensitive"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "hungrychomps",
+   "titre": "Gifted by Ol...",
+   "texte": "Gifted by Ole Henriksen. I like that this sunscreen is lightweight and doesn' leave a white cast or any sticky residue on my face. I have dry skin and this does a good job hydrating me and sits well under my makeup. It has a citrus scent but is not overwhelming. Will recommend",
+   "date": "2023-03-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sara M.",
+   "titre": "10-Oct",
+   "texte": "I have combination to dry skin this works the best I use it for work every morning I don' need no foundation and makes my skin so nice and smooth",
+   "date": "2023-05-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

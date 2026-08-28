@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2053049",
+ "asin": null,
+ "pid": "pimprod2053049",
+ "source": "ulta",
+ "nom": "Beekman 1802 Milk RX Advanced Better Aging Wrinkle Serum",
+ "note": 4.69,
+ "nbAvis": 277,
+ "lus": 74,
+ "collectes": 119,
+ "segments": {
+  "dry": "Several dry-skin reviewers report the serum does not dry them out further and leaves skin hydrated and smooth, though one notes her face got drier after two weeks of use.",
+  "sensitive": "Sensitive-skin reviewers repeatedly describe the serum as gentle with no irritation or breakouts, though one unrelated reviewer with no known sensitivities had a severe reaction (hives, urgent care).",
+  "mature": "Reviewers over 40 report firmer, more youthful-looking skin and softened wrinkles, calling it good for mature or postpartum skin.",
+  "combination": "One reviewer with combination-to-mature skin reports it looks softer, smoother, and more hydrated with a radiant glow."
+ },
+ "concerns": {
+  "aging": "Most reviewers report visibly softer fine lines and wrinkles (forehead, smile lines, crow's feet, under-eye) after a few weeks of consistent use; a couple note results are subtle or not instant, and one felt it was too strong for younger skin.",
+  "dehydration": "Reviewers consistently describe the serum as lightweight yet deeply hydrating, with one noting dehydration lines disappeared within six weeks; no dissent reported.",
+  "redness": "Only one reviewer mentions redness, reporting it helped soften occasional cheek redness.",
+  "barrier": "A few reviewers cite improved barrier support and skin elasticity from the goat milk exosomes, with no negative reports.",
+  "spots": "Two reviewers report lightened dark spots and more even tone over weeks to months of use; no dissent noted.",
+  "blemishes": "One reviewer explicitly notes no new breakouts despite being vitamin C-sensitive, but another reviewer had a severe allergic reaction with hives requiring urgent care.",
+  "oiliness": "No reviews address oiliness specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sticky or greasy residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under moisturizer and makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dual-chamber pump dispensing issues",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to bottle size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Risk of allergic reaction",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Raven",
+   "titre": "Vitamin C is way too strong!",
+   "texte": "I LOVE Beekman products, but unfortunately this one caused a severe reaction. I broke out in hives and ended up at urgent care. I have no known allergies or skin sensitivities, so this was completely unexpected. Please patch test first!",
+   "date": "2026-08-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jan",
+   "titre": "Very good but strong!",
+   "texte": "I started to use this serum and is really good and gives me a really nice glow around my eyes and my fine lines, but after two weeks of use I noted that my face was more dry so I stoped to use it. I was making a research and some of the ingredients are not too good for younger people, but overall the product is super good and very helpful, I am 29 yo for the reference",
+   "date": "2026-04-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Marie",
+   "titre": "Loved",
+   "texte": "Its so light weight but moisturizing! I had dehydration lines and i notice within 6 weeks they were gone!",
+   "date": "2026-08-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Valeryia",
+   "titre": "Works for dry, mature skin",
+   "texte": "I have dry, thinner skin, so after 40 I'm really picky about what I use. This serum feels very lightweight but still gives enough hydration, which is rare for my skin type. It absorbs quickly and doesn't leave any sticky or heavy feeling. After a few weeks, my skin looks smoother and a bit more firm, especially around the areas where I usually notice loss of elasticity. It's not an instant miracle, but it definitely improves overall skin quality over time. I would keep using it as part of a long-term routine.",
+   "date": "2026-04-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Becky",
+   "titre": "Best Serum!",
+   "texte": "I have been using this wonderful dual-serum for the past month or so, and love it! Love how it mixes, to blend the serum and clear liquids together! I use it mostly in the evening, but also in the morning, for a brighter complexion. It helps soften my aging lines, and even helps some occasional redness I get on my cheeks. I almost feel like I don't need a moisturizer afterwards either. Great for mature women like me!",
+   "date": "2026-03-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kanako",
+   "titre": "Absolutely love this",
+   "texte": "This is a milky serum that sinks into the skin and helps reduce fine lines and dark spots over time. I've been using this for a couple months now and my dark spots have lightened and my skin survived the super cold winter without any more fine lines forming! I love the effect this serum has with zero irritation. It's the best serum I have for better aging.",
+   "date": "2026-04-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hendrika",
+   "titre": "Smooth skin",
+   "texte": "I love the two in one formula of this serum. It goes on so smoothly and blends right into my skin without leaving any sticky residue. Since using this serum my combination to mature skin is looking softer, smoother, feels hydrated and has a radiant glow.",
+   "date": "2026-07-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,153 @@
+{
+ "ref": "prod2140585",
+ "asin": null,
+ "pid": "prod2140585",
+ "source": "ulta",
+ "nom": "Clinique Clinique For Men Exfoliating Tonic",
+ "note": 4.7,
+ "nbAvis": 30,
+ "lus": 20,
+ "collectes": 20,
+ "segments": {
+  "oily": "Reviewers with oily skin report reduced shine, less visible facial oil on pillowcases, and a normal (non-shiny) look especially when paired with Clinique's oil-control moisturizer.",
+  "combination": "One reviewer with combination dry/oily skin reports the product works well and helps with light forehead acne while keeping pores minimal.",
+  "mature": "One reviewer describes use on aging skin (fine lines, thinning, loosening contours) with reported improvement in texture, tone and evenness of color."
+ },
+ "concerns": {
+  "aging": "One reviewer reports improved texture, tone and evenness of color on skin showing fine lines, eye-area wrinkles and thinning skin.",
+  "spots": "Several reviewers report fewer blackheads and cleaner-feeling pores, with one describing amazingly reduced blackheads within days.",
+  "blemishes": "Most reviewers who mention breakouts report reduced or absent acne over time (occasional pimples, none in over a year, occasional breakouts reduced); one still notes occasional pimples persisting.",
+  "oiliness": "Multiple reviewers with oily skin report reduced oil production, less shine, and less facial oil transferring to pillowcases; one notes skin looks normal only when paired with a mattifying moisturizer."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong alcohol smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling tingling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin clean without drying",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reduces pore appearance and blackheads",
+   "polarite": "pos",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Price considered high",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Works best as part of 3-step system",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Danielle G",
+   "titre": "Smells Terrible",
+   "texte": "The smell is horrible it smells like rubbing alcohol I bought this for my boyfriend and I don't feel like it's even safe to use on skin.",
+   "date": "2020-09-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "C.R.",
+   "titre": "Great stuff!",
+   "texte": "I use this product daily after a shave and shower. I have combination dry/oily skin, this stuff works great. I'm 30, it helps with light acne on my forehead, keeps my pores minimal.",
+   "date": "2015-12-19",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Smiley-in-the-Sunshine",
+   "titre": "Scruffing is good for a face!",
+   "texte": "I bought this for my husband who has oily skin but shows signs of aging- fine lines, eye area wrinkles, thinning skin, and loosening of facial contours. He already uses Clinique cleansing bar for oily skin, which made him a believer in the product line. The next step was toning/exfoliating---hence, Scruffing Lotion! He says it feels cool and tingly at first and later slightly warm. His skin shows improved texture, tone and eveness of color. Also, occasional acne has not been seen in some time! His pillowcase shows less evidence of facial oils and stains which were once a laundry problem... I think the name of the product helps it be more acceptable to guys who don't want to be perceived as fussy regarding appearance. Just a healthy routine with lots of payoff- my man is happy!",
+   "date": "2012-01-25",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "aging",
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lee",
+   "titre": "Worth the money",
+   "texte": "I bought this for my husband because of the reviews and he can tell the difference in his skin tone. He was suffering from occasional breakouts but this toner has reduced them. He's bald so the Clinique Rep told him to clean, tone and then shave. He uses the Charcoal Cleanser but not the moisturizer which he may try next.",
+   "date": "2016-12-18",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alex",
+   "titre": "Great Product in 3-Step System",
+   "texte": "Great part of Clinique's 3-step system. My skin has never looked to good and free of almost all acne. There are occasional pimples here and there but for the most part no where near as what I had before using Clinique's line. My girlfriend complements me on my skin all the time.",
+   "date": "2013-03-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kabogo",
+   "titre": "Great product for me...",
+   "texte": "This product is great if you have an oily skin. Face looks normal without the shinny look if used with the oil control mattifying moisturizer by Clinique. Great product, a little pricey though.",
+   "date": "2015-06-05",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Andrew",
+   "titre": "Noticeable Improvement in days",
+   "texte": "this product works amazingly at reducing as well as removing pesky blackheads. The toner really helps reduce oil production as well as unclogging your pores allowing them to breathe easy.",
+   "date": "2012-01-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

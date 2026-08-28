@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2036976",
+ "asin": null,
+ "pid": "pimprod2036976",
+ "source": "ulta",
+ "nom": "Hero Cosmetics Pore Release Blackhead Solution",
+ "note": 4.5,
+ "nbAvis": 584,
+ "lus": 78,
+ "collectes": 102,
+ "segments": {
+  "oily": "Oily-skin reviewers report the product cuts through excess sebum and helps keep skin clear without changing its oiliness much.",
+  "dry": "Dry-skin reviewers, including some in their 50s-70s, report visible pore and blackhead improvement but note peeling, scaliness or stinging if overused, needing extra moisturizer.",
+  "combination": "Combination and T-zone reviewers report reduced clogging and blackheads on the nose without new breakouts.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it is unusually gentle with no redness or irritation, one says it caused itchiness and barrier issues, and one warns it can be harmful to sensitive skin.",
+  "mature": "Mature-skin reviewers in their 40s-70s report visibly smaller pores and clearer skin without excess dryness.",
+  "normal": "One reviewer with no major breakout issues still noticed clearer small blackheads on the nose and chest after one use."
+ },
+ "concerns": {
+  "aging": "Older reviewers (40s-77) report pores looking smaller and skin appearing younger; none report anti-aging effects beyond pore/texture change.",
+  "dehydration": "Most reviewers say it doesn't dry out skin and even feels hydrating or glowy; a minority report peeling, scaly or sticky skin, especially with frequent use on already-dry skin.",
+  "redness": "One reviewer with sensitive skin reports reduced redness; another reports the product made her skin reactive and itchy.",
+  "barrier": "One dry, sensitive-skin reviewer reports the product disrupted her skin barrier and caused reactivity; several others report no irritation at all, including alongside tretinoin.",
+  "spots": "One reviewer mentions lingering dark spots the product did not address, wanting something to lighten them separately.",
+  "blemishes": "Most reviewers report fewer blackheads, whiteheads and clogged pores, some seeing results within days; a few report no improvement or even more blackheads after weeks of use.",
+  "oiliness": "Oily-skin reviewers report a visible reduction in surface oil the morning after use, though skin remains generally oily overall."
+ },
+ "aspects": [
+  {
+   "libelle": "Watery, lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky residue that doesn't absorb",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable smell",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Long-lasting bottle for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle empties faster than expected",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glass bottle feels premium but fragile",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild tingling or slight sting on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Olivia",
+   "titre": "Ok product but not for sensitive dry skin",
+   "texte": "I tried to use this product multiple times while is did clear my black heads it made my skin itchy and very reactive. I didnt use it often i tried once a week and even then my face would have a bad reaction to this product and mess up my skin barrier so I would not recommend if you have very dry sensitive skin.",
+   "date": "2025-12-15",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "delaware b.",
+   "titre": "good, though a tad drying for already dry skin!",
+   "texte": "effective! use according to the instructions-- applying 2-3x a week until you're satisfied, and then only applying once a week. Personally I am a bit forgetful, so I restart this a lot, and what I find is that after the first 2-3 initial uses, the skin on my nose starts peeling. My skin adjusts to the product with heavier moisturizing and time. If you are also a forgetful person with dry-er skin, be gentle + use moisturizer + set reminders on your phone so you keep on schedule.",
+   "date": "2023-07-27",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nikk",
+   "titre": "Love this stuff!",
+   "texte": "I tried this on a whim&was quickly obsessed! I've struggled with blackheads, clogged pores&bumps my whole life. I'm almost 50 and tried tons of products. THIS. STUFF. WORKS. I'm so pleasantly impressed and happy. It did not dry my skin even using it a few times a day. The results were fast! Even other's at work noticed a change in my skin. I use the cleanser and then this. Excellent product, stocking up!",
+   "date": "2023-08-14",
+   "verifie": false,
+   "utiles": 26,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "g",
+   "titre": "Love!",
+   "texte": "This is my second bottle. I just finished the first one after having it for MONTHS. It lasts a very long time. I even put it in a spray bottle and use 6 sprays every night and it still lasted forever. I have very oily skin and this product has helped with the oil production. My skin is still oily but the morning after using this I can always tell the difference.",
+   "date": "2024-04-02",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shea B.",
+   "titre": "Even good for older people",
+   "texte": "I'm 77 years old with pretty dry skin and large pores on my nose that never look clean. This product is my hero! I've been using Hero for about 10 days now after washing my face at night. The change is remarkable! I only use it on and around my nose and the pores are now nearly invisible. So happy.",
+   "date": "2023-08-01",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Riley C.",
+   "titre": "Changed the Sensitive Skin Gamr",
+   "texte": "As someone who struggles with sensitive skin, I always get worried with something that has SA in it. This product never caused an issue for me though. It made my skin look and feel like glass, my redness went down so much and my blackheads are almost non existing. I recommend this to all of my sensitive skin girls and guys out there and anyone struggling with some bumps on their skin and forests of blackheads. This product will change your life!",
+   "date": "2023-07-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kristina",
+   "titre": "Nothing special",
+   "texte": "At 37 yo i have hormonal acne that consists of many blackheads & clogged pores along my jawline, chin and neck area. I bought this in hopes that it would help the amount of blackheads I get. Unfortunately, I found that this product didnt work better than any other salicylic acid based toners on the market. And believe me, ive tried LOTS. Lets just say I went from regular member status to diamond in 2 months, if that's any indication on how much money ive spent trying different products for my acne sitch lol. So far the best thing thats worked for my blackheads is the Peach Slices exfoliating acne toner and the Good Molecules overnight exfoliating treatment (used together) and you can get both of those for less than this Hero toner costs.",
+   "date": "2025-11-16",
+   "verifie": false,
+   "utiles": 47,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,158 @@
+{
+ "ref": "pimprod2030003",
+ "asin": null,
+ "pid": "pimprod2030003",
+ "source": "ulta",
+ "nom": "CHANEL LE LIFT CRÈME YEUX Smooths - Firms",
+ "note": 4.32,
+ "nbAvis": 22,
+ "lus": 20,
+ "collectes": 20,
+ "segments": {
+  "sensitive": "One reviewer with sensitive, reaction-prone skin says this is a rare eye cream that does not trigger allergy or burning, while another normally tolerant reviewer reports an apparent allergic reaction with increased puffiness.",
+  "dry": "Reviewers with dry skin report the cream helps eyelid dryness and pairs well with Chanel's dry-skin face cream, though one Los Angeles-based user says it turned drying and crusted white on the lashes.",
+  "mature": "Reviewers in their 50s and 60s report reduced fine lines, smoother texture and a lifted look under eyes, though one about to turn 60 says it did not visibly reduce dark circles or puffiness despite the price."
+ },
+ "concerns": {
+  "aging": "Several reviewers describe fewer visible fine lines and a smoother, firmer look under the eyes, including one who saw lines disappear under strong store lighting; one long-time skincare user in her late 50s says it did not deliver visible change for the price.",
+  "dehydration": "Reviewers describe the cream as rapidly absorbing and moisturizing, fixing eyelid dryness for at least one user, but another says it dried down to a crusty white residue that worsened dryness in a hot, dry climate."
+ },
+ "aspects": [
+  {
+   "libelle": "Rapid absorption into skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Crusty white residue on lashes",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Gritty residue around eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": [
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Luxurious, satin-like feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reduces puffiness and eye bags",
+   "polarite": "pos",
+   "concerne": [
+    "mature"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Chrissy",
+   "titre": "Bummer",
+   "texte": "I am a person with really tolerant skin, I have never had any bad reactions to anything I've ever tried except this. I have been trying a lot of new products lately for my deep under eye circles and puffiness. A salesperson recommended this product and at first I loved it, super smoothing but I think I'm having an allergic reaction because it definitely make's everything more puffy and I look really terrible when I use it. I usually love Chanel but this one just didn't work for me.",
+   "date": "2023-09-01",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Tina",
+   "titre": "Dries down crusty",
+   "texte": "They must have changed the formula because I swear I used to love this. It's so drying now. I put it on and it feels ok but then it dries down to a crusty white in a couple hours. My makeup pills terribly on it. When I wake up there's white crust on my lashes. I'm so grossed out by this! I live in LA where it's hot and somewhat dry and this cream is making it worse. I couldn't even get halfway through the jar before wanting to throw it out and it's not cheap! I'm just using my face cream on my eyes until I find a replacement.",
+   "date": "2025-06-17",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Pamela",
+   "titre": "I wanted to love this, but",
+   "texte": "I'm turning 60 this year and have always practiced a good skin care routine, so I decided to try Chanel. While I like the consistency and that it is fragrance free, plus rapidly absorbs, it didn't do anything, not for the price. In the store, it definitely looked like my dark circles were lighter, but truth be told, they're still just as dark and my eyes are still puffy. Not worth the price and I have yet to find one eye cream that works.",
+   "date": "2025-07-18",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hello polka dots",
+   "titre": "Great for sensitive skin",
+   "texte": "I have sensitive skin and can't use any eye creams i can get allergic reaction or burn. This is game changer and just bought a second bottle.",
+   "date": "2022-03-13",
+   "verifie": false,
+   "utiles": 24,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "",
+   "titre": "I love this product. It has really helped my eyes",
+   "texte": "I love both of the products I purchased. The eye cream is fantastic. The face cream is just what i was looking for due to my dry skin",
+   "date": "2024-01-08",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nancy",
+   "titre": "A very good eye cream for 45 plus",
+   "texte": "I really believe this product works. It advertises for bags under the eyes. It really takes of them. 1st time I can honestly say I've seen it happen. Well woryh the investment for me",
+   "date": "2025-03-26",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Christine",
+   "titre": "Worth the price!",
+   "texte": "This is fixing my eyelid dryness, makes my lids look lifted and is improving the fine lines and wrinkles. Highly recommend.",
+   "date": "2026-06-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

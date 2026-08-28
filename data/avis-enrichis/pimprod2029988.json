@@ -1,0 +1,144 @@
+{
+ "ref": "pimprod2029988",
+ "asin": null,
+ "pid": "pimprod2029988",
+ "source": "ulta",
+ "nom": "CHANEL LE LIFT SÉRUM Smooths - Firms",
+ "note": 4.31,
+ "nbAvis": 13,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {
+  "sensitive": "One reviewer without self-identified sensitive skin still found the product irritating and overly fragrant, while another non-sensitive reviewer reports no irritation at all.",
+  "mature": "Reviewers describing forehead lines, deep wrinkles around the mouth, and general aging concerns report visible smoothing and plumping within one week to one month of use."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report visible reduction in fine lines and wrinkles on the forehead and around the mouth, some within one week and others after a month; effects are described as smoothing and plumping rather than fully erasing deep wrinkles.",
+  "redness": "One reviewer without stated sensitive skin reports irritation and discomfort tied to the fragrance, though most other reviewers report no irritation."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong floral fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Strong floral fragrance",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Smooths fine lines quickly",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Plumping, refreshed skin feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Product goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Normal skin here!",
+   "titre": "Too much fragrance!",
+   "texte": "Way overly fragrant. It's irritating to my skin and I don't have sensitive skin. I used it for a couple nights and couldn't get past the smell and irritation. Why do brands insist on adding fragrance to their products?! No thank you!!",
+   "date": "2022-05-11",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Élise",
+   "titre": "I'm shocked at these scathing reviews",
+   "texte": "I don't have sensitive skin so I can't attest to irritation, but I do know a quality product when I see one. This is it! I absolutely love le lift serum for nighttime use. Sometimes I use clarins double serum, sometimes I use an Elizabeth Arden retinol, but I find myself reaching for this one more and more because of its incredible results. In just a week of using le left serum (I usually lock it in with Chanel revitalizing cream), I saw my faint forehead lines disappear — literally. It feels very nice on the skin and smells like a clean, natural, relaxing floral. This product makes me look forward to my skincare routine, whereas others I've tried (like *gag* drunk elephant) are extremely unpleasant in texture and make me dread using them. For this 27 year old working mom of 2, there is no better serum for keeping my skin looking sexy, youthful and well-rested. Ps: Don't complain about alcohol in a serum; educate yourself instead.",
+   "date": "2022-09-24",
+   "verifie": false,
+   "utiles": 46,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jay Tiberias",
+   "titre": "Amazing!",
+   "texte": "I'm 23 years old and because ive lacked a lot of sunscreen throughout the entirety of my life. Ive started to notice fine lines growing on my forehead. Since I started using this my skin has been visibly more plumped and my fine lines are slowly disappearing. A little goes a long way! Also don't let the stupid person below who knows nothing about skincare saying \"beware of alcohol\" for some people. Alcohol is necessary in a product to help allow the ingredients penetrate deeper into your skin. Know how ingredients work before making false claims under the reviews tab.",
+   "date": "2022-01-09",
+   "verifie": false,
+   "utiles": 35,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shelly",
+   "titre": "Love love love",
+   "texte": "I had very deep wrinkles on my forehead, and around my mouth after one month of using this product. It really helped with the appearance of the fine lines.",
+   "date": "2023-03-30",
+   "verifie": false,
+   "utiles": 21,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sylvia",
+   "titre": "I love it!! One tiny dot goes a long way.",
+   "texte": "Although this product is a bit pricey for me (I'm on a senior budget), I think it will go a long long way. I really love it. I've used it for one week and already can see a difference in my skin.",
+   "date": "2023-06-29",
+   "verifie": true,
+   "utiles": 16,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lynda",
+   "titre": "Line smoothing",
+   "texte": "I have many samples of this product and use it undernearth the Chanel Camellia Water Cream for added skincare benefits. It really smooths out fine lines on the forehead and near the eyes. Just the combo of these two products looks fresh enough to not have to wear any makeup for the day if I don't feel like it.",
+   "date": "2022-01-14",
+   "verifie": false,
+   "utiles": 21,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": "The sample is small (13 reviews, mostly positive) and only one review mentions a concrete skin type or adverse reaction, so segmentation by skin type beyond aging/mature and sensitivity is limited."
+}

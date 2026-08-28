@@ -1,0 +1,149 @@
+{
+ "ref": "pimprod2038833",
+ "asin": null,
+ "pid": "pimprod2038833",
+ "source": "ulta",
+ "nom": "ELEMIS Pro-Collagen Glow Boost Exfoliator",
+ "note": 4.67,
+ "nbAvis": 30,
+ "lus": 24,
+ "collectes": 24,
+ "segments": {
+  "dry": "Reviewers with dry skin report the product exfoliates without drying them out further, one specifying it does not irritate her very dry and sensitive skin.",
+  "sensitive": "Sensitive-skin reviewers describe it as gentle and non-irritating, with one noting it works well without drying out sensitive skin and another calling it a perfect exfoliator for sensitive skin.",
+  "mature": "One reviewer with mature skin reports it is gentle yet removes dirt and buildup, leaving her face fresh and smooth."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers say the product exfoliates without stripping or drying their skin, describing results as hydrating or leaving skin polished but not stripped; one dry/sensitive-skin reviewer confirms no dryness after use.",
+  "redness": "One sensitive-skin reviewer reports no irritation from the product, but this concern is otherwise not directly discussed."
+ },
+ "aspects": [
+  {
+   "libelle": "Fine gentle exfoliating granules",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin smooth and glowing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant or luxurious scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Not gritty enough for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube separates into two textures",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent bothersome to allergies",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Lori",
+   "titre": "I had high hopes",
+   "texte": "After an in-store demo, I was excited for this splurge purchase and the possibilities of dewey soft skin, great smells, and a luxury experience. Unfortunately that was not my reality. Don't get me wrong, it has great exfoliation! But the product separated into 2 textures and experiences! A milky thin watery liquid seeped out of the tube and would at times swirl around a thick yellow exfoliating gel like substance with an off-putting aroma. I don't want to lay it down or put the flat end down and risk what remains of the milky substance leak out. Neither shaking like Shakira or massaging the tube would bring the substances together though. Maybe an aged or a quality issue with my tube, but I don't think I'll pony up again to try it, at this price point. I had high hopes based on the initial in-store experience, but was let down unfortunately with the reality.",
+   "date": "2025-12-25",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Jessa",
+   "titre": "Overpriced",
+   "texte": "I purchased this during the 21 days of beauty event for 50% off. The exfoliation is very gentle and I didn't feel that super fresh faced after typically exfoliation. I'd prefer something like the exfolikate or having a little more grit. Price is a bit high",
+   "date": "2025-09-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "jan83",
+   "titre": "Perfect Exfoliator!",
+   "texte": "This is a wonderful exfoliator for someone with sensitive skin. I've used the rose exfoliator for many years but always felt I needed a little more \"scrub\". This product is the answer. It's gentle but effective to making my skin look and feel wonderful. I love the fact that the product has the smell and feel of the cleansing balm with a little kick to it!",
+   "date": "2023-06-07",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "JMcTX",
+   "titre": "This exfoliator is a game changer!!",
+   "texte": "I'm blown away by this exfoliator! It is so gentle yet SO EFFECTIVE. Your face feels amazing afterwards, polished yet very hydrated and not stripped like other exfoliators I've used. I can definitely see a reduction in the size of my pores after using, and my makeup goes on much better, and lasts longer. This product is a game changer in my book, and probably now one of my top two \"must haves\" from Elemis. Love love love.....",
+   "date": "2023-06-08",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rosalie714",
+   "titre": "The best exfoliator",
+   "texte": "This exfoliator is truly the best. Vwey gentle on my skin but removes dirt and buikd up on my mature skin. I recommend it to anyone as it leaves your face feeling fresh and smooth.",
+   "date": "2023-06-10",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Grammie13",
+   "titre": "I like this exfoliator",
+   "texte": "I ise Elemis apricot toner daily. After the dark, drab winter months I decided to try this exfoliator. It works very well without drying out my sensitive skin.",
+   "date": "2024-03-27",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lana",
+   "titre": "Nice exfoliator",
+   "texte": "I have very dry and sensitive skin, and this exfoliator does not irritate it at all.",
+   "date": "2025-09-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

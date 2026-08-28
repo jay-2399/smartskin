@@ -1,0 +1,156 @@
+{
+ "ref": "xlsImpprod3030047",
+ "asin": null,
+ "pid": "xlsImpprod3030047",
+ "source": "ulta",
+ "nom": "Peter Thomas Roth Instant FIRMx Temporary Face Tightener",
+ "note": 3.03,
+ "nbAvis": 633,
+ "lus": 79,
+ "collectes": 98,
+ "segments": {
+  "sensitive": "One reviewer notes the product is very strong and cannot be used daily on sensitive skin, though it does work.",
+  "mature": "Reviewers aged in their 60s and 70s report visible tightening around the eyes, mouth and neck, though a 73-year-old and a 68-year-old each report seeing little to no difference on their own face.",
+  "dry": "One reviewer describes the product leaving her skin feeling tight and dry with the white residue removal stripping away the effect."
+ },
+ "concerns": {
+  "aging": "Many reviewers, often stating their age (60s-70s), report visible reduction of wrinkles, crow's feet, forehead and mouth lines, and a younger-looking face; dissent includes reviewers who saw no difference on their wrinkles despite repeated use, and one who felt it only works for younger women.",
+  "dehydration": "A few reviewers pair the product with a moisturizer to counter dryness and residue, and one reports it worked well as a moisturizer by itself on an early batch; others describe the dried product feeling tight, dry, and sandpaper-like rather than hydrating.",
+  "redness": "No reviewer specifically discusses redness as a standalone concern.",
+  "barrier": "One reviewer reports a burn-like reaction, a hard bump, and a cyst-like lesion after use; another describes a burning, sandpaper-like sensation on the skin, suggesting barrier irritation in isolated cases.",
+  "spots": "No reviewer addresses dark spots or hyperpigmentation.",
+  "blemishes": "No reviewer discusses acne or blemishes as an outcome of this product.",
+  "oiliness": "One reviewer repurposed the product mixed into a sunscreen to cut oily shine and improve transfer resistance, though this is an off-label use rather than the product's intended effect."
+ },
+ "aspects": [
+  {
+   "libelle": "White residue or cast after drying",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "White cast more visible on deeper skin tones",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Immediate visible tightening on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Effect disappears with movement, water or makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Texture turns cakey, flaky or gritty when layered",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires technique or shaking to work well",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount goes a long way, good value per use",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Ouch!",
+   "titre": "Caused hard bump on neck and cyst like burn",
+   "texte": "Its scary what this has done! Dont buy it. My burn/cyst on my chin looks like the other girls post and inside my nevk i can feel a hard small ball. Maybe from the way it seals the pores? Either way pls be warned because i wish i listened to that review.",
+   "date": "2026-01-11",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Zami",
+   "titre": "Great product but shows residue on dark skin.",
+   "texte": "I bought this product 2 weeks ago.It is a great product but it takes time to learn how to use it.I have darker skin and I wish it will have little bit of color in it . Different shades? Wishful thinking?",
+   "date": "2025-01-12",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Dianna",
+   "titre": "It works but not an everyday product",
+   "texte": "Can't use everyday, very strong for sensitive skin.. but it does work!!",
+   "date": "2025-02-03",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Linda",
+   "titre": "Left white flaked look",
+   "texte": "This was second time trying, just does not work for me. I'm 73 and was really hoping it would smooth the wrinkles around my mouth. I think it probably works for much younger women…",
+   "date": "2026-03-12",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Judi",
+   "titre": "I would not buy this product again",
+   "texte": "I like the under-eye tightener so decided to try the face one. I'm 68 years old. I don't see much difference on my face. Don't like the white residue it leaves behind. Not comfortable on my skin. Feels tight and dry. By the time you pat off the white residue, the product is gone too. Tried on my neck and it looked worse.",
+   "date": "2025-03-14",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ph.",
+   "titre": "The five stars are for an off-label use I discovered",
+   "texte": "Useless for its intended purpose (leaves dry white patches, can't wear makeup w it). But when I mix a tiny drop into my very greasy Cerave tinted facial sunscreen, it eliminates the oilslick shine and makes it transfer-resistant. Instant mattifier!",
+   "date": "2026-01-15",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "chrisRPh",
+   "titre": "For sure tighter skin!!!!",
+   "texte": "I have used this daily for many years. I am 67 and people always guess my age wrong because I look much younger with tighter skin!!",
+   "date": "2025-11-10",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

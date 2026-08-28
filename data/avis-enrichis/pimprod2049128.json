@@ -1,0 +1,142 @@
+{
+ "ref": "pimprod2049128",
+ "asin": null,
+ "pid": "pimprod2049128",
+ "source": "ulta",
+ "nom": "ANUA Heartleaf LHA Moisture Peeling Gel",
+ "note": 5,
+ "nbAvis": 6,
+ "lus": 6,
+ "collectes": 6,
+ "segments": {
+  "oily": "One reviewer with oily skin reports good oil control after use without a drying effect.",
+  "combination": "Reviewers with combination skin, including one prone to breakouts and large pores, report effective manual exfoliation without stinging or redness.",
+  "sensitive": "Reviewers with sensitive (including fungal-acne-prone and combination-sensitive) skin report no itching, no redness, and good tolerance, with one calling it superior to the Pyunkang Yul peeling gel."
+ },
+ "concerns": {
+  "spots": "One reviewer prone to breakouts and large pores reports the product helps with manual exfoliation without overdoing it; no dissent noted.",
+  "oiliness": "One reviewer describes good oil control without a drying effect after use.",
+  "redness": "Two reviewers with sensitive skin report no redness or irritation after use, even with rubbing.",
+  "barrier": "Reviewers describe skin as smooth, soft, and not stripped after rinsing, with no film left behind; no complaints of barrier disruption reported."
+ },
+ "aspects": [
+  {
+   "libelle": "Pilling action removes dead skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No stinging or irritation on application",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Skin feels smooth and soft after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No fragrance",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fungal-acne-safe, non-comedogenic formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive",
+    "spots"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Tabby",
+   "titre": "First time trying and I love it so far!",
+   "texte": "This isnt your typical cleanser. It goes on your skin dry and as your rub it in, it pills, picking up your dead skin and gunk and oil off your face. Then you wash it off. It definitely worked. My skin is so smooth after and being an oil skin girly, the oil control of it without being drying, is unbeatable.",
+   "date": "2025-03-13",
+   "verifie": false,
+   "utiles": 24,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ness",
+   "titre": "My favorite morning addition",
+   "texte": "I looked up the ingredients and this product has NO fungal acne ingredients! It is perfectly safe for those who have fungal acne prone, sensitive skin. After use, you can feel how tight your skin is and it is CLEAN. Love this product. Ive been going on a whole skincare journey and with research, this is one of the products that is good for your skin.",
+   "date": "2025-05-21",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dee Daw",
+   "titre": "Best gommage-style exfoliator I've tried",
+   "texte": "This is my first Anua product, and I'm impressed. I have combination skin, prone to break outs, and large pores. My skin needs manual exfoliation, but it's easy to overdo it. I've used other exfoliators like this and I like them because they're not scratchy like scrubs. This one is exceptional because the LHA didn't sting at all, and I wasn't red at all afterward despite the rubbing. There's no scent, which is great, too. I made sure my face was clean and dry per the directions, and I could tell dry skin really makes a difference in how the gel starts to pick up the dead skin and pill up to remove it. That friction is key. My skin was very soft and not stripped, but didn't feel like it had a film at all after rinsing. I think I'll actually enjoy using this before skincare and makeup in the mornings. Super happy to have this in my skincare arsenal.",
+   "date": "2025-12-21",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Preti",
+   "titre": "Fantastic!",
+   "texte": "If you are looking for a gentle exfoliant that doesn't leave your skin itchy and red then this is the one for you. My senstive skin thrived while using this product. Prior to using this I was using the Pyunkang Yul peeling gel, this one far superior. My skin looked brighter and doesn't feel dry afterwards. The ingredients are fungal acne safe and non - comediogenic. My teenager can use this without any issues as well. Will repurchase again once I am done.. 10 star rating from me.",
+   "date": "2025-11-19",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tawana",
+   "titre": "I would buy this product again",
+   "texte": "I have bought many items from this line. I was a little skeptical of this one. I combination sensitive skin so wasn't sure if I would like it. I ended up loving it. The cooling feeling when you put it on ur face is nice.",
+   "date": "2026-02-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Karen",
+   "titre": "Soft and smooth skin",
+   "texte": "This is a nice product. My skin feels smooth and soft after use. Seems to be gentle on my skin.",
+   "date": "2026-07-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": "Only six reviews are available, all highly positive with no critical (3 stars or below) review present, so conclusions rest on a small, uniformly favorable sample."
+}

@@ -1,0 +1,158 @@
+{
+ "ref": "mkt77007154",
+ "asin": null,
+ "pid": "mkt77007154",
+ "source": "ulta",
+ "nom": "Proactiv Zits Happen Patches",
+ "note": 4.3,
+ "nbAvis": 247,
+ "lus": 67,
+ "collectes": 67,
+ "segments": {
+  "sensitive": "One reviewer with rosacea reports the patches help hide redness of outbreaks; another with cystic acne found them effective without noting irritation.",
+  "mature": "Reviewers in their 30s to 70s report continued use for adult acne and blemishes that still appear occasionally, with patches clearing them in one or two nights."
+ },
+ "concerns": {
+  "spots": "Most reviewers report individual zits or whiteheads visibly shrinking or disappearing overnight to within a day or two; two reviewers saw no improvement in drying up or disappearance of their zit.",
+  "blemishes": "Several describe stubborn or cystic acne resolving with overnight use, including one who calls it the first thing that worked on cystic acne; one reviewer says results were only good for mild acne, not more severe cases.",
+  "redness": "Multiple reviewers note visible reduction in redness and inflammation after one use; one with rosacea uses them specifically to hide redness of outbreaks.",
+  "oiliness": "One reviewer notes the patches start to peel off if the skin gets sweaty or oily, requiring reapplication.",
+  "aging": "One long-term user in her 70s reports the patches still resolve occasional adult blemishes quickly."
+ },
+ "aspects": [
+  {
+   "libelle": "Patches fail to stay on overnight",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Patches stay put through the night",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Discreet or nearly invisible when worn",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Too few patches per pack for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fun variety of shapes",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Edges fray when peeling from backing",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Peels off with sweat or oily skin",
+   "polarite": "neg",
+   "concerne": [
+    "oiliness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Rachel",
+   "titre": "Disappointing.",
+   "texte": "I have been buying hero patches for 3 years. I decided to try the proactive because it is a brand name in acne care. Hugely disappointed. They wont stay stuck on. Next morning they are always off my face. They dont pull out the infection like the hero patch does. Just save yourself money and get the hero patches. I buy a box every month, ill never waste my money on proactive again.",
+   "date": "2024-04-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Amanda S.",
+   "titre": "They don't stick",
+   "texte": "They don't stick to my face well - comes off within minutes. Used different brands before and they have stayed in my face.",
+   "date": "2023-10-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amelia V.",
+   "titre": "Say goodbye to stubborn zits!",
+   "texte": "Zits €¦ really do happen! Love the variety of different shapes to pick from: hearts, flowers, and butterflies. The hydrating hydrocolloid really helps cleanse, heal and protect the skin. I battle with on and off acne and these zit patches have really made a difference for my skin. The left picture was taken two weeks ago compared to the right. I would apply the zit patches to my face after my night time routine and the next morning those stubborn pimples would vanish! I will definitely be sharing these zit patches with friends (:",
+   "date": "2025-02-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kimberly G.",
+   "titre": "great product",
+   "texte": "These patches are a unique option for me to both disguise and help heal zits. I don't put them on every blemish, just the larger or more obvious ones. You can see them if you look closely, and they show up on certain areas more easily, but they hide a lot of redness (or whiteheads) by blurring and blending them in with the rest of my skin. If they get too sweaty or really oily, they start to peel off and I have to put a new one on. I don't recommend leaving them on all day and night--that seemed to make healing take longer.",
+   "date": "2024-01-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LYNNE G.",
+   "titre": "Proactive's Best Product Yet!",
+   "texte": "I have always loved Proactive's skin care products. They cleared up my adult acne in my 30s and now in my 70s, blemishes still pop up here and there. With only one sometimes two night's use; they're miraculously gone! I love these little patches that do a big job!",
+   "date": "2025-11-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jenn",
+   "titre": "Finally something that works!",
+   "texte": "I have cystic acne. I have tried everything and nothing has helped! I am actually amazed! I put it on that night and by morning it was almost completely flat! I will definitely be buying more!",
+   "date": "2024-12-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Danuta B.",
+   "titre": "I found this to be a helpful product",
+   "texte": "I'm a senior citizen with rosacea, and these little patches help hide the redness of the outbreaks on my nose.",
+   "date": "2024-08-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

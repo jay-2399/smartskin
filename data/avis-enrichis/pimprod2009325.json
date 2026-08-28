@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2009325",
+ "asin": null,
+ "pid": "pimprod2009325",
+ "source": "ulta",
+ "nom": "florence by mills Clean Magic Face Wash",
+ "note": 4.74,
+ "nbAvis": 2853,
+ "lus": 80,
+ "collectes": 98,
+ "segments": {
+  "combination": "One reviewer with combination skin reports the cleanser is gentle, leaves skin neither oily nor stripped, and rinses off clean.",
+  "sensitive": "Several reviewers describe sensitive skin and report no irritation or burning, with one noting the ingredient list is helpful for checking fragrance content.",
+  "oily": "One reviewer with oily skin reports it cleaned well, while another (skin type unspecified) reports the product left her feeling a bit oily after use.",
+  "mature": "One reviewer mentions wanting an anti-aging version, implying interest from mature-skin users, but no direct mature-skin outcome is described."
+ },
+ "concerns": {
+  "aging": "Two identical reviews mention wanting to also get an 'aging' item from the brand, but neither reports any anti-aging effect from this cleanser itself.",
+  "dehydration": "Multiple reviewers say the wash left skin hydrated, soft or smooth and did not dry out or tighten the skin; one reviewer, however, felt it left her skin feeling dirty rather than hydrated after use.",
+  "redness": "One reviewer says the product calms her skin and another that it never irritated her, but this is not framed around redness specifically.",
+  "barrier": "Reviewers with sensitive or reactive skin report no burning, stinging, or reaction, suggesting the formula is generally non-irritating.",
+  "spots": "Several reviewers report fewer breakouts, disappearing pimples, or reduced acne with regular use; one preteen's occasional spots reportedly were not irritated by it.",
+  "blemishes": "Multiple reviewers report the cleanser helped clear acne or pimples over time; one reviewer pairs it with a separate acne cleanser for best results, and one reviewer specifies she does not have acne-prone skin so cannot speak to that effect.",
+  "oiliness": "One reviewer says the wash leaves skin oily afterward and warns those with oily-skin concerns; another with combination skin says it left her not oily and not stripped."
+ },
+ "aspects": [
+  {
+   "libelle": "No lather or suds",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Milky lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cucumber melon scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes makeup effectively",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fails to remove makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cute or small packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Astonished",
+   "titre": "Unfortunately not it..",
+   "texte": "Though the reviews were spectacular, I find this cleanser to be everything except a cleanser. No suds whatsoever and it left my skin feeling dirty after use. Also as a makeup remover, it was a 0/10 for me. I don't understand the rave unless I was using it wrong, but I followed the directions blindly and was left so disappointed.",
+   "date": "2023-11-21",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sam",
+   "titre": "Great gentle cleanser",
+   "texte": "I love this cleanser. I don't wear makeup, so I can't speak to that, but it is so gentle on my combination skin. I'm not oily after I use it and not stripped either. It's great. It is a creamy but light consistency. It doesn't really suds up much, but it rinses off clean and leaves my skin feeling super fresh. It has a very light scent, and all the fragrant ingredients are listed if you have sensitive skin.",
+   "date": "2023-05-27",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Eleanor",
+   "titre": "Love",
+   "texte": "Ahhh I love it -it smells so good -it works so well, it made my skin feel so smooth. My skin is so sensitive, I can't use any skincare without getting a reaction but this doesn't give me a reaction💜💜.",
+   "date": "2022-12-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Bella",
+   "titre": "Would use it again",
+   "texte": "It smells amazing but it leaves my skin a bit oily. If you don't have to much problems with oily skin i recommend this product!",
+   "date": "2023-01-12",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "olivia",
+   "titre": "one of the best flo products!",
+   "texte": "i use this every morning and night! it got rid of most of my acne so fast!! doesn't dry out the skin at all! i love to follow it up with the up in the clouds moisturizer!!",
+   "date": "2023-01-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nina",
+   "titre": "Cleans well, not harsh",
+   "texte": "Preteen daughter has a few spots sometimes so she has started with skin care. This cleanser doesn't irritate or dry out her skin.",
+   "date": "2023-01-09",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hope",
+   "titre": "WORKED WONDERS FOR MY SKIN",
+   "texte": "This face wash is super soothing, and I can't express my love for it more. It clears away my acne and I'm pairing it with the Cerave Foaming Facial Cleanser for best results. I love adding more Florence products to my skin routine!! THANK YOU MILLS!!!!!!!",
+   "date": "2023-02-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

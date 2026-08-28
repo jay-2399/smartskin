@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2028050",
+ "asin": null,
+ "pid": "pimprod2028050",
+ "source": "ulta",
+ "nom": "Drunk Elephant Kamili Cream Body Cleanser",
+ "note": 4.59,
+ "nbAvis": 178,
+ "lus": 79,
+ "collectes": 104,
+ "segments": {
+  "dry": "Reviewers with dry skin, including winter-dry and year-round dry skin, report the cleanser leaves skin soft and hydrated without the tight or itchy feeling they get from soap or other body washes.",
+  "sensitive": "Reviewers describing sensitive, hyper-sensitive, or fragrance-allergic skin repeatedly say it does not sting, itch, or trigger reactions, though one sensitive-skin reviewer still found the bottle physically hard to squeeze.",
+  "combination": "One reviewer with oily patches says it cleans without stripping while helping balance those oilier areas."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers who mention dryness say the cleanser keeps skin hydrated and soft enough to skip lotion, with a couple noting they still follow up with a body cream or lotion for extra moisture.",
+  "redness": "Reviewers with redness or eczema (including one describing her son's eczema) report calmer skin without the dry red patches they got from other cleansers; no reviewer reports increased redness.",
+  "barrier": "Several reviewers frame the low-pH, non-foaming formula as gentler on the skin barrier than typical soap, saying it avoids the stripped, squeaky-clean feeling; one reviewer warns it stings when used right after shaving legs.",
+  "spots": "A few reviewers report the cleanser helped clear body and chest acne or breakouts within weeks; this is not a concern raised by most reviewers, so it appears to be an occasional rather than typical effect.",
+  "blemishes": "One reviewer notes it did not break out her skin and another reports it cleared existing breakouts, but most reviews do not address blemishes at all.",
+  "oiliness": "Only one reviewer addresses oiliness directly, saying it helps balance oily spots while keeping the rest of her skin from drying out."
+ },
+ "aspects": [
+  {
+   "libelle": "Creamy, low-foam texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Does not lather or sud well",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Almond scent liked by most",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent unwanted for fragrance-free needs",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price for amount of product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle hard to open or squeeze",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Preference for pump/large size packaging",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Lenore",
+   "titre": "I keep an extra one in reserve.",
+   "texte": "Hate to run out of this one. It's my go to body cleanser. Never irritates my skin, and I have hyper-sensitive skin.",
+   "date": "2025-08-11",
+   "verifie": true,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Beaglefox",
+   "titre": "For Dry Skin",
+   "texte": "keep skin smooth,don't hurt skin,skin not dry out, i am dry skin so it is good for dry skin person",
+   "date": "2022-08-21",
+   "verifie": true,
+   "utiles": 8,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "kellym417",
+   "titre": "Once you try, you'll be hooked!",
+   "texte": "I use Drunk Elephant skincare, but I didn't plan to use the body or hair care. Fast forward to me forgetting my body wash and makeup on vacation, I found myself at Sephora. I was happy to find this only being $20 in comparison to other products, any may be expensive in comparison to SOME drugstore, but I need to use Aveeno sensitive, so it's not much difference. This smelled amazing!! And make my skin feel soft and hydrated. I have issues with sensitive skin, redness, and itchiness after using many washes, but no problems with this!",
+   "date": "2022-06-07",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Krista M.",
+   "titre": "Love it",
+   "texte": "I have dry skin and eczema on my wrist and this is one of the only cleanser that doesn‚Äôt upset my skin (and is also super moisturizing). I love the large size and really hope drunk elephant keeps this size available. I only wish there was a way that I could get it without the pump (so I could reuse the one I have instead of having to throw it away each time I recycle the bottle).",
+   "date": "2021-04-09",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cheryl D.",
+   "titre": "Natural moisture",
+   "texte": "My son has eczema and didn‚Äôt like the drugstore synthetic body cleansers. He wanted something natural that didn‚Äôt irritate his skin. I found this cleanser and feel very lucky that my son can take a shower without having dry red circles on his body! Thank you.",
+   "date": "2021-02-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brenda W.",
+   "titre": "All Over Greatness",
+   "texte": "For me, the body wash is on point. It‚Äôs light. My skin feels cleaner after use without feeling like I‚Äôve doused it with chemicals. My skin remains soft, doesn‚Äôt dry out, but also helps balance the oily spots",
+   "date": "2021-06-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "maistiee",
+   "titre": "Drunk Elephant 10% AHA Blend Marula + Shea",
+   "texte": "I use this together with the First Aid Beauty KP Scrub and my arms look the best they ever have. It exfoliates but its not incredibly hydrating so I recommend switching off or following up with something thicker like Bum Bum Sol de Janeiro. Also, don't use after shaving your legs - it stings like crazy.",
+   "date": "2022-12-25",
+   "verifie": false,
+   "utiles": 19,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

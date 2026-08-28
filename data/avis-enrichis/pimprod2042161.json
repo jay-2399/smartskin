@@ -1,0 +1,171 @@
+{
+ "ref": "pimprod2042161",
+ "asin": null,
+ "pid": "pimprod2042161",
+ "source": "ulta",
+ "nom": "cocokind Chlorophyll Discoloration Serum",
+ "note": 4.6,
+ "nbAvis": 465,
+ "lus": 80,
+ "collectes": 120,
+ "segments": {
+  "oily": "Reviewers with oily or oily-prone skin generally describe the serum as lightweight and non-greasy, though one reports it increased oil and triggered fungal acne.",
+  "dry": "Reviewers with dry skin describe the serum as hydrating and smooth-feeling, with several using it long-term without complaint.",
+  "combination": "No reviews specifically describe combination skin.",
+  "sensitive": "Most reviewers with sensitive skin report no irritation and good tolerance, but a minority describe irritation, stinging, or breakouts.",
+  "normal": "No reviews specifically describe normal skin.",
+  "mature": "One long-term user in her late 70s reports visible brightness and glow with continued use alongside other cocokind serums."
+ },
+ "concerns": {
+  "aging": "A mature reviewer reports a visible brightening and glow effect over time when paired with other cocokind serums; no other aging-specific claims appear.",
+  "dehydration": "Several reviewers describe the serum as hydrating and good for dry skin, often layering it with a ceramide or barrier serum for added moisture.",
+  "redness": "Many reviewers, including those with rosacea, report reduced redness and calmer skin, sometimes within days; a few say it only temporarily reduces redness or does not fully resolve it.",
+  "barrier": "Several reviewers with eczema- or barrier-compromised skin describe the serum as soothing and non-irritating, often layering it with a ceramide barrier serum for support.",
+  "spots": "Most reviewers report fading of dark spots, sun spots, or hyperpigmentation with consistent use over weeks to months; two reviewers report no visible change after months of daily use.",
+  "blemishes": "Many reviewers say the serum fades post-acne marks and scars and helps active breakouts heal faster; one reviewer instead developed fungal acne and increased breakouts.",
+  "oiliness": "A few reviewers with oily skin note the product feels lightweight and doesn't increase oiliness, though one reviewer reports it made her skin oilier."
+ },
+ "aspects": [
+  {
+   "libelle": "Sticky or tacky initial feel",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gritty or gloopy consistency",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Causes pilling under makeup or other products",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Minimal, non-overpowering scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value versus high-end alternatives",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dropper bottle allows dosage control",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Gabby",
+   "titre": "I wouldn't buy this product again",
+   "texte": "I got this for myself. I suffer from redness. Thought I give it a try seeing all the good reviews. Unfortunately it did cuase irritation, and broke me out into a fungal acne. It also caused more oil to my face. I have sensitive, oily face. If you're like me I definitely wouldn't recommend it. It says fungal acne safe, and for oily skin. If your like me I definitely wouldn't recommend it. I went ahead and returned it and got a refund.",
+   "date": "2025-09-25",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "oily",
+   "sujets": [
+    "redness",
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Wendy H.",
+   "titre": "chlorophyll discoloration serum",
+   "texte": "I ve been using this product for a couple of months now and it has helped my dark spots look lighter and redness seems better in my cheek area. I have rosacea and sensitive skin and it doesn t irritate at all. I apply it in the morning all over my face after I rinse my face. I just auto subscribed to it, that s how much I love this product.",
+   "date": "2025-08-20",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "amber D.",
+   "titre": "incredible for scarring",
+   "texte": "when i tell you this serum helps the discoloration from acne scars so much, i mean it. i suffer from hormonal acne which i now take medicine for, but sometimes a cystic pimple pops up every now and then. my skin is very sensitive and prone to getting dark scars when i break out and this clears up the worst scars in just a few weeks! i get compliments on my skin complexion often and they don't believe me when i say that my skin was so scarred and discolored. if you're on a journey to healing your skin, GET THIS SERUM!",
+   "date": "2025-10-19",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennie S.",
+   "titre": "Great for Removing Post Acne Marks and Calming Sensitive-Rea",
+   "texte": "I have eczema prone, hormonal acne prone skin and this serum has done wonders to support in lessening the redness of my overly reactive sensitive skin. It has a cooling effect for me personally and I have noticed a difference in post acne marks on my forehead within a few weeks of using the serum daily. I love what this product has done for me and know it will do amazing things for you too!",
+   "date": "2025-12-27",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah O.",
+   "titre": "LOVEEEEEE! Holy Grail.",
+   "texte": "LOVEEEE! As a sensitive and acne prone dark skinned girlie, this has severely helped with hyperpigmentation and evening out my skin tone, great as a spot treatment as well. Great as a primer honestly from how smooth your face feels after drying. I m currently on my 8th bottle, forever a skincare staple item. PLEASE PLEASE create a bigger bottle!",
+   "date": "2025-08-13",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley",
+   "titre": "Perfect serum for summer sensitive skin",
+   "texte": "Oh wow.....where to start? From the moment this serum touched my skin I was in love! O have sensitive yet dry skin in winter and sensitive dry skin in summer so am always reaching for a serum. The consistency is like velvet but smoother. The smell is so minimal (yet pleasant) unless you have it at your nose it's non existent (yay for me because sensitive skin). The bottle dropper is really nice because I can change the amount depending on how much TLC my skin needs from the summer sun. I love using this in summer or any time my skin is more sensitive than it's usual. Additionally, I love to use the barrier serum in fall/spring/winter. I have this on my auto ship for every 4 weeks and get a new bottle just as my old is out. Will be a forever repeat product.",
+   "date": "2026-07-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lvaqua",
+   "titre": "Does nothing",
+   "texte": "This product does absolutely nothing to correct dark spots. Used every day without missing a day for 3 months. Don't waste your money",
+   "date": "2025-12-13",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

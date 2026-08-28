@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2050535",
+ "asin": null,
+ "pid": "pimprod2050535",
+ "source": "ulta",
+ "nom": "RMS Beauty Kakadu Clean Cleansing Gel",
+ "note": 4.79,
+ "nbAvis": 394,
+ "lus": 75,
+ "collectes": 115,
+ "segments": {
+  "dry": "Dry-skin reviewers consistently report the gel cleanses without stripping moisture or leaving tightness, though a few state it caused dryness or tightness after repeated use.",
+  "sensitive": "Sensitive-skin reviewers, including several with rosacea, mostly report no irritation and no flare-ups, but a minority report tightness, redness, or breakouts they attribute to the added essential oils/fragrance.",
+  "mature": "Mature-skin reviewers (60s–70s) report the gel cleanses thoroughly without drying their skin, leaving it smooth, soft and hydrated.",
+  "combination": "One reviewer with reactive, combination skin reports good cleansing without tightness, with a slight tingle but no burning.",
+  "oily": "One reviewer with mature but acne-prone skin reports the cleanser cleans effectively while leaving skin dewy rather than greasy."
+ },
+ "concerns": {
+  "aging": "Reviewers with aging or mature skin generally report the gel leaves skin smooth, soft and hydrated without dryness; one mature reviewer also notes it gently exfoliates for a smoother finish.",
+  "dehydration": "Most reviewers with dry skin report no stripping or tightness and describe skin as moist, soft or hydrated after use; a minority report increased dryness or tightness that led them to discontinue.",
+  "redness": "Reviewers with rosacea or reactive skin mostly report the cleanser calms or does not trigger flare-ups, but one reviewer reports increased redness and breakouts after starting to use it.",
+  "barrier": "Reviewers focused on barrier comfort report the gel does not leave a tight or stripped feeling, describing skin as clean but not dehydrated; one reviewer's skin felt drier than before after continued use.",
+  "blemishes": "One reviewer reports her skin stayed clear and unaffected by breakouts; another reports new breakouts alongside redness when starting the product.",
+  "oiliness": "Reviewers note the cleanser removes oil and makeup without leaving a greasy or oily film on the skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Light gel-to-foam texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rinses off easily, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Heavy glass bottle and pump",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, good value per bottle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Essential-oil fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Doesn't fully remove waterproof makeup or sunscreen alone",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Higher price point",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Kelly P.",
+   "titre": "Not good for my sensitive skin",
+   "texte": "Soft, cushiony, gently foaming, effective for part 2 of a deeper cleanse or on its own on humid mornings as a skin degreaser. Used alone at night, this cleansing gel does not completely remove non-waterproof makeup. I wonder if it's removing my mineral sunscreen, and it leaves my sensitive skin feeling tight. I had hoped to change my skincare completely over to RMS Beauty. But I prefer my skincare to contain no added fragrance, and this cleanser is loaded with scented essential oils. Unfortunately EOs can make my skin hyper sensitive over time (itching, burning, redness, rosacea flush).",
+   "date": "2025-11-05",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Christina M.",
+   "titre": "Causeing redness",
+   "texte": "I bought this three weeks ago to work with my coconut cleansing balm that i love & have been using for a year. So I wanted to try the double cleansing routine, but ever since I started using it my face has been more red and breaking out. So I gave it a little time to see if maybe it was just cleaning out my pores. But my skin feels drier now than ever. Just wondering if anyone else has had this issue with this cleaners?",
+   "date": "2026-04-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cathy G.",
+   "titre": "I love this product. I",
+   "texte": "I love this product. I have rosacea and struggle fining cleansers that don't irritate and add to additional breakouts. This is the first cleanser I've used for an extended time without a flare. I will continue this forever! Thank you for this wonderful product!",
+   "date": "2025-10-21",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katie",
+   "titre": "Good to the last drop!",
+   "texte": "I have tried every different type and kind of cleanser under the sun, but I felt like I would never find one that would make my unbearably, uncomfortably dry skin feel good. The experience starts with an absolutely gorgeous glass bottle, tinted with blue, and a white cap that makes you feel like you're sitting next to the ocean. It has a very light and pleasant scent. It dispenses with ease and has the perfect amount of slip in it, so it feels fantastic when you are applying it, and it creates a really nice foam, which I need. It leaves my skin feeling completely clean, but not stripped and dehydrated. I just finished my first bottle, and I used it so far down that I ended up shaking out the last bit of it like an old ketchup bottle to get every last drop. This will be my cleanser for life.",
+   "date": "2026-03-03",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Susan B.",
+   "titre": "A new favorite cleanser!",
+   "texte": "Love this cleanser! I have sensitive skin, and this makes it feel soft and silky without being greasy. This has a nicely muted citrusy scent. Even though I have mature skin, it can be acne prone. This cleanser cleans effectively while leaving my skin dewy.",
+   "date": "2026-05-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amy L.",
+   "titre": "Does what it says but made my skin very dry",
+   "texte": "Really wanted to love this since I love my RMS makeup but unfortunately this caused my skin to become very dry and tight after a few days use. Had to discontinue. Product had a nice fragrance, good lather, took my make up off easily and completely. Really wished it would have worked for me. Guessing I'm just very sensitive to an ingredient in the formula.",
+   "date": "2025-11-05",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Janet C.",
+   "titre": "Great cleansing gel with out drying out your skin.",
+   "texte": "I am at the end of my second cleansing gel and purchased a third that is in the wings. Because I live in the desert it is hot in the summer and windy the whole year. This gel after the cleansing balm is perfect for my mature 71 year old dry skin.",
+   "date": "2025-12-10",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

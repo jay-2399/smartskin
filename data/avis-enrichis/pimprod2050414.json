@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2050414",
+ "asin": null,
+ "pid": "pimprod2050414",
+ "source": "ulta",
+ "nom": "The Ordinary GF 15% Serum for Visible Skin Repair and Wrinkles",
+ "note": 4.6,
+ "nbAvis": 141,
+ "lus": 79,
+ "collectes": 121,
+ "segments": {
+  "dry": "Dry-skin reviewers report the serum absorbs without heaviness and improves hydration and elasticity over time, though one reviewer's skin became very dry and flaky after a week of use.",
+  "combination": "Combination-skin reviewers (including combo-oily and combo-dry) report smoother, plumper, more hydrated skin, though one with combo-oily skin saw little change after 10 days.",
+  "sensitive": "Sensitive-skin reviewers report the formula is gentle, lightweight and non-irritating, with one describing improved skin barrier and no sensitivity despite past reactions to growth factors.",
+  "mature": "Mature-skin reviewers (frequently in their 40s-50s+) are the most numerous and consistently report softened fine lines, reduced sagging/jowls and marionette lines, a brighter or plumper look, though one 52-year-old saw healthier skin but no change in fine lines and one found only slight softening after 10 weeks."
+ },
+ "concerns": {
+  "aging": "The large majority of reviewers using this for aging report visibly softened fine lines, reduced dynamic wrinkles, less sagging around the jaw and marionette lines, and a firmer, more elastic look, often noticeable within two to four weeks; a minority report no visible change in lines despite consistent use (one after one bottle, one after 13 weeks) or say it is too early to tell.",
+  "dehydration": "Most reviewers describe the serum as hydrating, watery yet absorbed quickly, leaving skin plumper and smoother; one reviewer states the serum does not provide enough hydration on its own and needed a heavier moisturizer alongside it, and another had their skin become dry and flaky.",
+  "redness": "One reviewer reports a severe reaction with swollen, itchy, scabbed, red eyes after about two months of use, and another reports redness with breakouts; no other reviewers mention redness.",
+  "barrier": "Reviewers using it for barrier concerns report improvement, describing their skin as more resilient and describing the moisture barrier as being in better shape after consistent use.",
+  "spots": "Several reviewers report fading or lightening of dark spots and dark marks over weeks of use, with improved, more even skin tone frequently mentioned alongside this.",
+  "blemishes": "Reports are mixed: some describe the serum keeping acne at bay and helping acne scars, while others report new breakouts, cystic-type under-skin bumps/texture on the forehead, or worsened acne alongside oiliness.",
+  "oiliness": "One reviewer reports the serum made their skin very oily throughout the day and led to breakouts; no other reviewers describe oiliness as an effect."
+ },
+ "aspects": [
+  {
+   "libelle": "Watery, lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly, non-greasy",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable relative to results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dropper packaging not ideal",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging lacks tamper-evidence seal",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight tacky feel on layering",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Severe eye reaction after weeks of use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jordan",
+   "titre": "be CAREFUL",
+   "texte": "i used this product for over a month with no issues and was definitely seeing some results UNTIL… one morning i woke up with my eyes swollen, itchy, scabbed over, red. it was so painful and lasted weeks since i didnt realize it was this product, i had been using it for almost two months. it has taken awhile for my skin to recover. do not recommend",
+   "date": "2025-06-15",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Alexa",
+   "titre": "Makes my skin oily and breaks me out",
+   "texte": "I'm on my second bottle, I really like this product. My skin feels smoother and looks brighter. However, it makes my skin very oily throughout the day and I end up breaking out.",
+   "date": "2025-07-26",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "CJ",
+   "titre": "Dried out my skin",
+   "texte": "I liked the feel of the product and I used it for a week and my skin became very dry and flaky. I don't think it is a bad product but it just wasn't right for my skin. I switched to the Hyaluronic Acid and had much better results.",
+   "date": "2026-07-13",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Autumn",
+   "titre": "Great for I",
+   "texte": "Combination/sensitive skin. I wanted to try this serum to improve my skin barrier, fine lines, and uneven texture. I've used it morning & night for 10 days now & can already see a noticeable difference in the overall texture of my skin! My skin barrier has definitely improved as well. have not noticed any difference in the fine lines but I hope that with continued use, those will improve as well.",
+   "date": "2025-02-26",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shay",
+   "titre": "One of their best",
+   "texte": "This genuinely truly is one of their best products. I've been using this for about 3 months now and have had great results. Im 48, and started taking my skincare more seriously in the last 5 years, so my skins not terrible but seeing small signs of aging. This made my fine lines and wrinkles definitely softer, skin texture feels more dense or springy, and I've had several people say my skin looks great and \"I just have a glow\" I would highly recommend! I work in a med spa with a medical provider and recommend this almost daily over medical grade products.",
+   "date": "2025-06-29",
+   "verifie": false,
+   "utiles": 38,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kelly",
+   "titre": "Permanent staple in my skincare routine",
+   "texte": "As someone with mature, dry skin, I'm always looking for effective, science-backed anti-aging solutions. This has a watery lightweight texture and absorbs nicely into my skin without leaving a heavy or sticky residue which makes it easy and enjoyable to apply. I did not see an immediate difference but noticed more when I consistently layered it with other The Ordinary skincare products. After a few weeks, I saw that my skin felt more hydrated, had better skin elasticity, and boosted my skin barrier. I love how affordable it is and look forward to seeing more results applying this long-term. Gifted by The Ordinary for my honest review.",
+   "date": "2025-03-07",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Audrey",
+   "titre": "Caused Forehead Texture",
+   "texte": "I wanted so badly to have amazing results with this product - so many raving reviews!! Unfortunately, the only difference this made for my skin is new texture on my forehead - those little under the skin bumps you can't extract. I was dedicated and tried the whole bottle which took a little over one month, hoping the texture would subside or my skin would adjust or these amazing benefits everyone was raving about were just around the corner, but nope, just texture :/ I'm hoping it will clear up okay now that I've finished the bottle and will NOT be repurchasing.",
+   "date": "2025-06-20",
+   "verifie": false,
+   "utiles": 16,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

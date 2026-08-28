@@ -1,0 +1,155 @@
+{
+ "ref": "pimprod2045306",
+ "asin": null,
+ "pid": "pimprod2045306",
+ "source": "ulta",
+ "nom": "Hero Cosmetics Bright Eyes Illuminating Eye Cream",
+ "note": 2.22,
+ "nbAvis": 18,
+ "lus": 15,
+ "collectes": 15,
+ "segments": {
+  "oily": "One reviewer with oily skin reports the product blends easily, dries fast and is brightening, with no negative effects mentioned.",
+  "sensitive": "One reviewer describes a family member's sensitive skin as showing no reactions to the cream.",
+  "dry": "Several reviewers report the cream is drying or dries out their skin, with one explicitly saying it dried out already-dry skin."
+ },
+ "concerns": {
+  "dehydration": "Multiple reviewers report the cream is drying or leaves a white residue as it dries; one reviewer says it actively dried out their skin, though others report no dryness at all.",
+  "barrier": "One reviewer reports the product peels off the skin once makeup or sunscreen is applied over it, despite trying for almost a month."
+ },
+ "aspects": [
+  {
+   "libelle": "Mold growing in applicator",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible brightening effect",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, fast-blending texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "White residue on darker skin tones",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Peels when layered with makeup or sunscreen",
+   "polarite": "neg",
+   "concerne": [
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Attractive packaging seen as overselling",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting wear without creasing",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "????",
+   "titre": "Nothing special",
+   "texte": "I didn't see or feel anything special, kinda drying and no brightening .",
+   "date": "2024-06-09",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Melanie",
+   "titre": "Not effective on darker complexions",
+   "texte": "I noticed after using this cream for quite some time that it dries with a white residue left over. And then it just looks like I put on under eye concealer that was not my shade at all. Not a fan. Do not recommended for anyone to be honest.",
+   "date": "2025-01-07",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "nicnac",
+   "titre": "mold",
+   "texte": "the applicator grew mold on it after only less than a week use. I kept is in a clean and dry environment so idk why it did that. the formula also isn't special. it actually dried out my skin.",
+   "date": "2025-06-07",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Alexandra C.",
+   "titre": "It peels off.",
+   "texte": "This is my first time ever writing a review on ulta and I've been a customer of Ulta since I could remember. I don't really like writing reviews but this product not adequate. I have tried it for almost a month now everyday trying to figure out a way to stop it from peeling on my skin once i add makeup or even sunscreen but it peels no matter what.",
+   "date": "2026-02-20",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Moose",
+   "titre": "This is amazing!!!!",
+   "texte": "I cant say enough good things about this. This goes on really smooth and the applicator is really nice. It is a little messy but this stuff dries so fast and blends out really easily. I have oily skin and it also is very brightening.",
+   "date": "2024-06-02",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "oily",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Becca",
+   "titre": "Works",
+   "texte": "I got this for my daughter because she has darker shadows under her eyes. I noticed a difference and she loves it. She has sensitive skin and caused no reactions.",
+   "date": "2024-10-16",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "DD",
+   "titre": "Absolutely love",
+   "texte": "This is one of my favorite eye creams for brightening my under eyes with a subtle tint. It lasts all day with no weird creasing or flaking. Definitely recommend this to anyone!",
+   "date": "2025-01-21",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": "The sample is small and skewed toward mold and packaging complaints, so conclusions about skin-type-specific efficacy remain thin."
+}

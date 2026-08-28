@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2043935",
+ "asin": null,
+ "pid": "pimprod2043935",
+ "source": "ulta",
+ "nom": "Clarins One-Step Gentle Exfoliating Cleanser",
+ "note": 4.42,
+ "nbAvis": 2579,
+ "lus": 66,
+ "collectes": 116,
+ "segments": {
+  "dry": "Reviewers with dry skin describe the cleanser as gentle and non-drying, saying it leaves skin soft or hydrated without stripping it, though one reviewer with dry skin reports it dries her skin too much.",
+  "sensitive": "Reviewers with sensitive skin, including one describing 'super sensitive' skin, report no irritation and a gentle, comfortable feel, with one noting a boyfriend with 'even more sensitive skin' also tolerates it well.",
+  "mature": "Reviewers in their 40s to 70s, some explicitly mentioning menopause or aging skin, describe the product as gentle enough for regular use and credit it with smoother, brighter, or clearer skin over years of use."
+ },
+ "concerns": {
+  "aging": "Reviewers using the product in their 60s and 70s report smoother skin and a brighter, more youthful look with regular use; no reviewer reports the product worsening signs of aging.",
+  "dehydration": "Most reviewers say the cleanser does not dry out or strip their skin, even describing it as moisturizing or hydrating; one reviewer reports it dries her skin too much and stopped repurchasing for that reason.",
+  "redness": "One reviewer with sensitive skin reports no irritation despite very sensitive skin, and another mentions no reaction at all; no reviewer reports increased redness.",
+  "barrier": "Reviewers describe the cleanser as non-stripping and gentle, with several noting skin feels clean without a tight or compromised feeling afterward.",
+  "spots": "One reviewer credits the product with keeping her from menopausal breakouts, and another uses it on the nose to clear blackheads; no other spot-specific outcomes are mentioned.",
+  "blemishes": "One reviewer states the product does not make her break out despite dry skin; no other reviewer discusses blemishes directly.",
+  "oiliness": "One reviewer with dry skin notes the product does not leave her feeling oily; oily-skin-specific reports are otherwise absent."
+ },
+ "aspects": [
+  {
+   "libelle": "Gentle exfoliating texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin clean and soft",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reformulation lacks original orange scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, concentrated formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Exfoliating beads too coarse or gritty",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "muimui",
+   "titre": "Dries up my skin",
+   "texte": "Purchased a few by mistake thinking it was the original one with orange extract. It dries up my skin too much so I will not be buying again.",
+   "date": "2026-02-14",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "bridgett12_115",
+   "titre": "Good for sensitive skin",
+   "texte": "this product felt very nice on my sensitive skin. It was gentle yet exfoliating made my skin feel very clean after and it wasn't over drying I didn't leave any weird greasy feeling on my skin and it was easy to rinse off.",
+   "date": "2025-12-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "allison in NY",
+   "titre": "Gentle Exfoliating Cleanser",
+   "texte": "I have been using this exfoliating cleanser as part of my skin routine for years. I absolutely love it! I choose to use this 3 days a week, opposite the gentle cream cleanser. I tend to have very sensitive and dry skin - this cleanser is very gentle and feels like what the estheticians use at the spa! Plus the smell is divine. It is an absolutely must have for me!",
+   "date": "2026-06-19",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Blingqueen",
+   "titre": "Best",
+   "texte": "I have used one step gentle exfoliating cleanser for years. I've tried others. Nothing really compares. It has kept me from menopausal breakouts . My 64 year old skin clean and healthy no matter what kind of weather and temperature changes I come across.",
+   "date": "2025-11-24",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SMad",
+   "titre": "Great Gentle Exfoliating Cleanser",
+   "texte": "I just started to get into Clarins, and I love this cleanser! I'm almost in my 40s with dry skin, and this cleanser is very gentle. The beads are soft for a light exfoliation but the cleanser took off ALL my makeup after softly rubbing it around my face for a minute. I will definitely be repurchasing! Xo",
+   "date": "2026-07-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jbnp",
+   "titre": "A great gentle exfoliating cleanser!",
+   "texte": "I use this exfoliating cleanser once a week, it is very gentle. I don't feel like it makes me break out, stripping my skin or it is oily. I have dry skin and my skin has looked much better with using Clarins products.",
+   "date": "2026-04-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LakennaT",
+   "titre": "Smoothing",
+   "texte": "I love this product so much. It exfoliates my dead skin easily and quickly and doesn't irritate my super sensitive skin! My face is so smooth after using.",
+   "date": "2026-05-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

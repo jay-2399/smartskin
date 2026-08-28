@@ -1,0 +1,161 @@
+{
+ "ref": "pimprod2040557",
+ "asin": null,
+ "pid": "pimprod2040557",
+ "source": "ulta",
+ "nom": "OSEA Seaglow Resurfacing Face Scrub",
+ "note": 4.72,
+ "nbAvis": 173,
+ "lus": 79,
+ "collectes": 101,
+ "segments": {
+  "sensitive": "Multiple reviewers with sensitive, highly sensitive, or sensitive-combination skin report the scrub does not burn, irritate, or leave redness, several noting it is the only exfoliant they can tolerate on the face, though one sensitive-skin user still had an allergic reaction with swelling and rash.",
+  "combination": "One reviewer with sensitive combination skin reports a noticeably different skin texture after just one use, with no abrasiveness or dryness.",
+  "mature": "Reviewers identifying mature skin report the scrub removes daily sunscreen buildup and leaves skin clean and moisturized without harshness.",
+  "dry": "Reviewers with dry or dry-winter skin say the scrub removes flaky, dry skin and leaves the face soft and moisturized rather than tight or stripped."
+ },
+ "concerns": {
+  "aging": "Reviewers describing mature skin report a gentle, non-harsh clean with a smooth, glowing result after removing sunscreen or daily buildup.",
+  "dehydration": "Several reviewers say the scrub leaves skin hydrated, plump, or moisturized rather than dry or tight; one reviewer with dry environmental conditions used it to manage flaky skin, and none report increased dryness.",
+  "redness": "Reviewers prone to irritation from other scrubs say this one leaves skin without redness or irritation, though one reviewer experienced a rash and swollen eyes lasting several days.",
+  "barrier": "One reviewer specifically notes the scrub exfoliates while leaving the skin barrier intact, with skin feeling supple and hydrated afterward; another reports tiny cuts and no smoothing benefit.",
+  "spots": "One reviewer credits the scrub with clearing whiteheads and achieving clear skin; another reports a few breakouts the day after use.",
+  "blemishes": "One reviewer uses it specifically when starting to break out and finds it refreshing and clarifying; a different reviewer reports new breakouts after use.",
+  "oiliness": "One reviewer notes the scrub reduced pore size and left skin smooth, but oiliness itself is not directly discussed by others."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaves skin soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or unpleasant scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, mild fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Jar underfilled for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, a little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Low grit, too mild to exfoliate",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Excess foaming during use",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Cali0503",
+   "titre": "Allergic reaction",
+   "texte": "Caused an allergic reaction that lasted 3-4 dats....swollen eyes abd rash all over the face. I had to get hydrocortisone cream to make the rash go away which was super painful and itchy!",
+   "date": "2024-07-13",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kiki",
+   "titre": "I returned the product.",
+   "texte": "I had been using a cloth to exfoliate and that is what my comparison is based on. This is a good coverage scrub in that every move you can feel a lot of scrub with just a little product. I didn't feel that it was doing anything for me though. My skin didn't feel any smoother and the next day I had a few breakouts. So it exfoliates, but somehow not like a cloth would all while leave tiny cuts.",
+   "date": "2024-02-27",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Katie Smart",
+   "titre": "Seaglow",
+   "texte": "I received this product today and genuinely enjoyed using it. I have sensitive skin, and it didn't burn or irritate me at all, it actually felt refreshing. However, I was disappointed to find that the container was missing a significant amount of product, especially considering the price.",
+   "date": "2026-05-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stephanie S.",
+   "titre": "Fresh Skin",
+   "texte": "Wow, the texture of my skin was noticeably different after one use. I have very sensitive combination skin. I didnt find this to be too abrasive or drying. Love having this in my weekly skincare routine!",
+   "date": "2025-04-10",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tammy",
+   "titre": "Perfect for mature skin",
+   "texte": "I love this scrub. Its not harsh its the perfect for sensitive skin. Ive tried many scrubs which always left my skin red and irritated. This is gentle with just the right amount of exfoliation.",
+   "date": "2026-04-24",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristen M",
+   "titre": "Great facial scrub",
+   "texte": "I'm new to Osea and am loving this, along with all the products! My teen daughter really likes this as well. It's not drying!! My skin feels soft and plump, not dry and tight. It's really refreshing. I'm not red or irritated and I'm pretty sensitive. It works great for me.",
+   "date": "2024-09-14",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Patricia H.",
+   "titre": "Love it!",
+   "texte": "Im in the sun 4-6 hours per day for work and my face is coated with sunscreen. This scrub gently removes the many layers and leaves my mature skin feeling clean and moisturized.",
+   "date": "2025-05-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,147 @@
+{
+ "ref": "pimprod2059029",
+ "asin": null,
+ "pid": "pimprod2059029",
+ "source": "ulta",
+ "nom": "La Roche-Posay Anthelios UVAir Mineral Serum Sunscreen SPF 50",
+ "note": 4.88,
+ "nbAvis": 8,
+ "lus": 8,
+ "collectes": 8,
+ "segments": {
+  "sensitive": "Sensitive-skin and sensitive-eyed reviewers report this sunscreen does not sting or burn the eyes and has little to no noticeable fragrance.",
+  "dry": "One reviewer notes it functions as a moisturising sunscreen thanks to added niacinamide and glycerin, calling it excellent for eczema-prone skin."
+ },
+ "concerns": {
+  "redness": "A reviewer with eczema reports the added niacinamide and glycerin help soothe and moisturise irritated skin, calling it excellent for eczema-prone skin.",
+  "barrier": "The one reviewer mentioning eczema describes the formula as helpful for a compromised, reactive barrier, crediting the niacinamide and glycerin content."
+ },
+ "aspects": [
+  {
+   "libelle": "No white cast on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Does not sting or burn eyes",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Blends easily, works under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Matte, non-oily finish",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Wish for higher SPF and waterproof option",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Shawn",
+   "titre": "Finally a product that doesn't burn my eyes f",
+   "texte": "Phenomenal product even better with the added niacinamide and glycerin to help improve the product as a moisturising sunscreen. Definitely recommended over the alternative mineral sunscreen LaRoche Posay offers. Excellent for Eczema skin",
+   "date": "2026-06-18",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erinshell21",
+   "titre": "Love this",
+   "texte": "This is the best face sunscreen I've ever used. It's not oily, it doesnt make you face white and is goes on smoothly and absorbs right in. There is not a gross smell nor is it overly perfumed. I honesly did not even notice a scent and I am very sensitive.",
+   "date": "2026-07-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley",
+   "titre": "Great sunscreen",
+   "texte": "This is a very good lightweight sunscreen. Doesn't burn my eyes, and my eyes can be very sensitive. Leaves no white cast on me.",
+   "date": "2026-07-08",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "McFif",
+   "titre": "Best sunscreen I have used in my face ever!",
+   "texte": "I have very sensitive eyes which means that no matter how careful i am or how far i keep it away from my eyes, sundcreen always migrates into my eyes and they become lightsensitive and burn for the rest if the day. This has ruined countless adventures and days out and about. I have wasted so much money on sunblock over the years that i either can't use or is useable but still burns my eyes. Historically, when i have tried mineral sunscreens they are thick and impossible to rub in without leaving behind white splotches or casting a weird white color over my face. I saw this was a mineral sunscreen with good reviews and while pricy, i liked the smaller size. This sunscreen is so beautifully thin and doesn't burn my eyes at all, even when i'm sweaty!!! AND it rubs in so well never leaving white behind! I used to only minimally use sunscreen on my face and avoid reapplying but now this is my go to facial sunsreen that i want to use and not avoid. Its worth every penny! I would like to see hogher SPF and waterproof options. Please excuse any typos i missed as i am on moblie.",
+   "date": "2026-07-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Shell05",
+   "titre": "Perfect for summer, no white cast, easy to blend, non greasy",
+   "texte": "I gave tan indian skin tone , i am loving this sunscreen. Great as primer under makeup too. Wearing this every day.",
+   "date": "2026-08-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Austin",
+   "titre": "Great product!",
+   "texte": "Love this sunscreen!! Ive only used it twice but as someone with facial hair, this is truly invisible once blended! Price point is a little high for the regular price but I would highly recommend this for anyone wsnting to use a mineral sunscreen!",
+   "date": "2026-07-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Amy",
+   "titre": "Great mineral sunscren",
+   "texte": "You cannot go wrong with Laroche Posay anything. So, when I saw this new serum sunscreen I had to get it. It does go on really well. Almost reminded me of a korean sunscreen. Its very light and doesn't sting my eyes. It does dry down matte like any mineral sunscreen. I really like this and will repurchase.",
+   "date": "2026-06-03",
+   "verifie": false,
+   "utiles": 31,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": "Only 8 reviews are available and just one mentions a specific skin concern (eczema/redness), so segment and concern coverage beyond sensitive skin and eye comfort is thin."
+}

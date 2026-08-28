@@ -1,0 +1,128 @@
+{
+ "ref": "pimprod2055823",
+ "asin": null,
+ "pid": "pimprod2055823",
+ "source": "ulta",
+ "nom": "Mixsoon PDRN Collagen Hydrating Eye Cream Serum",
+ "note": 4.4,
+ "nbAvis": 5,
+ "lus": 5,
+ "collectes": 5,
+ "segments": {
+  "mature": "One reviewer nearing 60 reports a visible smoothing/firming effect and says concealer no longer creases or looks dry once set.",
+  "normal": "One reviewer notes that those with normal, not very dry skin will likely find it moisturizing, unlike her own drier under-eye area."
+ },
+ "concerns": {
+  "aging": "Three reviewers report reduced fine lines, firmer skin, and concealer no longer settling into creases after three weeks to over a month of use; one reviewer saw no line-smoothing benefit after a month.",
+  "dehydration": "Most reviewers describe the under-eye area as plumper, softer, and well hydrated, but one with notably dry under-eyes found it only mid-level moisturizing and considered layering a balm on top."
+ },
+ "aspects": [
+  {
+   "libelle": "Silky lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Plumping and smoothing feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Helps concealer sit without creasing",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "No fragrance or irritation",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value for tube size",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Insufficient hydration for very dry under-eyes",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Courtney",
+   "titre": "It's an okay eye cream",
+   "texte": "Meh. I had high hopes that this would be rather moisturizing as my under eye area has been quite dry despite focusing on internal hydration and products for the skin for hydration, but I'd say its a mid product at best. If your skin is normal and not all that dry, this will absolutely feel moisturizing for you. I have not noticed any line smoothing benefits either after a month of consistent use. Maybe over time it will be more effective, but so far I'm not overly impressed. I'm actually considering a second under eye balm to layer over top of this. I can't return as I'm past the 30 days so I'll use this up (and it will last FOREVER). Price point for the amount in the tube is quite fabulous though. I will give them that!",
+   "date": "2026-06-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Beth",
+   "titre": "Great for Mature under eyes!",
+   "texte": "I've been using this daily for over a month. You only need a small, pea amount to do both eyes. Although I admit, after a diy facial or dermaplaning, a like to slather it on for a good dose of hydration! There is a visable smoothing/firming difference. Concealer no longer creases or appears dry once it sets. I'll be 60 this year!",
+   "date": "2026-03-19",
+   "verifie": false,
+   "utiles": 28,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Wendy",
+   "titre": "Superb Formula for Hydration",
+   "texte": "This is an elegant, silky under eye cream. It smoothes over my under eyes and leaves it plump and soft. There's no heavy fragrance, and it hasn't caused any irritation. This feels like an expensive treat at a drug store price.",
+   "date": "2025-12-21",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer",
+   "titre": "This product is a game changer",
+   "texte": "So soft and silky going on. I have been using for 3 weeks and have seen a reduction in fine lines around my eyes and leaves the skin feeing so soft and smooth. This is in my forever daily routine. Love it!",
+   "date": "2025-12-31",
+   "verifie": false,
+   "utiles": 17,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary",
+   "titre": "This Works!",
+   "texte": "I purchased this to try to replace a more expensive eye cream. The price was right, it had PDRN and good reviews, so I took a chance. My eye area is firmer and more moisturized, and my concealer doesn't settle into the fine lines under my eyes anymore. Very impressed.",
+   "date": "2026-04-17",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "Only five reviews are available, so segment and concern coverage is limited, especially for oily, combination, spots, blemishes, redness, barrier and oiliness, which are not addressed at all."
+}

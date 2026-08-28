@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2059245",
+ "asin": null,
+ "pid": "pimprod2059245",
+ "source": "ulta",
+ "nom": "Personal Day Everybody Stay Calm Recovery Mask",
+ "note": 4.81,
+ "nbAvis": 72,
+ "lus": 66,
+ "collectes": 66,
+ "segments": {
+  "oily": "Reviewers with oily skin report the mask leaves skin soft without adding shine, helps balance oiliness alongside BHA/benzoyl peroxide routines, and does not worsen breakouts.",
+  "dry": "Reviewers with dry skin describe the mask as hydrating and restorative, reviving flaky or dehydrated skin, though one found it not hydrating enough to notice a difference.",
+  "combination": "One reviewer with combination, acne-prone skin reports it combats redness and dryness from seasonal changes.",
+  "sensitive": "Reviewers with sensitive or reactive skin most often describe it as calming and non-irritating, soothing redness and reactions, though a couple report warmth, tingling, itchiness, or a burning sensation on application.",
+  "mature": "No reviews specifically describe mature skin."
+ },
+ "concerns": {
+  "aging": "No reviewer discusses aging specifically; comments focus on texture and glow rather than fine lines or firmness.",
+  "dehydration": "Most reviewers report the mask meaningfully hydrates dry or flaky skin and revives tight, dehydrated skin overnight; one reviewer found it left skin drier and not soothed.",
+  "redness": "The majority of reviewers citing redness report it visibly calms and reduces redness, including after peels, breakouts, eczema, or reactions; no dissent noted on this point.",
+  "barrier": "One reviewer with a fine barrier reports the product burned on application and left skin drier; another with eczema reports it eased pain and itchiness without worsening flaking.",
+  "spots": "Reviewers using it after acne treatments or peels report smaller, calmer blemishes over time and reduced breakout-related redness; one notes possible purging with more breakouts the next day before improvement.",
+  "blemishes": "Several acne-prone reviewers report the mask soothes active pimples and does not cause new breakouts; one long-time acne sufferer highlights it calms active spots specifically.",
+  "oiliness": "A small number of reviewers with oily skin report it controls oiliness and leaves skin soft rather than shiny."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling or tingling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Soft, smooth skin after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to product amount",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pairs well with resurfacing peel routine",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or itching on first use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Container feels underfilled for box size",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Hannah",
+   "titre": "Irritated My Skin",
+   "texte": "This unfortunately made my face feel warm upon first use which is never a good sign. My jaw was slightly itchy after so something in this product im sensitive too. Im assuming its one of the acids :( I had to return. If u want a calming mask check out Lush \" catastrophe cosmetic\", its my holy grail",
+   "date": "2026-08-16",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Holly",
+   "titre": "Burned upon application",
+   "texte": "I am not going through any skin concers at the moment (barrier is fine) but this products burned for a moment upon application. It also left my skin drier despite not having any majot actives and exfoliants. It did not fee like it left my skin soothed.",
+   "date": "2026-02-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "normal",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Justin R.",
+   "titre": "Excellent",
+   "texte": "I love this mask. I have very oily skin and am acne-prone. So a fair amount of BHAs and Benzoyl Peroxide are a part of my routine. This has been the perfect add to help re-balance and quench my skin while still letting the harsher actives do their thing. Often, masks like these leave me too shiny. This one is perfect.",
+   "date": "2025-06-25",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SJA",
+   "titre": "Mind blown!",
+   "texte": "I have tried every product under the sun from prescription to high end skincare products and this mask exceeded my expectations! I have severe eczema, redness and irritation from breakouts and this literally calmed my entire face overnight. I will forever keep this mask as part of my skincare routine.",
+   "date": "2025-04-15",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Suzanne D.",
+   "titre": "Great Mask",
+   "texte": "I have about 50 different wash-off masks, but I reach for this one the most often now. It's soothing and helps with any redness and any irritation from a breakout that I have. I have dry skin and this mask is hydrating enough that I can use it a few days a week.",
+   "date": "2025-04-25",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lana S.",
+   "titre": "Ultra Soothing",
+   "texte": "I like to apply it right after I get out of the shower and it makes my skin so calm and smooth. I have combination acne prone skin and this has helped combat the redness and dryness that comes with the change in seasons.",
+   "date": "2025-03-02",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Francesca P.",
+   "titre": "Good for dry skin",
+   "texte": "I have dry skin and blackheads, so this is a mask for after I do an exfoliation treatment. It soothes how sensitive my skin feels after the resurfacing peel.",
+   "date": "2026-06-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

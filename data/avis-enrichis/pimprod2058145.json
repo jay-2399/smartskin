@@ -1,0 +1,133 @@
+{
+ "ref": "pimprod2058145",
+ "asin": null,
+ "pid": "pimprod2058145",
+ "source": "ulta",
+ "nom": "Dr. Melaxin Calcium Dark Spot Cover Eye Cream",
+ "note": 4,
+ "nbAvis": 6,
+ "lus": 6,
+ "collectes": 6,
+ "segments": {},
+ "concerns": {
+  "aging": "One reviewer credits the eye cream with helping wrinkles alongside dark circles, though this is a single mention with no detail on how the change was assessed.",
+  "spots": "Reviewers use this product mainly for dark circles/dark spots under the eyes: several report immediate, visible coverage and brightening, but one reports no notable change after two months of use."
+ },
+ "aspects": [
+  {
+   "libelle": "Brightens and covers dark circles",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Creamy, blends out effortlessly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Very drying, can crease",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tacky residue under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible results over time",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Maryanne",
+   "titre": "I've not seen any notable change.",
+   "texte": "I purchased hoping for some results. I've used it for over 2 months and have not seen any changes. Little disappointed",
+   "date": "2026-08-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Destiny",
+   "titre": "Depends on what you're going for",
+   "texte": "It really does brighten the undereye. Its not perfect but it covers a good anount if darkness. However, i dont love how it layers with my skincare and makeup. I apply undereye serum and primer before this product and it leaves a weird tacky residue when i try to blend my skin tint on top. I dont even use concealer or anything heavy. I even used the tiniest amount of this product under my eyes and not willing to give up my undereye product… even if this advertises as \"skincare\" at the end if the day its still also makeup. Im not sure about long term results for this. This product would likely be best for someone who doesnt wear makeup everyday and only uses this and skincare",
+   "date": "2026-08-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "leyda",
+   "titre": "pretty good",
+   "texte": "i have only used this a few weeks but im liking it so far ! its so good for those \"no makeup\" days,even though its still technically makeup due to the pigment. very brigthening and makes your eyes pop. i would reccomend pairing it with a very hydrating undereye cream because its veryyyy DRY and can crease.",
+   "date": "2026-08-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cassie",
+   "titre": "Absolutely love ❤️",
+   "texte": "I'm on my third bottle!!! I absolutely love this eye cream for dark circles and wrinkles!! Highly recommend!!!!",
+   "date": "2026-05-03",
+   "verifie": false,
+   "utiles": 20,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "sam",
+   "titre": "MUST BUY !!!!!",
+   "texte": "i have had dark and puffy undereyes my entire life. i have tried evert product under the sun, and was even considering cosmetic surgery to fix them. this product has changed EVERYTHING for me. a small amount goes a long way, and covers all dark circles and LASTS all day long. i am insanely impressed and will never use another undereye product again - the search is over!! sam",
+   "date": "2026-07-31",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Summer",
+   "titre": "Love this Eye Cream!!",
+   "texte": "I just purchased this product on TikTok and I'm already absolutely in love with it!! It's so creamy, blends out effortlessly, and covers my dark circles instantly without feeling heavy. The finish is smooth and looks so natural. I can't say yet how it wears under makeup since I don't wear makeup very often, but based on how beautiful it looks on its own, I'm sure it would look amazing. Definitely a new favorite!",
+   "date": "2026-07-16",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": "The six reviews rarely state the reviewer's skin type, so segmentation by skin type could not be produced, and conclusions on concerns rely on very few mentions each."
+}

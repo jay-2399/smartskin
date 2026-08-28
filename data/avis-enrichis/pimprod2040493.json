@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2040493",
+ "asin": null,
+ "pid": "pimprod2040493",
+ "source": "ulta",
+ "nom": "Lancôme Rénergie H.P.N. 300-Peptide Anti-Aging Cream SPF 25",
+ "note": 4.56,
+ "nbAvis": 1121,
+ "lus": 80,
+ "collectes": 120,
+ "segments": {
+  "oily": "One reviewer with oily skin says the cream leaves her face shiny and prefers this brand's night cream instead; another with combination-oily skin reports it moisturizes without making her oily.",
+  "dry": "A reviewer with extremely dry skin reports a noticeable increase in hydration, and another describes her skin as feeling soothed and less thirsty.",
+  "combination": "Reviewers with combination skin report it is light and gentle but note little visible improvement in texture, and several find it too heavy or breakout-inducing in warm weather while others say it absorbs well and hydrates without residue.",
+  "sensitive": "Reviewers with sensitive skin are split: several with sensitive or rosacea-prone skin report no burning, redness or irritation, while others react to the fragrance with itchiness or discomfort or avoid it because of scent.",
+  "mature": "Reviewers who mention being in their 50s or 60s and dealing with mature-skin concerns report firmer, more youthful-looking skin and reduced sagging or fine lines with continued use."
+ },
+ "concerns": {
+  "aging": "Many reviewers report softer or less visible fine lines and wrinkles, firmer texture, and a more youthful look after two to three weeks; a few see no change in wrinkles or dark spots even after regular use.",
+  "dehydration": "Most reviewers describe the cream as hydrating, plumping and non-drying, including one with extremely dry skin; one reviewer felt the SPF version was less moisturizing than the non-SPF formula.",
+  "redness": "Reviewers with rosacea report no flare-ups, burning or redness from this SPF cream, and one notes improvement in overall redness and skin tone evenness.",
+  "barrier": "One reviewer describes the cream as removing dry patches and restoring smooth, vibrant skin; no barrier-damage complaints appear.",
+  "spots": "Several reviewers report dark spots and melasma marks fading or looking less visible after a few weeks; one wished for a higher SPF for better sun protection.",
+  "blemishes": "Most reviewers do not report breakouts, but a few—including one with combination skin and one testing the SPF formulation—describe clogged pores, whiteheads or new breakouts.",
+  "oiliness": "One reviewer with oily skin says it makes her face shiny, while others state it absorbs without leaving an oily or greasy residue."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich, thick, luxurious texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Too heavy in warm weather",
+   "polarite": "neg",
+   "concerne": [
+    "combination",
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Floral or rose fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Absorbs quickly, no white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price and smaller jar size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Elegant, giftable packaging",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Erika J 541",
+   "titre": "Makes me oily",
+   "texte": "This is a really nice cream. It has a great consistency. It isn't so great for me. It makes my face so shiny. I have oily skin to begin with, so that is definitely part of it. I love the night cream from this same line of products. This particular product is not for me, unfortunately.",
+   "date": "2025-07-25",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "lynnie",
+   "titre": "Nice but may be too heavy for my skin",
+   "texte": "Next time I'm hoping we were given full time to test true 60-90 days for true potency. I like texture of the creme but I fear it's a bit too heavy for my combination sensitive skin.",
+   "date": "2024-05-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "ShannonKWH",
+   "titre": "Great sunscreen with added benefits!",
+   "texte": "I used this cream every morning. It made a great sunscreen! I was outside a lot and NEVER got sunburned on my face. It also appeared to have softened some of the wrinkles on my forehead. I have sensitive skin with rosacea and did not have any burning or redness with use. I did not notice a reduction in dark spots or that it firmed my skin at all. The only issue I had was if I got sweaty working outside, the cream did burn my eyes. I received the product free in exchange for my honest opinion.",
+   "date": "2024-05-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "GabyG",
+   "titre": "I try",
+   "texte": "I was excited to know that I could try this cream since it is from an accessible luxury brand, and as soon as it arrived I wanted to try it. The consistency is soft and very light, it doesn't feel heavy or greasy at all but when I smelled it I realized that I couldn't use it since my skin is sensitive and although the aroma is light I wanted to give it a try and with the first use I could feel that uncomfortable and itchy. So I knew it wouldn't be for me.",
+   "date": "2024-05-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Olive,sentive skin",
+   "titre": "Light,Works well under makeup",
+   "texte": "This is light,and goes great under makeup. i have very sensitive skin,especially in regards to sunscreen,but did not react to this.",
+   "date": "2024-06-04",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Misscriss",
+   "titre": "Works wonderful on sensitive skin!",
+   "texte": "Most products containing SPF really flare up my sensitive rosacea skin, but this DID NOT. It really does well on removing dry patches and provides smooth, vibrant skin after just a couple of uses. The packaging is beautiful providing a luxury experience. The only con is it does not absorb well enough and therefore my makeup does not last all day like it does with other fully absorbing moisturizers.",
+   "date": "2024-06-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nicole",
+   "titre": "Wonderful product and worked great on my dry skin",
+   "texte": "Im 34 years old and I actually used this along with sending my 62 year old mother enough to sample it herself. I have extremely dry skin and seen a noticeable difference in the hydration of my skin. I'm also fair complected with auburn hair which the SPF is a massive benefit towards the protection of my skin. My mother also has fair skin, red hair, and has tons of beauty marks & freckles. She loved using this cream on her combination skin and being someone who's dealt with skin cancer in the past she told me this Lancome cream with SPF is one of her daily go to skincares.",
+   "date": "2024-05-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2022421",
+ "asin": null,
+ "pid": "pimprod2022421",
+ "source": "ulta",
+ "nom": "Clinique All About Clean 2-in-1 Face Cleansing + Exfoliating Jelly Cleanser with Salicylic Acid",
+ "note": 4.53,
+ "nbAvis": 164,
+ "lus": 79,
+ "collectes": 108,
+ "segments": {
+  "oily": "Reviewers with oily skin report the cleanser removes excess oil, reduces breakouts, and leaves skin clean without over-drying, with one calling it especially suited to oily skin.",
+  "dry": "Dry-skin reviewers are split: several say it dries out their face and causes peeling patches even with added moisturizer, while one with dry skin uses it only occasionally (weekly or seasonally) to avoid over-drying.",
+  "combination": "A combination/normal-oily skin reviewer found it dries the face and causes peeling, while another with combo oily skin says it works better than the 7-day scrub for her.",
+  "sensitive": "Sensitive-skin reviewers are divided: several say it is gentle enough for daily use with no irritation, but others with rosacea or reactive skin report redness, flare-ups, or that it was too rough.",
+  "mature": "Mature-skin reviewers (50s-70s) generally report smoother, less dull, more radiant skin, though one seventy-something reviewer reports new bumps and one describes it as too harsh initially."
+ },
+ "concerns": {
+  "aging": "Mature reviewers report their skin looks smoother, less dull, and more radiant with regular use; no negative comments specific to aging were reported.",
+  "dehydration": "Several reviewers say it dries out the skin and leaves peeling patches, sometimes requiring extra moisturizer; others explicitly say it does not dry or tighten the skin and even feels moisturizing.",
+  "redness": "One reviewer with rosacea says it triggers redness and flare-ups on the cheeks, while another reports it calms skin and a hormonal-acne sufferer says accompanying redness dissipates with use.",
+  "barrier": "A few reviewers describe rough, tougher, or irritated skin after use, including one eye infection attributed to the exfoliating particles, while many others describe the formula as gentle and non-irritating even on sensitive or allergic skin.",
+  "spots": "Multiple reviewers report visibly reduced blackheads and clogged pores, including impacted blackheads and closed comedones clearing up within weeks; no dissent on this point was found.",
+  "blemishes": "Most reviewers with acne-prone or hormonal acne report clearer skin, fewer breakouts, and faster resolution of active blemishes, but several others report new breakouts, cystic-type acne, or worsened bumps after starting the product.",
+  "oiliness": "Oily-skin reviewers consistently report the product controls excess oil and leaves skin feeling clean rather than greasy, with no dissent reported."
+ },
+ "aspects": [
+  {
+   "libelle": "Exfoliating bead texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels moisturizing not greasy",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dries out and causes peeling",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Plastic packaging concern",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Preferred over 7-day scrub",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Too harsh or rough for reactive skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Pleasant mild scent",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Chelle",
+   "titre": "Not a good replacement for Pep Start exfoliating cleanser",
+   "texte": "I was so disappointed when they got rid of the pink Pep Start exfoliating cleanser. Used that for years. It had great exfoliation and cleansing but never dried out my face. A representative told me to try this, it was the replacement. I have normal/oily skin, and this one dries out my face and leaves peeling dry patches. And the exfoliation is probably half of what Pep Start was, more like a barely there massage beads vs the invigorating scrub of Pep Start. I went and bought all close out Pep Start I could at places online now it's super expensive, so I'm going to have to find a new cleanser. Very disappointed a good product was replaced with one that is no where near the same. Even with constant moisturizer (which I never used to have to use), I still get dry peeling spots using this scrub.",
+   "date": "2022-05-27",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Ally",
+   "titre": "Too rough on my skin",
+   "texte": "I really wanted to like this, but I didn't. It does make my skin feel soft, but I have rosacea and I turned bright red after using this. It was way too rough on my sensitive skin. Unfortunately, I will not be repurchasing.",
+   "date": "2021-09-23",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Christy72",
+   "titre": "Skin feels soft and polished",
+   "texte": "I use this every evening. It removes all the makeup and what ever else has been on your skin throughout the day. Very good at smoothing the texture of my skin. I'm in my 50's and my skin changed a lot. It went from oily to patches of dryness and flakes. This cleanser was recommended for me through an online consultation. I didn't know it existed! I use the facial bar soap in the morning. I gave it four stars because I try not to buy too much plastic packaging.",
+   "date": "2024-07-05",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "dunkaroos",
+   "titre": "Helped my hormonal acne",
+   "texte": "The only thing that has been successful in tempering the hormonal acne I suddenly developed in my mid-thirties. My skin got a lot drier but also more acne prone; the combo of salicylic acid and an exfoliant is very effective.",
+   "date": "2025-03-06",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sydney",
+   "titre": "Finally clearing my skin up",
+   "texte": "My chin has been clogged with closed comedonws for months, nothing worked, I changed moisturizer, cut out products, nothing was working until I started using this wash! It does make my rosacea flare so I just done use it on my cheeks, but my forehead and chin have never looked better!!",
+   "date": "2024-09-11",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Matt",
+   "titre": "Perfect for oily skin!",
+   "texte": "This is the best cleanser I've ever used having oily skin! It is difficult to find a product that can actually help your skin to keep it clean and in my case remove excess of oil. Since I started using this product I even noticed having less breakouts on my skin!",
+   "date": "2023-08-10",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joyea",
+   "titre": "The absolute best for my overly sensitive face!",
+   "texte": "My face is overly sensitive, and dramatic about it. This is the only cleanser I can use. I use it almost daily with no problem.",
+   "date": "2024-08-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

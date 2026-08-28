@@ -1,0 +1,160 @@
+{
+ "ref": "mkt77001182",
+ "asin": null,
+ "pid": "mkt77001182",
+ "source": "ulta",
+ "nom": "Ogee Silky Dream Cleansing Cream",
+ "note": 4.95,
+ "nbAvis": 146,
+ "lus": 80,
+ "collectes": 82,
+ "segments": {
+  "dry": "Reviewers with dry skin describe the cream as hydrating and non-stripping, though a few say it is less moisturizing than they hoped and still needs a follow-up oil or moisturizer.",
+  "sensitive": "Reviewers with sensitive skin, including some with eczema, contact dermatitis or rosacea, report no negative reaction and note calming effects on redness and irritation.",
+  "combination": "One reviewer with previously oily skin now experiencing perimenopausal dryness reports the cream resolved dry patches without adding oiliness.",
+  "mature": "One 83-year-old reviewer calls it her favorite cleansing regimen and another notes it does not settle into or worsen wrinkles."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers, including several with dry skin, report the cream leaves skin hydrated, moisturized and not stripped; a few say it is not moisturizing enough on its own and pair it with an oil or moisturizer afterward.",
+  "redness": "One reviewer with rosacea reports it calmed redness and irritation immensely; another with sensitive skin reports no irritation from the product.",
+  "barrier": "Reviewers with eczema and contact dermatitis report the product agrees with their skin with no negative reaction; sensitive-skin reviewers broadly confirm no stinging or breakouts.",
+  "blemishes": "One reviewer reports fewer breakouts and smaller pores after switching to this cleanser as a second step; another says it caused no new breakouts even compared with an oil cleanser.",
+  "aging": "One mature reviewer states it does not highlight or worsen wrinkles when used before foundation; no other aging-specific claims appear."
+ },
+ "aspects": [
+  {
+   "libelle": "Silky, smooth skin feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No foaming lather",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Distinct or strong scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Effective makeup removal",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount needed, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Glass jar packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Insufficient moisture for very dry skin alone",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Undisclosed",
+   "titre": "First try",
+   "texte": "I'm not sure about this one. When I use it on my wet skin, no foaming effect....not feeling my skin is really clean",
+   "date": "2025-11-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Undisclosed",
+   "titre": "Cleanser",
+   "texte": "Face feels clean, its not as moisturizing as I would like for my dry skin.",
+   "date": "2025-12-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "FINALLY!",
+   "texte": "I have been having the hardest time with my skin since perimenopause hit. I've always had somewhat oily skin, but it has been REALLY dry in certain areas lately. This cleanser does the trick! My skin feels smooth, hydrated and not at ALL dried out like it was before. 10/10 recommend!",
+   "date": "2026-01-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Beautiful Cleanser",
+   "texte": "I have very sensitive, dry skin and this cleanser actually leaves my face feeling moisturized. I have had no negative reaction in regard to my sensitive skin and I am grateful for that. I am loving this cleanser and will 100% purchase again!",
+   "date": "2025-11-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "As great as I was expecting",
+   "texte": "It is such a relief to find products that deliver consistently. I have sensitive skin and Ogee has been great for my Exzema and contact dermatitis.",
+   "date": "2025-11-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Best Cleanser I have had for my rosace!",
+   "texte": "This has calmed down my redness and irritation immensely. Love it💕",
+   "date": "2026-01-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Best Cleanser!",
+   "texte": "To be honest, I start with the Ogee Cleansing Oil & then use this as a second step. This has made all the difference in my skin and the size of my pores. I tend to get breakouts after starting a new cleanser, but this has been perfection since the beginning. The combination of the oil & the silky cream has made it so I go without makeup sometimes & that never happened before!",
+   "date": "2025-11-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

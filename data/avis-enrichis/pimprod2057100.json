@@ -1,0 +1,158 @@
+{
+ "ref": "pimprod2057100",
+ "asin": null,
+ "pid": "pimprod2057100",
+ "source": "ulta",
+ "nom": "PEACH & LILY Beam Blocker Invisible Sunscreen SPF 30",
+ "note": 4.37,
+ "nbAvis": 27,
+ "lus": 25,
+ "collectes": 25,
+ "segments": {
+  "oily": "One reviewer without oily skin notes many sunscreens make her feel greasy but this one does not, and another with an oily T-zone reports no shine or oiliness by end of day.",
+  "sensitive": "Reports diverge sharply: one sensitive-skin reviewer developed a rash and broke out, while another with rosacea and sensitive skin found it non-irritating, lightweight, and gentle on the eyes.",
+  "combination": "One reviewer with combination skin reports that, unlike other sunscreens, this one does not turn greasy or shiny or leave a white residue when layered over serum and moisturizer."
+ },
+ "concerns": {
+  "spots": "Three reviewers report breakouts, including a rash on the cheek, and warn acne-prone users to steer clear; against this, several other reviewers (including one who names her skin non-oily and one with an oily T-zone) report no breakouts, including under makeup.",
+  "redness": "One reviewer with rosacea and sensitive skin reports the sunscreen is non-irritating and doesn't sting her eyes; another reviewer, without naming a skin condition, reports her face still gets red or burned despite using it.",
+  "oiliness": "Multiple reviewers report the formula is not greasy and does not add shine, including one who normally gets an oily T-zone and one with combination skin who usually experiences greasiness from sunscreens."
+ },
+ "aspects": [
+  {
+   "libelle": "No white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or irritates eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "SPF 30 seen as too low",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy feel under foundation",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to benefits",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes breakouts or rash",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "spots"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "D",
+   "titre": "Sunscreen broke me out",
+   "texte": "This sunscreen, unfortunately, made me break out. I developed a rash on my cheek after using it. I have sensitive skin, so I'd skip this one if you're prone to reactions. I switched to the mineral version and haven't had any issues so far. This was the only new product I added to my routine.",
+   "date": "2026-03-24",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Mae789",
+   "titre": "Nope!",
+   "texte": "Texture was fine, but definitely caused breakouts. Steer clear if you're acne prone!",
+   "date": "2026-03-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Nancy",
+   "titre": "Not worth the price point",
+   "texte": "I have been using this sunscreen for over a week now and it does the job of protecting my skin from the sun and my skin definitely feels moisturized, but that is it. Unfortunately it does irritate my eyes when I am sweating a little which I noticed and can't stand honestly. Furthermore there is nothing added to this sunscreen as an added benefit that justifies the price point. It's too bad because I actually like Peach & Lily for other products I use. I'll finish my tube of sunscreen but I won't be buying it again.",
+   "date": "2026-03-29",
+   "verifie": false,
+   "utiles": 13,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Sedona Q.",
+   "titre": "Works Well for me",
+   "texte": "Tried this a few times and I enjoy the finish. When comparing to my standby, the Supergoop unseen sunscreen, I like it equally though the formulas are different. This is more of a thin lotion style vs the gel of the supergoop. Little to no scent. This has no cast at all on my brown skin and rubs in easily. I didn't feel shiny or oily by end of day (I tend to get oily T zone). It also didn't pill over my other skincare, which I appreciate. My only critique would be the SPF is on the lower side for high end sunscreen. I prefer a higher SPF of 50 or over. 30 is fine for mixed indoor/outdoor days like going to work or running errands. Please come out with a higher SPF version for outdoor use (pool, party, etc. )! :)",
+   "date": "2026-05-28",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kristin M.",
+   "titre": "I really like this sunscreen!",
+   "texte": "I really like this sunscreen! Not too heavy or oily. My skin likes it and doesn't break out. However, I feel like my face still gets red/burned with it. I will need to use another sunscreen adjacent if outside too long",
+   "date": "2026-04-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jolene",
+   "titre": "Wonderful",
+   "texte": "As someone with rosacea and sensitive skin, I've been finding that a good sunscreen is so important. This one feels great! Lightweight, non irritating, gives a lovely glow and doesn't irritate my eyes which alot of sunscreens do.",
+   "date": "2026-05-07",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Diondra J.",
+   "titre": "Love it!",
+   "texte": "I love this sunscreen! I've used this sunscreen on top of my Peach and Lily serum and moisturizer. I have combination skin and usually sunscreen causes my skin to feel greasy and shiny throughout the day especially if used on top of my other skin products. In the past I also had a filmy white residue left over from other sunscreens. I experienced none of this with my new sunscreen. The sunscreen itself if light and goes on smoothly. No oily skin and residue. I will definitely be continuing to use this and highly recommend",
+   "date": "2026-04-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

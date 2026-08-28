@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2048760",
+ "asin": null,
+ "pid": "pimprod2048760",
+ "source": "ulta",
+ "nom": "Oak Essentials Nourishing Cleansing Milk",
+ "note": 4.91,
+ "nbAvis": 237,
+ "lus": 80,
+ "collectes": 88,
+ "segments": {
+  "combination": "Reviewers with combination skin (including one paired with eczema) describe it as non-oily, hydrating, and effective at improving acne without stripping.",
+  "sensitive": "Sensitive-skin reviewers report no irritation, stinging, or burning, with several calling it gentle and calming and one noting relief from tightness and burning they had with a prior cleanser.",
+  "dry": "Dry-skin reviewers, including one in a desert climate and one on tretinoin, say it cleanses without drying out or tightening the skin and leaves it soft.",
+  "mature": "One 61-year-old reviewer with combination skin calls it a great, lightweight cleanser that does not dry out her skin, though she criticizes the packaging."
+ },
+ "concerns": {
+  "aging": "One reviewer mentions using it alongside a nighttime serum and oil as part of an anti-aging-style routine, but no reviewer directly attributes wrinkle or firmness changes to the cleanser itself.",
+  "dehydration": "The large majority report the cleanser leaves skin soft, moisturized, and not stripped, including for dry, hard-water, and desert conditions; no reviewer describes it as drying.",
+  "redness": "A few sensitive-skin reviewers note it leaves skin smooth and calm with no reported redness or flare-ups.",
+  "barrier": "One reviewer switching from a harsher cleanser reports her tightness and burning sensation stopped after switching to this product; others confirm no stinging even near the eyes.",
+  "spots": "No reviewer specifically addresses dark spots or hyperpigmentation.",
+  "blemishes": "One acne-prone, very sensitive reviewer reports no increase in oiliness or breakouts and improved skin glow; another with sensitive combination skin reports her acne improved tremendously; no dissenting reports of breakouts appear.",
+  "oiliness": "Reviewers with combination or oily-leaning skin describe the cleanser as non-oily and say it does not strip natural oils, leaving a balanced, non-greasy finish."
+ },
+ "aspects": [
+  {
+   "libelle": "Creamy lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Luxurious spa-like scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent not to everyone's taste",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective makeup and sunscreen removal",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Heavy fragile glass bottle",
+   "polarite": "neg",
+   "concerne": [
+    "mature"
+   ]
+  },
+  {
+   "libelle": "High price justified by longevity",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No travel size available",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "DA",
+   "titre": "Great Cleanser, Terrible Packaging!",
+   "texte": "It is my hope that this feedback is shared with Oak Essentials. This cleanser is wonderful, creamy and lightweight. Does not dry out my skin and smells like a day at the spa. I am 61 years young with combo skin. The reason I took one star off is the heavy glass bottle. Please re-think your packaging to something not so heavy. Also, the lid slides off easily and that is another issue. Need to carefully hold it or the bottle will end up on the ground. Happened to me twice.",
+   "date": "2025-05-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Skyler",
+   "titre": "New favorite cleanser!",
+   "texte": "Im an esthetician so im pretty picky when it comes to products. Im almoat finished with my first bottle and its teally made a difference with my skin. Im acne prone and very senstive and this one has made my skin so happy and glowy and has not made me more oily like most creamy cleansers. I hope they eventually sell a refill pouch or a smalelr travel size option",
+   "date": "2025-04-13",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alyssa",
+   "titre": "The milk you'd want",
+   "texte": "I have combination skin that is sensitive to really anything… Most cleansers strip my skin to dry but this one is absolutely amazing! Not harsh at all, plus it has improved my acne tremendously! :)",
+   "date": "2025-05-30",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lyn",
+   "titre": "Nourishing Cleansing Milk",
+   "texte": "The Nourishing CleansingMilk is exactly what I needed; something light but makes your face feel soft smooth and clean! I'm going thru medical treatments and was looking for a cleanser that didn't add to the dryness It works and now is my go to Cleanser!",
+   "date": "2026-02-09",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kathleen",
+   "titre": "I am really enjoying this",
+   "texte": "I am really enjoying this cleanser. It is so gentle. I was having tightness and burning sensation with my last cleanser. I now feel clean and soft after using the nourshing cleansing milk! No more burning!",
+   "date": "2026-01-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jen",
+   "titre": "Obsessed",
+   "texte": "This cleanser is perfect for my dry skin! I'm obsessed with the light scent! Does not leave my skin feeling tight or irritated. Has a lovely texture as well.",
+   "date": "2025-04-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Emily H.",
+   "titre": "Double Cleanse Ritual",
+   "texte": "I enjoy this cleanser but the scent is honestly not my favorite. I also definitely need to double cleanse with this because I don't think it's strong on its own. I will continue to purchase as I like it as part of my double cleanse routine!",
+   "date": "2026-03-27",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

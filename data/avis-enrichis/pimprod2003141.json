@@ -1,0 +1,172 @@
+{
+ "ref": "pimprod2003141",
+ "asin": null,
+ "pid": "pimprod2003141",
+ "source": "ulta",
+ "nom": "Kate Somerville Goat Milk Moisturizing Cleanser",
+ "note": 4.65,
+ "nbAvis": 110,
+ "lus": 80,
+ "collectes": 98,
+ "segments": {
+  "oily": "Oily-skin reviewers mostly report the cleanser feels balanced, fresh and non-greasy, though a few with oily/acne-prone skin describe breakouts they attribute to the coconut oil.",
+  "dry": "Dry-skin reviewers (including very dry, flaky or dry-with-psoriasis skin) repeatedly report no tight or stripped feeling and improved softness, though one found it not moisturizing enough and one experienced a tightness needing extra moisturizer.",
+  "combination": "Combination-skin reviewers describe it balancing oily and dry zones, reducing flakiness and redness, with one noting enlarged pores and one noting an oily t-zone still needing extra products.",
+  "sensitive": "Sensitive-skin reviewers, including several who react to most products, most often describe it as calming and non-irritating, but a minority report burning, breakouts, or fragrance-triggered reactions near the eyes.",
+  "normal": "Few reviewers specifically identify as normal skin, but those who mention it describe a smooth, balanced result after cleansing.",
+  "mature": "Mature-skin reviewers report improved firmness, texture, and reduced fine lines, with no negative reports specific to this group."
+ },
+ "concerns": {
+  "aging": "Reviewers noting fine lines or early aging signs report plumper, firmer-feeling skin and reduced appearance of fine lines after weeks of use; no dissent reported.",
+  "dehydration": "Reviewers with dehydrated or dry skin describe the cleanser as hydrating and non-stripping, restoring softness and reducing flakiness; one reviewer found it left a tightness requiring additional moisturizer.",
+  "redness": "Reviewers with rosacea, autoimmune-related redness, or general redness report significant calming and reduction of redness, in some cases within days; no negative reports on redness specifically.",
+  "barrier": "Reviewers describing a damaged or reactive barrier report the cleanser rebuilt moisture and stopped the tight, stripped feeling they got from other cleansers; one long-time user reports the current formula now burns and no longer works for her barrier.",
+  "spots": "Reviewers troubled by blackheads report visible reduction after use; this is mentioned by very few reviewers overall.",
+  "blemishes": "Most acne-prone reviewers report clearer skin, fewer breakouts, and calmer skin over weeks of use; however several others explicitly report new breakouts or cystic/hormonal acne they attribute to the coconut oil in the formula.",
+  "oiliness": "Reviewers with oily skin generally report the cleanser does not leave an oily cast and balances oil production; no reviewer reports increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich creamy non-foaming texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong goat milk fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount needed per use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes makeup effectively",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Coconut oil triggers breakouts",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes",
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Formula reportedly changed and now irritates",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "KBSTX",
+   "titre": "Used to love",
+   "texte": "This was my HG for several years, I loved how soothing it felt and did a decent job cleansing without stripping my sensitive skin. However I can no longer use it. I don't know if formula or ingredient or ingredient source has changed, but this now burns my face within a few seconds of application, and the last time I tried to use it caused a breakout as well. I'm pretty bummed.",
+   "date": "2022-03-17",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Emily",
+   "titre": "Very calming but acne girly beware",
+   "texte": "At first I loved this product. Very calming and hydrating, cleans well and smells so nice. However I would frequently get terrible what i thought was hormonal acne on my chin/neck. I recently ran out of this produce switched to a gentle drugstore cleanser and its been a month and my acne is gone. I know this product contains coconut oil which can contribute to acne, so while I loved it I think people with acne prone skin should be careful with this product. However, I still really love the Hydrakate moisturizer and recommend that to anyone with acne prone skin!",
+   "date": "2026-04-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Casey",
+   "titre": "Amazing",
+   "texte": "I love this cleanser! I originally got it in a Boxycharm but was scared to use it because I had oily skin and struggled with acne around my chin. Instead, I was using a salicylic acid cleanser which never helped. I decided to try this because I read that I need to keep skin moisturized and heal my skin barrier and my acne has been clearing up so much!! I use this with Cerave retinol and it has been amazing! It makes my skin so soft and has a very gentle fragrance.",
+   "date": "2022-04-15",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chelsea",
+   "titre": "Life Changer",
+   "texte": "This product with the moisturizing cream literally changed my life! I've had a bad butterfly redness on my face for 10 years due to side effects of an autoimmune disease. On day 2, I already noticed a difference and so did other people! After a 1.5 weeks it was completely gone! And it leaves my skin feeling softer than it ever has.",
+   "date": "2022-05-30",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley",
+   "titre": "ROSACEA CALMER",
+   "texte": "Absolutely love the goat milk products from Kate Somerville! I had perfect skin until I was 29, then my rosacea started to flare. This product helps me recognize the person in the mirror and does wonders for my self-esteem in relation to my rosacea. Absolute must try for those with red, sensitive skin. Also smells heavenly and hydrates well. To me, it's definitely worth the price.",
+   "date": "2022-01-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "pm2001",
+   "titre": "Great for Combination Skin Types!",
+   "texte": "I received this as a free sample and I will likely purchase this product after finishing it. I have combination skin that often gets red, flaky, and dry. After 3wks of use, I've noticed a signifcant improvement in the plumpness of my skin and evenness of texture and moisture. I'm in my mid 20's and this has helped plump back out fine lines that had been beginning to appear. I typically use gel-based cleansers, but now I am a huge fan of this creamy consistency for its hydration. Needs to be paired with pore-minimizing products however such as niacinimiade because I have noticed that my pores have increased in size while using this product.",
+   "date": "2026-01-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Madison",
+   "titre": "Amazing",
+   "texte": "This stuff is just amazing. Nothing leaves my skin as soft, clear, balanced and glowy as this. I have dehydrated, oily, acne prone skin and this is the only face wash i've found that moisturizes my skin without making it look too oily, doesn't strip my skin but clears my acne and calms my redness. Amazing and completely worth the money.",
+   "date": "2019-04-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "blemishes",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

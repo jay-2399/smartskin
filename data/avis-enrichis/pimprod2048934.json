@@ -1,0 +1,135 @@
+{
+ "ref": "pimprod2048934",
+ "asin": null,
+ "pid": "pimprod2048934",
+ "source": "ulta",
+ "nom": "ANUA Peach 70 Niacin Serum",
+ "note": 3.83,
+ "nbAvis": 6,
+ "lus": 6,
+ "collectes": 6,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are split: some describe this serum as gentle and glow-giving even after reacting to other products, while one reports red bumps after a single use and suspects an allergic reaction."
+ },
+ "concerns": {
+  "spots": "One reviewer credits the serum with helping dark spots, though the comment is based on brief use and no detail is given.",
+  "redness": "One reviewer with contact-dermatitis-prone, hyper-reactive skin reports the product suits her well, while another sensitive-skin user broke out in red bumps overnight.",
+  "barrier": "A reviewer switching from 10% niacinamide describes this lower 5% concentration as gentler, no longer burning or irritating her skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaves a healthy glow",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky, slow-absorbing texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Poor makeup wear on top",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Peach scent seen as calming",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lower niacinamide strength gentler than 10 percent versions",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Risk of reaction on first use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Chris",
+   "titre": "reaction",
+   "texte": "I used this one time before bed and woke up with several red bumps on my face. Possibly an allergic reaction? I didn't use it after that and returned it. I do have sensitive skin.",
+   "date": "2025-07-04",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Virginia",
+   "titre": "Good glow but not for me",
+   "texte": "I really wanted to love this product because it gave my skin a beautiful, healthy glow. Unfortunately, it wasn't the right fit for me. It left a sticky feeling on my skin that never seemed to fully absorb, and I found that it didn't wear well under my makeup. While it may work well for others, it just didn't suit my skin or my routine. I did appreciate the glow it provided, but because of the texture, I won't be repurchasing.",
+   "date": "2026-07-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "For Sensitive Skin",
+   "titre": "Sensitive Skin BFF",
+   "texte": "Hyper sensitive skin, food, weather, clothing, smell (yes strong smells can cause my face to break out) and especially face care to include makeup and skin care. Anua products are made for people like me that once your ph gets messed up from contact dermatitis, its upwards of a month to settle down.",
+   "date": "2025-01-08",
+   "verifie": false,
+   "utiles": 31,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sage",
+   "titre": "Adds a nice glow to my sensitive skin",
+   "texte": "I have sensitive skin and products can be hit or miss. More seem to be on the miss side. My skin seems to really like this product. It dries lightweight and gives a beautiful glow. I will be repurchasing again once I run out.",
+   "date": "2025-01-16",
+   "verifie": false,
+   "utiles": 28,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Raelle",
+   "titre": "Good if you have dark spots",
+   "texte": "I currently just tested this out and oh my god. It gives off a scent that smells like peaches and im like obsessed because its calming.",
+   "date": "2025-03-05",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mags",
+   "titre": "Gentle and glowy skin",
+   "texte": "I switched over to this after years of using TO's 10% Niacinamide+Zinc which began to burn and irritate my skin. This has a lower concentration at 5% and helps maintain my skin's even texture while leaving it glowing and looking healthy. Worth a try!",
+   "date": "2025-04-26",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": "Only six reviews are available, so conclusions per skin type and concern rest on very few individual accounts."
+}

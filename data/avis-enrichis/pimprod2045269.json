@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2045269",
+ "asin": null,
+ "pid": "pimprod2045269",
+ "source": "ulta",
+ "nom": "Doré La Micellaire Botanical Micellar Cleansing Water",
+ "note": 2.86,
+ "nbAvis": 29,
+ "lus": 27,
+ "collectes": 27,
+ "segments": {
+  "dry": "Reviewers with dry skin report the product as gentle and moisturizing without stripping, though one reviewer with dry skin describes a chemical burn and severe drying instead.",
+  "sensitive": "Sensitive-skin reviewers mostly report no irritation, no redness and no breakouts, but one reviewer says the product turned her skin red with a burning sensation.",
+  "combination": "A combination-skin reviewer reports the product cleans and removes makeup while still leaving skin hydrated, unlike other micellar waters that stripped it."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers say the product does not dry out their skin and even feels moisturizing; one reviewer reports the opposite, describing severe dryness and the need to moisturize repeatedly after a burning reaction.",
+  "redness": "One reviewer reports her whole face turned red with a skin burn after use, while others with sensitive skin explicitly report no redness.",
+  "barrier": "Two reviewers describe a chemical burn or severe irritation lasting days, while most others report no irritation at all.",
+  "blemishes": "One reviewer with fungal acne reports her breakouts finally cleared after stripping her routine down to this product plus zinc soap and a basic moisturizer; a sensitive, acne-prone reviewer reports no new breakouts."
+ },
+ "aspects": [
+  {
+   "libelle": "Fails to remove makeup or mascara",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Comparisons unfavorable to Garnier or Bioderma",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle, non-irritating feel on skin",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Chemical burn or severe irritation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Elegant, appealing bottle design",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves filmy residue requiring harder rubbing",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Clopita",
+   "titre": "irritating",
+   "texte": "this Dore micellar water caused me chemical burn, severe irritation that lasted for days and it completely dried my skin out. I have never had a product cause that dryness to my face. I have had to moisturize several times a day to restore my skin.",
+   "date": "2025-09-16",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "auld mom",
+   "titre": "Love this cleaner",
+   "texte": "I got this as a free sample, and so glad I did. It is gentle and moisturizing on my dry, sensitive skin. I do need to use a separate product to remove waterproof mascara. But wouldn't expect a gentle cleansing water to be able to take off tough waterproof mascara. Not even the micellar waters that say they can remove, work on my waterproof mascara. I don't understand any negative reviews on this product.",
+   "date": "2026-02-11",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ally G.",
+   "titre": "Love love love",
+   "texte": "I have super sensitive skin and this makes my skin feel so good. It doesnt irritate or dry out my skin either. I recommend this over any of micellar water!",
+   "date": "2026-01-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jeanna",
+   "titre": "this DOES remove makeup ♥︎",
+   "texte": "I LOVE this micellar water. It removes all of my makeup, and is the perfect precleanse before going in with an actual face wash. I have very sensitive and acne prone skin. This doesn't break me out at all.",
+   "date": "2026-07-15",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ange L",
+   "titre": "Fungal acne friendly",
+   "texte": "This micellar water is what got my fungal acne to FINALLY clear up! After a year of relentless, horrible pimples on my temples and forehead, and wasting SOOOOOO much money on products thaf only made it worse. I found this, completely stripped my routine down to this, zinc soap bar, and a basic moisturizer, and my skin looks and feels the best it has in years!",
+   "date": "2025-11-17",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "T Willy",
+   "titre": "Great for combination skin!",
+   "texte": "DOES NOT DISAPPOINT!! So many Micellar waters seemed to strip and dry out my skin but this one cleans and removes my makeup while still leaving it hydrated.",
+   "date": "2025-01-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "leslersxD",
+   "titre": "Don't purchase",
+   "texte": "Save ur money and use garnier micellar water. This cause my whole skin to turn lobster red and get a skin burn",
+   "date": "2024-08-21",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

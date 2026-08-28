@@ -1,0 +1,152 @@
+{
+ "ref": "mkt77002322",
+ "asin": null,
+ "pid": "mkt77002322",
+ "source": "ulta",
+ "nom": "REUZEL Pore Tightening Astringent Foam",
+ "note": 4.89,
+ "nbAvis": 56,
+ "lus": 35,
+ "collectes": 35,
+ "segments": {
+  "sensitive": "One reviewer with extremely sensitive skin reports the foam soothes and tones without irritation.",
+  "mature": "Two reviewers with visibly aging or grey-bearded skin credit it with keeping skin looking younger or ageless."
+ },
+ "concerns": {
+  "redness": "Reviewers describe it calming skin irritated by shaving, cooling and soothing razor bumps and nape/ear irritation without a burning or stinging sensation.",
+  "oiliness": "Multiple reviewers state it tightens pores and cleans without leaving skin feeling greasy or oily; no dissent reported.",
+  "aging": "Two reviewers say it makes skin look younger or keeps their age less visible, though this is a small, anecdotal minority of comments."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling, non-burning sensation after shaving",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, non-overpowering scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Foams unexpectedly well for a non-aerosol",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Runny liquid texture, hard to apply without spilling",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Squeeze bottle application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast drying, non-greasy finish",
+   "polarite": "pos",
+   "concerne": [
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Good value and quick shipping",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Eric",
+   "titre": "Decent, but not perfect",
+   "texte": "Smells good, feels nice and clean, but very runny. It turns into a liquid as soon as you squirt it onto your hands. Then it's hard to splash it on your face without losing any. If it was slightly thicker like a gel or foamy like shaving cream, it would be perfect.",
+   "date": "2024-12-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "John",
+   "titre": "AMAZING! You need this in your shaving kit!",
+   "texte": "I'll admit I was skeptical at first, but this foam is great! Makes your skin feel great after a shave and closes up your pores without making your skin oily or giving you a burning sensation. The foam keeps your skin soft all day long after a morning shave! Now they just need to make a travel size version!",
+   "date": "2021-09-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mark",
+   "titre": "Best Toner Ever!",
+   "texte": "I switched my regular toner to this and now it's a product I cannot live without. Works fantastic and keeps your skin looking great and people will never know your age. Unless your beard is mostly grey like mine. But it's definitely a go to.",
+   "date": "2022-08-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joe",
+   "titre": "Nice product",
+   "texte": "Love this product for my scalp and neck line which can get easily irritated from shaving. I apply after shave immediately after shaving and will use this astringent foam between shaves to keep my pores tight.",
+   "date": "2023-06-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Eric",
+   "titre": "Nothing beats it!",
+   "texte": "This is the best \"aftershave\" I have found. It works amazingly on my extremely sensitive skin, helping to soothe and tone the skin. Recommend this product to everyone!",
+   "date": "2022-06-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sierra",
+   "titre": "Works great",
+   "texte": "Helps me keep the razor bumps away when other aftershaves weren't doing the trick. Light on the skin without the sting. Smells good too!",
+   "date": "2021-12-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stuart",
+   "titre": "Great stuff!",
+   "texte": "Feels amazing on my skin and doesn't make my face feel all oily",
+   "date": "2021-07-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": "This is a shaving astringent foam rather than a facial skincare product, so most reviews describe post-shave skin feel rather than skin type or ongoing skin concerns in the app's usual sense."
+}

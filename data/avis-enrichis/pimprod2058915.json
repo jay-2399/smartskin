@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2058915",
+ "asin": null,
+ "pid": "pimprod2058915",
+ "source": "ulta",
+ "nom": "TATCHA The Longevity Serum Skin Strength & Resilience Treatment",
+ "note": 4.81,
+ "nbAvis": 587,
+ "lus": 76,
+ "collectes": 93,
+ "segments": {
+  "dry": "Reviewers with dry or combo-dry skin (including one at 50 and one at 70) report strong moisturization and improved plumpness, though one 2-star review says it left her face tight and dry over time.",
+  "sensitive": "Sensitive and rosacea-prone reviewers are split: several report no irritation and a gentle feel, but two describe redness, burning, or the need to wash it off.",
+  "combination": "A combination-to-dry reviewer in her 70s reports good moisturization and visible/felt improvement in skin.",
+  "mature": "Mature-skin reviewers (50s to 70s) most consistently report plumping, fewer fine lines, firmer and more youthful-looking skin.",
+  "normal": "Reviewers not specifying a skin issue mainly describe a lightweight, smooth, glowing finish with easy layering under moisturizer and makeup."
+ },
+ "concerns": {
+  "aging": "Most reviewers targeting aging report fewer fine lines, improved firmness/elasticity, and a more youthful look within 2-3 weeks; a few say it's too soon to tell or notice no major anti-aging change.",
+  "dehydration": "The large majority describe strong, all-day hydration and plumpness with no need for extra moisturizer; one reviewer reports the opposite, with tightness and dryness after use.",
+  "redness": "One rosacea-prone reviewer found it safe and plumping on her skin; another with sensitive skin reports the serum turned her face red and made it feel like it was on fire.",
+  "barrier": "Several reviewers note it layers well and feels gentle/protective, especially post-derma-planing or alongside SPF and moisturizer.",
+  "spots": "A couple of reviewers report lighter dark marks/post-breakout marks and brighter, more even-looking skin after a few weeks of use.",
+  "blemishes": "One reviewer with breakout-prone skin reports fewer breakouts and improved texture; another mentions minor breakouts occurring with Tatcha products generally.",
+  "oiliness": "Several reviewers state the serum leaves a glow without oiliness or greasiness, describing the finish as glowing rather than shiny."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable glow after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or lingering fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Elegant glass packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle empties faster than expected",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pairs well with other Tatcha products",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "MrsBerg",
+   "titre": "Made my skin feel tight and dry",
+   "texte": "Serum smells pleasant and makes my skin look good. However, my face feels so tight, dry, and is uncomfortable after use. Following up with moisturizer helps slightly. I stopped using the serum for a few days and my skin felt better. Will not purchase again",
+   "date": "2026-01-03",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Nancy C.",
+   "titre": "Irritated my facial skin",
+   "texte": "My skin is very sensitive. This serum turned me very red in about 30 minutes and made it feel on fire. So I had to wash it off.",
+   "date": "2025-11-27",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Elissa B.",
+   "titre": "plumping, rosacea friendly, anti-aging item",
+   "texte": "I initially tried the sample to see how my rosacea skin would react. It was safe my rosacea skin and it was nice and plumping. It feels healthy for my skin. I enjoy this serum, I don't know if i notice major changes in anti-aging, but it is a nice serum. I'm not sure if I would necessarily repurchase, it is a nice to have, not a necessary.",
+   "date": "2025-11-03",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cornita C.",
+   "titre": "Longevity Serum",
+   "texte": "I just turned 70 and have combo to dry skin. The serum works well, makes my skin very moisturized, and works well with my other facial products. I can feel and see a difference. I have sinus allergies and can't take strong fragrances. The serum has a light fresh scent, doesn't aggravate my sinuses. Well worth the purchase.",
+   "date": "2025-10-29",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Michara D.",
+   "titre": "PHENOMENAL FORMULA!",
+   "texte": "I can't believe how my skin feels and looks. I have tried thousands of brands and by far TATCHA is the best! I saw results within 2weeks of consistently using their products. I followed the recommended rituals for what I was targeting which was pore refining, brightening dark spots under eyes and firmness. I'm 50 years old and have dry skin. I'm beyond satisfied.",
+   "date": "2025-12-01",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Asif",
+   "titre": "Amazing!",
+   "texte": "This stuff really works! This stuff really works! I have really bad dark marks from my breakouts, and in the last 3 weeks I've been using this, they've gotten so much lighter. My skin feels so smooth and hydrated and healthy. Gifted by tatcha",
+   "date": "2025-10-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Angela",
+   "titre": "Great so far",
+   "texte": "Pleasantly surprised with this new serum as many anti-aging products have been irritating my skin including vitamin C. I have had no reactions and don't mind the scent. I prefer to smell the product than something overly fragranced. I'm looking forward to the benefits and ordering the cream.",
+   "date": "2026-01-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

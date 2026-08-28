@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2010753",
+ "asin": null,
+ "pid": "pimprod2010753",
+ "source": "ulta",
+ "nom": "DERMA E Anti-Wrinkle Cleanser with Retinol",
+ "note": 4.4,
+ "nbAvis": 43,
+ "lus": 39,
+ "collectes": 39,
+ "segments": {
+  "oily": "Oily-skin reviewers generally say the cleanser controls oil and does not over-dry, though one notes it 'might not be quite enough' if skin is really oily.",
+  "dry": "Reviewers with dry or well-balanced skin describe it as gentle and non-stripping, calling it a favorite for that skin type.",
+  "combination": "Combination-skin reviewers report a good moisture/clean balance, including in a desert climate, with no dryness or tightness.",
+  "sensitive": "Sensitive-skin reviewers mostly report no irritation and a non-stripping feel, but one sensitive-skin reviewer avoided repurchase due to a strong soap-like scent.",
+  "normal": "Reviewers describing normal skin report light, bubbly texture and no breakouts, using it alongside anti-aging routines.",
+  "mature": "Mature-skin reviewers (40s-50s) report soft, clean skin but mixed results on visible wrinkle reduction, from 'no change' to 'wrinkles improved.'"
+ },
+ "concerns": {
+  "aging": "Several mature reviewers say fine lines/wrinkles look improved or skin appears more radiant over time; others explicitly say they saw no change to wrinkles or fine lines despite regular use.",
+  "dehydration": "Most reviewers say the cleanser does not dry out or strip skin, feeling soft and moisturized after use; however, one reviewer with oily/combination skin reports it made her skin dry and flaky.",
+  "redness": "One reviewer notes skin is not left red or tight after use; no other redness complaints are mentioned.",
+  "barrier": "Reviewers broadly report a non-stripping, moisture-balanced cleanse; no barrier-damage complaints beyond the isolated dryness/flaking report.",
+  "spots": "Not enough specific mentions of spots/dark marks to characterize.",
+  "blemishes": "One young reviewer with acne says it helps significantly and keeps skin soft; no dissenting reports on breakouts are present, and one reviewer specifically confirms it does not break her out.",
+  "oiliness": "Reviewers with oily skin report reduced oil throughout the day and a mattifying effect, though one notes it may be insufficient for very oily skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Soap-like or musky scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Leaves skin soft and clean",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings eyes on use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenses good amount, easy to use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting bottle, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Inconsistent makeup removal",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle non-stripping texture",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "sensitive",
+    "combination"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Em",
+   "titre": "Dries out skin=creates wrinkles",
+   "texte": "I had high hopes for this cleanser but, unfortunately, I have noticed how dry and flakey my skin has become. (I normally have oily/combination skin). I had to go back to my former cleanser in hopes it will repair my skin. Still on the lookout for a good cleanser with clean ingredients.",
+   "date": "2020-05-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Lolo",
+   "titre": "Great for sensitive skin",
+   "texte": "I like this product. It washes really well and it doesn't irritate my skin at all. The only thing is that it doesn't have a ton of lather lol and I actually prefer more lather. But it has retinol in it so take away my wrinkles lol",
+   "date": "2023-05-09",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amy",
+   "titre": "Love this cleanser",
+   "texte": "I've been using this product for years. I have oily skin and this works very well to keep oil from forming throughout the day. I use a maybe half a pump twice a day. I like how it's not overly foaming. The ingredients is what drove me to this product.",
+   "date": "2023-03-28",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "A",
+   "titre": "Acne",
+   "texte": "I'm 22 and I've been using this face wash for over a year now, it helps so much with my acne and keeps my skin so soft",
+   "date": "2022-12-13",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Glendeetz",
+   "titre": "My favorite gel-cleanser from Derma E",
+   "texte": "We used to use the anti-wrinkle scrub, which we liked, but have been trying to move away from physical exfoliants. This was a great alternative and our new Derma E favorite. Great for our sensitive skin and has helped keep our skin clear. Pleasant light scent. Non-stripping. No complaints!",
+   "date": "2021-01-22",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SAH",
+   "titre": "Favorite!",
+   "texte": "This stuff is so gentle and leaves my face so soft, that I ended up buying a second one for the shower so I don't have to move it back and forth from the sink. This is perfect if you you have dry or well-balanced skin. It might not be quite enough if you've got really oily skin, but I have nothing but love for this stuff!",
+   "date": "2021-01-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JOneof2",
+   "titre": "Clean, exfoliating, but not stripping",
+   "texte": "My skin feels great after using this cleanser. It does a light daily exfoliation without stripping my skin of moisture. I live in the desert and this gives my combo skin the perfect blend of moisture, clean, and exfoliation. HIGHLY RECOMMEND!",
+   "date": "2020-06-15",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

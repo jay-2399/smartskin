@@ -1,0 +1,163 @@
+{
+ "ref": "mkt77005436",
+ "asin": null,
+ "pid": "mkt77005436",
+ "source": "ulta",
+ "nom": "Ursa Major Fantastic Face Wash",
+ "note": 4.65,
+ "nbAvis": 1589,
+ "lus": 80,
+ "collectes": 105,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone skin describe the wash as balancing without over-drying, including one with sensitive oily acne-prone skin who reports no reactions over several months.",
+  "dry": "Dry-skin reviewers are split: several say it cleans without stripping or tightness, while others report dryness or the need to stop use in colder months.",
+  "sensitive": "Sensitive-skin reviewers, including several with rosacea or redness, mostly report no irritation and a soothing effect, though one with sensitive skin reports dryness and redness after weeks of use and another disliked the fragrance.",
+  "combination": "One reviewer with normal-to-dry skin reports it removes makeup without stripping the skin.",
+  "mature": "Reviewers who mention mature or older skin (57, 62, 65 years) report firmness, softness and non-drying cleansing with continued use."
+ },
+ "concerns": {
+  "aging": "Mature-skin reviewers report firmer, smoother-feeling skin and minimal visible lines with regular use; no dissent noted.",
+  "dehydration": "Most reviewers report no dryness or tightness after washing, but several with dry or sensitive skin report the wash feels dehydrating, especially in winter, with one advising against use in colder months and another switching to a milk cleanser seasonally.",
+  "redness": "Several reviewers with rosacea or flushed/sensitive skin report no irritation and a calming effect; one reviewer with sensitive skin reports increased dryness and redness after weeks of daily use.",
+  "barrier": "One reviewer describes moisturizer no longer absorbing smoothly after use, suggesting a compromised barrier feel, while others describe skin as soothed and comfortable afterward.",
+  "spots": "One long-term user credits the wash with resolving years of breakouts and inflammation when other treatments failed.",
+  "blemishes": "Reviewers report fewer breakouts and smaller-looking pores with continued use; no negative reports of new breakouts appear.",
+  "oiliness": "One reviewer with oily skin reports the wash balances oil production; no dissent noted."
+ },
+ "aspects": [
+  {
+   "libelle": "Scent divisive, off-putting to some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Signature earthy scent loved by most",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes makeup and sunscreen easily",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "New glass or aluminum bottle leaks",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Price increase after size reduction",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Formula feels thinner, less foaming since reformulation",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Cynthia R",
+   "titre": "Sensitive skin",
+   "texte": "After a. few weeks of daily use my skin is dry and red in places, so taking a break from it. After washing it feels as though the.moisturizer isn't absorbed into the skin as smoothly.",
+   "date": "2025-07-05",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Paisley",
+   "titre": "Dry Skin Review (Summer Face Wash Only)",
+   "texte": "Dry skin review: I LOVE this face wash, but only during the warmer months. I adore the scent, the feeling, and how clean I feel after using it - but as someone with chronic dry skin, I feel a bit dry after using it. It could be a lot worse, and I strongly prefer using this over anything else during summer, but I have stopped using it fall - early spring and will transition to a milk cleanser during that time. I think there is something specific in the ingredients that causes this, so this is just a warning to fellow dry skin users. It's still a personal fave!",
+   "date": "2025-12-28",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "KMVT",
+   "titre": "I'll never use anything else!",
+   "texte": "This is the only face wash that I've ever used where my skin feels better AFTER washing it than before - not tight, not dry, not irritate. I have sensitive, red, rosacea prone skin and so many products irritate it. My skin is firm and hydrated, minimal tiny lines belie my 57 years, and even the skin under my chin is firm! I use this all over my face and neck, followed up by the Golden Hour Recovery Cream. I will seriously never use anything else on my face.",
+   "date": "2025-09-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Pamela S",
+   "titre": "Best cleanser",
+   "texte": "I have tried so many cleansers. My skin is sensitive but also acne prone. This is the best cleanser I have ever used. I had a facial the other day ( I haven't had a facial in years). The esthetician said \"your skin is very clean\". I use it morning and night and there is zero dryness. I won't go without it.",
+   "date": "2025-07-02",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mae K",
+   "titre": "Very Nice!",
+   "texte": "I love this face wash. It's not too drying or overwhelming for my sensitive oily acne-prone skin. I highly recommend it to anyone. I have had no reactions to this product, and have been using it for several months. It's a great, clean product!",
+   "date": "2025-02-18",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Margaret",
+   "titre": "Worth the hype! Truly fantastic",
+   "texte": "As amazing as everyone says. I look forward to washing my face every evening. Balances out my oily skin and the smell is exhilarating. A cult classic for a reason.",
+   "date": "2025-06-17",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Zach F",
+   "titre": "Hefty",
+   "texte": "This felt too dehydrating after use. My skin feels that it NEEDS moisture as soon as I finish cleansing. could be my skin but I won't be using in the winter months when my face is dryer up here in Vermont",
+   "date": "2025-10-22",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

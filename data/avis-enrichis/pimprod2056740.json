@@ -1,0 +1,180 @@
+{
+ "ref": "pimprod2056740",
+ "asin": null,
+ "pid": "pimprod2056740",
+ "source": "ulta",
+ "nom": "Dr. Althea 345 Relief Cream",
+ "note": 4.02,
+ "nbAvis": 41,
+ "lus": 40,
+ "collectes": 40,
+ "segments": {
+  "oily": "Reviewers with oily or oily/acne-prone skin describe it as lightweight, non-greasy, and helpful for keeping breakouts under control (e.g. reviews 20, 23, 27, 30, 38), with one noting no oily film left behind (23).",
+  "dry": "Reports on dry skin are mixed: some say it doesn't moisturize enough alone and needs layering or a heavier cream at night (2, 8, 15, 19, 25, 35), while others with dry and sensitive skin say it left skin glowy and hydrated (29, 32, 34).",
+  "combination": "Combination-skin reviewers, including some also acne-prone or sensitive, generally found it hydrating without heaviness or greasiness and noticed reduced redness or improved texture (14, 19, 21, 30).",
+  "sensitive": "Sensitive-skin reviewers are the most divided: several report burning, prickling, flaking or allergic reactions requiring them to stop use (0, 1, 4, 5, 8, 12), while others with sensitive or very sensitive skin say it calmed irritation, eczema and acne with no negative reaction (18, 20, 21, 25, 29, 35, 36).",
+  "mature": "One reviewer describes it as a strong option for wrinkles and skin type versatility (31), while another using it for anti-aging purposes saw no change in wrinkles or overall texture (2)."
+ },
+ "concerns": {
+  "aging": "One reviewer credits it with smoothing fine lines and evening tone (37) and another calls it effective for wrinkles broadly (31); however, another reviewer using it specifically for wrinkles and texture saw no improvement (2).",
+  "dehydration": "Many describe it as deeply hydrating without heaviness or greasiness (18, 21, 32, 36, 37), but several with dry skin found it insufficient on its own and needed a heavier product or added serum (2, 8, 15, 19, 25, 35), and one reviewer said it worsened flaky, irritated dry patches around the nose and mouth (12).",
+  "redness": "Several reviewers report reduced redness, including for rosacea and general facial redness (12, 16, 19, 28, 34, 35), though one with post-inflammatory erythema (pink/red marks, not brown spots) says it did nothing for that specific redness (12).",
+  "barrier": "One reviewer calls it a go-to for repairing a damaged skin barrier and calming flare-ups (19); no other barrier-specific reports appear.",
+  "spots": "Most report visible fading of post-acne marks and scarring, sometimes within days (18, 21, 22, 32, 33), but one reviewer with a longstanding facial scar and another targeting brown-toned post-inflammatory marks saw no change (11, 12).",
+  "blemishes": "The majority describe fewer breakouts, calmer acne, and clearer skin, including for hormonal and cystic acne (13, 20, 23, 25, 27, 33, 36, 38, 39), but a notable minority report new breakouts or worsening acne, including allergic-type reactions (0, 1, 4, 9, 12).",
+  "oiliness": "Reviewers with oily skin consistently describe it as lightweight and non-greasy with no oily film or white cast (23, 27, 30, 36, 38); no negative reports on oiliness appear."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Burning or stinging sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Tube packaging flakes and cracks",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small quantity for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast visible improvement in days",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Insufficient hydration alone for dry skin",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "No sticky or pilling residue",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Michi",
+   "titre": "Not suitable for sensitive skin",
+   "texte": "Reviews I found online raved about this product but I found it to be nothing special. If my skin was feeling particularly sensitive, I could not tolerable this moisturizer. It gave my skin a prickly and burning sensation and I had to wash it off. I did not find the thin clearish watery texture nourishing. This could work for someone with oily skin but this caused my minor break outs to burn, so if someone has oily skin and sensitive acne, this might not work for them. Definitely try to get a sample of this product before purchasing. I did find this pleasant on top of a milky toner like the LANEIGE one. Their light blue water bank moisturizer is my favorite moisturizer, so if you have skin like mine that might work better.",
+   "date": "2026-05-30",
+   "verifie": false,
+   "utiles": 22,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Bri",
+   "titre": "I'm not the targeted audience",
+   "texte": "BEFORE YOU READ, THIS PRODUCT JUST DIDN'T WORK FOR ME BECAUSE IT IS NOT COMPATIBLE WITH MY SKIN. I bought this product because I saw a lot of hype about it online and to me it was just a meh moisturizer. I will give it it's 2 cents, it DID help with calming redness in my acne, breakouts and hormonal. However, it says that it helps treat post acne marks and I have recently learned the difference between post inflammatory hyperpigmentation (which I think is what this product is supposed to be for) versus post inflammatory erythema (PIE). I have a light-medium skin tone and after I have a pimple I have pink and red spots all over my face, NOT brown or spots that are darker than my skin tone. I think that's probably one of the reasons why this product is just meh to me, because it isn't doing anything for pink and red spots. And to just add, it doesn't moisturize very well around my nose and mouth, I still have flaky skin and if anything, when my skin is irritated from dryness, putting this on doesn't help much and continuously adds to the irritation. So I cannot recommend this product if you have similar skin issues.",
+   "date": "2026-08-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sofia",
+   "titre": "10/10 recommend",
+   "texte": "I love this moisturizer, i have very sensitive skin… it's combination skin, (acne-prone and eczema dry spots). This cream has helped even out my skintone and helps heal my acne scars while deeply hydrating my skin. I have had no negative reaction and helps calm down my skin when it wants to act up! I took this cream during my NYC trip on New Years and it kept my skin moisturized and my eczema did not flare up.",
+   "date": "2026-02-12",
+   "verifie": false,
+   "utiles": 27,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rice",
+   "titre": "Holy Grail",
+   "texte": "This product saves my skin anytime I accidentally damage my skin barrier or am having a bad breakout. It's very soothing on my skin, though I would recommend a heavier cream at night if this isnt hydrating enough for those with dry skin (my oily/combo skin loves this). I had very low expectations when I tried this for the first time a year ago since it was just another viral product on TikTok. My skin was going crazy and kept breaking out no matter what I did or used, and honestly, my skin became so smooth by the third day. My acne completely went away and skin was no longer red or burning. I continue to use this every night and will never be without this! I use multiple Dr. Althea products and have to say this is my holy grail brand.",
+   "date": "2026-04-03",
+   "verifie": false,
+   "utiles": 23,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley",
+   "titre": "I love this so much",
+   "texte": "I have tried both the original formula and the new one and I loved them equally. Neither broke my very sensitive cystic acne prone skin out or caused any sort of irritation. This is definitely a lighter product, so I would not recommend for dry skin.",
+   "date": "2026-03-23",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Eve",
+   "titre": "Amazing Product",
+   "texte": "I have acne prone sensitive skin and i have noticed a big difference since adding this to my skin care. Its helped my breakouts and redness, only downside is its not moisturizing enough for my dry skin so i use quite a bit and add serum to my routine. The tube runs out pretty quickly.",
+   "date": "2026-08-24",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jess",
+   "titre": "Gentle and Clearing",
+   "texte": "This moisturizer has worked so well for my 13 year old daughter. Her face was breaking out and this product cleared all her pimples and evened out texture in about a week. The consistency is light and supple. Really good choice for oily skin prone to acne. Highly recommend it!!",
+   "date": "2026-08-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

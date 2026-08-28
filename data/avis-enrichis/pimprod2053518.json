@@ -1,0 +1,141 @@
+{
+ "ref": "pimprod2053518",
+ "asin": null,
+ "pid": "pimprod2053518",
+ "source": "ulta",
+ "nom": "medicube PDRN Pink Peptide Toner",
+ "note": 4.11,
+ "nbAvis": 9,
+ "lus": 7,
+ "collectes": 7,
+ "segments": {
+  "sensitive": "One reviewer with dry, sensitive skin and eczema reports no irritation and improved tone and texture; another, whose skin turned sensitive with menopause, reports no breakouts and hydration.",
+  "dry": "A reviewer with dry, sensitive skin and eczema reports improved skin tone and texture without irritation.",
+  "mature": "A 50-year-old reviewer describes her skin as more breakout-prone, dull, and sensitive due to menopause, and reports better hydration and no breakouts after about three weeks."
+ },
+ "concerns": {
+  "blemishes": "Reports are split: one reviewer not usually acne-prone says the toner broke her out badly after a single use, while two others (one menopausal and breakout-prone, one with eczema) report zero acne issues or breakouts.",
+  "barrier": "A reviewer with dry, sensitive skin and eczema reports no irritation, and a menopausal reviewer with dermatitis says the condition is improving.",
+  "dehydration": "Multiple reviewers describe the toner as hydrating, including one who uses it as the first step in a 'skin flooding' routine.",
+  "aging": "One 50-year-old reviewer reports her dull, breakout-prone skin improved with better hydration and no new issues, though she does not describe fine lines or wrinkles specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Hydrating feel on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Soft skin after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Improves skin tone and texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-comedogenic, lightweight formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sudden breakout after first use",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Fits into multi-step layering routines",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Rationalreasonz",
+   "titre": "Instantly broke me out!",
+   "texte": "I am NOT acne prone by any means but THIS broke me out so bad after 1 use!",
+   "date": "2025-08-06",
+   "verifie": false,
+   "utiles": 18,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "cjlove75",
+   "titre": "Amazingly Surprised!",
+   "texte": "I just started using Medicube about 3 weeks ago! I'm 50 yrs old and my skin has become more breakout-prone, dull, and thanks to menopause, it has become sensitive to everything. I haven't had any issues with breaking out at all. It has really hydrated my skin and complemented the other Medicube products that I have. I use the hypochlorous acid spray first. Which is AMAZING! I also use the Cica pads, Pore Zero, collagen masks, and Vitamin C cream. My skin has never looked better and I have had zero acne issues, and my dermatitis is going away!! Definitely will be repurchasing!!",
+   "date": "2025-10-28",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "barrier",
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Liz",
+   "titre": "Actual results",
+   "texte": "I feel like I rarely see a chance but I notice my skin tone and texture becoming better after just a few uses and now that I'm through my first bottle and about to buy another I 10/10 recommend. I have dry sensitive skin & eczema and had no problems with irritation",
+   "date": "2025-09-04",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gem",
+   "titre": "I would definitely buy this again!",
+   "texte": "Medicube is one of my favorite skincare products! This toner makes my face feel so soft and hydrated.",
+   "date": "2025-08-30",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ana",
+   "titre": "Perfect!",
+   "texte": "Amazing product! Non-comedogenic! Not heavy! Much better than all american brands in the same and even higher price range",
+   "date": "2026-01-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "KJ",
+   "titre": "hydrating",
+   "texte": "This is one of my go to toners for skin flooding, it's usually the first layer. Very hydrating.",
+   "date": "2026-02-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "Only nine reviews are available and most give little detail on skin type or concern, so conclusions for underrepresented segments like oily, combination, or normal skin cannot be drawn."
+}

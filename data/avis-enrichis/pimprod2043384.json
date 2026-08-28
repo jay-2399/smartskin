@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2043384",
+ "asin": null,
+ "pid": "pimprod2043384",
+ "source": "ulta",
+ "nom": "florence by mills Pore Power To You Deep Cleansing Pore Strips",
+ "note": 4.22,
+ "nbAvis": 131,
+ "lus": 80,
+ "collectes": 120,
+ "segments": {
+  "oily": "Reviewers with oily or oily/acne-prone skin generally report the strips remove blackheads and excess oil without stripping the skin, though one oily-skin reviewer found the strips would not stick well.",
+  "dry": "One reviewer with normal/dry skin found the strips left her nose and chin somewhat flaky after use.",
+  "combination": "A reviewer with oily-to-combo skin said the strips did little beyond reducing oiliness and left her skin burning and dry.",
+  "sensitive": "A reviewer who identifies as having very sensitive skin experienced chin irritation lasting a few hours, though the strips did not worsen her acne.",
+  "mature": "One reviewer states the strips can be used on 'old or younger skin,' suggesting suitability across ages, but no dedicated mature-skin outcome is described in detail."
+ },
+ "concerns": {
+  "aging": "Only a single passing mention notes the product works for 'old or younger skin'; no other aging-specific outcomes are reported.",
+  "dehydration": "Most reviewers report the strips leave skin soft, smooth or moisturized rather than dry, but a few describe flakiness, dryness, stinging or burning afterward.",
+  "redness": "Several reviewers explicitly note no redness or irritation after use, while others report tingling, burning, or irritation, including one who found her nose reddened less than with other brands.",
+  "barrier": "A few reviewers mention concern about strips stripping natural oils or moisture, but most who tried them said their skin did not feel stripped or tight afterward.",
+  "spots": "Reviewers with acne-prone skin report the strips helped clear breakouts and faded acne scars on the chin, though results on the nose were sometimes described as less noticeable.",
+  "blemishes": "Most reviewers report visible removal of blackheads and whiteheads, especially on the nose; a minority say almost nothing came out or blackheads remained.",
+  "oiliness": "Multiple reviewers with oily skin report the strips absorbed excess oil and reduced shine without over-drying, though one reviewer felt it only reduced oiliness without pulling much debris."
+ },
+ "aspects": [
+  {
+   "libelle": "Cute patch designs and packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible gunk pulled from pores",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strip loses adhesion or falls off",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Painful or skin-stripping removal",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Residue left after peeling",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Softer smoother skin after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Lyla",
+   "titre": "#florencepanel",
+   "texte": "I received this product as sample for the #florencepanel. These pore strips are unbelievably adorable but they don't do too well. I used them a couple of times and almost nothing came off of them. I have oily to combo skin and these didn't really help other than make my skin less oily. These strips left my skin burning and dry.",
+   "date": "2024-01-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Emily",
+   "titre": "Wasn't the best for my skin",
+   "texte": "| was provided a free sample as part of the #florencepanel by florence by mills to try the product and write an honest review. After using this product I did not notice many differences in my skin. It didn't make my acne worse but it did irritate my chin for a few hours after using, this could just me because I have very sensitive skin but I overall I don't think this product is the best for me",
+   "date": "2024-01-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Adrianna",
+   "titre": "I adore this product",
+   "texte": "I was kindly gifted a free sample of this product as a member of #FLORENCEPANEL by florence by mills when I tried the product for the first time I was impressed with the outcome, my pores were less visible and my oily skin was at bay. My skin is oily so when I normally use products like this my skin will be stripped or feel tight but this was not the case I will definitely be buying again!",
+   "date": "2024-01-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Bri",
+   "titre": "#FLORENCEPANEL",
+   "texte": "This is my review on being part of the #FLORENCEPANEL. I was sent a free sample by Florence by Mills to review their product honestly. The Pore Power To You Deep Cleansing Pore Strips is a good product but I would hold off on getting them again. After removing the strips off of my nose & chin, they did remove just about almost everything. But the downside that I have on this product is it left my nose & chin a but flaky. Since my skin is normal / dry.",
+   "date": "2024-01-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "nylm",
+   "titre": "Great for oily acne prone skin",
+   "texte": "I have found that these do a better job for my oily, acne prone skin. I have constant issues with blackheads and I leave these on for 20+ mins and they do a way better job than any other brand I've tried. Just make sure to leave it on 20-30 mins instead of 10-15mins. It will pull out all the gunk!",
+   "date": "2026-08-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Garylisse",
+   "titre": "It's alright",
+   "texte": "I was provided a free sample as part of the #florencepanel by florence by mills to try the product and write an honest review. I used these strips on my chin and within days my acne scars started to fade away. I would say that when I did place the strip on my nose I didn't really see a difference, and it also wouldn't stay on my nose but other than that it worked on my chin where I tend to break out.",
+   "date": "2024-01-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Samantha",
+   "titre": "Florenece Power to you deep pore strips",
+   "texte": "I dont normally use pore strips mostly because I heard it hurts and strips your skin of oil leaving skin dry but these strips felt very moisturizing and didn't really hurt and all. I was given a free sample as a part of #FLORENCEPANEL",
+   "date": "2024-01-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2051958",
+ "asin": null,
+ "pid": "pimprod2051958",
+ "source": "ulta",
+ "nom": "VT Cosmetics Reedle Shot 100",
+ "note": 4.83,
+ "nbAvis": 536,
+ "lus": 56,
+ "collectes": 56,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin generally advise starting at the 50 or 100 level, reporting the sensation as gentle and tolerable rather than irritating, though a few warn newcomers to sensitive skin to go low first.",
+  "combination": "One reviewer with acne-prone, blemish-affected skin reports needing to ease the product in slowly and pair it with a barrier-supporting routine to avoid breakouts.",
+  "normal": "A reviewer describing her skin as decently resilient found the 100 level very gentle and noticed softer, glowier skin."
+ },
+ "concerns": {
+  "aging": "One reviewer mentions using the product for tightening effects as an alternative to in-office treatments, describing visible firming results.",
+  "dehydration": "Multiple reviewers report increased softness, plumpness and hydration after use, with several noting a healthy glow; no reports of increased dryness.",
+  "redness": "No reviewer specifically reports redness as an outcome, though those with a compromised barrier or sensitive skin are warned the sensation can resemble a mild chemical peel.",
+  "barrier": "One reviewer with a damaged or sensitive barrier reports a mild chemical-peel-like feeling that resolves with consistent use over about two weeks, showing improvement rather than worsening.",
+  "spots": "One reviewer reports fading of post-acne hyperpigmentation and more even tone after about a week of use.",
+  "blemishes": "One reviewer with acne-prone skin and forehead/brow breakouts reports the product as a turning point for that specific problem area, but also cautions against applying it directly on active breakout days to avoid irritation or new breakouts.",
+  "oiliness": "No reviewer reports a change in oiliness; several instead describe the texture as lightweight and non-greasy."
+ },
+ "aspects": [
+  {
+   "libelle": "Tingling or prickling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Improves absorption of other skincare products",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels like mild chemical peel on damaged or sensitive skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Risk of breakouts if overused or layered heavily",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Multiple strength levels for different skin needs",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible pore refinement over time",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Susie",
+   "titre": "Use carefully",
+   "texte": "I have acne prone skin and blemishes from teenage years. A friend of mine used this and I didnt know until I complimented how different her skin looked. I gave it a shot and use this twice a week to get used to it. I am about to upgrade and add the 300 on one of the two days I use this product. I looked at the reviews on the 300 and was suprised. This isnt a \"use everyday\" product. You have to ween it into your skin care routine. On my \"reedle\" nights, I only cleanse, reedle, use my barrier essence and moisturizer. My barrier essence has peptides and ceramides which is good to use. If you use reedle and slap on a bunch of other products, theres a high chance to get irritation or breakouts. Dont use on breakout days or simply dont put reedle on your breakout spots. This is a good product so your serums and products can absorb better without abrasive treatments. The trick is the right serums, spf, and moisturizer. I have noticed a difference with my skin and do recommend, only if you use it properly. Its not an instant gratification type of thing. With the right skincare routine, this is golden. Hope this review helps someone.",
+   "date": "2026-07-23",
+   "verifie": false,
+   "utiles": 36,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melanie",
+   "titre": "Effective Product",
+   "texte": "If you have a damaged skin barrier or sensitive skin it will feel like a mild chemical peel but if you use it consistently you will see results after about two weeks.",
+   "date": "2026-05-17",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anna",
+   "titre": "Very good product for problem skin!",
+   "texte": "I've been struggling with acne on one particular area of my face, but this product because a game changer for me since I had acne only on my forehead and between my brows. Defined recommended!!!",
+   "date": "2026-05-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shirley",
+   "titre": "Saw results after use",
+   "texte": "The 100 Reedle Shot was good for my sensitive skin and I saw improvement of product absorption after use! Would recommend to try to see if it works well for you",
+   "date": "2026-05-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brittany",
+   "titre": "So excited for this product!!",
+   "texte": "Since I have sensitive skin I will be using the 50! I love the way it made my skin feel. It wasn't too intense with the tingle feeling.",
+   "date": "2026-05-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dim",
+   "titre": "Reedle shot",
+   "texte": "I love reedle shot I has been using reedle shot 100 for 6months and my skin has been good and no more large pores",
+   "date": "2026-05-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Aaron",
+   "titre": "I would buy this product again",
+   "texte": "If you've been searching for a skincare product that actually delivers on the promise of glass skin, the VT Reedle Shot (often called needle shot) is an absolute game-changer. I was skeptical about the \"micro-needle\" concept at first, but after adding it to my nightly routine, I am completely hooked. Here is why this viral product deserves all the hype: • Texture Transformation: Within just a week of use, the stubborn texture around my cheeks and forehead completely smoothed out. My skin feels incredibly soft, almost like it's been professionally airbrushed. • Maximum Product Absorption: Because it utilizes microscopic, mineral-derived spicules to create micro-channels in the skin, it acts as a booster. Everything I apply afterward—hyaluronic acid, snail mucin, or ceramides—sinks in instantly and works twice as hard. • Radiant Glow: It has noticeably faded my post-acne hyperpigmentation and evened out my skin tone, leaving me with a healthy, lit-from-within radiance that I haven't seen in years.",
+   "date": "2026-05-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

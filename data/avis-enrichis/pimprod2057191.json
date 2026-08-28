@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2057191",
+ "asin": null,
+ "pid": "pimprod2057191",
+ "source": "ulta",
+ "nom": "AmLactin Bright & Smooth Serum",
+ "note": 4.68,
+ "nbAvis": 56,
+ "lus": 53,
+ "collectes": 53,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin are split: several report the serum is gentle, non-irritating and even calming, while others describe redness, burning, rashes, or itchy bumps from the same product.",
+  "combination": "One reviewer with combination skin reports it evened out her skin.",
+  "mature": "Not enough mentions of mature skin specifically to characterize this segment."
+ },
+ "concerns": {
+  "dehydration": "Reviewers report the serum feels hydrating and pairs well with moisturizers, leaving skin feeling smoother and less dry, particularly on body areas like arms and legs.",
+  "redness": "Some reviewers say it soothes and calms redness and irritation, but others report the product itself caused new redness, burning, or hives on application.",
+  "spots": "Most reviewers who mention dark spots, hyperpigmentation, or sun spots report visible fading or improvement, often within weeks; one reviewer used it about a month with no brightening result.",
+  "blemishes": "Reviewers using it for post-acne marks and acne-prone skin generally report gentle exfoliation without triggering breakouts; one reviewer's skin reacted with a rash and itchy bumps."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sticky or greasy residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle, good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Irritation, burning or rash on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Minimal exfoliation results for some users",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective on rough texture and KP bumps",
+   "polarite": "pos",
+   "concerne": [
+    "spots"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Liz",
+   "titre": "Returning this",
+   "texte": "I used this product on my face one time , it gave me a rash and burned my skin. I assumed it's because I have sensitive skin (even though it says that's it's sensitive skin friendly). I decided to use it on my body instead and I also have itchy bumps all over my arms.",
+   "date": "2026-07-07",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jess",
+   "titre": "Really good for sensitive skin",
+   "texte": "I am using this on my back to remove post-acne spots and on my face under makeup and am impressed with the results! I have very sensitive skin and most exfoliating products will cause irritation, redness and hives. I will continue to purchase- my skin feels smoother and is clearer!",
+   "date": "2026-03-23",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jen",
+   "titre": "Visible Results!",
+   "texte": "I purchased this product two weeks ago and have been using it on my face and various parts of my body everyday. I have seen a noticeable difference in my skin as my face is brighter and some of my dark spots are beginning to fade. This serum also immensely helped with textured skin on my chest and body making my skin brighter and more even. As someone who has sensitive skin that reacts to actives, I'm pleasnatly surprised that it did not make my skin sensitive or irritated at all!",
+   "date": "2026-04-30",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ggg",
+   "titre": "really works!",
+   "texte": "I always have struggled with KP and discoloration on my arms and I have used different creams and serums trying to control it and get rid of it and the bumps on my arms. I used this product ONCE and I already see the biggest difference that in years of using other products I didnt. My arms are almost 100% smooth, some of the discoloration is gone and a lot of the bumps disappeared. I cant wait to see what consist use will bring. amazing product!",
+   "date": "2026-03-23",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "elsa",
+   "titre": "nothingburger",
+   "texte": "I bought this to replace my Thayer's exfoliating toner, but alas, this somehow does even less than that one. I've been using it nightly on my face for several weeks and the exfoliation, if any, has been minimal. I'm going to try it on my body next to see if it works there, because it is a large bottle and I don't want to waste it.",
+   "date": "2026-07-27",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sandy",
+   "titre": "The Best!",
+   "texte": "I am absolutely in love with this product. I have acne prone and sensitive skin and this product has been gentle. I have some sun spots and they are slowly fading.",
+   "date": "2026-03-23",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Wendy",
+   "titre": "Great body smoothing serum",
+   "texte": "My first Amlactin product and it has made me a fan! I've used this on my arms and chest mostly and have been very impressed with how smoothing it is. I reduced by one star only because, after about a month of use, i havent seen any brightening. However, I really like the benefits I'm getting from it!",
+   "date": "2026-06-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

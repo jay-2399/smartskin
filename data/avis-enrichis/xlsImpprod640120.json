@@ -1,0 +1,164 @@
+{
+ "ref": "xlsImpprod640120",
+ "asin": null,
+ "pid": "xlsImpprod640120",
+ "source": "ulta",
+ "nom": "Neutrogena Age Shield Face Oil-Free Sunscreen SPF 70",
+ "note": 3.43,
+ "nbAvis": 92,
+ "lus": 73,
+ "collectes": 73,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone skin report the product controls oil, sinks in easily, does not cause breakouts, and works well under a matte primer.",
+  "dry": "One reviewer with dry skin found it softened and hydrated her skin, while another described it as somewhat drying and prone to streaking.",
+  "sensitive": "Reviewers identifying as sensitive-skinned report mixed results, from rashes, redness and stinging in the eyes to one case of no redness and good moisture retention.",
+  "mature": "Reviewers in their 50s-60s report using it to prevent age spots and wrinkles and describe it as effective daily sun protection, with no complaints specific to mature skin beyond wanting non-greasy wear."
+ },
+ "concerns": {
+  "aging": "Several reviewers use the product specifically to prevent wrinkles, dark spots and premature aging, reporting fewer age spots and smoother-looking skin with regular use; no reviewer reports the product worsening visible aging, though one avoids it due to fragrance she believes ages skin.",
+  "dehydration": "One reviewer with dry skin reports her skin felt softer and no longer dry after use; another describes the formula as somewhat drying, so accounts diverge.",
+  "redness": "Several reviewers report developing facial or neck redness, itching, or rash-like reactions, sometimes lasting days; others explicitly note no redness or irritation, including one with sensitive skin.",
+  "barrier": "A few reviewers describe reactions resembling chemical burns, tightness, itching, and rough texture lasting several days after use, though most reviewers report no such barrier disruption.",
+  "spots": "Multiple long-term users credit the sunscreen with preventing new age or dark spots; one mentions dark spots appearing quickly if she skips protection, implying the product helps when used consistently.",
+  "blemishes": "Reviewers with acne-prone or oily/combination skin report no new breakouts or clogged pores, with one recommending a matte primer on top; no reviewer reports the product causing blemishes.",
+  "oiliness": "Reviewers with oily skin describe the product as non-greasy and oil-controlling, though several others (unspecified skin type) describe the finish as greasy or heavy despite being labeled oil-free."
+ },
+ "aspects": [
+  {
+   "libelle": "Stings or burns eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves white cast",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick, hard to rub in",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy, lightweight feel",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Noticeable fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Reliable sun protection, no burns",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jewel",
+   "titre": "Rash/burn for 3 days & counting",
+   "texte": "This made my neck break out in a rash that looks like a skin disease. I stopped using it immediately & it's been a few days now & still hasn't fully healed. It's super red & itchy, only on my neck. I think that's because the neck skin tends to be more sensitive. What ever is in this formula is not good for people that have sensitive skin. I'm surprised it worked for so many people. I've used a lot of products & none have done this.",
+   "date": "2021-01-23",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Sophie",
+   "titre": "don't try it unless you like chemical burns",
+   "texte": "first of all, neutrogena removed this from their website, so now it's going on every retailer i can find. i usually use murad environmental shield with broad spectrum spf 30 but i had some of this from a year ago. i put it on my face this weekend as i was spending awhile in the sun and after a couple hours noticed my skin getting tight and itchy. i washed it off immediately and moisturized but to no avail. now, three days later, my skin is red, tight, itchy, and covered in small bumps (i used to be proud of my smooth texture - it is so rough now that it makes me sad to even apply moisturizer because i have to feel how bad it is now.) and it BURNS. i have been applying cold compresses, aloe, and tons of moisturizer to no avail and i have been crying for the past three days because it has destroyed my skin and it hurts so, so badly. i don't even have sensitive skin!! i've never had a reaction like this before - not to retinol, vit C, not even an AHA chemical peel - but this sunscreen has some extremely harsh chemicals in it that are not to be trifled with. i am praying this doesn't last too long. it hurts so bad :(",
+   "date": "2020-12-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "dolphin99",
+   "titre": "really good sunscreen",
+   "texte": "My job is outdoors, so I'm in the sun all day long. This stuff really protects my skin. I never get burned! I have oily, acne-prone skin and this doesn't make me break out at all. It sinks into skin really easily and I love the fact that it has antioxidants in it. This is the first facial sunscreen that I've used where I am able to apply it around the eye area and it doesn't burn. The only problem I have is with the smell, which is too strong.",
+   "date": "2011-05-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "mar",
+   "titre": "I would buy this product again",
+   "texte": "i have dry face after i use Neutrogena age shield face lotion my skin feel more soft and no more dryness i love it",
+   "date": "2014-09-15",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "cj",
+   "titre": "great sun block in captiva, florida sun",
+   "texte": "I just celebrated my 64th birthday and spent 7 days in the sun on Captiva Island, FL. I needed a product that would keep the skin on my face and body from breaking out, burning and wrinkling. This product worked beautifully in some strong, hot sun. I believe I have found the answer to being in the sun and not worrying about skin cancer.",
+   "date": "2011-06-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "melanie31",
+   "titre": "I like it",
+   "texte": "After use this sunblock, my sensitive skin didn't turn red or tan. It do protection and keep moisture very well.",
+   "date": "2010-04-08",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Jess",
+   "titre": "Just Ok",
+   "texte": "This is not a bad product inherently. It does what it says it will and you can always benefit from a sunscreen, especially high SPF. Unfortunately it is just heavy, thick and tough to rub in. You can't get away with applying without a mirror and it takes a minute to absorb so don't apply makeup instantly afterwards. I won't be buying it again, but it's not horrible.",
+   "date": "2020-08-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,161 @@
+{
+ "ref": "mkt77009932",
+ "asin": null,
+ "pid": "mkt77009932",
+ "source": "ulta",
+ "nom": "Onekind Youthdrops Gentle Refining Peel",
+ "note": 4.91,
+ "nbAvis": 54,
+ "lus": 49,
+ "collectes": 49,
+ "segments": {
+  "sensitive": "Multiple reviewers describe sensitive skin, including rosacea and Celtic/redness-prone skin, and report the peel does not irritate, cause tingling that is described as mild or pleasant, and in some cases replaces harsher exfoliants that previously caused reactions.",
+  "mature": "Reviewers aged 40, 64 and 65 report smoother texture, improved firmness and a smoother neck with regular use, describing it as a gentle overnight resurfacing step for aging skin.",
+  "dry": "One reviewer in a dry climate reports the product improves dryness-related texture and tone temporarily without further drying her skin."
+ },
+ "concerns": {
+  "aging": "Reviewers in their 40s to 60s report smoother texture, improved firmness, and smoother neck skin with regular use over weeks to a year.",
+  "dehydration": "Reviewers report skin feels hydrated, soft and not dried out the morning after use, especially when layered with a moisturizer or the brand's night cream.",
+  "redness": "Reviewers with rosacea or general redness/ginger-toned skin report reduced redness and more even-looking skin, with one saying she needs her rosacea prescription less often; no reviewer reports increased redness.",
+  "barrier": "Reviewers with reactive or rosacea-prone skin report the product does not aggravate their skin and can replace harsher exfoliants that previously caused sensitivity.",
+  "spots": "Many reviewers report fading of dark spots, hyperpigmentation and acne scars within two weeks to a few months, including on the chest and hands; no reviewer reports spots worsening.",
+  "blemishes": "One reviewer reports the product helps keep her back clear of blemishes; acne itself is not extensively discussed elsewhere in the reviews.",
+  "oiliness": "Oiliness is not discussed by reviewers in this set."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong vinegar-like smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smell fades quickly and is tolerable",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild tingling on application",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pairs well with brand's night cream",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle dispenses too fast, needs tip trimmed",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for bottle size",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Janis G.",
+   "titre": "Love at First Drop",
+   "texte": "First of all, I am in love with all the OneKind products I have purchased. I just added Youthdrops to my nightly routine. Because I have rosacea, I was worried that the drops would be too aggressive, but that was not the case. I'm using 3 times a week, starting on my forehead and sides of my face and carrying the residual cream to my cheeks and nose where my rosacea is more predominate. I let it sink in and follow with Moon Drops and Dream Cream...and off to bed! PS: Since using OneKind products I don't need to use my Roseacea prescription Gel as frequently!",
+   "date": "2023-09-27",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer W.",
+   "titre": "Gentle and effective",
+   "texte": "I have been using Youthdrops Gentle Refining Peel for several months, and find it genuinely effective. I use it a couple times a week on my 64 year old face and neck. I have found it very helpful keeping my skin smooth and hydrated, without drying. I am happy to note that my neck is also smooth and doesn't resemble a turkey! Some reviews note the scent being off- putting, but I don't think it's bad, and it very quickly dissipates. It's definitely an overnight treatment to keep on repeat. Highly recommend!",
+   "date": "2025-12-16",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katie O.",
+   "titre": "Remarkable product",
+   "texte": "I used tretinoin for years which I thought was helping to heal up my acne scars but since I discovered youth drops I stopped using tret. The youth drops have completely erased my acne scars in 1/4 of the time it would've taken tret to do. I swear I can even notice a difference day to day. It's also working to reduce the hyperpigmentation on my chest. I use youth drops at night and hyper drops during the day. These products are incredibly effective. Like magic.",
+   "date": "2025-07-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Linda H.",
+   "titre": "Pleasantly surprised",
+   "texte": "I have a tendency toward sensitive skin with rosacea as I get older and I was pleasantly surprised this product didn't aggravate that. There was a tingle applying it, but it was actually quite pleasant! I just discovered these products and am eager to see how they work in the long-term. I love discovering excellent products and would so much rather support a small business.",
+   "date": "2023-06-21",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Catherine R.",
+   "titre": "Quick results",
+   "texte": "Youthdrops do not cause a reaction on my sensitive Celtic skin. I do apply a second serum over it, which dilutes the Youthdrops so I can use it daily. I put an eye cream and moisturizer over that. I'm using Youthdrops on my hands as well. The spots are fading and skin quality has improved.",
+   "date": "2024-04-22",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Charity C.",
+   "titre": "Love but",
+   "texte": "I love one kind love their products. This product feels great will say I've not used it long enough to say it works for sure, but if it's like their other products it will. My only complaint is the smell…. It's about dang unbearable",
+   "date": "2024-03-09",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Vanessa S.",
+   "titre": "When I need to pull out the big guns",
+   "texte": "My skin is generally pretty chill. I'm 40, white and live in the desert so it gets dry and stuff but otherwise is holding up pretty well. But I teach classes about once a month and the night before, I like to use this serum. My skin looks so nice for like 2 days afterwards! I was given a little travel size so I use it sparingly, but MAN, does it work. It improves the texture, the overall color tone, and I just have this *glow*. I only need to put on a little color correcting powder in the morning (I have some broken capillaries that not even this liquid gold can fix) and I'm good to go. I look like I have makeup on! But it's just skincare and a little powder. Love this product. Although, I do have to say it smells pretty bad lol. Not like perfume, thank goodness. It smells like a skin care product that hasn't been perfumed. I'm glad about the lack of perfume and yet it's smelly for a few minutes. I don't care, still love it.",
+   "date": "2024-10-12",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

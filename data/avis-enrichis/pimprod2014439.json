@@ -1,0 +1,171 @@
+{
+ "ref": "pimprod2014439",
+ "asin": null,
+ "pid": "pimprod2014439",
+ "source": "ulta",
+ "nom": "COSRX Advanced Snail Peptide Eye Cream",
+ "note": 4.2,
+ "nbAvis": 203,
+ "lus": 80,
+ "collectes": 118,
+ "segments": {
+  "oily": "A reviewer with oily skin who normally avoids cream products found this eye cream light and non-heavy, with a little going a long way.",
+  "dry": "Reviewers with dry or very dry under-eyes report strong, lasting hydration and relief from flaking and dryness, though a couple found it insufficiently moisturizing for their needs.",
+  "combination": "A combination, acne-prone reviewer reports a non-greasy plumping effect, while another combination-skin reviewer developed milia and stopped use.",
+  "sensitive": "Sensitive-skin reviewers are split: several report no irritation and even soothing relief after other products burned them, while others describe redness, swelling, rashes or extreme sensitization from this cream.",
+  "mature": "Mature-skin reviewers (40s-55+) report smoother skin, reduced fine lines and crow's feet, and being told they look younger."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visibly smoother skin, reduced fine lines, crow's feet and wrinkles, some after weeks to a year of use; a few say it did nothing for wrinkles or fine lines.",
+  "dehydration": "The large majority describe strong, lasting hydration and plumping, sometimes over 24 hours; a couple of dry-skin reviewers still found it underwhelming for moisture.",
+  "redness": "Some reviewers report reduced redness and a calmer under-eye area, but others developed redness, rashes or swelling directly from the product.",
+  "barrier": "Several reviewers with reactive or psoriasis-affected skin report no irritation and healing of prior irritation from other products, while others say the product itself heightened their skin's sensitivity or caused burning bumps.",
+  "spots": "A few reviewers mention scars or discoloration improving (one cites healing a scar), though this is not a frequent theme.",
+  "blemishes": "Several reviewers developed small bumps, milia, or cystic-like irritation under the eyes, sometimes within a day or weeks; many others explicitly report no milia or breakouts.",
+  "oiliness": "One reviewer noted increased sebum around the eye area over time; an oily-skin reviewer otherwise found the formula appropriately light and non-greasy."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slimy or runny initial consistency",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, economical bottle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser malfunctions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bumps or milia after use",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes",
+    "sensitive",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "No noticeable brightening effect",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Grace",
+   "titre": "Gave me milia!!! Bad",
+   "texte": "This eye serum gave me milia!! :(( i never had milia (small white hard bumps that cannot he popped) until i used this!! I had switched to using only this cream under my eyes - nothing else in my routine changed. Within a few weeks of usage i got 3 milia bumps!! I Never had them before in ny life!! Used cosrx mucin on my face fine in the past so i got their eye cream and had the worst experience. I Had to use glycolic acid and extraction to get rid of them. Caution!! Product is too heavy for under the eyes think skin and causes milia!! Once i stopped using this a month ago i havent had any more milia. I'm 21 years old for reference and combo skin little bit of acne.",
+   "date": "2024-01-14",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Ela",
+   "titre": "Not my favorite of all time, but pretty close.",
+   "texte": "I have very sensitive skin due to psoriasis, and finding an eye cream that works without irritation is challenging. This cream does a very good job at moisturizing my eye area and softening the fine lines. It does a pretty decent job with puffiness, as well. I wish that it was a bit more brightening, but for what it is and the price, it's definitely hard to beat.",
+   "date": "2025-06-03",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brooke",
+   "titre": "love love love",
+   "texte": "I have super dry under eyes & issues with concealer being super patchy/pilly/just not cute looking. I started using this in the mornings (and at night rotating w a retinol eye cream) and waiting like 5 minutes so it dries down and it looks so good under make up and really hydrated the undereyes! I have sensitive skin and this is now a ride or die for me. (also anything cosrx from the 96 to the pimple patches and pimple cream is 10/10 for sensitive/dry skin, i dont write reviews but i love it so much i had to)",
+   "date": "2023-07-08",
+   "verifie": false,
+   "utiles": 39,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SM",
+   "titre": "Big fan!!",
+   "texte": "Bought this because it had some decent reviews and was half the price of the eye cream I had been using. It's been about a month of using it and my goodness I love it!! Obviously can't tell you long-term impact, but this gives my undereye a plump within minutes and is non-greasy/sticky. Will be repurchasing! I'm 25 with acne prone, combination, fair/light skin for reference.",
+   "date": "2023-04-07",
+   "verifie": false,
+   "utiles": 22,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "HelenaofPhoenix",
+   "titre": "Mid-20's gal with oily skin really likes it!",
+   "texte": "This has really worked well for me. I have oily skin and I generally stay away from cream based products, but this eye cream is very light and not heavy at all. A little goes a long way when using it. It's a very easy product to use with the pump.",
+   "date": "2022-12-17",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shabih",
+   "titre": "Absolutely Amazing!!!",
+   "texte": "I have extremely dry skin and horrible bags. This eye cream has kept my under eyes moisturized for more than 24hrs. The skin feels so soft and definitely brightens. For diminishing my eyes bags, I honestly didn't notice it, but my siblings said my eye bags had gotten severely less, (and u know its true when ur sibs finally compliment u lol). If you're going to wear makeup, I recommend using the eye cream in an hour advance because it takes a while to dry.",
+   "date": "2021-08-01",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Kiks",
+   "titre": "Not good for me",
+   "texte": "I bought this product around 2 months ago and have been using this consistently. I watched lots of tiktok videos before buying this and I heard really good stuffs about it. For the first 2 weeks it was good on my skin. I felt like it did some thing but overtime my skin around eye area kept on getting worst. I realized after using this eye cream I had little sebum around my eye area. Every time I used this product my skin looked horrible. Never purchuasing this again.",
+   "date": "2024-02-11",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

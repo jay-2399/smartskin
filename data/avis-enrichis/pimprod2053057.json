@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2053057",
+ "asin": null,
+ "pid": "pimprod2053057",
+ "source": "ulta",
+ "nom": "Hero Cosmetics Dark Spot Corrector",
+ "note": 2.47,
+ "nbAvis": 19,
+ "lus": 16,
+ "collectes": 16,
+ "segments": {
+  "sensitive": "One reviewer with sensitive skin reports itchy, painful blisters and swelling after a single use and warns against use on sensitive skin; another with normally clear skin (self-described smooth, no breakouts, age 59) broke out in small bumps.",
+  "mature": "A 59-year-old reviewer whose skin never breaks out developed small bumps after use and returned the product."
+ },
+ "concerns": {
+  "spots": "Several reviewers report no visible fading of dark spots after one to two weeks of daily use and contrast this unfavorably with the discontinued 'lightning wand' formula; against this, four reviewers report visible fading within a few days to a week, including on post-acne marks and an acne scar near the nose.",
+  "blemishes": "One reviewer applying the pen on early-stage blemishes reports they heal with less scarring; two other reviewers report new small bumps or breakouts appearing in the areas where the product was applied, one describing itchy, painful blisters and swelling.",
+  "aging": "No reviewer discusses aging-related concerns such as wrinkles or firmness."
+ },
+ "aspects": [
+  {
+   "libelle": "Sticky, tacky drying finish",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rollerball applicator feel and dispensing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "New tube dispenses no product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cannot wear under makeup / apply multiple times daily",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "New formula seen as weaker than discontinued version",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Perceived as pricey for a drugstore product",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Ash",
+   "titre": "It's A No",
+   "texte": "I've used many different skin care throughout the years, ive had acne my entire life. Using this once (and the only new item in my routine) resulted in itchy, painful blisters and swelling. I HAVE to be allergic to it. Would not recommend for anyone with sensitive skin.",
+   "date": "2025-12-20",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Cindy",
+   "titre": "Made my face break out....urgh!",
+   "texte": "I bought this hoping to fade my dark spots and freckles. My face broke out in small bumps in the areas I used this product. My face never breaks out, I'm 59 years old. I have always been happy with my smooth skin, and never any issues with bumps, breakouts. Just returned it, disappointed.",
+   "date": "2026-01-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "jessie",
+   "titre": "Poor results and application.",
+   "texte": "No results after 2 weeks of use. It can't be used under makeup, so cannot apply 3 times daily as recommended if leaving the home. It does not get absorbed well, and stays sticky. Other reviews say the previous wands were more effective, but no longer available.",
+   "date": "2026-06-06",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "swissroll",
+   "titre": "Awesome delivery system!",
+   "texte": "This dark spot correct has been awesome. I've been using it about two weeks now and I absolutely love the delivery system of this pen. It clicks so easy and produces the perfect amount of serum each time. the rollerball is metal and feels great, the serum comes out of several openings around the rollerball so you get a even application! the serum is clear, is a great consistency (not too thick or thin) and dries down relatively quickly. I took a star off because I've only been using the product for about two weeks and can't speak to it's efficacy yet but so far it looks promising. I dont have many dark spots but i always have a blemish or two in various stages so ive been applying post blemish and do notice less scarring. I do tend to squeeze/ disturb my blemishes in the early stages and I feel this corrector pen has been helping them heal better!",
+   "date": "2025-08-24",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jnn-k",
+   "titre": "IT WORKS!!!",
+   "texte": "i just started using this and it actually works??! i had this awkward acne scar around my nose and now its less noticeable. it usually takes 7 days for it to work, highly recommend it!!",
+   "date": "2025-08-18",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "lily",
+   "titre": "pleasantly surprised!",
+   "texte": "I didn't think it'd make a difference but it has! I have light skin and I HAD dark spots and now I don't!",
+   "date": "2025-10-13",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "lud",
+   "titre": "Nothing comes out",
+   "texte": "I loved the previous version of this product, but with the new packaging, nothing came out of the tube. I twisted it over a third of the way up, and no serum at all came out. A complete waste of money.",
+   "date": "2025-12-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": "The sample is small (19 reviews) and skin type/concern details are stated by only a few reviewers, so segment-level conclusions beyond 'sensitive' and 'mature' skin are not supported by the material."
+}

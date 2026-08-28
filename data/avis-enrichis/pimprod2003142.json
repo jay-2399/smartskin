@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2003142",
+ "asin": null,
+ "pid": "pimprod2003142",
+ "source": "ulta",
+ "nom": "Kate Somerville Liquid ExfoliKate Triple Acid Resurfacing Treatment",
+ "note": 4.71,
+ "nbAvis": 779,
+ "lus": 78,
+ "collectes": 113,
+ "segments": {
+  "oily": "One reviewer with skin that went from oily to dry over time reports no new blemishes and no added dryness with this product.",
+  "dry": "Several reviewers with dry skin report the product resurfaces without added dryness, though a few note it dried their skin out or required a moisturizer follow-up.",
+  "sensitive": "Sensitive-skin reviewers are split: most report the product is gentle, non-irritating and even helps keep skin clear, but one reports severe redness, burning and flaking after a single use, and one reports increased sensitivity after a week of use.",
+  "mature": "Reviewers describing mature or middle-aged skin report smoother texture, smaller-looking pores, fading dark spots, and in one case a tightening effect, with one noting no visible change to fine lines yet.",
+  "combination": "One reviewer with skin that shifted from oily to dry over the years reports the product avoided both breakouts and further dryness."
+ },
+ "concerns": {
+  "aging": "Reviewers linking the product to aging skin report smoother texture, smaller-looking pores, and a tightening effect; one reviewer says it is too early to tell if fine lines are improving.",
+  "dehydration": "Most reviewers report no added dryness and some describe hydrated, softer skin, but a few explicitly note the product dried their skin out and recommend following up with moisturizer.",
+  "redness": "One reviewer reports reduced redness by morning after use, while another with very sensitive skin reports severe redness and burning after a single application.",
+  "barrier": "Reviewers with reactive or sensitive skin mostly report no irritation and improved skin comfort over time, but one describes a burned, flaky, painful reaction and another notes increased sensitivity after a week.",
+  "spots": "Multiple reviewers report fading of dark spots, sun damage, post-acne marks and general discoloration, with visible lightening described within weeks by several users.",
+  "blemishes": "Most reviewers report fewer breakouts, faster clearing of acne, reduced blackheads and calmer inflamed spots; one reviewer reports no visible improvement at all.",
+  "oiliness": "One reviewer describes exfoliation helping keep pores less congested and skin less oily-clogged, though this is mentioned by only a single review."
+ },
+ "aspects": [
+  {
+   "libelle": "Smoother texture and refined pores",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Brightening and more even tone",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong fermented smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight stickiness on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast-drying, easy application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slow shipping from brand site",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus pricier acid serums",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Allie",
+   "titre": "Sensitive skin, run.",
+   "texte": "I used this ONCE and my face is red and looks burned. It has been a painful three days and now it's super dry and flakey… and still burns.",
+   "date": "2023-11-04",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Susie",
+   "titre": "Hoping this will never be discontinued!!!...",
+   "texte": "This product is AMAZING! I have more mature skin that has gone from oily to dry. It's difficult to find products that won't create blemishes or don't dry out the face even more after the first week or so of use. Happily, that is not the case with this product. I do NOT apply this to a cotton round. Instead, I pour a few splashes on my fingers and QUICKLY apply all over as it dries VERY fast. It's true that not a lot comes out at one time, but I've found that three squirts will suffice to cover the face and upper neck. You only need a THIN layer. It does have an ever so slightly stickiness to it, but when you wake up your face will be as smooth as silk and no stickiness remains (also true if you apply it in the morning). I haven't noticed brightening, but it does have a tightening effect that you can definitely feel over, AND your skin will have that perfect glass appearance. NO breakouts. NO pilling. NO irritation. What can I say? IT IS FABULOUS!!!",
+   "date": "2026-01-15",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kate",
+   "titre": "Amazingly gentle and overnight results!",
+   "texte": "I have very sensitive skin &amp; I was amazed with how gentle yet powerful this product is as it truly improved the texture &amp; tone of my skin overnight! I am sold forever &amp; can't live without it!",
+   "date": "2022-04-29",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "I have fair skin, minimal",
+   "texte": "I have fair skin, minimal wrinkles, large pores, 66 years old, and I feel like after one night my skin looked better, smoother, less noticeable pores. However, I hesitate to use it every night as I still like to be in the sun a bit so will definitely make sure I wear sunscreen. But I do recommend this product.",
+   "date": "2023-05-17",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Undisclosed",
+   "titre": "I have been using this",
+   "texte": "I have been using this daily for about a month, but I am not noticing any visible difference. Unlike all of the other KS products I use, I do not like the smell. I wish it had a pleasing odor, but it does not. Will not purchase again.",
+   "date": "2023-03-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Caroline",
+   "titre": "Must Follow up w Moisturizer or else!",
+   "texte": "Nice product for in between facials. Ye be warned… will dry out skin, so quickly follow up with moisturizers and avoid face sprays (like Mario B) that have alcohol in them.",
+   "date": "2021-11-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chelsea",
+   "titre": "Great for Acne and Anti-Aging!",
+   "texte": "I'm in my early thirties and need something that helps prevent acne *and* aging. This product has made a huge difference in the texture of my skin, dark spots, and reducing the incidence of acne.",
+   "date": "2021-10-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

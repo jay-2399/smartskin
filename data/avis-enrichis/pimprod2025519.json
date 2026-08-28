@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2025519",
+ "asin": null,
+ "pid": "pimprod2025519",
+ "source": "ulta",
+ "nom": "Good Molecules Clarify & Cleanse Bar",
+ "note": 4.62,
+ "nbAvis": 642,
+ "lus": 77,
+ "collectes": 94,
+ "segments": {
+  "oily": "Reviewers with oily skin report the bar keeps their face clear and recommend it for oily skin, though one notes it may be too stripping for dry skin by comparison.",
+  "dry": "Reviewers with dry skin describe the bar as gentle but note it can be drying with regular use, sometimes requiring extra moisturizer or less frequent use.",
+  "combination": "A reviewer with sensitive combination skin found it effective for acne but had to reduce use to a few times a week due to dryness; another with oily/dry combination skin says it cleanses without stripping moisture.",
+  "sensitive": "Sensitive-skin reviewers, including some with rosacea, lupus, or general allergy-prone skin, mostly report no irritation and good tolerance, though one sensitive/combo-skin reviewer experienced significant dryness and one reviewer had an allergic reaction with hives.",
+  "mature": "One reviewer in her late 30s avoids using it on her face due to pore-clogging oils but finds it works well on the body; another reviewer mentions softened fine lines and a more youthful look after use."
+ },
+ "concerns": {
+  "aging": "A couple of reviewers mention incidental improvements such as softened fine lines or skin looking more youthful, though this is not the product's main focus and appears only anecdotally.",
+  "dehydration": "Most reviewers say the bar cleanses without drying out skin or leaving it tight, but several others, especially with dry or sensitive skin, report noticeable dryness or the need to reduce usage frequency.",
+  "redness": "Reviewers report reduced redness, including one with rosacea and one with KP-related redness, describing calmer, less irritated skin after use.",
+  "barrier": "A reviewer with mild eczema reports improved texture and reduced irritation on the back after a few days of use, describing smoother, easier-to-moisturize skin.",
+  "spots": "Reviewers report reduced hyperpigmentation, dark marks, and discoloration, with some describing more even skin tone after weeks of use.",
+  "blemishes": "Most reviewers, including those with hormonal, cystic, bacterial, and body acne, report significant reduction in breakouts and blemishes, sometimes after long-standing struggles; however, several reviewers report the opposite, including new pimples, burns, hives, and worsened breakouts.",
+  "oiliness": "A reviewer reports the bar dries up oily problem spots on the skin, recommending it not be used daily once oil is under control."
+ },
+ "aspects": [
+  {
+   "libelle": "Sudsing and lather quality",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Plastic-free, eco packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin feeling clean and soft",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bar melts or disintegrates quickly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Can be drying with frequent use",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "sensitive",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Frequent stock shortages",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Toby",
+   "titre": "Great for acne, but drying for my sensitive combo skin.",
+   "texte": "I've only used it for a few days, and my acne is starting to die down. But, my skin got super dry with daily use, so I've had to stick to every few days. Definitely build up to using daily or only use a few times a week if you have sensitive skin because it can be SUPER drying. It's more likely to be the Salicylic acid in the product that is causing the drying than any fluke on the brands end, just wanted to give a heads up to anyone like me :)",
+   "date": "2024-11-10",
+   "verifie": false,
+   "utiles": 19,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Shanna",
+   "titre": "Bad reaction",
+   "texte": "After using this once my face broke out really badly. I had burns on my lip and breakout/ pimples all over. I didn't use it again and my face has returned to normal. I am not sure what caused it but will not use again.",
+   "date": "2025-05-19",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristina",
+   "titre": "Great as a body soap",
+   "texte": "I do not use this on my face as it has grape and rosehip seed oil in it, which clogs pores and im in my late 30s already dealing with hormonal acne. However, on the body, this is a great soap. It lathers extremely well, and managed to clear up some KP on the backs of my thighs and some stubborn razor burn i had on my underarms- after 1 use! Due to how much this lathers I don't see this bar lasting more than 10-15 washes, but for the price i dont really care. Id buy it again",
+   "date": "2025-10-15",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Denise L.",
+   "titre": "Major difference in 3 days",
+   "texte": "I have only used the bar on my body. I have mild eczema on my back. The skin WAS very textured, dry and itchy. And I have KP on my arms, shoulders, calves, thighs and buttocks. I lather my back first and let it sit while I lather the rest of my body. In 3 days I saw a major improvement of the texture. My skin is smoother, softer and easier to moisturize. The eczema on my back is less irritated and itchy. The soap will melt quickly if left in a soap dish. I now use a mesh soap pouch to lather and gently exfoliate. I then hang the pouch with the soap inside to dry. After 1 week, this bar is a keeper. My next purchase will be a 6 pack.",
+   "date": "2025-08-08",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sully",
+   "titre": "Sulfar soap.....Good Molecules",
+   "texte": "I was told many years ago I had Rosacea and always broke out from soap. Never heard of this product until my dermatologist told me to try sulfar soap. It's wonderful, makes your face feel so clean. I really like this product!!",
+   "date": "2026-04-09",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "35 and this is the first time having clear skin",
+   "texte": "This is the only product I've ever used that has helped with my hormonal acne. It is gentle yet thorough. I buy it in bulk now and it is so cheap and easy to travel with. My world started to crumble when it went out of stock. I will never stop purchasing it. I also have lupus which makes my skin very sensitive, and have had no issues with this product throughout the trials and tribulations of a chronic health condition.",
+   "date": "2025-05-30",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "N",
+   "titre": "Love love love",
+   "texte": "I have been using this product for almost 3 months now and it has been amazing for my skin! I have comodogenic acne btw. I have oily skin so i do recommend but if you have dry skin im sure it would be too stripping.",
+   "date": "2025-06-18",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

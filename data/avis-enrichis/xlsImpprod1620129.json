@@ -1,0 +1,165 @@
+{
+ "ref": "xlsImpprod1620129",
+ "asin": null,
+ "pid": "xlsImpprod1620129",
+ "source": "ulta",
+ "nom": "Dermalogica Multivitamin Thermafoliant Exfoliator",
+ "note": 4.81,
+ "nbAvis": 432,
+ "lus": 77,
+ "collectes": 87,
+ "segments": {
+  "sensitive": "Reviewers describing sensitive or reactive skin generally report no irritation and a gentle experience, though a few warn newcomers to be cautious and one reported redness and dryness after first use.",
+  "mature": "Reviewers in their 50s-70s describe smoother, softer, less dry and more supple skin with regular use, calling it a long-standing staple.",
+  "oily": "A reviewer with an oily T-zone reports the product works well for oily skin and helps control it.",
+  "normal": "A reviewer with normal skin says it leaves the face clean and smooth without the rawness or oiliness other scrubs cause.",
+  "combination": "A reviewer with sensitive skin and an oily T-zone reports the product hydrates while controlling oiliness with no irritation."
+ },
+ "concerns": {
+  "aging": "Mature reviewers (50s-70s) report smoother, softer, more supple skin and reduced dryness with regular use; no dissent noted.",
+  "dehydration": "Several reviewers say the product leaves skin soft and smooth without dryness, and one mature reviewer reports less dryness and flaking; however one reviewer reported extreme dryness and an allergic-type reaction after a single use.",
+  "redness": "Most reviewers, including those with sensitive skin, report no irritation or redness after use, but one reviewer reported skin turning red the day after use.",
+  "barrier": "Reviewers with sensitive or reactive skin describe the product as gentle with no irritation despite its exfoliating grit; one exception reports a strong reaction with redness and dryness.",
+  "spots": "Reviewers report fading dark spots and smaller-looking pores after a few weeks of use, with no dissent mentioned.",
+  "blemishes": "Reviewers report fewer breakouts, reduced neck acne, and cleared blackheads/clogged pores around the nose and chin with regular use; no negative reports on blemishes found.",
+  "oiliness": "Reviewers with oily T-zones report the product manages oiliness well and improves overall skin appearance; no dissent noted."
+ },
+ "aspects": [
+  {
+   "libelle": "Warming sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin smooth and soft",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult to squeeze from tube",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can feel harsh or abrasive",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Clara K.",
+   "titre": "Burns off skin",
+   "texte": "Used once and skin had allergic reactions(?) Turned red next day and got Extremely dryâ€¦.",
+   "date": "2022-06-11",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gracie W.",
+   "titre": "Favorite Dermalogica product!",
+   "texte": "I use this in the shower around twice weekly, usually whilst waiting on my conditioner to soak in and/or exfoliating my body. I have super sensitive skin, prone to blotches and and oily T zone. This product does amazing things for my skin. It hydrates, sloughs off dead skin cells, causes zero irritation and leaves my skin glowing like I've had a really deep facial. Couldn't live without it. Makeup goes on so much smoother afterwards also!",
+   "date": "2022-12-31",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amy",
+   "titre": "Love it!",
+   "texte": "Absolutely loving this product so far. I've had neck acne for a while and I've been using this 2-3 times a week for a few weeks now and I can finally feel my acne becoming less noticeable.",
+   "date": "2024-09-16",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sylvie L.",
+   "titre": "Favorite exfoliant",
+   "texte": "Love love love! Love the texture and my skin feels and looks great after using it, even gentle on my sensitive and mature skin.",
+   "date": "2023-10-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jayne C.",
+   "titre": "I love this product! The",
+   "texte": "I love this product! The Thermafoliant is a great scrub to help exfoliate and to help me eliminate the outbreak of pimples in the areas around the nose and in the crease between my mouth and chin where blackheads and clogged pores tend to gather for me. I an over 55 and this product is still mild enough not to irritate my skin, which can be sensitive and reactive sometimes. I use several dermalogica products in my day and night skin routine and this is one of my go to favorites.",
+   "date": "2022-10-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Diane G.",
+   "titre": "LOVE IT!",
+   "texte": "This product is exceptional. I have older skin, dry, flaky and bumpy. This heated exfoliant makes all the difference! Smoother, softer and less prone to dryness. Love it!",
+   "date": "2022-10-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shemese P.",
+   "titre": "Only been using for three",
+   "texte": "Only been using for three weeks and definitely see a difference in my skin more brighter complexion and my dark spots are fading.",
+   "date": "2022-11-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

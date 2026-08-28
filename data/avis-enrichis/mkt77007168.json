@@ -1,0 +1,168 @@
+{
+ "ref": "mkt77007168",
+ "asin": null,
+ "pid": "mkt77007168",
+ "source": "ulta",
+ "nom": "Proactiv Clean Acne Clearing Hydrator",
+ "note": 3.91,
+ "nbAvis": 87,
+ "lus": 36,
+ "collectes": 36,
+ "segments": {
+  "sensitive": "Several reviewers with sensitive skin, including one with rosacea, report the product did not irritate their skin and helped calm breakouts, though one still reports itchy, patchy skin and worsened breakouts.",
+  "oily": "One reviewer notes the product leaves skin slightly oily in the morning, while another reports significantly smaller pores."
+ },
+ "concerns": {
+  "spots": "Most reviewers report reduced acne or fewer breakouts over weeks to months, including hormonal and lip-area acne; several others report no change at all after one to three months, and one reports breaking out all over.",
+  "blemishes": "One reviewer with rosacea reports no new pimples for over a week and old bumps slowly fading; another reports persistent, unresolved cystic-type breakouts after three months.",
+  "redness": "One reviewer reports a decrease in redness and inflammation over time; another with rosacea reports the condition is under control but not gone.",
+  "dehydration": "One reviewer reports skin feels more hydrated without drying out the acne; another reports skin feeling smooth and fresh after use.",
+  "barrier": "One sensitive-skin reviewer reports a temporary purge that was not severe before improvement; another reports itchy, patchy skin with no improvement.",
+  "oiliness": "One reviewer reports the product leaves skin slightly oily in the morning; another reports pores appearing significantly smaller."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong chemical or sulfur smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle, non-irritating on sensitive skin",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "No visible improvement after months of use",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Skin feels hydrated, not dried out",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Pores appear smaller",
+   "polarite": "pos",
+   "concerne": [
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Slight residual oiliness in morning",
+   "polarite": "neg",
+   "concerne": [
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Difficulty changing or customizing formula/subscription",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Sarah A.",
+   "titre": "Not irritating at all",
+   "texte": "I have sensitive skin with rosacea, and this routine has definitely helped, along with a metronidazole gel Rx. I use the cleanser twice a day, the pore perfector nightly, and the salicylic acid cream every other night. After 3 months, I have had no new pimples for over a week, and the rosacea is under control (but not gone, which I didn't expect.) Some of my old bumps and red scars have not fully disappeared, but I am hopeful that after another 3 months, they might go away or fade. Bottom line, my skin tolerated these 3 products very well; they definitely did not make my problems worse.",
+   "date": "2024-06-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alexandreia I.",
+   "titre": "Loveee",
+   "texte": "I just love Proactiv! I have very sensitive skin but my acne has gotten so bad that I have tried so much. I don't want to use medication to solve this so I tried Proactiv and thank god! My skin did go through a purge but it wasn't bad at all! And now my skin feels so amazing and look amazing too!",
+   "date": "2023-10-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sabra A.",
+   "titre": "Clean clear skin",
+   "texte": "I have hormonal acne on par every month. While not taking it completely away, if I am consistently use proactive every day, the acne is considerably less! Hurray!!",
+   "date": "2025-11-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Meghann E.",
+   "titre": "Expected more.",
+   "texte": "After 3 months I Expected more, still struggling with persistent breakouts. Cannot seem to change the formula online or in chat which is SO annoying.",
+   "date": "2024-02-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Devin C.",
+   "titre": "Stinky and Not Effective",
+   "texte": "My acne cleared up when I STOPPED using it. Also the smell of the sulfur face wash was absolutely repulsive.",
+   "date": "2024-01-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shelby A.",
+   "titre": "One of my favs!",
+   "texte": "Helps my face feel more hydrated without drying out the acne and leaving marks! One of my favorite parts of the routine!",
+   "date": "2024-05-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kayla T.",
+   "titre": "Does it's job, does leave",
+   "texte": "Does it's job, does leave my skin a little oily in the morning.",
+   "date": "2023-09-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,167 @@
+{
+ "ref": "xlsImpprod12491005",
+ "asin": null,
+ "pid": "xlsImpprod12491005",
+ "source": "ulta",
+ "nom": "Mario Badescu Botanical Exfoliating Scrub",
+ "note": 4.56,
+ "nbAvis": 302,
+ "lus": 79,
+ "collectes": 106,
+ "segments": {
+  "oily": "Oily-skin reviewers report the scrub as effective against occasional breakouts and blackheads, though one found it also dried her out.",
+  "dry": "Dry-skin reviewers generally describe it as moisturizing and non-drying, removing flakes and dry patches, though a couple found it too drying or too harsh for extremely dry skin.",
+  "combination": "Combination-skin reviewers (including oily-T-zone/dry-face patterns) report smoother texture and fewer clogged pores, but one with sensitive combination skin experienced painful breakouts.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it is gentle enough for regular use with no irritation, while others report it caused redness, flaking, or breakouts and would not recommend it for sensitive skin.",
+  "normal": "The few reviewers who do not specify a particular concern mainly praise smoothness and softness after use.",
+  "mature": "One reviewer with older/mature skin found it gentle and left a smooth base for makeup, and another credits it with keeping wrinkles at bay."
+ },
+ "concerns": {
+  "aging": "A small number of reviewers mention smoother texture, more even tone, or a sense that wrinkles are kept at bay, but no reviewer reports a dramatic anti-aging change.",
+  "dehydration": "Most reviewers describe the scrub as moisturizing or non-drying, clearing flakes and dry patches, but several others explicitly report it dried their skin out or worsened flaking.",
+  "redness": "One reviewer reports the product caused extreme redness around the nose that took a month to heal, while another says it reduced the redness and dryness she usually gets from scrubs.",
+  "barrier": "A few reviewers with already sensitive or damaged skin say it felt too harsh, made skin hurt or flake immediately, while others with sensitive skin report no irritation at all.",
+  "spots": "Reviewers using it for blackheads and dark spots report pores looking smaller and blackheads reduced or gone, and one notes dark spots visibly diminishing after a few uses.",
+  "blemishes": "Many acne-prone reviewers report fewer breakouts, faster healing of pimples, and reduced scarring; however, several others state it broke them out, including one describing worsened acne and one whose daughter's clear skin broke out after starting the product.",
+  "oiliness": "A couple of oily-skin reviewers report their skin became less oily and pimples appeared less often, though one oily reviewer said it dried her skin without improving oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaves skin smooth and soft",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Too harsh, scratches or hurts skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Small amount goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Perceived as overpriced",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, non-overwhelming scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle enough for daily or frequent use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains sulfates, seen as poor formulation",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Racheal",
+   "titre": "This tore my face up.",
+   "texte": "I had extreme redness around my nose. After a month of not using this my face is still healing. Nothing in my routine changed so I know it was this.This literally scraped my skin away. I do NOT recommend for sensitive skin. Unless you have extremely oily skin maybe 1 time every 4 days then but other than that I would only use this for a pedicure to exfoliate legs NEVER a face.",
+   "date": "2018-11-07",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Lisa",
+   "titre": "Meh. Possible break outs.",
+   "texte": "I was disappointed with this because although I liked how it felt in my face, I'm pretty sure it broke me out. Anything that potentially exacerbates my already acne prone skin is a no go for me. It also dried me out a lot and I'm very oily. This didn't give any kind of glow or positive traits I need with an exfoliation. I have difficult skin so it might just not be for me.",
+   "date": "2019-04-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "darlingkt",
+   "titre": "Not for me, but good",
+   "texte": "It was recommended to me to use this 2-3 times a week; I had to pare it down to once a week because it was causing my sensitive combination skin to break out with deep painful zits. The last 2 weeks I've been out of this exfoliate, and honestly, I haven't missed it. My skin does need a good exfoliation, but I don't think I'll purchase this again. It was too harsh for me, and I haven't had but one bad zit in the 2 weeks I've not been using it (and using this wouldn't have prevented that because it's on my neck under my jaw). It will work well for others; but I'm looking for something else instead.",
+   "date": "2021-04-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emmsan",
+   "titre": "Best face scrub I've tried!",
+   "texte": "I LOVE THIS!! I have sensitive combination skin with some dry flakey parts. I use a lot of makeup so my pores get easily clogged up and especially around the nostrils. I use this on a dry face, but with wet hands. I know you should have a wet face but I feel like it gets too gentle, I think exfoliators/scrubs should be a little rough, but not too rough otherwhise I feel like it doesn't do anything or not enough anyway. I get dry flakey skin, especially around blemishes and this gets rid of it. The same thing with the clogged pores around my nostrils. My face feels no clean and smooth after using this! I also believe it has cleared up my skin alot combined with the acne facial cleanser and the clinique moisture surge!",
+   "date": "2018-11-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jen",
+   "titre": "Definitely recommend",
+   "texte": "So I don't have huge pores, but I definitely get blackheads on my nose and a few areas of my face. I purchased this product in a sample pack and I absolutely love it. My pores have shrunk and I no longer have blackheads. I have had blackheads since I was thirteen years old and I am 28. Nothing I have used has ever cleared them and shrunk my pores like this cleanser. I have also noticed and improvement in my skins texture overall; it is softer, less oily, and the tone is slightly more even. I use about 3 times a week.",
+   "date": "2019-03-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lizzie",
+   "titre": "Amazing !!",
+   "texte": "This is my fourth time coming back to purchase. I have oily skin and would break out here and there. Ever since I started using this, my face has ALWAYS been clear now!! If I feel a small pimple forming, I apply this and the pimple just vanishes in like a couple days!! This also cleared my scarring from those few pimples I would always have before using this!! I hope this never gets discontinued.",
+   "date": "2021-11-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "alex",
+   "titre": "great for dry, sensitive skin",
+   "texte": "I use prescription-strength topical acne meds which leave my skin DRY and flakey. so I use this once a week to lightly exfoliate and it works wonders without drying my skin out even more. smells therapeutic and works great.",
+   "date": "2019-09-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

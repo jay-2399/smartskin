@@ -1,0 +1,160 @@
+{
+ "ref": "mkt77006196",
+ "asin": null,
+ "pid": "mkt77006196",
+ "source": "ulta",
+ "nom": "Hypothesis Acne Precision Serum",
+ "note": 4.68,
+ "nbAvis": 19,
+ "lus": 18,
+ "collectes": 18,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers report the serum is gentle and does not sting or irritate, unlike other acids they have tried, though breakouts persist for one of them at a reduced rate.",
+  "oily": "One reviewer with dehydrated, oily-combination skin reports the serum reduces whiteheads without stripping the skin."
+ },
+ "concerns": {
+  "spots": "Most reviewers report fewer new spots or whiteheads and lighter, less irritated chronic acne marks over weeks; one reviewer says it does little to improve pre-existing black/whiteheads.",
+  "blemishes": "Reviewers describe reduced frequency and severity of breakouts, including cystic acne, with some reporting acne fully cleared or resolved overnight around their period; one still gets breakouts a few times a month though they clear faster.",
+  "redness": "Reviewers note reduced post-blemish redness and less irritation around active pimples, with one specifically citing help with redness.",
+  "barrier": "Several reviewers highlight the absence of dryness, flaking, or irritation compared to other acne treatments they have used, including one who avoided benzoyl peroxide's drying effects for this reason.",
+  "oiliness": "One reviewer reports reduced oiliness and better skin balance overall; another notes it does not leave the face feeling greasy."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong food-like scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight gel texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky or tacky after application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-drying, gentle formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Easy, precise application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible results within weeks",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Misty",
+   "titre": "The most gentle salicylic acid serum",
+   "texte": "I used this serum nightly for 3 weeks, then began alternating nights with azelaic acid to help with dark spots. The serum was really gentle on my sensitive skin and didn't cause any stinging, which was a huge surprise because most acids do make my face react a little bit. I am still getting breakouts a few times a month but they seem to be clearing faster than before which is an improvement! The only thing I don't love about this serum is the smell‚ÄîI know it's fragrance free (which is great!) but because there isn't any added fragrance, it kind of smells like french fry oil? Not the best lol, but it dissipates fairly quickly.",
+   "date": "2026-05-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Mara",
+   "titre": "Acne Precision Serum",
+   "texte": "\"Have been using this in conjunction with the Daily Cleanser. I think it's been making a difference, though I'm not sure which product (cleanser vs. serum) is pulling more weight. The serum has an interesting odor that I'm not a fan of, and the texture of the serum itself isn't my favorite. However, it settles into the skin fairly well and although it feels thicker when applying, it doesn't leave my face feeling sticky/tacky like some other serums have done. I have noticed a noticeable improvement in my cystic acne - breakouts aren't as severe, and the chronic acne spots are getting visibly lighter/less irritated in the past ~6ish weeks I've been using it. I'm excited to continue using it and seeing how the results fare longer term.\"",
+   "date": "2026-05-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Tam",
+   "titre": "Works well, but sticky",
+   "texte": "Using it daily shows results, but application can be improved. I have noticed a decrease in the formation of new acne spots, but it doesn‚Äôt do much to improve preexisting black/whiteheads. Using it right after the cleaner also is a bit less than optimal, because if applied while the skin is damp it takes a while to dry and feels tacky until then. It also feels kinda heavy, and I feel like it creates a film on my face that bothers me a bit",
+   "date": "2026-05-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Taryn",
+   "titre": "Gentle and works so well!",
+   "texte": "I love this product and it will be one of my must-haves in my routine from now on. Although it has a bit of a weird smell, the cleanser helps to reduce that and I would rather it smell weird than have questionable ingredients. My acne was much less frequent and my pores were minimized over time. The balance of my skin also improved, with less oiliness, dry patches and irritation. When I did get acne around my period it resolved many times overnight. I still think retinol and retinoids have their place so pigmentation if there is a pimple that comes up, but overall I love this product and think it worked much better than expected.",
+   "date": "2026-05-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "oiliness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maureen",
+   "titre": "Smells like potato but keeps my skin clear",
+   "texte": "This is a very lightweight gel serum. It has a strong potato scent, so I only used it at night. My acne lesions went away after using for about 1 month. My skin type is dehydrated, oily-combo and I think it didn't strip my skin. It really works on helping reduce the number of whiteheads I had on my forehead. However, I wished it didn't have such a strong wet potato smell.",
+   "date": "2026-05-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Aaliyah",
+   "titre": "The Best Serum I've Ever Used",
+   "texte": "This acne serum has been life changing for me. I have struggled to find any serum product that hasn‚Äôt burned my face and left my skin flaking everywhere. This has been the only product to be very light weight gentle but immensely effective. I noticed a difference within a week! I can tell a difference when I apply it and It‚Äôs consistently making my acne less.",
+   "date": "2026-05-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emma",
+   "titre": "Amazing Acne Treatment Serum!",
+   "texte": "Super easy to use because it‚Äôs nice and lightweight which my skin and I appreciate. After consistently using everyday, I noticed my skin texture looking more even and smooth. While treating my breakouts, reducing the amount of pimples that appeared, it also definitely reduced my post blemish redness in intensity and time on my skin.",
+   "date": "2026-05-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

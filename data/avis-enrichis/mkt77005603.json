@@ -1,0 +1,162 @@
+{
+ "ref": "mkt77005603",
+ "asin": null,
+ "pid": "mkt77005603",
+ "source": "ulta",
+ "nom": "Doll 10 Overnight Facial Daily Dissolve Enzyme Cleansing Balm",
+ "note": 4.9,
+ "nbAvis": 83,
+ "lus": 69,
+ "collectes": 69,
+ "segments": {
+  "dry": "One reviewer with dry skin reports the product left her face very dry, red and itchy around the eyes, while others describe it as non-drying and even hydrating.",
+  "sensitive": "Reviewers with sensitive skin are split: several say it caused no breakouts, no stinging and no irritation even around sensitive eyes, but two report breakouts and swollen eyes on sensitive skin.",
+  "mature": "Reviewers in their late 40s and 60s describe smoother, moisturized skin and one calls it good for mature skin generally.",
+  "combination": "No combination-specific reports are given in the reviews supplied."
+ },
+ "concerns": {
+  "aging": "One reviewer cites niacinamide and noni for anti-aging benefit and another in her 60s says her skin is the best it has ever been; no reviewer reports a negative effect on aging skin specifically.",
+  "dehydration": "Most reviewers report skin feels soft, smooth, hydrated or moisturized afterward and not dried out; one reviewer with dry skin reports the opposite, describing her face becoming very dry after use.",
+  "redness": "One reviewer with rosacea reports it calmed her redness; one reviewer reports new redness and itchiness after use, and another explicitly notes no redness occurred.",
+  "barrier": "Reviewers generally describe the balm as gentle and non-irritating to the skin barrier, with no stinging or burning reported by most, though one reviewer's skin reacted with dryness, redness and itchiness.",
+  "spots": "No reviewer discusses spots or hyperpigmentation specifically.",
+  "blemishes": "One reviewer states the balm never clogs her pores and even helps her skin, one says it caused no breakouts despite sensitive skin, but one other reviewer with sensitive skin reports breaking out from the product.",
+  "oiliness": "Multiple reviewers highlight that it rinses off with no oily or greasy residue despite being a balm; one reviewer expected an oily finish given the oil-like texture but found it was not oily."
+ },
+ "aspects": [
+  {
+   "libelle": "Melts off makeup including eye makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rinses off with no greasy residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant light scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Built-in spatula breaks easily",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or waters sensitive eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Small amount needed, good value",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Linda M.",
+   "titre": "My face became very dry",
+   "texte": "My face became very dry especially in the eye area . It also became red and itchy. I will be returning as soon as I speak to customer service tomorrow.",
+   "date": "2022-12-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Leona B",
+   "titre": "Love Doll 10- but",
+   "texte": "I broke out from product. Eyes swelled up. I do have sensitive skin..",
+   "date": "2025-06-04",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary L.",
+   "titre": "Amazing",
+   "texte": "I'm 49 and my skins very sensitive and dry in the winter this kept my skin smooth and exfoliated without irritation!",
+   "date": "2024-01-08",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Laurie G.",
+   "titre": "Clean NOT Greasy!",
+   "texte": "This is the balm! It goes on like an oil cleanser but it's not the same. I've used others. This balm removes makeup and dirt like a balm but it rinses without leaving ANY oily residue. Eye makeup is gone in seconds but it doesn't leave a film that gets in your eyes! Clean, not greasy, not dry. And, it's quick!! I have very sensitive skin and this balm has not caused any breakouts, either. My skin is clean and ready for moisturizer. NO residue! First time I've looked forward to washing my face at night!",
+   "date": "2023-03-17",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Barb B.",
+   "titre": "This is smazing",
+   "texte": "I had good skin, after using the doll 10 cleansing balm, I have fantastic skin. My 69 year old skin is the best it has ever been. Thank you Doll 10. You have a customer for life.",
+   "date": "2022-11-28",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cynthia",
+   "titre": "Love this",
+   "texte": "I just used this cleansing balm and it is awesome. I have rosacea and this actually calm it down a lot. I finally found my go to cleanser. Thank you so much",
+   "date": "2024-02-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth C.",
+   "titre": "Great Cleanser!!!!",
+   "texte": "Love this face cleanser! It is so gentle and I have very sensitive skin. This is definitely a wonderful addition to Doll 10 line.",
+   "date": "2022-03-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

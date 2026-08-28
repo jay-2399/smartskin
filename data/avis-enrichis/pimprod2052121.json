@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2052121",
+ "asin": null,
+ "pid": "pimprod2052121",
+ "source": "ulta",
+ "nom": "The INKEY List Caffeine De-puffing + Dark Circle Eye Cream",
+ "note": 4.02,
+ "nbAvis": 562,
+ "lus": 73,
+ "collectes": 93,
+ "segments": {
+  "sensitive": "Reviewers with sensitive eyes report a split outcome: several describe stinging, burning, itching, redness, peeling or a damaged barrier within one to three weeks, while others with self-described sensitive eyes report no stinging, no fragrance and good tolerance.",
+  "dry": "One reviewer with dry skin notes the formula is lightweight and would prefer a richer consistency, and another with very dry, sensitive eyes reports brightening and moisture with no stinging or heaviness.",
+  "mature": "Reviewers who identify as mature (mid-50s to 60s) report visible reduction in fine lines, brightening and moisturizing with no irritation, and value for money compared to pricier products they used before.",
+  "normal": "A reviewer without dark circles or bags used the cream mainly for hydration and found it adequate but unremarkable, wishing Inkey offered a version formulated specifically for dryness."
+ },
+ "concerns": {
+  "aging": "Reviewers report reduced fine lines and a smoother, less crepey eye area, including one noting improvement in crepey eyelids; results are described as gradual rather than dramatic and one reviewer explicitly says it does not reverse aging.",
+  "dehydration": "Most reviewers describe the cream as hydrating, smooth and non-greasy with quick absorption; however, a few report the opposite, saying their under-eyes end up dry or that the product needs more moisture, and one found it too watery.",
+  "redness": "A small number of reviewers report redness, patchiness or a burning sensation around the eyes; others with sensitive or eczema-prone skin state it caused no redness or reaction.",
+  "barrier": "Several reviewers describe barrier-type reactions — stinging, itching, peeling, or eyes becoming reactive to everything including water after use — while many others state it never stings or irritates even with sensitive eyes.",
+  "oiliness": "Reviewers describe the texture as non-greasy and not leaving an oil slick, with no reports of the product causing oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or burning on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "No fragrance, well tolerated",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup, no creasing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small tube, travel-friendly, long-lasting",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible effect after weeks of use",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration",
+    "aging"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Michaela",
+   "titre": "Barrier destroyed",
+   "texte": "Just within one week of use my eye area strated to feel sensitive and sting with any contact. Every product I used started stinging too, even water and the eye area became very irritated. I never experienced this with any skincare before. Very bad product formulation. Please reformulate. I had to put it to trash.",
+   "date": "2025-09-15",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Athina B.",
+   "titre": "Effective but can cause irritation",
+   "texte": "I like the texture of this cream and I definitely find it effective in reducing puffiness, but using this daily can sometimes cause irritation on my very sensitive eye area. I do like it more, however, than other caffeine eye products I've tried, and it is of course very affordable.",
+   "date": "2025-06-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Petra H.",
+   "titre": "Very lightweight but no noticeable depuffing effect",
+   "texte": "It is very lightweight which is nice, people with dry skin would maybe prefer richer consistency. Unlike other caffeine creams this one doesn¬¥t have any effect on puffines. Strong caffeine serums depuffs your eyebags to the extent that you have to use second hydrating cream afterwards. This wants to be 2in1 but the effect is nonexistent. Nice quick morning light eye cream though. Does not irritate my sensitive eyes.",
+   "date": "2025-09-08",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Paula B.",
+   "titre": "Game changer eye care",
+   "texte": "This cream feels light but is powerful and not heavy at all. It glides on easily and leaves the eye area (I have mature skin ;) ) super moisturised. I can see a visible difference in the under eye area, which was full on lines before- it can honestly say that the fine lines are diminishing and the dark eye bags are going away. This is my favourite product by far!",
+   "date": "2025-09-16",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elspeth M.",
+   "titre": "Game changer",
+   "texte": "I have very dry, sensitive eyes, so trying new things around them makes me nervous. This has brightened and moisturized around my eyes with no stingy or heaviness! Before I only used CeraVe Eye repair cream because everything else irritated; now Im moisturized with visible results!!!",
+   "date": "2025-07-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emily",
+   "titre": "Finally",
+   "texte": "This eye cream smooths out my eye area and doesn't cause irritation. I'm nearly 60 and this does a great job, for a very reasonable price. I prefer it to my previous product that was around $80.",
+   "date": "2025-08-17",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "me B.",
+   "titre": "It's OK - needs to provide more moisture",
+   "texte": "I don't have bags or dark circles under my skin but there is no eye formulation by Inkey to address dryness. This is what my profile shows to use. It's OK - nothing significant. Doesn't burn my eyes (contacts, sensitive) so that's a plus. HOWEVER, there needs to be more MOISTURE added to the eye creams OR provide one for dryness.",
+   "date": "2025-06-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "normal",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

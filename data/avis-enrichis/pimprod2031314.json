@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2031314",
+ "asin": null,
+ "pid": "pimprod2031314",
+ "source": "ulta",
+ "nom": "Clarins DOUBLE SERUM Eye Firming & Hydrating Concentrate",
+ "note": 4.3,
+ "nbAvis": 2946,
+ "lus": 72,
+ "collectes": 114,
+ "segments": {
+  "dry": "Dry-skin reviewers, including one describing mature, extremely sensitive skin, report the serum hydrates without drying the eye area further and layers well under makeup.",
+  "sensitive": "Reviewers with sensitive skin or eye allergies repeatedly say this serum causes no irritation or allergic reaction, unlike other eye creams they tried.",
+  "mature": "Reviewers in their 40s to 70s report visible softening of fine lines, crow's feet, sagging and dark circles, with several calling it effective for aging or menopausal skin."
+ },
+ "concerns": {
+  "aging": "Most reviewers report visible reduction in fine lines, crow's feet, and sagging with regular use, some noticing improvement within days to a few weeks; a few long-term users report no visible change in fine lines despite months of use.",
+  "dehydration": "Reviewers consistently describe the eye area as hydrated, smooth and less crepey after use, with fast absorption noted by several; one reviewer says hydration does not last long enough through the day.",
+  "redness": "No reviewer specifically discusses redness as a concern.",
+  "barrier": "No reviewer specifically discusses barrier concerns.",
+  "spots": "One reviewer using the wider Clarins line reports dark spots kept in check, but this is not specific to the eye serum itself.",
+  "blemishes": "No reviewer discusses blemishes in relation to this eye serum.",
+  "oiliness": "One reviewer found the formula too oily, describing greasiness that flaked her mascara, while most others describe the finish as smooth or lightweight rather than greasy."
+ },
+ "aspects": [
+  {
+   "libelle": "Pump dispenses too much product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption into skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, silky texture on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant light fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No irritation for sensitive or allergy-prone eyes",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy feel flaking makeup",
+   "polarite": "neg",
+   "concerne": [
+    "oiliness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Raquel",
+   "titre": "Holy Grail for Mature, Dry, Sensitive Skin",
+   "texte": "I've got mature, dry, extremely sensitive skin. As a menopausal working woman, this product is one of the MOST EFFECTIVE, all-inclusive, products I NEVER skip. I've been using this product for over a year consistently now, and can tell you it is WORTH EVERY PENNY. It's reduced my fine lines, reduced and restored firmness, plays well with my eye cream/makeup for flawless skin-like look that lasts all day. I don't always have time for 1k step skin prep before I have to put on makeup and run out the door, but I need something that works well to tighten up without drying me out. This is a step I never miss. My eyes don't look dry, & makeup lasts longer. I've purchased this product 4 TIMES for not just myself but for my sister and best friend during the sales. It's pricey but the results and the difference before and after that lasts is undeniable. If you're not willing to do expensive surgery procedures, have dry skin, want preventative or treat existing fine lines, want moisture retention, firmer eyes in a 1& done this is THE PRODUCT. I waited a long time before I reviewed this product to be sure if it was something I wanted to recommend at this price point, but I've tried all sorts of eye creams, serums, and more over the years as I buy things on sale, but this one has always done the best job with less steps. If you get yourself one thing to pamper your skin under your eyes, gurl this is IT. Love this product DOWN. I'll be a customer for life. My only gripe is the packaging. W",
+   "date": "2026-07-06",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Di27",
+   "titre": "Game changer",
+   "texte": "I have very dry, delicate under-eye skin with dark circles, and I'm prone to milia and allergic reactions to almost everything. I was skeptical about this product at first because the texture seemed too light for my needs. But let me tell you, using it as a first step before applying my regular eye cream has been a game-changer! My dark circles and mild under-eye bags are completely gone.",
+   "date": "2026-07-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Linda",
+   "titre": "too oily for me",
+   "texte": "I was really looking forward to trying this, reviews looked good. I tried twice in the AM, it was so oily and also confusing how to use, flaked my mascara because of the greasiness. Ulta did let me return, was a lot of money to try and keep using",
+   "date": "2025-10-24",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LynneZ",
+   "titre": "The best eye serum",
+   "texte": "This eye serum is heavenly!! I have severe eye allergies and there is no negative reaction. It takes a small dot to do both eyes. The moisture is immediate. Don't push hard on the applicator. My new favorite eye serum/cream.",
+   "date": "2026-04-04",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "KSKansas",
+   "titre": "Disappointed",
+   "texte": "I am unhappy the product pump disperses too much at a time. I am not seeing a lot of difference improvement to my fine lines around my eyes. I like other Clarins products much better.",
+   "date": "2026-03-27",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cath68",
+   "titre": "excellent for aging eyes",
+   "texte": "I am 68 years old and it has been a wonderful experience to my routine. My eyes look smoother and hydrated. I love the way it feels and smells. Will definitely buy again.",
+   "date": "2026-05-24",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "sunnyinsocal",
+   "titre": "Amazing eye serum",
+   "texte": "I love this eye serum! It leaves my under eye are hydrated and has improved the dark circles and sagginess that I was experiencing. My only complaint is that even on the smaller of the two settings, it still dispenses too much product. This is very wasteful, given the high price tag. Surely this can easily be resolved by Clarins.",
+   "date": "2026-05-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

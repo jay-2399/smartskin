@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2024576",
+ "asin": null,
+ "pid": "pimprod2024576",
+ "source": "ulta",
+ "nom": "Good Molecules Ultra-Hydrating Facial Oil",
+ "note": 4.64,
+ "nbAvis": 269,
+ "lus": 79,
+ "collectes": 96,
+ "segments": {
+  "oily": "A few reviewers note the oil sinks in without feeling greasy, and one with combination skin says it adds moisture to dry areas without saturating oily spots.",
+  "dry": "Most dry-skin reviewers report significant relief from flaking, itching and winter dryness, though a couple found it merely mediocre or not hydrating enough for their very dry skin.",
+  "combination": "Combination-skin reviewers generally say it balances dry and oily areas well, though one reports new breakouts on the forehead and face perimeter.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it caused no breakouts or irritation and even helped calm skin, but one reports it turned cheeks red and irritated her skin.",
+  "mature": "One reviewer with aging skin says it moisturizes without looking greasy."
+ },
+ "concerns": {
+  "aging": "One reviewer with aging/mature skin says it moisturizes adequately without greasiness; another mentions decreased pore scarring over time when combined with other products.",
+  "dehydration": "The large majority of reviewers, especially in winter, report significant relief from dryness, flaking and dehydration, sometimes within days; a small minority say it did nothing for their dryness or felt merely mediocre.",
+  "redness": "One reviewer with sensitive skin reports it caused redness and irritation instead of calming her skin; another says it soothed irritation with no adverse reaction.",
+  "barrier": "Reviewers describe it as helping heal or strengthen the skin barrier, including one who paired it with retinol/tretinoin without burning or irritation.",
+  "spots": "One reviewer notes it helped decrease pore scarring from past picking over time when combined with other treatments.",
+  "blemishes": "Most reviewers, including several with acne-prone or sensitive skin, report no new breakouts and some say it helped clear or heal blemishes faster; one reviewer with combination skin did experience new breakouts on the forehead and face perimeter.",
+  "oiliness": "Several reviewers say it absorbs quickly without feeling oily or heavy, though one with dry-but-oily-leaning skin found her skin became visibly oily after use."
+ },
+ "aspects": [
+  {
+   "libelle": "Bottle size too small",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves a glow after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented, fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Orange or yellow tint on skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pairs well with other Good Molecules products",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Kp",
+   "titre": "Don't like it",
+   "texte": "This irritated my sensitive skin.. i was hoping it would help calm my skin but it did the opposite .. it turned my cheeks red. Another thing.. it leaves a yellow color on your face too..",
+   "date": "2025-01-20",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Marge",
+   "titre": "Not for me",
+   "texte": "I purchased this product for daily use during the fall/winter months when my combination skin tends to lean toward thw dryer side. My skin would feel extremely soft and hydrated after this product but even with only once daily use I developed breakouts on my forehead and my face's perimeter. I wanted to love this product but I don't think it's for me.",
+   "date": "2025-11-22",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Barrett M.",
+   "titre": "Not the best for my skin type!",
+   "texte": "As someone with dry skin, I wanted to try this hydrating facial oil. One thing about my skin is that it often can easily become oily. Once applying to my skin, I realized that my skin became and looked very oily. I love the concept of the product but for my skin type it wasn't the best!",
+   "date": "2024-10-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ash",
+   "titre": "Incredible",
+   "texte": "I've been using Good Molecules for the last 8 months and this brand has been nothing but good to me. I have sensitive, combo, acne prone skin and it's been so hard finding products that don't upset my skin one way or another, but they've made it very easy for me. Their products are extremely clean which I think allows my skin to handle them so well, ESPECIALLY the oil! Any type of oil ever has always broken me out so I was very nervous to try this and ruin any progress on my skin, but it truly blew me away with how it made my skin even CLEARER! This oil is extremely lightweight despite how hydrating it is, it was the extra push my skin needed to fully heal my skin barrier. My skin has genuinely never looked more beautiful and I'm so extremely pleased with this brand. I will alway recommend this brand to people, and now this product has made it to those recommendations!",
+   "date": "2025-01-15",
+   "verifie": false,
+   "utiles": 22,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Rescue Oil",
+   "texte": "I have naturally dry skin due to some health issues. In winter time the dryness takes over and becomes a chronic headache. Within a few days of putting this oil on in the AM and PM the itchy flakey skin has vanished!",
+   "date": "2025-02-11",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Avery",
+   "titre": "Great even with Retinol",
+   "texte": "I have been using dermatologist presribed Retin-A for a few years now and have struggled with keeping my skin consistently hydrated and moisturized. I have sensitive and acne prone skin and apply my retinol every other night. On nights where I do use retinol, I layer it between my moisturizer and this facial oil. I have found that it does not cause my skin to burn, become irritated, or cause breakouts, and it works well with the retinol. While everyone has different skin and the same products can react differently for everyone, I have found this to be a great product to add to my routine. My only complaint is I wish there was an option to buy a larger bottle.",
+   "date": "2024-07-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ellie",
+   "titre": "Lifesaver",
+   "texte": "I have eczema so my skin gets really dry in the winter. I had a really bad flare and my skin developed these two patches of super dry skin. I used this and the bakuchiol oil and seriously the two patches were gone within 3 days. saved my skin.",
+   "date": "2024-02-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

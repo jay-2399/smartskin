@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2045639",
+ "asin": null,
+ "pid": "pimprod2045639",
+ "source": "ulta",
+ "nom": "Naturium Retinaldehyde Cream Serum 0.05%",
+ "note": 4.58,
+ "nbAvis": 170,
+ "lus": 79,
+ "collectes": 118,
+ "segments": {
+  "oily": "Reviewers with oily or combination-oily skin report reduced oil, smaller-looking pores, and fewer breakouts with no added greasiness.",
+  "dry": "Reviewers describing dry skin generally tolerate the product well, though a few note increased dryness or flaking with frequent use, prompting them to space out applications.",
+  "combination": "Combination-skin reviewers report smoother texture and fewer hormonal or acne breakouts without irritation.",
+  "sensitive": "Sensitive-skin reviewers form the largest single group and mostly describe little to no irritation compared with retinol or tretinoin, though a minority report burning, itching, or breakouts severe enough to stop use.",
+  "mature": "Reviewers in their 40s-70s report visible improvement in fine lines, firmness, and dullness, generally without irritation, and see it as a gentler alternative to prescription retinoids."
+ },
+ "concerns": {
+  "aging": "Reviewers report diminished fine lines, improved firmness, and a brighter, more even look, some after only a few weeks; several mature reviewers explicitly credit it with visible anti-aging results with no irritation.",
+  "dehydration": "Some reviewers note the product is hydrating or non-drying relative to other retinoids, while others (including one with reactive, dehydrated skin) report dryness or flaking that requires reduced frequency.",
+  "redness": "Several reviewers say it reduced redness or caused none at all, but a few reviewers explicitly report redness or a burning/stinging sensation after use, and one asks for a lower-redness formula.",
+  "barrier": "Reviewers coming from tretinoin or strong retinol describe the product as easier on the barrier with less peeling and irritation, though one reviewer with a reactive barrier still reports it as too strong initially.",
+  "spots": "Reviewers report fading of dark spots, hyperpigmentation, and post-acne discoloration with continued use over several weeks.",
+  "blemishes": "Most reviewers with acne-prone skin report fewer breakouts, faster healing of blemishes, and reduced closed comedones over weeks of use; however, a few reviewers report a breakout, purge, or cystic-type reaction after only one or two uses.",
+  "oiliness": "Reviewers with oily skin report the product controls oil and leaves a lightweight, non-greasy finish."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No pilling, layers well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong citrus or odd scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pump dispenser convenient but unclear yield",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus prescription or high-end retinoids",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging on initial use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Perceived lower potency than adapalene or tretinoin",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Augustkit",
+   "titre": "Picture says it all",
+   "texte": "Been using a 0.1 RetinAl from a different brand, never ever had I encountered this.. Burning and itching patches around the hairline and mostly on the neck and cheeks. Somehow Naturium products are not for me... don't get me started on the Vitamin C which resulted in contact dermatitis",
+   "date": "2023-05-13",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Anthony",
+   "titre": "Patch test First",
+   "texte": "Wanted to try something new since I have been using the Cerave resurfacing retinol. Immediately upon application my skin was stinging, stinging/burning sensation was persistent and did not subside after drying; the citrus scent is unpleasant and strong. I would NOT repurchase.",
+   "date": "2024-08-13",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Urvashi",
+   "titre": "So good! Need a 0.1% retinal strength to step up!",
+   "texte": "I am in love with this gel lotion hybrid! It works so well without any irritation. My rosacea prone skin is absolutely in love with the formulation. However, please come with a 0.1% retinaldehyde for those who want to step up their retinoid game with this amazing formulation.",
+   "date": "2023-02-06",
+   "verifie": true,
+   "utiles": 20,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gma62",
+   "titre": "An affordable, less irritating Retin-A alternative",
+   "texte": "It's fantastic to have an opportunity to enjoy the benefits of Retin-A without the irritation for my sensitive, mature skin. That is why I decided to purchase this product and I have to say that this formulation is working. I am getting some peeling and flaking without redness or burning and the dullness is gone. My skin looks fresher and glowing. I will continue to purchase this.",
+   "date": "2023-01-24",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah H",
+   "titre": "Better than expected",
+   "texte": "I have reactive and dehydrated skin and I have tried to incorporate a retinal into my routine the last three years. I have not found something that doesnt aggravate and ruin my barrier at some point. I can use this right after applying my essence and my skin is totally in tact the next day. No burning, redness, or sensitivity. The texture is wonderful and I love that there is no overpowering smell. I have been using this about three weeks so I cannot say anything about longer term use, but I have noticed myskin becoming more even toned. Super happy that I made this purchase and the product has exceeded my hopes.",
+   "date": "2023-06-23",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "RUFina",
+   "titre": "LOVE this product",
+   "texte": "i have acne prone skin, oily and redness.. and i this product so much.. this retinal control my oil, reduce my redness, pore look smaller and my acne gone....thank you naturium you make amazing product.. love love...",
+   "date": "2023-07-27",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Lynn7863",
+   "titre": "good intro retinoid- lacks potency",
+   "texte": "I wanted a retinaldehyde because it's supposed to be one of the stronger otc options for a retinoid- I started with adapaline, then retinol, and still not having achieved what I was looking for wanted to step it up. But I found this to be less potent than adapalene gel. It's a nice formula, pretty hydrating as far as retinoids go, layers well with other products and doesn't cause any pilling, and I enjoy the yellow color of the product for easy even application purposes. It's would be great for a beginner. But something in the formula is killing the potency that retinaldehyde promises.",
+   "date": "2023-05-05",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

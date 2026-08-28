@@ -1,0 +1,168 @@
+{
+ "ref": "xlsImpprod17762039",
+ "asin": null,
+ "pid": "xlsImpprod17762039",
+ "source": "ulta",
+ "nom": "Cetaphil Gentle Foaming Cleanser Face Wash for Sensitive Skin",
+ "note": 4.51,
+ "nbAvis": 1068,
+ "lus": 80,
+ "collectes": 123,
+ "segments": {
+  "oily": "Reviewers with oily skin report it cleans thoroughly and controls shine or acne without breakouts, though a couple note it can still leave skin feeling drier than expected.",
+  "dry": "Reviewers with dry skin say it cleans without stripping, tightness, or dryness, and several describe it as hydrating and soft afterward.",
+  "combination": "Reviewers with combination skin describe it as balancing, reducing T-zone oil while keeping cheeks soft, sometimes requiring a second wash if skin still feels oily.",
+  "sensitive": "Reviewers with sensitive skin repeatedly describe it as non-irritating, fragrance-free, and free of redness or burning, though one reviewer reports a burning sensation and tongue tingling from a newer bottle and another had an allergic reaction.",
+  "normal": "Reviewers with normal skin describe it as mild, easy to use daily, and leaving skin clean without tightness.",
+  "mature": "No reviews specifically describe mature skin."
+ },
+ "concerns": {
+  "aging": "No reviewers discuss aging as a specific concern beyond general skin comfort.",
+  "dehydration": "Most reviewers report no dryness or tightness after use, describing skin as soft, hydrated, or balanced; a few say it leaves skin somewhat drier and require added moisturizer afterward.",
+  "redness": "Reviewers report no redness or irritation, including some who used it after treatments or with reactive skin, though one reviewer describes an allergic reaction and another a burning sensation.",
+  "barrier": "Reviewers describe the cleanser as non-stripping and calming for compromised or post-treatment skin, with several dermatologist- or esthetician-recommended uses after facials or irritation.",
+  "spots": "One reviewer's teenage son with cystic acne saw improvement after dermatologist-recommended use; no other spot-specific outcomes are mentioned.",
+  "blemishes": "Several reviewers with acne-prone skin report no new breakouts and clearer pores; none report worsened blemishes.",
+  "oiliness": "Oily-skin reviewers say it controls shine and removes excess oil effectively, though one notes it can leave skin drier than desired afterward."
+ },
+ "aspects": [
+  {
+   "libelle": "Foaming pump frequently malfunctions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Light, airy foam texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No tightness or stripped feeling after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or very light scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Struggles to remove heavy makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value and long-lasting bottle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Occasional burning or allergic reaction",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Costy",
+   "titre": "Burning sensation",
+   "texte": "I am wondering if the formula has been changed. I was using it for a while with no issues, I actually like it, and a couple of days ago ago I got a new bottle and it gives me burning sensation, and my tingling in my tongue.",
+   "date": "2025-06-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "gigia19_4555",
+   "titre": "Leaves a clean feel!",
+   "texte": "Cetaphil Gentle Foaming Cleanser is great for sensitive skin—it's lightweight, non-drying, and leaves my face feeling fresh and clean without any tightness. The formula is fragrance-free and very gentle, just like it promises. However, the pump top gets stuck in the down position after a few uses, which is really frustrating. Because of that, I'm giving it 3 stars. If the packaging gets fixed, this would easily be a 5-star cleanser!",
+   "date": "2025-07-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "alexinfluence_9297",
+   "titre": "Gentle foaming cleanser",
+   "texte": "This Cetaphil cleanser is so lightweight & fluffy when I pump it onto my hands. It turns into a good lather & gets my skin clean. I have combination skin, so sometimes I wash my face twice with this if my face still feels oily. For the most part though, it does a good job. It doesn't make me break out more or inflame my acne. I like that it's gentle & fragrance free.",
+   "date": "2025-06-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "rebeccag646_9350",
+   "titre": "Would be great for oily skin",
+   "texte": "It does exactly what it is supposed to do. Cleanses thoroughly and effectively, no out breaks, foam spreads easily on face. I do find it leaves my skin dryer than I would like and I have to put a fair amount of moisture cream on after.",
+   "date": "2025-12-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "diannw7_887",
+   "titre": "Consistency and Cetaphil gentle foaming cleanser i",
+   "texte": "My teenage son was advised to use this by our dermatologist to clear up acne. He had cystic acne and I didn't think there was anything over the counter that would actually work. He chose this route instead. My son is now 22 and has nice skin and also knows how important it is to keep his face clean.",
+   "date": "2026-01-14",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "abrara22_6208",
+   "titre": "Love this",
+   "texte": "I have combination oily skin, and the Cetaphil Gentle Foaming Cleanser has really impressed me. The foam feels light and airy, and it cleans my skin thoroughly without leaving that dry or tight feeling some cleansers do. It removes oil and buildup gently, and my skin always feels refreshed right after washing. After a few weeks of using it, I've noticed my skin feels more balanced overall less greasy in my T-zone and softer around my cheeks. It's gentle enough for daily use, and I love that it doesn't irritate or strip my skin. Definitely a great option if you want something simple, effective, and soothing.",
+   "date": "2025-10-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "michellet718_99",
+   "titre": "Effective!",
+   "texte": "As someone with acne prone and sensitive skin, i know that I can rely on this product to gently remove dirt and makeup. I like that it is unscented and easy to grab at the drugstore for a good price.",
+   "date": "2025-07-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

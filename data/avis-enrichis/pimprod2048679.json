@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2048679",
+ "asin": null,
+ "pid": "pimprod2048679",
+ "source": "ulta",
+ "nom": "STARFACE Hydro-Star Salicylic Acid Patches + Big Blue Compact",
+ "note": 4.74,
+ "nbAvis": 431,
+ "lus": 78,
+ "collectes": 81,
+ "segments": {
+  "sensitive": "One reviewer with sensitive skin reports the patches work well and has never had a breakout while using them, though another mentions the salicylic acid does not hurt skin as a general reassurance.",
+  "combination": "No specific mentions of combination skin type were found in the reviews.",
+  "dry": "One reviewer notes the patches only adhere well if the skin is dry and free of other skincare product underneath.",
+  "mature": "No specific mentions of mature skin were found in the reviews.",
+  "oily": "No specific mentions of oily skin were found in the reviews.",
+  "normal": "No specific mentions of normal skin were found in the reviews."
+ },
+ "concerns": {
+  "spots": "Most reviewers report spots visibly shrinking or disappearing within one to two days, including on stubborn or ripening pimples; two reviewers say the patches did nothing for them and one calls it the worst product tried.",
+  "blemishes": "Several reviewers describe blemishes looking calmer, flatter and less angry by morning, with breakouts less noticeable while healing; one reviewer needed multiple reapplications for a visible effect.",
+  "redness": "A few reviewers say the patches reduce redness and calm inflammation around active pimples overnight.",
+  "barrier": "No reviews specifically discuss barrier repair or damage.",
+  "dehydration": "No reviews specifically discuss dehydration.",
+  "aging": "No reviews specifically discuss aging concerns.",
+  "oiliness": "No reviews specifically discuss oiliness or oil control."
+ },
+ "aspects": [
+  {
+   "libelle": "Compact case and mirror",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cute, discreet star design",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Adhesion fails on non-dry or product-layered skin",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Patches rip or lift instead of peeling cleanly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Perceived high price for patch count",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Prevents picking at spots",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Some patches show no visible effect",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Baconista",
+   "titre": "Cute but doesn't do anything",
+   "texte": "These are cute and fun and keep you from picking but thats it. They dont penetrate and they have no hydrocolloid effect. The non fancy regular round ones from k beauty brands work way better and are much cheaper.",
+   "date": "2025-12-15",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Taylor",
+   "titre": "Works well!",
+   "texte": "These work well. I have cystic acne and like to use these at night. The con with this product is that it doesn't always come off easy or gently, most of the time they rip and come off in multiple pieces.",
+   "date": "2026-01-22",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Tai",
+   "titre": "Cute and all, not sure if they really work",
+   "texte": "Im not gonna lie, i bought it for the cute compartment more than anything, there is a trick to taki them out of the plastic that the are sticked to, you have to bend the plastick so that star tips dont stick to actual patch, not sure if they really work or just work different thant normal patches. The sking must be dry, no skin care or the will fall off. Love the little case though",
+   "date": "2025-02-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ayriana",
+   "titre": "work great!",
+   "texte": "these blue patches work wonders for unclogging pores and helping to shrink puffy blemish spots! As someone who has sensitive skin, i absolutely LOVE starface patches and have NEVER had any break outs!",
+   "date": "2025-02-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maude",
+   "titre": "Cutest case and they actually work",
+   "texte": "bought this mostly for the blue compact because it's adorable, but the formula is actually great. the salicylic acid shrinks annoying surface bumps overnight. the star corners can lift a bit if you toss and turn in bed, but they still work very well so i don't care. totally worth it.",
+   "date": "2026-06-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "PG",
+   "titre": "Must have",
+   "texte": "These are my favorite stars! I struggle with some acne scarring and these overtime should hopefully help fade some dark spots",
+   "date": "2025-12-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maude",
+   "titre": "Cute and works well",
+   "texte": "It really helps flatten breakouts and calm inflammation much faster. The compact case with the built-in mirror is really convenient, especially for travel. They are also very cute, but quite bright and noticeable, so I prefer to keep them for overnight wear.",
+   "date": "2026-07-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

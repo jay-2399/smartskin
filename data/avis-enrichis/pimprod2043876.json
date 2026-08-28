@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2043876",
+ "asin": null,
+ "pid": "pimprod2043876",
+ "source": "ulta",
+ "nom": "Exuviance Pick-Me-Up Plumping Mask with Hyaluronic Acid",
+ "note": 4.74,
+ "nbAvis": 227,
+ "lus": 79,
+ "collectes": 124,
+ "segments": {
+  "sensitive": "Multiple reviewers with sensitive skin report no irritation, burning, or negative reaction, describing the mask as calming and gentle, with only one reviewer finding it too strong and slightly irritating.",
+  "dry": "Reviewers with dry skin report the mask relieves flakiness and dullness and delivers a noticeable hydration boost, with one noting fewer dry patches than usual the next morning.",
+  "combination": "Reviewers with combination skin, including some also describing it as sensitive or acne-prone, report the mask feels hydrating and plumping without irritation.",
+  "mature": "Reviewers around or over 40 describing their skin as aging or mature report a temporary reduction in the look of fine lines and a more youthful, plumped appearance."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on fine lines and aging report a temporary plumping effect that softens the look of fine lines and wrinkles for the day, framed as short-term rather than lasting.",
+  "dehydration": "This is the most frequently reported benefit: reviewers overwhelmingly describe intense, immediate hydration, plumpness, and softness, often lasting into the next day; one reviewer felt the mask was too drying-feeling initially due to mesh confusion but this was a misuse issue, not a hydration failure.",
+  "redness": "A small number of reviewers report the mask calmed redness, including one using it after a chemical peel and one mentioning reduced redness/irritation generally; no reviewer reports increased redness.",
+  "barrier": "Reviewers who mention using the mask after a chemical peel or exfoliating treatment report it helped calm and replenish the skin afterward, with no reports of compromised barrier or stinging in that context.",
+  "spots": "One reviewer with textured acne scars reports the mask visibly plumped the scars, improving their appearance; no other spot-specific reports are present.",
+  "blemishes": "Reviewers who describe themselves as acne-prone or hormonal-acne-prone report the mask did not trigger new breakouts or irritation; no reviewer reports breakouts caused by the mask.",
+  "oiliness": "No reviewer discusses oil control or shine as an outcome of this mask."
+ },
+ "aspects": [
+  {
+   "libelle": "Mesh liner confusing to remove",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Adheres well and stays in place",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy serum texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light or no fragrance appreciated",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Price high for single use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Outer box packaging feels plain",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Mask shape does not fit all faces",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Sheida",
+   "titre": "Confused by the reviews",
+   "texte": "I would not recommend this product. It almost felt dry and the mesh material does not stick onto your face. I was very disappointed. The only way I could get this to stay on is if I laid on my back, I ended up throwing it away.",
+   "date": "2024-06-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "alluringone",
+   "titre": "Meh",
+   "texte": "This was a little too strong for my skin. My skin was slightly irritated so I did not continue to use the product. This may work for someone else but not me.",
+   "date": "2024-04-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Halle",
+   "titre": "Okay for sensitive, dry skin",
+   "texte": "I felt like my skin needed a pick-me-up, and I had a self-care night. First, the way the mask is packaged is nice and luxe. There are two mesh protective layers on either side of it that you peel off prior to applying. It adhered nicely to my skin and covered the edges of my face, which sometimes can be an issue with sheet masks. I left the mask on a little longer than the instructions stated (probably around 25 minutes) and massaged the rest of the serum into my skin. This time of year, it doesn't matter how much I hydrate my skin at nighttime, I'll wake up with some flakes. I was worried about that using this mask because it was essentially the only skincare I did that night. I woke up with fewer dry patches than normal and my skin was glowy. It felt very hydrated and supple. I have hormonal acne and combo skin, this didn't irritate me at all. Highly recommend, especially at this price point!",
+   "date": "2024-11-03",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah84",
+   "titre": "Miracle Mask",
+   "texte": "In the winter my skin feels dry and dull. I used this mask and it immediately added bounc and hydration! I highly recommend to anyobe especially those with sensitive skin! It is ny new go to! I used this mask and decided to skip the makeup and I received compliments on my glowy skin! I highly recommend this product. For reference i am 41 and have combination sensitive skin.",
+   "date": "2026-01-26",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "aabbienicole",
+   "titre": "LOVE!",
+   "texte": "This plumping mask is so easy to use! Mess free with easy to follow instructions. I have combination, sensitive skin that is acne and eczema prone. I found that this plumping mask not only makes your skin feel more firm and plump, but it also provides a ton of hydration and moisture. I felt that my complexion appeared more radiant and hydrated after using this mask.",
+   "date": "2024-04-25",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jacky",
+   "titre": "Sensitive skin but my skin loved!",
+   "texte": "I hope this helps anyone who is sensitive with reactive skin that's acne prone. I was hesitant to try it because I finally cleared hormonal acne, but I was going to an event and needed a pick me up. This plumped up my skin, absorbed well with the rest of my regimen. My makeup applied beautifully. I have textured scars on my face and this definitely plumped them. I would highly recommend if you're going to an event. I even put it on backwards initially left it on for 30 minutes to be make sure I got all of the moisture. Hoping they have a sale so I can stock up.",
+   "date": "2025-08-18",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "heritagehousehomeste",
+   "titre": "Glowing skin",
+   "texte": "I love a good facemask especially because I am almost 40 and have aging skin. I felt like this mask plumped my skin up, helped with my fine lines and wrinkles, and made my make up apply flawlessly.",
+   "date": "2024-03-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

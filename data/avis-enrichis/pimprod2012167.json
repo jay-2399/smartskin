@@ -1,0 +1,173 @@
+{
+ "ref": "pimprod2012167",
+ "asin": null,
+ "pid": "pimprod2012167",
+ "source": "ulta",
+ "nom": "CeraVe Acne Foaming Cream Cleanser",
+ "note": 4.38,
+ "nbAvis": 2275,
+ "lus": 80,
+ "collectes": 120,
+ "segments": {
+  "oily": "Oily-skin reviewers report clearer skin, smaller pores, and improved texture with consistent use, and several say they experienced no breakouts or irritation despite typically reacting to new products.",
+  "dry": "Reviewers with dry skin are split: some describe worsening dryness, itching, flaking, or burning, while others (using it alongside a moisturizer) report no additional dryness and clearer skin.",
+  "combination": "Combination-skin reviewers note reduced pore size and improved texture, though one reports a residual layer of oil and leftover dirt after cleansing.",
+  "sensitive": "Sensitive-skin reviewers frequently report stinging or slight burning on first use but say it subsides quickly and does not worsen irritation when paired with moisturizer and sunscreen; a minority report rashes, burning, or dryness severe enough to stop use.",
+  "normal": "Reviewers describing normal skin report smoother texture and fewer breakouts with twice-daily use and no irritation.",
+  "mature": "Mature-skin reviewers (40s–70s) report smoother texture, reduced pore size, and fading fine lines, with some noting results appear more slowly than with stronger retinoids."
+ },
+ "concerns": {
+  "aging": "Many reviewers say fine lines look plumper or diminished after weeks of use and skin feels smoother; one long-term user with no wrinkles yet used it preventatively, while another after two months saw no visible change in wrinkles or hyperpigmentation.",
+  "dehydration": "Most reviewers pairing it with a moisturizer report no added dryness and even hydration or plumper skin, but several describe significant dryness, flakiness, itching, or the need to moisturize every 30 minutes, especially with frequent use.",
+  "redness": "Reviewers with redness-prone or sensitive skin report calmer, less red skin over time, though a few describe new rashes or increased sensitivity around the eyes and mouth.",
+  "barrier": "Several reviewers state the product helped repair or protect the skin barrier without dryness; one explicitly warns that overusing retinol strength (using more than a pea-sized amount) damages the barrier.",
+  "spots": "Numerous reviewers report fading of dark spots, hyperpigmentation, and post-acne marks within weeks to a few months; one three-month user reports no change to dark spots at all.",
+  "blemishes": "The large majority describe clearer skin, fewer blackheads/whiteheads and reduced acne scarring, including cases of hormonal, cystic, and body acne improving; a notable minority report no improvement or worsening acne, cystic breakouts, or closed comedones.",
+  "oiliness": "Oily-skin reviewers mostly report improved texture and smaller pores without mention of increased oil, though one reviewer with oily/combination skin says a layer of oil remains after cleansing."
+ },
+ "aspects": [
+  {
+   "libelle": "Stains towels and clothing",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Initial purging or breakout period",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Fragrance-free formula appreciated",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Affordable price relative to results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle/packaging for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or burning on first applications",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "patriciaf224",
+   "titre": "Dry, sensitive, acne-prone skin",
+   "texte": "As someone who has acne vulgaris and dry, sensitive skin, I found cerave's 4% BPO cleanser to be perfect as its great for comedonal + inflammatory acne without causing dryness as it contains hyaluronic acid in its formula. This makes it perfect for daily usage without dryness or irritability.",
+   "date": "2024-05-21",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Julie",
+   "titre": "Nice gentle retinol",
+   "texte": "I have been using this product off and on for over a year. I have very sensitive skin that is prone to redness and stings when I apply most products. I'm 44 years old and was looking for a retinol that wouldn't irritate my skin. This one really fit well into my skincare regimen. It's not as harsh as others that I've tried, but still makes a visible difference- just probably not as quickly as other stronger products. I would recommend this for anyone with sensitive skin. If you don't have sensitive skin, a product with stronger retinol might show results faster.",
+   "date": "2025-09-26",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "",
+   "titre": "not for me",
+   "texte": "this dried out my skin so much and made it itchy and flakey. I have to apply moisturizer every 30 minutes to help the flakiness. it also burned my skin and made it super sensitive.",
+   "date": "2024-03-31",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Ceara",
+   "titre": "It's ok",
+   "texte": "Its good at preventing breakouts but not healing them. I wear makeup and oily/combo skin. I noticed i still feel a layer of oil on my face even after cleansing. And when i tone i still have dirt on the pad. It doesnt dry the skin out at all in my opinion, it has a very creamy texture",
+   "date": "2024-05-21",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Debra",
+   "titre": "I have bought this product over and over again.",
+   "texte": "Lost count of how many I have purchased. This is part of my night time routine after double cleansing. Then I use the Cerave Skin Renewing Night Cream. I am 71 years young with oily skin, large pores, but no acne. This has changed my skin. I get complaints now.",
+   "date": "2026-01-21",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "mature",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Donna83",
+   "titre": "Amazing results!",
+   "texte": "My skin is pretty normal but with texture issues and current perimenopausal breakouts. I've been using other well known brands of retinol for years with no results. I bought this because I was looking specifically for something to help with my texture. Well, within a week of using this the texture issues on my left cheek literally disappeared! I can't stop touching my face, it's so soft and smooth! My boyfriend even noticed the improvement in my skin. I've had texture issues for years and only wish I found this product sooner. My other retinol is going in the trash and this is going to be my new holy grail. I also just got the SA cleanser. Neither of these products have dried out my normal to dry sensitive skin either.",
+   "date": "2024-03-09",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "normal",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "ricki",
+   "titre": "Broke me out",
+   "texte": "I've had acne prone skin for over a decade. my skincare focus has always been acne based, but now at 31 I've been looking to add more anti-aging products in. I figured a gentle retinol would be great, as it'd help both acne and fine lines. as soon as I started using this, I started breaking out. after taking a deeper look at the ingredients list, I found niacinamide was in it. I can't use products with niacinamide and ALWAYS break out when I find it in skincare I'm using. niacinamide is in just way too much nowadays and after I was getting it in high doses from different products, it started wreaking havoc on my skin and I can no longer use it. if cerava products break you out, check the ingredients. Their products almost ALWAYS contain niacinamide. PLEASE make some niacinamide free products!!!",
+   "date": "2026-01-19",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

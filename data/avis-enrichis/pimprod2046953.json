@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2046953",
+ "asin": null,
+ "pid": "pimprod2046953",
+ "source": "ulta",
+ "nom": "Naked Sundays SPF 50 Bronzing Drops Serum Sunscreen",
+ "note": 4.76,
+ "nbAvis": 868,
+ "lus": 79,
+ "collectes": 102,
+ "segments": {
+  "oily": "A reviewer with oily, hyperpigmentation-prone skin says the product is not mattifying and can still be moved with a finger an hour after setting powder.",
+  "sensitive": "Reviewers describe very sensitive or sensitive acne-prone skin as tolerating the formula well, with one buying it for a pre-teen's sensitive skin and another calling it lightweight and moisturizing; one separate reviewer reports the product burned when it got into her eyes.",
+  "mature": "One reviewer in her fifties reports the product moisturizes, protects, and makes her skin \"look great for 56\" when mixed with the bronzer and blush.",
+  "combination": "One reviewer with a deeper brown skin tone describes the sheer tint as slightly ashy on her but still bronzing and workable."
+ },
+ "concerns": {
+  "aging": "A single mature-skin reviewer reports the product moisturizes and protects while giving her skin a good look, but no other reviewer discusses anti-aging effects specifically.",
+  "dehydration": "Several reviewers say the product moisturizes or keeps skin hydrated all day without feeling oily; one reviewer contrasts it with other mineral sunscreens by noting it is \"not drying.\"",
+  "redness": "Not discussed with a stated skin concern in these reviews.",
+  "barrier": "Not discussed with a stated skin concern in these reviews.",
+  "spots": "One reviewer with hyperpigmentation on fair skin found the tint too pigmented and had to mix it with another product to avoid looking intense.",
+  "blemishes": "One reviewer with sensitive, acne-prone skin says the product kept her moisturized without breakouts and became her go-to; another with a breakout-prone, textured chin reports the product made that area look better than ever under concealer.",
+  "oiliness": "Most reviewers describe the finish as light, dewy or glowy rather than greasy, but three reviewers explicitly call the formula greasy, and one oily-skin reviewer found it did not set or mattify."
+ },
+ "aspects": [
+  {
+   "libelle": "Glowy, dewy finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy feel",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Glitter or shimmer too strong",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Shade too orange or too pigmented for fair skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Dropper wastes product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Blends easily under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or burns if it gets in eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Chelsea",
+   "titre": "Extremely pigmented on fair skin",
+   "texte": "I have hyperpigmentation and somewhat oily skin, so i love products that include zinc. This is a really pretty shade (peachy pink) and very glowy/sparkly. That said, its highly pigmented and the smallest amount (less than 1 drop) looks super intense on my fair skin. It works if i mix it with beautyscreen, but id rather not have to do that. On a positive note, the bottle will last forever haha It also isnt setting- if I lightly touch my face an hour after i apply it (and setting powder), my finger will still come away with product. Its possible that its not sinking in because i have mineral sunscreen underneath, but im not sure. While this product didnt work for me, i still love naked sundays (especially the beautyscreen) and will probably see if their blush sticks work better for me.",
+   "date": "2026-01-17",
+   "verifie": false,
+   "utiles": 26,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yaya",
+   "titre": "Worth it",
+   "texte": "I have very sensitive acne prone skin and always go for a natural dewy makeup look and its def worth it i like how it made me glow . Its very lightweight on my skin it kept me moisturized all day and i love that it has spf !! Definitely my go to in my routine now",
+   "date": "2025-11-30",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maya",
+   "titre": "Shocked how good! Better makeup application",
+   "texte": "I bought this during 21 Days Sale. I'm only using mineral sunscreens now. This made my flaky, breakout, textured chin area appear better than EVER after applying shape tape concealer on top. I am so impressed!",
+   "date": "2026-03-13",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kimberly S.",
+   "titre": "I'm on my second purchase.",
+   "texte": "I'm an outdoor gal(hike, golf, boat, paddle board and ski). I love this product mixed with two drops of it in bronze, then the blush, I feel put together and protected without looking shabby. It moisturizes, protects and my skin looks great for 56. Thank you!",
+   "date": "2025-09-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Akira B.",
+   "titre": "A little ashy for my tone but works well",
+   "texte": "I have a deeper brown skin tone so this is the most flattering and I do get some bronzing.",
+   "date": "2025-12-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Mineral Bronzing Drops Burn Eyes",
+   "texte": "Even though the mineral bronzing drops are 100% mineral spf, when this got into my eyes I could not function until I removed this apf and flushed my eyes. Beautiful skin finish but the eye irritation is a deal breaker for me.",
+   "date": "2025-06-23",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "J",
+   "titre": "Sparkly kid blush",
+   "texte": "The product was greasy and so sparkly it looked like kid blush. Not a product for working women but might be more appropriate for school age kids.",
+   "date": "2026-02-12",
+   "verifie": false,
+   "utiles": 33,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

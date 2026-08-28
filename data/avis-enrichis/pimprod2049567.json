@@ -1,0 +1,158 @@
+{
+ "ref": "pimprod2049567",
+ "asin": null,
+ "pid": "pimprod2049567",
+ "source": "ulta",
+ "nom": "Lancôme Tonique Confort Hydrating Hyaluronic Acid Toner",
+ "note": 3.32,
+ "nbAvis": 22,
+ "lus": 19,
+ "collectes": 19,
+ "segments": {
+  "sensitive": "One reviewer notes the product is marketed as good for sensitive skin but finds it heavily floral-fragranced, which she considers a downside for that skin type.",
+  "dry": "Reviewers with dry skin are split: some say the reformulated toner burns, tightens, or dries their face, while others (mostly using the new formula without comparison) call it very hydrating.",
+  "mature": "Two long-time users, including one 68-year-old, report smoother, fresher, glowing skin after regular use over weeks to a year."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers who used the reformulated version report it dried their skin, burned, or left it feeling tight immediately after application; others, especially newer users, describe it as very hydrating and moisture-boosting.",
+  "redness": "No reviewer specifically discusses redness reduction or irritation flare beyond the general dryness/burning complaints tied to the new formula.",
+  "barrier": "Multiple long-term users describe the new formula as behaving like a stripping astringent (witch-hazel-like) rather than a gentle toner, suggesting compromised barrier comfort for them; others report no such issue and describe softer, smoother skin instead.",
+  "aging": "One mature reviewer reports visibly smoother, fresher-looking skin after a year of twice-daily use, with others commenting on her appearance change; no negative aging-specific complaints are present."
+ },
+ "aspects": [
+  {
+   "libelle": "Formula changed from original",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky or soap-like texture after reformulation",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong floral fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Hydrating, soft skin feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick, non-watery consistency",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good layering base under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Price no longer justified by quality",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Cindy",
+   "titre": "Not the same!",
+   "texte": "So disappointed! The packaging is different. The salesclerk said the formula wasn't changed. She was wrong. It is now the same as any witch hazel astringent and dried out my face. Price is still the same but no longer a silky toner. Will not be buying again. And was a buyer of this for many years.",
+   "date": "2025-09-01",
+   "verifie": false,
+   "utiles": 27,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lovely",
+   "titre": "The old one is more better",
+   "texte": "This Toner was 10/10 it really help with dry skin but also took off the dirt ! This New Formula is not hydrating and burns skin and leaves face tight i very disappointed! Yall need original one back asap !",
+   "date": "2025-08-19",
+   "verifie": false,
+   "utiles": 24,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Pri",
+   "titre": "They changed the formula.",
+   "texte": "I've been using this toner for over a decade and they didn't just changed the packaging but also the formula. No more almond oil or rosa damasco. The color and texture is way different and it burned my skin. I only wore it once. I compared ingredients and textures its sad that an amazing product gets changed so drastically for non good reason.",
+   "date": "2025-06-22",
+   "verifie": false,
+   "utiles": 21,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Rick",
+   "titre": "highly fragranced",
+   "texte": "this product seems very overpriced for what it is. despite being advertised as 'great for sensitive skin', It is VERY fragranced (floral) and that's never great for skincare. there are definitely cheaper/better options out there.",
+   "date": "2025-06-25",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anne",
+   "titre": "This changed my skin",
+   "texte": "I started using this twice a day about a year ago. My skin is noticeably smoother and fresher. I am 68 years old. Several people have asked me what I'm doing differently to my facial skin. I've never used a toner that felt this good when you put it on. I'm sold!",
+   "date": "2025-05-01",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kat",
+   "titre": "Super hydrating",
+   "texte": "Well, I see all the reviews wanting the old formula back… I didnt get to try the old formula but for me this one was very hydrating and the smell is lovely. I also love that its thick and not watery because you're not wasting product.",
+   "date": "2026-01-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lory",
+   "titre": "Hands down my fave toner of all time!",
+   "texte": "First & forever toner I'll be buying! Super hydrating on the skin perfect for applying after cleanser. Love mixing it in with my Lancôme foundation best combo for a more hydrating and smooth base while doing my makeup. Not sticky at all!",
+   "date": "2025-05-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

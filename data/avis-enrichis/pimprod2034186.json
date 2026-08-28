@@ -1,0 +1,172 @@
+{
+ "ref": "pimprod2034186",
+ "asin": null,
+ "pid": "pimprod2034186",
+ "source": "ulta",
+ "nom": "The Ordinary Salicylic Acid 2% Solution, Exfoliating Serum for Acne",
+ "note": 3.74,
+ "nbAvis": 351,
+ "lus": 80,
+ "collectes": 103,
+ "segments": {
+  "oily": "Reviewers with oily or oily-acne-prone skin report the product controls flare-ups and reduces breakouts, with one describing it as bringing cystic acne and pustules to the surface before clearing (i46).",
+  "dry": "Reviewers with dry skin report mixed results: some find it absorbs well without over-drying (i57), while others report it dried out or peeled their skin and advise pairing with a heavy moisturizer (i18, i30, i34).",
+  "combination": "Reviewers with combination skin report it helps control breakouts without excess oil or dryness, though one teen with combination skin noted new pimples after first use (i21, i42, i66).",
+  "sensitive": "Reviewers describing their skin as sensitive are split: several say it works without irritation (i39, i55, i72), while others report burns, dryness, or reactions and advise against use on sensitive skin (i18, i23, i24)."
+ },
+ "concerns": {
+  "spots": "Most reviewers who mention spots or pimples report visible reduction, often within days to a few weeks (i44, i49, i59, i77); one reviewer reports it made her nose break out worse (i5).",
+  "blemishes": "Many reviewers report blemishes and small bumps/millia shrinking or clearing with consistent, sparing use (i38, i75); a minority report new blemishes or worsened breakouts after use (i21, i22, i35).",
+  "oiliness": "Reviewers with oily skin report the product helps manage oil-related flare-ups and keeps skin from feeling greasy (i48, i63); no reviewer reports increased oiliness.",
+  "redness": "Some reviewers report redness and inflammation improving alongside acne (i39, i64), but several others report the product itself caused new redness, burning, or irritated red patches (i3, i19, i22).",
+  "barrier": "A number of reviewers, some long-term users, report sudden barrier damage — burning, peeling, chemical-burn sensations — attributed to a suspected reformulation (i6, i8, i14, i16); others report no barrier issues even with regular use (i42, i57).",
+  "dehydration": "Several reviewers report dryness, flaking, or tightness, especially with whole-face or daily application, and recommend using sparingly with a moisturizer (i28, i30, i32, i34, i71); a few report no drying effect (i39, i57, i64)."
+ },
+ "aspects": [
+  {
+   "libelle": "Sticky or tacky residue on skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly, lightweight feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Initial purging before improvement",
+   "polarite": "neg",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Affordable relative to results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Suspected reformulation causing reactions",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "No noticeable fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires sparing, targeted application",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Viv",
+   "titre": "Suddenly Ruined My Skin Barrier",
+   "texte": "I've been using this serum for YEARS. It was wonderful and really helped keep my hormonal acne at bay. It made my skin a little dyer but nothing a good moisturizer couldn't fix. All of a sudden a month ago, it just kept BURNING my skin. I'm not sure what's going on with this stuff. I thought maybe it was on a once off... tried it again and my skin was peeling. Anything I put on my face hurt so bad. I didn't change anything. Not my routine, application amount, anything. I've spent the last month using barrier repair products and stopped using the serum. My skins FINALLY looking better and doesn't hurt when I apply products. I can't in good conscientiousness recommend this serum anymore.",
+   "date": "2025-02-12",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Maddie",
+   "titre": "The Ordinary salicyic acid",
+   "texte": "I don't recommend this for people that have sensitive skin. For me, it burnt my skin and created dry patches. There is the same treatment and I definitely recommend it it's called Salicylic acid 2% Anhydrous Solution.",
+   "date": "2024-08-21",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Alyssa",
+   "titre": "You either love it or hate it lol",
+   "texte": "This is a good product that doesn't irritate my very sentive and acne-prone skin. However.. the consistency is thick and goopy & leaves an insanely sticky film on my face. If that doesnt bother you, I would say it's a good product for the price despite that. :)",
+   "date": "2025-01-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Caitlin",
+   "titre": "I found this effective",
+   "texte": "I alternate between this and the 10% Lactic Acid serum every other night. First I wash my face with a gentle cleanser (double cleanse if I wear makeup), then follow up with a few drops of this, and finish up with my night time moisturizer. My skin really loves it. I'm not red, itchy, or irritated. I have combination skin.",
+   "date": "2024-08-04",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Best product ever",
+   "titre": "Liquid Gold!!!",
+   "texte": "Best thing that after happened to me. It cleared up my skin perfectly. I have extremely oily skin and it was building uo underneath my skin causing cystic acne and postules. If you have dry skin id maybe do more research before using this product. This is a very strong product so be very careful with the amount you use. When i first used the product it brought all the bad stuff to the surface and made my skin purge. My entire face was covered in postules but after 2-3 weeks it went away and i never had a pronlem afterwards. You need to be consistent if you want to keep the results.",
+   "date": "2024-10-30",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Abby",
+   "titre": "Absorbs Well and Isn't Drying",
+   "texte": "I have dry skin that's not terribly prone to acne, but I'm in theatre and dance, so I have to use heavy, oily makeup semi frequently. This helps prevent breakouts and keep my skin clear without drying it out further.",
+   "date": "2025-02-07",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Marissa",
+   "titre": "Used to be a favorite",
+   "texte": "I used to like this product a lot, I thought it was like the holy grail of face products for keeping my acne at bay. But I bought a new bottle a few weeks ago and it made my face break out horribly, with dry, patchy red spots! I stopped using it and am still struggling to correct the damage, especially to my nose and chin. I'm not sure what changed, I've been using this for about three years. I think they changed the formula? But I wouldn't recommend it anymore.",
+   "date": "2024-11-29",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "redness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

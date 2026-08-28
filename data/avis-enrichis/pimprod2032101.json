@@ -1,0 +1,174 @@
+{
+ "ref": "pimprod2032101",
+ "asin": null,
+ "pid": "pimprod2032101",
+ "source": "ulta",
+ "nom": "cocokind Ceramide Barrier Nourishing Daily Serum",
+ "note": 4.76,
+ "nbAvis": 3443,
+ "lus": 79,
+ "collectes": 114,
+ "segments": {
+  "oily": "One reviewer with oily, reactive, acne-prone skin reports the serum controls flare-ups without breaking her out; another with combo/slightly oily skin says it does not clog pores.",
+  "dry": "Reviewers with dry to extremely dry skin describe it as hydrating without greasiness, helpful in winter flakiness, and effective for dryness that increased with age.",
+  "combination": "Combination-skin reviewers (some also calling their skin acne-prone) say it balances redness, oiliness and dry patches at once.",
+  "sensitive": "Sensitive-skin reviewers are split: many describe it as calming, non-irritating and barrier-restoring, while several others report burning, stinging or redness, especially around the nose and cheeks or when layered under other products.",
+  "mature": "One reviewer in her late 30s reports it keeps increasingly dry, age-related skin hydrated without looking greasy under a heavier moisturizer."
+ },
+ "concerns": {
+  "aging": "A late-30s reviewer reports it counters new dryness that came with age and keeps skin feeling hydrated without a greasy look under moisturizer.",
+  "dehydration": "The large majority describe strong hydration, plumpness and reduced flakiness, including in winter; one reviewer needed a separate dedicated hydrating serum for chronic dryness.",
+  "redness": "Most reviewers report reduced redness, calmer skin and relief from flare-ups (hives, sunburn, windburn, histamine reactions); some sensitive-skin reviewers report the opposite, with new redness or burning after use.",
+  "barrier": "Many reviewers credit it with repairing a compromised or damaged barrier and reducing sensitivity over time; a few report the serum itself triggered burning that felt like a barrier reaction, sometimes after a formula change.",
+  "spots": "Several reviewers report fewer breakouts, including hormonal acne, and no new blemishes over months of use; no reviewer reports it causing spots.",
+  "blemishes": "Acne-prone reviewers report calmer skin and reduced breakouts, with post-acne glow and no clogging; no reviewer attributes new blemishes to the product.",
+  "oiliness": "One combination/oily-skin reviewer reports it balances oiliness alongside dryness and redness; wear is otherwise described as lightweight and non-greasy across skin types."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Milky, silky finish, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under moisturizer and makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Recent formula change causing reactions",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value, repurchased repeatedly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gel residue around bottle opening",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "melina",
+   "titre": "not for the sensitive skin",
+   "texte": "sincd my first use i always had minor stinging when hsing this product around my nose and cheek area, but the more oroducts i had underneath it, the more likely and intense the burnimg sensation is. i see im not the only one who has had this reaction, but ive narrowed down to when as soon as this serum is used and on those sensitive spots, red and burns badly. on the non sensitive parts of my face i really liked the texture and application and how it felt. i just wish it didn't cause such insane burning :( recommend to people without sensitive skin/ easily compromised barrier",
+   "date": "2026-02-21",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Alexis M.",
+   "titre": "Not for sensitive skin!!!",
+   "texte": "Wanted to love this product but sadly it made my dry, sensitive, acne prone skin so sooo angry :( It genuinely burned my skin and would not recommend to anyone with skin similar to mine!",
+   "date": "2025-09-23",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Karley M.",
+   "titre": "What I need when my skin is screaming SOS",
+   "texte": "Texture & Scent: Light, creamy serum with a silky finish feels instantly soothing going on. No noticeable scent, which is ideal for my sensitive skin. How it works with other products: I layer it after the Chlorophyll Discoloration Serum and before the Electrolyte Water Cream, and it fits seamlessly into both my morning and evening routines. No pilling, no residue just hydration and calm. Results: This has been a game-changer for my compromised skin barrier. Redness is reduced, tightness is gone, and my skin feels noticeably stronger and more hydrated. Its especially helpful after retinoids or exfoliating treatments. Irritation or Sensitivity: As usual with Cocokind, NO irritation. In fact, it calms irritation. This is the product I reach for when my skin needs a reset. Would I repurchase? Absolutely. Its a must-have for barrier supportand proof that you dont need to spend $50+ to get a ceramide serum that actually works.",
+   "date": "2025-07-31",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Abegail M.",
+   "titre": "Amazing for dry skin as you age",
+   "texte": "My skin has gotten drier as Ive entered my late 30s, and adding this serum into my daily routine has helped keep my skin feeling hydrated. I notice a difference the few times I forget to use it, and I like that it hydrates my skin, but doesnt leave me looking greasy when applied under a heavier moisturizer.",
+   "date": "2025-08-30",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emina",
+   "titre": "I have easily irritated skin",
+   "texte": "I have acne prone skin that is very easily irritated. Ive been using this serum daily for a month and a half and have noticed significant improvement. I just ordered my second bottle. It does not break me out and helps retain moisture. I use it every morning after my azelaic acid & at night after my retinol treatments. My skin looks so much better.",
+   "date": "2026-08-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Caycee C.",
+   "titre": "SAVED MY COMBO/ACNE PRONE SKIN!!!",
+   "texte": "this serum SAVED my skin!! having combination/acne-prone skin, its rare you find something that tackle so many issues at once. my redness, oily ness, dry patches have all been ALL balanced with this serum! its been a staple for me ever since I bought it. I love this serum!!!!",
+   "date": "2025-07-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth C",
+   "titre": "Love it!",
+   "texte": "I have such oily, reactive, and acne-prone skin but this has not failed me in 4 years of using it. If my skin is having a flare up, I will literally put just this and the cooling cream on it. It is so moisturizing and soothing to my skin. Continuously re-buy it.",
+   "date": "2025-12-06",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

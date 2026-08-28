@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2056930",
+ "asin": null,
+ "pid": "pimprod2056930",
+ "source": "ulta",
+ "nom": "Good Molecules Maximum Strength Acne Gel Cream",
+ "note": 4.47,
+ "nbAvis": 15,
+ "lus": 14,
+ "collectes": 14,
+ "segments": {
+  "oily": "One reviewer with oily/combination adult acne reports this as the most effective treatment tried after other brands stopped working.",
+  "combination": "Reviewers with combination skin report mixed results, from strong satisfaction to a reaction blamed on fungal-acne-triggering ingredients.",
+  "sensitive": "Sensitive-skin reviewers are split: some report no irritation and even hydration, one reports a strong smell, and one reports worsened acne.",
+  "normal": "One reviewer who states her skin is not sensitive reports severe irritation and itching after about three weeks of use."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers report the gel-cream feels hydrating rather than drying, with one noting it did not leave skin flaky or dry at all; one reviewer separately reports the product caused excessive dryness with a different benzoyl-peroxide product, not this one.",
+  "barrier": "Most reviewers report no irritation and even a soothing, hydrated feeling; two reviewers report adverse reactions, one describing 'worst irritation and itchy skin' after three weeks and another describing worsened acne linked to fungal-acne-triggering ingredients.",
+  "spots": "Multiple reviewers report visible shrinking or clearing of individual blemishes within hours to days, including one stubborn infected pimple resolved in two days; results are described as consistent across spot-treatment and all-over use.",
+  "blemishes": "The large majority report clearer skin and fewer breakouts with regular use, including forehead and chin acne linked to sweat or hormones; one reviewer reports her acne got worse, attributing it to fungal-acne triggers in the formula."
+ },
+ "aspects": [
+  {
+   "libelle": "Gel-cream texture feels hydrating",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable scent right after application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Mild tingling on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Purging period before improvement",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Good value for price and tube size",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast visible results on individual blemishes",
+   "polarite": "pos",
+   "concerne": [
+    "spots"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Angie",
+   "titre": "Use With Caution",
+   "texte": "My skin isn't sensitive, but after about 3 weeks os using this product it caused the worst irritstion and itchy skin of my life. I started out using this oroduct slow too.",
+   "date": "2026-07-04",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "normal",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Amanda",
+   "titre": "NOT fungal acne friendly!",
+   "texte": "I always liked the good molecules line but this one dissapointed me😭found out there was 5 fungal acne triggers to this product and I believe made my acne worse instead. I have combo, sensitve, acne prone skin.",
+   "date": "2026-06-10",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jeremy",
+   "titre": "Simple product with good results",
+   "texte": "This product is not flashy or boastful. It doesn't smell perfumy. Come to think of it, it doesn't really smell like much of anything I can think of to be honest. What this product is for me is highly effective with daily use after using an acne cleanser to combat and control adult acne. The price is fantastic too. I used to use acne control products from another big company that typically does not use benzoyl peroxide because I'm allergic and their products were not cheap, but over time they kept changing formulas to the point their stuff didn't work for me anymore, so I had to find new stuff. After trying several brands I have found this particular acne treatment gel works best for me so I thought I would share my thoughts here. I am an adult male that has struggled with acne since becoming a teenager with oily/combination skin type",
+   "date": "2026-05-10",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lea",
+   "titre": "Instant Results!",
+   "texte": "I've tried other versions of retinol and acne products to no avail, and this blew my mind! Left my skin feeling supple, soft, and hydrated surprisingly. No irritation! Be aware there is a \"purge\" with this initially, but the results are amazing!! I use this in conjunction with their 10% Azelaic Acid to reduce hyperpigmentation as well, and have been very happy with the immediate and long term results from both. If you have sensitive and acne prone skin, this product is the one!",
+   "date": "2026-05-03",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kaylee",
+   "titre": "Love it, new bombshell in the acne arsenal",
+   "texte": "I love this gel-cream texture. It does feel more hydrating than other salycilic based treatments as it wears. I like that it has other gentle exfoliator ingredients too to bust the acne and refresh the skin. The tube has a great amount of product in it for the price point too, another good item from Good Molecules!",
+   "date": "2026-04-20",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "bri",
+   "titre": "Great product!",
+   "texte": "This did not leave my skin flaky or dry at all. It god rid of a very stubborn infectected pimple in only 2 days. The pimple lasted for 1 month before I used this product. Theres a slight tingle after applying but nothing bad at all :)",
+   "date": "2026-08-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "moosya",
+   "titre": "Good",
+   "texte": "It works, light gel-cream with sticky finish (moisturizing, heals acne). However, it has weird smell, most likely it stinks (skin, fingertip too). I am sensitive to smells so maybe thats why. After 10 min I don't smell anything, so it's fine",
+   "date": "2026-03-04",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

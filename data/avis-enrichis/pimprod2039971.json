@@ -1,0 +1,175 @@
+{
+ "ref": "pimprod2039971",
+ "asin": null,
+ "pid": "pimprod2039971",
+ "source": "ulta",
+ "nom": "Peach Slices Oil Control Balancing Cleanser",
+ "note": 4.5,
+ "nbAvis": 54,
+ "lus": 49,
+ "collectes": 49,
+ "segments": {
+  "oily": "Most oily-skin reviewers report reduced shine and better-controlled oil over the day, though a few say it dried them out, stung, or paradoxically made their T-zone oilier.",
+  "combination": "Combination-skin reviewers generally describe it as balancing, clearing blackheads and redness, though one reports it broke her out with cystic and whitehead acne.",
+  "sensitive": "Sensitive-skin reviewers are split: several find it gentle with little to no irritation, but others report dryness, itching, stinging, or burn-like redness marks.",
+  "mature": "One reviewer in her late 30s/40s reports it works well without drying her skin."
+ },
+ "concerns": {
+  "aging": "One mature reviewer reports good results with no dryness; no other age-related effects are mentioned.",
+  "dehydration": "Several reviewers say it does not dry out their skin and even helps with dryness, but multiple others report it caused dryness, stinging, peeling, or itchiness.",
+  "redness": "One reviewer saw visible improvement in redness; another reports the product left burn-like marks of redness from irritation.",
+  "barrier": "A few reviewers mention burning or stinging on use, and one describes eye-area burning, suggesting irritation for some users.",
+  "spots": "One reviewer reports lightened dark spots and fewer blackheads; another reports blackheads and sebum multiplying after use.",
+  "blemishes": "Most acne-related comments are positive (fewer breakouts, cleared cystic acne concerns for some long-term users), but several reviewers explicitly report new painful cystic acne or whiteheads after starting the product.",
+  "oiliness": "Oil control is the most frequently praised effect, with many reporting significantly less shine and longer-lasting matte skin, but a handful say it did not reduce oil or made their T-zone oilier."
+ },
+ "aspects": [
+  {
+   "libelle": "Noticeable oil control through the day",
+   "polarite": "pos",
+   "concerne": [
+    "oily",
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Causes new breakouts for some",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Pleasant mild scent (mint/spa-like)",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tea tree/eucalyptus irritation risk",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Feels gentle, non-stripping after wash",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or burns eyes/skin for some",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good lather and easy rinse-off",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "",
+   "titre": "Not for sensitive skin",
+   "texte": "This has me sooooo dry and itchy. My skin is oily but also sensitive in some areas. This product is not great for me.",
+   "date": "2023-08-31",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Olivia",
+   "titre": "Broke my skin out with painful acne",
+   "texte": "My face is genrally combo skin with sime acne, but its normally just a few zits here and there as I've kept it under control. This product made me break out immediately all over my face with painful cystic acne and small whitehead acne. Transported me back to awful puberty skin! Im disappointed because the ingredients list seems like it would be good for acne but this made it worse. I'll be returning.",
+   "date": "2024-09-08",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Liv L",
+   "titre": "Oilier Skin and Painful Acne",
+   "texte": "This cleanser seemed great the first time I used it, and my skin initially felt tightet and cleaner, however I woke up the next day with painful acne on areas of my face it doesn't normally appear. The more I used it, my skin became more oily in the T-zone, more painful acne appeared and sebum/blackheads multiplied. It also left what are almost burn marks of redness from irritation. I'll be returning to my gentle 2% salicylic acud cleanser with no added oils, fragrances or ingredients. I don't reccomend this to anyone.",
+   "date": "2026-03-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "oiliness",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "C",
+   "titre": "Best Face Wash for Combo Skin",
+   "texte": "This face wash is fantastic! It took me a very long time to locate the perfect face cleanser because of my combination skin type. Some cleansers were too oily or too dry for my skin. So I had to speak with a skin care specialist at Ulta about my concerns, and when she recommended this face wash, I haven't gone back. When I use the face wash, my blackheads and the large red spots under my nose that were difficult for makeup to cover up completely disappeared. After washing my face, I also adore the recipe since it feels so fresh and comfortable on my skin. Thus, to everyone who has combination skin should use this cleanser.",
+   "date": "2024-06-15",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ryry9898",
+   "titre": "Great Cleanser for Oily Skin!",
+   "texte": "I have oily/acne prone skin and I just picked up this cleanser a few days ago. So far I'm loving it! I feel like i get a deep clean without my skin feeling stripped afterwards. I would watch out if you are sensitive to fragrance b/c this does contain eucalyptus but it is very faint and the scent goes way almost instantly. Yet another great product from peach slices! Can't wait to try out the rest of the Oil Control line!",
+   "date": "2023-07-05",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jack",
+   "titre": "it really works",
+   "texte": "I have always struggled with oily skin and i gave this product a try. omg! It works so well, it doesnt dry yout skin at all and way less breakouts. im almost 40 and this is a must. Love !!",
+   "date": "2025-06-27",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda",
+   "titre": "Such a difference",
+   "texte": "This cleanser has made such a difference in the amount of oil in my skin. It has also helped to clear my skin from acne and lightened dark spots. Before I found this, when I would wash my face in the morning, it became oily & shiny almost immediately, and now it so much less oily, and I love that it has niacinimide and botanical extracts in it. It is so good for my skin! It has so many natural ingredients and it's been so good to my skin! I have been using this for about a year now, and I can't live without it!",
+   "date": "2026-05-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness",
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

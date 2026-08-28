@@ -1,0 +1,138 @@
+{
+ "ref": "pimprod2058968",
+ "asin": null,
+ "pid": "pimprod2058968",
+ "source": "ulta",
+ "nom": "medicube Kojic Acid Turmeric Body Peel Shot",
+ "note": 3.67,
+ "nbAvis": 9,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {
+  "sensitive": "One reviewer with sensitivity limits use of this underarm product to twice a week to avoid irritation."
+ },
+ "concerns": {
+  "spots": "Several reviewers report fading of dark marks and hyperpigmentation on underarms and scars, some noticing lightening after the first use; one reviewer saw no change at all on the underarms.",
+  "blemishes": "One reviewer describes lighter-looking scars after first use, with continued improvement expected."
+ },
+ "aspects": [
+  {
+   "libelle": "Skin feels smoother after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes visible dead or crusty skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Product texture rolls up like glue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No noticeable change for some users",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick, easily spreadable formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Perceived as overhyped and not worth the price",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Patty",
+   "titre": "Didn't Work",
+   "texte": "I have seen good reviews witch encourage me to buy this product for my underarms. Unfortunately it did not work for at all. There was no change",
+   "date": "2026-08-12",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Ray",
+   "titre": "It's the product not dead skin",
+   "texte": "I know youve all seen the ads. As soon as you put it on your skin and move your hand, the product is rolling up like dried glue. What else would it be good for if its nor actually a peel?",
+   "date": "2026-08-18",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Ultimate",
+   "titre": "Miracle in a Bottle",
+   "texte": "I have hyperpigmentation on my underarms and this product has gradually faded the dark marks away. I use it only twice a week due to sensitivity. This made my underarms brighter over the past six week. Definitely recommended!",
+   "date": "2026-07-03",
+   "verifie": false,
+   "utiles": 37,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "amy",
+   "titre": "immediate difference",
+   "texte": "ive only used once on my legs and armpits but wow. there is an immediate difference in how soft my skin feels. the product is thick and easily spreadable and immediately brought up tons of dead skin. i cant wait to keep using this!",
+   "date": "2026-07-13",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "CK",
+   "titre": "wow",
+   "texte": "I bought this for my mom after I saw an ad on tiktok of someone using this on their feet. I'm surprised at how good this actually is. It removed SO MUCH built up crusty skin from her feet it was wild. I used this on my heels too and it works just as well as one of those foot cheese graters. I would actually say this is far better because it left our feet so smooth without having to use any lotion afterwards.",
+   "date": "2026-07-22",
+   "verifie": false,
+   "utiles": 14,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Mecia",
+   "titre": "Will be repurchasing!",
+   "texte": "I've seen a significant improvement in my skin since using this product. My discoloration and hyperpigmentation have noticeably faded, and my overall skin texture looks much smoother and healthier. I just finished my first bottle and will definitely be repurchasing!",
+   "date": "2026-07-19",
+   "verifie": false,
+   "utiles": 14,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kari",
+   "titre": "It works",
+   "texte": "My scars look lighter with the first use. I can't wait to see the results as I continue to use it.",
+   "date": "2026-08-10",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Only 9 reviews total and just one mentions a specific skin type, so segmentation by skin type is very thin."
+}

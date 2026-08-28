@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2033456",
+ "asin": null,
+ "pid": "pimprod2033456",
+ "source": "ulta",
+ "nom": "Murad Deep Relief Acne Treatment",
+ "note": 4.69,
+ "nbAvis": 588,
+ "lus": 80,
+ "collectes": 120,
+ "segments": {
+  "sensitive": "Reviewers describing sensitive or reactive skin report the treatment works without irritation, stinging, or burning, and several call it gentler than other spot treatments.",
+  "dry": "Reviewers with dry or acne-prone dry skin note it can cause some dryness or flaking with frequent use, though several say it did not dry their skin out at all when paired with a moisturizer.",
+  "combination": "A combination-skin reviewer reports it reduced hormonal breakouts around ovulation without other issues.",
+  "oily": "One reviewer with oily skin around the nose and chin found it effective at 2% salicylic acid without burning or bad smell.",
+  "mature": "Older reviewers (in their 60s, 70s) report it helped control adult-onset breakouts and calmed painful cystic bumps."
+ },
+ "concerns": {
+  "spots": "Most reviewers say tiny or regular pimples flatten and clear within one to a few days; one reviewer says it made older blemishes more noticeable and broke her out more than usual.",
+  "blemishes": "The large majority describe cystic, hormonal, or under-the-skin blemishes shrinking, flattening, or disappearing within one to several days; a few report inconsistent results on cystic bumps or no full resolution, and one reviewer describes worsening breakouts.",
+  "redness": "Several reviewers report visible redness and swelling around blemishes decreasing within a day or two of application; no dissent noted.",
+  "dehydration": "Some reviewers highlight that it does not dry out their skin, even calling it non-drying compared to other treatments; others report noticeable dryness, flaking, or the need to follow with moisturizer.",
+  "barrier": "A few reviewers feel it treats blemishes without stripping or irritating the skin barrier; no contrary reports found.",
+  "aging": "One reviewer in her 60s and one in her 70s report it helped manage adult breakouts, but no specific anti-aging effects are mentioned.",
+  "oiliness": "One reviewer with oily skin around the nose and chin reports effective results without excessive peeling; no other oiliness-specific feedback given."
+ },
+ "aspects": [
+  {
+   "libelle": "Sharp metal lid cuts fingers",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast visible results within days",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dries down clear under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unsanitary jar packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes purging or dark marks initially",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jessica",
+   "titre": "Made things worse",
+   "texte": "I tried it for several weeks and I broke out way more than I normally do. Plus it made older blemishes more noticable. Pretty much the opposite of what it should do. Very disappointed I paid for this.",
+   "date": "2025-01-23",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Xoxonycbb",
+   "titre": "Skip - partially worked but left extreme dark marks",
+   "texte": "I tried this product out on two difficult under the skin pimples. One on my forehead and one on my chin. It seemed to be working after the first two nights , but then my pimples (which were skin colored) started to develop serious dark marks. And I don't mean post acne hyper pigmentation, because the bumps are still here. The pimple on my forehead has been replaced with a dark spot pimple and the pimple on my chin has a strange dark surface area around and below the pimple. I'm not sure what happened, as I use a salicylic acid often, but obviously, once these marks showed up I stopped use. I made an appointment with my Derm and can not recommend this product.",
+   "date": "2023-07-05",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kezzie",
+   "titre": "Effective Repurchase & Worth It",
+   "texte": "This will be my second bottle now. I am obsessed. I have sensitive, reactive, acne-prone skin. I am a Fitzpatrick Skin Type 4 and have hyperpigmentation. This product works extremely well for my both hormonal cystic acne and regular clogged pores. This targets the acne while being moisturizing and non-irritating (for me at least). I also see a difference in my old hyperpigmentation as well as reducing the amount of post-inflammatory hyperpigmentation new acne creates. Knocked off a star due to packaging. It can easily become unsanitary using this product as you either have to pour the product into your palm or dip a cotton bud/Q-tip into the product. For the price, they could have opted for cheaper plastic pump packaging instead of useless frosted glass with a lid that has claims of cutting people. If you are able, this product is great to try & worth the investment. This is great in conjuction with Paula's Choice Benzoyl Peroxide (my two acne staples).",
+   "date": "2023-04-23",
+   "verifie": false,
+   "utiles": 19,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Barbara",
+   "titre": "This works!",
+   "texte": "I am 75 years young, and due to multiple auto-immune issues, have developed very oily skin in and around my nose, upper lip and chin. I have been using LaRoche-Posay Effaclar products, but their serum is only 1.5% salicylic acid and it was not strong enough. I have tried Peace Out Acne Serum which is 2% salicylic acid but didn't like the smell or texture. The Murad serum is perfect - 2% salicylic acid, no burn, no sting, no bad smell - in fact, no smell at all. There is no excessive peeling and I use it morning and night. I will definitely purchase this again and highly recommend. Since I have been using both glycolic and salicylic acid for over a year, first time users may want to use once a day to begin.",
+   "date": "2023-11-02",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tara",
+   "titre": "Truly life changing for my skin!!!",
+   "texte": "I started using this product in January after seeing recommendations online. I have very acne prone, dry skin - salicylic acid products can be drying, but this spot treatment has not dried my skin out at all! I use it morning and night on my problem areas and follow with a thick moisturizer. Consistency is key with this! Results might not show after only a few applications. My skin shows the best results with consistent, twice daily use. My acne has gotten so much more manageable and clears faster. I've been using this product for about 6 months and would highly recommend!",
+   "date": "2025-06-08",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristen",
+   "titre": "Helped with monthly hormonal acne",
+   "texte": "This Murad serum for acne did an amazing job with decreasing a significant amount of monthly hormonal breakouts. My skin is usually combination, with few breakouts during the month. However I do get several around the time I ovulate and get ready for my period. I didn't have nearly as many after I started using this, which was a huge perk for me and I'll definitely keep using to see how it helps in months to come. I did receive complimentary from Murad Skincare in exchange for an honest review.",
+   "date": "2022-10-05",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tay C",
+   "titre": "Yes please!!",
+   "texte": "Blackheads be gone! I have definitely noticed a difference on my acne that has risen and reduced major redness. I use it for all my major breakouts and stops it before it gets too bad. I have oily, dry, and also sensitive. Also this product doesn't have a scent and didn't irritate my skin which is really nice. I've also found out you can use on ingrown hairs!",
+   "date": "2022-10-05",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

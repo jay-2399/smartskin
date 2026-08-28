@@ -1,0 +1,172 @@
+{
+ "ref": "pimprod2049597",
+ "asin": null,
+ "pid": "pimprod2049597",
+ "source": "ulta",
+ "nom": "ANUA Azelaic Acid 10 Hyaluron Redness Soothing Serum",
+ "note": 4.57,
+ "nbAvis": 374,
+ "lus": 80,
+ "collectes": 112,
+ "segments": {
+  "oily": "Reviewers with oily/acne-prone skin report reduced breakouts and redness, with one noting it doesn't feel heavy in oily zones (12, 25, 61, 65).",
+  "dry": "Reviewers with dry skin mostly describe it as hydrating and non-drying, though one found it left a tacky/sticky feel and another noted a tight, sticky drydown before moisturizer (17, 34, 42, 44, 52, 58, 2).",
+  "combination": "Combination-skin reviewers report smoother, clearer skin with no irritation, calling it gentle enough for daily use (14, 29, 61).",
+  "sensitive": "The largest group of reviewers self-identifies as sensitive/reactive; most report calmed redness and no breakouts, but a notable minority describe burning, itching, rash or new breakouts, with one describing the product as having 'destroyed' her barrier (1, 3, 4, 5, 9, 21, 26, 27, 28, 34, 38, 42, 47, 48, 49, 51, 55, 56, 62, 70, 76).",
+  "mature": "Reviewers describing mature skin (50s-60s) report gradual improvement in redness and smoothness with continued use rather than overnight change (11, 44, 65)."
+ },
+ "concerns": {
+  "aging": "Reviewers who mention age (50s-60s, 'mature skin') report gradual redness reduction and smoother texture with continued use, not overnight transformation (11, 44, 65).",
+  "dehydration": "Several reviewers with dry or dehydrated skin describe the serum as hydrating and non-drying thanks to the hyaluronic acid, though one reviewer noted it 'dries a little tight and sticky' before moisturizer is applied (17, 34, 44, 52, 58, 68).",
+  "redness": "The majority of reviewers report visible, sometimes fast (within days) reduction in redness and rosacea-related flushing, including long-term rosacea sufferers; one reviewer saw no difference after two months and one describes her face turning bright pink and inflamed on application (7, 9, 10, 20, 23, 24, 37, 39, 45, 50, 64, 68, 79, 1).",
+  "barrier": "One reviewer credits the serum with helping repair a damaged skin barrier, while another reports it 'completely destroyed' her barrier with burning, peeling and flaking after use (46, 1).",
+  "spots": "Reviewers report faster fading of post-acne marks, PIH and PIE with continued use, though one reviewer with stubborn PIE from acne saw no change after nearly two months (16, 40, 43, 53, 54, 70, 71, 47, 7).",
+  "blemishes": "Many acne-prone reviewers, including those with hormonal, cystic or chin acne, report fewer and calmer breakouts, sometimes within days; several others report the opposite, describing new pustules, tiny breakouts or rashes triggered by the product (18, 19, 21, 27, 33, 35, 45, 63, 76, 0, 4, 6, 3).",
+  "oiliness": "A few reviewers with oily skin note the serum absorbs quickly without feeling heavy in oily zones, though this is a minor point rather than a central theme (12, 25, 65)."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight watery texture absorbs fast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky or tacky residue after application",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "No noticeable fragrance",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning, stinging or rash on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Layers well under moisturizer and sunscreen",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Lilliana",
+   "titre": "Completely destroyed my skin barrier.",
+   "texte": "I had heard so many good things about this serum, from helping with redness to reducing texture. And...wow. it completely destroyed my skin barrier, within literal seconds to putting it on my face: my face turned bright pink, itchy & burning/tingling with inflammation in some areas. Completely waste of 22 dollars. It took 5 days for my skin to calm down after, but since then it has made my face peel and flake.",
+   "date": "2026-02-08",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Lacey",
+   "titre": "Not for me",
+   "texte": "I have extremely sensitive and reactive skin with rosacea. I thought this would be a miracle product for me. However, I've noticed that it has caused me to break out on multiple occasions- which is really rare for me now that I have a very edited skin care routine. I've pulled it from my rotation and reintroduced it at least 3 times with the same results- tight feeling skin followed by an all over breakout. I think this probably works wonders for some people, but its not for me. I'll stick with LRP Cicapair spray for a redness reducing serum.",
+   "date": "2026-04-05",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Tati",
+   "titre": "On my 2nd bottle",
+   "texte": "I have rosacea that has never really bothered me, but as I get older and more stressed, it's become worse with frequent flushing where my cheeks feel like they're burning. This Azelaic Acid Soothing Serum has been helping. I've tried other brands of Azelaic and other products for redness, but using this consistently morning and night has helped prevent flushing. It hasn't gotten rid of the rosacea, but it has made it a little lighter (more of a pink with use vs red).",
+   "date": "2026-04-07",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "mature",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "lucystarfire",
+   "titre": "MAGIC BOTTLE!!",
+   "texte": "I swear this product is like magic in a bottle. I just bought this yesterday and my skin feels an overnight effect! I can already see the redness disappearing and the hyperpigmentation reducing. I have some stubborn acne marks that already look blurred. This is a product that DID NOT burn my skin which I typically get from trying new products. I get hormonal acne and for once I haven't had a cystic acne form yet while being on my period. The only thing I'm not a fan of is the formula, it's like water consistency, so I would softly pat the product onto your face and neck. The plus of the forumla is that it actually sinks into your skin and not over your skin.",
+   "date": "2026-01-15",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tahlia",
+   "titre": "New holy grail",
+   "texte": "I have very dry, EXTREMELY sensitive skin, and am constantly fighting against perioral dermatitis. This product is gentle yet effective enough to sooth my irritated skin, prevent POD breakouts, and moisturizes while feeling weightless. I use this after an oat based toner and before TO moisturizer and ive found the routine ive been looking for for over a year.",
+   "date": "2025-12-21",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kiara",
+   "titre": "cleared my acne and scars legit within a week",
+   "texte": "I swear i never write reviews but oh my god please get this if your struggling with acne. i've used so many products and this is the only one that's worked for me. for reference i have dry and sensetive acne prone skin. i've used salysic acid, benzoyl peroxide, glycolic acid, and they all were too strong for my skin. this one is great if your skin normally reacts bad to things. i also used cleansing oils, korean skin care products, spot treatments, but i swear this is the only thing that's worked for me",
+   "date": "2025-10-09",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gwen",
+   "titre": "I continue to buy this",
+   "texte": "This is amazing for mature skin that is oily and acne prone. Keeps my skin smoother and reduces redness. A 2 in one with the niacinamide also. Anua has great products.",
+   "date": "2026-05-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "oiliness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

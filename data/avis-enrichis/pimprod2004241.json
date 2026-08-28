@@ -1,0 +1,160 @@
+{
+ "ref": "pimprod2004241",
+ "asin": null,
+ "pid": "pimprod2004241",
+ "source": "ulta",
+ "nom": "DHC Deep Cleansing Oil Facial Cleanser",
+ "note": 4.74,
+ "nbAvis": 4075,
+ "lus": 80,
+ "collectes": 114,
+ "segments": {
+  "dry": "Reviewers with dry skin report the oil relieves flaking and dryness along the chin and does not strip the skin, though one dry-skin reviewer found it very drying.",
+  "sensitive": "Sensitive and reactive skin reviewers, including one with generalized eczema, report the formula is gentle and non-irritating with no breakouts.",
+  "combination": "Combination-skin reviewers say it balances their skin without over-drying, and one combination/acne-prone user reports no breakouts.",
+  "mature": "Mature-skin reviewers in their 60s-80s report softer, more youthful-looking, hydrated skin after years of use.",
+  "oily": "One combo/oily reviewer says it removes makeup without leaving an oily residue on the skin."
+ },
+ "concerns": {
+  "aging": "Older reviewers (mid-60s to 87) report a softer, more youthful, polished glow after long-term use.",
+  "dehydration": "Most reviewers report the oil leaves skin soft, moisturized and hydrated rather than dry; a couple describe it as very drying or note the newer formula feels thinner and less luxurious.",
+  "redness": "One reviewer with cystic acne history reports redness diminished with use.",
+  "barrier": "One eczema-prone reviewer describes it as gentle and non-irritating even in harsh winter conditions.",
+  "spots": "One long-term acne-prone reviewer reports cystic acne improved; several others say it does not cause new breakouts.",
+  "blemishes": "Multiple reviewers, including acne-prone and combination-skin users, report no breakouts even after years of daily use; no reviewer reports it causing blemishes.",
+  "oiliness": "Reviewers describe the cleanser as not leaving an oily residue on skin or pillow, and one notes it keeps oily/combination skin balanced."
+ },
+ "aspects": [
+  {
+   "libelle": "Removes makeup and waterproof mascara",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and moisturized",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rancid or off smell when oil is old",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Formula seems thinner and watered down",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value especially on sale",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Travel size and packaging appreciated",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Struggles to remove mascara for one user",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "none",
+   "titre": "Simply not worth the money even on sale",
+   "texte": "I tried this cleanser due it having a short ingredient list which I thought was a plus however, it's very drying to the skin and smells like rancid oil (the olive oil was probably old, hence the smell). I would definitely not recommend this product as there are many, many better options out there.",
+   "date": "2026-02-14",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Laura",
+   "titre": "Great product if oil is fresh.",
+   "texte": "If the oil is fresh it is great, washed off my face with only water without leaving residue. If the oil isn't fresh it has an old rancid smell to it and should not be used. I've been using for 4 years without any breakouts or issues. Smell before you buy. Also should be lighter in color.",
+   "date": "2026-05-08",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Isabel M",
+   "titre": "Best cleanser on the market",
+   "texte": "I got a sample of this from another vendor probably bald in 2019. My makeup melted away. I couldn't believe how clean my skin felt. I immediately bought a full sized bottle and haven't looked back since. My skin changed completely. I used to get cystic acne and this cleanser changed that. My skin was no longer dehydrated. Even redness diminished with this. This is an amazing product.",
+   "date": "2026-01-21",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mal",
+   "titre": "The best cleansing oil!",
+   "texte": "I got this on a trip to Japan agtet the hotel we wete staying at provided it. So glad Ulta carries it now! It is by far the kost gentle, but full force cleansing oil i have found. Use it on dry skin for makeup removal and it gets it all. I have combo skin and very very acne prone. This doesnt brrak me out at all. I follow using this with my normal cleanser and my skin is so happy!",
+   "date": "2026-03-26",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jay",
+   "titre": "Yes yes yes!",
+   "texte": "I have insanely sensitive and reactive skin. this cleansing oil changed the game for me! she is super gentle, a little goes a long way and really cleans out my pores while pulling off spf and mascara like a dream!!",
+   "date": "2026-01-03",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Linda kirshbaum",
+   "titre": "I really enjoy the feeling of the product.",
+   "texte": "I have very dry skin & I have tried so many cleansing Products & never felt any of the hydrating effects. The deep cleansing oil has made such a difference In the after math of the use. I'm 80yrs & I plan on Continuing to feel the difference in my skin!",
+   "date": "2026-03-20",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "TrishM",
+   "titre": "Magic Cleanser",
+   "texte": "Bought this on the Ulta 21-day Sale and have no doubt I will replace it, even at full price, when it runs out. It is truly the only cleanser I've used that cleans all the makeup off my face while leaving my skin hydrated. I have extremely sensitive skin, especially on my face, and my skin didn't skip a beat testing this. I also secretly love that I can apply the cleanser to DRY skin and it lathers to remove all the makeup! Mind blown. My sink looks less like a bird bath post makeup removing ritual.",
+   "date": "2026-04-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

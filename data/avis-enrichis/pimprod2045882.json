@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2045882",
+ "asin": null,
+ "pid": "pimprod2045882",
+ "source": "ulta",
+ "nom": "SKIN1004 Madagascar Centella Hyalu-Cica Blue Serum",
+ "note": 4.49,
+ "nbAvis": 67,
+ "lus": 66,
+ "collectes": 66,
+ "segments": {
+  "oily": "One combination/acne-prone reviewer reports the serum helps balance oil production while hydrating.",
+  "dry": "Multiple reviewers with dry skin, including one describing skin as \"normally dry,\" report strong hydration, relief of dry patches, and a smoother, plumper feel, though one dry-skin reviewer reports the serum also caused breakouts and increased dryness for her.",
+  "combination": "Combination-skin reviewers report the serum helps with dry patches and is hydrating without greasiness, and one combination/acne-prone reviewer calls it her best serum.",
+  "sensitive": "Sensitive-skin reviewers most often report calming of redness and irritation with no burning or breakouts, though one reviewer who self-describes as \"extra sensitive\" reports breakouts and dryness after use, and one review reports the product caused burning, redness, and barrier damage.",
+  "mature": "One mature-skin reviewer reports good hydration without greasiness, and another reviewer mentions the line generally addressing fine lines and wrinkles.",
+  "normal": "Reviewers who don't specify a skin issue generally report a lightweight, fast-absorbing feel and visible hydration."
+ },
+ "concerns": {
+  "aging": "One reviewer reports the serum plumps fine lines and wrinkles as part of overall hydration; no other aging-specific outcomes are detailed.",
+  "dehydration": "The great majority of reviewers report visible, lasting hydration, plumping, and a smoother, softer feel, including in dry winter conditions; one reviewer reports no noticeable difference in hydration and felt it was \"like water.\"",
+  "redness": "Several reviewers, including one with breakout- and redness-prone skin and one describing herself as sensitive, report reduced redness and calming; one reviewer reports the opposite, developing new redness and a burning sensation.",
+  "barrier": "One reviewer reports the serum helped strengthen and repair her skin barrier and improved comfort during a stressed/dry period, while another reports the product actively damaged her skin barrier, causing burning and redness that required switching serums.",
+  "spots": "One reviewer reports the serum helped with enlarged, congested pores as her main problem area; no other spot-specific comments appear.",
+  "blemishes": "Reviewers with acne- or breakout-prone skin mostly report no new breakouts and faster post-acne recovery/skin tone improvement, but one reviewer reports new breakouts on the cheek and chin days after starting use.",
+  "oiliness": "One reviewer reports the serum helps balance oil production; a different reviewer reports the serum leaves the face \"too dewy\"/overly shiny for her taste."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sticky or heavy residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Draggy or hard-to-spread texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump bottle and packaging design",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Subtle, pleasant scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Scent bothers fragrance-sensitive users",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Mademoiselle",
+   "titre": "Skin barrier damaged",
+   "texte": "I packed this product as part of a trip to Europe over the holidays because I knew my skin would need more moisture. It did not go well. My face would start to burn a little after application and I actually developed redness from using it. I ended up purchasing different serums on my trip in order to save my skin barrier.",
+   "date": "2026-01-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kiira",
+   "titre": "Decent serum but not for me",
+   "texte": "I like the feel of it and the smell but I will say I had some break outs with it. I applied it after cleansing and toning, but before my moisturizer. It didn't burn or sting, but a few days after using, I had some breakouts on my cheek and chin. My skin also felt a bit more dry even with my tried and true moisturizer. I'm not sure this is the serum for me. It isn't overpowering for smell and a little goes a long way. It may work for other people but my skin can be extra sensitive. The gel consistency also makes it easier to put on.",
+   "date": "2025-12-05",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SStudio",
+   "titre": "Holy Grail",
+   "texte": "I have skin that is prone to breakouts and redness. So I'm usually pretty cautious about which products I use on my skin. And I am so happy that I found this product! It adds a lot of hydration and helps calm down any redness. I also have noticed that my breakouts go away faster. The texture is perfect because it absorbs into the skin quick and doesnt leave a sticky residue. Highly recommend this product!",
+   "date": "2026-01-20",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rebecca",
+   "titre": "Great HA serum",
+   "texte": "This is a very hydrating and non sticky hyaluronic acid serum, with the added benefits of cica. This in conjunction with the luxurious matching cream is a great daytime or barrier repair routine for those with dry and sensitive skin like me.",
+   "date": "2025-03-30",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alicia",
+   "titre": "Best Serum I've Tried",
+   "texte": "Grest for my combindation skin type and acne prone skin. Best serum I have tried!",
+   "date": "2026-03-07",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kimberly",
+   "titre": "Best line of skincare",
+   "texte": "I love this line! Great for my mature skin and leaves me so hydrated, but not greasy. I will continue these products for life!",
+   "date": "2026-08-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kimberly",
+   "titre": "No more red blotches & healthy glow!",
+   "texte": "I'm 59 and have been using this for many months now. I have noticed a huge difference in the clarity of my skin & redness. I put it on my face right after shower, give it a few minutes then moisturize. My friends even noticed how good my skin looks!",
+   "date": "2025-11-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

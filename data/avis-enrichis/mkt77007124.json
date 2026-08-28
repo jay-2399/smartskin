@@ -1,0 +1,163 @@
+{
+ "ref": "mkt77007124",
+ "asin": null,
+ "pid": "mkt77007124",
+ "source": "ulta",
+ "nom": "Proactiv Clear Skin SPF 30",
+ "note": 4.47,
+ "nbAvis": 247,
+ "lus": 57,
+ "collectes": 58,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone skin describe the sunscreen as non-greasy and say it cuts down shine without breaking them out, though one such reviewer with reactive oily skin found this the first sunscreen that did not react badly with her routine.",
+  "dry": "One reviewer bought the product as a gift and reports it dried out the recipient's skin despite otherwise working well.",
+  "sensitive": "Sensitive-skin reviewers report it works well without irritation, including one who has eczema and found no irritation, though another reviewer with reactive, acne-prone skin needed to trial many products before finding this one tolerable.",
+  "mature": "Mature-skin reviewers report it moisturizes well, doubles as an SPF and moisturizer without greasiness, lightens the look of sun spots, and one felt it kept her skin looking younger, though one grandmother did not see her granddaughter's skin clear up as expected.",
+  "combination": "A reviewer who drives frequently and gets limited sun exposure says it works for daily use but is not very effective at retaining skin moisture."
+ },
+ "concerns": {
+  "aging": "Reviewers using it for mature or aging skin say it lightens the appearance of sun spots and describe skin looking softer and younger after use, with no dissent reported.",
+  "dehydration": "Most reviewers describe it as light and moisturizing, but two reviewers report it dried out their skin or did not retain moisture well.",
+  "redness": "One reviewer with otherwise clear skin noticed new texture and redness on one cheek after use but was not certain the product caused it.",
+  "barrier": "A reviewer with eczema reports no irritation from the product, suggesting it is tolerated by compromised or reactive skin barriers.",
+  "spots": "One reviewer reports dark blemishes fading with use, and another notes it lightens the appearance of sun spots from aging.",
+  "blemishes": "The large majority of reviewers, including those who identify as acne-prone, report no new breakouts and describe it as their first sunscreen that does not cause blemishes; however, several reviewers say it caused new zits or pimples the day after use, and one 3-star review says it did not clear a teenager's skin as expected.",
+  "oiliness": "Oily-skin reviewers consistently say it does not feel greasy or heavy and even reduces shine throughout the day, with no dissent reported."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast on darker skin tones",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Blends well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes new breakouts for some",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Unpleasant sunscreen scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser is clean and convenient",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Insufficient sun protection for some users",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "saltykitty",
+   "titre": "Disappointing",
+   "texte": "I need to wear sunscreen daily because of my acne products, but I've yet to find one that doesn't clog my pores even further. Seeing the overwhelmingly positive reviews, I bought this when it was on sale. Sadly, it doesn't live up to the hype. It was lightweight on my skin, but it smells like cheap body sunblock. And every time I used it I had a new zit forming by the end of the day, without changing anything else in my skin routine. I wanted this to work so badly, but it does the opposite of being good for acne prone skin.",
+   "date": "2024-02-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Celiaca",
+   "titre": "Yes, didn't break me out.  Good job Proactiv",
+   "texte": "Since I am using retinol, my dermatologist insists that I wear sunscreen. I have struggled to find any spf sunscreen that my reactive sensitive oily acne-prone mature skin doesn't breakout to and react to. This is my first facial sunscreen success. This one is great! Doesn't leave me greasy or overly shiny. Doesn't irritate or break out my skin. I only wish it was higher spf, but better spf 30 than nothing.",
+   "date": "2023-12-16",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chelsea",
+   "titre": "Best moisturizer",
+   "texte": "I have very oily skin and hate wearing SPF. I have trial and errored so many mositurizers and this is the best one. Doesn't feel greasy or heavy on my skin. Actually has cut down on me looking greasy throughout the day. Highly recommend!",
+   "date": "2023-11-14",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sandra G.",
+   "titre": "No Breakouts!",
+   "texte": "This sunscreen has moisturizing qualities for my mature skin but doesn't break me out like nearly all the other sunscreens that I've tried. Does not look pasty and blends right into my skin. So grateful!",
+   "date": "2023-06-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rhonda B.",
+   "titre": "No Residue",
+   "texte": "I love this product. Now it goes on, not greasy and most of all no white residue!! No breakouts and I have Eczema so it does not irritate my skin",
+   "date": "2023-08-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Melinda Q.",
+   "titre": "Bought it for a girl for her bday gift",
+   "texte": "It works really well so far. It just drys her skin out she said. I do not have any pictures to show at this time. But will in the future. She does love the product. She even uses it on her back and her face. So far it is amazing she tells me.",
+   "date": "2023-02-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "LizKett",
+   "titre": "Not enough coverage for me",
+   "texte": "Really liked the lightweight feel and absorption. Didn't break my skin out. However each time I wore this my forehead got burned. Definitely applied enough and wasn't out longer than recommended or sweating heavily. This has not happened wirh the other SPF products I've worn under my foundation. So I gave the rest to my darker-complected husband to use 🤣",
+   "date": "2024-06-22",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

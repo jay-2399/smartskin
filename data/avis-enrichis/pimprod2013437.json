@@ -1,0 +1,155 @@
+{
+ "ref": "pimprod2013437",
+ "asin": null,
+ "pid": "pimprod2013437",
+ "source": "ulta",
+ "nom": "Pixi DetoxifEYE Depuffing Eye Patches with Caffeine & Cucumber",
+ "note": 4.18,
+ "nbAvis": 212,
+ "lus": 80,
+ "collectes": 113,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are split: some report burning, stinging, or bright red irritation within minutes, while one reviewer with sensitive/pregnancy-related eyes says the patches did not burn and felt soothing.",
+  "mature": "Reviewers who mention their age (36, 50, 56) or mature skin report visible depuffing and, in one case, smoothing of wrinkles and fine lines around the mouth and forehead."
+ },
+ "concerns": {
+  "aging": "One reviewer using the patches on forehead and mouth lines reports visible smoothing; another notes a wrinkle appeared under her eye after a burning reaction, so effects on fine lines are inconsistent.",
+  "dehydration": "Several reviewers describe the patches as moisturizing, hydrating, and soothing, with no reports of dryness.",
+  "redness": "Most reviewers who mention redness say it appears only as a side effect of irritation (bright red marks, burning), though one reviewer specifically says the patches calm redness after five or more minutes.",
+  "barrier": "A few reviewers report burning, stinging, tingling, or red marks lasting until the patches are removed, suggesting barrier sensitivity in some users; many others report no reaction at all.",
+  "spots": "One reviewer notes the patches helped with dark spots under the eyes alongside puffiness, but this is not widely echoed.",
+  "blemishes": "One reviewer reports the patches caused peeling and recommends avoiding makeup days after use; this is an isolated complaint, not seen elsewhere.",
+  "oiliness": "No reviews address oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling sensation when chilled",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reduces morning puffiness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Patches slide or slip out of place",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Both sides face the same direction (design flaw)",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Develops an unpleasant smell after opening",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Egarc",
+   "titre": "BECAREFUL!!! Allergic reaction",
+   "texte": "Ive never had an allergic reaction to any skincare product so im really not sure why these patches turned my under eyes bright red! They burned so bad, it felt like it burned my under eyes. Within a minute after putting the patches my skin was bright red and burning. This has never happened! i have even used these exact patches before and never had a problem, i opened a new package i was gifted and it completley burned my face!",
+   "date": "2024-02-27",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Susan",
+   "titre": "Not for sensitive skin",
+   "texte": "I received a sample of these free as a gift with purchase. They were a little awkward to apply due to the shape but I applied them. Within 3 minutes, I started to feel my skin tingling/stinging. I thought maybe it was supposed to feel that way, but by 5 minutes, it was burning. I took them off and rinsed immediately. I had red marks in the shape of the patches under my eyes. I was able to cool them with some Aquaphor but these are definitely not meant for sensitive skin.",
+   "date": "2025-10-01",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "TeeBee23",
+   "titre": "Good Product, Terrible Smell",
+   "texte": "I had my eye on these for a while before purchasing. I have developed pretty dark circles under my eyes and was intrigued by the caffeine. I finally decided to try them and I do like them. I might be using them backwards, but I prefer the thicker part under my eyes to get more coverage. They are cooling and refreshing. They have stung a couple of times but it wasn't anything unbearable and I think my skin was just dry or being sensitive those times. I have noticed a difference in my dark circles and that's what I was hoping for. They appear brighter and I look more refreshed. The one bad thing I will say is that mine developed a terrible smell after a couple of weeks of being opened. I always wash my hands before using them and use the wand that comes with them to get them out. This sounds disgusting, but I would deacribe the smell as similar to poop. I feel like the smell has gotten stronger the longer they've been opened. Would like to repurchase because they work for me, but the smell is offensive.",
+   "date": "2024-04-05",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jenn",
+   "titre": "I love this product. 😊",
+   "texte": "I'm 56 and had been looking for something to actually work at reducing puffiness under my eyes and I seen a positive difference with this product. I do recommend this!",
+   "date": "2022-01-01",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Amy",
+   "titre": "This is my 2nd of many times buying this!!",
+   "texte": "I am 50 years old and absolutely love this product. It definitely works. I will continue to buy it as long as they sell it.",
+   "date": "2024-10-30",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "mature",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Polly P",
+   "titre": "Great for sensitive eyes",
+   "texte": "Dealing with pregnancy insomnia these have helped me a lot with de puffing and cooling. Feels so great on the eyes and they don't burn at all like other brands.",
+   "date": "2023-10-07",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Leigh C.",
+   "titre": "Really smooths and plumps those wrinkles!",
+   "texte": "I love, love, love this product. Use it on my forehead, \"parentheses\" lines around my mouth.",
+   "date": "2022-08-21",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

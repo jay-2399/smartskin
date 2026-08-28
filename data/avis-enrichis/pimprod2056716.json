@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2056716",
+ "asin": null,
+ "pid": "pimprod2056716",
+ "source": "ulta",
+ "nom": "Mad Hippie AHA + BHA Milk Serum",
+ "note": 4.73,
+ "nbAvis": 11,
+ "lus": 11,
+ "collectes": 11,
+ "segments": {
+  "sensitive": "One reviewer with sensitive-leaning skin reports no issues and compliments on her skin after starting the product.",
+  "combination": "A reviewer with combination skin that shifts with the seasons reports no irritation using it weekly, with softness, hydration, and improvement in blackheads.",
+  "dry": "A 72-year-old reviewer describes her drier skin as loving how the serum feels, paired with other Mad Hippie products.",
+  "mature": "Mature-skin reviewers report the product suits aging skin, with one noting it helped breakouts alongside signs of aging and another calling it appropriate for all ages including mature skin."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on graceful aging report the serum fits a gentle routine without irritation; one mature-skin reviewer says it addressed breakouts alongside aging concerns, and another simply values it being suitable for mature skin.",
+  "dehydration": "Multiple reviewers report immediate hydration and plumper, softer skin after use, including one who calls the hydration 'incredible' and another who notes it is 'not drying.'",
+  "barrier": "One reviewer credits ceramides and squalane in the formula with nourishing and calming the skin, describing the exfoliation as gentle rather than harsh.",
+  "spots": "One reviewer notes the serum seems to help with blackheads, though this is a single mention.",
+  "blemishes": "Several reviewers with acne-prone or breakout-prone skin report clearer skin and moisturizing benefit; one reviewer after only a week says it is too early to tell if it clears her acne.",
+  "oiliness": "One combination-skin reviewer who runs oilier in summer reports the product keeps her routine balanced without overdoing actives, but no other reviewer addresses oiliness directly."
+ },
+ "aspects": [
+  {
+   "libelle": "Milky lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption, dries quickly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild tingling on first use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Slight natural sweet scent despite fragrance-free label",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Affordable relative to results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well combined with retinoid or vitamin C routines",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can replace multiple serums in routine",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Tammy S",
+   "titre": "New to Mad Hippie !",
+   "texte": "I just started using the brand in the middle of February. So far, I am please with the results. This is lightweight and a little goes a long ways. It dries completely rather quickly, enabling you to apply hydrating lotion. My face can tends to be more on the sensitive side, I have had no issues. I have been given compliments on how great my skin looks! I can't wait to see how my face looks after the next two months!",
+   "date": "2026-03-15",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Patricia H",
+   "titre": "Too early to tell",
+   "texte": "I've been using the serum for about a week so it's too early to tell if it is helping clear my acne. I hope it does!",
+   "date": "2026-03-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Caesar V",
+   "titre": "My Holy Grail for Exfoliation",
+   "texte": "I have combo skin that changes with the seasons. I'm oilier in the summer and drier in the winter, so I like to keep my routine gentle and balanced without using too many actives. My goal is graceful aging, and I feel like overdoing strong ingredients can backfire. I use this once a week and have had no irritation, which makes me even more interested in it. It makes my skin feel really soft, gives me immediate hydration, and even seems to help with blackheads. Milky serums and cleansers are already my favorite, so this really appeals to me. The non-toxic, natural angle makes it even better. Give it a try!",
+   "date": "2026-03-18",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jody",
+   "titre": "I AM REALLY LOVING THIS SERUM!!!",
+   "texte": "I love how this serum feels on my 72-year-old drier skin. I follow it up with the Mad Hippie Eye Cream and Triple C Night Cream. I alternate nights with the Super A Serum. My skin looks amazing with Mad Hippie and I absolutely love how clean this skin care line is. I got rid of all my toxic skin care a few years ago and have been enjoying Mad Hippie ever since. I love that it's for all ages, young and mature skin alike.",
+   "date": "2026-03-03",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "D. Ana",
+   "titre": "My Skin is SOOOOO Soft",
+   "texte": "This product is amazing! You put it on and like 10 seconds later your skin is baby soft. I have acne-prone skin and this does a good job of acting as a moisturizer and keeping my skin clear. I don't need to follow it with anything after, its a one stop shop",
+   "date": "2026-02-20",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "TNDavidson",
+   "titre": "Best serum ever!",
+   "texte": "This serum is the best thing that has ever happened to my skin! My maturing skin was still prone to breakouts. This product solves both problems. Combined with the antioxidant face oil, it is perfection.",
+   "date": "2026-02-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lauren",
+   "titre": "Very impressive",
+   "texte": "I received a very generous 0.5 oz sample droper bottle of this with my purchase. The results were instant for me, the smoothing and texture of my skin and hydration was incredible. Its very milky in texture and its technically fragrance free, but I detect a slight sweetness, I suspect is from the beets, but I love it.",
+   "date": "2026-02-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "The sample is small (11 reviews, only one below 5 stars aside from two 4-star notes), so segment and concern conclusions rest on very few individual accounts."
+}

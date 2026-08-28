@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2018970",
+ "asin": null,
+ "pid": "pimprod2018970",
+ "source": "ulta",
+ "nom": "Pixi BeautifEYE Brightening Eye Patches with Vitamin C",
+ "note": 4.11,
+ "nbAvis": 64,
+ "lus": 58,
+ "collectes": 58,
+ "segments": {
+  "sensitive": "Reviewers who identify as sensitive report frequent burning or stinging on application; some still saw brightening or destuffing despite the irritation, while others removed the patches early or discontinued use, and one reviewer's sensitive-skinned partner also experienced burning and redness.",
+  "mature": "Reviewers in their late 30s to 40s report visible improvement in dryness, concealer-related concerns, and under-eye bags, describing the patches as a strong hydration/anti-aging pick for mature skin.",
+  "dry": "A reviewer with dry skin reports burning on use and warns dry-skinned users to be cautious, though others note a hydrating, moisturizing effect on the under-eye area."
+ },
+ "concerns": {
+  "aging": "Older reviewers (late 30s–40s) report smoother, tighter, less dry under-eyes and describe the product as effective for dryness and fine lines at that life stage; no dissent specific to this age group beyond the general burning complaints.",
+  "dehydration": "Several reviewers report added hydration and moisture, softer under-eye skin, and relief from dryness; however, one reviewer says the patches dried out her under-eyes and another notes the serum dries out in the container over time, reducing hydration from later patches.",
+  "redness": "A small number of reviewers experienced redness or burning that turned skin visibly red, sometimes attributed to combination with retinol use or inherent sensitivity; not universal, as most reviewers report no redness.",
+  "barrier": "Reviewers describe burning, stinging, puffiness, and lingering irritation lasting days after use, including one case of ongoing burning/puffiness for several days after just four uses; others report no irritation at all and a soothing, cooling feel."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling refreshing sensation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Serum dries out in jar over time",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Patches slip or slide off face",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price/quantity",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible brightening of dark circles",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Reduces puffiness quickly",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Lexi",
+   "titre": "Allergic with daily use",
+   "texte": "I never thought I had super sensitive skin, but i used for 4 days in a row & my skin has been burning & puffy ever since (2-3 days later). Also, I haven't seen improvement in my dark circles.",
+   "date": "2022-10-15",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Ashley",
+   "titre": "Burns",
+   "texte": "I have very sensitive skin and it burned my under eyes. I was still able to see a difference but the burning isnt enjoyable. Im looking for something more soothing for sensitive skin.",
+   "date": "2023-12-19",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "McKays",
+   "titre": "sensitive skin beware",
+   "texte": "I have sensitive skin, this burns under my eyes . also its very slippery. They literally fall down my face . I wanted to like these so badly I've heard really great things. But after resetting them 3 times and when its time to take them off my skin just burns .",
+   "date": "2022-04-11",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Shea",
+   "titre": "Great overall, however,",
+   "texte": "I have EXTREMELY sensitive skin, some products make my skin burn so bad its blood red or actually bleeds. With these, I do get a slight burn feeling but it's not painful where I feel they cant be used at all. That said, the patches are amazing, I'm starting to see my dark circles lightening and it has only been 3 days.",
+   "date": "2024-01-17",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Wow, these work!",
+   "titre": "These work!",
+   "texte": "These are a must for dark circles! I have a special event today, so I bought these yesterday. I tried them on last night and today and I noticed a big difference! I did not think they would work so quickly! I have A LOT of trouble sleeping, so my eyes are very dark, but these brighten my under eyes so good for just trying them on two times! I will definitely be using them for now on! My fiance tried them on, but he has sensitive skin and it started to burn and cause redness right away, so probably not good for those with sensitive skin.",
+   "date": "2023-03-10",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Graciela Z.",
+   "titre": "The Best Eye/Hidration Product",
+   "texte": "I saw these patches in an IG post and ordered them. They're a total game changer. I'm 49 and have been struggling with dryness/concealer issues and these patches have done wonders. I paired it with Bye Bye It Concealer and have never been happier :)",
+   "date": "2023-06-26",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lisa H.",
+   "titre": "The best of the best!",
+   "texte": "This year, I started using eye masks to help with the bags under my eyes. I'm 38, so my condition was fair to start. These have been my favorite to use by far! You can tell they are infused with great product and they leave my skin feeling cool and refreshed! 10/10 recommend :)",
+   "date": "2024-04-01",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

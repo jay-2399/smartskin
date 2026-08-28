@@ -1,0 +1,125 @@
+{
+ "ref": "pimprod2053608",
+ "asin": null,
+ "pid": "pimprod2053608",
+ "source": "ulta",
+ "nom": "Dr. Althea Green Relief Amino Gel Cleanser",
+ "note": 5,
+ "nbAvis": 7,
+ "lus": 7,
+ "collectes": 7,
+ "segments": {
+  "oily": "One reviewer with oily, breakout-prone skin reports less redness and acne after using this cleanser.",
+  "sensitive": "One reviewer with sensitive, acne-prone skin reports no issues and describes the wash as gentle."
+ },
+ "concerns": {
+  "redness": "One reviewer with oily, breakout-prone skin reports noticeably less redness after switching to this cleanser.",
+  "spots": "One reviewer notices improved pore clarity; another reports less acne on oily, breakout-prone skin.",
+  "blemishes": "One reviewer with oily skin reports fewer breakouts and less acne; one with sensitive, acne-prone skin reports no new issues.",
+  "barrier": "Reviewers describe the cleanser as non-stripping and gentle on the skin barrier, with one contrasting it favorably against CeraVe for cleansing power without dryness."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich foaming lather",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Does not strip or dry skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount needed per use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle size too small",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good price value on sale",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Jasmin",
+   "titre": "First time trying this product",
+   "texte": "I have oily skin. Definitely prone to breaking out as well. Tried this cleanser for the first time and have noticed less redness and acne. I wish they had this in a bigger size.",
+   "date": "2026-07-06",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "redness",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tati R",
+   "titre": "Facial cleanser",
+   "texte": "This facial cleanser lathers so well without stripping away your natural barrier and your feels so clean. You only need a dime size. I would normaly use the CeraVe because of my husband i would use 2 pumps and I still wouldnt feel my face clean. Im glad i came across this one. Will definitely buy again.",
+   "date": "2026-07-17",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stripetee",
+   "titre": "Good basic cleanser",
+   "texte": "Good basic cleanser! Not overly hydrating but not super stripping either. No scent. Just perfectly in the middle. A little goes a long way. Snagged it on sale at around $11 and it think thats the best price for this cleanser.",
+   "date": "2026-08-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Riah",
+   "titre": "holy grail!!",
+   "texte": "I absolutely love this facewash. Makes my my skin feel so clean and soft while brightening my skin tone! I have sensitive acne prone skin and havent had any issues with this face wash. Favorite ive used in years!",
+   "date": "2026-08-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Callie",
+   "titre": "New staple",
+   "texte": "It foams up into a lovely lather and doesn't dry out my skin but definitely makes a big difference in my pore clarity!",
+   "date": "2026-07-11",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": "Only 7 reviews are available and all but one are 5-star, so segment and concern coverage beyond oily and sensitive skin is thin."
+}

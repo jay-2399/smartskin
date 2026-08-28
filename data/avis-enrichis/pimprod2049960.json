@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2049960",
+ "asin": null,
+ "pid": "pimprod2049960",
+ "source": "ulta",
+ "nom": "BLUME Sunburst Mineral SPF 50",
+ "note": 4.77,
+ "nbAvis": 94,
+ "lus": 81,
+ "collectes": 84,
+ "segments": {
+  "oily": "Reviewers with oily skin report the formula controls shine, settles to a natural or matte finish, and does not leave them greasy.",
+  "dry": "A reviewer with dry skin found it needs extra moisturizer underneath and wished for a more moisturizing version, while others with dry/acne-prone skin found the consistency worked well for them.",
+  "combination": "Reviewers with combination skin describe the serum-like formula as favorable, non-pore-clogging, and leaving a smooth, dewy finish.",
+  "sensitive": "Reviewers with sensitive skin consistently report no irritation, burning, or stinging (including on eyelids), though one notes the fragrance is a concern for sensitive users.",
+  "mature": "One reviewer entering her 30s and worried about aging skin found the product lightweight and non-clogging, becoming a routine staple."
+ },
+ "concerns": {
+  "aging": "Reviewers mention it fades dark spots, acne scars, and sunspots, with one noting nose sunspots starting to fade; framed mostly as a bonus rather than a primary aging treatment.",
+  "dehydration": "Several reviewers describe it as hydrating and moisturizing, with skin staying moisturized all day; one with dry skin needed to layer moisturizer underneath first.",
+  "redness": "Reviewers report no irritation or inflammation, with one specifically citing anti-inflammatory benefit for sensitive/acne-prone skin; no dissent noted.",
+  "barrier": "One reviewer with a damaged skin barrier switching from chemical sunscreen reports no irritation or burning, calling it well tolerated.",
+  "spots": "Multiple reviewers say it fades dark spots and acne scars and evens skin tone over time; effects described as gradual rather than immediate.",
+  "blemishes": "Most reviewers, including many acne-prone users, report no new breakouts and some describe visible clearing within a week or two; one reviewer notes cystic-type reactions did not occur but did report the product pilled and was returned, and one 3-star review says it is only 'okay' with no breakout benefit mentioned.",
+  "oiliness": "Oily-skin reviewers report a non-greasy, sometimes matte or shine-controlled finish; one 3-star reviewer says it 'doesn't leave face super greasy' but ranks it below other options."
+ },
+ "aspects": [
+  {
+   "libelle": "Pilling when layered under other products",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Strong or noticeable fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "No white cast on deeper skin tones",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Compact, purse-friendly packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stiff, hard-to-squeeze tube",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Ky",
+   "titre": "Wanted to Love…",
+   "texte": "I use Blume's Meltdown products religously (the cleanser, moisturizer, and oil), so I was super excited to find out that they had a new sunscreen product! Upon trying it, however, I was left sorely disappointed. I tried multiple days to layer this on top of my other morning products (again, Blume's own moisturizer and oil), but the sunscreen immediately pilled when applying. I hate nothing more than when a product pills, so this was a dealbreaker for me. I'm not sure if it was some sort of reaction between the sunscreen and the other products, but I can usually layer other products on top with no issues. So, disappointing for me (and I did return), but no one else is talking about this, so maybe it's also just a me problem lol Whatever the case, I'm now back on the hunt for a sunscreen that doesn't pill!",
+   "date": "2025-03-12",
+   "verifie": false,
+   "utiles": 18,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Olivia",
+   "titre": "Really great, but smell could be issue for some",
+   "texte": "I love the consistency, and it seems to work well with my skin type (dry, acne prone) so far. The smell could be an issue for some, but otherwise love it!",
+   "date": "2024-06-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Almy",
+   "titre": "Works well under make up",
+   "texte": "This is a good sunblock for anyone with normal to oily skin. I have very dry skin so I have to pile on the moisturizer before applying the sunblock. I wish they made a moisturizing one for dry skin. It worked well under makeup and doesn't pill at all.",
+   "date": "2026-08-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley",
+   "titre": "Great for Damaged Skin Barrier",
+   "texte": "Purchased this product because I damaged my skin barrier & my chemical sunscreen was burning my skin. I have combination, acne prone, & sensitive skin. This sunscreen did not irritate or burn my skin. I am a black woman & there is no white cast. LOVE",
+   "date": "2025-11-12",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amarin",
+   "titre": "Great for Acne Prone, Sensitive, and POC!",
+   "texte": "As someone who suffers from chronic acne with very sensitive skin, I can say this sunscreen is amazing. This does not clog my pores or leave a white cast. As a mixed race girly, this is awesome. Chemical sunscreens burn my eyes, and most other mineral sunscreens leave a white cast or clog my pores. Not this one! After using for two weeks with no side effects, I immediately went and bought 3 more!",
+   "date": "2024-05-23",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sophie",
+   "titre": "Great product! Not greasy, a bit glowy, and evens out skin.",
+   "texte": "I'm a huge fan of this sunscreen! I think everyone will enjoy its lightweight texture and feel on this skin, and the added skincare ingredients are a huge plus so it's not only protective but nourishing. For oily skin folks like myself, I think Blume really nailed that fine balance between hydrating and not becoming greasy. I found on my first application (two full finger lengths of product) that while I immediately loved the slip and glide of this sunscreen and it made my skin really luminous and glowy, I was a little wary of it becoming oily and unpleasant later on. Instead, after 5-10 minutes of dry down time, Sunburst settles down and takes on a natural (read: not greasy) finish. That said, it's not a classic powdery matte finish so folks looking for a completely shine-free dry down may need some time to get used to this formula. I've also worn this sunscreen under makeup a half dozen times since getting it and I think it really shines then - my foundation lays smoothly over top of Sunburst. The tint/tone of this sunscreen is interesting: it absolutely does not have a white cast but the peachy tone won't give you foundation-level coverage. I think most people will find the slight tint to Sunburst mostly just evens out their complexion. Overall, I think this is an excellent sunscreen",
+   "date": "2024-05-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kelsey",
+   "titre": "Great sunscreen!",
+   "texte": "I loved using this sunscreen! It's lightweight but still spf 50, which is hard to find! The serum like formula was very favorable for my combination skin. It also didn't feel like it was clogging my pores and left a smooth, dewy finish.",
+   "date": "2024-04-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

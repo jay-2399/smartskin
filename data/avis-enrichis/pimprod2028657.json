@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2028657",
+ "asin": null,
+ "pid": "pimprod2028657",
+ "source": "ulta",
+ "nom": "Cetaphil Daily Oil Free Facial Moisturizer SPF 35",
+ "note": 4.23,
+ "nbAvis": 333,
+ "lus": 80,
+ "collectes": 121,
+ "segments": {
+  "oily": "Some oily-skin reviewers report the moisturizer suffocates pores, causes sweating and greasiness under makeup, while others with oily skin say it kept them oil-free all day and absorbed without residue.",
+  "dry": "Reviewers with dry skin generally report it relieves tightness and dryness and leaves skin hydrated, though one with dry, aging skin found it thick and not moisturizing enough.",
+  "combination": "Combination-skin reviewers mostly describe it as lightweight and non-greasy with no breakouts, though one says it feels greasy later in the day and another says it is not suited to combo skin.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it is gentle, fragrance-free and doesn't irritate or break them out, but others report a rash, stinging eyes, or breakouts despite the sensitive-skin marketing.",
+  "normal": "The one reviewer identifying normal (normal-to-dry) skin reports it hydrates well and even helped repair her skin barrier after over-exfoliating.",
+  "mature": "The single reviewer with mature/aging skin found the formula thick, hard to rub in, and insufficiently moisturizing for her needs."
+ },
+ "concerns": {
+  "aging": "One reviewer with dry, aging skin found the texture too thick and not moisturizing enough for her needs; no other aging-specific outcomes are reported.",
+  "dehydration": "Many reviewers across skin types report the product keeps skin hydrated, soft, and glowing throughout the day; a few say it doesn't feel moisturizing enough or leaves skin feeling greasy rather than truly nourished.",
+  "redness": "One reviewer says it reduced sun-related redness, but another reports the product itself caused some redness after use.",
+  "barrier": "One reviewer credits it with fixing her skin barrier after over-exfoliation; another reviewer warns the ingredients (isopropyl palmitate, myristic/palmitic acid) may be comedogenic and harmful to the barrier.",
+  "spots": "Reviewers using it around the eyes/for sun protection report no sunburn and good broad-spectrum coverage, though a couple felt the SPF wasn't strong enough or wanted a higher SPF option.",
+  "blemishes": "Most acne-prone reviewers report no new breakouts and say it doesn't clog pores; a minority describe it as breaking them out or causing a rash, and one review explicitly warns some formulas can trigger breakouts.",
+  "oiliness": "Several oily-skin reviewers say it controls shine and keeps them oil-free all day, while others with oily or combination skin report it feels greasy, heavy, or causes sweating and shine under makeup."
+ },
+ "aspects": [
+  {
+   "libelle": "Pump dispenser fails near the bottle bottom",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick consistency hard to pump out",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or burns near the eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "No white cast, wears well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels greasy or heavy on application",
+   "polarite": "neg",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "S",
+   "titre": "Terrible product for sensitive skin",
+   "texte": "Although this moisturizer is marketed for sensitive skin it broke me out so bad and gave me a rash all over my face and chest. If you have sensitive skin beware!",
+   "date": "2024-03-01",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Meow-meow",
+   "titre": "Not for oily skin",
+   "texte": "This would probably work for someone with normal skin but definitely not oily / combo skin. It suffocates my pores and instantly causes me to start sweating. It doesn't wear well under makeup up, at least for me, due to the sweating.",
+   "date": "2025-05-21",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "curiesmom",
+   "titre": "Not for me",
+   "texte": "Unfortunately this doesn't work well for my needs. The lotion is thick, a bit difficult to rub in, doesn't feel lightweight and doesn't feel moisturizing for my dry aging skin. Also difficult to get out of the pump because of how thick it is. Luckily once it dries down it doesn't leave a white cast, but it feels heavier on my skin than I like for a daily moisturizer.",
+   "date": "2026-02-23",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Georgia",
+   "titre": "Good, but not for sensitive eyes",
+   "texte": "I picked this up at the recommendation of my dermatologist and I really, really wanted to love this, but it unfortunately stings my eyes like crazy. I can't put this anywhere near my eyes or they burn and water like crazy. It's unfortunate because this checks all my other boxes. Moisturizing, works well with retinols/retinoids, inexpensive, good packing, didn't irritate my eczema/make me break out, etc. If you don't have sensitive eyes, this would probably be great for you.",
+   "date": "2024-09-02",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "katyyyyy",
+   "titre": "Love it just wish it was made with higher SPF",
+   "texte": "I've used this for months because I have acne prone skin and a very oily forehead so I love that this one is oil free it's just I wish they made it with higher spf. I thought they did with the other one that was 50 spf but it isn't oil free and I was sad. I don't want to switch sunscreens because I have very sensitive skin and this is the only one that I've found that doesn't irritate me but I would love higher spf for it!!!",
+   "date": "2024-08-16",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MelanieH",
+   "titre": "Great SPF Moisturizer",
+   "texte": "Cetaphil Daily Facial Moisturizer SPF 35 is my favorite daytime moisturizer. I have sensitive, oily and acne prone skin. I've been using this moisturizer for so many years. Don't let the size of the product fool you, a little bit goes a long way. This moisturizer doesn't irritate or cause my skin to break out. It's not greasy. It absorbs nicely into my skin. I've never experienced any pilling from this moisturizer. I love the extra protection from the sun built right into my moisturizer. My foundation lays perfectly over the moisturizer. I normally wait about 20 minutes after applying the moisturizer to apply my foundation.",
+   "date": "2026-03-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "brooklynd61",
+   "titre": "BEST AFFORDABLE MOISTURISER",
+   "texte": "This moisturiser works very well with my normal to dry skin type, the cream hydrates and absorbs into my skin making my face feel fresh. This moisturiser fixed my skin barrier after over exfoliating. I apply this morning and night for smooth radiant skin 24/7",
+   "date": "2024-04-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "normal",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

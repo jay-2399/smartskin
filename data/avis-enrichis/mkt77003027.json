@@ -1,0 +1,138 @@
+{
+ "ref": "mkt77003027",
+ "asin": null,
+ "pid": "mkt77003027",
+ "source": "ulta",
+ "nom": "Makari Kojic Acid Dark Spot Remover Soap Bars",
+ "note": 3.92,
+ "nbAvis": 12,
+ "lus": 11,
+ "collectes": 11,
+ "segments": {},
+ "concerns": {
+  "spots": "Most reviewers report gradual fading of dark spots, sun spots, or old stubborn marks with consistent use over weeks, describing the change as visible but not overnight; one reviewer with minimal fair-skin spots saw no improvement after a month.",
+  "blemishes": "One reviewer reports the soap helped fade leftover marks from past breakouts, leaving skin looking clearer and more even."
+ },
+ "aspects": [
+  {
+   "libelle": "Gradual, not overnight, spot fading",
+   "polarite": "pos",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "No visible improvement for some",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Gentle, non-irritating feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin feels clean without tightness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Evens and smooths overall skin tone",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Fits easily into existing routine",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Starting to age",
+   "titre": "Didn't remove dark spots after 1 month",
+   "texte": "I have cery minimal dark spots and im fair skin. Its soft to skin does not irritate but after a month of use i see no improvement",
+   "date": "2026-02-04",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "fair",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Rochelle",
+   "titre": "Works well for targeted areas",
+   "texte": "I mainly use this on specific dark areas and it's been effective. The spots are slowly fading and my skin tone looks more even.",
+   "date": "2026-03-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Alisha",
+   "titre": "Helped fade sun spots",
+   "texte": "I've been dealing with sun spots for a while and this soap has helped lighten them gradually. My skin looks more balanced now.",
+   "date": "2026-03-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Tonya",
+   "titre": "Noticeable fading on stubborn spots",
+   "texte": "I've been using this soap on some old dark spots and I'm finally seeing them lighten. It's not overnight, but the progress is real and consistent.",
+   "date": "2026-03-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kaylee",
+   "titre": "Brightens without over-drying",
+   "texte": "I was worried it might dry out my skin, but it's actually pretty balanced. My skin feels clean and looks brighter without feeling tight.",
+   "date": "2026-03-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Briana",
+   "titre": "Helped with post-acne marks",
+   "texte": "I had a lot of leftover marks from breakouts and this soap has helped fade them over time. My skin looks clearer and more even now.",
+   "date": "2026-03-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": "Reviews rarely state a specific skin type (oily, dry, sensitive, etc.), so type-based segmentation could not be produced from this set."
+}

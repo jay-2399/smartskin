@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2057058",
+ "asin": null,
+ "pid": "pimprod2057058",
+ "source": "ulta",
+ "nom": "ANUA Invisible Matte Finish Sunscreen",
+ "note": 3.96,
+ "nbAvis": 24,
+ "lus": 23,
+ "collectes": 23,
+ "segments": {
+  "oily": "Most oily-skin reviewers report a genuine mattifying effect, reduced shine and pore appearance, and comfortable all-day wear, though a couple say it never fully absorbs and stays greasy or slides around.",
+  "dry": "One very dry-skin reviewer found it lightweight, non-stinging and non-drying, unlike other matte sunscreens she tried; another with dry patches found it clings and is not hydrating.",
+  "combination": "Combination/oily reviewers describe a matte, non-greasy finish that holds up under makeup without breakouts.",
+  "sensitive": "Sensitive-skin reviewers (including sensitive eyes) report no stinging, irritation or eye burning, and no breakouts, though one sensitive/oily/mature reviewer had only positive results.",
+  "mature": "The one mature-skin reviewer, who also has sensitive and oily skin, reports it works well under makeup and replaced a reformulated sunscreen that had become greasy."
+ },
+ "concerns": {
+  "aging": "Only a single mature-skin reviewer speaks to this, reporting satisfactory everyday wear under makeup, but no reviewer discusses lines or firmness specifically.",
+  "dehydration": "One reviewer with derm-diagnosed dehydrated skin liked the lightweight gel texture but noted it later turned watery in storage; a dry-skin reviewer found it surprisingly non-drying and smooth.",
+  "redness": "One reviewer still experienced sunburn and redness after applying a generous amount and limited sun exposure, suggesting inconsistent SPF protection for some.",
+  "barrier": "A dry-skin reviewer noted it can cling to dry patches and is not hydrating on its own, recommending moisturizer underneath.",
+  "spots": "Several oily/combination reviewers say it is comedogenic-safe and did not cause new breakouts in usual trouble areas (forehead, chin), but at least three reviewers directly blame it for acne flare-ups, breakouts or skin-colored bumps that resolved after stopping use.",
+  "blemishes": "One acne-prone reviewer says it is the first everyday matte sunscreen that hasn't broken her out; conversely another with acne-prone skin explicitly does not recommend it due to breakouts.",
+  "oiliness": "Numerous oily-skin reviewers report strong, lasting mattification and reduced midday shine even in humidity; a few dissent, saying it never fully dries down, feels goopy, or leaves visible oil by end of day."
+ },
+ "aspects": [
+  {
+   "libelle": "Matte finish quality",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Product fails to dry down",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels velvety or slippery texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well under makeup, no pilling",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Shortens makeup wear time",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube size too small",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Izzy G",
+   "titre": "Nice velvety matte finish but not acne safe",
+   "texte": "After testing this product for a little over a month, I have concluded that it is the culprit of my breakouts and skin colored bumps. As soon as I stopped usage my skin calmed down. Nevertheless, can't say I don't love the satin matte finish once freshly applied. My face still got oily throughout the day but to be fair it could also be the makeup. As for the primer aspect I would recommend using a moisturizer prior because it can cling to dry patches and it is not hydrating. In essence, would not recommend this product to a friend if they have acne prone skin.",
+   "date": "2026-03-30",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Lis",
+   "titre": "Texture changes",
+   "texte": "I have been told by a derm that I have dehydrated skin, therefore my skin produces extra amounts of oil. Not sure what to believe the derm or what I see in the mirror, but I bought the sunscreen to help with the issue of the appearing oily. Also I dont use makeup just my eyes. It is superlight weight which I love and can apply quickly and gel type textures have always worked well with my skin. Buuuut after a while the texture was no longer a gel it became a very watery liquid. I took care of my product as far as storing it in cool low temperatures so i dont know what happened. Maybe it got too hot while i showered. I really love the product besides that. Did anyone else have this issue with it becoming runny? PLS let me know. It will help me decide if I need to buy this again.",
+   "date": "2026-07-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stephanie",
+   "titre": "Perfect for acne prone, sensitive skin!",
+   "texte": "I have tried so many sunscreens for my oily/combination, acne prone skin, it's frustrating trying to find ones thst work. This is the first everday, matte sunscreen I have used that has not immediately broken me out or irritated my skin or eyes ( I have super sensitive eyes, the ingredient phenoxyethanol irritates my eyes but im happy this product doesn't have this ingredient!)",
+   "date": "2026-04-03",
+   "verifie": false,
+   "utiles": 24,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Judy",
+   "titre": "Amazing Sunscreen",
+   "texte": "I have mature, sensitive, oily skin. The sunscreen I have used in the past has changed their formula recently. The new formula is just a greasy mess on my face. I have been on the hunt for a new sunscreen. I went into Ulta and staff recommended this. It has been amazing and works very well under makeup. Will be buying again.",
+   "date": "2026-03-12",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Haley",
+   "titre": "I really like this sunscreen!",
+   "texte": "I'm 30 years old with very fair and mostly really dry skin, but I've always hated wearing sunscreen because it tends to feel so thick and heavy and dirty and stings my eyes. However, everyone says sunscreen is important so I decided to look for something that would suit my needs, and I went ahead and tried this one. I'm very happy with this sunscreen so far. It looks like I'm not wearing any at all, and it feels so light after applying a generous amount. It's not bothering my eyes either. I've tried other matte sunscreens before and they often feel extremely drying on my already super dry skin, but this one feels really smooth. It doesn't make my facial expressions feel rough and terrible like other sunscreens do, if you know what I mean lol. Even though my skin requires lots of moisturizing, I still cannot stand heavily greasy sunscreens either. This one is not greasy at all and just feels like the perfect balance for me. I'm definitely gonna buy this again in the future. I've added some photos so you can see how it looks, I'm only wearing the sunscreen and some mascara.",
+   "date": "2026-03-24",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sophia",
+   "titre": "Shockingly Amazing!",
+   "texte": "I've been looking for a good sunscreen for my face/neck just for everyday use, and I saw this one was getting decent reviews so I figured I'd give it a try. This is the first one I've come across that's ACTUALLY a matte finish! ZERO white cast, and also makes pores appear smaller (nothing drastic but noticeable). I have combo/oily skin and I usually breakout on my forehead and chin, but this hasn't caused any reaction either. It also dries down a bit after about 10 minutes and has a satin-like feel on the skin, not sticky. The key is just not to over-apply, a little goes a long way! Doesn't make me look too shiny either which is something that bugs me. AND I actually used it as a primer for my makeup and it worked so well! No pilling, no weird smudging while I was applying makeup, and it lasted all day and made my makeup stay intact. Honestly I'm gonna be repurchasing because this is such a great product. **It's not for swimming! Just outdoor/indoor use just FYI.",
+   "date": "2026-07-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Cee",
+   "titre": "Maybe it helped prevent sunburn a bit...",
+   "texte": "I typically enjoy ANUA. I still got sunburn and redness after using a good amount on my face and neck. Also its does not absorb much. Its got a soft, velvety, clear finish but stuck to my hair which made my glasses messy. I was only in direct sunlight for 10min.",
+   "date": "2026-07-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

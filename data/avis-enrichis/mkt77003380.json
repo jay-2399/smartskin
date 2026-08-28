@@ -1,0 +1,137 @@
+{
+ "ref": "mkt77003380",
+ "asin": null,
+ "pid": "mkt77003380",
+ "source": "ulta",
+ "nom": "Makari Acne Control Spot Treatment 1.35oz",
+ "note": 4,
+ "nbAvis": 10,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {
+  "sensitive": "One reviewer with sensitive skin reports the treatment is gentle with no irritation while still clearing breakouts."
+ },
+ "concerns": {
+  "spots": "Reviewers describe individual pimples and deep hormonal spots shrinking, sometimes overnight, with breakouts healing faster and stopping before fully forming.",
+  "blemishes": "Several reviewers report fewer or shorter-lasting breakouts overall, with one calling it a go-to for stopping sudden breakouts before they develop.",
+  "redness": "One reviewer reports a noticeable reduction in redness by the next morning alongside calming of the skin.",
+  "dehydration": "Multiple reviewers state the product does not dry out or leave skin flaky, unlike other spot treatments they compare it to; no reviewer reports dryness as a side effect."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast visible shrinking of spots",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No dryness or flaking despite acne actives",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No stinging or irritation on application",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Improves skin smoothness and texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Alcohol-free formula appreciated",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Ashley",
+   "titre": "Great for hormonal acne",
+   "texte": "I struggle with hormonal breakouts and this has been a lifesaver. It shrinks those deep, painful spots without irritation.",
+   "date": "2026-03-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kayla",
+   "titre": "No more harsh dryness",
+   "texte": "Finally found a spot treatment that doesn't leave my skin flaky. It targets pimples without making everything else dry.",
+   "date": "2026-03-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Lauren",
+   "titre": "Reduces redness overnight",
+   "texte": "I noticed a big reduction in redness by morning. It calms my skin while treating the acne, which I really appreciate.",
+   "date": "2026-03-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa",
+   "titre": "Gentle but super effective",
+   "texte": "I have sensitive skin, so I'm picky with acne products. This one is gentle but still gets the job done. No irritation, just clearer skin.",
+   "date": "2026-03-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nicole",
+   "titre": "Smooths and clears at the same time",
+   "texte": "Not only does it clear my pimples, but my skin feels smoother too. The glycolic acid really helps with texture.",
+   "date": "2026-03-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Danielle",
+   "titre": "Perfect combo of ingredients",
+   "texte": "The mix of salicylic acid and glycolic acid really makes a difference. My pores look cleaner and my breakouts heal much faster now.",
+   "date": "2026-03-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Only ten reviews are available and just one mentions a specific skin type, so segmentation by skin type is thin."
+}

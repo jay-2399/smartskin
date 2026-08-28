@@ -1,0 +1,147 @@
+{
+ "ref": "mkt77006989",
+ "asin": null,
+ "pid": "mkt77006989",
+ "source": "ulta",
+ "nom": "Hypothesis Precision Microdart Blemish Patch 3-Pack",
+ "note": 4.4,
+ "nbAvis": 10,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {},
+ "concerns": {
+  "spots": "Reviewers report the patches reduced whiteheads, papules, and large or cystic-type pimples, often within a day or two, including one case draining a large pimple on the back overnight and another clearing a pimple completely by morning; one reviewer's patch never stayed on long enough to judge whether it worked.",
+  "blemishes": "Several reviewers describe faster healing of popped or active breakouts and reduced picking at blemishes thanks to the covering patch, with one noting a large papule cleared up.",
+  "redness": "One reviewer reports visible redness reduction within one to two hours of application."
+ },
+ "aspects": [
+  {
+   "libelle": "Patch adhesion and staying power",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Falls off overnight or with skincare layered on",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Easy to apply",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Clear border film aids application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible results within hours to two days",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Discreet, gentle design",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Kayla",
+   "titre": "Fall right off",
+   "texte": "I tried these spot treatments multple times. I washed mh face, allowed my skin to dry completely, and applied the sticker. Every time, it came off within a few minutes. I have no idea if the formula really works or not because they won't stay on long enough for me to find out.",
+   "date": "2026-07-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Lauryn",
+   "titre": "Effective!",
+   "texte": "The microdart patches were effective in minimizing whiteheads as well as accelerating the healing process for a popped breakout. I‚Äôll say that the patch wasn‚Äôt super sticky and a couple fell off throughout the night because I slept with them on- I‚Äôd recommend putting on the patch prior to the rest of your skincare. I also like how easy they are to apply with the clear plastic film only surrounding the border of the patch.",
+   "date": "2026-05-19",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Yay",
+   "titre": "Reduced redness fast",
+   "texte": "Within an hour or two I would say the patch reduced the redness. I will definitely be using this as a go to.",
+   "date": "2026-05-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "trinity",
+   "titre": "amazing",
+   "texte": "i had a pretty large papule and the patch had really cleared it up",
+   "date": "2026-05-19",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Natsumi",
+   "titre": "AMAZING!",
+   "texte": "Best pimple patch! I felt a pimple coming on and placed this patch on overnight. By morning, it was completely gone. Not even a hint of a pimple. Amazing!",
+   "date": "2026-05-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Thomas",
+   "titre": "Massive pimple",
+   "texte": "I had a giant pimple on my back that I put a patch on, and it did a great job draining it by the morning.",
+   "date": "2026-05-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kelly",
+   "titre": "Love the patches!",
+   "texte": "These patches are great, easy to apply, I like the design. They are gentle yet effective and I really like patches in general as they help me not to pick at a blemish and protects the open blemish since it‚Äôs covered.",
+   "date": "2026-05-19",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Reviews are few, short, and none state the reviewer's skin type, so segmentation by skin type could not be produced."
+}

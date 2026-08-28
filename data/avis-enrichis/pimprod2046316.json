@@ -1,0 +1,149 @@
+{
+ "ref": "pimprod2046316",
+ "asin": null,
+ "pid": "pimprod2046316",
+ "source": "ulta",
+ "nom": "Pixi Antioxidant Tonic Preserving Serum-Toner",
+ "note": 4.9,
+ "nbAvis": 10,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {
+  "combination": "Reviewers with combination or combination/acne-prone skin report the product is moisturizing without breaking out the t-zone or causing shine.",
+  "sensitive": "One reviewer with sensitive skin, whose skin is irritated by nearly every serum, reports no irritation with this product."
+ },
+ "concerns": {
+  "redness": "Two reviewers mention redness; one reports the product knocks it down a bit, another reports the witch-hazel-paired routine causes no added redness.",
+  "dehydration": "Multiple reviewers describe the product as hydrating or moisturizing, restoring hydration after actives and adding hydration to a routine, with no dissent.",
+  "blemishes": "One combination, acne-prone reviewer reports no breakouts or clogged pores; no other reviewer discusses blemish outcomes."
+ },
+ "aspects": [
+  {
+   "libelle": "Gel-like texture on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption into skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild tingling sensation",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Does not pill under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Subtle pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-watery consistency versus other tonics",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "at",
+   "titre": "I'd buy it again.",
+   "texte": "I'm a skincare junkie and very particular about what I keep and what goes back. This is like a serum/toner hybrid. Very moisturizing and soothing. Knocks my redness down a bit. No breakouts/clogged pores, no burning. I notice a positive difference. Doesn't pill under makeup. I have combo, acne-prone skin. Will buy again... I like it better than Paula's Choice, Fresh, and Mario Badescu.",
+   "date": "2025-02-16",
+   "verifie": false,
+   "utiles": 24,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "24FSensitiveOilySkin",
+   "titre": "Clean. Quick. Easy. Get it.",
+   "texte": "I use this toner along with a basic witch hazel (astringent) and i have to say it refreshes and clarifies/\"locks-in\" my skin after being cleansed. It does tingle a bit but doesnt burn, i assume its because of the witch hazel. Doesnt cause any redness for me either.",
+   "date": "2025-10-21",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sudha",
+   "titre": "Good for sensitive skin.",
+   "texte": "Every serum in the market has irritated my skin except this one. So this is a keeper for me. Not sure about the long-term effects, though.",
+   "date": "2025-10-12",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emily S.",
+   "titre": "Exactly as promised!",
+   "texte": "This tonic has a gel consistency that is very satisfying for application. My combination skin feels great with it on. It's moisturizing but doesn't break out my t zone or make ne look shiny. It's soothing, and my skin feels so soft. I've been using the collagen one, and I love them both so I just might rotate.",
+   "date": "2024-03-23",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Suzy",
+   "titre": "This 3-n-1 is a MUST!",
+   "texte": "This tonic is amazing! Perfect for restoring my skin's hydration after using active ingredients. It's literally a tonic, essence and serum in one!",
+   "date": "2024-03-13",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Andrea B.",
+   "titre": "Wonderful new tonic",
+   "texte": "I've been using the Glow Tonic for years and will continue using it, but I wanted to add more hydration to my regimen! This new antioxidant tonic is wonderful. The texture took me by surprise! It feels soothing and very hydrating. A definite addition for those looking to add hydration. And don't forget to periodically spritz the rose tonic throughout the day! Thanks Pixi",
+   "date": "2024-03-01",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Ashley",
+   "titre": "A little bit goes a long way",
+   "texte": "I like this toner and serum because the product is smooth and absorbs well into the skin. It goes well with a nice moisturizer. The product gives a nice glow. I mostly use this product during the day.",
+   "date": "2025-07-23",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "Only ten reviews are available and most do not specify skin type or concern in detail, so conclusions are based on a small, self-selected sample."
+}

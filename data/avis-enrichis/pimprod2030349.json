@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2030349",
+ "asin": null,
+ "pid": "pimprod2030349",
+ "source": "ulta",
+ "nom": "Hero Cosmetics Mighty Patch Surface Acne Pimple Patches",
+ "note": 4.65,
+ "nbAvis": 839,
+ "lus": 78,
+ "collectes": 101,
+ "segments": {
+  "oily": "Reviewers with oily skin, including one who calls it 'sebaceous' and one near the nostrils/nose area, report the patches pull out excess oil and gunk, though one reviewer warns that very oily skin may prevent the patch from staying on long enough to work.",
+  "sensitive": "Reviewers who describe their skin as sensitive say these patches are gentler than other anti-acne products and appreciate that breakouts stay covered, though one reviewer whose skin she does not consider sensitive reports the patch peeled off a layer of skin and burned.",
+  "combination": "No combination-specific reports were volunteered beyond general oily-area mentions (nose/T-zone), so no distinct combination-skin pattern can be isolated.",
+  "normal": "No reviewer explicitly identifies as having normal skin."
+ },
+ "concerns": {
+  "spots": "Most reviewers with cystic or hormonal spots on the chin, jawline, and cheeks report the patches flatten and shrink whiteheads and cysts overnight; a few note the patch only works once a whitehead has formed and otherwise just picks up dry skin.",
+  "blemishes": "The majority describe clusters of blemishes being drawn out, reduced in redness, and healed faster with overnight wear; one reviewer says preexisting breakouts worsened and new ones appeared after use, and another reports whiteheads sometimes remain untouched under the patch.",
+  "redness": "Several reviewers note visibly less redness around blemishes the morning after use, but multiple critical reviewers report the patch itself left a red, irritated rectangle on the skin for days.",
+  "barrier": "Some reviewers value the patch as a physical barrier that stops picking and protects skin under masks, but at least three reviewers report the adhesive damaged or peeled the top layer of skin on removal, in some cases leaving redness or scarring concern.",
+  "oiliness": "Reviewers using the patches on oily areas like the nose report they absorb oil and leave skin feeling smoother, though one warns that on very oily skin the patch may not adhere long enough to work."
+ },
+ "aspects": [
+  {
+   "libelle": "Draws out gunk overnight",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Painful or damaging removal",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Leaves visible red rectangle mark",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large size covers clusters well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can be cut to customize size",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Falls off before working",
+   "polarite": "neg",
+   "concerne": [
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Good value versus buying many small patches",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Mackenzie",
+   "titre": "Made My Skin Worse",
+   "texte": "I have always struggled with acne on my face and love the original patches, so I decided to give these a try for the larger areas I get breakouts in like my cheeks and chin. If I could go back in time and not use these patches I would in a heartbeat. When I put the patches on I have high hopes. However when I went to remove the patch it was extremely hard to peel off. I could almost feel it peeling the top layer of skin off. When I did get it off my face had a sticky residue left on it which was then hard to wash off. I followed my same routine I always do before applying: washing my face, toner, then patches once the toner dries. Once I was able to get all the sticky residue off my face it was very red. Over the next couple days the preexisting breakouts I had got worse and painful on top of numerous new breakouts in the areas I put the patches. Would not recommend these at all especially if you're trying to improve your skin.",
+   "date": "2024-08-29",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Mommyof2",
+   "titre": "My skin isn't sensitive but this peeled it off!!! :(",
+   "texte": "Had high hope for this to work on my blemishes because of the great reviews I read. I don't have very sensitive skin so I tried this and it ruined my skin. Did not have this on for more them 3 hours and it burned my skin and when I removed the strip it peeled some of my skin off!!! Now I have to worry about the scars this is going to leave on my face!!! Very disappointed and unsatisfied with this product Ulta offers!!",
+   "date": "2022-10-16",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Tiffany",
+   "titre": "Great for major break outs",
+   "texte": "I have problems with cystic acne and I've definitely had clusters on my cheeks. These patches work great for those large areas. Like with any patch, make sure that most of the acne pimples have formed whiteheads, or else the pus won't actually come out and be on the patch. I also have cut the patches up and used customized sizes on some areas. It sticks really well too. I took off one star, because unless you do have whiteheads that are ready to pop, sometimes it only just picks up dry skin. It also can be so sticky that taking it off kind of feels like ripping a strong bandaid off.",
+   "date": "2022-05-30",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "TigerNugget",
+   "titre": "Do what they claim",
+   "texte": "These are excellent at drawing out whiteheads that are already coming to surface, overnight. Must wash your face well, let dry, then put these on pressing down firmly. If you have really oily skin, these probably won't stay in long enough to actually work. These do help bring gunk up to surface, so it may seem like when you first start using they make your skin breakout, however it's just them working. I use the dots for foot treating and once a week do an overnight in the large ones over areas I'm prone to breaking out. Love these, and will keep purchasing.",
+   "date": "2022-05-13",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mariya P.",
+   "titre": "Never seen anything like it!",
+   "texte": "From the ease of application to the effectiveness, I have never seen or even imagined a product that can work so well. I have very sebaceous skin and these babies pull so much gunk out, it feels like my skin can finally breathe. Cannot recommend them enough!",
+   "date": "2022-03-23",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Link",
+   "titre": "AMAZING",
+   "texte": "I LOVE these. I use pimple patches often because my skin is sensitive to a lot of other anti acne products, and these large sizes are AMAZING for the little clusters of acne that gather under my mask. Wearing these overnight completely soaks up all the nastiness on my chin and makes my skin clear!",
+   "date": "2022-03-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elaine B.",
+   "titre": "Obsessed with these",
+   "texte": "These patches cleared up a big cluster of breakouts on my forehead pretty quickly. The nice thing about them is that they keep your breakouts covered, which is a relief when that skin is sensitive. I also noticed a marked difference in the amount of redness around the breakouts. This is a top tier invention.",
+   "date": "2022-02-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

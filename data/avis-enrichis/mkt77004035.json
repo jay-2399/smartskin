@@ -1,0 +1,164 @@
+{
+ "ref": "mkt77004035",
+ "asin": null,
+ "pid": "mkt77004035",
+ "source": "ulta",
+ "nom": "NassifMD Skincare Detox Pads – Complexion Perfecting Pads",
+ "note": 4.87,
+ "nbAvis": 568,
+ "lus": 79,
+ "collectes": 80,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin report no burning, redness, or irritation, using the Gentle formula successfully alongside other products in the line.",
+  "combination": "One reviewer with combination skin reports the pads remove buildup without stripping the skin barrier.",
+  "mature": "Reviewers who identify as mature or in their 50s-70s report smoother, brighter, more youthful-looking skin and reduced pore size, with one crediting the product for age spots appearing rather than fading.",
+  "dry": "One reviewer notes the pads dry the skin out when used daily and switches to a few times a week to avoid over-drying."
+ },
+ "concerns": {
+  "aging": "Several older reviewers (53 to 76 years old) report smoother, brighter, more youthful-looking skin and less visible aging; one mentions new small age spots appearing on the forehead despite continued use.",
+  "dehydration": "Most reviewers describe the pads as non-drying and refreshing, but two report the product dries out facial skin, one calling it the pad's only effect and unsatisfactory.",
+  "redness": "One reviewer with mild rosacea reports smoothed bumps and minimized pores; another states the pads do not turn her face red and feel gentle.",
+  "barrier": "One reviewer with sensitive/combination skin reports the formula removes buildup without stripping the skin barrier and leaves skin balanced.",
+  "spots": "Reviewers report shrinking pores, especially around the nose, and fading whiteheads; one reviewer instead reports new small age spots emerging on the forehead.",
+  "blemishes": "Reviewers report staying blemish-free with regular use and disappearance of whiteheads and small bumps; no reviewer reports new breakouts.",
+  "oiliness": "No reviewer explicitly addresses oil control or oily skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Fragrance/scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance/scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pad stays moist in jar",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Travel-friendly individual packets",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Texture changed from older formula",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Price relative to alternatives",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Over-drying with daily use",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Michele",
+   "titre": "Does not work",
+   "texte": "Does not exfoliate the skin. Just dries facial skin out. Thats all it does.",
+   "date": "2026-02-16",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer",
+   "titre": "Gentle, effective, and perfect for sensitive skin",
+   "texte": "I've been using the Detox Facial Pads (Gentle 60ct) consistently, and they've become a reliable part of my routine. They're truly gentle — no burning, no redness, and no tight feeling afterward. The formula removes leftover sunscreen and daily buildup without stripping my skin barrier, which is important for anyone with sensitive or combination skin. I also appreciate that the pads stay saturated and don't dry out in the container. My skin feels clean, smooth, and balanced after each use. If you want something that supports your skin without overwhelming it, these are a great choice.",
+   "date": "2026-06-19",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tina M.",
+   "titre": "feels good and fresh on",
+   "texte": "feels good and fresh on the skin and cleans well. dried my skin too much if I use daily so I use a few times a week.",
+   "date": "2025-06-10",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nancy T.",
+   "titre": "Love every single product in",
+   "texte": "Love every single product in this line. Started with this one then slowly added others in. I have sensitive skin and typically have issues with products but use all of these and have had amazing results.",
+   "date": "2025-05-15",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marilyn",
+   "titre": "I am buying it again. It is now part of my daily routine.",
+   "texte": "76 y/o female with some mild rosacea. Using it to smooth out the bumps and minimize pores. It seems to be working.",
+   "date": "2026-06-08",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cathy",
+   "titre": "This is my second order. Yes I do like these pads.",
+   "texte": "I do like these pads. I have sensitive skin so I use the gentle detox pads.",
+   "date": "2026-07-13",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary C.",
+   "titre": "Nassif skin care",
+   "texte": "I've been using detox pads seems forever, I love it, best product I've ever used my face feels so smooth and clean, I just don't have enough words to describe the detox pads, I'll NEVERRRR stop using them, one request, I'm starting to get some small age spots, not to many a few on my forehead, thanks Dr Nassif and his staff",
+   "date": "2025-06-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

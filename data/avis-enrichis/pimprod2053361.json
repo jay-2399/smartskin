@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2053361",
+ "asin": null,
+ "pid": "pimprod2053361",
+ "source": "ulta",
+ "nom": "DIME Luminosity Eye Serum",
+ "note": 4.67,
+ "nbAvis": 4984,
+ "lus": 67,
+ "collectes": 84,
+ "segments": {
+  "dry": "One reviewer with dry/mature skin found it drying and pulling, saying it is not for dry skin types, while another reported it quenches dryness around the eyes, so results diverge.",
+  "mature": "Reviewers who mention aging or being in their 30s and beyond report reduced fine lines and crow's feet and a brighter, more awake look with continued use.",
+  "sensitive": "One reviewer describes the under-eye area as sensitive and reports the product firms and brightens it without irritation."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report visibly fewer fine lines and crow's feet after several weeks of daily use, plus a firmer, tighter feel; effects are described as gradual, needing 3-4+ weeks.",
+  "dehydration": "Most reviewers describe the formula as lightweight yet hydrating, quenching dryness around the eyes; one reviewer, however, found it not moisturizing and drying, saying it pulls the skin and highlights fine wrinkles.",
+  "redness": "No reviewer specifically discusses redness.",
+  "barrier": "One reviewer reported a burning, warm sensation on first uses and later found the metal applicator corroded, raising concern about the formula's safety near the eyes.",
+  "spots": "No reviewer specifically discusses spots.",
+  "blemishes": "No reviewer specifically discusses blemishes.",
+  "oiliness": "No reviewer specifically discusses oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling metal applicator tip",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "De-puffing and dark circle effect",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Doubts about de-puffing claims",
+   "polarite": "neg",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Pilling or clumping under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-sticky, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Flaking or residue after application",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Applicator corroded, burning sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "B",
+   "titre": "Don't put this on your face",
+   "texte": "I bought this a few weeks ago and tried it out. It felt very warm and burned the first time i tried it. I waited a few days and tried it again, no burning but still very warm. I used it a few more times then put it in a drawer and forgot about it. I went to pull it out again and the serum had eaten away at the metal applicator. If it eats and corodes metal i dont think you should be putting it BY YOUR EYES !!",
+   "date": "2025-10-21",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Danielle P.",
+   "titre": "Underwhelming",
+   "texte": "I had high hopes for this based on reviews, but personally I have found this product very underwhelming. It is not moisturizing at all, in fact I find it to feel a little drying/pulls my skin too much (but still have the fine wrinkles so it looks like parchment paper). Not for dry skin types!",
+   "date": "2024-06-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sarah",
+   "titre": "Cooling & hydrating. Not great at de-puffing.",
+   "texte": "Bought this on sale. For that reason I'll keep using it -- the ingredients are wonderfully nourishing and the cold application feels wonderful in the morning because of the metal tip. If it were full price I probably would've returned it though. I just don't feel it accomplishes what it claims as far as dark circles and de-puffing, at least in my case. The photos show before, immediately after, and 30 mins after. I didn't see any significant reduction in puffiness. Although there's no magic product that will keep you from looking tired if you're tired, this didn't give me as much of a boost I was looking for to justify the price. The skin did feel soft, luminous, and super moisturized -- good product in that regard.",
+   "date": "2025-09-15",
+   "verifie": false,
+   "utiles": 32,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maureen B.",
+   "titre": "Wonderful eye serum",
+   "texte": "This is one of the best eye serums I have tried! It goes on smooth, not sticky and really helps firm the sensitive area around my eyes making them look less puffy & much brighter. I've tried many eye creams and serums and this is by far a favorite.",
+   "date": "2025-11-07",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jessi O.",
+   "titre": "Makes my eyes glow",
+   "texte": "I LOVE this product. As I have gotten older &amp; stress has been more of a constant, sleep has been elusive. My favorite feature of my face - my eyes- have suffered. I love this product, and the way it makes my eyes glow and brighten. I think it helps them look plumped and firm, not baggy, sunk and dark.",
+   "date": "2025-10-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elfstrum",
+   "titre": "Excellent Product!",
+   "texte": "I love the new design of this product with the new roller ball. It goes on much easier. The product does seem to flake off though and leaves residue on your face.",
+   "date": "2025-10-28",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Tara",
+   "titre": "Pass",
+   "texte": "I would really like this if it didnt pill and clump under makeup",
+   "date": "2025-11-30",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

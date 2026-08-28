@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2042842",
+ "asin": null,
+ "pid": "pimprod2042842",
+ "source": "ulta",
+ "nom": "Bubble Moon Walk Gentle Exfoliating Serum",
+ "note": 4.33,
+ "nbAvis": 106,
+ "lus": 71,
+ "collectes": 74,
+ "segments": {
+  "dry": "Reviewers with dry skin report mixed results: some found it did nothing for their skin and offered poor value, while others describe it as lightweight, cooling, and not drying, with one calling it a game changer.",
+  "sensitive": "Sensitive-skin reviewers are split: several report zero irritation, no stinging, and calmed redness, while others describe burning, redness, breakouts, or rashes after use, with some advising to ease in slowly.",
+  "combination": "Combination-skin reviewers, including one who is acne-prone, report no strong reaction but also little noticeable difference.",
+  "normal": "A reviewer describing her skin as pretty normal found the product soft, gentle, and worth recommending.",
+  "oily": "A reviewer with sensitive oily skin found it worked perfectly for her, and another notes it made oily skin feel less oily while helping with fungal acne on the forehead."
+ },
+ "concerns": {
+  "dehydration": "Some reviewers say it removes dead skin without drying the skin out and leaves it soft rather than dry; one dry-skinned user specifically found it not drying and lightweight.",
+  "redness": "Several reviewers report their face turning red, hot, and burning after application, sometimes lasting about an hour; others with sensitive skin report no redness at all and even calming of existing irritation.",
+  "barrier": "One reviewer warns that over-exfoliating with this product can damage the skin barrier and cause acne, recommending limiting use to once a week and following with hydration and sunscreen.",
+  "spots": "Several reviewers report the product cleared closed comedones, texture, and dead skin buildup within days; one reviewer says it did not help her bumpy patch's underlying cause and was otherwise useless for her skin.",
+  "blemishes": "Multiple reviewers report reduced acne, breakouts, and cleared skin after use, including one who cleared a large breakout; however, several others report new breakouts, bumps, or worsened acne after using it.",
+  "oiliness": "Two reviewers report it made oily skin feel less oily while also helping with fungal acne on the forehead."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong or unpleasant scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly into skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin smooth and soft",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle size, poor value",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Product hard to dispense from pump",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Brittney",
+   "titre": "I HATE THIS, IT BURNED MY SKIN OFF!!",
+   "texte": "It felt nice when I first put it on, but when I rubbed it into my skin, my face turned tomato red and hot to the touch. I have a little bit of acne and it broke me out more, and I would say I don't have sensitive skin, but my face was so irritated and painful even to touch.",
+   "date": "2024-04-05",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Em",
+   "titre": "Fairly Pointless",
+   "texte": "I have dry, someowhat sensitive skin (especially in the winter). I was so excited to try this, and it blended well in to my routine….but i fear it didn't do anything. Plus you're really not getting much in each bottle, so it would be a lot of repurchasing for not enough payoff.",
+   "date": "2025-03-02",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Bunni_16",
+   "titre": "nice product, overall 4/5 because of scent",
+   "texte": "So, I do like this product. I've been using it regularly for the last month almost nightly. I'm a 34yo female with sensitive combo skin. I haven't noticed any incredible change in my skin since starting this product, and it has a sour yogurt smell to it, but it doesn't cause any bad reaction. It absorbs well, and I feel like it helps prep my skin well for the rest of my skin care routine. I definitely think it's at least worth trying since Ulta makes it so easy to return products that don't work for you. In general I have liked the majority of Bubble products I've tried and this isn't any different. Just the smell is off putting, especially because every other product I've used by them is unscented. overall a 4/5",
+   "date": "2024-02-01",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "combination",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Cinthia",
+   "titre": "Good product",
+   "texte": "I like this product for exfoliating the skin! It can be a bit harsh on sensitive skin, sometimes my skin reacts and turns red after using but sometimes my skin doesn't even react at all( it all depends on how sensitive it's being throughout the week) also make sure to not over exfoliate as it can damage your skin barrier very badly and cause acne. Therefore, this product is good if you want to exfoliate your skin only once a week. I also recommend hydrating your skin a lot after using and use sunscreen in the mornings!!!",
+   "date": "2024-01-18",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Sae",
+   "titre": "Great for Exfoliating Beginners",
+   "texte": "Love for beginners, skin that that needs to work its way up to stronger actives, and possibly sensitive skin. I had no issues with sensitivity with this product. I would consider my skin sensitized so i was surprised since it's a hybrid product. That being said, when using it i don't notice that much of a difference. I have combo skin that's acne-prone.",
+   "date": "2026-07-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anna",
+   "titre": "Very awesome :)",
+   "texte": "I was gifted this product and I got to say it's awesome! I tried it for a few weeks and it's made my skin less oily and has helped control some of my fungal acne on my forehead. It leaves my skin feeling smooth and not dry and it also has a very faint smell which is nice!",
+   "date": "2024-01-17",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Francesca",
+   "titre": "Would most definitely purchase again!",
+   "texte": "I absolutely loved this product! As someone with dry skin, this is a game changer! I love love love its lightness and cooling feel, everything I could ask for in an exfoliant.",
+   "date": "2024-01-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

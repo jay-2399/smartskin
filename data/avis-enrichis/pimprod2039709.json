@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2039709",
+ "asin": null,
+ "pid": "pimprod2039709",
+ "source": "ulta",
+ "nom": "OSEA Ocean Cleansing Milk",
+ "note": 4.64,
+ "nbAvis": 552,
+ "lus": 78,
+ "collectes": 89,
+ "segments": {
+  "oily": "One reviewer with oily/acne-prone skin found the cleanser worsened breakouts, while another with combination/sensitive skin says it cleans without drying or leaving skin oily.",
+  "dry": "Reviewers with dry skin mostly report the cleanser keeps skin moisturized and never tight, though one with very dry skin felt it stripped moisture and left her flaking by end of day, and another noted it can be a little drying.",
+  "combination": "One reviewer with combination/sensitive skin says the formula cleans without drying or making the skin oily.",
+  "sensitive": "Reviewers with sensitive skin, including those with rosacea, eczema, peri-oral dermatitis, and chemical sensitivities, frequently report the cleanser is gentle, non-irritating, and reduces redness or reactivity, with no dissent found in this segment.",
+  "mature": "Reviewers describing themselves as mature, senior, or over 60/65/77 report gentle cleansing that leaves skin smooth, soft, and looking more youthful over time, with one noting the drying feel as a minor downside."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on aging report smoother, more youthful-looking skin after weeks to months of use; one specifically noted no visible change for the first three months before improvement appeared.",
+  "dehydration": "Most reviewers with dehydration or dry, flaking skin report the cleanser is hydrating and leaves skin soft without tightness; however, one reviewer with very dry skin says it strips moisture and leaves her flaking by end of day, and another notes mild drying.",
+  "redness": "Reviewers with redness or rosacea report the cleanser calms their skin and does not trigger flare-ups, with one specifically crediting it for reducing redness.",
+  "barrier": "Reviewers describing a compromised or reactive barrier (dermatitis, chemical sensitivity, eczema) report the cleanser as soothing and non-stripping, helping restore skin to a normal, non-itchy, non-painful state.",
+  "spots": "No reviews specifically isolate spots as distinct from general acne/blemish concerns.",
+  "blemishes": "Several reviewers report reduced or resolved acne and breakouts, including one who says her adult acne is gone and another whose workout-related breakouts nearly stopped; however, two reviewers report the opposite, with one saying it exacerbated breakouts and another describing no improvement at all in clearing skin.",
+  "oiliness": "One reviewer with combination/sensitive skin reports the cleanser does not leave skin feeling oily; no other oiliness-specific reports are present."
+ },
+ "aspects": [
+  {
+   "libelle": "Milky, creamy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and clean",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes makeup thoroughly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fails to remove makeup fully",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser malfunctions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to value",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Light, pleasant fragrance",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Vivian",
+   "titre": "Made My Acne Worse",
+   "texte": "I had high hopes for this cleanser. I've been wanting to switch to a more \"clean\"/natural skincare routine for awhile now, and I was hoping \"OSEA\" would be it for me. Unfortunately, this cleanser exacerbated my breakouts. Not for me, and may not be for those of us with oily/acne-prone skin.",
+   "date": "2026-03-14",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Elyssa F",
+   "titre": "Not moisturizing enough",
+   "texte": "I have very dry skin and this feels like it strips moisture. It runs in with a lovely foam, feels nice, smells good, etc but I've had better luck with oil based cleansers in terms of keeping my face moisturized. I used this cleanser with the sea serum and atmospheric moisturizer and my skin is flaking with dryness by the end of the day.",
+   "date": "2024-09-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kathryn",
+   "titre": "After 3 months.",
+   "texte": "I've been using this for 6 months, so I am ready to write my honest review. I am a senior, and I have dry and sensitive facial skin. I use it before I go to bed every night, even when I wear no makeup. I did not see any difference in the first 3 months, but I gradually began to see smooth and youthful skin afterward. It does not clean well to cleanse makeup. I use another brand for that. In conclusion, keeping facial skin healthy rejuvenates a younger look, and Ocean Cleaning Milk performs very positively. I will continue to use it with confidence to make my face brighter a healthy appearance. I love it.",
+   "date": "2025-03-24",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Pamela",
+   "titre": "Healing  ‚ù§Ô∏è‚Äçü©π",
+   "texte": "My face needed saving. I was suffering from dry sensitive skin for months and nothing over the counter was working. I purchased this Ocean Cleansing Milk and the Seabiotic Water Cream and after a few days, a MIRACLE happened. My skin is finally back to normal thanks to these two wonderful products. I highly recommend √ìsea products, especially for sensitive skin.",
+   "date": "2024-07-16",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Megan",
+   "titre": "Best Cleanser",
+   "texte": "I have been using Ocean Cleansing Milk for many years now, it is the most gentle face cleanser I ever used for my sensitive skin. It does wonders for reducing redness as well! I love it overall",
+   "date": "2026-04-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tara",
+   "titre": "Best skin of my life",
+   "texte": "I love this cleanser! I recently implemented this in my daily skincare routine and its had the biggest impact on my skin. I work out a lot so I tend to have a lot of break outs on my face as a result of the sweat, but since Ive started using this twice a day Im almost break out free and my skin feels so hydrated. Recommend this product!",
+   "date": "2025-02-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shari",
+   "titre": "Great cleanser for sensitive skin.",
+   "texte": "I have used this product for several years now. It works on my combination / sensative skin without drying it out or making it feel oily. It is a great formula.",
+   "date": "2026-04-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2032160",
+ "asin": null,
+ "pid": "pimprod2032160",
+ "source": "ulta",
+ "nom": "Vacation Mineral Lotion SPF 30 Sunscreen",
+ "note": 4.26,
+ "nbAvis": 74,
+ "lus": 72,
+ "collectes": 72,
+ "segments": {
+  "oily": "One reviewer with oily/combination skin found it oily but non-clogging and glow-giving, while another warns it is not suited to combination or oily skin especially in humidity; one reviewer states it would not be a good sunscreen for oily skin.",
+  "dry": "Reviewers with dry skin describe it as moisturizing, soft-feeling, and non-drying, with one calling it perfect for dry skin.",
+  "combination": "Combination-skin reviewers report no white cast issues and no pilling with other products, though one found the amount needed for full coverage excessive on combination/oily skin.",
+  "sensitive": "Sensitive-skin reviewers are split: several report no reaction, calming and soothing effects and recommend it as a sensitive-skin holy grail, while others describe allergic reactions, rashes, burning sensation, or redness and dryness specifically on the face.",
+  "mature": "One reviewer mentions using it as part of an anti-aging routine alongside a retinoid, noting no stickiness or greasy feel despite increased photosensitivity."
+ },
+ "concerns": {
+  "aging": "One reviewer using a retinoid (linked to photosensitivity) found this sunscreen non-greasy and comfortable for daily use as sun protection in an anti-aging routine.",
+  "dehydration": "Most reviewers describe it as moisturizing, soft, or soothing on dry/dehydrated skin, with none reporting it worsened dryness.",
+  "redness": "Several reviewers say it calmed or reduced redness (from exfoliation or general sensitivity, including rosacea), but two reviewers report new redness, rash, or a burning sensation after use.",
+  "barrier": "Reviewers with reactive or eczema-prone skin generally report no issues, but a few describe allergic reactions or rashes suggesting barrier irritation for some users.",
+  "blemishes": "One reviewer with acne-prone skin reports zero breakouts and praises it as non-comedogenic; another with oily/combination skin also says it does not clog pores.",
+  "oiliness": "Some reviewers with oily or combination skin like the natural glow and non-greasy finish, while others explicitly warn it is unsuitable for oily skin or leaves a heavy, sweaty, non-drying-down feel."
+ },
+ "aspects": [
+  {
+   "libelle": "White cast on application",
+   "polarite": "neg",
+   "concerne": [
+    "mature",
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Minimal white cast once blended",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or unpleasant scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented formula appreciated",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Thick, hard-to-rub-in texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, easy-blending texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong water resistance during swimming",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "greenery",
+   "titre": "Hello Sunburn",
+   "texte": "I got this sunscreen because it has less chemicals than other sunscreens being mineral based. I went to the beach for 2.5 hours and applied 3 seperate times. The sunburn I have is unreal!! I'm born and raised in Florida, and a sunscreen has never dissapoitned me more than this one. It's a very thick consistency so it's hard to rub in fully. I didn't mind because I thought I'd be more protected from the sun. Not the case. It feels as if I didnt use any sunscreen at all.",
+   "date": "2025-07-27",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Angelina",
+   "titre": "Had an allergic reaction",
+   "texte": "I really wanted to love this sunscreen and was so excited to try it but unfortunately my skin did not take well to it. Thankfully, I had just used it on my arms and neck so when I broke out into a rash on these areas, I knew it was because of the sunscreen. I gave it two stars because it blended very nicely and didnt leave a white cast but it just wasnt for me. I have rosacea and very sensitive skin overall so it may just be me, but definitely do a spot test before you use it all over.",
+   "date": "2023-04-23",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Solid sunscreen",
+   "titre": "Very good very comfortable product",
+   "texte": "So i really do like this sunscreen. Its very comfortable, doesnt have a white cast, and didnt pill in combination with my other products. I found this to be MUCH better than the whipped foam sunscreen that blew up on tiktok. The only reason i am giving this 4 stars is because the skin on my face is incredibly sensitive so i got red, irritated and dry after using this on my face for a few days. I know its no fault of the product though because my neck and body didn't have a reaction. I would say definitely give this a try it was one of the most comfortable and user friendly mineral sunscreens ive ever tried! If you have hypersensitive skin then i would skip.",
+   "date": "2023-12-30",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "M",
+   "titre": "Great for Sensitive Skin and Actually Works!",
+   "texte": "I have very sensitive, acne-prone skin but this sunscreen has caused 0 problems! It also leaves the most minimal white cast (if any really) of all the brands I've tried, which is double the amazing because it's zinc oxide level is 20%. It is a heavier, but I just don't use moisturizer beforehand (very combo skin) and kind of like the glow it leaves :) After a long boat day, can vouch for it's waterproofness too. But it will turn white if you sweat a lot and it wipes off on clothes, but its a physical sunscreen, so that makes sense.",
+   "date": "2022-08-10",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MsBee",
+   "titre": "Love It So Much",
+   "texte": "When it comes to mineral sunscreens, I have tried alot of them. Last summer, I would have said Native sunscreen was my favorite. But I love this!!! I love how moisturizing it is, particularly because I have dry skin. This is a repurchase for sure. (Yes, only 15.5% zinc oxide.)",
+   "date": "2023-05-27",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Michelle",
+   "titre": "A must have!",
+   "texte": "My skin has been red from over exfoliating. When i put this on it reduces the redness and makes my skin look great! I feel i dont need muxh makeup after. The ingredients are great and it works so well to calm skin. Being a mineral sunscreen is the icing on the cake!",
+   "date": "2024-11-19",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "anonymous",
+   "titre": "Amazing Zinc Sunscreen for the Price",
+   "texte": "Entirely transparent zinc sunscreen (it doesn't leave a white cast) and it is supremely hydrating. This wouldn't be a good sunscreen for oily skin, but it is perfect for dry skin. I don't have that chalky feeling at the end of the day, and I love that it is fragrance free.",
+   "date": "2021-07-09",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

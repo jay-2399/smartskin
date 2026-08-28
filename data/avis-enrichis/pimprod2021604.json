@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2021604",
+ "asin": null,
+ "pid": "pimprod2021604",
+ "source": "ulta",
+ "nom": "Mad Hippie Microdermabrasion Facial",
+ "note": 4.67,
+ "nbAvis": 130,
+ "lus": 80,
+ "collectes": 116,
+ "segments": {
+  "oily": "One reviewer in her 60s with ongoing oily skin says the product helps keep her skin clear over years of use; another notes it did not make her skin oily afterward, unlike other microdermabrasion treatments.",
+  "dry": "Reviewers with dry skin, including one dealing with severe winter dryness and makeup peeling, report the scrub removed dry flakes without irritation or added dryness.",
+  "combination": "Combination-skin reviewers describe it as effective for pore congestion on cheeks, chin and hairline and gentle enough for combination/dehydrated skin, though one with combination oily/dryness needed it paired with other Mad Hippie products to see full results.",
+  "sensitive": "Most self-described sensitive-skin reviewers, including those with rosacea or eczema, report no irritation and smoother, calmer skin, but one reviewer with sensitive skin says it caused white bumps and swelling and another developed a rash.",
+  "mature": "Reviewers in their 40s to 60s+ describe it as gentle enough for mature skin while improving glow, softness and reducing fine lines and pore size.",
+  "normal": "No reviews specifically describe normal, non-problematic skin as the reviewer's stated baseline."
+ },
+ "concerns": {
+  "aging": "Reviewers using this for aging concerns report smoother texture, reduced fine lines and a brighter, more youthful look, including one who felt it took years off her skin; no dissent noted for this concern specifically.",
+  "dehydration": "Reviewers with dry or dehydrated skin report the product left skin hydrated, soft and non-flaky, including one who says it resolved severe winter dryness and makeup peeling.",
+  "redness": "Multiple reviewers note no redness after use, including one who expected irritation from the grittiness but saw skin appear less red instead; no reports of increased redness were found.",
+  "barrier": "Reviewers with reactive skin conditions (rosacea, eczema) report the product did not disrupt or irritate their barrier and even improved sensitivity over time; contrasted by one reviewer whose face swelled with white bumps after use.",
+  "spots": "Reviewers using it for acne scars and dark spots report smoother, more even-looking skin and reduced visible bumpiness with continued use over weeks to months.",
+  "blemishes": "Several reviewers with acne or breakouts report fewer blackheads, cleared blemishes and small pimples improving, though two reviewers report the product clogged pores or caused cystic-type breakouts and one report of purging on first use.",
+  "oiliness": "Reviewers with oily skin generally report it controls oil without making skin oilier afterward, though this is based on a small number of testimonials rather than broad consensus."
+ },
+ "aspects": [
+  {
+   "libelle": "Gritty physical exfoliation texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Inconsistent product texture between batches",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant citrus or lemony scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging jar less convenient than tube",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Too watery or low viscosity for some",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Steph",
+   "titre": "Not for sensitive skin. Killed my face!",
+   "texte": "I'm not sure about these positive reviews but this stuff destroyed my face! I have tiny white bumps every where and my face is swollen. Maybe it's not for sensitive skin. Be careful!",
+   "date": "2021-09-12",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Lkh",
+   "titre": "I loved this at first",
+   "texte": "It has pore clogging ingredients that are not safe for acne prone skin. Did feel nice but it clogged my pores. Really wanted to like this :((",
+   "date": "2021-05-21",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Althea",
+   "titre": "I never leave reviews, but this product is insane",
+   "texte": "I never leave reviews, but this product is insane. My skin is so smooth and SHINY, but also not oily?? I was so skeptical, but am so happy I tried it out. I've also been using the cream cleanser and AHA BHA milk cleanser on rotation and my skin has completely transformed. At 38, I have been dealing with combination oily/dryness, pimples, and irritation (even with really expensive products), but since I've started using these products I have had literally the best skin of my life. Cannot recommend enough.",
+   "date": "2026-03-05",
+   "verifie": false,
+   "utiles": 21,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anna",
+   "titre": "A staple product",
+   "texte": "I love the microdermabrasion facial because it's reliable, gentle, and gets the job done. I just reach for it whenever I feel my pores starting to clog from hormones or wearing makeup under a face mask. It works like a charm and has saved my skin on the edge of a breakout many times. I have sensitive skin and it doesn't irritate me at all. My skin always glows feels super smooth after I use it. And a little bit goes a long way!",
+   "date": "2022-01-28",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah",
+   "titre": "Perfect Exfoliating Scrub",
+   "texte": "I have extremely sensitive and dry skin, I've struggled finding a good exfoliating wash and this one is perfect. I get papule acne and this was the only thing that got rid of it.",
+   "date": "2024-11-04",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maddie",
+   "titre": "Wow! I have tried a lot of products and this is my favorite",
+   "texte": "I never write reviews but.. I have had horrible blackheads ever since masks/Covid and I have to wear masks for 12hrs at work. I have only used this a week / 2x this week as rec. just wow! My face has never been this soft and I have never seen something work so fast! The first night I used this I did wake up and my face was purging a little. Not horribly but I was a little worried. However, the next time I used it my face cleared up, pores are so small!!, and my skin looks so glowy. She is here to stay! Also a little goes a long way so it will last a long time. :,) thank you mad hippie.",
+   "date": "2023-10-25",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Tried a sample and was hooked.",
+   "texte": "I hesitated on this product (I have almost everything else!) but tried a sample and had no irritation at all. My long term problems have been rosacea and very sensitive skin - but by alternating products, not only do I have smoother brighter skin, but also not as sensitive any more. I had tried so many things and found that many products have silicones in them which work initially but tend to dry my skin and irritate it. Mad Hippie's exfoliator and microdermabrasion leave me with a healthy glow and improved texture with excellent pore size eduction. Great when followed with the antioxidant oil.",
+   "date": "2022-10-15",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

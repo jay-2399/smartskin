@@ -1,0 +1,160 @@
+{
+ "ref": "pimprod2050604",
+ "asin": null,
+ "pid": "pimprod2050604",
+ "source": "ulta",
+ "nom": "RODAN + FIELDS Total RF Serum Anti-Wrinkle Face Serum",
+ "note": 4.54,
+ "nbAvis": 5650,
+ "lus": 78,
+ "collectes": 97,
+ "segments": {
+  "dry": "Reviewers describing dry or dryer skin report the serum leaves it hydrated and moist rather than tight or flaky.",
+  "sensitive": "Reviewers with sensitive skin report it absorbs well without irritation, though one calls the fragrance strong enough to burn her eyes.",
+  "mature": "Reviewers describing mature skin (including one nearly 79 and one post-weight-loss) report firmer, smoother, more vibrant-looking skin and softened lines.",
+  "combination": "One reviewer notes the serum suits all skin types including her combination skin, going on smooth without greasiness."
+ },
+ "concerns": {
+  "aging": "Most reviewers using it for aging concerns report firmer, plumper skin and reduced visibility of fine lines and wrinkles, including around the eyes; one long-term reviewer says it turned her wrinkled post-weight-loss skin significantly smoother.",
+  "dehydration": "The large majority report immediate and lasting hydration, plumpness and a 'moist' or 'dewy' feel, including on self-described very dry skin; no reviewer reports increased dryness.",
+  "redness": "A few reviewers explicitly state no irritation or burning from the product, but one reviewer reports the fragrance caused burning eyes and had to wash it off.",
+  "barrier": "Reviewers mention the serum feels 'gentle,' 'comfortable' and non-irritating on skin, with no reports of compromised or reactive skin.",
+  "spots": "One reviewer reports her dark spots began to lighten with use; no other reviewer addresses spots specifically.",
+  "blemishes": "No reviewer discusses acne or blemishes in relation to this serum.",
+  "oiliness": "Most reviewers say the serum is non-greasy and lightweight; one reviewer, however, reports it made her face look greasy and saw no other result."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy, smooth finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Sample size too small to judge",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Immediate radiant glow",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Premium-feeling packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible difference after use",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Iluvskincare",
+   "titre": "Awful fragrance",
+   "texte": "Receuved a sample from Ulta. It applies smooth. However, the fragrance was so strong I couldn't even sit at my desk to work because it was so overpowering making me go back to the bathroom wash my face and start my routine all over again. It actsully was burning my eyes. There is no reason why a skincare face serum should be loaded with fragrance in my opinion. I want to apply my skincare to treat my skin, not layer with chemical fragrances. I say all if thus as someone who uses a LOT of skincare products and tries many brands- this was one if the worst to me.",
+   "date": "2026-02-24",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joanne",
+   "titre": "Hydrating",
+   "texte": "The sample keep my face feeling hydrated the entire day. I have really dry skin and it felt moist!",
+   "date": "2026-02-12",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "City",
+   "titre": "Loved it!",
+   "texte": "Very smooth serum, worked just great on my sensitive and dry skin! Instant glow",
+   "date": "2026-02-12",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Breezymom",
+   "titre": "Disappointed",
+   "texte": "The only result I noticed is how greasy it made my face look :(",
+   "date": "2026-02-17",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "stacy",
+   "titre": "I thank you so much!",
+   "texte": "I lost over 100 pounds which turned my face into a mess of wrinkles! After trying Total RF, my face looks so beautiful! It makes my skin look at least 20 years younger!",
+   "date": "2026-02-18",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lindasue",
+   "titre": "I look alive !",
+   "texte": "I'm almost 79. This feels amazing on my skin. My skin looks vibrant smooth and supple.",
+   "date": "2026-02-22",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lswolfo",
+   "titre": "Rejuvenated!",
+   "texte": "My dark spots began to lighten up and my skin got more plump, I will be looking for more.",
+   "date": "2026-02-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

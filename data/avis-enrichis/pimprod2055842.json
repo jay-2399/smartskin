@@ -1,0 +1,172 @@
+{
+ "ref": "pimprod2055842",
+ "asin": null,
+ "pid": "pimprod2055842",
+ "source": "ulta",
+ "nom": "Dr. Althea 345 Relief Cream Mist",
+ "note": 4.04,
+ "nbAvis": 23,
+ "lus": 21,
+ "collectes": 21,
+ "segments": {
+  "oily": "Reviewers with oily or oily/acne-prone skin frequently report the mist leaves their skin feeling oily and heavier rather than lighter, with two describing new breakouts.",
+  "dry": "Reviewers with dry skin (including tret- or retinol-induced dryness, and dry climates) report strong, long-lasting hydration and consider the product well suited to their skin type.",
+  "combination": "One combination-skin reviewer reports the formula works well for her and pairs it with the matching moisturizer for a rejuvenated feel.",
+  "sensitive": "Reviewers with sensitive, acne- or eczema-prone skin report calming, non-irritating hydration and no breakouts, though one unspecified reviewer had contact dermatitis after use.",
+  "normal": "A reviewer with normal-to-dry skin (dry only in the T-zone) reports good moisturizing and reduced redness and acne, while another with non-reactive normal/dry skin reports breakouts and insufficient hydration from the fine mist."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers, including those with dry skin, tret-related dryness, or dry climates, report meaningful and long-lasting hydration; a couple of reviewers found the mist too fine to feel truly hydrating on its own.",
+  "redness": "One reviewer reports the mist helps minimize redness alongside acne, and another describes instant calming of inflamed skin.",
+  "barrier": "One reviewer reports a case of mild contact dermatitis after repeated daily use, described as possibly user error; no other reviewer reports barrier damage.",
+  "spots": "One reviewer reports whiteheads on the nose disappearing and pores looking smaller after a few weeks of use.",
+  "blemishes": "Several reviewers with acne-prone, sensitive, or eczema-prone skin report no new breakouts and even clearer skin, including one whose friends also saw improvement; however, two reviewers with oily/acne-prone skin explicitly report the product caused breakouts.",
+  "oiliness": "Multiple reviewers, mostly with oily skin, report the mist makes their skin feel oilier rather than mattifying it, with one noting it works better as a makeup refresher than a standalone moisturizer."
+ },
+ "aspects": [
+  {
+   "libelle": "Very fine, light mist spray",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mist too fine to feel hydrating",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Leaves skin feeling oily",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Soft, comfortable skin feel",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value versus high-end brands",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well as makeup setting spray",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Easy, no-rinse reapplication during the day",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Sy",
+   "titre": "Moisturizing but caused breakouts",
+   "texte": "I was really excited to try this product but i am disappointed. I use retinal which can be drying but i have oily acne prone skin, this line is supposed to \"help\" with acneic skin, so i thought id give this a try. I was hoping it would be a lighter weight version of the cream that wouldnt leave me too oily, but boy was i wrong. Every time i use this my skin is extremely oily. Doesnt feel very soft. And obviously, it has caused me to breakout. Glad i didnt buy the actual cream. This might be helpful to those with dry skin but beware if youre an oily person.",
+   "date": "2026-03-12",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Kris",
+   "titre": "Not for oily skin",
+   "texte": "I really love their 345 cream, so I was hoping I would enjoy this mist. Sad to say that I do not like this mist. Leaves my skin pretty oily. Over makeup, it's a great refresh. I use a makeup puff to help me melt the makeup all back together again. But by itself for added moisture, it doesn't do it. Just makes my skin oily. Might be well suited for people with dry skin.",
+   "date": "2026-08-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Maddsss",
+   "titre": "Will repurchase",
+   "texte": "I've been using this item for about a couple months now and honestly, I will keep repurchasing it. I have very dry skin in my tea zone, but normal skin type everywhere else, and this gives me the moisturizing I need, but it also helps minimize any redness and acne",
+   "date": "2026-07-10",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "normal",
+   "sujets": [
+    "redness",
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ren",
+   "titre": "Worth writing home about",
+   "texte": "This is the first time I've felt so impressed by a product that I feel inclined to write a review. I take medication for my acne and use tret, so my skin is very dry. In addition, I also live in very dry climate and this is the only thing that gives me long lasting hydration throughout the day. If I feel like I need to reapply, reapplication is easy since I don't need to wash my hands beforehand.",
+   "date": "2026-05-05",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jungkook",
+   "titre": "Great on sensitive and acne prone skin!",
+   "texte": "Gives great moisture during the day when you don't feel like applying a moisturizer. I have sensitive, acne and ezcema prone skin and this did not break me out like most products. The mister is super fine but liquid can make your hair oily",
+   "date": "2026-01-06",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda",
+   "titre": "Lightweight Hydration for acne-prone skin",
+   "texte": "I purchased this mist after doing some research, as it was recommended for my skin type (sensitive and acne-prone). I was nervous, because facial mists tend to break me out. I've had this for about a month, and I'm loving it! I lightly mist this all over my face at the end of my skincare routine or mixed in with my moisturizer. It gives a subtle glass skin glow and it doesn't irritate or appear to cause breakouts. My skin is looking so smooth and hydrated. Will definitely repurchase.",
+   "date": "2026-05-12",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gozi",
+   "titre": "Best thing I've done for my skin this year",
+   "texte": "I tried this because I was told by a dermatologist that I have surface level dryness on my skin. I've only had this for about 2 weeks now and it's helped fix several issues I had. The whiteheads on my nose are disappearing, my pores look noticeably smaller (not clogged), and my skin feels hydrated and nourished. The best part? My skincare routine is only 3 steps (cleanser, this mist, and moisturizer). This was a perfect buy and I will be repurchasing!",
+   "date": "2026-07-30",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

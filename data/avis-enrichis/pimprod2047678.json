@@ -1,0 +1,155 @@
+{
+ "ref": "pimprod2047678",
+ "asin": null,
+ "pid": "pimprod2047678",
+ "source": "ulta",
+ "nom": "LUSH Happy Skin Enzymic Facial Exfoliator",
+ "note": 4.6,
+ "nbAvis": 10,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {
+  "dry": "One reviewer with dry skin reports no cracking or dryness and feels refreshed after use, while a general reviewer notes very dry skin may not need exfoliation and could try an alternative Lush product instead.",
+  "combination": "A combination-skin reviewer with occasional chin blemishes reports smoother skin texture and oil control by night's end after over a week of nightly use.",
+  "oily": "One reviewer describes oily skin and switched from a drugstore scrub to this product, calling it suitable for oily skin, though another reviewer reports the product left her face extremely oily and stinging after home use.",
+  "normal": "The product is described by one reviewer as suited to normal, combination or dry skin with minimal irritation risk."
+ },
+ "concerns": {
+  "spots": "One reviewer with postpartum hormonal acne around the mouth and chin reports all spots clearing within four days of daily use and no new ones forming; a combination-skin reviewer reports only occasional chin blemishes with improved texture, so results vary by cause of spots.",
+  "blemishes": "A reviewer with occasional chin blemishes reports the area feels smoother after over a week of nightly use.",
+  "oiliness": "Reports are mixed: one reviewer says oil feels controlled through the night and she wakes without excess oil, another with oily skin says it suits oily skin, but one reviewer reports the product left her face extremely oily after a single home use.",
+  "redness": "One reviewer reports stinging and a reaction when using the product on her face despite no reaction when tested on her hand at the store."
+ },
+ "aspects": [
+  {
+   "libelle": "Fresh, mild scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle daily exfoliation texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging reaction on face",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Leaked from packaging in shipping",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price versus drugstore options",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Refreshing cooling effect when chilled",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Maggie",
+   "titre": "Use with caution!",
+   "texte": "Used the exfoliate on my hand at the lush store and had no reaction. However, when I went home and used it on my face, it stung and left my face extremely oily.",
+   "date": "2025-01-03",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alyssa",
+   "titre": "New staple.",
+   "texte": "Ive had pretty good skin the majority of my life, with the occasional pimple popping up during my time of the month. Im 30 now and i just had my 4th child 6 months ago. Since he was born, my acne was the worst its ever been. I noticed they were always by my mouth and chin, which means people tend to see them even if theres not many, they are noticable. Ive used this stuff for 4 days in a row now and EVERY single spot has disappeared from my face, whats even more exciting— it seems to be preventing any new ones from forming! For the first time in 6 months my skin is completely clear again. Thank you lush!",
+   "date": "2025-06-19",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "DONNA",
+   "titre": "WOW  WOW  WOW",
+   "texte": "I noticed a real difference in one time of use. My skin was radiant and felt so good. I can't to used it again tonight. Amazing exfoliator. The smell is so refreshing also. It is not harsh and I tend to have dry skin. It did not make my skin feel cracked and dry. I was left feeling really refreshed. TIP put in refrigerator (not necessary) for an awesome cooling experience.",
+   "date": "2025-03-11",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emily",
+   "titre": "Great LUSH product",
+   "texte": "I did a good amount of research before purchasing this product. I was looking for a good every day use exfoliating face wash to use with my other cleansing face wash. I was originally going to purchase this from LUSH's website but I couldn't bring myself to pay for $8 shipping on just one item. I was happy to find this product on Ulta's website and utilize the free shipping on $35+. I don't really have sensitive skin but I do have some texture on my chin area and I usually get the occasional blemish in that area. Also I do infact get oily skin by the end of the day. I have been using this product every night for over a week now after using my normal cleansing face wash. I enjoy how the exfoliation of the product feels like I am really cleaning my face, it's the perfect amount of exfoliation that I feel like I can use it every day. I have noticed my skin feels smoother on my chin area and that my oil feels controlled throughout the night and I don't wake up with a ton of oil on my face. I would recommend this product!",
+   "date": "2026-02-02",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vicki",
+   "titre": "Love this!",
+   "texte": "I tried this in the smaller version, fell in love. Unfortunately i was a st.ives scrub girly but this made me switch! Great product for my oily skin but i think any sort of skin would benefit from this!",
+   "date": "2025-02-05",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Priscilla",
+   "titre": "Gentle Everyday Exfoliation!",
+   "texte": "Great face wash! Cleanses thoroughly with an everyday gentle exfoliation leaving skin super soft and clean. For use on normal, combination or dry skin with minimal chance of irritation since it uses natural ingredients. Very dry skin doesn't need exfoliation so you may want to try ultraplant. Has a soft, fresh scent that washes away",
+   "date": "2025-01-09",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Traci",
+   "titre": "Be Careful When Buying",
+   "texte": "The lid had opened a bit and product had leaked all over the contents in my box and the inside of my box. This product is too expensive to waste.",
+   "date": "2025-07-07",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "Only ten reviews are available, so segment- and concern-level conclusions rest on very small numbers of accounts, especially for mature and sensitive skin, which are not represented."
+}

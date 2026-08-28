@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2030348",
+ "asin": null,
+ "pid": "pimprod2030348",
+ "source": "ulta",
+ "nom": "Hero Cosmetics Mighty Patch Original Acne Pimple Patches",
+ "note": 4.67,
+ "nbAvis": 5623,
+ "lus": 80,
+ "collectes": 98,
+ "segments": {
+  "oily": "Reviewers with oily/combination skin, including one with oily sensitive skin, report the patches do not irritate and work well overnight.",
+  "dry": "Reviewers with dry or normal-to-dry skin note the patches stick best when the skin is fully dried before application, and one reports a drying, dark-mark effect around the pimple.",
+  "sensitive": "One reviewer explicitly warns that despite label warnings she used the patches on sensitive skin and experienced the worst breakout of her life around her mouth and chin; another with oily sensitive skin reports no irritation at all.",
+  "combination": "A teen reviewer with oily and combination skin (dry in winter) recommends the product for acne."
+ },
+ "concerns": {
+  "redness": "Several reviewers say the patches reduce swelling and redness overnight; one reports a patch left a red mark after a painful removal.",
+  "barrier": "One reviewer describes the patches as drying and leaving a dark spot where applied, suggesting disruption to the skin in that area; most others report no such damage.",
+  "spots": "Most reviewers say whiteheads and blackheads are visibly reduced or flattened by morning, though a few state the product left no visible change on their spot.",
+  "blemishes": "The large majority describe blemishes flattening, healing faster, or disappearing overnight; a minority (including teen and adult acne sufferers) report no effect or that it does not work on cystic or very firm pimples."
+ },
+ "aspects": [
+  {
+   "libelle": "Extracts gunk overnight",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Blends invisibly with skin tone",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for the size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong adhesion, hard to remove",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Leaves dark mark or dryness",
+   "polarite": "neg",
+   "concerne": [
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Ineffective on cystic or headless pimples",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Satisfying peel-off ritual",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Nicole",
+   "titre": "Never again.",
+   "texte": "If you have \"sensitive\" skin DO NOT USE. I'm about to turn 34 and these patches made my face break out (in the area I only used the patches, around my mouth and chin) more than I ever have in my entire life. Yes, the box does discourage use if you have sensitive skin. But after four days of rough and bumpy I read a lot of reviews from other women experiencing the same kind of massive breakouts. Really wanted them to work and I'm not saying they don't for certain people just don't want anyone else's to go through what I am right now…",
+   "date": "2025-11-01",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Emma",
+   "titre": "I want to love these but…",
+   "texte": "These always do a great job of getting all of the gunk out. However, i notice that it always dries out the area around the pimple and leaves a huge dark spot from where the patch was. My skin is not that sensitive and im not allergic to anything, but its just too drying. Good Molecules brand works just as well and doesn't leave a huge blotch on my face afterwards.",
+   "date": "2026-04-03",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kennedee",
+   "titre": "Way to sticky for me",
+   "texte": "I tried them for the first time this summer. My spot was in the middle of my forehead. Once I put it on it was hard to move my head. After about 4 hours I tried to take it off and it hurt. The patch wasn't coming off I had pull and it left a huge red mark. It also really didn't even clear my acne.",
+   "date": "2025-11-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Tori",
+   "titre": "Very good!",
+   "texte": "I've used these patches for well over a year and I do really like them. They were the first patches I had ever tried and I have stayed with them. I have really oily sensitive skin and these do not bother me at all.",
+   "date": "2025-07-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Miri!",
+   "titre": "They work amazing for me",
+   "texte": "I love these pimple patches. I have nromal to dry skin and after skincare i put these on. The sticking power is really dependent on how dry the skin is. I let my skin dry after skin care and then stick one on hard and press it down while making a wide range of facial movements to help it stick on better. After that the generally dont budge. In like ine day a juicy pimple goes down or fades.",
+   "date": "2024-09-02",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lucy",
+   "titre": "oh my word..",
+   "texte": "Oh my word this is one of the best products for acne out there! as a teen girl with oily and combination skin and dry skin in the winter I def recommend! a bit pricey but so worth it!! GO GET IT NOW!!",
+   "date": "2024-12-31",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "anonymous",
+   "titre": "I keep buying these!",
+   "texte": "At first I was skeptical, but after trying them, they really do work for most pimples. However, large and firmer pimples or cysts it doesn't work as well on. But I think that's because it's not meant for it. Overall fairly good product.",
+   "date": "2026-05-22",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2018407",
+ "asin": null,
+ "pid": "pimprod2018407",
+ "source": "ulta",
+ "nom": "Peach Slices Deep Blemish Microdarts",
+ "note": 4.31,
+ "nbAvis": 655,
+ "lus": 77,
+ "collectes": 111,
+ "segments": {
+  "dry": "Reviewers with dry skin report the patches falling off overnight despite firm pressing, though one noted the microdarts still helped reduce inflammation even without sticking.",
+  "oily": "One reviewer with oily skin notes the patch can slide off the blemish if not pressed on firmly.",
+  "combination": "A combination, acne-prone reviewer reports the patches work on cystic bumps but require several applications and are not cost-effective for frequent or severe cystic acne.",
+  "sensitive": "A reviewer describing Type II rosacea-related acne reports the patches work on those spots as well as on deeper occasional pimples.",
+  "mature": "Reviewers going through perimenopause report relying on the patches to calm deep, painful breakouts brought on by hormonal skin changes."
+ },
+ "concerns": {
+  "spots": "Most reviewers with deep, cystic, or under-the-skin blemishes report visible shrinkage, reduced pain and faster resolution, often needing 2-4 patches per spot over several days; a minority report no change in the blemish at all.",
+  "blemishes": "Many describe blind, hormonal or cluster blemishes coming to a head or flattening overnight to a few days; some reviewers say results were nonexistent or only cosmetic (covering redness) without real change underneath.",
+  "redness": "Several reviewers report reduced redness and less visible inflammation around blemishes after use, with one noting residual light redness rather than full resolution.",
+  "barrier": "One reviewer reported a skin injury and subsequent staph infection after pressing the patch in, describing torn skin and worsened acne; this is an isolated but severe adverse report."
+ },
+ "aspects": [
+  {
+   "libelle": "Adhesion and staying power",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Painful or pokey sensation on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible overnight reduction in blemish size",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "High price relative to only 9 patches per pack",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Discreet, wearable under makeup during the day",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Residue left behind after wear",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Risk of skin injury if pressed too hard",
+   "polarite": "neg",
+   "concerne": [
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Katherine",
+   "titre": "Warning! Read before using!",
+   "texte": "Warning! These patches gave me a staph infection on my cheek. I'm unsure if user-error is the culprit, but upon applying the patches, I tried to push them down on my skin as their only adhesive is along the perimeter of the patch, and was in acute pain. It appeared my skin/pores were ripped open, and my moderate acne started to get worse. When I went to the dermatologist, I was prescribed antibiotics for an infection where the patch had dug holes into my skin. I am still recovering, but wanted to share my experience. I don't know how safe these patches really are, but if you do decide to use them, be VERY gentle upon application (maybe there should be some sort of warning in the instructions).",
+   "date": "2025-01-12",
+   "verifie": false,
+   "utiles": 14,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Kendall",
+   "titre": "Fell off so fast",
+   "texte": "Tried 3 times, none stayed on my dry face. pressing the microdarts did help with some inflammation though.",
+   "date": "2025-03-20",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "April",
+   "titre": "Works well, but you need a couple of them to work.",
+   "texte": "I have combination, acne prone skin. They work well on a cystic acne bump, especially if you feel one coming and it hasnt come to \"a head\" yet. However, you do need to use about 2-3 of them consecutively to work well and there are only 9 per package. So, it's good for people who get the occassional cyst of two, but I wouldn't recommend this to people who hace moderate to severe cystic acne as it'll just get too expensive over time. That being said, this is my holy grail when my mild acne starts to flare up and it stops the cyst from maturing into a big pimple. I have a couple packs in my drawer. The microdarts are a bit sharp but they get the job done and you won't notice it after application. Just follow the directions really well. Clean dry skin, push the patch in for 30 seconds, leave on for 8 hours or overnight, rinse and repeat until the cyst goes down. Overall, I highly recommend this to my folks who get a couple of cystic acne bumps here and there & want to confront the cyst before it gets bigger.",
+   "date": "2024-07-04",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alex",
+   "titre": "Amazing",
+   "texte": "This actually worked for me on reducing the size, pain, and inflammation of my breakouts and the best part is it didnt leave me with the hyperpigmentation i usually get from breakouts! I used this in combination with the acne exfoliation toner. Make sure to press on the dot firmly to get the microneedles into the skin and dont play around with the dot because it can slide off if you have oily skin. Would reccomend using at night and leaving it alone.",
+   "date": "2024-12-29",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah",
+   "titre": "Great product for my skin",
+   "texte": "Calms deep painful blemishes and helps to bring them to the surface to heal. These are a must have on hand at all times especially since perimenopause has caused my skin to go into utter chaos!",
+   "date": "2025-06-29",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ri",
+   "titre": "Holy Grail Acne Product",
+   "texte": "I will keep buying these for the rest of my life! I used to purchase the ZitSticka ones that are way more expensive, but the cheaper version from Peaches are just as effective! The darts might be slightly shallower, bur the ZS ones damage my skin if I have to reapply. These work on my Type II rosacea acne spots as well as the occassional deeper pimple. I love these!!",
+   "date": "2024-03-15",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Pimbucha",
+   "titre": "Disappointing Results: Ineffective for Treating Deep Blemish",
+   "texte": "I had high expectations for this product to treat my deep blemishes, but unfortunately, I haven't noticed much improvement with my acne. The pads don't seem to absorb the liquid from the blemishes effectively, which is typically needed to help dry out the acne for quicker healing. For the price, I expected better results.",
+   "date": "2024-11-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

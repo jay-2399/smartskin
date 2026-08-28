@@ -1,0 +1,160 @@
+{
+ "ref": "mkt77005416",
+ "asin": null,
+ "pid": "mkt77005416",
+ "source": "ulta",
+ "nom": "Ursa Major Green Slate Mineral Polish",
+ "note": 4.85,
+ "nbAvis": 265,
+ "lus": 79,
+ "collectes": 103,
+ "segments": {
+  "oily": "One reviewer with oily/combination skin says the polish does the job and leaves skin refreshed without irritation, and another with formerly oily skin wishes she'd had it back then.",
+  "dry": "Reviewers with dry skin report it sloughs off winter dry patches and leaves skin smooth without feeling parched, though one describes it as a little drying for her current skin and another finds it slightly dry going on before water is added.",
+  "combination": "Reviewers with combination skin (including one who calls her skin sensitive/combination) report it soothes difficult skin and works well without irritation.",
+  "sensitive": "Multiple reviewers describe their skin as sensitive or very sensitive and report no irritation, redness, or peeling, with pores unclogging gently over repeated use.",
+  "mature": "Reviewers who mention being middle-aged or older report smoother skin, reduced fine lines, a more youthful look, and in one case clearer skin after stopping Retin-A."
+ },
+ "concerns": {
+  "aging": "Reviewers report smoothed fine lines, added luster, and a more youthful appearance with regular use; one reviewer using it under two weeks says it is too early to judge effects on wrinkles.",
+  "dehydration": "Most reviewers say the polish leaves skin hydrated, soft, and not stripped, even calling it non-drying; a few dissent, describing it as somewhat drying or slightly dry going on before adding water.",
+  "redness": "Reviewers report no redness or irritation after use, including one using it on a poison oak/ivy rash who saw swelling and itch subside.",
+  "barrier": "Reviewers report gentle unclogging of long-clogged pores without peeling or irritation, and use over facial oil without disrupting their routine.",
+  "spots": "One reviewer with clogged pores and blackheads reports improvement on her nose and cheeks; another says it reduced blackheads.",
+  "blemishes": "Reviewers report fewer breakouts and clearer skin with regular use, including one who stopped Retin-A and saw clearer skin than in a long time; no reviewer reports new breakouts from the product.",
+  "oiliness": "Only a single reviewer with oily/combination skin comments, saying it leaves her skin refreshed rather than oily; no other oily-skin feedback is given."
+ },
+ "aspects": [
+  {
+   "libelle": "Fine, gentle exfoliating grain",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant earthy or woodsy scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin feels soft and glowing after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Jar or tub packaging hard to open wet",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "New packaging design disliked",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Underfilled jar on arrival",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting due to small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Kathy D",
+   "titre": "Dermabrasion",
+   "texte": "Jury is still out..... only using this 2x / week.... it is a very rough fine granular polish.... using it gingerly as not sure if it will irritate my skin. I normally use nothing with a scent or at least something very light. So if it will help with roughing up all those dead skin cells and grime that gets on your face.... it will be great! Just haven't used it long enough to see results on my wrinkles or fine lines.",
+   "date": "2024-11-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Rebecca C",
+   "titre": "Lovely",
+   "texte": "I keep imagining I still have combo young skin with acne. But I am 55 and no longer have that skin. That being said, this is a little drying for me. If I were younger, it would be my go to weekly. I think I can use this bi-weekly for some deep cleaning. It is awesome stuff though.",
+   "date": "2024-11-21",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah Y",
+   "titre": "Been looking for this a while",
+   "texte": "I have sensitive skin, and the acids recommended by estheticians tend to be more irritating than helpful. This stuff is the bomb. The texture is superfine, so you could really over-do using it. But with a tiny amount and gentle motions, my skin is letting go of long-clogged pores without peeling, redness or irritation. Every third day seems to be the rhythm for me, and because a little goes a very long way, this will last me a while.",
+   "date": "2025-09-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erin S",
+   "titre": "Delightfully Invigorating",
+   "texte": "After trying this new product for a few weeks now it's really lovely! It truly feels like a polish and has a light earthy fragrance that is soothing. For my skin which is more oily/ combination, this polish is doing the job and leaving it feeling refreshed, not irritated. A mini spa treatment in a jar- highly recommend!",
+   "date": "2024-12-23",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jessica S",
+   "titre": "My best skin",
+   "texte": "My middle aged skin was breaking out even with using retin a. Since starting the mineral polish and other ursa products, I have stopped retin a and my skin is clearer than it's been in a very long time. I'm so happy I found your products! Thank you!",
+   "date": "2024-12-09",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Susan C",
+   "titre": "Perfect for my sensitive skin",
+   "texte": "I have very sensitive skin and this stuff is amazing. I use it every other day. Typically I wash my face with oil only. On the days when I use the Green Slate Polish I use it over the oil I wash with. This works wonderfully in this way.",
+   "date": "2025-08-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Martha F",
+   "titre": "Smoother and cleaner",
+   "texte": "This gentle exfoliating wash has been amazing, it has helped smooth my sensitive skin and also reduce blackheads.",
+   "date": "2025-09-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

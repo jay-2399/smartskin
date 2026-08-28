@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2021204",
+ "asin": null,
+ "pid": "pimprod2021204",
+ "source": "ulta",
+ "nom": "Peter Thomas Roth Water Drench Hyaluronic Glow Serum",
+ "note": 4.14,
+ "nbAvis": 64,
+ "lus": 60,
+ "collectes": 60,
+ "segments": {
+  "oily": "One reviewer with oily skin reports the serum gives a hydrated glow without looking greasy, noting she has to be careful with dewy products but this one works.",
+  "dry": "Multiple reviewers describe naturally dry skin becoming hydrated, soft and less flaky, though a few with dry skin report the opposite, saying their face felt dry after use or that it did not hydrate as promised.",
+  "combination": "Two reviewers with combination skin call it a good fit for daily use, with one also using it to manage hormonal breakouts around the mouth and cheeks.",
+  "sensitive": "One reviewer had a severe allergic reaction (burning, red bumps, spreading itch) after a patch test, and another with sensitive skin flags a strong scent as an added risk for allergy-prone users.",
+  "mature": "Reviewers who mention aging or mature skin generally report a subtle glow, plumping, and reduced fine lines, though one 43-year-old with mature dry skin found the hydration wore off within about two hours."
+ },
+ "concerns": {
+  "aging": "Several reviewers over 40 (including one at 74) report fewer visible fine lines and a plumper, younger-looking complexion after regular use; one mature reviewer found the glow and plumping effect faded within about two hours.",
+  "dehydration": "Most reviewers describe strong, lasting hydration and a soft, dewy feel, but a handful report no real hydration improvement or even drier skin afterward, including after two weeks of use.",
+  "redness": "One reviewer with rosacea reports no irritation even when layering with vitamin C, and another notes the serum helps with redness; one reviewer had a severe allergic skin reaction with red bumps and spreading itch.",
+  "barrier": "One reviewer with eczema-related dryness and redness reports the serum left a sticky feel without achieving the deep hydration or dewy finish she wanted; another used it successfully on over-exfoliated, healing skin around the nose.",
+  "blemishes": "One reviewer managing menopausal hormonal breakouts reports fewer small breakouts around the mouth and cheeks and reduced pore size after adding salicylic products alongside this serum.",
+  "oiliness": "One reviewer with oily skin reports the serum gives glow without greasiness or shine; another separately notes it leaves no greasy or oily residue."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong or unpleasant scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption, non-greasy finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Silky, smooth texture on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to alternatives",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting with small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Suspected expired or off-batch bottles",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky residue on some skin",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Tina",
+   "titre": "WARNING",
+   "texte": "I put just a DAB of this on my left hand at Ulta and within 30 seconds my hand started burning, I went to the bathroom and washed it off after about a minute of it burning, 5 minutes later there were red bumps on my hand, 10 minutes after that my left arm started itching, then my neck and chest then my right arm and then my abdomen. I have only ever had a reaction like this once to a topical product. If you have sensitive skin or food allergies please be careful with this product!",
+   "date": "2023-09-15",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Boleyn",
+   "titre": "So-so",
+   "texte": "This serum is glorious for about 2 hours. I am 43, fine lines, dry thyroid skin, in dry Colorado climate. Upon application after my other serums (tranaximic acid & peptides (naturium) I applied this. It played very well with all my prior applied active ingredients and gave a beautiful glow - NOT sparkly, not pearly, not glittery, not dripping with grease. A subtle, dampish glow appropriate for mature skin. No fragrance, and not sticky. Quite a nice plumping effect. However it had evaporated witin 2 hours. It will work fabulously for younger or oilier skined folks.",
+   "date": "2024-08-02",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Staci1986",
+   "titre": "Not seeing dewey pfinish",
+   "texte": "I purchased this because I have severe eczema that leaves my face severely dry and red. I wanted a deep hydration and love the dewey look. I decided to purchase this even though it was quite pricey. I used three pumps and applied a generous amount all over my clean face. I noticed afterwards it tends to leave a bit of sticky feeling. Ten minutes later my face felt soft but it didn't leave any sort of a dewey finish. Nor did it 'immensely hydrate' either. I suppose I'll use it for a makeup primer",
+   "date": "2021-10-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Ninatrainer",
+   "titre": "Struggling with Menopause problem skin",
+   "texte": "I'm still sorting out the best places on my face to use it, as I have combination skin. I have recently started using your salicylic pads and the 2% salicylic wash, twice daily. I am certainty seeing a great improvement in lowering the number of small breakouts around my mouth and on my cheek bones. I also can see that the pores on my nose are shrinking back to normal as well. Menopause has been hell on my skin! I never had skin troubles as a child, or teenager. So, managing this new and different skin care routine, is quite challenging to me. I am very grateful that PTR's products have been so helpful to me! I am sure that once I get my hormonal blemishes under control, there will be other PTR products I will use with as much success!",
+   "date": "2021-02-24",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Pewter68",
+   "titre": "Very Nice and Hydrating",
+   "texte": "I wanted a hydrating serum that also exfoliated a bit, but wouldn't be too much for my rosacea to handle. This product has lactic acid, and it has never once irritated my skin. I even create a cocktail of vitamin C serum plus this one, mix them together in my hands, and spread them on my face. This is an excellent serum and I'll repurchase for sure.",
+   "date": "2021-03-22",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nikki",
+   "titre": "Love this!!",
+   "texte": "Not only do i use this on my face daily, i use it on my hands as well and the results are amazing! I struggle with very dry skin and this has been the game changer ive been looking for! No it doesn't smell great and yea its expensive but with the results im getting, im a customer for life!",
+   "date": "2023-11-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Olivia V",
+   "titre": "Must have!",
+   "texte": "This gives your skin a nice glow. I love it. I have oily skin so I have to be careful what glowy or dewy stuff I put on it because it can looks greasy, but not with this. It makes my skin looks so hydrated and gives it a nice glow.",
+   "date": "2021-05-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

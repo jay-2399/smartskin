@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2049016",
+ "asin": null,
+ "pid": "pimprod2049016",
+ "source": "ulta",
+ "nom": "Avène Vitamin Activ Cg Radiance Intensive Cream",
+ "note": 4.56,
+ "nbAvis": 374,
+ "lus": 80,
+ "collectes": 105,
+ "segments": {
+  "dry": "Reviewers with dry skin report the cream as rich, hydrating, and well suited to winter or drier conditions, with soft, plumped, glowing results.",
+  "sensitive": "Sensitive-skin reviewers mostly report the cream applied smoothly without irritation or damage, though one reviewer with reactive skin experienced burning and another had redness on retesting.",
+  "combination": "One reviewer with sensitive combination skin reports a smooth, non-greasy application and a glass-skin finish, and another notes it balanced dry and oily areas of the face.",
+  "mature": "One reviewer recommends the cream especially for more mature facial skin, reporting plumper, happier-looking skin."
+ },
+ "concerns": {
+  "aging": "Reviewers looking for anti-aging benefits report smoother, plumper skin and one reviewer felt she looked younger, but effects are described as gradual rather than dramatic.",
+  "dehydration": "Numerous reviewers report the cream leaves skin hydrated, plump, and soft, often citing it as effective for dry or winter-dried skin.",
+  "redness": "Most reviewers report no irritation or redness, but one reviewer experienced burning and another reported irritation and redness recurring on a second use.",
+  "barrier": "Reviewers describe the cream as gentle and non-irritating for daily use, with several noting it worked well alongside other routine steps without disrupting their skin.",
+  "spots": "One reviewer reports lightened dark spots with continued use; most other reviewers do not mention pigmentation specifically.",
+  "blemishes": "One reviewer reports the cream did not cause new breakouts; there is no other data on acne-prone skin in these reviews.",
+  "oiliness": "Reviewers frequently note the cream absorbs without a greasy residue, and one with combination skin says it helped balance oily and dry areas; one reviewer found it left a sticky or tacky feel."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich, thick texture",
+   "polarite": "pos",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Strong or cloying fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Absorbs quickly without greasy residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky or tacky finish",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Hard to blend in",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Refillable glass jar packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "pfrt",
+   "titre": "Burning Sensation",
+   "texte": "I never have odd reactions to skincare. This made me feel a strong burning sensation, just uncomfortable and weird, while it did nothing good for my facial skin.",
+   "date": "2025-02-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kari",
+   "titre": "Not for me",
+   "texte": "This product had a nice scent and smooth texture. But for me it wasn't great, it made my skin irritated and I tried it 2 days later again and same redness occurred. I will not be buying this product in the future",
+   "date": "2025-02-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Amourabelle",
+   "titre": "Great for sensitive skin",
+   "texte": "Love this product have been using it every morning for the last 6 months along with the gentle cleanser and thermal water spray. I top it off with the tinted sun screen. My skin is clear, smooth and radiant!",
+   "date": "2025-02-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Sheba",
+   "titre": "Multitasker",
+   "texte": "This cream feels very luxurious and rich. My dry skin loved the moisture and I looked 10 years younger from the glow.",
+   "date": "2025-02-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lydrose01",
+   "titre": "Great Skincare",
+   "texte": "I just added this to my skincare routine - I didn't use it in place or anything. This product left my skin feeling soft and glowy. It didn't look greasy or feel sticky. I have sensitive combination skin and this went on smooth and left me with a glass skin look. I 10/10 would recommend this product. I'm a big texture and smell person so I easily throw out products and tend to be pretty picky.",
+   "date": "2025-02-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth",
+   "titre": "It keeps my skin radiant and soft",
+   "texte": "I have very dry skin, so my dermatologist recommend this cream for my daily routine. I love how healthier my skin looks, it' feels hydrated and glowy",
+   "date": "2025-06-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Beautifully_P",
+   "titre": "Radiant delight!!",
+   "texte": "I loved this cream!! The ingredients, the texture and how well my skin absorbed this beautifully crafted cream!! My dark spots on my face have lightened and my skin is glowing and so plump and hydrated! I ran out and bought this immediately!! I have told everyone I know about this wonderful product! Thank you ðŸ–¤",
+   "date": "2025-02-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

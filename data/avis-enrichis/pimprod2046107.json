@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2046107",
+ "asin": null,
+ "pid": "pimprod2046107",
+ "source": "ulta",
+ "nom": "Clarins UV Plus Anti-Pollution Tinted Face Sunscreen SPF 50",
+ "note": 4.34,
+ "nbAvis": 1035,
+ "lus": 76,
+ "collectes": 109,
+ "segments": {
+  "dry": "Reviewers with dry or drier skin, including one in Florida, report it protects and adds glow without emphasizing dryness, though one dry, sensitive-skinned user calls the product vital for daily comfort.",
+  "sensitive": "Sensitive-skinned reviewers, including one self-described redhead and one who is very sun-sensitive, repeatedly single out this product as the only sunscreen that doesn't sting their eyes or irritate their skin, though others with sensitive skin report a new fragrance causing sneezing, dizziness or a rash.",
+  "combination": "One reviewer with combination skin reports over ten years of use with no breakouts.",
+  "mature": "Reviewers who describe their skin as mature or in their 50s-60s report it gives glow and light coverage without settling into fine lines or wrinkles, while one 2-star review says the fragrance version settled into her lines and aged her look.",
+  "oily": "One reviewer notes it is not ideal for very oily skin, while others say it controls shine and leaves no oily feel."
+ },
+ "concerns": {
+  "aging": "Most mature or older reviewers say it does not enhance wrinkles and gives a glow appropriate for 50+ skin; one dissenting reviewer says the newer, fragranced formula settled into her lines and made her look older.",
+  "dehydration": "Reviewers with dry skin describe it as hydrating, non-drying and leaving skin soft and moisturized.",
+  "redness": "Several reviewers, including ones describing red cheeks or general redness, say it does not irritate or burn the skin; no reviewer reports increased redness.",
+  "barrier": "Some longtime users report no irritation for years, but a subset describe a recent reaction, rash, or eye irritation they attribute to a reformulation.",
+  "spots": "Long-term users report fading dark spots and reduced visible sun damage or freckling; no negative reports on spots specifically.",
+  "blemishes": "Two reviewers with otherwise positive experience report the product clogged pores and caused breakouts; one long-term combination-skin user reports no breakouts at all.",
+  "oiliness": "Several reviewers say it controls oily-feeling skin and leaves no greasy residue, though one notes it is not ideal for very oily skin types."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, foundation-like finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Recent formula has strong fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Causes pilling under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Shade runs orange or leaves white cast",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting all-day wear",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value given multi-use as sunscreen/foundation",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Zumzum",
+   "titre": "Caused breakouts, would be 5 stars otherwise",
+   "texte": "I loved the feel when applying and the look this had on my skin. The color was such a great match. Unfortunately it clogged my pores and caused breakouts. I was disappointed as otherwise this would be a 5 star product for me.",
+   "date": "2026-04-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Murphy",
+   "titre": "fragrance is a real problem",
+   "texte": "I have been using this product for years on a daily basis and have loved everything about it. It has even faded dark spots on my face so that they don't exist anymore. I just opened and used a new bottle this morning, and there is a fragrance that is making me sneeze. I see where another reviewer made a similar comment about the fragrance. I have never had a fragrance problem with any Clarins face products, so this is a huge disappointment. I may, sadly, have to find a new face sunblock.",
+   "date": "2025-11-04",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joom",
+   "titre": "my best facial sunscreen ever",
+   "texte": "This is my all time facial sunscreen and it's the best for my very sensitive skin.I love the products very much.",
+   "date": "2026-04-23",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "AnnElizabeth",
+   "titre": "Wonderful return of product😁",
+   "texte": "I love love love this product they discontinued it and I guess there were enough for one request so they've got it back it is the most wonderful tinted moisturizer in the world better than foundation stays on all day does not sit in your pores it goes on like silk it is wonderful if you question it just buy it and you will not regret it it does not make my skin right now I'm redhead and very sensitive skin the only sunscreen I can put on that does not bother my skin it is perfect and it doesn't burn I'm so happy It's back",
+   "date": "2026-04-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ME 1959",
+   "titre": "Best Face Sunscreen",
+   "texte": "Keeps my face ftom burning. No more freckles from the sun. And, does not cause break out for my combo skin. I've been using this product fir over 10 years & would recommend you give it a try. It is not waterprooof & does require reapplying after sweating ir swimming. Still the best face sunscreem that I have used.",
+   "date": "2026-08-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa28",
+   "titre": "Essential",
+   "texte": "I have worn this product for years. It's amazing for color correction. Just adds a hint of looking put together without overly made up. Obviously love the SPF 50 which is hard to find. I will say it's not great if you have super oily skin.",
+   "date": "2026-01-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Karen Victoria",
+   "titre": "Essential; smooth finish",
+   "texte": "I love this Clarins sunscreen. Long-time Claims client; have been using product for many years. My skin is extremely dry and sensitive----product is vital.",
+   "date": "2026-03-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

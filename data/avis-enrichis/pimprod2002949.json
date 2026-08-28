@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2002949",
+ "asin": null,
+ "pid": "pimprod2002949",
+ "source": "ulta",
+ "nom": "Kiehl's Since 1851 Facial Fuel Energizing Scrub for Men",
+ "note": 4.71,
+ "nbAvis": 136,
+ "lus": 81,
+ "collectes": 114,
+ "segments": {
+  "oily": "Reviewers with oily or oily/combination skin report the scrub keeps shine and oil at bay through much of the day without over-drying, and one says it stopped chronic shine after switching to it.",
+  "dry": "One reviewer with combination skin that turns extra dry in winter says it removes stubborn dry patches and leaves skin smooth without stripping it, though a couple of others note it can leave the face feeling a bit dry after use.",
+  "combination": "Combination-skin reviewers describe it as balancing, clarifying, and effective at reducing breakouts and enlarged pores.",
+  "sensitive": "Reviewers with sensitive skin report it does not irritate their skin and helps prevent shaving bumps and razor irritation, though one reviewer with unspecified skin says it irritated her skin and worsened sunburn.",
+  "mature": "One long-term user credits the scrub with keeping skin looking youthful and reducing visible wrinkles compared to peers."
+ },
+ "concerns": {
+  "aging": "A couple of reviewers link regular use to fewer visible wrinkles and a more youthful, refreshed look over long-term use.",
+  "dehydration": "Most reviewers say it does not dry out their skin and can be used daily or near-daily without tightness, but a few mention it can leave the face slightly dry afterward, and one reviewer with sensitive skin reports increased irritation and sunburn susceptibility.",
+  "redness": "Reviewers with sensitive or shave-irritated skin report it calms rather than aggravates redness and reduces shaving-related bumps, with no dissent noted.",
+  "barrier": "No reviewers explicitly discuss barrier issues beyond general dryness/irritation comments already captured under dehydration.",
+  "spots": "Several reviewers report fewer ingrown hairs and shaving bumps with regular use, with no dissenting reports on this specific outcome.",
+  "blemishes": "Multiple reviewers with acne-prone skin report the scrub cleared or significantly reduced breakouts and blackheads over weeks to months, though one reviewer describes the newer formula as too creamy and less like a scrub, implying reduced exfoliating effect.",
+  "oiliness": "Oily-skin reviewers consistently report reduced shine and balanced oil through the day; no reviews contradict this for oily skin specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Reformulation changed texture and scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Gritty exfoliating texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, energizing menthol sensation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting tube, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging damaged in shipping",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube dispenses too little product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant scent not overpowering",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Unhappy12",
+   "titre": "Will not purchase again",
+   "texte": "This irritated my skin and after I use and go out in the sun (even with SPF 50) my face gets sunburned and more irritated.",
+   "date": "2023-03-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lexianna",
+   "titre": "Love this scrub!",
+   "texte": "Bought this for my husband for Xmas a few years ago and ended up trying it myself. We both adore it- it's great for his oily skin and preventing ingrown hairs from shaving, great at balancing my combination skin. It contains no propylene glycol, which is a huge plus in my book (ladies' products contain this ingredient, which is a skin irritant that causes me to have bouts of dermatitis and, with repeated use of offending products, hives....not fun at all!). Since I started using this, my skin has been clear and smooth.... I get compliments all the time. Love the cooling effect too... definitely a \"male marketed\" product, but honestly... If you share this with the ladies in your life, I bet they'll eventually add it to their daily routines as well after seeing the results. Awesome for everyone! Hope this product, as currently formulated, remains on the market indefinitely. It's a WINNER!",
+   "date": "2016-11-14",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "dxj5069",
+   "titre": "Great Value for Oily/Combo Skin",
+   "texte": "This is the best scrub I've used in a long time, mostly because you don't need to moisturize your face afterward. I have really oily/combo skin, and this really keeps oil at a minimum for the majority of the day. My day usually begins at 8am and I don't get done with everything until around 8-10pm. I'd say this face wash keeps the oils balanced up until around 7pm. It lasts that long! I've also noticed my skin tone improving and no acne present. I know the labels say to use this very minimally, but I use this every morning and I'm good to go. This is so-far my favorite scrub ever. A little bit on the pricier side, but so worth it for me and my skin.",
+   "date": "2014-12-16",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "GMB1970",
+   "titre": "AMAZING PRODUCT!!! A \"MUST HAVE\" FOR GUYS WITH SENSITIVE ...",
+   "texte": "I'm in my 40s and have very sensitive skin. I hate to shave, and my face hates it even more! For all of my life, I've always gotten little white shaving bumps on my face, usually within about 24 hours of shaving. And for all my life, I've been in search of the \"perfect\" pre-shave, shaving cream/lotion, and razor. And FINALLY I found the most amazing pre-shave product on the market... Kiehl's Facial Fuel Energizing Scrub Skin Buffer for Men!!! Now that I'm using this scrub right before shaving, I pretty much never get any shaving bumps, and it really helps me get a closer and more comfortable shave. This product is truly amazing, and definitely worth every penny!!!",
+   "date": "2014-05-25",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Weinbagel",
+   "titre": "This scrub saved my face",
+   "texte": "Not just for men!! I have suffered from acne for most of my life, and have tried all different types of products and treatments and nothing seemed to work permanently. Then I discovered Kiehl's. I started using this scrub about six months ago, and it has cleared up my acne completely. I am truly grateful for this product.",
+   "date": "2016-05-05",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "tc",
+   "titre": "get it!",
+   "texte": "I've been using this for a couple years now, except a couple months when it was out of stock and let me tell you, that sucked. I'd say I have combination skin but exta dry in the winter. This product works better than any other face wash or scrub I've used. It takes and the tough/stubborn dry skin off leaving my face looking and feeling smooth, refreshed, and pores smaller. I hope the price stays the same and it stays in stock, this will continue to be my only face scrub I buy.",
+   "date": "2022-06-15",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "PablitoJose",
+   "titre": "If it isn't broke, don't fix it.",
+   "texte": "For some reason, Kiehl's decided to turn this into a more creamy product with a completely different scent. It is now barely a scrub.",
+   "date": "2020-12-25",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

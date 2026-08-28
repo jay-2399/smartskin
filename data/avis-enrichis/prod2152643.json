@@ -1,0 +1,170 @@
+{
+ "ref": "prod2152643",
+ "asin": null,
+ "pid": "prod2152643",
+ "source": "ulta",
+ "nom": "Dermalogica Skin Resurfacing Cleanser",
+ "note": 4.62,
+ "nbAvis": 999,
+ "lus": 74,
+ "collectes": 79,
+ "segments": {
+  "oily": "One reviewer with combination skin suggested this product might suit oily skin better, but no reviewer who self-identifies as oily reports directly on results.",
+  "dry": "Reviewers with dry or drier skin report mixed results: some describe severe dryness, hives, or dried-out skin and lips, while others on the drier side say it leaves skin smooth without stripping or drying.",
+  "combination": "Reviewers with combination skin report the cleanser dries their face out quickly, though one describes it as gentle and effective on aging combination skin with more even tone over time.",
+  "sensitive": "Sensitive-skin reviewers are split: several report burning, rash, hives, or increased sensitivity, while others say they experience no irritation and find it the lightest, gentlest formula they've used.",
+  "normal": "No reviewer explicitly identifies as having normal skin.",
+  "mature": "Reviewers in their 50s–60s and those describing 'mature' or 'aging' skin report smoother texture, reduced fine lines, brightening, and long-term satisfaction over years of use."
+ },
+ "concerns": {
+  "aging": "Several reviewers report reduced fine lines, tighter-feeling skin, and a brighter, more youthful look with continued use; one links it to fewer visits needed for facials.",
+  "dehydration": "Reports conflict sharply: multiple reviewers describe severe dryness, tightness, or dried-out skin and lips, while many others say it cleans without stripping and leaves skin hydrated, especially in winter.",
+  "redness": "One reviewer reports the cleanser helped reduce redness, while others describe new redness, splotchy rash, or burning reactions localized to jawline and eyes.",
+  "barrier": "A few reviewers describe reactions consistent with barrier disruption — hives, burning, and rash on retry — while long-term users report the opposite, saying skin feels 'not stripped' and prepped well for serum and moisturizer.",
+  "spots": "Reviewers report lightened scars and dark spots and reduced congestion; one reviewer notes no visible lightening yet after a short period of use.",
+  "blemishes": "Some reviewers say the cleanser cleared acne, milia, and underlying congestion after weeks of use; one reviewer developed new scarring on one side of the face after daily use.",
+  "oiliness": "Reviewers mention enlarged pores appearing minimized and pores shrinking with use, though this is reported by only a couple of users and not framed as a broader oil-control effect."
+ },
+ "aspects": [
+  {
+   "libelle": "Creamy, smooth texture on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin smooth and polished",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling or stinging sensation on use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Burning or rash reaction on reapplication",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "High price justified by longevity of product",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, light scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cannot remove eye makeup effectively",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Carressa",
+   "titre": "I wanted to love it",
+   "texte": "Used this face cleanser for 4 days and my face, neck, and lips are dried out. My skin is literally drinking up my cerave healing ointment. I have hives all over my face and neck. I'm in my mid 30s and wanted to get a kick start on an anti aging regime. I don't typically have dry or sensitive skin so be careful.",
+   "date": "2024-07-28",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "normal",
+   "sujets": [
+    "dehydration",
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Jessica",
+   "titre": "Not for Sensitive Skin",
+   "texte": "I'm a long-time dermalogica user who has tried dozens of products recommended by an esthetician. I'm 29 years old with redness, dehydration, oiliness, enlarged pores, and bumpy texture. I was at a different store than usual and had this product recommended to me by an esthetician who hasn't treated my skin before. I used this product once and ended up with a splotchy red rash along my jawline and eyes. I thought it had to be something else, so I waited for two weeks until it cleared up and tried again. Sure enough the rash came back. I still love dermalogica, but this product just isn't for me. p.s. don't forget as long as the product is at least half full and within 60 days of purchase, you can return or exchange it if you bought it at Ulta!",
+   "date": "2023-06-23",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "GoldenGlow",
+   "titre": "Sensitive Mature skin here",
+   "texte": "I have very sensitive skin, and this is the lightest formula for this type of cleanser. My skin felt amazing, but after one wash I had a horrible burn reaction. Tried it again a month later, sadly the same effect. So, be careful with washes like this. All depends on your beginning thpe.",
+   "date": "2024-06-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Catqueen",
+   "titre": "drys out skin",
+   "texte": "I have combination skin and this drys my face out a lot, even after just 1 use. I would only recommend to someone with very oily skin.",
+   "date": "2023-02-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MNCustomer",
+   "titre": "My go-to for over 10 years!",
+   "texte": "I'm 60 years old and have used thus cleanser for more than a decade. I have somewhat sensitive skin. This cleanser is pricey but goes a long way. I only use it at night. My skin is clean, not stripped, and prepped for serum and moisturizer before bed. I look much younger than my age and feel this cleanser has helped me keep my skin that way!",
+   "date": "2025-12-03",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ronnie",
+   "titre": "My go to cleanser",
+   "texte": "This is a great cleanser. The lactic acid works well without being too harsh on my sensitive skin.",
+   "date": "2023-09-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ASV",
+   "titre": "Clears stubborn acne",
+   "texte": "I've been struggling for acne for about a year or two and everything I tried didn't work. This cleanser was recommended to my by a friend and I had this for about two weeks and it has cleared up my skin!!!!! I truly recommend this for people that have tried everything and couldn't find anything that's work for now.",
+   "date": "2023-06-24",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

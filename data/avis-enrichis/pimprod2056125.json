@@ -1,0 +1,160 @@
+{
+ "ref": "pimprod2056125",
+ "asin": null,
+ "pid": "pimprod2056125",
+ "source": "ulta",
+ "nom": "Avène Hydrance Aqua-Gel",
+ "note": 2,
+ "nbAvis": 9,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {
+  "dry": "Reviewers with dry or eczema-prone skin report the reformulated version is less hydrating, watered down, and leaves skin flaky and irritated compared to the original.",
+  "sensitive": "Sensitive-skin reviewers, including those with eczema, describe the new fragrance as bothersome or eye-tearing and say the new formula burns or irritates where the old one did not."
+ },
+ "concerns": {
+  "dehydration": "Multiple reviewers say the reformulated gel no longer hydrates as well as the original, describing skin as less soft and the texture as runny or watered down; one reviewer with acne-prone skin still finds it keeps her face hydrated.",
+  "redness": "One reviewer with sensitive, dry, eczema-prone skin reports the new formula burns and leaves skin irritated, which did not happen with the earlier version.",
+  "barrier": "A reviewer with eczema and sensitive dry skin reports increased irritation and flakiness since the reformulation, suggesting reduced tolerance compared to the previous version."
+ },
+ "aspects": [
+  {
+   "libelle": "Added fragrance in new formula",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Reformulation seen as worse than original",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thinner, runnier texture than before",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Hydration performance",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Effective for acne-prone skin hydration",
+   "polarite": "pos",
+   "concerne": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Easy retail return experience",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Sensitivegirlie19",
+   "titre": "Changed the formula!!",
+   "texte": "They ruined the best moisturizer by changing the formula. I have super sensitive, dry, eczema skin. The old formula never burned the new one does and it makes my skin irritated and flaky now. Please change it back!",
+   "date": "2026-08-05",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Monica",
+   "titre": "The new formula is a fail.",
+   "texte": "I have been using this product for years due to my eczema and sensitive dry skin. The original formula had a soft pillowy texture and was more of a true gel like cream. This new formula is watered down, not as hydrating, too runny and does not have the same benefits. Avene if you actually care about your customers' feedback, go back to the original formulation.",
+   "date": "2026-08-09",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Dani",
+   "titre": "Bad reformulation!",
+   "texte": "The new formula is terrible!!! The previous version was a skin saver. There is no hydration, and a bad bad bad fragrance smell. This is not for sensitive skin. I asked the company about this on instagram and said they still sell the previous version but is not on their website. Please go back to older version because that was 5 stars!",
+   "date": "2026-03-08",
+   "verifie": false,
+   "utiles": 22,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Paularss",
+   "titre": "New formula sucks!",
+   "texte": "I used to love their previous formula. But this new one has a strong fragance and it bothers me a lot. Why would you want your product to smell stronger when most of Avenes products are for sensitive skins? Read your audience please.",
+   "date": "2026-02-28",
+   "verifie": false,
+   "utiles": 19,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kri",
+   "titre": "I don't like this new reformulation.",
+   "texte": "I was obsessed with the OLD hydrance aqua gel. This product doesn't hydrate the skin as much as the old product… BRING IT BACK! it was my holy grail…. my skin doesn't feel as soft and hydrating as it did before!!! No one asked for these changes, why did this happen?!?!",
+   "date": "2026-02-22",
+   "verifie": false,
+   "utiles": 21,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "M",
+   "titre": "Works very well",
+   "texte": "I have acne treatments and this product helps very well to maintain my face hydrated",
+   "date": "2026-08-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Eileen",
+   "titre": "Disappointed with new formula",
+   "texte": "Very disappointed with new formula. They added a fragrance that made my eyes tear. I loved the previous version and would buy frequently for myself and mother. The Ulta cashier accepted my return without an issue and provided a few recommendations.",
+   "date": "2026-03-29",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": "All nine reviews concern the same reformulation controversy, so the sample skews heavily negative and may not reflect the product's ongoing broader performance."
+}

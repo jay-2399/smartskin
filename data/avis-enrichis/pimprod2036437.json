@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2036437",
+ "asin": null,
+ "pid": "pimprod2036437",
+ "source": "ulta",
+ "nom": "Philosophy Microdelivery Exfoliating Daily Facial Wash",
+ "note": 4.69,
+ "nbAvis": 3247,
+ "lus": 81,
+ "collectes": 117,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are split: several report the microbeads are gentle enough for occasional or every-other-day use with no irritation, while others describe redness, flaking, or a stinging reaction and stopped using it daily or returned it.",
+  "dry": "Dry-skin reviewers consistently report the wash cleanses and exfoliates without stripping, tightness, or additional dryness, and several call it a long-term staple.",
+  "combination": "Combination-skin reviewers describe it as effective without stripping their skin, with one using it only a few times a week to avoid disturbing her skin barrier.",
+  "mature": "Reviewers in their 50s, 60s and 70s report using the product for years as part of a daily or nightly routine, describing smoother, brighter, more youthful-looking skin.",
+  "normal": "A reviewer describes her husband's skin as average with a few nose pores and no particular concerns, and reports the wash worked well for him."
+ },
+ "concerns": {
+  "aging": "Mature reviewers (50s–70s, some using it for 15-20 years) report their skin looks refreshed, smoother and more youthful; one credits it partly with helping fine lines.",
+  "dehydration": "Multiple reviewers with dry or sensitive skin report the wash does not dry out or tighten their skin and even leaves it feeling hydrated; no dissent found on this point.",
+  "redness": "Most reviewers report no increase in redness, including one with redness-prone sensitive skin who finds the microbeads gentle enough; however one sensitive-skin reviewer reports red, warm, irritated, flaky patches after a single use.",
+  "barrier": "One combination/oily reviewer deliberately limits use to three times a week specifically to avoid damaging her skin barrier, though she reports no irritation from the product itself.",
+  "spots": "One reviewer began using it for cystic acne on the chin and has continued for years; another reports it helps unclog pores and prevent breakouts, though this is described by only a couple of reviewers.",
+  "blemishes": "Several reviewers report no new breakouts, including one acne-prone reviewer who says it does not break her out; no reviewer reports the product causing breakouts.",
+  "oiliness": "One reviewer with combination-to-oily skin reports the wash cleanses well and leaves skin balanced rather than oily or tight, but this concern is addressed by very few reviewers."
+ },
+ "aspects": [
+  {
+   "libelle": "Fine gritty texture felt on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light citrus scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Faulty or broken pump on arrival",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Grit too rough or sticks to skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Perceived as overpriced",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting bottle, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Poor customer service for replacements",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Amy",
+   "titre": "Harsh and irritating",
+   "texte": "After one use, it left red, warm, irritated, flaky patches on my face that took three days to clear up. I do have somewhat sensitive skin, but I figured something intended for daily use would be gentle enough. I returned it.",
+   "date": "2025-09-16",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "kelseykc51c_4455",
+   "titre": "Great micro-exfolian for every day use!",
+   "texte": "This is a really good exfoliator! With that said, my skin is very sensitive and maybe I rubbed a little too hard. Unfortunately, this product didn't work for me. HOWEVER, my daughter used it and loved it! It made her skin glow. It doesn't really have much of a scent, which is helpful for those avoiding strong fragrances. It has tons little micro crystals to really help unclog pores and wash away dead skin.",
+   "date": "2025-07-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Barb",
+   "titre": "Best Exfoliating Scrub",
+   "texte": "Generally speaking, I stay away from face scrubs preferring a liquid BHA exfoliating solution instead, but sometimes I just want a good facial scrub I can \"feel.\" The Philosophy Exfoliating Daily Facial Wash exceeds all expectations. Most scrubs are too harsh on my sensitive skin (prone to redness), but Philosophy's microbeads are tiny and soft enough to deliver a gentle but effective facial scrub. I recommend using a washcloth or something to maximize the cleanser part of it, but using your hand is ok too. I keep this in the shower so now my husband loves using it too so it is good for both of our different skin types.",
+   "date": "2026-06-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Regina",
+   "titre": "Staple in my regimen",
+   "texte": "I started using this due to cystic acne on my chin years ago and have used it ever since. I use it every third or fourth day on my face, neck and the backs of my hands. I even take it on vacation. I always have a bottle in the shower and a new one ready for when I run out.",
+   "date": "2025-09-13",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dawn R",
+   "titre": "New favorite item",
+   "texte": "I have very dry skin, and it's often sensitive to new products. Microdelivery cleans & exfoliates without drying my skin. I love the scent too!",
+   "date": "2026-02-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "heleninnyc_7771",
+   "titre": "Radiant skin in one wash",
+   "texte": "I was surprised by the viscosity but glad it spreads effortlessly. Fragrance-free but still has a refreshing citrus scent from natural ingredients. The fine grains gently exfoliates and smooths away uneven texture. Lathers well. Does an excellent job cleansing my combination, towards oily, skin. Rinses off easily. My face didn't feel tight or taut after. Rather it's soft, smooth and hydrated. Appearance is brighter and more healthy-looking. While it didn't irritate, I plan to use this 3 times a week and not daily because I don't want to risk damaging my skin barrier. Pump is convenient to dispense cleanser. Worth the above average price.",
+   "date": "2025-07-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "lovin retirement",
+   "titre": "Youthful skin at age 73",
+   "texte": "I have used this product every morning for over 15 years, probably closer to 20 years! At age 73, my skin looks refreshed and youthful!",
+   "date": "2026-04-28",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

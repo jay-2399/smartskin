@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2037712",
+ "asin": null,
+ "pid": "pimprod2037712",
+ "source": "ulta",
+ "nom": "Drunk Elephant Bouncy Brightfacial Brightening Mask",
+ "note": 4.55,
+ "nbAvis": 726,
+ "lus": 74,
+ "collectes": 119,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone skin report improved oiliness and t-zone evening out, with one calling it a fit for an 'oily face prone to acne' (e.g. reviews 19, 33, 61).",
+  "dry": "A couple of reviewers with drier skin found it left their face matte, tight, or dried out rather than moisturized, though others with dry or aging skin reported it feeling hydrating and smoothing (e.g. reviews 3, 55).",
+  "sensitive": "Sensitive-skin reviewers are split: several say it caused no irritation or breakouts and even calmed redness, while others report it was sticky, drying, or not suited to their sensitive skin (e.g. reviews 2, 7, 20, 38, 68, 70).",
+  "combination": "One reviewer describes it evening out an oily t-zone as part of a combination-skin routine (review 19).",
+  "normal": "A reviewer identifying her skin as normal reports smoother texture and brighter skin within days (review 48).",
+  "mature": "Reviewers concerned with aging skin report visible smoothing of fine lines, firmer skin, and fading of an age spot over weeks (e.g. reviews 41, 42, 50, 73)."
+ },
+ "concerns": {
+  "aging": "Several reviewers report smoother skin, reduced fine lines, firmer texture, and one describes a large age spot nearly erased after two months; no dissent noted on this concern.",
+  "dehydration": "Most reviewers describe the product as lightweight and moisturizing with dewy results, but a few report it drying their skin completely matte or leaving it dry and dull.",
+  "redness": "The majority of reviewers with rosacea or general redness report significant calming of redness, pustules, and flare-ups; no negative reports on redness specifically, though a couple mention sensitivity or tightness after use.",
+  "barrier": "One reviewer highlights that it illuminates skin 'without peeling and destroying my skin barrier'; no dissent found.",
+  "spots": "Many reviewers report faded dark spots, hyperpigmentation, and post-inflammatory marks, often within weeks; a couple say they saw no fade in dark spots despite continued use.",
+  "blemishes": "Numerous reviewers with acne (including cystic and hormonal) report clearer skin and fewer breakouts, sometimes dramatically; however, some report new breakouts, worsened acne, or no improvement at all.",
+  "oiliness": "A small number of reviewers note the product helped balance an oily t-zone or left skin feeling non-greasy; no negative reports on oiliness specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Sticky, tacky texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strange or unpleasant smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible glow and brightness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Dries down completely matte",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Pairs well with other DE products",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Demi",
+   "titre": "Not for Sensitive Skin",
+   "texte": "I really wanted this product to work—it was sticky and dried out my skin. I dont apply too much product, but this wasn't good for my sensitive skin. I tried for over 2 months and dodnt really notice a difference. I won't repurchase.",
+   "date": "2024-03-28",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Akm1018",
+   "titre": "The secret to curing my acne and dark spots",
+   "texte": "I have struggled with hormonal acne since I was a teenager. I also always get hyper pigmentation after a pimple. I tried a few vitamin C serums for over two years, even the high end ones, but all would cause me to break out still after awhile. I tried this product since it was more of a cream and within two weeks i noticed a difference. I use slightly less than a pump every morning and my first bottle lasted about 7 months. Its expesnive so i waited a bit to buy another bottle and my acne came back after a bit. Once i re-bought this my skin was back to being clear and glowy. It really is a holy grail and worth the money. I have very oily skin so i think my trick is to use cream based products instead of serums.",
+   "date": "2024-10-18",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hannah",
+   "titre": "Will purchase again and again",
+   "texte": "I'm so impressed with this mask that I felt compelled to make a review. I use it over my skincare morning and night. My skin is very sensitive so I use almost exclusively Drunk Elephant for my skincare anyway. This was a game changer though!! I've never used anything like it and I don't have anything else in my skincare collection that does what this mask does. I use F-Balm religiously so this was a no brainer for me to get when it came out. My skin was instantly tighter (in a good way) and my redness looked clearer after just a few minutes. No breakouts since I started using this either! 10/10",
+   "date": "2023-03-08",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Liz Ard",
+   "titre": "Perfection",
+   "texte": "Why, oh whyyyy does this have to be so $$$?? Its sooo good. I cannot find a dupe that works as well as this to reduce the redness, reduce the occurrence of my acne rosacea pimples, and reduce my rosacea flare ups as quickly as this. Its the perfect combo of azelic and salicylic acids. I use it every night under a heavy cream moisturizer, I cannot quit. It is worth every penny of my hard-earned money for how well it illuminates my skin without peeling and destroying my skin barrier. I am confident with my skin for once in my 35 years.",
+   "date": "2024-12-31",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Reagan",
+   "titre": "Will be buying for as long as they make it",
+   "texte": "I have rosacea and cystic acne + blackheads & scarring. I've tried so many prescription products and never got great results. I read Azelaic acid helps and got this and it's amazing. Less redness, no cystic acne, less scars, and less blackheads!",
+   "date": "2023-04-02",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sabrina",
+   "titre": "I never write reviews (no, really)",
+   "texte": "I am a 32 year old first time mom. I've been neglecting my skin lately. My skin has been dry, broken out, and showing signs of aging. I wanted to give azelaic acid a try and found this product. Ive used it exactly as directed. This is truly THE FIRST PRODUCT in my life I can label \"holy grail\". My skin is so bright, clear, tighter, and smoother. I cleanse, moisturize, and apply 2 pumps every night. And its working! Will absolutely repurchase.",
+   "date": "2024-07-28",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "cass6994",
+   "titre": "Middle of the Line",
+   "texte": "I do love this brands products, but I did expect more from this product in comparison to its price. For being a mask it is quite thin when applying, but that's not necessarily a bad or a good thing. The mask seemed to sting a tiny tiny bit on my skin but I don't care about that because I used to have acne and I'm used to products like that. I expected a little more evening out of my skin and for it to make me glow just a bit more. It's pretty middle of the line with what it did for me. With that being said it wasn't a bad product by any means just wishing it had a bit more umpf.",
+   "date": "2023-04-27",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

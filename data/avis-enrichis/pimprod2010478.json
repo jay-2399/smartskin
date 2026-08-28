@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2010478",
+ "asin": null,
+ "pid": "pimprod2010478",
+ "source": "ulta",
+ "nom": "TULA ‘Spresso Energizing Eye Balm",
+ "note": 4.46,
+ "nbAvis": 5764,
+ "lus": 80,
+ "collectes": 122,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin report mixed outcomes, from itchy, warm, dry or pink patches under the eyes and burning sensations to one reviewer whose sensitive skin felt 'energized' with no irritation.",
+  "mature": "A 39-year-old reviewer found the shimmer unflattering for her under-eye area, while another around the same age said it made her aging, tired eyes feel soft and supple; one reviewer reports fine lines under her eyes disappearing after months of use."
+ },
+ "concerns": {
+  "aging": "Reviewers using this for aging concerns report brighter, more awake-looking eyes and one describes disappearance of fine lines/crow's feet after months; a 39-year-old reviewer felt the shimmer was not ideal for mature under-eyes.",
+  "dehydration": "Several reviewers say the balm feels hydrating with an instant visible difference and describe eyes as fresher and less tired; one reviewer notes concern it might be drying but reports no dryness so far, while another with sensitive skin developed a dry, pink patch under one eye.",
+  "redness": "One reviewer explicitly notes the product did not cause irritation or redness, but another with sensitive/eczema skin reports pink, dry, irritated skin developing under the eyes.",
+  "barrier": "One reviewer with eczema and very sensitive skin reports a compromised-feeling barrier with a dry, circular patch forming under one eye after about a week; no other barrier-specific reports appear.",
+  "spots": "No reviewers specifically discuss spots or acne-related dark marks in connection with this eye product.",
+  "blemishes": "One reviewer with sensitive/acne-prone skin reports small closed comedones forming under the eyes after several days of use, alongside burning; no other reviewer mentions breakouts.",
+  "oiliness": "Multiple reviewers describe the finish as non-greasy or non-oily despite the shimmer, with no reports of increased oiliness from any skin type."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or tingling irritation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Shimmer or glitter finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Shimmer unflattering or too visible",
+   "polarite": "neg",
+   "concerne": [
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Applicator stick too wide",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Effect described as short-lived",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Compact, convenient packaging",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Amy",
+   "titre": "Not for Sensitive Skin",
+   "texte": "After about a week of using this eye balm, the skin under my eyes got pink and dry. Under one eye, there was a circular, extra dry patch. I do have eczema and very sensitive skin, but I've never dry skin like this under my eyes before.",
+   "date": "2026-01-31",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Jordan",
+   "titre": "Not for Sensitive Skin or Acne-Prone Skin",
+   "texte": "[I received this product in exchange for my honest review] By the time this product arrived, there really wasn't enough time to test it thoroughly before the review was due, which I don't think is fair since skincare often takes weeks to show results. That said, I did give it a try, and unfortunately it just didn't work for me. After the first initial couple days of trying it out I liked how it applied smoothly and made my under-eyes look brighter and more awake. After that it went downhill. I started to feel a burning sensation under my eyes, which was uncomfortable and concerning. I also noticed these small closed comedones forming in the area, which I don't normally get. While the packaging and texture seemed nice, the irritation and breakouts outweighed any potential benefits. Sadly, I wouldn't recommend this product, especially for those with sensitive or acne-prone skin.",
+   "date": "2025-09-17",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Alexandra",
+   "titre": "Excited for this product, but irritates my skin",
+   "texte": "I do tend to have more sensitive skin. I was excited for a product like this from TULA -- I use a lot of their products. The product feels great after initial application. After a few hours, the skin around my eyes is itchy and warm to the touch.",
+   "date": "2025-11-08",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristen",
+   "titre": "Great product",
+   "texte": "[I received this product in exchange for my honest review] Makes my aging (39 year old), tired eyes feel more soft and supple. Packaging is convenient and smells good. Lightweight and gentle ingredients make my sensitive skin feel energized. Great product!",
+   "date": "2025-09-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Eva",
+   "titre": "I waited a few months bef",
+   "texte": "I waited a few months before I gave this product a review to make sure it was really effective. I am happy to say that I used to have fine lines under my eyes (what looked like crows feet) and those fine line are literally gone. I love every thing about this product and I highly recommend.",
+   "date": "2025-09-07",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Rob",
+   "titre": "Not a win for me",
+   "texte": "[I received this product in exchange for my honest review] This eye balm provides a cooling, highlighter-like shimmer to the under eyes. The stick glides really well. Being 39 years old, a shimmer isn't ideal for my under eye area, personally. The Cappuccino shade leans yellow on my pale white skin.",
+   "date": "2025-10-04",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Laura",
+   "titre": "This is the BEST",
+   "texte": "Love this stuff. So cooling and tightening and feels SO good all around my eyes. Hopefully, it won't be too drying but so far so good.",
+   "date": "2025-11-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

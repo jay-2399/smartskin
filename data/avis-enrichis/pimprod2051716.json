@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2051716",
+ "asin": null,
+ "pid": "pimprod2051716",
+ "source": "ulta",
+ "nom": "COSRX The Ceramide Skin Barrier Moisturizer For Sensitive Skin",
+ "note": 4.78,
+ "nbAvis": 105,
+ "lus": 80,
+ "collectes": 94,
+ "segments": {
+  "oily": "Oily-skin reviewers generally report the moisturizer absorbs without adding shine or excess oil, though a few say it feels oily or greasy if used during the day or in warm weather.",
+  "dry": "Dry-skin reviewers, including several with very dry or winter-dry skin, report strong relief from tightness, flaking and peeling, calling it rich but non-parching.",
+  "combination": "Combination-skin reviewers describe it as lightweight to slightly heavy depending on the area, generally hydrating around dry patches without over-oiling the T-zone, though one found it too greasy for daytime.",
+  "sensitive": "Sensitive-skin reviewers mostly report calming, non-irritating results and barrier repair (including for perioral dermatitis and rosacea), but a minority experienced redness, heat or burning on application.",
+  "mature": "One reviewer with aging, drier skin found it effective for dryness but experienced breakouts."
+ },
+ "concerns": {
+  "aging": "One reviewer specifically mentions aging skin becoming drier and more breakout-prone, finding the product moisturizing but not fully compatible with her pore concerns.",
+  "dehydration": "Numerous reviewers with dry or dehydrated skin report significant, lasting hydration and softness, including relief from tightness and winter dryness, with no dissent on this point.",
+  "redness": "Several reviewers report the product calmed redness, heat, or reactive/rosacea-prone skin; one reviewer had the opposite reaction, developing redness and heat after application during patch testing.",
+  "barrier": "Many reviewers credit this product with repairing a damaged or compromised skin barrier (from retinol, AHAs, or harsh cleansers), describing quick soothing and healing, with no negative reports on this specific point.",
+  "spots": "A few acne-prone reviewers report new breakouts or clogged pores after use, while others with similar acne-prone skin report no breakouts and even improvement.",
+  "blemishes": "Reports are mixed for acne-prone users: several say it did not worsen or even helped blemishes, while three describe new pimples or clogged pores, one citing several small spots by end of day.",
+  "oiliness": "Most reviewers, including oily-skin users, say it doesn't leave skin oily or greasy when used as directed (often at night), though a few describe visible oiliness or greasy residue, especially with daytime or heavy application."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich, thick texture",
+   "polarite": "pos",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Feels heavy or greasy",
+   "polarite": "neg",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Absorbs well, non-sticky finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value versus similar creams",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sits heavy under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Audrey",
+   "titre": "Greasy and sticky",
+   "texte": "I have sensitive combination skin and was excited to try this based on reviews. Unfortunately, I find it to be extremely greasy and it does not sink in or dry down hours after applying. My skin is left looking wet and feels sticky to the touch. Maybe this would work okay as a night cream but it is definitely too greasy for daytime use. I like other Cosrx products so this is disappointing.",
+   "date": "2026-03-09",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "August",
+   "titre": "Seemed great on paper but broke me out",
+   "texte": "I have combination acne prone skin and this moisturizer clogged my pores and worsened existing acne, such a bummer because it did feel nourishing on the skin",
+   "date": "2025-11-21",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Karl",
+   "titre": "Not for sensitive skin",
+   "texte": "I was so excited because I LOVE the texture of this. It comes out pretty thick but goes on thin. After a couple days of patch testing on my upper lip and chin, I started noticing my face turns red and hot right after I apply. I wish this worked for me!",
+   "date": "2026-02-17",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ani",
+   "titre": "A Staple for skin barrier health!",
+   "texte": "This moisturizer has been healing my sensitive acne prone skin with it's rich ceramide, cholesterol and fatty acid formula. I chose this over the Aestura cream because they're similar in purpose and it's been tested to be safe for all skin types especially sensitive, dry and acne prone. Also beats the Aestura in price. It has a lightweight body that still seals in hydration with it's light emollience from the dimethicone. You dont need more than a nickel size amount as it easily spreads. It's not greasy, it leaves a natural radiant finish and soothes the skin. I dont buy a product without doing at least some research and when i saw Kelly Driscoll on YouTube reviewing this, i had to try it and i Definitely recommend!",
+   "date": "2026-03-14",
+   "verifie": false,
+   "utiles": 24,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda",
+   "titre": "SAVED MY SKIN",
+   "texte": "I tried all the viral moisturizers and they all burned my skin, left it feeling red and hot! Finally this one came in to save the day. My redness finally calmed down and I look forward to putting on moisturizer every evening :) I'm so so so in love!!!!!!",
+   "date": "2025-07-04",
+   "verifie": true,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Faith",
+   "titre": "My skin has never been happier.",
+   "texte": "I'm in love! This is THE best moisturizer for me. I have really dry sensitive, acne prone, eczema skin. This stuff is amazing. I put it on at night an hour before bed and in the morning my skin is sooo soft, hydrated and happy. I genuinely like the thick consistency, it may be a bit greasy but my skin loves it! My only conplaint would be the price.",
+   "date": "2025-04-23",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "dry sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elaine W.",
+   "titre": "Light and non greasy moisturiser",
+   "texte": "What a lovely moisturiser. It's so lightweight and non greasy. A little goes a long way to. I've been using it for the past 3 weeks and it is helping to hydrate my skin. After using at night the next morning my skin feels so silky smooth without it creating excess oil. I have combination skin where the areas around my mouth and nose get dry. This cream is helping to soften and stop the dryness. It does not have fragrance added in it. Some of the key ingredients are: Hyaluronic acid Panthenol Squalane Ceramides It's dermatologically tested, hypoallergenic, pediatrician tested and non-comedogenic. I particularly like how light and non greasy this moisturiser is.",
+   "date": "2025-06-17",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

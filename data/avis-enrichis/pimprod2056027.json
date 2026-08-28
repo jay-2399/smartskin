@@ -1,0 +1,170 @@
+{
+ "ref": "pimprod2056027",
+ "asin": null,
+ "pid": "pimprod2056027",
+ "source": "ulta",
+ "nom": "Kopari Beauty Nourishing Hydro-Lipid Barrier Serum",
+ "note": 4.81,
+ "nbAvis": 320,
+ "lus": 81,
+ "collectes": 97,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone skin report the serum did not cause breakouts and left a dewy but non-greasy finish, though one oily/acne-skin reviewer noted a heavier dewy effect.",
+  "dry": "Reviewers with dry skin consistently report strong overnight and all-day hydration, less flaking, and relief during winter dryness, with several calling it a staple for dry skin.",
+  "combination": "One reviewer with sensitive, combination (oily T-zone) skin reports good hydration and no irritation, but says the serum makes makeup pill.",
+  "sensitive": "Reviewers with sensitive skin generally report no irritation or redness and describe the serum as calming, though one warns that the strong coconut scent could bother those sensitive to fragrance.",
+  "normal": "A reviewer with normal skin in a humid climate reports a lightweight sheen with no oiliness.",
+  "mature": "Reviewers describing mature or aging skin report smoother texture, reduced look of fine lines, and a more youthful appearance after use."
+ },
+ "concerns": {
+  "aging": "Several reviewers report smoother skin, softened fine lines, and a more youthful look, including one in her 40s and one describing herself as a mature 'Mama'; no reviewer reports the serum worsening signs of aging.",
+  "dehydration": "The large majority of reviewers report strong, lasting hydration and softer, plumper skin, including in winter and dry climates; this is the most consistently praised effect with no dissent.",
+  "redness": "Two reviewers specifically report reduced redness and calmer skin; no reviewer reports increased redness.",
+  "barrier": "Multiple reviewers, including one recovering from a chemical burn and one with eczema-damaged skin, report the serum helped repair or strengthen the skin barrier; no dissent on this point.",
+  "spots": "One reviewer reports no visible improvement in discoloration or dark spots, while another reports the serum helped with hyperpigmentation alongside barrier repair — mixed results.",
+  "blemishes": "Reviewers with acne-prone skin mostly report no new breakouts, but one reviewer found the finish greasy enough to leave residue on contact, which could be a concern for blemish-prone skin.",
+  "oiliness": "Most reviewers, including those with oily skin, report the serum feels lightweight and non-greasy, but a few describe a sticky, tacky, or overly dewy finish that did not absorb well."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast-absorbing lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky tacky residue that won't absorb",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong coconut-like fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Glowy dewy finish under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Interferes with makeup application",
+   "polarite": "neg",
+   "concerne": [
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Pump dispenser malfunctions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle for the price",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Bree",
+   "titre": "Huge excitement, even bigger disappointment",
+   "texte": "This product was the one in my purchase I had the most excited for. It slid over my skin and was beautiful the moment it was on. Then I quickly realized, it left a sticky sort of tacky feel as it never did actually soak into my skin. The entire evening, my face was a sticky trap for anything nearby. It was so bad I got up at 2am to wash it from my face. Such a let down. Another item in return status.",
+   "date": "2026-05-22",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Gaelle P",
+   "titre": "Moisturizing little gem",
+   "texte": "I purchased this serum and waited until I finished a whole bottle before I wrote a review. I have sensitive, combination skin (oily t-zone with other areas normal). It didn't irritate my skin. It is very moisturizing as my skin feels hydrated. I feel that my fine lines haven't gotten worse which is a plus. However, I think it makes my makeup pill. I find that my makeup isn't set even after using setting spray so I'm only going to use this at night. I purchased the Vitamin C serum to see if that will work better for the daytime.",
+   "date": "2026-02-19",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "shersj",
+   "titre": "hydrating",
+   "texte": "**I purchased this with my own money** I have dry skin so I am always on the hunt for products that support the barrier and hydrate, and this does both! This really is a great hydrating & repair serum. I do not have any irritation or redness from this, which is a huge plus for me, just smooth skin. I personally feel the difference in my skin when I remove my makeup and skincare at the end of the day and when I wake up. My skin feels baby-soft, so that indicates that it's working deeper in the skin, not just the surface. My only complaint is that it has a potent scent which smells like synthetic coconut water/milk. It's pretty strong, so those sensitive to fragrance may experience irritation. For me, for my dry skin, I love this serum!",
+   "date": "2026-03-29",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jona",
+   "titre": "Restored my skin barrier after a severe chemical burn",
+   "texte": "I had a terrible reaction to hydroquinone and my skin was practically peeled off. The put the serum as serum on at night and mixed it in with my moisturizer in the morning. This practically saved my skin barrier all by itself. To note: I have oily/acne skin and didn't break me out at all. Keep in mind it makes you super dewy!",
+   "date": "2026-03-22",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Charlotte",
+   "titre": "Perfect for dry sensitive skin",
+   "texte": "So gentle and hydrating for my sensitive, dry skin. It makes my face feel calm, soft, and moisturized without any irritation.",
+   "date": "2026-01-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mandra",
+   "titre": "Loving this Hydro-Lipid Barrier Serum",
+   "texte": "I am a middle aged Mama and recently lost over 100 lbs and was struggling with dull,dry skin looking for a product to help Mositurize, Brighton and help tighten my skin. This product did not dissipont! My skin immediately looked less dull and more youthful.",
+   "date": "2025-12-23",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Michele G",
+   "titre": "Hydro-lipid serum",
+   "texte": "I really haven't seen any change in discoloration or lightening of spots, as some in your begore and after photos show. Oh well.",
+   "date": "2025-12-23",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

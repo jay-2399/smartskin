@@ -1,0 +1,171 @@
+{
+ "ref": "pimprod2037237",
+ "asin": null,
+ "pid": "pimprod2037237",
+ "source": "ulta",
+ "nom": "Peach Slices Redness Relief Soothing Serum",
+ "note": 4.16,
+ "nbAvis": 126,
+ "lus": 78,
+ "collectes": 100,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin report a split result: many say it calmed rosacea-type redness and did not irritate, while several others report burning, welts, itching, or new breakouts on first use.",
+  "dry": "Reviewers with dry skin generally report the serum helped redness and felt hydrating, though one found it not hydrating enough and another reported peeling and dryness around the mouth.",
+  "mature": "One reviewer notes the gel smooths fine lines and blurs imperfections in addition to reducing redness.",
+  "combination": "Reviewers with acne-prone/combination skin report the serum kept skin hydrated and calm, though a few in this group also describe breakouts after use."
+ },
+ "concerns": {
+  "redness": "Most reviewers report a visible reduction in facial redness, including rosacea, perioral dermatitis, and flush-related redness, often within days to a week; a minority (rosacea and general redness sufferers) report no improvement at all despite weeks of use.",
+  "blemishes": "Several reviewers say the serum calms breakouts or fades acne-related spots and redness around blemishes, while others report it triggered new pimples, painful welts, or a cystic-style breakout after just one or two uses.",
+  "spots": "One reviewer reports a red spot on the nose and post-product marks fading with continued use; no other spot-specific detail is given.",
+  "barrier": "One reviewer with a compromised barrier reports slow but real healing with no new irritation; another reports the opposite, describing burning and worsened redness that read as barrier reactivity.",
+  "dehydration": "Several reviewers describe the serum as hydrating and lightweight with quick absorption, but one with very dry skin wished it were more hydrating and another reports the product actively dried out and peeled her skin.",
+  "oiliness": "A few reviewers note the serum can leave skin looking oilier or shinier after some time, particularly around the nose and forehead, though most describe the finish as lightweight and non-greasy.",
+  "aging": "One reviewer notes the serum's gel texture smooths fine lines and blurs imperfections; no other aging-specific comments appear."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Sticky or oily after wear",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Pump packaging convenient and travel-friendly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price versus similar serums",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free, no scent noted as reassuring",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Inconsistent results, no visible change for some",
+   "polarite": "neg",
+   "concerne": [
+    "redness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Olivia",
+   "titre": "Allergic Reaction Caused Skin to Burn",
+   "texte": "I have incredibly sensitive skin and this immediately caused my skin to burn. I'm assuming it's an allergy to some ingredient(s) in this. I only used it once but it caused more redness, itchiness and dry patches. Returned.",
+   "date": "2024-01-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Ellie",
+   "titre": "Works Well",
+   "texte": "I have dry, dehydrated, acne-prone skin that is prone to sensitivity, irritation, and redness. It's hard to find a balance between actives that help my acne but don't irritate my skin, and because of that, I recently damaged my skin barrier. I cut products from my routine and began using this hoping that it would help calm my skin. It's a slow process to heal my barrier, but I definitely think it's getting better. My only complaint is that I wish it was a little more hydrating, but that's probably just because my skin is so dry; probably great for other skin types. Still consider it a win because not only did it not irritate my already compromised skin, I think it's helping to heal it.",
+   "date": "2023-02-19",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shana",
+   "titre": "Redness is gone!",
+   "texte": "THE ABSOLUTE BEST product for dry, sensitive skin that is plagued with redness. My rosacea is under control thanks to this product! It was such a dramatic change that my husband—who has severe rosacea but not desire for a skincare routine—just had to try it and LOVES it.",
+   "date": "2025-01-01",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Lauren P.",
+   "titre": "Helps redness but can cause oiliness",
+   "texte": "This serum definitely helps with redness around my nose and forehead, but it can also make those areas appear more oily than usual. Probably best for someone with more dry skin. I will likely try the azelaic acid serum next.",
+   "date": "2024-03-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Jess",
+   "titre": "No redness relief",
+   "texte": "I have rosacea so maybe this product isn't meant for that. I've used it for a month and don't see much improvement in the redness. It does feel hydrated but it just isn't doing what it's advertised to do for me.",
+   "date": "2024-10-02",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Devyn",
+   "titre": "Yes for sensitive skin",
+   "texte": "I have really sensitive skin, easily irritated by a lot of products. I used another product that totally broke me out and caused a lot of sensitivity, so I tried this one out as a means of correcting my mistake. It has definitely worked. It helped calm my breakouts and is super gentle on my skin. It applies really smoothly, I use it in both the AM and PM as it is really light and smooth serum. My spots caused by the other product have disappeared quickly and I've even noticed some added brightness. If you have really sensitive skin that is also dry but easily clogged, I think this is a great product, especially for the price point.",
+   "date": "2023-09-03",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marilyn A.",
+   "titre": "Great serum",
+   "texte": "I mostly use the snail rescue line from peach slices but I like this serum better than the snail rescue serum. I have acne prone skin and this helps keep it hydrated and calm.",
+   "date": "2023-12-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2020810",
+ "asin": null,
+ "pid": "pimprod2020810",
+ "source": "ulta",
+ "nom": "Avène Hydrance RICH Hydrating Cream",
+ "note": 4.64,
+ "nbAvis": 423,
+ "lus": 79,
+ "collectes": 111,
+ "segments": {
+  "dry": "Reviewers with dry skin, including winter-dry, high-desert-dry and dry-flaky presentations, report the cream relieves tightness and flakiness and is often reserved for cold weather or harsher climates.",
+  "sensitive": "Reviewers describing sensitive, rosacea-prone, eczema-prone or steroid-withdrawal skin report the cream soothes without burning or irritating, though a minority in this same group say fragrance triggered a reaction or breakout.",
+  "combination": "One reviewer with combination skin reports it helps with dryness in winter without adding oiliness.",
+  "mature": "Reviewers identifying as middle-aged, mature or in their 60s report good hydration and improved skin texture, with one wishing it also contained SPF and another noting it helps skin that is drying further with age.",
+  "oily": "One reviewer describing dry-to-oily skin reports it keeps oiliness contained while still moisturizing, without greasiness."
+ },
+ "concerns": {
+  "dehydration": "The large majority of reviewers citing dryness or dehydration report strong, lasting hydration and relief from tightness and flaking, including in dry winter or desert climates; one 3-star review disputes this, saying it did not feel hydrating for her dry skin and became greasy after a few hours.",
+  "redness": "Reviewers with rosacea, perioral dermatitis or general redness report the cream is soothing and reduces redness without burning; one reviewer wishes an SPF version were still sold to complement this effect.",
+  "barrier": "A few reviewers describe the product as restoring or supporting the skin barrier, including one recovering from topical steroid withdrawal who reports better moisture retention during flares.",
+  "spots": "One reviewer applying the cream alongside a teenager's acne medication reports it eased dry, flaky side effects without irritation.",
+  "blemishes": "Most reviewers report no breakouts, including two identical accounts of acne-prone, rosacea skin with no new breakouts; however, at least two reviewers report the product broke them out or caused an under-the-skin pimple, one attributing it to the fragrance.",
+  "aging": "Reviewers describing mature or aging skin report improved texture, softness and hydration, with no negative comments specific to aging skin.",
+  "oiliness": "Reviewers concerned about oiliness report the cream hydrates without a greasy or oily look, and in one case helps refine pores and contain oil."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong or noticeable fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Fast absorption, non-greasy finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich yet lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount needed, product lasts long",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube design wastes leftover product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus higher-end moisturizers",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Peeling or texture change after use",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "TinyTimm",
+   "titre": "Miracle Product",
+   "texte": "I have rosacea, acne prone, superrrr sensitive skin. Like everything makes my skin freak out. This is a miracle product. It keeps my skin so hydrated (with no breakouts) during these dry winters and summers in utah. Amazing product. I dont see myself switching moisturizer for a long long time. The tube does seem small, but you just need a tiny amount so this tube should last a while.",
+   "date": "2023-07-01",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jessica J.",
+   "titre": "Perfection",
+   "texte": "This moisturizer is definitely in my top 2. Works wonders for dry sensitive skin especially during the colder months. My only criticism is the fragrance. It's too old lady perfume-ish however, I will say, the fragrance doesn't last long. it goes away in a few minutes. I love the price for a product that works so well for my dry, dehydrated, sensitive skin. Any excess get rubs into my hands as well. Definitely a product I will be buying many more times.",
+   "date": "2023-05-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Stephanie W.",
+   "titre": "It's an alright basic moisturizer.",
+   "texte": "It's an alright basic moisturizer. Looks nice when first applied but soon becomes greasy after an hour or 2 even on my dry skin and in colder weather. Fragrance is strong and unnecessary. Wish it was a richer texture - it's extremely light like a lotion and not what I'd expect from a rich cream. While my skin doesn't feel tight, I wouldn't necessarily call this product hydrating. Can find better moisturizers at a better price that will give you better results.",
+   "date": "2023-11-04",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "carlab",
+   "titre": "peels like crazy!",
+   "texte": "How all these 5 star reviews on here?!? I bought to replace an $65 facial moisturizer that I loved for a more cost effective brand. After one single use, 10 minutes after applying and laying down for bed, I checked my face and the moisturizer is peeling all over my entire face and bad. I will be returning immediately. There's no way I could apply this in the morning before makeup.",
+   "date": "2022-02-17",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Aims",
+   "titre": "Hydrates but broke me out",
+   "texte": "Very hydrating however it broke me out quite badly. I think it was the fragrance; it's a rose-powdery scent. If your skin can handle fragrance you may like this product",
+   "date": "2024-01-29",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Danielle R.",
+   "titre": "Good hydration",
+   "texte": "I'm going through topical steroid withdrawal and my face/body is very sensitive and cycles from redness to extreme dryness. I need my body to stay hydrated and when I flare, this cream retains my moisture for longer and my face doesn't react to it.",
+   "date": "2022-05-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "COLLEEN M.",
+   "titre": "My whole family uses this.",
+   "texte": "My whole family uses this. I use it for my dry middle aged skin after shower, before sunscreen. really moisturizes and makes my skin feel like butter. My teen agers use it with their acne medicine to assist with dry flakey side effect. it's non irritating. and moisturizes well.",
+   "date": "2022-07-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

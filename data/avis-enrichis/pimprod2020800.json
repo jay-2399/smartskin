@@ -1,0 +1,175 @@
+{
+ "ref": "pimprod2020800",
+ "asin": null,
+ "pid": "pimprod2020800",
+ "source": "ulta",
+ "nom": "Avène Cleanance Hydra Ultra-Soothing Restorative Cream",
+ "note": 4.43,
+ "nbAvis": 83,
+ "lus": 65,
+ "collectes": 65,
+ "segments": {
+  "oily": "Reviewers with oily or combination skin generally report a light, non-oily finish, though two reviews with acne-prone skin found it too oily and heavy for their skin.",
+  "dry": "Reviewers with dry skin describe it as very hydrating and effective for flaky, dehydrated patches, though a few report the cream itself left their skin dry or feeling under-moisturized.",
+  "combination": "Combination-skin reviewers say it absorbs quickly, hydrates without an oily feel, and works well used as needed.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it is soothing and calms irritation (including rosacea and post-mask irritation), while multiple others report the fragrance burned, stung, or reddened their skin.",
+  "mature": "Mature-skin ('senior') reviewers describe it as gentle, water-based, and soothing on aging skin."
+ },
+ "concerns": {
+  "aging": "Mature-skin reviewers report the cream feels gentle and soothing on aging skin, with no negative comments specific to aging noted.",
+  "dehydration": "Most reviewers describing dehydrated or dry skin report significant hydration relief, often after treatments like retinoids, adapalene, or accutane dried their skin out; a couple describe the formula as too light/lotion-like to lock in moisture for very dry skin.",
+  "redness": "Reviewers using it for redness and irritation (from rosacea, masks, or actives) mostly report calming and soothing effects, but some describe the fragrance itself causing burning and redness on contact.",
+  "barrier": "Reviewers using harsh actives (benzoyl peroxide, retinoids, adapalene) report the cream soothes irritation and resolves peeling and dry patches without triggering new breakouts.",
+  "spots": "Reviewers dealing with acne-related dryness report no new breakouts and reduced irritation from spot treatments; one reviewer specifically notes it worked well on a tiny pimple.",
+  "blemishes": "Several acne-prone reviewers report no clogged pores and no new breakouts even used alongside acne treatments, but two describe it as too oily for acne-prone skin, worsening oiliness.",
+  "oiliness": "Most reviewers, including combination-skin users, report a non-oily, non-greasy finish, though a couple with acne-prone skin found it made their skin very oily."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Soothing on irritated or compromised skin",
+   "polarite": "pos",
+   "concerne": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Consistency more like a lotion than a cream",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Non-greasy finish",
+   "polarite": "pos",
+   "concerne": [
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Repurchase loyalty and long-term use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small size for the price",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Dylan",
+   "titre": "not sensitive safe",
+   "texte": "i bought this when my skin was very irritated and red and i put this on my face and this burned so bad the fragrance in this burned my skin ive never had a reaction like this",
+   "date": "2025-08-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Lisa D.",
+   "titre": "Too oily for acne skin.",
+   "texte": "Too oily for acne skin. Trying to use it when skin feels so dry from the night cream, but this just makes skin very oily.",
+   "date": "2021-02-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gab30",
+   "titre": "Never Discontinue THIS MOISTURIZER",
+   "texte": "My skin has been extremely dehydrated and compromise due to acne treatments and this is the only moisturizer I have found that does not cause me more acne, really hydrates my skin and take the irritation away",
+   "date": "2024-04-25",
+   "verifie": false,
+   "utiles": 13,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "laraffinee",
+   "titre": "Soothing for all types of skin",
+   "texte": "I do not have acne. I have mature skin that is quite sensitive and prone to dehydration. This is one of my favorite creams. It is lightweight but very hydrating and soothing. I wanted to write this review for people like me so they can know how good this is for all types of skin, not just for acne.",
+   "date": "2020-05-06",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Winnie",
+   "titre": "Skin saver while on adapalene",
+   "texte": "Iâ€™m on adapalene for acne, and it has been very irritating on my skin. My entire face is peeling, red and burns, and this cream is a godsend. It is instantly soothing and very moisturizing. Iâ€™ve been using it every night for 2 weeks, and my irritation and dry patches have resolved. Iâ€™ve only used it at night because it is very rich, and does leave my face shiny.",
+   "date": "2019-03-10",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joanne V.",
+   "titre": "Perfect for combination skin",
+   "texte": "This is my favorite moisturizer. It goes on silky smooth and absorbs quickly. My skin feels hydrated with no oily feeling. I have combination skin, Cleanance Hydra works perfectly.",
+   "date": "2021-04-01",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sarah",
+   "titre": "Wish it was fragrance free",
+   "texte": "I probably shouldn't have ordered it as I knew it wasn't fragrance free but decided to risk it since it was for \"sensitive skin I didn't think it would be strong. I could have overlooked it but, the perfume is very strong and smells awful. Sort of floral-y I guess and powder. I know some folks like that scent profile but it gives me a headache. I wouldn't have bought it if I had smelled it before hand. The moisturizer works well but probably won't use it much and definitely won't repurchase. It's a shame because I definitely needed something like this.",
+   "date": "2023-12-01",
+   "verifie": true,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2038492",
+ "asin": null,
+ "pid": "pimprod2038492",
+ "source": "ulta",
+ "nom": "COSRX Advanced Snail 92 All In One Cream",
+ "note": 4.58,
+ "nbAvis": 2017,
+ "lus": 79,
+ "collectes": 115,
+ "segments": {
+  "oily": "Several reviewers with oily skin report the cream absorbs well and controls oiliness rather than adding shine, though one review recommends it more for oily skin than for dry.",
+  "dry": "Many reviewers with dry skin describe strong, lasting hydration and reduced flaking or tightness, though a few with dry skin found it insufficient as a sole moisturizer and still felt tight or dry after use.",
+  "combination": "Reviewers with combination skin generally report it balances dry and oily areas without clogging pores, giving a soft, glowy finish, though one combination-skin reviewer returned it after finding it left her face dry and tight.",
+  "sensitive": "Most reviewers with sensitive or reactive skin report no irritation, calming and hydrating effects, but a minority with sensitive or dermatitis/eczema-prone skin report rashes, red bumps, or eczema flare-ups.",
+  "mature": "Reviewers describing mature or older skin report smoother, plumper, more youthful-looking skin with regular use."
+ },
+ "concerns": {
+  "aging": "Reviewers using it alongside other anti-aging products report firmer, tighter, plumper skin and reduced fine lines; no dissent reported specifically on aging.",
+  "dehydration": "The large majority of reviewers report significant, lasting hydration and relief from tightness or flaking, especially in winter; a smaller group reports it did not moisturize enough and left skin feeling dry and tight.",
+  "redness": "Several reviewers report reduced redness and calmer skin after use, including after barrier damage or peels; one reviewer reports new red bumps developing after use.",
+  "barrier": "Reviewers recovering from over-exfoliation, peels, or barrier damage report the cream helped restore and repair their skin; no negative barrier-specific reports beyond the allergic-reaction cases.",
+  "spots": "Reviewers report fading dark spots, acne scars, and uneven marks with continued use over weeks to months.",
+  "blemishes": "Most reviewers with acne-prone skin report no new breakouts and some improvement in acne scars or fungal acne; one reviewer reports a cystic-like breakout of red bumps and another an eczema flare on the face.",
+  "oiliness": "Reviewers with oily skin report it does not add greasiness and can reduce overall oily appearance, with some using it successfully as a full moisturizer replacement in hot weather."
+ },
+ "aspects": [
+  {
+   "libelle": "Slimy or sticky initial texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly once settled",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting with small amount used",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills or patches under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Jar packaging is messy",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Package size reduced from original",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Tina",
+   "titre": "Not for sensitive/dermatitis-prone skin!!",
+   "texte": "I read so much about this product and I thought I would try it, despite my usually basic skincare routine. I have fair, dry, very sensitive skin. But very rarely get pimples or acne, just redness sometimes. For the first week, the product seemed ok, my skin felt more moisturized than usual but that was the only difference I noticed. Then I started getting tons of little red bumps all over my face that would not go away. There was nothing else I changed that would have caused this. I kept using it for a bit longer until I finally stopped using it. That was about 4 weeks ago and the outbreak is still persisting, finally slowing down a little bit!! I also read that if you're allergic to dust mites, you are also allergic to sail mucin. So if you have sensitive skin or allergies this probably isn't for you.",
+   "date": "2024-04-15",
+   "verifie": false,
+   "utiles": 25,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "K",
+   "titre": "Don't use if you have eczema",
+   "texte": "I wanted to like this so bad but it gave me a horrible eczema breakout on my forehead. I have eczema on my body but I've never had a breakout on my face until trying this. I'm struggling to clear it up even after stopping use ☹️ outside of that, its a nice texture on your hands but just does not moisturize. I tend to have oilier skin on my face but it left me feeling dry and tight.",
+   "date": "2024-01-23",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Destina",
+   "titre": "Very moisturizing",
+   "texte": "I have been using this for almost a year and also repurchased as I have dryer skin naturally and this was very soothing. I have acne prone skin and this never causes breakouts, it's pretty neutral I feel like, so it won't cure acne but also will sooth your skin. I even feel like it's \"too moisturizing\" so wouldn't use on oily skin but I needed the hydration.",
+   "date": "2024-05-19",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mammal",
+   "titre": "Wow.",
+   "texte": "I never expected to love this as much as I do. My skin is so oily that I really can't even wear liquid foundation because it melts off my face after a couple hours. I also suffer from acne, and enlarged pores. On the other hand, my skin can get extremely dry and flaky. Basically ny skin is a horrible combination mess. This stuff is amazing!! My skin truly has never looked so good. It moisturizes without clogging my pores. My skin has been way less oily, and I haven't broken out at all, even when it was that time of the month. I cant recommend this product highly enough. My advice is to give it a try for at least a week. You have to get past the texture, since it is snail mucin. However, I think most people will absolutely love and benefit from this product.",
+   "date": "2024-03-16",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Zazi",
+   "titre": "Love this but careful if you have allergies",
+   "texte": "I love this cream, even better than the regular serum. I found this absorbs better for my dry, sensitive, acne prone skin. Especiallt after a peel or exfoliating wash, this really helps to repair my skin and make it so soft. I fo layer or rotate with other moisturizers though as ira not heavy enough to serve as an everfau product in the winter for me. I see so many reviews about reactions and rashes - if you have allergies or sensitivies to DUST MITES or other mollusk, you should be careful with this product. There can be cross reactivity.",
+   "date": "2024-10-14",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mel",
+   "titre": "Highly recommend!",
+   "texte": "I have mature skin and this has definitely made it smoother and more plump. Almost adds a glow. A little goes a long way and I use it at night as I didn't like how it layed under my primer. I have even had some friends ask what I have been doing differently in my skincare routine because they noticed a difference.",
+   "date": "2025-01-05",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Liz",
+   "titre": "Overall moisturizing",
+   "texte": "I struggled with acne as a teenager more than I do now, after I got on curology I don't have many breakouts. This did not trigger any additional breakouts. My skin is incredibly dry but not really sensitive, this sinks into the skin slowly over the course of an hour or two. Some people don't like that but I prefer it because I need as much moisture as possible. It dries down slightly sticky but that continues to go away as the product soaks in. I got the tube version so I didn't have the messy issue. I would definitely recommend anyone with weirdly stubborn dry skin to give this a shot",
+   "date": "2026-02-19",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

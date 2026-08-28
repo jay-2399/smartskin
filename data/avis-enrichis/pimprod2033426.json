@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2033426",
+ "asin": null,
+ "pid": "pimprod2033426",
+ "source": "ulta",
+ "nom": "CeraVe Skin Renewing Eye Cream",
+ "note": 4.51,
+ "nbAvis": 490,
+ "lus": 80,
+ "collectes": 119,
+ "segments": {
+  "dry": "Reviewers with dry or dehydrated under-eyes report the cream relieves flaking, cracking, and eczema-like dryness, though one dry-skin reviewer experienced itchiness and irritation after first use.",
+  "sensitive": "Sensitive-skin reviewers are split: several report no burning, redness, or breakouts even with daily use, while others describe rashes, burns, flakiness, bumps, or increased irritation.",
+  "oily": "The one reviewer identifying as oily-skinned reports the cream is non-greasy and does not add oiliness.",
+  "mature": "Reviewers focused on aging skin report softened smile lines, fewer crow's feet, and firmer-looking eyelids with regular use."
+ },
+ "concerns": {
+  "aging": "Many reviewers report reduced appearance of fine lines, crow's feet, and crepe-like eyelid skin after weeks of use; a few see no visible change even after a month or more, and one felt the product added aging to her eye area.",
+  "dehydration": "Numerous reviewers report noticeably more hydrated, softer under-eye skin, some lasting through the day or overnight; a couple find it 'not bad' but not especially hydrating and wish for more.",
+  "redness": "Reviewers mention no added redness or irritation in most cases, but one sensitive-skin reviewer reports rashes and burns and another reports itchy, allergic-like reaction the first night.",
+  "barrier": "Some reviewers with compromised or reactive under-eye barriers say the cream calmed irritation caused by retinol or vitamin C elsewhere in their routine; one reviewer reports the opposite, citing eye irritation and milia after use.",
+  "spots": "A few reviewers report a reduction in dark circles and dark spots under the eyes; others report no change in darkness despite continued use.",
+  "blemishes": "Several reviewers note the cream did not cause milia or clogged pores and is non-comedogenic; one reviewer specifically developed milia and discontinued use.",
+  "oiliness": "Reviewers consistently describe the formula as non-greasy and lightweight, with no reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting tube, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pilling under concealer or makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No noticeable results despite weeks of use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Irritation, rashes or itchiness on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Absorbs quickly, layers well with routine",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Higher price than expected for drugstore item",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Clair",
+   "titre": "DO NOT BUY",
+   "texte": "My skin is sensitive, but I never encounter any issues with my skin until this product. After a couple weeks of usage, it has caused rashes/burns, dryness/flakiness, bumps, and added aging to my eye area. I would say to stay away from this product, even if you don't have sensitive skin.",
+   "date": "2024-01-14",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier",
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Nina",
+   "titre": "Itchy!!!",
+   "texte": "Used it for the first time and woke up the next mornign and my eyes were so itchy. I have dry skin btw but not sensitive skin. Added an extra star because it made my skin soft. But still low rating bc my eyes were sensitive and itchy all day like an allergic reaction happened.",
+   "date": "2024-10-01",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "dry",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Bonnie",
+   "titre": "Definitely a keeper",
+   "texte": "I really like this eye cream! I started using it about a week ago, and have noticed that my under eye area looks smoother and with less fine lines. It absorbs well into the skin and doesn't irritate it at all. I do have sensitive skin, so that is a huge win for me.",
+   "date": "2025-05-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Whit",
+   "titre": "The Perfect Eye Cream!",
+   "texte": "I've been using this eye cream for a year now and I can say this is the best one i've ever tried. It leaves my skin so soft, bright and nongreasy. I struggle with oily skin and it doesn't leave me oily at all. The tube looks small but it lasts for a long time! Expensive isnt always better. I found this out by using Cerave and almost all my skincare products are theirs.",
+   "date": "2024-08-01",
+   "verifie": false,
+   "utiles": 27,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Estelle",
+   "titre": "best eye cream for dry eyes",
+   "texte": "I had Alot of dryness, cracked and flaky skin so I was desperate to find a product that restores my eye area and finally achieved heaven at last. This eye cream smoothed my under eyes and removed all my dryness in less than a week. I am so pleased with this eye cream. Highly recommend picking it up.",
+   "date": "2023-03-24",
+   "verifie": false,
+   "utiles": 21,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Conner",
+   "titre": "Wonderful eye cream!!",
+   "texte": "Trust me when I say I have tried a lot of under eye creams, lotions & gels. I am also a skincare junkie lol. My under eyes are so sensitive and my skin barrier gets compromised quickly if not careful. Certain ingredients unfortunately like both Vitamin C & Retinol dries out my under eye every time & can cause irritation and itchiness. When colder weather arrives my eyes get dry, irritated, itchy and can burn. I have never truly been 100% satisfied with an eye cream other than Pacifica Vegan Collagen Eye Recovery Cream until now. The ingredients in this Cerave Recovery Eye Cream are exactly what I needed and was looking for. It's very hydrating, love the thicker almost gel/ointment like consistency it has to allow for max hydration, and it absorbs wonderful into under eye & sits great under makeup! My top priorities in eye cream are to hydrate, brighten and help minimize wrinkles and rid dark circles if I have them and this product does all of that!! I apply twice A.M and P.M daily and have had no issues with my under eye skin barrier, and almost exactly 30 days since purchase and my under eyes look so much better and are healthy thanks to this product! Lastly, I really enjoy putting a little 100% Lanolin cream on top and under each eye to keep moisture trapped in! Try it out, you'll love it I'm sure!",
+   "date": "2022-12-18",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kara",
+   "titre": "I love this product",
+   "texte": "I love this product. For my acne prone skin with lots of dark spots is perfect. The vitamin C is doing the job",
+   "date": "2023-02-23",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

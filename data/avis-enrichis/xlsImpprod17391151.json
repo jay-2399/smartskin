@@ -1,0 +1,167 @@
+{
+ "ref": "xlsImpprod17391151",
+ "asin": null,
+ "pid": "xlsImpprod17391151",
+ "source": "ulta",
+ "nom": "Perricone MD Cold Plasma Plus+ Eye",
+ "note": 4,
+ "nbAvis": 38,
+ "lus": 35,
+ "collectes": 35,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are split: several report no burning and good hydration or reduced puffiness, while others describe stinging, redness, swelling, or itching that led some to discontinue use.",
+  "mature": "Mature reviewers (mid-30s to 50s) generally report softer, smoother under-eye skin and some reduction in lines or crepiness, though a few see minimal or no visible change.",
+  "oily": "One reviewer notes the product can cause milia and recommends minimizing application on oily skin."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visible reduction in fine lines, crow's feet, and crepiness, sometimes within a week; several dissent, saying it did nothing for wrinkles or firmness or made the eye area look worse.",
+  "dehydration": "Most reviewers describe the cream as strongly moisturizing, resolving dryness or eczema-like patches around the eyes; a smaller group reports the opposite, with severe dryness, flaking, or aged-looking skin after use.",
+  "redness": "A few reviewers experienced red, itchy, or burning eyes after use, sometimes lasting all day, though others with sensitive eyes report no redness at all.",
+  "barrier": "Some reviewers describe swollen or burned eyelids requiring antihistamines, while others with sensitive or reactive skin report the product healed dryness and caused no irritation.",
+  "spots": "Dark circles improve for some reviewers within days to a week, but several say dark circles persisted despite regular use.",
+  "blemishes": "One reviewer warns the product can trigger milia with overuse, particularly on oily skin.",
+  "oiliness": "Only one reviewer addresses oiliness directly, warning that excess product use can cause milia in oily skin types."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich, smooth, luxurious texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs well, non-greasy feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Improves concealer application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Jar consistency dry or hard to use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Maureen",
+   "titre": "Burned & swollen eyelids",
+   "texte": "Wanted to love this product. Part of my fab fit fun box. Left my eyelids swollen the next am multiple times. I actually wasn't convinced it could be this product. Sure enough it was. Had to take Allegra to get the swollen eyelids down, thank goodness I work from home. Totally agree with the other reviewer, swollen, dry and burning results.",
+   "date": "2023-09-18",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Jen",
+   "titre": "SO DRYING(?)",
+   "texte": "Is it just me or has anyone else experienced drying under the eyes after using this? I have been using for more than a week & when I put makeup on (concealer) my skin is SO dry. A few hours after putting On makeup, I look like I've aged 10 years around my eyes. I've only been using before bed at night too. This seems weird as it claims to hydrate. Very disappointing! It's going back.",
+   "date": "2019-10-01",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Hannah",
+   "titre": "Doesn't do what it claims to",
+   "texte": "I had been asking my friend for recommendations for an eye cream that could help with dark circles, and she surprised me with this product for Christmas 2018. This lasted me for seven months, and I loved it! However, it doesn't do what it claims to. I only saw the slightest reduction in dark circles, and it did nothing for boosting firmness or reducing wrinkles. The reason I loved it so much is because it's so moisturizing. I get very dry skin (probably eczema) around my eyes and this is one product that solved that entirely, which is difficult to find. But, the price point isn't worth it for me to purchase this again.",
+   "date": "2019-09-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nunya",
+   "titre": "Works",
+   "texte": "31 years old, 15-year smoker (recently quit). Started using this twice daily at 27. Since then, I have developed deep creases (well, deep for my age) on my forehead but ZERO signs of aging around my eyes. Mind consistently blown. Don't think I'll ever not use Perricone products. Note: Can cause milia if you use too much product and have oily skin—minimize application if you have this skin type.",
+   "date": "2021-03-15",
+   "verifie": false,
+   "utiles": 25,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lulu",
+   "titre": "Best eye cream",
+   "texte": "I purchased this eye cream on a whim about 2 yrs ago during the 21 days of beauty sale. I knew nothing about the product other than I knew it is a good reputable brand. I had no real issues of aging around the eye area ( minimal) and really no under eye darkeness etc. Well, I used up the jar ( I loved the texture, feel and how it absorbed into skin) and needed to purchase again. However, I did not because the cream was full price. Within the few months after I ran out, I really did not notice just how well this product worked around my eye area until i stopped using it. I am currently using a brand just to suffice until hoping it would go on sale again. I am 52 y/o and have very sensitive, fair skin and never had any issues while using it. Give it a try. I am definitely going back to using thus product!!!",
+   "date": "2025-11-07",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jam",
+   "titre": "Yes, I love it!",
+   "texte": "I have very crepey undereye skin due to an over zealous eyelift that removed too much fat, I've tried every eye cream that sounded appropriate for my problems. THIS IS THE FIRST TO WORK FOR ME! It hydrates the skin all around my eyes (upper and lower) and makes the skin look refreshed and smoother.. I've never had a salesperson who encouraged me to try this line...wish they had. Highly recommend.",
+   "date": "2019-01-06",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Savvy shopper",
+   "titre": "Works amazing for lines",
+   "texte": "I use product morning and night. My skin is sensitive and I've had no issues. Could telll a Difference in a few days.",
+   "date": "2020-05-23",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

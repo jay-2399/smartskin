@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2056897",
+ "asin": null,
+ "pid": "pimprod2056897",
+ "source": "ulta",
+ "nom": "Naturium Multi-Calm Cream Cleanser",
+ "note": 4.07,
+ "nbAvis": 14,
+ "lus": 13,
+ "collectes": 13,
+ "segments": {
+  "dry": "Dry-skin reviewers report a milky, cream texture that some find hydrating and non-stripping, while others say dry flakes and a 'thirsty' feeling return quickly after use.",
+  "sensitive": "Sensitive/reactive-skin reviewers are split: several describe it as the first cleanser that doesn't sting, burn, or redden their skin, but one with eczema-prone skin reports burning and inflammation.",
+  "combination": "The one combination, acne-prone reviewer reports no issues and a clean, non-stripped feel."
+ },
+ "concerns": {
+  "redness": "Most reviewers who mention redness say the cleanser calms or avoids worsening it, including one with rosacea and one with reactive skin who found it soothing; however, two reviewers report their redness persisted or their skin turned red and inflamed after use.",
+  "barrier": "Several reviewers frame this as a barrier-support product and report their skin felt soft and not stripped after washing; one reviewer with eczema and a compromised barrier reports burning instead, and another says her skin still feels irritated until fully rinsed off.",
+  "dehydration": "Reviewers with dryness are divided: some report the cleanser leaves skin plush and hydrated with no tight feeling, while others report dry flakes returning within seconds and a thirsty, tight sensation after rinsing.",
+  "blemishes": "One reviewer on acne treatment reports the included niacinamide caused over-exfoliation and worse breakouts/redness; a separate combination acne-prone reviewer reports no issues at all.",
+  "oiliness": "The single reviewer with oily skin reports the cleanser does not increase oiliness and leaves skin balanced and soft."
+ },
+ "aspects": [
+  {
+   "libelle": "Creamy, milky non-foaming texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rinses off cleanly and quickly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free, no eye sting",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Goes a long way, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Hard to rinse at the sink, needs shower",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Niacinamide conflicts with retinol/acne treatments",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Burning or stinging on eczema-prone skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Grace123",
+   "titre": "Sensitive Skin BEWARE",
+   "texte": "I have dry/sensitive skin and get occasional eczema flare ups, so was super excited to try this cleanser. This stuff has the consistency and feel of washing your face with lotion. Which is totally fine, just something to be aware of. However, this cleanser burned my skin and left it super red and inflamed for a long while after use. Didn't expect that at all from something with the National Eczema Association stamp. I normally use the Prequel gleanser and the vanicream daily moisturizer so not sure what happened. Wish I could return.",
+   "date": "2026-06-05",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Katelove",
+   "titre": "Multi Wash",
+   "texte": "I loved this product until I read the fine print. I didn't know that this cleanser had niacinamide in it! If you are on an acne treatment or use other retinols etc. this can be over exfoliating and cause worse breakouts or redness. I did experience this unfortunately and wish companies would stop putting niacinamide in everything!",
+   "date": "2026-06-11",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "AnnieG",
+   "titre": "wish it was the best for my skin",
+   "texte": "I was really excited for this cleanser to release, I've used it only few times and I can't really tell if it's calming my skin/redness down at all, I also can't tell if it's truly hydrating enough, my dry flakes come back within few seconds or so, I have dry sensitive skin. My face was still red on my cheeks. But the ingredients they have in this cleanser are good, maybe this product just isn't for me.",
+   "date": "2025-12-20",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Zoe",
+   "titre": "Probably good for a different skin type",
+   "texte": "My skin feels thirsty after use. I have a hard time getting it rinsed off at the bathroom counter - shower use is a little better. Irritates my skin until I was it off. Still searching for a low frangrance / fragrance free cleanser to support my skin barrier and remove the day. Ulta return policy makes it easy to try items; even though I feel bad returning,",
+   "date": "2026-08-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "sc12",
+   "titre": "Amazing",
+   "texte": "I have extremely sensitive and reactive skin; even micellar water seems to sting and burn. I bought this on a whim after feeling like I would never find a face cleanser that didn't sting, make my face red, or make my skin feel so tight. This cleanser has been SO soothing on my skin, never burns, and I have finally found something that actually seems to calm my redness. What a relief to have found something finally! I am so grateful.:) And I wanted to leave this review as a big thank you! So thank you!!",
+   "date": "2026-02-13",
+   "verifie": true,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Fragfreeskincare",
+   "titre": "Soothing cleanser",
+   "texte": "I really love this cleanser, it is so soothing and gentle. Leaves your skin clean without feeling stripped. It was perfect for me during this cold winter where I was experiencing extra dryness after microneedling. I have combo acne prone skin and had no issues with this product.",
+   "date": "2026-04-04",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "katie0621",
+   "titre": "Amazing",
+   "texte": "I just got this and only used it twice but I'm already obsessed. It is so creamy and cleansing but it leaves my face soft not stripped. I have oily skin but also rosacea and I still love this. It doesn't make me more oily at all. Just perfectly cleansed and soft 👌🏼👌🏼👌🏼",
+   "date": "2025-12-04",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

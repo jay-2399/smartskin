@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2036768",
+ "asin": null,
+ "pid": "pimprod2036768",
+ "source": "ulta",
+ "nom": "Lancôme Absolue The Serum",
+ "note": 4.65,
+ "nbAvis": 197,
+ "lus": 79,
+ "collectes": 98,
+ "segments": {
+  "dry": "Reviewers with dry skin describe the serum as deeply hydrating, absorbing quickly and leaving skin feeling nourished rather than dry ([28],[45],[49],[65],[69]).",
+  "sensitive": "Sensitive-skin reviewers are split: several report no irritation, no breakouts and even relief from past reactions to other serums ([27],[32],[47],[56]), but one reviewer with sensitive skin experienced burning and redness ([1]).",
+  "mature": "Reviewers who identify as mature or in their 60s consistently credit the serum with plumper, firmer skin and fewer visible fine lines, describing it as a long-term staple ([8],[16],[23],[37],[38])."
+ },
+ "concerns": {
+  "aging": "The large majority of reviewers who mention wrinkles or fine lines report visible smoothing, plumping, or reduction after days to weeks of use ([13],[15],[19],[22],[38],[41],[53],[72],[78]); one reviewer says the effect is only temporary and lines return once the product is washed off ([15]).",
+  "dehydration": "Reviewers describe strong hydration and a plumped, dewy feel, often calling it a 'drink of water' for the skin ([28],[34],[48],[60],[70]); no negative reports on hydration appear.",
+  "redness": "One reviewer reports the product reduced redness alongside spots ([75]); another with sensitive skin reports the opposite, that it caused her face to burn and turn red ([1]).",
+  "barrier": "A few reviewers imply improved barrier comfort, describing the serum as soothing and non-irritating even on reactive skin ([32],[56]); no explicit barrier-damage complaints are present besides the burning reaction noted elsewhere.",
+  "spots": "One reviewer reports improvement in skin tone and reduced spots ([75]); this is the only explicit mention of spots.",
+  "blemishes": "Most reviewers who mention breakouts say the product does not cause them, including one who states it is the only skincare that doesn't trigger breakouts ([52],[56]); one reviewer with unspecified skin reports the product caused breakouts and returned it ([0]).",
+  "oiliness": "One reviewer notes the serum balances skin without making it oily or dry, describing it as 'not oily, not dry' ([12]); no other oiliness complaints or praise recur."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Silky, velvety after-feel on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Luxurious signature fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Refill glass tube breaks easily",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Elegant bottle and packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Missing usage instructions in box",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Gloria S.",
+   "titre": "Disappointed",
+   "texte": "I really had high expectations for this serum according to the reviews. Unfortunately for my sensitive skin it made my face burn and turn red even though it states the product is good for sensitive skin. For me it was just a huge waste of money and I do love most Lancome products.",
+   "date": "2024-01-13",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "S. Sue",
+   "titre": "No substitute for Visionnaire.",
+   "texte": "I ended up returning this item. It made my skin break out and I saw no results. This is the 3rd Lancome product I have tried since the elimination of the Visionnaire product that I used for over 5 years. I have now switched to a product from a different company. I still don't like it nearly as much as Visionnaire but it seems to be working somewhat and is gentle on my skin.",
+   "date": "2024-04-20",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kwsr",
+   "titre": "Great Serum",
+   "texte": "My skin is very sensitive, so I am always hesitant to try new cosmetics. In addition, I recently developed a chemical smell allergy that made me bad headache and nausea. After reading the lot of reviews, I made the decision to give it a try. First, I didn't feel any chemical smell, so I applied it around my eye area. Despite waiting for about an hour, I didn't experience any discomfort. Instead of a bad reaction, my skin became smoother and soft. I could sense a significant difference in the morning of the next day. I fell in love with this product! It's worth the money.",
+   "date": "2023-10-09",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Blanka",
+   "titre": "Phenomenal Product",
+   "texte": "I have been using the Absolue line for several years and am absolutely in awe of its effectiveness. My skin has changed substantially from dry to well-nourished and soft.",
+   "date": "2024-02-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Natalie Cohen",
+   "titre": "Awesome project!!!!!",
+   "texte": "This product is worth EVERY penny and more!!! If you have mature skin this is the product for you!!! It definitely plumps out your skin, makes it silky smooth and diminishes fine lines!! And yes, I am a 63 yrs young.",
+   "date": "2026-04-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Earth mom",
+   "titre": "Better skin",
+   "texte": "I think this serum has improved my skin texture and reduced redness and spots",
+   "date": "2023-11-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gracie9967",
+   "titre": "Love it",
+   "texte": "Love it. Ive been using all your products for 2 years now because they are the only ones that i dont get skin breakouts. Definitely keep on buying",
+   "date": "2023-09-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2007112",
+ "asin": null,
+ "pid": "pimprod2007112",
+ "source": "ulta",
+ "nom": "The Ordinary 100% Plant-Derived Squalane for Skin and Hair Hydration",
+ "note": 4.55,
+ "nbAvis": 805,
+ "lus": 79,
+ "collectes": 117,
+ "segments": {
+  "oily": "Some oily-skin reviewers report the oil is too heavy or greasy for daytime use, while a 52-year-old with mostly oily skin credits it with helping balance her skin over time.",
+  "dry": "Reviewers with dry, flaky, or wind-chapped skin repeatedly report visible improvement in hydration, softness, and reduced flakiness, often within days to a week.",
+  "combination": "Reviewers with combination or dry-combination skin report good hydration and smoother texture, with one using it under tinted moisturizer with no issues.",
+  "sensitive": "Reviewers with sensitive, allergy-prone, eczema, or rosacea-affected skin mostly report no irritation and calming effects, but one with eczema and allergies reports overnight irritation.",
+  "mature": "Reviewers in their 40s-70s report using it long-term for aging or post-menopausal skin, citing hydration, plumpness, and compliments on their skin."
+ },
+ "concerns": {
+  "aging": "Reviewers in their 40s to 70s report minimal visible aging or improved plumpness and glow attributed to long-term use; no reviewer reports it worsening fine lines or wrinkles.",
+  "dehydration": "Numerous reviewers describe it resolving dryness, tightness, and dullness, including severe winter dehydration and dehydrated skin mistaken for aging; effects are reported as fast, sometimes within days.",
+  "redness": "Reviewers with rosacea or reactive skin report reduced redness and calming effects; no reviewer reports increased redness.",
+  "barrier": "Several reviewers report it repaired a damaged skin barrier (from over-exfoliation, retinoid use, or harsh treatments) and soothed burning skin; one reviewer used it successfully on wounds and scabs.",
+  "spots": "One reviewer reports using it mixed with vitamin C to help reduce uneven skin tone and sun spots; not otherwise widely discussed.",
+  "blemishes": "Most acne-prone reviewers report no new breakouts and some reduction in inflammation or active blemishes; one reviewer reports it made her break out badly and another warns it clogs pores if overused.",
+  "oiliness": "Most reviewers, including some with oily skin, report it absorbs without a greasy after-feel when used sparingly, but several others describe it as greasy, heavy, or oily, especially at higher amounts."
+ },
+ "aspects": [
+  {
+   "libelle": "Feels greasy or heavy",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Absorbs quickly without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes pilling with other products",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires only a few drops",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Missed discontinued Hemi-Squalane version",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well as hair serum",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Taylor",
+   "titre": "Not good for sensitive skin",
+   "texte": "I'm sure this is a great product but I have allergy-prone skin as well as eczema. I normally get the Hyaluronic Acid but the Ulta near me was out so I tried this one. Didn't sting on contact but overnight, my skin became irritated.",
+   "date": "2024-03-02",
+   "verifie": true,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cait",
+   "titre": "HOLY GRAIL ITEM!!!",
+   "texte": "PLEASE ignore the bad reviews!!! I have been using this on my face for the last few years. I discovered this product after i completely destroyed my skin barrier and this stuff SAVED my skin!! I apply this as my second to last night time skincare routine, and follow it with CeraVe in the tub. You need to apply TO Squalane oil immediately after water based products , and BEFORE sunscreen or moisturizer. Applying this as the last step of a makeup routine is the dumbest thing i have read here. I guess if you want to take your makeup off, that would work. I have SUPER sensitive skin, as well as rosacea and TO squalane doesnt irritate me at all. It calms my skin down and reduces redness and dryness.",
+   "date": "2024-05-26",
+   "verifie": false,
+   "utiles": 36,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kmoe",
+   "titre": "This is amazing !",
+   "texte": "I love this stuff. It hydrates so well. It has changed the texture of my skin. I'm 65 with post menopause, my skin is dry, sensitive with breakouts. Go figure. Squalene has cleared up my complexion. Buy this it really works.",
+   "date": "2024-01-09",
+   "verifie": true,
+   "utiles": 14,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mic",
+   "titre": "New Fave",
+   "texte": "I bought this to use on my short grey hair but decided to try it out on my face after reading all of the positive reviews. I love it! I have very reactive sensitive skin which is now dry post-menopause having been oily all my life. I feel like I'm having to relearn skincare! I'm now using this in the morning and it works great under make-up. As it's not an oil, it's not at all greasy and disappears into my skin leaving it moisturised and comfortable. Highly recommended.",
+   "date": "2023-04-14",
+   "verifie": true,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JP",
+   "titre": "Really like it for my acne skin",
+   "texte": "Ive only Been using it for a little over a week but man what a difference this has made to my skin! I have very problematic, flaky, acne prone, cloggged skin with seborrheic dermatitis. This is the first \"oil\" that hasn't broken me out, lays beautifully under makeup and is very soothing at night. 3 small drops is more than enough per application!!! Otherwise yes it will get oily. Haven't had any problems with pilling. I use it after cleansing and after my buffet serum (now called something else) and before my moisturizer. Excited for more positive results with continued usage ☺️",
+   "date": "2024-04-05",
+   "verifie": true,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa",
+   "titre": "The perfect moisturizer for those who don't like creams",
+   "texte": "This was the first product from The Ordinary that I tried and it's still in my regimen. I'm 52 with mostly oily skin. My skin was very oily when I was younger but that has gotten better as I've aged. However, a hill that I will die on is that if you treat oily skin like dry skin then your skin will balance out and this product is a great start. I use this on top of another serum that I use and my skin thanks me every time I put it on. I especially love this product because I don't care for creams on my skin and this hydrates without feeling heavy. I'll use it as long as they make it.",
+   "date": "2024-12-14",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Jessie",
+   "titre": "Nothing like the discontinued HEMI-Squalane",
+   "texte": "I'm glad that this is working for some users, but this product is NOTHING like the HEMI-squalane that was recently discontinued and which was my hands-down #1 GOAT Ordinary product. I hate that it's gone. I can't use this one at all: it's thicker and greasier than the hemi, and is not only too heavy for use in hair but it also makes my skin break out like crazy (which the hemi never did). Please, please, please consider manufacturing BOTH products - you are reaching two totally different user bases with each one.",
+   "date": "2023-12-18",
+   "verifie": true,
+   "utiles": 45,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

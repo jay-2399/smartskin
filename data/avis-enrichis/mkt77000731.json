@@ -1,0 +1,153 @@
+{
+ "ref": "mkt77000731",
+ "asin": null,
+ "pid": "mkt77000731",
+ "source": "ulta",
+ "nom": "skinChemists Green Caviar Mask",
+ "note": 4.82,
+ "nbAvis": 56,
+ "lus": 40,
+ "collectes": 40,
+ "segments": {
+  "combination": "One reviewer with combination-to-oily skin found the product tacky and dry-feeling rather than moisturizing (0).",
+  "dry": "Reviewers describe the mask as an effective pick-me-up for dry or dehydrated skin, sorting it out after a single use, and note the absence of dry patches or morning dryness afterward (17, 28, 33)."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers report visibly hydrated, soft, and plumped skin after use, some noting the effect lasts into the next morning; one reviewer found it left skin feeling dry and tacky instead (6,7,11,15,19,20,28,31 vs 0).",
+  "aging": "One reviewer describes the product as designed to smooth fine lines and wrinkles for a more radiant, youthful look, though this is a product description rather than a personal before/after account (13)."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling refreshing sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tacky residue that resists makeup",
+   "polarite": "neg",
+   "concerne": [
+    "combination",
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Smooth easy application texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult to rinse off",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Attractive packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast drying on skin",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Shay",
+   "titre": "Tacky Moisturizer",
+   "texte": "I really wanted to love this moisturizer because of its price point but I could not hate it more. It is extremely tacky and you cannot build any makeup over it, primer or no primer it just basically smudges over your face. I tried it at night and in the morning without makeup and it just feels dry and tacky on my skin. I do not have dry skin, I have more of a combination skin leaning more towards oily so for a moisturizer to feel dry on my skin is shocking.",
+   "date": "2026-01-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "L Morvan",
+   "titre": "Smooth soft and hydrated.",
+   "texte": "I really like this caviar mask. It allows for deep cleaning of my skin. Upon application, the product is a bit dry and leaves a layer on my skin. After letting it sit for 10 minutes, I rinse my skin with water. Once the product is washed off, my skin remains smooth, soft, and hydrated. The product itself does not have a particular scent and is not unpleasant to wear.",
+   "date": "2023-12-04",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "J Hawkins",
+   "titre": "I love the fact.",
+   "texte": "I love the fact that this mask is left on overnight. It goes on smoothly, and I love the feel of my skin in the morning; there is none of that early morning dryness.",
+   "date": "2022-09-18",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "S Millward",
+   "titre": "Excellent pick me.",
+   "texte": "An excellent pick-me-up for dry or dehydrated skin. It sorted my skin out after just one use; I couldn't believe it!",
+   "date": "2023-04-18",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "P Cardoso",
+   "titre": "The green caviar.",
+   "texte": "The Green Caviar Mask is one of skinChemists' most popular products. It is a facial mask that contains green caviar extract, hyaluronic acid, and aloe vera, among other ingredients. The Green Caviar Mask is designed to help improve skin texture and appearance by smoothing fine lines and wrinkles, leaving the skin looking more radiant and youthful.",
+   "date": "2023-04-16",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "C Martelli",
+   "titre": "The skin soft and smooth.",
+   "texte": "The mask dries very quickly. It leaves the skin soft and smooth after use. It is a bit difficult to wash off, but I recommend it.",
+   "date": "2023-05-04",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "R Barrett",
+   "titre": "The morning were lovely soft.",
+   "texte": "I was lucky enough to win this on Instagram. As a skincare addict, I was very keen to try it. I tried both products and loved them equally. The texture was perfect, just how I like it, with a very pleasant perfumed aroma. My skin felt a little tight after use, but the results in the morning were lovely, soft skin. All in all, I would definitely purchase this product in the future.",
+   "date": "2024-04-23",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

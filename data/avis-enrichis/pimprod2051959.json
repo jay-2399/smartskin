@@ -1,0 +1,176 @@
+{
+ "ref": "pimprod2051959",
+ "asin": null,
+ "pid": "pimprod2051959",
+ "source": "ulta",
+ "nom": "VT Cosmetics Reedle Shot 50",
+ "note": 3.2,
+ "nbAvis": 10,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone skin report mixed results, from severe breakouts and tingling to gradual improvement in blackheads and whiteheads after continued use.",
+  "sensitive": "Sensitive-skin reviewers are split: several tolerate the product well starting at the beginner level with only a mild, fading tingle, while others report burning, rash, redness, and painful breakouts.",
+  "combination": "One reviewer with normal-to-combination skin developed unusual breakouts in a new area after about a week of consistent use."
+ },
+ "concerns": {
+  "spots": "Several reviewers report new breakouts, including deep painful pimples and cystic-type acne in unusual areas, though two describe improved whiteheads and prevented post-pimple marks over three months.",
+  "blemishes": "Same pattern as spots: most reviewers describe worsening or new blemishes shortly after starting, while a minority report gradual reduction in small bumps around the nose and chin.",
+  "redness": "Redness and irritation are commonly reported right after application; most describe it as temporary and subsiding with continued use or lower frequency, but one reviewer reports lasting extreme redness and texture change.",
+  "barrier": "One reviewer states the product damaged a previously healthy skin barrier, causing painful breakouts despite no prior skin issues.",
+  "aging": "Not addressed in the reviews supplied.",
+  "dehydration": "One reviewer reports feeling more hydrated and smooth after overnight use, with better absorption of subsequent skincare products.",
+  "oiliness": "Not addressed directly, though oily-skin reviewers focus on breakouts rather than oil control."
+ },
+ "aspects": [
+  {
+   "libelle": "Tingling on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Tingling fades with use",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Improves absorption of other products",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or painful reaction",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Needs gradual introduction with actives",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin smooth and hydrated overnight",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Risk of clogging pores",
+   "polarite": "neg",
+   "concerne": [
+    "oily",
+    "spots"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Sevilya",
+   "titre": "DONT BUY THIS",
+   "texte": "Ive had clear skin and healthy skin barrier before I started using this product, gave me the worst acne/painful breakouts. Wouldn't recommend to anyone who has sensitive skin or acne prone skin, has lots of pore clogging ingredients. Non comedogenic!",
+   "date": "2026-04-04",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Emma",
+   "titre": "Terrible!!!!!",
+   "texte": "I bought this a couple days ago as i kept seeinf it on social media. My skin has been 100% clear for the last 6 months. I put this on my face as directed and it hurt / burned SO bad!!! I woke up woth a rash around my mouth, 7 DEEP painful pimples and extremely textured and red skin. My face is not sensitive so I am very shocked this happened. DO NOT BUY!!!!!!",
+   "date": "2026-02-20",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lauren",
+   "titre": "NOT for me!",
+   "texte": "My skin wasn't the clearest before I started using this, but after using it for about a week consistently I noticed it really made my skin breakout. I had acne on my upper cheekbone near my eye and I never breakout there. I have normal to combination skin. I thought it would help exfioliate but it just broke me out so I'll be returning it.",
+   "date": "2026-03-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Jordan",
+   "titre": "Not for me",
+   "texte": "I have oily/combo skin, prone to acne. Used this 3 times with a day off in-between and it freaked out my skin so I had to stop use. Caused a lot of tingling and temporary redness during use. Had to return.",
+   "date": "2026-03-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Martinii",
+   "titre": "After 3 months...",
+   "texte": "I've used this product for about three months so far and I do enjoy it. I have acne prone oily skin. I will say that it is a bit of a curve to introduce it into your routine. I would equate it to a chemical exfoliator in a way. I would recommend if you have skin on the more sensitive side to use it maybe once a week at first and be cautious of what other actives you use it with. I started using it when I had a Vit. C serum and since I wasnt sure how it would react, I would not use the two products on the same night. I also did notice redness the first few times, but this subsided as my skin got used to it and it became a regular fixture in my routine. I do think it helps prevent the hyper pigmentation that I tend to get after a pimple and that the little white heads around my nose and chin have diminished.",
+   "date": "2026-08-05",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "redness",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tina",
+   "titre": "Gentle yet effective!",
+   "texte": "Since I'm picky about what I use on my sensitive skin, I was hesitant at first, but this has worked wonders for me. There's a slight tingle when I first apply it, but it eventually goes away and I haven't woke up with any irritation either!",
+   "date": "2025-08-13",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bears",
+   "titre": "This is GOLD!!",
+   "texte": "Omg i used this overnight and my skin this morning looks like a literal filter this morning! All my skincare i applied after penetrated so deeply! I feel super hydrated and smooth. I started w the 50 because i wasnt sure what to expect. IM OBSSESSED! Im pretty sensitive but this was perfect. Slight tingle but nothing bad at all. If youve been debating just do it! Its straight magic!!",
+   "date": "2026-01-03",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "With only ten reviews and no mentions of aging, oiliness control, or mature skin, conclusions for those segments cannot be drawn."
+}

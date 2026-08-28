@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2031748",
+ "asin": null,
+ "pid": "pimprod2031748",
+ "source": "ulta",
+ "nom": "IT Cosmetics Bye Bye Makeup 3-in-1 Makeup Melting Cleansing Balm",
+ "note": 4.39,
+ "nbAvis": 1167,
+ "lus": 80,
+ "collectes": 115,
+ "segments": {
+  "dry": "Reviewers with dry skin report the balm leaves their face moisturized and not tight or cracky, with several calling it their best option for dryness.",
+  "sensitive": "Sensitive-skin reviewers are split: many report no irritation and gentle removal even around the eyes, but others describe burning, rash, or tearing since the reformulation, often tied to the fragrance.",
+  "mature": "One reviewer mentions the product works well for sensitive skin and all ages, suggesting suitability for mature skin, though this is not detailed further."
+ },
+ "concerns": {
+  "blemishes": "Several reviewers report new breakouts, cyst-like blemishes, or acne appearing hours to days after use, some blaming a greasy residue that isn't fully rinsed off; many other reviewers report no breakouts at all and find it non-comedogenic for them.",
+  "oiliness": "A few reviewers describe a greasy or waxy residue left on the skin after use, while others explicitly say it is not greasy and rinses clean.",
+  "dehydration": "Numerous reviewers with dry or dehydrated skin report the balm leaves skin feeling moisturized, soft, and not stripped, with no tightness afterward.",
+  "redness": "One reviewer reports the product burned her skin and left it looking sunburned, attributed to the fragrance.",
+  "barrier": "One reviewer with a facial nerve condition and reactive skin found the scent unbearable even without direct pressure, and another reported a rash all over the face after the reformulation."
+ },
+ "aspects": [
+  {
+   "libelle": "Rose fragrance divides users",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Effective at melting off makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and moisturized",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Greasy or waxy residue after rinsing",
+   "polarite": "neg",
+   "concerne": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Reformulation seen as downgrade from original",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value and generous jar size",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes stubborn waterproof mascara easily",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Mary",
+   "titre": "I would not buy this product again.",
+   "texte": "Broke out in cyst blemishes a several hours after I used it. I don't get blemishes. I saw ingredients listed that are toxic on label, harmful to health, according to internet search. This is not a clean product. No reviews were posted. Wonder why?",
+   "date": "2026-03-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Glow with Liz",
+   "titre": "I so wanted to love this, but causes me to breakout",
+   "texte": "I have used many balms, and i wanted to love this but everytime i use this after 2 days i get acne! I had stopped using and used a competitor and it got better. Its like you have to make sure you double wash my face after (which defeats the purpose) i always double cleanse! First ingredient is not acne friendly.",
+   "date": "2024-06-24",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "DJay",
+   "titre": "Disappointed in change",
+   "texte": "I loved the cleansing Balm makeup remover. I have sensitive skin with no issues. I loved how my makeup literally melted off my skin and left it feeling hydrated and clean. The new product has something in it that made my skin have a bad reaction. (rash all over my face).",
+   "date": "2024-04-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "desiree",
+   "titre": "Effective",
+   "texte": "This is effective at melting off makeup. it does require a little more work to rinse off than foaming cleansers, so you might use a little more water during rinsing. My skin feels very soft and smooth after using it. I don't feel that tightness that I get with most cleaners that will send me looking for my moisturizer as soon as my face dries. I really do like this a lot. I have picky sensitive skin and eyes, but absolutely no issues with this, even using to remove eye makeup. that all being said, man, it's pricy. There does seem to be a generous portion in the jar, though. It's the first balm I've tried, so I will definitely experiment with brands and compare performance with co$t.",
+   "date": "2025-05-31",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "klively32",
+   "titre": "Great product",
+   "texte": "I have extremely dry skin and this make-up remover is fantastic for that. Most make up removers leave my skin feeling dry and cracky but this one leaves it feeling moisturized. Definitely recommend this product.",
+   "date": "2024-03-31",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sherry",
+   "titre": "Great Choice for Me",
+   "texte": "I have dry skin, and this goes on like silk, easily gliding on and no pulling or tugging! It takes off all my makeup, and isn't harsh on my sensitive skin.",
+   "date": "2025-07-08",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SaleSeeker",
+   "titre": "Best makeup remover",
+   "texte": "I use this nightly to take off my IT products. It doesn't dry out my parched, sensitive skin, and I love the way my face and neck feel after I wash it off. No need to worry about clogged pores after using my cleansing balm.",
+   "date": "2024-01-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

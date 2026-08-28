@@ -1,0 +1,164 @@
+{
+ "ref": "mkt77003873",
+ "asin": null,
+ "pid": "mkt77003873",
+ "source": "ulta",
+ "nom": "MDSolarSciences Tinted Solar Stick SPF 40",
+ "note": 4.62,
+ "nbAvis": 84,
+ "lus": 63,
+ "collectes": 63,
+ "segments": {
+  "oily": "Reviewers with oily/combination skin describe the stick as greasy and not fully setting, and one says it is probably not suited to oily skin, though another with combination skin reports no breakouts.",
+  "dry": "Reviewers with dry or dry-normal skin report the formula feels hydrating and moisturizing, though one dry-skin reviewer describes it as leaving skin dry and uncomfortable with splotchy coverage.",
+  "combination": "Reviewers with combination skin find it greasy in hot/humid weather but also report it did not break out their skin.",
+  "sensitive": "Reviewers with sensitive skin report no stinging or irritation, and one with sensitive, acne-prone skin says it gives a flawless glow without issues.",
+  "normal": "One reviewer states the product is nice for normal skin.",
+  "mature": "One reviewer values the mineral SPF for helping prevent wrinkles alongside acne-scar protection, but no dedicated mature-skin complaints or praise beyond this are detailed."
+ },
+ "concerns": {
+  "aging": "One reviewer credits the mineral SPF with helping prevent wrinkles and damage; otherwise anti-aging effects are not detailed.",
+  "dehydration": "Several reviewers describe the formula as hydrating, soothing, and non-sticky, improving dryness; one reviewer, however, reports it left skin feeling dry and uncomfortable.",
+  "redness": "One reviewer reports it stopped her nose from looking red after wiping, describing it as covering redness effectively.",
+  "barrier": "No reviewer specifically discusses barrier repair or damage.",
+  "spots": "One reviewer with acne scarring reports the tint helps camouflage discoloration and scarring for a more even look.",
+  "blemishes": "One reviewer with acne-prone skin reports no breakouts and a flawless glow; another with combination skin also reports the formula did not cause breakouts, but one reviewer found it too greasy to layer without looking oily.",
+  "oiliness": "Multiple reviewers with oily or combination skin find it too greasy, especially in hot/humid climates, describing a slick finish that never fully sets; one counter-review says it wears without oily residue and is not greasy at all."
+ },
+ "aspects": [
+  {
+   "libelle": "Greasy, slick finish that resists setting",
+   "polarite": "neg",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "No white cast on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Convenient for hands-free on-the-go reapplication",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Product size too small for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, smooth gliding texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Uneven or splotchy application, hard to gauge coverage",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Domed stick shape awkward around nose and eyes",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "H",
+   "titre": "Greasy",
+   "texte": "Too greasy. It's like applying a stick of shea butter on my face. When I saw shea butter in the ingredients I didn't know it would be so much. Can't even layer it or else I'll look like I applied straight oil to my face.",
+   "date": "2026-07-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "eera",
+   "titre": "Great tint",
+   "texte": "I gave 4 stars because it is quite greasy for my oily/combination skin especially here in texas the weather is hot/humid. Maybe this would be good during colder days. But overall it is great for reapplying and the tint is not too dark and orangey.",
+   "date": "2021-12-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Lauren K",
+   "titre": "Love this stuff!",
+   "texte": "Great product, glides on easily. Just wish there was a smidge more color to the tint. Nice for normal or dry skin. Probably not for oily skin.",
+   "date": "2021-06-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah H",
+   "titre": "No white cast!",
+   "texte": "I love this stick because I hate putting on liquid sunscreen and this also gives you a bit of a glow and it's super easy to put makeup on top. I had the original stick and not the tinted but I definitely prefer the tinted, no white last at all for me! I also have dry-normal skin and this is amazing hydration too.",
+   "date": "2022-09-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hailey",
+   "titre": "The perfect on the go version of the Tinted Creme!",
+   "texte": "If you love the tinted creme, you'll love this. Hands down, it is always in my purse for on-the-go reapplication. I have super sensitive, acne-prone skin and this helps gives me a flawless glow and also Mineral SPF protection to prevent wrinkles or damage to my acne scarring!",
+   "date": "2021-04-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mariah",
+   "titre": "Really happy with this product",
+   "texte": "Gifted by MDSolarSciences. I love how simple this product is to apply. I just rub the stick onto my face. It's tinted so there's no white cast. I have combination skin and this formula didn't break out my skin. Overall, a beautiful product and I like it so much!",
+   "date": "2023-01-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Ann W.",
+   "titre": "Splotchy uneven coverage.",
+   "texte": "Splotchy uneven coverage. Leaves skin feeling dry and uncomfortable.",
+   "date": "2024-04-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

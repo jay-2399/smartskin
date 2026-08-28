@@ -1,0 +1,166 @@
+{
+ "ref": "xlsImpprod2420453",
+ "asin": null,
+ "pid": "xlsImpprod2420453",
+ "source": "ulta",
+ "nom": "Exuviance AGE REVERSE BioActiv Wash Antiaging Face Cleanser",
+ "note": 4.5,
+ "nbAvis": 215,
+ "lus": 77,
+ "collectes": 93,
+ "segments": {
+  "oily": "One reviewer with oily-combination, t-zone-heavy skin says the wash cleared blemishes within days.",
+  "dry": "Dry-skin reviewers report the product cleanses without stripping or drying, though a few say it dried their skin out and caused stinging severe enough to stop use.",
+  "combination": "Combination-skin reviewers (some oily-leaning) describe it as clearing blemishes and giving a smoothing effect with regular use.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it is non-irritating, gentle and even helps sensitive skin adjust over time, while others report burning, redness, rash-like breakouts, peeling, or a severe reaction requiring medical treatment.",
+  "mature": "Reviewers in their late 40s to 60s report smoother texture, evened tone, and diminished wrinkles or age spots with regular use, with one noting no visible reduction in dark spots."
+ },
+ "concerns": {
+  "aging": "Reviewers report smoother texture, improved elasticity, evened tone, and diminished fine lines or age spots with weeks to months of use; one reviewer saw no removal of dark spots despite a year of use.",
+  "dehydration": "Most reviewers say it cleanses without leaving skin dry, tight, or stripped; several dissent, reporting significant dryness, stinging, or needing to return the product due to how much it dried their skin.",
+  "redness": "Several reviewers describe new redness, blotches, or a sunburn-like appearance after use, sometimes with peeling; this is a minority but recurring complaint, mostly among sensitive-skin users.",
+  "barrier": "A few reviewers with reactive skin report irritation, puffiness around the eyelids, and a rash-like response; others with similarly sensitive skin report no issues and improved comfort over time.",
+  "spots": "One reviewer noted lightening of age spots and decreased nasal-labial discoloration; another long-term user reported no change in dark spots.",
+  "blemishes": "Multiple reviewers report clearer skin and fewer breakouts, including one who said it cleared blemishes within days and another who said it keeps breakout-prone skin clear; one reviewer says it made her acne worse.",
+  "oiliness": "Reviewers with oily or combination skin describe it as effective at cleansing without leaving a greasy residue, with one specifically noting it suits oily-combination t-zone skin well."
+ },
+ "aspects": [
+  {
+   "libelle": "Foaming texture on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes makeup effectively",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling or stinging sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight, non-greasy after-feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for a cleanser",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Weak lather compared to expectations",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump packaging convenience",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Laura",
+   "titre": "Ack! Sensitive skin beware",
+   "texte": "Wow! I used this for a few days and now look like I have a terrible sunburn, lots of red pimples (rash?), and peeling. The worst reaction I've had to something in awhile. :(",
+   "date": "2018-06-27",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Mais",
+   "titre": "Not for sensitive skin",
+   "texte": "I do not recommend this to anyone with sensitive skin . My face is completely irritated and my eyelids are red and puffy . It seems to have made my acne worse also .",
+   "date": "2016-01-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Awesome stuff",
+   "titre": "Finally found my holy grail",
+   "texte": "Love this, I have oily combination skin, mostly only in the t-zone but dry on cheeks and forehead. This CLEARED UP all my blemishes, I don't know how many face washes I went through and this only took a couple days to clear my skin up! I'm on my second bottle and still makes my face look great, as a medical esthetician I would recommend this to anyone younger people and older. For younger people it helps with blemishes and aid in future aging, older people, the ingredients in this help new cell turn over, the reason why we age is because our cell turnover slows down as we age.",
+   "date": "2019-06-08",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Heather",
+   "titre": "I am hooked for life",
+   "texte": "Best face wash ever! Have very sensitive skin and breakout easily, the only anti-aging wash that has actually WORKED! Had my sister try it and she is hooked also.",
+   "date": "2022-01-06",
+   "verifie": true,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Flower Girl",
+   "titre": "Best Cleanser ever!",
+   "texte": "Love this! The foam cleanser goes on very light and I even wondered if it was even working, when I first tried it. Afterwards,my face felt clean like never before! About 20 minutes later my skin did feel sensitive. Since I have sensitive skin, I started slowly with using it every other night and now 2 weeks later I use it twice a day. Wow! My pores are no longer clogged, my skin feels so clean and my skin is no longer sensitive to it. I also use the Age Reverse Total Correct+Sculpt serum in this line. The serum seems to work much better now that my pores are no longer clogged and I am able to use less serum as a result. Yes, it is pricey for a cleanser, but for me a real game changer. I hope I never run out!",
+   "date": "2017-09-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erin M",
+   "titre": "Love this product!",
+   "texte": "I have used this product now for about 9 months and I love it. I have combination skin and use it every day - at least once/day, and sometimes twice/day. I keeps my skin clear (I tend to breakout), and has a smoothing effect.",
+   "date": "2016-05-12",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Dechala's Mom",
+   "titre": "Good Product for Aging and Aged Skin",
+   "texte": "I have been using this product for a year now and I find it to be easy to use and mild enough for my sensitive skin. While I haven't seen any removal of dark spots, it has helped my skin to remain smooth and (with the companion day cream) healthy looking and feeling. This is a plus for me since as a 60 year old women, I choose to not wear make-up. I get compliments constantly.",
+   "date": "2016-02-03",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

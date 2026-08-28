@@ -1,0 +1,174 @@
+{
+ "ref": "pimprod2035666",
+ "asin": null,
+ "pid": "pimprod2035666",
+ "source": "ulta",
+ "nom": "Good Molecules Acne Foaming Cleanser",
+ "note": 3.54,
+ "nbAvis": 386,
+ "lus": 80,
+ "collectes": 106,
+ "segments": {
+  "oily": "Oily-skin reviewers are divided: several credit the cleanser with reducing oil and breakouts, while others report it left oily skin dry and flaking.",
+  "dry": "Reviewers describe the cleanser as drying, sometimes leaving dry patches or flaky, tight skin, even when paired with moisturizer.",
+  "combination": "Combination-skin reviewers mostly report reduced breakouts and better balance, though a few still note dryness afterward.",
+  "sensitive": "Sensitive-skin reviewers are split between severe burning, itching, and redness on one side and, on the other, several who report no irritation and good results if used sparingly or only on acne spots.",
+  "normal": "A few reviewers who describe their skin as normal still report burning and marked redness after use.",
+  "mature": "One 35-year-old reviewer with new-onset adult acne reports clearer skin but consistent redness, heat, and dryness after rinsing."
+ },
+ "concerns": {
+  "aging": "One mature reviewer (35) mentions using the product amid new-onset acne rather than for aging itself, alongside working on hyperpigmentation/dark spots.",
+  "dehydration": "Many reviewers describe dryness or flaky patches after use, including on naturally oily skin; some manage this by pairing with a moisturizer or using the cleanser only a few times a week, but a minority report no dryness at all.",
+  "redness": "Redness is the most frequently reported reaction, ranging from brief tingling that fades within minutes to severe, hours-long burning and 'cherry red' skin; some reviewers say the redness disappeared as their skin adjusted, others stopped use because of it.",
+  "barrier": "One reviewer explicitly warns the product can 'break your skin barrier' if used daily and recommends rest days; another reports it stripped natural oils on sensitive skin, though several others say it did not feel stripping.",
+  "spots": "Reviewers frequently mention using the cleanser to work on post-acne dark spots and hyperpigmentation alongside other Good Molecules products, generally describing gradual fading.",
+  "blemishes": "Most reviewers who mention blemishes report visible reduction in breakouts and clearer skin over days to weeks; a smaller number report no change or new breakouts, including cystic pimples in some cases.",
+  "oiliness": "Oily-skin reviewers commonly report the cleanser cut down oil and helped control breakouts, though a couple say it left oily skin paradoxically dry."
+ },
+ "aspects": [
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Redness fades with continued use",
+   "polarite": "pos",
+   "concerne": [
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Weak or inconsistent lather",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or unusual scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable price point",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Does not remove makeup well alone",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin feels clean without tightness",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "",
+   "titre": "Burned My Skin",
+   "texte": "I've never had such a bad reaction to a skin care product in my life. Within seconds of applying this product, my face began to feel hot. I immediately washed it off with cool water and my face was left red and burning. It hurt so much, the pain lingered for about an hour and the redness wasn't gone til the nest day. I have \"normal\" skin but I can only image how terrible this would be on someone with sensitive skin. Please be mindful of this if you are considering using this product.",
+   "date": "2024-07-29",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "normal",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Emily",
+   "titre": "Sensitive acne prone skin",
+   "texte": "I've had consistent acne my whole life and have tried a lot of face washes. However, I also have pretty sensitive skin and live in Nevada, the driest state. Within a day of using this facewash, my acne was substantially better. Your face feels clean, but not overly striped. However, after a week of using this face wash, my forehead and nose area began to feel dry and flaky, even after hyaluronic acid and cream moisturizer application post face wash. This face wash also begin to burn my eyelids and forehead after washing my face and applying moisturizer after a week or so. Long story short, it is helping my acne but is too strong for other areas of my sensitive skin on my face. I would recommend only applying the face wash on areas that are acne prone. it is not an apply to your hands and massage all over you face kind of wash. I might switch to nights only and use a gentler face wash in the morning but overall if you have sensitive, acne prone skin I would recommend, just apply to certain areas with your finger tips only.",
+   "date": "2024-12-10",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sam",
+   "titre": "Works but beware if you're skin is sensitive",
+   "texte": "At 35 I suddenly started have the worst acne I've had in my life. I've always gotten pimples, but not this many or this often. I bought this hoping it would help, which it has so far! My skin has cleared after a couple of weeks for the most part and I'm working on clearing up the dark spots left behind. Unfortunately though my skin gets very red, hot and dry immediately after rinsing. I've tried to alternate this with the hydrating facial cleansing gel but it still gets red each time. As much as I know my skin gets angry. I've continued to use it alternating with the other cleanser because I really want my skin to clear.",
+   "date": "2024-11-19",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Sarah",
+   "titre": "This is a must for acne prone skin girlies!!",
+   "texte": "My skin has never been better!! This acne foam treatment helped me a lot with face texture and pimples in general! I DO WARN YOU THOUGH this product can break your skind barrier if not used correctly!! This is not an everyday cleanser!!!! I only use this product 3 times a week every other day I highly recommend having resting days during any skin care! (What i mean is ex: wed,sat, sun, only a normal cleanser and moisturizer, yes i do this actually) If to many additives with this product it will BREAK your skin barrier!! PRO TIP only use this at NIGHT, these steps helped me see a lot of improvements in my skin care. I DEFINITELY RECOMMEND wearing sunscreen everyday with this product since salicylic acid can make your skin very sensitive!! Progress will show it takes time so be patient!! Overall I recommend this for my acne-prone girlies or anyone who struggles with hormonal acne!! I would definitely buy this again!!",
+   "date": "2025-11-10",
+   "verifie": false,
+   "utiles": 16,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Izzy",
+   "titre": "Love this &lt;33!!",
+   "texte": "TL;DR: It helped me cleanse my skin properly, so I now know that my skin is combination. It absorbs hydrating products better now, and my skin glows. (I am the one on the top in the first photo. I am the one pictured to the right in the second photo.) This foaming cleanser has changed my skin for the better. I kept a similar routine but switched to Good Molecules after seeing the price point. It's been over a year since the switch, and a little goes a very long way with everything I use from this brand. My skin was dull before, not really absorbing any of the hydrating products I had, and I was still having regular breakouts. Now, however, it's just glowing and bounces back when I press on my face. I may try the gel cleanser next since I do use a gel moisturizer. My skin was very much dry but over compensated by overproducing oil, so now that I've found a good cleanser, I use moisturizer only on my cheeks and jawline.",
+   "date": "2024-09-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gabby (Esthetician)",
+   "titre": "Good for Oily and Combination Skin",
+   "texte": "I have oily combination skin. The foam helps remove the oilyness (which causes acne) from my skin, and has helped clear up my face. Salicylic is a exfoliant if your face feels dry thats because its removing the dead skin and debris, thats normal. I like to use a gentle cleanser in am and my salicylic in pm. Also remember to wear your spf while on this cleanser, since this bha will increase your skin sensitivity to the sun. :) 10/10",
+   "date": "2025-04-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "hari",
+   "titre": "doesn't work:(",
+   "texte": "although this product didnt burn my skin like it did many others, it still didnt function well. it was extremely drying, even on my extremely oily skin—i was left with dry patches of peeling dead skin. it also did nothing to help my acne, though i dont think it made it any worse. granted, ive tried almost everything under the sun to clear my acne and nothing has worked.",
+   "date": "2024-08-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

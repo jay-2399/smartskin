@@ -1,0 +1,149 @@
+{
+ "ref": "pimprod2058725",
+ "asin": null,
+ "pid": "pimprod2058725",
+ "source": "ulta",
+ "nom": "celimax Pore + Skin Clarifying Daily Sunscreen",
+ "note": 3.86,
+ "nbAvis": 7,
+ "lus": 6,
+ "collectes": 6,
+ "segments": {
+  "oily": "Reviewers with oily or combo-oily skin are split: some report the sunscreen becomes increasingly shiny/greasy through the day and prefer it for winter, while others with combo-oily or combo-oily-and-sensitive skin say it stays comfortable and can be mattified further with powder.",
+  "combination": "Combination-skin reviewers report mixed results, from a worsening glow/greasiness over the day to good all-day comfort, sometimes paired with a mattifying powder on top.",
+  "sensitive": "Sensitive skin reviewers report both a breakout issue (closed comedones on sensitive acne-prone skin) and, separately, good tolerance with no irritation on combo-oily highly sensitive skin."
+ },
+ "concerns": {
+  "blemishes": "Reports are mixed: one reviewer with sensitive acne-prone skin says it caused closed comedones, while another with acne-prone skin says it is the only sunscreen that has not broken her out and even helped her hyperpigmentation.",
+  "spots": "One reviewer with acne-prone skin reports it helps care for hyperpigmentation alongside not breaking her out.",
+  "oiliness": "One reviewer with combo-oily skin found the shine/greasiness intensified over the course of the day, while another with combo-oily and sensitive skin controls residual shine by applying a mattifying powder on top.",
+  "dehydration": "Multiple reviewers describe the formula as hydrating, with skin feeling fresh and not tight through the day."
+ },
+ "aspects": [
+  {
+   "libelle": "No white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sits well under makeup, no pilling",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance free",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Gets shinier/greasier as day goes on",
+   "polarite": "neg",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Can cause closed comedones",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Feels like added skincare layer, hydrating",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "A.",
+   "titre": "NOT for oily skin",
+   "texte": "I have combo-oily skin and this did not work for me. It has a nice smooth texture upon application and a nice glow at first. But the glow just gets more agressive as the day goes on lol. Will save this for the winter maybe.",
+   "date": "2026-07-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Li",
+   "titre": "Closed comedones",
+   "texte": "I honestly really liked the formulation on this sunscreen as its very hydrating however It was just not for me. I have sensitive acne prone skin and it does cause closed comedones.",
+   "date": "2026-08-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Isabelle",
+   "titre": "Skincare like sunscreen",
+   "texte": "It's been so hot lately, and I've been absolutely loving this sunscreen. It feels more like an extra layer of skincare than a traditional sunscreen. It's lightweight, comfortable, and doesn't leave my skin feeling heavy or greasy, even in the heat. It's also fragrance free and blends in seamlessly without leaving any white cast, which is a huge plus for me. I especially love how well it sits under makeup. My foundation glides on smoothly without pilling or looking patchy, and my skin still feels fresh and hydrated throughout the day. It's quickly become an everyday essential in my summer skincare routine!",
+   "date": "2026-08-04",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Michelle",
+   "titre": "Favourite Korean Sunscreen",
+   "texte": "I have used three full tubes of this sunscreen, and I can honestly say it has become one of my favorite sunscreens I've ever tried. The texture is incredibly lightweight and absorbs into the skin almost instantly without feeling. It layers beautifully under makeup, so I never have to worry about pilling or my foundation separating throughout the day. One of the things I love most is that it leaves absolutely no white cast! If you're looking for a sunscreen that is lightweight, hydrating, makeup-friendly, and doesn't leave a white cast, I highly recommend giving this one a try.",
+   "date": "2026-07-22",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Rick",
+   "titre": "My all time favorite",
+   "texte": "Skin type: Acne-prone I have used tons of sunscreen (both korean brands and western brands) and this is the only one that doesn't brake me out, goes well under my makeup and helps care for my hyperpigmentation as well. I use it year long during summer and winter!! recommend it 10000/10",
+   "date": "2026-07-22",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Miamiboy",
+   "titre": "Holy Grail",
+   "texte": "Hardly ever leave reviews BUT this is my holy grail for facial sunscreen and a huge plus that it has serums and treatment within the product. Highly recommend! PS. I have combo oily & highly sensitive skin & this works for me. If you like more matte i use a lightweight sunscreen setting powder over it to combat my combo oilt skin",
+   "date": "2026-07-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": "Only 7 reviews are available, so conclusions per skin type and concern rest on very small samples."
+}

@@ -1,0 +1,161 @@
+{
+ "ref": "mkt77000536",
+ "asin": null,
+ "pid": "mkt77000536",
+ "source": "ulta",
+ "nom": "Miami Beach Bum Save Face SPF 50 Mineral Face Sunscreen Serum - Sheer, Makeup-Friendly",
+ "note": 4.82,
+ "nbAvis": 109,
+ "lus": 75,
+ "collectes": 78,
+ "segments": {
+  "oily": "Reviewers describe the formula as non-greasy and lightweight, and several say it does not clog pores or trigger breakouts on oily-prone skin.",
+  "dry": "One reviewer with dry skin notes the product is slightly greasy but welcomes it, and others report it leaves skin feeling soft, hydrated and plump rather than dry.",
+  "sensitive": "Reviewers with sensitive skin, rosacea, or a child's sensitive skin report no irritation or breakouts, and several specifically value the unscented formula for this reason.",
+  "mature": "A couple of reviewers mention using it to prevent skin aging and sun damage, framing it as part of an anti-aging routine, without reporting negative effects.",
+  "normal": "General users without a stated concern describe the daily wear as light, smooth and easy to apply."
+ },
+ "concerns": {
+  "aging": "Reviewers frame consistent SPF use as aging prevention, citing sun damage avoidance; no one reports a visible anti-aging effect from the product itself.",
+  "redness": "One reviewer with rosacea reports no breakouts or flare-ups from the product, describing it favorably; no other redness-specific feedback is given.",
+  "barrier": "A single reviewer credits the aloe content with helping fortify her skin barrier; otherwise barrier is not widely discussed.",
+  "spots": "Reviewers report protection from sunburn even in strong sun, desert heat, high altitude, and daily outdoor exposure, with only one reviewer describing occasional cheek burn without a generous layer.",
+  "blemishes": "Most reviewers say the sunscreen does not cause breakouts or clog pores, including one who says 'everything breaks me out' but this product did not; no reviewer reports new blemishes.",
+  "oiliness": "Multiple reviewers describe the finish as non-greasy, non-oily and non-sticky, with only one dry-skin reviewer noting slight greasiness that she does not mind."
+ },
+ "aspects": [
+  {
+   "libelle": "White cast on application",
+   "polarite": "neg",
+   "concerne": [
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented or mild scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Strong or off-putting smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sustainable, reef-safe packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Not waterproof, can drip when sweating",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Nat",
+   "titre": "Terrible Smell",
+   "texte": "I didnt try this sunscreen because the smell was so offputting. Nervous to even put it in my face.",
+   "date": "2026-07-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Mel",
+   "titre": "Not thick, no breakouts, great under makeup",
+   "texte": "I've been looking for a sheer mineral sunscreen after wearing too many thick ones that, when coupled with moisturizer and foundation, make my face overwhelmed. Save Face is thin in consistency but easily layerable. Price is high for such a small bottle but its the best sunscreen I've found yet. My single bottle has lasted for about 1.5 months with daily application. (I use a different sunscreen for my body). I will say that the CA desert sun is harsh and I can feel a burn on my cheeks sometimes when wearing this so make sure to put a generous layer on if you will be in direct sun. Otherwise a light layer under makeup works just fine. It is also not waterproof so it will drip into your eyes if you sweat but I appreciate that it doesn't take forever to scrub off like waterproof sunscreens.",
+   "date": "2025-12-05",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elliott",
+   "titre": "It works!",
+   "texte": "I have a very fair skin that easily burns. We'll with this product it didn't, moreover I ended up having a nice golden glowing tan.",
+   "date": "2022-09-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marcela",
+   "titre": "5 Stars",
+   "texte": "This sunscreen is quite sheer and light. It is slightly greasy, but I have dry skin, so the greasiness does not bother me.",
+   "date": "2022-09-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gabbie",
+   "titre": "5 Stars",
+   "texte": "As someone who suffers from rosacea and sensitive skin I can say this has NOT broke me out. A fan of it so far!",
+   "date": "2022-08-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gabriella",
+   "titre": "5 Stars",
+   "texte": "It rubs in so easily and doesn't bother my kid's sensitive skin!",
+   "date": "2022-08-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Samantha",
+   "titre": "4 Stars",
+   "texte": "Leaves my face feeling so soft! I also appreciate how the aloe ingredients fortifies my skin barrier.",
+   "date": "2022-08-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

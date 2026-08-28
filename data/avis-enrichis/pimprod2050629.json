@@ -1,0 +1,156 @@
+{
+ "ref": "pimprod2050629",
+ "asin": null,
+ "pid": "pimprod2050629",
+ "source": "ulta",
+ "nom": "RODAN + FIELDS Hydra Mask Gel Cream with Peptides for Overnight Barrier Repair",
+ "note": 4.78,
+ "nbAvis": 751,
+ "lus": 64,
+ "collectes": 66,
+ "segments": {
+  "dry": "Reviewers describing dry, flaking or cracking skin report the gel cream restored comfort and hydration within days, though one dry-skin user (0) says it made no noticeable difference.",
+  "mature": "Reviewers who mention wrinkles or fine lines report a visible softening, with one crediting it for looking younger.",
+  "combination": "One reviewer notes the product is not oily and hydrates without feeling greasy, a comment made in the context of otherwise normal-to-combination skin.",
+  "normal": "General users without a stated skin issue mostly describe smoother, softer, more hydrated skin with daily or nightly use."
+ },
+ "concerns": {
+  "dehydration": "The large majority of reviewers report strong overnight hydration, a soft plumped feel and a hydrated glow by morning; one reviewer with dry skin found no real change and one felt it did not add much beyond a temporary glow.",
+  "aging": "Several reviewers report a visible softening or lessening of fine lines and wrinkles with regular use, though this is only mentioned by a minority and no one reports it failing to help with aging specifically.",
+  "barrier": "Reviewers describe the product repairing an overnight barrier-type dryness (flaking, cracking, winter dryness), with consistent relief reported and no dissent noted for this concern."
+ },
+ "aspects": [
+  {
+   "libelle": "Smooth, quick-absorbing gel texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy, non-sticky finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Too heavy to wear under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Jar design causes product loss and mess",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slow shipping experience",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Carolyn S",
+   "titre": "Didn't help my dry skin",
+   "texte": "I thought this would help more, but didn't notice a big difference.",
+   "date": "2026-03-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristi D",
+   "titre": "Fantastic Moisturizer!!",
+   "texte": "Between the cold weather and the stress in my life, my skin was paying the price. It was dry, flaking, cracking. This moisturizer saved the day! With daily use, and after only a few days I saw noticeable results. It's a nice, creamy finish, too - not greasy! 10 out of 10!!",
+   "date": "2026-04-03",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CeCe C",
+   "titre": "Multiple uses for Hydration mask",
+   "texte": "Great if you get too much sun. After a hot shower when your pores are open, put a layer of mask on and leave it. It'll be absorbed. It's a great addition for those with drier skin. Some will use all year. Some will need during colder weather.",
+   "date": "2026-03-21",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sharon A",
+   "titre": "Hydra mask gel cream is a winner!",
+   "texte": "I could tell a difference in one day. My skin was very dry. This product really helps.",
+   "date": "2026-03-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Cindie S",
+   "titre": "Hydra mask",
+   "texte": "Love how it goes on. There is a very nice cooling effect. Definitely feel hydrated and fine lines are basically gone!!!:relaxed:",
+   "date": "2026-03-18",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gail W",
+   "titre": "Noticeable difference",
+   "texte": "This gel cream is smooth and cooling. I have noticed lessening of my wrinkles. It's so nice. I look forward to my evening routine.",
+   "date": "2026-03-21",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Ann H",
+   "titre": "Messy",
+   "texte": "Lost a good amount of the product when first opening the jar due to its adherence to the lid. It applies smoothly and seems to hydrate well when used. However, I typically turn to other hydrating serums to avoid the mess encountered if you don't open the jar on a level surface.",
+   "date": "2026-03-27",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

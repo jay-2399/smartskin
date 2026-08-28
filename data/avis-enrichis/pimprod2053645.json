@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2053645",
+ "asin": null,
+ "pid": "pimprod2053645",
+ "source": "ulta",
+ "nom": "medicube One Day Exosome Shot 2000",
+ "note": 4.56,
+ "nbAvis": 18,
+ "lus": 16,
+ "collectes": 16,
+ "segments": {
+  "dry": "One reviewer with rosacea and dry, hyper-sensitive skin reports dramatic texture improvement and smaller pores with no reactivity, while another using it alongside a drying AHA elsewhere reports no dryness from this product specifically.",
+  "sensitive": "Reviewers describing sensitive or fair skin report either no irritation and quick visible improvement, or the opposite: burning, tingling that persists after washing, and breakouts followed by skin shedding.",
+  "normal": "One reviewer with self-described normal skin reports the serum resolved a recurring nostril bump and left skin smooth, neither dry nor oily.",
+  "mature": "A 52-year-old reviewer reports visible improvement within a few weeks using it in her nighttime routine."
+ },
+ "concerns": {
+  "aging": "The one mature-skin reviewer (52yo) reports a visible difference after a few weeks of nighttime use.",
+  "dehydration": "Reviewers mention skin feeling plump, smooth, and not dry after use; one contrasts it favorably with a prior AHA serum that had left her skin scaly and dry around the mouth.",
+  "redness": "A rosacea-affected reviewer reports her sensitive, reactive skin tolerated the product well and improved in texture, tone, and pore size without triggering reactivity.",
+  "barrier": "One reviewer reports ongoing tingling upon washing days after application along with visible skin shedding, suggesting barrier disruption; others with sensitive skin report no such reaction.",
+  "spots": "One reviewer reports a long-standing, recurring bump on her nostril fully resolved; another reports breakouts and blemishes clearing within two days of use.",
+  "blemishes": "Most reviewers who mention blemishes report clearing or improvement within days to weeks; however, two reviewers report new breakouts starting after they began using the product, one alongside burning and skin shedding.",
+  "oiliness": "One reviewer describes her skin as neither dry nor oily after use, implying balanced oil levels, though this is not widely discussed."
+ },
+ "aspects": [
+  {
+   "libelle": "Tingling or prickling on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smoother, silkier skin texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible pore size reduction",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick, pleasant serum consistency",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning sensation and skin shedding",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Fair pricing for results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Adjustment period before benefits appear",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Lisa",
+   "titre": "All the hype, but….",
+   "texte": "All the hype about this….I tried this product for several weeks, I did not notice any changes in my skin except the breakouts that started after using this.",
+   "date": "2026-01-18",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lisa",
+   "titre": "It burns my face",
+   "texte": "I applied this product and I am still feeling the effects. It tingled immediately upon application. The moisturizer helps to minimize the itch and tingles. The next day, I broke out. Over the next several days, my skin started to shed. I don't know if that's the desired effect, but my skin still tingles when I wash my face.",
+   "date": "2026-04-01",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lily",
+   "titre": "Best AHA serum I've used",
+   "texte": "I have been using a variety of AHA/BHA products since I was 16 (I'm 22 now). Bear in mind, my skin is mostly normal. I put the serum on the back of my hand before i put it on my face, and the spot where i applied it was immediately softer once dried. Ive been using the serum for a little over a week and it's crazy how quick that difference was. I have this perpetual pimple/bump on my right nostril. Ive had it on and off for the past two or three years. It's gone. I thought my skin was fairly soft with my normal products but this one makes my skin as smooth as silk. The AHA serum that i was using before ended up drying out the skin around my mouth, making it scaly. Using this once daily everywhere it is recommended, my skin is not dry. It is not oily. It is perfect.",
+   "date": "2025-10-26",
+   "verifie": false,
+   "utiles": 56,
+   "peau": "normal",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Wendolyn",
+   "titre": "This. This is it.",
+   "texte": "I'm absolutely amazed with this product. I have rosacea and dry skin so my skin is hyper sensitive. It is a hassle to find products that don't break me out or makes my skin reactive due to my skin's sensitive nature. I've been using this for about a week (I can typically tell a product doesn't work within a few hours to 1 day. Rarely it takes 2 weeks) but since the first day I saw results. I always struggled with texture but I can't do physical exfoliants and most chemical exfoliants are too harsh for me. I've a dramatic difference in my skins texture and my pores are starting to become smaller. Not only that, it's brighter! This product is amazing, I'm absolutely in love with it. My skin has been looking so much nicer since I've been using it. I am absolutely floored. Past the 2 week mark if my skin doesn't have problems with it, I'll be making it my holy grail. For now, I hesitantly say, I can't live without it.",
+   "date": "2025-12-10",
+   "verifie": false,
+   "utiles": 54,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jenna",
+   "titre": "LOVE this product!",
+   "texte": "I've been struggling with uneven tone and texture and large pores what seems like forever and this product has helped SO much! The little tingling \"needles\" was an odd experience at first, but now I've actually grown to love it. I put this on right after washing my face in the morning and before my face cream. I don't even have to wear my BB cream anymore if I choose not to and get LOTS of compliments on my skin now. I highly recommend giving this a try if you've been struggling with any facial skin imperfections.",
+   "date": "2026-03-20",
+   "verifie": false,
+   "utiles": 26,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Badmommy2026",
+   "titre": "This really works!",
+   "texte": "Well Im in awe of medicube. They just keep putting out serums that work with my 52yr old skin. This one tingles a lil bit but i added it to my nightime routine and I can see a difference in only a few weeks.",
+   "date": "2026-01-22",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sam",
+   "titre": "My skin loves this",
+   "texte": "My skin feels and looks so plump after using this!! The prickly feeling took some getting used to. I have fairly sensitive skin and this product doesn't upset my skin. My skin looks and feels so smooth and supple",
+   "date": "2026-01-14",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

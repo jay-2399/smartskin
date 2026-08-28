@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2053655",
+ "asin": null,
+ "pid": "pimprod2053655",
+ "source": "ulta",
+ "nom": "Personal Day All Covered Salicylic Acid Brushed Blemish Patches",
+ "note": 4.61,
+ "nbAvis": 51,
+ "lus": 43,
+ "collectes": 43,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin are split: some say these patches are too strong, causing increased redness, dryness, or a pimple becoming more active, while others with acne-prone sensitive skin call them a staple that reduces pimples effectively without irritation."
+ },
+ "concerns": {
+  "spots": "Most reviewers report visible pimples flattening, shrinking, or disappearing overnight or within a day, with faster healing than other brands; a few report no improvement or the pimple becoming more active.",
+  "blemishes": "Many describe cystic or stubborn blemishes being drawn out or resolved after overnight wear, including hormonal and back breakouts; one reviewer with sensitive skin says a patch made her emerging pimple worse.",
+  "redness": "Several reviewers say the patches reduce redness around a blemish or leave no red mark afterward, while one with sensitive skin reports her skin became more red after use.",
+  "barrier": "Two reviewers describe skin tearing, bleeding, or the top skin layer peeling off on removal; one reviewer with sensitive skin reports dryness/irritation, while another notes the patch did not dry out her skin at all.",
+  "oiliness": "One reviewer credits the patches with absorbing excess oil and calming inflammation, leaving the area smoother."
+ },
+ "aspects": [
+  {
+   "libelle": "Near-invisible under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong, sometimes painful adhesion",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Overnight healing speed",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Sheet not perforated, patches stick together",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Removal tears or peels skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Matte packaging texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Price higher than other brands",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "kath",
+   "titre": "BEWARE",
+   "texte": "This product does not work as intended. The patches stick TOO well and will peel off any baby facial hair you have. It also peeled of the top layer of my skin. Now trying to keep it from scarring. Hero Patches have never done this to me.",
+   "date": "2025-11-25",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Crystal",
+   "titre": "These patches tore my skin....",
+   "texte": "These patches really stick to your skin...so when you try to remove the patch it pulls on your skin so much that it tears your skin and starts to bleed...I do not recommend these patches. The adhesion needs to be modified asap.",
+   "date": "2026-05-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Haniya K.",
+   "titre": "Really wanted these to work!",
+   "texte": "I really wanted to like these, especially since I love personal day products, but these did not work for me. If anything, they made my pimple more active. I put this on a pimple that was emerging and the next day it turned out to be an active pimple. Maybe the patches are too strong for me as I have sensitive skin!",
+   "date": "2025-08-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Destiny",
+   "titre": "NOT for Sensitive Skin!",
+   "texte": "Ive been using other pimple patches for months and once I switched to these, my skin became more red and very very dry. I really wanted to like these since I LOVE the other Personal Day products and use them daily. Unfortunately, these are just too strong for sensitive skin like mine.",
+   "date": "2025-08-15",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hailey N.",
+   "titre": "the perfect pimple patches",
+   "texte": "my pimple patch allegiance was to hero cosmetics for a long time until i tried personal days! these are longer lasting & don't fall or start to peel off in the daytime or if i wear them at night. pops & reduces pimple size effectively, while also being majorly unnoticeable. a must have for my acne prone, sensitive skin! my only complaint is, if you have longer nails, that because the patches are thicker they can catch & sometimes fold in on themselves or crease when unsticking them from the sheet. more user error than anything though!",
+   "date": "2025-12-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alexis N.",
+   "titre": "Amazing",
+   "texte": "These have been a game changer. I've gotten three of my friends to use these now from giving them as gifts. I've had trouble with cystic acne for years and the coating on these makes a major difference. Will forever be a supporter of this line!",
+   "date": "2026-04-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "V",
+   "titre": "best I've tried",
+   "texte": "I've tried so many other brands but these are the best at absorbing excess oil etc and leaving the pimple much calmer and smoother (less inflammation)",
+   "date": "2026-01-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

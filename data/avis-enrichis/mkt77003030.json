@@ -1,0 +1,149 @@
+{
+ "ref": "mkt77003030",
+ "asin": null,
+ "pid": "mkt77003030",
+ "source": "ulta",
+ "nom": "Makari Pure Radiance Exfoliating Scrub",
+ "note": 4,
+ "nbAvis": 10,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {},
+ "concerns": {
+  "blemishes": "One reviewer reports clearer pores and fewer clogged pores after regular use, with smoother texture overall.",
+  "redness": "One reviewer who says most scrubs leave their skin red reports this one does not irritate and leaves the complexion clearer and more even.",
+  "aging": "One reviewer describes a noticeable glow and less dull, tired-looking skin after a few uses.",
+  "barrier": "One reviewer with rough patches on the arms reports they smoothed out within a couple of weeks, leaving skin refreshed."
+ },
+ "aspects": [
+  {
+   "libelle": "Fruit enzyme formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle, non-abrasive feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin feels soft and polished after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Improves texture and clogged pores",
+   "polarite": "pos",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "No irritation even on reactive skin",
+   "polarite": "pos",
+   "concerne": [
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Helps even out skin tone",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Brielle",
+   "titre": "Love the natural fruit enzymes",
+   "texte": "The combination of papaya, pineapple, and pomegranate makes this feel like a high-quality product. My skin looks brighter and feels much softer after each use.",
+   "date": "2026-03-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Renee",
+   "titre": "Finally an exfoliator that doesn't irritate",
+   "texte": "Most scrubs leave my skin red, but this one is completely different. It feels gentle while still removing dead skin. My complexion looks clearer and more even after using it.",
+   "date": "2026-03-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Paige",
+   "titre": "Noticeable glow after just a few uses",
+   "texte": "After using this scrub twice a week, I started seeing a real glow. My skin looks fresher and less tired, especially in areas that used to look dull.",
+   "date": "2026-03-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Vanessa",
+   "titre": "Helped clear rough patches",
+   "texte": ": I had some rough areas on my arms and this scrub smoothed them out within a couple of weeks. It leaves my skin feeling refreshed and renewed.",
+   "date": "2026-03-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Alana",
+   "titre": "Clearer pores and smoother texture",
+   "texte": "I've noticed my pores looking less clogged since I started using this. My skin texture is smoother and makeup applies much better now.",
+   "date": "2026-03-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Morgan",
+   "titre": "Great for maintaining even skin tone",
+   "texte": "This scrub helped improve my uneven skin tone over time. It gently removes buildup and keeps my skin looking balanced and radiant.",
+   "date": "2026-03-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kiara",
+   "titre": "My skin feels polished, not scratched",
+   "texte": ": I love that this uses fruit enzymes instead of rough particles. It buffs away dull skin without feeling abrasive. My face and body both feel incredibly smooth afterward.",
+   "date": "2026-03-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Reviewers do not state their skin type in these excerpts, so segmentation by skin type cannot be produced; findings are organized by concern only."
+}

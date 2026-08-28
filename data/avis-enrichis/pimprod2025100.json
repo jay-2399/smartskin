@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2025100",
+ "asin": null,
+ "pid": "pimprod2025100",
+ "source": "ulta",
+ "nom": "fresh Soy pH-Balanced Hydrating Face Wash",
+ "note": 4.62,
+ "nbAvis": 8148,
+ "lus": 77,
+ "collectes": 105,
+ "segments": {
+  "oily": "One reviewer says the wash controlled facial oiliness, but another with oily skin says it leaves a coated, not-clean feeling and does not recommend it for oily skin.",
+  "dry": "Reviewers with dry skin report it cleanses without stripping or tightening, leaving skin hydrated rather than dry.",
+  "sensitive": "Many reviewers describe sensitive, reactive, or dermatitis-prone skin and report the wash is calming and non-irritating, though a few say a reformulation now causes burning, stinging, or breakouts.",
+  "mature": "One reviewer notes it continues to work well as her skin ages, and another recommends it for mature/45-year-old skin without issue."
+ },
+ "concerns": {
+  "aging": "One long-term user reports it still works well as her skin ages and changes; no anti-aging claims beyond this are made.",
+  "dehydration": "Most reviewers describe the wash as hydrating and non-drying, leaving skin soft rather than tight; one reviewer found it too gentle to feel effective, and another says a reformulation made it sting like sunburn.",
+  "redness": "One reviewer with sensitive, clog-prone skin says it reduced redness and evened her tone; another with periorificial dermatitis reports it soothes her skin without stripping or tightness.",
+  "barrier": "Reviewers using prescription creams or with easily irritated skin report the wash never leaves skin feeling stripped or irritated; one reviewer says a reformulation now causes burning and is no longer safe for sensitive skin.",
+  "spots": "One reviewer says it unclogged pores without harsh exfoliation and helped calm breakouts triggered by other products, though another reports occasional acne from the scent and one describes a rash reaction.",
+  "blemishes": "Several reviewers with acne-prone or breakout-prone skin say it has never broken them out and prevents breakouts; one long-time user notes the scent can sometimes cause acne.",
+  "oiliness": "One reviewer with oily skin says it helped control oiliness, while another with oily skin says it leaves a coated, unclean feeling and does not recommend it for that skin type."
+ },
+ "aspects": [
+  {
+   "libelle": "Gel texture that turns milky",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes makeup and mascara easily",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Recent formula change disliked",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Subtle rose or cucumber scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance strength varies by reviewer",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Large pump bottle lasts long",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Magnolia",
+   "titre": "They Reformulated :(",
+   "texte": "Used to be my holy grail for gentle cleansing. Now it makes my face burn/sting like sunburn after using it. Also has a heavier floral fragrance than it used to. It cleans very well and isnt drying but man it's just super disappointing that it's no longer safe for sensitive skin. It also keeps getting more and more expensice. I will not be repurchasing again sadly.",
+   "date": "2025-07-17",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anon",
+   "titre": "Always coming back to it",
+   "texte": "Its so good for my skin! I personally have dry and somewhat sensitive skin. I always feel clean and refreshed without feeling extremly dry and tight when i use this cleanser. Ive tried a million face washes, some cheaper and some more expensive but i notice my skin does the best when i use this cleanser so i keep coming back to it. It is on the pricey side which is why i keep trying to find dupes ): but none hit the spot like this one.",
+   "date": "2026-01-05",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Annabelle",
+   "titre": "Best Cleaner Ever",
+   "texte": "I actually apply this sans water and gently massage onto my skin. I let it sit for about 45 seconds or so and them remove with a damp cloth. I have very dry and very acne prone skin. This stuff has been amazing for my skin and hydrates it immensely without any breakouts. As someone that has never put much stock into facial cleansers because you wash them off - i am forever changed. I feel like this will be my new forever cleanser. Also it's half off during some sales throughout the year. Definitely buy it then.",
+   "date": "2026-04-08",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Clare",
+   "titre": "Holy grail for sensitive skin",
+   "texte": "This is the only skin cleanser I've reliably been able to use for years. I have very sensitive skin, with many soaps giving me dermatitis (including cerave weirdly enough.) this face wash has never steered me wrong—it washes off all my makeup, doesn't irritate my skin, and has helped me control the oiliness of my face. 10/10 would recommend!",
+   "date": "2025-07-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dia",
+   "titre": "My go to cleanser",
+   "texte": "This is a very effective yet mild cleanser. I have dry sensitive skin, it suits me. My son has oily skin it suits him aswell. There's no tight feeling after the wash. Thumbs up!",
+   "date": "2025-05-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Joie_G",
+   "titre": "Not for me",
+   "texte": "I don't recommend this to people with oily skin. It feels like my face is coated with something after using it. I do not feel clean afterwards and I hate that feeling.",
+   "date": "2025-01-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "V",
+   "titre": "It didn't make my sensitive skin angry!",
+   "texte": "W/o giving TMI, I've had heslth issues lately & they've made my immune system & skin very sensitive to the point that skincare I've used for years with no problem gave me horrible breakouts, redness, burning, etc. This cleanser was on the very short list of products that worked for me! Nice not overpowering scent, love the texture, unclogged my pores without harsh exfoliation or chemicals. I recommend!",
+   "date": "2025-06-22",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

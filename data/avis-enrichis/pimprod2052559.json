@@ -1,0 +1,129 @@
+{
+ "ref": "pimprod2052559",
+ "asin": null,
+ "pid": "pimprod2052559",
+ "source": "ulta",
+ "nom": "NEOGEN Real Niacinamide Glow Up Daily Mask",
+ "note": 4.88,
+ "nbAvis": 8,
+ "lus": 7,
+ "collectes": 7,
+ "segments": {},
+ "concerns": {
+  "redness": "One reviewer with rosacea reports the mask calms redness and smooths skin texture.",
+  "dehydration": "One reviewer describes the product as very hydrating, leaving skin radiant and glowing.",
+  "blemishes": "One reviewer reports two clogged pores purged after use and plans to use it weekly."
+ },
+ "aspects": [
+  {
+   "libelle": "Pad format instead of sheet mask",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stays in place, does not slide",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Convenient for targeted areas of face",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and hydrated",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reduces appearance of pores",
+   "polarite": "pos",
+   "concerne": [
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Katy",
+   "titre": "A must have!",
+   "texte": "I saw this was on sale and decided to try it - so glad I did! This calms my redness caused by rosacea, smoothed the surface of my skin, reduced the appearance of pores and made my skin feel incredibly soft! I will definitely continue to have this in my daily routine!",
+   "date": "2026-03-02",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jen",
+   "titre": "NeoGen Glow Up Daily Mask",
+   "texte": "It isnt a mask. Just super large pads. I look forward to using this product daily. It definitely makes a difference and the price is worth trying.",
+   "date": "2026-02-10",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "jumbie",
+   "titre": "First impression good.",
+   "texte": "after cleansing and using this,tmi but 2 clogged pores purged and I will probably use this once a week. it's a little damp wipe you pick up with tweezers. I set it on different parts of my face for a few seconds and wipe it gently around.",
+   "date": "2026-02-21",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katie",
+   "titre": "So hydrating",
+   "texte": "Picked these up on a whim & now I'll never go without!! So hydrating and leaves my skin radiant and glowing",
+   "date": "2026-02-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Helennah Park",
+   "titre": "Love this product!",
+   "texte": "This is very convenient to use and doesn't slide down your face so you can actually. move around. Not like the one whole sheet mask, I like how you can conveniently use on parts of the face.",
+   "date": "2024-07-23",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "HHP",
+   "titre": "These are awesome!",
+   "texte": "So convenient and effective! I like these smaller masks better because they don't slide down like the big ones.This one seems work really well. Will purchase again!",
+   "date": "2024-08-25",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "The reviews rarely state the reviewer's skin type, so segmentation by skin type could not be produced from this set."
+}

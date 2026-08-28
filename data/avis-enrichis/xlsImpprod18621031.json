@@ -1,0 +1,162 @@
+{
+ "ref": "xlsImpprod18621031",
+ "asin": null,
+ "pid": "xlsImpprod18621031",
+ "source": "ulta",
+ "nom": "Lancôme Rose Sugar Exfoliating Face Scrub",
+ "note": 4.63,
+ "nbAvis": 418,
+ "lus": 77,
+ "collectes": 103,
+ "segments": {
+  "oily": "Reviewers with oily skin report the scrub controls shine well and one describes it working on a teenager's oily skin with no issues, though one reviewer with oily skin found the product left makeup residue and felt dirty and oily afterward.",
+  "dry": "Reviewers with dry or winter-dry skin say it exfoliates gently without stripping or drying out the skin.",
+  "combination": "One reviewer with combination skin (dry under eyes, oily elsewhere) reports it works well across all zones of her face.",
+  "sensitive": "Reviewers with sensitive skin report no irritation, redness, or worsening, and one uses it after chemical peels without issue.",
+  "mature": "Reviewers with mature or aging skin report gentle effective exfoliation, with one noting it does not worsen skin sensitivity and another using it to maintain a youthful look."
+ },
+ "concerns": {
+  "aging": "Reviewers describe hyperpigmentation lightening with regular use and skin looking younger than their age; one with aging, sensitive skin says it does not worsen her skin.",
+  "dehydration": "Most reviewers say the scrub does not dry out skin and even hydrates or leaves it plumped, though a few wish it had more grit and one felt it under-delivered on exfoliation without addressing dryness specifically.",
+  "redness": "One reviewer notes no sensitivity or redness after use.",
+  "barrier": "Reviewers report the product does not feel irritating or greasy and is gentle enough for sensitive or post-peel skin.",
+  "spots": "One reviewer reports it helped clear blackheads along the jaw.",
+  "blemishes": "No reviewer reports new breakouts; one mentions clearer blackheads, but this is limited testimony.",
+  "oiliness": "One reviewer with oily skin says it leaves no oily residue and works well for teenage oily skin, but another reports the product left her face feeling oily and dirty with makeup residue not removed."
+ },
+ "aspects": [
+  {
+   "libelle": "Warming sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rose scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Not gritty or abrasive enough",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rinses off cleanly without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Perceived as pricey",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Weaker than discontinued predecessor formula",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Brenda",
+   "titre": "I wouldn't buy it",
+   "texte": "It's not a soapy cleanser. It a oil base cleanser. Didn't cleane the face leaving all make up residue leaving the face uncomfortable dirty and oily skin",
+   "date": "2026-01-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Angalynn",
+   "titre": "Soft skin!",
+   "texte": "Love this face scrub. Gently exfoliating and leaves my skin so soft. Will continue to buy. I have combination skin so relatively dry under eyes and normal cheekbones but oily everywhere else. This is perfect for all areas so should be good for all skin types.",
+   "date": "2024-04-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "716MafiaMama",
+   "titre": "My favorite face scrub",
+   "texte": "I love the way my skin feels after using the Rose scrub, smooth and it smells great too! I was informed by a Lancome counter specialist not to use this daily (actually not to exfoliate daily, even with my oily skin) and my skin has responded well since I changed my daily routine. I typically use this in the shower, and my skin remains smooth all the way through the prep process. This product has never left my skin dry, even when I was using it daily. I do wish it the product went farther but I am very pleased.",
+   "date": "2023-11-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "TJFox",
+   "titre": "Gentle exfoliation product",
+   "texte": "This works great without irritation. My skin is aging and sensitive, but this doesn't make it worse. I started using it after my chemical peels to keep the great results longer.",
+   "date": "2023-12-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ladanes1",
+   "titre": "Good product to keep you face smooth",
+   "texte": "I love this product to make my face feel so smooth and clean. I have very sensitive skin and this is an exfoliating scrub I can use. Highly recommend.",
+   "date": "2024-01-18",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ann Taylor",
+   "titre": "Rose Sugar Scrub",
+   "texte": "I have mature dry skin and this is a gentle formula to slightly scrub off cream build-up. I use it about every 4 days when I wash my hair.",
+   "date": "2024-02-05",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "987654321",
+   "titre": "Love it!",
+   "texte": "My favorite exfoliant so far, has helped clear up the blackheads i get along my jaw.",
+   "date": "2024-05-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

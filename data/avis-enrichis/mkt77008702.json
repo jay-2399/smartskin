@@ -1,0 +1,153 @@
+{
+ "ref": "mkt77008702",
+ "asin": null,
+ "pid": "mkt77008702",
+ "source": "ulta",
+ "nom": "MDSolarSciences Tint + Tone SPF 50",
+ "note": 4.42,
+ "nbAvis": 43,
+ "lus": 37,
+ "collectes": 37,
+ "segments": {
+  "dry": "A reviewer with dry skin reports the product adds hydration and calls the added moisture a bonus.",
+  "sensitive": "Reviewers with sensitive, acne-prone skin report it keeps their skin happy without irritation.",
+  "combination": "One reviewer notes it feels slightly greasy in areas prone to oiliness while still hydrating elsewhere."
+ },
+ "concerns": {
+  "dehydration": "Multiple reviewers describe the product as hydrating, leaving skin feeling soft, smooth, or like it got a 'drink' of moisture.",
+  "spots": "One reviewer says it covers facial flaws and imperfections while providing SPF.",
+  "blemishes": "Several reviewers with acne-prone skin report no breakouts and no clogged pores; no reviewer describes new breakouts from this product.",
+  "oiliness": "One reviewer finds it slightly greasy in oil-prone areas, while others describe it as weightless or non-greasy overall."
+ },
+ "aspects": [
+  {
+   "libelle": "Shade too dark for fair skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Limited shade range",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, even application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills under moisturizer",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus pricier alternatives",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "kassie",
+   "titre": "Beautiful Tint",
+   "texte": "This tint sunscreen is perfect! I was worried it was going to look too dark or orangey on my pale skin, but it matched and blended perfectly. I have dry skin so the added hydration was a bonus for me. I also have acne prone skin and it didn't clog my pores or cause a breakout. This is perfect for everyday! Complimentary from MDSolarSciences.",
+   "date": "2023-11-24",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chelsea N",
+   "titre": "Weightless protection with light coverage!",
+   "texte": "This tinted sunscreen is awesome! The usual sunscreen scent is very light and nearly nonexistant. The application is smooth and even, and feels nearly weightless for the coverage and sun protection provided. This is perfect for my acne prone skin! Although I received this complimentary from MDSolarSciences, I will continue to use the Tint and Tone SPF 50 cream in the future!",
+   "date": "2023-12-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ilo",
+   "titre": "Totally obsessed with this sunscreen!",
+   "texte": "🌞 My go-to this season – SPF50 for serious sun defense without the greasy feel. It's like magic: keeps my sensitive, acne-prone skin happy and gives this effortlessly sheer vibe. Perfect for those low-maintenance, natural looks. Obsessed? Yep, you bet! 🌿💛 Gifted by MdSolarSciences.",
+   "date": "2023-11-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cynthia",
+   "titre": "Great protection",
+   "texte": "Gifted by MdSolarSciences. One of my new favorite sunscreens this season. SPF50 ensures great UVA/UVB rays protection, moisturizes and gives a sheer look. Perfect for a natural look. Works good for my sensitive, acne prone skin.",
+   "date": "2023-11-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dora",
+   "titre": "Love the high SPF",
+   "texte": "I like the high SPF protection and the tinted formula that blends well with my skin tone. It feels hydrating and glides smoothly onto the skin. However, I find it slightly greasy on my skin, especially in areas prone to oiliness. It;s complimentary from mdsolarscience",
+   "date": "2023-11-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Amelia T.",
+   "titre": "It tends to pill on top o",
+   "texte": "It tends to pill on top of my moisturizer, so it doesn't really work for me, unfortunately.",
+   "date": "2024-04-12",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Bettina Z.",
+   "titre": "The tint is too dark. The",
+   "texte": "The tint is too dark. There should be color options. I like the way it feels and the way it goes on, but it's too tinted.",
+   "date": "2025-08-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,163 @@
+{
+ "ref": "mkt77005178",
+ "asin": null,
+ "pid": "mkt77005178",
+ "source": "ulta",
+ "nom": "LOOPS Skincare Essentials Exfoliating Toner Pads",
+ "note": 4.88,
+ "nbAvis": 43,
+ "lus": 33,
+ "collectes": 33,
+ "segments": {
+  "dry": "Reviewers with dry skin, including one describing dry, rough skin and one with mature dry skin, report hydration, smoother texture, and improved acne scars without irritation.",
+  "sensitive": "Sensitive-skin reviewers report the pads exfoliate gently without causing redness, dryness, stinging, or irritation.",
+  "mature": "One reviewer with mature dry skin reports strong hydration and refreshed, plumped-feeling skin after use."
+ },
+ "concerns": {
+  "aging": "One mature-skin reviewer reports hydration and refreshed skin but does not mention fine lines or firmness specifically.",
+  "dehydration": "Multiple reviewers report the pads hydrate while exfoliating, calling out balanced hydration and refreshed, soaked-up moisture on dry skin.",
+  "redness": "Most reviewers who mention redness say the pads do not cause it or that they help calm red areas; none report increased redness.",
+  "barrier": "Sensitive-skin reviewers report no irritation, stinging, or compromised feel after use, suggesting the pads are non-stripping.",
+  "spots": "One reviewer reports stress-hormonal acne calmed down after a week, and another reports improved acne scars on dry, rough skin.",
+  "blemishes": "Reports on blemishes are limited to one mention of hormonal acne calming down and one of scar improvement; no reviewer reports new breakouts.",
+  "oiliness": "No reviewer specifically discusses oily or excess-sebum concerns."
+ },
+ "aspects": [
+  {
+   "libelle": "Gentle exfoliation without irritation",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Hydrating rather than drying",
+   "polarite": "pos",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Smoother, more even texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pore appearance minimized",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Generous pad size and product amount",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Travel-friendly, easy routine addition",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult seal/packaging to open",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Cat",
+   "titre": "Effective and gentle",
+   "texte": "These toning pads have genuinely helped my skin since I started using them in the last couple of weeks. They exfoliate nicely but very gently. I have extremely sensitive skin, and these don't irritate my skin at all.",
+   "date": "2024-12-25",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yoursocialkat",
+   "titre": "Hydrating toner pads",
+   "texte": "I am amazed how well these toner pads hydrate my mature dry skin. My skin soaks it up. I place them on my face and let them sit then tap all over my face and neck. My skin feels refreshed and hydrated.",
+   "date": "2026-01-09",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "zoe",
+   "titre": "I was hesitant at first",
+   "texte": "I was hesitant at first because my skin is sensitive, but these pads work wonders! They exfoliate without causing redness or dryness",
+   "date": "2024-11-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "aimee",
+   "titre": "I used these for a",
+   "texte": "I used these for a week and they calmed down my stress-hormonal acne!",
+   "date": "2024-11-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "null",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Laur",
+   "titre": "loops pads are amazing and",
+   "texte": "loops pads are amazing and work great on my dry, rough skin - my acne scars have definitely improved",
+   "date": "2024-11-14",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "yuan",
+   "titre": "It was hard to open",
+   "texte": "It was hard to open the seal on the products but the pads are great otherwise",
+   "date": "2024-12-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Joleen",
+   "titre": "I love that this toner",
+   "texte": "I love that this toner gently exfoliates my skin and doesn't leave it red. I love using them as treatment pads and mini face masks - since the pad is such a bigger size compared to other toner pads! You need to follow up with the peptide serum to get that perfect glow.",
+   "date": "2024-11-14",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

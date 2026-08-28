@@ -1,0 +1,136 @@
+{
+ "ref": "pimprod2057288",
+ "asin": null,
+ "pid": "pimprod2057288",
+ "source": "ulta",
+ "nom": "Pixi Botanical Collagen Tonic Volumizing Toner",
+ "note": 4.64,
+ "nbAvis": 11,
+ "lus": 11,
+ "collectes": 11,
+ "segments": {
+  "dry": "One reviewer with dry skin in winter conditions found the toner gave zero hydration and left her face feeling tight, despite looking hydrating when tested on the back of the hand."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers who mention hydration describe the toner as hydrating, plumping, or rehydrating, with visible fullness within a few days; one reviewer with dry skin in winter reports the opposite, finding it gave zero hydration and left her skin feeling tight.",
+  "aging": "Reviewers focused on firmness/collagen report their skin looking and feeling fuller, plumper, and more lively after use."
+ },
+ "aspects": [
+  {
+   "libelle": "Plumping or fuller-looking skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light pleasant fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky residue after application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Refreshing feel on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fails to hydrate in winter",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Travel-friendly smaller size",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Alysha",
+   "titre": "Zero hydration",
+   "texte": "When i put it on the back of my hand to see how it woukd dry down i was impressed. When i put it on my face i washed it off right away. Zero hydration, my skin felt tight. On the back of my hand it looked hydrating and even. Not for dry skin in the dead of winter.",
+   "date": "2026-01-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Emily S.",
+   "titre": "Very fresh feel",
+   "texte": "This feels very soft and fresh going on the skin. I usually really hate fragrance but this is light and pleasant. I am noticing that my face feels fuller now that I've started using more collagen products. It does seem to leave a little kind of sticky feeling, but once I start layering my other products it's fine. Maybe I need to use less.",
+   "date": "2023-12-01",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "The Hopeful H.",
+   "titre": "Must have!",
+   "texte": "Completely rehydrating and revitalizing! Within a few days of use I can already see a major difference!! My skin looks fuller and more lively! Thank you Pixi!",
+   "date": "2020-07-08",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nicola Jayne W.",
+   "titre": "Amazing",
+   "texte": "This leaves my skin so hydrated and also leaves it deeking plumped.",
+   "date": "2020-03-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kat G.",
+   "titre": "Probably the best toner ever",
+   "texte": "Smells great, makes my skin glow and is so moisturizing. I love it. The smaller size is great for travel as well.",
+   "date": "2024-04-16",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Michelle M.",
+   "titre": "My daily go to!!",
+   "texte": "Glow tonic at night and collagen by day. This product leaves my skin feeling very soft.",
+   "date": "2023-01-31",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "The sample is small (11 reviews) and only one reviewer specifies a skin type other than implicitly normal, so conclusions by skin type are thin."
+}

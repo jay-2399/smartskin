@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2056163",
+ "asin": null,
+ "pid": "pimprod2056163",
+ "source": "ulta",
+ "nom": "DRMTLGY HPR Firming and Smoothing Eye Cream",
+ "note": 4.85,
+ "nbAvis": 599,
+ "lus": 75,
+ "collectes": 103,
+ "segments": {
+  "sensitive": "Reviewers describing sensitive or reactive eyes report the retinoid formula does not sting, burn, or irritate, unlike prior eye creams, and one combination-plus-sensitive reviewer calls it gentle with light, fading fragrance.",
+  "mature": "Reviewers in their 50s-70s report visible softening of fine lines, crow's feet, and crepey texture with continued use, several calling it the best eye cream tried after decades of products.",
+  "combination": "The one reviewer identifying combination skin finds the cream light, non-oily, and gentle, still evaluating results after two weeks.",
+  "dry": "A reviewer coming from a drying previous eye cream reports the HPR cream improved under-eye dryness and bag appearance within a week, though one dissenting reviewer says it dried the skin around her eyes and worsened wrinkles."
+ },
+ "concerns": {
+  "aging": "Most reviewers report softer fine lines, reduced crow's feet, and firmer-looking skin, some within one to two weeks and others building over months to years; one reviewer explicitly says her wrinkles worsened after 15 days.",
+  "dehydration": "Reviewers report the eye area feels hydrated, hours after application in one case, and one reviewer said dryness improved versus a previous product, while another reported the product dried the skin around her eyes.",
+  "redness": "No reviewer specifically reports on redness.",
+  "barrier": "No reviewer specifically reports on barrier repair; several instead note absence of stinging, burning, or irritation from the retinoid.",
+  "spots": "No reviewer specifically reports on spots or discoloration beyond dark circles, which are covered under blemishes.",
+  "blemishes": "Reviewers report visible fading of dark circles, under-eye bags, and puffiness, with several noting improvement within one to a few weeks; one reviewer reports reduced milia around the eyelids and another says milia formation stopped.",
+  "oiliness": "Several reviewers note the cream is not oily or greasy despite being moisturizing; no reviewer reports increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No pilling under makeup or concealer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sting or burn from retinoid",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Small amount needed, goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Worth repurchasing, good value over time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gold trim packaging flakes onto fingers",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Dried skin and worsened wrinkles for one user",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "aging"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Rebecca23",
+   "titre": "Don't recommend",
+   "texte": "I seriously dont get the hype anout this eye cream! bought this after seeing ads promoting it and reading reviews. I used this product for 15 days and It has dried my skin around my eyes and made my wrinkles worse! I returned this to the store.",
+   "date": "2026-02-19",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Catherine H",
+   "titre": "\"DRMTLGY HPR Eye Cream: My Under-Eye Game-Changer!\"",
+   "texte": "I've been using the DRMTLGY HPR Firming Retinoid Eye Cream for just a couple of weeks, and it's already a staple in my routine! The lightweight, non-greasy texture glides on smoothly and absorbs quickly without any pilling under makeup or concealer—perfect for my busy mornings. So far, all results have been fantastic: my under-eye area feels hydrated and firmer, with no sensitivities or irritation on my sensitive skin. I'm thrilled with the early brightening on dark circles and can't wait for more wrinkle-smoothing magic. A gentle powerhouse—love it!",
+   "date": "2025-09-19",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hong D",
+   "titre": "Still testing out",
+   "texte": "So far with combination skin and with sensitivity, this eye cream is gentle. Fragrance is light and fades which I love! It's not heavy or oily. Just enough to moisturize my entire eye area. I have only been using it for 2 weeks now and I like to give any product from 1-3 months to see how well the product is and effective. Starting off, moisturizing is great, for dark circles and wrinkles, only time will tell.",
+   "date": "2025-09-23",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Crissy S",
+   "titre": "So far so good!",
+   "texte": "I never have good luck with eye creams/serums because I have extremely sensitive eyes and every product I've tried in the past ends up burning or irritating my eyes. I love how smooth this goes on, no strong smell, no greasy feeling and no stinging or burning! It's definitely a keeper.",
+   "date": "2025-05-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "RC",
+   "titre": "Youth In A Bottle",
+   "texte": "This is the only eye cream I've used over the last 40 years that has made a significant difference in the skin around my eyes. The skin became tighter and the wrinkles less deep and visible. It also keeps milia from forming around my eyes. I will never be without it.",
+   "date": "2025-05-18",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Celeste S",
+   "titre": "Dryness & bag improvement",
+   "texte": "The previous eye cream left my eyes itch & dry. Within just a week of using the HPR eye cream my under eye bags & dryness are already improving! This product is definitely on my reorder list for this old lady",
+   "date": "2025-12-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dana V",
+   "titre": "Love it",
+   "texte": "I have been using for about 10 days and love that it is retinol but does not irritate my sensitive skin. I use only at night. I find that I'm waking up less puffy and more rested looking.",
+   "date": "2025-10-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

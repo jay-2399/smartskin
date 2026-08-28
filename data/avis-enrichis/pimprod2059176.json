@@ -1,0 +1,113 @@
+{
+ "ref": "pimprod2059176",
+ "asin": null,
+ "pid": "pimprod2059176",
+ "source": "ulta",
+ "nom": "ANUA KPop Demon Hunters Mineral Weightless Finish Sunscreen",
+ "note": 2.4,
+ "nbAvis": 5,
+ "lus": 5,
+ "collectes": 5,
+ "segments": {
+  "sensitive": "One reviewer with sensitive skin reports it does not burn her eyes and stays on through sweating, though she notes a pretty bad white cast on her fair skin.",
+  "oily": "One reviewer with fair, mostly oily skin reports the sunscreen rubs in to a minimal white cast, doesn't pill, wears well under makeup, and left a dewy (non-matte) finish."
+ },
+ "concerns": {
+  "barrier": "One reviewer says the sunscreen exacerbated peeling less than her previous liquid sunscreen and that a troublesome, uneven, peeling patch on her forehead cleared up after switching; another reviewer instead reports the product itself peels off the skin when rubbed or after sweating."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong white cast",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "White cast less noticeable on fair skin",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive",
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Peels or rolls off skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Heavier than expected despite weightless claim",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Does not sting eyes",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Dewy, non-matte finish",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jess",
+   "titre": "not great",
+   "texte": "its got a very very strong white cast. and if you rub your face at all it rolls away like skin peeling after a sunburn.",
+   "date": "2026-07-21",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Tae",
+   "titre": "I don't recommend.",
+   "texte": "If you're looking for a new mineral sunscreen, I would continue looking. This sunscreen has a strong white cast, terrible smell, and feels way too heavy even though it's supposed to be \"weightless\". I tried the product three times and all of the outcomes were the same. Terrible. It also peels whenever you sweat.",
+   "date": "2026-07-23",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "May",
+   "titre": "Great for sensitive skin",
+   "texte": "This is a great alternative for a chemical sunscreen! It does not burn my eyes, and stays on even when I sweat. The only thing I will say is that the white cast is pretty bad. I am fair skinned so it's not as noticeable, but I would advise someone of darker complexion to be cautious with this product.",
+   "date": "2026-07-12",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Monica",
+   "titre": "New Favorite Mineral",
+   "texte": "This has similar or a little less white cast compared to any other mineral sunscreen with spf 50, so I'm not sure why the one person is hating on it (it is not marketed as a sunscreen without white cast and every mineral sunscreen sold in the USA will have some white cast). It also doesn't pill at all for me and wears well under makeup (in the picture I'm wearing Clinique Even Better Vitamin Makeup). For reference I'm pretty fair with mostly oily skin and I really like this sunscreen because it is easy to rub in until there is minimal white cast and doesn't burn my eyes. Previously, I was using Cetaphil liquid sunscreen which is also good, but exacerbates any peeling skin unlike this one by Anua! I also had a patch of skin on my forehead that was weirdly troublesome for several weeks (uneven, peeling) but after switching to this sunscreen and keeping the rest of my routine the same, it seems to have cleared up. I really like this formula and have already purchased a second bottle. Of note though, it isn't matte and will leave you with a natural dewy glow! I love this but it can easily be blotted or powdered to minimize the effect. If you have darker skin, this might not work and I'd recommend buying a sunscreen directly from S. Korea for the best finish. Hope this helps!!",
+   "date": "2026-07-27",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "oily",
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": "Only five reviews are available and just two state the reviewer's skin type, so the segmentation by skin type and concern rests on very limited evidence."
+}

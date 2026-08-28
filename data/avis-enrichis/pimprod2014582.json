@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2014582",
+ "asin": null,
+ "pid": "pimprod2014582",
+ "source": "ulta",
+ "nom": "Shiseido Complete Cleansing Microfoam",
+ "note": 4.61,
+ "nbAvis": 79,
+ "lus": 71,
+ "collectes": 71,
+ "segments": {
+  "oily": "Oily-skin reviewers report the cleanser works well and cleans thoroughly without over-drying, and one calls it good for summer or oily skin specifically.",
+  "dry": "Dry-skin reviewers mostly report it cleanses without stripping moisture and leaves skin soft, though one notes it can leave a slight tight feeling and one review in this category reported an oily after-feel instead.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it is gentle, mild and non-irritating even removing waterproof makeup, but two (duplicate text) report it was too rough, broke the skin barrier and caused zits.",
+  "mature": "Mature-skin reviewers describe it as gentle and effective for softened, smooth skin, though one long-time mature customer disliked the discontinued predecessor and found this version left an oily after-feel.",
+  "combination": "One combination-skin reviewer calls it her favorite for combo skin, more gentle than the older foam tubes yet still effective."
+ },
+ "concerns": {
+  "aging": "Mature-skin reviewers report smooth, soft skin and satisfaction with everyday use; no anti-aging claims or complaints are specifically made.",
+  "dehydration": "Most reviewers report the cleanser does not dry out skin and leaves it soft or moisturized; a minority describe dryness, tightness, or a drier feel after use, including one who noted a slight tightness in winter.",
+  "redness": "Not enough reviewers specifically describe redness to draw a conclusion.",
+  "barrier": "One sensitive-skin reviewer (repeated twice) reports the product broke her skin barrier and caused breakouts, while other sensitive-skin reviewers report no such issue and describe it as mild and non-irritating.",
+  "spots": "One reviewer reports the product helped clear blackheads despite slight drying, while another reports new breakouts appearing even with double cleansing.",
+  "blemishes": "One reviewer describes zits forming after use tied to barrier disruption, while another reports the product helped clear up minor skin issues.",
+  "oiliness": "One reviewer reports pores looking visibly smaller and skin feeling clean without dryness, while another reports the opposite — an oily after-feel and enlarged pores attributed to alcohol in the formula."
+ },
+ "aspects": [
+  {
+   "libelle": "Light airy foam texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective makeup and mascara removal",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or burns eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves sticky or tight residue",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, economical with small amount",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Elegant pump packaging",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Olivia",
+   "titre": "Would not recommend for young/sensitive skin",
+   "texte": "I have sensitive skin, and this cleanser was too rough. Some gentle cleansers aren't too exfoliating, but this one is. It is harsh and broke my skin barrier, forming zits in my skin. Do not buy unless you have mature skin.",
+   "date": "2023-09-26",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Bijou",
+   "titre": "The Alcohol Enlarged My Pores",
+   "texte": "Alcohol in the complete cleansing microfoam enlarged my pores. Sodium lauryl sulfate also in the complete cleansing microfoam dried my skin.",
+   "date": "2020-06-24",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "bridgetb93",
+   "titre": "Perfect for summer or oily skin",
+   "texte": "First off my face has never felt more clean and I've noticed a huge difference in how my pores look around my nose. I bought this at a discount recently and I've been really enjoying it. One pump gives you more than enough of a frothy wash. It's gentle around the eyes and takes all my makeup off. The only reason I rated this 4 stars is because it leaves my face feeling the tiniest bit tight afterwards and I wouldn't be able to use this in the winter.",
+   "date": "2022-07-31",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tiffany",
+   "titre": "MAKEUP MELTS OFF!",
+   "texte": "I've always had to use multiple products to get make-up off. Wipes, balms, cleansers, exfoliants, eye removers, and still my makeup wouldn't completely break down. I was skeptical when I was recommended this, and when I got home and saw that it was a light, airy foam, I literally thought to myself \"yeah right!\" But UNBELIEVABLY, I lathered my face and ALL of my make up came right off! My skin has never felt this clean after wearing make up and I can't believe I only have to use one product! It does make my skin a little on the drier side, but even that has been helping my blackheads clear out.. and following with a good moisturizer is key :)",
+   "date": "2021-11-01",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Traciela",
+   "titre": "Mild nonstripping",
+   "texte": "This cleanser cleans all my makeup off without leaving my skin dry and overstripped, great for dry aging skin and after an oil cleanser.",
+   "date": "2019-12-22",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "kater_tot27",
+   "titre": "obsessed.",
+   "texte": "Almost through my first bottle and will definitely be repurchasing. This stuff gets off makeup, including mascara, and gently cleans your face. If you have sensitive skin like me, this is perfect. I couldnt be happier with this cleanser!",
+   "date": "2020-07-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Europa",
+   "titre": "Favorite Cleanser for Combo-Skin",
+   "texte": "I had been using the other Shishedo Cleansers (and make-up) prior to this purchase, so I am very familiar with this line. This COMPLETE CLEASING MICROFOAM is certainly more gentle than the tubes, yet effective! I suggest using both the Shishedo Foam(s) and this MICROFOAM, alternating times or days.",
+   "date": "2022-09-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

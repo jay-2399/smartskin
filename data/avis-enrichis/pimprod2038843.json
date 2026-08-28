@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2038843",
+ "asin": null,
+ "pid": "pimprod2038843",
+ "source": "ulta",
+ "nom": "The Ordinary Glycolipid Cream Cleanser for Dry Skin and Makeup Removal",
+ "note": 4.32,
+ "nbAvis": 756,
+ "lus": 80,
+ "collectes": 122,
+ "segments": {
+  "sensitive": "Reviewers with sensitive or reactive skin most often report the cleanser is non-irritating, non-stripping and well tolerated, including on postpartum, reactive or fragrance-sensitive skin, though one sensitive-skin reviewer found it left her face feeling greasy and unclean.",
+  "dry": "Dry-skin reviewers consistently say it cleans without stripping or tightening the skin and leaves it soft and hydrated.",
+  "combination": "Combination and combo-oily reviewers use it mainly as the first step of a double cleanse and find it breaks up light makeup and sunscreen without breakouts, while one combination/oily reviewer says it only 'gets the job done' rather than excelling.",
+  "oily": "The few oily-skin reviewers describe it as adequate but not a stand-out, better suited to their skin as a first cleanse than a sole cleanser.",
+  "mature": "Reviewers describing mature or aging skin report good tolerance and, in one case, improvement in dryness, rawness and fine lines after using it alongside other products from the line."
+ },
+ "concerns": {
+  "aging": "One reviewer with mature/aging skin reports fewer dry patches, less rawness and improvement in fine lines after two months of use alongside other products from the line; this is a single account, not corroborated elsewhere.",
+  "dehydration": "Most reviewers, including those with dry skin, say it does not strip or dry out the skin and leaves it feeling soft, hydrated and not tight; one reviewer notes it is 'just a touch drying' and compensates with a heavier moisturizer.",
+  "redness": "One reviewer with very sensitive skin says products that usually turn her face red and burn did not do so with this cleanser.",
+  "barrier": "Several sensitive-skin reviewers describe the cleanser as gentle enough not to irritate a compromised or reactive barrier, including postpartum skin; no barrier-damage complaints were reported.",
+  "spots": "One reviewer reports it helped control breakouts and lighten dark spots/acne scars when used a few times a week; another reports it cleared closed comedones that a previous cream cleanser left behind.",
+  "blemishes": "Reports are mixed: several acne-prone reviewers say it does not break them out and even helped clear jawline bumps or acne, but one reviewer describes it causing constant large, painful hormonal breakouts and reverted to her previous cleanser.",
+  "oiliness": "Oily-skin reviewers do not report increased oiliness, but also do not describe any mattifying or oil-control effect; one oily-sensitive reviewer values it mainly for removing dead skin/texture rather than controlling oil."
+ },
+ "aspects": [
+  {
+   "libelle": "Does not foam or lather",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Silky, creamy texture on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Struggles to remove makeup in one wash",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft, not stripped",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Coconut-like scent divides opinion",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible ingredient list on packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Laurie",
+   "titre": "Broke me out bad",
+   "texte": "I still get hormonal acne from time to time but since switching to this cleanser I've had constant huge and painful pimples. I went back to my regular cleanser and they started going away. Unfortunately not for me",
+   "date": "2023-06-25",
+   "verifie": true,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Arthur",
+   "titre": "My Go To Facial Cleanser",
+   "texte": "This is my go-to facial cleanser. I have very sensitive skin. The glycolipid cleanser is lightweight, and fragrance free (which is great) and cleans my face very well without stripping oils or drying it out. I follow it up with other The Ordinary products (serums and moisturizer) after. Skin appearance has improved greatly since using this product and all The Ordinary products. I also very rarely get breakouts now, which is also a plus. I'm so happy I found the brand.",
+   "date": "2024-08-10",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Julia",
+   "titre": "Great everyday cleanser for drier skin",
+   "texte": "My skin is on the dry side and most cleansers leave it feeling tight and stripped. This cleanser doesn't dry out my skin, but still cleans thoroughly enough to get rid of the closed comedones I had with my old cream cleanser.",
+   "date": "2024-04-03",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mani",
+   "titre": "New Holy Grail",
+   "texte": "I subscribe to double cleansing to help keep my combo-oily acne-prone skin clear, but really dislike the texture of thick goopy cleansing balms or using products that're packaged in jars. This cleanser came right on time: it's silky smooth, comes in a tube, and does a great job breaking up light layers of makeup and the sunscreen underneath. So glad the price is affordable too.",
+   "date": "2023-06-12",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennie",
+   "titre": "Not ordinary at all!",
+   "texte": "My skin had so many issues, dry patches, rawness, fine lines, etc.. I began using the this line including; the moisturizer, eye serum, hyaluronic acid, and cleanser about 2 months ago and never have I had so much success. I love the results!",
+   "date": "2024-01-08",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "cindyse704",
+   "titre": "Good for acne prone skin",
+   "texte": "I have deep acne scars and cystic acne and this really helped out a bit to control my breakouts as well as lighten up some of my dark spots. I used it once a day, maybe 3-4 times a week because I didn't want it to be too harsh for my skin.",
+   "date": "2023-06-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "MargeauxB",
+   "titre": "Doesn't remove makeup effectively...",
+   "texte": "For a normal wash, the Glycolipid Cream Cleanser may be okay, but don't expect it to remove makeup. I don't wear a lot of makeup, so I was surprised that I had such a difficult time removing the little I had on. This cleanser forced me to wash my face three times, just to get the last of my mascara off, which isn't even a waterproof mascara. Since the cleanser had such a difficult time removing such a small amount of makeup, I'm concerned that it also doesn't clean my skin effectively in one wash. For now, I'll stick to something that I know (Squalane Cleanser) that both removes makeup effectively and cleans my skin properly.",
+   "date": "2024-01-18",
+   "verifie": true,
+   "utiles": 12,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

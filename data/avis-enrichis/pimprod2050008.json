@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2050008",
+ "asin": null,
+ "pid": "pimprod2050008",
+ "source": "ulta",
+ "nom": "Bioderma Sébium H2O Micellar Water Face Cleanser for Combination to Oily Skin",
+ "note": 4.7,
+ "nbAvis": 328,
+ "lus": 79,
+ "collectes": 118,
+ "segments": {
+  "oily": "Reviewers with oily skin report the product removes makeup and shine without leaving a greasy film, controls oil throughout the day, and leaves pores looking cleaner.",
+  "dry": "The few reviewers describing dry or dry-combination skin say it cleanses without stripping, tightness or dryness, with one noting it even feels hydrating.",
+  "combination": "Combination-skin reviewers most often describe it as balancing their T-zone, removing makeup without dryness or greasiness, and fitting well as a double-cleanse or pre-cleanser step.",
+  "sensitive": "Reviewers who call their skin sensitive mostly report no irritation, stinging, or breakouts, though a couple find the fragrance too strong or the formula less gentle than other Bioderma products.",
+  "mature": "No reviews mention mature skin specifically."
+ },
+ "concerns": {
+  "aging": "No reviewer discusses anti-aging effects or fine lines.",
+  "dehydration": "Most reviewers say the product cleanses without leaving skin dry, tight, or stripped, and several describe it as hydrating or soft afterward; one reviewer notes the purifying effect can leave skin slightly dry until moisturized.",
+  "redness": "One reviewer with combination/acne-prone skin reports no redness after use; otherwise redness is rarely mentioned.",
+  "barrier": "One reviewer with combination and sensitive skin says it does not affect her skin barrier and leaves skin soft; no reviewer reports barrier damage.",
+  "spots": "Several reviewers with acne-prone or oily skin report clearer skin, smaller-looking pores, and fewer breakouts with regular use; one reviewer with very reactive skin says it did not trigger her usual breakouts.",
+  "blemishes": "Most acne-prone reviewers report no new breakouts or irritation and describe skin as clear and balanced; one earlier reviewer describes a strong fragrance as a drawback but not linked to breakouts, and no reviewer reports worsened blemishes.",
+  "oiliness": "Oily-skin reviewers consistently report reduced shine, a mattified or balanced feel, and no greasy residue after cleansing, with no dissenting reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Fragrance noticeable and divisive",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and refreshed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Struggles to fully remove waterproof eye makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value, long-lasting bottle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cap or pump hard to open",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Convenient for travel and double cleansing",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Ulviie",
+   "titre": "I would buy this product again and again",
+   "texte": "I use SÉBIUM H2O Micellar Water every day to remove makeup and cleanse my skin, especially in the evening. It removes makeup and impurities very gently but effectively, without irritating my skin. I love that it doesn't leave any sticky or greasy feeling and feels very fresh and light on the skin. It works perfectly for my combination and acne-prone skin — no breakouts, no redness, no tight feeling after use. My skin feels clean, calm, and balanced. I also appreciate that it doesn't have a strong smell and is very comfortable even for sensitive skin. Honestly, I haven't found any downsides for me. It's a product I always come back to and will definitely keep buying again and again.",
+   "date": "2026-01-27",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mxseel",
+   "titre": "10/10",
+   "texte": "I've been trying this micellar water for a few weeks now and I am loving it!!! I have very sensitive-acne-prone skin and basically everything makes me break out, but this is amazing, I used it at night to remove my makeup and my skin feels very good and clean after every use. I'm would be purchasing soon!",
+   "date": "2025-11-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maebae",
+   "titre": "Cleansing without drying",
+   "texte": "Product Review: Sebium H2O Micellar Water As someone with dry, acne-prone skin who wears makeup daily, I am always on the lookout for gentle yet effective cleansing solutions. The Sebium H2O Micellar Water has absolutely exceeded my expectations! From the moment I tried this product, I was impressed by its soothing and hydrating formula. Unlike other cleansers that can leave my skin feeling stripped and tight, Sebium H2O perfectly balances my skin's needs. It effectively removes all traces of makeup — even waterproof mascara! — without the need for harsh scrubbing. Just a few swipes on a cotton pad and my skin feels clean and refreshed. One of the standout features for me is how well it addresses my acne-prone skin. It doesn't clog my pores or contribute to breakouts, which is a huge relief. Instead, it seems to help keep my skin clear while hydrating it at the same time. This dual-action benefit means I can take off my makeup at the end of the day without worrying about causing additional dryness or irritation.",
+   "date": "2025-10-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emily",
+   "titre": "Oil and shine control",
+   "texte": "I recently tried this micellar cleansing water and really loved it. It's so gentle but effective, it removes makeup well, including some waterproof makeup with minimal irritation. Because of its sebum-regulating ingredients like zinc, copper, my combination skin's T-zone looked less greasy and my pores looked cleaner. Overall, it's great micellar water for people who struggle with excess oil, shine, and occasional breakouts.",
+   "date": "2025-10-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Em in AZ",
+   "titre": "High quality!",
+   "texte": "I love this micellar water! It has a light scent that's not over powering. I have been using for just over two weeks and my skins is so soft and clear. I have fairly sensitive skin that's easily dried out and have had no issues with dry patches or irritation. I would recommend!",
+   "date": "2025-10-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Han",
+   "titre": "Worked well, smell was strong!",
+   "texte": "I used this product as I usually use a micellar water, as a final cleanse after I remove my makeup. I am a huge Bioderma fan, but this one smelled a little too strong for me. I have relatively sensitive eyes and I felt like this micellar water was not as gentle as the ones I usually get from bioderma. I gave it 3 stars because it worked well, but is not my favorite.",
+   "date": "2025-11-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cathy",
+   "titre": "Refreshing",
+   "texte": "My new favorite toner! It's very refreshing and as someone with really dry cheeks but an oily T-zone, I liked that I could apply this to all facial areas and it would neither dry me out or make me too oily. The toner smells great as well — highly recommend!",
+   "date": "2025-10-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2004930",
+ "asin": null,
+ "pid": "pimprod2004930",
+ "source": "ulta",
+ "nom": "Vichy Mineral 89 Hyaluronic Acid Face Serum for Stronger Skin",
+ "note": 4.62,
+ "nbAvis": 2011,
+ "lus": 79,
+ "collectes": 115,
+ "segments": {
+  "oily": "Reviewers with oily skin report mixed results: several say it hydrates without adding grease or oiliness, but one reports clogged pores and whiteheads developing over two months of use.",
+  "dry": "Reviewers with dry skin (including very dry) most commonly report strong, lasting hydration and improved texture, though one reviewer in a dry climate found it did not help and felt her skin got drier.",
+  "combination": "Reviewers with combination skin report it hydrates dry areas without making oily zones (like the T-area) greasier, with some noting reduced oil and redness.",
+  "sensitive": "Reviewers with sensitive skin (including rosacea, eczema, acne-prone-sensitive) largely report no irritation or breakouts and good tolerance, with one exception reporting new breakouts.",
+  "mature": "Reviewers describing mature or older skin (40s-60s) report visible plumping, smoother texture, and softened fine lines used alongside their regular routine."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on aging report smoother, firmer-looking skin and reduced appearance of fine lines with regular use, including one who felt lines under the eyes 'vanished.'",
+  "dehydration": "The great majority of reviewers cite noticeable, sometimes immediate, hydration and plumping; a small minority saw no improvement or felt the product actually left skin drier.",
+  "redness": "A couple of reviewers report the serum helped calm redness and inflammation as part of their routine, with no dissenting reports of increased redness.",
+  "barrier": "Reviewers pairing it with a moisturizer describe improved texture and hydration retention over weeks, with one explicitly crediting it for restoring skin texture and barrier function.",
+  "spots": "One reviewer using it alongside retinol and azelaic acid for acne scarring reports it helped restore hydration lost from treatment, with no other spot-specific reports.",
+  "blemishes": "Most reviewers with acne-prone or blemish-prone skin report no breakouts and some improvement in texture, but two reviewers explicitly report new breakouts or clogged pores/whiteheads after weeks of use.",
+  "oiliness": "Several reviewers, including those with oily or combination skin, report it hydrates without adding shine or greasiness and even reduces excess oil in the T-zone; no reviewer reports it made skin oilier."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast absorption, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight watery-gel texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Elegant glass bottle packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky or tacky feel on hands",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Peels or pills under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus other HA serums",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jocelyn",
+   "titre": "Caused breakouts",
+   "texte": "I have oily skin type but needed a hydrating light serum because I felt like my moisturizer wasn't enough. Loved it at first, my skin looked glowy and plumped with the serum for a couple weeks.Used this for about 2 months before I started noticing clogged pores but didn't realize it was the product. I was getting more whiteheads over time until I realized it was the serum. Bummed that it didn't work for my skin, and not sure what ingredient triggered it since nothing stood out as clogging. Would not recommend for oily skin types.",
+   "date": "2024-05-31",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Crispy gal",
+   "titre": "Useless?",
+   "texte": "I have dry, semi-sensitive skin, and live in a dry climate. Based on the fabulous reviews, i was ecstatic to try this. I replaced my usual hyaluronic serum with this for the past week to give it a fair shot. Now i can confirm there were no immediate nor later benefits from using this serum. In fact, my skin is dryer (i was shocked it could advance in dryness :| ….). If you have dry skin like myself, don't waste your hard earned dollars.",
+   "date": "2023-12-27",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Julia",
+   "titre": "Truly amazing",
+   "texte": "I have sensitive acne prone skin that gets dry easily and this stuff has been my holy grail my skin looks AMAZING texture is noticeably improved super hydrated and it did not make me breakout at all great product",
+   "date": "2025-01-29",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Linds",
+   "titre": "Acne prone, sensitive skin saver!",
+   "texte": "I use this in place of a moisturizer at night during the summer. My skin is acne prone with rosacea. I find that most moisturizers clog and irritate my skin. This one has been the best ive used and ive tried many! Love it so much i buy it for friends and family.",
+   "date": "2024-07-18",
+   "verifie": false,
+   "utiles": 22,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ariel",
+   "titre": "Restoring skin barrier",
+   "texte": "I have very dry skin that needs to be double moisturized. Over the past two months, I have used this with the Cera Ve moisturizer and there is a noticable improvement in the texture and hydration of my skin. I use one pump two times daily and I still have 2/3 the bottle left. I will repurchase!",
+   "date": "2024-10-31",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cristy",
+   "titre": "My favorite face serum!",
+   "texte": "I have been using this face serum for almost two years, and I absolutely love it! I have combination skin, and this doesn't make the oily areas oily, but it hydrates the drier areas. It's also perfect under make up. My skin just feels smooth and looks glowy with this serum!",
+   "date": "2024-12-10",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kitkatbeautyreviews",
+   "titre": "Holy Grail",
+   "texte": "I USED TO HAVE oily combo skin, but because I started using retinol for my acne scarring and acne in general, my skin dried out ALOT. So I did research and hyaluronic acid helps big time. I already have used some Vichy products in the past and I really liked it but I never tried their serum because of the price. But I caved in because I saw so many good reviews. All I can tell you is that my skin feels 100x better. Like seriously- my skin used to feel tight and look dull but this serum just brings back all that hydration back. (Plus the use of other hydrating products-) but I can definitely tell this serum took my skincare to the next level. It has a mix of a watery- gel consistency and a little goes a long way. I liked to use this serum after toner and after another one of my serums then I put the Vichy serum on top to lock in all that moisture. I did find that it could be difficult for the product to absorb, especially during Spring and Summer.",
+   "date": "2023-10-16",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

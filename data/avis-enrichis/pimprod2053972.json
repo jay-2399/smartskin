@@ -1,0 +1,160 @@
+{
+ "ref": "pimprod2053972",
+ "asin": null,
+ "pid": "pimprod2053972",
+ "source": "ulta",
+ "nom": "TONYMOLY Mask Melt PDRN + Hyaluronic Acid Overnight Hydrogel Mask",
+ "note": 4.8,
+ "nbAvis": 35,
+ "lus": 33,
+ "collectes": 33,
+ "segments": {
+  "dry": "Reviewers with dry skin, including winter-dry skin, describe the mask as restoring hydration and softness that had been lost.",
+  "sensitive": "Reviewers with sensitive skin mostly report no irritation and a calming effect, though one reviewer experienced a severe allergic reaction after wearing it.",
+  "combination": "One reviewer with sensitive-combination skin reports zero irritation and smaller-looking pores after a single use."
+ },
+ "concerns": {
+  "dehydration": "Reviewers describe the mask as strongly hydrating, plumping, and smoothing dry or dehydrated skin overnight, with effects some say lasted into the next day.",
+  "redness": "One reviewer notes the mask calmed pre-existing irritation, but another reports a severe allergic reaction with redness/irritation after less than the recommended wear time.",
+  "barrier": "One reviewer explicitly says she cannot yet judge barrier-strengthening effects after only one use.",
+  "oiliness": "One reviewer reports visibly tighter-looking pores lasting about a week after use, though this is not linked to oil control specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Overnight hydration and plumping",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, soothing sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Two-piece design fits face and under-eyes well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stays in place all night without sliding",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fun, attractive packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Severe allergic reaction on first use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Mask hardens instead of fully melting in",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jorden",
+   "titre": "NO",
+   "texte": "This gave me the biggest allergic reaction. It said to leave it on For 3- 4 hours I couldn't do it. I left it on for 1 hour and it was horrible!!",
+   "date": "2026-05-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Adamaris",
+   "titre": "BROUGHT MY SKIN BACK TO LIFE!!",
+   "texte": "I was genuinely surprised with how this mask brought my dry face back to life. My skin was so hydrated and looked so good after I used it. I will be purchasing some for the winter because my sling gets really dry. Gifted by tonymoly",
+   "date": "2025-10-09",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kate",
+   "titre": "Love",
+   "texte": "I absolutely love this overnight mask. It makes my skin look so good in the morning. Its super moisturizing and makes my skin look so much smoother and so much softer. Super good for dry winter skin. Gifted by tonymoly",
+   "date": "2025-10-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah",
+   "titre": "Best mask I've ever used!",
+   "texte": "I received this gifted by tonymoly but I was absolutely shocked by how soft this made my skin! I wore it without any extra products underneath and it was like I had done my entire nighttime routine, but I had skipped it for this mask. My skin was so moisturized! And I only wore it for about three hours too! For the entire day after I was shocked by how much more hydrated my skin was. And I have sensitive skin too and it just calmed down any irritation I had before. My make lay so beautifully the next day, so I will be getting this to prep for all my special events! This mask was a dream!",
+   "date": "2025-09-29",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mar",
+   "titre": "Nice mask",
+   "texte": "This mask left my skin super hydrated, smooth, and noticeably plumper after one use. I have sensitive, combo skin and had zero irritation—just a calm, refreshed glow. My pores looked smaller, and the hydration really lasted. Great for a quick skin reset or post-workout pick-me-up. Gifted by tonymoly",
+   "date": "2025-09-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jaelyn",
+   "titre": "Love",
+   "texte": "I love these masks, I've repurchased multiple times and they never disappoint. My skin feels hydrated and refreshed immediately after! I have sensitive skin and the masks don't bother me at all! Gifted by tonymoly",
+   "date": "2025-09-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "BetsyJ",
+   "titre": "obsessed",
+   "texte": "Love this! The fit was hard for me to get right but because I didn't get a part of my cheek covered on one side I could actually see a difference in my skin! My pores were much tighter with the mask and the results lasted a week. At the great price point I'd like to make it a regular part of my routine",
+   "date": "2026-04-07",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

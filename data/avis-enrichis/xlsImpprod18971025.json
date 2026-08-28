@@ -1,0 +1,167 @@
+{
+ "ref": "xlsImpprod18971025",
+ "asin": null,
+ "pid": "xlsImpprod18971025",
+ "source": "ulta",
+ "nom": "PEACH & LILY Super Reboot Resurfacing Mask",
+ "note": 4.61,
+ "nbAvis": 1355,
+ "lus": 77,
+ "collectes": 172,
+ "segments": {
+  "oily": "One reviewer with 30-year-old oily-combo skin reports fewer blackheads, refined pores and faded acne scars/sun spots; a post-menopausal reviewer says her formerly oily skin later turned dry and still breaks out.",
+  "dry": "Reviewers with dry skin (including one 73-year-old) report soft, glowing, retexturized skin but note they need extra moisturizer afterward as the mask can feel parching.",
+  "combination": "Combination-skin reviewers, including one describing sensitive combination with a compromised barrier, report clearer, unclogged, radiant skin with minimal irritation when timing is adjusted.",
+  "sensitive": "Sensitive-skin reviewers are split: many report tingling that fades quickly with no redness, irritation or breakouts afterward, while a smaller group describes real burning, days-long irritation, or advise shortening application time.",
+  "mature": "Mature-skin reviewers (40s to 70s) consistently report smoother texture, less visible wrinkles/fine lines, brighter tone and refined pores after use."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report visibly reduced fine lines, smoother texture and brighter, more youthful-looking skin, sometimes after a single use; no reviewer reports aging concerns worsening.",
+  "dehydration": "Some reviewers note skin feels soft and hydrated after rinsing, but others (including dry-skin users) say the mask leaves skin parched and requires heavier moisturizer afterward.",
+  "redness": "Most sensitive-skin reviewers report no redness or lasting irritation even with regular use; a minority describe immediate burning and skin that stayed irritated or discolored for days.",
+  "barrier": "Reviewers with a stated compromised or reactive barrier generally report tolerating the mask well with shortened wear time; one reviewer explicitly warns the product requires an already strong, consistent-routine barrier to avoid burns.",
+  "spots": "Many reviewers report fading of dark spots, hyperpigmentation and acne scars with regular weekly use, sometimes visible within one month; no dissent reported on this concern.",
+  "blemishes": "Reviewers frequently report clearer skin, fewer active breakouts, shrunken bumps and cleared blackheads; a couple of reviewers instead report new breakouts or worsened acne irritation after use.",
+  "oiliness": "A few reviewers mention refined, smaller-looking pores after use; no reviewer specifically reports reduced oil production, and none report increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Tingling or stinging on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Severe burning reported by some users",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Leaves skin soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thin gel texture spreads easily",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Runny or liquid consistency",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong scent some dislike",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting jar, little needed per use",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Alese",
+   "titre": "Burned my skin for days",
+   "texte": "I did not like this product. Mild burning was not the case for me. It started burning immediately and I tried to wait 10 minutes but was so ready to wash off immediately. I lasted 5 min. My face was irritated for days afterwards. My daughter and husband used it and they tolerated it well. Just didn't work for me. I would like to try other products but not this anymore.",
+   "date": "2024-11-05",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Diana C.",
+   "titre": "New soft and shiny skin",
+   "texte": "I am deep into my post menopause years. And my skin has changed drastically. I used to have oily skin with large pores, and would break out easily. Now I have dry skin... and I still breakout. The first time I used it i was shocked. Only for 10 minutes and I felt like it took years off of my face. Love this product. My skin is so soft and shiny. It looks new.",
+   "date": "2024-05-30",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cunningj",
+   "titre": "Refines, clarifies, and smooths",
+   "texte": "I love this mask. I didnt have high expectations and was skeptical it would do what it said it would and oh my gosh. Ita nowbpart of my regular akin regime. Ivuse it twice a week and when i do my akin looks glowing and my pores finer. It gives my skin such a mice texture. Where have u been all my life! I have 30 yo oily combo skin. Blackheqds all over my chin, nose, and cheeks. Acne scars and sun spots. This product is a miracle worker. Even better is ive used it 6 times in 3 weeks and u can barelyvtell any product is gone. Thus, a little goes a long way. I love Peach + Lily!",
+   "date": "2024-01-29",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "W",
+   "titre": "Super Reboot Mask",
+   "texte": "I'm 73yrs old w/dry skin. I've been taking care of my skin in only the past 10 yrs but I've tried a lot. I use Retinol A but everything else is P&L. I finally tried Super Reboot mask & I'm blown away. This was my 1st time. Kept on for 29 minutes f/b copper serum & peptide moisturizer & results were amazing!! I still have wrinkles but my skin is glowing, retexturized & even my pores much less noticeable. Honestly don't hesitate. I've never, ever tried anything this rewarding. P. S. stay away from eye area.",
+   "date": "2025-01-13",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer",
+   "titre": "Perfect for sensitive skin",
+   "texte": "My skin is combination sensitive with a pretty bad barrier. I was hesitant with this mask but have loved all the other Peach and Lily products I've used. I bought the travel size and once a week apply for 15 minutes. Online recommends 15 to 20 minutes while the jar recommends 5-20 minutes. Once you've applied it dries to a very shiny thin layer on your skin and is almost not noticeable unlike many masks on the market.",
+   "date": "2024-03-18",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "susan f.",
+   "titre": "A beauty routine must have",
+   "texte": "This is something that will always be in my skin care routine. I use this once a week. I have roseca and very sensitive skin, and this is wonderful.",
+   "date": "2024-02-16",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "C.",
+   "titre": "Best mask of all time",
+   "texte": "I've been using this mask for my sensitive combination (oily, normal), dehydrated (not dry), hormonal acne-prone skin. My last jar ran out a few months ago, and I hadn't repurchased. I definitely noticed a difference. I've had it again for about 10 days now, and it's just the best. Moisturized, unclogged, radiant skin! I do feel a little stinging/tingling in the beginning, but even when I used it for 20 minutes, I had no irritation.",
+   "date": "2024-12-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

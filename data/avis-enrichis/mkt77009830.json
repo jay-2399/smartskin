@@ -1,0 +1,139 @@
+{
+ "ref": "mkt77009830",
+ "asin": null,
+ "pid": "mkt77009830",
+ "source": "ulta",
+ "nom": "Onekind Radical Repair Balancing Tonic",
+ "note": 5,
+ "nbAvis": 9,
+ "lus": 8,
+ "collectes": 8,
+ "segments": {},
+ "concerns": {
+  "redness": "Several reviewers report reduced or calmed redness after use, including one describing relief from flaky redness; no dissent reported.",
+  "dehydration": "Multiple reviewers describe the toner as hydrating, with skin looking or feeling instantly more hydrated, soft, or supple.",
+  "spots": "One reviewer reports a few pimples appearing in the first days of use before skin cleared up and became smooth."
+ },
+ "aspects": [
+  {
+   "libelle": "Skin feel after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Redness reduction",
+   "polarite": "pos",
+   "concerne": [
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Hydrating without heaviness",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Initial breakout on first use",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Tight but not dry sensation",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Lisa K.",
+   "titre": "One use. Redness visibly",
+   "texte": "One use. Redness visibly reduced. My skin feels soft and looks supple even. After ONE use… I'm amazed. What kind of voodoo magic is this? Followed with the wonderful Dream Cream my skin drinks up. This is the start of something good. Love.",
+   "date": "2025-04-10",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sana L.",
+   "titre": "Super hydrating must have",
+   "texte": "I've been needing a really hydrating extra step in my routine, and this toner delivers. My skin looks instantly more hydrated and just healthy! It also calms any redness. Definitely a new must have in my skin routine.",
+   "date": "2024-10-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nick L.",
+   "titre": "LOVE",
+   "texte": "Finally a Onekind toner!! I'm so excited. My skin needs all the moisture I can get and this is helping with flaky redness too. My skin is instantly soothed!",
+   "date": "2024-10-28",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Customer",
+   "titre": "New Favorite Toner",
+   "texte": "This is my new favorite tonic. I use it straight out of the shower to keep my face feeling fresh and help keep the redness away. Big fan of the mild scent.",
+   "date": "2024-10-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gregg",
+   "titre": "Love! Definitely recommend",
+   "texte": "Absolutely love! Leaves my skin feeling tight but not dry and the scent is so much better than other toners. Highly recommend!",
+   "date": "2025-08-27",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gris B",
+   "titre": "It started to clean my sk",
+   "texte": "It started to clean my skin from within, I got a few pimples the first days of using but now my skin in clean and smooth",
+   "date": "2026-04-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": "Reviews rarely name a specific skin type, so the segments section is largely empty and conclusions rely mainly on stated concerns rather than skin type."
+}

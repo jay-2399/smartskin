@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2021155",
+ "asin": null,
+ "pid": "pimprod2021155",
+ "source": "ulta",
+ "nom": "Mario Badescu Caffeine Eye Cream for Depuffing",
+ "note": 3.55,
+ "nbAvis": 47,
+ "lus": 39,
+ "collectes": 39,
+ "segments": {
+  "dry": "Dry-skin reviewers report the cream moisturizes without drying the eye area and reduced puffiness, though one found the texture too thin and watery to feel moisturizing.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it is the rare eye cream their skin or eyelids tolerate with cooling comfort, while others in this group experienced burning, rash or bumps.",
+  "mature": "One long-term mature-skin user reports it continues to prevent under-eye bags after years of use."
+ },
+ "concerns": {
+  "aging": "Reviewers using it for firmness or tightening report a tightening or cooling sensation within seconds to days of use; no dissent noted specifically on this effect.",
+  "dehydration": "Several reviewers say it moisturizes and soaks in well without drying the eye area; one reviewer found it thin, watery and not moisturizing at all, and another reports it left skin dry, flaky and itchy.",
+  "redness": "Multiple reviewers report the cream caused redness, burning or a rash around the eyes; others report no redness or irritation at all.",
+  "barrier": "Several reviewers describe burning, stinging, raw skin, bumps or a burnt top layer of skin after use, sometimes worsening over repeated applications; others report no irritation and describe the cream as gentle and soothing.",
+  "spots": "Reviewers targeting dark circles report they became noticeably lighter or less visible with regular use.",
+  "blemishes": "Not discussed by reviewers.",
+  "oiliness": "Not discussed by reviewers."
+ },
+ "aspects": [
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Lightweight gel-like texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sinks in quickly without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, tightening sensation",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Jar has misleading false bottom",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Little product needed, long-lasting",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable price for results",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Bev",
+   "titre": "Nice moisturizer but does not de-puff under eyes as clai",
+   "texte": "Pros: a tiny amount of product goes a long way, it works well on my super-sensitive skin, moisturizes well Cons: after a month of daily use, my opinion is that it doesn't de-puff the under eye area at all. I even tried only applying under one eye a few times just to compare results. No difference! Also the jar design is misleading, inside has a false bottom so you're not getting as much product as the outer appearance of the jar might lead you to believe. Will I use this product up? Yes, because it does moisturize nicely. Would I buy it again? No, because it doesn't de-puff at all. And that's what I really want - a product to de-puff and firm my under eye area.",
+   "date": "2025-08-08",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Miss",
+   "titre": "Light luxury",
+   "texte": "This is a nice, smooth, lightweight eye cream. I have very sensitive skin and it's perfect for providing a bit of cool moisture in the morning before applying my makeup.",
+   "date": "2024-03-12",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kait",
+   "titre": "Amazing for My Sensitive Eyelids",
+   "texte": "I have the MOST sensitive eyelids of anyone I know. Previously, I could only use Aquaphor on my eyelids. This eye cream is silky heaven for my eyes. However, I know a couple of people who say they can't use it because it burns their eyelids, which really surprised me! For me personally, it is the only eye cream that my eyelids have actually been able to stand. I cannot comment on the puffiness reduction because that is not an issue of mine.",
+   "date": "2024-07-20",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Esmeralda",
+   "titre": "Absolutely",
+   "texte": "Within 2 days of using the eye cream in the morning my under eye bags disappeared. I have dry skin and it did not dry my eye area! Great price!",
+   "date": "2023-03-03",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "julie",
+   "titre": "Burnt the top layer of skin",
+   "texte": "This does wake up your eyes, but it also burnt the top layer of skin next to my eye. At first it's very raw, then developed bumps from irritation, now left with a patchy dry spot and itching.",
+   "date": "2023-03-09",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Telless",
+   "titre": "Not moisturizing",
+   "texte": "I was using the Chamomile Eye Cream (which worked just fine), but was excited to try this for the caffeine benefits. Mistake. Not only have I not seen any benefits, but this stuff is so thin and watery- it's not moisturizing at all, and I feel like I'm damaging the skin around my eyes more because it takes so much effort to work it in. Very disappointed in this purchase. (I'm also a bit confused by the many positive reviews...but glad it worked for someone, as this was a complete waste of money for me.)",
+   "date": "2021-05-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "",
+   "titre": "This product does what I want it to do.",
+   "texte": "I am no longer a young person and this product continues to keep me from getting bags under my eyes. I have used it for years.",
+   "date": "2024-05-27",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

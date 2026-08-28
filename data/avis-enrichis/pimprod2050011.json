@@ -1,0 +1,161 @@
+{
+ "ref": "pimprod2050011",
+ "asin": null,
+ "pid": "pimprod2050011",
+ "source": "ulta",
+ "nom": "Bioderma Sensibio H2O Micellar Water Face Cleanser for Sensitive Skin",
+ "note": 4.71,
+ "nbAvis": 491,
+ "lus": 80,
+ "collectes": 117,
+ "segments": {
+  "sensitive": "Reviewers with sensitive, reactive, or eczema/seborrheic-dermatitis-prone skin report the product removes makeup without burning, stinging, or redness, and several call it their only tolerated makeup remover.",
+  "dry": "Reviewers with dry skin report it removes makeup without leaving their face feeling tight, stripped, or dry.",
+  "combination": "One reviewer with combination skin reports the product broke her out."
+ },
+ "concerns": {
+  "redness": "Reviewers who mention redness-prone or eczema-prone skin report the product cleanses without triggering redness or flare-ups, describing it as calming and non-aggravating.",
+  "barrier": "Reviewers describing reactive, eczema, or seborrheic-dermatitis-affected skin report no irritation or stinging and say it respects fragile skin; no barrier-related complaints are mentioned besides one report of eye redness and crusting after a suspected formula change.",
+  "blemishes": "Most reviewers report no new breakouts and some note fewer breakouts after switching to it; one reviewer with combination skin reports it broke her out, and another reports mild acne when skipping the follow-up rinse instructions.",
+  "spots": "One reviewer uses it for targeted spot removal of makeup with a cotton swab, but no reviewer discusses acne spots or dark spots specifically as a treated concern.",
+  "oiliness": "Reviewers report no oily or greasy residue after use, describing skin as clean rather than oily afterward."
+ },
+ "aspects": [
+  {
+   "libelle": "Removes waterproof mascara",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fails on waterproof mascara",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "New formula smells of cucumber",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No residue or greasy film",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult bottle lid to open",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pricier than drugstore alternatives",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "sd",
+   "titre": "changed formula?",
+   "texte": "i never had a problem before but recently i purchased a new bottle and the few times i used it my eyes became red and swollen. then the next morning my eyes are puffy with crust as if you had pink eye…. also in the past it didn't have a fragrance now it smells like cucumbers.",
+   "date": "2026-07-07",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Nitty",
+   "titre": "Not ok for me",
+   "texte": "I have combination skin and this for some reason broke me out",
+   "date": "2025-11-04",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Roxxi",
+   "titre": "Sensibo h20 sensitive micellar water wonderful!",
+   "texte": "This product worked absolutely wonderful for my dry sensitive skin it did not leave my skin dry or peeling like most micellar water cleansers / toners have in the past I'm glad I did not break out from this product either it did not irritate my sensitive dry eyes thank you so much !",
+   "date": "2025-10-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Any",
+   "titre": "So gentle and effective, perfect for sensitive skin!",
+   "texte": "I have super sensitive skin with redness and occasional eczema, and this micellar water has been a total game changer. It removes makeup and sunscreen easily without any burning or irritation. My skin feels fresh and clean afterward, never tight or greasy. I also love that it doesn't have a strong scent. Definitely one of my skincare must-haves!",
+   "date": "2025-10-22",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mariah",
+   "titre": "Recommended",
+   "texte": "This micellar water is hands-down one of the best for sensitive skin. It removes makeup and sunscreen effortlessly without any irritation or greasy residue. My skin always feels clean, calm, and hydrated afterward - not stripped or tight. I love that it's fragrance-free, gentle on eczema-prone areas, and safe to use around the eyes. It's truly a staple in any skincare routine, especially if you have reactive or delicate skin.",
+   "date": "2025-10-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Morgan",
+   "titre": "Favorite!",
+   "texte": "The Bioderma sensibio is my all time favorite micellar water. I have extremely sensitive and reactive eyes, and this is one of the only micellar waters that lets me wear mascara without the fear of removal. I've repurchased maybe three times thus far and I will most likely always use it.",
+   "date": "2025-10-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joule5",
+   "titre": "Long time favorite",
+   "texte": "I've been using this product for a long time. It's great for my eczema prone sensitive skin and works to gently remove makeup. I follow up with a foaming cleanser afterwards to fully remove everything.",
+   "date": "2025-10-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

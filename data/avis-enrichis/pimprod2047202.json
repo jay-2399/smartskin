@@ -1,0 +1,156 @@
+{
+ "ref": "pimprod2047202",
+ "asin": null,
+ "pid": "pimprod2047202",
+ "source": "ulta",
+ "nom": "ILIA Bright Start Retinol Alternative Brightening Eye Cream",
+ "note": 4.55,
+ "nbAvis": 1311,
+ "lus": 77,
+ "collectes": 95,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers largely report the eye cream is gentle and non-irritating, though one reviewer describes bumps and a rash under the eyes.",
+  "mature": "Reviewers in their 60s report visible improvement in fine lines, crow's feet, and puffiness with continued use."
+ },
+ "concerns": {
+  "aging": "Most reviewers citing fine lines, crow's feet, or wrinkles report smoother-looking skin and reduced appearance of lines over weeks of use; a few report no real change to fine lines or wrinkles.",
+  "dehydration": "Reviewers describe the cream as hydrating and soothing for dry or dehydrated under-eye skin, including one who reports resolution of dry, peeling skin.",
+  "redness": "One reviewer with sensitive skin reports the product caused bumps and a rash under the eyes; other sensitive-skin reviewers report no irritation at all.",
+  "barrier": "Reviewers with sensitive or reactive under-eye skin generally report the formula is gentle and fragrance-free without stinging or tearing, though one reports a rash.",
+  "spots": "Not discussed by reviewers.",
+  "blemishes": "Not discussed by reviewers.",
+  "oiliness": "Not discussed by reviewers."
+ },
+ "aspects": [
+  {
+   "libelle": "Brightens under-eye area",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reduces puffiness and bags",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling ceramic ball applicator",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Glitter or shimmer transfers onto face",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Slow to absorb before makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooths concealer application",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Undisclosed",
+   "titre": "Eye cream",
+   "texte": "Love this product! But my skin is too sensitive for it sadly. Caused bumps/rash under my eyes. Wish I could use it though, I really liked it.",
+   "date": "2024-01-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Immediately See Noticeable Improvement",
+   "texte": "I noticed an improvement as soon as I applied it for the first time. After 2 week, my under eyes look brighter and fine lines appear smoother. I have VERY sensitive eyes and this product does not irritate or cause eye tearing. This is now part of my daily routine!",
+   "date": "2024-04-14",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "A dream eye cream!",
+   "texte": "I first tried this as a sample when purchasing a different product, and I've been impatiently waiting to purchase the full size once I'd used up the eye cream I had at the moment. I'm thrilled with this product! It makes a noticeable difference in the smoothness and texture of my fine lines around my eyes, and it is a dream on my highly sensitive skin. I'll never use another eye cream!",
+   "date": "2024-03-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Retinol eye cream",
+   "texte": "I like this. I like the idea of putting it on and using the other side to smooth it in. Seems to be working and I've only been using it a couple weeks. At 62, I already see a difference. Definitely putting it on reorder.",
+   "date": "2024-07-23",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Great Product",
+   "texte": "Just what I was hoping for … at my age I am concerned with the lines and crow feet — ugh! This product does help, and I do notice a difference (especially when I skip a few days).",
+   "date": "2024-07-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Love the formula",
+   "texte": "I've been dealing with dry, peeling under eyes. This has helped so much! I love the formula and the ease of use.",
+   "date": "2024-06-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Undisclosed",
+   "titre": "glittery eye cream",
+   "texte": "why is there glitter in this product? it spreads all over the rest of my face when i finish my routine. if you don't mind the glitter bomb it's fine i guess? gonna try to use the rest of it but will definitely not repurchase",
+   "date": "2024-03-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,120 @@
+{
+ "ref": "mkt77001758",
+ "asin": null,
+ "pid": "mkt77001758",
+ "source": "ulta",
+ "nom": "KOCOSTAR Yellow Cream Patch",
+ "note": 4.33,
+ "nbAvis": 9,
+ "lus": 7,
+ "collectes": 7,
+ "segments": {
+  "sensitive": "One reviewer with self-described super sensitive skin reports the product worked well and did not irritate or peel under makeup."
+ },
+ "concerns": {
+  "blemishes": "Most reviewers report their pimples looked calmer, less red, or reduced within one to three days of use, and that the patch is easy to wear under makeup; one reviewer found the dried product still visibly shiny and detectable under makeup and would not buy again.",
+  "redness": "Several reviewers report visibly reduced redness or a less irritated-looking spot the morning after application, with no dissent noted on this point."
+ },
+ "aspects": [
+  {
+   "libelle": "Dries into invisible thin patch",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible sheen after drying",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky when applied too thickly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stays on overnight without peeling",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Application amount is finicky",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "gjg",
+   "titre": "liquid bandage",
+   "texte": "I can see it is kind of like a liquid bandage. When it dries down it still stays shiny. More seamless than putting on a patch but still too detectable even under makeup. Its a pass for me.",
+   "date": "2026-01-29",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sunny",
+   "titre": "Would definitely buy it again",
+   "texte": "I used too much the first time, so it took a long time to dry and felt sticky.😅 But when I tried applying a thin layer, I realized that controlling the amount is key. With a thin layer, it dries quickly and doesn't feel sticky at all. It forms a protective film over the pimple, which makes it much easier to apply makeup on top. It helps cover the acne, improves overall blemish coverage, and makes my makeup go on more smoothly. Most importantly, my pimple calmed down faster than usual. I'm very satisfied and would definitely buy it again!",
+   "date": "2026-02-26",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Angelina",
+   "titre": "MUST BUY!",
+   "texte": "BEST BUY FOR EMERGENCIES! I've tried quite a few pimple patches, and these Yellow Cream Patches really surprised me. They're super thin and blend perfectly with the skin and almost look invisible.. even during the day. They stick well and stay in place overnight without peeling off. The redness looks reduced when I wake up in the morning, making the spot look much less irritated.",
+   "date": "2026-03-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Julez",
+   "titre": "Love it!",
+   "texte": "I've tried a lot of blemish treatments, but this one is honestly so unique. I have super sensitive skin and was a bit nervous to try a new product, especially on problem areas. But my breakout looked noticeably less red overnight, and as a heavy makeup wearer, I love that I can wear it during the day without it peeling under a full face.",
+   "date": "2026-05-08",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Julie",
+   "titre": "It works!",
+   "texte": "It reduce the appearance of my pimple in a couple of days! I was using twice a day once in the morning and at night and it god rid of it in a about 3 days",
+   "date": "2026-01-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Only nine reviews are available and just one mentions a specific skin type, so segmentation by skin type is very limited."
+}

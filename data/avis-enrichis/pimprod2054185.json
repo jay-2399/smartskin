@@ -1,0 +1,170 @@
+{
+ "ref": "pimprod2054185",
+ "asin": null,
+ "pid": "pimprod2054185",
+ "source": "ulta",
+ "nom": "BLUME Meltdown Daily Balancing Gel Cleanser",
+ "note": 4.81,
+ "nbAvis": 43,
+ "lus": 34,
+ "collectes": 34,
+ "segments": {
+  "oily": "One reviewer with acne-prone skin reported it also felt less oily after use.",
+  "dry": "Reviewers who describe dry skin say it cleanses without stripping or leaving their face feeling tight.",
+  "combination": "One reviewer recommends it for combination as well as acne-prone skin, noting it cleanses without over-stripping.",
+  "sensitive": "Numerous reviewers with sensitive skin report it doesn't sting, irritate, or dry their skin, though a few note it contains fragrance/essential oils worth checking for very reactive skin.",
+  "mature": "One reviewer in her late 30s says it works well beyond younger skin, staying gentle without drying."
+ },
+ "concerns": {
+  "aging": "A late-30s reviewer notes the cleanser is gentle and effective beyond just younger skin, though no other age-specific effects are described.",
+  "dehydration": "The large majority say it cleanses without drying or tightness, leaving skin hydrated or soft; no reviewer reports dryness from it.",
+  "redness": "Several reviewers, including ones with sensitive or acne-prone skin, report visibly reduced redness and calmer skin, including in a teen's acne and one adult's rosacea-like reactivity.",
+  "barrier": "Reviewers with sensitive or eczema-prone skin say it did not worsen irritation or eczema and helped skin feel calmer and more balanced, with one specifically citing barrier repair.",
+  "spots": "Multiple reviewers report fewer or less severe breakouts over weeks to months of use, including teenage and adult acne; one reviewer with severe adult acne says it did nothing for her breakouts.",
+  "blemishes": "Reviewers mention reduced acne scarring and forehead bumps clearing when paired with other Blume products, though this cleanser alone is not always credited specifically.",
+  "oiliness": "Only one reviewer directly links use to feeling less oily; most comments focus on hydration rather than oil control."
+ },
+ "aspects": [
+  {
+   "libelle": "Gel texture that foams gently",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and hydrated",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant citrus-like scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Contains fragrance/essential oils",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Struggles with waterproof makeup removal",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No pump packaging",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Destiny",
+   "titre": "Not great",
+   "texte": "This cleanser hasn't done anything for my acne. It's not a great product if your acne is severe. I believe it may be fine for the most basic skin type that occasionally gets pimples. But for an adult with actual acne, it's done nothing. Their oil and face cream are incredibly soft and keep my skin from drying out. I love those products for that reason. But none of it has help clear up my breakouts.",
+   "date": "2026-01-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dominika",
+   "titre": "Finally! An acne cleanser that doesn't sting my sensitive sk",
+   "texte": "I received the Meltdown Daily Balancing Gel Cleanser for testing in exchange for my honest review, and after two weeks of daily use, my skin has never felt more balanced. Finding a cleanser for sensitive, acne-prone skin is usually a nightmare—most products for breakouts are way too harsh and leave my face red and stinging. This gel cleanser is the complete opposite! My skin feels much calmer, deeply hydrated, and noticeably less irritated. I've seen a huge reduction in the redness I usually get with hormonal breakouts. The consistency is absolutely perfect—it's not too runny or thick—and the scent is incredibly pleasant and soothing.",
+   "date": "2026-03-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maxine",
+   "titre": "Reduced breakouts, non-drying, and gentle on eczema-prone sk",
+   "texte": "I noticed that after using this cleanser consistently for a few weeks, my breakouts became much less frequent. It cleansed my skin well without leaving it feeling tight or dry after washing, which I really appreciated. Even with regular use, it was gentle enough that it didn't irritate or worsen the eczema on my cheeks.",
+   "date": "2026-04-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Naomi",
+   "titre": "Amazing cleanser!",
+   "texte": "I love this cleanser!!! I have really sensitive skin that can be quite dry and lots of cleansers can feel really stripping on my skin. This one makes my skin feel so clean without feeling like all the moisture has been stripped from my skin!",
+   "date": "2026-04-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Siobhan",
+   "titre": "A game changer for adult acne",
+   "texte": "My favourite cleanser I have ever used. It made my skin feel so clean without stripping my skin barrier. The ultimate act of self care was trying blumes products. It has been an absolute game changer for my adult acne - for the first time I have found a natural, consistent and helpful product that makes me feel so much more confident and helps calm and heal my acne and skin barrier.",
+   "date": "2026-04-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Megan",
+   "titre": "Gentle and Hydrating Cleanser",
+   "texte": "The texture is a gel that foams really nicely. The scent is fresh and subtle(slightly citrus) and leaves the skin feeling hydrated, not tight. I found this was very gentle for my sensitive, red skin. It visibly reduced redness and inflammation after use. After 6 weeks of use I still have a decent amount of product left- good value. Where this falls short is removing waterproof mascara or eyeliner. I definitely recommend this for acne prone and sensitive skin!",
+   "date": "2026-04-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sydney",
+   "titre": "A must-have for acne prone skin",
+   "texte": "I am so happy I found this product. It completely changed my skin texture and I have found my skin is less red, I have less breakouts and my skin isn't as oily.",
+   "date": "2026-04-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

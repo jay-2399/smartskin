@@ -1,0 +1,156 @@
+{
+ "ref": "pimprod2037033",
+ "asin": null,
+ "pid": "pimprod2037033",
+ "source": "ulta",
+ "nom": "La Roche-Posay Anthelios Kids Gentle Sunscreen Face and Body Lotion SPF 50",
+ "note": 4.69,
+ "nbAvis": 437,
+ "lus": 79,
+ "collectes": 125,
+ "segments": {
+  "sensitive": "Many reviewers describe their child (or themselves) as having sensitive skin, and most report no irritation, stinging, or breakouts, though a minority report eye stinging or a rash-like reaction on first use.",
+  "dry": "A few reviewers mention eczema-prone or dry, bump-prone skin and report the lotion feeling moisturizing rather than drying, with no worsening of eczema patches after application."
+ },
+ "concerns": {
+  "redness": "Reviewers with sensitive or eczema-prone skin most often report no redness, rash, or reaction after use, including on eczema patches; one reviewer reports her own facial allergic-type rash with other sunscreens is avoided with this one, but one reviewer reports eye irritation and watering that could read as redness around the eyes.",
+  "barrier": "Reviewers with eczema or a diagnosed skin condition report the lotion did not aggravate itchy, bump-prone, or dry patches and left skin feeling moisturized; no reviewer reports barrier damage.",
+  "blemishes": "Several sensitive-skin reviewers state their child normally breaks out from other sunscreen brands but did not break out with this one; no reviewer reports new blemishes from this product itself."
+ },
+ "aspects": [
+  {
+   "libelle": "No white cast on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or chemical sunscreen smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or waters the eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rubs off quickly in water for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Convenient squeeze tube packaging",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jessica M",
+   "titre": "Trip ruined! Eye irritation",
+   "texte": "I'm in the middle of The Animal Kingdom at Disney world really upset righting this! This sunscreen just ruined my whole day!!!! I used this sunscreen at my kid, 10 min in the park she rubbed her eye and it started watering and got really irritated! And then my hanger boy started with the same Simpsons! I'm really frustrated since I've always used this brand. This is all very upsetting to have a dream trip ruined by something that was supposed to protect!!!! I've never had this issue with another kids brand!",
+   "date": "2024-03-25",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Priscilla V",
+   "titre": "Review on La Roche Posay Anthelios Kids",
+   "texte": "This sunscreen works well, except for a few things. Causes tremendous eye sting, smells like motor oil when first applied and comes right off in water even when applied 30 min before. My daughter was still getting sun burned/extremely tanned even after putting a generous layer of this on her face and body and waiting at least 30 min before jumping in the pool, and she only spent 45 min in pool for her swimming class.",
+   "date": "2023-08-16",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sol",
+   "titre": "The best",
+   "texte": "I have used this sunscreen on my daughter—who has sensitive skin and eczema—for over two years, and it has always protected her very well; she has never gotten sunburned. It is important to reapply every two hours when they are more exposed to the sun.",
+   "date": "2026-03-30",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MelMar",
+   "titre": "Prevents sun damage and keeps skin clear",
+   "texte": "Excellent for sensitive skin. My daughter and I have been getting an allergic rash on our face with other sunblocks. This is the only sunblock that doesn't cause a rash and does a great job preventing sun damage. We are grateful to La Roche for making such a great product.",
+   "date": "2023-07-27",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "mindy0208",
+   "titre": "No more waiting to get into the pool",
+   "texte": "Does appear white at first but absorbs into the skin and just like lotion. This leaves no white cast and absorbs very fast it looks like there is no sunscreen on. It is sticky for a few minutes then it becomes smooths to the skin due to the cell-ox shield in the product. This means no more waiting to get into the pool. My kids loved it also it is water resistant for 80 minutes. I also love how gentle this is made for sensitive skin my daughter with eczema this is the best. She so sensitive to the sun and this help her so she can play outside and not have bad breakouts. I give this 5 stars.",
+   "date": "2023-04-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "janetr65",
+   "titre": "Absorbs super easy, great for skin with eczema!",
+   "texte": "My daughter has sever eczema on her body, the worst of it being on the legs. Almost everything burns her skin when applying. However, this applies beautifully and doesn't cause burning or irritation to her already sensitive skin. As you can see in the photos it didn't cause her eczema to turn ready or itchy even hours after applying it. This is a keeper!",
+   "date": "2023-04-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "meeshbadeesh",
+   "titre": "Good for sensitive skin!",
+   "texte": "I was pretty hesitant to use this on my kids. They both have very sensitive skin and have broken out before when we don't use neutrogena and sun bum sun screen. But this stuff is gentle and good on their skin! So excited we found one more product that is safe for my kids!",
+   "date": "2023-04-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

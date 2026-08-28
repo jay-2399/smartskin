@@ -1,0 +1,153 @@
+{
+ "ref": "pimprod2001866",
+ "asin": null,
+ "pid": "pimprod2001866",
+ "source": "ulta",
+ "nom": "FOREO Call It A Night Revitalizing & Nourishing UFO Activated Sheet Masks",
+ "note": 4.68,
+ "nbAvis": 22,
+ "lus": 20,
+ "collectes": 20,
+ "segments": {
+  "dry": "Reviewers with dry skin report dry patches disappearing and skin feeling plumped and hydrated after use.",
+  "sensitive": "A reviewer with very sensitive skin found the mask gentle enough for her face while still feeling effective.",
+  "mature": "A 62-year-old reviewer reports diminished fine lines and wrinkles and improved skin texture with regular use."
+ },
+ "concerns": {
+  "aging": "One mature-skin reviewer reports fewer fine lines and wrinkles and improved elasticity; another notes increased elasticity and no more dry patches.",
+  "dehydration": "Multiple reviewers describe visibly more hydrated, plumped skin the next day, including one with dry skin whose dry patches disappeared; no dissent reported.",
+  "barrier": "One reviewer with dry skin reports dry patches gone and skin well taken care of overnight.",
+  "redness": "One reviewer notes reduced puffiness and bags under the eyes on waking, though this is closer to a texture/tone effect than redness specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Format is single-use pads, not sheet",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging wastes product and is fussy",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, soft skin texture next morning",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Heating and vibration mode enhances effect",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant scent and relaxing bedtime ritual",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price justified by results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Short treatment time versus other masks",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Monica",
+   "titre": "not really a mask, just a small pad",
+   "texte": "This is so silly. Each box comes with 10 individually packaged *small* round pads soaked with lotion. It's not a *sheet* mask that you leave on, you're basically just putting lotion on your face with the round and it dries out after a minute or so (like, you know, any moisturizer), after which you throw out the round. Since it basically acts as any moisturizer, I'm rating it as such. The individual packaging is very wasteful, and while not super expensive, you'd get far more uses out of any regular lotion container. The lotion itself is fine, but the product is misleading, and you're getting very little product.",
+   "date": "2025-06-26",
+   "verifie": false,
+   "utiles": 26,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "BB",
+   "titre": "FOREO sheet masks Call it a night",
+   "texte": "Thank you FOREO!! I use many FOREO beauty tools and skin care products and my 62 year old skin is gorgeous! The FOREO sheet masks are spa quality skin treatments that leave my skin glowing-literally! Fine lines and wrinkles have greatly diminished and my skin texture is improved and is so hydrated and soft! I use the AM and PM sheet masks with the FOREO UFO and it is such a treat and the results are truly amazing!!!",
+   "date": "2023-12-20",
+   "verifie": false,
+   "utiles": 22,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lolalo",
+   "titre": "Great for sensitive skin",
+   "texte": "I have very sensitive skin. Only the gentlest products can be used on my face. This mask is so gentle yet really feel like it's working. The ginseng wakes up and tightens my skin and the olive oil is very nourishing. Highly recommend!",
+   "date": "2019-01-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kimtatt",
+   "titre": "Perfect formula",
+   "texte": "I have to admit I wasn't very familiar with ginseng before I started using these masks. My skin's got a lot more elasticity to it since I've started using the UFO and I don't have problems with dry patches anymore. I go to sleep knowing that my skin is well taken care of and it shows, which is priceless.",
+   "date": "2019-04-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "kirakira",
+   "titre": "Simply amazing",
+   "texte": "Happy with this product. I used one today and was very pleased how the mask plumped up my skin. I have very dry skin and it now feels hydrated. I will buy again for sure.",
+   "date": "2019-03-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Josephinee",
+   "titre": "Transformed my skin in mere days",
+   "texte": "This is hand down the best night mask I have ever used. I apply it in the evening at the end of my regular routine and my skin instantly feels calmer, softer and hydrated. When I wake up in the morning it looks like I've had a full 8 hours sleep. My dry patches have disappeared!",
+   "date": "2018-12-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "CP",
+   "titre": "Hard to apply",
+   "texte": "The way this is packaged makes it hard to apply, and wastes a lot of the product.",
+   "date": "2023-10-24",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

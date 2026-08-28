@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2052123",
+ "asin": null,
+ "pid": "pimprod2052123",
+ "source": "ulta",
+ "nom": "The INKEY List Niacinamide Oil Control Serum",
+ "note": 4.53,
+ "nbAvis": 346,
+ "lus": 75,
+ "collectes": 82,
+ "segments": {
+  "oily": "Oily-skin reviewers report reduced shine and better makeup wear over the day, with some seeing sebaceous filaments and T-zone oiliness diminish over weeks to months.",
+  "dry": "One reviewer with dry skin says it helped control chin and jawline congestion without over-drying the rest of her face.",
+  "combination": "A reviewer managing oiliness with makeup found no noticeable difference, attributing this possibly to the rest of her routine.",
+  "sensitive": "Sensitive-skin reviewers mostly report calm, non-irritating use and reduced redness, but one describes a whole-face red, irritated reaction to daily use that only settled with sporadic, localized application.",
+  "normal": "A normal-skin reviewer uses it simply to keep occasional breakouts to a minimum.",
+  "mature": "One 55-year-old reviewer, drawn to it for aging skin, reports it keeps her skin clear alongside using it for her daughter's acne."
+ },
+ "concerns": {
+  "aging": "One mature reviewer says it keeps her skin clear and views it as helpful for aging skin, though she does not describe specific wrinkle or firmness effects.",
+  "dehydration": "A few reviewers note hydrating, plumping, or moisturizing effects when paired with hyaluronic acid, though one reviewer says it dried out areas of her face outside the T-zone.",
+  "redness": "Most reviewers describe reduced facial redness, including rosacea- and acne-related redness, often within weeks; one reviewer instead developed a red, irritated area across her whole face and had to scale back use.",
+  "barrier": "One reviewer credits it with balancing and normalizing the skin barrier, but this is not echoed elsewhere in detail.",
+  "spots": "Reviewers report faded dark spots, pigmentation, and discoloration, especially when combined with vitamin C.",
+  "blemishes": "Many reviewers report fewer breakouts, calmer acne, and faded acne scars over weeks to years of use; a minority describe new breakouts, including one case of a mild breakout and one of ongoing occasional pimples.",
+  "oiliness": "The large majority of reviewers report visibly reduced oil and shine, especially in the T-zone, often citing longer-lasting makeup; one reviewer felt it made no difference to her oil control."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tacky or sticky residue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Recent formula change, off smell/colour",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle too small, wish for bigger size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Runny bottle, hard to dispense drops",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pairs well with vitamin C or retinol routine",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Hannah S.",
+   "titre": "Doesn't agree with my skin",
+   "texte": "Seems fine but just doesn't agree with my skin. Initially I used it daily and it caused a red area of sensitivity and irritation over my whole face. I've used it sparingly since on my chin and not had the same reaction as long as I don't use it on consecutive days but it can't be effective with such sporadic usage. Just not for me.",
+   "date": "2024-11-06",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Sophie H.",
+   "titre": "Helping to control my oily skin, redness & large pores!",
+   "texte": "I used to use this in the morning and wasn't a fan as it didn't sit well under make up. I now use after cleansing in the evening, before applying the azelaic acid. I suffer with large pores, texture and redness from rosacea and have found that in the last month sticking to a consistent skincare routine and using an LED mask alongside it I've begun noticing an improvement in my rosacea for the first time in years!",
+   "date": "2025-01-22",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Barbara R.",
+   "titre": "Clearest skin in decades",
+   "texte": "Using this serum has dramatically changed the clarity and tone of my sensitive and reactive skin. Large pores have shrunk, breakouts are far less frequent, redness has lessened and the cluster of whiteheads around my eyes and temples have almost completely cleared. The (badly) bleached photo is a before and the second photo is after four weeks of continuous use morning and evening alongside the hydroectin barrier serum, omega water cream and the ceramide moisturiser in the evening after my prescription retinol.",
+   "date": "2025-05-27",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Libby",
+   "titre": "Super effective & lightweight!",
+   "texte": "Great for my sensitive skin- other niacinamide serums I've tried have had added products that irritated my skin, but this was perfect. No weird residue left and is super lightweight and feels great on the skin. Saw results after 2-3 days of use.",
+   "date": "2025-09-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Louise D.",
+   "titre": "My 4th bottle !",
+   "texte": "A lovely serum which really does its job. I have a greasy skin,open pores, uneven skin texture and occasional break outs .I have been using this for a year now and all the mentioned problems are a lot less.",
+   "date": "2024-12-17",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Michael M.",
+   "titre": "Helps prevent pimples",
+   "texte": "I have dry skin but i seem to always be congested around my chin and jawline and this helped control the blackheads without over drying my skin",
+   "date": "2025-06-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Martina S.",
+   "titre": "Broke me out",
+   "texte": "I used it a few times and it immediately broke me out. Not one star because the break out wasn't severe and my other skincare cleared it up once i stopped using this.",
+   "date": "2025-07-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

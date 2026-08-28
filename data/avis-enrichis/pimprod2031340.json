@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2031340",
+ "asin": null,
+ "pid": "pimprod2031340",
+ "source": "ulta",
+ "nom": "Dermalogica Circular Hydration Serum",
+ "note": 4.69,
+ "nbAvis": 1119,
+ "lus": 73,
+ "collectes": 92,
+ "segments": {
+  "dry": "Reviewers with dry skin, including several describing dry patches, flaking, or dryness worsened by winter weather, report that the serum increases hydration and reduces flakiness, though one dry-skin reviewer using it for four months saw no positive or negative effect.",
+  "sensitive": "Sensitive-skin reviewers, some also mentioning rosacea, report the serum calms redness and does not irritate, but others with sensitive or reactive skin describe itching, tiny bumps, or eye irritation after use.",
+  "combination": "Combination-skin reviewers say the serum targets drier areas like the cheeks and T-zone effectively without over-hydrating the oilier zones.",
+  "mature": "Reviewers describing their skin as mature or aging report a plumping and glow effect, with one noting fine lines fading slightly after a month of use."
+ },
+ "concerns": {
+  "aging": "Reviewers concerned with aging report plumper, glowing, more youthful-looking skin and slight fading of fine lines; one reviewer explicitly noted no change in wrinkles.",
+  "dehydration": "Dehydration is the concern most consistently resolved: reviewers across climates (including dry winter air and arid regions) report all-day hydration, softer and smoother skin, and disappearance of dry patches; one long-term dry-skin user reported no visible change at all.",
+  "redness": "Reviewers with rosacea-related redness report the serum reduces redness and does not aggravate it, though one reviewer experienced new facial itching after a reformulation.",
+  "barrier": "Reviewers describe the serum as helping lock in moisture and support the skin barrier, especially in harsh winter conditions.",
+  "spots": "Not clearly addressed; no reviewer specifically discusses dark spots or pigmentation.",
+  "blemishes": "Reports are mixed: most reviewers say it does not cause breakouts or clog pores, but one reviewer developed tiny bumps and irritation, and another initially blamed the serum for breakouts later attributed to a retinoid.",
+  "oiliness": "Reviewers note the serum absorbs without leaving a greasy or heavy residue, which they associate with a lighter, non-oily finish."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky or tacky residue",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Added fragrance after reformulation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragile glass packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount needed per use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pairs well under makeup and moisturizer",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Casinomomma",
+   "titre": "Best serum out there for dry skin",
+   "texte": "I have tried so many different serums and products, wasted a lot of money. This is the best thing I have ever gotten for my dry, sensitive skin. I also have rosacia and this has significantly reduced my redness over the last couple months. I'm 52 for reference, dry, Extremely sensitive and dry skin. you won't regret it",
+   "date": "2025-05-27",
+   "verifie": false,
+   "utiles": 21,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Trish B.",
+   "titre": "10/10 Recommend",
+   "texte": "I used the Dermalogica Virtual Assistant and so pleased with all recommendations, but particularly this serum! So refreshing to put on and settles into the skin really nicely - not tacky. Most importantly, I have found it extremely hydrating and has, I think, been the key product to help heal my extremely dry neck/jawline that spurred during my pregnancy.",
+   "date": "2025-05-30",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Sheena",
+   "titre": "Its average.",
+   "texte": "First I think its important to disclose your age and skin type as your skin changes at different stages in life. I'm 39, and have dry skin. I picked this up along with several other dermalogica products and have been using them for 4 months. I wanted to use it for a while before reviewing. I see no positive or negative effects with this on my skin. It does feel a bit sticky. The metal component around the lid fell off after a week (I did have it in a travel bag in hot conditions so it probably loosened the glue holding it). The results vs the price were not worth it to me. I used as directed. I would recommend the milkfoliant and the moisturizer from dermalogica though.",
+   "date": "2024-10-13",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nancy E.",
+   "titre": "Great serum!",
+   "texte": "The circular hydration serum seems to keep my face softer and more hydrated all day especially now in the dry winter months. I have combination skin and my cheeks tend to be drier. This serum is great for me for the winter months. Would definitely recommend this product to anyone with dry or aging skin!",
+   "date": "2024-01-25",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SR",
+   "titre": "The first serum my skin had adored!",
+   "texte": "I have sensitive, combo, rosacea skin. The journey of finding a serum to combat these equally has been hard/tiring. I'm almost 29 and my skin has stared to mature differently. This stuff helps give some bounce and moisture in my face! Fine lines are starting to fade a bit after a month. Even after the first use my coworker noticed the glow to my skin. It's pricey but worth it!!",
+   "date": "2023-12-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "DeAllen M.",
+   "titre": "Deep Hydration",
+   "texte": "This serum left my skin super hydrated. The moisturized feeling lasted well over 9 hours for me. Unfortunately, I returned it initially because I thought it was causing breakouts. I later realized that my new Tretinoin cream was the more likely culprit. I definitely plan to reorder soon and highly recommend this product!",
+   "date": "2025-05-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lala",
+   "titre": "Comedogenic",
+   "texte": "Dermalogica puts a lot of unnecessary fragrance oils in their products, their ingredient list is ridiculously long. I got so much irritation from their products (this serum being one of the products in my routine). I loved the feel of it and it felt hydrating but caused me so many tiny bumps and irritation which sucks because I really wanted to love this product.",
+   "date": "2024-01-03",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2025212",
+ "asin": null,
+ "pid": "pimprod2025212",
+ "source": "ulta",
+ "nom": "Good Molecules Glycolic Exfoliating Toner",
+ "note": 4.39,
+ "nbAvis": 269,
+ "lus": 80,
+ "collectes": 91,
+ "segments": {
+  "oily": "One reviewer with combination-leaning-oily skin describes it as a repeat-buy that keeps acne clear.",
+  "dry": "Some reviewers with dry skin note it can be a little drying on the face, though one reports it keeps dry, sensitive skin hydrated and another says it does not strip or dry the skin.",
+  "combination": "One reviewer describes combination, oily-leaning skin staying clear with regular use.",
+  "sensitive": "Sensitive-skin reviewers are split: several report no irritation, no breakouts and calm, clear skin when used a few times a week, while others describe severe reactions including razor-burn-like marks, hives, perioral dermatitis, or breakouts when used too often or as directed.",
+  "mature": "One older reviewer (self-described as 'a little older') reports it clarifies gently without over-drying and helps acne and irritation heal faster; another used it for a 61-year-old's hyperpigmentation with reported success."
+ },
+ "concerns": {
+  "aging": "Reviewers report reduced fine lines between eyebrows and fading of dark/sun spots and hyperpigmentation, including use by an older family member for hyperpigmentation.",
+  "dehydration": "Most say it does not dry out skin and even leaves it hydrated or soft, but a few report it left their face a little dry or that it dries out skin with more frequent use.",
+  "redness": "Mixed: some report a rash on the nose or a chronic irritation clearing up, but others developed red hives, red pimples, or perioral dermatitis from the product.",
+  "barrier": "Several reactive-skin reviewers report irritation, stinging, or a 'razor burn' type reaction spreading to the neck and chest; others report no sensitivity or purging even after months of use.",
+  "spots": "Multiple reviewers report fading of dark spots, sun spots, and acne scars/hyperpigmentation, sometimes within days; one reports no improvement in evening out skin tone.",
+  "blemishes": "Many reviewers report clearer skin, fewer breakouts, and help with hormonal or cystic acne, including on the chest and back; a minority instead report new pimples, bumps, or acne flare-ups after starting the product.",
+  "oiliness": "One combination/oily-skin reviewer reports the product keeps her skin clear, but oiliness specifically is not otherwise discussed."
+ },
+ "aspects": [
+  {
+   "libelle": "Improves visible texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or burning on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight, non-sticky feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Chemical scent when layered with other products",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "No noticeable results after months of use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus pricier glycolic acids",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Versatile off-face uses (underarms, body)",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Smcdani",
+   "titre": "Not for reactive skin",
+   "texte": "I've used glycolic acids before but this one caused a severe reaction. I developed what looked like razor burn from my chest all the way up my neck. The formulation is nice but if you have skin thats reactive or sensitive I'd say stay away.",
+   "date": "2025-12-16",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Joicherrin",
+   "titre": "Use sparingly, especially",
+   "texte": "Use sparingly, especially if you have sensitive skin or you react to harsher chemicals. I thought this would be gentle enough to get rid of some texture around my chin. I guess I used it too often, I misted my face with this toner 3 days in a row and developed a terrible case of perioral dermatitis. I don't blame the product, my skin looked better the first 2 days I used it. Just be careful when introducing it into your skin care routine.",
+   "date": "2024-05-27",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alexis",
+   "titre": "This is a repeat buy!!",
+   "texte": "I have combination skin, but lean more towards oily. I use this for acne, and haven't found anything else like it! Keeps my skin clear!",
+   "date": "2024-01-17",
+   "verifie": true,
+   "utiles": 12,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emelia",
+   "titre": "LOVE IT",
+   "texte": "I struggled a lot with texture on my forehead that would just not go away no matter what I did. I tried salicylic acid and other brands' glycolic acid products, but this one actually gave me results! I rotate this toner into my night routine every 3 days because using it more often than that tends to irritate and dry out my skin. BE SURE TO NOT MIX IT WITH OTHER ACTIVE INGREDIENTS. I did that for the longest time and my skin was irritated ALL the time. It does take a few weeks to notice a difference, so be sure to stay consistent! This really is a great product!!",
+   "date": "2025-02-14",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Effective but gentle exfoliation",
+   "texte": "I will never be an expert but as I am a little older I am learning what and how products work on my skin. This toner is effective but gentle as it clarifies without overly drying my skin. It promotes faster healing for any acne or irritation and tends to fade quickly. Currently, I also have Clinique Clarifying #3 and The Ordinary Glycolic in my arsenal but I reach for this most often.",
+   "date": "2023-12-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Izzy",
+   "titre": "Amazing! Use Lightly",
+   "texte": "TL;DR: My sensitive skin likes using this product once every 2 weeks rather than the recommended use, but its great for exfoliating. Always use sunscreen as well. I had used the product as recommended and broke out with pimples in patches, so I cut back on the use to once every two weeks. I use a cotton pad since my skin is still sensitive to the glycolic acid. This schedule works for me since anytime I do increase the usage, my skin breaks out again. Overall, it's a great chemical exfoliant and allows my skin to soak up other products as needed! Including sunscreen.",
+   "date": "2024-09-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Bay",
+   "titre": "Didn't do anything",
+   "texte": "I used this product for months it did pretty much nothing. Its a good astringent but I think its too gentle for an exfoliant (which your supposed to use 2x per week not everyday). Might be good if you have sensitive skin.",
+   "date": "2024-06-05",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

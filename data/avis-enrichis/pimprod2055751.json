@@ -1,0 +1,146 @@
+{
+ "ref": "pimprod2055751",
+ "asin": null,
+ "pid": "pimprod2055751",
+ "source": "ulta",
+ "nom": "ELEMIS Pro-Collagen Skin Protection Fluid SPF 50",
+ "note": 4.93,
+ "nbAvis": 14,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {
+  "sensitive": "One reviewer with very sensitive skin reports no irritation, rashes, or breakouts and says it layers well under a tinted moisturizer.",
+  "mature": "Reviewers who describe their skin as aging report it keeps skin feeling healthy and hydrated, with light, fast-absorbing texture."
+ },
+ "concerns": {
+  "aging": "Reviewers with aging skin say the product keeps their skin feeling healthy and hydrated over time; none report it worsening signs of aging."
+ },
+ "aspects": [
+  {
+   "libelle": "Absorbs quickly into skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast or residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dispenses too much product at once",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No stinging or irritation around eyes",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "No chemical smell",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Auto-ship convenience valued",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "kymom13",
+   "titre": "Comes out fast",
+   "texte": "I love the added SPF in this facial lotion. It does, however, come out quickly and due to it being thin, I feel like I get too much product out at one time. I love ELEMIS products and feel that this is another good product for my aging skin.",
+   "date": "2025-05-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "HeatherMac",
+   "titre": "Amazing Sun Screen",
+   "texte": "I took this to the beach on a girls trip and we all used it. It is not greasy at all, like most sunscreen products. Feels silky on your face and hydrates. Also, in the past most sunscreens really bother my eyes and I did not have that problem with this product.",
+   "date": "2025-06-20",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "SavvyShopper",
+   "titre": "Love it!",
+   "texte": "I have very sensitive skin. It's no easy task to find a good facial sunscreen that I can use without any issues. I took a chance on this sunscreen. I'm very pleased with the product. I've had no issues with irritation, rashes or breakouts. It holds up well under a tinted moisturizer that I wear and it doesn't have any white cast or sticky/tacky or greasy feel. Thank you Elemis!",
+   "date": "2025-03-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Terry Klausmeier",
+   "titre": "Works perfectly!",
+   "texte": "I purchased this SPF 50 for a recent trip to FL. I applied to face and neck. I was out in the hot sun for 8-10 hours (I did have a hat on with a small brim). It worked great; I did not burn; not even a little color! Amazing; can you make a product for the rest of me!",
+   "date": "2025-07-08",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "JoJoAK1",
+   "titre": "Alaska's Spring Sun!",
+   "texte": "Today was the first time using Pro-Collagen Skin Protection Fluid SPF 50 and today was the first day of warm sunshine here in southeast Alaska's rain forrest. Love how light and smooth it feels across your face and neck and keeps my aging skin healthy. You can feel it soak right into your skin. Happy I have an auto-ship! This skincare line Elemis, is now my skincare products.❤️",
+   "date": "2025-05-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LizzeK",
+   "titre": "Pro-Collagen Skin Protection Fluid SPF",
+   "texte": "I fell in love with Elemis from a birthday cruise. I've been purchasing since March 2022. This SPF 50 facial cream is the best I've used in all my 67 years. Absorbs quickly and doesn't have a chemical smell. I love that Elemis has auto-ship! I live in Phoenix AZ need all the sun protection we can get!",
+   "date": "2025-04-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marilyn T",
+   "titre": "Great moisturizer and sun protection all in one!",
+   "texte": "Love the SPF protection with moisturizer. It's very lightweight with no white residue showing. It absorbs right into your skin.",
+   "date": "2025-03-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "Only 9 of the 14 reviews were supplied, and most give little detail on specific skin types or concerns beyond aging and sensitivity, so coverage of other segments (oily, dry, combination, normal) and concerns (dehydration, barrier, spots, oiliness) is thin to absent."
+}

@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2022546",
+ "asin": null,
+ "pid": "pimprod2022546",
+ "source": "ulta",
+ "nom": "Clinique All About Clean 2-in-1 Charcoal Face Mask + Scrub",
+ "note": 4.39,
+ "nbAvis": 74,
+ "lus": 60,
+ "collectes": 60,
+ "segments": {
+  "oily": "Reviewers with oily skin report reduced shine, less next-day oiliness, and refined pores, though one notes slight dullness right after use until moisturized.",
+  "dry": "Reviewers who describe their skin as dry report the mask handles deep-set blackheads without stripping the skin, though one warns it is 'definitely not for drier skin types' and requires heavy moisturizing after use.",
+  "combination": "Reviewers with combination skin report the mask leaves skin feeling fresh and clean, using it weekly or focusing on the T-zone with no irritation mentioned.",
+  "sensitive": "Reports from sensitive skin split sharply: several describe zero redness or irritation and even calming of breakouts, while others (including one with rosacea) report scratching, exacerbated redness, or visibly angrier broken capillaries.",
+  "normal": "Reviewers with normal skin report the mask balances occasional breakouts and works well with a short 5-minute application time.",
+  "mature": "One reviewer no longer dealing with oily skin in her 'older years' still gets deep pore purification without irritation; another calls it suitable for mature skin generally."
+ },
+ "concerns": {
+  "aging": "One mature-skin reviewer reports the mask tightens the face and gives a softer, firmer feel; another describes it as gentle and effective without irritation in older skin, though sample size on aging-specific effects is small.",
+  "dehydration": "Most reviewers report no drying effect and describe skin as soft or hydrated afterward; a few explicitly warn it can dry fast on application and one dry-skin user says it's not suited to very dry skin without heavy moisturizer follow-up.",
+  "redness": "Reports diverge strongly: several sensitive-skin users report zero redness or irritation, while others with rosacea or broken capillaries report the physical grit worsened redness and made capillaries more visible.",
+  "barrier": "A few reviewers note the mask is 'not overdrying' and calming even during breakouts, suggesting no barrier disruption for them, though one rosacea sufferer felt it caused additional trauma to compromised skin.",
+  "spots": "Multiple reviewers report the mask calms and heals breakouts or clears congestion; one reviewer, however, reports the product caused new breakouts at age 71 with no prior history of blemishes.",
+  "blemishes": "Several acne-prone reviewers, including a teenager with chronic clogged pores, report clearer, unclogged pores after a single use; one reviewer reports the opposite, describing a severe negative skin reaction likened to a 'disease'.",
+  "oiliness": "Multiple oily-skin reviewers report reduced shine and pores looking smaller after regular use, with one describing a 'miracle' 24-hour oil-control effect."
+ },
+ "aspects": [
+  {
+   "libelle": "Fine physical exfoliating grains",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Fine physical exfoliating grains",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Leaves skin soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stains washcloths grey or black",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube size too small for price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Dries out quickly during application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Perceived as rebrand of discontinued City Block mask",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Kris",
+   "titre": "Too abrasive for sensitive skin",
+   "texte": "I loved the charcoal mask that Clinique had for many years before this one. I thought I would try this when they discontinued, as so often happens with Clinique, the one I always used. I have moderate rosacea, so I have enlarged pores on my checks, nose, and forehead. The previous product worked well to detoxify and minimize my pores without being too harsh, causing additional trauma to my skin, or increasing redness. This new product is a physical exfoliant which means the gritty pieces scratched my skin and exacerbated my rosacea. Very disappointing that Clinique is slowly phasing out products that target people with sensitive skin types or other skin issues such as rosacea; they used to be my go-to for their redness solutions and range of sensitive skin friendly products...",
+   "date": "2023-01-21",
+   "verifie": false,
+   "utiles": 54,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SDT",
+   "titre": "Best cleanser Clinique makes!",
+   "texte": "I tried this and was blown away by how great it is. I have very sensitive skin and use it once daily, about a dime size amount. It doesn't take much. It leaves my face so smooth with zero redness or irritation. I used to use the 7 Day Scrub but this cleanser/mask is so much better! I now have it on subscription so I never am without it. For me, it's the best cleanser Clinique has ever made. I highly recommend it. Would love a travel size!",
+   "date": "2023-08-22",
+   "verifie": false,
+   "utiles": 26,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda",
+   "titre": "Favorite mask!",
+   "texte": "This mask is my new favorite mask! It helps clear up my skin and makes it super soft! And I really like that it is easy to apply and easy to rinse off! My skin is sensitive, dry combination, and it works wonders!",
+   "date": "2022-09-11",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tacoknight",
+   "titre": "Love This Mask",
+   "texte": "I had to quit using Origins Charcoal Mask since I'm allergic to Propylene Glycol ingredient in it. Had patch test at derm doctor. This really cleans my face especially nose. Glad it doesn't have a scent perfume. I'm dry but blackheads on nose are deep. Have trouble with tight pores.",
+   "date": "2022-05-02",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kpettaway",
+   "titre": "Miracle Worker!",
+   "texte": "I've been using Clinique products for years, and nothing truly helped my oily skin long. However this stuff is a miracle worker. I used it has a mask and left it on for about 10-15 mins, then wash it off. Came off very easy with water. 24 hours later and my skin didn't get oily, very surprised! Love anything about it and will continue to use this weekly. I will say that directly after, my skin did look a little dull but after I moisturized my skin was fine. But I took a star off for it. Thankfully the dullness didn't come back the next day. Finally something that works and controls my oily skin.",
+   "date": "2021-06-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Southernbelle",
+   "titre": "So disappointed",
+   "texte": "When I used this product, it broke my face out! I am 71 years old, and haven't had zits in years. Have no idea why this happened. I have never had a problem with any Clinique product.",
+   "date": "2021-06-15",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Conner",
+   "titre": "OUTSTANDING mask esp for sensitive, acne prone skin",
+   "texte": "I really loved cliniques city block purifying charcoal mask which seems as of recently is no longer available per a pop up in my favorites stating no longer available which was odd because it was a highly purchased and 5 star reviewed mask. Then on my for you showed up this Clinque all about clean 2 in 1 as a new arrival and has the exact same ingredients from what I can see as their city block purify mask/scrub which is also a 5 minute wash off and has natural bamboo charcoal and kaolin clay in it! So I am wondering if they've remarketed and labeled to show no fragrance and stating all about clean ingredients. It's an outstanding mask for acne prone, sensitive and even mature skin for breakouts. Clears congestion, reduced appearance of pores, not drying at all nor did it irritate my sensitive skin and gave a nice clean feeling. I applied and when it dried and turned blue I washed in small circles to exfoliate with cold water and my face always felt great afterwards and the tube lasted me a while as I would use 2 or 3 times weekly. Def worth the purchase.",
+   "date": "2021-03-01",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "aging",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

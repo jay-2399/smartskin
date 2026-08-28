@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2051725",
+ "asin": null,
+ "pid": "pimprod2051725",
+ "source": "ulta",
+ "nom": "FARMACY Green Clean Cleansing Balm",
+ "note": 4.85,
+ "nbAvis": 2663,
+ "lus": 81,
+ "collectes": 122,
+ "segments": {
+  "sensitive": "Reviewers with sensitive, sensory-sensitive, or rosacea-prone skin report no irritation, burning, or breakouts, with one exception noting new eye sensitivity after the reformulation.",
+  "dry": "A reviewer with dry skin reports it works well and leaves skin soft rather than tight, contradicting her initial skepticism.",
+  "oily": "One reviewer with oily skin reports the balm keeps oil in place and minimizes the look of pores.",
+  "mature": "A reviewer using it after an anti-aging mask describes it as the perfect complement, leaving skin clean and moisturized."
+ },
+ "concerns": {
+  "aging": "One reviewer pairs it with an anti-aging mask/serum routine and describes it as the perfect cleanser to follow up with, leaving skin firm-feeling and moisturized.",
+  "dehydration": "Many reviewers report skin feels soft, hydrated, or not tight after use, including several who contrast it favorably with makeup wipes that left skin dry; a few reviewers of the reformulated version instead describe a greasy, petroleum-jelly-like residue.",
+  "redness": "One reviewer with rosacea reports the balm does not exacerbate her redness and leaves skin feeling soft and hydrated.",
+  "barrier": "Reviewers describe it as gentle and non-stripping, with several noting no irritation even with frequent or double-cleansing use; one reviewer reports her eyes became newly sensitive to it after the reformulation.",
+  "spots": "One reviewer reports she was breaking out from not fully removing sunscreen and that switching to this balm stopped that; another reports zero breakouts over regular long-term use.",
+  "blemishes": "Several reviewers report no new breakouts or irritation with regular use; no reviewer reports the balm causing blemishes.",
+  "oiliness": "One reviewer with oily skin reports it helps keep oil in check without over-stripping; most other comments on residue describe the product as non-greasy, though a few dislike a greasy or filmy after-feel from the new formula."
+ },
+ "aspects": [
+  {
+   "libelle": "Melts off waterproof makeup and mascara",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reformulation performs worse on stubborn makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Buttery, silky, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves greasy or petroleum-like film",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Light citrusy or herbal scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Eco-friendly, recycled packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to performance",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Sam",
+   "titre": "AWFUL reformulation",
+   "texte": "The original melting balm in the white container was my holy grail. I wear lots of waterproof items and it's important that my makeup breaks down before I go in with a facewash. I was skeptical about the new formula but still gave it a shot. First off, the balm does not met like it used to. I end up still having clumps. Second, you have to use a LOT more product to even get some of your makeup to budge. Third, it just didnt seem to melt my waterproof mascara off like it used to. This is so disheartening as nothing else on the market compared. I will no longer purchase this balm as the price is not worth the mediocre product. For those of you who loved the OG, I suggest trying out Naturiums cleaning balm (purple container). Its pretty close, but you still need to really rub that mascara!",
+   "date": "2026-02-02",
+   "verifie": false,
+   "utiles": 74,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Arran",
+   "titre": "Was a big fan. Then the formula changed",
+   "texte": "I've been using this for so so long and it was my favorite and go to. Then the formula changed and now my eyes are super sensitive to it and I can't even use it to take eye makeup off because of how sensitive my eyes now are to it. Before I could rub it all over and get every last bit melted off. Upset the formula changed. It was such an amazing first step",
+   "date": "2025-07-19",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "KDB",
+   "titre": "Love!!",
+   "texte": "I loved this instantly! I had been using oil but it wasn't removing my makeup. I tried Farmacy cleaning balm and noticed a HUGE DIFFERENCE!!! I have very sensitive skin and this didnt bother me!",
+   "date": "2025-12-10",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "G",
+   "titre": "Amazing!",
+   "texte": "Found myself breaking out because I wasn't properly removing my sunscreen. Found this during a spontaneous visit and decided to give it a try. Instantly noticed my skin feeling cleaner and my pores have been minimized and my oily skin kept in place. Really great product and certainly recommend for super sensitive skin.",
+   "date": "2026-01-10",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "TC",
+   "titre": "The best for makeup removal and double cleansing!!",
+   "texte": "I absolutely love this cleansing balm. I have been using this since 2020. It dles a great job removing my mascara and any makeup i have on. It also is great to use as my double cleanser. I have never had any breakouts from using this. Its really good at cleansing my skin. I use it 2 times for rne week. Follow with a gel cleanser.",
+   "date": "2025-08-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nicole",
+   "titre": "Rosacea friendly!",
+   "texte": "Doesn't exacerbate my rosacea! Love this balm for double cleansing, but it's also not too greasy to use as a singular cleanser (does not leave a thick residue after rinsing or wiping off). Leaves my skin feeling soft and hydrated. Will purchase again!",
+   "date": "2025-07-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Colleen",
+   "titre": "This is as advertised!",
+   "texte": "I love this product! I read a wirecutter review saying it was good for all skin types and with dry skin I was skeptical, but it is true. It comes with a scoop for getting out the product and removes makeup without pulling harshly on your skin leaving it feeling soft and smooth. Go buy it right away!",
+   "date": "2026-01-25",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,166 @@
+{
+ "ref": "xlsImpprod17162943",
+ "asin": null,
+ "pid": "xlsImpprod17162943",
+ "source": "ulta",
+ "nom": "CeraVe Ultra-Light Moisturizing Lotion SPF 30",
+ "note": 4.52,
+ "nbAvis": 830,
+ "lus": 81,
+ "collectes": 119,
+ "segments": {
+  "oily": "Most oily-skin reviewers report a lightweight, non-greasy, often matte-to-glowy finish that layers well under makeup, though a few say it turns oily or shiny by mid-to-late afternoon and one reports the reformulated version no longer feels matte.",
+  "dry": "Dry-skin reviewers describe the lotion as hydrating and creamy without drying out the skin, with one noting it doesn't look matte on her but gives a glow instead.",
+  "combination": "Combination-skin reviewers find it lightweight and non-pilling, a good matte-ish base for powder makeup, with one noting the formula feels slightly too liquid-y.",
+  "sensitive": "Sensitive-skin reviewers generally report no irritation, allergy issues or breakouts and praise it as fragrance-free, though several separately warn the product stings or burns if it gets in the eyes and one reports it broke her out due to avobenzone.",
+  "mature": "One reviewer identifying as aging (36) with dry, sensitive, acne-prone skin reports it absorbs quickly, gives a healthy glow, and works well under makeup."
+ },
+ "concerns": {
+  "aging": "The single reviewer citing aging skin reports the product gives a beautifying glow and works well under makeup, with no negative effects mentioned.",
+  "dehydration": "Reviewers with dehydrated or dry skin report the lotion is hydrating and comfortable through the day; one with sensitive, dehydrated skin found it 'cosmetically elegant' with no pilling or irritation, and a dry-skin holy-grail reviewer says it never dries her out.",
+  "redness": "One reviewer with combination/sensitive skin reports the product did not cause redness, unlike other chemical sunscreens she has tried; no other redness reports appear.",
+  "barrier": "No reviewers explicitly discuss barrier repair; the closest reports describe general non-irritation and comfort for sensitive skin, suggesting no barrier disruption.",
+  "spots": "One reviewer credits the hyaluronic acid in the formula with helping dry patches and acne-related dry spots; no other spot-specific reports appear.",
+  "blemishes": "Reports are mixed: several acne-prone and oily-skin reviewers say it never breaks them out and even helped with adult acne, while others report clogged pores, breakouts after a couple of weeks, or that CeraVe products in general have caused them acne.",
+  "oiliness": "Opinions split clearly: many oily-skin reviewers praise the matte or non-greasy finish and say it controls shine all day, but a notable minority say it stops mattifying after a few hours, leaves them greasy, or that a reformulation ruined the matte effect."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free, no sunscreen smell",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Cracking plastic cap",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenses product poorly, product waste",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or burns if it touches eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Maggie",
+   "titre": "Not for acne-prone skin!!!",
+   "texte": "I bought this product on accident because the box it comes in looks exactly the same as the other AM moisturizer, but I figured I'd still give it a shot. I LOVED how light it felt when it went on and how quickly it absorbed into my skin, but after a couple of weeks I started to breakout like crazy. Turns out the first ingredient (avobenzone) isn't suitable for acne-prone, sensitive skin girlies like me. 😩 I wish I could've kept using it, but my skin hated it.",
+   "date": "2026-03-15",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Frenchie Barbie",
+   "titre": "The best spf for my face I have come across",
+   "texte": "I've been using this product for years! Great and efficient! I have aging (36), sensitive, dry, acne prone skin. This is the only spf I have found that isn't greasy and quickly absorbs quickly. On me it isnt matte it gives me a beautiful glow which I actually need because my skin gets dry. It works beautifully under makeup too, which I love. I always get compliments on my skin so this is part of my daily morning routine. I highly recommend it.",
+   "date": "2024-06-10",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jade",
+   "titre": "Amazing Sunscreen",
+   "texte": "I have sensitive skin that's slightly dehydrated. I was hesitant to use this since it's geared towards normal-oily skin types. However, this is the most cosmetically elegant sunscreen I have ever used. After washing my face, I use a vitamin C serum and apply this lotion. I usually wait 15-20 minutes before priming my skin for makeup. There's no pilling, separation, or irritation. As a bonus, my makeup looks amazing. I highly recommend this product.",
+   "date": "2023-02-04",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "NYC917",
+   "titre": "Staple Face Moisturizer",
+   "texte": "I've been using this for years. I had stubborn adult acne due to BC, and this product, along with the rest of the Cerave line helped, and stuck with it ever since. I have very oily skin, so this product was never truly a mattiyfing moisturizer for me. I didn't know that the formula changed until others mentioned it, and i do notice the product feels lighter, like i have to use more product to feel like i have the amount of coverage i used to. I still like it, and i use other product to help with my oily skin like DM, this is just a great base.",
+   "date": "2025-04-28",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Frenchie",
+   "titre": "Holy grail product",
+   "texte": "I have a really hard time with skincare products especially spf because I have extremely dry and sensitive skin. This is the only product I used with spf that I can use everyday without any issues. It's never broken me out. Its my holy grail product and i have been using it for years! Goes very well under makeup and gives my skin a glow! Love this and highly recommend!",
+   "date": "2023-07-16",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Allison",
+   "titre": "Great for sensitive skin",
+   "texte": "I've tried many different facial moisturizers with SPF and this is the only one that doesn't pill on my skin. I goes on smoothly and feels great. I wouldn't put it directly around the eyes (can sting) but otherwise great product for my dry, sensitive skin.",
+   "date": "2026-07-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "JD",
+   "titre": "Formula Changed, Terrible Now",
+   "texte": "When they changed the packaging the formula changed with it. I had previously repurchased this product numerous times. I will never be buying it again. It leaves me completely greasy and oily and no longer has a matte finish. Super disappointing that I will now need to find a replacement in my routine for this product.",
+   "date": "2025-04-03",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

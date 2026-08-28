@@ -1,0 +1,173 @@
+{
+ "ref": "pimprod2055161",
+ "asin": null,
+ "pid": "pimprod2055161",
+ "source": "ulta",
+ "nom": "Good Molecules Soothing Azelaic Acid Cleanser",
+ "note": 3.88,
+ "nbAvis": 34,
+ "lus": 33,
+ "collectes": 33,
+ "segments": {
+  "oily": "Reviewers with oily skin report the cleanser controls oiliness while calming hyperpigmentation and texture, and one describes it as a good everyday cleanser for oily skin.",
+  "dry": "One reviewer notes it leaves skin slightly dry but not excessively so, while others with dry-leaning skin say it rinses off without a tight or stripped feeling.",
+  "combination": "Combination-skin reviewers frequently report reduced sebaceous filaments, less T-zone congestion, fewer blemishes, and a balanced, hydrated finish, though one combination-skin user still experienced clogged pores.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it calmed redness, perioral dermatitis, and irritation without breakouts, but others with sensitive skin report new closed comedones or a burning/tingling sensation, especially near the lips.",
+  "normal": "One reviewer recommends it for normal to dry skin dealing with perioral dermatitis and inflammation.",
+  "mature": "No reviews specifically discuss mature skin."
+ },
+ "concerns": {
+  "aging": "No reviews specifically address anti-aging effects.",
+  "dehydration": "Most reviewers say skin feels hydrated, soft, and not tight or stripped after rinsing; one reviewer notes slight dryness afterward, though not severe.",
+  "redness": "Several reviewers report the cleanser visibly calms redness, including perioral dermatitis and sun-exacerbated redness; no reviewer reports increased redness from the product itself, aside from one localized irritation from over-long contact time near the lips.",
+  "barrier": "Reviewers describe the formula as gentle and non-stripping, with several noting improved resilience to weather changes; one reviewer's sensitive area above the lip became irritated and red after leaving the product on too long.",
+  "spots": "Reviewers report reduced hyperpigmentation, dark spots, and improved brightness and tone over weeks of use.",
+  "blemishes": "Many reviewers report fewer breakouts, smaller and less noticeable pimples, and clearer skin over one to several weeks; however, multiple reviewers report new closed comedones, clogged pores, or cystic-type breakouts shortly after starting use.",
+  "oiliness": "Reviewers with oily or combination skin report reduced oil and improved balance in the T-zone, with skin feeling clean but not stripped."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong or unpleasant scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight gel or creamy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No foaming lather",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable price for results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild tingling or burning on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Simple hygienic squeeze tube packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Risk of clogged pores from carrageenan",
+   "polarite": "neg",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "MarsB",
+   "titre": "Pore clogger beware",
+   "texte": "Purchased this with the hopes of using a gentle Azaleic Acid product since I have sensitive skin. Started to develope closed comedones out of no where. I'm not super acne prone so this was unordinary. Read the ingredients and it contains Carrageenan which is up there with coconut oil comedogenicly speaking! Might work for most but wanted to put it out there!",
+   "date": "2025-12-11",
+   "verifie": false,
+   "utiles": 22,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Mignon R.",
+   "titre": "On the fence",
+   "texte": "I just tried this for the second time. It feels slightly like a tingling and burning sensation but mild. If you have tried a PHA I would say the end result feels just like that. A PHA exfoliant. Very mild. The smell is not bad. Very faint and dissipates quickly. The texture is like a lightweight gel/slimy feeling which I like. It does leave your skin slightly dry but nothing over the top. It does calm down redness for me. If it gets on your lips you might feel that tingling sensation which I don't like. It also has a \"cooling\" affect when you use it. I don't know if I want to stick with this or my other exfoliant. I would say this product is not necessary or life changing unless you really have a lot of redness with sensitivity that you want to calm down. It's a good price point and I do see a lot of folks liking it. I'll see what 2026 brings with \"brightening\" products in the near future. I paid for this with my own coins.",
+   "date": "2025-11-23",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "carol",
+   "titre": "Perioral dermatitis holy grail",
+   "texte": "I've tried so many products to soothe my perioral dermatits: azelaic acid creams, niacinimide, sulfur creams, and zinc barrier creams. None of them have worked as well or as quickly as this cleanser did at calming my perioral dermatitis. The morning after using this cleanser, the patches around my mouth were calm and stayed that way all day. This cleanser also feels great on the rest of my oily, acne-prone face. It will definitely become my go-to cleanser from now on, especially with how cheap it is.",
+   "date": "2025-11-12",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "oily",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kelcie",
+   "titre": "Perfect for sensitive/acne-prone/combination skin",
+   "texte": "I have combo skin that tends to breakout with acne and sebaceous filaments. This cleanser does not foam but will slightly bubble with manipulation, I love how it makes my skin feel clean but doesn't leave that tight itchy feeling. I usually massage into my skin for at least 60 seconds and double cleanse with it when I have on makeup. I've seen a noticeable improvement in pore appearance as well as texture. It also does not break my sensitive skin out! Best cleanser for the price!",
+   "date": "2025-11-11",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Wren K.",
+   "titre": "Great for acne prone skin!",
+   "texte": "I have sensitive acne prone combination skin, and in the week since starting to use this product, I've seen a massive change in my skin! I typically have pretty red skin, as I work outside and any irritation I have is exacerbated by the sun exposure regardless of the SPF. After using this cleanser, I'm seeing a massive improvement in both the amount of acne I'm seeing, as well as the appearance of my acne that I currently have. The pimples and blackheads I do have are smaller, less red and noticable, and less painful, which are all great! This cleanser is such a treat to use, the smell is lovely and floral, it's easy to get on and off, and my skin feels hydrated but still literally squeaky clean afterwards. I like this cleanser more than any other I've used. I also appreciate that this cleanser recommends that you scrub for 30 seconds to a minute, I've had better outcomes with cleansers in the past when I use it in this manner, and having that reminder with this cleanser really helps me use it correctly. I've found my regular cleanser from now on! Gifted by Good Molecules",
+   "date": "2025-10-21",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cindy K.",
+   "titre": "Amazing cleanser",
+   "texte": "This cleanser has been a total game-changer for my skin. I'm 34 and have combination skin that used to be much oilier, but I still struggle with those persistent sebaceous filaments in my T-zone. The texture is a soothing, creamy wash that feels incredibly comfortable and hydrating, never stripping my skin. My main skin concern was that T-zone congestion, and I've seen visible results after only a few weeks. The filaments are significantly less noticeable, and my skin feels incredibly clean and balanced throughout the day. Even though I'm not acne-prone, this clarity has made a huge difference in my skin's overall appearance. Gifted by Good Molecules",
+   "date": "2025-10-21",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Undisclosed",
+   "titre": "Sad",
+   "texte": "I liked how this made my skin feel after each use, it felt clean but mot stripped. The smell was tolerable but it smelt like bubble solution to me. It caused a bunch of small closed comedones to pop up around my cheeks, so i had to sadly return this because my intent was to combat my current acne break outs and post acneic scars.",
+   "date": "2026-03-12",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

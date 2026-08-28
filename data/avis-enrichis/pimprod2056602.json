@@ -1,0 +1,144 @@
+{
+ "ref": "pimprod2056602",
+ "asin": null,
+ "pid": "pimprod2056602",
+ "source": "ulta",
+ "nom": "medicube Triple Collagen Cream",
+ "note": 4.73,
+ "nbAvis": 11,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {
+  "dry": "One reviewer describes it as a thick, heavy cream well suited to dry skin, though the jar contains little product.",
+  "sensitive": "Two reviewers with sensitive skin report no irritation and consider it well tolerated, one calling it hard to find products that work for her skin.",
+  "mature": "One reviewer in her 60s reports softer, plumper, firmer-feeling skin and less noticeable fine lines with regular use."
+ },
+ "concerns": {
+  "aging": "Reviewers mention fewer visible fine lines and firmer, plumper-looking skin, including a reviewer in her 60s who made it part of her daily routine.",
+  "dehydration": "Most reviewers report the cream leaves skin hydrated, plump and soft, but one reviewer found it not hydrating at all despite a heavy, slow-absorbing texture.",
+  "redness": "No reviews specifically discuss redness.",
+  "barrier": "No reviews specifically discuss barrier repair.",
+  "spots": "No reviews specifically discuss spots or dark marks.",
+  "blemishes": "No reviews specifically discuss acne or blemishes.",
+  "oiliness": "Reviewers describe the cream as absorbing without a greasy or heavy after-feel, with none reporting increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Plumping, glass-skin-like finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy, smooth after-feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Heavy, slow-absorbing texture",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Light, non-overpowering scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup and serums",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount of product in jar",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Amanda",
+   "titre": "Not Moisturizing",
+   "texte": "This feels heavy going on and takes a bit to absorb, but after it absorbs, it is not hydrating at all. The scent is minimal and pleasant, but I will likely throw this one out and find something else.",
+   "date": "2026-07-30",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Daisy",
+   "titre": "WOW!!",
+   "texte": "Medicube is the absolute BEST skincare line I've ever used, and trust me, I've tried tons, from high end, very expensive to lower end, less expensive. Medicube…. Is just right! It works! I have extremely sensitive skin, and Medicube doesn't irritate my skin. I see results right away. My skin has changed drastically ever since i have started using Medicube products. From smoother skin, fine lines are gone and very moisturizing. This face cream I can't say enough good about it. It goes on smooth, not too heavy, not too watery thin, not sticky and not greasy. WOW! I LOVE this product!!!",
+   "date": "2026-02-27",
+   "verifie": false,
+   "utiles": 39,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Meredith B",
+   "titre": "Great cream",
+   "texte": "Super thick cream, but is great for dry skin. Theres a light scent to it but it's not over powering. There isn't a lot of product itself in the container, however, a little goes a long way when using.",
+   "date": "2026-01-18",
+   "verifie": false,
+   "utiles": 22,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary",
+   "titre": "I absolutely love this cream!",
+   "texte": "I have purchased many very expensive moisturizers over the years from luxury skincare brands, and I can honestly say the Medicube Triple Collagen Cream is one of the best moisturizers I've ever used. It leaves my skin feeling incredibly soft, hydrated, smooth, and plump without feeling greasy or heavy. My skin has a beautiful, healthy glow, and I've noticed that my fine lines look less noticeable. It keeps my skin moisturized all day, and my complexion feels firmer and more refreshed. As someone in my 60s who is committed to taking great care of my skin, this cream has earned a permanent place in both my morning and evening skincare routine. It layers beautifully over my serums and works wonderfully under makeup. If you've been spending a fortune on high-end moisturizers, don't overlook this one. In my experience, it performs just as well as—if not better than—many luxury creams that cost several times more. I highly recommend it and will definitely be purchasing it again!",
+   "date": "2026-06-27",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jessica",
+   "titre": "I would buy it again",
+   "texte": "I love this product makes my skin soft and bright refreshed it's hard for me to find things for my sensitive skin but this is perfect",
+   "date": "2026-08-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "As",
+   "titre": "Best I ever tried",
+   "texte": "Its really does give you a plumper look i feel like i have glass skin",
+   "date": "2026-07-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": "With only 11 reviews and almost no mention of oily skin, blemishes, redness or barrier issues, conclusions for those segments cannot be drawn."
+}

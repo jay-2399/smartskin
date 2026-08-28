@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2037187",
+ "asin": null,
+ "pid": "pimprod2037187",
+ "source": "ulta",
+ "nom": "MAC Hyper Real Fresh Canvas Cleansing Oil Face Wash",
+ "note": 4.63,
+ "nbAvis": 581,
+ "lus": 80,
+ "collectes": 117,
+ "segments": {
+  "oily": "Reviewers with oily skin report the oil cleanses without leaving a greasy film and one notes reduced oil production over the day.",
+  "dry": "Reviewers with dry skin describe it as gentle and non-stripping, with several saying it left dry or dehydrated skin soft and hydrated rather than tight or flaky, though one reviewer with dry skin found it left her skin dry and flaky.",
+  "sensitive": "Reviewers who identify as sensitive, including one with eczema and one with sensitive oily acne-prone skin, report no irritation or burning, though a separate reviewer (skin type unstated) reports blurred vision and all-day eye irritation.",
+  "combination": "No dedicated feedback from reviewers self-identifying as combination skin.",
+  "mature": "One long-term user credits it with helping her skin look good while aging, and another mentions using it throughout her aging process with good results.",
+  "normal": "No dedicated feedback from reviewers self-identifying as normal skin."
+ },
+ "concerns": {
+  "aging": "Two mature/aging reviewers report positive long-term skin appearance and glow with continued use; no negative reports tied specifically to aging skin.",
+  "dehydration": "Several reviewers describe visible hydration and softness after use, including one with dry, dehydrated skin who says it doesn't dry her out; one reviewer disputes this, reporting dryness and flakiness.",
+  "redness": "Not enough reviewer statements tied specifically to redness to characterize.",
+  "barrier": "One reviewer with eczema reports no irritation to her compromised skin; one reviewer reports blurred vision and all-day eye irritation with unspecified cause.",
+  "spots": "No reviews specifically tie the product to acne scars beyond one acne-prone reviewer's general remarks on makeup removal ease.",
+  "blemishes": "Most reviewers who mention breakouts say it does not cause them, including on acne-prone or oily skin, but one reviewer reports breakout problems after use.",
+  "oiliness": "Multiple reviewers with oily skin say it removes makeup without leaving an oily or greasy residue, and one reports less oil production during the day; no reviewer reports increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "No greasy residue after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, watery oil texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser spurts or wastes product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size used",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant scent, though some dislike it",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Needs a second cleanse to feel fully clean",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Nessie",
+   "titre": "Blurred Vision and Irritated Eyes",
+   "texte": "I bought this product to help with removing stubborn eye makeup. The oil spurts out of the dispenser awkwardly so much of it is wasted. It removes the unwanted makeup but I have blurred vision and all day eye irritation after use. I don't know what ingredient is causing it.",
+   "date": "2023-03-31",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "buttercup",
+   "titre": "High Hopes",
+   "texte": "I was excited to try this because I love oil cleansing in place of makeup remover wipes. I used this a few times and each time it unfortunately left my skin dry and flaky - but it definitely removed my makeup. The packaging is nice though",
+   "date": "2023-04-18",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Panda SR",
+   "titre": "No oily residue",
+   "texte": "I have dry, dehydrated skin. I always wear sunscreen and normally wear a light CC cream and some blush. This cleansing oil doesn't dry out my skin and is able to remove all my face makeup. I find it a bit hard to remove my waterproof mascara unless I rub my eyes really hard. Overall, I'm impressed how it doesn't leave oily residue while still hydrated and able to remove all my face makeup.",
+   "date": "2023-02-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Resamada",
+   "titre": "Takes it all off",
+   "texte": "I have sensitive, oily, acne prone skin and this takes all my makeup off without any irritation. I love that it gently but effectively melts off all my makeup without leaving an oily film on my skin. Highly recommend.",
+   "date": "2025-06-09",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "AMWhat",
+   "titre": "Gentle but effective",
+   "texte": "Removes waterproof mascara easily. You do not need as much as you think you do. It doesn't irritate my eyes, skin, or ezcema. It doesn't break me out. A win all around.",
+   "date": "2025-04-23",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elsa",
+   "titre": "I would buy this again.",
+   "texte": "I have tried using olive oil and I was sensitive to it in my skin. This stuff works great for my oily skin. It breaks down my makeup with ease.",
+   "date": "2023-03-30",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Swati",
+   "titre": "Melts away",
+   "texte": "Probably my most favorite cleansing oil I have ever used, it is so light and melts makeup so easily, it cleaned my mascara like a dream. It is a blessing for my dry my skin, so gentle yet effective. I also love the packaging it's such a luxury feel.",
+   "date": "2023-02-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

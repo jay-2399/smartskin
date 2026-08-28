@@ -1,0 +1,115 @@
+{
+ "ref": "mkt77008296",
+ "asin": null,
+ "pid": "mkt77008296",
+ "source": "ulta",
+ "nom": "Glo24k 24K Facial Peeling Gel",
+ "note": 4.89,
+ "nbAvis": 421,
+ "lus": 50,
+ "collectes": 50,
+ "segments": {
+  "mature": "Reviewers describing aging or mature skin report their skin looks younger, smoother, and healthier after use."
+ },
+ "concerns": {
+  "aging": "Reviewers who mention aging skin report it looks younger and healthier after use; no dissent is recorded."
+ },
+ "aspects": [
+  {
+   "libelle": "Softening effect on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Improved texture and tone",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Luxurious, pampering feel during use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle but effective exfoliation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Needs longer work-in time for results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Repeat purchase over years",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Carole",
+   "titre": "Exhilarating for my skin!",
+   "texte": "I didn't at first realize that I Needed to work it into my skin for a good minute or so to stimulate the exfoliation, but once I did the results were amazing! My skin was soft and supple and glowing from the stimulation and ingredients. It now my go-to mask. I love it!",
+   "date": "2023-02-11",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Quality Product",
+   "texte": "I have enjoyed using each of the glo24k products. I have used 4 different applications for 2-3 years now and feel I have very good results.",
+   "date": "2024-09-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Patricia",
+   "titre": "Great for Aging Skin",
+   "texte": "Great for aging skin. It has made my skin look younger and healthier.",
+   "date": "2024-01-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "David",
+   "titre": "Immediate Improvement",
+   "texte": "I saw immediate improvement in my skin texture and tone. Love it!",
+   "date": "2023-06-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joseph",
+   "titre": "Great for Exfoliation",
+   "texte": "Great for exfoliation. It removes dead skin cells gently and effectively.",
+   "date": "2024-06-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": "The reviews are largely repeated short template phrases with almost no stated skin types, concrete skin types, or critical (≤3-star) feedback, so segmentation and dissent are very thin."
+}

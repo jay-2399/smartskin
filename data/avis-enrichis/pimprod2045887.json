@@ -1,0 +1,172 @@
+{
+ "ref": "pimprod2045887",
+ "asin": null,
+ "pid": "pimprod2045887",
+ "source": "ulta",
+ "nom": "SKIN1004 Madagascar Centella Soothing Cream",
+ "note": 4.61,
+ "nbAvis": 571,
+ "lus": 81,
+ "collectes": 123,
+ "segments": {
+  "oily": "Reviewers with oily or oily-combination skin describe the cream as lightweight and gel-like, saying it hydrates without adding shine and keeps oil in check through the day, though one notes light oiliness in the T-zone after a few hours.",
+  "dry": "Reviewers with dry skin report meaningful relief from dryness and winter tightness, though a couple say the formula is too light and needs layering with a heavier product for full moisture.",
+  "combination": "Reviewers with combination skin describe it as balancing, controlling shine in the T-zone while still relieving dry or flaky patches on the cheeks.",
+  "sensitive": "Reviewers with sensitive skin repeatedly call it gentle, fragrance-free and calming, with several praising it for reducing flare-ups and redness, but one sensitive-skin reviewer reports itchy bumps and breakouts after use.",
+  "mature": "One reviewer mentions using it on damaged, discolored skin and felt it helped soften texture and discoloration, but there is little further material specific to mature skin."
+ },
+ "concerns": {
+  "aging": "There is minimal direct comment on aging; one reviewer felt it softened the appearance of skin discoloration and roughness, but no reviewer speaks explicitly about wrinkles or firmness.",
+  "dehydration": "Most reviewers who mention dehydration report noticeable, often immediate improvement in hydration and plumpness that some say lasts all day; one reviewer says it did not really hydrate her skin.",
+  "redness": "Several reviewers say the cream visibly reduced redness and calmed irritated or flare-prone skin, including after chemical peels or psoriasis flares; one reviewer with inflammation-focused concerns saw no noticeable difference.",
+  "barrier": "A few reviewers credit the cream with repairing or strengthening a compromised skin barrier over days to weeks, describing relief after burning sensations from other products.",
+  "spots": "Some reviewers with dry patches or discoloration near the nose and chin report the patches disappearing after weeks of use.",
+  "blemishes": "Most acne-prone reviewers report no new breakouts and some even clearer skin, including one describing clearing of acne within two days; however, two reviewers describe worsened breakouts and itchy bumps after use.",
+  "oiliness": "Most oily-skin reviewers say the cream keeps oil at bay and doesn't feel greasy, though one reviewer noted her T-zone felt oily a few hours after application."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight gel-like texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Minimal or no fragrance",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Minimalist, hygienic packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight T-zone oiliness after hours",
+   "polarite": "neg",
+   "concerne": [
+    "oily",
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Not moisturizing enough alone for very dry skin",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Unclear value versus cheaper retailers",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Britt",
+   "titre": "DONT BUY IT",
+   "texte": "For it being a Korean skin care brand i had high hopes since Korean skin care had been trending and having amazing results. For someone with oily, sensitive, acne prone skin, THIS MADE IT WORSE! Woke up literally the next day of using it and i had many small itchy bumps around my face, eyelids, and neck. It made my skin worse and im back to sqaure one trying to clear it up again",
+   "date": "2025-04-12",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kate",
+   "titre": "This product saved my skin!",
+   "texte": "Let me start by saying I NEVER write reviews on products usually, but this one deserves it. This product saved my skin barrier, repaired it in a matter of a week, and has given my skin the prettiest glow. I struggle terribly with cystic acne and have breakouts often, despite acne medication and creams/serums. Every product was causing a burning sensatiom after I applied it, and I continued to suffer from breakouts. I asked ChatGPT what could be causing my acne, despite my strong regimen, and it recommended I try this cream to soothe my skin. Here I am six weeks later, and I still have no breakouts, my skin looks flawless, and my redness is going away. I'm extremely acne prone and will die on this hill that this product saved my skin.",
+   "date": "2025-11-24",
+   "verifie": false,
+   "utiles": 19,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sheeners",
+   "titre": "Lightweight",
+   "texte": "I have acne prone skin, so I have to be careful when introducing a new moisturizer into my skin care routine. There's a very light scent, barely noticeable. In terms of moisturizing, it acts like a gel moisturizer. Not greasy, but not super rich. Think Dr.Jart Vital Hydra Solution, or Peter Thomas Roth Water Drench cream. While it's enough to moisten the skin, I would recommend it for oily or combination skin, particularly those who are acne prone or have sensitive skin. I don't think this would work for anyone with very dry or dry skin. I use this in the daytime under my makeup and I don't have any piling. For nighttime, I use a heavier cream than this.",
+   "date": "2025-03-17",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth",
+   "titre": "It's amazing!!",
+   "texte": "I have struggled with finding a moisturizer for years. This has been the only one to help my dehydrated skin. It doesn't cause any breakouts and helps the redness that I have been battling for years. Wear it all day and night no tightness or dry feeling.",
+   "date": "2025-04-14",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mena",
+   "titre": "Worth the hype",
+   "texte": "[I received this product in exchange for my honest review] I have a really dry and sensitive skin I use the soothing cream after a chemical peeling and surprisingly I have no redness. It feels so good calming to my skin. I just lather it up and it feels great. It doesn't even leave any stick in this after it's like it get absorbed inside your skin.",
+   "date": "2026-05-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vix",
+   "titre": "Not greasy or heavy, perfect!",
+   "texte": "The Skin1004 Madagascar Centella Soothing Cream is probably my favorite item out of this 3pc set, I have combo skin and it gets dry and flaky during the winter, however I do not enjoy thick creams during the day as my skin also gets oily at times. This is why I love this particular soothing cream, it is light and very absorbing while also keeping my skin moisturized. It does not look greasy after application either. If you have combination skin this cream would be a great balance for you.",
+   "date": "2025-01-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kat",
+   "titre": "Great",
+   "texte": "First of all, the packaging for these products are beautiful. I love a clean simplistic look, especially when I put my products out on display. I thought this was a good moisturizer however I have super dry skin, so I needed a little bit more moisture but for those with regular or oily skin, this would be great for you!",
+   "date": "2025-01-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

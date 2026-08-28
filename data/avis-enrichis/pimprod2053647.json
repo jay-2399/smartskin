@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2053647",
+ "asin": null,
+ "pid": "pimprod2053647",
+ "source": "ulta",
+ "nom": "medicube PDRN Pink Collagen Capsule Cream",
+ "note": 3.86,
+ "nbAvis": 66,
+ "lus": 55,
+ "collectes": 55,
+ "segments": {
+  "oily": "Oily-skin reviewers report mixed results: some find it hydrates dehydrated or dry-patch areas without extra greasiness, while one with fully oily skin found it too heavy and others report clogged pores or breakouts.",
+  "dry": "Dry and very dry skin reviewers are largely positive, citing overnight softness, relief from flakiness, and a heavy occlusive feel that some love and others (in dry climates) find insufficiently moisturizing.",
+  "combination": "Combination skin reviewers report good results for the dry areas of their face, describe the product as balancing oily t-zone and dry cheeks, though some in this group still report stickiness or breakouts.",
+  "sensitive": "Sensitive skin reviewers are split: several describe it as their best moisturizer with no irritation, while others report burning, redness, rashes, or a damaged skin barrier.",
+  "normal": "One normal/combination-leaning reviewer reports the product works well on dehydrated areas without feeling too oily.",
+  "mature": "Mature-skin reviewers (late 40s to 60s) frequently report visible softening of fine lines, crow's feet, and smile lines, with one aesthetician praising the glass-skin finish and only minor initial stickiness noted."
+ },
+ "concerns": {
+  "aging": "Multiple mature reviewers report diminished fine lines, crow's feet, and smile lines, sometimes within days; no dissent on efficacy for aging is voiced, though some note results took weeks to months.",
+  "dehydration": "Many reviewers describe strong hydration and relief from dryness or flakiness, including in winter or desert climates; one reviewer with dry skin found it not moisturizing enough for her needs.",
+  "redness": "A minority of reviewers report their skin turning red, hot, or developing a rash after use, contrasting with the majority who report no such reaction.",
+  "barrier": "One reviewer explicitly states the product burned her skin and damaged her skin barrier; this is not echoed elsewhere in the reviews.",
+  "spots": "One reviewer with dark pigmentation recommends it and another reports fading dark spots when paired with niacinamide and retinol; this is a minor thread with no dissent noted.",
+  "blemishes": "A substantial number of reviewers, including some not normally prone to breakouts, report cystic acne, pimples, or small bumps after use; conversely several acne-prone or breakout-prone reviewers report no new breakouts and even improvement.",
+  "oiliness": "Reviewers disagree on greasiness: some with oily or combination skin find it balances oil without heaviness, while others describe it as too thick, clogging, or greasy-looking especially in daytime use."
+ },
+ "aspects": [
+  {
+   "libelle": "Sticky or tacky finish",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glass-skin glow effect",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Interferes with makeup application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Acts as tacky makeup primer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cheap-feeling jar packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fun boba capsule novelty",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "I do not recommend Medicube",
+   "titre": "Do not buy!!",
+   "texte": "I was recommended this product by my local Ulta employee. I have dry to normal skin and this was supposed to help me during the colder months. Unfortunately, this product gave me what it seemed was cystic, acne and tiny red dots all over my face it also made my skin more acne prone in areas that I normally do not get acne. I do not recommend this product. If you do want to try it I recommend you try it on a piece of skin that you feel safe to do so other than that, I do not recommend to anyone there are better products out there.",
+   "date": "2026-04-03",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Kris",
+   "titre": "Cystic Acne…",
+   "texte": "Product feels very smooth and hydrating on the skin. However, I'm using up the remaining product on my body because it's giving me cystic acne on my face. I have combo, slightly sensative skin",
+   "date": "2025-12-27",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rojo",
+   "titre": "It actually works",
+   "texte": "Very hydrating product with no fragrance to it. Although i have combination oily/normal, I have dehydrated areas on my face and this product did the trick. I disagree with some people saying its too oily or greasy. The capsule is more oily and suited for dry areas (lack of sebum), while the gel part is more suitable for oily and dehydrated areas (lack of water in the skin). It might be too heavy for a face thats fully oily, but for combination, regular and dry is perfect. I only use it at night time cause for daytime or under makeup might be too much, although i would like to try the gel part during the day. Its nice to have the option to use the gel or the capsule cream or both. I have sensitive skin and so far it hasn't caused any irritation. Very solid moisturizer at an affordable price.",
+   "date": "2025-10-09",
+   "verifie": false,
+   "utiles": 27,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jazzy",
+   "titre": "Glass Skin",
+   "texte": "This is my second time repurchasing this moisturizer. My skin loves it. I do two capsules and my skin looks plump and glowy. It's super soft the next day. I have an acne prone skin with an oily t-zone and dry cheeks and it's hydrating without leaving me too greasy. I'm surprised by the reviews because I only have good things to say about this moisturizer! I use it over niacinamide and retinol serum to help fade dark spots.",
+   "date": "2026-03-17",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Gigi",
+   "titre": "Game changer",
+   "texte": "I have very dry skin. I've been using this 2 1/2 days my first day i used it at night and woke up to the softest skin ever. I use it with the medicube Pro Booster Age-R and i am BLOWN away. My deep forhead lines are barely noticeable and my skin looks amazing. I use it at night because its too too heavy and it never dries. It just eventually ends up on ur pillow.",
+   "date": "2025-11-02",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ruth",
+   "titre": "Absolutely recommend",
+   "texte": "I am a 60-year-old aesthetician. At first I thought this product could be. \" gimmicky\"' and was proven wrong. I find that if I use this product as the final step of my nighttime skin care routine, I wake up with absolutely beautiful glass skin. I've noticed that the fine lines around my eyes and across my forehead are slowly disappearing. As a final step to my nighttime routine, this product is allowed to absorb properly into my skin and do what it's supposed to do overnight. Absolutely love it. Purchasing my second jar.",
+   "date": "2026-03-08",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Parker",
+   "titre": "HORRIBLE BREAKOUTS",
+   "texte": "This gave me the WORST breakout, along with the pink toner. And I am not usually prone to them. I am so upset because my skin looked so good. This product also burned my skin and ruined my skin barrier. BEWARE!",
+   "date": "2026-03-07",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

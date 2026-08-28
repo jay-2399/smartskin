@@ -1,0 +1,160 @@
+{
+ "ref": "mkt77000575",
+ "asin": null,
+ "pid": "mkt77000575",
+ "source": "ulta",
+ "nom": "skinChemists Retinol & Bakuchiol Mask",
+ "note": 4.8,
+ "nbAvis": 46,
+ "lus": 46,
+ "collectes": 46,
+ "segments": {
+  "dry": "One reviewer with normal-to-dry skin reports the mask left it really soft and fresh, with hope for anti-aging results over time.",
+  "sensitive": "Reviewers prone to adverse reactions or expecting reddening report none occurred, describing the mask as soothing and non-irritating.",
+  "mature": "Reviewers over 40 and those noting fine lines report smoother, plumper skin and visible softening of fine lines after use, with one stating existing wrinkles are not reversed but further ones may be prevented."
+ },
+ "concerns": {
+  "aging": "Several reviewers report plumper skin and smoother or less visible fine lines after one or a few uses, and one over-40 reviewer recommends it for mature skin; one review clarifies the product does not reduce existing wrinkles but aims to prevent new ones.",
+  "dehydration": "Multiple reviewers report skin feels moisturized, hydrated, or free of dry patches the next morning after overnight use.",
+  "redness": "One reviewer who expected reddening reports none occurred; another notes no adverse reaction despite being prone to them.",
+  "barrier": "Reviewers describe skin as refreshed, soothed, and nourished with no irritation, including one who normally reacts badly to products.",
+  "spots": "One long-term repeat buyer reports occasional random spots that clear after one overnight application of the mask.",
+  "blemishes": "No reviewer specifically describes ongoing blemishes; the one mention of spots resolves quickly according to that reviewer.",
+  "oiliness": "One reviewer notes the mask is non-greasy and leaves skin looking shiny and healthy rather than oily."
+ },
+ "aspects": [
+  {
+   "libelle": "Soft, smooth skin after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, quickly absorbed texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Tube packaging split, product lost",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Conflicting usage instructions on box vs tube",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Easy to apply, little product needed",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "S Pervez",
+   "titre": "My skin was really soft.",
+   "texte": "This product is very nice, and I think it is suitable for all skin types. My skin is normal to dry. After using the retinol & bakuchiol mask, my skin was really soft and fresh. I hope to see anti-aging results in the long run.",
+   "date": "2022-04-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "H Pinto",
+   "titre": "It works wonderfully.",
+   "texte": "This is my third time buying the retinol & bakuchiol mask. It works wonderfully for my skin, especially when it feels tired and dull. The mask usually wakes it up with a radiant glow and a silky feel. Occasionally I get random spots, and these are usually gone with one overnight application. I will continue using this product because I have finally found a treatment that agrees with my skin's needs. Happy customer.",
+   "date": "2024-12-10",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "C King",
+   "titre": "My skin is softer smoother.",
+   "texte": "I've only had this mask for a week or so, and I love it. My skin is softer, smoother, and much brighter. I've already had comments about how good my skin looks for my age. Also, the cream isn't irritating and dries very quickly.",
+   "date": "2025-07-13",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "C Sherriffs",
+   "titre": "I highly recommend.",
+   "texte": "Skin Chemists London retinol & bakuchiol mask is beautiful. I like the tube that the mask comes in, and it's easy to apply the correct amount. The retinol & bakuchiol mask feels soothing on my skin. It's relaxing to use and once I wash the mask off, my skin feels fresh and hydrated. It is ideal for those over 40. I highly recommend this mask. Once again, Skin Chemists has produced another lovely product.",
+   "date": "2022-04-28",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "J Hawkins",
+   "titre": "My skin feels amazing.",
+   "texte": "Like all of your masks, I cannot fault the retinol & bakuchiol mask. My skin feels amazing after applying it and feels so moisturized the next morning when I wash it off. There are no dry patches at all.",
+   "date": "2022-09-19",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "K Webster",
+   "titre": "I love this retinol.",
+   "texte": "I love this retinol & bakuchiol mask. It smelled beautiful and was easy to apply. I was expecting a slight reddening of the skin, but there was none. I will buy this product again.",
+   "date": "2022-04-27",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "T Nelson",
+   "titre": "This is a lovely lightweight.",
+   "texte": "This is a lovely lightweight mask that is not too highly perfumed and leaves skin soft and moisturized. I would have scored it five stars, but unfortunately the tube split at the bottom, so I lost quite a lot of product.",
+   "date": "2025-07-13",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

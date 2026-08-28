@@ -1,0 +1,158 @@
+{
+ "ref": "pimprod2007173",
+ "asin": null,
+ "pid": "pimprod2007173",
+ "source": "ulta",
+ "nom": "Hanskin Pore Cleansing Balm - PHA",
+ "note": 4.48,
+ "nbAvis": 77,
+ "lus": 74,
+ "collectes": 74,
+ "segments": {
+  "sensitive": "Many reviewers identify as having sensitive skin and report the balm did not irritate or break them out, though a minority describe an allergic reaction, breakouts, or a jarring fragrance.",
+  "dry": "Reviewers with dry or drier skin report the balm leaves skin feeling moisturized rather than stripped, with one noting most cleansers over-dry her skin but this one does not.",
+  "combination": "A reviewer with oily/combination skin says the balm is gentle enough to use nightly but still follows with a second cleanser.",
+  "mature": "No material specific to mature skin is present in these reviews."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers say their skin feels moisturized, soft, or hydrated after use and not tight or stripped; one with generally dry-prone skin found it uniquely non-drying, though one reviewer felt it left an overly stripped feeling by comparison to other balms.",
+  "redness": "One reviewer switching from makeup wipes says the balm caused less irritation and redness than wipes; another had a one-off allergic reaction with facial swelling and eye redness.",
+  "barrier": "Reviewers describe the balm as gentle and non-stripping, preserving a soft, comfortable skin feel after cleansing, with no reports of barrier damage aside from the isolated allergic reaction.",
+  "blemishes": "Most reviewers, including several who call themselves acne-prone, report no new breakouts and even fewer blemishes over time; however, multiple reviewers report new breakouts, cystic or deep pimples, or that it does not work for acne-prone skin, and one flags the first ingredient as pore-clogging.",
+  "oiliness": "Reviewers with oily or combination skin say it rinses clean without an oily residue or greasy after-feel, though some still need a second cleanser to feel fully clean."
+ },
+ "aspects": [
+  {
+   "libelle": "Melts makeup effectively",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fails to remove makeup fully",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Citrus scent liked by most",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance too strong or irritating",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Silky, non-greasy after-feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires second cleanser to rinse fully",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value, product lasts long",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "SunnySideUp",
+   "titre": "Not for acne-prone skin",
+   "texte": "Be careful, the first ingredient is Ethylhexyl Palmitate which is a pore clogger. I did not do my due diligence and check before I chose the PHA (Sensitive Skin) version of this Hanskin cleansing balm. The AHA and BHA ingredient lists look safer for acne-prone skin like mine. I try to avoid fragrances but did not mind the citrusy scent of this product. I tried it as the first step in my double cleanse, and the second step (gel cleanser) was necessary as this balm does not rinse away with water alone.",
+   "date": "2020-11-05",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Winny",
+   "titre": "Started breaking me out",
+   "texte": "This is the first cleansing balm ive ever used. After a week of using it i started getting random , large/deep, pimples. They cleared once i stopped using it. Guess its not for all skin types. I have sensitive skin.",
+   "date": "2025-12-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Machri",
+   "titre": "Awesome for sensitive skin types!",
+   "texte": "Finally found a cleanser that's worth it! All cleansers (even for sensitive, dry skin) leave my skin super dry and stripped. This one does not. The consistency takes some getting used to, but it's so creamy and leaves the skin exfoliated (yes, you CAN exfoliate sensitive skin!!) and hydrated.",
+   "date": "2020-10-17",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sydney",
+   "titre": "Best Balm I've Tried",
+   "texte": "When I'm taking off my makeup, a cleansing balm is always my preferred way to go and I like this product better than any other's I've tried. In the past I have used Clinique's Take Off The Day Cleansing Balm and Green Clean from Farmacy and I like this one better than both of those, plus its much cheaper! This takes off all my makeup, even waterproof mascara, and is really gentle on my skin. Also, I am SUPER acne prone and it hasn't broken me out at all! I follow it up with a water based cleanser, because I like to double cleanse, but it would also be fine on its own. You only need a little bit and in fact I find if you use too much of it, it creates a bit of a film on your face, so you only want a bit. I took a look at the ingredients list and I'm really happy with it, great oils in this formula.",
+   "date": "2020-01-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bianca",
+   "titre": "AMAZING scent and gentle on sensitive skin",
+   "texte": "I'm so happy to have found another amazing cleansing balm! I'm always on the look out for balm cleansers that are moisturizing enough for dry skin, but also not too oily to the point that it would be difficult to wash off with just a second step cleansing foam. This is also one of the best scents I've come across in a balm cleanser. 10/10!",
+   "date": "2020-02-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lane",
+   "titre": "Such a cool product!",
+   "texte": "This product is different than any other makeup remover or cleanser I've tried. It seems like it's going to last forever because it only take a small amount to cover my face and loosen my makeup. I do have oily/combo skin, so I always follow with a cleanser, but this is so gentle, I am glad to have it in my night-time routine.",
+   "date": "2020-02-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "RJ",
+   "titre": "Smells Great, Feels Great, Gentle on the skin",
+   "texte": "Love the smell of the product and overall it was really easy to use. It's not too harsh on the skin which helps definitely, but for someone who has suffered from acne for a long time, it just didn't clean my skin as well. Overall though, the feeling afterwards was amazing. I gave mine away to my girlfriend and she loves using the product.",
+   "date": "2020-01-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

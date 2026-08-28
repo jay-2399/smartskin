@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2006051",
+ "asin": null,
+ "pid": "pimprod2006051",
+ "source": "ulta",
+ "nom": "TULA Glow & Get It Cooling & Brightening Eye Balm",
+ "note": 4.29,
+ "nbAvis": 3685,
+ "lus": 81,
+ "collectes": 109,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin are split: several report no reaction and even praise it for their sensitivity, while others with sensitive or reactive skin describe burning, hives, rosacea flare-ups, or periocular dermatitis.",
+  "dry": "One reviewer with very dry under-eyes reports good hydration and no issues.",
+  "mature": "Reviewers describing themselves as aging, in their late 40s-70s, or 'mature' generally report brightening, reduced dark circles and a youthful glow, though one says it made her wrinkles more visible."
+ },
+ "concerns": {
+  "aging": "Most reviewers using it for fine lines, wrinkles or aging skin report a subtle smoothing and glow effect, with concealer settling better; one reviewer explicitly says it worsens the look of her wrinkles.",
+  "dehydration": "Reviewers seeking hydration describe the balm as moisturizing, non-drying and long-lasting, with no reports of dryness from the product itself except as a side effect of an adverse reaction in one case.",
+  "redness": "Sensitive or rosacea-prone reviewers report contradictory outcomes: some describe soothing, calming effects, while others experienced a severe rosacea flare, hives, or an eczema-like rash.",
+  "barrier": "A few reviewers report compromised skin barrier symptoms such as itching, burning, scabbing, or periocular dermatitis after use, contrasted with many others who report smooth, undisturbed skin.",
+  "blemishes": "One reviewer broke out under the eyes after a single use; another reviewer specifically notes it does not cause milia, which is a common issue for her with other eye products."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "White or pale cast left behind",
+   "polarite": "neg",
+   "concerne": [
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Burning or stinging after initial cooling",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Smooth, non-greasy, easy application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to product amount",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Compact, travel-friendly stick format",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Subtle shimmer or glow finish under makeup",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Shondra",
+   "titre": "Nope. NOT for sensitive skin",
+   "texte": "I received this in my Allure Box, used it once and broke out on my under eyes the same day. It is an eczema like rash. This is the 2nd Tula product ive tried to cause a rash or break out.",
+   "date": "2024-10-01",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Nik",
+   "titre": "Do not purchase",
+   "texte": "This causes an allergic reqction and set off severe rosacea flare.",
+   "date": "2025-01-28",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Meaghan",
+   "titre": "Love this product, but it gave me periocular dermatitis",
+   "texte": "I loveeee this product, especially for the early work mornings at 5 am and when i dont want to put on makeup, it gives a little glow snd is cooling. This was my second stick ive had. I started forming tons of red small dots around my eyes. It lasted for two months and all i could think of that was different was this product that i started using. Went to tne derm and that was his diagnosis, snd got a medicated gel. Sad, bc i loved this product sm😢",
+   "date": "2024-11-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Mvene004",
+   "titre": "Not What I Expected",
+   "texte": "This product is not for darker complexions. It leaves a cast behind that is hard to cover.",
+   "date": "2023-12-16",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Bella",
+   "titre": "Excellent product for sensitive aging skin",
+   "texte": "Im in my late 40's and found this product to be litterally essential in my routine. I have extremely sensitive skin and I wear this product 2xs a day with nothing but positive results including cooling sensation, hydration, brightness, minimal lines showing. I use this with no concealer needed after! I was so tired of concealers looking awful and showing fine lines until I switched to using this product only and can't believe I dont need concealers anymore! It is an outstanding night regimen and I basically use it as a base for my eyeshadow and it works flawlessly. This is a staple for me!",
+   "date": "2024-01-21",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary",
+   "titre": "Hydrating and easy to apply",
+   "texte": "I don't normally buy products at this price, but I actually really love it. It's so easy to apply, and it has a cooling sensation and even brightens my under eyes. My makeup goes on really well over it. I have very dry under eyes and this eye balm works great.",
+   "date": "2024-07-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Teri",
+   "titre": "Not for anyone with wrinkles",
+   "texte": "I got this along with my regular revive and rewind eye cream which I love. It is most definitely not for anyone with wrinkles. It highlights and makes them show more than without anything. I don't recommend for people with wrinkles",
+   "date": "2024-12-06",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

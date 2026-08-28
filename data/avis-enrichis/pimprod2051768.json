@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2051768",
+ "asin": null,
+ "pid": "pimprod2051768",
+ "source": "ulta",
+ "nom": "I'm From Black Rice Toner",
+ "note": 5,
+ "nbAvis": 11,
+ "lus": 11,
+ "collectes": 11,
+ "segments": {
+  "oily": "Reviewers with oily or oily T-zone skin report reduced shine, oil control, and a non-greasy feel even after multiple layers or long workdays.",
+  "combination": "Combination-skin reviewers describe the toner as balancing, hydrating in winter while keeping them matte in summer, with no greasy residue.",
+  "sensitive": "One reviewer with sensitive, acne-prone skin reports the toner never broke her out and was gentler than others she tried."
+ },
+ "concerns": {
+  "oiliness": "Multiple reviewers with oily or combination skin report visible oil control, less need to blot, smaller-looking pores, and a matte, shine-free finish through the day.",
+  "blemishes": "One reviewer with acne-prone, sensitive skin reports fewer active breakouts on her cheeks since starting the toner; two others mention it helps prevent clogged pores and breakouts.",
+  "dehydration": "Several reviewers across skin types report increased hydration without heaviness or a sticky feel, describing skin as more hydrated, plump, and comfortable.",
+  "aging": "One review mentions the black rice ferment ingredients as helping to nourish and firm tired-looking skin, though no reviewer reports a concrete before/after aging result."
+ },
+ "aspects": [
+  {
+   "libelle": "Absorbs quickly without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No greasy or sticky after-feel",
+   "polarite": "pos",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Milky texture that sinks in",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pairs well with layered routine",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "May feel too light for dry or normal skin",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "normal"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "mich",
+   "titre": "love it",
+   "texte": "I love this toner so much, I have super sensitive acne prone combo skin and this toner was the only one that NEVER broke me out. It's so gentle and hydrating, and I've notice that when i started using this the amount of active acne/new breakouts on my cheeks had reduced so much. I would absolutely keep buying this product. 100% recommend for acne skin/sensitive skin",
+   "date": "2025-12-19",
+   "verifie": false,
+   "utiles": 19,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "KhuBear",
+   "titre": "Oily skin APPROVED!",
+   "texte": "This absorbs my oils. Keeps it hydrated & glowy at the same time. It starts milky and nourishing then sinks into your skin leaving it hydrated. No greasy or filmy feeling-even after multiple layers. My face is slightly oily after a 12 hour shift working in the hospital. I usually have to blot my face mid day but haven't since using this. It doesn't have a scent. I dont think you will like it if you have dry/normal skin because of the oil control aspect.",
+   "date": "2025-10-09",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kat",
+   "titre": "What sorcery is this??",
+   "texte": "I have combo skin so I need a mix of products throughout the seasons. However, this is a year round staple for me. It gives me enough hydration in the winter while keeping me matte in the summer and throughout a hard day at work.",
+   "date": "2025-11-25",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Keira",
+   "titre": "Love this!",
+   "texte": "I've been using this toner consistenty for a few weeks now and have definitely noticed a big improvement. My skin is more hydrated, even, and radiant. I have oily skin so was a bit nervous to try this, but it's not greasy on me at all. Totally recommed giving this a try!",
+   "date": "2025-06-24",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "oily",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Noshern I.",
+   "titre": "hydrates without heaviness",
+   "texte": "doing a great job for me as I have combination skin. But loving this new version of original rice toner- Black Rice Toner with new formula which is lighter and infused with Jindo black rice ferment ingredients rich in anthocyanin and dietary fiber to help nourish and firm tired skin. This toner hydrates without heaviness and no greasy sticky feel . Now with a reduced oil layer and increased water phase, it absorbs even faster-keeping skin fresh, smooth, and shine-free all day. It also helps to prevent clogged pores & breakouts. Now weather is getting hot so this toner helps me controlling oil on T zone area. It also helps in controlling my sebum level and i feel my makeup looks smoother after its use.",
+   "date": "2019-05-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lamia M.",
+   "titre": "I love this new version of original rice toner",
+   "texte": "I love this new version of original rice toner- Black Rice Toner with new formula which is lighter and infused with Jindo black rice ferment ingredients rich in anthocyanin and dietary fiber to help nourish and firm tired skin. This toner hydrates without heaviness and no greasy sticky feel. Now with a reduced oil layer and increased water phase, it absorbs even faster-keeping skin fresh, smooth, and shine-free all day. It also helps to prevent clogged pores & breakouts.",
+   "date": "2019-05-16",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Laura J.",
+   "titre": "wishtrend's rice products have absolutely saved my skin",
+   "texte": "wishtrend's rice products have absolutely saved my skin. my skin looks clear, more even, glowy and moisturized. it has definitely helped with any hyperpigmentation i have and it's not drying or stripping at all, 10/10 recommend.",
+   "date": "2019-05-12",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "All 11 reviews are 5-star and largely positive, so the sample offers little to no dissent or critical perspective to balance the findings."
+}

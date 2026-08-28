@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2039808",
+ "asin": null,
+ "pid": "pimprod2039808",
+ "source": "ulta",
+ "nom": "BYOMA De-puff and Brightening Eye Gel",
+ "note": 3.97,
+ "nbAvis": 222,
+ "lus": 77,
+ "collectes": 108,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin are split: several report burning, rash, eczema, or breakouts around the eyes, while others say it never irritated their sensitive skin and one calls it gentle enough for daily use.",
+  "combination": "One reviewer with sensitive combination skin reported no sting but also no visible results.",
+  "oily": "One reviewer with oily T-zone and slightly oily cheeks said her under-eyes were very dry and this product resolved that dryness.",
+  "mature": "A reviewer citing genetic dark circles and long-term use describes it as a two-year staple for brightening, without commenting on puffiness."
+ },
+ "concerns": {
+  "aging": "Not a primary focus of the reviews; a few mention crease/dark-circle appearance improving with makeup, but most comments center on dark circles rather than fine lines or firmness.",
+  "dehydration": "Many reviewers report the gel is hydrating and resolves dryness or flaking under the eyes, though a couple say it provides no hydration and takes a while to absorb.",
+  "redness": "A small number of reviewers note reduced redness or soothing of irritated under-eyes, but others report the product itself caused redness and burning.",
+  "barrier": "One reviewer describes it as leaving only a lubricant barrier with no real effect; no other barrier-specific comments appear.",
+  "spots": "Not discussed by reviewers; no mentions of spots or discoloration beyond general dark-circle brightening.",
+  "blemishes": "Several reviewers report new under-eye bumps or breakouts after use, while others say it never broke them out, including one who used it alongside other Byoma products without issue.",
+  "oiliness": "Not addressed in the reviews; no reports of the product causing or reducing oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling, refreshing sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging on under-eye skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight gel texture, fast absorption",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slow absorption, tacky or sticky feel",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump or bottle hard to fully empty",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable price for the results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible de-puffing or brightening effect",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "miko",
+   "titre": "it's a no for me",
+   "texte": "tbh, all of the byoma producta i've tried haven't worked for me. this product specifically left a rash which in turn caused my skin to become raw and irritated under my eyes. i have sensitive skin as it is, but i use retinol regularly (of course, i had to build tolerance to that) and even that doesn't cause a reaction similar to this.",
+   "date": "2024-01-08",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Melanie",
+   "titre": "It's good but definitely not for sensitive skin",
+   "texte": "I really like this it got rid of my under very well but I have only been using this fir five days abd i am noticing how my skin is slightly sensitive and its kinda breaking me out. Overall though it's decent!",
+   "date": "2024-01-19",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lauren",
+   "titre": "I absolutely love this",
+   "texte": "I was worried at first because i have really bad dark circles from allergies and this works so well! I keep it in my mini fridge and it enhances the cooling effect and feels soooo nice on my skin. It also didn't bother my REALLY sensitive skin.",
+   "date": "2023-11-15",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah R",
+   "titre": "Hydrating and cooling",
+   "texte": "I bought this eye cream after using the ordinary, good molecules, clarins, and beautybio. This is the only eye cream that moisturized my eyes without irritating them. I ran out and and i am scrambling to place an order. Yes, quite a bit comes out for each pump but i need that amount to repair my dryness. What really sealed the deal was when my daughter mentioned she no longer saw creases under my eyes anymore when i wore makeup. I have oily skin in my tzone and slightly oily skin in my cheeks. My under eyes were very dry until I began using this product.",
+   "date": "2025-06-15",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "oily",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gail",
+   "titre": "One product I will always repurchase",
+   "texte": "This eye gel has been a necessity in my skincare routine for about two years now. I have very dark circles thanks to genetics and I have fair olive skin so, as you can imagine, I have searched high and low for products to solve this issue and this one is easily the top choice for me. The price is very reasonable and the gel is easy to apply (and it feels nice on your skin!) I have found that for the best results this should be used at least once a day. I personally put it on at night because the gel leaves a residue until it fully absorbs into the skin and when I wake up I can noticeably see a big difference! I will say that consistency is key with this product and if you don't use it at least once a day the dark circles will return. I do not struggle a lot with puffiness under my eyes so I unfortunately cannot give an exact review on that, however, I have used this the morning after a night out on a few occasions where there was some puffiness and I noticeably saw it go down within a few hours of applying the product. Overall, I highly recommend for anyone to try it out!",
+   "date": "2025-02-13",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kathryn",
+   "titre": "Beautiful Packaging, Great Price, but Needs Improvement",
+   "texte": "The price for this eye cream indicates its performance level. I know I purchased this eye cream for less than $25.00. Rule of thumb, you should never be depending solely on eye cream to get rid of the appearance of dark circles - the magic potion is sleep! But if you want an eye cream that will perform noticeable results, you should expect to spend anything over $50 to $75. I did not see any results from this eye cream - it just was a lubricant barrier. I work a stressful job primarily on computers and aim to get 7-8 hours of sleep per night, so those also play a factor. I did read the most positive helpful review. I have sensitive combo skin. I did not report feeling any sting from this product. On the other hand, the most negative critical review was very eye opening for me (no pun intended!) because I did not realize you could even break apart the product. I write my product reviews when I'm done with a product. I thought I had used all this eye cream a month ago. When I opened this eye cream, I still had ONE THIRD of the product left! The straw didn't even reach the bottom! I hope this isn't some sneaky marketing tactic by Byoma. Hats off to whoever made the bottle, but it's ineffective. Life hack, if you aren't getting anything out of the pump, bang the can on a hard surface and it will come out. It's also possible to fit a Q tip in there.",
+   "date": "2025-02-23",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Lara",
+   "titre": "Doesn't work as claimed",
+   "texte": "It doesn't provide any hydration, takes a while to be absorbed by the skin, does not depuffs. The only thing it did was to irritate my undereye area, so I would not recommend the product.",
+   "date": "2024-05-16",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

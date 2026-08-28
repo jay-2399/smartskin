@@ -1,0 +1,172 @@
+{
+ "ref": "pimprod2040492",
+ "asin": null,
+ "pid": "pimprod2040492",
+ "source": "ulta",
+ "nom": "Lancôme Rénergie H.P.N. 300-Peptide Cream",
+ "note": 4.64,
+ "nbAvis": 1021,
+ "lus": 76,
+ "collectes": 106,
+ "segments": {
+  "oily": "Reviewers with oily or combination-oily skin report the cream absorbs well and does not leave a greasy or heavy feel.",
+  "dry": "Reviewers with dry skin describe it as deeply hydrating and suited to daily use without heaviness.",
+  "combination": "One combination-oily reviewer says it doesn't feel greasy but notes the texture sits on the skin rather than fully absorbing, while still softening it.",
+  "sensitive": "Sensitive-skin reviewers are split: some report zero irritation and no fragrance issue, while others say the fragrance caused strong irritation and one had a severe allergic reaction.",
+  "mature": "Mature-skin and older reviewers (40s-80s) most consistently report firming, softening and reduced fine lines with continued use."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visible firming, smoother texture and reduced fine lines, some within days to a week; a few say they saw no real difference in wrinkles.",
+  "dehydration": "The large majority describe strong, long-lasting hydration and a plumper, softer feel; one reviewer says it dried out her skin.",
+  "redness": "A couple of sensitive-skin reviewers note irritation or itching from the fragrance, though this is described as a skin reaction rather than general redness.",
+  "barrier": "One reviewer reports a severe allergic reaction with swelling and blisters after long-term use; this appears to be an isolated adverse event, not a general pattern.",
+  "spots": "Several reviewers say age spots and dark spots faded or became less noticeable with regular use.",
+  "blemishes": "One reviewer reports no new breakouts while using the product; no other reviewer discusses acne or blemishes.",
+  "oiliness": "Reviewers with oily skin describe the formula as non-greasy and light, calling it suitable for oily or combination skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong floral fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Smooth silky texture on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy feel",
+   "polarite": "pos",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Long-lasting hydration",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Confusing SPF vs non-SPF packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "BeautyAddict14",
+   "titre": "Great product but not for sensitive skin",
+   "texte": "I loved how soft it made my skin and if you can tolerate it, it's a great product. Love Lancome. However, there is a strong fragrance to it and my sensitive skin got very irritated. I wish they made a fragrance free version, I would repurchase. Until then, I have to give it away",
+   "date": "2025-05-27",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Beth",
+   "titre": "Severe allergic—anaphylactic—reaction",
+   "texte": "I used this cream on and off for many years with no adverse effects. This time, I had a serious allergic reaction that has lasted for a week. My lips got very swollen, and itchy, sore blisters appeared all over my body. Beware if you are sensitive to chemicals.",
+   "date": "2025-06-08",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "TTN2",
+   "titre": "Love this cream",
+   "texte": "I have combination oily skin and this cream does not make me look or feel greasy. Consistency is not light and it feels as if it doesn't really get completely absorbed, but my skin does feel softer when I use it. I am not showing any deep wrinkles yet so I cannot attest to its performance to help with wrinkles. I don't think I have used it long enough to see any lightening of my sun spots yet, although I am also using other products from other brands for the hyperpigmentation. Will keep using this cream for the way it helps keep my skin soft.",
+   "date": "2024-03-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Victoria",
+   "titre": "HPN 300 Peptide Cream",
+   "texte": "Ive tried a lot of face creams, this is definitely in my top 3. This cream is ideal for mornings where you want something moisturizing but not too oily. I can also see a difference in brighness and fine lines. I also feel like this cream works with most skin types. I have dry skin and it works well as a day cream.",
+   "date": "2024-10-01",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "anonymous",
+   "titre": "My new favorite from Lancome",
+   "texte": "Within days, there's a noticeable improvement in texture and hydration. It's light and non-greasy -- great for oily skin like mine.",
+   "date": "2024-03-05",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "June D Williamsburg",
+   "titre": "Great for dry skin",
+   "texte": "I have very dry skin and this product is lovely. I use it both night and day and it leaves my skin feeling youthful.",
+   "date": "2024-05-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Best Face Lotion",
+   "titre": "Super Hydrating",
+   "texte": "Love how soft my skin feels all day. I have sensitive skin and this product gives me zero irritation 🙌🏻",
+   "date": "2024-04-27",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

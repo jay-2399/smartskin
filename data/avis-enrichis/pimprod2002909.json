@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2002909",
+ "asin": null,
+ "pid": "pimprod2002909",
+ "source": "ulta",
+ "nom": "Kiehl's Since 1851 Epidermal Re-Texturizing Micro-Dermabrasion",
+ "note": 4.76,
+ "nbAvis": 136,
+ "lus": 80,
+ "collectes": 117,
+ "segments": {
+  "oily": "Reviewers with oily or combination-oily skin report reduced shine, smaller-looking pores and generally good tolerance, though one caution against daily use to avoid over-exfoliation.",
+  "dry": "Reviewers with dry skin, including dry-flaky or dry-combination types, report smoother skin and better absorption of moisturizer afterward, with a few noting the product can be drying if overused.",
+  "combination": "Combination-skin reviewers, including those with combination-oily skin, report smoother texture, smaller pores and good results when paired with a gentle cleanser.",
+  "sensitive": "Sensitive-skin reviewers are split: most say the product is gentle enough if used lightly and infrequently and reduces redness and flakiness over time, but a minority report it left skin red, raw, or dry for hours after use, or was 'too harsh.'",
+  "normal": "The one reviewer identifying as normal skin (with a slightly sensitive dry patch) reports smooth results without irritation.",
+  "mature": "Reviewers describing themselves as older or mature (50s-60s) report smoother skin, reduced fine lines, and softer texture with regular light use."
+ },
+ "concerns": {
+  "aging": "Several mature reviewers report visibly reduced fine lines, forehead lines, and a brighter, more youthful glow with regular use; one skeptic questions whether real anti-aging change is possible ('no miracle') despite some progress.",
+  "dehydration": "Many dry-skin reviewers report relief from flaky, scaly, or tight patches and better moisturizer absorption; a couple mention temporary dryness or a tight red feeling for 12-24 hours after each use.",
+  "redness": "Reports are mixed: several say the product actually calms pre-existing redness and flaky red patches over time, while others describe new redness, rawness, or a pink flush immediately after application, especially when overused.",
+  "barrier": "Reviewers emphasize that gentle pressure and limited frequency preserve the skin barrier, with warnings against daily use; one review explicitly describes 'poor results' and an 'awful' feel from what they experienced as overly abrasive chunks.",
+  "spots": "Reviewers report lightening of dark spots, age spots, sun damage, and post-acne red or brown marks with continued use, though results are described as gradual over weeks.",
+  "blemishes": "Reviewers with active acne report fewer breakouts, reduced cysts and whiteheads, and improved acne scarring; one notes it helps with rolling and red scars specifically, though gentle application is stressed to avoid irritation.",
+  "oiliness": "Oily-skin reviewers report smaller-looking pores, less visible sebaceous filaments, and reduced blackheads, framing the product as an effective pore-clearing step rather than an oil-control product per se."
+ },
+ "aspects": [
+  {
+   "libelle": "Fine sandy grit texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sharp or chunky texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin feels smooth after rinse",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Improves moisturizer absorption afterward",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Redness or rawness after use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Long-lasting tube, good value over time",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Lou",
+   "titre": "Sharp Chunks",
+   "texte": "This has very sharp chunks that scratches face. I wouldn't even use this to sand my floors. Especially at this ridiculous price.",
+   "date": "2020-12-19",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anjela",
+   "titre": "Best scrub ever",
+   "texte": "II'm 28 y.o. My skin is oily, sensitive and have a big pores. So I use this Micro-Dermabrasion 2 timer per week and love it. My skin feeling soft, but what more important for me: the pores looks clean and smaller. I really like this, I use it like a regular scrub. Use a little bit and do not press on the skin.",
+   "date": "2014-05-25",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Karmella",
+   "titre": "Best scrub for dry sensitive skin!",
+   "texte": "I have very dry skin, which is bumpy in patches, tight at times, and always red. Because of how sensitive it is, I have always stayed away from words like \"micro-dermabrasion\". But the last time I went to my Kiehl's counter, it was suggested for me to try once week. I was skeptical at first but hooked after my first try! Not only was my skin softer and smoother, it was glowing! It also helped get rid of some of my dry skin cells and I noticed that my moisturizers did their jobs better than before. Because my skin is sensitive, I usually follow with Centella Recovery Skin Salve and that helps to ease any minor irritations.",
+   "date": "2013-05-16",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JenniferD",
+   "titre": "It works!",
+   "texte": "I received this as a sample and I had to buy it. It's like taking my daily scrub to a new level and honestly creating a fresh look. I use it only once a week and it has dramatically improved age spots and sun damage as well as PMS acne. But for those with sensitive skin like mine, please note I do look pretty red and feel dry skin for about 12-24 hours after use.",
+   "date": "2017-02-23",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "KiehsFan",
+   "titre": "HIGHLY Recommended - very gentle yet very effective",
+   "texte": "I have struggled for years with dry, sensitive skin and large pores. For a large portion of the year I get red, flaky areas under my eyes which I was always self-conscious about. I visited my Kiehl's counter and was introduced to the micro-dermabrasion. I was hesitant at first because I was worried it would be harsh and I have extremely sensitive skin but I gave it a try and it is awesome. I saw immediate improvement in the red, flaky areas under my eyes and after a week they were gone. I have tried many products and this is the only one that, when used consistently, completely gets rid of this problem for me. I also noticed that the dry, flaky skin I tend to get all over in the winter, was corrected with this product. As with all Kiehl's products, I love that you truly only need to use a small amount and it is very effective - one bottle lasts a long time so it is worth it. It is also very gentle on my skin. This past winter I purchased a Clarisonic Mia and have been using that on my face and I have to say that I will be returning to the Kiehl's microdermabrasion - it does a better job in improving my skin texture and appearance of large pores and it less expensive!",
+   "date": "2012-08-30",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LucyManette",
+   "titre": "works for blemishes",
+   "texte": "I bought this product on a whim thinking that adding exfoliation to my regime wouldn't hurt. I was thinking of erasing acne scars in the long (or very long) term. Instead, it helped me reduce my acne breakouts significantly. I'd get cysts and whiteheads that are superb obvious and hard to cover with makeup. Now I combine this product along with the blue herbal spot treatment. I also make sure that I'm extra gentle while exfoliating since I've active acne breakouts in the form of whiteheads. I've been struggling with acne for a few years ever since I turned 20, ironically. As an added plus, my face looks brighter and feels softer. No brightening product or moisturizer ever achieved this. Thanks Kiehl's for solving my problems!!!",
+   "date": "2012-12-19",
+   "verifie": false,
+   "utiles": 29,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CC0353",
+   "titre": "Great for flaky winter foreheads",
+   "texte": "I have piled on all kinds of moisturizers in the winter trying to rid my face of a flaky forehead. I think I was making it worse. FINALLY i found a product that gets rid of it. I use it 3x a week and alternate it w/ another brand's enzyme peeling cream. I follow up w/ the Skin Rescuer which I also love. My winter skin hasn't felt this soft and been this flake-free since I was a teenager! It does feel a little sandy but I rather like the texture as I can feel it working. I also do feel like it has helped lessen the look of my forehead lines.",
+   "date": "2018-02-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

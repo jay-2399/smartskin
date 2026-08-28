@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2033800",
+ "asin": null,
+ "pid": "pimprod2033800",
+ "source": "ulta",
+ "nom": "OSEA Ocean Eyes Age-Defying Eye Serum",
+ "note": 4.21,
+ "nbAvis": 813,
+ "lus": 75,
+ "collectes": 99,
+ "segments": {
+  "dry": "Reviewers with dry skin, including two self-described as mature (48 and 63 years old), report the watery texture absorbs and that it feels hydrating rather than heavy, with one long-term dry-skin user becoming accustomed to the thin consistency over time.",
+  "sensitive": "Reviewers who describe reactive, sensitive, or eczema-prone skin mostly report no irritation and a soothing cooling effect, but this is contradicted by several other reviewers (not all self-identified as sensitive) who report burning, redness, or a blistering rash.",
+  "mature": "Reviewers who identify as mature (mid-40s to 66) report visible reduction in crow's feet, fine lines, and puffiness, and describe the product as suited to aging skin, though one 56-year-old reviewer felt it did nothing and suggested it suits younger users better."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visible softening of fine lines and crow's feet, some after only one use or a few weeks; a few report no tightening or line reduction at all, with one noting she may not have had significant lines to begin with.",
+  "dehydration": "Reviewers describe the serum as cooling, hydrating, and moisturizing on contact; however, one reviewer reports the opposite, that her under-eyes felt dry after application, and another calls the formula watery with no lasting moisture or slip.",
+  "redness": "One reviewer with red, chapped, wind-damaged eyes reports significant relief and soothing; conversely, several other reviewers report the product itself caused new redness or a burning sensation immediately after application.",
+  "barrier": "A reviewer with reactive eczema-prone skin reports no inflammation or reaction using the line; this contrasts with multiple other reports of severe irritation, burning, and a painful blistering rash under the eyes.",
+  "blemishes": "One reviewer reports the product cleared a stubborn milia in a matter of days, though she notes it is the only eye product she has tried so cannot confirm this is unique to it.",
+  "oiliness": "One reviewer notes the serum leaves no oily feeling after application, which is presented as a positive alongside no stickiness or residue."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling metal rollerball applicator",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Watery, thin texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible results after weeks or months",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glass bottle top shattered",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Hana D.",
+   "titre": "My new skincare unicorn .literally",
+   "texte": "Im a regular Biologique Recherche user, always searching for good quality, natural and simple to use skincare line, which I can incorporate along my BR. OSEA hits the spot, including the body line. As for this eye serum, I was at first a bit skeptical since I have very dry skin (head to toes; mature, 48 yrs; not particularly sensitive). But over time I began addicted (and used to the water down formula). I go as far as rolling it over my lips before applying lip balm. As we just moved to a new house and most of my precious skincare is still packed, so is this night serum (I dont know what I thinking when I was packingtime crunch I guess). Now, it will take a while to get through all the boxes to find my miracle UNI!",
+   "date": "2025-07-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lori P.",
+   "titre": "Feels so good!",
+   "texte": "I look forward to applying this so much. That soothing, cool feeling is one of the reasons I never forget to use it. Ive only been using it for a few weeks, but can already see a real difference. My circles are lighter and fine lines are finer. I am 63-years old with very dry skin.",
+   "date": "2025-05-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Terri S.",
+   "titre": "Good bye, puffy eyes",
+   "texte": "I use this eye serum every day to help with morning puffiness. I have sensitive skin and have had no adverse reactions. Your products made from ingredients from the sea are a godsend to those of us with reactive skin. Thank you!",
+   "date": "2026-01-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cecilia",
+   "titre": "Feels incredible",
+   "texte": "I tend to use the product after my workouts and getting ready for the day. The cooling rollerball along with the texture of the product is so calming to the sensitive eye area. I have very reactive eczema and the OSEA products have not caused any inflammations or reactions to my skin. What a wonderful line of skincare!",
+   "date": "2026-03-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Melxmarie",
+   "titre": "Terrible rash",
+   "texte": "I wanted to love this so much but unfortunately I developed the worst rash under my eyes. We're talking very painful, blistering, inflamed rash. I loved the roller ball and the cooling effect it had but I had to return it.",
+   "date": "2025-04-17",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "clara",
+   "titre": "i does not do anything for me",
+   "texte": "Unfortunately, this product did not work for me. After applying it, my eyes felt dry, and I did not notice any improvement. I am 56 years old, so this product may be more suitable for younger users.",
+   "date": "2026-03-30",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gail M.",
+   "titre": "Best eye product for recovering chapped damaged eyes after t",
+   "texte": "After that horrible Santa Ana that devastated Los Angeles, my eyes were red chapped puffy bubbly drysore mess. Nothing could give me relief and more often aggravated and burned the skin until I tried Ocean Eyes Age-Defying Eye Serum. Osea thank you for making this and I will use it forever.",
+   "date": "2025-03-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

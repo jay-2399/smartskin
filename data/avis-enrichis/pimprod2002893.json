@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2002893",
+ "asin": null,
+ "pid": "pimprod2002893",
+ "source": "ulta",
+ "nom": "Kiehl's Since 1851 Ultra Facial Cleanser",
+ "note": 4.44,
+ "nbAvis": 674,
+ "lus": 75,
+ "collectes": 99,
+ "segments": {
+  "oily": "Reviewers with oily/combination-oily skin report the cleanser removes excess oil and clears the T-zone without leaving skin feeling oily, though one reviewer with oily/acne-prone skin reports severe cystic breakouts.",
+  "dry": "Reviewers with dry skin consistently report the cleanser does not strip or tighten their skin, though a minority describe it as extremely drying, tight, and flaky, with one reporting a full week of flaking after a single use.",
+  "combination": "Reviewers with combination skin report it balances oily and dry patches, cleansing thoroughly without stripping, and it is named as a favorite for combo/normal skin.",
+  "sensitive": "Reviewers with sensitive skin (including some with rosacea or seborrheic dermatitis) most often report no irritation and successful daily use, but a subset describes burning, contact dermatitis, redness, and bumps around the mouth after formula changes.",
+  "mature": "One reviewer with mature (66-year-old) skin reports it leaves skin feeling soft and smooth.",
+  "normal": "Reviewers describing normal skin report it cleans effectively while keeping skin balanced, without dryness or oiliness."
+ },
+ "concerns": {
+  "aging": "The single reviewer identifying as mature-skinned reports softer, smoother skin; no other aging-specific effects are mentioned.",
+  "dehydration": "Most reviewers across skin types report the cleanser does not dry out or tighten skin, even calling out its non-drying formula as the reason they repurchase; however, several reviewers explicitly report extreme dryness, tightness, redness, and flaking, some tying this to a reported formula change.",
+  "redness": "Several reviewers report the cleanser causes burning and red patches, in some cases resembling dermatitis around the mouth or eyes, most often linked to sodium laureth/lauryl sulfate or an alleged reformulation; other sensitive-skin reviewers report no redness at all.",
+  "barrier": "A few reviewers describe burning, contact dermatitis, or a reaction they attribute to a changed formula, while others use the cleanser after chemical burns or exfoliation with no irritation reported.",
+  "spots": "Reviewers mention it helps clear clogged pores and closed comedones within a few uses, with no dissent specific to this concern.",
+  "blemishes": "Several reviewers report fewer breakouts, calmer skin, or acne clearing up over time (including under heat and sweat); however, multiple reviewers report new or worsening acne, including cystic acne on the chin and forehead, that resolved after discontinuing the product.",
+  "oiliness": "Reviewers with oily or normal-to-oily skin report it removes excess oil and leaves skin balanced rather than oily, with no dissent noted."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich lather from small amount",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves tight, dry after-feel",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Hospital-like or chemical scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Silky, velvety texture on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube seal leaks and stains",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well as double-cleanse second step",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Sara",
+   "titre": "Severe Breakouts",
+   "texte": "I have oily/acne prone skin and am always looking for different products to see if they will improve. My sister gifted me a trial size. I had the worst acne of my life when using this product. I got deep, cystic acne on my chin and forehead (I rarely get acne on forehead) that took so long to heal after I stopped using it. I thought it was just the skin purging from a new product, but once I stopped using this product, new acne immediately stopped forming.",
+   "date": "2025-01-27",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Aubrey",
+   "titre": "Love this product!",
+   "texte": "My skin loves this face wash, it makes me actually want to wash my face twice a day just to use the product! I have really sensitive skin that can be really dry but also prone to cystic acne and this product is clearing up my skin while keeping it hydrated and glowy! My skin looks more balanced and even after a week of using it, highly recommend!",
+   "date": "2025-01-22",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Amber",
+   "titre": "Instantly dried my skin completely out",
+   "texte": "I love Kiehl's products, so when I was in the market for a new facewash, I started with this one. I have combination skin but it has been fairly under control lately. I used this wash one time, at night, after using cleansing oil to take my makeup off. After, i used my thick night time moisturizer. When i woke up in the morning, my entire face was flaking off, even in my normally oily T-zone area. It took almost a week to revive my skin from not using the cleanser and giving my skin some extra TLC. Had to return.",
+   "date": "2024-04-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MBello",
+   "titre": "Finally a cleanser I love",
+   "texte": "I have sensitive skin (rosacea and seborrheic dermatitis) and have struggled to find a cleanser I can use daily. This is the best!!",
+   "date": "2023-12-27",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "",
+   "titre": "Love this facial cleanser",
+   "texte": "The best. Leaves my mature 66 year old skin feeling soft and smooth.",
+   "date": "2024-01-11",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Neffy",
+   "titre": "Great Cleanser For Dry Skin",
+   "texte": "I've been using this cleanser for a little under a year now, and it works great. I got it for my dry-ish skin, this cleanses my face thoroughly. But doesn't strip my skin, it's definitely worth it! It's a staple now for my skincare routine.",
+   "date": "2025-12-17",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Brooke",
+   "titre": "Extremely drying",
+   "texte": "I have used this face wash in the past and thought it was decent so I repurchased a few months ago when my holy grail was out of stock. (Korres yogurt cleanser is my HG, btw) This face wash makes my skin so tight, dry and red. If I skip this product then my face is fine. It is also hard to lather. Really disappointed since I generally like the Kiehls brand.",
+   "date": "2024-03-15",
+   "verifie": false,
+   "utiles": 13,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

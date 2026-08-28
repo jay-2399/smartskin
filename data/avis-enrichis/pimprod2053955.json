@@ -1,0 +1,147 @@
+{
+ "ref": "pimprod2053955",
+ "asin": null,
+ "pid": "pimprod2053955",
+ "source": "ulta",
+ "nom": "TONYMOLY I'm Rice Makeup Melting Cleansing Oil",
+ "note": 4.27,
+ "nbAvis": 15,
+ "lus": 15,
+ "collectes": 15,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin report the oil removes makeup without stripping and leaves skin softer, though one sensitive-skin user found it irritated her eyes.",
+  "dry": "A reviewer describing her skin as sensitive and dry says it took off makeup easily without stripping and left skin softer than before."
+ },
+ "concerns": {
+  "dehydration": "Multiple reviewers report skin feels hydrated, soft, and not tight or stripped after rinsing; no reports of dryness or tightness were found."
+ },
+ "aspects": [
+  {
+   "libelle": "Silky lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and hydrated",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong old-oil smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or irritates eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser convenient",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy or clogged-pore feeling after use",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Ellie",
+   "titre": "It's not what I expected",
+   "texte": "This product leaves your skin feeling like there is oil in your pores and does not remove all of your makeup even with a second cleaning step. Plus, it irritated my eyes so bad and made them red, itchy, and sting for a while. I had to continue to gently do cold water presses on my eyes.",
+   "date": "2026-02-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "S",
+   "titre": "The smell.",
+   "texte": "If you are sensitive to smells, this is not the product for you. It smells like old fryer oil. It works beautifully and my skin feels great, but the smell is so offputting that I cant continue using it.",
+   "date": "2026-02-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Brittney",
+   "titre": "Gentle Glow in a Bottle!",
+   "texte": "I was Gifted By Tony Moly and I've really been enjoying using the Rice Makeup Melting Cleansing Oil. It's quickly become one of my favorite steps in my routine. The texture is silky and lightweight, and it melts away makeup effortlessly without leaving any greasy residue. After rinsing, my skin feels soft, hydrated, and completely clean, not tight or stripped. I love that the formula includes hypoallergenic rice extract and PHAs for gentle exfoliation because it helps keep my skin smooth and bright while still being super gentle on my sensitive skin. Overall, it's a soothing, effective cleanser that makes double cleansing feel like a treat!",
+   "date": "2025-10-08",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Candace",
+   "titre": "Good for sensitive skin!",
+   "texte": "I received this cleansing oil complimentary from tonymoly and have had a great experience with it. My skin is a bit sensitive and tends to be on the drier side. This took my makeup off easily without stripping my skin and actually leaving it softer than before!",
+   "date": "2025-09-19",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "D",
+   "titre": "An effective & affordable makeup remover",
+   "texte": "I looked at Ulta for an inexpensive oil for a first cleanse after my old makeup remover started irritating my skin, and this one is great! I don't notice the smell that other reviewers mention, and I do feel like it removes makeup and rinses clean to leave skin fairly hydrated. I use 2 pumps a night to remove a full face of makeup plus sunscreen, and I'm only halfway through the bottle after about 4 months. Zero complaints!",
+   "date": "2026-03-17",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ty",
+   "titre": "works well",
+   "texte": "cost effective cleansing oil that does not sting my eyes! I don't wear heavy face makeup, I focus mainly on my eyes and a lot of cleansing oils make my eyes/eyelids sting but so far this one has not caused any irritation! I only use 1-2 pumps for my whole face and I can see this lasting me a few months at least",
+   "date": "2026-01-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kelsey",
+   "titre": "Must have",
+   "texte": "I love this makeup melting cleansing oil! It's so gentle on my skin and leaves my skin feeling soft and nourished. It does an amazing job of getting all of my makeup off. I love that there's no artificial coloring or fragrance. A must have! Gifted by tonymoly.",
+   "date": "2025-09-20",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "The sample is small (15 reviews, mostly gifted), so segment- and concern-level conclusions rest on very few individual accounts."
+}

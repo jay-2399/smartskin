@@ -1,0 +1,167 @@
+{
+ "ref": "mkt77007162",
+ "asin": null,
+ "pid": "mkt77007162",
+ "source": "ulta",
+ "nom": "Proactiv Post Blemish 10% Vitamin C Serum",
+ "note": 4.66,
+ "nbAvis": 67,
+ "lus": 48,
+ "collectes": 48,
+ "segments": {
+  "oily": "Reviewers with oily skin report the serum absorbs quickly without a sticky feel and does not increase shine or oil production.",
+  "sensitive": "Reviewers describing sensitive or reactive skin, including post-breakout skin, report no irritation, stinging, or breakouts, with several calling it the only vitamin C they can tolerate.",
+  "mature": "Reviewers over 50 or citing aging skin report an evened complexion, subtle glow, and smoother, more youthful-looking texture."
+ },
+ "concerns": {
+  "aging": "Reviewers in their 50s or noting age-related dullness report a more even complexion, subtle glow, and a youthful look after a few weeks of use.",
+  "dehydration": "Several reviewers describe the serum as hydrating and lightweight, with skin feeling moisturized rather than dried out; one reviewer says it takes multiple bottles to see blemish-related results despite the hydration.",
+  "redness": "One reviewer with a long history of use reports no splotches, redness, or burning.",
+  "barrier": "Reviewers with sensitive or reactive skin report the formula feels gentle and soothing without stripping or irritating skin, unlike other vitamin C serums they tried.",
+  "spots": "Most reviewers report fading of dark spots, sun spots, or acne scars over two to several weeks; a few say results are slow or marks remain rather dark, and one reviewer reports no lightening of post-inflammatory marks at all.",
+  "blemishes": "Many reviewers with acne-prone skin report fewer breakouts and fading acne scars over time; a couple report no visible difference in blemishes or clearing yet.",
+  "oiliness": "Oily-skin reviewers report the serum leaves no oily film or shine and does not worsen oil production."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sticky or greasy residue",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Brightening, glow effect",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slow or no visible results",
+   "polarite": "neg",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Dropper bottle design",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild scent, not overpowering",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Affordable price point",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Naurel",
+   "titre": "0 results",
+   "texte": "I have recently struggled with breakouts on the sides of my body which have left me with PIH. I was hoping this would help lighten the marks, but it hasn't helped at all. I am very fair, so the marks are very embarrassing. Seeking a stronger and better product.",
+   "date": "2025-04-07",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ren",
+   "titre": "Holy Grail",
+   "texte": "This serum is amazing! I have very oily skin so was skeptical about using this product but omg! It dried quickly without a sticky feel and doesn't increase oil production. My face is glowy, I've gotten so many compliments since starting this product. Do yourself a favor and purchase immediately!",
+   "date": "2024-07-20",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ma N.",
+   "titre": "Effective",
+   "texte": "Effective product. Pigmentation lightened up and it pores were visibly reduced. I have sensitive skin and I never had any reaction to this product. Glad I am using it.",
+   "date": "2024-11-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ariana",
+   "titre": "Brightening boost for your skin!!",
+   "texte": "The Proactiv Post Blemish Vitamin C Serum has become a staple in my routine. It effectively brightens dark spots and evens skin tone without irritation. The lightweight formula absorbs quickly, feels soothing, and integrates seamlessly into my skincare regimen. Over time, I've noticed a visible improvement in my skin's radiance. While results vary from person to person, I've noticed a gradual fading of dark spots over time. Consistency is key with any skincare product, and I appreciate that this serum integrates seamlessly into my routine.My skin tends to be sensitive, especially after breakouts, but I haven't experienced any irritation with this serum. It feels gentle and soothing upon application, which is a big plus for me. Unlike some serums that can feel heavy or sticky, this one absorbs quickly into the skin without leaving any residue. It feels lightweight and comfortable, making it suitable for daily use under makeup or alone.It's a reliable choice for anyone looking to fade post-blemish marks and achieve a more even complexion.",
+   "date": "2024-07-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "BB",
+   "titre": "Best vitamin c for reactive skin",
+   "texte": "I used to be able to use any vitamin c and get great results, not anymore. My skin has become even more sensitive and reactive as I've aged and this is the only one I can use w/o getting a bad reaction. It's also very light, hydrating, and works as a vitamin c should.",
+   "date": "2026-02-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Denise",
+   "titre": "Glowing evened out skintone",
+   "texte": "I'm 55 years old and I received a free sample of the Vitamin C serum. I applied it everyday for 3 weeks after my toner. I really feel like it evened out my complexion and left my skin with a subtle glow. I definitely will be adding this to my Proactiv repertoire, and I highly recommend this product.",
+   "date": "2024-07-20",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lauren",
+   "titre": "Amazing!",
+   "texte": "GAME CHANGER! This serum is a miracle in a bottle! I've only had it for about 2 weeks now and my skin tone is even for the first time in prob 20 years! The dark acne scars will clearly take awhile to fade, but I'm optimistic given the rapid results I've already seen. Love this serum, great price point. Could this be the first in a new line of post-blemish skin care for acne-prone skin? Sign me up!",
+   "date": "2024-07-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

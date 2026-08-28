@@ -1,0 +1,123 @@
+{
+ "ref": "pimprod2059133",
+ "asin": null,
+ "pid": "pimprod2059133",
+ "source": "ulta",
+ "nom": "STARFACE Hydro-Star Microdart Pimple Patches + Salicylic Acid",
+ "note": 4.2,
+ "nbAvis": 5,
+ "lus": 5,
+ "collectes": 5,
+ "segments": {},
+ "concerns": {
+  "spots": "Two reviewers with deep, stubborn or scarring pimples report the patch resolved them overnight, and one calls it more effective than competing brands; one reviewer says it left no dark spot behind afterward.",
+  "blemishes": "One reviewer with cystic acne reports the patch is the only at-home product that visibly soothes the pain and swelling of cystic pimples, though she wishes the patches were bigger to cover larger cysts."
+ },
+ "aspects": [
+  {
+   "libelle": "Adhesion on curved areas",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Overnight results on deep pimples",
+   "polarite": "pos",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Soothes cystic pimple pain",
+   "polarite": "pos",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Star shape impractical for large pimples",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Comfortable feel on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Effectiveness versus other patch brands",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Nebula",
+   "titre": "BIGGEST WASTE OF MONEY EVER",
+   "texte": "im a huge fan of statface and exclusively use their pimple patches. I loved the idea of microdaets going deeper into the pores to help but these are an actual joke. they will ONLY stick to flat areas of the face. Anything even remotely curved and they will not stick at all. I wasted an entire pack (4) just truing ti get even one to stick to my nose and I sadly dont have a sharp nose in the slightest. The excuse if \"dry clean skin only\" is a scam. Like I said I used statface for years, I know exactly how to prep my skin for a pimple patch. These wre garbage and I dont know who in their right mind approved these to be sold. If you need one of your cheek or forehead then by all means, proceed. anything on your nose or chin, watch money, time and your effort spill down the drain.",
+   "date": "2026-07-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Paige",
+   "titre": "my new favorite patches!!!",
+   "texte": "i was hesitant to try these out because i think the normal patches from this brand are lowkey mid but i'm glad i took a chance on these!! had a really angry pimple very deep under the skin, a pimple like that will usually take me 3-7 days to get rid of. i applied one of these babies to it & it literally disappeared overnight! miraculous!!! most of the time my acne will leave a scar & theres not even a dark spot left behind. wow!!!!! i'm very impressed with these & will continue to repurchase!!!!",
+   "date": "2026-06-24",
+   "verifie": false,
+   "utiles": 22,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Aurah",
+   "titre": "I think I'm in love",
+   "texte": "I'm kind of obsessed with these. I bought them on a whim during a StarFace double points thing, and theyre incredible. I get cystic acne every so often, and this is the ONLY at-home product that I've found soothes it at all. The pain and goes down significantly, and the little pinpricks in the stickers are so soothing. I'll definitely be repurchasing! My only complaint is i do wish they were bigger and not star-shaped to better accomodate some of my larger cystic pimples, but I get that the star thing is part of their brand. Personally, for clear ones, it seems unecessary to me. I'll still be repurchasing!",
+   "date": "2026-07-18",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "galleyqueen",
+   "titre": "Best star patch",
+   "texte": "I've tried various star patches and this is by far the best one. I had a pimple that wouldn't go away for days. I stuck one of these on and it was gone overnight. Imo, it's more effective than the ones from Hero",
+   "date": "2026-07-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vvv",
+   "titre": "Cute",
+   "texte": "I do like how they feel, but I feel like the original ones are more effective than this ones.",
+   "date": "2026-07-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "Only five reviews are available and none specify the reviewer's skin type, so segmentation by skin type could not be produced."
+}

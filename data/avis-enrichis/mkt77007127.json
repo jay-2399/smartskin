@@ -1,0 +1,161 @@
+{
+ "ref": "mkt77007127",
+ "asin": null,
+ "pid": "mkt77007127",
+ "source": "ulta",
+ "nom": "Sweet July Skin Pava Toner",
+ "note": 4.92,
+ "nbAvis": 60,
+ "lus": 41,
+ "collectes": 41,
+ "segments": {
+  "dry": "Reviewers with dry skin report the toner adds moisture without drying or stripping the skin, and one describes it as finally working for dry to combination skin after other toners failed.",
+  "sensitive": "Sensitive-skin reviewers report no irritation and reduced redness, describing the formula as gentle even with regular or frequent use.",
+  "combination": "One reviewer with dry to combination skin reports it meets her needs where past toners did not, leaving her skin clear and glowing by morning."
+ },
+ "concerns": {
+  "dehydration": "Reviewers report the toner adds moisture and tones without drying out the skin, with one dry-skin user noting it addresses a common problem of toners leaving skin dry.",
+  "redness": "Multiple reviewers report reduced redness and inflammation and describe the toner as gentle and non-irritating; one reviewer specifically credits it with calming sun-related redness and freckling.",
+  "barrier": "Reviewers describe the toner as non-stripping and skin-balancing, cleansing without disrupting the skin's moisture.",
+  "spots": "Several reviewers report visible improvement in hyperpigmentation and more even skin tone, including one who saw significant improvement after two weeks; effects are described as gradual.",
+  "blemishes": "Reviewers report clearer skin and fewer breakouts over time, with one describing marked skin clearing after repeated use and another noting no new breakouts; no reviewer reports worsened breakouts.",
+  "oiliness": "Reviewers describe the toner as lightweight and non-oily, with visibly shrinking pores and less visible clogging in the T-zone for one user."
+ },
+ "aspects": [
+  {
+   "libelle": "Pleasant, non-overpowering scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-sticky texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Elegant packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Improves absorption of other products",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle, non-irritating on sensitive skin",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Adjustment period with glycolic acid",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Unclear usage instructions (frequency/AM-PM)",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Courtney L.",
+   "titre": "I have very dry and sensi",
+   "texte": "I have very dry and sensitive skin that's prone to hyperpigmentation. A couple months ago, had a very bad breakout along my cheek and neck. After using Pava Toner for about two weeks, I can see a significant improvement in my skin's texture, brightness and hyperpigmentation. Additionally, this toner didn't irritate my skin which is a plus and adds back in much-needed moisture for me.",
+   "date": "2023-07-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Taryn Bu.",
+   "titre": "I have tried toners in th",
+   "texte": "I have tried toners in the past, but have never found one that benefits my dry to combination skin. I find toners are better suited for individuals with oily skin, but this one meets all of my needs! It's a perfect addition to my nightly routine. I use it after I cleanse and before moisturizing, leaving me with clear and clean skin that stays glowing when I wake up the next morning.",
+   "date": "2023-07-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "nola j.",
+   "titre": "Love the products. The To",
+   "texte": "Love the products. The Toner and the facial scrub work well with my skin type. The oil is absolutely the best. Most oil products cause my face to break out. This is the first product that hydrates my skin to perfection. Just started using the undereye cream. I love it. Your products have been great for my skin.",
+   "date": "2025-08-07",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elle H.",
+   "titre": "A true glow up! If you're",
+   "texte": "A true glow up! If you're looking for a gentle toner that will not cause redness, this is the one for you. After cleansing my face with the Pava Exfoliating Cleanser, I followed up with the Pava Toner. This has really helped my skin retain moisture and a nice glow.",
+   "date": "2023-07-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Una A.",
+   "titre": "Obsessed with the Pava To",
+   "texte": "Obsessed with the Pava Toner! It smells absolutely amazing, it gives my skin a smooth feeling and has reduced redness and inflammation in a way I have not experienced before.",
+   "date": "2024-03-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lee-Ann C.",
+   "titre": "Love the Pava toner. I've",
+   "texte": "Love the Pava toner. I've bought it more than once. My skin can be sensitive at times but this toner has never irritated my skin. It's great.",
+   "date": "2026-01-06",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mercedes B.",
+   "titre": "I really love this toner.",
+   "texte": "I really love this toner. My skin had to get use to the gycolic acid, but after a week I felt fine. I only use this toner 3 days a week. My skin's glow has improved for sure. I will most definitely purchase again.",
+   "date": "2026-03-12",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

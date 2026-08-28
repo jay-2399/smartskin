@@ -1,0 +1,164 @@
+{
+ "ref": "xlsImpprod18531287",
+ "asin": null,
+ "pid": "xlsImpprod18531287",
+ "source": "ulta",
+ "nom": "Dermalogica Clear Start Breakout Clearing Booster",
+ "note": 4.31,
+ "nbAvis": 865,
+ "lus": 69,
+ "collectes": 88,
+ "segments": {
+  "oily": "A reviewer with PCOS-related oily skin reports the product helps her breakouts go away when applied right away.",
+  "dry": "One reviewer with very dry skin/eczema reports the product cleared a breakout without causing dryness or irritation.",
+  "combination": "One reviewer describes it as well-suited to combination skin that occasionally breaks out, with improvement after a couple of weeks.",
+  "sensitive": "Sensitive, reactive, and rosacea-prone reviewers mostly report clearing without dryness, redness, or scabs, though a few with sensitive skin found it irritating or too strong near the eyes and one had to stop use.",
+  "mature": "A 42-year-old reviewer with mature skin and hormonal blemishes reports significant clearing within 12 hours and long-term clear skin with continued use."
+ },
+ "concerns": {
+  "aging": "Only one reviewer links this product to aging skin, reporting clear results at 42 with blemishes clearing quickly; no other age-related effects (fine lines, firmness) are mentioned.",
+  "dehydration": "Several reviewers explicitly note no dryness after use, including one with dry skin/eczema; one reviewer found it too strong for her sensitivity and one review mentions the product 'purging' before improving.",
+  "redness": "Reviewers with rosacea and sensitive skin report reduced redness and healing without redness; one review warns to avoid the eye area due to strength if sensitivity is present there.",
+  "barrier": "Reviewers describe no compromise to the skin barrier, citing an absence of dryness, scabbing, or irritation with regular use; one review reports irritation and worsened breakouts after a single use.",
+  "spots": "The majority of reviewers report spots and pimples shrinking or disappearing within 1-3 days of targeted application; a few report no visible change after weeks of use.",
+  "blemishes": "Most reviewers, including those with hormonal, cystic, and teenage acne, report blemishes clearing quickly (overnight to a few days) and fewer new ones forming; five reviewers report worsened breakouts, larger painful pimples, or new marks after use.",
+  "oiliness": "Only one reviewer mentions oily skin directly, reporting the product works well on her PCOS oily skin without addressing oil control specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast visible results on spots",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Worsened or new breakouts",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Lightweight, quick-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dispenser leaks or wastes product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Push-button dispenser design",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strange smell",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jess A",
+   "titre": "Not for Me",
+   "texte": "Most of my breakouts occur along my jaw line. So hormonal acne. Usually it would flare up and then get better. I thought this product would help my acne during those flareups but ever since i started using it I have had huge painful pimples and new ones are constantly forming. My jawline is ten times worst. It may work for some but definitely not for me. I used the product consistently for 3 weeks and every morning i wake up wanting to cry because of how terrible my skin has gotten. Buyer Beware.",
+   "date": "2023-12-11",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Hilary G.",
+   "titre": "Highly effective - great for sensitive skin",
+   "texte": "I purchased the travel dermalogica acve treatment kit to test product on my hormonal, sensitive - reactive rosacea skin. First round of use I couldn't tell if it really worked - but ordered a full dize bottle to test further. My next cycle I applied nightly to breakout spots - within 2 days the spots are gone completely. No dryness, redness, or scabs at all. In comparison to ysing Mario B's buffering solution- this prodict is a dream… no burning, dryness, or scanning. Also healing time was 1/2 - 1/3 less overall- including redness. Also, the bottle is nice, and dispensing is easy / controllable through varying amount of pressure on the underside of the bottle. I have noticed less product waste with this method- and hope other companies follow suit.",
+   "date": "2023-07-09",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "HB",
+   "titre": "Actually works!",
+   "texte": "I have tried so many things to clear my skin and this is the 1st product to work! At 42 I was embarrassed by the blemishes on my forehead and all over my chin, in various stages of growth. The very first time I used this made a difference. Within 12 hours the pre acne bumps were 75% gone…and the established acne was healing quickly. I used it every 12 hours for 2-3 days and my skin was so much clearer. Now when I see a bump just starting to form, I use this product on it, and amazingly the acne never forms. My skin is now 100% clear and has been for months. This cream absolutely keeps it clear and is a miracle worker. I will always have it on hand.",
+   "date": "2023-02-07",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "morgan",
+   "titre": "the only thing that has actually worked!",
+   "texte": "i got a random breakout all over my chin/jaw completely out of nowhere. i picked this up yesterday, used it twice, and the breakout is already halfway gone. i have tried so many different products that either have dried out my skin horribly or just haven't worked at all. i have very dry skin/eczema and this isn't causing me any problems at all. i will probably be buying this for the rest of my life!",
+   "date": "2022-06-21",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kayla",
+   "titre": "Holy grail",
+   "texte": "I have used this product each time my skin gets bad i have sensitive skin and cystic hormonal acne and each time this product saves my skin within a month my go to for sure now going to be in my normal routine",
+   "date": "2024-04-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kim C.",
+   "titre": "Great dispensing",
+   "texte": "This is a well thought out product from the texture of the lotion to the simplicity of the dispenser. My busy teens find this the easiest salicylic acid formula to use in the morning routine. They both have *very* sensitive skin (dermatographic urticaria for those that know the term) and both use this formula with great success! Keeps their moderate acne in check.",
+   "date": "2025-04-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erin B.",
+   "titre": "It took a couple weeks",
+   "texte": "It took a couple weeks for improvement in my skin, but now my skin looks amazing! This product is perfect for combination skin that occasionally has breaks out.",
+   "date": "2022-11-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

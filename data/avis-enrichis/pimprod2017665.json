@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2017665",
+ "asin": null,
+ "pid": "pimprod2017665",
+ "source": "ulta",
+ "nom": "StriVectin Peptight 360 Tightening Eye Serum",
+ "note": 3.89,
+ "nbAvis": 563,
+ "lus": 80,
+ "collectes": 111,
+ "segments": {
+  "sensitive": "Reviewers who describe themselves as having sensitive eyes report either good tolerance with no irritation or, in a smaller number of cases, marked allergic reactions with redness and swelling.",
+  "mature": "Reviewers in their 50s, 60s, 70s and 80s report visible improvement in sagging, hooded lids and crepey under-eye skin, with several calling it effective for older, thin, delicate skin."
+ },
+ "concerns": {
+  "aging": "Many reviewers report firmer, tighter lids, fewer fine lines and softened crow's feet with regular use, including some describing a fixed droopy or hooded eyelid; several others used it for weeks or months and saw no change in firmness or tightness.",
+  "dehydration": "Several reviewers describe the area as staying moisturized, supple and hydrated after application; one reviewer says it kept the area hydrated but did not reduce puffiness.",
+  "redness": "Most reviewers do not report redness, but two describe an allergic reaction with the skin around the eyes turning red, swelling and burning within minutes to a day of use.",
+  "barrier": "One long-time user reports a late allergic reaction after roughly a year of use, with tightness, pinkness and swelling that recurred on retrying the product; most other reviewers report no such reaction over months or years.",
+  "blemishes": "Not discussed by reviewers for this eye serum."
+ },
+ "aspects": [
+  {
+   "libelle": "Pills or flakes under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling metal applicator feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves a white film or residue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible results despite weeks of use",
+   "polarite": "neg",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Rare but severe allergic reactions",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Alisha L.",
+   "titre": "Scary Reaction!",
+   "texte": "I patch tested this product with no issues. The next day i applied around my eyes and within 15 minutes I had major problems. The skin around my eyes started burning, swelling and turning bright red. It was super painful. I washed product off and took an antihistamine. It took hours for this to go away. I will never buy anything from this company again!",
+   "date": "2024-11-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sandy",
+   "titre": "Made Big Difference about a year, then bad reaction",
+   "texte": "For the first year or so this product really made a big difference in the bags under my eyes, and the drooping eyelids. This was even though I was sporadic in use, using it maybe 4-5 days out of 7, sometimes once a day sometimes twice. Then one day the skin around my right eye felt tight, but was swelling and getting pink. I stopped usage for a week, it got better, then tried again. But in the morning the skin around the eye was pinker, more swollen. I guess I developed an allergic reaction. I am near the end of my tube--maybe the ingredients are not well-mixed and more potent solution is on the bottom. Wish I could use it again.",
+   "date": "2024-01-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sharon",
+   "titre": "Works great on my sensitive eyes",
+   "texte": "I tend to have reactions to many eye serums/creams and therefore have a tough time finding an effective treatment for my aging eyes. This serum works well and doesn't cause irritation. I don't use the metal applicator tip though, I dab it on with a finger. Highly recommended.",
+   "date": "2026-03-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Cynthia W.",
+   "titre": "Made a Difference",
+   "texte": "I am 65 and my eyelids need a lot of help! On first use in the PM I saw a discernable improvement. Over time I definitely have seen more improvement that lasts longer. It's not a permanent \"fix\". Of you are not consistent applying AM and PM you will not get the maximum effect.",
+   "date": "2024-11-01",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Michelle R.",
+   "titre": "Firmer. less crepey!",
+   "texte": "I am 56 and take great care of my skin, but it is thin and delicate. This product has reduced my under eye issues in just one month! It is better than any medical grade or high end eye cream I used in the past. I use a small amount twice a day. HIGHLY recommend!",
+   "date": "2024-01-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "GG",
+   "titre": "Did not see any improvements",
+   "texte": "Did not see any improvements for my eye lids. Not even the slightest difference. The only good thing is that it keeps hydrated on the area you apply. Otherwise I felt like my eyelids were even more puffier after applying for a few days. I generally doesn't get any reactions to any makeup nor skin products but perhaps this was just not meant for me.",
+   "date": "2026-01-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Tru",
+   "titre": "If You Have Bags, You NEED to Know!!",
+   "texte": "This eye \"treatment\" has a nice, lightly creamy texture that feels great going on. It provides a *very mild* smoothing and hydrating effect to the undereye area. However, as other reviews have mentioned, it pills terribly under makeup. That aside, if you're dealing with under-eye bags, I'm sorry to say there's a reason this won't help you. If your puffiness is caused by allergies, watery eyes, fluid retention, lymph buildup, fatigue, or a salty diet, addressing those underlying issues can make a noticeable difference—and this cream might offer a *tiny* bit of additional improvement. But if you're like most people over 40 and your bags seemed to appear suddenly and never went away—or gradually worsened—you're likely dealing with herniated fat pads. This happens as we age: the membrane that holds the orbital fat around the eye weakens, allowing it to bulge and create that \"bag\" appearance. It's a normal, frustrating part of aging, and NO cream will eliminate it, no matter what cosmetic companies promise! The only effective treatment for this type of under-eye bag is surgery. Period. (You can easily find more information on this with a quick online search.) In conclusion, if you're just looking for a little moisture and a *very* slight temporary smoothing effect from mild puffiness—and you don't plan to wear makeup over it—this cream may help. Otherwise, save your hard-earned money and consult an oculoplastic surgeon for a fast, permanent solution to rejuvenate the eye area. Goo",
+   "date": "2025-07-05",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

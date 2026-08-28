@@ -1,0 +1,170 @@
+{
+ "ref": "pimprod2051962",
+ "asin": null,
+ "pid": "pimprod2051962",
+ "source": "ulta",
+ "nom": "VT Cosmetics Reti A Reedle Shot 100",
+ "note": 4.43,
+ "nbAvis": 7,
+ "lus": 7,
+ "collectes": 7,
+ "segments": {
+  "sensitive": "One reviewer with sensitive, reactive, acne-prone skin reports severe irritation, burning and worsened texture, while others do not report this reaction.",
+  "mature": "A reviewer targeting aging, oily skin and another mentioning fine lines report visible smoothing and reduction of fine lines with continued use.",
+  "oily": "One reviewer describes her skin as aging and oily and reports improved texture and fewer fine lines after use."
+ },
+ "concerns": {
+  "aging": "Two reviewers report fewer or disappearing fine lines and glowier, smoother skin after continued use.",
+  "redness": "Reviewers describe stinging, tingling or a burning sensation on application; one with sensitive/reactive skin found it itchy and painful rather than a brief tingle.",
+  "barrier": "Several reviewers stress the need to repair and fortify the skin barrier alongside use, and one reports barrier damage and blemishes after pairing it with certain moisturizers; one warns rough, sensitive skin got worse.",
+  "spots": "One reviewer reports the product helped clear some acne when used with a retinaldehyde serum, while another with acne-prone skin says it is not suitable for that skin type.",
+  "blemishes": "One reviewer developed blemishes after combining the product with other actives on the same night, attributing it to barrier disruption rather than the serum alone."
+ },
+ "aspects": [
+  {
+   "libelle": "Initial stinging or tingling on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smoother, glowier skin with continued use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reduction in fine lines",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Severe burning and itching",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Requires careful barrier-supporting routine",
+   "polarite": "neg",
+   "concerne": [
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Mask packaging tore during two-step application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Worth repurchasing for the price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "EC",
+   "titre": "I was hoping all the good reviews were worth it",
+   "texte": "If you have sensitive, reactive or acne prone skin, THIS IS NOT FOR YOU. My rough skin texture got 5x worse and now I'm walking around looking crazy. I wanted this to work so bad, it's my 3rd consecutive night using it, after the 1st night I should've known better but I was giving it a chance, but I need to stop using it asap. It does burn, it's irritating, and mildly painful even in the morning when I'm washing my face I can feel the itchy sensation. This wasn't for me.",
+   "date": "2025-08-22",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lida",
+   "titre": "Only Used Once!!",
+   "texte": "I dont usually make reviews often, I have to preface. I've used quite a lot of retinol products over the years, and I have to say this has been one, if not, my favorite product I've used. If you have NOT used retinol products prior and have gotten your skin used to retinol, this is NOT for you. My skin specifically has tolerated retinol and I've built up tolerance for perhaps 10 years or so. Yes, there will be mild irritation, tingling, prickly feeling. Why? Because it has exosome spicules. These tiny structures have the purpose of penetrating deeper inside your epidermis. I used this, and another retinol serum on top. It sound crazy, but again, the purpose is for deeper penetration. I woke up with smooth, glowier skin than my usual routine. It was beautiful, and dare I say, life changing. Please dont allow negative reviews to deter you from trying - and please, do your due diligence of understanding and building your retinol tolerance AND other treatments to repair and fortify your skin barrier. Lastly, do not forget to use SPF in the morning, as retinol can make your skin more senitive to sun damage and further cause more irritation. Thanks for coming to my Ted Talk",
+   "date": "2025-12-11",
+   "verifie": false,
+   "utiles": 25,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Case",
+   "titre": "Spicy 🌶️🙌🏽",
+   "texte": "I've been using this under the naturium .05 retinaldehyde and my skin is lovingggg it. Its definitely a little spicy with the spicules but so far so good. Helped me clear some acne. DONT FORGET BARRIER REPAIR!",
+   "date": "2025-08-21",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amber",
+   "titre": "A must try if you have rough skin texture!",
+   "texte": "As I've been dealing with rough texture for some time now, I wanted to try this reedle shot out and I immediately noticed a difference after using it. Not only is my skin more smooth, but it feels more hydrated and even my friends and family say I look more glowy!",
+   "date": "2025-08-13",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "texture",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ana",
+   "titre": "You will see result if you are patient!!",
+   "texte": "Used nightly without dryness. Results show after at least one month of consistent use. Initial purging may occur, which is normal with retinol — don't stop. Skin texture improves with time. Used obagi retinol before. Its stronger but theres a risk to destroy a skin barrier. With this one dont be afraid its perfect retinol to start. But still i recommend to use non-comedogenic cream after.",
+   "date": "2026-01-05",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "spots",
+    "texture"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tonya-Rhea",
+   "titre": "Results are quick!",
+   "texte": "I am a skincare guru. Over 30 years. I try products all the time. I use both premiere and low cost brands. The price of a product does not always dictate its effectiveness. This product is phenomenal. If you can tolerate a little tiny stinging sensation when you apply it, you'll be amazed. Days later my skin in glowing, fine lines are disappearing and my skin is supple and refreshed-looking. I am so satisfied and shocked by the results.",
+   "date": "2026-03-17",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sherry",
+   "titre": "Wow! it works wonders",
+   "texte": "I got this to hopefully get my aging oily skin in better shape. first I tried medicube exosomes serum but the one I got didn't help with fine lines. so I went with VT reti a reedle shot. I absolutely love it! I jump started with the 2 step which I had a little trouble with the mask part cause it was torn in a couple spots but used the eye and mouth hole patches to get it to work. I only use it every other day or 2 right now to not over do it on my skin. I don't feel hardly anything when I put it on at first but if I don't wash my face in morning it is a little itchy lol. i did research on this to find not to use certain moisturizers and product on nights I use this as it will damage my barrier which I did with the medicube and ended up with a couple blemishes. I will be repurchasing this again and again I may try to get the 300 instead but as long as it's working I will stay with the 100. I am waiting for the pdrn hair serum and hopefully it will give the same results. this is definitely worth a try",
+   "date": "2026-07-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "aging",
+    "barrier",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Only seven reviews are available, so patterns by skin type and concern are indicative rather than conclusive."
+}

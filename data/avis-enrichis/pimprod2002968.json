@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2002968",
+ "asin": null,
+ "pid": "pimprod2002968",
+ "source": "ulta",
+ "nom": "Kiehl's Since 1851 Powerful-Strength Line-Reducing Concentrate",
+ "note": 4.34,
+ "nbAvis": 1019,
+ "lus": 77,
+ "collectes": 107,
+ "segments": {
+  "dry": "Reviewers with dry skin describe the serum as hydrating and beneficial, with one calling it a wonderful moisturizer and another with dry, sensitive skin reporting it is gentle and non-irritating.",
+  "sensitive": "Reviewers with sensitive skin are split: several report no irritation and a gentle, comforting feel, while others with sensitive or reactive skin describe stinging, tingling, dryness, or the need to cut back to once a day or a few times a week.",
+  "mature": "Reviewers in their late 40s to mid-70s report reduced fine lines, wrinkles, and age spots with consistent long-term use, describing it as key to a youthful appearance."
+ },
+ "concerns": {
+  "aging": "Most reviewers using this for aging skin report visibly reduced fine lines and wrinkles, softer skin, and improved firmness with consistent use, often over weeks to months; one reviewer instead reports the product dried her under-eye skin and created a new line.",
+  "dehydration": "Several reviewers report the serum leaves skin hydrated, plump, and soft, crediting the hyaluronic acid; one reviewer reports it dried out and stiffened the skin under her eyes.",
+  "redness": "One reviewer with rosacea reports it is the only vitamin C that did not stain or burn her skin, though it caused slight tingling and minor dryness after several days' use; another reviewer reports reduced redness with consistent use.",
+  "barrier": "A few reviewers describe irritation, itching, burning, or a rough, damaged-feeling patch of skin after use, with one discontinuing after a reaction near the eye; others with normally reactive skin report no such issues.",
+  "spots": "Multiple reviewers report faded dark spots, age spots, and hyperpigmentation, including one whose new chest age spot disappeared entirely; results are generally described as gradual.",
+  "blemishes": "One reviewer reports the serum faded hyperpigmentation left from past acne, but no reviewers report an effect on active breakouts.",
+  "oiliness": "A few reviewers highlight a matte or non-oily, non-sticky finish, though one reviewer reports the product feels greasy on her face even with a single pump."
+ },
+ "aspects": [
+  {
+   "libelle": "Reduces fine lines with consistent use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Formula changed from yellow to white",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Smooth, silky, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick, gritty or heavy cream texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Airless pump packaging preserves potency",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to alternatives",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Amandamburden",
+   "titre": "Dried out the skin under my eyes and created lines",
+   "texte": "Drying, and line-producing product. Within 10 minutes the cream became stiff, the skin dried out under my eyes and lines appeared. This product seems to have replaced the extraordinary 'Powerful-Strength Line-Reducing Concentrate', your BEST product. This is a tragic mistake.",
+   "date": "2023-11-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Leila",
+   "titre": "Irritated my skin",
+   "texte": "I used it for 2 days and after the first day I saw an extra wrinkle under my L eye and a weird texture near the orbital bone, but I thought that I slept wrong or something. The next day in the morning I saw that it was still weird and it started to get a little bit itchy. That night I decided to try it one more time to see if it got worse or not. On the third day I saw it a little bit red, but when I placed my usual eye cream it burned, meaning it was definitely damaging something and there was a patch under the eye with a weird rougher texture. went to ulta to return it. Never again. I use other products from this brand and nothing has even happened. This one is not for me.",
+   "date": "2024-05-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "JolinB",
+   "titre": "I can use this for my Rosacea skin",
+   "texte": "I have stage 2 Rosacea. My face can be very sensitive sometime. This is the only Vitamin C that would not stain & burn my face. I also see good result with it. However, it has slight tingling sensation when I apply & cause minor dry & irritation when i use it more than 5 days.",
+   "date": "2023-12-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jjssww26",
+   "titre": "Great for Senstiive Skin",
+   "texte": "This product has been great. I have very sensitive skin and this has not caused any irritation!",
+   "date": "2024-05-18",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kerstin Green",
+   "titre": "Kiehl's Powerful Strength Vitamin C Serum!!",
+   "texte": "I have dry, sensitive skin and have always been wary of vitamin C serums. But Kiehl's Powerful Strength Vitamin C Serum changed everything. It's gentle, hydrating, and actually delivers results. The blend of vitamin C and hyaluronic acid leaves my skin bright, plump, and radiant. Plus, its stable formula ensures potency without irritation. And as a bonus, it works as a fantastic primer before makeup. If you struggle with sensitive skin like me, this serum is a must-try.",
+   "date": "2024-04-23",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LR2024",
+   "titre": "A skincare staple!",
+   "texte": "This is one of the few skincare products I've used where I saw a noticeable difference in my skin. It's helped fade some hyperpigmentation from past acne and made my forehead lines more shallow and less noticeable. Best product!",
+   "date": "2024-04-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "dianah7",
+   "titre": "Love this stuff! Pricey but worth it",
+   "texte": "This has made my skin feel so much better. My skin has been acting up this year from dryness to wrinkles. It helps plump me up and getting my skin back to normal. I was using it twice a day but that was too much for my sensitive skin. Once a day at night time works perfect. Will continue using it!",
+   "date": "2024-02-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

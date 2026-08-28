@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2057610",
+ "asin": null,
+ "pid": "pimprod2057610",
+ "source": "ulta",
+ "nom": "belif Dew Guard Milky Sun Serum Hydrating Sunscreen SPF 40",
+ "note": 4.75,
+ "nbAvis": 100,
+ "lus": 80,
+ "collectes": 97,
+ "segments": {
+  "oily": "Reviewers with oily skin are split: several say it feels greasy or too shiny and one warns it's not great for very oily/combo skin, while others (including a self-described 'oily girl') report no breakouts and no greasy residue.",
+  "dry": "Reviewers with dry skin describe the formula as hydrating and well-suited to them, though one dry-skinned reviewer found the dewy finish almost too shiny.",
+  "combination": "Combination-skin reviewers (including one whose skin shifts oily in summer, dry in winter) say it hydrates without clogging pores or making them shiny, though one advises against it for very oily skin types.",
+  "sensitive": "Sensitive-skin reviewers mostly report no irritation and good tolerance, but reactions vary: one with rosacea had no irritation, one got eye irritation on two attempts, and one recommends a patch test for sensitive or broken skin.",
+  "normal": "The one reviewer identifying as normal skin (fair-toned) reports good absorption and no pilling under makeup.",
+  "mature": "No reviews specifically describe mature skin."
+ },
+ "concerns": {
+  "aging": "No reviewer specifically addresses anti-aging effects.",
+  "dehydration": "Reviewers describe the serum as hydrating and moisture-boosting, with several noting skin feels soft, plumped, and hydrated throughout the day.",
+  "redness": "One reviewer with rosacea reports no irritation; another notes no eye sting despite sensitivity, but a separate reviewer experienced eye irritation twice.",
+  "barrier": "One reviewer flags that the chemical UV filters may not suit allergy-prone or post-treatment (e.g., chemo/radiation) skin, suggesting caution for compromised barriers.",
+  "spots": "One reviewer credits it with helping avoid new sun-damage dark patches; no other spot-specific claims appear.",
+  "blemishes": "Most reviewers who mention breakouts report none or minimal (one to two pimples) despite normally breaking out from sunscreen, and one with acne-prone skin saw fewer breakouts; a couple mention only mild or no negative effect, with no reports of severe breakouts.",
+  "oiliness": "Oily-skin reviewers are divided: one calls it greasy/sticky and another warns it's unsuitable for very oily skin, while others (including self-described oily reviewers) say it left no greasy residue and controlled shine well."
+ },
+ "aspects": [
+  {
+   "libelle": "No white cast on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy or shiny finish",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Light citrus or herbal fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance bothers sensitive users",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Layers well under makeup without pilling",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Squeeze bottle packaging convenient but small",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Price comparable or high versus drugstore SPF",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Koryssa",
+   "titre": "Not my favorite belief product.",
+   "texte": "I love belief, I love their products and I was hopeful I'd love this for sun protection. But it makes my skin feel very greasy & sticky, which I don't like. But I will continue to use it for the days i'm brave enough to endure the sunshine.",
+   "date": "2025-06-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Evie",
+   "titre": "Non-greasy and lightweight.",
+   "texte": "I love that this sunscreen has gentle, skin-friendly ingredients like cica, niacinamide, and hyaluronic acid with a refreshing citrus scent. My skin is sensitive and gets oily easily, but this formula works great for me. It is lightweight, absorbs fast and does not leave any greasy feel or white cast. It also wears nicely under makeup.",
+   "date": "2025-08-06",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Cathy",
+   "titre": "Sun protection with a dewy glow",
+   "texte": "Belif sent me this free sample to give my honest review and I was very excited to try it! I love skin care products and this is a good one. I have rosacea and it didn't irritate my sensitive skin. I used it after my normal moisturizer and it goes on clearly and smells nice. I felt like it absorbed into my skin well and moisturized. Plus, I definitely noticed the \"dewy\" glow! The only negatives I noticed are that it's only SPF 40- I'm pale and I prefer SPF 50+. Also, I wish it came in a tinted version (again, I'm pale!).",
+   "date": "2025-07-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "EmFlo",
+   "titre": "I really enjoyed using this.",
+   "texte": "I HATE using sunscreen on my face. I usually breakout so bad, and they're just so thick and gross feeling. I was so excited to try this. It's great! I got minimal breakouts (like seriously 1, maybe 2 pimples), but I think my skin is just so sensitive. It feels so good going on, it isn't thin. And the scent is great! I used it on my boys at the ball field over the weekend, and they both commented on the scent. I really am so pleased with this.",
+   "date": "2025-07-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "skin protection is good",
+   "titre": "Not Great for Oily/Combo Skin",
+   "texte": "This sunscreen has a pleasant scent that doesn't feel overwhelming. However, I have oily skin, and while this formula is certainly hydrating, I thought it made my face look and feel greasy. If you have dry skin, you'll LOVE this product! It layers well under makeup, though!",
+   "date": "2025-07-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Liss",
+   "titre": "Sunscreen",
+   "texte": "I've been using the belif Dew Guard Milky Sun Serum SPF 40 for awhile now, and honestly, it's become one of my favorite sunscreens. The texture is super lightweight and feels more like a serum than a typical sunscreen, no greasiness, no heavy film, and most importantly, no white cast. I have combo skin that leans dry in the winter and oily in the summer, and this formula somehow manages to hydrate without making me shiny or clogging my pores. It wears beautifully under makeup, doesn't pill, and my skin actually feels softer after applying it. I also love that it's dermatologist tested and non comedogenic. It gives me peace of mind knowing I'm getting solid UVA/UVB protection without compromising how my skin looks or feels. Plus, it has a soft, clean scent that isn't overpowering. Definitely a win in my book.",
+   "date": "2025-07-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "BadBunny",
+   "titre": "Noncomedogenic for us oily girls!!",
+   "texte": "I just had a pool installed this summer. Finally! So I've been spending an enormous amount of time outside in the sun. I've spent countless dollars on my face getting brown patches taken off with chemical peels from Sun damage. So I've been needing a new sunscreen for my face other than the mineral oil based ones dermatologists want me to use. But they break me out!! So sick of this vicious cycle. Getting this Dew Guard sunscreen for my face has been a God send! I've been using it every day while I'm out in the pool and I haven't had a single breakout from it in a week of use. It goes on so silky smoothe, and doesn't feel heavy or sticky or burn my eyes. My skin looks hydrated and supple. No new patches of dark skin, no pimples, so sunburn. Just healthy dewy skin. Highly recommend!!",
+   "date": "2025-06-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

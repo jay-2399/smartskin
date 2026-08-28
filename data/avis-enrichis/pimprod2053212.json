@@ -1,0 +1,153 @@
+{
+ "ref": "pimprod2053212",
+ "asin": null,
+ "pid": "pimprod2053212",
+ "source": "ulta",
+ "nom": "The Crème Shop Hello Kitty Chill Reset Under Eye Patches",
+ "note": 4.73,
+ "nbAvis": 37,
+ "lus": 34,
+ "collectes": 34,
+ "segments": {
+  "sensitive": "Two reviewers with sensitive skin report the patches were gentle, unscented or non-irritating, and left their under-eyes hydrated with no stinging.",
+  "dry": "A reviewer describes the patches as good for dry skin, leaving the area moisturized and soothed."
+ },
+ "concerns": {
+  "dehydration": "Reviewers consistently describe the patches as hydrating and moisturizing, with smoother, less tight skin under the eyes and easier concealer application afterward; one reviewer felt the hydration was too mild to make an extreme difference after a single use.",
+  "aging": "Reviewers with dark circles and tired-looking eyes report the patches make them look less exhausted and more refreshed, though effects are described as temporary."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cute Hello Kitty packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Patches stay in place well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Patches slide or slip down",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance pleasant to most",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented, no stinging",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Reduces under-eye puffiness temporarily",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Luna S.",
+   "titre": "LOVE these!",
+   "texte": "First off, I want to thank The Crème Shop and Bzz Agent for sending these adorable eyepatches for me to try out free of charge! These are absolutely ADORABLE! I love the Hello Kitty packaging and print on the actual product. The cucumber and chamomile are so cooling, hydrating, and refreshing. I used these after I returned from traveling and they helped me immediately feel rehydrated and revitalized. As someone with sensitive skin, these felt so gentle and they were unscented! Sometimes other under eye masks can have a scent that makes my eyes kind of sting and water, which can be unpleasant but these were fragrance free. The only complaint that I have is that they kept sliding down my cheeks as I moved around, but it wasn't a dealbreaker for me. The material was different from other products I've tried where they felt like the combination of a fabric mask and a hydrogel mask which was really interesting and I really liked! I can't wait to buy these to use again! Fingers crossed I can grab some products with other Sanrio characters too!",
+   "date": "2025-11-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ally418",
+   "titre": "Light-weight and Refreshing Eye Patches",
+   "texte": "I have loved my experience trying out the Hello Kitty Chill Reset Under Eye Patches! I annoyingly have pretty sensitive skin on my face, but I had absolutely no problem using these eye patches. My under eyes felt so refreshed and hydrated after using these, so I think in the future I'm going to explore more of the skin care offered from the brand. I would recommend this product to anyone looking to trying out a quality product from CREME Shop! Also the Hello Kitty theming is absolutely adorable.",
+   "date": "2025-11-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Tara",
+   "titre": "Relaxing",
+   "texte": "These eye patches were really cooling and relaxing. Kept my under eyes moisturized and soothed. Good for dry skin.",
+   "date": "2025-11-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Josephina",
+   "titre": "I would recommend this item but only because",
+   "texte": "The packaging was cute and I love Hello Kitty. I have dark circles and love using anything that keeps my eyes looking less exhausted and tired. The patches made me feel refreshed and hydrated.",
+   "date": "2025-11-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "lisa",
+   "titre": "Felt Refreshed",
+   "texte": "The packaging was too cute and I love Hello Kitty. I have dark circles and love using anything that keeps my eyes looking less exhausted and tired. The patches made me feel refreshed and hydrated.",
+   "date": "2025-11-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Funnybunny",
+   "titre": "It's cute !",
+   "texte": "It's cute but did it really make a difference after one time? No but it was really fun during it and great for sleepovers and fun. I'm sure it moisturized but not enough for an extreme difference. Would buy again for fun!",
+   "date": "2026-01-05",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Victoria",
+   "titre": "is just okay",
+   "texte": "my eyes felt hydrated after using but honestly probably wouldn't repurchase. it doesn't do much. the design of the patches are really cute though!",
+   "date": "2025-12-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

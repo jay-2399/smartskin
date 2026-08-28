@@ -1,0 +1,157 @@
+{
+ "ref": "mkt77001923",
+ "asin": null,
+ "pid": "mkt77001923",
+ "source": "ulta",
+ "nom": "Borghese Advanced Fango Active Mud for Face and Body",
+ "note": 4.58,
+ "nbAvis": 365,
+ "lus": 75,
+ "collectes": 147,
+ "segments": {
+  "dry": "Reviewers with dry, or dry and sensitive, skin report the mask leaves skin nourished and does not dry it out further, with one describing extra dry skin tolerating a 20-minute application.",
+  "sensitive": "Sensitive-skin reviewers describe the mask as gentle enough for delicate skin, gifting it as suitable for sensitive skin, though one reviewer's daughter found it left skin sore.",
+  "mature": "Reviewers in their 50s-80s report the mask firms, tightens and reduces the look of fine lines, and several credit it with helping them 'age gracefully' over decades of use."
+ },
+ "concerns": {
+  "aging": "Many mature reviewers report firmer, tighter, more radiant skin and reduced appearance of fine lines and lifting effects; one describes it as an 'instant anti-aging mask' while another simply notes age has not reduced its efficacy for her.",
+  "dehydration": "Several reviewers report the mask does not dry out their skin and leaves it moisturized, soft and hydrated the next day; no dissent noted.",
+  "redness": "One reviewer reports skin became red and bumpy for several days after rinsing, and another describes her daughter's skin becoming sore after application, contrasting with the majority who report no irritation.",
+  "barrier": "No specific reviews address barrier repair beyond general softness and nourishment claims.",
+  "spots": "One long-term reviewer reports the mask firms and removes dry spots as part of her routine.",
+  "blemishes": "Reviewers report the mask helps control blemishes, keeps pores clean and prevents breakouts, and one credits it with stopping facial blemishes; no negative reports on breakouts appear.",
+  "oiliness": "Multiple reviewers report reduced or shrunk pore size and a clean, purified feel after use, framed as pore-clearing rather than oil control specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Pore size reduction",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent of the mud mask",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin feels soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Jar size shrank over time",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Messy or hard to apply",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glass jar packaging quality",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Redness or soreness after rinsing",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "MICHELE L.",
+   "titre": "Disappointed",
+   "texte": "after washing off the mask with cool water my skin became red and and bumpy . Stayed that way for a few days . Dissapointed",
+   "date": "2023-09-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tracy H.",
+   "titre": "Borghese Queen",
+   "texte": "This firming gem has been a fave of mine since the early 90's and is one of the only brands I still currently use because the integrity is still intact. I use the Fango Face Masque one time each week. An instant anti aging mask. Firms skin, making it radiant & glowing. I have extra dry skin. I leave the mask on for about 20 minutes. Love the smell and spa feel.",
+   "date": "2024-08-13",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cristina B.",
+   "titre": ":Amazing Product for Dry Skin!",
+   "texte": "I absolutely love the Advanced Fango Delicato Mud! It has made such a difference for my dry, sensitive skin. The texture is smooth, and it leaves my skin feeling nourished and refreshed after every use. I highly recommend this product, especially for anyone with delicate skin like mine. Definitely worth the purchase!",
+   "date": "2025-08-07",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Meesook B.",
+   "titre": "I am not sure.",
+   "texte": "I bought it to use with my daughter. However, after applying, the skin is sore and sore. I want to know if this is normal. My daughter said she was scared, so she applied it and then washed it off. She doesn't want to buy it again.",
+   "date": "2023-07-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kelsey M.",
+   "titre": "Highly Recommend",
+   "texte": "I love this product! I have been using it for years and it helps to control my blemishes and keep my pores clean and prevents breakouts. I highly recommend this product. I also just tried the Acqua Ristorativo Hydrating Concentrate and the Night Retinol Renewal for the first time and I do like both of these products as well.",
+   "date": "2023-10-05",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CANDIS L.",
+   "titre": "Advanced Fandango Mud Mask is excellent for delicate skin",
+   "texte": "I've been using this product for years and would never switch to something new. It is designed to treat delicate skin, and my skin responds well to weekly treatments.",
+   "date": "2024-07-01",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "SD",
+   "titre": "Deep Clean",
+   "texte": "Works so well! I started using this mask back in the 90's and it does a deep clean that works better than any other mask I've used. It doesn't dry my skin out, it just pulls out things deep in the skin. It helps to steam your skin first, that makes a difference.",
+   "date": "2024-11-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

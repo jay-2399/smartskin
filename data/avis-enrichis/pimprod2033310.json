@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2033310",
+ "asin": null,
+ "pid": "pimprod2033310",
+ "source": "ulta",
+ "nom": "Peach Slices Snail Rescue Intensive Serum",
+ "note": 4.53,
+ "nbAvis": 290,
+ "lus": 79,
+ "collectes": 106,
+ "segments": {
+  "oily": "Oily-skin reviewers describe the serum as light and non-greasy, saying it helps manage oil and shine without a heavy feel.",
+  "dry": "Dry-skin reviewers report the serum feels moisturizing and non-drying, with several using it under a heavier moisturizer to fully address flakiness and dry patches.",
+  "combination": "Combination-skin reviewers say it can be used alone on oilier areas or layered under a thicker cream on drier areas, and describe it as balancing.",
+  "sensitive": "Sensitive-skin reviewers mostly report the serum is gentle, non-irritating and calming, though a minority describe it worsening redness, breakouts or irritation.",
+  "mature": "Reviewers in their 40s-50s report smoother texture, softer fine lines and improved overall look of aging skin."
+ },
+ "concerns": {
+  "aging": "Reviewers using it for aging skin report smoother texture and reduced appearance of fine lines and smile lines; one notes she has not used it as a standalone anti-aging treatment so cannot fully separate its effect.",
+  "dehydration": "Most reviewers describe strong, lasting hydration and plumper, softer skin, including in harsh winter conditions; a couple say they did not notice it being particularly hydrating compared to other serums.",
+  "redness": "Several reviewers report visible reduction in redness and inflammation, including for rosacea-prone or reactive skin; one reviewer with very sensitive skin says it did not work well on her redness-prone forehead area.",
+  "barrier": "A small number of reviewers explicitly credit the serum with strengthening or soothing a compromised skin barrier, including eczema flare-ups on the eyelids.",
+  "spots": "Reviewers report fading of acne scars, hyperpigmentation and discoloration over weeks of use, though one notes she has not used it long enough to judge scar fading.",
+  "blemishes": "Most reviewers with acne-prone skin report fewer breakouts, calmer cystic or hormonal acne, and clearer skin overall; a minority report the opposite — new whiteheads, worsening acne, or a breakout period they attribute to purging.",
+  "oiliness": "Oily-skin reviewers report the serum helps minimize shine, pores and blackheads without adding grease, though one reviewer using the wider product line was unsure which specific product caused occasional midday oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tacky or sticky residue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well as makeup primer base",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Squeeze-tube packaging hard to dispense",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Long-lasting despite small size",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "olive",
+   "titre": "terrible for sensitive skin…",
+   "texte": "i was so excited to try this because all the reviews said it cleared their acne. it made my acne WORSE. my whole face broke out. i did not change anything about my skincare routine but add this serum. my face is so red and irritated. i am so sad :(",
+   "date": "2024-12-25",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Sakura R.",
+   "titre": "Did not work for me",
+   "texte": "Did not work well for me personally but love the formula! It's very light and can work for other folks. I have very dry, sensitive eczema prone skin with redness",
+   "date": "2025-04-15",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Angie",
+   "titre": "Worked better than I expected!",
+   "texte": "I have combo dry/oily skin with a bit of redness on my chin area and are clog+acne prone. I tried this because the reviews seemed very positive and I wanted to incorporate something to help my skin texture and hydrate. I tried this for one day and my redness had reduced visibly by the next morning, and my skin didn't seen flaky as it usually was or seem irritated. Its been about a week so far and I haven't broken out or gotten any clogged pores! I would recommend to anyone struggling with some redness or dry/flaky skin. The only reason my review isnt 5 stars is because I want to test this product longer to see the full effects :)",
+   "date": "2024-09-26",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristin B.",
+   "titre": "Feels very soothing",
+   "texte": "I love how this feels on my skin - I have dry, rosacea/acne prone skin with hyperpigmentation and have noticed that after using this for a few weeks consistently, my skin feels softer and is not as inflamed. The consistency is gel-like and does not irritate my extremely sensitive skin. I love everything in the snail line and will continue using this!",
+   "date": "2024-02-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ash",
+   "titre": "Love love love this",
+   "texte": "My wife and I have gone through like 10 bottles of this. We both love it. She has combo skin and I have dry skin, and we both have sensitive, reactive skin. This is a great lightweight moisturizer that you can either use on its own if you have combo/oily skin or layer under another, thicker moisturizer if you have dry skin like I do. I also use this under makeup. It's the perfect base. I think it also helps my acne fade faster too. So so good. I buy multiples every time it goes on sale.",
+   "date": "2026-07-29",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nidia",
+   "titre": "Best Routine",
+   "texte": "This product works well on teenage skin sensitivity. Purchased for my daughter after complaints and not being able to find a consistent routine or product that works for her allergy prone skin and sensitivity. After making the switch there has been no turning back. Her skin has never looked better. Even skin tone that is not affected when she has a flare up. Peach and Lily has not disappointed on anything thus far.",
+   "date": "2024-08-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SuYun W.",
+   "titre": "Love!!!",
+   "texte": "This line has literally made me a believer in product claims again… this does exactly what it says & I'm obsessed with the entire line. I have oily, acne prone, sensitive, skin & this stuff has balanced my skin and makes it feel smooth and comfortable. Just try it.",
+   "date": "2024-05-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

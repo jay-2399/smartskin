@@ -1,0 +1,138 @@
+{
+ "ref": "xlsImpprod13211199",
+ "asin": null,
+ "pid": "xlsImpprod13211199",
+ "source": "ulta",
+ "nom": "Clarins Super Restorative Remodelling Serum",
+ "note": 4.27,
+ "nbAvis": 11,
+ "lus": 8,
+ "collectes": 8,
+ "segments": {
+  "mature": "Reviewers who mention their age (mid-50s to late 60s) describe using this serum as part of an anti-aging regimen, with most reporting firmer, brighter, or more defined skin, though a couple in this group saw no difference."
+ },
+ "concerns": {
+  "aging": "Several reviewers report visible firming, jawline definition, brighter and more even skin, and a youthful glow after weeks to a few months of use; two reviewers, including one who explicitly maintains a skincare regime, report no noticeable difference at all."
+ },
+ "aspects": [
+  {
+   "libelle": "Visible firming effect",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Brightening and evening of skin tone",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast-acting, results within a week",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No noticeable difference for some users",
+   "polarite": "neg",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Compliments from others on appearance",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Cindyyy",
+   "titre": "Too expensive for nothing",
+   "texte": "Ive been using for a few months and I haven't notice any difference. I will not be purchasing again.",
+   "date": "2022-05-03",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Jelli",
+   "titre": "Expensive disappointed that did nothing",
+   "texte": "Used the entire product with no noticeable difference. I recently turned 55 and have a good skin care regime. Decided to splurge on this serum for my birthday. Wish I had returned for a refund within Ulta's return window. It was a pricey disappointment and I will not order again.",
+   "date": "2025-01-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jimmie",
+   "titre": "Recommend!  Great product!",
+   "texte": "I'm 69 and started using this product about 3 months ago. I have used other products such as Clinque and other top brands but this is the first time I actually had someone notice a difference in my skin. I was out to dinner with friends and one of my friends that hasn't seen me in a month asked \"What have you been doing because you look great?\" Others have also noticed. So that to me is proof that things are improving!",
+   "date": "2018-11-09",
+   "verifie": true,
+   "utiles": 23,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Diana",
+   "titre": "discoloration dimished skin firmer",
+   "texte": "Been using this for a couple of months. My skin is noticeably brighter and more even. Definitely more defined in the jawline & feels firmer. Plus I have gotten some great compliments lately & this is the only thing I added. :)",
+   "date": "2015-11-29",
+   "verifie": false,
+   "utiles": 18,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mtns",
+   "titre": "Miracle Serum !!",
+   "texte": "I have literally tried everything out there for years with no satisfactory results. The consultant said if you want immediate results (no beating around the bush) use this product. Well she was absolutely right. It is expensive, but it WORKS!! It gives my complexion a youthful glow, and i'm 60. I have never had this with any other product, even the well known more expensive brands.",
+   "date": "2021-07-19",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tina",
+   "titre": "I love this serum!",
+   "texte": "I saw results within a week. My skin is firmer. I started using it on my neck, too. Worked like a charm!",
+   "date": "2019-04-14",
+   "verifie": true,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": "The 11 reviews focus almost entirely on the aging concern and mature skin, with no mentions of skin type (oily, dry, sensitive, etc.) or of other concerns like redness, spots, or dehydration, so conclusions cannot be extended beyond anti-aging use."
+}

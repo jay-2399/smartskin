@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2052289",
+ "asin": null,
+ "pid": "pimprod2052289",
+ "source": "ulta",
+ "nom": "Bubble Power Wave Super Hydrating Moisturizer",
+ "note": 4.84,
+ "nbAvis": 485,
+ "lus": 79,
+ "collectes": 94,
+ "segments": {
+  "oily": "Reviewers with oily or normal-to-oily skin report the cream absorbs without added shine or breakouts, though one combination-oily user says she may need something lighter and one reviewer explicitly warns it is not recommended for oily skin.",
+  "dry": "Reviewers with dry, very dry or flaky skin describe it as their go-to rich moisturizer for winter, praising the thick texture for eliminating tightness and flakiness without heaviness.",
+  "combination": "Combination-skin reviewers say it hydrates dry patches while calming rather than worsening oily zones, though one recommends against it for combination skin.",
+  "sensitive": "Sensitive-skin reviewers, including those with eczema or rosacea, report it hydrates without irritation and is gentle enough for daily use.",
+  "mature": "Mature-skin reviewers in their 30s to 50s report visible improvement, plumping and glow with continued use.",
+  "normal": "One reviewer with normal-to-dry skin in her mid-40s reports good hydration with no greasy feel and good layering under makeup."
+ },
+ "concerns": {
+  "aging": "Reviewers report the peptide formula plumped and brightened skin and helped thin under-eye skin with continued use.",
+  "dehydration": "Most reviewers across skin types report strong, lasting hydration especially in cold/dry weather; one dehydrated-but-oil-free reviewer says it was the first product to give real results.",
+  "redness": "Rosacea reviewers report calmer, less irritated skin and reduced redness with regular use; no dissent reported.",
+  "barrier": "Reviewers with eczema or compromised barriers report it repairs and supports the skin barrier, calling it a life-saver during flare-ups.",
+  "spots": "Reviewers mention it helped with dry, flaky patches on the face; no negative reports on this specific concern.",
+  "blemishes": "Several reviewers with acne-prone skin report no new breakouts and even a reduction in acne; one reviewer explicitly says it clears breakouts, contrasting with one non-acne user who did not test this claim.",
+  "oiliness": "Most oily or combination reviewers report no added greasiness or clogged pores, but one reviewer found it too greasy and off-putting ('like bacon grease'), and another with oily skin says she may switch to something lighter."
+ },
+ "aspects": [
+  {
+   "libelle": "Thick, rich cream texture",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Melts in without stickiness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy or heavy feel",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Fun flower-effect packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenses too much product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup and serums",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Sarah",
+   "titre": "I wanted to love it",
+   "texte": "I really wanted to love this product. It's so highly rated and recommended. But it feels so greasy on my skin. God forbid my hair graze my face after putting this on because it will literally stick to my face in the most overstimulating way. It felt like bacon grease. I would return it but I kept giving it another chance and used way too much product at this point.",
+   "date": "2026-03-23",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jennifer R.",
+   "titre": "Great Product!",
+   "texte": "I absolutely love the Power Wave Super Hydrating Moisturizer. I struggle with rosacea and have tried so many moisturizers, but this one has been the only one to truly hydrate my skin without leaving it irritated. I would definitely recommend it! I do think the price is a bit high for what you get, but overall it's a great product. I'm only giving it four stars because I definitely wish there were bigger sizes available.",
+   "date": "2026-01-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "cat lover",
+   "titre": "Reliable (4th+ Repurchase)",
+   "texte": "I have normal to oily skin with acne. I didn't have a lot of luck with Level Up so I wasn't expecting a lot from this. It really surprised me though. It's a thick cream, but it melts into your skin. I haven't noticed any more acne or oilness than usual since using it, and I use it both day and night. My skin feels a little softer than before! Some cons are that you can't tell how much is left (same problem I have with most other Bubble products), mine tends to last 1-2 months. Also it doesn't spread well if your skin is completely dry, it needs to be slightly damp. Sometimes I get my skin too damp but it does dry down well after a few minutes. I also noticed that my skin tends to be tighter in the winter months even after I use this, so I don't think this will be enough for dry/winter skin (you need to put something else under it and lock it in with this moisturizer, i guess). Unless I find that this is too heavy for summer months it will be a solid repurchase from now on.",
+   "date": "2026-02-07",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rosa",
+   "titre": "The only moisturizer that works on my super dry flakey skin",
+   "texte": "I have has eczema since I was a kid and my face has been flakey for a long time AND its sensitive. Bubble products have been the only effective thing while being sensitive skin friendly. This moisturizer is a life saver when I feel extra dry or want to apply retinol. I love it so much please never get rid of it!",
+   "date": "2026-03-17",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Charlotte S.",
+   "titre": "Wow wow wow",
+   "texte": "Incredible full stop. As a combination skin girly i was concerned this was going to leave my oily parts even oilier. I was so wrong. . . the product hydrates my dry areas but neutralises my oily areas. Its amazing Highly recommended",
+   "date": "2026-01-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alexa",
+   "titre": "Great Product!!",
+   "texte": "This product is great for specific skin-types! As someone with super dry and sensitive skin this is a holy grail!! Would not recommend for those with oily skin or combination skin.",
+   "date": "2025-08-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brenda C.",
+   "titre": "My skin savior",
+   "texte": "I have rosacea and eczema. I'm always looking for products that support and heal my skin barrier. I first tried Power Wave about 8 months ago. I was impressed when I researched it, but now I am obsessed. There is a moisturizer that I found but it is more than twice the price of Bubble Power Wave. Power Wave is just a rich, just as creamy, just as gentle, and works just as well as its high price counterpart. Power wave is an absolute must during the cold, dry winter weather.",
+   "date": "2025-12-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

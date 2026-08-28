@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2025809",
+ "asin": null,
+ "pid": "pimprod2025809",
+ "source": "ulta",
+ "nom": "Buttah Skin Charcoal Detox Face Mask",
+ "note": 4.61,
+ "nbAvis": 730,
+ "lus": 67,
+ "collectes": 68,
+ "segments": {
+  "oily": "Reviewers describing oily or combination skin report the mask cuts excess oil and leaves pores feeling clear, though one such reviewer got a burning, prolonged-irritation reaction.",
+  "sensitive": "Several reviewers who identify as having sensitive skin, including one with severe allergies to preservatives, report no irritation and a soft, gentle result, though one otherwise easily-irritated reviewer broke out in a bumpy rash.",
+  "mature": "A post-menopausal reviewer with slightly oily, clog-prone mature skin reports soft, radiant, non-tight skin and better control of clogged pores.",
+  "dry": "One reviewer transitioning from another skincare line and another with dry-looking skin both report moisture returning and a refreshed, non-drying feel after use."
+ },
+ "concerns": {
+  "aging": "One mature, post-menopausal reviewer reports radiant, non-tight skin and improved clogged pores; another reviewer says people can no longer guess her age after continued use.",
+  "dehydration": "Multiple reviewers report the mask leaves skin hydrated and smooth rather than dried out, and one reviewer specifically returned to it after feeling her moisture had been stripped by another brand; one reviewer, however, says it left her face dry and burning.",
+  "redness": "One reviewer with sensitive skin says the mask calms her skin when it is 'having a fit'; another reports no irritation despite normally reacting to similar masks.",
+  "barrier": "A reviewer with chronic minor skin flaking reports the flaking has stopped since incorporating this and other Buttah products; sensitive-skin reviewers largely report no compromise to comfort.",
+  "spots": "Reviewers report fading dark spots and clearer texture over weeks of use; one reviewer specifically credits it with reducing dark spots after other masks made hers no better.",
+  "blemishes": "Most reviewers report fewer breakouts, faster healing of pimples, and improved acne and dark-spot clearing over consistent use; a few report the opposite — new whiteheads, a bumpy rash, or a two-day burning breakout, with one reviewer framing breakouts as an expected 'detox' reaction rather than a downside.",
+  "oiliness": "Reviewers with oily or combination skin report the mask removes excess oil and tightens the look of pores; no reviewer reports increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Soft, smooth skin after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult to rinse off, messy",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Jar or cap hard to open",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small size relative to price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or irritation on skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "AudSWFL",
+   "titre": "This mask burned skin for at least 2 days after using.",
+   "texte": "I used this mask exactly as the directions said. First of all, it was impossible to get completely off. I had to use a makeup remover wipe, and still not sure I got it all out of my pores. Now my skin has been burning for the last 2 days every time I put my normal products on. I have normal/oily combination skin. No sensitivity to other products. I do not recommend this.",
+   "date": "2023-09-05",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Glory",
+   "titre": "I would probably not buy it again",
+   "texte": "It was very small and cost a lot of money. It also burns my face and leaves it feeling dry. The product is hard to completely scrub off and leaves a mess in the sink. It does have a nice cooling feeling while it is on though.",
+   "date": "2026-01-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Miesha R",
+   "titre": "Not for me",
+   "texte": "Not saying it's not good at all, but it's not for me. It broke my checks out into a bumoy rash.",
+   "date": "2022-09-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "K",
+   "titre": "I love it! Gentle; delivers radiant skin w/ no tightness",
+   "texte": "I have very sensitive skin and sever allergies to some preservatives in cosmetics. Although I am 50 and post menopausal, I still have slightly oily, clog prone skin. This simple formula seemed like it would be safe when I checked the ingredients. I couldn't believe how soft, smooth, and radiant my skin looked after the first use. I was hoping it would help address the clogged pores on my chin that even topical prescriptions can't seem to keep clear. Now, I can't imagine being without this. I experienced no irritation or dryness whatsoever from this formula. It's so gentle. I hope they keep making this for a long time. I don't want to be without it!",
+   "date": "2024-10-24",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tami",
+   "titre": "5 star product",
+   "texte": "My go to skincare products. I have sensitive skin and can't use a lot of products. Love the way my skin feels and looks after use.",
+   "date": "2024-07-07",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tanya H",
+   "titre": "I was using Rodan and",
+   "texte": "I was using Rodan and Fields for greater than 2 years. I began to field very dry in my face and searched for something more appropriate to bring back moisture. I love this product. This one in particular delivers a smooth field and good look to my skin. It is everything,my moisture has returned . I found the perfect rhythm with the entire line. Thank you",
+   "date": "2022-09-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rachel W",
+   "titre": "In the few times I've",
+   "texte": "In the few times I've used the mask, my skin is left feeling fresh and looking great. The charcoal isn't harsh on my skin, which is great because I have really sensitive skin. I am loving it so fa r",
+   "date": "2022-08-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2002975",
+ "asin": null,
+ "pid": "pimprod2002975",
+ "source": "ulta",
+ "nom": "Kiehl's Since 1851 Creamy Eye Treatment with Avocado",
+ "note": 4.25,
+ "nbAvis": 886,
+ "lus": 77,
+ "collectes": 114,
+ "segments": {
+  "dry": "Reviewers with dry under-eye skin, including extremely dry or crepey areas, describe strong hydration and reduced dryness, with several calling it the first cream to adequately moisturize them.",
+  "sensitive": "Reviewers with sensitive skin or sensitive eyes report the cream does not sting, itch, or irritate and is gentle enough even for those who tolerate almost nothing else, though a small number describe redness, flakiness, or an allergic-type reaction.",
+  "mature": "Reviewers in their 40s-80s report the cream is rich enough for aging, drier skin, with some noting softened crow's feet or brighter under-eyes, while others say it did not visibly change fine lines or puffiness.",
+  "oily": "One reviewer states the product is not suited to oily skin types and that it can feel oily/greasy under makeup for daytime wear."
+ },
+ "concerns": {
+  "aging": "Several reviewers report reduced appearance of fine lines, crow's feet, or crepiness, especially with regular use; others explicitly say it did not address fine lines or puffiness and is more of a hydrator than an anti-aging treatment.",
+  "dehydration": "The large majority of reviewers, across skin types, describe strong, lasting hydration and softness under the eyes; a couple felt it was moisturizing but not exceptional or found it stopped sinking in after a formula change.",
+  "redness": "A few reviewers say it helps neutralize redness or discoloration thanks to the green tint; one reviewer instead reports it caused redness and a burning, allergic-type reaction.",
+  "barrier": "Some reviewers with compromised or reactive under-eye skin (allergies, dryness, itching) report the cream calmed and protected the area over time; a minority instead report new dryness, flaking, or raised skin after use.",
+  "spots": "Multiple reviewers report visibly brighter or lighter dark circles and less discoloration; a few say they saw no real brightening effect and attribute any apparent change to the cream's green tint rather than lasting results.",
+  "blemishes": "Two reviewers report the product caused breakouts or under-eye pimples with use (one noting it recurred years apart), while another explicitly says it did not cause breakouts even on more acne-prone teenage skin.",
+  "oiliness": "One reviewer found it too oily/greasy for daytime wear under makeup, while several others describe it as absorbing quickly without leaving shine or greasy residue."
+ },
+ "aspects": [
+  {
+   "libelle": "Recent formula separates into watery layer",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick, rich creamy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "A little product lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Wears well under makeup/concealer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels greasy or oily on application",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Melisa",
+   "titre": "Formula changed",
+   "texte": "I've been using this eye cream for 10 years and recently when I purchased it I noticed it was really watery, not thick and creamy as it was. Also as of lately the new pot of eye cream I bought has been burning my undereye area causing flakiness and raised skin - so basically an allergic reaction. I'm really sad the formula changed because this was my go too for dark circles.",
+   "date": "2024-11-11",
+   "verifie": false,
+   "utiles": 19,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Brydie",
+   "titre": "For night use only",
+   "texte": "This product is for people that have very dry skin around the eyes. It really doesn't do much for bags or lightening up the under eye. Does not go well under make up because I noticed during the day my eye makeup would start smudging under my eye because this I cream was so oily. So I would suggest this product if you were only looking for a very moisturizing night time eye cream. If you want something that goes under your make up, then I would not recommend this product.",
+   "date": "2024-12-28",
+   "verifie": false,
+   "utiles": 28,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Ashley",
+   "titre": "Good but not for me.",
+   "texte": "I used the crème eye treatment with avocado for over a week and it works good but made under my right eye breakout. Did brighten the skin around my eyes and I did use it on my teenage daughter and it did not break her out at all",
+   "date": "2024-05-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah",
+   "titre": "LOVE LOVE LOVE",
+   "texte": "Not only is this product moisturizing, a little goes a long way so this tiny jar lasts FOREVER! I have very sensitive skin and eyes, this product does not irritate me at all. I use it morning and night. My skin has become a lot more dry as I've aged (37 y/o), and this product really hydrates my surrounding eye skin. It fits in well with all my other skin care products too!",
+   "date": "2024-12-21",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tiff",
+   "titre": "Excellent eye cream!",
+   "texte": "Perfect for anyone with normal to dry skin. Not for oily skin types IMO. I LOVE this eye cream both personally and professionally (MUA). It is unique in that it STAYS exactly where you put it on the skin and doesn't slide around. It also is super hydrating and the green tint helps with undereye discoloration; you still need concealer obviously, but it does a little bit to neutralize redness. Best eye cream I've found and no added fragrance!!",
+   "date": "2025-03-04",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shirley",
+   "titre": "Excellent eye cream",
+   "texte": "I love this product. It is feeding and Rich and for my mature skin. I do find it extremely helpful I am sorry it is not stocked in, however, happy that I can order it online with you",
+   "date": "2025-02-26",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mimi",
+   "titre": "Genuinely love it",
+   "texte": "Sensitive skin/ sensitive eyes/ dry skin/ darkunder eyes. Super rich, very creamy, it actually DOES sink into the skin… very hydrating. Its not for \"wrinkles and fine lines\" its for brightness/ hydration. Of course theres the *inevitability* of plumping due to hydration that may make the product seem like it is helping fine lines… but thats not what its here to do (so lets not judge it on that). I will always reccomend this for someone who needs hydration under the eyes, however, (like any skincare) it needs to settle into the skin before applying makeup.",
+   "date": "2024-09-04",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

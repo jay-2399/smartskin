@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2040914",
+ "asin": null,
+ "pid": "pimprod2040914",
+ "source": "ulta",
+ "nom": "Clinique Smart Clinical Repair Lifting Face + Neck Cream",
+ "note": 4.32,
+ "nbAvis": 546,
+ "lus": 79,
+ "collectes": 114,
+ "segments": {
+  "oily": "One combination-oily reviewer reports frequent breakouts and acne flare-ups instead of anti-aging benefits.",
+  "dry": "Dry-skin reviewers generally describe strong relief from flakiness and winter dryness, calling the cream deeply hydrating without feeling greasy, though one dry-skin reviewer found it did not feel hydrating and left skin tight.",
+  "combination": "Combination-oily skin reviewers report mixed results, from breakouts and disappointment to no issues at all.",
+  "sensitive": "Sensitive-skin reviewers mostly report no irritation and a pleasant feel, but individual cases mention breakouts on the jawline, rosacea flare-ups after showering, or inability to tolerate the retinol on the face.",
+  "mature": "Mature-skin reviewers (50s-70s) most consistently report visible firming, lifting, and smoothing results, with high satisfaction and repeat purchase intent."
+ },
+ "concerns": {
+  "aging": "Most reviewers targeting aging report visible firming, lifting, and smoothing of fine lines on the face, jawline, and especially the neck within weeks to a few months; a few younger or short-term users saw no visible difference or found lines still prominent.",
+  "dehydration": "The large majority describe the cream as strongly moisturizing and hydrating, relieving flakiness and dryness, especially in winter; one reviewer felt it was not hydrating enough and left skin feeling tight.",
+  "redness": "One reviewer with sensitive/rosacea-prone skin reports the cream made her face very red and left skin feeling tight rather than hydrated; another rosacea sufferer notices flare-ups specifically after showering.",
+  "barrier": "A couple of reviewers with eczema or reactive skin report no flare-ups or irritation from the cream, describing it as gentle despite its rich texture.",
+  "spots": "Reports are mixed and few: one reviewer noticed occasional whiteheads on the forehead/T-zone but does not blame the cream, while others with acne-prone or sensitive skin report no new breakouts.",
+  "blemishes": "Several reviewers describe new breakouts or cystic-type flare-ups on the jawline or face after use, while others with acne-prone skin explicitly state it caused no breakouts.",
+  "oiliness": "A few reviewers found the cream sits shiny or greasy on the skin (especially with added SPF), while several others emphasize it absorbs quickly and does not leave an oily or greasy residue."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich, thick texture that absorbs well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy or heavy feel under makeup",
+   "polarite": "neg",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "White pilling under sunscreen or makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or very light scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable scent bothers some users",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Luxurious, heavy jar packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to perceived value",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Parand",
+   "titre": "Very disappointed",
+   "texte": "Unfortunately, didn't live up to expectations. Despite being marketed for various skin types, it proved problematic for my combination oily skin. Every time I used it, instead of addressing the first signs of aging, I found myself dealing with frequent breakouts and acne flare-ups. If you're looking to avoid breakouts and maintain a balanced complexion, I'd recommend exploring other options instead.",
+   "date": "2024-06-03",
+   "verifie": false,
+   "utiles": 26,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "dzbees88",
+   "titre": "Not worth it",
+   "texte": "I was very excited to try this and ended up disappointed. The scent is a bit off putting and the cream made my face very red. It does not feel very hydrating or moisturizing and my skin ended up feeling tight and like I still needed moisturizer. The packing is standard for Clinique, no issue there. I do not think I would buy this on my own",
+   "date": "2024-03-15",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "ckollenbroic",
+   "titre": "This is a nice cream for flaky skin",
+   "texte": "I have very dry skin on my face and neck and this one is nice to relieve the flakiness I sometimes get throughout the day! It has a very thick texture, almost like a thick butter but it's not greasy which I appreciate. It doesn't have a smell that I can tell which is also a plus. I will continue to use.",
+   "date": "2024-03-07",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "delci",
+   "titre": "Pretty good",
+   "texte": "I don't usually like products with dimethicone but it's further down ingredient list on this one. It actually feels moisturizing. I did notice that after a shower, it makes my rosacea flare up but otherwise seems fine on my dry sensitive skin!",
+   "date": "2024-03-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sandie",
+   "titre": "It Does What Says",
+   "texte": "I have mature skin at 59. I started using this cream about 3 months ago. I only use this cream and the serum from this line, but I've noticed a significant difference in the firmness of my skin. I have weird skin. I had cystic acne when i was younger and now I'm dry most of the time. I was using Perricone MD but had used Clinique years ago. I was looking for something with a wow factor that was less pricey. I definitely found it in this cream! It's super creamy, doesn't take much product, absorbs like a dream. And fragrance free!",
+   "date": "2024-12-28",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "niyazh",
+   "titre": "Gentle and hydrating",
+   "texte": "I've loved using this moisturizer, it feels gentle on the skin. I have acne prone skin and it hasn't caused any breakouts. I've especially liked using this to moisturize my neck.",
+   "date": "2024-03-09",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ingrida61",
+   "titre": "Amazing and super moisturizing",
+   "texte": "I love this cream, is so moisturizing and perfect for dry skin. I suffer from eczema and this cream does not make it flare, is absolutely great. If you layer a ton of skincare products and then makeup it might not be the best for morning use but it's amazing for night use, I will definitely be re-purchasing another one.",
+   "date": "2024-03-10",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

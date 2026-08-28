@@ -1,0 +1,147 @@
+{
+ "ref": "pimprod2053954",
+ "asin": null,
+ "pid": "pimprod2053954",
+ "source": "ulta",
+ "nom": "TONYMOLY Mask Melt Vitamin C + Rice Overnight Hydrogel Mask",
+ "note": 4.38,
+ "nbAvis": 21,
+ "lus": 21,
+ "collectes": 21,
+ "segments": {
+  "dry": "One reviewer with dry skin says the mask made her skin feel bouncy and smooth and recommends it specifically to others with dry skin.",
+  "combination": "A reviewer describing her skin as dull and acne-prone reports the mask brightened her complexion and calls it a good gel-melt experience."
+ },
+ "concerns": {
+  "dehydration": "Multiple reviewers report the mask left skin hydrated, plump, soft, and moisturized, some noting the effect lasted into the next morning; no reviewer reports it failed to hydrate.",
+  "blemishes": "One reviewer with dull, acne-prone skin reports the mask helped with brightening but does not comment on breakouts or acne clearing specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Fit and staying on face",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fit and staying on face",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, soothing sensation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Melts in without greasiness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Jelly/gel texture on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Brightening or glow effect",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Two-piece mask fits smaller faces",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Atomic Fox",
+   "titre": "Doesn't stay on",
+   "texte": "I tried using this as an overnight mask but within the first few minutes it fell off. This is a waste of money if you're going to buy it. I'm lucky mine was free.",
+   "date": "2025-12-26",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 2,
+   "auteur": "lili",
+   "titre": "doesn't stay on",
+   "texte": "can't walk around wearing it or lay with it on because it'll just slip to one side and youll have to constantly readjust but it just seems unsanitary to have to keep touching my face to fix it",
+   "date": "2026-02-15",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Kristie",
+   "titre": "Would re-purchase",
+   "texte": "Tony Moly was my first experience into Korean beauty and this mask was a reminder why I love them so much. The gel melt was exactly what I needed in terms of brightening with my dull-acne prone skin. gifted by tonymoly",
+   "date": "2025-09-23",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nora",
+   "titre": "Great",
+   "texte": "I love all tonymoly masks so I was excited to try this one! It fit my face well and was easy to unfold and did not slide down. I left it on while watching TV and when I took it off, my skin was soft, moisturized and fresh and the serum from the mask soaked in nicely. Gifted by tonymoly",
+   "date": "2025-10-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jessica",
+   "titre": "You need!",
+   "texte": "This is so hydrating and makes my skin feel bouncy and so smooth, it smells good and leaves a nice cooling effect on my skin. I totally recommend this to anyone with dry skin Complimentary from tonymoly",
+   "date": "2025-10-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kate",
+   "titre": "Love this product!",
+   "texte": "Love this TONYMOLY Vitamin C mask! It melts into my skin overnight without feeling greasy. I woke up with a smooth and refreshing feeling on my face. Will need more uses to see if it brightens my skin. Complimentary from tonymoly!",
+   "date": "2025-10-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Phoebe",
+   "titre": "Perfect for Recovery!",
+   "texte": "I love how soothing and hydrating a hydrogel mask feels! I just got back from camping in the desert, so my skin is in serious need of rehabilitation. This mask does the trick— I'm so happy to have gotten it gifted by TonyMoly!",
+   "date": "2025-09-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "Several reviews are brief and gifted/promotional in tone, and almost none mention skin type explicitly, so segment-level detail beyond dry and combination skin is limited."
+}

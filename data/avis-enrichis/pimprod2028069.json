@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2028069",
+ "asin": null,
+ "pid": "pimprod2028069",
+ "source": "ulta",
+ "nom": "Drunk Elephant Virgin Marula Luxury Facial Oil",
+ "note": 4.62,
+ "nbAvis": 2115,
+ "lus": 78,
+ "collectes": 110,
+ "segments": {
+  "oily": "Reviewers describe the oil as too heavy or greasy to absorb well, feeling more suited to non-oily skin.",
+  "dry": "Reviewers with dry, very dry, or dry/menopausal skin report consistent relief from dryness and dry patches, with several calling it their best solution for dry skin.",
+  "combination": "One reviewer with combo dry skin and occasional hormonal acne reports good absorption and no reactivity.",
+  "sensitive": "Reviewers with sensitive skin report no irritation or reaction and describe it as calming, though one notes another oil-related product broke her out.",
+  "mature": "Reviewers over or near menopause age report improved dryness, softer skin, a healthy glow, and less noticeable age spots with continued use.",
+  "normal": "One reviewer with normal/balanced skin reports a good amount of shine without any greasiness."
+ },
+ "concerns": {
+  "aging": "Mature-skin reviewers report a healthy glow, softer skin, reduced look of fine lines, and less noticeable age spots with continued use; no reviewer reports the oil worsening signs of aging.",
+  "dehydration": "The large majority of reviewers with dry or very dry skin report clear relief from dryness, dullness, and dry patches, including in winter and after menopause; one reviewer felt it produced no extra moisture over her usual squalane oil.",
+  "redness": "One reviewer reports it clears redness after an AHA/BHA treatment and is soothing; no other redness-specific complaints appear.",
+  "barrier": "Sensitive-skin reviewers report no reactivity or irritation and describe it as gentle and non-irritating, with no reports of barrier disruption.",
+  "spots": "One reviewer recovering from precancerous-spot treatment reports it provided needed hydration without issue; another reports age spots look less noticeable with continued use.",
+  "blemishes": "Most acne-prone reviewers report no breakouts and good tolerance, but one reviewer with acne-prone skin found it too heavy for her skin and another warns generally that oils are not recommended for acne-prone skin.",
+  "oiliness": "Reviewers are split: many describe it as non-greasy, fast-absorbing, and not oily even on oily-leaning skin, while several others found it very oily, greasy, or slow to absorb, especially when overused."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast, non-greasy absorption",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels greasy or slow to absorb",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Unscented, no fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to value",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cheaper dupes perform similarly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging seen as cute and functional",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging seen as juvenile or overpriced for design",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "annam1010",
+   "titre": "Good and Hydrating but very expensive",
+   "texte": "This is a very good, hydrating product but it is VERY oily so if that is not what you are looking for, do not bother spending all of the money. It leaves a good and long lasting glow but again is extremely oily and does not absorb very well.",
+   "date": "2024-01-04",
+   "verifie": false,
+   "utiles": 18,
+   "peau": null,
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "katiej216",
+   "titre": "Good, but not for Acne-Prone Skin",
+   "texte": "This product was not for me. I have acne-prone skin, so this product was a little too heavy to put on my face. I think with a different skin type, this product would be perfect!!",
+   "date": "2023-09-25",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Peaches",
+   "titre": "Virgin Marula Luxury Facial Oil",
+   "texte": "I am a 71 year old woman, with extremely dry skin, above lip lines, forehead, eyes and I use this product after cleaning with Butter Cleanser. Between the two products my skin remains moisturized, dewy, and fine line wrinkle free all day! I am so glad I found this product! It is amazing!",
+   "date": "2025-05-06",
+   "verifie": false,
+   "utiles": 25,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Meghan",
+   "titre": "Money well spent",
+   "texte": "I am not the type of person to write reviews. So when I tell you me doing this is a big deal, you better keep reading. I had horrible dry patches on my cheeks and nose and very uneven tone. Pregnancy ruined my skin. I went into Ulta looking for something to put under my normal moisturizer and was given this. After about 2 weeks of use, I can't explain it but my skin just looks….different. It's moisturized, smooth, my complexion is better. I'm glowing. I look how I did in my 20s. It's like time was reversed. I'm amazed. Now, will it work like this for everyone? No. But I can say it didn't clog my pores and it's not greasy. It's really an amazing product if you have extremely dry skin. I'll keep buying this regardless of the price.",
+   "date": "2024-12-06",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Patricia",
+   "titre": "Great face oil!",
+   "texte": "I have combo dry skin with hormonal acne at times. This oil absorbs face and just feels nice. I tap on right before bed and put any extra on hands. No reactivity which is often a prob for me. I would repurchase.",
+   "date": "2026-06-26",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Greta",
+   "titre": "Excellent product!",
+   "texte": "I apply two drops of the marula oil to my face and neck in the AM under my Protini Cream and in the PM under my LaLa Moisturizer. This product is soothing and hydrating for my sensitive, mature skin.",
+   "date": "2026-07-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "DeAnna",
+   "titre": "Hydrating, Glowing and Brighter Oil for Aged Skin",
+   "texte": "I love this oil! I apply it every morning before my moisturizer, and it has become a staple in my skincare routine. It leaves my skin feeling incredibly soft and gives it a healthy, radiant glow. I've also noticed that my age spots appear less noticeable with continued use. I'll definitely be keeping this product in my routine!",
+   "date": "2026-07-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

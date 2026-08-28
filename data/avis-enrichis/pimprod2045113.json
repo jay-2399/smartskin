@@ -1,0 +1,160 @@
+{
+ "ref": "pimprod2045113",
+ "asin": null,
+ "pid": "pimprod2045113",
+ "source": "ulta",
+ "nom": "TULA Clarifying Tonic Alcohol-Free Daily Toner",
+ "note": 4.72,
+ "nbAvis": 25,
+ "lus": 15,
+ "collectes": 15,
+ "segments": {
+  "oily": "Reviewers with oily skin report the toner leaves too much grease on the face for daytime use, though one says it helps clear out gunk from oily skin.",
+  "dry": "Reviewers with dry skin report the toner does not worsen dryness and instead leaves skin brighter, more even, and hydrated compared to other toners.",
+  "sensitive": "One reviewer with very sensitive skin reports this is the first toner she has been able to use without irritation.",
+  "mature": "A reviewer around 40 reports hormonal acne and dark spots improved after starting the product."
+ },
+ "concerns": {
+  "aging": "One reviewer in her 40s reports acne and dark spots improved and skin looked better overall; no other age-related comments are present.",
+  "spots": "Reviewers report dark spots faded and pores appeared clearer with regular use.",
+  "blemishes": "Most reviewers who mention acne report clearer skin and reduced hormonal or cluster breakouts, but one reviewer reports severe new breakouts she attributes directly to the product.",
+  "oiliness": "Oily-skin reviewers report the toner feels too greasy for daytime wear, though it is described as effective at removing excess oil and gunk from pores."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaves skin feeling clean and refreshed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy residue on oily skin",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Slow-dispensing bottle design",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Premium, non-cheap packaging feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains witch hazel, problematic for allergy",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Ingredients not listed on bottle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast-absorbing, quick-drying finish",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Anna",
+   "titre": "made my skin breakout like crazy!",
+   "texte": "i get hormonal/cluster acne, but i have never gotten it this bad and i narrowed the cause down to using this product. it was like my skin was exploding 😭 also the ingredients aren't listed on the physical bottle, like anywhere. stay away from this thing!",
+   "date": "2024-06-19",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Undisclosed",
+   "titre": "Not For Oily Greasy Skin",
+   "texte": "The toner is really nice, I'm not going to lie. I think it's better for people with drier skin. It gives me grease face all day. I will still use it but only in the evening. I would like to try Tula's original toner though. I think I would like that other one better. This is just too oily for my skin. It comes in a bottle that you just gently shake to get product out. I really like Tula's packaging. Not cheap at all. I will return for more skincare items and get the original toner. I recommend this for dry skin.",
+   "date": "2024-05-09",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Moose",
+   "titre": "Nice, packaging sucks",
+   "texte": "I like how my face feels after I use this. The only problem is that it takes forever to get any product out. But the toner is very good for oily skin and helps get all of the gunk out.",
+   "date": "2024-08-30",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Undisclosed",
+   "titre": "Great!!",
+   "texte": "I've always had poor luck with toners causing my dry skin to be even more dry, but after 2 weeks of this toner 2x a day, so far my skin just looks brighter and more even.",
+   "date": "2024-06-04",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "B",
+   "titre": "Highly recommend",
+   "texte": "When I turned 40, it was as though my skin rebelled against me. I had acne that was worse than when I was a teenager. I initially bought a travel size kit, but now Tula is definitely my go to daily. My skin looked awful before I started using Tula and I was just glad that the dark spots went away. As an added bonus I regularly get told \" Oh, your skin looks so pretty\". Tula skin care—clear skjn and confidence booster!",
+   "date": "2026-01-17",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Excellent product",
+   "texte": "I have very sensitive skin and have never been able to use a toner…until now! I love how it cleans my skin and makes it feel so fresh after using!",
+   "date": "2024-05-19",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "I cant say enough about T",
+   "texte": "I cant say enough about Tula I just love all their stuff just wish they made a facial spray without witchhazel😞😞😞Im allergic otherwise love love love❤️❤️❤️",
+   "date": "2024-05-28",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

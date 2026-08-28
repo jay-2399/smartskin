@@ -1,0 +1,169 @@
+{
+ "ref": "mkt77007132",
+ "asin": null,
+ "pid": "mkt77007132",
+ "source": "ulta",
+ "nom": "Proactiv Solution Revitalizing Toner",
+ "note": 4.69,
+ "nbAvis": 658,
+ "lus": 36,
+ "collectes": 37,
+ "segments": {
+  "combination": "One reviewer with combination skin reports the toner works well for her and does not leave her face oily or dry.",
+  "sensitive": "A reviewer who developed rosacea after Covid reports the Proactiv line, including this toner, worked wonders for her skin.",
+  "mature": "A reviewer in her mid-40s and another long-term user in her 30s-40s report continued good results with age, though effects are not detailed beyond general satisfaction."
+ },
+ "concerns": {
+  "spots": "Several reviewers report the toner helps clear acne, including cystic acne and stubborn adult acne, sometimes after other treatments and dermatologist visits failed; but two reviewers report little or no improvement in breakouts despite months of use, and one says marks are not reducing.",
+  "blemishes": "Teen and adult users report acne disappearing or clearing with regular use as part of the 3-step regimen; one reviewer states the toner alone did not clear breakouts.",
+  "oiliness": "Some reviewers say it removes excess oil, reduces greasiness, and does not leave skin oily; one reviewer states it does not relieve her oily skin issues as expected.",
+  "dehydration": "Reviewers describe it as hydrating and non-stripping, resurfacing gently without drying the skin or causing flaking.",
+  "redness": "One reviewer reports the toner (as part of Proactiv's line) helped calm rosacea-related redness after Covid.",
+  "barrier": "Reviewers describe the toner as gentle, mild, and non-irritating, absorbing quickly without residue and not causing breakouts.",
+  "aging": "No reviews specifically address anti-aging effects; mentions of mature skin relate to general satisfaction rather than aging concerns."
+ },
+ "aspects": [
+  {
+   "libelle": "Bottle hard to squeeze",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Absorbs quickly, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Improves skin texture and tone",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-term repurchase loyalty",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle, non-stripping feel",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Inconsistent results without full regimen",
+   "polarite": "neg",
+   "concerne": [
+    "spots",
+    "oiliness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Dominique H.",
+   "titre": "Toner",
+   "texte": "This toner was ok. It did not help with clearing up breakouts. Did not realize it had perfume in it.",
+   "date": "2025-05-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Renee G.",
+   "titre": "Does not relieve oily skin",
+   "texte": "Does not relieve oily skin issues, like I thought it would. Does seem to help acne but again not really well :confused:",
+   "date": "2025-05-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jenna S.",
+   "titre": "Step 2 Toner",
+   "texte": "I love this glycolic face toner! and I apply after cleansing daily. It instantly removes excess oil and help smooth & clarify my skin. It's gentle and absorbs quickly without leaving any residue. It's invigorating & improves my overall skin texture and tone. Would definitely recommend for anybody looking to enhance their skin care regimen!",
+   "date": "2025-08-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rosellie L.",
+   "titre": "It worked! :)",
+   "texte": "It worked for me. It has cleared my cystic acne. I'm so happy because I tried other products &amp; went to dermatologist &amp; took pills but nothing work. I am so happy proactive worked for me. No more cystic acne &amp; I use it everyday to prevent future ones.",
+   "date": "2024-12-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristine K.",
+   "titre": "Hydrating & skin Clearing",
+   "texte": "This toner is great. It doesn't strip me leaving me dry but instead of hydrates and resurfaces so gently. It has glycolic acid and aloe so not only is it keeping me useful but it's keeping my pores clear as well.",
+   "date": "2025-12-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jen",
+   "titre": "Recommend",
+   "texte": "Great toner that does not leave your face oily or dry. Has helped a lot with clearing both teen and adult acne.",
+   "date": "2025-09-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Catherine E.",
+   "titre": "Love these products",
+   "texte": "I love Proactiv products! I had Rosacea after Covid and these products worked wonders.",
+   "date": "2025-03-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

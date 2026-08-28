@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2035163",
+ "asin": null,
+ "pid": "pimprod2035163",
+ "source": "ulta",
+ "nom": "DIME TBT Serum with Mandelic Acid + Peptides",
+ "note": 4.8,
+ "nbAvis": 3745,
+ "lus": 80,
+ "collectes": 93,
+ "segments": {
+  "sensitive": "Several reviewers with self-described sensitive skin (including one who is pregnant and one postpartum) report no irritation or breakouts from this serum, though one non-sensitive reviewer got redness after pairing it with other exfoliation.",
+  "mature": "Reviewers in their late 30s to 60s report firmer, brighter, smoother skin and reduced fine lines and wrinkles with regular use over weeks to months.",
+  "dry": "One reviewer dealing with postpartum dryness and acne reports visible improvement, and one notes the serum plumps skin that otherwise looks saggy and dry without making it sticky.",
+  "combination": "One reviewer with quite a few serums in rotation calls this a close second favorite for moisture and plumping, implying it fits into a mixed routine well."
+ },
+ "concerns": {
+  "aging": "The large majority of reviewers who mention fine lines, wrinkles, or firmness report visible reduction in lines, tighter or firmer skin, and improved texture within weeks to a few months; one reviewer using it over 6 months says she sees no difference at all.",
+  "dehydration": "Reviewers report the serum leaves skin hydrated and plump rather than tight, though one reviewer explicitly says it is not moisturizing and dries almost instantly like alcohol.",
+  "redness": "One reviewer who over-exfoliated before using this serum experienced redness and irritation and criticizes the lack of clear labeling that this is an exfoliating product.",
+  "barrier": "A couple of reviewers describe the serum as gentle, non-drying, and non-irritating even with consistent use, positioning it as compatible with a delicate barrier.",
+  "spots": "Several reviewers report dark spots fading or becoming less noticeable after weeks to months of use, but at least one reviewer using a second bottle reports no improvement in her melasma at all.",
+  "blemishes": "Multiple reviewers report fewer hormonal or general breakouts and clearer skin with continued use, with no reviewer reporting new or worsened breakouts from normal use.",
+  "oiliness": "One reviewer notes the serum is not oily going on and leaves skin feeling hydrated rather than greasy the next day."
+ },
+ "aspects": [
+  {
+   "libelle": "Thin watery texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Silky smooth feel on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dropper wastes product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No noticeable scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Exfoliating nature not clearly labeled",
+   "polarite": "neg",
+   "concerne": [
+    "redness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Charlie",
+   "titre": "THIS IS AN EXFOLIATING PRODUCT",
+   "texte": "Alright. I have beef with this product. To be fair, i only used it once and not properly, so im sure its amazing for those who use it properly. However, im very annoyed because nowhere did it say this is an exfoliating serum until i looked it up. I already exfoliated my skin and then was excited to try my new serum that has amazing reviews, and then my skin got red and irritated. I dont have sensitive skin so i was curious why it was bothering me. Then i looked it up and saw its an exfoliating product. This is advertised as a serum with no clear indicators that its exoliating which i find very misleading. Please fix the packaging or name it \"exfoliating sefum\" becaude i think what i did was an easy mistake to make.",
+   "date": "2025-12-04",
+   "verifie": false,
+   "utiles": 16,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah V.",
+   "titre": "Has changed my skin",
+   "texte": "I've been using TBT serum for five years now, and I think that with the TBT cream changed the look of my skin. It looks smoother, has less fine lines, and looks more even. I have very sensitive skin, and I have had no issues with anything DIME has created.",
+   "date": "2026-04-18",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth G.",
+   "titre": "Favorite Night Time Serum",
+   "texte": "The TBT serum is my favorite night time serum. After cleanser and toner I use this serum every night as my base before other anti aging products. Letting is soak in and then using additional products including the TBT cream. Keeps my extra skin hydrated without being sticky, firm without feeling stiff, and I have seen an improvement in my dark spots and overall complexion since using this. I have sensitive skin and this feels great and has improved my overall skin.",
+   "date": "2025-07-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cassandra R.",
+   "titre": "I got this originally wit",
+   "texte": "I got this originally with points and I'm so glad I did! It's too much to use in conjunction with the TBT cream but perfect with the restorative night cream. My skin feels smoother, is brighter, and breaking out less. Just got my second bottle and plan to keep it in my nighttime routine! Plus that I can use it while pregnant!",
+   "date": "2026-07-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "McDonough",
+   "titre": "Amazing products to clear up skin",
+   "texte": "I am postpartum and was dealing with acne and dry skin. I started using the Dime products and I could definitely tell a difference. And I love how affordable it is too!",
+   "date": "2025-06-19",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "LT",
+   "titre": "Waste of money",
+   "texte": "I bought this on sale because I needed to replace my a.m. niacinimide serum, and it had such great reviews, I thought it must be good. Unfortunately, I have to agree with some of the other negative reviews. It is so thin, it makes it difficult to put on. Also, it feels like I'm putting alcohol on my skin because it dries immediately. It is not at all \"silky,\" as one review wrote. And most disappointingly, it's not moisturizing in the least. I will be going back to my old serum as soon as possible, probably before this bottle is even empty.",
+   "date": "2026-01-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "AMF",
+   "titre": "Gentle Exfolliant",
+   "texte": "I've tried a few products by this brand, and this is the only one I really care for. It works welll as an exfoliant, but it's gentle and not extremely drying. It does slough the skin, but not in a way that leaves you feeling rought or dry.",
+   "date": "2026-01-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

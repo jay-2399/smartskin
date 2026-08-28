@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2053646",
+ "asin": null,
+ "pid": "pimprod2053646",
+ "source": "ulta",
+ "nom": "medicube One Day Exosome Shot 7500",
+ "note": 4.3,
+ "nbAvis": 20,
+ "lus": 20,
+ "collectes": 20,
+ "segments": {
+  "oily": "One reviewer with an oily face reports it helps serum absorption and reduces morning oiliness, and another with dry/oily combination skin reports more hydration and less oil after one use.",
+  "sensitive": "Reports diverge sharply: one reviewer without sensitive skin still had what she describes as a huge allergic reaction with tingling for hours, another explicitly non-sensitive user found the stinging severe ('BURN BURN BURN'), while a reviewer who identifies as sensitive/reactive says the product did not irritate her skin at all, and another recommends the weaker 2000 PPM version for sensitive skin.",
+  "mature": "A 48-year-old reviewer reports smoothing of textural issues, and another describes the product as a favorite for mature skin overall.",
+  "combination": "One reviewer describes her skin as dry/oily and reports increased hydration and reduced oiliness after a single use."
+ },
+ "concerns": {
+  "aging": "A 48-year-old reviewer reports smoothed textural issues attributed to aging skin; no other age-specific outcomes are mentioned.",
+  "dehydration": "Reviewers report increased hydration and dewier, less oily skin after use, including one describing improved moisture absorption alongside retinal and acid use; no reports of increased dryness.",
+  "redness": "Not discussed by reviewers.",
+  "barrier": "One reviewer reports the product helps her skin recover more quickly from retinoids and acids and improves absorption of other actives without stinging; no barrier-damage complaints are reported.",
+  "spots": "One reviewer reports the product faded sun spots on her nose; another reports it helped clear discoloration on her upper lip linked to enlarged pores.",
+  "blemishes": "Two reviewers report a cystic pimple cleared or improved overnight after applying the product directly to it; no reviewer reports new breakouts.",
+  "oiliness": "One reviewer with oily skin reports less oily skin and better serum absorption; another describes reduced oiliness and dewier makeup wear after one use."
+ },
+ "aspects": [
+  {
+   "libelle": "Stinging or tingling on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Improves absorption of following products",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pore appearance reduced",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Visible results within days",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Discomfort discourages repurchase",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Perceived as overhyped or weak formula",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin texture smoothed with continued use",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "boopy",
+   "titre": "so disappointed so far",
+   "texte": "This has been insanely marketed nonstop and I feel naive or misled, it is really nothing more than water, adenosine and a very useless amount of actives. I should have read what derms are saying. But I will try for a few more days, maybe I'll change my mind....",
+   "date": "2025-11-07",
+   "verifie": false,
+   "utiles": 25,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 1,
+   "auteur": "Jae",
+   "titre": "feels like needles",
+   "texte": "I could barely put on my skin : feels like needles goinginto your skin. I couldn't even rub in the product and got a huge allergic reaction . My face felt tingly for hours .",
+   "date": "2026-01-14",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ann G.",
+   "titre": "The Tingling Means It's Working!",
+   "texte": "If you have sensitive skin use the weaker version of it in the 2000 PPM. I have been using this for three months now in the evening after I wash my face but before I put on my serum. The results have me very happy as I have an oily face- it helps me absorb my serum better and let my night moisturizer get kindly absorbed instead waking up to an oily face. It tingles and has some sharp feelings while it's working on your face- nothing hurts its akin to sticking your fqce in a freezer- it's stimulating your blood flow. I also use the Age-R Booster Pro on Air Shot mode to maximize everything.",
+   "date": "2025-08-09",
+   "verifie": false,
+   "utiles": 52,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Browncassmere",
+   "titre": "Immediate Results",
+   "texte": "Im not going to lie this is pretty uncomfortable at first. Once you rub it in and put a moisturizer on top, in generally stops. I hughly suggest doing that before bed because of this. BUT! Be orepared to wake up to visible results. My upper lip looked like it was brand new. I struggle with discoloration there specifically because of enlarged pores. I highly suggest this to anyone looking to help retexturize their pores.",
+   "date": "2026-01-12",
+   "verifie": false,
+   "utiles": 26,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "PATRICIA",
+   "titre": "Effective",
+   "texte": "I've been layering targeted actives (like retinal and peptide serums). The exosome shot acts as a booster that helps my other actives work more effectively by supporting deeper skin repair mechanisms. It helps my skin to better absorb moisture to recover more quickly from retinal and acids. This did not burn or sting all- although I'm very used to strong actives and acids. The whole product line is impressive. The brand seems very focused on actives without unnecessary irritants. I woud recommend.",
+   "date": "2026-02-09",
+   "verifie": false,
+   "utiles": 16,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "blushdiva",
+   "titre": "in just 1 use",
+   "texte": "Woke up to tighter pores and my dry/oily face was more hydrated and less oily. My makeup was dewy all day not greasy like usual, even after an 11 hour shift. What a great start already. I'm excited to continue and see what the long term affect will be.",
+   "date": "2026-01-08",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Megan",
+   "titre": "Magic",
+   "texte": "This stuff is literally magical. Just after a fee uses my pores are noticeably smaller and the texture I was struggling with is basically gone. I also found it helped fade sun spots I had on my nose. The only complaint I have is that it hurts to apply. But if uou pat it in it doesnt hurt nearly as bad. I even have sensitive/reactive skin and this didnt make my skin angry. If you struggle with texture or pores, do yourself a favor and buy this!!",
+   "date": "2026-08-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,135 @@
+{
+ "ref": "pimprod2039894",
+ "asin": null,
+ "pid": "pimprod2039894",
+ "source": "ulta",
+ "nom": "CHANEL UV ESSENTIEL Complete UV Protection Sunscreen Antioxidant Broad Spectrum SPF 50",
+ "note": 4.8,
+ "nbAvis": 10,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {
+  "dry": "One reviewer with dry skin reports the sunscreen works well as a hydrating product on her skin type.",
+  "sensitive": "A reviewer with sensitive/combination skin reports the product works amazing on her skin and does not sting or irritate the eyes.",
+  "combination": "The same sensitive/combination-skin reviewer reports good results and no irritation with this sunscreen."
+ },
+ "concerns": {},
+ "aspects": [
+  {
+   "libelle": "No eye stinging or irritation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves hydrating, glowing finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Shiny finish, slow to set",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast, works under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for amount of product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Does not clog pores",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Molly",
+   "titre": "would buy again",
+   "texte": "Love this sunscreen! It does have a fragrance but i don't find it too strong. It is on the shiny side-takes maybe 10 mins to fully set once applied to the skin. It is on the pricy side but is very hydrating &spreads easy!",
+   "date": "2024-10-21",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Jo",
+   "titre": "Not oily!",
+   "texte": "Great product, doesn't leave oily residue, lightweught formula. Perfect for under makeup. Does not irritate my eyes and smells great. Very similar yo European formula.",
+   "date": "2023-11-18",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SP",
+   "titre": "Would repurchase again!!! 💖",
+   "texte": "My all time favorite sunscreen!!! I would repurchase again & again ✨ Leaves a beautiful glow and plumpness on my skin feels just like a moisturizer. The high SPF 50 is a plus! Glides on beautifully and doesn't leave a white cast. A little goes a long way. Works amazing with my sensitive / combo skin. I put my friend on to this sunscreen and she has dry skin and it works wonders for her too. I would say it works amazing for all skin types. Chanel is definitely one of my go to for skincare/makeup 🥰💞",
+   "date": "2025-07-24",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SP",
+   "titre": "Would repurchase again!!! 💖",
+   "texte": "My all time favorite sunscreen!!! I would repurchase again & again ✨ Leaves a beautiful glow and plumpness on my skin feels just like a moisturizer. The high SPF 50 is a plus! Glides on beautifully and doesn't leave a white cast. A little goes a long way. Works amazing with my sensitive / combo skin. I put my friend on to this sunscreen and she has dry skin and it works wonders for her too. I would say it works amazing for all skin types. Chanel is definitely one of my go to for skincare/makeup 🥰💞",
+   "date": "2025-07-24",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "best sunscreen ever",
+   "titre": "truly amazing",
+   "texte": "A really great sunscreen because it doesn't sting eyes!!! It's hydrating and moisturizing. People say my skin looks good when I wear this. It's a bit shiny but jn a pretty way. It lasted me a few months and I'm using it all up!! So good just bummer that it's expensive for a little, but at least it really is so good!",
+   "date": "2026-08-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erin",
+   "titre": "Great product",
+   "texte": "Love this spf. Doesn't clog my pores and wears well. Worth the price",
+   "date": "2026-04-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": "The sample is small (10 reviews, mostly 5-star) and few reviewers specify a skin type or concern in detail, so segment- and concern-level conclusions rest on very limited evidence."
+}

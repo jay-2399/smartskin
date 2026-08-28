@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2049111",
+ "asin": null,
+ "pid": "pimprod2049111",
+ "source": "ulta",
+ "nom": "Drunk Elephant Laini Latherless Conditioning Co-Cleanser",
+ "note": 4.43,
+ "nbAvis": 74,
+ "lus": 66,
+ "collectes": 66,
+ "segments": {
+  "oily": "Reviewers with naturally oily hair or oily roots and daily-sweat routines report the co-cleanser removes oil without stripping and lets them wash more often without irritation, though a few with oily/greasy-prone hair found it left their hair heavy or greasy by midday.",
+  "dry": "Many with dry hair, dry scalp or dry ends report it cleanses without stripping and reduces dryness and flakiness over time, but several others with dry hair found it paradoxically drying or not moisturizing enough and had to add extra conditioner.",
+  "combination": "Reviewers describing oily roots with dry ends report the product balances both zones, cleansing the scalp while keeping ends conditioned.",
+  "sensitive": "Reviewers with sensitive or reactive scalps, including one recovering from cancer treatment and one avoiding fragrance and preservatives, report no itching, irritation, or new breakouts and appreciate the fragrance-free formula.",
+  "mature": "Reviewers identifying as older or mature report their hair (and in one case scalp) is less dry and frizzy, and one mentions newly sensitive, rashy skin unrelated to this product's use."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers describing dry hair or scalp report it cleanses without stripping and reduces dryness, flakiness, or itchy scalp over repeated use; however, several dissent, saying it dried out their curls or scalp and was not moisturizing enough on its own.",
+  "oiliness": "Several reviewers with oily hair or oily roots report it controls oil and lets them wash more frequently without stripping their scalp; a few others report the opposite, saying it left hair greasy, heavy, or oily by the middle of the day.",
+  "redness": "One reviewer with a sensitive, itchy scalp reports a specific itchy spot was reduced then eliminated after two uses; another sensitive-scalp reviewer reports no itching or irritation at all.",
+  "barrier": "Reviewers with sensitive or post-treatment scalps report the product does not irritate compromised skin and is gentle enough for daily use, with no reports of barrier disruption."
+ },
+ "aspects": [
+  {
+   "libelle": "No lather, unusual texture to learn",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves hair soft and shiny",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires thorough, longer rinsing",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle offers good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Expensive for the price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free scent appreciated",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Non-recyclable pump and packaging",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Anne",
+   "titre": "Not Great at Leaving Hair Clean",
+   "texte": "I have used this for over a month, and it doesn't get my hair clean. I use it every other shampoo and space out my shampooing to every other day, for reference. I don't have oily hair or an oily scalp. In fact my hair is quite dry, but no matter what I do (use 4 pumps or 7) my hair is still not free from oil. For reference, I have hair about 5 inches past my shoulders. It is quite gentle though, which is why I gave it an extra star. I would suggest not buying this if you do actually have oily hair or scalp. You will likely not be happy with it.",
+   "date": "2022-01-20",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lainey",
+   "titre": "Gentle and effective",
+   "texte": "This is all I use most days! I do a deep cleanse and deep conditioner about once a month. But day to day this does the job. Cleans without stripping, and conditions without weighing my hair down. This does not have any strong fragrance which I appreciate. PLEASE keep making this! After cancer treatment it seems like everything irritates my skin and scalp, except Drunk Elephant",
+   "date": "2023-12-22",
+   "verifie": true,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "frizzyhead",
+   "titre": "Gentle and effective",
+   "texte": "I have very thin, fine, wavy, frizzy hair. In other words, a nightmare. I also have a very sensitive scalp that is prone to itching and even acne. I have to avoid fragrances and now it appears that I have to avoid preservatives as well and maybe the coconut-based lather that is in so many shampoos. Laini does not have any of these and does not irritate my scalp. No itching or other problems. And my hair comes out detangled and shiny, not frizzy which is amazing and much better than other conditioners I have used (I use a shower hair brush to apply). My scalp feels clean. I use a little of the Wild Marula tangle spray for second-day hair because my hair is dry. The downside is that Laini does not really have any slip, and so I use a fair amount and it is expensive. In addition, I can't just pick it up at my local Ulta, it has to be mail ordered. But the pros seem to outweigh the cons!",
+   "date": "2022-12-21",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Laurie M.",
+   "titre": "Love this Co-Cleanser",
+   "texte": "I am an older... well, more mature woman and as such my hair has been changing recently. Naturally dry wavy blonde hair now getting a darker and just a few greys. I'm also getting sensitive skin a lot. Very rashy around my neck so I'm avoiding all the bad things including essential oils which never bothered me. I'm still working on my flakiness which is also a new thing (this getting older thing is full of suprises). This product cleanses well, encourages my natural wave by not drying it out and is very conditioning.",
+   "date": "2022-04-14",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yamin N.",
+   "titre": "Wow I am blown away",
+   "texte": "Wow I am blown away by this shampoo. I have to admit I was skeptical but all of the other Drunk Elephant products have been game chargers for me so I gave this a shot. I have very oily hair that needs daily washing. I knew I needed to wash less frequently to control my oil, but I also exercise 6 days a week so I couldn‚Äôt get out of this vicious cycle. Now I use Laini instead and it‚Äôs exactly what I needed. I can still get sweaty with my workouts and wash my hair everyday without messing up my scalp. Even though this isn‚Äôt a shampoo, my scalp feels fresh and clean after my wash. I also love that this is a one step process since it makes my hair soft without needing to be combined with a conditioner.",
+   "date": "2021-11-17",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Linz",
+   "titre": "Works great for me!",
+   "texte": "I have pretty average irish hair. But wavy, but frizzy. Medium density, length, thickness. I get oily roots and dry ends. This works fantastically for me. I've been using it almost every time I show and then using DE's shampoo and conditioner about once a week. Been doing this instead of the more traditional wash, condition weekly deep condition. And my hair actually gets less oily and I need less leave in. You have to really work it into the hair and then rinse way more than you might a normal conditioner, but my hair gets really clean and conditioned in this one step.",
+   "date": "2022-02-28",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "alyla",
+   "titre": "great for dry wavy hair",
+   "texte": "After a couple of uses my hair is less dry and softer and my scalp no longer has any itchy spots. At first it was flattening my curls & waves, but they've bounced back after ~3 weeks of using a couple times per week. Those who are finding it no good are probably not rinsing it thoroughly enough. You do have to rinse longer and a little more vigorously than a standard foaming shampoo. I massage it in well, then the same again while rinsing. I do usually add a light amount of leave-in conditioner bar. My hair stays happy for the day or two I skip washing, but since it's completely non-drying I am washing more frequently than I had been with previous supposedly hydrating shampoos. Really the best hair cleanser I've used in my 5 decades. Using it on my kid too so he can skip the conditioner step, since his hair is not bleached like mine.",
+   "date": "2024-06-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

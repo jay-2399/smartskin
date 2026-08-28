@@ -1,0 +1,106 @@
+{
+ "ref": "pimprod2059134",
+ "asin": null,
+ "pid": "pimprod2059134",
+ "source": "ulta",
+ "nom": "STARFACE Star Strips Pore-Clearing Nose Strips",
+ "note": 3.6,
+ "nbAvis": 5,
+ "lus": 5,
+ "collectes": 5,
+ "segments": {},
+ "concerns": {
+  "blemishes": "One reviewer reports the strips clear pores and remove visible gunk after use; another says the strips failed to adhere at all, making them ineffective for this purpose."
+ },
+ "aspects": [
+  {
+   "libelle": "Visible gunk removed on strip",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cute, appealing packaging design",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin reaction: rash, itching, burning",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Compares favorably to Biore",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "B",
+   "titre": "They do not stick",
+   "texte": "These do not stick to your face, making the product ineffective. Waste of money.",
+   "date": "2026-07-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Amanda",
+   "titre": "Had a bad reaction to these",
+   "texte": "I usually use Biore but these were cute and on sale so I tried them. Broke out in a little rash on both sides of my nose and there are bumps that itch like crazy! It also burned after I took the strip off even though I peeled it off very carefully. My skin is not sensitive but something in these did not mesh well.",
+   "date": "2026-08-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda",
+   "titre": "Love these nose strips!",
+   "texte": "These are great! Cute colors and work great for clearing pores and exfoliating. I would highly recommend over Biore or other generic brands.",
+   "date": "2026-06-23",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mars",
+   "titre": "These actually work!",
+   "texte": "These pore strios actially work and you will see the gunk on the wtrip once yoh take it off. You do have to wet your nose and put the pore strip on. If not, it will not stick. It also says that in the directions.",
+   "date": "2026-08-02",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chloé",
+   "titre": "So Cute!",
+   "texte": "Pretty normal pore strips that do what they're supposed to, but so much cuter! Will be making these my go-to pore strips from now on.",
+   "date": "2026-07-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Only 5 reviews are available and none state the reviewer's skin type, so segmentation by skin type could not be produced and concern coverage is very limited."
+}

@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2023800",
+ "asin": null,
+ "pid": "pimprod2023800",
+ "source": "ulta",
+ "nom": "florence by mills Spot a Spot Acne Patches",
+ "note": 4.62,
+ "nbAvis": 745,
+ "lus": 80,
+ "collectes": 105,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers mostly report positive results, though one describes the adhesive causing swelling, redness, itching and watering when placed too close to the eye, and another notes the patches are gentle enough for sensitive skin despite weak adhesion.",
+  "combination": "One reviewer with breakouts on chin and forehead reports the patches clearing forming blemishes and reducing redness overnight."
+ },
+ "concerns": {
+  "spots": "Most reviewers report a specific pimple or whitehead flattening or disappearing overnight to within a few days; a few report the patch doing nothing to their pimple after wearing it the full suggested time, and one says results were inconsistent between two purchases.",
+  "blemishes": "Many describe stubborn or hormonal blemishes clearing within one to three nights, including cystic or blind pimples taking days instead of the usual one to two weeks; dissent includes reports of no visible change and a lingering red mark after removal.",
+  "redness": "Reviewers commonly report redness or swelling around a spot going down overnight; one reviewer instead experienced new redness and irritation, and another still had a red mark remain after the patch was removed.",
+  "oiliness": "A few reviewers note the patches absorb oil, pus, and fluid from the area, describing visible gunk on the patch after wear."
+ },
+ "aspects": [
+  {
+   "libelle": "Cute shapes and designs",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Overnight or fast results",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Weak adhesion, patches peel or fall off",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Comfortable, near-invisible feel on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Inconsistent effectiveness between uses",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Good value for quantity included",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Irritation near eye area",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "undisclosed",
+   "titre": "Allergy warning",
+   "texte": "I couldnt find my regular go-to patch so i picked these up instead because theyre cute. I used a couple on my forehead and cheeks within a few weeks after purchase. Today i used one about an inch away from my eye on the side of my nose. Less than 30 minutes later the eye it was closest too was swollen, red, itchy, numb, watery, and goopy. I took the oatch off and rinsed my eye and immediately started feeling better. I didnt see any warning on the packaging about keeping a safe distance from the eyes. It worked well for my cheecks and my forehead so ill keep using it in those areas, but my go-to acne patch doesn't irritate my eyes at all.",
+   "date": "2023-05-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nicole",
+   "titre": "Excellent!!",
+   "texte": "I was skeptical at first about these patches. i didn't think that they would work but I was looking for something to work quick on my daughter's zit that she had and I had been looking into the other patches because how my daughter's skin is very sensitive, especially with adhesive. So I decided to try these, and I was actually surprised on how fast it worked.She didn't even keep it on the whole eight hours. she took it off at seven hours and there was gunk on the patch and all she had was a little red spot on her face. By the end of the next day it was practically gone. For sure, I will be buying more in the future.",
+   "date": "2025-11-22",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jada",
+   "titre": "THE BEST :)",
+   "texte": "I have extremely sensitive skin I love all florence skin care products! I'll get a pimple coming to a head slap a patch on gone over night!",
+   "date": "2022-12-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristen",
+   "titre": "MAGIC✨",
+   "texte": "Okay these actually WORK!! Omg they are pure magic. I felt/ saw a few blemishes trying to form on my chin and forehead, stuck a couple of these beauties on in the evening and peeled them off first thing the next morning.. NO MORE BUMPS! Redness completely gone.. it was wild. Thanks Florence!",
+   "date": "2023-04-11",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Sofia",
+   "titre": "Doesnt Do Anything",
+   "texte": "Okay first of all, these patches are so adorable. I love the shapes and everything. They stick on very well, they don't slide off, and they feel nice on the skin. Although, they did absolutely nothing to my pimples. I had two pimples. On the first one, I put a patch in for exactly 14 hours, and the second one I put on for the suggested time, 8 hours. I took them both off and they both looked the same as they did yesterday. I would not recommend these because they are a waste of money! Also they were dry which is a little weird considering it's a pimple patch!",
+   "date": "2023-02-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "lily",
+   "titre": "meh",
+   "texte": "I bought these instead of my usual Mighty Patches. They come with more, but are pricier. In the morning when I take them off, the pimple is flat but there is still a red mark. By night, the pimple is back. Just get Mighty Patches, they're cheaper and better.",
+   "date": "2023-06-14",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kim",
+   "titre": "Obsessed",
+   "texte": "Millie…. These are SO GOOD. I put these on a spot that comes to a whitehead and it's popped within three hours of me putting it on. And it heals them SO nice. I wish they were easier to get in Canada, but I will keep going out of my way to find them! Also, I'm asthmatic and tend to react to salicylic acid. This is the only product I can use that has it in it and it doesn't bother me at all!! 💜💜",
+   "date": "2023-01-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

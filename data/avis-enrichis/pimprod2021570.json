@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2021570",
+ "asin": null,
+ "pid": "pimprod2021570",
+ "source": "ulta",
+ "nom": "The Crème Shop Dreamy Skin Hydrocolloid Dark Spot Acne Patches",
+ "note": 3.79,
+ "nbAvis": 81,
+ "lus": 74,
+ "collectes": 74,
+ "segments": {
+  "combination": "One reviewer with combination skin (using tretinoin) reported the patches did not work.",
+  "sensitive": "One reviewer who does not have sensitive skin noted the patches still cleared an occasional pimple overnight, implying no irritation for non-sensitive users."
+ },
+ "concerns": {
+  "spots": "Most reviewers report reduced dark spots or faster fading within 1-4 days; a few say the patches did nothing for their dark spots or advertised 'dark spot' formula was replaced by an 'overnight acne' version without notice.",
+  "blemishes": "Many describe visible flattening, reduced redness, or pus/impurities drawn out overnight on regular pimples and whiteheads; a substantial minority say the patches did nothing, fell off, or left the pimple unchanged, and one reviewer said the pimple looked worse and more inflamed the next morning.",
+  "redness": "Several reviewers note visible reduction in redness and swelling overnight; one reviewer says the patches did nothing for her red spots.",
+  "barrier": "One reviewer reported a patch tore her skin, leaving a pink irritated spot; another described a painful peel with no visible effect."
+ },
+ "aspects": [
+  {
+   "libelle": "Cute shapes and colors",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Inconsistent adhesion, falls off overnight",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Draws out pus or gunk visibly",
+   "polarite": "pos",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "No noticeable effect on pimple",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Formula/packaging changed without notice",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Painful or skin-tearing removal",
+   "polarite": "neg",
+   "concerne": [
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Amanda S.",
+   "titre": "Honest Review",
+   "texte": "These did not work for me. I am 29 years old with combination skin. I am currently using trention for my skin. The ingredients listed in this product are not that great. Compare them to Zitsticka and you'll understand why these are so cheap. I hate leaving bad reviews, but I wanted to give a heads up to people.",
+   "date": "2021-05-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Nikki",
+   "titre": "Tore my skin",
+   "texte": "I struggle with dark spots from acne even if I do not bother a pimple and thought this would be helpful. I was soooo wrong. It broke through my skin leaving me with a horrible pink spot underneath the night before I was going on a trip. 10/10 would not recommend!",
+   "date": "2021-10-16",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "alaina",
+   "titre": "they work.",
+   "texte": "i've been dealing with crazy cystic acne after being taken off a medication from my derm and these are life savers! they really work if you read the directions. after my first use i noticed where i had put them, the spot had gone down significantly on the cystic pimple. i tested one out on a deep white head and when i went to take it off most of the puss had came out onto the sticker, but it also made it easier to pop the rest out! i just wish it came with more! 10/10!",
+   "date": "2023-01-16",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nicole",
+   "titre": "Fun shapes & works",
+   "texte": "I've known about pimple patches, but I do not have an acne problem and had not gotten around to trying them until now. These are the first pimple patches I tried and got these simply because I was drawn in by the cute, fun shapes. I used them primarily on my face, a few pimples had whiteheads, but most of them were just swollen & red. They work for me overnight; the swelling is gone and pimple ares are flattened and I can see impurities have been removed on the patch. The patches stay on overnight and do not leave a mark after removing. I had been using spot treatments like Burt's Bees Blemish Stick which dry out the pimple and result in flaking skin days later. Hydrocolloid patches like these do not result in flakey skin and I should have used them sooner. Because of humid summer weather, I've also used these on breakouts on my shoulders to help reduce some of the swelling & inflammation. While these patches are fun & cute and cheaper than some other brands, I think I prefer clear-ish patches.",
+   "date": "2022-07-31",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "kim",
+   "titre": "Wow!",
+   "texte": "At first, I was unimpressed because I had been using them wrong! They did nothing for my cystic pimples that were unpopped and untouched but when I put these over popped pimples/acne that I used a cosrx patch on, it helped significantly heal the acne and reduced redness by so much!",
+   "date": "2021-08-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ebeth",
+   "titre": "Works",
+   "texte": "It totally works overnight I do not have acne I do not have sensitive skin but once in a while I get a pimple and overnight this clears it up completely! Buy these",
+   "date": "2022-07-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "KRich",
+   "titre": "Ouch!!!",
+   "texte": "I left the patches on for 2 hours, as directed. I peeled off the patches and it was SO PAINFUL. I didn't see any obvious depuffing. Wouldn't purchase again.",
+   "date": "2021-04-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

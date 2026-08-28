@@ -1,0 +1,158 @@
+{
+ "ref": "prod2140584",
+ "asin": null,
+ "pid": "prod2140584",
+ "source": "ulta",
+ "nom": "Clinique Clinique For Men Oil Control Exfoliating Tonic",
+ "note": 4.31,
+ "nbAvis": 16,
+ "lus": 11,
+ "collectes": 11,
+ "segments": {
+  "oily": "Reviewers with oily skin report the tonic slows oil production, particularly in the T-zone, though several say it does not stop oiliness entirely and skin still feels oily overall, just less so.",
+  "sensitive": "One reviewer with a family member on sensitive skin wishes Clinique still offered a version formulated for that skin type, implying the current all-inclusive formula is not ideal for it.",
+  "dry": "Reviewers note the product can dry out skin, especially on the cheeks, when applied with too much product on the cotton ball, but adjusting the amount resolved the issue; one reviewer with chemical-exposed dry patches reports a tremendous improvement when paired with other Clinique cleansers."
+ },
+ "concerns": {
+  "oiliness": "Most reviewers with oily skin say the tonic reduces oil, keeps it toned, and lowers oil levels, though one specifies it only slows rather than stops oil production and skin remains somewhat oily overall.",
+  "spots": "One reviewer reports acne-prone skin cleared up within the first week of use, with oil levels kept low as part of the improvement.",
+  "blemishes": "The same reviewer describes visible acne clearing in the first week; no dissenting reports of breakouts appear in this set.",
+  "dehydration": "One reviewer notes initial dryness on the cheeks that improved after reducing the amount applied; another with pre-existing dry patches from workplace chemicals reports improvement rather than worsening dryness."
+ },
+ "aspects": [
+  {
+   "libelle": "Reduces facial oil over time",
+   "polarite": "pos",
+   "concerne": [
+    "oily",
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Can over-dry if overapplied",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Leaves skin feeling clean, not harsh",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Softens skin, eases shaving",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sensitive-skin specific version available",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Long-term reliable results with regular use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Received in poor condition, questionable quality control",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Sumi",
+   "titre": "I ordered a new product, but it feels like I received a used",
+   "texte": "This product was sold as new, but the condition I received it in suggests otherwise. The surface had sticky residue, as if glue had been left on it, and there was no protective sticker or seal inside. It honestly felt like I received a second-hand item. I'm extremely disappointed with the quality control and would not consider this acceptable for a new product.",
+   "date": "2026-01-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Aly",
+   "titre": "Husband approved",
+   "texte": "Purchased this for my husband who had begun his skin care journey. I went for Clinique since it's pretty reputable. It took about a week or two to notice changes in his skin. At first it dried out some of his skin like on his cheeks, but he switched to adding less on his cotton ball before application and his skin reacted much better. It's helped with his very oily skin. My only wish is that I could find this for very sensitive skin.",
+   "date": "2017-11-16",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "TJ",
+   "titre": "Pretty good product",
+   "texte": "This product works fairly well but in my experience it doesn't stop the oil. It just slows down the oil production in my T-zone. When I don't use it I can tell a big difference. I also use the Oil Control face wash and the facial scrub (both by Clinique for men). I still get oily overall but less oily than when I don't use the product.",
+   "date": "2017-05-28",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Hibiscus09",
+   "titre": "Scruffing Lotion - A must buy for men!",
+   "texte": "I bought this product for my husband and he loves it! He works in a plant and the chemicals from the items he handles causes his skin to have dry patches. Since using the scruffing lotion, along with the other Clinique 3 step cleansers, he and I both have noticed a tremendous difference.",
+   "date": "2012-09-25",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "koolbrze",
+   "titre": "Good product for the price",
+   "texte": "I have used this product for years. I was disappointed when Clinque changed their formula from different skin types to one all inclusive product. It is still a good product and I will still use it.",
+   "date": "2015-08-13",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Elise",
+   "titre": "Exfoliating",
+   "texte": "I got this tonic for my brother and his acne started clearing up in the first week. His skin has always been oily and acne prone. This tonic really exfoliated his face and is keeping oil levels low.",
+   "date": "2023-05-10",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chris",
+   "titre": "My husband immediately noticed a change!",
+   "texte": "Great product to use to soften skin for men, immediately noticed a difference in ability to shave easily.",
+   "date": "2011-10-13",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

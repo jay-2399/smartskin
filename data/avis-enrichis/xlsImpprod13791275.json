@@ -1,0 +1,166 @@
+{
+ "ref": "xlsImpprod13791275",
+ "asin": null,
+ "pid": "xlsImpprod13791275",
+ "source": "ulta",
+ "nom": "La Roche-Posay Anthelios Clear Skin Dry Touch Face Sunscreen SPF 60",
+ "note": 4.12,
+ "nbAvis": 2083,
+ "lus": 41,
+ "collectes": 115,
+ "segments": {
+  "oily": "Oily-skin reviewers are split: several call this their best sunscreen for a matte, non-greasy, velvet finish with reduced shine and pore appearance, while others with oily skin report pilling, peeling, or white cast issues.",
+  "dry": "Dry-touch finish is repeatedly described as too drying, with one reviewer saying it accentuated crow's feet and worsened dryness when sweating.",
+  "combination": "Combination-skin reviewers find it functions well as a moisturizer-sunscreen hybrid and doesn't cause breakouts, though one found it very drying.",
+  "sensitive": "Sensitive-skin reviewers are divided: some report stinging, burning eyes and white cast, while others say it left skin soft, calm, and did not break them out even while on retinoids.",
+  "mature": "One reviewer with mature, 50-year-old, oily skin liked the pore-minimizing and matte effect despite some tricky application and white streaking."
+ },
+ "concerns": {
+  "aging": "One mature-skin reviewer liked the pore-refining, matte effect; another combination-skin reviewer felt the dry-touch formula accentuated her crow's feet.",
+  "dehydration": "Multiple reviewers describe the formula as overly drying, causing tightness, peeling, or accentuated fine lines, though some counter this by moisturizing first.",
+  "redness": "Not directly discussed by reviewers.",
+  "barrier": "Several reviewers report stinging or burning around the eyes and skin irritation, though a similar number describe no irritation at all and even a calming effect.",
+  "spots": "Not discussed with enough specificity by reviewers.",
+  "blemishes": "Most acne-prone reviewers report no new breakouts and praise it as safe under retinoids or other actives; a smaller number mention the product itself causing acne or irritation.",
+  "oiliness": "Many oily-skin reviewers report a matte, shine-controlling finish lasting through the day; a few say it still left skin oily or greasy after some hours."
+ },
+ "aspects": [
+  {
+   "libelle": "White cast on deeper skin tones",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Pilling with layered skincare",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Matte, velvet finish",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Stinging or burning near eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Wears well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lingering chemical sunscreen scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price relative to alternatives",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Ros",
+   "titre": "0 stars if optional",
+   "texte": "Absolute trash spf, do not buy. Worst spf possible, takes forever to set even after blending 4 times. White cast like crazy and pills, little protection against the sun. Burns eyes really bad and causes acne.",
+   "date": "2025-02-19",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "K",
+   "titre": "White cast on Brown skin",
+   "texte": "I am medium brown skin African American and unfortunately this product produce a white cast on my face. Also when applied on top of moisturizer the sun screen becomes grainy after a few hours. I love the brand but disappointed in this product.",
+   "date": "2026-04-21",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 3,
+   "auteur": "Jules",
+   "titre": "Good Sunscreen But Leaves White Cast",
+   "texte": "I'm very dark skinned so I'm used to mineral sunscreens leaving a white cast but this is a chemical sunscreen so it should theoretically leave no cast. However no matter how much I rub it in, it leaves a cast and white streaks on my face and baby hairs.",
+   "date": "2026-03-28",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 3,
+   "auteur": "apple",
+   "titre": "Not kidding about dry touch",
+   "texte": "I have combo skin. This sunscreen does the job with sun protection I would say, but I don't like how incredibly drying it was for me. It accentuated my crow's feet. Like the title says, they're not kidding about how it's dry touch!!! I found this sunscreen to be incredibly drying for my skin and the worsttt when you sweat. I have not worn this while swimming yet. When sweating, the sunscreen just slides around and gets on your hands/arms when you wipe the sweat off your face which is annoying. I wonder if this is any better for people with oily skin... I did not experience pilling since I followed the advice of some of the other reviewers by putting on moisturizer and THEN this sunscreen after.",
+   "date": "2026-07-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "lp",
+   "titre": "I like it, it's almost perfect",
+   "texte": "I really like it. When I use this my pores look smaller and they pretty much disappear. My face stays matte all day. I have oily, aging, 50 yr old skin. It is a little tricky to apply. I use small amounts in each section and blend it well or you can end up with white streaks. It leaves me a little whiter but I dust a little face powder over it. I am pale to medium olive tone depending on the time a year. It smells like a chemical sunscreen but the smell disappears quickly. I use it anytime I don't want a greasy sunscreen face.",
+   "date": "2026-01-10",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Libby",
+   "titre": "Really pleased",
+   "texte": "Skin type- super sensitive, acne prone I've tried quite a few sunscreens- hero's mineral sunscreen, eucerin, black girl sunscreen, australian gold, good molecules, and lots more. Those are great, but all occasionally broke me out. I'm on trentinion, and with this sunscreen, I feel protected and I don't feel like it's counterproductive to the retinoid's work on my skin. I've used it for a month now and it's yet to break me out. It leaves the sheerest cast, but hardly noticeable, especially if you wear a touch of any other product really. Will definitely repurchase. A skin safe win!",
+   "date": "2024-08-20",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MArii",
+   "titre": "Highly Recommend",
+   "texte": "I have extremely oily skin & tried dffrent suncreens, but this one has been the best for my skim, its not thick so if you wear make up it helps. It has a matte finish that helps reduce shine lightweight and comfortable for daily wear",
+   "date": "2026-07-21",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

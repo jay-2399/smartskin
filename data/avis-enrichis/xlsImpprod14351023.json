@@ -1,0 +1,165 @@
+{
+ "ref": "xlsImpprod14351023",
+ "asin": null,
+ "pid": "xlsImpprod14351023",
+ "source": "ulta",
+ "nom": "Shiseido Perfect Cleansing Oil",
+ "note": 4.46,
+ "nbAvis": 407,
+ "lus": 78,
+ "collectes": 121,
+ "segments": {
+  "oily": "Reviewers with oily or combination-oily skin generally report the product kept pores clean and did not increase oiliness, though one with combination dry/oily skin says it left her skin looking oily.",
+  "dry": "Reviewers with dry skin report it leaves skin soft, hydrated and non-stripped, and several long-term dry-skin users use it daily as a pre-cleanse step before a foaming cleanser.",
+  "combination": "One combination dry/oily skin reviewer found it left her face looking oily and did not recommend it for her skin type.",
+  "sensitive": "Most sensitive-skin reviewers report no irritation, stinging or breakouts and describe it as gentle, though one reviewer with sensitive skin reports it dried her skin out and made it sore, and another links it to blemish-prone flare-ups being avoided rather than caused.",
+  "mature": "Reviewers describing mature or aging skin report it keeps skin soft, supple and hydrated as part of a double-cleanse routine, with no negative reports specific to this group."
+ },
+ "concerns": {
+  "aging": "Reviewers with mature or aging skin report the product keeps their skin soft and supple and fits well into an anti-aging double-cleanse routine; no dissent reported for this group.",
+  "dehydration": "Many reviewers say it leaves skin soft, hydrated and not stripped of moisture, including a dry-skin user who relies on it in winter; however, one reviewer reports it made her skin feel very dry and another describes the newer batches as drying and sore.",
+  "redness": "One reviewer reports redness eased after stopping use, linking the product to prior irritation rather than relief; no other reviewers discuss redness directly.",
+  "barrier": "A couple of reviewers describe reactions consistent with barrier disruption after the reported reformulation (soreness, sensitivity, dryness), while long-term users describe no such issues with earlier batches.",
+  "spots": "One reviewer describes new closed comedones after a few days of use, and another reports cystic acne under the jawline and whiteheads after months of use; several other reviewers, including some prone to blemishes, report no breakouts at all.",
+  "blemishes": "A reviewer who describes blemish-prone sensitive skin reports it never causes breakouts for her, while other reviewers (skin type unspecified) report sudden, significant breakouts they attribute to the product, particularly after a suspected reformulation.",
+  "oiliness": "Most reviewers, including several with oily or combination skin, report it does not leave an oily residue and rinses clean; a minority, including one with combination dry/oily skin and several describing a newer batch, report it leaves an oily film that does not rinse off well."
+ },
+ "aspects": [
+  {
+   "libelle": "Suspected reformulation reduces performance",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rinses clean without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves oily film, hard to rinse",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes waterproof makeup and mascara",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Frequent stock shortages",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant light scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Orchid",
+   "titre": "Used to be Perfect but not anymore :(",
+   "texte": "This used to be my holy grail, go to oil cleanser. It was game changing in my skincare routine and made such a difference in the condition of my oily/combo skin (and I'm not exaggerating). It worked wonders on keeping my pores clean while also hydrating and being gentle on my skin (with no reactions, which I sometimes experience with certain ingredients—drying out skin, some redness, etc). I purchased a new bottle not knowing about the reformulation and upon use I noticed the consistency was quite different. It was more slippery, did not clean well, and ended up breaking me out (and I'm not prone to breakouts!). This is so saddening as now I need to find a replacement after all these years, very disappointing.",
+   "date": "2025-05-01",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Ray",
+   "titre": "Cystic acne warning",
+   "texte": "Used the whole bottle as my daily double-cleansing routine for months until I finally realized it was the cause of horrific cystic acne under my jawline, as well as whiteheads along my eyebrows. Loved the feeling, and it did the job of removing sunscreen, but now that I've stopped using it my redness has eased and the acne is clearing up. :(",
+   "date": "2023-06-20",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Jen",
+   "titre": "Would not buy this product!!!!",
+   "texte": "This product broke me out TERRIBLY!!! After using for a few days I started to break out and get closed comedones! I got gifted a sampler from my friend. This oil cleanser is certainty not for all skin types. I am still trying to fix my skin.",
+   "date": "2024-11-28",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Stacey",
+   "titre": "Not for me",
+   "texte": "I have combination dry and oily skin. This mostly leaves my skin looking oily.",
+   "date": "2025-04-21",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Queen of Hearts",
+   "titre": "Love this product!",
+   "texte": "I love this cleansing oil! I have very dry, aging skin and will often double wash my face at night. First with the foaming cleanser and top it off with the Perfect Cleansing Oil. It feels wonderful and is a light oil that washes off cleanly, leaving a soft supple skin. It has been especially helpful during these cold winter months. Try it!",
+   "date": "2023-03-31",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "priscillaf2",
+   "titre": "Loving this cleansing oil",
+   "texte": "I feel like it takes all my makeup off without stripping the moisture of my face. I mostly use it during cold months (fall and winter). I have sensitive skin prone to blemishes and it never makes me brake out. I don't need to double cleanse with this product!",
+   "date": "2022-08-09",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Paula",
+   "titre": "Excellent product!",
+   "texte": "This product is excellent. It removes makeup and is very gentle. It doe the job. I have mature, sensitive skin that breaks out with other products and this does not - it works brilliantly!",
+   "date": "2026-05-17",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

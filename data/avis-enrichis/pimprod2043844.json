@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2043844",
+ "asin": null,
+ "pid": "pimprod2043844",
+ "source": "ulta",
+ "nom": "Avène Vitamin Activ Cg Radiance Serum",
+ "note": 4.28,
+ "nbAvis": 144,
+ "lus": 78,
+ "collectes": 106,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are split: several report zero irritation, no redness, and comfortable wear even around the eyes, while others describe an overwhelming fragrance, tingling, a rash, or a burning sensation on first use.",
+  "combination": "One combination-skin reviewer found absorption fast with no oily shine but said the serum alone was not moisturizing enough and needed a separate moisturizer on top.",
+  "dry": "A dry-skin reviewer reports the serum kept skin moisturized with a noticeable improvement over time.",
+  "mature": "Reviewers who mention aging or mature skin describe it as good for dullness, fine lines/wrinkles and dark spots, with one calling it exactly what her aging skin needs."
+ },
+ "concerns": {
+  "aging": "Several reviewers report brighter skin and fewer wrinkles or fine lines over time; one mature-skin reviewer says she is still waiting to see fuller results after limited use.",
+  "dehydration": "Most reviewers describe skin as hydrated, moisturized, or plumped after use; a couple say it did not feel hydrating enough or that the product didn't seem to penetrate.",
+  "redness": "One reviewer with rosacea says the serum hydrates but still triggers redness; another reports it soothed and calmed skin instantly with no red marks.",
+  "barrier": "Reviewers with reactive or highly sensitive skin generally report no irritation and calm skin, though a few describe tingling, burning on first use, or an outright rash.",
+  "spots": "Multiple reviewers report fading of dark spots and post-blemish marks within weeks; one reviewer transitioning from another vitamin C product says fading is slower here but still occurring.",
+  "blemishes": "One reviewer reports the serum reduces red marks after acne breakouts and evens out skin tone; no reviewer reports it causing new breakouts, though several note pilling under other products.",
+  "oiliness": "Reviewers consistently describe the finish as non-greasy, non-oily, and quick-absorbing, including on combination skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong or lingering fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pilling when layered with other products",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Silky, non-greasy finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky residue on skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus pricier vitamin C serums",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle leaking during travel",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Ann",
+   "titre": "I would not buy this, the fragrance is overwhelming!",
+   "texte": "Do not buy this. The smell is overpowering and headache inducing. I have sensitive skin, the tingling is okay but the smell is not. Do not advertise as clean ingredients when you add fragrance. What a disappointment from this company.",
+   "date": "2024-12-12",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Alesia",
+   "titre": "The serum has a very strong aroma.",
+   "texte": "The serum is absorbed into the skin very quickly and does not leave behind an oily shine. I have combination skin and this serum didn't provide enough moisture.I had to use another serum and apply moisturizer on top.What I didn't like most was the very strong fragrance, it stayed on my skin for quite a long time even after applying the second serum and cream. If you don't like very strong fragrances in cosmetics or you are allergic to them, then this serum is not for you.",
+   "date": "2024-10-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Ambs",
+   "titre": "Not Bad",
+   "texte": "My rosacea tends to get worse when I apply vitamin C serum. My face felt hydrated but gets red.",
+   "date": "2024-10-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marisa O",
+   "titre": "Perfect Vitamin C Serum for Sensitive Skin",
+   "texte": "I love this serum! I use it all over my face and neck -- including around my eyes -- for glowing, protected skin with zero irritation. I follow with the Hydrance Aqua Gel, which I also apply around my eyes, and my skin hasn't look this soft, plump, and luminous in years. They both have a very mild, pleasant scent that dissipates very quickly and causes no irritation to my highly reactive skin.",
+   "date": "2024-11-03",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Miguel67",
+   "titre": "Great for skin discoloration",
+   "texte": "this serum really helps reduce red marks after an acne break out. It leaves your skin glowing.",
+   "date": "2024-10-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alex/",
+   "titre": "Good product",
+   "texte": "I like it! It leave me the skin shinier and I start noticing less wrinkles and mark then before. The first time I applied it it burned a little, but it was just that occasion and on a few occasions that I have a pimple. Maybe if you have sensitive skin, you could first consult a dermatologist or do a test on your neck before buying it.",
+   "date": "2024-11-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hope777",
+   "titre": "Nice serum",
+   "texte": "This TRULY keeps your skin moisturized.This is really doing a great job on my dry skin. I use morning and night and it has made a big change.Vitamin B3 instantly provides skin with a boost of intense hydration while replenishing natural moisture levels to provide long-lasting hydration .",
+   "date": "2024-09-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

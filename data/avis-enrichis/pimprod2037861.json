@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2037861",
+ "asin": null,
+ "pid": "pimprod2037861",
+ "source": "ulta",
+ "nom": "La Roche-Posay Lipikar Body Lotion Daily Repair Moisturizing Lotion for Dry Skin",
+ "note": 4.58,
+ "nbAvis": 673,
+ "lus": 80,
+ "collectes": 121,
+ "segments": {
+  "dry": "Reviewers with dry, very dry, or extremely dry skin most often report visible relief from flaking, cracking, and itching, describing the lotion as thick, rich, and long-lasting on the body, though several note it takes a while to sink in and can feel sticky or greasy.",
+  "sensitive": "Reviewers with sensitive skin generally report no irritation, rash, or stinging and consider it a safe, fragrance-friendly option, though a couple developed itching or a rash on the body and one avoids applying it to particularly sensitive areas as a precaution.",
+  "combination": "One reviewer with dry/combination, acne-prone, sensitive skin found it non-drying and non-irritating on the face, while another explicitly warns that combination-oily skin can be over-hydrated by this product.",
+  "oily": "A single reviewer with oily skin uses it as a face moisturizer and finds it absorbs quickly without residue and does not worsen oiliness, though it does not reduce oiliness either.",
+  "mature": "One reviewer in her 50s with picky, decades-informed skin judgment prefers this formula over La Roche-Posay's heavier Triple Repair version, finding it better for long-lasting moisture on face, body, and neck."
+ },
+ "concerns": {
+  "aging": "The only mention from a self-identified mature reviewer is comparative, preferring this lighter formula over a heavier 'triple repair' one for long-lasting moisture; no reviewer reports specific effects on wrinkles or firmness.",
+  "dehydration": "The large majority of reviewers with dry or very dry skin report meaningful, sometimes described as life-changing, relief from dryness, cracking, and itching, with effects lasting through the day or overnight; a small number found it insufficiently absorbed or still greasy despite the hydration.",
+  "redness": "One reviewer reports the lotion softened skin and reduced redness and bumpy texture on scarred, post-surgical skin; no other redness-specific reports are given.",
+  "barrier": "A few reviewers describe the lotion as repairing or restoring the skin barrier overnight, including one using it alongside tretinoin, but this is based on personal impression rather than measurement.",
+  "spots": "One reviewer reports the lotion practically eliminated breakouts associated with keratosis pilaris-like bumps ('keratosis polaris'), a relatively isolated report.",
+  "blemishes": "Reports are split: several reviewers with dry, acne-prone, or eczema-prone skin found it did not cause breakouts and even helped keep skin clear; however, multiple others—one with facial acne, one with a body rash, one who got 'red dots,' and one who broke out specifically on the face—report new blemishes or irritation, several noting it should be used on the body but avoided on the face.",
+  "oiliness": "Feedback is mixed: one oily-skin user found it absorbed without residue and did not worsen oiliness, while another reviewer explicitly warns that combination-oily skin can become over-hydrated or greasy-feeling with this product."
+ },
+ "aspects": [
+  {
+   "libelle": "Fishy or dough-like scent despite fragrance-free claim",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick, rich texture that hydrates deeply",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Slow absorption leaving sticky or greasy after-feel",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser fails before bottle is empty",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for amount of product",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Higher price point than competitors",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Suitable for dual use on face and body",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "AT",
+   "titre": "Might break you out",
+   "texte": "Every skin is different. The first fee times i used this product i loved it and loved the price. But it ended up ruining my skin, my skin broke out. I now have bunch of red dots on my face. And have stopped using this product. My skin didnt love it, but who know it might work for you.",
+   "date": "2024-09-18",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "AG",
+   "titre": "Yes for the body, No for the face",
+   "texte": "I love it on my dry legs and arms. Texture is nice, unscented, and skin stays hydrated. However, I used it on my face for 2 days and ebded up with acne, which I never get. I also don't like how my face is very greesy when I wake up.",
+   "date": "2023-08-04",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "paigeb268",
+   "titre": "Nourishing",
+   "texte": "This body lotion is the only thing that keeps me from scratching off my dry, sensitive skin in the winter. It is thick and takes a while to sink in but forms a sort of protective layer over the skin (I do not feel this when my skin is dry but notice it when I shower it off). This product is unscented but smells kind of like play doh. While this lotion works great on my body, it breaks my face out, possibly due to the shes butter",
+   "date": "2023-08-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bambi",
+   "titre": "Holy grail moisturizer for acne prone sensitive skin!",
+   "texte": "This is an amazing basic cleanser for any skin type! I have dry/combo sensitive skin that's acne prone and this works well for me. It isn't drying and leaves my face feeling nice and clean. I can use it around my eyes without irritation and that's a plus! It also doesn't break me out which is a huge factor for me. It's also fragrance free. I love the ingredients and how it has a pump that locks.",
+   "date": "2024-04-22",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Leisy",
+   "titre": "great for oily skin",
+   "texte": "I use this as my daily face moisturizer and it works great. This is a lotion, not a cream, so it's water based and works well for my oily skin because it absorbs quickly without residue. I like that it doesn't make it worse like other moisturizers (also doesn't cure my oiliness but thats not the point). It's an easy pump to grab in the mornings and has lasted me so long. Happy I found this product.",
+   "date": "2024-11-29",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "abbyh240",
+   "titre": "Great for my bad skin days!",
+   "texte": "This product is great for those days when my skin is SUPER dry, however don't use this product if you have combination-oily skin because it can over-hydrate your skin.",
+   "date": "2023-08-24",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Samper",
+   "titre": "Great product",
+   "texte": "I'm a bilateral above knee amputee and need to keep the residual skin soft and moisturized. Due to 5 operations on one of my legs my skin looked red and bumpy like an orange peel. Since I purchased you product it has softened the skin and the redness bumpy appearance of of the area. The fact that this product may be used all over the body is wonderful and no need to purchase another product for the face. This product does it all and I'm extremely satisfied. That you for developing such a great product!",
+   "date": "2024-01-28",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,148 @@
+{
+ "ref": "pimprod2049100",
+ "asin": null,
+ "pid": "pimprod2049100",
+ "source": "ulta",
+ "nom": "TATCHA The Indigo Cleansing Balm Moisturizing Makeup Remover",
+ "note": 4.57,
+ "nbAvis": 14,
+ "lus": 12,
+ "collectes": 12,
+ "segments": {
+  "sensitive": "Reviewers with sensitive, acne-prone skin report the balm removes makeup without irritating the eyes or triggering breakouts."
+ },
+ "concerns": {
+  "spots": "One reviewer with cystic acne chose this balm specifically because it is oil-free and says it did not worsen her breakouts and helped reduce some cheek redness with consistent use.",
+  "redness": "One reviewer reports reduced redness on the cheeks with consistent use, though this is a single account.",
+  "blemishes": "A reviewer with sensitive, acne-prone skin reports no new breakouts after regular use as a first cleanse."
+ },
+ "aspects": [
+  {
+   "libelle": "Melts down makeup effectively",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No greasy residue after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Struggles with waterproof mascara",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High-end packaging with scoop disk",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price versus alternatives",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Faint floral scent, not offensive",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Leaves skin soft without stripping barrier",
+   "polarite": "pos",
+   "concerne": [
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Meh",
+   "titre": "Get a drugstore dupe",
+   "texte": "This works well but ive tried other cleansing balms that work just as well for half the price. Save your money!",
+   "date": "2025-02-15",
+   "verifie": false,
+   "utiles": 22,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Lacey",
+   "titre": "Best oil free makeup removing balm",
+   "texte": "I suffer from cystic acne, so I try to avoid skincare products containing oil. This is the first makeup removing balm that I've tried and loved that is oil free! It removed all my makeup and helped reduce some redness on my cheeks but with consistent use. My only wish is that it was a tad bit more moisturizing. Regardless, this has become a new skincare staple for me!",
+   "date": "2026-01-10",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Liz",
+   "titre": "Great for sensitive skin!",
+   "texte": "I have sensitive, acne-prone skin, and wear makeup everyday. This product easily removes all of my makeup, doesn't irritate my eyes, and hasn't caused any breakouts. I would definitely recommend this as a first cleanse and makeup remover!",
+   "date": "2026-02-11",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Melanie",
+   "titre": "Good but won't buy again",
+   "texte": "This product does a great job at melting down makeup and being a decent first cleanse, as long as you don't wear waterproof mascara. I have to do an extra cleanse with a different makeup remover on my eyes so it defeats the purpose of using this.",
+   "date": "2025-01-16",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Dentaldiva",
+   "titre": "Wonderful Cleansing Balm.",
+   "texte": "This is a great balm to start your cleansing routine. I'm a big fan of double cleansing with balm and a cleanser. Not only does it start working right away, it starts to melt away your makeup, dirt, oil and other impurities and leaves the skin soft, clean and no stripping of your skin barrier. Comes with a little gold disk to scoop just the right amount. This rivals Clinique's Take the Day Off balm. Definitely a good purchase. Try the Tatcha skincare line. Yes, it's a tad pricey, but you can achieve great results with it.",
+   "date": "2025-01-24",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Pam",
+   "titre": "Really does the job",
+   "texte": "This balm really does an amazing job removing waterproof eye makeup and has become one of my favorites. If you use with a cloth to remove, it is seamless.",
+   "date": "2025-07-28",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "viv",
+   "titre": "Best cleansing balm I've used!",
+   "texte": "I stuck to Dermalogica for the longest time. Just got complacent about it never thought to try another brand until my face suddenly started to disagree with it. I thought their pre-cleanse oil was good. It's not. It's garbage compared to this stuff. Tatchas cleansing balm lasts me way longer, get every speck of mascara off, and leaves my eye area totally clean. I don't have to use another round or a cleanser on my eyes like I did with Dermalogica's. When I wear a full face, it absolutely melts everything off and let's my cleanser really get in there and do it's thing. It's got a very faint scent to it. A clean, hint of floral scent that is not offensive. I cannot recommend this stuff enough.",
+   "date": "2025-04-09",
+   "verifie": false,
+   "utiles": 13,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "Only two reviews mention specific skin type or concern in enough depth to segment reliably, so conclusions for other skin types cannot be drawn from this set."
+}

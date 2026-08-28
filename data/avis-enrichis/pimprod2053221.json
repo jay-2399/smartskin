@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2053221",
+ "asin": null,
+ "pid": "pimprod2053221",
+ "source": "ulta",
+ "nom": "The Crème Shop Hello Kitty and Friends Bright Yuzu Jelly Overnight Mask",
+ "note": 4.65,
+ "nbAvis": 51,
+ "lus": 49,
+ "collectes": 49,
+ "segments": {
+  "dry": "Multiple reviewers with dry skin, including one describing very dry, cracking, sensitive skin, report significant hydration, less flaking, and softer skin, though one notes the formula is lighter than deeply rich masks and may be less suitable for very dry skin.",
+  "sensitive": "One reviewer with very dry, sensitive skin that normally breaks out from products reports no breakouts and soothing relief for painful, cracked dry patches.",
+  "oily": "One reviewer with oily skin reports quick absorption, an instant glow, and interest in seeing brightening results over time, and another notes the mask controlled oiliness for part of the day."
+ },
+ "concerns": {
+  "dehydration": "Reviewers consistently report waking up with hydrated, plumper, softer skin and reduced flakiness; one reviewer using tretinoin noted less makeup pilling from dryness, and one review flags the formula as lightweight rather than deeply rich for very dry skin.",
+  "barrier": "One reviewer specifically credits the mask with helping her skin barrier and reducing flaky patches with nightly use.",
+  "spots": "Reviewers report brighter, more even-toned skin over one to two weeks, with one noting faded dark spots and another noting lightening acne scars, though effects are described as gradual rather than immediate.",
+  "blemishes": "One reviewer using it for acne on her chin saw only a little difference and remained unsure the price was worth it for acne specifically, while others report no new breakouts and one notes it hasn't caused pimples so far.",
+  "oiliness": "One reviewer felt it left skin 'not oily at all,' and another said it controls oiliness somewhat but not for the whole day."
+ },
+ "aspects": [
+  {
+   "libelle": "Gel-jelly texture absorbs quickly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Yuzu citrus scent light and pleasant",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance off-putting or too strong",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Cute, durable Hello Kitty packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky residue or squeaky rinse-off",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good product amount for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Poor wear underneath makeup",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Sarah",
+   "titre": "Hydrating mask",
+   "texte": "I've been using this overnight mask for a couple weeks now when I go to bed (not every night but a few times a week) and I can't say it did much for the acne I have on my chin (there was a little difference) but it did help with my dry skin so if you have dry skin I'd recommend this product because only after a few uses I noticed a significant difference in my face. Really hydrating mask. If you're looking for something that helps with acne this might not be the product for you or maybe it might be since everyone's skin is different and what doesn't work for me might work for you. Also smells really good. Do I think the price is worth it? 50/50 on that since like I said it didn't really help with my acne that much.",
+   "date": "2025-09-15",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "All About Self-Care",
+   "titre": "Cute packaging and hydrating product!",
+   "texte": "This overnight face mask is super cute and makes me wake up with plump and hydrated skin. The gel consistency is perfect to wear to bed without feeling weighed down or greasy. The product seems to absorb nicely into my skin and allows me to wake up with plump skin. This product is great for those with dry skin or who use drying products also at night such as prescription trentinoin. The smell was not bad but it was one that I had to get used to over several nights. I usually prefer fragrance free products but the smell was nice and light.",
+   "date": "2025-08-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "m",
+   "titre": "sensitive skin approved",
+   "texte": "so tbh i bought this cause im a kuromi girl and the packaging was hard to resist. but i have veryyyy dry sensitive skin, like most products just make me break out immediately, this didnt!! and for some reason recently, my skin had been extra dry. like to the point of it cracking and being painful, this really has helped soothe it and hydrate those dry spots a lot.",
+   "date": "2026-07-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Blushntell",
+   "titre": "Hydrating",
+   "texte": "The mask is super moisturizing. I've been using it every night for a few weeks. It's really helped with the skin barrier. I get flaky patches on my skin so having this has been great. It absorbs well and doesn't leave residue all over the pillow. I'd definitely recommend!",
+   "date": "2025-09-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Onika",
+   "titre": "It surprised me! Love it",
+   "texte": "This mask absorbs into my skin really quickly and gives me an instant glow. I wake up my skin feels very hydrated. Its a gel texture not to thick it's perfect, I have oily skin. I can't wait too see brighten results over time.",
+   "date": "2025-08-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kaee",
+   "titre": "Very Hydrating!",
+   "texte": "I've been struggling with acne scars for a few months, so I've been using the overnight mask every night for about a week. I enjoy the gel consistency; it's not too thick but still very hydrating. I've noticed my skin has gotten brighter, and the acne scars are starting to lighten. It has a citrusy scent to it, which I find refreshing. Overall, I'm impressed with the short-term results and am excited to see the effects with long-term use.",
+   "date": "2025-08-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Rory",
+   "titre": "Gimicky",
+   "texte": "This product is heavily scented which makes me doubt the efficacy of it. Not sure that I would recommend putting it on your face.",
+   "date": "2025-11-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

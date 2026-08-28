@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2053248",
+ "asin": null,
+ "pid": "pimprod2053248",
+ "source": "ulta",
+ "nom": "ANUA PDRN Hyaluronic Acid 100 Moisturizing Cream",
+ "note": 4.79,
+ "nbAvis": 139,
+ "lus": 79,
+ "collectes": 83,
+ "segments": {
+  "dry": "Reviewers with dry skin, including postmenopausal and patchy dry skin, describe the cream as deeply hydrating, sinking in well, and improving texture, glow, and elasticity over repeated use.",
+  "sensitive": "Sensitive-skin reviewers, some also acne-prone or rosacea-prone, report no irritation or breakouts and describe the cream as calming, though one 3-star reviewer found it left an uncomfortable residue.",
+  "combination": "Combination-skin reviewers, including one with an oily T-zone and dry patches and one with combo oily/cystic-prone skin, describe it as fungal-acne safe, non-greasy, and versatile under makeup.",
+  "mature": "Mature-skin reviewers, including postmenopausal and rosacea-prone women in their 40s-70s, report increased hydration, plumpness, softer skin, and some reduction in fine lines.",
+  "oily": "One reviewer with an oily T-zone found the cream kept her matte and non-greasy even in humid weather, while another with combo-oily skin needed only light layers to avoid excess richness."
+ },
+ "concerns": {
+  "aging": "Several mature or aging-skin reviewers report firmer, plumper skin and reduced fine lines after consistent use, with one noting near-disappearance of forehead lines within a week and another citing evened-out skin and reduced wrinkles after four months.",
+  "dehydration": "Many reviewers describe long-lasting hydration and a dewy, plump, refreshed look even in previously dehydrated or dry skin; one 3-star and one 4-star review found it insufficiently moisturizing for their needs.",
+  "redness": "Reviewers with rosacea or general redness report calming and soothing effects, with one specifically noting reduced redness alongside retinol use; no reviewer reports increased redness.",
+  "barrier": "Reviewers with compromised or reactive skin (lupus rash, persistent texture/bumps, retinoid-irritated skin) report visible healing, smoother texture, and relief from peeling and dryness.",
+  "spots": "One reviewer notes shrunken pores and less redness after pairing with retinol, but no reviewer reports the product directly fading dark spots or hyperpigmentation.",
+  "blemishes": "Most acne-prone reviewers report no new breakouts and some healing effect after acne, describing it as fungal-acne and cystic-acne safe; one reviewer, however, reports it caused cystic acne breakouts she had never had before.",
+  "oiliness": "Reviewers describe the finish as non-greasy and lightweight even for oily or combination-oily skin, with only light layering needed in hot weather; no reviewer reports it feeling heavy or greasy."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills or leaves residue under makeup/sunscreen",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glowy, dewy finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dropper/pump packaging preserves product",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small quantity relative to price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented or very light scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Layers well under makeup and SPF",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Hanna",
+   "titre": "Cystic acne breakouts",
+   "texte": "Broke me out in cystic acne, as a person who never had cystic acne",
+   "date": "2026-04-08",
+   "verifie": false,
+   "utiles": 13,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stephanie",
+   "titre": "Love! Love! Love!",
+   "texte": "This along with the pads and serum has had a huge POSITIVE impact on my dry, aging skin! I've gone through so many skincare brands trying to find the right regimen for my post menopausal, dry, patchy skin, but nothing comes close to hydrating my skin like this! If buying, make sure you pair it with the pads and serum in the same line. I saw a difference after 1 use!",
+   "date": "2026-05-21",
+   "verifie": false,
+   "utiles": 28,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Madi",
+   "titre": "If I could only choose one moisturizer.. .THIS WOULD BE IT",
+   "texte": "I have extremely sensitive, dry, and flaky skin. I was dealing with texture and bumps that I couldn't kick; no matter the chemical or physical exfoliant, or even the consistent use of a retinoid. Sis gave this to me, and I don't have any bumps! Like a baby",
+   "date": "2026-04-12",
+   "verifie": false,
+   "utiles": 24,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stac",
+   "titre": "Love this for my mature skin",
+   "texte": "Love this for my mature, Rosacea prone skin. I it very hydrating and leave my skin baby soft. Will be buying this on repeat!",
+   "date": "2026-03-01",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sue",
+   "titre": "Acne prone skin safe",
+   "texte": "I have combination skin type snd prone to acne. My skin is very sensitive however this didnt break me out and also works amazing.",
+   "date": "2026-07-18",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lil",
+   "titre": "Best moisturizer I have tried!",
+   "texte": "I use this daily and my skin has never been clearer. I have struggled to find a moisturizer that does irritate my skin or feel greasy/oily and this does both. I also us in conjuction with a retionol 2-3x a week and my pores have shrunk and I have very little redness now too. Truly truly wish I could use this on my whole body and buy by the gallon!",
+   "date": "2026-08-07",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "stacy",
+   "titre": "Best moisturizer ever! Fungal acne safe.",
+   "texte": "I got this cream due to finding korean moisturizers that are completely fungal acne and acne safe. Im not a fan of gel moisturizers since i have combo oily but dry cystic acne skin. this is the perfect moisturizer that isn't too rich or gel like and all acne safe. not sticky at all, no burning and very good at hydrating. i will forever buy this now thank you Anua",
+   "date": "2025-07-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

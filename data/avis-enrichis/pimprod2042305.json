@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2042305",
+ "asin": null,
+ "pid": "pimprod2042305",
+ "source": "ulta",
+ "nom": "OLEHENRIKSEN Banana Bright Vitamin CC Sticks for Dark Circles",
+ "note": 4.45,
+ "nbAvis": 689,
+ "lus": 60,
+ "collectes": 102,
+ "segments": {
+  "dry": "Reviewers with dry or dry-to-normal under-eye skin describe the stick as moisturizing and hydrating, with one noting it feels heavenly and non-greasy (#42, #17, #55).",
+  "combination": "Reviewers with combination or oily-combo skin report the product creases quickly and needs to be set almost immediately, and one found coverage too light to layer well (#9, #5).",
+  "mature": "Reviewers over 45-60 report it smooths textured under-eye skin and gives a tighter appearance, though one this age found it drying with no correcting effect and only lasted an hour (#29, #32, #0).",
+  "sensitive": "No sensitive-skin-specific reactions (irritation, stinging) are reported in these reviews."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on aging report the product smooths textured skin and gives a tighter, firmer look under the eyes, with one crediting it for reduced puffiness after months of use.",
+  "dehydration": "Several reviewers say it moisturizes and hydrates the under-eye area without greasiness; one reviewer with dry skin found it instead drying and caking within hours.",
+  "spots": "Reviewers use it to cancel blue/purple and red discoloration, describing effective color correction on its own or under concealer; a few say it does not fully cover very dark circles but reduces intensity.",
+  "blemishes": "One reviewer wants a shade specifically for covering blemishes and general skin tone, suggesting current use is mainly for under-eye tone rather than facial spots.",
+  "barrier": "No reviews describe barrier-related effects such as stinging, breakouts, or compromised skin.",
+  "oiliness": "One reviewer with oily-combo skin says the product feels light and not greasy but must be set quickly to avoid creasing; another calls the formula almost oily-feeling on application."
+ },
+ "aspects": [
+  {
+   "libelle": "Creasing into fine lines",
+   "polarite": "neg",
+   "concerne": [
+    "combination",
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Stick breaks or falls out of tube",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth creamy blendable texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Brightening no-makeup glow",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Shade range too limited or dark",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to amount",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers poorly under concealer",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Gina",
+   "titre": "Drying",
+   "texte": "This corrector stick in Banana was horrible. I fully understand this is skincare and not a concealer. I wasn't looking for any coverage as I know this is not for that purpose. I was looking for a hydrating eye balm with subtle correcting abilities to brighten the eyes. This stick was so drying under my eyes. I'm 47 with no wrinkles but dark hereditary circles. This faded within an hour of initial application. It provided no correcting at all. Also, it layers terribly under concealer and it cakes up and creases. I tossed it after one week of use.",
+   "date": "2024-12-29",
+   "verifie": false,
+   "utiles": 42,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Taylor",
+   "titre": "Poor coverage and difficult to layer or blend",
+   "texte": "I wanted to love this because of the color and convenient packaging, but it's a miss for me. I have combination skin, so I tried this layered over moisturized that had set in and without moisturizer. In both scenarios, the product barely gave any coverage and needed to be layered. However, when trying to layer or blend, the product balled up and rubbed off.",
+   "date": "2025-10-02",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "combination",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "cashew",
+   "titre": "yes!! but no….",
+   "texte": "love the reflective properties that dilute dark circles. love the formula - cooling and easy to blend with a puff. i have oily-combo skin and i Have to set this almost immediately or it will crease (my fave iz about face curtain call!!). the only thing is this does not give me \"skincare\" results, would rather buy just a color correcter for cheaper tbh",
+   "date": "2025-03-11",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kira",
+   "titre": "Great as a brightening, priming eye cream",
+   "texte": "I've used an entire stick and buying another. I have genetic dark circles, hollow eyes, and baggy eyelids that are dry to normal skin type. I use this stick in the daytime under makeup or alone on no-makeup days, and it works effectively as a brightening eye cream and eye primer. However the coverage is not significant enough for me to consider this \"color correcting\" and I still need to use a color corrector concealer. Maybe if your dark circles are less severe, this could color correct for you. But to me, this is a skincare product, not a makeup product. Also, I havent noticed a difference in brightness after longterm use. It definitely moisturizes and brightens the eyelid without being greasy, and effectively primes for makeup. I will be buying another.",
+   "date": "2026-01-22",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lisa",
+   "titre": "Helps aging eyes",
+   "texte": "I'm over 60 and this definitely helped my under eye area. It smoothed out my textured skin and seemed to give a tighter look. I just added a little concealer and powder after applying the Banana Bright stick. I highly recommend this for aging eyes.",
+   "date": "2025-04-26",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "EJ",
+   "titre": "Love Guava",
+   "texte": "Great color corrector that provides a great base for concealer. It is hydrating which is perfect for my dry skin! I'm a very fair olive and guava was perfect. It's more sheer than a purely makeup color corrector so just something to think about if you want/need a more pigmented product. When blended in on its own the skincare aspect makes it look very natural.",
+   "date": "2026-01-16",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Dee",
+   "titre": "Waste of money and worse than concealer",
+   "texte": "I have very bad dark circles and I hoped this product would be help cover them up, whether alone or under my concealer. Before I could try it more than a few times, the entire stick flew out when I opened it and landed in my bathroom sink. I was not aggresive in uncapping it - it was a product flaw. I replaced it and used it for a month or two before the same thing happened again - this despite my being overly careful after my first experience. That being said, even without the design flaw, it is a bad product. On its own, its coverage and color correcting were weaker than my concealer. Layered under my concealer it looked horrible - greasy and weirdly pale and washed out. My concealer in its own (Nars Radiant Creamy Concealer) looks much better, both color and texture wise.",
+   "date": "2025-07-20",
+   "verifie": false,
+   "utiles": 17,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

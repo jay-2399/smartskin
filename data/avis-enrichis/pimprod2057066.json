@@ -1,0 +1,133 @@
+{
+ "ref": "pimprod2057066",
+ "asin": null,
+ "pid": "pimprod2057066",
+ "source": "ulta",
+ "nom": "ANUA KPop Demon Hunters Ceramide Barrier Collagen Mask",
+ "note": 4.1,
+ "nbAvis": 10,
+ "lus": 8,
+ "collectes": 8,
+ "segments": {},
+ "concerns": {
+  "dehydration": "Several reviewers describe the mask as moisturizing and hydrating, with one noting a visible difference before and after use, though another reviewer using it for a shorter time saw little improvement.",
+  "aging": "One reviewer highlights smoother, plumper skin especially on the forehead after a longer wear time, describing it as effective for firming-type results.",
+  "redness": "One reviewer reports her skin was red and slightly sticky the day after use rather than soft."
+ },
+ "aspects": [
+  {
+   "libelle": "Mask tears or rips easily",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fits face well, good coverage",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, relaxing feel on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin sticky rather than soft",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slides less than other mask brands",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires gentle handling to avoid tearing",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Every thing suck",
+   "titre": "Don't buy",
+   "texte": "As soon as i put it on it ripped three times then it would not stick to my face couldn't even see a change before and after.",
+   "date": "2026-03-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 3,
+   "auteur": "Tennia",
+   "titre": "didn't do much.",
+   "texte": "So I bought this mask yesterday and tried it out last night. I loved the fit of the mask! it covered well and didnt slip at all. Sadly the next day I didnt see much improvement and my skin was really red and a bit sticky not soft like most masks make my skin feel the next day. it's cute and fit well but I wouldnt but it again.",
+   "date": "2026-03-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ella",
+   "titre": "Be patient, it's worth it.",
+   "texte": "I've tried a few collagen overnight masks, and so far, this is the best. I did not try to sleep in it, but I left it on for about three hours. I was super impressed by how smooth ans plump it left my skin, especially my forehead. Great results for the price.",
+   "date": "2026-03-26",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ally",
+   "titre": "The best version of these masks i've tried so far",
+   "texte": "ive tried now 3 of these mask from all different brands this one is honestly my favorite sometimes I sleep with them on sometimes I don't when I used this one I didn't and I still got a really pretty glow to the skin other masks slide around way more than this one it didn't break me out and the cut out sizes and just face fitting is perfect on me i hope they keep it the same for all their masks",
+   "date": "2026-08-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "audrina",
+   "titre": "i would buy again !",
+   "texte": "these masks make my skin feel so moisturized and hydrated! definitely see a difference from before and after using it.",
+   "date": "2026-05-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "B",
+   "titre": "This is great",
+   "texte": "You have to be very gentle when using this product otherwise it can rip easily. I slept with this on and my skin felt so amazing!!",
+   "date": "2026-07-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "Reviews rarely state the reviewer's skin type or specific skin concern, so segmentation by skin type is not possible and concern-level detail is limited."
+}

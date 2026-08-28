@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2034791",
+ "asin": null,
+ "pid": "pimprod2034791",
+ "source": "ulta",
+ "nom": "BYOMA Moisturizing Rich Cream",
+ "note": 4.49,
+ "nbAvis": 556,
+ "lus": 78,
+ "collectes": 116,
+ "segments": {
+  "oily": "One reviewer with normal-oily, acne-prone skin says it did not work due to breakouts, while another with oily skin found it kept makeup smooth and non-greasy.",
+  "dry": "Reviewers with dry skin repeatedly describe it as rich, hydrating, and effective for winter dryness, dry patches, and flaking, with several calling it a holy-grail for dry skin.",
+  "combination": "Reviewers with combination and combo-dry skin say the rich texture is not too heavy even for daytime use and works well layered with other products.",
+  "sensitive": "Most reviewers with sensitive skin report it is soothing, non-irritating and fragrance-free, though a couple with sensitive/acne-prone skin experienced breakouts.",
+  "normal": "One reviewer notes the product suits normal/unproblematic skin best, distinguishing it from more problematic skin types.",
+  "mature": "Reviewers with mature or aging skin say it hydrates well and one credits it with reduced texture and a plumper look, though one found daytime use slightly irritating."
+ },
+ "concerns": {
+  "aging": "Reviewers using it for aging skin report good hydration, plumping and smoother texture; one found it slightly irritating for daytime use and recommends night-only application.",
+  "dehydration": "Widely reported as effectively hydrating for dry, flaky, or winter-dry skin, with multiple reviewers noting hydration lasting all day without greasiness.",
+  "redness": "One reviewer with sensitive, pore-clogged skin reports redness minimized after use; no dissent found.",
+  "barrier": "Several reviewers credit the tri-ceramide formula with strengthening and protecting the skin barrier, especially for compromised or eczema-prone skin.",
+  "spots": "Reviewers with eczema or psoriasis-related dryness report improvement (fewer flare-ups, smoother patches); no dissent noted.",
+  "blemishes": "Most reviewers with acne-prone skin report no new breakouts and some even see acne clearing, but several others explicitly describe new blind pimples, deep acne, or tiny breakouts attributed to the shea butter content.",
+  "oiliness": "Multiple reviewers, including those with oily or combination skin, say it absorbs without greasy residue or heaviness; no dissent found."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich creamy texture that absorbs fast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves no greasy residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser frequently defective or uneven",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Bulky container hard to empty fully",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula appreciated",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Shea butter triggers breakouts",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes",
+    "oily"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Amanda",
+   "titre": "Not for sensitive or acne prone skin",
+   "texte": "I have sensitive skin that breaks out easily and have to be careful of what I use. I should have known better than to switch from my old faithful moisturizer. But I gave this a try and noticed blind pimples and deep acne within a couple of weeks. Wanted to love it but its just not for me.",
+   "date": "2025-08-09",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Chloe",
+   "titre": "great moisturizer, just unfortunately not for me!",
+   "texte": "i love the texture and feel of this moisturizer! BYOMA is oneof my faveitie skincare brands on the market right now. Shea Butter is unfortunately a pore clogging ingredient for my acne-prone skin and its oretty high up on the ingredient list. However, this moisturizer is such a good texture and leaves the skin soft, plump & glowy. It would be perfect for someone with normal-dry skin that is not acne prone! Although it does cause tiny breakouts for me, I will still use it until I run out",
+   "date": "2025-11-11",
+   "verifie": false,
+   "utiles": 18,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jaiden",
+   "titre": "Great for dry skin, not for acne prone skin",
+   "texte": "This is a great choice for anyone with dry skin, compromised skin barrier, and mature skin. Amazing, buttery texture. It unfortunately made me break out though, I think due to the shea butter, which tends to be a pore clogger for me. I have very acne prone skin, normal-oily, so just didn't work for me.",
+   "date": "2025-02-04",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kisha",
+   "titre": "Insanely Rich",
+   "texte": "I have the DRIEST skin due to psoriasis and eczema. Needed a new routine that I could afford and works. My skin is now not only buttery soft, but I haven't had a flare-up since switching. I have the Jelly Cleanser, Hydrating Toner, Hydrating Serum, Rich Cream, Barrier+ Treatment and Hydrating Recovery Oil.",
+   "date": "2025-01-10",
+   "verifie": false,
+   "utiles": 21,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mads",
+   "titre": "At first…",
+   "texte": "When first trying this product i wasnt sure, only because i have super sensitive skin with pores that clog easily. Id had some breakouts that were healing literally from the night before. After waking up this morning. Ooooh weee. I love it. Redness has minimized and no oily residue. Great night moisterizer.",
+   "date": "2025-03-22",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Janet",
+   "titre": "Great for sensitive skin",
+   "texte": "Bought for my teenage son who has struggled with mild eczema his whole life. The cold morning the are the WORST. Leaves his face smooth and balanced without clogging pores. Worth every penny!",
+   "date": "2025-11-15",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chelsea",
+   "titre": "I would buy this product again and again",
+   "texte": "This is a perfect moisturizer for my skin when it's really dry during the winter and the season changes. I love the not too creamy consistency and the excelent blend of hydrating ingredients to help repair my skin. I'm currently using it after my cerave moisturizing lotion at night for extra hydrates and glowy skin in the morning. I also have combinati on skin, but I've been using some prescribed products since february 2024.",
+   "date": "2025-02-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

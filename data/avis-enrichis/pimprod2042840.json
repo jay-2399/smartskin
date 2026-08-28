@@ -1,0 +1,156 @@
+{
+ "ref": "pimprod2042840",
+ "asin": null,
+ "pid": "pimprod2042840",
+ "source": "ulta",
+ "nom": "Bubble Morning Rays Brightening Eye Cream",
+ "note": 4.69,
+ "nbAvis": 1223,
+ "lus": 64,
+ "collectes": 92,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are split: several report no irritation and even soothing effects, while others describe burning, swelling, tenderness, and redness lasting for days.",
+  "dry": "Reviewers with dry or flaky skin describe the cream as very moisturizing and say it noticeably helps their dryness."
+ },
+ "concerns": {
+  "dehydration": "Many reviewers describe the product as very moisturizing and hydrating, leaving under-eyes feeling fresh and smooth; no reviewer reports it feeling drying.",
+  "redness": "One reviewer notes it worked well on sunburned, tight skin around the eyes; another reports her skin around the eyes turned red and tender after use.",
+  "blemishes": "One reviewer reports the skin around her eyes broke out and became tender after using the product, though this is not echoed by other reviewers."
+ },
+ "aspects": [
+  {
+   "libelle": "Burning or tingling on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Reduces dark circles and puffiness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich, smooth, absorbs easily texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenses too much product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Bulky, hard-to-see-through packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value, little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for the size",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Nat",
+   "titre": "My skin burns",
+   "texte": "Wow, this eye cream burns. And it burns intensely. I wanted to try this longer to see if it would help reduce my under eye circles but after trying twice, and having to remove the cream due to burns each time, I will just return the product. The one likeable thing about this product is the texture of the cream. It is thick but goes on smooth. The worst part, besides the burning sensation, is the pump; push down one time and you have more than enough cream for both eyes. It is so much that it feels wasteful. I have sensitive skin and most products with Vitamin C cause my skin to burn. If you have the same experience with Vitamin C, I would not recommend this product.",
+   "date": "2025-03-12",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "JT",
+   "titre": "Would advise not to buy",
+   "texte": "Used this product, and it caused my eyes to swell. Skin around my eyes to breakout, be tender, and red. Not sure what ingredient would have caused ot but my skin has been irritated for 3 days now. Be cautious.",
+   "date": "2026-02-06",
+   "verifie": false,
+   "utiles": 14,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Leyla",
+   "titre": "I love this product so much!!!",
+   "texte": "This serum is so moisturizing and helps a lot with dry skin like mine. If you have dry and flaky skin then you will love this serum. I very highly recommend it !",
+   "date": "2024-07-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anna",
+   "titre": "Yes!!",
+   "texte": "My skin is sensitive, and this bubble under eye moisturizer works great!😊 My skin loves the hydrations and the packaging is super pretty. This also works great for sunburns around your eyes, and tight skin. This is the best eye cream I have ever used.",
+   "date": "2025-10-26",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kenzie",
+   "titre": "Noticing a difference",
+   "texte": "I have dark under eyes with fair skin and I have noticed a difference in using only this eye cream on my under eye. I have sensistive skin as well and this has not irritated me. My under eye is brighter. I like the packaging as well!",
+   "date": "2026-01-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erin",
+   "titre": "I would buy this product again and again",
+   "texte": "I wanted to use this for 2 weeks before reviewing and here is what I found. It doesn't burn but there is a slight tingle upon application that quickly goes away. I have noticed a visible difference in the coloration around my eyes and am very happy with the results.",
+   "date": "2026-08-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Janie",
+   "titre": "Wanted to like it, but ….",
+   "texte": "I wanted to like this product, but after using it for a few months I've realized it has not actually reduced my under eye circles. It's a great moisturizer, but it just didnt work for me.",
+   "date": "2026-01-25",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

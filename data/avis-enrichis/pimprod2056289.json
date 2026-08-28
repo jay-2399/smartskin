@@ -1,0 +1,108 @@
+{
+ "ref": "pimprod2056289",
+ "asin": null,
+ "pid": "pimprod2056289",
+ "source": "ulta",
+ "nom": "celimax The Vita-A Retinol Wrinkle Smoothing & Pore Tightening Serum",
+ "note": 5,
+ "nbAvis": 6,
+ "lus": 5,
+ "collectes": 5,
+ "segments": {
+  "sensitive": "One reviewer with self-described super sensitive, acne-prone skin reports the serum cleared adult acne without irritation.",
+  "combination": "No distinct combination-skin reports beyond general acne and breakout mentions, so nothing specific can be said for this type."
+ },
+ "concerns": {
+  "aging": "One reviewer reports forehead wrinkles almost gone after two months of use.",
+  "spots": "One reviewer notes a visible difference on dark spots and small spots after overnight use.",
+  "blemishes": "Two reviewers report breakouts and adult acne clearing, one within less than a week during an active breakout.",
+  "redness": "One reviewer with sensitive skin reports no irritation despite a brief tingling sensation on application."
+ },
+ "aspects": [
+  {
+   "libelle": "Tingling sensation on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Absorbs quickly without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin smooth and soft",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No irritation after settling",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Comparable or preferable to Paula's Choice",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Adriana",
+   "titre": "Minimizes Wrinkles,  Love it!!",
+   "texte": "Been using this for 2 months now and Wow! My forehead wrinkles are almost gone They were pretty bad before and now you can hardly notice. I will definitely re-buy and highly recommend this product. 10/10",
+   "date": "2026-03-05",
+   "verifie": false,
+   "utiles": 26,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Christa",
+   "titre": "10/10",
+   "texte": "I have super sensitive skin and have dealt with adult acne. This product got rid of my acne and my skin has never looked or felt better!",
+   "date": "2026-04-20",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kathy",
+   "titre": "Definitely buying again",
+   "texte": "This retinol serum is amazing! Absorbs quickly with no residue and my skin is so smooth and soft",
+   "date": "2026-04-21",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Mollie",
+   "titre": "Cleared active breakout quickly",
+   "texte": "I tried using this pretty regularly during an active breakout and it's cleared it in less than a week. It can feel a bit spicy going on but doesn't leave my skin irritated once it's on. When I put it on at night, I've noticed a difference in the morning, especially on dark spots and small spots.",
+   "date": "2026-06-18",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": "Only six reviews are available and all are 5-star, so segment and concern coverage is thin and no critical review could be included."
+}

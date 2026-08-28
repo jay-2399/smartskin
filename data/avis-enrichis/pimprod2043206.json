@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2043206",
+ "asin": null,
+ "pid": "pimprod2043206",
+ "source": "ulta",
+ "nom": "Carbon Theory. Superfood Facial Cleansing Bar",
+ "note": 4.67,
+ "nbAvis": 30,
+ "lus": 30,
+ "collectes": 30,
+ "segments": {
+  "oily": "Reviewers with oily skin report the bar cleans thoroughly without stripping or leaving skin dry, making it a good match for oily/acne-prone routines.",
+  "dry": "Reviewers with dry skin report it hydrates and cleanses without the tightness or waxy residue they get from other bar soaps, though one reviewer with dry skin still found it drying overall.",
+  "sensitive": "Reviewers with sensitive skin mostly report no irritation and good hydration, but two reviewers describe eye stinging, allergic reaction, dryness and breakouts from the same bar.",
+  "combination": "One reviewer using it for both oily and mild acne-prone areas reports a soft, comfortable feel with no complaints."
+ },
+ "concerns": {
+  "aging": "One reviewer credits antioxidant-rich superfood ingredients with a brighter, more even-toned, radiant complexion, but no reviewer discusses fine lines or firmness specifically.",
+  "dehydration": "Most reviewers, including those with dry skin, report the bar cleanses without tightness and leaves skin hydrated or soft; two reviewers describe skin feeling dry, tight, or stripped, including one who called it a dealbreaker.",
+  "redness": "Reviewers report visible reduction in redness and irritation after use; one attributes calming of gluten-triggered irritation to the bar.",
+  "barrier": "Several reviewers highlight that it cleans without stripping or disrupting the skin's moisture, describing skin as soft and comfortable rather than compromised.",
+  "spots": "Reviewers report reduced clogged pores, smoother texture and fewer visible pores after use.",
+  "blemishes": "Most acne-prone reviewers report fewer breakouts, calmer skin and reduced blemish size or redness; one reviewer reports the opposite, describing new breakouts and a slimy residue leading her to discard the product.",
+  "oiliness": "Oily-skin reviewers report the bar removes excess oil and leaves a 'squeaky clean' feel without over-drying, though one notes this may differ for drier skin types."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich lather despite bar format",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or irritates eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Strong or off-putting scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pleasant mild scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Inconvenient storage of an exposed bar",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Travel-friendly compact format",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus bottled cleansers",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Rebekah",
+   "titre": "Ugh, it burns",
+   "texte": "This is super irritated to the eyes, nose, lips, mouth. Was just not meant to be used on the face. Has a super strong smell. Leaves skin feeling tight. Just overall unpleasant.",
+   "date": "2024-11-11",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kim",
+   "titre": "Worked for a bit",
+   "texte": "Caused allergies on my skin, and eyes there is no way to avoid the eyes if your washing your face. It's been 3 days that my eyes feel terrible. It worked on my skin for 2 'months it would clean and i felt good after that my skin would get so dry and and it would have like a slimly feel to it just like \"olay\" bar soaps < hate that. caused break outs that all i would use. I threw it out. I hope they make one for sensative skin and that it doesnt cause allergies to the eyes.",
+   "date": "2024-07-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katherine",
+   "titre": "An honest review, this wasn't gifted/paid by the company!",
+   "texte": "I have dry skin & live in an area with hard water, so most hydrating products aren't strong enough to fight both the water and my dry skin. Hard water can also make bar soaps leave a waxy residue on your skin. Which makes it all the more baffling that I even tried this product in the first place. It's pretty cheap & their Anti-Breakout bar is highly rated, so I figured I'd give it a shot & if it didn't work just get my money back. I'm not lying when I say in my nearly 15 years of trying to find a hydrating face wash this is the ONLY ONE that works for me! My skin isn't terrible, so the fact I could never find a good face wash has been frustrating. I've tried drug store, name brand, knockoff, specialized, cheap, expensive, and every other kind of face wash out there, but none did what I needed. This one does everything I've been looking for at an absolute steal of a price! Any other face wash would either clean my skin or hydrate it, but never both. This one DOES! I like the smell and it cleans my skin without making it feel tight. I still use a moisturizer afterwards but the times I've skipped it my face never dried out like other face washes did. It suds really well and since it's a bar there's a ton of it. If you buy a soap saver or a tin it lasts forever! I bought this months ago and even after washing off stage makeup from theatre performances I'm only just now buying another. Everyone's skin is different but I genuinely can't believe how well this works for me. Seriously",
+   "date": "2025-02-28",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jenny",
+   "titre": "Great for on the go",
+   "texte": "I was gifted by carbontheory to review this product for free! This facial cleansing bar is perfect for traveling and great for on the go! I always hate bringing a huge bottle of face wash so this is perfect! I have sensitive skin and was concerned that it would irritate my skin. But it left my skin feeling amazing. It doesn't dry out my skin and leaves my skin looking glowy. It helped with my redness as well Definitely will be my go to when traveling",
+   "date": "2024-04-08",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Miya",
+   "titre": "Feel so clean",
+   "texte": "I'm loving the superfood cleansing bar gifted by carbontheory! Not only have used it on my face but also have been using it as a body wash. It lathers so nicely and makes my skin feel super clean. It kinda dries my skin out but nothing moisturizer can't fix. My blemishes have also minimized.",
+   "date": "2024-04-09",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nikki",
+   "titre": "Works well for my skin",
+   "texte": "I have very oily skin so cleansing bars are always a good option for me. This one is really good at cleaning the dirt off my face without leaving my skin feeling very dry or stripped. I like the scent, not overwhelming at all. Gifted by carbon theory",
+   "date": "2024-04-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Haylee",
+   "titre": "Really nice product!! packaging is a game changer",
+   "texte": "As an acne prone girl, the superfood facial cleansing bar was something i wanted to try as carbon theory is an acne safe brand! i usually don't like bar soaps but the packaging it comes in has a zip at the top which really makes it a lot easier to preserve product! my face feels super clean and tight after using it! offered by carbontheory",
+   "date": "2024-03-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

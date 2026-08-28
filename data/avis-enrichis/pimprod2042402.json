@@ -1,0 +1,178 @@
+{
+ "ref": "pimprod2042402",
+ "asin": null,
+ "pid": "pimprod2042402",
+ "source": "ulta",
+ "nom": "VANICREAM Facial Moisturizer Broad Spectrum Mineral SPF 30",
+ "note": 4.01,
+ "nbAvis": 85,
+ "lus": 81,
+ "collectes": 81,
+ "segments": {
+  "oily": "Reviewers with oily skin frequently describe the formula as too rich, heavy, or greasy, with several saying it is not suited to oily or combination-oily skin, though a few oily-skin users still call it their holy grail for acne safety.",
+  "dry": "Reviewers with dry skin are split: many say it hydrates well and feels glowy rather than greasy, while others report it sat on top of dry skin, pilled, or even left skin drier than before.",
+  "combination": "Combination-skin reviewers report mixed results, from good wear under makeup with no flaking to breakouts and greasy patches depending on the day's oiliness.",
+  "sensitive": "Sensitive-skin reviewers are the most divided group: a large number call it the only sunscreen that doesn't sting, burn, or irritate their eyes or skin, while a notable minority report itching, burning, or peeling shortly after use.",
+  "normal": "Few reviewers explicitly identify as having normal skin, so no distinct pattern is reported for this type.",
+  "mature": "Mature-skin reviewers describe the texture as suited to winter dryness and say it helps plump the look of fine lines, without reporting breakouts."
+ },
+ "concerns": {
+  "aging": "Reviewers in their 40s and 60s report the texture works well for dry, mature skin and gives a plumping or glowy look that softens the appearance of wrinkles; no aging-specific negative effects are reported.",
+  "dehydration": "Most dry-skin reviewers say it hydrates well and leaves skin glowy rather than tight, but several others report it felt drying, sat on the skin without absorbing, or did not add enough moisture for very dry skin.",
+  "redness": "Reviewers with rosacea largely report the product calms redness and does not sting or flare their skin, though one rosacea reviewer found it too thick and overly moisturizing for her reactive skin.",
+  "barrier": "Reviewers with eczema and compromised barriers frequently report relief, calming, and no stinging or itching, crediting the ceramide content, though a few sensitive-skin reviewers report itching, burning, or peeling instead.",
+  "spots": "Several acne-prone reviewers report no new breakouts and consider it acne-safe, but multiple others describe cystic acne, itchy whiteheads, or breakouts they attribute to squalane or the thickness of the formula.",
+  "blemishes": "Reviewers managing blemishes mostly report the product does not clog pores or worsen breakouts, though a subset explicitly blame this sunscreen for breakouts after ruling out other products.",
+  "oiliness": "Reviewers with oily skin consistently describe the finish as greasy, heavy, or shiny, and several say it is unsuitable for oily skin, though a couple with oily-acne-prone skin still repurchase it despite the oily texture."
+ },
+ "aspects": [
+  {
+   "libelle": "White cast on application",
+   "polarite": "neg",
+   "concerne": [
+    "mature",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "White cast minimal or absent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy or oily finish",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Hydrating, dewy glow",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Strong sunscreen smell",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Stings or burns eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Wears well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "a",
+   "titre": "not for sensitive skin",
+   "texte": "Immediately after applying it, my entire face became itchy and felt like it was burning. I have sensitive skin and am always cautious about trying new products—but this is not it. It should not be advertised as suitable for sensitive skin. I do not recommend it.",
+   "date": "2025-06-02",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Em",
+   "titre": "50/50",
+   "texte": "I really liked that this product did not flair up my eczema and did not sting my eyes. However, for a long period i had breakouts and could not figure out why i was getting these itchy whiteheads and i finally figured out this guy was the culprit. I went a month without using jt and had clear skin two days ago then I decided to use this sunscreen over my Hero green sunscreen (highly recommened for all skin types). I completely broke out again in itchy white heads and cystic acne. Idk what chemical it is but there's something in this product that is not suitable for large pores and acne prone girlies. The regular moisturizer is nice and i honestly thought the sunscreen and moisturizer were similar besides the zinc oxide added but no they are completely different. Try it and see if it works for you but just know that it could break you out. Not a sponsership but the Hero cosmetics sunscreen that has a green tint is the best sunscreen ive ever had. I have combo skin so some days im super dry or some days i am oily and this girl works everday plus it is not heavily fragranced like others",
+   "date": "2025-07-28",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "KE",
+   "titre": "Too thick for me",
+   "texte": "While I will always appreciate Vanicream's approach to sensitive skin, this product was to thick and overly moisturizing for my skin. For reference, I have very sensitive, reactive skin with rosacea, prone to hormonal breakouts.",
+   "date": "2022-06-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Vanessa",
+   "titre": "Too rich for oily skin",
+   "texte": "I love Vanicream and have the face wash and moisturizer but this spf and moisturizer blend is too much for the daytime and leaves oily skin greasy.",
+   "date": "2025-08-17",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "RL",
+   "titre": "Holy Grail product",
+   "texte": "I have longstanding facial acne and facial eczema and am in my mid-30's. Finding a non-comedogenic, non irritating, mineral, non-nano SPF facial moisturiser has taken me years to find. I have brown skin and this does not leave a white cast. I feel like a summer of using this product has actually helped heal my skin - it's clearer and smoother than it has been in 10 years. Just perfect. Please never discontinue this product, it is beyond excellent.",
+   "date": "2025-09-19",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rachelle",
+   "titre": "My holy grail!!! Love it!!!",
+   "texte": "My face loves this sunscreen and can't tolerate any other. I have rosacea, and this sunscreen even helps calm down my skin after applying it. I'm also acne-prone, and it doesn't break me out. I've tried many sunscreens, and the others i've tried don't compare to this one. Other sunscreens make my skin red, or break me out, or both. This one calms my skin and doesn't break me out. I love it; I've been using it for around 2-3 years now. Cons: White cast that isn't really noticeable on me may be more noticeable for other skin tones, but that's because of the zinc oxide percentage, which I wouldn't change anything because my skin loves it. It can be a bit greasy/dewy, but I just don't need moisturizer in the morning with this which is great.",
+   "date": "2026-05-07",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "nicole",
+   "titre": "Finally found what I was looking for",
+   "texte": "Just got this and can update once use more but can't even express how much loving this . I am pale so white cast ususally not an issue but none with this . This feels like luxury product but with a reasonable price . Have highly sensitive reactive aging (44 year old) acne prone ( thanks hormones ) skin that cannot take fragrances(even smells from my laundry detergent or cleaners for house had to get special products and even what I eat also can affect face- recently bok choy made skin itchy all over and as get older getting more sensitive than before ) or anything with too many ingredients even natural clean products sometimes can rash and/ or break me out . Found vanicream about 6 months ago and been loving lite lotion for face shampoo which stopped dry scalp that struggled with for you and even suggested to my mom who has has eczema on body and the vanicream cream helped her clear it so much as her skin is a little less sensitive as mine but still pretty sensitive . I have not tried daily facial cream mostly because didn't have sunscreen so was so excited to see this . My only question for squalane what is main of ( hoping not animal based since most time try to look for vegan when can ) . Going to look at daily facial cream since liked this so much and sunscreen for body . My only complaint that I love a bigger size option . I usually even inside reapply midday since near sunny window when work so would love this in bigger size of this . Thank you for a wonderful product a",
+   "date": "2022-04-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,156 @@
+{
+ "ref": "pimprod2053535",
+ "asin": null,
+ "pid": "pimprod2053535",
+ "source": "ulta",
+ "nom": "medicube PDRN Pink Peptide Eye Serum",
+ "note": 4,
+ "nbAvis": 19,
+ "lus": 18,
+ "collectes": 18,
+ "segments": {
+  "sensitive": "Reviewers with sensitive eyelids/skin report mixed results: one saw no sting and found it simply moisturizing with no extra benefit, while others report dryness, redness, and bags forming under the eyes.",
+  "mature": "Reviewers focused on fine lines and crepey under-eye skin report visible reduction in lines and firmer, brighter-looking skin over a few uses to two weeks."
+ },
+ "concerns": {
+  "aging": "Several reviewers report diminished fine lines, firmer and brighter under-eyes, and less crepey skin, in some cases after only two weeks; one reviewer used six weeks with zero visible results.",
+  "dehydration": "Most reviewers describe the product as hydrating and moisturizing with lasting effect through the day; however, two reviewers report the opposite, saying it dried out the under-eye area.",
+  "redness": "Two reviewers report the product caused new redness on the cheeks or under the eyes, describing it as the opposite of soothing.",
+  "barrier": "Two reviewers describe reactions consistent with barrier irritation, including possible chemical burns and increased lines from dryness; most other reviewers report no such reaction."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight texture under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No residue or cakey finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Large tube relative to usage",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Easy, simple packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes dryness and bags for some users",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Order fulfillment or shipping issue",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Cheryl",
+   "titre": "Very drying",
+   "texte": "I have been using it for 3 days. It has dried out the skin under my eyes causing more lines, turned my cheeks red and caused a bag under my right eye. I have never had anything like this happen before",
+   "date": "2025-11-16",
+   "verifie": false,
+   "utiles": 26,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Pats",
+   "titre": "Review Formula",
+   "texte": "I've used this product 3x and has done the complete opposite of olum and hydrate. It has just caused redness, dryness and possible chemical burns :(",
+   "date": "2026-01-18",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kay",
+   "titre": "Meh",
+   "texte": "This cream doesnt sting my eyes or cause any reaction (i have very sensitive eyelids, so that is a plus). It is moisturizing and works just fine, it just doesnt have any other benefits.",
+   "date": "2026-01-14",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Sonya",
+   "titre": "I would buy this product again.",
+   "texte": "It can be drying & can cause bags under your eyes if you have sensitive skin. I put a light layer of the serum on & follow it with the CeraVe eye repair cream to combat the negative effects I experienced. So far it seems to be a great combination.",
+   "date": "2026-05-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Han",
+   "titre": "Almost immediate results",
+   "texte": "This is the best eye cream. The way it has brightened and hydrated my eyes in only 2 weeks. My very fine lines have diminished and i feel like my eyes dont look as tired amd dull. I have even started using around my laugh lines and notice a difference.",
+   "date": "2025-10-24",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tlynn",
+   "titre": "Repurchase great eye serum",
+   "texte": "This has taken my dryer creapy , fine lines under my eyes and really changed them for the better. very hydrating but light weight lays well under concealer / makeup",
+   "date": "2026-06-25",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Elena",
+   "titre": "Zero results",
+   "texte": "Been using this cream consistently for 6 weeks now and no results, at all. Was holing to see at least something. Zero! Doesnt work for me. Im back on the market looking for another eye serum.",
+   "date": "2025-11-09",
+   "verifie": false,
+   "utiles": 13,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

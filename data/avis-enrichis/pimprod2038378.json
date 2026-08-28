@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2038378",
+ "asin": null,
+ "pid": "pimprod2038378",
+ "source": "ulta",
+ "nom": "Kopari Beauty Sun Shield Soft Glow Daily Face SPF 30",
+ "note": 4.47,
+ "nbAvis": 372,
+ "lus": 80,
+ "collectes": 109,
+ "segments": {
+  "oily": "Reviewers with oily skin mostly describe the product as absorbing well and not adding grease or breakouts, though one 3-star reviewer suspected it was too oily for her skin and broke out in whiteheads.",
+  "dry": "Dry-skinned reviewers generally report a hydrating, non-greasy, glowy finish, though two 4-star reviewers found the matte effect not moisturizing enough and missed the promised glow.",
+  "combination": "A reviewer with light combination skin reports it wears well under CC cream with a good look all day.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it is the first sunscreen that doesn't sting, burn, or irritate their skin, while others report immediate breakouts or reactions.",
+  "mature": "One reviewer with oily mature skin says she likes the feel and would buy again, despite others' complaints of oiliness.",
+  "normal": "A reviewer with normal-to-dry skin says it dries down in about a minute with no pilling and layers well under makeup."
+ },
+ "concerns": {
+  "aging": "One mature-skin reviewer, an esthetician with oily mature skin, says she likes the feel and repurchases; no anti-aging effect is specifically discussed.",
+  "dehydration": "Several reviewers say it feels hydrating and moisturizing with a soft glow, while two others (both dry skin) felt it was not moisturizing enough and gave a matte rather than glowy result.",
+  "redness": "A few reviewers with a history of stinging or reactive skin report no redness or irritation with this sunscreen, calling it the first they can tolerate.",
+  "barrier": "One reviewer with dry and sensitive skin says other sunscreens left her face stinging, raw, and red, but this one changed her skincare routine for the better with no reaction.",
+  "spots": "Not discussed by reviewers.",
+  "blemishes": "Opinions are split: many reviewers highlight that this is the only sunscreen that hasn't broken them out, while several others (including sensitive and self-described normal/oily skin) report breakouts, whiteheads, or cystic-type reactions appearing within a day of use.",
+  "oiliness": "Most reviewers, including several with oily skin, say the product is not greasy and absorbs like a dry oil; a minority describe it as greasy, causing makeup separation, or too oily for their skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Silky, lightweight texture on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly without greasy feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes breakouts for some users",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Pills or separates under makeup",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Noticeable alcohol or sunscreen scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Doubles as makeup primer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Received expired or old stock",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Sassy",
+   "titre": "Broke out",
+   "texte": "Loved the feel and look after applying but broke out next day. I've been looking (for years) for a sunscreen that doesnt aggravate my sensitive skin, but I'll keep looking!",
+   "date": "2025-05-09",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Janice",
+   "titre": "Not For Me",
+   "texte": "I thought I liked this but after using it for multiple days in a row, my face started breaking out in white heads and the only thing I can think of is that it's too oily.",
+   "date": "2025-06-03",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Trina",
+   "titre": "Nice sunscreen but not my fave",
+   "texte": "I enjoy several Kopari products, but this product just isn't my personal favorite. There is nothing wrong with it, it just isn't the best for me based on having dry skin. The matte effect doesn't feel moisturizing enough on my skin and I don't feel that it leaves a glow like the label states. I am more keen on Kopari's mineral sunscreen.",
+   "date": "2024-01-07",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jupiter",
+   "titre": "Oily skin holy grail product",
+   "texte": "I'm an esthetician and have some of the oiliest skin. I would always skip SPF if I was wearing makeup because many of them I've tried, make my makeup break down faster throughout the day. I tried this one out after trying it out in the store and to me it absorbs like a dry oil, and I can't feel it on my skin after a few minutes. I haven't had any issues with my skin over producing oil while wearing this alone or under makeup. I hope they don't stop making this product!",
+   "date": "2024-06-01",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tess",
+   "titre": "finally a sunscreen i can stand!",
+   "texte": "i thought wearing sunscreen meant accepting stinging and irritation on my sensitive skin until this profuct. while it feels a little odd to use a dry oil all over my face, the texture is so soothing and never pills. it dries down within 1 minute on my normal-to-dry skin and i've never had a problem with layering makeup. i dont love the sparkles, but i'll take that over white-cast, pilling, and irritation any day!",
+   "date": "2024-03-22",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lani",
+   "titre": "Finally found the face SPF for me!",
+   "texte": "I have a dry and sensitive face especially when it comes to spf protection. Every sunscreen would have my face stinging, raw, red and a breakout to follow. Needless to say I Didn't use it much. Finding this product changed my skin care completely. I love this. it's sheer yet hydrating. My skin loves it! I also use other Kopari products under: vitamin C daily moisturizer and ceramide cream.",
+   "date": "2026-04-08",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jenna",
+   "titre": "This product is amazing!",
+   "texte": "I had bought this product cheaper at a retail store. I had bought from Kopari before their SPF 50 Body Mist Sunscreen, (Amazing!!) and I tried this product and it's truly so good. I use it consistently and it hasn't broke me out, it's not greasy it leaves the perfect glow as someone who has dry skin, I have a bit of oiliness in my T zone but it doesn't affect it too badly. I am pretty sure I've used it under my makeup base before and it didn't separate at all, it blends in really great.",
+   "date": "2026-08-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

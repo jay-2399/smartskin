@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2049891",
+ "asin": null,
+ "pid": "pimprod2049891",
+ "source": "ulta",
+ "nom": "Clarins DOUBLE SERUM Light Texture",
+ "note": 4.49,
+ "nbAvis": 4511,
+ "lus": 76,
+ "collectes": 120,
+ "segments": {
+  "oily": "Several reviewers with oily skin found the light texture absorbed without greasiness and helped balance oil, though two reviewers said it still made their face feel oily and one reviewer flags it as possibly too hydrating for oily skin.",
+  "dry": "One long-term user with dry, mature skin describes it as brightening and just enough to make her skin feel younger, while another reviewer felt the light version was almost too light, like nothing had been applied.",
+  "combination": "Reviewers who specify combination skin call it lightweight, non-oily, and well suited to their skin type.",
+  "sensitive": "Sensitive-skin reviewers generally report no irritation and good tolerance, but one sensitive-skin user says the product got rid of redness yet her skin still reacted badly enough that she had to stop using it.",
+  "mature": "Mature-skin reviewers (40s-50s) report firmer, brighter, more even skin over several weeks and describe it as a strong addition to an anti-aging routine.",
+  "normal": "Reviewers not specifying a particular concern describe generally pleasant texture and glow with normal, unremarkable skin."
+ },
+ "concerns": {
+  "aging": "Most reviewers targeting aging report softer fine lines, firmer texture, and brighter, more even-toned skin after a few weeks; one reviewer used it for two years without noticing anti-aging change she expected given her younger age, and one saw no difference in fine lines or wrinkles.",
+  "dehydration": "Reviewers describe strong hydration, plumper and softer skin, though a few say they did not notice increased hydration despite expecting it.",
+  "redness": "One reviewer with sensitive skin reports the product reduced redness, though her skin overall did not tolerate the formula well.",
+  "barrier": "A male reviewer with African American skin reports initial small bumps and increased hyperpigmentation in the first two weeks that resolved with continued use, alongside a caution that hyperpigmentation worsens with sun exposure after application.",
+  "spots": "One reviewer reports the serum helped fade acne scars and discoloration; another reviewer reports her dark circles seemed to improve.",
+  "blemishes": "Reports are mixed: several reviewers say it prevents breakouts and causes zero irritation, while one reviewer experienced small forehead bumps early on and one sensitive-skin reviewer reacted poorly overall.",
+  "oiliness": "Most reviewers say the light texture leaves no oily or greasy film and helps balance oil, but a few say it still felt oily on their face and one warns it may be too hydrating for oily skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves oily residue on skin",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Noticeable fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pleasant, light scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sits well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sample packets impractical or hard to empty",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "MarianneS",
+   "titre": "Good product. Not for my skin type",
+   "texte": "It was alright. Not the best for my skin type. It definitely got rid of the redness but my skin did not like the product. I sadly had to stop using it after getting the product. Be careful if you have sensitive skin.",
+   "date": "2026-02-25",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "DFeliz",
+   "titre": "Light version is a bit too dry?",
+   "texte": "Ive tried both version, regular one feel to oily/grease. Light version makes skin feel like nothing has been applied. I actually applied the light version a few times just to feel like I've applied the product. Unsure which version is better or if there should be a better balanced formula. I'm sure there's goodness with this product yet it's hard to chose one vs the other.",
+   "date": "2026-01-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "G Man",
+   "titre": "Manly glowing skin! Like I'm youthful again.",
+   "texte": "I received a sample when I purchased shaving cream. I was skeptical at first, because I am a man and wasn't sure if this would work. What sold me is the video on Clarin's site/app where I saw the guy use this in conjunction with anti aging cream. I gave it a shot and purchased the largest bottle. At first, I experienced breakouts (small bumps) on my fore head. Also, hyper pigmentation was occurring (spotty blotches on African American skin). I really wanted to call it off, meaning stop using it. But I stuck with this. After around 2 weeks, the issues stopped and I can see my skin clearing up and glowing somewhat. I use 2 full size pumps at night after washing my face with Clarin's 2 in 1 face wash/exfoliant. I don't follow up with a moisturizer as two pumps keeps my face moist enough at night. In the morning, after washing my face, I moisturize with Clarin's balm for men only and forego the serum. Hyperpigmentation occurs more when I go out in the sun after using this, so I now stick to serum as a night recovery only. So far, so good. I'll probably continue to purchase this. Price is irrelevant, I'm worth it.",
+   "date": "2025-12-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Patrícia",
+   "titre": "Great serum!",
+   "texte": "[I received this product in exchange for my honest review] It is a lightweight and fast-absorbing formula. It is very hydrating and nourishing, but with a light feel on the skin. You can also use it before makeup, and it doesn't feel greasy or heavy. It may be too hydrating for oily skin. For results to be seen, you need to be consistent with the use, which I could not actually tested since it was only samples.",
+   "date": "2025-12-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cat",
+   "titre": "Love it",
+   "texte": "[I received this product in exchange for my honest review] Super lightweight, moisturizing, and easy to apply. For the cost, it is definitely worth it. Perfect for my combination skin, and I loved that it did not feel oily or greasy. Would make a great gift.",
+   "date": "2026-04-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "BEACH11",
+   "titre": "Not greasy, absorbs wonderfully , smells great",
+   "texte": "This product is my third purchase . It is not greasy, it absorbs into the skin wonderfully and the smell is soothing to inhale. It brightens this old girls face with just enough oil to make me feel younger when I look in the mirror..",
+   "date": "2026-03-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rina50",
+   "titre": "I feel like my skin feels really soft. Very best.",
+   "texte": "Overall, I like this product, it is definitely a good serum. But... I wouldn't purchase it as it is way too expensive for my budget and what it offers. I love the concept of the mixture of the two serums but I feel I can get the same effect with much cheaper options. I received a complimentary sample for my honest opinion.",
+   "date": "2026-03-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

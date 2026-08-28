@@ -1,0 +1,116 @@
+{
+ "ref": "mkt77005348",
+ "asin": null,
+ "pid": "mkt77005348",
+ "source": "ulta",
+ "nom": "NOTO Botanics Safe Sun SPF 30 Invisible Serum Sunscreen",
+ "note": 5,
+ "nbAvis": 6,
+ "lus": 6,
+ "collectes": 6,
+ "segments": {},
+ "concerns": {
+  "dehydration": "Several reviewers report their skin feels and looks hydrated after use, describing a moist or glowy finish; no reviewer describes it as drying."
+ },
+ "aspects": [
+  {
+   "libelle": "Non-greasy, lightweight finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant or no noticeable scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Hydrated, glowy skin appearance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Repeat purchase / rebuying",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs well, no pilling",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "jessie",
+   "titre": "Boyfriend Approved",
+   "texte": "I purchased it for my sunscreen-hating boyfriend. He actually uses this product and loves the smell and how non-greasy the formula is.",
+   "date": "2026-05-15",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katie",
+   "titre": "THE best SPF out there",
+   "texte": "I love everything NOTO makes but dang this is amazing. After using it my skin looks so glowly and healthy I dont even need to wear much makeup. Also it works. My skin has stayed hydrated and bright. Smells so nice too - i love the ingredients so much !",
+   "date": "2026-05-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Leslie",
+   "titre": "100% best SPF ive ever used",
+   "texte": "This is my 3rd bottle of the Safe Sun serum and I love this product so much. Doesn't leave my skin oily at all and leaves my skin feeling hydrated. I genuinely believe the niacinamides have helped the overall quality of my skin!",
+   "date": "2026-05-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jordan",
+   "titre": "Really good stuff",
+   "texte": "This sunscreen is great! It's goes on well and it not too thick and/or greasy, absorbing well with no noticeable scent. Highly recommend!",
+   "date": "2026-05-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chelsea",
+   "titre": "NO White cast !",
+   "texte": "I love this spf acts like a moisturizer, doesn't pill, and doesn't leave a white cast. It's super lightweight and I will be rebuying!",
+   "date": "2026-05-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "Only 6 reviews are available, none specify the reviewer's skin type or a named skin concern beyond hydration and greasiness, and no critical review is present, so segmentation by skin type and broader concerns cannot be supported."
+}

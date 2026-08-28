@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2045118",
+ "asin": null,
+ "pid": "pimprod2045118",
+ "source": "ulta",
+ "nom": "Kopari Beauty Bright As Day Sheer Mineral Sunscreen SPF 50",
+ "note": 4.22,
+ "nbAvis": 171,
+ "lus": 80,
+ "collectes": 117,
+ "segments": {
+  "oily": "One reviewer with mature, oily-prone concerns notes the sunscreen does not leave her feeling or looking oily, and another states the formula is probably not suited to oily skin or those who prefer a matte look.",
+  "dry": "Reviewers with dry skin report the formula is moisturizing, absorbs quickly, and one esthetician warns mineral formulas can feel drying so skincare should be applied first; one dry, acne-prone, sensitive reviewer had an allergic reaction with redness and dry patches.",
+  "combination": "No combination-specific comments were reported.",
+  "sensitive": "Reviewers with sensitive skin mostly report no irritation, no stinging, and good tolerance, but a minority describe rashes, itching, burning, or an allergic reaction serious enough to need medical attention.",
+  "normal": "No normal-skin-specific comments were reported.",
+  "mature": "Reviewers with mature skin report it looks invisible under makeup, doesn't feel drying by end of day, and smooths over fine lines rather than settling into them."
+ },
+ "concerns": {
+  "aging": "Reviewers mention it doesn't settle into fine lines and instead smooths over them, and one links its UVA/UVB protection to anti-aging benefit; no reviewer reports it worsening fine lines.",
+  "dehydration": "Several reviewers with dry skin report a hydrated, non-drying finish and improved smoothness with regular use; one reviewer nonetheless had dry patches for about a week following an allergic reaction.",
+  "redness": "Most reviewers report no irritation or redness, with several sensitive-skin users specifically noting calm skin, but a few describe new redness, itching, or a burning rash after use, including one severe reaction requiring ER care.",
+  "barrier": "No explicit barrier-repair claims were reported; reviewers frame effects mainly as hydration or irritation rather than barrier function.",
+  "spots": "One reviewer reports the tint helps hide small blemishes and another credits niacinamide/vitamin C with evening out tone and hyperpigmentation; no dissent noted.",
+  "blemishes": "Several reviewers state it does not cause breakouts or clogged pores, including one for whom sunscreen usually triggers breakouts; no reviewer reports new blemishes from use.",
+  "oiliness": "Reviewers describe the finish as non-greasy and not oily-looking even with a glow, though one notes it may not suit oily skin or those preferring a matte look."
+ },
+ "aspects": [
+  {
+   "libelle": "Unpleasant smell on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Gritty or sandy texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible glitter or shimmer",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, sheer, non-greasy finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast, blends into skin tone",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle size, runs out fast",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to volume",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "SD",
+   "titre": "Left a rash",
+   "texte": "I received this as a sample size free gift. I used it for one day and it was fine. On day 2 my face started to itch and had a redness throughout. By that night I was completely red, and my entire face was irritated and itches and has a slight burning sensation. I'm not sure what ingredient would cause this bad of a reaction, but its been several days and my skin is still not better. I recommend testing the product on a different area first.",
+   "date": "2026-03-19",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "MamaKitty",
+   "titre": "Not a true Mineral Sunscreen",
+   "texte": "Chemical UV filter ingredient Butyloctyl Salicylate gave me a horrible skin rash that sent me to ER. I do not recommend! Not a true Mineral Sunscreen. If you have sensitive skin or allergic to chemical sunscreen please do not use. Avoid those chemicals sunscreens.",
+   "date": "2025-06-18",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Liz L",
+   "titre": "Allergic reaction :(",
+   "texte": "Unfortunately i got an allergic reaction to this sunscreen. I have acne-prone, dry skin thats super sensitive and got this recommended to me but unfortunately it did make my skin super red and itchy for a couple days after using it. I also had dry patches for about a week after use.",
+   "date": "2025-07-18",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bexx",
+   "titre": "Great for Dry Skin",
+   "texte": "As someone with dry, sensitive skin, I appreciate the easy application, sheer coverage and especially the SPF 50 protection. The formula leaves a soft sheen on the skin. It's not \"glitter.\" This is a great product but probably not for oily skin or for those who prefer a matte look.",
+   "date": "2025-04-02",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "dry",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rosemary",
+   "titre": "YES!",
+   "texte": "I love this product. I use it as my foundation as it is light, glowy and I get compliments on my skin when I wear it. I have not encountered chunks, ( I shake like crazy as mineral sunscreens need it.) it is easily applied over moisture and concealer. The scent dissipates quickly. I have mature, dry, sensitive skin and have not experienced cakiness, dryness or irritation. I am a fan of this product.",
+   "date": "2025-06-30",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Reya",
+   "titre": "Mature Skin Approved!",
+   "texte": "I have fair dry skin, 51 yrs old. This is the first non-chemical sunscreen I have found that looks invisible under makeup, AND does not make my skin feel dry by the end of the day. I am not seeing the glitter a few have touched on. Will update if I do",
+   "date": "2025-01-19",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "aj",
+   "titre": "Smells bad but has good sun protection",
+   "texte": "it's less of a tint and more of a shimmery sunscreen. it's blendable, very liquid (make sure to shake first!) but will pill under foundation even if you let it dry. Great for dry skin, smells old and funky, but that dissipates over time. has fair staying power but will rub off on clothes. fair-med skin with hyperpigmentation and redness. not sensitive.",
+   "date": "2025-04-30",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

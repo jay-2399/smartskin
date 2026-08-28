@@ -1,0 +1,170 @@
+{
+ "ref": "pimprod2030345",
+ "asin": null,
+ "pid": "pimprod2030345",
+ "source": "ulta",
+ "nom": "Hero Cosmetics Rescue Balm Post-Blemish Recovery Cream",
+ "note": 4.13,
+ "nbAvis": 134,
+ "lus": 80,
+ "collectes": 112,
+ "segments": {
+  "oily": "One reviewer with very oily skin says the balm only helps if used once after a pimple is popped, since repeated use clogs pores and causes whiteheads.",
+  "dry": "Reviewers with dry skin type report it heals picked scabs and post-acne dry patches within days and leaves skin hydrated.",
+  "sensitive": "Sensitive-skin reviewers say it healed picked acne without worsening irritation, and one describes it as fragrance-free and sensitive-skin friendly, though another reports her face went red, swollen, flaky and irritated after use.",
+  "combination": "One reviewer with textured, small-cluster breakouts (implying combination-prone skin) says it speeds healing without fully solving her texture concerns."
+ },
+ "concerns": {
+  "aging": "One older reviewer notes her wounds and blemish marks heal more slowly with age but says pairing this balm with a scar gel still sped up healing.",
+  "dehydration": "Reviewers describe dry, flaky post-acne patches becoming hydrated and less flaky within two to three days, with one calling it a fix for dry spots that used to grab onto makeup.",
+  "redness": "Many reviewers report redness and inflammation visibly reduced overnight or within one to two days; one reviewer instead reports her face became red and swollen after applying it, worsening over about a week.",
+  "barrier": "Several long-time users report the reformulated version stings on broken skin, no longer feels like a healing ointment, and one says it triggered a dermatitis flare, in contrast to earlier praise for its barrier-repair feel.",
+  "spots": "Numerous reviewers say dark spots, scars and hyperpigmentation from picked or popped pimples faded within days to about two weeks; a few say it made no visible difference to their marks.",
+  "blemishes": "Most reviewers report popped or picked blemishes flattening, scabbing less, and healing in one to three days; several others say it did nothing for their pimples or even triggered new breakouts, including clusters of painful pimples.",
+  "oiliness": "One reviewer notes it is non-greasy and can be worn under makeup, though another with oily skin says overuse clogs pores."
+ },
+ "aspects": [
+  {
+   "libelle": "Formula changed from thick to thin/clear",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Speeds healing of popped pimples",
+   "polarite": "pos",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Reduces redness and inflammation fast",
+   "polarite": "pos",
+   "concerne": [
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Non-greasy, absorbs without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can clog pores and cause new breakouts",
+   "polarite": "neg",
+   "concerne": [
+    "oily",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Small tube but long-lasting/good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free, gentle feel",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Buyer",
+   "titre": "Reaction!!!",
+   "texte": "After reading the comments I thought that this product would help me… after using it however the next day my entire face was red and swollen I simply assumed I had a reaction to something else. After that it only got worse which led to my face being flaky and dry and very irritated. After I recovered I tried the hero recovery cream again and after two hours my whole face became red and swollen again. I don't know if this is just me but it takes about a week for my face to recover but even then I my face is still flaky and dry.",
+   "date": "2022-07-05",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "E",
+   "titre": "Shea butter is pore clogging",
+   "texte": "Works for people with non clog-prone skin. Unfortunately it has shea butter which is a very pore clogging ingredient. No for acne-prone skin.",
+   "date": "2023-11-07",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Anonymous",
+   "titre": "Okay",
+   "texte": "I have very oily skin. This works only if I use it 1x after my pimple has popped. When I use it too many times or on a pimple that hasn't been popped, it clogs my pores and cause whiteheads. I probably won't repurchase.",
+   "date": "2022-05-24",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Paxtan",
+   "titre": "Best. Thing. Ever.",
+   "texte": "I never write reviews, but this product is simply a miracle-worker. I have hormonal/cystic acne, a dry skin type, and I constantly pick my pimples to where I have scabs on my face, after trying to get everything completely out. Typically, these spots will take weeks to heal to a non-scab consistency using aquaphor and basically any other hydrating/healing product you can think of. I bought this a couple days ago after picking my face, and after 3 days of using it, the pimple scabs are completely gone!! My skin is so hydrated and healthy. I am in awe. I will forever buy this product. I am so thankful for it. I completely recommend!!!!!",
+   "date": "2022-08-16",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "katy",
+   "titre": "Wonderful",
+   "texte": "I have very sensitive skin and I'm very picky about the types of ointments I put on my face to heal acne after I have picked at it but, during desperate times I decided to try this product. I ended up, loving it and the acne I picked up three days ago is almost completely healed!! it also has not made anything worse, which is what I was worried about.",
+   "date": "2024-08-20",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CaliBrunette82",
+   "titre": "Where has this been all my life?!",
+   "texte": "I have dry post-acne patches that always grab onto makeup and are impossible to conceal smoothly. This product is a miracle!! I apply it on my dry patches after my skincare and before foundation… the makeup doesn't cake on the dry spots anymore!! I've also noticed this healed my post-acne dryness within 2-3 days, no more flakiness and the bumps practically disappeared overnight. I'm blown away at how effective this cream is… just buy it! Use it on dry spots/post acne before bed and before makeup and you will see results!! I hope they never stop making this!!",
+   "date": "2022-04-10",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "daisy",
+   "titre": "DO NOT BUY IF YOU ARE READING THIS IN 2026",
+   "texte": "THEY CHANGED THE FORMULA AND IT'S TERRIBLE NOW! I'm devestated! This is one of the only products that ever helped my eczema, it would go on like a thick cream and was white. It used to work like an healing ointment. But now it's clear and way too thin! I've been using hero cosmetics rescue balm since 2020, almost daily. When I opened a new tube today I could immediately tell that the consistency of it has changed drastically and I hate it! I want to hope that I just bought one from a defective batch but I looked it up and there's many people on reddit that are noticing the formula change as well. It's like a thin moisturizer now, overpriced with not being able to heal the skin barrier like it used to.",
+   "date": "2026-01-01",
+   "verifie": false,
+   "utiles": 22,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

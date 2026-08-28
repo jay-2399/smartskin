@@ -1,0 +1,171 @@
+{
+ "ref": "xlsImpprod12841051",
+ "asin": null,
+ "pid": "xlsImpprod12841051",
+ "source": "ulta",
+ "nom": "Clinique Clinique For Men Charcoal Face Wash",
+ "note": 4.47,
+ "nbAvis": 36,
+ "lus": 30,
+ "collectes": 30,
+ "segments": {
+  "oily": "Reviewers with oily skin are split: several with self-described oily or super-oily skin report reduced pore size, fewer blackheads, and no excess shine, but others say it fails to control oil through the day or dries and tightens the skin.",
+  "dry": "Reviewers do not describe a dedicated dry-skin experience, but multiple oily-skin users report the product causing unexpected dryness and tightness.",
+  "combination": "Reviewers with combination skin report the wash handles both oily and dry zones without over-drying or leaving residual oil.",
+  "sensitive": "One reviewer flags the presence of methylisothiazolinone, a known contact allergen, despite the product being marketed as allergy tested, which is a concern for sensitive or allergy-prone skin.",
+  "mature": "A reviewer in her 50s with oily skin reports it cleans without drying and speculates it could suit other skin types, and another reviewer notes younger-looking skin after use."
+ },
+ "concerns": {
+  "aging": "One reviewer describes a partner's skin looking younger after use, and another combines the wash with separate anti-age products; no reviewer reports a negative effect specific to aging skin.",
+  "dehydration": "Most reviewers say the wash cleans without drying, but a notable minority report significant tightness, itchiness, or dryness, sometimes worse than their normal oiliness.",
+  "redness": "Not addressed by reviewers.",
+  "barrier": "Not addressed directly, though the allergen complaint about methylisothiazolinone implies a potential barrier or sensitivity risk for some users.",
+  "spots": "Several reviewers report visibly reduced blackheads and smaller-looking pores; one reviewer with oily skin instead reports acne breakouts returning.",
+  "blemishes": "Multiple reviewers report fewer breakouts, including occasional pimples and whiteheads clearing up; one reviewer reports new acne breakouts starting again.",
+  "oiliness": "Several oily-skin reviewers report reduced shine and better oil control over time, while others say oil returns quickly between washes or that the product does not clean thoroughly enough."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich foaming lather",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reduces pore and blackhead appearance",
+   "polarite": "pos",
+   "concerne": [
+    "oily",
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Leaves skin tight or dry",
+   "polarite": "neg",
+   "concerne": [
+    "oily",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Long-lasting, economical per bottle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains flagged allergen ingredient",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pleasant refreshing scent and feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Insufficient oil control through the day",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Drying",
+   "titre": "Drying Facewash",
+   "texte": "My husband, who has oily skin, said this made his skin so dry and tight. Very disappointed.",
+   "date": "2021-01-23",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Lauren",
+   "titre": "I wanted to love it",
+   "texte": "I really wanted to love this cleanser. It lathers so well and feels AMAZING when you're rubbing it on your skin. But that's where the good things end :( My skin is so itchy, tight, and dry now, when it's normally oily. I think I'd rather my skin produce enough oil to run a restaurant where everything is deep fried than feel this tightness.",
+   "date": "2020-07-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth",
+   "titre": "The War Against Whiteheads Is Won",
+   "texte": "Yes, I know this was meant for men, but I received it as a sample and fell in love with the product. I am light-fair skin that easily gets blotchy and breakouts. After a full day of wearing wakeup, this product cleans and my face feels refreshed. I have combination skin, so it doesn't dry my skin out or leave an abundance of oil. I obtain whiteheads easily, but with this product, it helps make them go away and stay away. All it takes is this product and a face cloth, so it's extremely easy to use and keep up with maintaining a clean face. Additionally, I liked that this is a charcoal product that doesn't leave a ​leftover charcoal residue.",
+   "date": "2019-07-16",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Carrie",
+   "titre": "Dramatic Improvement of Sebaceous Hyperplasia",
+   "texte": "Started using this cleanser to help with my oily skin and sebaceous hyperplasia. I feel like my pore size is reduced and the sebaceous hyperplasia is considerably less noticeable. This does not dry out my skin at all. I definitely recommend for anyone with oily skin.",
+   "date": "2020-12-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Product Junkie in SC",
+   "titre": "Charcoal for Blackhead... IT WORKS!!!",
+   "texte": "I LOVE this product. I am SUPER OILY and have used Clinique for a long. I have always used the face wash for oily skin and wanted to switch it up. After using I have seen a significant decrease in the size of my pores and the amount of blackheads i have. I do use this product everyday with the men's sonic brush from Clinique as well",
+   "date": "2016-08-06",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brandon",
+   "titre": "A must have for combination skin types",
+   "texte": "I love this product. My face has various oily and dry zones. This product does not exacerbate either issue and works especially well for my oily zones. This leaves my skin feeling extremely clean without drying my skin out nor the \"tightness\" that often comes with more chemically aggressive face washes.",
+   "date": "2016-12-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Skinny",
+   "titre": "Contains a terrible allergen!",
+   "texte": "Clinique claims this item is \"allergy tested.\" If so, they are not telling you that it failed the test. The product is full of Methylisothiazolinone (and a second related compound.) These substances were declared the 2013 Contact Allergen of the Year by the American Contact Dermatitis Society. Clinique -- shame on you for putting one of the worst known allergens in a product you claim is 'allergy tested!\"",
+   "date": "2020-01-07",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

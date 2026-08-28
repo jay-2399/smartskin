@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2030922",
+ "asin": null,
+ "pid": "pimprod2030922",
+ "source": "ulta",
+ "nom": "StriVectin Super-C Dark Circle Brightening Eye Serum",
+ "note": 3.97,
+ "nbAvis": 115,
+ "lus": 79,
+ "collectes": 108,
+ "segments": {
+  "dry": "One reviewer with naturally oily eyelids reports the serum was very drying, leaving the eye area flaky and saggy; another with dry skin found it kept the area hydrated when layered with a second serum.",
+  "sensitive": "Reviewers describing sensitive skin report mixed outcomes: one with numerous sensitivities had a bad reaction and had to stop, one had an eczema flare-up, but another with extremely sensitive skin says it caused no irritation and worked well.",
+  "mature": "Reviewers in their 40s, 60s, 70s and 80s report visible smoothing, tightening and brightening of the under-eye area, with several attributing continued use to age-related dark circles and thinning skin."
+ },
+ "concerns": {
+  "aging": "Mature reviewers (46, 69, 71, 73, 80 years old) report smoother, tighter, brighter under-eye skin and reduced fine lines with regular use; one 31-year-old also saw fine lines disappear though darkness improved little.",
+  "dehydration": "Several reviewers say the eye area feels hydrated, cool and nourished with no residue; one reviewer with naturally oily lids reports the opposite, describing the product as very drying and moisture-stripping.",
+  "redness": "One reviewer reports the serum caused visible redness under the eye; another (69, works with resin, prone to redness there) reports the redness disappeared with use.",
+  "barrier": "A few reviewers with sensitivities report reactions such as burning, itching, or an eczema flare after use; most other reviewers, including one who calls her skin extremely sensitive, report no irritation at all.",
+  "spots": "One reviewer with hereditary dark brown circles from allergies reports no change after a month; several others with hereditary or dark-toned circles report the dark circles becoming invisible, lighter, or less noticeable within two to eight weeks.",
+  "blemishes": "One reviewer reports the skin under her eyes breaks out every time she uses it; no other reviewer mentions breakouts.",
+  "oiliness": "A single reviewer with naturally oily eyelids reports the product cut the oil but at the cost of flakiness and dryness; no other reviewer discusses oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser malfunctions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount needed per use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slow visible results, needs weeks",
+   "polarite": "neg",
+   "concerne": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Layers well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Zee",
+   "titre": "Incredibly drying",
+   "texte": "I have naturally very oily eyelids, and this definitely cut the oil, but also made my eye area flaky and sucked all the moisture out, making my eyes look dry, older than I am, and saggy. I didn't use the sample long enough to see if it would get rid of any dark circles, but that's honestly the least of my facial concerns. I'd rather have oily lids than deal with dry, saggy skin around my eyes when that wasn't a problem for me before using this.",
+   "date": "2024-01-31",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Jo",
+   "titre": "Eczema came out full force",
+   "texte": "This gave me such a bad eczema breakout. My eyes are so raw now & itchy. I'm miserable. It got so bad I'm hoping my 40 year old eye skin will recover & not have long lasting damage.",
+   "date": "2024-05-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Regina G.",
+   "titre": "Great, but not for me!",
+   "texte": "I actually liked it while I was able to use it, but unfortunately, I had a bad reaction to it. I love all of the Strivectin products that I use, but I do have numerous sensitivities and something in this product triggered one. Otherwise, I definitely would have continued using it!",
+   "date": "2023-01-13",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Maria",
+   "titre": "Great product but",
+   "texte": "This works very well for me. My dark circles have really improved. However, I am never able to access the product from the pump when it is halfway full. The is no tube connected to the pump. So it just stops delivering the product when you pump it. Considering the cost of this it should have better packaging.",
+   "date": "2026-03-23",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tameka",
+   "titre": "Great things take time",
+   "texte": "I have allergies and the dark circles under my eyes have gotten worse with age (46 years old). After trying lot's of different under eye serums I decided to try this one despite the price tag. But, I applied it differently, only using the serum on one eye for 2 months. And I was finally able to see a BIG difference. Yes, it took 2 months but, the difference is very noticeable. I'm so glad I took this approach because otherwise I would have assumed it wasn't working and I would have been wrong. I highly recommend this product!!",
+   "date": "2022-07-12",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Heleene F.",
+   "titre": "Super C Dark Circle Brightening Eye Serum",
+   "texte": "I seem to have an issue with this serum. It actually made my under eye very red",
+   "date": "2022-12-21",
+   "verifie": true,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Constance H.",
+   "titre": "Such an effective product!",
+   "texte": "I can't do much about my physical aging process. I can only work on improving it.I am 69 years old. This product is so effective and has become a staple in my efforts to improve the texture and color of my skin. I also work with resin. It has the effect of creating redness below and around my eyes if I'm not careful. This stuff works. The darkness and redness have disappeared and my eyes no longer look haggard. The vitamin C makes a huge difference, lightening the areas around my eyes. Underneath and even my eyelids if redness occurs. This is a product worth investing in if you get those dark circles under your eyes. As with any effective product results will only occur if you follow instructions and are consistent with use. I know. I apologize if I sound like an elementary school teacher . Hard to give up old habits..",
+   "date": "2022-05-21",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2045637",
+ "asin": null,
+ "pid": "pimprod2045637",
+ "source": "ulta",
+ "nom": "Naturium Niacinamide Serum 12% Plus Zinc 2%",
+ "note": 4.45,
+ "nbAvis": 678,
+ "lus": 79,
+ "collectes": 111,
+ "segments": {
+  "oily": "Oily-skin reviewers report reduced shine and t-zone oil, smoother texture, and fewer breakouts, with some noting less oiliness within days.",
+  "dry": "Reviewers with dry skin mostly report hydration and calming of flaking or eczema-like patches, though one reviewer with drier skin said the serum dried her skin out more than it moisturized.",
+  "combination": "Combination-skin reviewers (often oily T-zone, dry elsewhere) report balanced oiliness, smoother texture and reduced redness, with generally positive results.",
+  "sensitive": "Sensitive-skin reviewers are split: several describe calming of redness, rosacea and breakouts with no irritation, while others report stinging, itching, or a reaction severe enough to stop use.",
+  "mature": "Mature-skin reviewers (40s-50s+) report smoother, softer, more even-toned skin and compliments on appearance, with no negative reports specific to this group."
+ },
+ "concerns": {
+  "aging": "Reviewers using it for aging concerns report smoother, softer skin and compliments on looking younger; no dissent noted.",
+  "dehydration": "Most report the serum hydrates without stickiness or dryness, but a few describe dryness, flaking, or a white peeling film after use.",
+  "redness": "Multiple reviewers report a visible reduction in facial redness and rosacea-related flushing over weeks; no dissenting reports of increased redness from this concern group specifically, though irritation-driven redness is reported elsewhere.",
+  "barrier": "One reviewer reports improved skin barrier when paired with an AHA and moisturizer, though notes pilling limits use under sunscreen or makeup.",
+  "spots": "Many reviewers report fading of dark spots, sun spots, and hyperpigmentation over weeks to months; a couple say they've seen no noticeable change yet after only a week or two of use.",
+  "blemishes": "The large majority report fewer breakouts, faster healing of blemishes, and reduced acne scarring, but several reviewers report new whiteheads, cystic pimples, or breakouts starting soon after use.",
+  "oiliness": "Most reviewers report visibly reduced oil production, especially in the T-zone/nose, with balanced skin by end of day; no significant dissent on this point."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky or tacky residue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills under other skincare or makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or barely scented",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Musty or moldy smell in recent batch",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value pump bottle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or itching on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Goldenqueen",
+   "titre": "Too Strong for Sensitive Skin",
+   "texte": "I recently purchased product, did a patch test it was fine. But, after putting on my face still had a reaction to it. Stinging and itching. Even two days later still itching. Just did not work for me , too strong for my sensitive skin. But, did like the consistency of it and no scent.",
+   "date": "2025-03-20",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "lalala93",
+   "titre": "helped skin texture & heal acne",
+   "texte": "i started using this with some persistent cheek acne & scars that kept becoming pimples again & overall very textured skin. since going through 1.5 bottles, my skin isn't as textured, my complexion is starting to look more even, i don't get any new acne breakouts (only small, non painful whiteheads) and everyday my acne scars fade more. great if your skin is sensitive, dull, textured & breakout prone. works best if you apply 2 pumps and let dry completely before moisturizer!",
+   "date": "2024-04-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Briana H.",
+   "titre": "Go-to Serum for my Combination Skin",
+   "texte": "My skincare routine for my face consists mainly of Mad Hippie products. But when researching ingredients to hone in on my needs, I found this product. It has been a game changer for my combination face—oily t-zone with neutral or dry elsewhere. Mad Hippie products already containe niacinamide in their creams and lotions. But switching out the serum to this one made the across-the-board difference in my facial skin over 2-3 months: smoother, consistently hydrated, balanced oiliness even with my cycles, and at least some reduction of redness in my T-zone (possibly rosacea). Since that time I've tried other serums and face creams in my lineup over 1 1/2 years. But nothing gives quite the level of results when using the Naturium niacinnamide serum in my lineup.",
+   "date": "2024-08-05",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MW",
+   "titre": "Another win for Naturium",
+   "texte": "I never get compliments on my skin. I've had severe cystic acne for 7 years that leave hypopigmentation and I've begun to develop a few dark spots from 30+ years of sun exposure. At the start of my second bottle of this, I actually got multiple compliments on the tone and texture of my skin! It truly does even out tone and minimize the appearance of pores. I do sometimes wish they had a dimethicone free version.",
+   "date": "2025-11-14",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chellybean",
+   "titre": "Absolutely yes",
+   "texte": "I have extremely sensitive skin and seem to break out at the drop of a dime, ive been using this along with the jelly cleanser for about a month and my break outs are significantly less, my akin is more even and less red and it isn't drying it out. I 1000% am keeping this routine.",
+   "date": "2024-09-26",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Designerdeanna",
+   "titre": "Holy Grail",
+   "texte": "This is one of the few products I can truly say has made a huge and noticeable improvement in my skin. I have light skin with a lot of redness. This was always a problem for me. I get red very easily and my nose was just ALWAYS red no matter what I did. Since using this regularly, only every other night, this has magically gone away! The redness is practically gone after a month or so. I used to feel self conscious without makeup. But now I go without foundation or concealer to work every day! My skin looks better than ever. At first this did sting a little when I would put it on. Only for a few minutes or so. But after a month that doesn't happen anymore.",
+   "date": "2023-09-13",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Niicole",
+   "titre": "Not For Me",
+   "texte": "I really tried and wanted to like this so bad. But it just didnt work for me i've been using it for about 3 weeks now. Morning and night following the directions. The first time using it i noticed white patches on my face and this white peeling film all over my face. I figured maybe i was using too much but even when using a little i would get the same results. This stuff actually dried my skin out than moisturized it.",
+   "date": "2026-03-18",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

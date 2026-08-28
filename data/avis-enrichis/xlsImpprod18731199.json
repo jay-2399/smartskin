@@ -1,0 +1,166 @@
+{
+ "ref": "xlsImpprod18731199",
+ "asin": null,
+ "pid": "xlsImpprod18731199",
+ "source": "ulta",
+ "nom": "Kate Somerville ExfoliKate Intensive Exfoliating Treatment",
+ "note": 4.8,
+ "nbAvis": 6634,
+ "lus": 79,
+ "collectes": 97,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are split: several report no irritation or breakouts and even praise it as gentle, while others describe stinging, burning, or a reaction strong enough to stop use.",
+  "mature": "Reviewers who describe themselves as mature or in their 60s-70s report smoother, brighter skin, reduced blackheads, and note it as a long-standing staple, though one sees no change in fine lines.",
+  "dry": "Reviewers with dry skin report the product exfoliates dead skin and brightens without adding dehydration, using it alongside a moisturizer.",
+  "combination": "One combination-skin reviewer with clogged pores reports it works well on congestion but not on active acne."
+ },
+ "concerns": {
+  "aging": "Mature reviewers report smoother, more radiant skin and better absorption of other products; one reviewer specifically notes visibly reduced fine lines after one use, while another sees no change in fine lines despite improved pores.",
+  "dehydration": "Reviewers with dry or flaky skin report it exfoliates and brightens without worsening dryness, though one reviewer notes it dried out the cheeks and chin when left on the whole face too long.",
+  "redness": "Several reviewers note short-term redness or a warming/tingling sensation after use that fades by the end of their routine; one reviewer keeps seeing redness as a drawback despite otherwise liking results.",
+  "barrier": "One reviewer with sensitive skin reports the product stings less over time as skin adjusts, using more water to reduce the reaction.",
+  "spots": "Reviewers report fading of acne scars, dark spots and dullness, with clearer, more even-toned skin over repeated use.",
+  "blemishes": "Most reviewers who mention breakouts report clearer skin and fewer new blemishes over time, including one who says they stopped breaking out altogether; one reviewer specifically notes it helps with clogged pores but not active acne, and one describes a pimple reducing quickly after spot use.",
+  "oiliness": "Reviewers report smaller-looking pores and fewer blackheads after use, with no complaints of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong fragrance or scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pleasant minty or spicy scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling or stinging sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Smooth, soft skin feel after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for tube size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting due to small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unusual green color surprises users",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "My face hurts",
+   "titre": "How do people like this?",
+   "texte": "This produt hurts. Its sting so badly. Its super fragrant and all the essential oils seem to really bother my skin. Ive never had a reaction like this to skincare before. Imagine using a muddy St Ives Apricot Scrub but with stinging effects and you have this atrocity.",
+   "date": "2024-06-15",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Linds",
+   "titre": "The best facial exfoliater ever!!!!",
+   "texte": "I just purchased and it's been a while since I have and boy how I missed it! I was having dry skin and my make up would go on looking bad and with this it goes on so smooth! I have kind of sensitive skin. This doesn't make me break out in a rash or anything like that. Would definitely recommend 10/10!",
+   "date": "2024-05-25",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "sarah",
+   "titre": "read before purchasing",
+   "texte": "esti here! I love this product. If u have sensitive skin prob wouldn't be the best it has 3 forms of exfoliation in 1. If you don't have sensitive skin this is an amazing product for dark spots / comedones and dull skin. Only use (1-2x) a week!",
+   "date": "2025-08-01",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Daniela F",
+   "titre": "New aha/bha exfoliating holy grail",
+   "texte": "I got the travel size during the minis sale because it is pricey but after a fair use of it it has transformed my skin. Ive tried the ordinary aha/bha treatment, the red one, and really like what it did for my skin but it was torturous with the burn for too long. This does have a similar more tingling feeling and makes some areas reddish after use but subsides by the end of my routine. I also used YoGlow by Huda for many and this is very similar thay used ro be a holy grail for me. You only need a small amount so it lasts if the price point is a turn off. But this size is great to give it a try and it will heal your skin in that time. Smaller pores acne scars faded and dullness gone. Jusy try it",
+   "date": "2025-03-14",
+   "verifie": false,
+   "utiles": 13,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Very effective!",
+   "texte": "This is one of the best exfoliating scrubs I've ever used, however I cannot use it more than once or twice a week. I find it works well for clogged pores but not active acne.",
+   "date": "2024-03-18",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Drea",
+   "titre": "Intense at first. Now multi year user.",
+   "texte": "This stuff is freaking gold. I use just a small amount on my face weekly. I love how i can feel the gunk on my face pill away as i wash and rub my face. The product can sting if you have sensitive skin. I find the more water the less it stings and also start small. I have grown ised to it and less reactive ao i have been using it for YEARS. It makes me glow, look clear skined, fresh and so clean. My only sadness is the price. But to be faor the cost well ewuals the results and length of use a bottle will last you.",
+   "date": "2025-05-28",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brooke",
+   "titre": "Game changer",
+   "texte": "This product is a game changer for my skin, especially in the winter. My skin gets very dry and flaky, this product helps to exfoliate and brighten without dehydrating. Instant results after the first use.",
+   "date": "2026-01-13",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

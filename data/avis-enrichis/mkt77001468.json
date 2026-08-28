@@ -1,0 +1,146 @@
+{
+ "ref": "mkt77001468",
+ "asin": null,
+ "pid": "mkt77001468",
+ "source": "ulta",
+ "nom": "Knemo Square One Soothing Toner",
+ "note": 5,
+ "nbAvis": 7,
+ "lus": 7,
+ "collectes": 7,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin describe the toner as fragrance-free, non-irritating, and calming, with one reporting it healed irritation and breakouts caused by another product.",
+  "combination": "A reviewer with combination, breakout-prone skin reports the toner keeps pores and oil in check without drying out the skin.",
+  "oily": "One reviewer reports feeling less oily throughout the day with daily use."
+ },
+ "concerns": {
+  "spots": "Reviewers report the toner minimizes the appearance of pores; two specifically call it effective for tightening or shrinking pores.",
+  "blemishes": "One reviewer with acne-prone, sensitive skin reports breakouts and irritation from another product cleared up after switching to this toner; another with combo, breakout-prone skin reports it helps keep breakouts in check.",
+  "redness": "One reviewer reports skin feels less red immediately after use.",
+  "dehydration": "One reviewer reports the toner helps with inner dryness when layered, and another notes it does not dry out the skin despite controlling oil.",
+  "oiliness": "One reviewer reports reduced shine/oiliness throughout the day; another notes it controls oil without stripping skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, water-like texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Improves texture and smoothness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Preps skin for makeup application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle enough for daily use",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Kate",
+   "titre": "Amazing product",
+   "texte": "I have acne-prone and sensitive skin, and I can actually see an improvement in my skin texture and smaller pores after using this product! Love the lightweight texture, and when I layer it, it feels like it really helps with inner dryness.",
+   "date": "2025-10-22",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gloria",
+   "titre": "Holy grail for my pores",
+   "texte": "My skin always feels smoother and less red right after I use it. I have combo skin that breaks out easily, and this helps keep my pores and oil in check without drying me out. It's fragrance-free too, which I love.",
+   "date": "2025-10-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kay♡",
+   "titre": "Adore this product - helped a bad breakout!",
+   "texte": "Such a lightweight toner, it genuinely feels like you're tapping water into your skin. I LOVE it! It's so easy to apply, doesn't feel heavy or greasy, and actually is so soothing for my skin. I was having irritation from some product I had tested and I randomly got a bunchhh of acne from that product, so I decided to quit everything I was using and take a chance on this item from the Knemo line and a Knemo essence and I kid you not - the acne is GONE! 0 irritation, healed my skin wonderfully. Also there's no scent to it, sensitive skin friendly for sure. Will continue purchasing this 💗",
+   "date": "2026-08-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "vic",
+   "titre": "everyday toner",
+   "texte": "this toner is so good. it actually gets rid of the texture on my chin and forehead and makes me feel less oily throughout the day. i love that its super gentle so i can use it every day as well. im almost done with my first bottle and will buy again",
+   "date": "2025-12-03",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "John",
+   "titre": "It tightens my pores",
+   "texte": "I've been using this toner every day, and it's amazing for minimizing pores!",
+   "date": "2025-10-14",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mae",
+   "titre": "my favorite toner of all time!",
+   "texte": "i have tried so many toners and this one is one of the best i've ever tried. it's super cooling and helped with my skin texture",
+   "date": "2025-11-21",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": "All 7 reviews are 5-star and generally brief, so no critical or lower-rated review is available to represent dissent."
+}

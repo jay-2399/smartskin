@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2036290",
+ "asin": null,
+ "pid": "pimprod2036290",
+ "source": "ulta",
+ "nom": "Kopari Beauty Niacinamide & Caffeine Eye Bright Cream",
+ "note": 4.23,
+ "nbAvis": 349,
+ "lus": 71,
+ "collectes": 98,
+ "segments": {
+  "dry": "Reviewers with dry skin, including one describing it as dry and sensitive, report the cream is hydrating under the eyes and helps makeup crack and crease less, though one dry-skin reviewer found it a bit drying with regular use.",
+  "sensitive": "Sensitive-skin reviewers report the cream absorbs well and has a pleasant cooling effect, but others (unspecified skin type) report the embedded glitter irritates and itches the eyes.",
+  "mature": "Reviewers who mention age (mid-60s, crow's feet, fine lines) report visible smoothing of lines and reduced puffiness, with one such reviewer also noting the product feels drying."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visibly softer fine lines and crow's feet, and smoother skin over time; results are generally described as gradual rather than immediate.",
+  "dehydration": "Most reviewers find the cream hydrating and say it prevents makeup from creasing, but two mention it leaves the under-eye area feeling dry, especially with frequent use.",
+  "redness": "One reviewer reports the product stings, particularly if it gets into the eye, though she still preferred it over a competitor despite the stinging.",
+  "barrier": "A couple of reviewers describe the product as gentle, with no breakouts or rashes and a soothing, non-tight feel after absorption.",
+  "spots": "No reviewers discuss spots or hyperpigmentation specifically; dark circles are addressed under aging/dehydration-type complaints rather than spots.",
+  "blemishes": "No reviewers report breakouts caused by the product; one explicitly notes no breakouts or rash occurred.",
+  "oiliness": "No reviewers discuss oiliness or oil control; this is not a concern addressed by the review set."
+ },
+ "aspects": [
+  {
+   "libelle": "Glitter particles in formula",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Cooling effect on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills or flakes under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube packaging hides product level",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Blends smoothly under concealer",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Keight",
+   "titre": "Stings, but better than Clinique",
+   "texte": "It stings on the skin and a lot more if you accidentally get it in your eye which, since you apply it very near your eye, is very likely. I have dry sensitive skin. Otherwise I would recommend. I like it better than clinique eye cream even with the stinging",
+   "date": "2023-10-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cheryl H",
+   "titre": "good",
+   "texte": "It does work for puffiness and making the area a bit brighter. Can tell a difference in the morning. Have used a few tubes of it already. However whether It's my age or something else I do find it a bit drying. Not a big deal as I only use it at night. I won‚Äôt use it under makeup.",
+   "date": "2026-01-23",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kelly S.",
+   "titre": "I'm in love",
+   "texte": "This is one of the few eye creams that actually works well. I'm 61 and they get a bit puffy if I eat too much salt and I have dark circles. This is very soothing and blends well with concealer. I absolutely love it!",
+   "date": "2023-06-23",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cool&Sassy",
+   "titre": "Best value eye cream",
+   "texte": "Excellent performance! I use this as overnight moisturizer on my very dry under eye areas and it has worked so well.",
+   "date": "2025-02-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tiffanie",
+   "titre": "Actually works!",
+   "texte": "I loved this product. I have really dry skin, especially under my eyes. This really kept it hydrated and kept my make up from cracking and creasing unlike any other product. Really good stuff.",
+   "date": "2023-12-18",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jeri Del s.",
+   "titre": "Gentle and hydrating",
+   "texte": "It's nice to start your day with product that are with natural products that are good for your skin. Only use few a week, no breakouts or rash from the product. Would recommend!",
+   "date": "2023-12-09",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Ash",
+   "titre": "Unsure if it's worth it",
+   "texte": "I think i like this and see a difference but you cant wear concealer over it. It looks horrible. I waited 1+ hours before doing my makeup after applying it and it seperated immediately. This would only be used at night so we will see.. Ash",
+   "date": "2024-09-03",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

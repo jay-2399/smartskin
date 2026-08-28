@@ -1,0 +1,168 @@
+{
+ "ref": "mkt77007153",
+ "asin": null,
+ "pid": "mkt77007153",
+ "source": "ulta",
+ "nom": "Proactiv Solution Repairing Treatment",
+ "note": 4.56,
+ "nbAvis": 735,
+ "lus": 52,
+ "collectes": 52,
+ "segments": {
+  "sensitive": "One reviewer describes sensitive, dry skin and reports burning for hours after each application.",
+  "dry": "One reviewer with dry, sensitive skin reports burning on application, while another notes their skin turned drier over years of use and one describes chapping in winter without a moisturizer.",
+  "mature": "Long-term users in their 40s, 50s, 60s and 70s report continued acne control plus a smoother, less wrinkled, more youthful-looking face over decades of use.",
+  "oily": "One reviewer says the product controlled her oil and another reports her skin, oily at the start, became drier over years of use."
+ },
+ "concerns": {
+  "spots": "Several reviewers report acne clearing or staying controlled, including teens, adults and mature users; four reviewers (teen users and adult sons) report no improvement at all.",
+  "blemishes": "Many describe fewer or no new breakouts with consistent use, including during hormonal periods and postpartum; a few teen users' parents report no visible change and one adult reports occasional itching.",
+  "aging": "Long-term mature users report their skin looks younger, smoother and less wrinkled after years of use, crediting it as an unintended anti-aging benefit.",
+  "dehydration": "One reviewer needed extra moisturizer in winter to avoid chapping, and one long-term user noticed her oily skin became drier over the years; another says it keeps skin from feeling dry.",
+  "redness": "One reviewer with sensitive, dry skin reports burning and irritation lasting hours after application, contrasting with the general lack of complaints from others.",
+  "oiliness": "Reviewers describe the product controlling facial oil and leaving skin non-oily, with no dissent reported on this specific point.",
+  "barrier": "One sensitive/dry-skin reviewer reports burning suggesting irritation of a compromised barrier, though most other reviewers do not report this issue."
+ },
+ "aspects": [
+  {
+   "libelle": "Stains or bleaches fabric",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning sensation on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Feels clean and fresh",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin feels soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for amount given",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires consistent daily use to work",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Leah",
+   "titre": "Fragranced, burns my skin :(",
+   "texte": "I have been using a 2.5% BP spot treatment from another brand and wanted to find something more cost effective. I didn't realize that Proactiv had multiple BP products for different skin types. I'm sensitive and dry but have lots of acne around my chin and mouth. I put a small amount of this product in the morning, and I have used it 3 days so far (every other day), and there is burning on my skin for several hours after applying. I am bummed that this formula will not work for me as the other brand I was using had no burning.",
+   "date": "2025-05-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristine",
+   "titre": "Kills acne quickly and prevents future breakouts",
+   "texte": "Much clearer than I was before this! I used to use this in my 20s and it kept my acne under control. I had straight away from it because it was bleaching my clothes and sheets. . however I started breaking out really bad after having babies and decided to go back to my old faithful. So glad I did because I get compliments all the time at 42 that I look way younger. This is definitely my favorite part of the three system because I know after I put this on, I won't wake up with new breakouts and I can put make up on top of it and it will protect my skin from breakouts from the make up. It definitely controls my oil, although I have to be careful to not put it around my eyes too much. I also have to wear the proactive sunscreen on top of it if I go in the sun. There is nothing better than this formulation anything with less percentage of benzoyl peroxide is too weak and anything stronger is too strong. I love it. Now I am just really careful not to put it near my neck line if I'm wearing something I don't want to get bleached and I have white sheets.",
+   "date": "2025-12-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "oiliness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lois",
+   "titre": "40+ Years of Success",
+   "texte": "I have used the Repair lotion for more than 40 years. I initially used it as very successful acne control and continued to use it as a skin moisturizer to prevent wrinkles. My daughter recently told me that I do not look my age. I will be 75 this year.",
+   "date": "2025-07-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ronald M.",
+   "titre": "Proactiv Repair Treatment",
+   "texte": "This product is excellent ! It works well on adult acne too. Be careful to use a good moisturizer in the winter months otherwise you may experience chapping.",
+   "date": "2025-12-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Judith E.",
+   "titre": "It has worked for me",
+   "texte": "It has worked for me for years. My skin was oily when I started using Proactive, but over the years It has become drier.",
+   "date": "2025-09-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Julie S.",
+   "titre": "Unfortunately it didn't work",
+   "texte": "I had high hopes for this product to be the miracle we needed - but it wasn't. It didn't help with the acne at all.",
+   "date": "2025-10-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "TaTianni S.",
+   "titre": "Proactiv Repairing Treatment",
+   "texte": "I absolutely love this product. I had a lot of texture around my mourn. My skin was very irritated. This product worked with in days.",
+   "date": "2025-08-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

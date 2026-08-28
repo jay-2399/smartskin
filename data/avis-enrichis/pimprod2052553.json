@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2052553",
+ "asin": null,
+ "pid": "pimprod2052553",
+ "source": "ulta",
+ "nom": "NEOGEN Real Fresh Foam Green Tea",
+ "note": 4.75,
+ "nbAvis": 83,
+ "lus": 78,
+ "collectes": 78,
+ "segments": {
+  "oily": "Reviewers with oily skin, including a t-zone-oily fiancé and a very oily teenage son, report the cleanser controls oil and keeps skin matte through the day without new breakouts.",
+  "dry": "Dry-skin reviewers are split: several say it does not dry or leaves skin hydrated, while others report tightness, a tugging 'squeaky clean' feel, or that a reformulation made it more drying around the nose and chin.",
+  "combination": "Combination-skin reviewers most often describe it as balancing, cleansing the t-zone without stripping their drier cheeks, and non-irritating.",
+  "sensitive": "Sensitive-skin reviewers mostly report no irritation and a calming effect, though a minority describe burning, a two-week facial burn, or advise skepticism about the long ingredient list for this skin type.",
+  "mature": "One reviewer around 40 reports her skin feels clean and healthy long-term, but this is limited to a single account."
+ },
+ "concerns": {
+  "aging": "Only sparse mentions exist; one long-term user in her 40s reports her skin 'feels healthier,' but no other aging-specific claims are made.",
+  "dehydration": "Most reviewers report no dryness or a hydrated, non-tight finish, but a recurring minority describe a stripped, 'squeaky clean,' or tight feeling, and one reviewer reports the formula became more drying after a reformulation.",
+  "redness": "Several reviewers, including one with rosacea, report the cleanser calmed or reduced redness with no irritation; one earlier review also credits it with evening out redness.",
+  "barrier": "A few reviewers describe irritation, burning, or a facial burn lasting two weeks, though most others report no irritation and describe the formula as gentle and non-stripping.",
+  "spots": "Multiple reviewers report fewer or less severe cystic breakouts and reduced acne frequency, but one reviewer reports a bad cystic acne breakout the day after first use.",
+  "blemishes": "Reviewers generally report clearer skin and fewer imperfections over time, with no dissenting reports specific to non-cystic blemishes.",
+  "oiliness": "Oily-skin and combination reviewers consistently report good oil control and a matte, non-greasy feel through the day."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich airy foam texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser convenience",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Green tea leaves visible in bottle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tight or squeaky-clean after-feel",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Pleasant subtle scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Perceived formula change over time",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Good value, long-lasting bottle",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Tammy",
+   "titre": "really wanted this to work...",
+   "texte": "I have seen many people use this cleanser before and wanted to try to myself. I bought mine off the SokoGlam website after reading the reviews on their website. This is also my first time using any products from Neogen. When I first applied it to my face, it felt really refreshing and nice. After rinsing with water, it really 'dry' (idk what word to use). What I mean is when I rub my skin after rinsing the cleanser off, it felt as if i was tugging on my skin. The next day, I notice some really bad cystic acne from my forehead down through the right side of my cheek. Note that this was the first and only time that I used this cleanser. I did REALLY wanted this to work because I love foaming cleansers.",
+   "date": "2020-06-16",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Nia",
+   "titre": "Umm…. 🤔",
+   "texte": "This was really a blind buy, I saw green tea & I was ready to buy. Unfortunately, I should've did some research; it burned the side of my face not horribly but it was burned & took two week to heal. My skin in very sensitive so maybe this would work for you but for me, it's a big NO.",
+   "date": "2025-11-14",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sanjana",
+   "titre": "Decent",
+   "texte": "I received this cleanser as a complimentary from Neogen and I?셶e been using it for a bit now, and it?셲 a pretty solid cleanser, but definitely not for everyone. The foam is super light and airy, which makes it feel nice when washing my face. It cleans really well and gets rid of any oil or leftover sunscreen, but I did notice that it can be a little drying. If you have dry skin, this might not be the best choice because it does leave that ?쐓queaky clean??feeling, which some people love but others might find too harsh. The green tea scent is subtle and refreshing, nothing too strong, and I like that it has real green tea leaves in the bottle, it?셲 a cool touch. It works great for oily or combination skin, but if your skin leans dry, you?셪l definitely want to follow up with a good moisturizer. I think it?셲 a nice cleanser overall, just not the most hydrating one out there.",
+   "date": "2025-02-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kylie",
+   "titre": "Used to work great, now not so much",
+   "texte": "I've been using this cleanser for about three years. When I first started using it, it was great: evened out my redness and left my skin feeling super clean and supple. However, in the past year it's really dried out my skin a lot, specifically around my nose and chin. I've bought this product many times, and the issue has been consistent with the last couple purchases. I've also been using the stick version of the cleanser, and I do not have this issue with the stick version. I'm guessing they changed the formula in some way over the years, but I'm sad that this issue has come up now.",
+   "date": "2024-06-05",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cathy",
+   "titre": "Can't live w/o now",
+   "texte": "I have combo sensitive skin and super prone to acne so needless to say I've tried quite a few products for the past 10ish years. I was skeptical of using this product at first but I said what the heck, I got nothing else to lose at this point. I've been using the green tea cleanser for 3-4 months and I'm pleasantly surprised and pleased by my skins reaction to it. It doesn't burn me and it doesn't dry out my skin to where it's raw or cracking, it just feels clean and bare. I just moved and i didnt have my skin care stuff with me for two whole weeks and I felt like a teen going through puberty again. Once I had my skincare back in my hands, after a few days there have been some amazing noticeable changes, where the redness went away and my acne began to recede and surrender. Neogen, if you guys see this review, I love your products and I look forward to the growth of ur company so that I can continue to have my skin care routine!",
+   "date": "2019-06-04",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennie",
+   "titre": "Best face wash ever",
+   "texte": "I bought this because i got the calundula flower makeup remover in my ipsy bag, and this foam green tea facial cleanser caught my eye, so I said why not... and so glad i did. It literally is the best facial cleanser i have ever used. I have roseaca and this does not irritate nor redden my face at all. Leaves my face moisturized but squeeky clean. Does not dry at all. Its just simply the best.",
+   "date": "2018-01-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Theresa R.",
+   "titre": "Smells so good",
+   "texte": "It smells so good! - a fresh, clean, herbal scent. I wish all my k-beauty products smelled like this. I have dry skin, but still use a foam cleanser as part of my double cleanse. This one DOES give my skin that tight, dry, uncomfortable feeling, but so does EVERY foam or gel cleanser I?셶e ever used. But then my face drinks up the toner, essence etc.",
+   "date": "2021-04-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

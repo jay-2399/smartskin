@@ -1,0 +1,165 @@
+{
+ "ref": "mkt77000559",
+ "asin": null,
+ "pid": "mkt77000559",
+ "source": "ulta",
+ "nom": "skinChemists 1% Collagen Mask",
+ "note": 4.71,
+ "nbAvis": 102,
+ "lus": 81,
+ "collectes": 93,
+ "segments": {
+  "oily": "One reviewer with oily skin reports the mask ruined her barrier, leaving skin dry and red after a single use; another reviewer with (unspecified) skin says it did not cause oily breakouts or overproduce oils.",
+  "dry": "Reviewers with dry skin describe the mask as slightly drying while on but not tight, and report softer skin afterward, with one noting a peel-off format is preferred over this gel type.",
+  "combination": "One reviewer with dry/combination skin says the mask moisturizes throughout the day and night, leaving skin nourished and soft.",
+  "sensitive": "Reports from sensitive skin diverge sharply: several describe tingling, itching, a rash, or a reaction that led them to rinse off early or pass the product on, while others with sensitive or reactive skin say it did not irritate and left skin glowing.",
+  "mature": "Reviewers focused on anti-aging/mature skin report plumper, firmer skin and reduced appearance of fine lines and laughter lines after repeated use."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report visibly reduced fine lines, laughter lines, and wrinkles, with skin feeling firmer and plumper after use; effects are described as noticeable within one to a few applications, though one reviewer is unsure how long the anti-line effect lasts.",
+  "dehydration": "The large majority describe the mask as hydrating, leaving skin soft, plump, and less dry the next morning; one reviewer with very dry skin still found it left skin feeling fresh and moisturized.",
+  "redness": "One reviewer reports the mask caused redness alongside dryness after her barrier reacted badly; a bilberry ingredient is cited by another reviewer as reducing redness, but this is not corroborated elsewhere.",
+  "barrier": "One reviewer explicitly states the mask ruined her skin barrier, causing dryness and redness from a single use; no other reviewer reports barrier damage.",
+  "spots": "Not discussed by reviewers.",
+  "blemishes": "One reviewer notes the mask did not cause any oily breakouts; no other reviewer raises blemishes or breakouts.",
+  "oiliness": "One reviewer says the mask did not leave her feeling like her skin was overproducing oil, and another notes the formula is light and not greasy; no reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Fragrance intensity",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance too heavy",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Smooth non-sticky texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Confusing overnight vs 20-minute instructions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sinks in fast, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Premium packaging and value",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "A Farboud",
+   "titre": "I do not recommend.",
+   "texte": "Coming from someone who has oily skin, the collagen mask completely ruined my skin barrier and somehow managed to make my skin dry and red since I have used it. From using it once, I am desperately trying to get my skin back to normal. I do not recommend this product; it was a waste of my money.",
+   "date": "2024-06-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "barrier",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "A Ward",
+   "titre": "My skin feels softer.",
+   "texte": "I have dry skin and love a peel-off mask. While searching for one, I received an email about these masks. I chose the collagen mask for anti-aging and to add volume to my skin. It is not my preferred type of mask, but it washes off easily. It feels somewhat drying while it is on, but not tight. My skin feels softer after each use, but otherwise, I cannot pinpoint a difference in my skin's appearance.",
+   "date": "2022-04-05",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "M Canada",
+   "titre": "I rinsed it off quickly.",
+   "texte": "It seems this collagen mask might be good for other people with non-sensitive skin. As soon as I put it on, it felt good, then a little tingle started, so I rinsed it off quickly. That was not a good reaction! I gave it to my husband to use.",
+   "date": "2024-06-21",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "M Szabo",
+   "titre": "I recommend this product.",
+   "texte": "I bought the collagen mask with anticipation and wasn't disappointed! It goes on like a dream, moisturizing my dry/combination skin throughout the day and night. I use this probably every other night after cleansing; my skin feels nourished and soft to the touch. It is better than most expensive brands I've previously tried. I recommend this product.",
+   "date": "2022-08-28",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "S Shafquat",
+   "titre": "Impressed after being impressed.",
+   "texte": "First of all, as you take out the bottle, you are impressed after being impressed by the fast delivery and packaging. After using it twice, I can say that the collagen mask works as it says and is good for sensitive skin too. It didn't at all irritate staying on for 20 minutes as mentioned in the directions.",
+   "date": "2024-06-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "A Noble",
+   "titre": "This is a lovely smooth.",
+   "texte": "This is a lovely, smooth mask that is lightly scented and glides onto the skin. It feels lovely and hydrating. Unfortunately, I have really sensitive skin and had a minor reaction to this one, so I will be passing it on; however, it seems like a really nice product.",
+   "date": "2022-08-31",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "C Neale",
+   "titre": "My skin feel softer.",
+   "texte": "The collagen mask made my skin feel softer than before, and my fine lines were less apparent after removing the product. I like the consistency and the feeling on my skin while using it. I am not sure how long the effects on my lines will last, but I will continue to use it.",
+   "date": "2022-11-05",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

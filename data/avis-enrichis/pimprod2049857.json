@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2049857",
+ "asin": null,
+ "pid": "pimprod2049857",
+ "source": "ulta",
+ "nom": "BYOMA Ultra-Lightweight Face Fluid SPF 50",
+ "note": 4.2,
+ "nbAvis": 371,
+ "lus": 79,
+ "collectes": 121,
+ "segments": {
+  "oily": "Oily-skin reviewers mostly report a non-greasy, dewy-not-shiny finish that sits well under makeup, though a couple say it feels oily or leaves them shinier than expected.",
+  "dry": "Reviewers with dry skin describe it as hydrating and moisturizing with no white cast, and one notes it gave a nice glow rather than looking cakey.",
+  "combination": "The one combination-leaning report (occasionally dry, occasionally red) found it light with a manageable glow, only faulting the excessive shine.",
+  "sensitive": "Sensitive-skin reviewers are the most split: many report no stinging, breakouts or redness and call it their holy grail, while a distinct cluster describes burning, itching, blistering, red inflamed skin or whiteheads, sometimes within hours of use.",
+  "normal": "The one normal-skin reviewer (with occasional dryness/redness) found it light and non-irritating on the face but very shiny.",
+  "mature": "A 44-year-old and a 53-year-old reviewer both report no pilling, no wrinkle/line enhancement, and a dewy, comfortable wear, calling it well suited to mature skin."
+ },
+ "concerns": {
+  "aging": "Two mature-skin reviewers report it does not settle into lines or emphasize wrinkles and one cites added anti-aging ingredients as a plus; no dissent noted.",
+  "dehydration": "Multiple reviewers with dry skin report it hydrates well and leaves a healthy glow without heaviness; no negative reports specific to dry skin's hydration.",
+  "redness": "Sensitive and reactive-skin reviewers are divided: several report no redness or irritation, but others describe their face turning tomato red, inflamed, or breaking out in red painful clusters after use.",
+  "barrier": "One reviewer credits the formula with helping restore the skin barrier; no dissenting barrier-specific complaints are reported.",
+  "spots": "Reviewers prone to sunburn report mixed results: many say they avoided burning even during beach days or gardening, but several others report getting sunburnt or peeling despite reapplication.",
+  "blemishes": "Acne-prone reviewers largely report no new breakouts and call it a holy-grail non-comedogenic option, but a minority describe sudden clusters of whiteheads, tiny pimples, or cystic-feeling breakouts after use.",
+  "oiliness": "Oily-skin reviewers mostly say it controls shine and doesn't feel greasy, though a couple mention it still felt oily or produced a heavy shine on their skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Stings or burns the eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, serum-like texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pilling with makeup or skincare",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Excessive shine or greasy look",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Bulky or wasteful packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Mikey",
+   "titre": "NOT GOOD FOR SENSITIVE SKIN!!",
+   "texte": "Burn baby burn! I loved the light weight formula when first applying the product. Having appreciated the appeal of no white cast formulas of chemical sunscreens in the past; however, the burning sensation quickly replaced that feeling quickly. My skin is now red, inflamed, and covered in small breakouts. Very big shame because I love other Byoma products. This is definitely a BIG no for me.",
+   "date": "2025-08-14",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Rachel",
+   "titre": "Not for sensitive skin!!!!",
+   "texte": "I brought this on my vacation to Hawaii and wore it to the beach my first day. Woke up the next morning with clusters of red painful breakouts with whiteheads. Nothing else in my routine has changed. Please be careful!!! I love Byoma so I trusted this product blindly but definitely learned my lesson the hard way.",
+   "date": "2025-08-25",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Liz",
+   "titre": "NO! Broke me out so bad",
+   "texte": "I really wanted to love this sunscreen so bad bc of how light weigh it is but it broke me out. Let me start by saying i dont have sensitive skin in any way. After i used this for the first time, my skin was itching.. i got tiny little pimples in my forhead (which i never get) my skin was itching all over my face and i didnt know why.. i tried it in several separate occasions and it was always the same.. i gave up and threw it away.",
+   "date": "2026-03-16",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cala17",
+   "titre": "Mature skin approved!!!",
+   "texte": "Sensitive skin,don't like other SPF.44YO: paying(fixing) younger mistakes HA 2%: BYOMA spf 50 , Tinted moisturizer (dry between each) No Pilling, dewy,not wrinkle/line enhancing Scent:Slight if any fades fast. Wear alone:dewy :no color Not sticky",
+   "date": "2026-06-19",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kayda",
+   "titre": "BEST SPF!!!",
+   "texte": "This is the only spf that doesnt break me out! I have a hard time finding an spf that doesnt break out my very sensitive acne prone skin. This is the best in the market! Works amazing under makeup as well & doesnt cause pilling. I reccomened 10/10!!!",
+   "date": "2026-07-08",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Genesis",
+   "titre": "Amazing!",
+   "texte": "I have sensitive, oily, and acne prine skin….this did not disappoint. It was hydrating on top of my skin care. It was so light weight. It was not overly glowing where i looked like a butterball but my skin definitely looked hydrated. I did not get stinging in my eyes, however, i was careful to rub it around my eyes. I really love this! ♥️",
+   "date": "2025-05-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "mads",
+   "titre": "burns eyes & doesn't work well",
+   "texte": "This product had such great reviews so I was excited to try it. I love the glow it gives my very dry skin! But wow does it burn my eyes so bad. I applied this an hour before going swimming and as soon as I went under water and came up, my eyes were burning. Also I didn't see many people mention this and maybe it's because I'm so pale but I reapplied this every 20 mins for 3 hours and I still got burnt on my face. Overall, I think there are way better sunscreens out there!",
+   "date": "2025-06-20",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

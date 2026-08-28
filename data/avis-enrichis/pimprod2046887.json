@@ -1,0 +1,171 @@
+{
+ "ref": "pimprod2046887",
+ "asin": null,
+ "pid": "pimprod2046887",
+ "source": "ulta",
+ "nom": "The Ordinary Niacinamide 5% Face and Body Emulsion for Dark Spots & Uneven Tone",
+ "note": 4.77,
+ "nbAvis": 26,
+ "lus": 21,
+ "collectes": 21,
+ "segments": {
+  "oily": "Reviewers with oily or oily-combination skin report the emulsion feels lightweight, absorbs quickly and does not leave a greasy feel, with one noting sebum staying more in check.",
+  "dry": "One reviewer with normal-to-dry, acne-prone skin uses it on face and body for months without complaints, though it adds only a little moisture.",
+  "combination": "Combination-skin reviewers describe it as lightweight, fast-absorbing and non-greasy, with several rebuying after seeing brightened, more even tone.",
+  "sensitive": "Sensitive-skin reviewers (including one described as pale, redhead, sensitive with large pores) report no irritation and good tolerance, with one noting it stings briefly before subsiding.",
+  "mature": "Reviewers in their 50s and 60s with dark spots, sun damage and melasma report brighter, more even-toned skin and easy layering under makeup, describing results as gradual rather than dramatic."
+ },
+ "concerns": {
+  "aging": "Two mature reviewers (52 and 62) report their aging, sun-damaged skin looks brighter and more even-toned with regular use, describing gradual rather than miraculous fading of dark spots.",
+  "dehydration": "Most reviewers find it hydrating and plumping without stickiness, but two describe it as not hydrating enough alone and needing to be paired with a separate moisturizer.",
+  "redness": "One reviewer with pale, sensitive skin and large pores reports improved pore appearance and no negative reaction; no redness-specific complaints are mentioned.",
+  "barrier": "Reviewers describe the formula as gentle and non-irritating even on sensitive or acne-prone skin, with only brief stinging reported by one user.",
+  "spots": "Multiple reviewers report fading or lightening of dark spots, hyperpigmentation, melasma and acne scars over weeks of use, describing the effect as slow and gradual rather than immediate.",
+  "blemishes": "Several reviewers say switching from niacinamide-plus-zinc formulas to this zinc-free version stopped or reduced cystic breakouts; one reviewer saw no change in skin after over half a bottle.",
+  "oiliness": "Reviewers with oily or combination skin report sebum staying more controlled and pores appearing smaller, with no reviews reporting increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight milky texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption, no sticky residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Faulty pump dispenser",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Insufficient hydration alone",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Brief stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Preferred over zinc-containing niacinamide formulas",
+   "polarite": "pos",
+   "concerne": [
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Sunshine Gardener, but now wearing hats",
+   "titre": "This is on my must buy use daily list",
+   "texte": "I am 62 and have a lot of dark spots and sun damage as well as oily acne prone sensitive skin. I am using this daily layered after B5+amino acids on my face, chest, and arms, followed by my regular oil free mosturizer. My dark spots are slowly lightening (no miracle) and my skin texture is improving. I am also wearing hats and covering up from the sun to avoid any new dark spots forming. I now stock up on this 5% niacinamide by The Ordinary as I don't want to run out.",
+   "date": "2026-04-04",
+   "verifie": false,
+   "utiles": 25,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "aging",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer",
+   "titre": "This will remain a regular in my skin care routine",
+   "texte": "This product is a wonder-worker! I am 52 years old and have (had) dark spots and melasma. This niacinamide product is affordable, lightweight, gentle, and has made my aging skin look so much brighter and more even-toned. I like that I can wear this under makeup and it absorbs completely into my skin. I will continue to purchase this as long as it is made!",
+   "date": "2025-12-15",
+   "verifie": false,
+   "utiles": 21,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "KP",
+   "titre": "Bye bye pores!",
+   "texte": "I'm a redhead with pale, sensitive skin and large pores and this stuff is amazing! I originally got it as more of a moisturizer step and that did not work. It's a milky texture and not hydrating enough on its own but… it is amazing as a serum skin care step! I've had large pores my entire life and this has really improved them. It's even shrunk some of the pores that were larger due to scarring. I've tried other niacimide products and none have had this effect. I use two pumps right after cleansing before other serums and moisturizers and it's been working great!",
+   "date": "2026-07-31",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Michelle",
+   "titre": "Try This if Zinc Breaks You Out",
+   "texte": "While I wish the formulation for the Niacinamide was 10% like the Niacinamide 10% and Zinc 1%, I still really like this product. I used to use the N 10% + Zinc 1% for years. As I've gotten older, Zinc seems to break me out more. So I switched to this product. The Niacinamide I still wish was higher, but my sebum is staying in check and pores aren't becoming as clogged as before.",
+   "date": "2025-06-01",
+   "verifie": false,
+   "utiles": 32,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nikki",
+   "titre": "Best Niacinamide product!",
+   "texte": "I never write reviews but I felt I had to with this one. This makes my face GLOW. I tried the niacinamide + zinc drooper bottle in the past. The zinc broke me out in horrible cystic acne, so I was thrilled to see The Ordinary made a niacinamide formula without the zinc. My face has never looked this clear and bright whle using this product. I absolute prefer the pump bottle over the dropper bottle too. (I wish they were all in pump bottles) And I LOVE how much comes in this bottle. It lasts a while. Please don't ever stop making this!!",
+   "date": "2025-05-01",
+   "verifie": false,
+   "utiles": 19,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Mon",
+   "titre": "Body emulsion",
+   "texte": "Used over half the bottle no changes to skin. Pros- scent free, and doesnt leave face sticky.",
+   "date": "2025-05-26",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Archer",
+   "titre": "Easy to incorporate",
+   "texte": "My skin loves niacinamide, so this is a no brainer for me to include. No irritation, and it adds just a little moisture. My skin is normal to dry acne prone and I've been using for four months on my face and body without complaints.",
+   "date": "2025-03-17",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,94 @@
+{
+ "ref": "pimprod2057636",
+ "asin": null,
+ "pid": "pimprod2057636",
+ "source": "ulta",
+ "nom": "Patchology Serve Chilled Cool Crush Extra-Depuffing Hydrogel Eye Patches",
+ "note": 4.54,
+ "nbAvis": 13,
+ "lus": 8,
+ "collectes": 8,
+ "segments": {},
+ "concerns": {},
+ "aspects": [
+  {
+   "libelle": "Cooling refreshing sensation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stays in place without slipping",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reduces under-eye puffiness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well straight from fridge",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unclear results after single use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good as gift item",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Melissa",
+   "titre": "Still not sure",
+   "texte": "Used once so far, didn't really see a huge difference. Will try again.",
+   "date": "2026-05-12",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Denise",
+   "titre": "My new favorite",
+   "texte": "I've been using Patchology for a few years now, and this is by far my all-time favorite. The patches stay in place without any slipping, and my skin feels incredibly refreshed after removing them. I highly recommend giving them a try!",
+   "date": "2026-04-10",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Kristina",
+   "titre": "Feels great!",
+   "texte": "I love the Serve Chilled masks, especially On Ice. The new Cool Crush eye masks work well out of the fridge to depuff under-eyes. They're hydrating too. I use Cool Crush pre makeup in the morning.",
+   "date": "2026-05-02",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MICHELLE",
+   "titre": "Love",
+   "texte": "These are my favorite Patchology eye gels. They never fail to relieve the puffiness in my eyes in the morning. Try em out. You won't regret it!",
+   "date": "2026-03-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "Reviewers do not state their skin type or specific skin concerns, so segmentation by skin type and by concern cannot be produced from this review set."
+}

@@ -1,0 +1,170 @@
+{
+ "ref": "pimprod2043768",
+ "asin": null,
+ "pid": "pimprod2043768",
+ "source": "ulta",
+ "nom": "COSRX The AHA BHA PHA LHA 35 Peel with Vitamins B5 & B12",
+ "note": 4.78,
+ "nbAvis": 82,
+ "lus": 68,
+ "collectes": 68,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone skin report gentle exfoliation without excess stripping and reduced congestion in pores.",
+  "dry": "One long-term dry-skin user reports the peel improved dryness and diminished discoloration and fine lines on first use.",
+  "combination": "Reviewers with combination skin report it helps with texture on specific areas like the chin and jawline, used sparingly (once or twice a month).",
+  "sensitive": "Sensitive-skin reviewers are split: several report no irritation, tightness, or dryness even on first use, while others note stinging, red patches, or a first use too irritating to leave on the full 10 minutes.",
+  "mature": "Reviewers in their 40s-60s report improved discoloration, fine lines, and overall radiance, including one long-term sun-damaged skin case who saw visible pore improvement.",
+  "normal": "A reviewer without sensitive skin who was cautious about the multi-acid formula reports very smooth, new-looking skin with no adverse reaction."
+ },
+ "concerns": {
+  "aging": "Reviewers with mature or aging skin report reduced appearance of fine lines and improved discoloration, sometimes after a single use.",
+  "dehydration": "Some reviewers report the product does not leave skin tight or dried out, and one reports improved dryness; no reviewer reports worsened dryness.",
+  "redness": "Mixed reports: several say the peel leaves no redness or sensitivity after use, but one reviewer describes red patches appearing after first use and finding the product too strong for her skin.",
+  "barrier": "Reviewers describe the peel as gentle relative to similar acid products (compared favorably to The Ordinary's peel), with several noting no burning or irritation even on first use.",
+  "spots": "Reviewers report fading of dark spots and acne scars after repeated weekly use, and faster resolution (redness and pain reduced) of active pimples treated with the product overnight.",
+  "blemishes": "Most reviewers with acne-prone skin report fewer breakouts, reduced closed comedones, and calmer jawline or under-skin bumps over several weeks; one reviewer reports a purge lasting about three days, and one reports mild breakout without major flare-ups.",
+  "oiliness": "Reviewers report smaller-looking pores and reduced sebaceous filaments on the nose, describing the T-zone as clearer and less congested after use."
+ },
+ "aspects": [
+  {
+   "libelle": "Packaging leaks from the seal",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling or stinging sensation on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Smooth, soft skin texture after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unpleasant or strong scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Light, non-heavy gel-like consistency",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus pricier acid peels",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small tube size relative to price",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "A",
+   "titre": "Packaging breaks and leaks, impossible to use",
+   "texte": "Came damaged, got it replaced and the tube broke at the top again and product leaked. The tube is not suitable for acid I guess. Would buy in better packaging, the peel itself is great.",
+   "date": "2026-04-28",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Martini",
+   "titre": "Glad I tried this",
+   "texte": "I love COSRx and have tried quite a few products from them. I do have regularly scheduled monthly facials/exfoliations for my combo skin, however, I wanted to give this a try for days when I needed a little more TLC. My acne is more hormonal and I tend to get more under the skin acne on my jawline. My cheeks tend to get one occasional under the skin bump or traditonal small white head zit. I had read about this product before but was really scared to try because of the \"tingling\" sensation. My first use of the product felt so irritating that I could not keep it on for the full 10 mins. But I did notice that throughout the week, my stubborn bumps on my jawline lessened. I gave it a go a second time a week later, and I have to say that this product does an amazing job. The second time was not as harsh and much easier to get to 10mins. I already see a better appreance on my cheeks and jawline. This is only twice that I have used this product, but I am happy I took the plunge. I feel it helps to clean up any dead skin cells that continue to clog my pores. My skin has not been this clear in a long time. I would say to definitely use caution on the first time if you have bery sensitive skin.",
+   "date": "2024-10-13",
+   "verifie": false,
+   "utiles": 42,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "sensitive"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dina",
+   "titre": "Works for me!",
+   "texte": "I have sensitive aging skin. This definitely helped the appearance of my skin. The first use diminished discoloration and improved some fine lines. It definitely improved dryness.",
+   "date": "2024-11-02",
+   "verifie": false,
+   "utiles": 32,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Irene",
+   "titre": "Sooo so so good",
+   "texte": "I have so much trouble clearing my dark spots and after about 3 times using it (1 time once a week), my dark spots had significantly faded. I would also put this on growing pimples and the next day it would be 60% gone, less red, and less painful! Its also pretty gentle and I have rosacea and sensitive skin. Definitely use for only 10 mins, if you're really sensitive try 7-8mins!",
+   "date": "2025-06-30",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "patty c.",
+   "titre": "a bit strong",
+   "texte": "first time to use and it has sting sensation. my skin appears some patches in red so it's a bit concerning. i washed it off after 5 mins. overall it's not bad but maybe too strong for my skin type",
+   "date": "2023-12-03",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shauna M.",
+   "titre": "Simply WOW!",
+   "texte": "I used the peel for the 1st time and I can't believe how soft my skin felt. I have sensitive skin, but I did not have any reactions! And the visible pores on and around my nose appears \"shallower\" and smaller in size. It's difficult to explain but I'm simply loving the results! After many years of Hawaiian sunshine, and now at 60 years old, I didn't think anything would help my skin. Just love Cosrx! :pray:",
+   "date": "2023-11-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness",
+    "mature"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "C",
+   "titre": "Amazing",
+   "texte": "Amazinggggggg! I have acne prone skin and very large pores and this product has dimnished both! My skin is smoother, clearer, softer. Even helped my closed comodones shrink and smoothen out! There was mild tingling, and my skin did break out/purge, but that only lasted 3 days. I've only used this product once a week and im on week 2. Will for sure continue using this product!",
+   "date": "2025-07-02",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

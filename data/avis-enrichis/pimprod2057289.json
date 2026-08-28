@@ -1,0 +1,160 @@
+{
+ "ref": "pimprod2057289",
+ "asin": null,
+ "pid": "pimprod2057289",
+ "source": "ulta",
+ "nom": "Pixi Vitamin-C Tonic Brightening Toner",
+ "note": 4.94,
+ "nbAvis": 33,
+ "lus": 33,
+ "collectes": 33,
+ "segments": {
+  "oily": "One reviewer with an oily face reports the toner helped control oiliness and left no oily look, with no breakouts after a month of use.",
+  "dry": "Reviewers describing previously dry, flaky skin report it now feels hydrated and smooth rather than dry.",
+  "mature": "Reviewers in their 30s-40s and one noting her age report reduced hyperpigmentation and sun spots and say it works well for mature or aging skin.",
+  "combination": "One reviewer whose skin used to swing between too dry and too oily with breakouts reports it now feels balanced, hydrated and even-toned."
+ },
+ "concerns": {
+  "aging": "Reviewers in their 40s report less hyperpigmentation and sun spots and describe the product as suited to mature skin; one in her 30s-40s says it makes skin feel younger.",
+  "dehydration": "Reviewers with previously dry or flaky skin report their skin now feels hydrated, smooth and less tired-looking.",
+  "spots": "Several reviewers report fading of acne scars and dark spots and more even skin tone; effects are described as gradual over weeks rather than instant for most.",
+  "blemishes": "Reviewers who mention past acne or breakouts report scarring fading and, in one case, no new breakouts since starting; no reviewer reports worsened acne.",
+  "oiliness": "One reviewer with an oily face reports the toner controls oiliness and leaves no oily residue after application."
+ },
+ "aspects": [
+  {
+   "libelle": "Citrus scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight watery texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Immediate glow and brightness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus pricier brands",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fading of acne scars over weeks",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Concern about orange allergy reaction",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Ana",
+   "titre": "It really helps to glow your skin",
+   "texte": "I wasn't expecting much for being a toner. But it really makes my skin feel very glowing and iluminated, i like how much it helps to control my oily face and I haven't break out since I started using it 1 month ago.. It's a really nice way to incorporate Vitamin C in your routine. And the price is very affordable for the quality it is.",
+   "date": "2021-06-17",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brittany",
+   "titre": "Love this product!!",
+   "texte": "Buying this product was the best decision I've ever made!! In the past I had very dry and flaky skin that made me very self conscious and since I've been using this toner my skin is no longer dry, it feels so hydrated and smooth and also smells amazing. Definitely going to be re purchasing this product!",
+   "date": "2020-02-18",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rachel P.",
+   "titre": "All in one toner",
+   "texte": "This product has left my face with less hyperpigmentation and sun spots which have aggressively came on after hitting my 40 Mark . I look forward to trying the glow tonic also . However Pixi does NOT DISAPPOINT. you won't regret it ladies it is great for all ages however it works wonders for us mature women.",
+   "date": "2022-12-15",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sierra",
+   "titre": "Amazing Product",
+   "texte": "This is literally the best thing i have EVER used on my face. My face used to be too dry or too oily or i would break out and the color of my face would be off but now that I use this after every time i wash my face, my skin Glows and it feels so hydrated and the color of my face looks so healthy. 10/10 recommend!",
+   "date": "2019-11-19",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erin",
+   "titre": "Obsessed!!",
+   "texte": "This stuff is just as amazing as the Glow Tonic. So I use this every am after showering, followed by the new Vitamin C serum, then completing my am skincare routine with the Vitamin C lotion. It's perfect for daytime. It's light, refreshing, and smelly slightly citrusy. I've been using this daytime routine for 2 weeks now and I've already noticed more glowy skin and some of my acne scars have faded!! I'm a believer!",
+   "date": "2019-03-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kayla T.",
+   "titre": "Must Have!",
+   "texte": "I've been an avid Glow Tonic user for almost two years now, but I have struggled with acne scarring on my face and needed a bigger dose of Vitamin C in my daily regimen. I went to find new skincare and discovered the new Vitamin-C toner! I am so excited about this product. It's exactly what I need!",
+   "date": "2019-02-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "LaShun",
+   "titre": "This is beautiful :)",
+   "texte": "This is a lovely product that I received. I have not tried it long yet since I recently was introduced to the vitamin c tonic. It smells like a pretty orange :D Let me tell you, I am allergic to oranges, but I always sneak and eat one or drink orange juice. I tested this on my hand and my skin instantly drunk it up. It has a dainty smell to it and it leaves no oily look on your skin. It applies like water. I am calling this a safe juice for the skin :DI had no allergic reaction to this and my skin needs all the vitamins it can get at my age :D I will up date my review if it lets me after a week or 2 of using it more often, so far its a win for me.",
+   "date": "2024-05-28",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,169 @@
+{
+ "ref": "xlsImpprod16141001",
+ "asin": null,
+ "pid": "xlsImpprod16141001",
+ "source": "ulta",
+ "nom": "Philosophy Purity Made Simple Pore Extractor Clay Mask",
+ "note": 4.65,
+ "nbAvis": 2002,
+ "lus": 80,
+ "collectes": 186,
+ "segments": {
+  "oily": "Reviewers with oily or textured skin report the mask reduces excess oil and improves texture without harshness.",
+  "dry": "Reviewers with dry skin report the clay can be overdrying or leave skin tight, though several say it did not strip or over-dry them when followed by moisturizer.",
+  "combination": "Combination-skin reviewers, including those with redness-prone or larger pores, say it deep-cleans without stripping or flaring up their skin.",
+  "sensitive": "Sensitive-skin reviewers are split: several report no irritation and good tolerance with spaced-out use, while others describe burning, redness, itching, or breakouts, especially with frequent use.",
+  "mature": "Reviewers in peri- or pre-menopause report the mask helped clear hormonal breakouts and gave a softer, refreshed, more youthful-looking result."
+ },
+ "concerns": {
+  "aging": "Reviewers describe softer, refreshed skin and reduced signs of aging with regular use; no one reports it worsening aging concerns.",
+  "dehydration": "Most reviewers say it does not overly dry the skin when a moisturizer is used afterward, but several describe the clay as drying, tight, or overdrying, particularly for dry or sensitive skin.",
+  "redness": "One reviewer with sensitive, redness-prone skin says it does not cause flare-ups, but others report their skin turned red, itchy, and irritated after use.",
+  "barrier": "One sensitive-skin reviewer describes severe barrier damage, irritation, and burning lasting over a week; most other reviewers do not report barrier issues.",
+  "spots": "Numerous reviewers report significant reduction of blackheads, sebaceous filaments, and clogged pores, often after just one or two uses; one reviewer sees no change beyond exfoliation.",
+  "blemishes": "Many reviewers, including a parent using it on a teenager and reviewers in perimenopause, report breakouts clearing up quickly and pimples shrinking; a couple of reviewers instead report new breakouts or purging.",
+  "oiliness": "Reviewers with oily skin report reduced excess oil and better-balanced skin after use."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast-drying clay texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or noticeable fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Small product size for price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, soft skin after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Exfoliating beads during removal",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Long-lasting tube, good value over time",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Snoozy",
+   "titre": "Liquid Sandpaper",
+   "texte": "I will preface this by saying that i have sensitive skin, so my experience wont be the same as everyones! This product was recommended to me by an employee when i expressed concern over clogged nose pores. When you see a product with \"purity\" in the name, you might assume it would be good for delicate skin, but it is quite the opposite. The fragrance is very strong. The product itself does a good job at removing dead skin and some live skin too. I would equate it to 120 grit sandpaper. The clay dries quickly and washes off pretty cleanly, but my skin felt like I had witnessed an atom bomb drop nearby, because my skin was so irritated and burning. I applied a double layer of my usual moisturizer, but the damage was done. My skin barrier was toast. Its been over a week and I'm still recovering. Sensitive skin folks BEWARE!",
+   "date": "2023-04-19",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "edgypoet88",
+   "titre": "PHILOSOPHY IS SLEPT ON",
+   "texte": "As someone who has been an active member of the beauty community for 10+ years, I've tried many face masks and none have ever worked as well as this one. This Philosophy mask stands alone - there is such a noticeable difference in my skin after use, far greater than any other mask I've tried (especially the Bubble charcoal mask and the Kielh's rare earth one). My skin is acne-prone, dry and sensitive and this mask has never caused discomfort after use. It does dry fast and tight, but my skin feels so clean ans refreshed after I take it off. And then makeup application is so good the next day. I love this mask so much because I can really really notice the difference in my skin after use - my pores are so much clearer and I feel so clean. It definitely gets all the gunk out of your pores. This mask deserves more mainstream attention and recognition !!!",
+   "date": "2026-01-03",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ev007",
+   "titre": "Pore therapy",
+   "texte": "My face feels so clean and refreshed after using this mask. I'm prone to whiteheads and blackheads and this really helps to clean the gunk out of my pores. I have dry, slightly sensitive and I haven't had any adverse effects. However, i use this every 2-3 weeks and i feel like any more then that would be too aggressive for my skin.",
+   "date": "2023-04-29",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LsuMom",
+   "titre": "Miracle Product!",
+   "texte": "This is truly a miracle product & my absolute favorite product! I'm in peri-menopause & my face has been breaking out really bad. I just ordered & received it about a week ago & after the 1st use I noticed a difference! They shrunk & started drying up immediately! 3 days later I used it again & my face is almost 100% cleared up! I tried my pore extractor & nothing is coming out my pores anymore! This stuff is absolutely AMAZING!!!",
+   "date": "2022-03-09",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarahg2",
+   "titre": "Works great on my combo skin!",
+   "texte": "I have combination skin that is sensitive and prone to redness but with larger pores on my forehead and around my nose. I also get breakouts from time to time (thanks hormones). I love using this mask whenever I feel like my skin needs a deep clean. It gets the gunk out of my pores and off my face without stripping it or causing my sensitive skin to flare up. Sometimes I use it only on T zone or breakout areas, but I also use it all over as needed. Please never discontinue this fabulous mask!!",
+   "date": "2025-09-24",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "KeeksATL",
+   "titre": "Amazing Mask for Oily Skin",
+   "texte": "I have extremely oily, textured skin. This mask is truly exceptional. It helps with excessive oil and texture. Its gentle. I will always have this in my arsenal.",
+   "date": "2022-07-05",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "abbym10045",
+   "titre": "it's okay, don't see the hype",
+   "texte": "this is a nice mask, do not get me wrong. but I genuinely do not see any improvement after using it besides exfoliation. it smells a bit like paint. i love philosophy products so it's kind of a bummer, plus it leaves my skin dry and tight. the only upside really is that it exfoliates a decent amount of dead skin off. i wish i'd have bought the trial size before committing to a full tube, i don't think i'll be repurchasing",
+   "date": "2022-09-15",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

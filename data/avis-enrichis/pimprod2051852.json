@@ -1,0 +1,155 @@
+{
+ "ref": "pimprod2051852",
+ "asin": null,
+ "pid": "pimprod2051852",
+ "source": "ulta",
+ "nom": "TULA Clear Up Pore Clearing Gel",
+ "note": 5,
+ "nbAvis": 11,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {
+  "sensitive": "One reviewer describes it as good for sensitive skin, saying it does not disrupt the skin barrier the way other acids do.",
+  "mature": "One reviewer in her 60s reports it stopped her occasional acne and now uses it with a moisturizer as part of her routine."
+ },
+ "concerns": {
+  "spots": "Several reviewers report fewer breakouts on the lip, chin, cheeks or forehead, including one whose under-skin breakout resolved without surfacing; one reviewer still gets occasional acne but far less than before.",
+  "blemishes": "Multiple reviewers say it prevents blemishes and keeps skin clear over months or years, including cases of hormonal acne and long-standing acne unresolved by a dermatologist.",
+  "barrier": "One reviewer states it does not ruin the skin barrier over time, unlike other harsh acids she has tried."
+ },
+ "aspects": [
+  {
+   "libelle": "Sticky on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Dries down well under moisturizer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting bottle, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle enough for sensitive skin",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Effective on hormonal and fungal acne",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Frequent restock unavailability",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Riley J",
+   "titre": "Actually Works!!",
+   "texte": "I have been struggling with random breakouts on my upper lip, chin, and cheeks. No product or even popping seemed to get rid of them quickly. I have been using this gel every day, sometimes twice a day (morning and night) and I actually can tell a difference. I have had less breakouts, and when I recently felt a breakout under the skin above my lip, I put this gel on, and it never surfaced and just went away. I will be repurchasing!!",
+   "date": "2025-07-22",
+   "verifie": false,
+   "utiles": 14,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "lily",
+   "titre": "Fixed my skin",
+   "texte": "I struggled with a lot of fungal acne on my forehead or small bumps i think it was fungal acne at least! anyway i struggled with acne on my forehead and cheeks but after using this it has cleared my skin!! I still get acne here and there but never what it used to be!",
+   "date": "2025-06-05",
+   "verifie": false,
+   "utiles": 13,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sara J",
+   "titre": "Best",
+   "texte": "The only thing that keeps my face clear. it feels a little sticky but it dries well and I use it under a moisturizer. Iv tried lots of toners / serums / retinols and this is the best ! Good for sensitive skin and doesn't end up ruining your skin barrier over time like other harsh acids. worth the money it last me a long time.",
+   "date": "2025-06-05",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Barbara",
+   "titre": "No Blemishes!",
+   "texte": "I've been using this formula as a toner since it first came out several years ago. I'm well into my 60s now, and still had problems with occasional acne. I started using this before applying my moisturizer and I've seriously never had another pimple. I won't put anything other than Tula on my face and neck. I also use the 24/7 moisturizer and this combination has changed my life.",
+   "date": "2026-04-17",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Michayla",
+   "titre": "Please bring this back",
+   "texte": "Please please bring this back. After 9 years of acne and going to a dermatologist who couldn't even cure it, this is the ONLY thing that finally cleared my skin. I've been loyal to it for 5 years back when the bottle was white/clearish and am so scared to have to find something new. I just ran out of my last bottle.",
+   "date": "2025-04-20",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Paige",
+   "titre": "Whyyyyyy",
+   "texte": "When will this product be back! I swear by this for 5 years now!!!!! I am a hormonal acne person on top on normal every day blemishes and toning problems this has saved my face and made my complexion near perfect! I recommend this to every woman! Please come Back!",
+   "date": "2025-04-05",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Andrea",
+   "titre": "They've been saying for months it'll be restocked in 2 weeks",
+   "texte": "It's the best but I think it's time to move on. They've been saying for months it'll be restocked in 2 weeks. Never happens.",
+   "date": "2025-04-19",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "All 11 reviews are 5-star, so no critical or lower-rated review is available to include, and coverage of skin types beyond sensitive and mature is thin."
+}

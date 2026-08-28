@@ -1,0 +1,145 @@
+{
+ "ref": "mkt77006138",
+ "asin": null,
+ "pid": "mkt77006138",
+ "source": "ulta",
+ "nom": "Dermasuri Deep Exfoliating Face Scrub Mitt",
+ "note": 4.71,
+ "nbAvis": 68,
+ "lus": 50,
+ "collectes": 50,
+ "segments": {
+  "sensitive": "Several reviewers with self-described very or extremely sensitive skin report the mitt exfoliates without causing irritation, redness or harshness, calling it gentle enough for daily use."
+ },
+ "concerns": {
+  "redness": "Sensitive-skin reviewers specifically note the absence of irritation or redness after use, describing the mitt as gentle despite its exfoliating strength.",
+  "blemishes": "Multiple reviewers report reduced acne breakouts and clearer skin with regular use; none report worsened breakouts, though a few give only moderate 3-4 star ratings citing unremarkable results rather than negative skin effects."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaves skin smooth after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle despite exfoliating strength",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Easy and convenient to use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels like a spa treatment",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Underwhelming compared to other exfoliators",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Emi M.",
+   "titre": "Good, but Not the Best",
+   "texte": "This glove is good, but not the best Iâ€™ve used. It exfoliates well, but Iâ€™ve had better results with other products. Itâ€™s still a decent option, especially for the price.",
+   "date": "2022-07-01",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Nay M.",
+   "titre": "Easy and Effective",
+   "texte": "Highly recommend this mitt for anyone looking to improve their facial skin. Great for acne-prone skin too.",
+   "date": "2023-06-13",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Liv",
+   "titre": "Great for Sensitive Skin",
+   "texte": "I have very sensitive skin, and this exfoliating mitt is perfect for me. Itâ€™s gentle yet effective, and it doesnâ€™t cause any irritation. My skin feels so much better after using it. Itâ€™s definitely a must-have for anyone with sensitive skin.",
+   "date": "2022-12-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ari L.",
+   "titre": "Gentle on Sensitive Skin",
+   "texte": "I have extremely sensitive skin, and this exfoliating mitt works wonders without causing irritation. It gently removes dead skin, making my face look brighter and feel softer. A fantastic addition to my skincare regimen.",
+   "date": "2023-08-22",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bree",
+   "titre": "Perfect for Sensitive Skin",
+   "texte": "I have very sensitive skin and was worried this might be too harsh, but itâ€™s perfect. Gentle yet effective, it leaves my skin feeling fresh without any irritation.",
+   "date": "2022-02-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dree E.",
+   "titre": "Versatile and Handy",
+   "texte": "A versatile and handy tool for skincare. Works well on both face and body. My face has never felt better, and my acne has improved.",
+   "date": "2024-01-04",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sofi M.",
+   "titre": "Improved Skin Texture",
+   "texte": "Using this exfoliating glove has noticeably improved my facial skin texture. It's much smoother and more even now. I love how easy it is to use and how effective it is at keeping my skin clear and acne-free. Highly recommend for anyone looking to enhance their skincare routine.",
+   "date": "2022-12-28",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

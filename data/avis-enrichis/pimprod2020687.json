@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2020687",
+ "asin": null,
+ "pid": "pimprod2020687",
+ "source": "ulta",
+ "nom": "Pacifica Glow Baby Brightening Face Wash",
+ "note": 4.37,
+ "nbAvis": 329,
+ "lus": 81,
+ "collectes": 99,
+ "segments": {
+  "oily": "One reviewer with generally clear skin who breaks out cyclically says the wash clears blemishes within a day, and another reports it cleans oil off well and cleanses thoroughly.",
+  "dry": "Reviewers describe both outcomes: some with dry/dull or dry/sensitive skin report softness and hydration with no irritation, while others say it dried their skin out badly, left it flaking, or increased dryness when used daily or combined with other actives.",
+  "combination": "One combo-skin reviewer reports the wash dried her skin out severely all over her face.",
+  "sensitive": "Sensitive skin is the most divided segment: several say it works gently with no irritation and even helps dark circles or blemishes, while others report their sensitive skin was stripped, dried and tight, broke out, or reacted with burning/itching after one or two uses.",
+  "normal": "One reviewer with normal, blemish-prone skin says it reduces dullness and gently exfoliates with a little product going a long way.",
+  "mature": "Mature-skin reviewers (in their 50s, 70s) report brighter, softer-looking, more youthful skin and being complimented on their complexion since switching to this cleanser."
+ },
+ "concerns": {
+  "aging": "Reviewers in their 50s, mid-70s, and one describing 'middle-aged' skin report smoother, softer-looking wrinkles, a more youthful and dewy look, and being mistaken for having had facial treatments.",
+  "dehydration": "Several report the wash leaves skin hydrated, smooth, and not stripped; but a notable number, including combination and daily users, report significant drying, tightness, and flaking, especially with frequent use or combined with other actives.",
+  "redness": "One reviewer with self-described non-sensitive skin developed severe redness, itching, burning, and small bumps/blisters after two uses; another with sensitive skin reports no redness at all and full relief from irritation.",
+  "barrier": "One reviewer suspects the combination of vitamin C and AHA disrupted her skin barrier, causing stinging under moisturizer/sunscreen for about two weeks after stopping use; several others report no such disruption and describe the acids as mild and well tolerated.",
+  "spots": "Multiple reviewers report visible fading or improvement of dark spots and more even, brighter skin tone over weeks of use; one used it specifically on aesthetician's advice to maintain results from pricier treatments.",
+  "blemishes": "Most who mention breakouts or acne describe fewer blemishes, cleared hormonal or postpartum breakouts, and no clogging even with acne-prone skin; a few report the opposite — broken-out or inflamed skin after starting the product.",
+  "oiliness": "One reviewer says it cleans oil off the face well and leaves skin feeling clean, with no other oiliness-specific complaints reported."
+ },
+ "aspects": [
+  {
+   "libelle": "Bright yellow tint stains fabric",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Citrus vanilla scent widely liked",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent disliked by a few",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Rich foaming lather",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Severe burning or chemical-burn reports",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Travel-friendly packaging size",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Kay",
+   "titre": "BEWARE BURNING CHEMICAL BURNS",
+   "texte": "Used it 2 times and my face started itching then to burning and now super red and have tiny bumps and blisters on my face. It hurts a lot and is super super itchy. I don't have sensitive skin. Don't buy!!!!",
+   "date": "2025-09-10",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lia",
+   "titre": "Extremely drying face wash",
+   "texte": "I have combo skin and this face wash DRIED my skin out soooo bad. Like all over my skin",
+   "date": "2025-10-22",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "",
+   "titre": "For my sensitive skin people",
+   "texte": "Alluring packaging but that is IT. I would not recommend this product at all. More so especially for my sensitive skin people. It completely strips the skin feeling so dry & tight & also broke my skin out.",
+   "date": "2024-04-23",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Sylvia",
+   "titre": "Possible over exfoliation",
+   "texte": "I think having both vitamin C and AHA was too much for my skin to handle. I didn't have a reaction at first, no redness, bumps, burns. I used this as my daily morning cleanser for about two weeks. Eventually my skin would sting when applying moisturizer and sunblock after cleansing with this product. I stopped using the cleanser and the feeling went away within a week. I'm assuming this disrupted my skin barrier and it took some time to heal",
+   "date": "2026-03-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Tippy",
+   "titre": "Made With Magic",
+   "texte": "My skin loves this! My skin is middle-aged and sensitive and pale and hates everything, so this cleanser is very special. It evened my skin tone after two uses. I look amazing lol! I've only just bought it so I can't review long-term use, but it's a good sign that my finicky skin is already better because of it. This gets 5 stars when Pacifica becomes Leaping Bunny certified.",
+   "date": "2023-10-08",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah",
+   "titre": "Great for brightening and friendly for acne-prone skin",
+   "texte": "I have been using this face wash for a couple years now and I absolutely can't recommend it enough. I am acne-prone and it does not irritate or clog my skin. It's definitely refreshing and brightening.",
+   "date": "2024-09-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nana",
+   "titre": "Grrreat.  Skin care products",
+   "texte": "I'm 77!!! EXCELLENT PRODUCT I LOOK N FEEL Like I'm 50 The glow the wrinkles are so much softer looking Thank you THANK YOU KEEP MAKING MORE OF THIS CLEAN OCEAN BRAND",
+   "date": "2024-08-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,111 @@
+{
+ "ref": "pimprod2050153",
+ "asin": null,
+ "pid": "pimprod2050153",
+ "source": "ulta",
+ "nom": "Mario Badescu Hydrogel Under Eye Patches",
+ "note": 4,
+ "nbAvis": 7,
+ "lus": 7,
+ "collectes": 7,
+ "segments": {
+  "sensitive": "One reviewer with sensitive skin reports a burning sensation, redness, and subsequent swelling and bruising around the eyes after use."
+ },
+ "concerns": {
+  "redness": "One reviewer developed angry red skin, swelling, and bloodshot appearance after using the patches, describing this as unsuitable for sensitive skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Slides down the face",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Reduces puffiness and tiredness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Heavy feel at first application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels secure after a few minutes",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, pleasant sensation on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning and irritation on sensitive skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Adeline",
+   "titre": "Felt burning sensation",
+   "texte": "I used these patches in the morning after doing my skincare and immediately felt a cooling sensation. After less than a minute, I felt like they were burning and I took them off. I had angry red skin where the patches had been. Over the next two days, one of my under eyes became swollen and purple with a huge bump and the other eye is completely bloodshot. Not recommended for sensitive skin.",
+   "date": "2026-04-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Crembo",
+   "titre": "Ok…",
+   "texte": "While the gel works, the patches are heavy and will slide down your face. I had to lie down while using them.",
+   "date": "2025-04-04",
+   "verifie": false,
+   "utiles": 24,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Des",
+   "titre": "Love hate",
+   "texte": "I wake up looking so tired all the time. These do help and help with improvement in puffiness but i hate how they slide down the face the first 5-10 min.",
+   "date": "2026-01-07",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Tania",
+   "titre": "I would recommend",
+   "texte": "They do slide down. I had to adjust them few a times but they do work.",
+   "date": "2025-11-29",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Nicole",
+   "titre": "Works great!",
+   "texte": "I use these in the morning when heading out and they work great. They're a little heavy at first but I think because they're better quality than ones I've used before and after a couple minutes they feel more secure and so good!",
+   "date": "2025-05-13",
+   "verifie": false,
+   "utiles": 18,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "The sample is very small (7 reviews) and only one reviewer specifies a skin type or concern in detail, so conclusions by segment are thin."
+}

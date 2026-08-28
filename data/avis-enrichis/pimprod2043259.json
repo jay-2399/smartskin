@@ -1,0 +1,172 @@
+{
+ "ref": "pimprod2043259",
+ "asin": null,
+ "pid": "pimprod2043259",
+ "source": "ulta",
+ "nom": "belif The True Cream - Aqua Bomb Hydrating Moisturizer",
+ "note": 4.49,
+ "nbAvis": 259,
+ "lus": 76,
+ "collectes": 113,
+ "segments": {
+  "oily": "Reviewers with oily skin describe the gel texture as matte, quick-absorbing, and hydrating without shine or greasy residue, and several say it does not cause breakouts.",
+  "dry": "Reviewers with dry to very dry skin report strong, lasting hydration and plumping, though one with dry skin found the (original) formula tacky and hard to absorb under makeup, and another with extra-dry skin needs to use more product than expected.",
+  "combination": "Combination-skin reviewers report balanced hydration across T-zone and dry patches and no breakouts, though one combination-skin reviewer returned the (new formula) version after it sat heavy, felt greasy, and pilled.",
+  "sensitive": "Sensitive-skin reviewers mostly describe the product as gentle, soothing, and non-irritating even near the eyes, but several say the reformulation added fragrance and caused burning, sunburn-like stinging, or small bumps.",
+  "mature": "Mature-skin reviewers report a firming/plumping effect and reduced fine lines, though one reviewer felt the lightweight formula was not moisturizing enough for mature skin and better suited to younger skin.",
+  "normal": "One reviewer describes it as effective for all skin types without specifying further detail for normal skin."
+ },
+ "concerns": {
+  "aging": "Reviewers describe reduced fine lines, firmer skin, and a plumping effect with regular use; one mature-skin reviewer felt the current formula lacks the plumping and calming she got from the previous version.",
+  "dehydration": "The large majority report fast, deep, long-lasting hydration described as skin 'drinking' the product, including for chronically dry or thirsty skin; a few say hydration fades quickly or the product doesn't absorb, leaving tackiness.",
+  "redness": "Some reviewers report the product calms redness, rosacea flare-ups, and reactive/eczema-prone skin; but others say the reformulated version caused a sunburn-like stinging sensation and visible redness immediately after application.",
+  "barrier": "One reviewer credits it with helping restore her moisture barrier and reduce redness-triggered reactions; no other barrier-specific reports appear.",
+  "spots": "Several reviewers with acne-prone or hormonal-acne skin report clearer skin, smaller pores, and fewer breakouts; however, others (mostly citing the reformulation) report cystic acne, small bumps, or comedones after use.",
+  "blemishes": "Multiple reviewers say the product does not cause new breakouts and even helped tame acne; a minority attribute new blemishes or bumps specifically to the reformulated version.",
+  "oiliness": "Oily-skin reviewers consistently describe a matte, non-greasy finish with no added shine; one reviewer of the reformulated version reports the opposite, a 'grease-ball effect' after several hours of wear."
+ },
+ "aspects": [
+  {
+   "libelle": "Reformulation changed skin reactions",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Lightweight gel texture, fast absorption",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Added fragrance after reformulation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Non-greasy, matte finish",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Good base under makeup and sunscreen",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging issues in shipping",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "MissRobin",
+   "titre": "I'm so sad… the new formula disappoints",
+   "texte": "Belif Aqua Bomb has been my go to moisturizer since it came out. The blue gel was cool and soothing for my sensitive skin. The new formula is kind of the opposite. I was excited to try it, because Belif is always so soothing. This isn't soothing at least not for me. With 30 seconds of putting it on my face, I look like I have very bad sunburn and it feels like I have very bad sunburn. I am so bummed - the original was perfect!",
+   "date": "2024-08-02",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kat",
+   "titre": "New formulation a miss",
+   "texte": "New formulation has changed this product away from why I originally liked it (had been using for nearly a decade). If you need an occlusive (sealing layer moisturizer) thats oiky skin friendly - this might be a good try It dries down with a thin smoothing silicone layer that sits on the skin and seals in products underneath WHAT CHANGED- does not feel as deeply hydrating / plumping, or skin calming. I had used prviously formulation as a deeply hydrating night moisturizer with great results; woke up with reduced fine lines, redness on skin resuced, more even complexion. Now this is nothing special.",
+   "date": "2024-05-07",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "oily",
+   "sujets": [
+    "aging",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rose",
+   "titre": "My summer go to",
+   "texte": "this is my summer moisturizer that I have used for many years. I have recommended to countless people. I suffer from rosacea and outbreaks are painful. Aqua Bomb is soothing on it.",
+   "date": "2024-07-07",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sandy M",
+   "titre": "Good",
+   "texte": "I have used this moisturizer for a couple years now. I have tried different ones due to being a little on the higher end, but have always come back to this moisturizer. I have oily acne prone skin and this is the only moisturizer that does not break me out. I will continue to buy.",
+   "date": "2024-07-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Aging Gracefully",
+   "titre": "Soft and Feels Good",
+   "texte": "I have used this for years. It is a lightweight moisturizer that plumps my skin. I use it in the morning after cleaning and before makeup. It is non greasy and long lasting after application. The firming effect is great for my mature skin. Highly recommend for any age.",
+   "date": "2025-06-18",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lori",
+   "titre": "Very impressed so far",
+   "texte": "Got a free sample of this (foil packet) and really liked it. Bought it on a 5x points sale (love those). Am enjoying it. I have seen a lot less dryness in my skin since I started using this. I have combo skin...T zone oil but dry around mouth corners and centers of cheeks. I'm in my early 50s.",
+   "date": "2025-01-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nicole",
+   "titre": "I have the MOST sensitive skin",
+   "texte": "I don't even know how much I have spent on skincare because everything makes my skin burn. Until now, I will never not use this, I love it. Super gentle on my skin, even around my eyes. Highly recommended.",
+   "date": "2025-07-08",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2045849",
+ "asin": null,
+ "pid": "pimprod2045849",
+ "source": "ulta",
+ "nom": "Drunk Elephant C-Luma Hydrabright Gentle Vitamin C Serum",
+ "note": 4.73,
+ "nbAvis": 431,
+ "lus": 80,
+ "collectes": 117,
+ "segments": {
+  "oily": "One reviewer with dry-and-oily combination skin reports no breakouts, and another describes the formula as not sticky or oily on application.",
+  "dry": "Reviewers with dry skin (including a 43-year-old with dry thyroid skin and one living in a dry climate) report strong hydration and no breakouts, though one of them notes the product pills after a couple hours.",
+  "combination": "Reviewers with combination skin report the serum is gentle, hydrating, non-drying, and leaves skin smoother and brighter, with one noting some breakouts still occur but are controlled.",
+  "sensitive": "Sensitive/reactive-skin reviewers overwhelmingly report no irritation, no redness, and good tolerance even with other actives, though one sensitive-skin reviewer says other vitamin C products historically irritated her and this one finally didn't, while acne-prone/sensitive skin in a couple of other reviews still broke out.",
+  "mature": "Reviewers over 40–50 report reduced fine lines, faded sun damage and hyperpigmentation, and a healthy glow, with one 50-year-old noting she still occasionally breaks out but this product does not trigger it.",
+  "normal": "One reviewer without skin problems ('good genetics, no problem skin') reports simply enjoying the glow and packaging with no particular issue to solve."
+ },
+ "concerns": {
+  "aging": "Reviewers over 40 report softened fine lines, firmer-looking skin, and fading sun damage after weeks of use.",
+  "dehydration": "The large majority of reviewers, including those in dry climates, report noticeable hydration and plumpness without heaviness or stickiness; no reviewer reports the product being drying.",
+  "redness": "Several reviewers state the serum caused no redness or stinging even though other vitamin C products had done so for them; one review notes mild stinging on first application that faded.",
+  "barrier": "Reviewers describe the serum as non-irritating and compatible with other actives in their routine, with no reports of compromised barrier or irritation buildup.",
+  "spots": "Most reviewers with dark spots, sun spots or hyperpigmentation report visible fading after a few weeks of consistent use; a few say it is too early to judge or that they saw brightness but no change yet in their spots.",
+  "blemishes": "Many reviewers report fading of old acne marks and clearer-looking skin, but there is clear dissent: several reviewers, including some acne-prone ones, report new breakouts, cystic-like flare-ups, or pilling that worsened makeup application.",
+  "oiliness": "Reviewers describe the texture as non-greasy and quick-absorbing; no reviewer reports it increasing oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sticky residue after application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump packaging convenient and hygienic",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle top leaks or malfunctions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Product pills under moisturizer or sunscreen",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented or mild scent appreciated",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Rachel",
+   "titre": "Don't use if acne-prone",
+   "texte": "I've been searching for a good vitamin c serum that absorbs well and doesn't sit on top of my skin. This product seemed to be it. It absorbed really well, stung a little bit but felt nice overall. Over the next few days I had the worst breakouts I've had in years. I thought maybe I need to get used to it? Nope. Never happened. My skin looks awful right now, I feel like a teenager, self-conscious and covered in spots. It sucks because it's so highly rated and pricey. Not sure what's reacting so poorly with my skin, but buyer beware, keep the packaging until you know how it reacts with your skin.",
+   "date": "2024-09-26",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Boleyn",
+   "titre": "Great but pills",
+   "texte": "I'm not a paid 3rd party and I didn't receive this as a gift. Bought a full size. Gentle serum. Really does brighten. No synthetic fragrance. Not sticky/tacky. No breakouts. But - pills after a couple hours. I apply this serum first thing. Followed by Lala Retro moisturizer. I dont wear makeup. I am 43, very dry thyroid skin. Fine lines, & sun damage. This vitamin C is great for going low & slow.",
+   "date": "2024-08-13",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer",
+   "titre": "I will buy this product over and over again!!",
+   "texte": "I use this product every morning for my daily glow up and I absolutely love it!! I have really dry and oily skin, am 50 years old and still break out, and this is the first product I have found that does not make me break out!! I am 100% completely sold on this product. Love, love, love this product!!",
+   "date": "2025-07-30",
+   "verifie": true,
+   "utiles": 26,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Juli",
+   "titre": "Give it try, won't be disappointed!",
+   "texte": "Another great addition to any smoothy. I had one of the deluxe samples and it got me hooked! So I had to buy a full size. I add it to protini at bed time and have noticed a big difference with my poor, tone and complexion. I have super sensitive/combination skin, I still break out some and this stuff takes care of that. Have never been able to really use a Vitamin C product before. I've noticed some of my sun spots have faded as well.",
+   "date": "2025-06-27",
+   "verifie": true,
+   "utiles": 20,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Leah",
+   "titre": "Brighter skin!",
+   "texte": "After I turned 40, my skin went crazy! I never had acne in my teen years but now I have horrible breakouts that leave dark scars. I also have hyperpigmentation from the sun damage my skin got in the 90s. The Drunk Elephant C-Luma Hydrabright Serum has helped my skin so much. It has improved my acne and scarring. It has dramatically lightened my hyperpigmentation. My skin looks more radiant and has a healthy glow. My skin feels more hydrated and my fine lines are less noticeable too.",
+   "date": "2024-11-18",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lexi",
+   "titre": "Great for sensitive skin",
+   "texte": "This serum was given to me by a friend after I said I was looking to add vitamin c to my routine. I was skeptical at first as I've had bad luck with Drunk Elephant in the past, but I'm so glad I decided to try it My skin looks hydrated, bright, and glowy, and the best part is NO breakouts!! My skin tends to hate serums and I break out really easily, but I've been using this for a few weeks and my skin has had no new breakouts. Definitely give this a try!!",
+   "date": "2026-03-31",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ElinaKate",
+   "titre": "Amazing!",
+   "texte": "I usually have an issue with vitamin C causing redness around my mouth and nose area but this one really works with my sensitive skin.",
+   "date": "2026-05-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

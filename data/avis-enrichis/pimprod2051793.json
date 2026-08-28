@@ -1,0 +1,171 @@
+{
+ "ref": "pimprod2051793",
+ "asin": null,
+ "pid": "pimprod2051793",
+ "source": "ulta",
+ "nom": "FARMACY Brighten Up 3% TXA Dark Spot Toner",
+ "note": 4.76,
+ "nbAvis": 327,
+ "lus": 80,
+ "collectes": 120,
+ "segments": {
+  "dry": "Reviewers with dry skin report the toner is hydrating and non-drying, though one notes it was slightly drying when used twice daily and switched to nighttime-only use.",
+  "sensitive": "Reviewers with sensitive skin repeatedly describe the toner as gentle, fragrance-free, and non-irritating, with fading of dark spots and no stinging even with daily use.",
+  "combination": "One reviewer with combination sensitive skin in a dry climate reports diminished dark spots and acne scars with no irritation.",
+  "mature": "One reviewer mentions age-related sun-induced dark spots that keep getting darker, and reports the toner brightening her skin so far.",
+  "oily": "One reviewer reports pores looking smaller in the T-zone and a more even skin tone after use."
+ },
+ "concerns": {
+  "spots": "The large majority of reviewers report visible fading of dark spots, sunspots, melasma or hyperpigmentation within one to several weeks; one reviewer disputes any brightening effect and one saw no change after two weeks.",
+  "blemishes": "Several reviewers say it fades post-acne marks and scars and helps prevent new acne; however, three reviewers report new breakouts or cystic acne after use, and one specifically identified the toner as the cause after a stop-start test.",
+  "aging": "One mature-skin reviewer with long-standing sun-related dark spots reports early brightening results.",
+  "redness": "Two reviewers report reduced redness, one linking it to rosacea and azelaic acid, another to acne-related redness.",
+  "dehydration": "Most reviewers describe the toner as hydrating rather than drying, but one reviewer found it slightly drying in harsh winter conditions and limited use to nighttime only.",
+  "barrier": "Reviewers with sensitive or reactive skin generally report no irritation, stinging or dryness, describing the formula as gentle enough for daily use.",
+  "oiliness": "One reviewer reports reduced pore appearance in the T-zone with regular use."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast-absorbing, non-sticky texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, watery feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult to dispense from bottle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Generous size and good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Attractive glass packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes breakouts for some users",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Slight stinging on active breakouts",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes",
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Erika",
+   "titre": "May cause cystic acne",
+   "texte": "I had high hopes for this product to help my melasma and freckles. Unfortunately all I got was painful cystic acne after using this product. I don't even know the last time I've had cystic acne. Wish I could return it but unfortunately I had such high hopes I threw the box away!",
+   "date": "2024-12-01",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Julie",
+   "titre": "Caused breakout",
+   "texte": "I love the original Farmacy toner (in yellow bottle), so thought I'd give this dark spots remover one (in orange bottle) a try and was sadly disappointed. Not only did I not notice any \"brightening\" of dark spots, but instead I broke out with acne - which is extremely odd for a toner. I tried it on several different occasions using it for 3 days to a week at a time consistently and then taking breaks in between for the same length of time using no toner to ensure that it was the true cause and sure enough it was the culprit. Better skin when I don't use it. :/",
+   "date": "2026-08-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Drea",
+   "titre": "Part of my daily routine!",
+   "texte": "I'm just your average millennial mom who noticed more dark spots. I have combo sensitive skin and live in a dry climate. My dark spots and old acne scars have greatly diminished. It doesn't irritate my skin at all. In fact, it gives it this glow. I will leave the house without makeup as my complexion overall has improved. This is a staple in my daily skin regimen.",
+   "date": "2026-03-11",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "kailey",
+   "titre": "Amazing!",
+   "texte": "I'm obsessed with this toner! i've been using it a little over a week and i can tell there's a big difference on my skin's complexion. My skin is soft, and it's basically no longer an uneven tone/texture. I love how there's no harsh scent, it smells like nothing which is perfect for anyone that is sensitive to smells. I have sensitive dry skin and this has done wonders, my skin looks beautiful again. gifted by farmacy",
+   "date": "2025-06-10",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amy",
+   "titre": "Amazing",
+   "texte": "Gifted by farmacybeauty ; Farmacy Beauty's Brighten Up 3% TXA dark spot toner with Azelaic Acid is a product I'm particularly excited about. It's an anti-inflammatory product that contains Tranexamic Acid and Azelaic Acid, which helps to brighten the skin and visibly reduce the appearance of dark spots. I'm particularly interested in it for my rosacea and hyperpigmentation.",
+   "date": "2025-05-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Laine",
+   "titre": "Skin superstar",
+   "texte": "This product has transformed my skin! I didn't know how well it was working until I realized that my skin had been blemish free for much longer than normal. It was slightly drying and because winters in the Midwest are harsh I started only using it my nighttime routine instead of both AM and PM. That helped with the dryness and my skin has never looked better.",
+   "date": "2025-05-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alicia",
+   "titre": "Great for Rosacea!!",
+   "texte": "Love it! Got it in a gift set and wasn't really using it. I started having issues with Rosacea and realized this has Azelaic acid in it that is supposed to help. It did! It helped with my outbreak and I have used it ever since. The texture of my face is so much smoother. Love this product.",
+   "date": "2025-04-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2039887",
+ "asin": null,
+ "pid": "pimprod2039887",
+ "source": "ulta",
+ "nom": "Drunk Elephant B-Goldi Bright Drops with Niacinamide",
+ "note": 4.61,
+ "nbAvis": 697,
+ "lus": 78,
+ "collectes": 121,
+ "segments": {
+  "oily": "One reviewer with already oily skin says the product does not look oily and did not cause extra shine.",
+  "sensitive": "Reviewers with sensitive or breakout-prone skin report it did not irritate them and one specifically says it stayed gentle while still giving a healthy glow.",
+  "combination": "A reviewer with medium-tan skin found the glow barely noticeable, suggesting mixed results on some skin tones.",
+  "mature": "One reviewer mentions it smooths fine lines and improves skin firmness, implying use on mature-skin concerns."
+ },
+ "concerns": {
+  "aging": "Several reviewers say it makes fine lines look less noticeable and helps with smoothness and firmness over time, though one notes it's too early to tell if it helps fine lines specifically.",
+  "dehydration": "Many describe the skin feeling more hydrated, soft, and plump after use, with no dryness reported; one reviewer explicitly notes it doesn't dry out her skin.",
+  "redness": "One reviewer reports less redness and calmer-looking skin since adding it to her routine; no other reviewer discusses redness.",
+  "barrier": "No reviewer discusses barrier repair or damage.",
+  "spots": "Multiple reviewers note dark spots and hyperpigmentation looking less obvious and skin tone more even with regular use.",
+  "blemishes": "One reviewer with breakout-prone skin found it gentle and non-irritating; another notes the product doesn't pile or catch on blemishes; no one reports new breakouts.",
+  "oiliness": "Reviewers with oily skin and others repeatedly emphasize the finish is not greasy or oily despite the added glow."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Blends easily into moisturizer or foundation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Natural glow without glitter or shimmer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Elegant, travel-friendly packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to subtle effect",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glow effect disappears under some makeup",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "No visible effect for some users",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Susan",
+   "titre": "Does nothing",
+   "texte": "I received a free sample of this with order and used it for several weeks with my normal moisturizer. I have no idea what exactly this is supposed to do, but it did nothing for me. There was no difference with or without it. The good thing about it is that it did not irritate my skin at all. The bad - why bother? It's an extra product for no reason.",
+   "date": "2025-09-14",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "normal",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kevlar B",
+   "titre": "Pretty Generic",
+   "texte": "I am happy this is treated my sensitive skin well, no breakouts or anything. Though, the effect has left something to be desired. While it is gorgeous on it's own, super pretty natural shine, as soon as I put anything on top of it like a skin tint, it is completely gone. I might try seeing if it can mix with my skin tint to get the full effect - until then this will be a no makeup day product Gifted by Drunk Elephant for review",
+   "date": "2025-06-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "olivia",
+   "titre": "a nice glow!!",
+   "texte": "i really like these face drops a lot! you can mix it into your moisturizer for an extra glow. it doesn't look very oily which is nice as someone with already oily skin, i defiantly recommend this product! gifted by drunkelephant",
+   "date": "2025-06-12",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jade",
+   "titre": "Just two weeks!",
+   "texte": "After two weeks, my skin feels smoother, looks more even, and has a natural golden glow. Redness and dullness faded, and I've been getting compliments on how fresh, healthy, and radiant my face looks. Complimentary from drunkelephant",
+   "date": "2025-06-11",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sefika",
+   "titre": "Beautiful glow",
+   "texte": "I absolutely love my B-Goldi Drops! With this addition, I've officially completed my entire collection of Drunk Elephant drops. When applied correctly, these drops leave my skin looking radiant while still being incredibly gentle—which is so important for my sensitive, breakout-prone skin. I like to mix a drop or two with the Protini moisturizer, and it gives me a beautiful, healthy glow that lasts all day. Gifted by drunkelephant",
+   "date": "2025-05-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Whitney",
+   "titre": "Glowing drops",
+   "texte": "These drops are so amazing! They give my skin a healthy looking lit from within glow. They make my fine lines look less noticeable, which is a plus. I also love that they help with the look of hyperpigmentation. These are a must in my routine! This is such an amazing product. I was gifted by Drunk Elephant and am so happy to have found these.",
+   "date": "2025-05-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kavita",
+   "titre": "Wished it had more glow",
+   "texte": "I was hoping this would give me a glow from within type look but it's barely noticeable on my medium tan skin. Perhaps it's good for its skincare ingredients but I've only been using it for a few weeks so not sure yet.",
+   "date": "2026-01-25",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

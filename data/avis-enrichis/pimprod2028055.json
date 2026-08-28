@@ -1,0 +1,171 @@
+{
+ "ref": "pimprod2028055",
+ "asin": null,
+ "pid": "pimprod2028055",
+ "source": "ulta",
+ "nom": "Drunk Elephant A-Passioni Retinol Cream",
+ "note": 4.43,
+ "nbAvis": 177,
+ "lus": 79,
+ "collectes": 105,
+ "segments": {
+  "dry": "Reviewers describe dry skin as generally tolerating the cream well when used sparingly, with several noting it softens and smooths without added dryness, though some report peeling, flaking, or worsened dryness when overused (reviews 7, 22, 45, 47).",
+  "sensitive": "Sensitive-skin reviewers are split: several report the cream is unusually gentle and non-irritating compared to other retinols (13, 41, 65, 72), while others describe burning, redness, swelling, or allergic-type reactions (0, 2, 4, 11).",
+  "combination": "One combination-skin reviewer reports the cream controls T-zone oiliness and whiteheads with continued use (44).",
+  "mature": "Mature-skin reviewers (many in their 60s-70s) report visible smoothing of wrinkles and improved tone, with some finding it gentler than prescription retinoids like Retin-A (18, 25, 38, 64).",
+  "normal": "A reviewer without noted skin issues reports overall satisfaction and improved skin feel, without singling out any specific concern (35)."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visible reduction in fine lines and wrinkles, sometimes within one to two weeks (18, 20, 25, 38, 51, 56); a couple see no change after weeks or months of use (6, 9).",
+  "dehydration": "Some reviewers say the cream keeps skin moisturized and non-drying (24, 41, 68), while others experience significant dryness, flaking or peeling, especially with early or overused application (4, 7, 22, 47).",
+  "redness": "A few reviewers with rosacea or reactive skin report the cream causes redness, swelling or bumps (2, 4), but others with sensitive/redness-prone skin report no irritation and improved tone (14, 63).",
+  "barrier": "Several reviewers describe burning, stinging or allergic-type reactions suggesting barrier irritation (0, 4, 5), while others emphasize the formula is gentle enough for daily use without compromising the skin barrier (41, 42, 55).",
+  "spots": "Reviewers report fading of dark spots and acne scars with continued use (32), and improved skin tone/brightness overall (14, 29).",
+  "blemishes": "Multiple reviewers report reduced acne, whiteheads and clearer skin, sometimes within days (29, 39, 41, 43, 74), though one reviewer notes breakouts can occur as a normal part of purging (75) and another reports the product made her break out (1).",
+  "oiliness": "One combination-skin reviewer reports reduced oiliness and fewer whiteheads in the T-zone with regular use (44)."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Gentle compared to prescription retinoids",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive",
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Rich, smooth, moisturizing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to amount received",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Mixes well with other products in a smoothie",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging issues, opening or pump breaking",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight, quickly fading scent",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Susie",
+   "titre": "Do not purchase",
+   "texte": "This is my 4th time buying this product, and unlike other times, it made my face red, swollen and with little bumps. I reached-out to Drunk Elephant for support, and their customer service would not return my email.",
+   "date": "2023-01-11",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CTski",
+   "titre": "So far so good!",
+   "texte": "I've been using a small amount at night before bed for the past three days. Followed with the protini moisturiser. I can already see a small amount of significance on my face. My face feels smooth and softer, and my acne is getting smaller. No problems with dryness or breakouts. Pores seem to be shrinking. (I have sensitive, acne-prone skin and this hasn't bothered me)",
+   "date": "2023-01-07",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ginga-ninja",
+   "titre": "Very gentle yet effective!",
+   "texte": "First off, love, love, love the new packaging. Huge upgrade over the tube design which often cracks open. Adult acne and wrinkles? Not anymore!!! After using this retinol for one week, courtesy of the littles, my skin issues were clearing up overnight. The difference in one week to the next was amazing. Pores were smaller, fine lines and even some of my deeper forehead wrinkles were less noticeable and my acne was clearing up completely. It is gentle enough to use daily without over drying your skin one bit. I am a ginger with very fair, sensitive skin that burns easily, and I have never had any issue with A-passioni. I've used some retinols in the past that really gave me terribly dry skin- flaky for days. Not this one!!! If you are on the fence about it, just try it for a week. You will be a believer too.",
+   "date": "2022-07-31",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kae",
+   "titre": "This is not a promotional review",
+   "texte": "I love it! I have a combination skin. My t zone always gets oily with white heads. I started using it last year and it really helped clear and brightened up my face. I continue to use it since it keeps white heads away and oiliness at bay.",
+   "date": "2024-04-12",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ellen",
+   "titre": "Perfect and we'll worth the money",
+   "texte": "I've tried a lot of retinols and this the first to really wow me. Not only that but my skin loves it. My normally dry skins feels soft and smooth. This will definitely be on the list for a repeat purchase.",
+   "date": "2023-03-09",
+   "verifie": true,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SoFreshAndSoClean",
+   "titre": "Serious results!",
+   "texte": "I've previously used prescription retinoids (tretinoic acid) and it created so much skin irritation and redness it wasn't worth the results. This product is the opposite! Amazing results without all of the skin irritation. I use it with C firma, B hydration, and umbra tinte every AM.",
+   "date": "2022-07-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Mom of 3",
+   "titre": "Not impressed.",
+   "texte": "I really wanted to love this. I gave it 3 stars because it was not \"terrible,\" but I also felt like for the price point it was not any different than using a drug store brand. I did not experience any dryness at all, which I had expected until my face adjusted to the retinol. That's not a bad thing, as my face is already dry, but I didn't feel that it was working. In fact, I used it daily without any change in my skin. I would not purchase this product again.",
+   "date": "2023-04-04",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,172 @@
+{
+ "ref": "pimprod2053538",
+ "asin": null,
+ "pid": "pimprod2053538",
+ "source": "ulta",
+ "nom": "medicube Kojic Acid Turmeric Gel Mask",
+ "note": 3.91,
+ "nbAvis": 11,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {
+  "dry": "Reviewers with dry, peeling skin (including around the nose) report the mask leaves skin glowing and hydrated with no dryness the next day, though one dry-skin reviewer instead reports itching, dryness and texture bumps.",
+  "combination": "One reviewer with combination, occasionally sensitive skin reports no issues with hyperpigmentation improvement, noting that layering a moisturizer underneath first helps with sensitivity.",
+  "sensitive": "Sensitive-leaning reviewers are split: one reports no issues when layering a moisturizer first, while others describe itching, chemical-burn-like tingling, and burned skin around the mouth after use.",
+  "normal": "One reviewer with no particular skin issues uses it for general upkeep and reports glowing, hydrated skin with no complaints."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers report the mask leaves skin hydrated and glowing, with dryness and peeling reduced the next day; one reviewer instead reports increased dryness and itchiness after use.",
+  "redness": "One reviewer describes burning, tingling, and skin resembling a chemical peel or sunburn around the mouth the days after use.",
+  "barrier": "One reviewer reports chemical burns and skin damage not present before using the product.",
+  "spots": "Reviewers using the mask for sun spots, hyperpigmentation and dark spots report brightening and fading with regular use; one reviewer trying it for sun spots instead experienced burning around the mouth.",
+  "blemishes": "One reviewer reports new deep, painful cystic acne after use that was not present before."
+ },
+ "aspects": [
+  {
+   "libelle": "Glow and radiance next-day",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Hydration and plumping effect",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Strong fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Burning, tingling or chemical-peel sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Awkward mouth and eye cutout shape",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective with consistent, repeated use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Itching and new texture bumps",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Nikki",
+   "titre": "Absolutely not",
+   "texte": "Buy this mask if you enjoy being uncomfortable in your own skin and itchy. The entire medicube line is a social media cash grab. These masks smell very nice but that is so unnecessary. I immediately felt my skin become itchy and irritated after applying it. I barely kept this on for 5 minutes. I'm writing this review the next day. My face is incredibly itchy and its dry everywhere. Lots of tiny bumps and texture.",
+   "date": "2025-12-02",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Shannon",
+   "titre": "returning these ASAP - save yourself and avoid",
+   "texte": "I have chemical burns, dryness and major deep, painful acne from using Medicube masks - none of which I had prior to use. Wish I has researched the brand more before purchasing, look at reviews on other sites before purchasing and save your skin!",
+   "date": "2026-02-24",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Kait",
+   "titre": "Ouch!",
+   "texte": "I have used many k-beauty gel masks and was excited to try this as I am trying to fade sun spots. While wearing the mask, it felt fine. The next day my skin was tingly and the following day, the skin around my mouth is burned. Feels like a chemical peel or sunburn. Proceed with caution!",
+   "date": "2025-10-28",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cassie",
+   "titre": "Holy Grail",
+   "texte": "I love these masks with someone who has hyperpigmentation these have helped DRASTICALLY I will use them forever ! Also I do have combo skin sometimes sensitive but have no issues , if concern about sensitivity is the layering method put a moisturizer down first !",
+   "date": "2026-02-16",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "combination",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Em",
+   "titre": "Don't understand the bad reviews",
+   "texte": "These make my skin so glowy and hydrated. I have probalems with dry skin and peeing particularly on my nose. When I use this mask, the next day I have beautiful, glowing skin, and no dryness!",
+   "date": "2026-04-02",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer",
+   "titre": "You NEED THIS",
+   "texte": "I'm so confused on the rating for this product but I guess its different for everyone. This is THEE best face mask I've ever used. Leaving it on overnight my skin was soo plump and it brightened my dark spots. I love Medicube because I see real results with all of their products when used consistently.",
+   "date": "2026-07-30",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Harms",
+   "titre": "Love!",
+   "texte": "I love this gel mask! It smells great and leaves my skin glowing and hydrated after. I dont have any skin issues and just use it for upkeep",
+   "date": "2025-10-28",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "normal",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "With only 11 reviews and several sharply conflicting accounts of the same effect (hydration vs. irritation), conclusions for any given skin type remain tentative."
+}

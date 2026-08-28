@@ -1,0 +1,161 @@
+{
+ "ref": "pimprod2045307",
+ "asin": null,
+ "pid": "pimprod2045307",
+ "source": "ulta",
+ "nom": "Hero Cosmetics Mighty Patch for Tired Eyes Patches",
+ "note": 4,
+ "nbAvis": 31,
+ "lus": 26,
+ "collectes": 26,
+ "segments": {
+  "sensitive": "Several reviewers with sensitive or reactive skin report burning, redness, or rashes after use, though a couple with self-described sensitive skin say they had no reaction; others without sensitivity issues warn newcomers with sensitive skin to be cautious or avoid the product.",
+  "mature": "A 46-year-old reviewer with dry, purple under-eyes reports the patches helped fine lines from dehydration and reduced puffiness."
+ },
+ "concerns": {
+  "aging": "One mature reviewer (46) reports improvement in fine lines linked to dehydration; most other positive comments focus on puffiness and tiredness rather than lines or aging specifically.",
+  "dehydration": "Multiple reviewers describe the patches as hydrating, with under-eyes looking less dry and brighter after use; one reviewer reports the opposite, that the patches left her under-eyes super dry after a reaction.",
+  "redness": "Several reviewers report the product itself caused red rashes or marks under the eyes, sometimes lasting hours; one reviewer says the patches help calm pre-existing redness she has at night.",
+  "barrier": "A handful of reviewers describe burning, soreness, or an allergic-type reaction they attribute to a compromised or sensitive skin barrier; one reviewer with a history of eye-area reactions to harsh ingredients reports no issues after four uses."
+ },
+ "aspects": [
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Cooling and refreshing feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reduces puffiness and tiredness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slips or moves during wear",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for only three treatments",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Individually wrapped, travel friendly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging allows gel leakage",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "JC",
+   "titre": "Burned the skin under my eye",
+   "texte": "I've never tried an under eyepatch before, but pick this up on a recent trip to Ulta. After using for less than 30 minutes, my skin was burning and the skin under my eyes looks terrible It's been a couple of hours and they feel sore I'm guessing I'm allergic to something ? I don't really have skin sensitivity for products, but this was pretty bad.",
+   "date": "2025-06-01",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Jade",
+   "titre": "Mixed review",
+   "texte": "I tried this product and I loved it. However, my boyfriend had an a bad allergic reaction to it for some reason. I couldn't find anything online about the ingredients or anyone else having a similar experience. So, if you have sensitive skin, be cautious. His skin turned really red around the patch and was burning, took ice and time for it to go away.",
+   "date": "2024-07-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Cindy",
+   "titre": "These Work",
+   "texte": "I'm 46 and haven't had great sleep my under eyes looking dry and purple. These pads definitely have helped my fine lines due to no Hydration and puffiness. My only complaint is that their should be more then 3 packs for the price",
+   "date": "2025-04-28",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cate",
+   "titre": "Love these",
+   "texte": "These actuwlly work and depuffing snd brightening my under eyes. I suffer from genetic puffy eyes that see good and bad days depending on sleep and allergies etc. these definitely work- just leave them in until they turn clear. Then i do my eye cream and makeup. I'm curious if these can be worn overnight. Please make larger and more affordable packs!",
+   "date": "2025-07-06",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lina",
+   "titre": "Works good",
+   "texte": "I got these and they work so good! My under eyes have been looking rough due to stress from college and just staying up late. I decided to buy these not expecting much. But guys, it actually a difference in my under eyes and I will def buy again. Its a bit pricey but worth it. It feels cool/tingly on the skin so if you have sensitive skin just be careful.",
+   "date": "2026-01-05",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Veronika",
+   "titre": "Great option for clean under-eye patches",
+   "texte": "I usually get reactions around my eyes if there are any harsh ingredients in products meant for the under-eye area. I've tried these four times, and so far, so good! I haven't had a single reaction to them. Overall, they are cooling on the under-eyes, especially if you keep them in the fridge. They seem to make my eyes look less tired and more hydrated the next morning! However, one downside is the packaging. I really wish they took inspiration from other brands and used jar packaging. I think it would be 1) less wasteful with all the packaging and 2) more effective, as I personally think eye patches in good, airtight jars contain more moisture. The current packaging allows some leakage from where the patches lay. Either way, I will still repurchase these often, considering how clean the ingredients are and the fact that I haven't used a different brand that didn't give me a reaction.",
+   "date": "2024-08-11",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Luca",
+   "titre": "Soothing & calming",
+   "texte": "I love that these under eye masks dont claim to cure every concern under the sun. The ingredients are simple and they taregt hydration and calming under the eyes which is exactly what under ege mask should do. If tour looking for long term targeted results use an eye cream. These are great in the morning to cool & refresh and also great at night to calm and redness i have. Love them!",
+   "date": "2025-02-27",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

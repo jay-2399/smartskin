@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2048546",
+ "asin": null,
+ "pid": "pimprod2048546",
+ "source": "ulta",
+ "nom": "Oak Essentials Restorative Face Mask with Organic Honey",
+ "note": 4.65,
+ "nbAvis": 356,
+ "lus": 79,
+ "collectes": 92,
+ "segments": {
+  "dry": "Reviewers with dry skin describe the mask as strongly moisturizing, with several saying it resolved dryness that appeared during menopause or perimenopause.",
+  "sensitive": "Sensitive-skin users are split: several say it calms redness and irritation with no issue, but others report a strong allergic-type reaction (redness, itching) or breakouts.",
+  "mature": "Reviewers who mention mature or aging skin (including a 77-year-old user and someone post-CO2 laser) report a gentle, soothing effect and a visible glow without irritation.",
+  "combination": "One combination/acne-prone reviewer reports it triggered whiteheads around the mouth and chin despite liking the hydration."
+ },
+ "concerns": {
+  "aging": "Users describe brighter, plumper, firmer-looking skin and one mentions softened fine lines; no reviewer reports the mask worsening aging signs.",
+  "dehydration": "The large majority of reviewers, across skin types, report strong hydration and a lasting glow after use; no dissent on this point.",
+  "redness": "Several reviewers say the mask calms redness and irritated skin immediately, including after a laser treatment, but one reviewer reports the mask itself caused facial redness and itching.",
+  "barrier": "One reviewer with sensitive, dry, acne-prone skin says it worked as a gentle post-procedure soother after a CO2 laser treatment; no other barrier-specific comments.",
+  "spots": "One reviewer reports menopause-related acne spots became invisible within three days of use; used by others as a spot treatment for breakouts and bug bites with soothing effect.",
+  "blemishes": "Most reviewers report no new blemishes and describe a smoothing, glow-boosting effect; however, one sensitive/dry/acne-prone reviewer reports a bad breakout of whiteheads around the mouth and chin after use.",
+  "oiliness": "No reviewer specifically discusses oil control or oily skin outcomes; one non-facial user found the texture itself oily/rich."
+ },
+ "aspects": [
+  {
+   "libelle": "Thick waxy texture hard to rinse off",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stains washcloths and towels",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong honey/floral scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent overwhelming or unpleasant",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Leaves skin soft, smooth, glowing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price justified by longevity of jar",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains phenoxyethanol, seen as non-clean",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Mel",
+   "titre": "Horrible!",
+   "texte": "I really wanted to love this but I had a horrible reaction to this mask. My whole face turned red and extremely itchy! Would not recommend it at all if you have sensetive skin. Could've also been due to the strong perfume smell of the mask. Didnt even have it on for 3 minutes and had to immediately rinse it off ASAP",
+   "date": "2025-06-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Val",
+   "titre": "I see why people love it, just not for me",
+   "texte": "I got a free sample of this mask when i bought their exfoliator. I was hesitant to use it at first because of the dofferent oil ingredients. My skin is very sensitive, dry, and acne prone. I figured id try it out once and my face is breaking out so bad sonce using it, mostly around my mouth, chin, upper lip area. I used it I think 3 days ago now and they started popping up yesterday. Today its white head galore 🙃 Its a super hydrating mask, the consistency is almost waxy which was also a nightmare to get off. The exfoliator however im loving so far! If you dont break out easily and need some hydration I can see whh youd love this but i sadly just had to throw it away.",
+   "date": "2025-10-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Juliann",
+   "titre": "Smells &amp; Feels Amazing",
+   "texte": "My skin feels so smooth and hydrated after I use this, I love it. And it smells amazing. I have super sensitive skin and I can use this without any issue!",
+   "date": "2024-04-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "barbara B.",
+   "titre": "Ms.",
+   "texte": "Amazing. I love this mask. It moisturizes, soothes, and really plumps up my skin. I had a CO2 laser treatment on my face and neck t two weeks ago, and this mask was gentle enough to use after the first few days. It really eased the burned look and feel of my face and neck. I highly recommend it.",
+   "date": "2024-03-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tina",
+   "titre": "Acne gone",
+   "texte": "After going into menopause my face began getting acne. Something I have never had not even as a teenager. In three days as part of my daily routine my acne spots were not visible. However, I did change to the 3 times a week recommendation. Amazing!!!!",
+   "date": "2025-08-10",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Denise P.",
+   "titre": "Restorative Mask - My Favorite Oak Essentials Product",
+   "texte": "The OA Restorative Mask helps calm my sensitive, dry skin. It soothes my skin. I even use it as a spot treatment for breakouts and bug bites (mosquitoes love me). It is an essential part of my skin care routine.",
+   "date": "2025-08-13",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda",
+   "titre": "So calming and smells amazing",
+   "texte": "I love this mask! My skin is very dry and sensitive but this has added so much moisture and instantly calms my redness. Plus is smells so good!",
+   "date": "2024-05-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

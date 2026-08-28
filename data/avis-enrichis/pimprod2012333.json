@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2012333",
+ "asin": null,
+ "pid": "pimprod2012333",
+ "source": "ulta",
+ "nom": "Pacifica Glow Baby Vitamin C Booster Serum",
+ "note": 4.43,
+ "nbAvis": 735,
+ "lus": 80,
+ "collectes": 120,
+ "segments": {
+  "oily": "One reviewer with oily skin uses this only at night because of daytime oil, but says it still provides moisture and evens complexion without adding to oiliness.",
+  "dry": "Several reviewers with dry skin report improved hydration, a more awake and healthy-looking complexion, and comfort, with no reports of dryness worsening.",
+  "combination": "Reviewers with combination or combo/hyperpigmented skin describe improved skin tone and hydration, with one noting oily patches during the day but not from this product.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it doesn't irritate and even helps redness or dryness, while one with rosacea/autoimmune sensitive skin reports stinging and burning severe enough to stop use.",
+  "mature": "Reviewers who identify as mature (40s-70s) consistently report firmer, plumper skin, reduced look of fine lines, and no irritation, describing it as a favorite for aging skin.",
+  "normal": "One reviewer with normal/combo skin says it hydrates well overnight but did not otherwise see improvement in stubborn dark areas."
+ },
+ "concerns": {
+  "aging": "Mature reviewers report firmer-looking skin, reduced appearance of fine lines and wrinkles, and a plumping effect with continued use.",
+  "dehydration": "Many reviewers describe a hydrating, dewy effect and more comfortable skin, including on dry skin; one dissenting reviewer felt it only slightly improved hydration and did not otherwise notice change.",
+  "redness": "Two reviewers report reduced redness or reactivity from rashes and stress; one reviewer with rosacea/autoimmune sensitive skin instead reports stinging and burning that required stopping use.",
+  "barrier": "One reviewer explicitly states it does not irritate her skin barrier; no other barrier-specific complaints appear beyond the one severe sting/burn reaction on very reactive skin.",
+  "spots": "Multiple reviewers report faded dark marks/acne scarring and more even tone with consistent use and sunscreen; one reviewer says darker areas around mouth and eyes did not improve.",
+  "blemishes": "Several reviewers report fewer breakouts, clearer pores, or no new blemishes; however, others describe deep, cystic pimples and blackhead breakouts after use.",
+  "oiliness": "A few reviewers say the product does not add oiliness or contribute to buildup, but one non-sensitive reviewer reports it triggered heavy breakouts, which she attributes to oil-like buildup."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong citrus or candy-like scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance bothers some users",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky residue on skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Wears well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable relative to other vitamin C serums",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stains clothing from dropper",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Sally",
+   "titre": "Bad for rosacea autoimmune skin",
+   "texte": "There is no glycolic acid percenatage in thsi profuct . Thats very dangerous to people with sensitive autoimmune skin like people with rosacea eczema skin . It made my skin sting burn and i had to stop . Maybe its fine to use once a week thing but dedintiely mot eervy day",
+   "date": "2024-09-10",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "ClarissaCC",
+   "titre": "Worst product I've ever put on my face",
+   "texte": "This made me break out. I'm talking DEEP pimples that took weeks to heal. I threw it in the trash.",
+   "date": "2025-08-17",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ruby",
+   "titre": "Wow",
+   "texte": "This Vitamin C serum exceeded my expectations. I have sensitive, mature skin and this did not irritate my skin at all. It absorbs quickly and wears well under makeup. Additionally, I saw a brightening glow to my complexion almost immediately. This is a keeper! I plan to try other skin care from this brand.",
+   "date": "2024-06-26",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Olivia",
+   "titre": "Faded My Dark Spots",
+   "texte": "I get a lot of dark marks on my face from acne scarring and this definitely has boosted the fading time of them. It doesn't work overnight and you do NEED to wear sunscreen for this to work (I think the vitamin C concentration is at the higher end of the average range), but with daily application, I generally see fading within a few weeks. I'm currently on my 3rd or 4th bottle of this and no longer fear acne scarring when a I get a new pimple! Just don't try to apply it directly to your face (which you shouldn't do with any dropper bottle anyways), because it does stain clothing.",
+   "date": "2025-08-24",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Izzi",
+   "titre": "Lovely and works well!",
+   "texte": "I've been using this for a few weeks now and my skin's texture and color are noticeably evened. I struggle with rashes from stress and weather and parts of my face become reddened and dry. This product has helped me immensely, and it smells like fresh orange juice. I also have issues with oil buildup on my face, and this product does not contribute to that! I am very happy with it",
+   "date": "2026-01-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kiko",
+   "titre": "Perfect for mature skin",
+   "texte": "I'm 56 years old and have been using this product for 3 years. I also use Glow Baby Enzyme face scrub. My skin is firm, minimizes the look of my line lines. Absolutely recommend for mature skin. Oh, and my face is very sensitive, this doesn't bother my skin at all, makes it look healthy.",
+   "date": "2025-01-08",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ethicalveganchick",
+   "titre": "NEVER discontinue the glow baby collection!!!!!",
+   "texte": "After Pacifica discontinued the tuscan blood orange lotion, perfume and rose micellar water, it was absolutely devastating. Both rose and orange vegan products help my dry, sensitive pale skin not feel or be so dry and give me somewhat of a glow/color. I wish the size of this magnificent serum was either increased or the price was decreased to a third or half since it's not easy to keep borrowing money to buy it being unemployed. Don't ever discontinue this glow baby collection Pacifica because it's not always easy finding similar vegan products to replace them with.",
+   "date": "2025-02-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

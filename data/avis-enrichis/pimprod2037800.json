@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2037800",
+ "asin": null,
+ "pid": "pimprod2037800",
+ "source": "ulta",
+ "nom": "TULA 24-7 Ultra Hydration Triple-Hydra Complex Day & Night Serum",
+ "note": 4.65,
+ "nbAvis": 238,
+ "lus": 80,
+ "collectes": 96,
+ "segments": {
+  "oily": "Reviewers with oily or combination-oily skin report the serum balances oil while hydrating, without feeling greasy.",
+  "dry": "Reviewers with dry, flaky, or eczema-prone skin report it relieves dryness and keeps skin hydrated after flare-ups, with one reviewer needing to pair it with a heavier cream for very dry cheeks.",
+  "combination": "Reviewers with combination skin report it feels good, absorbs well without pilling, and hydrates dry areas like cheeks while balancing the rest of the face.",
+  "sensitive": "Reviewers with sensitive skin (including rosacea, atopic dermatitis, and reactive skin) mostly report no irritation, burning, or breakouts, though one non-sensitive reviewer reacted with redness and dryness after one or two uses.",
+  "mature": "Reviewers describing mature skin (including women in their 50s-70s) report firmer, plumper, more supple skin and reduced appearance of fine lines and crepey under-eye texture."
+ },
+ "concerns": {
+  "aging": "Reviewers report firmer, plumper skin and diminished fine lines, including reduced under-eye crepiness and a less noticeable forehead wrinkle after a month of use.",
+  "dehydration": "The large majority of reviewers, across skin types, report significant and often fast-acting relief from dryness and dehydration, describing plumper, softer, glowing skin; a few (goes fast, not very hydrating) found it insufficient for their level of dryness or feel it dries out again if not paired with a moisturizer.",
+  "redness": "Reviewers with rosacea report calmer skin without new flare-ups or redness; one reviewer with no prior sensitivity reports the opposite, developing inflammation and redness within one or two uses.",
+  "barrier": "Reviewers with eczema or atopic dermatitis report the serum does not irritate, burn, or worsen their condition and helps skin recover after flare-ups.",
+  "spots": "One reviewer reports a dermatologist-recommended need for oil-free, non-comedogenic products and returned this one on learning it is not labeled oil-free, out of concern it could cause cysts.",
+  "blemishes": "A few reviewers report clearer skin and fewer breakouts, including one noting help with hormonal acne; no reviewer reports new breakouts caused by the product.",
+  "oiliness": "Reviewers with oily or combination skin report the serum keeps oil in check and balances the skin without adding greasiness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Runs out quickly for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump/dispenser malfunctions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cannot dispense last portion of product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No fragrance, well tolerated",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Slightly sticky on initial application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup and moisturizer",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "",
+   "titre": "If I could give 0 stars I would",
+   "texte": "My skin is so inflamed and red and dry from using this product. I do NOT have sensitive skin at all and have never had any skin allergies or issues, however after using this product only 1 or 2 times, it left me so awfully uncomfortable. DO NOT BUY!!!!",
+   "date": "2024-02-22",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ocean Eyes",
+   "titre": "The BEST hydration for sensitive rosacea/acne prone skin!!",
+   "texte": "After dozens of acne and rosacea flare ups using many, many other products, this is the ONLY ONE which consistently hydrates my skin without aggravating it. No scent, nothing harsh about it. It hydrates and keeps my skin silky soft without causing redness or breakouts. The best product Tula makes, hands down!",
+   "date": "2024-12-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tina",
+   "titre": "I BUY this product over and over!!!",
+   "texte": "I have atopic dermatitis and this is the only line of skin care that works for my face!!! It doesn't irritate, burn or break me out!!!",
+   "date": "2025-12-01",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Anna",
+   "titre": "So hydrating",
+   "texte": "I love this product. I have such dry and flaky skin from having eczema on my face, but once I treat a flare up, this product keeps my skin so hydrated. A little pricey but honestly so worth it for the results.",
+   "date": "2023-11-22",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Wen",
+   "titre": "Difference in my skin",
+   "texte": "I use First Aid beauty cream but it seems like lately it just wasn't doing the trick, especially under my eyes. I applied this toner, then my beauty cream and immediately saw a difference. I'm 55 this year and this really helps my under eye area not to look as crepey when I apply my concealer. My skin also feels so soft hours later than with my beauty cream alone. I bought it on sale during Days of Beauty, I think, and I'll watch for it to come on sale again so I can get another bottle for when I run out of this one.",
+   "date": "2024-10-15",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "ambie",
+   "titre": "I returned it",
+   "texte": "I was pushed to buy this cleaner brand by tula in store over my usual la roche posay what i usually get & was told it was oil free. My dermatologist advises me to use only oil free & non-comedogenic products. I asked ulta online if it was oil free it is not only non- comedogenic. So it is a big no no for me these kind of products will make me get cysts on my face.",
+   "date": "2024-08-05",
+   "verifie": false,
+   "utiles": 16,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Super hydrating",
+   "texte": "Super hydrating & makes my skin feel amazing! I pair it with the 24 hour day+night moisturizer as well! I have combo skin, but my cheeks get super dry. I love this stuff!!",
+   "date": "2024-06-13",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

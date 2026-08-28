@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2008508",
+ "asin": null,
+ "pid": "pimprod2008508",
+ "source": "ulta",
+ "nom": "TULA So Polished Exfoliating Sugar Face Scrub",
+ "note": 4.63,
+ "nbAvis": 1284,
+ "lus": 78,
+ "collectes": 89,
+ "segments": {
+  "oily": "Reviewers with oily skin report the scrub cuts through buildup and leaves skin feeling clean, with one describing it as usable daily on oily, acne-prone skin without irritation.",
+  "sensitive": "The largest group of reviewers identifies as having sensitive (including reactive, eczema-prone) skin; most describe it as gentle enough with no irritation, though two report hives/allergic reaction and one describes worsened dryness after use.",
+  "combination": "One reviewer with combination skin reports it keeps her skin rejuvenated when used about once a week.",
+  "mature": "One reviewer in her 60s reports it as the long-sought solution for her skin after searching her whole adult life.",
+  "dry": "One reviewer states it has helped her dry skin, while another notes the product dries out her face and requires moisturizing after use."
+ },
+ "concerns": {
+  "aging": "No reviewer specifically links this product to visible aging concerns beyond one older reviewer's general satisfaction with the formula.",
+  "dehydration": "Most reviewers describe skin as soft and smooth rather than dry, but two report the product left their skin dry or requiring extra moisturizer afterward.",
+  "redness": "One reviewer with sensitive skin reports no rash or irritation; another reviewer had a reaction described as swelling and hives, indicating this is not universal.",
+  "barrier": "One reviewer reports an allergic-type reaction with swelling and prolonged dryness lasting several days; several other sensitive-skin reviewers report no such reaction.",
+  "spots": "One reviewer reports the scrub helped clear milia within two weeks of twice-weekly use, and another says it keeps milia away with regular use.",
+  "blemishes": "One reviewer with acne-prone skin reports never breaking out and finding it helpful, another with oily acne-prone skin reports no irritation and daily use tolerated, and one reviewer notes small under-skin bumps persisting despite regular use.",
+  "oiliness": "Reviewers with oily skin report the scrub cleans buildup effectively and leaves skin feeling clean rather than greasy."
+ },
+ "aspects": [
+  {
+   "libelle": "Scent described as tropical and pleasant",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Texture dissolves too quickly on wet skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin feeling soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging hard to squeeze or dispense product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small tube size for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Allergic reaction with hives and swelling",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Perceived as expensive but worth repurchasing",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Hannah",
+   "titre": "I would never buy this product again nor recommend it",
+   "texte": "I was so excited to try this and I immediately broke out in hives. I had about 30 bumps all over my face and my cheeks were swollen. It was almost like an allergic reaction. My face is STILL recovering. It's been five days and I'm so dry and my skin is destroyed. I do not like this product at all and cannot recommend it to anyone and would never recommend Tula as a brand. AVOID!!!! If you have sensitive skin, DONT DO IT.",
+   "date": "2024-03-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Randi",
+   "titre": "A gentle exfoliating scurb",
+   "texte": "I have very sensitive skin and was looking for a gentle exfoliating scrub. This was recommended by a sales associate at Ulta. I've used numerous other products by this company and decided to give it a try. What I noticed first was the amazing scent. I love it. Second, this sugar scrub is gentle but does a wonderful job of cleaning and exfoliating my skin. I'm using it twice a week. My skin feels so soft and smooth afterwards. Best of all, no reaction to this product. Highly recommend.",
+   "date": "2026-03-03",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Princess",
+   "titre": "Gentle exfoliater",
+   "texte": "I have reallllllly sensitive skin so was scared to try an exfoliater. I kept getting milia and did some research to determine that i need a gentle exfoliater to get rid of it. I tried this one and LOVED it. Its so gentle and i use it 3x week. It keeps the milia away and makes my skin so soft. It smells tropical which is nice.",
+   "date": "2025-01-17",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amy",
+   "titre": "Smells Amazing & It WORKS!",
+   "texte": "This smells like a tropical vacation! Pineapple and cocnut. The sugar scrub is so fine yet it cleaned my oily skin so well. I finally feel like my face is clean. I have very oily skin and the buildup was becoming an issue. This is the answer!!!",
+   "date": "2024-07-18",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jess B",
+   "titre": "Holy Grail Product!",
+   "texte": "I absolutely love this. Smells amazing and gently exfoliates without being too harsh. I have oily acne prone akin anc does not irritate and I can use daily. Also helps foundation glide on smoother. A++ highly recommend and i dont leave many reviews!",
+   "date": "2023-12-28",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lizzy",
+   "titre": "You have to use it a bit differently …",
+   "texte": "So is you apply this on wet skin it will dissolve almost immediately. I perfer to just aff a little water to my hands and then apply to my face. This way it feels exfoliating and doesnt dissolve as quickly. I have bad acne and always thought this helped my skin. Ive never broken out due to it. It leaves my skin glowy and soft.",
+   "date": "2025-02-24",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Mia",
+   "titre": "Good",
+   "texte": "Leaves my skin feeling super smooth but dries out my face definetly need to moisturize after and is a little ruff but my afce feels so smoothe",
+   "date": "2024-12-17",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

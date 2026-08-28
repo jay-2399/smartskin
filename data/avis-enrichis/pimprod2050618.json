@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2050618",
+ "asin": null,
+ "pid": "pimprod2050618",
+ "source": "ulta",
+ "nom": "RODAN + FIELDS Redefine Minimizing+ Pore Refining Toner",
+ "note": 4.84,
+ "nbAvis": 2282,
+ "lus": 40,
+ "collectes": 40,
+ "segments": {
+  "combination": "One reviewer specifically recommends this toner for combination skin, saying it cleans pores well and preps skin for moisturizer.",
+  "mature": "Reviewers who mention long-term use over 10+ years and one at age 77 report the toner keeps skin looking fresh and, according to one, younger over time.",
+  "sensitive": "Reviewers describing their skin as easily irritated report no dryness or irritation, with one calling it gentle and never irritating, though one other reviewer notes some redness after applying."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on aging report the toner as part of a routine that leaves skin looking younger and healthy with long-term use, but the claims are general impressions rather than specific improvements.",
+  "dehydration": "Several reviewers report the toner does not dry out their skin and leaves it feeling soft or hydrated after use; no reviewer reports dryness as a side effect.",
+  "redness": "One reviewer reports experiencing some redness after applying, while others describe the toner as non-irritating and gentle on the skin.",
+  "barrier": "Reviewers describe the toner as non-stripping, cleansing without drying, and prepping skin without tightness, suggesting no reported barrier disruption.",
+  "spots": "One reviewer reports the toner helps control acne and that breakouts returned when they switched away from it temporarily.",
+  "blemishes": "A single reviewer credits the toner with managing acne effectively, though this is not corroborated by other reviewers with blemish-prone skin.",
+  "oiliness": "One reviewer notes the toner removes residual oil and makeup from pores, but no reviewer explicitly discusses oil control over time."
+ },
+ "aspects": [
+  {
+   "libelle": "Refines and minimizes pore appearance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Soft, smooth skin feel after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lack of visible results for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Alcohol smell developing over time",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast consumption requiring frequent reorder",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Jeanne H",
+   "titre": "Toner",
+   "texte": "I use the toner every morning and evening before using the rest of my R&F products. I haven't seen any difference in my face after using it for over 2 months now.",
+   "date": "2025-10-12",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Patty S",
+   "titre": "Poor refining toner.",
+   "texte": "I've used this toner off and on for many years. Lukewarm on results. Although it does leave the skin feeling soft without stickiness I can get the same results with a toner that is not so pricey. Also did not see major improvement with pore size.",
+   "date": "2025-12-06",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Janice K",
+   "titre": "noticeable difference",
+   "texte": "I've been using the Redefine Toner from Rodan + Fields and I'm really impressed with the results. It leaves my skin feeling clean, refreshed, and perfectly balanced without any tightness or irritation. Over time, I've noticed my pores look more refined and my skin texture smoother and brighter. It's a simple step in my routine that makes a noticeable difference and preps my skin beautifully for the rest of my skincare. Definitely a staple for healthy-looking skin.",
+   "date": "2026-01-05",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marcel B",
+   "titre": "Great Toner",
+   "texte": "This is a great toner to use for combination skin. Really cleans the pores and skin ready for moisturizer.",
+   "date": "2025-11-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Grace J",
+   "titre": "Pore refining",
+   "texte": "It definitely complements a clay cleaner. I do experience some redness after applying.",
+   "date": "2026-03-03",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jake G",
+   "titre": "Great for acne",
+   "texte": "Great for my acne. Switched to another face wash for a bit and acne reappeared",
+   "date": "2025-10-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Linda F",
+   "titre": "Great choice",
+   "texte": "This toner is gentle & has an amazing fragrance. It never dries out my skin.",
+   "date": "2025-12-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

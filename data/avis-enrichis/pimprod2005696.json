@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2005696",
+ "asin": null,
+ "pid": "pimprod2005696",
+ "source": "ulta",
+ "nom": "COOLA Full Spectrum 360° Sun Silk Drops Organic Sunscreen SPF 30",
+ "note": 4.52,
+ "nbAvis": 1206,
+ "lus": 78,
+ "collectes": 109,
+ "segments": {
+  "oily": "Reviewers with oily skin generally report the formula absorbs without added shine or greasiness, though one notes it is more moisturizing and 'not for oily skin' if avoiding dewiness.",
+  "dry": "Reviewers with dry skin describe it as easy to apply and moisturizing, though two separately report a hot, burning sensation after application and one reports new sun spots developing over a year of use.",
+  "combination": "One reviewer with combination oily/dry skin reports it gives a dewy glow while staying lightweight and fast-absorbing.",
+  "sensitive": "Sensitive-skin reviewers most often report no irritation, no breakouts and no white cast, but this segment also contains the most negative reactions, including redness, itching, puffiness, contact dermatitis and eye burning.",
+  "mature": "One mature-skin reviewer (self-described 40 years old) reports the product looks hydrating and luminous on her skin, and another using prescription retinoid reports it did not add dryness."
+ },
+ "concerns": {
+  "aging": "Reviewers concerned with aging report a smoother, more youthful-looking complexion and one reports reduced fine lines, though this is described as temporary ('until they return').",
+  "dehydration": "Reviewers report the product is hydrating and moisturizing, leaving skin soft, plump and glowing; one dry-skin reviewer nonetheless reports facial burning after application.",
+  "redness": "Most reviewers report no redness and one with dry red patches reports improvement, but several others report the opposite: skin turning red, hot, puffy or itchy, including one contact dermatitis case.",
+  "barrier": "One reviewer with eczema-prone skin reports the product did not aggravate her skin and finally worked for her; other sensitive-skin reviewers report allergic-type reactions instead.",
+  "spots": "One reviewer reports dark spots became less noticeable with consistent use, while another reports developing two new sun spots after a year of regular use.",
+  "blemishes": "Reviewers prone to breakouts, including one with acne and eczema-prone skin, report no new breakouts or clogged pores; one reviewer notes it does not seem to worsen hormonal breakouts.",
+  "oiliness": "Oily-skin reviewers report the formula does not feel greasy and absorbs without shine, though a few note a slightly oily or dewy after-feel."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dropper applicator inconvenient",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for amount received",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong fragrance divides opinion",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Slight greasy or dewy after-feel",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Alison G.",
+   "titre": "Works great for Acne and eczema prone skin",
+   "texte": "Love love love this sunscreen! I have acne and eczema prone sensitive skin and have been struggling to find the perfect spf. Others would break me out with pimples but this one did not! It's very light and won't clog my pores. I use my moisturizer first then apply the spf after. So happy I finally found a spf perfect for my skin",
+   "date": "2021-08-27",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kelsie",
+   "titre": "FINALLY, A sunscreen I love",
+   "texte": "I picked this up when my last SPF became unavailable and I could not be happier with my choice! It's light, my face doesn't start sweating profusely as soon as it's put on. Best part- I have sensitive skin and get weird dry red patches which other products have made worse- this seems to be making it clear up! Much more confident when I go out with SPF only on my face.",
+   "date": "2024-09-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Khloe",
+   "titre": "Update: Gave me contact dermatitis",
+   "texte": "I originally loved this formula, and I was super happy about it! I have no idea what happened on the first day differently because it felt amazing. On the second day, however, my skin turned red as a beet and I feel hot. I have no idea what ingredient is causing this because I don't have sensitive skin. It's a shame :(",
+   "date": "2022-05-27",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "PNW sun lover",
+   "titre": "skin condition improved",
+   "texte": "I have super oily skin and hair. and I breakout if I even think of putting sunscreen on. This product was the first one I have ever used consistently (after doing several days worth of test patches) and had no breakouts! I also used it more consistently because I could mix it in my moisturizer (the ordinary) or liquid face make up (bare minerals). I started getting dark spots during my pregnancy 2 years ago and now they pop up quickly with any sun exposure. Thanks to consistent use my dark spots are even less noticeable. Very happy with this product, I just hate the price. I have used it 5-7 days a week for 5 months though, so it definitely lasts.",
+   "date": "2022-06-02",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Ms.",
+   "titre": "Been using for a year",
+   "texte": "After this past year of me using this dont get me wrong its lasted great and i loved how easy it was to apply on my dry skin but it did give me two new sun spots that i never had before, and i used this everyday and reapplied it when i was out in the sun all day.",
+   "date": "2023-12-28",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "dry",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Robyn Z.",
+   "titre": "Sunblock with benefits",
+   "texte": "This product is amazing. I use prescription Retna A for anti-aging and search a long time for a mineral sunblock that would not leave a white film or add additional dryness to my skin. When I tried this product, I couldn't believe how good my skin looked and felt. The only way to describe this product it is absolutely amazing and one of the best sunblocks I've ever used. Coola products definitely are the best no matter what you are looking for, Coola gives you the best in skin care. Highly recommend Coola products for everyone.",
+   "date": "2021-09-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Olivia",
+   "titre": "Holy Grail Skin Care Product",
+   "texte": "I LOVE this product. I have combination oily/dry skin and it's perfect. It gives my skin a dewy glow while being super lightweight and fast-absorbing. Obsessed with this, will for sure be a repeat purchase.",
+   "date": "2022-01-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

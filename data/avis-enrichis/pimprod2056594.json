@@ -1,0 +1,126 @@
+{
+ "ref": "pimprod2056594",
+ "asin": null,
+ "pid": "pimprod2056594",
+ "source": "ulta",
+ "nom": "medicube PDRN Hydrating Gel Cleanser",
+ "note": 3.83,
+ "nbAvis": 6,
+ "lus": 5,
+ "collectes": 5,
+ "segments": {
+  "oily": "One reviewer with sensitive oily skin reports a severe breakout on the cheeks after first use.",
+  "sensitive": "Reports diverge sharply: one sensitive-skin user says it doesn't irritate her at all and calls it a holy grail, while another with sensitive oily skin developed acne and a rash from a single use."
+ },
+ "concerns": {
+  "spots": "One reviewer with previously flawless skin developed heavy breakouts on the cheeks after the first use; another woke up with a major breakout and a rash after one application.",
+  "blemishes": "Two reviewers describe new blemishes or a rash appearing within a day of first use; other reviewers do not mention any breakouts.",
+  "aging": "One reviewer says the product makes her look younger and keeps her skin clear, with no further detail given."
+ },
+ "aspects": [
+  {
+   "libelle": "Removes makeup when used dry",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Struggles to remove eye makeup when wet first",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Highly concentrated, little product needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Triggers breakouts or rash on first use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "oily",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Gentle, non-irritating on sensitive skin",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Courtney",
+   "titre": "Now I have acne",
+   "texte": "I use other medicube products and love them so i thought this would be okay. The first time using it i broke out so badly on my cheeks, and i had flawless skin before this. I have sensitive oily skin. Beware if you have sensitive skin!",
+   "date": "2026-01-24",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Pumpkin_Kisses",
+   "titre": "Wanted to Love it, but…",
+   "texte": "I have used Medicube products for well over a 1.5yrs now and was excited to add this to my routine. I literally used a small amount one time and woke up the next morning with a rash along with a major breakout. Im not sure what's different vs their other products, but I will be returning this one.",
+   "date": "2026-02-05",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Daisy",
+   "titre": "Great!",
+   "texte": "Medicube products are AMAZING! This facial wash is nice. You dont need a lot, as a little goes a long way. When I first started using this product I wasn't too sure, as it was not removing my eye makeup well. When I changed up my washing routine, by not wetting my skin first, just applying the wash directly to dry skin, then working it in, my eye makeup came right off. I have extremely sensitive skin, and Medicube doesn't irritate my skin at all. Their products and the price is awesome. I'm a true Medicube lover!",
+   "date": "2026-02-27",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Roselilyy",
+   "titre": "AMAZING! Bought in Korea and now getting it here!!!",
+   "texte": "This product is amazing. I got it at Olive & Young in Korea and has been my holy grail. It takes off my makeup (put it on dry and add water and it melts right off). It cleanses at the same time. SO SO good. Makes me look young and keep my skin clear.",
+   "date": "2026-08-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa",
+   "titre": "Love it",
+   "texte": "Enjoying product line. It is making a difference in my skin tone and texture",
+   "date": "2026-01-05",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "Only six reviews are available, so conclusions on skin type and concern patterns are based on very limited data."
+}

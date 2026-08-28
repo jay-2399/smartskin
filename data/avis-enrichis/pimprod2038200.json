@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2038200",
+ "asin": null,
+ "pid": "pimprod2038200",
+ "source": "ulta",
+ "nom": "COSRX Vitamin E Vitalizing Sunscreen SPF 50+",
+ "note": 4.39,
+ "nbAvis": 354,
+ "lus": 81,
+ "collectes": 114,
+ "segments": {
+  "oily": "Oily-skin reviewers are split: several find the formula too heavy, slick or greasy and struggle with shine building up during the day, while others say it controls redness/oiliness, gives a matte-ish 'clean girl' glow, or works fine with more frequent touch-ups.",
+  "dry": "Dry-skin reviewers consistently say this sunscreen is hydrating enough to skip a moisturizer, leaves a dewy/glassy finish, and several call it their favorite formula for dry skin.",
+  "combination": "Combination-skin reviewers generally get on well with it, describing it as moisturizing without excess oil, though a few note it feels heavy or too rich on the oily T-zone or in humid weather.",
+  "sensitive": "Sensitive-skin reviewers mostly report no breakouts or irritation on the skin itself, but several separately mention eye-stinging and some are wary of the fragrance.",
+  "mature": "One mention only: a reviewer with dry, mature-leaning skin calls it a favorite winter option for dry skin, but data is too thin to generalize for mature skin specifically."
+ },
+ "concerns": {
+  "aging": "Very little direct comment on aging; one reviewer mentions the vitamin E gives skin 'a boost' and a brighter look, but no reviewer explicitly frames the product against wrinkles or firmness.",
+  "dehydration": "Widely praised for dehydration: many dry-skin reviewers report they can skip moisturizer entirely and get a soft, plump, dewy or glassy finish; no dissent on this point.",
+  "redness": "A small number of reviewers say it calms daytime redness or caused no redness at all; no negative reports specifically about redness.",
+  "barrier": "Not directly discussed by reviewers in barrier-repair terms; effects described are hydration and comfort rather than barrier function.",
+  "spots": "Several acne-prone reviewers report clearer skin, faded acne scars, or no new breakouts over weeks of use, but at least two say it worsened acne or felt too heavy to use on the face, and one reports cystic pimples improving unrelated to the product.",
+  "blemishes": "Multiple acne-prone/blemish-prone reviewers report no new breakouts or comedones after regular use; one reviewer explicitly moved the product from face to body because it worsened her acne.",
+  "oiliness": "Mixed: some oily-skin reviewers say it stays matte or gives glow without grease, while others explicitly say it makes their skin greasy, slick, or 'a slip and slide' as the day goes on."
+ },
+ "aspects": [
+  {
+   "libelle": "Eye stinging or burning",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or masculine fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "No white cast on deep skin tones",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick, rich texture slow to absorb",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Dewy glowy finish",
+   "polarite": "pos",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Wears well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small tube, high price",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "CD",
+   "titre": "Not Good for Combo Skin",
+   "texte": "I have combo skin: oily t zone and dry everywhere else. you do not need a moisturizer when you use this because it's so moisturizing. the problem is I can feel it on my skin all day. it was heavy, slick, and never dried down all the way. I can't even imagine what it would be like in humidity.",
+   "date": "2024-02-27",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Madi",
+   "titre": "I love it for me; notes for others",
+   "texte": "• For me this sunscreen works great! I have acne prone skin, and experience cystic acne as well, but this hasnt cause any trouble! • I do notice a bit of a white cast for abt 5 minutes after application. Im really pale, and its quite noticeable for that duration, so I think this would cause issues for those who arent •the formula is pretty thick! i dont mind it, but if youre looking for something more lightweight I dont think this would be the best product •It wears really well under my makeup! I use infallible concealor and fit me loose powder, and have had no issues at all. •there is definitely a fragrance, similar to other sunscreens ive tried! •it does burn if it gets in your eyes, but i dont have frequent problems with it \"running\" like other sunscreens ive tried. if your eyes water, you rub your eyes, or are too liberal with product application to begin with be careful!",
+   "date": "2026-03-02",
+   "verifie": false,
+   "utiles": 51,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ty",
+   "titre": "Perfect for Dark & Dry Skin",
+   "texte": "This is my new favorite sunscreen. I have a deep skin tone (MAC NC50) and it leaves no white cast. It creates a healthy glow that lasts all day. I have very dry skin, this may be too oily for those with oily skin.",
+   "date": "2024-04-04",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joelle",
+   "titre": "My new everyday facial sunscreen",
+   "texte": "I'm very picky when it comes to sunscreen. I can't stand an oily feel, white cast, or strong sunscreen smell. This product does none of that, it's light weight and feels like lotion. In addition, it blends into the skin flawlessly and leaves it glowing. It does not smell like sunscreen, rather it smells slightly like citrus. I'm sensitive to fragrance and often I opt for fragrance free products. But this is a smell I like and can tolerate; it's not overbearing. I have acne prone, sensitive, and combination skin. This product works great for me.",
+   "date": "2025-05-23",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah E",
+   "titre": "HOLY GRAIL",
+   "texte": "This is a holy grail product for me!!! I have very acne prone skin and i use this daily with out any new break outs. I have repurchased 3 times now",
+   "date": "2025-06-28",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Charli",
+   "titre": "It feels great but too thick for my face",
+   "texte": "Ive been using this for my hands & arms instead of my face since it caused my acne to worsen but it feels so cooling & moisturizing when putting it on. I would love to try a lighter version of this if it ever gets made.",
+   "date": "2023-10-15",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Deanna",
+   "titre": "pass on this one",
+   "texte": "i am extremely picky with my sunscreens and this is my honesty review of this one. it protects very well and goes on very smoothly - no white cast at all. it is very thick and oily so this is not something id recommend with oily or acne-prone skin. i wore this all day and while it did stay on while i sweat, it became more oily and made my face look like a grease ball. the octocrylene is very strong at 9% so DO NOT PUT THIS NEAR YOUR EYES. i used a sunstick around my eyes to get the coverage. this also gave a slight burning sensation on the skin, it is a bit uncomfortable and it should NOT be happening. also, it has a very strong scent as well which i am not a fan of in sunscreens as it can lead to irritation.. overrall it was an okay sunscreen and did the job of protecting my skin, but i definitely will not repurchase this one after finishing it off.",
+   "date": "2023-09-01",
+   "verifie": false,
+   "utiles": 33,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

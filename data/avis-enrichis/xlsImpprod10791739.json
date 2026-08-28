@@ -1,0 +1,167 @@
+{
+ "ref": "xlsImpprod10791739",
+ "asin": null,
+ "pid": "xlsImpprod10791739",
+ "source": "ulta",
+ "nom": "Clinique Clarifying Face Lotion 3 - For Combination Oily Skin",
+ "note": 4.56,
+ "nbAvis": 1203,
+ "lus": 79,
+ "collectes": 97,
+ "segments": {
+  "oily": "Reviewers with oily skin frequently report reduced oiliness and clearer skin, though one who never used a toner before described burning and increased greasiness on first use.",
+  "dry": "Reviewers describe the product as not overdrying, with several noting it balances dryness when paired with moisturizer, though one dry-leaning user found lotion 2 too drying and preferred lotion 3.",
+  "combination": "Combination-skin reviewers, including some also mature or sensitive, report a balanced, clean, less oily feel, but at least two describe new breakouts along the jawline or face after starting it.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it does not dry out or irritate their skin and calms breakouts, while others report burning, stinging, and acne triggered by the product.",
+  "mature": "Reviewers in their 40s–50s+ describe it as a long-standing routine staple that keeps skin feeling fresh, clean, and less oily without singling out anti-aging effects."
+ },
+ "concerns": {
+  "aging": "A few mature reviewers (40s–59) mention using the product for decades as part of their routine, but none describe a specific anti-aging effect; one reviewer suggests the alcohol-based formula could itself contribute to dryness and wrinkles.",
+  "dehydration": "Most reviewers say it does not dry out skin and even feels hydrating or moisturizing after use, though a few describe dryness, tightness, or the need to immediately follow with moisturizer, and one switched from a stronger formula because it was too drying.",
+  "redness": "One reviewer with irritated skin reports the product helped calm a reaction-related flare-up, while another describes a burning sensation resembling a mild sunburn after first use.",
+  "barrier": "One reviewer flags alcohol denat and witch hazel as outdated ingredients that could compromise the skin microbiome, but no other barrier-specific complaints appear.",
+  "spots": "Many reviewers, especially those with acne-prone skin, report fewer breakouts, faster clearing of pimples, and smaller-looking pores; however, several others describe new pimples, cystic-type breakouts, or purging shortly after starting use.",
+  "blemishes": "Multiple long-term users credit the product with keeping blemishes and bumps away and improving skin clarity and texture, while a minority experienced worsened breakouts or irritation instead.",
+  "oiliness": "Oily-skin reviewers most often report visibly reduced oil and a cleaner, less greasy feel throughout the day, though one reviewer wished it controlled oil for longer and another found it did not reduce oil or pores at all."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong alcohol-like scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin feeling clean and refreshed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Initial burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Non-greasy, lightweight residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Large or travel-size bottle seen as good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires matching the right formula number to skin type",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-term repurchase loyalty",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Danielle",
+   "titre": "Caused purging",
+   "texte": "This product may work well for some, but it just wasn't right for my skin. Every time I used the Clinique exfoliator—even just once a week—I would break out really badly, sometimes with two or more new pimples each time. I've spoken with others who've used it, and many said it didn't cause purging or breakouts for them, so it clearly varies from person to person. Unfortunately, for me, it caused more harm than good. If you have acne-prone or sensitive skin, I'd definitely recommend patch-testing before committing.",
+   "date": "2025-06-06",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Gabby",
+   "titre": "Good for now",
+   "texte": "This is the first clarifying lotion I've ever tried so keep that in mind. I've been using as directed and liked it. I HATE the smell. It's so strong when I'm using it I feel like I can't breathe. I've been using for 5 days and tonight I put it on as usual and it burned. Like it felt like I had cuts all over my nose and it was irritating. Don't have cuts on my face. Thought maybe I'm using it too much but it literally says twice a day exfoliator on the bottle. Who knows. Will update and change stars if it continues.",
+   "date": "2023-02-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jen",
+   "titre": "Game changer.",
+   "texte": "My acne medication causes my oily skin to be flaky and have dry patches. This stuff is completely taking care of that. I use it twice a day in combination with the moisture surge hydrator and my skin is GLOWING. It does unfortunately smell strongly like tequila which is not super enjoyable but dissipates quickly. Just can't use it when I'm hungover, lol!",
+   "date": "2023-07-02",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Summergal",
+   "titre": "Best ever!",
+   "texte": "I have combination oily skin and was always acne prone in my teen years and beyond. I have been using this product for quite a long time and absolutely love it! Does not dry out the skin but keeps the oil at bay. Now as I get older I love how it still gives my face that clean feeling!",
+   "date": "2022-09-20",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kayla",
+   "titre": "The First Product I Use Post Face Wash",
+   "texte": "I've used this product now for the better part of 20 years. I've tried different formulas for different skin types, but I find that even with my (mostly-dry) combination SENSITIVE skin. This product is great at removing any grease/dirt post-shower and prepping my skin perfectly for Proactiv gel at night and for lotion+makeup in the morning. All of the other toners I've purchased don't seem to do more than leave residue on my skin that later brings on acne. I love this toner and won't be searching for another one.",
+   "date": "2023-08-24",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "selena",
+   "titre": "completely changed my skin",
+   "texte": "For those who said this product negatively affected their skin, they most likely didnt use the right one for their skin type. There are 4 different versions of this clarifying lotion from very dry to super oily so its important to really assess your skin type/get the right one to see the best results. with that being said, I love this product!!!!! In the morning i wash my face with a gentle cleanser, sweep this across my face with a cotton ball, then let dry and follow it with an acne lotion (i use the mattifying one from cetaphil). My skin looks so bright and smooth all day long! It also doesnt affect any of my skin makeup if theres a day when I want to look more done up, however, lately all ive had to do is sweep some blush on my cheeks, mascara, and a lipstick and im ready for the day! At night I do the same but instead follow with my night time serums. I think this helps everything absorb much better than it did before. I havent had any of my occasional breakouts that i usually get like clockwork since adding this into my routine and im even getting compliments. My skin has never been this clear and smooth, especially this effortlessly!",
+   "date": "2022-03-09",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hannah R",
+   "titre": "Only Product My Boyfriend Uses",
+   "texte": "He religiously uses this stuff after washing his face and coming out of the shower. Helps keep the oils and breakouts at bay. When he doesn't use it he notices a negative impact on his skin. It doesn't dry his skin out and helps with flakes around his nose and mouth.",
+   "date": "2025-09-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

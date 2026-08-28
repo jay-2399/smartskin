@@ -1,0 +1,148 @@
+{
+ "ref": "pimprod2037507",
+ "asin": null,
+ "pid": "pimprod2037507",
+ "source": "ulta",
+ "nom": "BLK/OPL Even True PHA + BHA Exfoliating Toner",
+ "note": 3.71,
+ "nbAvis": 7,
+ "lus": 7,
+ "collectes": 7,
+ "segments": {
+  "combination": "One reviewer with combination, acne-prone skin found the toner went on tacky, pilled with other products, and left skin dry even after moisturizer."
+ },
+ "concerns": {
+  "spots": "One reviewer reports it fades dark spots and considers this a bonus benefit alongside BHA acne control; another switching from an original soap-type product says it does not fade blemishes for her skin.",
+  "blemishes": "One reviewer says the product keeps breakouts at bay and layers well under other actives including retinol; another says it does not work for blemishes/fading on her skin, and a third (combination, acne-prone) did not find it helpful and returned to a different toner.",
+  "dehydration": "One reviewer with combination skin found it left her skin dry even after applying moisturizer, describing a tacky application and pilling; other reviewers instead describe the finish as fresh with no residue.",
+  "barrier": "Reviewers who compare it favorably to Paula's Choice describe it as gentle and safe enough for both AM and PM use without irritation."
+ },
+ "aspects": [
+  {
+   "libelle": "Pilling with other products",
+   "polarite": "neg",
+   "concerne": [
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Tacky application feel",
+   "polarite": "neg",
+   "concerne": [
+    "combination",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Fresh non-greasy finish, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under serums and retinol",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Value versus Paula's Choice and Glow Recipe",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Order and fulfillment problems",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Formula change from original version disliked",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Lauren R.",
+   "titre": "Not a Fan",
+   "texte": "I have combination acne prone skin. I've been using Glow Recipe's PHA + BHA toner for a few years & loved it. I bought this toner as a possible more affordable alternative to the Glow Recipe toner. I've been using this toner consistently for about a month & I'm not a fan. It goes on tacky & leaves my skin dry even after applying moisturizer afterward. Plus, I noticed that there's a lot of pilling when I use it. I don't know if it's user error or if this doesn't play well with my other products. I'll switch back to Glow Recipe or find another similar toner.",
+   "date": "2024-07-27",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Long Hair Don't Care",
+   "titre": "Great Quality Dupe for Paula's Choice",
+   "texte": "This product should have 5 ⭐. I have gone thru 4 Bottles since Nov 2022. It's keeping breakouts at bay, moisturizes, layers well under serums (even retinol) with no piling. Gentle + Safe enough to use AM + PM. Excellent product Black Opal! The influencers + beauty blogs/vlogs are sleeping on this Toner + the Booster.",
+   "date": "2023-08-27",
+   "verifie": false,
+   "utiles": 16,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kayla",
+   "titre": "Better than Paulas",
+   "texte": "I disagree with the other review saying it's a Paula's dupe.....it's better. It's just as effective but also fades dark spots and doesn't have the oily texture Paula's has. Other exfoliants do better for dark spots but the PHA works well enough that I think of it as a bonus since I primarily use BHAs for acne control.",
+   "date": "2024-02-18",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Michelle",
+   "titre": "Better than Paula's choice",
+   "texte": "I used this product first, then tried Paula's choice, and the clear winner is this one. I find the Paula's choice left a film on my skin, while the BLK/OPL left my skin feeling fresh. Lot's of benefits and I just like that there is no residue left behind.",
+   "date": "2025-01-30",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Cassandra",
+   "titre": "Bring Back the Original Soap",
+   "texte": "I like the original soap, this new soap does not work for my skin, it does fade the blemishes.",
+   "date": "2021-05-25",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lil",
+   "titre": "I HAVE NO ORDER",
+   "texte": "I love this soap. It has great results. I ordered it over a month ago and never heard anymore about my order, even after inquiry at the site. To my knowledge if the product is not available, I have received no refund.",
+   "date": "2021-09-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "Only seven reviews are available and most do not specify skin type, so segment-level conclusions beyond combination skin are thin."
+}

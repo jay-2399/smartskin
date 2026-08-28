@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2049049",
+ "asin": null,
+ "pid": "pimprod2049049",
+ "source": "ulta",
+ "nom": "Drunk Elephant Mello Marula Cream Cleanser",
+ "note": 4.8,
+ "nbAvis": 413,
+ "lus": 80,
+ "collectes": 118,
+ "segments": {
+  "oily": "One reviewer with oily, acne-prone skin uses it only as a light first cleanse before a stronger foaming cleanser, not as a standalone solution.",
+  "dry": "Reviewers with dry to very dry skin repeatedly describe it as hydrating and non-stripping, though one review calls it tight, dry and stinging on her dry skin.",
+  "combination": "Combination-skin reviewers are split: some report reduced redness and no dryness, while one with fair combination skin reports worsening breakouts and another with combination skin and rosacea reports dryness and itching.",
+  "sensitive": "Sensitive-skin reviewers are the most numerous and consistently report gentleness, no irritation, and no stripping, including several with eczema, rosacea, or seborrheic dermatitis who describe calming effects.",
+  "mature": "The two reviewers who mention mature or middle-aged skin report the cleanser is not drying and works well alongside anti-aging routines."
+ },
+ "concerns": {
+  "aging": "Two mature-skin reviewers report the cleanser is gentle and non-drying, with one noting an antioxidant boost from marula oil; no one reports dedicated anti-aging results.",
+  "dehydration": "Most reviewers, including several with dry skin, report the cleanser leaves skin hydrated and never tight or stripped; one dissenting review says it feels tight, dry and stingy afterward.",
+  "redness": "Several reviewers with rosacea, seborrheic dermatitis, or general redness report visible calming and reduced redness after use; no negative reports on redness specifically.",
+  "barrier": "Reviewers recovering from over-exfoliation, chemical peels, or eczema flare-ups report the cleanser felt soothing and did not disrupt their skin barrier.",
+  "spots": "No reviewer specifically discusses spots or hyperpigmentation.",
+  "blemishes": "Most reviewers with acne-prone or combination skin report no new breakouts and some improvement; one reviewer reports repeated worsening breakouts after two to three uses.",
+  "oiliness": "One reviewer with oily, acne-prone skin uses it only as a gentle pre-cleanse, implying it does not address oil control alone; no other reviewer discusses oil control."
+ },
+ "aspects": [
+  {
+   "libelle": "Creamy, non-foaming or lightly lathering texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and hydrated after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light oatmeal or marshmallow-like scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "May not fully remove heavy makeup or waterproof mascara without double cleansing",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to competitors",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Convenient pump packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can feel tight or stinging on some dry/sensitive skin",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "K",
+   "titre": "Causes breakouts",
+   "texte": "I got a sample of this product with an order recently. I've used it two or three times and my breakout just gets worse each time. In the past I have tried this (or a similar Drunk Elephant cleanser) years ago with the same result. I had to check that it was actually a cleanser because it really just felt like cream melting into my skin. It smells nice but I can't continue using it. I'm 35, have very fair combination skin and minimal issues with breakouts when I use the right cleanser (Cetaphil, Origins).",
+   "date": "2025-02-21",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Eviegal",
+   "titre": "Dries Skin Out",
+   "texte": "I have combination skin with rosacea. I bought this to see if it would help with a flare up. The cleanser isn't bad but it dries my skin out and makes it itch. Not for me.",
+   "date": "2025-03-19",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "holly",
+   "titre": "Perhaps not the best for dry skin",
+   "texte": "This is a nice cleanser, but it doesn't leave my face a comfortable as I'd like. It feels tight and dry, and a little itchy/sting-y. It feels immediately when I apply my smoothy, so it all works out, but ultimately I'd prefer something a little more soothing.",
+   "date": "2025-08-05",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "B",
+   "titre": "The Holiest of Holy Grails",
+   "texte": "Thick, creamy, smells lovely, and has a rich lather to it that calms my rosacea and seborrheic dermatitis without irritating my dry, sensitive, acne-prone skin. Overall, this is my dream cleanser.",
+   "date": "2025-01-31",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Heather",
+   "titre": "First cleanser to actually calm my breakouts and rosacea!",
+   "texte": "I usually don't write reviews but this cleanser is seriously AMAZING i need to tell everyone about it. I have acne prone- combination skin and i suffer from A LOT of roseasea on my cheeks. I started using this product only 3 days ago and my acne is GONE and my redness is clearing up. I pair this with nivea cream jn the tin. Amazing combo!!! I am SO pleased with the results.",
+   "date": "2026-01-12",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Susan",
+   "titre": "Great cleanser for dry skin!",
+   "texte": "I have dry, mature skin. I was a little worried whether this cleanser would remove makeup and sunscreen, but it worked really well! I even used on vacation to shave my legs. Overall very pleased with this product!",
+   "date": "2026-08-09",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Megan",
+   "titre": "Great gentle cleanser",
+   "texte": "Love using this as my first cleanse at night after a long day and occasionally in the mornings because it's light and gentle. I have oily acne prone skin and need a heavy cleanser so I'll always use a lighter cleanser first before using my foaming cleanser. This was gifted to me by drunk elephant in exchange for an honest review.",
+   "date": "2024-12-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

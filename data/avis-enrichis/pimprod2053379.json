@@ -1,0 +1,156 @@
+{
+ "ref": "pimprod2053379",
+ "asin": null,
+ "pid": "pimprod2053379",
+ "source": "ulta",
+ "nom": "TIRTIR Collagen Lifting Eye Cream",
+ "note": 4.85,
+ "nbAvis": 13,
+ "lus": 12,
+ "collectes": 12,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers report irritation or a burning sensation with regular use, though one manages it by limiting application to once a day and using half a pump.",
+  "dry": "Reviewers with dry eyelids describe the gel-cream as hydrating and plumping without feeling heavy.",
+  "mature": "Reviewers who identify as mature or in their 40s report firmer, smoother undereye skin and reduced appearance of lines and wrinkles with consistent use."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report reduced appearance of fine lines and wrinkles around the eyes and forehead with regular use, describing a plumping and firming effect; none report their lines disappearing completely, only visible reduction.",
+  "dehydration": "Reviewers describe the undereye area feeling more moisturized and hydrated, including one who is prone to dryness and layers a separate moisturizer on top for extra hydration.",
+  "barrier": "One reviewer with sensitive skin reports irritation when used too frequently, and another reports a burning sensation with regular use, suggesting the product can be too strong for some skin barriers.",
+  "blemishes": "One reviewer prone to milia reports the product is lightweight enough not to worsen milia while still being hydrating.",
+  "oiliness": "One reviewer notes the product does not feel greasy or tacky despite its hydrating effect."
+ },
+ "aspects": [
+  {
+   "libelle": "Rollerball applicator",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High-end packaging feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Irritation or burning with frequent use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Fast absorption",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "SC",
+   "titre": "Good but I think think I'll try something else next time",
+   "texte": "Been using the product for about a month. It does help minimize some puffiness and firm undereye area. The area also feels more moisturized. Use it on forehead where a few wrinkles and works well. But bottle says use once a day and I do because I have really sensitive skin and it irritates it when used too many days in a row. Half a pump is usually enough for both eyes for me.",
+   "date": "2026-04-12",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kiara",
+   "titre": "Not for sensitive skin",
+   "texte": "I love the packaging and the rollerball applicator, but unfortunately the product itself is too strong for my skin, causing an uncomfortable burning sensation in my eyes.",
+   "date": "2026-05-12",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Giselle",
+   "titre": "Great if you get milia but need hydration!",
+   "texte": "When you're prone to milia AND dry eyelids, it can be super hard to find a lightweight eye cream that is still hydrating enough. This is a great gel-cream that is plumping and hydrating without being heavy!",
+   "date": "2025-12-06",
+   "verifie": false,
+   "utiles": 29,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nicole",
+   "titre": "Um yes I recommend",
+   "texte": "First Tirtir skin product I bought due to lines around eyes/forehead at age 36. Love what it does and helps with when added to my skincare routine! Minimizes lines where I can definitely tell a difference. They don't disappear completely but this helps reduce their appearance hands down. Im impressed.",
+   "date": "2026-01-25",
+   "verifie": false,
+   "utiles": 28,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marie",
+   "titre": "Great for mature skin",
+   "texte": "My daughter bought me this to try and it's been a great addition to my routine. I like the convenience of the roller and it feels cool every time I apply it under my eyes. I'm very satisfied with the results and I will continue to use it.",
+   "date": "2025-08-13",
+   "verifie": false,
+   "utiles": 28,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Liz",
+   "titre": "Can't Recommend Enough",
+   "texte": "Bought this on sale, tried it for a month and have seen great results. My undereye area feels hydrated, firmer, and even less dark than before. It doesn't feel greasy or tacky and applies so easy! Plus the packaging and applicator feel high end and durable.",
+   "date": "2026-01-18",
+   "verifie": false,
+   "utiles": 24,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vee S.",
+   "titre": "Excellent Eye Product!",
+   "texte": "I bought this bc I was looking for something to plump my lines under my eyes. I'm 45 and the lines are getting deeper. I've been using consistently morning and night and I've seen a huge improvement! I roll a bit at a time all around my eyes including eyelids. However, I'm always dehydrated so I usually need to put a little bit of the moisturizer (same brand) to layer it on top. It absorbs really well! Great brand, excellent ingredients and products! Great for sensitive eyes!",
+   "date": "2025-11-30",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

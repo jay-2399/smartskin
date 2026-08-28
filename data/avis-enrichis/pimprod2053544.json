@@ -1,0 +1,172 @@
+{
+ "ref": "pimprod2053544",
+ "asin": null,
+ "pid": "pimprod2053544",
+ "source": "ulta",
+ "nom": "medicube PDRN Pink Niacinamide Milky Toner",
+ "note": 3.94,
+ "nbAvis": 35,
+ "lus": 30,
+ "collectes": 30,
+ "segments": {
+  "oily": "One reviewer describes it as an oil-control toner with a thick, slightly sticky texture that works well for night use.",
+  "dry": "Several reviewers with dry skin, including those in dry or hot climates, report deep hydration and improved moisture retention, though one found it less hydrating than other toners and still dried out.",
+  "sensitive": "Reviewers with sensitive skin report mixed results, from gentle hydration and calmed redness to immediate red, itchy bumps and irritation for one with eczema.",
+  "mature": "One reviewer with mature, dry skin in her 30s reports instant absorption, hydration, and no new breakouts during PMS.",
+  "combination": "Not enough distinct information on combination skin specifically."
+ },
+ "concerns": {
+  "aging": "One reviewer in her 30s reports the toner reduced breakouts and calls it a good fit for that age group.",
+  "dehydration": "Most reviewers describe strong, lasting hydration, especially in dry or hot climates, but one reviewer in a humid area found it insufficiently hydrating compared to other toners.",
+  "redness": "Reports are mixed: some say it calmed redness and evened out skin tone, while others report the product caused or worsened redness and blotchiness.",
+  "barrier": "One reviewer credits it with helping repair her skin barrier, while another reports it severely damaged her barrier, leading to perioral dermatitis.",
+  "spots": "One reviewer reports it faded acne scars and post-acne marks alongside reduced breakouts.",
+  "blemishes": "Reports are split: several reviewers, including one with cystic acne, report no new breakouts and calmer skin, while multiple others describe severe new breakouts, cystic acne, or inflamed pimples after use.",
+  "oiliness": "One reviewer uses it specifically for oil control at night, describing a thick texture that helps manage oil."
+ },
+ "aspects": [
+  {
+   "libelle": "Milky, silky texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pilling with other products",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption, non-sticky feel",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Causes breakouts for some",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "High price relative to other toners",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Poor layering with vitamin C serum",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount needed per use",
+   "polarite": "pos",
+   "concerne": [
+    "dry"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Shannon",
+   "titre": "do NOT recommend - caused horrible acne",
+   "texte": "bought this less than a week ago, used it 4 times and I currently have the WORST acne I've had in years. I changed nothing else in my skincare except adding this and planning to immediately get rid of this product. Deep, inflamed cystic acne around my chin and neck line - something I have not had in over 5 years. The formulation is great, it feels nice and absorbs quickly, but the results are not there at all. I've seen several reviews saying the same thing, wish I had researched more before purchasing.",
+   "date": "2026-02-24",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Shae",
+   "titre": "Will be returning",
+   "texte": "I have sensitive skin along with eczema and this product immediately caused my face to have red itchy bumps and overall irritated my skin.",
+   "date": "2026-05-21",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mel",
+   "titre": "New fave",
+   "texte": "I've been using this toner for about a week, and I'm already seeing impressive results. I'm someone who struggles with cystic acne, and since starting this toner I haven't had any new breakouts at all. It has noticeably calmed my redness and has already started fading my acne scars, which I honestly didn't expect to happen so quickly. My skin looks smoother overall, and my makeup applies so much better and more evenly now. Even in such a short amount of time, this toner has made a visible difference in my skin. It's quickly becoming a staple in my routine, especially for anyone dealing with cystic acne, redness, or post-acne marks.",
+   "date": "2025-12-14",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "skincare lover < 3",
+   "titre": "perfect toner",
+   "texte": "i really like this toner! its a nice unique texture and color, and it is really moisturizing. i have pretty dry skin so i appreciate that the moisture penetrates my skin deeply. it has also helped clear up some newer breakouts, only been using it for about a week. very excited for continued use!",
+   "date": "2026-02-03",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Diane b",
+   "titre": "I love this toner",
+   "texte": "I have mature (more like ancient) dry skin. This toner absorbs instantly and is very hydrating. It doesn't make my face feel sticky like the serum does. I've even used it under my body lotion after a shower when the rest of my body felt dry & itchy.",
+   "date": "2026-02-23",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bunny",
+   "titre": "Works great for acne-sensitive skin!",
+   "texte": "I use this product and so does my teenage son. I had dry, dull and redness for skin issues. My son has acne and very sensitive skin. This product worked great for both of skin concerns. I highly recommend it! We use it in the morning and at night daily.",
+   "date": "2026-02-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "SuppleLeopard",
+   "titre": "Good but not amazing for a milky toner",
+   "texte": "This product evened my skin and was good for short term hydration but didn't hydrate as much as my other toners. I live in a hunid area and still dried out eith this one, even with facial oils and heavier moisturizers.",
+   "date": "2026-08-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

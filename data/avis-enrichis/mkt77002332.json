@@ -1,0 +1,96 @@
+{
+ "ref": "mkt77002332",
+ "asin": null,
+ "pid": "mkt77002332",
+ "source": "ulta",
+ "nom": "REUZEL TAT BUFF Gentle Exfoliating Wash",
+ "note": 5,
+ "nbAvis": 12,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {},
+ "concerns": {},
+ "aspects": [
+  {
+   "libelle": "Gentle exfoliation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Does not dry out skin",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Works well paired with shine spray or hydro buff",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Simple ingredient list",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective at removing dead skin",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Jessica",
+   "titre": "Gentle Exfoliation and Clean Smell",
+   "texte": "The Buff Exfoliating Wash I bought for the first time recently. It doesn't dry my skin out and the Bamboo grains are super gentle which is a plus for me. I use a lot of Reuzel products and will definitely be adding Buff Exfoliating Wash to my list of must-haves :).",
+   "date": "2023-03-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nicholas",
+   "titre": "BUFF Wash",
+   "texte": "The exfoliating buff wash is an absolute game changer to my tattoo care routine. Applying just a little bit in the shower definitely helps me remove all that dead skin that just lingers after a long day working my day to day job. Highly recommend it !",
+   "date": "2023-03-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Jeremiah",
+   "titre": "Product works great, smel",
+   "texte": "Product works great, smells good. Seems to exfoliate as it should and isn't too rough.",
+   "date": "2023-07-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Carlos",
+   "titre": "Thumbs up",
+   "texte": "Exfoliation works perfectly smell great leaves skin feel awesome",
+   "date": "2024-09-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "The reviews focus almost entirely on tattoo-care use and general product satisfaction, with no reviewer specifying their skin type or a skin concern, so segmentation by skin type or concern cannot be produced from this set."
+}

@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2053360",
+ "asin": null,
+ "pid": "pimprod2053360",
+ "source": "ulta",
+ "nom": "DIME TBT Eye Cream to Renew + Refresh",
+ "note": 4.48,
+ "nbAvis": 193,
+ "lus": 77,
+ "collectes": 96,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are split: several say the cream is the rare product that doesn't sting, itch, burn, or cause a rash for them, while others with self-described non-sensitive or normal skin report burning, stinging, redness, or swelling after one or two uses.",
+  "combination": "One reviewer with combination skin reports the line left her skin clearer and looking younger.",
+  "mature": "Reviewers who mention age (mid-30s and up, or mothers) report reduced dark circles, fewer fine lines, and a firmer, brighter under-eye area with regular nightly use."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visibly fewer or smoother fine lines and wrinkles around the eyes after weeks to months of nightly use, and several describe firming or tightening; one reviewer reports the opposite, saying her under-eye wrinkles and lines became more prominent after switching to this cream.",
+  "dehydration": "Most reviewers describe the under-eye area as more moisturized, hydrated, or less dry, with several noting fast absorption without greasiness; one reviewer says it gave very little moisture and rolled off under makeup.",
+  "redness": "A cluster of reviewers report their under-eye or whole face turning red, burning, or becoming inflamed shortly after application, in some cases persisting into the next day with peeling.",
+  "barrier": "Several reviewers who identify as having sensitive or reactive skin, or who normally react to skincare, report no irritation, itching, or rash with this cream; a separate group, including some who say they don't normally react to products, report burning, stinging, watering eyes, or an allergic-feeling reaction.",
+  "blemishes": "Not enough reviewers mention blemishes or acne to draw a conclusion."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling or tingling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich, thick yet fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Jar packaging easy to fully use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills or rolls off under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Product dries out quickly once opened",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Repeat purchase and long-term loyalty",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Kara",
+   "titre": "Red skin and bags",
+   "texte": "I don't ever really have reactions to products. I used this twice, a couple weeks apart, and both times my whole face was red and burning and my under eyes were swollen and tender. I only used the product under my eyes but my whole face had a reaction both times.",
+   "date": "2026-02-11",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lolo",
+   "titre": "Did they not test this product?",
+   "texte": "I was so excited to try this product, but immediately turned off by it. I've never had any issues with sensitive skin or allergies and have tried almost every product under the sun, but the moment I applied this eye cream under my eyes, I experienced the most horrific burning in and around my eyes. At first it felt cold and then it started stinging, and my eyes were watering nonstop. There is an ingredient in this that is far too sensitive to be applied around the eyes! This is such a shame because the cream itself is great, even though it did dry up very fairly quickly in the pot once it had been opened. I do hope Dime is able to reformulate this product so I can give it another shot.",
+   "date": "2026-04-07",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Georgia F.",
+   "titre": "I think I'm the only one who doesn't rate tjis",
+   "texte": "I bought this eye cream after reading all the rave reviews. Soon after using my eyes stung and the area around my eyes had gone extremely red. By the next day my entire eye areas were red and inflamed with dry, peeling areas starting to form. I tried to contact Dime but was told this product was not eligible for refund.",
+   "date": "2025-11-24",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Makeup Junkie II",
+   "titre": "Doesn't Work",
+   "texte": "After reading all the good reviews snd it being on sale i purchased. It has a cooling effect after you first apply it and layers well under makeup no piling but thats where the good ends. After using it for a couple of weeks my under eye wrinkles and lines are more prominent than before. I had been using another brand that i had received a sample of and it was good but i didn't know how good until i started using the Dime eye cream. The Dime actually reveresed all the good the previous 2 eye creams i had used. Not sure if it us just me but I am definitely not getting the wonderful results from the reviews of others. Everything works differently on different people so this product is not for me unfortunately",
+   "date": "2025-12-10",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ema M.",
+   "titre": "Love it!",
+   "texte": "I have very sensitive skin and react to everything! But this eye cream is the exception! Soothing and effective and no itchy rash. Dime eye cream is now an essential in my skincare routine!",
+   "date": "2026-04-11",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Angela S.",
+   "titre": "Best eye cream I've ever used!",
+   "texte": "My eyes are super sensitive to any eye cream I've tried. Anything under or near my eye. This is the first product that I have tried with no sensitivity issue and noticeable results for my wrinkles and dark circles. Absolutely love all the Dime products!",
+   "date": "2026-02-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Faith M.",
+   "titre": "Best eye cream",
+   "texte": "This cream is light, yet effective. My eyes tend to be dry and this moisturizer eliminates that. I also have sensitive skin and I don't have any issues with using it.",
+   "date": "2026-02-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

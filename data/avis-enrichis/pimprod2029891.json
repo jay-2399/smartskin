@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2029891",
+ "asin": null,
+ "pid": "pimprod2029891",
+ "source": "ulta",
+ "nom": "CHANEL N°1 DE CHANEL SMOOTHING SERUM Smooths – Boosts Radiance – Refines Pores",
+ "note": 4.03,
+ "nbAvis": 60,
+ "lus": 52,
+ "collectes": 52,
+ "segments": {
+  "oily": "Reviewers with oily skin report the serum absorbs without stickiness or heaviness, reduces the need for blotting, and one describes it as hydrating and calming rather than greasy.",
+  "dry": "Reviewers with dry skin are split: some report the serum worsened dryness, itching and flaking, while others with dry or combination-dry skin describe it as hydrating, glowing and soft, especially when paired with the matching cream.",
+  "combination": "One reviewer with combination skin leaning dry reports a glowing, soft result from a sample.",
+  "sensitive": "Reviewers describing sensitive skin report mixed outcomes, from immediate burning and redness on contact to no burning at all despite psoriasis-related sensitivity.",
+  "mature": "Reviewers over 50 or focused on anti-aging report compliments on their skin and satisfaction with wrinkle-related effects."
+ },
+ "concerns": {
+  "aging": "Reviewers report plumped fine lines, softened lines and a more luminous, youthful look; no dissent noted among those citing anti-aging use.",
+  "dehydration": "Several reviewers report strong hydration and plumped, smooth skin; however, others report their skin became drier than before, with flaking and itching after weeks of use.",
+  "redness": "Some reviewers report reduced redness and a calming effect, including on sensitive skin; others report the product caused new redness, burning or a rash on the cheeks.",
+  "barrier": "A few reviewers describe reactions consistent with barrier irritation, including burning on contact, itchy rash and worsened dryness under makeup after continued use.",
+  "spots": "One reviewer reports reduced pore appearance alongside improved acne, and another reports skin clearing up; one reviewer reports new cystic acne developing around the chin after two weeks of use.",
+  "blemishes": "One reviewer reports the serum helped with acne alongside anti-aging concerns; another reports developing cystic acne and atopic dermatitis after initial improvement.",
+  "oiliness": "Oily-skin reviewers report the serum controls shine and reduces the need for blotting without feeling heavy or oily."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong camellia fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Strong camellia fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight tackiness on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Luxurious application experience",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Dropper dispenses precise amount",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Katieatie",
+   "titre": "Very drying.",
+   "texte": "If you have dry skin don't buy this product. My skin is on the drier side and this made it worse. Itching and it looked really dry under make up. I was excited to try it because the moisturizer in the N1 line Is quite nice. Very disappointed. Thank goodness I can return it.",
+   "date": "2022-05-17",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Alex",
+   "titre": "Horrible rash!",
+   "texte": "Used a small amount consistently with other chanel face creams. After about a week I got the worst itchy, bumpy, RED rash on my cheeks. My skin dried out so much I had to use Neutrogena Hydro Boost day and night to help my skin normalize!",
+   "date": "2023-05-13",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Diana",
+   "titre": "Cystic Acne!",
+   "texte": "For the first two weeks I was in love. It made the skin around my eyes look so much better. It smells amazing and the pancake is super luxe, but after I got atopic dermatitis under my eyes and got huge cystic acne around my chin. Sadly, I could only get store credit and I really don't buy the brands Ulta carry's. Disappointed. I really think this was gimmicky.",
+   "date": "2022-04-28",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lux",
+   "titre": "Worth the Price",
+   "texte": "When using this product properly, with the Revitalizing Cream, the results are quite noticeable. My skin is dry (with oily areas) and I typically use products from La Mer or Tatcha depending on the season. This serum is light, cooling and absorbs into the skin quickly. After a few weeks of use, I noticed a reduction in pore size in certain areas of my face, which I'm sure will continue to minimize with use. Following the serum with the cream is ideal, as the cream is light in texture and feels heavenly on dry skin. To those saying that this is just \"green tea\", I recommend they check the ingredient list and do more research.",
+   "date": "2022-02-17",
+   "verifie": false,
+   "utiles": 19,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "simple skincare girly",
+   "titre": "unreal",
+   "texte": "i have super senstive skin and tend to get redness all over, when u tell you this has made my skin feel n look 6 years younger and healthier!!! i was iffy at first because id the price but the results are worth it and thats just me using it less than a week! cant wait to see what my skin looks like in a month with daily use",
+   "date": "2024-08-09",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Pattim721",
+   "titre": "Oily no more",
+   "texte": "Beautiful serum. Goes on light and just dulls out my super oily skin. Texture gets a bit sticky which is perfect for moisturizer. I find myself using less blotters throughout the day! Could it be I finally found my holy grail for oily skin?!?!",
+   "date": "2022-01-14",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Zara",
+   "titre": "My skin looks glowy and feels soft",
+   "texte": "I received a little sample in my order of the serum and creme. Wow. I have combo skin leaning on the dry side and my skin is practically glowing. It has a slight flower smell but it doesnt bother me. It smells expensive. It felt like a pleasure to put on. I'm actually considering dropping money for a full size, and this is spendy. My max for serums sits around $60 usually, but i may make an exception.",
+   "date": "2025-05-23",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2059880",
+ "asin": null,
+ "pid": "pimprod2059880",
+ "source": "ulta",
+ "nom": "COSRX The Blue Peptide Bakuchiol Plump Bounce Cream",
+ "note": 4.8,
+ "nbAvis": 40,
+ "lus": 36,
+ "collectes": 36,
+ "segments": {
+  "oily": "Reviewers with oily skin, including one with an oily T-zone, report the cream does not add oiliness or greasiness and keeps their pores looking smaller.",
+  "dry": "A reviewer with dry skin found the cream helped heal sun-related dryness within days, though one sensitive/dry reviewer reported increased dryness the next day.",
+  "combination": "A combination-skin reviewer with rosacea and one whose skin shifted from combination to dry/sensitive report no negative effects, though one felt the gel texture alone was not moisturizing enough for her skin type.",
+  "sensitive": "Sensitive-skin reviewers are split: several report no reaction, calming effects, or reduced redness despite rosacea or reactive skin, while one reviewer reports the cream reddened her skin and left it dry the next day.",
+  "mature": "Reviewers in their 40s describe smoothed fine lines, a glow, and gentler skin cell turnover than retinol, without the irritation or redness retinol caused them."
+ },
+ "concerns": {
+  "aging": "Reviewers report smoothed fine lines, plumper and firmer-looking skin, and a glow-based anti-aging effect, with one specifically preferring it to retinol for gentler cell turnover; one noted no change in fine lines yet after only 3 days.",
+  "dehydration": "Most reviewers describe the cream as hydrating, plump, and soft-feeling by morning, including one whose sun-related dryness resolved within two days; one sensitive-skin reviewer instead reported dryness the day after use.",
+  "redness": "Several reviewers, including one with rosacea, report no increased redness or even a reduction in redness; one sensitive-skin reviewer reports the opposite, that the cream made her skin redder.",
+  "barrier": "One reviewer notes the product does not sting even on small cuts or irritated skin, and several sensitive/rosacea-prone users report no irritation, though one sensitive-skin reviewer experienced redness and dryness after use.",
+  "spots": "One reviewer says a small amount of redness appeared as part of cell turnover but was much milder than what she experienced with retinol.",
+  "blemishes": "One oily/acne-prone-leaning reviewer worried it would cause breakouts as her usual AC moisturizer implies, but was surprised to see no breakouts; another new user also reports no breakouts after a few days.",
+  "oiliness": "Oily-skin reviewers consistently report the cream does not leave a greasy or oily look and instead leaves skin soft and dewy rather than shiny."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight gel-like texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or very subtle scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Jar packaging without spatula",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting due to small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Not moisturizing enough alone for dry skin",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Pleasant cooling, dewy finish",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "JC",
+   "titre": "Not sure how I feel",
+   "texte": "I have sensitive skin and I don't think this one is it for me. I really want to like it. But I find it reddens my skin more. Also, the next day my face was pretty dry and lacking moisture. But it might do wonders for others. Especially if you don't have sensitive skin.",
+   "date": "2026-08-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Austin",
+   "titre": "Skin cell turnover without the irritation",
+   "texte": "At 46 years old, I have aging skin that has gone from combination to dry / sensitive. I have used retinol in the past, but it causes my skin to become irritated, flaky, and bright red like a sun burn. This moisturizer gives my skin a glow without the harsh irritation. After only 3 days of using this I have noticed a difference in the glow of my skin. I haven't noticed a change in fine lines or texture yet, but it's only been 3 days. There is a little redness that is happening from the cell turnover, but not as bad compared to retinols I've used in the past. As a gel moisturizer, it's not as moisturizing as I would like for my skin type so I layered it with Cosrx Hyaluronic Acid Intensive Cream. Hopefully there will be a cream version in the future. I haven't seen a difference in fine lines or texture yet, but it's only been 3 days and time will tell. I highly recommend this product if you are looking for an alternative to retinol. Just note that if you have dry skin, you might want to layer it with a heavier face cream.",
+   "date": "2026-05-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Barbara",
+   "titre": "Bakuchiol + peptide cream",
+   "texte": "This cream, combined with the bakuchiol + peptide serum, has been great for my skin. It's more like a gel moisturizer than a thick cream so I do have to put another moisturizer on after it. I have combo/sensitive skin with rosacea and this didn't cause any negative effects for me.",
+   "date": "2026-06-05",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hardie",
+   "titre": "I was worried for nothing!",
+   "texte": "Came in beautiful packaging and is a vibrant color. I normally use the COSRX AC moisturizer so I was worried about trying this one because I thought it would cause breakouts??But I was pleasantly surprised! I've noticed a visible difference in the appearance of my skin as well as as an evening of redness on my cheeks and nose. I definitely recommend this to anyone who wants to try a new moisturizer, but is worried about acne! Just for reference, I have fairly sensitive skin as well as an oily T-zone, and this moisturizer keeps me looking dewey without looking oily!",
+   "date": "2026-05-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lea",
+   "titre": "This cream is amazing. I",
+   "texte": "This cream is amazing. I have oily, sensitive skin and have not experienced any reaction after using it. It doesn't make my skin oily like some moisturizers do, and when I use it at night, I wake up to such soft skin! I haven't really noticed any effect on my pores, but maybe after using it longer I will see a difference. That won't stop me from continuing to buy this.",
+   "date": "2026-06-08",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marcyline",
+   "titre": "Glad I tried it",
+   "texte": "The Blue Peptide Bakuchiol Plump Bounce Cream is fabulous. It goes on smoothly and sits well on my skin. I noticed that my pores appear smaller. I have oily skin and my skin produces a lot of oil. I like this cream because it is not heavy or gummy. The texture has a nice balance that does not cause my skin to feel oily. It feels soft and smooth.",
+   "date": "2026-05-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stephanie",
+   "titre": "COSRX really nailed the formula on this one",
+   "texte": "The Blue Peptide Bakuchiol Plump Bounce Cream is a fragrance-free, cushiony moisturizer that feels a bit richer than their Oil-free Ultra-Moisturizing Lotion with Birch Sap—about 1. 5 x thicker, but without crossing into heavy or greasy territory. Despite the thicker texture, it absorbs cleanly and doesn't leave any sticky residue, which is a huge win if you like a smooth, non-tacky finish.One thing I appreciate is how a little goes a long way. You don't need much to cover your whole face and neck, so the jar lasts longer than you'll expect. It also has a surprisingly gentle feel: even if you apply it over small cuts or irritated spots, it doesn't sting, which makes it easy to use alongside actives or on compromised skin days.My only gripe is the packaging. It comes in a jar with no spatula included, which feels like a miss for a product at this tier. Personally, I'll prefer a pump-style container for hygiene and convenience, especially for daily use.Overall, it's a well-formulated, soothing moisturizer with a plush texture and zero irritation-just held back slightly by packaging that could be more user-friendly.",
+   "date": "2026-05-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

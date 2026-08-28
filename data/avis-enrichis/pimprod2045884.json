@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2045884",
+ "asin": null,
+ "pid": "pimprod2045884",
+ "source": "ulta",
+ "nom": "SKIN1004 Madagascar Centella Light Cleansing Oil",
+ "note": 4.51,
+ "nbAvis": 985,
+ "lus": 77,
+ "collectes": 121,
+ "segments": {
+  "oily": "Reviewers with oily skin generally report the oil did not leave residue or a greasy feeling and was gentler than expected, with one noting the T-zone still gets oily by end of day.",
+  "dry": "Reviewers with dry skin report the cleanser left skin hydrated, smooth and not tight, with one noting it resolved seasonal dry patches near the nose and chin.",
+  "combination": "Reviewers with combination skin describe it as soft, smooth and calming, with mild pimples not worsened and no new irritation reported.",
+  "sensitive": "Sensitive-skin reviewers mostly report no irritation, redness or burning and describe the product as calming, though a few report burning when it enters the eyes, a hot/red feeling after use, small pinkish bumps, or that they would still choose a different product if very redness-prone.",
+  "mature": "The few reviewers who mention their age (mid-50s to 64) or mature skin report good results and no negative effects, one noting continued T-zone oiliness alongside rosacea and eczema."
+ },
+ "concerns": {
+  "aging": "Two mature reviewers (52 and 64 years old) report satisfaction and no adverse effects, but neither describes a specific anti-aging effect from this cleanser.",
+  "dehydration": "Most reviewers report skin feels hydrated, soft or moisturized after use, including resolution of dry patches near the nose/chin; one dissenting reviewer says it is 'not very moisturizing' despite rinsing cleanly.",
+  "redness": "Several reviewers, including one with rosacea, report calmer skin and reduced redness after switching to this cleanser; however one sensitive-skin reviewer reports consistent redness and a hot feeling after use, and another notes burning when product enters the eyes.",
+  "barrier": "Reviewers describe the product as non-stripping, preserving the skin's natural moisture and not leaving the tight feeling associated with harsher cleansers, with no explicit dissent on this point.",
+  "spots": "Multiple reviewers report visible reduction in blackheads and sebaceous filaments on the nose after use; no reviewer reports these getting worse.",
+  "blemishes": "Several acne-prone reviewers report no new breakouts, smaller and less frequent pimples, or clearer skin over weeks to months; however three reviewers report cystic acne, clogged pores or the worst breakout of their life after using it, and one warns explicitly against use with acne-prone skin.",
+  "oiliness": "Reviewers with oily skin report the product did not add greasiness and rinsed clean, though one long-term user still describes persistent T-zone oiliness by end of day."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective at removing waterproof makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Struggles with waterproof mascara/eyeliner",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump/bottle packaging convenient and travel-friendly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent divides opinion",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Stings or blurs vision in eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus pricier alternatives",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "J",
+   "titre": "not for acne prone or sensitive skin",
+   "texte": "Cystic acne and clogged pores after using, it made me feel dirty instead of clean. I really don't think oil cleansers are any good if you have acne prone skin.",
+   "date": "2025-10-12",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "unknown",
+   "titre": "made me experience the worst breakout of my life",
+   "texte": "to get straight to the point, this cleansing oil caused me to get pimples everywhere on my face, even areas where i never get pimples. i first got acne in 2022 and that was the worst it was UNTIL i purchased this cleansing oil. it does a great job getting rid of makeup i will say, but if you have acne-prone skin please reconsider getting this brand of cleansing oil. i woke up everyday with clogged pores and tiny pimples on my skin. my skin was so irritated.",
+   "date": "2025-05-25",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah21",
+   "titre": "Hydrated skin feeling",
+   "texte": "I use the Madagascar Centella cleansing oil in the morning and at night. I have dry skin and it usually feels very tight after washing off my products and make up, but with this cleansing oil my skin feels clean and hydrated. I use waterproof makeup throughout the day and the cleansing oil gets it off without rubbing or a lot of work. I really enjoy this product.",
+   "date": "2025-12-27",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katelyn",
+   "titre": "Clearing my skin",
+   "texte": "I had what is called \"fungal acne\" I was using bioderma micellar water before I bought the oil and it would strip my skin. I switched to the oil and my skin doesn't feel tight my face is clearing and makes me feel so comfortable instead of that tight feeling .",
+   "date": "2026-03-02",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CJ",
+   "titre": "My Favorite",
+   "texte": "I am 64 years old with combination skin. I am also sensitive with rosacea and eczema. My t-zone is still ridiculously oily. Oily before I leave the house for work. You have to use a water based cleanser after this oil, which is true with all first-step oil cleansers. It's very gentle. I recommend it.",
+   "date": "2026-08-19",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "oiliness",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Em",
+   "titre": "Non irritated cleanser!",
+   "texte": "I received the SKIN1004 Madagascar Centella Light Cleansing Oil as a free sample from BzzAgent in exchange for writing this honest, unbiased review. This cleanser stands out immediately for living up to the \"Light\" in its name. I have tried several other K-Beauty cleansing oils that, while effective, felt thick, heavy, or occasionally left a slight film that made me concerned about clogging pores. ​The incorporation of Centella also gives it a unique soothing factor that most standard oils lack. ​The key benefits of this cleanser are perfectly aligned with managing sensitive or reactive skin while achieving a deep cleanse. It effectively dissolves heavy makeup, stubborn eyeliner, and highly water-resistant sunscreens without any pulling or harsh scrubbing, making it the perfect first step in any double-cleansing routine. Because the formula is non-comedogenic and rinses flawlessly, it is less likely to contribute to congestion or breakouts compared to heavier, residue-leaving oils or balms. For someone with sensitive and acne-prone skin, finding a first cleanser that is both effective and genuinely soothing is a challenge, i would most definetly purchase this in the future. ​I would strongly recommend this product, especially to friends or family members who Struggle with redness or reactive skin after cleansing. ​It's a fantastic, high-quality product that prioritizes skin comfort without sacrificing cleansing power.",
+   "date": "2025-12-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Amber",
+   "titre": "Very gentle",
+   "texte": "It's gentle, as mentioned, but it definitely would not remove makeup. This is a good every day cleansing oil, only to remove daily spf and moisturizer, but even as a daily it doesn't deeply cleanse. The oil is not thick, it's very lightweight. Scent is sweet, like a lemon pastry. I've tried better cleansing oils to remove makeup and sebaceous filaments. I've noticed that I have small pinkish red bumps on my face, I think it irritates my skin. When I started using this and I put my exfoliating toners on my nose (where I concentrate this oil more) my skin burns as if It's been irritated raw. It's good but it's not the best, I'd go for another one especially if you have sensitive skin.",
+   "date": "2025-04-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

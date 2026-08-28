@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2049116",
+ "asin": null,
+ "pid": "pimprod2049116",
+ "source": "ulta",
+ "nom": "TATCHA The Rice Wash Skin-Softening Cleanser",
+ "note": 4.73,
+ "nbAvis": 501,
+ "lus": 80,
+ "collectes": 101,
+ "segments": {
+  "oily": "Reviewers with oily or combo-oily skin report the wash makes oily areas more manageable and reduces shine and midday breakthrough without over-drying.",
+  "dry": "Reviewers with dry skin, including flaky or very dry skin, consistently report the cleanser does not strip or tighten and leaves skin soft, though one reviewer with dry skin found it dried her skin out.",
+  "combination": "Reviewers with combination skin (including combination-oily and combination-sensitive) describe it as balancing both dry and oily areas at once.",
+  "sensitive": "Reviewers with sensitive, reactive, or eczema-prone skin mostly find it gentle and non-irritating, but one found it too abrasive for daily use and reports increased redness.",
+  "mature": "Reviewers describing mature or aging skin (40s-50s+) report soft, smooth results and some perceive softened lines, with one long-term user in her 80s noting no abrasion issues.",
+  "normal": "One reviewer with normal-to-oily skin found the texture pleasant and non-drying after full emulsification."
+ },
+ "concerns": {
+  "aging": "Reviewers who mention aging or mature skin report smoother, softer skin and some perceive fewer visible lines; this is subjective impression rather than measured improvement.",
+  "dehydration": "The large majority of reviewers, including those with dry skin, report the cleanser hydrates or at least does not strip moisture; one reviewer with dry skin reports the opposite, that it left her skin dry.",
+  "redness": "One reviewer with sensitive skin reports the abrasive feel worsened her redness when used twice daily, though she still found it acceptable used a few times a week.",
+  "barrier": "Reviewers with reactive or eczema-prone skin report no compromise to barrier feel — no tightness, itching, or stripping — though frequency of use is often reduced to 2-3 times a week as precaution.",
+  "spots": "A few reviewers note fading of dark spots or discoloration and more even tone with continued use, though this is not the product's stated purpose and is reported by a minority.",
+  "blemishes": "Most reviewers with acne-prone skin report calmer skin, fewer breakouts, or clearer texture over time; however, two reviewers report new breakouts, one specifically along the jawline, after starting the product.",
+  "oiliness": "Reviewers with oily or combo skin report oily areas feel more controlled and makeup sits better, without added shine."
+ },
+ "aspects": [
+  {
+   "libelle": "Grainy texture that emulsifies into cream",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Added fragrance/scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Small amount needed, long-lasting tube",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Struggles removing waterproof makeup/mascara",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Luxurious, spa-like feel and packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin tight after use",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Samantha F.",
+   "titre": "Too abrasive for sensitive skin",
+   "texte": "This is fine for using 2-3 times per week But it is too abrasive to use twice a day Caused my redness to get worse rather than better Smells great though and I do like using it occasionally and before a face mask",
+   "date": "2024-09-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Rae",
+   "titre": "Cost vs efficacy",
+   "texte": "This is my first time trying Tatcha's Rice Wash and here is my unbiased review as someone with sensitive, eczema prone skin. The cleanser itself has a very soft grainy texture that offers mild exfoliation. Feels like youre buffing rather than full on exfoliating. The formula indeed feels creamy, hydrating, and gentle. It doesn't leave your skin feeling dry or stripped. Your skin feels clean and supple. Overall, the texture and experience is great! Approved for this girl's sensitive skin. Price: I'm not totally convinced that this cleanser is worth nearly $45-$50 (with tax). This is coming from someone who regularly invests in skincare and treatments, so I don't mind the cost as long as the efficacy is there. This is a premium price and while I do believe Tatcha is intentional about their formulas, I don't think the formula in this is powerful or special enough to actually improve your skin long term. As a face wash, you're leaving this on for a maximum of a few minutes at a time only to rinse it off completely. It struggled to remove my waterproof mascara, which given the price point, I'd expect it to handle. (I usually double cleanse but for the sake of trying this out, I skipped it). Overall, its a very nice face wash but not functional enough to justify the price. I think you can find similar face cleansers to this with great ingredients at half the price point.",
+   "date": "2026-01-18",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Laura H.",
+   "titre": "Made me break out",
+   "texte": "Started using it and within a week I started getting pimple along my jaw line I havent had a pimple in years and now I look like Im going the puberty all over again Sadly I will not be purchasing again",
+   "date": "2024-07-25",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Julz",
+   "titre": "My personal holy grail",
+   "texte": "I'm 25 years old with combination skin, very dry yet very oily. This helps tremendously with both, I love what it's done to my skin in just a couple of months. It's exfoliating, helps lift any dark spots on face. A little bit goes a long way, so the tube lasts a very long time. It's worth every penny, and it feels like a spa treatment at home.",
+   "date": "2025-10-04",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MD",
+   "titre": "The best cleanser for this 43 year old",
+   "texte": "I loveeee this cleanser ! It is the only one that helps clean and keep me from breaking out since I started going through perimenopause",
+   "date": "2025-07-04",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katelyn",
+   "titre": "the Best Cleanser!",
+   "texte": "The concept of a powder cleanser that turns into a cream like substance blows my mind away! I love it so much its very satisfying and the results show up in less than a week! As someone who has suffered from acne majority of my life and this product has cleared at least 85 of my acne I will be buying again!",
+   "date": "2024-10-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Livlikno1else",
+   "titre": "Left my skin dry",
+   "texte": "I LOVE Tatcha. I am a big fan of the Dewy mosturizer and serum. They don't break out my skin and leave me glowing. But this sucked out any moisture in my skin. Sad.",
+   "date": "2025-01-16",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

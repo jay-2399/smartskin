@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2000019",
+ "asin": null,
+ "pid": "pimprod2000019",
+ "source": "ulta",
+ "nom": "Dermalogica Skin Smoothing Cream Moisturizer",
+ "note": 4.6,
+ "nbAvis": 1694,
+ "lus": 74,
+ "collectes": 94,
+ "segments": {
+  "oily": "An extremely oily reviewer found it more like a lotion that leaves skin soft, supple and brighter, and another with combination/oily skin said it worked without an oily finish.",
+  "dry": "Reviewers with dry skin report all-day hydration and relief from dryness, including one who calms persistent forehead dryness by pairing it with a toner, though one dry-skinned user needed a heavier product in winter and another switched to a richer cream after starting retinol.",
+  "combination": "Combination-skin reviewers describe it as lightweight, non-greasy and good at balancing oily and dry areas, with several long-term repurchasers; one noted it felt drier than expected only after adding a prescribed retinol.",
+  "sensitive": "Sensitive-skin reviewers mostly report hydration without irritation or greasiness, but one sensitive-combination user in the negative reviews experienced burning around the eyes and a scent she disliked.",
+  "normal": "One reviewer with normal skin reported horrible deep breakouts and a neck rash after switching to this product from another moisturizer.",
+  "mature": "Mature-skin reviewers in their late 40s to 60s report smoother, firmer-looking skin, reduced fine lines and compliments on their complexion, with one exception who saw no smoothing after nine months of daily use."
+ },
+ "concerns": {
+  "aging": "Several mature reviewers report fewer visible fine lines, more firmness, and an 'ageless' look after weeks to months of use; one long-term user of nine months, however, saw no smoothing effect at all.",
+  "dehydration": "The majority of reviewers, across skin types, report noticeably more hydration lasting through the day or overnight; a couple mention it does not perform as well around the nose or that hydration felt unremarkable compared to their usual routine.",
+  "redness": "One reviewer with sensitive/oily-combination skin said the cream reacted well and calmed her skin, but this concern is mentioned by very few reviewers.",
+  "barrier": "One reviewer described her skin as calmer and 'able to breathe' after switching to a Dermalogica routine including this cream.",
+  "spots": "One reviewer reported reduced pore size and softer skin over time; another mentioned lingering dry patches and discoloration improving only after adding a full Dermalogica regimen, not the moisturizer alone.",
+  "blemishes": "A few reviewers, including a parent using it on a teenage son and an adult managing her own acne, describe it as helpful for breakouts and irritation, but one reviewer with normal skin reported the opposite — deep breakouts and a rash after switching to this product.",
+  "oiliness": "Oily-skin reviewers consistently report a non-greasy, matte-ish finish with no added shine or oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No greasy or oily residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or unpleasant fragrance",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High and rising price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well under makeup and sunscreen",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting all-day hydration",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Small quantity needed per use",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Paige",
+   "titre": "Horrible Breakouts",
+   "texte": "I recently got a facial and was chatting with my esthetician about moisturizers. I typically use the Drunk Elephant moisturizer, I have never had any issues with it but after my facial I thought I would look into something different. I have normal skin, not too dry not too oily. Within a couple of days I had horrible deep breakouts under my skin and something that looked like a rash down my neck. I know everyones skin reacts differently but this was not for me. Returned and went back to my drunk elephant.",
+   "date": "2025-04-17",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "normal",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Brooke",
+   "titre": "Disappointed",
+   "texte": "I'm disappointed becaude thevreason i got this dacial moisturizer is because i remember getting a facial dobe at a spa in the wibtertime a few years ago and this is the moisturizer they used. Not sure uf the formula changed or its just me but it definitely does not feel the same on my face as i remember. I remember being very hydrated and moisturized when i was given the facial, even the next day, whereas when i put this on, it feels like it disappears right away. On top of that, it is very scented like soa, which I don't like walking around and smelling my face all day. On top of that, as soon as i put on the moisturizer, it made my eyes feel the smallest sensation of burning a little bit. Will not be reourchasing again.",
+   "date": "2024-01-20",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Inna",
+   "titre": "Highly recommend",
+   "texte": "Skin smoothing cream moisturizer is one of the best I've used. It's very light-weight, absorbs fast and moisturizes well. I use it every morning and evening after clenser, toner and a serum. I like that it's neither sticky nor oily, and it works well under sunscreen. I like that it's rather thin, as I find the other, richer ones, harder to apply. I have a sensitive combination skin that has become dry with age, and I haven't had any issues with this product. I have repurchased it twice.",
+   "date": "2025-06-01",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "April",
+   "titre": "Finally!",
+   "texte": "I am 48 and have been bouncing around forever trying to find the perfect cream for my combination skin. A little goes a long way. No greasy residue and moisturizes my dry spots all day long. My skin is smooth and fine lines are completely blurred after a few weeks of use. Best cream out there for my skin.",
+   "date": "2024-07-04",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Myra",
+   "titre": "Works well for me",
+   "texte": "This moisturizer works good for me. I am extremely oily and it's more like a lotion and it leaves my skin soft and supple and it brightens my skin which is dull.",
+   "date": "2024-09-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Caila D.",
+   "titre": "Great Moisturizer for Dry Skin!",
+   "texte": "Esti in school here! I love this product! I use it at home and it is apart of my every day skin routine at this point. It really does help smooth out the top layer of the skin for a more even look over time. I have seen boosts in hydration on my face for sure! Definitely recommend trying this product if you're dry and looking for a hydrating moisturizer that's not too thick that can be worn in the daytime.",
+   "date": "2025-06-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MarÃ­a F.",
+   "titre": "I was having terrible dryness",
+   "texte": "I was having terrible dryness on my skin, specially in my forehead, starting a rutine with dermalogica products has been life changing, I suggest combining with a toner to lock the moisture of this cream.",
+   "date": "2025-04-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

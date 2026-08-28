@@ -1,0 +1,162 @@
+{
+ "ref": "xlsImpprod16661055",
+ "asin": null,
+ "pid": "xlsImpprod16661055",
+ "source": "ulta",
+ "nom": "Peter Thomas Roth Water Drench Hyaluronic Cloud Hydra-Gel Eye Patches",
+ "note": 4.21,
+ "nbAvis": 195,
+ "lus": 79,
+ "collectes": 119,
+ "segments": {
+  "dry": "Reviewers with dry skin, including around the eyes, describe the patches as strongly hydrating and report improvement in dryness, though several also report the patches themselves arriving dry/under-saturated with serum.",
+  "sensitive": "Reviewers with sensitive skin report no irritation and good tolerance, but one reviewer with sensitive under-eyes describes stinging and redness after use.",
+  "combination": "One reviewer with combination skin reports the patches worked well, smoothing frown lines and improving hydration and radiance.",
+  "mature": "Reviewers in their late 30s to mid-50s describe visible softening of fine lines, plumping, and a more youthful under-eye appearance with regular use.",
+  "oily": "One reviewer states the patches suit oily as well as normal and combination skin, helping with fine lines and puffiness."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visible softening of fine lines, crow's feet, and '11' lines, plumper under-eye skin, and a more youthful look, especially with longer wear time or repeated use; one reviewer saw no change in crow's feet or '11' lines after about a week of use.",
+  "dehydration": "The large majority describe strong, immediate hydration and plumping, often citing the cooling gel texture; several reviewers instead report the patches themselves arriving dry with little to no serum, delivering little to no hydration until jostled or flipped.",
+  "redness": "One reviewer with dermatitis reports the patches relieved redness, itching, and burning around the eyes; another reviewer reports the opposite, with stinging and skin turning red after use.",
+  "barrier": "One reviewer reports the patches helped soothe compromised, itchy, burning skin from an allergic reaction.",
+  "blemishes": "One reviewer with acne-prone skin reports the product worked well and skin readily absorbed it, with no negative effect on blemishes mentioned.",
+  "oiliness": "One reviewer states the patches work for oily skin, though no specific effect on oil control is described."
+ },
+ "aspects": [
+  {
+   "libelle": "Serum-soaked feel and cooling sensation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Recent formula drier than before",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Patches tear or shift easily",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fridge storage enhances cooling depuffing effect",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Included spatula and packaging convenient",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to amount of serum",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or tingling on sensitive under-eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Heidi",
+   "titre": "Love these patches!",
+   "texte": "I use these several times a week. I'm 54, have dry skin, and have fine lines around my eyes. I leave these patches on until the serum has completely transferred to my skin. This typically takes about 15 minutes. These patches leave my under eye smooth, plump and hydrated. They take about 10 years off my face. If the top layers seem dry simply turn container over for 12 hours to redistribute serum. Remember to tighten lid before flipping container! FIT: I use these by placing smaller end on the inner corner of my eye, allowing the tip to lay on the side of the bridge of my nose. There will be a little bit of skin directly under the eye that isn't covered; I use my finger to pick up some of the serum by lightly swiping the patch and then swiping the small bit of exposed skin. I absolutely love these and continue to repurchase despite the cost.",
+   "date": "2022-09-26",
+   "verifie": false,
+   "utiles": 21,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marnie",
+   "titre": "Yes, Yes and Yes!",
+   "texte": "I use these 3-4 times weekly. Wash my face in the morning and put these on for about 30 minutes as I get ready for the day. Super hydrating and they stay actually stay put. I have sensitive eyes and these do not irritate at all. The water drench line is my favorite and I use many products from this line. These are my first choice in eye patches and I have tried tons. Perfect for us vintage ladies!",
+   "date": "2024-05-08",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amazing product for itchy eyelids",
+   "titre": "Healed my itchy dermatitis on eyelid!",
+   "texte": "Allergies wrecked the skin around my eyes, the skin was dry, red and burning/itching. I found these patches and they relieved my skin right away...a miracle thank goodness. Also, they made my skin plump and glows, which was a bonus!",
+   "date": "2021-04-30",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Biliana",
+   "titre": "Best product for your fine lines!",
+   "texte": "This is such a great product for your under yes and forehead!' Great to reduce fine lines or any discoloration! I have very sensitive skin and thus is pure gold for me!! My under eyes has never felt or looked better!",
+   "date": "2024-12-16",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "TheBoxAdventures",
+   "titre": "Beautiful Eyes",
+   "texte": "Complimentary from Peter Thomas Roth Clinical Skincare. The PTR Water Drench Hyaluronic Cloud Eye Patches is an absolute dream. I've seen an improvement in my skin since using this product. I truly can't wait to see the long term results. It works well with my acne proned skin and my skin drinks it up to the point where I am obsessed with it. I am satisfied.",
+   "date": "2023-06-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "",
+   "titre": "I like it!",
+   "texte": "I have combination skin and these patches have been a perfect fit. I use them 2-3 times a week and the results are simply amazing! The frown lines between my eyebrows have significantly smoothed out, and my skin feels more hydrated and radiant. I especially love the cooling sensation, which helps to relieve fatigue.",
+   "date": "2025-01-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "HORRIBLE!",
+   "titre": "HORRIBLE",
+   "texte": "This was recommended by an employee and I WILL NEVER listen to them ever again. This hurt the underneath of not only my eyes but my fiancés as well. The underneath of our eyes stung and once we took them off they were beat red. NEVER AGAIN!",
+   "date": "2022-08-21",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

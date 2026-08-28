@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2046687",
+ "asin": null,
+ "pid": "pimprod2046687",
+ "source": "ulta",
+ "nom": "Bubble Soft Launch Hydrating Cream Cleanser",
+ "note": 4.86,
+ "nbAvis": 601,
+ "lus": 73,
+ "collectes": 76,
+ "segments": {
+  "dry": "Multiple reviewers with dry skin report the cleanser hydrates without stripping, tightness, or dryness, and several call it their favorite for dry skin.",
+  "sensitive": "Reviewers describing themselves as sensitive or ultra-sensitive report no irritation or redness, though one finds it still not as deep-cleaning as she'd like.",
+  "combination": "One reviewer with combination (dry and oily) skin reports it controls oil on the oily areas while hydrating drier zones without causing tightness.",
+  "normal": "One reviewer without a stated concern calls it good for any skin type, describing it as basic, affordable, and effective."
+ },
+ "concerns": {
+  "dehydration": "Numerous reviewers report the cleanser leaves skin hydrated, soft, and not tight or dry after washing, including several who say it's the most hydrating cleanser they've tried; one reviewer found it neither moisturizing nor drying.",
+  "redness": "One ultra-sensitive reviewer reports no redness after use, and another with sensitive skin reports no irritation.",
+  "blemishes": "A few reviewers report breakouts clearing or pimples going away and one reports breakouts cleared within a day; one reviewer with acne-prone skin reports no new breakouts or irritation.",
+  "spots": "One reviewer reports a noticeable change in her acne after use.",
+  "barrier": "One reviewer describes a minor scratch/irritation on her cheek despite otherwise liking the product, a rare dissenting note against the majority reporting no irritation."
+ },
+ "aspects": [
+  {
+   "libelle": "Hydrating, non-drying finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Creamy, soft texture on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cute, travel-friendly packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance smells like crayons",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Weak or no makeup removal",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenses too little product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cap hard to remove with wet hands",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Kenzie",
+   "titre": "Basic",
+   "texte": "Ran out of my normal cleanser and thought I'd give this a try. Its not moisturizing or drying. I do like the pump bottle but it doesnt give you much product so you use 4-5 pumps per wash. For the price I think something like Cera Ve is better. Skip this one.",
+   "date": "2026-01-25",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Holly",
+   "titre": "Great for dry skin!",
+   "texte": "I'm new to skin care and I have dry, acne-prone, and slightly sensitive skin. I feel like every cleanser I've tried feels stripping and makes my face feeling dull and dehydrated. This cleanser makes my skin feel SO refreshed! I actually look forward to washing my face now! It's easy to rinse off and doesn't leave a film or residue like other cleansers I've tried. I recommend this if you're new to skin care like me because it's easy to incorporate into your routine. I can obviously only speak for myself but I haven't noticed any breakouts or irritation, so I'd give it a shot if you have sensitive or dry skin!",
+   "date": "2025-05-02",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "J",
+   "titre": "Finally a non-drying cleanser",
+   "texte": "I've been an avid and loyal user of the Vanacream brand for years. But in the winter months when my skin is more dry, I needed something less harsh. This is that product!! No redness on my ultra-sensitive skin, and it left my skin both clean and hydrated. Definitely my new favorite cleanser.",
+   "date": "2024-12-30",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": ":P",
+   "titre": "Really nice cream cleanser!",
+   "texte": "This cleanser feels great on my skin and keft it with glowing results. It doenst smell like anything which is great imo because i have very sensitive skin and scents can bother my skin. After using this cleanser your skin feels soft and hydrated. I would def recommend this cleanser ✨",
+   "date": "2024-12-30",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "new fan",
+   "titre": "Great",
+   "texte": "This was the first bubble product that I have tried. I was immediately impressed at this soft launch hydrating cream cleanser from the beginning. It is great on my combination skin; dry and oily. It keeps the oily part of my face in control and hydrates the dry part of my neck without causing tightness. The packaging is cute and nice. It doesn't remove makeup the best, but it still removes most products (depending on how strong the mascara is). The packaging is really cute and lasts a while; probably four to six months, assuming you use one/two pumps. Overall, a great product to try.",
+   "date": "2026-07-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Megan O.",
+   "titre": "Amazing!",
+   "texte": "I absolutely love this product! It's creamy and keeps my skin feeling so clean and smooth! I love the application, and the results happened within 1 day for my skin clearing any breakouts I had. It's also extremely hydrating which goes great with my skincare routine!",
+   "date": "2026-01-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "jay",
+   "titre": "Amazing",
+   "texte": "I loved this product it made my skin feel cleaner but it left a little scratch on my right cheek overall i love it and will purchase again",
+   "date": "2025-12-24",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,164 @@
+{
+ "ref": "xlsImpprod18731233",
+ "asin": null,
+ "pid": "xlsImpprod18731233",
+ "source": "ulta",
+ "nom": "Mad Hippie Eye Cream",
+ "note": 4.08,
+ "nbAvis": 197,
+ "lus": 81,
+ "collectes": 118,
+ "segments": {
+  "dry": "Dry-skin reviewers describe the cream as moisturizing and note it helped a persistent red crease and dry patches, though a couple report increased dryness or peeling after irritation set in.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it is the rare eye cream that causes no burning, puffiness or redness for them, while others report burning, watering eyes, red bumps, rashes or swelling.",
+  "mature": "Reviewers describing themselves as mature or in their late 30s-50s report reduced puffiness, softened wrinkles and diminished bags with regular use."
+ },
+ "concerns": {
+  "aging": "Many reviewers report smoother, plumper skin and reduced fine lines and wrinkles with weeks to months of use; a few say they saw no change in fine lines even after 3-4 months.",
+  "dehydration": "Most reviewers describe the cream as hydrating and quickly absorbed, easing dry under-eye skin; a couple say it did not feel hydrating or left skin dry after use.",
+  "redness": "Several sensitive-skin reviewers report a persistent red crease or general redness calmed or gone after use; others report new redness, burning or rash appearing after applying the product.",
+  "barrier": "A few reviewers note the cream soothed skin that was irritated from other products or environmental stress (sun, allergies), while a smaller number report the cream itself triggering irritation, itching or peeling.",
+  "spots": "Numerous reviewers report visibly reduced dark circles and discoloration, some describing dramatic or near-complete improvement over weeks to months; a minority saw no change or even more noticeable dark circles.",
+  "blemishes": "One reviewer with acne-prone skin reports no breakouts and appreciates the lack of fragrance; a couple of others mention small red bumps or a rash after use.",
+  "oiliness": "Reviewers describe the formula as hydrating without feeling oily or greasy, with quick absorption."
+ },
+ "aspects": [
+  {
+   "libelle": "Absorbs quickly, lightweight feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong floral or fruity scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Little product needed per use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump clogs or dispenses too much",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning, stinging or rash on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Clumps into small balls when applied",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for active ingredients included",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Calibird",
+   "titre": "You can pry this out of my cold, dead hands",
+   "texte": "I have dry, sensitive skin in my late 30s. My eyes have had a persistent red crease in the outer corners. I have tried different eye creams and moisturizers but nothing has helped. I bought this on sale on a whim, and holy cow. I warm a small amount between my fingers, and pat all over my eye area. The first night I used it, the red crease was GONE. First time ever in years. I will buy this again. I'd recommend this to anyone with aging, dry, sensitive skin with red undertones. Only downside to note - peptides are not compatible with bha / aha so I only use this on nights I am not using a chemical exfoliant.",
+   "date": "2022-07-03",
+   "verifie": false,
+   "utiles": 37,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "rick",
+   "titre": "my FAVORITE",
+   "texte": "I have very sensitive, acne prone skin. I've used so many different eye creams- high end/luxury and affordable- and have never noticed a difference in my 31 year old eyes (fine lines). this stuff is magic! my eyes look so youthful and plump. I absolutely love it. the first couple times I tried it, I had to start slow because I did feel a slight burning. but now I've been using this a few months and have no sensitivity to it. will be re-purchasing!",
+   "date": "2025-08-19",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "JustLars",
+   "titre": "Different formula?",
+   "texte": "I love mad hippie products. Will always recommend them. But I think they changed their eye cream formula with this new packaging. My eyes are drier and I broke out in little red bumps. Not knocking the brand, just a heads up to all those with sensitive skin out there.",
+   "date": "2022-05-23",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jay",
+   "titre": "Great eye cream",
+   "texte": "I have super sensitive skin and react to a lot of eye creams (and I have tried a lot) this one is so gentle on my skin and hydrating. It sits well under makeup as well! I've never had a problem with it messing with my makeup. I have repurchased this so many times now! I recommend it to everyone!",
+   "date": "2023-06-17",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lauren",
+   "titre": "allergic reaction and not hydrating",
+   "texte": "I was very disappointed in this. I bought several hundred dollars worth of mad hippie products and this gave me awful red rashes all over my eyes. I do not have sensitive skin so this is very odd for me. Additionally, it didnt feel very hydrating. I contacted customer service who said I could ship it back at my own expense for a refund. However, with having spent so much money I figured the courtesy would have been for mad hippie to cover that costs.",
+   "date": "2021-05-04",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gabby girl",
+   "titre": "This will be a repurchase!",
+   "texte": "I love this product, it's great for us dry skins folks! The no fragrance thing is huge for me, i breakout easily!",
+   "date": "2021-04-16",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dianna",
+   "titre": "Love it!",
+   "texte": "At 56 yrs old and a smoker the wrinkles and bags under my eyes was getting depressing. I went into Ultra and asked for something to help my under eye issues and she sold me Mad Hippie eye cream, one week later my bags are almost gone, the wrinkles are much better! I'm so excited if this is the results after one week I can only imagine the results with continued use!",
+   "date": "2020-07-29",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

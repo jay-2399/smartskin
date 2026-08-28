@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2041161",
+ "asin": null,
+ "pid": "pimprod2041161",
+ "source": "ulta",
+ "nom": "Murad Targeted Eye Depuffer",
+ "note": 4.69,
+ "nbAvis": 318,
+ "lus": 79,
+ "collectes": 125,
+ "segments": {
+  "dry": "One reviewer with dry skin reports the product helps with dryness and hydration around the eyes while also color-correcting dark circles.",
+  "sensitive": "Reviewers with sensitive eyes/skin report no irritation and a gentle, non-tugging feel, including one who found it soothing rather than reactive.",
+  "mature": "A mature-skin reviewer (bags, wrinkles) finds it depuffs but says the light-reflecting shimmer highlights rather than hides her wrinkles and bags, while a 64-year-old reviewer reports looking brighter and more awake."
+ },
+ "concerns": {
+  "aging": "Several reviewers mention fine lines, wrinkles or firmness, with most reporting smoother, plumper, or tighter-looking skin over time; one explicitly says it does not erase fine lines, and another with mature skin found the shimmer accentuated wrinkles rather than concealing them.",
+  "dehydration": "Multiple reviewers describe the formula as hydrating and lightweight, reporting the under-eye area feels moisturized and less dry after use, with no complaints of dryness reported.",
+  "redness": "No reviewer specifically reports on redness reduction.",
+  "barrier": "A few reviewers report the product burns slightly on first application or causes peeling if overapplied, though most describe no irritation and a soothing feel; one felt it did not cause pilling or discomfort.",
+  "spots": "One reviewer says under-eye dark spots appear brighter/improved with use, though this is based on limited evidence.",
+  "blemishes": "Not discussed by reviewers; this product targets the eye area rather than blemish-prone skin.",
+  "oiliness": "Not discussed by reviewers."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling metal applicator",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup, no pilling",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Shimmer highlights wrinkles/bags",
+   "polarite": "neg",
+   "concerne": [
+    "mature",
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Squeeze tube dispenses too much product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills or peels if overapplied",
+   "polarite": "neg",
+   "concerne": [
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Linda",
+   "titre": "Did not work for me",
+   "texte": "Sadly, this product did not work for me. I have used it as directed for about a week and it has not visibly depuffed anything. If you are 20 years old and have a little puffiness under your eyes, then it probably will work fine. But for the 50+ crowd with actual eye bags, this product appears to have little or no effect on them. The only positive thing I can say is that it does feel nice on your skin upon application. But I did not buy it to massage my eye bags, I bought it to help reduce their puffiness.",
+   "date": "2024-02-12",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Shannon",
+   "titre": "Would love this without the reflecting complex",
+   "texte": "This is a light cream, almost gel like texture with a pale golden color to it. I've been using this every morning for a little over a week now, and have mixed feelings. I love the cooling metal applicator, and I've definitely noticed the depuffing effect, I also like that it's safe to use on the entire eye area, not just the under eye, has no noticable scent to it. big wins, but it does take a little while to fully absorb, and has a light reflecting complex designed to illuminate and brighten up the eye area, however with wrinkles, and bags under my eyes that illumination sort of highlights those. I would love this eye cream without the added reflecting complex, with it though I'm a bit less in love. Keep in mind though I have mature skin, and have bags under my eyes, if you don't this would probably be perfect for you.",
+   "date": "2024-01-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alex",
+   "titre": "Soothes and depuffs!",
+   "texte": "As far as I can tell, this works! I can see an immediate effect after using this eye cream as it diminishes the puffiness under my eyes. The metal applicator feels cooling, and the cream is soothing for a while afterward. It has a strange plasticky scent, but I can't really smell it after applying. My sensitive eyes have experienced no irritation so far, and I'm really happy with the results! Gifted by Murad.",
+   "date": "2024-01-29",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Springn89",
+   "titre": "Love it, works so well!",
+   "texte": "I absolutely love Murad skincare and I was so excited to try out this targeted eye depuffer. I struggle with under eye circles and darkness, as well as puffy eyes everyday. I've been using this product for awhile now and I can already see a difference. It helps brighten my under eyes and takes the puffiness away, it makes my eyes completely wake up. The product feels so nice and is very gentle on the skin. The applicator is soothing especially when it's cold after being in my fridge. It's so refreshing to use this every morning before I do my skincare and makeup. I will definitely be keeping this product in my routine.",
+   "date": "2024-01-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brittiany",
+   "titre": "Really love this!",
+   "texte": "I was so excited to try this new eye product and it didn't disappoint. I have dark undereyes and dry skin. I'm always looking for eye products to help combat dryness and cover the dark circles. This instantly wakes up my eyes and brightens them. They feel less puffy, more hydrated, and more awake. The color of the cream helps color correct a little. Additionally, I love the cooling applicator, and this works well under my makeup.",
+   "date": "2024-01-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elana",
+   "titre": "Best morning eye treatment!",
+   "texte": "I really enjoy this product! The formula is super lightweight and gentle to my sensitive under eyes. The metal applicator allows for a cool application which feels super refreshing in the mornings, which is when I typically wear this product. Really can't recommend enough!",
+   "date": "2024-01-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Juli",
+   "titre": "Don't over apply",
+   "texte": "At first I was disappointed with the product because I saw it peeling but I decided to give it another shot and I realized I put too much on so keep this in mind! Do not apply too much! After I applied a correct amount it worked much better, it didn't peal and I saw a noticeable difference from the side that had the depuffer and the side that didn't. Not to mention the applicator is amazing!!",
+   "date": "2024-01-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,164 @@
+{
+ "ref": "mkt77007155",
+ "asin": null,
+ "pid": "mkt77007155",
+ "source": "ulta",
+ "nom": "Proactiv Smoothing BHA Cleanser",
+ "note": 4.37,
+ "nbAvis": 137,
+ "lus": 79,
+ "collectes": 102,
+ "segments": {
+  "oily": "Reviewers describe it as suited to normal-to-oily or combination-oily skin, clearing pores and controlling breakouts without over-drying, though one combination-oily reviewer still noted flaking with twice-daily use.",
+  "dry": "Reviewers with dry skin generally report no stripping and a soft, non-tight finish, but a few say it is drying or not suitable for dry skin and recommend cutting back to a few times a week.",
+  "combination": "Reviewers with combination or between-oily-and-dry skin call it a good treatment/second cleanser that leaves skin smoother, though one found it a little drying for her skin type.",
+  "sensitive": "Most self-described sensitive-skin reviewers say it did not irritate or break them out and left skin smooth and refreshed, but others advise sensitive users to ease in gradually or note it may not be good for very sensitive skin.",
+  "mature": "One long-term user credits over a decade of use with fewer wrinkles and breakouts, though she rates the reformulated version lower than the original."
+ },
+ "concerns": {
+  "aging": "One reviewer reports few wrinkles after long-term use of the older formula, but her rating of the current formula is lower.",
+  "dehydration": "Many say the cleanser does not leave skin dry or tight and pairs well with moisturizer; several others explicitly describe dryness, tightness, or flaking, especially with frequent use.",
+  "redness": "A couple of reviewers report reduced redness and less inflammation with continued use; no dissenting reports of increased redness were found.",
+  "barrier": "Several reviewers highlight that it cleans deeply without stripping or causing tightness; one reformulation critic instead reports her face never feels clean now.",
+  "spots": "Multiple reviewers say dark spots or blemish marks lessened in appearance with use; this is reported by a minority of reviewers relative to overall breakout comments.",
+  "blemishes": "The large majority report fewer breakouts, reduced blemishes, and calmer skin over one to several weeks; a smaller group says the new formula did nothing for acne or that breakouts returned.",
+  "oiliness": "Reviewers with oily or combination-oily skin say it helps keep pores clear and oil managed; no reports of increased oiliness were found."
+ },
+ "aspects": [
+  {
+   "libelle": "Old formula preferred over new",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle exfoliating beads",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Does not foam or lather well",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable chemical or mild scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Smooth, soft skin feel after rinse",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Travel-friendly size",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Beth",
+   "titre": "Not the original scrub",
+   "texte": "Im not sure if this product is intended to be a reformulation of the proactiv scrub, but it is not the same at all. I bought this thinking it would be at least similar to the skin smoothin exfoilator- its not. It is drying, does not exfoilate at all, and is doing nothing to prevent breakouts. Incredibly disappointed.",
+   "date": "2026-01-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Arez",
+   "titre": "Great Exfoliation!",
+   "texte": "This is a great product, I love how smooth my skin feels after using it, and I do agree it is a great 2nd cleanser to the routine. It is absolutely a little drying to my skin type, thus the 4-star rating for me specifically (I have a more balanced skin type/between oily and dry). But! The treatment part has been working for me- the exfoliation is great and my skin feels smoother! As a heads up, I don't think it's meant as the best cleanser to use to take makeup off- I do NOT recommend using this on the eyes. It's great as a treatment/2nd cleanser! While using a moisturizer alongside it, this is a great product and I've been enjoying using it!",
+   "date": "2025-12-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "deardolly",
+   "titre": "Effective yet gentle exfoliation",
+   "texte": "I loved the texture of this cleanser and felt it really helped brighten my dull skin with physical exfoliation and BHA that isn't too harsh. My skin type is dry so I only use this a couple times a week but I did see a reduction in blemishes appearing after adding it to my routine, which previously had no salicylic products in it. I like that it's just 1%. Overall a solid choice for a salicylic cleanser that I'd purchase next time.",
+   "date": "2025-12-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "J",
+   "titre": "Great cleanser!",
+   "texte": "After using this cleanser for some time now, I've really enjoyed how it makes my skin feel. I have sensitive and acne prone skin, and this cleanser doesn't dry it out or make me break out.",
+   "date": "2025-12-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lily",
+   "titre": "My new favorite cleanser!",
+   "texte": "I did receive this product for free in exchange for a review! With that being said, this is one of my favorites. I have extremely sensitive skin and this did not cause any irritation and made my skin so smooth and cleared up some bumps I had under my skin. I am extremely picky with cleansers as I either don't notice a difference or it causes some breakouts. I will be buying this moving forward - absolutely amazing. Thank you!",
+   "date": "2025-11-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nyny",
+   "titre": "Great product",
+   "texte": "This is great product. I can feel after using this product, I like how smooth my skin. And I can feel my skin becoming drier after using it. So I recommend that people should moisturize well when using this product. It is really not suitable for dry skin because I have combination-oily skin, but my skin still became flaky when I used it. That's why I reduced the usage to once a day instead of twice like at the beginning",
+   "date": "2025-12-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Julie",
+   "titre": "Gentle powerful cleanser",
+   "texte": "I have breakouts as well as patches of dry skin. This product cleans and clears up my breakouts without irritating my trouble spots. I'd definitely recommend.",
+   "date": "2025-11-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

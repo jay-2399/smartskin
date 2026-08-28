@@ -1,0 +1,171 @@
+{
+ "ref": "pimprod2054668",
+ "asin": null,
+ "pid": "pimprod2054668",
+ "source": "ulta",
+ "nom": "Naturium Multi-Bright Milky Toner",
+ "note": 3.78,
+ "nbAvis": 55,
+ "lus": 54,
+ "collectes": 54,
+ "segments": {
+  "oily": "One reviewer with oily, hormonal jawline acne reports reduced inflammation, smoother texture, and a balanced, non-greasy feel after a week of nightly use.",
+  "dry": "One reviewer with dry, non-sensitive skin likes the slippery, moisturizing feel and had no pilling, while another reports the toner made her skin drier and it caused breakouts.",
+  "combination": "Combination and acne-prone reviewers report reduced redness, fading dark spots/whiteheads, and a gentle feel that pairs well with retinol, with no increase in irritation.",
+  "sensitive": "Sensitive skin reviewers are split: several call it one of the only toners that doesn't break them out and describe it as hydrating and calming, while others report burning, itching, rashes, redness, or having to wash it off immediately.",
+  "normal": "A reviewer who says she doesn't have sensitive skin and rarely breaks out still reports breakouts on two separate occasions with this product."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers describe the toner as hydrating, moisturizing, and quick-absorbing without greasiness; two reviewers instead found it not very hydrating compared to other milky toners, and one reported her skin became drier.",
+  "redness": "Multiple reviewers with rosacea, reactive skin or general redness report visible improvement and calming effect, including one whose type 1 rosacea was unaffected; however several others report the product itself caused facial redness, burning, or a sunburn-like sensation.",
+  "barrier": "One reviewer reports the product damaged her skin barrier alongside severe breakouts; another with rosacea reports it irritated her barrier, causing itching and peeling skin and peeling makeup.",
+  "spots": "Several reviewers report fading dark spots, hyperpigmentation, or acne scars/PIE over weeks of use, though one notes it is too soon to judge her post-inflammatory erythema.",
+  "blemishes": "Many acne-prone and sensitive reviewers report fewer breakouts, lightened acne pigmentation and smoother texture; in contrast, at least eight reviewers report new breakouts, cystic or under-the-skin blemishes, or worsening congestion within days of use.",
+  "oiliness": "One reviewer with oily, hormonal acne reports skin feels balanced rather than greasy after use; no other oiliness-specific complaints are mentioned."
+ },
+ "aspects": [
+  {
+   "libelle": "Milky texture absorbs quickly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pilling under other products",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Comedogenic ingredient concern (isopropyl palmitate)",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Bottle size relative to price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glowy, smooth finish after use",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Sofia",
+   "titre": "NOT for acne prone skin!",
+   "texte": "As someone with acne prone skin, I would NOT recommend this product, I have used this product for 2 days and it has caused severe breakouts towards my skin, specifically my cheeks! Which has lead to damaging my skin barrier.",
+   "date": "2026-06-18",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Molly",
+   "titre": "Dissappointing",
+   "texte": "My rosacea hates to see this product coming. Ironically, I chose this as my first milky toner to try ever because of the azelaic acid derivative and it being potentially beneficial for my rosacea. This product irritated my skin barrier, it always made me turn bright red after application. It also made me break out which never happens to me. It caused my skin to itch throughout the day and when I would scratch the product would peel. It also made makeup that is applied in top look dry and it also made the makeup peel. A disaster of a product for me.",
+   "date": "2025-11-18",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kate",
+   "titre": "Like the texture, not sure if effective",
+   "texte": "I have dry, non-sensitive skin and I love the feel of this! It's slippery and feels moisturizing to me. I've used it with a few different serums and moisturizers and never had it pill. That being said, there's not a ton of science behind the effectiveness of azaleic acid derivatives, and there arent many other brightening ingredients in here. It has a slight raspberry scent (likely from raspberry ketone, which was also in their brightening spf)",
+   "date": "2025-12-21",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cole",
+   "titre": "Milky Goodness for Resurfaced Skin",
+   "texte": "As a regular user of retinol, retinal, and exfoliating acids (in moderation), I wanted a product with Azelaic Acid to add to my routine, and I'm thrilled with the results after a week. **Skin Type:** Combo and Acne Prone (whiteheads and dark spots) **Reasons for Purchase:** 1. Azelaic Acid complements retinol without increasing redness or sensitivity, though sun sensitivity still requires SPF. 2. It helps reduce redness, providing a calming effect without adding extra steps to my routine. 3. I wanted a \"milky\" toner since the Laneige cream skin refiner didn't offer the hydration I needed at a price I liked.",
+   "date": "2025-11-05",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Janisse",
+   "titre": "Gentle but Effective",
+   "texte": "I have oily skin with hormonal acne around my jaw, and this toner has been amazing. I've been using it every night for about a week, and I can already see a difference - the inflammation has gone down, my texture is smoother, and my skin looks more even. I wake up with hydrated, glowy skin that feels balanced instead of greasy. It's super gentle but really works! Definitely keeping this in my routine!",
+   "date": "2025-10-14",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bridge",
+   "titre": "IN LOVE",
+   "texte": "I have very senstive skin plus acne prone and this stuff is in incredible! Hasnt broken me out like other comments had mentioned. I def feel like my skin look more hydrated and even toned. Its also the perfect amount of exfoliation for my senstive skin.",
+   "date": "2026-02-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Mk11791",
+   "titre": "Caused breakouts",
+   "texte": "I love many Naturium products (all the glycolic and retinol stuff, body lotions, Barrier bounce, lip balms) but this and the serum they pair this with in an orange bottle too was not for me. Tried them separately and both caused breakouts which I did not have at all before. It also made my skin drier. Sadly missed return window while experimenting hoping to love it. In their defense though I usually hate toners, I've never gotten one that didn't cause problems!",
+   "date": "2025-10-27",
+   "verifie": true,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

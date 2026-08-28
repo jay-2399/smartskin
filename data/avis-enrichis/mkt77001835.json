@@ -1,0 +1,135 @@
+{
+ "ref": "mkt77001835",
+ "asin": null,
+ "pid": "mkt77001835",
+ "source": "ulta",
+ "nom": "Mania Holic Soothe Blemish Cream to Patch Formula",
+ "note": 4.6,
+ "nbAvis": 10,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {},
+ "concerns": {
+  "spots": "Most reviewers describe using this as a spot treatment on active pimples, reporting that the patch dries into a thin, near-invisible layer that can be worn under makeup; one reviewer instead reports increased inflammation after use.",
+  "blemishes": "Several reviewers with breakouts report that it helped acne heal faster and reduced redness or irritation by morning, though one reviewer reports the opposite, saying it made her acne more inflamed.",
+  "redness": "One reviewer specifically credits it with reducing redness on spots before daytime and nighttime wear."
+ },
+ "aspects": [
+  {
+   "libelle": "Dries into invisible layer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Wearable under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long wear time up to 8 hours",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky, tacky texture if over-applied",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thin, discreet, non-obvious patch",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Attracts lint and dust when wet",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Betty",
+   "titre": "Horribly sticky",
+   "texte": "I would give this product negative stars if I could. It never dries no matter how little you apply. The formula is so sticky that any particle of lint or dust will stick to it. It also made my acne more inflamed.",
+   "date": "2025-10-26",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Grace",
+   "titre": "Perfect for Makeup",
+   "texte": "I love this patch. It's so different from normal pimple patches. You do have to apply a thin layer or else it gets tacky. But then it dries down and goes clear and lets you layer as much make up as you want over it. Then it last for 8 hours. It isn't until after that point that the patch starts to peel off which is the time stated on the bottle.",
+   "date": "2025-11-24",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elena",
+   "titre": "Loving this Patch",
+   "texte": "Love this product. It is super thin and makes me acne so much better. I am always on the look out for products that can help my acne without breaking me out and this is perfect. It's super thin and blends in on my face so it's not as noticable as other pimple products that are obvious.",
+   "date": "2025-11-24",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emma",
+   "titre": "Works like magic!",
+   "texte": "This is basically an invisible pimple patch in cream form. It dries down fast, isn't sticky, and keeps the spot protected. I use it daytime and nighttime to get rid of the redness and be ready for my meetings, hangouts, and nights out. As someone who suffers from acne, this is a MUST!!",
+   "date": "2026-03-05",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amy",
+   "titre": "New acne patch!!",
+   "texte": "This cream-based product, when applied to acne, dries into a transparent patch, which I thought was really innovative. It was perfect for me because it dries quickly and you can put makeup over it. I was also happy with how it soothed my acne. Regular sheet-type acne patches are pretty noticeable even with makeup, but this one isn't, so I'm planning to keep using it.",
+   "date": "2026-02-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Leah",
+   "titre": "Best products",
+   "texte": "This worked surprisingly well on my breakouts. I put a small amount on before bed and my skin looked less irritated by morning. It's also not super thick or sticky which I liked. I'd definitely keep using it when I get random breakouts.",
+   "date": "2026-03-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": "Reviewers rarely state their skin type in this set, so segmentation by skin type could not be produced from these reviews."
+}

@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2050613",
+ "asin": null,
+ "pid": "pimprod2050613",
+ "source": "ulta",
+ "nom": "RODAN + FIELDS Multi-Acid Enzyme Peel Dark Spot Corrector + Exfoliator",
+ "note": 4.44,
+ "nbAvis": 791,
+ "lus": 68,
+ "collectes": 73,
+ "segments": {
+  "dry": "Several reviewers with dry or drying skin report the peel does not worsen dryness and one notes it kept skin softer and less dry than before, though one reviewer felt her skin turned drier/flaky when starting out and another said her forehead area shifted from combination to dry with age.",
+  "sensitive": "Reviewers who describe themselves as having sensitive skin, or who expected a peel to be harsh, report it was gentler than feared and did not cause redness, tightness or irritation.",
+  "mature": "Reviewers in their 60s, 70s and 80s report brighter, softer, firmer-feeling skin and reduced visibility of fine lines and wrinkles, with one saying wrinkles are improved but not gone."
+ },
+ "concerns": {
+  "aging": "Mature reviewers report brighter skin, softer texture, subdued fine lines and a firmer feel; one explicitly says wrinkles are not completely gone but improved, and results are described as gradual rather than dramatic.",
+  "dehydration": "Multiple reviewers say the product did not leave skin drier and some say it made dry skin softer and less dry over time; a couple starting out noticed temporary dryness or flakiness before improvement.",
+  "redness": "Reviewers expecting a peel to cause redness or tightness report no such reaction, describing the product as gentle and irritation-free even on sensitive skin.",
+  "barrier": "Reviewers report no adverse reaction, no additional dryness or discomfort, and comfortable daily or several-times-weekly use, suggesting the product is tolerated well; no reviewer reports barrier damage.",
+  "spots": "Several reviewers report more even skin tone and reduced appearance of dark spots and discoloration with regular use.",
+  "blemishes": "Blemishes/breakouts are not a focus of these reviews; no reviewer specifically reports on acne or pimples changing.",
+  "oiliness": "A few reviewers mention shine and pores looking reduced or more minimal after use, but oil control is not a central theme in these reviews."
+ },
+ "aspects": [
+  {
+   "libelle": "Visible brightening and glow",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, soft texture after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No irritation despite peel format",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "No noticeable results for some users",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Unpleasant scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting bottle with sparing use",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "MELISSA J",
+   "titre": "No difference",
+   "texte": "After using the enzyme peel for several weeks I'm sorry to report there is absolutely no discernible difference in my skin. It's been disappointing.",
+   "date": "2025-11-02",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Crystal S",
+   "titre": "Not too harsh",
+   "texte": "I never ordered this product because I have sensitive skin and PEEL sounds painful. I received it free with a purchase and tried it out. It is not too harsh at all and skin feels nice in the morning. I have used it for a month 3 times a week and have yet to notice any improvements.",
+   "date": "2026-01-23",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "LeAndra V",
+   "titre": "Multi-Acid Enzyme Peel",
+   "texte": "I cannot say that I have seen much if any improvement on my facial skin. As I have aged, what used to be my skin type (T), I am seeing that my forehead has changed to more of the dry type.",
+   "date": "2026-01-19",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Diana M",
+   "titre": "Good product",
+   "texte": "Product is a bit pricey but my skin does look better, looks brighter Wrinkles aren't completely gone buy have seen improvement after using. Product goes on smoothly and I have not had any additional dryness or discomfort.",
+   "date": "2026-01-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lauri W",
+   "titre": "Amazing Stuff!",
+   "texte": "Love this new add on to my routine. I had not tried it before but now I'm hooked. My 64 y/o skin looks brighter, my fine lines are not as noticeable, and my skin feels amazing. If you haven't tried it - it's a must!",
+   "date": "2025-09-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Candis L",
+   "titre": "I really think it is",
+   "texte": "I really think it is helping my 75 year old skin. My skin seems brighter and looks better to me. My clay soap dried my skin so I am very glad to have the new soap.",
+   "date": "2025-11-22",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Carolyn S",
+   "titre": "Enzyme Peel",
+   "texte": "I am a 67 year old woman who has seen great results from the Enzyme Peel. My face isn't as dry as it was before I started using the peel.",
+   "date": "2025-10-06",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

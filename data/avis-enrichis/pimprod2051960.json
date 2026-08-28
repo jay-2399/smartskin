@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2051960",
+ "asin": null,
+ "pid": "pimprod2051960",
+ "source": "ulta",
+ "nom": "VT Cosmetics Reedle Shot 300",
+ "note": 4.15,
+ "nbAvis": 20,
+ "lus": 20,
+ "collectes": 20,
+ "segments": {
+  "dry": "One reviewer with dry skin calls this her 'go-to little helper,' reporting immediate results with regular use.",
+  "combination": "One reviewer with acne-prone, combination skin and texture concerns reports smoother, hydrated, glowy skin after just two applications.",
+  "sensitive": "One reviewer describes her skin as fair and reactive and reports zero reaction, zero sensation, and zero change from the product.",
+  "mature": "Reviewers in their 50s and 60s report improved moisturizer absorption, reduced lines and puffiness, more even tone, and better-looking skin with continued use."
+ },
+ "concerns": {
+  "aging": "Reviewers in their 50s and 60s report lessened lines and puffiness, more even skin tone, and better makeup absorption; no dissent noted among those who mention aging.",
+  "dehydration": "Reviewers report improved moisture absorption, plumper and more hydrated-feeling skin, and better uptake of moisturizer layered afterward.",
+  "redness": "One reviewer with reactive skin expected flushing or redness as a possible reaction but experienced none at all.",
+  "barrier": "Several reviewers report the serum helps other skincare products (vitamin C, glycolic acid, niacinamide, retinol, hyaluronic essence) absorb better without added irritation, though one reviewer using it with a hyaluronic essence found the tingling more uncomfortable.",
+  "spots": "One acne-prone reviewer reports no new breakouts or reactions since starting use; another reviewer still had recurring blackheads after four months with no improvement.",
+  "blemishes": "One reviewer reports the product 'definitely cleared' her skin; another combination/acne-prone reviewer reports smoother texture but is cautious about claiming her acne disappeared.",
+  "oiliness": "No reviewer specifically reports on oil control or oiliness changes."
+ },
+ "aspects": [
+  {
+   "libelle": "Tingling or prickling sensation on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling described as satisfying or addictive",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Improved texture, smoothness and glow",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Boosts absorption of other skincare products",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sensation and no visible effect at all",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Perceived as overhyped or gimmicky",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Needs consistent, patient use before results show",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Chestnut",
+   "titre": "Can barely feel anything",
+   "texte": "I was very excited to try this product and was even a bit nervous because I thought it might sting or feel like small needle pricks. However, I get neither of those sensations, in fact, I can barely feel anything at all! It really just feels like a serum with a hint of warmth then it goes away. Any \"pricks\" I feel are like a distant itch. I used this product morning and night and my skin had zero change. It did not make my other skincare more or less effective. This product feels very gimmicky and I will not repurchase. For reference, I have fair and reactive skin. I had zero reaction from this product, not even the slight flushing or redness it says may occur.",
+   "date": "2025-10-20",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "RockabillyCowgirl",
+   "titre": "Did Nothing At All",
+   "texte": "I've been using this product as directed for 4 mos & don't notice anything different about my skin. I still have a few blackheads that come & go & my cheeks aren't any softer than they were when I first started using the product. I'm just glad I got this on sale because it was literally a waste of money.",
+   "date": "2026-02-03",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Skye",
+   "titre": "Blind buy",
+   "texte": "Im always blind buying products just to try out which is probably the best and worst idea for my skin lol . I do tend to have acne prone skin , combination , and have a pore / texture problem. Now im not going to lie to yall and say omg holy grail my acne disappeared ! … this is literally only my second time applying the product. I feel glowy in the morning , my face is smoother to the touch and almost feels like i have absorbed my serum a bit better. My skin feels hydrated & im excited for the future results. There is a slight tingle sensation but no burning is followed . Its more of a rekaxing feel and it didnt bother me throughout the night. Will most likely repurchase this producy if the glowy glass skin persists.",
+   "date": "2025-06-18",
+   "verifie": false,
+   "utiles": 34,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alyona",
+   "titre": "Absolutely Obsessed!",
+   "texte": "I am absolutely in love with this product! I bought it on a whim during a sale around Black Friday and have been using it regularly. The prickle and tingle are definitely an experience, so be aware that it may feel a little bit like fiberglass being rubbed on your skin. It is never painful, just a bit uncomfortable for a few minutes, especially if I layer it with my hyaluronic essence. My skin looks absolutely flawless after using it, especially the next day. It is like there is a filter on my skin, even when I don't wear makeup. I am pretty acne-prone, but there have been no reactions or breakouts that I have noticed since I started using it. I am considering using some of the other products in the line because of how great it is. I can think of literally nothing I dislike about it.",
+   "date": "2026-03-10",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alice",
+   "titre": "Reedle Shot 300",
+   "texte": "You need to get this right now! I was afraid to try at first. It feels like little prickly needles when you first put it on but it's not as intense as I thought it would be. My skin has never looked better at 64 years! I am so pleased with the performance of this product I would highly recommend it.",
+   "date": "2025-11-09",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jj",
+   "titre": "Great for mature skin",
+   "texte": "I turn 50 this year and my moisturizer seemed to just sit on top of my skin lately. I started using reedle shot a few times a week and I can see my skin drinking up the moisturizer, lines and puffiness are lessened, my skin tone is more even. I use less makeup and everyone says I'm glowing. Love, love, love!!",
+   "date": "2026-03-25",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kate",
+   "titre": "Love this for a few years now!",
+   "texte": "My go-to little helper for my dry skin needs! I feel the result right away and truly love it!",
+   "date": "2026-05-15",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

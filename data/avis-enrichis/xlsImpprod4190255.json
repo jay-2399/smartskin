@@ -1,0 +1,170 @@
+{
+ "ref": "xlsImpprod4190255",
+ "asin": null,
+ "pid": "xlsImpprod4190255",
+ "source": "ulta",
+ "nom": "CeraVe Hydrating Facial Cleanser",
+ "note": 4.55,
+ "nbAvis": 19252,
+ "lus": 78,
+ "collectes": 98,
+ "segments": {
+  "oily": "Oily-skin reviewers are split: several say it cleans well without stripping or over-oiling (T-zone, sensitive-oily), but one reviewer explicitly warns it is not recommended for oily skin and another found it hard to wash off, leaving a cream/oil-like residue.",
+  "dry": "Dry-skin reviewers most consistently praise this cleanser for hydrating without stripping the skin, though one reviewer with dry skin reported the opposite, that it dried her skin out and did not help acne.",
+  "combination": "Combination-skin reviewers report mixed results, from a self-described \"holy grail\" for combination/acne-prone/hyperpigmented skin to reviewers who broke out or got dry within days of switching to it.",
+  "sensitive": "Reviewers with sensitive skin generally describe it as gentle and non-irritating, including for rosacea, eczema and perioral dermatitis, though a few mention mild stinging in the eyes or slight burning.",
+  "mature": "The few reviewers who mention mature or older skin describe softer skin, diminished age marks, and no breakouts."
+ },
+ "concerns": {
+  "aging": "Older reviewers report softer skin and reduced breakouts, with one mentioning diminished age marks; no negative reports specific to aging skin were found.",
+  "dehydration": "Most reviewers describe the cleanser as hydrating and non-stripping, restoring or maintaining moisture even for very dry or eczema-prone skin, but a couple report the opposite, that it dried their skin out noticeably after washing.",
+  "redness": "Reviewers report calming of redness and irritation, including in a case of rosacea, with no breakouts, redness or peeling noted after years of use by one long-term user.",
+  "barrier": "Reviewers describe it as helping rebuild or protect the skin barrier, especially when skin is inflamed, dry, or on drying medications.",
+  "spots": "One long-term reviewer in her sixties reports no breakouts, redness or peeling with continued use, suggesting stability for existing spots/hyperpigmentation, though this is not a common theme.",
+  "blemishes": "Reports are mixed: several combination and acne-prone reviewers say breakouts stopped or decreased, but multiple reviewers explicitly say the product caused or worsened breakouts, including on skin not normally acne-prone.",
+  "oiliness": "Some oily-skin reviewers say it cleans without leaving the T-zone oily and reduces oiliness over time, while others found the texture itself feels oily/greasy or hard to remove, and one reviewer flags it as unsuitable for oily skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Non-foaming lotion-like texture",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Non-stripping, hydrating after wash",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formulation appreciated",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Unexpected buttered-popcorn-like scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild stinging or burning on eyes/sensitive skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Affordable, good value especially in larger sizes",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains parabens, disliked by some",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Kathryn",
+   "titre": "Wish I read the reviews first",
+   "texte": "I've had nothing but good experiences with Cerave until I used this facial cleanser, so I just want to make it clear that this review has nothing to do with Cerave on a more generalized scale. This solution was incompatible with my skin (combo skin; rosacea does run in the family), so that's the only reason why it's getting one star. To me, this Cerave product is just an outlier. Other than this one-off less than mediocre cleanser, Cerave is an excellent, dependable brand. I used this facial cleanser for a little under a week and noticed my face started breaking out and was getting dry. So I just switched back to the Cerave green facial cleanser, which is my go to. The one star reviews about people with combo skin breaking out after using this product are not lying.",
+   "date": "2025-11-14",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Tina",
+   "titre": "Did nothing but dry my skin out",
+   "texte": "Stripped way too much of the oils from my skin, right after I wash it off my face is SO dry. Doesn't even help with acne. I guess the only positive thing about it is that it didn't break me out, or did it? I have no clue..",
+   "date": "2025-07-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jonathan",
+   "titre": "Great for dry skin, oily skin beware",
+   "texte": "Helps to rebuild the barrier if you're inflamed and dry. Leaves my skin feeling clean and hydrated, not stripped. Would not recommend for oily skin. If you're on any med that dries out your skin, this is a must have.",
+   "date": "2025-02-05",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "krys",
+   "titre": "Combination skin holy grail!",
+   "texte": "I have combination acne prone skin with hyperpigmentation. I've tried so many cleansers and most of them break me out or don't clean my skin very well. I use this and follow up with a very hydrating moisturizer and my skin has never been better.",
+   "date": "2025-07-13",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stacey",
+   "titre": "Best for dry skin",
+   "texte": "I have dry, sensitive, and mature skin and know I need a hydrating face cleanser and have used samples of this before and didn't like it at all. I've used cream to foam and foaming cleansers without success. Always ended up with irritation and redness, never understanding why which caused me to become frustrated. I did some research on why hydrating lotion type cleansers are good for my skin type and why there was a residue left behind. It was my fault! I didn't rub the cleanser between my hands or have a very wet face or rinse enough times. Since I do these steps now, man, what a game changer for my face!!!!!! No redness or irritation just softness and happiness. This is a MUST have for me.",
+   "date": "2026-07-11",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth",
+   "titre": "Baby skin soft and no more breakouts",
+   "texte": "I have oily skin and am in my 40s. This product has left my skin feeling super soft and smooth, and my breakouts are nonexistent now. It's affordable and works great.",
+   "date": "2026-06-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nuoqi",
+   "titre": "Love it for my oily, sensitive skin!",
+   "texte": "First of all, I love the foaming, cushiony texture—it lathers up on its own without needing much effort, which is super convenient. Since using this face wash daily, my skin feels less oily, and it doesn't strip away moisture at all. It's gentle yet effective, and I've noticed fewer breakouts, which is a big win for my acne-prone, sensitive skin. The only downside for me is the smell. Even though it says \"no added fragrance,\" it kind of smells like buttered popcorn to me—not bad, just unexpected. I'm someone who prefers completely fragrance-free products, but I've gotten used to it and it doesn't bother me as much anymore. Overall, I highly recommend this for anyone with oily and sensitive skin. It's a great everyday cleanser!",
+   "date": "2025-07-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

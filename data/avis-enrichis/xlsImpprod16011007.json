@@ -1,0 +1,174 @@
+{
+ "ref": "xlsImpprod16011007",
+ "asin": null,
+ "pid": "xlsImpprod16011007",
+ "source": "ulta",
+ "nom": "La Roche-Posay Toleriane Double Repair Face Moisturizer with Niacinamide",
+ "note": 3.96,
+ "nbAvis": 2006,
+ "lus": 81,
+ "collectes": 106,
+ "segments": {
+  "oily": "Some reviewers with oily or combination skin report the moisturizer absorbs without leaving a greasy or shiny feel, though one found it too heavy in summer.",
+  "dry": "Reviewers with dry skin frequently praise its ability to relieve flaking and stretching, though several also report the product pilling or sitting on top of the skin without absorbing.",
+  "combination": "Combination-skin reviewers generally describe it as smooth and non-greasy, with one noting it needs extra product if skin runs drier.",
+  "sensitive": "Sensitive-skin reviewers are split: many describe it as calming, non-irritating and fragrance-light, while others report stinging, burning, redness or allergic-type reactions.",
+  "mature": "Reviewers in their 60s and 70s credit it with smoother, firmer-looking skin and reduced visible wrinkles.",
+  "normal": "One reviewer with normal-to-dry skin found the formula too heavy for daily summer use despite good hydration."
+ },
+ "concerns": {
+  "aging": "Older reviewers (59, 66, 75) report firmer, smoother, less wrinkled-looking skin with regular use; no dissent noted among those who mention aging specifically.",
+  "dehydration": "Most reviewers describe strong, lasting hydration and relief from dry, flaky patches, especially in winter; a few say it never fully absorbs and leaves skin feeling dry or greasy at once.",
+  "redness": "Several reviewers with rosacea or general redness report calming effects and visible reduction in redness; others report the product itself triggered new redness, stinging or burning.",
+  "barrier": "Some reviewers used it successfully to support a compromised or retinoid-irritated barrier with reduced peeling; others report the opposite, describing stinging, burning, or barrier damage on application.",
+  "spots": "Reviewers mention reduced dry flaky spots, discoloration fading, and clearing of white/ashy patches (Pityriasis Alba) with continued use; no negative reports specific to spots.",
+  "blemishes": "Many acne-prone reviewers report no new breakouts and even improvement over weeks of use; a notable minority describe new breakouts, clogged pores, or cystic pimples attributed to the product.",
+  "oiliness": "Oily-skin reviewers mostly report no added shine or greasy residue; one describes it as feeling slightly oily before fully drying down."
+ },
+ "aspects": [
+  {
+   "libelle": "Pilling under makeup or sunscreen",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or burning on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting hydration through the day",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Difficult tube packaging near end of use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for amount used",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or near-odorless feel",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Madeleine",
+   "titre": "Pills like crazy and NEVER absorbs",
+   "texte": "Tried this for my very dry and sensitive skin, and it does not work at all. The moisturizer never absorbs into my skin. I can't put sun screen or makeup on over it. The product just pills up, even 3 hours after applying it.",
+   "date": "2026-07-08",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Emma",
+   "titre": "Burns my skin",
+   "texte": "The quantity of naicnimide and actives ingridients is too high. Damaged my barrie cause acne all over my face. I thought it would help repair my barrier and bright my skin. But i was wrong. Woukd not recommend to sensitive skin at all!!",
+   "date": "2026-08-01",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Karolina",
+   "titre": "My First Holy Grail Moisturizer",
+   "texte": "I was a little hesitant to try this moisturizer because I'd seen a lot of negative reviews, but my skin drinks it up like water in the desert. I have combination to dry, sensitive skin, and this is one of the few moisturizers that actually leaves my skin feeling truly satisfied once it absorbs. It keeps my skin hydrated without feeling greasy or heavy and leaves a smooth, glowy finish that lasts throughout the day One of the biggest challenges for me has been finding a moisturizer that works under my mineral sunscreen. Even with products that should be compatible, like a water-based sunscreen over a water-based moisturizer, my SPF still flakes or pills no matter how long I wait before applying it. With this one, I usually wait just 5-10 minutes and my sunscreen glides on perfectly, stays in place all day, and doesn't disturb the moisturizer underneath. This has made it a staple in my morning routine. It's fragrance-free, but it also doesn't have that odd \"fragrance-free\" smell, which I really appreciate. The texture is lightweight yet nourishing, and it doesn't irritate my skin or clog my pores. I've never had breakouts from it. I'm already on my third bottle, which says a lot because I usually rotate through products pretty quickly.",
+   "date": "2025-09-08",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kayli",
+   "titre": "Best Winter Hydration!",
+   "texte": "I felt like I would never get this winter flaking under control. I also struggle with clogged pores and blackheads. I bought this hoping it would help, and it worked wonders. It worked better than expected. I used it with The Ordinary Hyaluronic Acid 2% + B5 serum and La Roche-Posay Cicaplast B5 Soothing Spray. My skin has felt and looked hydrated all day. My skin has never looked this good. I would recommend this to anyone with dry, flaky, acne-prone skin. This is hands down the best product I have purchased!!",
+   "date": "2026-01-15",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Annie",
+   "titre": "Great for sensitive and acne prone skin",
+   "texte": "Recommend by my Dermatologist because I have sensitive skin and cystic acne. The moisturizer is so dewy and really penetrates without clogging pores. I'm also 59, so it's great for aging skin too!",
+   "date": "2026-01-28",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary",
+   "titre": "Must use in correct order",
+   "texte": "I have rosacea and sensitive. I bought several products and this double repair moisturizer was one of them. 1st time my face burned and was red 2nd day same thing. I checked online and I was using them in the wrong order. Use in order & it's perfect",
+   "date": "2026-08-09",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Driaaa08",
+   "titre": "Amazing",
+   "texte": "I really LOVE this moisturizer for my sensitive skin ! It avtually reduced my redness and made me combo skin feel so smooth and hydrated without a greasy feeling",
+   "date": "2026-03-19",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

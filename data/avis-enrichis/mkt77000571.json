@@ -1,0 +1,148 @@
+{
+ "ref": "mkt77000571",
+ "asin": null,
+ "pid": "mkt77000571",
+ "source": "ulta",
+ "nom": "Wrinkles Schminkles Face, Neck & Décolletage Peel Pads",
+ "note": 4.85,
+ "nbAvis": 39,
+ "lus": 27,
+ "collectes": 27,
+ "segments": {
+  "dry": "One reviewer says the pads helped a lot with dry skin, especially in winter.",
+  "mature": "Several reviewers describe themselves as older or focused on anti-aging use and report smoother, younger-looking, tighter-appearing skin with an easy routine."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report visibly smoother texture, reduced fine lines, tighter-feeling skin, and a more youthful appearance, including one with deep wrinkles still hoping for further improvement; effects are described as noticeable within a few uses to one box.",
+  "dehydration": "One reviewer reports waking up with a more hydrated complexion after leaving the pads on overnight.",
+  "redness": "One reviewer with lupus reports the pads help protect her face from small bumps and irritation; another notes zero irritation and no stinging or tingling.",
+  "blemishes": "One reviewer notes the pads helped with pores; no reports of new breakouts appear in the reviews."
+ },
+ "aspects": [
+  {
+   "libelle": "Skin smoothness and texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Radiant or glowing finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle, no stinging or irritation",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Fast, visible results after few uses",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Value versus facials or injectables",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mixed enthusiasm despite doing the job",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Michele",
+   "titre": "I have deep wrinkles so",
+   "texte": "I have deep wrinkles so it might take awhile to see any improvement or even a slight improvement. I am hoping for the best!!!",
+   "date": "2023-06-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Donna",
+   "titre": "Face polishing peel pads",
+   "texte": "I love them. I have already reorders 3 more boxes. I definitely could tell my lighter lines looked so much better after a box. Over all face much better texture.",
+   "date": "2023-10-14",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Callum",
+   "titre": "Absolutely Amazing!",
+   "texte": "These peel pads work after just 1 application. I was nervous about the 'peel' nature of the pad but was given one as a gift and it leaves your skin so bright and clean. No aggressive stinging - it actually feels nice when you apply. It's become a daily part of my skin ritual and my face has never looked smoother. It's a way cheaper and in my opinion More effective than a facial and can be done right before bed. Highly reccomended!",
+   "date": "2020-09-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jessica",
+   "titre": "Definitely would buy these again!",
+   "texte": "These polishing pads are so awesome for exfoliating your skin. Plus they helped me with my pores. Truly love using them right now especially in the winter because I have so much dry skin these helped me out a lot!",
+   "date": "2026-01-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary",
+   "titre": "Peel",
+   "texte": "Love this product! Have lupus and it helps so much to protect my face from little bumps from the lupus",
+   "date": "2023-10-11",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa",
+   "titre": "Hydrating",
+   "texte": "I wore over night and woke up to a nice hydrated complexation",
+   "date": "2022-11-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Nurmina",
+   "titre": "Refreshing",
+   "texte": "They're actually quite good if you like peel pads. I'm not too keen on them, but they do the job.",
+   "date": "2022-11-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

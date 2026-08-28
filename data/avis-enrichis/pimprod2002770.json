@@ -1,0 +1,157 @@
+{
+ "ref": "pimprod2002770",
+ "asin": null,
+ "pid": "pimprod2002770",
+ "source": "ulta",
+ "nom": "No7 Laboratories Line Correcting Booster Serum",
+ "note": 4.1,
+ "nbAvis": 303,
+ "lus": 73,
+ "collectes": 116,
+ "segments": {
+  "dry": "Reviewers with dry skin describe visible dryness improving (dry patches on cheeks disappearing, better hydration) and generally tolerate the serum well, though it can feel heavy or thick for some.",
+  "sensitive": "Sensitive-skin reviewers report mixed tolerance: several say it caused no irritation and worked well even on sensitive or Lupus-affected skin, but others experienced puffy eyes or severe irritation and swelling.",
+  "mature": "Reviewers in their 40s-60s with visible lines and wrinkles are the core user base, with many reporting softened forehead lines, 11's, and crow's feet after weeks of use, though a minority saw no change even after a full container."
+ },
+ "concerns": {
+  "aging": "Most reviewers report visible softening of fine lines, forehead lines, 11's, or crow's feet within 1-6 weeks; several say deep or long-standing wrinkles (nasolabial folds, smile lines) remain largely unchanged despite continued use, and a few report no visible improvement at all after a month or more.",
+  "dehydration": "Several reviewers note improved hydration and plumper, more moisturized-feeling skin, including reduced dryness patches and better makeup application; one reviewer felt the hydration benefit was the only effect noticed.",
+  "redness": "One reviewer reports severe redness and swelling lasting a week; against this, others with sensitive skin explicitly note no irritation or redness at all.",
+  "barrier": "A few reviewers mention the serum sitting on top of the skin or leaving a residue that affects how makeup sits, though this is not framed as barrier damage.",
+  "oiliness": "One reviewer noted increased oiliness on their skin after use, while another with the same concern explicitly reports the product does not feel oily or worsen oiliness.",
+  "blemishes": "Two reviewers using it short-term specifically note no new breakouts."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight silky texture on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slow absorption, feels heavy or thick",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy or shiny residue after drying",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Syringe-style applicator precise and low-waste",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Applicator design gimmicky or awkward",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Recent size reduction with price increase",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Gina",
+   "titre": "Never buy again",
+   "texte": "Caused. Severe skin irritation - swelling and redness that lasted a week.",
+   "date": "2021-02-21",
+   "verifie": true,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "PH",
+   "titre": "Unfortunately, it made my eyes very puffy",
+   "texte": "I purchased this product to use on the lines under my eyes. I was careful to apply very little and made sure that I didn't get it close to the eye itself. I applied it at night and the next morning and through the day, my eyes were very puffy, both under my eye and my eyelids. I think my eyes are too sensitive to use this product.",
+   "date": "2021-06-20",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ika",
+   "titre": "Wow!!",
+   "texte": "This works! I'm always being skeptical when it comes to anything anti-wrinkle. I'm post-menopausal, 47yrs, with dry and sensitive skin due to Lupus and medications. I use sunblock and avoid direct sunlight. I use it on my upper lip lines and very deep forhead lines. Only at night! (I'm very careful about this type of product and sun exposure). Saw results on the first 5 days! My lip lines were softer, not gone. I even noticed that my upper lip got a bit plump. After 4 weeks, upper lip lines are very soft, lip still look plump. Forhead lines are softer now, less deep. That vertical one between the eye has diminished as well. I mean, I had to leave a review.",
+   "date": "2023-05-16",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rinn",
+   "titre": "Will Buy aagain",
+   "texte": "I'm 41, and for the most part aging super well thanks to my chipmunk cheeks, but I bought this to reduce the appearance of a single deep line between my brows, and wow. I did not expect results so quickly. It's been one week and the line has noticeably softened, as have my other forehead lines. My skin is sensitive, and it didn't cause any issues. IMO it was worth the price for me.",
+   "date": "2021-04-17",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dawson",
+   "titre": "noticeable difference",
+   "texte": "there's a notable difference in wrinkles immediately this product really works, and that's coming from someone with really dry sensitive skin!",
+   "date": "2021-04-10",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mari",
+   "titre": "Love it!",
+   "texte": "I have been using this product for 3 years now and makes my face smooth, clear, and soft to touch. It also helps soften the small lines around my forehead. I have a dry & very sensitive skin so there's not a lot of product that I can use. But This No 7 Line Correcting Booster Serum really work. I am glad I found this product!",
+   "date": "2024-10-10",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa",
+   "titre": "This middle age mom will be buying again!",
+   "texte": "I received No 7 Line Boosting Serum as part of a BzzAgent no cost campaign in exchange for my honest opinion after trying this product. I have used a super serum by a competitor brand for the last 10 years. However, after trying No 7 Serum for a few weeks I am switching permanently. It leaves my skin feeling smoother without the sticky residue some serums can leave behind. The dry patches on my cheeks have all but disappeared! It also leaves it feeling soft to the touch. I have noticed that my under eye concealer does not crack and look cakey by the end of the day. I have noticeably fewer wrinkles on my forehead as well. I will definitely be buying this product in the future and telling all of my friends they need it in their skincare routine! It's FANTASTIC!",
+   "date": "2024-05-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

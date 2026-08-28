@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2042399",
+ "asin": null,
+ "pid": "pimprod2042399",
+ "source": "ulta",
+ "nom": "VANICREAM Vitamin C Facial Serum for Sensitive Skin",
+ "note": 4.47,
+ "nbAvis": 89,
+ "lus": 79,
+ "collectes": 82,
+ "segments": {
+  "oily": "One reviewer with oily/acne-prone/sensitive skin found it kept skin calm and non-greasy all summer; another with combination oily-prone skin said it doesn't feel oily.",
+  "dry": "Reviewers with dry skin (including one also acne-prone) report hydration, glow, and no breakouts, with one 44-year-old dry-skin reviewer also noting improvement in age spots and fine lines.",
+  "combination": "Combination-skin reviewers describe it as non-oily, hydrating, and effective against occasional breakouts within days.",
+  "sensitive": "The large majority of sensitive-skin reviewers, including several with rosacea, report no irritation, redness, or breakouts and describe it as gentle, soothing, and even calming to redness, but a distinct minority of sensitive-skin users report burning, rashes, contact dermatitis, or perioral dermatitis, sometimes appearing only after several days of use.",
+  "mature": "Mature-skin reviewers (ages 44-61) report brightening, evened tone, softened fine lines/jowl lines, plumper skin, and reduced under-eye crepiness after weeks of use."
+ },
+ "concerns": {
+  "aging": "Reviewers report smoother texture, plumper skin, reduced fine lines, jowl lines and under-eye crepiness, with some describing visibly younger-looking skin after weeks of consistent use.",
+  "dehydration": "Reviewers consistently describe the serum as hydrating, lightweight, and non-greasy, with several noting improved plumpness and glow; no reports of dryness from the product itself.",
+  "redness": "Most reviewers with redness or rosacea report visible calming and reduced flare-ups within days to weeks; however a notable minority report the opposite — new redness, blotches, or a sunburned look developing during use.",
+  "barrier": "Several reviewers credit the serum, especially paired with the matching moisturizer, with repairing or soothing a compromised skin barrier; one reviewer's skin barrier reportedly improved after being damaged by other products.",
+  "spots": "Many reviewers report visible fading of dark spots, sunspots, and hyperpigmentation over weeks to months of use, including in mature and sun-damaged skin.",
+  "blemishes": "Most reviewers, including acne-prone ones, report no new breakouts and some improvement in acne scarring; one reviewer nonetheless developed itchy bumps and swelling, and another broke out in red blotches after weeks of use.",
+  "oiliness": "Reviewers describe the texture as non-greasy and quick-absorbing, including those who specifically avoid oily vitamin C formulas; one reviewer noted a brief oily feel until full absorption."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky or tacky finish",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Airless pump prevents oxidation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable relative to high-end serums",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Delayed-onset rash or dermatitis",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Mild pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small product volume for price",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Mrs M",
+   "titre": "Caused a rash!",
+   "texte": "I'm going to keep writing my review of this to warn others and to make sure Ulta posts this - to those with sensitive skin- this is very irritating. And the kicker is that it didn't irritate my skin on day 1, 2 or 3 of using it. Around day 4, the skin on my face was rough, dry and bumpy. This is when I stopped using it- but the irritation continued even though I stopped using it and no other skin care or makeup was in any way different. On day 5, my neck and chest turned bright red, looking like a bad sun burn. On day 6 and 7, sensitive spots under my eyes turned blood red, blotchy and sore. The worst is that some of this migrated down my chest to the top of my bosom (to use a term that won't get flagged) and now I have a bumpy rash all across the top of both of them. This is day 8 and the irritation continues.",
+   "date": "2024-08-18",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "DB",
+   "titre": "Not seeing results but still use",
+   "texte": "So been using this for 2 months. Absolutely no irritation and I have mature sensitive skin, however always haven't really seen any improvement. Will continue to use for the future benefit but hasn't smooth out my skin at all.Does feel great though, just wish it was stronger.",
+   "date": "2025-09-05",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "molldoll",
+   "titre": "I was able to use this daily without irritation!",
+   "texte": "i have sensitive, rosacea and acne prone skin. i am also very oily at this time. this was a great vitamin C treatment to try out and i have been able to incorporate this daily. i have repurchased 3x so far. all summer this was my favorite combo: vanicream vitamin c + cerave gel moisturizer + hero cosmetics force shield spf. it made my sensitive, skin happy all summer. I'm going to keep it going the rest of the year.",
+   "date": "2024-09-11",
+   "verifie": false,
+   "utiles": 26,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alyssa",
+   "titre": "Best Vitamin C I've ever used",
+   "texte": "I have tried many expensive vitamin c serums and they did nothing for my skin...until this one! Not only is the price amazingly affordable but I saw results immediately after using and my skin texture and tone has improved so much. I'm 44 with dry skin, age spots and fine lines and this has made such a difference!",
+   "date": "2024-12-03",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Laura",
+   "titre": "Back for tubes 2&3!",
+   "texte": "Just ordered my second and third tubes so i won't be out when tube one is empty. It's that good for my acne prone dry sensitive skin! Was recommended by a dermatologist I follow on Instagram for my exact skin type. No issues with irritation at all and my skin looks beautiful and glowy. Great price for such a good product. A little goes a long way.",
+   "date": "2025-08-20",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Helen",
+   "titre": "Fantastic!",
+   "texte": "Fabulous! I'm 61 years old & still struggle with cloggled pores! I have sensitive skin & even with a very strict skin care regimen, my skin can break out or react to oils in products. However, Vanicream's Vitamin C Serum is an absolute treasure of a find! I'm on my 3rd tube & no breakouts or sensitivity. My sunspots have lightened & my complexion has overall evened. This serum with ceramides is also very cost efficient, too! Overall, this has earned a permanent place in my skincare routine.",
+   "date": "2024-05-24",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Dolly",
+   "titre": "Be careful",
+   "texte": "This product worked great for me at first, but after a few weeks of use, it started to really irritate my skin and broke me out in red blotches all over my face and neck. I've used many vitamin C serums ij the past and none have ever done this to my skin.",
+   "date": "2024-12-03",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

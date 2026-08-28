@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2013502",
+ "asin": null,
+ "pid": "pimprod2013502",
+ "source": "ulta",
+ "nom": "Pixi Retinol Tonic Smoothing Toner with Jasmine Flower",
+ "note": 4.73,
+ "nbAvis": 22,
+ "lus": 21,
+ "collectes": 21,
+ "segments": {
+  "oily": "One reviewer with oily, acne-prone skin reports the toner feels refreshing and non-sticky and pairs well with a hyperpigmentation treatment.",
+  "sensitive": "Several reviewers describe sensitive skin and mostly report gentle, non-irritating use without burning, though one reviewer's sensitive skin reacted with a rash and dryness after two uses and one found the older Glow Tonic too harsh by comparison.",
+  "combination": "One reviewer with combination skin and rosacea reports tighter-looking pores and more hydrated, supple skin.",
+  "mature": "Reviewers focused on fine lines and wrinkles report visible smoothing on the forehead, around the eyes, cheeks and neck, with several using it alongside other retinol products for an anti-aging routine."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report reduced appearance of fine lines on the forehead, eyes, cheeks and neck, and describe skin as smoother and tighter; effects are described as visible fairly quickly by some users.",
+  "dehydration": "Reviewers describe the toner as moisturizing and hydrating rather than drying, with one noting balanced hydration from glycerin and propanediol; one reviewer reports the opposite, stating her skin became super dry after two uses.",
+  "redness": "One reviewer states the product caused a rash on her face; another contrasts it favorably with the Glow Tonic, which reportedly burned and reddened her sensitive skin, whereas this toner did not.",
+  "barrier": "A few reviewers with sensitive skin report no burning, stinging, or adverse reactions even when layering additional retinol products on top.",
+  "spots": "One reviewer uses it alongside a separate hyperpigmentation treatment; another reports brighter, more evenly toned skin since starting use.",
+  "blemishes": "Several reviewers with acne-prone or hormonal acne report reduced breakouts and clearer skin with regular use; one reviewer reports no improvement and continued breakouts after using nearly a full bottle.",
+  "oiliness": "One reviewer describes the product as leaving skin clean and refreshed without stickiness on oily, acne-prone skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, refreshing after cleansing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Jasmine or perfume-like scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild tingling sensation on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Small bottle size but long-lasting",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus professional retinol products",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Preferred over Pixi Glow Tonic",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Non-sticky finish",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "ko",
+   "titre": "be careful",
+   "texte": "used 2 days in a row an so sorry I did. my face has a rash and is super dry now. after more investigation, this line has carcinogens in almost every product. I will be returning",
+   "date": "2021-10-29",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Bambi",
+   "titre": "the smell....",
+   "texte": "I got this because I loved the glow tonic and seen many good reviews on this. this smelled too much like old perfume to me. I still continued to use it and seen nothing special. I almost used a whole bottle and still broke out and had the same issues as before. i went right back to what worked, the glow tonic!",
+   "date": "2021-07-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Selena",
+   "titre": "Even better than the 'Glow' tonic...",
+   "texte": "I loved Pixi's Glow Tonic and after trying this I'm surprised to discover that both products have a very similar effect on my skin. Both balance hydration (in this case Glycerin and Propanediol) whilst being moderately astringent, both are brightening (a good amount of Vitamin C in here) and other than the color and fragrance of the tonics, my skin reacts almost identically whichever of the two I'm using. However one crucial difference with the Retinol version is it has a better effect on my pores. 'Glow' kept them fairly clear, although it didn't minimize them in any way, but this one definitely has a subtle yet noticeable minimizing effect on them. I'm thinking now to alternate the two each night, as I tend to avoid using Retinol or its derivatives, and AHA-containing products during the day time. If you already use Retinol in your skincare (cream, serum) then it may be worth skipping this product as you're probably used to a much higher percentage of the ingredient and won't notice any additional benefits of using this one. But if you find most retinol products too irritating - as I do, then this is a good entry level product, mild enough not to cause any issues like sensitivity, and yet still potent enough to make a fair amount of difference. If I had to pick between the two, I'd choose this tonic over the 'Glow' one. Retinol aside, the ingredients in this one are overall superior. And so are the results. -> My 'Ulta Beauty Top 7 must-have list' (My 7 favorite beauty prod",
+   "date": "2020-11-20",
+   "verifie": false,
+   "utiles": 39,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cherry",
+   "titre": "Favorite Pixi product",
+   "texte": "Far superior to the Glow tonic, in my opinion. The glow tonic is too much for my sensitive skin, sometimes burns and makes it red. This one is gentle yet powerful. This is my go to. Love that it also has retinol, I use it every night after I wash. Have been using it for over a year. Helps to lightly moisturize and smooth lines. Definitely recommend.",
+   "date": "2021-07-18",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sheena",
+   "titre": "Best Tonic for my Oily, Acne prone skin",
+   "texte": "I tried the Glow tonic and it was ok. My skin didn't feel anything different after using it then it did before. This tonic I love. I use it at night. Although my face is freshly washed before use, it gives my face and neck an extra refreshing and clean feeling. It's not sticky. I apply faded by Topicals to help fade hyperpigmentation and finish up my night routine with the retinol moisturizer by Pixi (My favorite night-time moisturizer but that for another review.)",
+   "date": "2022-09-28",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Conner",
+   "titre": "Great product!!",
+   "texte": "I really like the Pixi line and heard awesome things about this retinol tonic. Its very light on the skin, no harsh fragrance, gentle for my sensitive skin, no burn what so ever and even moisterizing! I use this in the pm after double cleansing and it has helped with my hormonal acne a TON!! Love this product!!",
+   "date": "2020-12-30",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bigbadpanda",
+   "titre": "My favorite toner",
+   "texte": "I had been previously using the glow tonic and really liked it. However, I ordered this one instead because the glow tonic was sold out and honestly, I'm so glad that happened. My skin is reacting soooo well to this product. It tightens my pores and makes my skin looked hydrated and supple. I mostly use this at night after washing my face because I barely give myself enough time to use it in the morning. Using it once helps a lot though and a little goes a long way. I'm very happy with this product! I have combination skin for reference and also have rosacea that's under control at the moment.",
+   "date": "2026-07-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

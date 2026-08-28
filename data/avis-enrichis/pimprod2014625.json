@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2014625",
+ "asin": null,
+ "pid": "pimprod2014625",
+ "source": "ulta",
+ "nom": "TULA Breakout Star Acne Moisturizer",
+ "note": 4.42,
+ "nbAvis": 407,
+ "lus": 79,
+ "collectes": 97,
+ "segments": {
+  "oily": "Several reviewers with oily or oily/combo skin say the moisturizer feels light and does not add greasiness, with a few noting their skin actually seemed less oily with use.",
+  "dry": "Reviewers with dry skin generally find it hydrating enough for daily use, though a couple note that dry patches or areas can feel tight after some time and need a second, richer moisturizer layered on.",
+  "combination": "Combination-skin reviewers describe it as lightweight, non-greasy and good for layering, with one noting it can occasionally sting when their barrier is already compromised.",
+  "sensitive": "Sensitive-skin reviewers are split: some report no irritation and call it gentle, while others describe burning, redness, or a reaction they consider unusual even though they don't normally have sensitive skin.",
+  "mature": "One reviewer in her 50s with normal-dry, acne-prone mature skin reports that with patience it cleared stubborn closed comedones and left skin smooth and hydrated."
+ },
+ "concerns": {
+  "dehydration": "Many say it hydrates well without feeling heavy or greasy; a smaller group finds it insufficiently moisturizing on its own, especially on dry areas, and pairs it with a second moisturizer.",
+  "redness": "A few reviewers report burning and visible redness shortly after application, including people who say they don't normally have sensitive skin; most other reviewers report no redness at all.",
+  "barrier": "One reviewer notes the product only stung when their skin barrier was already compromised by other harsh products, suggesting the tingling is context-dependent rather than constant.",
+  "spots": "Numerous reviewers report a clear reduction in acne spots, cystic breakouts or scarring within weeks; a minority say it neither improved nor worsened their acne, and one reviewer had breakouts return each time they tried it.",
+  "blemishes": "Most reviewers describing blemishes report fewer breakouts, smoother skin and fading marks after a few weeks; a small number saw no change or say it did not help treat existing acne even though it didn't cause new breakouts.",
+  "oiliness": "Multiple reviewers with oil-prone skin say it left their face less oily than other moisturizers and did not clog pores; no reviewer reports it made oiliness worse."
+ },
+ "aspects": [
+  {
+   "libelle": "Pump dispenser fails before bottle is empty",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky residue if overapplied",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to quantity received",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Product crystallizing or hardening in bottle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup or sunscreen",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Willow",
+   "titre": "I used this until it was gone",
+   "texte": "And i had no idea what \"pump problem\" everyone was talking about but quickly understood towards the end of the bottle. I assume its just the packaging. It works well but unfortunately at the time i was using other products that were ruining my skin barrier and causing this moisturizer to lightly tingle or burn on my face. It was never really a problem unless i had used other abrasive products before. It definitely helps moisturize and is light weight on the skin. I do agree its sticky if you use too much. For reference i have combination skin and occasionally get cystic pimples.",
+   "date": "2025-12-25",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "T",
+   "titre": "Allergic??",
+   "texte": "After two or three uses my entire face became red where I had applied it. Cannot figure out which ingredient i would be allergic to. Put Cortizone and neosporin all over my face to calm it down.",
+   "date": "2023-05-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Mel",
+   "titre": "Like the product, hate the packaging",
+   "texte": "This moisturizer is a great light moisturizer for acne prone skin. It isn't the most hydrating, I'll notice around my dry areas my skin will feel tight after a little while after applying, so I just use another lotion in combination for those, problem solved. My only complaint is the packaging. Mine stopped being able to pump anymore product when I was barely half way through. I had to cut it open to start using the rest. Having a pump is great, but only when it can actually pump all the product.",
+   "date": "2021-10-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nikki",
+   "titre": "Best for sensitive, acne prone skin",
+   "texte": "I've used this for over a year and its a holy grail for acne prone skin. I usually have oily/combo skin and use this moisturizer under Matte Super Goop sunscreen. I haven't had any acne in soo long! I live in a high humidity area and it works great!",
+   "date": "2024-01-11",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "DinaNYC",
+   "titre": "Stick with it, SO Worth it",
+   "texte": "Initially, very underwhelmed w/this product. Decided to finish my small sample tube & wow! In my 50's w/normal-dry skin & VERY acne prone. I never get full blown whiteheads nor blackheads just a few congested / closed comedones (always same spot). In almost 3 weeks, no returning comedones plus comfortable hydration & smoooooth skin. Be patient & of you have that stubborn/mild acne on NOT oily skin, this is for you!",
+   "date": "2023-04-14",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lauren",
+   "titre": "Work great on my acne",
+   "texte": "Work great on my acne prone skin! Can slightly dry your skin out due to the salicylic acid so I would recommend using this in the morning and using another more hydrating moisturizer at night (or vice versa). Overall love this product if you have acne prone skin!",
+   "date": "2022-06-29",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jamie",
+   "titre": "Love it!",
+   "texte": "I love salicylic acid & this is a great moisturizer that has helped keep my skin calm and break out free! Definitely can be a little intense when you first start using it, i had a bit of irritation, but it eventually cleared up after a week or 2 of use. Would not recommend for people with sensitive skin. But for me, this has been a life saver!",
+   "date": "2025-05-16",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

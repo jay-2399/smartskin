@@ -1,0 +1,167 @@
+{
+ "ref": "xlsImpprod6200759",
+ "asin": null,
+ "pid": "xlsImpprod6200759",
+ "source": "ulta",
+ "nom": "Mario Badescu Cucumber Cleansing Lotion",
+ "note": 4.46,
+ "nbAvis": 259,
+ "lus": 80,
+ "collectes": 111,
+ "segments": {
+  "oily": "Many reviewers with oily skin report the toner controls shine and reduces excess oil, though a few say it is drying or irritating for their oily/sensitive combination.",
+  "dry": "Reviewers with dry skin are split: several say it left their face too dry or stripped, while others with dry or even 'insanely dry' skin report no over-drying and improved softness, especially when followed by a moisturizer.",
+  "combination": "Combination-skin reviewers generally describe it as balancing, clearing blemishes and controlling the T-zone without leaving skin tight.",
+  "sensitive": "Sensitive-skin reviewers are divided: some describe redness, bumps, and an allergic-type reaction, while others say it is gentle, non-irritating and even good for sensitive skin.",
+  "mature": "A couple of reviewers in their late 40s to mid-50s with mature skin report it keeps oil in check without drying or worsening wrinkles.",
+  "normal": "One reviewer with mixed/unpredictable skin says regular use left her skin feeling more balanced and 'normal' overall."
+ },
+ "concerns": {
+  "aging": "Two mature reviewers (mid-40s to mid-50s) report it controls oil without increasing dryness or visibly worsening wrinkles.",
+  "dehydration": "Opinions split sharply: several reviewers report the alcohol content leaves skin dry, tight or stripped, especially with twice-daily use; others, including some with dry skin, say it does not dry them out at all if paired with a moisturizer.",
+  "redness": "A small number of reviewers note reduced redness or calming of irritated skin, but one reviewer reports the opposite — bright red, hot, itchy cheeks after first use.",
+  "barrier": "One reviewer describes a reaction resembling rubbing-alcohol damage and another an allergic-type flare, while most others report no irritation and describe the product as gentle.",
+  "spots": "Multiple acne-prone reviewers report fewer or smaller breakouts and faster healing of pimples, including one describing it clearing a cystic back breakout; one reviewer with hormonal acne says it did not clear her acne at all.",
+  "blemishes": "Several reviewers note visibly smaller pores and clearer skin over weeks of use; one reviewer instead saw scarring after a bad reaction.",
+  "oiliness": "Oily-skin reviewers most consistently report reduced shine and a mattified T-zone with regular use."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong alcohol smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cucumber scent liked by many",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin feeling refreshed and clean",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains drying alcohol/propylene glycol",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration",
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Bottle lasts a long time, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes leftover makeup after cleansing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Large size often out of stock",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Ally",
+   "titre": "Allergic reaction?",
+   "texte": "This product messed me up. Idk what is in it but as far as I know I'm not allergic to anything. I used it before bed last night and woke up with BRIGHT red, bumpy, hot, itchy cheeks. All I want to do is ice my face. I've never had issues with being sensitive and have always had pretty good clear skin. This just hurts.",
+   "date": "2019-01-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kristina",
+   "titre": "Would not repurchase",
+   "texte": "So i feel the efficacy of this product is contingent on personal skin goals. In my case, I tried this because im in my late 30's and have been struggling with hormonal acne, mostly on my chin/jawline area. This has not cleared up any of my acne, all it did was dry out my face. However, I feel that this toner would be great for a teen or someone who is just trying to control an oily face, not someone with active hormonal acne. Its definitely not for anyone whose skin is dry/combo because all it will do is strip the moisture from your skin. I use the acne exfoliating toner by Peach Slices now and it is much more effective for me.",
+   "date": "2025-09-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mimicella",
+   "titre": "The glow from within",
+   "texte": "My friend gave me a sample bottle of Mario Badescu's rosewater spray and it did wonders so I decided to try this toner as a suggestion from a brand representative in the Ulta store. Where has this toner been all my life?!! I absolutely LOVE this toner. I never go a day without using it. I even bought it on an overnight trip just because I was afraid if I didn't bring it, my skin would suffer. I had severely oily acne-prone skin and over the past 2 years, it has transitioned into being less acne-prone and combo oily in the my t-zone. I had been dealing with dryness and figured it would help. Since using this, I have had significant reduction in dryness on my face, I have had less breakouts, my skin glows, it feels softer and there are times where it moisturizes so well that I can skip my moisturizer . I sweat a lot and my face still glows from within when I'm sweaty. I don't buy expensive products but I don't care how much it costs, I will buy this toner over and over. It is literally the best facial product I could have purchased. If you're debating, just buy it. You will not regret it.",
+   "date": "2018-09-04",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jane",
+   "titre": "Cured my acne",
+   "texte": "I have super dry sensitive skin with horrendously bad hormonal acne. This product is my new holy grail — got rid of almost everything.",
+   "date": "2021-01-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "em",
+   "titre": "never had such refreshed skin",
+   "texte": "I love this product!!! I have super dry skin and was scared this product would dry my skin out more if used regularly. I received a sample of this and began using it at nights for about a week and a half and oh wow my skin felt so clean! I always took off my makeup and then used this applying with a cotton pad and I was amazed by how much makeup and dirt it still took off of my face. This does make your skin feel very dried out but if you follow it with a moisturizer or lotion (I used pond's moisturizing cream) then it doesn't leave any long term dryness! I've noticed my skin be so much clearer since I started using this and I've actually repurchased it 3 times since I originally had the sample. I cannot recommend this product enough!!!!!",
+   "date": "2019-06-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yazzy",
+   "titre": "My skin thanks me!",
+   "texte": "I love the smell of this so much as does my husband he thinks it smells like baby powder but the results I have gotten our amazing my skin feels so good when I apply this product and the redness on my cheeks definitely tones down a lot I had bought the 8 ounce bottle and when I run out I will probably buy the 16 ounce!",
+   "date": "2018-09-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Michy T",
+   "titre": "Prevents breakouts",
+   "texte": "I received a 1 fl oz. sample and really liked the tiny bottle! (great for traveling) I have acne prone skin and ever since I started using this I definitely noticed that I'm having fewer breakouts. My t-zone was also not as shiny when I used this. It does contain alcohol but feels gentle on the skin.",
+   "date": "2018-05-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

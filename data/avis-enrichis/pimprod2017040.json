@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2017040",
+ "asin": null,
+ "pid": "pimprod2017040",
+ "source": "ulta",
+ "nom": "Aveeno Calm + Restore Nourishing Oat Facial Cleanser",
+ "note": 4.23,
+ "nbAvis": 445,
+ "lus": 78,
+ "collectes": 123,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin report the cleanser is gentle, non-stripping and generally non-irritating, though a minority describe burning, stinging, or an allergic-type eye reaction (feverfew/ragweed sensitivity).",
+  "dry": "Dry-skin reviewers say it cleanses without stripping or tightening and leaves skin soft and hydrated, though a couple note it can feel drying with frequent use or in summer.",
+  "combination": "One reviewer with normal-to-oily combination skin found it kept oil at bay while still cleansing gently.",
+  "oily": "A reviewer with oily skin reports the cleanser leaves the face soft and hydrated without excess grease, though it is not marketed or widely tested for oil control.",
+  "mature": "No substantive mentions of mature skin appear in these reviews."
+ },
+ "concerns": {
+  "barrier": "Several reviewers with compromised or damaged skin barriers, eczema, or inflamed skin say it is soothing and non-stripping and helped with tightness and moisture-barrier repair; one reviewer with eczema experienced a fierce burning sensation around the eyes.",
+  "redness": "Multiple reviewers note reduced redness and calmer skin after use, with no reports of increased redness.",
+  "dehydration": "Most reviewers describe it as hydrating and non-drying, leaving skin soft rather than tight; a few say it can be drying if overused or in certain seasons.",
+  "spots": "Reviewers are split: several with acne-prone skin report no new breakouts or fewer whiteheads, while others describe new small breakouts or whiteheads, one attributing it to incomplete sunscreen removal.",
+  "blemishes": "One acne-prone reviewer describes cystic-type breakouts triggered by the product, while several others report no breakouts at all and even a calming effect during flare-ups.",
+  "oiliness": "One reviewer with oily skin says it keeps oil at bay without a greasy residue; oil control is not a common theme otherwise.",
+  "aging": "No reviewers discuss anti-aging effects or mature-skin-specific outcomes for this cleanser."
+ },
+ "aspects": [
+  {
+   "libelle": "Creamy, non-foaming texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lack of lather bothers some users",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Poor makeup removal, needs double cleanse",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump packaging convenient and mess-free",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Defective or clogged pump on some units",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Starvingartist",
+   "titre": "Feverfew allergy",
+   "texte": "I used this as a cleanser for sensitive skin. I developed what I thought was an eye infection. Extremely itchy eyes, red swollen beyond words. After 3 eye exams and a few different prescribed eye drops treatments I started eliminating skin products. The third ophthalmologist told me my eyes were having an allergic reaction. After doing research I saw that this product contains feverfew and because it is in the ragweed family it can cause allergic reactions. I tossed it and the start of my use of the product coincided with my eye irritation. After a few days my eyes recovered",
+   "date": "2025-09-16",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Rose",
+   "titre": "Caused Burning on Sensitized Skin",
+   "texte": "I wanted to love this cleanser so much, but it did not work for me. I have eczema on my face, and any time I used it, the cleanser would cause a fierce burning sensation around my eyes and any skin that was remotely irritated. Odds are that there's an ingredient or two in it that my skin isn't friendly with. On skin that wasn't already sensitized, the cleanser was moisturizing and was effective at cleansing my skin without stripping it. It does not foam at all, so if a foaming sensorial experience is important to you, this probably won't be a cleanser you enjoy.",
+   "date": "2026-04-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melanie",
+   "titre": "Sensitive Skin Friendly!",
+   "texte": "As a person who has extremely reactionary, dry, acne prone skin, this cleanser saved my skin! No rashes or burning! I dont wear a lot of foundation (due to my reactions to most products) but I can attest that it takes off eye makeup and non-waterproof makeup with ease. This is not a product that lathers if that is something you look out for!non",
+   "date": "2024-12-28",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ps0804_7600",
+   "titre": "So gentle on skin, yet cleanses thoroughly!",
+   "texte": "As someone who suffers with acne and sensitive skin, this cleanser has been a life changer! It is made with pure ingredients that will not irritate your skin, does not foam up and has no fragrance- yet my skin feels so soft and clean!! This is a god send!! Couldn't live without it now!!",
+   "date": "2025-08-11",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "AlondraM",
+   "titre": "Calm skin, no breakouts, and the gentlest cleanse",
+   "texte": "I've been loving Aveeno Calm + Restore Nourishing Oat Cleanser! The creamy, non-foaming texture feels super gentle and doesn't strip my skin. It rinses easily without needing a lot of product (great volume per use), and leaves my face feeling soft, hydrated, and calm.It's gentle enough to use around my eyes without irritation or stinging. Since using it, I've noticed less redness and no new breakouts, which is a big plus for my sensitive skin. I also appreciate that it's fragrance-free, hypoallergenic, and non-comedogenic.",
+   "date": "2026-02-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "titam7_8390",
+   "titre": "Aveeno oat cleanser",
+   "texte": "I bought the Aveeno Oat Cleanser hoping it would be a gentle daily cleanser, but unfortunately, it didn't work for my skin. After a few days of use, I started noticing small breakouts all over my face. It didn't feel harsh or drying, but it just didn't agree with my skin at all. I really wanted to love it because the texture felt nice and it's marketed as calming, but it actually made things worse for me. If you're acne-prone, I'd recommend patch testing first.",
+   "date": "2025-07-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "sammmyf_8269",
+   "titre": "Doesn't cleanse all that well",
+   "texte": "This cleanser is very very gentle, a little too gentle, where it makes you question if it's actually cleaning your face or not. I'm pretty sure it made me breakout in whiteheads because it wasn't removing my sunscreen effectively. This cleanser might be better for only AM use, when you need a lighter cleanse, this definitely would not take your makeup off.",
+   "date": "2025-06-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,157 @@
+{
+ "ref": "pimprod2050607",
+ "asin": null,
+ "pid": "pimprod2050607",
+ "source": "ulta",
+ "nom": "RODAN + FIELDS Redefine Multi-Function Eye Cream for Undereye Wrinkles + Crow's Feet",
+ "note": 4.65,
+ "nbAvis": 15009,
+ "lus": 58,
+ "collectes": 73,
+ "segments": {
+  "sensitive": "Several reviewers with sensitive skin or sensitive eyes report the cream does not irritate, itch, or sting, though one reviewer with unspecified skin type experienced redness under the eyes with every application.",
+  "mature": "Reviewers in their 50s, 60s and 70s report smoother, firmer, or brighter eyelid skin, reduced crow's feet, and less droopy or hooded lids, though a few in this age range saw no visible change."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visibly fewer or less noticeable fine lines and wrinkles around the eyes, smoother and firmer eyelid texture, and improvement in crow's feet, sometimes within one to two weeks; several others used it for weeks or months and saw no improvement in wrinkles or lines.",
+  "dehydration": "Multiple reviewers describe the cream as hydrating and moisturizing under the eyes without feeling heavy or greasy; one reviewer felt it did not moisturize as well as other creams she had used.",
+  "redness": "One reviewer reports the cream caused redness under the eyes with every application.",
+  "barrier": "Reviewers describe the cream as non-irritating and gentle, including for sensitive skin and sensitive eyes, though one reviewer had to stop using it because it made her eyes teary.",
+  "blemishes": "One reviewer reports a small eyelid skin tag appeared to shrink with use; this is an isolated observation not echoed by others."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, silky application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No noticeable scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to jar size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount of product per jar",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult subscription cancellation",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible results for some users",
+   "polarite": "neg",
+   "concerne": [
+    "aging"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Bass",
+   "titre": "Not for me",
+   "texte": "The texture is not the issue. But some reason every time I applied, I had redness under my eyes.",
+   "date": "2026-03-07",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Jennifer R",
+   "titre": "Not worth the hype",
+   "texte": "Nice cream. Doesn't really work with my hooded eyes. It doesn't really moisturize under eye like my other Medi grade skincare. No smell so that is nice. Still on the hunt for a cream that actually works.",
+   "date": "2026-04-16",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Skeptical in Texas",
+   "titre": "Skeptical followed by amazed",
+   "texte": "I was skeptical on making such a pricey purchase on what seems to be a small pot of product. Rhodan and Fields came through again with a product thst does what it says. Over 50 and the skin on my eyelids are crepey and are accentuated when adding any eyeshadow with the least bit if shimmer. Within days of using the product the texture of my eyelids became noticeably smoother. One of yhe guys in my office is still trying to figure out what is different. A small detail that makes a big statement. I would have given 5 stars but the price point keeps me from that but it isnt going to stop me from purchasing the larger jar in the future.",
+   "date": "2026-04-07",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Natalie R",
+   "titre": "Doesn't irritate my eyes",
+   "texte": "This cream is wonderful for sensitive eyes. It doesn't irritate or itch and absorbs well. I feel like it hydrates better than any other eye cream I've used before. Definitely worth the money.",
+   "date": "2026-03-10",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Linda F",
+   "titre": "Great for sensitive skin",
+   "texte": "I have sensitive skin, and this product doesn't bother me, and feels refreshing.",
+   "date": "2026-03-14",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa H",
+   "titre": "I love this product. I",
+   "texte": "I love this product. I have very sensitive skin, especially around my eyes and this product does not irritate it at all. It makes my skin feel smooth and soft.",
+   "date": "2026-03-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Donna P",
+   "titre": "Eye Cream",
+   "texte": "I have been using this since 2013 -Im 63 and my crows feet are minimal!",
+   "date": "2026-03-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

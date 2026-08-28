@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2049076",
+ "asin": null,
+ "pid": "pimprod2049076",
+ "source": "ulta",
+ "nom": "cocokind Electrolyte Water Cream",
+ "note": 4.67,
+ "nbAvis": 464,
+ "lus": 80,
+ "collectes": 119,
+ "segments": {
+  "oily": "Reviewers with oily or oily/combo skin report the cream feels lightweight, non-greasy, matte or balanced, and several say it works well through summer and even winter without feeling suffocating.",
+  "dry": "Reviewers with dry skin are split: many say it is surprisingly hydrating even for dry, flaky or dry-and-sensitive skin, while a couple find it not moisturizing enough in winter or in dry/cold climates.",
+  "combination": "Combination-skin reviewers, including combo/oily and combo/sensitive, most often describe it as balanced, hydrating without greasiness, and layering well under makeup.",
+  "sensitive": "Sensitive and rosacea-prone reviewers frequently report soothing, cooling, reduced redness and no irritation, but a minority describe a severe rosacea flare-up with redness, swelling, itching and burning.",
+  "normal": "The one reviewer identifying as having normal skin (with a tendency to congestion) found it lightweight and non-greasy, with no breakout issues.",
+  "mature": "A reviewer in her late 30s and another 57-year-old repurchase repeatedly, describing it as hydrating and non-irritating for older skin, though this is not a heavily represented segment."
+ },
+ "concerns": {
+  "aging": "The few reviewers who mention age (30s-50s) report the product as hydrating and gentle for their skin without complaints tied specifically to aging.",
+  "dehydration": "Most reviewers describe the cream as hydrating, plumping and long-lasting even for dry or dehydrated skin; a few note it is too light to be sufficient in winter or very dry/cold climates.",
+  "redness": "Several reviewers, including those with rosacea or general redness, report visible calming and reduction of redness; however, two reviewers describe a rosacea flare-up with new redness, swelling and burning after use.",
+  "barrier": "Multiple reviewers credit the cream with repairing or supporting a damaged or compromised skin barrier, including post-surgery and after other product irritation, though one reviewer reports the product itself destroyed her barrier during a reaction.",
+  "spots": "Reviewers dealing with dry, flaky patches or dead-skin-like spots report these visibly improving or disappearing with regular use.",
+  "blemishes": "Most acne-prone reviewers report no new breakouts and some clearing of hormonal or general acne, but a notable minority describe significant breakouts, whiteheads, cystic-like pimples or fungal-acne-type reactions.",
+  "oiliness": "Oily-skin reviewers commonly report the product controls shine and leaves a matte or balanced finish without adding oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy finish under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, soothing sensation on application",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Small tube used up quickly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser dispenses every last drop",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump mechanism sometimes stops working",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Insufficient richness for winter or dry climates",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Adean",
+   "titre": "Careful with Rosacea/Sensitive skin",
+   "texte": "I thought this would be my next most loved product but I wish I never tried it. I used it for 2 weeks no issues. My skincare routine is very simple so I have no doubts this new step is what caused this reaction overtime. I do have some minor underlying rosacea issues but nothing extreme until I tried this product. It gave me such a bad flare up on my face. Full symtoms of redness, swelling, itching, burning, small pimple like clusters. Triggering my first severe rosacea flare up from using this product. My skin barrier is destroyed. If you dont have sensitive skin, I'm sure this product is actually really great but be careful if you know your skin is sensitive and double check the ingredients!",
+   "date": "2026-07-08",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Lauren",
+   "titre": "Not worth the hype.",
+   "texte": "I'll be so honest, I was super excited to use this. I knew it had gone viral on TikTok. And after using it the first couple of times, I genuinely thought it was pretty good. After three-ish weeks, it broke me out like NO OTHER. I generally am not super sensitive, but I'm talking, fungal acne to the MAX. My forehead, chin, and t-zone were covered in tiny or medium-sized pimples. I was so insecure, and as someone who finds skincare a fun self-care activity, it was really, really annoying. I ended up throwing it out, still half used, and went back to my Bubble/Anua combo, and my skin healed in about 5 days. Don't believe the hype.",
+   "date": "2026-04-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sita",
+   "titre": "Not for dry skin",
+   "texte": "Excellent texture and very lightweight. However, I have dry skin and I felt it wasn't moisturizing enough for me in the winter. My skin still felt dry after using a good amount of product. Might be an excellent choice for someone with oilier skin.",
+   "date": "2026-02-28",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "nannyfanny7",
+   "titre": "For all skin types…. Seriously",
+   "texte": "I have dry skin. Dry, flaky, crusty skin. A water gel was never supposed to be for me. But this one? When they say it's for all skin types, they mean it. I've been through 5 tubes already and I fear I can never be without it. It's just hydrating and juicy and wonderful.",
+   "date": "2026-02-24",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Walden",
+   "titre": "Very Impressed",
+   "texte": "Still early, but very impressed so far. I have impossibly oily skin, seborrheic dermatitis and rosacea type one. This is the only moisturizer I have found that leaves a matte appearance, reduces inflammation and controls oily skin. So glad I gave it a shot! If you suffer from similar issues I highly recommend giving this a try. If you are focused on using fungal acne safe products to help seborrheic dermatitis or oily skin then I would give this a try regardless of the fact that it isnt safe. I was concerned about the effects it would have, but I was pleasantly surprised to see it not contributing to my issues, but to also sooth and improve these difficult to treat disorders. Definitely a winner in my book! 'Â",
+   "date": "2026-05-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jessica D.",
+   "titre": "Huge fan of this moisturizer!",
+   "texte": "I love this moisturizer. It feels so light on my skin and seems to ease any redness i have. Its been great for both winter and summer weather. I have very dry skin and its been fantastic. I have also been having my very acne prone 12 year daughter use it and she loves it as well. Can't wait to try more products from Cocokind!",
+   "date": "2025-12-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "BrieC",
+   "titre": "Buy It",
+   "texte": "I L.O.V.E. this water cream! I have dry, sensitive skin with some rosacea so most \"water\" products don't work for me. I've gone through 2 tubes now - it feels cooling, soothing and hydrating! I don't know what we have to do to get it in a bigger (or jumbo) size but I would 100% buy it if it was an option.",
+   "date": "2025-12-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,163 @@
+{
+ "ref": "prod2152653",
+ "asin": null,
+ "pid": "prod2152653",
+ "source": "ulta",
+ "nom": "Dermalogica Multi-Active Toner Spray",
+ "note": 4.62,
+ "nbAvis": 1933,
+ "lus": 70,
+ "collectes": 73,
+ "segments": {
+  "oily": "One reviewer with combination/acne-prone skin found the product hydrating without adding oiliness, and another said it did not feel greasy going on.",
+  "dry": "Reviewers with dry skin are split: several say it hydrates well and relieves parched, flight- or winter-dried skin, but two others report it dried their skin out further or clogged their pores and recommend against it for dry skin.",
+  "combination": "Reviewers with combination skin describe it as balancing, calming, and a good fit alongside acne-prone or clear combination skin.",
+  "sensitive": "Most sensitive-skin reviewers call it gentle, calming, and refreshing, even a top pick for sensitive skin, but one reviewer with normally non-sensitive skin reports burning red spots and irritation and threw the product out, and another advises against use on sensitive skin.",
+  "mature": "Reviewers with mature or older skin describe it as hydrating and part of a long-standing routine, though one notes her skin has become more reactive with age and now experiences stinging."
+ },
+ "concerns": {
+  "aging": "Reviewers using it as part of an anti-aging routine describe it as helping serums and moisturizers absorb better and as a long-time staple for mature skin; no negative aging-specific effects are reported.",
+  "dehydration": "Many reviewers report a hydrating, non-drying, refreshing effect, especially in dry climates or after showering; however a couple of reviewers with dry/sensitive skin say it dried their skin out more.",
+  "redness": "One reviewer reports burning red spots on the cheeks after application; others describe a soothing, calming effect with no redness.",
+  "barrier": "Several reviewers describe the toner as prepping skin so serums and moisturizers absorb better, framed as supportive rather than damaging to the skin barrier.",
+  "spots": "No reviewer discusses dark spots or pigmentation specifically.",
+  "blemishes": "Most reviewers, including those with acne-prone or combination skin, report clearer skin, fewer breakouts, or no new breakouts; one reviewer says it clogged her pores and caused breakouts that improved only when she stopped using it.",
+  "oiliness": "One reviewer notes it hydrates without making skin oily; no other reviewer reports increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Spray nozzle too forceful",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fine, even mist when working properly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling or stinging sensation on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Refreshing, cooling feel on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Helps absorption of serums and moisturizer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting bottle, good value over time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Alcohol-like or Windex-like scent",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "sbgnc1819",
+   "titre": "Irritates Skin",
+   "texte": "I normally do not have sensitive skin at all. No product has ever irritated my skin before until this one. Shortly after applying I broke out in red spots that burned across my cheeks and the spots stuck around for a couple hours. After a few times of this happening I looked up the ingredients and there are many controversial and harmful ingredients in this product. I ended up throwing it out which is annoying because it was expensive.",
+   "date": "2025-03-16",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Lina",
+   "titre": "Feels nice on the skin but caused breakouts",
+   "texte": "It definitely feels refreshing but it clogged my pores. Everytime I took a break from this toner my skin got better. Just not for my skin type!",
+   "date": "2023-08-07",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Critic for Consumers",
+   "titre": "Don't recommend for dry skin",
+   "texte": "Maybe I missed the memo in product desription but it shouldnt be used on dry or sensitive skin. I buy new beauty products based on ratings and reviews on this site but unfortunately this product was not the 4.5 that was listed. It felt like it dried up my skin even more then it already is.",
+   "date": "2024-01-03",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Morgan",
+   "titre": "10/10 Toner for sensitive skin!",
+   "texte": "I have used this toner for 5 or 6 years now and swear by it. I have sensitive skin & combination skin, and this toner feels very refreshing and calming on the skin. Highly recommend!",
+   "date": "2024-03-29",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Regenia",
+   "titre": "Versatile product for different skin types",
+   "texte": "This toner is useful in hydrating mature skin as well as serving as a gentle toner for sensitive skin. The spray bottle manages the amount of product which is released and the contents last a very long time.",
+   "date": "2025-05-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joanna F.",
+   "titre": "Great toner",
+   "texte": "This toner is such great quality and has been a staple of my morning and evening routine for years. I find it to be a refreshing spritz after cleansing with just the right amount of tingle. I started using this toner as a teenager with acne and now as an adult with clear combination skin, it still serves me well!",
+   "date": "2023-09-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Keisha M.",
+   "titre": "My favorite toner!",
+   "texte": "The multi-active toner is my favorite toner of all time! I like to finish off with a few sprays after cleansing. It feels very calming and soothing on my dry/sensitive skin. I have been using this product for YEARS and absolutely love it.",
+   "date": "2023-09-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

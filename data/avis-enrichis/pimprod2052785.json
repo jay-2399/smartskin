@@ -1,0 +1,140 @@
+{
+ "ref": "pimprod2052785",
+ "asin": null,
+ "pid": "pimprod2052785",
+ "source": "ulta",
+ "nom": "MEDIHEAL Vita Collagen Eye Ampoule Patch",
+ "note": 4.33,
+ "nbAvis": 12,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {
+  "sensitive": "One reviewer with sensitive skin reports no reaction and some brightening under the eyes."
+ },
+ "concerns": {
+  "aging": "Reviewers mention reduced fine lines, softened wrinkles and fewer creases/wrinkles from side sleeping, including a 38-year-old who reports improvement on crow's feet and undereye lines with overnight use."
+ },
+ "aspects": [
+  {
+   "libelle": "Pilling of the serum",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Slippery, slides off face",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, smoothing feel on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Brightens under-eye area",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Sticky residue after removing patches",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large size covering under-eye and crow's feet",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Generous quantity in container, good value",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Trish",
+   "titre": "Too slippery and pills!",
+   "texte": "The serum is best overnight to fully absorb, otherwise it pills so much!! Looks like Vaseline balling up and off of my face throughout the day. The formula just needs a bit more work, I wanted to love it, but can't even return since I tossed the package :(",
+   "date": "2025-08-02",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "texture"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Monica",
+   "titre": "Brightening effect after several uses",
+   "texte": "I've used these for a few weeks now, the formula does pill if there is too much product on the patch. I love the cooling effect and I do find it does somewhat brighten under the eye. Easy to use and no reaction and I have sensitive skin. Overall does what it says and I have seen a slight improvement.",
+   "date": "2025-11-29",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Bri",
+   "titre": "Love",
+   "texte": "I do not find many products that actually help my dark under eyes. But these did! Cons is that they pill and they have so much product the slip right off your face at first!",
+   "date": "2025-11-05",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hannah",
+   "titre": "Softens wrinkles on my 38 yo face",
+   "texte": "I LOVE these things! They're a nice, large size so I can position them to cover both my undereye and my crows' feet. I choose to wear them overnight and when I wake up I don't have creases and wrinkles from side sleeping. I've noticed a reduction in the fine lines under my eyes. In regards to the reviewed who mentioned pilling, I personally haven't found a collagen product that doesn't do that (including famous brands) I would suggest using them at night and not before makeup. I hope that helps!",
+   "date": "2025-08-28",
+   "verifie": false,
+   "utiles": 30,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jnn-k",
+   "titre": "brightening",
+   "texte": "i do notice the difference, my under eyes have been less dull.",
+   "date": "2025-08-18",
+   "verifie": false,
+   "utiles": 13,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Catty",
+   "titre": "Nice design, strange ingredients",
+   "texte": "After you take the patches off and rub in the extra serum it leaves a strange layer on your skin that sort of peels or needs to be rubbed off. Im not sure if maybe my skin just doesnt absorb something in them but ive never had this happen with eye patches.",
+   "date": "2025-12-07",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": "The sample is small (12 reviews) and mentions only one explicit skin type (sensitive) plus one implied mature-skin reviewer, so segmentation by skin type is very limited."
+}

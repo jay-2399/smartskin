@@ -1,0 +1,167 @@
+{
+ "ref": "xlsImpprod4370709",
+ "asin": null,
+ "pid": "xlsImpprod4370709",
+ "source": "ulta",
+ "nom": "Philosophy Clear Days Ahead Fast-Acting Salicylic Acid Acne Spot Treatment",
+ "note": 4.31,
+ "nbAvis": 610,
+ "lus": 77,
+ "collectes": 119,
+ "segments": {
+  "dry": "Reviewers with dry skin report the product clears occasional breakouts but is drying, generally manageable with a moisturizer afterward.",
+  "sensitive": "Sensitive-skin reviewers report it treats blemishes without the burning or harshness they feared, though one still noted irritation and a rash.",
+  "combination": "One reviewer with combination/mix of dry-and-oily skin found it worked better in theory for dry skin and didn't meet her expectations.",
+  "mature": "Reviewers in their 50s-60s report it clears adult or menopause-onset acne and, in one case, brightens and tones the skin.",
+  "normal": "Reviewers without a stated skin condition mostly report fast clearing of occasional pimples overnight."
+ },
+ "concerns": {
+  "spots": "Most reviewers report individual spots/pimples visibly reduced or gone within hours to two days, especially when caught early; a few say it barely dried out or shrank their acne at all.",
+  "blemishes": "Many describe blemishes gone by morning after nighttime application; some note it works only on surface blemishes and not on deeper hormonal or cystic ones.",
+  "aging": "One mature reviewer reports her skin looks brighter and more toned with regular use, alongside acne improvement.",
+  "dehydration": "Multiple reviewers note the product dries out the skin around the treated area or the whole face if overused, though several say it does not dry the skin at all.",
+  "redness": "A few reviewers report reduced redness around blemishes, while one reported new redness/irritation after use.",
+  "barrier": "One reviewer with very sensitive skin reports irritation and a rash; several others with sensitive or dry skin report no irritation and good tolerance."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast overnight results on pimples",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Ineffective on deep or hormonal acne",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Drying to skin or treated area",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Lightweight, non-sticky, quick-drying texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenses too much or wastes product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle size relative to price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant scent and feel on skin",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "livo8",
+   "titre": "This product did not",
+   "texte": "This product did not meet my expectations as much as I was hoping! My skin is a mix between dry and oily! I think this product would work much better for those with dry skin! I would not purchase this product again but I would recommend to those with dry skin!",
+   "date": "2021-12-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "laa3",
+   "titre": "I have very dry skin &...",
+   "texte": "I have very dry skin & rarely get breakouts. I definitely don't want an acne wash, mask, cream, etc to use on my entire face. That is actually painful. This is a great spot treatment for the occasional spot that appears. Department store quality up reasonable price range.",
+   "date": "2021-01-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "member86404",
+   "titre": "I have extremely sensitive",
+   "texte": "I have extremely sensitive skin and it's hard to find a product that not only treats my problem area but also is kind to my skin. This does both! I love the minimalist packaging along with explanations on the bottle. I saw results within a week of using this and was thrilled to see my skin looking healthier. Definitely would buy again!",
+   "date": "2021-08-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jeannal2",
+   "titre": "This product is...",
+   "texte": "This product is wonderful for cystic acne I have sensitive skin and I loved that this product was not very harsh like some face products are. The packaging was great is came in a glass bottle. I seriously can not wait to try more products from this company.",
+   "date": "2020-08-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bekah D.",
+   "titre": "I have repurchased 3-4 times!",
+   "texte": "If I apply this *as soon* as I notice a small whitehead forming, it decreases the size by the end of the day and/or overnight. However, it doesn't do much for my hormonal acne that is deeper under the skin. It is clear and has that silky silicone texture. Sometimes the pump is annoying and will squirt out too much product, especially when it is almost empty. I think a squeeze tube would be better in terms of having more control over how much product is dispensed.",
+   "date": "2021-11-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gigi Daley",
+   "titre": "Best Acne Face Wash Available",
+   "texte": "This is the best acne face wash I have ever used. I never had acne until menopause and this does the trick. My face is also brighter and toned after using it regularly. You may have to start with every other day and work up to using it daily. My daughter is now also using it and her skin looks amazing.",
+   "date": "2026-04-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Joseline",
+   "titre": "Would not buy this product again",
+   "texte": "I was recommended to this product by someone who works at the store and I used it just like told to do so and I got a rash and it irritated my skin really bad.",
+   "date": "2020-06-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

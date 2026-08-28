@@ -1,0 +1,158 @@
+{
+ "ref": "pimprod2044628",
+ "asin": null,
+ "pid": "pimprod2044628",
+ "source": "ulta",
+ "nom": "Sun Bum Mini Original SPF 45 Sunscreen Face Mist",
+ "note": 4.29,
+ "nbAvis": 24,
+ "lus": 19,
+ "collectes": 19,
+ "segments": {
+  "oily": "One reviewer with oily skin reports the mist clogs pores and causes breakouts, especially with sweat, and says it is not suited for oily skin.",
+  "sensitive": "One reviewer describes their skin burning on application and reports breaking out terribly, warning others with reactive skin away from it."
+ },
+ "concerns": {
+  "spots": "One reviewer reports the product broke them out terribly after it got into their eyes and burned; another with oily skin says it clogs pores and causes breakouts when sweating.",
+  "blemishes": "Two reviewers describe new breakouts, one linking it to clogged pores on oily skin and one to a burning reaction on the face, while other reviewers report no breakout issues at all.",
+  "redness": "One reviewer reports the product burned their skin while applying, and another says it turned their eyes red and puffy after accidental contact; most other reviewers report no redness or irritation on the skin.",
+  "oiliness": "One reviewer with oily skin reports it clogs pores and leaves a greasy, sticky feeling, while several other reviewers describe the mist as light and non-greasy on their skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Burns or stings if it reaches eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Light, non-greasy feel on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, refreshing sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tropical/banana scent liked by most",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent disliked by some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Compact size convenient for travel and reapplication",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Clogs pores on oily skin",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Ida B.",
+   "titre": "Horrible eye burning",
+   "texte": "When you sweat if runs into your b eyes and is the worst burn ever. Doesn't even go away when you flush it out. So unbelievably painful. Is nice to use on on back of hands and top of feet. Wanted to love it for its slim design & that it us easy to travel with",
+   "date": "2025-04-06",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Lily",
+   "titre": "BURNED MY EYES TERRIBLY",
+   "texte": "This got into my eyes when spraying on my face and they immediatly turned red and puffy! Absolutely not it also broke me out terribly please stay away!",
+   "date": "2025-03-12",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Keneisha B.",
+   "titre": "Not for oily skin",
+   "texte": "It clogs my pores and causes me to break out. This is especially when I sweat. I try to use it sometimes though. I can't waster it.",
+   "date": "2024-10-12",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Rachel",
+   "titre": "Not for me",
+   "texte": "Smells strongly of fake banana, burned the skin while applying, left me feeling sticky and greasy.",
+   "date": "2024-05-02",
+   "verifie": false,
+   "utiles": 14,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Billy C.",
+   "titre": "I utilize Sun Bum Face",
+   "texte": "I utilize Sun Bum Face Mist & spray Sunscreen to protect my skin year round from the intense sunshine here in southern New Mexico! Their products are light, non greasy and keep my skin hydrated & nicely tan. I use them everyday I am outdoors riding my mtn bike or working in the yard. Thank you for excellent skin care products!",
+   "date": "2024-09-30",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cynthia P.",
+   "titre": "I love this mist! It's",
+   "texte": "I love this mist! It's light, doesn't feel greasy or sticky, and only a couple spritzes are needed. The smell is a little different than the usual scent but I love it just as much if not more! So beachy!",
+   "date": "2025-03-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emma G.",
+   "titre": "Great product! It was easy",
+   "texte": "Great product! It was easy to apply and kept my face from burning. Usually, I burn an hour into the sun but with this product I did not! It's great quality! I highly recommend buying.",
+   "date": "2026-07-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

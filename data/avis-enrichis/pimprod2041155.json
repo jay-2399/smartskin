@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2041155",
+ "asin": null,
+ "pid": "pimprod2041155",
+ "source": "ulta",
+ "nom": "Peace Out Creamy Gentle Exfoliating Pore Perfecting Cleanser",
+ "note": 4.76,
+ "nbAvis": 102,
+ "lus": 80,
+ "collectes": 101,
+ "segments": {
+  "oily": "Reviewers with oily skin report the cleanser removes excess oil and reduces the look of pores without drying their skin out, with several calling it well-suited to oily/acne-prone skin.",
+  "dry": "Reviewers with dry skin consistently report the cleanser exfoliates and cleans without leaving skin tight or stripped, though one reviewer felt it over-exfoliated and left her skin tight and dry.",
+  "combination": "Reviewers with combination skin report it works well on the T-zone, reducing oil and shrinking pores, and one combination-skin reviewer whose husband has regular skin found it burned on both of them.",
+  "sensitive": "Reviewers with sensitive skin repeatedly report the cleanser is gentle, cleans thoroughly without irritation, redness or dryness, and does not trigger breakouts."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers, including those with dry and sensitive skin, say the cleanser does not strip or dry their skin and leaves it soft and hydrated; one reviewer says it over-exfoliated and left her skin feeling tight and dry.",
+  "redness": "One reviewer with dry, breakout-prone skin reports reduced redness after a week of use, and another notes no irritation or redness even with sensitive skin.",
+  "barrier": "A few reviewers say the cleanser respects the skin barrier and adds a moisturizing layer without stripping natural oils.",
+  "spots": "Reviewers dealing with hormonal or occasional breakouts report fewer blemishes and calmer active breakouts over weeks of use; no reviewer reports new spots from using it.",
+  "blemishes": "Several acne-prone reviewers report clearer skin and fewer breakouts within days to a few weeks; one reviewer's cystic-adjacent active breakouts were left uncleared but also not aggravated.",
+  "oiliness": "Reviewers with oily skin report visibly less shine and oil control through the day, with pores appearing smaller and less clogged."
+ },
+ "aspects": [
+  {
+   "libelle": "Creamy, whipped texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fine exfoliating beads feel gentle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unpleasant lingering scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Doesn't foam or feel deeply clean",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning sensation on application",
+   "polarite": "neg",
+   "concerne": [
+    "combination",
+    "normal"
+   ]
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small pump/tube dispenses efficiently",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Lauren",
+   "titre": "It burned",
+   "texte": "I do not have particularly sensitive skin. It is combination. I bought it for my husband, who has very regular skin, minus a few noticeable pores on his nose and an occasionally thick beard. This stuff burned both of our skin—keeping in mind that we apply our face wash in the shower and let it sit/work on our skin while we bathe, treating our cleansers as mini masks. Usually, we don't have issues, but this one burned, so it was returned!",
+   "date": "2025-10-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Autumn",
+   "titre": "exfoliating cleanser",
+   "texte": "I wanted to like this cleanser so badly but it unfortunately did not work out for my skin. It over exfoliated my skin and left my skin feeling tight and dry. I've loved all the other products from this brand, just this cleanser didn't work for me or my husband.",
+   "date": "2024-02-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Karla",
+   "titre": "Good cleanser!",
+   "texte": "I love this cleanser! My face felt so good after using it. It gave me a natural shine, and I felt my skin so smooth. Event though I have sensitive skin, this exfoliant didn't damage my skin. It's exfoliating and I very much needed that for my clogged pores which were making my pores look bigger! I definitely will be still using in the future! Offered by peaceoutskincare",
+   "date": "2024-03-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Carmella",
+   "titre": "Esthetician Cleanser Approved!",
+   "texte": "This cleanser blew me away! I am so so impressed with how well this cleanser cleaned my pores, but did not make me feel dry! I saw a difference in my sebaceous filaments the first time I used it. As an esthetician with almost a decade of experience, I am extremely picky with skin care. I am so glad I came across the Pore Perfecting Cleanser. I have dry skin with little breakouts, and I did not have any issues with irritation or redness after. I use this at night time regimen!",
+   "date": "2024-02-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alexa",
+   "titre": "Helped clear my skin and feel moisturized!",
+   "texte": "I was given this product gifted by peaceoutskincare and decided to try it out for a week just to see how my face would react to it. I have dry skin that is acne prone and found that this product worked WONDERS! It felt so smooth on my skin and didn't feel too drying like other cleaners. I noticed that my skin had less redness and that my acne is improving a bit (obviously will take longer than a week to see a 100% change but overall my skin feels so much healthier. I use it every night in my routine!",
+   "date": "2024-02-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Duri",
+   "titre": "Love",
+   "texte": "I love the poor perfecting cleanser by peace out! Large pores and doll. Skin are my main concerns, but any product I try that addresses those issues seem to really dry out my skin, especially during the winter season I love that this cleanser helps with the issues I have, but it doesn't dry out my skin. My face feels clean and fresh.",
+   "date": "2024-02-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "",
+   "titre": "Great",
+   "texte": "As an acne prone skin girly , I am always on the hunt for a cleanser that will deep clean my pores and get all the oil and junk out of my face. I heard good things about this brand and so far so good. This was offered by peaceoutskincare.",
+   "date": "2024-02-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

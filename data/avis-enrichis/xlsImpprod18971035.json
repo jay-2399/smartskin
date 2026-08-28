@@ -1,0 +1,166 @@
+{
+ "ref": "xlsImpprod18971035",
+ "asin": null,
+ "pid": "xlsImpprod18971035",
+ "source": "ulta",
+ "nom": "PEACH & LILY Glass Skin Refining Serum",
+ "note": 4.57,
+ "nbAvis": 5065,
+ "lus": 77,
+ "collectes": 103,
+ "segments": {
+  "oily": "One reviewer with acne-prone, oily skin says the serum does not cause breakouts and has improved texture and scarring.",
+  "dry": "Several reviewers with dry skin report it prevents tightness and itching and leaves skin smooth and hydrated, though one dry-skin reviewer found it slightly drying with no added moisture.",
+  "combination": "A reviewer with combination, freckled, dull/red-prone skin reports brighter, more even tone, smaller pores, and softened fine lines.",
+  "sensitive": "Reviewers with sensitive, reactive, rosacea, or eczema-prone skin mostly report calming, non-irritating hydration, but one rosacea reviewer reports it triggered pimples the next day.",
+  "mature": "Reviewers in their 30s-70s report smoother texture, firmness, reduced fine lines, and an anti-aging effect with regular use."
+ },
+ "concerns": {
+  "aging": "Reviewers report fewer visible fine lines, firmer-looking skin, and a younger-looking glow with continued use; one mature reviewer's daughter/mother also noticed reduced wrinkle visibility.",
+  "dehydration": "Most reviewers describe strong hydration, plumping, and relief from tightness and dryness; a couple of reviewers report it did not add moisture and felt drying.",
+  "redness": "Several reviewers report reduced redness, splotchiness, and calmer, more even-toned skin, including one who said longstanding redness cleared up almost overnight.",
+  "barrier": "Reviewers with reactive or eczema-prone skin report soothing, non-irritating use with no flare-ups, though one rosacea reviewer reports a reactive breakout.",
+  "spots": "Reviewers mention improvement in hyperpigmentation, discoloration, and acne scars/marks with continued use.",
+  "blemishes": "Most acne-prone reviewers report no new breakouts and some clearing of acne, but one reviewer with rosacea reports new pimples appearing after use.",
+  "oiliness": "One reviewer with oily, acne-prone skin reports the serum does not cause breakouts or excess oil; no other oiliness-specific complaints are mentioned."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast-absorbing, non-sticky texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels sticky on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight layering under makeup/moisturizer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle underfilled or runs out fast",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible glow and dewy finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No added moisture for some users",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Tiffany",
+   "titre": "Just meh",
+   "texte": "I don't get it. This is fairly expensive, yet doesn't do anything special. It comes in a lightweight plastic bottle, which honestly surprised me considering the price. It's a little drying, doesn't feel like it adds any moisture. I just don't get it. I actually like the niacinimide serum from The Ordinary much, much better. It's less expensive, comes in a glass bottle, and leaves my skin softer with more glow. I feel like I seriously wasted my money :(",
+   "date": "2026-05-30",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Asami H.",
+   "titre": "I feel the active ingredients",
+   "texte": "I have rosecea so I have super sensitive skin. My skin felt some reactive ingredients inside and it gave me pimples the next day.",
+   "date": "2026-01-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emmy",
+   "titre": "Love this but it's pricey",
+   "texte": "Ive gone throigh a fee bottles of this serum and I absolutely love it! I feel like its reslly improved my texture, acnes marks/scars and hydration. My skin is always so plump after I use it. I have acbe prone skin and its oily but this doesn't break me out. I genuinely think it has improved my skin and I don't have any complaints other than the price.",
+   "date": "2026-01-24",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Angelina",
+   "titre": "WOW!",
+   "texte": "I wish I took a before and after picture ! I didn't have high expectations but wow !!! I hsve combination skin, pale with freckkes my skin always looks dull and red . Ive been using Clinique's three step skin care line for years and i love it i finish off with this peach lilly glass skin and my skin tone is beautiful!! All one color I look bright and refreshed smaller pores my fine lines are clesring up . Love this product",
+   "date": "2026-01-19",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katie",
+   "titre": "My Holy Grail",
+   "texte": "This serum along with the matcha pudding moisturizer are my HG. I have struggled with splotchiness and redness for years. I was considering trying a snail mucin product but can't get over the ick factor, but I heard that this is very similar. My skin cleared up basically overnight and just keeps getting better the longer I use this. A little goes a long way and I only use two pumps for my entire face. It really has been helping me achieve glass skin.",
+   "date": "2025-12-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kate P.",
+   "titre": "Can't live without it",
+   "texte": "I have small pores, dry skin and glass skin refining serum has been a game changer for me. It really makes the difference in preventing dryness. Would not make it to February without having to put olive oil on my face to stop the tightness and itching - now I can.",
+   "date": "2026-03-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MUA Review",
+   "titre": "MUA Review",
+   "texte": "My mature sensitive rosacea reactive skin loves this serum. I have used this morning and night for a couple years. It is a quickly absorbing, hydrating, soothing, anti-aging drink of water for my face.",
+   "date": "2026-03-14",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

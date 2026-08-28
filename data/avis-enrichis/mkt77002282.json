@@ -1,0 +1,167 @@
+{
+ "ref": "mkt77002282",
+ "asin": null,
+ "pid": "mkt77002282",
+ "source": "ulta",
+ "nom": "Lancer Skincare Advanced Retinol Treatment",
+ "note": 4.87,
+ "nbAvis": 264,
+ "lus": 75,
+ "collectes": 81,
+ "segments": {
+  "dry": "Dry-skin reviewers describe the treatment as somewhat drying and prone to causing peeling or tightness, but several say pairing it with a moisturizer or reducing frequency keeps it manageable while still smoothing texture and softening fine lines.",
+  "sensitive": "Sensitive-skin reviewers are split: several report no irritation, redness or burning at all and call it gentle, while others describe retinol burn, flaking, or having to cut back to twice a week before their skin adjusted.",
+  "mature": "Reviewers who mention aging or mature skin (ages roughly 37 to 82) report visible softening of fine lines, improved firmness and glow, though some in this group also report peeling or dryness during the adjustment period."
+ },
+ "concerns": {
+  "aging": "Most reviewers using it for aging concerns report fewer or less visible fine lines, wrinkles, and improved firmness or plumpness over weeks to months of use; a few say it is too early to judge results.",
+  "dehydration": "Several reviewers note the product itself can be drying, causing tightness or flaking, and recommend layering a moisturizer or reducing frequency; others report no dryness at all, especially when paired with a Lancer moisturizer.",
+  "redness": "Many reviewers report no redness or irritation even as sensitive-skin users, but a minority describe redness, burning, or a 'retinol burn' reaction, especially when starting with too much product or using it too frequently.",
+  "barrier": "A few reviewers describe temporary compromised skin — peeling, flaking, tightness, or an overall 'retinol uglies' phase — that several say resolved after adjusting frequency or amount, though one reviewer had a severe reaction requiring urgent care after misuse.",
+  "spots": "Reviewers report fading of dark spots and improved evenness of skin tone, including brown spots and post-acne marks, with some seeing results as quickly as overnight or within two weeks.",
+  "blemishes": "A couple of reviewers report the product helps clear breakouts and reduces redness of existing blemishes with consistent use.",
+  "oiliness": "No reviews in this set discuss oiliness or oil control."
+ },
+ "aspects": [
+  {
+   "libelle": "Lotion-like, easy-to-spread texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires very small amount per use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Initial peeling or flaking phase",
+   "polarite": "neg",
+   "concerne": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Risk of burning if overused",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Pleasant scent, some note lavender",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Missing samples with order",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting bottle, good value per use",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Geri",
+   "titre": "It is a little drying",
+   "texte": "It is a little drying for my skin. Being 82yrs. young and living in Colorado does not help. I have to use very little a couple of times a week. I have experienced some peeling and redness but definitely it improved the appearance of my skin. I am very fortunate to have good skin and have over the years received many compliments how good my skin looks.",
+   "date": "2021-12-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa",
+   "titre": "I'm in love with Lancer's",
+   "texte": "I'm in love with Lancer's retinol treatment! I've purchased this 5 times now and I've been using it consistently. I have dry skin, I'm 37 years old and my skin looks pretty good as far as aging goes however I have some fine lines under my eyes, on my forehead (from rolling my eyes so many times when I was younger I'm sure!) and also I want to prevent any lines around my mouth area. Since I started using retinol, I DID get the \"retinol uglies\" along with some peeling at first but once that subsided, I had no issues. Sometimes I use it every night, other weeks I'll alternate with Lancer's glycolic acid or the Vitmain C w/ retinol and I couldn't be happier. I don't even wear makeup anymore I'm so happy with my skin! I've tried so many products and I always come back to Lancers they're staples in my skincare routine and I can't go without this retinol. It's more like a lotion consistency for me. Not so much like a usual serum would be from other brands and that's one of the reasons I love it. I use cotton pads to apply it most of the time because all of the actives I use bothers my hands that can get very dry easily, so I'm probably wasting product by doing that, but it's really easy to apply, there's no scent at least that I've picked up on and I trust this brand since it's Dr. Lancer's brand. If you're thinking about it, buy it and give it a try \"\" you won't regret it. I have 5 or 6 of Dr. Lancer's products that are in my forever skincare bundle that I use daily and I've falle",
+   "date": "2021-07-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anne",
+   "titre": "This is powerful stuff. I",
+   "texte": "This is powerful stuff. I have used it once a week or less for the last year. Only because I wasn't sure if it did anything at all. Last week I decided to use it for a few days in a row and wow, I had a very surprising reaction. I noticed my forehead was starting to flake and around my eyes even though I didn't put it on my eyes. Long story short, I got out of the shower on the 4th day and went to apply my normal Lancer Nourish and my skin was on fire. Like acid. I washed it off but I couldn't use any of my moisturizing for about 4-5 days since it would burn. I think for me, my skin is sensitive to it, but I know, if I am careful and only use it occasionally, it is probably doing a lot of good work. I've used Lancer products for about 15+ years and never had an experience like this. Use with care until you know how it reacts.",
+   "date": "2024-11-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emily",
+   "titre": "I love this product! It",
+   "texte": "I love this product! It is the first retinol treatment that has proven effective for my skin. I see overnight results on my dark spots from acne and with consistent use, it really does fade those spots to almost nothing. I'm on my second bottle and a little goes a long way. It didn't cause me any irritation and I use it about every night.",
+   "date": "2023-12-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kiersten",
+   "titre": "I have very sensitive skin,",
+   "texte": "I have very sensitive skin, so I have eased into this product only using it twice a week. I'm loving the results I've had so far! Definitely causes some dryness and peeling, but that is to be expected just starting a retinol. I'm now in week three of using it and my skin has calmed down quite a bit. I will definitely re-order this.",
+   "date": "2024-04-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tara",
+   "titre": "I'm addicted to this treatment.",
+   "texte": "I'm addicted to this treatment. I wake up with radiant soft skin. My dry, sensitive skin loves this stuff. The texture of my skin has smoothed out and my deep forehead wrinkles are less noticeable. Just buy it!",
+   "date": "2022-01-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth",
+   "titre": "Amazing",
+   "texte": "I have super sensitive skin when it comes to retinol but this goes on great, smells, good, easy to apply, and I can feel it working without the redness and irritation I get from other brands. Love this.",
+   "date": "2023-08-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

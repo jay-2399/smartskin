@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2043769",
+ "asin": null,
+ "pid": "pimprod2043769",
+ "source": "ulta",
+ "nom": "Peter Thomas Roth Peptide Skinjection Amplified Wrinkle-Fix Serum",
+ "note": 4.22,
+ "nbAvis": 82,
+ "lus": 79,
+ "collectes": 79,
+ "segments": {
+  "dry": "Dry-skin reviewers report the serum absorbs quickly without irritation, though one notes it should be used only about 3x/week and one describes the reformulated version as drying and stinging.",
+  "sensitive": "Sensitive-skin reviewers, including one with sensitive/acne-prone skin and one with combination-sensitive skin, report no irritation, redness, or breakouts.",
+  "combination": "The one combination-skin reviewer with sensitivity reports the serum did not irritate her skin and absorbed with no residue.",
+  "mature": "Mature-skin reviewers (40s-50s and older) report visible softening of wrinkles, firmer and smoother skin, and consider it suited to their age group, though one 60-year-old saw no change after two weeks.",
+  "oily": "The one reviewer describing very oily, acne-prone skin had not yet seen results and expressed hope it would not cause breakouts; another separately notes it left no oily residue."
+ },
+ "concerns": {
+  "aging": "Most reviewers report visibly softer fine lines, smoother texture, and firmer skin within one to several weeks, especially around eyes, forehead, and smile lines; a few long-term users saw no noticeable change in wrinkles after 12 days to two weeks, and several state the reformulated version is far less effective than the original.",
+  "dehydration": "Reviewers commonly report increased hydration, plumpness, and smoother makeup application; one reformulation complaint describes the new version as drying and stinging instead.",
+  "redness": "One reviewer explicitly reports no redness or irritation after use; no other redness-specific complaints appear.",
+  "barrier": "A couple of reviewers report the serum stabilizes and strengthens the skin barrier while adding nourishment without feeling heavy.",
+  "spots": "One reviewer reports the serum brightened her skin tone over a few months; another patch-product reviewer notes it helps with uneven tone.",
+  "blemishes": "One reviewer with acne-prone, oily skin was using it hopefully to avoid breakouts but had not reported results yet; no reviewer describes new breakouts from the standard serum, though one reviewer of the reformulated product describes burning, itching, and textured patches.",
+  "oiliness": "Multiple reviewers state the serum does not feel oily or greasy and leaves no oily residue after absorption."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast, lightweight absorption",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gritty or grainy texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Refillable, eco-friendly packaging concept",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump and refill mechanism fails to dispense",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small product amount for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Reformulation seen as worse than original",
+   "polarite": "neg",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "No fragrance",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Epj",
+   "titre": "Horrible",
+   "texte": "This product is burning off my face. I have weird patches of skin and its itchy and textured now",
+   "date": "2024-06-03",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "CCRA",
+   "titre": "you replaced my favorite serum with this!",
+   "texte": "You replaced my favorite serum, the wrinkles resist serum with this terrible product! the new version is drying, it stings and makes my skin feel and look dryer and older.",
+   "date": "2024-11-13",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah",
+   "titre": "Amazing",
+   "texte": "Im so confused by all the negative reviews bec this product works amazingly well with my sensitive, acne prone skin. I had initially recieved it as a sample from another purchase and the difference its made in my skin, even with just a handful of uses, is undeniable. My forhead and 11 lines are less prominent and my skin is more even and glowy. I love it",
+   "date": "2024-09-01",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maaesh123",
+   "titre": "Great serum for aging skin!",
+   "texte": "This peptide serum is great for preventing new lines and improving skin texture in aging skin. The concentrated amount of peptide does its job to improve wrinkles and prevent new ones from forming. I have combination sensitive skin and this serum didn't irritate it. It also soaked in fast and didn't leave any residue. I highly recommend adding this serum to your routine! I received this product complimentary from peterthomasroth.",
+   "date": "2024-08-10",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jul2",
+   "titre": "great",
+   "texte": "I'm 20 years old, but I'm going to use it because I have marks on my face from my eyes and mouth from laughing so much, my skin is veryyy oily, extremely oily, and I have acne-prone skin, I hope it doesn't make my skin break out. gifted by peterthomasroth",
+   "date": "2024-07-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "alexssse",
+   "titre": "Good peptide product!",
+   "texte": "Gifted by peterthomasroth. I have always wanted to try the peptide product, and what makes it better comes from the brand I trust! I have dry and sensitive skin, this product works well on my face, I used as part of night routine, it absorbs quickly.",
+   "date": "2024-07-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Natty13",
+   "titre": "Great for dull skin",
+   "texte": "I was gifted by Peter Thomas Roth The Peptide Serum for review. The Peptide Skinjection is very effective, you don't need more than 3x a week if your skin is dry. The serum is creamy and a bit gritty but it doesn't irritate or scratch the skin. I applied moisturizer after and was impressed with results within a couple days. The lines around my eyes had decreased and I had less puffiness under eyes. I would definitely recommend this serum for those over 40.",
+   "date": "2024-08-04",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

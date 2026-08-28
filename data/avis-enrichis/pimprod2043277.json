@@ -1,0 +1,160 @@
+{
+ "ref": "pimprod2043277",
+ "asin": null,
+ "pid": "pimprod2043277",
+ "source": "ulta",
+ "nom": "Sun Bum Daily 50 Face Gel",
+ "note": 4.54,
+ "nbAvis": 215,
+ "lus": 80,
+ "collectes": 122,
+ "segments": {
+  "oily": "Reviewers with oily or oily/combination skin report the gel absorbs without greasiness, wears matte under makeup, and one notes touch-ups were needed by end of day.",
+  "dry": "Reviewers with dry skin are split: some find it hydrating and a good layer under other products, while one says the gel consistency does not moisturize enough, especially in winter.",
+  "combination": "Combination-skin reviewers describe it as lightweight, non-clogging, and good under makeup without creasing or caking.",
+  "sensitive": "Sensitive-skin reviewers generally report no irritation and light or no fragrance, though one suspects it may have contributed to a breakout and is not fully sure.",
+  "mature": "One reviewer identifying as older (57) reports it as her top choice among many tested daily sunscreens, smooth and non-sticky under makeup."
+ },
+ "concerns": {
+  "aging": "One long-term user (57) reports it as her preferred daily sunscreen for wearing under makeup, with no negative skin effects mentioned.",
+  "dehydration": "Some dry-skin reviewers find it sufficiently hydrating and even preferable to lotion formulas that crease; one dry-skin reviewer says the gel alone does not moisturize enough, particularly in winter.",
+  "redness": "One reviewer describing sensitivity linked to redness reports no irritation from this 2-in-1 product.",
+  "barrier": "No reviewer specifically discusses barrier repair or damage.",
+  "spots": "One reviewer with freckles that emerge in sun reports satisfaction with the added SPF and moisturizing benefit; no negative reports on spots.",
+  "blemishes": "Most acne-prone reviewers report no new breakouts and matte wear, but one reviewer warns coconut oil in the formula is highly comedogenic and unsuitable for acne-prone or clog-prone skin, and another sensitive-skin reviewer suspects a breakout though is unsure of causation.",
+  "oiliness": "Many oily-skin reviewers report a matte, non-greasy finish that controls shine through the day, though one review notes the T-zone became shiny and oily after about an hour and another needed touch-ups late in the day."
+ },
+ "aspects": [
+  {
+   "libelle": "Matte, primer-like finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast, clear gel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or unpleasant scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or burns eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pilling or flaking under other products",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult tube packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus premium dupes",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jane",
+   "titre": "Acne-prone buyer beware..",
+   "texte": "This contains coconut oil as one of the first ingredients. If you are easily acne prone and/or prone to clogged pores stay away. Coconut oil is HIGHLY comedogenic. It would be nice if they created a facial sunscreen that is noncomedogenic.",
+   "date": "2024-04-03",
+   "verifie": false,
+   "utiles": 34,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Victoria",
+   "titre": "My new favorite facial sunscreen",
+   "texte": "I have been using this sunscreen for about a week now, and i am loving it! I have extremely oily skin, so it's important to me to find a sunscreen that doesnt feel heavy or greasy. It blends into my skin very easily and wears well under makeup. It hasn't broke my skin out either! A lot of people have commented on the smell of it, but i do not notice any smell while applying it to my face. I will definitely keep using this sunscreen!!",
+   "date": "2025-04-03",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "cassieb133",
+   "titre": "Light and smooth",
+   "texte": "I had never used a clear sunscreen before, so I was not sure what I was going to think of this product. I love it, and I think I'm going to be adding it to my permanent rotation for sunscreens. ￼ I was surprised that there was no fragrance, and I'm surprise that I actually really like that there's no fragrance. I have sensitive, dry skin, and this sunscreen has not irritated it at all. It went on smooth and feels light, and because it's clear there's no white streaky weirdness when you put it on. Overall, I think this is an excellent product to use if you have dry skin and are trying to protect yourself from the sun￼ :)",
+   "date": "2023-12-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "annam317",
+   "titre": "Good gel moisturizer",
+   "texte": "This moisturizer is a great gel consistency, good applicator and I like that it has spf 50. It has a slight sunscreen smell but otherwise unscented. It's not the best form of moisturizer for my skin specifically because it's so dry, and the gel consistency doesn't moisturize to the level I need, especially in the winter. However I can see myself using this more in the summer as it's lightweight.",
+   "date": "2023-12-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "cassiem60",
+   "titre": "Love the Feel",
+   "texte": "First of all, I absolutely love the way this product makes my skin feel! It leaves my face feeling so much softer than my usual moisturizer/sunscreen combo, and smells great too! My only complaint is that it may have made my face break out; however, my skin is particularly sensitive and I can't be 100% sure the gel is to blame. Overall, I will definitely give this product another chance, and definitely recommend it for those without acne prone skin.",
+   "date": "2023-12-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stephanie T.",
+   "titre": "Not Just For The Beach!",
+   "texte": "I am 57 years old and can state unequivocally that I've tried at least 50 daily, under makeup sunscreens and Sun Bum Daily gel wins hands down. It glides on deliciously smoothly and stays matte. It is not sticky or oily in the least and I apply makeup right after. I purchased it for a beach vacation and now wear it every day on my face, neck, and chest. I stock up on it to make sure I don't run out. If I could give 10 stars I would!",
+   "date": "2024-11-02",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "jae",
+   "titre": "not worth the hype",
+   "texte": "this sunscreen was peeling. i would wait ten minutes between my moisturizer and sunscreen and even then when i began application the sunscreen would immediately start to pill up. i had to wipe my hands between sections of my face and wipe off the flaky resedue. it does get you matte, but only for a bit. after one hour my t-zone would be so shiny and oily. this sunscreen is not good and too much of a hassle to keep up with. do nit waste your money on it",
+   "date": "2025-06-04",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

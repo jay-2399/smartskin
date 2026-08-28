@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2034069",
+ "asin": null,
+ "pid": "pimprod2034069",
+ "source": "ulta",
+ "nom": "Erborian Centella Cleansing Oil with Centella Asiatica",
+ "note": 4.71,
+ "nbAvis": 72,
+ "lus": 62,
+ "collectes": 62,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone skin report the oil rinses off cleanly with no oiliness or residue left behind.",
+  "dry": "Reviewers with dry skin say it removes makeup without stripping or drying, and some note dry patches improved.",
+  "combination": "One reviewer with combination/mixed (oily plus dry patches) skin found it did not leave the skin oily and left it soft.",
+  "sensitive": "Reviewers with sensitive skin, including eczema and rosacea, mostly report it is gentle and non-irritating, though two reviewers say it caused eczema and irritation.",
+  "mature": "One reviewer describes it as transformative for menopausal, fifty-something skin, leaving it smoother and plumper."
+ },
+ "concerns": {
+  "aging": "A menopausal reviewer reports smoother, plumper, healthier-feeling skin after a few weeks of use.",
+  "dehydration": "Most reviewers say skin feels soft, moisturised or hydrated afterward, and some note dry patches or tightness resolved; one reviewer found it left an oily residue rather than hydration.",
+  "redness": "One reviewer with eczema and rosacea reports less overall redness and softer, hydrated skin.",
+  "barrier": "Reviewers with eczema report the oil is soothing and does not strip or worsen dryness, though two other reviewers say the product triggered eczema.",
+  "spots": "One reviewer reports blackheads reduced and visibly shrunken pores in the T-zone with regular use.",
+  "blemishes": "One reviewer had a few extra blemishes during the first couple of weeks before skin improved; others report no new breakouts or reactions, and one reports breakouts and reactivity mostly resolved.",
+  "oiliness": "Several reviewers, including oily and combination skin, say the oil rinses away completely with no oily residue or greasy feel."
+ },
+ "aspects": [
+  {
+   "libelle": "Effective makeup and mascara removal",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rinses off without oily residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, noticeable scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent or formula irritates skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pump dispenses too much product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Runny texture, easy to spill",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, good value per bottle",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Elizabeth B.",
+   "titre": "Not for me",
+   "texte": "Was very excited for this but sadly it irritated my skin and caused eczema. The smell is slightly weird and I wasn't sure if I liked that",
+   "date": "2023-01-24",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "KaylaBM",
+   "titre": "Slightly Heavy",
+   "texte": "It's good at cleansing, but it left an oily residue on my skin when I washed it off. I think this would probably be best for a dry skin type. I have combination skin for reference.",
+   "date": "2025-01-02",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mehri M.",
+   "titre": "So far so good!",
+   "texte": "I love this product so far. This oil gives you very nourishing feeling and rinse off very easily. It keeps my face clean. Doesn't irritate my skin at all. I have oily, acne prone skin.",
+   "date": "2023-09-10",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah",
+   "titre": "Great for sensitive skin",
+   "texte": "After using the E45 cleansing foam for a while now due to very sensitive skin, I decided to switch to this cleansing oil as I am such a huge fan of other Erborian products. This oil removes make up very effectively and leaves skin feeling so moisturised - I only have to follow up with a little of the Centella Moisturiser afterwards. Can't believe how soft my face feels. I've definitely been converted! If you have sensitive skin, do what I did and order the small size first and see how you get on. I'm back on here today to buy the big bottle!",
+   "date": "2024-04-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Susan A.",
+   "titre": "Game changer",
+   "texte": "My poor fifty-something menopausal skin was quite a riot tbh! One of my Insta faves @wearsmymoney -Kate H-recommended this and what a transformation! In only a few weeks my skin feels smoother and plumper and just healthier. I have now switched to all Erborian products for my skincare routine. Cannot recommend this enough! Use with Centella Cleansing Gel for even better results!",
+   "date": "2024-08-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Naomi K.",
+   "titre": "Great for my eczema/ rosacea",
+   "texte": "I have suffered for a long time with eczema and rosacea. I always felt a bit left out only using prescription products. This was a wonderful buy and has transformed my skin. Less overall redness and it feels soft and hydrated after use. Paired with the centella cream I am never looking back!",
+   "date": "2024-06-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cin",
+   "titre": "My all time favorite night oil cleanser",
+   "texte": "Ive been using this consistently at night. If i skip its bc i didn't go to the gym. But ovverall this has helped my blackheads tremendously!! They were not kiddng that oil pulls oil lol idk i thought that was a myth.. this has proved me wrong. my pores in my t zone/nose has shrunk. Love it",
+   "date": "2026-03-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

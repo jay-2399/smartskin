@@ -1,0 +1,173 @@
+{
+ "ref": "pimprod2054908",
+ "asin": null,
+ "pid": "pimprod2054908",
+ "source": "ulta",
+ "nom": "medicube Azelaic Acid 16 Calming Serum",
+ "note": 3.24,
+ "nbAvis": 25,
+ "lus": 25,
+ "collectes": 25,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin report sharply divided outcomes: several describe burning, stinging, redness, or a damaged barrier getting worse, while others (including a self-described very sensitive/acne-prone or rosacea-prone reviewer) report no stinging or burning after the first use and visible improvement.",
+  "dry": "One reviewer with sensitive, dry skin and a damaged barrier reports severe burning and increased redness; others note the product can dry out skin or feel tight if not paired with a hydrating toner or moisturizer first.",
+  "mature": "A 40-year-old reviewer with sun spots and rosacea reports a visible brightening and smoothing effect and says it replaced two other actives in her routine.",
+  "oily": "An oily, acne-prone reviewer reports the serum controls oiliness, keeps skin calm, and reduces breakouts, with a matte dry-down finish."
+ },
+ "concerns": {
+  "aging": "The one reviewer citing mature/sun-damaged skin reports a visible improvement in tone and describes looking noticeably younger; no dissent offered on this point.",
+  "dehydration": "Multiple reviewers report dryness or tightness, especially without a moisturizer or hydrating step beforehand; others using a toner/essence first report no dryness issue.",
+  "redness": "Reports split strongly: several reviewers, including some with rosacea, describe the serum worsening redness and causing burning, while other rosacea/redness sufferers report calming and reduced redness over time.",
+  "barrier": "Reviewers explicitly warn against using this on a compromised or damaged barrier, reporting burning and irritation; those with a barrier described as healthy report no issues.",
+  "spots": "One reviewer using it as spot treatment reports acne marks/spots fading within about two days; a mature-skin reviewer reports sun spots improving.",
+  "blemishes": "Most reviewers who mention acne report significant improvement, including cystic acne calming and fewer new breakouts; one reviewer reports the opposite, an unusual new breakout she attributes to this serum.",
+  "oiliness": "One oily/acne-prone reviewer reports the product reduces oiliness and helps control breakouts; no other reviewer discusses oil control directly."
+ },
+ "aspects": [
+  {
+   "libelle": "White cast on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Absorbs well, thin oil-like finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Matte dry-down feel",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Requires layering with moisturizer or hydrating serum",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "High azelaic acid concentration valued",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for potency",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Hezzah",
+   "titre": "OUCH",
+   "texte": "I've heard great things aboht Medicube and Azaelic Acid. I have sensitive, dry skin and a damaged barrier. This is labeled as being soothing for sensitive skin, however it burned my face badly within seconds. My face is so red and hot now, even after washing with lots of cold water and applying moisturizer. If you try this, dont assume its gentle! Try a test patch first, as I should have.",
+   "date": "2026-03-11",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Banana",
+   "titre": "This serum broke me out:(",
+   "texte": "I wanted to love this product so bad. My usual anua serum was out of stock so I was recommended to use this one. Bad ideaaa! I rarely have a pimple a few times a year. This breakout im having is very unusual for me so I tracked it down to be this serum. It was the only new product ive added to my routine. I would not recommend this to anyone.",
+   "date": "2026-08-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sherry",
+   "titre": "It actually Works!",
+   "texte": "I have issues with acne all my life and tried this for the first time and saw significant improvement within days. I use it as spot treatment on the acne and it disappears in about 2 days. I tried not to use too much as it leaves a white cast, but it could be easily fixed by layering with water-based serum on top. This product has the highest concentration of azelaic acid available in the market, it is worth every penny spent.",
+   "date": "2025-11-26",
+   "verifie": false,
+   "utiles": 27,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Grace",
+   "titre": "Love!",
+   "texte": "I have VERY sensitive and acne prone skin. My skin barrier is in a good place right now, and I have had no issues with this stinging, burning, or worsening my redness. Admittedly, I was using a different azaelic acid for several months before this one. It seems to be doing well to keep my PIE under control, and I'm happy to see a higher concentration azaelic acid on the market. About half way through the bottle and will be repurchasing.",
+   "date": "2025-12-30",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarahbear",
+   "titre": "Other reviews are super misleading",
+   "texte": "Im not one to write reviews, but reviews are always part of my research before buying a product. I bought this on sale and used it before reading the reviews. Im shocked by what people have written, there is no whit cast its not matte in anyway. It stings a little at first, like any active you aren't used to. I love this product, I'm 40 sensitive skin, some sun spots and rosacea. This has made a big difference i have the oridnary Azaelic acid & niacinamide which I was low and won't be repurchasing. This replaces both of those. It feels almost like a super thin oil. Not greasy but that very moisturized feeling after. I apply it after a toner, then essence, followed with moisturizer, the medicubes PDRN capsule (also amazing!) and wake up glowing and looking 5-10 years younger. But i really want to make clear, there ia no white cast….. i dont know what they bought or qhat they are reviewing but it iant thia product. Its not drying or matte. It did sting the first time, but never after and im really sensitive cant use any form or retinol or strong actives. This is a great product!",
+   "date": "2026-07-25",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vness",
+   "titre": "Very Good",
+   "texte": "You have to use a toner prior to using this or it will dry out your skin. Do not use this on a compromised barrier as well. It does work really well for my acne prone skin. It helps deflate ehatever acne that wants to pop up",
+   "date": "2026-03-24",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mimi",
+   "titre": "For the oily girlies with acne prone skin",
+   "texte": "I love this product's application and matte dry down feel. It keeps my skin calm, less oily, and controls breakouts like a champ. However, it did tingle a little with first several uses then it stopped. This will leave a \"white cast residue\" if you use too much or spot treat. I only use about 4 drops on my face and it does not do that. I always use this product with a hydrating essence/toner/serum before otherwise it can make your skin feel dry. I will keep repurchasing this serum as it is affordable and the most accessible 16% azelaic acid product out there!!",
+   "date": "2026-07-17",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

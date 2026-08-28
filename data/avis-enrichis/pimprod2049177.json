@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2049177",
+ "asin": null,
+ "pid": "pimprod2049177",
+ "source": "ulta",
+ "nom": "TATCHA The Silk Cream Line-Smoothing & Firming Moisturizer",
+ "note": 4.63,
+ "nbAvis": 268,
+ "lus": 80,
+ "collectes": 93,
+ "segments": {
+  "oily": "Reviewers with slightly oily areas describe the cream as balancing, saying it is not oily and works well on combination zones with dry patches.",
+  "dry": "Reviewers with dry skin (including some in dry climates) report improved hydration, less tightness, and softer texture, though one dry-skin reviewer found it left her face feeling tight and not moisturized under sunscreen.",
+  "combination": "Reviewers with combination skin describe it as lightweight, non-greasy, and well-suited to balancing oily and dry zones.",
+  "sensitive": "Reviewers who identify as sensitive or rosacea-prone mostly report no irritation and reduced redness, but a minority describe stinging, redness after a few uses, or an allergic breakout.",
+  "mature": "Reviewers with mature skin (many in their 60s-70s) report softer, plumper skin and diminished fine lines, though a few say they saw no visible change in lines or wrinkles.",
+  "normal": "A reviewer with normal skin reports it absorbs well without greasiness and does not cause breakouts."
+ },
+ "concerns": {
+  "aging": "Many reviewers report smoother texture, fewer fine lines, and firmer-looking skin over weeks to months of use; a couple of reviewers say they saw no change in fine lines despite continued use.",
+  "dehydration": "Most reviewers describe noticeable hydration, plumping, and relief from dryness or itching, but one reviewer with a dry environment found it left skin tight and not truly moisturized.",
+  "redness": "Reviewers with rosacea-prone or redness-prone skin generally report calming effects and no flare-ups; one reviewer reports stinging and new redness after a few applications.",
+  "barrier": "A few reviewers mention restored comfort and balance after dryness or irritation from other products, describing quick relief of itching and dryness.",
+  "spots": "Some mature-skin reviewers mention sunspots or pigmentation persisting despite otherwise positive results, while one reports improvement in hyperpigmentation.",
+  "blemishes": "Most reviewers who mention breakouts say the cream does not cause them and is safe for breakout-prone skin, but several others explicitly report new or worsened acne, including cystic or under-skin breakouts, after starting use.",
+  "oiliness": "Reviewers describe the texture as hydrating without oiliness or greasy residue, including those with combination or slightly oily areas."
+ },
+ "aspects": [
+  {
+   "libelle": "Silky, smooth texture on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy after absorption",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to jar size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Elegant packaging and presentation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Subtle, pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or redness on first uses",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Layers well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Mandagene31",
+   "titre": "I haven't broken out like this before!",
+   "texte": "Unfortunately, this is not for me. After a short time of excitedly using this cream daily, I started getting under the skin acne, which I have never had before like this. It kept getting worse. I finally put two and two together and stopped using this product and the under skin acne stopped. I am 47 years old and have not had skin like this even when I was a teen. I try a lot if different products and do not have sensitive skin… this is a first. Could just be me though.",
+   "date": "2025-07-08",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "S. H.",
+   "titre": "not hydrating",
+   "texte": "This cream made my skin feel tight but not moisturized even with a serum underneath My skin is not particularly dry but I do live in a dry environment When I put on tinted sunblock over it my skin just looked a dry caked mess My skin is rather sensitive and this cream seemed to be fine for that condition After two uses I returned it",
+   "date": "2024-06-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gail",
+   "titre": "Best cream for sensitive mature skin",
+   "texte": "For this 75 year old woman this works wonderfully I have rosace sp prone skin and it is the works so well for me There is a slight exfoliating effect from the cream but there is no problem with my sensitive skin",
+   "date": "2024-01-20",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cheryl W.",
+   "titre": "Wonderful for Mature Skin!",
+   "texte": "I love this cream for my dry mature skin Its semi-arid where I live and this cream soaks in creating soft hydrated skin I was diagnosed with rosacea and this moisturizer doesnt cause flare-ups with my sensitive skin Great product!",
+   "date": "2024-06-18",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Staci C.",
+   "titre": "Love this cream!",
+   "texte": "The Silk Cream works great with my dry and Rosacea prone skin It isnt irritating and makes my dry skin feel and look smoother I use it with a splash of The Essence and my skins redness has diminished Thank you for making this!",
+   "date": "2024-07-13",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "T",
+   "titre": "Favorite moisturizer",
+   "texte": "I love this moisturizer I have dry skin but I also get clogged pores and break outs from moisturizers very easily and this is perfect My skin looks more lifted and smooth 1010 for me",
+   "date": "2024-07-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Fatemeh H.",
+   "titre": "AMAZING",
+   "texte": "Tatcha products are miracles I started using the silk cream and silk line about a year ago mainly for my fine line and to prevent it also but now all my acnes are gone my skin has become so smooth from being desert also my skin looks younger because how smooth it looks now I work on the sales floor and my clients constantly make comments about what did I do to my skin Thank you Tatcha!!",
+   "date": "2024-08-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,161 @@
+{
+ "ref": "pimprod2040783",
+ "asin": null,
+ "pid": "pimprod2040783",
+ "source": "ulta",
+ "nom": "Bubble Knock Out 1.8% Salicylic Acid Acne Spot Treatment",
+ "note": 4.64,
+ "nbAvis": 616,
+ "lus": 65,
+ "collectes": 98,
+ "segments": {
+  "combination": "Two reviewers identifying as combination (one also sensitive/dry) report no irritation issues and effective results on whiteheads and spots.",
+  "sensitive": "One reviewer with combination-sensitive skin reports no problems using it long-term, while another mentions tea tree oil now irritates her skin but does not report irritation from this product.",
+  "mature": "Reviewers in their 30s and 40s report it effectively treats chin, neck and hormonal spots, with one calling it her most effective product to date."
+ },
+ "concerns": {
+  "spots": "Most reviewers report individual spots or whiteheads visibly shrinking or disappearing within one to several days, including on blackheads and hormonal chin/cheek spots; a few report minimal or no visible change even after a week.",
+  "blemishes": "Many describe active blemishes and cystic-type bumps shrinking or drying out overnight to within three days, including one report of it working on milia; a small number report it stopped working after initial success or worsened inflammation.",
+  "oiliness": "One reviewer describes the product itself as leaving a sticky, gross-feeling texture on the skin, though this is not framed as increasing oil production.",
+  "dehydration": "Several reviewers note visible dryness or a white dry patch left on the skin after application, generally recommending moisturizer afterward; a few report no drying effect even with frequent use.",
+  "redness": "One reviewer reports reduced redness and swelling within hours on a painful pimple, while another reports a spot became more red and inflamed after a week of use.",
+  "barrier": "Two reviewers describe a stinging or burning sensation, particularly when applied to active breakouts rather than isolated spots or scabs forming over treated areas."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast overnight spot reduction",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or burning on application",
+   "polarite": "neg",
+   "concerne": [
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Sticky or tacky texture on skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves visible dry white patch",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Convenient applicator, avoids fingers",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube leaks or seeps from cap",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Reports of mold or floating particles",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Karli",
+   "titre": "didn't help my acne spots and molded while in the container",
+   "texte": "i used this on my acne spots and it took about a week to see very small results and in that week it made them more red & inflamed. this product also has odd white particles inside of it that keep multiplying every time i see it.",
+   "date": "2024-03-09",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Em",
+   "titre": "Love it…but doesn't work all the time.",
+   "texte": "I love this product. I've been using for two years now. For someone with a combination of oil and dry skin plus sensitive skin, I have had no problems with it. It usually only works on really bad white heads though.",
+   "date": "2024-12-19",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "rachie",
+   "titre": "Love the product, packaging needs work",
+   "texte": "I'm in my 40s and get acne on my chin and neck, and this has been helpful in treating spots. I like the applicator for the fact that you don't have to use your fingers. However, product seeps out if you stand the product upright and it eventually leaks out the cap. I have to store it upside down to avoid leakage. I'm nervous to travel with it now!",
+   "date": "2024-10-15",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amy",
+   "titre": "Can't go without",
+   "texte": "I am in my 30's, have moderate acne and struggle to get rid of my spots quickly, this product removed them within one day and kept them away. I have never found a more effective product. For reference to others looking at this product, i would say my skin type is combination. Great product, great price point!",
+   "date": "2026-03-18",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Love love love",
+   "titre": "Favorite Acne Clearing Product",
+   "texte": "The design and packaging of this product is genius. I have the easiest time applying this to my blemishes. It makes it easy to reach my back as well. I'm impressed with how quickly it shrinks my acne, even cystic. I feel like i can finally spot treat my acne effectively. The hydrocolloid pimple patches are just too expensive for the same result this product gives.",
+   "date": "2025-04-26",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jenny",
+   "titre": "So happy!",
+   "texte": "I'm so happy I tried this and that it works! I was looking for something besides pimple patches (expensive) or tea tree oil (used to work great but now irritates my skin) that would help with breakouts and this is it. It's a clear formula and I put some on my finger and then tap and rub onto a breakout once I feel it coming and it stops it and gets rid of it so fast! I don't use the applicator on the tube because it's hard to tell where you're putting the product since it's clear and that's also not the most sanitary. I highly recommend!",
+   "date": "2024-08-22",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Char",
+   "titre": "It's 50-50",
+   "texte": "Honestly i put this on a patch of pimples on my nose and it works. The downside is that it formed a scab and it burns on my skin. Another thing is that it has a weird texture on my face when i touch it it feels sticky and gross. If you have pimples and you really need it gone then I would reccomend but only if your willing to sit through some burning. Athorwise for the price, then there are better products out there",
+   "date": "2023-12-29",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

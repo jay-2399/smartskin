@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2046105",
+ "asin": null,
+ "pid": "pimprod2046105",
+ "source": "ulta",
+ "nom": "Clarins Soothing Gentle Foaming Face Cleanser",
+ "note": 4.21,
+ "nbAvis": 29,
+ "lus": 27,
+ "collectes": 27,
+ "segments": {
+  "dry": "Multiple reviewers with dry skin report the cleanser leaves the face soft, hydrated and not stripped, and one calls it a 10-year holy grail for flaky, dry skin.",
+  "sensitive": "Sensitive-skin reviewers generally describe it as non-irritating and calming, though one with sensitive/acne-prone skin reports breakouts and poor cleansing.",
+  "combination": "One reviewer with combo dry/lightly oily skin found it too gentle to cleanse deeply, resulting in a few blackheads and small whiteheads.",
+  "mature": "One reviewer credits decades of use with keeping mature skin looking younger, and another calls it excellent for sensitive, aging skin."
+ },
+ "concerns": {
+  "aging": "Two reviewers link long-term use to youthful-looking, aging skin, with no dissent reported.",
+  "dehydration": "Several reviewers with dry or dehydrated skin report the cleanser hydrates and does not strip moisture, calling it never drying; no dissent on this point.",
+  "redness": "One reviewer with mild rosacea reports the cleanser calmed flare-ups and felt gentle.",
+  "barrier": "Reviewers describe it as non-stripping and gentle on reactive or sensitive skin, though one reviewer felt residue was left behind after cleansing.",
+  "spots": "One reviewer with normally clear, sensitive skin reports new acne breakouts, while another with reactive combo skin developed a few blackheads and small whiteheads despite otherwise good tolerance.",
+  "blemishes": "Effects are mixed: most report no new blemishes, but one reviewer got small whiteheads/blackheads and another reports acne breakouts after use.",
+  "oiliness": "One reviewer reports the cleanser left their face greasy by midday, while others describe it as leaving skin balanced rather than oily."
+ },
+ "aspects": [
+  {
+   "libelle": "Creamy, soft foaming texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light, pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance disliked by some",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Feels greasy by midday",
+   "polarite": "neg",
+   "concerne": [
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Leaves residue, insufficient cleansing",
+   "polarite": "neg",
+   "concerne": [
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Reformulation frustrates longtime loyal users",
+   "polarite": "neg",
+   "concerne": [
+    "mature"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "vlad",
+   "titre": "Breakouts and Poor Cleansing — Not Worth It",
+   "texte": "I'm really disappointed with this cleanser from Clarins. I had high expectations because of the brand, but after using it, my skin actually got worse. It didn't clean my face properly and left it feeling like there was still residue. On top of that, I started breaking out with acne, which I normally don't struggle with. For a product at this price point, I expected much better results. Unfortunately, it did the opposite of what it's supposed to do. I would not recommend this to anyone with sensitive or acne-prone skin.",
+   "date": "2026-03-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "HeatMcLaugh",
+   "titre": "Ok cleanser, but very gentle on sensitive skin",
+   "texte": "I got a 1oz sample as a gift with purchase and I've tried it a few times but it's not really good for my skin. It's very gentle and my sensitive and typically very reactive skin didn't react to it at all which is great, but it didn't get deep enough for me so I did get a few blackheads and very small whiteheads after a couple days of using this. Nothing awful, but nothing great either. I have combo dry and lightly oily skin and it's usually very reactive to any new product but it didn't react at all to this, so I'm very impressed with Clarins so far. But I think I'll try the hydrating cleanser next as a step up from this one to get my pores cleaned a bit deeper.",
+   "date": "2026-05-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "FashionableCat",
+   "titre": "Nice Texture",
+   "texte": "This product left my face greasy by midday. I think their other cleansers have better formulas. The texture of this cleanser is very nice though.",
+   "date": "2026-04-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dalila",
+   "titre": "Great cleanser for dry skin",
+   "texte": "This cleanser is so amazing. It doesn't strip my skin and leaves my face hydrated but clean. I received a bunch of Clarins skincare for Christmas and I am enjoying the trying out the line. The Soothing Gentle Foaming Face Cleanser has replaced the other cleansers in my routine. I would recommend it for anyone with dry, sensitive skin. So hydrating.",
+   "date": "2025-01-14",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "swim forever",
+   "titre": "Skin responds to Soothing",
+   "texte": "I have used the Hydrating cleanser for years, which I love. However my mild rosacea has been flaring up, so I went to the gentle. bam! home run, that really made my face calm down, and it feels so gentle, I now love this one.",
+   "date": "2025-07-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maureen",
+   "titre": "My 10 Year Holy Grail for Dry Skin",
+   "texte": "As a dedicated Clarins Girl for most of my life, this cleanser is the one product I absolutely cannot live without. I have incredibly dry skin, and finding a cleanser that actually helps with flakiness without stripping my skin used to be a nightmare. This formula is a total game changer. I use it twice a day, and it leaves my face feeling completely refreshed, soft, and silky smooth every single time. The texture is amazing, and a very small, pea sized amount goes a remarkably long way. It lathers beautifully, making the tube last forever and giving you incredible value for your money. If you struggle with dry, flaky skin and want a daily cleanser that actually delivers on its promises, look no further!",
+   "date": "2026-05-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "DLH71",
+   "titre": "The best!!!!!",
+   "texte": "Best cleanser! Never drying. Removes eye makeup. Excellent for sensitive, aging skin.",
+   "date": "2024-08-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

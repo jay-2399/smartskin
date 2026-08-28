@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2052431",
+ "asin": null,
+ "pid": "pimprod2052431",
+ "source": "ulta",
+ "nom": "I Dew Care Dew Not Disturb Hydrating Korean Rice Sleeping Mask",
+ "note": 4.75,
+ "nbAvis": 64,
+ "lus": 64,
+ "collectes": 64,
+ "segments": {
+  "oily": "One reviewer with oily skin reports the mask still feels perfectly hydrating overnight without added greasiness.",
+  "dry": "Reviewers with dry, year-round dry, or dry/dull skin report reduced rough patches, softer cheeks, and no tightness or dryness by morning, with one noting the effect as only slight compared to pricier masks.",
+  "combination": "Reviewers with combination skin report it evens out dry patches on some areas of the face and works well even when skin turns oilier in warm weather.",
+  "sensitive": "Reviewers with sensitive skin (including dry-sensitive) report the mask calms their skin and leaves it hydrated without stinging or irritation.",
+  "mature": "One reviewer with aging skin reports the mask feels amazing at bedtime and leaves the face soft in the morning."
+ },
+ "concerns": {
+  "dehydration": "The large majority of reviewers across skin types report visibly more hydrated, plump, soft skin by morning with no tightness; one reviewer found the hydrating effect only slight compared with other overnight masks she has used.",
+  "redness": "One reviewer with sensitive/combination skin reports a calming effect and reduced irritation, and another mentions it calmed previous inflammation.",
+  "barrier": "Reviewers describe rough, dry patches on cheeks or around the nose/chin softening or disappearing with regular use.",
+  "spots": "One reviewer specifically notes no breakouts since starting the mask; no other reviewer reports negative spot-related effects.",
+  "blemishes": "Only a single reviewer comments on blemish-adjacent concerns, noting calmer skin and no new breakouts; no dissenting reports of breakouts appear in the set.",
+  "oiliness": "Reviewers with oily or combination skin describe the formula as non-greasy and lightweight, saying it does not add shine or heaviness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight gel-cream texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly without stickiness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Glow-in-the-dark jar packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price point",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Only mild hydration versus pricier masks",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Product dries out if left open",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Light fragrance not to everyone's taste",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Lwolf71",
+   "titre": "It's OK",
+   "texte": "If you're looking for a fun mask in a cute package to use occasionally for self-care, you might love this. If you're someone who really struggles with dry skin and is looking for solutions, this isn't it. I wore the mask overnight, as instructed. When I woke up, my skin was slightly more moisturized. Emphasis on the word slightly. I have used other, more expensive, moisturizing masks that work far better. For the price range, this one does a decent job. However, it's not the holy grail product that the paid reviewers are making it out to be. Great for those who are new to skin care or like to do masks just for fun.",
+   "date": "2026-01-18",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "theintersect629",
+   "titre": "Affordable Sleep Mask",
+   "texte": "I have year round dry skin so I'm always looking for skincare that can help my skin stay moisturized. I ended up buying this mask on a whim, and I'm very happy with it! It has a lovely light scent to it, and I always wake up with my skin feeling moist and smooth (I get the worst rough patches on my cheeks and I've noticed they've gradually gotten softer!). I'm quite impressed with this brand and can't wait to try their other sleep masks and products!",
+   "date": "2026-03-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Grace",
+   "titre": "Sensitive skin friendly!!",
+   "texte": "I Dew Care's Overnight hydration mask is everything my dry, sensitive skin has been needing!! The triple hyaluronic acid paired with the Korean rice extract deeply moisturize my skin all through the night, leaving beautifully hydrated skin in the morning! Gifted by idewcare",
+   "date": "2025-08-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Meg",
+   "titre": "Definitely a keeper!",
+   "texte": "I am really enjoying the I Dew Care Dew Not Disturb Hydrating Korean Overnight Mask. I have aging skin and it feels amazing when I put it on at bedtime. In the morning, my face feels so soft. I wash it off and start my day feeling pretty! I received this product complimentary from I Dew Care in exchange for my honest review.",
+   "date": "2025-08-08",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Desiree",
+   "titre": "Glow!",
+   "texte": "Complimentary from IDewCare. The moisturizer absorbs quickly into the skin and a little goes a long way. There's no tacky or white residue. There's a slight clean fresh scent but nothing strong. Scent does fade away. My skin looks more glowy and healthier. I have combo skin, but lately my skin has been dry. This moisturizer has changed my skin appearance and texture. My skin feels smoother and looks more healthier.",
+   "date": "2025-08-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vale",
+   "titre": "Great moisturizer",
+   "texte": "Complimentary from idewcare, it's a great moisturizer but I don't know about the 100 hour hydration thing… My skin feels soft, firm and nourished in the mornings. I haven't had breakout since I started using it and it doesn't have a strong smell so I like that.",
+   "date": "2025-07-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "",
+   "titre": "Recommend!",
+   "texte": "Gifted by idewcare. I like this overnight mask, it's easy to apply, works well with my skin, I have a dry and sensitive skin. I can see my skin getting hydrated and lighter after use,.It makes my skin feel so bouncy and soft, the package is also cute!",
+   "date": "2025-07-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

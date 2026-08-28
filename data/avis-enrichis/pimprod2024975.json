@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2024975",
+ "asin": null,
+ "pid": "pimprod2024975",
+ "source": "ulta",
+ "nom": "Mario Badescu Gentle Foaming Cleanser",
+ "note": 3.65,
+ "nbAvis": 20,
+ "lus": 20,
+ "collectes": 20,
+ "segments": {
+  "dry": "Reviewers with dry skin report mixed results: some describe tightness, itchiness and a film-like residue after rinsing, while one with sensitive dry skin says it prevents acne without drying her out.",
+  "sensitive": "Reviewers with sensitive skin mostly report good tolerance, calmed irritation and no new breakouts, though one sensitive-skin user with an existing allergic reaction says the product made it worse.",
+  "oily": "One reviewer notes the cleanser suits oilier skin better than dry skin, but another reviewer says it left her own skin feeling oily and hard to rinse clean."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers report their skin feeling tight, itchy, dry or stripped after use, describing a lingering film despite rinsing; others, including one with dry sensitive skin, say it left skin soft and moist rather than dry.",
+  "redness": "One reviewer with sensitive skin says the cleanser calmed a severe allergic reaction with redness and itching; another reviewer reports an existing allergic reaction got worse after use.",
+  "spots": "One teen user with mild breakouts reportedly broke out far worse after use and needed a dermatologist; conversely, several reviewers say it prevented breakouts or cleared bumps on the skin.",
+  "blemishes": "One reviewer says the cleanser cleared bumps on her face better than anything she'd tried; another reports the product caused significant new breakouts on oily-leaning skin due to over-drying.",
+  "oiliness": "One reviewer with dry skin suggests the product suits oilier skin better; another reviewer with unspecified skin type says it left her face very oily and hard to rinse."
+ },
+ "aspects": [
+  {
+   "libelle": "Foams up easily and lathers well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented or very mild scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves tight, dry or stripped feeling",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Residue or film remains after rinsing",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Product clogs and dries in the cap",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes makeup effectively in one wash",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "The acne maker",
+   "titre": "Will break your skin out!",
+   "texte": "Purchased for my teen boy who had very mild break out but wanted soemthing to clear that area. This made his whole face break out a hindred times worse . We had to take him to a dermatologist. Its been months trying to reverse the damage , dont do it!",
+   "date": "2025-05-19",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "z",
+   "titre": "Good and Bad",
+   "texte": "Honestly this cleanser did an amazing job at cleansing that wasn't the issue. It's that it made my skin feel extremely tight and actually broke me out because it pretty much dried my face out. But I do have super dry skin. I think it would be better for skin on the oilier side! It is great to get everything off but is just over stripping.",
+   "date": "2025-07-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Eileen",
+   "titre": "Bad packaging",
+   "texte": "I like this cleanser. I did feel it got makeup off and didn't aggravate my sensitive skin and kept me from breaking out. The cons are that this is THICK and gloopy. It gets dried in the cap like toothpaste. At one point, I had to take the cap off and try to bang the product out to get it out. There are other cleansers that are mid range that I would rather spend money on.",
+   "date": "2024-06-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "tonksfan:)",
+   "titre": "update on my last review....",
+   "texte": "so I was dealing with an allergic reaction and this made it even worse:(",
+   "date": "2022-01-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Betta< 3",
+   "titre": "Love it:)",
+   "texte": "took me forever to find something i rlly like after aveeno calming line discontinued but finally found the products:) i have sensitive dry skin this prevents acne & doesnt dry out! i use this & the Mario Badescue Moisture Magnet with spf when i wake up & before i go to sleep it works great< 3",
+   "date": "2023-01-03",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "tonksfan:)",
+   "titre": "this is my favorite cleanser",
+   "texte": "I love this cleanser. So, I got a terrible allergic reaction to a different cleanser where I was red, itchy , breaking out all over my face, including under my eyes, and my whole face was like that and in pain for a few days. until I found this cleanser and it calmed my skin down:)",
+   "date": "2022-01-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley",
+   "titre": "Yes",
+   "texte": "I have very sensitive skin and the is worked perfectly. I put it on after face wash, and made my face feel very clean. It cleared up bumps on my face the best I have every seen.",
+   "date": "2022-02-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2043828",
+ "asin": null,
+ "pid": "pimprod2043828",
+ "source": "ulta",
+ "nom": "Avène Hyaluron Activ B3 Renewal Firming Cream",
+ "note": 4.25,
+ "nbAvis": 119,
+ "lus": 79,
+ "collectes": 108,
+ "segments": {
+  "oily": "One reviewer with oily skin found the cream a little too heavy and had absorption issues that improved with a water spritz, while another with combination-oily-prone skin said it sank in without greasy residue.",
+  "dry": "Reviewers with dry skin report strong hydration and plumping, though one comparing it to Avène's Rich cream felt this version was not moisturizing enough for senior dry skin.",
+  "combination": "A combination-skin reviewer reports the cream sinks in nicely without greasy residue and leaves skin firmer and more plump over time.",
+  "sensitive": "Sensitive-skin reviewers are split: several say the cream is gentle, non-irritating and hydrating, but others report itchy allergy bumps, rashes, or redness they attribute to the fragrance and alcohol.",
+  "mature": "Mature-skin and senior reviewers describe softer, firmer skin and reduced appearance of crow's feet and wrinkles, with one exception finding it less moisturizing than expected for senior dry skin.",
+  "normal": "Reviewers who do not specify a skin concern mainly describe the cream as hydrating, smooth-absorbing and pleasant to use under makeup."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report firmer-looking skin, plumping, and reduced appearance of fine lines, crow's feet and wrinkles with regular use; no reviewer disputes an anti-aging effect directly, though a few note results are subtle or slow.",
+  "dehydration": "Most reviewers describe the cream as very hydrating, plumping and leaving skin soft and supple; one reviewer with rosacea and dry senior skin found the Rich version more moisturizing than this one.",
+  "redness": "Reviewers with rosacea report mixed outcomes: one found the cream soothing and reduced blotchiness in other Avène products but reacted with redness and blotchiness to this one, while another rosacea sufferer with sensitive senior skin found it hydrating and comfortable.",
+  "barrier": "Reviewers describe the cream forming a cushioned moisture barrier and keeping skin soft and hydrated overnight, with no reports of barrier disruption aside from isolated irritation reactions.",
+  "spots": "Not enough reviewers specifically address spots or hyperpigmentation beyond general skin tone or texture improvement comments.",
+  "blemishes": "Several reviewers report breakouts or being unsuitable for acne-prone skin, including one who found it broke her out badly and another using it only twice weekly after noticing some breakout; other reviewers report no breakouts despite rich texture.",
+  "oiliness": "One reviewer with oily skin found the formula too heavy and rich, needing a water spritz to help absorption, while another reviewer contrasted it favorably with other products that left her skin feeling oily."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong or added fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pilling on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Silky, smooth texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy, fast absorption",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich, thick consistency for some",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Good value and packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well layered under makeup",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Katarina",
+   "titre": "Redness",
+   "texte": "I just purchased this cream which was recommended by Avene for a night cream. I had explained I have rosacea- redness. I cannot use this cream. I used a tiny amount at night. My skin reacted with redness, and blotchiness. I am so sad. All of the other Avene products I have purchased have been very good, soothing and reduced blotchiness and redness. Not this one.",
+   "date": "2024-04-05",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Denise C.",
+   "titre": "Not very moisturizing",
+   "texte": "The Rich product is much moister and better for senior dry sensitive skin.",
+   "date": "2024-02-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Alexis",
+   "titre": "Good for dry skin",
+   "texte": "This would be great for people with dry skin. It was a little too heavy for me with my oily skin but it may be better during the winter when I need the extra boost of moisture. I added a water spritz and that helped with absorption issues. It felt really good and has ingredients for firming the skin.",
+   "date": "2024-07-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "diannna",
+   "titre": "Great extra boost!",
+   "texte": "The AvÃ¨ne Hyaluron Activ B3 Renewal Firming Cream is incredibly hydrating and feels luxurious on the skin. With my combination skin, it sinks in nicely without leaving a greasy residue. Over time, my skin has felt firmer and more plump, especially around fine lines. The addition of hyaluronic acid and niacinamide makes it a solid pick for anyone looking for both hydration and anti-aging benefits. Perfect for daily use under makeup or at night for an extra boost.",
+   "date": "2024-09-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Noanie jo",
+   "titre": "I will re-purchase this item.",
+   "texte": "I bought this about a month ago and I will buy it again when I run out.. It is well priced. It goes on easily. It is not greasy. It's not watery And absorbs quickly. It feels good on my skin, which is sensitive, senior fair skin with rosacea! This product is also hydrating. I recommend this product to anyone who wants their skin to feel better and look better. Joan L.",
+   "date": "2024-04-15",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "So ohio",
+   "titre": "Great moisturizer",
+   "texte": "Been using for about 2 months. It makes my face softer. Like how it feels. I'm 76 and recommend for mature skin",
+   "date": "2024-04-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "GKemb",
+   "titre": "Great product",
+   "texte": "I use this product 2x per week, rather than every day. While it's a great product, I did notice my skin began to break out a bit. The lotion is very rich so I only dab 2 or 3 spots on my face. It feels fantastic and I look forward to my weekly \"sessions\".",
+   "date": "2024-04-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

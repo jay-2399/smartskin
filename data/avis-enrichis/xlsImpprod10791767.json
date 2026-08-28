@@ -1,0 +1,166 @@
+{
+ "ref": "xlsImpprod10791767",
+ "asin": null,
+ "pid": "xlsImpprod10791767",
+ "source": "ulta",
+ "nom": "Clinique All About Eyes Rich Eye Cream with Hyaluronic Acid",
+ "note": 4.51,
+ "nbAvis": 1294,
+ "lus": 80,
+ "collectes": 111,
+ "segments": {
+  "dry": "Reviewers with dry skin, including those with dry under-eye areas or dryness caused by retinol, tretinoin, medication, or climate, describe the cream as strongly hydrating and say it relieves flaking, tightness, and crepey texture.",
+  "sensitive": "Reviewers who describe extremely sensitive skin or eyes, including autoimmune conditions and allergy-prone skin, mostly report no irritation and good tolerance, though a minority describe burning, stinging, or eye irritation severe enough to stop use.",
+  "combination": "Reviewers with combination or dry-combo skin say it hydrates dry patches under the eyes without breaking them out or feeling heavy under makeup.",
+  "mature": "Older reviewers (40s–70s) credit long-term use with reduced fine lines, crepey skin, and crow's feet, and several call it their staple as their skin has aged."
+ },
+ "concerns": {
+  "aging": "Many reviewers report smoother, less crepey under-eye skin and diminished fine lines with regular use; a few see no change in wrinkles or crow's feet despite months of use.",
+  "dehydration": "Widely reported as effectively moisturizing and plumping for dry under-eye skin, including skin dried out by medication, retinol, or climate, with almost no dissent on hydration itself.",
+  "redness": "A small number of reviewers note calming of eyelid swelling, redness, and flaking after stressful periods or irritation from other products, but this is mentioned by very few reviewers.",
+  "barrier": "Some reviewers with compromised or reactive skin (autoimmune conditions, retinol-irritated skin) say the cream soothes and protects without triggering reactions, though a few report burning or allergic-type reactions from the formula itself.",
+  "blemishes": "One reviewer explicitly warns the rich texture caused whiteheads when used outside the eye area on acne-prone skin, though this is an isolated report among mostly positive skin-tolerance comments."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich, thick texture",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Too heavy under makeup or daytime",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No fragrance, well tolerated",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value versus higher-end brands",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Confusing labeling between Rich and regular versions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth application under concealer",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Stacy",
+   "titre": "Amazing Eye Cream",
+   "texte": "I recently moved to AZ from the mid west, and have been battling extremely dry skin around my eyes living in a dryer climate. I've tried using multiple eye creams/moisturizers and nothing has helped. They only irritated my skin and made the dryness worse. I have extremely sensitive/combination/acne prone skin. I'm in my late 40's and needed something magical for nighttime, and this product did the trick. I wake up to moisturized skin around my eyes, less puffiness and fine lines. My only con is that it's too heavy for me to wear under makeup since the consistency is so thick. But, does absorb nicely once applied. I let it absorb for a few minutes, and then apply the Clinique mousturizing plus lotion on top of it for extra mousture which I've been using for years day and night, and also highly recommend. There's zero fragrance to the eye cream as well, and I dont get pimples around my eyes/irriatation from it either. Climique has been a savior for my skin. I recommend going to an Ulta store and getting a sample to see if it works for you. That's what I did before investing in the product. The sweet staff is always happy to help me and listen to my skin care needs. Total bonus!",
+   "date": "2024-03-15",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Erin",
+   "titre": "Weekly use, but does irritate my eyes",
+   "texte": "I like this product but I rarely use it without aquaphor to protect the corners of my eyes. I have extremely sensitive eyes and under eyes. I have to be very careful to not get this too close to my eyes or lots of irritation. But i do use this most mornings, not overnight",
+   "date": "2026-02-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LSHLSH",
+   "titre": "Works great!",
+   "texte": "I've been using All About Eyes for several years, and really like it. As I've gotten older, I thought I'd try the \"Rich\" formula. It turns out I like the All About Eyes Rich even better. I use the Repairware Laser Focus for eyes at night, and use this Rich formula in the morning. I have very sensitive skin which is prone to allergic reactions, and have never had any problems with any of these products, a feature which is a requirement for me. I'm 53 now, and I have no crinkle-lines around my eyes, no crepe skin, and no dark circles underneath—so far, so good! Definitely plan on continuing to use.",
+   "date": "2022-06-03",
+   "verifie": false,
+   "utiles": 19,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sanora",
+   "titre": "Comforting and safe for my auto-immune diseased eyes",
+   "texte": "I have several auto immune diseases and have extremely sensitive eyes. Clinique is one of the only brands I can use without a reaction. This eye cream is so comforting and does everything it says it will do. I can't live without it. I also have hereditary dark circles and anemia, and this helps so well that people have stopped asking if I'm tired… because this makes me look more awake!",
+   "date": "2022-08-11",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Agent Snogpitch",
+   "titre": "The ONLY eye cream that worked",
+   "texte": "When I had a death in the family and had big, pfft circles under my eyes that were red, swollen, and flaking for weeks. The saleswoman at Ulta helped me select this eye cream, and I've even been using it on the corners of my mouth, where my extremely chapped lips are cracked and split, too. This stuff is amazing. I wouldn't recommend using it on other parts of your face like I am if you're prone to acne, because it is super rich and will cause little whiteheads the next day, but if you're in desperate need of moisture, look no further! This is the fix for dryness!",
+   "date": "2022-07-06",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lish",
+   "titre": "moisturizing",
+   "texte": "the most moisturizing eye cream I've tried! my under eyes get insanely dry from using trentinoin and this is the only cream I've found that actually helps with the dryness. it has a thicker texture that keeps the under eyes plump and smooth, my favorite eye cream",
+   "date": "2022-06-07",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Mary",
+   "titre": "Burning eyes",
+   "texte": "I'm very careful not to put the eye cream too close to my eyes so the first time I used the cream my eyes burned in the afternoon. Today I tried it again and the burning was severe I washed out my eyes.",
+   "date": "2022-05-24",
+   "verifie": false,
+   "utiles": 19,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

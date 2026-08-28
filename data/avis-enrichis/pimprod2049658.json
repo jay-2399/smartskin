@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2049658",
+ "asin": null,
+ "pid": "pimprod2049658",
+ "source": "ulta",
+ "nom": "ROUND LAB Birch Juice Moisturizing Serum",
+ "note": 4.84,
+ "nbAvis": 31,
+ "lus": 20,
+ "collectes": 20,
+ "segments": {
+  "dry": "Dry-skin reviewers report the serum provides lasting hydration through winter months without a sticky or tacky feel.",
+  "combination": "One combination-skin reviewer finds it light enough to use alone, disliking heavier greasy moisturizers.",
+  "sensitive": "Sensitive-skin reviewers, including one with rosacea tendency, report good hydration though one notes visible redness after use.",
+  "mature": "One reviewer with aging, mature, sensitive skin considers it a new favorite for that combination."
+ },
+ "concerns": {
+  "aging": "One reviewer with aging, mature, sensitive skin reports positive early results and calls it a new must-have.",
+  "dehydration": "Most reviewers across skin types report strong, lasting hydration and softness, with several noting quick absorption and no sticky residue; one reviewer used it specifically on dry or flaking days after treatments.",
+  "redness": "One reviewer with rosacea tendency reports her skin looked slightly red after starting use, seeing it as a sign the serum was working.",
+  "barrier": "No reviews specifically discuss barrier repair beyond general hydration effects.",
+  "oiliness": "One reviewer notes it does not make the face greasy or oily despite the hydrating effect."
+ },
+ "aspects": [
+  {
+   "libelle": "Watery gel texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption, no tackiness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild natural fragrance",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Basic bottle, cheap-feeling pump",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Not worth full price for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under moisturizer and makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Underwhelming compared to similar serums",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "ahn367",
+   "titre": "Decent but not wow",
+   "texte": "Its a good hydrating serum but Im not wowd by it. I prefer the Isntree hyaluronic acid essence over this. The bottle is basic chubby glass that makes the plastic pump feel a little cheap in comparison.",
+   "date": "2022-03-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "B",
+   "titre": "Light and simple",
+   "texte": "I have combination skin and hate the feel of heavy greasy moisturizer. This serum is so light and soothing. I may layer with moisturizer in the winter but for now this is all I need.",
+   "date": "2025-06-09",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tyler Shipes",
+   "titre": "Super hydrating",
+   "texte": "The serum's texture is not at all tacky on the skin; it just absorbs right away. The hydration this serum provides lasts all day, which says a lot as I have dry skin (I also use the birch moisturizer, which I assume has an additional effect, haha) besides hydration i find that it also gives a brightening look to the color of my skin. Will be repurchasing!",
+   "date": "2025-05-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ilona",
+   "titre": "Birch serum my new must have",
+   "texte": "I have aging,mature, sensitive skin with the tendency to rosacea. I love light blue milky color. It's not sticky. I can tell that the serum is working because my skin looks slightly red. It's just beginning of the new journey.",
+   "date": "2023-05-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "so391",
+   "titre": "I loved the moisturizer.",
+   "texte": "I purchased this because I loved the moisturizer. This serum felt no different from a different hydrating serum I used. I will just go back to what I used to use",
+   "date": "2021-01-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Teodozia Kaniuga",
+   "titre": "Amazing product",
+   "texte": "Light and hydrating product. Great for a sensitive skin. Have been using for a week and could see great result on my skin.",
+   "date": "2024-06-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mariela Andrade",
+   "titre": "Birch juice serum",
+   "texte": "It has a cooling fresh feeling, does not make face greasy or oily. 💗",
+   "date": "2023-06-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

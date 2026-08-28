@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2050298",
+ "asin": null,
+ "pid": "pimprod2050298",
+ "source": "ulta",
+ "nom": "OSEA Dream Night Serum with Bio-Retinol",
+ "note": 4.77,
+ "nbAvis": 279,
+ "lus": 80,
+ "collectes": 102,
+ "segments": {
+  "dry": "Dry and dry-aging reviewers report the serum leaves skin soft, supple and well hydrated overnight, especially when paired with the Dream Night Cream, and one notes it works well even in a dry winter climate.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it caused no issues, redness or breakouts and even calmed their skin, but two report the fragrance (lavender) triggered flare-ups or irritation near the eyes.",
+  "combination": "One reviewer with oily/combination skin (pre- and postpartum) says the serum absorbed quickly and worked well regardless of how oily or dry her skin felt at a given time.",
+  "mature": "Mature-skin reviewers, including women in their 50s and 60s, report visibly softer lines, firmer skin and a plumper look, with one noting it worked better than several more expensive products she had tried for sagging skin.",
+  "oily": "The one reviewer identifying as oily/combination found the serum non-greasy and fast-absorbing regardless of her skin's oil level."
+ },
+ "concerns": {
+  "aging": "Most reviewers report visibly softer or less noticeable fine lines and wrinkles, sometimes within days, and describe firmer, plumper-looking skin; a few, however, say they saw no change in wrinkles after weeks of use and returned to a discontinued OSEA serum instead.",
+  "dehydration": "Many reviewers describe the serum as deeply hydrating, with skin feeling soft, plump and supple in the morning, particularly when layered under the Dream Night Cream or applied to damp skin.",
+  "redness": "A small number of reviewers with sensitive skin note the serum caused their skin to flare or redden, especially near the eyes, though most sensitive-skin reviewers report no such reaction.",
+  "barrier": "One reviewer notes the bio-retinol formula caused no sensitivity or adjustment period compared to typical retinol products, suggesting it was gentle on the skin barrier.",
+  "blemishes": "A few reviewers say the serum helped with acne or forehead blemishes and caused no breakouts, while OSEA products generally are credited with not triggering breakouts; no reviewer reports new blemishes from this serum.",
+  "oiliness": "Reviewers consistently describe the texture as non-sticky, non-greasy and fast-absorbing, leaving no oily residue even when used alone without a moisturizer."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lavender fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lavender fragrance irritates sensitive skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Button-top dispenser is impractical",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No results after weeks of use",
+   "polarite": "neg",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Pairs well with Dream Night Cream",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value, long-lasting bottle",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Camille",
+   "titre": "So lovely",
+   "texte": "I have been using this nearly nightly for 3 weeks, in combination with the Dream Night Cream. It smells wonderful and is such a treat to use. Unfortunately, it causes my sensitive skin to flare so I can't use it anywhere near my eyes. While I won't be purchasing it again due to my skin sensitivity, I will continue to use it sparingly until I finish it.",
+   "date": "2025-06-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jodi",
+   "titre": "Dreamy skin!",
+   "texte": "My dry aging skin loves this product and esp when used with the Dream Night Cream. I wake up with soft supple skin. Dream combo!",
+   "date": "2025-04-27",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda",
+   "titre": "New to skincare",
+   "texte": "I can't say enough good things! I was never into skincare or makeup. I struggled a bit wit PPD. Coming out of it I've started really taking care of me! This stuff absorbs super quick. Feels like a dream. Not goopy or sitting on the surface. I have oily/combination skin. Or I did pre pregnancy. Postpartum I feel like everything has changed. But regardless of how my skin feels ( dry, oily etc) this stuff fits the bill on every occasion. I don't look as tired! With BABY! I'm starting to look more like myself. This has definitely helped bring my face back to life",
+   "date": "2025-03-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Danielle",
+   "titre": "One Regret",
+   "texte": "My only regret with this product is that I didnt take a before photo! I am 51 years old and have ‚Äúmature‚Äù skin. Products that used to work for me no longer work. Due to mature skin and significant weight loss I have a saggy chin. I have tried about half a dozen products, some incredibly expensive, and nothing worked like this product. Its light, absorbs into the skin quickly, and I definitely saw overnight results. I will be trying additional products due to my excellent experience with this serum.",
+   "date": "2025-08-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Diane",
+   "titre": "Gentle But effective",
+   "texte": "Ive been using this serum nightly for a couple of weeks and love it! Its a gentle but effective Retinol that didnt irritate or cause breakouts on my skin. Its a thin serum consistency that absorbs beautifully & wasnt sticky, which I love. These products from OSEA just keep impressing me & this serum will continue to be a staple in my routine because I already see results!",
+   "date": "2025-03-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bonnie S.",
+   "titre": "Dream Night Serum with BioRetinol",
+   "texte": "This serum is a wonderful addition to my night routine. I just started using it so I will see how the results are hopefully in a week or two. After cleansing my face, I apply the dream night serum, then I apply the collagen dream night cream. They both seem to hydrate my skin and help it feel soft. I have sensitive skin and so far it hasnt caused any issues.",
+   "date": "2025-05-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Christina W.",
+   "titre": "I didn't see a difference after a month",
+   "texte": "I love the Hyaluronic serum but this one didn't make a difference. It's hard to tell when using in combination with another product like a moisturizer. I used alone and still nothing. I will stick with the other serum and the overnight resurfacing serum which is magic!",
+   "date": "2025-04-29",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,172 @@
+{
+ "ref": "pimprod2049665",
+ "asin": null,
+ "pid": "pimprod2049665",
+ "source": "ulta",
+ "nom": "ETUDE Soonjung pH 6.5 Whip Cleanser",
+ "note": 4.57,
+ "nbAvis": 21,
+ "lus": 20,
+ "collectes": 20,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin, including several with rosacea, seb derm, or eczema, most often report the cleanser is gentle and non-irritating, though one describes burning and severe dryness.",
+  "dry": "Reviewers with dry skin generally report the cleanser cleans without stripping or tightness, though one with drier skin noted some dryness and one described very drying, harsh effects.",
+  "combination": "One reviewer with sensitive combination/oily skin and hormonal adult acne reports her skin recovered and the cleanser did not dry her out.",
+  "mature": "One reviewer of mature age with sensitive, dry, rosacea-prone skin calls it a holy grail that cleanses effectively without disturbing the skin barrier, while another older reviewer (61) reports severe dryness and breakouts."
+ },
+ "concerns": {
+  "aging": "One mature reviewer reports effective, non-stripping cleansing suited to her skin; no other aging-specific effects are mentioned.",
+  "dehydration": "Most reviewers, including several with dry skin, report the cleanser does not strip or tighten skin; one reviewer nonetheless reports significant dryness and one reports mild dryness.",
+  "redness": "Reviewers with rosacea and seb derm report the cleanser is gentle and does not trigger irritation or flares, calling it safe where other cleansers were not.",
+  "barrier": "Reviewers describe the cleanser as cleansing effectively without disturbing or stripping the skin barrier, including after double cleansing with other products.",
+  "spots": "Most acne-prone reviewers report no new breakouts and even improvement over weeks of use; two reviewers explicitly report bad breakouts, including hard pimples in one case.",
+  "blemishes": "One reviewer reports hard pimples appearing after use despite not having had breakouts in years; most other reviewers report no such issues.",
+  "oiliness": "One reviewer with oily-combination skin reports the cleanser controlled her hormonal acne without adding dryness; no other oiliness-specific comments are present."
+ },
+ "aspects": [
+  {
+   "libelle": "Light, bubbly foaming texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Soft slip, easy to spread and rinse",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented or neutral smell",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Works well as second step in double cleanse",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for amount of product",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Refill bags not widely available in stores",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Severe dryness and burning for some users",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Eileen",
+   "titre": "Very drying-would not buy again",
+   "texte": "Heard Korean skin care is great for skin-I tried Soonjung ph 6.5 Whip Cleanser. I left my sensitive skin burning, very dried out and many hard pimples, I'm 61-I haven't had pimples in years! I'd return it but I threw away original packing so I can't.",
+   "date": "2026-05-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Raq",
+   "titre": "Great for my sensitive/reactive skin",
+   "texte": "I have rosacea and fungal acne (malassezia yeast). My skin is very sensitive and reactive to a lot of ingredients. This foaming face wash has been my holy grail for the last ~3 years! Works better than even Vanicream for me. Highly recommend it.",
+   "date": "2025-06-22",
+   "verifie": false,
+   "utiles": 21,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "stygianara",
+   "titre": "Rosacea & Seb Derm Safe",
+   "texte": "This is my favorite cleanser. It feels like it actually cleans my skin without stripping it dry. I have dry, sensitive skin and was diagnosed with rosacea and seb derm recently. Most cleansers would irritate my skin, but this one has been so gentle. My dermatologist prescribed me a sulfa wash which stinks horribly and I haven't touched it since I tried this cleanser. Highly recommend.",
+   "date": "2026-02-21",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Caro",
+   "titre": "Yes GAWD",
+   "texte": "Bought this after realizing my skin was reacting to the niacinamide in the previous cleanser that I was using for years (causing redness, small blisters). I have been using this cleanser for almost 2 months (7 weeks) and my skin has recovered! I am 22F, have sensitive combination/oily skin and deal with hormonal adult acne. This cleanser is very gentle and does not leave my skin feeling dry. Love this, would absolutely recommend. Will genuinely grieve if the formula ever changes.",
+   "date": "2026-05-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Betty Boop",
+   "titre": "Fantastic cleanser for sensitive skin",
+   "texte": "Ive been using this cleanser for 6 mos straight. I have sensitive, mature, dry, rosacea, acne prone skin. This has been a holy grail dor myself and my teen daughter. It cleanses gently but EFFECTIVELY without disturbing the skin barrier and stripping the skin. It also works well with double cleansing. I use Banila Clean it Zero from Ulta and this cleanser removes the remaining Banila effortlessly leaving me clean and not irritated. Stop scrolling and buy it already !",
+   "date": "2026-03-20",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "barrier",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Addie",
+   "titre": "holy grail",
+   "texte": "Truly a holy grail product for me! I have sensitive, acne-prone skin and react badly to even the simplest cleansers (Cerave, Cetaphil, Ordinary, etc.) I have been using this cleanser for 6 months and it's truly perfect. Non-drying, neutral to no smell, doesn't leave residue, and the cost for the amount you get is amazing. Will be my ride or die for life.",
+   "date": "2026-02-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "J Sanchez",
+   "titre": "Breakouts!!",
+   "texte": "I have tried SO hard to love this product but it made me break out SO bad! I loved how light and bubbly it felt on my skin while using but just did not work for me",
+   "date": "2026-07-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

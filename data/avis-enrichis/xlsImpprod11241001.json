@@ -1,0 +1,173 @@
+{
+ "ref": "xlsImpprod11241001",
+ "asin": null,
+ "pid": "xlsImpprod11241001",
+ "source": "ulta",
+ "nom": "La Roche-Posay Effaclar Medicated Gel Cleanser for Acne Prone Skin",
+ "note": 4.39,
+ "nbAvis": 1279,
+ "lus": 80,
+ "collectes": 116,
+ "segments": {
+  "oily": "Reviewers with oily skin generally report the cleanser cuts sebum and reduces shine, with several calling it effective for oily or oily-acne-prone skin without over-drying.",
+  "dry": "Reviewers with dry skin frequently report tightness, flaking, or dryness, especially with twice-daily use, though some still see acne benefits when paired with a heavy moisturizer.",
+  "combination": "Reviewers with combination skin (often oily T-zone) report it clears acne and minimizes pores, with one noting reduced effectiveness over time.",
+  "sensitive": "Reviewers with sensitive skin are split: several report strong results with no irritation, while others describe redness, burning, chemical-burn sensations, or barrier damage.",
+  "mature": "The one reviewer identifying as having mature/aging skin reports it worked well as a hair and scalp cleanser and caused no reaction despite general product allergies.",
+  "normal": "One reviewer without acne-prone or sensitive skin reports the product damaged her skin barrier when used daily, cautioning against overuse."
+ },
+ "concerns": {
+  "aging": "A reviewer in her thirties reports smoother, fresher-feeling skin and reduced visible pores; another in her late 30s reports fewer random breakouts, but neither reports specific anti-aging effects beyond texture.",
+  "dehydration": "Many reviewers report dryness, tightness, or flaking, particularly with twice-daily use; some resolve this by reducing frequency or pairing with a moisturizer, though a few say dryness persisted or worsened over time.",
+  "redness": "Several reviewers report redness or irritation after use, including one with a burning, itchy rash lasting days; others report redness resolves quickly with moisturizer or does not occur at all.",
+  "barrier": "A few reviewers explicitly report barrier damage or stripping from frequent use, describing it as too harsh for daily use; others report no barrier issues even with regular use.",
+  "spots": "Numerous reviewers report reduced blackheads and whiteheads, with some noting visible unclogging of pores on the nose and chin within days.",
+  "blemishes": "Most reviewers report significant reduction in acne, including cystic and hormonal acne, often within days to a few weeks; a minority report no improvement or worsening acne, including new cystic breakouts.",
+  "oiliness": "Reviewers with oily skin report the product controls excess oil and sebum effectively, describing a clean, non-greasy after-feel."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaking, hard-to-open bottle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective against cystic and hormonal acne",
+   "polarite": "pos",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Drying with regular or twice-daily use",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Squeaky-clean, refreshing after-feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong menthol cooling sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value relative to results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains coconut-derived ingredients some find pore-clogging",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "D123",
+   "titre": "Disappointed",
+   "texte": "I've been using this for 3 weeks now and my acne is worse than ever (especially on my forehead and chin). Definitely left dry patches when I used it twice a day so I went down to once a day… it's still drying out my skin. I was really looking forward to this product but sadly I'm going to have to stop using it since I've seen no improvements. I've never broken out this badly.",
+   "date": "2024-01-07",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Nykki",
+   "titre": "Drying and gave me slight cystic acne",
+   "texte": "I have been using this product for 2.5 momths and i'm nist now realizing that it was the product giving me acne deep under my skin that jusy looks like scars, or big whiteheads every other week. It has also been really drying, not meant for sensitive acne prone dry skin unless you have had previous sucess with salicylic acid(in my opinion). I don't reccomend.",
+   "date": "2025-01-14",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Elizabeth",
+   "titre": "Too stripping",
+   "texte": "Got this as a second cleanser, it is too harsh. Leaves my skin very tight very dehydrated. Think if used for long term it would have wrecked my skin barrier. I have very sensitive skin. Won't be repurchasing.",
+   "date": "2026-02-28",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "kae",
+   "titre": "Love this for my highly acne prone/hormonal skin!",
+   "texte": "I recently just ran out of my la roche possay ance cleanser and i'm so impressed i'm buying the whole line tomorrow. This is stricly for ACNE prone skin otherwise you will give yourself a chemical burn for using it for little white heads and what not. I have really bad hormonal and cystic acne from starting birth control and this stuff truly has saved my life. But beware this stuff is extremely drying so i would recommend wearing sunscreen (after )washing your face completely and letting it dry. Otherwise my face gets a little too dry but i have very oily skin so, to each their own.",
+   "date": "2024-03-14",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "kae",
+   "titre": "HOLY GRAIL",
+   "texte": "my GOSH this stuff is god sent !!! i have really bad acne prone skin and VERY sensitive skin. I have seen some comments that have been bashing this stuff, please please continuously use this cleanser morning and night or else you will see no progress, you have to stick with it. I have been using this cleanser so far for two weeks and i noticed a difference around a week into the treatment. I will be buying the whole set to this line, please just give it a try if you suffer with hormonal acne or cystic acne and i have BOTH. I used to stay in my house for weeks due to having no self confidence when i had no makeup on, i can confidently say i dont feel like that anymore this stuff has truly helped me so much, thank you La Roche-Posay.",
+   "date": "2023-09-24",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Clogged pores banisher lol",
+   "titre": "Clogged pores ! Especially Chin and nose ￼",
+   "texte": "I initially bought this to shave because I was told it's really good for close/smooth shaving and I love it. I noticed this is also for oily skin. I mainly have dry skin, but my chin and my nose have always had a clogged pores just with two washes. I saw the biggest difference of my unclogged pores. It's amazing. I'm on my third bottle.",
+   "date": "2025-04-22",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Briseyda",
+   "titre": "I love this product!",
+   "texte": "I started using this face wash for my oily, acne prone skin and it has definitely helped my skin clear up. It feels refreshing and doesn't deplete your skin barrier. I continue to incorporate it into my skin care routine.",
+   "date": "2025-09-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

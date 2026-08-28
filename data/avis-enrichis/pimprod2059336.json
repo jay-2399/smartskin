@@ -1,0 +1,157 @@
+{
+ "ref": "pimprod2059336",
+ "asin": null,
+ "pid": "pimprod2059336",
+ "source": "ulta",
+ "nom": "Good Molecules Firming Peptide Eye Cream",
+ "note": 3.71,
+ "nbAvis": 17,
+ "lus": 15,
+ "collectes": 15,
+ "segments": {
+  "sensitive": "One reviewer with sensitive skin reports the product is hydrating and non-clogging with no irritation, while another warns that sensitive-skin users should avoid it after experiencing swelling, redness and itching that persisted for days; a third reviewer who does not consider herself sensitive still developed swollen, red, itchy skin after repeated use."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report visible improvement in fine lines, wrinkles and less pronounced veins within one to two weeks of use, and one notes brightening after a week; one reviewer using it inconsistently for two weeks still sees fine lines remaining.",
+  "dehydration": "Several reviewers describe the cream as hydrating, lightweight and quick-absorbing without stickiness, with no dissenting reports on hydration.",
+  "redness": "One reviewer developed redness and irritation lasting several days after first use and again on reuse, describing it as an allergic reaction; most other reviewers report no redness."
+ },
+ "aspects": [
+  {
+   "libelle": "Reduces dark circles and puffiness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Allergic reaction with swelling and redness",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube dispenses product poorly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes eyes to water for some users",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible change for some after two weeks",
+   "polarite": "neg",
+   "concerne": [
+    "aging"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Kate",
+   "titre": "Reaction",
+   "texte": "I would not say I have sensitive skin. However, the morning after I used this product for the first time I woke up with swollen skin around my eyes. I used this product again weeks later, wanting to give it another try. The next morning, the skin around my eyes was very swollen, red, and itchy. I used this product on a Saturday - it is Wednesday and my skin is still red and irritated. I would avoid if you have sensitive skin.",
+   "date": "2026-08-05",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Vanessa",
+   "titre": "Allergy reaction",
+   "texte": "I have tried this brand before and for some reason this product gave me a terrible allergic reaction. Extreme dryness and redness. Be careful with this product.",
+   "date": "2026-07-15",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Raven",
+   "titre": "Really helping my undereyes look more even!",
+   "texte": "Loving what this cream is doing for the skin around my eyes. Hydrating and nonclogging for my sensitive skin. I've noticed my veins and wrinkles have been less pronounced since using it.",
+   "date": "2026-08-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Liz",
+   "titre": "I will not buy this again",
+   "texte": "I've been using it for 2 weeks now and I see no change my under eye I still have dark circles puffyness.",
+   "date": "2026-08-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Chayda",
+   "titre": "Worth trying",
+   "texte": "I've been using this eye cream for about two weeks, and I'm honestly impressed. I've already noticed a visible improvement in the fine lines around my eyes. It feels lightweight, absorbs quickly, and keeps the area hydrated. I'm excited to see the results with continued use!",
+   "date": "2026-07-13",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tiff",
+   "titre": "Affordable and it works",
+   "texte": "I have tried a lot of products for the bags under my eyes. Thanks to this cream I've gone from garbage bags go ziplock bags!",
+   "date": "2026-08-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Macy",
+   "titre": "Allergic reaction",
+   "texte": "Gave me an allergic reaction. Tube is not great as well. You barely press snd so much of the eye cream comes out not well functioning.",
+   "date": "2026-08-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

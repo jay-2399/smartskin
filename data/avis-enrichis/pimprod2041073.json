@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2041073",
+ "asin": null,
+ "pid": "pimprod2041073",
+ "source": "ulta",
+ "nom": "DIME Hyper Glow Vitamin C Serum",
+ "note": 4.79,
+ "nbAvis": 2851,
+ "lus": 79,
+ "collectes": 90,
+ "segments": {
+  "oily": "One reviewer with combination/oily-leaning skin describes the serum as lightweight and not oily or greasy, giving a dewy rather than shiny finish.",
+  "dry": "Reviewers with dry skin report the serum cleared winter dryness within days, left skin less dry over time, and one felt it was 'not drying' despite expecting it to be.",
+  "combination": "A combination-skin reviewer says it manages oiliness with a lightweight, dewy look and has lightened acne scars.",
+  "sensitive": "Most sensitive-skin reviewers, including those with rosacea, acne-prone or postpartum sensitive skin, report no burning or breakouts and good tolerance, though a few mention a slight sting or tingle and one reports the product broke her skin out and burned.",
+  "mature": "Reviewers describing themselves as older (50s) or 'mature' report firmer, more supple skin, softened fine lines, and a youthful glow with continued use.",
+  "normal": "General reviewers without a stated skin type mostly describe brighter, glowing, hydrated skin with a lightweight, non-greasy after-feel."
+ },
+ "concerns": {
+  "aging": "Reviewers using it for aging concerns report firmer skin, fewer fine lines, and a more youthful look with regular use, often paired with other Dime products.",
+  "dehydration": "Several reviewers say it hydrates, plumps and removes dryness within days; one dry-skin reviewer says it's 'not drying' and improves dry patches.",
+  "redness": "One reviewer with rosacea and redness-prone sensitive skin says it eliminates redness without added sensitivity and is the only vitamin C serum she can tolerate.",
+  "barrier": "Not directly discussed by reviewers.",
+  "spots": "Multiple reviewers report lightened melasma, dark spots, or age spots within one week to a few months; effects described as gradual and visible in comparison photos.",
+  "blemishes": "Several reviewers with acne-prone skin report no new breakouts and fading acne scars; one reviewer reports the opposite, stating it broke her out and burned her skin.",
+  "oiliness": "Reviewers describe the texture as non-oily, non-greasy and quickly absorbed, helping combination skin achieve a dewy rather than shiny finish."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle leaks during travel or shipping",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Serum oxidizes and turns yellow",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild stinging or tingling on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value relative to price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills or flakes under some moisturizers",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible glow and brightening effect",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "gracious",
+   "titre": "unfortunate events..",
+   "texte": "I got this as a diamond gift .. and unfortunately it broke me out and burned my skin i dont recommend",
+   "date": "2026-01-21",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Heather",
+   "titre": "Only 1 I can use",
+   "texte": "I have sensitive skin and Rosacea. This is the first Vit C serum I can use that doesn't burn",
+   "date": "2026-07-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Christy J.",
+   "titre": "Favorite serum",
+   "texte": "I have used Hyper Glow for a few months now and I can definitely tell a difference when I'm not using it. My skin looks more pale and a little more dry. It's my go to for skin correcting, precious acne scars have lightened and it helps to manage my combo skin with a lightweight dewy look.",
+   "date": "2025-07-22",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stephanie W.",
+   "titre": "Love it!",
+   "texte": "I absolutely love this serum. I have not found anything else that makes my skin feel such relief. I have dry and sensitive skin that gets easily red, this helps eliminate the redness without further sensitivity. My skin feels brighter and softer.",
+   "date": "2026-04-23",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bridgette W.",
+   "titre": "Love it!",
+   "texte": "Cleared up my winter dry skin on my face in just a few days and it feels lovely dries like nothing' there. I was just using baby lotion on my face and for a long time that was fine but I could instantly tell this was better. So glad to have found it. I just use the serum and daily face cream after I shower at night.",
+   "date": "2026-02-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Britt",
+   "titre": "Working after only 1 week",
+   "texte": "Loving this DIME HYPER GLOW SERUM. I can already see a drastic lightening of my melisma spots on my cheeks after only one week of use. I'd like to buy a micro needling roller to use before applying so the product can get even deeper into my skin. Excited to see more results!",
+   "date": "2025-07-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CHRISTY V.",
+   "titre": "A must have!",
+   "texte": "This is a must have/use when using the TBT crème. My skin is so much more firm with less fine lines since I started using the combo a couple of years ago",
+   "date": "2026-03-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

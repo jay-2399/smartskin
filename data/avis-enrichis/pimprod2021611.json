@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2021611",
+ "asin": null,
+ "pid": "pimprod2021611",
+ "source": "ulta",
+ "nom": "Sun Bum Face Lotion SPF 70",
+ "note": 4,
+ "nbAvis": 68,
+ "lus": 61,
+ "collectes": 61,
+ "segments": {
+  "oily": "Oily-skin reviewers are split: several say it leaves them greasy, shiny, or oilier for hours, while others (including a self-described 'oily skinned person') report no extra oiliness and no breakouts.",
+  "dry": "Reviewers with dry or very dry skin generally find it non-drying, lightweight, and moisturizing, with one calling it 'not drying to my very dry skin.'",
+  "combination": "The one combination-skin reviewer, oily-leaning, says it does not cause excess oil or white cast and works well under makeup.",
+  "sensitive": "Sensitive-skin reviewers report mixed results: several say it doesn't irritate or break them out and call it their holy grail, but others describe stinging eyes, a chemical burn, or a bad reaction.",
+  "normal": "One reviewer with dry-to-normal skin reports no breakouts and a dewy, non-greasy finish.",
+  "mature": "One older reviewer reports easy application, quick absorption, and no eye burning, valuing it for added protection with age."
+ },
+ "concerns": {
+  "aging": "An older reviewer values it for extra protection and reports easy, non-irritating application; no other aging-specific effects are mentioned.",
+  "dehydration": "Several dry-skin reviewers say it doesn't dry out their face and feels moisturizing; one with easily dry, irritated skin reports no dryness at all.",
+  "redness": "One acne-prone reviewer whose face usually reddens with sunscreen says this one does not cause redness; no other redness reports appear.",
+  "barrier": "No reviews specifically describe barrier damage or repair from this product.",
+  "spots": "Not discussed as a distinct concern separate from blemishes/breakouts in these reviews.",
+  "blemishes": "Breakouts are the most divisive point: many acne-prone or oily reviewers report no new breakouts, but several others explicitly blame this sunscreen for new pimples or breakouts, including one who calls it 'making my skin breakout like crazy.'",
+  "oiliness": "Oiliness reports split sharply: many call it greasy, heavy, or productive of extra shine (with white pilling balls for some), while an equal number of oily-skin reviewers say it feels lightweight, non-greasy, and leaves no oily cast."
+ },
+ "aspects": [
+  {
+   "libelle": "White pilling balls on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Runny, drippy consistency from tube",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or burns eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good base under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance mild or undetectable",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value for spf and size",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Laney",
+   "titre": "bad reaction",
+   "texte": "I‚'m always sensitive to sunscreens but thought this would be a good product to try. After wearing it all day and washing it off at night, I woke up the next morning and my whole face was swollen!!! It gave me a chemical burn ): please be safe using this. not good for sensitive skin",
+   "date": "2021-07-16",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Miranda",
+   "titre": "Extremely greasy",
+   "texte": "I have been searching for a good facial sunscreen for what seems like forever and it seems that the search is still on after trying this product. This sunscreen is terrible! It is extremely greasy and oily and pills so bad, leaving little white balls all over your face that you have to pick off individually-they dont rub in no matter how bad you try. This sunscreen doesnt melt into your skin well at all and feels like vaseline is slathered all over your face. I absolutely do not recommend this product, especially if you have acne or oily skin.",
+   "date": "2023-05-06",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Nicole",
+   "titre": "Eh",
+   "texte": "I have very sensitive acne prone skin and this made my skin burn, so not using it again.",
+   "date": "2022-06-07",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "autumn",
+   "titre": "you need this spf !!!",
+   "texte": "this spf isn't too expensive, has a light smell, leaves the skin with a nice glow without looking oily and i like that it's super lightweight, slightly tacky and has a watery consistency because it makes a good base for makeup!! i have sensitive acne prone skin and this spf doesn't freak my skin out!!",
+   "date": "2023-03-23",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Love",
+   "titre": "My favorite sunscreen",
+   "texte": "I use this product every day as part of my skin care routine. Some might say that it is greasy, but I think it gives more of a dewy look. It should be noted that I have dry to normal skin. It has not caused me to break out. It does not have a scent and it is really light weight which I love. It does not leave a white cast either. I have tried other more expensive sunscreens and I prefer this one over the others. Also it does really well under make up. I read some of the other reviews about it leaving white filaments that you have to peel off, but I've never had that issue.",
+   "date": "2022-07-04",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kat",
+   "titre": "My favorite sunscreen",
+   "texte": "Honestly, this is SUCH a good sunscreen. It doesn't burn my eye even when I put it on my eyelids, and its not greasy or heavy at all even as an oily skinned person. And absolutely NO whitecast. Love it so much.",
+   "date": "2025-03-19",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lara B.",
+   "titre": "Smooth and creamy, this lightweight",
+   "texte": "Smooth and creamy, this lightweight heavyweight is not drying to my very dry skin. It glides on and is absorbed quickly - no white streaks! This is my first time using Sun Bum on my face, and I am sold.",
+   "date": "2024-11-16",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

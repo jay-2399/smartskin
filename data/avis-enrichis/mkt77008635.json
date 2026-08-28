@@ -1,0 +1,161 @@
+{
+ "ref": "mkt77008635",
+ "asin": null,
+ "pid": "mkt77008635",
+ "source": "ulta",
+ "nom": "Dr. Brandt No More Baggage",
+ "note": 3.77,
+ "nbAvis": 2093,
+ "lus": 63,
+ "collectes": 98,
+ "segments": {
+  "sensitive": "One reviewer in her 40s with sensitive, dry skin reported no irritation from the product but noted a slight orange cast.",
+  "mature": "Reviewers in their 50s, 60s and 70s report visible smoothing and reduction of under-eye bags, with several becoming repeat buyers, though one mature user found it only tightened skin temporarily without reversing aging.",
+  "dry": "Reviewers describing their under-eye area as dry report the product increasing dryness, flaking, and even accentuating fine lines."
+ },
+ "concerns": {
+  "aging": "Mature reviewers (50s-70s) report visible reduction in under-eye bags and smoother appearance, sometimes within minutes; one reviewer notes it is a temporary tightening effect that will not reverse signs of aging.",
+  "dehydration": "Several reviewers report the product itself causes dryness, flakiness, or a crepey look under the eyes; one rated it 6/10 on hydration despite not finding it heavy.",
+  "blemishes": "Not discussed in these reviews.",
+  "spots": "A minority of reviewers targeting dark circles and discoloration report brightening and reduced discoloration; several others report no change in dark circle color despite tightening sensation.",
+  "oiliness": "Not discussed in these reviews.",
+  "redness": "Not discussed in these reviews.",
+  "barrier": "One reviewer reports a burning sensation and residue after application; another reports swelling and puffiness the morning after use, prompting a return."
+ },
+ "aspects": [
+  {
+   "libelle": "Tightening sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Orange or peachy tint residue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires warming between fingers to apply",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Blends well and absorbs under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to amount used",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes dryness or flaking under eyes",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Excessive marketing emails and social media contact",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "AZMOM",
+   "titre": "Did Nothing",
+   "texte": "I was hoping this would diminish my eye puffiness & dark circles. But after 2 weeks of using I compared with pictures and did not see any difference. I am in my 40s and have dryness too and sensitive skin. So I tried under and over moisturizer. Did not cause irritation but did have a slight orange cast. Unfortunately I ended up returning.",
+   "date": "2025-02-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Steph",
+   "titre": "can't seem to get a smooth application",
+   "texte": "There might be some minimal depuffing but I've followed the application instructions and always have orange crumbly chunks on my skin. I also notice that it makes my skin under my eyes very dry which isn't ideal for makeup application. It was worth a shot but i'm not going to purchase again",
+   "date": "2025-01-29",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Disappointed",
+   "titre": "Disappointed",
+   "texte": "I used this every day and night for just over 3 weeks and didn't see a difference, which was diappointing since I have large bags under my eyes and my hooded eyes are heavy. It's not heavy. Not a very creamy eye cream, but I'd rate it 6/10 in hydration. I regret my purchase and wouldn't buy it again.",
+   "date": "2025-01-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Vivi",
+   "titre": "Temporary fix",
+   "texte": "Basically what this eye cream does is tighten the area underneath your eye and stretch it out, which definitely feels a little weird on my skin, but significantly helped to reduce the bags under my skin. I don't think this is a product meant to for long-term use – it won't help reverse signs of aging – but it will help to lift your eyes temporarily. I would use a different product if you are looking for long-term benefits, but it works for a night out or somerning like that.",
+   "date": "2025-05-22",
+   "verifie": false,
+   "utiles": 21,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Catherine G.",
+   "titre": "Great product!",
+   "texte": "I absolutely love Dr. Brandt NEEDLES NO MORE - NO MORE BAGGAGE under eye treatment! This lightweight gel cream has become an essential part of my beauty routine. It instantly tightens and smooths my skin, reducing puffiness and brightening dark circles. I was amazed to see visible results in just 5 minutes! The formula feels so luxurious, and the Filmatrix technology combined with caffeine and peptides creates a second-skin effect that keeps my under-eye area looking fresh and stress-free all day. I also love that it works beautifully under makeup or on its own. Whether I'm getting ready for a big event or just need a quick pick-me-up, this product delivers immediate results and provides long-term benefits for overall under-eye health. It's perfect for all skin types, and I can see why it's a go-to for influencers, makeup artists, and celebrities.",
+   "date": "2025-01-13",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jadeen F.",
+   "titre": "It works wonderfully!",
+   "texte": "I'm a 63 year old woman with bags and dark circles under my eye from lack of sleep and long work hours and this product performs miracles!! Love it. It's my z3rd time ordering and will continue whenever it goes on sale!!",
+   "date": "2024-12-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ann W.",
+   "titre": "True to what it says",
+   "texte": "I am a lady in my 70's, who of late have been getting bags under my eyes . After using this cream now for a few days I already see a big difference. I'll certainly get some more once this tube has finished. Ann",
+   "date": "2025-01-28",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

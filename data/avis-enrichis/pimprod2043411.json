@@ -1,0 +1,157 @@
+{
+ "ref": "pimprod2043411",
+ "asin": null,
+ "pid": "pimprod2043411",
+ "source": "ulta",
+ "nom": "Mario Badescu Deep Blemish Solution",
+ "note": 4.55,
+ "nbAvis": 22,
+ "lus": 20,
+ "collectes": 20,
+ "segments": {
+  "sensitive": "One reviewer with sensitive skin reports the product caused no new breakouts but was somewhat drying.",
+  "mature": "Reviewers who mention aging or perimenopause/late-30s hormonal shifts report the product helps with hormonal and cystic breakouts tied to those changes."
+ },
+ "concerns": {
+  "blemishes": "Most reviewers describe cystic, hormonal, or under-the-skin blemishes shrinking, drying out, or becoming less painful within one to four days of use; two reviewers with cystic acne report no visible change after weeks of use.",
+  "spots": "One reviewer notes lingering red spots/discoloration after the blemish itself resolved, attributing it to healing rather than the product's failure."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast overnight reduction of blemishes",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thin, watery, runny texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong alcohol smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Wears well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No new breakouts caused",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "No effect for some cystic acne",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Cathy",
+   "titre": "Didn't work for me.",
+   "texte": "I bought this almost 3 weeks ago now because of all the five-star reviews, but so far this hasn't worked for me at all. I've been struggling with cystic acne on my chin/jaw and neck for the past few months, and I was hoping this would help clear some of it up, but so far there has been absolutely no change. The only reason this gets two stars instead of one is because I have sensitive skin, and this hasn't given me any additional problems or breakouts, besides being a little drying. But I don't see myself buying this again.",
+   "date": "2025-10-20",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kelly",
+   "titre": "Magic Eraser for Blind Pimples",
+   "texte": "I have never had a lot of acne or breakouts. However, as I've aged I've notice the more frequent occurrence of painful blind pimples to coincide with monthly hormone changes. I ran across this when looking for a spot treatment and decided to try it based on reviews specifically regarding blind pimples. The product has high viscosity and seemed thin, so I was skeptical. However, it works so fast it is like a magic eraser. After one night my blind pimple was far less painful and dramatically reduced in size. After a second night of use it was not painful and all and almost unnoticeable. I was thoroughly impressed. I recently tried it on a regular pimple and had equally fast results. I put a little from the bottom directly on the blemish. There is no need to squeeze the bottle because the product is very viscous. I will use a Q-tip to feather or smooth any product out from the edges of the affected area. I can wear tinted moisturizer over it without any issue. I am truly amazed at how fast and well it worked at clearing stubborn painful blemishes.",
+   "date": "2025-01-07",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jay",
+   "titre": "Amazing for Cystic Acne!",
+   "texte": "I get cystic acne in my beard, on my neck, and on my beck. Cystic acne hurts because they're the pimples under your skin that can cause real scarring if popped. This liquid has been a staple my skin care routine since 2019. My only complaint is that its s but tricky to apply because it's a bit runny like watery milk.",
+   "date": "2025-02-28",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah",
+   "titre": "Magic!",
+   "texte": "This stuff is amazing. It works fast without drying out my skin. My skin has become more variable in peri menopause, but this helps tackle the hormonal breakouts. It also wears well underneath makeup. Highly recommend!!",
+   "date": "2025-04-06",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Catherine",
+   "titre": "Stopped cystic acne from taking days to go away",
+   "texte": "I had 6+ cysts forming on my chin for weeks. This brought some to the surface and caused others to dry out. I still have red spots/discoloration (probably because it's still healing) but they are not painful anymore and are not bumps.",
+   "date": "2026-03-03",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristina",
+   "titre": "I always keep this in stock",
+   "texte": "Ive been using this product for a couple years now and it's the 1 thing i make sure I never run out of! Every since entering my late 30s I've dealt with hormonal acne and I tend to get painful cystic pimples around my jawline and this stuff works wonders to help the pain, reduce size, and bring the pimple to a head. Not to mention the price is great!",
+   "date": "2025-09-30",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Claudia",
+   "titre": "Amazing",
+   "texte": "After trying many products to treat my terrible neck fungal acne, I can say this is the ONLY one that finally worked. First time I used it I saw results overnight and after 3 or 4 days most of it is dried or gone. I'm so happy HIGHLY RECOMMEND.",
+   "date": "2025-10-18",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

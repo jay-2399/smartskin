@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2033208",
+ "asin": null,
+ "pid": "pimprod2033208",
+ "source": "ulta",
+ "nom": "florence by mills Clear The Way Clarifying Mud Mask",
+ "note": 4.4,
+ "nbAvis": 273,
+ "lus": 80,
+ "collectes": 100,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers most often report burning, stinging, redness, or a rash on application, though a few say it works better than expected once removed.",
+  "dry": "Reviewers describing dry skin report both burning/allergic reactions and, in other cases, softer, more hydrated skin afterward.",
+  "combination": "One reviewer with sensitive combination skin reports the mask calmed a breakout and cleared her skin quickly.",
+  "oily": "A reviewer recommends the mask specifically for oily skin, and another notes it helps control oil.",
+  "normal": "One reviewer contrasts her own sensitive/dry reaction with her husband's normal skin, which showed no redness or burning."
+ },
+ "concerns": {
+  "spots": "Multiple reviewers report blackheads visibly reduced or removed, sometimes within one use; one reviewer says the mask made her blackheads worse.",
+  "blemishes": "Several reviewers say the mask cleared pimples or breakouts and helped with acne spot-treatment; one reviewer reports her pimples looked worse after use.",
+  "redness": "Redness after rinsing is widely reported, described by many as normal/temporary but by others (especially sensitive skin) as lasting irritation.",
+  "barrier": "A few reviewers with sensitive or reactive skin describe rashes, small breakouts, or dry, bleeding patches following use, alongside others who report no barrier issues at all.",
+  "oiliness": "Reviewers mention the mask helping control oil and unclog pores, with no dissenting reports on oiliness specifically.",
+  "dehydration": "Several reviewers say the mask left skin feeling hydrated and smooth rather than dried out, with no dissent on this point.",
+  "aging": "No reviewer discusses mature skin or anti-aging effects."
+ },
+ "aspects": [
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Fast drying time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Messy or hard to remove",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small quantity for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible pore-clearing effect",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Maddie D.",
+   "titre": "Not for Sensitive Skin",
+   "texte": "I bought this mask several months ago and have used it on my skin in different stages across time to really give it a chance. Every time I've used it, it burns on application and leaves my skin feeling tight, irritated, and super red. Also, this mask is messy. It splatters when you squeeze the tube and gets everywhere. It has stained my washcloths, towels, and even clothes. This mask does an okay job on my skin, but the cons outweigh the pros.",
+   "date": "2023-12-08",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "tamara",
+   "titre": "Well",
+   "texte": "It worked insanely well for my husbands skin , so I gave it a go. When it was on it felt really nice, didn't burn. Once I washed it off I noticed red all over my face :( now, this didn't happen to my husbands skin so I'm wondering if it's because I have more dry skin/ sensitive skin. So, for normal skin types (like my husband) absolutely recommend. For more sensitive / dry skin please do not get. My whole face is red and irritated :l",
+   "date": "2025-04-04",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Lily",
+   "titre": "Ehh this depends",
+   "texte": "I really loved this product my best friend gave it to me, (her face got really red and irritated after using). And I used every couple of weeks for a while... then I had an allergic reaction. Idk why my skin type is dry so idk if that has anything to do with it? just be careful please. (btw I'm not a hater it love florence!)",
+   "date": "2023-07-26",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cece",
+   "titre": "Honestly surprised me how well it worked!",
+   "texte": "I have very sensitive combo skin. I tried a new face lotion that gave me the worst breakout Ive ever had and dried out my skin. This mask stopped my breakout and helped clear up my skin right away! Will be buying again!",
+   "date": "2025-12-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alex",
+   "titre": "AMAZING",
+   "texte": "I have struggled with black heads on my nose and chin for yearssss. This is the first and only product I have found that works. I use it 2-3 times a week right after I shower and my black heads are practically gone! I love this product and I love you Millie!!!",
+   "date": "2022-11-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ally",
+   "titre": "So Great! 🐳💜",
+   "texte": "I truly think this product works really well on my skin, aswell the whole clear the way collection does. I recommend this with all my heart especially if you have oily skin. 💜🐳",
+   "date": "2022-12-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "BAD",
+   "titre": "WORST PRODUCT EVER!!😭",
+   "texte": "It burned my face made my blackheads worse and my pimples look even worse and left my face red!!!!😭😭😭😰😰😰",
+   "date": "2023-07-17",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

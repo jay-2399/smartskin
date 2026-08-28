@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2052432",
+ "asin": null,
+ "pid": "pimprod2052432",
+ "source": "ulta",
+ "nom": "I Dew Care Resting Bliss Face Calming Korean Centella Asiatica Sleeping Mask",
+ "note": 4.74,
+ "nbAvis": 57,
+ "lus": 57,
+ "collectes": 57,
+ "segments": {
+  "sensitive": "Numerous reviewers describe sensitive or reactive skin and report the mask feels gentle, soothing, and calming with reduced irritation by morning, though one reviewer with normally non-sensitive skin reports breakouts.",
+  "dry": "Reviewers with dry skin report the mask is hydrating and rich enough to replace a heavier night cream, leaving skin soft and moisturized without heaviness.",
+  "combination": "Two reviewers identifying as combination skin report the mask helped reduce acne severity and left skin feeling good in the morning.",
+  "mature": "One reviewer describes aging skin and reports the mask makes her face feel amazing and is a good fit for frequent use."
+ },
+ "concerns": {
+  "aging": "One reviewer with aging skin reports the mask feels amazing and is well suited to her skin; no dissent noted, but data is limited to a single account.",
+  "dehydration": "Many reviewers across skin types report visibly more hydrated, plump, and soft skin by morning, with several noting the effect after just one use.",
+  "redness": "Most reviewers who mention redness report a visible reduction or calming effect overnight, though one reviewer states the product did not noticeably calm her natural redness despite added hydration.",
+  "barrier": "One reviewer explicitly credits the mask with helping repair the skin barrier alongside calming redness and irritation.",
+  "spots": "One reviewer with damaged, irritated skin on the chin reports it looked less red and irritated after use.",
+  "blemishes": "One reviewer broke out after using the product, while most others report no breakouts and describe the formula as non-comedogenic feeling.",
+  "oiliness": "Reviewers consistently describe the texture as non-greasy and quick to absorb, with no reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight gel-cream texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs without greasy residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Does not transfer to pillow",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Subtle lavender scent liked by most",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Glow-in-the-dark jar seen as fun",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Generous product amount for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Caused breakout in one non-sensitive user",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Kelly",
+   "titre": "Didn't work for my skin",
+   "texte": "I received this complimentary from I dew care in exchange for my honest review. This has really cute packaging that glows in the dark. Definitely seems like it's geared for younger kids. This unfortunately did not work for my skin. I'm not usually sensitive but this made me break out.",
+   "date": "2025-07-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "",
+   "titre": "Great buy for skin that needs calming",
+   "texte": "I don't usually care about the packaging, I focus more on the effectiveness of the product but I have to comment how unique and cute this container is glowing in the dark! I have dry, sensitive, some red skin and this made my skin visibly calmer/less red in the morning!! You get double the product amount than most skincare containers come!! It's cruelty free that means a lot to me. Complimentary from idewcare",
+   "date": "2025-07-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mia",
+   "titre": "Great for sensitive skin!",
+   "texte": "I have a very sensitive and dry skin and usually need a rich moisturizer for night, but this product resolved my issue! It's so rich and lightweight at the same time and it contains centella asiatica which my skin loooves. This product was gifted by idewcare for my honest review!",
+   "date": "2025-07-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Meggie",
+   "titre": "I absolutely love this Mask!",
+   "texte": "I absolutely love the New I Dew Care Resting Bliss Face Calming Korean Overnight Mask. When I wake up in the morning and rise off the mask my face feels amazing! I have aging skin so this is perfect for me to use frequently. I received this product complimentary from I Dew Care in exchange for my honest review.",
+   "date": "2025-08-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nan",
+   "titre": "Enjoyed",
+   "texte": "Complimentary from idewcare. I enjoy it. It is not super drying and makes my skin feel good after waking up. I do think it helps with acne and made a noticeable difference. I would recommend for those with combination skin like I have. All in all I will be getting again",
+   "date": "2025-07-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lindsey",
+   "titre": "Great for skin repair",
+   "texte": "I love this repairing overnight face mask. I have some damaged skin on my chin and after a using this mask my face looks less red and irritated. I love that it has cica to help repair my skin and it also smells really nice. Gifted by I Dew Care.",
+   "date": "2025-08-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rae.skinhealth",
+   "titre": "Great for Calming",
+   "texte": "This is a great sleeping mask for calming redness, irritation and helping repair the skin barrier.",
+   "date": "2025-08-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

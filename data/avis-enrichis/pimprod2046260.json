@@ -1,0 +1,171 @@
+{
+ "ref": "pimprod2046260",
+ "asin": null,
+ "pid": "pimprod2046260",
+ "source": "ulta",
+ "nom": "La Roche-Posay Travel Size Toleriane Purifying Foaming Face Wash for Oily Skin",
+ "note": 3.46,
+ "nbAvis": 13,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {
+  "oily": "Reviewers with oily or oily t-zone skin describe the cleanser as effective at controlling shine and feeling clean without goopiness, though one with oily chin sections reports redness and raw skin developing after a week.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it works well and controls oiliness without breakouts, while others report their skin became dry, itchy, broke out in hives, or turned red and raw.",
+  "combination": "One reviewer with combination skin reports it cleanses well without drying her out when used with extra water and a light hand.",
+  "mature": "One reviewer notes the cleanser also works well on mature skin when combined with combination/oily skin.",
+  "dry": "One reviewer reports her skin became super dry and itchy with new breakouts after starting use."
+ },
+ "concerns": {
+  "oiliness": "Multiple reviewers with oily or shiny skin report the cleanser controls daytime shine and leaves skin feeling clean; one reviewer with an oily, cystic chin area says it helped dry out a deep pimple.",
+  "spots": "One reviewer who had never had pimples before developed many after use; another with a deep pimple/cyst says the product helped dry it out, so reports are mixed.",
+  "blemishes": "Reports diverge: some say it does not cause breakouts even for oily/sensitive skin, while at least one reviewer describes new pimples and another notes a cystic spot that was helped.",
+  "redness": "Several reviewers report their skin became red, raw, or more sun-sensitive after use, contradicting others who report no irritation.",
+  "barrier": "Some reviewers describe skin becoming dried out, itchy, or reactive (hives, rawness), while others report no drying and a clean, non-tight feel."
+ },
+ "aspects": [
+  {
+   "libelle": "Non-drying, clean feel",
+   "polarite": "pos",
+   "concerne": [
+    "combination",
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Causes dryness or itchiness",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Triggers hives or redness",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Effective oil control",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Convenient travel size packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Neutral, non-goopy scent and texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Company tests on animals",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Marlenne",
+   "titre": "Breakout",
+   "texte": "I bought this to clean my face daily but it made my face breakout in alot of pimples. Ive never had pimples before so this was very upsetting. My face is super dry and itchy now.",
+   "date": "2025-01-18",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Danielle",
+   "titre": "I would not buy this again!",
+   "texte": "The first 3 days I loved how clean my face felt after use. It was all good until it wasn't. I have sensitive skin and oily tzones this product was too strong for me. My skin was dried and broke out in hives. A recommendation that was over hyped.",
+   "date": "2026-07-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sophia",
+   "titre": "Helped but also hurt",
+   "texte": "I bought this because I had some oily sections in my chin. One had a deep pimple/cyst. It did help dry that out but after a week I noticed that my skin was red and raw in the other parts. Turns out I had a reaction to it :( Smell was fine, didn't feel goopy, did help make skin feel clean.",
+   "date": "2025-08-07",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Riss",
+   "titre": "Great for sensitive and oily skin!",
+   "texte": "I love using this product after evening showers. I have sensitive skin and tend to get very oily and shiny throughout the day, especially during a workday when sitting under lighting for 8 hours. Highly recommend if you have these issues and suggest following with light moisturizer (i use cerave pm)! Wet hands, and rub together until foaming then GENTLY massage over face for about 30 seconds and rinse with warm water! Follow up with cold rinse before applying moisturizer.",
+   "date": "2026-01-16",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lily",
+   "titre": "10/10!!",
+   "texte": "I would definitely buy this again i got the travel size cause i didnt know if it would break me ou tor not but it doesn't and my face is very sensitive and oily i love this and would recommend and depending on how much you use it could go a long ways!",
+   "date": "2024-09-16",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gail",
+   "titre": "Love this cleanser! Just use it correctly :)",
+   "texte": "This is a GREAT cleanser for combination/oily skin (even mature skin). Unless I have a packed on face of makeup, I don't even do a pre cleanse. The key to this performing well is to use a small amount and mix with a lot of water to suds it up, using your fingers. Then use a cloth to complete the cleansing. Does a great job without drying me out.",
+   "date": "2026-07-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Savena",
+   "titre": "A no for me",
+   "texte": "My face is more prone to sun damage after using more sensitive and red",
+   "date": "2025-07-11",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

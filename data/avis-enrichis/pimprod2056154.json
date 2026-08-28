@@ -1,0 +1,155 @@
+{
+ "ref": "pimprod2056154",
+ "asin": null,
+ "pid": "pimprod2056154",
+ "source": "ulta",
+ "nom": "STARFACE Star Treatment",
+ "note": 4.92,
+ "nbAvis": 12,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {
+  "sensitive": "One reviewer with super sensitive, dry, acne-prone skin reports this as the best product she has used, with no irritation mentioned.",
+  "dry": "A reviewer with super sensitive dry skin found it effective on acne spots without additional dryness beyond the gel drying out visibly, which another reviewer notes as a general downside of the formula."
+ },
+ "concerns": {
+  "spots": "Multiple reviewers report that acne marks and spots dry out and lessen in intensity quickly, including shrinkage of a blackhead over a couple of uses and a stubborn spot with twice-daily use; one describes a pimple gone overnight.",
+  "blemishes": "Reviewers describe it drying up sores, pimples, blisters and open zits, with one noting it dries the blemish but not the surrounding skin.",
+  "oiliness": "One reviewer states the texture leaves no oil after use."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast visible shrinkage of spots",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can dry out and flake with use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tacky texture that dries down quickly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small, portable size",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stays on skin for extended wear",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Starface 3.",
+   "titre": "Works like a charm!!",
+   "texte": "I absolutely love this treatment! I have super sensitive dry skin that is acne-prone and this is by far the best product I've ever used. I like that it's tacky when it comes out but dries down really well and really quickly. My acne spots actually shrink when I use this, especially twice a day on a super stubborn spot! I highly recommend, the price is also pretty good for what you get; worth it for sure!!",
+   "date": "2026-03-10",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Sol L.",
+   "titre": "Love this!",
+   "texte": "I love using the star treatment. It dries out and lessens the intensity of any acne mark I apply it to, and does so quickly! My only qualm about it is that it can get dry and flaky like any other gel, so now, I stick to using it in my evening routine.",
+   "date": "2026-06-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Allison",
+   "titre": "Great!",
+   "texte": "Dries up blemishes but not skin. I used it on a blackhead in a hard to reach spot of my back and it shrunk significantly in a couple of uses.",
+   "date": "2026-08-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nicole A.",
+   "titre": "Star Treatment",
+   "texte": "I really like this treatment it dries up sores , pimples etc , it has a nice tingling sensation when you apply it. It also stays on for a while. Definitely worth giving it a try if you suffer from blisters or open zits any blemishes really. Definitely recommend trying it.",
+   "date": "2026-03-20",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Miranda A.",
+   "titre": "Does the job!",
+   "texte": "Perfect addition to my skincare routine and it works. I've always had annoying acne and as I got older yeah it got slightly better but I still have those stubborn guys. Starface has been a godsend for me!",
+   "date": "2026-04-07",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "K8",
+   "titre": "STELLAR SHRINKAGE",
+   "texte": "I am genuinely so stunned by how fast and effective this product is on my pimples!! put it on before bed and then put a star over top and I woke up to a spotless face! highly recommended by me < 3",
+   "date": "2026-03-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Haylee K.",
+   "titre": "My ride or die",
+   "texte": "Loveeee this stuff!! The texture is perfect and doesn't leave any sort of oil and works great for me!",
+   "date": "2026-03-23",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": "The sample is small (12 reviews, only one below 5 stars) and most reviewers do not specify their skin type, so segment-level conclusions beyond acne-prone and one sensitive/dry case are limited."
+}

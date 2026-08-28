@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2038196",
+ "asin": null,
+ "pid": "pimprod2038196",
+ "source": "ulta",
+ "nom": "COSRX The Niacinamide 15 Serum with Acetyl Glucosamine + Zinc PCA",
+ "note": 4.56,
+ "nbAvis": 616,
+ "lus": 77,
+ "collectes": 104,
+ "segments": {
+  "oily": "Reviewers with oily skin frequently report reduced shine, controlled sebum through the day, and smaller-looking pores, with several calling it a game changer for oiliness.",
+  "dry": "Reviewers with dry skin report it hydrates without stinging or worsening dryness, though one with very dry skin paired it with tretinoin and still found it plumping rather than drying.",
+  "combination": "Combination-skin reviewers report less oil in the T-zone, fewer blackheads, and improved pore appearance, with mixed views on how much difference it makes over time.",
+  "sensitive": "Sensitive-skin reviewers mostly report no irritation and calming of redness, though a few describe mild stinging, burning, or a flare-up when overused or combined with vitamin C.",
+  "normal": "One reviewer describes normal-to-oily mature skin and reports the serum works well without causing redness or inflammation.",
+  "mature": "Mature-skin reviewers (in their 40s-70s) report plumping, reduced milia, smaller pores, and softer skin, with some calling it the first product to help long-standing issues like sebaceous hyperplasia or smile-line creases."
+ },
+ "concerns": {
+  "aging": "Mature reviewers report plumper, softer skin, fewer fine lines, and improved smile-line creases; one calls the change small but noticeable, another describes it as drastic after one month.",
+  "dehydration": "Several reviewers say it hydrates without drying out the skin, including one with very dry skin using tretinoin; one reviewer explicitly says she saw no added hydration or bounce.",
+  "redness": "Most reviewers with rosacea, sensitivity, or reactive skin report reduced redness and inflammation; one reviewer instead experienced a flare-up and burning redness from overapplication.",
+  "barrier": "One reviewer with a compromised barrier found the serum too strong when combined with vitamin C, while others with sensitive or eczema-prone skin report it soothed scaly, irritated patches.",
+  "spots": "Reviewers report fading of dark spots, acne scars, and discoloration, including cases tied to picking, contact dermatitis, and hormonal acne; results are described as visible within days to a few weeks.",
+  "blemishes": "Many reviewers report fewer breakouts, calmer cystic or hormonal acne, and smaller pores; a couple of reviewers instead saw new breakouts or clogged pores and blackheads emerge with daily use.",
+  "oiliness": "Numerous reviewers report a clear reduction in shine and oil production through the day, with some calling it their main solution for excessive oiliness; a small number saw no change in oiliness at all."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sticky or tacky residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Dropper fails to draw last portion",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight stinging on first uses",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Clean, unscented feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible change for some users",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Kaitlyn",
+   "titre": "Good product, be careful of over applying",
+   "texte": "I have used this product for two weeks and apply it after a BHA. Over the past two weeks I have noticed my pores appear smaller. My only problem was that I think I put it on too frequently in the beginning and caused my skin to flare up and become red. Overall, if you are careful of your skin sensitivity this product will work well for you. I do notice a slight burning when I apply this product, but after my first flare up my skin has been quite happy with it.",
+   "date": "2024-03-27",
+   "verifie": true,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Barbara",
+   "titre": "Love this and can't be without!",
+   "texte": "I am 76 years young and about a year ago, my skin suddenly developed milia on my upper lip and chin. I was using a sonic facial brush, PTR 2% salicylic acid pads and LaRoche Posay 2% sallicylic acid face cleanser! No matter what I did, those little white bumps showed up every day, driving me to express them before washing my face. When I saw this product, I thought \"maybe?\" Well, it is indeed a miracle worker! No more milia, pores looking smaller on my nose - just rosy, healthy skin. I never had shiny, oily skin - just very over-productive oil glands in certain areas. This is great because it lessens any red marks (I also have Rosacea) and doesn't dry out the non-problem areas of my face. I absolutely recommend - regardless of your age!",
+   "date": "2024-07-28",
+   "verifie": false,
+   "utiles": 45,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cam",
+   "titre": "Stronger than hormonal acne, safe for sensitive skin",
+   "texte": "My skin is no longer oily and looks so healthy. Breakouts have totally cleared after just two weeks, just by adding this to my nighttime routine. My skin is so sensitive that I'm allergic to some fabrics, but this doesn't cause any redness or swelling. Highly recommend!",
+   "date": "2024-05-09",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Beverly W.",
+   "titre": "I love the COSRX skin",
+   "texte": "I love the COSRX skin care product line! My skin is on the drier side but still very sensitive. It's been very difficult to find products that keep my face moisturized without breaking out. So many things, even very expensive and quality products, have petrolatum and shea butter in them. Both of them cause breakouts for me. The Niaacinamide 15 is keeping my skin looking radiant. I have bought sever other products and my skin is moisturized and white heads are vanishing.",
+   "date": "2023-02-08",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Taylor",
+   "titre": "I Love It",
+   "texte": "My skin pours oil but is also extremely dry? I was super worried that when I applied this, it would burn my dry skin and honestly make things worse. It truly felt almost soothing and soaked into my skin very nice without drying it out. Most serums are just not for my really sensitive acne prone skin, but this one I'm truly in love with. I use it during the day because I use my tretinoin prescription at night.",
+   "date": "2022-11-12",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "LL",
+   "titre": "Works but…",
+   "texte": "I was really happy with this product at first. It does what it claims it will do. But with every day use I noticed my pores were getting more and more clogged. I was getting blackheads and breakouts, and my sebaceous filaments were getting larger. As soon as I stopped using this my skin smoothed out again. I definitely would not recommend this for every day use. I will keep this to use for special events only.",
+   "date": "2024-07-25",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JO",
+   "titre": "Great product",
+   "texte": "Great product for matire skin. The packaging needs improvement. The suction doesnt get any product out so i have to pour directly from the bottle.",
+   "date": "2025-07-09",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

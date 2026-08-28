@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2059048",
+ "asin": null,
+ "pid": "pimprod2059048",
+ "source": "ulta",
+ "nom": "ma:nyo Pure Soybean Cleansing Oil",
+ "note": 4.59,
+ "nbAvis": 46,
+ "lus": 37,
+ "collectes": 37,
+ "segments": {
+  "oily": "Reviewers with an oily zone or oily skin report the product removes sebum and residue from the T-zone and nose without leaving an oily film, though one with a mixed oily/sensitive zone found it stripping and burning.",
+  "dry": "Reviewers with dry skin report it as hydrating and non-stripping, useful even in winter when skin is extra dry, and one says it improved dryness over time.",
+  "sensitive": "Reports are split: some sensitive-skin reviewers use it with no problems and even see calming of redness or blackheads, while others describe burning, tightness, itching, or irritation that took about a week to resolve, and one suspects an allergic reaction.",
+  "combination": "One reviewer describes normal-to-oily combination skin and found the cleanser stripping with a burning sensation."
+ },
+ "concerns": {
+  "aging": "One reviewer combining this with acids and a retinoid hopes for anti-aging benefits but does not yet report a visible result.",
+  "dehydration": "Most reviewers describe the cleanser as non-drying and hydrating, with several noting improved dryness or comfort after use; one sensitive-skin reviewer nonetheless found it sometimes drying, and one reported stripped, burning skin.",
+  "redness": "One reviewer with rosacea reports visibly less redness after first use; another describes irritation and redness-like tightness and itching that took about a week to calm down.",
+  "barrier": "Several reviewers say the product cleanses without compromising the skin's moisture or comfort, but a few report burning, itching, or prolonged irritation suggesting barrier disruption for their skin.",
+  "spots": "Multiple reviewers, including some using it for teenagers, report a visible reduction in blackheads and smaller-looking pores within about two weeks; no dissent on this point.",
+  "blemishes": "Several reviewers report clearer, breakout-free skin or improvement with acne after continued use; no negative reports specific to breakouts.",
+  "oiliness": "Reviewers consistently describe the cleanser as removing excess sebum and surface oil (including sunscreen and sweat) without leaving a greasy residue."
+ },
+ "aspects": [
+  {
+   "libelle": "Rinses off without oily residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, melting texture on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance is off-putting or overwhelming",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Light citrusy scent is pleasant",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Attractive bottle design",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes burning or stinging on use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Paige",
+   "titre": "I have an oily zone but t",
+   "texte": "I have an oily zone but the rest of my skin is pretty normal, a little sensitive. I was excited to try this, Unfortunately this oil cleanser wasn't for me, it made my face feel stripped and had a burning sensation after using.",
+   "date": "2024-08-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Tiffany",
+   "titre": "Cleans well, but not good for sensitive skin",
+   "texte": "Skin is very soft after first use, but after the second day my skin started to feel tight, itchy and became very irritated. It took a week to calm down. I really wanted to like this product so I tried again and the same thing happened after the second day. I fear I may be allergic to one of the ingredients. It may work for people who do not have sensitive skin.",
+   "date": "2024-01-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Alicia",
+   "titre": "Pretty good so far",
+   "texte": "I used this for the 1st time last night and In the morning I can see the lightness of my redness from rosacea!!! This is my 1st time using Azelaic Acid and I am impressed!!",
+   "date": "2022-11-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cynthia",
+   "titre": "Best cleansing oil on the market!",
+   "texte": "If you have a teenager who is struggling with blackheads, you might want to have them try adding this to their daily/nightly skincare routine. Even if all they do is wash and moisturize, this will be the one step that will help unclog everything. DRY hands, DRY face, less than half a pump is all you need!! Really work it in, as though it were face soap, paying special attention to t-zone and nose. My teens do this step right before getting in the shower.",
+   "date": "2025-01-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hannah",
+   "titre": "Can feel the difference!",
+   "texte": "I have dry and sensitive skin, but I haven't found any problems with this cleanser! I love how clean my face feels after using it, and i have started to notice a reduction in blackheads around my nose and chin!",
+   "date": "2023-05-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Megan",
+   "titre": "New go-to basic",
+   "texte": "Not my favorite smell on a product, but definitely not bad, either. Love the texture and cleansing, face is clear, breakout-free, and comfortable. Good price for the product.",
+   "date": "2024-09-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JillAnne",
+   "titre": "A little goes a long with",
+   "texte": "A little goes a long with this oil cleanser, one of my favorites for when my skin is extra dry in winter!",
+   "date": "2025-01-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

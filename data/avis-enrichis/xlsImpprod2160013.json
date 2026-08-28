@@ -1,0 +1,172 @@
+{
+ "ref": "xlsImpprod2160013",
+ "asin": null,
+ "pid": "xlsImpprod2160013",
+ "source": "ulta",
+ "nom": "Cetaphil UVA/UVB Defense SPF50 Daytime Moisturizer",
+ "note": 4,
+ "nbAvis": 468,
+ "lus": 81,
+ "collectes": 124,
+ "segments": {
+  "oily": "Reviewers with oily skin report the product does not absorb well, leaves an oily or dewy layer under makeup, and one calls it unsuitable for oily skin, though another with combination/oily skin found it too oily specifically after use.",
+  "dry": "Reviewers with dry skin describe it as helpful for flaky, easily irritated skin, but some also report it dries their skin out further after a short time or leaves irritated patches under the eyes.",
+  "combination": "One reviewer says it suits combination skin well, and another with combination/sensitive skin reports no breakouts or irritation, though a third with combination skin felt it left her oily.",
+  "sensitive": "Most sensitive-skin reviewers report no irritation, no breakouts, and a gentle fragrance-free feel suitable for daily use, but a minority describe burning, stinging, redness, or dryness, including under the eyes.",
+  "mature": "One reviewer with mature skin finds it too light and prefers a heavier moisturizer, while another over 40 reports it gives a good glow and pairs well with CC cream.",
+  "normal": "A reviewer with normal-to-dry skin found it burned the skin under her eyes despite trying to introduce it slowly."
+ },
+ "concerns": {
+  "aging": "One reviewer over 40 reports it helps prevent aging and gives a glow when paired with CC cream; another mature-skin reviewer finds it too light for her needs.",
+  "dehydration": "Many reviewers describe lasting hydration and softness without heaviness; a few report the opposite, saying it fails to keep skin moisturized over the day or leaves it drier than before.",
+  "redness": "Several reviewers report new redness or burning after use, particularly around the eyes, while many others report no irritation at all.",
+  "barrier": "A few reviewers describe stinging, burning, or a sandpaper-like sensation on application, with one saying she had to wash it off due to intense burning; most other reviewers report no such reaction.",
+  "spots": "One reviewer bought it hoping to fade dark spots but found it unsuitable for her oily skin; no other reviewer discusses spot-fading results.",
+  "blemishes": "Most acne-prone reviewers report no new breakouts and call it a holy grail for sensitive/acne-prone skin; one reviewer reports it broke her out despite being marketed for sensitive skin, and another reports a breakout with irritation.",
+  "oiliness": "Oily-skin reviewers largely report poor absorption, a persistent oily or dewy film, and unsuitability for oily skin; one reviewer noted oil build-up despite otherwise liking the SPF."
+ },
+ "aspects": [
+  {
+   "libelle": "White cast on darker skin tones",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "normal"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free, low scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Changed formula with new chemical smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump packaging convenient and portable",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy or heavy under makeup",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Good value for daily SPF moisturizer",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "emily",
+   "titre": "burns sensitive skin around eyes",
+   "texte": "Grabbed this bc im trying to find a higher spf for my face and it was 20% off at ulta. I have sensitive, dry to normal skin. This burns the skin under my eyes. I thought I could slowly add it into my routine, but now I have irritated dry patches under my eyes that sting even with some face moisturizers. I have to go back to CeraVe spf 30 Lightweight moisturizer. It's the only one that's moisturizing at least a little bit without being heavy/greasy and never burns around the eyes.",
+   "date": "2024-09-01",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "ajh777",
+   "titre": "NOT suitable for oily skin",
+   "texte": "I purchased this because my go-to day moisturizer was only 30 spf, and with dark spots I'm fighting, I felt it was best to up the spf. I have oily skin, and this sunscreen is absolutely not suitable for oily skin. It does not absorb well, never did all day, and left like an oily layer under my makeup all day. It's leaves a \"dewey\" finish on the skin without makeup, which also isn't what us oily gals want at all. It's going back to Ulta",
+   "date": "2025-05-16",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Sunshine girl",
+   "titre": "Greasy,smelly, white cast",
+   "texte": "I wanted to love the sunscreen because it's a two and one, you get the benefits of a moisturizer and the sunscreen. I absolutely love everything from the Cetaphil brand. However, this sunscreen smells fishy and is thick when you first apply it and immediately leaves a white cast, and you have to continue to rub it in to make the white cast fade away. It's also sticky and heavy and irritates the eyes. Then end up with a shiny face feeling greasy. I have dry skin and if it did that to me, I can't imagine somebody with oily or combination skin.",
+   "date": "2024-05-27",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "dry",
+   "sujets": [
+    "oiliness",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "lizl212_1711",
+   "titre": "Great for sensitive skin",
+   "texte": "My husband is using cetaphil daily facial moisturizer for years now. He has extremely sensitive skin and very dry skin making it look flaky and easily irritated. He uses this moisturizer to help with flare ups and keep his skin moisturized.",
+   "date": "2025-06-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "tienh12_6954",
+   "titre": "Softens and Protects the Skin",
+   "texte": "As someone with combination sensitive skin, finding a daily face moisturizer that provides hydration and sun protection without causing breakouts or irritation can be a challenge. Cetaphil's Daily Oil-Free Facial Moisturizer with SPF 50 has become a dependable part of my skincare routine.If you're looking for an everyday moisturizer with built-in sun protection that actually suits sensitive, oily, or combination skin, Cetaphil's Daily Oil-Free Moisturizer with SPF 50 is an excellent choice. It's simple, effective, and gentle, everything you want in a skincare staple.",
+   "date": "2025-12-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "annaligaya",
+   "titre": "Great for sensitive skin looking for gentle and perfect m...",
+   "texte": "I love using this product. I have an acne prone skin and so finding the perfect moisturizer for my sensitive skin is a hit and miss. This product is my holy grail, I love its consistency and how it does not leave white streak on my face. It's very easy to blend and does not even feel heavy on my face. After using this product I've noticed that I rarely have breakouts. Bonus point is that the product itself is very handy, I can just slip it in my bag and I'm ready to go.",
+   "date": "2024-01-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "beebeeg_8041",
+   "titre": "Very irritating to my skin",
+   "texte": "I love the Cetaphil brand, but this particular one made my face break out and it also irritated my skin and made it dry dryer and patch here. I love Cetaphil products, but this is definitely not one that I would use again. I had to immediately wipe it off my face because it was burning and stinging.",
+   "date": "2025-12-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

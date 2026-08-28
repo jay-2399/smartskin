@@ -1,0 +1,163 @@
+{
+ "ref": "prod2099915",
+ "asin": null,
+ "pid": "prod2099915",
+ "source": "ulta",
+ "nom": "Murad Resurgence Renewing Eye Cream",
+ "note": 3.78,
+ "nbAvis": 117,
+ "lus": 80,
+ "collectes": 101,
+ "segments": {
+  "sensitive": "Several reviewers with sensitive skin or sensitive eyes report stinging, burning, itching, rashes or hives after use, though a few sensitive-skin users report no irritation at all.",
+  "mature": "Reviewers in their 40s, 50s, 60s and menopausal/peri-menopausal skin frequently report visible softening of fine lines, crow's feet and wrinkles with regular use.",
+  "dry": "Reviewers with dry or eczema-prone under-eye skin report relief from flaking, bumpiness and dryness, though one dry-skin reviewer found the cream not moisturizing and left her skin scaly."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visibly softened fine lines, crow's feet and wrinkles, some seeing change within days and others only after weeks or months; a few long-term users see no dramatic change and consider it not worth the price.",
+  "dehydration": "Several reviewers describe the cream as moisturizing, absorbing quickly and improving dryness or crepiness; conversely, some report the product left their under-eye area drier, tight, scaly or flaky.",
+  "redness": "Multiple reviewers develop redness, rashes or swelling around the eyes after applying, with a few describing patches lasting one to two weeks.",
+  "barrier": "Some reviewers describe stinging, burning or a raw, irritated feeling suggesting compromised tolerance, especially with regular twice-daily use; others report zero stinging or burning even with sensitive eyes.",
+  "spots": "A few reviewers report small bumps, hives or breakouts around the eyes after using the product, though most reviewers report no such reaction.",
+  "blemishes": "One reviewer reports being broken out with tiny bumps under the eyes; this is not echoed by the majority of reviewers."
+ },
+ "aspects": [
+  {
+   "libelle": "Pump dries and clogs between uses",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult to extract last of product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich, thick, absorbs well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to small quantity",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting with only a small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or burning on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight feel, layers well with makeup",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Hagitha",
+   "titre": "Not for me. Sad day.",
+   "texte": "I was really excited to try this product because it was my first murad product. I've heard nothing but great things about the brand and when i saw the price tag i felt fancy using it but half way through the day of my first application my eyes started swelling up and over night they were even worst and the swelling and redness went all the way down my cheeks and my skin feels like it's burnt. Idk if I'm just allergic to something in the product but I've never had an allergic reaction and i use many different products and brands.",
+   "date": "2019-10-12",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lori",
+   "titre": "Bad reaction!",
+   "texte": "I splurged and bought this eye cream. It felt good going on but within hours my eyes were stinging and watering and it was a miserable day. I have sensitive eyes, yet never had a problem with eye serums or creams.. I've never returned a beauty product and I'm grateful Ulta has a good return policy.",
+   "date": "2023-05-25",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Lynnz",
+   "titre": "Love but pricey",
+   "texte": "I got a sample and waivered on spending the money on this eyecream. I've tried others but I break out w white heads or skin gets dry. Murad works great w my sensitive skin. Does make my eye area look brighter and less tired but wishedit helped more w dark circles.",
+   "date": "2017-05-04",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "janet o sully",
+   "titre": "good but not outstanding",
+   "texte": "First ten days i had a good deal of eye irritation which eventually stopped. Especially in the morning, red, swollen eyelids i stopped using it and the reaction stopped...resumed three days later and the problem resumed as well so i know it wasn't something else.. Its a good, rich moisturizer that plumped up the tissue under my eyes which made my wrinkles look somewhat better and filled in the crepiness....but truthfully....it does nothing long term. I am a former sun worshiper...at 45 i am showing my age but not too badly. Its a decent product but I expected wayyyyy more from a product that costs $80 for half an ounce. Disappointing from Murad.",
+   "date": "2014-09-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Momama",
+   "titre": "The best eye cream!",
+   "texte": "I got a free sample of this a while ago and I loved it but I held off on buying the full-size product because of the price. I was looking for a really good eye cream to help with my under eye area - I have a lot of crepey, loose skin and under eye wrinkles. I tried a lot of other brands and nothing compared. I even tried some other higher end products that had good reviews and I ended up taking the last one back because it burned my skin and made my eyes water constantly. I decided it was time I took the plunge and bought the full-size bottle. I'm so happy with it. This product is definitely worth the price and the results are amazing. I love it!",
+   "date": "2016-12-30",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mal",
+   "titre": "I have nothing negative to say about this eye cream",
+   "texte": "I felt compelled to leave a review after seeing all the negative reviews. To each their own, but I really enjoy this eye cream. Its pricey, yes, but it works better than its cheaper counterparts. Its a very thick under eye cream which i love. Im 40 years old and always enjoyed a light under eye cream or a gel. That is until i tried Murad renewing eye cream. It goes on so creamy and feels wonderful. I have less visible wrinkles and an overall improvement of under eye appearance. When i use this cream, my under eye concealer is smooth and my makeup is always better.",
+   "date": "2024-12-27",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Moprah",
+   "titre": "Amazing for DRY BUMPY LIDS",
+   "texte": "I got a sample of this, and it has done a 180 on my eye lids! My lids are always dry, peeling, and lately they've been very bumpy with a lot of texture. I noticed a difference after the first use, and after finding out how pricey it is, I've been using it every other day - and my lids are still smooth and flake free! Will definitely purchase the full size, this is the ONLY thing that has helped me!",
+   "date": "2016-11-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

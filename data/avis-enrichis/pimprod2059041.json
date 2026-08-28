@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2059041",
+ "asin": null,
+ "pid": "pimprod2059041",
+ "source": "ulta",
+ "nom": "DERMA E Vitamin C Even Tone Brightening Mask",
+ "note": 4.46,
+ "nbAvis": 24,
+ "lus": 21,
+ "collectes": 21,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers report their face turning red or splotchy after use, sometimes for hours, and are advised to be cautious; one reviewer with sensitive skin explicitly warns others against it.",
+  "dry": "Reviewers with dry skin report the mask leaves their face hydrated, glowing and not tight or stripped.",
+  "mature": "A 54-year-old reviewer with visible signs of aging reports diminishing fine lines and glowing skin after two uses, paired with other vitamin C products.",
+  "combination": "One reviewer describes using the mask on \"dry clean skin\" with hydrated, glowing results, but combination skin is not otherwise specifically discussed."
+ },
+ "concerns": {
+  "aging": "One mature reviewer reports diminishing fine lines and a brighter glow after two uses when paired with other vitamin C products; this is the only account addressing aging.",
+  "dehydration": "Several reviewers report their skin feeling hydrated, soft, and not tight or stripped after use, including one who used it daily on dry skin with noticeable hydration.",
+  "redness": "Reports are mixed: several sensitive-skin reviewers experience noticeable redness or splotchiness for up to an hour after removal, while one reviewer says the mask reduced redness/discoloration from acne scarring.",
+  "barrier": "No reviewer specifically discusses barrier repair or damage.",
+  "spots": "Two reviewers report dark spots starting to fade with continued use; one reviewer saw no fading of a specific dark spot and would not repurchase.",
+  "blemishes": "One reviewer reports the mask irritated an existing blemish and advises against applying it directly over acne, while another reports it toned down acne scarring.",
+  "oiliness": "No reviewer discusses oiliness or oil control."
+ },
+ "aspects": [
+  {
+   "libelle": "Vivid pink or metallic color",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pink color seen as gimmicky or offputting",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, cooling application texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult to wipe or wash off",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stains washcloths",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin feels soft and smooth after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Redness or irritation after removal",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "MrsM",
+   "titre": "No for someone with sensitive skin",
+   "texte": "I was rather shocked by the pinky-gold color of the mask, although it helped you see if you left something on your face. The scent was nice, and it went on easily. However, I have sensitive skin, and after use, my face was beet red for hours afterwards. Others without this issue might have a different experience.",
+   "date": "2026-03-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Chris",
+   "titre": "Sensitive skin",
+   "texte": "I was really surprised at the color, but thought the bright pink was fun. I was less excited when I took the mask off and my skin was super red and splotchy. While that went away within an hour, I am not sure how often I will be able to use this product. Be careful if you have sensitive skin.",
+   "date": "2026-04-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Gshmoney26",
+   "titre": "Cool color",
+   "texte": "The bright neon pink color of this product is really cool, just not on my skin. When used as instructed I found that not alone did it leave my skin smooth but also a touch pink. I liked it but it did also irritate my acne so I would advise against placing it over any blemish. Again, my skin does feel really soft now though.",
+   "date": "2026-04-03",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anji",
+   "titre": "My new favorite",
+   "texte": "54 yo female here, showing serious signs of skin aging (pale skin, nordic descent) from the texas sun. This mask is a game changer for me. After two uses my fine lines are diminishing and my skin glows. I followed it up with the vitamin e teatree cream and the vitamin c eye stick",
+   "date": "2026-05-29",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Skinlin",
+   "titre": "The glow will keep you coming back for more!",
+   "texte": "I used this mask daily on dry clean skin. I've left it on anywhere from 3-10 mins, and the glow is glowing! I'm really impressed by how hydrated my face looks and feels.",
+   "date": "2026-05-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Libby",
+   "titre": "The vitamin C mask I didn't know I needed in my routine!",
+   "texte": "I don't usually incorporate a face mask into my skincare routine— usually, I find the application too messy and the results so negligible that it's not even worth the trouble. However, Derma E's brightening Vitamin C mask has more than earned its place in my skincare regimen! The color is gorgeous and the texture is perfect— easy to spread but doesn't slide off as I'm applying. But I think I'm most impressed with the results! After only a couple of uses (I use mine once a week), my skin feels balanced, toned, and clarified (but NOT dry or stripped), and I've definitely noticed some dark spots starting to fade. If you're looking to get your skin soft and glowy in time for summer, this mask is IT!",
+   "date": "2026-04-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mads",
+   "titre": "My new favorite mask and its not even close",
+   "texte": "I started out by using the mask once a week, as directed, but eventually I moved up to twice a week because I'm so obsessed with how it makes my skin feel. As soon as I wash off the mask my skin feels so soft and smooth, and it tones down a lot of redness/discoloration I have from acne scarring. I can tell if I upped my usage to 3-4x a week the effects would be even more noticeable. I've also never seen a face mask be such a pretty and dynamic color.",
+   "date": "2026-04-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

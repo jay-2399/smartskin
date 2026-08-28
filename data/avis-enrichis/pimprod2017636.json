@@ -1,0 +1,137 @@
+{
+ "ref": "pimprod2017636",
+ "asin": null,
+ "pid": "pimprod2017636",
+ "source": "ulta",
+ "nom": "Garnier SkinActive Micellar Cleansing Eco Pads, Reusable, 3 Pack",
+ "note": 4.73,
+ "nbAvis": 661,
+ "lus": 78,
+ "collectes": 113,
+ "segments": {},
+ "concerns": {},
+ "aspects": [
+  {
+   "libelle": "Softness on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective makeup and mascara removal",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bunches or slides during use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Washes and dries easily",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stains after repeated use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small pack size for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Reusable, less wasteful than disposables",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "nurdigirl",
+   "titre": "good in theory",
+   "texte": "These pads are 2 pieces of fabric attached only around the edges which makes them bunch up when you use them. Would be much more effective if they did a cross hatch stitching to hold the form. they basically end up in a ball when you use them. They did wash well, but until they fix the bunching, I'll make my own.",
+   "date": "2022-05-30",
+   "verifie": false,
+   "utiles": 18,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 3,
+   "auteur": "Serabee",
+   "titre": "Disappointed",
+   "texte": "The rounds are only secured in the edges, so they squish and slide around. I can't get a consistent pressure as I apply to my skin.",
+   "date": "2022-05-18",
+   "verifie": true,
+   "utiles": 4,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "MnM",
+   "titre": "Love reusable multi purpose items",
+   "texte": "This 3 pack is a great value item. It is soft and with the right makeup remover oil or dace wash it works very well and doesnt irritate the skin. I have been able to throw it in the washer and its come back to its original soft fluffy clean shape. I even use it for my under arms. I appreciate resusable items like these that help our environment. Works better than the rough makeup wipes too.",
+   "date": "2025-08-13",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shirley",
+   "titre": "Must Have!",
+   "texte": "I've been using cotton rounds for several years, and I got tired of purchasing to replenish so often since I use at least 3 pads a day (2 for eyes, 1 for face). I use Garnier Micellar Water to remove my eye and face makeup, and I'm so happy I purchased these! They're so soft and gentle on my skin, and they effectively remove makeup without harsh rubbing or having cotton fuzzies left all over my face and lashes like the disposable cotton rounds did. These also work perfectly to remove stubborn waterproof mascara. I would like to see these come in smaller sizes too, but it's nice you can use one large round for your whole face. Only con is having to wash after every use... or at least I do.",
+   "date": "2021-02-21",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Dani P",
+   "titre": "Perfect!",
+   "texte": "I have yet to use this for makeup removal since I hardly wear make up but I do use this after a face wash in the shower to apply my milk toner on my skin. I absolutely love these eco friendly wipes and how much of the towel fuzzies it picks up that I didn't realize were on my skin! My face feels even more bacteria free and clean, and it's super easy to clean and dries fast! HIGHLY recommend to everyone. No breakouts.",
+   "date": "2021-01-25",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Reggieboo",
+   "titre": "Amazing quality and great price!",
+   "texte": "I use these to take off makeup usually with micellar water or after using makeup melting balms or oils. They are way better than makeup wipes because they don't strip the skin, and they are more environmentally responsible!",
+   "date": "2021-08-25",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "brittany_il_7x5mt",
+   "titre": "Soft cleansing pads for all skin types",
+   "texte": "I received GARNIER SKINACTIVE MICELLAR CLEANSING ECO PADS as a free sample from PinchMe. These eco pads are so soft and it is amazing that they can be reused and cleaned for multiple uses which makes them incredibly economical friendly. They are soft and gentle, yet still clean off the heaviest makeup products.",
+   "date": "2020-11-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "The reviews describe the reusable cleansing pads themselves (texture, durability, washing, staining) almost exclusively, with very few reviewers stating their skin type or a specific skin concern, so segmentation by skin type or concern cannot be meaningfully produced from this set."
+}

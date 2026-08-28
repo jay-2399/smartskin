@@ -1,0 +1,161 @@
+{
+ "ref": "pimprod2051803",
+ "asin": null,
+ "pid": "pimprod2051803",
+ "source": "ulta",
+ "nom": "FARMACY 10% Waterless Vitamin C Serum",
+ "note": 4.53,
+ "nbAvis": 441,
+ "lus": 78,
+ "collectes": 112,
+ "segments": {
+  "oily": "Oily-skin reviewers describe the serum as absorbing well without adding extra shine, though a few note it feels heavy or greasy at first application.",
+  "dry": "Dry-skin reviewers report the serum leaves skin feeling hydrated and less dry, applying like an oil that sinks in and softens the face.",
+  "sensitive": "Sensitive-skin reviewers say this is one of few vitamin C serums that hasn't caused irritation, rash, or breakouts for them, unlike other brands they tried.",
+  "mature": "Mature-skin reviewers (ages given as 32, 54, 62) report improved radiance, less dryness, some firming, and reduced fine lines with regular use.",
+  "combination": "One reviewer with acne-prone but aging skin reports improved breakouts, texture and hydration together, without added greasiness."
+ },
+ "concerns": {
+  "aging": "Reviewers note improved firmness, tighter-feeling skin after facials, reduced fine lines, and less pilling of makeup over fine lines; effects are described as gradual over weeks to months.",
+  "dehydration": "Multiple reviewers say the serum leaves skin feeling hydrated, soft and supple, and one dry-skin reviewer reports no longer feeling dry after months of use.",
+  "redness": "One reviewer with redness reports feeling more balanced and seeing less redness after about two months of twice-daily use.",
+  "barrier": "One reviewer combining this serum with a retinal reports no sensitivity and a vibrant, glowy result; no other barrier-specific reports appear.",
+  "spots": "Many reviewers report visible fading of dark spots, sun spots, pigmentation, and discoloration within weeks to months, including one whose spots on the neck disappeared; one reviewer says it did not fade her dark spots at all.",
+  "blemishes": "Several reviewers with acne or acne scarring report fewer breakouts, clearer skin, and reduced scarring; one reviewer says stronger vitamin C usually causes her breakouts but this one did not, while another (2/5) found it too oily for her liking.",
+  "oiliness": "Oily-skin reviewers mostly report the serum doesn't add extra oil and dries to a matte finish, but two reviewers warn it can feel heavy or greasy at first, especially for already oily skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaking pump and bottle seams",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Oily or tacky initial texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption once applied",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup without pilling",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or unusual scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Opaque airless packaging protects formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Katie",
+   "titre": "Faulty packaging",
+   "texte": "There are two holes built into the bottom of the bottle which somehow causes the serum to leak at all times. This stained and ruined my white marble countertop leaving rings. Really unnacceptable given the price point of the item. It is also much more oily than expected.",
+   "date": "2025-10-28",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Spicylady",
+   "titre": "My Favorite",
+   "texte": "I love this serum so much, it makes my skin look and feel great. It goes on like an oil, which is great for my dry skin. I love how smooth my makeup applies when i wear this underneath. I love the glow it gives me and it's just all around great. I hope they never discontinue this!",
+   "date": "2025-11-09",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Deanna",
+   "titre": "Miracle Serum",
+   "texte": "I am new to Farmacy, and wasn't sure what to expect with this serum. I have been using it daily for about 2 months and see a significant improvement in my dark spots. I have noticed an added benefit of this serum being a fantastic face primer, and I've tried so many primers all of which \"pill\" up after applying anything on top. After cleansing and using the Vitamin C Serum, no matter what skin care products I put on afterwards including Farmacy moisturizers, liquid foundation, concealers, etc., there is no pilling or settling in fine lines. I'll never go without the Vitamin C Serum as the first step in my makeup routine. My \"mature\" complexion has improved so much by using all of the Farmacy skin care products! I have more radiance and my skin is less dry. I'm definitely glad I found this line of products!",
+   "date": "2023-04-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "BMarieJ",
+   "titre": "The Best Vitamin C Serum",
+   "texte": "I have tried soo many different vitamin C serums and this is the best one at the best price point for what you get. It is like an oil and I love how well it absorbs into my skin. For me, anything stronger than 10% vitamin C tends to irritate me and even cause breakouts. The active ingredients read like the CE Ferulic from Skinsceuticals which people rave over at a much better price point and without any water!",
+   "date": "2024-06-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chelsea",
+   "titre": "Perfection!",
+   "texte": "I love the texture of Farmacy serums. This one is perfect. Not runny or watery (as the name suggests). The results are fantastic. My skin has never looked better! I use this along with a handful of other Farmacy products for my acne-prone, but aging skin. So pleased with the overall improvement in breakouts, texture, and hydration. My skin is glowy and healthy.",
+   "date": "2024-02-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Renee",
+   "titre": "Love this serum!",
+   "texte": "I've been using this vitamin c serum for almost 2 months now (day + night) and I truly see a difference! I've never used a skincare product so consistently before and can definitely say this is changing my skin. I have less redness and feel overall more balanced + radiant. Definitely repurchasing and will continue to use.",
+   "date": "2023-08-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Traci D.",
+   "titre": "The best vitamin C on the market",
+   "texte": "I've tried many vitamin c products and none provided results the way this one does. It may feel heavy or greasy at first so if you're oily you may not enjoy it. But. this stuff works on dark spots.",
+   "date": "2023-03-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

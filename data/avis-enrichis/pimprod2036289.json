@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2036289",
+ "asin": null,
+ "pid": "pimprod2036289",
+ "source": "ulta",
+ "nom": "ELEMIS Pro-Collagen Vitality Eye Cream",
+ "note": 4.74,
+ "nbAvis": 101,
+ "lus": 81,
+ "collectes": 101,
+ "segments": {
+  "oily": "One reviewer with oily skin bought this for early anti-aging prevention near 40 but had used it only a week and could not yet report results.",
+  "dry": "Reviewers with dry skin (including some describing very dry or mature dry skin) consistently report strong hydration, plumping, and less flakiness, with several also noting firmer, smoother under-eyes over a few weeks.",
+  "combination": "Combination-skin reviewers describe fast absorption with no greasy residue, smoother and more awake under-eyes, and good wear under makeup.",
+  "sensitive": "Most reviewers with sensitive skin or sensitive eyes report no irritation and easy tolerance, though two flag the scent or advise a patch test as a caution.",
+  "mature": "Reviewers identifying as mature or over 40/65 report visible firming, softer fine lines and crow's feet, and a more lifted look, with one noting results after only two weeks are limited but promising."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visibly softer fine lines, crow's feet, and improved firmness/elasticity over one to several weeks; a few say they have not yet seen improvement in deeper wrinkles or fine lines despite otherwise liking the product.",
+  "dehydration": "Reviewers overwhelmingly report strong, lasting hydration and plumper, smoother skin, including those with dry and very dry skin, with no dissent noted.",
+  "redness": "Not enough reviewers specifically discuss redness as a concern to draw a conclusion.",
+  "barrier": "Reviewers with sensitive or reactive eyes generally report no irritation or bumps, but two reviewers advise patch-testing first since the scent bothered sensitive eyes for at least one person.",
+  "spots": "Reviews do not address spots or discoloration from blemishes.",
+  "blemishes": "Reviews do not mention acne or blemish-related concerns for this eye cream.",
+  "oiliness": "Only one reviewer identifies as oily and did not comment on oiliness/greasiness outcome from the product itself; most other reviewers across skin types note it absorbs without greasy residue."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight yet rich texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup/concealer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Musty or strong scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price relative to jar size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Jar arrived looking old or separated",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Elegant, luxurious packaging",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Joan",
+   "titre": "Smell like stinky feet or bad cheese.",
+   "texte": "Can't get passed the bad cheese smell. The color of the cream looks nothing like the picture on the web site. Product looks old and chemicals separating in the jar. I love other Elemis products like the face oils and clean balm and face pads. This eye cream is a big NO.",
+   "date": "2025-08-28",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Melissa",
+   "titre": "Soothing and effective for fine lines",
+   "texte": "Elemis gifted me this product. This concentrated blend of botanical and natural essences is just what my eyes need. My skin is dry, and I struggle with puffiness and dark circles as well as fine lines. Just a touch of this incredibly rich yet lightweight cream tapped around my eye contour area sinks right in, acting as a great primer for smooth make up application. My eyes feel instantly soothed and firmed. My fine lines are much less visible and my eyes look brighter and younger. Over a week of twice daily use, I see improvements in my dark circles. However, this cream has yet to help much with my puffiness. Even so, this is a great everyday eye treatment.",
+   "date": "2025-07-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Asia",
+   "titre": "An investment but worth it!",
+   "texte": "I did receive this complimentary from Elemis, but I regularly purchase Elemis products and will definitely purchase this once I've finished this one. As someone with dry skin and hollow under eyes, this eye cream has become my holy grail for giving that area the extra love it needs, especially before makeup application. The lightweight formula absorbs quickly without any greasiness, which is perfect when I'm prepping for a full glam look. It really helps plump up my hollow under-eye area and creates such a smooth base for concealer. The hydration genuinely lasts all day, even under makeup. I also use it on my eyelids, and it definitely gives a more awake, lifted appearance. The texture feels luxurious but not heavy, and it layers beautifully under my makeup routine. For someone who needs serious eye area hydration, this delivers without causing irritation or those annoying little bumps some rich eye creams can cause. Yes, it's an investment, but the results and how well it works under makeup make it worth every penny, plus a little goes a long way so this will last me for a while! As I get older, I gravitate towards products where I see results and that my skin loves. My undereye area feels genuinely nourished and looks smoother with consistent use.",
+   "date": "2025-07-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "dan",
+   "titre": "cool product",
+   "texte": "After roughly 2 weeks of use, I'm quite pleased with the Elemis Pro-Collagen Eye Cream. This cream is light yet hydrating, has a smooth texture, and absorbs rapidly. I have combination skin with dryness around my eyes. My sensitive eyes were not irritated, and it smells clean and light. I've seen a reduction in puffiness, a softening of fine lines, and smoother skin after using it. It's a bit of a splurge, but the effects are worth it because a little goes a long way. Gifted by elemis.",
+   "date": "2025-07-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Susie",
+   "titre": "Love it!",
+   "texte": "Gifted by elemis.i have dry skin just for reference.This eye cream is amazing! I've always loved this brand, and once again, they didn't disappoint. I noticed a visible difference almost instantly. The clinically tested formula feels so soothing and nourishing around the delicate eye area. I especially love that it can also be used on the eyelids to visibly lift and firm—perfect for a more wide-awake look.",
+   "date": "2025-07-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "C",
+   "titre": "Really good!",
+   "texte": "Gifted by Elemis. I have very dry under-eyes, and this cream is so good. It's super hydrating, and I feel like my concealer creases way less now. I also love that it has a slight firming effect. It gives me a more rested, hydrated look. A tiny amount goes a long way, so the jar lasts forever.",
+   "date": "2025-07-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda",
+   "titre": "So far so good",
+   "texte": "I was super excited to try this product out, gifted by Elemis. I have oily skin and I need something for my eyes as I am almost 40 in a year. I don't know how the product will do because I've only had it for a week but hopefully I can see some results.",
+   "date": "2025-07-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

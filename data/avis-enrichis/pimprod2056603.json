@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2056603",
+ "asin": null,
+ "pid": "pimprod2056603",
+ "source": "ulta",
+ "nom": "medicube Red Succinic Acid Peeling Pad",
+ "note": 3.11,
+ "nbAvis": 9,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {
+  "combination": "Two reviewers with combination skin report clearer skin, fewer blackouts, and reduced pore size, though one needed a thicker moisturizer after experiencing severe dryness and stiffness from overuse.",
+  "sensitive": "One reviewer who broke out badly speculated her skin may be too sensitive for this product.",
+  "mature": "One reviewer describes herself as middle-aged with acne-prone skin and reports a big improvement in clarity after a few weeks."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers report dryness or a dull, stiff, tight feeling, with one describing her face as dry and dull and another needing a thicker moisturizer to counteract stiffness after using it twice in one day.",
+  "barrier": "One reviewer reports her face became completely stiff and dry after using the product both morning and night, resolved by moisturizing and reducing frequency.",
+  "spots": "Reviewers with acne-prone or combination skin report clearer skin, fewer blackheads, and reduced breakouts on the forehead and face sides after two weeks; however, four other reviewers report the product broke them out significantly, in one case worse than ever before.",
+  "blemishes": "Some acne-prone reviewers describe clear improvement and no new hormonal breakouts; others describe severe new breakouts, with one suspecting purging rather than true improvement."
+ },
+ "aspects": [
+  {
+   "libelle": "Softens skin texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly, gentle daily use",
+   "polarite": "pos",
+   "concerne": [
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Causes severe breakouts",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Leaves skin dry and dull",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Requires reduced frequency and heavier moisturizer",
+   "polarite": "neg",
+   "concerne": [
+    "combination",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Reduces pore size and blackheads",
+   "polarite": "pos",
+   "concerne": [
+    "combination",
+    "spots"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Sky",
+   "titre": "Fell victim to the influence",
+   "texte": "Unfortunately after seeing this product everywhere I decided to give it a try. Broke me out but I thought my skin was purging. Looked up videos on what that would look like and see other peoples experiences but they were all sponsored/linked to a tiktok shop. My skin is completely broken out and I will be throwing the product away. Maybe my skin is too sensitive",
+   "date": "2026-02-23",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Sunshine",
+   "titre": "Awful",
+   "texte": "This product doesnt work for anything it leaves you dull & dry",
+   "date": "2026-07-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Maria",
+   "titre": "Definitely works!",
+   "texte": "I used it in the PM and then used it the next morning as well. That was a mistake. My face was so dry that it was completely stiff. So I moisturized immediately and waited a few days to try agian and it worked fasf. I have combination skin, so I learned that I just needed to use a thicker moisturizer to prevent my skin from dying. I then used cerave cream moisturizer and I only use it at night so that thick moisturizer didnt bother me. I also only use it 2-3 times a week like medicube recommends. I have acne prone skin and this makes a huge difference for me! I also didnt get any hormonal acne after using it. Its now my fav product! Highly recommend!",
+   "date": "2026-07-29",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cass B",
+   "titre": "Amazing!",
+   "texte": "I have combination skin and im 30 years old. I have occasional hormonal acne and blackheads. These pads helped to clear my skin and helped with blackheads while also reducing pore size. Ive only been using them for 2 weeks and im impressed! They also absorb into skin easy and are gentle enough for me to use everyday",
+   "date": "2026-02-28",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Moni",
+   "titre": "goodbye texture!",
+   "texte": "these toner pads have completely softened my skin. literally, within one day of using it, my face retained more moisture. i follow this with the Laneige cream skin in an atomizer spray bottle.",
+   "date": "2026-01-24",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JanaHayman34",
+   "titre": "This Really Helped!",
+   "texte": "I have occasional breakouts on my forehead and on the sides of my face, often from sweat during sporting activties. Cleared my face right up after 2 weeks of using it once every night",
+   "date": "2026-03-07",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kei",
+   "titre": "It works",
+   "texte": "It works for my acne prone middle age skin. My skin hasnt been clear in a while i started using this a few weeks ago and its been a BIG notice, ive purchased the entire line for acnce prone skin",
+   "date": "2026-08-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": "Only 9 reviews are available, and few specify precise skin type or concern in detail, so conclusions by segment remain limited."
+}

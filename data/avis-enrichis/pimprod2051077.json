@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2051077",
+ "asin": null,
+ "pid": "pimprod2051077",
+ "source": "ulta",
+ "nom": "DIME Nourishing Cleansing Oil",
+ "note": 4.83,
+ "nbAvis": 238,
+ "lus": 80,
+ "collectes": 103,
+ "segments": {
+  "oily": "Oily-skin reviewers report mixed results: one found it too much as a standalone cleanser and felt more oily afterward, while another says it leaves oily skin feeling fresh, not tight, and not greasy.",
+  "dry": "Dry-skin reviewers consistently report the oil relieves persistent dryness and tightness, leaving skin soft and hydrated even hours after cleansing, including through winter months.",
+  "sensitive": "Sensitive and rosacea-prone reviewers describe it as gentle, non-stripping, and non-irritating, with one using it as a gentle exfoliating option for rosacea.",
+  "mature": "Reviewers in their 40s and 60s report it controls adult breakouts, softens and hydrates mature skin, and several say they wish they had started oil cleansing decades earlier."
+ },
+ "concerns": {
+  "aging": "Reviewers in their 40s-60s associate regular use with softer, more hydrated skin and fewer adult breakouts; no negative reports specific to mature skin.",
+  "dehydration": "Multiple reviewers with chronically dry or tight-feeling skin report the oil restores moisture and eliminates post-cleansing tightness; no dissent on this point.",
+  "redness": "One rosacea-prone reviewer uses it as a gentle exfoliating step and reports good results; another sensitive/rosacea-prone reviewer says it doesn't strip or aggravate skin.",
+  "barrier": "Reviewers who felt stripped or in pain after washing with other cleansers report the oil leaves skin feeling healthier and not stripped; no reports of increased irritation.",
+  "spots": "Several reviewers report reduced or eliminated adult acne breakouts and smaller-looking pores after weeks of use; one oily-skin reviewer instead reports increased oiliness when using it as a full facial cleanser rather than a targeted treatment.",
+  "blemishes": "Multiple reviewers report fewer breakouts and healing blemishes over time; one reviewer specifically credits it with almost curing chin/jawline breakouts from mask-wearing, though results took 2-3+ weeks.",
+  "oiliness": "Most reviewers say it rinses clean without oily residue or greasy feel; one oily-skin reviewer is the exception, reporting it made her skin more oily when used as a stand-alone cleanser."
+ },
+ "aspects": [
+  {
+   "libelle": "Rinses off without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective makeup and sunscreen removal",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves greasy or oily feel",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Pump dispenser hard to travel with",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings eyes on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pleasant light scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaking or damaged packaging on arrival",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Lexie K.",
+   "titre": "Great for my sensitive skin",
+   "texte": "I've been loving the DIME Nourishing Cleansing Oil. It's super gentle, removes makeup easily, and doesn't leave my skin feeling stripped or greasy. It rinses clean and works really well with my sensitive, rosacea-prone skin. Simple, effective, and feels like a little luxury in my routine.",
+   "date": "2026-04-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Abigail",
+   "titre": "Amazing!",
+   "texte": "I never really had acne until this last year when I turned 30. I work in the operating room and wear a mask for ~12 hours a day most days of the week. I began breaking out with excess sebum production in my chin and jawline area. I tried everything, even started prescription medications. I read somehwere that oil cleansers help reduce sebum production over time and WOW! This cleanser followed by my usual acne cleanser has almost completely cured my acne issues with 2x a day use for 3+ weeks. I will forever be using this cleanser!",
+   "date": "2026-03-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Brittany A.",
+   "titre": "Helps clean pores",
+   "texte": "This oil was a little too much for overall cleanser for my oily type skin. Made my skin more oily. I do love using it in target areas such as my nose and chin for cleaning pores. Does an amazing job cleaning out deep pores.",
+   "date": "2025-09-08",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elena M.",
+   "titre": "Where has this been all my life??",
+   "texte": "I have had a dry face that I couldn't seem to do anything about for the past year or so - even though I was using the gentlest cleansers and most nourishing moisturizers I could find, my skin would still feel dry again just a few hours after applying moisturizers. Switching to oil cleanser has been a game changer, and there are so many things I LOVE about this one. The texture is rich and velvety and it emulsifies into a light foam, but then it rinses completely clean with water like a regular cleanser (something I really appreciate because other oil cleaners I have tried are removed with a warm washcloth, and I prefer to be able to just rinse). Super hydrating and nourishing while also gently removing impurities. I love it!",
+   "date": "2025-07-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vanessa F.",
+   "titre": "Favorite way to cleanse",
+   "texte": "Turned 40 and decided it was time to change up my face cleansing routine. Tried another face oil cleanser from another company and wasn't impressed. But man this one actually reduced my adult breakouts to practically never. My skin is way more hydrated too. Wish I knew about this 20 years ago",
+   "date": "2026-05-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Julia D.",
+   "titre": "Works well, not sure about the feel",
+   "texte": "While it does work well at removing by makeup gently, I don't love the oily feel and as careful as I was it would sting my eyes a bit. Will stick to gentle jelly cleanser.",
+   "date": "2025-07-09",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Morgan R.",
+   "titre": "Nourishing Cleansing Oil",
+   "texte": "I have been looking for a more gentle exfoliating option for my rosacea and this has been a great fit!",
+   "date": "2026-04-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2039377",
+ "asin": null,
+ "pid": "pimprod2039377",
+ "source": "ulta",
+ "nom": "First Aid Beauty Ultra Light Mineral Sunscreen with Zinc Oxide SPF 30",
+ "note": 4.29,
+ "nbAvis": 111,
+ "lus": 80,
+ "collectes": 109,
+ "segments": {
+  "oily": "Reviewers with oily or oily t-zone skin report mixed results: several say the formula feels greasy or too oily and worsens shine, while others (including one describing oily combo skin) say it controls oil well and gives a satin-matte, non-sticky finish.",
+  "dry": "Reviewers with dry skin mostly report a comfortable, non-drying wear with quick absorption, though a couple mention pilling or grittiness on dry skin and one mixes in facial oil for extra hydration.",
+  "combination": "Reviewers with combination skin generally report a light, non-greasy feel with minimal breakouts, though one combination-skin reviewer found it too greasy and preferred to avoid reapplying.",
+  "sensitive": "Reviewers with sensitive skin, including rosacea and eczema, mostly report no irritation, no stinging, and no burning, but one sensitive/rosacea reviewer had immediate burning on the skin and one dry, sensitive reviewer says it burns specifically around the eyes.",
+  "mature": "The few reviewers who identify as mature or older report a dewy finish that does not settle into wrinkles or emphasize dry patches, and describe it as their favorite among many sunscreens tried."
+ },
+ "concerns": {
+  "aging": "Reviewers who mention mature or aging skin report the product does not sit in wrinkles, does not emphasize dry patches or pores, and gives a dewy, flattering finish; no dissent noted among these reviewers.",
+  "dehydration": "Reviewers describing dry or dehydrated skin mostly report the formula absorbs well and does not dry out the skin, though one review notes it pilled on dry skin and another mixes it with facial oil to boost hydration.",
+  "redness": "Reviewers with rosacea or redness concerns mostly report the product calms or does not worsen redness and blends it out visually, but one rosacea-reporting reviewer experienced immediate burning upon application.",
+  "barrier": "One reviewer with eczema reports no flare-up and comfortable wear; no other barrier-specific reports are present in this set.",
+  "spots": "Reviewers focused on discoloration or evenness mostly report the tint evens out skin tone without a white cast, including on darker and fairer skin tones; dissent is limited to shade-matching complaints (too light or too dark for some skin tones) rather than efficacy on spots.",
+  "blemishes": "Most reviewers with acne-prone or blemish-prone skin report no new breakouts and comfortable wear, but a few dissent: one reviewer says it broke her out terribly after weeks of use, and another reports minor breakouts at first that subsided with continued use.",
+  "oiliness": "Reports are split: many oily-skin reviewers say it is not greasy and reduces oily breakthrough compared to other sunscreens, while several others (including non-specified skin types) describe the initial feel as very oily, greasy, or slick before it sets."
+ },
+ "aspects": [
+  {
+   "libelle": "Pills under makeup or other products",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, weightless texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast, blends into varied skin tones",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gritty or sandy texture in bottle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Runny, watery consistency requires care",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tint shade range too narrow",
+   "polarite": "neg",
+   "concerne": [
+    "mature",
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "SPF 30 felt insufficient by some",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "anonymous",
+   "titre": "Horrible ruined my skin",
+   "texte": "Super oily. Gritty texture. Broke me out terribly. I've used many different sunscreens over the decades . I'm 65 yrs old & have never had breakouts even as a teen. Ruined my Florida trip because I was so self conscious of how horribly it affected my skin. After 3weeks I'm still trying to heal from the damage it left on my face.",
+   "date": "2026-01-11",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Lily",
+   "titre": "Burns around eyes",
+   "texte": "I love the way this product feels and how it looks on my skin. It doesnt pill or dry out my already dry skin. However, I won't buy again because it burns if i put it anywhere near my eyes. Also washing my face with it on is a nightmare because its impossible to keep it completely away from my eyes. So, if your eyes/skin are sensitive i would stay away.",
+   "date": "2023-11-08",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Meegee",
+   "titre": "Easy peasy",
+   "texte": "I have dry, fair, sensitive skin. This sunscreen is great. I put it on after my serum and moisturizer. I've been using it for about a year. No irritation, no sunburn. Good stuff.",
+   "date": "2025-05-12",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Very pleased",
+   "titre": "Perfect!",
+   "texte": "I love this sunscreen. It doesn't make me oily, break out, or flare my eczema. I can easily apply the necessary amount of sunscreen without feeling like my skin is suffocating. The formula is very thin and almost feels like a serum. It absorbs within a few minutes. This sunscreen doesn't have silicones, so it will pill if worn on top of products with silicones. I've worn it with a moisturizer containing silicones and it pilled badly. I currently wear it with a silicone free moisturizer and it does not pill whatsoever. It has a beautiful tint and gives a nice, no makeup look. My skin isn't smooth at all and this sunscreen helps me feel a little bit more confident.",
+   "date": "2023-08-16",
+   "verifie": false,
+   "utiles": 22,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "EMRGH123",
+   "titre": "The best oily girl tinted sunscreen",
+   "texte": "I love this as my daily sunscreen. I am in my fifties but have a very oily t-zone. I normally only wear tinted foundation, but do not even need that with this sunscreen unless I have some redness on a given day. I do not need a moisturizer nor a primer under this, just a bit of powder on top, and I have a lot less oil breakthrough than with any other sunscreen with powder on top (or a bare face at home).",
+   "date": "2026-03-17",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": [
+    "oiliness",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "anonymous",
+   "titre": "Holy Grail Sunscreen!",
+   "texte": "have finally found my holy grail sunscreen! It's zinc based, has no butyl salicylate, the tint is not too orange or beige, it's less drying than Australian Gold Tinted, slightly less dewy or 'wet' than Cerave Tinted. A 1/4 teaspoon initially goes on very slick feeling, but after 5 minutes it dries down considerably. I would still call it a dewy finish which my mature, dry skin needs. Sometimes I layer a moisturizer under it, some time I wear it on it's own. It doesn't emphasize my wrinkles, dry patches, or pores. It appears to give me good sun protection but I haven't tried it at the beach, and probably wouldn't since it's not waterproof. Because it's not waterproof it washes off easily with a wash cloth and Cetaphil Daily Facial Cleanser. I've tried literally dozens of zinc sunscreens and this is my favorite one.",
+   "date": "2025-05-30",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "amanda83948",
+   "titre": "Pleasantly surprised",
+   "texte": "I've been looking for a daily SPF to wear with acne-prone, oily/combination, and sensitive skin. I was worried that this would be too oily for me, but it's definitely not, in fact it gives my skin a really nice glow and texture.",
+   "date": "2023-06-21",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

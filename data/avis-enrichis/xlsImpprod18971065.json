@@ -1,0 +1,167 @@
+{
+ "ref": "xlsImpprod18971065",
+ "asin": null,
+ "pid": "xlsImpprod18971065",
+ "source": "ulta",
+ "nom": "Shiseido Clarifying Cleansing Foam",
+ "note": 4.69,
+ "nbAvis": 732,
+ "lus": 76,
+ "collectes": 79,
+ "segments": {
+  "dry": "Dry-skin reviewers are split: several say the foam cleans without drying or stripping, while others (including a 74-year-old user) find it noticeably drying, and one reports burning and irritation on dry skin.",
+  "sensitive": "Sensitive-skin reviewers mostly report gentle, non-irritating cleansing with no stripping, but a minority describe strong fragrance, tightness, burning, or eye stinging.",
+  "mature": "Long-time users with mature or aging skin (some in their 70s, decades-long users) describe it as a gentle daily staple that leaves skin soft and smooth, though one 74-year-old finds it a little drying."
+ },
+ "concerns": {
+  "aging": "Mature-skin, long-term users report smoother, softer, more radiant-looking skin over years of use; one reviewer using it alongside Vital Perfection creams notes slight redness, though this may relate to the cream rather than the cleanser.",
+  "dehydration": "Most reviewers say it cleanses without leaving skin dry or tight, describing it as hydrating or moisture-adding; several dissent, reporting dryness, tightness, or a stripped feeling, especially with a larger amount used or on dry/mature skin.",
+  "redness": "One reviewer notes her skin turned a bit red after using it alongside other Vital Perfection products, but no other reviewer reports redness or reaction.",
+  "barrier": "One reviewer with a history of cystic acne and Accutane use reports the cleanser helped rebuild her skin barrier without triggering breakouts; no other reviewer discusses barrier repair specifically.",
+  "spots": "A couple of reviewers report fewer blackheads and smaller-looking pores after use; no dissenting reports on spots specifically.",
+  "blemishes": "One reviewer with a history of cystic acne says the cleanser has not triggered breakouts and improved her skin's overall condition; no other reviewer discusses active breakouts.",
+  "oiliness": "One reviewer describes a good balance with no oiliness after use; otherwise oiliness is not commonly discussed."
+ },
+ "aspects": [
+  {
+   "libelle": "Lathers heavily from small amount",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Creamy, silky texture on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild, non-perfumey scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong fragrance bothers some users",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Leaves skin dry or tight",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "mature"
+   ]
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube dispenses too much product",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Kaetlyn",
+   "titre": "I would NEVER buy this product again",
+   "texte": "This product is NOT gentle on skin. I was exited when I found it in store as it seemed like something I would love and I was in need of a new cleanser. When I used it burned my eyes (they were closed and I did not directly put it on my eyelids). It was also very harsh on my dry skin and left my skin irritated.",
+   "date": "2025-01-13",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Jc",
+   "titre": "Skin too sensitive",
+   "texte": "I have pretty senstive skin but decided to try this out. I recieved this in a sample pack. The fragrance is very strong. My skin feels really tight and almost like its burning after i use it. not a fan. Skin does feel smooth though lol",
+   "date": "2025-12-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SJ",
+   "titre": "Holy Grail Cleanser",
+   "texte": "I bought a bottle when I was in Tokyo earlier this year, and it has completely changed my skin for the better. After having cystic acne for many years, being on Accutane, and trying bottle after bottle of other cleaners, this product has been one of the only to leave my skin feeling properly cleansed, yet hydrated. I've struggled with rebuilding my skins barrier while not triggering any breakouts and the Clarifying Cleansing Foam has been a savior for me. A little goes a long way, bubbles up wonderfully, and has given my skin a new glow that I'm loving!",
+   "date": "2026-08-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Olga",
+   "titre": "Good choice for sensitive skin!",
+   "texte": "I love this product very much. It takes very small amount of it to gently clean the skin. The tube lasts long. I have extremely sensitive skin, and it took me a while to find a product which does not cause any skin irritation or dryness. I am definitely going to buy it again and highly recommend to others.",
+   "date": "2026-06-23",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Pleha",
+   "titre": "Try with a cosmetics foaming net",
+   "texte": "Really, really foams up with foaming net. However, a little drying for my 74 yo face. I'll keep it but try it again for summer cleansing. Maybe give to my daughter.",
+   "date": "2025-02-04",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "vicky",
+   "titre": "the best cleansing face ever!",
+   "texte": "i used this product to wash my face. it does help cleanses my face. i have less blackhead. no questions ask. thumps up for this one too.",
+   "date": "2026-06-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "sara",
+   "titre": "Vital perfection",
+   "texte": "Too soon to give feedback on the creams. But the facial one make my skin a bit red.",
+   "date": "2025-12-18",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

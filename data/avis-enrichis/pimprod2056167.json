@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2056167",
+ "asin": null,
+ "pid": "pimprod2056167",
+ "source": "ulta",
+ "nom": "DRMTLGY Luminous Eye Corrector SPF 41",
+ "note": 4.61,
+ "nbAvis": 5680,
+ "lus": 80,
+ "collectes": 100,
+ "segments": {
+  "dry": "Reviewers with dry skin describe the corrector as either drying and rash-like under the eye or, in other accounts, as hydrating and smooth once paired with an eye cream first.",
+  "combination": "Reviewers with combination skin report it blends well and holds up as an all-day concealer, though one fair-combination reviewer says it dried and creased into a rash under her eyes.",
+  "sensitive": "Reviewers describing sensitive skin, eczema, or psoriasis around the eyes report no irritation and comfortable all-day wear.",
+  "mature": "Reviewers in their 40s to 80s report it improves the look of crepey, fine-lined under-eyes without settling into wrinkles, though one 47-year-old says it creased badly into her fine lines immediately."
+ },
+ "concerns": {
+  "aging": "Most mature reviewers say it doesn't settle into fine lines or add years, and several credit it with reducing the look of crepiness; dissent from two reviewers who found it immediately caked into and emphasized fine lines and creases.",
+  "dehydration": "Several reviewers say the formula looks dry or dehydrated under the eye unless preceded by eye cream; others, including one who states she has dry skin, call it hydrating and smooth.",
+  "barrier": "Reviewers who mention eczema or psoriasis around the eyes report the product does not irritate or inflame their skin.",
+  "spots": "Reviewers use it to cover dark spots and a scar, reporting effective concealment and some lightening over time."
+ },
+ "aspects": [
+  {
+   "libelle": "Dispenser releases too much product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, non-cakey texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling feel on application",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Creases into fine lines",
+   "polarite": "neg",
+   "concerne": [
+    "mature",
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Long-lasting wear through the day",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the coverage",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Shade range too limited",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Lenka",
+   "titre": "Unfortunately a big disappointment",
+   "texte": "Unfortunately, this was a big disappointment for me. Not really the best selection of shades. I am pale but shade Fair is way too light an shade Medium is way too dark. It piles under my eyes and dries undereye area like crazy, almost like a rash! And it unfortunately creases too. I am sorry but I wouldn't recommend this. Too hyped! For reference I have a fale combination skin with a little dark under eyes circles",
+   "date": "2026-08-01",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Misty D.",
+   "titre": "Not for Mature Skin w/Fine Lines",
+   "texte": "I am 47 years old - it creased so badly - immediately and settled into my fine lines. I did all the right things and different ways. So disappointed. I will be returning this product. I love the the tinted moisturizer, thought this would be great. Unfortunately, no.",
+   "date": "2026-01-05",
+   "verifie": false,
+   "utiles": 19,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Nena",
+   "titre": "It's ok.",
+   "texte": "It gives little coverage and actually doesn't burn my eyes. However, it looks dry on my upper and lower eyes no matter how much I hydrate them. But I have eczema and it doesn't irritate me. So I'd highly recommend this product for spf around eyes with woman who have eczema",
+   "date": "2026-03-23",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kat",
+   "titre": "so good for the sensitive girlies!",
+   "texte": "Oh my goodness I loooove this product! I've always seen it advertised online but I HATE buying things I can't try! So when ulta finally sold these in store I tried it out and I LOVE it! I have eczema prone skin so the fact that I could use have this sit on my face all day and NOT have it irritate my skin was AMAZING!",
+   "date": "2026-02-10",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jes",
+   "titre": "Holy. Grail.",
+   "texte": "I have acne-prone skin that's also very combination. I use sunscreen daily, and wanted a concealer that could hold up and layer well with my other skincare without looking like a mask. I've tried every concealer at every price point and can confirm that the DRMTLGY eye corrector is the only one I will ever buy from now on. The coverage is flawless, and yet it's completely seamless on my skin. I don't wear foundation and you can't tell where the concealer ends and my skin begins. It doesn't crease or smudge. It doesn't settle. It doesn't look freaking scary up close. I'm so, so thoroughly pleased with this stuff. I have a neutral-olive skin tone and somehow the color just WORKS. That alone would keep me coming back for more, but this stuff just checks every box!!",
+   "date": "2026-07-09",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stephanie R",
+   "titre": "Love the coverage",
+   "texte": "I've been using this concealer for over a year and love it! A little goes a long way with it. It is not drying nor does it \"cake\" in the lines around the eyes. I have extremely sensitive skin, including psoriasis around my eyes which is not bothered or inflamed by this product. I would definitely recommend this concealer.",
+   "date": "2025-12-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ouiza A",
+   "titre": "Amazing concealer",
+   "texte": "A perfect hydratating concealer, the color is perfect, I have a very dry skin and it's just hydratating very well my underey",
+   "date": "2025-12-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

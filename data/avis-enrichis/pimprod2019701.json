@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2019701",
+ "asin": null,
+ "pid": "pimprod2019701",
+ "source": "ulta",
+ "nom": "La Roche-Posay Pure Vitamin C Anti-Wrinkle Firming Eye Cream",
+ "note": 4.1,
+ "nbAvis": 135,
+ "lus": 80,
+ "collectes": 115,
+ "segments": {
+  "sensitive": "Reviewers with sensitive eyes/skin repeatedly report no irritation and good tolerance, describing it as gentle, non-irritating, and suitable even with eczema flare-ups, though one sensitive-skin user did develop a rash and one noted slight stinging near the eyeball.",
+  "dry": "Reviewers with dry skin report good hydration and reduced need to reapply during the day, with one noting improvement in under-eye dryness and wrinkles since day two, though another with a general dryness concern saw no moisture improvement.",
+  "mature": "Reviewers who identify as older or mature note visible reduction in fine lines, crow's feet, and firmer-looking skin, but one mature-skin reviewer says she prefers a different LRP eye cream over this one."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visible softening of fine lines, crow's feet, and smile lines, some within one to three weeks, and describe a firming or lifting effect; a few longtime users, however, say results were unremarkable or that lines and wrinkles got worse.",
+  "dehydration": "Most reviewers describe good, non-greasy hydration and softer, more supple skin after regular use; a couple report no moisture improvement despite two months of use.",
+  "redness": "One reviewer with sensitive skin and eczema flare-ups reports no negative reaction and brighter-looking eyes; no other redness-specific complaints appear.",
+  "barrier": "A handful of reviewers describe the cream as gentle and non-irritating for delicate under-eye skin, while at least one reviewer reports a rash/irritation and another mentions slight stinging if applied too close to the eye.",
+  "spots": "Dark circles are the concern most frequently addressed; many reviewers report visible lightening or improvement, but several say they saw no change in dark circles after weeks of use.",
+  "blemishes": "Not discussed in these reviews.",
+  "oiliness": "A few reviewers note a light oily sheen that makes the cream better suited to nighttime rather than under makeup, while others explicitly find it non-greasy and suitable for daytime/makeup use."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaky, hard-to-close tube",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills under sunscreen or makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight oily sheen after application",
+   "polarite": "neg",
+   "concerne": [
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Recent formula change disliked by long-time users",
+   "polarite": "neg",
+   "concerne": [
+    "mature"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "anonymous",
+   "titre": "Totally worth it",
+   "texte": "I have very sensitive skin as well as dry skin around the eye area. This does not irritate my eyes or skin and it moisturizes beautifully. Makeup goes on smoothly without visible creases. Also, I feel like it has somehow improved the look of my under eye bags and dark circles.",
+   "date": "2018-07-30",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rebecca L",
+   "titre": "Best eye cream I ever used",
+   "texte": "I have fairly dry skin and this is the first eye cream that I don't have to reapply during the day. It is also the first that makes a visible difference for me. I have sensitive eyes and this cream doesn't irritate them.",
+   "date": "2020-08-28",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Patti7",
+   "titre": "Great product for younger skin types.",
+   "texte": "Great product for my daughter but I prefer Refermic R eye cream my mature skin.",
+   "date": "2021-03-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Delores",
+   "titre": "Active C eyecream",
+   "texte": "I really liked your Active C eye cream. I'm sure you had your reasons for discontinuing it, but I had been using it for at least 10 years and had terrific results especially under my eyes. I was rather upset and have had somewhat ok results with this new cream but don't like it nearly as much. I'm currently looking for a new eye cream elsewhere.",
+   "date": "2021-03-25",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Deede",
+   "titre": "Dryness",
+   "texte": "I have been using am & pm for a two months. No major improvements and no moisture. :( I have dryness problem right know. I think I will need for different eye creams.",
+   "date": "2021-04-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Mikima",
+   "titre": "Eye cream irritation",
+   "texte": "I wanted to incorporate eye creams into my beauty routine, so I chose this one because I already use 6 other la roche posay products and they work really well, but after using this for a day I noticed rashes around my eyes. I am a little disappointed because this wasn't cheap and I have an event to host this Saturday. I wonder if I could get a refund since this cream doesn't work for me. Or maybe a different product to replace it. With that being said, I still love this brand and all the other products I've purchased from them have been working so well on my skin.",
+   "date": "2023-04-05",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amber",
+   "titre": "La Roche Posey never fails.",
+   "texte": "La Roche Posey is the best product I have found for super sensitive skin and eczema flair ups. This product leaves my eyes looking alert and bright! No negative reaction.",
+   "date": "2024-01-06",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

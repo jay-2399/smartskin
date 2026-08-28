@@ -1,0 +1,171 @@
+{
+ "ref": "pimprod2003120",
+ "asin": null,
+ "pid": "pimprod2003120",
+ "source": "ulta",
+ "nom": "Dermalogica Intensive Moisture Balance Moisturizer",
+ "note": 4.66,
+ "nbAvis": 1504,
+ "lus": 78,
+ "collectes": 97,
+ "segments": {
+  "oily": "Reviewers do not report oily skin specifically, but several with combination skin say the product feels light and non-greasy rather than heavy.",
+  "dry": "Reviewers with dry skin are split: many say it hydrates well without heaviness and works especially well in winter, while a few say it left them tight, greasy, itchy, or with a chemical smell and not enough overnight hydration.",
+  "combination": "Reviewers with combination skin mostly report it balances dry patches without breaking them out, though one reviewer with dry-combo skin had a bad breakout.",
+  "sensitive": "Sensitive-skin reviewers are divided: several say it calms and hydrates without irritation (including rosacea sufferers), while others report burning, itching, or no real benefit for the price.",
+  "normal": "One reviewer describes it as great for normal to dry skin, hydrating without heaviness and without breakouts.",
+  "mature": "Mature-skin reviewers (mid-40s to 70s) generally report long-term satisfaction, softer skin and help with fine lines, though one 45-year-old with dry skin found it insufficiently hydrating overnight."
+ },
+ "concerns": {
+  "aging": "Reviewers using it for aging skin report smoother, softer skin and some improvement in fine lines and wrinkles over time; no dissent reported.",
+  "dehydration": "Most reviewers say it hydrates deeply without feeling heavy, especially in winter or dry climates; a minority say it wasn't moisturizing enough overnight or left skin tight and itchy.",
+  "redness": "Reviewers with rosacea or reactive skin generally report it soothes redness and irritation, though one sensitive-skin reviewer felt a slight burning sensation.",
+  "barrier": "One reviewer with psoriasis-prone dry patches says it reduced flakiness and helped skin retain moisture; another with sensitive skin describes stinging on already irritated skin.",
+  "spots": "One reviewer with dark spots and deep wrinkles reports overall satisfaction but does not describe a specific effect on spots.",
+  "blemishes": "Most acne-prone or breakout-prone reviewers say it did not cause breakouts and kept skin clear; however, a few reviewers report new breakouts or forehead bumps after use.",
+  "oiliness": "Multiple reviewers, including those with combination or oily-leaning skin, say it absorbs quickly and does not leave a greasy or oily residue; one reviewer found it left her skin shiny."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong chemical smell",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy, no residue feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value in larger jumbo size",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Hard-to-read instructions on packaging",
+   "polarite": "neg",
+   "concerne": [
+    "mature"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "DrySkin",
+   "titre": "Dry skin",
+   "texte": "I bought this in hopes of improving my dry skin. It did moisturize my skin without it feeling oily. But it made me break out and it smells like chemicals.",
+   "date": "2025-11-05",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Dermalogica Moisturizer",
+   "titre": "STRONG chemical smell",
+   "texte": "I have sensitive irrirated skin and while this moisturizer keeps my skin soft and hydrated, it smells disgusting. It has a very strong chemical odor. It also burns slightly on my skin. The product is expensive, and it's supposed to be made of quality ingredients; this is frustrating to say the least. Especially since so many people recommend this brand.",
+   "date": "2025-05-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley",
+   "titre": "Only lotion that works for my skin",
+   "texte": "After another brand discontinued the face lotion I used for 10 years, I nearly cried. I have very sensitive, breakout prone, combination skin. Usually when i try a new product, i breakout within a week. THANK GOD for Intensive Moisture Balance from Dermalogica!! I feel so lucky that I took a chance on this and it worked so well. My skin is so hydrated and moisturized, but not overly so in a way that makes me breakout. It truly is the perfect balance. My skin is so clear and just looks healthy. I thought my other product being discontinued would be a nightmare, but really it was a blessing in disguise! Please Dermalogica, keep this one - I promise I will buy it forever!! Nothing else works - and I've tried a LOT.",
+   "date": "2024-11-02",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Frances G.",
+   "titre": "Intensive Moisture Balance",
+   "texte": "I have Rosacea, the medication I use has the tendency to dry my skin. Intensive Moisture Balance Moisturizer leaves my skin feeling soft and moisturizer. It is not a heavy moisturizer; it is very light. Suits my needs and will continue to use it.",
+   "date": "2023-12-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristin P.",
+   "titre": "Extra powerful",
+   "texte": "Perfect for those drier spots who refuse to absorb moisture! It's even helping some of my psoriasis spots be less flakey. I use it in combination with the moisturizing toner and soothing hydrating lotion and it keeps my skin feeling supple for most of the day or night. It does have a slight burn when my skin is especially irritated, but have not noticed any ill effects.",
+   "date": "2023-12-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Abbey",
+   "titre": "I have used this product for over 2 years",
+   "texte": "I cannot live without this product. I have tried to switch to less pricey options and my skin suffers for it. I know it is on the expensive side but it is worth it. I have incredibly sensitive skin and this has always soothed it while providing great hydration. It is a thicker cream that I feel would be best for dry to combination skin.",
+   "date": "2026-03-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Fairasara",
+   "titre": "Not moisturizing enough for mature, dry skin",
+   "texte": "I'd hoped to use this as a night cream, but it didnt deliver enough hydration over night. I'm 45, with dry skin and live in a dry climate. This one felt nice upon application, but I wake up feeling tight and needing more moisturizer.",
+   "date": "2025-02-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

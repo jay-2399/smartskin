@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2039902",
+ "asin": null,
+ "pid": "pimprod2039902",
+ "source": "ulta",
+ "nom": "La Roche-Posay Lipikar AP+ Gentle Foaming Cleansing Oil",
+ "note": 4.51,
+ "nbAvis": 962,
+ "lus": 73,
+ "collectes": 115,
+ "segments": {
+  "dry": "Reviewers with dry skin (including eczema- and psoriasis-prone) most often report moisture retention, reduced tightness, and relief from flaking, though a few dry-skin users still note some drying or tight sensation.",
+  "sensitive": "Sensitive-skin reviewers frequently report calm, non-irritated results and no breakouts, but this is also the segment reporting the most adverse reactions (redness, burning, stinging, bumps).",
+  "combination": "One combination-skin reviewer (oily and dry) reports the product works well for both aspects of her skin.",
+  "mature": "Mature-skin reviewers describe it as a gentle favorite for very dry, older skin with no negative effects mentioned.",
+  "oily": "No reviews specifically describe oily skin outcomes beyond the combination-skin mention."
+ },
+ "concerns": {
+  "aging": "Only referenced indirectly by mature-skin users pairing this cleanser with anti-aging routines (e.g., tretinoin); no explicit anti-aging effect is claimed.",
+  "dehydration": "Many reviewers describe increased hydration and softness after use, but a notable minority report the opposite: dryness, tightness, or a stripped feeling after washing.",
+  "redness": "Several reviewers with rosacea, perioral dermatitis, or general sensitivity report reduced redness and soothing effects, while others report the product triggered redness, heat, and inflammation.",
+  "barrier": "Some reviewers credit the product with strengthening or soothing a disrupted skin barrier during flares (eczema, perioral dermatitis), while others attribute irritation or burning to ingredients like niacinamide or sulfates.",
+  "spots": "A few users mention reduced blackheads or clearer skin overall, with no reports of new spots from this concern group.",
+  "blemishes": "Multiple reviewers report clearer skin and fewer breakouts, including during hormonal acne flare-ups; however, at least one reviewer reports new little bumps and breakouts after use.",
+  "oiliness": "Reviewers describe the product as non-greasy and leaving no oily residue, with no complaints of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Foaming oil-to-milk texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Not a true oil cleanser",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective makeup removal",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or irritation around eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pump bottle convenience",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Recent price increase",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Light or no fragrance",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Ally",
+   "titre": "Cleared my highly sensitive acne skin",
+   "texte": "I am 39 and have painfully suffered from highly sensitive and hormal acne skin. I have tried just about everything (medical, drug store, high-end) with very little succes. I use this as step one in my double cleanser. I use the LRP hydrating gentle cleanser as my second cleanser. I use the LRP Triple Repair Moisturizing Cream after. This has almost completely cleared my skin. I went out in public for the forst time in years with nothing but moisturizer and sunscreen on and wasnt embarrassed to show my face. Ive repurchased three times now and will continue to.",
+   "date": "2024-03-19",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Scout",
+   "titre": "OBSESSED!!!",
+   "texte": "The BEST cleansing wash I have ever used. I wear sunscreen as well as complete coverage make up every day and I have tried every kind of remover/wash imaginable. This is THE ONLY one that works without drying your skin! I am in my mid-60's with very dry sensitive skin for reference. What I love most is the simplicity = I use one pump on my dry face first, then I rinse that and use it it again (one pump)as a foaming cleanser. Brilliant product!! My white towel is perfectly white with no make up residue after washing :) Hooray and please don't ever discontinue.",
+   "date": "2024-06-24",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ky",
+   "titre": "Most amazing cleanser ever!!!",
+   "texte": "I originally got a small sample of this as a part of one of UB free gift promotions. I have dry skin, psoriasis, and hormonal acne that gets out of control when I'm on my period. This cleanser not only felt nice on my skin, but I felt moisturized through the day, any redness from my psoriasis was gone, and I noticed that during my period my acne stayed way more mellow than it previously did without this cleanser. Additionally, my period breakouts tend to take a while to resolve but this cleanser not only reduced the amount of blemishes I got, but also got rid of the ones I did get much quicker. I use a full array of skincare products, this was the only one that was different so I attribute all the changes to my skin to this product. I didn't have any issues with it. I immediately went to UB and got the full size bottle.",
+   "date": "2024-03-14",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Emmi",
+   "titre": "Will be returning!",
+   "texte": "So, I bought this because I have had previous good experience with the brand and I wanted to try an oil cleanser. After only one use my skin seemed drier, irritated, and burned when I put my normal toner on after! Something in this irritated and dried out my skin :/ based on some reading it might be the sodium laureth sulfate",
+   "date": "2024-03-13",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Aubrey",
+   "titre": "Broke me out…",
+   "texte": "I have sensitive skin and this product sometimes breaks out my face. it leaves it feeling very tight and itchy. where i placed face wash there will be a red spot. it leaves me looking like i put on a red face mask.",
+   "date": "2026-03-22",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rebecca",
+   "titre": "Second bottle",
+   "texte": "I enjoy this body wash. I've used it on my face before as well. I have eczema on my hands and it doesn't irritate me or make my skin worse. My hands are pretty temperamental when it comes to everything really and this didn't bother me. I've used one body wash for years and wanted to try something new. I am also using Prequel's gleanser, which is fine but my skin feels cleaner with the La Roche Posay body wash. It leaves my skin feeling clean but never dry and it doesn't irritate my skin.",
+   "date": "2024-04-29",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Val",
+   "titre": "Amazing product",
+   "texte": "I am really like this oil based cleansing oil, it works very well and it makes my skin super smooth and soft. I've used this cleanser just to wash my entire body. I don't really use it for my face, but I do know that you can use it for your face I have a combination skin, which is oily and dry skin so this works for me, I also have used other products of this brand and they all work super amazing so I love this entire brand",
+   "date": "2024-03-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

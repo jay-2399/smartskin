@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2058916",
+ "asin": null,
+ "pid": "pimprod2058916",
+ "source": "ulta",
+ "nom": "TATCHA The Longevity Memory Cream Moisturizer",
+ "note": 4.72,
+ "nbAvis": 538,
+ "lus": 80,
+ "collectes": 107,
+ "segments": {
+  "oily": "Two reviewers with oily/combination skin report the cream is not greasy or heavy and keeps oil in check while still hydrating.",
+  "dry": "Reviewers with dry skin report noticeable relief from flaking and tightness, describing the cream as deeply hydrating through winter, though one reviewer with dry skin in Arizona found it drying and unfamiliar in texture.",
+  "combination": "Combination-skin reviewers describe it as balancing, hydrating without oily or dry patches, and comfortable under makeup, with one noting occasional breakout worry that did not materialize.",
+  "sensitive": "Sensitive-skin reviewers, including one with skin allergies, report no irritation and good comfort, though one household reported breakouts after switching to this product.",
+  "mature": "Mature-skin reviewers (mid-50s to 82) report firmer, plumper, brighter-looking skin and compliments from others, though one reviewer felt it did not deliver the anti-aging results and dryness she expected."
+ },
+ "concerns": {
+  "aging": "Most reviewers citing aging/mature concerns report firmer, plumper, more youthful-looking skin and compliments from others; one reviewer expected more radiance/anti-aging effect and instead found her skin dry.",
+  "dehydration": "The large majority of reviewers describe strong, lasting hydration and relief from dry, flaky skin, including during winter and tretinoin use; one reviewer found it drying rather than moisturizing for her skin.",
+  "redness": "One reviewer using tretinoin reports the cream eliminated red, flaking patches on her skin.",
+  "barrier": "One reviewer with skin allergies chose this product specifically for barrier support and reports plump, glowing skin without triggering her allergens.",
+  "blemishes": "Most reviewers, including some prone to breakouts from new products, report no new blemishes; two reviewers (a couple) report breakouts after introducing this cream.",
+  "oiliness": "Reviewers with oily or combination skin report it does not add grease or shine and helps balance oil, with no reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Bouncy, jelly-like gel texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Texture takes getting used to",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Luxurious packaging with gold spoon",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lid and jar packaging issues",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to jar size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance divides opinion",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Layers well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Marisa P.",
+   "titre": "Nope!",
+   "texte": "Unfortunately, after using it this week, both my husband and I experienced breakouts. This was really disappointing, especially since our skin had been doing so well after consistently using your Dewy Skin Cream, Water Cream, Brightening Serum, and Eye Cream for nearly two years. This is the only new product we've introduced, and it clearly did not agree with our skin. We also hated the texture; had to return it.",
+   "date": "2026-02-08",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "RL",
+   "titre": "Thrilled with the moisture!",
+   "texte": "I purchased this cream 2 weeks ago and I am very impressed by the results. I have struggled to find something to help add moisture and keep my skin from flaking during my tretinoin use and have tried it all over the last year. This is the first product to really make a difference. I apply after my tretinoin at night and I am no longer experiencing the red, flaking patches!",
+   "date": "2026-01-08",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "EivieD",
+   "titre": "Great for combo skin in the winter",
+   "texte": "This cream has a gel-like texture and resembles a mix of cream and serum. I have combination skin, so I'm always searching for a product that hydrates without making my skin too dry or too oily. This one strikes the perfect balance. My skin feels well-moisturized without any dry or oily spots. #gifted by tatcha",
+   "date": "2025-12-28",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Courtney",
+   "titre": "Just buy it!!!!",
+   "texte": "I was gifted by tatcha but this will be a repurchase!! I have skin allergies and sensitivities so I typically use one moisturizer day and night. I wanted to try this because it's a barrier supportive with tons of other benefits and doesn't contain my allergens. I'm like two weeks in and my skin is so plump and glowy!! The cream itself is bouncy and jello like it's really innovative and soft to your face. I cannot believe how magical this is, having tried so many things to find what works with my allergies, I'm usually disappointed with new finds. Hence why I don't change my routine much/will spend the money on what works. The spoon it comes with is so darling to get the product out too omg. Love this so much",
+   "date": "2025-12-29",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Barbara T.",
+   "titre": "Longevity Cream",
+   "texte": "I was hoping that it would do more for my aging skin. It seems to be make my skin dry. I was e pe ting more radiance and glow.",
+   "date": "2026-03-02",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bonnie C.",
+   "titre": "Cool Texture, Great Results",
+   "texte": "This moisturizer is fantastic! I've recently had to revamp my entire skincare regimen due to perimenopause and going on HRT - my skin went from combo/oily to dry, tight, and starting to look aged. The Longevity Cream has really evened out the dryness and gotten rid of that tight feeling, leaving my skin feeling soft and smooth again, but without causing me to break out. I use it morning and night after cleansing. Highly recommended!",
+   "date": "2026-01-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lisa S.",
+   "titre": "Best moisturizer I've tried",
+   "texte": "This moisturizer is absolutely amazing! I think I've finally found \"The One!\" I have extremely dry, mature skin and it feels and looks great now!",
+   "date": "2026-02-12",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2057241",
+ "asin": null,
+ "pid": "pimprod2057241",
+ "source": "ulta",
+ "nom": "NEOGEN Dermalogy Day Light Protection Airy Sunscreen Broad Spectrum SPF 50",
+ "note": 4.88,
+ "nbAvis": 65,
+ "lus": 65,
+ "collectes": 65,
+ "segments": {
+  "oily": "Reviewers with oily skin (including self-described 'oily girl') report the sunscreen absorbs quickly, controls excess oil and sebum, and does not leave a greasy or shiny residue, making it usable in place of a moisturizer.",
+  "dry": "Reviewers with dry skin report the formula is moisturizing enough to skip a separate moisturizer, leaves skin soft, and does not sting or irritate.",
+  "combination": "A combination-skin reviewer reports the sunscreen absorbs easily and never feels greasy, which she considers important in summer heat.",
+  "sensitive": "Most reviewers with sensitive skin report no irritation, no breakouts and comfortable all-day wear under makeup, though one reviewer with reactive (non-sensitive, by her own description) skin experienced irritation on patch test on both hands and face.",
+  "normal": "A reviewer describing her skin as normal reports a balanced, fresh look throughout the day."
+ },
+ "concerns": {
+  "dehydration": "Multiple reviewers report the product is hydrating enough to replace their regular moisturizer, leaving skin soft and plump; no reviewer reports a lack of hydration.",
+  "redness": "One reviewer notes the product left her skin looking 'calm' with no irritation; no reviewer reports increased redness.",
+  "spots": "One sensitive, acne-prone reviewer reports no new breakouts using this sunscreen; no other reviewer discusses spots or acne outcomes specifically.",
+  "blemishes": "A reviewer who says her skin 'breaks out easily' reports she did not break out with this product; no dissenting reports of breakouts appear elsewhere.",
+  "oiliness": "Several reviewers with oily skin report reduced midday shine, oil control, and a matte-to-natural finish; one reviewer notes a slightly shiny finish by the end of wear, and one non-sensitive reviewer experienced irritation rather than an oil-control issue."
+ },
+ "aspects": [
+  {
+   "libelle": "No white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight airy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doubles as moisturizer",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Fragrance causes irritation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Small tube size for price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption, no residue",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Kelsey",
+   "titre": "Irritated non-sensitive skin",
+   "texte": "complimentary from neogen - I like the serum like formula of this spf, but something in it is irritating to my skin. I'm not sure if it's the fragrance, but I even get irritated skin on my hands when I patch tested it there. Unfortunately won't really be able to use it on my face since I don't want a more severe reaction. The finish looks nice though",
+   "date": "2026-05-08",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Natalia",
+   "titre": "Great sunscreen",
+   "texte": "I'm super picky with sunscreen because most feel heavy or make my skin greasy, but this one surprised me. It feels so light and breathable, almost like skincare instead of SPF. No white cast at all, and my skin stays soft, hydrated, and balanced throughout the day. I also love that it works well under makeup and doesn't irritate my sensitive skin. gifted by neogen",
+   "date": "2026-05-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Natalia",
+   "titre": "Love it!",
+   "texte": "I'm extremely picky with sunscreen because my skin is dry and sensitive, but this one surprised me in the best way. The texture feels so lightweight and airy on the skin — no greasy finish, no heavy feeling, and absolutely no white cast on my complexion. It layers beautifully under makeup and gives my skin a healthy, hydrated glow without looking oily. I also love that it's SPF 50 while still feeling comfortable enough for everyday wear. It honestly feels more like a skincare product than a traditional sunscreen. Perfect for Florida weather and daily use. Highly recommend if you want protection without sacrificing how your skin looks and feels! gifted by neogen complimentary from neogen",
+   "date": "2026-05-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Candace",
+   "titre": "A daily go-to!",
+   "texte": "I've been using this sunscreen regularly for a few days now (received complimentary from NEOGEN), and I have been absolutely loving it. The texture is super lightweight and blends in easily with no white cast AT ALL. It feels hydrating enough that I sometimes skip moisturizer, and my skin still feels smooth and comfortable. My mom has oily skin and mentioned she noticed it helped keep excess oil in check. I have skin on the normal side, and we both thought our skin looked balanced and fresh throughout the day!",
+   "date": "2026-05-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sachi",
+   "titre": "great sunscreen",
+   "texte": "I really like this sunscreen. It doesn't leave a white cast and blends out easily and effortlessly. This also has a lightweight texture, so it doesn't feel heavy on the skin or leave a greasy feel. I also appreciate that this has ingredients in it to help with oils because I have really oily skin. This sunscreen also makes my skin look really smooth after applying and wears well under makeup. Gifted by Neogen",
+   "date": "2026-05-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "B",
+   "titre": "Dry skin user loves it!",
+   "texte": "As someone with dry skin, I really appreciate this sunscreen. It has a moisturizing texture, so I can use it directly without needing to apply an additional moisturizer. I also like that it doesn't leave a white cast or have a strong scent. Overall, it's a gentle, hydrating sunscreen that does its job well. Complimentary from Neogen.",
+   "date": "2026-05-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rebecca",
+   "titre": "Great!",
+   "texte": "I really like this sunscreen. It absorbs and rubs into the skin nicely and doesn't leave a white cast. My skin is sensitive and breaks out easily and didn't with this product. I received this product complimentary from neogen in exchange for my honest feedback.",
+   "date": "2026-05-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

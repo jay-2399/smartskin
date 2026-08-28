@@ -1,0 +1,166 @@
+{
+ "ref": "prod2152651",
+ "asin": null,
+ "pid": "prod2152651",
+ "source": "ulta",
+ "nom": "Dermalogica Super Rich Repair Moisturizer",
+ "note": 4.76,
+ "nbAvis": 1273,
+ "lus": 77,
+ "collectes": 94,
+ "segments": {
+  "dry": "Reviewers with dry skin, including long-term and severe dryness, report the cream resolves flaking, dry patches, and winter dryness, with several calling it the best moisturizer they have found for this skin type.",
+  "sensitive": "Reviewers describing sensitive, reactive, or eczema-prone skin report calming effects, reduced irritation and redness, and no adverse reaction, including one case of perioral dermatitis tolerating it well.",
+  "combination": "Reviewers with combination or dry-combination skin use it mainly at night paired with a lighter daytime product and report balanced, controlled skin without heaviness.",
+  "mature": "Reviewers who identify as mature or aging skin (including specific ages in the 40s–70s) report firmer, smoother, more youthful-looking skin with regular use."
+ },
+ "concerns": {
+  "dehydration": "Reviewers across skin types consistently report strong, lasting hydration, especially in winter or dry climates, with several calling it the only product that stops recurring dryness; no dissent found on this point.",
+  "aging": "Several reviewers report firmer, plumper, smoother-looking skin and fewer visible wrinkles with regular use, though one reviewer expected stronger anti-aging/sun-repair effects and found the result different than anticipated.",
+  "redness": "Reviewers with sensitive skin report the product calms redness and irritation and strengthens the skin barrier over time.",
+  "barrier": "One reviewer explicitly credits the formula with strengthening the skin barrier and building resilience; others describe general soothing of irritated or reactive skin.",
+  "blemishes": "Several reviewers note no new breakouts and that the product does not clog pores; one reviewer notes the cream can make her face look a bit oily or shiny despite not causing breakouts.",
+  "oiliness": "Most reviewers say the cream absorbs well without leaving a greasy feel, but one reviewer reports it can make the face look somewhat oily or shiny."
+ },
+ "aspects": [
+  {
+   "libelle": "Thick, rich texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs without greasy feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slow to spread or absorb",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump or tube dispenses inconsistently, wastes product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Long-lasting all-day hydration",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Paige",
+   "titre": "Not worth the money at all.",
+   "texte": "Dont get me wrong its a good moisturizer but it did irritate my skin. I will not repurchase. I personally dont think it is worth the price at all. Youre better off buying a more affordable moisturizer but if you have the money then go for it. Dont forget its not the best😊",
+   "date": "2023-11-14",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marshak",
+   "titre": "The Best for Extremely Dry Skin",
+   "texte": "I have spent years and a fortune searching for a moisturizer that would help my dry skin. Nothing worked until I found this!! It may seem a little pricey but it actually works and it lasts a long time. One pump is enough to cover my face and neck. I won't do without this and hope they don't change the formula or discontinue it!!",
+   "date": "2024-02-13",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Moe",
+   "titre": "The G.O.A.T.",
+   "texte": "Wow. I tried this on a whim from the 21 days of beauty, but daaaang. This cream is gorgeous and SO effective. I have sensitive eczema prone skin, and this is just perfect. Helped to heal some irritated dry patches on my skin. Will absolutely keep buying this gem!",
+   "date": "2023-09-17",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Faya",
+   "titre": "Very good cream",
+   "texte": "Dermalogica's Stabilizing Repair Cream -that was gifted by Dermatologica- is a game-changer for sensitive skin. Its balmy texture melts into the skin, providing instant relief from redness and irritation while strengthening the skin barrier over time. Key ingredients like Ceramide-Building Complex and Centella Asiatica help the skin build resilience, lock in moisture, and improve firmness. Free from artificial fragrances, this formula is perfect for sensitive types. Clinical results promise visible improvements in just one week, making it a must-have for soothing and repairing your skin.",
+   "date": "2025-01-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jazzy",
+   "titre": "Velvety Skin Bliss",
+   "texte": "The Dermalogica Super Rich Repair Moisturizer Cream is really simple to use, even though it falls on the pricier side, which is pretty standard for Dermalogica products. It's incredibly hydrating and leaves your skin feeling super soft, like you're on a cloud. I did notice it has a bit of a strange smell, but honestly, that's something I've encountered with other Dermalogica and non-Dermalogica products that I still love, so it's a trade-off for good skin. Overall, it's a good choice. It might make my face a tad oily or shiny, but it hasn't led to any breakouts.",
+   "date": "2023-11-04",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Molly S.",
+   "titre": "Best thick moisturizer I can find.",
+   "texte": "I've been using this cream for years. I have sensitive (ish) dry skin, I'm 43, I love a thick cream and this covers all bases. I have looked for alternatives almost every time my bottle runs out, but have never found anything as good. It is lightly scented but not at ALL overpowering. I find most moisturizers are too powerful.",
+   "date": "2023-10-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "aysun",
+   "titre": "Compatible with perioral dermatitis",
+   "texte": "I met perioral dermatitis at the age of 38. It was very difficult to find an anti-aging cream, but I think I found the right cream with a sample. It was great that there was no reaction when I applied it. I will continue.",
+   "date": "2025-05-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2020797",
+ "asin": null,
+ "pid": "pimprod2020797",
+ "source": "ulta",
+ "nom": "Avène Thermal Spring Water",
+ "note": 4.85,
+ "nbAvis": 1247,
+ "lus": 77,
+ "collectes": 109,
+ "segments": {
+  "oily": "Reviewers with oily skin report the mist hydrates without adding shine or clogging pores.",
+  "dry": "Reviewers with dry skin describe it as a hydration booster that relieves tightness and pairs well with moisturizer or hyaluronic acid.",
+  "combination": "Combination-skin reviewers say it balances dry patches and an oily T-zone and works well layered under makeup.",
+  "sensitive": "Sensitive-skin reviewers most often report calming of redness, itching and reactivity, though one reports a breakout and one reports a burning/blotching reaction.",
+  "mature": "One post-menopausal reviewer with reactive, fair skin calls it an anti-inflammatory staple, clarifying it is not a moisturizer itself."
+ },
+ "concerns": {
+  "redness": "Numerous reviewers, many with rosacea or generally red/flushed skin, report visible calming and reduction of redness within minutes; no dissent found.",
+  "barrier": "Reviewers describe it soothing compromised or reactive skin (perioral dermatitis, post-procedure, post-shaving, drug rash), with several calling it faster-acting than creams; one reviewer instead had a reactive, blotchy response to it.",
+  "dehydration": "Many reviewers use it as a hydration step before or mixed into moisturizer/hyaluronic acid, especially in dry climates or hard-water areas, reporting less tightness; one reviewer found it no better than tap water in effect though similarly refreshing.",
+  "spots": "Two reviewers mention a daughter's acne improving gradually over weeks with consistent use; not described as a fast or complete fix.",
+  "blemishes": "One reviewer with combination, sensitive, acne-prone skin says the mist visibly calms her skin and she notices a difference when she skips it; another reviewer reports it broke her out.",
+  "aging": "No reviews specifically address aging/anti-aging effects.",
+  "oiliness": "Oily-skin reviewers say it hydrates without leaving an oily film or clogging pores; no dissent found."
+ },
+ "aspects": [
+  {
+   "libelle": "Fine, cooling mist texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft, dewy, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Faulty or inconsistent spray nozzle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good base or setting step under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Seen as overpriced for 'just water'",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, good value per can",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Occasional breakout or redness reaction",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "gk",
+   "titre": "sensitive skin reaction",
+   "texte": "I have sensitive skin and very mild rosacea. After using the water 2 nights in a row, within minutes after applying, red blotches appeared. After washing it off and applying a lotion with niacinamide it calmed down. So not as gentle as it claims.",
+   "date": "2024-03-05",
+   "verifie": true,
+   "utiles": 15,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "meg",
+   "titre": "be cautious if sensitive skin",
+   "texte": "for some reason this broke me out. as well as the lrp one . sucks bc I wanted to love.",
+   "date": "2025-08-24",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Audra",
+   "titre": "Absolute holy grail product for me",
+   "texte": "I have very fair, extremely reactive, dry skin (natural redhead, post-menopausal) and will NEVER be without this stuff if I can help it. It erases any redness/irritation on my skin almost instantly. During a recent make-over/product discovery session my skin reacted badly to a very high end serum but having a small can of this in my bag saved me. I keep the biggest bottle I can purchase at home and the little one in my bag at all times. I don't know how or why it works and honestly don't care. Do not be fooled that its a moisturizer, it isn't. But it is definitely anti-inflammatory.",
+   "date": "2024-05-25",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "crystal",
+   "titre": "combo skin holy grail",
+   "texte": "I have combo skin with a few dry patches around my mouth area, and an oily T zone. throughout the day the moisture of my skin gets depleted making my skin feel tight. This thermal spring water helps me give nourishment to the dry patches, and best of all, I can use it on top of makeup. it soothes real well and it's my day to day go to. I always combine it with the Coola facial mist sunscreen.",
+   "date": "2023-09-08",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marrissa",
+   "titre": "Amazing",
+   "texte": "This spray is my absolute holy grail. I have combination, sensitive, acne-prone skin and this calms my skin soooo well. I notice a visible change in my skin when I don't use this spray. For application, I usually spray this right after washing my face while my skin is damp and let it sit for a couple minutes before patting my skin dry. Kinda like a toner. This is a vital product in my everyday/night skincare routine and I will forever repurchase.",
+   "date": "2025-04-26",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "vanessa m.",
+   "titre": "I have oily skin and",
+   "texte": "I have oily skin and live in a tropical climate so I don't necessarily want to use a moisturizing cream in the daytime. This works very well to hydrate my skin without looking oily and does not clog my pores.",
+   "date": "2024-02-17",
+   "verifie": true,
+   "utiles": 6,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mamaleh",
+   "titre": "Great product, crummy nozzle",
+   "texte": "This spray is wonderful for my skin. it gives light,balanced moisture. It is perfect for when I only feel like I need a light toner before sun protection. It seems to reduce inflammation, and pore/crease appearance. I love to set makeup with it. It leaves the skin looking like velvet. ♡ The nozzle is no good and spurts inconsistently. Considering the cost and reputation of the company, there's no excuse for this. Fix the nozzle. It's 2024,we have the technology.",
+   "date": "2024-11-22",
+   "verifie": false,
+   "utiles": 17,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

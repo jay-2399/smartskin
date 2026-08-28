@@ -1,0 +1,124 @@
+{
+ "ref": "pimprod2045309",
+ "asin": null,
+ "pid": "pimprod2045309",
+ "source": "ulta",
+ "nom": "Hero Cosmetics Mighty Patch for Fine Lines Patches",
+ "note": 4.29,
+ "nbAvis": 7,
+ "lus": 5,
+ "collectes": 5,
+ "segments": {},
+ "concerns": {
+  "aging": "Reviewers use these on forehead lines, the 11's, and smile lines, reporting visibly reduced or less noticeable lines within hours to a couple of days of wearing them; one reviewer instead experienced burning and redness rather than any improvement."
+ },
+ "aspects": [
+  {
+   "libelle": "Visible reduction in fine lines",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Fast, noticeable results",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Skin burning and redness on application",
+   "polarite": "neg",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "High price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cutting patches in half to extend value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Superior to other brands tried",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Liyah",
+   "titre": "BURNS",
+   "texte": "I applied these to my face where i seen fine lines and gently rubbed and it started burning and now have red burns on my face. I wouldn't try this again.",
+   "date": "2025-01-29",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Yen",
+   "titre": "I'm hooked",
+   "texte": "Other brands I've tried do not do a portion of what this brand does for me. I literally can tell a difference after a few hours of wearing this on my 11's.",
+   "date": "2026-03-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ashimilie",
+   "titre": "I feel like this works!",
+   "texte": "I have the beginnings of a line in the mjddle of my forehead, and I feel like this really makes a difference!",
+   "date": "2025-12-04",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yen",
+   "titre": "Great",
+   "texte": "Other nrands ive tried didnt do anything, i can see my lines go away after wearing this. Its expensive but at least it works. I cut them in half now to last longer.",
+   "date": "2026-03-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gabs",
+   "titre": "Love her please never discontinue",
+   "texte": "These have drastically helped my smile lines pump up and become so much less noticeable. I will use them now before an event like a couple days before to snatch my face.",
+   "date": "2026-07-04",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": "Only 5 of 7 reviews are usable and none mention the reviewer's skin type, so segmentation by skin type is not possible from this set."
+}

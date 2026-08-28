@@ -1,0 +1,154 @@
+{
+ "ref": "pimprod2056039",
+ "asin": null,
+ "pid": "pimprod2056039",
+ "source": "ulta",
+ "nom": "Rare Beauty Find Comfort Hydrating Under Eye Patches",
+ "note": 4.89,
+ "nbAvis": 181,
+ "lus": 73,
+ "collectes": 73,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are split: several say the patches were gentle and non-irritating even overnight use, but one reports a rosacea flare-up after the cooling sensation.",
+  "mature": "Reviewers who mention being in their 50s-70s report visible de-puffing and a younger-looking effect, with no negative comments tied specifically to mature skin.",
+  "dry": "One reviewer in dry winter conditions describes the patches as especially hydrating for that skin."
+ },
+ "concerns": {
+  "aging": "Reviewers report smoothed fine lines and a younger, brighter look, sometimes within minutes; one older reviewer calls it the best de-puffer she's tried, though these are subjective impressions rather than measured change.",
+  "dehydration": "Most reviewers describe a hydrating, moisturizing effect that leaves under-eyes feeling softer and refreshed; one reviewer, however, saw no real difference in hydration and another found the effect was cooling only, without added moisture.",
+  "redness": "One reviewer with rosacea reports a flare-up triggered by the cooling sensation, which is the only redness-related account among the reviews."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Patches stay in place without sliding",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reduces puffiness and dark circles",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for pack size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Excessive packaging for product size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No lasting or dramatic improvement",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Irritation flare-up on rosacea-prone skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Patrycja W.",
+   "titre": "Solid patches, but nothing mind-blowing.",
+   "texte": "Solid patches, but nothing mind-blowing. They're nice and hydrating, feel cool and soothing under the eyes, and make your skin feel softer right after using them. Good for a quick pick-me-up or before going out. However, for me they didn't do much more than basic hydration ! no dramatic brightening or long-lasting improvement. Decent if you want something gentle and refreshing, but not a must-have.",
+   "date": "2026-01-05",
+   "verifie": true,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Susan H.",
+   "titre": "They were not the best",
+   "texte": "They were not the best for my sensitive skin. They made my rosacea flare up after the cooling.",
+   "date": "2025-11-25",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Caitlin",
+   "titre": "Love Love Love",
+   "texte": "These are fabulous eye patches! I love the cooling and depuffing. Great on sensitive skin. Also you get 8 pairs!",
+   "date": "2026-04-29",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Kelly G.",
+   "titre": "These are very refreshing! I",
+   "texte": "These are very refreshing! I would definitely recommend these. I have very sensitive skin and was able to wear without irritation. Lovely product!",
+   "date": "2025-12-30",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Roberta B.",
+   "titre": "I am in love with",
+   "texte": "I am in love with these eye patches. I could not believe the difference when I used them before my makeup! My eye bags were all but gone and I have very bad hereditary bags/dark circles. I have never found a patch that did anything until these by Rare Beauty. I am a huge RB fan already, but I will be buying these in bulk!",
+   "date": "2025-12-21",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Christina",
+   "titre": "I love these ! At 55",
+   "texte": "I love these ! At 55 years old, the best de puffer I've ever tried.",
+   "date": "2025-04-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kimberly M.",
+   "titre": "LOVE LOVE LOVE these under",
+   "texte": "LOVE LOVE LOVE these under eye patches so hydrating especially for this dry winter skin",
+   "date": "2025-12-30",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,170 @@
+{
+ "ref": "pimprod2018261",
+ "asin": null,
+ "pid": "pimprod2018261",
+ "source": "ulta",
+ "nom": "La Roche-Posay Effaclar Clarifying Solution Acne Toner",
+ "note": 4.34,
+ "nbAvis": 375,
+ "lus": 80,
+ "collectes": 118,
+ "segments": {
+  "oily": "Reviewers with oily or oily/acne-prone skin report it helps control excess oil and shrink pore appearance, though a couple note it does not reduce oiliness itself.",
+  "dry": "Reviewers with dry skin mostly report it works without drying them out, though several others (unspecified base type) describe new dryness, flaking, or tightness after regular use.",
+  "combination": "Reviewers with combination skin generally report smoother texture and fewer clogged pores/comedones, with some needing a strong moisturizer alongside it to offset dryness.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it is gentle and causes no burning or irritation, while others describe burning, swelling, rashes, or a damaged skin barrier, with one advising against it for sensitive skin.",
+  "mature": "One perimenopausal reviewer and one reviewer in her mid-30s report the toner helped control hormonal acne and improved texture and tone without drying the skin."
+ },
+ "concerns": {
+  "aging": "The few reviewers mentioning aging skin (perimenopause, mid-30s) report improved texture and more even tone alongside acne control; no anti-aging claims are made.",
+  "dehydration": "Many reviewers report dryness, tightness, or flaking, especially with overuse or too much product, while a similar number specifically praise it for not drying their skin when paired with a moisturizer.",
+  "redness": "Reviewers report reduced redness and calmer, less red cheeks after use, including one with rosacea who calls it life-changing; no reviewer reports increased redness as a lasting issue.",
+  "barrier": "Some reviewers describe a compromised or burning skin barrier after regular or excessive use, while others say it did not disrupt their barrier and paired it with barrier-supporting moisturizers.",
+  "spots": "Reviewers report fading acne scars, dark spots, and post-acne marks becoming lighter or disappearing over weeks of use; no reviewer reports spots worsening.",
+  "blemishes": "Most reviewers report fewer breakouts, disappearing pimples, or reduced hormonal/cystic acne with consistent use; several report no improvement and a few report new breakouts, rashes, or fungal acne appearing.",
+  "oiliness": "Reviewers report the toner controls excess oil and removes leftover oil/dirt after cleansing, though one reviewer notes it did not reduce oiliness itself."
+ },
+ "aspects": [
+  {
+   "libelle": "Bottle leaks in travel bags",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing, non-sticky feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value for amount of product",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Watery, clear liquid texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Best results only with full Effaclar routine",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "allie123",
+   "titre": "Not for sensitive skin",
+   "texte": "I took the skin care quiz to see what would help with the gel cleanser. It recommended this and the spot treatment after the second night of using it burnt my skin very badly and continued to burn it for several hours even after washing it off. I woke up the next morning with my face swelled up. If you have sensitive skin I would not recommend this product.",
+   "date": "2023-08-02",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Nels",
+   "titre": "It works but…",
+   "texte": "I've always struggled with acne and i bought this toner along with the face wash and spot treatment, it definitley cleared my acne but it's NOT for sensitive skin. I used it for half a year and once my acne cleared up I stopped using it. I used it again and I felt my face BURNING while i went to sleep. It messed with my skin barrier baddd. I thought it was the face wash or spot treatment from the effaclar line but it turned out to be the toner.",
+   "date": "2024-01-09",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sava",
+   "titre": "AMAZING MUST TRY",
+   "texte": "This is by far the most Important part of my skin care routine. I use this every night after cleaning with their Toleriane Hydrating Gentle Face Cleanser and my last step is a generous amount of the Lipikar Body Lotion Daily Repair Moisturizing Cream(this is for the face too!). This was an incredible match for my combo skin. I cannot believe the results. I also take a daily probiotic because bad skin usually starts with poor gut health. This routine has changed my skin drastically in 2 weeks. MUST TRY: For combo sensitive skin 1. Toleriane Hydrating Gentle Face Cleanser 2. Effaclar Clarifying Solution Acne Toner 3. Lipikar Body Lotion Daily Repair Moisturizing Cream And I take \"Rae Start Probiotic\" every morning before food.",
+   "date": "2022-09-22",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jess",
+   "titre": "Saved my skin!",
+   "texte": "Everyone's skin is different. I have combination skin and was suffering from closed comedones on my cheeks and foreheads and my pores looked big. I dont have sensitive skin so I started using this product every night after cleaning my face and within 5 days my face looks soooo smooth and the comedones disappeared completely. I apply Vanicream after so my skin can be hydrated and not damage my skin barrier. During the day I use Byoma and La Roche Sunscreen.",
+   "date": "2023-09-29",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "retrovamp_",
+   "titre": "I actually see a difference!",
+   "texte": "My acne is usually well managed, but lately I've been having horrible breakouts that just don't seem to respond to my old skincare products anymore. I decided to try this on a whim and after a month of regular use, I am pleasantly surprised. My breakouts and any residual bumps are nearly gone, and any new spots that show up disappear almost as soon as they came. Like with any product, it does take time to see full results but even after just a week I noticed a decrease in redness and blemish size. I have sensitive skin, but despite that I don't experience any irritation or dryness either. My face is close to being completely cleared up again, but I plan to continue using this toner and will repurchase once I finish my current bottle.",
+   "date": "2023-08-24",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Julianna",
+   "titre": "Best toner",
+   "texte": "I have dry skin. This toner works wonders and doesn't dry out my skin!",
+   "date": "2022-10-12",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ezhou251",
+   "titre": "Gentle",
+   "texte": "I love this toner. I have sensitive dry/normal skin and this is very gentle on my skin. I've noticed smoother skin especially in areas that tend to have clogged pores after I started using it and it's gentle enough for me to use everyday- most clarifying products/acne related products are too harsh for my skin.",
+   "date": "2023-01-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

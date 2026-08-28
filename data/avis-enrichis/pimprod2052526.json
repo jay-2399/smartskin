@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2052526",
+ "asin": null,
+ "pid": "pimprod2052526",
+ "source": "ulta",
+ "nom": "SUNGBOON EDITOR Apple Peel Glow Skin Soothing Toner",
+ "note": 4.7,
+ "nbAvis": 44,
+ "lus": 22,
+ "collectes": 22,
+ "segments": {
+  "dry": "Reviewers describing dry skin report both marked hydration benefit (fifth repurchase for inner dryness, twice-application keeps skin from drying out) and, in one case with concurrent eczema, a bad reaction with redness and burning.",
+  "sensitive": "Reviewers with sensitive, rosacea-prone or eczema-prone skin report negative reactions including redness, burning, bumps and worsened texture, contrasting with the largely positive tone from other segments."
+ },
+ "concerns": {
+  "barrier": "Two reviewers with compromised or reactive skin (rosacea, eczema) report the product triggered burning, redness and breakouts lasting several days; no reviewer with barrier issues reports a soothing effect despite the product's name.",
+  "redness": "One reviewer's face turned red and blotchy after a single application on rosacea-prone skin; no other reviewer mentions redness as an outcome, positive or negative.",
+  "dehydration": "Several reviewers call the toner hydrating or moisturizing, with one on a fifth repurchase specifically for inner dryness and another noting it prevents dryness when applied twice.",
+  "spots": "One reviewer reports bumps appearing all over one side of the face after application, with breakouts persisting about four days; no other reviewer reports new spots."
+ },
+ "aspects": [
+  {
+   "libelle": "Improves skin texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs well and feels smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle, generous value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Adverse reaction on sensitive or compromised skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Suspected fake or templated reviews",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pairs well with soothing gel for added smoothness",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Wendolyn",
+   "titre": "This sucks",
+   "texte": "This did nothing for my skin except make the texture worse. This is can be a symptom if my skin reacts to a products poorly. I have rosasea and dry skin so it's hyper sensitive. The bottle is absolutely huge but this was a big let down. I'd give it no stars, just made my skin look bad.",
+   "date": "2025-12-10",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Canzeee",
+   "titre": "Disappointing",
+   "texte": "After reading the reviews I was so excited to try this product. Unfortunately it broke my skin out. I have very sensitive dry skin and eczema. This product instantly turned my face red, blotchy, my skin started to burn, and bumps appeared all over the right side of my face ( the only side of my face I applied it to.) Even after washing it off, my face was broken out for about 4 days.",
+   "date": "2025-12-27",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Kel",
+   "titre": "a genuine review",
+   "texte": "Using toners--essences really--as a first step after cleansing has improved my skin's appearance & texture. Most of these contain either a small amount of acid or actives such as niacinimide. Not sure what apple peel can do or whether that's been studied, but it sounded nice--and the reviews were so high. Looking over them again, it's pretty likely that many are fake. Notice the formatting. I'll be more careful in the future.",
+   "date": "2026-02-06",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Ellie K",
+   "titre": "Pure Hydration – Already on My 5th Bottle!",
+   "texte": "Pure hydration. Already on my fifth bottle!!! Highly recommend for inner dryness.",
+   "date": "2025-04-21",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ava C",
+   "titre": "Moisturizing & Gentle – Great Size and Ingredients!",
+   "texte": "It's a slightly moisturizing toner, so applying it twice keeps my skin from drying out. It also has a large amount, so you can use it generously. The ingredients are good too, so I feel safe using it.",
+   "date": "2024-11-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Evelyn",
+   "titre": "Seriously Amazing – Smooth, Clean Skin & Better Makeup!",
+   "texte": "Seriously... it's amazing. My skin texture is smooth, skin looks clean, makeup applies better, and it works even better with the texture cream. I came back to buy more… it's worth every penny.",
+   "date": "2025-02-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Daisy A",
+   "titre": "My Favorite for Smoothing Texture – Great Value!",
+   "texte": "This one is the best for smoothing skin texture! The amount is generous too! Love it.",
+   "date": "2025-02-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "Many 5-star reviews are short and generic with no stated skin type or concern, and one reviewer explicitly suspects several are fake, so conclusions rely mainly on the small number of detailed reviews."
+}

@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2042891",
+ "asin": null,
+ "pid": "pimprod2042891",
+ "source": "ulta",
+ "nom": "MAC Mini Hyper Real Fresh Canvas Cream-To-Foam Face Cleanser",
+ "note": 4.54,
+ "nbAvis": 608,
+ "lus": 80,
+ "collectes": 117,
+ "segments": {
+  "dry": "Many dry-skin reviewers report the cleanser leaves them ashy, tight, or squeaky-clean and stripped, though a smaller number say it feels moisturizing and does not dry them out.",
+  "oily": "Reviewers with oily skin generally describe the cleanser as a good deep-clean that removes excess oil and makeup without leaving a greasy residue.",
+  "combination": "Reviewers with combination skin report it as gentle yet effective, not leaving skin tight, and good at removing mascara.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it doesn't irritate or break them out and even helps redness, while others flag the fragrance as a concern for sensitivity.",
+  "normal": "The few normal-skin reviewers describe it as hydrating, non-drying, and leaving skin refreshed.",
+  "mature": "One mature-skin reviewer reports it keeps her dry, aging skin hydrated without stripping."
+ },
+ "concerns": {
+  "aging": "One reviewer with dry, aging skin says it keeps her skin hydrated; another attributes disappearance of a fine line near her mouth to her full MAC skincare routine, not the cleanser alone.",
+  "dehydration": "Opinions diverge sharply: multiple reviewers report the cleanser leaves skin dry, tight, ashy or stripped, while a larger number say it leaves skin hydrated, soft, and not tight.",
+  "redness": "One reviewer with sensitive skin/rosacea reports redness appeared diminished and skin looked healthier after use.",
+  "barrier": "One reviewer credits an ingredient (glycerin) with helping repair the skin barrier, though this is a single, ingredient-based claim rather than a widely reported effect.",
+  "spots": "One reviewer reports it lightened dark spots; no other reviewer discusses spots specifically.",
+  "blemishes": "Most acne-prone reviewers who mention breakouts report no new breakouts and even improvement, but one reviewer explicitly warns it is not suited to those struggling with acne or wanting fewer breakouts, and another notes it lacks AHAs/BHAs for acne.",
+  "oiliness": "Oily-skin reviewers report it removes excess oil effectively and leaves skin feeling clean rather than greasy, with no reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Cream-to-foam texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Squeaky, tight skin-feel after rinsing",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Strong lingering fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Effective makeup and mascara removal",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sleek but screw-top packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for a basic cleanser",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Echo",
+   "titre": "Designer Ivory Soap",
+   "texte": "This smells like Ivory Soap and straps my face just like it. This left me with that unpleasant squeaky clean face. I'm super dry and dehydrated so I have no oils to spare. Save your face and skip this",
+   "date": "2024-05-29",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Shea",
+   "titre": "Was not an effective cleanser",
+   "texte": "I love Mac, so I am very disappointed in this cleanser. It is not at all effective at removing makeup and still leaves residue when toning after cleansing when no makeup has been worn. Using a powered face washing tool didn't even help. It also claims to be hydrating but it is not. My face is ashy dry after using this. It is in line with most foaming cleansers I've tried, but there are others that are NOT this drying and are effective. It's not necessarily smoothing either, as when my face gets dry it tends to get rougher and breaks out a little in those small bumps. It obviously will get rid of excess oil, but any moisture gets sucked out as well. The best parts of this cleanser are the very neutral, just smells like the bottle, scent for those with sensitivities, and the foam is rich and spreads easily so too much product is not being consumed at once. Unfortunately, I do not like this cleanser and my face has noticeably dulled using it.",
+   "date": "2024-01-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Lynn",
+   "titre": "To each their own",
+   "texte": "The reason I've titled this review 'to each their own' is because it truly depends what your preferences are.. if you have acne prone skin and you are looking for non-acnegenic then skip this (Myristic Acid, Lauric acid, Algae Extract) If fragrances irritate you .. be weary . (ALTHOUGH IT SMELLS AMAZING) But is it a good cleanser? ABSOLUTELY , it makes you feel like you have a blank canvas and like it has done its job to clean and cleanse. It has other ingredients that are good, that do promote repairing of the barrier and even skin tone over time. So for the right candidate; oily skin, combo skin.. those in the market for something new …. DONT HESITATE!",
+   "date": "2024-01-21",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stella Dee",
+   "titre": "Great for Sensitive Skin",
+   "texte": "I got this as a sample when buying something from MAC. I was hestiant to try it because I have sensitive skin/rosacea and generally have a bad reaction to products. I decided to be brave and give it a try. Boy am I happy I did. My skin looks amazing. The redness seems to have disipated and my skin looks healthier and nourished. Highly recommend to anyone with sensitive skin.",
+   "date": "2025-01-04",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kay",
+   "titre": "Mac has a hit",
+   "texte": "I love this. I have combination skin and it tends to be difficult to find a cleanser that's gentle enough but effective to deal with combination skin. This one was lovely. My skin didn't feel tight after washing. It removed mascara wonderfully. This is usually the worst part for me, so I was very pleased with how great it worked. Also, I enjoy the packaging. Easy to use with wet fingers. Good stuff",
+   "date": "2024-01-15",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nakita",
+   "titre": "Powerful Cleanser",
+   "texte": "This cleanser really deep cleansing and takes away all oil, dirt, makeup, pollutants off your skin. This cleanser is no joke. It's excellent for oily greasy skin, but I would be a little nervous to recommend to someone with dry skin. I love this cleanser",
+   "date": "2024-10-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Justin A.",
+   "titre": "Best Cleanser I've Used",
+   "texte": "This is easily one of the best cleansers that I've ever used. My skin tends to be on the dryer side and a lot of face cleansers dry out my skin even more. I am constantly trying new cleansers, because the big name brands tend to leave me with small, dry patches on my face. I also tend to develop whiteheads easily, especially on my nose. I usually apply a toner after cleansing to help prevent them, but I decided to test this MAC cleanser by itself to see if it would have an effect. I have been using this cleanser for two weeks and I can already see some improvements with my skin. My face doesn't feel nearly as dry when I'm finished cleansing. As a result, I can apply a little less moisturizer. The cleanser itself almost feels like it's adding moisturizer. It is a nice cream that glides on to the skin. It removes any dirt and debris form my face without stripping away all of the natural oils. My face just feels fresher and smoother after using this cleanser. I do not wear makeup, so I do not have a lot of experience with MAC products, but after trying this cleanser, I am excited to explore more of their skincare line.",
+   "date": "2024-01-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

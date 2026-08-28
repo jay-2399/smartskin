@@ -1,0 +1,168 @@
+{
+ "ref": "xlsImpprod10791821",
+ "asin": null,
+ "pid": "xlsImpprod10791821",
+ "source": "ulta",
+ "nom": "Clinique Moisture Surge Overnight Face Mask",
+ "note": 4.65,
+ "nbAvis": 958,
+ "lus": 80,
+ "collectes": 178,
+ "segments": {
+  "oily": "Some reviewers with oily skin report the mask does little for them or feels unnecessary, though a few say it hydrates without adding grease.",
+  "dry": "Reviewers with dry, very dry, or dry/flaky skin most consistently credit the mask with relieving dryness, plumping the skin, and eliminating flaky patches, especially in winter.",
+  "combination": "Reviewers with combination or combo-oily skin report the mask balances dryness without breakouts, though one found it too heavy for warmer months.",
+  "sensitive": "Reviewers with sensitive, reactive, or allergy-prone skin generally report no irritation or breakouts, but a few describe adverse reactions including perioral dermatitis, redness, and tingling.",
+  "mature": "Reviewers describing themselves as older or aging report plumper, less line-drawn skin and reduced wrinkle appearance overnight."
+ },
+ "concerns": {
+  "aging": "Reviewers using the mask for aging or mature skin report a dewier, plumper look and diminished appearance of wrinkles the next morning.",
+  "dehydration": "The large majority of reviewers report significant overnight hydration, softness, and a dewy glow, though one reviewer found it did not improve dryness at all despite repeated use.",
+  "redness": "One reviewer reports the mask absorbs redness and improves blemishes overnight; another reports the opposite, developing a hot, red reaction linked to a wheat ingredient.",
+  "barrier": "Reviewers managing eczema or a compromised barrier report the mask soothed flare-ups and cleared rashes, though one reviewer developed perioral dermatitis after prolonged use and was advised to stop.",
+  "spots": "A couple of reviewers used the mask alongside retinoid or exfoliating treatments and found it eased resulting dryness and irritation without new spots.",
+  "blemishes": "Most reviewers with acne-prone skin report no new breakouts and easier makeup application over blemishes; one reviewer, however, reports her chin broke out with repeated use.",
+  "oiliness": "Reviewers with oily skin report the mask hydrates without leaving a greasy feel, though a couple felt it added little benefit or was unnecessary for their skin type."
+ },
+ "aspects": [
+  {
+   "libelle": "Sticky or tacky finish",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Glow and plumped look next morning",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich, thick creamy texture",
+   "polarite": "pos",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Fast absorption, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting tube, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unsanitary twist-lid jar packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Controversial dye and wheat ingredients",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Skylar",
+   "titre": "Doesn't work",
+   "texte": "NOT ONLY DOES THIS HAVE HARMFUL DYES IN IT (Red 4 & Yellow 5), BUT IT DOESN'T WORK! It's okay-ish whenever I put it on at night, but it doesn't help dryness at all. It only masks it and doesn't improve skin the next day. Whenever I would wash my face with warm water in the morning after wearing this to bed, there would be no difference compared to the day before; it would wash off, and I'd have the same dry skin. I've tried multiple times, with the same effect every time. Moisturizers should restore moisture, especially if they're a thick overnight mask like this one is. THIS IS NOT EFFECTIVE. No wonder they keep giving full sizes for free with purchase. ALSO: it has harmful dyes in it! Red 4 and Yellow 5. Why are these in a face lotion?!?! Further proof that Clinique has gone downhill in the past year or two.",
+   "date": "2025-02-21",
+   "verifie": false,
+   "utiles": 36,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "KD",
+   "titre": "Use with caution",
+   "texte": "I used this product for 3 years religiously. During that time, it was the only thing that kept my face moisturized in the winter. Unfortunately, my dermatologist urged me to discontinue use after developing perioral dermatitis. This condition is typically associated with steroid creams, and this formula contains phytosterols, a steroid-alcohol. If you have sensitive skin, or are prone to dermatitis, eczema, psoriasis, rosacea, etc., I would skip this one.",
+   "date": "2022-10-31",
+   "verifie": false,
+   "utiles": 19,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kara",
+   "titre": "Nice product for most, but avoid if you have a wheat allergy",
+   "texte": "I don't know if the formula changed, or if I'm just more sensitive than I used to be. I loved this product for a nice treat of extra hydration at night sometimes, but then tonight my face turned red and on fire with it. I came on here to check the ingredients list, and it has wheat bran in it. If you don't have a wheat allergy, it's a nice product. I wish they wouldn't put wheat in so many products. I hope they will not put it in any of my go-to daily products, because I've been a life-long Clinique customer... and I don't want to have to go search for alternate products. My daughters are happy for the hand-me-down skincare, so it's definitely not going to waste... but I will miss you, Moisture Surge Mask! I will be happy to try you again if you stop having wheat. ;)",
+   "date": "2024-09-15",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sam",
+   "titre": "Not for oily skin",
+   "texte": "I'm kinda confused on how this works. I applied it and left it on overnight, but I didn't really do anything. I just feel like I wasted money to be honest. I noticed a lot of people were dry skin I said it worked. but I have oily skin so maybe that's why it didn't work",
+   "date": "2022-10-03",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Lotion Lover",
+   "titre": "Pleasantly Surprised",
+   "texte": "I used to have uncontrollable combo skin until I took the time to find the right products. Dry, patchy, greasy… you name it and the wrong products would cause my eczema to flare up and why not throw a few pimples in there. This is one of the products I now regulalry use that has given my skin a healthy glow, balance, smoothness, less breakouts, and even soothes and helps to alleviate any eczema / dryness. I've purchased 3 times and will be getting another soon.",
+   "date": "2024-06-09",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LSHLSH",
+   "titre": "Really works!",
+   "texte": "Being in my 50's, I am trying to stave off impending wrinkles, but I still have acne. I was worried that a product such as this, even though it is \"oil free\", would surge the moisturizing straight into the acne zone. This product was included in a gift set I purchased, so I decided to try it. I am so glad I did! It does not feel greasy at all, and it absorbs well. The next morning, I was just amazed with how soft my skin felt. Also, with my skin having adequate moisture, the concealer I use to hide the my couple of pimples and blackheads, was easier to apply, and l was able to blend it in properly, with a much more natural effect than I usually get. Importantly, I have not had any increased acne or breakouts using this. Another Clinique product I am now hooked on!",
+   "date": "2022-01-19",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CRS",
+   "titre": "Wonderful product!",
+   "texte": "I use this almost every night after removing makeup and washing my face with a warm washcloth. I wake up with refreshed and soft skin. I have sensitive, acne prone skin and this product does not agitate my skin.",
+   "date": "2022-05-29",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

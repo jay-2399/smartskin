@@ -1,0 +1,173 @@
+{
+ "ref": "xlsImpprod6200757",
+ "asin": null,
+ "pid": "xlsImpprod6200757",
+ "source": "ulta",
+ "nom": "Mario Badescu Acne Facial Cleanser",
+ "note": 4.23,
+ "nbAvis": 780,
+ "lus": 80,
+ "collectes": 121,
+ "segments": {
+  "oily": "Reviewers with oily skin frequently credit this cleanser with reducing breakouts and cutting excess oil, though a few report it made their skin oilier and more broken out than before.",
+  "dry": "Reviewers who describe themselves as dry or drier-skinned generally warn that the product is drying, sometimes painfully so around the nose, and stress that it should not be used without a moisturizer; one seller-recommendation (review 30) states it will backfire specifically on dry skin.",
+  "combination": "Reviewers with combination or combo-oily skin mostly report it keeps breakouts under control without over-drying, though one notes it stopped working after a change in her skin.",
+  "sensitive": "Reviewers with sensitive skin are split: several say it is gentle, non-irritating and clears their skin, while others report burning, stinging, or overall bad reactions after a few days of use.",
+  "mature": "One older reviewer (48) with hormonal adult acne found it worked better than pricier alternatives she had tried, though she notes nothing has fully resolved her hormonal breakouts."
+ },
+ "concerns": {
+  "dehydration": "Many reviewers, across skin types, note the product is drying or tightening, especially around the nose, and recommend pairing it with a moisturizer; a smaller group says it does not dry out their skin at all.",
+  "redness": "One reviewer reports her face is less red than before after use, though she is unsure the wash is responsible; this is not otherwise discussed.",
+  "barrier": "Reviewers describing very sensitive or reactive skin report either no irritation and a calm result, or the opposite: burning sensations and stinging that led them to stop using it.",
+  "spots": "Reviewers frequently say it clears blackheads and small bumps or has no effect on them at all; several note it does not remove blackheads even though it helps their acne.",
+  "blemishes": "Most reviewers describing hormonal, cystic, or general acne report it reduces breakouts and keeps flare-ups at bay, sometimes within days; however, a notable minority with cystic or hormonal acne say it did nothing or made their acne worse, and one review explicitly separates cystic acne (no effect) from surface bumps (cleared).",
+  "oiliness": "Reviewers with oily skin often report the cleanser leaves skin feeling less oily for longer, but at least two describe becoming oilier or breaking out more after starting it."
+ },
+ "aspects": [
+  {
+   "libelle": "Drying or tightening after use",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Gentle, non-stripping feel",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Gel texture and light application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong old-fashioned scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Doesn't lather or feel foamy",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable relative to other acne cleansers",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves residue, skin not fully clean",
+   "polarite": "neg",
+   "concerne": [
+    "oiliness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Isabelle",
+   "titre": "BAD FOR SENSITIVE SKIN",
+   "texte": "Now I didn't listen to the reviews that said the same but listen it's bad. It has fragrance and various forms of alcohol but if that doesn't stop you then you should now after the first few days of using it i started having a burning sensation all over my face then next day I thought I'd try again and it did the same but worse *no that dose not mean it works* after that I quit using the product. It is not worth being trendy🤷‍♀️. Try \"cereve\" or \"the ordinary\" it's cheaper, fragrance free and works better for me :)",
+   "date": "2020-01-18",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Destiny",
+   "titre": "I love this product- but it dries my skin out.",
+   "texte": "I love this and will definitely continue to buy it- however it has dried my skin out to a painful point around my nose. the rest of my skin is a bit drier than usual but i found that in the crease of my nose has become so dry it actually really hurts. I'm waiting to hear back about which moisturizer to buy for the issue I'm having but wanted to make note that while my skin does get dry this reallly dried it out. However, I have noticed a huge difference in my acne so it definitely works",
+   "date": "2020-05-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Human bean",
+   "titre": "Best for Combo/Oily Skin",
+   "texte": "This stuff is great! I've been using it for years as recommended by my Dermatologist. Very gentle and effective to not lead to additional breakouts on my sensitive skin. I feel like so many of the bad reviews are people not understanding how products work or how this product works. This product will not work for you if you are mostly dry. And will backfire on you, causing other skin issues and leading you to think it's not working, when really you are using the wrong product for your skin type. This product is pretty gentle. So for those saying they didn't feel \"clean\" afterwards, it's because you're most likely use to bad products stripping the natural good oils from your face. Your skin should never feel tight after using a facial product; tight skin does not equal clean. Also please consult a dermatologist before choosing products that are right for you.",
+   "date": "2022-09-13",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Heather",
+   "titre": "Love",
+   "texte": "I have been using Mario Badescu products for about 20 years. Not sure why it took me so long to try Acne Facial Cleanser and Cleansing Lotion O. Both combined products are fantastic for my extremely oily and cystic acne prone skin. Doesn't dry out my skin and I am finally done with searching for cystic acne products.",
+   "date": "2020-05-03",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah B",
+   "titre": "helps my cystic acne",
+   "texte": "I have been battling acne on my chin, jawline, and cheeks and this is the only product that has helped me turn the tide. I use this in the morning and in the evening and I apply it only to my problem areas. my skin is prone to being dry so I am surprised that it hasn't dried my skin really much at all. No skin type is the same so I can't say everyone will have these results but if you're searching for something to help battle hormonal acne you may want to give this a try, just use it on the problem spots, a little goes a LONG way too.",
+   "date": "2020-07-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Ash",
+   "titre": "Not For Me",
+   "texte": "I've liked every other product I've used from this brand, but this one just wasn't for me. I have light to moderate adult acne that is more manageable depending on the products I use. My nightly routine is a light cleanser to remove makeup first and then I use an acne wash, followed by a toner, serum, and a moisturizer. The only thing I've changed lately was the acne wash, and yet I've been noticing more blackheads (something I haven't had an issue with for quite a while) and more acne breakouts over the past month. I also usually feel a difference in skin texture with other cleansers I've used, my skin actually feels tighter and cleaner after each wash, THIS cleanser doesn't have that effect. I only bought this product because it was cheaper than the other acne cleansers I've used, and I've liked other products from this brand, unfortunately, it seems I'm going to go back to the more expensive cleansers.",
+   "date": "2021-02-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cait",
+   "titre": "Love it!!!",
+   "texte": "I use this at night before bed. Takes off my makeup and oil from the day. Doesn't work with cystic acne but it takes away all of the little bumps and blackheads on my face. Clinique regular/oily face wash works well for cystic acne. I use that in the morning.",
+   "date": "2020-01-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

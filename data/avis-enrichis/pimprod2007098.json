@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2007098",
+ "asin": null,
+ "pid": "pimprod2007098",
+ "source": "ulta",
+ "nom": "The Ordinary Squalane Cleanser Hydrating Makeup Remover",
+ "note": 4.28,
+ "nbAvis": 1723,
+ "lus": 80,
+ "collectes": 120,
+ "segments": {
+  "oily": "Reviewers with oily or combination-oily skin report the cleanser removes excess oil and sunscreen without stripping, though one warns it caused breakouts along the jawline and hairline after weeks of use.",
+  "dry": "Reviewers with dry skin describe it as hydrating and non-stripping, leaving skin soft rather than tight, though one with dry skin found it hard to rinse off and had to follow with a foaming cleanser.",
+  "combination": "Combination-skin reviewers, including combo-oily and combo-acne-prone types, generally find it lightweight and balancing, but one combo-oily reviewer felt it didn't cleanse her oilier areas enough and needed double cleansing.",
+  "sensitive": "Sensitive-skin reviewers, including those with rosacea and reactive skin, repeatedly call it gentle and non-irritating and say it doesn't sting the eyes, though one sensitive reviewer reported skin pain like a sunburn after use.",
+  "normal": "A reviewer with normal-to-combination skin says the squalane doesn't bother her skin at all and considers it effective and good value.",
+  "mature": "Mature-skin reviewers in their 50s and 60s describe it as gentle, moisturizing, and makeup-removing without breakouts, with one saying her skin has never looked better, though another with aging skin switched to a more hydrating cleanser."
+ },
+ "concerns": {
+  "aging": "Mature-skin reviewers largely praise it for moisturizing and gentleness; one reviewer with aging skin found it unsuitable and switched to something more hydrating.",
+  "dehydration": "Most reviewers report it hydrates and leaves skin soft or supple without tightness or stripping; one reviewer found it left a layer of grease that didn't wipe off easily.",
+  "redness": "Reviewers with rosacea, redness, or irritation report it calms and heals irritated skin, including one whose tretinoin-related irritation improved, with no reports of it causing redness.",
+  "barrier": "Several reviewers say it helped restore or protect a compromised skin barrier, describing it as non-stripping and soothing when skin was inflamed or irritated.",
+  "spots": "One reviewer with acne-prone skin reports it is comedogenic and caused a breakout within a week; several others with acne-prone or oily-acne skin report no breakouts and describe it as gentle and clarifying.",
+  "blemishes": "Most acne-prone reviewers report no new breakouts and describe clearer, calmer skin over time, but one reviewer explicitly warns acne-prone users to beware due to a breakout, and another reported major breakouts on jawline and hairline after weeks of use.",
+  "oiliness": "Oily-skin reviewers report it cleans thoroughly and leaves skin soft without excess oil, with one describing it as mattifying and pore-blurring, though one combo-oily reviewer felt it wasn't strong enough for her oily zones."
+ },
+ "aspects": [
+  {
+   "libelle": "Slow to emulsify or rinse off",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube or bottle underfilled",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant scent, mood-boosting",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rancid or unpleasant smell over time",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Frequent stock shortages of larger sizes",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "M",
+   "titre": "Acne Prone Beware",
+   "texte": "So, firstly, I did not do my research on Squalane. Your face naturally produces squalene to moisturize your face, but it traps oils in your pores. Squalane is a processed version of this. This product IS comedogenic. It will cause a horrible breakout, it has to me in less than a week. There's no active ingredients to actually cleanse your face. If you do use it, use a water based cleanser after to get the squalane out of your pores.",
+   "date": "2025-01-04",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Trina",
+   "titre": "Great for dry skin!",
+   "texte": "I struggle with dry skin and tend to have trouble when using foaming cleansers as they make my skin feel tight and dry but this cleanser has been the one that has really helped make my skin feel hydrated and not stripped! A little goes a long way when you emulsify it with water. I sometimes apply to dry skin and add my exfoliant powder to it and add water to emulsify it. While it feels somewhat oily going on my dry skin, it doesnt leave my skin feeling greasy after. I have not broken out from it like other moisturizing/hydrating cleansers! Have bought this many times and will continue. I use this and then apply Thayers Toner, The 6 Peptide Skin Booster, Niacinamide, Hyaluronic Acid and lastly their 100% Plant-Derived Squalane and my skin feels hydrated and clean!",
+   "date": "2024-09-11",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Camille",
+   "titre": "Holy grail cleansing balm",
+   "texte": "Of all the cleansing oil and balms I've tried, this is the only one that works for my sensitive, clog and acne-prone skin. It gets off everything, washes off easily, and does not leave my skin stripped, irritated, or with any sort of film on it.",
+   "date": "2025-03-03",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Faithxo",
+   "titre": "Best Cleanser",
+   "texte": "I have rosacea and this is the only cleanser that hydrates my skin. I'm 30 and have tried a lot of gentle sensitive skin cleansers, that are still too harsh. It does a good job of removing makeup, but I also double cleanse with Neutrogena fragrance free sesame oil first. (Dr dray youtube recommendation)",
+   "date": "2024-05-06",
+   "verifie": true,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nursek",
+   "titre": "Such a nice cleanser",
+   "texte": "I use this as my only cleanser in the morning and as my first cleanser in the evening with the glycoside cleanser as the second cleanser. Its so hydrating my irritated skin from tretinoin is starting to heal and no peel so much and I think this cleanser is the reason!",
+   "date": "2024-04-10",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mel",
+   "titre": "Excellent cleanser for stupidly sensitive skin.",
+   "texte": "I'm 32 and in that awful crossover time where I both have the beginnings of fine lines but my skin will also break out if the wrong thing touches it. Finding a good cleanser has been so hard - my skin is sensitive to many products, including those that get recommended frequently (CeraVe gentle cleanser broke me out, for ex). This was perfect. Gets my skin clean without drying it out or irritating it. Leaves my skin glowy, bouncy, and calm. I'm so happy. This is the first product in a long time that has made me want to hoard multiple tubes in case something happens and I can't buy it anymore.",
+   "date": "2024-04-01",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Mrs.Staffney",
+   "titre": "I have thoughts",
+   "texte": "This isn't for me and my skin type. im a combo oily girl and this is more for dry skin girls. If you suffer from dry spots ESPECIALLY in the winter this is a nice cleanser. But I would ALWAYS DOUBLE CLEANSE because this alone will not get your makeup off, and face clean. It is great to keep your monster from being stripped during the cleansing process, but I found that it didnt cleanse my heavily oiled face enough. I wouldn't only recommend to VERY DRY PEOPLE.",
+   "date": "2025-12-26",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

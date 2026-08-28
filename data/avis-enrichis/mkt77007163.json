@@ -1,0 +1,166 @@
+{
+ "ref": "mkt77007163",
+ "asin": null,
+ "pid": "mkt77007163",
+ "source": "ulta",
+ "nom": "Proactiv Clean Azelaic Pore Perfector",
+ "note": 4.67,
+ "nbAvis": 27,
+ "lus": 17,
+ "collectes": 17,
+ "segments": {
+  "combination": "One reviewer with combination skin (oily T-zone, dry/sensitive elsewhere) reacted badly, developing body-wide dryness and itchy bumps despite applying only to the oily areas.",
+  "sensitive": "Sensitive-skin reviewers are split: several report it as gentle, calming, and compatible with tretinoin or vitamin C, while one reviewer had a systemic allergic-type reaction (dryness, itching, bumps) attributed to azelaic acid.",
+  "dry": "One reviewer with dry, textured skin found it smoothed texture and reduced dryness rather than worsening it."
+ },
+ "concerns": {
+  "aging": "One reviewer credits it with defending skin against wrinkles and improving surface texture, though this is a single, general claim without detail.",
+  "dehydration": "One reviewer reports it helped dry texture and reduced dryness on her face, but a different reviewer experienced severe dryness and itching over her whole body after use, linked to an azelaic acid reaction.",
+  "redness": "Multiple reviewers report visible redness reduction, including for rosacea flare-ups and general redness, with effects noticed within days for some.",
+  "barrier": "One reviewer describes it as soothing and non-irritating for her skin, and pairing well with tretinoin/vitamin C without added sensitivity, though another reviewer suspects it triggered a body-wide allergic reaction.",
+  "spots": "One reviewer reports it helps fade dark spots and even out skin tone, though improvement is gradual rather than immediate.",
+  "blemishes": "Most acne-focused reviewers report clearer skin, fewer and milder breakouts, or acne fully resolving; however, three reviewers saw no real improvement in acne (one noting it only refined pores, another finding it too mild, another still struggling with jawline acne)."
+ },
+ "aspects": [
+  {
+   "libelle": "Softens and calms skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild tingling on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under moisturizer or sunscreen",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Compatible with tretinoin and vitamin C",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Large bottle, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Risk of allergic-type reaction",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Too mild for moderate acne",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Sensitive gal",
+   "titre": "Not for Allergy prone skin",
+   "texte": "I have very distinct combination skin (my forehead and nose are oily and very acne prone, but the rest of my face is very dry, sensitive, and allergy prone). I got this product and only applied it to my forehead and nose, and within a day or two my ENTIRE BODY was dry and itchy with small bumps, especially my face, but not where I applied it. I looked it up and according to the Mayo Clinic, this is a reaction that some people experience to azelaic acid. If you have not dealt with skin sensitivity or allergies in the past, I'm sure this product works great, but just a warning.",
+   "date": "2024-03-31",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "G",
+   "titre": "Average",
+   "texte": "I tried this product on face and then chest/back for mild/mod acne. I use salicylic acid and a retinoid in my routine as well. I noticed no difference in acne during my time using this product (2-3 weeks). Too mild for my face, unknown concentration.",
+   "date": "2023-01-11",
+   "verifie": false,
+   "utiles": 14,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jackie",
+   "titre": "Helps with rosacea flare up",
+   "texte": "I got this bc i just experienced my first rosacea flare up although i had to use a whole regimen this is one of the main products (Azelic acid) it works well. Helped minimize the redness",
+   "date": "2024-03-31",
+   "verifie": false,
+   "utiles": 14,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "B",
+   "titre": "Smoother and less red!!",
+   "texte": "I love to use this before makeup. I feel like i look smoother, less red and it defintely helped my dry texture.",
+   "date": "2023-08-16",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JR",
+   "titre": "Cured my rosacea",
+   "texte": "Thank you for creating this product. I've tried so many different products for the rosacea around my nose &amp; face area. Please do not change the formula. This really works and controlled it where I don't even have breakouts. And it also helps with dark spots. Doesn't clear them up right away but I can see my face getting lighter.",
+   "date": "2024-02-23",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa",
+   "titre": "The Holy Grail",
+   "texte": "My daughter and I absolutely love the Azelaic Pore Perfector. We have very sensitive skin and have moderate acne. The sensitive skin system has been amazing especially the #2 pore perfector. This has been the only system we have found to REALLY work for our skin. Please don't ever get rid of this system we love it! The other systems didn't work they were too harsh and caused more breakouts. Thank you proactiv",
+   "date": "2024-01-23",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "kerry",
+   "titre": "proactive is good products",
+   "texte": "I love using proactive but the acne on my jaw lines are very stubborn",
+   "date": "2024-03-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

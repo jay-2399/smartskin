@@ -1,0 +1,153 @@
+{
+ "ref": "pimprod2056625",
+ "asin": null,
+ "pid": "pimprod2056625",
+ "source": "ulta",
+ "nom": "COSRX The Peptide Collagen Lifting Glow Hydrogel Mask",
+ "note": 4.94,
+ "nbAvis": 34,
+ "lus": 22,
+ "collectes": 22,
+ "segments": {
+  "mature": "Reviewers in their mid-fifties and those coming off dysport or botox injections report the mask leaves skin softer, plumper, and better able to carry the look of the injections longer.",
+  "dry": "A reviewer highlights the mask's strong hydration especially in winter, describing it as moister and plumper the next day."
+ },
+ "concerns": {
+  "aging": "Reviewers describe skin as tighter, refreshed, plumper, and more firm after use, with one 55-year-old and post-injection users noting a lifted, rejuvenated look.",
+  "dehydration": "Several reviewers report visibly more hydrated, moist, plumper skin, particularly overnight and in winter; one reviewer saw no dramatic change despite liking the feel.",
+  "blemishes": "One reviewer with trouble areas and pimples reports smaller-looking pimples and improvement in those spots; this is a single report, not corroborated elsewhere."
+ },
+ "aspects": [
+  {
+   "libelle": "Tears easily during application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thicker, more intense mask texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Glowing, plump skin after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can slip if head tilts down",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well for overnight wear",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fits face well versus other masks",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No irritation reported",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Megan R.",
+   "titre": "Tears a little easy but",
+   "texte": "Tears a little easy but does a great job! No irritation. Don't tilt your head down for a couple minutes or it might slip a little.",
+   "date": "2025-07-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Emily",
+   "titre": "No dramatic results but a nice mask",
+   "texte": "I have used this mask 2x now, both times after using my PMD tool. I haven't seen any dramatic changes from using it, but I like the way my skin feels. I did notice that you're supposed to put on a serum first so I did that the last time.",
+   "date": "2026-07-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lisa C.",
+   "titre": "At 55 years old, I",
+   "texte": "At 55 years old, I couldn't love these masks more than I already do. My skin seems softer and more plump after I use them.",
+   "date": "2025-12-23",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alicia V.",
+   "titre": "It's a really intense mask",
+   "texte": "It's a really intense mask that's thicker than regular masks, but I like it a lot. It stays on well overnight if you aren't someone who sleeps on their side. I definitely feel like my skin is moister and plumper the next day. I like to use it on long flights before landing.",
+   "date": "2025-12-04",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rachel H.",
+   "titre": "Absolutely amazing! Also, If you",
+   "texte": "Absolutely amazing! Also, If you are coming to the end of your injections, like dysport, or botox, these will absolutely carry you through for quite some time! Making you look amazing no matter what!!",
+   "date": "2025-10-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Randall H.",
+   "titre": "Gave as a gift to",
+   "texte": "Gave as a gift to friends. Every single one showed immediate glowing results. Also doing wonders for the look and feel of my skin in its trouble areas.",
+   "date": "2025-12-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Eva E.",
+   "titre": "My skin feels amazing. My",
+   "texte": "My skin feels amazing. My pimples feel and look smaller And I love the results",
+   "date": "2025-12-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Most reviews give general praise without stating specific skin type, so segmentation relies on a small number of explicit mentions (mature, dry)."
+}

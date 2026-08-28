@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2008051",
+ "asin": null,
+ "pid": "pimprod2008051",
+ "source": "ulta",
+ "nom": "Garnier SkinActive Micellar Cleansing Water with Rose Water",
+ "note": 4.6,
+ "nbAvis": 754,
+ "lus": 72,
+ "collectes": 103,
+ "segments": {
+  "dry": "Dry-skin reviewers are split: several report the product hydrates and clears dry patches, while others say it dries their skin further, particularly around the eyes and mascara-removal areas.",
+  "sensitive": "Sensitive-skin reviewers are divided between those who say it is the only micellar water that doesn't irritate their reactive skin and those who report burning, stinging, or chemical-burn-like reactions especially near the eyes.",
+  "mature": "Mature-skin reviewers describe it as gentle, hydrating, and suitable for a nightly routine, though one notes it lacks the anti-aging benefits of a pricier version.",
+  "combination": "One reviewer describes reactive/combination-leaning skin that tolerates this formula better than other micellar waters containing alcohol or fragrance.",
+  "oily": "A few reviewers note the product does not leave an oily or greasy residue and works well for oily makeup removal, though at least one reviewer reports her skin felt oily and tacky afterward."
+ },
+ "concerns": {
+  "aging": "Reviewers using it as part of a mature-skin routine describe it as gentle and refreshing before moisturizing; one notes it does not provide anti-aging benefits compared to a more expensive alternative.",
+  "dehydration": "Several reviewers report the product hydrates and resolves dry patches or tightness; others describe the opposite, with skin feeling dried out, especially on cheeks, under eyes, and neck after repeated use.",
+  "redness": "Multiple reviewers describe burning, stinging, itching, or redness, particularly around the eyes and waterline, including one describing chemical-burn-like symptoms; others explicitly state it caused no burning or irritation for them.",
+  "barrier": "One critical review attributes burning and peeling to salicylic acid in a reformulated version and warns against use near the eyes or with retinoids; several other reviewers report no such reaction.",
+  "spots": "Reviewers managing acne report their skin cleared up or breakouts diminished with regular use; one reviewer reports the opposite, waking up with new breakouts after use.",
+  "blemishes": "Acne-prone reviewers describe it as gentle compared to wipes and note visible improvement in pimples and acne within days; no dissent noted beyond the general breakout complaint under spots.",
+  "oiliness": "Reviewers note it removes makeup and residue without leaving an oily or greasy feel; one reviewer reports the opposite, describing a tacky, oily layer left on the skin after use."
+ },
+ "aspects": [
+  {
+   "libelle": "Rose scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or perfume-like fragrance",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky or tacky residue if not rinsed",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Struggles with waterproof mascara",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle lasts a long time, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dispensing cap is messy or hard to use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging near eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Swags",
+   "titre": "CONTAINS SALICYLIC ACID",
+   "texte": "For those wondering why it burns, the new bottles contain salicylic acid! My daughter wondered why for months her eyes and skin was peeling and burned and that explains it. Took several weeks for her skin to heal. Be careful, especially around your eyes and if you use retinols/retinoids.",
+   "date": "2022-07-24",
+   "verifie": false,
+   "utiles": 25,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Miranda",
+   "titre": "Not a fan.",
+   "texte": "I love Garnier's Micellar water, but this one is disappointing. I have dry skin. It removed my makeup easily like it normally does. It didn't burn me like it seems to have done so to others. I don't have sensitive skin. I've always washed my face with my favorite cleanser after makeup removal. Even after washing my face, this product left my skin feeling very oily and tacky. I woke up the next morning with breakouts. It just feels like theirs a layer of grossness over my face, like it feels dirty. I won't be using it again.",
+   "date": "2023-03-06",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "KitKat32",
+   "titre": "I am an MUA and this is a NO",
+   "texte": "I have used micellar waters for years on myself and other people as a make-up artist. In my opinion and personal experience (which I will focus on here) this product is not appropriate for very sensitive skin. Also, micellar waters should (in a perfect world) be rinsed off the face. However, everyone has a lazy day (or night) sometimes. This product burned my skin and left my eyes itchy, red, burning and raw with what felt like chemical burns. I admit that I have sensitive skin in general but my skin can tolerate some retinoids so I was shocked when this product was so volatile for me. Some people may be sensitive to rose but I honestly don't know what ingredient might be the culprit. I have used Bioderma and have never had this problem but it costs more. If you have any sensitivities with your skin use caution.",
+   "date": "2023-12-12",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jenny",
+   "titre": "Absolutely love this!!!",
+   "texte": "I have dry skin & this cleanser leaves my face clean & hydrated.",
+   "date": "2024-05-18",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lillian",
+   "titre": "My ABSOLUTE FAVORITE makeup remover!",
+   "texte": "This is my GO TO makeup remover. It removes everything! My skin is very sensitive and most makeup removers irritate it but not this one! This remover leave my skin feeling refreshed after I use it and doesn't leave a sticky residue.",
+   "date": "2020-08-30",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Caroline",
+   "titre": "Better than the original",
+   "texte": "I love this! It's gentle and doesn't irritate my acne-prone skin like the makeup wipes I used before. After I use it my face feels fresh and hydrated, not dry and tight. I like the scent, it's rosy and not too strong. I also like that this formula is free of bad ingredients and is vegan. I like all of Garnier's micellar waters, but this one is my new favorite.",
+   "date": "2020-07-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rose",
+   "titre": "Great product for the price!",
+   "texte": "My 12 year old kept using my expensive miracle water so I bought this for her to use. I tried it to see what I thought. It works really well to clean and remove makeup, but it doesn't have the extra anti-aging that mine has and I could tell. This didn't irritate my skin either or make it feel \"sticky\" which sometimes happens with some products. I'd recommend for teens and 20's.",
+   "date": "2020-06-16",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

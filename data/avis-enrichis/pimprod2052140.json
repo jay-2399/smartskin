@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2052140",
+ "asin": null,
+ "pid": "pimprod2052140",
+ "source": "ulta",
+ "nom": "Drunk Elephant Plump-C Tripeptide Lippe Mask",
+ "note": 4.69,
+ "nbAvis": 231,
+ "lus": 78,
+ "collectes": 120,
+ "segments": {
+  "dry": "Reviewers describing chronically dry, chapped, or cracked lips report the mask relieves flaking and cracking and leaves lips soft through the night, with several calling it their nighttime staple for year-round dry lips.",
+  "sensitive": "Reviewers who identify as having sensitive skin note the mask is unscented or has minimal scent and did not irritate them.",
+  "mature": "One reviewer in her sixties reports the mask locks in moisture that has become harder to retain with age and finds it a lasting addition to her routine."
+ },
+ "concerns": {
+  "aging": "Some reviewers report subtle plumping and smoother look to fine lines around the mouth with regular use; this is described as gradual rather than dramatic.",
+  "dehydration": "The large majority report strong, lasting hydration overnight with soft, non-chapped lips by morning; three reviewers report the opposite, saying lips felt dry again within 15 minutes to a day, with one describing crusted, sore lips the next day.",
+  "barrier": "Reviewers with lips damaged by sun, wind, or CPAP use report the product forms a protective, occlusive layer that helps healing overnight.",
+  "spots": "One reviewer mentions hoping the mask will help fade hyperpigmentation on her lips over time but does not report a result yet.",
+  "blemishes": "Not discussed in these reviews.",
+  "oiliness": "Not discussed in these reviews."
+ },
+ "aspects": [
+  {
+   "libelle": "Thick, buttery, non-sticky texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No applicator, must use finger",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented with slight sweet taste",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Cute, compact jar packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, little product needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Compares unfavorably to plain Vaseline",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jenna",
+   "titre": "Nah.",
+   "texte": "Feels good upon application and hydrates temporarily. Unfortunately, my lips are crusted and sore the next day, more dry than beforehand. I've tried this in various situations but the end result is always the same. In general, Drunk Elephant products leave a lot to be desired and are not worth the price.",
+   "date": "2025-12-11",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Trisha",
+   "titre": "I would buy this again!",
+   "texte": "I have super dry lips. And this works for a nighttime balm. My lips definitely seem plumper!",
+   "date": "2025-07-17",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stephanie",
+   "titre": "Best Value for my Money!",
+   "texte": "This product is AMAZING. I was a bit hesitant at first, but now I'll use nothing else. My skin has gotten much drier in the last few years, so keeping moisture locked in is very important to me (I'm 61 years young!). It takes so little of this product to make a lasting impact. I put it on last thing at night, and my lips feel great the entire night. This is such a great addition to my Drunk lineup 🥰",
+   "date": "2026-03-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shae",
+   "titre": "My lips have never felt better :) !!",
+   "texte": "I am fairly new to Drunk Elephant, but I must say they are definitely making me a fan! I was gifted by Drunk Elephant to try their Plump-C Tripeptide Lippe Mask and I've been using it consistently since I got it! I love the formula of this Lippe Mask and the way it feels on my lips. It is so moisturizing and hydrating, and it keeps my lips nice and soft as well! I also noticed that after applying my lips looked fuller, and they also looked more vibrant! I also enjoyed that there wasn't much of a scent to this Lippe Mask as I have sensitive skin. Also, the gloss on this mask is perfect and it has such a pretty shine to it. Overall, this is such a great Lippe Mask and I definitely recommend giving it a try!",
+   "date": "2025-06-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yesss",
+   "titre": "Great lip mask",
+   "texte": "I received this complimentary from drunk elephant. This is a great lip mess that has been helping with the skin on my lips as it gives them the rejuvenation that they need. I love applying this mostly during the night time and then just putting nothing else on my lips as I wake up with plump and very nourished looking lips. I feel like this lip mask does last for quite some time and I hope to see how it will also brighten up my lips and hopefully help with some of the hyperpigmentation they have.",
+   "date": "2025-06-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "FranA",
+   "titre": "Amazing lip mask",
+   "texte": "Gifted by Drunk Elephant. Absolutely loving this lip mask! It applies effortlessly and keeps my lips feeling soft and moisturized through the night. Since I use a CPAP, my lips tend to get really dry, but this has been so amazing. It truly helps lock in moisture and keeps everything smooth. Definitely recommend giving it a try!",
+   "date": "2025-06-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "sara",
+   "titre": "just okay, not worth the price unfortunately",
+   "texte": "it is very much just a normal lip balm IF that. no applicator so you have to use your finger everytime. absorbs quickly which is nice until it leaves your lips dry once again in about 15 minutes. tried over a week period to try multiple different times. just not worth the money unfortunately.",
+   "date": "2025-06-27",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

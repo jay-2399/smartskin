@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2045881",
+ "asin": null,
+ "pid": "pimprod2045881",
+ "source": "ulta",
+ "nom": "SKIN1004 Madagascar Centella Ampoule Foam",
+ "note": 4.58,
+ "nbAvis": 899,
+ "lus": 80,
+ "collectes": 121,
+ "segments": {
+  "oily": "Reviewers with oily skin generally report the foam cleanses effectively without leaving skin greasy, and some call it well suited to oily or oily-combination skin.",
+  "dry": "Dry-skin reviewers are split: several say it doesn't strip or dry them out and even leaves dry patches improved, while others report it isn't hydrating enough, dries them out, or made their forehead bumpy.",
+  "combination": "Combination-skin reviewers mostly find it balances oily and normal areas without stripping, though one found it merely average with no noticeable benefit.",
+  "sensitive": "Sensitive-skin reviewers are largely positive, describing it as calming, non-stripping and non-irritating, but a few report a hive-type rash, redness, or a suspected centella sensitivity.",
+  "mature": "One reviewer using it alongside hyperpigmentation treatments found it gentle enough not to interfere with their routine and helped remove dead skin."
+ },
+ "concerns": {
+  "aging": "One reviewer using it alongside anti-hyperpigmentation products found it gentle enough to prep skin without irritating other treatments.",
+  "dehydration": "Most reviewers say it cleanses without a tight or stripped feeling and even leaves skin hydrated afterward; several others explicitly report it dried their skin out or wasn't hydrating enough, particularly those with dry skin.",
+  "redness": "Reviewers with rosacea or general redness report it doesn't trigger flare-ups and helps calm redness, though one reviewer notes it can make sensitive skin slightly red due to its acidity.",
+  "barrier": "Several reviewers highlight that it cleanses without stripping the moisture barrier or causing tightness; one dissent describes a burning sensation on dry skin.",
+  "spots": "One reviewer reports it helped clear breakouts within two days and another says post-acne marks look calmer with use.",
+  "blemishes": "Several acne-prone reviewers report no worsening of breakouts and even calming of mild pimples, but two reviewers report new cystic acne, whiteheads, or bumpy texture after use.",
+  "oiliness": "Reviewers with oily areas report it cleans the T-zone well without over-drying normal areas, and one notes it stopped a cycle of dry-and-oily alternation."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich, creamy lather",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance mild or off-putting",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick formula texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Elegant, minimalist packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Occasional stinging or burning",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Tiffany",
+   "titre": "Made my face breakout!!",
+   "texte": "I researched the ingredients to this cleanser thoroughly to my skin type which is acne prone. However, after using it I started developing cystic acne and small whiteheads throughout my face. Not sure what happened but I wouldn't recommend!",
+   "date": "2026-01-02",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Miranda",
+   "titre": "It was a ok. Great for oily skin",
+   "texte": "[I received this product in exchange for my honest review] I am not much of a foaming cleanser type of person. Fragrance free. Foaming cleansers are perfect for those with oily or combo skin. I have dry skin so I felt this wasn't hydrating enough for me.",
+   "date": "2025-07-21",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Isa",
+   "titre": "Deep cleansing foam that leaves your skin refreshed",
+   "texte": "I loved this ampoule foam because it leaves my skin feeling very happy after a wash. However, if my skin is dry I sometimes do feel like it burns a little bit, but I think this varies by people's skin type. If your skin is mostly combination skin or dry, I would not recommend this cleanser but rather a more gentle one. This cleanser's deep cleansing ability side effects are bad for certain types of skin so generally I'd say do your research before buying it. For different people though it could be one of the best cleansers and for the price I think it's worth it if you have a skin type that works with this cleanser.",
+   "date": "2025-11-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "mbb25",
+   "titre": "Highly recommended for combo oily skin!",
+   "texte": "Cleans my oily areas well (t-zone) without stripping my more normal areas. Doesn't cause flare-up for my rosecea. I really liked the lather it forms, not too sticky and feels really luxurious. Def recomend the product!",
+   "date": "2026-06-09",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "April C.",
+   "titre": "Liquid Gold for Sensitive Skin!",
+   "texte": "If my skin could write a love letter, it would be addressed to Madagascar Centella Ampoule. This serum is magic in a bottle—lightweight, fast-absorbing, and packed with soothing goodness. The centella instantly calms redness and irritation, making my skin look healthier and more balanced after just a few uses. It's hydrating without being heavy, layers beautifully with other products, and has no overpowering scent. Plus, a little goes a long way, so the bottle lasts forever. Whether my skin is feeling dry, stressed, or just moody, this ampoule brings it back to life. If you have sensitive skin or just want a no-nonsense, effective serum, this is it. Absolute perfection!",
+   "date": "2025-02-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tye",
+   "titre": "Highly effective",
+   "texte": "It lathered well. It didn't leave any film behind. It was very gentle but it still felt clean, my skin also felt soft. I'm using hyperpigmentation products so i need a gentle cleanser that's not overpowering which could mess up my skin barrier. I think this product will be gentle enough where it doesn't interact with my hyperpigmentation products. I definitely want to try more products from this line. I like that the products are also inexpensive. I love the creamy consistency as well. I've already recommended to my friend who has sensitive skin. My skin has been dry this winter and i find that it gets my dead skin off and it's prepped for the next step in my routine.",
+   "date": "2025-12-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Desi",
+   "titre": "My new go to",
+   "texte": "I wanted to wait a little to see how this product works on my skin and OMG it's so good. My skin gets super dry and oily and I didn't have any of that after I washed my face. Also I've been breaking out and this cleared my skin almost completely in two days! This is definitely one you should get!!!!",
+   "date": "2025-12-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

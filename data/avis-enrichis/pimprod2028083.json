@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2028083",
+ "asin": null,
+ "pid": "pimprod2028083",
+ "source": "ulta",
+ "nom": "Drunk Elephant Protini Powerpeptide Resurfacing Serum",
+ "note": 4.49,
+ "nbAvis": 435,
+ "lus": 80,
+ "collectes": 117,
+ "segments": {
+  "oily": "Oily and acne-prone reviewers report the serum improves texture on problem areas (forehead) though one found the full-size formula too oily and heavy for daily wear.",
+  "dry": "Dry-skin reviewers, including one with dry acne-prone skin and one with aging dry skin that flakes around nose and mouth, report smoother, plumper, less flaky skin without added dryness.",
+  "combination": "A combination-skin reviewer reports improved texture, tone and radiance with no irritation.",
+  "sensitive": "Sensitive-skin reviewers mostly report no irritation and good tolerance (gentle exfoliation, no breakouts), though one non-self-identified-sensitive reviewer had stinging and redness on first use.",
+  "mature": "Mature-skin and older reviewers (including one nearly 67 years old) report brighter, smoother skin, diminished pores, and reduced fine lines with continued use."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report reduced fine lines, smoother texture and firmer, plumper skin with continued use, including visible improvement in smile lines and surface wrinkles; one reviewer using retinol alongside saw no fine-line improvement yet.",
+  "dehydration": "Reviewers with dry or dehydrated skin report the serum leaves skin softer, plumper and hydrated rather than dry, though a couple note it can feel oily or watery before absorbing.",
+  "redness": "Reports are mixed: several sensitive-skin users say it does not irritate or redden skin, but one reviewer (who states she does not have sensitive skin) reports stinging and temporary redness after first application.",
+  "barrier": "One reviewer flags sodium hydroxide as an irritant causing burning/tingling and tightness, while others describe the same tingling sensation as normal and non-irritating.",
+  "spots": "Reviewers report reduced hyperpigmentation, dark spots, and more even skin tone with regular use.",
+  "blemishes": "Several acne-prone reviewers report clearer skin, fewer breakouts, and small bumps disappearing; one reviewer had initial breakouts in the first week that she attributed to normal purging from a chemical exfoliant.",
+  "oiliness": "Reports diverge: some oily/acne-prone users say it works well on oily, acne-prone skin without heaviness, while another describes the full-size product as too oily and dewy for daily wear and returned it."
+ },
+ "aspects": [
+  {
+   "libelle": "Pump and cap frequently breaks",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling or stinging sensation on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable glow and radiance boost",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unusual or odd scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Attractive, sleek packaging design",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "kassie",
+   "titre": "Worth It!",
+   "texte": "Wow, this left my skin looking so smooth and soft! I have rough texture around my forehead and inner cheek area and have been noticing this has minimized my texture IMMENSELY, and I have small fine lines around my mouth and forehead and now they're hardly noticeable! I also want to add that I have sensitive dry acne prone skin and has improved my acne, as well as not caused any reaction for those with sensitive skin! This Protini is worth every penny with how well it's treating my skin.",
+   "date": "2024-02-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Musfar",
+   "titre": "Smoothens textured skin",
+   "texte": "I've been incorporating this serum into my nightly skincare routine to address the texture issues on my forehead, given my oily and acne-prone skin. Although it initially stings a bit, the sensation fades, and I've noticed a positive impact on my skin's texture. Despite an unusual scent, its effectiveness in problematic areas outweighs that concern. The serum's thin and lightweight consistency isn't sticky like others I've tried. Over the past few days, my skin appears brighter and more even-toned without the dryness associated with previous lactic acid serums. I follow up with my long-time favorite, the Protini moisturizer, and my skin looks plump and healthy.",
+   "date": "2024-02-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "taylorh488",
+   "titre": "Good for sensitive skin types",
+   "texte": "I've been using this twice a day for 3 months and I've noticed a slight difference in the texture and radiance of my skin. However, the improvement is very minimal. Therefore I'd recommend this for those with sensitive skin that want to help unclog pores and promote healthier glowing skin. But, for those with less sensitive or oily skin, this serum will work however you may have to purchase more than once in order to see results. Overall depending on your skin type, I would suggest giving this serum a try. I do love the brand Drunk Elephant although this serum is one of my least favorites from the line.",
+   "date": "2023-11-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sandy",
+   "titre": "Works great for flaky skin!",
+   "texte": "Drunk Elephant never disappoints! I have aging dry skin, which means I get flaking around my nose and mouth constantly. I'm no stranger to using exfoliators but this still blew me away. The difference after only a couple of days is very noticeable. My skin looks so much more smooth and plump. If you're in the market for a lactic acid serum, give this a shot!",
+   "date": "2024-02-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "JK81",
+   "titre": "Skip this one",
+   "texte": "I ended up returning this because it was way too oily for every day wear. I am a huge DE fan but this was a miss. You need to shake for a few minutes to get the product to combine and then it still leaves a dewy heavy oily feel on your face. Can't speak to the effectiveness but the serum left me too oily.",
+   "date": "2023-08-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Michelle",
+   "titre": "Love the product but has Sodium Hydroxide!!!",
+   "texte": "The fifth ingredient is Sodium Hydroxide. A skin irritant, that must be why my face burns and tingles when I use it. It makes my skin feel tight and renewed but not at this toxic cost.",
+   "date": "2023-12-05",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "hikernurse",
+   "titre": "I do like it",
+   "texte": "i didn't expect to like it but I find my nearly 67 year old skin looking brighter and smoother than with anything else I've used in the last few years. And also pores are diminished.",
+   "date": "2023-10-09",
+   "verifie": true,
+   "utiles": 9,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2023930",
+ "asin": null,
+ "pid": "pimprod2023930",
+ "source": "ulta",
+ "nom": "Good Molecules Overnight Exfoliating Treatment",
+ "note": 4.53,
+ "nbAvis": 670,
+ "lus": 76,
+ "collectes": 97,
+ "segments": {
+  "oily": "Reviewers with oily or combination, acne-prone skin report clearer pores and reduced blackheads, with one describing it as especially suited to oily/combo skin.",
+  "dry": "One reviewer with dry patches reports the flaking cleared up after a few uses, and another used it to soften dry skin overnight.",
+  "combination": "Combination-skin reviewers, including one who is also acne-prone, report soft, clean-feeling skin without redness, though occasional stinging is mentioned.",
+  "sensitive": "Sensitive-skin reviewers are split: several report tingling, burning, or a hard pass due to irritation and raised bumps, while many others say it does not irritate, redden, or damage their skin once frequency is adjusted.",
+  "normal": "No reviews specifically describe normal (non-sensitive, non-oily, non-dry) skin.",
+  "mature": "Mature-skin reviewers (late 30s to 60s) report reduced age spots, softened fine lines, a brighter complexion, and one wishing the formula were stronger for deep wrinkles."
+ },
+ "concerns": {
+  "aging": "Mature reviewers report reduced age spots, softer fine lines, and a brighter, more refined look with regular use; one still wants a stronger formula for deep wrinkles.",
+  "dehydration": "A few reviewers note dry, flaking, or patchy skin improved and felt softer after use, with one pairing it with heavier moisturizer to avoid over-drying.",
+  "redness": "Several reviewers report the product helped calm redness and small bumps, including one with rosacea, while others note no redness at all after use; no reviewer reports new redness as a lasting problem.",
+  "barrier": "One reviewer reports their skin barrier beginning to heal alongside other products; another cautions against use on broken or already-irritated skin.",
+  "spots": "Reviewers report faded scarring, lightened dark marks, and reduced hyperpigmentation and sun damage marks within weeks of regular use.",
+  "blemishes": "Most reviewers describe clearer skin, fewer blackheads/whiteheads and smaller cystic bumps, often within days; a minority report no improvement in acne, a purge period, or new raised bumps and tingling.",
+  "oiliness": "Reviewers note reduced congestion and smaller-looking pores, with one describing a return to normal oil production after excess caused by medication; no reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Tingling or burning on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Purging period before clearing",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Low price relative to results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Smoother, softer skin next morning",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Alcohol listed in some batches",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Glass bottle, long-lasting supply",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Maria",
+   "titre": "Burns",
+   "texte": "This treatment is very strong and burns my sensitive skin. Also, it doesn't work for me (doesn't clear my acne); so, I won't be buying it again.",
+   "date": "2025-11-10",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jess",
+   "titre": "Amazing for Texture",
+   "texte": "I've been so pleased with this product. I was previously using another brand's AHA/BHA exfoliating product but it was a mask that I could only use 2x per week. Switching to Good Molecules overnight AHA/BHA has made a huge difference in my acne scarring & sun damage. The marks all got lighter within a few weeks of regular use— my skin texture is greatly improved. I use this 3x per week. Yes, it can be a somewhat intense tingling/burning sensation when you first start using it but that dissipates after a while. That's to be expected from AHA/BHA. Just don't use it on broken skin as that can indeed be painful & don't put it on the delicate skin around the eyes or lips as that can burn. Other than that, when used consistently & correctly it's an excellent product— especially for the price! In an eco-friendly glass bottle too. I'm a 39 yo woman with very pale combo/acne-prone skin.",
+   "date": "2025-10-07",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Danielle",
+   "titre": "Push through the purge…it's worth it",
+   "texte": "I got this because it was cheaper than other brands exfoliators and as someone with sensitive, oily, acne prone skin this did not disappoint. I struggle with closed comodones and man did it bring it to the surface. purge was real but WORTH it!",
+   "date": "2025-11-09",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Christina",
+   "titre": "Great product",
+   "texte": "I use it everyday under eye cream and spray primer. My 62 year old skin is clear with only a few under eye wrinkles. I'm fighting this and this stuff works. I've gone through several bottles. One full dropper covers my face, neck and chest. It got rid of the age spots too.",
+   "date": "2025-08-25",
+   "verifie": false,
+   "utiles": 21,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Samantha",
+   "titre": "Saved My Skin",
+   "texte": "This is just what my skin needed. I struggle a ton with acne and after using this a few times a week, my skin has never been clearer. It also improved my skin texture as well (most likely due to the lack of acne and exfoliation). Like I'd see people online with smooth clear skin and I never thought I'd get there, but I did get a lot closer with this product. I do have to warn you though, I did purge with this product. My temples and jawline were horrendous the first week or so, but after that it has been smooth sailing. Even when I forget to use the product for a week or two, my skin never reacts like it did the first time trying it. But keep in mind this was my first ever experience with acids, so perhaps people with less babied skin will have a more tolerable time. Some people say it burns, but personally it's never done that for me unless I had an open breakout that I had picked out, in which I just wiped the product off in the area. I write this review today as I've been using the product for a few months and I went on a hiatus for a couple weeks with this product. I put it on last night on my very broken out, dull face from just stress and hormonal acne, and I've woken up to a clear, smooth, healthy face. Obviously different products work for everyone so the actives in this may not be one size fits all. It's definitely a bit more aggressive than other less complex acids. But if you're struggling with stubborn acne and skin texture and are prepared for a little purge (it ",
+   "date": "2026-01-25",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mariana M.",
+   "titre": "great for cystic acne",
+   "texte": "I have cystic acne, and when it would flare up I always found myself reaching for this product. For my under the skin nodules It helped reduced the bump size. For my regualr blackheads, it would clear them up very quickly. Use this product as instructed, especially if you have sensitive skin (like me!).",
+   "date": "2025-09-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Madeline S.",
+   "titre": "Love",
+   "texte": "Ii have really sensitive combination skin and this product is great! It can sting sometimes but it does not leave my skin red or damaged. I wake up with my skin feeling so soft and clean feeling.",
+   "date": "2024-12-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

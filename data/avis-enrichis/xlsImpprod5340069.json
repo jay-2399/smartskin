@@ -1,0 +1,164 @@
+{
+ "ref": "xlsImpprod5340069",
+ "asin": null,
+ "pid": "xlsImpprod5340069",
+ "source": "ulta",
+ "nom": "Sun Bum Sunscreen Face Stick SPF 30",
+ "note": 4.17,
+ "nbAvis": 241,
+ "lus": 80,
+ "collectes": 109,
+ "segments": {
+  "oily": "Reviewers with oily or combination/oily skin report the stick feels heavy, greasy, or waxy and several say they would not recommend it for this skin type, though one combination-skin user with a waxy-tolerant view reports no clogged pores or breakouts.",
+  "dry": "Reviewers with dry skin generally like the product, describing it as moisturizing or appropriately oily for their needs, though one dry-skin reviewer reports her face became flaky, itchy, and broke out, and another with dry skin found it greasy and unabsorbed with resulting redness.",
+  "combination": "Combination-skin reviewers are split: one with pale, combination skin reports no sunburn and no clogged pores over all-day wear, while another states she has combo/oily skin and finds it heavy and greasy with repeated application.",
+  "sensitive": "Reviewers describing sensitive skin mostly report good tolerance, with one buying it specifically for a friend with 'super sensitive skin' who had no adverse reaction, though one sensitive-skin reviewer reports severe burning and rashes on her face."
+ },
+ "concerns": {
+  "dehydration": "One reviewer notes her very dry skin appreciated the slightly oily finish as added moisture, while another with dry skin reports the opposite: flakiness, itching, and dryness after use.",
+  "redness": "One reviewer with dry skin reports her face turned bright red after sun exposure despite no visible burn; another reports rashes with severe burning sensation on the face.",
+  "blemishes": "Several reviewers explicitly state the product did not cause breakouts or clog pores (including for acne-prone skin), while at least four others report new bumps, rashes, or breakouts specifically on the face after use.",
+  "oiliness": "Reviewers with oily or combination-oily skin frequently describe the stick as greasy or heavy, especially on repeated application, while many other reviewers (unspecified skin type) describe it as non-greasy and lightweight."
+ },
+ "aspects": [
+  {
+   "libelle": "Melts or liquefies in heat",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong banana or taffy scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent bothersome to fragrance-sensitive users",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Compact, portable size for reapplication",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Waxy, thick texture slow to absorb",
+   "polarite": "neg",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "No white cast, goes on clear",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small size relative to price",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Steph",
+   "titre": "Burns Face",
+   "texte": "Wanted to love and smelled so good but burned my face badly.. i had both severe burning sensation and rashes",
+   "date": "2023-03-03",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Kelly",
+   "titre": "My face broke out into a dry rash",
+   "texte": "I don't know what's different about this product but ughhh I'm so sad i tested it first a small patch on my jawline and I was okay next day tried it on my whole face an hour later my face felt so dry & flaky & itchy I looked in the mirror I broke out.",
+   "date": "2023-01-01",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Esmee",
+   "titre": "A greasy let down.",
+   "texte": "On a whim, I decided to try a few Sun Bum products...I heard that the brand was vegan and I'm always looking, for cruelty-free products. I'm not really into scented face products, so right away the banana scent of this stick turned me off. To me, the applicator looks more like a deoderant, than sunscreen...but I wanted to give the product a fair shot. It doesn't apply well and the areas, which did get product felt greasy/oily (I have dry skin) and I don't think the product blended or absorbed well. After about thirty minutes in the sun on an eighty-degree day, I came inside and saw that my face was bright red; my face wasn't burned...just bright red. I tried the product a second time, putting too much on-with this style of applicator, I don't feel as though I have control over the amount of product-and my face just felt greasy. If the company makes a sunscreen, for the face in a regular bottle I might give it a try. But this was a let down. I would not recommend this product.",
+   "date": "2019-04-13",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Zoe M.",
+   "titre": "Great for dry skin!",
+   "texte": "The only reason I gave this sunscreen 4 stars was because I would not recommend it to anyone with combination to oily skin. I have dry sensitive skin so this worked out perfectly. I would recommend something more moisturizing during the winter, but for summer this is perfect! Even though it is fragranced, it did not bother my skin. I was surprised that my skin responded so well because I have had allergic reactions/ eczema breakouts from mineral baby sunscreen! I love anything banana scented, so obviously I liked this. If you are not a fan of the banana taffy scent, I wouldn't tell you to order 50 of them. Overall this is an affordable product that I would recommend. There was also no white cast. Of course being pale people think that it would match my skin color so I wouldn't even be able to tell. However, that is false. We can tell if there is a white caste, it is just less noticeable. This comes off as clear so you don't really need to rub it in unless you want to. (When I said breakouts, I meant acne/pimple related, not eczema related)",
+   "date": "2023-01-07",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marie",
+   "titre": "Have one in every purse",
+   "texte": "I got this product as a blind purchase as I needed some compact spf and I love it. I have combination skin and very pale complexion and never got sunburns while using this. Even though the product has waxy texture, it doesn't clog the pores. I can wear and reapply it all day and I will do not have pimples, unlike many other spf products, even high-end ones. Tip: if it doesn't work for your face, use it on your hands or body! It doesn't stain the clothes. I live in Florida and drive a lot so for me this product is a must have for a quick reapplication.",
+   "date": "2022-10-10",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Aimtrain",
+   "titre": "Great for travel!",
+   "texte": "I bought this before a trip to Mexico. I wanted something quick and easy to apply before and while in the sun all day. The banana smell is awesome and it goes on smooth. My skin is very dry, so I am OK with it being a little oily on my face. It makes it feel more moisturized. I used this under the Tinted SPF and I didn't burn at all and was in the sun for 4-5 hours a day.",
+   "date": "2019-07-09",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "d3dr34m3r",
+   "titre": "Have already repurchased this product three times!",
+   "texte": "I purchased this for my friend who has super sensitive skin and she took it with her on a trip to Indonesia. She said it was the only thing that saved her skin from the tropical sun since the Coola product she previously used wore off. Thankfully her skin did not have any adverse reactions. I bought one for myself too as I seldom reapply sunscreen and since I was going to Coachella back in April, I figured it would be good for reapplication. I actually enjoy the banana scent and it is so easy to apply. I will say it is quite thick and waxy, so apply with a light hand and perhaps gently rub it in. My skin also loved it and had no allergic reactions to it. This item is like a tiny deodorant stick and will certainly fit into your pocket and/or purse.",
+   "date": "2018-09-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

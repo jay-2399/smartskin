@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2051748",
+ "asin": null,
+ "pid": "pimprod2051748",
+ "source": "ulta",
+ "nom": "FARMACY Green Clean Whipped Foaming Cleanser",
+ "note": 4.76,
+ "nbAvis": 50,
+ "lus": 49,
+ "collectes": 49,
+ "segments": {
+  "oily": "Reviewers with oily skin report reduced excess oil, smaller-looking pores, and a cleanse that clears oils from the skin without stripping it.",
+  "dry": "Reviewers with dry skin describe the cleanser as hydrating and restorative, leaving skin soft and not stripped, though one dry-skin reviewer found the reformulated version tight and drying.",
+  "combination": "Reviewers with combination skin say it removes excess oil and dirt while still leaving skin feeling hydrated rather than stripped.",
+  "sensitive": "Sensitive-skin reviewers mostly report gentle cleansing with no irritation and reduced redness, but one reviewer with sensitive skin says a reformulation triggered a severe reaction (rosacea-type flare and perioral dermatitis) and another found it drying and tight.",
+  "mature": "One reviewer notes her skin changed as she aged and considers this cleanser the best option she has found since."
+ },
+ "concerns": {
+  "aging": "One mature-skin reviewer reports the cleanser suits her changed, aging skin better than prior products, though this is a single account.",
+  "dehydration": "Most reviewers say the cleanser hydrates and does not strip or tighten skin after washing; a small minority (two reviewers, one with sensitive skin) instead report dryness and tightness.",
+  "redness": "One sensitive, breakout-prone reviewer reports the cleanser helped reduce her redness.",
+  "barrier": "One reviewer reports a reformulated version caused a severe barrier-type reaction (rosacea flare, perioral dermatitis) that persisted for months; this is the sole such report among the reviews.",
+  "spots": "One reviewer reports fewer breakouts after starting the product and another with a history of mild acne says her skin cleared up using it, but this is not corroborated by most other reviewers, who do not mention spots.",
+  "blemishes": "Reviewers mention effective removal of makeup, SPF and daily grime without residue; one reviewer contrasts this with an old struggle with acne that improved with continued use.",
+  "oiliness": "Multiple reviewers with oily or combination skin report reduced excess oil and smaller-looking pores, with no reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Whipped, creamy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich lather from small amount",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin hydrated, not stripped",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "sensitive",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Pleasant light scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Struggles with heavy waterproof makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Hard to rinse off completely",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Reformulation with synthetic dyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Vic",
+   "titre": "Do not buy!",
+   "texte": "The old version of this facewash was my holy grail. I loved it, but they unfortunately reformulated it and added synthetic dyes. This addition to the formula triggered the worst break out of my life. It trigged rosacea type 2 and periorial dermatitis which I have never experienced in my life. I am still struggling months later with the reaction. If you value your skin do not buy this product.",
+   "date": "2025-12-07",
+   "verifie": false,
+   "utiles": 31,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Lisavinin",
+   "titre": "I recieved the green clean",
+   "texte": "I recieved the green clean face wash gifted by farmacybeauty and it has been a staple in my routine. I would honestly recommend this for anyone who has sensitive skin and is prone to break out. It truly help my redness go down.",
+   "date": "2025-01-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Mon",
+   "titre": "Nice",
+   "texte": "This foaming cleanser works well on my combination skin. It gently cleanses and removes any excess oil and dirt from my face. My skin feels cleansed without feeling stripped or dry. Gifted by farmacybeauty.",
+   "date": "2025-05-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Isa B.",
+   "titre": "Drying",
+   "texte": "I really wanted to love this cleanser, but it makes my skin feel tight and it is very drying I have sensitive skin. I won't buy this again.",
+   "date": "2025-07-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tori",
+   "titre": "Great",
+   "texte": "This was the best face wash I've ever used! I have oily skin and my pores look big. It definitely helped with both!",
+   "date": "2025-03-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shamima. K.",
+   "titre": "I recently tried the this",
+   "texte": "I recently tried the this cleanser and it has quickly become one of my favorites. The whipped texture feels so luxurious and it transforms into a creamy foam that gently cleanses without over drying my dry skin. I love how effectively it removes makeup, dirt and oil and makes my skin feeling soft, refreshed and hydrated. The formula feels super gentle and it does not cause any irritation. The fresh herbal scent is really soothing and calming. I love its modern snd charming packaging. My skin texture is improving fay by day. It is packed with skin loving ingredient. It is a perfect choice for my dry skin. It is an effective gentle cleanser that also supports a clean beauty routine. Highly recommended. Gifted by farmacybeauty",
+   "date": "2024-12-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tapanga",
+   "titre": "Best Sensitive Skin Whipped Cleanser",
+   "texte": "The absolute best face cleanser on the market! I originally started with the clean bee honey face wash and used that for two years (my boyfriend currently uses that). However my skin changed whenever I aged, and this cleanser is the best! I have used this products for over three years now and I have no complaints whatsoever. I always struggled with slight acne growing up and it never cleared up until I found this company.",
+   "date": "2025-04-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

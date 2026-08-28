@@ -1,0 +1,170 @@
+{
+ "ref": "pimprod2049173",
+ "asin": null,
+ "pid": "pimprod2049173",
+ "source": "ulta",
+ "nom": "TATCHA The Silk Serum Wrinkle-Smoothing Peptide + Retinol Alternative",
+ "note": 4.67,
+ "nbAvis": 520,
+ "lus": 81,
+ "collectes": 93,
+ "segments": {
+  "dry": "Dry-skin reviewers describe the serum as moisturizing and soft-feeling, though one with aging dry skin found it lighter than expected and preferred richer creams.",
+  "sensitive": "Sensitive-skin reviewers (including one on chemotherapy medication) generally report no irritation and reduced redness, but two others describe breakouts, clumping, or irritation after early daily use.",
+  "mature": "Mature-skin reviewers in their 50s-70s report smoother, plumper skin and softened lines, though a couple say it did nothing noticeable for them and preferred richer Tatcha products.",
+  "combination": "One reviewer with hormonal breakouts (fifties) reports the serum cleared her skin within days.",
+  "oily": "One reviewer reports the serum made her skin oilier and led to more frequent breakouts."
+ },
+ "concerns": {
+  "aging": "Many reviewers report softened forehead lines, crow's feet, laugh lines, and neck wrinkles within one to several weeks; a few in their 30s-50s report no visible improvement in wrinkles despite continued use.",
+  "dehydration": "Most reviewers describe the serum as hydrating and moisture-boosting, with dry itchy skin resolving for one user, though one reviewer with mature dry skin found it lighter and less moisturizing than expected.",
+  "redness": "Several reviewers report reduced redness, including one whose redness from chemotherapy medication improved; no reviewer reports increased redness specifically.",
+  "barrier": "One reviewer reports her eczema-related irritation around the eyes cleared with regular use; no other barrier-specific comments appear.",
+  "spots": "Two reviewers report fading or evening of dark spots and sun damage after weeks of use.",
+  "blemishes": "One reviewer reports breakouts and clumping when using the product, while another reports clogged pores clearing and a hormonal breakout resolving within days — outcomes are mixed.",
+  "oiliness": "One reviewer reports the serum made her skin oilier and triggered more frequent breakouts; no other reviewer mentions oiliness as an issue."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragile pump packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Added shimmer/glitter in formula",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, little product needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant subtle scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thinner than expected, less richness",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "mature"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Amy",
+   "titre": "Not for sensitive skin",
+   "texte": "I think the product is breaking me out It also clumps up if you run it in but it helps if you press it in instead However it does leave your skin very shimmery and glowing",
+   "date": "2023-12-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Cait",
+   "titre": "Doesn't help with wrinkles",
+   "texte": "I'm 30 I've started getting the forehead wrinkles I used an entire bottle and saw no improvement with anything but moisture It also made my skin oily broke out more frequently while i was using it Will be trying a different retinol alternative Definitely not worth the money there are cheaper ways to add more moisture",
+   "date": "2023-12-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Charlot R.",
+   "titre": "Love the way it makes my skin feel",
+   "texte": "I am 74 with mature dry skin I like this and the silk serum but I wonder whether this will do more for my skin than the dewy skin cream I prefer the way this feels but I wonder over time which would be better",
+   "date": "2024-03-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brittany J.",
+   "titre": "I will never stop purchasing this",
+   "texte": "I never could use retinols because they made my skin so dry but this is literally magic in a bottle I didn't realize how many clogged pores I had until using this product It cleared smoothed and softened my skin to perfection I was having dry itchy skin but since using the silk serum it is all cured I will note that you definitely need to slowly work into it I was so excited after the first time using it went so well that I used it two nights in a row and had some irritation on my cheeks Every other to every two days seemed to do better on my sensitive skin",
+   "date": "2023-10-05",
+   "verifie": false,
+   "utiles": 31,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Niki",
+   "titre": "This product is AMAZING",
+   "texte": "I rarely write reviews Ive used various products throughout the years but I always come back to Tatcha Its the best skin care line on the market in my opinion I purchased the silk serum recently and I am in absolute awe! Im in my fifties and was breaking out due to hormone fluctuations Nothing was working After using the Silk Serum for 3 days my face was completely clear! No breakouts whatsoever! Plus my skin is visibly smoother and brighter! I will definitely be using this product regularly and cannot recommend it highly enough!",
+   "date": "2024-09-16",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Divya S.",
+   "titre": "Best Serum Ever",
+   "texte": "I have tried a few Vit C serums out there and everything gave me irritationscauses sensitivities on skin This serum works like magic it gives the skin a nice glow while being gentle and easy to apply I have brown sensitive skin I have seen considerable amount of evenness in just 2 weeks after starting this serum Highly recommed",
+   "date": "2023-10-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Linda D.",
+   "titre": "As always Tacha products are",
+   "texte": "As always Tacha products are absolutely wonderful They are a vital part of my skin regimen My skin is extremely sensitive due to a daily chemotherapy pill that I requireIt is not red and irritated any longer",
+   "date": "2023-11-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

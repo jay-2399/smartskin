@@ -1,0 +1,157 @@
+{
+ "ref": "pimprod2053340",
+ "asin": null,
+ "pid": "pimprod2053340",
+ "source": "ulta",
+ "nom": "EMBRYOLISSE Lait-Crème Concentré Multi-Function Moisturizer",
+ "note": 4.35,
+ "nbAvis": 23,
+ "lus": 21,
+ "collectes": 21,
+ "segments": {
+  "dry": "Reviewers with dry skin are split: several say it deeply hydrates, leaves skin soft, and fixes flaky makeup application, while others report it left their face still dry or flaky, especially on the forehead, requiring multiple layers.",
+  "sensitive": "One reviewer with sensitive, breakout-prone skin found it worked well under makeup, while another warns it is highly sensitizing due to fragrance and recommends the unscented version for fragrance-triggered sensitivity.",
+  "mature": "Mature-skin reviewers disagree: one found it amazing with little to no fragrance and good moisturizing, while another felt it suits younger skin better and that mature skin needs something heavier."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers who mention dryness report strong hydration, a soft or dewy finish, and improved makeup application over dry patches; a minority say it left their skin still dry or flaky even after multiple layers.",
+  "redness": "One reviewer with sensitive, fragrance-triggered skin reports irritation risk from the scent, though another sensitive-skin reviewer reports no irritation at all.",
+  "blemishes": "One reviewer with breakout-prone skin calls it great with no issues, and another notes it is non-comedogenic and did not cause breakouts."
+ },
+ "aspects": [
+  {
+   "libelle": "Works well as makeup primer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Silky, smooth, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance bothers sensitive skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Causes makeup to peel or pill",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting makeup wear",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount needed, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves dewy, glowy finish",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "BAMC",
+   "titre": "Not for sensitive skin",
+   "texte": "This has a nice balmy texture that's not greasy. Those wirh dry skin may not find this effective on its own after it soaks in. Biggest turn-off…it's highly sensitizing due to the moderately potent fragrance. If you have sensitive skin that tends to be triggered by fragrance, try the unscented version.",
+   "date": "2026-02-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Lauren",
+   "titre": "Wasn't as advertised",
+   "texte": "It was advertised as glowy and was supposed to make your makeup look glowy and hydrate your skin. It made my skin look so dry and mafe my makeup peel so bad. I waited For it to dry down and it still peeled.",
+   "date": "2025-12-27",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "RK",
+   "titre": "Best Moisturiser ever",
+   "texte": "So happy that Ulta has this now. I have noticed a lot make up artist use this and always wanted to try. After I found it on ulta I ordered in no minutes. I use this as a mosutriser daily. I can see a healthy glow on my skin that last all day. I have tried so many mosturisers (drugstore and high end). Nothing gave result like this one. I highly recommend it to people with dry skin.",
+   "date": "2025-08-08",
+   "verifie": false,
+   "utiles": 26,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "K",
+   "titre": "Yay!",
+   "texte": "Love this moisturizer. It is great on my sensitive breakout prone skin. Lovely under makeup and just overall a great moisturizer.",
+   "date": "2025-08-11",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kennedy",
+   "titre": "Great hydration",
+   "texte": "I struggke with dry skin and its been making my makeup look bad. Ive added this to my routine and it's amazing. My skin feels and looks so good.",
+   "date": "2026-01-05",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "allie",
+   "titre": "my favorite moisturizer 💘",
+   "texte": "before i bought this my makeup lwk looked really bad and dry and i saw this trending on tiktok so i decided to buy it, it has an amazing formula and non comedogenic so it did not break me out i used it for my sisters prom makeup her base was bomb because of this, its worth the hype",
+   "date": "2026-01-17",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Siobhán",
+   "titre": "Great!",
+   "texte": "I have mature skin, and this stuff is amazing. Goes right in, little to no fragrance, and has shown to be very moisturising. Will buy again for sure, no word of a lie!!!",
+   "date": "2026-07-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

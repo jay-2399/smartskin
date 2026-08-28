@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2029731",
+ "asin": null,
+ "pid": "pimprod2029731",
+ "source": "ulta",
+ "nom": "Dermalogica Awaken Peptide Eye Gel",
+ "note": 4.34,
+ "nbAvis": 853,
+ "lus": 68,
+ "collectes": 80,
+ "segments": {
+  "sensitive": "One reviewer with sensitive skin reports no irritation and visible depuffing/tightening, and another with an eye allergy says the gel keeps the area hydrated without burning or redness.",
+  "mature": "Reviewers describing themselves as in their 30s-40s or with aging eyes report tighter, brighter under-eyes and softened fine lines, though one calls the tightening sensation a dried-glue-like film rather than a true skin change."
+ },
+ "concerns": {
+  "aging": "Reviewers using it for aging concerns report tighter, brighter skin and softened wrinkles around the eyes; one mature-skin user notes lasting improvement while another (age unspecified) found effects did not last as long as expected.",
+  "dehydration": "Several reviewers say the gel is hydrating and leaves skin feeling soft and cool; others report the opposite, saying it is not moisturizing, feels tight, or even burns and requires layering another eye gel underneath.",
+  "redness": "One reviewer with an eye allergy reports reduced redness and itchiness around the eyes, and another separately notes reduced redness alongside depuffing; no dissent reported for this concern.",
+  "blemishes": "Not discussed by reviewers in relation to this eye gel.",
+  "spots": "Not discussed by reviewers in relation to this eye gel.",
+  "barrier": "Not discussed by reviewers in relation to this eye gel.",
+  "oiliness": "Not discussed by reviewers in relation to this eye gel."
+ },
+ "aspects": [
+  {
+   "libelle": "Depuffing effect under eyes",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible effect at all",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pilling or flaking under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Light, quick-absorbing gel texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, refreshing sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for small tube",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or tightness on application",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Meghan",
+   "titre": "Does nothing for dark circles or eye bags",
+   "texte": "I have used dermalogica forever but Ulta recently stopped carrying their anti aging eye cream I have always used. Rather than pay shipping to get it from dermalogica directly I picked this stuff up at my local Ulta to try instead. I've been using it 3 months now and honestly I feel like my dark circles and eye bags are more prominent now than they were with the other eye cream. This also does not feel hydrating at all. It absorbs quickly and makes the skin feel tight. I will definitely be switching to something else. Would not recommend and would not use again.",
+   "date": "2023-01-30",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Nanette",
+   "titre": "Reacts to makeup",
+   "texte": "I have used Dermalogica products for many years and almost exclusively and I love the brand but the Awaken Peptides are a HUGE disappointment! I've read the instructions for use of this product but it doesn't say that you should let it cure for a while before applying anything over it. If I apply concealer over it within a few minutes the concealer gobs up then when I try an eye sponge to smooth it out it turns into shreds and will even get into my hair - then have to use a big dry sponge to remove the shreds. Have tried different brands of concealers but the reaction is the same. It's infuriating! I can't even say it does it's job because I can't leave it under my eyes AND apply makeup or even makeup primer after applicaion. This stuff is not cheap! and I would love to return it and get my money back.",
+   "date": "2024-12-04",
+   "verifie": false,
+   "utiles": 14,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "jimena s.",
+   "titre": "Smoothes under eyes but leaves residue",
+   "texte": "I don't love this product, it does tighten the skin but it leaves a dried Elmer's glue feel, like a film, which is probably what is tightening the eyes after all. The container says to add pearl size but I have been adding a lot less with better results. I will continue using it for a bit in conjunction with the Stress Positive.",
+   "date": "2023-02-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mmh",
+   "titre": "Love love love!",
+   "texte": "First of, DOES NOT irritate my sensative skin at all! Love the ingridents, definitely depuffs and makes my 34 year-old under eyes look tighter and brighter. Higher price but you get what tou pay for with eye creams/serums.",
+   "date": "2025-04-03",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Grettel M.",
+   "titre": "This stuff actually works. Got",
+   "texte": "This stuff actually works. Got it for depuffing and it does what it says, also reduced redness. Absorbs nicely.",
+   "date": "2023-03-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Susan M.",
+   "titre": "Great peoduct",
+   "texte": "I have a terrible allergy and quite often eyes are red and itchy. This grl keeps the area around my eyes well hydrated.",
+   "date": "2023-05-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mariela H.",
+   "titre": "Awesome eye crÃ¨me",
+   "texte": "I have always loved Dermalogica products. When the eye cream I usually use was discontinued I panicked. But this eye cream is excellent so refreshing and light yet is great for my aging eyes.",
+   "date": "2023-02-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

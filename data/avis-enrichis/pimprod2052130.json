@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2052130",
+ "asin": null,
+ "pid": "pimprod2052130",
+ "source": "ulta",
+ "nom": "The INKEY List Exosome Hydro-Glow Complex Serum",
+ "note": 4.41,
+ "nbAvis": 726,
+ "lus": 79,
+ "collectes": 100,
+ "segments": {
+  "oily": "One reviewer with combination/oily t-zone skin reports no improvement and a slight stinging sensation before moisturizer is applied.",
+  "dry": "Reviewers with dry skin, including some with eczema-prone or reactive skin, mostly report increased hydration and softness, though one dry-skinned reviewer saw little difference.",
+  "combination": "A middle-aged reviewer with combination (oily t-zone) skin reports no visible improvement and mild stinging.",
+  "sensitive": "Reviewers with sensitive skin, some with rosacea or eczema, largely report good tolerance, reduced redness and no irritation, though one sensitive-skin reviewer found the product merely neutral.",
+  "mature": "Reviewers in their 40s-50s report smoother, plumper, tighter-looking skin and smaller pores, with fine lines described as less noticeable by some and unchanged by others."
+ },
+ "concerns": {
+  "aging": "Several reviewers report smoother, plumper skin and reduced appearance of fine lines around the eyes; others in their 50s say wrinkles look largely unchanged despite improved smoothness.",
+  "dehydration": "Most reviewers report a strong, lasting hydration boost and a plump, dewy feel; a few see no change in moisture levels despite weeks of use.",
+  "redness": "Reviewers with rosacea and reactive skin report visibly reduced redness and irritation within days to weeks; conversely, two reviewers describe a rosacea flare or dermatitis-like burning and itching after first use.",
+  "barrier": "One reviewer with chronic eczema in an eight-month flare reports the product was tolerated and helped skin thrive without burning, describing it as an exception among sensitive-skin products.",
+  "spots": "One reviewer reports sun damage and discoloration around the eyes became barely noticeable within a week; no other spot-specific reports appear.",
+  "blemishes": "One reviewer with rosacea/acne-prone skin reports dramatic improvement, while another reviewer reports the product caused new closed comedones a few days after starting.",
+  "oiliness": "One reviewer notes the product adds glow without excess oiliness; a combination/oily-t-zone reviewer reports no change to oil control."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult or failing pump packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tacky or sticky under makeup/SPF",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible results despite prolonged use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Pairs well layered with other Inkey products",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Elisa",
+   "titre": "AMAZING",
+   "texte": "This is really an amazing product that makes such a big difference almost straight away. I have never received so many compliments about my skin. It makes my skin look glowy, radiant and plump! I have rosacea - acne prone skin and this really makes miracles.",
+   "date": "2025-10-18",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tabatha",
+   "titre": "Glow serum sent from heaven",
+   "texte": "I have sensitive skin and papulopustular rosacea. I started using this serum and honestly started noticing a difference in a few days. Especially with redness and irritation. After using the serum for about two weeks, I was in awe of the results. My skin has totally transformed and I will be forever grateful. I tell everyone I can about this serum!",
+   "date": "2025-10-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rachel",
+   "titre": "Perfection",
+   "texte": "As somebody who has suffered with chronic eczema and has been in flare for eight months when I say this product is perfection, it really does say something. I have spent 100s of pounds on skin care that claims to be for sensitive skin I need to realise the second I put it on that my skin is burning. I decided to try this serum and was blown away that my sensitive skin could tolerate and not only that that it thrived using this product. My skin is so hydrated and so glow away that people have actually commented on it. When you have a chronic skin condition, this is not a very regular occurrence. I could now never not be without this product!",
+   "date": "2025-08-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rachel R.",
+   "titre": "The BEST serum",
+   "texte": "I can't say just how much I love this serum! My skin is dry, eczema prone and highly reactive. It loves this product and my skin looks so glowy I only need bronzing drops and highlighter!",
+   "date": "2025-08-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "CER",
+   "titre": "Wanted it to work",
+   "texte": "Been using for over a month twice a day, bought directly from the manufacturer, and havent see any improvement. I have combo (oily t-zone), middle-age skin that isn't overly sensitive to products yet this product leaves my skin with a slight stinging feeling until I put cream on. I've been pairing it at night with their Bio-Active Ceramide Repairing and Plumping Moisturizer and different beand of tinted moisturizer in the morning. I've also used it on my neck, not as regular, and no improvement there either.",
+   "date": "2026-03-02",
+   "verifie": false,
+   "utiles": 26,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "courtanee",
+   "titre": "breakout city",
+   "texte": "this gave me lots of little closed comedone pimples a few days after using it.",
+   "date": "2025-10-16",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Heidi",
+   "titre": "Sun damage",
+   "texte": "I am obsessed. I have some sun damage and discoloration around my eyes, within a week i noticed a difference, now I can barely see the discoloration. I will rave about this forever",
+   "date": "2025-10-16",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

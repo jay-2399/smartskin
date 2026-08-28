@@ -1,0 +1,149 @@
+{
+ "ref": "mkt77006200",
+ "asin": null,
+ "pid": "mkt77006200",
+ "source": "ulta",
+ "nom": "Hypothesis Precision Microdart Blemish Patches",
+ "note": 4.7,
+ "nbAvis": 10,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {},
+ "concerns": {
+  "spots": "Reviewers report the patches minimizing whiteheads, draining a large pimple or papule overnight, and clearing active breakouts within one to two days; one notes a giant back pimple drained by morning and another that an emerging pimple was gone by the next morning.",
+  "blemishes": "Several reviewers describe the patches helping with breakouts and blemishes generally, including protecting an open blemish and discouraging picking, with one calling them effective on active acne at both red and ready-to-pop stages.",
+  "redness": "One reviewer reports visible redness reduction within one to two hours of application."
+ },
+ "aspects": [
+  {
+   "libelle": "Easy to apply",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stays on skin well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Adhesive not sticky enough overnight",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Clear border design",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Prevents picking at blemish",
+   "polarite": "pos",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Fast visible results",
+   "polarite": "pos",
+   "concerne": [
+    "spots"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Lauryn",
+   "titre": "Effective!",
+   "texte": "The microdart patches were effective in minimizing whiteheads as well as accelerating the healing process for a popped breakout. I‚Äôll say that the patch wasn‚Äôt super sticky and a couple fell off throughout the night because I slept with them on- I‚Äôd recommend putting on the patch prior to the rest of your skincare. I also like how easy they are to apply with the clear plastic film only surrounding the border of the patch.",
+   "date": "2026-05-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Yay",
+   "titre": "Reduced redness fast",
+   "texte": "Within an hour or two I would say the patch reduced the redness. I will definitely be using this as a go to.",
+   "date": "2026-05-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kelly",
+   "titre": "Love the patches!",
+   "texte": "These patches are great, easy to apply, I like the design. They are gentle yet effective and I really like patches in general as they help me not to pick at a blemish and protects the open blemish since it‚Äôs covered.",
+   "date": "2026-05-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emily",
+   "titre": "Used over active acne",
+   "texte": "I did enjoy this I tested it with when the pimple was just red and when it was a ready to be popped, they stick in very well never moved, and I saw improvement with them",
+   "date": "2026-05-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Thomas",
+   "titre": "Massive pimple",
+   "texte": "I had a giant pimple on my back that I put a patch on, and it did a great job draining it by the morning.",
+   "date": "2026-05-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "trinity",
+   "titre": "amazing",
+   "texte": "i had a pretty large papule and the patch had really cleared it up",
+   "date": "2026-05-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Valeria",
+   "titre": "easy to apply Microdart acne patches",
+   "texte": "reduces acne and blemishes, comfortable to wear and easy to apply",
+   "date": "2026-05-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Reviewers do not specify skin type in this set, so segmentation by skin type is not possible; findings are limited to a small sample of ten reviews."
+}

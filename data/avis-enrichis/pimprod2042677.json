@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2042677",
+ "asin": null,
+ "pid": "pimprod2042677",
+ "source": "ulta",
+ "nom": "Kiehl's Since 1851 Milk-Peel Gentle Exfoliating Toner",
+ "note": 4.68,
+ "nbAvis": 394,
+ "lus": 75,
+ "collectes": 117,
+ "segments": {
+  "oily": "Reviewers with oily skin describe the toner as leaving a lingering oily residue or feeling too rich, though one long-term oily-skin user says it made her skin less oily and soft over time.",
+  "dry": "Reviewers with dry skin consistently report the toner hydrates without stinging or increasing dryness, calming flaky patches and adding moisture after cleansing.",
+  "combination": "Reviewers with combination skin generally like it, describing it as balancing and soft-making, though a couple note slight oiliness in warmer months.",
+  "sensitive": "Reviewers with sensitive skin report the toner is unusually well tolerated, with no burning, stinging or redness, and several call it their holy grail for sensitive skin.",
+  "mature": "Mature-skin reviewers (in their 30s-70s) report smoother texture, improved tone and softness, with one using it specifically for sun damage on neck and chest with visible improvement.",
+  "normal": "One reviewer with normal/dry skin says it does not disrupt her moisture barrier and works well as an everyday step."
+ },
+ "concerns": {
+  "aging": "Reviewers using it against fine lines, sun damage or general aging report smoother, softer, more youthful-looking skin, including visible improvement on sun-damaged neck and chest skin; one reviewer instead saw new acne and dark spots appear after starting the product for wrinkles.",
+  "dehydration": "Most reviewers say the toner hydrates and leaves skin soft, plump and non-tight even after cleansing; a small number found it too gentle to notice any real change.",
+  "redness": "Reviewers report no redness or irritation, including with sensitive or reactive skin, and one specifically notes rough, red patches smoothed away.",
+  "barrier": "Reviewers say it does not strip or dry out skin and helps retain moisture as a barrier step, with one explicitly noting it does not disrupt her moisture barrier.",
+  "spots": "Reviewers report improvement in pimple scars, uneven tone and dark spots over weeks of use; no dissent found on this point beyond general breakout complaints.",
+  "blemishes": "Several reviewers report fewer breakouts and clearer skin, including one masked healthcare worker who stopped getting new breakouts; conversely one reviewer reports significant new acne and dark marks after starting the product.",
+  "oiliness": "Several oily-skin reviewers note an oily residue or shine after use and advise against it for very oily skin, while one long-term user says it reduced her oiliness over time."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaves oily residue on skin",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Bottle leaks during storage or travel",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glass bottle feels premium and eco-friendly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle, non-stinging feel on application",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Improves skin texture and smoothness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No travel-size option available",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Ras95",
+   "titre": "I broke out worse than a teenager",
+   "texte": "If you start noticing more pimples and breakouts, it's probably this product. I had very clean skin, but wanted to work on some wrinkles that were settling into my forehead so I switched up my routine a bit. Now I have acne and dark spots from acne all over my face, which will probably take months to heal. What works for one person won't work, or will be detrimental to another. I'm writing this review so others will be aware this product does cause breakouts in some people.",
+   "date": "2024-02-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SU22",
+   "titre": "Skin is Hydrated like forever!!!!",
+   "texte": "My skin generally doesnt go with all type of products and toners are definitely not for me. However, I am so so in love with this milk peel that I want to stock it up for forever. My skin texture is improved. It feels very hydrated naturally and does wonders on pimple scars or uneven tone. My skin is dry in winters and oily combination in summers. I love this all throught the seasons.",
+   "date": "2024-01-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "freya124",
+   "titre": "Great exfoliating toner for sensitive skin",
+   "texte": "I needed a mild exfoliating toner to deal with flaky skin from using retinol 2-3 evenings a week. My skin does not tolerate salicylic acid at all and dries it out severely, so I was a little apprehensive since this toner has an SA derivative and only came in this big size, but I'm glad I gave it a chance. I apply this every morning using a cotton pad and it smooths out my skin nicely, without any irritation, dryness, or stinging. I apply Kiehl's ferulic acid essence after this toner and my skin has been hydrated, smooth, and less flaky.",
+   "date": "2023-11-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gapgirl",
+   "titre": "Hydrating Toner",
+   "texte": "Bought this toner for my daughter and she loves it. I've been used Kielh's ultra facial toner for years and have been happy until I tried this. It leaves my skin feeling really soft and hydrated. I have combination skin so it works great for me. Definitely would not recommend it for someone with oily skin. I actually don't use a cotton pad. I just pour a little on my skin and pat it all over my face. Love this toner!!",
+   "date": "2022-06-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kami T",
+   "titre": "Best Toner Ever",
+   "texte": "Favorite toner ever. I have sensitive acne prone skin and this just works so well for me. So much medication and trying to figure out the cause, my skin gets very dried out but this moisturizes my skin every time I use it",
+   "date": "2024-02-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maureen O",
+   "titre": "Wow...Very surprised so far!",
+   "texte": "A girlfriend raved about this product, I am pretty set with my skin care products but decided to try to add this toner specifically for sun damage on my neck and chest. (I have been contemplating more invasive procedures for the chest area and wrinkled skin). Can't believe what a difference this product has explicitly made in that area in just a couple weeks. Sincerely shocked by how well it worked. I will continue using to see if the improvements continues, stays the same or fades with use but so far in love with this toner. Likely to be a regular product in my skincare routine!",
+   "date": "2023-07-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "NP17",
+   "titre": "Game Changer",
+   "texte": "This product is awesome! As an ER nurse who wears multiple masks for 12+ hours, I was finding new & painful break outs at the end of every shift. Not anymore! I apply this to my face in the AM and come home daily with soft, even, moisturized skin and best of all no new breakouts! I couldn't recommend a product more!",
+   "date": "2022-01-20",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

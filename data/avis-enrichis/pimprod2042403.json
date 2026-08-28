@@ -1,0 +1,173 @@
+{
+ "ref": "pimprod2042403",
+ "asin": null,
+ "pid": "pimprod2042403",
+ "source": "ulta",
+ "nom": "VANICREAM Daily Facial Moisturizer with Hyaluronic Acid and Ceramides",
+ "note": 4.32,
+ "nbAvis": 226,
+ "lus": 80,
+ "collectes": 116,
+ "segments": {
+  "oily": "Reviewers with oily or oily/acne-prone skin report the product controls oiliness or does not increase greasiness, with a few noting it does not fully mattify (e.g. 30, 62, 63, 75, 76, 77).",
+  "dry": "Dry-skin reviewers are split: several say it finally hydrates without burning and helps barrier repair after procedures like microneedling (64, 70, 71, 74), while others find it too light and not moisturizing enough, leaving skin dull, peeling, or dry again within hours (11, 15, 16, 18).",
+  "combination": "Combination-skin reviewers generally describe it as lightweight and balancing, though one finds it too greasy/runny to wear during the day (7, 19, 24, 36, 60).",
+  "sensitive": "Sensitive-skin reviewers are the most divided group: many describe it as the only moisturizer that calms redness and irritation with no reaction (28, 41, 45, 51, 56, 59, 61, 66), while others report stinging, burning, itching, or bumps that stopped only after discontinuing use (0, 1, 5, 6, 9, 10, 12).",
+  "mature": "One reviewer mentions aging skin alongside dehydration and found the product not hydrating enough for her needs (16)."
+ },
+ "concerns": {
+  "aging": "Only one reviewer connects the product to aging skin, saying it did not provide enough extra hydration for her aging, colder-months skin (16).",
+  "dehydration": "Many reviewers say it hydrates well and keeps skin soft through the day or overnight (23, 27, 37, 52, 64, 70, 71, 79); others say it did not moisturize enough, leaving skin dry, dull, or peeling within hours (11, 13, 15, 16, 18).",
+  "redness": "Several rosacea and redness sufferers report it calmed redness and reduced flare-ups (27, 30, 31, 38, 55, 69); one reviewer states it consistently caused redness, stinging and sensitivity on every use (10).",
+  "barrier": "Multiple reviewers credit it with helping repair or protect a damaged skin barrier, including after retinoids or procedures (33, 43, 46, 70); others report it damaged their barrier, causing dryness, itching, and contact dermatitis (2, 4).",
+  "spots": "Reviewers with hormonal or cystic acne mostly report no new breakouts and some improvement (32, 44, 50, 56), but a few describe worsening cystic pimples or closed comedones tied to this product (2, 3, 4, 6, 20).",
+  "blemishes": "Most acne-prone reviewers report the product does not break them out and even improves texture over time (24, 42, 47, 49, 53, 76, 77); a minority report new closed comedones or bumps appearing after use (2, 4, 6, 20).",
+  "oiliness": "Oily-skin reviewers mostly say it does not add greasiness and controls oil reasonably well (62, 75, 76, 77); one reviewer felt it looked greasy rather than moisturized and clogged pores (6), and another found it too greasy to wear during the day (7)."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or burning on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Pilling under makeup or serums",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No fragrance, simple ingredient list",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Tube size too small, want pump/tub",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Plain, no-frills packaging",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "vivian",
+   "titre": "damaged my skin barrier & closed comedones.",
+   "texte": "This absolutely destroyed my skin barrier, left my skin itchy and stinging 24/7. Many closed comedones began popping up. Not only did it not moisturize my skin at all, but it left me with contact dermatitis. I know that it is this product for sure because I haven't been using any other products except this one. My skin has never been this dry, itchy, and red.",
+   "date": "2024-10-09",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emma",
+   "titre": "Great for sensitive skin!",
+   "texte": "I have rosacea and a super oily/acne prone t-zone and just very sensitive skin in general. I've tried a million moisturizers and this is the one I keep coming back to over and over again. It is the only moisturizer I've ever tried that doesn't exacerbate my redness or cause breakouts. I will say it doesn't do great at controlling oil. I layer sunscreen and then a mattifying primer on top of it to control shine.",
+   "date": "2025-07-26",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Bay",
+   "titre": "Saved my skin!!",
+   "texte": "I have super oily, acne prone, and sensitve skin. It has become significantly worse since coming off the pill. I have tried everything such as adapelene, salicylic acid cleansers, benzoyl peroxide, and other retinols. Even though I used them correctly my sensitive skin was still fried. I used to use the moisturizer from la roshe posay for oily skin, but this stuff is 100x better imo. I was skeptical my first use because this moisturizer does feel very silky like. My skin was recovered in just a few days after using this. Once i switched to a gentle cleanser, byoma milky toner, benzoyl spot treatment, paulas choice exfoliating toner 2x a week, and this moisturer my skin is glowing !! My closed comodones are shrinking too!!",
+   "date": "2024-12-15",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "jess",
+   "titre": "meh",
+   "texte": "I bought this because I needed a moisturizer and I was kind of disappointed. My skin needs some extra hydration between the colder months and aging. This is not hydrating at all and made my skin kind of dull looking, especially after waking up. It also seemed to give me a few breakouts. I decided to continue using it anyway, and the breakouts ended up going away, so it's possible my skin just needed to get used to it or it just wasn't the culprit; hard to tell. Any way, I think it would be nice for oily skin or summer months. Also, I did see a tip to apply moisturizer with your foundation for a more dewy, natural look, so it's perfect for that",
+   "date": "2025-12-27",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jesse",
+   "titre": "A lifesaver",
+   "texte": "When I tell you I am amazed by this moisturizer, I really am. The brand I used before - La Roche Posay - completely changed their moisturizer formulas and I was at such a loss. Breaking out, skin felt raw and red, and I was so insecure I didn't want to go outside. Then this product came along. It's so simple and I love how it's non comedogenic. I can feel confident in these ingredients. I have some seriously dry skin - this doesn't leave me dry and actually makes my skin beautifully glowy. I can feel my skin barrier healing. PLEASE PLEASe please never change this formula. It is phenomenal and I feel so blessed to have found this.",
+   "date": "2024-08-29",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sam",
+   "titre": "it's fine",
+   "texte": "I have sensitive combination skin that leans dry and is acne prone (especially hormonal and from irritation). I got this as a summer moisturizer since the regular Vanicream in a tub was too heavy for my summer skin. This one is definitely lighter and absorbs pretty quickly. It didn't really irritate my skin but occasionally I felt a little burn, like if my skin was irritated from retinol. But I wouldn't buy it again. My skin feels dry a few hours after using it, it just didn't hydrate enough even for my sweaty and more oily summer skin, and was just kinda meh.",
+   "date": "2024-09-08",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Rae",
+   "titre": "It is okay, but it clogs my pores",
+   "texte": "This moisturizer is not the worst, but it makes my skin look more greasy than actually moisturized. It also caused closed comedones on my skin and made my skin bumpy. I used this product for about 6 months, and as soon as I switched from this product, the bumps went away. The product also burned everytime I applied it. It is not the worst but definitely not the best for me. Be careful if you have any sort of sensitive skin!",
+   "date": "2025-01-17",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

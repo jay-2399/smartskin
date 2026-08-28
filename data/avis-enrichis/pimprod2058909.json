@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2058909",
+ "asin": null,
+ "pid": "pimprod2058909",
+ "source": "ulta",
+ "nom": "The Ordinary Rice Lipids + Ectoin Microemulsion Moisturizer",
+ "note": 4.4,
+ "nbAvis": 15,
+ "lus": 12,
+ "collectes": 12,
+ "segments": {
+  "oily": "One reviewer with oily skin found it not moisturizing enough on its own and needed to layer another moisturizer on top, while another says the brand claims it works regardless of oily, dry, or acne-prone skin.",
+  "dry": "One reviewer describes 40-year-old dry, dull skin as feeling fixed with no residue or heaviness, and another suggests the product may work best as a pre-moisturizer serum for drier skin types.",
+  "sensitive": "Reviewers with sensitive, rosacea-prone, or fragrance-sensitive skin report no irritation and call it a holy-grail product, though one separate reviewer experienced severe burning and inflammation after one use.",
+  "mature": "A 40-year-old reviewer with sun spots, fine lines, and dry/dull complexion reports the cream fixed her moisture needs without heaviness or stickiness."
+ },
+ "concerns": {
+  "aging": "One mature reviewer with sun spots and fine lines reports improved dryness and dullness, though no reviewer reports visible change to wrinkles specifically.",
+  "dehydration": "Multiple reviewers describe skin as plump, soft, and hydrated after use, with several saying it sinks in and locks in moisture; one reviewer with oily skin nonetheless found it insufficient alone.",
+  "redness": "One reviewer reports severe redness, burning, and inflammation after a single use, while another with rosacea-prone skin reports calming, non-irritating results.",
+  "barrier": "Reviewers repairing barrier damage from retinoid overuse or sunburn report soothing, restorative effects when layered before a thicker cream; one reviewer used it successfully on sunburned skin.",
+  "spots": "One reviewer with dark pigmentation/sun spots reports overall improved complexion when paired with an azelaic acid product, though no direct claim about spot fading from this product alone.",
+  "blemishes": "One reviewer reports breakouts from this product despite it hydrating and softening skin, noting similar reactions to other actives-heavy brands; other reviewers report no breakouts.",
+  "oiliness": "One reviewer notes the product left a nice glow/shine rather than oiliness, while another with oily skin found it insufficiently moisturizing without added product."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight milky-serum texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sinks in with no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky, hard to sleep on",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling sensation on skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Insufficient as sole moisturizer",
+   "polarite": "neg",
+   "concerne": [
+    "oily",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Value versus size for price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves glowy, plump finish",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Liza",
+   "titre": "It's horrible",
+   "texte": "This product is one of the worst things I've ever tried; it is very sticky—my face kept sticking to my pillow and sheets, and it was painful to pull away. When I woke up, I realized my face was burned, very red, and inflamed; my eyes were burning, and my face was in really bad shape after just one day of use.",
+   "date": "2026-08-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "em",
+   "titre": "Not for me",
+   "texte": "I was looking for a lightweight moisturizer for summer heat/humidity but unfortunately this is not it. Feels really nice on skin, interesting milky-serum texture. It is very effective at barrier repair, I used this on sunburned shoulders and it was soothing. But I don't find it moisturizing enough on its own, despite my oily skin I felt the need to use another moisturizer on top which defeated the purpose. I think this works best as a serum before moisturizer (might be great for drier skin types or climates) or a body serum, but for the size there are much more cost effective body serums on the market.",
+   "date": "2026-07-28",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "JV",
+   "titre": "Does work, but broke me out",
+   "texte": "So it does work, and does hydrate and soften skin. But something in it makes me break out. I know it doesn't do it to everyone. A lot of Drunk Elephant products and Glow Recipe products do that to me. Which I hate, because they seem so nice. Anyways, I mentioned that, incase those products do it to you, this one may break you out as well.",
+   "date": "2026-07-10",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kelly",
+   "titre": "40 year old skin that needed moisture STAT… FIXED!",
+   "texte": "I am a fan of The Ordinary brand mostly because I've spent the hundreds of bucks on expensive brands… and while they've given me excellent results- who can afford that long term?? I just turned 40 and have sun spots (dark pigmentation), fine lines/wrinkles, and just have an overall dry and dull complexion. Figured I'd give this a try for the price. I HATE thick creams that make me sweat underneath. THIS CREAM IS 100% SMOOTH! It melts into your skin immediately. No residue, no heaviness, no stickiness. Does leave a little tingly feeling on my skin, however, but may be because I first use the Ordinary's Azelaic Acid cream (which I also highly recommend for dark spots). This is a MUST HAVE for mature skin my friends! Oily, dry, acne-prone, doesn't matter! This moisturizer has GOT YOUR BACK!",
+   "date": "2026-06-25",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bradley",
+   "titre": "Surprisingly good for eczema prone skin!",
+   "texte": "Never would i uave thought something so lightweight and thin would be enough to keep my skin moisturized all day. For those who have eczema you know that typically we need a really thick moisturizer to leep our skin from drying out. I've experienced no flaking in the areas that i strugle with consatly such as my nose, eyebrows, mouth, and near my ears. And vest part, I havent had to re apply. It hasnt irritated my skin at all, which is very sinsitive to things like fragrances. I love this product and will continue to use it in my routine!",
+   "date": "2026-07-08",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hannah",
+   "titre": "AMAZING for sensitive, rosacea prone skin",
+   "texte": "i have struggled to find a good moisturizer that wasn't super costly foreverrrr. they were all either too heavy and left my skin greasy-looking, or they irritated my skin somehow. this is my new holy grail. beautiful skin. i will repurchase forever.",
+   "date": "2026-07-02",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Carrie",
+   "titre": "Fabulous for barrier care",
+   "texte": "I cant begin to describe how deeply hydrating yet lightweight this product is. I went too fast with retinoids and damaged my barrier. I tries multiple barrier creams that were seemingly much richer than this, but my skin would still frel irritated and parched part way through the day. Using this as the first product after cleansing and before a thicker cream and then my sunscreen made all the difference. It's amazing. I will use this forever.",
+   "date": "2026-07-29",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

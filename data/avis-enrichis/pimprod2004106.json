@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2004106",
+ "asin": null,
+ "pid": "pimprod2004106",
+ "source": "ulta",
+ "nom": "jane iredale BeautyPrep Face Toner",
+ "note": 4.64,
+ "nbAvis": 197,
+ "lus": 77,
+ "collectes": 96,
+ "segments": {
+  "sensitive": "Multiple reviewers with sensitive skin report the toner feels soothing, refreshing, and non-irritating even with daily or twice-daily use.",
+  "dry": "Reviewers with dry or aging-dry skin say it does not dry out or tighten their skin, unlike other toners they have tried.",
+  "combination": "One reviewer with combination, acne-prone skin calls it gentle, non-drying, and balancing, with no major breakouts.",
+  "mature": "Reviewers who identify as mature or over 65 report smoother-looking skin, reduced fine lines, and smaller-looking pores.",
+  "oily": "Reviewers describing oily or T-zone-oily skin report good oil control and less shine without stripping the skin.",
+  "normal": "One reviewer with normal/dry skin says it is 'just perfect' and does not dry the skin out."
+ },
+ "concerns": {
+  "aging": "Several mature reviewers report smoother skin and reduced appearance of fine lines and pores with regular use; one reviewer notes the companion serum did not lessen wrinkles.",
+  "dehydration": "Most reviewers across skin types say the toner does not dry out or tighten skin and even feels hydrating; one reviewer found it left a residue rather than moisturizing.",
+  "redness": "Reviewers with rosacea or general redness report the product is well tolerated and calming, with one saying redness has not recurred since starting it.",
+  "barrier": "Reviewers with sensitive or reactive skin report no stinging, itching, or irritation, and describe the toner as gentle enough for daily use.",
+  "spots": "One reviewer reports a dark facial spot visibly lightened after a month of use, though this is attributed to the toner without other changes in her routine.",
+  "blemishes": "One reviewer with combination, acne-prone skin reports no major breakouts and balanced skin; a mother reports it helps control her daughter's oily, acne-prone skin; one older reviewer notes breakouts stopped occurring.",
+  "oiliness": "Reviewers report good oil balance and less oily-looking skin after use, with one specifically noting oil control improved over time."
+ },
+ "aspects": [
+  {
+   "libelle": "Pump/dispenser hard to use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Not refillable, plastic waste",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle small for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Light, fresh feel on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, mild fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pairs well with cleanser routine",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves residue instead of absorbing",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "MaryEllen T.",
+   "titre": "I put it in a",
+   "texte": "I put it in a spray bottle and use about 3 to 4 sprays for my entire face. It makes my face feel refreshed, especially in the morning.I use it twice a day. I have very sensitive skin and it is not irritating.",
+   "date": "2022-12-19",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Molly",
+   "titre": "This one product makes the most difference overnight!",
+   "texte": "I use the Beauty Prep cleanser, toner, and moisturizer. The moisturizer is a bit heavy for me but works well for nighttime only. The cleanser is really great at removing EVERYTHING easily. But this TONER! It is lightweight, smells great, and REALLY makes a difference. When I use this at night (Hey I am a Gen X - we don't follow our skincare routines like we should), the next morning my skin looks more supple, younger, and smoother. It really is my personal miracle product. It does not dry out your face at all, even if you use it morning and night. I have oily T zone and dry/normal cheeks, and this product works well for me.",
+   "date": "2022-05-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anna S.",
+   "titre": "Great for acne-prone skin",
+   "texte": "I've been using this for several weeks, and it is a great daily use toner. I have combination, acne-prone skin and prefer toners that are gentle and non-drying. This one is perfect! No major breakouts and my skin always feels clean and balanced after use. The light citrus fragrance is lovely too. Will purchase again!",
+   "date": "2021-11-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Arlene R.",
+   "titre": "This really helps with redness",
+   "texte": "This really helps with redness and leaves my daughter's skin looking and feeling clean and soft. She has oily, acne-prone skin and this is helping control it. We ordered online and will continue using it.",
+   "date": "2026-03-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Patricia",
+   "titre": "Very gentle toner",
+   "texte": "I have rosacea and was always hesitant to try a toner.This product is quite gentle....leaves my skin refreshed and glowing.",
+   "date": "2019-03-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nhsewlady",
+   "titre": "Awesome Toner",
+   "texte": "I noticed right away the difference in my skin. The lines around my lips are getting smaller. The natural ingredients work well on more mature skin. Not having alcohol in the toner has made a big difference. I signed up for auto delivery so that I will never run out. The travel set is a great way to try all the Beauty Prep products.",
+   "date": "2019-08-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Linda M.",
+   "titre": "Not sure what the difference",
+   "texte": "Not sure what the difference is between the face toner and face cleanser. The toner has a less pleasant smell and leaves a residue on my skin. On the good side, the toner does not dry out my skin. The residue seems to help moisturize a bit maybe.",
+   "date": "2022-09-22",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

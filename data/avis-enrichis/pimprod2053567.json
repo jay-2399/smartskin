@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2053567",
+ "asin": null,
+ "pid": "pimprod2053567",
+ "source": "ulta",
+ "nom": "SKIN1004 Madagascar Centella Tone Brightening Capsule Ampoule",
+ "note": 4.54,
+ "nbAvis": 46,
+ "lus": 45,
+ "collectes": 45,
+ "segments": {
+  "sensitive": "Multiple reviewers describe sensitive, reactive, or redness-prone skin and report the ampoule felt calming rather than irritating, with reduced redness over time.",
+  "oily": "One reviewer with oily/combo skin reports no greasy feeling and quick, non-sticky absorption.",
+  "combination": "Reviewers with combination skin report a lightweight, non-greasy feel that layers well without pilling.",
+  "dry": "One reviewer with dehydrated skin and noticeable forehead lines reports the product diminished the lines and hydrated the area well.",
+  "mature": "One reviewer reports fine lines looking less noticeable after a few weeks of use."
+ },
+ "concerns": {
+  "aging": "Two reviewers report fine lines or forehead lines looking less noticeable with regular use; most other reviewers do not mention aging specifically.",
+  "dehydration": "Most reviewers report increased hydration, plumpness, or moisture without greasiness; one reviewer states the product is not very hydrating on its own.",
+  "redness": "Several reviewers, including those with sensitive or reactive skin, report visibly reduced or calmed redness with regular use.",
+  "barrier": "Reviewers describe the product as gentle and non-irritating even on reactive or easily-upset skin, with no reports of stinging or compromised barrier feel.",
+  "spots": "Many reviewers report gradual lightening of dark spots, acne scars, or PIE over weeks; several note the effect is subtle rather than dramatic, and one reviewer saw no change in freckles.",
+  "blemishes": "Most reviewers report no new breakouts or pimples, including on acne-prone or breakout-prone skin; one reviewer states the brand's products, including this one, broke her out instantly.",
+  "oiliness": "Reviewers consistently describe the finish as non-greasy and lightweight, even on oily or combination skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Sticky or tacky initial feel",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly once blended in",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Elegant glass bottle and dropper",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Capsules melt smoothly into skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Broke out skin on repeated brand use",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Cindy",
+   "titre": "Madagascar serum",
+   "texte": "This stuff came in a big bottle. This stuff is sticky like glue. I cannot even apply foundation with this on my face. This and the cream are really sticky. I touch my face and my finger sticks to it. Horrible.",
+   "date": "2025-12-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Jo",
+   "titre": "Not for me",
+   "texte": "I don't think the product is bad, it's just not for me. I've tried several other products from this brand and they have all broken me out instantly. I thought I would give this one one last try but it also unfortunately broke me out.",
+   "date": "2025-12-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jessica T",
+   "titre": "Gentle Brightening Ampoule That Works Wonders on Sensitive S",
+   "texte": "Disclosure: I received this product for free as part of a sample program, but these opinions are my own. I have sensitive skin, so I'm always cautious when trying new serums or ampoules. The Madagascar Centella Tone Brightening Capsule Ampoule ended up being a really pleasant surprise. Compared to other brightening products I've tried—many of which can feel harsh or leave my skin irritated—this one is noticeably gentler. The texture is lightweight, absorbs quickly, and layers well with the rest of my routine without pilling or causing redness. One of the biggest benefits of owning this product is how calming it feels while still delivering a subtle brightening effect. My skin looks more even and feels soothed, especially on days when it's extra reactive. I also appreciate that it plays nicely with both my hydrating products and active treatments, which isn't always the case with brightening formulas. Would I buy this product? Yes. After finishing the sample, I'd be happy to purchase the full size because it fits seamlessly into my routine and actually works for my sensitive skin. And yes—I would absolutely recommend it to friends or family, especially anyone who wants a brightening product without the irritation.",
+   "date": "2025-12-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ava",
+   "titre": "Glowy!",
+   "texte": "I love that this product had no irritating ingredients or scents for my very sensitive skin. I used it for quite a while and did start to notice a slight lightening of my PIE. It's nice and lightweight for layering with other products and I would recommend it to someone like me who have very sensitive and acne prone skin and who is dealing with PIE. It may not be enough on its own, but it's a lovely addition",
+   "date": "2026-01-29",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jseg",
+   "titre": "Love it!! Goodbye to my forehead lines",
+   "texte": "I have about three very noticeable lines on my forehead, and I think that area was so dehydrated that this product was able to seriously diminish my noticeable lines on my forehead. This product hydrates the area so well without the consequences of pimples or blackheads. The texture is not oily and easy to massage into the skin. I love that the formula has no smell.",
+   "date": "2025-12-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Coco",
+   "titre": "skin improvement",
+   "texte": "I received the Centella Tone Brightening Capsule Ampoule for free in exchange for my honest review. After using it consistently for about 3 weeks, I've noticed a visible improvement in my skin's brightness and overall smoothness. The packaging is really nice! I received the 50 ml bottle and the dropper is so easy to use. The texture is a lightweight gel with tiny capsules that melt effortlessly into the skin without feeling sticky, no greasy feeling after and I have oily/combo skin. It feels very comfortable upon application and has a slightly cooling sensation that's refreshing, especially during my skincare routine. Overall, it absorbs well and leaves my skin looking more even and healthy.",
+   "date": "2025-12-21",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CH",
+   "titre": "Beautiful Skin!",
+   "texte": "I am so happy I received this product in exchange for my honest review, because if I had not, I might have missed out on this amazing brand and product! Seriously, my skin feels so supple and moisturized. I am noticing a difference in fine lines on my face after a few weeks of use, they are a lot less noticeable. I love the texture of this serum, it's refreshing on my skin and doesn't leave me feeling greasy. This is a great product and I'm extremely happy with the results I am seeing.",
+   "date": "2025-12-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

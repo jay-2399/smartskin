@@ -1,0 +1,160 @@
+{
+ "ref": "pimprod2046014",
+ "asin": null,
+ "pid": "pimprod2046014",
+ "source": "ulta",
+ "nom": "Naked Sundays Hydrating Glow Mist Setting Spray SPF 50+",
+ "note": 4.71,
+ "nbAvis": 1387,
+ "lus": 66,
+ "collectes": 97,
+ "segments": {
+  "dry": "One reviewer with very dry skin says the product left her looking greasy rather than glowy, while another with mature, combination skin says it re-hydrates dry patches without adding grease.",
+  "combination": "A reviewer with mature, combination skin reports it controls the greasy areas while rehydrating drier patches, keeping a glow without shine.",
+  "sensitive": "Reviewers describing themselves as sensitive are split: several say the fragrance is unbearable and even minor exposure to the eyes stings badly, while others with self-declared sensitive skin or sensitivity to fragrance say this particular scent is light enough to tolerate.",
+  "mature": "A reviewer with mature, combination skin uses it specifically to top up hydration and glow without looking greasy."
+ },
+ "concerns": {
+  "barrier": "One reviewer with a damaged skin barrier reports applying it at night and waking up with visibly calmer, healed skin, crediting the zinc oxide content.",
+  "spots": "Several reviewers report new whiteheads, cystic pimples, or fungal acne flare-ups tied to the fragrance, while many others report no breakouts at all and describe the formula as non-comedogenic-feeling.",
+  "blemishes": "Reports are mixed: some acne-prone or fragrance-reactive users say it triggers breakouts and one flags a lack of a non-comedogenic option, while most other reviewers report clear skin and no new blemishes.",
+  "oiliness": "Most reviewers describe the finish as non-greasy and glow-giving, but one very dry-skinned user found it made her look greasy, and one combination-skin user notes slight grease in oily zones balanced by hydration elsewhere.",
+  "dehydration": "Multiple reviewers say it adds hydration and a lasting glow when used for reapplication over makeup, including one who uses it nightly to rehydrate and soothe skin.",
+  "redness": "One reviewer with a compromised barrier reports the product soothes and helps heal irritated, reactive skin overnight."
+ },
+ "aspects": [
+  {
+   "libelle": "Fine, light micro-mist spray",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Stings or burns eyes on contact",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Dewy, glowy finish over makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Travel-size bottle convenience",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can pill under some makeup or skincare",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price point",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Katie",
+   "titre": "Effective, but breaks me out and has a very strong scent",
+   "texte": "I so wanted to love this! As someone who takes daily walks during lunch time, I need a sunscreen refresh that works over makeup. It does that part well, but what doesn't work is the obnoxiously strong scent. I get migraines from strong scents and every time I use it, it triggers one and I can smell it for the rest of the day. It's like an artificial coconut smell. PLUS it triggers whiteheads every time I use it. I would love if this company made an acne/sensitive skin safe alternative that was fragrance free.",
+   "date": "2026-05-21",
+   "verifie": false,
+   "utiles": 48,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "LL",
+   "titre": "Triggered fungal acne",
+   "texte": "I wanted to love this spray. It is very hard to find spf mists for reapplication. This sprays so well, dried quick with beautiful glowy setting. Also the perfect size to travel. I just could not tolerate the strong scent and it triggered my fungal acne.",
+   "date": "2026-03-28",
+   "verifie": false,
+   "utiles": 13,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LizzieB",
+   "titre": "Kinda greasy. Great mist though.",
+   "texte": "I have very dry skin and this made me look greasy which is wild. The mist is really nice though and the concept is great. Ngl I 100% put the elf spf spray in the bottle when it ran out cause I like the mister better but I like the elf product better. Sorry not sorry. Plus the elf one is cheaper. Also the smell was ok but not for me. Glad I have the bottle now though. And yes when asked about it I tell people I put the elf in the bottle I feel no shame.",
+   "date": "2026-07-07",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Angela K.",
+   "titre": "Convenient for top ups and rehydrating",
+   "texte": "Love the mini size. It's perfect for car/purse to top up your spf while out and about. I have mature, combo skin so while I get a bit greasy I can get dry in areas. This is perfect to rehydrate and stay glowy without looking greasy.",
+   "date": "2026-01-31",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ava",
+   "titre": "Please never change it",
+   "texte": "I am sooo picky on mineral sunscreens, half of them on the market are advertised as mineral but still contain chemical boosters like Butyloctyl Salicylate. This Naked Sundays spf is one of the few mineral sunscreens that is 100000% mineral. And on top of that, because of the high percentage of zinc oxide in this spf it doubles as a skin soother. If I have a damaged barrier, even at bedtime, I'll slather some of this on my face and the next morning its healed. This is seriously the best mineral sunscreen ever and I hope they never change anything about it cause it's perfect.",
+   "date": "2026-01-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amber R.",
+   "titre": "My fave",
+   "texte": "This is my favorite sunscreen first time I used it was last year in Bali and it was so good to have in my purse to just spray on anytime. It is great for my sensitive skin and it smells amazing. This is by far my favorite product by naked sundays.",
+   "date": "2026-01-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Chelsea P.",
+   "titre": "My daughter loves it",
+   "texte": "Gave this to my daughter and she's been using it everyday and really likes it. She's 21. It was too fragranced for me but it's great for a younger girl.",
+   "date": "2025-12-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

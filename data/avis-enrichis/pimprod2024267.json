@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2024267",
+ "asin": null,
+ "pid": "pimprod2024267",
+ "source": "ulta",
+ "nom": "florence by mills Feed Your Soul Berry in Love Pore Mask",
+ "note": 4.7,
+ "nbAvis": 1031,
+ "lus": 81,
+ "collectes": 101,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are split: several describe burning, redness, itching, or breakouts they attribute to sensitivity or a compromised barrier, while others with self-identified sensitive skin (including one citing MCAS) report no reaction and good tolerance.",
+  "dry": "The one reviewer who specifies dry skin reports no burning, tingling or itching, and describes a glowy result.",
+  "combination": "The single combination-skin reviewer reports smaller-looking pores, smoother skin and reduced redness in blemishes.",
+  "mature": "No reviews in this set specifically identify mature skin."
+ },
+ "concerns": {
+  "dehydration": "Reviewers describe the mask as hydrating and moisturizing, with skin feeling soft and smooth after rinsing; no reports of increased dryness.",
+  "redness": "One reviewer reports visible redness from a reaction (skin dyed red, painful to touch), while another with acne-prone skin reports the mask reduces redness around spots and pores; effects diverge by reviewer.",
+  "barrier": "Several reviewers and other commenters attribute the burning sensation to a compromised or damaged skin barrier rather than the product itself, while those with healthy or unspecified barriers often report only mild tingling or no burning.",
+  "spots": "Reviewers with acne or acne-prone areas report the mask works effectively on pores and blemishes, though burning is described as most intense specifically over acne and acne-prone areas.",
+  "blemishes": "Most reviewers report clearer skin, fewer bumps, and reduced blemishes after use; one reviewer reports the mask caused a new breakout and another reports it gave them 'loads of acne.'"
+ },
+ "aspects": [
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Cooling sensation after burning subsides",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong pleasant fruity scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Runny, drippy, messy consistency",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin feels soft and smooth after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult to remove, doesn't peel as described",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for amount of product",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Hailey M",
+   "titre": "Would not recommend for sensitive skin!",
+   "texte": "This mask has a cute design and all, but it burns! I dont even have that sensitive of a skin type, but this made me skin red and hurt to the touch. Maybe it was an allergic reaction or something, but it also makes skin itchy. The berries and particulates in the mask made it hard to squeeze out of the tube, but application was easy. However, taking it off was terrible! IT WOULDNT EVEN DRY AND PEEL OFF LIKE IT SAID IT WOULD! Even after having to cleanse and wash my face afterwards half a million times, it still dyed my face red and STILL burnt. DO NOT BUY!!!",
+   "date": "2024-04-07",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Koi",
+   "titre": "Sensitive skin warning!",
+   "texte": "I've used this mask at least 5 times now, however, it burns every time I use it. I've followed the instructions correctly- apply with spatula, leave for about 15 minutes then rinse with cold water. But yet each time I've applied it, my face feels hot, like I'm having a high temperature, and also it feels like I'm burning. This may be because of sensitive skin. I would not recommend this for sensitive skin. I hope they make a pore mask specifically for sensitive skin, because I've seen multiple reviews similar to this.",
+   "date": "2022-08-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cosmoesthie",
+   "titre": "Love it!",
+   "texte": "Im an esthetician that isn't currently working so I've been buying products from Ulta for my skin to save money. I really like this mask. It brightens and softens my skin. I love that it has antioxidants and helps reverse environmental damage. You're not going to see a difference in a week or two. Skincare products aren't magic. It takes a couple months of consistent use. I saw others say it burned but it didn't burn my skin. I think if your skin barrier is damaged or you have very dry skin that it would cause it to burn. But it's not the product that's bad. It's just some products will tingle or burn if your skin isn't taken care of very well. For this not being a professional product I think it works really well and am really happy with the purchase.",
+   "date": "2022-12-22",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Catie",
+   "titre": "Great for sensitive skin",
+   "texte": "Best mask I ever used. I have extremely sensitive skin I think due to MCAS and I no reaction which shocked me. Does tingle a little at first but my skin feels so good and didn't give me an allergic reaction which is seriously amazing. All the girlies with sensitive skin know it's hard to find products that work well with our skin. 10/10 would recommend.",
+   "date": "2023-01-18",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "z",
+   "titre": "Amazingggg",
+   "texte": "There honestly should be no bad reviews on this product. It's fun and smells nice but it also makes my face very glowy and I have super dry skin. It doesn't burn on me or tingle or itch!",
+   "date": "2025-07-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Pearl",
+   "titre": "Amazed✨",
+   "texte": "I love this mask. My blemishes are less red and my pores seem smaler. My skin is sooooo smooth everytime I use this mask. (I have combination skin)",
+   "date": "2023-01-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Ava",
+   "titre": "It's Ok Wouldn't Recommend",
+   "texte": "It has a cute package but it burned my face multiply times when I tried to use it and it was very strong on my face but It burned me so much on my face and now I can't use it so it sits next to my Florence by mils other things It's very disappointing about it I heard great things about it and I'm very upset about it Manily cause it gave my loads of acene and a burning sensation on my face",
+   "date": "2023-02-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

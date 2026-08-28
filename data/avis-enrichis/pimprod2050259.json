@@ -1,0 +1,151 @@
+{
+ "ref": "pimprod2050259",
+ "asin": null,
+ "pid": "pimprod2050259",
+ "source": "ulta",
+ "nom": "DHC Water Friendly Face Cleansing Oil",
+ "note": 4.33,
+ "nbAvis": 9,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {
+  "sensitive": "One reviewer nearing 40 with sensitive eyes reports no irritation and easy makeup removal, while another reports stinging eyes when using the product.",
+  "mature": "A reviewer nearing her 40s who now prioritizes hydration over mattifying products reports the oil removes tubing mascara effectively with patient rubbing, without adding dryness.",
+  "dry": "One reviewer reports her skin has been less dry since using this cleansing oil."
+ },
+ "concerns": {
+  "aging": "A reviewer nearing her 40s reports she now avoids mattifying or drying products and finds this oil removes makeup without stripping hydration.",
+  "dehydration": "One reviewer reports her skin has been less dry since starting to use the product; another nearing 40 says she can't hydrate enough and appreciates that this oil doesn't add to dryness.",
+  "blemishes": "One reviewer past her acne-prone years no longer considers it an issue but still finds the oil useful; another reports it deep cleans pores without clogging them.",
+  "spots": "No reviewer reports on spots or discoloration specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Removes makeup effectively",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Struggles with waterproof mascara",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes tubing mascara with effort",
+   "polarite": "neg",
+   "concerne": [
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Lightweight, non-greasy after-feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Runny, hard to control texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rinses clean without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Allison",
+   "titre": "Not for Me",
+   "texte": "I've really tried to make this product work for me, but it really doesn't. It doesn't remove waterproof mascara easily; I really had to scrub to remove it all, and even then there was still some mascara left on my eyelashes. It stung my eyes as well. The only benefit I see to this cleansing oil is that it doesn't leave a residue. That's not even really a problem though, as I double cleanse anyway.",
+   "date": "2026-08-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Annekin",
+   "titre": "Difficult to use",
+   "texte": "As it's water-friendly, it is basically water itself. Hard to clean your face when it doesn't stay in your hands to make it to your face. I felt like I had to go back to get more because it would just run off between my fingers. I'm unsure if it actually even works well seeing as most of the product didn't make it to my face.",
+   "date": "2026-03-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Jessica",
+   "titre": "Works on Tubing Mascara",
+   "texte": "I prefer a cleansing oil now that I am nearing my 40s and acne is no longer an issue. Now I feel like I can't hydrate enough, and tend to stay away from anything mattifying or drying. At the same time, I always struggle to find a cleanser that will remove my tubing mascara efficiently. This one does it, but you have to be patient and continue to gently rub longer than you hope/want to. I typically double-cleanse when using this product, but that's just how I roll. I think it's a good product, especially for the price.",
+   "date": "2025-09-24",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Pia",
+   "titre": "A fast favorite!",
+   "texte": "I've cycled through several various korean and japanese cleansing oils ever since my first love, hadalabo gokyujun, became harder and harder to come by. Dare I say… I like this better. It's a wonderful texture, rinses clean (though i do double cleanse), and it really deep cleans the pores. My skin looks clear and has been less dry! Will definitely repurchase.",
+   "date": "2026-02-22",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ana",
+   "titre": "Amazing",
+   "texte": "I love this product so much! I use it everyday as an esthetician and love how it removes my makeup seamlessly without clogging my pores or irritating my sensitive eyes. A must buy!",
+   "date": "2026-01-12",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Salsabil",
+   "titre": "Definitely Worth It!",
+   "texte": "I love this! It removes makeup well without making your face feel greasy, and it feels lightweight. Overall, this performs better than the expensive makeup removers I've tried.",
+   "date": "2025-10-30",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Katie",
+   "titre": "So good!",
+   "texte": "I used another cleansing oil before this and it left a thick film that was impossible to wash off without a face towel. This DHC cleansers cleaned so well and washed away the makeup!! Its a great first step for a double cleanse and I will be repurchasing for the foreseeable future!",
+   "date": "2026-01-16",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "With only 9 reviews, coverage of most skin types and concerns (oily, combination, normal, redness, barrier, oiliness, spots) is too thin to draw conclusions."
+}

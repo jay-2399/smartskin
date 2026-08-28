@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2053772",
+ "asin": null,
+ "pid": "pimprod2053772",
+ "source": "ulta",
+ "nom": "ROUND LAB Pine Calming Cica Cleanser",
+ "note": 4.57,
+ "nbAvis": 51,
+ "lus": 48,
+ "collectes": 48,
+ "segments": {
+  "oily": "Reviewers with oily or combo-oily skin generally report effective sebum control and a clean, refreshed feel without dryness, with this cleanser specifically recommended by other reviewers for oily/combination skin.",
+  "dry": "The one reviewer who explicitly identifies as dry-skinned reports the cleanser leaves her face soft, fresh and hydrated with no stripping or irritation, though several unspecified reviewers separately report tightness and dryness.",
+  "combination": "Combination-skin reviewers (including oily T-zone/dry cheek types) are split: several describe good cleansing without stripping and suitability for switching between oily and drier days, while one with combination and sensitive skin reports stripping and new breakouts.",
+  "sensitive": "Sensitive-skin reviewers are divided: multiple describe the cleanser as gentle, calming and non-irritating even with sensitive or reactive skin, but others report increased irritation, dryness, or that it worsened perioral dermatitis and is unsuitable for rosacea/redness-prone sensitive skin."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers report the cleanser leaves skin tight, dry, or stripped shortly after use, sometimes worse than expected for their skin type; against this, many more reviewers, including one with dry skin, report no dryness and a hydrated, comfortable finish afterward.",
+  "redness": "Multiple reviewers say the cleanser calms redness and irritation over time and is part of a routine that keeps redness from returning; one reviewer with rosacea/redness explicitly states it was painful and drying and not suitable for that concern.",
+  "barrier": "One reviewer reports the cleanser worsened her perioral dermatitis and left a filmy residue, while others with reactive or easily irritated skin describe it as calming and non-disruptive to compromised skin.",
+  "blemishes": "Most reviewers who mention acne-prone skin report reduced small pimples, calming of inflamed breakouts, and no new breakouts over time; one reviewer with typically clear skin reports two painful new pimples on her forehead after first use.",
+  "oiliness": "Reviewers with oily and combination-oily skin consistently report effective oil and sebum control, including visible reduction of sebaceous filaments, with no dissent on this point."
+ },
+ "aspects": [
+  {
+   "libelle": "Residue or film after rinsing",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich, dense lather",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Subtle, non-fragrance-heavy scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, economical formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tight, stripped feeling post-wash",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Smooth, creamy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well alongside rest of Pine Cica line",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "sam",
+   "titre": "Had high hopes but was disappointed",
+   "texte": "After reading other reviews, I was really excited to give this a shot especially bc I hear good things about round lab in general. I received this, the patch test went well and had no reaction. I tried it the next day and by the end of the day, I had two painful pimples on my forehead - the one place I rarely if EVER break out. It was also very stripping. Did have a pleasant scent and good lather but that's the only good things aby it Unfortunately returning this cleanser. For reference I have combination skin (oily t zone, dry cheeks) and sensitive skin",
+   "date": "2025-08-20",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Maisyday",
+   "titre": "Oof",
+   "texte": "Recommended for redness. This painful and so drying on my skin. I would have loved this when i was a teen still scrubbing my skin with alcohol pads and stridex. Not for roscea or redness.",
+   "date": "2025-12-20",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Dayna",
+   "titre": "Dried out skin",
+   "texte": "I got this cleanser with the hope it would be a gentle cleanser for acne prone skin. It unfortunately just really dried me out. I'd say my skin errs on the oily side and I'm not sensitive so it was a bit of surprise for me. I would just be aware that it could dry your skin more than you want.",
+   "date": "2026-04-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Terry",
+   "titre": "My favourite cleanser ever",
+   "texte": "My favourite cleanser ever. It doesn't strip my skin but it still cleans very well. It foams up very easily and it smells good (it doesn't have fragrance btw!) My skin feels hydrated afterwards and i noticed it helps with my redness. I recommend especially if you have oily/combo skin. Its very soothing so sensitive skin can also use it, there is salicylic acid in it though. I personally have combo sensitive skin and i had no problems with it",
+   "date": "2023-10-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Daphne",
+   "titre": "A blessing for acne prone skin!",
+   "texte": "If you have skin that is easily irritated, as well as acne prone I highly recommend this cleanser! Cleanses well without drying the skin and doesn't irritate sensitive skin. Although if you do tend to get seasonal allergies from trees and stuff I might be weary just in case of an allergic reaction.",
+   "date": "2023-12-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emily K.",
+   "titre": "nice and calming",
+   "texte": "I used to use a lot of cleansing oil, but I switched to this product due to acne concerns, and it has a calming effect on my small pimples. It's really great. It doesn't leave my skin dry either. There's nothing better for sensitive and acne-prone skin",
+   "date": "2023-07-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Trevor Mangarin",
+   "titre": "Nice and refreshing",
+   "texte": "I have dry skin and this cleanser leaves my face feeling super soft fresh and hydrated. For me it doesn't feel stripping or cause any irritation. I've been really happy with it. This will be my go to!",
+   "date": "2024-07-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

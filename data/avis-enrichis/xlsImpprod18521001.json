@@ -1,0 +1,167 @@
+{
+ "ref": "xlsImpprod18521001",
+ "asin": null,
+ "pid": "xlsImpprod18521001",
+ "source": "ulta",
+ "nom": "Dermalogica BioLumin-C Vitamin C Serum",
+ "note": 4.61,
+ "nbAvis": 3384,
+ "lus": 79,
+ "collectes": 97,
+ "segments": {
+  "oily": "One reviewer with very oily skin says the serum keeps her skin clear with consistent use, and another with combination/mostly-oily skin (humid climate) reports it quickly resolves hormonal breakouts.",
+  "dry": "Several reviewers describe naturally dry or very dry, dull skin and report the serum absorbs quickly, leaves skin smooth and less dry/dull, though one dry-skin reviewer still found it a bit sticky.",
+  "combination": "One reviewer with oily/combination skin found it unremarkable and preferred her regular face wash, while another with combination, mostly oily skin credits it with clearing hormonal breakouts fast.",
+  "sensitive": "Reviewers with sensitive or reactive skin generally report no irritation and good tolerance (including one still monitoring for flare-ups after two weeks), and one used it successfully on a teenager's sensitive skin.",
+  "mature": "Reviewers in their late 30s to 49 report brighter, tighter, more vibrant skin and fewer visible wrinkles with continued use."
+ },
+ "concerns": {
+  "aging": "Mature-skin reviewers (late 30s–49) report brighter, tighter, more vibrant-looking skin and reduced wrinkle appearance with regular use.",
+  "dehydration": "Multiple reviewers with dry or dull skin report improved smoothness, hydration and reduced dullness; one reviewer said skin became dry and dull again when she stopped using it.",
+  "redness": "One reviewer says it cleared up most of the redness on her face; sensitive-skin reviewers report no irritation or increased redness.",
+  "barrier": "Reviewers describe the product as non-irritating and compatible with layering under moisturizer, with no reports of compromised barrier function.",
+  "spots": "Several reviewers report faded dark spots, hyperpigmentation and more even skin tone after weeks of use; one reviewer felt it made no visible difference to her pigmentation and switched to retinol instead.",
+  "blemishes": "Many reviewers, including teenagers and adults with hormonal or cystic acne history, report clearer skin and fewer breakouts within one to three weeks; a few report no strong effect on their skin overall.",
+  "oiliness": "One reviewer with very oily skin says the product keeps her skin clear without added oiliness; no reviewer reports it made oily skin worse."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast absorption, non-sticky texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky residue on skin",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Strong fish-oil smell developing over time",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "No noticeable fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle arrives underfilled or fragile",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to alternatives",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, few drops needed per use",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Kerri",
+   "titre": "Does the job",
+   "texte": "I was desperate for a vitamin C serum that worked on my skin (sensitive and dry) and would help with signs of aging (40 year old). It has brightened my skin over time and helped even my skin tone. My skin does look healthier. However, this wasn't an overnight transformation. It took about 2-3 weeks for the change to be noticeable. It does feel a little sticky on the skin but it absorbs quickly on my dry skin. It doesnt have any smell and layers well with my peptide and moisturizer. The only negative is the price. For now, the results seem to be worth the price but I do think there are some cheaper options out there.",
+   "date": "2025-07-30",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Misti",
+   "titre": "Great for sensitive skin / hyper pigmentation",
+   "texte": "I love this serum. I have naturally dry skin and mature skin. I apply this before my moisturiser and my skin stays so smooth and supple through out the day. I have sensitive skin with hyperpigmentation being fair/red head. My skin tone is noticeably more even since using this daily.",
+   "date": "2025-04-23",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Allie B",
+   "titre": "Wow",
+   "texte": "Wow! Is all I can say! I've been on a quest for the perfect skincare solution to combat my very dry, dull skin, and let me tell you—this serum has truly transformed my complexion. It's amazing how something so lightweight can deliver such fantastic results! I incorporate it into my usual routine as the last step, and the difference is staggering. My skin now feels nourished, glowy, and incredibly healthy. Plus, there's no overpowering scent to distract from its effectiveness. Finding the perfect product for my skincare routine has always been a challenge, especially when it comes to addressing my dry, dull skin. I can honestly say that this serum has completely transformed the way my skin looks and feels. After incorporating it as the final step in my usual regimen, I've noticed a remarkable change! My skin now radiates a natural glow that I didn't think was possible. The best part? It has no overpowering scent, making it so easy to use daily without any irritation. I genuinely can't recommend it enough—grateful for this little gem that has made such a positive impact on my skin journey! Gifted by dermalogica",
+   "date": "2025-02-22",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Jacolackalyn",
+   "titre": "It's o-k",
+   "texte": "I tried this to see if I would like it enough to switch from my super fantastic exuviance face wash. The answer is no. I have to wash my face twice in order to get most of my makeup off. The exuviance, I dont. This stuff is nothing to right home about for my skin. I have oily/combination skin.",
+   "date": "2024-10-16",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "V",
+   "titre": "Fish oil smell",
+   "texte": "I am guving a 2 star only because After 5 days of using this product it did develop a fish oil smell. Its so bad that I don't want to get near anyone. If you are sensitive to smell you will not enjoy this product. However it does add brightness to ypur skin and I love that. Unfortunately had to stop using brcause if the strong smell",
+   "date": "2023-12-28",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maria",
+   "titre": "Clear skin",
+   "texte": "My skin is generally clear but always break out during my cycle due to hormones. This product works sooo fast. I love it. Its my third bottle. Reference: Combination skin, mostlt oily, living in humid FL.",
+   "date": "2025-06-15",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "skincare staple",
+   "titre": "LOVE",
+   "texte": "i love this product! its a staple in my skin care routine. i have very oily skin and it stays so clear when i use this consistently. it does have a light citrusy scent which i find nice",
+   "date": "2026-07-27",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": "Many of the highest-rated reviews are generic praise without stated skin type or concern, and a number of entries in the list describe a cleanser rather than the vitamin C serum, so some extracted patterns may reflect a different product line."
+}

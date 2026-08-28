@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2043343",
+ "asin": null,
+ "pid": "pimprod2043343",
+ "source": "ulta",
+ "nom": "Charlotte Tilbury Charlotte's Magic Eye Cream with Retinol",
+ "note": 3.52,
+ "nbAvis": 23,
+ "lus": 19,
+ "collectes": 19,
+ "segments": {
+  "dry": "Dry-skin reviewers describe this as a strongly hydrating, moisturizing eye cream that fixes dry patches and crepey under-eye skin, though one dry-skin reviewer found it left skin drier than before.",
+  "sensitive": "A reviewer who did not think her skin was sensitive reports burning, tightness, creasing and peeling severe enough to stop use, and another reports the cream causing painful eye-watering if it migrates into the eye."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report visibly fewer or less noticeable fine lines, brighter and plumper-looking under-eyes, and a reduction in puffiness and crepeyness; one reviewer instead saw new wrinkles and increased crepey skin appear after use.",
+  "dehydration": "Several reviewers with dry under-eyes call it the only cream that resolves dry patches and describe long-lasting moisture; conversely, multiple reviewers report the opposite effect, saying it dried out their eyes badly even with a moisturizer underneath.",
+  "redness": "One reviewer describes an eyelid-infection-like appearance with burning after only two applications, distinct from typical irritation reports.",
+  "barrier": "Reports of burning, peeling, and creasing over several days of use suggest barrier irritation for a subset of users, including one who felt this brought on new wrinkles."
+ },
+ "aspects": [
+  {
+   "libelle": "Pilling on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Slimy rather than creamy texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich balm-like hydration",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Burning or stinging sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Long-lasting jar, little product needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Wears well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Nat19",
+   "titre": "Irritating",
+   "texte": "At first application, you could see a difference in tightness. By the second application the next day I looked like I had an eyelid infection (I only put under my eye). I thought maybe allergies got me even though its the end of the season here. It burns so badly and dried my eyes out. I'm on day 5 and its gotten much worse; creasing, peeling, burning and wrinkles that i've never had. I didnt even think I had sensitive skin - but this is insane! I'm done, I need to go heal my skin now",
+   "date": "2025-04-17",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Tm",
+   "titre": "Dried my eyes out",
+   "texte": "I tried this in store and was impressed with the tightening effect. However after purchasing it dried my eyes out so badly even after moisturizing skin prep. Made my eyes crease in new ways I've never seen before...I am returning!",
+   "date": "2025-03-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dee",
+   "titre": "Not sure what others got, but this stuff works",
+   "texte": "I got this as a sample as well & am not sure what people are talking about with it pilling. This stuff is soft, fluffy, thick and fulfilling-like on the skin under my eyes. You're only suppose to dab it and tap tap tap - not rub it in like a lotion. If you do that with most products meant for sensitive areas like under the eyes, it will most definitely break down. But, i woke up and under my eyes were so bright, so soft & fine lines were GONE. When I wash my face, i use the Tula face wash, the Thayer's face wipes for toner & then this eye cream, serum and then moisturizer. Face hasn't looked better! So, as for ME, this product is amazing. Even my husband complimented me on how much of a difference it made. So, sample try it for yourself first or just buy it. As for the texture, it's thick and does it's job as far as moisturizing. Buy it!",
+   "date": "2025-01-25",
+   "verifie": false,
+   "utiles": 20,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "RR",
+   "titre": "Luxurious",
+   "texte": "This cream feels so lux and very moisturizing. Looks great under makeup as long as you give it a little time to dry. Would highly recommend to my dry skin girlies.",
+   "date": "2025-08-21",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brittany",
+   "titre": "Only thing that worked on my dry eyelids",
+   "texte": "I have tried numerous eye creams to help with the dry patches I get on my eyelids during the winter months. I got this in a trial size and haven't bought anything since. I have also noticed my under eyes looking more \"full\" as well as less pigmentation and a reduction in fine lines. PLUS it lasts forever; I'm going on month 7 of the same jar and I use this product day and night.",
+   "date": "2025-11-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Danielle",
+   "titre": "💕a very good eye cream!",
+   "texte": "Been using this eye cream for years with excellent results for my extremely dry under eye area. I have tried a few others at times, as is sometimes recommended, but this provides the best moisture for me along with the other anti aging ingredient benefits.",
+   "date": "2026-03-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Susan",
+   "titre": "JUST DONT, FOR THE PRICE, NOPE",
+   "texte": "I dont understand where all the rave reviews are coming from. I bought literally, the whole line, make up and skin care. It's a lie. For the price of these items, you expect so much more. My skin, not plump, if anything drier. Look at the ingredients. Its harsh.",
+   "date": "2024-03-02",
+   "verifie": false,
+   "utiles": 31,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

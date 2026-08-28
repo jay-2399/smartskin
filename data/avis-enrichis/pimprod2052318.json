@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2052318",
+ "asin": null,
+ "pid": "pimprod2052318",
+ "source": "ulta",
+ "nom": "ROUND LAB Birch Juice Moisturizing UVLOCK Sun Stick SPF 50",
+ "note": 4.74,
+ "nbAvis": 106,
+ "lus": 80,
+ "collectes": 88,
+ "segments": {
+  "oily": "Reviewers with oily skin are split: several find it too greasy or shiny for their liking and would not recommend it, while others say it leaves their oily skin hydrated without the oiliness and it works great for their skin type.",
+  "dry": "Reviewers with dry skin report the product finally feels moisturizing enough to replace their usual cream sunscreen, though one reviewer with hormonally drier skin at the time felt it was less moisturizing than the name promised.",
+  "combination": "Combination skin reviewers report mixed results, from a very oily finish they wouldn't recommend to a case of deep pimples that led one reviewer to stop using it on her face.",
+  "sensitive": "Reviewers with sensitive skin say it is one of the few sunscreens that doesn't break them out and that it has helped their skin barrier."
+ },
+ "concerns": {
+  "spots": "Several reviewers report new breakouts, including deep or cystic pimples, sometimes appearing on the third day of use; others explicitly say it does not break them out like drugstore brands, so the reports are mixed.",
+  "blemishes": "One reviewer states the product broke her out badly enough to stop recommending it, and another reports repeated breakouts despite liking the product otherwise; several other reviewers report no breakouts at all.",
+  "oiliness": "Reports are divided: some reviewers, especially those describing oily or combination skin, find it leaves a greasy or shiny finish, while many others describe it as non-greasy, light, and leaving skin feeling protected without oiliness.",
+  "dehydration": "Reviewers report the product keeps skin moisturized throughout the day, describing it as hydrating and comparable to wearing a light moisturizer, with one dissenting reviewer feeling it was not as moisturizing as expected during a drier period.",
+  "barrier": "One reviewer with sensitive skin credits it with helping her skin barrier."
+ },
+ "aspects": [
+  {
+   "libelle": "Smooth, easy glide application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy or oily finish",
+   "polarite": "neg",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Convenient for travel and reapplication",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling sensation on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stick is smaller than expected for price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Transfers or sits poorly over makeup",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Esmeilyn Vargas",
+   "titre": "Noooo not good",
+   "texte": "This one made me breakout a lot on the third day of using it. Before, i bought the regular one but because it was sold out i decided to try this one but it's so bad i don't recommend it at all!!",
+   "date": "2024-02-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Kelly",
+   "titre": "Immediately broke me out",
+   "texte": "I wore this on a clean face with my regualr skincare and a few hours later I had some deep pimples which I never usually get. I use this on my neck now but keep it off of my face. Combo skin",
+   "date": "2023-10-11",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kerissa Lashley",
+   "titre": "Easy to carry",
+   "texte": "Portable and glides on easily on the skin. Wouldn't quite recommend for oily / combination skin because it leaves a very oily finish.",
+   "date": "2023-11-03",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "katie",
+   "titre": "Easy to apply - not as moisturizing as I expected",
+   "texte": "Pros - very easy to apply, nice almost primer-like finish, easy to take on the go/to beach/airplane etc, applies decently over makeup, minimal scent, good price. However, since this is literally called \"Moisturizing sun stick\" and mentions a dewy finish, I really thought it would be, well, more moisturizing haha. It's not awful, don't get me wrong, and it would probably be really great for someone with oily skin, but I didn't perceive any moisturizing factor from this. Of course, that wasn't the primary reason I purchased it - this will absolutely be what I use for touch ups and to take the beach. I live in SW Florida and have been needing an easy touch-up sunscreen. I think my skin is a bit drier at the moment from hormones (am breastfeeding) and also because it's our dry season down here but still. I usually skip moisturizer in the morning and I actually felt like I had to use some with this. the finish reminds me more of a primer than a sunscreen - its VERY similar in feeling to the Pore-fessional prime by Benefit. Just smooth and semi-matte. It layers decently under makeup but I don't usually wear more than a tiny dab of concealer so I can't speak to whether or not this would sit nicely under a full face. All in all - I love Korean sunscreens and I will probably buy this again because like I said, it works well as an spf, especially for touch ups",
+   "date": "2026-02-11",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Analise Passkiewicz",
+   "titre": "LOVE this sunscreen",
+   "texte": "I love this sunscreen so much I usually buy 3-4 at a time. I wear it daily and it doesn't break out my sensitive skin. You can glide it over makeup on directly on skin for makeup free days. PLEASE never discontinue this product.",
+   "date": "2025-07-16",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Olivier",
+   "titre": "5-Star Review",
+   "texte": "My favorite sunscreen ever! Doesn't leave skin oily and my skin absorbs it really well, leaves me moisturized all day without an issue and it's been helping my skin barrier a lot",
+   "date": "2023-12-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary",
+   "titre": "very moisturizing",
+   "texte": "Love, love, love this sunscreen. It is so easy and convenient to put on. Definitely a great moisturizer as well. Leaves no white cast at all. I ended up buying two more. On the order hand, my friend who has oily skin did not love this sunscreen because her skin felt very oily over an hour so I wouldn't necessarily recommend it for oily skin.",
+   "date": "2023-08-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

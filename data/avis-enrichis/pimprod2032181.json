@@ -1,0 +1,161 @@
+{
+ "ref": "pimprod2032181",
+ "asin": null,
+ "pid": "pimprod2032181",
+ "source": "ulta",
+ "nom": "fresh Rose Deep Hydration Sleeping Mask",
+ "note": 4.56,
+ "nbAvis": 2945,
+ "lus": 73,
+ "collectes": 119,
+ "segments": {
+  "dry": "Reviewers with dry, flaky, or dehydrated skin (including winter dry patches around nose and chin) report the mask restores softness and clears dry patches within about a week of nightly use.",
+  "sensitive": "Reviewers describing sensitive skin, including one with medication-induced rosacea, report no irritation or breakouts and generally good tolerance, though the strong rose/pickle-like scent bothers some.",
+  "combination": "One reviewer with combination, acne-prone (PCOS) skin reports the mask kept her skin dewy, plumped, and helped keep acne at bay without new breakouts.",
+  "oily": "One reviewer notes a history of an oily T-zone but does not report the mask causing excess oil or breakouts on those areas."
+ },
+ "concerns": {
+  "dehydration": "Numerous reviewers across skin types describe visibly plumped, dewy, hydrated skin the morning after use, with several calling it the most hydrating overnight mask they have tried; one reviewer with med-induced rosacea and severe dryness/irritation reports a full turnaround after a single use.",
+  "barrier": "One reviewer sought the mask specifically to soothe and replenish a compromised moisture barrier and reports success; no barrier-related complaints appear elsewhere.",
+  "redness": "One reviewer reports the mask reduced redness and soothed her skin, and another reports it improved dry redness within under a week; no reviewer reports increased redness.",
+  "spots": "One reviewer with dry, flaky patches around the nose and chin reports they cleared within a week of nightly use combined with another mask; no dissent on this point.",
+  "blemishes": "One acne-prone reviewer with PCOS reports her acne has been kept at bay since adding the mask to her routine; no other reviewer discusses acne or breakouts directly, though one dismisses reports of pilling as user error rather than a breakout issue.",
+  "aging": "A small number of reviewers mention using the mask as part of an anti-aging or mature-skin routine (e.g., plumping, ear-area firmness) and report visible plumping, but no reviewer reports it failing to address signs of aging.",
+  "oiliness": "One reviewer notes her skin used to have an oily T-zone but does not report oiliness with this product; another reviewer states the cream is hydrating without feeling greasy or clogging."
+ },
+ "aspects": [
+  {
+   "libelle": "Half-filled or underfilled jars",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong rose or pickle-like scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pleasant rose fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Two-step gel-then-cream process is fussy",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Split lid hard to open",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Gel runs out faster than cream",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Kellll",
+   "titre": "Good for dry skin, be aware it's only half full",
+   "texte": "I got this product cause my skin has been dry and all over the place. So far I love it the only down side is it comes half full. Both sides aren't filled to the top and for the price this shouldn't be the case. The product is great but it's hard to justify the price when there is such little product in the full size jar",
+   "date": "2022-11-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "DimplesRD43",
+   "titre": "Great for sensitive dry skin",
+   "texte": "I use this when my skin is feeling extra dry. It helps to restore moisture to my skin. I have sensitive skin and have had no issues.",
+   "date": "2022-11-07",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "They call me Auntie Beef",
+   "titre": "Color me Rose and Grateful",
+   "texte": "I chose this trial size mask with the points I had accumulated at a well known beauty supply store. Knowing how well my skin reacts to products with rose and having read reviews on the Fresh line, I was excited and hopeful this dual mask would give me the overnight results I was looking for. I'm acne prone (PCOS), and have combination skin that I'm trying to navigate as it changes with age and hormones. The gel that goes on first feels so good as it's like a cooling sensation that really soaks into my skin, but not too fast. And just before it's done soaking in I apply the cream. You don't need much to cover your whole face & neck. Immediately I have a dewy glowy but what's impressive is how in the morning I can see how much difference my skin looks especially when I compare to other lotions or overnight masks I've tried. From my under eye area to my ears (I'm always looking for something that will plump up my ears and while it sounds weird to some, ears are very telling and you can tell when someone skips treating that skin! Lol) and it moisturizes all of it so well that I just need to spray on my Rose toner (another amazing product that I'm obsessed with) and I keep mine in the fridge for an added cooling and added anti inflammatory effect. My acne has been kept at bay since I found these and added them to my regimen, my skin continues to improve and I'm even going makeup free which is huge for me. I never believe the claims that most products say they will give, but these ",
+   "date": "2022-06-18",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "La La",
+   "titre": "Super moisturizing! Smells great!",
+   "texte": "I got a sample of Fresh's hydrating mask that was amazing so, I decided to try the nighttime sleeping mask. I was in need of super moisturizing mask to soothe and replenish my skins moisture barrier. I'm not crazy about it being a two-step (gel and then cream) but totally worth it. Reduces redness and skins feels soft and supple.",
+   "date": "2022-07-14",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alek",
+   "titre": "Worth it",
+   "texte": "This is great from the moment you apply it you can instantly feel your skin hydrated. It improved the dry redness on my face in less then a week after using it.",
+   "date": "2022-08-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "bigbapanda",
+   "titre": "Truly hydrates!",
+   "texte": "My skin has changed so much over the last 2 years. I always had mostly an oily t-zone and chin growing up. I've been on medications for a few years now that have ultimately led me to have rosacea and some VERY dry patches. (I want to point out that I have med-induced rosacea which is not typical; I know some people with rosacea 1 or 2 might not be able to use this product). This mask is truly hydrating. It makes my skin feel soft and supple whenever I use it. I actually just ran out and I'm going to place an order for another. It's a product I don't want to be without!",
+   "date": "2022-10-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Juno",
+   "titre": "Dishonest Company, Defective Product",
+   "texte": "Defective product. I received the product today and discovered that it was only half filled. I see in the comment section that this is quite a common defect. This is extremely dishonest of Fresh to do something like this to the customers. I would like a full refund or at least send me a jar that is fully filled with the product. We paid for a full jar of products, not just half a jar!",
+   "date": "2024-11-15",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

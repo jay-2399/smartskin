@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2032832",
+ "asin": null,
+ "pid": "pimprod2032832",
+ "source": "ulta",
+ "nom": "Black Girl Sunscreen Make It Glow Continuous Spray SPF30",
+ "note": 4.44,
+ "nbAvis": 238,
+ "lus": 79,
+ "collectes": 94,
+ "segments": {
+  "oily": "Oily-skin reviewers say the product must be rubbed in rather than left on top or it sits dewy on the skin, and one reports it leaves her noticeably less oily by afternoon than bare skin, though another notes buildup of oil around the eyelids.",
+  "sensitive": "Sensitive-skin reviewers are split: several report burning, stinging, rash or bumps on contact (some describing it as an emergency to wash off), while two others with sensitive or acne-prone skin say it caused no breakouts and worked well.",
+  "mature": "One mature-skin reviewer reports she reorders it yearly for the glow it gives her skin.",
+  "combination": "No distinct combination-skin reports; oily-around-eyes and dry-elsewhere patterns are described but not labeled as combination skin.",
+  "normal": "No reviewer specifically identifies normal skin."
+ },
+ "concerns": {
+  "aging": "One reviewer approaching menopause credits regular use with an improvement in hormonal acne and being able to stop an oral prescription; no other aging-specific comments are present.",
+  "dehydration": "One reviewer says it makes skin feel soft and hydrated, and another says it moisturizes without caking; no dissent reported.",
+  "redness": "Not addressed directly by reviewers beyond general irritation/rash comments already covered under sensitivity and barrier.",
+  "barrier": "Multiple reviewers with sensitive skin report burning, stinging around the eyes, rash, or small bumps after facial application, sometimes lasting days; others with sensitive or eczema-prone skin report no irritation and even improvement, so reactions are inconsistent.",
+  "spots": "One reviewer managing hormonal acne reports her breakouts improved after switching to daily use; one acne-prone reviewer reports no new breakouts despite worsening sleep and water habits.",
+  "blemishes": "Same acne-prone reviewer above reports continued improvement in acne-prone, sensitive skin while using it daily; no other blemish-specific reports.",
+  "oiliness": "One reviewer describes it as very greasy, sitting on top of skin like oil, and another says it leaves oily buildup around the eyelids; several others describe it as non-greasy and mattifying oiliness by afternoon, so experiences diverge sharply."
+ },
+ "aspects": [
+  {
+   "libelle": "No white cast on darker skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong alcohol or aerosol scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Stings or burns eyes on face",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Greasy or oily residue after application",
+   "polarite": "neg",
+   "concerne": [
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Dewy glow finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can empties quickly for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Nozzle or lock mechanism malfunctions",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Amber",
+   "titre": "Love BGS! Hate this sunscreen",
+   "texte": "The spray is not fine enough to spray on your face without rubbing it in. Also has a very strong alcohol scent. If you have sensitive skin, do not buy! It gave me small little bumps all over my face that I'm still recovering from 4 days later",
+   "date": "2023-03-15",
+   "verifie": true,
+   "utiles": 32,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Kimmy H",
+   "titre": "Sensitive skin warning",
+   "texte": "Stay away from this product if you have sensitive skin. I used this and it almost ruined my trip. I broke out in a rash wherever this product touched my skin. I trashed it immediately.",
+   "date": "2023-02-06",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Plain Jane",
+   "titre": "sensitive skin success",
+   "texte": "sensitive skin, prone to break outs with lots of new products. this sunscreen was great!",
+   "date": "2024-07-06",
+   "verifie": false,
+   "utiles": 27,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brittani",
+   "titre": "Makes a huge difference in oily skin",
+   "texte": "I bought this just to use to go to the beach, but the next morning my skin looked so good. I started using it daily as part of my morning routine and I get compliments all the time about my skin. I saw someone didn't like that you couldn't spray directly to the face but honestly as an oily skin girl, it really should be rubbed into the skin, otherwise it just sits on top very dewy. I am at work at 7 and normally oily by 1 but since using this, I have a nice glow but significantly less oily than I am bare faced. I also don't wear makeup to work, drink lots of water, and barely get 6 hours sleep. So I promise you it really is the sunscreen because my habits have gotten worst but my face is still improving from being acne prone and very sensitive. They make a version specifically for face I want to try.",
+   "date": "2023-12-06",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kenya G.",
+   "titre": "Works great on my skin",
+   "texte": "Works great on my skin as I was recently diagnosed with severe eczema. Really love this product!",
+   "date": "2023-02-23",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rhonda",
+   "titre": "Skin Reversal",
+   "texte": "I began ordering BGS for vacationing in the islands and for my daughter who is a true Piscean/Water lover. Approaching menopause, I started taking an oral Rx for hormonal acne about 2ys ago- until recently. I had lapsed in my acne med refills and oddly enough, I learned my daughter was wearing BGS30 and GLOWING on a daily basis. I tried it (off vacation) and my skin has been GORGEOUS ever since. Guess what? No Rx in almost 45 days now. Thank you!!!",
+   "date": "2023-12-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LA D.",
+   "titre": "LET IT GLOW",
+   "texte": "love the glow that this gives my mature skin. I order one every year!",
+   "date": "2026-04-01",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

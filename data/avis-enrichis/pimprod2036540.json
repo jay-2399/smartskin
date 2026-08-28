@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2036540",
+ "asin": null,
+ "pid": "pimprod2036540",
+ "source": "ulta",
+ "nom": "Avène Hyaluron Activ B3 Concentrated Plumping Serum",
+ "note": 4.29,
+ "nbAvis": 77,
+ "lus": 66,
+ "collectes": 66,
+ "segments": {
+  "dry": "Reviewers with dry skin report hydration, softness, and no dryness or flaking, and one notes it helped clear minor breakouts tied to dryness.",
+  "sensitive": "Sensitive-skin reviewers are split sharply: several describe rashes, stinging, or contact dermatitis (some explicitly warning others with sensitive skin to avoid it), while others with sensitive, rosacea-prone, or reactive skin report no irritation, no burning, and a calming, plumping effect.",
+  "combination": "Combination-skin reviewers report the serum absorbs quickly, keeps skin hydrated longer without triggering breakouts, and addresses fine lines, wrinkles, and discoloration.",
+  "mature": "Mature-skin reviewers report visibly plumper, firmer, more youthful-looking skin and reduced appearance of fine lines and creases over one to several weeks."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report reduced appearance of fine lines, smile lines, and wrinkles, with firmer and plumper-looking skin over one to several weeks; one long-term user with aging, dry skin calls it a favorite for wrinkled, aging skin.",
+  "dehydration": "Most reviewers describe an immediate hydrating and plumping effect, sometimes lasting through winter dryness; one reviewer, however, felt her skin was not left soft or plumped and was disappointed.",
+  "redness": "Reviewers with rosacea or reactive redness report no burning, no stinging, and reduced redness/flaking, but this contrasts with reports of rash and contact dermatitis on the cheekbones and under-eye area from other users.",
+  "barrier": "One reviewer with dry, sensitive skin says it soothed dryness-related breakouts and calmed her skin; another switching from a Biossance reaction found it gentle enough to rebuild a basic routine.",
+  "spots": "One reviewer reports it brightened hyperpigmentation from acne scars; no dissent reported.",
+  "blemishes": "One reviewer with acne scars reports improvement in skin looking less dull and flat; another notes no new breakouts despite dry, breakout-prone skin, though this is limited testimony.",
+  "oiliness": "No reviewer specifically discusses oil control or oily skin outcomes."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast absorption, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky or residue-like feel",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula reassures users",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Unexpected fragrance and irritation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Rash or contact dermatitis on cheeks/eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value versus prestige brands",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small drop goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "jacquée",
+   "titre": "not for sensitive skin!",
+   "texte": "I was excited to try this product, because I like a couple of other items from this brand for my super sensitive skin. But I found this to sting upon application. And my eyes stung & teared throughout the day after using it.",
+   "date": "2023-06-05",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "TKMarshall",
+   "titre": "MUST HAVE!",
+   "texte": "I am 46 years old and have maturing , sensitive skin. After much research and a recommendation from my dermatologist I discovered this holy grail product. I have repurchased this twice now and it will always be a staple in my skin care routine. It contains both hyaluronic acid AND niacinamide in one simple step. It is fragrance free and very gentle. Skin feels immediately hydrated and noticeably more plump. Times when I have been sick and didnt use this twice daily, there was a significant difference in my skin. It starts off your whole skin care routine right and makes everything after (should you choose to wear makeup) on the best possible path. I recommend this to all my friends & family and they have all loved it as much as I do! You cannot go wrong with this product.",
+   "date": "2025-03-15",
+   "verifie": false,
+   "utiles": 22,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rachel",
+   "titre": "Hydrating with minimal ingredients!",
+   "texte": "Really liking this serum! I have normal/dry sensitive skin and was looking for something impactful but with minimal ingredients. My skin has been very dry lately leading to minor breakouts. This has cleared and soothed my skin. It absorbs quickly and two drops go a long way. A bit pricy for not being prestige but Avene products seem to work well for me.",
+   "date": "2023-03-14",
+   "verifie": true,
+   "utiles": 16,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tabby Cat",
+   "titre": "Perfect for my rosacea",
+   "texte": "I have mild acne rosacea. I love using this immediately after washing my face, with my face still wet. This does not burn and it just feels nice.",
+   "date": "2023-12-23",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "ID",
+   "titre": "The Perfect Serum",
+   "texte": "100% hands down a favorite. This is fantastic for those with combo skin because it addresses it all: fine lines, wrinkles, dry, discoloration & problematic skin . Does not irritate. Highly recommend to use after a shower or by misting face with water",
+   "date": "2023-07-24",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stacy",
+   "titre": "Disappointing",
+   "texte": "I tried this serum twice and realized its behind the rash ive been getting on my cheekbones. Such a shame because it feels great going on. If you have sensitive skin i would definitely pass on it.",
+   "date": "2024-11-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "AKinCA",
+   "titre": "Perfect for sensitive, dry skin",
+   "texte": "Absolutely love it. I have been using once a day, in the mornings, before moisturizer and sunscreen. I noticed a plumping and hydrating effect right away, and over a month, I've been an improvement in skin texture and softness, and help with fine lines and wrinkles. Amazing product. Love that it's fragrance free!",
+   "date": "2024-04-07",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

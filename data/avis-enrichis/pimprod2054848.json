@@ -1,0 +1,135 @@
+{
+ "ref": "pimprod2054848",
+ "asin": null,
+ "pid": "pimprod2054848",
+ "source": "ulta",
+ "nom": "Knours. PDRN Rice & Green Tea Clarifying Toner",
+ "note": 4.9,
+ "nbAvis": 10,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin report the toner calms redness, maintains hydration, and does not strip or tighten the skin.",
+  "mature": "One reviewer in her late 30s describes it as a good clarifying step paired with a moisturizer, without mentioning irritation or dryness."
+ },
+ "concerns": {
+  "dehydration": "Multiple reviewers describe the toner as hydrating and moisturizing despite a light feel, with hydration reportedly lasting hours; no reviewer reports dryness after use.",
+  "redness": "One reviewer with sensitive skin reports it helps calm redness while keeping skin hydrated and smooth."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich yet fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight feel with lasting hydration",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Silky, soft finish after application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Non-stripping, non-tight after cleansing",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Bottle size too small",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Monika",
+   "titre": "Gentle Glow for Sensitive Skin",
+   "texte": "The formula feels gentle yet effective, perfect for sensitive skin. It helps to calm redness, maintain hydration, and leave my skin smooth. My face feels clean but never stripped or tight.",
+   "date": "2025-09-29",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "YS",
+   "titre": "So light and hydrating",
+   "texte": "This toner feels really light, but it's very hydrating! I love the texture and how it makes my skin feel soft and smooth after use. I follow up with the serum from this line and these are both perfect for my sensitive skin!",
+   "date": "2025-09-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chloe",
+   "titre": "Soft and Clean Toner",
+   "texte": "This toner is so gentle and absorbed very quickly into my skin. By the next morning, my skin was glowing! At first, I thought it felt light, but it turned out to be surprisingly moisturizing—I could still feel the hydration hours later. One small thing I'd like to mention: the bottle is a bit small… Could you please make a larger size? I'd definitely buy it!",
+   "date": "2025-09-24",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jina",
+   "titre": "Love at First Swipe",
+   "texte": "As someone who has been using clarifying toners since I was 15 years old and now in my late 30s, I was always hoping Knours would release one so I could pair it with the One Perfect Moisturizer. And now that they have, I could not be happier! I use this with the Phyto Mucin moisturizer, and I love the pairing so much. After cleansing my skin, I dab this onto a cotton pad and swipe the pad over my face, and I can just feel the toner cleaning up whatever the cleanser left out. My skin feels refreshed and ready to take on moisturizer.",
+   "date": "2025-09-26",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Sue",
+   "titre": "Leaves skin super soft and supple!",
+   "texte": "This toner has a slight richness to its texture, and once applied, it melts into the skin with a silky finish, leaving it soft and supple. I love that its fragrance-free and provides the perfect base for the next steps in my skincare routine.",
+   "date": "2025-09-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "faith-p",
+   "titre": "Feel so good!",
+   "texte": "Cleans so well and still leaves my skin comfortable, without drying out my skin!",
+   "date": "2025-09-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "Only 10 reviews are available, all rated 4/5 or 5/5, so segment and concern coverage beyond sensitive skin and hydration is thin."
+}

@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2003121",
+ "asin": null,
+ "pid": "pimprod2003121",
+ "source": "ulta",
+ "nom": "Dermalogica Intensive Moisture Cleanser",
+ "note": 4.56,
+ "nbAvis": 1989,
+ "lus": 78,
+ "collectes": 103,
+ "segments": {
+  "oily": "One reviewer with an oily T-zone and one with combination-oily skin report the product cuts oil and leaves skin clean without stripping it.",
+  "dry": "Several reviewers with dry skin report it cleanses without tightness or dryness, though one reviewer with normal/dry skin found it too harsh and hard to rinse off.",
+  "combination": "Combination-skin reviewers, including one prone to oiliness in summer, report it purifies and controls oil while still feeling gentle.",
+  "sensitive": "Most self-identified sensitive-skin reviewers report no irritation, redness or breakouts even with daily use, but a minority describe burning, eye stinging or irritation from the same product.",
+  "mature": "Reviewers with mature or aging skin report smoother texture, softened fine lines, and one describes it as especially good for mature skin.",
+  "normal": "One reviewer with normal/dry skin found it harsh and difficult to rinse off despite normal skin."
+ },
+ "concerns": {
+  "aging": "Reviewers using it for aging or mature skin report smoothed fine lines and improved skin texture over time.",
+  "dehydration": "Multiple reviewers report it does not dry out skin and even feels moisturizing; one dry-skin reviewer says it resolved recurring dry patches.",
+  "redness": "Several reviewers report no redness or irritation despite sensitive skin, but a few describe burning, swelling, or irritation immediately after use.",
+  "barrier": "One reviewer reports the product improved her skin's barrier; no dissent noted.",
+  "spots": "Reviewers troubled by blackheads and clogged pores report visibly clearer pores and fewer blackheads, generally within one to two uses.",
+  "blemishes": "Several reviewers report reduced breakouts and blemishes with regular use; one reviewer experienced a temporary purge of pimples before improvement, and another reports stress and post-menopausal breakouts resolved.",
+  "oiliness": "Reviewers with oily or combination-oily skin report the product removes excess oil and purifies skin, with no reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong spicy or chili-like scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Creamy, smooth texture on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and smooth after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging sensation on use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Fine milled exfoliating granules",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price justified by longevity of bottle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent turns rancid over time",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "MM",
+   "titre": "Burned my face be careful!",
+   "texte": "I was excited for this. I tried it for the first time today in the shower. I used as directed, and started rubbing it into my face. I felt tingles, then omg! The burning was so I tense I couldn't rinse it off fast enough. Now I'm left with actual burns. I may go have my face checked out.",
+   "date": "2024-05-03",
+   "verifie": false,
+   "utiles": 30,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Trish",
+   "titre": "Patch test first",
+   "texte": "This burned my eyes, one them a little swollen. It smells spicy like peppers. I also found it difficult to wash off compared to others. Im sure it does its job of cleaning, but i found it to be way to harsh for personally. I have normal/dry skin.",
+   "date": "2024-08-18",
+   "verifie": false,
+   "utiles": 24,
+   "peau": "normal",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "NK",
+   "titre": "Creamy",
+   "texte": "Nice basic cleanser that I used for years with good results. I switched looking for something that also removed makeup a little better, but would recommend this for sensitive/dry skin. Great for morning cleansing and not drying at all.",
+   "date": "2023-09-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bri",
+   "titre": "Your Skin Will Squeak",
+   "texte": "I first tried Dermalogica's Daily Superfoliant when I got it as part of a promotion Ulta was running a few years back. When I recently decided to overhaul my self-care routine, I remembered how amazing this stuff made my face feel and grabbed a bottle. I have no idea how I managed to go several years without it after my initial try, but being reunited with this Holy Grail truly feels SO good! I can almost literally feel my skin breathe after using this product. Two uses is all it took for my pores to look visibly cleaner -- and I have a serious problem with visible pores on my nose. I did have a few pimples pop up immediately after the second use, but nothing close to a breakout and the rest of my care routine took care of them. Since they were in some of my more notorious problem spots, I suspect this is a result of the detox ingredients drawing the nasties out to the surface of my skin, which is what it's designed to do. Like the headline says: this stuff will make your face so smooth and clean it will literally squeak. I have never experienced that from another skin care product. It's honestly a little scary... but SO satisfying! Genuinely powerful stuff. I can confirm that back when I got the initial sample, the gal doing the demonstration did mention that it can be too harsh for those with sensitive skin. She recommended using the Superfoliant once per week and the Microfoliant daily. I have a combination skin type that loves to cake itself in oil, dirt, and dead skin th",
+   "date": "2026-07-06",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marnie",
+   "titre": "Been using for years!",
+   "texte": "This is a great clean product. I have been using it for years. I have sensitive skin and this does not cause irritation, redness or breakouts.",
+   "date": "2025-05-29",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ronnie",
+   "titre": "Even better than the microfoliant!",
+   "texte": "I'd been using the daily microfoliant for years and one day, when I was getting a facial, my aesthetician recommended this. I couldn't believe they could improve on an already terrific product but I'm a convert! This product is amazing! Especially on mature skin. And it's gentle enough on my sensitive skin that I can use it daily",
+   "date": "2023-09-11",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "shonda",
+   "titre": "Great product !",
+   "texte": "I've been using microfoliant but decided to give the superfoliant a try after reading all the great reviews. I have acne prone skin but before using this product I had no acne thanks to my Dermalogica routine. The first few day I broke out around my jawline but I figure it's the product bringing out acne that was sitting underneath my skin but not noticeable to the eyes. I told myself if after two weeks I continue to breakout I will stop using superfoliant and go back to microfoliant. Less than a week my acne started to dry up and disappear also my skin has brightened and my skin texture is nice and soft. I will continue to use this product until its finish which will be a while I have the big bottle and a little goes a long way.",
+   "date": "2023-11-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

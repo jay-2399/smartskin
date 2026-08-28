@@ -1,0 +1,169 @@
+{
+ "ref": "xlsImpprod18731125",
+ "asin": null,
+ "pid": "xlsImpprod18731125",
+ "source": "ulta",
+ "nom": "ELEMIS Pro-Collagen Marine Cream",
+ "note": 4.72,
+ "nbAvis": 3328,
+ "lus": 78,
+ "collectes": 123,
+ "segments": {
+  "oily": "One reviewer with oily, acne-prone skin found the texture lightweight and balancing with no breakouts, and another combination-skin reviewer said it kept her T-zone from feeling greasy.",
+  "dry": "Multiple reviewers with dry or very dry skin call it a holy-grail hydrator that reduces flaking, softens texture, and preps skin for makeup without greasiness.",
+  "combination": "Combination-skin reviewers repeatedly say it balances a drier cheek area with an oilier T-zone, absorbs quickly, and sits well under makeup without pilling, though one found it too thick and pilling under makeup.",
+  "sensitive": "Sensitive-skin reviewers generally report no irritation or breakouts and good hydration, but several separately warn the fragrance is strong enough to bother scent-sensitive users.",
+  "mature": "Mature or aging-skin reviewers report firmer, plumper skin and softer fine lines with regular use, describing it as one of the few day creams that works for their anti-aging routine."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visibly softer fine lines, more firmness and plumpness within one to several weeks; a couple note lines are 'less noticeable' rather than gone.",
+  "dehydration": "The overwhelming majority describe strong, lasting hydration and a plumper, smoother feel; one reviewer felt it was too thick/heavy for her combination skin at times.",
+  "redness": "One combination-skin reviewer noted her skin looked less red and more even after a week of use.",
+  "barrier": "Reviewers describe skin feeling replenished, soft and less flaky, though this is inferred from hydration comments rather than explicit barrier language.",
+  "spots": "Not discussed by reviewers.",
+  "blemishes": "Several reviewers with acne-prone or combination-acne-prone skin report no new breakouts; no reviewer describes worsened acne or cystic breakouts from this product.",
+  "oiliness": "Oily and combination-skin reviewers describe it as lightweight and non-greasy, saying it doesn't make the T-zone shinier or oilier."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong fragrance divides users",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Rich but fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sits well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy, lightweight finish",
+   "polarite": "pos",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Pilling under makeup for some",
+   "polarite": "neg",
+   "concerne": [
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Long-lasting jar, little product needed",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Chloe",
+   "titre": "So hydrating!",
+   "texte": "I have very dry and sensitive skin and this cream has really helped improve my texture. My skin is a lot less flaky, it feels smooth and hydrated. I really love how my skin feels with this, it absorbs nicely and doesn't feel greasy. It does have a overpowering scent if you're sensitive to scents.",
+   "date": "2025-07-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Nai",
+   "titre": "Not for me right now",
+   "texte": "I've tried this moisturizer before and actually liked it better in the winter when my skin needed more hydration. Right now, it just feels a bit too thick for my combo skin and doesn't sit well under makeup. It pills no matter how I apply it, which makes it hard to use during the day. Might still work for others, but it's not the right fit for me at the moment. Complimentary from elemis",
+   "date": "2025-07-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yana",
+   "titre": "My top choice",
+   "texte": "Love this moisturizer! The silky, lightweight texture feels amazing and absorbs quickly with no greasiness or stickiness. The scent is heavenly, and it leaves my skin soft, smooth, and perfectly balanced. It works beautifully for my combination, acne-prone skin - no breakouts, just healthy, hydrated skin. I received this moisturizer complimentary from Elemis in exchange for my review, but I've actually been using it for a couple of years and genuinely love how well it keeps my skin looking and feeling healthy.",
+   "date": "2025-07-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hanna",
+   "titre": "Good for my oily acne prone skin",
+   "texte": "The cream has a very lightweight texture. It feels soft and light on my oily skin. I like how it balances hydration and lightweight so well. I have acne prone skin with sensitive cheeks. After using this cream for more than one week, my skin looks healthy without even one tiny breakouts. Gifted by Elemis.",
+   "date": "2025-07-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alexis",
+   "titre": "Hydrating",
+   "texte": "I have extremely dry skin and this moisturizer has been my holy grail. It absorbs into the skin and leaves my skin feeling hydrated and replenished. It doesn't leave my skin feeling greasy or looking oily. It also doesn't break out my sensitive acne prone skin. Would highly reccomend this moisturizer! Complimentary from elemis",
+   "date": "2025-07-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah",
+   "titre": "Radiant and soft skin!",
+   "texte": "This is the perfect day cream for perfecting my anti aging routine! I am starting while I am still young and I want to use the best of the best so Elemis popped up for me and I knew I had to try it. It left my skin deeply hydrated all day as well as giving it a nice plump and smooth appearance! I love how rich but lightweight the cream is because I have combination skin which leaves me extra dry in some areas and oily in my t-zone and I found that it worked wonderfully on both areas. It's not greasy whatsoever and I actually look forward to having this on my skin now because it feels so soothing!",
+   "date": "2025-07-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary S",
+   "titre": "Great product for mature skin",
+   "texte": "Not too heavy or too light, smells nice and my skin looks and feels amazing! Pricey but the only thing that helps my aging skin",
+   "date": "2025-09-23",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

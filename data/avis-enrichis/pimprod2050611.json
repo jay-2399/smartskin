@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2050611",
+ "asin": null,
+ "pid": "pimprod2050611",
+ "source": "ulta",
+ "nom": "RODAN + FIELDS Active Hydration Face Serum With Hyaluronic Acid",
+ "note": 4.79,
+ "nbAvis": 13482,
+ "lus": 71,
+ "collectes": 71,
+ "segments": {
+  "dry": "Reviewers with dry skin, including severe post-chemo dryness and winter-related dryness, report the serum restores moisture, softens skin, and reduces flaking or stinging.",
+  "combination": "Reviewers describing combination (oily/dry) skin report the serum balances dry patches without feeling heavy or greasy.",
+  "oily": "Reviewers who mention oily-leaning or combination skin report the texture is light and non-oily and does not add shine.",
+  "mature": "Reviewers identifying as older or mature (40s-70s) report visible plumping, softer look, and reduced appearance of fine lines with regular use.",
+  "sensitive": "One reviewer notes the product does not cause redness the way some other products have on her skin."
+ },
+ "concerns": {
+  "aging": "Multiple mature-skin reviewers report smoother, plumper skin and fewer visible fine lines with regular use; effects are described as subtle rather than dramatic.",
+  "dehydration": "Very dry and climate-stressed skin reviewers report significant relief, faster resolution of flaking or sandpaper-feeling skin, and all-day hydration; two reviewers report no noticeable change at all.",
+  "redness": "One reviewer specifically reports the product does not trigger facial redness the way other products have for her.",
+  "barrier": "A post-chemo reviewer with a compromised, stinging barrier reports the serum restored a normal, comfortable feeling and stopped nighttime soreness.",
+  "spots": "One reviewer reports visible dry patches on the nose and cheeks disappearing with use.",
+  "blemishes": "One reviewer reports the product caused severe cystic acne breakouts, in contrast to the majority who report no such issue.",
+  "oiliness": "Several reviewers, including those with combination or oily-leaning skin, report the serum feels light and non-oily and does not leave a greasy residue."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Pleasant, subtle fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth application and absorption",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Dropper packaging appreciated but lacks fill indicator",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cystic breakouts reported by one user",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Long-term repeat purchase loyalty",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Syd",
+   "titre": "Not a good brand",
+   "texte": "Not sure how the MLM brand wound up in Ulta. This hydration serum is nowhere worth 100+ dollars. You will achieve much better results with some of the more wallet froendly brands such as Byoma or heck even The ordinary. This stuff made me break put with HORRIBLE cystic acne.",
+   "date": "2026-01-12",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Merry R",
+   "titre": "Post chemo",
+   "texte": "Since having had a Bone Marrow Transplant (and subsequent chemo), my skin has become very dry to the point of my face stinging by the end of the day. This R & F serum (approved by my doctor), introduced to me by my daughter-in-law gives my face a normal feeling; no more waking in the night to sore skin. Thank you.",
+   "date": "2026-02-07",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gale G",
+   "titre": "Amazing Hydration",
+   "texte": "My skin is combination dry and oily. I have always had to use multiple creams, lotions,etc to get the smoothness I wanted. This hydration is a game changer!! I love the way my face looks and feels using this product!",
+   "date": "2026-03-13",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kirstan B",
+   "titre": "So light. I have oily",
+   "texte": "So light. I have oily to dry skin, but I live in Colorado. So it's more of a combination skin type. This hydration helps my dry spots, but doesn't feel heavy at all. It seems to help my dry spots very well.",
+   "date": "2026-03-31",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ann S",
+   "titre": "Amazing hydration",
+   "texte": "Amazing product - great hydration! I have really dry skin and this is the only product that works for me.",
+   "date": "2026-02-18",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary L",
+   "titre": "Serums are the Bomb",
+   "texte": "Been using this for years Still love the fragrance and silkiness of the serum Mostly used as a nighttime regimen for protecting and hydrating this aging skin with lots of age spots But I can attest that for 70+ I still only have minimal wrinkles Yea!!!",
+   "date": "2026-01-21",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Lori P",
+   "titre": "Not worth the money",
+   "texte": "This serum is hydrating but not anymore than some more moderately priced products. It smells very nice and goes on smoothly without feeling oily.",
+   "date": "2026-02-04",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

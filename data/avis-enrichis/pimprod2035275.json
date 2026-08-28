@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2035275",
+ "asin": null,
+ "pid": "pimprod2035275",
+ "source": "ulta",
+ "nom": "Avène Cicalfate+ Hydrating Skin Recovery Emulsion",
+ "note": 3.95,
+ "nbAvis": 75,
+ "lus": 71,
+ "collectes": 71,
+ "segments": {
+  "oily": "One reviewer with oily, extremely reactive skin reports fewer breakouts and less reactivity after months of use, and another with an oily T-zone (combination) reports it helps chin breakouts without adding shine.",
+  "dry": "Reviewers with dry skin and dry cheeks report it softens and moisturizes, though one reviewer testing it purely as a face cream found it dried her skin out more than expected.",
+  "combination": "Reviewers with combination skin (dry cheeks, oily T-zone) report it balances both areas and helps chin breakouts while easing dry patches.",
+  "sensitive": "Reviewers with sensitive skin most often report soothing and redness relief, but this is also the segment with the most reports of stinging, allergic swelling, peeling, and reactions, including under tretinoin.",
+  "mature": "One reviewer describes it as feeding shiny, sun-damaged skin and healing dermatitis, and another with post-procedure (Fraxel) skin reports fast absorption and soothing with no greasiness."
+ },
+ "concerns": {
+  "aging": "One reviewer applies it over hyaluronic acid serum and reports waking with smoother, softer skin; another describes it as helping sun-damaged skin, but aging is not a primary focus of most reviews.",
+  "dehydration": "Multiple reviewers call it noticeably hydrating and lightweight, layering it over serums or under sunscreen; one dissenting reviewer found it dried her skin out rather than moisturizing.",
+  "redness": "Most reviewers who mention redness report immediate or fast calming, including for rosacea and pimple-related redness; a minority report the opposite, with the product doing nothing for their redness or worsening it into swollen, red, peeling skin.",
+  "barrier": "Reviewers describe it as protecting and helping the skin barrier and calling the line good for barrier issues; some barrier-compromised users instead report stinging or major irritation from the reformulation.",
+  "spots": "Several reviewers report it heals sores, scrapes, sunburn, tattoos, and post-bandaid irritation, and one used it successfully on perioral dermatitis flare-ups.",
+  "blemishes": "Several reviewers report fewer breakouts or full resolution of hormonal/pre-period breakouts within days; one dissenting reviewer describes ongoing chin breakouts unaffected and another reports outright irritation instead of improvement.",
+  "oiliness": "One reviewer with an oily T-zone reports the product controls that area without heaviness, and another notes it feels moisturizing without greasy feel despite oily, reactive skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Not greasy despite moisturizing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reformulation disliked versus original Cicalfate",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or allergic reaction on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Musty or off smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for small tube size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Received opened or unsealed product",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Hi",
+   "titre": "Cicalfate recovery emulation",
+   "texte": "Heals skin fast! Breakouts, sunburns, irritation this stuff is soothing! I use it every morning. I have oily extremely reactive skin. I have been using for a few months and skin is much less reactive and rately breaks out now.",
+   "date": "2023-07-29",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SevenUpisMe",
+   "titre": "Great Light Cream for Sensitive Combination Skin",
+   "texte": "The Avene skin recovery formula was changed, and I did not care for the new line :(. I have a combination skin with dry cheeks and an oily T-Zone. This cream works great for my chin breakout and dry cheeks. I use it every day and enjoy it during the wintertime. Will repurchase. Please do not change the formula. Finally, this emulsion works well for me!",
+   "date": "2022-12-24",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chris",
+   "titre": "perfect moisturizer for my dry sensitive skin",
+   "texte": "not too thin, not too thick. reduces my cheek redness. I have fewer breakouts now!! I love this product!!!!",
+   "date": "2023-04-09",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "April",
+   "titre": "Miracle product for me",
+   "texte": "I have been battling perioral dermatitis off and on for 3 years. I have used antibiotics and other OTC products that are temporary. I used the senisitive skin box from Avene so I decided to try this. I had a flair and used this it was gone next day.",
+   "date": "2023-05-04",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennie G.",
+   "titre": "Search no more. This hydrating cream really works.",
+   "texte": "Excellent crÃ¨me. Feels super nice when applying. Definitely calms my rosacea. My skin feels good. Looks brighter. Works well with my CC crÃ¨me with SPF. No piling. A little goes a long way. Think I found my holy grail.",
+   "date": "2023-08-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lindsey",
+   "titre": "Why fix something that isn't broken",
+   "texte": "The discontinued version of this cream- the Cicalfate emulsion- is a miracle product for my skin. This new version is terrible and something I cannot use. Shea butter, niacinamide, hyaluronic acid etc are simply unnecessary ingredients and unfortunately they cause major irritation to my skin. Overall I'm just so disappointed that is seems like AvÃ¨ne would rather use trendy ingredients than stick to a formula that actually works. I truly hope they just bring back the original.",
+   "date": "2022-11-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Joselyn",
+   "titre": "Burned my skin",
+   "texte": "I used this not even for 3 days and i woke up this morning with my skin swollen and red. My skin has been itchy all day and now i have red patches all over my face.",
+   "date": "2024-06-04",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

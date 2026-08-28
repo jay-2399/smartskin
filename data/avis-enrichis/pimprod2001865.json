@@ -1,0 +1,157 @@
+{
+ "ref": "pimprod2001865",
+ "asin": null,
+ "pid": "pimprod2001865",
+ "source": "ulta",
+ "nom": "FOREO Make My Day Hydrating UFO Activated Sheet Masks",
+ "note": 4.64,
+ "nbAvis": 25,
+ "lus": 23,
+ "collectes": 23,
+ "segments": {
+  "dry": "Reviewers with dry skin, including one who struggles with dry patches in winter and another whose skin used to turn dry from irritation, report the mask smooths texture, plumps skin and leaves it lightweight and absorbed rather than sticky.",
+  "sensitive": "Reviewers describing their skin as sensitive or easily irritated report the mask calms it instantly, causes no irritation, and appears to form a protective barrier against everyday irritants."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on fine lines and small wrinkles report the mask leaves skin firmer and plumper and seems to soothe and subtly blur fine lines.",
+  "dehydration": "Most reviewers report strong, lasting hydration with skin feeling plump, dewy and moist for a long time after use; one notes dry patches are smoothed especially in winter.",
+  "redness": "One reviewer reports the mask calms redness, especially after double cleansing.",
+  "barrier": "Reviewers who mention reactive or irritated skin report the mask does not cause irritation and feels like it forms a protective barrier, with no stickiness.",
+  "oiliness": "One reviewer reports skin does not look oily after treatment and that foundation is barely needed afterward, suggesting a mattifying, even-toned finish rather than added shine."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast 90-second application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No rinsing or mess needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Plumping, dewy finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Multiple uses per sheet",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires costly UFO device",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-sticky, lightweight after absorption",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Good value over time",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Clara",
+   "titre": "booster",
+   "texte": "I have tried every mask from this brand and a couple of other masks, but this one hydrates my skin in the best possible ways and calms down the redness especially after double cleansing. It is mandatory to always have these in stock, because it is a life saver when I travel",
+   "date": "2025-07-17",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sawyer08",
+   "titre": "My go to for winter months",
+   "texte": "This face mask has been a lifesaver over winter. I was dubious about trying this new way of masking but I love it. I always struggle with dry patches over the colder months but a 90 sec application of this mask before my makeup totally smoothes the texture of my skin. It felt like it plumped me up and gave a shot of moisture.",
+   "date": "2019-01-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CelineNY",
+   "titre": "my new bestie",
+   "texte": "This mask calms my skin instantly. It was really hard to find something that my skin could handle without getting irritated and that's why it became dry, but this mask really is lightweight and it absorbs great. My skin is happy so far and I'' definitely repurchase",
+   "date": "2025-02-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "GBecca",
+   "titre": "Perfect formula",
+   "texte": "This mask is very pleasant on the skin, it doesn't cause any irritation and my skin doesn't feel sticky after using it. I could even say that the mask creates some kind of barrier that protects the skin from everyday irritants. I think it's the perfect formula.",
+   "date": "2019-05-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lucy C",
+   "titre": "Definitely buying it again",
+   "texte": "I've been using it consistently for two months, and my skin is loving it! It provides such great hydration that I don't want to use any other mask. This has become my weekend home spa and refreshment. The mask has helped reduce small wrinkles, leaving my face feeling firm and plump. I absolutely love how my skin looks now. Plus, it has so much liquid in it that I can repeat the treatment, making it both practical and cost-effective.",
+   "date": "2025-02-25",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SandyC",
+   "titre": "Amazing quality sheet mask!",
+   "texte": "These masks contain all the necessary ingredients. I already used different types of UFO activated masks and gravitate towards this one the mos. It feels good, it wakes up the skin and nourishes it completely, puts a protective layer over my face. The best thing is that my skin doesn't look oily after the treatment. I hardly use any liquid foundation now, it really does even out the skin tone. I LOVE it.",
+   "date": "2019-03-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LindaCha",
+   "titre": "My Go-To Mask!",
+   "texte": "Great mask! Effective. Priced fairly. The device you need in order to use it is quite expensive but it pays off. So happy that my search for perfect sheet mask is over!",
+   "date": "2019-03-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "All 25 reviews are positive (4-5 stars), so no critical or negative account is available to balance the mostly enthusiastic reports."
+}

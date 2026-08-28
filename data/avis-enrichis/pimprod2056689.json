@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2056689",
+ "asin": null,
+ "pid": "pimprod2056689",
+ "source": "ulta",
+ "nom": "TONYMOLY Mask Melt Hydrating Overnight Wrapping Mask",
+ "note": 4.64,
+ "nbAvis": 28,
+ "lus": 27,
+ "collectes": 27,
+ "segments": {
+  "combination": "One combination-skin reviewer found the mask drying and glue-like on peeling rather than hydrating.",
+  "sensitive": "One reviewer with very sensitive skin calls the mask sensitive-skin approved with no irritation, while another reviewer (skin type unspecified) reports immediate burning and a day of red, raw skin."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers report waking up with noticeably hydrated, plumper, glowier skin; two dissent, describing dryness or a peeling, glue-like removal that left skin drier than before.",
+  "blemishes": "One acne-prone reviewer reports no clogging or breakouts and calls it gentle on acne-prone skin; another says she was worried about breakouts but had none.",
+  "spots": "Reviewers report no new breakouts after use, including one who was specifically monitoring for pore-clogging with an acne-tracking app.",
+  "redness": "One reviewer reports the mask caused burning with a red, raw face for a full day; no other reviewer reports redness or irritation."
+ },
+ "aspects": [
+  {
+   "libelle": "Second-skin drydown texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mess-free, does not transfer to pillow",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Easy application with included spatula/applicator",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult, painful removal when peeled",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Lightweight, non-sticky feel while worn",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dries out skin instead of hydrating",
+   "polarite": "neg",
+   "concerne": [
+    "combination",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Cass",
+   "titre": "burned immediately",
+   "texte": "it made my skin burn immediately and was hard to remove wet. my face was red and raw for a whole day after",
+   "date": "2026-07-29",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Bailey",
+   "titre": "Could use more hydration",
+   "texte": "I was really excited to try this product. The first time I tried it I thought maybe I applied it too thin. But the second time I used it it did confirm that it did dry out my skin more than normal. I have combination skin and it honestly felt like peeling glue off my skin. I don't feel like it did much hydrating. gifted by tonymoly",
+   "date": "2026-08-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "LotusMary",
+   "titre": "Not for sleep",
+   "texte": "I will not use this as a sleep mask,again. After lying down, i could already feel it tightening (typical of peel off masks). I tried to go to sleep, anyway; but, I feel it disrupted my sleep (worrying about it, wanting to remove). I tried to sleep anyway and eventually drifted off. Upon wakening, it peeled off in little bits (kind of like a sunburn), because i did not put on a thick layer. Skin actually felt dry, afterwards— rather than moist. May return. If i keep it, it will just be a peel off mask for during the day. This was purchased and not gifted by TonyMoly.",
+   "date": "2026-08-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "B",
+   "titre": "Finally an Overnight Mask I can use",
+   "texte": "I spent months searching for an overnight mask that wouldn't clog my pores and was also approved by the acne app I use. I had previously tried the Byoma one, but it didn't do much for my skin. This mask, however, completely exceeded my expectations. After using it, my skin feels incredibly hydrated and looks noticeably more glowy in the morning. It gives that healthy, refreshed look without feeling heavy or causing breakouts, which is exactly what I was hoping for. The application is also super easy, and it fits perfectly into my nighttime routine. I'm honestly so happy I found this product and will definitely keep using it. Highly recommend for anyone looking for a hydrating overnight mask that's gentle on acne-prone skin!",
+   "date": "2026-03-09",
+   "verifie": false,
+   "utiles": 49,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "muse",
+   "titre": "sensitive skin approved!",
+   "texte": "As a skin care lover, IM OBSESSED! This mask left my skin feeling so amazing and as someone who has very sensitive skin…this is most definitely sensitive skin approved and friendly! gifted by tonymoly!",
+   "date": "2026-08-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jasmin",
+   "titre": "I would buy this product again",
+   "texte": "gifted by tonymoly I've been using this mask for about a week now, and I've really been enjoying it. It seems to keep all of my skincare products locked in overnight because every morning when I peel it off, my skin feels incredibly hydrated. I was a little worried it might make me break out, but thankfully it hasn't caused any issues with my skin.",
+   "date": "2026-08-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Irine",
+   "titre": "Gentle and hydrating.",
+   "texte": "Such a gentle wrapping mask! It didn't dry out my skin at all. I especially love the convenience of the rubber applicator. I'm very satisfied and want to try it more to see how my skin responds over time. gifted by tonymoly",
+   "date": "2026-08-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

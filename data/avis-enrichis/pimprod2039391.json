@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2039391",
+ "asin": null,
+ "pid": "pimprod2039391",
+ "source": "ulta",
+ "nom": "SUNDAY RILEY B3 Nice 10% Niacinamide Serum",
+ "note": 4.25,
+ "nbAvis": 44,
+ "lus": 39,
+ "collectes": 39,
+ "segments": {
+  "oily": "Reviewers with oily or oily T-zone skin report reduced oiliness, smaller pores, and fewer breakouts with continued use.",
+  "sensitive": "Sensitive-skin reviewers are split: several report severe irritation, itching, welts, or sunburn-like redness that stopped use, while one long-term sensitive-skin user reports good absorption and reduced redness with no reaction.",
+  "mature": "Reviewers citing age-related concerns report smaller-looking pores, smoother texture, and diminished fine lines/wrinkles.",
+  "combination": "One combination-skin reviewer describes reduced dryness alongside a counteracted oily T-zone.",
+  "dry": "A reviewer with dry patches reports the serum softens and hydrates without feeling greasy."
+ },
+ "concerns": {
+  "aging": "Reviewers using it for visible pores, uneven texture, and early wrinkles report smaller-looking pores, smoother texture, and diminishing under-eye wrinkles.",
+  "dehydration": "One reviewer reports the serum hydrates dry patches without greasiness; no other dehydration-specific reports are present.",
+  "redness": "Most reviewers citing redness (including rosacea and general redness-prone skin) report visible calming and less redness over weeks; however, several sensitive-skin users report the opposite, developing sunburn-like redness, welts, or itching after use.",
+  "barrier": "A few reviewers describe reactive, itchy, tight skin or scarring from a burn-like reaction, suggesting barrier disruption in susceptible users; no reviewer reports barrier-repair benefits specifically.",
+  "spots": "Reviewers targeting dark spots and sun damage report noticeable fading, in some cases outperforming prescription creams or retinols.",
+  "blemishes": "Reviewers with acne scars report visible improvement in scarring within weeks to months; one hormonal-acne sufferer reports no effect at all.",
+  "oiliness": "Reviewers with oily complexions report a visible decrease in oiliness and shine; no reviewer reports increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Unattractive brown/green color",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Odd or off-putting smell",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight, non-greasy feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly, layers well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Risk of burning or irritation on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Repurchase-worthy value despite cost",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Beff",
+   "titre": "Didn't do anything for me",
+   "texte": "This did nothing for my skin, I suffer from Hormonal acne and clogged pores and redness + inflammation all over. I keep trying to consistently use but it doesnt do anything at all",
+   "date": "2023-10-16",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Karen",
+   "titre": "Not for sensitive/reactive skin",
+   "texte": "I received a sample bottle of Sunday Riley's Niacinamide serum and was so excited to try it as I love other products from this brand. I used a small amount before going to bed and I woke up with what looks like a sunburn. My skin is red, irritated, itchy and tight. I'm using a cortisone cream to try and tame it. If you have skin that is sensitive, you might want to do a patch test before using.",
+   "date": "2023-08-31",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Amy",
+   "titre": "Not for sensitive skin",
+   "texte": "I received this in my Allure beauty box. I used it twice a day for a good while and my skin looked and felt great. Then all the sudden it started causing welts, redness and scaliness. I didn't think it could be this product so I stopped all products until my skin calmed down. I tried using this product again and the same thing happened. This brand in general causes a lot of irritation in my skin unfortunately. I think the products work but at a huge cost. I don't even consider myself to have sensitive skin. I can't imagine how this would be for someone with actual sensitive skin.",
+   "date": "2023-07-01",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ahowell",
+   "titre": "Love this serum",
+   "texte": "I wasn't sure how I felt about using a standalone niacinimide, but after trying I love this serum. I love that it has resveratrol and egcg in it also, which are great antioxidants besides vit c. I feel this is a great serum for antiaging and helps reduce dryness and counteracts my oily t-zone. My skin is smooth and appears clear. Love the smooth texture of product, really feels luxurious. I do use other sunday riley products and they all compliment each other well.",
+   "date": "2024-07-06",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "GradStudentwithExpensiveTastes",
+   "titre": "Redness reducer & pore improved (AND I have sensitive skin!)",
+   "texte": "I love this. I alternate between this in the morning and Peach and Lily Glass Skin serum at night. I have pretty sensitive skin. Like, can't tolerate neutrogena sensitive skin. So I cautiously purchased my first bottle. it goes on really nicely and is fairly absorbant into the skin within a minute or two. Almost to the bottom of bottle #2.",
+   "date": "2024-04-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "chelsie",
+   "titre": "Saved my skin",
+   "texte": "I've had decently bad acne all of my life up into my 30s, and once I started using this product my acne has pretty much disappeared (save for maybe one pimple during periods) and my scarring has disappeared.",
+   "date": "2024-07-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Livelaugh",
+   "titre": "IN LOVE",
+   "texte": "Love this so much!!! An associate recommended this to me while shopping. Im acne prone and oliy skin my entire life. I finally find something that works and is true to its claim!! Buy this i know its 65 bucks but its worth it! A little goes a along way, on my second bottle and last me 2 months. Im glowing and finally comfortable in my skin!",
+   "date": "2024-06-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

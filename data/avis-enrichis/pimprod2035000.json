@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2035000",
+ "asin": null,
+ "pid": "pimprod2035000",
+ "source": "ulta",
+ "nom": "Undefined Beauty R&R Sun Serum Tinted Mineral SPF 50 PA++++",
+ "note": 4.69,
+ "nbAvis": 234,
+ "lus": 79,
+ "collectes": 93,
+ "segments": {
+  "oily": "Oily-skin reviewers report the product's dewy/shiny finish is too much for them, with several returning it or blotting/powdering to control shine, though one says it does not add to natural greasiness.",
+  "dry": "Dry-skin reviewers consistently describe the serum as moisturizing and non-drying, with some calling it the best SPF they've found for dry skin and noting no stinging or peeling.",
+  "combination": "A combination-skin reviewer (Fitzpatrick 4) reports the texture wears well with or without makeup and only needs powder touch-ups when skin is acting up.",
+  "sensitive": "Sensitive-skin reviewers report no irritation or eye stinging even with mineral filters, and one with rosacea says it prevented sun-triggered flare-ups.",
+  "mature": "A reviewer with dry, mature skin reports it sits well on the skin and wears matte under foundation without pilling."
+ },
+ "concerns": {
+  "aging": "One reviewer with pale, sensitive 36-year-old skin reports the product improved her overall skin texture somewhat.",
+  "redness": "One reviewer with rosacea reports the sunscreen prevented flare-ups from sun exposure.",
+  "spots": "No reviewer specifically addresses dark spots or pigmentation as a concern in this set.",
+  "blemishes": "Reviewers do not describe acne or breakout outcomes in this set beyond general oiliness complaints.",
+  "oiliness": "Several oily-skin reviewers report the finish is too shiny/dewy even with a matte primer and one returned the product for this reason; one oily-skin reviewer, however, reports it does not increase greasiness and gives good sun protection."
+ },
+ "aspects": [
+  {
+   "libelle": "Dewy, shiny finish",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "No white cast on fair to deep tones",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Limited and inconsistent shade range",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Formula separates in some bad batches",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Play-dough-like scent from mineral filters",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price relative to amount used",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Agata",
+   "titre": "Pls make a matte finish version!",
+   "texte": "Honestly the product is great, it does hydrated and protects the skin, the ONLY reason I returned the product is because it left my skin too shiny and I have oily skin. Even using a matte primer the shine was still there. Hope one day they create a matte version because I will definitely buy that one.",
+   "date": "2025-08-29",
+   "verifie": false,
+   "utiles": 35,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Justine",
+   "titre": "I finally understand \"holy grail\" products.",
+   "texte": "I bought this on a whim because I needed a new spf and this was clean, but less expensive than a lot of the others I was looking at or have bought in the past. I was shocked at how much I loved it from the start, and am about to order my second bottle now. I've used Supergoop, Beauty of Joseon, Innbeauty, Good Molecules, and a ton of other spfs and tinted moisturizers of varying price and quality, and this blows them all away. It has great coverage, high SPF for my pale and sensitive 36-year-old skin, feels lovely on my skin, and has definitely improved my overall skin texture a bit as well. Plus I love the ingredients and brand.",
+   "date": "2025-12-30",
+   "verifie": false,
+   "utiles": 22,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "T",
+   "titre": "Holy grail",
+   "texte": "[Combination skin, Fitzpatrick 4] Leaving this glowing review because I need this sunscreen to be available forever. I have tried a MYRIAD of tinted mineral sunscreens over the years - Beauty of Joseon, EltaMD, Ultra Violette, Australian Gold, DRMTLGY, Purlisse, and Bliss, to name a few - and I have consistently gone back to this one. I love it even more after they added Hectorite Clay. The texture is silky and it goes on like a dream, wearing wonderfully with or without makeup. I use the medium shade, which is perfect for my skin. Once it sets, it doesn't transfer into my light-colored clothes, which makes it perfect for summer. Plus, unlike a lot of other SPF, this one also makes it possible to use the correct 2-finger amount without looking like the peanut butter baby - just blend one finger at a time! I also love that this SPF is travel-friendly but lasts a long time, thanks to its fluid formula. Finally, the price point is AMAZING, considering that this also includes antioxidant boosters and other skincare ingredients. In general, I can't say enough good things about the R&R Sun Serum. I want this to be available forever, please and thank you! Some extra caveats and tips: - It can feel overly dewy at first, but give it 20 minutes to \"set\" (as you should with any SPF). After that, it leaves the prettiest glass-skin finish. If my combination skin is acting up, I just dab on a bit of powder or use a blotting paper. - The formula does contain tridecyl salicylate, which I bel",
+   "date": "2025-07-24",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amy",
+   "titre": "Great everyday sunscreen",
+   "texte": "This is a great sunscreen for everyday wear and reapplication! The texture is great for layering with or without makeup. I have rosacea and this has prevented flare ups from sun exposure so I will be repurchasing as long as they make it!",
+   "date": "2025-06-17",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Pamela K.",
+   "titre": "Great under makeup",
+   "texte": "The R&R dries down matte and wears well under my foundation without any pilling. I have dry, mature skin and this sits well on the skin.",
+   "date": "2024-06-29",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bayab",
+   "titre": "My go to daily sunscreen",
+   "texte": "I have sensitive skin and can't use all chemical spfs and some mineral spfs. This spf doesn't irritate my skin and feels so good on my skin. It holds up all day long and reapplies with no pilling or heaviness. My skin is considered normal/dry and I find this sunscreen to be moisturizing without being greasy. The light shade is a perfect match for my skin and this sunscreen hardly oxides especially compared to other tinted mineral spfs I've tried. I also love the sheerness of the tint as I prefer a natural finish. I also find the price to be fair for the quality of this sunscreen. Please never discontinue or change this sunscreen!",
+   "date": "2026-06-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maria M.",
+   "titre": "Great product",
+   "texte": "I have been using the serum for about two weeks and love the feel and look of it on my skin. I have oily skin but it doesn't enhance any of my natural greasiness. Good sun protection!",
+   "date": "2024-06-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

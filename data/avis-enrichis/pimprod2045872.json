@@ -1,0 +1,151 @@
+{
+ "ref": "pimprod2045872",
+ "asin": null,
+ "pid": "pimprod2045872",
+ "source": "ulta",
+ "nom": "ma:nyo Deep Clear Cleansing Balm",
+ "note": 3.7,
+ "nbAvis": 20,
+ "lus": 19,
+ "collectes": 19,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin, rosacea, eczema, or allergy-prone skin generally report the balm removes makeup without irritation and leaves skin soft, though it should not be used near the eyes according to some.",
+  "dry": "A reviewer with dry, sensitive skin and eczema on the cheeks reports the balm is gentle and effective at removing makeup and dirt."
+ },
+ "concerns": {
+  "redness": "Reviewers with rosacea and eczema report the balm does not irritate their skin and leaves it feeling soft and smooth."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong chemical or gasoline-like smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No noticeable scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective on waterproof makeup and mascara",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slow or difficult to remove waterproof mascara",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and smooth, not oily",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning sensation near eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Large jar with included spoon, good value",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Sumi",
+   "titre": "Would NOT recommend",
+   "texte": "It is not good to put anywhere near your eyes. It will start burning. Usually that never happens to me. If you mix water with it, it won't emulsify and it'll take even longer to mix into your face to get rid of make up. It has a weird like chemical smell to it. Again would not recomend.",
+   "date": "2025-12-19",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Shela",
+   "titre": "The worst cleansing balm I've ever used",
+   "texte": "I bought three cleansing balms at the same time. This one is the worst. The oil stays on my face even after rinsing with water, and I have to use my regular face cleanser three times to remove the balm's oil. I'm not picky about the smell, but this one smells like expired oil, which I don't like. I wish I could return it.",
+   "date": "2026-01-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Michelle",
+   "titre": "LOVE",
+   "texte": "I love this cleansing balm. I was using another popular one (green container) and found it to be too gritty for my sensitive skin. I have rosacea and this doesn't irritate my skin AT all. It takes all of my foundation off and leaves my skin feeling soft and smooth. I enjoy the texture and find it doesn't have any strong scent (a huge pro for me). Will definitely keep using!",
+   "date": "2025-03-12",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mia",
+   "titre": "Love it !",
+   "texte": "I have. Dry snetivie skin. I often have eszcema on my cheeks. This product is very gentle on the face. And Removed all the make up and dirt off my face .",
+   "date": "2024-12-22",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bailey",
+   "titre": "Love this cleansing balm",
+   "texte": "This cleansing balm works quickly and disolves all my eye makeup and foundation. Deep cleans without drying my sensitive skin out and leaves clean and nourished skin behind. No grime or residue. All the comments about it smelling bad...it smells like unscented oil. If you have used any other natural and unscented oil products it just smells like that. No essential oils to make it scented. This is a fabulous pro for sensitive skin! Great cleanser! I highly recommend trying a cleansing balm if you haven't...skincare game changer!",
+   "date": "2026-06-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sam",
+   "titre": "Sensitive skin approved !",
+   "texte": "I struggle with really bad sensitive skin (eczema under eyes plus allergic to a lot of makeups) and this makes sure when i wear makeup all of it is gone! I feel really clean after i use it. Im almost out of my first container that im buying another one! There is a \"smell\" to it but i do not think it smells bad nor do i really notice since i usually just wash it off within a few minutes. The next day waking up my skin usually feels super clean and looks great! I 10/10 recommend!!!",
+   "date": "2026-02-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "ULTAobsessed",
+   "titre": "Wouldn't repurchase",
+   "texte": "It did get my make off well but the odor is just too much. I purchased this to try because of the good price point and clean ingredients but have stopped using it due to the smell.",
+   "date": "2025-12-27",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "Reviews rarely mention concerns like aging, dehydration, spots, or oiliness specifically, so coverage for those concerns is thin."
+}

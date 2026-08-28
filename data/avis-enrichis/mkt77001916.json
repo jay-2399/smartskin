@@ -1,0 +1,161 @@
+{
+ "ref": "mkt77001916",
+ "asin": null,
+ "pid": "mkt77001916",
+ "source": "ulta",
+ "nom": "Borghese Effetto Immediato Spa Soothing Tonic",
+ "note": 4.29,
+ "nbAvis": 89,
+ "lus": 69,
+ "collectes": 69,
+ "segments": {
+  "dry": "Reviewers who describe dry or aging skin report the tonic relieves winter or age-related dryness without stripping the skin, though one long-time user notes a sticky finish since the reformulation.",
+  "sensitive": "Reviewers identifying as sensitive or redness-prone report the toner is calming and non-irritating, with no burning, stinging, or increased redness.",
+  "combination": "One reviewer with combination skin says the discontinued Tonico Minerale formula suited her skin well and finds the current version a weaker, overpriced substitute.",
+  "mature": "Long-time users who describe themselves as older (70s, 80s, 90s) credit decades of use with soft, unwrinkled, compliment-worthy skin and use the tonic as a basic step in an anti-aging routine.",
+  "oily": "One reviewer mentions using the product on her husband's oily scalp/head with good results, though this is not framed as facial oily-skin feedback."
+ },
+ "concerns": {
+  "aging": "Several long-term users, mostly older, report smoother, less-wrinkled skin and fewer signs of aging attributed to regular use over decades; one reviewer specifically notes softened lines around the eyes within two days.",
+  "dehydration": "Most reviewers say the toner hydrates and relieves dryness without stripping the skin, including one who calls it effective for age-related dryness; one dissenting reviewer says the reformulated version now feels sticky.",
+  "redness": "Reviewers with redness-prone or reactive skin report the tonic calms their skin with no irritation or increased redness, including one who says other toners caused redness but this one did not.",
+  "barrier": "Reviewers describe the tonic as gentle, non-stinging, and non-burning, suggesting it does not compromise the skin barrier for sensitive users.",
+  "spots": "One reviewer reports that post-breakout red spots and scarring almost fully faded after regular use combined with a clay mask; this is a single, notably strong result not echoed elsewhere.",
+  "blemishes": "One reviewer uses the tonic directly on blemishes and cuts as a spot treatment, describing it as effective, though this is an isolated use case.",
+  "oiliness": "Feedback on oiliness is minimal; one reviewer notes her husband uses it on his oily scalp, and another says it does not strip natural oils, but no oily-skin-specific complaints or benefits are widely reported."
+ },
+ "aspects": [
+  {
+   "libelle": "Discontinued spray bottle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cotton pad application wastes product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, refreshing feel on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sticky or filmy residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky residue since reformulation",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Light spa fragrance despite fragrance-free label",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus discontinued original formula",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Rachel",
+   "titre": "Has improved my skin 100%",
+   "texte": "As I've gotten older I've started getting bad scarring from random breakouts; they would leave behind bright red spots on my skin that I couldn't get rid of no matter what I tried. Recently I've started using the Fango Uniforme mask twice a week, and this toner every morning and every night after I wash my face and the spots are almost 100% gone. I am so, SO pleased with the results and recommend it to everyone I know with the same skin concerns!",
+   "date": "2019-02-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Thia",
+   "titre": "Only toner that works for me",
+   "texte": "I have very difficult skin with a tendency to redness. I do pour this into a clean empty spray bottle for application, but my face has never looked better. Clean, soft, no redness or irritation.",
+   "date": "2019-09-13",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "k.scott",
+   "titre": "Amazing",
+   "texte": "I love this product so much, it's pure perfection for my skin! I stopped using toners about a year ago because they were irritating causing redness + drying- thought I'd give it go again and I am so happy I did!! My face is glowing five stars!",
+   "date": "2020-08-11",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Marguerite",
+   "titre": "Nothing like the discontinued Tonico Minerale",
+   "texte": "I used the now discontinued Tonico Minerale for years and it was perfect for my combination skin. This product is an overpriced, wimpy alternative, so I was forced to switch to another brand.",
+   "date": "2019-02-08",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "laurice i.",
+   "titre": "DUE TO MY AGE MY",
+   "texte": "DUE TO MY AGE MY FACE IS DRY. THAT TONER WORKED VERY EFFECTIVELY FOR ME. I am very pleased with the outcome.",
+   "date": "2023-03-21",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Robin",
+   "titre": "Soothing Toner",
+   "texte": "I love this toner its very cool and soothing on my sensitive skin. It leaves my skin feeling fresh and hydrated. I always use after I cleanse to restore a healthy glow and to reduce that tignt feeling.",
+   "date": "2022-10-09",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Susan M.",
+   "titre": "Sad and disappointed ... this WAS a great product.",
+   "texte": "I have loved this product for decades. Now the SCENT is RADICALLY different, and I dislike it immensely. After drying on my face, it feels STICKY. I give credit to your products for keeping my facial skin soft and supple, but I'll be looking for a different toner after this bottle is empty. So very sad why did you change the formulation? PUT IT BACK, and bring back the SCENT with it!",
+   "date": "2021-08-15",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,157 @@
+{
+ "ref": "pimprod2002230",
+ "asin": null,
+ "pid": "pimprod2002230",
+ "source": "ulta",
+ "nom": "Truly Blemish Treatment Acne Heart Patches",
+ "note": 4.39,
+ "nbAvis": 555,
+ "lus": 74,
+ "collectes": 96,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin report the patches are non-irritating and gentle enough to wear without reaction ([19],[28],[30]).",
+  "dry": "One reviewer describing herself as super dry found an unrelated moisturizer from the brand made her skin feel normal, but this is not about the patches themselves."
+ },
+ "concerns": {
+  "spots": "Most reviewers who mention a specific pimple report visible reduction in size or full disappearance overnight or within a few days ([24],[25],[39],[53],[58],[67]); a minority say the same blemish did not shrink or clear at all after several days of use ([2],[3],[9]).",
+  "blemishes": "Many describe blemishes as drained, dried out, or gone by morning after overnight wear, with visible gunk on the removed patch ([17],[24],[27],[39]); several others say the patches did nothing noticeable and just sat on top of the skin without effect ([0],[1],[4],[7]).",
+  "redness": "A few reviewers note reduced redness or swelling around a blemish after use ([38],[70]), while one reviewer specifically disputes the no-redness claim, saying redness remained after removal ([5])."
+ },
+ "aspects": [
+  {
+   "libelle": "Cute heart shape and design",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticks poorly or falls off",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible gunk pulled out on removal",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Overpriced versus other brands",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight pain or residue on removal",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good quantity or generous packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No active ingredient beyond hydrocolloid",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Melissa",
+   "titre": "Cute Little Life Savers!",
+   "texte": "These blemish patches are not only adorable but I have super sensitive skin. They work GREAT! I haven' seen patches this cute before and the fact that they are sensitive enough for my face is a complete win. I'm so glad I purchased them and you would be too!",
+   "date": "2023-11-01",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Raina",
+   "titre": "Meh",
+   "texte": "They're expensive and lackluster. They are cute but they feel uncomfortable on my face. They claim that there is no redness when you remove them but their is. And they don't stick on the greatest. But they do get rid of my white heads. There's better acne treatment than these over priced things.",
+   "date": "2025-11-18",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Eb",
+   "titre": "I am happy I purchased these",
+   "texte": "I am so happy with the results! I had an angry little pimple right on my chin, and after trying these patches for the first time, I was amazed. The patch pulled all the gunk out, and I didn't feel weird wearing one at work. I saw immediate results—the swelling went down, and it looked so much better in hours. I'll definitely be buying these again!",
+   "date": "2026-07-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Sarah",
+   "titre": "cute, basic stickers",
+   "texte": "These didn't do anything. I re-read the package because it didn't seem like they had any active product in them at all. The patches don't do much for me other than press any product I use into my skin, and prevent me from touching the blemish. Not impressed. I've used blemish patches from various Asian brands which actually pull the infection out of the pimple which you can see in the sticker when you peel it off. These from Truly don't do that. Disappointed. I'll be going back to the other brands which perform better and cost half the price, too.",
+   "date": "2024-07-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mercedes",
+   "titre": "Magic",
+   "texte": "I am always embarrassed about adult acne breakouts. Stress, environment, and other factors effect our skins health. When I have a pimple , I apply a patch during the day to cover the ugly pimple. I notice the size reduction during this time and if the pimple is sensitive, this helps with that as well. I love how you can see the sebum on the sticker after it's removed. You can truly see it working. This would also be great for anyone who picks or pops pimples like I used to. This product has cured me of that nasty habit. For that reason it's always in my cabinet.",
+   "date": "2023-04-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Andrea",
+   "titre": "These are the real deal",
+   "texte": "Since starting hormone treatments, I've been getting pimples like I did when I was a teen. These are a TREMENDOUS help and I'm hooked! I even have my husband using them.",
+   "date": "2023-08-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Brittany",
+   "titre": "Didn't work for me but worked for my BF",
+   "texte": "So I'm almost down with my pack that I bought and they just don't do anything for me. They did work fabulously for my boyfriend though.",
+   "date": "2024-08-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "Most reviews focus on the pimple patches generically without stating skin type, so segmentation by skin type is thin and relies on a small number of explicit mentions; several reviews in the list (e.g. [15],[37],[40]-[47],[51],[57]) concern unrelated Truly products and were excluded from analysis."
+}

@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2056686",
+ "asin": null,
+ "pid": "pimprod2056686",
+ "source": "ulta",
+ "nom": "SUNGBOON EDITOR Silk Peptide EGF Intensive Ampoule",
+ "note": 3.79,
+ "nbAvis": 14,
+ "lus": 12,
+ "collectes": 12,
+ "segments": {
+  "mature": "Reviewers in their 40s report plump, glowing, hydrated skin and describe it as effective alongside other peptide products.",
+  "normal": "Reviewers with no stated skin type report visible glow, compliments from others, and softer skin after regular use."
+ },
+ "concerns": {
+  "aging": "Reviewers over 40 report plumper, more youthful-looking, glowing skin and repurchase the product for this reason; no dissent noted.",
+  "dehydration": "Several reviewers report their skin feels hydrated, plump and refreshed after use, with one reviewer specifically noting softer skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Dropper/dispenser malfunctions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Preference for old syringe packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible glow and hydration",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Anti-aging effect on mature skin",
+   "polarite": "pos",
+   "concerne": [
+    "mature",
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Product runs out quickly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires consistent long-term use",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Roxy Blaze",
+   "titre": "Stick with it it's amazing!",
+   "texte": "I use this product at night bc I dont like it under makeup, but I use it every night before I go to bed as part of my skincare routine and its really made a difference. Like any skincare routine, you need to stic with it to see results, nothing with any product is an overnight instant makeover - if it was that easy everyone would buy it and do it once. Putting it all over my face at night ad part of my skincare routine along with other products I wake up with my face feeling refreshed, hydrated and plump ready to start the day! The only thing I hate is the packaging, its terrible to use with dropper as part of the lid, so since I just finished the bottle I bought from Ulta, I just bought a bottle direct from the manufacturer on their site bc it's completely different with a separate dropper that looks much easier to use. But the product itself is amazing, but the key is you need to stick with it for the long haul to see the results. I love having glowing youthful skin at 47! Shhhh dont tell anyone my real age bc people think I'm 10-15 years younger but thats bc I'm obsessed with morning and night skincare routines. Thank you to Ulta for having amazing products! And no this isnt a sponsored ad bc I'm just a boring regular person that no one would give anything to, to advertise a product lol",
+   "date": "2026-03-15",
+   "verifie": false,
+   "utiles": 35,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lo",
+   "titre": "40's and up club - it works",
+   "texte": "Im purchasing my second bottle. I used this along with other peptide products and loved it. Gives tiy Glowy skin",
+   "date": "2026-08-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "BW",
+   "titre": "Noticeable difference in my skin.",
+   "texte": "Lots of reviews here focused on the dropper, which I honestly don't think is that bad. It's not great, but it's nowhere near as bad as people are saying. For the actual product, I love it! I've been using this for three weeks now and already see a difference in my skin. For the price, this is an easy buy.",
+   "date": "2026-07-08",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CCRA",
+   "titre": "Youth in a bottle",
+   "texte": "My skin is plump, hydrated and glowing. I love this product I just wish the bottle mechanism worked better.",
+   "date": "2026-02-05",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Maegan",
+   "titre": "The dispenser…",
+   "texte": "This dispenser is terrible. I love this product and it's original mock syringe dispensing mechanism. But this new mechanism is beyond terrible. I can barely get any product out. I've resorted to pouring it in my hands.",
+   "date": "2026-01-17",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 2,
+   "auteur": "Sheela",
+   "titre": "Not Sure",
+   "texte": "So far, have used for 3 plus weeks and no change in my skin- BUT THE DROPPER delivery system is HORRIBLE- it is hard house- doesnt fill or empty properly",
+   "date": "2026-03-09",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Kyleigh",
+   "titre": "I actually think it's doing something",
+   "texte": "I know that sounds obvious but I've seen a visible difference since I started and that's the highest praise I can give anything. One complaint is it runs out quickly with the amounts you have to use if you're going by the amount specified",
+   "date": "2026-08-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": "Only 14 reviews are available and most focus on the dispenser mechanism rather than skin type or concern, so segment and concern coverage beyond 'mature' and 'dehydration' is thin."
+}

@@ -1,0 +1,175 @@
+{
+ "ref": "pimprod2045880",
+ "asin": null,
+ "pid": "pimprod2045880",
+ "source": "ulta",
+ "nom": "SKIN1004 Madagascar Centella Ampoule",
+ "note": 4.36,
+ "nbAvis": 114,
+ "lus": 80,
+ "collectes": 107,
+ "segments": {
+  "oily": "Some oily and combination-oily reviewers report the ampoule hydrates without adding shine or clogging the T-zone.",
+  "dry": "Reviewers with dry skin frequently report improved hydration and reduced flaking, though one dry-and-sensitive reviewer had a severe breakout.",
+  "combination": "Combination-skin reviewers, including combo-acne-prone and combo-dry, generally report balanced hydration, fewer dark spots, and no new breakouts.",
+  "sensitive": "The large majority of self-identified sensitive-skin reviewers report calming, reduced redness, and no irritation, but several sensitive reviewers report burning, itchy bumps, or breakouts after use.",
+  "mature": "A couple of older reviewers, including one in her 70s with rosacea, report softer, calmer skin.",
+  "normal": "No reviews specifically describe normal skin without another condition."
+ },
+ "concerns": {
+  "aging": "The few reviewers mentioning age report a toner-like feel that suits mature skin and leaves it feeling softer, though none report specific anti-aging results like wrinkle reduction.",
+  "dehydration": "Most reviewers describe noticeable, fast-absorbing hydration and a plumper, glowing look; one reviewer with dehydration and hyperpigmentation reports no improvement in hydration at all.",
+  "redness": "The majority of reviewers, including several with rosacea, report significant and often fast reduction in redness and irritation; one reviewer reports the product did nothing for redness and caused burning.",
+  "barrier": "Several reviewers report a stronger, more balanced skin barrier and fewer flare-ups over weeks of use; no negative barrier reports were found.",
+  "spots": "Reviewers dealing with dark spots, PIH, and hyperpigmentation report fading and brightening with continued use, though results are described as gradual rather than immediate.",
+  "blemishes": "Many acne-prone reviewers report calmer, less inflamed pimples and faster healing of individual spots, but multiple reviewers report the product triggering new whiteheads, cystic acne, or itchy bumps, sometimes severe.",
+  "oiliness": "Oily-leaning reviewers report the serum does not add oiliness or shine, describing it as lightweight and non-greasy even in the T-zone."
+ },
+ "aspects": [
+  {
+   "libelle": "Watery, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sticky or tacky residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Simple glass bottle packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup and moisturizer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Triggers itchy bumps or cystic breakouts",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes",
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Meg",
+   "titre": "Broke me out",
+   "texte": "I decided to try this product since it helps reduce redness and hydrates the skin. It does help with the hydration, but I had to stop using after 2 uses. I didn't get to see if it helps with the redness. This product completely broke me out with whiteheads. I never had a breakout this bad before. I was really hoping to be able to include this in my skincare routine too. My skin: dry, sensitive, and rosacea",
+   "date": "2024-10-25",
+   "verifie": false,
+   "utiles": 32,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Allie",
+   "titre": "Amazing Serum",
+   "texte": "Read the other reviews and decided to try it out ( me and my mom have one ), I have super sensitive skin and my mom has even more sensitive skin ( rosacea ), she was a little hesitant first, so she made me try it out first. My face gets red easily, but after using this product after washing my face it has helped a lot with the redness of my face, leaves it hydrated and smooth. I would highly recommend. My mom also really liked this product because it helped her reduce the swelling of some acne she had, the redness and the size of them. She really liked this product and we both will continue to use.",
+   "date": "2025-02-21",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "",
+   "titre": "I would buy this product again",
+   "texte": "I am 70 years old and suddenly my rosacea has come in full force. I started using several products from a Madagascar including Ampoule, my face has never felt so soft and is very calming for my rosacea! I am in luv with this skin care line!",
+   "date": "2025-03-20",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bronwyn",
+   "titre": "Great for dry, rosacea prone skin ￼",
+   "texte": "I live in a desert, and my skin has always been on the dry side. I used to have large patches of flaky skin by the end of the day, no matter what moisturizer I used. The last six months I use the centella facial serum, followed by a thick moisturizer mixed with a couple drops of the Beekman 1802 collagen serum and the dryness is cut by 90%. I have a medicated ointment now to calm my rosacea fully but I love that this product doesnt irritate my skin at all.",
+   "date": "2025-08-16",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ktn",
+   "titre": "Dream Hydrating Serum",
+   "texte": "I've been using this serum daily for three months and I can honestly say its made an incredible difference in my skin. I have combo acne prone but also sensitive skin that often felt dehydrated but also oily. This serum is so hydrating my skin is no longer dehydrated or oily, its finally balanced. And my skin tone is more even, without redness. I love the texture of this serum, its light and watery and quick absorbing. I use it first in my routine before other products. and I plan on repurchasing!",
+   "date": "2025-04-10",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anahi",
+   "titre": "Restored my skin barrier.",
+   "texte": "I have combo skin but get dry patches right around my nostrils. That usually only happens during the colder months, but this time they appeared in August and kept getting worse and my skin started to feel irritated. It was due to the makeup remover since my skin can be sensitive with certain products. I began using the Madagascar Centella Ampoule both morning and night and it definitely helped restore my skin barrier. I didn't even experience the dry patches during the last winter, so I have restocked and plan to use this year-round.",
+   "date": "2026-05-22",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Kate",
+   "titre": "Social Media Hype",
+   "texte": "I have used this product for a few weeks alternating using it by itself, layered with other serums or essences, and trying both day and night. Ive found that it does nothing for my skin especially in regards to hydration or redness and is a product of social media hype. I have sensitive and acne prone skin - my only issues are uneven skin tone, old hyperpigmentation and dehydration. I expected it to help with dehydration and redness if i use an active but it hasnt.",
+   "date": "2025-08-24",
+   "verifie": false,
+   "utiles": 19,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

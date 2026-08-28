@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2019865",
+ "asin": null,
+ "pid": "pimprod2019865",
+ "source": "ulta",
+ "nom": "Vichy LiftActiv Hyaluronic Specialist H.A. Day Cream",
+ "note": 4.47,
+ "nbAvis": 555,
+ "lus": 77,
+ "collectes": 121,
+ "segments": {
+  "oily": "One reviewer with oily/combination skin reports the cream is not noncomedogenic as claimed, clogs pores, and leaves shine by end of day, especially if used at night.",
+  "dry": "Reviewers with dry skin (including one with a dry t-zone and one describing 'over dried skin') report strong, non-greasy hydration and reduced flaking, though one still found results underwhelming.",
+  "combination": "One reviewer's oily skin turned into combination/dry over time and found this cream a good non-greasy daytime fit.",
+  "sensitive": "Reviewers with sensitive skin mostly report no irritation, no redness, and good hydration, though one sensitive-skin user still felt it slightly greasy and one 'burned' on first use.",
+  "mature": "Reviewers in their 30s-50s report visible firming, softer fine lines, and lifted/plumper looking skin after a few weeks, with a few seeing no lifting effect at all.",
+  "normal": "A couple of reviewers with unspecified normal skin describe it as a pleasant, lightweight daily moisturizer without dramatic change."
+ },
+ "concerns": {
+  "aging": "Most reviewers focused on anti-aging report visible firming, softer fine lines, plumper skin and reduced 'frown' lines within 1-4 weeks; several others state they saw no change in wrinkles or lifting even after weeks of use.",
+  "dehydration": "The large majority describe strong, non-greasy hydration lasting through the day, softening dryness and flaking; one reviewer found it 'not as moisturizing as anticipated.'",
+  "redness": "Sensitive reviewers who mention redness report the cream did not trigger it, calling it calming rather than irritating.",
+  "barrier": "One reviewer describes it as a 'solid moisture barrier' that keeps skin comfortable without greasiness; no barrier-damage complaints appear.",
+  "spots": "A single reviewer reports diminished age spots alongside fine lines; no other mentions of spots appear.",
+  "blemishes": "One reviewer with oily/combination skin reports clogged pores and an acne outbreak from nighttime use; another reports 'not blemishes' as a positive, so experiences diverge by skin type.",
+  "oiliness": "Most reviewers, including several with dry or normal skin, say it absorbs quickly without shine or greasy residue; one oily-skin reviewer disagrees, reporting visible shine building over the day."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong floral fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pleasant light scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich jar packaging feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Jar instead of pump disliked",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills under makeup or primer",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast-absorbing non-greasy finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus luxury brands",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Sab Za",
+   "titre": "NOT noncomedogenic (it clog the pores f/oily skin)",
+   "texte": "Not, Is not suitable for normal to oily skin, as they state, much less for plainly oily/combined skin. VICHY should explicit recognize that is NOT noncomedogenic, it means, it CAN and will clog the pores so this cream is forbidden to use even by mistake in the nights (if it happens you will surely wake up with a un acne outbreak). During the day it doesn't feel bad but as the hours pass you will look shine. Doesn't have UV prot. by itself so imagine all the layers you have to put over the already saturated skin. Good and Subtle fragrance, skin smoothy to the touch when applying.",
+   "date": "2024-05-13",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "amy_blaise",
+   "titre": "I really like the",
+   "texte": "I really like the Vichy LiftActiv Supreme moisturizer. I have sensitive and dry skin so its hard to find a moisturizer that both hydrates well and doesn't break my skin out. I do have the full-size of this product (easier to hold the sample) and have been using it for a few months now, I can't really say it has done much for my wrinkles but since I was more concerned with hydration it works for what i bought it for. My only complaint is that i can really only use it at night as it seems to pill on my face and doesn't absorb well enough to go on under makeup. All in all I will continue to buy until I can find something better.",
+   "date": "2022-02-28",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "TIffany",
+   "titre": "Great non-greasy formula for dry skin.",
+   "texte": "I have super dry skin, oddly enough in my t-zone. My skin often flakes between my brows. I used to have oily skin, but has changed since aging. I don't like really greasy or heavy moisturizers to wear during the day, so this one was perfect. It makes my skin feel super soft but I'm not shining like a beacon in the night. I will warn that it does have a fairly strong scent, but it's very fresh. I use this under my makeup and it doesn't disrupt it if I let it sit for a moment to sink in. I recommend it for anyone that likes to go bare face, but wants to look moisturized without looking shiny or greasy.",
+   "date": "2022-12-07",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "dry",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ansunderlin",
+   "titre": "Love it!!",
+   "texte": "Absolutely love it!!! Game changer for sure. Leaves my face feeling so moisturized and soft. I have sensitive skin and have trouble finding products that won't irritate my skin. I found this moisturizer and am never going back.",
+   "date": "2023-08-03",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "RNVN",
+   "titre": "Works great!",
+   "texte": "I've only been using this for 2 weeks but so far I love it! Moderate consistency that melts into the skin in 5 minutes! No stickiness but hydrating. Mild, pleasant scent and it workd for my sensitive skin. I'm really hoping it'll continue to work long-term then I for sure will repurchase.",
+   "date": "2021-05-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jenna",
+   "titre": "Amazing anti wrinkle cream",
+   "texte": "Super nourishing and moisturizing. This is my first time trying an anti wrinkle cream because I just recently turned 30 and you know we have to be proactive about skincare at this age! Anyways, my skin is super sensitive and tend to turn red with harsh ingredients but not this one which was such a relief. Also I suffer from dry skin but this worked like magic. After about a months use my face definitely felt more supple than before. I will continue to include this in my skin care routine.",
+   "date": "2021-01-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Minismom*1",
+   "titre": "Would be my holy grail but...",
+   "texte": "I was absolutely blown away & saw a difference within tne first 2 weeks on my fine lines. I just turned 50 last year & habe been tryimg a lot of different products. It would be my holy grail if it didn't advertise it was cruelty free when it's not. I shoukd habe researched & not taking the filters word that it was not tested on animals. I will use up the jar & sadly need to find something else. It is thick, but not too much in my opinion since it absorbs quickly & smooths skin so nicely. I don't understand some people complaining anout the scent but everyone is different; I find it light & very pleasant. I did not notice any lifting but as with any product you need to give it at least 8 weeks....",
+   "date": "2024-04-17",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

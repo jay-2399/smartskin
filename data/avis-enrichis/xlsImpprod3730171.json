@@ -1,0 +1,151 @@
+{
+ "ref": "xlsImpprod3730171",
+ "asin": null,
+ "pid": "xlsImpprod3730171",
+ "source": "ulta",
+ "nom": "Jack Black All-Over Wash for Face, Hair & Body",
+ "note": 4.79,
+ "nbAvis": 414,
+ "lus": 80,
+ "collectes": 107,
+ "segments": {
+  "dry": "Several reviewers with dry skin, including one described as sensitive and dry, report the wash does not leave them dry or itchy and instead leaves skin soft and hydrated, though one reviewer says the product left her skin extremely dry.",
+  "sensitive": "Reviewers who identify as having sensitive skin, or who are allergic to most soaps, report no irritation or reactions and describe the wash as gentle and soothing.",
+  "mature": "One reviewer in her late sixties reports relying on this wash specifically for her skin's needs at her age, describing it as smooth and soft afterward."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers who mention dryness say the wash cleans without stripping or drying skin, describing it as moisturizing, hydrating, or non-drying even for dry or sensitive skin; one reviewer, however, states it left her skin extremely dry and one other reports no noticeable moisture benefit.",
+  "redness": "One reviewer who previously struggled to find a wash that didn't leave her skin red switched to this product and reports her skin no longer turns red or feels irritated after use."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong, polarizing fragrance",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Signature masculine scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick, rich lather",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser fails or leaks",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle lasts many months",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for a body wash",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Works as combined hair, face and body wash",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Pablo",
+   "titre": "Leaves skin extremely dry",
+   "texte": "This product is crucial when it comes to leaving my skin dry... I mean it smells decent but my skin feels bad afterwards.",
+   "date": "2018-12-10",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Dan P",
+   "titre": "nothing to like",
+   "texte": "Smell is always a matter of personal preference, but the fragrance of this wash was so overpowering it nearly choked me. I would actually prefer no fragrance and more focus on a formula with skin benefits. This wash did not improve my skin in any way - no noticeable moisture, softness, redness reduction / calming effect, clearer skin etc. The consistency was thick, creamy, and sticky. I prefer a thinner, more fluid consistency with a rich lather.",
+   "date": "2020-07-11",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katharita",
+   "titre": "Hubby's favorite body wash",
+   "texte": "My husband uses this daily. He has dry and sensitive skin and this does not leave him dry and itchy. It has an invigorating minty scent. It lathers a lot which he likes, and rinses off easily.",
+   "date": "2019-09-03",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brian",
+   "titre": "Best overall Body Wash",
+   "texte": "Great thick consistency, Refreshing Scent, without the unpleasant (when not desired), \"menthol chill\" , Hydrating & excellent for most sensitive skin types.",
+   "date": "2022-09-12",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Thomas",
+   "titre": "Excellent Body Wash - Leaves My Skin Feeling Great",
+   "texte": "I love this body wash. Before I found Jack Black, I was going through so many brand name products from local retailers trying to find something that didn't leave my skin red and dry. None of them were good. This product is excellent. I feel like my skin is soft and smooth. The smell is great and I feel it makes the right amount of lather. I compared this to Turbo Wash and I much prefer this product. I feel it lathers better and leaves my skin feeling healthier.",
+   "date": "2020-01-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Luvsweets",
+   "titre": "All in One for every man!",
+   "texte": "We received some samples and that was it for my husband. This all in one is perfect and easy for any man to use. The scent is fresh and no reactions for sensitive skin. Wash your hair, your body with this huge bottle. A most have in our house!",
+   "date": "2022-03-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "No",
+   "titre": "Very good product.",
+   "texte": "I would recommend Jack Black all over to everyone. It leaves my skin smooth and soft. I'm 68 and I need it for my skin.",
+   "date": "2020-06-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

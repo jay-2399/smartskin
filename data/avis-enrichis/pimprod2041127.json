@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2041127",
+ "asin": null,
+ "pid": "pimprod2041127",
+ "source": "ulta",
+ "nom": "Hero Cosmetics Mighty Patch Face Pore Pimple Patches",
+ "note": 4.19,
+ "nbAvis": 213,
+ "lus": 81,
+ "collectes": 102,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin report mixed outcomes: one describes severe redness, burning and tightness requiring the product to be stopped, another says it left red patch-shaped marks days later, while a different reviewer with 'sensitive dry skin' calls it approved and effective.",
+  "dry": "One reviewer with dry skin reports the patches left dry patches on the face, while another with 'sensitive dry skin' reports it as approved and non-drying.",
+  "combination": "Reviewers with combination skin and an oily T-zone report visibly smaller pores, less oil, and improved texture after overnight use.",
+  "oily": "One reviewer describes their oily T-zone and enlarged pores improving noticeably, with less visible oil showing through by end of day."
+ },
+ "concerns": {
+  "dehydration": "One reviewer reports skin feeling more hydrated and smooth after leaving the patch on overnight; another says the product does not dry out skin and soothes redness; one dissenting reviewer reports the patches left dry patches on the face.",
+  "redness": "Several reviewers report reduced redness and swelling around the nose and cheeks, but one reviewer reports a severe reaction with extreme redness, burning and tightness after use, and another reports lasting red patch-shaped marks days later.",
+  "barrier": "One reviewer credits the patches with helping after a damaged skin barrier from at-home dermaplaning, reporting improvement; no other barrier-specific reports appear.",
+  "spots": "Most reviewers describing individual pimples or spots report them shrinking or disappearing within one to a few days of use, including hormonal breakouts; one reviewer reports no visible improvement and calls the product ineffective for the price.",
+  "blemishes": "Many reviewers with acne, cystic pimples, or clustered breakouts report visible reduction in size and faster healing, including safe use during pregnancy; one reviewer reports the product made her break out worse.",
+  "oiliness": "Reviewers with oily skin and oily T-zones report the patches absorbing excess oil and gunk overnight, with smaller-looking pores by morning; no dissent noted on this point specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Plastic backing hard to peel",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible gunk extraction overnight",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Only one set per box",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for single use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Comfortable, flexible overnight wear",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Nose patch size mismatch",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Irritation or marks after removal",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Kailey",
+   "titre": "Unexpected Skin Reaction After Using This Product",
+   "texte": "I wanted to share my experience in case it helps others. After using this product my skin became extremely red, irritated, and painful immediately after removing the patches. I experienced noticeable burning and tightness, especially on my cheeks and around my eyes (see attached photos). I followed the directions exactly and have not had this type of reaction to other skincare products before. I had to stop using it immediately and apply a soothing product to calm my skin. If you have sensitive skin or allergies, I recommend doing a patch test first or consulting a dermatologist before use. I really wish this product had worked for me, but unfortunately, it caused a severe reaction. I hope the company takes feedback like this seriously and reviews the formulation.",
+   "date": "2025-10-18",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Bella",
+   "titre": "READ BEFORE BUYING",
+   "texte": "Okay, I use the little pimple patches all the time and I love them, however if you have sensitive skin DO NOT USE THIS PRODUCT!!!! I have been seeing this product everywhere on tik tok and was super excited to use it, the next day when I took them off they had barley absorbed anything from my skin and have left me with literal red mark in the shape of the patches DAYS LATER!!! If you have sensitive skin it is it worth it.",
+   "date": "2023-04-20",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennie",
+   "titre": "Life saving, wish I found this years ago",
+   "texte": "I ordered two of these for the week of my wedding and I've never had nicer skin. My family was asking if I just got a facial. I naturay have very visible, large pores that I constantly try to squeeze gunk out of because nothing else worked over the years until I found Mighty Patch. My combination skin and oily T-zone has never looked and felt better. And I absolutely love how easy it is, works overnight, is comfortable to sleep with it on and the results are amazing in the morning.",
+   "date": "2023-05-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda",
+   "titre": "These are very effective",
+   "texte": "I love these, they help keep my skin so clear. I found these a little difficult to remove for application initially but now have the hang of it. If you have clogged pores or even cystic break out they really help eliminate or greatly reduce breakouts.",
+   "date": "2025-08-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary",
+   "titre": "my skin thanked me for these!!",
+   "texte": "Wonderful product — a little on the pricey side but definitely worth it. Highly recommend with combination skin, it sucked all the gunk out from under my skin after one use and made my skin feel fresh and rejuvenated — no dark spots after use.",
+   "date": "2023-04-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kate S.",
+   "titre": "Love it!",
+   "texte": "Perfect. I love these exactly like their little acne patches. Sensitive dry skin approved:+1:",
+   "date": "2022-12-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Jennifer",
+   "titre": "I would not buy this product again",
+   "texte": "The patches left dry patches on my face in all areas that I used them.",
+   "date": "2024-01-23",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

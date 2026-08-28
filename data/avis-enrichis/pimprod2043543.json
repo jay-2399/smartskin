@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2043543",
+ "asin": null,
+ "pid": "pimprod2043543",
+ "source": "ulta",
+ "nom": "Drunk Elephant Bora Barrier Repair Cream",
+ "note": 4.61,
+ "nbAvis": 665,
+ "lus": 76,
+ "collectes": 125,
+ "segments": {
+  "oily": "One reviewer with combination/oily skin found the cream light and refreshing, noting it did not make her face super oily.",
+  "dry": "Numerous reviewers describe chronically or very dry skin and report significant hydration, softer skin, reduced tightness, and disappearance of dry patches or flaking with regular use.",
+  "combination": "One combination/oily-skin reviewer found the texture lightweight enough not to feel greasy.",
+  "sensitive": "Sensitive-skin reviewers mostly report calming, non-irritating effects and reduced redness, though one reports the cream either caused or failed to help an allergic reaction and stopped using Drunk Elephant products altogether.",
+  "mature": "Two reviewers with mature or aging skin report a rich, hydrating feel plus visible improvements in fine lines, firmness, or elasticity."
+ },
+ "concerns": {
+  "aging": "Reviewers noting aging or mature skin report improved fine lines, firmness, and elasticity after continued use.",
+  "dehydration": "The overwhelming majority of reviewers, especially those with dry skin, report strong, lasting hydration, softer and plumper skin, and relief from tightness; this is the most consistently praised effect.",
+  "redness": "Several reviewers report reduced redness and calmer-looking skin, including one who saw improvement after a month; no reviewer reports increased redness.",
+  "barrier": "Reviewers describe the cream as strengthening or repairing a compromised barrier, easing irritation from actives, weather, or over-exfoliation, and one reports clearing eczema-like flare-ups within two days.",
+  "spots": "Not enough reviewer information on this concern to draw a conclusion.",
+  "blemishes": "A few acne-prone or blemish-prone reviewers report no new breakouts and even reduced clogged pores; one sensitive/redness-prone reviewer likewise reports no breakouts, so no dissent is recorded.",
+  "oiliness": "One reviewer with oily/combination skin reports the cream did not increase oiliness or shine despite its rich feel."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich, thick texture that absorbs well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No pilling under makeup or skincare",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Little product needed per use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump/jar packaging seen as convenient",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula appreciated",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sample size too small to judge full effect",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "ASkinSense",
+   "titre": "Okay Cream",
+   "texte": "Either it was causing me an allergic reaction or it wouldn't help reduce the allergic reaction I would get when using another skin care product. Luckily, once I finished this cream I moved to Skinfix Triple Lipid-Peptide cream and that helped to clear everything up! I have tried 3 different Drunk Elephant products so far and they have all been just okay or irritate my sensitive skin. Overall, I'm not that interested in Drunk Elephant anymore.",
+   "date": "2026-08-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Slone",
+   "titre": "Goodbye Dry Skin",
+   "texte": "I'm truly obsessed with Drunk Elephant Bora Barrier™ Repair Cream. As someone with chronically dry skin, it's been such a lifesaver. . The texture is rich and thick in the best way—it feels like a luxurious experience by just applying the product. My skin feels instantly soothed and stays hydrated almost all day, which is rare for me. It also layers beautifully with my other skincare and makeup without pilling. The only downside is I received a sample size, and I already know I'll be so sad when it runs out. *gifted by drunkelephant",
+   "date": "2026-03-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lizeth",
+   "titre": "Great for my dry skin",
+   "texte": "I am honestly obsessed with this cream. My skin was super dry and irritated, and this made such a big difference in just a few days. It feels really rich and smooth, but it doesn't feel heavy or greasy on my skin. It calms redness right away and makes my skin feel soft and comfortable. I also love that it helps repair my skin barrier because my skin gets sensitive easily. Every time I use it, my face feels hydrated all day. A little goes a long way, and my skin just looks healthier and more glowy. If your skin is dry or stressed, you need this. I will definitely keep buying it! I was gifted by drunk elephant a small sample.",
+   "date": "2026-03-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vanessa",
+   "titre": "Deep Hydration, Zero Heaviness",
+   "texte": "This cream has been a lifesaver for my dry, sensitive skin. Drunk elephant, gifted me the Bora barrier repair cream to test a review. It feels rich and nourishing without sitting heavy. It instantly takes away that tight, irritated feeling. My skin looks smoother, feels stronger and stays hydrated all day with zero greasiness. You only need a small amount and it truly makes a difference when your barrier needs extra care.",
+   "date": "2026-03-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Molly",
+   "titre": "Luxurious cream!",
+   "texte": "Amazing, luxurious cream that leaves my face super moisturized and hydrated. Dry skin and redness got better after a month of use. Also noticed more firmness and improved elasticity after a while. Highly recommend! complimentary from Drunk Elephant.",
+   "date": "2026-03-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emily",
+   "titre": "Love this",
+   "texte": "I have sensitive dry skin. I am so very acne prone. This repair cream has made my skin look so hydrated and has not caused me to break out. I really like using this cream during the morning. This cream was gifted by drunkelephant.",
+   "date": "2026-03-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Six star skin",
+   "titre": "Couldn't have come at a better time",
+   "texte": "Obsessed! My skin has been struggle extra this year with dryness, like full on eczema around my nose. Cleared up within two days after I started using this moisturizer. Def recommend! Gifted by drunkelephant but thoughts my own",
+   "date": "2026-03-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

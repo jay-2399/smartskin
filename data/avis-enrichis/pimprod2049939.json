@@ -1,0 +1,158 @@
+{
+ "ref": "pimprod2049939",
+ "asin": null,
+ "pid": "pimprod2049939",
+ "source": "ulta",
+ "nom": "Peter Thomas Roth Even Clearer Therapeutic Sulfur Mask",
+ "note": 3.53,
+ "nbAvis": 15,
+ "lus": 15,
+ "collectes": 15,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers report the added fragrance is irritating and unwelcome, though one such reviewer used the mask 3x/week with no sensitivity issues and improved texture.",
+  "combination": "One reviewer with rosacea and enlarged pores on the nose reports visible improvement after the first use.",
+  "normal": "Some reviewers give no specific skin type but describe long-term (decade-plus) regular use for maintenance."
+ },
+ "concerns": {
+  "dehydration": "One teen user paired this mask with another acne gel and reports no drying issues.",
+  "redness": "Reviewers report the mask calms redness and helps rosacea flare-ups, with visible improvement noted after a single use.",
+  "barrier": "One reviewer with cystic acne reports the product does not damage her skin barrier despite being a sulfur treatment.",
+  "spots": "Multiple reviewers report the mask dries out and shrinks individual pimples and cystic bumps when used as a spot treatment.",
+  "blemishes": "Most reviewers with acne (including hormonal, cystic, and closed comedones) report clearer skin, fewer breakouts, and better texture with regular use; one teen user's father reports amazing progress with less breakouts, though results require repeated 2-3x weekly use."
+ },
+ "aspects": [
+  {
+   "libelle": "Added fragrance in reformulation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Sulfur smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, little product needed per use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective as overnight spot treatment",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Visible improvement after first use",
+   "polarite": "pos",
+   "concerne": [
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Formula change seen as worse than original",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "LR18",
+   "titre": "Why the fragrance?",
+   "texte": "I used to use this product regularly to calm my skin. Now they've added fragrance. I have sensitive skin and cannot use products with fragrance.",
+   "date": "2025-07-25",
+   "verifie": false,
+   "utiles": 23,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Krista",
+   "titre": "Helps",
+   "texte": "I bought to help with rosacea flareups and help with the pores on my nose. These are the results after the first use. I can see improvement and will use once a week. The sulfur smell is off putting, but it's only temporary. Since it works, I can handle the smell",
+   "date": "2026-02-08",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ash",
+   "titre": "Best Sulfur Treatment",
+   "texte": "I loveee this product - I have PCOS and suffer from cystic acne - due to this a 10% sulfur treatment is one of the only things to help with my acne (since its under the skin). This product isnt too aggressive (doesnt damage my skin barrier) while delivering great results in helping shrink stubborn cystic bumps. When I get an occasional pimple it also does great in drying it out. Also this stuff lasts you for soo long (you only need a lil bit on spots - dont cake it on thick) I'm only just now buying another tub after a year - and I use this product very frequently !!",
+   "date": "2025-10-16",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah",
+   "titre": "This is a fantastic mask for redness and mild acne",
+   "texte": "I really like this mask, it doesn't sting or smell bad. I find that it calms my redness and reduces my acne, especially hormonal acne. A little goes a long way. I recommend this and will buy it again.",
+   "date": "2025-03-03",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "AA",
+   "titre": "Acne prone, texture and sensitive skin hereeee",
+   "texte": "I am obsessed with this face mask!! I have sensitive skin but also deal with a lot of closed comedones that if not treat it turns into an inflammed pimple. I have been using this mask 3x per week with no sensitivity, no more breakouts and the texture is looking WAY better already. Also i love to use it as a spot treatment overnight.",
+   "date": "2025-10-14",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "NMak",
+   "titre": "Must have for acne",
+   "texte": "I purchased this for my teenager with acne after trying many other products with no results. We use this product 2-3 times per week with amazing progress. His skin is clearing with less breakouts. We also use the Goodbye Acne gel and have had no issues with skin drying.",
+   "date": "2026-02-12",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Bells",
+   "titre": "Changed formula for worse",
+   "texte": "I've used this mask for at least a decade now and they changed the formula adding in a fragrance that quite frankly stinks. It's far worse than the sulfur smell ever was. Even if it works I don't think I can use it now and it was very expensive to waste.",
+   "date": "2025-03-05",
+   "verifie": false,
+   "utiles": 19,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

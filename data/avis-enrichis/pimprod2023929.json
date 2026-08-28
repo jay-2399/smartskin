@@ -1,0 +1,170 @@
+{
+ "ref": "pimprod2023929",
+ "asin": null,
+ "pid": "pimprod2023929",
+ "source": "ulta",
+ "nom": "Good Molecules Niacinamide Brightening Toner",
+ "note": 4.55,
+ "nbAvis": 2248,
+ "lus": 77,
+ "collectes": 109,
+ "segments": {
+  "oily": "Reviewers with oily skin report the toner balances oil and pores without stripping or drying the skin (15, 25, 36, 38, 58, 60).",
+  "dry": "One reviewer with dry skin found it lightweight and non-tightening despite worrying toners generally dry her out (45), though another dry/dehydrated-leaning user feared winter dryness (26).",
+  "combination": "Reviewers with combination skin (some oily-leaning T-zone) describe it as balancing, non-irritating, and effective for evening tone without increasing oiliness (13, 23, 36, 52).",
+  "sensitive": "Sensitive-skin reviewers are split: several report no irritation, no burning, and good tolerance even with eczema or fragrance sensitivity (7, 8, 16, 37, 57, 62, 75), while others report clogged pores, painful breakouts, burning, discoloration and scarring (0, 2).",
+  "mature": "Older reviewers (60s, 70s) report brightening and fading of sunspots/dark spots without dryness, calling it a first successful toner experience (17, 40)."
+ },
+ "concerns": {
+  "aging": "Mature reviewers report visible brightening and fading of sunspots, with one noting it was the first product to moisturize her skin without irritation (17, 40).",
+  "dehydration": "Most reviewers describe it as hydrating and non-stripping, even for naturally oily-dehydrated skin (15, 45, 51); one reviewer worries it may become drying in winter (26).",
+  "redness": "Multiple reviewers report reduced redness, including one with rosacea seeing calmer, less blotchy skin within a week (27, 29, 36, 37, 38, 39, 51); however, one reviewer reports the toner caused new redness/itchiness and returned it (1), and another saw increased red blemishes after months of use (5).",
+  "barrier": "One reviewer says it toned her skin without the harsh barrier damage other toners caused her (73); no other barrier-specific complaints appear beyond general irritation reports.",
+  "spots": "Many reviewers report fading dark spots, hyperpigmentation, and acne scars over weeks to months (10, 17, 18, 49, 50, 65, 67, 76); no dissent specific to spots is reported.",
+  "blemishes": "Several acne-prone reviewers report fewer or calmer breakouts (13, 44, 52, 58, 69), but multiple others report new or worsened breakouts, clogged pores, or cystic-type bumps after starting the product (0, 2, 4, 5, 6).",
+  "oiliness": "Reviewers with oily or combination-oily skin report reduced shine and better oil control throughout the day (36, 38, 58, 60); no dissent on oiliness specifically is reported."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky residue after application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free, well tolerated by sensitive noses",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value for price and bottle longevity",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No dropper or pump, hard to dispense",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under serums and moisturizer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging sensation on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Socha",
+   "titre": "I really wanted this tone",
+   "texte": "I really wanted this toner to work for me, but unfortunately it did the opposite. Not only did it fail to improve my skin, it actually made things worse. I gave it time, even paused using it when I noticed patches forming, but the irritation kept coming back whenever I tried again. This toner caused discolouration, burning, and irritation. Around my lips and forehead, I experienced a burning sensation, and the middle of my forehead now has a scar as a result. When I stopped using it, some of the bumps and pimples went away, which confirmed for me that this product was the cause. If you have sensitive skin, I strongly advise against using this toner. It may work for some, but it is definitely not suitable for everyone.",
+   "date": "2025-12-05",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cristine",
+   "titre": "Glow-maker! Great for rosacea!",
+   "texte": "A friend of mine who I introduced to Good Molecules (because of the makeup removing balm - must-try product!) was raving about this toner so I decided to try it. I recently developed rosacea and have been pretty bummed about the uneven, red, blotchy skin that I now have. I've only been using this toner for about a week as the first step after cleansing and I'm already seeing a difference. I'm applying without a cotton pad, just patting it on with clean hands. There's no smell (and I'm very sensitive to fragrance), no stinging. It soaks in well and doesn't leave any sticky residue. I follow it with a moisturizing essence, the active of my choice, and moisturizer. My red spots have calmed and my skin is looking brighter and more even overall. Definitely worth a try if you have rosacea and/or angry, blotchy skin!",
+   "date": "2025-09-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ananya M.",
+   "titre": "Niacinamide Brightening Toner",
+   "texte": "I LOVE this product! It has helped my skin tremendously. I have sensitive, oily, acne-prone skin, and this product is lightweight, hydrating, and helps clear up all my acne scars, marks, and any discoloration. This worked really fast and effectively on my skin!",
+   "date": "2025-09-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness",
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sahithi N.",
+   "titre": "Amazing product!",
+   "texte": "I love this product! It leaves my skin smooth and shiny with no oily residue. It allows my moisturizer and sunscreen to blend into my skin perfectly, while leaving a glossy finish. I also appreciate that it doesn't leave any tightness on my skin, it is lightweight and refreshing. As someone with dry skin I highly recommend this toner!",
+   "date": "2025-09-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gabriella M.",
+   "titre": "My Holy Grail!",
+   "texte": "The Good Molecules Niacinamide Brightening Toner is absolutely perfect! Niacinamide has always been one of my skin's favorite ingredients, and this formula definitely lives up to the hype. Since adding it into my routine, I've seen a noticeable reduction in redness, better control of breakouts, and far less oiliness throughout the day. As someone with combination skin that leans oily, this toner has become my holy grail. It helps balance my skin without stripping it, and leaves me feeling refreshed and hydrated instead of tight or dry. I also love that it preps my skin so well for serums and moisturizers. Everything layers beautifully on top!! What makes it even better is how gentle it is. I can use it daily without irritation, and over time, it's really helped improve my overall texture and clarity. For anyone dealing with oiliness, acne, or uneven tone, I couldn't recommend this toner enough!",
+   "date": "2025-09-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Inger G.",
+   "titre": "Game changer from the beginning.",
+   "texte": "I started out with this product and your Brightening and Dark Spots bar, and I saw an immediate difference in my dark spots! The niacinamide toner is unlike any other toner I've ever used - not only does it not strip the skin, it moisturizes it. (In all my 70 years, I have never used moisturizer on my face because my face reacts badly to all oils.) I started my picky 28-year-old daughter on the niacinamide toner, and she likes it too. And now you want me to also review the Discoloration Correcting Serum that I bought, but I hardly ever remember to use it.",
+   "date": "2025-09-18",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Ry",
+   "titre": "No hate for Good Molecules, just this \"Brightening\" Toner…",
+   "texte": "I love Good Molecules Hylaronic Acid so decided to try out their Brightening Toner. I applied this toner once a day before my hylaronic acid and moisturizer. In the beginning of my usage, I didnt notice a difference and continued to include it in my skincare routine. After around 3 months, I noticed my skin texture started feeling different and I also noticed more red blemishes on my face. I stopped using it and everything went back to normal. There are many options for brightening toner out there, I recommend finding a different one.",
+   "date": "2026-01-02",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

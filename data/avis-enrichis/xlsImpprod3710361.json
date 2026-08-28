@@ -1,0 +1,162 @@
+{
+ "ref": "xlsImpprod3710361",
+ "asin": null,
+ "pid": "xlsImpprod3710361",
+ "source": "ulta",
+ "nom": "Vichy Mineralizing Thermal Water Spray",
+ "note": 4.32,
+ "nbAvis": 234,
+ "lus": 79,
+ "collectes": 117,
+ "segments": {
+  "dry": "Reviewers with dry skin describe the mist as hydrating and useful for a mid-day refresh, though several note it must be followed by a moisturizer or it can leave skin feeling drier than before, and one very dry, sensitive-skin reviewer stopped using it until warmer weather.",
+  "sensitive": "Sensitive-skin reviewers report no irritation, fragrance or discomfort, including around the eyes, and describe the spray as calming; one paused use while her skin was extremely dry and sensitive.",
+  "normal": "A reviewer with normal-but-dry, redness-prone skin reports her redness almost disappeared and hydration improved when combined with another product.",
+  "mature": "One reviewer references it as part of a routine including vitamin C serum and winter layering cream, without describing age-specific effects beyond general hydration.",
+  "combination": "An oily-combination-skin reviewer reports it makes a noticeable difference and uses it before makeup without added greasiness.",
+  "oily": "One reviewer with oily facial skin uses it to refresh her face under makeup without it feeling heavy, and another with oily-combination skin says it made a difference without increasing oiliness."
+ },
+ "concerns": {
+  "redness": "Several reviewers with rosacea or redness-prone skin report calming and reduced redness/inflammation with regular use; no reviewer reports redness getting worse.",
+  "dehydration": "Many reviewers describe relief for tight, dry or dehydrated skin and a refreshed feeling, though a few caution that used alone (without a moisturizer) it can leave skin drier afterward.",
+  "blemishes": "One reviewer with rough, bump-like skin ('granites') reports about a 60% reduction; another mentions recommending it to friends with cystic acne who liked it, but no other acne-specific outcomes are described.",
+  "oiliness": "One reviewer says it refreshes oily facial skin under makeup without added heaviness; another with oily-combination skin reports a positive difference, but oil-control is not a focus of most reviews.",
+  "barrier": "A rosacea sufferer with dry patches on her chin reports her skin stopped feeling inflamed and sore after regular use; broader barrier-repair claims are not made by other reviewers."
+ },
+ "aspects": [
+  {
+   "libelle": "Fine, even mist texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Nozzle/sprayer fails midway through bottle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Refreshing, cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free, no scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Poor customer service on defective cans",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value and repurchase-worthy price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can leave skin drier if used alone",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "DeeAnn",
+   "titre": "WONDERFUL!!! JUST WONDERFUL!!!!",
+   "texte": "I have rosacea and dry spots on my chin. Many days my cheeks are so inflamed and sore. I've been using this on my face morning and evening (I've purchased 2 cans) and my face no longer is red and hurting. It feels extremely cooling and refreshing. I admit I was sceptical but felt the price was reasonable and was willing to try it. I am very happy to say that this product has helped me so much! I use this before applying the Vichy serum. I leave my face wet from the spray then apply 2 drops of the serum. Between the two it makes a nice, smooth surface to apply my foundation. I've recommended it to my friends who have cystic acne and they love it too! I wish it could be purchased in the store but am happy to wait for it to arrive. I keep an extra can on hand.",
+   "date": "2020-12-28",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Christina",
+   "titre": "Great",
+   "texte": "I use this product after I wash face and before I use my hydraulic acid since your skin has to be damp to use it. I have normal skin but it is dry and sensitive with redness in the cheeks. With the combination of those two products, my redness has almost went away and my skin is the most hydrated it has ever been and not too greasy.",
+   "date": "2020-10-04",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "normal",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "None",
+   "titre": "Mineralizing Spray!",
+   "texte": "I like the product, however, my skin is so dry, that I have stopped using it for now. I think this summer when my skin is not as dry, I am going to love it and try it again. It smells great, and I love the size, and the way it sprays as well! My skin is just too dry for it right now, and very sensitive, but I am definitely going to try it again when I'm not as dry!",
+   "date": "2020-01-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "chikitaromero",
+   "titre": "I fry with granites...",
+   "texte": "I fry with granites and more began to come out with the mouth guard and they recommended that I use thermal water and I can say that it is super good to reduced my problem of granites by 60% I recommend it the Vichy brand is super good",
+   "date": "2021-01-27",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alexis",
+   "titre": "Must have in skincare routine",
+   "texte": "I never thought I needed to add a step to my skincare routine but after trying this, it's a must before my makeup and I use it to wet my beauty blend sponge too for my foundation application. So refreshing and has made a difference in my oily combo skin!",
+   "date": "2020-01-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "globalbeauty",
+   "titre": "Love it, it's always...",
+   "texte": "Love it, it's always good to have it summer time, in the beach. A little pricey for just being water…. It's a good product. BUT if you apply this, make sure you apply it AFTER moisturizing your skin. Otherwise, you'll end up leaving your skin dryer than before spraying water on your face. Super refreshing for summer days!",
+   "date": "2021-06-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Hsb",
+   "titre": "Third bottle that stops working halfway through the bottle",
+   "texte": "I gave it two stars, because I do actually like the product. It has a fine mist that works great for misting my face before skincsre products. However, this is the third bottle in a row where the sprayer has stopped working halfway through the bottle. I have tried running it under warm water/scrubbing it, ect. Once the nozzle stops working, you can't use any of the product thats left inside. It is starting to feel purposeful now, so that you are forced to buy a new bottle even when you still have a lot left.",
+   "date": "2025-08-24",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2034067",
+ "asin": null,
+ "pid": "pimprod2034067",
+ "source": "ulta",
+ "nom": "Erborian Centella Cleansing Balm",
+ "note": 4.72,
+ "nbAvis": 46,
+ "lus": 44,
+ "collectes": 44,
+ "segments": {
+  "oily": "Two reviewers with oily skin describe the balm as non-greasy and moisturizing without clogging, though one felt it made no visible difference compared to a charcoal cleanser.",
+  "dry": "Reviewers with dry skin report the balm cleanses without stripping moisture, leaving skin soft rather than tight.",
+  "sensitive": "Reviewers who describe their skin as sensitive report no irritation, stinging or issues with their eyes even with makeup removal.",
+  "mature": "Reviewers who mention menopausal or aging (59-year-old) skin report visible softness and a reduced appearance of lines after use."
+ },
+ "concerns": {
+  "aging": "Several reviewers in their late 50s or describing menopausal skin report the balm reduces the appearance of lines and leaves a healthy glow.",
+  "dehydration": "Most reviewers who mention dryness report the balm hydrates and leaves skin soft, not tight or stripped; one reviewer nonetheless calls the texture thicker than expected.",
+  "redness": "One reviewer reports the range helped control long-standing redness on cheeks and nose, and another notes it smooths and covers redness under makeup; one reviewer reports the product itself caused a rash and redness.",
+  "barrier": "Reviewers with sensitive or reactive skin report no irritation or stinging, including around the eyes.",
+  "spots": "No reviewer specifically discusses spots or blemish outcomes from this cleansing balm.",
+  "blemishes": "No reviewer specifically discusses blemish or acne outcomes from this cleansing balm.",
+  "oiliness": "Reviewers with oily skin describe the balm as not greasy and not leaving a film, though one reports no improvement over a previous charcoal cleanser."
+ },
+ "aspects": [
+  {
+   "libelle": "Melts into a light, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective makeup and mascara removal",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, subtle scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong scent may bother some",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Spatula tends to fall out of packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Short expiry given large size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for amount used",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Elaine S.",
+   "titre": "Not great",
+   "texte": "Unfortunately I used this product and it doesn't suit my skin it gave me a rash made my skin red",
+   "date": "2023-10-29",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Misrak E.",
+   "titre": "I wouldn't see any difference",
+   "texte": "I wouldn't see any difference in my skin; very oily; I used to use the charcoal cleansing. It was much better.",
+   "date": "2022-04-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Abby",
+   "titre": "Excellent for not drying out your skin",
+   "texte": "It's weird using something oily to clean your skin, especially when you have oily skin to begin with. This stuff is great tho! My skin actually feels clean, but still moisturized. It's cool.",
+   "date": "2022-09-19",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kaver",
+   "titre": "Gentle Cleanser",
+   "texte": "I love this gentle cleansing balm! It removes all of my makeup (even waterproof mascara!) and leaves my skin feeling hydrated. The scent is pleasant. I have sensitive skin and didn't have any issues with this balm. #ErborianVIP",
+   "date": "2022-08-03",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shelley M.",
+   "titre": "Nourishing",
+   "texte": "This product has saved my dry, sensitive, seriously menopausal skin! It cleanses brilliantly without drying or irritating my skin and it smells divine.",
+   "date": "2022-12-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa",
+   "titre": "Much better than other balms",
+   "texte": "This one is different! Not greasy, lathers, takes it all off, leaves your skin unbelievably soft, no grease or film. Read the directions. It's so easy to use, no mess, no need for cotton or cloth, it rinses off. That was really surprising, how clean it rinses off. And then the softness was also surprising. I had to touch my face a few times just to believe it. It also reduced the appearance of lines. I'm 59 and my skin is not perfect, Erborian really makes it look amazing.",
+   "date": "2022-06-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jill S.",
+   "titre": "Best Cleanser",
+   "texte": "I've suffered from red cheeks and nose for years and years. The Erborian Products have really help me control the redness. I even have a glow now ! Love Erborian products.",
+   "date": "2024-08-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2030941",
+ "asin": null,
+ "pid": "pimprod2030941",
+ "source": "ulta",
+ "nom": "Shiseido Urban Environment Oil-Control Sunscreen SPF 40",
+ "note": 4.58,
+ "nbAvis": 1913,
+ "lus": 80,
+ "collectes": 103,
+ "segments": {
+  "oily": "Reviewers with oily skin repeatedly describe the sunscreen as controlling shine, absorbing quickly and not adding grease, with several calling it their solution after struggling to find a non-heavy daily SPF, though one oily-skin reviewer still reports ending up with shiny patches and a gray cast.",
+  "dry": "The one reviewer specifying dry skin reports the formula worked well and did not leave her face dry or sticky.",
+  "combination": "Reviewers with combination skin describe it as mattifying, blending well, keeping shine away in humid weather, and suitable for combo or oily skin without irritation or breakouts.",
+  "sensitive": "Reviewers who identify as sensitive-skinned report the formula is gentle, does not irritate the eyes and causes no discomfort, though one reviewer says she personally prefers Shiseido's other sunscreen made specifically for sensitive skin.",
+  "mature": "One long-time user reports her skin looks and feels younger with regular use, attributing the effect to the mineral formula."
+ },
+ "concerns": {
+  "aging": "Reviewers using it against aging report their skin looking and feeling younger and note it protects against premature aging from sun exposure; no dissent reported.",
+  "dehydration": "Most reviewers report the hyaluronic-acid formula leaves skin hydrated, soft and never dry or sticky; no reviewer reports dryness after use.",
+  "redness": "The reviewers who mention eye-area sensitivity report no stinging or irritation; no redness complaints are reported.",
+  "barrier": "No direct barrier complaints are reported; several sensitive-skin reviewers describe the formula as gentle and non-irritating.",
+  "spots": "One reviewer reports the tint helps cover some blemishes; overall spot-specific effects are barely discussed.",
+  "blemishes": "Several oily/acne-prone reviewers report no new breakouts and pores staying clear; one older-formula user reports the current version makes her break out, a clear dissent from the majority.",
+  "oiliness": "Most reviewers, especially those with oily skin, report a mattifying, non-greasy, shine-controlling effect lasting through the day; a minority report the current formula leaves them greasy and shiny, contradicting the majority experience."
+ },
+ "aspects": [
+  {
+   "libelle": "White or gray cast on darker tones",
+   "polarite": "neg",
+   "concerne": [
+    "mature",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Formula changed from previous version",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong chemical or sunscreen scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Compact, travel-friendly packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Wears well under makeup without pilling",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Expired stock upon purchase",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "J",
+   "titre": "PLEASE BRING BACK THE OLD VERSION WITHOUT THE HOMOSALATE",
+   "texte": "Please. It was perfect before this most recent update. Now it smells of strong chemical( that actually triggers migraine), makes my skin greasy, and makes me break out. I used the previous version for 10 years and never will I ever find sunscreen as good as that one ever again. I really hope you bring it back",
+   "date": "2024-07-25",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Pitar",
+   "titre": "It's okay",
+   "texte": "I tried this for a while and its okay. I dont like that it gives me a gray cast and i dont like the texture on my skin. I have oily skin so i end with more oily of shiny parts on my face.",
+   "date": "2024-07-06",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Wren",
+   "titre": "Great Protection, but Slight White Cast",
+   "texte": "The Shiseido Urban Environment Oil-Free Sunscreen offers excellent sun protection with a lightweight, mattifying formula that works wonderfully for my combination skin. It blends well, absorbs quickly, and keeps my skin looking fresh and shine-free throughout the day, even in humid weather. I also appreciate how gentle it is—no irritation or breakouts! However, the only drawback is the slight white cast it leaves behind, especially on deeper skin tones or when I apply generously. While it's not a dealbreaker for me, I do have to take extra time to blend it out fully. Overall, it's a high-quality sunscreen with great performance, but a little improvement in the cast would make it perfect. Gifted by Shiseido",
+   "date": "2024-12-04",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ejones",
+   "titre": "I would definitely recommend",
+   "texte": "I was gifted by Shiseido to try out their Urban Environment Oil-Free Sunscreen SPF 42. First impressions: it's lightweight, non-greasy, and offers great sun protection without clogging pores. Perfect for oily or acne-prone skin, it absorbs quickly and leaves a matte finish.",
+   "date": "2024-12-11",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gabby",
+   "titre": "Oily Skin Gals this is for you",
+   "texte": "As a girlie that has oily mild acne prone skin, this gifted by shiseido spf was a life changer! My skin felt hydrated and what I love about it was it wasn't too heavy! It was clean and fresh!",
+   "date": "2024-12-03",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "alina95",
+   "titre": "Gentle and Effective Sunscreen for Daily Use",
+   "texte": "I received this sunscreen complimentary from Shiseido as part of a collaboration. I've been using it for a few days now, and I'm really happy with the result. The sunscreen has a pleasant texture and doesn't feel greasy at all. It absorbs quickly and leaves my skin feeling fresh. I have sensitive skin, so I was a bit worried about irritation, but this product is really gentle and has kept my skin protected from the sun without causing any discomfort. I appreciate that it's oil-free and doesn't leave a sticky residue. Highly recommend it to anyone looking for a reliable sunscreen for everyday use!",
+   "date": "2024-12-08",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ROBERT",
+   "titre": "Best Sunscreen for Skincare",
+   "texte": "My wife LOVES this sunscreen. It's light, spreads extremely well…a dab goes along way. But mostly she said her skin looks and feels younger. This is the best skincare product with sunscreen she's ever used. It's the minerals!",
+   "date": "2025-06-02",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

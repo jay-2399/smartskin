@@ -1,0 +1,118 @@
+{
+ "ref": "pimprod2043247",
+ "asin": null,
+ "pid": "pimprod2043247",
+ "source": "ulta",
+ "nom": "Hero Cosmetics Glow Balm Radiant Skin Stick",
+ "note": 3.6,
+ "nbAvis": 5,
+ "lus": 5,
+ "collectes": 5,
+ "segments": {},
+ "concerns": {
+  "dehydration": "Two reviewers report the balm keeps skin from drying out and leaves it hydrated overnight or during travel; one reviewer found it less hydrating than other glow balms for the price."
+ },
+ "aspects": [
+  {
+   "libelle": "Texture too thick",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glowy, dewy finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well as highlighter substitute",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Easy to apply",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Value for money",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Overnight hydration on undereyes/face",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Val",
+   "titre": "Too thick.",
+   "texte": "I was expecting a lighter texture, but it's cumbersome, too thick. I feel my skin cannot breathe. I don't really like it.",
+   "date": "2025-04-08",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Lucy",
+   "titre": "Didn't do much",
+   "texte": "Just not for me for the prize. Didn't feel as hydrating comparing to some other highlighting glow balm which provide a little more shine.",
+   "date": "2025-03-09",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kayyy",
+   "titre": "10/10 !",
+   "texte": "I love this product. I use it every night before bed on my undereyes and it makes my skin glowy and hydrated for the next day. Super easy to use ! 🎀",
+   "date": "2025-02-20",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kate",
+   "titre": "Youthful Glow",
+   "texte": "I use this instead of highlihter and it looks so much better and natural and I'm a highlighter queen. I also put it on forehead above nose and ever since I started doing this everyone who meets me comments on what beautiful healthy skin I have when in reality my skin isn't that great it's just an illusion from this but it makes me look so young. I also apply it before travel and usually at least once in plane or airport and once upon arriving and it keeps my skin from drying out. Someone commented that I look like the most well-hydrated person ever haha but it just gives a beautiful lit from within glow.",
+   "date": "2025-10-22",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Glow 🤩🤩🤩🤩",
+   "titre": "Love it! 🥰😍",
+   "texte": "I put it on before I go to sleep. I feel so hydrated. It's great!",
+   "date": "2026-07-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "Only five brief reviews are available and none specify the reviewer's skin type, so segment-level conclusions could not be produced."
+}

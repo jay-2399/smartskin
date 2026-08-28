@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2042538",
+ "asin": null,
+ "pid": "pimprod2042538",
+ "source": "ulta",
+ "nom": "Clinique Take The Day Off Facial Cleansing Mousse Cleanser",
+ "note": 3.69,
+ "nbAvis": 102,
+ "lus": 79,
+ "collectes": 95,
+ "segments": {
+  "oily": "Reviewers with oily or oil-prone skin describe the mousse as stripping and squeaky-clean, with one calling it too harsh for her oily/combo skin, though one says it leaves her normal-to-oily skin feeling amazing and another prefers it because it doesn't leave her feeling oily afterward.",
+  "dry": "Dry-skinned reviewers are split: several say it left their face tight, dry or uncomfortable after just days of use, while others (including one in a dry, cold climate) report it doesn't dry them out and leaves skin soft.",
+  "combination": "One reviewer with oily/combination skin found it too harsh and stripping despite a pleasant foaming texture.",
+  "sensitive": "Sensitive-skin reviewers report the widest split: many describe itchy red bumps, hives, burning or allergic-type reactions, while several others with sensitive or rosacea-prone skin say it caused no irritation and was gentle.",
+  "normal": "One reviewer with normal-to-oily skin found it left her skin feeling amazing after removing a full face of makeup.",
+  "mature": "A reviewer in her 50s going through menopause found it dried her skin out badly, while another in her late 50s battling dry skin says one use left her skin soft again."
+ },
+ "concerns": {
+  "dehydration": "Multiple reviewers report the product left skin feeling dry, tight or 'squeaky' (sometimes needing immediate moisturizer), while an overlapping number say it did not dry them out and left skin soft or hydrated, some crediting glycerin and hyaluronic acid in the formula.",
+  "redness": "Several reviewers describe new redness, red marks, or a rash across the cheeks after use, with a couple needing antihistamines or cold compresses to calm it; others with rosacea-prone skin report no redness or irritation.",
+  "barrier": "A few reviewers describe the product as stripping natural oils and compromising the skin's protective feel (squeaky, tight), while others say their skin's barrier felt intact and moisturized afterward.",
+  "blemishes": "One reviewer with acne-prone skin reports her skin cleared with no breakouts after switching to this as a double-cleanse step, while another reviewer says the product made her break out like a teenager by day four.",
+  "oiliness": "One reviewer with oily skin felt it stripped natural oils leaving a squeaky, over-cleaned feel, whereas another reviewer liked that it didn't leave an oily after-feel compared to the balm."
+ },
+ "aspects": [
+  {
+   "libelle": "Burns or stings if it enters eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich foaming mousse texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves squeaky-clean, tight after-feel",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Small amount goes a long way, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective, residue-free makeup removal",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Chemical scent noted by some",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Thick, gluey texture straight from tube",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Nell",
+   "titre": "Allergic Reaction",
+   "texte": "I have been using Clinique products for years. I used this product and It gave me hives all over my face. I am very disappointed in this product. I am scared to trust Clinique products again. I am also a nurse and it has been very difficult to soothe and treat my face since I have used this product.0/10 I don't recommend.",
+   "date": "2024-02-19",
+   "verifie": false,
+   "utiles": 27,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Madison",
+   "titre": "Removes makeup well, but stripped all natural oils",
+   "texte": "Tried a sample size of this product and did not love it like the Clinique Take the Day Off Cleansing Oil. I felt it stripped the natural oils from my face (I have oily skin), and had to instantly needed to put lotion on, as it felt squeaky. Great concept, but not a great product.",
+   "date": "2024-01-16",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Amy C.",
+   "titre": "Too harsh and stripping for my skin",
+   "texte": "I received a deluxe sample of the Take the Day Off Facial Cleansing Mousse. This cleanser was way too harsh and stripping for my skin and I have an oily/combo skin type. It foams up nicely and felt nice while washing my face. It did feel like a soft mousse texture. However, when I rinsed it off, my face was totally stripped and tight feeling. I do not enjoy a squeaky clean feeling on my face. I couldnt wait to get out of the shower to put some moisturizer on my face. I didnt use it to remove any makeup. I just used it to wash my face after going to the gym. I did not get it near my eyes, so i dont know if it works to get off eye makeup. Other reviews said it burned their eyes. There are way better face washes and makeup removing cleansers on the market. My favorite one is Purity made simple by Philosophy.",
+   "date": "2024-01-24",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katie",
+   "titre": "Gentle and effective",
+   "texte": "I use this with the cleansing balm and they do a great job of taking off my makeup. I have dry, sensitive skin and this cleanser doesn't dry out or irritate my skin. It rinses clean and you don't need to use a lot of product.",
+   "date": "2024-01-03",
+   "verifie": false,
+   "utiles": 60,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda",
+   "titre": "I love this, it cleared my skin",
+   "texte": "I have acne prone skin. I used to double cleanse with take the day off balm and then cliniques acne wash. I switched to using this as the first step of my double cleanse. For me, it is very gentle and soothing and doesn't strip or dry me out. It feels very effective at cleansing. It feels luxurious. My skin feels so soft and clean after using. Sometimes I use this as my only cleanser if I didn't wear makeup. My skin now has not a single breakout which hasn't happened in months. I also started using cliniques do over peel recently which is probably helping with clearing my skin. But I believe this cleanser has been amazing for my skin because it effectively cleanses but is gentle and moisturizing. I'm not sure why it has such bad reviews. I think some people are using it wrong - you have to add water for it to lather. I add it to my hands, then add water and lather in my hands before using it on my skin.",
+   "date": "2024-06-18",
+   "verifie": false,
+   "utiles": 17,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Becky",
+   "titre": "Best cleanser ever",
+   "texte": "I have very dry skin plus rosacea. If my cleanser doesn't foam up on some level my face doesn't feel as clean. This product is so gentle yet so sudsy. A small pea sized amount goes a long way. Fantastic.",
+   "date": "2024-02-04",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Loren",
+   "titre": "My new favorite",
+   "texte": "I bought a Clinique grab bag from Ulta because i wanted to try the black cherry lipgloss. It came with this product, the \"take the day off\" mousse, and i absolutely fell in love. I live in a dry colder climate in Denver CO and finding products that dont dry me out is crucial. This stuff works like a charm, a little goes a long way, and youre ready to face the world with a bare face in no time. I couple this with Cliniques eye makeup remover instead of rubbing this stuff in/near my eyes.",
+   "date": "2024-11-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

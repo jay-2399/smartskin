@@ -1,0 +1,170 @@
+{
+ "ref": "xlsImpprod6200689",
+ "asin": null,
+ "pid": "xlsImpprod6200689",
+ "source": "ulta",
+ "nom": "Mario Badescu Vitamin C Serum with Hyaluronic Acid",
+ "note": 4.25,
+ "nbAvis": 633,
+ "lus": 80,
+ "collectes": 108,
+ "segments": {
+  "oily": "Oily-skin reviewers describe the serum as helpful for acne scars and hydration but at least one warns it broke her out terribly and advises others with oily skin to stay away.",
+  "dry": "Dry-skin reviewers mostly report hydration and smoothing, though some describe the opposite: severe dryness, flaking, and even a chemical-burn-like reaction lasting months.",
+  "combination": "Combination-skin reviewers generally report improved texture, glow and even tone, with one noting recurring whiteheads and irritation after repeated use.",
+  "sensitive": "Sensitive-skin reviewers are the most split: several praise it as the first vitamin C serum that doesn't irritate them, while others report burning, heat rash, swelling, or allergic-type reactions.",
+  "mature": "Mature-skin reviewers report brighter, smoother, more rejuvenated-looking skin and describe it as helpful against fine lines and wrinkles."
+ },
+ "concerns": {
+  "aging": "Reviewers using it against aging report smoother, brighter skin and reduced look of fine lines/wrinkles over months of use; none report it worsening signs of aging.",
+  "dehydration": "Most reviewers say it hydrates well and pairs nicely with moisturizer, though a few report it left skin very dry, flaky, or irritated, especially with nightly use.",
+  "redness": "Several reviewers say it reduced redness linked to breakouts or maskne; one reviewer says it did nothing for her redness and one describes a burning sensation with no relief.",
+  "barrier": "A few reviewers with reactive or damaged skin (including a chemical-burn history) say it helped skin recover and brighten; others describe the product itself causing burning, rash, or prolonged irritation.",
+  "spots": "Many reviewers report fading of dark spots, hyperpigmentation, and acne scars over weeks to months; one reviewer used it specifically on stretch marks with reported improvement in two days.",
+  "blemishes": "Numerous reviewers with acne-prone or cystic acne report fewer breakouts and faded scarring, often combined with prescription treatment; several others report new whiteheads or breakouts starting after one use.",
+  "oiliness": "A few reviewers note the serum feels oily or greasy on application, though most say it absorbs quickly without residue; one reviewer found it too greasy despite helping with hyperpigmentation."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong lavender/citrus scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pleasant fragrance noted",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaky twist-on lid",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick texture, slow to absorb",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus pricier serums",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Formula change disappointed longtime users",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Nadia Cristina",
+   "titre": "Not for sensitive skin",
+   "texte": "If you have sensitive skin stay away from this Serum. I have atopic dermatitis and this triggered not only an allergic reaction but, it made me break out so badly I have to change my entire routine. I used it less than a month and it's been a pain for my skin to return to normal.",
+   "date": "2021-07-18",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Bri M",
+   "titre": "Works for others but definitely not me",
+   "texte": "I have dry and sensitive skin and now love vitamin c products, however I applied this serum to my smile line area and ended up with what was like a chemical burn. My skin darkened, got so dry it peeled for 4 months, and after over a year since I bought it I'm still buying products to undo the damage caused by this product. I love this brand so I was very disappointed when this happened.",
+   "date": "2020-05-12",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "T",
+   "titre": "Evens out my skin",
+   "texte": "I always come back to this vitamin C serum. I have acne prone skin (bad, cystic) and this serum helps to fade my acne scars. I use it in the morning (before sunscreen) and it just makes my skin so glow-y. Not dewy, just glow-y. I always notice a difference in my skin when I start using this product again.",
+   "date": "2023-07-30",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "lyn",
+   "titre": "OMG! I LOVE THIS SERUM!",
+   "texte": "I have super dry and sensitive skin along with light rosecea and my skin loves it! my skin has changed dramatically! highly recommend!! don't forget to pair it with your spf!",
+   "date": "2024-04-03",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kar",
+   "titre": "My favorite Vitamin C serum",
+   "texte": "I have acne prone and dry/sensitive skin, and this has been my favorite Vitamin C serum I have found to date. I noticed after I had used it for a few weeks that the texture of my skin was much smoother, my moisturizer went on much easier, and I needed less moisturizer. I have now switched to using the serum from the Ordinary to save money, but it is noticeably better!",
+   "date": "2020-09-29",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "H.P",
+   "titre": "Let's be realistic",
+   "texte": "I have - Sensitive - Redish(sometimes)- Acne prone skin. It's kinda hard to manage because sometimes I have this streak of flawless skin and then WHAM our longest enemy relationship if the zits appear. I've added this to my skin routine (I RARELY change it EVER) and there is a difference. FOR ME it defiantly has made my skin tone more even, clear, and dewy/ISH lookin'. The only thing is, that this serum is pretty oil based so use it in moderation and give some time to let your skin really take this in. It's been about a month for me and my skin FEELS so great and looks it. BOTTOM LINE: Recommend👌🏼",
+   "date": "2020-08-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Baconlover",
+   "titre": "Something that finally works for my sensitive skin!",
+   "texte": "I rarely leave reviews, but this serum really impressed me. I have very sensitive skin (sometimes textured in places), dry and acne prone skin making it hard to find products that can keep the acne at bay without over drying. I got this in a sample bag from Ulta and have been using for about 2 weeks now. I already have a full size bottle on the way! This serum has not only started to clear up my sporadic acne, but it's starting to lighten the awful scaring I have on my cheeks. I've noticed that my skin tone is more even and feels much smoother. The best part is that it's NOT super drying, I can't wait to see results after a few months of use. Also I use this every night even though the bottle says every other night!",
+   "date": "2020-05-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

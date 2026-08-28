@@ -1,0 +1,157 @@
+{
+ "ref": "pimprod2025806",
+ "asin": null,
+ "pid": "pimprod2025806",
+ "source": "ulta",
+ "nom": "Buttah Skin Brightentng Vitamin C Serum",
+ "note": 4.65,
+ "nbAvis": 1079,
+ "lus": 74,
+ "collectes": 100,
+ "segments": {
+  "sensitive": "One reviewer with sensitive skin reports no breakouts from the serum, describing a smooth, glowing result; another reports the product stings on micro-cracks caused by eczema-related dryness but is still tolerated even near the eyelids.",
+  "dry": "Reviewers with dry or eczema-prone skin report improved dryness, uneven color and moisture retention, though one notes stinging on cracked patches; another states the formula does not leave the dry, tight feeling other vitamin C serums caused.",
+  "mature": "Reviewers in their 50s, 60s, 70s and 80s report brighter, more even-toned, glowing skin and, in a few cases, a visible softening of fine lines and wrinkles.",
+  "oily": "One reviewer reports smaller-looking pores and less oily skin alongside an improved glow.",
+  "combination": "One reviewer with adult acne and uneven texture reports fading of spots and a more even skin tone with continued use."
+ },
+ "concerns": {
+  "aging": "Mature reviewers (50s–80s) report a brighter, more even, glowing complexion, and a couple describe visibly reduced fine lines; no dissent on this concern was found.",
+  "dehydration": "Reviewers describe added moisture, moisturized/hydrated glow and improved dryness including for eczema-related dryness; one of these same reviewers notes the product can sting on very dry, cracked skin.",
+  "redness": "Not enough reviewer detail on redness specifically to report a pattern.",
+  "barrier": "One reviewer with eczema-related dryness and micro-cracking reports stinging on application, though found the product otherwise gentle enough to use near the eyelids.",
+  "spots": "Many reviewers report visible fading of dark spots, hyperpigmentation, sun-related discoloration and acne marks, some within one to two weeks; no reviewer reports spots worsening.",
+  "blemishes": "Several reviewers report reduced acne, cleared breakouts, or faded acne scars, including for teenage acne and adult acne; however, two reviewers state the reformulated serum caused new breakouts and made skin feel sticky, and one other reviewer describes initial breakouts before skin adjusted.",
+  "oiliness": "One reviewer reports smaller pores and less oily skin; no other reviewer discusses oil control specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Reformulation changed texture and scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or unpleasant smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky feel on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable glow with regular use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Generous bottle size and value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Muff",
+   "titre": "Unfortunately",
+   "texte": "Unfortunately, the ingredients have changed with the Vitamin C serum. With every use my face feels sticky and breaks out really bad. It smells like a hand full of coins to. I've stocked up on the kits and I can't use the Vitamin C serum anymore, so money wasted as far as the serum goes. It sucks because it never broke me out before the change.",
+   "date": "2025-03-12",
+   "verifie": false,
+   "utiles": 14,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Queta",
+   "titre": "I love this serum",
+   "texte": "I have sensitive skin and this product did not break me out. It gives my skin a nice glow and it feels really smooth.",
+   "date": "2024-01-25",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jess",
+   "titre": "Lovely product!",
+   "texte": "A bit stinky but has help a lot with dry skin, uneven color, moisture retention and of course, daily use as directed for the last 3 months. Can sting a for a little bit if you have micro scratches/cracking from very dry skin like I do from eczema. Found it gentle enough to use around my eyelids too. Everyone's skin is different so take my word with a grain of salt.",
+   "date": "2026-08-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jay D",
+   "titre": "Game Changer",
+   "texte": "This stuff is a game changer for my skin. My pores are smaller, my skin is less oily and i have an unbelievable glow.",
+   "date": "2024-07-01",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Zmomma",
+   "titre": "Teenage skin care",
+   "texte": "I buy this for my teenage son. He loves the whole facial care products - the serum work really well for a teenage boy that plays football and constantly suffers from acne from equipment and sun.",
+   "date": "2023-10-27",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vanessa_",
+   "titre": "Excellent product",
+   "texte": "Excellent product! I've tried other vitamin c serums that just broke my face out but this one is formulated gently and gives my skin softness and suppleness that I need! I've been using the product consistently for over a year and my skin looks great!",
+   "date": "2023-12-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Jason",
+   "titre": "Disappointed in new formula of the Vitamin C \"serum\"",
+   "texte": "Ugh, these companies always fixing things that aren't broken. As a long-time loyal customer of ButtahSkin, I'm extremely disappointed by the recent change to the Vitamin C Serum formula. The previous version was far superior—thicker in texture, more effective on my skin, and provided a truly luxurious experience. Unfortunately, this new formula is a major letdown. Its watery consistency, almost like the Rosewater Toner, is nothing like the serum I once loved. This is not what I would expect from a high-quality product. To make matters worse, it no longer gives my skin that radiant glow it once did. I used to notice an instant brightness after using the old formula, but now my skin feels dull and lackluster.",
+   "date": "2025-01-13",
+   "verifie": false,
+   "utiles": 21,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

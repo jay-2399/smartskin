@@ -1,0 +1,161 @@
+{
+ "ref": "pimprod2058102",
+ "asin": null,
+ "pid": "pimprod2058102",
+ "source": "ulta",
+ "nom": "Dr. Melaxin Calcium Volume Multi Balm",
+ "note": 3.25,
+ "nbAvis": 32,
+ "lus": 25,
+ "collectes": 25,
+ "segments": {
+  "dry": "Reviewers with dry under-eye or facial skin report deep, long-lasting hydration and a softer, smoother feel without greasiness.",
+  "sensitive": "One reviewer with sensitive skin and hEDS reports firmness and reduced smile lines with no irritation, though another reviewer not identifying as sensitive reports the balm made her face worse with cystic acne.",
+  "mature": "Reviewers describing themselves as mature or in their 30s report softened fine lines, crow's feet, and 11 lines, while others in the same age range report no visible change after a month."
+ },
+ "concerns": {
+  "aging": "Several reviewers report visible softening of fine lines, crow's feet, and smile lines within weeks; multiple others using it specifically for fine lines or wrinkles report no change at all after a month or more.",
+  "dehydration": "Reviewers using it for dry under-eyes, lips, and forehead consistently report strong, long-lasting hydration and a smoother feel.",
+  "blemishes": "One reviewer reports severe, repeated cystic acne and painful pimples from use, while several others report zero breakouts and safe wear under makeup.",
+  "oiliness": "Reviewers describe the balm as thick or occasionally greasy when overapplied, though most say it absorbs quickly without feeling heavy.",
+  "barrier": "One reviewer highlights it as barrier-supporting for mature skin, while another describes it as literally ripping up and shredding her skin during application."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast absorption, non-greasy feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, glowy finish under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills or piles up when overapplied",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick, hard-to-massage-in texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Low active ingredient concentration",
+   "polarite": "neg",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Unscented, cooling sensation on skin",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Ester",
+   "titre": "I can't with this thing.  I don't know why it's viral.",
+   "texte": "I tried a \"balm stick\" once before and this one was so viral I figured I'd give it a shot. just don't. I wish I'd read the reviews first. I fully hate this thing at this point and it's stupidly expensive. so far it's mainly caused nothing but MASSIVE CYSTIC ACNE which i rarely get naturally. seriously, I am covered in so many pimple patches it looks ridiculous and they cannot just be steamed/popped whatever. Just painful huge bumps. It's insanely thick and greasy...and still drying somehow?? Probably because it actually rips up your skin trying to massage it in fully, and when I thought \"well okay, it'll just put it on the skin without the excessive rubbing because it shredded my skin off, it's clearly thick enough to be a slug stick\" it caused yet another massively painful cystic zit on the side of my nose. It causes anything under it to pill up like crazy. I had on nothing but a very watery thin toner, and it still did it, or maybe its just all the dead dry skin it rips up even after I've done a double cleanse/exfoliation/sebum melting treatment. I can't tell if its even doing anything for fine lines and even if it did it is NOT worth all this other crap. I tried just using it as a lip balm and they're MORE chapped somehow. Having just put on a FOURTH pimple patch from using it last night, I'm absolutely done. I'm angry it was so hyped and I spent that amount of money on it, especially because i figured I'd forgo a new eye cream for it as an all over balm stick. I honestly ",
+   "date": "2026-07-20",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Ari",
+   "titre": "Let's talk about the ingredients",
+   "texte": "Hi, skincare expert here! This stick is essentially all wax and next to zero active ingredients. The calcium and collagen they claim will tighten and firm? Less than 2% concentration. If you are looking for a stick that will give hydration, then this is an alright choice. Any plumping or smoothing you are seeing in your skin is purely due to better hydration, and nothing else.",
+   "date": "2026-07-02",
+   "verifie": false,
+   "utiles": 51,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Paige",
+   "titre": "Gaslighting",
+   "texte": "This stuff went viral, and i tried it due to having 30 year old aged under eyes. Ive used this every day, morning and night and sometimes rabdonly again in the afternoon. Ive noticed no change for a month",
+   "date": "2026-08-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Celia",
+   "titre": "This stuff actually WORKS, y'all!",
+   "texte": "Big difference in my crow's feet and 11 lines when my face is at rest. Glides on smooth, lasts long, and hydrates without breakouts. Works better than high-end sticks!",
+   "date": "2026-08-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gab",
+   "titre": "Great balm! Wonderful if you have realistic expectations!",
+   "texte": "I personally really like this balm so far! I've been using it for around a month now, and I am seeing an improvement in the firmness of my under eye skin, and my smile lines aren't as bad as they used to be. Obviously it hasn't helped with my hollow under eyes, it's not filler and cannot be expected to have results like that, but for a topical product it's doing great, and this is coming from someone with sensitive skin and hEDS.",
+   "date": "2026-07-17",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah",
+   "titre": "This stuff WORKS!",
+   "texte": "While it isn't a surgical solution, this balm does an incredible job of deeply hydrating dry under-eye areas all day. It works seamlessly under makeup and provides long-lasting moisture, making it ideal for daily dry skin care.",
+   "date": "2026-08-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kini",
+   "titre": "One of the most useful products for mature skin",
+   "texte": "Barrier-supporting balm for mature skin! Soft-focuses fine lines instantly and works under makeup without pilling. Perfect for daily comfort and skin health.",
+   "date": "2026-08-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "barrier",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

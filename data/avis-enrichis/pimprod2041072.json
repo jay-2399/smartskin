@@ -1,0 +1,160 @@
+{
+ "ref": "pimprod2041072",
+ "asin": null,
+ "pid": "pimprod2041072",
+ "source": "ulta",
+ "nom": "DIME Hyaluronic Acid Serum",
+ "note": 4.9,
+ "nbAvis": 4364,
+ "lus": 78,
+ "collectes": 84,
+ "segments": {
+  "dry": "Several reviewers with dry skin describe the serum as their go-to for daily hydration and say it has become a staple for year-round dryness, though one longtime user of the brand found a reformulated batch left her face tight and dry once absorbed.",
+  "sensitive": "Reviewers who describe sensitive skin, including some with rosacea, report no bad reactions and say the serum feels calming and hydrating rather than irritating.",
+  "mature": "Reviewers who mention mature or aging skin, including one who notes her age (73), report plumper, firmer-feeling skin and reduced appearance of fine lines and wrinkles.",
+  "combination": "One reviewer with a normal T-zone and dry cheeks found this batch left her skin tight and dry, suspecting it might suit oilier skin better."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report visibly softened fine lines, added plumpness, and a firmer, bouncier feel, particularly around the eyes; no dissent noted.",
+  "dehydration": "The large majority of reviewers describe strong, lasting hydration and relief from dryness, even in winter climates; one reviewer, however, says her face remains dry in the mornings and is unsure the product is helping, and another found a recent batch left her skin tight and dry rather than moisturized.",
+  "redness": "One reviewer specifically reports lightening redness alongside smoother skin; no other redness-specific reports are present.",
+  "barrier": "One reviewer with a previously irritated, struggling skin barrier reports it feeling reset, calmer, and healthier within days of use.",
+  "spots": "One reviewer reports a noticeable decrease in dark spots after consistent use.",
+  "blemishes": "One reviewer reports breaking out less after adding this serum to her routine, and another states breakouts stopped entirely; no reviewer in this set describes new or worsened breakouts.",
+  "oiliness": "Several reviewers highlight that the serum hydrates without leaving an oily or greasy residue, describing it as lightweight and non-greasy even for those wary of feeling oily."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Hydrating without oily residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills under other products if not absorbed",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle offers good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle impractical for travel",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Formula changed, less moisturizing than before",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Small amount needed per use",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Faidra",
+   "titre": "Seems different",
+   "texte": "I've bought this hyaluronic serum in the past and remember it being more moisturizing. This formula leaves my face tight and dry once absorbed. Maybe it would work fine for someone with oily skin as mine is normal in my t-zone and dry on my cheeks. I'll use it because I've already thrown away the packaging but I won't be repurchasing.",
+   "date": "2025-11-16",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chrissy H.",
+   "titre": "Best on the Market",
+   "texte": "Love, Love, Love this serum. it hydrates without being oily. Works miracles on my fine lines and aging skin.",
+   "date": "2026-03-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sharis N.",
+   "titre": "Don't want to be without it!",
+   "texte": "Don't want to be without it! Even at 73 this product has been a game changer. It has plumped my skin and added that \"bounce\" that I'd lost. Try it. You won't be disappointed.",
+   "date": "2026-03-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Braylee S.",
+   "titre": "The Best!!!",
+   "texte": "I honestly don't write reviews often, but DIME Beauty's Hyaluronic Acid Serum deserves every bit of this praise. I've only been using it for ONE week, and I'm genuinely blown away by what it's done for my skin. My skin barrier was struggling, irritated, and just not looking or feeling healthy and somehow this serum completely changed that in days. My skin feels calmer, deeply hydrated, smoother, and healthier than it has in a long time. I pair it with DIME's Vitamin C Serum and tinted sunscreen every day, and this combination has seriously brought my skin back to life. My complexion looks brighter, more even, and so much more refreshed. It honestly feels like my skin barrier has been reset. If your skin feels dull, compromised, or like it needs a fresh start, this trio has been a total game changer for me. My skin has a whole new life. Ps I also use eye serum it honestly feels like the perfect finishing touch, it just completes my skincare routine and makes everything feel even more polished. But of all the things I use if you can only buy product it would 100% be the hyaluronic acid",
+   "date": "2026-04-28",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Fibi D.",
+   "titre": "Using it every day. . . .",
+   "texte": "I read about the benefits of hyaluronic acid as an exfoliator, but all the products I'd tried so far were too harsh for my sensitive skin. The I received a sample of the DIME serum and it works really well. I'm using it every day as part of my before bed routine and I've had no bad reactions at all. I'm really enjoying this product - thank you.",
+   "date": "2025-09-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sydney M.",
+   "titre": "Obsessed",
+   "texte": "This serum is the best thing I've ever used on my face. I have rosacea and have very sensitive skin. This serum feels incredible and makes your skin feel so smooth!",
+   "date": "2026-04-27",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erica Y.",
+   "titre": "no more breakouts",
+   "texte": "No more breakouts since I started using this serum. incredibly happy with this product.",
+   "date": "2025-11-23",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

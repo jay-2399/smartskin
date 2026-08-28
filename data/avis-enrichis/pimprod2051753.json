@@ -1,0 +1,160 @@
+{
+ "ref": "pimprod2051753",
+ "asin": null,
+ "pid": "pimprod2051753",
+ "source": "ulta",
+ "nom": "FARMACY Deep Sweep 2% BHA Pore Cleaning Toner",
+ "note": 4.85,
+ "nbAvis": 1197,
+ "lus": 79,
+ "collectes": 121,
+ "segments": {
+  "oily": "Reviewers with oily skin report reduced shine, less sebum build-up, and smaller-looking pores without the product stripping or drying skin.",
+  "dry": "The one reviewer who identifies as having dry skin at baseline reports the toner did not dry her out despite exfoliating.",
+  "combination": "Combination-skin reviewers report reduced congestion around the nose and chin, smoother texture, and oil control without over-drying.",
+  "sensitive": "Sensitive-skin reviewers largely report good tolerance with no stinging or irritation and gentle pore-clearing, though one uses it only at night to avoid discoloration and another switches it out with a milder toner to limit irritation risk.",
+  "mature": "One reviewer (39) reports smoother-looking skin and more compliments on her skin than she's had in years."
+ },
+ "concerns": {
+  "aging": "A small number of reviewers mention brighter, more even-toned, glowing skin and smoother texture, framed as an anti-aging-adjacent benefit rather than explicit wrinkle reduction.",
+  "dehydration": "Most reviewers report no dryness or tightness, several specifically praising a hydrating, non-stripping feel, though this is stated as an absence of dryness rather than active hydration for most.",
+  "redness": "Reports are largely positive with one reviewer noting the product calms breakout-related redness and another saying her skin agreed with it despite past redness from similar products; no reviewer reports increased redness.",
+  "barrier": "Multiple reviewers emphasize the alcohol-free, non-stripping formula that leaves skin balanced rather than compromised, with no reports of barrier damage.",
+  "spots": "Reviewers report visibly reduced dark spots, pigmentation, and more even tone after use, though this is mentioned by only a few and not corroborated by the majority.",
+  "blemishes": "Most reviewers with acne-prone or blemish-prone skin report fewer breakouts, reduced whiteheads/blackheads, and calmer congestion; one notes it only helped chest acne and not facial acne, and one still saw cystic acne that required seeing a dermatologist for Tretinoin.",
+  "oiliness": "The large majority of oily-skin reviewers report noticeably less shine and controlled sebum, with no reports of oiliness worsening."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight watery texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sticky residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild tingling on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Elegant glass bottle packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Generous bottle size for value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Hidden plastic stopper confusing at first use",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Victoria",
+   "titre": "Soothing",
+   "texte": "Seem to have a soothing and smoothing effect, but I haven't noticed anything dramatic.",
+   "date": "2024-06-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Jay",
+   "titre": "Deep Sweep 2% BHA Toner",
+   "texte": "Complimentary from Farmacy Beauty. I have oily skin and since using the Deep Sweep 2% BHA Toner, I noticed my pores felt a lot more clean and and skin looks less shiny/oily. The formula feel light like water and soothes my skin.",
+   "date": "2025-06-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Karacc",
+   "titre": "A game changer",
+   "texte": "Gentle and effective!! I love that this product doesn't strip my skin. I have had sensitive congested skin for a while now. . when it looks like I'm about to get a breakout I reach for this toner my nighttime skincare routine and in the morning my breakout isn't as bad. Gifted by farmacybeauty",
+   "date": "2025-06-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ewaa",
+   "titre": "Great for oily skin",
+   "texte": "Gifted by Farmacy Beauty. I absolutely love Farmacy Beauty skincare and this one is not an exception from that rule. This tones is just great. It gently exfoliates my skin and makes my pores less visible. It's also great for oily skin like mine to keep it shine free and keep the sebum under control. I prefer to use it at night only - my skin is very sensitive and even with SPF there's a danger of some discolorations when used during the day. I love that the bottle is bigger too - we usually get 100 ml in those toner bottles but here we get 120ml.",
+   "date": "2025-05-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lauren",
+   "titre": "Gentle but Effective",
+   "texte": "Gifted by farmacybeauty. This toner if effective but gentle. I have been able to use it daily despite having other actives in my routine. I use this at night and apply with a cotton round. It is easy to apply. I did not experience any irritation and this made a HUGE difference in my skin's texture and pore size. I have dry skin at baseline and did not find this to be drying. I always look forward to this step in my routine because the results make me so happy!",
+   "date": "2025-05-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "O",
+   "titre": "Gentle but So Effective",
+   "texte": "Gifted by Farmacy in exchange for an honest review. Okay, wow.. I love this BHA. I have sensitive skin and sometimes find BHAs too intense. This is both gentle and effective. I use it at night (1-2 times a week) and the next morning my skin looks soooo clear (blackheads truly gone) and feels so soft. I'm obsessed.",
+   "date": "2025-06-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Annie",
+   "titre": "Love it! l",
+   "texte": "Absolutely love this toner! I use it every night to help clear up acne i've been dealing with. I did just see a dermatologist and will start Tretinoin soon to clear it up completely. However, I do think this toner cleared up everything it could! I'm satisfied with the product and would highly recommend!!",
+   "date": "2024-11-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

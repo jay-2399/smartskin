@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2056896",
+ "asin": null,
+ "pid": "pimprod2056896",
+ "source": "ulta",
+ "nom": "Naturium Barrier Bounce Mist",
+ "note": 4.18,
+ "nbAvis": 17,
+ "lus": 15,
+ "collectes": 15,
+ "segments": {
+  "dry": "Reviewers with dry skin report the mist provides an instant, lightweight hydration boost that eliminates the tight, dry feeling without greasiness or residue.",
+  "sensitive": "Reviewers describing their skin as sensitive or easily sensitized report the mist hydrates and soothes without irritation, though other reviewers of unspecified skin type experienced stinging or red bumps from the same product.",
+  "mature": "One reviewer with aging skin reports the mist leaves skin feeling soft and glowy and enhances a bouncy, hydrated look."
+ },
+ "concerns": {
+  "dehydration": "Multiple reviewers report the mist delivers a lightweight but deep hydration boost, refreshing skin that feels tight or dry, with no reported greasiness afterward.",
+  "barrier": "One reviewer whose skin was compromised by actives (dryness, roughness, acne) reports the mist reduced red bumps and restored comfort within days of consistent use.",
+  "redness": "One reviewer reports red bumps resolved after switching to this mist following barrier damage, while two other reviewers report the product itself caused stinging and small red bumps to appear.",
+  "spots": "One reviewer reports no new breakouts after use as skin recovered from barrier damage, though this is a single account and not corroborated by others focused specifically on acne.",
+  "aging": "One reviewer with aging skin reports the mist makes skin feel soft, glowy, and more bouncy."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight hydrating feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Sprayer nozzle malfunctions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for a toner",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stinging or irritation on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Bottle lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mist gets less fine in cold temperatures",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "AD",
+   "titre": "Not for me.",
+   "texte": "My skin is pretty tolerable of a lot of things and rarely reacts to new products. But this one irritated my skin (and my nose). Im not sure whats in it that caused the irritation, but small red bumps started to appear shortly after using this product. After a few days, I removed it from my lineup and skin went back to normal.",
+   "date": "2026-02-17",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "S.S",
+   "titre": "Ouch!!",
+   "texte": "Within a couple of minutes after spraying this on my face, my face started stinging. Washed it off and it stopped stinging. Its not for me.",
+   "date": "2026-03-02",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "KG",
+   "titre": "Great face mist!",
+   "texte": "I love Naturium products, and this newest addition didn't disappoint. I prefer using a face mist in the mornings, and have been struggling to find one that I like. I decided to give this one a try and have been loving it so far. My face feels really soft after misting and I thankfully haven't had any reactions. My skin is easily sensitized so this was important for me!",
+   "date": "2026-03-01",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vidhi P",
+   "titre": "Naturium Barrier Bounce Mist",
+   "texte": "I recently started using the Naturium Barrier Bounce Mist, and I have to say, I'm impressed. As someone with dry and sensitive skin, finding a product that hydrates and soothes without irritating is a game changer. This mist delivers just that – it provides an instant boost of hydration that feels lightweight yet deeply nourishing and fragrance-free. It's become a staple for when my skin feels tight or just a refresher without feeling any greasiness or residue. The only downside, for me, is the price. While it's a fantastic product, I do think it's on the pricier side for something you'd typically find at a drugstore. That said, the quality of the product makes it worth the splurge if you're looking for something that delivers real results for dry and sensitive skin.",
+   "date": "2026-02-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ash",
+   "titre": "repaired my skin barrier",
+   "texte": "I was really hesitant because of the price but my skin was RUINED from actives. Dry, rough, acne. it was painful. literally the first morning i woke up after using this, the red bumps that covered my jaw were gone. Its been four days consistent use and my skin feels so hydrated and it hasnt caused me any acne. The bottle also still feels really full even though I've been using a lot of product",
+   "date": "2026-02-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ChrissyM",
+   "titre": "Best facial mist everrrrrrrrrrr!!!",
+   "texte": "I have 2 bottles of the Biphase mist, one for skincare after makeup is off and one in the bathroom for makeup application! Dare I say I bought this one and the prequel facial mist, IMO this is the one! The mister itself is excellent, my aging skin loves what this Biphase formula does to it! Makes my skin feel very soft and glowy, and very hydrated. This spray also works really well w/my st. Tropez fake tan facial mist!",
+   "date": "2026-08-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Robyn",
+   "titre": "Just what my skin needs",
+   "texte": "I'm so tired at night and don't like touching my face much, so i swear by spraying my face at night. used to use futurewise mist but.. naturium has been the best dupe so far. 0 face dryness after shower and mist. just way too expensive!",
+   "date": "2026-03-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

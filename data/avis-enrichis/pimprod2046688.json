@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2046688",
+ "asin": null,
+ "pid": "pimprod2046688",
+ "source": "ulta",
+ "nom": "Bubble Magic Melt Micellar Milk",
+ "note": 4.73,
+ "nbAvis": 433,
+ "lus": 74,
+ "collectes": 90,
+ "segments": {
+  "dry": "Reviewers with dry skin describe the milk as hydrating and not irritating, with one noting it did not sting despite her dry skin.",
+  "sensitive": "Reviewers with sensitive skin generally report no irritation and a soothing, hydrating feel, though one non-sensitive reviewer still experienced burning and redness.",
+  "combination": "One reviewer with combination-dry, acne-prone skin says it removed makeup but triggered breakouts and blackheads she does not normally get."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers say the product leaves skin feeling hydrated, moisturized, or 'buttery smooth' rather than dry or tight after makeup removal.",
+  "redness": "Most reviewers report no redness, but two describe their face turning 'beat red', burning, and puffy under the eyes after use.",
+  "barrier": "One reviewer with acne-prone skin chose this over traditional cleansing oils specifically because it did not compromise her tolerance the way oil cleansers did, saying 'so far so good'.",
+  "spots": "One combination/acne-prone reviewer reports new blackheads after starting use; another acne-prone reviewer says it does not break her out unless skin is very acne-prone.",
+  "blemishes": "Reports are mixed: several acne-prone reviewers say it does not cause breakouts, while one reviewer with combo-dry acne-prone skin reports new cystic-type breakouts and blackheads.",
+  "oiliness": "Most reviewers say it leaves skin feeling clean and not greasy or oily, but one reviewer reports it made her skin feel oily alongside irritation."
+ },
+ "aspects": [
+  {
+   "libelle": "Pump mechanism breaks or sticks",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin feeling hydrated and soft",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Melts makeup and sunscreen easily",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires many pumps to work",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves a film requiring a second cleanse",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging sensation on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Pleasant lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Quinn",
+   "titre": "I do not like it made my face burn",
+   "texte": "I do not like it it made my face burn and turned my face beat red for 2 hours. It also makes your skin feel so oily and I do not have sensitive skin and it made my face so irritated and poor. I love bubble products but I do not like this one sadly but I thought I would",
+   "date": "2025-01-11",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "L",
+   "titre": "Eh…",
+   "texte": "This product irritated my skin and I felt a bit of a burning sensation. The skin under my eyes was red and one was puffy. I've never had a makeup remover like this that has done that to my skin before. I may be allergic to something in it.",
+   "date": "2024-11-28",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Emme",
+   "titre": "Great product, awful pump!",
+   "texte": "This milk is a hydrating upgrade to traditonal micellar water! It removes makeup easily and doesn't irritate my dry skin. The pump is my only problem - it is stiff, get stucks, and is hard to dispense specific amounts of product without a mess",
+   "date": "2025-11-15",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ladycasey35",
+   "titre": "Lighter version of cleansing oil for my acne-prone skin",
+   "texte": "Since traditional makeup-removing cleansing oils break me out, I decided to give this a try as my skin can only tolerate some cleansing balms and micellar water. You apply this like a cleansing oil but I always wash it off with water anyway even if the directions say you don't have to, as it preps my skin to use my soft launch cleanser afterwards (I always have to double cleanse my face because I break out easily). so far so good. I can only say that it takes a bit longer to make it remove my longwear foundation though.",
+   "date": "2025-12-02",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Woahspaced",
+   "titre": "Really good, BUT",
+   "texte": "Its really good but if you got combo-dry skin with acne prone skin this might not be that good. I feel like it removed my makeup BUT i did start breaking out and geting black heads when im not prone to blackheads. I would use with caution. Will stop use and see if this was the cause since i did start using the MILK primer as well.",
+   "date": "2024-09-25",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dylan",
+   "titre": "I would buy it again!",
+   "texte": "This really helped wash away SPF and makeup on my skin! Paired with the great packaging and reputable brand, I would definitely recommend this! It is not overly stripping, oily, or greasy, compared to other micellar products; unless you have very acne-prone skin, this will not break you out.",
+   "date": "2024-08-02",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jenn",
+   "titre": "Love love love",
+   "texte": "This product is just amazinggggggggggggggggggggggggggggggggggggggggggggggggggg I love bubbbke and all their products but this one in particular was beyond amazing It completely transformed my sensitive dry skin into a soft wonder 10/10 would recommend",
+   "date": "2024-07-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

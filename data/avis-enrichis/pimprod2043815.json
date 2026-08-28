@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2043815",
+ "asin": null,
+ "pid": "pimprod2043815",
+ "source": "ulta",
+ "nom": "AmLactin Daily Nourish Lotion with 12% Lactic Acid AHA",
+ "note": 4.86,
+ "nbAvis": 59,
+ "lus": 57,
+ "collectes": 57,
+ "segments": {
+  "dry": "Reviewers with dry, flaky, or eczema-prone skin describe the lotion as deeply hydrating and effective on rough patches, with several calling it their go-to for persistent dryness (e.g. reviews 3, 7, 17, 19, 27, 35, 44, 53).",
+  "sensitive": "Sensitive-skin reviewers report no irritation and appreciate the fragrance-free formula, though one with eczema/dry skin found the smell unpleasant and a couple mention slight stinging or tingling on application.",
+  "combination": "The two reviewers identifying as combination skin say the lotion does not feel greasy and does not irritate sensitive areas of the face.",
+  "mature": "A menopausal reviewer and a reviewer in her 30s report the lotion provides deeper hydration and helps with skin texture and firmness as skin matures."
+ },
+ "concerns": {
+  "aging": "One reviewer describes the product as anti-aging and reports improved skin appearance after nighttime use; no other reviewers discuss aging specifically.",
+  "dehydration": "Numerous reviewers with dry or dehydrated skin report significant, consistent hydration improvement, including after sun, chlorine, or salt water exposure; no dissent reported on this point.",
+  "redness": "One reviewer reports reduced redness on KP-prone arms and dry hands; no other reviewers address redness directly.",
+  "barrier": "One reviewer describes visible healing of long-term skin issues attributed to using a gentle, fragrance-free formula after failing with other products; no contrary reports on barrier effects.",
+  "spots": "Reviewers report fading of dark spots, dark inner thigh skin, and improved skin tone/brightness with consistent use; no dissent noted.",
+  "blemishes": "One reviewer reports the lotion transformed acne-covered skin on the back; no other reviewers discuss blemishes or breakouts.",
+  "oiliness": "Reviewers consistently describe the formula as non-greasy and lightweight even on combination skin; no reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Fragrance-free formulation",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Strong or chemical smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption into skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight stinging or tingling on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Formula changed, reduced effectiveness",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective for keratosis pilaris bumps",
+   "polarite": "pos",
+   "concerne": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Heather",
+   "titre": "Changed the formula",
+   "texte": "This used to work amazingly but they have changed the formula. It's now ineffective and overpriced Lubriderm. Does anyone know if Ulta has old stock formula they have purchased recently? I tried to find question section. So purchase if they have original",
+   "date": "2025-03-16",
+   "verifie": false,
+   "utiles": 33,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Marlia",
+   "titre": "The smell",
+   "texte": "I have only used the product twice. I cannot yet say if it works, but the smell is not the greatest. It does not linger for very long on the body. I have eczema/dry skin. Again the smell is not favorable.",
+   "date": "2024-03-27",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "W",
+   "titre": "I love aha",
+   "texte": "AHA works wonderfully effective but gentle for my dry and sensitive skin. This is my go to body lotion. A little sticky when first applied but in a while it gets absorbed into the skin. The smell is acceptable to me after long term use. I guess that is a price you pay for the results like any other effective ingredient. So happy Ulta is carrying my favorite body lotion now!!!",
+   "date": "2024-04-12",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ntiffner",
+   "titre": "Works wonders!",
+   "texte": "Yes this does have a certain smell to it, but compared to how effective it is, ill deal with the smell. It disappears quickly. This has completely transformed my pre-teena acne covered back. I wish they made a face product as effective, but this is too strong to use on your face. HG product at our house.",
+   "date": "2024-04-06",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "a",
+   "titre": "great for KP!",
+   "texte": "I love this for my KP prone arms! Really helps to decrease the bumps and redness over time and even works to make my excessively dry hands softer and less red. The smell is pretty much nothing, not like it used to be! and it soaks in quickly so it doesn't feel greasy",
+   "date": "2026-04-08",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erica",
+   "titre": "Love this Lotion",
+   "texte": "I have been using this daily nursing lotion for quite some time and I love it for my cuticles and my hands. I even use it on my face when I'm out of moisturizer. I have combination of skin to sensitive skin in some areas and it doesn't affect or irrate. Especially on humid days. It's my perfect go to lotion",
+   "date": "2026-04-03",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Noelle",
+   "titre": "Helloooooo hydration!",
+   "texte": "Being menopausal at a younger age has my skin feeling DRY - all capitals, guys. When the little guys just aren't providing the hydration needed, I love using AmLactin's Daily Nourish Lotion with 12% Lactic Acid. It's what I like to call \"The Big Guns\" as still gently exfoliates but also promote cell turnover and hydrates on a deeper level. Same smooth, lightweight consistency but with a little more bang to it.",
+   "date": "2024-06-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

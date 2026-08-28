@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2059038",
+ "asin": null,
+ "pid": "pimprod2059038",
+ "source": "ulta",
+ "nom": "Cetaphil Advanced Daily Defense Serum",
+ "note": 4.66,
+ "nbAvis": 217,
+ "lus": 80,
+ "collectes": 125,
+ "segments": {
+  "oily": "One reviewer with oily skin found it left a slightly oily finish when used generously but still preferred a light layer.",
+  "dry": "Reviewers with dry skin report good hydration and less tight, leathery, or flaky skin, though one with currently very dry skin found this AM serum alone too light to be enough.",
+  "combination": "One reviewer with combination skin says it helped the dry, flaky areas without making the oilier areas feel greasy.",
+  "sensitive": "Reviewers who identify as sensitive overwhelmingly report no irritation or breakouts and describe it as gentle, though a couple mention temporary tingling, tightness, or blotchiness right after application.",
+  "mature": "A reviewer in her early thirties starting to notice dry-skin aging issues found the serum hydrating and gentle; others report smoother, firmer-looking skin and reduced fine lines with continued use."
+ },
+ "concerns": {
+  "aging": "Several reviewers report smoother, firmer skin and fewer visible fine lines/wrinkles with regular use; others explicitly say they saw no improvement in fine lines despite continued use.",
+  "dehydration": "The large majority of reviewers describe visible, lasting hydration and softer skin, sometimes rated as their key benefit; one with extra-dry skin found the lightweight formula insufficient on its own.",
+  "redness": "Multiple reviewers with redness-prone or sensitive skin report visible reduction in redness and calmer-looking skin; no reviewer reports increased redness.",
+  "barrier": "Reviewers describe the serum as strengthening or supporting the skin barrier, with some noting it helped repair compromised or irritated skin over time.",
+  "spots": "One reviewer reports dark spots starting to lighten with continued use; this is not widely corroborated elsewhere.",
+  "blemishes": "Most reviewers, including several who identify as acne- or breakout-prone, report no new breakouts and some report fewer breakouts; a minority describe new pimples, jawline breakouts, or irritation-triggered breakouts, including one mention of cystic pimples in a related product line.",
+  "oiliness": "One reviewer with oily skin noted mild oil control and a slight oily finish only when applying more than a light layer; not a common complaint overall."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tacky or sticky residue after application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or very light scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Luxurious glass bottle and dropper",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle size too small",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under moisturizer and makeup",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "PeytonO",
+   "titre": "The BEST",
+   "texte": "I've been trying different skin care products because my face is so acne prone (cystic kind and regular), redness, dryness.. this set has been by far the best things I've tried! My skin is less red and not dry flaky at all anymore. It hasn't broken me out and doesn't feel greasy at all. I use AM in morning and PM at night. It has helped repair my skin barrier so much.",
+   "date": "2026-03-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "LaurenC",
+   "titre": "Protects against free radicals!",
+   "texte": "The advanced daily defense serum is very hydrating and supports the skins barrier. My skin feels plump and glowy after using. I love that this protects against free radicals! I have acne prone skin and I think the vitamin E in this serum made me break out.",
+   "date": "2026-03-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "TaraP",
+   "titre": "Not great for my skin type",
+   "texte": "The packaging is really beautiful and sleek, and there's a ton of product in it. It was easy to apply and felt good on my skin, however, it did irritate my skin, and I was having breakouts after use.",
+   "date": "2026-03-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "KellieC",
+   "titre": "Great for any skincare routine",
+   "texte": "I really enjoyed using this daily defense serum system. The AM formula is perfect. It provides just the right amount of moisture and barrier protection without sitting too heavy on the face. It soaks in quickly and works great as part of skin prep before makeup. I have combination skin, so this product really helped the dry flaky component without making me feel overly greasy. Awesome choice to add to any routine.",
+   "date": "2026-03-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CatY",
+   "titre": "Lightweight",
+   "texte": "Personally, I am flip flopping between 4 and 5 stars for this. My skin is extra dry right now, and a lightweight serum isn't cutting it, but I can see this being a staple in my routine once summer rolls around. This is a basic, ultra light serum that has some vitamins and ingredients that pull in moisture. It's very middle of the pack for me. It's not knocking my socks off, but it's reliable and easy to wear. The pros: very lightweight, doesn't feel greasy or heavy, fragrance free, wears well under sunscreen and makeup, gives mild oil control The meh: dries too quickly, I usually can use two serum drops for my whole face, for this I had to use 4. Can feel tacky for a minute or two after application. Is almost too lightweight.",
+   "date": "2026-03-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MariaDR",
+   "titre": "Great for dry skin!",
+   "texte": "This was great for winter dry skin. My skin is really sensitive but it absorbed this product great! I still added moisturizer after applying this on but my skin didn't feel leathery afterwards. The only downside was the bottle was too small.",
+   "date": "2026-03-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "AshleyW",
+   "titre": "Lovely Serum!",
+   "texte": "I am in my early thirties and am beginning to struggle with some dry skin issues. This serum is hydrating and gentle. I've really enjoyed the results of using this paired with the PM serum each day.",
+   "date": "2026-03-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

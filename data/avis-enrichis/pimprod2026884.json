@@ -1,0 +1,124 @@
+{
+ "ref": "pimprod2026884",
+ "asin": null,
+ "pid": "pimprod2026884",
+ "source": "ulta",
+ "nom": "ELEMIS Pro-Collagen Renewal Serum",
+ "note": 4.42,
+ "nbAvis": 12,
+ "lus": 10,
+ "collectes": 10,
+ "segments": {
+  "dry": "A reviewer with normal-to-dry skin in a dry climate reports improvement in fine lines and redness with consistent use, while another reviewer not specifying skin type found the product left her face feeling tight and dry after a single use.",
+  "normal": "One reviewer describes her skin as normal-to-dry and reports smoother skin and reduced fine lines after consistent use."
+ },
+ "concerns": {
+  "aging": "Reviewers report reduced fine lines and forehead wrinkles with weeks of consistent use; one reviewer states results take 8-12 weeks and cautions against expecting quick effects.",
+  "redness": "One reviewer with normal-to-dry skin noticed a reduction in slight redness around her mouth and chin after consistent use.",
+  "dehydration": "Reviewers describe the serum as leaving skin smooth and hydrated; one reviewer, after a single use, instead reports her skin felt tight and dry."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong fragrance",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glass-like, plumped skin feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pilling when layered with other products",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to quantity",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Elegant bottle, easy to use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thin oil texture prone to leaking packaging",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Vanessa",
+   "titre": "Tried it once",
+   "texte": "I tried it once and it has a VERY stong smell to it so i have been putting off trying it on again. The one tome i used it I didn't realize feel a difference in my skin, it absorbed quickly but my face felt tight and dry",
+   "date": "2024-04-06",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Luv2jag",
+   "titre": "Might BE Good?",
+   "texte": "I never got to experience the results as I used it three tomes only. Upon layering with my other products this pilled and I had to slough it off. I know it was this product as it is the newest one I added to my evening routine.",
+   "date": "2024-03-27",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "MUA and Momma",
+   "titre": "Skin is my job, and I highly recommend often!",
+   "texte": "This gem is packed with some skin loving ingredients (a few I would have , but that's okay) It's gentle, but powerful at the same time! You have the collagen your skin NEEDS! Then you you get the perks of removing dead skin cells that clog up your beautiful face/neck! Tips, put a few drops in your hands and PRESS into your skin (especially those stubborn places that you would love to see improvement) Then you can take a little and dab in the rest of your face and neck. Pressing this skin loving oil in REALLY makes it one with your skin. Cons, you don't get much AT ALL for the price! They have used some fantastic ingredients and after doing research on their labs and where they get their ingredients, definitely an expensive mixture for them to mix and they have to make profit. However they could cut a few corners by changing up the packaging. Although squeeze tubes aren't as pretty and they would have to make one that doesn't leak as this is THIN oil. That alone could save and allow for some price difference. In the end…it's a beautiful formula that truly helps your skin! Wrinkles can reduce. Your skin can plump, you'll notice a difference with weeks of use (nothing great happens quickly; never forget that!) So if you can find it in your budget, I HIGHLY recommend trying this baby out. If not, you can find fantastic products that will work 70-85% as well in the same amount of time (8-12 weeks) so don't feel defeated if you can't afford it, keep in mind that a GREAT collagen ca",
+   "date": "2022-08-06",
+   "verifie": false,
+   "utiles": 18,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mel B",
+   "titre": "Doing wonders for my skin!",
+   "texte": "Pretty pricey item, but after reading the reviews I was intrigued enough to give it a try. I'm on my second bottle now and have been using it consistently day and night, and I love what it is doing for my skin. The smell and texture are amazing, and I absolutely love the soft, almost glass-like feel it gives my face. I've noticed improvement in the fine lines on my forehead and the slight redness around my mouth and chin. I am a believer and will continue using this product! For reference, I'm 41 with normal-to-dry skin and live in a dry climate.",
+   "date": "2024-04-27",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "normal",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tricia",
+   "titre": "First Step in Moisturizing Routine",
+   "texte": "I discovered Elemis products on a cruise. I love the feeling of this serum as the first step in my moisturing routine. It leaves my skin feeling smooth & hydrated. Well worth the money.",
+   "date": "2025-10-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "Most reviewers do not specify their skin type, so segmentation by skin type is based on very few explicit mentions."
+}

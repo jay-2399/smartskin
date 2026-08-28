@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2034806",
+ "asin": null,
+ "pid": "pimprod2034806",
+ "source": "ulta",
+ "nom": "BYOMA Clarifying Serum with Tri-Ceramide Complex",
+ "note": 4.41,
+ "nbAvis": 442,
+ "lus": 81,
+ "collectes": 121,
+ "segments": {
+  "oily": "Reviewers with oily or oily/acne-prone skin report clearer skin, reduced shine and fewer breakouts around the nose and mouth, though a couple say it did nothing for them.",
+  "dry": "Reviewers with dry skin report the serum did not dry them out further and helped with flakiness, patchiness and blemishes, with one noting it can feel slightly cakey/sticky as it dries.",
+  "combination": "Combination-skin reviewers describe clearer skin, reduced pore appearance and no new breakouts, generally praising the lightweight, non-heavy feel.",
+  "sensitive": "Sensitive-skin reviewers are split: several report no irritation, reduced redness and calmer skin over weeks, while a few describe irritation or breakouts, including one describing it as more of an allergic reaction than a breakout.",
+  "normal": "One reviewer with normal/combination skin and some texture and enlarged pores reports increased clarity and reduced under-the-surface bumps after a couple of weeks.",
+  "mature": "One reviewer reports the serum reduced the visible signs associated with sun damage spots and describes an overall more youthful-looking, refreshed complexion."
+ },
+ "concerns": {
+  "aging": "One reviewer with sun-damage spots reports a refreshed glow and reduced pore size in trouble areas after continued use; no other aging-specific reports are present.",
+  "dehydration": "Several reviewers with dry skin report the serum kept skin hydrated without drying it out further, though one reviewer says it dried out the skin somewhat and left it feeling cakey.",
+  "redness": "Multiple reviewers report visible reduction in redness, including one who says rosacea-related redness and bumpy texture cleared within days; no dissent noted for this concern.",
+  "barrier": "Reviewers seeking barrier support report the serum felt gentle and supportive over time, though one very sensitive-skin reviewer noticed slight irritation the next morning despite this focus.",
+  "spots": "Reviewers report reduced clogged pores, milia disappearing, and improved skin tone evenness; one reviewer needed a full bottle before results and ultimately saw no change.",
+  "blemishes": "Most reviewers with acne-prone skin report clearer skin and fewer breakouts within one to three weeks, but a notable minority — including two 1-star reviews — describe severe new breakouts or allergic-reaction-like flare-ups after two weeks of use.",
+  "oiliness": "Reviewers with oily skin report a mattifying effect and reduced shine without feeling heavy or greasy; no dissent reported for this specific concern."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Foams or gets sudsy on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or very light scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Dropper applicator convenience",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight tackiness right after application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price and longevity",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Received damaged, dirty or contaminated bottle",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "McKenna",
+   "titre": "This product destroyed my skin",
+   "texte": "Prior to using this, i had mild acne and was looking for something to clear it up. I had been using products from Byoma before so I decided to try this product. After a two weeks of using it, my cheeks and temples broke out horrendously with acne i've never had before. I haven't used this product in over a month and i still have constant acne and scarring. I have stopped all use of their products and gone to a simple cleanser and moisturizer and have seen little improvement. I would never recommend this product.",
+   "date": "2024-06-28",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Deena",
+   "titre": "Unexpectedly blown away",
+   "texte": "I have rosacea that includes the red skin and bumpy texture and I experiment with all different types of products to find the best product for my skin. I bought this unsure of what to expect but because it has a lot of anti -inflammatory ingredients I wanted to give it a chance. This serum completely cleared up my redness and texture in just 2 days!! I didnt expect it to work so well and so fast. I'm going to keep testing it out but I am really impressed",
+   "date": "2025-06-22",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jenn",
+   "titre": "Effective and Affordable",
+   "texte": "This serum is lightweight & does not irritate my sensitive, dry skin. My skin feels refreshed and clear with constant use and it works well with other products in my routine. I love how Byoma products are effective and affordable! Gifted by Byoma.",
+   "date": "2023-05-31",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "sensitive"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lindsey",
+   "titre": "Great lightweight serum",
+   "texte": "This product was gifted by Byoma. I have normal/combo skin with some texture, enlarged pores and it's blemish prone. The texture of this serum is quite thin so it does run and you have to work it in quickly but I loved how it applied easily and sunk in fast. It didn't leave a greasy or tacky residue which was another huge plus. The ingredients are similar to some in other much more expensive products as well which is great! I found this to work well both on its own and worked into my regular skincare routine. After using this for a couple weeks I've noticed my skin does have more clarity and some beneath the surface bumps have started to go down. I had a small active breakout when I first started using it and it cleared up quicker with using this serum vs using other products I've tried. This is an awesome serum and a great value!",
+   "date": "2023-05-31",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "normal",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yulia",
+   "titre": "Highly recommended!",
+   "texte": "When I ordered this product I honestly was skeptical but as reviews were so good, I went ahead with purchase. I have combination skin with some larger pores, cpl of red sun damage spots (on nose so very visible). Wow and wow is best I can sum this product up. In the morning I use a toner and then apply this prior to my other products. Within the first 2 days I was already noticing improvements. My skin has a refreshed glow it hasn't had in years. The pore size has reduced to look normal in trouble areas (nose/cheeks). This product is truly amazing - I swear it's dropped 5 years off of my appearance !!! I am so impressed with this product. Highly recommend! Gifted by BYOMA",
+   "date": "2023-05-12",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Taylor",
+   "titre": "10/10 no notes",
+   "texte": "This fully calmed my rosacea with one use and cleared my pores within 2-3 uses. I've used it for about a month now and had zero irritation, just soft, happy skin. My skin type is dry and sensitive.",
+   "date": "2025-08-23",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jays",
+   "titre": "Super impressed with this product!",
+   "texte": "I have been using this clarifying serum from Byoma for exactly three weeks now, and I am sooo impressed with it. I began to notice a difference with the redness in my cheeks lessening within the first two days of use, using both morning and night. I continued use for the next three weeks and saw even more improvement in balancing my skin tone and calming down the natural redness in my cheeks, easing breakouts, and improving the appearance of my pores. I am pregnant and during my second trimester my skin started to break out a bit more than usual. Within a week and a half of using this consistently, the breakouts cleared up completely. The instructions are very clear and don't leave any room for confusion about how much to apply (4-6 drops is specified, I use 4), when to apply (AM&PM and what part of your skin routine), or how to apply (gently press into skin). I very much appreciate not having to guess if I'm using the product correctly. It leaves a slight stickiness or tackiness for about 20-25 seconds, but then dries and you can quickly move on with your skincare routine. The bottle is a good size and using 4 drops per application, should last quite a while. This is my first product from Byoma, but after how well this serum has worked for me, I'm really interested in trying more of their products!",
+   "date": "2023-03-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

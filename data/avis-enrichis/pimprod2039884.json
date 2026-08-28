@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2039884",
+ "asin": null,
+ "pid": "pimprod2039884",
+ "source": "ulta",
+ "nom": "Mario Badescu Hydrating Glow Toner with Jojoba and PHA",
+ "note": 4.78,
+ "nbAvis": 23,
+ "lus": 19,
+ "collectes": 19,
+ "segments": {
+  "oily": "One reviewer with oily skin reports a soft dewy glow after use, though she plans to keep alternating with her usual seaweed toner.",
+  "dry": "Reviewers with dry or dull skin report visible hydration, a moisturizing jojoba effect, and improved glow after adding it to their routine.",
+  "combination": "A reviewer with combination and sensitive skin says the toner is mildly hydrating without feeling heavy, unlike other moisturizers she reacts to.",
+  "sensitive": "Sensitive-skin reviewers report gentle exfoliation and hydration without irritation, including one with rosacea who uses it after oil cleansing.",
+  "mature": "A 54-year-old reviewer with dehydrated, wrinkled, and acne-prone skin calls it a must for mature skin, citing smoother texture and more even tone."
+ },
+ "concerns": {
+  "aging": "One mature reviewer reports smoother, more even-toned skin and describes it as a must-have for mature skin; another long-term user combined with other actives reports firmer, healthier-looking skin.",
+  "dehydration": "Multiple reviewers with dry or dehydrated skin report strong hydration and glow, with one noting she reapplies when her skin feels dehydrated; one reviewer felt no hydration at all and disliked a tacky after-feel.",
+  "redness": "One reviewer with rosacea reports it works well after oil cleansing and before moisturizer, with no irritation mentioned.",
+  "barrier": "A sensitive/combination-skin reviewer reports it relieves itchy dryness without feeling heavy or triggering her sensory aversion to moisturizers.",
+  "spots": "A mature reviewer with acne on her cheeks reports smoother skin and improved texture, but does not specifically address the acne spots.",
+  "blemishes": "One reviewer reports the toner clears pores and removes residual makeup/debris after cleansing, with no breakouts mentioned.",
+  "oiliness": "One reviewer with oily skin reports a dewy glow without added greasiness, though she has not fully switched from her prior toner."
+ },
+ "aspects": [
+  {
+   "libelle": "Glow and radiance after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light or minimal fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tacky residue on skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast-absorbing, layerable texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doubles as toner and serum",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Visibly reduced pore size",
+   "polarite": "pos",
+   "concerne": [
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Jody",
+   "titre": "Had high hopes",
+   "texte": "After reading the reviews, I was really excited to try this, but I probably wont purchase again, mostly because it felt tacky on my skin and I hate that feeling. I'm not feeling any hydration from it either. I'm just putting it directly on my skin with my hands after washing. I'll keep trying to work with it, but I don't think it's for me.",
+   "date": "2024-06-16",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Best toner ever!!!",
+   "titre": "Love this product!!!",
+   "texte": "I have tried so many toners and they feel like they do nothing. Have no benefits. This toner i can actually tell works and helps. My face is smoother and skin tone and texture has evened out. This is a moisturizing toner and i just love it! I am 54 yrs old with dehydrated wrinkled and have some acne on cheeks. A definite must for mature skin and other skin types i would try it out too! Great value too!",
+   "date": "2024-05-04",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Combination&Sensitive",
+   "titre": "Perfect for me",
+   "texte": "My skin is combination & senstive. This is mildly hydrating so it takes away the itchy dryness but doesnt feel heavy for someone like me with a sensory issue to moisturizers",
+   "date": "2025-02-16",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dewey",
+   "titre": "Dewy toner",
+   "texte": "I normally use the mario badeso seeweed toner. I have used that for years. I decided to use this one because of the grest reviews. So i have oily skin and this product does give you a glow. When you touch your face it has a soft dewy type of feel to it. Im not sure that i will stop using the seaweed thst i have been using for years.",
+   "date": "2025-10-16",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rae96",
+   "titre": "Great for daily use.",
+   "texte": "I have been searching for a toner/essance that has exfoliating properties without irritating my senstive skin, finally found it. I love its gentle exfoliation while still being hydrating. Doesn't have much of a scent at all.",
+   "date": "2023-11-30",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "liz",
+   "titre": "amazing",
+   "texte": "I have rosacea this is great after oil cleansing and before moisturizer",
+   "date": "2025-01-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Meeech",
+   "titre": "Noticeably shrinks pores!",
+   "texte": "My skin is so much more hydrated and my pores have decreased significantly in size. My skin is alot happier with this in my routine. I love the way this toner smells and feels, 10/10 recommend!",
+   "date": "2025-11-07",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

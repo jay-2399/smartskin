@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2028063",
+ "asin": null,
+ "pid": "pimprod2028063",
+ "source": "ulta",
+ "nom": "Drunk Elephant T.L.C Framboos Glycolic Resurfacing Night Serum",
+ "note": 4.39,
+ "nbAvis": 430,
+ "lus": 73,
+ "collectes": 125,
+ "segments": {
+  "oily": "Oily-skin reviewers report reduced congestion, smaller-looking pores, and less oiliness by morning, with one noting no breakouts despite hot Pilates workouts.",
+  "dry": "Dry-skin reviewers generally find it gentle and non-drying, though one reports peeling and dryness around the mouth with continued daily use.",
+  "combination": "The one combination/acne-prone reviewer found it too mild, saying it didn't leave her skin feeling fully clear.",
+  "sensitive": "Most self-described sensitive-skin reviewers report no irritation and easy tolerance, but a subset describes stinging, burning, or prolonged redness, especially without gradual introduction.",
+  "mature": "Reviewers mentioning fine lines, wrinkles, or age report softer fine lines and a more youthful, even-looking complexion."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on fine lines and wrinkles report they appear softer and less noticeable with regular use, and skin looks more youthful overall.",
+  "dehydration": "Most reviewers say the serum leaves skin soft, smooth and not stripped, but a couple report dryness or peeling around the mouth with frequent use.",
+  "redness": "The large majority report no redness or irritation once introduced gradually, but at least one review describes visible inflammation and prolonged redness on reactive skin.",
+  "barrier": "Most reviewers describe no barrier disruption, though one with sensitive/reactive skin specifically reports barrier disruption and stinging even with gradual use.",
+  "spots": "Reviewers mention fading dark spots and more even tone with continued use; no negative reports specific to spots.",
+  "blemishes": "Many reviewers report fewer breakouts, calmer texture, and no new blemishes, but two describe new breakouts appearing the morning after use.",
+  "oiliness": "Oily-skin reviewers report visibly reduced oiliness and clearer pores after use, with no reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight gel texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling or stinging on first use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Slight tackiness or stickiness",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for the amount",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Attractive, easy-to-use packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong formula needing gradual introduction",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Fro23",
+   "titre": "Not for my skin",
+   "texte": "I found this formula too strong for those with sensitive or reactive skin. While the AHA/BHA blend is effective for exfoliation, the concentration is high enough to trigger irritation, barrier disruption, and prolonged redness in those with compromised skin tolerance. Even with gradual introduction, the product caused stinging and visible inflammation. gifted by drunkelephant",
+   "date": "2026-05-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jordan",
+   "titre": "Smoother skin",
+   "texte": "It's an okay serum. I noticed that the next morning my skin looks slightly more radiant and smoother due to smaller pores. However, after a few days of continuous use as my skin was very dried out, especially around the mouth where it was peeling. It might work well more spaced out between uses, but I can't use daily. gifted by drunkelephant",
+   "date": "2026-05-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jada",
+   "titre": "I love",
+   "texte": "I wasn't sure what to expect from this glycolic acid serum, but it exceeded my expectations. My skin tends to get congested easily, especially on my forehead, since I have oily skin and do a lot of hot Pilates workouts. Over time, I noticed a lot of uneven texture developing and was hoping this product could help smooth things out. After two nights, I could already see an improvement in the look and feel of my skin. I've continued using it every few days, and my forehead looks noticeably clearer and more refined. The formula is easy to incorporate into my routine and is gentle on my skin. I recommend for my oily congested skin girls, especially if you take heated classes! I was gifted by Drunk Elephant.",
+   "date": "2026-05-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Evvvvy",
+   "titre": "I like this night serum",
+   "texte": "This night serum has been a great addition to my skincare routine. It feels very effective in smoothing and refreshing my skin, yet still surprisingly gentle even on my dry, semi-sensitive skin. I've noticed a more even, radiant look with consistent use, and it doesn't leave my skin feeling overly stripped or irritated. It layers well with other products and works nicely overnight so I wake up with softer, brighter-feeling skin. Gifted by Drunk Elephant.",
+   "date": "2026-05-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley",
+   "titre": "Not too irritating from my skin",
+   "texte": "I was gifted by drunkelephant this serum to try as a 40-year-old with dry skin and large pores. I have to be careful of using exfoliation too often, so I used it every other day or so. It seemed gentle and a little bit went a long way. I haven't noticed any extra irritation and my skin feels smooth.",
+   "date": "2026-06-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda",
+   "titre": "Overnight Impact",
+   "texte": "I received a travel sized version of this product gifted by Drunk Elephant. I loved the suggestion on the packaging to use it as a spot treatment and have used it before bed on my acne prone areas, such as t-zone, nose, and chin. It definitely exfoliates and brings acne to the surface.",
+   "date": "2026-06-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley",
+   "titre": "Smoother skin!",
+   "texte": "This serum has been gamechanging when it comes to giving me smoother, blemish-free skin. I have oily skin but applying this before bed does not make my skin oily when I wake up. Instead, I wake up to smoother and healthier looking skin. Gifted by drunkelephant.",
+   "date": "2026-05-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2053771",
+ "asin": null,
+ "pid": "pimprod2053771",
+ "source": "ulta",
+ "nom": "ROUND LAB Pine Calming Cica Toner",
+ "note": 4.98,
+ "nbAvis": 51,
+ "lus": 42,
+ "collectes": 42,
+ "segments": {
+  "oily": "Reviewers with oily or oily/acne-prone skin report the toner balances oil, reduces pore appearance, and leaves no residue or stickiness.",
+  "dry": "Reviewers with dry skin report strong hydration and a moisturizing effect that prevents inner dryness, with no added irritation.",
+  "combination": "Reviewers with combination skin report the toner moisturizes well and calms their skin, including one who found it necessary after a drying cleanser in the same line.",
+  "sensitive": "Reviewers with sensitive skin repeatedly report calming, gentle effects with no irritation, though one reports a severe breakout and allergy-like reaction.",
+  "mature": "One reviewer in her 40s with dry, sensitive skin reports a moisturizing effect when layered several times."
+ },
+ "concerns": {
+  "aging": "One reviewer in her 40s reports a moisturizing benefit but no specific mention of lines or firmness.",
+  "dehydration": "Multiple reviewers report noticeable hydration and plumping without dryness or irritation; one specifically layers it 3-4 times to prevent inner dryness.",
+  "redness": "Many reviewers, including several with rosacea, report visible reduction in redness and calming of irritated skin; effect described as fading when product use is stopped.",
+  "barrier": "Reviewers describe the toner as gentle and non-irritating even after dermaplaning or alongside actives, with several noting no stinging or reactivity.",
+  "spots": "Reviewers report clearer skin and fewer acne marks over weeks of use; no dissent reported specifically on spots.",
+  "blemishes": "Most reviewers with acne-prone skin report clearer skin and fewer breakouts within weeks; one reviewer reports the opposite, describing a severe breakout spreading to the neck and hairline, suspecting an allergic reaction.",
+  "oiliness": "Reviewers with oily skin report a matte-but-glowy finish and reduced oiliness with a lightweight, non-sticky texture."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight watery texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast absorption, no stickiness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Generous bottle size, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling effect on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild pleasant scent",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Matte with slight glow finish",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Severe breakout and spreading rash",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes",
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Emily",
+   "titre": "LOVE LOVE LOVE",
+   "texte": "I have very sensitive skin, redness and my skin is combo. I truly love this toner. It doesnt not cause my skin to get red the way other toners have and it soothes my sensitive skin. I absolutely recommend!",
+   "date": "2024-07-06",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "sensitive"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Fiona",
+   "titre": "GOOD",
+   "texte": "This helped me with my acne and irritation! Good for texture skin as well! (I have sensitive, dry, and acne prone skin). I would buy again!",
+   "date": "2026-05-18",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda Short",
+   "titre": "One of my favorite toners!!!",
+   "texte": "So soothing so wonderful. I use it AM and PM and it just feels so nice on my skin and calms the redness of my rosacea. Love it love it love it.",
+   "date": "2024-07-02",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sarah M",
+   "titre": "Holy Grail Toner",
+   "texte": "I have been using this toner for a few weeks now and my skin has never looked better. It's really helped to clear up my acne and redness, and it leaves my skin feeling so smooth and soft.",
+   "date": "2023-04-25",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sonia Walker",
+   "titre": "I want to love it",
+   "texte": "I bought this item, and all of the pine line, after reading amazing reviews and it being the suggested product when I took the skin quiz. Unfortunately, I have been breaking out horribly since starting this line, worse than before, and its not healing. Instead the breakouts are spreading down my neck and the back of my neck down under my hairline... I'm not sure if this is an allergy to the product or what... but super disappointed. I was trying to keep using for a few weeks to see if my skin would adjust but its to the point I think I need to stop using product. After spending so much on this line I am frustrated.",
+   "date": "2026-04-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emily H",
+   "titre": "Amazing Toner for Sensitive Skin",
+   "texte": "This is one of the most hydrating toners I have ever tried! It's perfect for my dry and sensitive skin, and I can really feel a difference in the moisture level of my skin after using it. It also has a really nice scent!",
+   "date": "2023-04-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kath",
+   "titre": "I like the moisturizing effect",
+   "texte": "I'm In 40s and have sensitive and very dry skin. I apply it in layers 3-4 times. I like the moisturizing effect that prevents inner dryness. Recommended for dry or normal skin types.",
+   "date": "2023-10-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

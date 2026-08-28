@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2021621",
+ "asin": null,
+ "pid": "pimprod2021621",
+ "source": "ulta",
+ "nom": "Sun Bum Face Mist SPF 45",
+ "note": 3.5,
+ "nbAvis": 137,
+ "lus": 79,
+ "collectes": 119,
+ "segments": {
+  "dry": "Reviewers with dry skin report the product staying sticky/greasy rather than absorbing, and some describe itchy rashes, peeling, or new dry patches after use, though one dry-skin reviewer found it a good reapplication option once blotted.",
+  "sensitive": "Sensitive-skin reviewers most often report stinging or burning around the eyes and lips and sometimes puffing or tenderness, but a few say it did not break them out or irritate them despite very sensitive skin.",
+  "combination": "Combination-skin reviewers describe the mist as a little greasy near the hairline at first but workable with blotting or powder, and note it held up over makeup without separating it.",
+  "oily": "One reviewer explicitly warns oily-skin users to be careful because the finish can look shiny, while another with oily/dark skin liked the semi-dewy finish it left over powder.",
+  "normal": "A few reviewers without stated skin issues simply describe the everyday finish as dewy or glowy rather than problematic."
+ },
+ "concerns": {
+  "dehydration": "One reviewer with dry skin says the mist kept her skin hydrated and glowing; another dry-skin user reports the opposite, with dry patches and peeling after use.",
+  "redness": "One reviewer reports no redness at all after a week of Mexico sun; others describe redness or burnt/red skin from irritation rather than sun exposure.",
+  "barrier": "Several reviewers describe itchy rashes, tender or puffed-up skin, or eye-area irritation lasting hours, while many others report no irritation at all and use it daily without issue.",
+  "spots": "Multiple reviewers state it did not cause clogged pores or breakouts, including a couple who call themselves acne-prone; one reviewer with acne-prone skin nonetheless describes her worst breakout in over a year after starting it, and another noted pores felt clogged and got tiny breakouts.",
+  "blemishes": "Several acne-prone reviewers say it did not trigger new breakouts; one reports a severe breakout coinciding with first use and another notices small breakouts with regular use.",
+  "oiliness": "Many reviewers describe a greasy, shiny look immediately after spraying, often needing powder or blotting, though several say it settles down or dries to a lighter dewy finish, and a couple felt it was not as oily as reviews warned."
+ },
+ "aspects": [
+  {
+   "libelle": "Eye stinging and burning on contact",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong banana or chemical fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pleasant beachy or banana scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy or shiny immediate finish",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Fine, light mist texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well as a setting spray over makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Flimsy nozzle or packaging issues",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Esme",
+   "titre": "worst product I've ever put on my face",
+   "texte": "I've never had my face react so negatively to a product before! It created itchy rashes & dried my face so bad, now it's peeling. Had to return asap. Would not recommend! But everyone's skin is different & reacts differently. This product was just not for me apparently",
+   "date": "2022-07-30",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Victoria A.",
+   "titre": "DONT BUY",
+   "texte": "I have dry skin and was looking for a sunscreen to add to my routine and this one wasn't it. I broke out in an itchy rash and my face now has dry patches.",
+   "date": "2022-06-20",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "B",
+   "titre": "Don't use if you have acne prone skin",
+   "texte": "I haven't had a break out this bad in over a year and this was the only change in my routine.",
+   "date": "2023-05-03",
+   "verifie": false,
+   "utiles": 13,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Mal",
+   "titre": "Great quick alternative",
+   "texte": "I have combination skin and I used this SPF to reapply in Disney Florida although it is a little bit greasy it definitely gets better after a bit but what I do is use a oil control powder or blotting papers. I still think it is worth it!!recommended especially for dry skin Ps didnt break me out ( acne prone skin and sensitive to some fragrances)",
+   "date": "2023-09-10",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Laney",
+   "titre": "Awesome sunscreen for reapplication over makeup",
+   "texte": "I am a super sweaty, combination and sensitive skinned person. Literally every sunscreen I've used over my makeup makes it separate, but this one doesnt! It's a little greasy if you're spraying it near the hairline, but otherwise, it works super well and is fast absorbing! I use this in my esthetician school to make sure I'm protected from the sun, and once accidentally shot it directly into my eye, but it didnt even burn. Love! Love! Love!!!",
+   "date": "2025-11-19",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bee",
+   "titre": "Love it!",
+   "texte": "My best friend sprayed me (whole body! Not just my face!) with this at an outdoor festival and I was in love. It smells like bubblegum to me ans mists smoothly. I use it as a travel sized spray sunscreen for everywhere. I have very sensitive skin (everywhere) and feel like this didnt break me out.",
+   "date": "2024-09-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Desperate mama",
+   "titre": "LOVE",
+   "texte": "First, my kids (9 and 7) and I have very sensitive skin, one has sensory issues and the other has asthma, so finding a sunscreen that is convenient and easy to use as well as safe for asthma (no aerosol,) and eczema, AND doesn't feel sticky/slimy or turn everyone into pale ghostly versions of themselves has been…tricky. I don't even care that this is advertised for faces…we use this on ears, shoulders, necks, and faces. I already knew this is one of few brands that isn't and issue for skin sensitivity, so I gambled on buying this spray because it seemed convenient. We LOVE the smell, it doesn't burn or run into anyone's eyes, it dries well AND doesn't make my acne prone skin break out. This product is a WIN for us.",
+   "date": "2021-06-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

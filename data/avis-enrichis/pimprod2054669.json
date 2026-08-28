@@ -1,0 +1,142 @@
+{
+ "ref": "pimprod2054669",
+ "asin": null,
+ "pid": "pimprod2054669",
+ "source": "ulta",
+ "nom": "Naturium Multi-Bright Advanced Serum",
+ "note": 4.13,
+ "nbAvis": 8,
+ "lus": 8,
+ "collectes": 8,
+ "segments": {
+  "sensitive": "One reviewer with sensitive, dry skin reports the product feels hydrating and smooth when used in the morning.",
+  "dry": "The same dry-skin reviewer pairs it with a retinal serum at night and describes good hydration and smoothness with no irritation mentioned."
+ },
+ "concerns": {
+  "aging": "No reviewer specifically frames their use of this serum around aging or wrinkles.",
+  "dehydration": "One reviewer with dry, sensitive skin reports her skin feels hydrated and smooth after use; another calls it part of the best hydration combo she has tried.",
+  "redness": "No reviewer reports on redness specifically.",
+  "barrier": "One reviewer reports the product peels her skin regardless of whether it is layered with other products or used alone, suggesting barrier irritation; no one else reports this issue.",
+  "spots": "Reviewers mention brightening and evening out skin tone, but none specify dark spots or hyperpigmentation by name.",
+  "blemishes": "One reviewer developed a cold sore after a single use, which she attributes to the L-arginine in the formula rather than acne breakouts; no other reviewer reports breakouts.",
+  "oiliness": "One reviewer notes the serum is not sticky or too oily on her face in cold weather; no one reports it as too oily or too drying overall."
+ },
+ "aspects": [
+  {
+   "libelle": "Brightening and evening effect",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Peeling or flaking with use",
+   "polarite": "neg",
+   "concerne": [
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Non-sticky, lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cheap-feeling plastic bottle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Generous bottle size, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Risk of cold sore flare-up",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Lex",
+   "titre": "Caused cold sore",
+   "texte": "I was really excited to try this product sunce I love naturium but after one single use I woke up the next morning with a cold sore due to the L-arginine in the product. I think there should be a warning that topical L-arginine can cause cold sores. But if you arent prone to cold sores I would definitely recommend this serum",
+   "date": "2026-02-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Kari- your skincare bestie!",
+   "titre": "This isn't a great serum",
+   "texte": "I love thr Toner version of the Multi Bright line. But this serum missed the mark. It peels no matter what you layer it with so i never use it. Even if i use it alone it still peels. I wish i liked it. I need brightening products but this isnt ne ill buy again.",
+   "date": "2026-03-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Djogrolyo",
+   "titre": "Formula Phenomenal-Packaging Meh :/",
+   "texte": "Formula is phenomenal. Great results after only 2 weeks. The only issue I have is the bottle/dispenser. After the last 2 serums, Barrier Bounce and Multi-Peptide-it was so luxe feeling. I was really thinking Naturium was going to change their serum bottles to the nice heavy glass ones. This one went back to plastic and it just feels cheap when you hold it next to the other two mentioned. Maybe costs have gone up with the Trump Tarrifs and they had to cut back? Not sure.",
+   "date": "2025-09-18",
+   "verifie": true,
+   "utiles": 27,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Liz1989",
+   "titre": "Best milky toner!",
+   "texte": "My sensitive, dry skin feels so hydrated and smooth when I use this in the AM. I also use the retinal serum in the PM and am so happy with the results. :)",
+   "date": "2026-04-03",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Teasha",
+   "titre": "Great winter skin care",
+   "texte": "Great for my face in the cold weather, not sticky or too oily",
+   "date": "2026-01-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rutuja",
+   "titre": "Best hydration combo",
+   "texte": "This is the best hydration combo I have ever received, Naturium never disappoints! I highly recommend getting this bundle. Thank you Naturium! ♥️",
+   "date": "2025-10-01",
+   "verifie": true,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "Only eight reviews are available and most do not specify skin type, so segment-level conclusions beyond sensitive/dry skin are limited."
+}

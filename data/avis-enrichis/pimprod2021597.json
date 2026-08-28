@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2021597",
+ "asin": null,
+ "pid": "pimprod2021597",
+ "source": "ulta",
+ "nom": "Urban Skin Rx Witch Hazel Brightening & pH Balancing Toner",
+ "note": 4.63,
+ "nbAvis": 355,
+ "lus": 67,
+ "collectes": 72,
+ "segments": {
+  "oily": "Reviewers with oily or oily-combination skin report the toner cuts oiliness and works well on sweaty/workout days, though one says it can leave the face looking oily and shiny before moisturizer.",
+  "dry": "Reviewers with dry or normal-to-dry skin mostly report it does not dry out or tighten their skin and leaves it feeling refreshed, though a couple note a drier or tingling after-feel.",
+  "combination": "One reviewer with oily-combination skin says the toner suits her and her husband's routine with no issues.",
+  "sensitive": "One reviewer explicitly without sensitive skin notes it didn't irritate her, implying others with sensitive skin may react differently; another reviewer reports the product caused burn-like marks and damaged her barrier.",
+  "mature": "One 65-year-old reviewer reports improvement but wishes for more anti-aging-focused products in the line."
+ },
+ "concerns": {
+  "aging": "A mature reviewer reports overall skin improvement but wants stronger anti-aging formulations for her age group.",
+  "dehydration": "Most reviewers say the toner is hydrating and does not leave skin dry or tight; one reviewer nonetheless notes a drier feeling after use, and one describes the toner leaving a shiny, oily look rather than dryness.",
+  "redness": "One reviewer reports red bumps appearing then disappearing, and another reports burn-like marks and lasting sensitivity, but the majority report no burning or irritation at all.",
+  "barrier": "One reviewer describes the toner as harsh enough to damage her skin barrier and requiring a switch to a gentler toner; most others report no barrier issues and describe the formula as gentle.",
+  "spots": "Multiple reviewers report fading of dark spots, acne scars, hyperpigmentation, and more even skin tone with continued use.",
+  "blemishes": "Several reviewers report fewer breakouts, clearer skin, and reduced blackheads, though one reports acne returning in the T-zone when she runs out and another describes red bumps appearing.",
+  "oiliness": "Reviewers with oily skin report the toner controls excess oil, especially on humid or workout days, though one notes it can leave a shiny finish that needs moisturizer to offset."
+ },
+ "aspects": [
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Gentle, non-irritating feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Brightening and glow effect",
+   "polarite": "pos",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Contains alcohol despite gentle claims",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight, non-sticky texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle size small for price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Underfilled bottles on arrival",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Corey",
+   "titre": "I just can't.",
+   "texte": "Inreally wanted to love this product. I gave it 2 bottles. But this is so harsh on my face. Damaged my skin barrier. Left essentially burn marks on my face and left my skin so sensitive. I had to stop using and slowly trying to get my face back healthy with a not so harsh toner. I wont use this again or recommend",
+   "date": "2024-09-13",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Opal",
+   "titre": "Great toner, not so great size",
+   "texte": "This toner is really great for oily/blemished skin, but I feel like it's not worth the money for the amount you get (almost $20 for just 4 ounces â€\" basically a mini travel-size bottle). I use this in my daily & nightly routine & used up the bottle in just a few weeks. I would purchase this again if they created a larger size, just disappointed in not getting enough bang for my buck.",
+   "date": "2023-08-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Ava",
+   "titre": "Love This Product!",
+   "texte": "I haven't used a toner in a while now and thought i'd give this one a try considering cruelty free and certified clean skincare. I did get this product gifted by UrbanSkinRX but I was so excited to try it! I actually really like this! I have normal to dry skin and it helped my skin feel refreshed. My skincare never pills over it and I love how it's fragrance free. I haven't seen a difference with my dark circles but my skin tone has been more even since using this products.",
+   "date": "2024-03-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Michele K.",
+   "titre": "Yup!",
+   "texte": "Second bottle. Got it for myself then my husband stole it. He likes their entire lineup as well and is using their products more than me now. We both oily combination skin olive toned.",
+   "date": "2024-04-28",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marie C.",
+   "titre": "Best toner I've ever purchased!",
+   "texte": "I looove this toner! With me having oily & dry skin. It's the perfect toner to combat the oiliness but doesn't dry my skin out.",
+   "date": "2024-03-13",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Doris K.",
+   "titre": "My skin has improved a",
+   "texte": "My skin has improved a lot. But I would like to see a lot of antiaging products for 65 year old like me.",
+   "date": "2023-11-13",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kimberly D.",
+   "titre": "It's essential!",
+   "texte": "This is essential in my face regimen. When I run out, I start to get a bit of acne in my T-zone. However, this helps to keep things pretty clear when I purchase a new bottle and resume use. It does a really good job of cleaning my face a bit deeper than the cleanser alone.",
+   "date": "2023-03-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

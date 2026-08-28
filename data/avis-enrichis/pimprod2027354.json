@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2027354",
+ "asin": null,
+ "pid": "pimprod2027354",
+ "source": "ulta",
+ "nom": "SUNDAY RILEY 5 Stars Retinoid & Niacinamide Eye Serum",
+ "note": 3.25,
+ "nbAvis": 135,
+ "lus": 79,
+ "collectes": 117,
+ "segments": {
+  "dry": "Reviewers with dry skin variously report severe flaking, tightness and burning within days, while a couple with dry skin and dark circles report firmer, brighter under-eyes with continued use.",
+  "sensitive": "Reviewers who identify as sensitive-skinned are split: several say it caused peeling, redness or worsened eczema, but a similar number with sensitive skin report zero irritation and good results.",
+  "mature": "Reviewers describing themselves as older or concerned with aging report visible reduction in crow's feet, fine lines and under-eye bags after several weeks of consistent use."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visible reduction in fine lines, crow's feet and under-eye wrinkles after weeks of use; one reviewer instead reports her under-eye area looked more wrinkled after finishing a tube.",
+  "dehydration": "A large group reports dryness, tightness, flaking or peeling especially in the first days of use; several others report the opposite, saying the serum hydrated and felt cooling with no dryness.",
+  "redness": "Numerous reviewers describe redness lasting days to over a week, sometimes accompanied by swelling; a smaller group reports no redness at all, including some with sensitive skin.",
+  "barrier": "Several reviewers describe symptoms consistent with barrier disruption — burning, itching, cracked or raw skin that took days to heal; others who eased in gradually report no such reaction.",
+  "blemishes": "Two reviewers used it hoping to address milia; one reports the milia worsened with painful removal needed, another reports improvement within two weeks."
+ },
+ "aspects": [
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, soothing applicator tip",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly, non-oily feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Flimsy tube cap falls off",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires slow buildup to tolerate",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Visible fine-line reduction over weeks",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "paige",
+   "titre": "wanted to love this SO BAD!",
+   "texte": "let me first say that i LOVE the sunday riley brand, and have recently been loving their niacinamide \"B3 Nice\" serum for helping with fine lines and signs of aging. when i saw this undereye cream from them, i was THRILLED… but sadly not for long. unfortunately after 3 uses, my undereyes became extremely flakey, red, and dry. i went to cleanse my face in the morning and the skin around the outer corner was sensitive to the touch and literally began to flake off, as though it was chapped. i have very dry skin and get eczema outbreaks on my face sometimes - this was a worse experience than even that. i returned this product, and i had NEVER returned a product to ulta before this. i feel like my undereye bags/wrinkles were WORSE than they were before. very disappointed with this product, but still a big fan of sunday riley overall.",
+   "date": "2025-07-09",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Patty",
+   "titre": "Extremely harsh",
+   "texte": "I use many Sunday Riley products. This is the only product I feel is terrible. I tested on my forearm for 4 days and no sensitivity. I used a tiny amount under my eyes as instructed. It causes swelling and redness and it takes days to subside. Other reviews suggest the same terrible side effects.",
+   "date": "2025-04-10",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "JTO",
+   "titre": "Dry flaky skin after two nights of use",
+   "texte": "I LOVE Sunday Riley products and use the CEO serum, A++, Luna oil and Good Genes. I wanted to love this product, but it causes redness, tenderness, and dry flaky skin around my eyes. I use it once a week now and that seems fine, but I have to alternate with something else. NOT for sensitive skin apparently",
+   "date": "2023-08-09",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa",
+   "titre": "Definitely reduces lines, but go slowly trying it out",
+   "texte": "I got this to try out and was initially disappointed and how much burning it caused around my eyes. It took several days of stopping usage for relief to set in. Then I read more about retinol and realized that I needed to start slowly (applying once a week, not daily!) to give my skin a chance to acclimate. I'm so glad I did! I can definitely tell a difference - reduction in crows feet at the corners of my eyes. And I only use it 2-3 times a week right now. This product should be used at night (to avoid sunlight exposure of the retinoids) and you may need to start using it just weekly and work up to a few nights a week. It's too bad that the instructions don't tell you that. This is one that you have to give some time to get the full results. But I think it''s worth it!",
+   "date": "2023-09-16",
+   "verifie": false,
+   "utiles": 22,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bavaritonian",
+   "titre": "Works for me!",
+   "texte": "I love this stuff. It's the first eye cream I've used that has visible results. I use it three times a week, simply because it's potent. I have very dry skin with some ingredient sensitivities,.",
+   "date": "2022-09-29",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jay1212",
+   "titre": "strongly recommend",
+   "texte": "love love love love I have sensitive skin and this doesn't cause irritation like many other products I've tried around the eyes",
+   "date": "2023-03-03",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JM",
+   "titre": "Dry under eyes with very dark cirlcles",
+   "texte": "I've tried every eye product out there and stumbled onto this one. This is so good, I've been using it nightly for about 2 months and the improvement is noticeable. My eye area is more firm, dark circles have lightened so less corrector and concealer is needed, and the fine lines around my eyes are much better. I have sensitive skin and haven't had any problems at all with this formula. Highly recommend and will definitely repurchase.",
+   "date": "2022-02-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

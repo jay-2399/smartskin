@@ -1,0 +1,159 @@
+{
+ "ref": "mkt77007160",
+ "asin": null,
+ "pid": "mkt77007160",
+ "source": "ulta",
+ "nom": "Proactiv Post Acne Dark Mark Relief",
+ "note": 3.81,
+ "nbAvis": 291,
+ "lus": 42,
+ "collectes": 42,
+ "segments": {},
+ "concerns": {
+  "spots": "Reviewers describe the product primarily against post-acne dark marks and pigmentation; several report gradual fading over weeks to months (reviews 11, 12, 16, 17, 18, 24, 29, 30, 32, 37, 40), while a comparable number report no visible change even after months of consistent use (reviews 2, 4, 5, 6, 8, 9, 10).",
+  "blemishes": "A few reviewers mention using it after active acne or alongside acne concerns; one notes it did not help her son's ongoing acne (review 36), and another says a prior dark-spot corrector worked better for acne-related marks (review 2)."
+ },
+ "aspects": [
+  {
+   "libelle": "Reduces post-acne dark marks over time",
+   "polarite": "pos",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "No visible change despite months of use",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Non-greasy, balanced feel on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle, non-irritating on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slow results, requires patience",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Perceived as pricey for results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Enlarged pores reported with use",
+   "polarite": "neg",
+   "concerne": [
+    "oiliness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Stamatios N.",
+   "titre": "Thumbs Down",
+   "texte": "Not doing its job. The old dark spot corrector was great. This one is not working as it should.",
+   "date": "2023-09-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Megan K.",
+   "titre": "Acne Dark Spot Relief",
+   "texte": "This product is great in terms of not making my skin feel too dry nor too oily when used. After a couple weeks of using it, I do believe I've seen a little improvement in some of the areas I have been using it on acne scars. However, the main area of issue which inspired me to get this product in the first place has unfortunately not shown any improvement.",
+   "date": "2023-11-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Loraine D.",
+   "titre": "Gentle and effective",
+   "texte": "Not an overnight fix but I do see it slowly fading away dark marks. Doesn't seem to irritate the skin.",
+   "date": "2023-09-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Megan A.",
+   "titre": "My daughter has brown skin",
+   "texte": "My daughter has brown skin so her scares appear darker. All scaring from acne has disappeared!",
+   "date": "2023-09-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Connie B.",
+   "titre": "Great product. I can see",
+   "texte": "Great product. I can see the dark spots on my face fading. I like the product because it's not Greasy and makes my skin feel grat",
+   "date": "2023-10-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tammy D.",
+   "titre": "Haven't seen any good results",
+   "texte": "Haven't seen any good results yet on my son's face he has pretty bad acne",
+   "date": "2024-04-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Teosha A.",
+   "titre": "Bad product",
+   "texte": "It isn't working at all and my daughters pores are starting to get bigger since she's been using proactive.",
+   "date": "2024-01-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": "Almost no reviewer states her own skin type (oily, dry, combination, mature, normal), so segmentation by skin type could not be produced from this batch."
+}

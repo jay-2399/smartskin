@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2026281",
+ "asin": null,
+ "pid": "pimprod2026281",
+ "source": "ulta",
+ "nom": "IT Cosmetics Bye Bye Lines Hyaluronic Acid Serum",
+ "note": 4.46,
+ "nbAvis": 907,
+ "lus": 74,
+ "collectes": 105,
+ "segments": {
+  "dry": "Reviewers with dry skin generally report strong hydration and relief from tight, dry patches, though one dry-skin reviewer found it did not moisturize at all and left her skin tight and dry.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it calmed or did not irritate their skin (including rosacea), while one reports it caused breakouts and was not right for her skin.",
+  "combination": "The one reviewer identifying combination (oily and dry) skin reports hydrated, soft, non-shiny results.",
+  "mature": "Mature-skin reviewers consistently report reduced fine lines and no sticky residue, describing it as a favorite for aging skin.",
+  "normal": "A reviewer with hormonal acne and otherwise unspecified skin reports clearer, well-hydrated skin after switching to this serum."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visibly reduced fine lines and wrinkles, including around eyes, forehead and smile lines, some within a week and others after 6 weeks to months of use; a few report no noticeable change in lines even after finishing a full bottle.",
+  "dehydration": "Most reviewers describe strong, lasting hydration and plumper skin; however, several report the opposite — tightness, dryness, or no hydrating effect at all, with one returning to her previous hyaluronic product.",
+  "redness": "Two rosacea reviewers report the serum added moisture without irritating or worsening their redness.",
+  "barrier": "One reviewer with sensitive skin reports the product neither burns nor dries out skin, keeping fine lines at bay without compromising comfort.",
+  "spots": "One reviewer reports fewer dark spots after long-term use, though this is not corroborated elsewhere.",
+  "blemishes": "Reports are mixed: some acne-prone reviewers say it did not cause breakouts and even helped clear hormonal acne, while others report it made them break out badly.",
+  "oiliness": "The single combination-skin reviewer reports the product left skin hydrated without shine, but no broader pattern on oil control appears in the reviews."
+ },
+ "aspects": [
+  {
+   "libelle": "Sticky or pilling residue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly with no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under moisturizer and makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dropper application disliked",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slow or unclear results for some",
+   "polarite": "neg",
+   "concerne": [
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Good value across multiple repurchases",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Erin",
+   "titre": "Dries out my skin",
+   "texte": "This made my skin feel tight and dry immediately after applying and I didn't feel like it moisturized my skin at all. Other hyaluronic acid products I have used in the past I could tell they were hydrating and this one seemed to do the opposite. I used up almost half the bottle so i gave it a fair chance but no improvement so i will be tossing this and getting something better",
+   "date": "2024-01-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Selene S",
+   "titre": "Great on Skin",
+   "texte": "Love this serum my skin looks brighter and more plump more hydrated. I use it in combination with the confidence cream and night cream. It feels good on my rosacea skin it doesn't irritate it at all.",
+   "date": "2024-05-03",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Becky",
+   "titre": "Acne friendly",
+   "texte": "Most other hyaluronic acid make me break out with all their added ingredients. Either that or they're so sticky and they pill like crazy. This does neither! I'm so happy it exists!",
+   "date": "2025-02-05",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SD Mama",
+   "titre": "IT products are the best",
+   "texte": "IT product are the best. The hypotonic acid Serums is hydrating for my dry skin. This is effective and works well. I don't feel any tightness and fine lines are slowly disappearing. This is essential for me and will always have it. I highly recommend",
+   "date": "2024-02-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "RedRelief",
+   "titre": "Adds Moisture",
+   "texte": "As someone with Rosacea, I am constantly looking for products that aid with the dryness of my skin while also calming the redness. This product has proven to be an excellent addition of moisture prior to my moisturizer and redness correcting product.",
+   "date": "2024-01-17",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kb84",
+   "titre": "Love this serum!",
+   "texte": "I love the Bye Bye lines serum!! I have such sensitive skin and I've tried other serums but they either broke me out or had zero results. I've recommended this product to all my friends and family!",
+   "date": "2024-01-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lizzy kay",
+   "titre": "Wonderful for mature skin!",
+   "texte": "Saw a difference in fine lines after 1 week of use! Felt wonderful on my mature skin, no sticky residue like other brands I tried. Will be repurchasing!",
+   "date": "2023-12-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

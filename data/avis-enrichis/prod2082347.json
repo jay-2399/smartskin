@@ -1,0 +1,172 @@
+{
+ "ref": "prod2082347",
+ "asin": null,
+ "pid": "prod2082347",
+ "source": "ulta",
+ "nom": "Murad Clarifying Toner for Acne-Prone Skin",
+ "note": 4.39,
+ "nbAvis": 240,
+ "lus": 81,
+ "collectes": 109,
+ "segments": {
+  "oily": "Reviewers with oily skin most often report reduced shine and fewer breakouts, describing it as a good match for their skin type, though a few still note residual oiliness or slow results on acne.",
+  "dry": "Reviewers with dry skin frequently report tightness, dryness, or dry patches after use, though some say heavy moisturizing afterward keeps it comfortable.",
+  "combination": "Reviewers with combination skin generally report a clean, balanced, non-oily feel and clearer breakouts, though one found it too harsh for the drier areas of combination skin.",
+  "sensitive": "Reviewers who identify as sensitive give the most mixed reports: several describe burning, stinging, redness, bumps or dry patches, while a few say it did not irritate their sensitive skin at all.",
+  "mature": "A small number of older reviewers (40s-60s) report continued oiliness and breakouts improving with regular use, with no complaints of irritation specific to age."
+ },
+ "concerns": {
+  "spots": "Most reviewers report visibly fewer blackheads, clogged pores, or smaller-looking pores within one to a few weeks; a couple say they saw no change in pore appearance despite liking the sensory feel.",
+  "blemishes": "The majority of reviewers say breakouts and acne (including hormonal and cystic types) reduced or cleared with regular use, sometimes only when paired with the matching Murad cleanser; a minority report new small bumps forming or acne getting worse, especially in the first days of use.",
+  "oiliness": "Many reviewers with oily skin report the toner controls shine and keeps skin feeling less oily through the day; a couple note their skin still turns oily a half hour to several hours after application.",
+  "redness": "Several reviewers report reduced redness or calmer skin over time; one reviewer says the product actively irritated and worsened her redness.",
+  "barrier": "Multiple reviewers describe burning, stinging, or a 'zinging' sensation on application, sometimes lasting minutes; some say this fades with no lasting damage, while others report ongoing irritation, dryness, or small bumps that led them to stop use.",
+  "dehydration": "Several reviewers report the toner leaves skin dry or tight, particularly without heavy follow-up moisturizer; others explicitly say it does not dry out their skin at all.",
+  "aging": "A couple of reviewers in their 40s-60s report satisfaction with acne and oil control but do not describe any specific anti-aging effect."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong alcohol or medicinal smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, tingling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging on first uses",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Leaves skin feeling clean and refreshed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Large-opening bottle causes spillage",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Worth the price given results",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Too harsh without heavy moisturizer",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Carmen G",
+   "titre": "Very disappointed - Not good for sensitive skin",
+   "texte": "I've struggled with acne for the past six years of my life and I was hoping that this toner would help clarify some of the blemishes and flaring acne spots that I get it but unfortunately it just made the problem worse my face got really irritated and I saw more small bumps appearing on my cheeks. I tried to use this product for about four days with hope that my skin would adapt and heal but it just got worse now I have a red irritated face that burns and itches. :(",
+   "date": "2020-01-15",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "kiki",
+   "titre": "better for oily skin, too harsh for combo/dry",
+   "texte": "I struggle with acne and absolutely love murad products but I found this toner to be a little too intense for my sensitive skin. It makes my skin feel tight and can irritate my redness. So I don't use it everyday, but I do like to use it when my acne is flaring up. Overall I think this is better suited for someone with oily skin. (my skin is combo). The murad hydrating toner helps my acne but doesn't irritate my skin, I would recommend that one instead if you have combo/dry skin.",
+   "date": "2018-10-16",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "cat",
+   "titre": "Cooling and refreshing",
+   "texte": "I've been using Murad's acne control cleanser for about 6 months now, so I decided to try out the toner at a friend's house and now I'm obsessed. I have dry/combination skin with hormonal acne flare ups on my contour lines/outer cheeks and jawline, and this product has helped control those breakouts! Plus the cucumber and menthol feels super refreshing (in small amounts; don't go overboard or you'll end up with a weird stinging sensation). Tip for dry skin people: as long as you heavily moisturize, maybe with some hyaluronic acid and a facial oil included, you'll be just fine!",
+   "date": "2020-01-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sofia",
+   "titre": "Not for the faint-skinned",
+   "texte": "This toner can be harsh sometimes. It might burn like once a week but by god does my skin feel soooo clean after I use it. I have oily acne-prone skin so while I have to alter the rest of my routine on the occasional night it does zing, it really works wonders! 100% not for those with sensitive skin!",
+   "date": "2024-06-22",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "village lady",
+   "titre": "Pretty Good Stuff",
+   "texte": "I am 60+ in age and I can't believe I still suffer from incredibly oily skin. It's been that way all my life. Along with the oil I have break-outs. This toner really helps with the acne and it may even be helping with the oil a little bit. I will continue to use this and try some other Murad prdts.",
+   "date": "2020-03-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MeggyChris",
+   "titre": "Great product",
+   "texte": "I have been using this in conjunction with the Murad Anti-Aging Acne Starter Kit and the combination has been incredible. It is a little pricey, but for clear skin, it is really worth the price. I have really sensitive skin, and have got chemical burns from some other acne solutions, so really sensitive skin. I will admit, this does have a bit of a sting to it, if I have scrubbed my face a bit rigorously, but there is no lasting irritation. So while I can't say much about this product on its own, with the kit, it is great!",
+   "date": "2016-11-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cassidy5",
+   "titre": "Cruelty free and Effective",
+   "texte": "This is by far the best toner I have used for my combination skin. I am 44 years old. I also use the foaming face wash from Murad. It has helped my skin so much and I often receive compliments. I highly recommend this toner.",
+   "date": "2017-10-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

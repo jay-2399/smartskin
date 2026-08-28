@@ -1,0 +1,172 @@
+{
+ "ref": "pimprod2049648",
+ "asin": null,
+ "pid": "pimprod2049648",
+ "source": "ulta",
+ "nom": "ROUND LAB Birch Juice Mild-Up UVLOCK SPF 50",
+ "note": 4.08,
+ "nbAvis": 61,
+ "lus": 57,
+ "collectes": 57,
+ "segments": {
+  "oily": "Reviewers with oily, acne-prone skin report the sunscreen blends in without a heavy feel, layers well under makeup without pilling, and several say it does not trigger breakouts.",
+  "dry": "One reviewer without dry skin still found it drying and accentuating fine lines, while others note they need to layer moisturizer underneath or after to offset a dry, tight feeling.",
+  "sensitive": "Reviewers with sensitive, eczema-prone, or rosacea-affected skin report no stinging, no eye irritation, and no breakouts, describing it as one of the few sunscreens their skin tolerates.",
+  "combination": "A reviewer with patchy skin found it comfortable and non-heavy even without moisturizing first.",
+  "mature": "One reviewer without naturally dry skin noticed the product accentuated her fine lines after use."
+ },
+ "concerns": {
+  "aging": "One reviewer reports the product accentuated her fine lines and dried her skin, while another with sensitive skin found it non-drying and comfortable; no reviewer reports an anti-aging benefit.",
+  "dehydration": "Several reviewers describe dryness or the need to layer moisturizer under or after application, though many others call it moisturizing, hydrating, or lightweight with no dryness at all.",
+  "redness": "Reviewers with rosacea or general redness report the tone-up effect helps neutralize redness and the formula does not sting or irritate.",
+  "barrier": "Reviewers with eczema-prone or reactive skin report no irritation, itching, or stinging, with one specifically avoiding titanium dioxide-related reactions; sensitive-skin users generally describe it as well tolerated.",
+  "spots": "One reviewer says it cooled down long-standing acne scars; no other spot-fading reports appear.",
+  "blemishes": "Several acne-prone reviewers report no new breakouts and even a reduction in the fear of breakout-triggering sunscreen; one mentions being extremely acne-prone with no issues.",
+  "oiliness": "Oily-skin reviewers describe a matte to natural finish that is not greasy and does not pill, though a few of all skin types mention a slightly thick, tacky, or heavy initial feel."
+ },
+ "aspects": [
+  {
+   "libelle": "White cast on application",
+   "polarite": "neg",
+   "concerne": [
+    "tan",
+    "medium",
+    "dark skin tones"
+   ]
+  },
+  {
+   "libelle": "White cast fades quickly with blending",
+   "polarite": "pos",
+   "concerne": [
+    "pale skin"
+   ]
+  },
+  {
+   "libelle": "Thick, hard-to-blend texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy matte finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No stinging or irritation around eyes",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Does not mix well under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Product runs out quickly for the price",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "MM",
+   "titre": "Drying, whitecast",
+   "texte": "I don't have dry skin but this totally dried me out, accentuating fine lines. And it has terrible whitecast that didn't dissipate, even though I am pale. It might suit an acne-prone teenager who is extremely fair. I can't use it on my face anymore, as it makes me look grotesque. I will use it on my décolletage and hands instead.",
+   "date": "2026-04-02",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "jackie",
+   "titre": "mild feeling given improvement on my skin but has whitecast",
+   "texte": "It has a mild weight feeling for a 50 spf, it does not feel heavy and has cooled down my acne scars that I have had for years. The only downside, it does have a white cast and there is a smell of sunscreen that lingers.",
+   "date": "2026-02-16",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amy Lindstrom",
+   "titre": "Amazing",
+   "texte": "I bought this thinking I'd hate it and just throw it away. I usually dislike mineral sunscreens but because I have rosacea, my derm really wanted me to switch to mineral. I used this and I loved it so much. I didn't personally see a white cast but I did rub it in well. There's no smell which is super important to me. There is no eye irritation either. I think I found the sunscreen I'm going to stick with.",
+   "date": "2025-04-27",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maya",
+   "titre": "Great!",
+   "texte": "I have oily acne prone skin and found that zinc sunscreens work best for me. Yes this has a slight white cast when first applied, but it blends in once you really apply it. I've never had issues with my skin keeping the white cast. I love the low scent profile it has and does not irritate my skin. It leaves my skin feeling hydrated without the heavy feeling of sunscreen. I highly recommend!",
+   "date": "2026-01-13",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Mild-Up is Magic!",
+   "texte": "My skin doesn't tolerate chemical sunscreens, so I'm always on the lookout for mineral SPF. This Round Lab mineral sunscreen is the best I've ever used. It's soothing and moisturizing with a matte finish that is perfect for sensitive, oily, acne-prone skin.",
+   "date": "2025-11-29",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erin",
+   "titre": "Love this sunscreen",
+   "texte": "I have really sensitive, eczema-prone skin, and most sunscreens are an immediate no for me. This one has been an absolute dream! It does have a white cast, but it blends pretty well for me (I'm really pale though, so I can't speak for how strong the white cast would be on other people). It also sits well under my makeup. It has a very light texture that you can feel on top of the skin, but it's not greasy and doesn't pill. I've used it on my face, neck, and shoulders with no problems. It hasn't left any residue on my clothing either.",
+   "date": "2026-05-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Magdalena Thioresta",
+   "titre": "Great Protection, But White Cast",
+   "texte": "I've broken it down to what I desire in a sunscreen: moisturizing, protection, and appearance. Moisturizing: 4/5. My skin does feel moisturized temporarily after putting it on. But I usually have to layer a little moisturizer after to make my face feel less dry. Protection: 5/5. One of the ingredients used is zinc oxide. It can dry skin out, but is great for protection from the UV rays. Appearance: 4/5. It leaves a white cast for me. It also has a mattifying effect. My face look a little ashy but oddly airbrushed. Average score: 4/5. I would get it again for the hot summer months when I need moisturizers with mattifying effects. But it is autumn and soon winter on the east coast and I need something moisturizing and protective without making me look ashen.",
+   "date": "2024-10-24",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

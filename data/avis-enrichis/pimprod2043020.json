@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2043020",
+ "asin": null,
+ "pid": "pimprod2043020",
+ "source": "ulta",
+ "nom": "Neutrogena Hydro Boost Water Gel",
+ "note": 4.55,
+ "nbAvis": 6616,
+ "lus": 80,
+ "collectes": 123,
+ "segments": {
+  "oily": "One reviewer with very oily, sensitive skin says the water gel is light enough to avoid a greasy look and pairs well with SPF.",
+  "dry": "Reviewers with dry skin are split: some say it healed flaking, rough patches and chapping, while others (including one with dry, sensitive skin) found it not hydrating enough for their dryness.",
+  "combination": "One reviewer with combination, acne-prone skin calls it the best moisturizer she has tried, noting slight stickiness if over-applied.",
+  "sensitive": "Sensitive-skin reviewers report both success (healed dryness, no irritation, no reaction in years of use) and failure (dried lips/skin painfully, insufficient hydration), with fragrance flagged as a specific irritant by several."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers describe strong, fast-absorbing hydration on face and lips, including for dry, cracked or winter-chapped skin; a minority report the opposite, saying it dried out lips, lip line or facial skin to the point of pain or peeling.",
+  "redness": "One reviewer with sensitive skin reports the sunscreen version helped with irritation and left skin feeling fresh and soft.",
+  "barrier": "One reviewer describes the gel-cream and wipes healing dry, flaky, rough patches on sensitive skin after other products failed.",
+  "blemishes": "Two reviewers with acne-prone or problematic skin say the product did not worsen breakouts and one calls it non-comedogenic; no reviewer reports new breakouts from the face moisturizer.",
+  "oiliness": "One reviewer with oily, sensitive skin says it hydrates without making her look greasy, and another with oily-leaning combination skin says it keeps her face matte without added shine."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast-absorbing, lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No sticky or greasy after-feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Added fragrance bothers users",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Bottle or tube leaks/packaging issues",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well under makeup, no pilling",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price/jar size",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Deceptive packaging fill/size",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Cfsugar",
+   "titre": "Dried out my skin to the point of pain",
+   "texte": "I tried this multiple times, but each time I have it left my lips, lip line, and skin around my lips horribly dried, chapped, red, peeling and flaking and in pain. Didn't matter what gentle face cleaner or moisturizer I used before applying, I had the same result with it. Everytime I had to slather on ointment for days after to try to heal my skin.",
+   "date": "2026-03-18",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Clarissa",
+   "titre": "It's okay",
+   "texte": "After reading a lot of reviews, I decided to give this a try. I like the consistency, but it is not very hydrating. I'm somebody with dry and sensitive skin and this just wasn't it for me, but it wasn't horrible either.",
+   "date": "2026-08-18",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "moon",
+   "titre": "REALLY GOOD MOISTURIZER. As someone with combination skin.",
+   "texte": "Its not a makeup remover i dont know what people are saying. ITS MOISTURIZER. It works so well my only issue is. It feels slightly sticky so use a little maybe at a time in areas and dont!! Touch your face. It works amazing i have combo acne prone skin and one day it was super dry like peeling kind of ? And i picked this up and its amazing the best moisturizer ive tried. The price is a little much but worth it. Compared to a super cheap brand you could choose to buy this is amazing. Try it especially if your skin is like mine and its not really sensitive.",
+   "date": "2026-01-04",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "B",
+   "titre": "MY HOLY GRAIL OF HOLY GRAILS",
+   "texte": "I had a dermatologist recommend this to me 7 years ago and i have used it nearly every day since. I have sensitive, dry, acne-prone skin, have tried a million products and majority of the time regret it. I will NEVER stray from this stuff. Have never had a negative reaction. It's super hydrating, absorbs quickly, is a cream formula and isn't sticky at all, and it's fragrance free (note: the other hydroboost moisturizer in a pot is blue and says \"water gel\". It is not fragrance free or as moisturizing as this one. Didn't have a reaction, but didn't love it). Has never aggravated my acne. I will literally never buy anything else, it's the #1 product in my life that i stand by heavy and recommend to EVERYONE.",
+   "date": "2026-03-11",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "katetheleo_7123",
+   "titre": "Perfect for oily sensitive skin",
+   "texte": "I absolutely LOVE the hydroboost line by Neutrogena! The gel is perfect for people like me who have very oily sensitive skin and cannot use products that are too heavy, particularly in the morning without walking out of the house looking like a glazed donut! I love the combination on this one being a one and done product providing moisture and sun protection.",
+   "date": "2025-11-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "TahreemY",
+   "titre": "Great moisturizer Neutrogena",
+   "texte": "Such a great product helps keep me hydrated during the summer and winter. Does not break me out and I love that. It's Non comedogenic. Because the packaging is in a large glass jar it makes you feel like you're using a luxury product. My skin feels hydrated, but no greasy or sticky feeling.",
+   "date": "2026-05-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ajs06",
+   "titre": "No more dry skin",
+   "texte": "Hydro boost changed my face from dry, flakey skin to smooth and clear. I have sensitive skin and everything I tried failed. My face healed as soon as I tried the hydro boost gel cream and wipes. No more dry, rough patches or flakey skin.",
+   "date": "2025-12-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "Most detailed, skin-specific comments come from lip-care reviews rather than the face water gel itself, so face-product conclusions rely on a smaller subset of the reviews."
+}

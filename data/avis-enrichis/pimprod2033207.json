@@ -1,0 +1,175 @@
+{
+ "ref": "pimprod2033207",
+ "asin": null,
+ "pid": "pimprod2033207",
+ "source": "ulta",
+ "nom": "florence by mills Clear The Way Clarifying Face Wash",
+ "note": 4.73,
+ "nbAvis": 415,
+ "lus": 78,
+ "collectes": 87,
+ "segments": {
+  "oily": "Several reviewers with oily skin report it feels ideal for their skin, balancing oil and cleansing thoroughly, though one with oily skin found it burned and dried her face the next day.",
+  "dry": "Reviewers with dry areas or dry skin report the cleanser can be drying or leave stinging/tight sensations if used daily, with some finding it manageable if used less often.",
+  "sensitive": "Reviewers who identify as sensitive report redness, burning, or stinging on their skin, though several still recommend it and note it is gentle overall aside from that reaction.",
+  "combination": "A reviewer with an oily T-zone and dry patches uses it selectively, favoring it on oilier days and reporting good results.",
+  "normal": "A reviewer describing her skin as normal reports the product helped an oily/dirty nose area with no issues.",
+  "mature": "No material on mature skin was found in the reviews supplied."
+ },
+ "concerns": {
+  "aging": "One reviewer reports the cleanser reduced the look of hyperpigmentation, inflammation, and rough texture and describes an overall younger-looking appearance; no other reviewers address aging specifically.",
+  "dehydration": "Several reviewers report the wash leaves skin hydrated, soft, or glowing; others report it causes dryness, tightness, or stinging, especially with frequent use.",
+  "redness": "Multiple reviewers report their skin turns red or burns during or after use, particularly those describing sensitive skin, while others report no irritation at all.",
+  "barrier": "One reviewer with eczema-prone, dry, sensitive skin reports stinging and lines after use and recommends only weekly use rather than daily; another reports a rash lasting several days.",
+  "spots": "Several reviewers report reduced acne, faster healing of pimples, or fading acne scars; one reviewer reports new blackheads and small bumps appearing on the nose and chin after use.",
+  "blemishes": "Reviewers report clearer skin and fewer blemishes with continued use, including one who reports raised bumps disappearing after a single use; dissent includes a reviewer who broke out with a rash and another who saw no acne improvement.",
+  "oiliness": "Reviewers with oily skin report the wash controls oil and balances their T-zone; one reviewer reports the opposite, describing her skin becoming oilier the day after use."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong lavender scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent overwhelming or chemical-like",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Rich, foamy lather",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can sting or dry skin with frequent use",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Bottle runs out quickly for price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump packaging seen as cute and practical",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "MDH",
+   "titre": "Smells amazing, but I feel like it burned my face.",
+   "texte": "This facial cleanser smells absolutely amazing, however, I think it burned by face. The next day, my face was dry and felt like I had a sunburn. I have oily skin, so this was super powerful stuff. I guess it's going to depend on your skin.",
+   "date": "2023-04-11",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "noa",
+   "titre": "dead skin be gone",
+   "texte": "your face feels and looks clean after use but left my skin with lines and a stinging sensation. probably once a week use not for everyday. does not smell good at all, it smells like chemicals. I have eczema prone skin. dry with sensitivity.",
+   "date": "2023-12-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dara",
+   "titre": "LOVE! Honest Great Review!!!",
+   "texte": "I usually only do reviews when i'm absolutely blown away by a product and actually finished it to see results. When I say that this cleanser is all that!!! Wow. Took years off my face I swear. It battled my hyperpigmentation, it's hydrating (*skin looking like a drink of water from a glass bottle), even reduced inflammation. Got my rough texture all the way together and my skin always felt clean but not tight and dried. Dewy and ready for the rest of my regimen. Note: I use the Salicylic Acid moisturizer by CeraVe with this cleanser. Great pairing.",
+   "date": "2023-04-20",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "unknown",
+   "titre": "Best face wash ever",
+   "texte": "If you use it twice a day every day it can be a little drying, but if you have oily skin it's perfect! I adore this product as it thoroughly cleans my skin and leaves flawless results. It's a great price for what it is and I have not had any better experience with another face wash than I had with this, it really is the best one I've ever tried.",
+   "date": "2023-03-16",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MyBackHurtz",
+   "titre": "Worth It",
+   "texte": "A gentle yet very cleansing wash. Leaves my skin smooth. Does not irritate my skin. Does not cause acne. Does not cause excess oil production. However, if I use it too often or leave it on my face too long it can make my skin feel dry and stiff. However, still worth it.",
+   "date": "2023-04-23",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Jayden",
+   "titre": "No",
+   "texte": "I love Mille but within a few days this product made my face super dry but then the next day it was super oily. It also gave my nose a bunch of blackheads and my chin and corners of my nose small bumps. I don't know if it was just my skin but I don't recommend.",
+   "date": "2023-01-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Malaya",
+   "titre": "LOVE IT!!",
+   "texte": "Since using this my pimples have gone away and my blimishes this is good if you have really bad acne kind of like me!",
+   "date": "2023-02-10",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

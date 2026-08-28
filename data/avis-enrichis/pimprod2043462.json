@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2043462",
+ "asin": null,
+ "pid": "pimprod2043462",
+ "source": "ulta",
+ "nom": "La Roche-Posay Toleriane Purifying Foaming Cream Cleanser",
+ "note": 4.52,
+ "nbAvis": 202,
+ "lus": 81,
+ "collectes": 120,
+ "segments": {
+  "oily": "Reviewers with oily skin report the cleanser controls grease and leaves skin oil-free after washing, though one found it too harsh, stripping, and breakout-inducing.",
+  "dry": "Reviewers with dry skin generally report the cleanser cleanses without over-drying and even feels hydrating, though several others (unspecified type but noting dryness) found it left skin dry or squeaky-tight.",
+  "combination": "Reviewers with combination skin mostly say it balances oily T-zones without drying the rest of the face, but a few report it dried out their skin and caused irritation or red patches.",
+  "sensitive": "Reviewers with sensitive skin frequently praise it as gentle, non-irritating, and fragrance-light enough for daily use, including rosacea and very sensitive cases, though a small number still report breakouts or drying.",
+  "mature": "Reviewers with mature skin describe it as gentle yet thorough, fitting into long-term routines without stripping aging skin."
+ },
+ "concerns": {
+  "aging": "Reviewers using this as part of anti-aging routines report soft, smooth skin and satisfaction over years of use; no negative reports specific to aging skin appear.",
+  "dehydration": "Many reviewers report no dryness and a moisturized after-feel, but a notable minority describe the product as drying, leaving a tight or 'squeaky clean' stripped sensation, especially with daily use.",
+  "redness": "Reports are mixed: several say it has not worsened redness and one credits it with easing rosacea, but others describe new red patches, irritation, or initial redness that faded over time.",
+  "barrier": "One reviewer felt it disrupted her skin barrier causing red patches; most others report no barrier issues and describe skin as calm after use.",
+  "spots": "Reviewers mention it helps clear blackheads and dark-spot-prone skin heals better for some, while one reviewer says the product made her dark spots harder to heal and caused patchiness.",
+  "blemishes": "Most acne-prone reviewers report reduced breakouts, faster healing of pimples, and clearer skin over time; however, some report the opposite — new breakouts or worsened cystic acne, particularly on sensitive or oily skin.",
+  "oiliness": "Oily-skin reviewers commonly report a mattifying, oil-free finish after washing, though one reviewer felt it did not control oil or breakouts as expected."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich foaming lather",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin dry or stripped",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration",
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Doesn't fully remove makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Soft, smooth after-feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Odd or noticeable scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Allie",
+   "titre": "Does more damage",
+   "texte": "I have very oily skin and I usually use their hydrating cleanser instead, which I love. This however made my skin so dry, didn't wash off my left over makeup at all, and made me breakout all over my face- even under my chin. I am also super pale so I get dark spots easily, this made them so hard to heal and my face looks patchy and red. Definitely do not reccomend if you use other strong products as well for acne or anything skincare related.",
+   "date": "2025-12-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "sofiab240",
+   "titre": "A staple product",
+   "texte": "I have really loved this cleanser since my dermatologist recommended it to me a year ago. I have gone through more than a couple bottles and was surprised to find out that my skin did not react to this product (I have severely sensitive skin). In fact, I think this product may have made my sensitivity decrease, especially on my oilier days. I definitely would recommend this cleanser to anyone—it doesn't have any fragrance, its not harsh, it lathers, and it overall makes my face feel very clean.",
+   "date": "2022-08-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Linds",
+   "titre": "Hormonal acne is gone",
+   "texte": "I've been dealing with really bad hormonal acne and not just the time around my period. I would get horrible and painful zits that would scar and be unsightly and nothing I used would get rid of them. That is until this cleanser came into my life, I saw a dermatologist on the clock app talking about how it's wonderful for hormonal acne and she was correct. My skin is smooth, soft, and if I do happen to get acne they don't come to a head and not painful whatsoever. I'm going to recommend this to everyone dealing with bad acne.",
+   "date": "2024-08-09",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mahiya",
+   "titre": "Clear skin",
+   "texte": "Afters years of looking for a good cleanser I finally found the one that works for my skin. I have very sensitive dry skin. I have been struggling with acne for years and this products cleans my face so good and takes of every single makeup product even hard waterproof mascara. My face feels so clean after every wash and did not have any acne ever since I started using it. Just finished my first bottle and will keep on purchasing. I have tried many high end brands which did nothing for my skin also this cleanser was recommended by dermatologist.",
+   "date": "2024-05-16",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Basha",
+   "titre": "Blue Magic Cleanser",
+   "texte": "This product has been the best face cleanser for me ever. I have rosacea and it has been a miracle. My face has improved so much I can't even imagine. I have tried numerous products with no luck, in fact, they would make my skin worse. I am totally sold on this product plus others.",
+   "date": "2022-11-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MBlack4",
+   "titre": "Perfection",
+   "texte": "I have oily, uber sensitive skin and have been searching for years for a cleanser that cleans my face without irritation. This is it! Super concentrated, an amount literally the size of a pea thoroughly cleans my oily face without irritation, stripping or over drying.",
+   "date": "2020-05-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sofia",
+   "titre": "Didn't LOVE it",
+   "texte": "I have combo skin that isnt very sensitive but this face wash didnt do much for my skin, i think it dried out my skim barrier because now i have red patches. I heard it was great for others, just didnt work for me.",
+   "date": "2025-01-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

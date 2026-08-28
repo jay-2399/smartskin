@@ -1,0 +1,170 @@
+{
+ "ref": "pimprod2020107",
+ "asin": null,
+ "pid": "pimprod2020107",
+ "source": "ulta",
+ "nom": "No7 Radiance+ Vitamin C Daily Brightening Moisturizer",
+ "note": 4.11,
+ "nbAvis": 54,
+ "lus": 43,
+ "collectes": 43,
+ "segments": {
+  "oily": "One reviewer with normally oily skin found this a good winter answer, and another suggests the gel-cream formula suits oily skin best; a combination-skin reviewer with an oily T-zone said it did not feel oily on application.",
+  "dry": "A dry-skin reviewer said it did not moisturize at all and left her skin tight with no brightening; another with normal-to-dry winter skin said it 'wasn't going to cut it,' while a 51-year-old with drier aging skin called it very hydrating and better than a luxury moisturizer.",
+  "combination": "Two combination-skin reviewers (oily/dry mix, one dry mainly in the T-zone) said it balanced their skin and sank in without feeling oily.",
+  "sensitive": "One sensitive-skin reviewer said it made her face feel clean, fresh, hydrated and bright; another reviewer suspected the fragrance was irritating her sensitive skin and breaking her out.",
+  "normal": "Two reviewers describing normal (slightly dry in winter) skin reported no moisturizing benefit and no visible brightening after a month of daily use.",
+  "mature": "A 51-year-old reviewer with aging, increasingly dry skin called it her go-to moisturizer, more hydrating than a much pricier department-store cream; another mature-skin user said her skin looked firmer and glowing after a month."
+ },
+ "concerns": {
+  "aging": "One 51-year-old reviewer said it addressed her increasing dryness with age and preferred it to an expensive luxury moisturizer; another reported her skin looked firmer after a month of use.",
+  "dehydration": "Several reviewers said it left skin smooth, hydrated and glowing; however, multiple others reported it did not moisturize at all, left skin feeling tight, or required layering a richer cream on top.",
+  "redness": "Not enough reviews specifically describe redness to draw a conclusion beyond general irritation comments tied to fragrance.",
+  "barrier": "One reviewer said the product left her skin peeling and clumping after drying; another with dry/flaky skin said it dried quickly and left her skin feeling as dry as with nothing applied.",
+  "spots": "No reviewer specifically distinguishes dark spots or discoloration outcomes from general brightening comments.",
+  "blemishes": "One reviewer said it calmed hormonal breakouts and she stopped needing foundation; another reported it caused no new breakouts; one reviewer suspected the fragrance was breaking her out, and another said it only slightly helped her acne while drying her skin.",
+  "oiliness": "One reviewer with combination oily/dry skin said it balanced her oiliness, and another said it absorbed without feeling oily or greasy; no reviewer reported it made skin oilier."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong floral fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, non-greasy finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fails to actually moisturize for some",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "normal"
+   ]
+  },
+  {
+   "libelle": "No visible brightening effect reported",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good price and packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes makeup to pill",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "tesee",
+   "titre": "Doesn't moisturizer my skin at all",
+   "texte": "I was really disappointed in this and won't be purchasing it again because it doesn't moisturizer my skin whatsoever. It turns liquidy as soon as you start applying it, kind of like a gel, and dries quickly; unfortunately when it dries my skin feels tight and just as dry as if I'd put nothing on at all. I still use it because I don't want to the purchase to be a total waste but I layer another richer face cream over it. I don't notice any \"brightening\" effect either. The only pro is that is has a nice smell. *my skin is fairly dry, somewhat flaky on my forehead and somewhat greasy around the corners of my nose, no sensitivities",
+   "date": "2022-02-05",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Jax",
+   "titre": "Not for me",
+   "texte": "This is a very lightweight moisturizer. The gel cream formula does instantly absorb into the skin as suggested in the product description. I don't agree though that the product is for every skin type. I would say it's best for an oily skin type. I have normal to dry skin (in the winter), and this just isn't going to cut it. The fragrance is also very strong, and I didn't see any brightening like the product description suggested. The product left my skin tight and slightly irritated. I think it's probably the fragrance mixed with the vitamin C and gel cream formula. It's not a terrible product, I think you just need to consider your skin type as well as any sensitivities you may have before buying the product. I thought my skin could handle it because I have used fragranced and vitamin C products before, but I was wrong.",
+   "date": "2021-02-10",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Rebecca",
+   "titre": "Strong Scent",
+   "texte": "This would be a great product if not for the extremely strong scent. Maybe I'm just sensitive to it but it makes me not want to even finish the jar. It does feel nice on the skin but I feel like the fragrance is breaking me out.",
+   "date": "2022-09-20",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jodi",
+   "titre": "No7 My Go To Product!!!!!!",
+   "texte": "I'm a 51-year-old woman and I'm noticing as I age my skin is becoming drier and it's very hard to find a good moisturizer but No7 is always my go to products. This moisturizer is so hydrating and I can tell you it's better than Chanel's $385 moisturizer. I love love all of their products.",
+   "date": "2023-04-11",
+   "verifie": true,
+   "utiles": 11,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brittany",
+   "titre": "Gentle Moisturizer",
+   "texte": "I love this day cream!! My face is prone to hormonal breakouts, and since using this product my skin has definitely calmed down. I don't even wear foundation anymore (unless its an event or something), I just put this on, then put on some concealer and bronzer and I'm good to go for the day! I love this face cream and will definitely purchase again.",
+   "date": "2023-07-21",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cherrelle",
+   "titre": "Worth it.",
+   "texte": "MY skin is combo (oily & dry) and this moisturizer is perfect with balancing it out!",
+   "date": "2021-07-01",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ramse",
+   "titre": "Great product!",
+   "texte": "This solved my dry winter skin! I'm typically oily but with a cold winter this is the perfect answer. Helps to even my skin tone and keep my skin from feeling tight. Sometimes I layer a richer cream overtop for extra moisture. Great smell too!",
+   "date": "2023-01-12",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

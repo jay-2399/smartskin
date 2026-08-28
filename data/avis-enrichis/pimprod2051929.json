@@ -1,0 +1,161 @@
+{
+ "ref": "pimprod2051929",
+ "asin": null,
+ "pid": "pimprod2051929",
+ "source": "ulta",
+ "nom": "No7 Future Renew Damage Reversal Night Serum",
+ "note": 4.44,
+ "nbAvis": 72,
+ "lus": 68,
+ "collectes": 68,
+ "segments": {
+  "dry": "Reviewers with dry skin report relief, overnight hydration, and reduced flakiness, with one long-term dry-skin user saying it finally worked after years of trying other products.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it caused no irritation and one calls it suitable for sensitive skin, but one reports hives requiring discontinuation and another notes it stings on a compromised barrier.",
+  "mature": "Mature-skin reviewers in their late 40s report firmer, brighter, more youthful-looking skin and value it as an age-focused addition to their routine."
+ },
+ "concerns": {
+  "aging": "Most reviewers tracking fine lines and wrinkles report visible softening or diminishing within one to several weeks, including age spots fading for one user; a few see no change in wrinkles even after weeks of use, and one calls their wrinkles too deep for the product to fully address.",
+  "dehydration": "Reviewers describe increased hydration and softness overnight, often without needing a separate moisturizer, and one with long-standing dry, flaky skin says it resolved that dryness within two weeks.",
+  "redness": "Two reviewers note reduced redness or improvement in red patches, though one says full improvement is not yet confirmed as permanent.",
+  "barrier": "One reviewer reports burning and stinging when applied over a compromised skin barrier, comparable to their experience with CeraVe.",
+  "spots": "Several reviewers report lightening of dark spots and sun-damage patches after a few weeks; one reviewer had not yet seen improvement in sun damage after limited use.",
+  "blemishes": "One reviewer specifically notes no new breakouts from the product; no cases of induced blemishes are reported elsewhere.",
+  "oiliness": "Multiple reviewers highlight the serum feeling non-greasy despite hydration, though a couple describe it as greasy or sticky after application."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky or tacky residue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Premium, solid packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser easy to use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant subtle scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance too strong",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "xx",
+   "titre": "Burned on compromised skin",
+   "texte": "Maybe it's just not for me, but this is like CeraVe where if you apply it on your skin where your skin barrier is damaged, it will burn and sting on contact",
+   "date": "2025-07-12",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Dee75",
+   "titre": "Too much for my sensitive skin",
+   "texte": "I was looking forward to using this product to diminish the appearance of dark spots on my face from sun damage. The product has a light scent and gel-like consistency. It absorbed quickly into my skin and left me feeling moisturized and clean. Unfortunately, I woke up with hives the next morning. I have extremely sensitive, hive prone skin and have had problems with different products in the past. I had to discontinue use. I'm sure my experience is not what most would experience, but if you struggle with sensitive skin, you may want to proceed with caution.",
+   "date": "2025-10-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Gen",
+   "titre": "Firmer bouncier skin",
+   "texte": "I received this product as a free sample in exchange for my honest review. The product goes on nicely and absorbs well into the skin. I did get a slight flush from the product but that's normal for me when using a product with retinol. The product didn't make any dramatic differences in my skin but I do think my skin felt firmer and a little more bouncy after using it. I'm knocking off one star because, while the smell is a lovely smell, I don't care for fragrances on my face and this one was a bit strong for me.",
+   "date": "2025-10-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jhschick",
+   "titre": "No7 Future Renew Damage Reversal Night Serum: Two-Week Revie",
+   "texte": "I received a full-size bottle of No7 Future Renew Damage Reversal Night Serum in exchange for an honest review. Over the past two weeks, I have incorporated this serum into my nightly skincare routine. The serum is lightweight and absorbs easily into the skin. After each application, my skin feels silky, without any greasy or heavy residue. I used the serum every evening after washing my face, followed by a light moisturizer. After two weeks of consistent use, I noticed some minor improvements in the texture of my skin, particularly around my eyes, cheeks, and mouth. The dryness on my forehead has improved significantly. Additionally, I have seen visible lightening of dark and uneven patches caused by sun damage. At its current price point, the No7 Future Renew Damage Reversal Night Serum is affordable. If the positive results continue, I plan to purchase it for myself. Based on my experience so far, I would recommend this product to friends and family.",
+   "date": "2025-10-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "lgmommag",
+   "titre": "It REALLY works and it works fast!",
+   "texte": "My skin has been so dry these last 2 years and I have tried a lot of product and nothing has worked until this serum! It really delivers a ton of hydration- not greasy or oily but a hydration that feels like a natural skin hydration. My skin looks more plump and healthy and is not dry and flaky after using this serum for only 2 weeks.",
+   "date": "2025-09-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "KLB",
+   "titre": "Feels nice on mature skin",
+   "texte": "The non-sticky texture went on silky smooth with one pimp being enough to cover my entire face. I have dry skin, so it gave my skin some relief. The next morning, my skin felt hydrated, moisturized and soft to touch. The sleek bottle did not feel uncomfortable to dispense the product.",
+   "date": "2025-10-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bubblesisme13",
+   "titre": "I would buy this Serum again",
+   "texte": "I have been using this product for about a week and I can see my lines and wrinkles are starting to fade. Also it is fading out my age spots. I would buy this product again",
+   "date": "2025-09-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

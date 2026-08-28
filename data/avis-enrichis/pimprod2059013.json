@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2059013",
+ "asin": null,
+ "pid": "pimprod2059013",
+ "source": "ulta",
+ "nom": "Naturium Dew-Glow Moisturizer Mineral SPF 50",
+ "note": 3.68,
+ "nbAvis": 25,
+ "lus": 24,
+ "collectes": 24,
+ "segments": {
+  "oily": "One reviewer with oily skin found it lighter and less greasy than the original formula, giving a natural glow rather than an oily look and working well under makeup.",
+  "dry": "A 54-year-old reviewer with dryish skin found the reformulated version can feel slightly drying and hard to wear under makeup, while another reviewer with dry patches reported pilling and an eczema flare-up on the eyelids.",
+  "sensitive": "Reviewers describing sensitive or reactive skin generally report it as mild, hydrating, and non-upsetting, and it is recommended by one user as suited to acne-prone or sensitive skin due to its mineral formula, though a mother described a burning sensation on the skin and another reviewer noted burning on the eyes.",
+  "mature": "One 54-year-old reviewer with mature skin found the reformulation slightly dry and difficult to layer under foundation, though she praises other Naturium products."
+ },
+ "concerns": {
+  "dehydration": "Some reviewers describe the formula as hydrating and lightweight without greasiness; however, others report dryness, pilling, or dry patches, including one case triggering an eczema breakout, and a mature-skin reviewer found the reformulated version less moisturizing than before.",
+  "barrier": "One reviewer reports the product triggered an eczema breakout on the eyelids and another describes skin peeling off after use, though most other reviewers report no irritation and describe the formula as mild.",
+  "blemishes": "One reviewer states the formula 'has never broken me out' over years of use and another highlights it as suitable for acne-prone skin, but one reviewer reports getting pimples with repeated wear.",
+  "oiliness": "Reviewers with oily skin describe the finish as lightweight, non-greasy, and giving natural radiance rather than shine, with one calling it 'perfect for oily skin.'"
+ },
+ "aspects": [
+  {
+   "libelle": "White cast on deeper skin tones",
+   "polarite": "neg",
+   "concerne": [
+    "dark/deep skin tones"
+   ]
+  },
+  {
+   "libelle": "No white cast reported",
+   "polarite": "pos",
+   "concerne": [
+    "medium to deep skin tones"
+   ]
+  },
+  {
+   "libelle": "Strong or unusual scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pilling under other products",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glow/radiant finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging makes dosing and dispensing hard",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "bob278",
+   "titre": "Unfortunately, this...",
+   "texte": "Unfortunately, this left a white cast on me twice (have deep/dark skin). I thought it was my base products but even after minimal products it didn't work.",
+   "date": "2026-06-10",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "dark/deep skin",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Nbru88",
+   "titre": "Pills and triggered eczema breakout",
+   "texte": "I had such high hopes for this sunscreen but it pills and catches dry patches and it's also triggered an eczema breakout on my eyelids. This was the only product that I introduced into my routine. I'm past the return point sadly but I'll be going back to the OG formula from now on.",
+   "date": "2026-07-22",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Happy Heart",
+   "titre": "Not for under foundation",
+   "texte": "They reformulated this product and my dryish 54 year old skin can get a tiny bit dry from this. It is fine on it's own to the beach but I can't seem to get it right under makeup. I love all Naturium products though. I use the body wash and lotion.",
+   "date": "2026-07-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Steve",
+   "titre": "Been using this sunscreen for years",
+   "texte": "I love the chemical dew glow sunscreen so I had to check out their new mineral sunscreen. I love it! Giving 5 stars because their formula is superb and has never broken me out. But, I wish they used a different component because at the end of every tube I need to cut it open to scoop out the excess. Also, it burns my eyes which is a bummer. Still, formula is great!",
+   "date": "2026-05-28",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mpje",
+   "titre": "Best sunscreen ever!!!",
+   "texte": "I'm latino and between a 3 and 4 on the Fitzpatrick scale. I've tried several over the counter and professional mineral sunscreens that left a whitecast on my face. Needless to say, I was hesitant to try this sunscreen but SO GLAD I DID! It is a little thick so I add a couple of drops of Vitamin C serum, smooth as butter. AND no whitecast at all!!!! Very impressed with this sunscreen, my search to find the right sunscreen is OVER! Thank you Naturium!!!",
+   "date": "2026-07-10",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "WeismannK",
+   "titre": "Perfect spf for oily skin",
+   "texte": "I love this SPF even more than the original version. It's not as greasy and feels much lighter on the skin. It gives the skin a beautiful glow, but it looks more like a natural radiance than oily skin. For my oily skin, this sunscreen is perfect. It leaves almost no white cast and works beautifully under makeup.",
+   "date": "2026-06-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Caroline",
+   "titre": "Great sunscreen on my reactive skin",
+   "texte": "This is very mild and the glow is subtle which I love. It's very hydrating but doesn't upset my skin. It's in my top 3 favorite sunscreens for my face.",
+   "date": "2026-07-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

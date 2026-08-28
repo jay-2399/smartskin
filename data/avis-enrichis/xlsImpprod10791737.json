@@ -1,0 +1,172 @@
+{
+ "ref": "xlsImpprod10791737",
+ "asin": null,
+ "pid": "xlsImpprod10791737",
+ "source": "ulta",
+ "nom": "Clinique Clarifying Face Lotion Toner 2 - Dry Combination",
+ "note": 4.69,
+ "nbAvis": 5098,
+ "lus": 78,
+ "collectes": 101,
+ "segments": {
+  "dry": "Reviewers with dry skin report mixed results, ranging from softer, smoother, non-tight skin to stripping, redness, and dryness that improved only after stopping use.",
+  "sensitive": "Sensitive-skin reviewers are split, with several reporting no irritation and gentle results while others describe redness, a chemical burn, or advise skipping the product when skin is already irritated.",
+  "combination": "Combination-skin reviewers consistently describe clearer, smoother, oil-free-feeling skin with no reported irritation.",
+  "mature": "Mature-skin reviewers mostly report brighter, smoother, more hydrated skin over long-term use, though one reviewer with dry mature skin found it too exfoliating.",
+  "normal": "A reviewer with normal skin uses it as a long-standing staple after other products caused reactions."
+ },
+ "concerns": {
+  "aging": "Several long-term and older reviewers report smoother, fresher, more alive-looking skin with continued use; no reviewer with this concern reports negative aging-related effects.",
+  "dehydration": "Most reviewers say it does not dry out skin and leaves it hydrated or soft, but a few with dry or sensitive skin report stripping, tightness, or increased dryness.",
+  "redness": "One reviewer reports decreased redness with regular use, while another with dry/sensitive skin reports new red patches that improved only after stopping the product.",
+  "barrier": "One reviewer describes a chemical burn and a scar from using the product as directed, though most other reviewers report no such reaction.",
+  "spots": "Reviewers report reduced or cleared spots and blemishes over weeks of use, including help with hormonal and cystic acne, though results are described as gradual rather than a cure.",
+  "blemishes": "Multiple reviewers report clearer skin, fewer breakouts and minimized pores; one reviewer switching from another brand reports breakouts returned until she resumed this product.",
+  "oiliness": "Reviewers describe it removing excess oil and residual makeup after cleansing, with combination-skin users reporting a mattified, non-greasy feel."
+ },
+ "aspects": [
+  {
+   "libelle": "Visible dirt/residue on cotton pad",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Alcohol smell",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Absorbs quickly, layers well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump bottle dispenses convenient amount",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Price relative to quantity",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting bottle, good value over time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Too harsh/exfoliating for some dry or mature skin",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "mature"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Ursula",
+   "titre": "Caused Chemical Burn",
+   "texte": "I used this as directed and it unfortunately caused a chemical burn on my chin. It has taken weeks to heal and I still have a scar. Please do not use if you have sensitive skin.",
+   "date": "2024-11-24",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Annie",
+   "titre": "I thought I liked it …",
+   "texte": "I thoguht i liked it but then after the 3rd or 4th day of using, it was stripping my skin? I got red patches on my face and once i stopped using this, i noticed they got better. I have dry/sensitive skin. I wanted to like it because of the reviews and i just want something to help my pires and textured skin. I guess the search continues.",
+   "date": "2025-01-03",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Amy",
+   "titre": "Not for Mature Dry Skin",
+   "texte": "I have used this brand 30 years ago & loved & still love it, I think some of the workers who selll it in Ulta, need a bit of educating on it, I have dry mature skin & bought the mini on this was looking for gentle exfoliators, not for me.",
+   "date": "2026-04-19",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "cmw718",
+   "titre": "Cleared my face completely!",
+   "texte": "I turned to the Clinique 3 step system when, in addition to regular breakouts I started having cystic acne. Clinique cleared up my face completely and made my complexion smooth and bright. I'm so grateful and believe it's worth every penny! Cannot recommend higher!!!",
+   "date": "2025-04-13",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jesmcc04",
+   "titre": "Shrinks pores and makes my skin glow!",
+   "texte": "I have never used a clarifying lotion before but decided to try it to see if it would help with my hormonal acne due to menopause. This stuff has really helped clear out and shrink my pores. My skin looks brighter and smoother. While it's not a cure for my hormonal acne, it does help clear it up and heal faster. I loved it so much I ordered the large pump bottle….the pump is amazing!!!",
+   "date": "2025-04-05",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "R",
+   "titre": "Amazing Exfoliating Toner",
+   "texte": "This is an amazing exfoliating toner. Clears my skin of acne, decreases redness, does not dry out my skin & smells good. Wish it came in a pump bottle so minimal amount could be used on cotton ball to make product last longer.",
+   "date": "2024-08-07",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Soo",
+   "titre": "I would buy this product again and again",
+   "texte": "I have been using this tonic for several weeks and it has worked incredibly well for me. I have combination/dry skin and many times the toners leave my skin tight or irritated, but this one does not. It leaves the skin soft, clean and with a fresh, undrying feeling. I've noticed that it helps improve texture and prevent breakouts, especially in the T-zone. The best thing is that it absorbs quickly and prepares the skin very well for the rest of the routine. If you're sensitive, I recommend using it once a day and applying moisturizer afterwards. Overall, it's an effective, smooth product and worth what it costs. I would definitely buy it again.",
+   "date": "2025-12-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

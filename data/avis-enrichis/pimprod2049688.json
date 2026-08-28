@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2049688",
+ "asin": null,
+ "pid": "pimprod2049688",
+ "source": "ulta",
+ "nom": "COSRX Advanced Snail Mucin Glass Glow Hydrogel Mask",
+ "note": 4.28,
+ "nbAvis": 58,
+ "lus": 49,
+ "collectes": 49,
+ "segments": {
+  "dry": "Dry-skin reviewers describe the mask as strongly hydrating and report smoother, less flaky skin the next morning, though one dry/sensitive reviewer felt no real change after only a couple of uses.",
+  "sensitive": "Sensitive-skin reviewers are split: several report no irritation and good hydration, but others describe burning, itching, red spots, or small papules after use.",
+  "combination": "Combination-skin reviewers (including oily-combination) report good hydration and glow without added oiliness, though one combination-sensitive reviewer developed irritation and papules.",
+  "mature": "Reviewers describing their skin as mature or aging report smoother, plumper, hydrated skin and see the mask as a self-care staple, with no negative reports in this segment.",
+  "oily": "The one oily-combination reviewer reports the mask hydrates well without leaving excess oil or a greasy feel."
+ },
+ "concerns": {
+  "aging": "Reviewers who mention aging or mature skin report smoother, plumper, more hydrated skin after use, with no complaints about heaviness or clogging.",
+  "dehydration": "Dehydration is the concern most consistently addressed: many reviewers report strong hydration, plumped skin, and reduced dryness or dry patches lasting up to a couple of days; one reviewer saw no noticeable change after three weeks of use.",
+  "redness": "Two reviewers with rosacea report the mask calmed redness; conversely, several other reviewers (including one with normal sensitive-adjacent skin) report the mask caused new redness, burning, or a sunburn-like reaction.",
+  "barrier": "One reviewer reports a burning sensation and redness described as feeling like a bad sunburn, suggesting a barrier reaction in at least one case, while most other reviewers report no such response.",
+  "spots": "One combination-sensitive reviewer reports developing small red papules around the cheeks hours after use, while other reviewers report no new spots and even improved acne.",
+  "blemishes": "Most reviewers who mention acne or blemishes report improvement (calmer skin, improved acne, healed breakouts), but one reviewer reports irritation-related papules and another reports the mask caused breakouts in a similar viral mask (not this one specifically).",
+  "oiliness": "The only reviewer addressing oiliness (oily-combination skin) reports the mask hydrates without adding excess oil or a greasy after-feel."
+ },
+ "aspects": [
+  {
+   "libelle": "Turns clear/translucent as it works",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fit around nose and eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Slippery, slides or falls off face",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Post-mask glow and glass-skin look",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rubbery, alien-like texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus similar viral masks",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or sunburn-like reaction",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Mom2keat",
+   "titre": "Burnt my skin",
+   "texte": "Im not sure what happened but these burned my face. I felt a burning sensation and when I took them off, I was red. It felt like a very bad sunburn .",
+   "date": "2026-01-10",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Vidhi",
+   "titre": "Irritation and acne",
+   "texte": "This mask was hydrating to begin with but 6-7 hours after using this, i started getting small red papules around cheeks . its seemed like my skin didnt react well to snail mucin and got irritated. For reference, i have combination sensitive skin. I applied this mask at night after face wash and took it off 4 hours later ( because i couldnt get any sleep with it). I say take the risk if you want to. It may work for someone else.",
+   "date": "2025-09-12",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Maia",
+   "titre": "Neither hate it nor I love it",
+   "texte": "As someone with dry and sensitive skin I'm in search of a good, non-irritating, and fragrace-free face mask, but this just isn't it. I don't have any real complaints, other than it making my face tingle a little at first, but I also didn't see much change -mind you, I only used it a couple times- or anything that really made me want to buy this again.",
+   "date": "2026-04-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "WhiteE71",
+   "titre": "Highly hydrating and glowing skin",
+   "texte": "Glass skin with the COSRX sheet mask. I was gifted these COSRX Advanced Snail Mucin Power sheet masks from COSRX in exchange for my honest review. These masks are packed full of serum that has ingredients in it, such as Snail mucin, which hydrates skin. They also have collagen, niacinamide, hyaluronic acid, ceramides, and Panthenol. I have oily combination skin and found that these masks work really well in hydrating my skin without creating excess oil. They also make my skin look and feel really smooth and create a lovely glow. It is recommended to wear these masks for at least 2 to 3 hours after cleansing your skin. It's even better if you wear it overnight. I've not worn it overnight as I can't take the resticting feeling on my face. These masks are thicker than sheet masks, and for me, my face did feel a little sweaty when I took the mask off. I found it pretty easy to apply these masks and found the size to be fine. I'd use these masks once or twice a week to give my skin a boost of hydration and a glowing look. I'm not 100% sure if it did give my skin the glass look, but I did like the after-effects and glow.",
+   "date": "2025-04-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Essence",
+   "titre": "Buy it if your needs hydration",
+   "texte": "I have super sensitive dry skin, this didn't irritate my skin at all. I left it on for 3hrs, my skin was glowing, and felt very hydrated. Don't just buy one buy two.",
+   "date": "2025-12-16",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lisa G.",
+   "titre": "Must Have for Glowing Complextion",
+   "texte": "I would say this mask performs as promised. It melts into skin overnight. By morning, you have a moisturized, glowing face. I suffer from rosacea and this mask helped calm my redness. The only downside is that the outcome isn't necessarily long lasting, probably a couple of days. That said, it is practically a must have before a special event, like a wedding.",
+   "date": "2025-03-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maria D.",
+   "titre": "Great!!",
+   "texte": "I have rosacea and my skin is very dry. These products have been marvelous and the mask is excellent. I left it on all night and spent the next day touching my face because I couldn't believe how soft my skin was and it has remain soft. Thank you!",
+   "date": "2025-01-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

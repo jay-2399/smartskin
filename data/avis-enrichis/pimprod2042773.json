@@ -1,0 +1,161 @@
+{
+ "ref": "pimprod2042773",
+ "asin": null,
+ "pid": "pimprod2042773",
+ "source": "ulta",
+ "nom": "fresh Sugar Strawberry Exfoliating Face Wash",
+ "note": 4.49,
+ "nbAvis": 3098,
+ "lus": 70,
+ "collectes": 111,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin mostly report no irritation and a gentle, non-drying cleanse, though one reviewer with sensitive skin says the product tore up her skin and smelled too chemical.",
+  "dry": "Reviewers with dry skin report the wash does not dry them out further and leaves skin feeling soft, moisturized, and never overdrying.",
+  "oily": "One reviewer describing oily, acne- and period-prone skin uses it as a lighter, gel-like alternative to a creamier exfoliating cleanser and finds it just exfoliating enough.",
+  "mature": "A reviewer with 60-year-old skin reports smoother, silkier skin with visibly less noticeable pores after three months of use."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers, including several with dry skin, say the wash is not drying and leaves skin soft or lightly moisturized; one reviewer with sensitive skin says it tore up her skin instead.",
+  "aging": "One reviewer with mature (60-year-old) skin reports smoother, firmer-looking skin and less visible pores after three months of use.",
+  "spots": "One reviewer with oily, acne- and period-prone skin uses it as a regular staple without mentioning breakouts, describing it as moisturizing and just gently exfoliating.",
+  "redness": "A reviewer with sensitive, red skin reports it cleaned her face without drying it out and left a glow; no other reviewer specifically discusses redness.",
+  "barrier": "One reviewer with sensitive, dry skin says it improved her skin tone and texture without damaging her skin barrier."
+ },
+ "aspects": [
+  {
+   "libelle": "Strawberry scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Exfoliating grains dissolve too fast",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle, low-grit scrub",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin smooth and soft",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Chemical smell and irritation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Recent formula or scent change",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube packaging convenient for shower",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Bri",
+   "titre": "Horrible",
+   "texte": "The smell is so chemically, and its so rough on my skin. I have more sensitive skin and this tore my skin up.",
+   "date": "2024-01-02",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kiara",
+   "titre": "too gentle",
+   "texte": "I didn't find this to have enough scrub. You could feel some grain in the product when you squeezed it out, but once I started to apply to my face, what little sugar scrub just dissolved. This product would be better for someone who wants a very light scrub (and isn't allergic to strawberries) Unfortunately for me, I want to feel the grains and get a high grit to scrub my face. If you're like me, then this product is not for you. Therefore this product does what it advertised: a gentle scrub.",
+   "date": "2024-01-07",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Prisilla",
+   "titre": "Shock",
+   "texte": "I bought this a couple of months ago and loved it. My skin is very sensitive and red, so I was pleasantly surprised when it cleaned my face without drying it out and left a nice glow to it. I wanted to repurchase but the price doubled!?! I'm broke now so I'll just go cry..",
+   "date": "2022-02-16",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "The Becky G",
+   "titre": "Love It!",
+   "texte": "To get the full benefit of this delicate scrub be careful not to use with too much water. It smells lovely and works quite well. Having used for 3 months, my 60 year old skin is smooth and silky with less visable pores.",
+   "date": "2024-01-17",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Scrub",
+   "titre": "Best Natural Exfoliant",
+   "texte": "I love this stuff! I read some of the other reviews, and I definietly disagree. I have sensitive dry skin, but this stuff works beautifully! It is all natural and has improved my skin tone and texture over time. I use this once a day, and its made a huge differnce. It does have a scent, but its natural, and not artificial. I dont mind the smell. It's personal preference I guess. If youre looking for a natural exfolient that wont destroy your skins barrier, this is it!",
+   "date": "2024-01-09",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ultafan",
+   "titre": "It's a staple",
+   "texte": "I have been using fresh products as a teen and am happy they are easier to find now on here. I have oily, period prone acne, seasonal skin. This is my go to for when I need to go from a creamer exfoliating cleanser to a more gel like. I love how it is not to exfoliating, just enough, a wash, and leaves my skin moisturized. It's my staple from spring-fall.",
+   "date": "2022-03-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Oksy",
+   "titre": "Love",
+   "texte": "I loved it! My skin is so dry just by itself so using this product was so nice just because it's so gentle and not to rough on my skin!",
+   "date": "2024-01-09",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,119 @@
+{
+ "ref": "pimprod2056429",
+ "asin": null,
+ "pid": "pimprod2056429",
+ "source": "ulta",
+ "nom": "VT Cosmetics PDRN Tension Toner Pad",
+ "note": 5,
+ "nbAvis": 5,
+ "lus": 5,
+ "collectes": 5,
+ "segments": {
+  "sensitive": "Reviewers with sensitive, acne-prone skin report no breakouts, describing the pads as gentle and fragrance-free while still leaving skin clean and plump.",
+  "dry": "One reviewer with dry, flaky skin reports their face became smooth after use."
+ },
+ "concerns": {
+  "blemishes": "Two reviewers with acne-prone or breakout-prone skin report the pads did not cause new breakouts or pimples.",
+  "dehydration": "Reviewers describe the pads as hydrating without feeling heavy, and one with dry, flaky skin reports smoother skin after use.",
+  "barrier": "One reviewer notes the product feels gentle and did not disrupt sensitive skin.",
+  "spots": "One sensitive-skin reviewer reports clogged pores looking clearer and skin appearing more refreshed after use."
+ },
+ "aspects": [
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Gentle, non-irritating feel",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Hydrating but lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible glow after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild exfoliating effect",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pads usable as leave-on mask",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Repurchase intent expressed",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Angie",
+   "titre": "Love!",
+   "texte": "I bought this on a whim and I am so happy i did! I have sensitive, acne-prone skin and was worried it might break me out, BUT NO. And on the plus side, it cleans my face after cleansing and my face feels so nice and glowy. Its my favorite part to my skincare routine, and after 3 days im noticing a difference in my skin texture.",
+   "date": "2026-03-16",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alejandra",
+   "titre": "would highly recommend",
+   "texte": "I bought this on impulse lol but this worked wonders on my face. Before using this my face was dry and flaky compared to now its so smooth. I really recommend this product and so gentle too. I plan to re-buy more in the future!",
+   "date": "2026-03-26",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SoftSkin888",
+   "titre": "A great addition to my routine!",
+   "texte": "So much more essence in these than meets the eye! So far, ive loved using them as leave-on mask patches while I brush my teeth. Hudrating, but not heavy. Definitely will be repurchasing!",
+   "date": "2026-07-07",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brooke",
+   "titre": "Sensitive skin approved ☆",
+   "texte": "I have a very hard time finding skin care products that wont break me out or say they're for sensitive skin but my skin doesnt agree. This stuff is chefs kiss! I dont reslly break out or get pimples, but my pores are always clogged & this leaves my skin looking plump, refreshed, smooth & so clean. No scent, very gentle on the skin while still exfoliating. 10/10",
+   "date": "2026-08-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": "Only five reviews are available, all five stars, so conclusions—especially about dissent or critical experiences—are drawn from very limited and uniformly positive material."
+}

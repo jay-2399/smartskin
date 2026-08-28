@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2052240",
+ "asin": null,
+ "pid": "pimprod2052240",
+ "source": "ulta",
+ "nom": "ROUND LAB 1025 Dokdo Lotion",
+ "note": 4.8,
+ "nbAvis": 94,
+ "lus": 75,
+ "collectes": 77,
+ "segments": {
+  "oily": "Multiple reviewers with oily skin report the lotion absorbs quickly, controls sebum, and does not feel greasy, making it one of the most frequently recommended types for this product.",
+  "dry": "Reviewers with dry skin are split: several say it moisturizes surprisingly well as a light layer or in summer/under a cream, but a similar number find it not rich enough on its own, especially in winter, and reapply or need a heavier follow-up.",
+  "combination": "Combination-skin reviewers describe it as balancing, hydrating without residue, and compatible with acne-prone or tretinoin-treated skin.",
+  "sensitive": "Sensitive-skin reviewers most often report no irritation, no redness, no stinging and fragrance-free comfort, though one still found it not moisturizing enough for winter despite being soothing.",
+  "mature": "One reviewer mentions using the Dokdo line across her family including mature skin, calling it mild and suitable, but detail specific to mature skin is limited."
+ },
+ "concerns": {
+  "aging": "Only passing mention of use across ages/family members including mature skin as gentle and suitable; no specific anti-aging effect is described.",
+  "dehydration": "Most reviewers report strong, lasting hydration and a plumper, softer feel even in hot or dry climates; a minority (dry or sensitive skin) say it dries out within hours in winter and needs reapplication or a heavier cream layered after it.",
+  "redness": "Reviewers describe it as soothing and non-irritating, with one long-time sensitive-skin user saying it is the first product that doesn't make her skin turn red.",
+  "barrier": "Reviewers mention ingredients described as supporting the moisture barrier (panthenol, centella, hyaluronic acid) and one used it on eczema flare-ups with good results; no negative barrier reports.",
+  "spots": "Not discussed in the reviews.",
+  "blemishes": "Acne-prone reviewers report no new breakouts and no clogged pores over weeks to months of use; no reviewer reports the product causing breakouts.",
+  "oiliness": "Oily-skin reviewers consistently report it does not add greasiness and even reduces the oily feel; no dissent on this point."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight watery gel texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Dispenser inconvenient to use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Insufficient moisture for winter or very dry skin",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Large bottle offers good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves visible streaks if overapplied",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Kareema Salah",
+   "titre": "It's watered down.",
+   "texte": "When you are using it, it's very watered down. So even though it's in a bigger container, it doesn't moisturize or absorb into your skin very well. In addition, applying more than a pinky nail's worth of lotion to your face leaves streak marks that you can't rub in. So over all, please don't buy it.",
+   "date": "2024-06-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jenny",
+   "titre": "Good for sensitive skin but not moisturizing",
+   "texte": "I heard that this lotion has good ingredients (aka doesnt have harsh ingredients), so I purchased it! I dont think its good for the wintertime because it leaves you dry within hours. I have to keep reapplying the lotion to keep my face moisturized. It does seem to soothe my skin though. Ill use it for a bit longer and think about repurchasing it leaning towards a no though.",
+   "date": "2020-12-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Leanna",
+   "titre": "Best moisturizer",
+   "texte": "So far i'm loving it. I have acne prone, combo skin and recently trying to keep my skincare super simple. This is perfect for simple and effective skincare. No breakouts so far, doesn't leave my skin sticky or overly oily like the cerave moisturizer.",
+   "date": "2026-01-26",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Falon Grant",
+   "titre": "Exactly what you would hope for in a moisturizer!",
+   "texte": "I have extremely sensitive skin and break out incredibly easily with products, however this is the most gentle moisturizer without leavening your skin oily or still dry, and is truly non comedogenic so it didn't clog any pores which is huge for a moisturizer! I highly recommend this to anyone of any age! I keep mine in the fridge to help depuff as well. :)",
+   "date": "2024-01-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emily Scott",
+   "titre": "Best moisturizer",
+   "texte": "I have dry/combo skin and this stuff works like a dream! Very light but absorbs well and doesn't feel greasy while providing high hydration. I've even used it on my body when my eczema flairs up and it helps it better than coconut oil. I love the value for the size and price so I don't feel guilty about using it on my face AND body.",
+   "date": "2023-12-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "whale shark",
+   "titre": "Tretinoin Friendly | My Skin Type: Combo Skin (more on the d",
+   "texte": "The Dokdo Lotion feels lightweight and watery (as expected) but it's still somehow moisturizing enough for my dry combo skin. I've tried using other popular moisturizers (not from round lab) but they weren't enough for me; this is the only product I've ever tried that is lightweight and yet super moisturizing! I've been consistently using 0.025% tretinoin since 2019; the Dokdo Lotion pairs so well with it! My skin is also sensitive to rubbing and friction, so I really enjoy that this product blends and spreads very easily. I bought a couple other products and they layer well with each other. 100% recommend! I see myself repurchasing this :)",
+   "date": "2023-03-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jes430",
+   "titre": "It was Okay",
+   "texte": "It did its job. It's lightweight and thin, so that was great! But I have extremely dry skin, so I think I would go for something heavier and creamier next time (esp for the winter).",
+   "date": "2021-09-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

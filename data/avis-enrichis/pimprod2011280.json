@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2011280",
+ "asin": null,
+ "pid": "pimprod2011280",
+ "source": "ulta",
+ "nom": "THE ROUTE The Party Peel - At-Home Chemical Peel",
+ "note": 3.89,
+ "nbAvis": 35,
+ "lus": 33,
+ "collectes": 33,
+ "segments": {
+  "sensitive": "Several reviewers with sensitive, rosacea-prone, or acne-prone skin report the peel caused no stinging, redness, or irritation and left skin soft, though one sensitive-skin reviewer found it too irritating to leave on the full 15 minutes.",
+  "oily": "One reviewer with acne notes it helped clear breakouts and exfoliate clogged pores without drying out her skin, even with consistent weekly use.",
+  "mature": "A single reviewer credits extended use with the disappearance of a long-standing skin tag, though this is an isolated and non-typical claim.",
+  "dry": "At least one reviewer reports the product left her skin more dry after use, with no visible improvement."
+ },
+ "concerns": {
+  "aging": "One long-time user reports a skin tag fell off after about two months of consistent use with no scarring; this is a single, unverified anecdote rather than a general anti-aging effect.",
+  "dehydration": "Several reviewers say the peel dried out their skin with no benefit, while one long-term user says it clears breakouts without drying skin out, so reports diverge by user.",
+  "redness": "Multiple reviewers, including some with rosacea or generally sensitive skin, report no pinkness or stinging and describe the effect as gentle; one reviewer found the sensation too irritating to tolerate for the full application time.",
+  "barrier": "Several reviewers describe skin feeling soft, smooth, and purified afterward with no irritation reported alongside this.",
+  "spots": "Two reviewers mention visible improvement in acne or breakouts, including reduced clogged pores and clearer skin after repeated use.",
+  "blemishes": "One reviewer says the mask helped with her acne and felt like it cleaned out her pores; another uses it specifically when she gets acne and finds it clears it up.",
+  "oiliness": "No reviewer specifically addresses oil control; the bubbling/foaming action is mentioned mainly in relation to pore-cleaning rather than oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Bubbling foaming sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gold glitter residue and mess",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser frequently defective or empty",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for small bottle size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin feels soft and smooth after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Missing usage instructions on packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fun, novel experience for gifting or parties",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "ULTA BA",
+   "titre": "Gimmicky",
+   "texte": "Not seeing extended results, this is just like any other tony moly \"fun\" mask which is cute for pics. There are more effective peels for sensitive skin such as FAB. I'm not seeing any resurfacing benefits, very underwhelming at such a high price point.",
+   "date": "2020-04-01",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Aging Mom in PA",
+   "titre": "definitely different",
+   "texte": "I'm not quite sold on this product for the price. it bubbled up and felt like it was doing something, but then made my skin itchy. couldn't leave it on the whole 15 mins, as too irritating. I really wanted this product to work, as I love, love, love The Route Daytime and Nightime moisturizer and their Golden Rulw retinoid cream. I'm going to keep using this mask a few more times, but so far not impressed.",
+   "date": "2021-03-28",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "cdselon07",
+   "titre": "Good product while we're stuck at home for an exfoliation",
+   "texte": "It works well and doesn't seem to irritate my sensitive skin. However, it starts bubbling the minute you pump it out making it challenging to use as you do have to apply it, so I put it on the back of my hand and then applied; I lost some of it because it had bubbled and set before I could move all of it to my face. It's a relatively small bottle to begin with.",
+   "date": "2020-04-20",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lizzie",
+   "titre": "Coolest mask ever!",
+   "texte": "Dude this thing is like tin man level shiny gold on your face and immediately after dispensing it bubbles all over you face for a minute and then goes back to gold tin man! It really would be a fun party mask with friends! I could tell an immediate difference after the mask too. It felt like it actually exfoliated my skin became smooth and ready for moisture! Helped with my acne even! I felt like the oxygen bubbles cleaned my pores and exfoliated all my dead skin. Very cool mask, never seen/found anything like it!",
+   "date": "2021-06-24",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Allie",
+   "titre": "Perfect for senstitive skin!",
+   "texte": "I have extremely sensitive skin (rosacea and acne prone as well) and am able to use this with no issues! I used it for the first time last night. I've left it on for 7 minutes and love how the little bubbles make you feel like you're seeing it work. The color is so fun and is a great way to see where you've applied the product for a more even distribution. My skin did not get pink from this and it felt very soft afterwards. The following day my skin was glowing!",
+   "date": "2020-01-09",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kiwi33",
+   "titre": "Pricey but works with consistent use",
+   "texte": "During COVID I used this peel weekly. I found it gentle and easy to use. I even had a skin tag under my eye that I just lived with since college because I thought it was permanent, but about two months in to using this product, it fell off and didnt leave a scar or anything. This is a holy grail product for me! While I no longer use it weekly-just based on cost-i still bust it out when I get acne and it clears it up without drying out my skin or irritating it.",
+   "date": "2026-07-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Jackie",
+   "titre": "Nope",
+   "texte": "I purchased this based on the reviews. I was super excited to see that glowy complexion. The product feels light and you really cannot see how much product is in the bottle to begin with. Now as far as results...I didn't notice a difference in my skin. The formula did bubble up but as I was applying it...it bubbled. Also the only difference I noticed was my skin became more dry. Another thing is there is gold glitter residue. My face had bits of gold glitter. I even gave it another shot just to make sure but again 0 results other than my face being dried out.",
+   "date": "2020-04-04",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

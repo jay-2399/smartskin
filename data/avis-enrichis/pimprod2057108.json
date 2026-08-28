@@ -1,0 +1,123 @@
+{
+ "ref": "pimprod2057108",
+ "asin": null,
+ "pid": "pimprod2057108",
+ "source": "ulta",
+ "nom": "Clarins Cryo-Flash Instant Lift Effect & Glow Boosting Face Mask",
+ "note": 4.6,
+ "nbAvis": 5,
+ "lus": 5,
+ "collectes": 5,
+ "segments": {
+  "combination": "One reviewer with fairly non-reactive combination skin reports no breakouts or reactions after daily use, with soft, supple, clear skin afterward.",
+  "mature": "Reviewers in their mid-to-late 40s report firmer, lifted, tighter skin and reduced sagging, with one comparing it favorably to a dermatologist-recommended post-microneedling cream."
+ },
+ "concerns": {
+  "aging": "Reviewers with mature skin report visible lift, firmness, and reduced sagging with regular use, describing results as consistent over two weeks of twice-weekly use.",
+  "redness": "One reviewer notes her face flushes right after application but the redness fades within a few minutes, leaving skin calm afterward."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Instant plumping and glow effect",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Softer smoother skin texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pores appear smaller after use",
+   "polarite": "pos",
+   "concerne": [
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Temporary flushing after removal",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Cathy",
+   "titre": "I've used this product twice",
+   "texte": "Pretty pricey. It did make my skin look nicer. I've only used it twice so I can't make a decision",
+   "date": "2026-06-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jess",
+   "titre": "Amazing!!!",
+   "texte": "I took before and after photos prior to using this mask for the first time. Visible glow and lift. At this point in time, I have used it twice a week for 2 weeks. My skin looks visibly firmer and lifted, consistently. I love this product! For reference I am 48 and my skin is starting to mature and I needed something to help with slight sagging. Bought a second one right away!",
+   "date": "2026-04-02",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maggie",
+   "titre": "It's a staple in my skincare and self care",
+   "texte": "I have combination skin that's fairly non-reactive. I saw this product was highly recommended and was intrigued by a cooling mask. I now use it every single morning as part of my morning skincare routine. I cleanse my face with micellar water then apply this mask. I leave it on for at least 10 minutes, sometimes longer. Once washed, my face is flushed but the redness fades after a few minutes. My skin is left soft, supple, and clear. In the morning I follow with the rest of my skincare routine, including my daily moisturizer. Sometimes I use this mid-day or as a treat. I've had no breakouts or reactions to it, and am already on my third bottle. This stuff is great, I have had a great experience with it. I find the experience of using the cryo mask to be really calming.",
+   "date": "2026-05-29",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rockabilly Cowgirl",
+   "titre": "Makes My Skin Softer",
+   "texte": "By using this product I've noticed my skin is tighter, softer, & the pores on my nose seem smaller. I'm in my mid 40's & was looking for a similar product that my dermatologist recommended after I had a few micro needling treatments. The similar cream she recommended was double the price of this one, so I'm glad I didn't purchase it & gave this one a try. I'll definitely purchase this Clarins cream again because it's awesome!",
+   "date": "2026-07-21",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brit",
+   "titre": "The holy grail",
+   "texte": "I hate that I tried this because now I can't live without it. My face looks so plump after and smooth like I just got done with a nice facial.",
+   "date": "2026-02-27",
+   "verifie": false,
+   "utiles": 16,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "Only five reviews are available, so segment and concern coverage is thin and skewed toward mature skin and enthusiastic reviewers."
+}

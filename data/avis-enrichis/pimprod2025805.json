@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2025805",
+ "asin": null,
+ "pid": "pimprod2025805",
+ "source": "ulta",
+ "nom": "Buttah Skin AHA/BHA Rosewater Toner",
+ "note": 4.75,
+ "nbAvis": 918,
+ "lus": 79,
+ "collectes": 86,
+ "segments": {
+  "oily": "Reviewers with oily or T-zone-oily skin report reduced shine, smaller-looking pores, less pilling of makeup/sunscreen, and a non-greasy feel, though one reviewer with an oily T-zone and dry under-eyes says it did nothing for the dry patches.",
+  "dry": "Some reviewers with dry skin say it leaves skin hydrated and not tight or flaky, but others with dry skin report it dried their face severely with frequent use or caused a bad reaction, and one reviewer avoids using it directly on their dry nose/mouth area.",
+  "combination": "Combination-skin reviewers describe it as good for the oily zones while less helpful or even irritating on drier zones of the face.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it does not irritate, is gentle and refreshing, while others report redness, bumps, peeling, stinging, or a reaction, and one explicitly does not recommend it for sensitive or dry skin.",
+  "mature": "One reviewer recommends the product to 'senior sisters,' implying suitability for mature skin, but no concrete effect on mature-specific concerns is described."
+ },
+ "concerns": {
+  "aging": "Only indirectly mentioned via a recommendation to older ('senior') skin; no reviewer describes concrete anti-aging effects such as fine lines or firmness.",
+  "dehydration": "Most reviewers report the toner is hydrating and does not leave skin dry or tight after cleansing; however, some with dry or sensitive skin report it dried out or irritated their skin when used more than once a week.",
+  "redness": "One reviewer with rosacea reports a dramatic reduction in flare-ups and brighter skin; conversely, other reviewers report the product turning their skin red, causing peeling, or triggering red bumps.",
+  "barrier": "Several reviewers note no alcohol burn, no dryness, and a smoother, calmer feel after use, while a minority describe burning, harsh reactions, or skin feeling 'severely' dried out.",
+  "spots": "Multiple reviewers report fading of dark spots and marks with continued use, describing visibly clearer, more even-looking skin.",
+  "blemishes": "Many reviewers report fewer, smaller, or less intense breakouts and reduced acne scarring; one reviewer instead reports new red bumps/breakouts after first use, and another mentions purging in the beginning.",
+  "oiliness": "Reviewers with oily skin frequently report reduced oil throughout the day and less midday shine or makeup pilling; no dissent on this point is present."
+ },
+ "aspects": [
+  {
+   "libelle": "Rose scent widely liked",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance too strong for some",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Convenient pump for cotton pads",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump not travel-friendly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value, long-lasting bottle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Included exfoliating pads feel scratchy",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "j",
+   "titre": "Horrible",
+   "texte": "Bought this toner based on the reviews it received. This toner is super strong and completed burned my skin after two uses.",
+   "date": "2024-07-05",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Ashley",
+   "titre": "Not for my skin",
+   "texte": "I would describe my skin as sensitive and acne prone. My skin has been pretty clear the past 6 months. The toner felt nice and did not immediately make my skin red, and it did not burn my skin like some toners have. I applied it after showering, and before going to sleep. I woke up to my face looking red, and I had a few little red bumps on my cheeks (where I have never broken out before), and a couple on my forehead.",
+   "date": "2022-08-01",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Brie",
+   "titre": "Buttah Skin Rosewater Toner",
+   "texte": "I have fair, acne prone, sensitive, combination skin. I have an oily t-zone, with dry, eczema prone under eyes. This toner is great for oily skin, it is non greasy, does a great job of getting missed dirt, and has a very convenient pump, which is great for using with cotton pads. The only negative for me, is that I have dry skin patches also, so it did really nothing for that. Overall, great toner for oily skin.",
+   "date": "2023-05-26",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lex",
+   "titre": "Wonderful!",
+   "texte": "I am in love with this stuff. It gets my skin so clean and has helped it brighten. I feel it's especially helpful for the oilier, breakout prone spots on my face, but not as helpful for the dry zones. So, if you have combo skin, be aware of that. Still, overall, it's a welcome addition to my skincare routine. It's stopped the prevalence of my breakouts in their tracks.",
+   "date": "2023-09-05",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Juneaugirl",
+   "titre": "Savior for rosacea!!",
+   "texte": "I have rosacea and have tried many products to help it while also helping my acne, uneven texture, and dullness. Ive been using this about two weeks now and my rosacea flare-ups have reduced dramatically!! My skin is brighter and i feel more confident. I use it at night and in the morning, but in the morning i just wipe my face with it and then apply sunscreen, no facewashing or other products. Im very happy with my results.",
+   "date": "2023-08-03",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nat",
+   "titre": "I was blown away",
+   "texte": "I wouldn't recommend for people with sensitive/dry skin. I have combo skin. The area around my nose and mouth are dry, while everything else is oily. I deal with a bit of acne/acne scars. Since I've started to use this I've noticed my pimples are significantly smaller and so are my scars. I did have a bad reaction around my nose and mouth. I just avoid those areas when using this toner",
+   "date": "2022-07-15",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Keoka",
+   "titre": "So fresh",
+   "texte": "My husband and I love the smell and feel of this rosewater. He has very bad dry skin and using this with the fash wash has made a wonderful difference",
+   "date": "2026-08-13",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

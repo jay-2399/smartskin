@@ -1,0 +1,177 @@
+{
+ "ref": "xlsImpprod15321285",
+ "asin": null,
+ "pid": "xlsImpprod15321285",
+ "source": "ulta",
+ "nom": "La Roche-Posay Toleriane Hydrating Gentle Face Cleanser for Dry Skin",
+ "note": 4.35,
+ "nbAvis": 2693,
+ "lus": 79,
+ "collectes": 115,
+ "segments": {
+  "oily": "A few reviewers with oily (including oily-mature) skin report the cleanser removes makeup and cleans well without excess drying, though one bought the wrong variant and preferred the oily-skin version for foaming.",
+  "dry": "Reviewers with dry skin most often report hydration and no tight or stripped feeling after washing, but a handful with dry or dry-sensitive skin describe severe burning, peeling, or no real benefit for their dryness.",
+  "combination": "Combination-skin reviewers describe it as gentle and non-drying for a double-cleanse routine, with one reporting past breakouts resolved and another finding it merely helped with breakouts without full satisfaction.",
+  "sensitive": "Sensitive-skin reviewers, including those with rosacea, eczema, or a compromised barrier, most commonly report calm, non-irritated skin and no new breakouts, but several report burning, itching, redness, or bumps, sometimes tied to a reported formula change.",
+  "normal": "One reviewer with normal-dry skin reports the cleanser cleared her skin and left it smooth.",
+  "mature": "Mature-skin reviewers (40s to mid-50s, perimenopausal) report visible hydration and a healthy glow with regular use, with no negative reports in this segment."
+ },
+ "concerns": {
+  "aging": "Mature reviewers report hydration and a fresher, glowing look after use; no anti-aging claims beyond general skin appearance are made.",
+  "dehydration": "Most reviewers report relief from dryness, tightness, or flaking, including in winter or after harsh treatments like adapalene or radiation; a minority report the opposite, with severe drying, peeling, or no moisture benefit at all.",
+  "redness": "Reviewers with rosacea or reactive skin frequently report reduced redness and calmer skin with regular use; however, multiple reviewers report the product itself triggering redness, burning, and itching.",
+  "barrier": "Several reviewers credit this cleanser with helping repair or protect a compromised skin barrier without further irritation; one reviewer reports the opposite, that nothing fixed her barrier after it burned her skin.",
+  "spots": "One reviewer reports cystic acne worsened with use, developing new breakouts on the chin and forehead that cleared after stopping.",
+  "blemishes": "Several reviewers with acne-prone or rosacea-prone skin report no breakouts and clearer skin over time; one reviewer reports a new nose whitehead and another reports small bumps appearing across the face.",
+  "oiliness": "Oily-skin reviewers report the product cleans effectively without over-drying; no reports of increased oiliness or shine appear in the reviews."
+ },
+ "aspects": [
+  {
+   "libelle": "Burning or stinging sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Creamy, non-foaming milky texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin feeling clean not stripped",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Removes makeup effectively",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Struggles with waterproof or heavy makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle and refill pouch value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Possible reformulation causing irritation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "emmy",
+   "titre": "awful!!!! horrible!!! no good!!!",
+   "texte": "i have dry, sensitive skin and everyone and their mom raves about this stuff so i thought i would give it a try. it went fine at first, but after three weeks it started to BURN my face severely! nothing i did to try to repair my skin barrier would fix it. it hurt so bad and was so so drying. i was very very disappointed having spent so much money on something that stripped my skin! would give 0 stars if i could.",
+   "date": "2025-03-09",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Abigail",
+   "titre": "i would never by again",
+   "texte": "I bought this product in hopes Of fixing some cystic acne I had been dealing with because of some hormonal changes. at first, when using this product my skin did feel softer. But with each use my skin texture went from being smooth with the occasional bump to having small bumps all over my face. i ended up developing acne in places I had never had it to begin with, like my chin And forehead, and it worsened the texture on my cheeks. i probably won't be using this line of product ever again as when i stopped using it my skin instantly became more clear.",
+   "date": "2025-09-03",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "McKenna",
+   "titre": "IMMEDIATE RELIEF",
+   "texte": "Y'all when I tell you my skin was as ANGRY, I'm not exaggerating. My skin was so dry and inflamed with severe breakouts after trying skin1004 centella ampoule foam and centella ampoule. I was seriously so disheartened. I bought this cleanser on recommendation from an Ulta employee and my skin was IMMEDIATELY relieved after just one wash. Immediately brought down the redness and inflammation and brought hydration back to my skin. Will keep you all updated as I continue to use it but 10/10 first impression!",
+   "date": "2025-05-22",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "DLC",
+   "titre": "Favorite Cleanser on the 🌎",
+   "texte": "I have been using this cleanser now for 5 years. I have mature, sensitive, very OILY, skin that will react to almost anything. This milky hydrating cleanser leaves my face so clean and refreshed as it removes all my makeup. My face has had no reaction but soft supple hydrated skin and I hope La Rosche never changes the formulation. I absolutely live my Hyalu B5 that I apply after cleansing. My skin has never been better and after prolonged use of these two products I have had an excellent result. 🩵🩵🩵🩵🩵",
+   "date": "2025-12-22",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ragamuffin",
+   "titre": "Great Face Wash!",
+   "texte": "I have acne prone skin with rosacea. I've been using this face wash for the past year & it has cleared up my skin. I don't break out in acne, and my roscea never flares up. I had issues with this brand's acne specific face wash causing acne & rosacea flare ups, but this one is gentle enough and cleans well.",
+   "date": "2025-07-25",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mandy",
+   "titre": "I absolutely love this product for sensitive skin!",
+   "texte": "I suffer with rosacea and have had a super hard time finding something that doesn't irritate my skin and cause inflammation in my cheeks and one thing I love about this product is that it's really gentle and hydrating and really helps my skin out I 10 out of 10 would recommend this to anybody that struggles with like rosacea or dryness in their skin!",
+   "date": "2026-02-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jay",
+   "titre": "Perfect for sensitive, dry, eczema prone skin",
+   "texte": "This gentle cleanser is perfect for anyone with very sensitive skin that is flaky and dry. My boyfriend had visibly scaly patches from his eczema and this cleanser improved it greatly.",
+   "date": "2025-06-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2017582",
+ "asin": null,
+ "pid": "pimprod2017582",
+ "source": "ulta",
+ "nom": "Beekman 1802 Bloom Cream Daily Moisturizer",
+ "note": 4.49,
+ "nbAvis": 3007,
+ "lus": 74,
+ "collectes": 121,
+ "segments": {
+  "oily": "One reviewer with oily skin reports the cream absorbs without leaving her face greasy or shiny.",
+  "dry": "Reviewers with dry (including very dry, winter-dry, or high-altitude dry) skin describe lasting hydration, softness, and relief from flaky patches, with no reported reactions.",
+  "combination": "Reviewers with combination skin report balanced, non-greasy hydration, though one finds the texture too thick for her combination skin and prefers it only on neck/chest.",
+  "sensitive": "Reviewers with sensitive skin (including rosacea and sensitive-acne-prone) generally describe the formula as calming, fragrance-free and non-irritating, but one sensitive-skinned user developed contact dermatitis with cracking, peeling and a rash.",
+  "mature": "Reviewers with mature or sun-damaged skin describe fast absorption with no greasy feel and use it as a hydrating makeup primer."
+ },
+ "concerns": {
+  "aging": "Reviewers mentioning aging or mature skin describe smoother, plumper, more radiant skin and one reports it as 'wrinkle free'; no dissent noted.",
+  "dehydration": "Reviewers describe consistent, lasting hydration and improved softness/plumpness across dry, combination and normal skin, with no reports of insufficient moisture.",
+  "redness": "One reviewer with rosacea reports her redness resolved with regular use; no other redness-specific reports or dissent appear.",
+  "barrier": "Several reviewers credit the formula (goat milk, niacinamide, prebiotics) with strengthening or repairing the skin barrier and reducing irritation, but one reviewer reports the product caused contact dermatitis and barrier damage requiring dermatologist care.",
+  "spots": "One long-term user with acne-prone skin reports it 'heals' her skin over two years of use; another reports using it as a spot mask that clears breakouts within days.",
+  "blemishes": "Reviewers with acne-prone or blemish-prone skin report calming and healing effects with no new breakouts mentioned; no negative reports of breakouts appear.",
+  "oiliness": "Reviewers describe the cream as non-greasy and shine-free even on oily or combination-oily skin, with no reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy, no residue finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fun flower-shaped dispenser",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Off-putting or headache-inducing scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Label text rubs off packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Refill pod design wastes product",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jacinda",
+   "titre": "Gave me Contact Dermatitis",
+   "texte": "This moisturizer is marketed as gentle and hydrating- as soon as I started using it ruined my skin barrier. The skin on my face was cracked and peeling and a rash developed on my face and neck. Was told by a dermatologist it was contact dermatitis from this product so now I'm working to heal it.",
+   "date": "2026-05-04",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Katie",
+   "titre": "Off-putting smell!",
+   "texte": "I tested this in the store and didn't love the consistency of the product. Additionally, the smell is very off-putting. I walked away and went looking for the other product options I had narrowed down. As it's dried down the smell has continued and has given me a headache — I'm not usually sensitive to fragrances.",
+   "date": "2026-07-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Tina",
+   "titre": "Mature Skin's New Best Friend",
+   "texte": "At 58 with dry, sensitive, sun damaged skin this moisturizer is a game changer. Goat milk absorbs instantly — never greasy. I use it as a hydrating primer under makeup every single day. Mature skin approved.",
+   "date": "2026-05-15",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Madi",
+   "titre": "My favorite moisturizer",
+   "texte": "Gentle enough to use every day, doesnt leave me greasy, and it's one more product that makes me LOVE this brand. I finally found one that helps with my rosacea. I now know what my face without redness looks like thanks to them. This cream is my holy grail now.",
+   "date": "2026-05-14",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Britney",
+   "titre": "MAGIC IN A BOTTLE",
+   "texte": "One of my favorite items from Beekman 1802, it's the best thing! It truly changed my skin and when I stop using it, my skin screams. I pair it with their milk drops ceramide and it does wonders for my sensitive acne prone skin!",
+   "date": "2026-06-03",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Aakrisha",
+   "titre": "The best moisturizer",
+   "texte": "I have used the bloom cream for 2 years now. I have acne prone skin and it works so well, it heals my skin. It's hydrating, glowing; light weight and sits so well under makeup",
+   "date": "2026-07-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maggie",
+   "titre": "A daily must for skin maintenance",
+   "texte": "I absolutely love the bloom cream for everyday use and would recommend it especially for sensitive skin babes. I test ALOT of beauty and skincare products and sometimes, certain products can damage my skin barrier or have an adverse reaction to my skin type and I find that this moisturizer is one of those that I can reset and heal my skin with. It is hydrating but not greasy and has such gentle healing properties that I always enjoy. I would definitely recommend this for daily use for all. For reference, I have combination skin that leans oily in the summer and pretty dry in the winter.",
+   "date": "2026-07-29",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

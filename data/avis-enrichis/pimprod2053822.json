@@ -1,0 +1,170 @@
+{
+ "ref": "pimprod2053822",
+ "asin": null,
+ "pid": "pimprod2053822",
+ "source": "ulta",
+ "nom": "ANUA Azelaic Acid 3 Cica Skin Clarifying Toner",
+ "note": 3.9,
+ "nbAvis": 10,
+ "lus": 9,
+ "collectes": 9,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers report mixed results, ranging from immediate burning and redness to no irritation at all and reduced redness with regular use.",
+  "combination": "One reviewer with sensitive combination skin, very dry around the nose and cheeks, found the toner dries slightly sticky before moisturizer but leaves skin soft and smooth once moisturizer is applied.",
+  "mature": "A reviewer over 60 found the toner a good prepping step that left skin soft and smooth after moisturizing, though patchy redness needed more time to assess."
+ },
+ "concerns": {
+  "redness": "Most reviewers who mention redness, including one with severe rosacea and one with sun-damage marks, report visible calming or minimization of redness; one reviewer with sensitive skin and redness saw no noticeable improvement after a month.",
+  "blemishes": "Several reviewers report the toner helps dry out small acne outbreaks and reduces acne-related marks; one reviewer specifically bought it for acne and blemishes and noticed a difference within a couple of weeks.",
+  "spots": "One reviewer reports the toner helped fade old acne marks on the face and chest.",
+  "barrier": "One reviewer notes the toner can be drying if not followed by serum and moisturizer, while another with dry patches around the nose and cheeks found it manageable once moisturizer was layered on.",
+  "oiliness": "One reviewer reports the toner helps with pores and leaves a non-oily, glass-like finish rather than reducing oil production specifically."
+ },
+ "aspects": [
+  {
+   "libelle": "Refreshing, clean feel on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can feel drying without follow-up moisturizer",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Leaves glass-like non-oily finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Immediate burning and redness on first use",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Easy to layer under other serums",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky feel before moisturizer absorbs",
+   "polarite": "neg",
+   "concerne": [
+    "combination",
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Worth repurchasing for the price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "m",
+   "titre": "instant reaction",
+   "texte": "I use the serum from this line religiously, figured I'd try another product. This toner immediately made my skin burn and turn red. First time this has ever happened with an Anua product. will be returning.",
+   "date": "2026-03-11",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kleek",
+   "titre": "Refreshing, but no noticeable benefits",
+   "texte": "I struggle with sensitive skin, redness, acne, and plugged sebaceous filaments. I bought this hoping it would reduce redness (azaelic acid) and help with the sebaceous filaments and acne (salycilic acid). I've been using this every morning for over a month, and really haven't noticed much improvement in these areas. It is refreshing and I haven't had any negative effects from using it. I'll probably use it until it's gone but won't repurchase.",
+   "date": "2026-01-21",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jordy",
+   "titre": "50/50",
+   "texte": "I can't say that it's anything special but I do suffer from pretty severe rosacea and it hasn't caused me to flare up. I think it definitely minimizes some redness due to acne so that's nice. Also i've only been using for about a week and a half now morning and night.",
+   "date": "2025-12-04",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Samantha",
+   "titre": "Can be drying",
+   "texte": "Got this toner to help with acne and blemishes. Since I've used it for the last couple weeks I've noticed a difference. It's the only change in my skin care routine. However, make sure to use serum and moisturizer after because while it feels refreshing and clean, it can be drying.",
+   "date": "2026-03-02",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JK",
+   "titre": "helps with redness",
+   "texte": "This toner has helped redness from sun damage and past acne marks on my face and chest. I like the liquid formula b/c it's easy to layer other serums over it. Azaleic acid works for me and I'm glad to have found it in a toner form!",
+   "date": "2026-04-15",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SixtiesJune",
+   "titre": "Good prepping toner but dries sticky before moisturizing",
+   "texte": "I'm 60+ with sensitive combination skin that's extremely dry around my nose and cheeks. The toner plus serum dry a little sticky, but after applying moisturizer, my skin felt soft and smooth immediately with first time use and ongoing. Need more time to see if the patchy redness goes away but definitely a great start for me after a couple of weeks!",
+   "date": "2026-07-04",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MJ",
+   "titre": "Love it!",
+   "texte": "I actually really like this product. It doesnt leave my skin sticky nor does it iritate my skin. If anytning it has helped with redbess and my acne. I love putting in in my face after i wash it then i use a hydrating toner right after and it leaves my skin with a glass like finish (not in a oily way) ive finished my first bottle of it and will be re purchasing",
+   "date": "2026-08-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

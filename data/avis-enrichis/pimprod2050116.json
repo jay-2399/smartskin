@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2050116",
+ "asin": null,
+ "pid": "pimprod2050116",
+ "source": "ulta",
+ "nom": "Bubble Star Dew Hydrating Eye Cream",
+ "note": 4.84,
+ "nbAvis": 462,
+ "lus": 78,
+ "collectes": 94,
+ "segments": {
+  "sensitive": "Reviewers with sensitive or dermatitis-prone skin are split: several report burning or irritation especially on the eyelid, while others say it caused no flare-ups, milia, or irritation and even helped protect against makeup-triggered dermatitis flares.",
+  "dry": "Reviewers with dry skin describe the cream as rich, creamy and effective at reducing dryness, flaking and cracking around the eyes, with some calling it ideal for winter or very dry skin.",
+  "oily": "One reviewer with oily skin says it provides light hydration adequate for basic needs but not enough if skin needs more than that.",
+  "mature": "Reviewers describing themselves as older or dealing with aging skin report smoother, plumper under-eyes and reduced wrinkles or crepey texture with continued use."
+ },
+ "concerns": {
+  "aging": "Several reviewers report smoother, plumper skin and reduced wrinkles or crepiness after weeks of use; one reviewer specifically credits it with diminishing wrinkles.",
+  "dehydration": "The large majority describe strong, fast hydration and less dryness or cracking under the eyes; one reviewer says it did little for eye dryness after switching from a thicker moisturizer.",
+  "redness": "No reviewer specifically discusses redness as a standalone concern beyond irritation reports covered under barrier/sensitivity.",
+  "barrier": "One reviewer with seborrheic dermatitis says it created a protective barrier that prevented makeup-triggered flare-ups; others with sensitive or reactive skin report burning, especially on the eyelid.",
+  "spots": "Not discussed in the reviews.",
+  "blemishes": "One reviewer notes another eye cream clogged her under-eye area but this product did not, though effects were described as minimal on their own.",
+  "oiliness": "Not discussed in the reviews."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, smooth texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast, strong hydration",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenses too much or gets stuck",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle mostly solid, less product than it appears",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or stinging sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Cute, travel-friendly packaging",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Meowmeow",
+   "titre": "Not great for sensitive skin",
+   "texte": "Gives that burning sensation you get with many moisturizers (sensitive skin iykyk), especially on the eyelid, which is half the reason I wanted it. Also doesn't do much for my dark circles or eye hydration. Eyes have been dry since I swapped using thick moisturizer on them to ysing this.",
+   "date": "2025-12-09",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Lex",
+   "titre": "Not for sensitive skin",
+   "texte": "While it was mosturizing more times than not it would make my skin burn. But if you dont have super sensitive skin it is really nice!",
+   "date": "2026-01-27",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sadaboutthebottle",
+   "titre": "Terrible Pump",
+   "texte": "I LOVE this eye cream. Its lightwieght yet moisturizing. I have dry skin and this really does the trick even though it feels so light. Unfortunately the pump is absolutely terrible. It gets stuck and the will squirt the product so intensely that it flies across my bathroom. I've probably wasted as much product on the floor of my bathroom as I've actually used. Please switch the packaging to a squeeze bottle or glass container.",
+   "date": "2025-07-05",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JL",
+   "titre": "Safe for sensitive, dermatitis-prone skin!",
+   "texte": "Love this! I get sebhorreic dermatitis around my eyes- extreme dryness, flaking, irritation- and i use this cream in the morning before i apply makeup and it seems to create a nice moisturizing, protective barrier between my skin and my makeup. Typically makeup causes dermatitis flare-ups for me right away, and this has seemed to prevent that! Very grateful for this product for my sensitive skin.",
+   "date": "2025-05-29",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ladycasey35",
+   "titre": "Makes my eye area gorgeous",
+   "texte": "Since the morning rays eye cream clogged my undereye area (why would anyone think using ethylexyl palmitate in an EYE CREAM is a good idea), I threw that one out and kept this. On it's own, it doesn't do much but I combine this with the $6 good molecules yerba mate wake up eye gel (i apply the eye gel before) and my eye area looks less line-y/dehydrated and more glowy and healthy.. and my eyes are also sensitive but it's not making my eye area irritated.",
+   "date": "2025-11-17",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "angie",
+   "titre": "Bought because It was cheap, but this product really deliver",
+   "texte": "About this product in a hurry and it was cheap. I've been using it for a year and let me tell you this is the best eye cream I have used ever. I use it at night after I wash my face and in the morning after I wash my face it has really diminished my wrinkles.",
+   "date": "2026-08-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "ari",
+   "titre": "MISLEADING SIZED BOTTLE",
+   "texte": "The size of the bottle is EXTREMELY MISLEADING!! I was wondering why I went through this cream in 1.5 months. I thought the pump was stuck. I removed it to find that most of the bottle is SOLID and has the tiniest amount of space inside for the cream. 10% of the whole bottle actually has product. if you have this product unscrew the top and you will see what im talking about. so misleading, shame on the company! Will not buy this brand again!!!",
+   "date": "2025-06-20",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

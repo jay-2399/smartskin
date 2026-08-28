@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2025372",
+ "asin": null,
+ "pid": "pimprod2025372",
+ "source": "ulta",
+ "nom": "I Dew Care Space Kitten Exfoliating Charcoal Peel-Off Mask",
+ "note": 4.39,
+ "nbAvis": 134,
+ "lus": 80,
+ "collectes": 124,
+ "segments": {
+  "oily": "Reviewers with oily or oily T-zone skin describe the mask as controlling oil and leaving skin less oily and pores looking smaller, though one oily-skin reviewer reports it dried her skin out and caused irritation.",
+  "dry": "One reviewer with dull, dry skin uses it to brighten and exfoliate with good results; another combination-dry reviewer notes it did not leave skin dry despite expecting it to.",
+  "combination": "Combination-skin reviewers (oily T-zone, dry elsewhere) report it helps control blackheads on the nose and forehead and describe the effect as gentle and clean.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it did not cause redness or irritation and pulled out blackheads gently, but one warns sensitive skin or those with peach fuzz may find the peel-off step painful for facial hair.",
+  "normal": "One reviewer with normal-to-oily skin saw no visible benefit despite liking the application experience."
+ },
+ "concerns": {
+  "dehydration": "A few reviewers report the mask dried out their skin or made it feel tight and irritated, particularly on the T-zone, while many others explicitly say it did not dry out or strip their skin.",
+  "redness": "Multiple reviewers, including some with sensitive skin, state the mask did not cause redness or irritation after use.",
+  "spots": "Most reviewers who mention blackheads or whiteheads report the mask visibly pulled them out and left pores looking clearer, though a couple say it removed only some (about half) of their sebaceous filaments or nothing at all.",
+  "blemishes": "Several reviewers with acne-prone or blemish-prone skin report clearer, smoother skin and reduced breakouts after use, including one who says a large pimple disappeared, though multiple other reviewers of unspecified skin type report no visible change in blackheads or whiteheads.",
+  "oiliness": "Reviewers using it on oily T-zones report it absorbs excess sebum and leaves skin feeling less oily, with no reports of increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong or overpowering fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pleasant, light scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Satisfying peel-off texture and reveal",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long dry time (30-40 minutes)",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glitter mess on hands and nails",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cute, fun packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value and long-lasting jar",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Kelly",
+   "titre": "Didn't work for my skin",
+   "texte": "I received this complimentary from i dew care in exchange for my honest review. I have pretty oily skin especially in my t-zone so I had high hope that this would work well for me. Unfortunately, it didn't do anything except dry my skin out. It made it quite irritated. I don't think I'll be using again",
+   "date": "2024-05-20",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Alexa",
+   "titre": "Cool concept, but not my favorite",
+   "texte": "I received this product complimentary from idewcare in exchange for my honest review. I love the concept of this product and did feel like it did it's job of making my pores smaller, detoxing, pulling out whiteheads & blackheads, and controlling oil. It's a super fun concept as it's black with sparkles in black & silver packaging so it made me feel super luxurious and was oddly satisfying to put on. However it doesn't peel off like it says it's supposed to and I had a really hard time getting it to come off! I also wish it came with some sort of applicator because it got my nails really black and dirty and was so hard to get off of them. I will continue to use this product, but I wouldn't purchase it again! I wanted to like it more but unfortunately am not in love with it!",
+   "date": "2025-03-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Tiger_eyes",
+   "titre": "Fun mask",
+   "texte": "I received this product complimentary from I Dew Care in exchange for my honest review. This is a pretty fun peel off mask. It's black with pretty blue sparkles. You may want to stay away if you have very sensitive skin or a lot of peach fuzz. I feel like it ripped all my facial hair off when I peeled the mask off. It did leave my skin feeling very soft though.",
+   "date": "2024-05-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "IM",
+   "titre": "Out of this world",
+   "texte": "I love charcoal masks! And this one is a winner. I like how it makes my skin feel super smooth & refreshed after peeling/taking it off. I have combo skin where I have oily on my t-zone & dry everywhere else. Love how gentle, clean and exfoliates my face.",
+   "date": "2022-12-03",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lindsey",
+   "titre": "Amazing for acne prone skin",
+   "texte": "This is an amazing mask for acne prone skin. It really helped my skin look clearer after using it without over drying. I love that it peels off, it's fun to do! It made my skin look and feel smooth, clear, and bright. Gifted by idewcare.",
+   "date": "2024-05-23",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ali",
+   "titre": "It's very effective",
+   "texte": "This is my favorite T-zone peeling mask by far. I have sensitive skin but it doesn't cause redness after using it. It doesn't damage my skin surface but is able to pull out my blackhead, white sebum, and mini hair, esp on my nose area. It's always satisfying to peel it. It smells very nice as well! It's easy-peel, just need to make sure the mask is completely dry before peeling. Otherwise, it's a little bit hard to wash it all off while it's still wet.",
+   "date": "2022-11-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hunnie",
+   "titre": "easy to peel off, feels clean",
+   "texte": "I have oily combination skin, so I love using charcoal mask periodically to clear out my pores. This Space Kitten Exfoliating Charcoal Peel-Off mask is for T zone only (including nose). The texture is very interesting, because, not only charcoal, it also has sapphire and diamond powder, which help brighten and exfoliate skin. It dries completely in about 30 minutes and it is fairly easy to peel off. My skin feels clean and so soft afterward.",
+   "date": "2022-11-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

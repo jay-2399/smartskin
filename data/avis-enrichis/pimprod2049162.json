@@ -1,0 +1,175 @@
+{
+ "ref": "pimprod2049162",
+ "asin": null,
+ "pid": "pimprod2049162",
+ "source": "ulta",
+ "nom": "Eucerin Radiant Tone Dual Serum Dark Spot Corrector",
+ "note": 4.36,
+ "nbAvis": 641,
+ "lus": 78,
+ "collectes": 120,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are split: several report no irritation and even praise the fragrance level, while others describe stinging, tingling, or breakouts they attribute to alcohol denat or fragrance.",
+  "combination": "Combination-skin reviewers describe an oilier forehead/nose with occasional reaction there while cheeks tolerate the serum fine, and generally see gradual tone improvement without adverse effects.",
+  "dry": "One reviewer with dry, sensitive skin used it successfully alongside a retinoid; another simply notes it kept skin moisturized.",
+  "oily": "A normal/oily-skin reviewer with hormonal melasma found it moisturizing and effective with noticeable fading within two weeks.",
+  "mature": "Reviewers addressing age spots and mature skin report visible fading of hand and facial age spots after two to several weeks, plus a general improvement in radiance."
+ },
+ "concerns": {
+  "aging": "Reviewers using it for age spots and sun damage report visible lightening within two to several weeks and an improved, more youthful-looking complexion; results are described as fading rather than full removal.",
+  "dehydration": "Several reviewers note the serum feels moisturizing, hydrating, and non-greasy; one prefers other moisturizers for hydration and one dry-skin user found it compatible with retinoid use.",
+  "redness": "One reviewer reports the serum helped balance skin tone and reduce redness.",
+  "barrier": "A few reviewers mention stinging, tingling, or eye-stinging after application, and one with sensitive skin avoided combining it with retinoid/AHA due to peeling; most others report no irritation.",
+  "spots": "The large majority of reviewers, including several following dermatologist recommendation, report visible lightening of melasma, hyperpigmentation, or age/dark spots within two weeks to a few months; a minority see slow or no change yet.",
+  "blemishes": "Several reviewers say fresh post-acne marks heal without darkening as much as before; however, three reviewers explicitly report new breakouts they blame on the fragrance.",
+  "oiliness": "One combination-skin reviewer notes increased oiliness on forehead and nose in summer, with reaction only in those areas."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong perfume-like fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Fragrance barely noticeable or pleasant",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pilling under makeup or other products",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tingling or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Good value for price point",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gradual, patience-dependent results",
+   "polarite": "neg",
+   "concerne": [
+    "spots",
+    "aging"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Gina",
+   "titre": "The fragrance, whyyyyy?",
+   "texte": "I loveee Eucerin products- they're the only things that have saved me from my horrific eczema. My dermatologist recommended I try this serum for hyperpigmentation. I've used it twice so far and I am breaking out wicked and I can't help but think it's from the fragrance... Please make a fragrance-free version!",
+   "date": "2026-02-03",
+   "verifie": true,
+   "utiles": 23,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Libby",
+   "titre": "Need to use it for long term",
+   "texte": "i have combination skin. In the summer it's getting more oily on my forehead and nose. I purchased this serum on April 30, so it's about 3 months using. My forehead and my nose have allergic reaction with this but it works just fine on my cheeks (dry area). I noticed dark spot because of acne gets lighter but very slow. For people are allegic with Niaciamide, vitamin C and tranexamic acid, this is a good option for treating dark spots",
+   "date": "2025-07-22",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "oiliness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "L",
+   "titre": "Melasma from Birth Control",
+   "texte": "Fitzpatrick Scale 1, early 30's, normal/oily skin-type. I've developed melasma on the tops of my cheeks as well as a few spots on my cheeks triggered by birth control. It has a serum/milky texture and it feels moisturizing. I've been using this mainly in the evening as this makes my SPF pill. I do find this effective, in two weeks I have seen noticible fading in my melasma. I will preface my melasma looks about one to two foundation shades darker than my skintone. This does have a strong floral scent which dissipates after like ten minutes (or maybe I just don't notice it after that). Overall I would say this is effective.",
+   "date": "2026-02-04",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Spotless",
+   "titre": "Age spots have faded",
+   "texte": "This product was recommended by my dermatologist to lighten some age spots on my hands. After a few weeks ( approximately 2) the spots started to fade and are clearly lighter ( yay!). I've also used on my face and see an improvement in my complexion. I am hyper-sensitive to certain scents but find this product's fragrance rather pleasant, light, and non-offensive.",
+   "date": "2025-07-09",
+   "verifie": true,
+   "utiles": 14,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dar",
+   "titre": "Perfect for",
+   "texte": "This works so good for dry sensitive skin. I use it in combination with .05 tret. It was recommended to me directly by my derm and I love it.",
+   "date": "2025-08-14",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "S",
+   "titre": "Works. Halts hyperpigmentation in its tracks",
+   "texte": "I was skeptical but this seems to work. I use hyperpigmentation products reguarly so I don't habe many spots but I have randomly been having more than usual breakouts and my issues with those is whether you pick at them or not, they still scar. I have been using 2 thiamidol products from this line and what I notice is that this works great on fresh hyperpigmentation in the sense that a healing pimple will not really start to darken compared to the way it would if I wasn't using this. It tingles and used to heat up my face the first few weeks of use and irritated around my eyes which is odd because I don't have sensitive skin but the eventually stopped. It is heavely fragranced. It almost feels like you are putting a hair product on your face.",
+   "date": "2025-12-20",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Smelly",
+   "titre": "Amazing product, too fragranced",
+   "texte": "I started noticing a reduction in pigmentation almost immediately after starting this but almost abandoned it because of the heavy fragrance. It does irritate my skin but doesn't usually cause problems. It is more perfumed than most perfume. I will continue to use it but I BEG of Eucerin to please release a fragrance free version or at least reduce the amount of fragrance used. I don't care how bad thiamidol smells. The people need this!",
+   "date": "2025-09-14",
+   "verifie": true,
+   "utiles": 38,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2048545",
+ "asin": null,
+ "pid": "pimprod2048545",
+ "source": "ulta",
+ "nom": "Oak Essentials Renew Face Polish Gentle Exfoliator",
+ "note": 4.87,
+ "nbAvis": 286,
+ "lus": 78,
+ "collectes": 85,
+ "segments": {
+  "dry": "Reviewers with dry skin report the exfoliant polishes off dead, dry skin and leaves the face smooth without stripping natural oils or leaving it dry, including in winter.",
+  "sensitive": "Reviewers describing sensitive, easily-irritated, or reactive skin report no redness, no irritation, and no reaction, calling it the first exfoliant gentle enough for their skin, including one who says her face 'turns red super quickly' with other scrubs but not this one.",
+  "mature": "One reviewer notes it helped with fine lines around the eyes (in the context of a related mask), and another mentions post-menopause acne clearing within days of daily use."
+ },
+ "concerns": {
+  "aging": "One reviewer felt it helped with fine lines around the eyes, though this comment concerns a companion mask used alongside the polish rather than the polish alone.",
+  "dehydration": "Most reviewers report the product does not dry out or strip the skin and instead leaves it feeling moisturized and nourished; one reviewer wished for more \"cushion\" around the beads to reduce roughness.",
+  "redness": "Reviewers prone to redness report no redness or irritation after use, including someone whose skin normally reddens quickly with exfoliants.",
+  "barrier": "A reviewer actively repairing an irritated, damaged skin barrier reports visible and tactile improvement without added irritation; another uses it specifically because chemical acids are too disruptive for her barrier.",
+  "spots": "One reviewer reports menopause-onset acne spots became not visible within three days of use; no other spot-specific reports appear.",
+  "blemishes": "One reviewer explicitly reports no new breakouts using it every 2-3 days; no dissenting reports of breakouts are present in this set.",
+  "oiliness": "One reviewer reports the product visibly shrinks pores; no other oiliness-specific reports appear."
+ },
+ "aspects": [
+  {
+   "libelle": "Grit size and coarseness",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Grit size and coarseness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unpleasant or weird scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, spa-like scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rinses off cleanly, creamy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting, small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pairs well with other Oak Essentials products",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Lauren",
+   "titre": "Disappointed",
+   "texte": "I wasn't a big fan of this. The grit was a little too coarse for my preferences. It is unscented, but not in a pleasant way.",
+   "date": "2025-08-07",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Moni",
+   "titre": "Excelente",
+   "texte": "Amazing product for sensitive skin! My skin feels and looks so soft just after one use. Not harsh like most exfoliating products.",
+   "date": "2025-03-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anastasia S.",
+   "titre": "Loved by Boyfriends Too",
+   "texte": "This product is really incredible! I have been dealing with irritated &amp; damaged skin for about 3-4 months now slowly working on getting my skin barrier restored. I have been using very gentle products in my routine &amp; hesitated trying anything new either as I feared it could cause more irritation. However, I believe in exfoliation as a needed step, but needed the right product for it. This face polish delivered with an overhead - my skin keeps improving, visibly &amp; to the touch, and I don't think I would get to these results without the face polish. Bonus point - my very picky boyfriend also loved this product and said positive things about it!",
+   "date": "2025-04-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Crystal M.",
+   "titre": "Love the face polish I've",
+   "texte": "Love the face polish I've never been able to use anything exfoliating on my face Because it is too rough on my face. My skin turns red super quickly. I definitely can use this even daily. Sometimes I just apply a little to my essential face wash an scrub up together!!! Thank you",
+   "date": "2025-03-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marny B.",
+   "titre": "Does the job with no breakouts",
+   "texte": "I love this scrub. I've tried many and this makes my skin feel/look clean but not stripped. I use it every 2-3 days to boost skin turnover since acids are too disruptive to my skin's barrier. Scrub smells good, good texture, no irritation, no breakouts!",
+   "date": "2025-07-23",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tina",
+   "titre": "Complexion is more clear and vibrant",
+   "texte": "After going into menopause my face began getting acne. Something I have never had not even as a teenager. In three days as part of my daily routine my acne spots were not visible. I have been using 3 times a week.",
+   "date": "2025-08-10",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jess",
+   "titre": "Great for sensitive skin",
+   "texte": "Renew Face Polish is super gentle and the best exfoliator I have tried on my sensitive skin. I have no redness after using it, and my face doesn't feel dry.",
+   "date": "2026-05-17",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

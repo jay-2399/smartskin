@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2053654",
+ "asin": null,
+ "pid": "pimprod2053654",
+ "source": "ulta",
+ "nom": "medicube Kojic Acid Turmeric Night Wrapping Mask",
+ "note": 3.64,
+ "nbAvis": 53,
+ "lus": 43,
+ "collectes": 43,
+ "segments": {
+  "oily": "One reviewer with skin not normally prone to oiliness reports the mask made it excessively oily and advises against it for normal-to-oily skin.",
+  "dry": "Multiple reviewers with dry skin report increased hydration, softness, and moisture lock-in overnight, with one calling it a game changer for dry combination skin.",
+  "combination": "One reviewer with dry combination skin reports hydrated, soft skin as a repeat benefit.",
+  "sensitive": "Reviewers with sensitive skin report irritation, itchy red patches, or a burning sensation on peeling, with one explicitly warning sensitive-skin users away.",
+  "mature": "One reviewer flags the retinol content as something younger users should avoid, implying suitability skews toward mature skin with sun protection."
+ },
+ "concerns": {
+  "aging": "One reviewer notes the mask contains retinol and recommends sunscreen and moisturizer use, positioning it as an anti-aging step best suited to non-younger skin.",
+  "dehydration": "Several reviewers report hydrated, soft, plump skin the next morning, including one with dry skin describing it as a game changer for moisture.",
+  "redness": "One reviewer's sister experienced itchy red patches and irritation described as an allergic-type reaction.",
+  "barrier": "One reviewer describes a painful, chemical-burn-like sensation when peeling the mask off, suggesting barrier discomfort for some users.",
+  "spots": "Reports are mixed: several reviewers say it faded dark marks and hyperpigmentation and evened skin tone, while at least two say it did nothing for their dark spots or hyperpigmentation.",
+  "blemishes": "Most acne-related reports are negative: multiple reviewers describe new breakouts including cystic acne after use, though a few acne-prone reviewers report no breakouts and even improvement or scar fading.",
+  "oiliness": "One reviewer not usually prone to oiliness reports the mask left skin very oily and unsuitable for normal-to-oily skin types."
+ },
+ "aspects": [
+  {
+   "libelle": "Peels off before morning",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tacky or sticky residue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, pleasant application feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Brightening glow next morning",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small size relative to price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Triggers breakouts",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes",
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Itching or burning on peel-off",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Linds",
+   "titre": "Not worth the hype — AVOID IF ACNE PRONE!",
+   "texte": "I was excited to try this. It had been hyped up online, however after many attempts, I was left with worse skin than before. I have acne prone skin, and I was told this could be beneficial. The first few times I tried it, I had difficulty with it peeling off during the night. I never saw beneficial results within the first few attempts, but I gave it a few more tries to allow time to see. Every time I've tried using this it leaves a greasy, almost sticky, feeling even after hours of drying. It's weird and uncomfortable to sleep in. I started to notice acne popping up after utilizing this. Some of what popped up was just small, typical looking zits, or closed comedones. But then I noticed deep seeded, almost cystic acne, popping up. The acne I was getting from this product has been a nightmare to clear up. Deep seeded cysts that take weeks to heal, and seem to come back even after clearing. Never had issues like this till I used this product… AVOID IF ACNE PRONE!! Love medicube, and this has been my only flop from them, but it wont stop me from using their other products, not everything is acne safe and I understand that. I just want to spread this to help other acne prone people out there.",
+   "date": "2025-10-23",
+   "verifie": false,
+   "utiles": 32,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "ria",
+   "titre": "not acne prone skin safe",
+   "texte": "made me have a huge cystic acne breakout on my cheeks. my skin is sensitive and acne prone so do not recommend if you have that skin type. i think the acids may be too harsh for some.",
+   "date": "2025-11-18",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Miranda",
+   "titre": "SOOOOO oily",
+   "texte": "My skin has never been prone to being oily but this product made my skin SO SO SO OILY!!!! I would see how this would benefit someone with very dry skin but if you have normal to oily skin ABSOLUTLEY NOT for you!",
+   "date": "2025-12-28",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alebrii",
+   "titre": "Definitely worth the hype!",
+   "texte": "I bought this to help meet the minimum amount for free shipping and it turned out to be a new favorite. I use it 2-3× per week and it leaves my skin hydrated and so soft. I have dry combination skin and this has been a game changer.",
+   "date": "2026-01-19",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Britt",
+   "titre": "RUN DONT WALK",
+   "texte": "This has helped me so much with my acne scares and my skin dryness like it make my fave extremely hydrated so dry skin girlies you need thissssss!!!!",
+   "date": "2026-01-05",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shy",
+   "titre": "LOVE THIS MASK",
+   "texte": "I honestly thought I would have dark marks and hyperpigmentation forever. This is the only product that has helped me to fade and get rid my dark marks and hyperpigmentation. Before I started using this product I thought I was allergic to kojic acid until I used this mask and it didn't irritate my skin AT ALL. I see some people with acne prone skin are saying that it broke them out and guys you only have to use the mask TWICE a week, not every day because it has kojic acid in it. But overall it didn't break me out and I ended up buyingthe whole Tumeric and Kojic Acid line from Medicube. My mom said my face and co-workers said my fae cleared up alot.",
+   "date": "2025-11-21",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "A",
+   "titre": "Used it for dark spots on face sadly didn't work",
+   "texte": "Doesn't work . I've been waiting on it to fade but nothing has changed so far.i used it daily and patiently waiting for the change",
+   "date": "2026-03-29",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

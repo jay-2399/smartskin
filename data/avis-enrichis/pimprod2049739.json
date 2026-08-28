@@ -1,0 +1,135 @@
+{
+ "ref": "pimprod2049739",
+ "asin": null,
+ "pid": "pimprod2049739",
+ "source": "ulta",
+ "nom": "La Roche-Posay Anthelios UV Tone Sunscreen SPF 50 with Niacinamide",
+ "note": 4,
+ "nbAvis": 9,
+ "lus": 8,
+ "collectes": 8,
+ "segments": {
+  "oily": "One reviewer with oily skin says the sunscreen still feels nice through the day though she needs to blot and reapply by late afternoon.",
+  "dry": "One reviewer suggests the formula would likely suit dry skin better, based on its greasy, sticky feel on her own non-dry skin.",
+  "sensitive": "One reviewer with sensitive skin reports no white bumps or redness, unlike other sunscreens she has tried."
+ },
+ "concerns": {
+  "redness": "One sensitive-skin reviewer reports no redness or white bumps with this sunscreen, where other sunscreens have caused that reaction for her."
+ },
+ "aspects": [
+  {
+   "libelle": "Sunburn protection reliability",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, silky application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy, sticky feel in heat",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Glowy, hydrated finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Chemical filter ingredients undisclosed in listing",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Price and order handling",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild stinging in eyes",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "YellowUmbrella05",
+   "titre": "Does not protect from sunburn",
+   "texte": "I am a big fan of LaRoche-Posay and use their sunscreens all the time. They're the only ones I've found I'm not allergic to. I normally use the UV Correct one, but it was out of stock so I bought this one. I will never ever recommend or use it again. It goes on really nicely and it's smooth as silk compared to the other I use, but I have the most awful sunburn after being out in the sun. And I applied it 3 times over 4 hours at the pool with the first time being 30 minutes before arriving because I could actually feel the burn setting in over the afternoon. Don't use if you plan to be out in intense sun for long periods!",
+   "date": "2025-07-09",
+   "verifie": false,
+   "utiles": 21,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "mr2k",
+   "titre": "couldn't get past the stickiness",
+   "texte": "This would likely work well for someone with dry skin. It feels quite greasy and sticky. It wasn't comfortable in desert heat in summer. La Roche Posay has many other products that feel weightless and oil free on the skin, so I'll probably stick with those.",
+   "date": "2026-08-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "John",
+   "titre": "A great sunscreen with a lovely texture",
+   "texte": "This is a wonderful sunscreen that melts into the skin and leaves a bit of a glow. I have oily skin and it still feels nice throughout the day (though towards the end I do need to wipe off and reapply). The Niacinamide is what makes this a tone up. There is a bit of a sting in the eyes, but it's not bad if it happens.",
+   "date": "2025-09-02",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "velvet",
+   "titre": "Just got back from Hawaii",
+   "texte": "This sunscreen feels so nice on and I have a problem with a lot of sunscreens due to my sensitive skin. Some sunscreens wind up giving me little white bumps or redness and I haven't had that with this one. I didn't get burned or even tan while wearing it in Hawaii (and I'm a natural blonde) so I think it's really effective as well. To be fair, Idid wear a zinc oxide based sunscreen during water activities because I wasn't sure this one was reef safe. The rest of the time I wore this and I did multiple tours outside, so I feel it did get a workout. It is easily my new favorite!",
+   "date": "2026-08-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sunshine",
+   "titre": "Misleading description",
+   "texte": "Just wanted to add a note since the product description and ingredients list (at time of purchase and review) leaves out that this is a chemical sunscreen containing avobenzone, homosalate, octisalate and octocrylene. I selected this lotion online specifically because I was trying to avoid a couple of those ingredients. Hope this helps someone else.",
+   "date": "2025-05-29",
+   "verifie": false,
+   "utiles": 19,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Emilly",
+   "titre": "Great Everyday SPF",
+   "texte": "Love this for everyday use! It makes my skin look very glowy and hydrated without looking greasy.",
+   "date": "2026-03-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": "With only nine reviews and limited mentions per skin type, coverage of most types and concerns is thin."
+}

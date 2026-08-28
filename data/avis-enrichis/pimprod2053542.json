@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2053542",
+ "asin": null,
+ "pid": "pimprod2053542",
+ "source": "ulta",
+ "nom": "medicube Collagen Night Wrapping Mask",
+ "note": 3.85,
+ "nbAvis": 123,
+ "lus": 79,
+ "collectes": 112,
+ "segments": {
+  "oily": "One reviewer with combination skin and an oily forehead/chin found it useful to control oil, but another reviewer reports the mask itself left her skin feeling oily and greasy with a new pimple.",
+  "dry": "Reviewers with dry skin are split: several describe hydrating, glossy, plumped results, while others (including a 53-year-old and a reviewer in her 50s) report the mask left skin drier, tighter, and peeling with wrinkles more visible.",
+  "combination": "A reviewer with combination skin and an oily forehead/chin says the mask stayed on all night without peeling and worked well as a barrier over other products.",
+  "sensitive": "Reports diverge sharply: some sensitive-skin users say the mask did not burn or irritate them, while others describe burning, redness, rash, or peeling that they attribute to sensitivity, with one explicitly warning it 'may not work' for sensitive skin.",
+  "mature": "Several reviewers in their late 30s to 70s describe firmer, plumper, more hydrated and glowing skin with regular use, though one reviewer in her 50s found it too drying and better suited to younger skin."
+ },
+ "concerns": {
+  "aging": "Multiple mature-skin reviewers (late 30s to 70s) report firmer, plumper, glowing skin and reduced puffiness or droopiness with regular use; one reviewer in her 50s felt it made wrinkles more visible because her skin wasn't left moisturized.",
+  "dehydration": "Many reviewers report significant overnight hydration, glow, and plumped skin, especially when applied over moisturizer; several others report the opposite, waking up with drier skin, peeling, or no lasting moisture despite the hydration claims.",
+  "redness": "Several reviewers report waking up with red, inflamed, or burning skin that sometimes lasted days and was followed by peeling; others with normally non-sensitive skin were surprised by this reaction.",
+  "barrier": "One reviewer credits the mask with major improvement to her peri-menopausal skin barrier and hydration; others report the mask itself caused barrier damage, describing peeling, sunburn-like skin, and breakouts lasting about a week.",
+  "spots": "A few reviewers report fewer or less noticeable acne scars and pimples turning into scars; one reports a new large pimple the morning after use.",
+  "blemishes": "Some reviewers with acne-prone skin report fewer breakouts and calmer skin with regular use; at least one reviewer reports a new breakout and clogged-pore feeling after use.",
+  "oiliness": "One combination-skin reviewer used it specifically to reduce overnight oil transfer from her forehead and found it effective; another reviewer reports the mask itself made her skin feel unusually oily and greasy the next day."
+ },
+ "aspects": [
+  {
+   "libelle": "Glow and radiance next morning",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult, messy peel off",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or itching on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Works best layered over moisturizer/serums",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Comes off overnight with movement",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for amount needed",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Odd scent that fades quickly",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "kk",
+   "titre": "damaged my skin barrier",
+   "texte": "i wanted to love this product but this caused me to break out and dried out my skin so bad, its been a week and my skin is peeling and feels and looks like a sunburn, it did burn when i applied it so i should have known. my skin is sensitive so this may work for you but it unfortunately did not work for me :(",
+   "date": "2025-11-21",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "A pass for me",
+   "titre": "Dry skin",
+   "texte": "I found this mask to be way too drying. I am 53 so maybe its made for younger skin. I put it on before bed. When i got up in the morning my skin was a little red. Peeling it off my face reminded me of peeling Elmer's glue off your palm in school.",
+   "date": "2025-10-26",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "KH",
+   "titre": "Meh, like peeling glue",
+   "texte": "I had high hopes for this product. I wen to bed with this on. I made sure it was dry first. I could feel my face getting tight like I had a clay mask on. When I got up in the morning some of it was already peeling off. I expected to have moisturized skin under the peel, but no, no I didnt. It was just like peeling Elmers glue off the palm off my hand in elementary school. Kind of satisfying in that way. But my skin was so dry. It did look glass like but it was dry and completely lacked any moisture. Because my skin wasn't moisturized it made all my wrinkles stand out. I do not recomment this product for anyone trying to regain moisure, like women of my age in their 50's. This is for the younger generation.",
+   "date": "2025-10-30",
+   "verifie": false,
+   "utiles": 21,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Cassie",
+   "titre": "Went in with no expectations",
+   "texte": "To start i have combonation skin with oily forehead and chin. I actually only bought this because i have bangs and needed something to keep my hair from getting greasy from my skin care(duh) and was so surprised with how well it worked ! Cons - the price! for how much you need to use its a little expensive for everyday use -tends to peel around the mouth and eyes, just put it on RIGHT before bed and it should be ok (dont put it over eyebrows will get a lottle stuck) Pros -you can toss and turn all night didn't move or peel from face -sealed over oils and Aquaphor!!!",
+   "date": "2026-01-23",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nat",
+   "titre": "My first Holy Grail product",
+   "texte": "I am 6 months into my mature skincare journey. I have been incorporating new products here and there to find what works for my peri-menopausal skin. As far as skin barrier care goes—THIS IS THE ONE. My skin has never looked or felt so hydrated. It's seriously whole other level hydration. I don't leave a ton of reviews on things but when I saw the low ratings for this occlusive PM mask, I was compelled to chime in. It does take some getting used to applying and sleeping in but the results the next morning had me hooked after the first use. I have put this on 4 nights a week for over a month now and have woken up to beautiful, soft and glowing skin every single time. Sometimes I do my entire routine underneath. other nights i just do my retinal and night cream underneath, but every single morning after I peel it off, my skin looks and feels regenerated and rehydrated. I don't understand the low rating at all. This one is a complete game changer for me in the best possible way!",
+   "date": "2025-12-30",
+   "verifie": false,
+   "utiles": 29,
+   "peau": "mature",
+   "sujets": [
+    "barrier",
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "B",
+   "titre": "great mask",
+   "texte": "I have been using product for about a month. I can see the difference in absorption of other products I apply. my skin is much softer, more glowy, and its actually really easy to sleep in. I do have sensitive skin but have not noticed any sort of burning personally. love it, love the price point. Will be refilling this product.",
+   "date": "2025-08-22",
+   "verifie": false,
+   "utiles": 21,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "curlymsgirl_mia",
+   "titre": "Holy grail product",
+   "texte": "I absolutely love this mask. For me I use it at the last step of my nightly skincare, and it is a game changer. I am prone to breakouts, and by using this mask I have less breakouts.",
+   "date": "2025-10-27",
+   "verifie": false,
+   "utiles": 14,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

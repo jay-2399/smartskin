@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2053770",
+ "asin": null,
+ "pid": "pimprod2053770",
+ "source": "ulta",
+ "nom": "ROUND LAB Pine Calming Cica Cream",
+ "note": 4.77,
+ "nbAvis": 57,
+ "lus": 44,
+ "collectes": 44,
+ "segments": {
+  "oily": "Reviewers with oily or oily-sensitive skin report fast absorption, no greasy feel, and one notes it helps control oil while moisturizing.",
+  "dry": "Reviewers with dry skin (including dry, acne-prone skin) find it too light to be sufficiently moisturizing on its own, especially in winter, and prefer to pair it with a heavier moisturizer or use it mainly in warmer months.",
+  "combination": "A combination/sensitive-skin reviewer reports it reduces redness, calms the skin, and adds glow without feeling heavy.",
+  "sensitive": "Sensitive-skin reviewers repeatedly report no irritation, calming of redness and itchiness, and good tolerance even with reactive or rosacea-prone skin, with one noting a mild peeling sensation."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers say it hydrates well and leaves skin feeling refreshed without heaviness, but dry-skin reviewers consistently say it is not moisturizing enough alone in winter or dry climates and needs to be layered with a richer cream.",
+  "redness": "The large majority of reviewers who mention redness (including rosacea) report visible reduction in redness and calming of irritation with regular use; no reviewer reports redness worsening.",
+  "barrier": "One reviewer credits it with building/strengthening the skin barrier; no negative reports on barrier function appear.",
+  "blemishes": "Reviewers with blemish-prone skin are split: several say it doesn't irritate and helps prevent buildup/blackheads, but two say it is not sufficient for their acne needs and one describes a severe, weeks-long breakout after use.",
+  "oiliness": "Reviewers with oily skin report it controls oil and leaves no greasy residue, describing fast absorption and a non-greasy, refreshed finish."
+ },
+ "aspects": [
+  {
+   "libelle": "Fast-absorbing, lightweight texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No greasy or sticky residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cica scent takes getting used to",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sleek, appealing packaging design",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Container size too small for price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Insufficient moisture for winter or dry skin",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Severe breakout reported by one user",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Katelyn",
+   "titre": "1-Star Review",
+   "texte": "This product gave me the WORST acne of my life; even worse than my cystic hormonal acne. I switched over my skin care routine (slowly) to using Round Lab after seeing this advertised all over. At first I assumed my skin must be purging with how awful the acne was, but 6 weeks and two periods later my skin looks disgusting. All this did was keep me from wanting to go to social events or take pictures for 6+ weeks (not to mention I'm now spending hundreds to fix this). I do NOT recommend for any type of acne prone skin.",
+   "date": "2024-01-18",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Nie",
+   "titre": "Doesn't irritate & great under makeup",
+   "texte": "I have very dry, acne prone skin and while this isn't moisturizing enough to pair with my acne meds and winter weather, it doesn't irritate my skin and I think will work well in during the warmer months. Wears well under makeup, isn't greasy and has a nice creamy texture. Gave this to my younger brother and he loves it, his skin isn't as dry as mine during winter, he's now using it daily. He also has acne prone skin (not as bad as mine) and thinks it's helping it stay clear and helps prevent build up and blackheads. LOVE that it doesn't have any fragrance in it!",
+   "date": "2023-01-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mika",
+   "titre": "If your skin gets irritated easily you need this to calm it",
+   "texte": "If your skin gets irritated easily you need this to calm it down !! My skin is always irritated and dry and this has been a lifesaver! If you're in a colder/dryer climate I would recommend using a lightweight moisturizer with it as well. I can use it as a moisturizer by itself in the summer but any other month it wouldn't be moisturizing enough. If you have oily skin you might be able to pull it off though !!",
+   "date": "2023-08-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jyn",
+   "titre": "my skin loved it!",
+   "texte": "My skin absorbed the product incredibly fast. It left my skin feeling refreshed and hydrated without any greasy sensation or layer. I have extremely oily sensitive skin. Worked wonderful for me.",
+   "date": "2023-12-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joana",
+   "titre": "Great for Dry Acne Prone Skin",
+   "texte": "This was recommended to me by one of the employee in sukoshi at square one. It helped calm the redness on my skin and hydrate it very well ??",
+   "date": "2022-11-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Arlene Sotelo",
+   "titre": "Great",
+   "texte": "This is a nice lightweight feeling moisturizer. Settles nicely into the skin. Bought this because I have rosacea.",
+   "date": "2022-12-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Nat",
+   "titre": "Great product, not for me",
+   "texte": "I bought this thinking my skincare routine needed a calming moisturizer. My skin is prone to breakouts and it might need some extra help that this moisturizer is not providing. I think it works great at getting rid of redness but my blemish prone skin needs something different.",
+   "date": "2023-08-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

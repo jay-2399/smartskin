@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2028656",
+ "asin": null,
+ "pid": "pimprod2028656",
+ "source": "ulta",
+ "nom": "Cetaphil Moisturizing Lotion, Hydrating Body Moisturizer",
+ "note": 4.62,
+ "nbAvis": 32011,
+ "lus": 79,
+ "collectes": 125,
+ "segments": {
+  "oily": "Reviewers with oily-leaning or acne-prone skin generally report no new breakouts and a non-greasy feel, though a couple mention feeling oily or breaking out if they apply too much or use it while already oily.",
+  "dry": "Reviewers with dry, very dry, or winter-dry skin consistently report relief from tightness and flaking, softer and smoother skin, and multi-hour hydration, with one noting she'd still want something thicker for very dry skin.",
+  "combination": "Reviewers with combination skin say it hydrates well but can leave a slightly greasy or slippery after-feel.",
+  "sensitive": "Reviewers with sensitive skin repeatedly report no irritation, redness, or breakouts, praising the fragrance-free formula, including use on children, teens, and elderly relatives with easily-irritated skin.",
+  "mature": "One reviewer reports that regular long-term use has helped skin appear smoother, more supple, and shown reduced signs of aging on hands, face, and neck."
+ },
+ "concerns": {
+  "aging": "One long-term user reports smoother, more supple skin and a reduction in visible signs of aging over time; this is the only mention of anti-aging effect.",
+  "dehydration": "The large majority of reviewers report strong, long-lasting hydration (up to 10 hours) that relieves winter dryness, tightness, and flakiness; one reviewer with very dry skin says it isn't rich enough and she'd need something thicker.",
+  "redness": "Reviewers using it on sensitive or reactive skin, including children and an elderly relative, report no redness or irritation appearing.",
+  "barrier": "One reviewer credits it with repairing/calming an irritated skin barrier; no dissent noted.",
+  "spots": "Not enough reviewer mentions of spots specifically to draw a conclusion distinct from general breakout comments.",
+  "blemishes": "Several reviewers, including those describing themselves as acne-prone or breakout-prone, report it does not cause new breakouts; one reviewer says it does cause breakouts specifically when applied while her skin is already oily.",
+  "oiliness": "Most reviewers say it absorbs without leaving a greasy or oily residue, but a few with combination or oily-leaning skin note a greasy or slippery after-feel, especially if over-applied."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy or slippery residue",
+   "polarite": "neg",
+   "concerne": [
+    "combination",
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Pump dispenser convenience",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Redesigned pump dispenses poorly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable value for bottle size",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lingering lotiony or sticky feel",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Jyobish",
+   "titre": "Fix the pump",
+   "texte": "Please note this review is not for the product but the bottle . I bought the newly designed bottle recently and as much as I love the product itself , I have hated the new design. Apparently I can only take one pump of the lotion and then I have to wait for it to come back to take the second pump . Honestly please fix it I want to be able to take one or 5 pumps of lotion quickly. This is a bizarre design whoever came up with it",
+   "date": "2026-07-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 3,
+   "auteur": "lexiS",
+   "titre": "ol faithful!",
+   "texte": "ol faithful! this is great for hydration but left me feeling a little greasy. i have combination skin though so this can be why! the pump keeps the bottle clean and free from drips",
+   "date": "2026-08-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "AngelicaS",
+   "titre": "Perfect daily moisturizer for skin care",
+   "texte": "Use this daily at night and it's light weight! Perfect when my skin is feeling dry and absorbs through the night! Only thing is I do not use when my face is feeling oily I break out when I use it when I'm feeling oily.",
+   "date": "2026-03-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MicahL",
+   "titre": "Lightweight",
+   "texte": "Ive been using this Cetaphil moisturizer and it's become one of my go-to moisturizers. The texture is lightweight and absorbs quickly into my skin without feeling greasy or heavy. A lot of moisturizers tend to break me out, but this one has never caused me issues at all, which is a huge plus for me since i have acne prone skin where my pores get clogged easily. It keeps my skin feeling soft and hydrated throughout the day! Overall, this moisturizer is simple and a gentle option for anyone that has sensitive and breakout prone skin. I would totally recommend it!",
+   "date": "2026-03-27",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LeaidysB",
+   "titre": "Perfect for dry and sensitive skin",
+   "texte": "I ve been using cetaphil moisturizing cream and it works really well for my skin. It feels rich but not greasy, absorb quickly, and keeps my skin soft all day. Perfect for dry and sensitive skin,specifically during cold or dry weather. And conditioner hidrating ingredients like glycerin, petrolatum and dimethicone, that keep my skin soft and protects. It last a long time.",
+   "date": "2026-07-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "OlurantiA",
+   "titre": "Best Product for Dry Skin",
+   "texte": "The picture of my leg speaks for itself! This was recommended for extreme dry skin by my doctor. I purchased the 2nd bottle after week two. I use this every morning and night. My skin now feels so soft and no longer dry. The texture is good and well absorbed. Every members of my family use this product.",
+   "date": "2026-06-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JillL",
+   "titre": "Great for repairing irritated skin.",
+   "texte": "I've been a fan of this brand for years, you can never go wrong with this brand. It's not greasy & absorbs well. It's creamy, light texture & amazing value. It's great for repairing your skin barrier or calming it down from irritation.",
+   "date": "2026-04-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

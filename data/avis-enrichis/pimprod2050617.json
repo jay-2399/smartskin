@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2050617",
+ "asin": null,
+ "pid": "pimprod2050617",
+ "source": "ulta",
+ "nom": "RODAN + FIELDS Redefine Daily Foaming Face Cleanser",
+ "note": 4.83,
+ "nbAvis": 2058,
+ "lus": 72,
+ "collectes": 74,
+ "segments": {
+  "dry": "Several reviewers describe their skin as dry and report the cleanser does not strip moisture and leaves skin soft rather than tight.",
+  "mature": "Reviewers who mention aging or mature skin report the cleanser is gentle, non-exfoliating, and fits well into an anti-aging routine without irritation.",
+  "sensitive": "One reviewer with already dry, reactive skin values that it cleanses without stripping, and another notes it never irritates her skin when alternated with a clay cleanser."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on aging and mature skin report smoother, more even-toned, refreshed skin over years of use, with one crediting it for helping skin stay vibrant during aging; no negative effects on aging skin are mentioned.",
+  "dehydration": "Most reviewers say the cleanser does not dry out skin and leaves it soft, moisturized or hydrated after use; no reviewer reports a drying effect, though one wishes the tube lasted longer given how much product she feels she needs.",
+  "redness": "Only one reviewer directly addresses this, stating the cleanser never irritates her skin when rotated with the clay cleanser."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich foaming lather",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Efficient makeup removal",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Soft clean feel afterward",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong soap-like scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Gritty texture change reported",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount needed, economical",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Less exfoliating than sister product",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Pat D",
+   "titre": "It is usually creamy and",
+   "texte": "It is usually creamy and foamy and now it seems like it has changed. . . it is gritty and I get it in my eyes and I don't like that feel.",
+   "date": "2025-08-28",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Becky H",
+   "titre": "I like it, but. . .",
+   "texte": "I like this cleanser as it seems gentle on my skin, but it smells strongly like good old-fashion bar soap. I know it IS a form of soap, but the smell is just a bit off putting. I have used this product for years, I don't know if the formula has changed or why it's affecting me now, but that is the only thing I don't like about it. It works well.",
+   "date": "2025-07-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Amy H",
+   "titre": "Love the cleanser and use",
+   "texte": "Love the cleanser and use daily for past 10+ years. My skin's tone and clarity definitely is healthy and more even. I believe it is helping with keeping more vibrant during the aging process.",
+   "date": "2026-04-17",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ray W",
+   "titre": "The best facial cleanser",
+   "texte": "I love this cleanser and know I can trust products with the R&F label on it! My skin is already dry so I value a product that cleanses without stripping the moisture from my skin!",
+   "date": "2026-01-21",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer G",
+   "titre": "I have tried other products",
+   "texte": "I have tried other products to test them out and always come back to my R&F products! Doesn't dry my skin out and leaves my face feeling clean.",
+   "date": "2026-02-05",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lynne B",
+   "titre": "Favorite is the foaming cleanser",
+   "texte": "I alternate tha foaming cleanser with the clay cleanser. It never irritates my skin!",
+   "date": "2025-10-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sandra H",
+   "titre": "Cleansing",
+   "texte": "Gentle, moisturizing product without concerning exfoliants for this aged skin",
+   "date": "2026-03-03",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,165 @@
+{
+ "ref": "xlsImpprod18731041",
+ "asin": null,
+ "pid": "xlsImpprod18731041",
+ "source": "ulta",
+ "nom": "TULA The Cult Classic Purifying Face Cleanser",
+ "note": 4.3,
+ "nbAvis": 4862,
+ "lus": 71,
+ "collectes": 97,
+ "segments": {
+  "oily": "One reviewer with sensitive, oily, acne-prone skin says her hormonal acne cleared using this cleanser.",
+  "dry": "Reviewers with dry skin, including one describing herself as 62 with very dry skin, report the cleanser cleans without drying or leaving a tight/stiff feeling, though one 1-star reviewer says it left her skin tight and dry.",
+  "combination": "Reviewers with combination (and combination-oily) skin say it cleanses well without drying their skin, while one combination/acne-prone reviewer says it worsened her cystic acne.",
+  "sensitive": "Many reviewers describe their skin as sensitive or very sensitive and say the cleanser is gentle, non-irritating, and does not strip or dry the skin, including users with rosacea.",
+  "mature": "A 62-year-old reviewer with very dry skin reports improved firmness and elasticity, and another mentions her almost-50-year-old mother uses it happily."
+ },
+ "concerns": {
+  "aging": "Two reviewers report visible benefits tied to age: one 62-year-old says it improved firmness and elasticity, another notes a mother close to 50 also likes it; no negative aging-specific complaints appear.",
+  "dehydration": "Most reviewers, including those with dry or sensitive skin, say it cleanses without drying or tightness; one 1-star review is a clear dissenter, reporting a tight, dry feeling after washing.",
+  "redness": "Two reviewers with rosacea report the cleanser cleans without irritating or stripping their skin.",
+  "barrier": "Several reviewers say it cleanses without stripping natural oils or causing tightness, including gentle-cleanse claims for compromised or reactive skin.",
+  "spots": "Reviewers report mixed results for hormonal and cystic acne: some say it cleared hormonal or long-standing acne and prevents breakouts with regular use, while others—including one whose dermatologist urged her to stop using Tula—report their acne worsened into cystic breakouts.",
+  "blemishes": "Multiple long-term users say it keeps their skin clear of breakouts, but at least two reviewers report new or worsened breakouts, including cystic acne, after use.",
+  "oiliness": "One reviewer with oily, acne-prone skin says it removes oils effectively without irritating her skin; no reports of increased oiliness appear."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong or unpleasant fragrance",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Light or pleasant fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin clean and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Poor lather or soapy residue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Faulty pump dispenser",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Expensive for the amount used",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "",
+   "titre": "Would not recommend for acne-prone skin",
+   "texte": "I never write reviews, but I felt so compelled to possibly prevent this from happening to someone else. After using this cleanser for months, my skin went from mild acne (that I believed was caused originally from using Tula's Radiant Skin Brightening Serum Skin Tint SPF) to horrible cystic acne that I have not gotten since I was a young teenager. I changed my already clean diet, got hormonal testing, and spent a lot of money on other products to try to rid the acne. With no luck, I decided to get in to see my Dermatologist, who had to give me cortisone shots to get rid of the cyclic acne I had that would not go away. After talking with her, she urged me to stop using any Tula products as she felt very strongly they were the cause, and said she would never recommend the brand. Since I've stopped using the Tula face wash, my skin has gone back to how it was prior to using their products. I have no new breakouts, I'm just left with terrible acne scaring and discoloration from the cystic acne this product caused me. Would not recommend.",
+   "date": "2025-04-21",
+   "verifie": false,
+   "utiles": 13,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Mik",
+   "titre": "Didn't work for my skin",
+   "texte": "I have combo, acne prone skin. I used this consistently for about a month. After one week i noticed painful, cystic like acne. I thought maybe my skin was just detoxing and it would clear, but it just continued to break out. Everyone has different skin, this just wasnt for me.",
+   "date": "2025-02-02",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ARI",
+   "titre": "Cleared my hormonal acne!!!",
+   "texte": "I struggled with acne as a teenager, and when I became an adult, my acne went away. After I turned 30+ my acne came back because my hormones changed. I have sensitive, oily, acne prone skin, most salicylic acid products burn. I was using Peach and Lily prior to using this line and it was just okay i was still getting breakouts. So I decided to try Tula and take a risk. My hormonal acne is totally clear and gone and I've only been using this for two weeks now. This line works well for me, but it may not work for all skin types. So I would recommend purchasing the travel size just to try it out first.",
+   "date": "2025-07-03",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stephanie",
+   "titre": "Great product",
+   "texte": "I am 62 with very dry skin. This product makes my skin feel very clean without making it dry. I use the intensive moisturizer at night. Love that it doesn't have any cancer causing chemicals like some of the others I have used it has improved the firmness and elasticity of my face",
+   "date": "2025-06-12",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Christine",
+   "titre": "The perfect gentle cleanser",
+   "texte": "Have been using this for 5 years now and don't go a single day without it. I have sensitive, combo but oily skin and this is the perfect gentle face wash I have tried that is consistent. It doesn't dry my skin out or strip it.",
+   "date": "2025-04-07",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Can't recommend enough!!",
+   "texte": "By far the best face wash I've ever used. I have the most sensitive skin and horrible rosacea but this face wash is the only thing I'll use. I've been using it for years! It leaves your skin so clean but not dry or tight at all. It takes off all your makeup while still being gentle. Can't recommend enough.",
+   "date": "2025-01-31",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Great!",
+   "texte": "I absolutely love this cleanser. I have very dry, acne prone skin and I have been using this face wash for 3 years. This cleanser removes my make up without needing a make up remover!",
+   "date": "2025-01-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

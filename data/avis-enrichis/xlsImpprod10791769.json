@@ -1,0 +1,163 @@
+{
+ "ref": "xlsImpprod10791769",
+ "asin": null,
+ "pid": "xlsImpprod10791769",
+ "source": "ulta",
+ "nom": "Clinique All About Eyes Serum De-Puffing Eye Massage",
+ "note": 3.74,
+ "nbAvis": 243,
+ "lus": 77,
+ "collectes": 92,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are split: several say it never irritates their sensitive or allergy-prone eyes, while one reports a rash that flares and burns with any cream after using this.",
+  "mature": "Mature reviewers (mid-40s to mid-60s and one 86-year-old long-term user) mostly report either no visible change to puffiness or dark circles despite years of use, though a handful in their 40s-50s credit it with visibly reducing puffiness and brightening the area."
+ },
+ "concerns": {
+  "aging": "Most who mention fine lines, wrinkles or aging say this serum is not marketed for and does not address them, with a few noting it worsened the look of fine lines or made dark circles appear more pronounced; one long-term user credits it with helping under-eye wrinkles and one recommends a dedicated anti-aging product instead.",
+  "dehydration": "Several reviewers describe the serum as hydrating, cooling and quick-absorbing without residue, but a smaller group reports dryness, tightness and irritation, with one noting fine lines looked more accentuated afterward.",
+  "redness": "A small number of reviewers with sensitive or allergy-prone eyes say the product never irritates or reddens the eye area; one reviewer instead reports a rash and burning that flares with any subsequent cream use.",
+  "barrier": "Not enough reviews specifically discuss barrier concerns beyond the dryness/tightness some report.",
+  "spots": "One long-term user explicitly states the product does not work on dark or aging spots and recommends a different product for that concern.",
+  "blemishes": "Reviews do not discuss acne or blemishes; this product is used almost exclusively for under-eye puffiness and dark circles.",
+  "oiliness": "Multiple reviewers note the serum absorbs without leaving oiliness or stickiness behind, and no reviewer reports it causing oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling rollerball sensation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No visible depuffing effect",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rollerball dispenses product poorly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes dryness or tightness",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Triggers irritation or rash",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "ab",
+   "titre": "ok but not great",
+   "texte": "i have really bad under eye bags and my eyes swell horrendously every morning, my mom bought this for me as a christmas gift a year ago and it still has shown me little to no results. ive developed a rash over top one of my eyes from it too!!!! if you have sensitive skin, i would not recommend this. any time i put any cream on my eyes now the rash flares up and burns, definitely not what i was expecting from clinique 😭 its a nice cooling feel when you first put it on, but its not for me unfortunately :(",
+   "date": "2023-01-25",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Khatgirl",
+   "titre": "All About Nothing-Doesn't Help Dark Circles",
+   "texte": "I use Clinique's All About Eyes Serum De-Puffing Eye Massage twice a day, under my makeup. I purchased it in the store from a sales associate specifically so have something to put ON my dark circles since they were accentuated on zoom calls. He instead recommended I buy this product. I told him that I had unsuccessfully tried other de-puffing products, but he said this would take care of my problem. It did not. This product is not made for people with chronic thin skin under their eyes like me.",
+   "date": "2020-11-16",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Tearsa",
+   "titre": "Not working",
+   "texte": "My mom, who is 86 uses this every day. Sometimes twice a day for about the last 10 years and swears by it. She has no dark circles, no puffiness. No, nothing under her eyes. She kept telling me cause I have very puffy dark circle eyes to get it, I finally got it i've been using it two weeks like crazy and it has not helped not even a little bit still have puffy dark circles, I continue to use it, i'm gonna give it two more weeks and if it doesn't do anything, i'm returning it. I roll it on just like they said outer inner. Do it twice, tap it lightly in to smooth it into your skin. And then I use all my other products. It feels great, it's nice and cool, but it really does nothing for my eyes at all.",
+   "date": "2023-10-18",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Lauren",
+   "titre": "Drying",
+   "texte": "I don't feel this depuffs at all. And I feel dry after using it, not like my eyes are moisturized. I also feel like my eyes looks older (I'm 33 and don't have much aging yet), accentuating the fine lines I have and making the dark circles look darker. I'll finish the roller because I paid for it, but will not be purchasing again. The roller feels cold when applying, which does few nice.",
+   "date": "2020-11-25",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shannon",
+   "titre": "My absolute favorite eye serum",
+   "texte": "This Clinique eye serum has saved me. It's the only eye serum I can use under and above my very sensitive, allergy eyes. Thank you, Clinique!",
+   "date": "2025-03-13",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Steel Ovaries",
+   "titre": "Thoroughly impressed!",
+   "texte": "After a horribly stressful 2 years, my eyes showed it. Dark circles, puffy yet sunken somehow, wrinkles and lines and crows feet… they were a mess. I had almost given up hope, then the Ulta girl suggested I try this. OMG, this has saved my poor late 40s eyes! I use it morning and night, and if I'm not wearing makeup I'll use it a couple of times throughout the day, too. I slather it on pretty generously, let it soak in for a minute or two, and then gently tap in the remaining/ blend it outward. I did a side by side of my eyes just before buying this vs. after just 1 week of daily use and the difference is insane! I'm not normally a fan of Clinique products, but this will be a permanent resident of my arsenal!!",
+   "date": "2021-08-13",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Genny",
+   "titre": "Bought it many times already",
+   "texte": "*Please read* I have been using this same product since I was 15 years now i am 27. I love this product because it really remove my eye bags and and dark color under my eyelid. I only put this product in when my eyes look tired.I dont think this will be a good product for dark spots/ aging spot. For aging spot and wrinkles I will recommend Age IQ Neora it's pricey. my mom (age48) uses this product took her 3 months to see results.",
+   "date": "2021-01-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2049655",
+ "asin": null,
+ "pid": "pimprod2049655",
+ "source": "ulta",
+ "nom": "ROUND LAB Birch Juice Moisturizing Cleanser",
+ "note": 4.88,
+ "nbAvis": 90,
+ "lus": 75,
+ "collectes": 76,
+ "segments": {
+  "oily": "Oily-skin reviewers report the cleanser controls excess oil and leaves skin balanced or 'not overly hydrated' without greasiness, with one calling it great for oily skin overall.",
+  "dry": "Dry-skin reviewers consistently say it cleans without stripping or tightness, several noting improved hydration, though one reports temporary dullness right after use and another that it did not add noticeable moisture.",
+  "combination": "Combination-skin reviewers describe it as balancing for T-zone oil and dry cheeks, non-irritating, and reducing oil production or breakouts over time.",
+  "sensitive": "Sensitive-skin reviewers, including those with eczema and rosacea-prone skin, report no stinging or flare-ups and describe it as gentle enough for daily use, with one noting mild tingling on first use.",
+  "mature": "One reviewer using a prescribed retinoid reports the cleanser is mild and moisture-protecting even when skin is flaky from treatment."
+ },
+ "concerns": {
+  "aging": "One retinoid user reports the cleanser is gentle enough to pair with treatment without worsening flaking.",
+  "dehydration": "Most reviewers report no post-cleanse tightness and some improved hydration; one dry-skin user reports no noticeable increase in moisture and temporary dullness, and one reports mild burning/tightness right after cleansing before follow-up products.",
+  "redness": "One reviewer reports reduced redness/rosacea and calming of the skin after use; not widely discussed by others.",
+  "barrier": "Reviewers with eczema report no flare-ups or irritation, and several describe it as non-stripping to the skin barrier; one first-time user reports slight tingling/chills on initial use.",
+  "spots": "One reviewer reports acne staying stable rather than worsening; not widely discussed.",
+  "blemishes": "Several reviewers report no new breakouts and one reports reduced acne over time paired with other products, but one sensitive/oily/acne-prone reviewer reports it does not stop occasional monthly breakouts and another says it offers only light help against acne.",
+  "oiliness": "Oily and combination reviewers report reduced shine and oil production, with one explicitly noting no oiliness and no dryness after use."
+ },
+ "aspects": [
+  {
+   "libelle": "Gel texture that lathers lightly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Foams less than expected",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild tree or citrus scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent described as paint or drywall-like",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Product lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube packaging creases with use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well in double-cleanse routine",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Ashton James",
+   "titre": "Feels moisturising",
+   "texte": "I have dry skin, so I tried this face wash out. I liked how it felt on my skin, very soothing.It felt like it was moisturising my face instead of taking away what natural oils I have left on my face. The only downside is that it made my face look dull, but it restored quickly after I used toner.",
+   "date": "2023-09-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Satsuki",
+   "titre": "After 1 Month of Use",
+   "texte": "I have sensitive to fragrance, oily, dehydrated skin that is acne prone. The cleanser isn't harsh and has a light pleasing scent. My skin feels a little tight and dry right after cleansing, but I follow up with the Dokdo toner and birch moisturizer, which leaves my skin feeling soft and supple without making my skin oily. Acne-wise, it doesn't worsen my acne thanks to it controlling my oily skin, but doesn't help getting rid of my occasional monthly breakout. Definitely recommend if you have oily skin, and want your skin to feel moisturized without the greasy feeling. Will be purchasing again, along with their Pine line for acne! :)",
+   "date": "2024-06-30",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Beau",
+   "titre": "5-Star Review",
+   "texte": "I've been prescribed a concentrated retinoid, and my skin is glowing…. Except when it isn't and it is a bit flaky and dry, but I still need to wash my face. The first time : The tree essences in the ingredients made my skin ever so slightly tingle. I got chills. I felt clean, fresh, and it was so mild and moisture protecting that I kept rinsing, thinking I'd still had a bit of cleanser on my face. I did not, I've had a really great experience with this cleanser. I am grateful of the price range. This is a holy grail product for me.",
+   "date": "2024-05-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "barrier",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SHELBY WILKES",
+   "titre": "Great for sensitive skin!",
+   "texte": "This cleanses my skin without causing my eczema to flare up! Give it a try if you have sensitive skin!",
+   "date": "2024-09-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anastasia",
+   "titre": "5-Star Review",
+   "texte": "I like birch cleanser, gentle and just nice for sensitive and dry skin. It's plain and budget friendly gel, it's just a thing you want for everyday. My acne is pretty much ok with this gel, it's not getting worse, I see in combination with other products round lab some progress. Recommend it!",
+   "date": "2024-02-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "to*********************",
+   "titre": "This cleanser is very good and moisturizing!!",
+   "texte": "This cleanser is very good and moisturizing!! I have combo skin and my T-zone is very oily but my cheeks are very dry but this cleanser has been working really well for me!!",
+   "date": "2023-09-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ann Brenoff",
+   "titre": "Where has this been my whole life?",
+   "texte": "I love this product! It has noticeably diminished my enlarged pores and reduced my rosea. It is gentle on the skin.",
+   "date": "2026-06-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

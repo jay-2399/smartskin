@@ -1,0 +1,139 @@
+{
+ "ref": "pimprod2048925",
+ "asin": null,
+ "pid": "pimprod2048925",
+ "source": "ulta",
+ "nom": "ANUA Peach 77 Niacin Conditioning Milk",
+ "note": 4,
+ "nbAvis": 8,
+ "lus": 8,
+ "collectes": 8,
+ "segments": {
+  "dry": "One reviewer with very dry skin reports the product does not moisturize sufficiently on its own as an everyday moisturizer but works well as a layering step before sunscreen and makeup.",
+  "combination": "Combination-skin reviewers are split: one says it did absolutely nothing for her skin, while another reports it keeps skin hydrated without greasiness across seasons.",
+  "sensitive": "One reviewer describing her skin as normal, clear, sensitive and fair developed cystic acne after a week and a half of use."
+ },
+ "concerns": {
+  "spots": "One reviewer with normally clear, sensitive skin reports the worst cystic acne she has had since her teenage years after using this product; other reviewers report no breakouts.",
+  "blemishes": "Aside from the one report of cystic acne on normally clear skin, no other reviewer mentions new blemishes."
+ },
+ "aspects": [
+  {
+   "libelle": "Watered-down lotion texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers without pilling under sunscreen or makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works as makeup primer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Convenient pump bottle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Not moisturizing enough alone for very dry skin",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Peach scent absent despite name",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy feel",
+   "polarite": "pos",
+   "concerne": [
+    "combination",
+    "oiliness"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Stefanie",
+   "titre": "no go for me",
+   "texte": "Hyped about Korean skincare products I decided to give this a try. I have normal clear sensitive fair middle aged skin and red hair. cons; I tried this for a week and a half and had the absolute worst cystic acne on parts of my face that normally are clear. Cystic acne that I have not seen since I was a teenager. Texture reminds me of a watered down J&J baby lotion. Despite it saying peach, it smells nothing like peaches pros; the pump bottle Guess I will use the rest to moisturize my hands, knees or feet.",
+   "date": "2025-06-23",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Dorthory",
+   "titre": "Peach Conditioning Milk",
+   "texte": "Early 30s with combo skin. This did absolutely nothing for my skin. Texture is like watered down lotion, yes i know it states that this is a milky lotion. Will be using on my body just to use it up.",
+   "date": "2025-07-09",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Sara",
+   "titre": "Holy Grail!",
+   "texte": "I have very dry skin, and this is a game changer for skin prep before makeup. I first use a milky toner and then I layer this conditioning milk on top before ending with sunscreen. I use 2-3 pumps for my face, and it does not pill. I do let it dry for 10 minutes before applying makeup. This is a VERY lightweight moisturizer. It will not work for dry skin on its own for an everyday moisturizer. That is not what it is for. This is for additional moisturizing needed.",
+   "date": "2025-10-06",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "mani",
+   "titre": "its so good",
+   "texte": "I have combo skin and I also live in New England where the winters are harsh and the Summers are hot!!! I find that this works year round through any season. Its kept my skin hydrated without being greasy and kept it glowing without being oily. Its so good.",
+   "date": "2026-04-03",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "sbm",
+   "titre": "so far so good",
+   "texte": "i like it! definitely a lotion and not a moisturizer ~ not moisturizing but still feels nice under moistuizer. good alternative to a niacinamide serum",
+   "date": "2025-02-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Faith D.",
+   "titre": "super milky!",
+   "texte": "it's a bit thicker than the ilia milk mosturizer, super mosturizing. works as a final skincare step or layering with another mosturizer. is a decent primer for makeup too, and it doesn't pill with my sunscreen or makeup!",
+   "date": "2025-03-01",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "Only eight reviews are available and most do not specify a skin type or concern in detail, so conclusions for several segments and concerns rest on a single testimony."
+}

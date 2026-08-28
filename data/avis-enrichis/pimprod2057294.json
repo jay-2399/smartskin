@@ -1,0 +1,161 @@
+{
+ "ref": "pimprod2057294",
+ "asin": null,
+ "pid": "pimprod2057294",
+ "source": "ulta",
+ "nom": "SickScience Labs ShapeShift Advanced Jaw & Neck Firming Serum",
+ "note": 4.3,
+ "nbAvis": 613,
+ "lus": 81,
+ "collectes": 103,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin (including one 70-year-old with thin sensitive skin and one describing extremely sensitive, dry, irritated neck skin) report no irritation or negative reaction, one even noting no issue combined with LED light therapy, while seeing firming or smoothing benefits.",
+  "mature": "Reviewers in their 50s, 60s and 70s, and those who mention aging or a 'turkey neck,' report gradual tightening of the jawline and neck, though some in this group also report no change after weeks of consistent use.",
+  "dry": "One reviewer with dry, irritated neck skin reports the serum smoothed and calmed that area."
+ },
+ "concerns": {
+  "aging": "Many reviewers describe reduced sagging, tighter jawlines and smoother necks after weeks to months of use, including several post-weight-loss users citing loose skin improvement; a minority report no change even after 6 weeks to 3 months of consistent twice-daily use.",
+  "dehydration": "A few reviewers note the neck feels more hydrated and less crepey, and one with dry, irritated skin reports it became smoother.",
+  "redness": "One reviewer reports the serum smoothed irritated neck skin, with no reviewers reporting increased redness.",
+  "barrier": "No reviewers report barrier damage; several sensitive-skin users specifically note no irritation despite thin or reactive skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Absorbs quickly without stickiness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, silky texture on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No fragrance or irritation reported",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Bottle runs out too quickly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump and cap mechanism flawed",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Results take weeks to months to appear",
+   "polarite": "neg",
+   "concerne": [
+    "aging"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Nancy G",
+   "titre": "Hoped this would firm my skin under neck but haven't seen a",
+   "texte": "I used my Sick Science morning and night religiously for 6 weeks and tho I did see a decease in lines on my neck I saw no change what so ever on my lax skin under my neck. Disappointed! Any suggestions?",
+   "date": "2025-11-07",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brenda T",
+   "titre": "Noticeable improvement!",
+   "texte": "I started using this last fall and could see a difference along my jawline and under my chin after just a few days. Then we went out of town for 10 days and I left it at home—by the time we came back, i could see things were going back to the way they had been. I've been using it regularly ever since and definitely appreciate the changes…skin looks tighter and more firm. Will definitely keep using this!",
+   "date": "2026-03-21",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa B",
+   "titre": "It's been almost a year",
+   "texte": "Have been using shape shift for almost a year, it really does help tighten up the jaw line and really reduces the appearance of turkey neck also has no negative reaction to led light therapy ( before or after application) and I have super sensitive skin have never once had a issue with shape shift.",
+   "date": "2026-03-01",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jacqueline T",
+   "titre": "ShapeShift is the real deal!",
+   "texte": "I've only been using ShapeShift for a week, and my jawline and neck already look tighter. I'm 70 years old and I have thin sensitive skin, but I had no issues with this serum. I will definitely recommend ShapeShift to friends and family.",
+   "date": "2026-01-19",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nancy M",
+   "titre": "Loving this!",
+   "texte": "I decided to purchase this after seeing it presented on the Today Show. I love the serum formula. It soaks in without feeling sticky. My neck instantly looks more hydrated and less crepey.",
+   "date": "2025-12-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yvette N",
+   "titre": "Great product",
+   "texte": "I have extremely sensitive skin on my neck and this product has worked wonders on smoothing my dry and irritated neck skin.",
+   "date": "2025-11-07",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Elizabeth C",
+   "titre": "maybe noticeable improvement?",
+   "texte": "i had high hopes for this product based on what i've heard (reviews and Today show). maybe too high for a 55 year old neck--it's one of those \"i think it helps? not totally sure.\" it's been about 3 weeks of use, thought i'd see more change by now.",
+   "date": "2026-01-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

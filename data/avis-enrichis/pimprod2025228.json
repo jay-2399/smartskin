@@ -1,0 +1,164 @@
+{
+ "ref": "pimprod2025228",
+ "asin": null,
+ "pid": "pimprod2025228",
+ "source": "ulta",
+ "nom": "NuFACE Hydrating Aqua Gel Microcurrent Activator",
+ "note": 4.19,
+ "nbAvis": 96,
+ "lus": 80,
+ "collectes": 85,
+ "segments": {
+  "oily": "One reviewer with oily skin finds the gel lightweight and quick-absorbing, though she notes she needs more product than the original version.",
+  "dry": "Reviewers with dry skin report the gel leaves their skin smooth, plumped, and moisturized for hours, with one calling it her new go-to in a very dry climate.",
+  "sensitive": "Reviewers who describe sensitive skin are divided: some report irritation, redness, or breakouts with repeated use, while others say the gel causes no irritation at all and feels smooth.",
+  "mature": "Reviewers in their late fifties and sixties report the gel and device combination keeps skin looking fresh, plumped, and youthful, alongside continued use of other NuFace products for the face."
+ },
+ "concerns": {
+  "aging": "Mature reviewers using the gel with NuFace devices report firmer, more sculpted, and fresher-looking skin; one long-term user in her sixties notes age spots and wrinkles remain but skin looks bright rather than lifted away.",
+  "dehydration": "Most reviewers describe the gel as strongly hydrating, plumping, and smoothing, with skin feeling moisturized for hours after use; one reviewer, however, says she sees no real hydration benefit compared to her regular moisturizer.",
+  "redness": "One reviewer reports zero redness with this gel compared to other conductive gels she tried, which left a ruddy color lasting about half an hour; others, though, describe the gel itself triggering red, irritated skin.",
+  "barrier": "A few reviewers note the gel can dry out quickly on skin or feels tacky/sticky when layering other products afterward, suggesting it can interfere with absorption of serums or makeup applied on top.",
+  "spots": "One reviewer in her sixties mentions ongoing age spots but attributes an overall fresh, bright look to continued use of NuFace products.",
+  "blemishes": "Several reviewers report new breakouts or red bumps after use, including one describing red itchy bumps and dryness, while many other reviewers of varied skin types report no breakouts at all.",
+  "oiliness": "No reviewer specifically ties this product to reduced or increased oiliness beyond one oily-skin user who found the formula lightweight and fast-absorbing."
+ },
+ "aspects": [
+  {
+   "libelle": "Hydration and plumping effect",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky or tacky residue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump/packaging inconsistent or bulky",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin irritation and breakouts",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "High price relative to amount used",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Good conductivity for microcurrent device",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Olivia",
+   "titre": "Ruined my skin",
+   "texte": "Used this product twice on my face and my face has now broke out in red itchy bumps and it's extremely dry. Won't buy again",
+   "date": "2024-03-22",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary Jane",
+   "titre": "Truly the best!",
+   "texte": "Every blogger everywhere will tell you that you can use aloe vera gel or ultrasound gel etc. etc. for device conductivity. I have tried a number of different lower-cost gels and I am here to say that the Aqua Gel Activator wins hands-down. Don't get me wrong--you'll get your lift using a proper gel from the drugstore--but with the Aqua Gel Activator I get zero skin redness. I can do my treatment and my skin looks fresh and great. With the other gels I have tried, I actually end up with a ruddy color on my face and neck where I've done my glides. The redness lasts about half an hour. I don't know why this is, but I do know that I'll stick with NuFace's gel from now on, even if it is pricey.",
+   "date": "2023-06-15",
+   "verifie": true,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mandi",
+   "titre": "Love the Gel Activator",
+   "texte": "I have been using the Nuface for close to two years. I was a bit nervous to use the gel activator, as I have very sensitive skin. This gel doesn't irritate my skin at all, makes my skin smooth, and works well with the Nuface device. I've repurchased many times as I enjoy using it!",
+   "date": "2024-05-28",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Dhart",
+   "titre": "Lightweight, absorbs quickly",
+   "texte": "Nice because it isn't too thick and doesn't take too long to dry. I like this for my face as I have oily skin. But I use more than the other/original version because it absorbs quickly. I like to use other/original version for my neck. It doesn't absorb as quickly and I didn't have to use as much.",
+   "date": "2022-04-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Trish55",
+   "titre": "Nice addition",
+   "texte": "Tried Aqua Gel, was not sure I would get much moisture from this. But after using the Trinity device my skin was smoother and well moisturized. My skin felt good for hours afterwards, I have dry skin! Great product!",
+   "date": "2021-07-15",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Artemis",
+   "titre": "Love Love love",
+   "texte": "Like always nuface products are the best. At 60 my face hasn't looked better. I do have some age spots and a few wrinkles but it bright its looks fresh and not fake. I'm aging gracefully. Thank you",
+   "date": "2021-07-03",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Raquel",
+   "titre": "It's OK",
+   "texte": "It does the job while using the different microcurrent devices but I don't see any benefit of hydration. Not even close to my moisturizer.",
+   "date": "2022-07-17",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

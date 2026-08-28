@@ -1,0 +1,163 @@
+{
+ "ref": "mkt77007159",
+ "asin": null,
+ "pid": "mkt77007159",
+ "source": "ulta",
+ "nom": "Proactiv MD Ultra-Hydrating Moisturizer",
+ "note": 4.22,
+ "nbAvis": 308,
+ "lus": 47,
+ "collectes": 47,
+ "segments": {
+  "oily": "Reviewers with oily skin report the moisturizer hydrates without adding oiliness or greasiness and does not break them out.",
+  "dry": "Reviewers with dry skin report it relieves dryness and adds needed moisture without becoming heavy.",
+  "sensitive": "Reviewers with sensitive skin report it does not irritate and, for one long-time acne sufferer, caused no breakouts despite very sensitive skin.",
+  "mature": "Reviewers describing mature or aging skin report it moisturizes well and one notes it seems to smooth wrinkles/lines.",
+  "combination": "One reviewer who switched from a previous Proactiv line to the sensitive-skin version found it worked less well and less fast than the prior product."
+ },
+ "concerns": {
+  "aging": "Reviewers with mature/aging skin report the moisturizer softens the skin and one describes it as seeming to smooth wrinkles and lines.",
+  "dehydration": "Numerous reviewers report their dryness is resolved and skin feels soft and moisturized, including one with sensitive skin that dries out easily.",
+  "blemishes": "Reports are mixed: several describe reduced breakouts, cleared acne, or fewer pimples over weeks to a year of use, but multiple reviewers (including parents of teenage users) report no improvement in acne after weeks of twice-daily use, and one describes ongoing pimples despite consistent use.",
+  "spots": "One reviewer reports lightening of dark spots on a family member's skin after use.",
+  "oiliness": "Several reviewers, including some who self-identify as oily-skinned, report the product hydrates without making skin oily or greasy."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight non-greasy texture",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Stings or feels heavy on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Can clump if container not kept clean",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Wears well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slow or absent results on acne",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Shipping delays and tracking issues",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smaller container than expected",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Melissa A.",
+   "titre": "My daughter has very bad",
+   "texte": "My daughter has very bad acne on her back and shoulders. Scars and hurts. Not seeing much of an improvemen.",
+   "date": "2025-03-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ivana V.",
+   "titre": "Fantastic",
+   "texte": "Really hydrates without any heaviness or greasiness. Probably the only moisturiser that did NOT cause any breakouts on my super sensitive skin. And I have struggled with acne for over 30 years . . .",
+   "date": "2024-11-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brenda I.",
+   "titre": "Best moisturizer",
+   "texte": "This moisturizer is the best I have found for my skin! Very light weight and does not feel oily on my face. My dry skin also goes away with the moisturizer. I highly recommend and I will repurchase!",
+   "date": "2025-02-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jasmine",
+   "titre": "Soothing",
+   "texte": "I recieved a sample of this and it doesn't break me out and keeps my skin hydrated without becoming oily .. i actually have oily skin. This stuff is amazing.",
+   "date": "2023-09-17",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stacey N.",
+   "titre": "Best",
+   "texte": "This is the only moisturizer I will use on my skin. Makes my skin feel soft , and seems to smooth aging wrinkles / lines on my face. I use it every morning &amp; night .",
+   "date": "2024-10-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Candace P.",
+   "titre": "Good stuff -",
+   "texte": "It works well; just too much moisture for my skin. Maybe its not strong enough for my skin; I still get pimples like I'm 16...very annoying...",
+   "date": "2023-09-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Debra B.",
+   "titre": "I bought this product for",
+   "texte": "I bought this product for my grand daughter. I can see the lightening of dark spots and her skin glistens now.",
+   "date": "2024-07-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

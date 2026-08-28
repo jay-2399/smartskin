@@ -1,0 +1,166 @@
+{
+ "ref": "xlsImpprod17761991",
+ "asin": null,
+ "pid": "xlsImpprod17761991",
+ "source": "ulta",
+ "nom": "Sun Bum Face Lotion SPF 50",
+ "note": 3.37,
+ "nbAvis": 235,
+ "lus": 81,
+ "collectes": 119,
+ "segments": {
+  "oily": "Several reviewers with oily skin report the lotion sits fairly matte, absorbs, and does not add greasy shine under makeup, though a few others with oily skin found it too greasy or oily-looking and pilled.",
+  "dry": "Reviewers with dry skin generally describe the lotion as hydrating and non-drying, though one dry-skin reviewer reports it dried her face out badly enough to need exfoliation.",
+  "sensitive": "Most sensitive-skin reviewers, including several with rosacea or eczema, say it does not irritate or break them out and is their go-to, but a distinct group of sensitive-skin reviewers report rashes, red bumps, burning, or swelling.",
+  "combination": "One reviewer with normal-to-oily-and-dry skin found it worked well layered under moisturizer.",
+  "mature": "No reviews specifically describe mature skin."
+ },
+ "concerns": {
+  "aging": "One reviewer using it long-term with fair, sensitive skin reports fewer sun spots and dark spots with regular use; no other aging-specific feedback is given.",
+  "dehydration": "Multiple reviewers describe the lotion as hydrating or moisturizing on dry skin, but one reviewer reports it dried her skin out unusually badly, requiring exfoliation to manage the effect.",
+  "redness": "Several reviewers report their skin turned red and irritated within days of use, sometimes progressing to peeling; others with sensitive or rosacea-prone skin report no redness at all.",
+  "barrier": "A few reviewers describe skin becoming easily irritated, itchy, or painful to touch after several days of use, including one case of peeling skin; most other reviewers report no such reaction.",
+  "spots": "One long-term user reports fewer sun spots and dark spots with regular use; this is not echoed elsewhere.",
+  "blemishes": "Several acne-prone reviewers report no new breakouts and credit it as good for breakout-prone skin, while a few others report rashes or bumps they describe as looking like breakouts.",
+  "oiliness": "Oily-skin reviewers are split: several say it wears matte and controls shine under makeup, while others describe it as very oily, greasy, or prone to pilling."
+ },
+ "aspects": [
+  {
+   "libelle": "Stings or burns eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy or oily finish",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Runny, hard-to-control texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Chemical or glue-like scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "adventuregirl",
+   "titre": "Horrible",
+   "texte": "Oh my gosh I know this sounds dramatic but I wish I could give it negative stars. I've been using this stuff for two days and now I have a rash all over my face and neck. Maybe it reacted weird with my moisturizer, and if that they should put warnings on chemicals that you shouldn't combine it with. I use the cerave nighttime ultra lightweight moisturizer and have been for about the past year. The first day I started using this sunscreen I was fine, but now my face and neck is covered in little itchy red bumps. I've never had acne or anything, I'm actually known for my great skin. So, if you see this review, DO NOT BUY THIS!!!",
+   "date": "2021-11-30",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "J",
+   "titre": "Dried skin out",
+   "texte": "I've used this for about a week consistently. Living in a tropical climate means that I need to be super consistent with applying sunscreen and making it a part of my routine. However this is made my face so extremely dry- I normally don't suffer with dry skin. I have now had to use an at home micro dermabrasion tool to exfoliate my skin because of how DRYING this is. It's a horrible formula going to be returning",
+   "date": "2022-05-11",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "KPresley",
+   "titre": "Current Favorite",
+   "texte": "I have had a great experience using this sunscreen. I have noticed an improvement in my skins health with regular use. My skin is moisturized all day. I have less sun spots or dark spots on my face and neck. I have dry skin, eczema, some allergies, hormonal cystic acne, and overall sensitive skin and I have very fair skin. So I have to be very picky about what I use on my skin and I really want to avoid sun burns and skin damage. Despite all of this, the Sun Bum face spf 50 has been meeting all of my needs in a face sunscreen. It occasionally can sting my eyes, not bad enough to be a deal breaker for me considering all the ways that it works so well for me. I would recommend to a friend for sure.",
+   "date": "2021-08-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Christy",
+   "titre": "My sensitive skin loves this stuff!",
+   "texte": "I have been using this Sun Bum face sunscreen for years now. I have fair and very sensitive skin (I also have rosacea) and have to be careful about the products I use. I have been using this one every day for a long time! This lotion absorbs easily, protects my skin, doesn't irritate it, has no scent, and doesn't interfere with my makeup. I truly love it, and now that I'm in my 40's have started using it on my neck and chest. I get lots of compliments on my skin, and this is part of the reason. I was really surprised to see some people had bad reactions to this product, so I just wanted to leave a review with my experience with my skin type. I love this stuff and will always use it.",
+   "date": "2024-02-16",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda",
+   "titre": "I love it",
+   "texte": "I have been using this for a couple of months now and im surprised at all the negative reviews. I have not once felt any burning in my eyes. Just maybe dont put it around your eyes ? I also have dry sensistive eczema prone skin and to me it feels very hydrating. I even use it under my makeup and have not had any problems. I will be repurchasing",
+   "date": "2023-08-22",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lex V",
+   "titre": "MUST BUY FOR ACNE-PRONE SKIN!!!",
+   "texte": "Skin background: Oily, Acne Prone, Sensitive Review: I was SUPER skeptical to buy this because I saw some people's reviews about this sunblock burning their skin. I have really sensitive skin myself and other sunblocks break me out. I decided to try this one out and I LOVEEEEE it. No regrets what so ever!! Didn't burn my skin, does not feel icky on my skin, didnt break me out (woohoo!) and not one sunburn after swimming for hours! I wore this sunblock in Las Vegas in 117 degree weather, went swimming, and it worked amazing for me. Keep in mind everyone's skin is different and what doesn't work for others doesn't mean it won't work for you. Don't let the comments steer you away! Works great under makeup with some setting powder too. Love love love!",
+   "date": "2021-06-22",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Nat the nurse",
+   "titre": "Worst product I've ever tried",
+   "texte": "If I could give this -500 stars I would. I usually never write reviews but this was awful. Do not buy. My skin was breakout free and moisturized prior. Two days after use, my skin felt easily irritated and was red. 5 days later and I had to stop using the product, my skin is now peeling off and hurts to touch. So incredibly frustrated.",
+   "date": "2021-02-10",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

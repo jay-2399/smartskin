@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2053385",
+ "asin": null,
+ "pid": "pimprod2053385",
+ "source": "ulta",
+ "nom": "TIRTIR Milk Skin Toner",
+ "note": 4.64,
+ "nbAvis": 33,
+ "lus": 28,
+ "collectes": 28,
+ "segments": {
+  "dry": "Multiple reviewers with dry skin report lasting hydration, softer and plumper skin, and relief from dry patches and peeling, including one who found it a rare product to fix winter dryness.",
+  "sensitive": "Sensitive-skin reviewers are split: some report irritation, bumps or itchy pimples right away, while others report the toner became their favorite once their skin adjusted after initial breakouts.",
+  "oily": "One reviewer notes the toner did not work for her husband, who has oily skin.",
+  "combination": "No combination-skin reports are present in these reviews.",
+  "normal": "No normal-skin reports are present in these reviews.",
+  "mature": "No mature-skin reports are present in these reviews."
+ },
+ "concerns": {
+  "dehydration": "Many reviewers describe long-lasting hydration (up to 12+ hours), plumper and softer skin, and relief from dryness that persists under makeup; one uses it specifically to counter dryness from prescription retinol.",
+  "barrier": "One reviewer credits the toner with supporting a healthy skin barrier alongside long-day hydration, though this is a single mention rather than a widely repeated claim.",
+  "redness": "One dry-skin reviewer with hyperpigmentation reports reduced redness alongside increased plumpness and hydration.",
+  "blemishes": "Reports are mixed: one reviewer broke out with itchy pimples that come to a head and stopped using it, another had irritation and bumps, and two others experienced initial breakouts or a pimple or two that resolved after continued use with no further issues; several others state explicitly it does not break them out.",
+  "spots": "One reviewer reports the toner made her pores appear smaller, but this is a single, unconfirmed observation.",
+  "aging": "One reviewer credits the toner with a firming effect as part of a broader list of benefits, but this is not corroborated elsewhere.",
+  "oiliness": "One reviewer notes the product did not work well for her husband's oily skin, with no further detail on why."
+ },
+ "aspects": [
+  {
+   "libelle": "Sticky residue on skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting all-day hydration",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Plumps and smooths skin texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well as makeup base",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Attractive, substantial glass packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value, long-lasting bottle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Initial breakouts or irritation for some",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Kayla",
+   "titre": "Great for dry skin!",
+   "texte": "I have very dry skin, and hyperpigmentation. This toner reduced redness and makes my skin feel very plump and hydrated. Hydration lasts for over 12hrs. Buying a second bottle today!",
+   "date": "2025-12-31",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Garnetmoon",
+   "titre": "My daily routine!",
+   "texte": "I have been using this toner for almost a year now and my skin definitely improved a lot ever since! My skin is sensitive and dry, so this was a bit too much initially because I wasn't prepared for the long lasting drenched-ness on my face, and I did get a pimple or two at first. After using this for 3 weeks my face no longer get pimples from it, more glass skin radiance 😍 This was the only products I used twice daily & amazing result for me!",
+   "date": "2026-02-02",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Asma",
+   "titre": "Perfect Winter Toner",
+   "texte": "I have sensitive dry skin and Ive used this toner all winter and it's the first time my skin hasn't had dry patches and essentially peeled off in the winter. I would recommend!",
+   "date": "2026-02-24",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erin",
+   "titre": "My holy grail favorite product",
+   "texte": "Title says it all and it should be mentioned i could easily have a 24 step routine….doesn't matter, TirTir milk skin toner will always be a part of it. i cant even describe what this does for my skin. it's so much product where so little goes a long way, so affordable, and does everything. Everything. Glow, moisturize, firm, it leaves nothing to be desired. I'll never be without this. I first stole it from my husband who has oily skin and this didn't work for him but i have dry skin and this is my holy grail, if that helps at all.",
+   "date": "2026-03-13",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Garnetmoon",
+   "titre": "whole year!",
+   "texte": "I've been using this for a whole year and I'm happy to say it does improve my skin from dryness and dullness to glowy and more glass skin-like each day 😘 Initially it did break me out, but after few days later it went away and my skin looked better than before.",
+   "date": "2026-08-03",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Liz",
+   "titre": "It's alright",
+   "texte": "I received this as a free sample and started using it in my day and night routines. It made me break out with those itchy pimples that come to a head. I stopped using it and stopped breaking out.",
+   "date": "2026-04-10",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Gallina",
+   "titre": "Could break you out",
+   "texte": "I really wanted to love this but I started noticing immediatley my skin started to get irritated and I got little bumps in my skin. If you have sensitive skin I'd stay away from this.",
+   "date": "2025-11-05",
+   "verifie": false,
+   "utiles": 27,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

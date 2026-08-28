@@ -1,0 +1,161 @@
+{
+ "ref": "pimprod2039130",
+ "asin": null,
+ "pid": "pimprod2039130",
+ "source": "ulta",
+ "nom": "Dermalogica Porescreen Mineral Sunscreen SPF 40",
+ "note": 4.56,
+ "nbAvis": 568,
+ "lus": 80,
+ "collectes": 119,
+ "segments": {
+  "oily": "Reviewers with oily skin report the sunscreen does not increase oiliness or greasiness and one notes no issues with an oily complexion throughout the day.",
+  "dry": "Reviewers with dry or dry-sensitive skin describe it as smoothing and non-drying, with no reported breakouts or irritation.",
+  "combination": "Reviewers with combination (including sensitive-combo and acne-prone combo) skin report it feels light, non-greasy, and does not worsen oiliness.",
+  "sensitive": "Reviewers with sensitive skin most often report no irritation, no burning, and comfortable all-day wear, though one sensitive-skin reviewer describes a breakout and hot, itchy skin near the ears.",
+  "normal": "One reviewer recommends the product for combo/normal and even oily skin, but there is little other specific normal-skin commentary.",
+  "mature": "One reviewer mentions using it to help prevent wrinkles while protecting the skin, but mature skin is not otherwise discussed in detail."
+ },
+ "concerns": {
+  "aging": "One reviewer says she wears it to help prevent wrinkles and protect her skin; another notes it softens the appearance of lines, but aging is not a frequently discussed concern.",
+  "dehydration": "Several reviewers describe the product as hydrating or leaving skin feeling hydrated, with no reports of it feeling drying.",
+  "redness": "One reviewer with a nose that burns easily reports no redness after wearing it; no other redness-specific reports appear.",
+  "barrier": "Reviewers with sensitive skin generally report no irritation, stinging, or eye-watering, though one reviewer describes her skin turning hot and itchy after a few days of use.",
+  "spots": "One reviewer with melasma reports it protected her skin well; another mentions the product slightly blurs brown spots.",
+  "blemishes": "Most acne-prone reviewers report the sunscreen does not break them out, including several who say other sunscreens typically do; one reviewer describes a breakout near the ears after a few days of use.",
+  "oiliness": "The majority of reviewers, including several with oily or combination skin, report the formula is non-greasy and does not increase oiliness, though one reviewer notes it made her makeup slightly more oily and needed extra setting powder."
+ },
+ "aspects": [
+  {
+   "libelle": "Blurring effect on pores",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "White cast on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tacky or heavy initial feel",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Price relative to bottle size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Unpleasant or lingering scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Flaking or pilling with makeup",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Kati",
+   "titre": "Not worth it!",
+   "texte": "I REALLY wanted to like this due to the price but it was absolutely terrible. It flaked on my skin so bad. The first time I used it I used it on it's own and blended it with my fingers and it left flakey streaks on my face. So the second time I used my skincare first and tried to blend this in with a beauty blender and got the same results. Both times I shook the tube well according to the label and got the same results. Very sad this didn't work for me!",
+   "date": "2024-02-12",
+   "verifie": false,
+   "utiles": 20,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Cindy",
+   "titre": "Got breakout",
+   "texte": "After putting it on for a few days (maybe 3). My skin next to my ears starting to breakout. Now anytime I put it on my skin turned hot and itchy like crazy. I love this brand and has other products from them with no issue. Not sure why my skin doesn't like this.",
+   "date": "2023-11-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Lissa",
+   "titre": "Nice blurring spf",
+   "texte": "Gifted by Dermalogica. I tried this sunscreen today in hopes it would be a new addition to my rotation! I have very oily skin so I have trouble with SPF being too greasy sometimes. I felt like this settled into my skin well and didn't make me any more oily than I would usually be! It has a slight tint and blurs nicely. I will definitely keep using!",
+   "date": "2023-06-03",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shylah C.",
+   "titre": "Great mineral spf",
+   "texte": "Dermalogica's matte spf was my all time favorite sunscreen and I was pretty upset when they discounted it. since then i've tried a wide range of mineral and chemical sunscreens. I have sensitive combo skin and prefer something light weight and non greasy, and this spf is it! feels a bit tacky at first but once it dries down you're left with a beautiful skin like finish. It also works great under foundation, and sometimes i even mix the two together to make my own tinted sunscreen. Overall this is a great facial spf that I'd recommend for anyone with combo/normal and even oily skin!",
+   "date": "2025-05-11",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Charm",
+   "titre": "no greasy residue or white cast",
+   "texte": "I love this Porescreen SPF 40 gifted by Dermalogica. I always use dermalogica products but first time to try this Porescreen SPF 40. It applies effortlessly, leaving no greasy residue or white cast and makeup goes on with it. I have dry sensitive skin and this product doesn't cause breakouts or irritation. I recommended!",
+   "date": "2023-06-04",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "B",
+   "titre": "Best spf",
+   "texte": "I love this sunscreen!! I live in Florida and have to use sunscreen everyday, this one has been amazing for my skin. I have extremely sensitive and acne prone skin and this spf doesn't break me out! Try it!! Gifted by dermalogica",
+   "date": "2023-06-04",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Aurelie",
+   "titre": "Great sunscreen",
+   "texte": "Great sunscreen, super easy to apply, good protection, I've melasma and I can see it has well protected my skin. It didn't leave any white trace, and you can apply it before make up. I recommend it. Product was gifted to me by the brand for testing purposes.",
+   "date": "2023-06-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

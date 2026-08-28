@@ -1,0 +1,167 @@
+{
+ "ref": "pimprod2045666",
+ "asin": null,
+ "pid": "pimprod2045666",
+ "source": "ulta",
+ "nom": "Naturium Fermented Camellia Creamy Cleansing Oil",
+ "note": 3.85,
+ "nbAvis": 357,
+ "lus": 80,
+ "collectes": 115,
+ "segments": {
+  "dry": "Reviewers with dry skin generally report the oil does not strip or dry out their skin and leaves it soft, moisturized and hydrated, making it one of the more consistently praised segments.",
+  "sensitive": "Sensitive-skin reviewers are split: several say it is calming, doesn't sting the eyes and doesn't flare rosacea, while others report stinging, redness, or sensitization strong enough to make them stop using it.",
+  "oily": "Reviewers with oily skin report it cleans effectively without over-stripping and describe it as surprisingly compatible with oily or oily-mature skin.",
+  "combination": "The one combination-skin reviewer describes it as her holy grail, reporting no new clogged pores or acne after a month of daily use.",
+  "mature": "Mature-skin reviewers (40s-60s) report it removes stubborn mascara, moisturizes rather than dries, and leaves skin glowing.",
+  "normal": "No reviews specifically identify normal skin as a distinct segment."
+ },
+ "concerns": {
+  "aging": "Reviewers in their 40s-60s report the product removes makeup effectively while moisturizing rather than drying mature skin, with no complaints specific to aging skin.",
+  "dehydration": "Multiple reviewers with dry skin report improved hydration and softness with no stripping; no dissent found among dry-skin reports on this point.",
+  "redness": "Several reviewers report it calms rosacea-related redness and does not trigger flare-ups; one sensitive-skin reviewer reports her face looked red after washing it off.",
+  "barrier": "One reviewer reports the product caused stinging and skin sensitization when using her normal moisturizer, resolving once she stopped use; most other reviewers report no such reaction.",
+  "spots": "One reviewer with a history of acne and combination skin reports no new clogged pores or breakouts after a month of daily use; another mentions doubts about breakout risk from the gel texture but experienced none.",
+  "blemishes": "One reviewer states her skin has not broken out despite daily makeup use since starting the product; no other blemish-specific complaints appear.",
+  "oiliness": "Oily-skin reviewers report the product cleans thoroughly without over-stripping or making skin feel greasy afterward; a few dry-skin-leaning reviewers reported an oily residue left behind, which is a different complaint (removal, not oiliness of skin type)."
+ },
+ "aspects": [
+  {
+   "libelle": "Oily residue left after rinsing",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Gel-to-oil texture transformation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick consistency hard to emulsify",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and hydrated",
+   "polarite": "pos",
+   "concerne": [
+    "dry",
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Struggles with waterproof mascara",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tube packaging is mess-free and travel friendly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Katie Z.",
+   "titre": "Deeply Disappointed",
+   "texte": "I am not new to oil cleansers and I have been double cleansing for several years. I am generally not that picky when it comes to oil cleansers - I just need them to take off sunscreen/makeup and *mostly* wash off. A bit of residue has never bothered me since I always follow up with a water-based cleanser. This however, doesn't emulsify with water at all, nor does it even remotely wash off. My second cleanse wasn't able to get rid of the residue, and after using it for a few days my skin became super sensitized (i.e. stung when I put on my normal moisturizer). I wasn't using any other new products and as soon as I stopped using this my sensitivity stopped, and I do not have sensitive skin. It was so bad that I'm wondering if I got a bad batch because this product is so well loved by others, and I generally don't ever get sensitive from new products. I used it for 5 days and basically have a full bottle left that I don't feel comfortable giving to friends/family to try out. I have liked other products from this brand, but this was awful.",
+   "date": "2022-10-30",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "melr16",
+   "titre": "Perfect for calming my rosacea",
+   "texte": "For my double cleanse, I typically use a balm cleanser because I like how it melts into an oil without being too greasy. I ran out of my balm cleanser and decided to try the Fermented Camellia Creamy Cleansing Oil. The product comes out like a firm jelly consistency and turns into a nice oil cleanser without being too heavy. Like other reviews have stated, I did find that it takes an extra few seconds to go from that \"firm\" consistency to a smooth, pliable oil cleanse. I'm willing to overlook because it has greatly reduced the redness on my cheeks from the rosacea. My skin feels hydrated and well prepped for the next part my double cleanse. How I use this product: I only use it at night as the first part of the double cleanse. Skin type: I have dry, sensitive skin and have to deal with psoriasis and rosacea.",
+   "date": "2023-02-28",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Fathom 19",
+   "titre": "Awesomeness in a tube",
+   "texte": "Wow, can't even put into words just how much I love this cleanser - such a unique yet effective product. The way it changes from a gel to oil is amazing. It removes all of my makeup and my skin feels so soft after rinsing - just incredible. For reference, I have dry skin and I'm in my late 60's, but I wear a full face of sunscreen and makeup everyday.",
+   "date": "2022-10-29",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Luvcj",
+   "titre": "The best",
+   "texte": "This is the best oil cleanser I have ever used. For reference, I am 41 so I can say I've had my fair share of trial and error on both drugstore and high end skincare. I've struggled with acne all my life and still get some from time to time. I have combination skin but becoming drier as I get older. thought I'd never be able to use an oil cleanser as most balms and oil cleansers have broke me out, or felt as if a film was leftover. I figured I'd try this one as it sounded promising. I've been using daily for about a month and literally have not gotten any new clogged pores or acne bumps. I wear my foundation pretty thick and it removes it all. I love the thick consistency as you don't require too much. Once I rub in, I start to emulsify with water and ALL my foundation, powder and blush are gone. Then I used a second cleanse thereafter. I've found my holy grail makeup remover. I hope she never discontinues it. I love it.",
+   "date": "2021-11-08",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ComboSkin",
+   "titre": "Perfect Makeup Remover!",
+   "texte": "Removing makeup and double cleansing at the end of the day is no longer a chore thanks to this cleansing oil gel! After trying many varieties, this one has secured holy grail status for me. It removes makeup quickly without burning my eyes, it rinses all the way off, and it has no nasty smell. Though I love Naturium, some of their fragrance free products have a strong chemical smell. In this one, you can barely make out the floral scent of the camellia, and it's otherwise unscented. My skin can be temperamental but I've not gotten any breakouts since using this, even with now daily makeup use. My ONLY gripe is that I wish the bottle were even bigger!",
+   "date": "2026-01-23",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Eve R.",
+   "titre": "Great for dry skin",
+   "texte": "I have been using the cleansing oil as a single wash as my very dry skin gets even dryer as it gets colder. Very happy with it!",
+   "date": "2021-11-02",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Laurella E.",
+   "titre": "Favorite Oil Cleanser so far...",
+   "texte": "I love this oil cleanser, and I have oily skin! I use normally as a first cleanse when double cleansing but its such a unique cleanser that I can use it on its own when needing some hydration in the morning; I normally skip cleansing in the morning. I find this to be the perfect in-between of a cleansing oil and cleansing balm. Highly recommend!",
+   "date": "2021-10-20",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

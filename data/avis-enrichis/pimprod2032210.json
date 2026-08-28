@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2032210",
+ "asin": null,
+ "pid": "pimprod2032210",
+ "source": "ulta",
+ "nom": "r.e.m. beauty Full Night's Sleep Cooling Blurring Undereye Balm",
+ "note": 4.38,
+ "nbAvis": 555,
+ "lus": 79,
+ "collectes": 110,
+ "segments": {
+  "oily": "One reviewer with an oily nose used the balm as a full-face primer and reported it kept makeup fresh for hours in humid weather.",
+  "dry": "Reviewers with dry skin describe the balm as moisturizing and well suited to nighttime use, though one reported new small dry patches after a breakout.",
+  "sensitive": "Sensitive-skin reviewers are split: several report gentle results with no irritation and reduced puffiness, while others describe breakouts, milia, small dry patches, or a burning sensation.",
+  "mature": "A reviewer in her 50s reports the balm blurs eye wrinkles, and another in her 40s finds it dries out the under-eye skin and disrupts makeup wear."
+ },
+ "concerns": {
+  "aging": "Reviewers report visibly reduced fine lines, wrinkles, and a smoother, more youthful under-eye appearance with regular use; no dissent noted on this concern specifically.",
+  "dehydration": "Most reviewers describe the balm as hydrating, cooling, and soothing for tired or dry under-eyes, but a few report it fails to hydrate, dries out after opening, or leaves skin drier than before.",
+  "redness": "One reviewer reports the balm dramatically reduced facial redness within minutes when used beyond the eye area, though this is a single, isolated account.",
+  "barrier": "A small number of reviewers with sensitive skin report breakouts, milia, dry patches, or burning, suggesting barrier irritation for some users despite most reporting no such issues.",
+  "spots": "Reviewers report reduced appearance of dark circles and dark spots under the eyes with regular use, describing brighter, less noticeable discoloration over weeks; no strong dissent found.",
+  "blemishes": "A minority of reviewers report the product caused milia or breakouts under the eyes, while the majority report no blemish-related issues.",
+  "oiliness": "Reviewers report the product is not greasy and absorbs without residue; one reviewer used it to help control an oily nose area as part of a full-face primer routine."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Blurs fine lines under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick, clumpy or putty-like texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills or separates under concealer",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small jar, quick to run out",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No applicator, dug out with fingers",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "kanii",
+   "titre": "so sad :(",
+   "texte": "I had high hopes for this undereye balm as it was the first undereye balm I've tired. unfortunately I do have sensitive skin and this was not my product. it broke out my undereye and I do small dry patches still from the break out Disclosure: I was given this product for free in exchange for a review",
+   "date": "2024-05-15",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Sarah",
+   "titre": "Nah",
+   "texte": "This product pills and does not help my undereye concealer or eye shadow to stay on or apply smoothly. It dries out the skin around my eyes! I'm 44 and use moisturizing eye cream but it makes my mascara smear so I was hoping to find an alternative but this is sadly not it.",
+   "date": "2024-09-19",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Natalie",
+   "titre": "I'm shook!",
+   "texte": "After trying this product on my under eyes I noticed how well It took the redness out of my skin so I tried out putting in on my cheeks and chin to tone down my redness Ive Stuggled with my whole life. When I tell you this is the ONLY product that has ever taken the redness out of my face within minutes and it has lasting effects?! Thank you Ari i feel so seen by your products. < 3",
+   "date": "2025-01-28",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shar",
+   "titre": "Blurrs eye wrinkles",
+   "texte": "I really like the cooling properties and interesting texture but love love love how it blurrs out my 50'something eye wrinkles!",
+   "date": "2025-04-01",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Caroline W.",
+   "titre": "Good Product",
+   "texte": "I have very sensitive skin, the texture is interesting but I noticed great results with puffiness under my eyes!",
+   "date": "2025-10-01",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rachel",
+   "titre": "Perfect Primer",
+   "texte": "I have dry skin so I tend to use heavy moisturizers, but my nose is oily. I use this on my entire face and it works like a dream. I live in the South where it's humid. With dry skin but humidity that makes me sweat, keeping makeup on and looking fresh is a battle. this primer has really helped. it blurs and keeps my makeup looking perfect for at least 8 hrs.",
+   "date": "2024-05-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jazzilulu",
+   "titre": "Perfect for dry Eye Under-eyes",
+   "texte": "This is a at home affordable spa feeling under eye balm that has a mild cooling sensation. I love the color it's beautiful. No tacky residue perfect for night time at home daily skincare routine. Effective and gentle on sensitive skin.",
+   "date": "2024-05-24",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

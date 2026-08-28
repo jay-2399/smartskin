@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2049581",
+ "asin": null,
+ "pid": "pimprod2049581",
+ "source": "ulta",
+ "nom": "Peach Slices Super Fade Discoloration Serum",
+ "note": 4.44,
+ "nbAvis": 137,
+ "lus": 80,
+ "collectes": 116,
+ "segments": {
+  "oily": "One reviewer notes the lightweight texture layers well for oily or combination skin.",
+  "dry": "One reviewer with dry skin found it faded acne scars without drying her skin further.",
+  "combination": "One reviewer flags the lightweight formula as playing well with oily or combination skin.",
+  "sensitive": "Reviewers with sensitive skin are split: several report no irritation, breakouts, or dryness even with daily use, while others describe a chemical burn, damaged skin barrier, or find the formula too mild to do much.",
+  "mature": "Reviewers with mature or aging skin report mixed results, from cystic acne and no benefit to one who found it too weak compared to a stronger acid, though one 42-year-old with rosacea reports quick evening of skin tone."
+ },
+ "concerns": {
+  "aging": "A reviewer using it for age spots on the hands reports gradual lightening over a couple of weeks; another reviewer with aging skin reports the product caused breakouts and did not help her spots.",
+  "dehydration": "One reviewer describes it as hydrating due to a thicker consistency, and another says it did not dry out her typically dry skin; no other hydration complaints are reported.",
+  "redness": "One reviewer reports reduced facial redness and brighter overall skin; another with rosacea and visible blood vessels reports a more even skin tone after first use.",
+  "barrier": "Most reviewers report no barrier issues, but one reviewer with sensitive skin describes a chemical burn that she says destroyed her skin barrier.",
+  "spots": "The large majority of reviewers report fading of dark spots, sun spots, or age spots, often within days to a few weeks of consistent use; a minority report no visible change even after a full bottle.",
+  "blemishes": "Many reviewers report fading of post-acne marks and acne scars, sometimes within days; however, several reviewers report new breakouts or cystic acne after use, including around the mouth and on one side of the face.",
+  "oiliness": "One reviewer notes the lightweight texture suits oily or combination skin; no other oil-control or greasiness complaints are reported."
+ },
+ "aspects": [
+  {
+   "libelle": "Fades dark spots with consistent use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump clogs or dispenses poorly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Formula thickens and gets stuck in bottle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pilling when layering under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Triggers breakouts or irritation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "blemishes",
+    "mature"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Garnetmoon",
+   "titre": "chemical burn",
+   "texte": "I have been using this a week straight to see if there's any difference on fading newly formed dark spots, but instead I got chemical burn on skins! Beware! I have sensitive skin and this destroyed my skin barrier.",
+   "date": "2025-07-29",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "kaly",
+   "titre": "not much effect for me",
+   "texte": "I love peach and lily—use a couple of their products regularly. This is a nice benign serum. No pore clogging or irritation. But for me, despite somewhat sensitive skin, it is not strong enough. I maybe used half the bottle and expected some mild exfoliation now, with discoloration fading or brightening later, by the end of the bottle. I ended up ordering P&L's lactic acid power cocktail instead. Based on the ingredients and the co, I'm sure this is good for young, sensitive skin, but my mature skin needs a stronger acid.",
+   "date": "2025-06-09",
+   "verifie": false,
+   "utiles": 30,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "skin care explorer",
+   "titre": "My skin has never looked better!!",
+   "texte": "I have tried many products to try to brighten and lessen the appearance of my acne scars and this by far has been the best product I've ever used! I've already noticed changes and have had my friends comment on my skin looking super clear! Plus this wasn't expensive at all unlike a lot of other products. It also hasn't dried out my skin which is typically more on the dry side. If you want to try to fade your acne scars this product is the it!!! Honestly so happy I made this purchase!",
+   "date": "2025-04-08",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tahya",
+   "titre": "Great for sensitive and acne prone skin works IMMEDIATELY",
+   "texte": "I pick at my skin a lot and it leaves acne scars. They was a HUGE difference in how dark they were in 3 days. They're barely visible now! I also have sensitive skin and it didn't make me break out at all!",
+   "date": "2026-01-30",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "mom2jtd3",
+   "titre": "removes brown spots",
+   "texte": "this is amazing. I use this with the slice peaches serum. my face started getting lighter after the first use. I am 44 and have battled acne scars and some brown skin. I have tried soooo many things and this is the only on to work. some complian of a smell, but its like the deodorant that smells like puke at first and fades. to me it smells like smoky fruit. it fades fast and works. looks great under makeup. I will buy this again and recommend it 1000 times over",
+   "date": "2025-10-24",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Heather",
+   "titre": "Blown away",
+   "texte": "I rarely feel compelled to write reviews for products, but I was extremely impressed with this one! Not only is it price friendly, but it works within days! I have rosacea and visible blood vessels and acne scars on my face as a 42-year-old woman and was quite impressed with how even my skin tone looked after the first use. I've even gone so far as to go without foundation recently, and I attributed mostly to this product.",
+   "date": "2026-03-28",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Grace",
+   "titre": "10/10, works quickly",
+   "texte": "I have hormonal acne on my cheeks and chin that leaves brown spots (I have very yellow/olive coloring). The marks stick around for months, so I wasn't expecting much from this product but thought it was worth a try for the price point. I saw results in just a few days and my skin has continued look clearer and more even! It hasn't irritated or dried out my sensitive skin at all. I've even applied it along my bikini line where there is some hyperpigmentation from shaving and it has made a noticeable improvement. This product has given me back so much confidence, I definitely recommend.",
+   "date": "2025-05-12",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

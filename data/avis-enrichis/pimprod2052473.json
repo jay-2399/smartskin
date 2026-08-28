@@ -1,0 +1,138 @@
+{
+ "ref": "pimprod2052473",
+ "asin": null,
+ "pid": "pimprod2052473",
+ "source": "ulta",
+ "nom": "SEEN UNSEEN Pimple Patch",
+ "note": 5,
+ "nbAvis": 14,
+ "lus": 13,
+ "collectes": 13,
+ "segments": {
+  "oily": "One reviewer with oily/acne-prone skin reports the patches reduce pimple size and calm the redness and irritation tied to hormonal breakouts.",
+  "sensitive": "One reviewer notes the patches do not flare her skin up."
+ },
+ "concerns": {
+  "spots": "Reviewers report the patches reduce the size of pimples and speed up their resolution overnight, including for hormonal breakouts around the luteal phase.",
+  "blemishes": "Several reviewers use them at the first sign of a forming blemish and describe them as fast-acting, with one noting she is always sure to see a difference after use.",
+  "redness": "Multiple reviewers say the patches visibly reduce redness and inflammation around the spot, with one describing less scarring after use."
+ },
+ "aspects": [
+  {
+   "libelle": "Near-invisible on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong long-lasting adhesive",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragile to peel off sheet",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Multiple patch sizes per sheet",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well on deeper skin tones",
+   "polarite": "pos",
+   "concerne": [
+    "mature"
+   ]
+  },
+  {
+   "libelle": "Wish for larger t-zone patches",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Jady P.",
+   "titre": "As someone who has oily/acne",
+   "texte": "As someone who has oily/acne prone skin, I tend to breakout with pimples on or around my luteal phase, and these pimple patches are perfect for reducing the size as well as the level of irritation and redness that hormonal acne tends to cause me during that time of the month. And while I know that they're not supposed to be used on broken skin, I do find that hydrocolloid patches work better for me once I've safely popped the pimple and drained the access area first. With clean skin and clean tools/hands of course.",
+   "date": "2026-01-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bailey",
+   "titre": "Best Pimple Patches Ever!!!!!!",
+   "texte": "I have always struggled with hormonal acne and have tried many, many different pimple patches. These are BY FAR the most amazing pimple patches I have ever tried. They blend so easily on my skin and hide the redness so nicely. Once I remove them I am always so amazed to see it has taken away so much of the redness and the scar! I will be purchasing these for forever and ever",
+   "date": "2025-11-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ash",
+   "titre": "Really works!",
+   "texte": "These are amazing. Don't flare my skin up and really work. I would love it if you made t zone larger sections of these instead of just the small patches.",
+   "date": "2025-10-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bi T.",
+   "titre": "A great option",
+   "texte": "For a higher Fitzpatrick skin type, I love these patches. They are truly invisible and they do a great job at minimizing and clearing acne breakouts.",
+   "date": "2026-01-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kelsi S.",
+   "titre": "These work well and are very invisible",
+   "texte": "These work great in smoothing out red/inflamed spots overnight. You do have to be careful removing them from the sheet so they don't get wrinkled, but they are very invisible, more so than some other brands.",
+   "date": "2026-02-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Daniel S.",
+   "titre": "The best pimple patches",
+   "texte": "These are the best pimple patches I have ever used. They are thin and truly invisible. I usually save them for when I need to wear a pimple patch during the day and I wear my cheaper, less invisible pimple patches at night so that they last longer :)",
+   "date": "2026-03-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "All 14 reviews are 5-star and skin-type mentions are sparse, so segment-level coverage beyond oily and sensitive skin cannot be supported."
+}

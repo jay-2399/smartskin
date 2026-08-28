@@ -1,0 +1,164 @@
+{
+ "ref": "mkt77000540",
+ "asin": null,
+ "pid": "mkt77000540",
+ "source": "ulta",
+ "nom": "skinChemists 1% Hyaluronic Acid Mask",
+ "note": 4.79,
+ "nbAvis": 144,
+ "lus": 81,
+ "collectes": 105,
+ "segments": {
+  "dry": "Reviewers who describe their skin as dry report both relief (smooth, less dry after use) and, in several cases, tightness, flakiness or a drying film that needs extra moisturizer.",
+  "sensitive": "One reviewer with sensitive skin found the mask stung too much despite it feeling soft afterward.",
+  "combination": "A combination-skin reviewer found the mask comfortable, non-irritating and helpful in balancing her skin without clogging pores.",
+  "mature": "Reviewers focused on aging report firmer, plumper skin and reduced fine lines, with one 36-year-old and one menopausal reviewer specifically praising results on lines and chin spots."
+ },
+ "concerns": {
+  "aging": "Multiple reviewers report reduced fine lines and wrinkles, improved elasticity and firmer, plumper skin after regular use; no dissent on this point was found.",
+  "dehydration": "Most reviewers describe immediate and next-day hydration, plumpness and softness, but several others report dryness, tightness or flakiness after use, especially when left on overnight.",
+  "redness": "No reviewer specifically reports on redness as a concern.",
+  "barrier": "A few reviewers mention stinging, tingling or a burning sensation on application, particularly when applied to damp skin or on sensitive skin, though most describe the tingle as mild and short-lived.",
+  "spots": "One reviewer reports the mask helped dry up menopause-related spots on the chin; another simply notes no new spots developed.",
+  "blemishes": "One acne-prone reviewer reports being generally happy trying it, and another notes the mask cleared pores, though the same reviewer found it left cheeks and eyebrows very dry.",
+  "oiliness": "One reviewer notes the mask is non-greasy and does not leave a film or enlarge pores; no other comments on oiliness were found."
+ },
+ "aspects": [
+  {
+   "libelle": "Plumping and hydrating feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant light fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Drying or tight after use",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Stinging or tingling on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Confusing box vs tube instructions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Attractive tube packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast easy delivery and good value",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "D RIVERA",
+   "titre": "I like how.",
+   "texte": "I like how this mask cleared my pores, but it left my cheeks super dry. My eyebrows were getting flaky and I am not sure why. I might continue to use it as just a light scrub.",
+   "date": "2023-03-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "K Allard",
+   "titre": "I love the packaging.",
+   "texte": "I love the packaging; it stands out from the crowd. This mask was alright, but I think it would be better if it had a stronger or higher dose of hyaluronic acid. It worked really well for plumping my skin, and I think it is a great product for beginners in skincare, but my skin needed more hydration. I think it would be perfect with a higher dose; otherwise, it was fine. It felt comfortable on my face and didn't irritate my combination skin. It sank in perfectly and didn't leave a greasy film over my face, irritate my skin in any way, or enlarge my pores. I would definitely recommend it.",
+   "date": "2023-10-22",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "P Ridder",
+   "titre": "It felt soft.",
+   "texte": "The product left my skin feeling fresh and bright, and it felt soft to the touch; however, I personally found it stung a bit too much, though that might be due to my sensitive skin.",
+   "date": "2023-03-04",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "J Cook",
+   "titre": "It smells amazing dried quickly.",
+   "texte": "It smells amazing, dried quickly on my skin, and I left it on overnight. My skin is dry, but in the morning it felt so smooth and soft. However, there are conflicting instructions on the box and the tube.",
+   "date": "2022-04-28",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "S Craft",
+   "titre": "My skin feels so soft.",
+   "texte": "I've used this product twice now, and each time my skin feels so soft afterward. It has also helped to balance out my combination skin and dry up my menopause spots on my chin.",
+   "date": "2023-03-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "l streeton",
+   "titre": "My skin is moisturized.",
+   "texte": "This product feels lush, silky, and smooth on the skin. I had a really bad dry forehead, and after just one application, I can already see that my skin is moisturized.",
+   "date": "2023-03-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "S Goffi",
+   "titre": "Great product with a lovely.",
+   "texte": "Great product with a lovely scent; it might dry out the skin a bit, so it is not suitable for particularly dry skin.",
+   "date": "2023-02-03",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

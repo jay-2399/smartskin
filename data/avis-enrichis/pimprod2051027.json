@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2051027",
+ "asin": null,
+ "pid": "pimprod2051027",
+ "source": "ulta",
+ "nom": "TATCHA The Brightening Serum",
+ "note": 4.83,
+ "nbAvis": 504,
+ "lus": 80,
+ "collectes": 112,
+ "segments": {
+  "oily": "Reviewers with oily t-zone areas or combination-oily skin describe the serum as non-greasy and not heavy, with one noting it balances an oily r-zone alongside dry spots.",
+  "dry": "Reviewers with dry skin, including seasonal winter dryness, report the serum leaves skin hydrated, softer and less dull without causing irritation.",
+  "combination": "Reviewers with combination skin (including combination dry/oily) report the serum evens tone and adds brightness without feeling oily or greasy, especially useful for winter dullness.",
+  "sensitive": "Reviewers who identify as having sensitive or acne-prone sensitive skin report good tolerance overall, with several noting no irritation or breakouts, though one reviewer with sensitive skin experienced burning and redness.",
+  "mature": "A 61-year-old reviewer with sun-damaged, mature skin reports reduced redness and improved appearance, calling it the best result she has seen outside a dermatologist's office."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on firmness and elasticity report skin looking plumper, tighter and smoother after a few days to weeks; one mature reviewer with 60 years of sun damage calls it the best product she's used for overall skin appearance.",
+  "dehydration": "Reviewers report the serum feels hydrating, lightweight and non-sticky, waking up with moisturized, firm skin; one reviewer specifically credits it with preventing flakiness after 12 hours of wear.",
+  "redness": "Two reviewers report visible reduction in facial redness, including one who states cheek redness disappeared; no reports of increased redness from regular use, though one reviewer experienced burning and irritation.",
+  "barrier": "One reviewer reports the serum corrected bumps and redness likely linked to hormonal changes after a single use, alongside her existing moisturizer; no other reviewers describe barrier-specific effects.",
+  "spots": "The large majority of reviewers report fading of dark spots, hyperpigmentation, sun spots and post-acne marks within one to three weeks of use; a few note it is too soon to judge or have not yet seen changes on their dark spots.",
+  "blemishes": "Several reviewers with acne-prone or breakout-prone skin report no new breakouts and fading acne scars/spots, with one noting it is the first vitamin C serum that hasn't caused breakouts; one reviewer instead reports the serum burns and irritates her skin.",
+  "oiliness": "Reviewers describe the texture as lightweight and non-greasy, layering well under makeup without feeling oily, including those who identify as combination or oily-prone."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong hot dog or bacon-like smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Watery or runny consistency",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup and skincare",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Poorly designed pump/nozzle causes spillage",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning and irritation on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Mimi",
+   "titre": "Serum burns face + ignore \"gifted by Tatcha\" reviews",
+   "texte": "Tatcha is filled with reviews from influencers who received free \"gifted\" items especially for new products so it's hard to know what real paying customers think. I've used Tatcha for years and like many of their products. This one however burns on my face and leaves it irritated and red for hours. The dispenser also isn't designed properly so the serum runs down the side of the bottle. I will not be repurchasing. Tatcha, can you please add a filter in your reviews to filter verified purchases vs \"gifted by Tatcha\" reviews? This will give the company and reviews more credibility. If a product is good, customers will write honest positive reviews!",
+   "date": "2025-02-05",
+   "verifie": false,
+   "utiles": 35,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MarieRN",
+   "titre": "Ms.",
+   "texte": "I have a very sensitive skin, I've using the dewy moisturizer for atleast 5years. Just recently, I started to break out and felt my skin changed probably due to hormones. I've used other retinol and facial wash but made it worse. I was going to get rid of my dewy moisturizer thinking it was from it. Thankfully, I added this vit c serum with the dewy moisturizer and after 1 use. . it instantly helped my bumps, redness, and corrected me skin. It's amazing!!",
+   "date": "2025-03-14",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Angela P.",
+   "titre": "A Miracle",
+   "texte": "The new brightening serum has made the redness on my cheeks disappear. The eye cream has done wonders for my dark circles. I am 61 years old and these are the first products that have achieved these results.",
+   "date": "2025-01-30",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Iga",
+   "titre": "The only vitamin C serum that my skin handles so well!!",
+   "texte": "I'm amazed by the outcomes! The serum has a luxurious feel, gliding smoothly over the skin like silk. After applying it regularly for several weeks, I've seen a clear enhancement in the radiance and evenness of my skin tone. My acne scars have faded significantly, and I'm delighted that the serum hasn't triggered any breakouts, which is crucial since I have sensitive, acne-prone skin. This might be the only vitamin C serum my skin handles so well! Gifted by Tatcha.",
+   "date": "2024-12-31",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "A H.",
+   "titre": "Lightweight",
+   "texte": "I received this complimentary from Tatcha for review. My skin type is combination with dry spots and an oily r zone, and dark spots and uneven coloring. This serum is easy to apply and absorbs fast - after use my skin looks brighter with an even complexion.",
+   "date": "2024-12-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Natalie",
+   "titre": "High quality and effective",
+   "texte": "My favorite new serum is the Tatcha Brightening & Firming Vitamin-C Serum with Ferulic Acid. It has been my go to serum daily and it is amazing. Hyperpigmentation IS my main cincern in skincare is reducing my dark spots. This worked wonders in a short time. My skin looks clearer feels hydrated and smooth. Gifted by Tatcha.",
+   "date": "2024-12-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tawni",
+   "titre": "Great serum!",
+   "texte": "Gifted by Tatcha. Formulated with vitamin c and ferulic acid this is a great brightening Serum. I have dry skin in the winter and this has caused no irritation with use. I've noticed Brightening and evening to my skin with use. I like the light consistency.",
+   "date": "2024-12-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

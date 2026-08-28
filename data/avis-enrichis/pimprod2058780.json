@@ -1,0 +1,122 @@
+{
+ "ref": "pimprod2058780",
+ "asin": null,
+ "pid": "pimprod2058780",
+ "source": "ulta",
+ "nom": "numbuzin No.9 NAD+ PDRN Glow Boosting Toner",
+ "note": 4.8,
+ "nbAvis": 5,
+ "lus": 5,
+ "collectes": 5,
+ "segments": {
+  "oily": "One reviewer with oily skin reports the toner absorbed well and left pores looking smaller."
+ },
+ "concerns": {
+  "spots": "One reviewer reports the toner helps clear her skin, alongside hydration and glow benefits, but no other reviewer confirms this effect on blemishes."
+ },
+ "aspects": [
+  {
+   "libelle": "Silky essence-like texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Not watery, easy to apply",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Instant hydration and plumpness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pores appear smaller",
+   "polarite": "pos",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Wears well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good packaging",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Ruby",
+   "titre": "Good hydrating toner",
+   "texte": "I love the consistency of the toner. Easy aplied, not too watery. I have oily skin and it absorbed well. My pores seems smaller after putting this on.",
+   "date": "2026-07-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "barrier",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "GranolaYogaLife",
+   "titre": "A Glow Boosting Favorite",
+   "texte": "✨ A Glow-Boosting Favorite! ✨ The No. 9 NAD+ PDRN Glow Boosting Toner has quickly become one of my favorite steps in my skincare routine! 💜 I love the silky, essence-like texture—it feels much more nourishing than a traditional watery toner. My skin feels instantly hydrated, soft, plump, and beautifully dewy after applying it. It also gives my complexion that fresh, healthy-looking glow without feeling heavy or sticky. The formula includes ingredients like niacinamide, ceramide, adenosine, PDRN, NAD+, and peptides, making it feel like so much more than just a toner. (numbuzin Official) It layers beautifully with the rest of my skincare and leaves my skin feeling smooth and perfectly prepped for the next step. If you're looking for a toner that focuses on hydration, softness, and that gorgeous glass-skin glow, this one is definitely worth trying! ✨💜 ⭐️⭐️⭐️⭐️⭐️ Absolutely loving the glow!",
+   "date": "2026-07-26",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "jennifer",
+   "titre": "favorite toner",
+   "texte": "my new favorite toner! it makes my skin so soft and plumped, it also wears really well under makeup",
+   "date": "2026-07-03",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amber",
+   "titre": "One of the best toners ever",
+   "texte": "I genuinely love this toner. Helps to hydrate, glow and clear my skin! A plus for packaging too",
+   "date": "2026-07-02",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jade",
+   "titre": "Pores nearly invisible, face glowing!",
+   "texte": "My pores are literally nearly invisible now. You have to look for them to see them. Love this stuff!",
+   "date": "2026-08-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": "Only five short reviews are available, none below 4 stars, and most do not state the reviewer's skin type, so segmentation and concern coverage remain thin."
+}

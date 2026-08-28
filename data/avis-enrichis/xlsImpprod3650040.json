@@ -1,0 +1,163 @@
+{
+ "ref": "xlsImpprod3650040",
+ "asin": null,
+ "pid": "xlsImpprod3650040",
+ "source": "ulta",
+ "nom": "Lancôme Crème Mousse Confort Creamy Foaming Cleanser",
+ "note": 4.75,
+ "nbAvis": 1345,
+ "lus": 76,
+ "collectes": 109,
+ "segments": {
+  "dry": "Reviewers with dry skin, including some with eczema or long-standing flaky patches, report the cleanser removes makeup and buildup without stripping or tightening the skin, and several say it has reduced dry patches over time.",
+  "sensitive": "Reviewers describing sensitive, easily reddened or 'angry' skin report the cleanser cleans effectively without triggering redness, itching or tightness, though one long-time user reports new hives after a reported reformulation.",
+  "combination": "Reviewers with combination skin report it balances dry cheeks and oil-prone areas, keeping cheeks hydrated without making the T-zone oilier.",
+  "oily": "One reviewer with oily skin reports it controls shine through the day and has helped fade dark spots.",
+  "mature": "Reviewers in their 40s to 70s report the cleanser is gentle, hydrating and leaves mature skin soft, with one noting it has lessened fine hairline lines."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers with dry or dehydrated skin report the cleanser cleans without leaving skin tight, dry or flaky, some noting reduced dry patches over months of use; one reviewer, however, reports it left her face dry and hard to lather.",
+  "redness": "Reviewers with reactive or 'angry' skin report no redness, itching or blotchiness after use, describing it as calming rather than irritating.",
+  "barrier": "Reviewers with eczema or compromised, easily irritated skin report the cleanser cleans without disrupting or further drying the skin barrier; one long-time Lancôme user reports the opposite, developing hives after a suspected formula change.",
+  "spots": "One reviewer with oily skin reports the cleanser has helped clear dark spots over time.",
+  "blemishes": "One reviewer reports it helped clear and reduce acne over a year of use, and another with combination skin reports fewer breakouts and more even skin; no other reviewer discusses blemishes.",
+  "oiliness": "Reviewers with oily or combination skin report it cleans without leaving an oily residue and helps keep the T-zone from getting oily through the day."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich creamy foaming texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light rose scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Difficult to work into a lather",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "No travel size available",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large amount of product needed",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "ErinT",
+   "titre": "This is the only Lancôme product I don't care for",
+   "texte": "I really don't like this product. It's takes a lot to get a good lather and I don't like how dry my face is afterwards. I thought it was going to be like the crème radiance cleanser just with a rose element and scent but it is nothing like it. Maybe it's just not for my skin type but I don't like it. I recommend the crème radiance instead",
+   "date": "2024-06-02",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rhonders",
+   "titre": "My extra sensitive skin loves this!",
+   "texte": "My skin can become very red, tight, itchy and blotchy (a.k.a \"angry\") if I use certain cleansers but it loves this AND it cleans very effectively and gently without drying out my skin. Smells lovely and, unlike other cleansers, a little goes quite a long way. The first time you use it only use about half of what you think you need and you'll be surprised. This is on my \"must have\" list of essentials.",
+   "date": "2024-04-27",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "VLLee",
+   "titre": "Has worked wonders on my skin",
+   "texte": "I'm 40, have combination skin. I triple cleanse & this is the last cleanser I use. I have noticed such an improvement in my skin as far as breakouts & the evenness of my skin. I would highly recommend this product. It's worth every penny",
+   "date": "2024-06-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "55Nicci",
+   "titre": "Love this product",
+   "texte": "Best facial wash I've ever used. I have eczema so my skin is very dry. This product cleans without drying out my skin. I love it and now my daughter loves it too!",
+   "date": "2024-04-16",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mickey2020",
+   "titre": "Best Cleanser Ever!",
+   "texte": "I have dry skin and this product suits my skin type perfectly. I've been using this for a year and it has helped to clear and reduce my acne. Thanks Lancome!",
+   "date": "2024-05-30",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Janet",
+   "titre": "Love it for my combination skin!",
+   "texte": "I moved to a dry climate and struggled to find a new face wash to keep my cheeks from getting dry and flaky without my nose and forehead getting oily. This cleanser is it! So creamy, washes off makeup easily and keeps my skin soft and hydrated without getting oily. It smells so fresh too!",
+   "date": "2024-04-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Coleee",
+   "titre": "￼ This is a must have if you have oily skin",
+   "texte": "I have really oily skin and this is the only cleanser that I use to moisturize my skin from getting ordered throughout the day and it clears up my dark spots. I would recommend this product over and over.",
+   "date": "2026-03-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

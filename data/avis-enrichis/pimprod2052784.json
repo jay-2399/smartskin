@@ -1,0 +1,145 @@
+{
+ "ref": "pimprod2052784",
+ "asin": null,
+ "pid": "pimprod2052784",
+ "source": "ulta",
+ "nom": "MEDIHEAL Hyper Collagen Mask",
+ "note": 4.33,
+ "nbAvis": 9,
+ "lus": 8,
+ "collectes": 8,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers, including one with periorficial dermatitis, report no flare-up or irritation and describe the mask as hydrating and calming.",
+  "combination": "A sensitive-combination reviewer with an oily t-zone and dry cheeks reports the mask left skin hydrated and bouncy without aggravating either area.",
+  "mature": "Reviewers noting fine lines or being in their 40s report visible plumping of fine lines after use."
+ },
+ "concerns": {
+  "aging": "Reviewers with fine lines and wrinkles report their lines looked plumped and filled after use.",
+  "dehydration": "Multiple reviewers across skin types describe the mask as strongly hydrating, leaving skin plump and bouncy after wear.",
+  "redness": "One reviewer with periorficial dermatitis reports no flare-up or increased redness from the mask."
+ },
+ "aspects": [
+  {
+   "libelle": "Hydration and plumping effect",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Mask fell apart or tore",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Eye cutouts too small for almond eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Slides out of place initially",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Mild citrus fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Low price for quality",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Spa-like relaxing application",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "AshleyB",
+   "titre": "Fell apart when I took it out of the package",
+   "texte": "I've never had a face mask have rips and tears in it, and fall apart…",
+   "date": "2026-03-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Jordan",
+   "titre": "Sizing too small",
+   "texte": "This face mask is great, but it's made for smaller face shape. The eyes are not cut out for almond shaped eyes. It's unfortunate because it feels super hydrating on the face. I won't be repurchasing.",
+   "date": "2026-02-13",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Earthymoon",
+   "titre": "Bouncy Skin",
+   "texte": "I wore mine for 2 hours. It didn't get completely transparent so I probably could have worn it longer. It did get transparent in some spots. I washed my face AND added a light moisturizer before applying. At first, the mask wanted to slide around so I needed to lie on my back. After the first hour, it stayed in place better as I moved around. It's a nice spa experience. I just layed back and relaxed. My skin was soooo hydrated and bouncy at the end of the 2 hours. I'm 44 and my fine lines were plumped in. My skin type is sensitive combination skin that can get extremely oily in my t-zone but extremely dry on my cheeks and outer forehead. I have a weekly routine of using a enzymatic rice powder peel to remove excess dead skin. I like to use a jelly sheet mask over moisturizer afterwards to help calm my skin after the exfoliator treatment. This did an amazing job. I was concerned about the mild citrus fragrance but it did not aggravate my skin.",
+   "date": "2026-08-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Allie",
+   "titre": "Have sensitive skin and I love",
+   "texte": "I have periorficial dermatitis so lots of things make me flare up but this didn't! I wore it until it turned clear and my skin was super hydrated and bouncy. Would recommend!",
+   "date": "2025-11-21",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bailey",
+   "titre": "Amazing",
+   "texte": "I wanted to try the mask and I was a little skeptical because it was only four dollars but it was extremely hydrating, skin tightening and left my skin glowing. I'm definitely gonna be buying these in bulk and using one at least once a week because of the price!",
+   "date": "2025-11-12",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tiffany",
+   "titre": "I would buy this product again and again!",
+   "texte": "This mask left my skin feeling plump and moisturized. I will definitely be repurchasing again. I have fine lines and some wrinkles and it definitely helped plump and fill them some.",
+   "date": "2026-06-16",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": "Only nine reviews are available, so segment and concern coverage is thin and may not generalize."
+}

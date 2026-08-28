@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2048023",
+ "asin": null,
+ "pid": "pimprod2048023",
+ "source": "ulta",
+ "nom": "Good Molecules Brightening & Dark Spots Bar",
+ "note": 4.51,
+ "nbAvis": 764,
+ "lus": 79,
+ "collectes": 86,
+ "segments": {
+  "dry": "One reviewer with sensitive, already-dry skin found the bar too drying with extended use, while another with eczema-prone dry skin reports it clearing hyperpigmentation and evening tone on the arms.",
+  "sensitive": "A sensitive-skin reviewer reports it became too harsh and drying over time and suggests it may suit normal or oily skin better; another describes no irritation and gradual fading of under-eye dark spots.",
+  "oily": "One reviewer suggests the bar may suit oily skin better than sensitive/dry, based on her own drying reaction; no direct oily-skin reviews describe outcomes.",
+  "mature": "One reviewer says the bar completely cleared two dark spots that were 'making me feel old,' framing it as a mature-skin win."
+ },
+ "concerns": {
+  "aging": "One reviewer credits the bar with removing dark spots she associated with looking older; no reviewer discusses fine lines, wrinkles or firmness.",
+  "dehydration": "One reviewer with dry, sensitive skin found it too drying with continued use; others across skin types explicitly say it left skin feeling soft, clean, non-tight or moisturizing, so reports diverge.",
+  "redness": "Two reviewers report reduced redness (one on bacne, one on facial acne) alongside fewer breakouts; no reviewer reports increased redness.",
+  "barrier": "Only indirect signal: the reviewer who called it 'too harsh' for dry, sensitive skin implies barrier stress, while most others report no irritation and describe skin as calm.",
+  "spots": "The large majority of reviewers report visible fading of dark spots and hyperpigmentation, often described as gradual over weeks to months (face, underarms, thighs, arms); several report no change at all even after months of consistent use, and one reports the bar did not help under-eye dark circles.",
+  "blemishes": "Several reviewers report clearer skin and fewer or resolved breakouts (face, back, chest, underarm/thigh areas), including long-term acne and bacne; one reviewer reports the opposite — new breakouts/purging after starting the product on sensitive skin.",
+  "oiliness": "Not discussed by reviewers; no reports of oil control or increased oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lathers well, smooth texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin feeling clean, soft, not tight",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Too drying with prolonged use",
+   "polarite": "neg",
+   "concerne": [
+    "dry",
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "No fragrance, unscented feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for price, long-lasting or fast-depleting bar",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging not sealed/tamper-evident",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Results require weeks to months of consistency",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Sirena",
+   "titre": "Skin felt super clean, but was drying with extended use",
+   "texte": "I really enjoyed this cleansing bar at first—it left my skin feeling clean and refreshed. However, with continued use, I found it became too drying for my sensitive, already dry skin. It may work better for someone with normal or oily skin, but for me it was a bit too harsh over time.",
+   "date": "2025-09-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Logan",
+   "titre": "Skin purging / break outs",
+   "texte": "I loves how my skin felt after using it ( instant glow) but it was a risk because it is not non comedogenic at some your skin may break out. If you have sensitive skin. Dont take a risk. My skin had no spots for years but after using this i had multiple.",
+   "date": "2026-01-28",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "imported",
+   "titre": "Great for hyperpigmentation.",
+   "texte": "I deal with hyperpigmentation on the arms from eczema, I use this soap a few times a week on that affected area and now my skin is getting an even tone.",
+   "date": "2025-10-12",
+   "verifie": false,
+   "utiles": 27,
+   "peau": "dry",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amy N",
+   "titre": "Body Acne Solution!",
+   "texte": "I have been battling with back and chest acne for YEARS and I tend to make it worse but scratching and ripping open scabs on my back and shoulders, it's so embarrassing. I have tried A LOT of products but this is the first one that has my back and chest and shoulders smooth and clean feeling, plus the old marks are fading too! I'm also using it on my face and it works great with the Azaelic acid treatment by the same brand.",
+   "date": "2026-02-12",
+   "verifie": false,
+   "utiles": 18,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JLEE",
+   "titre": "IT WORKS!",
+   "texte": "FINALLY, I found something to help with my hormonal acne and the scars. I use this every other day and 90% alcohol just on the acne to help dry it up. Followed by a moisturizer for sensitive skin and my face has cleared up. I am so glad I tried this.",
+   "date": "2026-02-11",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "This soap works wonders!",
+   "texte": "My overall experience has been amazing! After struggling with different types of breakouts from 2018 to 2025, I can finally say I'm almost acne-free and feeling mentally better too. I'm no longer afraid to look in the mirror. This soap has truly helped fade blemishes, clear dark spots, and maintain my skin type. I couldn't be happier with the results!",
+   "date": "2025-09-17",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Good Molecules",
+   "texte": "I've been using it for over 4 months and still do not see my dark spots lighting…",
+   "date": "2025-09-11",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

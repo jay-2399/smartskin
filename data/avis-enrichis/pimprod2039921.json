@@ -1,0 +1,162 @@
+{
+ "ref": "pimprod2039921",
+ "asin": null,
+ "pid": "pimprod2039921",
+ "source": "ulta",
+ "nom": "Shiseido Benefiance Wrinkle Smoothing Eye Cream",
+ "note": 4.54,
+ "nbAvis": 2843,
+ "lus": 68,
+ "collectes": 96,
+ "segments": {
+  "oily": "One reviewer with normal skin found the cream extremely thick and greasy and warns it may be worse for oily skin; another suggests oily skin may prefer using it only at night.",
+  "dry": "Reviewers with dry or very dry skin describe the cream as rich, greasy in a good way, and effective on dry eyelids and under-eyes, with one saying it suits extremely dry skin better than it would oily skin.",
+  "sensitive": "Reports are split: some with sensitive skin use it for years with no problems and find it gentle, while others develop stinging, redness, swelling, or flaky itchy skin they attribute to fragrance (geraniol).",
+  "normal": "A reviewer with normal skin found it very thick and heavy, affecting mascara wear, while another with normal skin at 44 found it hydrating and good under makeup.",
+  "mature": "Mature-skin reviewers (mid-40s to late-60s) report smoother, softer under-eye skin, reduced fine lines, and describe it as well suited to maturing or aging eyes."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visibly softer, smoother skin and reduced fine lines or a specific wrinkle within weeks to a month; a few see no true results even after a year of use.",
+  "dehydration": "Most reviewers describe strong hydration and softer, nourished under-eye skin; a couple with very dry skin found it especially helpful for dry eyelids.",
+  "redness": "Several reviewers linked to fragrance sensitivity report red, flaky, or swollen skin around the eyes, while others describe the cream as soothing compared to products that irritated them before.",
+  "barrier": "Reviewers with allergy-prone or reactive skin report flaky, itchy, reddened patches they attribute to the fragrance ingredient geraniol, while others with sensitive skin report no barrier issues at all.",
+  "oiliness": "Several reviewers describe the cream itself as greasy, heavy, or sitting on the skin rather than absorbing, though others say it absorbs quickly without looking greasy."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong lingering fragrance",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Rich, silky texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy, heavy finish",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-lasting jar, small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Silicone paddle applicator liked",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Brit",
+   "titre": "Feels amazing, sensitive skin folks beware",
+   "texte": "First, this eye cream feels amazing on the eyes. It's ultra hydrating, and I've been using it for a month so I've yet to see results but the reviews left me confident that I would. Unfortunately, this cream is also ultra fragranced. Using no other actives besides a sunscreen in the day, I gradually began noticing stinging the morning after application. Until it became as pictured. There's minor swelling and tight shiny red skin on my upper cheeks. I do not think this is a product for sensitive skin and urge others with sensitivities to look elsewhere! Discontinuing use due to sensitivity alone, and I wish this would've worked for me.",
+   "date": "2026-03-10",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kelly",
+   "titre": "Use Caution if you have allergies",
+   "texte": "I like the way it hydrates and it absorbs nicely leaving smooth skin behind. I have extra dry skin and tap on once more if I am wearing makeup in the evening. However, I stopped using this product because my left lower eyelid skin becomes flaky and reddened, I think because of the fragrance (geranoil). I've had allergic reactions to that in other products (hair balm) in the past. Sorry, because it is a nice, silky smooth elegant cream.",
+   "date": "2025-12-18",
+   "verifie": true,
+   "utiles": 10,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Maui Sue",
+   "titre": "VERY oily, heavy, greasy cream!",
+   "texte": "I bought this based on the positive reviews and I like Shiseido's products. Overall, I have normal skin and let me tell you this product is extremely thick and greasy. Even with the most minimal of product, you can't avoid how thick it goes on. It actually messes with my mascara because my mascara transfers onto my eye area because it's such a heavy eye cream. With that being said, I do believe it's a good product and i am hopeful it will work long-term. I'm going to try putting it on at night as an eye cream and in the morning just use my regular serum and face lotion. Hopefully I will still see the same results from the eye cream.",
+   "date": "2026-04-04",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "normal",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Monique",
+   "titre": "Maybe",
+   "texte": "I have used Mary Kay's eye cream for years, but feel like the quality has declined, so I am searching for the new \"Holy Grail\". This eye cream is nice for me because I have extremely dry skin. It is very greasy. I would think it would be a bad choice for someone with oily skin. I will be trying Clarins' eye cream after this.",
+   "date": "2026-07-06",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Desiree",
+   "titre": "I will buy this always.",
+   "texte": "I only use this eye cream. I have sensitive skin and no problems. I have been using this for years.",
+   "date": "2026-01-08",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sandi",
+   "titre": "This Actually WORKS!",
+   "texte": "I've tried a couple products that claim to help smooth under eye wrinkles. None worked! There was a sale on this and I decided to try it after reading reviews. This DOES work for under eye wrinkles! I was putting it at night only and by morning there wasn't much difference. I started using it first thing in the morning before getting ready and it SIGNIFICANTLY reduces my under eye wrinkles! It does wear off a little during the day but, works the best if any product! I don't know how it works for bags or dark circles because I don't have those issues. THIS IS A GAME CHANGER!",
+   "date": "2026-06-01",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chantal",
+   "titre": "On my Second One, Great for the Eyes!",
+   "texte": "I'm 46 and loving this eye cream so much! Its rich, moisturizing, and perfect for maturing eyes. I use it morning and night and notice my under eyes look less tired and feel smoother and more hydrated. Will absolutely repurchase!",
+   "date": "2026-04-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

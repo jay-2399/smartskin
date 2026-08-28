@@ -1,0 +1,121 @@
+{
+ "ref": "pimprod2059250",
+ "asin": null,
+ "pid": "pimprod2059250",
+ "source": "ulta",
+ "nom": "Good Molecules Dark Spot Microdart Patches",
+ "note": 2.8,
+ "nbAvis": 5,
+ "lus": 5,
+ "collectes": 5,
+ "segments": {
+  "mature": "One mature-adult reviewer feels the formula is not strong enough and recommends a derm-grade or higher-penetration alternative like Roc instead."
+ },
+ "concerns": {
+  "aging": "A reviewer identifying as mid to mature felt the microdart formula lacked the strength or penetration needed for mature skin concerns and suggested a stronger alternative.",
+  "spots": "Reports are mixed: two reviewers saw a noticeable lightening of dark or acne scars (one after four nights on cheeks, one on two spots), while one reviewer says the patches left new dark circles around a scar that had not faded after two days."
+ },
+ "aspects": [
+  {
+   "libelle": "Visible lightening of dark spots",
+   "polarite": "pos",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Patches peel off with moisturizer",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Left new dark discoloration around scar",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  },
+  {
+   "libelle": "Insufficient strength for mature skin",
+   "polarite": "neg",
+   "concerne": [
+    "mature",
+    "aging"
+   ]
+  },
+  {
+   "libelle": "Preference for a competing microdart brand",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Angela",
+   "titre": "Maybe for young adults",
+   "texte": "For mid to mature adults you need something stronger, derm grade ingredients to really penetrate. This does not have that. You are better off spending more money and getting a product like Roc skincare even tone which says goes 10 layers deep or something similar.",
+   "date": "2026-08-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Jill",
+   "titre": "Don't buy",
+   "texte": "After two days of using the pactches left dark circles around scar and hasnt gone away",
+   "date": "2026-08-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Alai",
+   "titre": "Dont stay on",
+   "texte": "They felt like they were going to work, but after applying to my bare face as soon as i try to put on any moisturizer on my face the patches begin to peel off immediately and became unusable. I perfer the Star micodart ones to these.",
+   "date": "2026-08-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dy",
+   "titre": "Great so far",
+   "texte": "Ive been using this product on two spots ans i actively notice a difference",
+   "date": "2026-07-04",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "alayna",
+   "titre": "impressed",
+   "texte": "I've got some stubborn acne scarring on my cheeks, which has darkened since I've been tanning in the summer. These patches worked surprisingly well. After 4 nights of use, I saw a significant difference in the darkness of the spots.",
+   "date": "2026-08-08",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": "Only five reviews are available and most do not state the reviewer's skin type, so segment-level conclusions beyond mature skin are not supported."
+}

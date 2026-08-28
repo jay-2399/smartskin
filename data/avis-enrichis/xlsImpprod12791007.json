@@ -1,0 +1,151 @@
+{
+ "ref": "xlsImpprod12791007",
+ "asin": null,
+ "pid": "xlsImpprod12791007",
+ "source": "ulta",
+ "nom": "Patchology FlashPatch Rejuvenating Eye Gels",
+ "note": 4.23,
+ "nbAvis": 942,
+ "lus": 73,
+ "collectes": 106,
+ "segments": {
+  "sensitive": "Reviewers with sensitive under-eye skin report the patches can be used without breakouts or adverse reaction, and one notes they even smoothed fine lines, though this is a small subset of comments.",
+  "mature": "A reviewer in her late 40s and others focused on fine lines report visible smoothing and brightening with regular use."
+ },
+ "concerns": {
+  "aging": "Several reviewers report reduced fine lines, firmer and smoother under-eye skin, and a brighter appearance with regular or chilled use; no reviewer disputes an anti-aging effect, though a few say results are subtle rather than dramatic.",
+  "dehydration": "Most reviewers describe the gels as hydrating, leaving the under-eye area soft, plump and less tight; one reviewer instead found her skin still felt sticky hours after removal.",
+  "barrier": "Reviewers with sensitive skin report no irritation or breakouts even where other eye creams caused reactions, but this is only mentioned by a couple of users."
+ },
+ "aspects": [
+  {
+   "libelle": "Patches slide down the face",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling effect when chilled",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Generous serum amount on pads",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Individually wrapped packs convenient for travel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky residue after removal",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Inconsistent ingredient list between pack sizes",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 5,
+   "auteur": "Elizabeth",
+   "titre": "Great for dark circles",
+   "texte": "I have hereditary dark circles (which look worse the more tired I am) and sensitive skin. I have tried many eye creams and other eye patches and my skin always breaks out; however, I use these daily without any adverse reaction. The only con is that they are pricey.",
+   "date": "2024-07-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Andrea M.",
+   "titre": "Best Eye Masks",
+   "texte": "Love these eye masks! I have purchased them more than once. Use in the mornings for the caffeine to reduce any swelling or eye bags along with the collagen and hyaluronic acid and they are amazing! My skin is very sensitive around my eyes and can't use eye cream. These masks have even made the lines around eyes more smooth. Will always repurchase.",
+   "date": "2025-08-11",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Yara",
+   "titre": "Great results!",
+   "texte": "I highly recommend these patches, I had try other brands and these are a lot better. I can actually see the difference. I am 47 and really helps in the AM",
+   "date": "2024-11-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "NeverAssumeNatural",
+   "titre": "Good but not for the cost",
+   "texte": "While this product does hydrate the undereye area, its not that huge of a difference to justify the cost. I have purchased different brands at half the cost (even when on 21DOB sale) that work. I did notice my conceler didnt bunch as much with this brand earning 3 stars in my opinion",
+   "date": "2025-03-16",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristina Garcia",
+   "titre": "These are my favorite eye patches!",
+   "texte": "I usually buy these eye mask in the jars, but I bought these in the 5-pack for a trip. After a long flight these feel very soothing and hydrating when you dry post-flight. They're really restoring for dry under eyes. I use these daily in the morning. They're easy to pack and not something that is too large for TSA like other skincare.",
+   "date": "2025-11-11",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Olive",
+   "titre": "Got them as a gift",
+   "texte": "I got them as a gift at a white elephant and they felt great but my under eyes still feel sticky and I took it off 6 hours ago",
+   "date": "2024-12-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Melissa",
+   "titre": "Never buying again",
+   "texte": "I have only tried three different brands of under eye patches, these were the worst. Unless you plan to hold them in place, I don't see how you'll get any results from the product. Patch just slips down your face the entire time it is on. Have to constantly keep pushing it back to where it's supposed to be.",
+   "date": "2025-01-05",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

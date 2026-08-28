@@ -1,0 +1,168 @@
+{
+ "ref": "pimprod2013175",
+ "asin": null,
+ "pid": "pimprod2013175",
+ "source": "ulta",
+ "nom": "belif Aqua Bomb Hydrating Sleeping Mask with Panthenol",
+ "note": 4.55,
+ "nbAvis": 1158,
+ "lus": 79,
+ "collectes": 121,
+ "segments": {
+  "oily": "Reviewers with oily skin report the gel absorbs well without leaving a greasy or oily residue, and one calls it the only mask she can use for her skin type.",
+  "dry": "Reviewers with dry skin, including some who describe severe or winter-related dryness, most consistently report strong overnight hydration, softer skin, and relief from flaking or dry patches.",
+  "combination": "Reviewers with combination skin report it balances hydration without feeling heavy or greasy, working for both drier and oilier areas.",
+  "sensitive": "Reviewers with sensitive skin mostly report no irritation or breakouts, though one reviewer states the fragrance did not agree with her sensitive skin.",
+  "mature": "One reviewer reports smoother skin and diminished fine lines after use."
+ },
+ "concerns": {
+  "aging": "One reviewer reports diminished fine lines and a smoother, plumper look with use; this is a single mention rather than a broad pattern.",
+  "dehydration": "Most reviewers, including several describing chronic or winter dryness, report strong, lasting hydration and softer skin by morning; a couple report only mild or unnoticeable improvement compared to their usual night cream.",
+  "redness": "No reviews specifically discuss redness as a standalone concern.",
+  "barrier": "Reviewers using retinol, glycolic acid, or other exfoliating actives report the mask helps counter resulting dryness and supports moisture retention overnight.",
+  "spots": "Not addressed by reviewers as a distinct concern.",
+  "blemishes": "A few reviewers report the mask calms blemishes or helps clear them with regular use, and several sensitive or acne-prone reviewers report no new breakouts; no reviewer reports it causing breakouts.",
+  "oiliness": "Reviewers with oily or combination skin consistently report the product does not add oiliness or greasiness, describing it as lightweight and non-greasy."
+ },
+ "aspects": [
+  {
+   "libelle": "Sticky or tacky finish",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Unique jelly or pudding texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy, lightweight feel",
+   "polarite": "pos",
+   "concerne": [
+    "oily",
+    "combination"
+   ]
+  },
+  {
+   "libelle": "Fragrance pleasant to most",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance bothers sensitive skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Long-lasting, good value jar",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slow to absorb, needs thin layer",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Bree",
+   "titre": "Ultra hydrating, gooey mask",
+   "texte": "This product does a great job of creating that \"woke up fresh\" feeling to the skin. I have very sensitive skin, so I was concerned about this product because similar ones in the past have caused micro breakouts on my cheeks, however this one has not done that so far. I do find that it works better to hold in moisture overnight if I use my moisturizer first, allow it to dry down, and then apply this mask. I still have to apply moisturizer in the morning after rinsing off the mask, however my skin feels immediately smooth and soft when initially cleansed. It took new a few days to get the correct amount for application--if you use too much, it takes forever to dry down and feels tacky all night. When you get it right though, it feels slightly tacky, but does not transfer onto clothing, pillows, or hair. Overall, the amount given in the jar is generous due to the fact that a little goes a long way. The one thing I would perhaps like to be distributed with the mask is a small spatula or spoon to allow for easier removal from the jar. Because of the consistency, sometimes it slides around and is hard to pick up.",
+   "date": "2023-12-04",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Sara R",
+   "titre": "Nice product if you are not sensitive!",
+   "texte": "This product did not work for me as my skin is very sensitive to scents, however, it may work really well for you if you are not! It has a very pleasant spa like scent. It does provide nice hydration and is very comfortable. Not oily or greasy at all.",
+   "date": "2023-12-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Cindy B",
+   "titre": "Optimal Product for Alternating with Retinol Use",
+   "texte": "I've been using the Belif Aqua Bomb Sleeping Mask for nearly a week. To use, apply a thin layer after your moisturizer to lock in hydration overnight; the consistency should resemble that of jelly or pudding. The following morning, rinse it off to reveal noticeably smoother and baby-soft skin. I appreciated the improved texture and enhanced hydration of my face the next day. This product is particularly beneficial when alternating with retinol to combat dryness and irritation that retinol may induce. However, I am uncertain if I want to incorporate this additional step into my already complex nighttime routine. The consistency didn't absorb as quickly as I expected, prompting me to place a towel on my pillow as a precaution against potential staining. The sticky feeling it left after application was not preferable; I had anticipated a faster-absorbing gel-like sensation. Despite this, I would recommend this product to individuals using retinol, glycolic acid, lactic acid, or any treatment that leaves their face excessively dry, requiring maximum moisture retention.",
+   "date": "2023-11-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth",
+   "titre": "Bouncy, Glowing Hydration!",
+   "texte": "I used this both in the harsh, cold weather of New England alongside a vacation to Miami and this mask had the same results- bouncy, dewy, glowing hydration! I have super dry skin that is exacerbated by cold weather and after applying this mask post-retinol I would wake up with such soft, hydrated skin. It was just as effective as a moisturizing treatment after a day in the South Florida sun. I recommend it to anyone who wants to wake up looking dewy and refreshed!",
+   "date": "2023-12-01",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Tobes",
+   "titre": "Good but not great",
+   "texte": "I'd recommend for those with oily skin as this goes on very light. Almost too light. The consistency is kinda like soft jello. i tend to like heavy cream based overnight masks. when I mixed this with the laneige water mask, i like the results better",
+   "date": "2023-12-11",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Lucy",
+   "titre": "Not a bad sleeping mask.",
+   "texte": "I use a chemical exfoliant at night so I'm always looking for an extra hydrating sleeping mask to layer with. This one is nice: an interesting, bouncy, jelly texture. It does leave my skin feeling a little tacky, but since I'm just going to sleep, it doesn't bother me. I don't feel especially moisturised in the morning, but I don't feel dry, either, and it doesn't irritate my skin. I'm not mad at it, but I'm not going to be running to repurchase, either.",
+   "date": "2026-04-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nikky",
+   "titre": "Smooth and silky...",
+   "texte": "This product goes on very smooth and I can feel it seeping into my skin throughout the night, when I woke up the next morning my skin was soft and supple and I had a glow, even some fine lines had diminished. I love the way this product makes my skin feel it is not greasy, it does not leave a film on your skin, it is definitely a product that I will use over and over again. Simply put, it does when it says, it hydrates your skin fully and diminishes fine lines and it gives you a beautiful glow while leaving your face feeling as smooth as a baby's skin. This is a product that you must try.",
+   "date": "2023-11-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

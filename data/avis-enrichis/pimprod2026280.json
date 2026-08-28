@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2026280",
+ "asin": null,
+ "pid": "pimprod2026280",
+ "source": "ulta",
+ "nom": "IT Cosmetics Bye Bye Pores Glycolic Acid Serum",
+ "note": 4.46,
+ "nbAvis": 676,
+ "lus": 80,
+ "collectes": 107,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin report mixed reactions, from stinging, burning, and scaling on skin already compromised to others who report zero irritation, redness, or stinging and note the product works well with delicate skin.",
+  "oily": "One reviewer with oily skin reports smaller pores and shine-free skin all day, while another reviewer not identifying as oily notes her skin gets more oily when applying the product in the morning.",
+  "mature": "Reviewers describing themselves as older or using anti-aging routines report reduced pore size and a younger-looking, smoother skin over weeks to months of use.",
+  "normal": "A reviewer with normal skin and visible sebaceous filaments reports no visible difference after nearly two months of daily use."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on anti-aging report smoother, younger-looking skin and reduced fine lines when combined with other products; one 65-year-old reviewer with autoimmune skin conditions reports pore improvement after about four weeks.",
+  "dehydration": "A few reviewers note the serum feels hydrating or tightening rather than drying, and one uses it only three times a week specifically to avoid drying out skin; no reports of worsened dryness appear.",
+  "redness": "One reviewer reports zero redness or stinging even with daily use, while another with sensitive skin reports burning over active acne spots and a possible link to broken capillaries.",
+  "barrier": "One reviewer reports scaling and overall thinness of skin they suspect is an allergic reaction to an ingredient; another describes a 'purging' period of breakouts lasting about a week before skin calmed and felt softer.",
+  "spots": "Reviewers using the serum for dark or red spots and general tone report smoother, brighter, more even-toned skin, though this is based on a single detailed account.",
+  "blemishes": "Several reviewers report reduced or minimal breakouts, including one managing hormonal and pregnancy-related acne and another reporting almost zero breakouts since starting; one reviewer with sensitive, hormonal skin reports burning directly on active acne spots.",
+  "oiliness": "One reviewer with oily skin reports the product keeps her face shine-free all day, while another reviewer reports her skin becomes more oily specifically when applied in the morning."
+ },
+ "aspects": [
+  {
+   "libelle": "Visible pore size reduction",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No noticeable results for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky, gooey texture",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth application, good makeup base",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Irritation or burning on broken skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Good value, repeat purchases",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Purging period at start of use",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Porely Received",
+   "titre": "Didn't work for me, hope it works for you",
+   "texte": "Read reviews and was hopeful that this product would decrease the appearance of pores on my nose. I have normal skin with pores being visible due to sebaceous filament build up, despite a fairly consistent skin care routine with toner, cleanser etc. I've used this for a little less than two months daily and have seen no visible difference. I'll continue to finish the bottle and hope for the best, but right now I'm disappointed.",
+   "date": "2023-11-09",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "normal",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jen RN",
+   "titre": "It works! But makes your skin very sensitive.",
+   "texte": "After a week of use, I am sold. I was looking at my face in the mirror this morning and had a quick moment of trying to remember if I took off my make up last night. My pores were so much smaller than normal/what I'm used to that I thought I still had a full face of make up on. I am hoping to see more improvement overtime. HOWEVER, I will say that this is very strong stuff and not made for sensitive skin. I just got done breastfeeding a couple of months ago and my hormones are all over the place. I've got a few spots with acne and it BURNS when I apply over the area. But if you look at the packaging, it DOES say to not apply to areas of irritated or broken skin. Another thing that happened was that I was laying on my crocheted blanket and I ended up having broken capillaries on my face in the pattern of the blanket. I feel like it had to do with the serum but it could be a coincident. Overall, I am happy with the product. It does what it says. I look better. And maybe I will use it every other day instead of every day.",
+   "date": "2025-05-26",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emigbay",
+   "titre": "Seems to work for large pores!",
+   "texte": "Been using this for just over 2 weeks, I put about 3 drops on every night before bed, and follow up with a gel moisturizer. I read about skin \"purging\" while starting glycolic acid, and I definitely experienced that. I broke out in several places as my skin was renewing cells and had to literally purge the gunk and dead skin. That lasted a week, and now seems to be done with. No reaction to every night use, skin seems softer and pores are smaller. Will continue using!",
+   "date": "2024-04-16",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "mbanks",
+   "titre": "Works well",
+   "texte": "Have been using for several months. My pores are smaller, and skin feels smoother. I have oily skin and this helps my face stay shine-free all day.",
+   "date": "2023-12-28",
+   "verifie": true,
+   "utiles": 7,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Madison A",
+   "titre": "Really happy with this product",
+   "texte": "My skin is really sensitive and I can't use glycolic acid toner, so I thought I'd give this a shot. I'm really happy with it! I use it at night followed by the confidence in a cream night moisturizer and my skin hasn't flared up at all. The pores aren't dramatically smaller but I do notice a small change. I'm trying to use it more regularly - I think consistency is key.",
+   "date": "2023-04-02",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dr Mike",
+   "titre": "Excellent Product",
+   "texte": "IT Bye Bye Pores was recommended to me by my adult daughter. I am a 65 year old male with a couple of skin autoimmune disorders. This product has worked wonders on my pores. It took ~4 weeks to begin to see changes. My daughter and I are very please with your product, we would highly recommend it.",
+   "date": "2023-09-14",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "TheMomofTwo7",
+   "titre": "Helped with acne",
+   "texte": "I've always had hormonal acne, but with pregnancy this product has been very helpful in reducing and preventing breakouts for me. I use 3 drops twice a day (after I wash my face) and it helped keep the breakouts to a minimum.",
+   "date": "2024-03-31",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

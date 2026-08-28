@@ -1,0 +1,156 @@
+{
+ "ref": "pimprod2046261",
+ "asin": null,
+ "pid": "pimprod2046261",
+ "source": "ulta",
+ "nom": "La Roche-Posay Travel Size Toleriane Double Repair Face Moisturizer UV SPF 30",
+ "note": 4,
+ "nbAvis": 17,
+ "lus": 11,
+ "collectes": 11,
+ "segments": {
+  "dry": "Reviewers with dry skin report the moisturizer leaves their skin soft, smooth and hydrated, including use on specific dry areas and during winter dryness.",
+  "sensitive": "One reviewer with sensitive skin found it gentle and suitable for daily use.",
+  "oily": "A reviewer with acne- and oil-prone skin reports it did not add greasiness and helped clear breakouts rather than worsening oiliness."
+ },
+ "concerns": {
+  "blemishes": "Reports are mixed: two reviewers say the product broke them out badly, one of them acne-prone and using it as a sunscreen for the first time; against this, an acne-prone reviewer reports it cleared her skin and another with dry acne-prone skin says it works well without breakouts.",
+  "dehydration": "Several reviewers, including one with dry skin, describe it as hydrating, leaving skin soft and smooth without dryness even in winter."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaves skin soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light or unnoticeable sunscreen smell",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable sunscreen scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "No white cast, wears well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels like a moisturizer rather than sunscreen",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Causes breakouts for some users",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes",
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Convenient travel size for testing",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Dage",
+   "titre": "I wanted to love this one",
+   "texte": "I love LA ROCHE-POSAY, but this one product just didn't do it for me. I wanted to incorporate more sunscreen into my skincare routine so I bought this one. It broke my face out so bad . i'll just stick to the double repair face moisturizer without sunscreen in it.",
+   "date": "2025-02-25",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Serenity",
+   "titre": "Not for me",
+   "texte": "So I made the mistake of not fully reading what it includes, I thought it was the actual moisturizer but it was actually sunscreen. Big mistake on my part. After the second time I used it was when I realized it. Broke me out a lot.",
+   "date": "2024-12-17",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "A",
+   "titre": "Solid product",
+   "texte": "Can't go wrong with La Roche products. Works well for my dry acne prone skin. Has a sunscreen smell, but personally love that scent.",
+   "date": "2025-06-08",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "",
+   "titre": "\"Hydration and Sun Protection in a Convenient Travel Size!\"",
+   "texte": "The Travel Size Toleriane Double Repair Face Moisturizer with UV SPF 30 is my new go-to for everyday skincare! It's lightweight yet incredibly hydrating, leaving my skin soft and smooth without feeling greasy. The added SPF 30 gives me peace of mind, knowing my skin is protected from the sun. I love how gentle it is on my sensitive skin, and the travel size makes it perfect for on-the-go. Whether at home or traveling, this moisturizer is a must-have for healthy, protected skin!",
+   "date": "2024-11-15",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "lysha",
+   "titre": "Amazing ⭐️⭐️⭐️⭐️⭐️",
+   "texte": "I've been searching for a good daily moisturizer for quite some time now. I was recommended so many different ones that all broke me out and were much more expensive than this little guy. I decided to try this one on a whim. These winter months were drying my skin out so bad and I just couldn't find the right one for my acne and oil prone skin. This stuff is amazing! Not only did it not break me out but it's actually cleared my skin up as well. I am so glad I tried this and I will definitely be buying another bottle. I've already almost finished my first one and I plan on making this a permanent purchase. I don't like to say something is a \"holy grail\" product because formulas can always change, but this is the closest product to a holy grail solution I've ever found for my skin! Just buy it, you won't regret it one bit. The travel size is perfect to test out, but I'm sure you'll end up using it all like I did.",
+   "date": "2025-03-10",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Penny",
+   "titre": "great spf moisturizer",
+   "texte": "I really like this SPF moisturizer. It doesn't leave a white cast or pilling and I can wear it underneath my makeup. This is the only moisturizer with spf that I have found that does not dry out my face and keeps my face hydrated all day. The smell of sunscreen is very light to me.",
+   "date": "2026-08-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yaretzi",
+   "titre": "Amazing product",
+   "texte": "Such an amazing product, i love using it for my dry skin areas",
+   "date": "2026-08-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

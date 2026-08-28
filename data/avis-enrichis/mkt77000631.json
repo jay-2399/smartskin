@@ -1,0 +1,157 @@
+{
+ "ref": "mkt77000631",
+ "asin": null,
+ "pid": "mkt77000631",
+ "source": "ulta",
+ "nom": "Seoul Ceuticals Korean Skin Care Ultra Glow Turmeric Face Wash",
+ "note": 4.79,
+ "nbAvis": 52,
+ "lus": 20,
+ "collectes": 20,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers report the wash did not trigger new breakouts and left skin bright and clear, though one found the general product line too basic to judge specifically.",
+  "dry": "One reviewer with dry skin describes it leaving skin very soft with a little product going a long way, while another reviewer with unspecified dry skin found it dried skin out and was not worth the cost.",
+  "mature": "Mature-skin reviewers (50s, sun damage) report smoother, softer skin, fading dark spots, blurring fine lines, and lightening of a sun-damage spot without peeling."
+ },
+ "concerns": {
+  "aging": "Reviewers describe fine lines blurring, dark spots fading, a sun-damage spot lightening, and skin looking and feeling tighter after a few weeks of use.",
+  "dehydration": "Most reviewers describe skin as soft, smooth and hydrated after washing with no residue; one reviewer states it dries the skin a lot and is not worth the cost.",
+  "spots": "Reviewers report fading dark spots and lightening of a sun-damage area over a few weeks of use.",
+  "blemishes": "Reviewers describe cleared-up pimples, faded acne scars and no new breakouts, including on sensitive skin; one reviewer states the product did nothing for her skin at all."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaves no residue after rinsing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Soft, smooth skin feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small, travel-size bottle for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Doubts about review authenticity",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fresh, non-soapy scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dish-soap-like smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin-tightening sensation after washing",
+   "polarite": "pos",
+   "concerne": [
+    "aging"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Nunu79",
+   "titre": "Don't buy! Fake reviews! Awful!",
+   "texte": "I purchased this doing Black Friday sales 2025. Its tiny in size, like travel size. I truly believe the reviews are not real people, or either the brand posting them. I only saw one other review that said this is just a basic cleanser, and I agree. It's February 2026, I've had time to use this, and it's has done nothing to my skin. No glow, no improvement at all. I should've returned it. I am currently looking for something way better. Dont get all caught up with the korean regime, because this cleanser sucks. I believe its just a very cheap sud, with a descriptive label. This is bs! Smells like dish soap to me. Please save your money! If you don't believe me, buy it. You will be wasting your money.",
+   "date": "2026-02-18",
+   "verifie": false,
+   "utiles": 20,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "ChristelleA",
+   "titre": "Random soap",
+   "texte": "Just a liquid soap dries the skin a lot. Definitely not worth the cost",
+   "date": "2023-10-10",
+   "verifie": true,
+   "utiles": 6,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "YelinetteOrtiz",
+   "titre": "Didn't break out my skin",
+   "texte": "I don't normally write reviews, but ever since I started using this product i have definitely seen my skin clear up and look brighter and clearer. My sensitive skin didnt break out more and it seemed to have cleared up my pimples that were already there. I will definitely be buying more of this and possibly looking into the other products.",
+   "date": "2022-07-08",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JuanitaC.Cooney",
+   "titre": "Works",
+   "texte": "I wanted to give this time to work before I wrote my review. I am 53 with moderate sun damage. You know the spot, left side of face, where the sun shines in on you when you are driving....well, it really is lightening. I don't get the feeling that it is going to peel off tho. I'love take it!!!",
+   "date": "2022-07-08",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "TinaR.Ledesma",
+   "titre": "Outstanding face wash for Mature Skin",
+   "texte": "After using this product for a few weeks I can honestly see and feel a definite improvement in my face and neck. First of all it is much softer and smoother, but best of all is that little line are blurring and dark spots are fading away. highly recommend!",
+   "date": "2022-07-08",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "RebekahCollins",
+   "titre": "Holly Grail!",
+   "texte": "This product has changed the texture, acne scars and any future acne breakouts that I've had for years with one bottle! This is definitely a must have!",
+   "date": "2022-07-08",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MAK",
+   "titre": "Will buy this item as long as they produce it",
+   "texte": "One of my favorite buys here on their webiste ever! Lives my skin feeling so soft. Also use it on my dry skin. A. Little goes a long way",
+   "date": "2022-07-08",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

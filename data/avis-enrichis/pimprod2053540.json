@@ -1,0 +1,175 @@
+{
+ "ref": "pimprod2053540",
+ "asin": null,
+ "pid": "pimprod2053540",
+ "source": "ulta",
+ "nom": "medicube PDRN Pink Collagen Gel Mask",
+ "note": 3.56,
+ "nbAvis": 88,
+ "lus": 78,
+ "collectes": 80,
+ "segments": {
+  "sensitive": "Reports are sharply split: several sensitive-skin reviewers say the mask caused rashes, hives, chemical-burn-like redness, or peeling, while a similar number of self-identified sensitive-skin users report no reaction at all and call it their holy grail.",
+  "dry": "Dry-skin (and dry-and-sensitive) reviewers describe strong hydration and a soft, plumped feel, though some also report peeling and worsened dryness after a reaction.",
+  "combination": "A combination-skin reviewer (44yrs old) reports glowing skin and good makeup wear after use.",
+  "oily": "One reviewer with oily, slightly textured skin reports increased elasticity and moisture without oily residue, though skin felt dry to the touch afterward.",
+  "normal": "A normal-skin reviewer reports a severe allergic-type reaction (itchy red rash, welts) despite never reacting to masks before.",
+  "mature": "No dedicated mature-skin commentary beyond a 44-year-old combination-skin reviewer praising the glow."
+ },
+ "concerns": {
+  "aging": "One reviewer references fine lines and reports the mask makes her face look glowy, but gives no concrete change in lines themselves.",
+  "dehydration": "Many reviewers across skin types report strong, immediate hydration and a plumped, glass-skin look lasting up to a day or two; a minority instead report the mask left skin dry, peeling, and worse than before.",
+  "redness": "Numerous reviewers report new redness, burn-like marks, or a rash-shaped mark matching the mask after use, sometimes lasting several days; other reviewers, including some with sensitive skin, report no redness at all.",
+  "barrier": "Several reviewers describe a damaged or 'ruined' moisture barrier with dryness and peeling after use, while one reviewer credits the mask with helping repair a damaged barrier and dark spots.",
+  "spots": "One reviewer reports the mask helped with dark spots and pores; this is not echoed elsewhere in the reviews.",
+  "blemishes": "Reports conflict: several reviewers describe new breakouts, cystic-like bumps, or hives after use, while others with acne-prone or breakout-prone skin report clearer, calmer skin, including one reviewer with rosacea and acne-prone skin who reports cleared acne.",
+  "oiliness": "One reviewer with oily skin reports the mask adds moisture and glow without oily residue."
+ },
+ "aspects": [
+  {
+   "libelle": "Severe reactions: burns, rash, hives",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "libelle": "Glass-skin glow after use",
+   "polarite": "pos",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "Mask slides or does not fit face",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Tears easily, poor material quality",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance triggers irritation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "redness"
+   ]
+  },
+  {
+   "libelle": "Luxurious, cooling feel on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to results",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "adriana",
+   "titre": "irritating to sensitive skin",
+   "texte": "Giving 3 stars because I think it would be good for people without sensitive skin. At first when taking off the mask my skin looked and felt refreshed and hydrated. However, over the next couple days I got a dry, raised, red rash in the shape of the mask all over my face. It was worst on my cheeks where the two halves had overlapped. I noticed in ingredients there is added fragrance which is what I believe caused the irritation in my case.",
+   "date": "2026-03-16",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Clara",
+   "titre": "I'm so impressed!!",
+   "texte": "I never leave reviews, but this deserves one. Only after one use I noticed a DRASTIC difference in my skin. It cleared my acne and made my skin glow like never before. I use the pore pads along with the masks and its exacrly what my skin was looking for. I have really sensitive and acne prone skin with rosacea, for context.",
+   "date": "2025-11-10",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "London",
+   "titre": "Love this facemask",
+   "texte": "I have very sensitive skin and this is my go to face mask. I sleep in it overnight and use it the day after microneedling to calm down inflammation. It's literally my holy grail I would definitely recommend",
+   "date": "2026-06-18",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Chloe",
+   "titre": "A little spa pampering at home!",
+   "texte": "I absolutely love this mask. Love that it adds moisture and glow without leaving oily residue. I have oily, slightly textured skin with a dew blemishes. After one use i saw the difference in the elasticity and texture of my skin. It adds so much moisture and glow to the face but leaves the skin dry to the touch. Ive never had a product do that. ESPECIALLY a sheet mask. You will not regret buying.",
+   "date": "2025-11-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "WK",
+   "titre": "LOVE this",
+   "texte": "Have re-purchased this several times. I love how it feels on my skin and the look after. It gives a lovely glowy look. Works really well on my sensitive and dry skin! Extra love for the fact that this mask doesn't have to sit on your face up to 5-7 hours!",
+   "date": "2026-01-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Shannon",
+   "titre": "do NOT recommend - caused chemical burns",
+   "texte": "DO NOT USE THESE. Bought them last week and used one at night, as directed. Woke up with redness on my cheeks, around my nose, mouth and chin - turns out they were CHEMICAL BURNS from these masks. Spots were super tender so I only applied moisturizer after and a few hours later, all spots were super dry with flaky skin. I did not have dry skin prior to using this mask, nor did I use any products that would counteract with the masks (I triple checked ingredients). This was 4 days ago and the burns have not gone away, the dryness is even worse (even with moisturizer multiple times a day) and I now have deep, painful acne along my jaw - sometime I have not suffered from in over 5 years. Read many other reviews about these masks and many user report the same thing. Disappointing, hoping my skin heals soon and I will be bringing these back for a refund ASAP.",
+   "date": "2026-02-24",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Taija",
+   "titre": "So surprised!",
+   "texte": "I didnt want to believe this works but it really helped my dark spots and pores. I fell asleep with the mask on and woke up to changed skin. Id definitely recommend this product if you have a damaged barrier like i did!",
+   "date": "2025-12-09",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

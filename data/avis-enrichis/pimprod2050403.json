@@ -1,0 +1,169 @@
+{
+ "ref": "pimprod2050403",
+ "asin": null,
+ "pid": "pimprod2050403",
+ "source": "ulta",
+ "nom": "Good Molecules Yuzu Blemish Gel Cream",
+ "note": 4.38,
+ "nbAvis": 114,
+ "lus": 80,
+ "collectes": 90,
+ "segments": {
+  "oily": "Reviewers with oily skin generally describe the gel as lightweight and non-greasy, with several saying it did not add oiliness through the day, though one long-time BHA-formula user felt the new version no longer controlled her T-zone oil.",
+  "dry": "Reviewers with dry skin are split: some find it hydrating enough despite dryness, while others report it feels drying, tight, or leaves skin feeling dry after application.",
+  "sensitive": "Sensitive-skin reviewers most often report no irritation and good tolerance including for acne-prone sensitive skin, but a minority describe burning, itching, redness, or breakouts, and some warn it should be used as a spot treatment only to avoid stinging.",
+  "combination": "The one review naming combination skin describes it as gentle care without heavy moisture that helped fade small pimples.",
+  "mature": "A reviewer using it for middle-age hormonal breakouts reports it succeeded where more publicized treatments had failed."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers note the product needs a moisturizer layered on top since it targets blemishes more than hydration, and some describe outright dryness or tightness, while others (including a dry-skin reviewer) call it hydrating enough on its own.",
+  "redness": "Multiple reviewers report redness or bumps fading within one to two days of use, but a few describe the product itself triggering bright redness, burning heat, or an allergic-looking reaction on application.",
+  "barrier": "A few reviewers caution to pair it with a good moisturizer to avoid breaking the skin barrier or overusing it to the point of dryness, while most report no barrier issues.",
+  "spots": "Reviewers report dark spots and acne marks fading or lightening with continued use, describing it as effective though not instant.",
+  "blemishes": "Most reviewers report blemishes, closed comedones, blackheads, and cystic-adjacent bumps clearing within days to weeks, often citing salicylic acid as the reason it works; however, a notable minority report the opposite — new breakouts, worsened acne, or no improvement at all, several explicitly contrasting it unfavorably with the discontinued BHA Clarifying Gel Cream.",
+  "oiliness": "Some oily-skin reviewers say it keeps oily areas less oily and doesn't add shine, but one reviewer switching from the original BHA formula says it no longer keeps her T-zone from getting oily."
+ },
+ "aspects": [
+  {
+   "libelle": "Breakouts triggered by the product",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive",
+    "blemishes"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing gel texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Yuzu scent pleasant and mild",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Chemical or lysol-like smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Needs extra moisturizer layered on top",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  },
+  {
+   "libelle": "New formula seen as inferior to original BHA cream",
+   "polarite": "neg",
+   "concerne": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "libelle": "Good value, product lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "kal",
+   "titre": "wanted to love this",
+   "texte": "this is a really good affordable moisturizer for people with oily skin. it feels good on the skin, smells good, and is lightweight. this did not make me oily throughout the day. unfortunately, it gave me big zits on my face :( every time i used it it gave me a big zit. i tried to make it work but it truly gave me a zit every time. i have really sensitive skin so maybe the yuzu was too much!",
+   "date": "2025-05-29",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tay",
+   "titre": "Great overall for your skin",
+   "texte": "Having very sensative skin, I use this on the areas where I have hormonal acne and it works so well! I was nervous about switching to this product from the previous acne cream I was using because it worked but this one works even better and its great for nightly use! I made the switch for the love of the brand and Good Molecules did not fail me, I love this brand and always will!!!",
+   "date": "2025-12-29",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sami",
+   "titre": "Amazing!",
+   "texte": "I have sensitive/acne prone skin so typically nee products tend to break me out, but this has not! Im on my second tube and love it - use it morning and night, extra moisturizer on top when needed, overall it has sinplified my routine and my skin is clearing up. Wish i could buy it in a bigger size!",
+   "date": "2025-06-09",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Meg",
+   "titre": "Great for sensitive skin",
+   "texte": "I have has no luck finding products that didnt burn my skin before trying this brand. First day using this my redness and bumps on my face went away. Second day they were complely gone! My skin looks great and its even helped get rid of my stubborn white heads",
+   "date": "2025-12-18",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katrina D.",
+   "titre": "Clearer Skin in a Light, Fresh Gel!",
+   "texte": "I tried the Good Molecules Yuzu Blemish Gel Cream to help with my breakouts and uneven skin tone, and it really impressed me. The gel feels cool and light on my skin, sinking in fast without any stickiness. After a week, my small pimples started to fade, and my skin looked calmer and smoother. It's perfect for oily or combination skin that needs gentle care without heavy moisture.",
+   "date": "2025-10-08",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "JJ",
+   "titre": "Doesn't hold up to the original",
+   "texte": "The BHA Clarifying Gel Cream was a holy grail product for me and to say I was apprehensive about this formula change is an understatement. I went in with high hopes but this product hasn't been effective in any way. The BHA cream kept my t-zone from getting oily throughout the day, unfortunately I cannot say the same for this yuzu formula as my glasses are sliding down the oily bridge of my nose as I type this. It also causes my setting powder to settle into my pores emphasizing each one in a way that is equally amazing and horrifying. As for clearing blemishes, it seems to be completely uneffective. The BHA cream would clear up my stubborn pms breakouts in a few days, I'm going on two weeks of daily use trying to clear my face. Needless to say I won't be repurchasing this produc and have already started hunting for an alternative to my beloved BHA gel cream.",
+   "date": "2025-06-09",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Maddy",
+   "titre": "Loveee this when my skin breaks out",
+   "texte": "I really like the new formula on this! I have dry skin, so i dont use this everyday, but i love using this when i feel like my skin is clogged or im breaking out. It also helps me to prevent breakouts. Super great product!",
+   "date": "2025-04-29",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

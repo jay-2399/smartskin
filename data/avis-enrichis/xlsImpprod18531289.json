@@ -1,0 +1,168 @@
+{
+ "ref": "xlsImpprod18531289",
+ "asin": null,
+ "pid": "xlsImpprod18531289",
+ "source": "ulta",
+ "nom": "Dermalogica Clear Start Blackhead Clearing Fizz Mask",
+ "note": 4.24,
+ "nbAvis": 1055,
+ "lus": 79,
+ "collectes": 144,
+ "segments": {
+  "oily": "One reviewer with oily/combination skin says it clears small breakouts within days when paired with a spot patch.",
+  "sensitive": "Sensitive-skin reviewers are split: some say it does not irritate and even calms rosacea flare-ups, while one with skin that is 'not typically sensitive' reports a chemical burn a few hours after use.",
+  "combination": "A combination-skin reviewer (also a barber testing it on clients) says it clears the T-zone and helps prevent breakouts.",
+  "mature": "Reviewers in their 50s and 60s report blackheads finally clearing after years of failed products, with one noting she also manages slight rosacea alongside blackheads.",
+  "normal": "A reviewer describing her skin as already 'good' and not seriously congested still found the mask pleasant and mildly effective on light blackheads."
+ },
+ "concerns": {
+  "aging": "Older reviewers (50s–60s) report blackheads improving or nearly disappearing after persistent use, describing it as finally working where other products failed.",
+  "dehydration": "Several reviewers report the mask is drying, especially on already-dry areas, while a few others say it does not dry out skin at all; results are inconsistent.",
+  "redness": "Two reviewers with rosacea report the mask calms flare-ups and keeps skin clear without irritation, but one non-sensitive reviewer describes a chemical burn and another got irritation after product entered a nose-ring hole.",
+  "barrier": "One reviewer specifically avoided over-application because the product is drying, using it only on targeted congested areas to protect skin from over-drying.",
+  "spots": "Multiple reviewers say the mask helps clear or prevent breakouts, including cystic acne on the jawline and pregnancy-related acne, though one reports new breakouts and increased picking after use.",
+  "blemishes": "Reviewers frequently report visibly fewer blackheads and clearer pores after repeated use, though a notable minority (including 1–3 star reviews) say they saw no improvement at all.",
+  "oiliness": "One reviewer reports reduced oiliness in some areas after first use, alongside dryness in already-dry areas."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong sulfur smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fizzing tingling sensation fun",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fizzing sensation uncomfortable or ticklish",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Leaves skin feeling soft and clean",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser and unclear product amount",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value given small amount needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Smell lingers after rinsing",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "giiiiiigi",
+   "titre": "Wanted to love this product!",
+   "texte": "When I first used it, I was very impressed by what seemed to be quick results. A few hours after using it, I have a TERRIBLE chemical burn? only on the areas I used it. Proceed with caution if you're going to use. I typically do not have sensitive skin.",
+   "date": "2023-01-14",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jamie",
+   "titre": "Good for rosacea too!",
+   "texte": "I have type 2 rosacea and I use use this mask 2 times a week. It helps to calm any flair ups and keeps my skin clear for the most part. It also helps to keep congestion under control and does not irritate my sensitive skin. Rosacea is such a hard condition to manage and this product was a great find.",
+   "date": "2024-08-30",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Morgan",
+   "titre": "THE BEST",
+   "texte": "This stuff saved my skin. I consistently use it three times a week and I noticed results after about two weeks. It improved my texture and rosacea as well as cleared my pores and prevented future breakouts. Yes, the scent is strong and unpleasant. But you get used to it over time and it's worth the sacrifice for the results. This product is a permanent part of my skin care routine now!",
+   "date": "2024-07-04",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jamie",
+   "titre": "Little gem",
+   "texte": "Apply this to my jaw line for cystic acne and it's really made a difference in combination with my other products. Have to be careful to only use in targeted locations as it is drying. Helps clear breakouts and keep pores clean.",
+   "date": "2023-11-19",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Monica A.",
+   "titre": "Great product",
+   "texte": "I'm 50 and have slight rosacea, so I have to be careful what I use. But I get little pimples/blackheads on my nose. This product really seems to work, while being gentle at he same time. I use it a couple times a week and it seems to keep the problems at bay. Will definitely purchase again!",
+   "date": "2023-09-25",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "lozza",
+   "titre": "i like it !!",
+   "texte": "i have oily / combination skin and anytime i have a small break out i use this and the deep acme liquid patch and its gone within a couple days :)",
+   "date": "2024-08-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Lenee",
+   "titre": "Not sure how I feel",
+   "texte": "I purchased to assist with the random blackheads I get on my cheeks. First use dried out my dry areas and reduced oilyness in otheres. Still end up picking at my skin and has a few acne breakouts. Just tried it again and my face itches. I don't like the packaging: not knowing how much is in the bottle and the amount of product per pump makes me not want to use it. I'm not a fan of the fizz but once it stops I wash it off.",
+   "date": "2023-02-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

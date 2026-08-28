@@ -1,0 +1,166 @@
+{
+ "ref": "pimprod2022888",
+ "asin": null,
+ "pid": "pimprod2022888",
+ "source": "ulta",
+ "nom": "Origins Plantscription Multi-Powered Youth Serum",
+ "note": 4.58,
+ "nbAvis": 4685,
+ "lus": 80,
+ "collectes": 116,
+ "segments": {
+  "oily": "One reviewer with oily, acne-prone, hyperpigmented skin reported clearer, lighter spots and no negative reaction; another with combined oily/dry/combo skin reported no breakouts from a small sample.",
+  "dry": "A reviewer describing her skin only as drying after a reformulation felt the new version watery and no longer nourishing, contrasting with other reports of good hydration.",
+  "combination": "Reviewers with combination skin describe the serum as a lightweight gel that absorbs quickly and provides adequate moisture without noticing change in fine lines.",
+  "sensitive": "Several reviewers describing their skin as sensitive or reactive report no irritation or redness and good hydration, though one reactive-skin user noted initial redness, tingling and slight breakout that resolved.",
+  "mature": "Reviewers identifying as mature-skinned (including a 70-year-old and a 40s reviewer) report softer, smoother, less dry-looking skin and reduced fine lines with continued use."
+ },
+ "concerns": {
+  "aging": "Most reviewers focused on aging report visibly reduced fine lines, smoother texture and a plumper, dewier look, some after only a week; a minority (including one long-time buyer) saw no reduction in lines or wrinkles despite liking the texture.",
+  "dehydration": "Reviewers concerned with dryness/dehydration mostly describe the serum as hydrating, plumping and moisturizing without heaviness; one reviewer after a reformulation found it drying and watery instead of nourishing.",
+  "redness": "One sensitive/reactive-skin reviewer reported initial redness and tingling that subsided with continued use; another with sensitive/allergic skin reported no reaction at all.",
+  "barrier": "No reviewer specifically discusses barrier repair beyond general hydration and softness reports.",
+  "spots": "One reviewer with hyperpigmentation-prone skin reported the serum helped lighten spots and clear her skin.",
+  "blemishes": "Most reviewers who mention breakouts report none occurring, describing no clogged pores or new blemishes; one reviewer noted the serum caused slight breakouts when applied around the mouth.",
+  "oiliness": "Reviewers do not describe the serum as greasy or heavy, and several with oily or combination skin specifically note it does not feel oily or leave residue."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Not greasy or sticky feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance disliked or seen as strong",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Reformulation seen as worse than before",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Packaging downgrade and broken pump",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to bottle size",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "GG skin",
+   "titre": "No longer a good product",
+   "texte": "As many other skincare companies Origings has change its formula for the worst. Not only have they significantly cheapen it's packaging (replaced the old luxury and well functioning bottle with a cheap one that beaaks easily and does not dispense well) but also the serum feels drying and watery without the nourishing and plumping feel it used to give to my skin. I have been a loyal customer of origins for years and all their formulas are now junk! Sad! Please, save your money and skin, Origins is not what it used to be :(",
+   "date": "2026-01-03",
+   "verifie": false,
+   "utiles": 22,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Cswt1976",
+   "titre": "Lightweight moisture",
+   "texte": "I have been using this serum every night on clean skin before bedtime for the past few weeks. It is a very lightweight gel that absorbs into my combination skin quickly and easily. I only need to use a small dab of it on each section of my face. It has a strong botanical type of smell to it while I'm applying it, but the smell dissipates quickly. I like that it feels very lightweight on my skin and it provides just the right amount of moisture for my skin type. I really haven't noticed any reduction in my fine lines and wrinkles while using this serum, but I also haven't noticed any negative changes to my skin. My face feels soft and smooth. Overall, I would say this is an enjoyable serum to use, but don't expect dramatic anti-aging results",
+   "date": "2022-07-31",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Rocksand1979",
+   "titre": "Not sure",
+   "texte": "Honestly I'm not sure what to make of it. I just received a very small sample. It did not make my face break out. I have oily, dry, combo skin.",
+   "date": "2022-08-13",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Rose60",
+   "titre": "Super Serum",
+   "texte": "I tried Plantscription Multi Powered Youth Serum as a free sample from PopSugar Dabble. It worked well on my fine lines around my eyes. It made me break out a little when I used it on the lines around my mouth. Overall I liked the product. It made my skin soft, and hydrated.",
+   "date": "2022-08-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Oksana",
+   "titre": "Best one for me",
+   "texte": "Best one for my skin, using it over 4 years, so per sensitive and allergic almost to everything. For this one no reaction at all, feel super light. Amazing for my skin",
+   "date": "2024-02-23",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jelemo",
+   "titre": "Amazing serum !",
+   "texte": "Completely change my skin ! I have acne prone skin , oily , hyperpigmentation skin. This serum twice a day really helped lighten my spots. It made my skin look much clearer!",
+   "date": "2025-01-06",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nic0517",
+   "titre": "I will buy this product again and again",
+   "texte": "Finally a serum that I can use on my extremely sensitive and at times reactive skin. This serum does not irritate my skin at all or leave any readiness. I can use it twice a day and my skin is hydrated and glowing! I have seen a difference in the texture as well as tone of my skin. After a few weeks I have noticed some of my fine lines have minimized. I am so pleased that I can use a skincare product geared towards aging skin.",
+   "date": "2026-03-21",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

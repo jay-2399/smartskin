@@ -1,0 +1,165 @@
+{
+ "ref": "pimprod2033306",
+ "asin": null,
+ "pid": "pimprod2033306",
+ "source": "ulta",
+ "nom": "Peach Slices Redness Relief Azelaic Acid Serum",
+ "note": 4.08,
+ "nbAvis": 407,
+ "lus": 81,
+ "collectes": 114,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone skin describe the serum as lightweight enough for daytime wear despite being somewhat rich for a serum, and report it helping with breakouts and texture.",
+  "dry": "Reviewers with dry skin report both improvement (redness and cracked skin healing) and worsening dryness/tightness that they say requires layering a moisturizer on top.",
+  "combination": "Reviewers with combination skin describe the texture as neither drying nor oily and report reduced breakouts and clearer, smoother skin.",
+  "sensitive": "Sensitive-skin reviewers are the most divided group: several report burning, stinging, rashes, and one describes lasting barrier damage, while others with sensitive/reactive skin say it was gentle, calming, and non-drying once introduced slowly.",
+  "mature": "One reviewer in her 40s with dry, red skin reports a significant, immediate reduction in redness but says a moisturizer is needed on top to prevent dryness."
+ },
+ "concerns": {
+  "dehydration": "Several reviewers say the product dries out their skin or increases tightness later in the day if not paired with a moisturizer, while others with dry skin report it healed cracked, dry patches; net effect is inconsistent and moisturizer-dependent.",
+  "redness": "Most reviewers who specifically target redness, including many self-identified rosacea sufferers, report visible calming within days to weeks; a notable minority (including some with rosacea) say it did nothing for their redness or made it temporarily worse.",
+  "barrier": "Two reviewers report the product actively repaired a damaged skin barrier (after harsh cleansers or dermatitis); one reviewer reports the opposite, describing new barrier damage with welts and lasting texture change after use.",
+  "spots": "Numerous reviewers with acne, hormonal breakouts, or PCOS-related acne report fewer breakouts, faded post-acne marks, and reduced pustules/papules over weeks; a few report new breakouts, blackheads, or a purge period lasting 7–10 days.",
+  "blemishes": "Many reviewers report fading of post-acne red/dark marks and scarring within one to several weeks; one reviewer saw no change to active acne but noticed marks fading later, and one reviewer reports the product worsened her pimples.",
+  "oiliness": "Reviewers with oily skin do not report increased oiliness; one specifically notes the formula is heavier than a typical serum but still wearable in daytime."
+ },
+ "aspects": [
+  {
+   "libelle": "Burning or stinging on application",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills under moisturizer or makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, non-greasy, silky feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value versus other azelaic acid brands",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Basic, non-eco-friendly plastic packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small tube runs out quickly with twice-daily use",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "JH",
+   "titre": "I wouldn't recommend to ppl with sensitive skin!",
+   "texte": "Typically I'm not a review writer but this product genuinely damamged my skin barrier like none other. I've only ever had my skin barrier damanged one other time by a cleanser I was trying out but that was not nearly as awful as this treatment. I started with it in the P.M. and then the following morning used it in the A.M. I have never witnessed my face get so mad and irritated by one product. It made my face turn red and get weltish looking dots around the entirety of my face. It took about an hour to finally calm down but since then, my skin texture hasn't been the same. It is very clear how damaged my skin barrier is by touch. The other time this happened to me my barrier healed after about 2 weeks and my skin was back to normal. I'm just hoping that is the same with this situation and that I didn't permanently damage it. Mind you, I should have done more research on this product especially knowing I have very sensitive skin. That is completely my wrong doing. I'm sure this works for many, just not my skin type! Figured I would write this to give us sensitive skin types a fair warning.",
+   "date": "2025-03-24",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Caitlin",
+   "titre": "Noticeable improvement in redness",
+   "texte": "For context, I am 43 and have extremely dry skin that is constantly red. This product made a significant and immediate improvement in redness. My only criticism is that you definitely need to use a moisturizer on top, otherwise it will dry out your face.",
+   "date": "2025-08-14",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Meg",
+   "titre": "Only Azelaic acid that has worked for me",
+   "texte": "I have tried all of the recommended azelaic acids for my skin. I have rosacea and very reactive skin and this seems to calm my skin. Every one I have tried has irritated me and has not worked. Highly recommend.",
+   "date": "2026-01-29",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Argyro",
+   "titre": "A MUST HAVE!",
+   "texte": "An absolutely fantastic product that does exactly what it says and more. Very pleasant texture that spreads and absorbs easily. I had no new breakouts since started using this, it's been over a month now AND I had my period in the meantime! My acne marks are fading fast, my skin is smoother and appears brighter, I can even go out makeup-free nowdays!!! I have combo skin, but I imagine it's suitable for all skin types since its texture is not drying nor oily. Definitely worth the money and I will repurchase soon ;)",
+   "date": "2024-09-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "J",
+   "titre": "HG status",
+   "texte": "This is the only azelaic acid I've ever used and I am on my second one. I love this stuff. It really is calming and helps my skin so much with breakouts, scars, and dermatitis. The only thing is its on thr heavy side for a serum IMO but I also have oily skin. It is still lightweight enough to wear in the day but I prefer using it at night just in case. Overall, this is a great and effective serum and one of my HGs.",
+   "date": "2025-01-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lani",
+   "titre": "A must for perioral dermatitis!!!",
+   "texte": "A STAPLE! If I could only choose 1 skincare item I NEED, it might be this!!! I'm 41, & my skin is on the dry side, some hormonal ancne and it's suuuuper sensitive/reactive/allergies. I get flare-ups of perioral dermatitis & I heard azelaic acid might help with that so I went on the hunt for the perfect azelaic product! The ordinary one is fine but there's nothing extra. Then I got this gem. And man o man! I trained my skin to tolerate azelaic am/pm & I add a little glycolic/mandelic in the eve. But this is soooo soothing! I wish I had started with this one… the green color offers no redness correction, but it's seriously the best I've tried (I even tried Paula's Choice but my skin didn't like the salicylic in there)! AND I HAVENT HAD A PERIORAL DERMATITIS FLARE UP THIS YEAR! Coincidence? I think not!",
+   "date": "2024-06-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Christy",
+   "titre": "was hoping for better results",
+   "texte": "My Dermatologist prescribed me 15% azeleic acid cream for dry patches on my face. My script ran out and I haven't seen him in years. I've since tried some otc versions at 12% and 10%. I was hoping this would help with the dryness and redness. It isn't doing anything for redness, which I'm not surprised. I'm still getting dryness in certain areas late afternoon and upon waking.",
+   "date": "2025-04-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,149 @@
+{
+ "ref": "pimprod2057308",
+ "asin": null,
+ "pid": "pimprod2057308",
+ "source": "ulta",
+ "nom": "medicube Kojic Acid Turmeric Pad",
+ "note": 3.78,
+ "nbAvis": 9,
+ "lus": 7,
+ "collectes": 7,
+ "segments": {
+  "mature": "One reviewer, 41 and dealing with hormonal acne, reports calmer skin and a more even tone after two days of use.",
+  "sensitive": "One reviewer with hormonal acne describes redness that hurt being calmed after using the pads twice daily."
+ },
+ "concerns": {
+  "spots": "Reports are mixed: two reviewers say dark spots faded, one within a week and nearly gone after a month, while two others report no visible change in their dark spots or scars after weeks of use.",
+  "blemishes": "One reviewer with hormonal acne on the cheeks reports calming of active breakouts and reduced redness; another reviewer using it for acne scars reports no breakout issues from the product itself but also no scar improvement.",
+  "oiliness": "One reviewer reports the pads leave her face very oily throughout the night.",
+  "redness": "One reviewer describes painful redness from hormonal acne being calmed after starting use.",
+  "aging": "No reviewer reports on aging-specific effects such as fine lines or firmness beyond one mature reviewer's general skin-calming and brightening results.",
+  "barrier": "No reviewer reports on barrier-specific effects like irritation or compromised skin.",
+  "dehydration": "No reviewer reports on hydration or dryness outcomes from this product."
+ },
+ "aspects": [
+  {
+   "libelle": "Brightens and evens tone",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Improves texture under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves oily residue overnight",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Mild strength, does not break out skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight stale smell that fades quickly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Doubles as toning, tightening pad",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Value questioned versus cheaper alternatives",
+   "polarite": "neg",
+   "concerne": [
+    "spots"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Ella",
+   "titre": "Save your money",
+   "texte": "this did absoluetly nothing for my dark sports if your looking for an AFFORDALE dark spot face pad the pacifica face pads are more affordable and actually help.",
+   "date": "2026-04-07",
+   "verifie": false,
+   "utiles": 71,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Itzel",
+   "titre": "Leaves my skin oily throughout the night",
+   "texte": "I wanted to give this guy a shot for my dark acne scars but it just leaves my face VERY oily throughout the night. I honeslty havent noticed a difference in my dark spots.",
+   "date": "2026-08-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "MakeupLoves",
+   "titre": "Mehh",
+   "texte": "Ive been using these eveeyday for about a month and I am not seeing any difference in my dark spots, but I notice a significsnt difference in my texture for under makeup. Strong enough to get all the dry skin off, but not eonstrong that it breaks me out like other glycolic acids. I recommend if you struggle with texture for sure!",
+   "date": "2026-04-09",
+   "verifie": false,
+   "utiles": 40,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Des",
+   "titre": "Great for dark spots!",
+   "texte": "Started using these to combat dark spots ill get after a hormonal breakout or by plucking chin hairs and i swear this works like magic! Started seeing the fading of dark spots after a week. Ive been using for a month and theyre almost gone!",
+   "date": "2026-04-03",
+   "verifie": false,
+   "utiles": 25,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lovey",
+   "titre": "Day 2 and in love!",
+   "texte": "41 and dealing with hormonal acne on my cheeks. Red that hurts. These helped already calm my entire face and look great. I use twice, morning and before bed. Already see results of even toned skin and my acne calming. Using in combination with Medicube PDRN pink collagen capsule cream.",
+   "date": "2026-03-25",
+   "verifie": false,
+   "utiles": 26,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brenna",
+   "titre": "Easy brightening solution!",
+   "texte": "Surprisingly very brightening! Noticed a difference overnight. Smell a little stale but that's no problem, it goes away very quickly.",
+   "date": "2026-04-07",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": "With only nine reviews and just one or two mentions per skin type or concern, these readings are indicative rather than conclusive."
+}
