@@ -1,0 +1,289 @@
+{
+ "artboards": [
+  {
+   "file": "Main.dc.html",
+   "x": 0,
+   "y": 0,
+   "w": 390,
+   "h": 844,
+   "title": "1 · Fork pré-reveal"
+  },
+  {
+   "file": "CameraScan.dc.html",
+   "x": 1410,
+   "y": 0,
+   "w": 390,
+   "h": 850,
+   "title": "15 · Caméra — scan produit"
+  },
+  {
+   "file": "Analyzing.dc.html",
+   "x": 1880,
+   "y": 0,
+   "w": 390,
+   "h": 850,
+   "title": "16 · Confirmation produit (HUD)"
+  },
+  {
+   "file": "WhichOne.dc.html",
+   "x": 2350,
+   "y": 0,
+   "w": 390,
+   "h": 850,
+   "title": "17 · Which one is it?"
+  },
+  {
+   "file": "ResultatGratuit.dc.html",
+   "x": 470,
+   "y": 0,
+   "w": 390,
+   "h": 1590,
+   "title": "2 · Résultat gratuit"
+  },
+  {
+   "file": "DoubleScore.dc.html",
+   "x": 940,
+   "y": 0,
+   "w": 390,
+   "h": 2020,
+   "title": "3 · Résultat perso — double score"
+  },
+  {
+   "file": "AddRoutine.dc.html",
+   "x": 0,
+   "y": 2300,
+   "w": 390,
+   "h": 850,
+   "title": "4 · Add to my routine"
+  },
+  {
+   "file": "Compte.dc.html",
+   "x": 470,
+   "y": 2300,
+   "w": 390,
+   "h": 850,
+   "title": "5 · Compte (B3.5)"
+  },
+  {
+   "file": "Paywall.dc.html",
+   "x": 940,
+   "y": 2300,
+   "w": 390,
+   "h": 850,
+   "title": "6 · Paywall (B4)"
+  },
+  {
+   "file": "DashboardAbonnee.dc.html",
+   "x": 0,
+   "y": 3400,
+   "w": 390,
+   "h": 950,
+   "title": "7 · Dashboard abonnée"
+  },
+  {
+   "file": "DashboardGratuite.dc.html",
+   "x": 470,
+   "y": 3400,
+   "w": 390,
+   "h": 850,
+   "title": "8 · Dashboard gratuite"
+  },
+  {
+   "file": "Historique.dc.html",
+   "x": 940,
+   "y": 3400,
+   "w": 390,
+   "h": 850,
+   "title": "9 · Historique"
+  },
+  {
+   "file": "HistoriqueGratuit.dc.html",
+   "x": 1410,
+   "y": 3400,
+   "w": 390,
+   "h": 850,
+   "title": "14 · Historique gratuit"
+  },
+  {
+   "file": "Promesse.dc.html",
+   "x": 0,
+   "y": 4600,
+   "w": 390,
+   "h": 850,
+   "title": "10 · Promesse (B1)"
+  },
+  {
+   "file": "SaveShelf.dc.html",
+   "x": 470,
+   "y": 4600,
+   "w": 390,
+   "h": 850,
+   "title": "11 · Save your shelf"
+  },
+  {
+   "file": "BilanComplet.dc.html",
+   "x": 940,
+   "y": 4600,
+   "w": 390,
+   "h": 2190,
+   "title": "12 · Bilan complet"
+  },
+  {
+   "file": "Reglages.dc.html",
+   "x": 1410,
+   "y": 4600,
+   "w": 390,
+   "h": 1500,
+   "title": "13 · Réglages"
+  },
+  {
+   "file": "Avis.dc.html",
+   "x": 1880,
+   "y": 4600,
+   "w": 390,
+   "h": 1730,
+   "title": "18 · Avis segmentés par peau"
+  },
+  {
+   "file": "TousLesAvis.dc.html",
+   "x": 2350,
+   "y": 4600,
+   "w": 390,
+   "h": 1830,
+   "title": "19 · Tous les avis"
+  },
+  {
+   "file": "AvisUlta.dc.html",
+   "x": 2820,
+   "y": 4600,
+   "w": 390,
+   "h": 1760,
+   "title": "20 · Avis Ulta"
+  }
+ ],
+ "annotations": [
+  {
+   "id": "note-fork",
+   "x": 0,
+   "y": -150,
+   "w": 380,
+   "text": "FORK — le choix honnête avant le résultat : les deux voies sont de vrais boutons, zéro dark pattern. La carte IA est plus riche mais la gratuite n'est pas dégradée."
+  },
+  {
+   "id": "note-gratuit",
+   "x": 470,
+   "y": -150,
+   "w": 380,
+   "text": "GRATUIT — score de FORMULE seul, verdict absolu (jamais « pour toi »). La carte verrouillée sous Best for/Avoid if est l'upsell permanent : score perso flouté + « Good product. But for your skin? »"
+  },
+  {
+   "id": "note-double",
+   "x": 940,
+   "y": -150,
+   "w": 380,
+   "text": "ABONNÉE — formule 84 en pastille · ta peau 62 en jauge unique, le « pourquoi pour toi », les avis lus par profil, l'ingrédient flaggé pour toi, les alternatives avec score perso.\n\nRègle du bloc « Why » : facteurs significatifs (≥ 5 pts) seulement, jusqu'à 5 lignes, puis « See the full breakdown (N more) ». Jamais de remplissage. Les chiffres viennent du moteur (code), jamais de l'IA.\n\nSÉLECTEUR DE SCORE (v2) : sous le produit, avant la jauge, un onglet segmenté « Formula 84 » ↔ « My skin 62 » — pastille de couleur par score. Par défaut sur MY SKIN (c'est la promesse de l'abonnement) ; un tap bascule la jauge, le verdict et le bloc Why sur la lecture FORMULE. Les deux notes sont donc toujours VISIBLES en même temps dans l'onglet, et consultables en détail l'une après l'autre."
+  },
+  {
+   "id": "note-addroutine",
+   "x": 0,
+   "y": 2180,
+   "w": 380,
+   "text": "ADD TO ROUTINE — cas « emplacement occupé » : les deux scores perso côte à côte, et l'app OSE déconseiller (85 > 62 → garde l'actuel). Cas 2 : slot vide → ajout direct. Cas 3 : conflit d'actifs → note d'alternance. La crédibilité vient de là : on conseille parfois contre nous."
+  },
+  {
+   "id": "note-compte-paywall",
+   "x": 470,
+   "y": 2180,
+   "w": 380,
+   "text": "COMPTE (B3.5) puis PAYWALL (B4) — le compte arrive APRÈS la capture, AVANT le paywall : un abandon au paywall = un lead avec e-mail + bilan en attente (winback). Sign in with Apple obligatoire (guideline 4.8), logo officiel.\n\nPAYWALL — décision actée : l'abo 1 AN à 39,90 $ REMPLACE le lifetime ; l'essai 7 j est porté par l'hebdo 3,99 $. Mise en avant/ordre = EXP-3 à tester. ⚠️ la spec dit encore « lifetime » — à corriger."
+  },
+  {
+   "id": "note-recurrents",
+   "x": 940,
+   "y": 2180,
+   "w": 380,
+   "text": "RANGÉE 3 = LES ÉCRANS RÉCURRENTS — dashboard abonnée (score + potentiel, cooldown J-6, routine cochable, scans récents en double score), dashboard gratuite (mêmes emplacements, la zone peau = carte verrouillée : le dashboard EST la surface d'upsell, aucune popup), historique (scores réévalués à chaque nouveau face scan, filtre « dans ma routine »). Architecture : 2 onglets + 1 bouton scan central (pattern Yuka), réglages en haut."
+  },
+  {
+   "id": "note-camera",
+   "x": 1410,
+   "y": -150,
+   "w": 380,
+   "text": "CAMÉRA — l'écran d'avant tout : plein écran modal (pas de tab bar), cadre de visée aux coins signature, scène assombrie hors cadre, déclencheur, import depuis la galerie, flash, croix de sortie. La photo part en identification (proto validé) puis ouvre le résultat — planche 2 en gratuit, 3 en abonnée."
+  },
+  {
+   "id": "note-analyzing",
+   "x": 1880,
+   "y": -150,
+   "w": 380,
+   "text": "CONFIRMATION (HUD) — entre la photo et le reveal : la photo reste affichée, réticule VERROUILLÉ (bleu, coins lumineux), pastille « Product identified », et une feuille sombre monte du bas : le match proposé + niveau de confiance (le proto de juillet renvoie {match, confidence}), bouton « Yes — score it », 2 candidats de repli tapables, « retake the photo ». La feuille sert aussi d'écran d'attente : elle monte en squelette pendant l'appel, puis se remplit. Remplace l'écran d'analyse théâtral (retiré à la demande)."
+  },
+  {
+   "id": "note-whichone",
+   "x": 2350,
+   "y": -150,
+   "w": 380,
+   "text": "WHICH ONE IS IT? — la feuille qui monte quand elle tape « Not my product » : les autres correspondances de la reconnaissance (un tap = analyse directe), puis les deux issues de secours — reprendre la photo, ou CHERCHER PAR LE NOM (le filet quand la photo ne donne rien). Si la reconnaissance n’a AUCUN candidat crédible : écran « no match » direct, sans passer par la confirmation."
+  },
+  {
+   "id": "note-histo-gratuit",
+   "x": 1410,
+   "y": 3260,
+   "w": 380,
+   "text": "HISTORIQUE GRATUIT — même page que la 9, un seul changement : le gros chiffre = score FORMULE (petit libellé « Formula » dessous), pas de re-calcul au face scan. Règle : le gratuit ACCUMULE, le premium INTERPRÈTE. Stocké dans le téléphone, sans compte. La ligne du bas reste honnête : « the product, not your skin »."
+  },
+  {
+   "id": "note-promesse",
+   "x": 0,
+   "y": 4440,
+   "w": 380,
+   "text": "PROMESSE (B1) — l'entrée du tunnel, juste après le fork : annoncer l'effort (« 2 minutes · 7 questions · 1 photo ») AVANT qu'il arrive, pour protéger la marche la plus fragile (la photo). Le produit scanné reste affiché en haut : c'est LUI qui attend son verdict — la boucle se refermera sur lui."
+  },
+  {
+   "id": "note-shelf",
+   "x": 470,
+   "y": 4440,
+   "w": 380,
+   "text": "SAVE YOUR SHELF — compte OPTIONNEL du monde gratuit. Jamais exigé ; proposé UNE fois, au 2e-3e produit ajouté (jamais au 1er : l'ajout doit rester instantané). « Not now » bien visible, aucune relance à chaque ajout. Capte un e-mail sur des gratuites autrement injoignables — et le tunnel sautera l'écran compte si le compte existe déjà."
+  },
+  {
+   "id": "note-bilan",
+   "x": 940,
+   "y": 4440,
+   "w": 380,
+   "text": "BILAN COMPLET — s'ouvre en tapant le bloc peau du dashboard (« Your skin, today »). Scores par préoccupation (les plus faibles d'abord), le PLAN = les emplacements de routine à remplir en scannant (remplace le deck Tinder, retiré), l'évolution. Le re-scan visage (J+10) se relance d'ici."
+  },
+  {
+   "id": "note-reglages",
+   "x": 1410,
+   "y": 4440,
+   "w": 380,
+   "text": "RÉGLAGES — ouvert par la roue dentée du dashboard. Compte (abonnement géré App Store, restauration, SUPPRESSION de compte — obligatoire Apple), rappels (routine matin/soir, re-scan visage), confidentialité (photo & données), support. Utilitaire assumé : une liste, zéro invention."
+  },
+  {
+   "id": "note-avis",
+   "x": 1880,
+   "y": 4440,
+   "w": 380,
+   "text": "AVIS SEGMENTÉS — la section « What buyers say » de la planche 3, montrée ICI DÉPLIÉE pour jugement (dans l'app elle est repliée : on ne voit que 4.6 ★ · 51,330 ratings · by amazon). Vraies données Amazon du Toleriane, rien d'inventé, et en anglais comme le reste de l'app. La règle : on ne montre QUE ce qui la concerne — son type de peau, puis les problèmes qu'elle a déclarés (pores bouchés, peau réactive). Les autres types de peau ont été retirés, ils ne lui servent à rien. « What buyers report » est devenu une liste et non plus des pastilles, et le 3e extrait est un 1 étoile pile sur son problème (boutons kystiques sur le nez) : une section d'avis qui n'affiche que du 5 étoiles n'est pas crédible."
+  },
+  {
+   "id": "note-tous-avis",
+   "x": 2350,
+   "y": 4440,
+   "w": 380,
+   "text": "TOUS LES AVIS — ouvert par « See all 278 reviews » en bas de la planche 18. C'est la porte de sortie de la personnalisation : la 18 ne montre QUE ce qui la concerne, celle-ci montre TOUT ce qu'on a, sans tri d'opinion, du plus voté utile au moins voté. Les barres d'étoiles viennent d'Amazon (81 % de 5 étoiles) et sont la seule donnée non biaisée qu'on possède. La synthèse de la 18, elle, lit 80 avis tirés au prorata de cette répartition : le lot brut sur-représente les 1 étoile (29 % contre 3 % en vrai), le tirage ramène l'écart de -0,55 à -0,11 étoile."
+  },
+  {
+   "id": "note-avis-ulta",
+   "x": 2820,
+   "y": 4440,
+   "w": 380,
+   "text": "AVIS ULTA — même section que la planche 18, mais alimentée par Ulta au lieu d'Amazon. Vraies données du Kiehl's Rare Earth Clay Mask : 199 avis collectés, 80 lus au prorata de la vraie répartition d'étoiles.\\n\\nTrois différences assumées avec la 18. Le bandeau dit « Smart reviews with » suivi du logo de la source — écrire « amazon » sur des avis Ulta serait faux. Aucune mention « verified » : Ulta ne renseigne pas l'achat vérifié, on ne l'invente pas. Et le pied annonce Ulta.\\n\\nLe reste est identique parce que c'est la même règle : on ne montre que son type de peau et les problèmes qu'elle a déclarés. Ici les extraits vont de 5 à 2 étoiles, dont Michele qui décrit une sensation de brûlure — une section d'avis qui n'affiche que du 5 étoiles n'est pas crédible."
+  }
+ ],
+ "launch": {
+  "view": "focused",
+  "file": "Avis.dc.html"
+ }
+}

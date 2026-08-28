@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --ink:#1A1D21; --cloud:#EDEFF7; --smoke:#D3D6E0; --steel:#BCBFCC;
+  --space:#9DA2B3; --graphite:#6E7180;
+  --blue:#A6C3D6; --blue-d:#6E9AB6;
+  --fd:'Manrope',sans-serif; --fm:'Manrope',sans-serif;
+}
+html { background:#DEE0E5; -webkit-font-smoothing:antialiased; }
+body { font-family:var(--fd); color:#fff; }
+
+.phone { position:relative; width:390px; max-width:390px; min-height:844px;
+  background:#101216; overflow:hidden; z-index:0; isolation:isolate;
+  display:flex; flex-direction:column; }
+
+/* rayon simulé : dégradé froid + produit dans le réticule */
+.stage-demo { position:absolute; inset:0; z-index:-2;
+  background:
+    radial-gradient(60% 42% at 50% 30%, rgba(166,195,214,0.20), transparent 70%),
+    radial-gradient(50% 36% at 18% 88%, rgba(157,188,166,0.12), transparent 70%),
+    linear-gradient(170deg,#23272E 0%,#14161B 58%,#0E1013 100%); }
+/* vignette permanente pour lisibilité de l'UI */
+.vignette { position:absolute; inset:0; z-index:-1; pointer-events:none;
+  background:
+    linear-gradient(to bottom, rgba(10,12,15,0.62) 0%, rgba(10,12,15,0) 22%),
+    linear-gradient(to top,    rgba(10,12,15,0.72) 0%, rgba(10,12,15,0) 30%),
+    radial-gradient(120% 90% at 50% 46%, rgba(10,12,15,0) 52%, rgba(10,12,15,0.42) 100%); }
+
+/* ── NAV ── */
+.nav { position:relative; z-index:5; display:flex; justify-content:space-between; align-items:center;
+  padding:calc(env(safe-area-inset-top) + 26px) 24px 14px; }
+.nav-back { width:44px; height:44px; border-radius:50%;
+  background:linear-gradient(180deg, rgba(255,255,255,0.20), rgba(255,255,255,0.08));
+  -webkit-backdrop-filter:blur(14px) saturate(1.5); backdrop-filter:blur(14px) saturate(1.5);
+  border:1px solid rgba(255,255,255,0.30);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.30), 0 2px 8px rgba(0,0,0,0.30);
+  display:flex; align-items:center; justify-content:center; color:#fff; cursor:pointer; }
+.nav-back:focus-visible { outline:2px solid var(--blue); outline-offset:2px; }
+.nav-logo { position:absolute; left:50%; top:calc(env(safe-area-inset-top) + 26px); transform:translateX(-50%);
+  height:44px; display:flex; align-items:center; pointer-events:none; }
+.nav-logo img { height:30px; width:auto; display:block; }
+.nav-spacer { width:44px; height:44px; }
+
+/* ── EYEBROW ── */
+.mode { position:relative; z-index:5; display:flex; justify-content:center; margin-top:6px;
+  animation:rise .5s cubic-bezier(.22,1,.36,1) both .1s; }
+.mode-chip { font-family:var(--fm); font-size:9px; letter-spacing:0.18em; text-transform:uppercase; color:rgba(255,255,255,0.78);
+  background:linear-gradient(180deg, rgba(255,255,255,0.16), rgba(255,255,255,0.06));
+  -webkit-backdrop-filter:blur(12px) saturate(1.4); backdrop-filter:blur(12px) saturate(1.4);
+  border:1px solid rgba(255,255,255,0.24); border-radius:100px; padding:8px 14px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.22); display:inline-flex; align-items:center; gap:8px; }
+.mode-chip i { width:6px; height:6px; background:var(--blue); border-radius:50%; box-shadow:0 0 8px rgba(166,195,214,0.9); }
+
+/* ── RETICLE ── */
+.stage { position:relative; z-index:4; flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px 34px; }
+.reticle { position:relative; width:100%; max-width:280px; aspect-ratio:3/4; animation:breathe 3.6s ease-in-out infinite; }
+.reticle span.rt { position:absolute; width:34px; height:34px; border:2.5px solid rgba(255,255,255,0.92);
+  filter:drop-shadow(0 1px 6px rgba(0,0,0,0.4)); }
+.reticle span.rt-tl { top:0; left:0; border-right:0; border-bottom:0; border-radius:10px 0 0 0; }
+.reticle span.rt-tr { top:0; right:0; border-left:0; border-bottom:0; border-radius:0 10px 0 0; }
+.reticle span.rt-bl { bottom:0; left:0; border-right:0; border-top:0; border-radius:0 0 0 10px; }
+.reticle span.rt-br { bottom:0; right:0; border-left:0; border-top:0; border-radius:0 0 10px 0; }
+@keyframes breathe { 0%,100% { transform:scale(1); } 50% { transform:scale(1.015); } }
+/* produit dans le réticule */
+.rt-product { position:absolute; inset:6% 20%; display:flex; align-items:center; justify-content:center; }
+.rt-product svg { width:52%; max-height:100%; filter:drop-shadow(0 18px 30px rgba(0,0,0,0.5)); }
+
+/* ── HINT + SHUTTER ── */
+.foot { position:relative; z-index:5; padding:18px 24px calc(env(safe-area-inset-bottom) + 30px);
+  display:flex; flex-direction:column; align-items:center; gap:18px; }
+.hint { font-weight:600; font-size:14px; letter-spacing:-0.01em; color:rgba(255,255,255,0.92); text-align:center;
+  text-shadow:0 1px 8px rgba(0,0,0,0.5); animation:rise .5s cubic-bezier(.22,1,.36,1) both .28s; }
+.shutter { width:76px; height:76px; border-radius:50%; border:none; cursor:pointer; position:relative;
+  background:linear-gradient(180deg, rgba(255,255,255,0.24), rgba(255,255,255,0.10));
+  -webkit-backdrop-filter:blur(14px) saturate(1.5); backdrop-filter:blur(14px) saturate(1.5);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.35), 0 0 0 2.5px rgba(255,255,255,0.9), 0 10px 28px rgba(0,0,0,0.45);
+  transition:transform .15s, opacity .3s; animation:rise .5s cubic-bezier(.22,1,.36,1) both .34s; }
+.shutter::after { content:''; position:absolute; inset:9px; border-radius:50%;
+  background:linear-gradient(180deg,#FFFFFF 0%,#E8ECF2 100%);
+  box-shadow:inset 0 -2px 5px rgba(40,55,75,0.25); }
+.shutter:active { transform:scale(0.93); }
+.shutter:focus-visible { outline:2px solid var(--blue); outline-offset:4px; }
+.alt { font-weight:500; font-size:12.5px; color:rgba(255,255,255,0.62); text-decoration:none; letter-spacing:-0.005em;
+  border-bottom:1px solid rgba(255,255,255,0.25); padding-bottom:2px; cursor:pointer; animation:rise .5s cubic-bezier(.22,1,.36,1) both .4s; }
+.alt:hover { color:#fff; }
+.alt:focus-visible { outline:2px solid var(--blue); outline-offset:3px; }
+
+.mode-chip, .tick { font-weight:600; }
+
+@keyframes rise { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
+@media (prefers-reduced-motion: reduce) {
+  .reticle { animation:none; }
+  .mode, .hint, .shutter, .alt { animation:none; }
+}
+
+/* ═══ adaptations artboard (390px, pas de cadre desktop) ═══ */
+body { display:block; margin:0; padding:0 !important; }
+.phone { border-radius:0 !important; box-shadow:none !important; }
+  </style>
+</helmet>
+<div class="phone">
+
+  <div class="stage-demo"></div>
+  <div class="vignette"></div>
+
+  <div class="nav">
+    <div class="nav-back" role="button" tabindex="0" aria-label="Back">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"></path></svg>
+    </div>
+    <div class="nav-logo"><img src="logo-white.png" alt="SmartSkin AI"></div>
+    <div class="nav-spacer"></div>
+  </div>
+
+  <div class="mode"><span class="mode-chip"><i></i>Product scan</span></div>
+
+  <div class="stage">
+    <div class="reticle">
+      <span class="rt rt-tl"></span><span class="rt rt-tr"></span><span class="rt rt-bl"></span><span class="rt rt-br"></span>
+      <div class="rt-product">
+        <svg viewBox="0 0 120 260" aria-hidden="true">
+          <rect x="49" y="6" width="22" height="36" rx="5" fill="#23262B"></rect>
+          <rect x="44" y="42" width="32" height="9" rx="3" fill="#3A3E45"></rect>
+          <rect x="31" y="51" width="58" height="196" rx="11" fill="#F4F6F9"></rect>
+          <rect x="31" y="51" width="58" height="196" rx="11" fill="url(#shine)" opacity="0.5"></rect>
+          <defs><linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff"></stop><stop offset=".45" stop-color="#fff" stop-opacity="0"></stop><stop offset="1" stop-color="#C9CFD9"></stop></linearGradient></defs>
+          <text x="60" y="118" text-anchor="middle" font-family="Manrope,sans-serif" font-weight="700" font-size="8.5" fill="#1A1D21">The Ordinary.</text>
+          <text x="60" y="140" text-anchor="middle" font-family="Manrope,sans-serif" font-weight="800" font-size="9" fill="#1A1D21">Niacinamide 10%</text>
+          <text x="60" y="152" text-anchor="middle" font-family="Manrope,sans-serif" font-weight="600" font-size="7.5" fill="#6E7180">+ Zinc 1%</text>
+          <text x="60" y="176" text-anchor="middle" font-family="Manrope,sans-serif" font-size="4.6" fill="#9DA2B3">HIGH-STRENGTH VITAMIN AND</text>
+          <text x="60" y="184" text-anchor="middle" font-family="Manrope,sans-serif" font-size="4.6" fill="#9DA2B3">MINERAL BLEMISH FORMULA</text>
+          <text x="60" y="226" text-anchor="middle" font-family="Manrope,sans-serif" font-size="5" fill="#BCBFCC">30 ml e 1 fl oz</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="foot">
+    <p class="hint">Hold steady &mdash; tap to capture</p>
+    <button class="shutter" type="button" aria-label="Capture"></button>
+    <span class="alt" role="button" tabindex="0">Upload a photo instead</span>
+  </div>
+
+</div>
+</x-dc>
+<script data-dc-script data-props='{}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

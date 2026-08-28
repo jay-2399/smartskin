@@ -43,3 +43,6 @@ blob-report/
 
 # travail intermédiaire d’enrichissement : volumineux, régénérable, jamais versionné
 data/_travail-enrichissement/
+
+# canevas de design : la sortie « seedée » fait 3,4 Mo et se régénère depuis les .dc.html
+design/**/smartskin-v2-ecrans-cles.html
