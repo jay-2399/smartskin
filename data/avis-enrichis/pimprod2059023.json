@@ -1,0 +1,150 @@
+{
+ "ref": "pimprod2059023",
+ "asin": null,
+ "pid": "pimprod2059023",
+ "source": "ulta",
+ "nom": "Vichy LiftActiv Collagen Specialist 16 Day Cream",
+ "note": 4.47,
+ "nbAvis": 905,
+ "lus": 80,
+ "collectes": 125,
+ "segments": {
+  "oily": "Reviewers with oily skin are split: some find the cream too thick or heavy for daytime wear, while one specifically praises it for cutting shine on oily skin and another with oily-prone skin found it too rich for her face but well suited to her neck.",
+  "combination": "Reviewers with combination skin generally report no extra oiliness or irritation, with one recommending it specifically for combination skin.",
+  "dry": "One reviewer describes her normally dry skin feeling velvety and not greasy after just one use; another with dry skin found it not quite moisturizing enough on its own and layers a separate moisturizer on top.",
+  "sensitive": "Sensitive-skin reviewers are divided: several report no irritation, redness, or stinging and say the cream actually calmed their skin, while others had reactions ranging from itchiness serious enough to stop use to a case of sustained redness, inflammation, and breakouts.",
+  "mature": "Reviewers in their 40s and 50s, and others describing themselves as part of an 'older generation,' report firmer, smoother, more youthful-looking skin, recommending it for aging concerns."
+ },
+ "concerns": {
+  "aging": "Most reviewers, including several in their 40s and 50s, report visibly smoother, firmer skin with softened fine lines and wrinkles within one to a few weeks of consistent use; a few say they saw no meaningful anti-aging improvement even after a month.",
+  "dehydration": "The large majority of reviewers describe the cream as deeply hydrating and plumping without heaviness or greasiness; a few say it didn't provide enough moisture for their needs, and one reviewer felt it actually dried her skin out.",
+  "redness": "Most reviewers, including some with sensitive skin, report no redness or irritation; one reviewer's skin stayed red, inflamed, and broke out over several weeks of testing, and she had to discontinue use.",
+  "spots": "Two reviewers report fewer visible dark spots or areas of discoloration after using the cream for a few weeks.",
+  "blemishes": "Several reviewers report no breakouts or irritation, including one with acne-prone skin who simply reduced frequency because the cream felt heavier than her usual routine; one reviewer's skin broke out and became inflamed over several weeks of use and she discontinued it.",
+  "oiliness": "Oily-skin reviewers say the cream can feel too rich or heavy for daytime wear on oily areas, though one specifically credits it with cutting shine and another says it doesn't add oiliness."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong, polarizing fragrance",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Can cause makeup to pill for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich, velvety texture that absorbs well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High-end, sleek jar packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Considered pricey for the amount of product",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Meredith",
+   "titre": "Vichy made me itchy",
+   "texte": "I was so excited to be able to try the Vichy collagen day cream that I got free for my honest opinion. Unfortunately, I was only able to try it one time. The only and only time I tried it, and I did not use a lot of product, my face became very itchy. I washed my face immediately and am very thankful that's all that happened. I did not try again. I hope this day cream works for someone!",
+   "date": "2026-06-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Melissa",
+   "titre": "Not for me",
+   "texte": "[I received this product in exchange for my honest review]. Something about this system did not agree with my skin. I tested for several weeks hoping my skin would purge and get used to it but my skin stayed red, inflamed, and broken out. Had to discontinue use. I'm sure this is a great product for someone with different skin than me. I thought the packaging looked high-end.",
+   "date": "2026-07-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Teresa",
+   "titre": "Good, but not for all",
+   "texte": "[I received this product in exchange for my honest review] This day cream was just ok for me. I need hydration the most and I felt like this did not give enough. I also do not like the smell, but it was short lived. Overall it was light and I had no issues with breakouts/irritation. I do think this would be good for someone who has more standard/oily skin.",
+   "date": "2026-06-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Emily",
+   "titre": "Luxurious!",
+   "texte": "[I received this product in exchange for my honest review] Loved this cream! It's so silky and smells so luxurious. It sank right into my skin and really helped with my visible fine lines. For reference I have combination skin and this didn't make my face oilier or irritated!",
+   "date": "2026-06-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tanisha",
+   "titre": "Worth every penny",
+   "texte": "[I received this product in exchange for my honest review] Great facial moisturizer. Made with premium products. This product is worth every penny I would definitely pay full price with this product and intent to. I was actually surprised that the product worked. I have purchased Vichy products before. And have never been disappointed vici products however, are very expensive so I was delighted once I got the opportunity to try this product for free. No skin irritation I was able to wear it in place of sunscreen and it works wonders so I also use it before applying foundation and other makeup. You can also use it of course as a regular facial moisturizing alternative instead of using lotion on your face. Works wonders, even cleared up some dark spots on my face as well. I highly recommend this product. ￼￼",
+   "date": "2026-07-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Misti",
+   "titre": "Awesome product!",
+   "texte": "[I received this product in exchange for my honest review] I have been using Vichy Collagen Specialist 16 Day Cream and it has made such a difference in my skin! It has a rich texture in the jar, but, once I applied it, it absolutely melted into my skin. It was not greasy and easily absorbed. My skin felt like silk, it was so smooth. And it left no residue at all! I have sensitive skin, but this product actually calmed it down. And, the best part is that it targets 16 different signs of aging!",
+   "date": "2026-06-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jessica",
+   "titre": "Velvety!",
+   "texte": "[I received this product in exchange for my honest review] This left my skin feeling noticeably softer even after just one use. My skin is normally dry, and this felt velvety and not greasy. It is nice and thick. I would definitely purchase this in the future!",
+   "date": "2026-06-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

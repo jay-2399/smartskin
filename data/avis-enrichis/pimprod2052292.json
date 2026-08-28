@@ -1,0 +1,138 @@
+{
+ "ref": "pimprod2052292",
+ "asin": null,
+ "pid": "pimprod2052292",
+ "source": "ulta",
+ "nom": "Peach Slices Snail Rescue Ultimate Eye Gel",
+ "note": 4.5,
+ "nbAvis": 40,
+ "lus": 29,
+ "collectes": 29,
+ "segments": {
+  "sensitive": "Reviewers with sensitive under-eye skin report no irritation, including one who says active ingredients usually bother her but this gel did not.",
+  "dry": "Reviewers with dry skin report the gel addresses dehydration lines and restores a smoother, more hydrated look under the eyes.",
+  "combination": "One reviewer with combination skin whose under-eye area gets dry found the gel absorbs without feeling greasy."
+ },
+ "concerns": {
+  "dehydration": "Reviewers consistently describe the gel as hydrating for the under-eye area, helping with dryness, puffiness and what several call dehydration lines.",
+  "aging": "Several reviewers report smoother, less noticeable fine lines and wrinkles around the eyes with regular use, though one reviewer felt it did not hydrate or improve her wrinkles at all, and others say it is too early to judge the effect on lines.",
+  "spots": "Many reviewers report brighter, less dark under-eyes within one to two weeks, but one reviewer calls the brightening effect a placebo, and another says the product left her under-eye area looking darker.",
+  "redness": "One reviewer had an allergic reaction with a rash and darkened skin after a single use, while several others with sensitive under-eye skin report no irritation at all."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling, silky gel texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels thick or heavy, like petroleum jelly, for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slightly sticky before it fully absorbs",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable compared to other eye treatments",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "One reviewer had a packaging defect that leaked product",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Zoe",
+   "titre": "Doesn't do jack",
+   "texte": "You might as well just use it to moisturize your eyes, but if your hope with this is to brighten your eyes, then you might want to take it out you cart. If you feel like it's \"brightening\" your eyes then it's probably just the placebo effect",
+   "date": "2025-11-12",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "aydin",
+   "titre": "This product gave me an allergic reaction",
+   "texte": "I tried this product as soon as I got home and when I went to go wash my face I noticed a rash on the eye I put it on. it also made my eye very dark!",
+   "date": "2026-07-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lila",
+   "titre": "Very nice!",
+   "texte": "I have very sensitive skin around my eyes, they get irritated very easily but honestly! This didn't irritate me at all. It is very thick, I do think most snail related products are thick. But I really like it! I haven't used it long enough to see if it will help with my fine lines but I'm gonna try and start using it more regularly because I don't want my fine lines to get worse",
+   "date": "2026-03-20",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Selfcarebybia",
+   "titre": "Top Eye Treatment Ever",
+   "texte": "I struggle with millia and typical eye creams make it worse. But i also have dry skin so my undereyes have been needing a treatment. This one is incredible because it absorbs well into the skin and I've definitely noticed the brightening effects. 10/10",
+   "date": "2026-02-26",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brittany",
+   "titre": "Would buy again",
+   "texte": "I love snail mucin and this eye gel was so nice! It's not greasy, absorbs quickly and sits well under makeup. I have combo skin and my under eyes get a little dry, but this seems to help",
+   "date": "2026-02-13",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "K",
+   "titre": "Soothing and hydrating",
+   "texte": "I'm in cold, dry New England and active ingredients are irritating my skin right now, in particular my sensitive undereye skin. This doesnt do that, applies easily, and leaves me feeling hydrated. Will definitely repurchase!",
+   "date": "2026-01-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,140 @@
+{
+ "ref": "pimprod2059305",
+ "asin": null,
+ "pid": "pimprod2059305",
+ "source": "ulta",
+ "nom": "BYOMA Blemish Acne Clearing Creamy Cleanser",
+ "note": 4.61,
+ "nbAvis": 152,
+ "lus": 79,
+ "collectes": 125,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin, including some managing perioral dermatitis or stress-related acne, mostly report no irritation, though one reviewer's perioral dermatitis flared up and her skin dried out, even though the same cleanser worked well for her husband's oily skin.",
+  "oily": "Reviewers with oily skin report it reduces excess oil without stripping their skin or leaving it dry.",
+  "dry": "Reviewers with dry skin report it left them moisturized rather than tight, even though it is marketed as an acne treatment.",
+  "combination": "One reviewer with combination skin who usually experiences dryness after washing did not notice that with this cleanser."
+ },
+ "concerns": {
+  "blemishes": "Most reviewers, including teenagers and adults with hormonal or stress-related acne, report fewer breakouts and clearer skin within one to three weeks of regular use, though one reviewer without particularly sensitive skin had her worst breakout ever after using it.",
+  "dehydration": "Many reviewers say the cleanser does not leave skin feeling tight or stripped despite treating acne, but a few report it dried their skin out over time or triggered perioral dermatitis, and suggest using it every other day in that case.",
+  "oiliness": "Reviewers with oily skin report it reduces excess oil and leaves skin balanced rather than greasy by the end of the day.",
+  "barrier": "A couple of reviewers credit the ceramides in the formula with protecting the skin barrier while the salicylic acid targets breakouts."
+ },
+ "aspects": [
+  {
+   "libelle": "Creamy, milky texture feels gentle",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Minimal foam or lather",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or mild scent for most",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "A few detect an odd or chemical smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Convenient pump dispenser",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value, product lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Kaysi",
+   "titre": "Eh not for me.",
+   "texte": "I honestly wanted to love this product. But it made me breakout so bad. Worse than I've ever broken out. My skin isnt sensitive. I do use products from a medspa that work wonders on my skin. I also didn't like that the product was super shiny, my face also didn't feel clean after washing it twice.",
+   "date": "2026-08-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Lia",
+   "titre": "Wanted to Love it",
+   "texte": "[I received this product in exchange for my honest review] I wanted to love this product, I just couldn't make it work!! I love the texture of the wash and love the signature square Byoma packaging, it looks so nice in my skincare setup. Unfortunately it dried out my skin, activated my perioral dermatitis, and clogged my pores. On the other hand, my husband, who is prone to large pores and excess oil, has had a great experience with the product, it has cleaned out his blackheads and improved overall skin texture and tone with no adverse reactions!",
+   "date": "2026-08-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Janine",
+   "titre": "Wonderful",
+   "texte": "[I received this product in exchange for my honest review] I had no idea how oily my skin was before I started using this! It took away the oiliness but sidnt dry it out! The formula is so gentle but it didnt lather the way I thought it would. It cleans well and I like the pump it has, it makes it so much easier to dispense!",
+   "date": "2026-07-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Vladyslava",
+   "titre": "It's really effective",
+   "texte": "I have combination skin and often suffer from dryness after washing, with this product I did not notice it. It really whitens acne spots quite quickly, has a good texture and consistency but unfortunately an unpleasant aroma. I smell like old oil. The design of the bottle is attractive and attracts attention",
+   "date": "2026-08-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Temeika",
+   "titre": "Great Cleanser!!",
+   "texte": "[I received this product in exchange for my honest review] I have been using this for a few days now and my skin has responded to it very well. I have sensitive acne prone skin at the big age of 42. So there are just some things that will instantly break me out. This hasn't. It's really helping with my breakouts and texture issues I have. It doesn't have much of a scent to me at all which is very helpful for me. I have oily skin and I'm not noticing any extra oils producing from this which I love. I'm genuinely pleased and would def recommend and pay out of pocket for it.",
+   "date": "2026-07-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tara",
+   "titre": "Great product for acne-prone skin!",
+   "texte": "[I received this product in exchange for my honest review] I've been using this product for about 2 weeks now, and I really like it! I was worried that a cleanser specifically marketed for acne-prone skin might be too stripping and agitate my dry patches, but it's actually really moisturizing on the skin. I'm pleased with how it feels and my skin hasn't broken out since starting to use it. I would recommend this product to a friend.",
+   "date": "2026-07-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

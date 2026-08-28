@@ -1,0 +1,147 @@
+{
+ "ref": "pimprod2055978",
+ "asin": null,
+ "pid": "pimprod2055978",
+ "source": "ulta",
+ "nom": "Benefit Cosmetics The POREfessional Degunker Blackhead & Pore Cleansing Mask System",
+ "note": 4.16,
+ "nbAvis": 318,
+ "lus": 79,
+ "collectes": 197,
+ "segments": {
+  "oily": "Reviewers describe the mask and tool as best suited to oily or congestion-prone skin, helping absorb oil and clear the nose, chin, and T-zone.",
+  "combination": "A reviewer with combination skin found it worked surprisingly well for deep pore cleaning without drying her skin.",
+  "sensitive": "Multiple reviewers flag the metal extraction tool as too harsh for sensitive or thin skin, causing redness, pain, or small cuts, and recommend a very light hand or avoiding the tool altogether if skin reacts easily."
+ },
+ "concerns": {
+  "redness": "The metal tool commonly leaves visible redness right after use; most reviewers say it fades within minutes, but a few report the tool caused pain, burning, or lasting irritation, and one licensed esthetician said it stripped her skin's barrier.",
+  "blemishes": "Results on blackheads and clogged pores are mixed: many reviewers see visible gunk removed and fewer blackheads with repeated use, while others, especially with small or deep blackheads, see no change, and one reports her pores looked larger afterward.",
+  "oiliness": "Reviewers describe the clay mask as absorbing oil and sebum effectively, particularly around the nose and T-zone.",
+  "barrier": "One licensed esthetician reports the product stripped her skin's natural barrier and would not recommend it; this is not echoed by other reviewers."
+ },
+ "aspects": [
+  {
+   "libelle": "Convenient all-in-one mask and tool packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Metal tool can be painful or sharp under pressure",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong earthy or unpleasant odor",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Satisfying, visible gunk extraction",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pricey relative to the amount of product",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Undisclosed",
+   "titre": "DO NOT USE",
+   "texte": "If I could give this zero stars I would. This was way too harsh and stripped my skins natural barrier. As a licensed esthetician I would never recommend this product to anyone. Made my skin extremely red and clogged my pores also it smells so bad",
+   "date": "2025-10-20",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "JP",
+   "titre": "Product burned my face!",
+   "texte": "I got recommended this product as an employee noticed I have blackheads and such. I bought the product, cleansed my face, applied this product as intructed and it immediately burned my face! I look like i have a sunburn and hurts! DO NOT BUY",
+   "date": "2025-12-28",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Undisclosed",
+   "titre": "Nice but be gentle!",
+   "texte": "I didn't love this product. The pairing of the formula and tool in one kit was smart and convenient. The formula itself also felt nice and was pleasant to use. Plus, I appreciate that it seems like a more hygienic alternative to DIY squeezing. However, I think my skin may have been too sensitive for the tool. I noticed quite a bit of redness and irritation after use. This may be great for oily or congestion-prone skin types, but I would be careful if you have sensitive skin. Overall, I'd say the POREfessional Degunker is a clever at-home option for people who love the satisfaction of clearing out pores but want to do it more safely. It's a solid in-between for maintaining clearer skin at home, but definitely requires patience and a gentle hand.",
+   "date": "2025-10-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Undisclosed",
+   "titre": "Skin feels clearser",
+   "texte": "The clay mask cleanses well, absorbing oil and sebum from the nose, philtrum, and chin area. When using the included metal tool, blackheads and sebum plugs are easier to extract than with just fingers. After rinsing, the skin feels clearer, deeply cleansed, and pores appear smaller. However, the metal tool is a bit hard; pressing too hard can cause pain or redness, especially on thin or sensitive skin. Those with sensitive skin should use it very gently or only after the clay has softened the sebum.",
+   "date": "2025-11-28",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Undisclosed",
+   "titre": "Leaves skin fresh, smooth, and pore-free without a",
+   "texte": "I was pleasantly surprised by how fresh and light this cleanser feels! The texture is silky and smooth, and it doesn't strip my skin at all. It removes dirt and oil effectively while leaving my pores feeling clean and refined. The scent is mild and refreshing, not overpowering. After a few uses, my skin looked clearer and softer, and I love that it gives a nice cooling sensation after washing. It's perfect for oily or combination skin and works great before makeup too!",
+   "date": "2025-11-27",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "A gentle but effective pore-clearing mask that lea",
+   "texte": "I have combination skin and this mask worked surprisingly well for deep cleaning my pores. The texture is smooth, spreads easily, and doesn't feel harsh or drying. After rinsing, my skin looked clearer and less congested, especially around the nose. It doesn't provide \"coverage\" like makeup, but it definitely improves the overall appearance of the skin. I also like that it doesn't leave any tight feeling and can be used even on sensitive areas.",
+   "date": "2025-11-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Tool + Mask = Extraction Heaven",
+   "texte": "I have been looking for a safe and effective way to remove the buildup of clogged pores on my nose, so I was super excited to try this product. While I am still getting used to using it, I really like this product so far and thought it did a good job of loosening up the oil/dead skin in my pores for removal. The tool is a little difficult to use in all crevices of my nose, so I go in with my fingers when needed. The packaging is super clever and compact. I do not notice an overwhelming scent and find it pleasant to use on my oily sensitive skin. Overall for the value, if you have been looking for a way to extract your pores, you get a tool and a mask in one!",
+   "date": "2025-11-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2057158",
+ "asin": null,
+ "pid": "pimprod2057158",
+ "source": "ulta",
+ "nom": "First Aid Beauty Ultra Repair Firming Day Cream",
+ "note": 4.42,
+ "nbAvis": 177,
+ "lus": 80,
+ "collectes": 123,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin are sharply split: several report the reformulated version burns or triggers swelling and redness on application, in one case requiring antihistamines, while many others say it hydrates without irritation and helps repair a compromised skin barrier.",
+  "dry": "Reviewers with dry skin describe the cream as rich and effective through winter dryness, with several calling it a lifesaver during cold months.",
+  "combination": "Reviewers with combination skin report it controls dryness without clogging pores, though one found the formula a bit heavy and preferred a thinner cream."
+ },
+ "concerns": {
+  "aging": "Reviewers report smoother-looking fine lines and a firmer feel over weeks of use, particularly around the forehead and jawline, though a few say they noticed no visible change to wrinkles or elasticity.",
+  "redness": "A cluster of reviewers, several referencing a reformulation, report burning, stinging or redness on application, including one severe reaction requiring antihistamines, while most other reviewers report no stinging or redness at all.",
+  "blemishes": "Several reviewers report new breakouts, including on the neck or after combining with other niacinamide products, but many more explicitly say it did not cause breakouts even on acne-prone skin.",
+  "barrier": "A few reviewers credit the cream with restoring a skin barrier compromised by winter dryness.",
+  "spots": "One long-time user reports a reformulation removed the green tea and licorice root extract that had been controlling her dark spots, while other reviewers say the niacinamide in the current formula still helps fade dark spots and post-acne marks.",
+  "dehydration": "Most reviewers describe strong, lightweight hydration, though a few with combination skin find the texture slightly heavy or slow to fully absorb."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight texture that layers well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can pill under makeup later in the day",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich, whipped texture feels luxurious",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Considered pricey for the jar size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Reformulation upset some longtime users",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Glass jar packaging preferred over plastic",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Demri",
+   "titre": "Two ingredients cause for irritation and clogged pores!",
+   "texte": "Beware! Adverse reactions if you have sensitive, acne, combo or rosacea type skin. Palmitic acid and stearic acid together are known to cause inflammation and can clog pores as per the EWG website and other ingredient checker sites. Pass on this!",
+   "date": "2025-03-22",
+   "verifie": false,
+   "utiles": 19,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "anonymous",
+   "titre": "Please don't buy this if you have sensitive skin.",
+   "texte": "Please don't buy this if you have sensitive skin. I've been using products from this brand for over two years, and because of my sensitive skin, several people recommended this one to me. Unfortunately, it caused a severe allergic reaction. It started burning as soon as I applied it, and my face became swollen and red for days. I even had to take Benadryl because the reaction wouldn't go away. Very disappointed with this product.",
+   "date": "2026-02-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "MrsCheapSkate",
+   "titre": "Worked Best with Periodic Usage",
+   "texte": "I used this cream off and on for a few weeks and overall liked how it makes my skin feel in the morning. It absorbs quickly and doesn't leave a greasy residue. My only complaint is it didn't give a true hydrating feeling if used alone. It helped control my breakouts but I also noticed this is a cream I couldn't use everyday. After a few consecutive days, I would have a small bump or two pop up. When I used it periodically, my skin responded well.",
+   "date": "2025-03-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "anonymous",
+   "titre": "Excellent Firming & Moisturizing cream",
+   "texte": "Bought this more than a month ago and am truly impressed. I'm n my sixties & any fine lines seems to be less visible and very moisturized but never greasy. Totally recommend this firming cream.",
+   "date": "2025-07-31",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "C",
+   "titre": "Love this…",
+   "texte": "I have very sensitive skin, so I have a difficult time finding moisturizers that don't cause irritation or breakouts. I'm in love with this moisturizer. My only criticism is that it's a little heavy for daytime use, but it is the perfect night cream. I wake up in the morning with smooth, glowy skin.",
+   "date": "2026-03-18",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennifer",
+   "titre": "Great but you might need to introduce it slowly.",
+   "texte": "The first time I tried this moisturizer I really did not like it because it broke me out. I'm pretty sure I made the mistake of accidentally combining it with a niacinamide containing serum that first time and my skin was just like \"whoa too much niacinamide!\" I gave it time to heal and tried it again, this time making 100% sure I did not combine it with any other niacinamide containing products and it went MUCH better. No break outs, just moisturized skin! Love it!",
+   "date": "2025-03-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elizabeth",
+   "titre": "Great for fine lines and dark spots",
+   "texte": "This cream is both gentle and effective. It helps to make my skin look and feel more youthful. I have combination skin and it doesn't clog my pores. Rather, my skin feels healthy and fine lines are reduced. The niacinamide helps to brighten. This is perfect since I have some dark spots. The firming effect occurs over time in my case. I love this cream!",
+   "date": "2025-03-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

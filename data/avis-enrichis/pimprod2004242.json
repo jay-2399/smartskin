@@ -1,0 +1,151 @@
+{
+ "ref": "pimprod2004242",
+ "asin": null,
+ "pid": "pimprod2004242",
+ "source": "ulta",
+ "nom": "Lancôme UV Expert Defense SPF 50+ Primer & Moisturizer",
+ "note": 4.43,
+ "nbAvis": 919,
+ "lus": 81,
+ "collectes": 98,
+ "segments": {
+  "oily": "Reports from oily-skin reviewers are split: several say it is the only sunscreen that doesn't feel heavy, smelly or oily even on very oily or acne-prone skin, while others with oily or combination-oily skin say it makes them noticeably shinier and greasier than usual over the day.",
+  "combination": "One reviewer with combination-oily skin says the product makes her skin shinier than normal but still uses it daily because it works well under makeup, while another with combination skin found it too heavy and thick for daytime wear.",
+  "sensitive": "Reviewers with sensitive or rosacea-prone skin mostly report no irritation and even praise the lightweight formula, though the eye area is a recurring trouble spot, including some severe reactions in reviewers who did not otherwise consider their skin sensitive.",
+  "normal": "One reviewer with normal skin says the cream does not feel greasy or heavy under makeup and meets her sun protection expectations."
+ },
+ "concerns": {
+  "redness": "The eye area is a recurring trouble spot: several reviewers describe severe burning, stinging or tearing when the product got near or into their eyes, including some who do not otherwise consider their skin sensitive; separately, reviewers with sensitive or rosacea-prone skin generally report the formula itself does not irritate their face.",
+  "oiliness": "Reports split sharply among reviewers with oily skin: several say it is the only sunscreen that doesn't leave them feeling greasy, while others with oily or combination-oily skin say it makes their skin noticeably shinier and oilier throughout the day.",
+  "spots": "One long-term user reports her dermatologist has needed to treat fewer pre-cancer spots since she started using it daily, and another says it has helped prevent new dark spots from forming.",
+  "blemishes": "One reviewer with oily, acne-prone skin says the noncomedogenic formula works well for her without causing breakouts.",
+  "dehydration": "A few reviewers describe the formula as hydrating and note it leaves skin feeling soft, positioning it as a moisturizer as much as a sunscreen."
+ },
+ "aspects": [
+  {
+   "libelle": "Can pill or ball up under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves a white or grey cast on deeper skin tones",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong, polarizing scent some call rubbery",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small tube size relative to the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Doubles effectively as a makeup primer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy finish for most users",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Linda",
+   "titre": "It burned my skin",
+   "texte": "This product burned the skin under my eyes creating blisters. I have never had this problem and I d not have sensitive skin.",
+   "date": "2024-10-01",
+   "verifie": false,
+   "utiles": 16,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "KD",
+   "titre": "Dear God no",
+   "texte": "Every once in awhile a sunscreen will slightly burn my eyes. When I used this product for the first time, the burning of a thousand suns hit me and I had to remove my contacts and wash my face (not ideal when trying to get to work). My eyes burned most of the day and were sensitive to light. It took an hour before I could drive to work and even then they were still tearing up badly.",
+   "date": "2025-03-19",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Stinky McStinkface",
+   "titre": "…but it smells like rubber 🤢",
+   "texte": "Let me start by saying the formula itself is beautiful: lightweight, offers a healthy glow without looking greasy, smooths out texture, and plays nicely with my sensitive/rosacea-prone skin. I should be a big fan BUT… Why the heck does it smell like tires??! I've had it on for ~3 hrs and the rubbery smell still lingers. Hard pass!",
+   "date": "2024-05-29",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Niffer",
+   "titre": "Not for brown or oily girlies",
+   "texte": "I was so excited to try this product but unfortunately it didn't work out for me. For reference I was in shade 420 N in their foundation. This product does indeed leave a white cast and makes me look grey. This product leaves me feeling very greasy and if you add even the slightest too much of the product it moves and disrupts foundation put on top of it. I don't ever mind the price of a product so long as it works and sunscreen is so important is good to invest on a product that's literally protecting you but this isn't it.",
+   "date": "2025-03-24",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Annita",
+   "titre": "I love it!!",
+   "texte": "I tried this moisturizer because it has good sun protection, here in Az, it is demanding to protect your skin. I loved. But I must be honest, my skin type is combination oily, and every time I use it my skin becomes even oilier, more shiny than normal. but I loved using it under makeup because it fits perfectly. thank you!",
+   "date": "2024-06-07",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Carol",
+   "titre": "Yes",
+   "texte": "My dermotologist has not needed to treat as many pre-cancer spots on my face since using this product.",
+   "date": "2024-10-01",
+   "verifie": false,
+   "utiles": 30,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Star",
+   "titre": "I love Lancôme",
+   "texte": "I love this sunscreen because I have oily/sensitive/acne prone skin and this sunscreen works well with my skin. It is a small tube but I love it and the ingredients are excellent they are noncomedogenic! Lovely sunscreen :) Thank you so much Lancome !",
+   "date": "2024-09-30",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

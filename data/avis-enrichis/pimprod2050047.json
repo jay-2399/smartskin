@@ -1,0 +1,141 @@
+{
+ "ref": "pimprod2050047",
+ "asin": null,
+ "pid": "pimprod2050047",
+ "source": "ulta",
+ "nom": "CeraVe Skin Renewing Vitamin C Eye Cream",
+ "note": 4.52,
+ "nbAvis": 643,
+ "lus": 79,
+ "collectes": 125,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin, including some prone to eczema around the eyes, mostly report no breakouts or irritation, though one reviewer did have irritation on her eyelids and asked for a sensitive-skin version.",
+  "dry": "One reviewer reports it is effective for dry, flaky skin around the eyelids specifically.",
+  "mature": "One reviewer recommends it to anyone with aging-related concerns around the eyes after noticing firmer-feeling skin."
+ },
+ "concerns": {
+  "aging": "Reports on fine lines are limited but generally positive, with a few reviewers noting smoother or plumper-looking skin, while others say they have not used it long enough to judge lines specifically.",
+  "dehydration": "Hydration is the most consistently reported benefit, with reviewers describing the under-eye area as smooth and moisturized without a greasy or heavy feel.",
+  "redness": "One reviewer who was concerned the product might aggravate her rosacea reports no issues after use."
+ },
+ "aspects": [
+  {
+   "libelle": "Brightens the look of dark circles, though results vary by cause",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or very light scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can pill or flake under makeup if not blended well",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small tube but product lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Sandra",
+   "titre": "It's ok",
+   "texte": "As someone who has really dark circles, I didn't see much of an improvement in reducing them. Only good thing about this, it will smooth out any fine lines. Just make sure to blend the product well enough or else it will start to peel once it dries and it'll leave a white mark",
+   "date": "2025-12-05",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Lisa",
+   "titre": "Light and portable",
+   "texte": "[I received this product in exchange for my honest review] The Cevera Vitamin C Eye Cream is light and feels comfortable-no olly, sticky, or heavy residue. The 15ml size is convenient and easy to carry when traveling. While it applies nicely, I haven't noticed a significant difference in reducing dark circles or under-eye puffiness yet. Overall, it's a gentle and portable eye cream, but the results for brightening or de-puffing are minimal for me.",
+   "date": "2025-09-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Eve",
+   "titre": "Great for under eye fine lines",
+   "texte": "I received this product in exchange for my honest review, my opinions are my own and not influenced by anyone. I used this product for 3 weeks before reviewing. I gave the CeraVe Skin Renewing Vitamin C Eye Cream 4 stars because it is a great product, but doesn't really address under eye circles. I love the texture, and it spreads out and absorbs easily. My biggest concern was that it would exacerbate my rosacea since it's right under my under eyes but so far so good. I does brighten the under eye, it has helped with the small lines, and my concealer seems to go on a lot smoother. It plays well with my sunscreen and makeup. I would definitely recommend. I don't suffer from puffiness but it does not do much for my dark circles since those are from allergies.",
+   "date": "2025-09-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Aminat",
+   "titre": "Will buy again",
+   "texte": "[I received this product in exchange for my honest review] absolutely love this CeraVe Vitamin C Eye Cream! After just a couple of weeks, I noticed my under-eye area looking brighter and smoother. It really helps reduce the appearance of dark circles and gives a refreshed look in the morning. I also like that it's lightweight, absorbs quickly, and doesn't feel greasy. The addition of ceramides and hyaluronic acid keeps my skin hydrated all day, and the 5% pure vitamin C gives that extra glow. It's gentle enough for my sensitive skin and layers perfectly under makeup. Definitely worth it—this has become a must-have in my skincare routine!",
+   "date": "2025-09-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Christina",
+   "titre": "Need Sensive Skin Version",
+   "texte": "[I received this product in exchange for my honest review] After receiving my CeraVe Skin Renewing Vitamin C and using for approximately a week I experienced some irritation on my eye lids. I have used other CeraVe products on other parts of my body and never have had this happen. I do have sensitive skin on my face and wonder if there is a sensitive skin version and would like to try it if so. Other than that I did like the product. It seemed to work well and not greasy on my skin.",
+   "date": "2025-12-15",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tiffani",
+   "titre": "Gentle for Sensitive Skin",
+   "texte": "[I received this product in exchange for my honest review] I have used a myriad of eye creams over the last few years, but CeraVe Skin Renewing Vitamin C Eye Cream is my favorite. While I don't necessarily have sensitive skin, I tend to get eczema around my eyes when using certain creams. The Cereve cream is gentle enough that I dont break out, but powerful enough to be effective. It goes on smooth and absorbs quickly. A few dots are all you need, so the tube lasts for a moderately long time. Highly recommend.",
+   "date": "2025-09-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Frank",
+   "titre": "Revitalizing eye cream",
+   "texte": "[I received this product in exchange for my honest review] This eye cream from CeraVe really helps with dry skin around the eyes. My eyelids getting dry and flaky throughout the year and I have noticed this eye cream to be very effective in relieving this.",
+   "date": "2025-10-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

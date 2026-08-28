@@ -1,0 +1,138 @@
+{
+ "ref": "pimprod2002969",
+ "asin": null,
+ "pid": "pimprod2002969",
+ "source": "ulta",
+ "nom": "Kiehl's Since 1851 Super Fluid Daily UV Defense SPF 50+",
+ "note": 4.17,
+ "nbAvis": 693,
+ "lus": 77,
+ "collectes": 123,
+ "segments": {
+  "oily": "Reviewers with oily or combination skin, including one with an oily T-zone, describe the formula as non-greasy and pore-friendly, though a couple report it sits heavy and greasy on oily areas.",
+  "dry": "Reviewers with dry skin, including one with severe dryness and sensitivity, report it hydrates and applies without stinging, though one found it insufficient for winter dryness.",
+  "combination": "Reviewers with combination skin (oily T-zone, normal to dry elsewhere) report it blends in seamlessly and does not cause breakouts, though one with combination skin found it greasy and pore-clogging.",
+  "sensitive": "Reviewers with sensitive skin, including several with rosacea or a history of skin reactions, consistently report no stinging, irritation, or breakouts."
+ },
+ "concerns": {
+  "blemishes": "Most reviewers, including several with oily or acne-prone skin, report no new breakouts or clogged pores after regular use; one reviewer says pimples appeared for the first time in her life and persisted for months after use.",
+  "redness": "Reviewers with rosacea report the sunscreen does not aggravate flare-ups and is gentle enough for reactive skin.",
+  "spots": "A small number of reviewers report the sunscreen protected against new sunspots or, in one case, helped hyperpigmentation fade over a summer of use.",
+  "aging": "A couple of reviewers mention the formula fills in fine lines or offers anti-aging benefits, though this is a minor theme in the reviews supplied."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, absorbs without greasy feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves a visible white cast",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong chemical or petroleum-like scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or burns near the eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well as a makeup base",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Expensive for the amount provided",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Not this sunscreen",
+   "titre": "big no",
+   "texte": "Like other people said, it is SLIDING on my face, leave marks on where the sunglasses were. My face got pimples (yes, which I never had had in my life) really really bad. These are still here after months now. I decided to use it on my body, guess what? The seat, the door, the wheel, even the outside of my car had white cast. 😑 I don't get the hype of this product tbh.",
+   "date": "2025-08-07",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sparklesjamie",
+   "titre": "Amazing product",
+   "texte": "I love this sunscreen. I have sensitive skin and rosacea so it's hard finding a facial sunscreen that doesn't break me out. This keeps my face moisturized while being protected, and without causing breakouts.",
+   "date": "2024-08-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sunshine",
+   "titre": "No White Cast And Easily Blends And Absorbs",
+   "texte": "I have been using this sunscreen for the past few weeks and have found that it works great with my skin. I have combination skin that is slightly oily at the t-zone and normal to dry everywhere else. This blends in seamlessly and absorbs quickly without leaving a white cast and leaving my skin feeling greasy. I also appreciate that it doesn't make me break out like previous sunscreens have in the past. I will continue to purchase this in the future and have already recommended it to family and friends.",
+   "date": "2024-08-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Blondie1685",
+   "titre": "Must have!",
+   "texte": "I have super dry and flaky skin on top of it being super sensitive. I was nervous about trying this product because a lot of sunscreens I've used in the past have caused irritation and redness. This sunscreen is great because it goes on light and hydrates. It also does not cause a stinging sensation if you put it around your eyes. I hate sunscreens that do that! It's comforting to have spf 50 in my early morning routine because I have had skin cancer scares in the past. Love this product",
+   "date": "2024-08-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Adoozer",
+   "titre": "Lightweight With Great Sun Protection",
+   "texte": "I love this sunscreen! Although it has a thinner texture than some sunscreen it absorbs easily and is very lightweight. I have very sensitive skin that often gets irritated and itchy from sunscreen but the Kiehl's didnt cause any issues. It also didn't clog my pores and offered fantastic protection. I'm a fan and will continue to use this product after being sent a sample to try out.",
+   "date": "2024-08-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cece",
+   "titre": "I will definitely buy this product for future use!",
+   "texte": "What I love about this sunscreen is that it's light weight and very easy to blend in with your skin. I have oily skin and this sunscreen didn't clog my pores nor cause any excess oil or breakouts on my skin. I wore this sunscreen under my makeup . It provided excellent protection , overall coverage and worked very well with my makeup products.",
+   "date": "2024-08-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

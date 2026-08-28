@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2046265",
+ "asin": null,
+ "pid": "pimprod2046265",
+ "source": "ulta",
+ "nom": "Avène Redness Expert Soothing Moisturizing Concentrated Cream",
+ "note": 4.29,
+ "nbAvis": 120,
+ "lus": 81,
+ "collectes": 119,
+ "segments": {
+  "sensitive": "Reviewers overwhelmingly identify as having sensitive skin or rosacea; most describe the cream as fragrance-free and calming, though a minority report it triggered a rash or worsened their rosacea.",
+  "dry": "Reviewers with dry skin find it hydrating enough to help with redness, though several note they still layer a heavier moisturizer on top.",
+  "oily": "One reviewer with oily, sensitive skin reports it keeps her complexion matte and balanced all day, while another warns the glow finish it leaves may not suit very oily skin."
+ },
+ "concerns": {
+  "redness": "Most reviewers report a visible, sometimes rapid reduction in facial redness and rosacea flushing with regular use, including several who call it life-changing; a notable minority, mostly among the lowest-rated reviews, say it did nothing for their redness or that the cream 'just sits' on the skin without helping.",
+  "blemishes": "Several 1-star reviewers report new breakouts or painful pimples after use, including one describing it as the worst breakout of her life; many more reviewers explicitly note it did not cause any breakouts for them.",
+  "dehydration": "A handful of reviewers experienced marked dryness or peeling, in one case compared to a sunburn that took a week to resolve, while most others describe the formula as hydrating rather than drying."
+ },
+ "aspects": [
+  {
+   "libelle": "Pump dispenser is hygienic and precise",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Tends to pill under sunscreen or makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle feels pricey for what you get",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Not rich enough alone for very dry skin",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "victoria",
+   "titre": "worst break out of my life",
+   "texte": "well this worked for my roseacea however, it gave me the worst most painful break out I have ever had after two days of use, will have to return unfortunately",
+   "date": "2025-10-24",
+   "verifie": false,
+   "utiles": 16,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Madeleine",
+   "titre": "Not for rosacea!!!!",
+   "texte": "I don't normally leave reviews but I need to warn my fellow rosacea girlies. This product's second ingredient is Octyldodecanol. In three separate scientific studies this ingredient was identified as an irritant, even in very small amounts. In addition, the presence of this ingredient *enhanced* the irritation of other ingredients. So why would they put it in a product for people with sensitive, reactive skin? Save your money. I got a rash all over my cheeks.",
+   "date": "2026-08-01",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Abba",
+   "titre": "Very drying",
+   "texte": "It worked and reduced rednesses but my skin peeled so much I had to stop using it. It took a week to stop peeling.",
+   "date": "2024-08-11",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kait",
+   "titre": "Works so fast you can watch it happen!",
+   "texte": "As a disclaimer, my redness is not from rosacea, I have sensitive pale skin and hormonal acne from PCOS. It's really magical how well this stuff works. After a few uses, especially when I use it twice a day, my redness disappears almost instantly after application. It's crazy to watch. Truly a miracle product! However,… it does have its drawbacks. It does pill a bit, I don't find it to be moisturizing enough for my dry skin, and my skin has started peeling and flaking almost like eczema since I've started using this product. I haven't changed anything else in my routine, but the peeling might just be a coincidence.",
+   "date": "2025-04-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kay",
+   "titre": "Changed my Life. TRY IT.",
+   "texte": "I was really unsure about trying this product, since some of the reviews are really bad, but I am SOSOSOSO glad I did. WOW. I have tried SO many products for my Type 1 Rosacea. I have no acne, but I will flush like a tomato at the drop of a feather. I was even at the point of considering prescription medications. Within ~5 days, my flushing had SIGNIFICANTLY reduced. Within ~10 days, I have not have a single episode of flushing. My face no longer feels like it's constantly burning. I use this every AM & every PM. I've already repurchased two more bottles because I seriously cannot live without this product. The consistency is pretty lightweight, so I put a more intensive moisturizer on top of it. Despite what some have mentioned, my product has no obvious smell.",
+   "date": "2025-12-27",
+   "verifie": false,
+   "utiles": 24,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Babylegs",
+   "titre": "Avene redness",
+   "texte": "Helps my rosacea and spreads smoothly. I have dry skin on my face and a small amount of this last all day. Or night.",
+   "date": "2024-10-17",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "tanyah119_472",
+   "titre": "Skin soother!",
+   "texte": "Avene Redness Expert Soothing Moisturizing Concentrated Cream is perfect for anyone dealing with oily, sensitive skin looking for a solution to redness. This cream is specifically designed to target redness and soothe irritation, and it has exceeded my expectations. Upon application, the cream has a lightweight texture that absorbs quickly, leaving my skin feeling instantly calmed. I appreciate how it effectively hydrates without feeling heavy or greasy, which is often a challenge with other moisturizers for oily skin types. After using it, my complexion feels balanced and remains matte throughout the day, which is a huge plus for me. I've noticed a significant improvement in the overall appearance of my skin, with visibly less redness and a more even tone. The formula includes soothing ingredients, such as Avene Thermal Spring Water and a combination of plant extracts, which help to reduce inflammation and irritation. As someone with sensitive skin, finding a product that delivers results without causing breakouts or irritation is essential. Avene Redness Expert meets that requirement perfectly!",
+   "date": "2025-04-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

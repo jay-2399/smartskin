@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2007279",
+ "asin": null,
+ "pid": "pimprod2007279",
+ "source": "ulta",
+ "nom": "La Roche-Posay Effaclar Adapalene Gel 0.1% Topical Retinoid Acne Treatment",
+ "note": 4.41,
+ "nbAvis": 595,
+ "lus": 78,
+ "collectes": 124,
+ "segments": {
+  "sensitive": "Reviewers who describe sensitive skin frequently report significant dryness, redness, burning, or a rash-like reaction, especially when starting too often; some of these same reviewers say the product still worked once they slowed down to once a week, while a few stopped using it altogether.",
+  "dry": "Reviewers with dry or dry-and-sensitive skin report the gel is especially drying, comparing their skin to lizard scales in the colder months, and generally recommend it suits oily or combination skin better.",
+  "oily": "Reviewers with oily skin, including one who also has sensitive skin, report the gel can still cause flaking and dryness but works well for breakouts, with one recommending it specifically for oily, breakout-prone skin.",
+  "combination": "Reviewers with combination skin, some also noting sensitivity or eczema, report the gel keeps hormonal or cystic acne under control, though it does not resolve every type of flare-up they experience."
+ },
+ "concerns": {
+  "aging": "A few reviewers, using the gel primarily for acne, also report improved fine lines and describe it as an effective anti-aging step; one was specifically directed to it by a dermatologist to help with wrinkles.",
+  "dehydration": "Dryness is the most consistently reported side effect across skin types, ranging from mild dryness managed with a moisturizer to severe flaking, tightness, and peeling, especially when application frequency is increased too quickly.",
+  "redness": "Many reviewers report redness, burning, or a rash-like reaction, particularly in the first days or weeks or when applied too often; several say this eases once they reduce use to once or twice a week and pair it with a rich moisturizer.",
+  "spots": "Multiple reviewers report reduced hyperpigmentation, acne scarring, and dark spots with consistent use over one to several months; a couple say the effect on scars or texture was limited or took longer than expected.",
+  "blemishes": "Blemishes and acne, including hormonal, cystic, and long-standing acne, are the central focus of nearly all reviews: many report significant, sometimes dramatic clearing after a purge period of several weeks to a few months, while a smaller number report their acne got worse or saw no improvement at all.",
+  "oiliness": "One reviewer reports the gel reduced sebum production, which she credits with fewer clogged pores over time."
+ },
+ "aspects": [
+  {
+   "libelle": "Small amount needed, tube lasts long",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bleaches pillowcases and fabric",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Price has risen noticeably over time",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented gel, smooth application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires careful, gradual introduction to avoid harsh reactions",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "ILoveHavingDrySkin",
+   "titre": "Be cautious if you have sensitive skin!",
+   "texte": "I've been using La Riche Posay products for years, such as their acne cleansers and toners. I've never had any severe reactions with any of their products until I used this gel. I tried this stuff two days ago and now my entire face is severely flakey, red, dry, and painful. It feels and looks like I have a sun burn (I had no sun exposure). Even trying to put moisturizer or Aloe vera gel on my skin, it stings and makes my skin inflamed. I've only put a small dab of this gel on my face twice and got this terrible reaction. I've never had this reaction to any other product. I'm very disheartened because this gel did seem to help shrink pimples but, it literally ruined my face. Be very cautious when using this gel if you have sensitive skin.",
+   "date": "2023-10-18",
+   "verifie": true,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Hope",
+   "titre": "Good product but a little goes a long way",
+   "texte": "I will say that this product does really good at taking away acne. I used 1 tube of this and i do like this product however it was not good for my skin type. I have very very dry and sensitive skin. In the colder months my face looks like lizard scales. When i first used this product i would do the retinol sandwhich but it would still dry my skin out. I think if you have more oily or combo skin this product will be better for you. My acne type consisted of white heads and the bumps under that took forever to surface and when they did surface they would turn into scabs. A gentler product that I switched too and absolutely love is the First Aid Beauty 0.3% Retinol Complex Serum with Peptides. It has not tried my skin out at all and my face has never been more acne cleared.",
+   "date": "2024-03-14",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cece",
+   "titre": "Repaired Years of Acne Scars",
+   "texte": "I have dry sensitive skin If you have acne scars, you're familiar with the uneven texture on the areas of your skin where the scars are. Your pores are almost like craters. Before this product, I used La Roche Posay's Retinol B3 Serum @ night, it was a good introduction to this product which is much stronger acting. You do not need a lot of this. The texture of my skin is so EVEN and TIGHT (in a good way) I have used it for a week now, I think I was using too much of it becaude my skin did dry out slightly but wow. This is PERFECT for acne scars",
+   "date": "2024-08-14",
+   "verifie": false,
+   "utiles": 65,
+   "peau": "dry",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "amber",
+   "titre": "Holy grail",
+   "texte": "I been using this for two years now and it really does make a difference in my skin. This is great for when I need to maintain hormonal acne or clearing up acne scars. I have combination, sensitive skin and this is the product that I will always reach for at night to clear up acne/scars & to improve overall complexion.",
+   "date": "2025-02-20",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "D",
+   "titre": "Changed my life",
+   "texte": "My face has always been sensitive & I could never get it to calm down—my skin would literally inflame over anything. This has changed that!!!! 1. It decreased my redness substantially. No more clogged pores. I FINALLY HAVE CLEAR SKIN—LIKE ALL ONE COLOR. 2. It can obviously be drying, but not at all if you heavily moisturize at night (as you should). 3. Yes, it may make you break out in the first few days-weeks. Relax, it comes to an end. Your pores will be less noticable after about a month!!! Literally, it stops sebum production (the oily stuff that clogs your pores & causes acne) 4. It's significantly improved the texture of my skin & reduced the look of fine lines. Retinoids are known to increase collagen!!!!",
+   "date": "2023-04-28",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "oiliness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jillian S",
+   "titre": "Pricey but works",
+   "texte": "I love this product. Does it work - yes. I have combo skin, severe eczema and hormonal acne flares around my smile lines and cheeks. This doesnt help with my flare ups, but has had a great impact on preventing cystic acne on my cheeks and forehead. I have noticed my dark spots lighten quite a bit. I use this product 5x a week. I got it 6 months ago and still have a months worth of product left. I do wish it was less expensive, but the price will not deter me from repurchasing.",
+   "date": "2026-07-21",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tiff_505",
+   "titre": "Absolutely Loved this Product!",
+   "texte": "Ever since I switched my face wash, my skin has been breaking out uncontrollably so bad! So I decided to finally purchase this product along with the EFFACLAR DUAL ACTION ACNE FACE WASH and I saw results literally right after the first day couldn't more happier with the results finally products that actually work and do what they say. If you have really bad breakouts and oily skin I really recommend this product along with the face wash.! It will dry up your skin, but it is completely worth it.",
+   "date": "2025-05-13",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

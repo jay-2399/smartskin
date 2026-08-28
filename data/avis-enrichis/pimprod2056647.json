@@ -1,0 +1,142 @@
+{
+ "ref": "pimprod2056647",
+ "asin": null,
+ "pid": "pimprod2056647",
+ "source": "ulta",
+ "nom": "VANICREAM Enhanced Moisturizer with Hyaluronic Acid & Ceramides",
+ "note": 4.78,
+ "nbAvis": 209,
+ "lus": 80,
+ "collectes": 119,
+ "segments": {
+  "dry": "Reviewers with dry skin generally describe the moisturizer as hydrating through the day, though a few with very dry or rough hands say the watery texture feels too light and doesn't fully relieve dryness, particularly in winter.",
+  "sensitive": "Reviewers with sensitive skin, including some managing rosacea or eczema, report no irritation and value the fragrance-free formula, using it safely on themselves and their children.",
+  "combination": "One reviewer with combination skin found it kept her face moisturized without heaviness, preferring it to a barrier-focused moisturizer she had used previously."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers, including several with dry skin in winter or desert climates, describe the moisturizer as hydrating and long-lasting, though a handful say the thin, watery texture doesn't provide enough moisture for very dry or rough skin.",
+  "barrier": "Reviewers managing eczema or a stressed barrier report the ceramide and hyaluronic acid formula calms flare-ups and reduces flakiness without irritation.",
+  "redness": "A couple of reviewers with rosacea or eczema-related redness report the moisturizer cleared dry, irritated patches and reduced flakiness during a flare-up without triggering a reaction.",
+  "blemishes": "Several reviewers with acne-prone or sensitive skin note the moisturizer does not clog pores or cause new breakouts."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thin, watery consistency for a cream",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Convenient pump dispenser",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can feel sticky when used on arms or back",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value, bottle lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Olde Smoke",
+   "titre": "Not impressed",
+   "texte": "I got the Vanicream sensitive skin moisturizer for free through buzz agent so what did I have to loose. I honestly was not impressed. My hands are normally rough and dry and I use a thicker cream like moisturizer. The Vanicream was more on the watery side and just didn't feel that instant comfort like I get from the higher end brands. I've also been using the Vanicream for two weeks and my hands are still shot. Overall I would recommend something else and would not buy this product on my own.",
+   "date": "2026-06-04",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Lalaloopsy1341",
+   "titre": "Creamy and hydrating",
+   "texte": "My skin is super dry. I love to use it for every purpose. I wouldn't say it has hydrated for 24 hrs exactly but with reapplication I believe it can cure the dryness. I would buy this brand and exact bottle again! I love that it has no fragrance, no dyes, no lanolin, no parabens. It is super lightweight also.",
+   "date": "2026-06-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ryan",
+   "titre": "Great for sensitive, dry skin",
+   "texte": "I have sensitive, dry skin that can get irritated easily, so I'm always careful with moisturizers. Vanicream™ Enhanced Moisturizer feels really soothing and hydrating without being heavy or greasy. I like that it doesn't have fragrance and doesn't make my skin burn or feel uncomfortable. It leaves my skin feeling soft, calm, and moisturized, especially when my skin barrier feels dry or stressed. This is a great everyday moisturizer if you want something gentle, simple, and effective.",
+   "date": "2026-06-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Megs",
+   "titre": "This lotion does it all!",
+   "texte": "I was very surprised on how well this lotion worked as it was lighter than I thought it would be. I have rosacea and very dry sensitive skin so I was hesitant to try it. I did not have a reaction at all. After a few days the dry skin around my mouth had cleared up. I would recommend this for anyone with sensitive skin for both your body and face.",
+   "date": "2026-05-25",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "GM",
+   "titre": "New addition to skin care routine",
+   "texte": "I have been using the moisturizer for about 3 weeks now and I have seen a great change. As some background my skin is very sensitive to perfumes and certain makeup. I also have eczema and flare-ups that cause flaky skin. Since using the Vanicream moisturizer I have noticed a reduction in the flakiness on my skin and less redness. I have also started wearing it as a base for my tinted moisturizer and it held up quite well",
+   "date": "2026-05-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Harsim",
+   "titre": "Love this product",
+   "texte": "I am using this Vani cream from a while and being a dry skin person, it has been a great addition to my skin care. It gives long lasting hydration and very light weight. Not greasy and sticky at all. It contains hyaluronic acid and 5 key ceramides which makes it all-in-one moisturiser. I have very dry and sensitive skin but this has been a game changer for my skin. I will highly recommend to give it a try.",
+   "date": "2026-05-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}
