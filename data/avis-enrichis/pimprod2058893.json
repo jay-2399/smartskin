@@ -1,0 +1,154 @@
+{
+ "ref": "pimprod2058893",
+ "asin": null,
+ "pid": "pimprod2058893",
+ "source": "ulta",
+ "nom": "La Roche-Posay Mela B3 Eyes Intensive Corrective Eye Treatment",
+ "note": 4.56,
+ "nbAvis": 433,
+ "lus": 80,
+ "collectes": 125,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers mostly report the eye treatment is gentle with no irritation, redness, or stinging, though a minority describe stinging on application or the product migrating into the eyes and causing watering.",
+  "dry": "The one reviewer who names dry skin, alongside sensitivity, reports the cream lightened her dark spots without triggering her rosacea.",
+  "mature": "One self-described mature, normal-skin reviewer with freckles, dark spots, wrinkles, and rosacea reports no irritation and is watching for further improvement, while another reviewer in her 50s reports the treatment softened the lines around her eyes without irritation.",
+  "normal": "The same mature-skin reviewer above also describes her skin as normal, reporting no irritation from the treatment."
+ },
+ "concerns": {
+  "spots": "Most reviewers report a brightening effect on dark circles, often described as gradual over one to several weeks, with the product's peach or beige tint also helping visually mask discoloration; a few reviewers see little to no change in their dark circles despite otherwise liking the texture.",
+  "aging": "Several reviewers report softer, less visible fine lines and firmer-looking skin around the eyes with regular use, though some say they can't judge this because they don't have visible lines to begin with.",
+  "dehydration": "Reviewers widely report the treatment leaves the under-eye area hydrated and less puffy, crediting the cooling metal applicator for the depuffing effect, though one reviewer notes the formula can feel slightly greasy before it fully absorbs.",
+  "blemishes": "Two reviewers report the product gave them new milia around the eyes, a dissenting note against the many reviews reporting no irritation or breakouts."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling metal-tip applicator feels soothing and depuffing",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves a whitish residue or cast that needs blending in",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight tint helps visually mask dark circles",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires fingertip tapping to fully absorb",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can migrate into eyes and cause watering or stinging",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Brittany",
+   "titre": "Causes stinging",
+   "texte": "[I received this product in exchange for my honest review] I was excited to try this as I usually love LRP, but it caused stinging / irritation when I put it on my under eyes. I saw minimal improvement, but I wasn't able to use it for as long as intended given the irritation. Tbf I have sensitive skin so it may work better for others",
+   "date": "2026-07-13",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Marcella",
+   "titre": "Not crazy about this product",
+   "texte": "[I received this product in exchange for my honest review] I had higher hopes for this product - it was hard to blend in (especially with the applicator). It also burned if I accidentally got it anywhere close to my eyes which is bad for an under eye product. Also, I'm prone to milia and felt like this product gave me more milia. I would unfortunately recommend another eye product before this one.",
+   "date": "2026-06-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Aileen",
+   "titre": "Effective formula",
+   "texte": "[I received this product in exchange for my honest review] ​I have been using this ese cream treatment for a while now, and I'm torn ;/.. The product actually works. I have noticed a real improvement in the appearance of my dark circles and fine lines; it definitely delivers on its promises regarding efficacy. ​However, I've had a significant issue with application. Even when I am extremely careful and apply it nowhere near my lash line, it seems to migrate into my eyes overnight. Whenever this happens, I wake up with puffy eyes, it doesn't seem to irritate the skin around my eyes at all, but the sensitivity inside the eyes themselves is a dealbreaker for me. ​Also, I wanted to mention that the product has a slight tint to it that on my fair skin, it's barely noticeable, but I imagine it would be much more visible on deeper skin tones. While this shouldn't be an issue since it's intended as a nighttime treatment, it is something to keep in mind if you prefer products that dry down completely clear. ​Overall, it is a good formula that produces results, but if you have sensitive eyes like mine, you might want to proceed with extreme caution or look for an alternative.",
+   "date": "2026-06-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Luiza",
+   "titre": "Great product!",
+   "texte": "I'm a huge fan of La roche posay. I've been using the products for a while because my skin is dry and sensitive. And this product did his job! It made my dark spots under the eyes lighter and it didn't trigger my rosacea. It's light and matte finish, not sticky. It worked better using every other day for me.",
+   "date": "2026-06-12",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Christina",
+   "titre": "Brilliant eye treatment",
+   "texte": "I received this La Roche-Posay eye cream for free to try and review and I must say I'm grateful to have found it. For the last 5-6 years, I feel like my under eyes have become dark, sunken, and puffy all at the same time. This Mela B3 eye cream has helped brighten my under eyes and they seem smoother and less puffy. Dare I say, my eyes look youthful. I've been so happy with it, my husband has been using it along side me and is also thrilled with it. He tends to be sensitive to eye creams, most causing him red, itchy eyes. Not this one! We will buy this one when we run out!",
+   "date": "2026-06-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Donna",
+   "titre": "Definitely repurchase!!",
+   "texte": "[I received this product in exchange for my honest review] After only 2 weeks of use I could tell a major difference under my eyes. When I wake up in the morning and wash my face I look more refreshed and ready to take on the day I don't have to wear as much under eye concealer as I was wearing. I don't know what they put in here but it really works!! didn't ask you to get older in life you look for things to make you look younger!! :-)",
+   "date": "2026-06-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stephanie",
+   "titre": "Softens the age lines",
+   "texte": "[I received this product in exchange for my honest review] I have been using Mela B3 Eye Intensive Corrective Eye Treatment to soften the lines under and around my 50+ year old eyes and I love the results! It's easy to put on and doesn't irritate your eyes ( mine are very sensitive). I'm very happy with this product!",
+   "date": "2026-06-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}
