@@ -1,0 +1,149 @@
+{
+ "ref": "pimprod2056945",
+ "asin": null,
+ "pid": "pimprod2056945",
+ "source": "ulta",
+ "nom": "CeraVe Invisible Mineral Sunscreen SPF 50 Face",
+ "note": 4.72,
+ "nbAvis": 826,
+ "lus": 80,
+ "collectes": 122,
+ "segments": {
+  "dry": "The two reviewers who describe their skin as dry, one also very sensitive, report the sunscreen moisturizes and soothes without stickiness or greasiness.",
+  "sensitive": "The large majority of reviewers with sensitive skin, including some with barrier issues or reactions to most products, report no irritation, stinging, or breakouts and call it the first mineral sunscreen that works for them; however, one reviewer with sensitive or acne-prone skin found it felt heavy and stung her eyes and does not recommend it for that skin type.",
+  "combination": "The reviewer with combination skin reports no irritation or breakouts, calling it a good on-the-go option.",
+  "oily": "Reviewers with oily skin are split: one reports the formula works perfectly and doesn't feel sticky, while another found it left her face feeling exceptionally oily throughout the day.",
+  "mature": "The reviewer who describes her skin as mature (in her seventies) reports the formula applies smoothly with no residue and has replaced her previous discontinued favorite."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers describe the formula as moisturizing or hydrating rather than drying; however, one reviewer reports that she and her children's faces felt and looked like 'sandpaper' the day after use, with dryness that didn't resolve after five days of moisturizing, and another says the formula alone isn't enough moisture and needs a lotion layered on top.",
+  "redness": "Reviewers report little to no redness or irritation after wear, including during extended sun exposure.",
+  "barrier": "Reviewers with compromised or reactive skin barriers, including one who reports everything else irritates her skin, say this sunscreen is the exception and causes no irritation, with one crediting the ceramide and hyaluronic acid content for actively supporting her barrier.",
+  "blemishes": "Reviewers with acne-prone or blemish-prone skin overwhelmingly report no new breakouts or purging, even with daily and prolonged use; one reviewer, however, felt the formula was too heavy and would not recommend it for acne-prone skin.",
+  "oiliness": "Most reviewers describe the finish as non-greasy and matte-to-natural, even during outdoor activity; a couple of reviewers, however, report it left their face feeling oily or greasy throughout the day."
+ },
+ "aspects": [
+  {
+   "libelle": "No white cast on most skin tones, unusual for mineral SPF",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "White cast can reappear when sweating heavily",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Very runny consistency; can run in heat",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Virtually fragrance-free",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains ceramides and niacinamide, feels like skincare",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser controls the amount well",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Jess",
+   "titre": "Didn't burn but turned my skin to sandpaper",
+   "texte": "I got this sunscreen because I have used many Cerave products in the past, and I trust the brand. However, after applying on myself and my kids, the next day, all of our faces felt and looked like dried sandpaper. I have been trying to moisturize my skin for the past five days now, and nothing seems to get rid of the dryness. I have never had this happen with a sunscreen before.",
+   "date": "2026-05-26",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Phuong",
+   "titre": "Not for sensitive",
+   "texte": "[I received this product in exchange for my honest review] Honestly I don't recommend this sunscreen for any sensitive or acne skin. Feel very heavy on skin and makes my eyes stinging. I believe this one will be better to apply on neck and body instead. The good point of this product is not whitening and looks really neutral on skin",
+   "date": "2026-05-24",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Malik",
+   "titre": "Good but oily",
+   "texte": "[I received this product in exchange for my honest review] This product does a great job at not leaving a white cast on the face, it is relatively odorless which I enjoy in a product. The only complaint I have is that this sunscreen left my face feeling exceptionally oily throughout the day.",
+   "date": "2026-06-19",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Alex",
+   "titre": "Perfect for on the go!",
+   "texte": "[I received this product in exchange for my honest review] This CeraVe sunscreen works pretty well for my skin. I have combination skin and this product has not irritated or cause my face to break out in the slightest. It doesn't leave a white cast after application and dries fairly quickly. For a sunscreen there is not much scent which I like because it won't clash with any fragrance I want to wear. A little goes a long way as this product is also very easy to apply and a small amount covers your whole face. This product would be a great on the go item to keep in a bag and apply whenever you want to stay protected from the ultraviolet rays from the sun!",
+   "date": "2026-04-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CLV",
+   "titre": "What I was Hoping For",
+   "texte": "Finally a similar and good product from the original Clinque City Block I used to buy and wore for years until they changed the texture and such. I am back to Cerave products for my mature and a little sensitive skin. I do wear 50 sunscreen moisturizer but I have always had the habit of a face sunscreen too prior to makeup, I know it sounds redundant but a habit I've done since my 30's. With this produce I'm back to doing that or just using alone before outside and walks, bike rides etc. It goes on smooth for a full coverage, no feel or smell or white residue of any kind like regular sunscreen. I am 71 years with mature but yet smooth skin.",
+   "date": "2026-04-30",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "MeeMaw",
+   "titre": "Finally found a sunscreen I look forward to wearing daily",
+   "texte": "I'm a medium-tan 48yo Black Woman with extremely dry and sensitive skin. This sunscreen is one that i look forward to putting on in the morning. It moisturizes, looks good alone or underneath a tinted moisturizer/foundation, and soothes my skin.",
+   "date": "2026-07-12",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Claire",
+   "titre": "Best sunscreen ever for sensitive skin!!",
+   "texte": "I never leave reviews but i love this sunscreen so much that i have to leave one! It is the only mineral sunscreen that is truly invisible (ive tried and returned many)! I have been having terrible skin issues and barrier issues and everything irritates my skin. BUT this has not caused any irritation at all! Ive never broken out from this either, i do make a conscious effort to thoroughly clean my face at night after ive used it. I love how there is no fragrance or weird smell to it as well! I only use a few light cream make up products and it doesnt pill. Im not sure how well it would preform with foundation or other heavy products. My only \"con\" about this product is it doesnt fully dry down, its a little sticky and i can feel it on my skin. I have sensory issues so maybe im just more sensitive to it. Ive bougnt this sooo many times and its changed my life!",
+   "date": "2026-07-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}
