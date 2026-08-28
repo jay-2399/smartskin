@@ -1,0 +1,137 @@
+{
+ "ref": "xlsImpprod13762415",
+ "asin": null,
+ "pid": "xlsImpprod13762415",
+ "source": "ulta",
+ "nom": "Cetaphil Gentle Skin Cleansing Cloths Twin Pack",
+ "note": 4.38,
+ "nbAvis": 634,
+ "lus": 80,
+ "collectes": 119,
+ "segments": {
+  "dry": "Reviewers with dry skin report the cloths clean effectively without irritation, including one reviewer whose dry, mature skin tolerated them well and who found they removed even waterproof mascara.",
+  "sensitive": "Reviewers with sensitive skin overwhelmingly describe the cloths as gentle and non-irritating for daily makeup removal and refreshing, though several reviewers with sensitive skin report the reformulated version burns, stings, itches, or leaves a sticky residue.",
+  "normal": "One reviewer with normal skin reports the reformulated version is not gentle and left their face sticky, itchy, and red.",
+  "mature": "One reviewer in her 40s with sensitive, dry skin reports the cloths are soft and gentle and remove even waterproof mascara well."
+ },
+ "concerns": {
+  "redness": "Numerous reviewers report the reformulated wipes cause stickiness, itching, redness, burning, or an allergic-type reaction, in sharp contrast to how gentle they found the previous formula; other reviewers, including some with sensitive skin, still report no redness or irritation.",
+  "dehydration": "A few reviewers find the cloths slightly drying on the skin, needing more pressure to remove makeup, though most describe them as non-drying and refreshing.",
+  "barrier": "One reviewer reports the wipes help improve the skin's moisture barrier while removing makeup, without triggering flare-ups on their eczema- and acne-prone skin.",
+  "blemishes": "Reviewers with acne-prone skin report the wipes clean without causing breakouts or rashes and help keep their skin clear."
+ },
+ "aspects": [
+  {
+   "libelle": "Reformulated version leaves sticky, itchy, or burning residue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Soft, gentle cloth texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Convenient resealable pack for travel, gym, or purse",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doesn't fully replace washing your face",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cloths dry out faster than expected in the pack",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or mild, pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "n1cki",
+   "titre": "Need the Old Formula Back",
+   "texte": "I have been using these almost daily for years. I wish I'd known the formula was changed when I purchased my recent packs. I am allergic to ingredients in the new formula. This is so, so disappointing as someone with sensitive skin. Please, bring back the old formula!",
+   "date": "2024-01-20",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "IIABDFI",
+   "titre": "If it ain't broke, don't fix it",
+   "texte": "These used to be the best face cleansing cloths available. They did the job while going on light and without a residue. The new and \"improved\" formulation is trash and left my face a sticky, itchy red mess. I have normal skin. These are not gentle. Sometimes the best fix is no fix at all. Did you even consumer test these before releasing this new formulation? I wish I'd checked all the bad reviews before buying these at the store.",
+   "date": "2023-11-14",
+   "verifie": true,
+   "utiles": 5,
+   "peau": "normal",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "lauren_loves_life_8912",
+   "titre": "Best cleansing cloth I have tried",
+   "texte": "I love these cleansing cloths. My face is dry and I am never bothered by using them. I do not use daily but at least a few times a week and I continue to buy them. I am on my 6th repurchase and still happy. They are soft and gentle for my sensitive, 40+ year old skin. Makeup comes off easily and even with waterproof mascara I find they do the job well. Will 100% continue to purchase.",
+   "date": "2026-02-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "AshleyV",
+   "titre": "Great for Sensitive Skin",
+   "texte": "Cetaphil is such a lifesaver for my eczema and acne prone skin! These wipes provide moisture without irritating the skin barrier or causing flare ups. Patch test, of course, but I'd give these a try if you also have sensitive skin!",
+   "date": "2026-02-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "samanthav48e3_3995",
+   "titre": "Love",
+   "texte": "I like these wipes for quick makeup removal, especially after the gym. They smell super fresh and help my skin feel clean without leaving any oily residue. Sometimes they can feel a little strong around the eyes, but overall they do a great job and are perfect for acne-prone skin when I'm on the go",
+   "date": "2025-10-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "alyssafrat",
+   "titre": "An okay product, room for improvement.",
+   "texte": "I didn't mind this product but it was not my favourite, i felt like the wipes were on the dryer side which caused me to use more force when taking my make up off. The scent was not bad, but i again prefer scent less. It compared close in price to the neutogena ones i usually would purchase.",
+   "date": "2024-03-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

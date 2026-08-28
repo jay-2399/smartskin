@@ -1,0 +1,140 @@
+{
+ "ref": "pimprod2045112",
+ "asin": null,
+ "pid": "pimprod2045112",
+ "source": "ulta",
+ "nom": "TULA 24-7 Weightless Moisture Day & Night Gel Cream",
+ "note": 4.62,
+ "nbAvis": 340,
+ "lus": 80,
+ "collectes": 123,
+ "segments": {
+  "oily": "Reviewers with oily or combination-oily skin generally report the gel cream controls shine and hydrates without feeling heavy, describing it as well suited to oily and combination skin.",
+  "dry": "Reports from reviewers with dry skin are mixed: several say it hydrates well and works even in winter, while multiple others found it insufficient for dry skin on its own, often needing to layer an oil or heavier moisturizer on top, and one reviewer describes it causing stinging and redness.",
+  "combination": "Reviewers with combination skin most often report it balances and hydrates without oiliness, though one combination-oily reviewer with dehydration found it sat on the skin without absorbing or adding hydration.",
+  "sensitive": "Reviewers with sensitive skin mostly report no outbreaks, redness, or irritation and describe it as gentle, though one reviewer with sensitive skin broke out and could not judge how well it otherwise worked.",
+  "normal": "Reviewers recommend the gel cream especially for normal skin, describing it as a good fit for that skin type.",
+  "mature": "Reviewers with mature skin, including one in her 50s, report it hydrates well and works better for their dry, mature skin than they expected from a gel formula."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers describe the gel cream as hydrating without feeling heavy, though several with dry or dehydrated skin found it insufficient on its own, especially in winter, and needed to layer an oil or heavier moisturizer on top.",
+  "redness": "Most reviewers, including some with sensitive skin, report no redness or outbreaks, though one reviewer with dry, non-sensitive skin experienced severe stinging and redness.",
+  "blemishes": "Several reviewers report the gel cream keeps breakouts at bay, including one using it on a teenager with acne, though one reviewer with sensitive skin broke out using it.",
+  "oiliness": "Reviewers with oily or combination-oily skin report it controls excess oil and reduces the look of enlarged pores while still hydrating.",
+  "aging": "A few reviewers in their late 30s to 50s report the peptides help plump the skin and soften the look of fine lines with nightly use."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight gel texture that absorbs quickly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Play-Doh-like or off-putting scent for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Jar packaging less hygienic than a pump",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains artificial dyes despite 'clean' claims",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Rachel",
+   "titre": "Worst moisturizer ever! Severe Irritation",
+   "texte": "This is the worst moisturizer that I've ever tried hands down. Firstly, if youre a dry skin girly like me, this product will not be moisturizing enough for you. The reason I was trying it was because I got a gift set of a bunch of Tula products and this was the last one I was trying out. I have dry skin that is not sensitive. I could literally moisturize with bacon fat and I'd probably not break out or experience any irritation lol. But this product…I did my normal routine and the only change was finishing with this moisturizer and my face started stinging so badly and turned completely red. I tried it one more time to make sure it was this product and it was. Do not buy this moisturizer!!!",
+   "date": "2025-11-29",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Tony",
+   "titre": "Product Irritated My Skin",
+   "texte": "I could not tell how well this product worked since I have sensitive skin & broke out using it. Tula has other great products that I use frequently, such as Glow & Get It Cooling Under Eye Balm, but this Gel Crème is not for me. I will be returning it.",
+   "date": "2025-10-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Christina",
+   "titre": "Not for me",
+   "texte": "I received this product in exchange for my honest review. I usually love Tula products so I was excited to try this but was left disappointed by it. I have combination skin, mostly oily that can have dry spots sometimes and dehydration with visible pores. I did feel like it helped to minimize the appearance of my pores but offered no hydration. It felt like the moisturizer just sat on my skin instead of absorbing in leaving my face feeling tight and more dehydrated. I also wish that products that were meant for hydration would stop putting exfoliating ingredients in them, this moisturizer uses lactic acid which is a chemical exfoliator. Daily use of products with exfoliating ingredients actually makes my skin more dry causing my face to over produce oil to compensate for the dryness leaving me more oily than usual. Overall this product was not it for me and it's not something I would continue to use.",
+   "date": "2025-05-04",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dessa",
+   "titre": "Best ever!!",
+   "texte": "I am a skincare junkie, and well, this one just worked well for my dry, mature, 50-year-old skin. I feel as we age, our skin changes anyway, but I never thought a gel would be better for my dry skin. This one is truly like water for my face.",
+   "date": "2025-06-08",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Johanna",
+   "titre": "highly recommended, I would buy it again every time.",
+   "texte": "Recibí este producto a cambio de mi revisión honesta. I've been using it for several days and I can say that I like its ingredients. I have enlarged pores and oily skin, and it has helped me a lot to hide them. I also like that it doesn't contain any annoying fragrances.",
+   "date": "2025-04-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Saray",
+   "titre": "Hydrating moisturizer",
+   "texte": "[I received this product in exchange for my honest review] I loved this moisturizer!! It keeps my skin very hydrated and is very lightweight! It didn't leave my face greasy and I woke up with super soft skin! Definitely recommend for those who have dry skin! It also is a very good moisturizer to use before applying makeup",
+   "date": "2025-05-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,135 @@
+{
+ "ref": "pimprod2029976",
+ "asin": null,
+ "pid": "pimprod2029976",
+ "source": "ulta",
+ "nom": "Kate Somerville EradiKate Acne Mark Fading Gel",
+ "note": 4.38,
+ "nbAvis": 24,
+ "lus": 22,
+ "collectes": 22,
+ "segments": {
+  "sensitive": "One reviewer with sensitive skin reports the gel diminishing scars from previous breakouts without issue."
+ },
+ "concerns": {
+  "blemishes": "Reports are sharply split: several reviewers with hormonal or cystic acne say breakouts stopped almost entirely, while others describe the gel triggering their worst breakout ever or turning a mark into an active, deep-wound pimple.",
+  "redness": "One reviewer says the gel calmed rosacea-related redness within a day or two, while another reports it left her skin with red, dry patches and worsened irritation.",
+  "dehydration": "Reports are mixed: some reviewers say the gel does not dry out or tighten their skin, while others describe it as very drying, with one recommending a morning moisturizer and one reporting dry patches after a bad reaction.",
+  "spots": "Most reviewers report faded acne marks, scarring, or hyperpigmentation, in some cases after years of other products not working, though one says her marks only lightened rather than fully cleared and another reports the gel did nothing for her marks and made them worse."
+ },
+ "aspects": [
+  {
+   "libelle": "Silver paint on the pump chips into the product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight gel melts into skin quickly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable scent some find off-putting at first",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle empties faster than expected for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible results within days for some users",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Undisclosed",
+   "titre": "Worst nightmare. Made my skin worse",
+   "texte": "This product gave me my worst nightmare. After using this product hoping to remove my pimple scars, it left my skin with red and dry patches and worst, it even broke me out. So the pimple marks turned into active pimples and I had the biggest pimple ever that turned into a deep wound after using this gel into those spots. Instead of fixing \"small blemishes or pimple marks\" it made my skin worse, and resulted to bigger marks. After one month, that big pimple which turned into a deep wound or had deep scarring is not yet fully healed. This product did not do anything to my blemishes and pimple marks, so its a complete waste of money. I even needed to spend more to address the big and red patches caused by this product especially that big pimple or deep wound/scarring. This product is sooooo terrible. Considering that it is pricey.",
+   "date": "2024-03-09",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness",
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Kat",
+   "titre": "Wanted to love it",
+   "texte": "I've had inflammation acne for most of my life. It's due to a health condition, so there's not a lot I can do. I try my best though. I was excited that this said it would help fade scars. I used it faithfully for several weeks. I expected to have a purge, but this was the worst breakout I think I've ever had. It's been awful! I don't know that it faded scars. My skin has never been worse though.",
+   "date": "2022-09-09",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "AJ",
+   "titre": "So far so good",
+   "texte": "This product lightened my scarring, but has not completely erased them. It causes my skin to break out, but it does clear up the spots/scars. I will continue to use until all is clear.",
+   "date": "2023-02-07",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "So far so good, looks",
+   "texte": "So far so good, looks like it's diminishing my scars from previous breakouts. Very nice for my sensitive skin.",
+   "date": "2023-06-05",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kay",
+   "titre": "Dark spots, where?",
+   "texte": "I have a tan/olive skin so I am very susceptible to getting dark spots. I use a little dab on each of my spots at night. Make sure to moisturize the next morning because it is very drying.",
+   "date": "2022-08-09",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Allie",
+   "titre": "Effective and fast working!",
+   "texte": "I have been using this product for about two weeks now, and I have started to see noticeable results. My acne scares on my chin have started to go away, and my skin looks healthier overall. I also have some rosacea on my cheeks, and this product calmed the redness down almost within a day or two. Will be re-ordering once I run out!",
+   "date": "2022-04-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": "Based on a small sample of 22-24 reviews, with unusually wide variance between dramatic improvement and adverse reactions."
+}

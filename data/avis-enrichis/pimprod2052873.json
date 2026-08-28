@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2052873",
+ "asin": null,
+ "pid": "pimprod2052873",
+ "source": "ulta",
+ "nom": "First Aid Beauty Daily Resurfacing Moisturizer with 2% Niacinamide",
+ "note": 4.45,
+ "nbAvis": 372,
+ "lus": 80,
+ "collectes": 125,
+ "segments": {
+  "oily": "The reviewers who describe oily or combination-oily skin say the lightweight, non-greasy formula suits oily skin and helps with post-acne marks without feeling heavy.",
+  "dry": "A reviewer with combination skin who leans dry says the lotion is thin and not enough on its own, needing a heavier product layered on top; another reviewer warns it would not suit someone with severely dry skin.",
+  "sensitive": "Most reviewers with sensitive or reactive skin report no redness, irritation, or pilling, though a few with sensitive or acne-prone skin describe pilling, dryness, or tightness.",
+  "combination": "Reviewers with combination skin describe it as thin and light, sometimes needing a hydrating serum underneath if their skin leans dry."
+ },
+ "concerns": {
+  "dehydration": "A common complaint is that the lotion is too drying and needs another moisturizer layered on top, especially for those with dry-leaning or resurfacing-sensitive skin; other reviewers instead describe adequate, non-greasy hydration and a soft, moisturized feel.",
+  "redness": "A reviewer whose husband has rosacea and extremely sensitive, acne-prone skin reports the unscented formula caused no irritation or breakouts; a couple of other reviewers say it helped calm redness from acne marks.",
+  "spots": "Many reviewers report post-acne marks, dark spots, and hyperpigmentation fading and skin tone becoming more even with regular use over a few weeks to a month; a handful say they saw no difference in their hyperpigmentation after about a month.",
+  "blemishes": "Several reviewers, some with hormonal or cystic acne, report fewer breakouts, smaller blackheads, and calmer skin overall; a few describe pilling, a rough initial purging period, or no real improvement to their acne.",
+  "oiliness": "The reviewer who identifies as having oily skin reports the formula absorbs quickly without adding shine or grease."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, absorbs quickly, non-greasy",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills or flakes under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Twist-up pump packaging praised",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle empties quickly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free, no noticeable scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels too drying for some",
+   "polarite": "neg",
+   "concerne": [
+    "dehydration"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Michelle",
+   "titre": "Not for me unfortunately",
+   "texte": "I was really hoping this would work well with my skin but it just leaves me with white flakes everywhere. I have combination oily/normal skin and have been dealing with hormonal acne the past year. The acne pads from this line work great but after less than a week of using this moisturizer, I'm sad to say that this product just isn't for me.",
+   "date": "2026-03-09",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Katie",
+   "titre": "Its okay. not for me",
+   "texte": "As someone with sensitive acne-prone skin, I was very excited to try this. I noticed that the moisturizer would pill and flake off and would make my skin tight. I used it multiple times and have found other products work better",
+   "date": "2026-02-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Dewydream",
+   "titre": "Reliable Lotion for Acne Prone Skin",
+   "texte": "[I received this product in exchange for my honest review] Absolutely love the effortless mess free packaging. The bottle is easy to close and helps with keeping things hygienic. This lotion isn't for the dry skin girlies. I have combination skin but sometimes lean towards the dry skin area. I suffer with acne and using this lotion has been really helpful in keeping my skin smoother and overall less pigmented from post acne marks and it never irritated my skin. However, if you are someone who needs more moisture in your routine you may need to use a hydrating serum before this lotion since it's thin in consistency and not heavy. I'm not sure if it's user error but since finishing this lotion in winter I'm peeling in some areas of my skin and this may or may not be the lotion but it was something I noticed. My one complaint of this lotion is that it contains titanium dioxide and it's something that I don't really mind, it may be something to consider.",
+   "date": "2026-01-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "anonymous",
+   "titre": "Great Moisturizer!",
+   "texte": "My husband has rosacea and acne prone skin, and he has enjoyed using this product. He has extremely sensitive skin and this unscented formula caused no irritation or break outs. The texture is lightweight, non greasy and absorbs quickly. Despite being a lightweight formula, it provided adequate hydration. The packaging is cute and practical, keeping the product fresh with the twist up dispenser. The negative is there is only 1 oz of product, and my husband went through the bottle quickly.",
+   "date": "2025-08-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristina",
+   "titre": "Great for hormonal acne",
+   "texte": "Im 37 yo with hormonal acne for the last year and ive been searching high and low for a moisturizer that will not exacerbate my acne prone skin. This is it!!! I wouldn't recommend it to anyone with severely dry skin because it isn't super moisturizing, but I just needed something that would help keep my skin barrier healthy since I use many acids and anti-acne actives on my face daily. I've been using this for a month and it has made my skin better not worse. I use twice daily and it has greatly reduced the amount of blackheads and closed comedones I get on my jawline and upper neck area. I highly recommend!",
+   "date": "2026-01-04",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sophie",
+   "titre": "10/10 moisturizer for sensitive skin!",
+   "texte": "[I received this product in exchange for my honest review] I've been using this product for a month now, and at first was a little hesitant because my skin is very sensitive and acne-prone. This product is a solid moisturizer and hasn't caused any irritation or redness for me. It also leaves my skin noticeably glowy! It's extremely lightweight and is perfect for day and night use. Bonus points for the unique packaging, the twist top makes it perfect for travel. This will be a repurchase for me 1000%.",
+   "date": "2025-08-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "anonymous",
+   "titre": "Great for oily skin",
+   "texte": "This moisturizer has sleek, spill-proof packaging and absorbs quickly, making it perfect for oily skin. With 2% niacinamide, it helps fade post-acne marks, smooths texture, and keeps my skin hydrated without feeling greasy.",
+   "date": "2025-08-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}
