@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2007170",
+ "asin": null,
+ "pid": "pimprod2007170",
+ "source": "ulta",
+ "nom": "Hanskin Pore Cleansing Balm - BHA",
+ "note": 4.56,
+ "nbAvis": 88,
+ "lus": 80,
+ "collectes": 86,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone skin most often report good oil control and no clogged pores after switching to this balm, though a couple describe their face feeling greasy or shiny immediately after rinsing.",
+  "dry": "Several reviewers with dry skin find the balm moisturizing rather than stripping, even though it is marketed toward oily skin.",
+  "combination": "Combination-skin reviewers report mixed results, from calling it a gentle holy-grail cleanser to complaining that it left their skin oily right after use.",
+  "sensitive": "Sensitive, eczema- and rosacea-prone reviewers are split: many report no irritation even when used around the eyes, while others describe barrier damage, stinging, or an allergic-like reaction.",
+  "mature": "One reviewer with older, acne-prone skin and large pores reports her skin and pore size improved noticeably after adopting this balm as a first cleansing step."
+ },
+ "concerns": {
+  "blemishes": "Most reviewers, including several with oily or acne-prone skin, report no new breakouts and some note fewer blackheads after using this as a first cleansing step; a minority describe breakouts triggered by the product, including painful bumps along the hairline.",
+  "oiliness": "Reviewers with oily skin generally credit the balm with controlling oil and not clogging pores, though a few describe their face feeling greasy or shiny immediately after rinsing it off.",
+  "spots": "Several reviewers report a visible reduction in blackheads and smaller-looking pores with regular use, including some who had already tried other cleansing balms and oils without the same result.",
+  "barrier": "A reviewer with eczema and rosacea reports the balm broke her skin barrier in areas beyond her oily nose, and another who already uses exfoliating actives found the BHA too irritating for sensitive skin; other reviewers with reactive skin report no such damage.",
+  "redness": "One reviewer describes her skin turning red immediately after rinsing, comparing it to an allergic reaction and ruling the product out for very sensitive skin, while several other sensitive or rosacea-prone reviewers report no redness at all."
+ },
+ "aspects": [
+  {
+   "libelle": "Melts into a satisfying oil texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Comes with a hygienic mini spatula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light citrus scent, generally well liked",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount goes a long way, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels greasy or heavy to some during use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Plain, unremarkable packaging",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Jessica",
+   "titre": "Not good for sensitive skin",
+   "texte": "I have eczema and rosacea but also produce alot of sebum on my nose. It was good at removing but it broke my skin barrier in other areas.",
+   "date": "2024-01-20",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Erin",
+   "titre": "GREAT for double cleansing!! Better than an oil!",
+   "texte": "I have very acne prone skin, oily skin, but dry around the edges of my face. Mainly get breakouts on my chin area and sides of cheeks and the occasionally forehead breakout. I have been searching for a balm cleanser for a while now. Oil cleansers are not the best for everybody and they definitely did not work for me. I saw this had a few great reviews and decided to try it. And I am not disappointed! This product does NOT clog your pores, and leaves my skin feeling so clean! This product did not cause me to break out and has helped me to better clean my skin. I pair this with the CeraVe Foaming Facial Cleanser for even better results. I hope you give this a try!!",
+   "date": "2020-06-23",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Shakes",
+   "titre": "I LOVE this balm!!",
+   "texte": "I have older, acne prone skin with large pores. I break out so easily and was nervous to try. I've never double cleansed before. After finishing my first jar my skin hasn't lookes this good in years!!! I really work it in to get into my pores to help dissolve sebum and build up. I follow with Cerave and a low coat vitamin c serum. I swear I took 5-10 years off my face. Not one break out. My pores have cleared out a ton and look smaller for the first time ever. In the last 2 weeks I had 2 separate people compliment me on my complexion. I almost fell over. Me? Good skin?! I'm so grateful!",
+   "date": "2023-09-09",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "mature",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Verano",
+   "titre": "Love this cleansing balm!",
+   "texte": "I have very sensitive skin/ eczema around my eyes and eye makeup remover and cleansing wipes irritate my eyes. This balm removes my waterproof eyeliners and mascaras with no problems and does not irritate my eyes at all. So happy I found this!",
+   "date": "2024-01-22",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ms Anne",
+   "titre": "a little goes a long way on rosacea skin",
+   "texte": "comes with a little spatula so it doesn't get contaminated. it instantly dissolves into a nice consistency almost like coconut oil but is easy to wipe off with washcloth. no residue, no need to spend forever trying to get it off your face like coconut oil. it says for oily skin but it works really nice on my dry type 1 rosacea without irritating it. I bought it because it came with a free gift and now im hooked and will be buying it again!",
+   "date": "2022-09-28",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ara",
+   "titre": "Tried bc of good reviews",
+   "texte": "I was on the hunt for the perfect oil cleanser for my oily combo skin. I tried this beacuse of the reviwes and the exfoliation properties intrigued me . This oil cleanser is great because a little goes a long way when wearing minimal makeup and is a total pore cleanser oil cleanser. This saves my skin from the cystic breakouts by deeply cleansing, exfoliating without the dryness. I wouldnt recommend this product for people who have super sensitive skin because of the BHA,if they plan on using it for a daily oil cleanse but if maybe a weekly cleansing. Other than that I believe its sutible for all other skin types.",
+   "date": "2025-03-27",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alexys G",
+   "titre": "Definitely would use again",
+   "texte": "I have super oily, acne prone, and sensitive skin and this produce really does wonders. I break out quite frequent but I noticed after using this product while still using my daily morning/night cleaner, I have seen a huge difference in my acne and little bumps on my forehead.",
+   "date": "2020-07-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}
