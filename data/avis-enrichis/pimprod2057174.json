@@ -1,0 +1,137 @@
+{
+ "ref": "pimprod2057174",
+ "asin": null,
+ "pid": "pimprod2057174",
+ "source": "ulta",
+ "nom": "First Aid Beauty Ultra Repair Hydrate + De-Puff Eye Cream",
+ "note": 4.46,
+ "nbAvis": 267,
+ "lus": 77,
+ "collectes": 124,
+ "segments": {
+  "dry": "Reviewers with dry under-eye skin describe the cream as strongly hydrating and comfortable, leaving the area softer and smoother after use.",
+  "combination": "One reviewer with combination, redness-prone skin reports the cream suits her skin well and helps calm redness.",
+  "sensitive": "Reviewers with sensitive eyes or sensitive under-eye skin, including some using tretinoin or retinoids, consistently report no irritation or stinging; one reviewer notes it may pill and not suit very sensitive under-eyes when layered with other products."
+ },
+ "concerns": {
+  "aging": "Several reviewers report visibly smoother fine lines and a brighter, more rested look with regular use, credited to hyaluronic acid, caffeine and licorice; effects on dark circles are inconsistent, with some seeing a reduction and at least one reviewer noticing no change or circles looking more accentuated.",
+  "dehydration": "Most reviewers with dry under-eye skin describe strong, lasting hydration and a smoother feel; one reviewer reports the reformulated version dried out and irritated her skin instead of hydrating it.",
+  "redness": "Reviewers who describe redness-prone or rosacea-adjacent skin report the cream calms redness around the eyes without irritation.",
+  "barrier": "One reviewer with dry under-eye skin reports her skin barrier feels healthier with continued use."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free, unscented formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills or flakes under makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small dose needed, long-lasting tube",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Depuffing effect modest for hereditary bags",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Hygienic tube beats jar packaging",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "anonymous",
+   "titre": "not the same!",
+   "texte": "These are definitely not the same as they used to be. I have used the facial radiance pads for years with no issues. This formulation has irritated and dried out my skin horribly. Despite them saying it's the same thing in a different package, it's absolutely not the same. I have reached out to customer service with good responsiveness.",
+   "date": "2026-07-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "anonymous",
+   "titre": "Hydrates",
+   "texte": "This eye cream instantly hydrated my under eye area. I have sensitive eyes and this cream was very gentle with no irritation. I did notice slight de-puffing but not change on my dark circles. I hope they make this with a roll on applicator that's mess free.",
+   "date": "2026-02-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nicole",
+   "titre": "Non irritating and super hydrating",
+   "texte": "[I received this product in exchange for my honest review] I have VERY sensitive under eye areas and have had a really hard time finding anything I could use to reduce the puffiness. This not only hydrates & smoothes, but didn't irritate my eyes at all. Finally an under eye cream that delivers!",
+   "date": "2026-02-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kelly",
+   "titre": "Bye bye eye bags",
+   "texte": "[I received this product in exchange for my honest review] I absolutely am obsessed with first aid beauty products. I have combination, sensitive skin that is prone to redness. FAB is perfect for my skin! All of their products are great for redness and use clean, simple yet effective ingredients. I struggle with under dark eye bags and this cream has been working magic for my under eyes! It is extremely hydrating and great at depuffing. I have been using this daily for almost a month and I see a big change in my under eyes. Also, I love that FAB products are fragrance free especially for an eye cream because it is non irritating! I highly reccomend this product.",
+   "date": "2026-02-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vanessa",
+   "titre": "Good",
+   "texte": "[I received this product in exchange for my honest review] The eye cream does what it says. My eyes look less puffy and hydrated. I have dry skin around my eye area and always have puffiness when I wake up. I found the package to be e clean and the writing to very well made to actually see what the product is about. The formula is lightweight and never greasy. It absorbs and retains the moisture throughout the day and my eyes feel soft and smooth .",
+   "date": "2026-03-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Luvleefree",
+   "titre": "Soft And Smooth Under Eyes",
+   "texte": "[I received this product in exchange for my honest review] This Eye Cream Is Amazing And So Worth The Price Which Is Reasonable. I'm Dry Under My Eyes Sometimes And This Eye Cream Hydrates And Smooth Out Fine Line And Wrinkles. I Feel That My Skin Barrier Is Healthier When Using This Eye Cream.",
+   "date": "2026-02-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

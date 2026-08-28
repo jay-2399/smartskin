@@ -1,0 +1,145 @@
+{
+ "ref": "mkt77003885",
+ "asin": null,
+ "pid": "mkt77003885",
+ "source": "ulta",
+ "nom": "Tricoci Exfoliate Mask",
+ "note": 4.73,
+ "nbAvis": 159,
+ "lus": 80,
+ "collectes": 111,
+ "segments": {
+  "oily": "Reviewers with oily skin report mixed results: one says a serum's oily, moisturizing feel triggered breakouts for her while noting it would suit dry skin, another reports the mask reduces oiliness and buildup in the T-zone, and a third has no issue using a serum on oily skin.",
+  "dry": "Reviewers with dry skin report the mask and serums leave skin hydrated and softer, with one exception where a 10% vitamin C serum severely dried out the skin before she stopped using it.",
+  "combination": "One reviewer describes oily-ish skin with dry patches and found the exfoliant effective without irritating the dry spots.",
+  "sensitive": "Reviewers with sensitive skin report mixed results: several say the mask and serums did not irritate them, including on rosacea-prone or reactive skin, while others report burning on application, severe dryness from a vitamin C serum, or limit use to once a week to avoid reacting.",
+  "mature": "Reviewers in their 40s and 60s report brighter, more even, and smoother-looking skin with continued use, with one describing renewed radiance in her aging skin."
+ },
+ "concerns": {
+  "aging": "Reviewers in their 40s and 60s report smoother tone and texture and reduced fine lines with continued use of the serums.",
+  "dehydration": "Most reviewers describe the mask and serums as hydrating or at least non-drying, leaving skin soft without tightness afterward; one reviewer reports a 10% vitamin C serum severely dried out and flaked her skin until she stopped using it.",
+  "redness": "Reviewers with rosacea or general redness, including sensitive skin, report a visible reduction in redness and calmer-looking skin; no reviewer describes new redness caused by these products.",
+  "spots": "Many reviewers used the AA-Correct and C-Defend serums specifically for dark spots, melasma, sun spots and hyperpigmentation, reporting gradual fading and a brighter, more even tone after one to several weeks; one reviewer saw no improvement in her discoloration or melasma after two weeks.",
+  "blemishes": "A couple of reviewers report new breakouts in the first week or two of use, including one with oily skin who blames a serum's oily, moisturizing feel."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or off-putting scent",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Looks and feels premium",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bulky packaging for some serums",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Little product needed, lasts a while",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can sting or irritate if overused",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Lolo",
+   "titre": "My sensitive skin doesn't tolerate it",
+   "texte": "I received this product for free in exchange for my review. The ingredients list is solid. The fragrance is pleasant and the serum feels nice as it's being applied. 10% is the standard beginner dose of vitamin c, and your skin has to adjust…but this severely dried me out. In general, when introducing a new product to my skincare routine, I understand that breakouts/dryness/other reactions can occur. These are generally temporary. I used this for nearly 3 weeks before stopping and within 2 days my dry, flaking patches disappeared. I'm giving it 3 stars because it seems unfair to knock it down completely when I wasn't able to give it more than a few weeks. I'd love to be able to give it longer to see any of its intended results (texture and pigmentation improvements), but no amount of other serums and moisturizers were able to keep up with the drying effect of this.",
+   "date": "2026-03-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Mel",
+   "titre": "Nothing to write home about",
+   "texte": "I used this product for a week alone to see results. Then in the second week I added ym normal routine as well. I noticed no difference in my discoloration or melasma. I will say it is a very light scent but I did have some break out the first week. Nothing too bad but noticeable!",
+   "date": "2026-02-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Tori",
+   "titre": "Great for dry skin",
+   "texte": "Thanks Tricoci for giving me this free product to review! This product is great for dry skin that has darker blemishes. The C-Defend serum made my face feel hydrated and did brighten my complexion. The only down side is that I have oily skin and the product is oily/moisturizing which led to some breakouts but this product would be great for anyone with dry skin!",
+   "date": "2026-03-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Christine M.",
+   "titre": "Great at reducing redness",
+   "texte": "I have very sensitive skin, and have the redness from rosacea. This doesn't cause irritation on my face and it greatly reduces the redness, love it!",
+   "date": "2025-11-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "RhondaG",
+   "titre": "Great morning glow",
+   "texte": "I used a few drops of C-Defend in the morning and let it absorb well. I am in my early 60s, and have noticed an appreciable difference in my facial skin tone and texture. I especially noticed an improvement in how well my makeup looks and lasts. I've this product for about 3-4 weeks now, and I'm very impressed with how it delivers a healthy radiance to my aging skin. The serum texture is silky and easy to apply. There is a slight scent, but it is not unpleasant.",
+   "date": "2026-03-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kayla H.",
+   "titre": "Changed my skin!",
+   "texte": "I've been using this consistently for a few months now and my skin has improved SO MUCH. I have dry skin with rosacea and this product exfoliates my skin overnight without irritating it. I wake up GLOWING and people compliment my skin constantly now. Love this product and highly recommend!",
+   "date": "2025-11-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

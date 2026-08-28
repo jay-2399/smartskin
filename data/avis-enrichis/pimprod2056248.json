@@ -1,0 +1,136 @@
+{
+ "ref": "pimprod2056248",
+ "asin": null,
+ "pid": "pimprod2056248",
+ "source": "ulta",
+ "nom": "La Roche-Posay Anthelios UV Air Daily Supercharged Serum Sunscreen SPF 50",
+ "note": 4.76,
+ "nbAvis": 1704,
+ "lus": 78,
+ "collectes": 123,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin, including some prone to eczema or psoriasis, report no irritation or aggravation even with daily use.",
+  "oily": "Reviewers with oily skin report mixed finish results: some say it develops a noticeable sheen or shine through the day, while others say it feels light and non-greasy.",
+  "dry": "One reviewer with normal-to-dry skin reports good ingredients but a texture that feels a bit heavy under makeup.",
+  "combination": "One reviewer with combination skin reports it gets oily by the end of the day and recommends washing it off at night."
+ },
+ "concerns": {
+  "oiliness": "Reviewers are split on oiliness: several, including some with oily skin, describe a lingering sheen or greasy feeling through the day, while others describe it as absorbing quickly with no oily residue.",
+  "blemishes": "Reviewers concerned about breakouts consistently report no acne or clogged pores after regular use, including under makeup."
+ },
+ "aspects": [
+  {
+   "libelle": "No white cast, blends invisibly into skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves a dewy sheen rather than a fully matte finish",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Can sting or irritate the eyes for some users",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Precise applicator tip controls the amount dispensed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle relative to the price",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Samantha",
+   "titre": "Sunscreen",
+   "texte": "[I received this product in exchange for my honest review] I have very sensitive skin and this did the job. It wasn't anything fancy. The white cast was a little more visible than I like. My preference is a serum consistency. But it did its job. The nozzle can also get messy.",
+   "date": "2026-04-03",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Elizabeth",
+   "titre": "Good sunscreen",
+   "texte": "Good sunscreen! Good ingredients! Feels a tad bit heavy wearing under my make-up, not enough for me to return it. 60/40 chance I'll buy again. I'm 56, with normal to dry skin.",
+   "date": "2026-06-09",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Audrey",
+   "titre": "Applies nicely!",
+   "texte": "[I received this product in exchange for my honest review] There's a lot of things I like about this sunblock. It's very liquidy, which is what I prefer for a sunblock because it rubs in very easily and totally disappears. It also has a nice applicator. It reminds me of the way my favorite Asian brand applies (Anessa). What I don't like is that it never really feels like it dries down fully. It's quite shiny for the whole time I have it on and makes me feel oily.",
+   "date": "2026-03-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "J",
+   "titre": "Good sunscreen",
+   "texte": "[I received this product in exchange for my honest review] Light serum type chemical sunscreen that quickly absorbs and doesn't feel too heavy on my oily skin. No visible whitecast and doesn't sting the eyes. Reapplication is very easy and doesn't pile.",
+   "date": "2026-04-14",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jaimie",
+   "titre": "La Roche Posay has another winner!",
+   "texte": "[I received this product in exchange for my honest review] Love this sunscreen! I have sensitive skin prone to eczema out breaks, so trying new products can be scary. This one worked out great! It doesn't aggravate my skin at all. It goes on smoothly and absorbs quickly. It doesn't feel heavy at all and protects my skin from the sun.",
+   "date": "2026-05-20",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Lauren",
+   "titre": "Skincare plus sun protection",
+   "texte": "I really like the bottle style of this serum sunscreen. The precise tip let's you really control how much product comes out. It is white and slightly liquid, rubs into your skin quickly and no white cast. A little does go a long way. I wore it on a sunny day at the boardwalk and had no sunburn on my light skin. It's moisturizing but make sure you wash your face at the end of the day because it does get pretty oily. (I have combo skin) So skincare plus sunscreen... I really like it!",
+   "date": "2026-03-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Darienne",
+   "titre": "Perfect daily SPF for sensitive skin",
+   "texte": "[I received this product in exchange for my honest review] Smooth, light, and layerable! This is my go-to daily SPF and I put my makeup on right over it with zero pilling or greasiness. It blends right into my natural skin texture and is effective at keeping me from burning. I have had no negative reactions despite having very sensitive psoriatic skin. Love!",
+   "date": "2026-03-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,145 @@
+{
+ "ref": "pimprod2026570",
+ "asin": null,
+ "pid": "pimprod2026570",
+ "source": "ulta",
+ "nom": "Avène Tolerance Control Skin Recovery Balm",
+ "note": 4.46,
+ "nbAvis": 206,
+ "lus": 80,
+ "collectes": 119,
+ "segments": {
+  "sensitive": "The large majority of reviewers describe very sensitive, reactive or rosacea-prone skin and report the balm calms redness and stinging without irritation, though one reviewer says it dried her skin into a flaky mess and another reports it clogged her pores.",
+  "dry": "Reviewers with dry, flaky or eczema-prone skin report it relieves scaly patches and locks in moisture, often layered with a heavier occlusive at night.",
+  "mature": "Reviewers who mention their age, including one in her 60s and one who is post-menopausal, report it controls redness and keeps very dry, aging skin clear and moisturized.",
+  "combination": "Reviewers with combination skin report it reduces redness and flushing without feeling heavy."
+ },
+ "concerns": {
+  "redness": "Reviewers focused on redness, including many with rosacea, consistently report the balm reduces redness and calms flare-ups, with no reviewer in this set reporting increased redness from the product itself.",
+  "dehydration": "Most reviewers report it relieves dryness and flaky patches effectively, though one reviewer says it left her with dry, flaky skin after two weeks and another reports the replacement formula hydrates less than the discontinued original.",
+  "barrier": "Reviewers generally credit the balm with repairing or protecting a compromised skin barrier, though one reviewer who liked the texture says she isn't sure it is actually helping her skin barrier.",
+  "blemishes": "Several reviewers report it is the only moisturizer that doesn't trigger their acne, but one reviewer says it clogged her pores badly, causing closed comedones and milia."
+ },
+ "aspects": [
+  {
+   "libelle": "Pump dispenser often stops working before the tube is empty",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small size for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly without feeling greasy",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reformulation is seen by longtime users as less effective than the discontinued original",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Kit",
+   "titre": "Not moisturizing",
+   "texte": "I tried this product for 2 weeks and I now have dry flaky skin on my cheeks and nose. I bought this product because I have sensitive skin that gets a little drier in the winter months, but my skin has never been this dry in my life! Pros: it dries quickly and applys nice under makeup. Not greasy. Cons: dried up my skin into a flaky mess.",
+   "date": "2024-11-09",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Lyla B.",
+   "titre": "I really wanted to love",
+   "texte": "I really wanted to love this because the tolerance extreme cream was my holy grail after struggling for so long to find a moisturizer. Unfortunately they've been out of stock for months and I thought I'd give this a try. It clogged my pores so bad. I assume it was the shea butter, even though the product says non-comedogenic. I immediately got closed comedones and milia after starting this. Sad I won't be able to use it after paying for it.",
+   "date": "2023-03-23",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Karen M.",
+   "titre": "Not really a balm",
+   "texte": "When I think of a balm, I think of a really thick, dense, almost 'oily' or 'waxy' feeling product but this is more like a thicker cream. Maybe it is in the translation from French to English - like 'balm' has a different meaning there? I do love this as a moisturizer but I wouldn't call it a balm and I don't think it is helping with my skin barrier. I appreciate that there is no added fragrance, I love the packaging too. And it didn't sting my HYPER sensitive skin at all which is incredibly rare.",
+   "date": "2023-07-13",
+   "verifie": true,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lo",
+   "titre": "Worth trying for eczema-prone, reactive, skin",
+   "texte": "I would describe my 30 year old skin as desert-like. I have persistent flaky patches that just never seem to be soothed unless I use at least 2 moisturizers and vaseline on top. This balm has been excellent, better than any moisturizer I've tried since my skin has been this reactive and dry. I'm really taken aback at how this makes my dryest flaky patches look like normal skin. Goes well underneath makeup as well. If I feel dry throughout the day, I put this on and my skin feels and looks refreshed. I also like to use it when I have an itchy flare or hive, and it seems to calm it down. The texture is like a rich moisturizer, not greasy feeling like vaseline but it leaves a lovely protective barrier. I live in a dry climate, so I sometimes add something more occlusive (petrolatum-based) on top at night, but that's just me. I honestly would recommend anyone with eczema or flaky skin to try this, especially if it's on sale.",
+   "date": "2022-12-05",
+   "verifie": false,
+   "utiles": 23,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joanna",
+   "titre": "The best for sensitive skin and rosacea!",
+   "texte": "I have seriously sensitive skin that will react if you look at it wrong. I started using this cream a few years back and it has saved my life. I have oily skin, but the rosacea makes my skin patchy with dry spots, and this lotion helps SOOO much. I use it morning and night and even layer it under makeup. Avene has so many great products, many that don't include fragrance of any kind (even natural), and because of that, I'll be a loyal customer for as long as they keep it up. If you have sensitive skin, are prone to redness, and/or have rosacea, try this face lotion!",
+   "date": "2025-08-06",
+   "verifie": false,
+   "utiles": 17,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emily",
+   "titre": "Saved me",
+   "texte": "Please never remove this. It's the only moisturizer I've ever been able to use without triggering my acne!! I never have any product related breakouts anymore!! Finding a good moisturizer that worked for my skin was soo hard. This is so perfect and I've been using it for probably a year now.",
+   "date": "2024-05-19",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kathryn A.",
+   "titre": "I have mature sensitive reactive",
+   "texte": "I have mature sensitive reactive skin. I can become dehydrated and my face irritated if I'm not using the right products.. This balm keeps my skin moisturized and hydrated longer than any other product I have used, and I have used many. I have not found a better product. It does not break me out no matter how much I apply and the next morning my skin is not dried. I am so happy for this Avene recovery balm.",
+   "date": "2022-12-26",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}
