@@ -1,0 +1,151 @@
+{
+ "ref": "pimprod2045876",
+ "asin": null,
+ "pid": "pimprod2045876",
+ "source": "ulta",
+ "nom": "ma:nyo Pure Cleansing Oil Deep Clean",
+ "note": 4.59,
+ "nbAvis": 624,
+ "lus": 79,
+ "collectes": 124,
+ "segments": {
+  "oily": "Many reviewers with oily skin, including one who calls her face 'super oily,' report the oil cleanser feels light and non-greasy and even helps balance her oil production; one reviewer with oily skin disagrees, saying it left her face feeling oily after cleansing and advises other oily-skin users to avoid it.",
+  "dry": "Reviewers with dry skin consistently report the cleanser does not strip or dry out their skin; one contrasts it with other cleansers that left her winter-dry skin flaky, and another says she was pleasantly surprised it didn't leave her skin overly dry despite being marketed as a deep-clean oil.",
+  "sensitive": "A large number of reviewers describe their skin as sensitive or acne-prone and report no irritation, redness or breakouts, several noting it is gentler than other cleansers that usually make their skin react.",
+  "normal": "The one reviewer who frames the product as suited to normal and dry skin reports her face did not feel dry afterward."
+ },
+ "concerns": {
+  "dehydration": "The large majority of reviewers say the oil does not strip or dry out their skin, several calling it hydrating or moisturizing afterward; one reviewer instead describes her skin as a bit dry afterward and says she prefers cleansing balms.",
+  "barrier": "Two reviewers report adverse reactions: one had a significant allergic reaction and notes the product contains nut extracts without any allergy warning on the packaging, and another developed dry skin and a rash around her nasolabial folds and chin after about a week of daily use.",
+  "blemishes": "Many reviewers, including some with sensitive or acne-prone skin, report the oil does not cause breakouts, and several say it has helped clear clogged pores, blackheads or existing acne over time.",
+  "oiliness": "Several reviewers say the oil balances or reduces the look of their oiliness and rinses away without leaving an oily film; one reviewer dissents, saying it left her face feeling oily afterward and advising against it for oily skin.",
+  "redness": "One reviewer whose skin usually reacts to cleansers with redness reports no irritation or redness at all with this oil."
+ },
+ "aspects": [
+  {
+   "libelle": "Requires dry hands before adding water to emulsify",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump bottle with travel lock is convenient",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent divisive, from pleasant to off-putting",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rinses off cleanly without greasy residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way, good value",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Struggles with some stubborn waterproof makeup",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Vanessa",
+   "titre": "Would not purchase again",
+   "texte": "This product helped remove all of my make up especially waterproof mascara. However after a week of using it, it dried up my skin and caused a rash around the nasolabial folds and chin. This is the only new product I have added to my routine. :(",
+   "date": "2026-05-05",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Sadie",
+   "titre": "Decent cleaner",
+   "texte": "[I received this product in exchange for my honest review] This product is oil, and then turns soapy once wet. It cleans very well. However I would highly recommend taking makeup off first then using this. Also make sure to rub the oil on your face before getting wet, otherwise it's hard to use if you get it wet in your hands to suds it up. I WOULD NOT use this if you have oily skin!! It made my face feel oily after cleaning.",
+   "date": "2025-08-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sumera",
+   "titre": "Perfect cleansing oil (makeup & sebum melting)",
+   "texte": "I'm a bit of a skincare junkie and have been searching for that \"missing\" step in my routine for some time now. I have naturally oily skin, but noticed my skin care routine was stripping all those natural oils away to where I needed to do a LOT to make my skin feel replenished. I came across this oil cleanser and it was the answer. Not only does it gently melt away all my makeup, but after just 3 days, my skin has never looked better and more moisturized. It has helped me obtain that \"glass skin\" look too. Amazing!",
+   "date": "2025-10-17",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ashley",
+   "titre": "Best oil ever!",
+   "texte": "I love this product! I got a sample of it for christmas and as someone who lives where it gets very cold in the winter, it actually helped my dry skin! I tried many face washes/makeup removers and they all stripped my skin making it flaky. This goes on and feels like butter. Removes all my makeup and leaves my skin non greasy with a refreshed, moisturized, clean feeling face. Will definitely be purchasing a full size bottle!",
+   "date": "2026-01-02",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jazmin",
+   "titre": "10/10 plan to keep using this!",
+   "texte": "[I received this product in exchange for my honest review] I've never used an oil cleanser before so I don't have anything to compare to but this cleanser is amazing. It cleans well and smells nice. It's oily when you first apply, then lathers and rinses off well with warm water. No residue and doesn't strip everything and make my face feel tight like other cleansers. I have sensitive, acne prone skin and this hasn't made my face break out. I plan to repurchase when this bottle runs out.",
+   "date": "2025-11-20",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Antonina",
+   "titre": "Like this cleaning oil",
+   "texte": "[I received this product in exchange for my honest review] I really like the ma:nyo Pure Cleansing Oil Deep Clean. My skin usually reacts to different cleansers and can get red, but with this one it's completely fine - no irritation at all. The scent is light and pleasant, the texture is silky and easy to spread, and it removes makeup and impurities gently. The packaging is simple and convenient with a pump, and overall it leaves my skin feeling clean, soft, and comfortable.",
+   "date": "2025-10-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ipshita",
+   "titre": "Nice makeup cleanser for normal and dry skin",
+   "texte": "[I received this product in exchange for my honest review] This is a good product! I used it and my face didn't feel dry afterward. It was very nicely packed, and one bottle will go a long way. It has a smell and may bother people who don't like fragrant skin care. It doesn't foam. it's more like massaging oil to remove make up",
+   "date": "2025-09-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "normal",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

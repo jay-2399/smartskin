@@ -1,0 +1,161 @@
+{
+ "ref": "mkt77000153",
+ "asin": null,
+ "pid": "mkt77000153",
+ "source": "ulta",
+ "nom": "skinChemists 1.5% Hyaluronic Acid Eye Serum",
+ "note": 4.72,
+ "nbAvis": 110,
+ "lus": 79,
+ "collectes": 99,
+ "segments": {
+  "dry": "Dry-skin cues are limited, but one reviewer reports the serum dried her skin out too much and stopped using it, contrasting with most who describe it as moisturizing.",
+  "sensitive": "Multiple reviewers identify as having sensitive skin or sensitive eyes and report no irritation, stinging, or redness, including one whose mother has very sensitive skin and also tolerated it well.",
+  "mature": "Reviewers describing themselves as mature or in their 50s report reduced visibility of fine lines and wrinkles and hydration benefits, though one mature-skin reviewer saw no difference and felt it did not suit her skin type."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visibly reduced fine lines, crow's feet, sagging, or crepiness, often within one to two weeks; a few say lines persist or that deep wrinkles cannot be eliminated, and one long-term user needed a month to see fine lines disappear.",
+  "dehydration": "The large majority describe the eye area as hydrated, plumped, or moisturized for hours after application; one reviewer reports the opposite, that it dried her skin out too much and she stopped using it.",
+  "redness": "Several reviewers with sensitive eyes or eczema report no irritation or redness after use, with no dissenting reports of redness found.",
+  "barrier": "No reviewer specifically discusses barrier repair; hydration and comfort comments are the closest related feedback and are covered under dehydration.",
+  "spots": "One reviewer credits the serum with fading dark circles and another reports it helping with dark spots around the eyes, though these are isolated mentions rather than a consistent pattern.",
+  "blemishes": "One reviewer reports the serum is helping clear milia around the eyes; no other reviewer discusses blemishes in this area.",
+  "oiliness": "No reviewer discusses oiliness or shine from this product."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich, cream-like texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly without residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Too rich or slow to absorb",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Luxurious, high-end packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenses too much product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, light fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Expensive relative to size",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "M Hands",
+   "titre": "I saw no difference.",
+   "texte": "The consistency of this hyaluronic acid eye serum is more like a cream. It sinks in well and has a pleasant, light, fresh scent. I found it too rich to use under an eye cream. It was pleasant to use, but I saw no difference in the skin under my eyes. Sadly, it is not one I would buy; perhaps it did not suit my skin type as I am a mature lady.",
+   "date": "2024-04-18",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "S Gill",
+   "titre": "My eyes felt firmer smoother.",
+   "texte": "Hyaluronic Acid Eye Serum is a game-changer in the realm of skincare. From the moment I incorporated it into my routine, the transformation in my under-eye area was astonishing. This serum's lightweight formula effortlessly glides on, sinking deep into the skin to deliver a surge of hydration and vitality. What truly sets this serum apart is its potent blend of ingredients, meticulously crafted to combat fine lines, puffiness, and dark circles. After just a few weeks of consistent use, I noticed a significant reduction in the appearance of crow's feet and a newfound luminosity that had been lacking for years. The delicate skin around my eyes felt firmer, smoother, and remarkably rejuvenated. Moreover, the serum's gentle formula makes it suitable for all skin types, including sensitive skin like mine. The serum has undoubtedly become a staple in my skincare arsenal, and I wholeheartedly recommend it to anyone seeking to unveil brighter, more youthful-looking eyes. Say goodbye to tired, lackluster eyes and embrace the radiant gaze you deserve.",
+   "date": "2024-04-19",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "A Foulds",
+   "titre": "I noticed a difference.",
+   "texte": "This is hands down the best eye serum I have used. Fine lines around my eyes have appeared over the past few years, which really bothered me, but since I started using this eye serum, I noticed a difference in firmness and the appearance of dark circles almost straight away. I only use it at night, and when I apply my makeup in the morning, it no longer sinks into the fine lines. When applied, you can really feel the firming effect as it dries. I have had no issues with sensitivity, and neither has my mother, who has very sensitive skin. This is definitely worth purchasing!",
+   "date": "2022-08-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "D Smith",
+   "titre": "It and had a nice.",
+   "texte": "It was very easy to select my item, and the discount code was already applied. I received my hyaluronic acid eye serum in a nice little spotted box. The serum felt very pleasant when I applied it and had a nice fragrance; however, I found that it dried my skin out too much, so I stopped using it because it was not as moisturizing as I had hoped.",
+   "date": "2024-11-21",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "A Carausu",
+   "titre": "I am seeing good.",
+   "texte": "I have very sensitive skin around my eyes, and most products cause me irritation. The hyaluronic acid eye serum, however, was very gentle and I had no problems using it. After a couple of weeks, I am seeing good changes in fine lines around the eyes, so I will definitely keep using this product.",
+   "date": "2023-10-23",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "D Hancock",
+   "titre": "This serum really hydrated.",
+   "texte": "The hyaluronic acid eye serum is absolutely what I needed. At the age of 50, wrinkly bags under the eyes are a given, but this serum really hydrated the area amazingly, much more than I could do myself. I still have bags, but the wrinkles are much less visible. It is a definite win-win for me.",
+   "date": "2024-04-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "G Whitney",
+   "titre": "I love this hyaluronic.",
+   "texte": "Honestly, I love this hyaluronic acid eye serum; it is so good for my eyes and it is getting rid of my milia. My makeup is also sitting better under my eyes. I cannot recommend this enough!",
+   "date": "2024-04-16",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,166 @@
+{
+ "ref": "VP12697",
+ "asin": null,
+ "pid": "VP12697",
+ "source": "ulta",
+ "nom": "Dermalogica Special Cleansing Gel",
+ "note": 4.65,
+ "nbAvis": 4675,
+ "lus": 72,
+ "collectes": 86,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone skin report the gel leaves skin more balanced, less oily, and with rare or few breakouts, without over-drying.",
+  "dry": "Reviewers with dry skin are split: several say it cleanses without stripping or drying, but two report it left their skin feeling dry, with one specifically warning against it for dry mature skin.",
+  "combination": "Reviewers with combination (dry/oily) skin describe it as a reliable daily wash that clears breakouts, though one notes skin can feel tight without a follow-up moisturizer.",
+  "sensitive": "Reviewers with sensitive, reactive, or allergy-prone skin repeatedly describe the gel as gentle and non-irritating, with one exception reporting burning and bumps after a reported formula change.",
+  "mature": "Long-term users in their 40s-60s+ credit the cleanser with keeping their skin clear and receiving compliments, though one reviewer found it too drying for mature aging skin.",
+  "normal": "One reviewer with generally healthy skin reports smoother, brighter-looking skin with regular use."
+ },
+ "concerns": {
+  "aging": "Mature-skin users report long-term satisfaction and compliments on their skin, but one explicitly does not recommend it for mature aging skin due to dryness.",
+  "dehydration": "Most reviewers say it does not dry out or strip skin and even feels hydrating; a minority (including a dry-skin reviewer of 4 months and a 3-star review) report dryness or no visible improvement.",
+  "redness": "Reviewers with reactive or allergy-prone skin describe no irritation and calmer skin, though one long-time user reports a burning reaction and bumps after a suspected formula change.",
+  "barrier": "Several reviewers state the gel cleanses without stripping or compromising the skin barrier, describing skin as soft, smooth, and never tight after use.",
+  "spots": "Reviewers dealing with dark spots or discoloration mention brighter, more even-looking skin, though this is based on few explicit mentions.",
+  "blemishes": "Most reviewers with acne-prone skin report fewer breakouts, clearer skin, or resolved cystic acne with continued use; one reviewer who stopped using it saw cystic acne return, and another reports occasional pimples persisting.",
+  "oiliness": "Reviewers with oily skin report the product balances oil and reduces shine without causing excess dryness."
+ },
+ "aspects": [
+  {
+   "libelle": "Long-lasting, little product needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich lather and gel texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light, pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Refill pouch and bottle design",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Hard-to-squeeze travel bottle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Reported formula change",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Sheena",
+   "titre": "I'm not impressed",
+   "texte": "First I think its important to disclose your age and skin type as your skin changes at different stages in life. I'm 39, and have dry skin. I picked this up along with several other dermalogica products and have been using them for 4 months. I wanted to use it for a while before reviewing. This product was not for me. It does make my skin feel dry after using. There were no visable changes before and after. There's nothing super good about it, or bad, aside from the price. I found that I get the same results with CeraVe cleanser, which is wayyyy cheaper. Other dermalogica items I DID love, was the milkfoliant, and the moisturizer.",
+   "date": "2024-10-13",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SS",
+   "titre": "Must have",
+   "texte": "After trying countless cleansers this is the winner. It feels like luxury on your skin and a little goes a long way so it will last a long time. Ive been using it for three months now and this has cleared my breakouts. I have sensitive dry skin for reference. This doesnt strip my skin.",
+   "date": "2024-08-10",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tee",
+   "titre": "Huge difference!",
+   "texte": "I've gone through a plethora of different cleansers for oily, acne-prone skin and this one's the best! My skin is more balanced with rare breakouts. Very gentle and doesnt dry me out.",
+   "date": "2024-05-18",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brittany",
+   "titre": "Repeat purchase!",
+   "texte": "This has been my nightly face wash for many years now, its just amazing! I have combo dry/oily skin and suffer from breakouts but usually now i only breakout if i dont use this wash!! Holy grail!!",
+   "date": "2026-01-04",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katie",
+   "titre": "I've never written a review in my life",
+   "texte": "This is the only review I have ever written in my life about anything. As a teen with horrible acne that tried every product under the sun and going to dermatologists, I finally came upon this product somehow and it started clearing my skin right away until it was non-existent. I am 43 now and stopped using it just recently to see how my skin would be, confident that my acne would be naturally out of my system. No. It came back, not as bad but it was cystic acne. I went right back. This cleanser is incredible, has clear my son's acne, I don't know what else to say!",
+   "date": "2025-12-13",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Vpow858",
+   "titre": "Changed formula",
+   "texte": "I have used this for a decade plus…theyve changed the formula. Smells completely different burned my skin and left bumps. Be careful if you have sensitive skin getting your refill, its a different product now. Extremely Disappointed !",
+   "date": "2024-04-07",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tammy F.",
+   "titre": "My Favorite Cleanser!",
+   "texte": "I absolutely love this cleanser! It has a thick jelly like consistency that lathers silky and bubbly. A little goes a long way. I use a pea size amount and it lathers into the perfect amount. I have very oily skin and it doesn't cause me to be more oily. Just hydrates my skin beautifully.",
+   "date": "2025-05-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

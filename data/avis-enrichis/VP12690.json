@@ -1,0 +1,167 @@
+{
+ "ref": "VP12690",
+ "asin": null,
+ "pid": "VP12690",
+ "source": "ulta",
+ "nom": "Dermalogica Active Moist Moisturizer",
+ "note": 4.62,
+ "nbAvis": 4540,
+ "lus": 72,
+ "collectes": 94,
+ "segments": {
+  "oily": "Reviewers with oily skin describe the product as lightweight and non-greasy, with one noting it stopped her from waking up oily and one calling it perfectly balanced for combination/oily skin.",
+  "dry": "Reviewers with dry skin report it keeps skin soft and hydrated for daytime use but several say it is too light to fully address dry patches or cold-weather dryness.",
+  "combination": "Reviewers with combination skin say it balances their complexion without residue or heaviness.",
+  "sensitive": "Reviewers with sensitive skin, including one with seasonal eczema, report it hydrates without irritation or allergic reaction, though one review in this group still experienced burning and one noted redness.",
+  "normal": "No substantive comments specific to normal skin were found in the reviews supplied.",
+  "mature": "One reviewer in her late 30s with dry, aging skin calls it her favorite light, fragrance-free option, and another notes it suits aging skin as well as teenagers."
+ },
+ "concerns": {
+  "aging": "A few reviewers hoped for or noticed improvement in fine lines and wrinkles, particularly with the eye cream version, but results are described as early or gradual rather than dramatic.",
+  "dehydration": "The large majority of reviewers report strong, lightweight hydration and a dewy or refreshed feel; a minority say it is not moisturizing enough for very cold winter weather or very dry skin.",
+  "redness": "One reviewer reports her redness and a scar fading after three weeks of use; another reports the opposite, noting the product caused redness on her skin.",
+  "barrier": "One reviewer with seasonal eczema found it appropriate for her sensitive, compromised skin; no other barrier-specific feedback is present.",
+  "spots": "Reviewers using it for acne report drying out blemishes overnight and fewer breakouts over time, though one still has occasional blemishes and does not consider it fully resolved.",
+  "blemishes": "Several reviewers report no new breakouts and clearer-looking skin with regular use; no reviewer describes new or worsened blemishes from the moisturizer itself.",
+  "oiliness": "Reviewers describe it as non-greasy and suited to oily or combination skin, with one specifically noting she no longer wakes up feeling oily."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong fragrance and burning sensation",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Formula changed to thinner, watery consistency",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Spray nozzle dispenses too heavily",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "High price relative to size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Eye cream stings near eyes",
+   "polarite": "neg",
+   "concerne": [
+    "aging"
+   ]
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Haley",
+   "titre": "It's whatever",
+   "texte": "I got this due to sensitive skin that also breaks out easily with products. It has been good to my sensitive skin and has helped with acne BUT its too light for dry skin so it hasnt helped moisturize.",
+   "date": "2026-01-10",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sheena",
+   "titre": "Would recommend for my age",
+   "texte": "First I think its important to disclose your age and skin type as your skin changes at different stages in life. I'm 39, and have dry skin. I picked this up along with several other dermalogica products and have been using them for 4 months. I wanted to use it for a while before reviewing. This is probably my favorite dermalogica product. It works well for my skin type. It's a light, fragrance free moisturizer. Doesn't irritate my skin. I use it daily. The downside is obviously the cost. I do get dry patches on my skin from time to time that I have to use a heavier moisturizer on, but daily use this is a great product.",
+   "date": "2024-10-13",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Emily",
+   "titre": "Holy grail product!",
+   "texte": "I'm cheap and don't like spending too much money on anything if I can avoid it. But I have the most ridiculous acne I've ever met. I'm in my early 30s and until I started using this I couldn't get it under control. I still have a few blemishes here and there but nothing like what I had before. I no longer wake up feeling super oily, and it dries my acne out overnight. The price is worth it!",
+   "date": "2025-03-23",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Inna",
+   "titre": "Hydrating but causing redness to my skin",
+   "texte": "Overall it's a beautiful mist. I did notice the hydration that comes with it. But it has been causing some redness to my skin after applying. I don't know if that's normal or not.",
+   "date": "2024-01-28",
+   "verifie": true,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Annie",
+   "titre": "Helping to fade my redness",
+   "texte": "Nothing has helped my redness to fade like Active Moist Moisturizer by Dermalogica. I've tried hundreds of products and after 3 weeks of this even my skin cancer scar is fading out more. I like it's not strongly scented and it's more effective for me than the Intense Moisturizer.",
+   "date": "2025-12-20",
+   "verifie": false,
+   "utiles": 16,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jill L.",
+   "titre": "My skin is so problematic.",
+   "texte": "My skin is so problematic. I have tried too many products only to be disappointed. They either made my face to oily, or made it break out or caused a rash. This product soothes my highly sensitive skin, moisturizes without clogging my pores and my skin feels pretty content all day long. I really love this product.",
+   "date": "2024-01-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Good Genes:)",
+   "titre": "Formula Changed",
+   "texte": "I use this Active Moist for over 25yrs and loved it. I have had great skin my entire life thanks to both parents having the best skin even into their latter years and this was my holy grail of moisturizers for my face. But my last purchase a month ago was lke creamy water in a tube. You didn't even have to squeeze the tube just hold it over your palm and out it ran. For the price thats not ok with me. Thank you for all of the good years but its time to part ways!",
+   "date": "2026-07-21",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}
