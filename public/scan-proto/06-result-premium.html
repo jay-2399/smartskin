@@ -206,8 +206,13 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
   -webkit-backdrop-filter:blur(3px); backdrop-filter:blur(3px); opacity:0; pointer-events:none;
   transition:opacity .28s ease; }
 .ar-fond.on { opacity:1; pointer-events:auto; }
+/* `var(--ground)` n'a jamais été définie : la feuille n'avait donc AUCUN fond et laissait voir
+   la page au travers. Verre blanc, comme la modale de 07-confirm. */
 .ar-feuille { position:fixed; left:0; right:0; bottom:0; z-index:61; max-height:92dvh;
-  display:flex; flex-direction:column; border-radius:26px 26px 0 0; background:var(--ground);
+  display:flex; flex-direction:column; border-radius:26px 26px 0 0;
+  background:linear-gradient(165deg, rgba(255,255,255,0.97), rgba(255,255,255,0.90));
+  -webkit-backdrop-filter:blur(24px) saturate(1.5); backdrop-filter:blur(24px) saturate(1.5);
+  border-top:1px solid rgba(255,255,255,0.92);
   transform:translateY(100%); transition:transform .34s cubic-bezier(.22,1,.36,1);
   box-shadow:0 -8px 40px rgba(26,29,33,0.18); }
 .ar-feuille.on { transform:translateY(0); }
@@ -421,6 +426,24 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
   to { opacity:1; transform:none; } }
 @media (prefers-reduced-motion: reduce) { .hf-stage img { animation:none; } }
 
+/* pilule de catégorie — sous le titre du produit, et reprise dans la feuille de suggestion */
+.cat-pill { display:inline-flex; align-items:center; margin-top:8px; padding:5px 11px; border-radius:100px;
+  background:var(--glass-bg); border:1px solid var(--glass-line); box-shadow:var(--glass-shadow);
+  font-size:10px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:var(--arsenic); }
+.hero.dark .cat-pill { background:rgba(255,255,255,0.10); border-color:rgba(255,255,255,0.18); color:rgba(255,255,255,0.78); }
+
+/* ═══ feuille d'un produit suggéré (réutilise la coque .ar-fond / .ar-feuille des avis) ═══ */
+.ps-photo { display:flex; justify-content:center; padding:6px 0 2px; }
+/* même parti pris que le packshot du hero : boîte portrait + cover, la marge blanche est rognée */
+.ps-photo img { width:150px; height:182px; object-fit:cover; border-radius:14px;
+  filter:drop-shadow(0 18px 26px rgba(40,55,75,0.28)) drop-shadow(0 3px 8px rgba(40,55,75,0.14)); }
+.ps-cat { display:flex; justify-content:center; }
+/* les deux notes reprennent le segment de la fiche — même composant, aucune variante à entretenir */
+.ps-actions { margin-top:22px; }
+.ps-actions .cta-btn { height:50px; }
+.ps-actions .cta-ghost { height:50px; }
+.ps-actions .cta-ghost[disabled] { border-color:rgba(43,193,130,0.55); color:#189A66; cursor:default; }
+
 /* score coloré par le verdict : vert ≥70 · orange 40-69 · rouge <40 */
 .score-num.good { color:#189A66; }
 .score-num.mid  { color:#D9822B; }
@@ -533,16 +556,25 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 .co-stage { position:relative; width:100%; height:240px; margin:18px auto 8px; }
 .co-prod { position:absolute; left:50%; top:0; transform:translateX(-50%); height:100%;
   display:flex; align-items:center; }
-/* Les photos du catalogue sont carrées, pas des packshots détourés étroits : on borne
-   la largeur du produit à la voie libre entre les deux colonnes de légendes. */
-.co-prod img { height:auto; width:auto; max-width:122px; max-height:240px; border-radius:12px;
+/* Les photos du catalogue sont carrées et LARGEMENT margées : mesuré sur 60 packshots pris au
+   hasard, le produit n'occupe que 38 % de la largeur en médiane. Les afficher en `contain` dans
+   la voie libre entre les deux légendes revenait donc à montrer surtout du blanc — 122 px de
+   flacon dans une scène de 240.
+   On leur donne une boîte PORTRAIT et `cover` : la marge latérale est rognée, le produit remplit
+   la hauteur — 160 px au lieu de 122, sans toucher à la scène.
+   La LARGEUR, elle, reste bornée à la voie libre entre les deux colonnes de légendes (289 − 2×78
+   = 133 px). Ce n'est pas de la prudence : une image plus large passe SOUS le texte des légendes,
+   et sur un produit large (pot, boîte de masques) la troisième légende devient illisible.
+   Le ratio 132/160 garde 82 % de la largeur du packshot. Les 15 % de produits qui occupent plus
+   que ça — mesuré sur 60 packshots — perdent ~9 % de chaque côté. */
+.co-prod img { width:132px; height:160px; object-fit:cover; border-radius:12px;
   filter:drop-shadow(0 20px 28px rgba(40,55,75,0.32)) drop-shadow(0 4px 9px rgba(40,55,75,0.16));
   animation:hfIn 1s cubic-bezier(.22,1,.36,1) backwards .35s;
   transform:translateZ(0); will-change:filter; }
-.co { position:absolute; width:82px; }
+.co { position:absolute; width:78px; }
 .co-l { left:0; text-align:right; }
 .co-r { right:0; text-align:left; }
-.co-name { display:block; font-weight:700; font-size:11.5px; letter-spacing:-0.01em; line-height:1.3; color:var(--ink); }
+.co-name { display:block; font-weight:700; font-size:11px; letter-spacing:-0.01em; line-height:1.3; color:var(--ink); }
 .hero.dark .co-name { color:#fff; }
 .co-g { font-size:10px; }
 .co.bad .co-g { color:#D8543F; }
@@ -550,13 +582,13 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 .co-note { font-size:10px; line-height:1.45; color:var(--graphite); margin-top:2px; letter-spacing:-0.005em; }
 .hero.dark .co-note { color:rgba(255,255,255,0.55); }
 /* trait de rappel + point côté produit */
-.co::after { content:''; position:absolute; top:7px; width:24px; height:1.5px; border-radius:1px;
+.co::after { content:''; position:absolute; top:7px; width:18px; height:1.5px; border-radius:1px;
   background:linear-gradient(90deg, rgba(40,55,75,0.38), rgba(40,55,75,0.12)); }
-.co-l::after { right:-30px; transform:scaleX(-1); }
-.co-r::after { left:-30px; }
+.co-l::after { right:-24px; transform:scaleX(-1); }
+.co-r::after { left:-24px; }
 .co::before { content:''; position:absolute; top:5px; width:5px; height:5px; border-radius:50%; }
-.co-l::before { right:-34px; }
-.co-r::before { left:-34px; }
+.co-l::before { right:-28px; }
+.co-r::before { left:-28px; }
 .co.bad::before { background:#D8543F; box-shadow:0 0 0 3px rgba(216,84,63,0.16); }
 .co.good::before { background:#189A66; box-shadow:0 0 0 3px rgba(24,154,102,0.16); }
 /* apparition en cascade des légendes */
@@ -877,6 +909,7 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
     <div class="hero-notch"></div>
     <span class="hero-brand" id="d-brand">La Roche-Posay</span>
     <h1 class="hero-product" id="d-name">Effaclar Duo+M</h1>
+    <span class="cat-pill" id="d-cat" hidden></span>
     <div class="co-stage">
       <div class="co-prod"><img id="d-img" src="effaclar.png" alt="Product"></div><div id="d-callouts"></div>
     </div>
@@ -999,6 +1032,34 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 
   <!-- Tous les avis : aucun filtre, aucun tri d'opinion. La note et les barres viennent
        directement d'Amazon — c'est la seule donnée non biaisée qu'on possède sur ce produit. -->
+  <!-- Feuille d'un produit SUGGÉRÉ. Elle emprunte la coque de la feuille des avis
+       (.ar-fond / .ar-feuille / .ar-top / .ar-corps) : même geste, même animation, aucun CSS en double. -->
+  <div class="ar-fond" id="ps-fond"></div>
+  <div class="ar-feuille" id="ps-feuille" role="dialog" aria-modal="true" aria-labelledby="ps-h">
+    <div class="ar-top">
+      <div class="ar-back" id="ps-fermer" role="button" tabindex="0" aria-label="Close">
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M4 4l8 8M12 4l-8 8"></path></svg>
+      </div>
+      <div class="ar-ttl"><b id="ps-h"></b><span id="ps-marque"></span></div>
+    </div>
+    <div class="ar-corps">
+      <div class="ps-photo"><img id="ps-img" alt=""></div>
+      <div class="ps-cat"><span class="cat-pill" id="ps-cat" hidden></span></div>
+      <div class="seg on-skin">
+        <div class="seg-thumb"></div>
+        <div class="seg-opt"><span class="dot" id="ps-dot-f"></span>Formula <b id="ps-f">—</b></div>
+        <div class="seg-opt sel"><span class="dot" id="ps-dot-p"></span>My skin <b id="ps-p">—</b></div>
+      </div>
+      <div class="ps-actions">
+        <button type="button" class="cta-btn" id="ps-fiche">View details</button>
+        <button type="button" class="cta-ghost" id="ps-routine">
+          <svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3.5v11M3.5 9h11"></path></svg>
+          Add to my routine
+        </button>
+      </div>
+    </div>
+  </div>
+
   <div class="ar-fond" id="ar-fond"></div>
   <div class="ar-feuille" id="ar-feuille" role="dialog" aria-modal="true" aria-labelledby="ar-h">
     <div class="ar-top">
@@ -1025,15 +1086,20 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "parfum": "Fragrance", "HE": "Essential oil", "alcool": "Drying alcohol", "creuse": "Few actives", "filtres-uv": "UV protection" })[t] || t; }
 (function(){
   var q = new URLSearchParams(location.search);
-  var key = q.get("p") || (function(){ try { return sessionStorage.getItem("ss-scan-produit"); } catch(e){ return null; } })();
-  if (!key) return;                       // pas de produit → la page garde son contenu de démo
 
   // Deux sources possibles, même forme de données : un produit du CATALOGUE (/produit) ou une
   // ÉTIQUETTE PHOTOGRAPHIÉE (/lire-inci, quand la reconnaissance du flacon a échoué).
+  // La lecture d'étiquette arrive SANS identité catalogue : 09-inci.html range son résultat dans
+  // `ss-inci-resultat` et navigue vers « ?source=inci », sans ?p= et sans écrire `ss-scan-produit`.
+  // Le garde-fou ci-dessous ne testait que la clé catalogue : le script sortait donc avant d'avoir
+  // rien rempli, et la page restait sur son contenu de démo (Effaclar Duo+M). D'où l'impression
+  // que l'analyse par ingrédient « revenait toujours au même produit ».
   var depuisEtiquette = null;
   if (q.get("source") === "inci") {
     try { depuisEtiquette = JSON.parse(sessionStorage.getItem("ss-inci-resultat") || "null"); } catch(e) {}
   }
+  var key = q.get("p") || (function(){ try { return sessionStorage.getItem("ss-scan-produit"); } catch(e){ return null; } })();
+  if (!key && !depuisEtiquette) return;   // ni produit ni étiquette → la page garde son contenu de démo
   var source = depuisEtiquette
     ? Promise.resolve(depuisEtiquette)
     : fetch("/api/produit/fiche?q=" + encodeURIComponent(key)).then(function(r){ return r.json(); });
@@ -1096,6 +1162,10 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
 
     document.getElementById("d-brand").textContent = p.marque || "";
     document.getElementById("d-name").textContent = p.nom;
+    // la catégorie sous le titre : elle décide de toute la grille de notation, la lire d'un coup
+    // d'œil évite de croire qu'un nettoyant est jugé comme un sérum. Rien à dire → rien à afficher.
+    var cp = document.getElementById("d-cat");
+    if (CATS[p.categorie]) { cp.textContent = CATS[p.categorie]; cp.hidden = false; }
     var im = document.getElementById("d-img");
     if (p.image) { im.src = p.image; im.style.mixBlendMode = "multiply"; }
     else {
@@ -1438,14 +1508,82 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
           + '<p class="mieux-m">' + (a.marque || "") + ' &middot; formula ' + a.formule + '</p></span>'
           + '<span class="mieux-sc"><b>' + a.perso + '</b><span>for you</span></span></button>';
       }).join("");
-      sec.querySelectorAll(".mieux-row").forEach(function(b){
-        b.addEventListener("click", function(){
-          location.href = "06-result-premium.html?p=" + encodeURIComponent(b.dataset.n);
-        });
+      // Un clic n'emmène plus directement sur la fiche : on ouvre d'abord une feuille qui montre
+      // le produit et ses deux notes, pour qu'elle décide en connaissance de cause. La catégorie
+      // vient de la réponse (`d.categorie`) : toutes les suggestions sont du même rayon.
+      sec.querySelectorAll(".mieux-row").forEach(function(b, i){
+        b.addEventListener("click", function(){ psOuvrir(l[i], d.categorie); });
       });
       sec.hidden = false;
     }).catch(function(){});
   }
+
+  // ── feuille d'un produit suggéré ──────────────────────────────────────────
+  // Le prototype n'a pas de routine côté serveur (aucun modèle en base, /api/routine ne fait que
+  // CALCULER une routine conseillée). On garde donc la liste en local : le bouton fait quelque
+  // chose de vrai plutôt que d'afficher une confirmation mensongère.
+  function ajouterRoutine(nom) {
+    var l = [];
+    try { l = JSON.parse(localStorage.getItem("ss-ma-routine") || "[]"); } catch(e) {}
+    if (l.indexOf(nom) < 0) l.push(nom);
+    try { localStorage.setItem("ss-ma-routine", JSON.stringify(l)); } catch(e) {}
+    return l.length;
+  }
+  function dejaDansRoutine(nom) {
+    try { return JSON.parse(localStorage.getItem("ss-ma-routine") || "[]").indexOf(nom) >= 0; }
+    catch(e) { return false; }
+  }
+  // mêmes seuils que le moteur (scoring.mjs, CONFIG.bandes) : sinon la feuille colore en vert
+  // une note que la fiche affiche en orange.
+  function teinte(n) { return n >= 75 ? "good" : n >= 45 ? "mid" : "bad"; }
+
+  var _psNom = null;
+  function psOuvrir(a, categorie) {
+    _psNom = a.nom || "";
+    document.getElementById("ps-h").textContent = _psNom;
+    document.getElementById("ps-marque").textContent = a.marque || "";
+    var im = document.getElementById("ps-img");
+    im.src = a.image || "";
+    im.style.display = a.image ? "" : "none";
+    var cp = document.getElementById("ps-cat");
+    if (CATS[categorie]) { cp.textContent = CATS[categorie]; cp.hidden = false; } else { cp.hidden = true; }
+    document.getElementById("ps-f").textContent = a.formule;
+    document.getElementById("ps-p").textContent = a.perso;
+    document.getElementById("ps-dot-f").className = "dot " + teinte(a.formule);
+    document.getElementById("ps-dot-p").className = "dot " + teinte(a.perso);
+    var br = document.getElementById("ps-routine");
+    var dedans = dejaDansRoutine(_psNom);
+    br.disabled = dedans;
+    br.lastChild.textContent = dedans ? " Already in your routine" : " Add to my routine";
+    document.getElementById("ps-fond").classList.add("on");
+    document.getElementById("ps-feuille").classList.add("on");
+    document.body.style.overflow = "hidden";
+  }
+  function psFermer() {
+    document.getElementById("ps-fond").classList.remove("on");
+    document.getElementById("ps-feuille").classList.remove("on");
+    document.body.style.overflow = "";
+  }
+  document.getElementById("ps-fermer").addEventListener("click", psFermer);
+  document.getElementById("ps-fond").addEventListener("click", psFermer);
+  document.addEventListener("keydown", function(e){ if (e.key === "Escape") psFermer(); });
+  document.getElementById("ps-fiche").addEventListener("click", function(){
+    if (_psNom) location.href = "06-result-premium.html?p=" + encodeURIComponent(_psNom);
+  });
+  document.getElementById("ps-routine").addEventListener("click", function(){
+    if (!_psNom) return;
+    ajouterRoutine(_psNom);
+    this.disabled = true;
+    this.lastChild.textContent = " Added to your routine";
+  });
+  // le bouton principal de la page pointait dans le vide : il passe par le même chemin.
+  document.querySelector(".cta-wrap .cta-btn").addEventListener("click", function(){
+    var nom = document.getElementById("d-name").textContent.trim();
+    if (!nom) return;
+    ajouterRoutine(nom);
+    this.disabled = true;
+    this.lastChild.textContent = " Added to your routine";
+  });
 
   source.then(function(d){ rendre(d); bandeauEtiquette(d); }).catch(function(){});
 })();
