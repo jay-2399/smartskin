@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2051802",
+ "asin": null,
+ "pid": "pimprod2051802",
+ "source": "ulta",
+ "nom": "FARMACY 1% Vitamin A Retinol Serum",
+ "note": 4.84,
+ "nbAvis": 266,
+ "lus": 81,
+ "collectes": 107,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are the most vocal group and consistently report no itching, burning, stinging, or redness even when starting cautiously, with several calling it the first retinol that hasn't triggered the cystic breakouts or milia they got from other retinol products.",
+  "combination": "The two reviewers who describe combination skin alongside sensitivity report the serum is not too harsh or drying and fits well into a gentler routine.",
+  "mature": "The one reviewer who describes her skin as aging reports the serum faded a longstanding sun freckle that no other retinol had touched, in addition to being hydrating enough to use without a separate moisturizer."
+ },
+ "concerns": {
+  "aging": "The most commonly reported effect is smoother texture and reduced appearance of fine lines and wrinkles within a few weeks to a couple of months, with several reviewers also describing firmer-looking skin after continued use; a couple of reviewers say it's too early to judge or that they haven't noticed a strong change yet.",
+  "dehydration": "Reviewers very commonly describe the serum as non-drying or actively hydrating despite being a retinol, with several skipping a separate moisturizer entirely; a few mention mild dryness during the first uses that resolved as their skin adjusted.",
+  "redness": "Several reviewers specifically note no redness, tingling, or burning even on sensitive skin, and a couple say the serum reduced redness alongside its other effects, with no reviewer in this set reporting new redness.",
+  "barrier": "One reviewer credits the serum with helping her moisture barrier; this benefit is not corroborated elsewhere in the reviews.",
+  "spots": "Several reviewers report dark spots, sun spots, or overall skin tone evening out gradually over weeks to months, including one whose longstanding sun freckle faded when other retinol products had not helped at all.",
+  "blemishes": "A handful of reviewers report reduced hormonal or cystic acne, including one who says other retinols always triggered cystic breakouts and milia but this one has not; some also describe an initial purging period of whiteheads and blackheads in the first month, which they treat as an expected phase rather than a problem.",
+  "oiliness": "Two reviewers mention smaller or less visible pores after continued use, though this is a minor, secondary observation rather than the serum's main reported effect."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong or unusual scent for some users",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle or sample size for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump can dispense inconsistently",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well with moisturizers and other actives",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Seen as good value for the potency",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Adrian",
+   "titre": "Skip the sample size",
+   "texte": "It's a nice product but purchasing the sample is a waste of time and money. You're basically paying for the cute tiny pump, and I mean tiny. The sample size is like the size of a chapstick and has less product than a ketchup packet.",
+   "date": "2023-02-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Nicole",
+   "titre": "The best!",
+   "texte": "I have tried multiple retinol products and had to discontinue all of them due to my skin breaking out with huge, cystic bumps and also milia. Even with time my skin did not show enough benefit to continue working through the breakouts. UNTIL this retinol serum that not only doesn't break me out, but has even reduced my hormonal acne. It is also doing wonders for my dark spots (though I am also using the dark spot toner). I am almost to the point of not wearing makeup to work, that is how good my skin looks since starting this product!",
+   "date": "2023-10-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erin",
+   "titre": "The best retinol",
+   "texte": "This is the best retinol I've tried as someone with sensitive combination skin! It's not too harsh or drying and it's so effective! I've been using this for about a year and have noticed a significant decrease in wrinkles and improvement in texture. Even my esthetician noticed my skin get better over the last year. Please never discontinue this!!",
+   "date": "2025-03-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jenny L.",
+   "titre": "Sensitive aging skin winner!",
+   "texte": "I can honestly say I have tried 15-20 different types of retinol, retinol alternatives, and even prescription retinol but this is the ONLY one I noticed faded my large sun freckle/spot (no worries I've had it checked :). Hydrating enough to use on its own and doesn't tingle, burn or irritate my sensitive skin. I use it only 3x per week out of caution of past experience but it's going to be a staple in my routine!",
+   "date": "2023-04-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brieanna",
+   "titre": "Great retinol, no irritation!",
+   "texte": "This isn't the first retinol I've used, but it's definitely the best! I see results in my fine lines using 2x a week, and as long as I moisturize after (honey halo!) I have no irritation and minimal dryness. Also I do have sensitive skin and I'm able to use this with no itching, burning, or redness. Will purchase again!",
+   "date": "2023-04-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Cassandra C.",
+   "titre": "Non-irritating, skin looks fabulous come morning!",
+   "texte": "This is gentle enough to use every other night on my sensitive, acne prone, combination, fair skin. The smell is a bit herbal/musky, and initially a little strong but dissipates quickly. Skin always looks better in the morning after use. Long term results TBD of course.",
+   "date": "2023-01-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Terri R.",
+   "titre": "BEST",
+   "texte": "This is really good and has completely changed my skin. I have dark spots that are fading. My wrinkles are fading too. Farmacys Retinol with A is amazing, highly recommend!",
+   "date": "2023-03-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}
