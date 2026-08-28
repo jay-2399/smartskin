@@ -1,0 +1,156 @@
+{
+ "ref": "mkt77007166",
+ "asin": null,
+ "pid": "mkt77007166",
+ "source": "ulta",
+ "nom": "Proactiv Green Tea Moisturizer",
+ "note": 4.68,
+ "nbAvis": 355,
+ "lus": 67,
+ "collectes": 72,
+ "segments": {
+  "oily": "Reviewers with oily skin describe the moisturizer as lightweight with a matte finish that controls shine and does not clog pores, even in hot, humid weather.",
+  "dry": "Reviewers with dry skin, including some with noticeable dry patches, say it relieves dryness and keeps their skin soft through changing seasons.",
+  "combination": "Reviewers with combination, breakout-prone skin report it does not clog pores and leaves their skin soft without triggering new blemishes.",
+  "sensitive": "Reviewers with sensitive skin, including one managing eczema, describe it as cooling and non-irritating, with several noting reduced redness and no breakouts.",
+  "mature": "Reviewers in their 50s to late 70s describe smoother-looking skin, with a few crediting it with softening fine lines and being complimented on looking younger than their age."
+ },
+ "concerns": {
+  "aging": "Older reviewers, from their 50s into their late 70s, report smoother-looking skin, and one describes visible lines on a dry patch softening after adding this moisturizer; the effects described are modest rather than dramatic.",
+  "dehydration": "Reviewers with dry skin, including one managing eczema, describe the moisturizer relieving dry patches and keeping skin hydrated across seasonal changes, with effects holding up through both summer and winter.",
+  "redness": "Most reviewers who mention redness say it improved, including one whose family member stopped developing blotches and redness that other moisturizers caused; one reviewer, however, says her redness had not visibly improved after a short period of use.",
+  "barrier": "The reviewer managing eczema reports the moisturizer helps with flare-ups and keeps her skin hydrated; another describes a family member whose skin reacts with blotches and redness to most moisturizers finding this one tolerable.",
+  "blemishes": "Most reviewers with acne-prone or breakout-prone skin say the moisturizer does not clog pores or cause new blemishes, several calling it the only moisturizer that doesn't trigger breakouts for them; one reviewer, however, reports whiteheads appearing within two days of use.",
+  "oiliness": "Reviewers with oily skin describe the moisturizer as lightweight and non-greasy, several noting it leaves a matte finish and controls shine even in hot, humid weather without causing breakouts."
+ },
+ "aspects": [
+  {
+   "libelle": "Scent is light and pleasant",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Non-greasy, non-sticky finish",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Expensive relative to alternatives",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Long-standing repurchase loyalty",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doubles as an aftershave lotion",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Sam B",
+   "titre": "Whiteheads!",
+   "texte": "Tried a sample for a number of days and at first I enjoyed how light it felt, not sticky at all. But after just 2 days the whiteheads started appearing. At the end of a week I decided this was definitely the culprit. Not what I expected from a brand that made its image from being skin-clearing and anti-blemish!",
+   "date": "2024-08-22",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "JACQUELINE N.",
+   "titre": "Green Tea Moisturizer",
+   "texte": "Have only been using a short time. I was getting my green tea moisturizer from a dermatologist and wanted to try yours. The redness still shows with your green tea moisturizer, maybe it will be better in time. The moisturizing content is good however.",
+   "date": "2023-09-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bayleigh",
+   "titre": "Love this product",
+   "texte": "as someone with combination skin I am always hesitant to use certain moisturizers. This one doesn't clog pores and leaves my face feeling so soft and bright. Truly one of my favorite moisturizers I have tried so far.",
+   "date": "2024-09-06",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Carol H.",
+   "titre": "proactive green tea moisturizer",
+   "texte": "My husband has very dry skin and sensitive skin. He breaks out with blotches and develops redness on his skin when he uses other moisturizers. The green tea moisturizer works really well for him.",
+   "date": "2024-02-08",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marietta P.",
+   "titre": "Green Tea Moisturizer is a Great Product for Older Folks",
+   "texte": "Excellent product! I'm pushing 60 years old and this has definitely helped with my complexion, but I really think it's helping those little wrinkles above my lip!",
+   "date": "2024-05-01",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Audrey M.",
+   "titre": "Moisture you can count on",
+   "texte": "I have eczema and this helps with flare ups as well as keeping my skin hydrated! Tried a few others over the years, but always come back to the Green Tea because I know it will work!",
+   "date": "2025-08-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Fred F.",
+   "titre": "Great in Hot, Humid Weather",
+   "texte": "Non-greasy, moisturizing, lightweight, silky smooth. Does not clog pores. Does not create shine. Great for oily, acne prone skin in hot, humid weather.",
+   "date": "2023-08-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

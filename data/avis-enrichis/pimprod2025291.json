@@ -1,0 +1,158 @@
+{
+ "ref": "pimprod2025291",
+ "asin": null,
+ "pid": "pimprod2025291",
+ "source": "ulta",
+ "nom": "The Ordinary Pycnogenol 5% Antioxidant for Environmental Protection",
+ "note": 4.61,
+ "nbAvis": 248,
+ "lus": 79,
+ "collectes": 124,
+ "segments": {
+  "oily": "Reviewers with oily skin generally report the serum absorbs without added heaviness and helps with hydration and glow, though one reviewer with oily, sensitive skin found it heated up, turned her skin red, and felt greasy, and does not recommend it for that combination.",
+  "dry": "Dry-skin reviewers are the most consistent source of praise, describing reduced flaking, softer and plumper skin, and smoother makeup application, though a few note the hydrating effect fades within days of stopping use.",
+  "combination": "The small number of reviewers with combination skin describe a slightly oily feel in the T-zone that fades as it absorbs, alongside brighter, smoother-looking skin overall.",
+  "sensitive": "Sensitive-skin reviewers are divided: several describe it as one of the few products their reactive or rosacea-prone skin tolerates without breaking out, while others report burning, redness, or an allergic-type reaction, especially when layered with tretinoin or a retinoid.",
+  "normal": "The two reviewers who describe normal skin diverge sharply: one had a severe allergic reaction with facial and eye swelling, the other reports dramatically softer, brighter skin after a single night and continued improvement over three months.",
+  "mature": "Reviewers in their late 30s to 70s who mention their age report firmer, plumper skin, fewer forehead fine lines, and a brighter complexion with regular use."
+ },
+ "concerns": {
+  "aging": "Reviewers focused on visible aging report firmer, plumper skin and fewer fine lines on the forehead, with several noticing the change within a few weeks of regular use.",
+  "dehydration": "For dehydration, reviewers report smoother, softer, plumper skin, sometimes noticeable after a single application, though several note the hydrating effect fades within days if they stop using the product.",
+  "redness": "Redness is reported both ways: several reviewers describe their face turning red, blotchy, or hot soon after application — particularly when layered with tretinoin or a retinoid — while others report the serum reducing pre-existing redness and acne marks over time.",
+  "spots": "A few reviewers mention hyperpigmentation specifically, reporting a slight to general improvement after weeks of use, though none describe dramatic fading of dark spots.",
+  "blemishes": "Most reviewers who mention acne-prone skin report clearer skin and fewer or less painful breakouts after several weeks, but a couple describe a new breakout within days of starting, and one notes it does less for active blemishes and scars than azelaic acid.",
+  "oiliness": "Reports on oiliness are mixed: some describe the serum as oily or greasy on application, especially if overused, while others, including reviewers with oily skin, find it absorbs quickly without added heaviness."
+ },
+ "aspects": [
+  {
+   "libelle": "Woody, earthy scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Warming or hot sensation on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Reddish-orange tint that can transfer",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle relative to price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Inexpensive for an antioxidant serum",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sticky feel unless mixed with moisturizer",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Sharri",
+   "titre": "Allergic Reaction",
+   "texte": "I have pretty normal skin that tends to be on the dry side. I had the worst allergic to this product. I went to bed and woke up with my face swollen and my eyes were almost swollen shut. It itched and the experience was horrible. Not sure what I did wrong. I will add that I do love the ordinary products and have never experienced anything like this before.",
+   "date": "2022-05-07",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "normal",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Aylen",
+   "titre": "Not for my oily sensitive skin!",
+   "texte": "I was extremely excited about this product but as soon as I put it on I started to feel it heat up and make my skin red. I also was not expecting it to be so oily and make my skin feel greasy. I wouldn't recommend this for oily sensitive skin types.",
+   "date": "2021-10-01",
+   "verifie": true,
+   "utiles": 19,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "smids",
+   "titre": "Helped reduce dryness from tretinoin",
+   "texte": "I brought this for the antioxidant purposes, but the unexpected side effect has been the hydration and softness my skin feels after using two drops once a day. I've been using prescribed tretinoin (.025%) for my cystic acne for 4 months now, and it has been drying my skin to the point of discomfort. Pycnogenol in combination with Amino acid B5 from the ordinary, and the larocheposay cicaplast cream has helped reduce the irritation and dryness without causing further acne. I would recommend pycnogenol for the hydration and glow, but if I am being honest, other than hydration, I have not seen any other dramatic differences on my skin for over two months. Hence the 4/5 instead of 5/5. No reduction on acne or very very slight reduction in hyperpigmentation. My favourite antioxidant from the ordinary is the resveratrol and ferulic acid 3% but it is drying unlike pycnogenol.",
+   "date": "2022-02-28",
+   "verifie": true,
+   "utiles": 28,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Moi",
+   "titre": "What have you done to me",
+   "texte": "I dont think I can live without this product. I've used it for several years and I can confidently say my aging (37 yo) skin has looked like crap when I've run out and had to go (briefly) without it. I have sensitive, acne proned, oily skin; this product has never aggravated it. It's perfection in a bottle and I will go out kicking and swinging if anything ever changes about it.",
+   "date": "2025-05-15",
+   "verifie": false,
+   "utiles": 41,
+   "peau": "oily",
+   "sujets": [
+    "aging",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "kritkrit",
+   "titre": "Love it",
+   "texte": "I decided to try new regime for my very dry skin- c-vit powder, buffet, pycnogenol and moisturizer AM and lactic acid10%, buffet, retinol emulsion and moisturizer PM and wow, my skin is visibly younger and lines on my forehead smoothed out. I have had a perfect skin for my whole life, no zits, small pores etc, but as my skin is very dry then unfortunately it has shown some signs of ageing in past years. I love the oily texture of pycnogenol, exactly what my dry skin needs to stay hydrated all day long. Love it.",
+   "date": "2021-08-25",
+   "verifie": true,
+   "utiles": 30,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bren",
+   "titre": "I wouldn't buy for my skin",
+   "texte": "First let me say that there seems to be some confusion about what this is. Some reviews say the additive, Propanediol, is affecting them negatively. Propanediol IS pine bark extract. This product is just the one ingredient. Propanediol is extremely affective for a lot of skin types. There is nothing negative about the product itself, my skin is just too sensitive. I have Rosacea and it reacts to EVERYTHING. So, if you don't have SUPER TRIGGER SENSITIVE skin, this is worth a try. I know it DOES help those with Rosacea, so patch test it. My skin is just too bratty.",
+   "date": "2022-05-01",
+   "verifie": false,
+   "utiles": 25,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "VT",
+   "titre": "Softens skin dramatically",
+   "texte": "Skin type: normal with dry spots, not sensitive with occasional stress breakouts Climate: Canadian winter I bought this in November, and I usually add 2-3 drops to hyaluronic acid nightly in lieu of vit c. After the first night, my skin was dramatically softer and more supple in the morning. After three months of regular use, my skin looks brighter, glowy, and feels softer. The smell isn't noticeable since I'm using such a minute amount, but I've experienced a significant difference with its addition.",
+   "date": "2022-02-05",
+   "verifie": true,
+   "utiles": 22,
+   "peau": "normal",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}
