@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2056174",
+ "asin": null,
+ "pid": "pimprod2056174",
+ "source": "ulta",
+ "nom": "La Roche-Posay Hyalu B5 Suractivated Face Cream",
+ "note": 4.62,
+ "nbAvis": 1709,
+ "lus": 79,
+ "collectes": 124,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin mostly report the cream is gentle and non-irritating, including several with acne-prone or eczema-prone skin, though one reviewer's sensitive skin reacted with persistent redness and she had to stop use.",
+  "dry": "Reviewers with dry skin, several noting it worsens as they age, report deep hydration and relief from dry patches, calling it a go-to during winter.",
+  "oily": "Reviewers who mention oily skin report it keeps them balanced and hydrated at night without added greasiness.",
+  "combination": "Reviewers with combination skin report it works well on drier patches while their oilier areas stay comfortable rather than greasy by morning."
+ },
+ "concerns": {
+  "dehydration": "Hydration is the main benefit reviewers report, with many describing plump, smooth, softer skin, though a few say they needed several weeks before noticing any real difference.",
+  "redness": "One reviewer's sensitive skin turned bright red and blotchy despite using a sensitizing primer beforehand and she had to stop; several other reviewers, including ones prone to redness, report it actually calmed their redness.",
+  "barrier": "Several reviewers, including ones with over-exfoliated or eczema-prone skin, credit the cream with restoring their skin barrier and reducing irritation.",
+  "aging": "Reviewers report smoother, firmer-looking skin with reduced fine lines after consistent use, though a few say they got good hydration but saw no real change to their wrinkles.",
+  "blemishes": "Reviewers with oily, acne-prone or greasy skin report it does not cause breakouts and, in a couple of cases, helped calm or heal active blemishes overnight."
+ },
+ "aspects": [
+  {
+   "libelle": "Fairly strong fragrance, noticeable on first use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Can pill when layered with other products",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Refillable jar, seen as economical and eco-friendly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich texture that still absorbs without greasiness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Considered pricier than similar drugstore creams",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Jo",
+   "titre": "Sadly not for me",
+   "texte": "My sensitive skin loves most LaRoche products but Hyalu B5 turns my cheeks bright red. Too strong? Too drying? …not a clue why, but even with a sensitive skin primer first (tried in desperation after 2 weeks) this cream just isn't for me. Red blotchy skin? No thanks",
+   "date": "2026-05-19",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Amy",
+   "titre": "A little goes a long way",
+   "texte": "After using this nightly for about 3 weeks I haven't noticed any changes. It has a strong scent that I'm not a fan of. A little bit goes a long way and it does hydrate well. The jar should last a long time. I will continue to use it and hopefully will see results.",
+   "date": "2026-02-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Estela",
+   "titre": "Lightweight but gets the job done",
+   "texte": "[I received this product in exchange for my honest review] This cream is very lightweight and absorbs quickly. My skin is combination, leaning dry. My dry patches tend to be extremely dry and, usually, only heavier creams work. This worked well. I was pleasantly surprised. This is not unscented. The scent is reminiscent to Olay ponds creams, with a floral hint. It dissipates quickly, so I don't find it bothersome. Overall, I would repurchase.",
+   "date": "2026-04-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Karla",
+   "titre": "Saved my skin on winter!",
+   "texte": "[I received this product in exchange for my honest review] This moisturizer is so good! Gave plenty of hydration without leaving me feeling greasy or sticky. Absorption was quick. My skin drank this stuff and loved it! It was perfect for my sensitive skin too. Easy and super smooth to apply. No hassle, perfect for day and night. I have sensitive, greasy acne prone skin and I'm surprised my skin reacted so positive to this stuff. Also, I love the packaging! Eco friendly because you can reuse the jar and just buy the refillable pods for it! Amazing.",
+   "date": "2026-02-27",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Caer",
+   "titre": "Quiet luxury moisturizer",
+   "texte": "[I received this product in exchange for my honest review] Rich without feeling heavy hydrating without feeling greasy. The texture is smooth, cushioning and absorb well, especially when skin is dehydrated and irritated after over exfoliation. Excellent for restoring healthy skin barrier.",
+   "date": "2026-05-19",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kim",
+   "titre": "Very moisturizing",
+   "texte": "[I received this product in exchange for my honest review] This moisturizer is impressively rich and left my skin feeling significantly more hydrated than before. I found the fragrance to be very unassuming—it isn't overpowering at all—and it soaked into my skin readily without leaving a greasy residue. While it excels at moisturizing, I didn't notice the same reduction in fine lines and wrinkles that I've seen with other anti-aging creams. The packaging is standard for a lotion, and I appreciated that the jar was very easy to open. Overall, it's a solid choice if your primary goal is deep hydration.",
+   "date": "2026-03-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yani",
+   "titre": "Wow!!! Look at my skin",
+   "texte": "[I received this product in exchange for my honest review] This product has changed my face for the better. My redness has clam down which is the best. The packaging is great and it hold a lot of product in it. My skin is nice and tight with this young appeal. It's keep my skin moisturize mostly all day, the duration I would used to much of it because a little comes a long way. You will see results for in 2-3 weeks",
+   "date": "2026-02-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

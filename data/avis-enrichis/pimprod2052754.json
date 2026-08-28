@@ -1,0 +1,157 @@
+{
+ "ref": "pimprod2052754",
+ "asin": null,
+ "pid": "pimprod2052754",
+ "source": "ulta",
+ "nom": "Neutrogena Collagen Bank Reviving Eye Cream",
+ "note": 4.65,
+ "nbAvis": 372,
+ "lus": 80,
+ "collectes": 125,
+ "segments": {
+  "dry": "One reviewer with dry skin, including around the eyes, reports the cream left her under-eye area supple and hydrated while also reducing puffiness and dark circles.",
+  "sensitive": "Most reviewers who describe their skin as sensitive report no irritation and call the formula gentle enough for daily use, though two reviewers who identify as reactive to niacinamide report stinging or persistent eyelid twitching from this cream specifically.",
+  "mature": "Reviewers in their 40s and 50s report firmer, smoother under-eye skin with reduced puffiness, dark circles and fine lines after one to several weeks of consistent use."
+ },
+ "concerns": {
+  "aging": "Most reviewers report reduced puffiness, lighter dark circles and softer fine lines within one to four weeks of use, several describing visibly firmer or tighter under-eye skin; a minority, including some using it for two to three weeks, report no noticeable change in fine lines or dark circles.",
+  "dehydration": "Many reviewers describe the cream as hydrating, leaving the under-eye area smooth and plump; one reviewer who prefers richer formulas found it not very moisturizing and providing only a little hydration.",
+  "redness": "The large majority report no irritation, stinging or redness, including some who call it gentle enough for sensitive skin; two reviewers dissent, one reporting incessant eyelid twitching and another a bit of irritation, both attributed to the niacinamide."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight gel texture, absorbs quickly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or very subtle scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can leave clumps or residue under concealer",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well as a base under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Niacinamide can sting or irritate near the eyes",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Cooling, refreshing feel on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small jar but product goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "lovesmakeup",
+   "titre": "Causes Eyelid Twitching",
+   "texte": "This gel cream is lightweight and absorbs almost instantly. It is not very moisturizing, but does give a little hydration. Every time I use it, my lower eyelid twitches incessantly all day. I looked it up, and apparently niacinamide can cause eyelid twitching when used close to the eyes. I've used niacinamide on my face, but not near my eyes, so I've not had this issue before. I've only used this 3 days and it's happened every one of those days before I finally put it together that it's the eye cream causing it. Apparently it can take several days to resolve, but it should be okay.",
+   "date": "2026-01-18",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Suzie9",
+   "titre": "Lightweight",
+   "texte": "This is really light for an eye cream. I prefer something a bit more moisturizing. This has a silicone like slippy feeling that I don't really like in an eye cream. I don't think it provides a lot of moisture and I feel like it sort of sits on top of the skin. It also doesn't play nicely with concealer. It's fine for night but there are more nourishing creams that I prefer. It also has niacinamide which caused a bit of irritation since I am sensitive to it.",
+   "date": "2025-07-25",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "LaGuerita2065",
+   "titre": "Keep your eye area looking great",
+   "texte": "This new Neutrogena Collagen Bank Reviving Eye Gel Cream is a good eye product. This helps to keep your eye area looking great. It helps to preserve collagen, and get rid of those dark circles, fine lines , and puffiness. It absorbs quickly and can be used under your makeup.",
+   "date": "2025-07-30",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jess876",
+   "titre": "An eye cream that actually works!",
+   "texte": "I'm always looking for new skincare products especially eye creams. This Neutrogena Collagen Bank Reviving Eye Gel Cream works great. I wanted to use it for at least 2 weeks before giving my honest review. I love how lightweight and luxurious it feels on the skin. It absorbs well and doesn't leave behind any stickiness or tackiness. It moisturizes and refreshes instantly. So far it has lived up to it's claims. I have seen a difference with puffiness, dark circles and texture. I have seen a slight difference in the fine lines around my eyes. They aren't as prominent. I also love how it's fragrance free, safe for sensitive skin, gentle enough for daily use and layers well under makeup. This eye cream is definitely a great alternative to retinol especially if you have sensitive skin. Overall I love everything about this eye cream. It is a little pricey but skincare is an investment and well worth it. I highly recommend and would purchase again.",
+   "date": "2025-07-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "tbelden3237",
+   "titre": "Neutrogena Collagen Bank Reviving",
+   "texte": "I love this eye cream. I have dry skin including my eyes and this gave me supple skin around my eyes and is very hydrating. I have seen a difference in my eyes with my puffiness and dark eye circles. I have recommended this product to my friends and family.",
+   "date": "2025-07-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mistyc808",
+   "titre": "Collagen Bank improves under eyes!!",
+   "texte": "I've been loving this Neutrogena Collagen Bank Reviving Eye Cream. I love the way it applies and it absorbs quickly, leaving my under eyes smooth and helping get rid of dark circles! I love that it has Collagen in it, I can tell that at \"40 something\" (lol), my under eye skin is not as firm and smooth as it used to be. Let's face it, nothing is going to give me the last 25-30 years back, but this does help with some of the issues that I have and that's good enough for me! I will continue to use this cream and I'm excited to see what the long term results look like!!",
+   "date": "2025-07-30",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nellypoo9",
+   "titre": "Bye bye eye wrinkles",
+   "texte": "I was so excited when i received this free sample of Neutrogena Collagen Bank Reviving Eye Cream. I have seen it in the stores, but I never tried it before until now. It definitely took away the fine lines and crows feet around my eyes and left my skin looking smoother and tighter than before i started this product. On my 50th birthday, i received lots of compliments on how well my skin looked which made me super excited to be the BIG 50 i guess, lol.",
+   "date": "2025-07-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

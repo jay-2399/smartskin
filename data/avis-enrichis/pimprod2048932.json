@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2048932",
+ "asin": null,
+ "pid": "pimprod2048932",
+ "source": "ulta",
+ "nom": "ANUA Rice 70 Glow Milky Toner",
+ "note": 4.41,
+ "nbAvis": 216,
+ "lus": 76,
+ "collectes": 117,
+ "segments": {
+  "sensitive": "Sensitive skin produces the most polarized reports: several reviewers describe hives, rashes, itchy red patches, or small breakouts after use, in some cases prompting them to stop, while a comparable number with sensitive, reactive, rosacea, or eczema-prone skin report the toner is soothing, calms redness, and causes no irritation at all.",
+  "dry": "Reviewers with dry skin, including several in cold winters, most often report significant, lasting hydration and improved dehydration lines, though one reviewer found it made her dry skin drier.",
+  "oily": "Reviewers with oily or oily-combination skin generally report the toner hydrates without adding oiliness or heaviness, and several note it calmed redness or closed comedones; one reviewer with oily-combination skin found it left her face red and warm.",
+  "combination": "Reviewers with combination skin, including several managing acne alongside dryness, report a balanced, hydrated feel without excess oil in the T-zone.",
+  "mature": "Reviewers in their late 30s to 50s report a noticeable glow, plumper skin, and better moisture retention as their skin has gotten drier with age."
+ },
+ "concerns": {
+  "blemishes": "Reports are split: a notable group, including reviewers with acne-prone or sensitive skin, describe new whiteheads, clogged pores, or breakouts within days of starting the toner; a larger group, including some with oily or acne-prone skin, report fewer breakouts, smaller pores, and calmer skin, with a few noting an initial purging period that passed.",
+  "redness": "Several reviewers report hives, rashes, or red, itchy, irritated patches, in some cases requiring them to stop use; conversely, many others, including reviewers with rosacea, report the toner visibly calms redness and irritation.",
+  "dehydration": "The large majority of reviewers, across dry, oily, and combination skin, report strong, lasting hydration and a plumper, glowier look, often after just one use; dissent is limited to a single reviewer who found it made her already-dry skin drier.",
+  "barrier": "Several reviewers explicitly credit the toner with repairing or strengthening a compromised moisture barrier, including one recovering from over-exfoliation and dryness."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, milky texture that absorbs without stickiness",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable glow after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slightly sticky or tacky residue at first for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable, bottle lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well with serums and other products",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Star",
+   "titre": "HIVES ALERT!",
+   "texte": "My face is currently covered in hives. This is the first time i try anything from Anua and I was so excited but now I'm afraid to try anything from this brand.",
+   "date": "2025-05-26",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Brook",
+   "titre": "Others Might Enjoy it, Irritated my Skin",
+   "texte": "I have sensitive skin and have had irritation from other skincare products. I'm just writing a review to make people who also have sensitive skin. Will know to make sure to do a patch test to avoid irritation from this product. The irritation being itchy, red and dry patches on my cheeks and chest. I think this product would work great for others and just wasn't the case for me.",
+   "date": "2025-02-13",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Emma",
+   "titre": "Wanted to love it :(",
+   "texte": "I have heard such good things about this toner and was dying to try it. I have VERY dry skin and this made a huge difference after just one use. It visibly improved my dehydration lines and gave me a really nice glow. Unfortunately after using it for a few days I started breaking out in tiny whiteheads all over my face. I did some experiments to confirm that it was the toner causing my breakouts and ended up returning the product. Hopefully this works better for people who dont have sensitive skin!",
+   "date": "2026-03-07",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Ushika",
+   "titre": "Very good toner loved it . Good for my daily morning routine",
+   "texte": "Skin type : Oily with severe acne prone skin including fungal acne The first time I used it , it gave me acne but I expected it because it was a new product for my skin . Next day onwards the acne slowly decreased and my skin felt so relaxed and smooth and calm every time I used it . Now it has been a daily routine for me to use to before my sunscreen and moisturizer. This gives so much moisture that you don't even need to use a moisturizer once you use this( you will need to use a moisturizer if your doing makeup because this toner alone does not help for a good skin prep and a good base and to not go through cakey and crusty makeup). In conclusion this toner did such a good job for my acne and oily skin giving it a plumy glow and moisture and soothing calmness my skin needed. I love it and will purchase it more in the future.",
+   "date": "2025-08-12",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joan",
+   "titre": "Best toner",
+   "texte": "The best toner I have ever used on my skin as I have such sensitive skin Rosacea and eczema. It has worked wonders I dont break out as much anymore especially before my period my skin is a lot smoother and I dont have too much redness anymore",
+   "date": "2026-03-09",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Essie",
+   "titre": "Repairs Dehydrated Damaged Skin Barrier!",
+   "texte": "I have been using this product for 4 MONTHS! Same bottle and I use it 1-2 times a day, trust me, im heavy handed too. This will last you, great amount of product for the price. HYDRATES AND REPAIRS! I'm serious. I was having chronically flaking skin around my nose. It was dehydrated and damaged from all the actives i was using and dry weather of Cali. I tried several heavy moisturizers that did not help. BUT THIS PRODUCT HEALED my damaged, dry skin barrier. Not claiming for eczema though, but it wouldn't hurt to try. I don't typically get this hype for most skin products unless they make a BIG difference. This is good for dry skin and acne prone skin and I would say at least combination skin as it did help control areas I get oily which is my chin and nose. Oily skin types this will be good if you have a lot of actives products you are using that are drying but if not you can skip this 🙂",
+   "date": "2026-03-04",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Priscilla",
+   "titre": "Great Toner!",
+   "texte": "I have been using this Rice 70 Glow Milky Toner by Anua for about a little bit over two weeks now. My skin type is super dry now that i am 37 years old so i look for products that give my skin the hydration that it needs. This Milky Toner has been great on my skin. My skin looks and feels more hydrated and the texture on my skin is minimized. I have been using this toner twice a day morning and night and it is very gentle on my skin. This toner has great beneficial ingredients like Niacinamide which helps balance sebum production and oil production, 70% Anua rice water which helps brighten the skin for even complexion, and Ceramides that help to form a stronger skin barrier. I definitely recommend trying this Milky Toner by Anua out! It has quickly become a favorite in my skincare routine!",
+   "date": "2025-01-27",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

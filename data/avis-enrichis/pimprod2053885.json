@@ -1,0 +1,132 @@
+{
+ "ref": "pimprod2053885",
+ "asin": null,
+ "pid": "pimprod2053885",
+ "source": "ulta",
+ "nom": "Perricone MD Neuropeptide Eyelid Lift Serum",
+ "note": 4.45,
+ "nbAvis": 717,
+ "lus": 80,
+ "collectes": 123,
+ "segments": {
+  "dry": "One reviewer with normal to dry skin reports her skin absorbed the serum well alongside a visible improvement in fine lines and creases.",
+  "sensitive": "Reviewers with sensitive eyes, including some who react to most eye products, consistently report no stinging, burning, or irritation from this serum.",
+  "mature": "A reviewer specifically recommends the serum for mature skin, and several others in their 40s to 60s report a subtle lifting effect on sagging or hooded eyelids."
+ },
+ "concerns": {
+  "aging": "Reviewers are split on results: many report a visible lift, smoother fine lines, and less crepey skin around the eyelids after two to several weeks of consistent use, while a notable number say they saw no difference even after a full month.",
+  "dehydration": "Some reviewers note the serum moisturizes the eye area well even when they did not notice a firming or lifting effect."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Convenient dropper applicator",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Results take weeks and are often subtle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels sticky or tacky right after application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Expensive for the amount of product",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "DeannaB",
+   "titre": "There are better products",
+   "texte": "Unfortunately this product did not do what it claimed to do. My eyelids look the same, not even tighter. I hold highly priced products to a high standard cause money is important, this product disappointed me. Although it does feel great on my eyes!",
+   "date": "2026-02-26",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Tear",
+   "titre": "No Wow Yet",
+   "texte": "I'm not sure about this product yet. Its been about 4 weeks and no difference. To be fair, I feel I need to use it longer. What I don't like about it is that it leaves a dry flakey film around your eyes. I have to wipe my eyes a few times through out the day.",
+   "date": "2026-04-14",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "ChristinaH",
+   "titre": "I'll wait and see",
+   "texte": "As a Perricone MD loyalist, I really wanted to love this. The application is seamless because of how quickly it absorbs into the skin without being greasy. That said, three weeks in, I'm not seeing the results justify the cost just yet. Given that my sagging is minimal, I thought this would be a holy grail fix, but it has stayed pretty stagnant. I'll finish the bottle, but I'm underwhelmed so far.",
+   "date": "2026-02-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lorraine",
+   "titre": "I will buy this product again",
+   "texte": "I have tried several products to minimize my hooded eyelids (Lancôme, Este Lauder, etc.) with no real results. THIS product works. I have been using it for 5 months and my eyelids look normal; not hooded. I recommend this product.",
+   "date": "2026-02-16",
+   "verifie": false,
+   "utiles": 20,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SteviMarieW",
+   "titre": "This actually works and doesn't irritate my eyes",
+   "texte": "Perricone MD is my absolute favorite brand of all time because they use ingredients that work amazingly well with their very own recipe every time. I don't claim to be an expert on what is used to make an incredible product, but I know what works and this eyelid lift serum is magic! I have always had \"sleepy eyes\" and as I age, it's going from Bette Davis to plain old tired. One drop dabbed on both eyelids makes me look more awake and I can still put makeup on. I have the most sensitive eyes EVER, but I have had no adverse reactions. I normally won't put anything around my eyes because of how sensitive they are, but I trust this brand. I'm just so pleased!",
+   "date": "2026-03-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "LeanneH",
+   "titre": "Effective on entire eye area",
+   "texte": "This is a Holy Grail product for me! I have really struggled with my eyelids and under-eye the last couple years- anyone over 40 knows how quickly your eye area can change. I've been looking for a product that will work on my entire eye area and have tried many- this one starting showing results within a few days and now after 2 weeks, I'm seeing a major improvement on both the fine lines and creases under my eyes and the texture on my lids that nothing else has been able to touch. I'm using it exclusively (along with other products from the Neuropeptide line) and will continue to do so. My skin is normal to dry and just soaking it up as soon as I apply.",
+   "date": "2026-02-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

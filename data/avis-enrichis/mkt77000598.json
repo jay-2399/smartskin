@@ -1,0 +1,134 @@
+{
+ "ref": "mkt77000598",
+ "asin": null,
+ "pid": "mkt77000598",
+ "source": "ulta",
+ "nom": "HALEYS Beauty Re-move Zero Residue Nourishing Cleansing Oil",
+ "note": 4.88,
+ "nbAvis": 60,
+ "lus": 58,
+ "collectes": 58,
+ "segments": {
+  "oily": "Reviewers with oily skin, including one who was hesitant to try an oil cleanser, report no breakouts, irritation, dryness or splotchiness, with one saying her oiliness has actually subsided since switching to this oil cleanser, and another with extremely oily skin noticing a big improvement in her hormonal acne.",
+  "sensitive": "Sensitive-skin reviewers, including one who reacts badly to most facial cleansers and one whose skin normally burns when removing eyeliner, report the oil fixed texture issues and removed makeup without stripping or burning their skin.",
+  "dry": "One reviewer with dry skin says it left her skin feeling nourished; another with dry and sensitive skin says it hydrated without stripping moisture, unlike other removal methods that leave her skin burning.",
+  "combination": "One reviewer with combination skin who reacts badly to most cleansers says this oil fixed a lot of her texture issues within a week."
+ },
+ "concerns": {
+  "dehydration": "Reviewers overwhelmingly describe the oil as leaving skin soft, hydrated and nourished rather than stripped or tight, including reviewers with dry or sensitive skin who say other removal methods normally leave their skin feeling stripped or burning.",
+  "redness": "Reviewers say the oil doesn't leave skin irritated or red the way frequent washing or other removers sometimes does, and several specifically note it doesn't sting or burn the eyes even with waterproof makeup.",
+  "blemishes": "Reviewers with acne-prone or oily skin report no breakouts or clogged pores, and one with extremely oily skin noticed a marked improvement in her hormonal acne after a few days of use.",
+  "oiliness": "Oily-skin reviewers consistently say the oil rinses away without leaving a greasy after-feel, and one reports her overall oiliness has subsided since switching to this cleansing oil."
+ },
+ "aspects": [
+  {
+   "libelle": "Removes even waterproof mascara easily",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rinses off without greasy residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant light herbal or rosemary scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unique squeeze-bottle dispenser praised",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Generous amount of product for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stubborn waterproof mascara can take extra effort",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "YellowOranges",
+   "titre": "Good for multi-step cleansing",
+   "texte": "It takes off most if my makeup. It takes a minute to remove my waterproof smudge proof mascara, but it helps breaks it down. Works best with gel cleansers.",
+   "date": "2023-09-25",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "bunny1212",
+   "titre": "AMAZING FOR OILY GIRLS",
+   "texte": "I have really oily skin, so I was hesitant to try an oil based cleanser since I break out easily. After using Re-move for nearly a month, I can honestly say this has been the best cleanser for my skin type. No break outs, irritation, dryness or splotchy skin. My skin feels perfectly soft and hydrated even though I use this cleanser 2-3x a day. I hate it when I overwash my face and then it becomes irritated and red. I also feel like it has some magical powers b/c I feel that my oiliness has subsided since using an oil cleanser. It also takes off all my makeup (even waterproof eyeliner) at the end of the day. I've already replenished my Re-move and on my 2nd bottle. The smell is also light and herbal. Also easy to pack for travel too.",
+   "date": "2023-07-17",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hayley",
+   "titre": "Sensitive Skin Friendly",
+   "texte": "I have super sensitive skin and I've religiously used the Banila Co cleansing balm for the last two years. Any time I use other facial cleansers, my face acts up. I have combo type skin and wear makeup every day. This cleansing oil managed to fix a lot of texture issues I had in a week and my skin feels so soft after I'm done using it. I also love that the applicator tip doesn't go crazy when I'm pouring it into my hand. It has a steady drip and you can squeeze tbe bottle to get more out quickly. It's easy to throw in your gym bag should you want to wash your face after a workout. The smell is pleasant as well. It almost smells faintly of rosemary. Will definitely be repurchasing! Great price and lots of product!",
+   "date": "2026-03-10",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "KMarie",
+   "titre": "Wasn't sure at first, but.....",
+   "texte": "I wasn't sure on this Cleansing Oil at first because it is thicker than others that I had used before. I have extremely oily skin, so that concerned me. However, after using it for a few days, I have noticed a huge difference in my hormonal acne. Not sure what is in this to help that other than possibly it is just giving me a deeper clean, but whatever it is, I love it!!",
+   "date": "2023-11-02",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Leeza",
+   "titre": "Really awesome cleanser !",
+   "texte": "My skin is very dry and sensitive. When I apply eyeliner (regular or waterproof) scrubbing it with face wash or wiping it with a makeup removal cloth always leaves my skin burning. This oil based cleanser was so easy to use and didn't make my skin feeling stripped of all the moisture. It felt my skin feeling hydrated and clean. Love the product and it's cost effective than using some of the other oil based cleansers !",
+   "date": "2023-07-08",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Layla D",
+   "titre": "5 Stars",
+   "texte": "Gifted by Haley's beauty. I'm getting more into cleansing oils and was excited to try this one. This oil removed all my makeup including my waterproof mascara. I have dry skin and it left my skin feeling nourished as well. Definitely a good cleansing oil.",
+   "date": "2024-06-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

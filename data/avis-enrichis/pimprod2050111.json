@@ -1,0 +1,146 @@
+{
+ "ref": "pimprod2050111",
+ "asin": null,
+ "pid": "pimprod2050111",
+ "source": "ulta",
+ "nom": "Wildfleur Salicylic Acid 2.0% + Willowherb Clarifying Toner",
+ "note": 4.55,
+ "nbAvis": 191,
+ "lus": 78,
+ "collectes": 121,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin, including several with rosacea, mostly report no irritation, stinging or burning despite the salicylic acid; a couple describe small bumps or dryness in the first days that resolved.",
+  "oily": "Reviewers with oily or acne-prone skin report it clears clogged pores and reduces breakouts without over-drying, and several call it their go-to product for that skin type.",
+  "dry": "Reviewers with dry skin are split: several report it doesn't dry them out and even feels hydrating, but a couple experienced increased dryness or flaking makeup after continued use.",
+  "combination": "Reviewers with combination skin report it balances oil in the T-zone while staying gentle on drier areas."
+ },
+ "concerns": {
+  "blemishes": "Most reviewers report fewer breakouts and faster resolution of active blemishes, including one whose deep cystic pimple surfaced and healed overnight; a few say they saw no change in their breakouts.",
+  "dehydration": "Most reviewers, including several with dry or sensitive skin, report it does not dry out their skin despite the acid; a minority say it left their skin more dry or caused their makeup to flake after continued use.",
+  "oiliness": "Reviewers with oily skin report it balances sebum and controls shine without stripping the skin, though one reviewer felt her face got oilier faster after use.",
+  "spots": "Reviewers report fading of acne scars and dark spots with continued use, describing gradual improvement over several weeks rather than an immediate change.",
+  "redness": "One rosacea reviewer reports calmer skin and fewer bumps, and another notes it helped redness in her cheeks; a couple of reviewers experienced mild redness from the acid on first use that was not described as irritation."
+ },
+ "aspects": [
+  {
+   "libelle": "Thicker, water-like consistency applied best by hand",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or very mild scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cute, colorful bottle design widely praised",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Usage frequency instructions are vague on the packaging",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly without sticky residue",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Kelly 30",
+   "titre": "Dried my skin out",
+   "texte": "I received a bottle of the Wildfleur Clarifying Toner to try in exchange for my honest review. Starting with the basics, it doesn't really have a smell, at most a very mild scent. Upon first applying it definitely made my skin red but not in an irritated way. A few swipes across the skin produced a cotton ball full of dirt/makeup EVEN though I had used it AFTER I cleansed. I was shocked. My other toners did not produce the same results. I started off by using it a few days a week 1x a day as instructed and worked up more. It was obviously that it was clarifying but after 2 weeks use I did notice my skin more dry and my make up began flaking. It's possible I need a lower strength toner or need to use it less often. Overall, I did see a bit of a difference but not sure it's worth the dry skin.",
+   "date": "2025-02-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Bluelake9000",
+   "titre": "Light scent, sting free, did not help skin over all",
+   "texte": "First, I love the packaging of this product! The cap reminds me a bit of flower and it's cute! Compared to other acne targeted I've tried, this one has a nice and light scent, and does not have an astringent or stinging feeling compared to others I've tried. I didn't feel that this removed as much extra dirt and oils from my face. Unfortunately, after using this product, there were many small bumps on my face, although the fragrance is light, my skin may have been too sensitive.",
+   "date": "2025-02-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Vixi",
+   "titre": "Great for oily/acne prone skin",
+   "texte": "Got to try this out thanks to the Korean skincare brand Wildfleur and BzzAgent in exchange for my honest feedback, this clarifying toner is applied after cleansing and helps remove any excess dirt and gunk left behind to keep your skin nice and clean and ready for your favorite moisturizer. I felt like this would be an absolute fantastic toner for someone with mainly oily or acne prone skin but my skin is a tad bit more on the dry and slightly sensitive side with this weather so a heavy moisturizer in my case was a must to prevent over drying and some sensitivity. I am also early forties so I felt this toner was a better fit for my younger twenties daughter as her skin is not as dry and sensitive as mine, I would buy this again specifically for her as it has done very well for her complexion!",
+   "date": "2025-02-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Natalienyc81",
+   "titre": "Great for sensitive skin",
+   "texte": "I have rosacea so I'm very choosy and what I put on my skin, especially when it comes to exfoliating products. I've noticed more hydrating skin during this harsh winter and less bumps. Overall a total winner",
+   "date": "2025-02-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Toner For Combination Skin",
+   "titre": "Oily + Sensitive Skin Toner",
+   "texte": "This toner really helps balance my sebum / oil level on my nose without drying me out. I have super sensitive skin so im either too dry or super oily with closed comedom pimples on my nose that never want to pop. Love this toner and love that an ingredient is flowers 🌷.",
+   "date": "2025-12-05",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "AMullins",
+   "titre": "I will be buying this again",
+   "texte": "It has only the smell of alcohol which isn't a bad thing, means there's no fake fragrance. I tried it on a really deep, cystic ache spot that was just forming & normally takes days to come to the top & is very painful! I washed my face & then applied the toner over top of the offensive zit for about a minute. To my surprise the next day it had risen to the top of my skin. I was so thankful I didn't have to go through the days long end of a huge pimple in the middle of my face! I used the toner for another week & my skin cleared thanks to the salicylic acid in the toner. I'll definitely continue using this product & I recommend it to anyone who's got some acne.",
+   "date": "2025-02-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Bee",
+   "titre": "Loving this toner",
+   "texte": "Thanks Wildfleur for the free Salicylic Acid Clarifying Toner! I've been using this nightly as part of my skincare routine for about 2 weeks, and my face seems clearer and brighter! I have naturally dry skin, but surprisingly, this toner has not been dehydrating at all. The only thing I would like to see is the full list of ingredients on the packaging.",
+   "date": "2025-02-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

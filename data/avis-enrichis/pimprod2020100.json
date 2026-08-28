@@ -1,0 +1,130 @@
+{
+ "ref": "pimprod2020100",
+ "asin": null,
+ "pid": "pimprod2020100",
+ "source": "ulta",
+ "nom": "No7 Radiance+ Bright Eye Roll-on Eye Cream",
+ "note": 4.23,
+ "nbAvis": 372,
+ "lus": 80,
+ "collectes": 121,
+ "segments": {
+  "sensitive": "The one reviewer who identifies as having very sensitive skin reports no irritation from the cream around her eyes.",
+  "dry": "A reviewer with severely dry skin around her eyes found the roll-on helpful but still felt she needed an additional moisturizer on top."
+ },
+ "concerns": {
+  "aging": "Many reviewers report a visible softening of fine lines around the eyes and a brighter, less tired look with regular use over two or more weeks; a similar number see no noticeable change in fine lines even after weeks of daily use.",
+  "dehydration": "Most reviewers describe the roll-on as moisturizing, leaving the under-eye area softer and less tight; one reviewer with severely dry skin around her eyes felt she still needed an additional moisturizer on top."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling metal roller-ball applicator",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Orange or unnatural tint that doesn't blend in",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills, flakes, or sits on skin instead of absorbing",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Visible glitter or sparkle in the formula",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Inconsistent amount dispensed from the tube",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Reduces morning puffiness",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Heather",
+   "titre": "Pills up on skin, very orange",
+   "texte": "This product was extremely disappointing. I literally can't even use it because it's immediately pills up on my skin and does not absorb. I try to rub it in and it just pills and flakes right off. Also it is like orange orange. This cannot be used under makeup. Very disappointed",
+   "date": "2023-05-19",
+   "verifie": false,
+   "utiles": 15,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 2,
+   "auteur": "Kris",
+   "titre": "Orange you great",
+   "texte": "I was chosen as a Bzz agent to review the No7 Radiance+ Brght Eye Roll-On 15ml in exchange for a free sample. I used the No7 Radiance+ Brght Eye Roll-On 15ml for approximately 2 weeks this is my review. After using the No7 Radiance+ Brght Eye Roll-On 15ml for 2 weeks I didn't notice any super significant changes in the brightness department, but I did however notice my under eyes were much more moisturized and softer looking. I kept this in my refrigerator so the applicator tip felt nice and cool when applying. I found the applicator to be difficult to apply directly on the eyes, so I had to apply it on my finger tip and dab it onto the bottom of my eye. A little bit definitely goes along way and I found being that I am fair skin that it took a lot of rubbing to get that orangey color to really blend in to my skin. I found that the orange tint never really blended into my skin completely, and was unable to use this into my morning routine so was only able to use the No7 Radiance+ Brght Eye Roll-On 15ml at night. For this reason alone and for the sheer fact that I really didn't notice much brightness an improvement on puffiness I wouldn't fully recommend the No7 Radiance+ Brght Eye Roll-On 15ml to others, Nor would I purchase it in the future.",
+   "date": "2022-10-13",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Heather",
+   "titre": "High hopes",
+   "texte": "I had high hopes for this eye cream which unfortunately didn't quite live up to expectations. First the good. I love the applicator! The roller balls are cooling and feel great on tired morning eyes! I have very sensitive skin and had no issues with the cream irritating my eyes. The downside. I used it exclusively for several weeks and saw no improvement around the eye area. My eyes benefited from the cooling roller balls more than the product (I tested it one day just using an applicator without the cream). The tint in the product did temper the dark circles, but unfortunately, anywhere it was applied outside of the dark areas left my skin with a strange tint and the glitter in the product did no favors. Overall, I think it is an average product that just didn't quite live up to the promises.",
+   "date": "2022-10-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "gigihellas5555",
+   "titre": "Wish this was more tinted!",
+   "texte": "I was super excited to try this eye cream as I have really dark circles due to chronic insomnia/lack of sleep/poor sleep. I REALLY hoped to love this... However, although it moisturized the area around my eyes AND did brighten the dark circles a little bit, I would have preferred this to be more tinted so as to hide more of the darkness. I think it should have been thicker too/more moisturizing. In my opinion I think this would be more suitable for younger skin/more oily/less dehydrated/less dark circles.",
+   "date": "2022-10-18",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Brknopf",
+   "titre": "Cooling and depuffing",
+   "texte": "I really enjoyed using this under my eyes but I did feel like I needed an extra moisturizer. That said, the combo of this plus the moisturizer gave me the best result I've ever gotten from a product. I have severely dry skin around my eyes so I usually sacrifice deputing for moisture. Loved using this and receiving those benefits",
+   "date": "2022-09-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jenn",
+   "titre": "My eyes love this!",
+   "texte": "I am starting to show fine lines around my eyes, and have somewhat dark circles. I've used this roll-on AM & PM for a couple weeks, and I am seeing a difference! The skin around my eyes is softer, the dark circles are lighter, and the fine lines aren't as visible. And I love that it has a tint to it, as well.",
+   "date": "2022-10-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

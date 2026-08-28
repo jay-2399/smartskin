@@ -1,0 +1,130 @@
+{
+ "ref": "pimprod2050230",
+ "asin": null,
+ "pid": "pimprod2050230",
+ "source": "ulta",
+ "nom": "Exuviance Pro-Plump Hydrating Eye Cream",
+ "note": 4.53,
+ "nbAvis": 277,
+ "lus": 80,
+ "collectes": 124,
+ "segments": {
+  "dry": "Reviewers with dry or puffy under-eyes report the cream helps moisturize and plump the area, even when it does not resolve puffiness on its own.",
+  "sensitive": "Reviewers with sensitive eyes or skin, including some sensitive to Vitamin C or fragrance, report no irritation or reaction, though one reviewer felt mild discomfort for a few minutes after each application.",
+  "mature": "One reviewer recommends the product specifically for mature skin after seeing gradual results."
+ },
+ "concerns": {
+  "aging": "Reviewers report mixed results on fine lines and plumping: some say fine lines visibly soften within a few weeks, while many others report no noticeable change despite consistent use.",
+  "dehydration": "Reviewers consistently report the eye cream provides strong, lasting hydration to the under-eye area, describing it as the product's most reliable benefit even when plumping claims fall short."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight texture that absorbs quickly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Airless pump packaging, mess-free",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable results take weeks, if they appear at all",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small tube for the price",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Cher",
+   "titre": "It's okay",
+   "texte": "[I received this product in exchange for my honest review] I am probably most self-conscious about my under eye area. I have hereditary dark circles and hollowness. Filler appeals to me but I've heard horror stories so I'm a little scared to get it, haha. I was excited to receive this product for free. While I know there's not a topical product that's gonna truly give filler-like results, I was hopeful for some slight improvement. Unfortunately I didn't see any change after using this product for a few weeks. I like that it's not too thick or sticky, and I like the ingredients. I didn't have any reaction to it (I have very sensitive eyes) so that was a plus.",
+   "date": "2025-10-29",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 3,
+   "auteur": "Kadey",
+   "titre": "Hydrating - Good not Great",
+   "texte": "[I received this product in exchange for my honest review] I'm always looking for great skincare, so I was excited to try out this eye cream! This one, though, while good, didn't wow me. For context, I have fair, sensitive skin as well as sensitivities to scents. THE PROS: -solid ingredient list -pump packaging -no detectable scent -hydrating -a small amount goes a long way THE CONS: -I exhibited mild discomfort for about 5 minutes after each application. Not sure if this was supposed to be a cooling sensation that so many eye creams try to do, but it wasn't comfortable for me. -it didn't absorb very easily for me. I had to keep working it into my skin for more time than I would have liked. -I haven't noticed any significant changes in my skin after 3 weeks of use. Overall, I think it's a good option if you don't have sensitive skin and you're looking for extra hydration under the eyes. I received this eye creams for free to test in exchange for my honest review.",
+   "date": "2025-05-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Cola",
+   "titre": "My new routine",
+   "texte": "[I received this product in exchange for my honest review] The texture is smooth and creamy, and it absorbs quickly, so I don't have to wait long before applying my makeup. I also appreciate that it doesn't irritate my sensitive skin, which can be a concern with some eye products. After using it for a couple of weeks, I've noticed that the skin around my eyes looks plumper and feels much softer. It also seems to help with some of the fine lines I've been worried about.",
+   "date": "2025-05-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Becky",
+   "titre": "Hydrating",
+   "texte": "I received this product as a gift. I will always love Exuviance products. I do have pretty dry and puffy under eyes, this product helped moisturize and plump my under eyes. It's supposed to help with wrinkles too but I don't have any so I can't really say much about that. It doesn't really have a scent, which I love. I would get this again. Exuviance is always a staple in my routines.",
+   "date": "2025-05-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jessica",
+   "titre": "I love this pro plump eye cream",
+   "texte": "It awakens my eyes so well. The dark circles magically disappear in the morning. A little goes a LONG way! I have extemely sensitive eyes, and this has been fantastic with them. No redness, or irritation! I cannot sahy enough good things about this. I love it!",
+   "date": "2026-01-22",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Ros",
+   "titre": "Love it",
+   "texte": "[I received this product in exchange for my honest review] I absolutely love this eye cream I have dry skin and this works amazingly for me! Makes my under eyes feel super hydrated and plump i love the scent and the packaging too! I highly recommend it!",
+   "date": "2025-05-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,137 @@
+{
+ "ref": "pimprod2049118",
+ "asin": null,
+ "pid": "pimprod2049118",
+ "source": "ulta",
+ "nom": "TATCHA The Silk Peony Line-Smoothing Eye Cream",
+ "note": 4.54,
+ "nbAvis": 165,
+ "lus": 73,
+ "collectes": 82,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin, and some who wear contact lenses, generally report no stinging or irritation, with several calling it the only eye cream they can tolerate.",
+  "mature": "Reviewers ranging from their 40s to 80s report reduced puffiness, softer fine lines, and a brighter under-eye area with regular use.",
+  "dry": "A reviewer with flaky, dry skin reports the cream is the only moisturizer that leaves that area looking smooth and dewy."
+ },
+ "concerns": {
+  "aging": "Most reviewers report smoother fine lines, less puffiness, and a firmer look around the eyes with regular use, some noting visible improvement within days to a couple of weeks; a few reviewers, including one using it for two to three months, saw no reduction in fine lines or puffiness.",
+  "dehydration": "The majority of reviewers describe the cream as deeply moisturizing and soothing for the delicate eye area; a couple of reviewers report the opposite experience, saying it left the eye area more dry and aged-looking rather than hydrated.",
+  "redness": "Several reviewers report stinging, burning, or itchy bumps — one attributing it to fragrance and another to a reformulation that added whey protein — while many other reviewers, including those with sensitive skin or contact lenses, report no stinging or irritation at all.",
+  "spots": "A couple of reviewers report the cream visibly lightens dark spots or dark circles under the eyes with continued use."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich, creamy texture that melts into skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doesn't crease or disturb under-eye concealer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Slight shimmer helps camouflage dark circles",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Firm texture, hard to scoop cleanly from the jar",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Luxurious-feeling packaging",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "TOLuvsU",
+   "titre": "Missed the mark",
+   "texte": "This eye cream is a big no for me. It did not hydrate and, in fact, the area around my eyes looked worse. Super drying and my eyes aged about 10 years. Kinda pricey to learn that lesson but maybe others wont have such an adverse reaction?",
+   "date": "2025-03-03",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Patricia M.",
+   "titre": "Good product",
+   "texte": "The silk peony doesnt reduce the appearance of dark circles or fine line under the eyes however it does add a smoothness under the eyes",
+   "date": "2023-10-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Britt",
+   "titre": "Unbelievably amazing",
+   "texte": "I have tried every eye cream possible and nothing truly helped the combination of converns i had, such as texture and discoloration, but yet i tend to get oily eyelids, so heavy anti aging creams were a nightmare and would run into my eyes and burn or cause my eye makeup to run…this gold is like smooth delicate clouds that effortlessly absorb into the skin. My under eye makeup has never looked better and my mid 40's eye area is no longer an issue. I've only been using it for 3 weeks and noticed a difference after 2 days and it just keeps getting better and better. I honestly woukd pay $100+ for this eye cream because it is that incredible. Honest product junky review….and i NEVER post reviews.",
+   "date": "2025-02-04",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mia D.",
+   "titre": "Amazing products for women of color",
+   "texte": "I have been using your products for 2 years now! I was first introduced to Tatcha on a home shopping network! I am 58 but my clients swear I am much younger because of my flawless skin! I give out your website information often! Thank you for your amazing products that truly work!!",
+   "date": "2023-07-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "JACLYN L.",
+   "titre": "Love this product its the",
+   "texte": "Love this product its the only cream I can use around my eyes as I have very sensitive skin It also helps with fine lines and highlights the area I love it!",
+   "date": "2023-09-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tona R.",
+   "titre": "The best",
+   "texte": "This is the only moisturizer that makes my flaky dry skin look smooth and dewy",
+   "date": "2024-05-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

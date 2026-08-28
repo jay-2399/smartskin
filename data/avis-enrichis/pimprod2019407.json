@@ -1,0 +1,128 @@
+{
+ "ref": "pimprod2019407",
+ "asin": null,
+ "pid": "pimprod2019407",
+ "source": "ulta",
+ "nom": "NUDESTIX NUDESKIN Citrus Clean Balm & Make-Up Melt",
+ "note": 4.46,
+ "nbAvis": 448,
+ "lus": 79,
+ "collectes": 118,
+ "segments": {
+  "oily": "Reviewers with oily skin are divided: one calls the waxy texture unsuitable and warns it could be a tragedy for oily skin, while others with oily-combination skin report no issues.",
+  "dry": "Reviewers with dry skin generally find the balm well suited to them, though one reviewer cautions that dry or sensitive skin might do better with a gentler option.",
+  "sensitive": "Reviewers with sensitive skin are split: several report no irritation or breakouts even with reactive skin, while others caution that sensitive users should be careful, particularly around the eyes.",
+  "combination": "A reviewer with combination skin reports the balm removed heavy makeup in one wash without causing irritation."
+ },
+ "concerns": {
+  "oiliness": "One reviewer with oily skin describes the balm's waxy texture as unsuitable for her skin type, and another notes it can feel like an oil disguised as a balm that may be heavier than oily skin wants; reviewers with combination skin, however, report no issues.",
+  "dehydration": "Most reviewers describe the balm as leaving skin soft, moisturized, and not stripped, including several with dry skin; a few double-cleansers note their skin felt drier than usual after following with a second cleanser."
+ },
+ "aspects": [
+  {
+   "libelle": "Stings or burns eyes on contact",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong, refreshing citrus scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Effectively melts even waterproof makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick texture, hard to dispense from the tube near empty",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Can leave a slightly greasy residue",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Sanitary squeeze-tube packaging instead of a jar",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Anonymous",
+   "titre": "Is a good product but sadly dont recommended for oily skin",
+   "texte": "I'm a girl with oily skin I use the product before wash my face .Smells like plants smell good but the texture is like a wax I don't recommend this product if u have oily skin",
+   "date": "2024-04-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Anonymous",
+   "titre": "Works well and smells nice!",
+   "texte": "Having only ever used Cerave's makeup removing cleansing balm this make-up melt does pretty well in comparison. Truly melts all your makeup off and leaves your skin feeling fresh. The scent is nice but can be strong if you're sensitive to smells/fragrances. I would not spend full price on this product as it does leave skin feeling dry and it takes a decent amount of product to wash off a full-face of makeup not including eye makeup or lip products. If you have sensitive/dry skin it'd be better to opt for something more gentle. Overall the product does what it says and works well!",
+   "date": "2024-04-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Anonymous",
+   "titre": "Effectively melts makeup if that's what you need!",
+   "texte": "This has a lovely botanical scent which I loved but might not be the best choice for sensitive skin. Its thick texture really does melt makeup off but like many others it did sting my eyes slightly. Basically this is a solid choice for those in need of heavy-duty makeup removal especially if you love a botanical scent. However if you have sensitive skin or don't wear heavy makeup regularly you might want to explore other options. It all comes down to personal preference and what your skin needs!",
+   "date": "2024-04-22",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "My sensitive skin loves it",
+   "texte": "Navigating the tricky world of skincare with my ultra-sensitive skin has always felt like a high-stakes game until I stumbled upon the Citrus Cleansing Balm & Makeup Melt. This little miracle in a tube completely changed the game for me! It kisses all my makeup goodbye melting it away with such finesse and gentleness that my skin breathes a sigh of relief every time. Not a hint of irritation just pure soft and luminous skin left behind. It's the hero my skincare routine never knew it needed vegan cruelty-free and oh-so-kind to my delicate skin. What's not to love?",
+   "date": "2024-03-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "This product is amazing for combination skin!",
+   "texte": "The makeup melt really came through when i had to take off heavy makeup that are usually extremely difficult to take off. It typically takes me 3 rounds of washing my face to get the heavy makeup off but with the makeup melt only had to wash my face ONCE!! My skin type is also combination and it didnt cause any irratation.",
+   "date": "2024-03-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Anonymous",
+   "titre": "Love it",
+   "texte": "I was pleasantly surprised by this stuff! It removed my makeup well without leaving my skin stripped feeling! Didn't break out my extremely sensitive skin and appreciate the smell wasn't offensive!",
+   "date": "2024-04-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}
