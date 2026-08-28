@@ -1,0 +1,153 @@
+{
+ "ref": "pimprod2042900",
+ "asin": null,
+ "pid": "pimprod2042900",
+ "source": "ulta",
+ "nom": "BOBBI BROWN Vitamin Enriched Smoothing Serum with Niacinamide + Vitamin C",
+ "note": 4.72,
+ "nbAvis": 199,
+ "lus": 80,
+ "collectes": 123,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are mostly positive: several with sensitive or eczema-prone skin, including one who also has dry skin, report no irritation and good hydration, though one reviewer describes a major breakout right before her wedding and calls it not suitable for sensitive skin.",
+  "dry": "Reviewers with dry skin, including one currently dry from acne medication and one with combination-dry skin whose makeup used to cling to dry patches, consistently report the serum melts in, smooths, and hydrates without irritation.",
+  "combination": "One reviewer with combination skin and textured patches on her forehead reports the serum smoothed her skin enough that makeup applied evenly over it.",
+  "oily": "One reviewer who describes her skin as normally oily reports the serum relieved an unusual bout of dryness she had not experienced in past winters.",
+  "mature": "One reviewer whose skin tends to react to new products, even as it matures, reports absolutely no reaction to this serum."
+ },
+ "concerns": {
+  "redness": "One reviewer's 88-year-old mother, who has never reacted to skincare and does not have sensitive skin, had her whole face turn bright red and inflamed within hours, requiring medical attention; the reviewer traces this to fragrance allergens in the ingredient list. Reviewers who tolerate the serum well report the opposite: consistent use with niacinamide evens out skin tone and reduces existing redness.",
+  "blemishes": "One reviewer reports the serum caused a major breakout right before her wedding and calls it unsuitable for sensitive skin; no other reviewer in this set reports a breakout from using it.",
+  "spots": "Several reviewers report the serum fading dark spots, sun spots, melasma, and general dullness over one to several weeks of use, including one whose raised sun-damage patches on her forehead reportedly flattened within about a week.",
+  "dehydration": "Reviewers across skin types consistently describe the serum as deeply hydrating, plumping, and non-greasy, including several with dry skin who report no irritation alongside the added moisture. No reviewer in this set reports the serum feeling drying."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight texture absorbs quickly, never greasy",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fresh citrus scent many find pleasant",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance too strong or unpleasant for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Doubles as an excellent makeup-prep base",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can pill when layered with other actives",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way per pump",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pricey for the amount in the bottle",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "juliekdc",
+   "titre": "Severe Reaction – Be Cautious",
+   "texte": "My 88-year-old mother had a severe reaction to this serum—her entire face turned bright red and inflamed within hours, requiring medical attention. She has used skincare her whole life without issues (not EVER) and does not have sensitive skin. After reviewing the ingredients, I was shocked to see known irritants like Limonene, Linalool, Citral, Geraniol, and Grapefruit Peel Oil—fragrance allergens that do not belong in a \"smoothing serum.\" Very disappointed that a brand of this caliber would formulate something so carelessly.",
+   "date": "2025-05-27",
+   "verifie": false,
+   "utiles": 24,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "BLA G",
+   "titre": "Not for Sensitive Skin",
+   "texte": "This product made me break out right before my wedding. The makeup artist at the Sepulveda store said it was top quality product. Instead it caused a major breakout and my wedding pics were ruined. Lesson learned to never try anything new before a big event. This product is not for sensitive skin",
+   "date": "2025-04-18",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Chellz",
+   "titre": "So amazing 😍",
+   "texte": "This product changed the game for me with my skincare routine. I have very sensitive skin due to eczema flare ups and I was worried about this product at first because it does carry a subtle fragrance. But I gave it a chance and thankfully my skin did not react to it. But my skin loved it. It's lightweight, hydrating and makes my skin feel so plumped and bouncy! People always ask if I have on makeup when I don't. If you don't believe me, just watch! Try it for yourself. But I do know everyone's skin is different, so just be mindful of the ingredients and if your skin may or may not like what's inside. 😊",
+   "date": "2025-06-15",
+   "verifie": false,
+   "utiles": 18,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MsTexas55",
+   "titre": "Love the serum",
+   "texte": "I love this serum, it's the next best thing to the Remedies 42 brightening serum that BB no longer offers. I'm a bit sad but this serum will do. It's great at evening out the skin as it moisturizes. It's one of the first products I use after washing my face and layering on other moisturizers. I have melasma and it has slowly lighten the skin but not as quickly as the Remedies 42 serum.",
+   "date": "2024-05-02",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Silvia",
+   "titre": "Works amazing",
+   "texte": "I am a huge Bobby Brown fan her products Work very well on my skin. I have combination skin with a bit of texture on my forehead, which can be hard to conceal when wearing makeup. I tried this, and it looked wonderful and my makeup applied to evenly on top of this. I highly recommend it.",
+   "date": "2025-03-10",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Musfar",
+   "titre": "Glowy and Radiant makeup",
+   "texte": "I've been using the Bobbi Brown Skin Smoothing Serum as a makeup primer, and it works amazingly well with my combination-dry skin. My makeup used to cling to dry patches, but since incorporating this serum into my routine, my makeup applies flawlessly. It pairs perfectly with the Face Base Moisturizer, enhancing my skin's texture, making it more even-toned, and giving it a healthier, glowing appearance. Gifted by bobbibrown",
+   "date": "2025-02-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Samdem",
+   "titre": "Love",
+   "texte": "This is such a beautiful serum. I have dry and sensitive skin. This doesn't irritate my skin at all. It creates a beautiful base for makeup while also really nourishing my skin. Can't ask for anything better. I'm happy it is working long term and short term just helping me look good all day long. Gifted by bobbibrown",
+   "date": "2025-02-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

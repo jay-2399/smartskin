@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2049856",
+ "asin": null,
+ "pid": "pimprod2049856",
+ "source": "ulta",
+ "nom": "BYOMA Ultra-Lightweight Face Fluid SPF 30",
+ "note": 4.49,
+ "nbAvis": 267,
+ "lus": 79,
+ "collectes": 121,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers, including some with sensitive combination or acne-prone skin, mostly report no irritation, stinging or breakouts and value the fragrance-free formula; a minority instead describe serious reactions — stinging on application, or redness, itching, heat and swelling that in one case required urgent care for contact dermatitis.",
+  "dry": "Reviewers with dry skin, including one with extremely dry, sensitive skin, generally find the fluid hydrating and glowy, and one recommends it specifically for dry rather than oily skin because of its slight shine; one reviewer with very dry skin says it isn't moisturizing enough on its own.",
+  "oily": "The one reviewer who identifies her skin as oily reports the sunscreen doesn't sink in and leaves a shiny film despite the brand's non-greasy claim, unlike on normal or dry skin.",
+  "combination": "Reviewers with combination skin are split: one with an oily T-zone likes the lightweight, no-cast finish, and another with sensitive combination skin reports it stings and pills on application."
+ },
+ "concerns": {
+  "dehydration": "The large majority of reviewers, including some with dry or sensitive skin, describe the fluid as hydrating thanks to the hyaluronic acid, leaving skin soft and dewy rather than tight; one reviewer with very dry skin instead finds it isn't moisturizing enough on its own and needs an additional moisturizer underneath.",
+  "redness": "Several reviewers report serious reactions on their face and neck — redness, itching, heat and puffiness, in one case diagnosed as contact dermatitis — after their first or only use; the great majority of other reviewers, including many with sensitive skin, report no redness or irritation at all.",
+  "barrier": "A few reviewers, including one who was initially skeptical, credit the barrier-boosting Cera-Sun technology with visibly clearer, calmer skin within days of daily use.",
+  "spots": "The product is marketed to help reduce pigmentation; the one reviewer who mentions this says she hasn't used it long enough yet to confirm whether it fades her pigmentation.",
+  "blemishes": "Most reviewers, including some who are acne-prone or usually break out from sunscreen, report no new breakouts and even clearer skin within days; two reviewers instead report waking up with new pimples or a minor breakout after use.",
+  "oiliness": "The overwhelming majority of reviewers describe the finish as non-greasy, absorbing quickly without shine or residue even under makeup; a handful of others, mostly with oilier skin, report it leaves a shiny film, doesn't fully sink in, or feels a bit greasy by the end of the day."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaves no white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Not swim or sweat proof",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Typical sunscreen scent bothers a few",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Squeeze-tube spout, easy to control",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can pill if over-applied or rushed",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Great value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Compact, travel-friendly packaging",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Megs",
+   "titre": "Contact dermatitis",
+   "texte": "Would not recommend. Swapped it out to try and find a cheaper sunscreen to use other than my kosas sunscreen. Put it on before work. Worked most of my shift right before lunch my neck started itching and my face started to swell. My boss had to send me home because it got so bad. Went to urgent care and the dr came to the conclusion of contact dermatitis. Would not use or recommend to anyone. My face and neck still itch.",
+   "date": "2025-06-29",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "nat",
+   "titre": "Allergic reaction",
+   "texte": "I love Byoma, but this sunscreen gave me an allergic reaction. My skin burned and itched really bad. Perhaps my skin was way to sensitive for this product.",
+   "date": "2026-01-13",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Christina G",
+   "titre": "not great for oily skin",
+   "texte": "this is probably an excellent sunscreen if you have normal/dry skin and little texture. but this does not sink in despite the non-greasy claim in the description and leaves a shiny film on the face, so for my oily skin it's too much. sad bc otherwise it's great; no mess application, no scent, no sting.",
+   "date": "2025-04-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Eli",
+   "titre": "Would love if I didn't break out the next day 🙃",
+   "texte": "I was wanting this to work so badly that I've been giving it more chances than than I should have. This formulation is incredibly lightweight and hydrating which was the main selling point for me. Being so thin, it sits well under makeup and I feel like I'm actually putting on the proper amount of spf. (Great!) I thankfully don't break out too badly these days but every time I've used this I wake up the next day with a new set of pimples. (Ow)",
+   "date": "2025-05-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "El",
+   "titre": "AMAZING",
+   "texte": "i have never been able to find a sunscreen for acne prone skin, thats extremely dry, that also is sensitive to sents. However, this checked all those boxes and more!! Im so happy with this product. It is hydrating, lightweight, doesnt leave a white cast, and is barrier boosting!! I was skeptical of the barrier boosting claim at first, but when it started clearing my skin after 3 days of wear… i can now confidently say that this is my favorite sunscreen!!",
+   "date": "2025-04-24",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Hollis",
+   "titre": "It surprises me!",
+   "texte": "I have combo skin, slightly oily on the t zone area. It is lightweight and it comes in pale pink color so it doesn't leave a white cast on my face. That is a plus, however it does smell like your typical sunscreen. Since it is lightweight so it easy to spread and will spread evenly depending on the skill level. I used this sunscreen as a primer. But I suspect it can be even smoother when mixed in with foundation to apply. Recommend!!",
+   "date": "2025-05-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Elena",
+   "titre": "Great option for a lightweight moisturizer with SPF",
+   "texte": "[I received this product in exchange for my honest review] I've enjoyed this lightweight moisturizer. I like that it has SPF in it and doesn't feel heavy like some sunscreens and it absorbs fast. It doesn't bother my sensitive skin and has a very minimal scent that disappears quickly. My skin is generally very dry so it isn't enough of a moisturizer for me personally, but I like that it is lightweight and it will be good for hot summer days either alone or under makeup.",
+   "date": "2025-04-23",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

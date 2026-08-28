@@ -1,0 +1,156 @@
+{
+ "ref": "pimprod2050216",
+ "asin": null,
+ "pid": "pimprod2050216",
+ "source": "ulta",
+ "nom": "Vacation Crystal SPF 50 Sunscreen Gel",
+ "note": 4.64,
+ "nbAvis": 244,
+ "lus": 81,
+ "collectes": 119,
+ "segments": {
+  "sensitive": "Reviewers with sensitive, reactive, or rosacea-prone skin — several saying most chemical or American sunscreens make them break out or flare up — repeatedly report no irritation, breakouts, or flareups from this one, though one reviewer had a bad reaction (a red, itchy, swollen face) and warns other sensitive-skin users to beware.",
+  "dry": "Reviewers who describe their skin as dry (one \"very sensitive/dry acne prone,\" another \"normal... leans dry in the winter\") say the water-based gel did not feel tacky, tight, or drying despite worrying gel formulas would be too drying for them.",
+  "combination": "Reviewers with combination skin say the gel strikes a balance without feeling dry or overly oily, one naming it among the best sunscreens — Western or Korean — she has tried, and another saying it also helps calm her rosacea-related redness.",
+  "oily": "Reviewers with oily skin, including one who calls it acne-prone, say it sinks in without leaving them an \"oily mess\" through the day and reapplication; one who pairs oily with dehydrated and sensitive skin still finds it lightweight and hydrating rather than greasy.",
+  "normal": "The one reviewer who names normal skin (leaning dry in winter) reports no pilling or eye burning when layering it over her regular moisturizer."
+ },
+ "concerns": {
+  "aging": "Two reviewers frame this sunscreen as the daily-protection step of their anti-aging routines — valued for guarding against further sun damage and fine lines and for layering cleanly under other anti-aging actives like retinol and vitamin C without irritation.",
+  "dehydration": "Reviewers who describe their skin as dehydrated, dry, or dry-leaning consistently say the gel is lightweight and hydrating rather than tacky, tight, or drying, several noting this surprised them given past experience with gel-based sunscreens that usually feel too drying.",
+  "redness": "Several reviewers with rosacea report no flare-ups and, in one case, a visible calming of redness, but one reviewer had a bad reaction — a red, itchy, swollen face, matching a previous reaction to another Vacation product — and warns other sensitive-skin users to be cautious.",
+  "barrier": "A couple of reviewers frame the formula as working with rather than against the skin barrier — one with rosacea says it doesn't disrupt her barrier the way other sunscreens do, and another highlights barrier-supporting ingredients such as hyaluronic acid, peptides, and ceramides in the formula.",
+  "spots": "The one reviewer managing hyperpigmentation, who uses sunscreen specifically to guard against it, reports her spots appeared to worsen within an hour of use and found her usual Korean sunscreen protected noticeably better.",
+  "blemishes": "The large majority of acne-prone or breakout-prone reviewers, including several with rosacea, report no new breakouts even after weeks of daily wear, some specifically noting it hasn't clogged pores; one reviewer is unsure whether a small breakout she noticed after starting is related to the product.",
+  "oiliness": "Most reviewers, including several who call their own skin oily, say it sinks in without leaving a greasy residue or an \"oily mess\" through the day, but a minority describe the finish itself as greasy or shiny, particularly with prolonged wear."
+ },
+ "aspects": [
+  {
+   "libelle": "Stings or burns eyes for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Clear application, no white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doubles well as a makeup primer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Little to no fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers without pilling",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Retro packaging widely admired",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cheaper than premium competitors like Supergoop",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Nat.txk",
+   "titre": "Eye burning & watering",
+   "texte": "The texture is great. It dries down without a cast. But it is an absolute failure. My eyes burn so bad within an hour of application. Watering starts only a few minutes after the burning. I dont have sensitive eyes or skin, but this stuff lit me up.",
+   "date": "2025-05-04",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 2,
+   "auteur": "BurnedinAthens",
+   "titre": "Nice texture, burns your eyes, doesn't work",
+   "texte": "I bought this along with the vacation body spray before my vacation to Greece. I loved how the product felt going on, the smooth texture is really nice. But it doesn't actually work. I use sunblock religiously to protect against hyperpigmentation and within an hour , I could see my spots getting worse. I switched back to my Korean sunblock and it protected much better. This product BURNS your eyes! I hate that about US sunblock. I had high hopes for this company since I love the whipped sunblock so much for my body but this face sunblock is not it.",
+   "date": "2025-07-01",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Prin",
+   "titre": "Bad Reaction",
+   "texte": "Had the same reaction with this stuff as I did with the spritz. Face blew up like a balloon and was red and itchy. Beware if you have sensitive skin.",
+   "date": "2025-05-25",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sydney123",
+   "titre": "Feels amazing, works well.",
+   "texte": "As someone with a dryer skin type, I tend to favor butters/oils over water based gel textures, which would usually break me out. I was a bit nervous about this happening as gel based moisturizers are typically too drying, tacky and make my skin feel tight. This doesn't do that at all!!!! It goes on extremely smooth and soft. It does not feel tacky or sticky at all. Very lightweight, you completely forget you have it on. I have very sensitive/dry acne prone skin and this does not break me out. This on top of the high SPF, I will definitely be getting more.",
+   "date": "2026-03-27",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ashleyfarley28",
+   "titre": "The perfect facial sunscreen for my rosacea!",
+   "texte": "This sunscreen is an absolute game-changer. As someone with rosacea, finding a sunscreen that doesn't irritate my skin has always been a challenge, but the Vacation Crystal SPF 50 Sunscreen Gel not only protects my skin but also seems to calm my redness. The lightweight, invisible formula truly lives up to its claims—there's zero white cast, no greasy residue, and it feels completely weightless on my face. It dries down quickly, making it ideal for layering under makeup without any pilling or heaviness.I have combination skin, and this sunscreen strikes the perfect balance—it doesn't make my skin feel dry or overly oily, which is a rare find. It gives my skin a velvety-smooth finish, almost like a blurring primer, which makes my makeup last longer and apply more seamlessly. Unlike many sunscreens that feel heavy or leave an unpleasant sticky residue, this one absorbs effortlessly and remains comfortable throughout the day.Overall, this has become my go-to sunscreen for everyday wear. It provides excellent SPF 50 protection while being completely undetectable on my skin. I love how it enhances my complexion without any irritation, and it's easily one of the best sunscreens I've ever used. If you have sensitive or combination skin and struggle to find a sunscreen that works well under makeup, I highly recommend giving this one a try! **This review was collected as part of a promotion.",
+   "date": "2025-02-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "blathering",
+   "titre": "Great face sunscreen!",
+   "texte": "I have oily, dehydrated, sensitive skin, so finding a sunscreen that works for my face is very, very hard. Generally, I only use Korean sunscreens, but thought this might be good to try. I've been very impressed with the formula. It's lightweight and hydrating - not greasy or drying or \"tight\" as it dries down. It's a very comfortable formula, and I don't find it getting into my eyes or mouth (which is a huge problem with me and most sunscreens). I also appreciate that this is fragrance free as my skin is sensitive to fragrances - and also, I just don't like the smell of most fragranced sunscreens. I've tried this with a variety of other skincare and makeup and have not had any issues with pilling.I would recommend this to any skin type - I think this would be good for anyone. **This review was collected as part of a promotion.",
+   "date": "2025-02-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "mauramcc",
+   "titre": "Perfectly clear",
+   "texte": "The Vacation Crystal SPF 50 invisible gel sunscreen was great! It is truly crystal clear. I have normal skin that leans dry in the winter so I put this on top of my normal moisturizer and didn't experience any pilling or burning of my eyes. I love that it has a high SPF rating and is water resistant which makes it perfect for beach days. I also love the array of other good for the skin ingredients that takes it a step above other, more basic sunscreens. Instead of water, the number one inactive ingredient is actually aloe leaf juice which is great for hydration and soothing. It also includes central asiatica leaf extract, bisabolol, squalane, peptides, and ceramides. All in all this ingredient deck packs a punch in addition to providing sun protection. **This review was collected as part of a promotion.",
+   "date": "2025-02-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "normal",
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

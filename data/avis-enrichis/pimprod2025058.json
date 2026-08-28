@@ -1,0 +1,155 @@
+{
+ "ref": "pimprod2025058",
+ "asin": null,
+ "pid": "pimprod2025058",
+ "source": "ulta",
+ "nom": "fresh Rose & Squalane Deep Hydration Oil-Infused Serum",
+ "note": 4.71,
+ "nbAvis": 2536,
+ "lus": 77,
+ "collectes": 125,
+ "segments": {
+  "oily": "One reviewer with oily, acne-prone skin reports no extra clogged pores, pilling, or breakouts after regular use, while others who do not describe themselves as oily caution the dewy finish may feel heavy or too much for very oily, matte-preferring skin.",
+  "dry": "Reviewers with dry skin consistently describe this as effective extra hydration, often calling it a staple or savior for dryness, dullness, or dehydrated, flaky skin, with no dissenting reports.",
+  "combination": "One reviewer with combination skin reports the oil infusion is not too much for her skin type.",
+  "sensitive": "Reviewers with sensitive or irritation-prone skin, including one managing rosacea, report the serum feels soothing and gentle with reduced redness, and none report irritation.",
+  "mature": "A couple of reviewers who describe their skin as getting older or middle-aged say the serum meaningfully improved dryness and plumpness without feeling oily."
+ },
+ "concerns": {
+  "dehydration": "The large majority of reviewers report significant, often immediate hydration and plumping, describing dry, dull, or dehydrated skin as noticeably softer and dewier after use, with no reviewer in this set reporting that it failed to hydrate.",
+  "redness": "Reviewers dealing with redness, including one managing rosacea and another with flaky, irritated skin from cold weather and tretinoin use, report the serum calmed and reduced visible redness, and no reviewer reports new redness from using it.",
+  "barrier": "One reviewer credits the serum with penetrating past the surface to hydrate and calm her compromised skin barrier alongside her rosacea.",
+  "blemishes": "Several reviewers, including one with oily, acne-prone skin, report no clogged pores, pilling, or new breakouts even with daily use, and no reviewer in this set reports a breakout from the product.",
+  "oiliness": "The large majority of reviewers, including some with oily or combination skin, say the serum absorbs quickly and does not feel oily, greasy, or heavy despite being oil-infused; a couple of others, however, find it feels a little too oily for daytime use and apply it sparingly, and some caution the dewy finish may be too much for very oily, matte-preferring skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Distinctive shake-to-mix bi-phase formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Signature rose fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Luxurious glass bottle packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup and skincare",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle lasts a long time per use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Absorbs quickly without sticky residue",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Rose",
+   "titre": "Feels lux",
+   "texte": "Fresh has been the IT brand when it comes to that signature rose scent in their products, it smells so rosy and relaxed. Started applying this serum during my nighttime routine to help plump up my skin and relax. Gifted by freshbeauty",
+   "date": "2026-03-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MONICA",
+   "titre": "Great serum, not oily!!",
+   "texte": "I only bought this serum because it was on sale and it is a real game changer!! Not oily, super helful for moisturizing my middle age skin!",
+   "date": "2026-06-10",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Annmaries",
+   "titre": "Amazing oil serum",
+   "texte": "I was gifted this Rose and Squalane Deep Hydration oil Infused serum complimentary from Fresh Beauty in exchange for my honest opinion. This oil serum is so good for my dry skin . I use this after cleansing my skin and my skin feels so hydrated and moisturized. My skin is very dry and dull . After using this oil infused serum my skin looks and feels so much more hydrated, plump and my skin tone is more even . It gives your skin an instant glow . I love that it's not oily like traditional oil serum . It's very lightweight and not greasy or sticky on the skin .",
+   "date": "2026-04-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sachi",
+   "titre": "Saved my skin",
+   "texte": "This product saved my dry, red, irritated skin. My skin lately has been so angry because of the cold weather, starting tretinoin, and traveling often. But luckily I was able to use this product to help hydrate my skin. I've been using it day and night and it leaves my skin feeling plump and nourished. The flakiness and redness I've been struggling with has completely resolved and I give all credit to this product. complimentary from freshbeauty",
+   "date": "2026-03-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Crystal",
+   "titre": "Luxurious",
+   "texte": "Fresh's new Rose Deep Hydration Oil-Infused Serum feels super luxurious to use. The rose scent is nice and reminds me of a spa experience, but it doesn't linger so it's not bothersome. I love all the hydrating ingredients and the oil infusion isn't too much for my combo skin. It leaves my skin feeling very soft and hydrated, with a healthy glow. Gifted by fresh.",
+   "date": "2026-03-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "grayxskyler",
+   "titre": "Hydrating!!!",
+   "texte": "gifted by freshbeauty - I have oily, easily clogged skin with hormonal acne. I've been applying this in the morning after washing my face and it's added a much needed layer of hydration. I haven't noticed any extra clogged pores or breakouts and it truly leaves my skin feeling that bouncy kind of hydrated all day without any trace of pilling product.",
+   "date": "2026-03-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Miles",
+   "titre": "Hydration dream",
+   "texte": "I love this serum for my dry sensitive skin. It really deeply penetrates past the surface level of the skin barrier to really deeply hydrate and calm my rosacea. It's been a new staple in my routine I highly recommend to anyone with dry sensitive skin. Gifted by freshbeauty",
+   "date": "2026-04-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

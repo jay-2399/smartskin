@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2054312",
+ "asin": null,
+ "pid": "pimprod2054312",
+ "source": "ulta",
+ "nom": "The Ordinary Sulfur 10% Powder-to-Cream Concentrate",
+ "note": 4.55,
+ "nbAvis": 119,
+ "lus": 81,
+ "collectes": 118,
+ "segments": {
+  "oily": "The one reviewer who specifies oily skin describes the powder-to-cream formula as lightweight and safe for oily skin.",
+  "dry": "The reviewers who mention dry skin disagree: one with naturally dry skin says it dried her skin out badly and felt tight, while another with extremely dry skin reports no excessive dryness when applying it over moisturizer.",
+  "sensitive": "Reviewers with sensitive skin mostly say it calms redness and shrinks pimples without irritation or added dryness, though one reviewer reports an allergic reaction with small white pimples across the areas she applied it.",
+  "mature": "A couple of reviewers in their late fifties or dealing with perimenopausal breakouts say the treatment still works well for hormonal flare-ups at that life stage."
+ },
+ "concerns": {
+  "blemishes": "The large majority of reviewers report pimples shrinking, flattening or disappearing within hours to a few days of spot-applying it, including for hormonal, cystic and fungal acne; a consistent minority say it barely worked, needed very frequent reapplication, or did nothing noticeable for their breakouts, including one reviewer whose severe hormonal acne didn't respond.",
+  "redness": "Reduced redness around active pimples, often within an hour to overnight, is the single most repeated effect reviewers describe, with several calling out a visible difference the morning after application.",
+  "spots": "A couple of reviewers specifically note that a treated pimple healed without leaving behind a dark mark or lingering discoloration, though this is only raised by a small number of reviews.",
+  "oiliness": "The limited number of reviewers who mention oil describe the formula as lightweight and non-greasy, with one saying it keeps her face matte without feeling tight.",
+  "dehydration": "Most reviewers say it dries out the treated pimple without drying the surrounding skin, and several call it non-irritating even on sensitive or already-dry skin; dissent includes one critical review reporting the product dried her skin out badly and felt tight, and another reviewer who moisturizes after to avoid over-drying."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong sulfur smell that lingers",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Powder is messy and hard to apply precisely",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Dries clear and invisible, wearable under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable, and a little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Powder can be inhaled or irritate near nose and eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Unclear instructions on when to apply it",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Sarah",
+   "titre": "Didn't work for hormonal acne",
+   "texte": "This was gifted to me, however I don't think I would recommend. I have severe hormonal acne and I don't think this really did anything for me personally. I think maybe for other acne types this may work.",
+   "date": "2025-09-25",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "razz",
+   "titre": "smell is crazy",
+   "texte": "i cant even properly review this product because the second i put it on, the smell was so overwhelming i had to remove it. if you can somehow get past the scent im sure itll work, but it also dried my skin out like crazy when i barely put much. it felt super tight. be careful when u purchase this if ur skin is naturally dry / cant handle strong smells",
+   "date": "2026-01-04",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Jan",
+   "titre": "Not for sensitive skin",
+   "texte": "Made me break out with an allergic reaction gave me tiny white pimples all over the areas I applied it to. Unfortunately will have to return.",
+   "date": "2025-09-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Alyssa",
+   "titre": "STINKY but Amazing",
+   "texte": "OK, I suffer from severe hormonal and fungal acne. I have tried, and will continue to try, many products. I love The Ordinary in general (YAY cruelty-free!!), and ordered this product back in January. I love that it's a powder-to-cream formula; makes for a lightweight and oily-skin safe product! I apply it with a q-tip and then apply a pimple patch on top of the sulfur for any major hormonal spots. Why only 4 stars? IT STINKS SO BAD. I have to use sparingly just because it bothers me so much. If you're acne prone, but don't mind a stench for awhile this product is for you!",
+   "date": "2026-04-21",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lauren",
+   "titre": "A new must!",
+   "texte": "Only been using a few days but absolutely a new necessity. I have extremely dry skin and experienced no excessive dryinh whej applied after moisturizer.",
+   "date": "2025-10-26",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sophie",
+   "titre": "Quick Acting, Gentle, and Effective",
+   "texte": "I have sensitive skin and find other more aggressive acne treatments to be more damaging than good. This product reduced my active acne spots color and size overnight- without agitation. I love that I can use it nightly and have noticed significantly less acne popping up since using it for about two weeks. Such a rare find that is now an essential for me.",
+   "date": "2026-01-02",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ayyna",
+   "titre": "I recommend it",
+   "texte": "Over the past month I've had a lot of breakouts, including a few really painful ones. This sulfur treatment made such a difference. It helps pimples come to the surface and heal much faster — and I was surprised that I didn't even get a lingering dark spot afterward. The swelling and redness go down noticeably within hours, and by the next day the spot looks calmer and less raised. It also dries out pimples in a controlled way without leaving the skin overly flaky. After using it consistently for about a week, almost all of my breakouts had cleared. I'm really happy with how quickly it works and how much smoother my skin looks now. Complimentary from theordinary",
+   "date": "2025-09-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}
