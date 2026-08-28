@@ -1,0 +1,154 @@
+{
+ "ref": "pimprod2053407",
+ "asin": null,
+ "pid": "pimprod2053407",
+ "source": "ulta",
+ "nom": "Oak Essentials Refining Face Mask with Blue Tansy",
+ "note": 4.92,
+ "nbAvis": 100,
+ "lus": 73,
+ "collectes": 73,
+ "segments": {
+  "dry": "Reviewers with dry skin, including one who calls her skin extremely dry, describe the mask and surrounding Oak Essentials routine as leaving skin soft and hydrated after rinsing, with one crediting it for improving occasional dry patches and irritation linked to starting tretinoin.",
+  "sensitive": "Reviewers with sensitive skin report the mask leaves skin brightened and soft without stripping or irritating it, with one using it daily without issue.",
+  "combination": "Reviewers with combination skin, including one with hormonal breakouts around the chin and T-zone, report smoother texture and reduced breakout inflammation; one describes her combination skin as very sensitive and reports no irritation.",
+  "mature": "One reviewer managing menopause-related skin changes reports the mask leaves her face noticeably smoother, though this is a single report."
+ },
+ "concerns": {
+  "dehydration": "Reviewers consistently describe the mask as hydrating rather than drying, with several noting skin feels soft, plumped and like 'a drink of water' immediately after rinsing.",
+  "redness": "Two reviewers report the mask reduced visible redness, with one of them also seeing less oiliness.",
+  "barrier": "One reviewer new to tretinoin reports the mask helped with dry patches and irritation from the retinoid, using it alternated with another mask a few times a week.",
+  "oiliness": "Reports are mixed: one critical reviewer found it left her face a bit oily after the first several uses, while another reviewer reported the mask reduced oiliness alongside redness.",
+  "blemishes": "Reviewers dealing with hormonal breakouts, including one who shares it with her teenage cousin, report the mask calmed breakout inflammation and smoothed texture around the chin and T-zone."
+ },
+ "aspects": [
+  {
+   "libelle": "Visibly minimizes the look of pores",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling, subtly tingling sensation on application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich, whipped texture that feels luxurious",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Distinctive blue tansy scent widely praised",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doubles as a makeup primer, smooths application",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Premium price point",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "A little product goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Stephanie M.",
+   "titre": "Love the smell but did",
+   "texte": "Love the smell but did leave my face a bit oily after the first several uses.",
+   "date": "2026-04-22",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Whitney",
+   "titre": "Pores no more!",
+   "texte": "This is hands down my favorite mask for my combination skin. I tend to get hormonal breakouts around my chin + T-Zone; this instantly smoothed my skin like a filter! I noticed my texture improving, the inflammation from my breakouts become non-exist, and the scent made me feel like I was transported to a luxury hotel spa in Europe :person_in_steamy_room::skin-tone-3:‍:female_sign: Shared it with my teen cousin and she loves it for her breakouts, too! Amazing product.",
+   "date": "2025-08-01",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Heather C.",
+   "titre": "Game changer for dry skin",
+   "texte": "I can only speak for how this works for dry skin as my skin is extremely dry. This product line as a whole has been life-changing for me. It's costly but it's effective - I have wasted more money on less-expensive products that don't work than I'll ever spend on these! I would recommend this mask and follow it up with the balancing spray and moisture balm; I wish I could attach before and after photos to show the dramatic difference they have made in my skin.",
+   "date": "2025-11-07",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vonda G.",
+   "titre": "The mask smells really wonderful!",
+   "texte": "The mask smells really wonderful! When I first put it on, it had a very subtle tingling sensation that was very nice. After I rinse it off, my face actually felt really soft and hydrated. That's important to me as I usually have very dry skin. I would definitely recommend this product.",
+   "date": "2025-09-23",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Heather R.",
+   "titre": "My new staple",
+   "texte": "My skin loves this mask. I'm new to tretinoin & this has been helping with my occasional dry patches & irritation. I use it a few times a week alternating with the honey mask. Oak essentials are my new must haves!!",
+   "date": "2026-03-09",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amanda P.",
+   "titre": "I was skeptical at first",
+   "texte": "I was skeptical at first but this mask is fantastic! Reduced redness and oiliness and is great as a primer before makeup. Honestly skip your primer and just use this mask, you won't regret it. Smells amazing too.",
+   "date": "2025-12-17",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jennybeth D.",
+   "titre": "Favorite mask",
+   "texte": "I have combination skin and it's very sensitive. This mask makes my skin feel soft and hydrated and doesn't irritate it at all.",
+   "date": "2025-12-12",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

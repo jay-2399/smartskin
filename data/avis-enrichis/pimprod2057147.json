@@ -1,0 +1,158 @@
+{
+ "ref": "pimprod2057147",
+ "asin": null,
+ "pid": "pimprod2057147",
+ "source": "ulta",
+ "nom": "Bloomeffects Royal Tulip Moisturizing Nectar",
+ "note": 4.89,
+ "nbAvis": 308,
+ "lus": 81,
+ "collectes": 114,
+ "segments": {
+  "dry": "This is overwhelmingly reported as a dry-skin product: reviewers describe it ending winter tightness, flaking, and cracked patches, from mild seasonal dryness to skin described as extremely or chronically dry; a few find the same richness too heavy or greasy once temperatures rise in summer.",
+  "sensitive": "Reviewers with sensitive, reactive skin — including several managing rosacea, eczema, or reactions to actives — repeatedly report no irritation and a calming effect, even on skin that reacts to most products; one reviewer's experience was the opposite, breaking out in a rash she describes as an adverse reaction.",
+  "combination": "The two reviewers with combination skin, both of whom get drier in cold weather, describe it as non-greasy and non-heavy when used as directed, with one also crediting it with smoothing her fine lines.",
+  "mature": "Reviewers who describe their skin as mature, including one in her fifties and one nearing fifty, call it central to their routine and note it works even on skin that reacts to pore-clogging ingredients."
+ },
+ "concerns": {
+  "aging": "The two reviewers who mention fine lines or wrinkles both report visible smoothing — one in her thirties says it smoothed her entire face, another describes her lines loosening and tightening up with continued use.",
+  "dehydration": "This is the product's central, most reported effect: reviewers across dry, sensitive, combination and mature skin describe intense, lasting hydration, plumping and glow, often after other moisturizers failed them. One reviewer disagrees, finding the texture uncomfortable and remaining unsure after a couple of weeks whether the long-term benefit was worth it.",
+  "redness": "Reviewers report calmer skin during rosacea flares, less visible psoriasis patches, and reduced swelling on irritated areas; one reviewer's experience was the opposite, developing a rash she calls an adverse reaction after use.",
+  "barrier": "Several reviewers used this specifically to recover a compromised barrier, from over-exfoliation, retinoid use, or general damage, and report their skin feeling calm and bouncy again within days; no reviewer reports it weakening or irritating the barrier.",
+  "spots": "One reviewer reports her hyperpigmentation visibly clearing alongside firmer, brighter, more hydrated skin after a few weeks of use.",
+  "blemishes": "Reviewers who describe acne-prone or clog-prone skin report the product did not worsen breakouts and, in several cases, helped clear existing acne and closed comedones alongside reducing inflammation; no reviewer reports new breakouts from using it."
+ },
+ "aspects": [
+  {
+   "libelle": "Rich, honey-like texture that melts in",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels heavy or greasy in warm weather",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way, jar lasts",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Elegant glass jar with spatula applicator",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Expensive up front",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Faint natural scent bothers a few",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers fine under makeup for most",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Tish",
+   "titre": "Adverse reaction",
+   "texte": "The honey like texture had me at hello. Unfortunately, i had an adverse reaction to the product and broke out with a horrible rash",
+   "date": "2026-07-28",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Rosanne D.",
+   "titre": "The Jury is Still Out",
+   "texte": "The Royal Tulip Moisturizing Nectar feels sticky and does not absorb well into my skin. I have used it for a couple of weeks as the last step in my evening routine, but I am not sure if the long-term benefits are worth the uncomfortable texture.",
+   "date": "2026-03-19",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lisa K.",
+   "titre": "This is the most hydrating moisturizing skin care.",
+   "texte": "I love the original packaging. But I love the results of this moistening skin care. I REALLY can't live without. I am of mature skin and this is part of my routine skin care.",
+   "date": "2026-03-28",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gwen",
+   "titre": "The ONLY thing that keeps my skin moisturized!",
+   "texte": "My skin is dry, acne-prone, and sensitive; I have rosacea and I'm currently taking accutane. I have tried almost a hundred different moisturizers and serums, but Royal Tulip Moisturizing Nectar is truly the best at keeping my skin hydrated and moisturized. I have been using this product for ~2 years now (way before I started accutane) and I'll never stop using it. It is expensive but lasts me about 3 months using it twice a daily (yes, I'm THAT dry) so when you break down the cost it's not too bad. I hope BloomEffects never changes the formula or stops producing this amazing product!",
+   "date": "2024-05-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rachel M.",
+   "titre": "Love",
+   "texte": "I absolutely love this nectar! I got a sample from Credo, then came here to buy the full size. It made my skin so hydrated and glowy! I have combo skin, but it gets a little dry this time of year. I am 34 and have some wrinkles and fine lines, but this smoothed my entire face. I also used some on my extremely dry elbow. It is the only moisturizer that has ever worked on my elbow! I don't even have to use it every day. Will definitely repurchase.",
+   "date": "2024-10-14",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Stephanie B.",
+   "titre": "Next Level Moisture",
+   "texte": "I destroyed my skin barrier between too much retinal and a 30% acid exfoliation. Nothing would soothe my face. I read wonderful reviews about the wonderful properties of honey as a humectant and Bloomeffects clients that I gave it a try. Within in days, my skin was feeling bouncy and fresh again, not angry and irritated. I now use every night and wake up moisturized and fresh. A little goes a long way.",
+   "date": "2024-05-15",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tuesday B.",
+   "titre": "Hydration",
+   "texte": "I love this stuff. I have very dry sensitive skin. I use it everyday, most times twice a day even applying over dew cream! Not dew drops, which I want to try as well. My skin is brighter, clearing of hyperpigmentation, firming , softer as well as waking up to hydrated skin. I use a small amount warm up between my fingers and tap in. If I wear it in the morning I wait a few minutes before I apply my makeup. And my powder foundation goes on smoothly. I love these products, it has changed my skin so quickly. I been using them for about 3 -4 weeks now and within two weeks I saw such a change for the better. Don't hesitate buy today your skin will thank you and your lines will go away and tighten up!",
+   "date": "2024-01-09",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

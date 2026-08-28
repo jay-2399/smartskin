@@ -1,0 +1,153 @@
+{
+ "ref": "xlsImpprod10791817",
+ "asin": null,
+ "pid": "xlsImpprod10791817",
+ "source": "ulta",
+ "nom": "Clinique Acne Solutions Clarifying Face Lotion",
+ "note": 4.52,
+ "nbAvis": 246,
+ "lus": 78,
+ "collectes": 105,
+ "segments": {
+  "oily": "Reviewers with oily or acne-prone oily skin, including some who call their face an oil slick, consistently report it keeps breakouts under control with regular use, and none report it as too harsh or drying for them.",
+  "dry": "The one reviewer who names dry skin reports it cleared her acne within weeks, though she experienced burning for the first two days that then subsided; another reviewer, who describes her own skin as an oil slick rather than dry, warns that the alcohol-based formula isn't suited to dry or sensitive skin.",
+  "sensitive": "Reports from sensitive-skin reviewers mostly lean positive: several say it doesn't leave them dry or itchy and works better than harsher products they'd tried, including one used successfully on an eczema-prone 11-year-old without triggering a flare; one reviewer with sensitive, acne-prone skin is the clear exception, reporting worse breakouts and redder skin after use.",
+  "mature": "The reviewer who identifies as a senior citizen reports her occasional breakouts now stay small and clear quickly; another nearing 50 says her skin has never looked better since she started using it."
+ },
+ "concerns": {
+  "dehydration": "This is the most common complaint: many reviewers, especially those skipping a follow-up moisturizer, report burning, tightness, or skin so dried out it feels sunburned. Others, including several with sensitive skin, disagree, saying it is less drying than a typical toner or doesn't dry their skin out at all, particularly when used once instead of twice a day.",
+  "redness": "Several reviewers report reduced redness around blemishes, in one case gone by midday; a comparable number report the opposite — skin turning redder, swollen, or burned after use, including one reviewer with sensitive, acne-prone skin who says it made her breakouts worse and redder than ever.",
+  "spots": "One reviewer whose skin marks easily after acne reports the marks fade and disappear within about a week of regular use.",
+  "blemishes": "The large majority of reviewers, many with long-standing or adult-onset acne, report clearer skin within one to several weeks, including cases where prescription treatments had failed; a smaller group disagree sharply, describing severe new breakouts, large painful red bumps, or worsened acne after starting it, with a few wondering if they were experiencing a purge."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong rubbing-alcohol smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Liquid toner despite being called lotion",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Needs a moisturizer layered on after",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Arrived damaged or leaking for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Great value, one bottle lasts months",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Frequency easy to adjust to tolerance",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Kay",
+   "titre": "Made me break out terribly",
+   "texte": "I am not one to normally write reviews but I feel inclined to save anyone else out there thinking of adding this to their anti-acne routine. I have used the Clinique Clinical Clearing gel for years and love it! I still get hormonal breakouts on my chin though and thought this would help if I added it along with the clearing gel. I'm so glad I only used this on a patch of my skin at first. I dabbed a soaked cotton ball of this on the one big pimple I had for a few days..I felt like it worked to keep the head at bay. But then over the course of the next few days that area of my chin broke out SO bad. I'm not talking little white heads either...big painful, red bumps that take days to calm down. Maybe it was purging as I've read about that before...but the painful, extremely red line of pimples was too much for me to take. My skin has never looked so bad, I wanted to go into hiding. It seems this product does work for a lot of people, but definitely not for me. My advice if you really want to try is to only do a SMALL patch of skin for the first few weeks :(",
+   "date": "2018-10-26",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Jey",
+   "titre": "NOT for sensitive skin",
+   "texte": "Worstened my breakouts and made my skin redder than ever. A lot of alcohol. Do not use if you have sensitive, acne-prone skin!",
+   "date": "2020-09-05",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lovethisproduct",
+   "titre": "LOVE",
+   "texte": "I have struggled with acne on off over the past few years. The only thing that used to make it go away was antibiotics for acne. Those stopped working so i searched for products. This cleared my skin within a few weeks. I use it along with retinol every 2 nights and a spot treatment on the other nights if u have a breakout. I did experience burning at first for 2 days but after that it disappeared. I love this product. For reference I have dry skin.",
+   "date": "2022-03-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "KT519",
+   "titre": "I have used this since high school",
+   "texte": "I have extremely oily skin and am very prone to acne. I use this twice a day and can see a difference when i miss one to two treatments",
+   "date": "2021-03-17",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Violet",
+   "titre": "Will buy again",
+   "texte": "I have very sensitive skin, usually dries out really bad. This product works like a toner buuuut doesn't dry my skin out the way a toner does. It's been clearing my skin more and more each day and I also notice my complexion looks a bit more even. Definitely recommend.",
+   "date": "2019-05-15",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Carol",
+   "titre": "I love this Clinique line of products",
+   "texte": "I am a senior citizen and still have occasional breakouts. However, I use several products from the Acne Solutions line and they work for me. If I do get a pimple, it is usually small and goes away quickly. I love this line and will continue to use it.",
+   "date": "2025-10-17",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Love  it !",
+   "titre": "MAGIC GOT ACNE SKIN ! BUY IT !!!!!",
+   "texte": "LOVE IT ! I'm one with skin that marks easily due to acne and every time I use this product the marks become lighter and soon to be gone within a week or so . I been using for about 2 months now and I love it ! I'm telling you ! Purchase this toner because it really does work magic on the skin .",
+   "date": "2021-05-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

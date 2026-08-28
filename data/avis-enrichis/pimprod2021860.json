@@ -1,0 +1,149 @@
+{
+ "ref": "pimprod2021860",
+ "asin": null,
+ "pid": "pimprod2021860",
+ "source": "ulta",
+ "nom": "Black Girl Sunscreen Moisturizing Sunscreen Lotion SPF 30",
+ "note": 4.6,
+ "nbAvis": 1224,
+ "lus": 75,
+ "collectes": 97,
+ "segments": {
+  "oily": "Reviewers with oily skin often find the lotion leaves a greasy, shiny finish and several recommend switching to the brand's matte formula instead.",
+  "dry": "Reviewers with dry skin describe the lotion as very moisturizing, giving a dewy glow that does not bother them even though the finish can look shiny.",
+  "combination": "A reviewer with combination skin advises using only a small amount, since more can leave the skin looking oily.",
+  "sensitive": "Most reviewers with sensitive skin report no reaction, even after patch testing, and note it hydrates without stinging the eyes, though the vanilla-scented version specifically irritated some who react to fragrance.",
+  "mature": "An older reviewer managing melasma describes the sunscreen as hydrating and protective as part of a daily routine."
+ },
+ "concerns": {
+  "dehydration": "Many reviewers, especially those with dry or sensitive skin, describe the lotion as very moisturizing and say it leaves skin hydrated and glowing rather than dry.",
+  "spots": "Several reviewers, including one managing melasma, report the sunscreen helped prevent hyperpigmentation and dark marks from worsening with sun exposure.",
+  "blemishes": "Most reviewers, including one who normally breaks out easily, report no new blemishes; one long-term user says she developed breakouts and clogged-pore bumps after continued use and stopped buying it.",
+  "oiliness": "Numerous reviewers, particularly those with oily skin, report a greasy or shiny finish and suggest the matte version instead, while others welcome the same sheen."
+ },
+ "aspects": [
+  {
+   "libelle": "No white cast on deeper skin tones",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Vanilla scent well liked",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scented version irritates fragrance-sensitive skin",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Leaves a dewy, glowy sheen",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy, shiny finish for some users",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Doubles as daily facial moisturizer",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle size with no refill option",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "ReSheda",
+   "titre": "Will clog pores for sure",
+   "texte": "Before using this BGS I never struggled with breakouts. Random bumps pops up on my cheeks and chin now. Made the decision today to stop using this. Also makes u really greasy so if u have oily skin try the matte. Doesn't leave white film either. I wanted to love this product. I've used it for 2 years but I can't take the breakouts anymore.",
+   "date": "2025-08-11",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ciara",
+   "titre": "Black girl magic!",
+   "texte": "I have sensitive skin and like to keep it very simple yet very effective and when i heard boyt sunscreen i really almost became really helpless due to white cast or irritation around eyes. I started using this when my mom got me it and ive grown through so many bottles over 2 years—its very very moisturizing as if you can just go in with this and be done if your in a rush or don't like a heavy feeling with other skincare layering. I will say this to me seems more for a dry skin type just due to it being very very dewy and shiny….yet rich finish if you are pleased with that due to your skin type and preferences—i would say alittle does go along way with this (and i have a heavy hand) just due to it being very rich and dewy. I can say this has helped me feeling more confident of my skin tone and just to know im wearing sunscreen and yet still adding protection give me a very humble blush and plus it doesnt sweat out. Ive too noticed a difference in dark marks so please fellow black queens wear your sunscreen, protect your blessed melanin and show off that sexy sunkissed glow…please know you dont have to feel left out!",
+   "date": "2025-07-26",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sabrina",
+   "titre": "My Forever Face and Body Moisturizer",
+   "texte": "I was introduced to this product 2 years ago by a former make-up artist my face loves it! I love how it makes my skin feels soft and glows I have combination skin so I had to learn how to use a little because it can make your skin look oily it's a keeper",
+   "date": "2025-07-30",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "shebagirl",
+   "titre": "My favorite sunscreen",
+   "texte": "I've been using this product for a few years now, and Ireally like this sunscreen because it doesn't leave a white cast and I like the dewy look I get from it. Keep in mind that my skin is usually dry to normal so the shine doesn't bother me. If you have oily skin, you may want to skip this one and try the matte formula or see how it works under a mattifying makeup routine.",
+   "date": "2026-03-08",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Vivian R.",
+   "titre": "Protected and hydrated skin",
+   "texte": "This is my everyday go to before I leave the house facial moisturizer. As a 63 year old Black woman with melasma triggered by sun exposure, BGS SPF30 leaves my skin hydrated and protected. Please don't ever change your formula! Also just a dab will do you!",
+   "date": "2025-10-07",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tamara G.",
+   "titre": "I was kind of skeptical",
+   "texte": "I was kind of skeptical at first because I always break out, but this has definitely been a game changer. You definitely have a lifetime Customer. I have Lupus and this beats every sunscreen I have used by far. It does not take a lot, a little bit goes a long way. I only use it once in the mornings. I don't apply it every two hours because I work mainly indoor",
+   "date": "2025-07-19",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

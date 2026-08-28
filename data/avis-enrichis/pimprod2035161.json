@@ -1,0 +1,148 @@
+{
+ "ref": "pimprod2035161",
+ "asin": null,
+ "pid": "pimprod2035161",
+ "source": "ulta",
+ "nom": "DIME Gentle Jelly Cleanser",
+ "note": 4.79,
+ "nbAvis": 3979,
+ "lus": 77,
+ "collectes": 100,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers form the largest and most consistently positive group, repeatedly saying this is one of the only cleansers that doesn't cause redness, irritation, or breakouts, including for rosacea-prone and reactive skin; the one partial exception is a reviewer whose newly dry, sensitive skin didn't feel improved by it despite hoping for more hydration.",
+  "dry": "Reports from dry-skinned reviewers differ: some, including one with very dry skin, say it cleanses thoroughly without drying them out further, while others find it dries their skin out more in winter or didn't help ongoing dryness as much as hoped.",
+  "combination": "Combination-skin reviewers, including some who are also acne-prone or lean dry, consistently report it cleanses well without leaving skin oily, tight, or dry.",
+  "oily": "One reviewer notes the cleanser suits her better in summer when her skin runs more oily than in drier winter months.",
+  "mature": "One reviewer whose skin changed after turning 40, when her usual products stopped working, found this cleanser gentle enough to work for her changed skin."
+ },
+ "concerns": {
+  "dehydration": "The overwhelming majority of reviewers say this cleanser does not dry out or strip their skin, often specifically praising it for leaving skin soft rather than tight; a minority dissent, including one reviewer whose dry skin didn't improve as hoped and another who finds it dries her skin out more in winter months.",
+  "redness": "Multiple reviewers, several with rosacea or generally reactive skin, report the cleanser calms existing redness or simply doesn't trigger any, with a few specifically contrasting it with other cleansers that used to turn their face red.",
+  "barrier": "One reviewer finds it a little harsh for daily use despite her skin feeling clean afterward; the large majority of others, including many with reactive or rosacea-prone skin, report no burning, stinging, or reaction of any kind.",
+  "blemishes": "Reviewers with acne-prone skin consistently report the cleanser doesn't cause new breakouts the way some previous cleansers did, with a couple specifically noting their acne improved and pores stayed clearer with regular use.",
+  "oiliness": "Several reviewers say the cleanser leaves no oily residue behind and helps balance oil without over-stripping natural oils, including one who finds it particularly well suited to her skin when it runs oilier in summer."
+ },
+ "aspects": [
+  {
+   "libelle": "Distinctive earthy scent, not for everyone",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Nice jelly texture, foams up well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well as a second-cleanse step",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast, well-packaged shipping",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "sgims",
+   "titre": "Smells like cat breath",
+   "texte": "Idk how this product passed the sniff test in the lab but it should not have made it past development. It literally smells like my cat's breath after she's used the litter box. I really tried to give it a chance because it does foam up and cleanse nicely, but I couldn't stop gagging due to the smell. I ended up washing my face again with another product and could still smell it afterward. Unfortunately, this one's a hard pass for me.",
+   "date": "2026-04-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 3,
+   "auteur": "Mia P.",
+   "titre": "I wish it was more hydrating",
+   "texte": "I can't totally hate on this product because I enjoy the smell and the feeling when washing my face with it. The directions suggest a quarter size amount, yet I only need one pump which is closer to a dime size. No pun intended :) This will definitely last me a good while! My only concern is my recently occurring dry skin that I feel is not improving since using this cleanser with the day cream. It could be hormonal, but I was hoping this would help my sensitivity and redness with hydration at least.",
+   "date": "2026-03-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kaylee M.",
+   "titre": "Winter Face Wash",
+   "texte": "It's gentle and my skin feels so clean but in the winter time, it dries me out a little more. Great for the summer when my skin is a little more oily. The smell is nice but i prefer no fragrance on my face",
+   "date": "2026-05-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Grace N.",
+   "titre": "Clean, Gentle, Refreshing!",
+   "texte": "My friend introduced me to this line and started me with the jelly cleanser and dewy day cream. I have very sensitive skin and was in need of something more suited towards that. My redness and irritation got so much better and my skin was soft and moisturized!",
+   "date": "2026-04-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brianne C.",
+   "titre": "The BEST!!",
+   "texte": "I have tired many different face washes but this has been the best so far! I have acne prone combination skin, I keep my routine simple, but this has been amazing! My face feel so clean after using and my acne has improved so much! I will keep repurchasing!!",
+   "date": "2026-06-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amy B.",
+   "titre": "So gentle!",
+   "texte": "My skin has been going through it since turning mg 40 and my regular products weren't working anymore. So glad I found this face wash! A gentle cleanse and doesn't leave your skin feeling stripped!",
+   "date": "2026-02-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa D.",
+   "titre": "Gentle Jelly Cleanser",
+   "texte": "I love this stuff. I have combination skin with it being more on the dry side, as well as rosacea and this works great without feeling like it is melting my face off. Love this stuff.",
+   "date": "2026-07-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

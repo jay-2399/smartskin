@@ -1,0 +1,155 @@
+{
+ "ref": "pimprod2023216",
+ "asin": null,
+ "pid": "pimprod2023216",
+ "source": "ulta",
+ "nom": "Beekman 1802 Dream Booster Bakuchiol Better Aging Serum",
+ "note": 4.61,
+ "nbAvis": 309,
+ "lus": 78,
+ "collectes": 110,
+ "segments": {
+  "sensitive": "An extraordinarily large number of self-described sensitive-skin reviewers, including many managing eczema, rosacea, or a history of reacting to retinol, report no burning, redness, or irritation, often specifically choosing this product as a gentler retinol alternative; one reviewer with rosacea instead found it made her skin dry and patchy and does not recommend it for rosacea-prone skin.",
+  "dry": "Reviewers with dry skin, including one going through menopause and another with a general history of dryness, report it adds plumpness, softness, and moisture; one reviewer with rosacea instead found it made her skin dry and patchy.",
+  "oily": "Reviewers who describe their skin as oily or combination-oily, including some in hot, humid climates, mostly report it works well as part of a retinol-alternative routine despite an initially greasy feel; two reviewers instead say it made their skin very oily, did not absorb well, and pilled or caused breakouts.",
+  "combination": "Multiple reviewers with combination skin, several also acne-prone, report clearer, smoother, more even skin with regular use and no new breakouts.",
+  "mature": "Reviewers in their 60s and 70s, including one navigating menopause-related skin changes, report softer, smoother skin and improvement in neck and facial aging without irritation."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visibly softer forehead lines, fine wrinkles, and firmer, more youthful-looking skin, some noticing changes within ten days; a couple of reviewers say the anti-aging effect was minimal or not noticeable for them.",
+  "dehydration": "The large majority of reviewers, including some going through menopause or with chronically dry skin, report it adds noticeable moisture, plumpness, and softness; a few reviewers, including one with rosacea, instead report increased dryness or patchiness.",
+  "redness": "Multiple reviewers, including one who specifically has redness-prone skin, report the serum reduces redness and evens out their complexion without irritation; one reviewer instead reports her skin became red and blotchy after using it.",
+  "spots": "A couple of reviewers report visibly lighter acne scars or dark marks within one to a few uses.",
+  "blemishes": "Most reviewers, including several who are acne- or cystic-acne-prone, report clearer skin and no new breakouts, with some attributing early pimples to a temporary purging phase that resolved with continued use; several other reviewers instead describe persistent clogged pores, bumps, or breakouts that did not improve and led them to stop using the product.",
+  "oiliness": "Several reviewers describe the oil as feeling greasy immediately after application, though most say it absorbs well within a few minutes; two reviewers instead report it left their skin persistently oily and caused pilling or poor absorption even when mixed with moisturizer."
+ },
+ "aspects": [
+  {
+   "libelle": "Texture is oily, not a typical serum",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle relative to the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Best mixed into a moisturizer, not alone",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Faint, pleasant scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Attractive bottle and dropper design",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "BM",
+   "titre": "Wanted to like but gave me bumps",
+   "texte": "I started getting bumps all over my face. I thought maybe it was my new acne toner so I stopped using the toner. I kept getting bumps. My face got really rough and my pores started to get clogged. I stopped this serum and just used the toner. My face started to clear. I decided to try both again and the same thing happened - clogged pores and bumpy skin. This serum wasn't for me.",
+   "date": "2023-08-07",
+   "verifie": false,
+   "utiles": 37,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Elizabeth",
+   "titre": "Don't use if you have rosacea",
+   "texte": "I think this is probably great for normal skin. I have rosacea and it isn't for my skin. It made my skin really dry and patchy. But that said, for normal skin I am sure this would be really great. I stopped using it and am giving it away to someone who can use it myself, I'm going to try to find something a little more suitable for my sensitive skin.",
+   "date": "2023-01-05",
+   "verifie": false,
+   "utiles": 19,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Telnisha",
+   "titre": "super small bottle",
+   "texte": "I got this for Ulta's 21 days of beauty 50% off since so many reviews said it was amazing and it was half off!! but why did no one tell me a super tiny bit goes a long way, it's very greasy feeling. I even applied it mixed in with my moisturizer and it was still very oily/greasy feeling didn't absorb easily. I don't know definitely not something I would buy again especially for full price. the bottle itself is very small looks like hardly anything in it. my face feels gross after applying and it broke me out within 24 hours of use!",
+   "date": "2025-03-28",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Meredith",
+   "titre": "No irritation, no redness and no visible dry skin! Perfect!",
+   "texte": "I ordered this because I wanted a retinol alternative since I have rosacea. I wanted to start using some anti-aging creams but everything irritates my skin, especially the retinol options on the drugstore shelves. I had an excellent experience with the Beekman Pure Goat Milk Lotion so I will willing to try another Beekman product. So far, I have had no irritation, no redness and no visible dry skin - three things I experienced almost immediately with the drugstore retinols. I would give this 5 stars but I have not been using the product long enough to see the results, which I know take time, as with any product.",
+   "date": "2022-04-22",
+   "verifie": true,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Skincare fanatic",
+   "titre": "Will repurchase",
+   "texte": "One thing people don't realize is bakuchiol is NOT a retinol (despite commonly being called a \"phyto-retinol\"). This means you may not get the same results you would by using a retinol product, however you are also less likely to have any of the adverse side effects associated with a retinol (especially for sensitive skin). It is anti-inflammatory and has both antioxidant and antibacterial properties. I have eczema prone, acne prone, combo skin that can be very picky and this worked wonderfully. I use this on my last recovery night (\"skin cycling\") with a THICK moisturizer. I typically mix it with the moisturizer or apply it on top due to its oily consistency so it traps in water based products but it leaves my skin less red, more even, and glowing every time I use it. As always patch test and don't over use it at first, but I have seen great results with this and will be repurchasing.",
+   "date": "2023-02-14",
+   "verifie": false,
+   "utiles": 26,
+   "peau": "combination",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Yamile",
+   "titre": "You need this in your skincare routine!",
+   "texte": "This is my third purchase from the Beekman line. I'm in my late 30s, have combination skin and have suffered with cystic acne since I was 13. I usually breakout along my jaw line but they never come to a head. This product is so effective at clearing up my pores without being harsh and after using it at night for the past week I've seen no more breakouts. My skin is smoother and more even. This is definitely worth its weight in gold. A little goes a long way. I mix a few drops in with my moisturizer and my skin drinks it up. It's way too good to pass up. If you want smoother, brighter skin and want a retinol alternative, you need to pick this up.",
+   "date": "2022-06-12",
+   "verifie": true,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "BVV",
+   "titre": "Love this product!",
+   "texte": "I bought this during the 50% off sale & am totally loving how well it works w/ my moisturizer. I have dry skin which is now plumped & glowing!!! This is worth the price. Using a drop or two with moisturizer means that it lasts a long time…",
+   "date": "2025-05-19",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

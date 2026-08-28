@@ -1,0 +1,143 @@
+{
+ "ref": "xlsImpprod10791745",
+ "asin": null,
+ "pid": "xlsImpprod10791745",
+ "source": "ulta",
+ "nom": "Clinique Dramatically Different Moisturizing Gel For Face",
+ "note": 4.7,
+ "nbAvis": 4360,
+ "lus": 77,
+ "collectes": 102,
+ "segments": {
+  "oily": "Reviewers with oily or oily-combination skin consistently describe the gel as lightweight, non-greasy, and effective at controlling T-zone shine without over-drying, with several preferring it to the brand's heavier lotion; one long-time user found the gel alone insufficient once her skin matured and needed more moisture.",
+  "dry": "Most reviewers with dry skin, including some with dry, mature skin, say it relieves winter dryness and flaky patches without feeling heavy; one reviewer with dry, acne-prone skin instead reports a burn-like reaction with redness the day after use.",
+  "combination": "Reviewers with combination skin, including a dry-with-oily-T-zone pattern, say the gel balances both areas at once, with a few recommending a serum first if their combination skin leans dry.",
+  "sensitive": "Most reviewers with sensitive skin, some also managing acne, report it hydrates for years without irritation or new breakouts.",
+  "mature": "Reviewers in their late 50s to late 60s report it still absorbs well as part of a long-standing routine, though one says the gel alone no longer provides enough protection for her mature skin and suspects it suits teens better."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers, including some with dehydrated or winter-dry skin, say the gel keeps their face hydrated and smooth all day; several others report the opposite, saying it absorbs too fast and leaves skin dry, flaky, or thirsty again within hours, particularly in cold weather.",
+  "redness": "One reviewer with dry, acne-prone skin reports a burn-like reaction with visible redness the day after applying, the same issue she says occurred with another Clinique product.",
+  "blemishes": "Reviewers managing acne-prone skin, including teenagers, report the gel does not cause new breakouts or clogged pores and some say it reduces the acne they get.",
+  "oiliness": "Reviewers dealing with oiliness say the gel absorbs quickly, controls T-zone shine, and doesn't feel greasy or heavy; one notes it doesn't truly control oil, so very oily skin may still find it too dewy in summer."
+ },
+ "aspects": [
+  {
+   "libelle": "Absorbs quickly without heavy residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pills or balls up under makeup or SPF",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free, unscented formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser wastes product at the bottom",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Recent bottles hold less for the same price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value, a little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Works well as a makeup primer or base",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Marley",
+   "titre": "Burned my skin",
+   "texte": "I have very dry, acne prone skin. Initially, it felt smooth snd absorbed quickly. The next day, I looked as if I had a chemical or sun burn. This has happened to me with the moisure surge product, as well. I wanted to enjoy these products, but they do not react well with me.",
+   "date": "2026-07-05",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Lkpolo",
+   "titre": "A lighter moisturizer for oily skin",
+   "texte": "I purchased the smallest size of the DDM gel thinking it might be good in the summer but my skin requires moisturizer at my age. As I've discovered, mature skin needs more protection day and night than the gel provides. I suspect it would be great for a teen but I'm way past that stage.",
+   "date": "2024-04-29",
+   "verifie": false,
+   "utiles": 10,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Georgie",
+   "titre": "Really nice lotion for oily skin",
+   "texte": "As someone with oily skin, I was surprised by how well the Clinique \"Yellow Lotion\" worked for me. The texture looks a bit rich at first, but it absorbs quickly and doesn't leave a greasy film. It gives just the right amount of hydration without clogging pores, and it sits nicely under makeup. It doesn't control oil, so very oily skin might find it a bit too dewy in summer, but as a simple, reliable moisturizer, it's hard to go wrong with this one.",
+   "date": "2025-12-12",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kimchicado",
+   "titre": "The best moisturizer!",
+   "texte": "This is a holy grail product for me. My mom has always used the dramatically different cream but I found it too heavy. The gel is PERFECT for my dry skin!! Ive been using it for about four months and this is the best my skin has ever felt",
+   "date": "2024-07-24",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Andeo",
+   "titre": "Love this stuff!",
+   "texte": "I have super senstive skin and bad acne. Its usually hard for me to find a good mositurizer that doesnt irritate my skin but this stuff is goldennn! Definetly gonna be my new go-to for mositurizing my face",
+   "date": "2024-01-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nikki",
+   "titre": "Holy grail",
+   "texte": "I have been using the Clinique Dramatically Different moisturizing gel for 10 years now and I have never switched to another during that yime. This is a great product for me personally: I have normal/dry skin with an oily T-zone. The gel is not sticky at all and the skin abosrbs the product wonderfully! Will forever buy this",
+   "date": "2025-04-17",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

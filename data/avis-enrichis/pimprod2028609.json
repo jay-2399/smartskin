@@ -1,0 +1,156 @@
+{
+ "ref": "pimprod2028609",
+ "asin": null,
+ "pid": "pimprod2028609",
+ "source": "ulta",
+ "nom": "CeraVe Acne Control Cleanser",
+ "note": 4.33,
+ "nbAvis": 596,
+ "lus": 79,
+ "collectes": 114,
+ "segments": {
+  "oily": "Reviewers with oily skin, including one in her 60s and another in a humid climate, report it controls shine and oil throughout the day without leaving skin overly dry, though one notes it can feel drying at times when combined with prescription topicals.",
+  "dry": "The one reviewer who specifically describes her skin as dry calls it a staple of her routine with no complaints of dryness.",
+  "combination": "Reviewers with combination skin, some oily in the T-zone and dry elsewhere, mostly report balanced results without excess dryness or oiliness, though one says it dries her skin slightly.",
+  "sensitive": "Many self-described sensitive-skin reviewers report no irritation even with twice-daily use over months; a substantial number of others, including one who did not consider her skin sensitive beforehand, report burning, redness, swelling, or hives, sometimes appearing only after weeks of seemingly fine use.",
+  "mature": "The one reviewer who mentions dealing with aging skin says it does not dry her out, which matters to her given her age-related skin concerns."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers say the cleanser does not dry out their skin, or only mildly so when paired with a moisturizer; several others, especially those using it more than a few times a week, report it leaves skin dry, tight, or stripped, with one saying twice-daily use disrupted her skin barrier without a moisturizer layered after.",
+  "redness": "Several reviewers report the cleanser caused burning, swelling, or redness on their cheeks or around the mouth, in some cases appearing only after weeks of otherwise fine use and lasting up to an hour; other reviewers, including some with sensitive skin, report no redness or irritation at all.",
+  "barrier": "One reviewer says using the cleanser twice daily without a moisturizer afterward disrupted her skin barrier, and she now limits use to nighttime followed by a moisturizer.",
+  "spots": "Some reviewers report the cleanser fades old acne dark spots and helps prevent new scarring with continued use; one reviewer instead says her breakouts under this product progressed into dark spots.",
+  "blemishes": "The large majority of reviewers report clearer skin, fewer breakouts, and faster-resolving cystic pimples within one to six weeks of regular use, including several with long-standing hormonal or cystic acne; a notable minority instead report the cleanser made their acne or blackheads worse, sometimes after initially working well, and a few say it made no difference to their breakouts at all.",
+  "oiliness": "Most reviewers with oily skin say it controls shine and excess oil effectively throughout the day; no reviewer in this set reports it making their skin oilier."
+ },
+ "aspects": [
+  {
+   "libelle": "Unclear cleanser vs spot-treatment instructions",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free, unscented formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump packaging is convenient, travel-friendly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Some report a changed, inconsistent formula",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Burning or tingling sensation when applied",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Very affordable for the results",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Oreoluwa",
+   "titre": "I won't recommend this cleanser to anyone",
+   "texte": "After 5 weeks of using this cleanser, it made my face worse. I started breaking out and having big acne, white head and blackheads which later turned into dark spots. I've never used any facial cleanser, I was recommended this cleanser to start using to clear blackheads but it made my face worse and really bad",
+   "date": "2023-08-03",
+   "verifie": true,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Anna",
+   "titre": "Not for sensitive skin",
+   "texte": "I really wanted to love this face wash and I did. after using it twice it made my skin feel much more balanced and it didn't leave it oily either, but after the second time it burned my cheeks and left them swollen and red. It took about an hour for it to stop burning and for the red to go away. So this product works great but if you have sensitive skin just be careful and know what your skin is sensitive to.",
+   "date": "2023-11-20",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "rr92",
+   "titre": "Dry skin friendly",
+   "texte": "Amazing product for my dry skin and a staple of my skicare regiemen",
+   "date": "2023-12-05",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Krystyna",
+   "titre": "Works great for sensitive/combo acne prone skin",
+   "texte": "My acne becomes a problem during the summer and i wear face makeup almost everyday. This is the one product that helped the most. I have sensitive/combination skin (very oily in t zone/dry everywhere else) It works best to use twice a day. I use it morning and night with no irritation. I double cleanse at night and i dont combine with any other acne treatments. The bottle lasts a long time even with everyday use and I've repurchased several times. However, I don't notice a difference in blackheads so I would recommend trying something else if thats what your problem is.",
+   "date": "2023-09-02",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Calathea",
+   "titre": "Never been clearer",
+   "texte": "I've been using this for the past 2 years and my face has never been consistently this clear. My skin is completely smooth. I have very acne prone skin and I know it's effective because if I happen to skip a day and not use it, I get pimples. I have extremely oily skin and live in a humid climate and definitely notice that I don't look as shiny as I used to. I still get the occasional hormonal acne but even then it's not much and goes away quickly.",
+   "date": "2023-11-15",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "blemishes",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "clairel187",
+   "titre": "Confidence and Clear Skin",
+   "texte": "This cleanser has changed my skin! I always struggled with having consistently clear skin, once I started using this cleanser I never have breakouts anymore. I only use it at night and I have to follow it with the Cerave daily moisturizer for the full effect. I've noticed using it twice a day dries out my skin too much, and without moisturizer following it, it messes up my skin barrier. I highly reccomend.",
+   "date": "2024-03-25",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "hurricanekatie10",
+   "titre": "Daily Wash for 2 years",
+   "texte": "when I found this I stopped looking for another face wash to control breakouts! You can't beat the price, I've spent $60 + on acne cleansers previously that didn't work as well. Isn't drying to your skin which is huge for me as I'm also dealing with aging skin.",
+   "date": "2024-04-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,156 @@
+{
+ "ref": "pimprod2045655",
+ "asin": null,
+ "pid": "pimprod2045655",
+ "source": "ulta",
+ "nom": "Naturium Tranexamic Topical Acid 5%",
+ "note": 4.15,
+ "nbAvis": 204,
+ "lus": 80,
+ "collectes": 119,
+ "segments": {
+  "oily": "The reviewers with oily skin report it clears blackheads and fades discoloration without dryness or irritation, though one with combination-oily skin did experience new breakouts.",
+  "combination": "Reviewers with combination skin diverge sharply: one found it helped with dark spots and redness but caused new acne and returned it, while another with combination, reactive skin extremely sensitive to pore-clogging ingredients reports zero negative reactions.",
+  "sensitive": "Reviewers with sensitive skin, including some with eczema, consistently report zero irritation alongside good results fading discoloration.",
+  "dry": "The one reviewer with dry skin, also managing melasma and fine lines, reports no irritation, though she had not yet seen results by the time of her review.",
+  "normal": "The one reviewer who explicitly says she does not have sensitive skin reports the most severe reaction in the entire review set: a major allergic reaction the very first time she used a reformulated bottle, after a full year of trouble-free use with the previous version."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers report no dryness, and a few describe the serum as hydrating; dissent ranges from mild, a couple noting slight dryness or peeling that a moisturizer resolves, to severe, with one reviewer reporting burning, bleeding, and heavy peeling that lasted over a week after she stopped.",
+  "redness": "Several reviewers report the serum fades redness and post-inflammatory redness from past breakouts; against that, one reviewer describes a severe burning reaction, and another developed bumps across her face after a single use.",
+  "barrier": "One reviewer credits consistent use with helping keep her skin barrier healthy; against that, one reviewer explicitly warns not to use this without a good skin barrier already in place, and another, using it shortly after stopping hydroquinone, had a severe reaction that burned and bled.",
+  "spots": "The large majority of reviewers report visible fading of melasma, post-inflammatory hyperpigmentation, acne marks, or age spots, often within two to six weeks of consistent use, several calling it their holy grail after trying many other products; a real minority dissent, some seeing no change at all after two to three months of consistent use, and one reporting the strange opposite effect of her skin appearing darker, not lighter, the morning after each application.",
+  "blemishes": "Most reviewers with acne-related concerns report faded scars and marks, and some say it even helps manage active breakouts or clears blackheads; dissent comes from two reviewers who developed new acne or facial bumps after starting the product.",
+  "oiliness": "The one reviewer who discusses oiliness directly, with sensitive oily skin, reports the serum helped clear blackheads without causing dryness or irritation."
+ },
+ "aspects": [
+  {
+   "libelle": "Arrives or turns oxidized, brown, and smelly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Opaque bottle makes freshness hard to judge",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Dropper clogs or wastes product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No harsh scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Good value for the price",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "sad gal",
+   "titre": "New bottle triggered a horrible reaction",
+   "texte": "I loved this serum at first, I've been using it regularly for over a year now and I've bought multiple bottles. However, I ordered a new bottle in the end of March and noticed they changed from a dropper to a pump (great call). Idk if they changed the formula too, but the very first use from the new bottle triggered a major allergic reaction on my face the next morning. I don't have sensitive skin whatsoever, I'm a little acne prone but nothing major. Nothing else in my routine has changed recently. This was the very first time I've had such a severe reaction to ANYTHING topical. Super super disappointing and now I'm afraid to keep using it.",
+   "date": "2024-04-11",
+   "verifie": true,
+   "utiles": 10,
+   "peau": "normal",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lynn",
+   "titre": "Horrible for my skin",
+   "texte": "My skin was looking great before I started to use this. I was on hydroquione and had to stop for 2 month cycle. Then I did this and my skin is burned so bad that it bleeds. I am peeling real bad, burning like a sunburn, and its been a week and a half off of it. I stopped because my akin is so bad! Nope... Cannot continue to use this product. Going back for a return!",
+   "date": "2024-10-30",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "AznBeauty",
+   "titre": "Tranexamic",
+   "texte": "Truly confused about this product. I used it ONLY at night, without other exfoliating acids. I always look darker the next morning. I wash my face and use a high mineral SPF that covers UVA/UVB. I always wear a hat and when I hike I wear a mask. I have no clue why more melanin comes up! it's not Just the areas I have hyperpigmentation it's like an all over darkness. STRANGE. At first I thought it was the tint of yellow that made my skin darker, but it was clear when I got it and I still became darker. I shouldn't be that dark from a light yellow. I've stopped and when i got my skin lighter from other acids and actives. Immediately, the first night i am darker instead of supressing melanin. I've researched and can't find anything about this. It has similar ingredients to my other melanin inhibitor except Tranexamic. That's the one difference. No irritation from what I can remember. I think it's not for me.",
+   "date": "2024-12-15",
+   "verifie": false,
+   "utiles": 17,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sydney E.",
+   "titre": "Helpful but also not",
+   "texte": "This helped a lot with the dark spots and redness but I did get new acne from it as well, so unfortunately I did return it. For reference, I have combination/oily skin.",
+   "date": "2021-07-24",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "JenFish",
+   "titre": "My skin care journey starts here!",
+   "texte": "This brand has it all together. Shipped the day after ordering, great communication and quality packaging. I love the glass bottle! The product hasn't irritated my skin, but I always slowly introduce a new product to avoid irritation. I'm in it for the long haul, so I don't expect and won't see result for a bit. I'm glad to start a skin care journey with a company that seems to have it together. I am a real customer not an employee just writing a good review. 42, dry skin, malasma and fine lines…ugh, but embracing it.",
+   "date": "2022-10-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Rahel",
+   "titre": "Effective and reduces blackheads",
+   "texte": "I love it. I use it nightly about 4-5 times a week. In two weeks of use it has already helped cleared up some of my troublesome blackheads on my chin. I have sensitive, oily skin and have not seen any irritation or dryness. The product spreads easily and doesn't have a smell.",
+   "date": "2023-01-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lindsay",
+   "titre": "Actually works",
+   "texte": "Been using this for about a month and not only have I noticed a great improvement in my PIH, it also has helped keep my skins barrier healthy. I'm really impressed… my skin is combination and extremely sensitive to pore clogging ingredients and I've had no negative reactions whatsoever. Started using it every other night and slowly built up to twice daily.",
+   "date": "2021-12-26",
+   "verifie": true,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

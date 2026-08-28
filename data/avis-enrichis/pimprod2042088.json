@@ -1,0 +1,159 @@
+{
+ "ref": "pimprod2042088",
+ "asin": null,
+ "pid": "pimprod2042088",
+ "source": "ulta",
+ "nom": "StriVectin Multi-Action Hydration Multiplier Hyaluronic Acid Serum",
+ "note": 4.76,
+ "nbAvis": 288,
+ "lus": 81,
+ "collectes": 119,
+ "segments": {
+  "dry": "An unusually large number of reviewers with dry skin, several in harsh winter or desert climates, report the serum meaningfully increases hydration, plumpness, and softness, with some noticing less flaking within one to two weeks.",
+  "oily": "Reviewers with oily skin are mixed: one says it absorbs well and causes no breakouts even on oily spots, while another with oily skin reports her face looked oily by the end of the day.",
+  "combination": "The one reviewer with combination skin, oily in the T-zone and dry elsewhere, says it hydrates well overall and works well on her oily areas too.",
+  "mature": "Reviewers in their late 40s to 70s who describe their skin as aging report visibly smoother texture, softer fine lines, and a younger-looking appearance, in some cases prompting unsolicited compliments on their age."
+ },
+ "concerns": {
+  "aging": "Many reviewers report visibly softer fine lines, improved texture, and a firmer, more youthful look within one to a few weeks, sometimes prompting compliments on looking younger than their age; one reviewer reports no change in her fine lines or the plumping effect others describe.",
+  "dehydration": "The overwhelming majority of reviewers, including many with chronically dry or winter-affected skin, report the serum provides intense, fast, and lasting hydration with visible plumpness, often noticeable from the very first use; no reviewer in this set reports it failing to hydrate.",
+  "redness": "One reviewer, who says she does not normally get allergic reactions to anything, reports the serum caused hives on her face and made her eyes swell significantly.",
+  "barrier": "Two reviewers with dry, winter-affected skin say the serum's ceramides helped repair and strengthen their skin barrier, leaving skin feeling softer and healthier overall.",
+  "spots": "A couple of reviewers report early fading of dark spots or winter-related dark patches after a few uses, describing the change as gradual rather than immediate.",
+  "blemishes": "The one reviewer who addresses breakouts directly says she experienced none after incorporating the serum into her routine.",
+  "oiliness": "Most reviewers say the serum absorbs well without adding oiliness; two reviewers instead report their skin looked or felt oily by the end of the day or after sleeping with it on overnight."
+ },
+ "aspects": [
+  {
+   "libelle": "Dual pump often dispenses unevenly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Novel dual-chamber bottle, fun to use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, absorbs without greasy feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Light scent, mild and rarely bothersome",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Improves how makeup applies afterward",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Creamy, silky texture unlike thin serums",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Christy",
+   "titre": "Gave me an allergic reaction",
+   "texte": "I don't get allergic reactions to anything but this made me break out in hives on my face and made my eyes really swollen",
+   "date": "2024-03-25",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Mary M.",
+   "titre": "Problem Child Product",
+   "texte": "1. It took a week of shaking, turning upside down to get one side of product to come out, so that's 7 days of waste. 2. I didn't experience the plumping others describe 3. No difference in fines lines anywhere on my face 4. Vitamin C serum better 5. I will use until depleted but not purchase again.",
+   "date": "2024-03-27",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Katie V.",
+   "titre": "StriVectin for Hydration!",
+   "texte": "I live in a very dry climate where hydration focused skincare is key to having healthy looking and feeling skin. This serum from StriVectin was a great addition to my routine. Upon first use my skin felt good and hydrated. After a week of use I noticed my face felt more plump and looked glowy and radiant. The bottle is fairly large and the dual chamber pump is fun to use. Overall a good serum for anyone looking for a boost of moisture. This product was gifted to me by StriVectin.",
+   "date": "2024-02-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Monica",
+   "titre": "Great",
+   "texte": "This is a really nice product and something that I will definitely purchase in the future. I am so grateful that this was gifted by strivectin in exchange for my honest opinion. My face is combination skin, my t-zone tends to be oily, but the rest of my face is dry. This hydrated my skin so nicely and worked well on my oily spots. I have some faint fine lines around my eyes, mouth and forhead and it helped lessen their appearance. This helps make my skin look nice and fresh. Very happy with this.",
+   "date": "2024-01-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Zoe",
+   "titre": "Happy customer!",
+   "texte": "This serum was gifted by Strivectin. Hyaluronic acid is one of my favorite ingredients in skincare products. So I knew I had to try this product out! Because my skin is oily, I try to find products that absorbs well into my skin and boosts hydration. The pump packaging is great and I see great improvements to my skin texture. It's lightweight and easy to combine with other products I use and no breakouts as I incorporated this into my routine. Don't hesitate to give this product a try!",
+   "date": "2024-01-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tiffany",
+   "titre": "Winter fave!",
+   "texte": "Complimentary from Strivectin for review. StriVectin's Hydration Multiplier might be a holy grail moment for those of us with dry, wintry skin! This hyaluronic acid serum is packed with skin loving ingredients to hydrate dull skin, improve skin barrier, and promote a healthy, dewy glow. My skin feels softer and healthier with this is my skincare routine. I'm noticing some of the darker patches I get in the winter starting to clear up after just a few uses.",
+   "date": "2024-01-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Miriam S.",
+   "titre": "Great product",
+   "texte": "I was feeling as if my 73 yr old skin was 90+ years old. It was very dry and felt very tight. This has helped very much. My skin feels and looks youngish now.😉",
+   "date": "2024-06-24",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

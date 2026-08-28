@@ -1,0 +1,150 @@
+{
+ "ref": "mkt77002281",
+ "asin": null,
+ "pid": "mkt77002281",
+ "source": "ulta",
+ "nom": "Lancer Skincare Caviar Lime Acid Peel",
+ "note": 4.93,
+ "nbAvis": 383,
+ "lus": 77,
+ "collectes": 77,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin, including some who are sensitive/combination, describe the peel as well tolerated, with only mild, short-lived tingling and no burning, irritation, or breakouts even when left on longer than directed.",
+  "dry": "One reviewer with dry skin calls it an indispensable step in her routine, using treated pads through the week and a mask on Saturday nights.",
+  "combination": "Reviewers with combination skin, including one who is also managing signs of aging, report it works well and gives noticeably renewed-looking skin.",
+  "mature": "Reviewers in their 50s report smoother, softer skin and reduced fine lines, sun damage and enlarged pores with regular use, describing results similar to a professional treatment."
+ },
+ "concerns": {
+  "aging": "Reviewers report fewer fine lines and wrinkles and reduced visible sun damage with regular weekly use over months to years; several compare the results to an at-home light chemical peel or professional facial.",
+  "dehydration": "Multiple reviewers describe skin as clean and hydrated rather than dried out immediately after use, with no reports of dryness or tightness from this acid peel.",
+  "spots": "Reviewers report fading of dark spots and sun spots and a more even skin tone with continued use; one reviewer hoping it would fade a dark cheek patch had not yet confirmed results at the time of writing.",
+  "blemishes": "Reviewers managing acne report drastically improved texture from past breakouts, reduced cystic acne, less congestion, and no new breakouts, including one who tolerates leaving the peel on for a full hour."
+ },
+ "aspects": [
+  {
+   "libelle": "Mild tingling sensation on application",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Signature citrus/lime scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Skin feels noticeably softer and smoother after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Makeup applies more smoothly afterward",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "High price for the size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount needed, lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Jar and shipping presentation praised",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Karin",
+   "titre": "Past texture issues from acne drastically improved",
+   "texte": "I have used high end and low end and all in between. With the cleanser, polish and nourish and the caviar lime peel. My face is so refreshed and smooth. Also a redhead that can tan. No sensitivity to this peel. Nothing has ever compared to how great this works. Everyone notices and says how great my skin looks.",
+   "date": "2024-03-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Manrit",
+   "titre": "I love it! I noticed",
+   "texte": "I love it! I noticed a difference within the first week. I love using the cleanser, and I sometimes use the polish as a spot treatment for active acne - it diminishes the size by a whole lot! I also noticed less cystic acne and less congestion. I added the caviar lime acid peel to use every other day - and my skin even tolerates it if I leave it on for 1 hour. It feels smooth and clean afterwards.",
+   "date": "2023-08-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Carrie",
+   "titre": "At first I did not",
+   "texte": "At first I did not know if I could use this product as I have sensitive/combination skin, but now I cannot live without it. I use once a week and apply to the tzone. It clears my skin of any residues. I leave on about 7-10 minutes and afterwards my skin feels so amazing. The scent is also unbelievable and I am VERY sensitive to any scents. This product is a must!",
+   "date": "2023-07-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Jaclyn",
+   "titre": "This product is like having",
+   "texte": "This product is like having a facial treatment at home. It even has a nice subtle citrus smell. I've noticed results of a smoother appearance to my skin as well as lightening of dark spots. The shipping is always on time and everything is packaged so well. I look forward to the treat of my \"at home facial\" during the week.",
+   "date": "2023-12-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Crystal",
+   "titre": "I was afraid to use",
+   "texte": "I was afraid to use it but now I can't be without it! I have enlarged pores and fine lines as a 54 yr old female but it install smooths my face and I was shocked! It really works! Not a fan of the smell but it's so worth it",
+   "date": "2024-01-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Linda",
+   "titre": "Absolute favorite product! I have",
+   "texte": "Absolute favorite product! I have dry skin and can't live without this product! I use the pads through the week and a mask on Saturday nights.",
+   "date": "2024-03-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Steven",
+   "titre": "Amazing Product",
+   "texte": "This product works extremely well on combination skin as well as aging skin. Gives your skin new life!!",
+   "date": "2024-12-20",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

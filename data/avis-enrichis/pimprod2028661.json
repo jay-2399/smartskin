@@ -1,0 +1,155 @@
+{
+ "ref": "pimprod2028661",
+ "asin": null,
+ "pid": "pimprod2028661",
+ "source": "ulta",
+ "nom": "Cetaphil Daily Facial Cleanser, Face Wash for Sensitive Skin",
+ "note": 4.63,
+ "nbAvis": 6870,
+ "lus": 79,
+ "collectes": 125,
+ "segments": {
+  "sensitive": "The large majority of reviewers with sensitive skin report no irritation, redness, or breakouts, even those managing acne-prone or fragrance-reactive skin; two reviewers disagree sharply, describing the cleanser marketed for sensitive skin as overly stripping, tightening, and in one case burning and damaging to her skin.",
+  "dry": "Reviewers with dry skin, including one prone to redness, uniformly report it cleans without drying them out further, and several credit it with actually calming redness and tightness over time.",
+  "oily": "Reviewers with oily skin, including some managing it since childhood, report less shine and a more balanced feel without over-drying; one notes it is not meant to treat active acne or blackheads, just to keep oily skin balanced day to day.",
+  "combination": "Reviewers with combination skin report it cleans thoroughly without stripping or tightness, with one crediting it with fewer breakouts than a gentler formula from the same brand caused her.",
+  "normal": "The few reviewers who mention normal skin describe it as suitable alongside oily or sensitive skin, without singling out any issue specific to normal skin.",
+  "mature": "The one reviewer who names her skin as aging reports it is gentle, dermatologist-approved, and causes no irritation."
+ },
+ "concerns": {
+  "dehydration": "The overwhelming majority of reviewers, across skin types, report it cleans without drying, tightening, or stripping their skin. A smaller group disagree, describing it as overly stripping and tightening, or drying with frequent or heavy use, and several who like the formula still recommend following up with a moisturizer.",
+  "redness": "Reviewers consistently report no redness or irritation, and a few specifically credit it with reducing pre-existing redness; one reviewer's skin instead became irritated and burned after use.",
+  "barrier": "One reviewer specifically credits the cleanser with cleaning without stripping down the skin barrier, even in a dry climate.",
+  "blemishes": "Most reviewers, including several who are acne-prone, report it does not cause new breakouts and in some cases reduces them; a couple of reviewers note it is not strong enough to treat active or stubborn acne on its own, with one switching to a stronger product for that reason.",
+  "oiliness": "Reviewers with oily skin consistently report less shine and a more balanced feel without the cleanser leaving skin oily or heavy afterward; no reviewer reports it failing to control oil."
+ },
+ "aspects": [
+  {
+   "libelle": "Virtually no fragrance for most",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent bothered a few reviewers",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenser controls product use well",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle, great value, lasts months",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doesn't fully remove heavy makeup alone",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lathers lightly without a stripping feel",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "June",
+   "titre": "So Stripping!",
+   "texte": "I had high hopes because of its popularity and several friends recommended it. I try it, and it makes my skin so damaged, burns, and honestly is so stripping. My skin was so irritated. It says it doesnt strip ur skin, leave it tight, and that its for sensitive skin, but this all was not the case for me. Save useless and do not buy.",
+   "date": "2026-07-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "KensyH",
+   "titre": "Not suited for all individuals with sensitive skin",
+   "texte": "While this product effectively lathers and cleanses, its daily use proves to be overly stripping and tightening for my sensitive skin. The clean, soapy scent also contributed to skin irritation.",
+   "date": "2026-04-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "LorenaM",
+   "titre": "Cleaned face for sensitive skin",
+   "texte": "I am very happy with this Cetaphil face cleanser. My skin it's normally dry and prone to be red. It is a daily routine for mine. It's affordable and does the job well! My face feels clean and it doesn't leave it dried out. Has no scent which I love because I don't need extra chemicals in it for my face. The consistency is on the liquid side but doesnt really make a difference to me as long as I can rinse it off well off my face.",
+   "date": "2026-02-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "MonaP",
+   "titre": "Affordable, gentle and gets the job done",
+   "texte": "Gentle, safe a dermatologist approved. I love that I can use this on my aging skin and my teenager can use it on acne prone skin and not have further outbreaks. If you're looking for a gentle cleanser, you don't need to spend an arm and a leg.",
+   "date": "2026-08-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "AlyssaW",
+   "titre": "Cetaphil is my long-term pick for cleanser",
+   "texte": "Cetaphil has been my go to facial cleanser for years. After a brief period of switching to the gentle formula, I'm back to my true love, the daily facial cleanser. Cetaphil has been great for my combination skin. It helps prevent my acne breakouts (which I had much more of on the gentle formula), while not drying out my skin too much. It has a slight clean smell, which I love as someone who cannot handle strong fragrances. It also lasts a long time, I only need one pump of product to wash my face. When paired with a good moisturizer, your skin will look nice and fresh and feel ready for the day.",
+   "date": "2026-02-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "NaidaG",
+   "titre": "It's amazing",
+   "texte": "Cetaphil for oily skin (Daily Facial Cleanser) is a gentle facial cleanser that helps remove excess oil, dirt and residues accumulated on the skin without drying out too much. It is good for daily use because it leaves the skin cleaner and with less shine, helping to remove traces of pollution, sweat and part of the sunscreen or impurities of the day. It is not a treatment for acne or for strong problems ofcleaner and with less shine, helping to remove traces of pollution, sweat and part of the sunscreen or impurities of the day. It is not a treatment for acne or for strong problems of blackheads, but it works well to keep the skin balanced on a daily basis. It is a basic and safe option if you are looking for a gentle but effective cleaning for mild or moderate oily skin.",
+   "date": "2026-04-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "CarrieL",
+   "titre": "Gentle and effective",
+   "texte": "I live in dry climate so am always on the search for products that work well to cleanse without over drying my skin. The search stops here! This cleanser removes makeup, oil, and the grime of the day without stripping down the skin barrier.",
+   "date": "2026-03-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

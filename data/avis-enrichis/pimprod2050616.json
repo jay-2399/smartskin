@@ -1,0 +1,149 @@
+{
+ "ref": "pimprod2050616",
+ "asin": null,
+ "pid": "pimprod2050616",
+ "source": "ulta",
+ "nom": "RODAN + FIELDS Redefine Daily Clay Face Cleanser",
+ "note": 4.85,
+ "nbAvis": 2420,
+ "lus": 62,
+ "collectes": 64,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin, including one whose skin turns red at the slightest irritant and one in her 60s with fair, freckled, sensitive skin, report the cleanser leaves their skin clean and smooth without redness or irritation, unlike other exfoliating products they have tried.",
+  "mature": "Reviewers in their 60s describe this daily light exfoliation as making the biggest difference in their skin quality of anything they have tried, consistent with the Redefine line's positioning for aging skin."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers report the cleanser does not dry out their skin, with one long-time user saying her skin is now never dry; however, one reviewer reports her skin became very dry after starting this product and plans to switch back to a different cleanser in the line.",
+  "redness": "Reviewers with easily reddened, sensitive skin specifically report no redness reaction from this cleanser, unlike other exfoliating products they have used.",
+  "blemishes": "A couple of reviewers note the cleanser does not cause breakouts, with one saying she hardly breaks out since using it."
+ },
+ "aspects": [
+  {
+   "libelle": "Doubles as a daily wash and weekly mask",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gritty texture provides noticeable exfoliation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Removes makeup thoroughly, no residue",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount needed, tube lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Has not been reformulated, unlike some other R+F products",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Wished by one reviewer to be creamier",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Shipping or postage delays reported by one reviewer",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Shirley M",
+   "titre": "Bummer",
+   "texte": "My skin has been very dry since I started using this product. It also does not provide the same exfoliation as does the Reverse cleanser. I will definitely be switching back.",
+   "date": "2025-12-25",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "ANNIE Z",
+   "titre": "The Redefine Daily Clay Cleanser",
+   "texte": "The Redefine Daily Clay Cleanser is a gentle yet effective way to clear impurities from my pores. I feel comfortable using it every day, leaving it on for just a few minutes before rinsing. My skin is extremely sensitive—it turns red at the slightest irritant—yet this cleanser leaves it smooth, clean, and more even‚Äëtoned. I highly recommend the Redefine Daily Clay Cleanser for all skin types.",
+   "date": "2026-03-22",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kathy B",
+   "titre": "Great product for sensitive skin",
+   "texte": "This product leaves my skin feeling and looking clean with no redness reaction like I get from other exfoliating products. I am 60 + years old with fair / freckled sensitive skin, so this is a winner!",
+   "date": "2025-11-30",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Gina",
+   "titre": "Most definitely recommend",
+   "texte": "I was looking for something to clwan my face and this worker recommended me this, i can't explain how much i love this product and will continue using. My face is smooth and i hardly break out.",
+   "date": "2025-12-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Linda L",
+   "titre": "Fantastic exfoliating cream",
+   "texte": "I have been using your products for more than 15 years. My daughter is a consultant & it make it so easy to receive my products. My skin is now never dry & very healthy looking.",
+   "date": "2025-12-12",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Candi N",
+   "titre": "Great",
+   "texte": "Of all the skin regimes this cleanser and light, daily exfoliation makes the biggest difference in my skin quality. I'm 62 and have tried a lot of things. So simple.",
+   "date": "2025-12-11",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Sandra D",
+   "titre": "Favorite cleanser on the market",
+   "texte": "Favorite cleanser on the market by far. It never makes my skin break out and it really gets deep down clean.",
+   "date": "2026-03-16",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

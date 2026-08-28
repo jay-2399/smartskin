@@ -1,0 +1,157 @@
+{
+ "ref": "pimprod2042849",
+ "asin": null,
+ "pid": "pimprod2042849",
+ "source": "ulta",
+ "nom": "TULA H2Oasis Instant Skin Reviving Mask",
+ "note": 4.42,
+ "nbAvis": 52,
+ "lus": 39,
+ "collectes": 39,
+ "segments": {
+  "oily": "One reviewer with oily skin reports it works well as a nightly moisturizer and has transformed her skin.",
+  "dry": "Reviewers with dry skin, including one managing psoriasis, report the mask absorbs quickly and leaves skin hydrated and soft, with one noting she often needs a second layer since her skin drinks it in so fast; one reviewer with dry and sensitive skin, however, found it absorbed so completely within 5 minutes that it felt like a regular gel moisturizer rather than a mask.",
+  "sensitive": "Reports from reviewers with sensitive skin are sharply divided: some say it instantly burned, turning their skin red and inflamed, including one who returned it and warns it isn't for delicate skin, while others with self-described very sensitive skin report zero reaction and no redness; two reviewers who say they do not normally have sensitive skin also report instant burning, redness and inflammation."
+ },
+ "concerns": {
+  "dehydration": "The overwhelming majority of reviewers report strong, fast-absorbing hydration, with several needing only one use to notice smoother, plumper, more hydrated skin; a couple of reviewers, however, found it absorbed so completely and quickly that it did not feel like a distinct mask step, and one found it became sticky once it dried rather than staying hydrating.",
+  "redness": "One reviewer reports it helps with redness and another notes no redness at all after use; this contrasts with the smaller group who experienced burning and redness as an adverse reaction (see barrier).",
+  "barrier": "Several reviewers report the mask instantly burned their skin, leaving it red and inflamed, including two who say they do not normally have sensitive skin and one whose sister had the same reaction; many other reviewers, including some with sensitive skin or psoriasis, report no irritation at all, and one reviewer's brief irritation calmed down within minutes.",
+  "blemishes": "One reviewer flagged an ingredient as not typically recommended for acne-prone skin using a third-party ingredient-checking app, but reported no issues after using the mask anyway.",
+  "oiliness": "One reviewer with oily skin reports the mask works well as a nightly moisturizer without complaint of excess oil, though this is the only reviewer to describe her skin as oily."
+ },
+ "aspects": [
+  {
+   "libelle": "Cooling sensation, especially chilled first",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gel texture surprises those expecting a cream mask",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains glitter or shimmer particles, divisive",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Can turn sticky or tacky as it dries",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Mess-free applicator, no need to use hands",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Hard to get all the product out of the cap",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Carah",
+   "titre": "Burned my skin",
+   "texte": "This product burned my face the second that it touched my face. Prior to application, I was put off that the consistency is a gel. It felt gross to the touch. Personally, I also disliked that there is a fine glitter material in the mask. The glitter seems unnecessary and doesn't give the feel of a luxurious, moisturizing mask in my opinion. I absolutely returned this product & do not suggest it. I have sensitive skin, this isn't for anyone with delicate skin.",
+   "date": "2024-03-20",
+   "verifie": false,
+   "utiles": 31,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "J",
+   "titre": "Instantly Burned",
+   "texte": "I was excited to use this, however this was a big let down. I do not have sensitive skin at all and when I put the mask on my face - it instantly burned. Got red and inflammed. My sister also gave this product a go and irritated her skin as well.",
+   "date": "2025-02-09",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "puglover05",
+   "titre": "had high hopes",
+   "texte": "I was very excited to finally try this. When I bought it there were 0 reviews. I have dry and sensitive skin. Unfortunately this just felt like a typical gel moisturizer and not like a mask. My skin sucked it up like it was nothing. Within 5 minutes it didn't even feel like I had put anything on. I returned this. I have plenty of regular moisturizers that perform just as well if not better than this. Especially for this supposed to be a mask.",
+   "date": "2024-03-03",
+   "verifie": false,
+   "utiles": 20,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Happily Hydrated",
+   "titre": "Pleasantly surprised",
+   "texte": "Ive always been a little turned off by the heavy influencer marketing Tula does, but when I saw a tiktok ad for this product I was attracted to the application and benefits they claimed. I also ran it through my \"Acne Safe\" app and saw there was one ingredient that wasnt safe for acne proven skin, but i tried it anyway. Ive used it twice and am very happy with the results. It really is like a cold plunge for your face. Its so nice how easy and mess-free it is. I like to put this on before bed and sleep in it. I wake up feeling dewy and hydrated.",
+   "date": "2024-02-10",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Quillon O.",
+   "titre": "Awesome!",
+   "texte": "I LOVE this product! MY skin is super sensitive, so I was expecting a reaction… absolutely none! I can tell where my skin is the most dry, it absorbs quickly. I prefer to take off the mask, gently, with a washcloth. I'm using this about once a week when my skin starts to feel a bit rough and dry. Plus no weird redness after using.",
+   "date": "2024-01-12",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Denise",
+   "titre": "Surprising Find!",
+   "texte": "I have dry skin with psoriasis. This product didn't trigger my flareups and left my skin feeling hydrated and cool to the touch. I would still put a moisturizer on top of this if you have very dry skin, but on the days when I had no flareups, it would feel more than enough to leave on by itself.",
+   "date": "2025-03-15",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Undisclosed",
+   "titre": "Perfect for my oily skin!",
+   "texte": "Perfect for my oily skin! I use this every night as a moisturizer! It's transformed my skin!!",
+   "date": "2024-05-13",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

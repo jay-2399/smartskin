@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2028056",
+ "asin": null,
+ "pid": "pimprod2028056",
+ "source": "ulta",
+ "nom": "Drunk Elephant D-Bronzi Anti-Pollution Bronzing Drops with Peptides",
+ "note": 4.55,
+ "nbAvis": 1860,
+ "lus": 72,
+ "collectes": 114,
+ "segments": {
+  "combination": "The two reviewers who identify as having combination skin diverge: one, who runs oily in her T-zone during summer, finds the formula turns slightly greasy after a few hours of wear, while the other has used it for years without it clinging to dry patches or looking shimmery or fake.",
+  "mature": "The one reviewer who mentions her age, in her late 40s, chose this over a powder bronzer specifically because it does not settle into her fine lines the way powder does."
+ },
+ "concerns": {
+  "aging": "A few reviewers connect the product to aging-related concerns: one in her late 40s picked it over a powder bronzer because it does not settle into fine lines, another reports an improvement in her skin's elasticity after daily use mixed with a facial oil, and one says she is hoping, though has not yet confirmed, that the peptides will fade her fine lines and dark spots over time.",
+  "dehydration": "Reviewers consistently describe the product as hydrating rather than drying, several noting it does not dry out the skin and leaves it feeling smoother, softer, or more plump; no reviewer reports a drying effect.",
+  "barrier": "One reviewer credits the peptide and antioxidant blend with suiting her skin barrier well; no other reviewer discusses barrier effects specifically.",
+  "spots": "A couple of reviewers say their complexion looks more even after repeated use, and one is hoping the peptides will fade dark spots over time, though she has not yet confirmed a result.",
+  "blemishes": "Most reviewers who address breakouts report none, including two who specifically note it did not cause any; one reviewer, however, says it made her break out terribly and felt too expensive for the trouble.",
+  "oiliness": "Most reviewers describe the formula as lightweight and not greasy, even over makeup; one reviewer with an oily T-zone is the exception, finding it turns a little greasy after wearing it for a few hours in that area."
+ },
+ "aspects": [
+  {
+   "libelle": "Noticeable, off-putting scent for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Blends seamlessly, no orange or fake-tan look",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way, bottle lasts",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Buildable, customizable intensity",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can look patchy when applied over makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Dries down matte rather than shiny",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Some find the color payoff underwhelming",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Jo",
+   "titre": "Breakout",
+   "texte": "Color was great, but this made me breakout terribly. Too expensive to cause skin issues!",
+   "date": "2025-10-20",
+   "verifie": false,
+   "utiles": 4,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "LysNC",
+   "titre": "Looks great smells terrible",
+   "texte": "I mixed the product with my moisturizer and gave me a sunkissee glow. Unfortunately it smells like rancid oil. Ended up returning because i thought it had gone bad but i think it may just be the way it smells.",
+   "date": "2025-12-16",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Macie",
+   "titre": "Great bronzing drops",
+   "texte": "These are the perfect bronzing drops, especially to use during the summer! It mixes perfectly with my moisturizer and blends into my fairly pale skin wonderfully. The only drawback is I have combo skin and can tend to be oily in my t zone and forehead especially in the summer months and unfortunately this formula feels and looks a little greasy after wearing it for a few hours. Other than that, i love it! Gifted by drunkelephant",
+   "date": "2025-05-21",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melissa",
+   "titre": "Natural glow without the weight!",
+   "texte": "I love this liquid bronzer! I bought it on a whim during one of the 21 Days of Beauty sales & I have been really impressed by this product! I mix a small amount with whatever serum or moisturizer I'm using & it goes on flawlessly without streaking. As I've gotten older (late 40s) I've become a lot pickier about my makeup. Foundations feel \"heavy\" & thick now and I hate the way foundation plus a powder bronzer \"settles\" into fine lines throughout the day. But also need something to give my complexion a little boost in color. This bronzer fits my aging skincare needs!",
+   "date": "2026-01-09",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nat",
+   "titre": "The perfect glow!",
+   "texte": "Gifted by drunkelephant Absolutely love the instant glow! The Drunk Elephant D-Bronzi drops give off the perfect amount of bronzer. I have been mixing it daily with Marula and have seen an improvement in my skin's elasticity!",
+   "date": "2025-05-22",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Danielle",
+   "titre": "Love these drops",
+   "texte": "I love these bronzing jobs i've actually been using these bronching drops for several years, and they're just an absolute must have for a sun kissed look. I have combination skin and these drops. Do really well at mixing it with my moisturizer and not sticking to dry patches or making my face look shimmery or fake . Gifted complimentary from drunk elephant.",
+   "date": "2025-05-16",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marina",
+   "titre": "My favorite bronzer drops",
+   "texte": "Gifted by drunkelephant. I been using these drops so much lately, I love to add a couple drops to my serum or moisturizer and my skin glows like a star, I absolutely love the color of the bronzer, it doesn't gives me the orange look, just the natural and radiant bronzer. The best part are the ingredients, perfect for my skin barrier.",
+   "date": "2025-05-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,158 @@
+{
+ "ref": "pimprod2007109",
+ "asin": null,
+ "pid": "pimprod2007109",
+ "source": "ulta",
+ "nom": "The Ordinary Caffeine Solution 5% + EGCG Depuffing Eye Serum for Dark Circles",
+ "note": 3.77,
+ "nbAvis": 1911,
+ "lus": 81,
+ "collectes": 107,
+ "segments": {
+  "sensitive": "Self-described sensitive-skin reviewers are split: two explicitly warn other sensitive-skin users away from the product after experiencing burning, irritation, dryness, and peeling, while one with extremely sensitive skin says it works perfectly and does not irritate her at all.",
+  "normal": "Two reviewers who describe their skin as normal, not sensitive, report the serum caused unexpected burning, bright redness, and tenderness under the eyes despite never having reacted to a skincare product before."
+ },
+ "concerns": {
+  "aging": "Most reviewers report reduced puffiness, firmer-looking skin, and softer fine lines, some noticing a difference within days, especially with consistent day-and-night use; a substantial number report no change at all, and a few say their puffiness or wrinkles looked worse after using it.",
+  "dehydration": "Several reviewers say the serum hydrates without feeling greasy; others report the opposite, describing dryness, tacky tightness, or peeling skin around the eyes, particularly with regular use.",
+  "redness": "A number of reviewers report the serum caused sudden redness, irritation, or rashes around the eyes, in some cases immediately after the first application; others, including some using it daily for years, report no irritation and even reduced redness.",
+  "spots": "Many reviewers report visibly lighter or less noticeable dark circles, sometimes within days and particularly with consistent twice-daily use; a large number of others report no improvement at all, and a couple say the product's tint or texture made their under-eyes look darker.",
+  "blemishes": "Two reviewers report the serum triggering breakouts, one developing milia under her eyes within two days and another breaking out on her cheeks."
+ },
+ "aspects": [
+  {
+   "libelle": "Can trigger eye twitching for some users",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Feels sticky or tacky on skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Very affordable, lasts a long time",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle top can get messy or stuck",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling effect, better if chilled",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Easy to overapply, causing white pilling",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Bad allergic reaction",
+   "titre": "Bad formula/eyes badly swollen",
+   "texte": "Its weird bc I used to use this on my eyes daily. Then suddenly like other people are saying my eyes started to swell up and I had to manage for days with benadryl and hydrocortisone cream. Its so embarassing. Not sure if the formula changed or I just developed an allergy but others saying the same exact thing is NOT good.",
+   "date": "2024-11-07",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Jv",
+   "titre": "Do not buy it",
+   "texte": "If you have sensitive skin DO NOT BUY this, it burns and irritates",
+   "date": "2026-04-03",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Bekah",
+   "titre": "Don't get if you have sensitive skin!!",
+   "texte": "I dont consider myself to have sensitive skin, as Ive never had a reaction to anything before, but this will make the first! Ive applied it every day for a couple days and it burned each time but I thought maybe that was normal. Then after maybe a week, I noticed dry patched around my eyes and peeling skin, and my skin was very tender. I also dont see a difference in my puffiness or eye bags. I love the Ordinary but this was a miss for me…",
+   "date": "2025-11-25",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration",
+    "aging"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Ash",
+   "titre": "Ouch !",
+   "texte": "I used this maybe twice and both times it turned my under eyes bright red and tender to the touch. I looked like i had red under eye patches on . Im unsure what caused this as ive never had a reaction to a skin care product like this. I wouldnt call my skin sensitive it's normal. I worry what this will do to someone with sensitive skin. Use with caution.",
+   "date": "2025-11-30",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "normal",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Daniela",
+   "titre": "works but not for me",
+   "texte": "This product does what it says, depuffs the eye bags and brightens. Unfortunately im prone to milia under my eyes and after 2 days of using this in the morning I had a lot of milia pop up.",
+   "date": "2026-03-01",
+   "verifie": false,
+   "utiles": 10,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "L.C.",
+   "titre": "Glad my girlfriend recommended to me",
+   "texte": "I'm not an influencer, but I do have a little community of people that have been following me for a very long time. I do live a pretty fun life and I can be a little bit wild at heart. So I always try to share with my friends products that I'm trying food, etc. one of my high school friends shared with me that she uses the caffeine eye serum and being that the ordinary products that I had were working so well for my extremely sensitive skin I thought I would give it a try I just received an email saying that they came out with the serum for the face. I had already been adding it to my face and my under eyes so I look forward to trying out the face caffeine serum. I'm 45 with extremely sensitive skin and I have tried tons of products that say therefore sensitive skin and I know ordinary doesn't necessarily state that's for sensitive skin, but it works really well and pairs perfectly with my skin type",
+   "date": "2026-05-20",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sol",
+   "titre": "Reduces puffiness and refreshes the eye contour",
+   "texte": "This serum has helped me a lot with the eye swelling in the morning. It feels light, absorbs quickly and leaves the contour area cooler and less inflamed. I have noticed a gradual improvement in my dark circles and the skin looks more rested with constant use. It doesn't irritate or burn, even applying it every day. It works well before makeup and leaves no residue. For the price, I think it's a great option if you're looking for something that really helps with bags and eye fatigue.",
+   "date": "2025-12-03",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "spots",
+    "aging",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

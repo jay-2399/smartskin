@@ -1,0 +1,148 @@
+{
+ "ref": "pimprod2035162",
+ "asin": null,
+ "pid": "pimprod2035162",
+ "source": "ulta",
+ "nom": "DIME Super Skin Toner with Witch Hazel + CoQ10",
+ "note": 4.87,
+ "nbAvis": 3004,
+ "lus": 75,
+ "collectes": 77,
+ "segments": {
+  "oily": "One reviewer whose skin tends to get slightly oily and congested in warmer months finds this toner refreshing without irritating or clogging her pores.",
+  "dry": "One reviewer with dry, sensitive skin reports it leaves her face feeling soft and smooth.",
+  "sensitive": "Reviewers with sensitive skin, including one prone to rosacea and one with sensitive, acne-prone skin, report no irritation, stinging, or breakouts."
+ },
+ "concerns": {
+  "dehydration": "Reviewers overwhelmingly report the toner hydrates rather than dries the skin, describing it as fresh, soft, and never tight, with several specifically contrasting it to older toners that dried out or stung their skin; no reviewer reports a drying effect from this product.",
+  "redness": "One reviewer reports the toner worked wonders for her redness, and another with rosacea-prone sensitive skin reports it never irritates or triggers her skin.",
+  "blemishes": "Many reviewers report visible improvement in acne, blackheads, and pore appearance with consistent use, including one whose blackheads cleared around the chin but only partly improved on the nose; one reviewer noticed her skin worsened again after pausing use to save money.",
+  "oiliness": "One reviewer whose skin tends to get slightly oily and congested in warmer months found the toner refreshing and non-clogging, though this is the only reviewer to describe her skin as oily.",
+  "spots": "One reviewer reports the toner helped with both her acne and hyperpigmentation, though this is the only reviewer to mention pigmentation directly."
+ },
+ "aspects": [
+  {
+   "libelle": "No sting or burn, unlike older toners",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Bottle empties quickly for frequent users",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cap or travel plug prone to leaking or fiddly",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Light, refreshing feel that layers well under serums",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Clean, esthetician-formulated ingredient list valued",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reasonably priced for the routine",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Mimi",
+   "titre": "Short Lasting",
+   "texte": "Though I do love the feel and light scent, I was disappointed in the amount in the bottle. It certainly did not seem like the amount of liquid fit the visual size of the bottle. Let's just say that it only lasted three weeks. I will go back to Klairs as it felt eaqually nice, and lasted a couple of months (at least).",
+   "date": "2025-07-31",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Melanie C.",
+   "titre": "only toner I like",
+   "texte": "I actually really enjoyed using this toner in the warmer months, my skin tends to get slightly oily & congested, this was so nice and refreshing to use. I'm currently on my clean beauty journey too I love that this brand is not only clean but made by an esthetician so I know it won't irritate or clog pores!",
+   "date": "2026-02-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "AC N.",
+   "titre": "TONER IS TONING",
+   "texte": "This toner has helped with the pores around my T-zone especially! It cleared up the blackheads around my chin and it didn't get rid of the ones on my nose but it did make them much much better!",
+   "date": "2026-04-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amy T.",
+   "titre": "Great for Sensitive skin!",
+   "texte": "I am always concerned about irritating my rosacea prone sensitive skin. None of the Dime products have done that! I will repurchase. Makes my skin feel refreshed and clean.",
+   "date": "2025-07-18",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Heather b.",
+   "titre": "Good Toner",
+   "texte": "A good toner without all of the harmful ingredients. I even have sensitive, acne prone skin and so far, it has not broken me out at all.",
+   "date": "2026-05-14",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Autumn B.",
+   "titre": "LOVE LOVE LOVE",
+   "texte": "Has worked wonders for redness in my skin and has helped clear up breakouts!",
+   "date": "2026-04-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Melanie W.",
+   "titre": "Great product",
+   "texte": "I have dry sensitive skin and this leaves my face feeling soft and smooth!",
+   "date": "2026-02-04",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

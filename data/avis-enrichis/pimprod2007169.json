@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2007169",
+ "asin": null,
+ "pid": "pimprod2007169",
+ "source": "ulta",
+ "nom": "Hanskin Pore Cleansing Oil - AHA",
+ "note": 4.49,
+ "nbAvis": 97,
+ "lus": 80,
+ "collectes": 94,
+ "segments": {
+  "dry": "Dry-skin reviewers are the largest group and mostly very positive, many saying it is the first oil cleanser that hydrates rather than strips their skin, especially in colder months; against that, one reviewer found it dried her skin like paper and another says that despite the dry-skin marketing, it dried her out so much it left red bumps and, she believes, damaged her barrier.",
+  "oily": "The few reviewers who mention oily skin are mixed: one whose skin is oily found the dry-skin marketing did not match her experience and was put off mainly by the scent, while another who describes her skin as both oily and dry says it worked perfectly without over-drying.",
+  "combination": "Combination-skin reviewers are consistently positive, several saying it resolved dry patches around the brows and nose or cleared clogged pores without triggering the breakouts they expected.",
+  "sensitive": "Sensitive-skin reviewers are sharply split: several report redness, small bumps or a worsening reaction, in one case building up over weeks until even her regular cleanser started to sting, with the fragrance repeatedly named as the likely trigger; others with sensitive skin, including some who are also acne-prone, report no irritation and even improved breakouts.",
+  "mature": "The one reviewer who gives her age, 49, describes her combination-dry, congestion-prone skin as responding well, with better product absorption afterward."
+ },
+ "concerns": {
+  "dehydration": "The large majority, including many who specifically have dry skin, report the opposite of what a drying formula would do: hydrated, soft, non-tight skin, especially valued in cold weather; a clear minority disagree, including one whose skin felt like paper after two weeks and another who developed dry patches over time despite an initially good experience.",
+  "blemishes": "Reports split both ways: several reviewers, including some who are usually acne- or breakout-prone, say it caused no new breakouts and even helped clear existing acne or breakouts; others, including one who says she never breaks out this badly, report new bumps or worse breakouts within days of starting.",
+  "redness": "The reviewers who mention redness all report it negatively: small red bumps forming within days, and in one case redness that got progressively worse over weeks; no reviewer in this set reports redness improving.",
+  "barrier": "One reviewer explicitly attributes new red bumps to the product damaging her skin barrier; another describes a similar pattern of her skin becoming progressively more reactive with continued use, to the point her regular cleanser began to sting.",
+  "oiliness": "Most reviewers say it rinses away cleanly without leaving an oily residue, including one who normally avoids oil cleansers for that reason; one reviewer is the exception, noting it leaves a slight oily film that she follows with a foaming cleanser.",
+  "spots": "Two reviewers with acne scarring say their marks started fading noticeably within a couple of weeks of regular use; no reviewer reports new spots or discoloration."
+ },
+ "aspects": [
+  {
+   "libelle": "Citrus, lemongrass scent liked by most",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance strong enough to irritate some",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Gentle on the eyes, does not sting",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Needs several pumps for full makeup removal",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle, strong value for the price",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump or nozzle can be messy",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Struggles with waterproof mascara for some",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Abdela",
+   "titre": "Oil removes oil",
+   "texte": "I ordered these oil almost 2 weeks back and I regret it، my skin feel like paper sooo drying formula definitely not for dry skin.",
+   "date": "2021-02-23",
+   "verifie": true,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "April",
+   "titre": "I like it but I also don't",
+   "texte": "I could only use this for 3 days before i had to stop. This one claims to be for dry skin, but it dried my skin out so much and i noticed little red bumps forming. I think from it damaging my skin barrier. Ill go back to using my good molecules cleansing balm daily and just using this maybe once a week to deep clean. If your skin isnt as sensitive this would probably be a great product. It does clean the pores out so good. You can see the dirty and grossness come out on your hands. Just not the best for sensitive skin. But every week or 2 i think ill use it.",
+   "date": "2024-06-17",
+   "verifie": false,
+   "utiles": 14,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Trish",
+   "titre": "Bummer",
+   "texte": "I was so excited when this came in the mail for me. I usually double cleanse and I've been looking for the perfect oil cleanser. However, this one broke me out :( I never broke out this bad, my forehead has texture now with little bumps. Its been 2 weeks, so Im not sure if my skin is just purging and getting used to the product before it does its magic, other factors could've played too (digestion problems, bad sleeping schedule,etc)",
+   "date": "2020-09-03",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Emmvo",
+   "titre": "I'm really enjoying this oil cleanser",
+   "texte": "I really enjoy this oil cleanser. It easily removes all my makeup and sunscreen, and I usually apply 2-4 layers of sunscreen every day. It rinses clean and doesn't leave any weird residue. I use this as the second step on my cleansing routine, and follow up with a gentle non foaming water based cleanser. For reference, I have dry, sensitive, and acne prone skin. This has not caused any further breakouts and I think this, in combination with the other products in my routine, have helped heal my breakouts and prevent new ones from forming. I think this is a good value for the money because the bottle is huge and I only need one pump per day, so it has lasted me a really long time.",
+   "date": "2020-10-09",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Jill",
+   "titre": "SOOO GOOD but there's a catch",
+   "texte": "I've used an entire bottle of this and it lasted 4 months. I have combination, acne prone, sensitive skin and I wear spf, concealer, powder, bronzer, etc and eyeliner and mascara and it takes it all off. You can definitely feel your skin being exfoliated, my skin was so soft after the first wash. Also, it doesn't leave a film after it emulsifies. However my skin is generally sensitive and it became more sensitive after this. My redness got worse, I started getting dry patches, and my normal cerave hydrating cleanser started to sting. I thought it was because of the change in seasons but after I stopped using this my skin started to get better. I wouldn't recommend if you have sensitive skin.",
+   "date": "2020-04-24",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Beezzy Bee",
+   "titre": "good match for the dry skin",
+   "texte": "This is the second oil cleanser I'm trying from Hanskin and it's quickly become one of my favorites in my night time rotation. The first oil cleanser I tried from Hanskin was PHA oil cleanser and I really liked it. This AHA oil cleanser works just as good at removing all traces of my make up, however, it does need the foam cleanser to follow as the second step of the cleansing process, where as I feel the PHA oil cleanser doesn't. This AHA cleanser feels a bit heavier as I work the product on my skin but at the same time, very luxurious and cushioning for my dry skin. I found my skin to be bright and fresh after using this oil cleanser and I really liked that my skin didn't feel tight after. I'm definitely going to keep this cleanser in my skin care rotation but I think this AHA oil cleanser might be my \"go-to\" oil cleanser for the cooler months. I highly recommend this cleanser for anyone with dry skin.",
+   "date": "2020-08-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nikki",
+   "titre": "Combo skin, but it works well",
+   "texte": "I have combo skin and have been using this for the past week now. I already saw good results within 2 days. My skin was soft and felt so clean and the next morning I noticed my acne scars already starting to fade. I started to use it with the ordinary niacinamide + zinc and it does wonders for my acne and textured skin.",
+   "date": "2020-08-04",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "spots",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,146 @@
+{
+ "ref": "pimprod2058110",
+ "asin": null,
+ "pid": "pimprod2058110",
+ "source": "ulta",
+ "nom": "Dr. Melaxin Peel Shot Exfoliating Black Rice Ampoule",
+ "note": 4.12,
+ "nbAvis": 17,
+ "lus": 16,
+ "collectes": 16,
+ "segments": {
+  "combination": "Reviewers with combination, sensitive skin report it helps with blackheads and pore size while leaving skin soft and non-irritating, used about twice a week.",
+  "sensitive": "Reports from reviewers with sensitive skin are mixed: several with rosacea or sensitive, combination skin report gentle, non-irritating results and effective blackhead removal after just one or two uses, but one reviewer's skin turned red and scabbed over and she explicitly warns against using this on the face if you have sensitive skin, suggesting it may be better suited to the body."
+ },
+ "concerns": {
+  "dehydration": "One reviewer reports the treatment left her face very dry and burning; another with a chronically dry nose reports the opposite, that a single use wiped away the dry, flaking skin and left her nose soft and glowing instead.",
+  "redness": "Two reviewers report the product left their skin red, scabbed, and burning, with one saying even moisturizer stung afterward; by contrast, reviewers with rosacea or sensitive skin who used it gently report no irritation at all.",
+  "barrier": "Two reviewers describe a scab-like, burning reaction with visible skin damage after use, while other reviewers, including two with rosacea, report the same product caused no irritation when applied gently and briefly.",
+  "blemishes": "Most reviewers report the product physically pulls out stubborn blackheads, in several cases clearing spots that had resisted other treatments for up to a year, sometimes after a single use; two reviewers, however, say it did nothing at all and suspect the dark residue is just pigment from the product itself rather than extracted debris."
+ },
+ "aspects": [
+  {
+   "libelle": "Skepticism the black residue is real debris, not product pigment",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Hype exceeds real results for some users",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and glowing after use",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fast-acting, sometimes within seconds",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Requires very gentle, brief application to avoid irritation",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Suzanne",
+   "titre": "Gimmicky and Not Worth It",
+   "texte": "I don't think this actually does anything. The black stuff coming off is just the black stuff from the product, not from the blackheads.",
+   "date": "2026-08-07",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "SleepyLayla",
+   "titre": "I probably wouldn't buy this again or recommend it",
+   "texte": "I heard all about this infamous peel shot, and to be honest it did take off my dead skin, and I think some of my blackheads. Sadly, though it made my face feel like a scab if that makes any sense and it burnt afterwards, even when I tried to put on my moisturizer. It made my face feel very dry afterwards. If it works for you, hallelujah, but it's sadly did not for me.",
+   "date": "2026-03-05",
+   "verifie": false,
+   "utiles": 26,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "barrier",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Jessica",
+   "titre": "Not For Sensitive Skin",
+   "texte": "Left my skin red and scabbed over. I would not recommend if you have sensitive skin. I would probably recommend this more as a body shot, rather than for your face.",
+   "date": "2026-07-02",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Megan",
+   "titre": "So so IMPRESSED",
+   "texte": "I have the worst t zone when it comes to dryness. I have a a constant dry nose and once i used this magic in a bottle…gone. It literally wiped away all of my dead skin and more and left my skin glowing and soft. I get excited more to do my skincare because of this product! It is literally magic and I will never stop using it!!!",
+   "date": "2026-02-14",
+   "verifie": false,
+   "utiles": 16,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Trina",
+   "titre": "Definitely keeping this one stocked",
+   "texte": "Absolutely love. I have had Rosacea for years and Dr. Melaxin products are amazing for it! Most exfoliating products make it worse, but this one is invasive without causing irritation. seriously, You won't regret it!",
+   "date": "2026-05-09",
+   "verifie": false,
+   "utiles": 13,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nancy",
+   "titre": "Really good for sensitive skin!",
+   "texte": "I have rosacea and sensitive, combo skin overall. I use this primarily for the blackheads on my nose and next to it, and ive gotten amazing results after only two uses! I wash my face, dry it, use the product on the areas i want, and rub GENTLY for a little less than a minute and follow thru with washing it off with warm water. Ive used it 2 days apart from each other and have gotten amazing results.",
+   "date": "2026-07-16",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kytkat",
+   "titre": "Great part of my routine",
+   "texte": "My skin is combination and sensitive. This helps with the blackhead and pore size. Leaves skin soft and is nonirritating. I use it twice a week to help keep my skin clean.",
+   "date": "2026-08-08",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "With only 16 of 17 reviews available and directly conflicting reports on how sensitive skin reacts, from no irritation to redness and scabbing, this is too small a sample to say confidently which reaction is more typical."
+}

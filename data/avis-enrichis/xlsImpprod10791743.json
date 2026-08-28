@@ -1,0 +1,154 @@
+{
+ "ref": "xlsImpprod10791743",
+ "asin": null,
+ "pid": "xlsImpprod10791743",
+ "source": "ulta",
+ "nom": "Clinique Dramatically Different Moisturizing Lotion+ For Face",
+ "note": 4.5,
+ "nbAvis": 9330,
+ "lus": 80,
+ "collectes": 98,
+ "segments": {
+  "oily": "The one reviewer with oily skin reports it absorbs well without a greasy film, though she notes it does not control oil, so very oily skin may find it too dewy in summer.",
+  "dry": "Reviewers with dry to very dry skin overwhelmingly report significant relief from flakiness and tightness with regular use; one reviewer finds it excellent in winter but too heavy for her skin in summer.",
+  "combination": "The reviewers with combination skin report it works well year-round without leaving their skin greasy or oily.",
+  "sensitive": "Most reviewers with sensitive skin, including some using it for decades without a single reaction, report it as gentle and non-irritating. A real minority, however, report severe reactions, including red, itchy, burning rashes that in one case required urgent care, which they attribute to dyes in the formula.",
+  "mature": "Many reviewers who have used the lotion for decades, now in their 40s to 80s, report their skin looking noticeably younger than their age and credit consistent long-term use."
+ },
+ "concerns": {
+  "aging": "Many long-term users, some who have used the lotion for decades, report looking noticeably younger than their age and credit consistent use for it; one contrasts an aunt who has used it for years and has no wrinkles with a younger relative using a different moisturizer who does. This reads as a cumulative effect of consistent moisturizing rather than a specific anti-aging claim.",
+  "dehydration": "The large majority of reviewers, including many with dry or very dry skin, report significant, lasting hydration without heaviness or a greasy feel. A minority report the opposite: one felt it left a suffocating film on her skin along with burning, another found it did not hydrate at all, and one finds it too heavy specifically in summer.",
+  "redness": "A few reviewers report significant reactions: red, itchy, burning rashes serious enough in one case to require urgent care, and a rash in another, both citing dyes in the ingredient list. Most other reviewers, however, including some using it daily for decades, report no irritation at all.",
+  "barrier": "Several reviewers specifically credit the lotion with repairing or maintaining their skin barrier, including one who says it rescued her skin after a different moisturizer damaged her barrier, and another who broke out when she briefly switched to something else.",
+  "blemishes": "A few reviewers note it does not cause breakouts, including one who broke out when she briefly used a different moisturizer instead; this is not a major focus of most reviews.",
+  "oiliness": "Reviewers report the lotion absorbs without a greasy or oily finish; one reviewer with oily skin notes, however, that it does not actively control oil, so very oily skin may find it too dewy in summer."
+ },
+ "aspects": [
+  {
+   "libelle": "Built-in SPF 35 simplifies morning routine",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup without pilling",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Contains dyes some reviewers avoid",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Jumbo size sometimes arrives without its box",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Screw-on lid less convenient than a flip-top",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "lynn",
+   "titre": "Ruined my skin",
+   "texte": "skin has been covered in red, itchy, burning rashes after two uses. had to go to the walk in urgent care for relief, skin is still extremely dry and itchy",
+   "date": "2025-04-20",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Goergie",
+   "titre": "Really nice lotion for oily skin",
+   "texte": "As someone with oily skin, I was surprised by how well the Clinique \"Yellow Lotion\" worked for me. The texture looks a bit rich at first, but it absorbs quickly and doesn't leave a greasy film. It gives just the right amount of hydration without clogging pores, and it sits nicely under makeup. It doesn't control oil, so very oily skin might find it a bit too dewy in summer, but as a simple, reliable moisturizer, it's hard to go wrong with this one.",
+   "date": "2025-12-12",
+   "verifie": false,
+   "utiles": 12,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Brittany",
+   "titre": "The BEST!",
+   "texte": "This is by far the best face moisturizer I have ever used!! I have extremely dry skin and this has helped me tremendously! I will buy this again and again! It last all day! Do yourself a favor and buy this!! You will not be disappointed!",
+   "date": "2025-09-25",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marcia",
+   "titre": "Perfect for daily use!",
+   "texte": "I have used this product since I discovered Clinique when I was 22 years old. The 3-step regimen became part of my daily routine and 47 years later I still consider it the best skin care on the market. There is something about this moisturizer that has always complemented my skin care routine. I have added other items - including Moisture Surge products to my daily program- but this moisturizer is always the item I reach for first. If compliments mean anything - at 69 years old, I will take them - I've been told my skin tone and overall skin appearance is that of a woman in her early 40's. ❤️ Compliments are great and they are due to Clinique!",
+   "date": "2026-02-11",
+   "verifie": false,
+   "utiles": 15,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Joy",
+   "titre": "Love this moisturizer!",
+   "texte": "I use this moisturizer year round. I have combination skin and this is perfect for me. It doesn't leave my skin greasy or oily.",
+   "date": "2025-07-01",
+   "verifie": false,
+   "utiles": 6,
+   "peau": "combination",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "AndreaJ",
+   "titre": "Only moisturizer that works for my sensitive skin.",
+   "texte": "The perfect lotion to repair skin barrier that doesn't irritate my sensitive skin. My teenage daughter bought this and her skin looked so beautiful that I snuck in her room and tried it and have never looked back!",
+   "date": "2025-11-02",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Angela",
+   "titre": "I love this product in the winter...not much the summer",
+   "texte": "I really love this moisturizer for the winter! I get extremely dry skin and this helps so much! I used it everyday at night and my skin became less flaky with dry skin. For the summer, this moisturizer is a little too heavy for my skin. This is just my preference.",
+   "date": "2026-05-20",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

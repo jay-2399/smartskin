@@ -1,0 +1,125 @@
+{
+ "ref": "pimprod2053606",
+ "asin": null,
+ "pid": "pimprod2053606",
+ "source": "ulta",
+ "nom": "Dr. Althea Pure Grinding Cleansing Balm",
+ "note": 4.09,
+ "nbAvis": 11,
+ "lus": 11,
+ "collectes": 11,
+ "segments": {
+  "sensitive": "One reviewer with very sensitive skin reports no issues at all with this cleansing balm."
+ },
+ "concerns": {
+  "redness": "One reviewer switched to this balm because micellar water was irritating her skin, and reports it worked well without that irritation, provided she follows up with a cleanser and moisturizer.",
+  "blemishes": "Reports on breakouts directly conflict: one reviewer says it made her break out so much that she won't use it again, while another reports she never breaks out the next day when she applies this balm over her makeup before washing it off with a second cleanser."
+ },
+ "aspects": [
+  {
+   "libelle": "Hygienic pump dispenser, no finger-scooping",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Inconsistent at removing waterproof mascara",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Runs out fast or dispenser mechanism can break",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Some confusion over the correct double-cleanse technique",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Smooth, high-quality texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Reasonable, mid-range price point",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Alex",
+   "titre": "It didn't work for me",
+   "texte": "It madd me break out so much. It might help others but its not for me. I loved the relief cream but not the cleanser.",
+   "date": "2025-12-26",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "EJ",
+   "titre": "Love the packaging but it didn't take off my makeup.",
+   "texte": "I ended up returning this because it didn't remove my mascara, eyeliner, and powder bronzer with lukewarm or semi hot water. I've tried other items similiar but this wasn't it. I love their Barrier Cream and Vitamin C serum though!",
+   "date": "2025-12-02",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Lilly",
+   "titre": "It's GREATTTT",
+   "texte": "I love this cleansing balm!!!! Whenver i wear makeup and use this product the next day i never get any breakouts!! Again the way i use it is by applying the balm to my face with my makeup on THEN wash it off with my cleanser. I believe thats the best way to use it and i deffff reccomend",
+   "date": "2026-01-25",
+   "verifie": false,
+   "utiles": 8,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Syd",
+   "titre": "Fave cleansing balm",
+   "texte": "Ive tried a lot of K beauty and US cleansing balms and this is by far my favorite. It doesnt leave a film/residue and easily removes makeup and sunscreen. I also love the hygenic mechanism since I don't like scooping product with my fingers. I have very sensitive skin and my skin has had no issues with this product. The only thing it doesnt remove as well is waterproof mascara, but I've yet to find a cleansing balm that works as well as micellar water for that particular makeup product. So that's not a dealbreaker for me. Overall highly recommend!",
+   "date": "2026-07-08",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Lily",
+   "titre": "Yes",
+   "texte": "I was looking for an alternative to remove my makeup because micellar water was irritating me. It worked well for me but you need to follow it up with a cleanser and moisturizer",
+   "date": "2025-11-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "B",
+   "titre": "Get it",
+   "texte": "I've tried so many oil cleansers and balms. This one is the absolute best. It has a great dispenser that doesnt allow for cross contamination. It really gets everything off, even on a fulk beat, even with waterproof mascara.",
+   "date": "2026-07-30",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": []
+  }
+ ],
+ "reserve": "With only 11 reviews total, and directly conflicting reports on both breakouts and how well it removes makeup, this is too small a sample to say which experience is more typical."
+}

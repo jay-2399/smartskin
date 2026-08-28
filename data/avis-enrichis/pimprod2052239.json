@@ -1,0 +1,154 @@
+{
+ "ref": "pimprod2052239",
+ "asin": null,
+ "pid": "pimprod2052239",
+ "source": "ulta",
+ "nom": "ROUND LAB 1025 Dokdo Cream",
+ "note": 4.87,
+ "nbAvis": 101,
+ "lus": 80,
+ "collectes": 87,
+ "segments": {
+  "oily": "Reviewers with oily skin mostly report good results, including no breakouts and skin that is less oily by the end of the day; a couple, however, note uncertainty about how well the rich, thick texture suits very oily skin.",
+  "dry": "The large majority of reviewers with dry to very dry skin, including some with flaking, report deep, lasting hydration that often holds up overnight; one reviewer (3 stars), however, found the texture more gel-like than a true cream and says explicitly it is not suited to dry skin.",
+  "combination": "Reviewers with combination skin report it helps hydrate the drier areas of their face without feeling too rich; one reviewer finds it a bit heavy for her personally.",
+  "sensitive": "Most reviewers with sensitive, reactive, or tretinoin-irritated skin report the cream is calming and non-irritating. One reviewer, however, reports waking up with red, dry skin resembling an allergic reaction and warns sensitive-skin users to be careful."
+ },
+ "concerns": {
+  "dehydration": "The overwhelming majority of reviewers, across dry, oily, and sensitive skin alike, report deep, long-lasting hydration that holds up overnight or through harsh winter conditions, several saying it outperformed thicker or pricier creams they had tried. One reviewer, however, found the texture more gel-like than expected and reports her skin still felt a little dry.",
+  "redness": "Several reviewers report the cream reduces redness and calms irritated skin, including after harsh winter weather or acid and retinoid use. Two reviewers, however, report the opposite: one woke up with red, dry skin resembling an allergic reaction, and another developed redness around her nose and cheeks that she attributes to a fungal-acne reaction, possibly from the shea butter.",
+  "barrier": "Several reviewers specifically credit the cream with repairing or supporting their skin barrier, including one who says her barrier healed within two days and another who uses it as a barrier cream on a child's eczema.",
+  "blemishes": "The large majority of reviewers with acne-prone skin report no breakouts, clearer skin, and unclogged pores, several specifically noting they usually break out from new products but did not with this one. One reviewer, however, reports the opposite: pimples and redness she attributes to a fungal-acne reaction, likely from the shea butter in the formula.",
+  "oiliness": "Reviewers, including some with oily or acne-prone skin, report the cream absorbs without leaving an oily or greasy finish, and a couple specifically say it left their skin less oily by the end of the day than other moisturizers; no reviewer in this set reports it making their skin oilier."
+ },
+ "aspects": [
+  {
+   "libelle": "Thick, rich texture that still absorbs",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No pilling under makeup or sunscreen",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Unscented or very light scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small jar is pricey",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Can feel heavy or sweaty for some",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jocelyn",
+   "titre": "Allergic reaction/dry itchy skin :(",
+   "texte": "I really wanted to like this cream and was so excited to use it. I put it on at night and in the night I had trouble sleeping because my face and neck were slightly itchy, but it wasn't too bad. The next morning I woke up with my skin around my eyes red and dry, looking similar to when I have an allergic reaction. The cream is very thick and unscented and feels nourishing but it reacted very poorly with my skin. Be careful if you have sensitive skin.",
+   "date": "2024-01-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "becca",
+   "titre": "didn't work for my skin",
+   "texte": "product not for me. it gave me fungal acne - pimples and redness all around my nose and cheeks, probably because it has shea butter. i use it for my hands now and it is moisturizing.",
+   "date": "2025-08-14",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Victoria Ong",
+   "titre": "more gel textured than creamy",
+   "texte": "the product states it's a cream. i thought it'd be helpful for my normal/dry skin. however, after applying it to my skin, i realized my skin felt a little dry due to the gel texture of the \"cream.\" i'd suggest this for anyone with normal/oily skin, but def not dry skin",
+   "date": "2023-11-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "marisah santana",
+   "titre": "lightweight and moisturizing",
+   "texte": "i have very dry flaky type of skin and have been trying out so many different brands of moisturizers (american brands) but none of them worked. i decided to finally try korean skin care and i am so happy i did! this is the only cream that actually moisturizes my dry skin and i love that it's lightweight rather than a thick cream. although it's small and expensive, it's worth it and i will definitely be repurchasing when i run out :)",
+   "date": "2024-07-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Pat Balmediano",
+   "titre": "Good for Sensitive Skin",
+   "texte": "I have oily skin that is also sensitive due to tretinoin use. I have tried various moisturizers since being on tret but they have all, by some degree, irritated my skin especially my cheeks. This moisturizer has been amazing in keeping my skin moisturized without any irritation! I was amazed when I first tried it as I expected some stinging as with my previous moisturizers but it applied so well without issues. Love this product and will be repurchasing.",
+   "date": "2023-09-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Zaynah",
+   "titre": "Is It Magic?",
+   "texte": "let me start off by saying, that I used to be terrified of trying new creams because they would all clog my pores. After trying several products from RounLab I decided you know what? why not give this \"heavier\" cream a try despite my history with creams? Now let me tell you, THIS, THIS right here is MAGIC. I mean it. My skin barrier healed in two days, my pores never clogged up, and my skin just drank this UP like it never did before to any cream. I tried everything, but nothing worked like this did. I cannot thank RoundLab enough for giving us such trustworthy ingredients in their products as well because I truly believe that it was that, that saved my skin. I hope they continue to grow and stick to their mission in the future 🙏&#55356;",
+   "date": "2023-09-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Annie Wukmir",
+   "titre": "Amazing amazing amazing",
+   "texte": "I rarely write reviews but I felt this product and brand deserved some feedback. This moisturizer does what it's supposed to and makes my skin feel moisturized and smooth. I have combination skin and this really save the dry parts of my face. It's on the thicker side but easy to rub in. I just feel so clean and refreshed after putting it on. I do use two of this brands cleansers but I'm sure it would work well with any cleanser you're using. Definitely recommend",
+   "date": "2024-03-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

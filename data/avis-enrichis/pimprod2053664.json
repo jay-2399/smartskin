@@ -1,0 +1,155 @@
+{
+ "ref": "pimprod2053664",
+ "asin": null,
+ "pid": "pimprod2053664",
+ "source": "ulta",
+ "nom": "Personal Day Full Clarity Cleansing Powder",
+ "note": 4.83,
+ "nbAvis": 127,
+ "lus": 81,
+ "collectes": 107,
+ "segments": {
+  "oily": "Reviewers with oily skin report the cleanser removes excess oil and residue without stripping the skin, though one notes needing a bit more product on the T-zone on especially oily days.",
+  "dry": "Reviewers with dry to very dry skin describe the cleanser as cleansing without stripping, tightness, or added dryness, leaving skin soft and hydrated, including some who found other cleansers too harsh.",
+  "sensitive": "Reviewers who describe their skin as sensitive or reactive, including some managing rosacea, report the cleanser is gentle and non-irritating and note calmer, less red skin with use.",
+  "combination": "Reviewers with combination skin report it balances oil without over-drying the drier areas of their face."
+ },
+ "concerns": {
+  "blemishes": "Most reviewers, many self-describing as acne-prone or dealing with hormonal or comedonal acne, report fewer breakouts, calmer skin, and clearer pores after a few uses to several weeks. A minority, including some of the lowest-rated reviews, report the opposite: bad breakouts, new blackheads, or closed comedones, with one attributing this to residue from the corn-starch base if not fully rinsed off.",
+  "dehydration": "A large majority of reviewers, including several with dry or sensitive skin, report the cleanser does not strip or dehydrate the skin and leaves it feeling clean without tightness; one reviewer (2 stars) reports the opposite, that it left her skin feeling dry and irritated.",
+  "redness": "Several reviewers, including some managing rosacea, report calmer, less red skin with regular use; no reviewer in this set reports increased redness.",
+  "oiliness": "Reviewers with oily skin report the cleanser removes excess oil and shine without leaving skin oily or, conversely, over-drying it; one notes needing to go over the T-zone with extra product on particularly oily days."
+ },
+ "aspects": [
+  {
+   "libelle": "Powder foams into a rich lather",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle, fine exfoliating texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Travel-friendly, TSA-safe powder format",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Dispenser hole clogs or jams",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Frequently out of stock",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Minis cost more per use than full size",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Carly",
+   "titre": "NOT Acne Safe",
+   "texte": "This broke me out SO bad, which was disappointing considering it is supposed to be for acne prone skin. The main ingredient is corn starch and when exposed to moisture creates a breeding ground for bacteria if not completely rinsed off.",
+   "date": "2025-09-30",
+   "verifie": false,
+   "utiles": 12,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "AL",
+   "titre": "Wanted to like :(",
+   "texte": "I've been wanting to try a cleansing powder and this brand caught my eye from all of the positive reviews. Unfortunately, this cleansing powder made mt skin feel dry, irritated, and broke me out bad. I will say the powder foams up into a nice consistency.",
+   "date": "2025-10-07",
+   "verifie": false,
+   "utiles": 11,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Alexis W.",
+   "titre": "Best cleanser",
+   "texte": "By far the BEST cleanser i have ever used. I have very oily skin. Cleansers I've used in the past have left my face feeling extremely dry causing more oil or feeling just as oily as before. This powder actually gives my face the feeling of being clean doesn't dry out or leave it oily. I cant express how happy I am to finally have found something that really does work on my skin.",
+   "date": "2025-07-18",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lucy P.",
+   "titre": "Deep cleansing but not stripping",
+   "texte": "I decided to try this after developing hormonal acne for the first time due to a change in birth control. I have been using this for a few weeks and have noticed a difference that I hope will continue to improve! My skin is really dry and this cleanser leaves my face feeling clean but not stripped. The powder is also so easy for traveling!",
+   "date": "2025-06-01",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mejgan Z.",
+   "titre": "Fairy powder !",
+   "texte": "First time using the powder cleansing method and I am never going back to another method. I had really bad rosacea flareups especially during my period but event since using this miracle cleanser I have maintained a clear face and I am so grateful . The redness is almost totally gone. It's so gentle and fun to use. Thank you!!",
+   "date": "2025-03-03",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Camaira M.",
+   "titre": "Best cleanser I've used!",
+   "texte": "I truly LOVE this cleanser. I have combination skin that tends to lean more dry, so it's tough for me to find a cleanser that doesn't dry me out, or end up making me too oily. This one leaves my face feeling truly clean and the moisturizer on top is perfection. I'm so glad I decided to try this brand :)",
+   "date": "2025-04-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "dehydration",
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ayleen .",
+   "titre": "Love it",
+   "texte": "I spent a long time searching for a gentle yet exfoliating cleanser for my skin until i found this one! For reference i have dehydrated acne prone skin and this works awesomely. Cleansers usually leave my skin red but not this one!",
+   "date": "2025-08-29",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

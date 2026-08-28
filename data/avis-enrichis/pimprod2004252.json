@@ -1,0 +1,154 @@
+{
+ "ref": "pimprod2004252",
+ "asin": null,
+ "pid": "pimprod2004252",
+ "source": "ulta",
+ "nom": "DHC Concentrated Eye Cream Eye Moisturizer",
+ "note": 4.68,
+ "nbAvis": 507,
+ "lus": 80,
+ "collectes": 108,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are overwhelmingly positive, repeatedly calling it the only eye cream that doesn't cause irritation, redness, or infection around their eyes; the exception is one reviewer whose sensitive under-eye skin developed small bumps and a lingering dry, eczema-like patch after a couple of weeks of use.",
+  "dry": "Reviewers with dry skin generally report strong, lasting hydration and improvement in dryness and fine lines; one exception, newly dealing with dry patches on her eyelids from eczema and psoriasis, found it didn't hydrate much and left her itchier and drier.",
+  "oily": "One reviewer who describes her skin as normally oily says the cream did not help when she developed dry, itchy patches on her eyelids, finding her drugstore eye cream worked just as well or better.",
+  "mature": "Reviewers in their 50s through 80s are strongly positive, several saying friends or family don't guess their age or notice their wrinkles, and describing years of loyal use with visibly fewer lines and consistently moisturized skin."
+ },
+ "concerns": {
+  "aging": "The great majority of reviewers report visibly fewer or softer fine lines and crow's feet with regular, often multi-year use, several saying friends comment on their lack of wrinkles despite their age; the exception is one reviewer who felt her wrinkles became more visible and her eyes looked more tired and puffy after using it.",
+  "dehydration": "Most reviewers describe strong, lasting hydration from a small amount of product, several saying it's kept their eye area moisturized for years; a notable minority dissent — one felt a recent reformulation stopped providing all-day moisture, and two others say it actively dried out and flaked their under-eye skin.",
+  "spots": "Reports on dark circles and dark patches under the eyes are mixed: several reviewers say they faded or disappeared with regular use, including one whose dark patches were gone after a month, while others specifically say the cream made no noticeable difference to darkness or dark circles.",
+  "blemishes": "One reviewer specifically notes it's the first eye cream that hasn't caused pimples or clogged her pores.",
+  "redness": "One reviewer with very sensitive skin around her eyes reports this is the only eye cream she can use without redness or irritation.",
+  "barrier": "Several reviewers with reactive or infection-prone eyes, including one with blepharitis, report no burning, stinging, or irritation from this cream, unlike other eye creams they've tried."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing, non-greasy feel",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Some wish the formula were thicker",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Faint alcohol scent noted by one reviewer",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Comes in a reusable glass jar",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Considered expensive for the size",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "A small amount covers a lot",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Mia M",
+   "titre": "A 'no' for me",
+   "texte": "I wish I would have read the negative reviews first. I was looking for something that would moisturize my under-eye area as well as help with dark circles and possible bags. This product did not do it for me. The area looks more tired and puffier. All the wrinkles are now in plain sight. Looks like I haven't slept in several days. I look haggard.",
+   "date": "2021-03-29",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Nicole Z",
+   "titre": "Dries out my undereyes :(",
+   "texte": "Unfortunately, this product did not work for me. It completely dries out my under eyes and causes flaky skin. My skin is so sensitive in that area. Can't use the product",
+   "date": "2022-03-01",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Viv",
+   "titre": "Its whatever, expected more",
+   "texte": "The 5 stars and reviews really were what got me to buy this product. I have eczema and psoriasis and lately its been affecting my eyes with dry patches. I have always been an oily skin girly with acne but lately have been experiencing dry skin and dry patches on my eyelids. I bought this wanting to try something better than my elf cream but honestly, my elf eye cream gave me the same results or better. This didnt really hydrate much and caused me itchiness and more dry spots. Wouldnt recommend.",
+   "date": "2025-10-18",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "oily",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Diany",
+   "titre": "Moisturizing",
+   "texte": "I like the consistency of this cream. A little bit covers a lot of the eye area. Although it's great with hydration, it doesn't do much for puffiness or dark circles. I think I'll lookout for other formulas within the company to try out.",
+   "date": "2024-11-20",
+   "verifie": true,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "P M",
+   "titre": "Superb Product! No dark patches under my eyes!",
+   "texte": "This eye cream is the only one I can use without any eye irritation to help with dry eye skin. The special bonus is the dark patches under my eyes completely disappeared after a month. I use it every morning and night.",
+   "date": "2021-03-22",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "spots",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SilverFox",
+   "titre": "My Trusted Eye Cream!",
+   "texte": "I use the Concentrated Eye Cream twice a day, (morning and night) every day! I am a 69 year old woman with dry skin and of course with aging comes the wrinkles and increased dryness, especially living in CO. The CEC is very moisturizing and non-irritating which is a must for me. I suffer from Blepharitis (a condition that can cause inflammation of the eyelids) but the CEC from DHC is my trusted eye cream!",
+   "date": "2023-08-17",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "M.Z.",
+   "titre": "Soothing for Sensitive Skin",
+   "texte": "I have very sensitive skin, particularly around my eyes, and this is the only eye cream that I can use with no irritation or redness. I've successfully used it for years and will never switch. Thank you to DHC for the thoughtful use of ingredients!",
+   "date": "2023-02-19",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

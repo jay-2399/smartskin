@@ -1,0 +1,154 @@
+{
+ "ref": "pimprod2033311",
+ "asin": null,
+ "pid": "pimprod2033311",
+ "source": "ulta",
+ "nom": "Peach Slices Snail Rescue Purifying Cleanser",
+ "note": 4.52,
+ "nbAvis": 360,
+ "lus": 80,
+ "collectes": 108,
+ "segments": {
+  "oily": "Reviewers with oily skin, including some who call it acne-prone, report effective cleansing, controlled sebum, and fewer breakouts without excess dryness.",
+  "dry": "Reviewers with dry skin are mixed: several, including a teenager and a reviewer recovering from over-exfoliation, report the cleanser is hydrating and gentle, while at least two reviewers explicitly say it is not suited to dry or sensitive skin and report it left their skin tight, burning, or dried out.",
+  "combination": "Reviewers with combination skin, including combination-oily and combination-dry variants, report effective, non-drying cleansing with reduced acne and clearer pores.",
+  "sensitive": "Reviewers with sensitive skin are split: many, including some managing allergies or reactive periods, report gentle, non-stripping cleansing, while a real minority report the opposite, ranging from breakouts and dryness to redness, peeling, and burning severe enough to stop use, despite the product being marketed for sensitive, acne-prone skin.",
+  "mature": "The two reviewers who mention being close to 50 report deep, thorough cleansing and softer, more glowing skin."
+ },
+ "concerns": {
+  "blemishes": "The large majority of reviewers, including many with hormonal, cystic, or long-standing acne, report clearer skin and fewer or faster-resolving breakouts, in some cases after years of other products failing. A real minority, however, including two of the lowest-rated reviews, report the opposite: persistent or new breakouts, with one reviewer developing severe cystic acne that resolved only after she stopped using it.",
+  "dehydration": "The large majority of reviewers report the cleanser does not strip or dry the skin, several specifically praising it as non-stripping compared to other cleansers they have tried. A minority, concentrated among the lowest-rated reviews, report the opposite: tightness, peeling, burning, or dryness severe enough to stop use.",
+  "redness": "Most reviewers report no redness or burning, and several specifically note reduced redness with use. A minority, however, report burning, peeling, worsened redness, or, in one case, severe swelling that shut the reviewer's eyes overnight.",
+  "barrier": "A few reviewers, including one recovering from over-exfoliation with acids and one using tretinoin, specifically credit the cleanser with not stripping or further damaging their skin barrier, describing it as gentle enough to use on already-compromised skin.",
+  "spots": "A couple of reviewers note the cleanser helps breakouts resolve without leaving marks or scarring, and one describes more even-looking skin overall; this is not a major focus of most reviews.",
+  "oiliness": "A few reviewers with oily skin or an oily T-zone report the cleanser controls sebum and balances oil without over-drying; this is not as central a theme as breakouts or dryness."
+ },
+ "aspects": [
+  {
+   "libelle": "Little to no noticeable fragrance",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective at a low price point",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "No annoying pump, easy to dispense",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doesn't fully remove eye makeup alone",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves a squeaky-clean feel",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "ab",
+   "titre": "do not buy if you are acne-prone",
+   "texte": "used it for around two months and developed severe cystic acne. once i stopped using it, the cysts went away. do not use this if you are already acne-prone",
+   "date": "2026-02-14",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Anevay",
+   "titre": "Do not buy this product!!",
+   "texte": "I bought this cleanser because I ran out of my normal one, and I figured it would work well because it's from the same brand. I was unfortunately very wrong. I used it at night and woke up the following morning to my eyes completely swollen shut. If I could give this zero stars, I would.",
+   "date": "2025-03-31",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Alyssa A.",
+   "titre": "Not for dry or sensitive skin!!",
+   "texte": "This cleanser is too drying for sensitive skin. I used it twice a day for 48 hours and it dried out my skin where my eye area was burning. This is a cleanser for oily skin or oil control. I do like the mask and moisturizer as they do not burn my skin.",
+   "date": "2024-05-25",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tess",
+   "titre": "Repaired Damaged Skin Barrier",
+   "texte": "This line of cleanser, toner, and moisturizer saved my skin and stopped breakouts! After struggling to treat hormonal acne/dry skin by unintentionally applying aha's and bha's incorrectly, I put my skin through some harsh times. This line of products has made my skin feel exfoliated while remaining hydrated. It has created the perfect balance with little to no breakouts over the last three months of consistent use. No tightness, redness, or inflammation",
+   "date": "2024-08-28",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "barrier",
+    "dehydration",
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Isabella B.",
+   "titre": "Love it!",
+   "texte": "I have oily skin and this is perfect for me. Gives me non oily glow and controls my sebum production",
+   "date": "2025-07-20",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "mikaelynnjadee",
+   "titre": "MY FAV CLEANSER",
+   "texte": "for me personally its been hard to maintain not only clear skin but also less inflammation/hyperpigmentation for the last couple of years. i have acne prone/combination skin which is a PAIN when it comes to trying new products because on top of that i also have VERY sensitive skin so let me tell you, not only are the ingredients in this cleanser clean BUT this makes my skin feel so so clean without stripping it/causing any dryness! the packaging is something i also really like because i personally hate how most cleansers have a pump & then towards the end you have to excessively shake the bottle/unscrew the pump; just not for me lol peach slices, youve done an amazing job with this product!",
+   "date": "2024-07-01",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sherry",
+   "titre": "WOW I'm amazed",
+   "texte": "First let me say I will be 50 in couple months. I have combination skin and work in food service. This is getting deep in my pours and cleaning my face and neck. I love it. It is replacing my kinship naked apple cleanser",
+   "date": "2025-11-29",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "mature",
+   "sujets": []
+  }
+ ],
+ "reserve": null
+}

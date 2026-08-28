@@ -1,0 +1,148 @@
+{
+ "ref": "pimprod2007172",
+ "asin": null,
+ "pid": "pimprod2007172",
+ "source": "ulta",
+ "nom": "Hanskin Pore Cleansing Oil - BHA",
+ "note": 4.27,
+ "nbAvis": 77,
+ "lus": 77,
+ "collectes": 77,
+ "segments": {
+  "oily": "Reviewers with oily skin, for whom the product is specifically formulated, report it controls excess oil, clears blackheads and sebaceous filaments, and shrinks the look of pores, with many calling it their best cleansing oil for that skin type.",
+  "dry": "Reviewers with dry skin, despite the product being formulated for oily skin, mostly report it doesn't strip their moisture and leaves skin feeling soft and hydrated.",
+  "combination": "Most reviewers with combination skin report it removes makeup effectively, clears texture and blackheads, and keeps skin moisturized without stripping, though one reviewer explicitly warns against using it if you have combination skin and recommends it for oily skin only.",
+  "sensitive": "Most reviewers with sensitive skin say the oil is gentle and doesn't strip or irritate their skin, though a few report it broke them out in painful spots or pustules, and one says it needs to be limited to a few times a week to avoid irritation.",
+  "normal": "Reviewers who describe their skin as normal, sometimes combined with dry or combination, report the oil works well without drying or leaving residue."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers, including several with dry skin, say the oil cleanses without stripping and leaves skin soft, hydrated, or moisturized; a few, however, report it left their skin feeling dehydrated or oily at once, or dried their skin out completely, particularly if their skin isn't naturally oily.",
+  "barrier": "One reviewer with combination skin feared she had damaged her skin barrier after her first use, which felt harsh, though a second, more targeted application felt gentler; she recommends only occasional use on oily areas with thorough follow-up hydration.",
+  "blemishes": "Many reviewers, including some who are acne- or blackhead-prone, report clearer pores, fewer blackheads and whiteheads, and reduced breakouts including hormonal and t-zone acne with regular use; a smaller number, however, say the oil broke them out badly, in pustules or painful new spots, worse than before they started using it.",
+  "oiliness": "Reviewers with oily skin consistently report reduced oil production and shine through the day with regular use, including one who tracked the difference on her husband's skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Pleasant herbal-citrus scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or burns near the eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Doesn't emulsify into a milky wash",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump can leak or drip",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle, good value",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "forthenguyen",
+   "titre": "Not for acne-prone, sensitive skin",
+   "texte": "-Sunk in/evaporated too fast and required adding more to maintain adequate slip for massage -Did not emulsify well and left a residue -Left my skin feeling oily but dehydrated -Broke my skin out in pustules",
+   "date": "2019-11-23",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Sian",
+   "titre": "I probably won't purchase again !",
+   "texte": "Pre cleanse. It burnt trying to remove my eye make up , so you def would have to remove eye make before with another product . It does contain actives and that's no lie . I would not recommend this product to nobody with combination skin , ONLY OILY Skin . I'll only use this on oilier days no more than once a week . Maybe more often in warmer months . I was terrified I wrecked my barrier after pre cleansing with this for the first time . I tried it out a second time (only on my problem areas) and it wasn't as harsh but I made sure to wipe it all off before moving on to my water (second) cleanse . Just make sure you HYDRATE HYDRATE HYDRATE after using this !",
+   "date": "2020-12-28",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Kim",
+   "titre": "Hanskin BHA cleansing oil",
+   "texte": "As someone with very dry skin, it didn't strip my skin of moisture and did cleanse well. It also did help a little with maskne. Pleasantly surprised with this oil.",
+   "date": "2021-11-15",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Huntress",
+   "titre": "MY HOLY GRAIL!!!",
+   "texte": "I have had trouble with blackheads my entire life- and a few blemishes here and there. I have oily combination skin. (mostly oiler in t-zone area) I am also an aesthetician so I have seriously tried everything under the sun it feels like. I got a small bottle of this sent to me as an extra gift from a friend and I cannot live without it now. My pores are clear- I honestly don't know how anyone can not like this product. Especially if they are acne prone. The beta hydroxy acid, a.k.a. salicylic acid, DOES NOT MAKE ACNE WORSE. I'm just stunned to read some of these reviews. If people think they are breaking out from this product, it has to be because they are putting something else on their face that isn't agreeing. This formula and all of the ingredients in it are made strictly to HELP acne- prone skin. I put a little on my dry face before I shower every day. I love love love this product!!",
+   "date": "2021-07-28",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lorena",
+   "titre": "Awesome for oily skin",
+   "texte": "I have extremely oily skin, blackheads, acne, and huge pores. This cleanser has been awesome for helping control my oil production during the day, which in turn helps my blackheads and shrink my pores. A lot of oil cleansers I've tried are very heavy, but this one is very light and still leaves my skin soft after I use it. Will definitely be buying more!",
+   "date": "2020-01-14",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jenny",
+   "titre": "Great for oily skin!",
+   "texte": "I love how it removes makeup and all the other nasty stuff from the face. I was skeptical to use at first because I have sensitive skin but it worked so well. I didn't break out and my face felt like a baby's butt! I definitely recommend!",
+   "date": "2021-11-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Feebers",
+   "titre": "Did what it said it would!",
+   "texte": "I use this at night to clean off my make-up. Micellular water usually works well for me- but this works better and faster! I quickly realized to only use a few times per week though, otherwise my skin gets irritated. I have sensitive to normal skin. I did see an instant clearing of some of that gross sebum stuff!",
+   "date": "2020-12-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "normal",
+   "sujets": [
+    "oiliness"
+   ]
+  }
+ ],
+ "reserve": null
+}

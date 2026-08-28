@@ -1,0 +1,148 @@
+{
+ "ref": "pimprod2058447",
+ "asin": null,
+ "pid": "pimprod2058447",
+ "source": "ulta",
+ "nom": "ERLY Face Foam Gentle Facial Cleanser",
+ "note": 4.88,
+ "nbAvis": 32,
+ "lus": 29,
+ "collectes": 29,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin, including one whose skin is picky especially with foaming cleansers and one whose daughter has sensitive skin, report zero problems, no redness, and no dryness."
+ },
+ "concerns": {
+  "dehydration": "The overwhelming majority of reviewers report the cleanser does not dry out or strip skin at all, describing it as hydrating, soft, and never tight afterward, in contrast to typical foaming cleansers; no reviewer in this set reports a drying effect.",
+  "redness": "One reviewer reports no redness at all, even though foaming cleansers typically react poorly with her skin; another separately notes the wash does not burn or sting on application.",
+  "barrier": "One reviewer specifically credits the cleanser with respecting her skin barrier while still cleansing effectively, reporting no redness or dryness despite her skin normally reacting poorly to foaming cleansers.",
+  "blemishes": "Most reviewers report clear, blemish-free skin, including one who saw small bumps disappear after about two weeks; however, one reviewer reports the cleanser broke her out and doubts the authenticity of the many positive reviews."
+ },
+ "aspects": [
+  {
+   "libelle": "Effectively removes makeup, including eye makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Cute, teen-friendly packaging appeals to whole family",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich, luxurious lather",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "One reviewer doubts authenticity of positive reviews",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Sara",
+   "titre": "Complete garbage",
+   "texte": "Broke me out and doesn't clean makeup off your face at all. Too many fake positive reviews of this cleanser. Waste of money!",
+   "date": "2026-08-03",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Addison",
+   "titre": "Minimal, fresh, and effortless—exactly how my routine should",
+   "texte": "I've tried a lot of cleansers, but the ERLY Gentle Face Foaming Cleanser genuinely surprised me—in the best way. First off, the texture is that perfect airy foam that feels luxe without being heavy. It spreads easily, rinses clean, and doesn't leave that tight, stripped feeling (you know the one). My skin actually feels balanced after—soft, calm, and hydrated instead of squeaky and confused. What really stands out is how gentle it is while still doing the job. It removes everyday grime and light makeup effortlessly, but never irritates. My skin can be picky, especially with foaming cleansers, and this one just…gets it right. No redness, no dryness—just clean, happy skin. Also, the vibe? Minimal, fresh, and effortless—exactly how my routine should feel, but rarely does. If you're someone who wants a cleanser that respects your skin barrier but still gives you that satisfying clean, this is it!!!!",
+   "date": "2026-03-31",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier",
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Taylor",
+   "titre": "Perfectly balanced cleanser",
+   "texte": "Gets off all the sunscreen and sweat without drying delicate skin. My daughter's face is sensitive and she's had ZERO problems since starting with this facewash. It smells nice and clean, too!",
+   "date": "2025-03-31",
+   "verifie": true,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kristin",
+   "titre": "Best face wash!!",
+   "texte": "This is the best face wash!! Both my girls and I love it. Makes our skin soft and clear, and best of all blemish free!",
+   "date": "2025-01-28",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lauren",
+   "titre": "Absolutely LOVE this product!",
+   "texte": "Absolutely LOVE this product! My daughter was starting to have some acne and needed a good gentle product to wash with daily. I purchased this Face wash for her to try, and I'm so happy I did! I love that it was designed by a dermatologist to be safe for even young skin, but now even I use it regularly. It leaves your skin feeling clean without drying it out, and is gentle enough for twice a day use. The packaging is adorable and eye catching for teens as well. We cant wait to try out more products!",
+   "date": "2025-01-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erin",
+   "titre": "My new favorite cleanser",
+   "texte": "This has quickly become my new go-to face wash. It gets every last drop of makeup off - even my eye makeup. It doesn't burn at all. I'm obsessed!",
+   "date": "2025-01-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amy",
+   "titre": "Fantastic",
+   "texte": "Amazing product shocked at the difference it made. All the little tiny bumps went away after about two weeks of use. Highly recommend",
+   "date": "2025-03-13",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

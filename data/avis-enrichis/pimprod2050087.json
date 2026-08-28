@@ -1,0 +1,139 @@
+{
+ "ref": "pimprod2050087",
+ "asin": null,
+ "pid": "pimprod2050087",
+ "source": "ulta",
+ "nom": "Lancôme Clarifique Pore Refining Cleanser",
+ "note": 4.1,
+ "nbAvis": 10,
+ "lus": 7,
+ "collectes": 7,
+ "segments": {
+  "dry": "One reviewer with dry, sensitive skin calls this dry/sensitive-skin approved, praising its rich lather and saying she will repurchase.",
+  "sensitive": "Two reviewers with sensitive skin, one describing hers as normal but hypersensitive and another as dry and sensitive, report the cleanser works well for them, producing a rich lather without burning or a tight after-feel; by contrast, two other reviewers, whose skin type is not stated, report the product burned their skin or caused red spots and breakouts.",
+  "normal": "One reviewer with normal but hypersensitive skin reports no burning and no tight feeling after cleansing, seeing a difference in her skin within a week."
+ },
+ "concerns": {
+  "dehydration": "One reviewer reports it does not leave skin feeling dry after cleansing.",
+  "redness": "Two reviewers report adverse reactions: one developed additional red spots on her face after two weeks of use, and another says the product burned her skin; by contrast, another reviewer with hypersensitive skin reports no burning at all.",
+  "blemishes": "Reports on breakouts conflict: one reviewer says it gave her new breakouts and red spots over two weeks of use, while another, whose face was breaking out badly despite trying everything else, reports this cleanser finally cleared her skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Pore-refining claim not clearly confirmed by users",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Rich, generous lather from a small amount",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, mild plant-like scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Wish for an unscented version",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle, good value",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "L",
+   "titre": "Not it",
+   "texte": "I've used this for well over two weeks and I have not visibly seen any difference in my pores however it did give me was additional red spots on my face and breakouts so I will definitely be returning it.",
+   "date": "2026-01-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Elizabeth",
+   "titre": "Didn't care for this",
+   "texte": "I only bought this because they were out of my preferred face wash. This product burned my skin and I didn't care for the smell of the face wash either.",
+   "date": "2025-09-15",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Denise",
+   "titre": "I would buy this product again.",
+   "texte": "Not sure if it shrunk my pores as it claimed. But I like how it feels on my face.",
+   "date": "2025-06-05",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "MCAT",
+   "titre": "This is great!",
+   "texte": "This is a new cleanser from Lancome and it seems to be aimed to brighten skin a refine pores. I noticed it mentioned it is for all skin types. My skin type is normal but HYPERsensitive. While it has fragrance it is not harsh. It is a green scent, not like grass but it smells like a plant (perhaps the beech extract). You only need a small amount for a generous foam. It doesn't burn the eyes or leave my face feeling tight. I do wish Lancome would make more unscented products (especially genefique!). I see a difference in my skin after using it for a week! Its a big bottle and should last a long time.",
+   "date": "2025-02-18",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Li",
+   "titre": "Sooo worth it 10/10!!",
+   "texte": "A little goes a long way, skin looks clearer it has less texture but doesn't feel dry after i cleanse in love with this definitely a must have for everyday use",
+   "date": "2025-09-11",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Eli",
+   "titre": "dry/sensitive skin approved",
+   "texte": "I have been loving this product, it has the most amazing lather. 🧼 a little product goes a very long way! I will definitely be repurchasing it!",
+   "date": "2025-08-10",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Lauren",
+   "titre": "My new go to",
+   "texte": "My face was breaking out so bad nothing I did work this was recommended to me and I loved it it cleared my skin and works wonders this has become my new go to for my face wash",
+   "date": "2026-06-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": "With only 7 of 10 reviews available, and direct disagreement on both breakouts and whether the product visibly refines pores as claimed, this sample is too small and too mixed to draw reliable conclusions."
+}

@@ -1,0 +1,138 @@
+{
+ "ref": "pimprod2042674",
+ "asin": null,
+ "pid": "pimprod2042674",
+ "source": "ulta",
+ "nom": "Beekman 1802 Mushroom Milk Better Aging Eye Cream",
+ "note": 4.66,
+ "nbAvis": 243,
+ "lus": 75,
+ "collectes": 117,
+ "segments": {
+  "dry": "Reviewers with dry skin, including one in her late fifties, describe less flakiness and under-eyes that stay hydrated and soft through the day, with fine lines looking softer after consistent use.",
+  "sensitive": "Reviewers with sensitive skin and eyes, some prone to stinging or burning with other eye creams, consistently report no irritation from this fragrance-free formula along with brighter, more hydrated under-eyes.",
+  "combination": "The one reviewer who names combination skin (a 49-year-old) says the cream keeps her dry under-eye area hydrated and works well paired with the brand's reusable eye patches.",
+  "mature": "The same reviewer, describing her under-eyes as mature, says she is on her second tube and the cream keeps the area hydrated day to day."
+ },
+ "concerns": {
+  "aging": "Reviewers report visibly softer fine lines, less puffiness, and firmer-looking under-eyes with regular use, several noticing a change within days to a few weeks; one reviewer, however, found it helped with plumping but did little for her fine lines and wrinkles.",
+  "dehydration": "This is the most repeated benefit across skin types: reviewers describe under-eyes that feel hydrated, softer, and less flaky through the day and into the next morning. One reviewer cautions that on very dry under-eyes the hydration alone may not be enough.",
+  "spots": "Multiple reviewers credit the kojic acid and mushroom complex with visibly brightening dark circles, several noticing a difference within a few days to ten days of daily use."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight, fast-absorbing texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup, no pilling",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free, gentle on sensitive eyes",
+   "polarite": "pos",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Cooling, soothing depuffing sensation",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small amount needed, tube lasts long",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent and tackiness disliked by one reviewer",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Lyndsee",
+   "titre": "Doesn't smell the best",
+   "texte": "Not my favorite product they have. I don't like the smell it gives off and for me it has a sticky feeling.",
+   "date": "2026-06-14",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 4,
+   "auteur": "Tina",
+   "titre": "A Little Miracle in a Tube at 58 😍",
+   "texte": "At 58 with dry sensitive skin, this is my little miracle in a tube. Within days — less puffiness, brighter under eyes, fine lines visibly relaxed. The mushroom complex and hexapeptide combo actually delivers. I am not going back.",
+   "date": "2026-05-15",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Michele",
+   "titre": "Hydration for my dry mature under eyes",
+   "texte": "I'm on my second tube if this eye cream. For reference I'm 49 years old with combination skin. My under eyes are dry and I need to keep them hydrated. This works wonders and I love to load it up and use their reusable eye patches too!",
+   "date": "2026-06-06",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dhale",
+   "titre": "Gentle, Hydrating Eye Cream for Sensitive Skin",
+   "texte": "I've really been enjoying the Beekman 1802 Mushroom Milk Better Aging Eye Cream. The texture is lightweight, creamy, and absorbs quickly without feeling greasy or heavy. This eye cream feels soothing and hydrating, and it leaves my under-eye area looking smoother and more refreshed. With consistent use, I've noticed my under-eyes feel softer and look less dry, which also helps makeup apply more smoothly. I also love that it's gentle enough for everyday use and doesn't irritate my skin. If you're looking for an eye cream that provides lasting hydration while being kind to sensitive skin, this one is definitely worth trying.",
+   "date": "2026-07-30",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Erika",
+   "titre": "Smooth",
+   "texte": "I was skeptical about trying a new eye cream because my under eye area can be sensitive at times, however the Mushroom Milk Better Aging Eye Cream is a must for me. It leaves my under eye hydrated, smooth, and I can tell after using it for some time that my under eyes more brighter.",
+   "date": "2026-05-21",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Valeryia",
+   "titre": "My under eyes finally look alive again",
+   "texte": "This is one of the few eye creams I actually keep using. My skin is dry and thinner, so I need something that supports it long term, not just hydrates for an hour. It absorbs fast, feels lightweight, and over time my under eyes look smoother and more fresh.",
+   "date": "2026-04-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,151 @@
+{
+ "ref": "pimprod2017770",
+ "asin": null,
+ "pid": "pimprod2017770",
+ "source": "ulta",
+ "nom": "Philosophy Purity Made Simple One-Step Facial Cleanser",
+ "note": 4.68,
+ "nbAvis": 5992,
+ "lus": 79,
+ "collectes": 117,
+ "segments": {
+  "sensitive": "Sensitive-skin reviewers are overwhelmingly positive, many saying it is one of the few cleansers that has never irritated or broken them out; the exception is a reviewer with sensitive, dry, acne-prone skin who finds the fragrance and heavy lather too much for her, though she says it would suit someone with normal skin.",
+  "dry": "The one reviewer who names dry skin as her main concern found the cleanser left her dry and reaching for cream rather than moisturized; another reviewer, whose own skin is oily, says this formula suits drier skin better and reaches for it mainly in winter.",
+  "oily": "Oily-skin reviewers are mixed: two report it removes sebum well and leaves skin clean without over-drying, while a third with oily skin says she uses it mainly in winter and prefers a different cleanser the rest of the year.",
+  "combination": "The few combination-skin reviewers describe it as gentle and well suited to their skin, without singling out either the oilier or drier areas as a problem.",
+  "mature": "The two reviewers who mention their age or mature skin, one in her 60s, both report no drying effect and soft, clean skin.",
+  "normal": "The only direct comment on normal skin comes from a reviewer with sensitive, dry, acne-prone skin who found it too much for her but says it would work well for someone with normal skin; another reviewer recommends it broadly for normal to sensitive skin."
+ },
+ "concerns": {
+  "dehydration": "The large majority of reviewers, across skin types, report the cleanser does not leave skin tight, dry or stripped, several specifically praising it as hydrating; the clear exception is a reviewer with very dry skin who found it left her dry and in need of cream afterward.",
+  "redness": "One reviewer specifically notes her redness has lessened since switching to this cleanser; no other reviewer comments on redness directly.",
+  "blemishes": "Most reviewers, including several who say breakouts are usually an issue for them, report no new breakouts or irritation, and one says it helps a forming pimple resolve faster; by contrast, one reviewer says it broke her out after about two weeks, and another finds it does not help keep her acne-prone skin clear.",
+  "oiliness": "A couple of reviewers with oily skin say it removes sebum well and leaves skin balanced rather than oily or dry; another with oily skin says she reaches for it mainly in winter and uses a different cleanser the rest of the year."
+ },
+ "aspects": [
+  {
+   "libelle": "Light, pleasant scent for most",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Scent overwhelming or cleaning-product-like for a few",
+   "polarite": "neg",
+   "concerne": [
+    "sensitive"
+   ]
+  },
+  {
+   "libelle": "Stiff bottle, hard to squeeze, no pump",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lathers lightly or not at all, an adjustment for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Effective in one step, no double cleanse needed",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Large bottle, great value, lasts months",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Cassie",
+   "titre": "NOT for sensitive skin",
+   "texte": "I have sensitive, chronically dry, and acne prone skin. I used this for a while when I was a teenager. However, as I've gotten older I cannot use this anymore. I am very sensitive to products that have fragrance in it and that lather a lot. This is great for someone with normal skin, but not for me.",
+   "date": "2026-04-12",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 3,
+   "auteur": "KirstenC",
+   "titre": "It's good but doesn't work for my skin",
+   "texte": "I wanted to give this 5 stars because I have always loved Philosophy products. I like the simple take on face wash they have taken on here. The scent is light and not overpowering. The packaging is sleek and classic which is very aesthetically pleasing. My issue is that I have very dry skin and I don't feel like this face wash left me feeling very moisturized, just dry and in desperate need of cream. I think it's a great product, just not for me!",
+   "date": "2026-06-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "LoveC",
+   "titre": "Not for me",
+   "texte": "Facial cleanser smells really good. But it doesn't have the ingredients needed to help cleanse my face. I wouldn't add it to my daily facial routine cleaning. It even broke my face out after using it for 2 weeks.",
+   "date": "2026-06-10",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SamanthaF",
+   "titre": "Best for sensitive skin!",
+   "texte": "My go to gentile face cleanser. I have the most sensitive skin and break out or get a rash to almost anything I put on my skin! This is one of two facial cleansers that work wonders for my skin. It lathers good and gets off all my makeup without stripping and making my face exra dry. It lasts a while as a little goes a long way. I have purchased it many times over and will continue to do so! ❤️",
+   "date": "2026-06-10",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ingrid",
+   "titre": "Who'd have thunk ;) it?",
+   "texte": "I received a sample of the Purity Made Simple One-Step Facial Cleanser, and added it to my on-the-go skin care bag, thinking it would be handy but boring, like I find most cleansers. What happened instead is that I dreaded running out, and just ordered three big bottles at the beauty steal of the day price. I haven't loved a cleansing option like this since I was in my teens and discovered Noxzema. The Purity cleanser has a slight and delightful scent, a little goes a long way, it's creamy, it cleans my face perfectly and washes off completely, and it has no drying effect at all, which is great since I'm in my 60s. I really love this cleanser a lot; it makes me feel like I'm treating myself when I simply wash my face.",
+   "date": "2026-03-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "RoseAnnaH",
+   "titre": "Amazing cleanser",
+   "texte": "This is a paraben free facial cleanser. It's simple and easy to use. I've been using this this for a few weeks now and i'm very satisfied with the results. It's effective at removing my makeup at night and sebum in the mornings. I have oil skin and this works great for me. I can tell.This is a high quality face.Wash when I use it.And I would highly recommend it to everyone",
+   "date": "2026-06-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "SamanthaB",
+   "titre": "Clean girl skincare",
+   "texte": "I really like the Philosophy purity one step facial cleanser. I appreciate that it is a light scent and the consistency of the product is perfect. It leaves my skin clean and redness lessened. Overall a really good cleanser.",
+   "date": "2026-06-12",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

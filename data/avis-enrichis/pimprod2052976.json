@@ -1,0 +1,145 @@
+{
+ "ref": "pimprod2052976",
+ "asin": null,
+ "pid": "pimprod2052976",
+ "source": "ulta",
+ "nom": "Clarins Total Eye Lift Refillable Eye Cream",
+ "note": 4.39,
+ "nbAvis": 5555,
+ "lus": 71,
+ "collectes": 120,
+ "segments": {
+  "sensitive": "Most reviewers with sensitive skin or sensitive eyes report no irritation from this retinol-containing eye cream, though one reviewer with sensitive skin felt a slight burning sensation when applying it.",
+  "dry": "One reviewer notes she lives in a dry climate and has dry skin in the eye area, and recommends the cream there for fine lines, discoloration, or milia.",
+  "mature": "Reviewers who describe themselves as older, including one in her 60s, report firmer-feeling, less drooping under-eye skin with regular use."
+ },
+ "concerns": {
+  "aging": "Many reviewers report firmer, smoother, less puffy or drooping under-eye skin and reduced fine lines or crow's feet with regular use; several others say they saw no noticeable change in their puffiness, dark circles, or fine lines even after weeks of use.",
+  "dehydration": "Most reviewers describe the cream as hydrating and moisturizing for the eye area, though one says it did not provide enough hydration for her under-eye skin.",
+  "redness": "Most reviewers report no irritation or sensitivity from the formula, but one reviewer with sensitive skin felt a slight burning sensation when applying it.",
+  "spots": "Several reviewers say the cream helped brighten or reduce the look of dark circles and discoloration under the eyes, while others report no change in their dark circles despite continued use.",
+  "blemishes": "A couple of reviewers mention using it for milia or textured skin under the eyes, with one saying she experienced no milia while using it."
+ },
+ "aspects": [
+  {
+   "libelle": "Broken or hard-to-prime pump",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, non-greasy texture",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Refillable design reduces waste",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Runs out faster than the stated 3 months",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small tub for the price",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant, subtle scent",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Taylor",
+   "titre": "Okay Formula",
+   "texte": "[I received this product in exchange for my honest review] I forgot to take a photo of this product. I saw no noticeable change and I was not a fan of the smell. The packaging was nice and it was easy to get out of the bottle. A little bit went a long way, but I have sensitive skin and did feel a slight burn when applying this.",
+   "date": "2026-06-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "MJeee",
+   "titre": "Good cream",
+   "texte": "Good cream overall but didn't do much for my puffiness and dark circles. It's hydrating but my eyes need something a bit stronger",
+   "date": "2026-06-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "spots",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "AnneMH",
+   "titre": "This really works",
+   "texte": "I saw this product recommended in a magazine, and I thought I'd give it a try. It really helps with the soft/drooping skin under my eyes. I don't have dark circles. I'm 66, and I haven't had any \"work\" done on my face. This product helps me feel more confident. I've tried lots and lots of products. I would recommend this one.",
+   "date": "2026-05-28",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Marissa",
+   "titre": "Would buy again",
+   "texte": "[I received this product in exchange for my honest review] I love this product! It has a light and pleasant scent. The texture is luxurious, there's no gritty feeling like some eye creams have. It's velvety and sinks into the skin. I use it at night since it's a retinol and the bottle lasts forever. I highly recommend this eye cream to help with fine lines / discoloration or if you have milia/texture under your eyes. All this to say, I am in my thirties I wouldn't use this younger than 25ish and I live in a dry climate. I have dry skin in this area.",
+   "date": "2026-06-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "aging",
+    "spots",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Kimberly",
+   "titre": "Yup",
+   "texte": "[I received this product in exchange for my honest review] Lightweight, non greasy formula. Excellent on my sensitive skin. Very long lasting. Normally I would sweat products off fast but not this one. It felt very natural.",
+   "date": "2026-06-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Di27",
+   "titre": "Does the job",
+   "texte": "Texture and fragrance are very nice, unfortunately skin under my eyes needs more hydration. I would recommend it however , gave it to my mom and she loved it",
+   "date": "2026-07-09",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  }
+ ],
+ "reserve": null
+}

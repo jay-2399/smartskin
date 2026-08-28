@@ -1,0 +1,142 @@
+{
+ "ref": "pimprod2030881",
+ "asin": null,
+ "pid": "pimprod2030881",
+ "source": "ulta",
+ "nom": "Pacifica Reusable Silicone Brow Mask",
+ "note": 3.82,
+ "nbAvis": 68,
+ "lus": 63,
+ "collectes": 63,
+ "segments": {
+  "oily": "A reviewer with a very oily forehead says the adhesive lost its grip after the second use, though it did smooth her lines while it stayed on.",
+  "sensitive": "A reviewer who is normally allergic to most adhesives reports no reaction to this medical-grade silicone version, while others describe a persistent red mark or a rash-like reaction after use.",
+  "mature": "A 49-year-old reviewer who had struggled with forehead '11' lines for years reports the mask, worn overnight, kept her from furrowing her brow in her sleep and softened the lines."
+ },
+ "concerns": {
+  "aging": "The majority of reviewers report visibly smoother, reduced forehead lines and '11s' with consistent overnight use, some noticing a difference within days; a few say they saw no improvement at all despite following the directions.",
+  "dehydration": "Several reviewers describe the mask plumping and hydrating forehead skin when layered over a serum, including one who uses it to counter the dehydration of air travel.",
+  "redness": "One reviewer developed a red mark after a single short use that had not faded months later, and another reports a rash-like reaction across several uses with different serums.",
+  "oiliness": "A reviewer with a very oily forehead reports the mask's adhesive stopped sticking after just one or two uses, unlike reviewers with drier or freshly cleansed skin."
+ },
+ "aspects": [
+  {
+   "libelle": "Loses stickiness after a few uses",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Corners and edges lift or curl up",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Must sleep on your back to stay put",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Reusable for weeks to months with care",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Comes with a reusable storage tin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pricey to replace over time",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick, cushiony material feels heavy",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Evey",
+   "titre": "Okay",
+   "texte": "It lost its stickiness after my second use even when I washed as directed. I have a very oily forehead so maybe that's why. I wouldn't recommend if you have oily skin. It did help with my lines when I was able to use it.",
+   "date": "2025-01-29",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "aging"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "julz",
+   "titre": "permanently caused forehead blemish",
+   "texte": "so I used this a few months ago. the first time I used it I tried to put just enough peptide serum underneath it. I followed the directions so that it would still stick but I did have product under it. I took it off after probably 20 minutes and noticed a red mark on my forehead. after a few months the red mark is still not gone. it is noticeable and I am frustrated. I personally think you're going to get better results from just using a sheet mask. I wanted to use a peptide serum with mine so I would just replace it with a peptide sheet mask.",
+   "date": "2023-10-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Em",
+   "titre": "yessss",
+   "texte": "I sleep with mine on and apply a peptide serum underneath to prevent dynamic wrinkles since I'm in my late 20s and wanna keep the nice skin I worked to achieve. I also love that it's medical grade silicone, as I am allergic to most adhesives but not this.",
+   "date": "2022-03-01",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Rachel",
+   "titre": "Wear All Night & Say Goodbye to 11s!",
+   "texte": "I'm 49 and have struggled with the \"forehead 11\" for a couple of years. They look particularly awful when I wake up in the morning because apparently I furrow my brow while sleeping. I started wearing this patch all night long and it prevents me from furrowing my brow in my sleep. The 11s look so much better - like fine lines and not deep ones. I can't live without this! I wish they were more affordable as I typically have to replace them about every 4-6 weeks.",
+   "date": "2026-01-02",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "j",
+   "titre": "works best on clean dry skin",
+   "texte": "in contrast with the instructions, I use this on freshly washed and dried skin so it sticks for a longer period of time. I'm in my mid 30s and just starting to get fine lines that stick around for longer than I like, but this temporarily smooths them out and would help if I was consistent. I just wish the silicone was a little bit thinner as I think that would help it not lift at the parameter and that it was transparent. I have a pretty large forehead so I haven't needed to trim this. I really like taking it on trips where I have to fly because my skin is so dehydrated afterwards and this helps plump up the skin on my forehead, then I moisturize as usual",
+   "date": "2025-03-12",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Mama of 2",
+   "titre": "Did NOT work",
+   "texte": "I was bummed. I didn't see any difference on my forehead. I even left it on overnight.",
+   "date": "2022-05-20",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "aging"
+   ]
+  }
+ ],
+ "reserve": null
+}

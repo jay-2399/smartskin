@@ -1,0 +1,152 @@
+{
+ "ref": "pimprod2023931",
+ "asin": null,
+ "pid": "pimprod2023931",
+ "source": "ulta",
+ "nom": "Good Molecules Hydrating Facial Cleansing Gel",
+ "note": 4.57,
+ "nbAvis": 699,
+ "lus": 79,
+ "collectes": 107,
+ "segments": {
+  "oily": "Reviewers with oily skin consistently report the cleanser controls oil and reduces breakouts without feeling harsh, with one noticing visibly less oil by morning.",
+  "dry": "Reviewers with dry skin are strongly positive overall, several saying it is the rare cleanser that does not strip or leave their face tight, including postpartum and eczema-related dryness; against that, two reviewers report it dried their skin out badly enough to return it, and one who was already dry from tretinoin found her face felt tight and stripped.",
+  "combination": "Most reviewers with combination skin say it balances oil without stripping their drier areas; one dissents, saying it worked wonders for the first couple of weeks but then her combination skin started breaking out in painful cystic acne.",
+  "sensitive": "The large majority of reviewers with sensitive skin, including several also managing acne, report no irritation or redness at all; the exception is one reviewer who developed welts from an allergic reaction and had to seek a refund."
+ },
+ "concerns": {
+  "dehydration": "The large majority of reviewers describe the cleanser as hydrating and non-stripping, leaving skin soft rather than tight; dissent ranges from mild, several saying they don't find it especially hydrating despite the name, to severe, with two reviewers reporting it dried their skin out badly enough to stop using it.",
+  "redness": "Reviewers report the cleanser does not trigger redness and, for some, calms existing redness alongside their acne; no reviewer specifically reports new redness from using it.",
+  "barrier": "Several reviewers, including one recovering from a damaged barrier due to eczema and a previous harsh cleanser, report this cleanser is gentle enough not to compromise the skin barrier further; one reviewer, however, developed welts from what she describes as an allergic reaction and needed a refund.",
+  "blemishes": "The large majority of reviewers with acne-prone skin, some managing breakouts for years or decades, report clearer skin, fewer breakouts, and no new irritation of active acne; dissent is real, though: one reviewer says her skin broke out more and her condition worsened, and another developed painful cystic acne after weeks of otherwise loving the product.",
+  "oiliness": "Reviewers with oily skin consistently report the cleanser controls shine and oil production without a greasy after-feel, with a few also noticing their pores appear smaller over time."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight gel texture, not a foaming formula",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or very light, inoffensive scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can struggle to fully remove makeup alone",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Generous bottle size and price for the amount used",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "A little product goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Simple, transparent, cruelty-free ingredient list",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Jacky",
+   "titre": "dried my skin out so bad",
+   "texte": "I really wanted to love this face wash, but it dried my skin out sooo bad. It gave me itchy flaky dry skin almost immediately. I tried it a few times thinking it would improve but it didn't. Really disappointing. Returned",
+   "date": "2026-07-24",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Anonymous",
+   "titre": "Drying, unfortunately 😕",
+   "texte": "I wanted to love this soooo badly. But, being on tretinoin - my skin is very dry as it is, and this face wash just makes it worse. My face feels so tight and stripped after using it :(",
+   "date": "2025-09-25",
+   "verifie": true,
+   "utiles": 2,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "Kimbo",
+   "titre": "Didn't work for my skin",
+   "texte": "I wanted to like this product but it gave my face welts/an allergic reaction. Customer service was good about helping with a refund though.",
+   "date": "2026-01-27",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Chanty",
+   "titre": "50/50",
+   "texte": "The first couple of weeks that i used this cleanser- i LOVED it. As someone eith combination skin, this worked wonders in helping control my facial oils without stripping. But i noticed that after a while i was breaking out with painful cystic acne. Depending on your skin, this can either make or break it for you",
+   "date": "2026-07-15",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Angelica",
+   "titre": "Very good face wash",
+   "texte": "I love how the face wash is gel and not foam for my preference I like gel better. I have very sensitive skin and this works wonders for me no irritation nor red skin irritation. Very happy and would definitely buy again",
+   "date": "2026-05-09",
+   "verifie": false,
+   "utiles": 9,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mattie",
+   "titre": "New Favorite Cleanser!",
+   "texte": "I'm so glad I took a chance on this cleanser. It feels AMAZING on the skin, and I can tell it's hydrating during the process. Having oily skin, it's important to find a cleanser that isn't harsh. I've noticed less oil on my face when I get up in the morning, and that's a nice sign. Also noticed a big reduction in breakouts since incorporating this into my routine. Definitely give this a try if you have oily/combo skin!",
+   "date": "2025-09-08",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Clara G.",
+   "titre": "Gentle but cleansing",
+   "texte": "This cleanser is one of the few I have found that works with my sensitive, dry, acne prone, skin. It can be so frustrating to find a product that works for my skin without irritating it, but this one does!",
+   "date": "2025-09-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

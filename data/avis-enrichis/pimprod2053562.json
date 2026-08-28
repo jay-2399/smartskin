@@ -1,0 +1,163 @@
+{
+ "ref": "pimprod2053562",
+ "asin": null,
+ "pid": "pimprod2053562",
+ "source": "ulta",
+ "nom": "SKIN1004 Madagascar Centella Cream",
+ "note": 4.88,
+ "nbAvis": 50,
+ "lus": 46,
+ "collectes": 46,
+ "segments": {
+  "sensitive": "An unusually large number of reviewers describe their skin as sensitive, sometimes alongside rosacea or redness-prone skin, and consistently report the cream absorbs with zero irritation while calming their redness and sensitivity.",
+  "dry": "Reviewers with dry skin, including some whose dryness worsened with age or winter weather, report significant, lasting hydration and relief from flaking; one notes that very dry skin may still need a thicker layer on top during cold weather.",
+  "combination": "Reviewers with combination skin consistently report it moisturizes without feeling sticky or heavy, working well as a lightweight daily option.",
+  "oily": "Reviewers with oily skin report it doesn't feel greasy or heavy, though one suggests those on the oilier side may prefer to use it only at night."
+ },
+ "concerns": {
+  "dehydration": "The vast majority of reviewers, including many with dry or winter-stressed skin, report deep, lasting hydration without heaviness or greasiness; a couple note that very dry skin or patches may still need a richer layer on top in cold weather.",
+  "redness": "A very large number of reviewers say the cream visibly calms redness and irritation, including one managing redness and acne flare-ups during and after cancer treatment and another whose eczema it did not aggravate.",
+  "blemishes": "Most reviewers, including some who are acne-prone, report it does not cause breakouts and even helps calm acne flare-ups; one reviewer, though, wonders if it, or another new product she added at the same time, may be clogging her pores slightly.",
+  "barrier": "Several reviewers credit the cream with restoring or strengthening a compromised skin barrier, including one recovering from a harsh cleanser and another who notices it especially on days her barrier feels stressed by actives.",
+  "oiliness": "Reviewers managing oiliness say the cream doesn't feel greasy, unlike other moisturizers they have tried, though one with acne-prone, combination-oily skin suggests using it only at night if you're on the oilier side."
+ },
+ "aspects": [
+  {
+   "libelle": "Lightweight texture that absorbs quickly",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free or very light scent",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Luxurious-feeling, travel-friendly packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Layers well under makeup and sunscreen",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "A little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Not rich enough alone for very dry patches",
+   "polarite": "neg",
+   "concerne": [
+    "dry"
+   ]
+  },
+  {
+   "libelle": "Budget-friendly for the quality",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 4,
+   "auteur": "Jovisss",
+   "titre": "Glossy Hydrated Skin",
+   "texte": "This moisturizer that I tried in exchange for my review really made my skin feel amazing which came as a big surprise since I do live in the Windy City where weather can go below zero and winds are strong as can be. I usually have skin peeling around my eyebrows and my nose, especially while sick. However, while using this moisturizer, I noticed a significant decrease in my skin flaking or peeling around my nose, even though I was sick for about a month. I really like the packaging because it's convenient to bring while traveling instead of lugging around a glass container like most moisturizers. The only reason I don't give it five stars is because I'm not sure if this product or another product I just added to my routine is clogging my pores a bit. Even with this in mind, I still recommend this cream to anyone who struggles with dry skin especially during the colder months.",
+   "date": "2026-02-18",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Faye",
+   "titre": "Soothing and Lightweight, Great for Sensitive Skin",
+   "texte": "I've been using the Madagascar Centella Cream as the last step of my skincare routine, both morning and night. The texture is lightweight but still moisturizing enough to keep my skin comfortable throughout the day. It absorbs quickly and doesn't feel greasy or heavy, which I really like. What stands out the most is how soothing it feels. My skin can get a bit sensitive and slightly red sometimes, and this cream helps calm it down without causing irritation. It layers well under sunscreen and makeup too. The only small downside is that if you have very dry skin, you might need a thicker moisturizer on top during colder weather. But overall, it works very well for normal to combination and sensitive skin.",
+   "date": "2026-02-11",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Disc",
+   "titre": "Calms redness and acne",
+   "texte": "Skin1004 Madagascar Centella Cream is an essential part of my skincare routine. I love to pair this with the Madagascar Centella Ampoule as it literally saved my skin during and after cancer treatment. I was getting terrible acne that wouldn't clear up with prescription medications and antibiotics. Once I started my routine with the ampoule and cream, my skin started to look more vibrant, hydrated, while minimizing my redness and acne flare ups. The smallest amount is needed, and it keeps my skin feeling smooth and hydrated. Makeup looks nicer, it just lays smoother on top of my skin now. Plus it doesn't aggravate my eczema. It's definitely worth a try if you're new to Centella products. I received a complimentary sample from skin1004 in exchange for an honest review.*",
+   "date": "2025-12-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Skye",
+   "titre": "Lightweight and Versatile Hydration",
+   "texte": "This is a lightweight moisturizer, suitable for all skin types. I have combo/dry, acne-prone skin with some rosacea and I can use it morning and night. If I was on the oilier side I would stick to just using it at night. It has a nice light lavender scent that didn't irritate my skin (or my nose). It dries down nicely, wears well under makeup, and soothes the redness on my cheeks. It doesn't feel sticky after application, and a little goes a long way!",
+   "date": "2025-12-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Karma",
+   "titre": "Dry skin savior",
+   "texte": "I received this Madagascar Centenella cream as a free sample program but I would buy it again and again. I have very dry skin and nothing seems to work during winters. This cream is very apt for dry skin coz it keeps your skin hydrated for long period of time. It gives a soft shiny finish and is good for both day and night moisturizing routine. I would definitely buy it again and would recommend it for people with dry skin.",
+   "date": "2025-12-05",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Elle",
+   "titre": "Love it",
+   "texte": "I love that this is very lightweight & not heavy at all. I find it to be really moisturizing & not oily like others. I have oily skin & this works great for me. Plus the very minimal smell is great too!",
+   "date": "2025-12-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Tris",
+   "titre": "Amazing!",
+   "texte": "I really love this centella cream! At first glance I loved the ingredients, and that they are pure natural and beneficial for skin. The other day i washed my face with some harsh wash, and disrupted my natural skin barrier. After applying this, it felt like my skin was restored and hydrated. It soothed all the irritated and dry spots, as well as helped to restore my natural skin barrier. My complexion looks more even and bright, with less red spots. It absorbed great, and didn't leave any greasy residue,or break my skin out in any way. I'm extremely impressed with this!",
+   "date": "2025-11-27",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "barrier",
+    "redness",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,151 @@
+{
+ "ref": "mkt77007165",
+ "asin": null,
+ "pid": "mkt77007165",
+ "source": "ulta",
+ "nom": "Proactiv MD Adapalene Gel 0.1%",
+ "note": 4.28,
+ "nbAvis": 365,
+ "lus": 44,
+ "collectes": 44,
+ "segments": {
+  "oily": "One reviewer with oily, acne-prone skin reports that even at 54 her acne does not stop, but this product controls it when a pimple appears.",
+  "sensitive": "One reviewer who purchased the sensitive-skin version reports it worked less well for her than the regular-strength Proactiv she had used before.",
+  "mature": "Reviewers in their 50s and 60s report continued or newly emerging acne well into adulthood, with two describing their skin as clearer than it has been in years after months of consistent use."
+ },
+ "concerns": {
+  "aging": "One reviewer mentions her mother also uses this gel as an anti-aging product, though this is a secondhand, single mention.",
+  "dehydration": "Reviewers frequently report the treatment is drying, several specifically recommending pairing it with a moisturizer to offset this; one reviewer, however, reports it did not dry her skin out the way other products had.",
+  "redness": "One reviewer reports severe, persistent redness alongside a painful breakout that had not resolved even two months later; by contrast, most other reviewers report their skin looking clearer and calmer without new redness.",
+  "spots": "One reviewer with over 20 years of hyperpigmentation reports it visibly fading and her skin evening out within three weeks of use, after trying many other products without success.",
+  "blemishes": "The large majority of reviewers, including several with long-standing hormonal or cystic acne, report significant to complete clearing within two weeks to a few months of consistent use; however, a notable minority report the opposite: one had a severe, painful breakout with redness and permanent scarring that had not resolved even two months later, another broke out and returned the product, and a couple report it simply did not work or only helped a little."
+ },
+ "aspects": [
+  {
+   "libelle": "Subscription hard to cancel, over-ships product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Larger tube offers better value long-term",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Considered a bit pricey",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Customer service responsive to order problems",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin feeling refreshed with a glow",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Free of a preservative that irritates some users",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Isabelle",
+   "titre": "DO NOT BUY",
+   "texte": "I had occasional pimples all over my face so i decided to try this. It caused the worst painfull breakout and redness that has still not went away even after 2 months. I niw have permanent scars and it ruined my confidence leaving me depressed.",
+   "date": "2026-01-29",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Kerrie W.",
+   "titre": "Topical gel",
+   "texte": "I do like it and it does seem to do the trick to make things better however I don't like the dryness.",
+   "date": "2025-10-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Karla C.",
+   "titre": "It's alright",
+   "texte": "I got the sensitive skin package and it's not working as good as the regular skin proactive that I previously bought before.",
+   "date": "2025-07-02",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Lori",
+   "titre": "Clear Zone Body Pads",
+   "texte": "Absolutely great! I have been fight oily skin and acne all my life and let me tell you that at 54 years old the acne does not stop. Clear Zone Pads help control my acne when a pimp comes out this stuff makes it go away. Love it, so please keep making it.",
+   "date": "2023-10-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Dinese",
+   "titre": "Its about time!",
+   "texte": "Ive had acne and hyperpigmentation for over 20 years and Ive tried sooo many different products. Ive been using this for 3 weeks and every day I am visibly seeing my hyperpigmentation fade and my skin evening out.",
+   "date": "2024-03-18",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jolynn B.",
+   "titre": "I really like this product.",
+   "texte": "I really like this product. I've been using it for about a year and my skin has been absolutely clear never been better. I am 64 years old and have had acne since I was 12 years old",
+   "date": "2025-07-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "mature",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Sinead G.",
+   "titre": "Clear skin",
+   "texte": "Really helped with clearing my skin but it is very strong and drying so make sure to use moisturizer",
+   "date": "2024-01-11",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "dehydration",
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

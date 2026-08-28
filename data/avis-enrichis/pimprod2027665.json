@@ -1,0 +1,147 @@
+{
+ "ref": "pimprod2027665",
+ "asin": null,
+ "pid": "pimprod2027665",
+ "source": "ulta",
+ "nom": "Buttah Skin Tea Tree Exfoliating Scrub",
+ "note": 4.74,
+ "nbAvis": 886,
+ "lus": 78,
+ "collectes": 87,
+ "segments": {
+  "dry": "Reports from dry-skinned reviewers differ sharply: one with dry, hormonal acne-prone skin says the scrub burned and broke her out twice, while another with dry skin reports no more pimples and a fresher face since starting to use it.",
+  "sensitive": "Sensitive-skin reviewers are consistently positive, several calling it the first scrub that exfoliates gently without leaving their skin worse, some choosing to use it just once a week to keep it gentle.",
+  "oily": "One reviewer with naturally oily skin, plus dry patches around her mouth from mask-wearing, found it the right fit for both concerns at once.",
+  "combination": "One reviewer with combination skin reports it works well for her, smelling great and leaving her skin smooth."
+ },
+ "concerns": {
+  "blemishes": "The majority of reviewers credit the scrub with clearer skin and fewer breakouts, several describing pimples shrinking or disappearing overnight and hormonal chin acne improving with twice-weekly use; the exception is a reviewer with dry, acne-prone skin who says it burned her and caused two separate breakouts.",
+  "oiliness": "Reviewers with oily areas report the scrub leaves skin feeling clean and moisturized without added shine, with one specifically noting her T-zone became less oily over the summer months of use.",
+  "dehydration": "Despite being a physical exfoliant, most reviewers say it doesn't strip or dry out the skin, several specifically noting skin feels hydrated, soft, and not tight afterward; one reviewer with dry, dull skin says it reversed that dryness with regular use.",
+  "barrier": "One reviewer with dry, acne-prone skin reported a burning sensation both times she used the scrub; most other reviewers, including several with sensitive skin, report no burning or irritation despite the product's strong tea tree scent and tingling sensation.",
+  "spots": "One reviewer specifically notes that dark spots on her chin have been clearing up with continued use."
+ },
+ "aspects": [
+  {
+   "libelle": "Tube or bottle packaging can crack or split",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong tea tree scent, not for everyone",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pleasant tingling, cooling sensation on skin",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Can feel hard to rinse off for some",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Concentrated, a little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doubles as cleanser, mask, and exfoliant",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Z",
+   "titre": "Wanted to like this but it broke me out twice.",
+   "texte": "Really wanted to like this product as I have the moisturizer from this company, but it broke me out twice. The first time I tried it, felt a slight burning sensation but thought it was the tea trea oil working. I had some steak the day before so when I broke out the next day, I figured it was the steak. Decided to give it another go just to make sure and it burned me and broke me out. I have acne hormonal dry skin so just advised for others like me.",
+   "date": "2023-04-13",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "blemishes",
+    "barrier"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Charles",
+   "titre": "Leaves my face feeling slick and slippery",
+   "texte": "I like the smell and consistency of the product, but it's hard for me to wash off. I don't enjoy face products that leave my face feeling slippery, which is the case here, but overall, a good product.",
+   "date": "2023-01-29",
+   "verifie": true,
+   "utiles": 1,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "KC",
+   "titre": "Great product",
+   "texte": "My skin has never felt so smooth after one use of this product. I have naturally have oily skin, but I have dry patches around my mouth and chin area due to wearing a mask. So I believe I've found the perfect product for those concerns. I recommend this product for the melanin ladies, but please do research on what's best for YOUR skin's needs.",
+   "date": "2025-01-31",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "oily",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Momma",
+   "titre": "Feel so fresh!",
+   "texte": "I love this product. I use this as face cleaner in the morning even though this is a face mask. I apply small amount of this product on my dry skin, let it dry amount a couple of minutes and then wet and massage my face and rinse it off. My face is so fresh and clean! No more pimples since I start using this.",
+   "date": "2023-01-29",
+   "verifie": false,
+   "utiles": 3,
+   "peau": "dry",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jen",
+   "titre": "Love this product.",
+   "texte": "I have combination skin. This works really well for me, smells great, leaves my skin smooth. A favorite product of mine.",
+   "date": "2023-09-02",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Rachel W",
+   "titre": "I love for this scrub",
+   "texte": "I have a really sensitive skin and I've been unable to find a scrub that would gently exfoliate without leaving my skin worse than before. This scrub by Buttah is my holy grail. It's amazing. Just everything about it: the smell, how fresh my skin feels, the deeper clean I get without irritating my face is amazing.",
+   "date": "2022-08-23",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "barrier"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Wanda T",
+   "titre": "The scrub left my skin",
+   "texte": "The scrub left my skin feeling soft and smooth after applying. The smell has a nice fragrance to it. The dark spots on my chin is clearing. This is a great product!",
+   "date": "2022-08-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

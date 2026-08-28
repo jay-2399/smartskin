@@ -1,0 +1,157 @@
+{
+ "ref": "pimprod2012322",
+ "asin": null,
+ "pid": "pimprod2012322",
+ "source": "ulta",
+ "nom": "La Roche-Posay Pure 12% Vitamin C Serum for Wrinkle Reduction and Radiance",
+ "note": 4.07,
+ "nbAvis": 1610,
+ "lus": 74,
+ "collectes": 110,
+ "segments": {
+  "oily": "Reviewers with oily skin report the serum controls oil, leaves pores looking smaller, and balances shine without feeling greasy once absorbed.",
+  "combination": "The reviewers with combination skin report no breakouts or irritation, a more even skin tone, and somewhat smoother fine lines.",
+  "sensitive": "The large majority of reviewers with sensitive skin, including several managing rosacea, report no irritation and often visible brightening; the exception is one reviewer who says the serum is not for sensitive skin, describing a bad burn that left her face completely red and painful.",
+  "mature": "Reviewers in their 60s diverge: one finds it a game changer for the loose skin on her neck, while another says at her age she needs a more emollient formula, since this one did not fully absorb and left some pilling."
+ },
+ "concerns": {
+  "aging": "Several reviewers report a reduction in the visibility of fine lines or looser neck skin, including one who calls it a game changer for her aging neck; a couple of reviewers, however, used it for months without noticing any change in their fine lines.",
+  "dehydration": "Reviewers consistently describe the serum as hydrating, leaving skin feeling soft, plump, or glowy rather than dry.",
+  "redness": "One reviewer with sensitive skin reports a bad reaction that left her face red and painful; by contrast, reviewers with rosacea report no irritation, and one notes it does not sting even on already-irritated skin.",
+  "spots": "Many reviewers report a genuine improvement in dark spots, acne marks, or overall tone evenness within one to a few weeks; however, this is also where the most serious dissent concentrates, as reviewers with existing hyperpigmentation report the serum's orange discoloration clings to and stains their dark patches specifically, and one reviewer says it triggered a melasma-like mustache that worsened in the sun and was still visible months after stopping.",
+  "blemishes": "Several reviewers with acne-prone skin report fewer breakouts or faded acne scars and no new irritation; dissent comes from two reviewers, one who broke out more than usual and attributes it to the serum's salicylic acid, and another who developed clogged pores and hard keratin plugs on her cheeks and jawline that cleared up only after she stopped using it.",
+  "oiliness": "Reviewers with oily skin report the serum helps control shine and minimize the appearance of pores over time, describing their skin as balanced and hydrated rather than oily."
+ },
+ "aspects": [
+  {
+   "libelle": "Oxidizes and turns orange, especially in non-opaque bottles",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Dropper applicator is messy and wastes product",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Can stain clothes, sunscreen, or hair",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Can pill under sunscreen or makeup",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable fragrance some wish were left out",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pricey for a small bottle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Lightweight, fast-absorbing feel when it works well",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Nasty",
+   "titre": "Don't use if you have hyperpigmentation👎",
+   "texte": "This cling so horribly to my hyperpigmentation. It made my dark patches around my mouth stain orange- it was embarrasing. I stopped using this & have not had issues since.",
+   "date": "2025-12-29",
+   "verifie": false,
+   "utiles": 7,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Lyn",
+   "titre": "Returned",
+   "texte": "Not for sensitive skin. Burned so badly left my face comepletely red and painful.",
+   "date": "2026-04-07",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 1,
+   "auteur": "Ivy",
+   "titre": "This product will give hyperpigmentation",
+   "texte": "I used this product daily for about 3 months. The first two months it didn't do much so I thought I needed to use it for longer. But then I noticed that it was giving me a melasma mustache and only worsened when I went on vacation and was out in the sun. I stopped using this product immediately and now months later I still have very dark skin on my upper lip. I'm hoping Musely will work to get rid of the hyperpigmentation because it's really embarrassing.",
+   "date": "2025-03-23",
+   "verifie": false,
+   "utiles": 6,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "T",
+   "titre": "Pass",
+   "texte": "I wanted to love this product… I have had great experiences with others in this brand line. I needed a new vitamin C serum but this one was too strong for me. The salicylic acid was clearly too much for my skin, I was breaking out more than I ever do. Bummer since I still had more than half bottle and the price wasn't cheap.",
+   "date": "2025-04-13",
+   "verifie": false,
+   "utiles": 5,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Emily",
+   "titre": "Not for me",
+   "texte": "I used this for 3-4 months. A little goes a long way. I liked the fragrance, it smelled clean compared to the other stinky vitamin c serum I've used in the past. It also went on my skin SO smooth! I really loved how hydrating it was. It's NOT greasy, NOT sticky and made my skin feel SO smooth and matte. I can't say I noticed any difference with fine lines or dark spots, but maybe I needed to use it for longer. **My HUGE issue with this serum was that I started getting very prominent clogged pores/hard keratin plugs on my cheeks and on my jawline. I stopped using this serum almost 2 months ago and my skin is smooth again. All in all, I wanted to like this serum. But it wasn't for me.",
+   "date": "2026-03-18",
+   "verifie": false,
+   "utiles": 3,
+   "peau": null,
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jill",
+   "titre": "This has been a game changer!",
+   "texte": "I have used this serum for about a year and it has made a huge difference in my \"turkey neck.\" I'm 60 years old and I was struggling with my neck - I hated it! It didn't take long after starting this product when I realized it was helping - SO MUCH!",
+   "date": "2024-10-22",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "mature",
+   "sujets": [
+    "aging"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "DaniLi",
+   "titre": "Love it so far!",
+   "texte": "I haven't tried this product long enough, but I've been using it for 3 days and I feel the difference. A bit of context about my skin: acne-prone, combination, and sensitive. I've been battling adult acne for years, and although there are times when it improves, other times it worsens. I've been through 3 dermatologists with different treatments, and no matter how well they work for a while, the acne always comes back. My hormones and other lab results are fine, but the acne always returns. I decided to add this product to my routine since I love La Roche Posay products, and my skin looks more glowy, and the spots/breakouts I had are diminishing. I feel like what my skin was lacking was hydration, and I feel like this product is delivering. I'll leave my comments on how it continues later.",
+   "date": "2024-05-05",
+   "verifie": true,
+   "utiles": 3,
+   "peau": "combination",
+   "sujets": [
+    "blemishes",
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}

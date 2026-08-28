@@ -1,0 +1,121 @@
+{
+ "ref": "pimprod2056619",
+ "asin": null,
+ "pid": "pimprod2056619",
+ "source": "ulta",
+ "nom": "COSRX The Vitamin C 13 Serum with Super Vitamin E & Hyaluronic Acid",
+ "note": 4.69,
+ "nbAvis": 16,
+ "lus": 12,
+ "collectes": 12,
+ "segments": {
+  "combination": "One reviewer with combination skin who deals with hormonal acne reports pairing this with a skin peptide product made a noticeable difference in her skin."
+ },
+ "concerns": {
+  "aging": "One reviewer reports the added hyaluronic acid helps reduce the appearance of fine lines and wrinkles while deeply moisturizing the skin.",
+  "dehydration": "The same reviewer credits the added hyaluronic acid with providing deep moisture alongside its anti-aging effect, though this is the only reviewer to comment on hydration directly.",
+  "redness": "One reviewer reports it calmed redness from acne scars and sun spots.",
+  "spots": "Most reviewers report visibly more even skin tone and faded hyperpigmentation, sun spots, or acne scars, with some no longer needing foundation to even out their complexion."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong, off-putting smell for some users",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Needs refrigeration to prevent color change or oxidation",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "13% strength good for daily use versus the 23% version",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Gentle, no reaction even for cautious first-time users",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Tee",
+   "titre": "The Smell 🤢",
+   "texte": "I can not get past the smell. Only used it once. Im not sure how well it works bc all I could smell was how nasty it was all day. Im sure its a great product but thats a no for me.",
+   "date": "2026-02-21",
+   "verifie": false,
+   "utiles": 9,
+   "peau": null,
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Dana B.",
+   "titre": "It's good! I was nervous",
+   "texte": "It's good! I was nervous trying but pairing it with the skin peptide has made a difference in my skin! I do deal with hormonal acne and I have combination skin!",
+   "date": "2026-01-03",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "combination",
+   "sujets": []
+  },
+  {
+   "note": 5,
+   "auteur": "Jozette B.",
+   "titre": "I adore this, it evened",
+   "texte": "I adore this, it evened out my skin tone and helped with spots that had hyperpigmentation. Only issue with it is the color change, so it is important to keep refrigerated if you can, I think I'll try a higher concentration next.",
+   "date": "2025-09-26",
+   "verifie": false,
+   "utiles": 2,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Jay H.",
+   "titre": "If the goal is youthful",
+   "texte": "If the goal is youthful skin, this serum is a must! The added Hyaluronic acid ensures deep moisture into the skin and helps reduce the appearance of fine lines and wrinkles.",
+   "date": "2025-08-26",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "aging",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Madenah R.",
+   "titre": "I got this product to",
+   "texte": "I got this product to even out my skin tone and calm the redness down from acne scars and sun spots. I love this formula.",
+   "date": "2025-11-09",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "spots"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "sharda w.",
+   "titre": "This is amazing it cleared",
+   "texte": "This is amazing it cleared up my uneven tones amd for the first time in a p yrs I don't need foundation.",
+   "date": "2025-11-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "spots"
+   ]
+  }
+ ],
+ "reserve": null
+}
