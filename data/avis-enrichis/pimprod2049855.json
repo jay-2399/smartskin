@@ -1,0 +1,136 @@
+{
+ "ref": "pimprod2049855",
+ "asin": null,
+ "pid": "pimprod2049855",
+ "source": "ulta",
+ "nom": "BYOMA Barrier Repair Eye Cream",
+ "note": 4.33,
+ "nbAvis": 262,
+ "lus": 81,
+ "collectes": 120,
+ "segments": {
+  "oily": "One reviewer with oily-combination skin reports the cream caused breakouts along her under-eye area and switched to using it on her body instead.",
+  "combination": "One reviewer in her forties with an oily T-zone and dry under-eyes reports it worked well for hydrating the drier area specifically.",
+  "dry": "Reviewers with dry skin, including some describing dry, mature skin, report the cream relieves flaking and dryness around the eyes, though one reviewer's dry mature skin saw no strong additional effect.",
+  "sensitive": "Reviewers with sensitive skin or eyes are split: many report no burning or irritation at all, but a few describe immediate stinging or an allergic-type reaction severe enough to stop use.",
+  "mature": "One reviewer with dry, mature skin found the cream just okay, not noticing it sinking in or delivering a strong additional effect."
+ },
+ "concerns": {
+  "dehydration": "Reviewers overwhelmingly report strong hydration and relief from dry, flaky under-eye skin, describing it as the cream's most consistent benefit even when other claims are less noticeable.",
+  "barrier": "Several reviewers report the cream calmed irritation left behind by other eye products or seasonal dryness, describing it as restorative for a compromised eye area, though a few felt no real barrier benefit beyond basic moisture.",
+  "blemishes": "One reviewer with oily-combination skin reports it caused breakouts along her cheeks under the eyes, while a reviewer with dry, acne-prone skin reports no breakouts even layering it over a retinol eye cream.",
+  "redness": "Reviewers with rosacea-prone or reactive skin generally tolerate the cream well, though a couple with sensitive eyes report immediate stinging severe enough to stop using it."
+ },
+ "aspects": [
+  {
+   "libelle": "Doesn't fully absorb, leaves a tacky feeling",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cute, compact packaging",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Pump dispenses too much product per use",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Fragrance-free",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Hardened product clogs the pump nozzle",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Affordable for the results",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Faith",
+   "titre": "Itchy, irritated eyes",
+   "texte": "I wanted to like this product, and I like BYOMA products so much I thought I would, but once I used this my eyes started to sting immediately and it wouldn't stop until I washed my face. I returned it immediately, and will never purchase it again. Not recommended it you have sensitive eyes.",
+   "date": "2026-05-03",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "sensitive",
+   "sujets": []
+  },
+  {
+   "note": 2,
+   "auteur": "EMRGH123",
+   "titre": "Just sits on skin, does not sink in",
+   "texte": "This product never sinks into skin, no matter how much it is gently patted in. I used it every night for 2 weeks, and woke up with sticky under eyes each day. Also, it burns like heck if you get any in your eyes, and my eyes are sensitive, so just using something that did not sink in caused them to tear up. The cream not sinking in also means it is not getting into deeper layers of skin, so I saw no difference after the 2 weeks of use. Each time you pump it out (1 pump is more than enough for both eyes, too much, actually) there is a hard piece that was left in the spout from the last time you used it that has to be thrown away.",
+   "date": "2025-07-12",
+   "verifie": false,
+   "utiles": 7,
+   "peau": "sensitive",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Rebecca",
+   "titre": "Wah",
+   "texte": "Unfortunately this causes my skin to breakout along my cheeks underneath my eye area whenever I apply it. It feels really nice and creamy, not too thick or uncomfortable. I love the pump, though the packaging itself is quite bulky which I'm not a fan of. Will be using this up on my body instead! 32/oily-combo skin",
+   "date": "2025-04-23",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Sam",
+   "titre": "Nice texture feels good on sensitive skin",
+   "texte": "Has been working well for my sensitive rosacea prone skin. The pump works well and is convenient, provides the right amount per pump. I like the fragrance free scent, and the texture is like a thick gel that doesn't feel heavy. Can't tell how well it's working yet but I received as a promo so I will continue to use up.",
+   "date": "2025-03-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ts_Jenniboo",
+   "titre": "Great Eye Cream",
+   "texte": "I love this eye cream. Im 43 years old. Ance prone t zone oily here but i have dry undereye. This is the best eye cream ive used so far that works for hydration and works soooo good under concealer/makeup! I use this day and night. At night use a retinol eyecream and then i layer this eyecream over it to lock in hydration. Sooooo good and affordable i mean what wlse can u ask for! Trust me you will love it!",
+   "date": "2025-06-06",
+   "verifie": false,
+   "utiles": 4,
+   "peau": "combination",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Den",
+   "titre": "Love",
+   "texte": "I had really dry undereyes to the point where my skin would flake off and this product fixed that issue! Its fragrance free and great for sensitive skin. It also feels nice to rub under the eyes and the eyelids. Will definitely repurchase.",
+   "date": "2026-07-28",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "dry",
+   "sujets": [
+    "dehydration",
+    "barrier"
+   ]
+  }
+ ],
+ "reserve": null
+}

@@ -1,0 +1,133 @@
+{
+ "ref": "pimprod2020737",
+ "asin": null,
+ "pid": "pimprod2020737",
+ "source": "ulta",
+ "nom": "KORRES Greek Yoghurt Probiotic Superdose Face Mask",
+ "note": 4.65,
+ "nbAvis": 361,
+ "lus": 79,
+ "collectes": 113,
+ "segments": {
+  "sensitive": "Reviewers with sensitive skin are split: several say it calms and soothes with no irritation, while others report redness, burning, or new breakouts, particularly around the nose and mouth or with longer wear.",
+  "dry": "Reviewers with dry skin describe it as rich and deeply moisturizing, including when used as an overnight treatment.",
+  "combination": "Reviewers with combination skin mostly report a plumping, hydrating effect, though one found it left her skin dull with no noticeable glow.",
+  "oily": "One reviewer with oily, acne-prone skin reports her pimples disappeared overnight after use."
+ },
+ "concerns": {
+  "redness": "Several reviewers say the mask calmed existing redness or red patches, sometimes after a single use, but a few with sensitive skin report the mask itself caused redness or a burning sensation, especially when left on longer than the recommended 15 minutes.",
+  "blemishes": "Most reviewers report fewer breakouts or clearer skin with regular use, including for hormonal acne, though one reviewer with sensitive skin says it caused more acne for her.",
+  "dehydration": "Reviewers with dry skin consistently describe it as rich and deeply moisturizing, though one reviewer hoping to repair a damaged moisture barrier found it soothing but less intensely hydrating than she had hoped."
+ },
+ "aspects": [
+  {
+   "libelle": "Strong or off-putting smell",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Cooling and refreshing when refrigerated",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Thick texture, takes effort to remove",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Leaves skin soft and smooth",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Doesn't fully dry down on skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Pricey for the jar size",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 3,
+   "auteur": "Shann",
+   "titre": "Liked not loved",
+   "texte": "My skin is normally a combination. The product did leave my face moisturized after, but there was no after glow. My face looked pretty dull. I didn't feel as though this product was any different from an average face wash.",
+   "date": "2019-10-02",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": []
+  },
+  {
+   "note": 3,
+   "auteur": "Christy",
+   "titre": "Pretty packaging",
+   "texte": "I really liked the packaging of this face mask. It was my first product from Korres and my first probiotic face mask. I liked the consistency of the mask, it was easy to apply evenly and easy to wash off. I did notice that it irritated my skin, but only around my nose and mouth area. This area became red, but I have very sensitive skin. The rest of my skin felt very hydrated after use. I would recommend doing a patch test first if you have sensitive skin.",
+   "date": "2019-10-03",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "uniqlex",
+   "titre": "Great except for sensitivity",
+   "texte": "I followed the pro tip and kept the mask in the fridge and I felt like it made it so much more soothing and relaxing. I liked the texture and how easy it was to apply and to wipe off. I just think it caused more acne on my sensitive skin.",
+   "date": "2019-10-17",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Saristah",
+   "titre": "Not fragrance free",
+   "texte": "Don't use even a few minutes more than 15 minutes of your skin will get hot and red. I'll be returning it irritated my skin 5 hours later still red:(",
+   "date": "2020-12-20",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Krissy",
+   "titre": "Really really nice 10/10",
+   "texte": "I have used this twice and wow. I have sever dry skin all over, this includes my face, and this actually moisturizes. I used this as a night cream the last two nights. (Did not wash off) A little goes a long way. My skin is soooo smooth and soft and actually moisturized when I wake up which is very hard for me to accomplish with other products I have tried. It also gives me a nice even tone. I am hoping with continued use I will see more benefits.10/10 recommended giving it a try, maybe even try using it as a night cream :)",
+   "date": "2021-01-09",
+   "verifie": false,
+   "utiles": 5,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "kaykay",
+   "titre": "LOVE!",
+   "texte": "I tried this product for the first time and it's great! Put it in the fridge and it provides a great sensation on your face as a facial. I've used this and my pimples disappeared overnight and/or seemed to be less inflamed or painful in the morning. I will definitely be using more products from Korres in the future. For reference, I am 22 and have acne-prone and oily skin.",
+   "date": "2021-01-05",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "oily",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}

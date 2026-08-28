@@ -1,0 +1,137 @@
+{
+ "ref": "mkt77007164",
+ "asin": null,
+ "pid": "mkt77007164",
+ "source": "ulta",
+ "nom": "Proactiv Redness Correcting Treatment",
+ "note": 4.39,
+ "nbAvis": 116,
+ "lus": 79,
+ "collectes": 110,
+ "segments": {
+  "dry": "Reviewers with dry skin tend to use this as a targeted spot treatment rather than all over, citing its drying effect.",
+  "combination": "One reviewer with combination skin found it merely average, without describing a strong effect either way.",
+  "sensitive": "Reviewers with sensitive or reactive skin mostly report the treatment is calming and non-irritating, though one reviewer explicitly says it was too harsh for her very sensitive skin and left it dry and red until it adjusted."
+ },
+ "concerns": {
+  "redness": "Most reviewers report a visible reduction in facial redness within days, especially around the cheeks and nose, though several say the tinted formula blends in too completely to actually mask redness and works better as a treatment than a color-corrector.",
+  "blemishes": "Reviewers consistently report the salicylic acid dries out and shrinks active pimples within a day or two, with many also seeing fewer new breakouts over consistent use.",
+  "dehydration": "A number of reviewers, including some with normally non-sensitive skin, report the treatment is somewhat drying and needs to be followed with a moisturizer."
+ },
+ "aspects": [
+  {
+   "libelle": "Green tint camouflages redness under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Green tint blends away instead of covering redness",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Strong or medicinal scent",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Can dry out or flake on the skin",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Small tube, a little goes a long way",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Sits well under makeup without pilling",
+   "polarite": "pos",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 2,
+   "auteur": "Renee G.",
+   "titre": "Won't buy again",
+   "texte": "Corrected redness for a very small amount of time and then was just like film on my cheeks. I'm sorry I bought this and won't ever buy again. Not effective.",
+   "date": "2025-06-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 2,
+   "auteur": "KMR",
+   "titre": "Silky moisturizer vs. redness correcting treatment",
+   "texte": "This redness-correcting treatment has a thin, silky texture that feels more like a lightweight moisturizer than a color-correcting product. While it applies beautifully, it didn't do much to neutralize redness for me. I tried using it under my everyday foundation to tone down a red blemish, but the formula blended in so completely that it offered little to no coverage. I've had better results with other redness correctors that leave more pigment on the skin instead of absorbing like a cream.",
+   "date": "2025-11-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Dani",
+   "titre": "If had to I would buy again",
+   "texte": "I used Proactiv hoping it would help with redness from breakouts. It did help clear my skin, and once the acne improved, the redness faded too. That said, it was a little harsh at first and made my skin dry and slightly red until it adjusted. Moisturizer is a must if you use this. Once I added something gentle, my skin looked better overall. I wouldn't recommend it for super sensitive skin, but it worked okay for acne-related redness. Overall, it helped, but it's not perfect.",
+   "date": "2025-12-15",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "redness",
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Ally337",
+   "titre": "Extremely effective in combating redness/acne!",
+   "texte": "I get hormonal acne & redness on my face so I was delighted to be sent this Redness Correcting Treatment to try. It's effective in both combating acne and calming redness - which is amazing! The salicylic acid manages my acne to minimize the pimples themselves & stop new ones from forming. The cica neutralizes the redness on my face. It's perfect for no makeup days because my skin looks smooth and even. It doesn't ball up or dry me out so I can use makeup right over it too with no issue. A little really goes a long way so this tiny tube has lasted. I've been wearing makeup less since using this because my skin overall looks more balanced. It's the best product I've used to counteract redness. I'll be buying this regularly and definitely recommend.",
+   "date": "2025-12-06",
+   "verifie": false,
+   "utiles": 0,
+   "peau": null,
+   "sujets": [
+    "redness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "EvGloss",
+   "titre": "Quick Redness Fix!",
+   "texte": "I've been using this treatment whenever my skin flares up. It really helps calm down my irritation and helps shrink my not so lovely small breakouts. The texture is lightweight and absorbs fast and it doesn't feel heavy under my other skincare. I have dry skin so I only use it as a spot treatment, but it still leaves those areas looking less red and more even. It's gentle on my skin also, which I appreciate! It's also small enough, I can toss in my purse or keep in my pocket to use when I'm on the go.",
+   "date": "2025-12-01",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Amberlyn304",
+   "titre": "Absolutely Amazing!",
+   "texte": "This has been an absolute lifesaver for my skin! I had so many breakouts that were so red and I was embarrassed to even go out for a week. Thankfully, this arrived just in time and it really saved my skin and my self-confidence! I would definitely recommend this for anyone with acne prone skin, sensitive skin, or teenagers going through puberty! My daughter is now using it and absolutely loves it too.",
+   "date": "2025-11-28",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes",
+    "redness"
+   ]
+  }
+ ],
+ "reserve": null
+}

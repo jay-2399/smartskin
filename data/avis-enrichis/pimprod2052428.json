@@ -1,0 +1,153 @@
+{
+ "ref": "pimprod2052428",
+ "asin": null,
+ "pid": "pimprod2052428",
+ "source": "ulta",
+ "nom": "ANUA Zero-Cast Moisturizing Finish Sunscreen",
+ "note": 4.5,
+ "nbAvis": 233,
+ "lus": 79,
+ "collectes": 104,
+ "segments": {
+  "oily": "Reviewers with oily skin are divided: several describe the sunscreen as greasy or shiny within an hour, while others with oily skin report it worked well without excess shine.",
+  "dry": "Reviewers with dry skin generally describe it as moisturizing and note it doesn't pill or flake, though one found the hydration insufficient during intense summer heat.",
+  "combination": "Reviewers with combination skin report mixed results, from a tacky, greasy T-zone to a balanced finish that controls oil while still hydrating drier areas.",
+  "sensitive": "Reviewers with sensitive skin mostly describe it as gentle and non-irritating, but a few report burning, chemical burns, or a rash, including one who doesn't normally have sensitive skin.",
+  "normal": "The few reviewers with normal or normal-to-dry skin describe it as a good fit that leaves skin hydrated without shine."
+ },
+ "concerns": {
+  "dehydration": "Most reviewers with dry skin say it keeps their skin hydrated without tightness or flaking, though one found the hydration insufficient during intense summer heat.",
+  "redness": "A handful of reviewers describe burning, chemical burns, or red rashes, mainly around the eyes, including in people who don't usually have sensitive skin.",
+  "blemishes": "Reviewers repeatedly report no new breakouts, and a few describe it as acne-friendly or note a reduction in existing acne.",
+  "oiliness": "Reviewers with oily skin most often report a greasy, shiny finish that shows within an hour, though some describe it as lightweight and non-greasy for them."
+ },
+ "aspects": [
+  {
+   "libelle": "Leaves no white cast",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Stings or burns the eyes",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Noticeable sunscreen fragrance",
+   "polarite": "neg",
+   "concerne": []
+  },
+  {
+   "libelle": "Greasy, heavy finish",
+   "polarite": "neg",
+   "concerne": [
+    "oily"
+   ]
+  },
+  {
+   "libelle": "Wears well under makeup",
+   "polarite": "pos",
+   "concerne": []
+  },
+  {
+   "libelle": "Small bottle for the price",
+   "polarite": "neg",
+   "concerne": []
+  }
+ ],
+ "extraits": [
+  {
+   "note": 1,
+   "auteur": "Syd",
+   "titre": "Gave me chemical burns",
+   "texte": "After a day of use, my skin started feeling like it was burning. I didn't think that it was the sunscreen so I put it on for another day and woke up with red burning rashes around my eyes (mind you I didn't put it around my eyes) and I couldn't even cover them with makeup. The rash lasted for like a week. I don't even have sensitive skin. Also it feels super greasy on your skin and it's not that light weight. Stay away from this sunscreen!",
+   "date": "2025-12-03",
+   "verifie": false,
+   "utiles": 14,
+   "peau": null,
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Maggie",
+   "titre": "Not Great for Oily Skin",
+   "texte": "I have extremely oily skin and within an hour, this sunscreen leaves me looking greasy and shiny. I look borderline sweaty. It also burns my eyes from an average sedentary, low-activity day. I wanted to love it because it leaves zero white cast.",
+   "date": "2025-08-21",
+   "verifie": false,
+   "utiles": 11,
+   "peau": "oily",
+   "sujets": [
+    "oiliness"
+   ]
+  },
+  {
+   "note": 3,
+   "auteur": "Charmeris",
+   "titre": "A Mixed Review",
+   "texte": "I recently tried the Anua Zero-Cast Moisturizing Finish Sunscreen, and while it has some promising features, I found it to be a bit of a mixed bag. On the positive side, the formula is lightweight and absorbs quickly, making it suitable for daily wear. I appreciated that it doesn't leave a heavy or greasy residue, which is often a problem with many sunblocks. However, I was disappointed to find that it didn't completely deliver on the \"zero-cast\" claim. Although it's less noticeable than some other sunscreens I've tried, there was still a slight white cast on my medium skin tone, which was frustrating. Additionally, while the moisturizing finish is a plus, I found it lacking in hydration for my dry skin during the more intense summer days. Overall, while the Anua Zero-Cast Moisturizing Finish Sunscreen has its strengths, such as being lightweight and easy to apply, the slight white cast and the need for more hydration make it just an average product for me. It may work better for others with different skin types, but I wouldn't repurchase it. *This review was collected as part of a promotion*",
+   "date": "2025-07-18",
+   "verifie": false,
+   "utiles": 8,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 4,
+   "auteur": "Susan C.",
+   "titre": "It's nice, but not for me",
+   "texte": "I just purchased this. I read the reviews and it seemed like it plays nice with makeup, primer, etc., and is protective. I, however, had an allergic reaction to it. Apparently, I need mineral sunscreen and not chemical. I'm not going to rate this product badly because of my allergic reaction. When I had it on under makeup, everything went on smooth and stayed in place. There was no white cast and it looked good. There is a slight fragrance, but nothing too strong. I would absolutely recommend this product, IF you dont have sensitive, reactive skin. My skin type is combo, I have PMLE, and I am very light.",
+   "date": "2026-07-29",
+   "verifie": false,
+   "utiles": 2,
+   "peau": "combination",
+   "sujets": [
+    "redness"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Halimat",
+   "titre": "Combo skin best friend",
+   "texte": "Combo skin girlies, LISTEN UP! If your T-zone is oily but your cheeks stay dry and confused—this sunscreen? It's that girl. No white cast. No greasy mess. No drama. Glides on like a lightweight moisturizer, leaves a juicy-but-not-shiny finish. My dry areas stay hydrated, oily parts stay in check. No pilling, no breakouts, no \"sliding off your face by noon\" energy. Bonus? Makeup layers flawlessly on top. Sensitive-skin safe too,no stinging, no fragrance overload. If you're still ghosting good SPF, this is your soft but serious wake-up call. 10/10 for combo skin baddies.",
+   "date": "2025-07-17",
+   "verifie": false,
+   "utiles": 1,
+   "peau": "combination",
+   "sujets": [
+    "oiliness",
+    "blemishes"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Nisa",
+   "titre": "No white cast",
+   "texte": "I've been using the ANUA Zero-Cast Moisturizing Finish Sunscreen, and I'm seriously so happy with it. Sunscreens usually make my skin look super white or greasy, but this one? Nope. It goes on clear with zero white cast, just like the name says, and it feels like a moisturizer more than sunscreen. The texture is super lightweight and smooth it glides on and soaks in fast. My skin feels hydrated but not oily, which is a big deal for me because I hate when sunscreen feels heavy. I use it every morning and it sits really well under makeup too. No piling or weird texture. It has SPF 50, so I know I'm protected, and it hasn't broken me out at all. I've got dry skin, and this actually helps keep my face feeling soft all day. No tightness, no flakiness What I love most is how easy it makes sun protection. I don't even feel like I'm wearing sunscreen, and I actually want to use it every day.",
+   "date": "2025-07-17",
+   "verifie": false,
+   "utiles": 0,
+   "peau": "dry",
+   "sujets": [
+    "dehydration"
+   ]
+  },
+  {
+   "note": 5,
+   "auteur": "Mary",
+   "titre": "Best Sunscreen Ever",
+   "texte": "I have struggled with my skin my entire life and now bad acne over the past 4 years. I have extremely sensitive skin, acne prone, mostly dry, sometimes oily, black heads, white heads, EVERYTHING. Every sunscreen I tried was breaking me out, or too thick, felt gross on my face, looked gross on my face, and burned my eyes TERRIBLY. Anua has worked so well for me, and I've seen drastic change in my acne disappearing. My eyes are naturally very sensitive, so they do get watery sometimes after having on sunscreen all day, but it is a super manageable eye tingle lol so that has never changed my opinion on the sunscreen. I would recommend to anyone and everyone! 10/10!",
+   "date": "2026-01-29",
+   "verifie": true,
+   "utiles": 0,
+   "peau": "sensitive",
+   "sujets": [
+    "blemishes"
+   ]
+  }
+ ],
+ "reserve": null
+}
