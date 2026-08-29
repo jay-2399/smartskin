@@ -21,11 +21,10 @@ const MAX_CAR = 40000;         // garde-fou dur sur la taille du prompt
 
 export type Overview = {
   texte: string;
-  /** la mention en italique quand les avis ne disent rien du profil — sinon `null` */
-  absence: string | null;
-  /** le type de peau du profil — n'est renseigné QUE si la synthèse en parle vraiment, donc
-   *  seulement quand `absence` est nulle. L'écran s'en sert pour le sous-titre « · your oily
-   *  skin » : l'afficher alors que les avis n'en disent rien serait une promesse fausse. */
+  /** le type de peau du profil — renseigné SEULEMENT si les avis en parlent vraiment. L'écran
+   *  s'en sert pour le sous-titre « · your oily skin ». Quand il est nul, l'écran n'affiche rien
+   *  de plus : ne pas promettre est la façon honnête de le dire, et écrire « les avis ne
+   *  décrivent pas votre peau » n'apprend rien à personne. */
   peau: string | null;
   /** combien d'avis ont réellement été lus, pour le journal (jamais affiché) */
   lus: number;
@@ -66,16 +65,13 @@ TWO SEPARATE JUDGEMENTS, and this is where it goes wrong if you are not careful.
    ${peau || "a skin type"}, written from reviews that never mention it, is an invention. This is the
    single thing you must not do.
 
-2. "absence" — fill this ONLY when peauCouverte is false. One short sentence saying reviewers
-   did not describe that skin type. It is NOT a place for nuances the reviews left out: if
-   reviewers speak to the reader's skin, absence is null, full stop. A paragraph that mentions
-   "${peau || "the reader's skin"} skin" and an absence line saying reviewers did not cover it
-   contradict each other on screen.
+Do not write a sentence saying reviewers did not mention the reader's skin. It tells them
+nothing they can use, and it is not how the screen stays honest: when peauCouverte is false the
+screen simply drops the "for your ${peau || "…"} skin" label. Not claiming is the honesty.
 
 Answer with JSON only:
 {"texte": "three sentences, 55 words max",
- "peauCouverte": true or false,
- "absence": "one sentence, or null when peauCouverte is true"}`;
+ "peauCouverte": true or false}`;
 }
 
 function corpus(avis: { note?: number; titre?: string; texte?: string }[]): string {
@@ -133,15 +129,9 @@ export async function overviewPour(ref: string, profil: ProfilAvis): Promise<Ove
     if (!brut || brut.type !== "text") return null;
     const j = JSON.parse(extraireJson(brut.text));
     if (typeof j?.texte !== "string" || !j.texte.trim()) return null;
-    // `peauCouverte` décide, pas la présence d'une phrase d'absence : le modèle remplissait
-    // volontiers `absence` d'une nuance non traitée alors qu'il venait de parler de la peau du
-    // lecteur — l'écran affichait alors le paragraphe personnalisé ET « les avis n'en parlent
-    // pas », qui se contredisent.
-    const couverte = j.peauCouverte === true;
     const out: Overview = {
       texte: j.texte.trim(),
-      absence: !couverte && typeof j.absence === "string" && j.absence.trim() ? j.absence.trim() : null,
-      peau: couverte ? peau : null,
+      peau: j.peauCouverte === true ? peau : null,
       lus: Math.min(bruts.avis.length, MAX_AVIS),
     };
     cache.set(cle, out);

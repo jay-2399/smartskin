@@ -978,7 +978,6 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
           </span>
           <div class="seg-ai-sk" id="d-avis-ai-sk"><i></i><i></i><i></i></div>
           <p id="d-avis-ai-t" hidden></p>
-          <p class="seg-vide" id="d-avis-ai-v" hidden></p>
         </div>
         <div class="seg-toi" id="d-avis-peau" hidden>
           <span class="seg-k" id="d-avis-peau-k"></span>
@@ -1398,9 +1397,8 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     var boite = document.getElementById("d-avis-ai");
     var sk = document.getElementById("d-avis-ai-sk");
     var txt = document.getElementById("d-avis-ai-t");
-    var vide = document.getElementById("d-avis-ai-v");
     var prof = document.getElementById("d-avis-ai-p");
-    boite.hidden = false; sk.hidden = false; txt.hidden = true; vide.hidden = true; prof.hidden = true;
+    boite.hidden = false; sk.hidden = false; txt.hidden = true; prof.hidden = true;
 
     fetch("/api/produit/overview?ref=" + encodeURIComponent(ref))
       .then(function (r) { return r.json(); })
@@ -1411,9 +1409,9 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
         if (!o || !o.texte) { boite.hidden = true; return; }
         sk.hidden = true;
         txt.textContent = o.texte; txt.hidden = false;
-        if (o.absence) { vide.textContent = o.absence; vide.hidden = false; }
-        // le sous-titre n'apparaît que si la synthèse parle vraiment de sa peau — le serveur
-        // ne renseigne `peau` que dans ce cas
+        // Le sous-titre n'apparaît que si les avis parlent vraiment de sa peau. Quand ils n'en
+        // parlent pas, on n'écrit RIEN de plus : une ligne disant « aucun avis ne décrit votre
+        // peau » n'apprend rien à qui regarde un produit. Ne pas promettre suffit.
         if (o.peau) { prof.textContent = "· your " + o.peau + " skin"; prof.hidden = false; }
       })
       .catch(function () { boite.hidden = true; });
