@@ -7,7 +7,8 @@
 //   node scripts/fusionner-inci-recuperes.mjs              → écrit, après sauvegarde
 import fs from "node:fs";
 import path from "node:path";
-import { tauxReconnu } from "./normaliser-inci.mjs";
+import { validerInci } from "./valider-inci.mjs";
+import { apparieDepuisPage, distinctifs } from "./verifier-appariement.mjs";
 
 const RACINE = path.resolve(import.meta.dirname, "..");
 const CATALOGUE = path.join(RACINE, "data/scan/catalog.json");
@@ -15,7 +16,8 @@ const CATALOGUE = path.join(RACINE, "data/scan/catalog.json");
 // qu'aucune des deux sources ne publiait
 const RETENUS = ["inci", "inci-court", "mono"];   // ce qu'on juge exploitable ; le reste est écarté
 const RECOLTES = [path.join(RACINE, "data/scan/inci-recuperes.json"),
-                  path.join(RACINE, "data/scan/inci-web.json")];
+                  path.join(RACINE, "data/scan/inci-web.json"),
+                  path.join(RACINE, "data/scan/inci-marque.json")];
 const SAUVEGARDE = path.join(RACINE, "data/scan/catalog.avant-inci.json");
 
 const seulementVerifier = process.argv.includes("--verifier");
@@ -39,19 +41,66 @@ const parNom = new Map();
 for (const x of produits) parNom.set(x.name, x);
 
 const aEcrire = [], refuses = [];
-for (const [nom, v] of Object.entries(recolte)) {
+for (let [nom, v] of Object.entries(recolte)) {
   if (!RETENUS.includes(v.type)) continue;
   const x = parNom.get(nom);
   if (!x) { refuses.push([nom, "introuvable dans le catalogue"]); continue; }
   if (x.inci) { refuses.push([nom, "a DÉJÀ un inci — on n'écrase pas"]); continue; }
-  // Un INCI très court n'est pas suspect en soi : une eau thermale, c'est « Water » ; un patch,
-  // « Hydrocolloid ». Ce qui compte n'est pas la longueur mais le fait que ce soient de vrais noms
-  // d'ingrédients — donc on laisse passer le court à condition que le dictionnaire le reconnaisse.
   if (!v.inci) { refuses.push([nom, "inci vide"]); continue; }
-  if (v.inci.length < 8 && tauxReconnu(v.inci) < 1) {
-    refuses.push([nom, "trop court ET non reconnu — « " + v.inci + " »"]); continue;
+  // Le tri est ICI, à l'écriture, et pas seulement à la récolte. Une passe précédente avait
+  // fusionné du mobilier de page — le menu d'un site, des fragments de HTML — parce que le tri
+  // vivait dans le collecteur et que chaque collecteur avait le sien. Un seul point de contrôle,
+  // traversé par tout ce qui entre dans le catalogue.
+  // Le seuil de longueur est bas (2) : une eau thermale, c'est « Water » ; un patch,
+  // « Hydrocolloid ». Ce qui disqualifie n'est pas la brièveté mais la prose et le mobilier.
+  // Deuxième contrôle au même point de passage : la page lue parle-t-elle bien de CE produit ?
+  // Il vit aussi dans les collecteurs, mais une récolte faite avant que la règle existe ne l'a
+  // jamais subi — c'est ainsi que le Rice Polish « Deep » revenait pour le « Daily ». Tout ce qui
+  // entre dans le catalogue le repasse, quelle que soit la date de sa collecte.
+  if (v.titre) {
+    const n = apparieDepuisPage(nom, x.brand, v.titre, v.url || "");
+    if (!n.ok) {
+      refuses.push([nom, "mauvais produit — la page dit « " + String(v.titre).slice(0, 46) + " »" +
+                         (n.marqueurs?.length ? " (variante « " + n.marqueurs.join(", ") + " »)" : "")]);
+      continue;
+    }
   }
+  const j = validerInci(v.inci, { minIngredients: 2 });
+  if (!j.ok) { refuses.push([nom, "écarté — " + j.motif]); continue; }
+  // on écrit la liste NETTOYÉE, pas le texte brut : la queue de page est retirée
+  v = { ...v, inci: j.inci, tronque: j.coupe };
   aEcrire.push([x, v]);
+}
+
+// ── troisième contrôle : deux produits différents ne peuvent pas avoir la MÊME formule ──
+// Quand plusieurs fiches ressortent avec un INCI identique au caractère près, c'est presque
+// toujours qu'on a lu une page commune — un menu de filtres par ingrédient, une rubrique. Quatre
+// produits Good Molecules ont ainsi reçu « Niacinamide, Tranexamic Acid, Hyaluronic Acid… », qui
+// est la liste des filtres de leur boutique.
+// L'exception légitime : le même produit sous deux contenances. On la reconnaît à ce que les noms
+// ne diffèrent QUE par un mot de format.
+const FORMAT = new Set(`travel mini jumbo size pack count ct refill deluxe sample duo twin value
+  oz ml g gram fl edition`.split(/\s+/).filter(Boolean));
+const empreinte = (t) => String(t).toLowerCase().replace(/[^a-z0-9]/g, "");
+const parInci = {};
+for (const [x, v] of aEcrire) (parInci[empreinte(v.inci)] ||= []).push([x, v]);
+const bloques = new Set();
+for (const groupe of Object.values(parInci)) {
+  if (groupe.length < 2) continue;
+  const jeux = groupe.map(([x]) => new Set(distinctifs(x.name, x.brand)));
+  const memeMarque = new Set(groupe.map(([x]) => String(x.brand).toLowerCase())).size === 1;
+  // tout ce qui distingue une fiche des autres du groupe
+  let ecarts = new Set();
+  for (const a of jeux) for (const b of jeux) for (const m of a) if (!b.has(m)) ecarts.add(m);
+  const seulementFormat = [...ecarts].every((m) => FORMAT.has(m));
+  if (memeMarque && seulementFormat) continue;          // variantes de contenance : légitime
+  for (const [x, v] of groupe) {
+    bloques.add(x);
+    refuses.push([x.name, "même formule que " + (groupe.length - 1) + " autre(s) fiche(s) — page commune probable"]);
+  }
+}
+if (bloques.size) {
+  for (let i = aEcrire.length - 1; i >= 0; i--) if (bloques.has(aEcrire[i][0])) aEcrire.splice(i, 1);
 }
 
 console.log(aEcrire.length + " fiches à compléter" + (refuses.length ? ", " + refuses.length + " écartées" : ""));
@@ -67,8 +116,9 @@ for (const [x, v] of aEcrire) {
   // on garde d'où vient la composition : lecture directe de la fiche marchande, collecteur Amazon,
   // ou page tierce trouvée par recherche — auquel cas on note l'adresse exacte, pour que la
   // provenance reste vérifiable.
-  x.inciSource = v.fichier === "inci-web.json" ? "web" : "recupere-" + (v.via || "page");
-  if (v.url && v.fichier === "inci-web.json") x.inciUrl = v.url;
+  x.inciSource = { "inci-web.json": "web", "inci-marque.json": "marque" }[v.fichier]
+                 || "recupere-" + (v.via || "page");
+  if (v.url && v.fichier !== "inci-recuperes.json") x.inciUrl = v.url;
 }
 // on réécrit avec l'indentation d'origine (1 espace) : sinon le fichier entier est reformaté et
 // le diff noie 78 changements réels dans 40 000 lignes de bruit.
