@@ -1,0 +1,66 @@
+{
+ "asin": "B07QDSVHB6",
+ "nom": "La Roche-Posay, crème Toleriane pour peaux sensibles 40 ml",
+ "categorie": "",
+ "note": 4.6,
+ "nbAvis": 641,
+ "distribution": {
+  "one_star": 19,
+  "two_star": 13,
+  "three_star": 32,
+  "four_star": 77,
+  "five_star": 500
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Ramillon silvere",
+   "titre": "peau plus souple et plus hydratée",
+   "texte": "dans le cadre d une routine pour peau acnéique d une femme de plus de 50 ans la peau est plus hydratée et plus souple je recommande",
+   "date": "10 mars 2026",
+   "verifie": true,
+   "utiles": 1,
+   "langue": "fr"
+  },
+  {
+   "note": 4,
+   "auteur": "Bou Red",
+   "titre": "Fais l’affaire",
+   "texte": "Crème hydratante qui fait l’affaire. Elle hydrate bien et pénètre bien. Elle m’a fait des petits boutons mais j’ai quand même continué de l’appliquer. J’ai la peau grasse donc peut être qu’elle n’est pas adapté pour les peaux grasses.",
+   "date": "5 juin 2025",
+   "verifie": true,
+   "utiles": 1,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Zherlitsyna Svitlana",
+   "titre": "Ideal fùr empfindliche Haut",
+   "texte": "Sehr gute Creme. Sie ist ideal für empfindliche Haut geeignet und eignet sich sowohl abends als auch morgens",
+   "date": "29 décembre 2025",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 2,
+   "auteur": "Gintare",
+   "titre": "Did not liked it",
+   "texte": "Rolls off your face if you touch it, no chance for makeup afterwards",
+   "date": "1 mars 2023",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 3,
+   "auteur": "Poema",
+   "titre": "La devolvi",
+   "texte": "Estoy acostumbrada a cremas extra ligeras que se absorven en seguida y no se nota que llevas producto. Para mi esta era demasiado espesa.",
+   "date": "29 septembre 2021",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  }
+ ]
+}

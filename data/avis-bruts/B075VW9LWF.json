@@ -1,0 +1,36 @@
+{
+ "asin": "B075VW9LWF",
+ "nom": "La Roche-Posay - Hyalu B5 - Soin Visage Anti-rides - Crème Visage Enrichie en Acide Hyaluronique et Vitamine B5 - Crème Anti-rides qui Renforce la Barrière Cutanée - Pour Tous Types de Peaux",
+ "categorie": "",
+ "note": 4.6,
+ "nbAvis": 2395,
+ "distribution": {
+  "one_star": 48,
+  "two_star": 24,
+  "three_star": 72,
+  "four_star": 335,
+  "five_star": 1916
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Angélique",
+   "titre": "ma crème préférée",
+   "texte": "Je l'utilise depuis des années. Super pour les peaux sensibles. Elle hydrate très bien.",
+   "date": "8 mai 2025",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "HR",
+   "titre": "WORTH EVERY PENNY",
+   "texte": "Excellent product. Glides easily on the skin and absorbs well, the skin feels smooth, protected without any excess film. One can feel the benefits immediately.",
+   "date": "25 août 2025",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  }
+ ]
+}

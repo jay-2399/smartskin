@@ -28,7 +28,9 @@ function candidats(html) {
     out.push(m[1].replace(/\\u002F/gi, "/").replace(/\\n/g, " ").replace(/\\"/g, '"'));
 
   const txt = enTexte(html);
-  for (const m of txt.matchAll(/\bingredients?\b\s*[:\-–—]?\s*/gi)) {
+  // « Ingrédients » accentué et « Composition » : les intitulés des pages FRANÇAISES. Le marqueur
+  // anglais seul faisait rater toutes les pharmacies en ligne et les sites de marque en français.
+  for (const m of txt.matchAll(/\b(?:ingr[ée]dients?|composition|liste\s+inci|inci)\b\s*[:\-–—]?\s*/gi)) {
     const bloc = txt.slice(m.index + m[0].length, m.index + m[0].length + 2200);
     // on s'arrête au premier signe qu'on a quitté la liste (titre, phrase de mode d'emploi)
     const fin = bloc.search(/\n\s*\n|\b(how to use|directions|usage|reviews?|shipping|related|you may also)\b/i);

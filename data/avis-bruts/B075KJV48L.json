@@ -1,0 +1,36 @@
+{
+ "asin": "B075KJV48L",
+ "nom": "Eucerin Dermopure Oil Control Agua Micelar Piel Grasa 200Ml",
+ "categorie": "",
+ "note": 4.5,
+ "nbAvis": 100,
+ "distribution": {
+  "one_star": 5,
+  "two_star": 3,
+  "three_star": 4,
+  "four_star": 11,
+  "five_star": 77
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Lola Carvajal",
+   "titre": "Buen producto",
+   "texte": "Buen producto, lo uso para desmaquillarme sobretodo. Tengo la piel grasa y me va bien, es suavecito. Mi única queja es que es algo caro para el tamaño del bote, podría ser algo más grande.",
+   "date": "February 26, 2023",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "en"
+  },
+  {
+   "note": 5,
+   "auteur": "Birdy",
+   "titre": "No irrita ni reseca",
+   "texte": "Llevo varios años usando este producto y a comparación de otros no irrita, no reseca y deja la piel suave, después de unas semanas se nota la diferencia, la piel se ve radiante",
+   "date": "February 15, 2024",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "en"
+  }
+ ]
+}

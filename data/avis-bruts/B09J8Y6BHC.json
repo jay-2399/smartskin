@@ -1,0 +1,56 @@
+{
+ "asin": "B09J8Y6BHC",
+ "nom": "A-derma Biology Calm 40ml",
+ "categorie": "",
+ "note": 4.4,
+ "nbAvis": 34,
+ "distribution": {
+  "one_star": 1,
+  "two_star": 0,
+  "three_star": 3,
+  "four_star": 9,
+  "five_star": 21
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Dörte Sandmann",
+   "titre": "Sehr gutes Produkt - Hautcreme ohne Parfüm",
+   "texte": "Dies Creme ist ohne Parfüm und somit für Duftstoff-Allergiker sehr gut verträglich. Sie gibt der Haut benötigte Feuchtigkeit. Sehr gutes Produkt!",
+   "date": "August 23, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "en"
+  },
+  {
+   "note": 5,
+   "auteur": "Mariangela Garavaglia",
+   "titre": "Da comprare ma il costo è veramente alto",
+   "texte": "Molto utile e veramente efficace. Assolutamente da comprare, peccato il costo veramente alto",
+   "date": "August 23, 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "en"
+  },
+  {
+   "note": 5,
+   "auteur": "Excelente compra que realice el producto",
+   "titre": "Excelente crema hidratante",
+   "texte": "Excelente crema, cumple la función para lo cual está diseñada siento mi cara hidratada muy contento y satisfecho con mi compra Por mi parte lo recomiendo al cien",
+   "date": "September 16, 2025",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "en"
+  },
+  {
+   "note": 5,
+   "auteur": "ANNA TORRAS PAGES",
+   "titre": "Recomendada por mi dermatologo",
+   "texte": "A mi me recomendaron està crema en consulta asi que ya la compre con confiança. Me va francament bien i el precio mucho mas as equible.",
+   "date": "October 26, 2024",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "en"
+  }
+ ]
+}

@@ -21,11 +21,36 @@
 const GENERIQUES = new Set(`the a an and for with pack size oz ml fl count ct new skin skincare
   care beauty cosmetics official store inc ltd`.split(/\s+/).filter(Boolean));
 
-const mots = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().split(" ").filter(Boolean);
+// Les titres d'Amazon.fr sont en français, les pages d'ingrédients en anglais : « Gel Nettoyant
+// Purifiant » et « Purifying Foaming Gel » désignent le même flacon sans partager un mot. On
+// ramène donc chaque jeton à l'anglais AVANT toute comparaison — le lexique ne couvre que le
+// vocabulaire de la cosmétique, pas la langue.
+const LEXIQUE_FR = { creme: "cream", baume: "balm", serum: "serum", nettoyant: "cleanser",
+  moussant: "foaming", purifiant: "purifying", micellaire: "micellar", eau: "water", huile: "oil",
+  lait: "milk", gelee: "jelly", mousse: "foam", solaire: "sun", ecran: "sunscreen",
+  teinte: "tinted", yeux: "eye", levres: "lip", mains: "hand", corps: "body", visage: "face",
+  peau: "skin", peaux: "skin", nuit: "night", jour: "day", homme: "men", femme: "women",
+  hydratant: "hydrating", hydratante: "hydrating", apaisant: "soothing", apaisante: "soothing",
+  reparateur: "repairing", reparatrice: "repairing", cicatrisant: "repairing",
+  cicatrisante: "repairing", nourrissant: "nourishing", nourrissante: "nourishing",
+  matifiant: "mattifying", matifiante: "mattifying", exfoliant: "exfoliating",
+  demaquillant: "makeup remover", legere: "light", leger: "light", riche: "rich",
+  concentre: "concentrated", concentree: "concentrated", rides: "wrinkles", cernes: "circles",
+  taches: "spots", imperfections: "blemishes", boutons: "blemishes", seche: "dry",
+  seches: "dry", grasse: "oily", grasses: "oily", mixte: "combination", sensible: "sensitive",
+  sensibles: "sensitive", normale: "normal", anti: "anti", soin: "care" };
+const sansAccents = (x) => String(x).normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+const mots = (s) => sansAccents(String(s || "")).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim()
+  .split(" ").filter(Boolean)
+  .flatMap((m) => (LEXIQUE_FR[m] || m).split(" "));
 
 // Le pluriel est ramené au singulier des deux côtés : sans ça, « Toner Pad » et « Toner Pads »
 // passaient pour deux produits différents, et le pluriel comptait comme un mot étranger.
 const singulier = (m) => (m.length > 3 && m.endsWith("s") && !m.endsWith("ss")) ? m.slice(0, -1) : m;
+
+/** Le nom ramené au vocabulaire anglais du lexique — pour interroger un site anglophone
+ *  (INCIdecoder) avec un titre français : « Eau Micellaire » → « water micellar ». */
+export function traduireEn(nom) { return mots(nom).join(" "); }
 
 export function distinctifs(nom, marque) {
   const dm = new Set([...mots(marque)].map(singulier));
@@ -37,8 +62,8 @@ export function distinctifs(nom, marque) {
 export function apparie(nom, marque, contexte) {
   const d = distinctifs(nom, marque);
   if (!d.length) return { ok: true, part: 1, manquants: [], raison: "aucun mot distinctif à vérifier" };
-  const c = String(contexte || "").toLowerCase().replace(/[^a-z0-9]+/g, " ");
-  const manquants = d.filter((m) => !c.includes(m));
+  const c = " " + mots(contexte).join(" ") + " ";
+  const manquants = d.filter((m) => !c.includes(" " + m + " "));
   const part = 1 - manquants.length / d.length;
   return { ok: part >= 0.6, part: Math.round(part * 100) / 100, manquants };
 }
@@ -71,6 +96,9 @@ function decoder(t) {
 }
 function titreProduit(titre) {
   return decoder(titre)
+    // habillage des sites d'ingrédients : « X ingredients (Explained) », « Composition de X »
+    .replace(/\b(ingredients?|composition|inci)\b[\s(].*$/i, " ")
+    .replace(/\bingredients?$/i, " ")
     // On ne coupe QUE sur les séparateurs de boutique (barre verticale, tiret cadratin). Le
     // trait d'union simple sépare souvent deux parties du NOM sur Amazon (« … - Creamy Foam »,
     // « … - Hydrating Eye Cream ») : couper là supprimait précisément ce qui distingue la
@@ -91,21 +119,30 @@ const FORMAT_VARIANTE = new Set(`mini travel jumbo refill pack set kit deluxe sa
 // IDENTITÉ : ce qui sépare deux produits réellement différents. Manquant d'un côté OU de l'autre,
 // il disqualifie — « Peel Shot Glow WHITE Rice » ne peut pas répondre pour un titre qui dit
 // seulement « Rice » quand la marque fait aussi une version Black Rice.
-const VARIANTES = new Set(`original invisible micropoint deep light rich intense extra ultra max pro
+// Deux sévérités de marqueur, parce que les sources ne fautent pas de la même façon.
+// IDENTITÉ : ce qu'aucun titre n'a le droit de changer NI d'omettre — couleurs, force, version,
+// zone du corps. « White Rice » ne répond pas pour « Rice », « Sensitive » pas pour la gamme nue.
+const IDENTITE = new Set(`original invisible micropoint deep light rich intense extra ultra max pro
   duo trio night day nuit jour pink blue green clear white black
   gold rose sensitive oily dry combination normal mature men women kids baby forte plus advanced
   gentle strong medicated fragrance-free unscented tinted matte dewy
-  body hand foot hair scalp lip eye
-  foam bubble balm gel oil cream milk powder stick spray pad wipe bar liquid whip jelly
+  body hand foot hair scalp lip eye`.split(/\s+/).filter(Boolean));
+// PRÉSENTATION : la forme et les adjectifs d'action. En trop chez eux, ils trahissent un cousin
+// (le FOAM Cleanser n'est pas le BUBBLE) ; mais une encyclopédie d'ingrédients les OMET — la page
+// « Bioderma Sensibio Forte » est bien notre « Sensibio Forte Cream ». Une place de marché, elle,
+// écrit la forme : là, l'omission reste disqualifiante.
+const PRESENTATION = new Set(`foam bubble balm gel oil cream milk powder stick spray pad wipe bar liquid whip jelly
   hydrating clarifying soothing brightening purifying exfoliating calming firming mattifying
-  nourishing repairing smoothing plumping illuminating detoxifying refreshing cooling whipped`
-  .split(/\s+/).filter(Boolean));
+  nourishing repairing smoothing plumping illuminating detoxifying refreshing cooling whipped
+  radiance concentrated serum toner cleanser moisturizer moisturiser essence lotion mask masque
+  creme fluid fluide`.split(/\s+/).filter(Boolean));
+const VARIANTES = new Set([...IDENTITE, ...PRESENTATION]);
 
 // « pads » est le même marqueur que « pad » : sans cette tolérance, un tonique EN PADS répondait
 // pour le tonique liquide de la même gamme.
 const estVariante = (m) => VARIANTES.has(m) || (m.endsWith("s") && VARIANTES.has(m.slice(0, -1)));
 
-export function apparieDepuisPage(nom, marque, titre, url) {
+export function apparieDepuisPage(nom, marque, titre, url, { formesExigees = false } = {}) {
   const nos = new Set(distinctifs(decoder(nom), marque));
   const siens = distinctifs(titreProduit(titre), marque);
 
@@ -113,10 +150,16 @@ export function apparieDepuisPage(nom, marque, titre, url) {
   const etrangers = siens.filter((m) => !nos.has(m));
   const partSiens = siens.length ? 1 - etrangers.length / siens.length : 0;
 
-  // plancher : la page doit tout de même parler un peu de notre produit
-  const contexte = (String(url || "") + " " + String(titre || "")).toLowerCase().replace(/[^a-z0-9]+/g, " ");
-  const communs = [...nos].filter((m) => contexte.includes(m)).length;
-  const partNotre = nos.size ? communs / nos.size : 1;
+  // plancher : la page doit tout de même parler un peu de notre produit. Face à une encyclopédie
+  // (formesExigees=false), seuls les mots d'IDENTITÉ comptent au dénominateur : « Vitamin Activ Cg
+  // Radiance Concentrated Serum » chez nous, « Vitamin Activ Cg » chez INCIdecoder — les adjectifs
+  // et le nom de catégorie omis ne doivent pas faire chuter la part.
+  const contexte = " " + mots(String(url || "") + " " + String(titre || "")).join(" ") + " ";
+  const nosComptes = formesExigees ? [...nos]
+    : [...nos].filter((m) => !PRESENTATION.has(m) && !PRESENTATION.has(m.replace(/s$/, "")));
+  const base = nosComptes.length ? nosComptes : [...nos];
+  const communs = base.filter((m) => contexte.includes(" " + m + " ")).length;
+  const partNotre = base.length ? communs / base.length : 1;
 
   // Sans mot distinctif d'aucun côté, on ne peut rien affirmer : on refuse.
   if (!siens.length && !nos.size) return { ok: false, etrangers: [], partSiens: 0, partNotre: 0,
@@ -126,13 +169,22 @@ export function apparieDepuisPage(nom, marque, titre, url) {
   // pas vraiment de notre produit. Ni l'un ni l'autre n'attrape le cas où plusieurs de nos
   // produits tombent sur la MÊME page — ça se règle après coup, en repérant les collisions.
   // un marqueur d'identité en trop chez EUX, ou manquant chez eux alors qu'on l'a, disqualifie
-  const manquants = [...nos].filter((m) => estVariante(m) && !siens.includes(m) && !contexte.includes(m));
+  const exigeant = (m) => IDENTITE.has(m) || IDENTITE.has(m.replace(/s$/, "")) ||
+                          (formesExigees && estVariante(m));
+  const manquants = [...nos].filter((m) => exigeant(m) && !siens.includes(m) && !contexte.includes(m));
   const marqueurs = etrangers.filter((m) => estVariante(m)).concat(manquants);
 
   // Quand TOUS nos mots distinctifs figurent chez eux, leurs mots en trop sont du référencement,
   // pas une autre référence : « Effaclar Duo Dual Action Acne Treatment SPF 30 » est bien notre
   // « Effaclar Duo [+] SPF 30 ». Exiger en plus qu'ils n'aient rien ajouté rejetait le bon produit.
-  const ok = marqueurs.length === 0 && partNotre >= 0.5 && (partSiens >= 0.6 || partNotre === 1);
+  // Un mot étranger chez eux n'est toléré que si TOUS nos mots distinctifs sont chez eux : leurs
+  // ajouts sont alors du référencement autour du même nom (« Effaclar Duo DUAL ACTION »). Quand il
+  // manque en plus des nôtres, ce mot étranger est une autre identité — c'est ainsi que le
+  // « Toleriane DERMALLERGO » répondait pour le « Toleriane Double Repair » (moitié de nos mots
+  // présents, un mot à eux en plus : deux produits différents).
+  const ok = marqueurs.length === 0 && partNotre >= 0.5 &&
+             (partSiens >= 0.6 || partNotre === 1) &&
+             (etrangers.length === 0 || partNotre === 1);
   return { ok, etrangers, marqueurs, partSiens: Math.round(partSiens * 100) / 100,
            partNotre: Math.round(partNotre * 100) / 100 };
 }
@@ -168,7 +220,10 @@ function nomDansTitre(titre, marque) {
     const m = String(marque).trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/[\s\-.']+/g, "[\\s\\-.']*");
     t = t.replace(new RegExp(m, "gi"), " ");
   }
-  t = t.split(QUEUE)[0];
+  // « Marque - Produit » : la marque retirée, le titre COMMENCE par le séparateur, et couper au
+  // premier donnait une chaîne vide — plus aucun mot à comparer, tout s'appariait. On prend le
+  // premier segment non vide.
+  t = t.split(QUEUE).map((x) => x.trim()).find(Boolean) || "";
   return t.replace(/\b\d+(?:\.\d+)?\s*(?:count|ct|pcs?|ml|g|oz|fl\.?\s*oz)\b/gi, " ").replace(/\s+/g, " ").trim();
 }
 
@@ -208,6 +263,7 @@ export function apparieTitreMarchand(nom, marque, titre) {
   if (desaccord.length)
     return { ok: false, motif: "ne concorde pas : " + desaccord.join(", ") + " ≠ " + qT.join(", "), marqueurs: desaccord };
 
-  // le reste se juge sur le nom débarrassé de sa queue de référencement
-  return apparieDepuisPage(nom, marque, nomDansTitre(t, marque), t);
+  // le reste se juge sur le nom débarrassé de sa queue de référencement — une place de marché
+  // écrit la forme du produit, donc son omission y reste disqualifiante
+  return apparieDepuisPage(nom, marque, nomDansTitre(t, marque), t, { formesExigees: true });
 }

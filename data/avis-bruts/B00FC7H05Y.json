@@ -1,0 +1,56 @@
+{
+ "asin": "B00FC7H05Y",
+ "nom": "Eucerin Atopicontrol Daily Cream 50ml",
+ "categorie": "",
+ "note": 4.4,
+ "nbAvis": 213,
+ "distribution": {
+  "one_star": 11,
+  "two_star": 4,
+  "three_star": 11,
+  "four_star": 34,
+  "five_star": 153
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Ana",
+   "titre": "Ideal para pieles atópicas",
+   "texte": "Es la crema que mejor me va, tengo la piel atópica y muy seca, pero a la vez, con algunas cremas me salen granitos y creo que esta es la que mejor funciona, al menos en mi caso. La recomiendo.",
+   "date": "14 mai 2017",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Sunshine",
+   "titre": "Works wonderful",
+   "texte": "Wow, this product worked well in the short amount of time . I have had it, still using it on the patches of skin that bigger, but it has calmed it down considerably. Will purchase again",
+   "date": "24 mars 2025",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Harrald",
+   "titre": "Beste Gesichtscreme für gereizte Haut",
+   "texte": "Besonders für gerötete trockene und gereizte Haut das Mittel der Wahl. Eine ausgezeichnete Creme.",
+   "date": "7 avril 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Giulia",
+   "titre": "Crema perfetta per chi soffre di dermatite",
+   "texte": "Ottima qualità, rende la pelle idratata e elastica senza sentirla unta, con i passare dei giorni si vedono buoni risultati per chi soffre di dermatite atopica come la sottoscritta",
+   "date": "6 novembre 2024",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  }
+ ]
+}

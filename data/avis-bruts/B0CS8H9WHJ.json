@@ -1,0 +1,86 @@
+{
+ "asin": "B0CS8H9WHJ",
+ "nom": "Nuxe nuxuriance ultra La Crème Anti-Âge Global 50ml",
+ "categorie": "",
+ "note": 4.5,
+ "nbAvis": 371,
+ "distribution": {
+  "one_star": 11,
+  "two_star": 15,
+  "three_star": 30,
+  "four_star": 26,
+  "five_star": 289
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "catherine moro",
+   "titre": "hyper agréable",
+   "texte": "odeur hyper agréable, texture peu épaisse , j apprécie chacune des applications, je sens que ma peau s hydrate instantanément : je recommande vivement ! même si prix un peu élevé",
+   "date": "5 mars 2025",
+   "verifie": true,
+   "utiles": 1,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Marilyne Lallemand",
+   "titre": "Valeur sure",
+   "texte": "Coffret à offrir sans hésiter. Nuxe est une marque de confiance. Très bons produits avec une bonne odeur.",
+   "date": "9 juin 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 4,
+   "auteur": "jacquet claire",
+   "titre": "Crème agréable",
+   "texte": "Texture ferme, se fond bien dans la peau, odeur vraiment agréable, un bonheur à appliquer. Seul bémol, ma peau luit après quelques heures, mon visage est mouillé... Trop riche pour moi, sans doute !",
+   "date": "11 octobre 2025",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Cliente Amazon",
+   "titre": "Una crema espectacular y entrega excelente",
+   "texte": "Quiero reseñar que el producto ha llegado en perfecto estado y la entrega ha sido excelente. La crema nuxuriance es espectacular. El olor muy bueno y nutre e hidrata la piel profundamente sin engrasar. Merece la pena y es una de las mejores cremas faciales que he usado.",
+   "date": "16 mars 2025",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Max Mustermann",
+   "titre": "Tolles Creme-Set!",
+   "texte": "Wunderbares Creme-Set! Sehr ergiebig, man hat lange daran Freude. Der Duft ist angenehm und auch das Gefühl beim auftragen, die Creme zieht gut ein und pflegt trotzdem intensiv. Werde ich wieder kaufen!",
+   "date": "5 juillet 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Uschi",
+   "titre": "Gute Anti-Aging Creme.",
+   "texte": "Sehr gute Erfahrung. Eigenschaften: aufpolsternd, glättend, reichhaltige Textur, lässt sich sehr gut auftragen. Angenehmer dezenteres Duft.",
+   "date": "20 février 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 1,
+   "auteur": "Client d'Amazon",
+   "titre": "Emballage d'origine ecrabouillé et produit manquant",
+   "texte": "La crème est arrivé dans son emballage d'origine complètement écrasé et abîmé. L'échantillon de crème de nuit annoncé dans la vente et dans l'emballage d'origine inexistant. J'ai demandé un remboursement!",
+   "date": "31 janvier 2025",
+   "verifie": false,
+   "utiles": 0,
+   "langue": "fr"
+  }
+ ]
+}

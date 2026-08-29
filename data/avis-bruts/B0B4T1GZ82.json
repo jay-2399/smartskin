@@ -1,0 +1,56 @@
+{
+ "asin": "B0B4T1GZ82",
+ "nom": "Eucerin DermoPure Clinical Sérum Triple Action, Peau à imperfection, 40 ml",
+ "categorie": "",
+ "note": 4.4,
+ "nbAvis": 308,
+ "distribution": {
+  "one_star": 12,
+  "two_star": 9,
+  "three_star": 25,
+  "four_star": 46,
+  "five_star": 216
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Amara",
+   "titre": "Un soin redoutable contre les imperfections et les marques post-acné",
+   "texte": "Le sérum triple action DermoPure d'Eucerin est devenu une référence pour les peaux à tendance acnéique. Ce produit s'attaque non seulement aux boutons actifs, mais aussi — et c'est sa grande force — aux marques brunes (hyperpigmentation post-inflammatoire) qui persistent souvent après la cicatrisation. Sa texture légère pénètre instantanément sans laisser de film gras.",
+   "date": "4 mai 2026",
+   "verifie": true,
+   "utiles": 1,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Thevenin Lernould Stéphanie",
+   "titre": "Super produit pour les peaux à problèmes",
+   "texte": "Non gras, il s’étale et pénètre rapidement, comme tout sérum. Texture légère et odeur fraîche. Conseillé par ma dermato, je ne le quitte plus! Ce produit peut se mettre seul ou sous une crème de jour, selon votre type de peau (mixte à grasse). Idéale pour sécher et cicatriser les imperfections mais aussi diminuer les traces cicatriciels des boutons d’acnés. Je recommande vivement.",
+   "date": "16 octobre 2022",
+   "verifie": false,
+   "utiles": 1,
+   "langue": "fr"
+  },
+  {
+   "note": 3,
+   "auteur": "gallienne",
+   "titre": "top",
+   "texte": "produit arrivé non scellé, boîte abîmée mais service client a su être réactif ++ à part ça le produit a une odeur incroyable, ça fait 2 semaines que je l’utilise et je commence à voir des évolutions",
+   "date": "26 août 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Ganos",
+   "titre": "Mega für unreine Haut",
+   "texte": "Die Creme ist super für unreine Haut, das anfangs leichte Ausbrüche stattfinden ist völlig normal.",
+   "date": "21 janvier 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  }
+ ]
+}

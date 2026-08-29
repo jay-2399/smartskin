@@ -1,0 +1,46 @@
+{
+ "asin": "B0DY17W9VG",
+ "nom": "La Roche-Posay - Anthelios UVMune 400 - Lait Solaire SPF 50 - Enrichi en Beurre de Karité - Protection Solaire Contre les UVA/UVB - Soin Visage et Corps Pour Peaux Sensibles à Tendance Atopique",
+ "categorie": "",
+ "note": 4.7,
+ "nbAvis": 66,
+ "distribution": {
+  "one_star": 1,
+  "two_star": 3,
+  "three_star": 0,
+  "four_star": 6,
+  "five_star": 56
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Marie",
+   "titre": "Top !",
+   "texte": "Super crème solaire , efficace ( avec une bonne couche) , non grasse et qui ne tache pas les vetements ! Au top !",
+   "date": "18 juillet 2026",
+   "verifie": true,
+   "utiles": 1,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Alison Simcox",
+   "titre": "Amazing",
+   "texte": "Brilliant product. Great for skin that is super sensitive to the sun",
+   "date": "14 août 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Marilú Márquez",
+   "titre": "Perfecta",
+   "texte": "Por landescripxion esbun.excelente.producto. se absorbe rápido y no quedas con esa apariencia grasosa que dejan otras cremas.",
+   "date": "20 août 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  }
+ ]
+}
