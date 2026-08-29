@@ -77,7 +77,9 @@ const sauver = () => fs.writeFileSync(FICHES, JSON.stringify(fiches, null, 1), "
 function slugsIncidecoder(f, nom) {
   const slug = (x) => traduireEn(f.marque + " " + x).replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
   const sansTaille = nom.replace(/\bspf\s*\d+\+?\b/gi, " ").trim();
-  return [...new Set([slug(nom), slug(sansTaille), slug(sansTaille.split(/\s+/).slice(0, 3).join(" "))])]
+  return [...new Set([slug(nom), slug(sansTaille),
+      slug(sansTaille.split(/\s+/).slice(0, 3).join(" ")),
+      slug(sansTaille.split(/\s+/).slice(0, 2).join(" "))])]   // « Minéral 89 » seul
     .map((x) => "https://incidecoder.com/products/" + x);
 }
 
@@ -91,7 +93,13 @@ async function traiter(f) {
         if (!/ingredients \(explained\)/i.test(html)) continue;   // page 404 ou liste de marque
         const titre = (((html.match(/<title[^>]*>([\s\S]{0,220}?)<\/title>/i) || [])[1] || "")).replace(/\s+/g, " ").trim();
         const bon = apparieDepuisPage(nom, f.marque, titre, u);
-        if (!bon.ok) continue;
+        // Un slug est CONSTRUIT depuis notre propre nom : quand la page qui répond a tous ses
+        // mots chez nous (partSiens = 1, ≥ 2 mots, aucun marqueur d'identité qui manque), c'est
+        // notre produit dont le titre traîne des descripteurs en plus — « Minéral 89 Booster
+        // Quotidien Fortifiant » sur la page « Vichy Mineral 89 ». Les variantes restent
+        // protégées : un marqueur d'identité manquant (Yeux, White, Prebiotic…) disqualifie.
+        const rattrape = !bon.ok && bon.partSiens === 1 && (bon.nSiens || 0) >= 2 && !bon.marqueurs.length;
+        if (!bon.ok && !rattrape) continue;
         const r = extraireInciDePage(html);
         if (!r) continue;
         const j = validerInci(r.inci, { minIngredients: 2 });

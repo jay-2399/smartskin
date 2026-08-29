@@ -38,7 +38,11 @@ const LEXIQUE_FR = { creme: "cream", baume: "balm", serum: "serum", nettoyant: "
   concentre: "concentrated", concentree: "concentrated", rides: "wrinkles", cernes: "circles",
   taches: "spots", imperfections: "blemishes", boutons: "blemishes", seche: "dry",
   seches: "dry", grasse: "oily", grasses: "oily", mixte: "combination", sensible: "sensitive",
-  sensibles: "sensitive", normale: "normal", anti: "anti", soin: "care" };
+  sensibles: "sensitive", normale: "normal", anti: "anti", soin: "care",
+  quotidien: "care", quotidienne: "care", booster: "serum", fortifiant: "firming",
+  repulpant: "plumping", repulpante: "plumping", lissant: "smoothing", lissante: "smoothing",
+  eclat: "radiance", correcteur: "care", perfecteur: "care", protecteur: "care",
+  protectrice: "care", global: "care", globale: "care", intensif: "intense", intensive: "intense" };
 const sansAccents = (x) => String(x).normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 const mots = (s) => sansAccents(String(s || "")).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim()
   .split(" ").filter(Boolean)
@@ -185,7 +189,8 @@ export function apparieDepuisPage(nom, marque, titre, url, { formesExigees = fal
   const ok = marqueurs.length === 0 && partNotre >= 0.5 &&
              (partSiens >= 0.6 || partNotre === 1) &&
              (etrangers.length === 0 || partNotre === 1);
-  return { ok, etrangers, marqueurs, partSiens: Math.round(partSiens * 100) / 100,
+  return { ok, etrangers, marqueurs, nSiens: siens.length,
+           partSiens: Math.round(partSiens * 100) / 100,
            partNotre: Math.round(partNotre * 100) / 100 };
 }
 

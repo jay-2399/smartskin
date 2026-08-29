@@ -1,0 +1,46 @@
+{
+ "asin": "B0DVH753WY",
+ "nom": "Nuxe very rose Eau micellaire apaisante 200ml",
+ "categorie": "",
+ "note": 4.7,
+ "nbAvis": 112,
+ "distribution": {
+  "one_star": 0,
+  "two_star": 3,
+  "three_star": 4,
+  "four_star": 12,
+  "five_star": 92
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Christiane Biron",
+   "titre": "Produit efficace",
+   "texte": "Tres bon produit odeur agreable laisse la peau fraiche apres le demaquillage je recommande .tres satisfaite. ..",
+   "date": "10 mars 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Verena Baron",
+   "titre": "Erfüllt alle Erwartungen",
+   "texte": "Sehr gute Qualität, sogar für einen Allergiker wie mich anwendbar. Wirkt außerdem wie es soll, weiter zu empfehlen!",
+   "date": "27 mai 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Cliente Amazon",
+   "titre": "Ottimo prodotto",
+   "texte": "Prodotto fantastico,dopo tanti prodotti che irritavano gli occhi finalmente questo è super delicato!",
+   "date": "20 mars 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  }
+ ]
+}

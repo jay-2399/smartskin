@@ -1,0 +1,56 @@
+{
+ "asin": "B00WMFF2C2",
+ "nom": "Élixir de beauté Caudalie 100ml",
+ "categorie": "",
+ "note": 4.7,
+ "nbAvis": 4,
+ "distribution": {
+  "one_star": 0,
+  "two_star": 0,
+  "three_star": 0,
+  "four_star": 1,
+  "five_star": 3
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Client d'Amazon",
+   "titre": "Eau de beaute",
+   "texte": "Tres raffraichissant, j'ai eu le coup de foudre par le biais d'une collegue! Moi qui suis a fond ds les huiles essentielles, jai tt de suite etait convainque a la 1ere utilisation!! Un petit parfum agrumes boisé tres raffraichissant, relaxant, ni ne colle au visage, ni ne fait couler le maquillage et aucun besoin d'eponger !!! Un super produit, une belle decouverte Je l'adore Livraison rapide Tres bien emballé",
+   "date": "26 octobre 2017",
+   "verifie": true,
+   "utiles": 3,
+   "langue": "fr"
+  },
+  {
+   "note": 4,
+   "auteur": "Client d'Amazon",
+   "titre": "Bon produit",
+   "texte": "Un peu cher mais conforme a ce que j'attendais. Parfait pour une routine beauté. Il a une odeur agréable et laisse un jolie fini a ma peau.",
+   "date": "18 juillet 2017",
+   "verifie": true,
+   "utiles": 1,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "anais",
+   "titre": "Fraicheur et tonicité",
+   "texte": "Cette eau de beauté fait partie de mes produits préférés. Elle réveille la peau grâce à ses huiles essentielles. Et le parfum naturel qu'elle dégage est tellement agréable ! C'est un vrai coup de fouet !",
+   "date": "10 octobre 2018",
+   "verifie": true,
+   "utiles": 1,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "MERRIAUX Marie-Laure",
+   "titre": "TRES BON PRODUIT ET BON PRIX",
+   "texte": "bon prix, très bon produit de beauté qui ressere les pores et hydrate la peau.les produits CAUDALIE sont de bons produits.",
+   "date": "29 octobre 2017",
+   "verifie": true,
+   "utiles": 1,
+   "langue": "fr"
+  }
+ ]
+}

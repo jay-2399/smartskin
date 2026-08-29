@@ -1,0 +1,46 @@
+{
+ "asin": "B0FFHN7K7V",
+ "nom": "Nuxe Very rose Crème Mains et Ongles Apaisante 50 ml",
+ "categorie": "",
+ "note": 4.5,
+ "nbAvis": 54,
+ "distribution": {
+  "one_star": 2,
+  "two_star": 0,
+  "three_star": 4,
+  "four_star": 12,
+  "five_star": 36
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Karen M.",
+   "titre": "This really works!",
+   "texte": "This hand lotion is well worth the money. It really make a big difference. My hands are softer immediately and it lasts all day. And the scent is so lovely. I would highly recommend.",
+   "date": "12 mai 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 4,
+   "auteur": "Lemon",
+   "titre": "Gave my partner a mild reaction",
+   "texte": "The lotion is very nice, like all of their products. I think it must be that rose is irritating to some people. The other scents do not cause redness and irritation like this one. All of the scents are also too strong for my taste. The moisturizing formula is good and very light.",
+   "date": "6 mai 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Mrs Jacqueline Butterwick",
+   "titre": "Lovely fragrant handcream",
+   "texte": "Fabulous handcream at a great price. Lovely fragrance and made my hands feel beautifully soft without feeling greasy",
+   "date": "15 mai 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  }
+ ]
+}

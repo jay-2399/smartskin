@@ -1,0 +1,46 @@
+{
+ "asin": "B07C7J5F8T",
+ "nom": "Topicrem AC Control Soin Matifiant 40 ml",
+ "categorie": "",
+ "note": 4.6,
+ "nbAvis": 36,
+ "distribution": {
+  "one_star": 0,
+  "two_star": 3,
+  "three_star": 1,
+  "four_star": 5,
+  "five_star": 27
+ },
+ "avis": [
+  {
+   "note": 4,
+   "auteur": "Oli",
+   "titre": "Excellent rapport qualité-prix",
+   "texte": "Fonctionne bien, la crème est en général bien absorbée (un peu moins sur les tempes et sur le haut du front) et laisse la peau mat. Obtient en plus un score de 100/100 sur l'application Yuka :)",
+   "date": "2 janvier 2023",
+   "verifie": true,
+   "utiles": 1,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Lizbeth",
+   "titre": "Bueno",
+   "texte": "Tengo piel grasa y mi dermatóloga me recomendó esta crema, la verdad me gusta no deja sensación grasosa y se absorbe rápido en la piel",
+   "date": "10 octobre 2024",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 4,
+   "auteur": "Ingrid Rosado",
+   "titre": "Me deja residuos en la piel",
+   "texte": "Lo compré por que me lo recomendó la dermatóloga, sin embargo, al aplicarlo antes de mi bloqueador me deja residuos sólidos en la cara, lo deje seca 15 min y segui haciendo lo mismo. No me gusto",
+   "date": "21 décembre 2022",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  }
+ ]
+}

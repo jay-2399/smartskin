@@ -1,0 +1,66 @@
+{
+ "asin": "B0FJ8ZGRG5",
+ "nom": "Caudalie Vinopure Fluide matifiant hydratant 40 ml",
+ "categorie": "",
+ "note": 4.6,
+ "nbAvis": 83,
+ "distribution": {
+  "one_star": 2,
+  "two_star": 2,
+  "three_star": 2,
+  "four_star": 10,
+  "five_star": 66
+ },
+ "avis": [
+  {
+   "note": 1,
+   "auteur": "Farah",
+   "titre": "C'est le prix de 2× 200ml",
+   "texte": "1. Il coûte plus cher que chez Caudalie et en pharmacie. 2. Il fait des bouloches et pèle. 3. Ne vaut pas le prix. 4. Et il ne sert à rien, aucune hydratation.",
+   "date": "29 mai 2026",
+   "verifie": false,
+   "utiles": 3,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Elisabeth M.",
+   "titre": "Parfait",
+   "texte": "J'adore cette crème qui fait le job et sent divinement bon. Caudalie ne déçois jamais, vous pouvez y allez les yeux fermés",
+   "date": "21 août 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 4,
+   "auteur": "Anónimo",
+   "titre": "No",
+   "texte": "Normal, no he visto la gran diferencia, no lo volvería a comprar",
+   "date": "21 mars 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Isabelle Martins Cotta",
+   "titre": "Muito bom",
+   "texte": "Melhor hidrante que já usei. Tenho a pele oleosa e ele não pesa no rosto, fica sequinho",
+   "date": "23 août 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  },
+  {
+   "note": 5,
+   "auteur": "Maria S.",
+   "titre": "Ottimo prodotto",
+   "texte": "Io adoro questa linea di prodotti Caudalie! Amo una texture eccezionale, rapida l’asciugatura ed un ottimo effetto mat!",
+   "date": "12 juillet 2026",
+   "verifie": true,
+   "utiles": 0,
+   "langue": "fr"
+  }
+ ]
+}
