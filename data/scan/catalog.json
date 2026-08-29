@@ -334,13 +334,15 @@
   "category": "mask",
   "url": "https://www.ulta.com/p/1-collagen-mask-mkt77000559",
   "image": "https://media.ultainc.com/i/ulta/77001049?w=500&h=500",
-  "inci": null,
+  "inci": "Aqua (Water), Butylene Glycol, Glycerin, Ammonium Polyacryloyldimethyl Taurate, Vaccinium Myrtillus (Bilberry) Fruit Extract, PEG-40 Hydrogenated Castor Oil, Propylene Glycol, Saccharum Officinarum (Sugar Cane) Extract, Gluconolactone, Citrus Aurantium Dulcis (Orange) Fruit Extract, Citrus Limon (Lemon) Fruit Extract, Sodium Hydroxide, Sodium Benzoate, Cetrimonium Bromide, Acacia Seyal Gum Extract, Acer Saccharum (Sugar Maple) Extract, Parfum (Fragrance), Phenoxyethanol, Potassium Sorbate, Benzyl Salicylate, Calcium Gluconate, Hexyl Cinnamal, Limonene, Ethylhexylglycerin.",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "mask",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://www.ulta.com/p/1-collagen-mask-mkt77000559?sku=77001049"
  },
  {
   "source": "ulta",
@@ -1000,14 +1002,16 @@
   "category": "cleanser",
   "url": "https://www.ulta.com/p/rice-water-bright-rice-bran-gentle-exfoliating-cleanser-mkt77003734",
   "image": "https://media.ultainc.com/i/ulta/77006161?w=500&h=500",
-  "inci": null,
+  "inci": "Water/Eau, Glycerin, Stearic Acid, Myristic Acid, Lauric Acid, Potassium Hydroxide, Ceteareth-20, Cocamidopropyl Betaine, Silica, Disodium Cocoamphodiacetate, Cocamide MEA, Glyceryl Stearate, PEG-100 Stearate, PEG-7 Glyceryl Cocoate, Sodium Lauryl Sulfate, Hexylene Glycol, Fragrance/Parfum, Polyquaternium-7, Disodium EDTA, Oryza Sativa (Rice) Bran, Hydroxypropyl Methylcellulose, Sodium Benzoate, Dextrin, Theobroma Cacao (Cocoa) Seed Extract, Phenoxyethanol, Butylene Glycol, Oryza Sativa (Rice) Bran Oil, 1,2-Hexanediol, Oryza Sativa (Rice) Extract, Saponaria Officinalis Leaf Extract, Hexyl Cinnamal",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "exfoliant",
   "_catConfiance": "accord",
   "categorieSource": "exfoliant",
   "catConfiance": "probable-agent",
-  "catPourquoi": "mousse quotidienne, grains doux (verifie)"
+  "catPourquoi": "mousse quotidienne, grains doux (verifie)",
+  "inciSource": "web",
+  "inciUrl": "https://incidecoder.com/products/avon-the-face-shop-rice-water-bright-rice-bran-gentle-exfoliating-cleanser"
  },
  {
   "source": "ulta",
@@ -1016,13 +1020,15 @@
   "category": "exfoliant",
   "url": "https://www.ulta.com/p/shaant-pore-purifying-face-scrub-mkt77002211",
   "image": "https://media.ultainc.com/i/ulta/77003672?w=500&h=500",
-  "inci": null,
+  "inci": "2% Salicylic acid, Aqua (Water), Propanediol, Sodium Stearoyl Lactylate, Butyrospermum Parkii (Shea) Butter, Helianthus Annuus (Sunflower) Seed Oil, Lactobacillus Ferment, Glyceryl Stearate, Silybum Marianum Ethyl Ester, Glycerin, Jojoba Esters, Cetyl Alcohol, Ricinus Communis (Castor) Seed Oil, Lactobacillus, Betula Alba Bark Extract, Cetyl Palmitate, Cocos Nucifera (Coconut) Fruit Extract, Centella Asiatica Leaf Extract, Fucus Spiralis (Spiral Wrack) Extract, Tetraselmis Chui Extract, Ocimum Sanctum Leaf Oil, Pogostemon Cablin (Patchouli) Leaf Extract, Sorbitan Palmitate, Sorbitan Olivate, Octyldodecanol, Sclerotium Gum, Xanthan Gum, Sodium Hydroxide, Tocopherol, Citric Acid, Sodium Benzoate, Potassium Sorbate, Potassium Carbonate. Menu Points & Rewards Our Standards Blog Services My Account Contact Work with us Info About Our Standards Privacy Policy Returns and Refund Policy Shipping Policy Terms of Service Store Locations Come visit our stores Clean Beauty Market Burleigh 1/53 James Street Burleigh Heads QLD 4220 Clean Beauty Market Bondi 6/175 Oxford Street Bondi Junction NSW 2022 Follow us Find us on Facebook Find us on Instagram Find us on Email Copyright &copy; 2026 Clean Beauty Market. AUD $ AFN ؋ ALL L AMD դր. ANG ƒ AUD $ AWG ƒ AZN ₼ BAM КМ BBD $ BDT ৳ BIF Fr BND $",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "exfoliant",
   "_catConfiance": "accord",
   "categorieSource": "exfoliant",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://cleanbeautymarket.com.au/products/shaant-pore-purifying-acne-face-scrub?srsltid=AfmBOopDXgbFDMDhOde3K2Si-bT8bnyPcTJHR0qhhyvqdyTwxz00thZn"
  },
  {
   "source": "ulta",
@@ -1189,14 +1195,16 @@
   "category": "exfoliant",
   "url": "https://www.ulta.com/p/extra-gentle-daily-scrub-exfoliating-face-wash-xlsImpprod17762037",
   "image": "https://media.ultainc.com/i/ulta/2523343?w=500&h=500",
-  "inci": null,
+  "inci": "Water, Cocamidopropyl Betaine, Disodium Cocoamphodiacetate, Glycerin, Coco-Glucoside, Panthenol (Vitamin B5), Tocopheryl Acetate (Vitamin E), Bambusa Arundinacea Stem Extract, Sodium Hydroxide, Sodium Benzoate, Sodium Citrate, Xanthan Gum, Heliotropine, Phenoxyethanol, Polyquaternium-10, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Citric Acid, Sodium Chloride, Sodium Cocoamphoacetate, Masking Fragrance.",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "exfoliant",
   "_catConfiance": "accord",
   "categorieSource": "exfoliant",
   "catConfiance": "probable-agent",
-  "catPourquoi": "scrub a grains fins"
+  "catPourquoi": "scrub a grains fins",
+  "inciSource": "web",
+  "inciUrl": "https://www.target.com/p/cetaphil-extra-gentle-daily-scrub-exfoliating-face-wash-6-fl-oz/-/A-52569387"
  },
  {
   "source": "ulta",
@@ -4025,13 +4033,15 @@
   "category": "moisturizer",
   "url": "https://www.ulta.com/p/hyper-real-skincanvas-waterlight-cream-moisturizer-pimprod2056464",
   "image": "https://media.ultainc.com/i/ulta/2649996?w=500&h=500",
-  "inci": null,
+  "inci": "WATER\\AQUA\\EAU, DIMETHICONE, ISODODECANE, PEG/PPG-18/18 DIMETHICONE, BUTYLENE GLYCOL, SQUALANE, NIACINAMIDE, GLYCERIN, PROPANEDIOL, SILICA, SODIUM CHLORIDE, SODIUM HYALURONATE, CERAMIDE NG, HYDROXYPROPYLTRIMONIUM HYALURONATE, HELIANTHUS ANNUUS (SUNFLOWER) SEED EXTRACT, PRUNUS AMYGDALUS DULCIS (SWEET ALMOND) SEED EXTRACT, HORDEUM VULGARE EXTRACT\\EXTRAIT D&#x27;ORGE, CUCUMIS SATIVUS (CUCUMBER) FRUIT EXTRACT, LAMINARIA SACCHARINA EXTRACT, PAEONIAALBIFLORA FLOWER EXTRACT, CAFFEINE, YEAST EXTRACT\\FAEX\\EXTRAIT DE LEVURE, CETYL PEG/PPG-10/1 DIMETHICONE, TRISILOXANE, PROPYLENE GLYCOL DICAPRATE, ETHYLHEXYLGLYCERIN, DISTEARDIMONIUM HECTORITE, PROPYLENE CARBONATE, POLYSILICONE-11, FRAGRANCE (PARFUM), BENZYL SALICYLATE, TOCOPHERYL ACETATE, HYDROXYACETOPHENONE, DISODIUM EDTA, PHENOXYETHANOL, SODIUM BENZOATE",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "moisturizer",
   "_catConfiance": "accord",
   "categorieSource": "moisturizer",
-  "catConfiance": "sur"
+  "catConfiance": "sur",
+  "inciSource": "web",
+  "inciUrl": "https://www.ulta.com/p/hyper-real-skincanvas-waterlight-cream-moisturizer-pimprod2056464?sku=2649997"
  },
  {
   "source": "ulta",
@@ -8467,13 +8477,15 @@
   "category": "exfoliant",
   "url": "https://www.ulta.com/p/24k-facial-peeling-gel-mkt77008296",
   "image": "https://media.ultainc.com/i/ulta/77012869?w=500&h=500",
-  "inci": null,
+  "inci": "Water, Butylene Glycol, Carbomer, Sodium Hydroxide, Rosa Multiflora Fruit Extract, Enteromorpha Linza Extract, Ethyl Ascorbic Acid, Laminaria Angustata Extract, Cucumus Sativus (Cucumber) Fruit Extract, Angelica Acutiloba Root Extract, Eribotrya Japonica Leaf Extract, Tocopherol, Paeonia Suffruticosa Root Extract, Pueraria Lobata Root Extract, Aloe Barbadensis Leaf Extract, Phenoxyethanol, Ethelhexylglycerin, Gold, Fragrance.",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "exfoliant",
   "_catConfiance": "accord",
   "categorieSource": "mask",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://www.glo24k.com/products/detoxifying-24k-facial-peeling-gel?srsltid=AfmBOoqSkitW-fIySpqxj5nyEByyfj4p3PK-OJIu7VzS4md9X5JqYb9y"
  },
  {
   "source": "ulta",
@@ -9716,13 +9728,15 @@
   "category": "cleanser",
   "url": "https://www.ulta.com/p/gentle-foaming-cleanser-face-wash-sensitive-skin-xlsImpprod17762039",
   "image": "https://media.ultainc.com/i/ulta/2523344?w=500&h=500",
-  "inci": null,
+  "inci": "Water, Cocamidopropyl Betaine, Coco-Glucoside, Betaine, Glycerin, Panthenol (Vitamin B5), Tocopheryl Acetate (Vitamin E), Sodium Benzoate, Polysorbate 20, Polyquaternium-10, Phenoxyethanol, Citric Acid",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "cleanser",
   "_catConfiance": "accord",
   "categorieSource": "cleanser",
-  "catConfiance": "sur"
+  "catConfiance": "sur",
+  "inciSource": "web",
+  "inciUrl": "https://www.instacart.com/products/18081387?retailerSlug=ulta"
  },
  {
   "source": "ulta",
@@ -10450,13 +10464,15 @@
   "category": "eye-cream",
   "url": "https://www.ulta.com/p/hydrogel-collagen-under-eye-patch-xlsImpprod15691623",
   "image": "https://media.ultainc.com/i/ulta/2501747?w=500&h=500",
-  "inci": null,
+  "inci": "aqua/water, glycerin, sorbitol, sodium polyacrylate, ricinus communis [castor] seed oil, polyacrylic acid, cellulose gum, octyldodecanol, kaolin, butylene glycol, hydrolyzed collagen [marine], camellia sinensis [green tea] leaf extract, retinyl palmitate [Vitamin A], tocopheryl acetate [Vitamin E], aloe barbadensis [aloe vera] leaf juice powder, allantoin, aluminum hydroxide, tartaric acid, titanium dioxide, phenoxyethanol, fragrance, disodium EDTA, iron oxides",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "eye-cream",
   "_catConfiance": "accord",
   "categorieSource": "eye-cream",
-  "catConfiance": "sur"
+  "catConfiance": "sur",
+  "inciSource": "web",
+  "inciUrl": "https://www.u-buy.com.tw/en/product/1DZSD7J4-earth-therapeutics-hydrogel-collagen-under-eye-patches-reduce-wrinkles-puffy-eyes-dark-circles-revitalize-refresh-your-skin-5-pairs-10?srsltid=AfmBOoove7EL6ud0k4ckjJ3EBDEQ0d5DD6ycEuuRTdUm7yBubvI5t32v"
  },
  {
   "source": "ulta",
@@ -13440,14 +13456,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/hydro-star-clear-pimple-patches-pimprod2048682",
   "image": "https://media.ultainc.com/i/ulta/2631430?w=500&h=500",
-  "inci": null,
+  "inci": "Cellulose Gum, Polyisobutene, Petroleum Resins, Styrene/Butadiene Copolymer, Paraffinum Liquidum, Polyurethane, Salicylic Acid, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons hydrocolloides"
+  "catPourquoi": "patchs anti-boutons hydrocolloides",
+  "inciSource": "web",
+  "inciUrl": "https://www.ulta.com/p/hydro-star-salicylic-acid-patches-big-blue-compact-pimprod2048679?sku=2631423"
  },
  {
   "source": "ulta",
@@ -13633,14 +13651,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-day-night-pimprod2050119",
   "image": "https://media.ultainc.com/i/ulta/2633261?w=500&h=500",
-  "inci": null,
+  "inci": "Index Beauty Reviews Trending Beauty Close FREE US Shipping $50+ Auto-Replenishment 15% off First App Order Dermstore Rewards Pay using HSA/FSA • Login Register Brands Bestsellers Shop By Category Shop By Category Shop By Category Home Skin Care Sunscreen Hair Care Makeup Tools & Devices Body Care Shop By Brand Shop By Brand Shop By Brand Home SkinCeuticals SkinMedica EltaMD Obagi iS Clinical Eminence Organic Skin Care, PCA, SKIN Augustinus Bader Oribe RevitaLash Sweed Skin Care Shop By Category Shop By Category Shop By Category Home Cleansers Exfoliants, Peels & Scrubs Face Toners & Mists Serums, Masks and Treatments Moisturizers Eye Care Eyelash Serums Face Sunscreen Lip Care Neck & Decolletage Care Skin Care Tools & Devices Skin Care Kits & Value Sets Build Your Routine by Skin Type Shop By Ingredient Shop By Ingredient Shop By Ingredient Home Vitamin C Skin Care, Retinol, Hyaluronic Acid, Niacinamide, Glycolic Acid, Azelaic Acid, Peptides Ceramides, Lactic Acid, Salicylic Acid, Growth Factors Shop By Skin Type Shop By Skin Type Shop By Skin Type Home Dry Skin Sensitive Skin Oily Skin Combination Skin Normal Skin Shop By Skin Concern Shop By Skin Concern Shop By Skin Concern Home Acne & Blemishes Anti Aging Dark Circles & Puffiness Large & Visible Pores Blackheads Damaged Skin Barrier Hyperpigmentation & Dark Spots Redness Shop Body Care Shop Body Care Shop Body Care Home Body Wash & Cleansers Body Scrubs & Exfoliators Lotions & Oils Self Tanners Hands & Feet Hair Removal Wellness & Supplements Body Kits & Value Sets Shop By Collection Shop By Collection Shop By Collection Home Dermatologist-Approved Pre & Post Procedure Women Owned or Founded Brands Conscious Beauty Allure Award Winners Luxury Beauty Makeup with Skin Care Benefits Beauty Hair Care Hair Care Hair Care Home Shampoo Conditioner Dry Shampoo Hair Masks & Treatments Styling Products Color Treated Hair Hair Brushes & Combs Curl Care Hair Loss & Thinning Scalp Care Kits & Sets Shop By Hair Concern Shop By Hair Concern Shop By Hair Concern Home Hair Loss & Thinning Scalp Care Dry",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "patchs anti-boutons jour et nuit"
+  "catPourquoi": "patchs anti-boutons jour et nuit",
+  "inciSource": "web",
+  "inciUrl": "https://www.dermstore.com/p/hero-cosmetics-mighty-patch-day-night-36-count/17631906/?bvstate=pg:7/ct:r&srsltid=AfmBOopDjfArQ-OtlPEGbATJLAWvkUgEd0eGuColI0i4Tt-Zsk9DAUsN"
  },
  {
   "source": "ulta",
@@ -13769,14 +13789,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/pm-overnight-spot-patches-pimprod2049554",
   "image": "https://media.ultainc.com/i/ulta/2634919?w=500&h=500",
-  "inci": null,
+  "inci": "Carbomer Homopolymer Type C, Carbomer Interpolymer Type A, Decyl Glucoside, Dimethicone, Dioctyl Sodium Sulfosuccinate, Glycerin, Palmitic Acid, Polyacrylate Crosspolymer-6, Polyoxyl 40 Stearate, Propanediol, Purified Water, Silica, Sodium Chloride, Sodium Citrate, Sodium Hydroxide, Sodium Laurylglucosides Hydroxypropylsulfonate, Sorbitan Stearate, Stearic Acid, T-Butyl Alcohol, Xanthan Gum",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "treatment",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons de nuit"
+  "catPourquoi": "patchs anti-boutons de nuit",
+  "inciSource": "web",
+  "inciUrl": "https://incidecoder.com/products/panoxyl-pm-overnight-spot-patches"
  },
  {
   "source": "ulta",
@@ -13830,14 +13852,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-face-pore-pimple-patches-pimprod2041127",
   "image": "https://media.ultainc.com/i/ulta/2615336?w=500&h=500",
-  "inci": null,
+  "inci": "Side-by-side List Condensed Show highlights for: Shared Ingredients (0) ingredient-list#toggleCommon\" class=\"hidden\"> Loves ingredient-list#toggleLoves\" class=\"hidden\"> Watched ingredient-list#toggleWatched\" class=\"hidden\"> Avoids ingredient-list#toggleAvoids\" class=\"hidden\">, Hydrogenated Styrene/Methylstyrene/Indene Copolymer, *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\">, Cellulose Gum, Emulsion Stabilising 0 / 0 *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\">, Polyisobutene, *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\">, Pectin, Emulsion Stabilising *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\">, Hydrogenated Styrene/Methylstyrene/Indene Copolymer, , , Cellulose Gum, , , Polyisobutene, , , Pectin, Hydrocolloid *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\"> Hydrocolloid Reviews 5.00 Overall rating 5 4 3 2 1 What people say Works Well 88% Great Value 63% Absorbs Well 38% More reviews No reviews yet Be the first to review Write the first review Alternatives Alternatives See potential dupes View all Alternatives See potential dupes View all Similar Comparisons Good Molecules Pimple Patch SKIN1004 Tea-Trica Spot Cover Patch View the comparison Good Molecules Pimple Patch",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons hydrocolloides"
+  "catPourquoi": "patchs anti-boutons hydrocolloides",
+  "inciSource": "web",
+  "inciUrl": "https://skinsort.com/compare/good-molecules-pimple-patch-vs-hero-cosmetics-mighty-patch-face-pore-pimple-patches"
  },
  {
   "source": "ulta",
@@ -14689,14 +14713,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/miracle-patch-3-step-pore-melting-pack-pimprod2046994",
   "image": "https://media.ultainc.com/i/ulta/2629918?w=500&h=500",
-  "inci": null,
+  "inci": "Pore Melting Sheet: Water, 1.2-Hexanediol, Ganoderma Lucidum (Mushroom) Extract, Glycerin, Codonopsis Lanceolata Root Extract, Salix Alba (Willow) Bark Extract, Arctium Lappa Root Extract, Butylene Glycol, Hamamelis Virginiana (Witch Hazel) Extract, Viscum Album (Mistletoe) Leaf Extract, Hydrogenated Lecithin, Polyglyceryl-10 Oleate, Chrysanthemum Sinense Flower Extract, Phytosterols, Polyglyceryl-10 Laurate, Polyglyceryl-10 Myristate, Ethylhexylglycerin, Lavandula Angustifolia (Lavender) Oil, Panthenol, Sodium Phytate, Salicylic Acid, Lavandula Angustifolia (Lavender) Extract, Artemisia Scoparia Extract, Succinic Acid Soothing Sheet: Water, Butylene Glycol, Glycerin, 1.2-Hexanediol, Xanthan Gum, Dipotassium Glycyrrhizate, Ethylhexylglycerin, Sodium Phytate, Kummerowia Striata Extract, Cinchona Pubescens Bark Extract, Leptospermum Scoparium Leaf Extract, Artemisia Scoparia Extract.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "kit patchs nez anti points noirs"
+  "catPourquoi": "kit patchs nez anti points noirs",
+  "inciSource": "web",
+  "inciUrl": "https://www.target.com/p/rael-miracle-patch-3-step-pore-melting-pack-3ct/-/A-94876831"
  },
  {
   "source": "ulta",
@@ -14785,14 +14811,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/miracle-patch-invisible-spot-cover-pimprod2046990",
   "image": "https://media.ultainc.com/i/ulta/2629923?w=500&h=500",
-  "inci": null,
+  "inci": "Trehalose, Cellulose Gum, Hydrolyzed Hyaluronic Acid, Glycerin, Sodium Hyaluronate, Butylene Glycol, Succinic Acid, Madecassoside, Salix Alba (Willow) Bark Extract, Polyglyceryl-10-Laurate, Epigallocatechin Gallate, Ethoxydiglycol, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Totarol. Rael is dedicated to maintaining the accuracy of the ingredient lists on this website. However, because ingredients are subject to change, Rael cannot guarantee that these lists are complete, up-to-date and/or error-free. For an accurate listing of ingredients in each product, please refer to your product packaging.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs couvrants anti-boutons"
+  "catPourquoi": "patchs couvrants anti-boutons",
+  "inciSource": "web",
+  "inciUrl": "https://www.ulta.com/p/miracle-patch-microcrystal-spot-cover-pimprod2046992?sku=2629922"
  },
  {
   "source": "ulta",
@@ -15015,14 +15043,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-variety-pack-pimprod2052295",
   "image": "https://media.ultainc.com/i/ulta/2640523?w=500&h=500",
-  "inci": null,
+  "inci": "Index Beauty Reviews Trending Beauty Close FREE US Shipping $50+ Auto-Replenishment 15% off First App Order Dermstore Rewards Pay using HSA/FSA • Login Register Brands Bestsellers Shop By Category Shop By Category Shop By Category Home Skin Care Sunscreen Hair Care Makeup Tools & Devices Body Care Shop By Brand Shop By Brand Shop By Brand Home SkinCeuticals SkinMedica EltaMD Obagi iS Clinical Eminence Organic Skin Care, PCA, SKIN Augustinus Bader Oribe RevitaLash Sweed Skin Care Shop By Category Shop By Category Shop By Category Home Cleansers Exfoliants, Peels & Scrubs Face Toners & Mists Serums, Masks and Treatments Moisturizers Eye Care Eyelash Serums Face Sunscreen Lip Care Neck & Decolletage Care Skin Care Tools & Devices Skin Care Kits & Value Sets Build Your Routine by Skin Type Shop By Ingredient Shop By Ingredient Shop By Ingredient Home Vitamin C Skin Care, Retinol, Hyaluronic Acid, Niacinamide, Glycolic Acid, Azelaic Acid, Peptides Ceramides, Lactic Acid, Salicylic Acid, Growth Factors Shop By Skin Type Shop By Skin Type Shop By Skin Type Home Dry Skin Sensitive Skin Oily Skin Combination Skin Normal Skin Shop By Skin Concern Shop By Skin Concern Shop By Skin Concern Home Acne & Blemishes Anti Aging Dark Circles & Puffiness Large & Visible Pores Blackheads Damaged Skin Barrier Hyperpigmentation & Dark Spots Redness Shop Body Care Shop Body Care Shop Body Care Home Body Wash & Cleansers Body Scrubs & Exfoliators Lotions & Oils Self Tanners Hands & Feet Hair Removal Wellness & Supplements Body Kits & Value Sets Shop By Collection Shop By Collection Shop By Collection Home Dermatologist-Approved Pre & Post Procedure Women Owned or Founded Brands Conscious Beauty Allure Award Winners Luxury Beauty Makeup with Skin Care Benefits Beauty Hair Care Hair Care Hair Care Home Shampoo Conditioner Dry Shampoo Hair Masks & Treatments Styling Products Color Treated Hair Hair Brushes & Combs Curl Care Hair Loss & Thinning Scalp Care Kits & Sets Shop By Hair Concern Shop By Hair Concern Shop By Hair Concern Home Hair Loss & Thinning Scalp Care Dry",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "assortiment de patchs anti-boutons"
+  "catPourquoi": "assortiment de patchs anti-boutons",
+  "inciSource": "web",
+  "inciUrl": "https://www.dermstore.com/p/hero-cosmetics-mighty-patch-variety-pack/12191955/?srsltid=AfmBOopxMDmE_8geX0hcEc4waIO4IUQJ0GgTpw4qXeauVKG4m6TsV4Ux"
  },
  {
   "source": "ulta",
@@ -15166,14 +15196,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-forehead-pimple-patches-pimprod2041126",
   "image": "https://media.ultainc.com/i/ulta/2615335?w=500&h=500",
-  "inci": null,
+  "inci": "(0) ingredient-list#toggleCommon\" class=\"hidden\"> Loves ingredient-list#toggleLoves\" class=\"hidden\"> Watched ingredient-list#toggleWatched\" class=\"hidden\"> Avoids ingredient-list#toggleAvoids\" class=\"hidden\"> Hydrocolloid *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\"> Hydrocolloid, Hydrogenated Styrene/Methylstyrene/Indene Copolymer, *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\">, Cellulose Gum, Emulsion Stabilising 0 / 0 *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\">, Polyisobutene, *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\">, Pectin, Emulsion Stabilising *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\">, Hydrogenated Styrene/Methylstyrene/Indene Copolymer, , , Cellulose Gum, , , Polyisobutene, , , Pectin, Reviews No reviews yet Be the first to review Write the first review 5.00 Overall rating 5 4 3 2 1 What people say Works Well 88% Great Value 63% Absorbs Well 38% More reviews Alternatives Alternatives See potential dupes View all Alternatives See potential dupes View all Similar Comparisons Good Molecules Pimple Patch SKIN1004 Tea-Trica Spot Cover Patch View the comparison Hero Cosmetics Mighty Patch Forehead Pimple Patches Starface Hydro-Star +, Salicylic Acid, Pimple Patches View the comparison",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons front"
+  "catPourquoi": "patchs anti-boutons front",
+  "inciSource": "web",
+  "inciUrl": "https://skinsort.com/compare/hero-cosmetics-mighty-patch-forehead-pimple-patches-vs-good-molecules-pimple-patch"
  },
  {
   "source": "ulta",
@@ -15212,14 +15244,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/blemish-breakthrough-stick-it-zits-pimple-patches-pimprod2052506",
   "image": "https://media.ultainc.com/i/ulta/2642299?w=500&h=500",
-  "inci": null,
+  "inci": "Side-by-side List Condensed Show highlights for: Shared Ingredients (0) ingredient-list#toggleCommon\" class=\"hidden\"> Loves ingredient-list#toggleLoves\" class=\"hidden\"> Watched ingredient-list#toggleWatched\" class=\"hidden\"> Avoids ingredient-list#toggleAvoids\" class=\"hidden\"> Hydrocolloid *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\"> Hydrocolloid, Hydrogenated Styrene/Methylstyrene/Indene Copolymer, *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\">, Cellulose Gum, Emulsion Stabilising 0 / 0 *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\">, Polyisobutene, *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\">, Pectin, Emulsion Stabilising *]:size-4 [&>*]:app:size-3.5 opacity-90 [&>*]:mr-0.5 [&>*]:mt-0.5\">, Hydrogenated Styrene/Methylstyrene/Indene Copolymer, , , Cellulose Gum, , , Polyisobutene, , , Pectin, Reviews No reviews yet Be the first to review Write the first review 5.00 Overall rating 5 4 3 2 1 What people say Works Well 88% Great Value 63% Absorbs Well 38% More reviews Alternatives Alternatives See potential dupes View all Alternatives See potential dupes View all Similar Comparisons Good Molecules Pimple Patch SKIN1004 Tea-Trica Spot Cover Patch View the comparison Good Molecules Pimple Patch",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons"
+  "catPourquoi": "patchs anti-boutons",
+  "inciSource": "web",
+  "inciUrl": "https://skinsort.com/compare/e-l-f-cosmetics-blemish-breakthrough-stick-it-to-zits-pimple-patches-vs-good-molecules-pimple-patch"
  },
  {
   "source": "ulta",
@@ -16247,14 +16281,16 @@
   "category": "moisturizer",
   "url": "https://www.ulta.com/p/100-plant-derived-squalane-skin-hair-hydration-pimprod2007112",
   "image": "https://media.ultainc.com/i/ulta/2551177?w=500&h=500",
-  "inci": null,
+  "inci": "100% Plant-Derived Squalane: non-comedogenic and suitable for use on all skin types Formulated Without, Fragrance, Alcohol, Gluten Nuts Oil Silicone Parabens Sulfates, Mineral Oil, Methylchloroisothiazolinone, Methylisothiazolinone, Animal Oils Coal Tar Dyes Formaldehyde Mercury, Oxybenzone, Item 2551177",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "moisturizer",
   "_catConfiance": "accord",
   "categorieSource": "serum",
   "catConfiance": "probable-agent",
-  "catPourquoi": "huile squalane emolliente qui reste"
+  "catPourquoi": "huile squalane emolliente qui reste",
+  "inciSource": "web",
+  "inciUrl": "https://www.ulta.com/p/100-plant-derived-squalane-skin-hair-hydration-pimprod2007112?sku=2551177"
  },
  {
   "source": "ulta",
@@ -17566,14 +17602,16 @@
   "category": "hors-perimetre",
   "url": "https://www.ulta.com/p/clarifying-purifying-essentials-oily-skin-mkt77001735",
   "image": "https://media.ultainc.com/i/ulta/77002972?w=500&h=500",
-  "inci": null,
+  "inci": "* Cleansing Foam: Aqua (Water), Sodium Cocoyl Isethionate, Glyceryl Stearate Se, Cetyl Alcohol, Stearic Acid, Palmitic Acid, Butylene Glycol, Disodium Laureth Sulfosuccinate, Prunus Armeniaca (Apricot) Kernel Oil, Sodium Lauryl Sulfoacetate, Panthenol, 1,2-Hexanediol, Caprylyl Glycol, Hydroxyacetophenone, Parfum(Fragrance), Xanthan Gum, Allantoin, Bisabolol, Sodium Benzoate, Pantolactone, Sodium Hyaluronate, Citric Acid. * pH Balancing Toner: Aqua (Water), Isotridecyl Isononanoate, Glycerin, Sodium Lactate, Hexylene Glycol, Benzyl Alcohol, Propylene Glycol Isoceteth-3 Acetate, PEG-25 Hydrogenated Castor Oil, PEG-40 Hydrogenated Castor Oil, Sodium Citrate, Lactic Acid, Allantoin, Salicylic Acid, Parfum (Fragrance), Glycerin, Menthol, Menthyl Lactate, Sorbic Acid, Limonene, Linalool. * Refining Lotion: Aqua (Water), Lactic Acid, Glycolic Acid, Butylene Glycol, Glycereth-7 Triacetate, Sodium Hydroxide, Arginine, Sclerotium Gum, Hydroxyacetophenone, Ppg-5-Ceteth-20, Hydroxyethylcellulose, 1,2-Hexanediol, Caprylyl Glycol, Sodium PCA, Sodium Benzoate, Mannitol, Allantoin, Dipotassium Glycyrrhizate, Glycerin, Sodium Hyaluronate, Cellulose, Triticum Vulgare (Wheat) Germ Extract, Tocopheryl Acetate, Hydroxypropyl Methylcellulose, Pentylene Glycol, Ci 77288 (Chromium Oxide Greens), Olea Europaea (Olive) Fruit Oil, Lippia Citriodora Leaf Extract, Citric Acid, Camellia Sinensis Leaf Extract, Melissa Officinalis Leaf Extract, Potassium Sorbate * Purifying Detox Mask: Aqua (Water), Kaolin, Caprylic/Capric Triglyceride, Glyceryl Stearate SE, Pentylene Glycol, Butylene Glycol, Niacinamide, Ectoin, Magnesium Aluminum Silicate, Hydroxyacetophenone, Sodium Benzoate, Xanthan Gum, 1,2-Hexanediol, Caprylyl Glycol, Allantoin, Bisabolol, Copper PCA, Zinc PCA, Rosmarinus Officinalis Leaf Oil, Magnesium Aspartate, Zinc Gluconate, Diethylhexyl Syringylidenemalonate, Glycerin, Copper Gluconate, Citric Acid, Sodium Hydroxide, Zingiber Officinale (Ginger) Root Extract, Potassium Sorbate.",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "toner",
   "catConfiance": "probable-agent",
-  "catPourquoi": "set essentials plusieurs produits"
+  "catPourquoi": "set essentials plusieurs produits",
+  "inciSource": "web",
+  "inciUrl": "https://www.ulta.com/p/clarifying-purifying-essentials-oily-skin-mkt77001735?sku=77002972"
  },
  {
   "source": "ulta",
@@ -18894,14 +18932,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/miracle-patch-overnight-spot-cover-pimprod2046993",
   "image": "https://media.ultainc.com/i/ulta/2629921?w=500&h=500",
-  "inci": null,
+  "inci": "Centella Ceramides Coconut, Collagen, Glycolic Acid, Hyaluronic Acid, Niacinamide, Retinol, Rice, Salicylic Acid, Vitamin C Beauty Face Masks Eye Masks Lip Masks Pimple Patches Sheet Masks Wash-off Face Masks Cleansers Face Scrubs & Exfoliators Face Washes Face Wipes & Towelettes Toners Face Moisturizers Eye Creams Face Mist Face Oils Night Moisturizers & Creams K-Beauty K-Beauty Cleansers K-Beauty Face Masks K-Beauty Toners K-Beauty Moisturizers K-Beauty Treatments & Serums Makeup Eyes Face Lips Makeup Removers Nails Makeup Accessories Makeup Brushes Makeup Tools Makeup & Skincare Gifts Sunscreen Baby & Kids Sunscreen Face Sunscreen K-Beauty Sunscreen Treatments & Serums Acne & Blemish Treatments Anti-Aging & Firming Serums Hydrating Serums Vitamin C Serums Shop all Beauty Trending brands Grocery Baking, Flour & Mixes Almond Flour & Meal Extracts & Food Coloring Pancake & Waffle Mix Bars Energy Bars Plant Based Protein Bars Protein Bars",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patch bouton nuit"
+  "catPourquoi": "patch bouton nuit",
+  "inciSource": "web",
+  "inciUrl": "https://vn.iherb.com/pr/rael-miracle-patch-overnight-spot-cover-26-patches/151574"
  },
  {
   "source": "ulta",
@@ -20134,14 +20174,16 @@
   "category": "sunscreen",
   "url": "https://www.ulta.com/p/hydrating-sheer-sunscreen-spf-30-face-body-lotion-pimprod2036753",
   "image": "https://media.ultainc.com/i/ulta/2634401?w=500&h=500",
-  "inci": null,
+  "inci": "Active: Homosalate 6%, Octisalate 5%, Octocrylene 5%, Zinc Oxide 7%. Inactive: Water, Glycerin, Coco-Caprylate/Caprate, Propanediol, Butyloctyl Salicylate, C12-22 Alkyl Acrylate/Hydroxyethylacrylate Copolymer, Niacinamide, Ethylhexyl Methoxycrylene, Oryza Sativa (Rice) Bran Wax, Steareth-20, Ceramide Np, Ceramide Ap, Ceramide Eop, Sorbitan Isostearate, Carbomer, Triethoxycaprylylsilane, Cetearyl Alcohol, Behentrimonium Methosulfate, Triethyl Citrate, Sodium Lauroyl Lactylate, Sodium Hyaluronate, Cholesterol, Chlorphenesin, Hydroxyacetophenone, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Citric Acid, Caprylic/Capric Triglyceride, Caprylyl Glycol, Trisodium Ethylenediamine Disuccinate, Diethylhexyl Syringylidenemalonate, Xanthan Gum, Phytosphingosine, Polyhydroxystearic Acid, Polysorbate 60, Benzoic Acid.",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "sunscreen",
   "_catConfiance": "accord",
   "categorieSource": "sunscreen",
   "catConfiance": "sur-agent",
-  "catPourquoi": "solaire visage et corps revendiqué"
+  "catPourquoi": "solaire visage et corps revendiqué",
+  "inciSource": "web",
+  "inciUrl": "https://www.ulta.com/p/hydrating-sheer-sunscreen-spf-30-face-body-lotion-pimprod2036753?sku=2634401"
  },
  {
   "source": "ulta",
@@ -20251,13 +20293,15 @@
   "category": "toner",
   "url": "https://www.ulta.com/p/panthenol-barrier-toner-pad-mkt77003590",
   "image": "https://media.ultainc.com/i/ulta/77005921?w=500&h=500",
-  "inci": null,
+  "inci": "Water, Butylene Glycol, Panthenol, Glycereth-26, 1,2-Hexanediol, Propanediol, Polyglyceryl-10 Laurate, Hydroxyacetophenone, Glycerin, Trehalose, Ethylhexylglycerin, Xanthan Gum, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Sodium Hyaluronate Crosspolymer, Citric Acid, Hydrolyzed Glycosaminoglycans, Terminalia Ferdinandiana Fruit Extract, Vinegar, Trisodium Ethylenediamine Disuccinate, Caprylic/Capric Triglyceride, Hydrogenated Phosphatidylcholine, Sodium Citrate, Sodium Hyaluronate, Ananas Sativus (Pineapple) Fruit Extract, Carica Papaya (Papaya) Fruit Extract, Centella Asiatica Extract, Sucrose Stearate, Benzyl Glycol, Cetearyl Alcohol, Avena Sativa (Oat) Meal Extract, Hydrolyzed Hyaluronic Acid, Lactobionic Acid, Asiaticoside, Madecassic Acid, Madecassoside, Asiatic Acid, Hyaluronic Acid, Limonene Ingredients subject to change at manufacturer&#x27;s discretion. For the most complete and up-to-date list of ingredients, please refer to product packaging.",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "toner",
   "_catConfiance": "accord",
   "categorieSource": "toner",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://www.yesstyle.com/en/cosnori-panthenol-barrier-toner-pad-60-pads/info.html/pid.1134394874"
  },
  {
   "source": "ulta",
@@ -20266,13 +20310,15 @@
   "category": "toner",
   "url": "https://www.ulta.com/p/cis-exosome-pore-tightening-toner-mkt77003593",
   "image": "https://media.ultainc.com/i/ulta/77005924?w=500&h=500",
-  "inci": null,
+  "inci": "Water, Butylene Glycol, Niacinamide, Alcohol Denat., Lactic Acid, Dipropylene Glycol, Hydroxyacetophenone, Glycereth-25 PCA Isostearate, Sodium Hydroxide, Hydrolyzed Hyaluronic Acid, Caprylyl Glycol, Malt Extract, Adenosine, 1,2-Hexanediol, Disodium EDTA, Magnolia Kobus Bark Extract, Vincetoxicum Atratum Extract, Castanea Crenata Shell Extract, Ulmus Davidiana Root Extract, Pueraria Lobata Root Extract, Pinus Palustris Leaf Extract, Oenothera Biennis Flower Extract",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "toner",
   "_catConfiance": "accord",
   "categorieSource": "toner",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://skinsort.com/products/molvany/cis-exosome-pore-tightening-toner"
  },
  {
   "source": "ulta",
@@ -20516,13 +20562,15 @@
   "category": "toner",
   "url": "https://www.ulta.com/p/moisture-dr-toner-mkt77006470",
   "image": "https://media.ultainc.com/i/ulta/77010040?w=500&h=500",
-  "inci": null,
+  "inci": "Water, Glycerine, Betaine, Panthenol, Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid, Hyaluronic Acid, Sodium Hyaluronate Crosspolymer, Hydrolyzed Glycosaminoglycans, Melaleuca Alternifolia (Tea Tree) Leaf Extract, Portulaca Oleracea Extract, Houttuynia Cordata Extract, Salix Alba (Willow) Bark Extract, Origanum Vulgare Leaf Extract, Chamaecyparis Obtusa Leaf Extract, Lactobacillus/Soybean Ferment Extract, Cinnamomum Cassia Bark Extract, Cellulose Gum, Macadamia Ternifolia Seed Oil, Phytosphingosine, Ceramide NP, Butylene Glycol, 1,2-Hexanediol, Propanediol, Calendula Officinalis Flower Extract, Citrus Paradisi (Grapefruit) Peel Oil, Scutellaria Baicalensis Root Extract, Paeonia Suffruticosa Root Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Hydrogenated Lecithin, Limonene",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "toner",
   "_catConfiance": "accord",
   "categorieSource": "toner",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://incidecoder.com/products/isoi-moisture-dr-toner"
  },
  {
   "source": "ulta",
@@ -20999,14 +21047,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/clear-fit-master-patch-day-care-xlsImpprod17791047",
   "image": "https://media.ultainc.com/i/ulta/2527809?w=500&h=500",
-  "inci": null,
+  "inci": "Vitamin C Skin Care, Retinol, Hyaluronic Acid, Niacinamide, Glycolic Acid, Azelaic Acid, Peptides Ceramides, Lactic Acid, Salicylic Acid, Growth Factors Language English check Español",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patch bouton jour"
+  "catPourquoi": "patch bouton jour",
+  "inciSource": "web",
+  "inciUrl": "https://derm.com/shop/cosrx-clear-fit-master-patch-day-care-ab715a56c386"
  },
  {
   "source": "ulta",
@@ -21109,14 +21159,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/miracle-patch-microcrystal-spot-cover-pimprod2046992",
   "image": "https://media.ultainc.com/i/ulta/2629922?w=500&h=500",
-  "inci": null,
+  "inci": "Trehalose, Cellulose Gum, Hydrolyzed Hyaluronic Acid, Glycerin, Sodium Hyaluronate, Butylene Glycol, Succinic Acid, Madecassoside, Salix Alba (Willow) Bark Extract, Polyglyceryl-10-Laurate, Epigallocatechin Gallate, Ethoxydiglycol, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Totarol. Rael is dedicated to maintaining the accuracy of the ingredient lists on this website. However, because ingredients are subject to change, Rael cannot guarantee that these lists are complete, up-to-date and/or error-free. For an accurate listing of ingredients in each product, please refer to your product packaging.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patch microcristaux bouton"
+  "catPourquoi": "patch microcristaux bouton",
+  "inciSource": "web",
+  "inciUrl": "https://www.ulta.com/p/miracle-patch-microcrystal-spot-cover-pimprod2046992?sku=2629922"
  },
  {
   "source": "ulta",
@@ -21407,13 +21459,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/shaant-spot-hero-blemish-treatment-mkt77002206",
   "image": "https://media.ultainc.com/i/ulta/77003667?w=500&h=500",
-  "inci": null,
+  "inci": "Vitamin C Skin Care, Retinol, Hyaluronic Acid, Niacinamide, Glycolic Acid, Azelaic Acid, Peptides Ceramides, Lactic Acid, Salicylic Acid, Growth Factors Language English check Español",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "treatment",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://derm.com/shop/codex-labs-shaant-spot-hero-blemish-treatment-4c63f42eaa9d"
  },
  {
   "source": "ulta",
@@ -21483,13 +21537,15 @@
   "category": "toner",
   "url": "https://www.ulta.com/p/artichoke-soothing-affect-pore-toner-pad-mkt77003589",
   "image": "https://media.ultainc.com/i/ulta/77005920?w=500&h=500",
-  "inci": null,
+  "inci": "Water, dipropylene glycol, butylene glycol, glycerin, niacinamide, propanediol, 1,2-hexanediol, betaine, hydroxyacetophenone, allantoin, polyglyceryl-10 laurate, pentylene glycol, ethylhexylglycerin, adenosine, decyl glucoside, melia azadirachta leaf extract, disodium edta, xanthan gum, sodium citrate, artemisia annua extract, citric acid, sodium hyaluronate, bambusa vulgaris water, melia azadirachta flower extract, oenothera biennis (evening primrose) flower extract, pinus palustris leaf extract, pueraria lobata root extract, ulmus davidiana root extract, caprylic/capric triglyceride, hydrogenated phosphatidylcholine, centella asiatica extract, sucrose stearate, cetearyl alcohol, cynara scolymus (artichoke) leaf extract, mentha rotundifolia leaf extract, camellia sinensis leaf extract, thymus vulgaris (thyme) leaf extract[80ppb], asiaticoside, asiatic acid, madecassic acid, madecassoside.",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "toner",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://vn.iherb.com/pr/molvany-artichoke-soothing-affect-pore-toner-pad-70-pads-5-64-oz-160-g/150849"
  },
  {
   "source": "ulta",
@@ -21545,14 +21601,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/acni-dr-1st-speedy-spot-mkt77006447",
   "image": "https://media.ultainc.com/i/ulta/77010016?w=500&h=500",
-  "inci": null,
+  "inci": "Water, Alcohol Denat, Xanthan Gum, Polyglyceryl-10 Laurate, Glycerin, Rosa Damascena Flower Oil, Caprylic/Capric Triglyceride, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Salix Alba (Willow) Leaf Extract, Olea Europaea (Olive) Leaf Extract, Glycyrrhiza Glabra (Licorice) Root Extract, Equisetum Arvense Extract, Brassica Campestris (Rapeseed) Extract, Houttuynia Cordata Extract, Centella Asiatica Extract, Beta-Glucan, Castanea Crenata (Chestnut) Shell Extract",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "treatment",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "soin localise bouton express"
+  "catPourquoi": "soin localise bouton express",
+  "inciSource": "web",
+  "inciUrl": "https://inkeedecoder.com/products/isoi-acni-dr-1st-speedy-spot"
  },
  {
   "source": "ulta",
@@ -21666,14 +21724,16 @@
   "category": "moisturizer",
   "url": "https://www.ulta.com/p/pdrn-pink-collagen-volume-multi-balm-pimprod2059072",
   "image": "https://media.ultainc.com/i/ulta/2659497?w=500&h=500",
-  "inci": null,
+  "inci": "Cetyl Ethylhexanoate, Synthetic Wax, Polyglyceryl-2 Triisostearate, Diisostearyl Malate, Microcrystalline Wax, Hydrogenated Polyisobutene, Octyldodecanol, Caprylic/Capric Triglyceride, Euphorbia Cerifera Wax, Silica Dimethyl Silylate, Lithospermum Erythrorhizon Root Extract, Bisabolol, Butylene Glycol, Polyglyceryl-2 Oleate, Oryza Sativa Bran Oil, Adenosine, Sodium DNA, Helianthus Annuus Seed Oil, Pelargonium Graveolens Flower Oil, Anemarrhena Asphodeloides Root Extract, Cananga Odorata Flower Oil, Citrus Aurantium Bergamia Fruit Oil, Rosa Damascena Flower Oil, Tocopherol, Water, Caffeine, Collagen, Hippophae Rhamnoides Oil, Sodium Hyaluronate, Glycine Soja Oil, Propanediol, Glycerin, Retinol, Polyglyceryl-10 Oleate, 1,2-Hexanediol, Nicotinamide Mononucleotide, Adenosine Triphosphate, Nicotinamide Adenine Dinucleotide, Alkanna Tinctoria Root Extract, Lecithin, Sodium Phosphate, Ethylhexylglycerin, Hydrolyzed Elastin, Acetyl Hexapeptide-8, Copper Tripeptide-1, Palmitoyl Pentapeptide-4, Acetyl Tetrapeptide-5, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-1, Sh-Oligopeptide-1, Sh-Oligopeptide-2, Sh-Polypeptide-1, Sh-Polypeptide-10, Sh-Polypeptide-11, Sh-Polypeptide-3, Sh-Polypeptide-59, Sh-Polypeptide-9",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "moisturizer",
   "_catConfiance": "accord",
   "categorieSource": "serum",
   "catConfiance": "probable-agent",
-  "catPourquoi": "baume stick final, hydratation visage"
+  "catPourquoi": "baume stick final, hydratation visage",
+  "inciSource": "web",
+  "inciUrl": "https://skinsort.com/products/medicube/pdrn-pink-collagen-volume-multi-balm"
  },
  {
   "source": "ulta",
@@ -25284,14 +25344,16 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/super-melting-sebum-softener-mkt77003609",
   "image": "https://media.ultainc.com/i/ulta/77005940?w=500&h=500",
-  "inci": null,
+  "inci": "Water, 1,2-Hexanediol, Glycerin, Ganoderma Lucidum Extract, Salix Alba Bark Extract, Codonopsis Lanceolata Root Extract, Arctium Lappa Root Extract, Chrysanthemum Sinense Flower Extract, Butylene Glycol, Polyglyceryl-10 Oleate, Viscum Album Leaf Extract, Hamamelis Virginiana Extract, Hydrogenated Lecithin, Polyglyceryl-10 Isostearate, Lavandula Angustifolia Extract, Phytosterols, Ethylhexylglycerin, Illicium Verum Fruit Extract, Sodium Gluconate, Lavandula Angustifolia Oil, Panthenol, Scutellaria Baicalensis Root Extract, Carica Papaya Fruit Extract, Squalane, Glucose, Chamomilla Recutita Flower Extract, Centella Asiatica Extract, Prunus Mume Fruit Extract, Malus Domestica Fruit Extract, Vitis Vinifera Fruit Extract, Papain, Houttuynia Cordata Extract, Chamaecyparis Obtusa Leaf Extract, Origanum Vulgare Leaf Extract, Portulaca Oleracea Extract, Cinnamomum Cassia Bark Extract, Lactobacillus/Soybean Ferment Extract, Madecassoside, Citric Acid, Gardenia Florida Fruit Extract, Polygonum Cuspidatum Root Extract, Myrciaria Dubia Fruit Extract, Terminalia Ferdinandiana Fruit Extract",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "toner",
   "catConfiance": "probable-agent",
-  "catPourquoi": "soin cible pores, pose locale"
+  "catPourquoi": "soin cible pores, pose locale",
+  "inciSource": "web",
+  "inciUrl": "https://skinsort.com/products/ilso/super-melting-sebum-softener"
  },
  {
   "source": "ulta",
@@ -25358,13 +25420,15 @@
   "category": "toner",
   "url": "https://www.ulta.com/p/barrier-cycle-toner-mkt77006793",
   "image": "https://media.ultainc.com/i/ulta/77010581?w=500&h=500",
-  "inci": null,
+  "inci": "Water, Butylene Glycol, Propanediol, 1,2-Hexanediol, Niacinamide, Panthenol, Ethylhexylglycerin, Allantoin, Adenosine, Xanthan Gum, Disodium EDTA, Polyquaternium-51, Laurus Nobilis Leaf Extract, Plantago Asiatica Extract, Sodium Hyaluronate, Hamamelis Virginiana Water, Amorphophallus Konjac Root Extract, Sodium Guaiazulene Sulfonate, Carica Papaya Fruit Extract, Lactobacillus Ferment, Bambusa Vulgaris Extract, Chamaecyparis Obtusa Leaf Extract, Pinus Densiflora Leaf Extract, Thuja Orientalis Extract, Acacia Seyal Gum Extract, Centella Asiatica Extract, Melaleuca Alternifolia Leaf Extract, Oryza Sativa Bran Extract, Asiatic Acid, Asiaticoside, Madecassic Acid, Madecassoside",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "toner",
   "_catConfiance": "accord",
   "categorieSource": "toner",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://skinsort.com/products/p-calm/barrier-cycle-toner"
  },
  {
   "source": "ulta",
@@ -27473,13 +27537,15 @@
   "category": "cleanser",
   "url": "https://www.ulta.com/p/purifer-biphasic-cleanser-mkt77001333",
   "image": "https://media.ultainc.com/i/ulta/77002093?w=500&h=500",
-  "inci": null,
+  "inci": "Aqua/Water/Eau, Disodium Cocoamphodiacetate, Disodium Laureth Sulfosuccinate, Glycerin, Lauryl Hydroxysultaine, Sodium Chloride, Acrylates Copolymer, 1,2-Hexanediol, Citric Acid, Ethylhexylglycerin, Tromethamine, Butylene Glycol, Sodium Benzoate, Hexylene Glycol, Dipropylene Glycol, Eclipta Prostrata Leaf Extract, Laminaria Japonica Extract, Betaine, Niacinamide, Hydrogenated Lecithin, Ulmus Davidiana Root Extract, Amaranthus Caudatus Seed Extract, Centella Asiatica Extract, Ficus Carica (Fig) Fruit Extract, Fructooligosaccharides, Beta-Glucan, Ceramide NP, Tocopherol, Hydrolyzed Hyaluronic Acid, Maltodextrin, Butyrospermum Parkii (Shea) Butter, Nasturtium Officinale Flower/Leaf/Stem Extract, Urtica Dioica (Nettle) Leaf Extract, Equisetum Arvense Extract, Phenethyl Alcohol, Pentapeptide-59 Ingredients are subject to change at the manufacturer's discretion. For the most complete and up-to-date list of ingredients, refer to the product packaging",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "cleanser",
   "_catConfiance": "accord",
   "categorieSource": "makeup-remover",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://www.nordstrom.com/s/the-purifer-biphasic-cleanser/8994243?srsltid=AfmBOorXcuua70Blu2O0DaZms7lCFjEglrCeUXFdzBO-kEQ_Pe07V7PX"
  },
  {
   "source": "ulta",
@@ -27589,13 +27655,15 @@
   "category": "makeup-remover",
   "url": "https://www.ulta.com/p/super-melting-sebum-cleansing-oil-mkt77003602",
   "image": "https://media.ultainc.com/i/ulta/77005933?w=500&h=500",
-  "inci": null,
+  "inci": "Cetyl Ethylhexanoate, Ethylhexyl Palmitate, Ethylhexyl Stearate, PEG-20 Glyceryl Triisostearate, Carthamus Tinctorius (Safflower) Seed Oil, Octyldodecanol, Isododecane, Polybutene, Water, PEG-10 Isostearate, Fragrance(Parfum), Tocopherol, Melia Azadirachta Leaf Extract, Squalane, Melia Azadirachta Flower Extract, Coccinia Indica Fruit Extract, Solanum Melongena (Eggplant) Fruit Extract, Aloe Barbadensis Flower Extract, Amber Powder, Curcuma Longa (Turmeric) Root Extract, Ocimum Sanctum Leaf Extract, Corallina Officinalis Extract, Simmondsia Chinensis (Jojoba) Seed Oil, Moringa Oleifera Seed Oil, Butylene Glycol, Panthenol, Propylene Glycol, Melaleuca Alternifolia (Tea Tree) Extract, 1,2-Hexanediol, Chamomilla Recutita (Matricaria) Flower Extract, Methylpropanediol, Centella Asiatica Extract, Agave Tequilana Leaf Extract, Beta Vulgaris (Beet) Root Extract, Brassica Oleracea Capitata (Cabbage) Leaf Extract, Carica Papaya (Papaya) Fruit Extract, Daucus Carota Sativa (Carrot) Root Extract, Vaccinium Angustifolium (Blueberry) Fruit Extract, Sophora Angustifolia Root Extract, Polygonum Cuspidatum Root Extract, Poncirus Trifoliata Fruit Extract, Saururus Chinensis Leaf/Root Extract, Pentylene Glycol, Cinnamomum Cassia Bark Extract, Octanediol, Ethylhexylglycerin, Salix Alba (Willow) Bark Extract",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "makeup-remover",
   "_catConfiance": "accord",
   "categorieSource": "makeup-remover",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://incidecoder.com/products/ilso-super-melting-sebum-cleansing-oil"
  },
  {
   "source": "ulta",
@@ -27604,13 +27672,15 @@
   "category": "makeup-remover",
   "url": "https://www.ulta.com/p/real-cleansing-oil-mkt77003611",
   "image": "https://media.ultainc.com/i/ulta/77005942?w=500&h=500",
-  "inci": null,
+  "inci": "Ethylhexyl Palmitate, Sorbeth-30 Tetraoleate, Triethylhexanoin, Helianthus Annuus Seed Oil, Polyisobutene, Ethylhexyl Stearate, Isononyl Isononanoate, Isopropyl Palmitate, Isohexadecane, Ethylhexyl Pelargonate, Caprylic/Capric Triglyceride, 1,2-Hexanediol, Pentaerythrityl Tetra-Di-T-Butyl Hydroxyhydrocinnamate, Camellia Oleifera Seed Oil, Olea Europaea Fruit Oil, Argania Spinosa Kernel Oil, Simmondsia Chinensis Seed Oil, Camellia Sinensis Seed Oil, Macadamia Ternifolia Seed Oil, Monascus Extract, Orbignya Oleifera Seed Oil, Tocopherol",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "makeup-remover",
   "_catConfiance": "accord",
   "categorieSource": "makeup-remover",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://skinsort.com/products/molvany/real-cleansing-oil"
  },
  {
   "source": "ulta",
@@ -27694,13 +27764,15 @@
   "category": "makeup-remover",
   "url": "https://www.ulta.com/p/rice-water-bright-light-facial-cleansing-oil-mkt77003738",
   "image": "https://media.ultainc.com/i/ulta/77006166?w=500&h=500",
-  "inci": null,
+  "inci": "• Vegan • Dermatologically tested • Non-comedogenic HOW TO USE • Use AM and PM as necessary. • Pump a quarter-sized amount of the oil on moist palms and gently spread over face. Massage lightly until heavy makeup melts, and rinse with warm water. Double cleanse to a deeper clean! Cleanse your face twice to remove traces of stubborn oil, dirt and impurities. • Wash your face with 2 cleansers. Start with an oil-based cleanser followed by a water-based one. • Choose the Deep Cleanse to remove heavy/long-wear makeup and SPF: Step 1 Rice Water Bright Light Facial Cleansing Oil; Step 2 Rice Water Bright Foaming Cleanser • Choose the Glow Cleanse for glowing bright skin: Step 1 Rice Water Bright Light Facial Cleansing Oil; Step 2 Rice Water Bright Gentle Exfoliating Cleanser INGREDIENTS KEY INGREDIENTS: • Rice Water - Enriched with vitamins A, B and E, ceramide and minerals to help skin feel moisturized and look radiant. • Rice Bran Oil - Helps moisturize the skin • Jojoba Oil – Helps nourish skin and contains antioxidants to support skin health FULL INGREDIENTS LIST: Isopropyl Myristate, Caprylic/Capric Triglyceride, Sorbeth-30 Tetraoleate, Polyglyceryl-10 Diisostearate, Fragrance/Parfum, Glycerin, Water/Eau, Oryza Sativa (Rice) Bran Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Butylene Glycol, 1,2-hexanediol, Oryza Sativa (Rice) Extract, Phenoxyethanol, Saponaria Officinalis Leaf Extract. Rice Water Bright Routine Prep Cleansing Facial Wipes Cleanse Foaming Cleanser and Light Cleansing Oil Hydrate Vegan Serum, Cream and Eye Cream SHOP NOW You May Also Like Best seller The Face Shop Rice Water Bright Foaming Cleanser 150ml 300ml $13.00 Add To Bag Best seller The Face Shop Rice Water Bright Cleansing Facial Wipes $12.00 Add To Bag The Face Shop Rice Water Bright Deep Peeling Cleansing Balm $20.00 Add To Bag The Face Shop Rice Water Bright Enzyme Powder Wash $17.00 Add To Bag ABOUT US Our Story The Crème Shop Rewards Program Subscribe & Save Affiliate Program Find a Store Privacy Statement Press",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "makeup-remover",
   "_catConfiance": "accord",
   "categorieSource": "makeup-remover",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://lgbeauty.com/products/rice-water-bright-light-facial-cleansing-oil?srsltid=AfmBOoq9dLxj6LWrq1xpnf4bQ5xxwnRrB9Za5cZ2z3udyP55DbETZPIw"
  },
  {
   "source": "ulta",
@@ -27852,13 +27924,15 @@
   "category": "makeup-remover",
   "url": "https://www.ulta.com/p/underpore-holy-basil-cleansing-oil-mkt77006794",
   "image": "https://media.ultainc.com/i/ulta/77010582?w=500&h=500",
-  "inci": null,
+  "inci": "Ethylhexyl Palmitate, Cetyl Ethylhexanoate, PEG-20 Glyceryl Triisostearate, Eucalyptus Dives Leaf Oil, Rosmarinus Officinalis Leaf Oil, Helianthus Annuus Seed Oil, Salvia Apiana Oil, Ocimum Sanctum Leaf Extract, Solanum Melongena Fruit Extract, Olea Europaea Fruit Oil, Melaleuca Alternifolia Leaf Oil, 1,2-Hexanediol, Squalane, Juglans Regia Seed Oil, Macadamia Ternifolia Seed Oil, Elaeis Guineensis Kernel Oil, Rosa Rubiginosa Seed Oil, Camellia Sinensis Seed Oil",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "makeup-remover",
   "_catConfiance": "accord",
   "categorieSource": "makeup-remover",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://skinsort.com/products/p-calm/underpore-holy-basil-cleansing-oil"
  },
  {
   "source": "ulta",
@@ -28034,7 +28108,7 @@
   "category": "moisturizer",
   "url": "https://www.amazon.com/dp/B01A74442I",
   "image": "https://m.media-amazon.com/images/I/91hpwn6sScL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Centella Ceramides Coconut, Collagen, Glycolic Acid, Hyaluronic Acid, Niacinamide, Retinol, Rice, Salicylic Acid, Vitamin C Beauty Face Masks Eye Masks Lip Masks Pimple Patches Sheet Masks Wash-off Face Masks Cleansers Face Scrubs & Exfoliators Face Washes Face Wipes & Towelettes Toners Face Moisturizers Eye Creams Face Mist Face Oils Night Moisturizers & Creams K-Beauty K-Beauty Cleansers K-Beauty Face Masks K-Beauty Toners K-Beauty Moisturizers K-Beauty Treatments & Serums Makeup Eyes Face Lips Makeup Removers Nails Makeup Accessories Makeup Brushes Makeup Tools Makeup & Skincare Gifts Sunscreen Baby & Kids Sunscreen Face Sunscreen K-Beauty Sunscreen Treatments & Serums Acne & Blemish Treatments Anti-Aging & Firming Serums Hydrating Serums Vitamin C Serums Shop all Beauty Trending brands Grocery Baking, Flour & Mixes Almond Flour & Meal Extracts & Food Coloring Pancake & Waffle Mix Bars Energy Bars Plant Based Protein Bars Protein Bars",
   "asin": "B01A74442I",
   "bsRank": 1,
   "inciStatut": "echec",
@@ -28042,7 +28116,9 @@
   "_catConfiance": "aucune",
   "categorieSource": "moisturizer",
   "catConfiance": "probable-agent",
-  "catPourquoi": "huile jojoba pure hydratante"
+  "catPourquoi": "huile jojoba pure hydratante",
+  "inciSource": "web",
+  "inciUrl": "https://uk.iherb.com/pr/cliganic-organic-jojoba-oil-for-oily-combination-skin-16-fl-oz-473-ml/105872"
  },
  {
   "source": "amazon",
@@ -28096,13 +28172,15 @@
   "category": "exfoliant",
   "url": "https://www.amazon.com/dp/B0CKLB1X8F",
   "image": "https://m.media-amazon.com/images/I/61rMtR+zjWL._SL1200_.jpg",
-  "inci": null,
+  "inci": "Aqua, Glycerine, Caprylic Capric Triglyceride, Isopropyl Myristate, Cetostearyl Alcohol, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Triethanolamine, Glyceryl Mono Sterate, Stearic Acid, Cocamidopropyl Betaine, Sweet Almond Oil, Jojoba Seed Oil, Triethylene Glycol, Ethyl Ascorbic Acid, Tocopheryl Acetate, Licorice Root Extract, Calendula Officinalis Flower Extract, Walnut Shell Powder, Manjishtha Extract, Ashwagandha Extract, Shea Butter, Phenoxyethanol, Ethylenediaminetetraacetic Acid, Allantoin, Methylene Bis-Benzotriazolyl Tetramethylbutylphenol, Titanium Dioxide",
   "asin": "B0CKLB1X8F",
   "bsRank": 28,
   "_catNouvelle": "exfoliant",
   "_catConfiance": "accord",
   "categorieSource": "exfoliant",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://incidecoder.com/products/aoa-skin-vitamin-c-face-scrub"
  },
  {
   "source": "amazon",
@@ -28486,13 +28564,15 @@
   "category": "serum",
   "url": "https://www.amazon.com/dp/B0FPFDSC7X",
   "image": "https://m.media-amazon.com/images/I/71Z0tFTgUbL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Water, Glycereth-26, Niacinamide, Glycerin, Caprylic/Capric Triglyceride, Glyceryl Citrate/Lactate/Linoleate/Oleate, Elaeis Guineensis (Palm) Oil, 1,2-Hexanediol, Ammonium Acryloyldimethyltaurate/VP Copolymer, Cetyl Ethylhexanoate, Hydroxyacetophenone, Aluminum Starch Octenylsuccinate, Polyacrylate Crosspolymer-6, Macadamia Ternifolia Seed Oil, Butylene Glycol, Hydrogenated Lecithin, Retinol, Panthenol, Allantoin, Squalane, Tocopherol, Brassica Campestris (Rapeseed) Sterols, Adenosine, Polyglyceryl-10 Laurate, Cholesterol, Disodium EDTA, Phytosteryl/Behenyl/Octyldodecyl Lauroyl Glutamate, Aluminum/Magnesium Hydroxide Stearate, Pentaerythrityl Tetra-di-t-butyl Hydroxyhydrocinnamate, Propanediol, Potassium Cetyl Phosphate, Polyquaternium-51, Retinal, 3-O-Ethyl Ascorbic Acid, Bifida Ferment Lysate, Ferulic Acid, Lactobacillus Ferment Lysate, Lactococcus Ferment Lysate, Tris(Tetramethylhydroxypiperidinol) Citrate, Dipropylene Glycol, Pentylene Glycol, Eriobotrya Japonica Leaf Extract, Akebia Quinata Extract, Ascorbic Acid, Mentha Viridis (Spearmint) Extract, Caprylyl/Capryl Glucoside, Camellia Japonica Flower Extract, Centella Asiatica Leaf Extract, Polyglyceryl-10 Oleate, Asiaticoside, Asiatic Acid, Madecassic Acid, Acetyl Hexapeptide-8, Acetyl Tetrapeptide-5, Carnosine, Ethylhexylglycerin, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-5, Sodium Hyaluronate Crosspolymer, Yeast Beta-Glucan, Beta-Glucan, Ceramide NP, Nicotinamide Mononucleotide This list of ingredients represents all options or variants of this product. Actual ingredients in a given product option may vary from this list. Ingredients subject to change at manufacturer&#x27;s discretion. For the most complete and up-to-date list of ingredients, please refer to product packaging.",
   "asin": "B0FPFDSC7X",
   "bsRank": 56,
   "_catNouvelle": "serum",
   "_catConfiance": "accord",
   "categorieSource": "serum",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://www.yesstyle.com/en/medicube-retinol-boosting-serum-30ml/info.html/pid.1137981772"
  },
  {
   "source": "amazon",
@@ -28827,13 +28907,15 @@
   "category": "toner",
   "url": "https://www.amazon.com/dp/B0G3W3TG8Y",
   "image": "https://m.media-amazon.com/images/I/61QWYtbunmL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Water, Centella Asiatica Extract, Hydrolyzed Collagen, Panthenol, Sodium Hyaluronate, Glycerin, Butylene Glycol, 12-Hexanediol, Ethylhexylglycerin",
   "asin": "B0G3W3TG8Y",
   "bsRank": 71,
   "_catNouvelle": "toner",
   "_catConfiance": "accord",
   "categorieSource": "toner",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://rudraretails.com/products/snidin-toner-pads-centella-asiatica-collagen-70-pads?srsltid=AfmBOoqYkQTo401HkSr_HIHvI_MEQYQVC38y8e5pqKJeQdCpy4_8lqM_"
  },
  {
   "source": "amazon",
@@ -29561,13 +29643,15 @@
   "category": "exfoliant",
   "url": "https://www.amazon.com/dp/B0BX6KCWJ2",
   "image": "https://m.media-amazon.com/images/I/71WUo1c1RGL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Water (Aqua), Glyceryl Stearate SE, Glycerin, Juglans Regia (Walnut) Shell Powder, Cetearyl Alcohol, Cetyl Alcohol, Sodium Lauryl Sulfoacetate, Cocamidopropyl Betaine, PEG-100 Stearate, Glyceryl Stearate, Cetyl Acetate, Fragrance (Parfum), Benzyl Alcohol, Zea Mays (Corn) Kernel Meal, Ceteareth-20, Triethanolamine, Carbomer, Polysorbate 60, Disodium EDTA, Benzoic Acid, Acetylated Lanolin Alcohol, Sorbic Acid, Honey, Persea Gratissima (Avocado) Fruit Extract, Yellow 5 (CI 19140), Blue 1 (CI 42090), Red 33 (CI 17200), Titanium dioxide, (CI 77891). *Please reference product packaging for the latest ingredient list.",
   "asin": "B0BX6KCWJ2",
   "bsRank": 59,
   "_catNouvelle": "exfoliant",
   "_catConfiance": "accord",
   "categorieSource": "exfoliant",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://www.stives.com/products/soft-skin-avocado-honey-face-scrub?bvstate=pg:4/ct:r&srsltid=AfmBOorDt13ktNDRb9jYcTrhqMaQSFSpnLdfUaZLYchsCHGuQaD4Mm5v"
  },
  {
   "source": "amazon",
@@ -29730,14 +29814,16 @@
   "category": "exfoliant",
   "url": "https://www.amazon.com/dp/B0DT3ZVLPN",
   "image": "https://m.media-amazon.com/images/I/71uE9lYjLfL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Water, Glycolic Acid, Hamamelis Virginiana (Witch Hazel) Water, Butylene Glycol, Calendula Officinalis Flower Extract, Portulaca Oleracea Extract, Pentylene Glycol, 1,2-Hexanediol, Mentha Arvensis Leaf Extract, Beta-Glucan, Chrysanthellum Indicum Extract, Aloe Barbadensis Extract, Ascorbic Acid, Panthenol, Xanthan Gum, Hyaluronic Acid, Menthol, Dipotassium Glycyrrhizate, Tocopherol",
   "asin": "B0DT3ZVLPN",
   "bsRank": 51,
   "_catNouvelle": "exfoliant",
   "_catConfiance": "accord",
   "categorieSource": "exfoliant",
   "catConfiance": "sur-agent",
-  "catPourquoi": "pads acide glycolique"
+  "catPourquoi": "pads acide glycolique",
+  "inciSource": "web",
+  "inciUrl": "https://incidecoder.com/products/anai-rui-35-glycolic-acid-pads"
  },
  {
   "source": "amazon",
@@ -29995,13 +30081,15 @@
   "category": "exfoliant",
   "url": "https://www.amazon.com/dp/B0D14X62VG",
   "image": "https://m.media-amazon.com/images/I/711P5MIHxZL._SL1500_.jpg",
-  "inci": null,
+  "inci": "WATER, SODIUM METHYL COCOYL TAURATE, POLYETHYLENE, GLYCERIN, COCAMIDOPROPYL BETAINE, GLYCOL DISTEARATE, STEARIC ACID, ACRYLATES/C10-30 ALKYL ACRYLATE CROSSPOLYMER, LINOLEAMIDOPROPYL PG-DIMONIUM CHLORIDE PHOSPHATE, NEOPENTYL GLYCOL DICAPRYLATE/DICAPRATE, SALICYLIC ACID, DISODIUM EDTA, XANTHAN GUM, MAGNESIUM ALUMINUM SILICATE, SODIUM HYDROXIDE, CETYL ALCOHOL, PHENOXYETHANOL, METHYLPARABEN, ETHYLPARABEN, PROPYLPARABEN, BUTYLPARABEN, AGAR, MICA, TITANIUM DIOXIDE, IRON OXIDE, RED 30 LAKE, FRAGRANCE.",
   "asin": "B0D14X62VG",
   "bsRank": 70,
   "_catNouvelle": "exfoliant",
   "_catConfiance": "accord",
   "categorieSource": "exfoliant",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://www.meijer.com/shopping/product/neutrogena-deep-clean-gentle-scrub-4-2-oz/7050105035.html?_cbust=1777939203073&bvstate=pg:2/ct:r"
  },
  {
   "source": "amazon",
@@ -30254,13 +30342,15 @@
   "category": "exfoliant",
   "url": "https://www.amazon.com/dp/B0FVD84MQW",
   "image": "https://m.media-amazon.com/images/I/61N2kkiHsEL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Water, Glycolic Acid, Hamamelis Virginiana (Witch Hazel) Water, Propanediol, Polysorbate 20, Sodium Hydroxide, Glycerin, Panthenol, Calendula Officinalis Flower Extract, Camellia Sinensis Leaf Extract, Allantoin, Eucalyptus Globulus Leaf Oil, Mentha Spicata Leaf/Stem Oil, Tocopherol, Ascorbyl Palmitate, Phenoxyethanol.",
   "asin": "B0FVD84MQW",
   "bsRank": 82,
   "_catNouvelle": "exfoliant",
   "_catConfiance": "accord",
   "categorieSource": "exfoliant",
-  "catConfiance": "sur"
+  "catConfiance": "sur",
+  "inciSource": "web",
+  "inciUrl": "https://qrxlabs.com/products/glycolic-acid-20-resurfacing-pads?srsltid=AfmBOopIAT-NZWVd8bW3RYcETZLg6-TRCBUahZUDazfwTQ2JA6o8Ysba"
  },
  {
   "source": "amazon",
@@ -30397,13 +30487,15 @@
   "category": "mask",
   "url": "https://www.amazon.com/dp/B0FYRXPRH6",
   "image": "https://m.media-amazon.com/images/I/61jSYdVnEBL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Aqua, Glycerin, Propylene Glycol, Betaine, Sodium Carrageenan, Polyurethane-35, Glucomannan, 1.2-Hexanediol, Hydroxyacetophenone, Hydroxyethylcellulose, Pentylene Glycol, Butylene Glycol, Dipotassium Glycyrrhizate, Matrine, Potassium Chloride, Ci12490, Galactomyces Ferment Filtrate, Allantoin, Tocopheryl Acetate, Niacinamde, Hydrolyzed Collagen, Hydrolyzed Sodium Hyaluronate, Sodium Hyaluronate, Hydroxyphenyl Propamdobenzoic Acid, Sodium Laureth Sulfate, Phenoxyethanol, Caprylyl Glycol, Polysorbate 80, Ethylhexylglycerin, Sodium Dna",
   "asin": "B0FYRXPRH6",
   "bsRank": 8,
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "mask",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://officialquasi.com/products/salmon-collagen-gel-mask?srsltid=AfmBOoqUHCg5WoqkrJlCQLuLd3nOOcmhZentNewijJ1Cks64eTO2eRwN"
  },
  {
   "source": "amazon",
@@ -30703,14 +30795,16 @@
   "category": "toner",
   "url": "https://www.amazon.com/dp/B002NX0B4W",
   "image": "https://m.media-amazon.com/images/I/51uMALK7eQL._SL1120_.jpg",
-  "inci": null,
+  "inci": "Hyaluronic Acid, Vitamin C, Retinol, Salicylic Acid, Niacinamide, Melasyl™ Vitamin B, Adapalene, Thermal Spring, Water",
   "asin": "B002NX0B4W",
   "bsRank": 21,
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "toner",
   "catConfiance": "probable-agent",
-  "catPourquoi": "brume eau thermale"
+  "catPourquoi": "brume eau thermale",
+  "inciSource": "web",
+  "inciUrl": "https://www.laroche-posay.us/our-products/face/face-toner/thermal-spring-water-face-mist-thermalspringwater.html?srsltid=AfmBOoqHqZVqUpBcTeOsPOneTEC60l-B_x1gGH1EtB6WlDo_ieHYYrUk"
  },
  {
   "source": "amazon",
@@ -31107,13 +31201,15 @@
   "category": "exfoliant",
   "url": "https://www.amazon.com/dp/B001RYWEQ6",
   "image": "https://m.media-amazon.com/images/I/61-42jyDJYL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Water (Aqua), Juglans Regia (Walnut) Shell Powder, Glyceryl Stearate SE, Glycerin, Cetearyl Alcohol, Zea Mays (Corn) Kernel Meal, Cetyl Alcohol, Sodium Lauryl Sulfoacetate, Cocamidopropyl Betaine, Glyceryl stearate, PEG-100 Stearate, Cetyl Acetate, Benzyl alcohol, Ceteareth-20, Acetylated Lanolin Alcohol, Carbomer, Polysorbate 60, Triethanolamine, Fragrance (Parfum), Disodium EDTA, Benzoic Acid, Sorbic Acid, Prunus Armeniaca (Apricot) Fruit Extract, Titanium Dioxide (CI 77891). *Please reference product packaging for the latest ingredient list",
   "asin": "B001RYWEQ6",
   "bsRank": 23,
   "_catNouvelle": "exfoliant",
   "_catConfiance": "accord",
   "categorieSource": "exfoliant",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://www.stives.com/products/fresh-skin-apricot-scrub?bvstate=pg:5/ct:r&srsltid=AfmBOoqE90zroLi05jk7bOs50Ha-J_UI0XCQijrm0xchSWGORMXGf-jJ"
  },
  {
   "source": "amazon",
@@ -31295,14 +31391,16 @@
   "category": "hors-perimetre",
   "url": "https://www.amazon.com/dp/B0CY3QBYQR",
   "image": "https://m.media-amazon.com/images/I/61TyxMNn9PL._SL1500_.jpg",
-  "inci": null,
+  "inci": "AQUA/WATER/EAU, GLYCERIN, PEG-7 GLYCERYL COCOATE, SODIUM COCOAMPHOACETATE, LAURYL GLUCOSIDE, COCO-GLUCOSIDE, GLYCERYL OLEATE, CITRIC ACID, PEG-90 GLYCERYL ISOSTEARATE, MANNITOL, POLYSORBATE 20, XYLITOL, LAURETH-2, RHAMNOSE, NIACINAMIDE, FRUCTOOLIGOSACCHARIDES, TOCOPHEROL, HYDROGENATED PALM GLYCERIDES CITRATE, LECITHIN, ASCORBYL PALMITATE, FRAGRANCE (PARFUM). [BI 725]",
   "asin": "B0CY3QBYQR",
   "bsRank": 63,
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "cleanser",
   "catConfiance": "sur-agent",
-  "catPourquoi": "huile de douche corps"
+  "catPourquoi": "huile de douche corps",
+  "inciSource": "web",
+  "inciUrl": "https://www.adorebeauty.com.au/p/bioderma/bioderma-atoderm-cleansing-oil-1l.html"
  },
  {
   "source": "amazon",
@@ -36119,13 +36217,15 @@
   "category": "hors-perimetre",
   "url": "https://www.ulta.com/p/after-shower-nourishing-body-oil-pimprod2044445",
   "image": "https://media.ultainc.com/i/ulta/2623830?w=500&h=500",
-  "inci": null,
+  "inci": "Caprylic/Capric Triglyceride, Citrus Aurantium Dulcis (Orange) Peel Oil, Limonene, Citrus Limon (Lemon) Peel Oil, Citrus Reticulata (Tangerine) Peel Oil, Mentha Viridis (Spearmint) Leaf Oil, Orbignya Oleifera Seed Oil, Helianthus Annuus (Sunflower) Seed Oil, Olea Europaea (Olive) Fruit Oil, Prunus Armeniaca (Apricot) Kernel Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Vitis Vinifera (Grape) Seed Oil, Benzyl Alcohol, Citral, Citronellol, Farnesol, Geraniol, Linalool",
   "inciStatut": "echec",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "huile corps apres-douche"
+  "catPourquoi": "huile corps apres-douche",
+  "inciSource": "web",
+  "inciUrl": "https://incidecoder.com/products/first-aid-beauty-after-shower-nourishing-body-oil"
  },
  {
   "source": "ulta",
@@ -37647,13 +37747,15 @@
   "category": "moisturizer",
   "url": "https://www.ulta.com/p/squalane-oil-pimprod2024575",
   "image": "https://media.ultainc.com/i/ulta/2583063?w=500&h=500",
-  "inci": null,
+  "inci": "Niacinamide, Tranexamic Acid, Hyaluronic Acid, Azelaic Acid, Glycolic Acid, Retinol, Salicylic Acid, Peptides Best Sellers New Arrivals Bundles Skincare Quiz Search Sign up to learn about new product releases and special offers! Get Notified About Where to Buy Terms of Service Privacy Policy Cookie Policy Accessibility Help Do Not Sell or Share My Personal Information &copy; 2026 Good Molecules, LLC. All rights reserved. Loading...",
   "inciStatut": "echec",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "huile de squalane visage"
+  "catPourquoi": "huile de squalane visage",
+  "inciSource": "web",
+  "inciUrl": "https://www.goodmolecules.com/s/good-molecules-squalane-oil-13ml?srsltid=AfmBOoqa-h5ulX67P3vN4U66FMmwspIc2fahaLwh8nwWB3IEvKA1d47I"
  },
  {
   "source": "ulta",
@@ -37873,12 +37975,14 @@
   "category": "serum",
   "url": "https://www.ulta.com/p/booster-pro-mini-plus-pimprod2058966",
   "image": "https://media.ultainc.com/i/ulta/2654537?w=500&h=500",
-  "inci": null,
+  "inci": "AHA, Azelaic Acid, BHA, Ceramides Ginseng Growth Factors, Hyaluronic Acid, PDRN Peptides, Retinol, Salicylic Acid, Vitamin C, Zinc",
   "inciStatut": "echec",
   "_catNouvelle": "serum",
   "_catConfiance": "accord",
   "categorieSource": "serum",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://www.cultbeauty.com/p/medicube-age-r-booster-pro-mini-plus-beige/17956743/"
  },
  {
   "source": "ulta",
@@ -38239,13 +38343,15 @@
   "category": "mask",
   "url": "https://www.ulta.com/p/pdrn-collagen-melting-patch-glass-skin-pimprod2056316",
   "image": "https://media.ultainc.com/i/ulta/2653506?w=500&h=500",
-  "inci": null,
+  "inci": "AHA, Azelaic Acid, BHA, Ceramides Ginseng Growth Factors, Hyaluronic Acid, PDRN Peptides, Retinol, Salicylic Acid, Vitamin C, Zinc",
   "inciStatut": "echec",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "patch collagene visage, pose ponctuelle"
+  "catPourquoi": "patch collagene visage, pose ponctuelle",
+  "inciSource": "web",
+  "inciUrl": "https://www.cultbeauty.com/p/anua-pdrn-collagen-melting-patch-for-glass-skin-4-pack/17923782/"
  },
  {
   "source": "ulta",
@@ -38294,13 +38400,15 @@
   "category": "mask",
   "url": "https://www.ulta.com/p/pdrn-collagen-melting-patch-neck-pimprod2056315",
   "image": "https://media.ultainc.com/i/ulta/2653466?w=500&h=500",
-  "inci": null,
+  "inci": "AHA, Azelaic Acid, BHA, Ceramides Ginseng Growth Factors, Hyaluronic Acid, PDRN Peptides, Retinol, Salicylic Acid, Vitamin C, Zinc",
   "inciStatut": "echec",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "patch collagene cou, zone visage-cou"
+  "catPourquoi": "patch collagene cou, zone visage-cou",
+  "inciSource": "web",
+  "inciUrl": "https://www.cultbeauty.com/p/anua-pdrn-collagen-melting-patch-for-neck-4-pack/17923785/"
  },
  {
   "source": "ulta",

@@ -10,6 +10,8 @@ const SORTIE = process.argv[2] || path.join(R, "inci-retrouves.html");
 const cat = JSON.parse(fs.readFileSync(R + "/data/scan/catalog.json", "utf8"));
 const produits = Array.isArray(cat) ? cat : (cat.produits || cat.products || Object.values(cat).find(Array.isArray));
 const recolte = JSON.parse(fs.readFileSync(R + "/data/scan/inci-recuperes.json", "utf8"));
+const fWeb = R + "/data/scan/inci-web.json";
+const web = fs.existsSync(fWeb) ? JSON.parse(fs.readFileSync(fWeb, "utf8")) : {};
 
 const CAT = { cleanser:"Nettoyant", moisturizer:"Hydratant", serum:"Sérum", treatment:"Traitement",
   exfoliant:"Exfoliant", toner:"Tonique", mask:"Masque", "makeup-remover":"Démaquillant",
@@ -18,12 +20,14 @@ const CAT = { cleanser:"Nettoyant", moisturizer:"Hydratant", serum:"Sérum", tre
 const ech = (s) => String(s ?? "").replace(/[&<>"]/g, (m) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[m]));
 
 const items = produits.filter((x) => x.inciSource).map((x) => {
-  const v = recolte[x.name] || {};
+  const v = recolte[x.name] || web[x.name] || {};
   const avant = scoreFormule(null, x.category, false);
   const apres = scoreFormule(x.inci, x.category, false);
   return { marque: x.brand, nom: x.name, cat: CAT[x.category] || x.category, image: x.image, url: x.url,
            inci: x.inci, n: x.inci.split(",").length, forme: v.forme || "?", via: v.via || "page",
-           av: avant.score, ap: apres.score, bav: avant.bande, bap: apres.bande, d: apres.score - avant.score };
+           av: avant.score, ap: apres.score, bav: avant.bande, bap: apres.bande, d: apres.score - avant.score,
+           web: x.inciSource === "web", lien: x.inciUrl || null,
+           hote: x.inciUrl ? (x.inciUrl.match(/https?:\/\/(?:www\.)?([^\/]+)/) || [])[1] : null };
 }).sort((a, b) => b.d - a.d);
 
 const teinte = (b) => b === "good" ? "v" : b === "bad" ? "r" : "o";
@@ -40,9 +44,11 @@ const carte = (i) => `
           <span class="n ${teinte(i.bap)}">${i.ap}</span>
           <span class="ecart ${i.d > 0 ? "plus" : i.d < 0 ? "moins" : ""}">${i.d > 0 ? "+" : ""}${i.d}</span>
           <span class="pill">${ech(i.cat)}</span>
+          ${i.web ? `<span class="pill web">web</span>` : ""}
         </div>
         <details>
-          <summary>${i.n} ingrédients retrouvés<span class="via"> · ${ech(i.forme)}${i.via === "collecteur" ? " · Amazon" : ""}</span></summary>
+          <summary>${i.n} ingrédients retrouvés<span class="via"> · ${ech(i.forme)}${i.via === "collecteur" ? " · Amazon" : ""}${i.hote ? " · " + ech(i.hote) : ""}</span></summary>
+          ${i.lien ? `<p class="src"><a href="${ech(i.lien)}" target="_blank" rel="noopener">voir la page d’origine ↗</a></p>` : ""}
           <p class="inci">${ech(i.inci)}</p>
         </details>
       </div>
@@ -104,6 +110,9 @@ const html = `<!doctype html>
   .n.barre{opacity:.5}
   .ecart{font:600 11px/1 Inter;font-variant-numeric:tabular-nums;color:var(--doux)}
   .ecart.plus{color:var(--vert)} .ecart.moins{color:var(--rouge)}
+  .pill.web{background:var(--accent);color:var(--carte);border-color:var(--accent)}
+  .src{margin:6px 0 0;font-size:11px}
+  .src a{color:var(--accent)}
   .pill{margin-left:auto;font:600 10px/1 Inter;letter-spacing:.05em;text-transform:uppercase;color:var(--doux);
         border:1px solid var(--trait);border-radius:100px;padding:5px 9px}
   details{margin-top:auto}
@@ -128,6 +137,7 @@ const html = `<!doctype html>
     <div class="st"><b>${items.length}</b><span>INCI récupérés</span></div>
     <div class="st"><b>${items.filter((i) => Math.abs(i.d) >= 3).length}</b><span>notes corrigées de 3 pts ou plus</span></div>
     <div class="st"><b>${items.filter((i) => i.bav !== i.bap).length}</b><span>changent de couleur</span></div>
+    <div class="st"><b>${items.filter((i) => i.web).length}</b><span>trouvés hors Ulta/Amazon</span></div>
     <div class="st"><b>${Math.round(items.filter((i) => Math.abs(i.d) >= 3).reduce((s, i) => s + Math.abs(i.d), 0) / items.filter((i) => Math.abs(i.d) >= 3).length * 10) / 10}</b><span>écart moyen (pts)</span></div>
   </div>
 </header>
@@ -136,6 +146,7 @@ const html = `<!doctype html>
   <button class="f" aria-pressed="true" data-t="cat" data-f="*">Tout</button>
   <button class="f" aria-pressed="false" data-t="sens" data-f="haut">Note relevée</button>
   <button class="f" aria-pressed="false" data-t="sens" data-f="bas">Note abaissée</button>
+  <button class="f" aria-pressed="false" data-t="prov" data-f="web">Trouvés sur le web</button>
   ${cats.map((c) => `<button class="f" aria-pressed="false" data-t="cat" data-f="${ech(c)}">${ech(c)} <span style="opacity:.55">${items.filter((i) => i.cat === c).length}</span></button>`).join("\n  ")}
   <input type="search" id="q" placeholder="Chercher…" aria-label="Rechercher">
   <span class="compte" id="n"></span>
@@ -152,12 +163,13 @@ const html = `<!doctype html>
   var cartes = [].slice.call(document.querySelectorAll(".p"));
   var boutons = [].slice.call(document.querySelectorAll("button.f"));
   var q = document.getElementById("q"), n = document.getElementById("n"), rien = document.getElementById("rien");
-  var f = { cat: "*", sens: null };
+  var f = { cat: "*", sens: null, prov: null };
   function rendre() {
     var t = q.value.trim().toLowerCase(), vus = 0;
     cartes.forEach(function (c) {
       var ok = (f.cat === "*" || c.dataset.cat === f.cat)
             && (!f.sens || c.dataset.sens === f.sens)
+            && (!f.prov || c.dataset.prov === f.prov)
             && (!t || c.textContent.toLowerCase().indexOf(t) >= 0);
       c.hidden = !ok; if (ok) vus++;
     });
@@ -168,9 +180,13 @@ const html = `<!doctype html>
     b.addEventListener("click", function () {
       var t = b.dataset.t;
       if (t === "sens") { f.sens = f.sens === b.dataset.f ? null : b.dataset.f; }
+      else if (t === "prov") { f.prov = f.prov === b.dataset.f ? null : b.dataset.f; }
       else { f.cat = b.dataset.f; }
       boutons.forEach(function (o) {
-        o.setAttribute("aria-pressed", String(o.dataset.t === "sens" ? f.sens === o.dataset.f : f.cat === o.dataset.f));
+        var v = o.dataset.t === "sens" ? f.sens === o.dataset.f
+              : o.dataset.t === "prov" ? f.prov === o.dataset.f
+              : f.cat === o.dataset.f;
+        o.setAttribute("aria-pressed", String(v));
       });
       rendre();
     });
