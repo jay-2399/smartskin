@@ -46,3 +46,6 @@ data/_travail-enrichissement/
 
 # canevas de design : la sortie « seedée » fait 3,4 Mo et se régénère depuis les .dc.html
 design/**/smartskin-v2-ecrans-cles.html
+
+# sauvegardes locales du catalogue (git garde déjà l état précédent)
+data/scan/catalog.avant-*.json
