@@ -179,11 +179,22 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 .rep-ic.neg { color:#C9482F; background:rgba(224,102,87,0.15); }
 .rep-l span { font-size:12.5px; line-height:1.45; color:var(--arsenic); letter-spacing:-0.005em; }
 /* ── AVIS SEGMENTÉS : on ne montre QUE sa peau et les problèmes qu'elle a déclarés ── */
-.seg-toi { background:linear-gradient(180deg, rgba(166,195,214,.20), rgba(166,195,214,.09));
+.seg-toi, .seg-ai { background:linear-gradient(180deg, rgba(166,195,214,.20), rgba(166,195,214,.09));
   border:1px solid rgba(110,154,182,.30); border-radius:15px; padding:13px 15px; margin-top:12px; }
 .seg-k { display:block; font-size:8.5px; font-weight:700; letter-spacing:.14em;
   text-transform:uppercase; color:var(--blue-d); }
-.seg-toi p { margin:6px 0 0; font-size:12.5px; line-height:1.55; color:var(--arsenic); letter-spacing:-.005em; }
+.seg-ai-k { display:flex; align-items:center; gap:5px; }
+.seg-ai-k svg { flex-shrink:0; }
+.seg-ai-k .prof { color:var(--space); letter-spacing:.10em; font-weight:700; }
+/* squelette pendant la lecture des avis : trois lignes qui respirent, pas de roue qui tourne */
+.seg-ai-sk { margin-top:8px; display:flex; flex-direction:column; gap:6px; }
+.seg-ai-sk i { display:block; height:9px; border-radius:5px; background:rgba(110,154,182,.22);
+  animation:aiPulse 1.25s ease-in-out infinite; }
+.seg-ai-sk i:nth-child(2) { width:92%; animation-delay:.12s; }
+.seg-ai-sk i:nth-child(3) { width:64%; animation-delay:.24s; }
+@keyframes aiPulse { 0%,100% { opacity:.42; } 50% { opacity:.9; } }
+@media (prefers-reduced-motion:reduce) { .seg-ai-sk i { animation:none; opacity:.55; } }
+.seg-toi p, .seg-ai > p { margin:6px 0 0; font-size:12.5px; line-height:1.55; color:var(--arsenic); letter-spacing:-.005em; }
 .seg-vide { margin:6px 0 0; font-size:11.5px; line-height:1.5; color:var(--graphite); font-style:italic; }
 .seg-hd { display:block; font-size:8.5px; font-weight:700; letter-spacing:.14em;
   text-transform:uppercase; color:var(--space); margin:14px 0 -4px; }
@@ -960,6 +971,15 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
         <span class="rev-chev"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5.2L7 9.2l4-4"></path></svg></span>
       </label>
       <div class="rev-body"><div>
+        <div class="seg-ai" id="d-avis-ai" hidden>
+          <span class="seg-k seg-ai-k">
+            <svg width="11" height="11" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true"><path d="M6 .4c.32 1.9.83 3.18 1.53 3.87.7.7 1.98 1.2 3.87 1.53-1.9.32-3.18.83-3.87 1.53-.7.7-1.2 1.98-1.53 3.87-.32-1.9-.83-3.18-1.53-3.87C3.77 6.63 2.49 6.12.6 5.8c1.9-.32 3.18-.83 3.87-1.53C5.17 3.58 5.68 2.3 6 .4z"></path></svg>
+            <span>AI overview</span><span class="prof" id="d-avis-ai-p" hidden></span>
+          </span>
+          <div class="seg-ai-sk" id="d-avis-ai-sk"><i></i><i></i><i></i></div>
+          <p id="d-avis-ai-t" hidden></p>
+          <p class="seg-vide" id="d-avis-ai-v" hidden></p>
+        </div>
         <div class="seg-toi" id="d-avis-peau" hidden>
           <span class="seg-k" id="d-avis-peau-k"></span>
           <p id="d-avis-peau-t"></p>
@@ -1332,7 +1352,9 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     }
     afficher("perso");
     mieuxPourToi(p, pe);
-    avisClients(d.avis, d.produit && (d.produit.ref || d.produit.asin));
+    var refAvis = d.produit && (d.produit.ref || d.produit.asin);
+    if (d.avis) avisClients(d.avis, refAvis);
+    else if (d.avisBrut) avisBruts(d.avisBrut, refAvis);
   }
 
   // Avis RÉELS d'acheteurs. Rien d'inventé : pas de données, pas de bloc. Et rien qui ne la
@@ -1348,9 +1370,59 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     return s;
   }
 
+  // ── AVIS SANS FICHE ENRICHIE ──────────────────────────────────────────────
+  // Les produits collectés récemment ont leurs avis bruts mais pas de paragraphe pré-écrit par
+  // type de peau. Pour eux l'écran affiche la note, puis demande une synthèse au serveur — un
+  // seul paragraphe qui lit les avis en connaissant le profil, au lieu d'empiler un bloc par
+  // segment. Les fiches déjà enrichies passent par avisClients() et ne changent pas.
+  function avisBruts(b, ref) {
+    _asinCourant = ref || null;
+    document.getElementById("d-avis-src-logo").innerHTML = "by "
+      + (b.source === "ulta" ? '<img class="lg-ulta" src="ulta.png" alt="Ulta Beauty">'
+                             : '<img src="amazon.svg" alt="Amazon">');
+    document.getElementById("d-avis-note").textContent =
+      b.note != null ? (Math.round(b.note * 10) / 10).toFixed(1) : "—";
+    document.getElementById("d-avis-etoiles").innerHTML = b.note != null ? etoiles(b.note) : "";
+    document.getElementById("d-avis-n").innerHTML =
+      b.nbAvis != null ? "<b>" + Number(b.nbAvis).toLocaleString("en-US") + "</b> global ratings" : "";
+
+    // rien de pré-calculé ici : les blocs qui en dépendent restent fermés
+    ["d-avis-peau", "d-avis-soucis", "d-avis-souci-hd", "d-avis-rap", "d-avis-tous"].forEach(function (id) {
+      document.getElementById(id).hidden = true;
+    });
+    document.getElementById("d-avis-extraits").innerHTML = "";
+    document.getElementById("d-avis-src").textContent = "";
+    document.getElementById("d-avis").hidden = false;
+
+    if (!ref) return;
+    var boite = document.getElementById("d-avis-ai");
+    var sk = document.getElementById("d-avis-ai-sk");
+    var txt = document.getElementById("d-avis-ai-t");
+    var vide = document.getElementById("d-avis-ai-v");
+    var prof = document.getElementById("d-avis-ai-p");
+    boite.hidden = false; sk.hidden = false; txt.hidden = true; vide.hidden = true; prof.hidden = true;
+
+    fetch("/api/produit/overview?ref=" + encodeURIComponent(ref))
+      .then(function (r) { return r.json(); })
+      .then(function (j) {
+        var o = j && j.overview;
+        // pas de synthèse : la boîte disparaît. La note et le nombre d'avis restent — ils sont
+        // vrais sans elle, et un texte de repli inventé ne vaut mieux que rien.
+        if (!o || !o.texte) { boite.hidden = true; return; }
+        sk.hidden = true;
+        txt.textContent = o.texte; txt.hidden = false;
+        if (o.absence) { vide.textContent = o.absence; vide.hidden = false; }
+        // le sous-titre n'apparaît que si la synthèse parle vraiment de sa peau — le serveur
+        // ne renseigne `peau` que dans ce cas
+        if (o.peau) { prof.textContent = "· your " + o.peau + " skin"; prof.hidden = false; }
+      })
+      .catch(function () { boite.hidden = true; });
+  }
+
   function avisClients(a, asin) {
     if (!a) return;
     _asinCourant = asin || null;
+    document.getElementById("d-avis-ai").hidden = true;
 
     // la source est affichée telle qu'elle est : écrire « amazon » sur des avis Ulta serait faux
     document.getElementById("d-avis-src-logo").innerHTML = "by "

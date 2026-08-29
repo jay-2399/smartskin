@@ -1,0 +1,26 @@
+{
+  "pages": [
+    { "id": "page-1", "name": "Retenu — A" },
+    { "id": "page-2", "name": "Écarté" }
+  ],
+  "artboards": [
+    { "file": "Main.dc.html",          "x": 0,    "y": 0, "w": 430, "h": 680, "title": "A — cas complet",        "page": "page-1" },
+    { "file": "PeauNonDite.dc.html",   "x": 530,  "y": 0, "w": 430, "h": 700, "title": "A — peau non mentionnée", "page": "page-1" },
+    { "file": "RienDeCouvert.dc.html", "x": 1060, "y": 0, "w": 430, "h": 520, "title": "A — rien de couvert",     "page": "page-1" },
+    { "file": "Aujourdhui.dc.html",    "x": 1590, "y": 0, "w": 430, "h": 700, "title": "Aujourd'hui (référence)", "page": "page-1" },
+    { "file": "OverviewSeul.dc.html",  "x": 0,    "y": 0, "w": 430, "h": 530, "title": "B — overview seul",       "page": "page-2" }
+  ],
+  "annotations": [
+    { "id": "n-plein", "x": 0,    "y": -160, "w": 430, "page": "page-1",
+      "text": "CAS COMPLET\nLes avis parlent de la peau grasse ET des deux problèmes déclarés.\n\nL'overview articule la peau. Le détail par problème reste dessous, isolable." },
+    { "id": "n-peau",  "x": 530,  "y": -160, "w": 430, "page": "page-1",
+      "text": "LA PEAU N'EST PAS MENTIONNÉE\nPersonne ne se décrit comme ayant la peau grasse.\n\nLa synthèse reste — elle est vraie. La phrase sur la peau disparaît, et son absence se dit en italique plutôt que de se taire.\n\n« On what you flagged » ne bouge pas : les problèmes, eux, sont couverts." },
+    { "id": "n-rien",  "x": 1060, "y": -160, "w": 430, "page": "page-1",
+      "text": "RIEN N'EST COUVERT\n13 avis, aucun ne parle ni de peau ni des problèmes déclarés.\n\nLa synthèse existe toujours. « On what you flagged » disparaît entièrement — c'est déjà ce que fait l'app aujourd'hui quand un problème n'a aucun avis." },
+    { "id": "n-ref",   "x": 1590, "y": -160, "w": 430, "page": "page-1",
+      "text": "AUJOURD'HUI, pour comparer.\n\nL'encadré bleu tient en une phrase tirée d'UN avis. C'est ce que la synthèse remplace." },
+    { "id": "n-b",     "x": 0,    "y": -160, "w": 430, "page": "page-2",
+      "text": "B — ÉCARTÉ\nUn seul paragraphe fondant peau et problèmes. Plus court, mais on ne peut plus lire un problème sans lire le reste." }
+  ],
+  "launch": { "view": "canvas", "page": "page-1" }
+}
