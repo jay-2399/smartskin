@@ -8508,14 +8508,13 @@
   "category": "mask",
   "url": "https://www.ulta.com/p/make-my-day-hydrating-ufo-activated-sheet-masks-pimprod2001865",
   "image": "https://media.ultainc.com/i/ulta/2531884?w=500&h=500",
-  "inci": "Hyaluronic Acid, and Red Algae.",
+  "inci": null,
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "mask",
-  "catConfiance": "probable",
-  "inciSource": "recupere-page"
+  "catConfiance": "probable"
  },
  {
   "source": "ulta",
@@ -8552,13 +8551,14 @@
   "category": "mask",
   "url": "https://www.ulta.com/p/reusable-silicone-brow-mask-pimprod2030881",
   "image": "https://media.ultainc.com/i/ulta/2591998?w=500&h=500",
-  "inci": null,
+  "inci": "100% Silicone",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "mask",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -8595,14 +8595,13 @@
   "category": "mask",
   "url": "https://www.ulta.com/p/call-it-a-night-revitalizing-nourishing-ufo-activated-sheet-masks-pimprod2001866",
   "image": "https://media.ultainc.com/i/ulta/2531883?w=500&h=500",
-  "inci": "Ginseng and, olive oil",
+  "inci": null,
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "mask",
-  "catConfiance": "probable",
-  "inciSource": "recupere-page"
+  "catConfiance": "probable"
  },
  {
   "source": "ulta",
@@ -13045,14 +13044,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-original-acne-pimple-patches-pimprod2030348",
   "image": "https://media.ultainc.com/i/ulta/2591987?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons hydrocolloides"
+  "catPourquoi": "patchs anti-boutons hydrocolloides",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13078,14 +13078,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-invisible-daytime-hydrocolloid-acne-pimple-patches-pimprod2034652",
   "image": "https://media.ultainc.com/i/ulta/2599899?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons hydrocolloides"
+  "catPourquoi": "patchs anti-boutons hydrocolloides",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13094,14 +13095,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/acne-spot-dots-pimprod2016354",
   "image": "https://media.ultainc.com/i/ulta/2567110?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "treatment",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons"
+  "catPourquoi": "patchs anti-boutons",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13110,14 +13112,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/hydro-star-pimple-patches-pimprod2048681",
   "image": "https://media.ultainc.com/i/ulta/2631425?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons hydrocolloides"
+  "catPourquoi": "patchs anti-boutons hydrocolloides",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13141,14 +13144,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/hydro-star-pimple-patches-compact-pimprod2048680",
   "image": "https://media.ultainc.com/i/ulta/2640369?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "patchs anti-boutons avec boitier"
+  "catPourquoi": "patchs anti-boutons avec boitier",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13275,14 +13279,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-mini-invisible-pimprod2047047",
   "image": "https://media.ultainc.com/i/ulta/2629999?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons hydrocolloides"
+  "catPourquoi": "patchs anti-boutons hydrocolloides",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13291,14 +13296,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/nose-pore-patches-pimprod2037358",
   "image": "https://media.ultainc.com/i/ulta/2605745?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs hydrocolloides pores du nez"
+  "catPourquoi": "patchs hydrocolloides pores du nez",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13365,14 +13371,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-duo-original-invisible-patches-pimprod2020519",
   "image": "https://media.ultainc.com/i/ulta/2572018?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "duo de patchs anti-boutons"
+  "catPourquoi": "duo de patchs anti-boutons",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13442,14 +13449,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/hydro-star-extra-small-pimple-patches-pimprod2056153",
   "image": "https://media.ultainc.com/i/ulta/2649919?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons hydrocolloides"
+  "catPourquoi": "patchs anti-boutons hydrocolloides",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13458,7 +13466,7 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/hydro-star-clear-pimple-patches-pimprod2048682",
   "image": "https://media.ultainc.com/i/ulta/2631430?w=500&h=500",
-  "inci": "Cellulose Gum, Polyisobutene, Petroleum Resins, Styrene/Butadiene Copolymer, Paraffinum Liquidum, Polyurethane, Salicylic Acid",
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "indetermine",
@@ -13466,8 +13474,7 @@
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
   "catPourquoi": "patchs anti-boutons hydrocolloides",
-  "inciSource": "web",
-  "inciUrl": "https://www.ulta.com/p/hydro-star-salicylic-acid-patches-big-blue-compact-pimprod2048679?sku=2631423"
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13653,14 +13660,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-day-night-pimprod2050119",
   "image": "https://media.ultainc.com/i/ulta/2633261?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "patchs anti-boutons jour et nuit"
+  "catPourquoi": "patchs anti-boutons jour et nuit",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13669,14 +13677,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-surface-acne-pimple-patches-pimprod2030349",
   "image": "https://media.ultainc.com/i/ulta/2591988?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons grande surface"
+  "catPourquoi": "patchs anti-boutons grande surface",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13758,14 +13767,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-nose-pore-pimple-patches-pimprod2033546",
   "image": "https://media.ultainc.com/i/ulta/2598128?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons zone du nez"
+  "catPourquoi": "patchs anti-boutons zone du nez",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13789,7 +13799,7 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/pm-overnight-spot-patches-pimprod2049554",
   "image": "https://media.ultainc.com/i/ulta/2634919?w=500&h=500",
-  "inci": "Carbomer Homopolymer Type C, Carbomer Interpolymer Type A, Decyl Glucoside, Dimethicone, Dioctyl Sodium Sulfosuccinate, Glycerin, Palmitic Acid, Polyacrylate Crosspolymer-6, Polyoxyl 40 Stearate, Propanediol, Purified Water, Silica, Sodium Chloride, Sodium Citrate, Sodium Hydroxide, Sodium Laurylglucosides Hydroxypropylsulfonate, Sorbitan Stearate, Stearic Acid, T-Butyl Alcohol",
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "treatment",
@@ -13797,8 +13807,7 @@
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
   "catPourquoi": "patchs anti-boutons de nuit",
-  "inciSource": "web",
-  "inciUrl": "https://incidecoder.com/products/panoxyl-pm-overnight-spot-patches"
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -13852,14 +13861,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-face-pore-pimple-patches-pimprod2041127",
   "image": "https://media.ultainc.com/i/ulta/2615336?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons hydrocolloides"
+  "catPourquoi": "patchs anti-boutons hydrocolloides",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -14695,14 +14705,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/scar-remedy-silicone-gel-pimprod2056713",
   "image": "https://media.ultainc.com/i/ulta/2650322?w=500&h=500",
-  "inci": null,
+  "inci": "Pentasiloxane, Dimethicone",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "moisturizer",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "gel silicone cicatrices, soin cible"
+  "catPourquoi": "gel silicone cicatrices, soin cible",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -14711,7 +14722,7 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/miracle-patch-3-step-pore-melting-pack-pimprod2046994",
   "image": "https://media.ultainc.com/i/ulta/2629918?w=500&h=500",
-  "inci": "Pore Melting Sheet: Water, 1.2-Hexanediol, Ganoderma Lucidum (Mushroom) Extract, Glycerin, Codonopsis Lanceolata Root Extract, Salix Alba (Willow) Bark Extract, Arctium Lappa Root Extract, Butylene Glycol, Hamamelis Virginiana (Witch Hazel) Extract, Viscum Album (Mistletoe) Leaf Extract, Hydrogenated Lecithin, Polyglyceryl-10 Oleate, Chrysanthemum Sinense Flower Extract, Phytosterols, Polyglyceryl-10 Laurate, Polyglyceryl-10 Myristate, Ethylhexylglycerin, Lavandula Angustifolia (Lavender) Oil, Panthenol, Sodium Phytate, Salicylic Acid, Lavandula Angustifolia (Lavender) Extract, Artemisia Scoparia Extract, Succinic Acid Soothing Sheet: Water, Butylene Glycol, Glycerin, 1.2-Hexanediol, Xanthan Gum, Dipotassium Glycyrrhizate, Ethylhexylglycerin, Sodium Phytate, Kummerowia Striata Extract, Cinchona Pubescens Bark Extract, Leptospermum Scoparium Leaf Extract",
+  "inci": "Melting Sheet: Water (Aqua), Hamamelis Virginiana (Witch Hazel) Water, Salvia Officinalis (Sage) Leaf Extract, Butylene Glycol, Arctium Majus Root Extract, Juniperus Communis Fruit Extract, Melissa Officinalis Leaf Extract, Mentha Piperita (Peppermint) Leaf Extract, Hypericum Perforatum Flower/Leaf/Stem Extract, Saponaria Officinalis Leaf Extract, 1,2-Hexanediol, Hydroxyacetophenone, Allantoin, Glycolic Acid, Glycerin, Polyglyceryl-10 Laurate, Polyglyceryl-10 Myristate, Ethylhexylglycerin, Sodium Phytate, Gluconolactone, Vanillyl Butyl Ether, Simmondsia Chinensis (Jojoba) Seed Oil, Succinic Acid, Artemisia Scoparia Extract. Soothing Sheet: Water (Aqua), Dipropylene Glycol, Glycerin, 1,2-Hexanediol, Hydroxyacetophenone, Allantoin, Xanthan Gum, Carbomer, Dipotassium Glycyrrhizate, Arginine, Sodium Phytate, Sodium Hyaluronate, Succinic Acid, Artemisia Scoparia Extract, Butylene Glycol. Rael is dedicated to maintaining the accuracy of the ingredient lists on this website. However, because ingredients are subject to change, Rael cannot guarantee that these lists are complete, up-to-date and/or error-free. For an accurate listing of ingredients in each product",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
@@ -14719,8 +14730,7 @@
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
   "catPourquoi": "kit patchs nez anti points noirs",
-  "inciSource": "web",
-  "inciUrl": "https://www.target.com/p/rael-miracle-patch-3-step-pore-melting-pack-3ct/-/A-94876831"
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -14729,14 +14739,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/hydro-star-yellow-pimple-patches-pimprod2048851",
   "image": "https://media.ultainc.com/i/ulta/2631428?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons hydrocolloides"
+  "catPourquoi": "patchs anti-boutons hydrocolloides",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -14824,14 +14835,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-chin-acne-pimple-patches-pimprod2036974",
   "image": "https://media.ultainc.com/i/ulta/2605377?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons menton"
+  "catPourquoi": "patchs anti-boutons menton",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -15038,14 +15050,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-variety-pack-pimprod2052295",
   "image": "https://media.ultainc.com/i/ulta/2640523?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "assortiment de patchs anti-boutons"
+  "catPourquoi": "assortiment de patchs anti-boutons",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -15189,14 +15202,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/mighty-patch-forehead-pimple-patches-pimprod2041126",
   "image": "https://media.ultainc.com/i/ulta/2615335?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons front"
+  "catPourquoi": "patchs anti-boutons front",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -15235,14 +15249,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/blemish-breakthrough-stick-it-zits-pimple-patches-pimprod2052506",
   "image": "https://media.ultainc.com/i/ulta/2642299?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons"
+  "catPourquoi": "patchs anti-boutons",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -16269,14 +16284,15 @@
   "category": "moisturizer",
   "url": "https://www.ulta.com/p/100-plant-derived-squalane-skin-hair-hydration-pimprod2007112",
   "image": "https://media.ultainc.com/i/ulta/2551177?w=500&h=500",
-  "inci": null,
+  "inci": "100% Pure Plant-derived Squalane",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "moisturizer",
   "_catConfiance": "accord",
   "categorieSource": "serum",
   "catConfiance": "probable-agent",
-  "catPourquoi": "huile squalane emolliente qui reste"
+  "catPourquoi": "huile squalane emolliente qui reste",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -18774,14 +18790,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/spot-a-spot-acne-patches-pimprod2023800",
   "image": "https://media.ultainc.com/i/ulta/2580613?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid, Salicylic Acid, Peppermint Oil",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "treatment",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons localises"
+  "catPourquoi": "patchs anti-boutons localises",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -18806,14 +18823,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/all-covered-salicylic-acid-brushed-blemish-patches-pimprod2053655",
   "image": "https://media.ultainc.com/i/ulta/2644457?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid, Carthamus Tinctorius (Safflower) Seed Oil",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-imperfections localises"
+  "catPourquoi": "patchs anti-imperfections localises",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -19160,14 +19178,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/blemish-treatment-acne-heart-patches-pimprod2002230",
   "image": "https://media.ultainc.com/i/ulta/2555526?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid.",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "treatment",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs acne coeur"
+  "catPourquoi": "patchs acne coeur",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -19193,7 +19212,7 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/blume-buds-power-patches-acne-prone-skin-pimprod2042537",
   "image": "https://media.ultainc.com/i/ulta/2615876?w=500&h=500",
-  "inci": "Hydrocolloid, , Salicylic Acid",
+  "inci": "Hydrocolloid, Salicylic Acid",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "treatment",
@@ -19226,7 +19245,7 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/unseen-pimple-patch-pimprod2052473",
   "image": "https://media.ultainc.com/i/ulta/2645612?w=500&h=500",
-  "inci": "Hydrocolloid, , Bakuchiol",
+  "inci": "Hydrocolloid, Bakuchiol",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
@@ -19667,15 +19686,13 @@
   "category": "sunscreen",
   "url": "https://www.ulta.com/p/make-it-glow-continuous-spray-spf30-pimprod2032832",
   "image": "https://media.ultainc.com/i/ulta/2597427?w=500&h=500",
-  "inci": "Alcohol Denat. Acrylates/Octylacrylamide Copolymer, Persea Gratissima (Avocado) Oil, Simmondsia Chinensis (Jojoba) Seed Oil, Aloe Barbadensis Leaf Extract, Tocopherol, Butyrospermum Parkii (Shea Butter), Glycerin, Caprylic/Capric Triglyceride, Diethlhexyl Syringylidenemalonate",
+  "inci": null,
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "sunscreen",
   "_catConfiance": "accord",
   "categorieSource": "sunscreen",
-  "catConfiance": "probable",
-  "inciSource": "marque",
-  "inciUrl": "https://blackgirlsunscreen.com/product/make-it-glow-spf-30/?srsltid=AfmBOorX4bNK4bHg1nFoylrHKJhbk3SwQhObLOI8rj_OmfQBvm23PwFp"
+  "catConfiance": "probable"
  },
  {
   "source": "ulta",
@@ -20816,13 +20833,14 @@
   "category": "toner",
   "url": "https://www.ulta.com/p/rose-water-beauty-myst-soothing-face-toner-mkt77008408",
   "image": "https://media.ultainc.com/i/ulta/77013001?w=500&h=500",
-  "inci": null,
+  "inci": "Rose (Rosa damascena) distillate",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "toner",
   "_catConfiance": "accord",
   "categorieSource": "toner",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -21138,14 +21156,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/miracle-patch-microcrystal-spot-cover-pimprod2046992",
   "image": "https://media.ultainc.com/i/ulta/2629922?w=500&h=500",
-  "inci": null,
+  "inci": "Trehalose, Cellulose Gum, Hydrolyzed Hyaluronic Acid, Glycerin, Sodium Hyaluronate, Butylene Glycol, Succinic Acid, Madecassoside, Salix Alba (Willow) Bark Extract, Polyglyceryl-10-Laurate, Epigallocatechin Gallate, Ethoxydiglycol, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Totarol. Rael is dedicated to maintaining the accuracy of the ingredient lists on this website. However, because ingredients are subject to change, Rael cannot guarantee that these lists are complete, up-to-date and/or error-free. For an accurate listing of ingredients in each product",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patch microcristaux bouton"
+  "catPourquoi": "patch microcristaux bouton",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -21154,14 +21173,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/scar-prevention-star-acne-patches-pimprod2010490",
   "image": "https://media.ultainc.com/i/ulta/2555539?w=500&h=500",
-  "inci": null,
+  "inci": "Hydrocolloid, Tea Tree Oil",
   "asin": null,
   "inciStatut": "non_applicable",
   "_catNouvelle": "treatment",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs acne anti-cicatrice"
+  "catPourquoi": "patchs acne anti-cicatrice",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -21434,13 +21454,15 @@
   "category": "treatment",
   "url": "https://www.ulta.com/p/shaant-spot-hero-blemish-treatment-mkt77002206",
   "image": "https://media.ultainc.com/i/ulta/77003667?w=500&h=500",
-  "inci": null,
+  "inci": "Vitamin C Skin Care, Retinol, Hyaluronic Acid, Niacinamide, Glycolic Acid, Azelaic Acid, Peptides Ceramides, Lactic Acid, Salicylic Acid",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "treatment",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://derm.com/shop/codex-labs-shaant-spot-hero-blemish-treatment-4c63f42eaa9d"
  },
  {
   "source": "ulta",
@@ -25783,14 +25805,15 @@
   "category": "serum",
   "url": "https://www.ulta.com/p/bakuchiol-oil-blend-dry-skin-pimprod2027917",
   "image": "https://media.ultainc.com/i/ulta/2589111?w=500&h=500",
-  "inci": null,
+  "inci": "Rosa Rubiginosa (Rosehip) Seed Oil, Salvia Hispanica (Chia) Seed Oil",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "serum",
   "catConfiance": "probable-agent",
-  "catPourquoi": "huile visage active bakuchiol"
+  "catPourquoi": "huile visage active bakuchiol",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -26706,14 +26729,15 @@
   "category": "serum",
   "url": "https://www.ulta.com/p/bakuchiol-oil-blend-oily-skin-pimprod2027918",
   "image": "https://media.ultainc.com/i/ulta/2589112?w=500&h=500",
-  "inci": null,
+  "inci": "Rosa Rubiginosa (Rosehip) Seed Oil, Adansonia Digitata (Baobab) Seed Oil",
   "asin": null,
   "inciStatut": "echec",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "serum",
   "catConfiance": "probable-agent",
-  "catPourquoi": "huile visage active bakuchiol"
+  "catPourquoi": "huile visage active bakuchiol",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -28081,7 +28105,7 @@
   "category": "moisturizer",
   "url": "https://www.amazon.com/dp/B01A74442I",
   "image": "https://m.media-amazon.com/images/I/91hpwn6sScL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Organic Jojoba Oil",
   "asin": "B01A74442I",
   "bsRank": 1,
   "inciStatut": "echec",
@@ -28089,7 +28113,8 @@
   "_catConfiance": "aucune",
   "categorieSource": "moisturizer",
   "catConfiance": "probable-agent",
-  "catPourquoi": "huile jojoba pure hydratante"
+  "catPourquoi": "huile jojoba pure hydratante",
+  "inciSource": "recupere-collecteur"
  },
  {
   "source": "amazon",
@@ -28267,14 +28292,15 @@
   "category": "cleanser",
   "url": "https://www.amazon.com/dp/B07VRFC3Y7",
   "image": "https://m.media-amazon.com/images/I/71FhpTISUhL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Hypochlorous Acid",
   "asin": "B07VRFC3Y7",
   "bsRank": 8,
   "inciStatut": "echec",
   "_catNouvelle": "cleanser",
   "_catConfiance": "accord",
   "categorieSource": "cleanser",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "recupere-collecteur"
  },
  {
   "source": "amazon",
@@ -28504,14 +28530,15 @@
   "category": "cleanser",
   "url": "https://www.amazon.com/dp/B0F5QS4B8H",
   "image": "https://m.media-amazon.com/images/I/818983CRmbL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Hypochlorous Acid",
   "asin": "B0F5QS4B8H",
   "bsRank": 10,
   "inciStatut": "echec",
   "_catNouvelle": "cleanser",
   "_catConfiance": "accord",
   "categorieSource": "moisturizer",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "recupere-collecteur"
  },
  {
   "source": "amazon",
@@ -30400,7 +30427,7 @@
   "category": "mask",
   "url": "https://www.amazon.com/dp/B0FNZW5PH5",
   "image": "https://m.media-amazon.com/images/I/61+zRfhdqHL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Collagen",
   "asin": "B0FNZW5PH5",
   "bsRank": 72,
   "inciStatut": "echec",
@@ -30408,7 +30435,8 @@
   "_catConfiance": "aucune",
   "categorieSource": "mask",
   "catConfiance": "probable-agent",
-  "catPourquoi": "masques hydrogel visage"
+  "catPourquoi": "masques hydrogel visage",
+  "inciSource": "recupere-collecteur"
  },
  {
   "source": "amazon",
@@ -30822,14 +30850,15 @@
   "category": "mask",
   "url": "https://www.amazon.com/dp/B0FSZY8WGS",
   "image": "https://m.media-amazon.com/images/I/71CFCNS0mjL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Collagen",
   "asin": "B0FSZY8WGS",
   "bsRank": 121,
   "inciStatut": "echec",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "mask",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "recupere-collecteur"
  },
  {
   "source": "amazon",
@@ -31436,14 +31465,15 @@
   "category": "treatment",
   "url": "https://www.amazon.com/dp/B0CJ8Z4LLF",
   "image": "https://m.media-amazon.com/images/I/618rUz14YcL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Hydrocolloid",
   "inciStatut": "non_applicable",
   "asin": "B0CJ8Z4LLF",
   "_catNouvelle": "treatment",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons"
+  "catPourquoi": "patchs anti-boutons",
+  "inciSource": "recupere-collecteur"
  },
  {
   "source": "amazon",
@@ -31452,14 +31482,15 @@
   "category": "treatment",
   "url": "https://www.amazon.com/dp/B0CJ8Z98QH",
   "image": "https://m.media-amazon.com/images/I/61GJqmyd6lL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Hydrocolloid",
   "inciStatut": "non_applicable",
   "asin": "B0CJ8Z98QH",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons"
+  "catPourquoi": "patchs anti-boutons",
+  "inciSource": "recupere-collecteur"
  },
  {
   "source": "amazon",
@@ -31542,14 +31573,15 @@
   "category": "treatment",
   "url": "https://www.amazon.com/dp/B0CJ8XNDXM",
   "image": "https://m.media-amazon.com/images/I/61W3H9QGzjL._SL1500_.jpg",
-  "inci": null,
+  "inci": "Hydrocolloid",
   "inciStatut": "non_applicable",
   "asin": "B0CJ8XNDXM",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs anti-boutons"
+  "catPourquoi": "patchs anti-boutons",
+  "inciSource": "recupere-collecteur"
  },
  {
   "source": "amazon",
@@ -35005,13 +35037,14 @@
   "category": "toner",
   "url": "https://www.ulta.com/p/mineralizing-thermal-water-spray-xlsImpprod3710361",
   "image": "https://media.ultainc.com/i/ulta/2236516?w=500&h=500",
-  "inci": null,
+  "inci": "Water",
   "inciStatut": "echec",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "brume eau thermale, sans rincage"
+  "catPourquoi": "brume eau thermale, sans rincage",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -35466,13 +35499,14 @@
   "category": "toner",
   "url": "https://www.ulta.com/p/thermal-spring-water-pimprod2020797",
   "image": "https://media.ultainc.com/i/ulta/2577346?w=500&h=500",
-  "inci": null,
+  "inci": "Water, (Avène Thermal Spring Water)",
   "inciStatut": "echec",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "brume eau thermale, sans rincage"
+  "catPourquoi": "brume eau thermale, sans rincage",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -36780,13 +36814,14 @@
   "category": "moisturizer",
   "url": "https://www.ulta.com/p/virgin-marula-luxury-facial-oil-pimprod2028069",
   "image": "https://media.ultainc.com/i/ulta/2588442?w=500&h=500",
-  "inci": null,
+  "inci": "100% Unrefined Sclerocraya Birrea (Marula) Kernel Oil.",
   "inciStatut": "echec",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "huile visage nourrissante, sans rincage"
+  "catPourquoi": "huile visage nourrissante, sans rincage",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -37709,13 +37744,14 @@
   "category": "moisturizer",
   "url": "https://www.ulta.com/p/ultra-hydrating-facial-oil-pimprod2024576",
   "image": "https://media.ultainc.com/i/ulta/2583062?w=500&h=500",
-  "inci": null,
+  "inci": "Camellia Oleifera Seed Oil",
   "inciStatut": "echec",
   "_catNouvelle": "moisturizer",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "huile visage hydratante, sans rincage"
+  "catPourquoi": "huile visage hydratante, sans rincage",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -37724,13 +37760,14 @@
   "category": "moisturizer",
   "url": "https://www.ulta.com/p/squalane-oil-pimprod2024575",
   "image": "https://media.ultainc.com/i/ulta/2583063?w=500&h=500",
-  "inci": null,
+  "inci": "100% Plant-Derived, Squalane",
   "inciStatut": "echec",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "huile de squalane visage"
+  "catPourquoi": "huile de squalane visage",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -37752,13 +37789,14 @@
   "category": "moisturizer",
   "url": "https://www.ulta.com/p/pure-cold-pressed-rosehip-seed-oil-pimprod2024574",
   "image": "https://media.ultainc.com/i/ulta/2583061?w=500&h=500",
-  "inci": null,
+  "inci": "Rosa Rubiginosa (Rosehip) Seed Oil.",
   "inciStatut": "echec",
   "_catNouvelle": "indetermine",
   "_catConfiance": "aucune",
   "categorieSource": "treatment",
   "catConfiance": "probable-agent",
-  "catPourquoi": "huile de rose musquee visage"
+  "catPourquoi": "huile de rose musquee visage",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -37838,13 +37876,14 @@
   "category": "hors-perimetre",
   "url": "https://www.ulta.com/p/mighty-patch-body-pimprod2049308",
   "image": "https://media.ultainc.com/i/ulta/2633262?w=500&h=500",
-  "inci": null,
+  "inci": "Medical Grade Hydrocolloid.",
   "inciStatut": "echec",
   "_catNouvelle": "mask",
   "_catConfiance": "accord",
   "categorieSource": "treatment",
   "catConfiance": "sur-agent",
-  "catPourquoi": "patchs pour le corps"
+  "catPourquoi": "patchs pour le corps",
+  "inciSource": "recupere-page"
  },
  {
   "source": "ulta",
@@ -37950,12 +37989,14 @@
   "category": "serum",
   "url": "https://www.ulta.com/p/booster-pro-mini-plus-pimprod2058966",
   "image": "https://media.ultainc.com/i/ulta/2654537?w=500&h=500",
-  "inci": null,
+  "inci": "AHA, Azelaic Acid, BHA, Ceramides Ginseng Growth Factors, Hyaluronic Acid, PDRN Peptides, Retinol, Salicylic Acid, Vitamin C",
   "inciStatut": "echec",
   "_catNouvelle": "serum",
   "_catConfiance": "accord",
   "categorieSource": "serum",
-  "catConfiance": "probable"
+  "catConfiance": "probable",
+  "inciSource": "web",
+  "inciUrl": "https://www.cultbeauty.com/p/medicube-age-r-booster-pro-mini-plus-beige/17956743/"
  },
  {
   "source": "ulta",

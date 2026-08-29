@@ -46,17 +46,46 @@ export function couperALaSalissure(t) {
   return { tete: (v > 20 ? tete.slice(0, v) : tete).trim().replace(/[,\s]+$/, ""), coupe: fin < t.length };
 }
 
+// Un produit à un seul ingrédient existe pour de bon : une eau thermale, c'est « Water » ; un
+// patch anti-boutons, « Hydrocolloid » ; une huile de marula, « 100% Unrefined Marula Kernel Oil ».
+// Les recaler pour cause de brièveté, c'est jeter une composition JUSTE. Ce qui doit trancher sur
+// une liste courte n'est pas le nombre d'entrées mais leur nature : nomme-t-elle des matières, ou
+// est-ce une phrase ? « Hyaluronic Acid and Red Algae » a deux noms d'ingrédients et reste un
+// résumé publicitaire — un masque en tissu en contient trente.
+const MATIERE = /\b(oils?|butters?|extracts?|waters?|acids?|powders?|clays?|waxe?s?|juice|distillate|collagen|hydrocolloid|silicone|squalane|glycerin|aqua|filtrate|ferment|hyaluronate|petrolatum|tallow|honey|gel)\b\.?$/i;
+
+function nommeUneMatiere(item, reconnuIndividuel) {
+  const t = item.replace(/^[\d.]+\s*%\s*/, "").replace(/[\\*†‡]+.*$/, "").trim();
+  if (!t) return false;
+  return reconnuIndividuel(t) || MATIERE.test(t);
+}
+
 export function validerInci(texte, { minIngredients = 8 } = {}) {
   const brut = String(texte || "").trim();
   if (!brut) return { ok: false, motif: "vide" };
 
-  const { tete, coupe } = couperALaSalissure(brut);
+  // les appels de note en bas de liste (« Squalane\*. \*ecocert Approved ») ne sont pas des
+  // ingrédients : ils commencent à l'astérisque
+  const { tete, coupe } = couperALaSalissure(brut.replace(/\\?\*.*$/s, "").trim());
   if (!tete) return { ok: false, motif: "texte de page, pas une liste" };
   const t = tete;
 
   const items = t.split(",").map((s) => s.trim()).filter(Boolean);
   const reconnu = tauxReconnu(t);
-  if (items.length < minIngredients) return { ok: false, motif: "trop courte (" + items.length + ")", n: items.length, reconnu };
+  // liste courte : on ne compte pas, on regarde ce qu'elle nomme
+  if (items.length < Math.max(minIngredients, 4)) {
+    // Un INCI énumère, il ne raconte pas : « Hyaluronic Acid AND Red Algae » est une phrase, et
+    // c'est ainsi qu'un masque en tissu de trente ingrédients se résume en deux sur sa fiche.
+    if (/\band\b/i.test(t))
+      return { ok: false, motif: "phrase (« and » entre les ingrédients)", n: items.length, reconnu };
+    const propres = items.map((x) => x.trim()).filter(Boolean);
+    const toutesMatieres = propres.length > 0 &&
+      propres.every((x) => nommeUneMatiere(x, (u) => tauxReconnu(u) >= 1));
+    if (toutesMatieres) return { ok: true, n: propres.length, reconnu: Math.round(reconnu * 100) / 100,
+                                 inci: propres.join(", "), coupe, mono: true };
+    if (items.length < minIngredients)
+      return { ok: false, motif: "phrase, pas une liste de matières (" + items.length + ")", n: items.length, reconnu };
+  }
   // Les patchs et pansements font chuter ce taux sans rien avoir de suspect : leurs polymères
   // adhésifs (styrène/isoprène, indène) ne sont pas dans un dictionnaire de soins. 45 % laisse
   // passer ces formules-là tout en écartant le texte libre.

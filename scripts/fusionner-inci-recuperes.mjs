@@ -14,7 +14,14 @@ const RACINE = path.resolve(import.meta.dirname, "..");
 const CATALOGUE = path.join(RACINE, "data/scan/catalog.json");
 // deux récoltes : la lecture directe des pages Ulta/Amazon, puis la recherche web pour ce
 // qu'aucune des deux sources ne publiait
-const RETENUS = ["inci", "inci-court", "mono"];   // ce qu'on juge exploitable ; le reste est écarté
+// On n'écarte QUE ce qui ne porte aucune donnée, ou ce qu'un contrôle a délibérément refusé.
+// Surtout pas sur l'étiquette posée par le collecteur : elle a été calculée avec les règles du
+// jour où la récolte a eu lieu, et un pré-filtre périmé court-circuitait la validation réelle —
+// c'est ainsi que « Water » (eau thermale Vichy) ou « Hydrocolloid » (une vingtaine de patchs)
+// restaient dehors alors que leur composition est exacte. Le juge, c'est validerInci, et lui seul.
+const SANS_SUITE = new Set(["absent", "introuvable", "rien", "erreur", "pas-de-site",
+                            "aucune-page", "aucun-lien", "mauvais-produit", "collision"]);
+const exploitable = (e) => Boolean(e && e.inci && !SANS_SUITE.has(e.type));
 const RECOLTES = [path.join(RACINE, "data/scan/inci-recuperes.json"),
                   path.join(RACINE, "data/scan/inci-web.json"),
                   path.join(RACINE, "data/scan/inci-marque.json")];
@@ -24,10 +31,6 @@ const seulementVerifier = process.argv.includes("--verifier");
 const brut = fs.readFileSync(CATALOGUE, "utf8");
 const cat = JSON.parse(brut);
 const produits = Array.isArray(cat) ? cat : (cat.produits || cat.products || Object.values(cat).find(Array.isArray));
-// On préfère toujours l'entrée EXPLOITABLE. Une entrée « marketing » porte un texte non vide
-// (l'argumentaire, normalisé) : la départager sur la seule présence d'un `inci` ferait gagner
-// l'argumentaire contre une vraie liste trouvée ensuite sur le web.
-const exploitable = (e) => Boolean(e && e.inci && RETENUS.includes(e.type));
 const recolte = {};
 for (const f of RECOLTES) {
   if (!fs.existsSync(f)) continue;
@@ -42,7 +45,7 @@ for (const x of produits) parNom.set(x.name, x);
 
 const aEcrire = [], refuses = [];
 for (let [nom, v] of Object.entries(recolte)) {
-  if (!RETENUS.includes(v.type)) continue;
+  if (SANS_SUITE.has(v.type)) continue;
   const x = parNom.get(nom);
   if (!x) { refuses.push([nom, "introuvable dans le catalogue"]); continue; }
   if (x.inci) { refuses.push([nom, "a DÉJÀ un inci — on n'écrase pas"]); continue; }
@@ -87,6 +90,11 @@ for (const [x, v] of aEcrire) (parInci[empreinte(v.inci)] ||= []).push([x, v]);
 const bloques = new Set();
 for (const groupe of Object.values(parInci)) {
   if (groupe.length < 2) continue;
+  // Une composition d'UN SEUL matériau est légitimement partagée : vingt-quatre patchs
+  // hydrocolloïdes ont tous « Hydrocolloid » pour formule, et trois sprays « Hypochlorous Acid ».
+  // La collision ne trahit une page commune que sur une liste longue, qu'aucun hasard ne
+  // reproduit à l'identique.
+  if (groupe[0][1].inci.split(",").length <= 3) continue;
   const jeux = groupe.map(([x]) => new Set(distinctifs(x.name, x.brand)));
   const memeMarque = new Set(groupe.map(([x]) => String(x.brand).toLowerCase())).size === 1;
   // tout ce qui distingue une fiche des autres du groupe
