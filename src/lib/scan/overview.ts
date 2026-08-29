@@ -43,34 +43,39 @@ const LIBELLE_SOUCI: Record<string, string> = {
 function consigne(peau: string | null, soucis: string[]): string {
   return `You are summarising real customer reviews of a skincare product for one reader.
 
-Write ONE paragraph of three or four sentences, in English, plain and specific.
+LENGTH — three sentences, 55 words at most. The box on screen holds three lines. Longer text is
+cut off, so a fourth sentence is a sentence nobody reads.
 
 WHAT TO SAY
-- Say what buyers actually report: texture, how it feels, what it did, what went wrong.
-- Quantify honestly. "Most reviewers", "several", "a few", "one reviewer" — and never write
-  "most" for something two people said.
-- Keep the reader's second person out of it except where the profile genuinely applies.
-
-THE READER'S PROFILE${peau ? `
-- Skin type: ${peau}` : ""}${soucis.length ? `
-- Flagged concerns: ${soucis.join(", ")}` : ""}
-
-THE RULE THAT MATTERS MOST
-Mention the reader's skin type or concerns ONLY if reviewers actually mention them. If no
-reviewer describes that skin type, do NOT write a sentence about it — not even a hedged one.
-Say so instead, in the "absence" field. A plausible sentence about oily skin, written from
-reviews that never mention oily skin, is an invention. This is the single thing you must not do.
-
-NEVER
-- Never generalise from one review. One person's severe reaction is "one reviewer reports…",
-  not "some users experience…".
+- What buyers actually report: texture, how it feels, what it did, what went wrong.
+- Quantify honestly: "most reviewers", "several", "a few", "one reviewer". Never write "most"
+  for something two people said, and never turn one person's bad experience into "some users".
 - Never repeat the star rating or the review count — the screen shows them already.
 - Never give advice, never recommend, never address the reader as a patient.
 - Never invent an ingredient, a duration or a result that no review states.
 
+THE READER${peau ? `
+- Skin type: ${peau}` : ""}${soucis.length ? `
+- Flagged concerns: ${soucis.join(", ")}` : ""}
+
+TWO SEPARATE JUDGEMENTS, and this is where it goes wrong if you are not careful.
+
+1. "peauCouverte" — do reviewers describe ${peau ? "**" + peau + "** skin, or a skin type close enough to speak for it" : "the reader's skin type"}? Yes or no.
+   If yes, weave it into the paragraph: name what THAT skin reports.
+   If no, write NOTHING about it — not even a hedged sentence. A plausible sentence about
+   ${peau || "a skin type"}, written from reviews that never mention it, is an invention. This is the
+   single thing you must not do.
+
+2. "absence" — fill this ONLY when peauCouverte is false. One short sentence saying reviewers
+   did not describe that skin type. It is NOT a place for nuances the reviews left out: if
+   reviewers speak to the reader's skin, absence is null, full stop. A paragraph that mentions
+   "${peau || "the reader's skin"} skin" and an absence line saying reviewers did not cover it
+   contradict each other on screen.
+
 Answer with JSON only:
-{"texte": "the paragraph",
- "absence": "one short sentence naming what reviewers did NOT cover from the profile, or null"}`;
+{"texte": "three sentences, 55 words max",
+ "peauCouverte": true or false,
+ "absence": "one sentence, or null when peauCouverte is true"}`;
 }
 
 function corpus(avis: { note?: number; titre?: string; texte?: string }[]): string {
@@ -120,7 +125,7 @@ export async function overviewPour(ref: string, profil: ProfilAvis): Promise<Ove
     const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
     const r = await client.messages.create({
       model: MODELE,
-      max_tokens: 700,
+      max_tokens: 350,
       system: consigne(peau, soucis),
       messages: [{ role: "user", content: corpus(bruts.avis) }],
     });
@@ -128,10 +133,15 @@ export async function overviewPour(ref: string, profil: ProfilAvis): Promise<Ove
     if (!brut || brut.type !== "text") return null;
     const j = JSON.parse(extraireJson(brut.text));
     if (typeof j?.texte !== "string" || !j.texte.trim()) return null;
+    // `peauCouverte` décide, pas la présence d'une phrase d'absence : le modèle remplissait
+    // volontiers `absence` d'une nuance non traitée alors qu'il venait de parler de la peau du
+    // lecteur — l'écran affichait alors le paragraphe personnalisé ET « les avis n'en parlent
+    // pas », qui se contredisent.
+    const couverte = j.peauCouverte === true;
     const out: Overview = {
       texte: j.texte.trim(),
-      absence: typeof j.absence === "string" && j.absence.trim() ? j.absence.trim() : null,
-      peau: (typeof j.absence === "string" && j.absence.trim()) ? null : peau,
+      absence: !couverte && typeof j.absence === "string" && j.absence.trim() ? j.absence.trim() : null,
+      peau: couverte ? peau : null,
       lus: Math.min(bruts.avis.length, MAX_AVIS),
     };
     cache.set(cle, out);
