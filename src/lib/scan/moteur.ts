@@ -17,6 +17,9 @@ const lire = (f: string) => JSON.parse(fs.readFileSync(path.join(DOSSIER, f), "u
 export type Produit = {
   name: string; brand?: string; image?: string; inci?: string;
   category?: string; filtresUV?: boolean; id?: number; asin?: string; url?: string; source?: string;
+  /** référence Amazon retrouvée pour un produit listé ailleurs — sert UNIQUEMENT à récupérer ses
+   *  avis, jamais au lien d'achat (`asin` reste seul à décider où l'on envoie acheter). */
+  asinAvis?: string; asinAvisTitre?: string;
 };
 
 // ── chargement paresseux, une seule fois par instance ────────────────────────

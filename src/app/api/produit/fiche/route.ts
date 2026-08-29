@@ -34,11 +34,11 @@ export async function GET(request: Request) {
 
     const pr = profil();
     const a = avisPour(p, pr);
-    const brut = a ? null : tousLesAvis(p.asin || pidUlta(p.url) || "");
+    const brut = a ? null : tousLesAvis(p.asin || p.asinAvis || pidUlta(p.url) || "");
     const f = scoreFormule(p.inci || "", p.category, p.filtresUV);
     const pe = scorePerso(p.inci || "", pr, p.category, f, p.filtresUV);
     return NextResponse.json({
-      produit: { nom: p.name, marque: p.brand, image: p.image, categorie: p.category, inci: p.inci, asin: p.asin, ref: p.asin || pidUlta(p.url) },
+      produit: { nom: p.name, marque: p.brand, image: p.image, categorie: p.category, inci: p.inci, asin: p.asin, ref: p.asin || p.asinAvis || pidUlta(p.url) },
       score: { disponible: moteurDisponible(), formule: f, perso: pe },
       ingredients: ficheIngredients(p.inci || "", dictionnaire(), pr),
       // `null` quand on n'a rien à dire À ELLE sur ce produit : l'écran n'affiche alors rien

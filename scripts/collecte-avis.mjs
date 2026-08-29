@@ -52,10 +52,20 @@ async function attendrePret(id, maxMinutes = 180) {
   throw new Error("délai dépassé");
 }
 
+// Bright Data répond 202 tant que le fichier n'est pas assemblé, et 202 passe `r.ok`. Sans cette
+// attente, on récupérait un objet d'état au lieu du tableau d'avis — et comme `ranger` remplace
+// tout ce qui n'est pas un tableau par une liste vide, la collecte se terminait en annonçant
+// « 2429 avis récupérés » puis « 0 produit écrit ». Perte sèche : le lot était payé.
 async function telecharger(id) {
-  const r = await fetch(`https://api.brightdata.com/datasets/v3/snapshot/${id}?format=json`, { headers: ENTETES });
-  if (!r.ok) throw new Error(`download ${r.status}`);
-  return r.json();
+  for (let n = 0; n < 60; n++) {
+    const r = await fetch(`https://api.brightdata.com/datasets/v3/snapshot/${id}?format=json`, { headers: ENTETES });
+    if (r.status === 202) { await attendre(5000); continue; }
+    if (!r.ok) throw new Error(`download ${r.status}`);
+    const d = await r.json();
+    if (Array.isArray(d)) return d;
+    await attendre(5000);      // objet d'état : le fichier n'est pas encore là
+  }
+  throw new Error("le lot n'a pas fini de s'assembler");
 }
 
 /** Range les avis par produit et ne garde que ce qui sert. */
@@ -103,8 +113,10 @@ function ranger(lignes, parAsin) {
 
 // ── déroulé ──────────────────────────────────────────────────────────────────
 const cat = JSON.parse(fs.readFileSync(path.join(RACINE, "data", "scan", "catalog.json"), "utf8"))
-  .filter((p) => p.asin && p.category !== "hors-perimetre");
-const parAsin = Object.fromEntries(cat.map((p) => [p.asin, p]));
+  // `asinAvis` : la référence Amazon retrouvée pour un produit listé ailleurs, qui ne sert qu'ici
+  .filter((p) => (p.asin || p.asinAvis) && p.category !== "hors-perimetre");
+const refAmazon = (p) => p.asin || p.asinAvis;
+const parAsin = Object.fromEntries(cat.map((p) => [refAmazon(p), p]));
 
 const iFic = process.argv.indexOf("--fichier");
 if (iFic > 0) {
@@ -117,10 +129,10 @@ const iRep = process.argv.indexOf("--reprendre");
 let snapshot = iRep > 0 ? process.argv[iRep + 1] : null;
 
 if (!snapshot) {
-  const restants = cat.filter((p) => !fs.existsSync(path.join(SORTIE, p.asin + ".json")));
+  const restants = cat.filter((p) => !fs.existsSync(path.join(SORTIE, refAmazon(p) + ".json")));
   console.log(`${restants.length} produits à collecter (sur ${cat.length})`);
   if (!restants.length) { console.log("tout est déjà collecté."); process.exit(0); }
-  snapshot = await declencher(restants.map((p) => `https://www.amazon.com/dp/${p.asin}`));
+  snapshot = await declencher(restants.map((p) => `https://www.amazon.com/dp/${refAmazon(p)}`));
   console.log(`collecte lancée : ${snapshot}`);
   console.log(`(en cas de coupure : node scripts/collecte-avis.mjs --reprendre ${snapshot})\n`);
 }

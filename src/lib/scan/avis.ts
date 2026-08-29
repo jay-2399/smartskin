@@ -149,11 +149,13 @@ function pourProfil(e: Enrichi, profil: ProfilAvis): Avis | null {
 }
 
 /** Avis d'un produit pour un profil, par ASIN puis par nom. `null` si on n'a rien à dire. */
-export function avisPour(produit: { name?: string; asin?: string; url?: string }, profil: ProfilAvis = {}): Avis | null {
+export function avisPour(produit: { name?: string; asin?: string; asinAvis?: string; url?: string }, profil: ProfilAvis = {}): Avis | null {
   charger();
   // par référence exacte d'abord : ASIN Amazon, puis identifiant tiré de l'URL Ulta. Aucun de
   // ces deux chemins ne peut se tromper de produit — contrairement à l'appariement par nom.
-  const ref = produit.asin || pidUlta(produit.url);
+  // `asinAvis` est la référence Amazon retrouvée pour un produit qu'on a listé ailleurs : elle ne
+  // sert QU'aux avis, jamais au lien d'achat.
+  const ref = produit.asin || produit.asinAvis || pidUlta(produit.url);
   const direct = ref ? _parRef![ref] : null;
   if (direct) return pourProfil(direct, profil);
 
