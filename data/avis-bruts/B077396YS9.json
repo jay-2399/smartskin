@@ -1,0 +1,34 @@
+{
+ "asin": "B077396YS9",
+ "nom": "Paula's Choice Rehydrating Moisture Mask",
+ "categorie": "mask",
+ "note": 4.7,
+ "nbAvis": 12,
+ "distribution": {
+  "one_star": 0,
+  "two_star": 0,
+  "three_star": 1,
+  "four_star": 1,
+  "five_star": 10
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "Kate K.",
+   "titre": "Great mask",
+   "texte": "Excellent mask, hydrates without being greasy. Great texture. I love the packaging too, super functional— opaque, non jar, squirt top, and stands up independently.",
+   "date": "December 29, 2018",
+   "verifie": true,
+   "utiles": 4
+  },
+  {
+   "note": 5,
+   "auteur": "Jessica St John",
+   "titre": "Overnight maskOvernight mask",
+   "texte": "I live in ny and with the change of weather I have been expierncing extremely dry skin. I love the Paula’s choice products and researched this mask. I needed something that was gonna hydrate my skin fast as I had an event in a few days of ordering. After a few days my skin felt and looked so much better. I used this mask as a overnight mask those three days. It was the perfect fix and did not make me break out!!! I would highly suggest this mask!",
+   "date": "November 3, 2018Reviewed",
+   "verifie": true,
+   "utiles": 3
+  }
+ ]
+}

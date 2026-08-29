@@ -1,0 +1,61 @@
+{
+ "asin": "B0DJG9BG46",
+ "nom": "Tiege Hanley Acne Essential Routine",
+ "categorie": "cleanser",
+ "note": 4.7,
+ "nbAvis": 27,
+ "distribution": {
+  "one_star": 0,
+  "two_star": 0,
+  "three_star": 1,
+  "four_star": 5,
+  "five_star": 20
+ },
+ "avis": [
+  {
+   "note": 5,
+   "auteur": "MLP",
+   "titre": "Effective skin care",
+   "texte": "Our son has been struggling with break outs on his forehead for sometime. He began using these products two weeks ago and it has made a huge difference. His forehead is almost completely clear. So thankful to have found this product. A definite confidence booster!!",
+   "date": "July 8, 2026",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 4,
+   "auteur": "Jennifer Wentz",
+   "titre": "Redness/irritation possible",
+   "texte": "Products may make face very red. It doesn’t burn, but it’s bright red. Seems to have helped with acne, but the redness is an issue",
+   "date": "April 18, 2026",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Roberta",
+   "titre": "Great starter kit for men's skincare",
+   "texte": "This is a great starter kit for young men's skin care. Highly recommend",
+   "date": "April 12, 2026",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Duane DuVall",
+   "titre": "Skin care",
+   "texte": "Great products! I use these every day and have noticed a big difference in my skin right away. Will definitely keep buying these products.",
+   "date": "July 2, 2026",
+   "verifie": true,
+   "utiles": 0
+  },
+  {
+   "note": 4,
+   "auteur": "Opm85",
+   "titre": "Works but pricey",
+   "texte": "Bought it for my teenage son who has pretty severe acne. I also use their products and love them. It’s a bit pricey for a salicylic acid treatment but it seems to have helped some.",
+   "date": "September 19, 2025",
+   "verifie": true,
+   "utiles": 0
+  }
+ ]
+}

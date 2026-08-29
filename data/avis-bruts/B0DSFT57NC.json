@@ -1,0 +1,34 @@
+{
+ "asin": "B0DSFT57NC",
+ "nom": "Dr. Melaxin TX-Peeling Toner",
+ "categorie": "toner",
+ "note": 4.2,
+ "nbAvis": 89,
+ "distribution": {
+  "one_star": 9,
+  "two_star": 7,
+  "three_star": 5,
+  "four_star": 5,
+  "five_star": 62
+ },
+ "avis": [
+  {
+   "note": 2,
+   "auteur": "Elle",
+   "titre": "Does nothing!",
+   "texte": "I don't think this product does anything to my face! I've tried it for at least 3 months and it's says it peels skin. It really does nothing. I use it like a toner. Do not recommend and the price is expensive for a toner.",
+   "date": "August 20, 2025",
+   "verifie": true,
+   "utiles": 1
+  },
+  {
+   "note": 5,
+   "auteur": "Katherine Argueta",
+   "titre": "Constancia",
+   "texte": "Estoy usándolo constantemente y me encanta el resultado que me está dando .",
+   "date": "July 26, 2025",
+   "verifie": true,
+   "utiles": 0
+  }
+ ]
+}

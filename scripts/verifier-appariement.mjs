@@ -12,18 +12,24 @@
 // « original », « clear », « night », « day », « invisible » ne sont PAS du vocabulaire courant :
 // ce sont les marqueurs qui distinguent deux variantes d'une même gamme. Les traiter comme
 // communs rendait le Mighty Patch Original indiscernable de l'Invisible+.
-const GENERIQUES = new Set(`the a an and for with pack size oz ml fl count ct
-  face facial skin care skincare cream creme lotion serum gel oil balm mask masque patch patches
-  cleanser wash scrub toner mist spray essence treatment moisturizer moisturiser sunscreen spf
-  eye lip body daily new
-  hydrating hydration cleansing exfoliating brightening soothing repairing nourishing`
-  .split(/\s+/).filter(Boolean));
+// Ce qui est VRAIMENT commun à tous les produits : les liaisons, les contenances. Rien d'autre.
+// La liste a d'abord été plus large, et c'est ce qui a laissé passer les cousins : « body » y
+// figurait, donc « medicube BODY Peel Shot » répondait pour le soin visage ; « hydrating » aussi,
+// donc le « Hydrating Eye Cream » de Lancôme répondait pour l'« Ultra Dark Circle ». Un mot de
+// forme (foam, balm, gel), de zone (eye, body, lip) ou d'action (hydrating, clarifying) n'est
+// jamais du remplissage : c'est souvent la seule chose qui sépare deux références d'une gamme.
+const GENERIQUES = new Set(`the a an and for with pack size oz ml fl count ct new skin skincare
+  care beauty cosmetics official store inc ltd`.split(/\s+/).filter(Boolean));
 
 const mots = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim().split(" ").filter(Boolean);
 
+// Le pluriel est ramené au singulier des deux côtés : sans ça, « Toner Pad » et « Toner Pads »
+// passaient pour deux produits différents, et le pluriel comptait comme un mot étranger.
+const singulier = (m) => (m.length > 3 && m.endsWith("s") && !m.endsWith("ss")) ? m.slice(0, -1) : m;
+
 export function distinctifs(nom, marque) {
-  const dm = new Set(mots(marque));
-  return [...new Set(mots(nom))].filter((m) =>
+  const dm = new Set([...mots(marque)].map(singulier));
+  return [...new Set(mots(nom).map(singulier))].filter((m) =>
     m.length > 2 && !dm.has(m) && !GENERIQUES.has(m) && !/^\d+$/.test(m));
 }
 
@@ -65,7 +71,11 @@ function decoder(t) {
 }
 function titreProduit(titre) {
   return decoder(titre)
-    .split(/\s*[|·—–]\s*|\s+-\s+/)[0]           // « Produit – Boutique » → « Produit »
+    // On ne coupe QUE sur les séparateurs de boutique (barre verticale, tiret cadratin). Le
+    // trait d'union simple sépare souvent deux parties du NOM sur Amazon (« … - Creamy Foam »,
+    // « … - Hydrating Eye Cream ») : couper là supprimait précisément ce qui distingue la
+    // référence, et le cousin passait pour le bon produit.
+    .split(/\s*[|·—–]\s*/)[0]
     .replace(/\b\d+\s*(count|ct|pack|pcs?|ml|g|oz|fl\.?\s*oz)\b/gi, " ")   // contenances
     .slice(0, 120);
 }
@@ -74,10 +84,26 @@ function titreProduit(titre) {
 // variantes d'une même gamme. « The Rice Polish: Deep » et « The Rice Polish: Daily » ne diffèrent
 // que par là, et leurs formules diffèrent vraiment. Un seul de ces mots présent sur la page et
 // absent de chez nous suffit à disqualifier, quel que soit le reste du recouvrement.
+// Deux familles de marqueurs, qui ne se comportent pas pareil.
+// FORMAT : la contenance change, la formule non. Pour des AVIS c'est tolérable dans les deux sens
+// -- le mini et le grand flacon d'un même soin partagent ce que les gens en disent.
+const FORMAT_VARIANTE = new Set(`mini travel jumbo refill pack set kit deluxe sample`.split(/\s+/).filter(Boolean));
+// IDENTITÉ : ce qui sépare deux produits réellement différents. Manquant d'un côté OU de l'autre,
+// il disqualifie — « Peel Shot Glow WHITE Rice » ne peut pas répondre pour un titre qui dit
+// seulement « Rice » quand la marque fait aussi une version Black Rice.
 const VARIANTES = new Set(`original invisible micropoint deep light rich intense extra ultra max pro
-  mini travel jumbo refill duo trio kit set night day nuit jour pink blue green clear white black
+  duo trio night day nuit jour pink blue green clear white black
   gold rose sensitive oily dry combination normal mature men women kids baby forte plus advanced
-  gentle strong medicated fragrance-free unscented tinted matte dewy`.split(/\s+/).filter(Boolean));
+  gentle strong medicated fragrance-free unscented tinted matte dewy
+  body hand foot hair scalp lip eye
+  foam bubble balm gel oil cream milk powder stick spray pad wipe bar liquid whip jelly
+  hydrating clarifying soothing brightening purifying exfoliating calming firming mattifying
+  nourishing repairing smoothing plumping illuminating detoxifying refreshing cooling whipped`
+  .split(/\s+/).filter(Boolean));
+
+// « pads » est le même marqueur que « pad » : sans cette tolérance, un tonique EN PADS répondait
+// pour le tonique liquide de la même gamme.
+const estVariante = (m) => VARIANTES.has(m) || (m.endsWith("s") && VARIANTES.has(m.slice(0, -1)));
 
 export function apparieDepuisPage(nom, marque, titre, url) {
   const nos = new Set(distinctifs(decoder(nom), marque));
@@ -99,8 +125,89 @@ export function apparieDepuisPage(nom, marque, titre, url) {
   // (un mot de la page absent de chez nous), `partNotre` empêche de prendre une page qui ne parle
   // pas vraiment de notre produit. Ni l'un ni l'autre n'attrape le cas où plusieurs de nos
   // produits tombent sur la MÊME page — ça se règle après coup, en repérant les collisions.
-  const marqueurs = etrangers.filter((m) => VARIANTES.has(m));
-  const ok = marqueurs.length === 0 && partSiens >= 0.6 && partNotre >= 0.5;
+  // un marqueur d'identité en trop chez EUX, ou manquant chez eux alors qu'on l'a, disqualifie
+  const manquants = [...nos].filter((m) => estVariante(m) && !siens.includes(m) && !contexte.includes(m));
+  const marqueurs = etrangers.filter((m) => estVariante(m)).concat(manquants);
+
+  // Quand TOUS nos mots distinctifs figurent chez eux, leurs mots en trop sont du référencement,
+  // pas une autre référence : « Effaclar Duo Dual Action Acne Treatment SPF 30 » est bien notre
+  // « Effaclar Duo [+] SPF 30 ». Exiger en plus qu'ils n'aient rien ajouté rejetait le bon produit.
+  const ok = marqueurs.length === 0 && partNotre >= 0.5 && (partSiens >= 0.6 || partNotre === 1);
   return { ok, etrangers, marqueurs, partSiens: Math.round(partSiens * 100) / 100,
            partNotre: Math.round(partNotre * 100) / 100 };
+}
+
+
+// ── appariement d'un TITRE DE PLACE DE MARCHÉ ──────────────────────────────────
+//
+// Un titre Amazon n'est pas un nom de produit : c'est une ligne de référencement. Au nom réel
+// s'accrochent une queue d'adjectifs (« …Toner-Soothing and Hydrating »), une contenance, un
+// nombre d'unités, parfois une autre langue. Comparer mot à mot cette queue avec notre nom
+// rejetait de vrais appariements — le Centella Asiatica Toner de Mixsoon refusé sur « soothing ».
+//
+// Deux contrôles que le titre de page ne demandait pas, et dont l'absence a laissé passer des
+// faux évidents :
+//   — LA MARQUE. « KOEC PDRN Pink Collagen Toning Gel » a répondu pour le medicube du même nom.
+//     Deux marques différentes ne sont jamais le même produit, quel que soit le reste.
+//   — LE NUMÉRO DE VERSION. « Galac Niacin 2.0 » a répondu pour le « 3.0 ». Un chiffre isolé est
+//     ignoré ailleurs — ici c'est parfois la seule différence entre deux références.
+
+const QUEUE = /\s*[,\-–—|(]|\s+\b(?:for|with|by|pack of|set of)\b\s/i;
+
+// La marque sort du titre AVANT la coupure : « La Roche-Posay Effaclar Duo Dual Action » se
+// coupait au trait d'union de « Roche-Posay » et il ne restait que « La Roche ». Une marque à
+// trait d'union n'est pas une queue de référencement.
+// Allégations qu'Amazon accroche à presque toutes les fiches. Elles contiennent parfois un mot
+// qui, ailleurs, distingue deux références — « No White Cast » sur un solaire faisait rejeter le
+// bon produit à cause de « white ». Une promesse n'est pas une variante.
+const ALLEGATIONS = /\b(no white cast|non[- ]?comedogenic|fragrance[- ]?free|cruelty[- ]?free|dermatologist[- ]?tested|for all skin types|oil[- ]?free|alcohol[- ]?free|paraben[- ]?free|vegan|hypoallergenic|clinically proven)\b/gi;
+
+function nomDansTitre(titre, marque) {
+  let t = decoder(titre).replace(ALLEGATIONS, " ");
+  if (marque) {
+    const m = String(marque).trim().replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/[\s\-.']+/g, "[\\s\\-.']*");
+    t = t.replace(new RegExp(m, "gi"), " ");
+  }
+  t = t.split(QUEUE)[0];
+  return t.replace(/\b\d+(?:\.\d+)?\s*(?:count|ct|pcs?|ml|g|oz|fl\.?\s*oz)\b/gi, " ").replace(/\s+/g, " ").trim();
+}
+
+const versions = (s) => (String(s).match(/\b\d+\.\d+\b/g) || []);
+// Un nombre QUALIFIÉ est une caractéristique du produit, pas un chiffre de remplissage : « SPF 15 »
+// ne répond pas pour « SPF 50 », « 2% » pas pour « 4% ». Le découpage en mots les jette — c'est
+// ainsi que le Skin Restoring Moisturizer SPF 15 a récupéré la fiche du SPF 50.
+function qualifies(s) {
+  const t = String(s);
+  const out = [];
+  for (const m of t.matchAll(/\bspf\s*(\d{1,3})\b/gi)) out.push("spf" + m[1]);
+  for (const m of t.matchAll(/(\d+(?:[.,]\d+)?)\s*%/g)) out.push(m[1].replace(",", ".") + "%");
+  return [...new Set(out)];
+}
+
+export function apparieTitreMarchand(nom, marque, titre) {
+  const t = decoder(titre);
+  const nMarque = String(marque || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  const nTitre = t.toLowerCase().replace(/[^a-z0-9]/g, "");
+  // la marque doit figurer dans le titre, entière ou par son premier mot s'il est distinctif
+  const tete = String(marque || "").split(/\s+/)[0].toLowerCase().replace(/[^a-z0-9]/g, "");
+  if (nMarque && !nTitre.includes(nMarque) && !(tete.length >= 4 && nTitre.includes(tete)))
+    return { ok: false, motif: "marque absente du titre", marqueurs: [] };
+
+  // 3.0 ne répond pas pour 2.0
+  const vN = versions(nom), vT = versions(nomDansTitre(t, marque));
+  if (vN.length && vT.length && !vT.some((v) => vN.includes(v)))
+    return { ok: false, motif: "version différente (" + vT.join(", ") + " ≠ " + vN.join(", ") + ")", marqueurs: vT };
+
+  // SPF et pourcentages : s'ils sont annoncés des deux côtés, ils doivent concorder
+  const qN = qualifies(nom), qT = qualifies(t);
+  const desaccord = qN.filter((x) => {
+    const type = x.endsWith("%") ? "%" : "spf";
+    const memeType = qT.filter((y) => (y.endsWith("%") ? "%" : "spf") === type);
+    return memeType.length && !memeType.includes(x);
+  });
+  if (desaccord.length)
+    return { ok: false, motif: "ne concorde pas : " + desaccord.join(", ") + " ≠ " + qT.join(", "), marqueurs: desaccord };
+
+  // le reste se juge sur le nom débarrassé de sa queue de référencement
+  return apparieDepuisPage(nom, marque, nomDansTitre(t, marque), t);
 }

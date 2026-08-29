@@ -34,13 +34,10 @@
     "candidats": 161
   },
   "AXIS-Y Dark Spot Correcting Glow Serum": {
-    "asin": "B0CBQZXBTR",
-    "url": "https://www.amazon.com/dp/B0CBQZXBTR?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "ROVECTIN Vita Dark Spot Correcting Serum – Brightening Vitamin C & Niacinamide Serum for Glowing, Even Skin Tone ",
-    "nbAvis": 81,
-    "note": 4.1,
-    "appariement": 0.67,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "ROVECTIN Vita Dark Spot Correcting Serum – Brightening Vitamin C & Niacinamide Serum for Glowing, Even Skin Tone ",
+    "asinRejete": "B0CBQZXBTR"
   },
   "Rovectin Cica Care Spot Balm": {
     "trouve": false,
@@ -55,13 +52,10 @@
     "candidats": 161
   },
   "ANUA Niacinamide 5 TXA Brightening Booster Toner": {
-    "asin": "B0DQKLVC7L",
-    "url": "https://www.amazon.com/dp/B0DQKLVC7L?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "Anua Niacinamide 5 TXA Toner Pads, 60 Pads",
-    "nbAvis": 5142,
-    "note": 4.5,
-    "appariement": 0.75,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "Anua Niacinamide 5 TXA Toner Pads, 60 Pads",
+    "asinRejete": "B0DQKLVC7L"
   },
   "ANUA KPop Demon Hunters Ultra-Thin Spot Cover Patch": {
     "asin": "B0DGG5F2RV",
@@ -131,13 +125,10 @@
     "candidats": 161
   },
   "SUNGBOON EDITOR Deep Collagen Retinol Power Boosting Pad": {
-    "asin": "B0DK1DFDT6",
-    "url": "https://www.amazon.com/dp/B0DK1DFDT6?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "SUNGBOON EDITOR Deep Collagen Retinol Boosting Pads, 100 Count",
-    "nbAvis": 93,
-    "note": 4.3,
-    "appariement": 0.8,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "SUNGBOON EDITOR Deep Collagen Retinol Boosting Pads, 100 Count",
+    "asinRejete": "B0DK1DFDT6"
   },
   "VT Cosmetics Phyto PDRN Panax PDRN Toner": {
     "trouve": false,
@@ -166,13 +157,10 @@
     "trouve": true
   },
   "TIRTIR Matcha Calming Skin Toner": {
-    "asin": "B0FQP13PJY",
-    "url": "https://www.amazon.com/TIRTIR-Hydrating-Anti-Redness-Soothing-Sensitive/dp/B0FQP13PJY?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "TIRTIR Matcha PDRN Skin Toner 5.07 Fl Oz ",
-    "nbAvis": 120,
-    "note": 4.6,
-    "appariement": 0.67,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "TIRTIR Matcha PDRN Skin Toner 5.07 Fl Oz ",
+    "asinRejete": "B0FQP13PJY"
   },
   "ANUA PDRN 100 Hyaluronic Acid Booster Toner": {
     "asin": "B0FK9ZDKCK",
@@ -192,22 +180,16 @@
     "candidats": 161
   },
   "numbuzin No.1 Pure-Full Calming Herb Toner": {
-    "asin": "B0H7T9WJ4D",
-    "url": "https://www.amazon.com/numbuzin-Pure-Full-Breakouts-Heartleaf-Acne-Prone/dp/B0H7T9WJ4D?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "numbuzin No.1 Toner ",
-    "nbAvis": 1062,
-    "note": 4.6,
-    "appariement": 1,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "numbuzin No.1 Toner ",
+    "asinRejete": "B0H7T9WJ4D"
   },
   "SKIN1004 Madagascar Centella Poremizing Clear Toner": {
-    "asin": "B0B1JRGGLF",
-    "url": "https://www.amazon.com/dp/B0B1JRGGLF?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "SKIN1004 Madagascar Centella Poremizing Fresh Ampoule 3.38 fl. oz(100ml) ",
-    "nbAvis": 5774,
-    "note": 4.6,
-    "appariement": 0.6,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "SKIN1004 Madagascar Centella Poremizing Fresh Ampoule 3.38 fl. oz(100ml) ",
+    "asinRejete": "B0B1JRGGLF"
   },
   "medicube Azelaic Acid Niacinamide Clarifying Toner": {
     "asin": "B0FN3VX6NP",
@@ -369,13 +351,10 @@
     "trouve": true
   },
   "Cosnori Panthenol Barrier Toner Pad": {
-    "asin": "B0CVRWCTCN",
-    "url": "https://www.amazon.com/COSNORI-Panthenol-Barrier-Emulsion-strengthening/dp/B0CVRWCTCN?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "COSNORI Panthenol Barrier Emulsion, 5.07 fl.oz",
-    "nbAvis": 40,
-    "note": 4.7,
-    "appariement": 0.67,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "COSNORI Panthenol Barrier Emulsion, 5.07 fl.oz",
+    "asinRejete": "B0CVRWCTCN"
   },
   "Molvany Cis Exosome Pore Tightening Toner": {
     "trouve": false,
@@ -439,13 +418,10 @@
     "candidats": 120
   },
   "Minimalist Glycolic Acid 08% Exfoliating Toner for Body, Face, Underarms & Scalp": {
-    "asin": "B0BNBXWVY3",
-    "url": "https://www.amazon.com/Minimalist-Glycolic-Multi-Functional-Exfoliating-Underarms/dp/B0BNBXWVY3?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "Minimalist Glycolic Acid 8% Exfoliating Toner for Glowing Skin ",
-    "nbAvis": 5183,
-    "note": 4.4,
-    "appariement": 0.8,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "Minimalist Glycolic Acid 8% Exfoliating Toner for Glowing Skin ",
+    "asinRejete": "B0BNBXWVY3"
   },
   "Ogee Brightening Toner BHA 2%": {
     "trouve": false,
@@ -729,13 +705,10 @@
     "candidats": 149
   },
   "Athletic Cosmetic Company Clear Power Sunscreen SPF 50 Invisible No White Cast Sweat & Water Resistant": {
-    "asin": "B0FR14C9FD",
-    "url": "https://www.amazon.com/dp/B0FR14C9FD?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "Clear Power Sunscreen – Invisible, No White Cast, Weightless Gel Sunscreen for Face, Broad Spectrum SPF 50, Fragrance-Free, Sport-Ready, Made for Athletes",
-    "nbAvis": 38,
-    "note": 4.6,
-    "appariement": 1,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "Clear Power Sunscreen – Invisible, No White Cast, Weightless Gel Sunscreen for Face, Broad Spectrum SPF 50, Fragrance-Free, Sport-Ready, Made for Athletes",
+    "asinRejete": "B0FR14C9FD"
   },
   "Avène Mineral Sunscreen Stick SPF 50": {
     "trouve": false,
@@ -893,22 +866,16 @@
     "trouve": true
   },
   "CHANEL HYDRA BEAUTY MICRO SÉRUM Rebalancing Replenishing Hydration": {
-    "asin": "B0H1XHFYY7",
-    "url": "https://www.amazon.com/Hydra-Beauty-Micro-Serum-30ml/dp/B0H1XHFYY7?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "Hydra Beauty Micro Serum 30ml",
-    "nbAvis": 0,
-    "note": 0,
-    "appariement": 0.67,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "Hydra Beauty Micro Serum 30ml",
+    "asinRejete": "B0H1XHFYY7"
   },
   "Dr. Melaxin CACTOX Pore Relief Jelly Serum Mist": {
-    "asin": "B0GQYYTRMY",
-    "url": "https://www.amazon.com/dp/B0GQYYTRMY?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "Dr.Melaxin Cactox Pore Relief Serum 80ml – Pore Minimizer & Hydrating Face Serum with Triple Hyaluronic Acid, Deep Moisture, Texture Smoothing & Clear Skin Care",
-    "nbAvis": 67,
-    "note": 4.6,
-    "appariement": 1,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "Dr.Melaxin Cactox Pore Relief Serum 80ml – Pore Minimizer & Hydrating Face Serum with Triple Hyaluronic Acid, Deep Moisture, Texture Smoothing & Clear Skin Care",
+    "asinRejete": "B0GQYYTRMY"
   },
   "VT Cosmetics Reedle Shot 700": {
     "trouve": false,
@@ -1047,13 +1014,10 @@
     "candidats": 106
   },
   "VIDIVICI Clear Gentle Calming Deep Cleansing Oil": {
-    "asin": "B0FFLSRXLY",
-    "url": "https://www.amazon.com/dp/B0FFLSRXLY?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "VIDIVICI Clear Gentle Calming Cleansing Oil 10.14 fl.oz ",
-    "nbAvis": 26,
-    "note": 4.7,
-    "appariement": 1,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "VIDIVICI Clear Gentle Calming Cleansing Oil 10.14 fl.oz ",
+    "asinRejete": "B0FFLSRXLY"
   },
   "Yadah Cactus Pore Deep Cleansing Oil": {
     "asin": "B0FMY1MFT3",
@@ -1707,13 +1671,10 @@
     "candidats": 103
   },
   "Neutrogena Blackhead Eliminating Facial Scrub With Purifying Salicylic Acid": {
-    "asin": "B07WK6WL9Q",
-    "url": "https://www.amazon.com/Neutrogena-Blackhead-Eliminating-Facial-Scrub/dp/B07WK6WL9Q?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "Neutrogena Blackhead Eliminating Facial Scrub 150ml",
-    "nbAvis": 3398,
-    "note": 4.5,
-    "appariement": 1,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "Neutrogena Blackhead Eliminating Facial Scrub 150ml",
+    "asinRejete": "B07WK6WL9Q"
   },
   "Neutrogena Blackhead Eliminating Toner": {
     "trouve": false,
@@ -1844,13 +1805,10 @@
     "candidats": 103
   },
   "Cetaphil Baby Advanced Protection Cream With Organic Calendula": {
-    "asin": "B0D1G587GV",
-    "url": "https://www.amazon.com/dp/B0D1G587GV?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "Cetaphil Baby Daily Lotion with Organic Calendula ",
-    "nbAvis": 14837,
-    "note": 4.7,
-    "appariement": 0.6,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "Cetaphil Baby Daily Lotion with Organic Calendula ",
+    "asinRejete": "B0D1G587GV"
   },
   "Cetaphil Baby Gentle Wash": {
     "trouve": false,
@@ -1933,13 +1891,10 @@
     "candidats": 133
   },
   "Bioderma Sébium Foaming Gel Purifying Face Cleanser for Combination to Oily Skin": {
-    "asin": "B000TUNMW4",
-    "url": "https://www.amazon.com/dp/B000TUNMW4?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "Bioderma - Face Cleanser - Sébium - Makeup Removing Cleanser - Skin Purifying - Face Wash for Combination to Oily Skin",
-    "nbAvis": 21959,
-    "note": 4.7,
-    "appariement": 0.67,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "Bioderma - Face Cleanser - Sébium - Makeup Removing Cleanser - Skin Purifying - Face Wash for Combination to Oily Skin",
+    "asinRejete": "B000TUNMW4"
   },
   "Vichy Dercos Salicylic Acid Anti-Dandruff Serum": {
     "trouve": false,
@@ -2395,13 +2350,10 @@
     ]
   },
   "Paula's Choice Resist Super-Light Wrinkle Defense Spf 30": {
-    "asin": "B00EYVRX0Q",
-    "url": "https://www.amazon.com/dp/B00EYVRX0Q?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "Paula's Choice RESIST SPF 30 Wrinkle Defense Mineral Sunscreen, 2 Fl Oz",
-    "nbAvis": 6548,
-    "note": 4.3,
-    "appariement": 0.67,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "Paula's Choice RESIST SPF 30 Wrinkle Defense Mineral Sunscreen, 2 Fl Oz",
+    "asinRejete": "B00EYVRX0Q"
   },
   "Paula's Choice Resist Triple Active Total Repair Serum": {
     "asin": "B0BXYTW5WX",
@@ -2481,13 +2433,10 @@
     "candidats": 60
   },
   "Paula's Choice Skin Perfecting 2% BHA Gel Exfoliant": {
-    "asin": "B00949CO66",
-    "url": "https://www.amazon.com/Paulas-Choice-SKIN-PERFECTING-Exfoliator-Combination/dp/B00949CO66?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "Paula's Choice SKIN PERFECTING 8% AHA Gel Exfoliant",
-    "nbAvis": 3696,
-    "note": 4.4,
-    "appariement": 0.75,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "Paula's Choice SKIN PERFECTING 8% AHA Gel Exfoliant",
+    "asinRejete": "B00949CO66"
   },
   "Paula's Choice Skin Perfecting 2% BHA Lotion Exfoliant": {
     "trouve": false,
@@ -2702,13 +2651,10 @@
     "candidats": 155
   },
   "celimax Jiwoogae One Step Body Brightening & Exfoliating Pad": {
-    "asin": "B09XDZ1KVB",
-    "url": "https://www.amazon.com/dp/B09XDZ1KVB?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "celimax ONE STEP Body Brightening Pad, 60 Pads",
-    "nbAvis": 456,
-    "note": 4,
-    "appariement": 0.83,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "celimax ONE STEP Body Brightening Pad, 60 Pads",
+    "asinRejete": "B09XDZ1KVB"
   },
   "Evre Skincare Time To Shine Raspberry & Almond Scrub for Teens": {
     "trouve": false,
@@ -2818,13 +2764,10 @@
     "candidats": 155
   },
   "celimax The Real Noni Bubble Foam Face Cleanser": {
-    "asin": "B0BD58FLZM",
-    "url": "https://www.amazon.com/dp/B0BD58FLZM?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "celimax Noni Bubble Cleanser, 5.24 fl.oz",
-    "nbAvis": 493,
-    "note": 4.5,
-    "appariement": 1,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "celimax Noni Bubble Cleanser, 5.24 fl.oz",
+    "asinRejete": "B0BD58FLZM"
   },
   "ma:nyo Pure Soybean Cleansing Milk": {
     "trouve": false,
@@ -2835,13 +2778,10 @@
     "candidats": 155
   },
   "Charlotte Tilbury Cryo-Recovery Depuffing Eye Serum": {
-    "asin": "B0GJ3M55LF",
-    "url": "https://www.amazon.com/CONFIDITA-Eye-Revive-Cryo-Serum/dp/B0GJ3M55LF?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "CONFIDITA Eye Revive Cryo Serum",
-    "nbAvis": 3,
-    "note": 5,
-    "appariement": 0.6,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "CONFIDITA Eye Revive Cryo Serum",
+    "asinRejete": "B0GJ3M55LF"
   },
   "numbuzin No.9 NAD+ Collagen Under Eye Patch": {
     "trouve": false,
@@ -2912,13 +2852,10 @@
     "trouve": true
   },
   "medicube Azelaic Acid Niacinamide Deep Clean Whip Cleanser": {
-    "asin": "B0H9BND1MN",
-    "url": "https://www.amazon.com/medicube-Facial-Cleanser-Azelaic-Acid/dp/B0H9BND1MN?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "medicube Facial Cleanser Azelaic Acid Whip Cleanser (Pack of 2)",
-    "nbAvis": 625,
-    "note": 4.5,
-    "appariement": 0.8,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "medicube Facial Cleanser Azelaic Acid Whip Cleanser (Pack of 2)",
+    "asinRejete": "B0H9BND1MN"
   },
   "MEDIHEAL Rose PDRN Derma Cream Pack Cleanser": {
     "asin": "B0FXFRRZKB",
@@ -2942,13 +2879,10 @@
     "candidats": 155
   },
   "CeraVe Hydrating Micellar Water & Makeup Remover for Face, Lips & Eyes": {
-    "asin": "B0GQWCK89S",
-    "url": "https://www.amazon.com/dp/B0GQWCK89S?th=1&psc=1&language=en_US&currency=USD",
-    "titre": "CeraVe Hydrating Micellar Water, Facial Cleanser & Makeup Remover, 13oz",
-    "nbAvis": 94,
-    "note": 4.6,
-    "appariement": 0.71,
-    "trouve": true
+    "trouve": false,
+    "motif": "rejugé",
+    "titreRejete": "CeraVe Hydrating Micellar Water, Facial Cleanser & Makeup Remover, 13oz",
+    "asinRejete": "B0GQWCK89S"
   },
   "Dr. Melaxin Melting Cleanser": {
     "trouve": false,
