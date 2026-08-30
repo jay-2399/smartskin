@@ -210,6 +210,7 @@ body.demo .demo-chip { display:block; }
 
 </div>
 
+<script src="commun/app.js"></script>
 <script>
 (function(){
   var video = document.querySelector('video.cam');
@@ -249,9 +250,13 @@ body.demo .demo-chip { display:block; }
       .then(function(d){
         clearInterval(tour);
         if (d.statut === 'ok') {
-          /* la fiche produit sait lire ce paquet : même forme que /produit */
+          /* la fiche produit sait lire ce paquet : même forme que /produit.
+             V2 : un premium file droit sur sa fiche ; les autres passent par la fourche (02). */
           try { sessionStorage.setItem('ss-inci-resultat', JSON.stringify(d)); } catch(e) {}
-          location.href = '06-result-premium.html?source=inci';
+          if (!window.SS) { location.href = '02-fork.html?source=inci'; return; }
+          SS.moi().then(function(m){
+            location.href = (m.premium ? '06-result-premium.html' : '02-fork.html') + '?source=inci';
+          });
           return;
         }
         voile.hidden = true;

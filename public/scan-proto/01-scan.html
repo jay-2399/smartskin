@@ -152,7 +152,7 @@ body.demo .demo-chip { display:block; }
   <div class="flash" id="flash"></div>
 
   <div class="nav">
-    <div class="nav-back" role="button" tabindex="0" onclick="history.back()" aria-label="Back">
+    <div class="nav-back" role="button" tabindex="0" onclick="retourScan()" aria-label="Back">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"/></svg>
     </div>
     <div class="nav-logo"><img src="logo-smartskin-white.png" alt="SmartSkin AI"></div>
@@ -193,7 +193,21 @@ body.demo .demo-chip { display:block; }
 
 </div>
 
+<script src="commun/app.js"></script>
 <script>
+/* V2 : la caméra n'est plus l'écran racine — dès qu'un historique existe, le retour
+   mène au dashboard (premium ou gratuit selon le compte, contrat §6). */
+function retourScan(){
+  var histo = [];
+  try { histo = (window.SS && SS.historique.liste()) || []; } catch(e) {}
+  if (histo.length && window.SS) {
+    SS.moi().then(function(m){
+      location.href = m.premium ? '11-dashboard.html' : '12-dashboard-free.html';
+    });
+  } else {
+    history.back();
+  }
+}
 (function(){
   var video = document.querySelector('video.cam');
   var shutter = document.getElementById('shutter');

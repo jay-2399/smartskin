@@ -721,6 +721,7 @@ input[type=search]::-webkit-search-cancel-button { -webkit-appearance:none; }
   <div style="height:40px"></div>
 </div>
 
+<script src="commun/app.js"></script>
 <script>
 (function(){
   var q = document.getElementById("q"), res = document.getElementById("res"), vide = document.getElementById("vide");
@@ -749,8 +750,13 @@ input[type=search]::-webkit-search-cancel-button { -webkit-appearance:none; }
       }).join("");
       res.querySelectorAll(".hist").forEach(function(el){
         el.onclick = function(){
+          // V2 : même fourche que 07 — premium droit sur sa fiche, sinon 02-fork.
           try { sessionStorage.setItem("ss-scan-produit", el.dataset.nom); } catch(e) {}
-          location.href = "06-result-premium.html?p=" + encodeURIComponent(el.dataset.nom);
+          var suite = "?p=" + encodeURIComponent(el.dataset.nom);
+          if (!window.SS) { location.href = "02-fork.html" + suite; return; }
+          SS.moi().then(function(m){
+            location.href = (m.premium ? "06-result-premium.html" : "02-fork.html") + suite;
+          });
         };
       });
     });

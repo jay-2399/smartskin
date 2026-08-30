@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin AI &mdash; Your result (free)</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="commun/base.css">
+  <style>
+
+/* ═══ page (maquette ResultatGratuit.dc.html) — le socle vient de base.css ═══ */
+
+/* ── HERO clair : verre dépoli + encoche découpée ── */
+.hero { position:relative; margin:6px 20px 0; border-radius:22px; padding:24px 20px 22px; text-align:center; overflow:hidden;
+  background:linear-gradient(165deg, rgba(255,255,255,0.86) 0%, rgba(255,255,255,0.68) 100%);
+  -webkit-backdrop-filter:blur(22px) saturate(1.5); backdrop-filter:blur(22px) saturate(1.5);
+  border:1px solid rgba(255,255,255,0.72); border-top-color:rgba(255,255,255,0.95);
+  box-shadow:
+    inset 0 1.5px 0 rgba(255,255,255,0.95),
+    inset 1px 0 0 rgba(255,255,255,0.35),
+    inset -1px 0 0 rgba(255,255,255,0.22),
+    inset 0 -22px 34px -26px rgba(110,154,182,0.16);
+  filter:drop-shadow(0 1px 3px rgba(0,0,0,0.05)) drop-shadow(0 14px 30px rgba(40,55,75,0.14));
+  -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='64' height='9'><rect width='64' height='9' rx='4.5'/></svg>"), linear-gradient(#fff,#fff);
+  -webkit-mask-position: center 16px, center;
+  -webkit-mask-size: 64px 9px, 100% 100%;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-composite: xor;
+  mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='64' height='9'><rect width='64' height='9' rx='4.5'/></svg>"), linear-gradient(#fff,#fff);
+  mask-position: center 16px, center;
+  mask-size: 64px 9px, 100% 100%;
+  mask-repeat: no-repeat;
+  mask-composite: exclude;
+  animation:heroIn .7s cubic-bezier(.22,1,.36,1) both .05s; }
+.hero::before { content:''; position:absolute; top:-70%; left:-34%; width:80%; height:180%; z-index:0; pointer-events:none;
+  transform:rotate(22deg);
+  background:linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.42) 50%, rgba(255,255,255,0) 100%);
+  opacity:0.4; }
+.hero::after { content:''; position:absolute; right:-14%; bottom:-26%; width:60%; height:70%; z-index:0; pointer-events:none;
+  background:radial-gradient(ellipse at center, rgba(166,195,214,0.30), transparent 68%); }
+.hero > * { position:relative; z-index:1; }
+.hero-notch { width:68px; height:13px; margin:-10px auto 10px; border-radius:100px; background:transparent;
+  border:1px solid rgba(40,55,75,0.18); }
+.hero-brand { display:block; font-size:11px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--space); }
+.hero-product { font-weight:800; font-size:19px; letter-spacing:-0.03em; line-height:1.15; color:var(--ink); margin-top:3px; }
+@keyframes heroIn { from { opacity:0; transform:translateY(16px) scale(0.985); } to { opacity:1; transform:none; } }
+
+/* ── scène annotée : produit au centre, formule en légendes latérales ── */
+.co-stage { position:relative; width:100%; height:240px; margin:18px auto 8px; }
+.co-prod { position:absolute; left:50%; top:0; transform:translateX(-50%); height:100%;
+  display:flex; align-items:center; }
+.co-prod img { height:240px; width:auto;
+  filter:drop-shadow(0 20px 28px rgba(40,55,75,0.32)) drop-shadow(0 4px 9px rgba(40,55,75,0.16));
+  animation:hfIn 1s cubic-bezier(.22,1,.36,1) backwards .35s;
+  transform:translateZ(0); will-change:filter; }
+@keyframes hfIn { from { opacity:0; transform:scale(1.06) translateY(6px); } to { opacity:1; transform:none; } }
+.co { position:absolute; width:96px; }
+.co-l { left:0; text-align:right; }
+.co-r { right:0; text-align:left; }
+.co-name { display:block; font-weight:700; font-size:11.5px; letter-spacing:-0.01em; line-height:1.3; color:var(--ink); }
+.co-g { font-size:10px; }
+.co.bad .co-g { color:#D8543F; }
+.co.good .co-g { color:#189A66; }
+.co-note { font-size:10px; line-height:1.45; color:var(--graphite); margin-top:2px; letter-spacing:-0.005em; }
+.co::after { content:''; position:absolute; top:7px; width:24px; height:1.5px; border-radius:1px;
+  background:linear-gradient(90deg, rgba(40,55,75,0.38), rgba(40,55,75,0.12)); }
+.co-l::after { right:-30px; transform:scaleX(-1); }
+.co-r::after { left:-30px; }
+.co::before { content:''; position:absolute; top:5px; width:5px; height:5px; border-radius:50%; }
+.co-l::before { right:-34px; }
+.co-r::before { left:-34px; }
+.co.bad::before { background:#D8543F; box-shadow:0 0 0 3px rgba(216,84,63,0.16); }
+.co.good::before { background:#189A66; box-shadow:0 0 0 3px rgba(24,154,102,0.16); }
+.co { opacity:0; animation:revUp .5s cubic-bezier(.22,1,.36,1) forwards; }
+.co:nth-of-type(1) { animation-delay:1.0s; }
+.co:nth-of-type(2) { animation-delay:1.15s; }
+.co:nth-of-type(3) { animation-delay:1.3s; }
+.co:nth-of-type(4) { animation-delay:1.45s; }
+
+/* ── demi-jauge : l'arc prend la couleur du verdict ── */
+.gauge-wrap { position:relative; width:190px; margin:8px auto 0; }
+.gauge { display:block; width:100%; height:auto; overflow:visible; }
+.gauge-track { fill:none; stroke:#C7CFDD; stroke-width:9; stroke-linecap:round;
+  filter:drop-shadow(0 1.5px 0.5px rgba(255,255,255,0.95)) drop-shadow(0 -1.5px 1.5px rgba(40,55,75,0.30)) drop-shadow(0 4px 8px rgba(40,55,75,0.18)); }
+.gauge-prog { fill:none; stroke-width:9; stroke-linecap:round; stroke-dasharray:226.2; stroke-dashoffset:226.2;
+  animation:gaugeFill 1.4s cubic-bezier(.22,1,.36,1) both .45s; }
+.gauge-prog.good { stroke:url(#gg-good); filter:drop-shadow(0 1px 2px rgba(43,193,130,0.45)) drop-shadow(0 4px 9px rgba(43,193,130,0.40)) drop-shadow(0 10px 20px rgba(43,193,130,0.30)); }
+.gauge-prog.mid  { stroke:url(#gg-mid);  filter:drop-shadow(0 1px 2px rgba(234,154,84,0.45)) drop-shadow(0 4px 9px rgba(234,154,84,0.40)) drop-shadow(0 10px 20px rgba(234,154,84,0.30)); }
+.gauge-prog.bad  { stroke:url(#gg-bad);  filter:drop-shadow(0 1px 2px rgba(224,102,87,0.48)) drop-shadow(0 4px 9px rgba(224,102,87,0.42)) drop-shadow(0 10px 20px rgba(224,102,87,0.30)); }
+@keyframes gaugeFill { to { stroke-dashoffset:66.6; } }
+.score-row { display:flex; align-items:baseline; justify-content:center; gap:3px; margin-top:14px; }
+.score-num { font-weight:800; font-size:64px; line-height:0.9; letter-spacing:-3px; color:var(--ink);
+  animation:scorePunch .7s cubic-bezier(.34,1.56,.64,1) both 1.15s; }
+.score-den { font-family:var(--fm); font-size:13px; font-weight:600; color:var(--space); }
+@keyframes scorePunch { 0% { opacity:0; transform:scale(0.55); } 55% { opacity:1; } 100% { opacity:1; transform:scale(1); } }
+.score-num.good { color:#189A66; }
+.score-num.mid  { color:#D9822B; }
+.score-num.bad  { color:#D8543F; }
+.gauge-wrap .score-row { position:absolute; left:0; right:0; bottom:9px; margin-top:0; }
+.gauge-wrap .score-num { font-size:44px; letter-spacing:-1.8px; }
+.gauge-wrap .score-den { font-size:11.5px; }
+.gauge-wrap .score-num.good { text-shadow:0 2px 6px rgba(43,193,130,0.24), 0 8px 22px rgba(43,193,130,0.30); }
+.gauge-wrap .score-num.mid  { text-shadow:0 2px 6px rgba(234,154,84,0.24), 0 8px 22px rgba(234,154,84,0.30); }
+.gauge-wrap .score-num.bad  { text-shadow:0 2px 6px rgba(224,102,87,0.24), 0 8px 22px rgba(224,102,87,0.30); }
+
+.verdict-t { font-weight:800; font-size:19px; letter-spacing:-0.03em; line-height:1.15; color:var(--ink); margin-top:10px;
+  animation:revUp .55s cubic-bezier(.22,1,.36,1) both 1.3s; }
+.verdict-s { font-size:12.5px; line-height:1.55; color:var(--graphite); margin-top:7px; letter-spacing:-0.005em;
+  animation:revUp .55s cubic-bezier(.22,1,.36,1) both 1.42s; }
+.verdict-s b { font-weight:700; color:var(--arsenic); }
+@keyframes revUp { from { opacity:0; transform:translateY(9px); } to { opacity:1; transform:none; } }
+
+/* ── sous le hero : best for / avoid if + carte verrouillée + liste INCI ── */
+.s0 { padding-top:16px; animation:fadeUp .55s cubic-bezier(.22,1,.36,1) both .14s; }
+.why-sec { padding-top:14px; }
+.fit-chips { display:flex; gap:10px; }
+.fit { flex:1; min-width:0; border-radius:18px; padding:14px 15px 15px; text-align:left;
+  background:var(--glass-bg);
+  -webkit-backdrop-filter:blur(18px) saturate(1.4); backdrop-filter:blur(18px) saturate(1.4);
+  border:1px solid var(--glass-line); box-shadow:var(--glass-shadow); }
+.fit-head { display:flex; align-items:center; gap:8px; }
+.fit .rt-ic { width:22px; height:22px; margin-top:0; }
+.fit-k { font-size:9px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; }
+.fit.good .fit-k { color:#189A66; }
+.fit.bad .fit-k { color:#D8543F; }
+.fit p { font-size:13px; line-height:1.5; font-weight:700; letter-spacing:-0.01em; color:var(--ink); margin-top:8px; }
+.rt-ic.bad  { background:rgba(224,102,87,0.15); color:#D8543F; border:1px solid rgba(224,102,87,0.42);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.5), 0 2px 8px rgba(224,102,87,0.18); }
+
+/* ═══ CARTE VERROUILLÉE (le score perso, teasé) ═══ */
+.lock-card { position:relative; margin-top:12px; border-radius:20px; padding:18px; overflow:hidden;
+  background:linear-gradient(160deg, rgba(41,46,58,0.95) 0%, rgba(20,22,27,0.97) 100%);
+  border:1px solid rgba(255,255,255,0.13); border-top-color:rgba(255,255,255,0.28);
+  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.16), 0 14px 32px rgba(15,20,30,0.28); }
+.lock-glow { position:absolute; right:-22%; top:-42%; width:74%; height:130%; pointer-events:none;
+  background:radial-gradient(ellipse at center, rgba(166,195,214,0.26), transparent 70%); }
+.lock-card > * { position:relative; z-index:1; }
+.lock-head { display:flex; align-items:center; gap:9px; }
+.lock-ic { width:27px; height:27px; border-radius:9px; flex-shrink:0;
+  background:rgba(166,195,214,0.16); border:1px solid rgba(166,195,214,0.38);
+  display:flex; align-items:center; justify-content:center; color:#BCD6E6; }
+.lock-k { font-size:8.5px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:rgba(255,255,255,0.5); }
+.lock-body { display:flex; gap:16px; align-items:center; margin-top:13px; }
+.lock-gwrap { position:relative; width:104px; flex-shrink:0; }
+.lock-blur { filter:blur(5px); opacity:0.8; }
+.lock-blur .gauge { width:104px; height:auto; display:block; }
+.lock-blur .gauge-track { stroke:rgba(255,255,255,0.16);
+  filter:drop-shadow(0 1px 0 rgba(255,255,255,0.12)) drop-shadow(0 -1.5px 2px rgba(0,0,0,0.60)) drop-shadow(0 3px 6px rgba(0,0,0,0.35)); }
+.lock-blur .gauge-prog { animation:none; stroke-dashoffset:86; }
+.lock-blur .score-num { font-size:30px; letter-spacing:-1px; color:#fff; animation:none; text-shadow:none; }
+.lock-q { position:absolute; inset:0; display:flex; align-items:flex-end; justify-content:center; padding-bottom:2px;
+  font-weight:800; font-size:26px; color:#fff; text-shadow:0 2px 10px rgba(0,0,0,0.5); }
+.lock-t { font-weight:800; font-size:17px; line-height:1.22; letter-spacing:-0.02em; color:#fff; }
+.lock-s { font-size:11.5px; line-height:1.5; color:rgba(255,255,255,0.62); margin-top:5px; }
+.lock-feats { display:flex; flex-direction:column; gap:6px; margin-top:10px; }
+.lock-feat { display:flex; align-items:flex-start; gap:7px; font-size:10.5px; font-weight:600; letter-spacing:-0.005em; line-height:1.35; color:rgba(255,255,255,0.75); }
+.lock-check { color:#54D9A0; font-weight:800; font-size:10px; flex-shrink:0; margin-top:1px; }
+.lock-btn { margin-top:15px; width:100%; height:48px; border:none; border-radius:100px; cursor:pointer;
+  background:linear-gradient(180deg, #FFFFFF, #E9EDF4); color:var(--ink);
+  font-family:var(--fd); font-weight:800; font-size:13.5px; letter-spacing:-0.01em;
+  box-shadow:0 8px 20px rgba(0,0,0,0.35), inset 0 1px 0 #fff; }
+.lock-btn:focus-visible { outline:2px solid var(--blue-d); outline-offset:3px; }
+.lock-trial { font-size:10px; color:rgba(255,255,255,0.45); text-align:center; margin-top:8px; }
+
+/* ── liste INCI complète : tab-card sombre (good / watch out / neutral) ── */
+.rev-toggle { position:absolute; opacity:0; pointer-events:none; }
+.inx-card { margin-top:10px; padding:16px 18px 9px; border-radius:18px;
+  background:linear-gradient(160deg, rgba(41,46,58,0.95) 0%, rgba(20,22,27,0.97) 100%);
+  border:1px solid rgba(255,255,255,0.13); border-top-color:rgba(255,255,255,0.28);
+  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.16), 0 1px 3px rgba(0,0,0,0.08), 0 14px 32px rgba(15,20,30,0.28); }
+.inx-k { display:block; font-weight:700; font-size:20px; letter-spacing:-0.03em; line-height:1.05; color:#fff; }
+.inx-tabs { display:flex; gap:4px; margin-top:19px; padding:3px; border-radius:100px;
+  background:rgba(0,0,0,0.28); border:1px solid rgba(255,255,255,0.08);
+  box-shadow:inset 0 1.5px 3px rgba(0,0,0,0.4); }
+.inx-tb { flex:1; display:flex; align-items:center; justify-content:center; gap:5px;
+  padding:7px 2px; border-radius:100px; cursor:pointer; -webkit-tap-highlight-color:transparent;
+  font-size:9px; font-weight:700; letter-spacing:0.05em; text-transform:uppercase;
+  color:rgba(255,255,255,0.48); transition:color .2s, background .2s, box-shadow .2s; }
+.inx-tb i { width:5px; height:5px; border-radius:50%; flex-shrink:0; }
+.inx-tb.bad i { background:#F28E7E; }
+.inx-tb.good i { background:#54D9A0; }
+.inx-tb.neu i { background:transparent; box-shadow:inset 0 0 0 1.5px rgba(255,255,255,0.35); }
+.inx-tb span { font-weight:800; opacity:0.7; }
+#inx-t-bad:checked ~ .inx-tabs label[for=inx-t-bad],
+#inx-t-good:checked ~ .inx-tabs label[for=inx-t-good],
+#inx-t-neu:checked ~ .inx-tabs label[for=inx-t-neu] {
+  color:#fff; background:linear-gradient(180deg, rgba(255,255,255,0.18), rgba(255,255,255,0.10));
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.25), 0 2px 8px rgba(0,0,0,0.4); }
+.inx-list { display:none; margin-top:6px; }
+#inx-t-bad:checked ~ .inx-list.inx-bad { display:block; }
+#inx-t-good:checked ~ .inx-list.inx-good { display:block; }
+#inx-t-neu:checked ~ .inx-list.inx-neu { display:block; }
+.inx-row { display:flex; align-items:flex-start; gap:9px; padding:9.5px 0; border-top:1px solid rgba(255,255,255,0.07); }
+.inx-row:first-child { border-top:none; }
+.inx-row.xtra { display:none; }
+#inx-all:checked ~ .inx-list .inx-row.xtra { display:flex; }
+.inx-g { flex-shrink:0; width:14px; text-align:center; font-size:10.5px; font-weight:700; margin-top:1px; }
+.inx-row.bad .inx-g { color:#F28E7E; }
+.inx-row.good .inx-g { color:#54D9A0; }
+.inx-row.neu .inx-g { color:rgba(255,255,255,0.4); }
+.inx-row p { font-size:11.5px; line-height:1.45; color:rgba(255,255,255,0.6); min-width:0; letter-spacing:-0.005em; }
+.inx-row p b { font-weight:700; font-size:12px; color:#fff; letter-spacing:-0.01em; }
+.inx-more { display:flex; align-items:center; justify-content:center; gap:7px; padding:12px 0 6px;
+  border-top:1px solid rgba(255,255,255,0.08); cursor:pointer; -webkit-tap-highlight-color:transparent;
+  font-size:11.5px; font-weight:600; color:rgba(255,255,255,0.65); transition:color .2s; }
+.inx-more:hover { color:#fff; }
+.inx-more svg { transition:transform .3s cubic-bezier(.22,1,.36,1); }
+.inx-more span { display:none; }
+#inx-t-good:checked ~ .inx-more .m-good { display:inline; }
+#inx-t-neu:checked ~ .inx-more .m-neu { display:inline; }
+#inx-all:checked ~ .inx-more .m-good, #inx-all:checked ~ .inx-more .m-neu { display:none; }
+#inx-all:checked ~ .inx-more .m-less { display:inline; }
+#inx-all:checked ~ .inx-more svg { transform:rotate(180deg); }
+#inx-t-bad:checked ~ .inx-more { display:none; }
+
+/* ── footer ── */
+.disclaim { padding:24px 32px 8px; text-align:center; font-size:10.5px; line-height:1.5; color:var(--space); }
+
+@keyframes fadeUp { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
+.cta-wrap, .disclaim { animation:fadeUp .5s cubic-bezier(.22,1,.36,1) both .42s; }
+@media (prefers-reduced-motion: reduce) {
+  .hero, .s0, .cta-wrap, .disclaim { animation:none; }
+  .gauge-prog { animation:none; stroke-dashoffset:66.6; }
+  .co, .co-prod img { animation:none; opacity:1; }
+  .score-num, .verdict-t, .verdict-s { animation:none; }
+}
+
+  </style>
+</head>
+<body>
+
+<div class="phone">
+  <div class="nav">
+    <div class="nav-back" role="button" tabindex="0" onclick="location.href='01-scan.html'" aria-label="Back">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"></path></svg>
+    </div>
+    <div class="nav-logo"><img src="logo.png" alt="SmartSkin AI"></div>
+    <div class="nav-spacer"></div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-notch"></div>
+    <span class="hero-brand" id="d-brand">La Roche-Posay</span>
+    <h1 class="hero-product" id="d-name">Effaclar Duo+M</h1>
+    <div class="co-stage">
+      <div class="co-prod"><img id="d-img" src="effaclar.png" alt="Product"></div>
+      <div id="d-callouts">
+        <div class="co co-l good" style="top:14px">
+          <span class="co-name"><span class="co-g">&#10003;</span> Niacinamide</span>
+          <p class="co-note">fades post-breakout marks</p>
+        </div>
+        <div class="co co-r good" style="top:70px">
+          <span class="co-name"><span class="co-g">&#10003;</span> Salicylic acid + LHA</span>
+          <p class="co-note">unclogs blocked pores</p>
+        </div>
+        <div class="co co-l good" style="top:138px">
+          <span class="co-name"><span class="co-g">&#10003;</span> Zinc PCA</span>
+          <p class="co-note">curbs excess sebum</p>
+        </div>
+        <div class="co co-r bad" style="top:196px">
+          <span class="co-name"><span class="co-g">&#10007;</span> Light fragrance</span>
+          <p class="co-note">watch if very reactive</p>
+        </div>
+      </div>
+    </div>
+    <div class="gauge-wrap">
+      <svg class="gauge" viewBox="0 0 170 93" aria-hidden="true">
+        <defs>
+          <linearGradient id="gg-good" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7ED3A6"></stop><stop offset="1" stop-color="#2BC182"></stop></linearGradient>
+          <linearGradient id="gg-mid" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F2C083"></stop><stop offset="1" stop-color="#EA9A54"></stop></linearGradient>
+          <linearGradient id="gg-bad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EE9C90"></stop><stop offset="1" stop-color="#E06657"></stop></linearGradient>
+        </defs>
+        <path class="gauge-track" d="M13 88 A72 72 0 0 1 157 88"></path>
+        <path class="gauge-prog good" id="d-arc" d="M13 88 A72 72 0 0 1 157 88"></path>
+      </svg>
+      <div class="score-row"><span class="score-num good" id="d-score">84</span><span class="score-den">/100</span></div>
+    </div>
+    <span class="sec-kicker" style="display:block; margin-top:8px">Formula score</span>
+    <p class="verdict-t" id="d-verdict-t" style="margin-top:6px">A solid formula</p>
+    <p class="verdict-s" id="d-verdict-s">Judged on its ingredients alone &mdash; <b>not on a specific skin</b>.</p>
+  </div>
+
+  <div class="section s0 why-sec">
+    <div class="fit-chips">
+      <div class="fit good" id="d-fit-good">
+        <div class="fit-head">
+          <span class="rt-ic good"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg></span>
+          <span class="fit-k">Best for</span>
+        </div>
+        <p id="d-fit-good-p">Acne-prone, oily skin</p>
+      </div>
+      <div class="fit bad" id="d-fit-bad">
+        <div class="fit-head">
+          <span class="rt-ic bad"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M3 3l6 6M9 3l-6 6"></path></svg></span>
+          <span class="fit-k">Avoid if</span>
+        </div>
+        <p id="d-fit-bad-p">Fragrance-reactive &middot; very dry skin</p>
+      </div>
+    </div>
+
+    <div class="lock-card">
+      <div class="lock-glow"></div>
+      <div class="lock-head">
+        <span class="lock-ic"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="10" height="7" rx="1.6"></rect><path d="M5.5 7V5a2.5 2.5 0 0 1 5 0v2"></path></svg></span>
+        <span class="lock-k">Your personal score</span>
+      </div>
+      <div class="lock-body">
+        <div class="lock-gwrap">
+          <div class="lock-blur">
+            <svg class="gauge" viewBox="0 0 170 93" aria-hidden="true">
+              <path class="gauge-track" d="M13 88 A72 72 0 0 1 157 88"></path>
+              <path class="gauge-prog mid" d="M13 88 A72 72 0 0 1 157 88"></path>
+            </svg>
+            <div class="score-row" style="margin-top:-26px"><span class="score-num">62</span></div>
+          </div>
+          <div class="lock-q"><br></div>
+        </div>
+        <div>
+          <p class="lock-t">Good product. But for <em style="font-style:normal; color:#BCD6E6">your</em> skin?</p>
+          <div class="lock-feats">
+            <div class="lock-feat"><span class="lock-check">&#10003;</span> Your personal score</div>
+            <div class="lock-feat"><span class="lock-check">&#10003;</span> Ingredients read for you</div>
+            <div class="lock-feat"><span class="lock-check">&#10003;</span> Reviews from skin like yours</div>
+            <div class="lock-feat"><span class="lock-check">&#10003;</span> Better alternatives for you</div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="lock-btn" id="d-lock">Get my personal score</button>
+      <p class="lock-trial">7-day free trial &middot; takes a skin scan first</p>
+    </div>
+
+    <div class="inx-card" style="margin-top:14px" id="d-ing-sec">
+      <span class="inx-k">Every ingredient, decoded</span>
+      <input type="radio" name="inx-t" id="inx-t-good" class="rev-toggle" checked>
+      <input type="radio" name="inx-t" id="inx-t-bad" class="rev-toggle">
+      <input type="radio" name="inx-t" id="inx-t-neu" class="rev-toggle">
+      <div class="inx-tabs" style="margin-top:16px">
+        <label class="inx-tb good" for="inx-t-good"><i></i>Good <span id="d-n-good">10</span></label>
+        <label class="inx-tb bad" for="inx-t-bad"><i></i>Watch out <span id="d-n-bad">3</span></label>
+        <label class="inx-tb neu" for="inx-t-neu"><i></i>Neutral <span id="d-n-neu">22</span></label>
+      </div>
+      <input type="checkbox" id="inx-all" class="rev-toggle">
+      <div class="inx-list inx-good" id="d-list-good">
+        <div class="inx-row good"><span class="inx-g">&#10003;</span><p><b>Niacinamide</b> &mdash; fades marks, balances sebum</p></div>
+        <div class="inx-row good"><span class="inx-g">&#10003;</span><p><b>Salicylic acid</b> &mdash; unclogs blocked pores</p></div>
+        <div class="inx-row good"><span class="inx-g">&#10003;</span><p><b>Capryloyl salicylic acid (LHA)</b> &mdash; gentle micro-exfoliation</p></div>
+        <div class="inx-row good"><span class="inx-g">&#10003;</span><p><b>Zinc PCA</b> &mdash; curbs excess sebum</p></div>
+        <div class="inx-row good"><span class="inx-g">&#10003;</span><p><b>Piroctone olamine</b> &mdash; targets blemish bacteria</p></div>
+      </div>
+      <div class="inx-list inx-bad" id="d-list-bad">
+        <div class="inx-row bad"><span class="inx-g">!</span><p><b>Light fragrance</b> &mdash; watch if very reactive</p></div>
+      </div>
+      <div class="inx-list inx-neu" id="d-list-neu">
+        <div class="inx-row neu"><span class="inx-g">&middot;</span><p>Shown after a real scan.</p></div>
+      </div>
+      <label class="inx-more" for="inx-all" id="d-inx-more">
+        <span class="m-good">See all 10 good ingredients</span><span class="m-neu">See all 22 neutral ingredients</span><span class="m-less">See less</span>
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4l4 4 4-4"></path></svg>
+      </label>
+    </div>
+  </div>
+
+  <div class="cta-wrap">
+    <button type="button" class="cta-btn" id="d-add">
+      <svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3.5v11M3.5 9h11"></path></svg>
+      Add to my routine
+    </button>
+    <button type="button" class="cta-ghost" onclick="location.href='01-scan.html'">
+      <svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6V3.6A1.6 1.6 0 0 1 3.6 2H6M12 2h2.4A1.6 1.6 0 0 1 16 3.6V6M16 12v2.4a1.6 1.6 0 0 1-1.6 1.6H12M6 16H3.6A1.6 1.6 0 0 1 2 14.4V12"></path></svg>
+      Scan another product
+    </button>
+    <a class="cta-sub" href="index.html">Back to home</a>
+  </div>
+  <p class="disclaim">SmartSkin gives skincare guidance, not a medical diagnosis. If you have a skin condition, talk to a dermatologist.</p>
+  <div style="height:26px"></div>
+</div>
+
+<script src="commun/app.js"></script>
+<script>
+(function(){
+  "use strict";
+  var q = new URLSearchParams(location.search);
+
+  // La carte verrouillée mène toujours au paywall (contrat §6) — la page 16
+  // arrive par un autre lot, le lien suffit.
+  document.getElementById("d-lock").addEventListener("click", function(){
+    location.href = "16-paywall.html";
+  });
+
+  // Deux sources possibles, même forme de données (pattern de 06-result-premium) :
+  // un produit du CATALOGUE (/api/produit/fiche, réponse dégradée pour un visiteur —
+  // pas de score.perso, avis:null) ou une ÉTIQUETTE PHOTOGRAPHIÉE (ss-inci-resultat).
+  var depuisEtiquette = null;
+  if (q.get("source") === "inci") {
+    try { depuisEtiquette = JSON.parse(sessionStorage.getItem("ss-inci-resultat") || "null"); } catch(e) {}
+  }
+  var key = q.get("p") || (function(){ try { return sessionStorage.getItem("ss-scan-produit"); } catch(e){ return null; } })();
+  if (!key && !depuisEtiquette) return;   // ni produit ni étiquette → la page garde son contenu de démo
+
+  var source = depuisEtiquette
+    ? Promise.resolve(depuisEtiquette)
+    : fetch("/api/produit/fiche?q=" + encodeURIComponent(key)).then(function(r){ return r.json(); });
+
+  var SILHOUETTE = "data:image/svg+xml;utf8," + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="120" height="190" viewBox="0 0 120 190">' +
+    '<rect x="47" y="6" width="26" height="26" rx="5" fill="none" stroke="#C6CCD6" stroke-width="2"/>' +
+    '<rect x="30" y="34" width="60" height="150" rx="12" fill="none" stroke="#C6CCD6" stroke-width="2"/>' +
+    '<path d="M44 92h32M44 106h32M44 120h20" stroke="#D9DEE6" stroke-width="2.4" stroke-linecap="round"/>' +
+    '<text x="60" y="72" text-anchor="middle" font-family="Manrope,sans-serif" font-size="9" ' +
+    'font-weight="700" fill="#B4BBC7">INCI</text></svg>');
+
+  // familles de bénéfices : mêmes libellés que la fiche premium (06)
+  var FAM = { blemishes: "targets breakouts", oiliness: "regulates sebum", dehydration: "hydrates",
+              redness: "soothes", aging: "anti-aging", spots: "fades dark spots", barrier: "repairs the barrier" };
+  // les mêmes familles, dites côté peau pour la carte « Best for »
+  var FAM_PEAU = { blemishes: "Acne-prone skin", oiliness: "Oily, shiny skin", dehydration: "Dry, dehydrated skin",
+                   redness: "Redness-prone skin", aging: "First signs of aging", spots: "Dark spots & uneven tone",
+                   barrier: "A fragile skin barrier" };
+
+  function cap(s){ s = String(s || ""); return s.charAt(0) + s.slice(1).toLowerCase(); }
+  function ech(t){ return String(t == null ? "" : t).replace(/[&<>]/g, function(c){
+    return c === "&" ? "&amp;" : c === "<" ? "&lt;" : "&gt;"; }); }
+
+  var produitCourant = null;
+
+  function rendre(d){
+    if (!d || !d.produit || !d.score || !d.score.formule || d.score.disponible === false) return;
+    var p = d.produit, f = d.score.formule;
+
+    document.getElementById("d-brand").textContent = p.marque || "";
+    document.getElementById("d-name").textContent = p.nom;
+    var im = document.getElementById("d-img");
+    if (p.image) { im.src = p.image; }
+    else { im.src = SILHOUETTE; im.style.filter = "none"; }
+
+    // ── jauge formule (seule note d'un visiteur — on affiche ce que l'API donne) ──
+    var arc = document.getElementById("d-arc"), num = document.getElementById("d-score");
+    var L = 226.2;
+    arc.style.animation = "none";
+    arc.setAttribute("class", "gauge-prog " + f.bande);
+    arc.style.strokeDashoffset = (L - (L - 36.2) * f.score / 100).toFixed(1);
+    num.textContent = f.score;
+    num.className = "score-num " + f.bande;
+
+    // verdict : mêmes paliers que la vue « Formula » de la fiche premium
+    document.getElementById("d-verdict-t").textContent =
+      f.score >= 75 ? "A well-built formula" : f.score >= 45 ? "An average formula" : "A weak formula";
+    var vs = "Judged on its ingredients alone — <b>not on a specific skin</b>.";
+    if (f.analysePartielle) vs += " <em>Partial analysis — some ingredients unknown.</em>";
+    document.getElementById("d-verdict-s").innerHTML = vs;
+
+    // ── ingrédients groupés (calculés serveur avec le profil NEUTRE pour un visiteur) ──
+    var groupes = { benefique: [], surveiller: [], neutre: [] };
+    (d.ingredients || []).forEach(function(x){
+      var g = x.groupe === "inconnu" ? "neutre" : x.groupe;
+      (groupes[g] = groupes[g] || []).push(x);
+    });
+    function gravite(x){ return (x.irritant || 0) * 2 + (x.comedo || 0) + (x.allergene ? 2 : 0) + (x.sensibilisant || 0); }
+    var bons = groupes.benefique.slice().sort(function(a, b){ return (b.power || 0) - (a.power || 0); });
+    var mauvais = groupes.surveiller.slice().sort(function(a, b){ return gravite(b) - gravite(a); });
+    function noteBon(x){
+      return (x.benefits || []).slice(0, 2).map(function(b){ return FAM[b] || b; }).join(", ") || "useful active";
+    }
+    function noteMauvais(x){
+      return x.allergene ? "declared fragrance allergen" : (x.irritant || 0) >= 2 ? "known irritant"
+           : (x.comedo || 0) >= 3 ? "may clog pores" : "watch if very reactive";
+    }
+
+    // légendes autour du produit : 3 bénéfiques les plus forts + 1 à surveiller (maquette)
+    var sel = [];
+    bons.slice(0, 3).forEach(function(x){ sel.push({ bon: true, nom: cap(x.nom), note: noteBon(x) }); });
+    for (var mi = 0; mi < mauvais.length && sel.length < 4; mi++) {
+      sel.push({ bon: false, nom: cap(mauvais[mi].nom), note: noteMauvais(mauvais[mi]) });
+    }
+    var pos = [14, 70, 138, 196], html = "";
+    sel.slice(0, 4).forEach(function(x, i){
+      var cote = i % 2 === 0 ? "co-l" : "co-r";
+      html += '<div class="co ' + cote + ' ' + (x.bon ? "good" : "bad") + '" style="top:' + pos[i] + 'px">'
+        + '<span class="co-name"><span class="co-g">' + (x.bon ? "✓" : "✗") + '</span> ' + ech(x.nom) + '</span>'
+        + '<p class="co-note">' + ech(x.note) + '</p></div>';
+    });
+    document.getElementById("d-callouts").innerHTML = html;
+
+    // ── Best for / Avoid if : déduits des mêmes données moteur (rien d'inventé) ──
+    var poids = {};
+    groupes.benefique.forEach(function(x){
+      (x.benefits || []).forEach(function(b){ poids[b] = (poids[b] || 0) + (x.power || 1); });
+    });
+    var fams = Object.keys(poids).filter(function(b){ return FAM_PEAU[b]; })
+      .sort(function(a, b){ return poids[b] - poids[a]; }).slice(0, 2);
+    if (fams.length) {
+      document.getElementById("d-fit-good-p").textContent =
+        fams.map(function(b){ return FAM_PEAU[b]; }).join(" · ");
+    } else { document.getElementById("d-fit-good").style.display = "none"; }
+    var contre = [];
+    if (mauvais.some(function(x){ return x.allergene; })) contre.push("Fragrance-reactive skin");
+    if (mauvais.some(function(x){ return (x.irritant || 0) >= 2; })) contre.push("Very sensitive skin");
+    if (mauvais.some(function(x){ return (x.comedo || 0) >= 3; })) contre.push("Clog-prone skin");
+    if (contre.length) {
+      document.getElementById("d-fit-bad-p").textContent = contre.slice(0, 2).join(" · ");
+    } else { document.getElementById("d-fit-bad").style.display = "none"; }
+    if (!fams.length && !contre.length) document.querySelector(".fit-chips").style.display = "none";
+
+    // ── liste INCI complète (mêmes lignes que la fiche premium ; les drapeaux perso
+    //    n'existent pas dans une réponse visiteur — profil neutre serveur) ──
+    function ligne(x, i){
+      var note = "";
+      if (x.groupe === "benefique") note = (x.benefits || []).map(function(b){ return FAM[b] || b; }).join(", ")
+        + (x.power >= 3 ? " · strong evidence" : x.power === 2 ? " · good evidence" : "");
+      else if (x.allergene) note = "EU-declared fragrance allergen";
+      else if ((x.irritant || 0) >= 2) note = "known irritant";
+      else if ((x.comedo || 0) >= 3) note = "may clog pores";
+      else note = x.src && x.src !== "inconnu" ? x.src : "no known effect";
+      var g = x.groupe === "benefique" ? "good" : x.groupe === "surveiller" ? "bad" : "neu";
+      return '<div class="inx-row ' + g + (i >= 5 ? " xtra" : "") + '"><span class="inx-g">'
+        + (g === "good" ? "+" : g === "bad" ? "!" : "·") + '</span><p><b>'
+        + ech(cap(x.nom)) + '</b> — ' + ech(note) + '</p></div>';
+    }
+    ["benefique", "surveiller", "neutre"].forEach(function(k){
+      var id = k === "benefique" ? "good" : k === "surveiller" ? "bad" : "neu";
+      var arr = groupes[k] || [];
+      document.getElementById("d-list-" + id).innerHTML =
+        arr.map(ligne).join("") || '<div class="inx-row neu"><p>None.</p></div>';
+      document.getElementById("d-n-" + id).textContent = arr.length;
+    });
+    var nG = groupes.benefique.length, nN = groupes.neutre.length;
+    document.querySelector("#d-inx-more .m-good").textContent = "See all " + nG + " good ingredients";
+    document.querySelector("#d-inx-more .m-neu").textContent = "See all " + nN + " neutral ingredients";
+    if (nG <= 5 && nN <= 5) document.getElementById("d-inx-more").style.display = "none";
+
+    // le scan rejoint l'historique local (le gratuit ACCUMULE) — perso inconnu ici
+    produitCourant = { nom: p.nom, marque: p.marque || undefined, image: p.image || undefined,
+                       categorie: p.categorie || undefined,
+                       formule: typeof f.score === "number" ? f.score : null, perso: null };
+    SS.historique.ajouter(produitCourant);
+  }
+
+  // « Add to my routine » → flux commun (slot libre : ajout direct ; occupé : comparaison)
+  document.getElementById("d-add").addEventListener("click", function(){
+    SS.shelf.addFlow(produitCourant || { nom: document.getElementById("d-name").textContent.trim() });
+  });
+
+  source.then(rendre).catch(function(){});
+})();
+</script>
+</body>
+</html>

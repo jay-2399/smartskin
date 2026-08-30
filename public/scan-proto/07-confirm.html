@@ -823,6 +823,7 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
     </div>
   </div>
 
+<script src="commun/app.js"></script>
 <script>
 (function(){
   var photo = null;
@@ -898,10 +899,15 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
   not.addEventListener('click', openSheet);
   document.getElementById('scrim').addEventListener('click', function(e) { if (e.target === this) closeSheet(); });
   yes.addEventListener('click', function() {
-    // on transmet le produit confirmé à la fiche : elle ira chercher ses VRAIES notes
+    // on transmet le produit confirmé à la suite : elle ira chercher ses VRAIES notes.
+    // V2 : un premium file droit sur sa fiche ; les autres passent par la fourche (02).
     var q = name.textContent || '';
     try { sessionStorage.setItem('ss-scan-produit', q); } catch(e) {}
-    location.href = '06-result-premium.html?p=' + encodeURIComponent(q);
+    var suite = '?p=' + encodeURIComponent(q);
+    if (!window.SS) { location.href = '02-fork.html' + suite; return; }
+    SS.moi().then(function(m) {
+      location.href = (m.premium ? '06-result-premium.html' : '02-fork.html') + suite;
+    });
   });
 
   if (!photo) {

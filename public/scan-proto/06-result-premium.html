@@ -1101,9 +1101,15 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
     </div>
   </div>
 
+<script src="commun/app.js"></script>
 <script>
 function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "parfum": "Fragrance", "HE": "Essential oil", "alcool": "Drying alcohol", "creuse": "Few actives", "filtres-uv": "UV protection" })[t] || t; }
 (function(){
+  // V2 : cette fiche est PREMIUM — un visiteur non premium est renvoyé vers la
+  // fiche gratuite, même query (produit ?p= ou étiquette ?source=inci).
+  if (window.SS) SS.moi().then(function(m){
+    if (!m.premium) location.replace("03-result-free.html" + location.search);
+  });
   var q = new URLSearchParams(location.search);
 
   // Deux sources possibles, même forme de données : un produit du CATALOGUE (/produit) ou une
@@ -1646,13 +1652,21 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     this.disabled = true;
     this.lastChild.textContent = " Added to your routine";
   });
-  // le bouton principal de la page pointait dans le vide : il passe par le même chemin.
+  // V2 : le bouton principal délègue au flux commun SS.shelf.addFlow (clé ss-shelf,
+  // slot libre → ajout direct, occupé → modal de comparaison).
   document.querySelector(".cta-wrap .cta-btn").addEventListener("click", function(){
     var nom = document.getElementById("d-name").textContent.trim();
     if (!nom) return;
-    ajouterRoutine(nom);
-    this.disabled = true;
-    this.lastChild.textContent = " Added to your routine";
+    var catLabel = (document.getElementById("d-cat").textContent || "").trim(), cat;
+    for (var ck in CATS) { if (CATS[ck] === catLabel) cat = ck; }
+    SS.shelf.addFlow({
+      nom: nom,
+      marque: (document.getElementById("d-brand").textContent || "").trim() || undefined,
+      image: document.getElementById("d-img").getAttribute("src") || undefined,
+      categorie: cat,
+      formule: parseInt(document.getElementById("d-formule").textContent, 10) || null,
+      perso: parseInt(document.getElementById("d-perso-tab").textContent, 10) || null
+    });
   });
 
   source.then(function(d){ rendre(d); bandeauEtiquette(d); }).catch(function(){});
