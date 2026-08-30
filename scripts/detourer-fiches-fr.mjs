@@ -17,10 +17,20 @@ const TAILLE = 420;
 const PARALLELE = 6;
 fs.mkdirSync(SORTIE, { recursive: true });
 
+// --brut    : garder la photo telle qu'Amazon la fournit, fond blanc compris.
+//   Le détourage part des bords et ne devrait creuser que le fond contigu, mais sur ces
+//   photos-là il FUIT : mesuré sur une boîte Eucerin, le fond descend à 244 (bruit JPEG)
+//   quand le blanc de l'emballage monte à 253 — les deux plages se chevauchent, et le
+//   remplissage entre dans le produit. Résultat : l'emballage devient transparent, donc noir
+//   sur fond sombre. --brut renonce au détourage plutôt que de livrer des produits troués.
+// --refaire : réécrire même si le packshot existe déjà.
+const BRUT = process.argv.includes("--brut");
+const REFAIRE = process.argv.includes("--refaire");
+
 const fiches = JSON.parse(fs.readFileSync(FICHES, "utf8"));
 const cibles = Object.values(fiches).filter((f) => !f.erreur && f.image && f.asin
-  && !fs.existsSync(path.join(SORTIE, f.asin + ".webp")));
-console.log(cibles.length + " packshots à détourer\n");
+  && (REFAIRE || !fs.existsSync(path.join(SORTIE, f.asin + ".webp"))));
+console.log(cibles.length + (BRUT ? " packshots à reprendre (sans détourage)" : " packshots à détourer") + "\n");
 
 let faits = 0, rates = 0;
 async function traiter(f) {
@@ -28,13 +38,17 @@ async function traiter(f) {
     const r = await fetch(f.image, { signal: AbortSignal.timeout(25000) });
     if (!r.ok) throw new Error("HTTP " + r.status);
     const brut = Buffer.from(await r.arrayBuffer());
-    const { buffer, partFond } = await detourer(brut);
-    // un « détourage » qui n'a rien trouvé à creuser (photo pleine page, fond non blanc) est
-    // gardé tel quel : mieux vaut un rectangle qu'une image trouée au mauvais endroit
-    const src = partFond >= 5 ? buffer : brut;
+    let src = brut, partFond = 0;
+    if (!BRUT) {
+      const d = await detourer(brut);
+      partFond = d.partFond;
+      // un « détourage » qui n'a rien trouvé à creuser (photo pleine page, fond non blanc) est
+      // gardé tel quel : mieux vaut un rectangle qu'une image trouée au mauvais endroit
+      src = partFond >= 5 ? d.buffer : brut;
+    }
     await sharp(src).resize(TAILLE, TAILLE, { fit: "inside", withoutEnlargement: true })
       .webp({ quality: 82 }).toFile(path.join(SORTIE, f.asin + ".webp"));
-    process.stdout.write(partFond >= 5 ? "." : "o");
+    process.stdout.write(BRUT ? "." : (partFond >= 5 ? "." : "o"));
   } catch { rates++; process.stdout.write("!"); }
   if (++faits % 40 === 0) process.stdout.write(" " + faits + "/" + cibles.length + "\n");
 }
