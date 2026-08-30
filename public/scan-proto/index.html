@@ -22,10 +22,12 @@
     .then(function () { return SS.moi(); })
     .then(function (m) {
       var dejaScanne = SS.historique.liste().length > 0;
-      if (!dejaScanne && !m.connecte) { go("01-scan.html"); return; }
+      // première visite (rien de scanné, pas de compte) → écran d'entrée
+      // façon V1 : scanner un produit OU se connecter.
+      if (!dejaScanne && !m.connecte) { go("00-welcome.html"); return; }
       go(m.premium ? "11-dashboard.html" : "12-dashboard-free.html");
     })
-    .catch(function () { go("01-scan.html"); });
+    .catch(function () { go("00-welcome.html"); });
 })();
 </script>
 </body>

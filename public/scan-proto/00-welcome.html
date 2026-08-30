@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin AI</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="commun/base.css">
+<style>
+/* ── page : écran d'entrée (porté du pattern WelcomeScreen V1 : héro + cartes
+   verre flottantes + panneau bas logo/CTA/Apple/privacy — adapté au scan
+   produit : le visage devient un packshot dans un cadre de visée) ── */
+.phone { display:flex; flex-direction:column; min-height:100dvh; }
+@media (min-width:480px) { .phone { min-height:844px; } }
+
+/* héros : photo campagne pleine hauteur (elle file derrière le panneau
+   translucide — le verre du sheet se teinte de l'image, façon iOS) */
+.fond { position:absolute; top:0; left:0; width:100%; height:auto; z-index:0; display:block; }
+.hero { position:relative; z-index:3; flex:1; min-height:380px; }
+
+
+/* panneau bas (bottom sheet V1) */
+.sheet { position:relative; z-index:5; border-radius:30px 30px 0 0; padding:26px 24px calc(env(safe-area-inset-bottom) + 24px);
+  background:linear-gradient(180deg, rgba(255,255,255,0.94), rgba(255,255,255,0.86));
+  -webkit-backdrop-filter:blur(24px) saturate(1.5); backdrop-filter:blur(24px) saturate(1.5);
+  border-top:1px solid rgba(255,255,255,0.95);
+  box-shadow:inset 0 1.5px 0 #fff, 0 -18px 44px rgba(40,55,75,0.14); }
+@media (min-width:480px) { .sheet { border-radius:30px 30px 52px 52px; } }
+.w-brand { display:flex; justify-content:center; }
+.w-brand img { height:30px; width:auto; }
+.tagline { text-align:center; font-size:13.5px; font-weight:500; color:var(--graphite); margin-top:9px; letter-spacing:-0.01em; }
+.cta-btn { margin-top:20px; }
+
+/* Sign in with Apple — déclinaison blanche à liseré (Guideline 4 : le contrôle
+   qui ouvre la feuille Apple doit se VOIR comme tel ; le CTA principal est noir,
+   un second bouton noir lui volerait la vedette — même arbitrage que la V1) */
+.apple-white { margin-top:12px; width:100%; height:52px; border-radius:15px; cursor:pointer;
+  background:#fff; color:var(--ink); border:1.5px solid rgba(26,29,33,0.75);
+  font-family:var(--fd); font-weight:700; font-size:14.5px;
+  display:flex; align-items:center; justify-content:center; gap:2px;
+  transition:transform .18s, background .2s; }
+.apple-white:hover { background:rgba(26,29,33,0.04); }
+.apple-white:focus-visible { outline:2px solid var(--blue-d); outline-offset:3px; }
+.apple-white:disabled { opacity:0.55; cursor:default; }
+.apple-white .apple-slot { display:flex; align-self:stretch; }
+.apple-white .apple-slot svg { height:100%; width:auto; }
+
+.auth-err { display:none; margin-top:12px; font-size:12px; font-weight:600; line-height:1.45;
+  color:#D8543F; text-align:center; }
+.privacy { margin-top:16px; display:flex; align-items:center; justify-content:center; gap:7px;
+  font-size:12px; font-weight:500; color:var(--space); }
+.privacy svg { flex-shrink:0; }
+</style>
+</head>
+<body>
+<div class="phone">
+
+  <img class="fond" src="welcome-hero.jpg" alt="">
+
+  <div class="hero"></div>
+
+  <div class="sheet">
+    <h1 class="w-brand"><img src="logo-smartskin.png" alt="SmartSkin AI"></h1>
+    <p class="tagline">Every product, scored for your skin.</p>
+
+    <!-- CTA principal : scanner en invité (le compte se propose plus tard, jamais au 1er produit) -->
+    <button type="button" class="cta-btn" id="btn-scan">
+      <svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 6V3.6A1.6 1.6 0 0 1 3.6 2H6M12 2h2.4A1.6 1.6 0 0 1 16 3.6V6M16 12v2.4a1.6 1.6 0 0 1-1.6 1.6H12M6 16H3.6A1.6 1.6 0 0 1 2 14.4V12"></path></svg>
+      Scan a product
+    </button>
+
+    <!-- secondaire : les utilisateurs qui reviennent se connectent → dashboard -->
+    <button type="button" class="apple-white" id="btn-apple"><span class="apple-slot"><svg viewBox="7 0 17 44" fill="currentColor" aria-hidden="true"><path d="M15.7099491,14.8846154 C16.5675461,14.8846154 17.642562,14.3048315 18.28274,13.5317864 C18.8625238,12.8312142 19.2852829,11.852829 19.2852829,10.8744437 C19.2852829,10.7415766 19.2732041,10.6087095 19.2490464,10.5 C18.2948188,10.5362365 17.1473299,11.140178 16.4588366,11.9494596 C15.9152893,12.56548 15.4200572,13.5317864 15.4200572,14.5222505 C15.4200572,14.6671964 15.4442149,14.8121424 15.4562937,14.8604577 C15.5166879,14.8725366 15.6133185,14.8846154 15.7099491,14.8846154 Z M12.6902416,29.5 C13.8618881,29.5 14.3812778,28.714876 15.8428163,28.714876 C17.3285124,28.714876 17.6546408,29.4758423 18.9591545,29.4758423 C20.2395105,29.4758423 21.0971074,28.292117 21.9063891,27.1325493 C22.8123013,25.8038779 23.1867451,24.4993643 23.2109027,24.4389701 C23.1263509,24.4148125 20.6743484,23.4122695 20.6743484,20.5979021 C20.6743484,18.1579784 22.6069612,17.0588048 22.7156707,16.974253 C21.4353147,15.1382708 19.490623,15.0899555 18.9591545,15.0899555 C17.5217737,15.0899555 16.3501271,15.9596313 15.6133185,15.9596313 C14.8161157,15.9596313 13.7652575,15.1382708 12.521138,15.1382708 C10.1536872,15.1382708 7.75,17.0950413 7.75,20.7911634 C7.75,23.0861411 8.64383344,25.513986 9.74300699,27.0842339 C10.6851558,28.4129053 11.5065162,29.5 12.6902416,29.5 Z"></path></svg></span>Sign in with Apple</button>
+    <p class="auth-err" id="auth-err" role="alert"></p>
+
+    <div class="privacy">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 1.4 11.4 3.1V6.8c0 2.9-1.9 4.9-4.4 5.8-2.5-.9-4.4-2.9-4.4-5.8V3.1z"></path><path d="m5 6.9 1.4 1.4L9.2 5.5"></path></svg>
+      Private &middot; your scans stay on this phone.
+    </div>
+  </div>
+
+</div>
+<script src="commun/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  var btnApple = document.getElementById("btn-apple");
+
+  function erreur(msg) {
+    var e = document.getElementById("auth-err");
+    e.textContent = msg || "";
+    e.style.display = msg ? "block" : "none";
+  }
+
+  // Succès : ss-moi purgé par SS.auth → sync du shelf, statut frais, dashboard.
+  function apresConnexion() {
+    SS.shelf.sync()
+      .then(function () { return SS.moi(); })
+      .then(function (m) { location.replace(m.premium ? "11-dashboard.html" : "12-dashboard-free.html"); });
+  }
+
+  // Déjà connecté (retour arrière, lien direct) → l'écran n'a rien à offrir.
+  SS.moi().then(function (m) { if (m.connecte) apresConnexion(); }).catch(function () {});
+
+  document.getElementById("btn-scan").addEventListener("click", function () {
+    location.href = "01-scan.html";
+  });
+
+  /* Sign in with Apple — mode "login" comme sur le welcome V1 : ce bouton
+     CONNECTE, il n'inscrit pas. Un Apple ID sans compte SmartSkin repart sans
+     session → on le dit clairement au lieu de créer un compte fantôme.
+     Hors app native (pas de feuille Apple) → la page compte explique et porte
+     le repli ?dev=1 des tests. */
+  btnApple.addEventListener("click", function () {
+    erreur("");
+    if (!SS.natif.est()) {
+      var dev = new URLSearchParams(location.search).get("dev") === "1";
+      location.href = "15-compte.html" + (dev ? "?dev=1" : "");
+      return;
+    }
+    btnApple.disabled = true;
+    SS.natif.signInApple(function (idToken, name) {
+      SS.auth.apple(idToken, name, "login")
+        .then(apresConnexion)
+        .catch(function () {
+          btnApple.disabled = false;
+          erreur("No SmartSkin account found for this Apple ID. Tap “Scan a product” to get started.");
+        });
+    }, function (raison) {
+      btnApple.disabled = false;
+      if (String(raison || "").toLowerCase().indexOf("cancel") < 0) {
+        erreur("Apple sign-in didn't complete. Please try again.");
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
