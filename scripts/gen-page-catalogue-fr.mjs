@@ -106,7 +106,7 @@ const carte = (p) => {
     : '<span class="avis avis-vide">pas d\'avis</span>';
 
   return `<article class="fiche etat-${p.etat}" data-etat="${p.etat}" data-cat="${p.categorie || ""}" data-marque="${esc(p.marque)}" data-score="${p.score ?? -1}" data-note="${p.avisNote ?? -1}" data-nom="${esc((p.nom + " " + p.marque + " " + (p.gamme || "")).toLowerCase())}">
-  <div class="visuel">${p.img ? `<img loading="lazy" src="${p.img}" alt="">` : '<span class="sans-image">sans visuel</span>'}</div>
+  <div class="visuel"${p.img ? ' tabindex="0" role="button" aria-label="Agrandir la photo"' : ""}>${p.img ? `<img loading="lazy" src="${p.img}" alt="">` : '<span class="sans-image">sans visuel</span>'}</div>
   <div class="corps">
     <div class="marque">${esc(p.marque)}</div>
     <h3>${esc(p.nom)}</h3>
@@ -172,7 +172,7 @@ select{border-radius:8px}
 .pilule:focus-visible,.recherche:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .decompte{margin-left:auto;font-size:13px;color:var(--encre-2)}
 
-.grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:14px;
+.grille{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px;
   padding:20px 24px 60px;max-width:1560px;margin:0 auto}
 
 .fiche{background:var(--carte);border:1px solid var(--filet);border-radius:12px;overflow:hidden;
@@ -191,7 +191,21 @@ select{border-radius:8px}
    s'affichait alors presque à sa taille native, donc flou. Hauteur nulle + padding de 100 %,
    image en position absolue : la tuile ne peut plus grandir, et l'image se contente de la place. */
 .visuel{position:relative;height:0;padding-top:100%;background:#FFFFFF;
-  border-bottom:1px solid var(--filet);overflow:hidden}
+  border-bottom:1px solid var(--filet);overflow:hidden;cursor:zoom-in}
+.visuel:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+
+/* Loupe : la grille reste légère, le détail arrive à la demande. L'image y est montrée à sa
+   pleine résolution, ce que la vignette de la fiche ne peut pas faire. */
+.loupe{position:fixed;inset:0;z-index:50;display:none;align-items:center;justify-content:center;
+  background:rgba(10,12,10,.82);padding:24px;cursor:zoom-out}
+.loupe[open]{display:flex}
+.loupe-boite{background:#FFFFFF;border-radius:14px;padding:22px;max-width:min(760px,92vw);
+  max-height:92vh;display:flex;flex-direction:column;gap:14px;cursor:default}
+.loupe-boite img{max-width:100%;max-height:64vh;object-fit:contain;align-self:center}
+.loupe-titre{font-size:15px;font-weight:600;color:#161A17;text-wrap:balance}
+.loupe-marque{font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#1F7A4C}
+.loupe-fermer{position:absolute;top:18px;right:20px;background:none;border:0;color:#EDF1EC;
+  font-size:30px;line-height:1;cursor:pointer;padding:6px 12px}
 /* PAS de mix-blend-mode ici. Les packshots sont DÉTOURÉS (canal alpha), pas des photos sur
    fond blanc : multiplier une étiquette blanche par un fond sombre la noircit entièrement,
    et le produit devient illisible. La transparence suffit, sur les deux thèmes. */
@@ -263,6 +277,14 @@ ${produits.map(carte).join("\n")}
 <div class="vide" id="vide" hidden>Aucun produit ne correspond.</div>
 </main>
 
+<div class="loupe" id="loupe" role="dialog" aria-modal="true" aria-label="Photo agrandie">
+  <button class="loupe-fermer" id="loupeFermer" aria-label="Fermer">&times;</button>
+  <div class="loupe-boite">
+    <img id="loupeImg" src="" alt="">
+    <div><div class="loupe-marque" id="loupeMarque"></div><div class="loupe-titre" id="loupeTitre"></div></div>
+  </div>
+</div>
+
 <script>
 (function(){
   var grille=document.getElementById("grille");
@@ -297,6 +319,31 @@ ${produits.map(carte).join("\n")}
     tries.forEach(function(f){grille.appendChild(f)});
     grille.appendChild(vide);
   }
+
+  // ── loupe ──────────────────────────────────────────────────────────────────
+  var loupe=document.getElementById("loupe"), loupeImg=document.getElementById("loupeImg"),
+      loupeTitre=document.getElementById("loupeTitre"), loupeMarque=document.getElementById("loupeMarque"),
+      dernierFocus=null;
+  function ouvrir(fiche){
+    var im=fiche.querySelector(".visuel img"); if(!im) return;
+    dernierFocus=fiche.querySelector(".visuel");
+    loupeImg.src=im.src;
+    loupeImg.alt=fiche.querySelector("h3").textContent;
+    loupeTitre.textContent=fiche.querySelector("h3").textContent;
+    loupeMarque.textContent=fiche.querySelector(".marque").textContent;
+    loupe.setAttribute("open","");
+    document.getElementById("loupeFermer").focus();
+  }
+  function fermer(){ loupe.removeAttribute("open"); loupeImg.src=""; if(dernierFocus) dernierFocus.focus(); }
+  grille.addEventListener("click",function(e){
+    var v=e.target.closest(".visuel"); if(v) ouvrir(v.closest(".fiche"));
+  });
+  grille.addEventListener("keydown",function(e){
+    if(e.key!=="Enter"&&e.key!==" ") return;
+    var v=e.target.closest(".visuel"); if(v){ e.preventDefault(); ouvrir(v.closest(".fiche")); }
+  });
+  loupe.addEventListener("click",function(e){ if(!e.target.closest(".loupe-boite")||e.target.id==="loupeFermer") fermer(); });
+  document.addEventListener("keydown",function(e){ if(e.key==="Escape"&&loupe.hasAttribute("open")) fermer(); });
 
   [q,marque,cat].forEach(function(el){el.addEventListener("input",appliquer)});
   tri.addEventListener("change",function(){trier();appliquer()});
