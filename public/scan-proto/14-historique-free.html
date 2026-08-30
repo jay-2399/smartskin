@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin AI — History</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="commun/base.css">
+<style>
+/* ── CSS de page : historique gratuit (source : HistoriqueGratuit.dc.html) ── */
+.dash-head { display:flex; align-items:flex-start; justify-content:space-between; padding:8px 20px 0; }
+.dash-title { font-weight:800; font-size:26px; letter-spacing:-0.035em; color:var(--ink); margin-top:4px; }
+a.nav-back { text-decoration:none; }
+
+/* l'attribut hidden doit gagner sur les display: des classes */
+[hidden] { display:none !important; }
+
+/* chips de filtre */
+.chips-row { display:flex; gap:8px; padding:0 20px; margin-top:14px; }
+.chip2 { padding:9px 15px; border-radius:100px; font-size:11.5px; font-weight:700; color:var(--graphite);
+  background:var(--glass-bg); border:1px solid var(--glass-line);
+  font-family:var(--fd); cursor:pointer; }
+.chip2:focus-visible { outline:2px solid var(--blue-d); outline-offset:2px; }
+.chip2.on { color:#fff; background:linear-gradient(180deg,#2A2D34,#191B1F); border-color:transparent; }
+
+/* lignes d'historique */
+.alts { display:flex; flex-direction:column; gap:10px; margin-top:0; }
+.hist { display:flex; align-items:center; gap:13px; padding:13px 15px; border-radius:16px;
+  background:var(--glass-bg); border:1px solid var(--glass-line); box-shadow:var(--glass-shadow);
+  text-decoration:none; color:inherit; cursor:pointer; }
+.hist img { height:40px; width:auto; flex-shrink:0; }
+.hist-name { font-weight:700; font-size:13px; color:var(--ink); letter-spacing:-0.01em; }
+.hist-sub { font-size:10.5px; color:var(--graphite); margin-top:2px; }
+.hs-duo { margin-left:auto; text-align:right; flex-shrink:0; }
+.hs-you { font-weight:800; font-size:19px; letter-spacing:-0.5px; }
+.hs-you.good { color:#189A66; } .hs-you.mid { color:#D9822B; } .hs-you.bad { color:#D8543F; }
+.hs-f { font-size:8.5px; font-weight:700; letter-spacing:0.06em; color:var(--space); text-transform:uppercase; margin-top:1px; }
+.in-rt { font-size:8.5px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:var(--blue-d);
+  background:rgba(166,195,214,0.28); border:1px solid rgba(110,154,182,0.42); padding:2px 7px; border-radius:100px; }
+.ph-thumb { width:40px; height:40px; border-radius:10px; flex-shrink:0;
+  background:linear-gradient(170deg,#E9EDF3,#DDE3EB); display:flex; align-items:center; justify-content:center; color:var(--space); }
+
+/* note de bas de liste + upsell discret (aucune popup) */
+.foot-note { text-align:center; margin-top:16px; font-size:11.5px; font-weight:600; color:var(--space); }
+.up-link { display:block; text-align:center; margin-top:8px; font-size:11.5px; font-weight:700;
+  color:var(--blue-d); text-decoration:none; }
+.up-link:hover { color:var(--ink); }
+
+/* état vide */
+.empty-s { font-size:12px; line-height:1.55; color:var(--graphite); }
+.fk-btn-dark { margin-top:14px; width:100%; height:48px; border:none; border-radius:100px; cursor:pointer;
+  background:linear-gradient(180deg, #2A2D34 0%, #191B1F 100%); color:#fff;
+  font-family:var(--fd); font-weight:800; font-size:13.5px; letter-spacing:-0.01em;
+  display:flex; align-items:center; justify-content:center; gap:8px;
+  box-shadow:0 10px 24px rgba(26,29,33,0.28), inset 0 1px 0 rgba(255,255,255,0.22); }
+
+@keyframes fadeUp { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
+.s0 { animation:fadeUp .55s cubic-bezier(.22,1,.36,1) both .14s; }
+@media (prefers-reduced-motion: reduce) { .s0 { animation:none; } }
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="dash-head">
+    <div>
+      <span class="sec-kicker" id="nb-scans">&nbsp;</span>
+      <h1 class="dash-title">History</h1>
+    </div>
+    <a class="nav-back" href="17-reglages.html" aria-label="Settings" style="position:static;"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="2.6"></circle><path d="M16.2 12.4a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-1.8-.3 1.6 1.6 0 0 0-1 1.5v.2a2 2 0 1 1-4 0v-.1a1.6 1.6 0 0 0-1-1.5 1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0 .3-1.8 1.6 1.6 0 0 0-1.5-1h-.2a2 2 0 1 1 0-4h.1a1.6 1.6 0 0 0 1.5-1 1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3h.1a1.6 1.6 0 0 0 1-1.5v-.2a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 1 1.5 1.6 1.6 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8v.1a1.6 1.6 0 0 0 1.5 1h.2a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"></path></svg></a>
+  </div>
+
+  <div class="chips-row" id="chips" hidden>
+    <button type="button" class="chip2 on" data-filtre="all" id="chip-all">All</button>
+    <button type="button" class="chip2" data-filtre="rt" id="chip-rt">In my routine</button>
+  </div>
+
+  <div class="section s0" style="padding-top:14px;">
+    <div id="liste-zone"></div>
+    <p class="foot-note" id="foot" hidden>Formula scores &mdash; the product, not your skin</p>
+    <a class="up-link" id="up" href="16-paywall.html" hidden>See scores for your skin &rarr;</a>
+  </div>
+</div>
+
+<script src="commun/app.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  var MOIS_C = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  var SVG_SCAN = '<svg width="15" height="15" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6V3.6A1.6 1.6 0 0 1 3.6 2H6M12 2h2.4A1.6 1.6 0 0 1 16 3.6V6M16 12v2.4a1.6 1.6 0 0 1-1.6 1.6H12M6 16H3.6A1.6 1.6 0 0 1 2 14.4V12"></path></svg>';
+
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+  // mêmes seuils que le moteur (cf. commun/app.js)
+  function teinte(n) { return n >= 75 ? "good" : n >= 45 ? "mid" : "bad"; }
+  function libelleJour(iso) {
+    var d = new Date(Date.parse(iso));
+    if (isNaN(d.getTime())) return "";
+    var auj = new Date();
+    var hier = new Date(auj.getFullYear(), auj.getMonth(), auj.getDate() - 1);
+    if (d.getFullYear() === auj.getFullYear() && d.getMonth() === auj.getMonth() && d.getDate() === auj.getDate()) return "Today";
+    if (d.getFullYear() === hier.getFullYear() && d.getMonth() === hier.getMonth() && d.getDate() === hier.getDate()) return "Yesterday";
+    return MOIS_C[d.getMonth()] + " " + d.getDate();
+  }
+  function dansShelf(shelf, nom) {
+    for (var i = 0; i < shelf.length; i++) {
+      if ((shelf[i].nom || "").toLowerCase() === (nom || "").toLowerCase()) return true;
+    }
+    return false;
+  }
+
+  var historique = SS.historique.liste();
+  var shelf = SS.shelf.liste();
+  var filtre = "all";
+
+  function rendre() {
+    var zone = document.getElementById("liste-zone");
+    var foot = document.getElementById("foot");
+    var up = document.getElementById("up");
+    if (!historique.length) {
+      document.getElementById("nb-scans").textContent = "0 products scanned";
+      zone.innerHTML =
+        '<div class="vcard">' +
+        '<p class="empty-s">Nothing here yet. Every product you scan lands in this list &mdash; free.</p>' +
+        '<button type="button" class="fk-btn-dark" id="go-scan">' + SVG_SCAN + "Scan a product</button>" +
+        "</div>";
+      document.getElementById("go-scan").addEventListener("click", function () {
+        location.href = "01-scan.html";
+      });
+      foot.hidden = true;
+      up.hidden = true;
+      return;
+    }
+    var enRoutine = [];
+    for (var i = 0; i < historique.length; i++) {
+      if (dansShelf(shelf, historique[i].nom)) enRoutine.push(historique[i]);
+    }
+    document.getElementById("nb-scans").textContent =
+      historique.length + (historique.length === 1 ? " product scanned" : " products scanned");
+    var chips = document.getElementById("chips");
+    chips.hidden = false;
+    document.getElementById("chip-all").innerHTML = "All &middot; " + historique.length;
+    document.getElementById("chip-rt").innerHTML = "In my routine &middot; " + enRoutine.length;
+
+    var liste = filtre === "rt" ? enRoutine : historique;
+    if (!liste.length) {
+      zone.innerHTML = '<div class="vcard"><p class="empty-s">Nothing from your routine yet &mdash; add a scanned product to your shelf first.</p></div>';
+      foot.hidden = true;
+      up.hidden = true;
+      return;
+    }
+    var html = '<div class="alts">';
+    for (var j = 0; j < liste.length; j++) {
+      var s = liste[j];
+      var visuel = s.image ? '<img src="' + esc(s.image) + '" alt="">' : '<span class="ph-thumb">' + SVG_SCAN + "</span>";
+      var sousParts = [];
+      var jour = libelleJour(s.date);
+      if (jour) sousParts.push(jour);
+      if (s.marque) sousParts.push(esc(s.marque));
+      var sous = sousParts.join(" &middot; ");
+      if (dansShelf(shelf, s.nom)) sous += ' &nbsp;<span class="in-rt">Routine</span>';
+      var duo = typeof s.formule === "number"
+        ? '<div class="hs-duo"><span class="hs-you ' + teinte(s.formule) + '">' + s.formule + '</span><p class="hs-f">Formula</p></div>'
+        : "";
+      html +=
+        '<a class="hist" href="03-result-free.html?p=' + encodeURIComponent(s.nom) + '">' + visuel +
+        '<div><p class="hist-name">' + esc(s.nom) + '</p><p class="hist-sub">' + sous + "</p></div>" + duo + "</a>";
+    }
+    html += "</div>";
+    zone.innerHTML = html;
+    foot.hidden = false;
+    up.hidden = false;
+  }
+
+  document.getElementById("chips").addEventListener("click", function (e) {
+    var b = e.target && e.target.closest ? e.target.closest(".chip2") : null;
+    if (!b) return;
+    filtre = b.getAttribute("data-filtre");
+    document.getElementById("chip-all").className = "chip2" + (filtre === "all" ? " on" : "");
+    document.getElementById("chip-rt").className = "chip2" + (filtre === "rt" ? " on" : "");
+    rendre();
+  });
+
+  /* ── garde jumelle puis rendu (contrat §6 : premium sur 14 → 13) ── */
+  SS.moi().then(function (m) {
+    if (m.premium) { location.replace("13-historique.html"); return; }
+    SS.tabbar("histo");
+    rendre();
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin AI — Your scans</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="commun/base.css">
+<style>
+/* ── CSS de page : dashboard gratuit (source : DashboardGratuite.dc.html) ──
+   Surface d'UPSELL, aucune popup : la lock-card entière mène au paywall. */
+[hidden] { display:none !important; }
+.dash-head { display:flex; align-items:flex-start; justify-content:space-between; padding:8px 20px 0; }
+.dash-title { font-weight:800; font-size:26px; letter-spacing:-0.035em; color:var(--ink); margin-top:4px; }
+a.nav-back { text-decoration:none; }
+
+/* carte verrouillée (verre sombre) → 16-paywall */
+.lock-card { position:relative; display:block; margin:16px 20px 0; border-radius:20px; padding:18px; overflow:hidden;
+  background:linear-gradient(160deg, rgba(41,46,58,0.95) 0%, rgba(20,22,27,0.97) 100%);
+  border:1px solid rgba(255,255,255,0.13); border-top-color:rgba(255,255,255,0.28);
+  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.16), 0 14px 32px rgba(15,20,30,0.28);
+  text-decoration:none; cursor:pointer; }
+.lock-card:focus-visible { outline:2px solid var(--blue-d); outline-offset:3px; }
+.lock-glow { position:absolute; right:-22%; top:-42%; width:74%; height:130%; pointer-events:none;
+  background:radial-gradient(ellipse at center, rgba(166,195,214,0.26), transparent 70%); }
+.lock-card > * { position:relative; z-index:1; }
+.lock-body { display:flex; gap:16px; align-items:center; margin-top:2px; }
+.lock-gwrap { position:relative; width:104px; flex-shrink:0; }
+.lock-blur { filter:blur(5px); opacity:0.8; }
+.lock-blur .gauge { width:104px; height:auto; display:block; }
+.lock-blur .score-num { font-size:30px; letter-spacing:-1px; color:#fff; }
+.lock-q { position:absolute; inset:0; display:flex; align-items:flex-end; justify-content:center; padding-bottom:2px;
+  font-weight:800; font-size:26px; color:#fff; text-shadow:0 2px 10px rgba(0,0,0,0.5); }
+.lock-t { font-weight:800; font-size:17px; line-height:1.22; letter-spacing:-0.02em; color:#fff; }
+.lock-feats { display:flex; flex-direction:column; gap:6px; margin-top:10px; }
+.lock-feat { display:flex; align-items:flex-start; gap:7px; font-size:10.5px; font-weight:600; letter-spacing:-0.005em; line-height:1.35; color:rgba(255,255,255,0.75); }
+.lock-check { color:#54D9A0; font-weight:800; font-size:10px; flex-shrink:0; margin-top:1px; }
+
+/* demi-jauge floutée (statique, décor de la lock-card) */
+.gauge { display:block; overflow:visible; }
+.gauge-track { fill:none; stroke:#C7CFDD; stroke-width:9; stroke-linecap:round; }
+.gauge-prog { fill:none; stroke-width:9; stroke-linecap:round; stroke-dasharray:226.2; stroke-dashoffset:36.2; }
+.gauge-prog.good { stroke:url(#gg-good); }
+.score-row { display:flex; align-items:baseline; justify-content:center; gap:3px; margin-top:-26px; }
+.score-num { font-weight:800; line-height:0.9; }
+
+/* ce que le gratuit accumule : scans récents (score formule) */
+.alts { display:flex; flex-direction:column; gap:10px; margin-top:12px; }
+.alt { display:flex; align-items:center; gap:13px; padding:12px 15px; border-radius:16px;
+  background:var(--glass-bg); border:1px solid var(--glass-line); box-shadow:var(--glass-shadow);
+  text-decoration:none; color:inherit; cursor:pointer; }
+.alt img { height:44px; width:auto; flex-shrink:0; }
+.alt-brand { display:block; font-size:8.5px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--space); }
+.alt-name { font-weight:700; font-size:13px; letter-spacing:-0.02em; color:var(--ink); margin-top:2px; }
+.hs-duo { margin-left:auto; text-align:right; flex-shrink:0; }
+.hs-you { font-weight:800; font-size:19px; letter-spacing:-0.5px; }
+.hs-you.good { color:#189A66; } .hs-you.mid { color:#D9822B; } .hs-you.bad { color:#D8543F; }
+.hs-f { font-size:8.5px; font-weight:700; letter-spacing:0.06em; color:var(--space); text-transform:uppercase; margin-top:1px; }
+.ph-thumb { width:44px; height:44px; border-radius:10px; flex-shrink:0;
+  background:linear-gradient(170deg,#E9EDF3,#DDE3EB); display:flex; align-items:center; justify-content:center; color:var(--space); }
+
+/* état vide + bouton scan */
+.empty-s { font-size:12px; line-height:1.55; color:var(--graphite); }
+.fk-btn-dark { margin-top:14px; width:100%; height:48px; border:none; border-radius:100px; cursor:pointer;
+  background:linear-gradient(180deg, #2A2D34 0%, #191B1F 100%); color:#fff;
+  font-family:var(--fd); font-weight:800; font-size:13.5px; letter-spacing:-0.01em;
+  display:flex; align-items:center; justify-content:center; gap:8px;
+  box-shadow:0 10px 24px rgba(26,29,33,0.28), inset 0 1px 0 rgba(255,255,255,0.22); }
+
+@keyframes fadeUp { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
+.s0 { animation:fadeUp .55s cubic-bezier(.22,1,.36,1) both .14s; }
+@media (prefers-reduced-motion: reduce) { .s0 { animation:none; } }
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="dash-head">
+    <div>
+      <span class="sec-kicker" id="d-date">&nbsp;</span>
+      <h1 class="dash-title">Your scans</h1>
+    </div>
+    <a class="nav-back" href="17-reglages.html" aria-label="Settings" style="position:static;"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="2.6"></circle><path d="M16.2 12.4a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-1.8-.3 1.6 1.6 0 0 0-1 1.5v.2a2 2 0 1 1-4 0v-.1a1.6 1.6 0 0 0-1-1.5 1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0 .3-1.8 1.6 1.6 0 0 0-1.5-1h-.2a2 2 0 1 1 0-4h.1a1.6 1.6 0 0 0 1.5-1 1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3h.1a1.6 1.6 0 0 0 1-1.5v-.2a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 1 1.5 1.6 1.6 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8v.1a1.6 1.6 0 0 0 1.5 1h.2a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"></path></svg></a>
+  </div>
+
+  <a class="lock-card" href="16-paywall.html">
+    <div class="lock-glow"></div>
+    <div class="lock-body">
+      <div class="lock-gwrap">
+        <div class="lock-blur">
+          <svg class="gauge" viewBox="0 0 170 93" aria-hidden="true">
+            <defs>
+              <linearGradient id="gg-good" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7ED3A6"></stop><stop offset="1" stop-color="#2BC182"></stop></linearGradient>
+            </defs>
+            <path class="gauge-track" d="M13 88 A72 72 0 0 1 157 88"></path>
+            <path class="gauge-prog good" d="M13 88 A72 72 0 0 1 157 88"></path>
+          </svg>
+          <div class="score-row"><span class="score-num">84</span></div>
+        </div>
+        <div class="lock-q"><br></div>
+      </div>
+      <div>
+        <p class="lock-t">What is <em style="font-style:normal; color:#BCD6E6">your</em> skin score?</p>
+        <div class="lock-feats">
+          <div class="lock-feat"><span class="lock-check">&#10003;</span> Personal score on every scan</div>
+          <div class="lock-feat"><span class="lock-check">&#10003;</span> Your full report &amp; routine</div>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <div class="section s0">
+    <div class="sec-head" style="margin-bottom:0;">
+      <span class="sec-kicker" id="nb-scans" hidden></span>
+      <span class="sec-name">Recent scans</span>
+    </div>
+    <div id="scans-zone"></div>
+  </div>
+</div>
+
+<script src="commun/app.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  var JOURS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var MOIS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var SVG_SCAN = '<svg width="15" height="15" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6V3.6A1.6 1.6 0 0 1 3.6 2H6M12 2h2.4A1.6 1.6 0 0 1 16 3.6V6M16 12v2.4a1.6 1.6 0 0 1-1.6 1.6H12M6 16H3.6A1.6 1.6 0 0 1 2 14.4V12"></path></svg>';
+
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+  // mêmes seuils que le moteur (cf. commun/app.js)
+  function teinte(n) { return n >= 75 ? "good" : n >= 45 ? "mid" : "bad"; }
+
+  var auj = new Date();
+  document.getElementById("d-date").textContent =
+    JOURS[auj.getDay()] + ", " + MOIS[auj.getMonth()] + " " + auj.getDate();
+
+  /* ── ce que le gratuit accumule : compteur + historique local (score formule) ── */
+  function rendreScans() {
+    var zone = document.getElementById("scans-zone");
+    var liste = SS.historique.liste();
+    var compteur = document.getElementById("nb-scans");
+    if (liste.length) {
+      compteur.hidden = false;
+      compteur.textContent = liste.length + (liste.length === 1 ? " product scanned" : " products scanned");
+    }
+    if (!liste.length) {
+      zone.innerHTML =
+        '<div class="vcard" style="margin-top:12px;">' +
+        '<p class="empty-s">No scans yet. Point the camera at any product &mdash; every scan is saved here, free.</p>' +
+        '<button type="button" class="fk-btn-dark" id="go-scan">' + SVG_SCAN + "Scan a product</button>" +
+        "</div>";
+      document.getElementById("go-scan").addEventListener("click", function () {
+        location.href = "01-scan.html";
+      });
+      return;
+    }
+    var html = '<div class="alts">';
+    for (var i = 0; i < liste.length; i++) {
+      var s = liste[i];
+      var visuel = s.image ? '<img src="' + esc(s.image) + '" alt="">' : '<span class="ph-thumb">' + SVG_SCAN + "</span>";
+      var duo = typeof s.formule === "number"
+        ? '<div class="hs-duo"><span class="hs-you ' + teinte(s.formule) + '">' + s.formule + '</span><p class="hs-f">Formula</p></div>'
+        : "";
+      html +=
+        '<a class="alt" href="03-result-free.html?p=' + encodeURIComponent(s.nom) + '">' + visuel +
+        "<div>" + (s.marque ? '<span class="alt-brand">' + esc(s.marque) + "</span>" : "") +
+        '<p class="alt-name">' + esc(s.nom) + "</p></div>" + duo + "</a>";
+    }
+    html += "</div>";
+    zone.innerHTML = html;
+  }
+
+  /* ── garde jumelle puis rendu (contrat §6 : premium sur 12 → 11) ── */
+  SS.moi().then(function (m) {
+    if (m.premium) { location.replace("11-dashboard.html"); return; }
+    SS.tabbar("home");
+    rendreScans();
+  });
+})();
+</script>
+</body>
+</html>

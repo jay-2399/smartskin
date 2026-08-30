@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin AI — Dashboard</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="commun/base.css">
+<style>
+/* ── CSS de page : dashboard premium (source : DashboardAbonnee.dc.html) ── */
+.dash-head { display:flex; align-items:flex-start; justify-content:space-between; padding:8px 20px 0; }
+.dash-title { font-weight:800; font-size:26px; letter-spacing:-0.035em; color:var(--ink); margin-top:4px; }
+a.nav-back { text-decoration:none; }
+
+/* carte score : verre clair (fk-card du canevas) */
+.fk-card { position:relative; border-radius:22px; padding:20px; overflow:hidden; margin:16px 20px 0; text-align:center;
+  background:linear-gradient(165deg, rgba(255,255,255,0.86), rgba(255,255,255,0.68));
+  -webkit-backdrop-filter:blur(22px) saturate(1.5); backdrop-filter:blur(22px) saturate(1.5);
+  border:1px solid rgba(255,255,255,0.72); border-top-color:rgba(255,255,255,0.95);
+  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.95), 0 14px 30px rgba(40,55,75,0.12); }
+.fk-btn-dark { margin-top:0; height:48px; border:none; border-radius:100px; cursor:pointer;
+  background:linear-gradient(180deg, #2A2D34 0%, #191B1F 100%); color:#fff;
+  font-family:var(--fd); font-weight:800; font-size:13.5px; letter-spacing:-0.01em;
+  display:flex; align-items:center; justify-content:center; gap:8px;
+  box-shadow:0 10px 24px rgba(26,29,33,0.28), inset 0 1px 0 rgba(255,255,255,0.22); }
+.btn-report { flex:1; height:48px; border-radius:100px; cursor:pointer; background:transparent;
+  border:1.5px solid rgba(26,29,33,0.5); color:var(--ink); font-family:var(--fd); font-weight:800;
+  font-size:13.5px; letter-spacing:-0.01em; }
+.btn-row { display:flex; gap:10px; margin-top:17px; }
+
+/* demi-jauge de score (l'arc prend la couleur du verdict) */
+.gauge-wrap { position:relative; width:150px; margin:2px auto 0; }
+.gauge { display:block; width:150px; height:auto; overflow:visible; }
+.gauge-track { fill:none; stroke:#C7CFDD; stroke-width:9; stroke-linecap:round;
+  filter:drop-shadow(0 1.5px 0.5px rgba(255,255,255,0.95)) drop-shadow(0 -1.5px 1.5px rgba(40,55,75,0.30)) drop-shadow(0 4px 8px rgba(40,55,75,0.18)); }
+.gauge-prog { fill:none; stroke-width:9; stroke-linecap:round; stroke-dasharray:226.2; stroke-dashoffset:226.2;
+  transition:stroke-dashoffset 1.4s cubic-bezier(.22,1,.36,1) .45s; }
+.gauge-prog.good { stroke:url(#gg-good); filter:drop-shadow(0 1px 2px rgba(43,193,130,0.45)) drop-shadow(0 4px 9px rgba(43,193,130,0.40)) drop-shadow(0 10px 20px rgba(43,193,130,0.30)); }
+.gauge-prog.mid  { stroke:url(#gg-mid);  filter:drop-shadow(0 1px 2px rgba(234,154,84,0.45)) drop-shadow(0 4px 9px rgba(234,154,84,0.40)) drop-shadow(0 10px 20px rgba(234,154,84,0.30)); }
+.gauge-prog.bad  { stroke:url(#gg-bad);  filter:drop-shadow(0 1px 2px rgba(224,102,87,0.48)) drop-shadow(0 4px 9px rgba(224,102,87,0.42)) drop-shadow(0 10px 20px rgba(224,102,87,0.30)); }
+.score-row { display:flex; align-items:baseline; justify-content:center; gap:3px; position:absolute; left:0; right:0; bottom:6px; }
+.score-num { font-weight:800; font-size:38px; line-height:0.9; letter-spacing:-1.8px; color:var(--ink);
+  animation:scorePunch .7s cubic-bezier(.34,1.56,.64,1) both .9s; }
+.score-num.good { color:#189A66; text-shadow:0 2px 6px rgba(43,193,130,0.24), 0 8px 22px rgba(43,193,130,0.30); }
+.score-num.mid  { color:#D9822B; text-shadow:0 2px 6px rgba(234,154,84,0.24), 0 8px 22px rgba(234,154,84,0.30); }
+.score-num.bad  { color:#D8543F; text-shadow:0 2px 6px rgba(224,102,87,0.24), 0 8px 22px rgba(224,102,87,0.30); }
+.score-den { font-family:var(--fm); font-size:11.5px; font-weight:600; color:var(--space); }
+@keyframes scorePunch { 0% { opacity:0; transform:scale(0.55); } 55% { opacity:1; } 100% { opacity:1; transform:scale(1); } }
+
+/* ligne méta sous la jauge : cooldown + tendance */
+.score-meta { display:flex; align-items:center; justify-content:center; gap:7px; margin-top:12px;
+  font-size:11px; font-weight:600; color:var(--graphite); flex-wrap:wrap; }
+.score-meta b { color:var(--ink); font-weight:700; }
+.meta-dot { width:3px; height:3px; border-radius:50%; background:var(--steel); }
+.meta-trend { display:inline-flex; align-items:center; gap:4px; color:#189A66; }
+.meta-trend.down { color:#D8543F; }
+.meta-trend.down svg { transform:scaleY(-1); }
+
+/* état vide (aucun bilan) */
+.empty-t { font-weight:800; font-size:17px; letter-spacing:-0.02em; color:var(--ink); margin-top:12px; }
+.empty-s { font-size:12px; line-height:1.55; color:var(--graphite); margin-top:5px; }
+
+/* routine du jour (rt2 + coche) */
+.rt2 { display:flex; align-items:center; gap:12px; padding:11px 0; border-top:1px solid var(--cloud); }
+.rt2:first-child { border-top:none; padding-top:2px; }
+.rt2 img { height:34px; width:auto; flex-shrink:0; }
+.rt2-name { font-weight:700; font-size:13px; color:var(--ink); letter-spacing:-0.01em; }
+.rt2-sub { font-size:10.5px; color:var(--graphite); margin-top:2px; }
+.chk { margin-left:auto; width:26px; height:26px; border-radius:50%; border:1.5px solid var(--steel);
+  flex-shrink:0; display:flex; align-items:center; justify-content:center; color:#fff;
+  background:transparent; padding:0; cursor:pointer; }
+.chk:focus-visible { outline:2px solid var(--blue-d); outline-offset:2px; }
+.chk.on { background:linear-gradient(180deg,#7ED3A6,#2BC182); border-color:transparent; box-shadow:0 2px 6px rgba(43,193,130,0.4); }
+.step-dot { width:34px; height:34px; border-radius:11px; flex-shrink:0; display:flex; align-items:center; justify-content:center;
+  background:rgba(166,195,214,0.28); color:var(--blue-d); border:1px solid rgba(110,154,182,0.4); }
+
+/* derniers scans (double score) */
+.alts { display:flex; flex-direction:column; gap:10px; margin-top:12px; }
+.alt { display:flex; align-items:center; gap:13px; padding:12px 15px; border-radius:16px;
+  background:var(--glass-bg); border:1px solid var(--glass-line); box-shadow:var(--glass-shadow);
+  text-decoration:none; color:inherit; cursor:pointer; }
+.alt img { height:44px; width:auto; flex-shrink:0; }
+.alt-brand { display:block; font-size:8.5px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--space); }
+.alt-name { font-weight:700; font-size:13px; letter-spacing:-0.02em; color:var(--ink); margin-top:2px; }
+.hs-duo { margin-left:auto; text-align:right; flex-shrink:0; }
+.hs-you { font-weight:800; font-size:19px; letter-spacing:-0.5px; }
+.hs-you.good { color:#189A66; } .hs-you.mid { color:#D9822B; } .hs-you.bad { color:#D8543F; }
+.hs-f { font-size:8.5px; font-weight:700; letter-spacing:0.06em; color:var(--space); text-transform:uppercase; margin-top:1px; }
+.ph-thumb { width:44px; height:44px; border-radius:10px; flex-shrink:0;
+  background:linear-gradient(170deg,#E9EDF3,#DDE3EB); display:flex; align-items:center; justify-content:center; color:var(--space); }
+
+@keyframes fadeUp { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
+.s0 { animation:fadeUp .55s cubic-bezier(.22,1,.36,1) both .14s; }
+@media (prefers-reduced-motion: reduce) {
+  .s0 { animation:none; }
+  .score-num { animation:none; }
+  .gauge-prog { transition:none; }
+}
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="dash-head">
+    <div>
+      <span class="sec-kicker" id="d-date">&nbsp;</span>
+      <h1 class="dash-title">Your skin, today</h1>
+    </div>
+    <a class="nav-back" href="17-reglages.html" aria-label="Settings" style="position:static;"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="2.6"></circle><path d="M16.2 12.4a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-1.8-.3 1.6 1.6 0 0 0-1 1.5v.2a2 2 0 1 1-4 0v-.1a1.6 1.6 0 0 0-1-1.5 1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0 .3-1.8 1.6 1.6 0 0 0-1.5-1h-.2a2 2 0 1 1 0-4h.1a1.6 1.6 0 0 0 1.5-1 1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3h.1a1.6 1.6 0 0 0 1-1.5v-.2a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 1 1.5 1.6 1.6 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8v.1a1.6 1.6 0 0 0 1.5 1h.2a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"></path></svg></a>
+  </div>
+
+  <div class="fk-card" id="score-card">
+    <!-- rempli par le script : jauge (bilan) ou état vide (bilan null) -->
+  </div>
+
+  <div class="section s0">
+    <span class="sec-name" style="display:block;">Today's routine</span>
+    <div id="routine-zone"></div>
+
+    <span class="sec-name" style="display:block; margin-top:22px;">Recent scans</span>
+    <div id="scans-zone"></div>
+  </div>
+</div>
+
+<script src="commun/app.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  var JOURS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var MOIS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var CATS = { cleanser:"Cleanser", "makeup-remover":"Makeup remover", toner:"Toner", serum:"Serum",
+               moisturizer:"Moisturiser", "eye-cream":"Eye cream", sunscreen:"Sunscreen",
+               exfoliant:"Exfoliant", mask:"Mask", treatment:"Treatment", demaquillant:"Makeup remover" };
+  var SVG_CHECK = '<svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg>';
+  var SVG_SCAN = '<svg width="15" height="15" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6V3.6A1.6 1.6 0 0 1 3.6 2H6M12 2h2.4A1.6 1.6 0 0 1 16 3.6V6M16 12v2.4a1.6 1.6 0 0 1-1.6 1.6H12M6 16H3.6A1.6 1.6 0 0 1 2 14.4V12"></path></svg>';
+  var SVG_FACE = '<svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6V3.6A1.6 1.6 0 0 1 3.6 2H6M12 2h2.4A1.6 1.6 0 0 1 16 3.6V6M16 12v2.4a1.6 1.6 0 0 1-1.6 1.6H12M6 16H3.6A1.6 1.6 0 0 1 2 14.4V12"></path><path d="M6.6 6.9v1.3M11.4 6.9v1.3M9.4 6.9v2.5a.7.7 0 0 1-.7.7M6.7 11.5c1.5 1.1 3.1 1.1 4.6 0"></path></svg>';
+  var SVG_CLOCK = '<svg width="12" height="12" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="5.5"></circle><path d="M7 4.2V7l1.8 1.4"></path></svg>';
+  var SVG_TREND = '<svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 10L10 2M10 2H4.6M10 2v5.4"></path></svg>';
+  var GAUGE_DEFS =
+    '<defs>' +
+    '<linearGradient id="gg-good" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7ED3A6"></stop><stop offset="1" stop-color="#2BC182"></stop></linearGradient>' +
+    '<linearGradient id="gg-mid" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F2C083"></stop><stop offset="1" stop-color="#EA9A54"></stop></linearGradient>' +
+    '<linearGradient id="gg-bad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EE9C90"></stop><stop offset="1" stop-color="#E06657"></stop></linearGradient>' +
+    '</defs>';
+
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+  // produits : mêmes seuils que le moteur (≥75 good · ≥45 mid) — cf. commun/app.js
+  function teinteProd(n) { return n >= 75 ? "good" : n >= 45 ? "mid" : "bad"; }
+  // jauge visage : seuils du canevas (vert ≥70 · orange 40-69 · rouge <40)
+  function teinteVisage(n) { return n >= 70 ? "good" : n >= 40 ? "mid" : "bad"; }
+  function jourISO(d) {
+    var m = d.getMonth() + 1, j = d.getDate();
+    return d.getFullYear() + "-" + (m < 10 ? "0" + m : m) + "-" + (j < 10 ? "0" + j : j);
+  }
+
+  /* ── en-tête : date du jour ── */
+  var auj = new Date();
+  document.getElementById("d-date").textContent =
+    JOURS[auj.getDay()] + ", " + MOIS[auj.getMonth()] + " " + auj.getDate();
+
+  /* ── carte score (GET /api/moi/bilan) ── */
+  function rendreScore(bilan) {
+    var card = document.getElementById("score-card");
+    if (!bilan || typeof bilan.score !== "number") {
+      // état vide : pas encore de scan visage → inviter (CTA 10-promesse)
+      card.innerHTML =
+        '<div class="gauge-wrap">' +
+        '<svg class="gauge" viewBox="0 0 170 93" aria-hidden="true">' + GAUGE_DEFS +
+        '<path class="gauge-track" d="M13 88 A72 72 0 0 1 157 88"></path></svg>' +
+        '<div class="score-row"><span class="score-num" style="animation:none; color:var(--steel);">&ndash;</span><span class="score-den">/100</span></div>' +
+        "</div>" +
+        '<span class="sec-kicker" style="display:block; margin-top:8px;">Skin score</span>' +
+        '<p class="empty-t">No face scan yet</p>' +
+        '<p class="empty-s">One guided scan gives you your skin score, a full report and a routine that fits your skin.</p>' +
+        '<button type="button" class="fk-btn-dark" data-go="10-promesse.html" style="margin-top:15px; width:100%;">' + SVG_FACE + "Face scan</button>";
+    } else {
+      var t = teinteVisage(bilan.score);
+      var meta =
+        '<div class="score-meta">' + SVG_CLOCK;
+      var restant = 7 - Math.floor((Date.now() - Date.parse(bilan.date)) / 86400000);
+      if (isNaN(restant)) restant = 0;
+      meta += restant > 0
+        ? "<span>Next face scan in <b>" + restant + (restant === 1 ? " day" : " days") + "</b></span>"
+        : "<span>Face scan available <b>now</b></span>";
+      // tendance : dernier point d'évolution vs le précédent
+      var evo = bilan.evolution || [];
+      if (evo.length >= 2) {
+        var delta = evo[evo.length - 1].score - evo[evo.length - 2].score;
+        if (delta !== 0) {
+          var quand = new Date(Date.parse(evo[evo.length - 2].date));
+          meta += '<span class="meta-dot"></span>' +
+            '<span class="meta-trend' + (delta < 0 ? " down" : "") + '">' + SVG_TREND +
+            (delta > 0 ? "+" : "&minus;") + Math.abs(delta) + " since " + MOIS[quand.getMonth()] + "</span>";
+        }
+      }
+      meta += "</div>";
+      card.innerHTML =
+        '<div class="gauge-wrap">' +
+        '<svg class="gauge" viewBox="0 0 170 93" aria-hidden="true">' + GAUGE_DEFS +
+        '<path class="gauge-track" d="M13 88 A72 72 0 0 1 157 88"></path>' +
+        '<path class="gauge-prog ' + t + '" id="g-prog" d="M13 88 A72 72 0 0 1 157 88"></path></svg>' +
+        '<div class="score-row"><span class="score-num ' + t + '">' + bilan.score + '</span><span class="score-den">/100</span></div>' +
+        "</div>" +
+        '<span class="sec-kicker" style="display:block; margin-top:8px;">Skin score</span>' +
+        meta +
+        '<div class="btn-row">' +
+        '<button type="button" class="btn-report" data-go="18-bilan.html">Skin report</button>' +
+        '<button type="button" class="fk-btn-dark" data-go="10-promesse.html" style="flex:1.18;">' + SVG_FACE + "Face scan</button>" +
+        "</div>";
+      // remplissage de l'arc a score % (transition CSS depuis 226.2)
+      var prog = document.getElementById("g-prog");
+      var offset = 226.2 * (1 - bilan.score / 100);
+      setTimeout(function () { prog.style.strokeDashoffset = offset; }, 30);
+    }
+    card.addEventListener("click", function (e) {
+      var b = e.target && e.target.closest ? e.target.closest("[data-go]") : null;
+      if (b) location.href = b.getAttribute("data-go");
+    });
+  }
+
+  /* ── routine du jour : SS.shelf + coches ss-routine-checks (reset quotidien) ── */
+  function lireChecks() {
+    var v = null;
+    try { v = JSON.parse(localStorage.getItem("ss-routine-checks") || "null"); } catch (e) {}
+    var jour = jourISO(new Date());
+    if (!v || v.date !== jour || !(v.coches instanceof Array)) v = { date: jour, coches: [] };
+    return v;
+  }
+  function ecrireChecks(v) {
+    try { localStorage.setItem("ss-routine-checks", JSON.stringify(v)); } catch (e) {}
+  }
+  function rendreRoutine() {
+    var zone = document.getElementById("routine-zone");
+    var items = SS.shelf.liste();
+    if (!items.length) {
+      zone.innerHTML =
+        '<div class="vcard" style="margin-top:10px;">' +
+        '<p class="empty-s" style="margin-top:0;">Your routine is empty. Scan a product and tap <b style="color:var(--arsenic);">Add to routine</b> to build it.</p>' +
+        "</div>";
+      return;
+    }
+    var checks = lireChecks();
+    var html = '<div class="vcard" style="margin-top:10px;">';
+    for (var i = 0; i < items.length; i++) {
+      var it = items[i];
+      var coche = checks.coches.indexOf(it.nom) >= 0;
+      var visuel = it.image
+        ? '<img src="' + esc(it.image) + '" alt="">'
+        : '<span class="step-dot">' + SVG_SCAN + "</span>";
+      var sousParts = [];
+      if (it.categorie) sousParts.push(CATS[it.categorie] || it.categorie);
+      if (it.marque) sousParts.push(it.marque);
+      var sous = sousParts.length ? sousParts.join(" &middot; ") : "On your shelf";
+      html +=
+        '<div class="rt2">' + visuel +
+        '<div><p class="rt2-name">' + esc(it.nom) + '</p><p class="rt2-sub">' + sous + "</p></div>" +
+        '<button type="button" class="chk' + (coche ? " on" : "") + '" data-nom="' + esc(it.nom) + '" aria-pressed="' + coche + '" aria-label="Done today">' +
+        (coche ? SVG_CHECK : "") + "</button></div>";
+    }
+    html += "</div>";
+    zone.innerHTML = html;
+    zone.addEventListener("click", function (e) {
+      var b = e.target && e.target.closest ? e.target.closest(".chk") : null;
+      if (!b) return;
+      var nom = b.getAttribute("data-nom");
+      var v = lireChecks();
+      var idx = v.coches.indexOf(nom);
+      if (idx >= 0) v.coches.splice(idx, 1); else v.coches.push(nom);
+      ecrireChecks(v);
+      var on = idx < 0;
+      b.className = "chk" + (on ? " on" : "");
+      b.setAttribute("aria-pressed", String(on));
+      b.innerHTML = on ? SVG_CHECK : "";
+    });
+  }
+
+  /* ── derniers scans (SS.historique, double score) → fiche premium ── */
+  function rendreScans() {
+    var zone = document.getElementById("scans-zone");
+    var liste = SS.historique.liste().slice(0, 3);
+    if (!liste.length) {
+      zone.innerHTML =
+        '<div class="vcard" style="margin-top:12px;">' +
+        '<p class="empty-s" style="margin-top:0;">No scans yet &mdash; tap <b style="color:var(--arsenic);">Scan</b> below and point the camera at any product.</p>' +
+        "</div>";
+      return;
+    }
+    var html = '<div class="alts">';
+    for (var i = 0; i < liste.length; i++) {
+      var s = liste[i];
+      var visuel = s.image ? '<img src="' + esc(s.image) + '" alt="">' : '<span class="ph-thumb">' + SVG_SCAN + "</span>";
+      var duo = "";
+      if (typeof s.perso === "number") {
+        duo = '<div class="hs-duo"><span class="hs-you ' + teinteProd(s.perso) + '">' + s.perso + "</span>" +
+          (typeof s.formule === "number" ? '<p class="hs-f">Formula ' + s.formule + "</p>" : "") + "</div>";
+      } else if (typeof s.formule === "number") {
+        duo = '<div class="hs-duo"><span class="hs-you ' + teinteProd(s.formule) + '">' + s.formule + '</span><p class="hs-f">Formula</p></div>';
+      }
+      html +=
+        '<a class="alt" href="06-result-premium.html?p=' + encodeURIComponent(s.nom) + '">' + visuel +
+        "<div>" + (s.marque ? '<span class="alt-brand">' + esc(s.marque) + "</span>" : "") +
+        '<p class="alt-name">' + esc(s.nom) + "</p></div>" + duo + "</a>";
+    }
+    html += "</div>";
+    zone.innerHTML = html;
+  }
+
+  /* ── garde jumelle puis rendu (contrat §6 : gratuit sur 11 → 12) ── */
+  SS.moi().then(function (m) {
+    if (!m.premium) { location.replace("12-dashboard-free.html"); return; }
+    SS.tabbar("home");
+    rendreRoutine();
+    rendreScans();
+    fetch("/api/moi/bilan", { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error("bilan_" + r.status); return r.json(); })
+      .then(function (d) { rendreScore(d ? d.bilan : null); })
+      .catch(function () { rendreScore(null); });
+  });
+})();
+</script>
+</body>
+</html>
