@@ -9,6 +9,8 @@
 <meta name="apple-mobile-web-app-title" content="SmartSkin">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="manifest.json">
+<link rel="prefetch" href="07-confirm.html">
+<link rel="prefetch" href="commun/base.css">
 <title>SmartSkin AI — Scan a product</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,7 +37,13 @@ body { font-family:var(--fd); color:#fff; min-height:100dvh; display:flex; justi
 }
 
 /* ── CAMERA STAGE ── */
-video.cam { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:-2; display:none; }
+video.cam { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:-2; display:none; pointer-events:none; }
+/* iOS 17+ pose un bouton pause système par-dessus tout flux caméra web : on
+   masque ses contrôles média, et le JS re-play() en cas de pause forcée. */
+video.cam::-webkit-media-controls,
+video.cam::-webkit-media-controls-start-playback-button,
+video.cam::-webkit-media-controls-overlay-play-button,
+video.cam::-webkit-media-controls-panel { display:none !important; -webkit-appearance:none; opacity:0 !important; }
 body.live video.cam { display:block; }
 /* fallback démo : rayon simulé (dégradé froid + produit dans le réticule) */
 .stage-demo { position:absolute; inset:0; z-index:-2; display:none;
@@ -213,29 +221,34 @@ function retourScan(){
 
   if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
     navigator.mediaDevices.getUserMedia({ video:{ facingMode:'environment', width:{ ideal:1920 }, height:{ ideal:1080 } }, audio:false })
-      .then(function(stream){ video.srcObject = stream; boot('live'); })
+      .then(function(stream){
+        video.srcObject = stream;
+        /* si le bouton pause système est touché malgré tout, on relance */
+        video.addEventListener('pause', function(){ video.play().catch(function(){}); });
+        boot('live');
+      })
       .catch(function(){ boot('demo'); });
   } else { boot('demo'); }
 
   /* la photo capturée voyage jusqu'aux résultats via sessionStorage (jetée à la fermeture de l'onglet) */
   function savePhoto(dataUrl){ try { sessionStorage.setItem('ss-scan-photo', dataUrl); } catch(e){} }
-  function go(){
-    document.getElementById('flash').classList.add('go');
-    setTimeout(function(){ location.href = '07-confirm.html'; }, 420);
-  }
-
+  /* le flash part IMMÉDIATEMENT (une frame avant l'encodage, sinon il fige),
+     l'encodage suit, et on navigue dès 240 ms — l'écran suivant est préchargé. */
   shutter.addEventListener('click', function(){
-    try {
-      if (document.body.classList.contains('live') && video.videoWidth) {
-        var scale = Math.min(1, 900 / video.videoHeight);
-        var c = document.createElement('canvas');
-        c.width = Math.round(video.videoWidth * scale);
-        c.height = Math.round(video.videoHeight * scale);
-        c.getContext('2d').drawImage(video, 0, 0, c.width, c.height);
-        savePhoto(c.toDataURL('image/jpeg', 0.85));
-      } else { sessionStorage.removeItem('ss-scan-photo'); }
-    } catch(e){}
-    go();
+    document.getElementById('flash').classList.add('go');
+    setTimeout(function(){
+      try {
+        if (document.body.classList.contains('live') && video.videoWidth) {
+          var scale = Math.min(1, 900 / video.videoHeight);
+          var c = document.createElement('canvas');
+          c.width = Math.round(video.videoWidth * scale);
+          c.height = Math.round(video.videoHeight * scale);
+          c.getContext('2d').drawImage(video, 0, 0, c.width, c.height);
+          savePhoto(c.toDataURL('image/jpeg', 0.85));
+        } else { sessionStorage.removeItem('ss-scan-photo'); }
+      } catch(e){}
+      location.href = '07-confirm.html';
+    }, 240);
   });
 
   /* menu de secours « … » : ouvre/ferme, se referme au clic ailleurs */
