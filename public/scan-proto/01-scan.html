@@ -66,26 +66,9 @@ body.demo .stage-demo { display:block; }
 .nav-logo img { height:30px; width:auto; display:block; }
 .nav-spacer { width:44px; height:44px; }
 
-/* ── EYEBROW ── */
-.mode { position:relative; z-index:5; display:flex; justify-content:center; margin-top:6px;
-  animation:rise .5s cubic-bezier(.22,1,.36,1) both .1s; }
-.mode-chip { font-family:var(--fm); font-size:9px; letter-spacing:0.18em; text-transform:uppercase; color:rgba(255,255,255,0.78);
-  background:linear-gradient(180deg, rgba(255,255,255,0.16), rgba(255,255,255,0.06));
-  -webkit-backdrop-filter:blur(12px) saturate(1.4); backdrop-filter:blur(12px) saturate(1.4);
-  border:1px solid rgba(255,255,255,0.24); border-radius:100px; padding:8px 14px;
-  box-shadow:inset 0 1px 0 rgba(255,255,255,0.22); display:inline-flex; align-items:center; gap:8px; }
-.mode-chip i { width:6px; height:6px; background:var(--blue); border-radius:50%; box-shadow:0 0 8px rgba(166,195,214,0.9); }
-
 /* ── RETICLE ── */
 .stage { position:relative; z-index:4; flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:12px 34px; }
-.reticle { position:relative; width:100%; max-width:280px; aspect-ratio:3/4; animation:breathe 3.6s ease-in-out infinite; }
-.reticle span.rt { position:absolute; width:34px; height:34px; border:2.5px solid rgba(255,255,255,0.92);
-  filter:drop-shadow(0 1px 6px rgba(0,0,0,0.4)); }
-.reticle span.rt-tl { top:0; left:0; border-right:0; border-bottom:0; border-radius:10px 0 0 0; }
-.reticle span.rt-tr { top:0; right:0; border-left:0; border-bottom:0; border-radius:0 10px 0 0; }
-.reticle span.rt-bl { bottom:0; left:0; border-right:0; border-top:0; border-radius:0 0 0 10px; }
-.reticle span.rt-br { bottom:0; right:0; border-left:0; border-top:0; border-radius:0 0 10px 0; }
-@keyframes breathe { 0%,100% { transform:scale(1); } 50% { transform:scale(1.015); } }
+.reticle { position:relative; width:100%; max-width:312px; aspect-ratio:3/4; }
 /* produit de démo dans le réticule (mode demo uniquement) */
 .rt-product { position:absolute; inset:6% 20%; display:none; align-items:center; justify-content:center; }
 body.demo .rt-product { display:flex; }
@@ -95,22 +78,10 @@ body.demo .rt-product { display:flex; }
   border:1px dashed rgba(255,255,255,0.28); border-radius:100px; padding:6px 12px; display:none; }
 body.demo .demo-chip { display:block; }
 
-/* ── QUALITY TICKS ── */
-.ticks { position:relative; z-index:5; display:flex; justify-content:center; gap:8px; margin-top:26px;
-  animation:rise .5s cubic-bezier(.22,1,.36,1) both .2s; }
-.tick { font-family:var(--fm); font-size:8.5px; letter-spacing:0.12em; text-transform:uppercase; color:rgba(255,255,255,0.55);
-  background:linear-gradient(180deg, rgba(255,255,255,0.13), rgba(255,255,255,0.05));
-  -webkit-backdrop-filter:blur(10px) saturate(1.4); backdrop-filter:blur(10px) saturate(1.4);
-  border:1px solid rgba(255,255,255,0.20); border-radius:100px; padding:7px 12px;
-  display:inline-flex; align-items:center; gap:7px; transition:color .3s, border-color .3s, background .3s; }
-.tick i { width:5px; height:5px; border-radius:50%; background:transparent; box-shadow:inset 0 0 0 1.2px rgba(255,255,255,0.5); transition:all .3s; }
-.tick.ok { color:#fff; border-color:rgba(166,195,214,0.55); background:linear-gradient(180deg, rgba(166,195,214,0.28), rgba(166,195,214,0.10)); }
-.tick.ok i { background:var(--blue); box-shadow:0 0 8px rgba(166,195,214,0.9); }
-
 /* ── HINT + SHUTTER ── */
 .foot { position:relative; z-index:5; padding:18px 24px calc(env(safe-area-inset-bottom) + 30px);
   display:flex; flex-direction:column; align-items:center; gap:18px; }
-.hint { font-weight:600; font-size:14px; letter-spacing:-0.01em; color:rgba(255,255,255,0.92); text-align:center;
+.hint { font-weight:500; font-size:12.5px; letter-spacing:-0.005em; color:rgba(255,255,255,0.66); text-align:center;
   text-shadow:0 1px 8px rgba(0,0,0,0.5); animation:rise .5s cubic-bezier(.22,1,.36,1) both .28s; }
 .shutter { width:76px; height:76px; border-radius:50%; border:none; cursor:pointer; position:relative;
   background:linear-gradient(180deg, rgba(255,255,255,0.24), rgba(255,255,255,0.10));
@@ -123,10 +94,26 @@ body.demo .demo-chip { display:block; }
 .shutter:active { transform:scale(0.93); }
 .shutter:disabled { opacity:0.38; cursor:not-allowed; }
 .shutter:focus-visible { outline:2px solid var(--blue); outline-offset:4px; }
-.alt { font-weight:500; font-size:12.5px; color:rgba(255,255,255,0.62); text-decoration:none; letter-spacing:-0.005em;
-  border-bottom:1px solid rgba(255,255,255,0.25); padding-bottom:2px; cursor:pointer; animation:rise .5s cubic-bezier(.22,1,.36,1) both .4s; }
-.alt:hover { color:#fff; }
-.alt:focus-visible { outline:2px solid var(--blue); outline-offset:3px; }
+.rangee { position:relative; width:100%; display:flex; align-items:center; justify-content:center;
+  animation:rise .5s cubic-bezier(.22,1,.36,1) both .4s; }
+.plus { position:absolute; right:12px; width:44px; height:44px; border-radius:50%; border:1px solid rgba(255,255,255,0.22);
+  background:linear-gradient(180deg, rgba(255,255,255,0.13), rgba(255,255,255,0.05));
+  -webkit-backdrop-filter:blur(10px) saturate(1.4); backdrop-filter:blur(10px) saturate(1.4);
+  display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.75); cursor:pointer; }
+.plus:hover { color:#fff; }
+.plus:focus-visible { outline:2px solid var(--blue); outline-offset:2px; }
+/* petit menu de secours (Upload / Search), ouvert par « … » */
+.secours { position:absolute; right:12px; bottom:56px; z-index:20; display:none; flex-direction:column; min-width:200px;
+  border-radius:16px; padding:6px; overflow:hidden;
+  background:linear-gradient(180deg, rgba(28,31,37,0.92), rgba(20,22,27,0.92));
+  -webkit-backdrop-filter:blur(18px) saturate(1.5); backdrop-filter:blur(18px) saturate(1.5);
+  border:1px solid rgba(255,255,255,0.22);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.14), 0 16px 40px rgba(0,0,0,0.55); }
+.secours.ouvert { display:flex; }
+.secours a, .secours label { display:flex; align-items:center; gap:11px; padding:12px 14px; border-radius:11px;
+  font-weight:600; font-size:13px; letter-spacing:-0.005em; color:rgba(255,255,255,0.9); text-decoration:none; cursor:pointer; }
+.secours a:hover, .secours label:hover { background:rgba(255,255,255,0.08); color:#fff; }
+.secours svg { flex-shrink:0; opacity:0.8; }
 
 /* flash de capture */
 .flash { position:absolute; inset:0; z-index:50; background:#fff; opacity:0; pointer-events:none; }
@@ -134,12 +121,11 @@ body.demo .demo-chip { display:block; }
 @keyframes flash { 0% { opacity:0; } 18% { opacity:0.95; } 100% { opacity:0; } }
 
 /* labels utilitaires : Manrope demande plus de graisse que l'ex-mono à ces tailles */
-.mode-chip, .tick, .demo-chip { font-weight:600; }
+.demo-chip { font-weight:600; }
 
 @keyframes rise { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
 @media (prefers-reduced-motion: reduce) {
-  .reticle { animation:none; }
-  .mode, .ticks, .hint, .shutter, .alt { animation:none; }
+  .hint, .rangee, .shutter { animation:none; }
 }
 </style>
 </head>
@@ -155,15 +141,11 @@ body.demo .demo-chip { display:block; }
     <div class="nav-back" role="button" tabindex="0" onclick="retourScan()" aria-label="Back">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"/></svg>
     </div>
-    <div class="nav-logo"><img src="logo-smartskin-white.png" alt="SmartSkin AI"></div>
     <div class="nav-spacer"></div>
   </div>
 
-  <div class="mode"><span class="mode-chip"><i></i>Product scan</span></div>
-
   <div class="stage">
     <div class="reticle">
-      <span class="rt rt-tl"></span><span class="rt rt-tr"></span><span class="rt rt-bl"></span><span class="rt rt-br"></span>
       <div class="rt-product">
         <svg viewBox="0 0 120 260" aria-hidden="true">
           <rect x="49" y="6" width="22" height="36" rx="5" fill="#23262B"/>
@@ -184,11 +166,18 @@ body.demo .demo-chip { display:block; }
   </div>
 
   <div class="foot">
-    <p class="hint" id="hint">Center the front of the product</p>
-    <button class="shutter" id="shutter" disabled aria-label="Capture"></button>
-    <label class="alt" for="upload" role="button" tabindex="0">Upload a photo instead</label>
-    <a class="alt" href="08-search.html" style="margin-top:-4px">Or search by name</a>
     <input type="file" id="upload" accept="image/*" hidden>
+    <p class="hint" id="hint">Center the product</p>
+    <div class="rangee">
+      <button class="shutter" id="shutter" disabled aria-label="Capture"></button>
+      <div class="plus" id="plus" role="button" tabindex="0" aria-label="More options" aria-expanded="false">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="currentColor" aria-hidden="true"><circle cx="4" cy="9" r="1.6"></circle><circle cx="9" cy="9" r="1.6"></circle><circle cx="14" cy="9" r="1.6"></circle></svg>
+      </div>
+      <div class="secours" id="secours">
+        <label for="upload"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="2.5" width="15" height="15" rx="3"></rect><circle cx="7.2" cy="7.2" r="1.7"></circle><path d="M17.5 12.5 13 8l-8 9"></path></svg>Upload a photo</label>
+        <a href="08-search.html"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.6" cy="8.6" r="5.6"></circle><path d="m17 17-4.2-4.2"></path></svg>Search by name</a>
+      </div>
+    </div>
   </div>
 
 </div>
@@ -247,6 +236,21 @@ function retourScan(){
       } else { sessionStorage.removeItem('ss-scan-photo'); }
     } catch(e){}
     go();
+  });
+
+  /* menu de secours « … » : ouvre/ferme, se referme au clic ailleurs */
+  var plus = document.getElementById('plus');
+  var secours = document.getElementById('secours');
+  plus.addEventListener('click', function(e){
+    e.stopPropagation();
+    var ouvert = secours.classList.toggle('ouvert');
+    plus.setAttribute('aria-expanded', ouvert ? 'true' : 'false');
+  });
+  document.addEventListener('click', function(e){
+    if (secours.classList.contains('ouvert') && !secours.contains(e.target)) {
+      secours.classList.remove('ouvert');
+      plus.setAttribute('aria-expanded', 'false');
+    }
   });
 
   document.getElementById('upload').addEventListener('change', function(){
