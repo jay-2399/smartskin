@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin AI — Your account</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="commun/base.css">
+<style>
+/* ── page : compte (maquette Compte.dc.html, SANS Google — Apple uniquement) ── */
+.fk-title { font-weight:800; font-size:28px; letter-spacing:-0.035em; line-height:1.08; color:var(--ink); margin-top:8px; }
+.fk-sub { font-size:13px; line-height:1.5; color:var(--graphite); margin-top:6px; }
+.fk-card { position:relative; border-radius:22px; padding:20px; overflow:hidden;
+  background:linear-gradient(165deg, rgba(255,255,255,0.86), rgba(255,255,255,0.68));
+  -webkit-backdrop-filter:blur(22px) saturate(1.5); backdrop-filter:blur(22px) saturate(1.5);
+  border:1px solid rgba(255,255,255,0.72); border-top-color:rgba(255,255,255,0.95);
+  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.95), 0 14px 30px rgba(40,55,75,0.12); }
+.fk-feats { display:flex; flex-direction:column; gap:8px; margin-top:13px; }
+.fk-feat { display:flex; gap:9px; align-items:center; font-size:12px; font-weight:600; color:var(--arsenic); letter-spacing:-0.005em; }
+.fk-note { font-size:10px; color:var(--space); text-align:center; margin-top:9px; letter-spacing:0.01em; }
+.privacy { margin-top:18px; display:flex; align-items:center; justify-content:center; gap:7px;
+  font-size:12px; font-weight:500; color:var(--space); }
+
+/* base.css pose display:flex sur .auth-apple → il faut re-forcer hidden */
+.auth-apple[hidden] { display:none; }
+
+/* hors app native : la connexion se fait dans l'app iPhone */
+.web-note { margin-top:18px; padding:13px 14px; border-radius:14px;
+  display:flex; align-items:flex-start; gap:10px;
+  background:rgba(166,195,214,0.16); border:1px solid rgba(166,195,214,0.4); }
+.web-note[hidden] { display:none; }
+.web-note svg { flex-shrink:0; margin-top:1px; color:var(--blue-d); }
+.web-note p { font-size:12px; line-height:1.5; color:var(--arsenic); min-width:0; }
+.web-note p b { font-weight:700; }
+
+/* message d'erreur d'authentification */
+.auth-err { display:none; margin-top:10px; font-size:12px; font-weight:600; line-height:1.45;
+  color:#D8543F; text-align:center; }
+
+/* ── formulaire dev (?dev=1 UNIQUEMENT — jamais en usage normal) ── */
+.dev-card { display:none; margin-top:16px; padding:16px; border-radius:18px;
+  border:1px dashed var(--steel); background:rgba(255,255,255,0.45); }
+.dev-k { font-size:8.5px; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:var(--space); }
+.dev-input { width:100%; height:46px; margin-top:10px; padding:0 14px; border-radius:13px;
+  background:#fff; border:1.5px solid var(--cloud); font-family:var(--fd); font-size:14px; color:var(--ink);
+  box-shadow:inset 0 1px 2px rgba(40,55,75,0.05); }
+.dev-input:focus { outline:none; border-color:var(--blue-d); }
+.dev-input::placeholder { color:var(--space); }
+.dev-row { display:flex; gap:10px; margin-top:12px; }
+.dev-row .cta-btn, .dev-row .cta-ghost { flex:1; margin-top:0; height:46px; font-size:13px; }
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="nav">
+    <div class="nav-back" id="btn-back" role="button" tabindex="0" aria-label="Back"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"></path></svg></div>
+    <div class="nav-logo"><img src="logo.png" alt="SmartSkin AI"></div>
+    <div class="nav-spacer"></div>
+  </div>
+  <div style="padding:26px 24px 0;">
+    <span class="sec-kicker">One last step</span>
+    <h1 class="fk-title">Save your skin report.</h1>
+    <p class="fk-sub" style="margin-top:8px">Your analysis is done. An account keeps it safe &mdash; and keeps it yours.</p>
+
+    <div class="fk-card" style="margin-top:22px">
+      <div class="fk-feats" style="margin-top:2px">
+        <div class="fk-feat"><span class="rt-ic good"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg></span> Your report, saved &mdash; waiting for you anytime, on any iPhone</div>
+        <div class="fk-feat"><span class="rt-ic good"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg></span> Every future scan scored for your skin</div>
+        <div class="fk-feat"><span class="rt-ic good"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg></span> Nothing is ever posted or shared</div>
+      </div>
+
+      <button type="button" class="auth-apple" id="btn-apple" hidden><span class="apple-slot"><svg viewBox="7 0 17 44" fill="currentColor" aria-hidden="true"><path d="M15.7099491,14.8846154 C16.5675461,14.8846154 17.642562,14.3048315 18.28274,13.5317864 C18.8625238,12.8312142 19.2852829,11.852829 19.2852829,10.8744437 C19.2852829,10.7415766 19.2732041,10.6087095 19.2490464,10.5 C18.2948188,10.5362365 17.1473299,11.140178 16.4588366,11.9494596 C15.9152893,12.56548 15.4200572,13.5317864 15.4200572,14.5222505 C15.4200572,14.6671964 15.4442149,14.8121424 15.4562937,14.8604577 C15.5166879,14.8725366 15.6133185,14.8846154 15.7099491,14.8846154 Z M12.6902416,29.5 C13.8618881,29.5 14.3812778,28.714876 15.8428163,28.714876 C17.3285124,28.714876 17.6546408,29.4758423 18.9591545,29.4758423 C20.2395105,29.4758423 21.0971074,28.292117 21.9063891,27.1325493 C22.8123013,25.8038779 23.1867451,24.4993643 23.2109027,24.4389701 C23.1263509,24.4148125 20.6743484,23.4122695 20.6743484,20.5979021 C20.6743484,18.1579784 22.6069612,17.0588048 22.7156707,16.974253 C21.4353147,15.1382708 19.490623,15.0899555 18.9591545,15.0899555 C17.5217737,15.0899555 16.3501271,15.9596313 15.6133185,15.9596313 C14.8161157,15.9596313 13.7652575,15.1382708 12.521138,15.1382708 C10.1536872,15.1382708 7.75,17.0950413 7.75,20.7911634 C7.75,23.0861411 8.64383344,25.513986 9.74300699,27.0842339 C10.6851558,28.4129053 11.5065162,29.5 12.6902416,29.5 Z"></path></svg></span>Sign in with Apple</button>
+
+      <div class="web-note" id="web-note" hidden>
+        <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="1.5" width="7" height="13" rx="1.8"></rect><path d="M7 12.6h2"></path></svg>
+        <p><b>Sign in happens in the SmartSkin app on your iPhone.</b> Open the app and tap Sign in with Apple &mdash; your shelf on this phone stays right here.</p>
+      </div>
+
+      <p class="auth-err" id="auth-err" role="alert"></p>
+      <p class="fk-note" style="margin-top:12px">We only use your account to save your report.</p>
+    </div>
+
+    <!-- réservé aux tests : n'existe qu'avec ?dev=1 dans l'URL -->
+    <div class="dev-card" id="dev-card">
+      <span class="dev-k">Dev only &middot; email &amp; password</span>
+      <input class="dev-input" id="dev-email" type="email" placeholder="Email" autocomplete="username" autocapitalize="none">
+      <input class="dev-input" id="dev-mdp" type="password" placeholder="Password (8+ characters)" autocomplete="current-password">
+      <div class="dev-row">
+        <button type="button" class="cta-btn" id="dev-login">Log in</button>
+        <button type="button" class="cta-ghost" id="dev-signup">Create account</button>
+      </div>
+    </div>
+
+    <div class="privacy">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 1.4 11.4 3.1V6.8c0 2.9-1.9 4.9-4.4 5.8-2.5-.9-4.4-2.9-4.4-5.8V3.1z"></path><path d="m5 6.9 1.4 1.4L9.2 5.5"></path></svg>
+      Private &middot; your photo is never sold or used for ads.
+    </div>
+  </div>
+</div>
+<script src="commun/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  var q = new URLSearchParams(location.search);
+  var dev = q.get("dev") === "1";
+  var next = q.get("next") || "";
+
+  document.getElementById("btn-back").addEventListener("click", function () {
+    if (history.length > 1) history.back(); else location.href = "index.html";
+  });
+
+  function erreur(msg) {
+    var e = document.getElementById("auth-err");
+    e.textContent = msg || "";
+    e.style.display = msg ? "block" : "none";
+  }
+
+  // Retour post-connexion (§6) : ?next=paywall → 16 ; ?next=<page.html?...> → cette
+  // page (fichiers du proto uniquement) ; sinon dashboard selon le statut premium.
+  function destination(m) {
+    if (next === "paywall") return "16-paywall.html";
+    if (/^[0-9A-Za-z][0-9A-Za-z-]*\.html(\?.*)?$/.test(next)) return next;
+    return m.premium ? "11-dashboard.html" : "12-dashboard-free.html";
+  }
+
+  // Succès (§6) : ss-moi déjà purgé par SS.auth → sync du shelf, statut frais, redirection.
+  function apresConnexion() {
+    SS.shelf.sync()
+      .then(function () { return SS.moi(); })
+      .then(function (m) { location.replace(destination(m)); });
+  }
+
+  /* ── quelles zones montrer ── */
+  var btnApple = document.getElementById("btn-apple");
+  if (SS.natif.est()) {
+    btnApple.hidden = false;
+  } else if (!dev) {
+    document.getElementById("web-note").hidden = false;
+  }
+  if (dev) document.getElementById("dev-card").style.display = "block";
+
+  // Déjà connecté → rien à faire ici, on file directement à la destination.
+  SS.moi().then(function (m) { if (m.connecte) apresConnexion(); });
+
+  /* ── Sign in with Apple (pont natif → provider "apple" V1) ──
+     mode "signup" = upsert côté serveur : crée le compte s'il n'existe pas,
+     connecte sinon — le seul bouton de l'écran couvre donc les deux cas. */
+  btnApple.addEventListener("click", function () {
+    erreur("");
+    btnApple.disabled = true;
+    SS.natif.signInApple(function (idToken, name) {
+      SS.auth.apple(idToken, name, "signup")
+        .then(apresConnexion)
+        .catch(function () {
+          btnApple.disabled = false;
+          erreur("Apple sign-in didn't complete. Please try again.");
+        });
+    }, function (raison) {
+      btnApple.disabled = false;
+      if (String(raison || "").toLowerCase().indexOf("cancel") < 0) {
+        erreur("Apple sign-in didn't complete. Please try again.");
+      }
+    });
+  });
+
+  /* ── formulaire dev (email + mot de passe, comptes V1) ── */
+  function champs() {
+    return {
+      email: (document.getElementById("dev-email").value || "").trim(),
+      mdp: document.getElementById("dev-mdp").value || "",
+    };
+  }
+  document.getElementById("dev-login").addEventListener("click", function () {
+    erreur("");
+    var c = champs();
+    if (!c.email || !c.mdp) { erreur("Enter your email and password."); return; }
+    SS.auth.loginEmail(c.email, c.mdp)
+      .then(apresConnexion)
+      .catch(function () { erreur("Wrong email or password."); });
+  });
+  document.getElementById("dev-signup").addEventListener("click", function () {
+    erreur("");
+    var c = champs();
+    if (!c.email || c.mdp.length < 8) { erreur("Enter an email and a password of 8+ characters."); return; }
+    SS.auth.signup(c.email, c.mdp)
+      .then(apresConnexion)
+      .catch(function (e) {
+        erreur(e && e.message === "exists"
+          ? "This email already has an account. Log in instead."
+          : "Could not create the account. Please try again.");
+      });
+  });
+})();
+</script>
+</body>
+</html>

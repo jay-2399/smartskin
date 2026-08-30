@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin AI — Settings</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="commun/base.css">
+<style>
+/* ── page : réglages (maquette Reglages.dc.html) ── */
+.fk-title { font-weight:800; font-size:28px; letter-spacing:-0.035em; line-height:1.08; color:var(--ink); margin-top:8px; }
+.fk-card { position:relative; border-radius:22px; padding:20px; overflow:hidden;
+  background:linear-gradient(165deg, rgba(255,255,255,0.86), rgba(255,255,255,0.68));
+  -webkit-backdrop-filter:blur(22px) saturate(1.5); backdrop-filter:blur(22px) saturate(1.5);
+  border:1px solid rgba(255,255,255,0.72); border-top-color:rgba(255,255,255,0.95);
+  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.95), 0 14px 30px rgba(40,55,75,0.12); }
+.pill-chip { display:inline-flex; align-items:center; gap:7px; padding:8px 13px; border-radius:100px;
+  background:var(--glass-bg); border:1px solid var(--glass-line); box-shadow:var(--glass-shadow);
+  font-size:10.5px; font-weight:700; color:var(--arsenic); letter-spacing:-0.005em; }
+
+/* carte compte */
+.acc-card { margin:16px 20px 0; display:flex; align-items:center; gap:14px; }
+.acc-avatar { position:relative; width:54px; height:54px; border-radius:50%; overflow:hidden; flex-shrink:0;
+  box-shadow:0 4px 12px rgba(26,29,33,0.16), inset 0 0 0 1px rgba(255,255,255,0.55);
+  background:linear-gradient(170deg,#E9EDF3 0%,#DDE3EB 100%);
+  display:flex; align-items:center; justify-content:center; }
+.acc-avatar img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:none; }
+.acc-avatar span { font-weight:800; font-size:20px; letter-spacing:-0.02em; color:var(--graphite); }
+.acc-nom { font-weight:800; font-size:15.5px; letter-spacing:-0.02em; color:var(--ink); }
+.acc-mail { font-size:11.5px; color:var(--graphite); margin-top:2px; }
+
+/* lignes de réglages (styles inline de la maquette, factorisés en classes) */
+.row { display:flex; align-items:center; justify-content:space-between; gap:12px; padding:13px 0;
+  border-top:1px solid var(--cloud); -webkit-tap-highlight-color:transparent; }
+.row:first-child { border-top:none; }
+.row.tap { cursor:pointer; }
+.row-tx { min-width:0; }
+.row-t { font-weight:600; font-size:13.5px; color:var(--ink); letter-spacing:-0.01em; }
+.row-t.danger { color:#D8543F; }
+.row-s { font-size:10.5px; color:var(--graphite); margin-top:2px; }
+.row-side { display:flex; align-items:center; gap:7px; flex-shrink:0; }
+.row-v { font-size:12px; font-weight:600; color:var(--graphite); }
+
+/* toggles (placebo local, comme la maquette) */
+.tgl { position:relative; width:44px; height:26px; border-radius:100px; flex-shrink:0; display:inline-block;
+  background:var(--smoke); box-shadow:inset 0 1px 2px rgba(40,55,75,0.14); cursor:pointer;
+  transition:background .2s; -webkit-tap-highlight-color:transparent; }
+.tgl i { position:absolute; top:2px; left:2px; width:22px; height:22px; border-radius:50%; background:#fff;
+  box-shadow:0 1px 3px rgba(0,0,0,0.22); transition:left .2s; }
+.tgl.on { background:linear-gradient(180deg,#7ED3A6,#2BC182);
+  box-shadow:inset 0 1px 2px rgba(0,0,0,0.10), 0 2px 6px rgba(43,193,130,0.30); }
+.tgl.on i { left:20px; box-shadow:0 1px 3px rgba(0,0,0,0.25); }
+
+.disclaim { padding:24px 32px 30px; text-align:center; font-size:10.5px; line-height:1.5; color:var(--space); }
+.cta-btn.danger { background:linear-gradient(180deg,#E06657 0%,#C74534 100%);
+  box-shadow:0 8px 20px rgba(216,84,63,0.30), inset 0 1px 0 rgba(255,255,255,0.25); }
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="nav">
+    <div class="nav-back" id="btn-back" role="button" tabindex="0" aria-label="Back"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"></path></svg></div>
+    <div class="nav-logo"><img src="logo.png" alt="SmartSkin AI"></div>
+    <div class="nav-spacer"></div>
+  </div>
+  <div style="padding:2px 20px 0;">
+    <h1 class="fk-title">Settings</h1>
+  </div>
+
+  <!-- carte compte : /api/moi (photo du bilan si dispo, sinon initiale) -->
+  <div class="fk-card acc-card" id="acc-card">
+    <div class="acc-avatar"><span id="acc-init">S</span><img id="acc-photo" src="" alt="Profile photo"></div>
+    <div style="min-width:0; flex:1;">
+      <p class="acc-nom" id="acc-nom">&nbsp;</p>
+      <p class="acc-mail" id="acc-mail">&nbsp;</p>
+    </div>
+    <span class="pill-chip" id="acc-chip" style="display:none;">SmartSkin+</span>
+  </div>
+
+  <div class="section" id="sec-compte" style="padding-top:20px; display:none;">
+    <div class="sec-head"><span class="sec-kicker">Account</span><span class="sec-name" style="font-size:17px;">My account</span></div>
+    <div class="vcard" style="padding:6px 18px;">
+      <div class="row tap" id="row-abo">
+        <div class="row-tx"><p class="row-t">Subscription</p><p class="row-s" id="abo-s">&nbsp;</p></div>
+        <div class="row-side"><span class="row-v" id="abo-v"></span><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
+      </div>
+      <div class="row tap" id="row-restore">
+        <div class="row-tx"><p class="row-t">Restore purchase</p></div>
+        <div class="row-side"><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
+      </div>
+      <div class="row">
+        <div class="row-tx"><p class="row-t">Sign-in method</p></div>
+        <div class="row-side"><span class="row-v" id="methode-v">Apple</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:20px;">
+    <div class="sec-head"><span class="sec-kicker">Reminders</span><span class="sec-name" style="font-size:17px;">Notifications</span></div>
+    <div class="vcard" style="padding:6px 18px;">
+      <div class="row">
+        <div class="row-tx"><p class="row-t">Routine reminders</p><p class="row-s">Morning 8:00 &middot; evening 21:30</p></div>
+        <div class="row-side"><span class="tgl on" role="switch" aria-checked="true" aria-label="Routine reminders"><i></i></span></div>
+      </div>
+      <div class="row">
+        <div class="row-tx"><p class="row-t">Face scan reminder</p><p class="row-s">When your next scan is ready</p></div>
+        <div class="row-side"><span class="tgl on" role="switch" aria-checked="true" aria-label="Face scan reminder"><i></i></span></div>
+      </div>
+      <div class="row">
+        <div class="row-tx"><p class="row-t">Tips by e-mail</p></div>
+        <div class="row-side"><span class="tgl" role="switch" aria-checked="false" aria-label="Tips by e-mail"><i></i></span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:20px;">
+    <div class="sec-head"><span class="sec-kicker">Privacy</span><span class="sec-name" style="font-size:17px;">Your data</span></div>
+    <div class="vcard" style="padding:6px 18px;">
+      <div class="row tap" id="row-donnees">
+        <div class="row-tx"><p class="row-t">Your photo &amp; data</p><p class="row-s">Erase scans &amp; shelf stored on this phone</p></div>
+        <div class="row-side"><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
+      </div>
+      <div class="row tap" id="row-privacy">
+        <div class="row-tx"><p class="row-t">Privacy policy</p></div>
+        <div class="row-side"><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
+      </div>
+      <div class="row tap" id="row-terms">
+        <div class="row-tx"><p class="row-t">Terms of use</p></div>
+        <div class="row-side"><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" style="padding-top:20px;">
+    <div class="sec-head"><span class="sec-kicker">Support</span><span class="sec-name" style="font-size:17px;">Help</span></div>
+    <div class="vcard" style="padding:6px 18px;">
+      <div class="row tap" id="row-contact">
+        <div class="row-tx"><p class="row-t">Contact us</p></div>
+        <div class="row-side"><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
+      </div>
+      <div class="row tap" id="row-rate">
+        <div class="row-tx"><p class="row-t">Rate SmartSkin</p></div>
+        <div class="row-side"><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="sec-sortie" style="padding-top:20px; padding-bottom:0; display:none;">
+    <div class="vcard" style="padding:6px 18px;">
+      <div class="row tap" id="row-signout">
+        <div class="row-tx"><p class="row-t">Sign out</p></div>
+        <div class="row-side"><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
+      </div>
+      <div class="row tap" id="row-delete">
+        <div class="row-tx"><p class="row-t danger">Delete my account</p><p class="row-s">Permanent &mdash; removes your report and history</p></div>
+        <div class="row-side"><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
+      </div>
+    </div>
+  </div>
+
+  <p class="disclaim">SmartSkin 2.0 (1)</p>
+</div>
+<script src="commun/app.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  function toast(txt) {
+    var t = document.createElement("div");
+    t.className = "ss-toast";
+    t.textContent = txt;
+    document.body.appendChild(t);
+    setTimeout(function () { if (t.parentNode) t.parentNode.removeChild(t); }, 2400);
+  }
+  function ouvrirScrim(html) {
+    var sc = document.createElement("div");
+    sc.className = "scrim";
+    sc.innerHTML = html;
+    sc.addEventListener("click", function (e) { if (e.target === sc) fermer(); });
+    document.body.appendChild(sc);
+    function fermer() { if (sc.parentNode) sc.parentNode.removeChild(sc); }
+    sc.fermer = fermer;
+    return sc;
+  }
+
+  document.getElementById("btn-back").addEventListener("click", function () {
+    if (history.length > 1) history.back(); else location.href = "index.html";
+  });
+
+  /* ── état du compte : /api/moi (+ photo du bilan si un scan visage existe) ── */
+  var moi = { connecte: false, premium: false, prenom: null, email: null };
+  SS.moi().then(function (m) {
+    moi = m;
+    var nom = document.getElementById("acc-nom");
+    var mail = document.getElementById("acc-mail");
+    var chip = document.getElementById("acc-chip");
+    if (!m.connecte) {
+      nom.textContent = "Not signed in";
+      mail.textContent = "Sign in to sync your shelf and reports";
+      document.getElementById("acc-init").textContent = "?";
+      var carte = document.getElementById("acc-card");
+      carte.style.cursor = "pointer";
+      carte.addEventListener("click", function () {
+        location.href = "15-compte.html?next=" + encodeURIComponent("17-reglages.html");
+      });
+      return;
+    }
+    nom.textContent = m.prenom || (m.email ? m.email.split("@")[0] : "Your account");
+    mail.textContent = m.email || "";
+    document.getElementById("acc-init").textContent = (m.prenom || m.email || "S").charAt(0).toUpperCase();
+    chip.style.display = "inline-flex";
+    if (m.premium) {
+      chip.textContent = "SmartSkin+";
+      chip.style.color = "#189A66";
+    } else {
+      chip.textContent = "Free";
+    }
+    document.getElementById("sec-compte").style.display = "block";
+    document.getElementById("sec-sortie").style.display = "block";
+    if (m.premium) {
+      document.getElementById("abo-s").textContent = "Managed by the App Store";
+      document.getElementById("abo-v").textContent = "SmartSkin+";
+      document.getElementById("row-abo").classList.remove("tap");
+    } else {
+      document.getElementById("abo-s").textContent = "Free plan";
+      document.getElementById("abo-v").textContent = "Upgrade";
+      document.getElementById("row-abo").addEventListener("click", function () {
+        location.href = "16-paywall.html";
+      });
+    }
+    // avatar : photo du dernier bilan visage (Analysis.photoData) quand elle existe
+    fetch("/api/moi/bilan", { cache: "no-store" })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (d && d.bilan && d.bilan.photo) {
+          var ph = document.getElementById("acc-photo");
+          ph.src = d.bilan.photo;
+          ph.style.display = "block";
+        }
+      })
+      .catch(function () {});
+  });
+
+  /* ── restore (mécanique V1 — natif seulement) ── */
+  document.getElementById("row-restore").addEventListener("click", function () {
+    if (!SS.natif.est()) { toast("Restore works in the iPhone app"); return; }
+    SS.natif.restaurer(function (ok) {
+      if (ok) { toast("Purchase restored"); setTimeout(function () { location.reload(); }, 1200); }
+      else toast("No previous purchase found");
+    });
+  });
+
+  /* ── notifications : toggles locaux placebo (décision d'architecture) ── */
+  var tgls = document.querySelectorAll(".tgl");
+  for (var i = 0; i < tgls.length; i++) {
+    (function (t) {
+      t.addEventListener("click", function () {
+        var on = t.className.indexOf("on") >= 0;
+        t.className = on ? "tgl" : "tgl on";
+        t.setAttribute("aria-checked", on ? "false" : "true");
+      });
+    })(tgls[i]);
+  }
+
+  /* ── données locales : vider historique + shelf de ce téléphone ── */
+  document.getElementById("row-donnees").addEventListener("click", function () {
+    var sc = ouvrirScrim(
+      '<div class="modal" role="dialog" aria-modal="true">' +
+      '<p class="modal-h">Erase local data?</p>' +
+      '<p class="modal-sub">Your scans, shelf and routine check-ins stored on this phone will be erased. Your account is not touched.</p>' +
+      '<button type="button" class="cta-btn" data-ss="ok" style="margin-top:18px; height:50px;">Erase</button>' +
+      '<p class="cta-sub" data-ss="annuler" style="margin-top:12px;">Cancel</p>' +
+      "</div>");
+    sc.querySelector('[data-ss="annuler"]').addEventListener("click", function () { sc.fermer(); });
+    sc.querySelector('[data-ss="ok"]').addEventListener("click", function () {
+      try {
+        localStorage.removeItem("ss-historique");
+        localStorage.removeItem("ss-shelf");
+        localStorage.removeItem("ss-ma-routine");
+        localStorage.removeItem("ss-routine-checks");
+        localStorage.removeItem("ss-nb-produits");
+      } catch (e) {}
+      sc.fermer();
+      toast("Local data erased");
+    });
+  });
+
+  /* ── liens légaux (URLs V1 : src/app/privacy + src/app/terms) ── */
+  document.getElementById("row-privacy").addEventListener("click", function () { location.href = "/privacy"; });
+  document.getElementById("row-terms").addEventListener("click", function () { location.href = "/terms"; });
+
+  /* ── aide ── */
+  document.getElementById("row-contact").addEventListener("click", function () {
+    location.href = "mailto:byllel@davinci-digitale.fr";
+  });
+  document.getElementById("row-rate").addEventListener("click", function () {
+    toast("Coming with the App Store release");
+  });
+
+  /* ── sign out : SS.auth.signout (purge ss-moi) puis retour à l'aiguillage ── */
+  document.getElementById("row-signout").addEventListener("click", function () {
+    SS.auth.signout().then(function () { location.replace("index.html"); });
+  });
+
+  /* ── delete account (exigence Apple 5.1.1(v)) : confirmation → POST
+     /api/account/delete → signout (le cookie JWT survit à la suppression)
+     → purge COMPLÈTE des clés ss-* → retour au scan. ── */
+  function purgerToutSS() {
+    var stores = [localStorage, sessionStorage];
+    for (var s = 0; s < stores.length; s++) {
+      try {
+        var st = stores[s], aVirer = [], j;
+        for (j = 0; j < st.length; j++) {
+          if ((st.key(j) || "").indexOf("ss-") === 0) aVirer.push(st.key(j));
+        }
+        for (j = 0; j < aVirer.length; j++) st.removeItem(aVirer[j]);
+      } catch (e) {}
+    }
+  }
+  document.getElementById("row-delete").addEventListener("click", function () {
+    var sc = ouvrirScrim(
+      '<div class="modal" role="dialog" aria-modal="true">' +
+      '<p class="modal-h">Delete your account?</p>' +
+      '<p class="modal-sub">This is permanent. Your report, your history and your account are erased &mdash; on our servers and on this phone.</p>' +
+      '<button type="button" class="cta-btn danger" data-ss="ok" style="margin-top:18px; height:50px;">Delete my account</button>' +
+      '<p class="cta-sub" data-ss="annuler" style="margin-top:12px;">Cancel</p>' +
+      "</div>");
+    sc.querySelector('[data-ss="annuler"]').addEventListener("click", function () { sc.fermer(); });
+    sc.querySelector('[data-ss="ok"]').addEventListener("click", function () {
+      var btn = sc.querySelector('[data-ss="ok"]');
+      btn.disabled = true;
+      btn.textContent = "Deleting…";
+      fetch("/api/account/delete", { method: "POST" })
+        .then(function (r) {
+          if (!r.ok) throw new Error("delete_" + r.status);
+          return SS.auth.signout();
+        })
+        .then(function () {
+          purgerToutSS();
+          location.replace("01-scan.html");
+        })
+        .catch(function () {
+          btn.disabled = false;
+          btn.textContent = "Delete my account";
+          toast("Could not delete the account. Try again.");
+        });
+    });
+  });
+})();
+</script>
+</body>
+</html>

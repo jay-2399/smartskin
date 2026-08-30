@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin AI — SmartSkin+</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="commun/base.css">
+<style>
+/* ── page : paywall (maquette Paywall.dc.html — mécanique V1 StoreKit → /api/iap) ── */
+.fk-title { font-weight:800; font-size:28px; letter-spacing:-0.035em; line-height:1.08; color:var(--ink); margin-top:8px; }
+.fk-feats { display:flex; flex-direction:column; gap:8px; margin-top:13px; }
+.fk-feat { display:flex; gap:9px; align-items:center; font-size:12px; font-weight:600; color:var(--arsenic); letter-spacing:-0.005em; }
+.alt-brand { display:block; font-size:8.5px; font-weight:600; letter-spacing:0.06em; text-transform:uppercase; color:var(--space); }
+
+/* offres */
+.offer { position:relative; display:flex; align-items:center; justify-content:space-between; gap:10px;
+  padding:17px 16px; border-radius:18px; background:var(--glass-bg); border:1.5px solid var(--glass-line); box-shadow:var(--glass-shadow);
+  cursor:pointer; -webkit-tap-highlight-color:transparent; }
+.offer.sel { border-color:var(--ink);
+  background:linear-gradient(165deg, rgba(255,255,255,0.96), rgba(255,255,255,0.82));
+  box-shadow:0 0 0 3px rgba(26,29,33,0.07), var(--glass-shadow); }
+.offer-name { font-weight:800; font-size:15px; color:var(--ink); letter-spacing:-0.02em; }
+.offer-sub { font-size:11.5px; color:var(--graphite); margin-top:3px; }
+.offer-price { font-weight:800; font-size:18px; letter-spacing:-0.5px; color:var(--ink); white-space:nowrap; }
+.offer-badge { position:absolute; top:-9px; left:14px; font-size:8.5px; font-weight:800; letter-spacing:0.1em;
+  padding:3px 9px; border-radius:100px; background:linear-gradient(180deg,#2A2D34,#191B1F); color:#fff; text-transform:uppercase; }
+.offer-radio { width:20px; height:20px; border-radius:50%; border:1.5px solid var(--steel); flex-shrink:0; }
+.offer.sel .offer-radio { border-color:var(--ink);
+  background:radial-gradient(circle at center, #1A1D21 0 5.5px, transparent 6.5px); }
+
+.cta-btn[disabled] { opacity:0.55; cursor:default; }
+.cta-btn[disabled]:hover { transform:none; }
+.pw-foot { text-align:center; margin-top:13px; font-size:11.5px; color:var(--space); line-height:1.6; }
+.pw-restore { color:inherit; font:inherit; background:none; border:none; padding:0; cursor:pointer; }
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="nav">
+    <div class="nav-back" id="btn-close" role="button" tabindex="0" aria-label="Close"><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 4l8 8M12 4l-8 8"></path></svg></div>
+    <div class="nav-logo"><img src="logo.png" alt="SmartSkin AI"></div>
+    <div class="nav-spacer"></div>
+  </div>
+  <div style="padding:8px 20px 30px;">
+    <h1 class="fk-title">Your answer is&nbsp;ready.</h1>
+
+    <div class="swap-card" id="pw-prod" style="margin-top:16px; display:none;">
+      <img id="pw-img" src="" alt="" style="display:none;">
+      <div>
+        <span class="alt-brand" id="pw-marque" style="display:none;"></span>
+        <p class="alt-name" id="pw-nom" style="margin-top:2px"></p>
+      </div>
+      <div class="alt-score"><b style="filter:blur(6px)" aria-hidden="true">62</b><span>for you</span></div>
+    </div>
+
+    <div class="fk-feats" style="margin-top:18px; padding:0 2px;">
+      <div class="fk-feat"><span class="rt-ic good"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg></span> Your personal score &mdash; on every product</div>
+      <div class="fk-feat"><span class="rt-ic good"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg></span> Every ingredient read for your skin</div>
+      <div class="fk-feat"><span class="rt-ic good"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg></span> Reviews from skin like yours</div>
+      <div class="fk-feat"><span class="rt-ic good"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg></span> Your full skin report &amp; routine</div>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:13px; margin-top:24px;">
+      <div class="offer sel" id="offer-annual" role="radio" aria-checked="true" tabindex="0">
+        <span class="offer-badge">Best value</span>
+        <div>
+          <p class="offer-name">1 year</p>
+          <p class="offer-sub">$0.77 / week &mdash; billed once</p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px;">
+          <span class="offer-price" id="prix-annual">$39.90</span>
+          <span class="offer-radio"></span>
+        </div>
+      </div>
+      <div class="offer" id="offer-weekly" role="radio" aria-checked="false" tabindex="0">
+        <div>
+          <p class="offer-name">Weekly</p>
+          <p class="offer-sub">7-day free trial, then $3.99 / week</p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px;">
+          <span class="offer-price" id="prix-weekly">$3.99</span>
+          <span class="offer-radio"></span>
+        </div>
+      </div>
+    </div>
+
+    <button type="button" class="cta-btn" id="pw-cta" style="margin-top:20px;">Continue &mdash; $39.90 / year</button>
+    <p class="pw-foot">Cancel anytime in two taps &middot; <button type="button" class="pw-restore" id="pw-restore">Restore purchase</button><br>Billed through your App&nbsp;Store account</p>
+  </div>
+</div>
+<script src="commun/app.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  function toast(txt) {
+    var t = document.createElement("div");
+    t.className = "ss-toast";
+    t.textContent = txt;
+    document.body.appendChild(t);
+    setTimeout(function () { if (t.parentNode) t.parentNode.removeChild(t); }, 2400);
+  }
+
+  // Croix de fermeture → retour à la page d'origine (§6).
+  document.getElementById("btn-close").addEventListener("click", function () {
+    if (history.length > 1) history.back(); else location.href = "index.html";
+  });
+
+  // Garde : le paywall suppose un compte (l'achat pose l'accès SUR un user).
+  // Déconnecté → 15-compte, qui reviendra ici après connexion (?next=paywall).
+  SS.moi().then(function (m) {
+    if (!m.connecte) location.replace("15-compte.html?next=paywall");
+  });
+
+  /* ── carte produit : le scan qui a amené ici (ss-scan-produit + ss-historique) ── */
+  var produitScanne = null;
+  try { produitScanne = sessionStorage.getItem("ss-scan-produit"); } catch (e) {}
+  if (produitScanne) {
+    var entree = null, l = SS.historique.liste();
+    for (var i = 0; i < l.length; i++) {
+      if ((l[i].nom || "").toLowerCase() === produitScanne.toLowerCase()) { entree = l[i]; break; }
+    }
+    document.getElementById("pw-nom").textContent = (entree && entree.nom) || produitScanne;
+    if (entree && entree.marque) {
+      var mq = document.getElementById("pw-marque");
+      mq.textContent = entree.marque;
+      mq.style.display = "block";
+    }
+    if (entree && entree.image) {
+      var img = document.getElementById("pw-img");
+      img.src = entree.image;
+      img.alt = entree.nom || "";
+      img.style.display = "block";
+    }
+    document.getElementById("pw-prod").style.display = "flex";
+  }
+
+  /* ── choix du plan (annuel sélectionné par défaut, comme la maquette) ── */
+  var plan = "annual";
+  var prixAnnuel = "$39.90";
+  var cta = document.getElementById("pw-cta");
+  function majCta() {
+    cta.textContent = plan === "annual"
+      ? "Continue — " + prixAnnuel + " / year"
+      : "Continue — $3.99 / week";
+  }
+  function choisir(nouveau) {
+    plan = nouveau;
+    var a = document.getElementById("offer-annual");
+    var w = document.getElementById("offer-weekly");
+    a.className = plan === "annual" ? "offer sel" : "offer";
+    w.className = plan === "weekly" ? "offer sel" : "offer";
+    a.setAttribute("aria-checked", plan === "annual" ? "true" : "false");
+    w.setAttribute("aria-checked", plan === "weekly" ? "true" : "false");
+    majCta();
+  }
+  document.getElementById("offer-annual").addEventListener("click", function () { choisir("annual"); });
+  document.getElementById("offer-weekly").addEventListener("click", function () { choisir("weekly"); });
+
+  // Prix natif : le pont V1 renvoie UNE chaîne (getPrice → __smartskinPrice) —
+  // appliquée au plan principal (annuel). Hors app : no-op, prix maquette conservés.
+  SS.natif.prix(function (p) {
+    prixAnnuel = p;
+    document.getElementById("prix-annual").textContent = p;
+    majCta();
+  });
+
+  /* ── achat : natif StoreKit ; fallback web = déblocage démo /api/iap/grant ──
+     Succès (§6) : ss-moi déjà purgé par SS.natif.achat →
+     06-result-premium si un scan est en cours, sinon dashboard premium. */
+  function destination() {
+    return produitScanne
+      ? "06-result-premium.html?p=" + encodeURIComponent(produitScanne)
+      : "11-dashboard.html";
+  }
+  var enCours = false;
+  cta.addEventListener("click", function () {
+    if (enCours) return;
+    enCours = true;
+    cta.disabled = true;
+    cta.textContent = "Processing…";
+    SS.natif.achat(plan, function (ok) {
+      if (ok) { location.replace(destination()); return; }
+      enCours = false;
+      cta.disabled = false;
+      majCta();
+      toast("Purchase didn't go through");
+    });
+  });
+
+  /* ── restore (natif uniquement — sur web le pont répond false direct) ── */
+  document.getElementById("pw-restore").addEventListener("click", function () {
+    if (!SS.natif.est()) { toast("Restore works in the iPhone app"); return; }
+    SS.natif.restaurer(function (ok) {
+      if (ok) location.replace(destination());
+      else toast("No previous purchase found");
+    });
+  });
+})();
+</script>
+</body>
+</html>
