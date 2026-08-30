@@ -21,6 +21,8 @@ export async function POST(request: Request) {
   const { plan } = await request.json().catch(() => ({ plan: "lifetime" }));
   if (plan === "weekly") {
     await db.user.update({ where: { id: session.user.id }, data: { accessUntil: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000) } });
+  } else if (plan === "annual") {
+    await db.user.update({ where: { id: session.user.id }, data: { accessUntil: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000) } });
   } else {
     await db.user.update({ where: { id: session.user.id }, data: { lifetimeAccess: true } });
   }

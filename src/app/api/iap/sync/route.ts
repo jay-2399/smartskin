@@ -6,6 +6,7 @@ import { writeRateLimit } from "@/lib/rate-limit";
 // Product ids App Store (doivent correspondre à Store.swift côté iOS).
 const LIFETIME_ID = "1234";
 const WEEKLY_ID = "5678";
+const ANNUAL_ID = "9012"; // placeholder — à remplacer par le vrai product id App Store
 
 // Synchronise l'accès en base à partir de l'entitlement StoreKit RÉEL rapporté par l'app.
 // Appelé (1) juste après l'achat (AppleSaveScreen) et (2) à chaque ouverture de l'app.
@@ -28,7 +29,7 @@ export async function POST(request: Request) {
 
   if (productId === LIFETIME_ID) {
     await db.user.update({ where: { id: session.user.id }, data: { lifetimeAccess: true } });
-  } else if (productId === WEEKLY_ID && typeof expiresAt === "number") {
+  } else if ((productId === WEEKLY_ID || productId === ANNUAL_ID) && typeof expiresAt === "number") {
     await db.user.update({ where: { id: session.user.id }, data: { accessUntil: new Date(expiresAt) } });
   }
   // productId absent/inconnu → aucun changement (l'accessUntil déjà en base gère l'expiration).

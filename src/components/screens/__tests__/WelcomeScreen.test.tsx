@@ -30,11 +30,12 @@ afterEach(() => {
 });
 
 describe("WelcomeScreen — le bouton de retour compte", () => {
-  it("s'annonce comme un login, pas comme une inscription", () => {
+  it("s'affiche comme le bouton officiel Sign in with Apple — jamais comme une inscription", () => {
+    // Guideline 4 (refus Apple 2026-08-11) : le contrôle qui ouvre la feuille Apple doit
+    // porter le libellé officiel. Et il reste un LOGIN : aucun vocabulaire d'inscription.
     render(<WelcomeScreen />);
-    const bouton = screen.getByRole("button", { name: /Already have an account/i });
-    expect(bouton).toHaveTextContent(/Log in/i);
-    expect(bouton).not.toHaveTextContent(/Sign in/i);
+    const bouton = screen.getByRole("button", { name: /Sign in with Apple/i });
+    expect(bouton).not.toHaveTextContent(/Sign up|Create/i);
   });
 
   it("demande une CONNEXION (mode login) — jamais une création de compte", async () => {

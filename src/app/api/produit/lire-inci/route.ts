@@ -1,9 +1,11 @@
 import { NextResponse } from "next/server";
 import {
-  dictionnaire, profil, moteurDisponible, scoreFormule, scorePerso,
+  dictionnaire, moteurDisponible, scoreFormule, scorePerso,
   parseInci, categoriser, ficheIngredients, vision, extraireJson,
   imageDepuisDataUrl, typeImage, erreur,
 } from "@/lib/scan/moteur";
+import { sessionPremium, PROFIL_NEUTRE } from "@/lib/scan/acces";
+import { profilUtilisateur } from "@/lib/scan/profil-utilisateur";
 import { writeRateLimit } from "@/lib/rate-limit";
 
 // LIRE UNE ÉTIQUETTE PHOTOGRAPHIÉE. Le second chemin, quand la reconnaissance du flacon échoue :
@@ -45,14 +47,17 @@ export async function POST(request: Request) {
     // de toute la grille de notation. On renvoie donc aussi le niveau de confiance, pour que
     // l'écran propose de corriger.
     const cat = categoriser(nom, inci);
-    const pr = profil();
+    // Gating : gratuit = formule + ingrédients NEUTRES, sans perso (même règle que fiche).
+    const { uid, premium } = await sessionPremium();
+    const pr = premium ? await profilUtilisateur(uid) : PROFIL_NEUTRE;
     const f = scoreFormule(inci, cat.categorie, cat.filtresUV);
-    const pe = scorePerso(inci, pr, cat.categorie, f, cat.filtresUV);
+    const score: Record<string, unknown> = { disponible: moteurDisponible(), formule: f };
+    if (premium) score.perso = scorePerso(inci, pr, cat.categorie, f, cat.filtresUV);
 
     return NextResponse.json({
       statut: "ok",
       produit: { nom: nom || "Produit scanné", marque, image: null, categorie: cat.categorie, inci },
-      score: { disponible: moteurDisponible(), formule: f, perso: pe },
+      score,
       ingredients: ficheIngredients(inci, dictionnaire(), pr),
       lecture: {
         source: "étiquette photographiée", confianceCategorie: cat.confiance,

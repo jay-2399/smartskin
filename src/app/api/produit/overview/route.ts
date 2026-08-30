@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
-import { profil } from "@/lib/scan/moteur";
 import { overviewPour } from "@/lib/scan/overview";
+import { sessionPremium } from "@/lib/scan/acces";
+import { profilUtilisateur } from "@/lib/scan/profil-utilisateur";
 
 // Synthèse des avis pour UNE fiche, appelée par l'écran après l'affichage de la carte.
 //
@@ -13,7 +14,11 @@ export const dynamic = "force-dynamic";
 export async function GET(request: Request) {
   const ref = new URL(request.url).searchParams.get("ref");
   if (!ref) return NextResponse.json({ statut: "requete_vide" }, { status: 400 });
-  const o = await overviewPour(ref, profil());
+  // Gating : la synthèse personnalisée est réservée au premium. `null` = rien à afficher,
+  // même forme que « pas d'avis » — l'écran gratuit ne distingue pas les deux cas.
+  const { uid, premium } = await sessionPremium();
+  if (!premium) return NextResponse.json({ overview: null });
+  const o = await overviewPour(ref, await profilUtilisateur(uid));
   // `null` — pas d'avis bruts, pas de clé, ou l'appel a échoué. 200 quand même : l'absence
   // d'overview n'est pas une erreur pour l'écran, c'est un cas normal.
   return NextResponse.json({ overview: o });
