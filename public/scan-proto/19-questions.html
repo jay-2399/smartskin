@@ -54,6 +54,19 @@
 @keyframes grow { from { width:0; } to { width:var(--pw); } }
 .qg .prog-step { font-family:var(--fm); font-size:10px; color:var(--graphite); letter-spacing:0.08em; flex-shrink:0; }
 
+/* ── pastille « produit en attente » : le fil du scan pendant le tunnel (fork v2, 30/08).
+   Parcours produit seulement — depuis le dashboard il n'y a pas de produit, elle est absente. ── */
+.qg .attente { display:none; align-items:center; gap:8px; margin:12px 24px 0; padding:6px 13px 6px 6px;
+  width:fit-content; max-width:calc(100% - 48px); border-radius:100px;
+  background:var(--glass); -webkit-backdrop-filter:blur(12px) saturate(160%); backdrop-filter:blur(12px) saturate(160%);
+  border:1px solid var(--gline); box-shadow:var(--sheen), 0 4px 12px rgba(40,55,75,0.08);
+  animation:rise .5s cubic-bezier(.22,1,.36,1) both .08s; }
+.qg .attente.on { display:flex; }
+.qg .attente img { width:26px; height:26px; border-radius:50%; object-fit:contain; background:#fff; padding:2px; flex-shrink:0; }
+.qg .attente span { font-size:10.5px; font-weight:600; letter-spacing:-0.01em; color:var(--graphite);
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.qg .attente span b { color:var(--ink); font-weight:800; }
+
 /* ── en-tête de question ── */
 .qg .qhead { padding:26px 26px 14px; }
 .qg .question { font-weight:800; font-size:28px; line-height:1.1; letter-spacing:-0.035em; color:var(--ink); }
@@ -157,6 +170,11 @@
     <button type="button" class="back" id="q-back" aria-label="Back"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"></path></svg></button>
     <div class="prog" id="q-prog" role="progressbar" aria-valuemin="1" aria-valuemax="7" aria-valuenow="1" aria-label="Step 1 of 7"></div>
     <span class="prog-step" id="q-step"></span>
+  </div>
+
+  <div class="attente" id="q-attente">
+    <img id="q-attente-img" src="" alt="" style="display:none">
+    <span><b id="q-attente-nom"></b>&nbsp;&mdash; waiting for its verdict</span>
   </div>
 
   <div class="qhead" id="q-head"></div>
@@ -416,6 +434,20 @@
   }
 
   /* ═══ RENDU ═══ */
+  /* Pastille produit : paquet {nom, image} posé par la fourche (ss-produit-attente). */
+  try {
+    var attente = JSON.parse(sessionStorage.getItem("ss-produit-attente") || "null");
+    if (attente && attente.nom) {
+      document.getElementById("q-attente-nom").textContent = attente.nom;
+      if (attente.image) {
+        var attImg = document.getElementById("q-attente-img");
+        attImg.src = attente.image;
+        attImg.style.display = "block";
+      }
+      document.getElementById("q-attente").className = "attente on";
+    }
+  } catch (e) {}
+
   var elHead = document.getElementById("q-head");
   var elList = document.getElementById("q-list");
   var elFooter = document.getElementById("q-footer");
@@ -597,7 +629,7 @@
 
   /* Retour : 1ʳᵉ étape → sortie du questionnaire (accueil du proto). */
   document.getElementById("q-back").addEventListener("click", function () {
-    if (iEtape === 0) { location.href = "index.html"; return; }
+    if (iEtape === 0) { if (history.length > 1) history.back(); else location.href = "index.html"; return; }
     iEtape -= 1;
     rendre();
   });

@@ -168,7 +168,7 @@ a.nav-back { text-decoration:none; }
   function rendreScore(bilan) {
     var card = document.getElementById("score-card");
     if (!bilan || typeof bilan.score !== "number") {
-      // état vide : pas encore de scan visage → inviter (CTA 10-promesse)
+      // état vide : pas encore de scan visage → inviter (CTA tunnel = 19-questions)
       card.innerHTML =
         '<div class="gauge-wrap">' +
         '<svg class="gauge" viewBox="0 0 170 93" aria-hidden="true">' + GAUGE_DEFS +
@@ -178,7 +178,7 @@ a.nav-back { text-decoration:none; }
         '<span class="sec-kicker" style="display:block; margin-top:8px;">Skin score</span>' +
         '<p class="empty-t">No face scan yet</p>' +
         '<p class="empty-s">One guided scan gives you your skin score, a full report and a routine that fits your skin.</p>' +
-        '<button type="button" class="fk-btn-dark" data-go="10-promesse.html" style="margin-top:15px; width:100%;">' + SVG_FACE + "Face scan</button>";
+        '<button type="button" class="fk-btn-dark" data-go="19-questions.html" style="margin-top:15px; width:100%;">' + SVG_FACE + "Face scan</button>";
     } else {
       var t = teinteVisage(bilan.score);
       var meta =
@@ -211,7 +211,7 @@ a.nav-back { text-decoration:none; }
         meta +
         '<div class="btn-row">' +
         '<button type="button" class="btn-report" data-go="18-bilan.html">Skin report</button>' +
-        '<button type="button" class="fk-btn-dark" data-go="10-promesse.html" style="flex:1.18;">' + SVG_FACE + "Face scan</button>" +
+        '<button type="button" class="fk-btn-dark" data-go="19-questions.html" style="flex:1.18;">' + SVG_FACE + "Face scan</button>" +
         "</div>";
       // remplissage de l'arc a score % (transition CSS depuis 226.2)
       var prog = document.getElementById("g-prog");
@@ -220,7 +220,20 @@ a.nav-back { text-decoration:none; }
     }
     card.addEventListener("click", function (e) {
       var b = e.target && e.target.closest ? e.target.closest("[data-go]") : null;
-      if (b) location.href = b.getAttribute("data-go");
+      if (b) {
+        var go = b.getAttribute("data-go");
+        if (go === "19-questions.html") {
+          // tunnel visage lancé DU DASHBOARD : neutre — aucun produit en attente,
+          // et on repart de zéro (pas de pastille, pas de restes d'un ancien passage)
+          try {
+            sessionStorage.removeItem("ss-produit-attente");
+            sessionStorage.removeItem("ss-visage-answers");
+            sessionStorage.removeItem("ss-visage-photo");
+            sessionStorage.removeItem("ss-visage-erreur");
+          } catch (err) {}
+        }
+        location.href = go;
+      }
     });
   }
 

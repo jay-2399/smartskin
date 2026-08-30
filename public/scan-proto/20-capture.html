@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin AI — Your face photo</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="commun/base.css">
+  <style>
+/* ═══ 20-capture — capture du visage (port de src/components/screens/CaptureScreen.tsx
+   + PhotoReviewScreen.tsx ; CSS porté de src/components/screens/funnel.css §Capture) ═══
+   Le socle (tokens, .phone, .nav, .cta-btn) vient de base.css ; ici, uniquement le
+   CSS de l'écran de capture V1. La mécanique caméra reprend celle de 01-scan.html. */
+
+[hidden] { display:none !important; }
+
+/* tokens absents de base.css, repris de src/app/globals.css (V1) */
+:root { --green:#1FC977; --accent:#A6C3D6; --accent-d:#7FA6BE; }
+
+/* colonne pleine hauteur : la zone de bas de page reste collée en bas (.shutter-zone) */
+.phone { display:flex; flex-direction:column; }
+@media (min-width:480px) { .phone { min-height:860px; } }
+.cap { flex:1; min-height:0; display:flex; flex-direction:column; padding:0 22px; }
+
+/* ── en-tête (funnel.css .head) ── */
+.head { padding:4px 4px 14px; animation:rise .55s cubic-bezier(.22,1,.36,1) both .12s; }
+.head h1 { font-weight:800; font-size:23px; line-height:1.1; letter-spacing:-0.03em; color:var(--ink); }
+.head p { font-weight:400; font-size:12.5px; color:var(--graphite); margin-top:7px; }
+
+/* ── options (funnel.css .opt + .cap-opt) ── */
+.opt { position:relative; display:flex; flex-direction:row; align-items:center; gap:14px;
+  background:var(--card); border:1.5px solid rgba(26,29,33,0.07); border-radius:18px;
+  padding:18px 48px 18px 16px; cursor:pointer; -webkit-tap-highlight-color:transparent;
+  font:inherit; text-align:left; color:inherit; flex-shrink:0;
+  transition:background .22s, border-color .22s, transform .15s, box-shadow .22s, opacity .22s; }
+.opt:active { transform:scale(0.99); }
+.opt:focus-visible { outline:2px solid var(--blue-d); outline-offset:3px; }
+.opt-ic { width:48px; height:48px; border-radius:13px; background:var(--cloud); display:flex; align-items:center; justify-content:center; color:var(--graphite); flex-shrink:0; }
+.opt-tx { min-width:0; display:block; }
+.opt-l { display:block; font-weight:700; font-size:15px; color:var(--ink); letter-spacing:-0.025em; line-height:1.12; }
+.opt-s { display:block; font-size:11.5px; color:var(--space); margin-top:3px; line-height:1.25; }
+.cap-opt:not(:disabled):hover { border-color:var(--steel); transform:translateY(-2px); box-shadow:0 10px 26px rgba(26,29,33,0.08); }
+.cap-opt:disabled { opacity:0.55; cursor:default; }
+.cap-opt-arrow { position:absolute; top:50%; right:16px; transform:translateY(-50%); color:var(--smoke); display:flex; }
+.cap-choice { padding:8px 4px 4px; display:flex; flex-direction:column; gap:12px; animation:rise .55s cubic-bezier(.22,1,.36,1) both .2s; }
+.cap-choice-err { margin-top:2px; font-size:12.5px; line-height:1.4; color:#C2410C; font-weight:500; }
+.cap-choice-foot { margin-top:auto; }
+
+/* overlay « analyse de la photo importée » (funnel.css .cap-analyzing) */
+.cap-analyzing { position:fixed; inset:0; z-index:40; display:flex; flex-direction:column; align-items:center; justify-content:center;
+  gap:16px; text-align:center; padding:0 32px; background:var(--bg); animation:rise .25s ease both; }
+.cap-analyzing .spinner { width:34px; height:34px; border-color:rgba(26,29,33,0.18); border-top-color:var(--ink); }
+.cap-analyzing p { font-weight:800; font-size:18px; letter-spacing:-0.02em; color:var(--ink); }
+.cap-analyzing-sub { font-family:var(--fm); font-size:11px; letter-spacing:0.03em; color:var(--space); max-width:300px; line-height:1.5; }
+.spinner { width:26px; height:26px; border-radius:50%; border:2.5px solid rgba(255,255,255,0.25); border-top-color:#fff; animation:spin .8s linear infinite; }
+.spinner.sm { width:16px; height:16px; border-width:2px; border-color:rgba(26,29,33,0.2); border-top-color:var(--ink); }
+@keyframes spin { to { transform:rotate(360deg); } }
+
+/* ── viewfinder (funnel.css .vf) ── */
+.vf { position:relative; width:100%; height:min(418px, 46dvh); min-height:280px; border-radius:26px; overflow:hidden; background:#22252b;
+  box-shadow:0 16px 44px rgba(40,55,75,0.22); animation:scanIn .7s cubic-bezier(.22,1,.36,1) both .18s; flex-shrink:0; }
+@keyframes scanIn { from{opacity:0; transform:translateY(14px) scale(.97);} to{opacity:1; transform:none;} }
+.vf-video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transform:scaleX(-1); }
+.vf-ovl { position:absolute; inset:0; width:100%; height:100%; }
+.guide-oval { fill:none; stroke:rgba(255,255,255,0.85); stroke-width:2.2; stroke-dasharray:6 7; transition:stroke .4s; }
+.vf-corner { stroke:rgba(255,255,255,0.6); stroke-width:1.8; fill:none; stroke-linecap:round; }
+.vf-hint { position:absolute; top:14px; left:50%; transform:translateX(-50%); font-family:var(--fm); font-size:9px; letter-spacing:0.1em; text-transform:uppercase; color:#fff; background:rgba(26,29,33,0.5); -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px); padding:6px 12px; border-radius:100px; display:flex; align-items:center; gap:7px; transition:background .4s; white-space:nowrap; max-width:92%; overflow:hidden; }
+.vf-hint .ld { width:6px; height:6px; border-radius:50%; background:var(--accent); animation:blink 1.3s infinite; flex-shrink:0; }
+.vf.ready .guide-oval { stroke:var(--green); stroke-dasharray:none; }
+.vf.ready .vf-hint { background:rgba(31,201,119,0.9); }
+.vf.ready .vf-hint .ld { background:#fff; animation:none; }
+@keyframes blink { 0%,100%{opacity:1;} 50%{opacity:.35;} }
+.vf-loading { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:12px;
+  background:rgba(20,23,28,0.72); color:#fff; font-size:12.5px; font-weight:500; letter-spacing:0.02em; z-index:2; text-align:center; padding:0 26px; }
+/* flash de capture (01-scan.html) */
+.flash { position:absolute; inset:0; z-index:3; background:#fff; opacity:0; pointer-events:none; }
+.flash.go { animation:flash .5s ease both; }
+@keyframes flash { 0% { opacity:0; } 18% { opacity:0.95; } 100% { opacity:0; } }
+
+/* ── consignes de cadrage (funnel.css .crit, en version STATIQUE — cf. script) ── */
+.crit-lbl { font-family:var(--fm); font-size:9px; letter-spacing:0.12em; text-transform:uppercase; color:var(--space); padding:16px 4px 0; }
+.crit { display:grid; grid-template-columns:1fr 1fr; gap:7px 10px; padding:9px 4px 4px; animation:rise .55s cubic-bezier(.22,1,.36,1) both .3s; }
+.c { display:flex; align-items:center; gap:8px; font-size:11.5px; font-weight:500; color:var(--graphite); }
+.c .ico { width:18px; height:18px; border-radius:50%; flex-shrink:0; border:1.5px solid var(--smoke); background:var(--card); display:flex; align-items:center; justify-content:center; color:var(--steel); }
+
+/* ── bas d'écran (funnel.css .shutter-zone) ── */
+.shutter-zone { margin-top:auto; padding:20px 0 30px; display:flex; flex-direction:column; align-items:center; gap:14px; animation:rise .55s ease both .5s; }
+.reassure-capture { font-family:var(--fm); font-size:9px; letter-spacing:0.04em; color:var(--space); text-align:center; }
+.upload-link { font-family:var(--fm); font-size:11px; letter-spacing:0.02em; color:var(--graphite); background:none; border:none; text-decoration:underline; cursor:pointer; padding:2px 6px; }
+/* déclencheur — variante claire du .shutter de 01-scan (ici le fond d'écran est clair) */
+.shutter { width:72px; height:72px; border-radius:50%; border:none; cursor:pointer; position:relative; flex-shrink:0;
+  background:#fff; box-shadow:0 0 0 2.5px var(--ink), 0 8px 22px rgba(26,29,33,0.20);
+  transition:transform .15s, opacity .3s; }
+.shutter::after { content:''; position:absolute; inset:7px; border-radius:50%;
+  background:linear-gradient(180deg,#2A2D34 0%,#1A1D21 100%); transition:opacity .3s; }
+.shutter:active { transform:scale(0.93); }
+.shutter:disabled { opacity:0.38; cursor:not-allowed; }
+.shutter:focus-visible { outline:2px solid var(--blue-d); outline-offset:4px; }
+
+/* ── aperçu (funnel.css .vf.review + .review-actions) ── */
+.vf.review { background:#101216; }
+.review-photo { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.review-actions { display:flex; align-items:stretch; gap:12px; padding:18px 0 0; animation:rise .55s ease both .25s; }
+.btn-ghost { display:flex; align-items:center; justify-content:center; gap:8px; padding:0 20px; height:56px;
+  background:var(--card); color:var(--ink); font-family:inherit; font-weight:600; font-size:14px; letter-spacing:-0.01em;
+  border:1.5px solid var(--smoke); border-radius:16px; cursor:pointer; transition:border-color .2s, transform .18s; }
+.btn-ghost:hover { border-color:var(--steel); transform:translateY(-2px); }
+.review-actions .cta-btn { height:56px; border-radius:16px; }
+
+@keyframes rise { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
+@media (prefers-reduced-motion: reduce) {
+  .head, .cap-choice, .vf, .crit, .shutter-zone, .review-actions, .cap-analyzing { animation:none; }
+}
+  </style>
+</head>
+<body>
+<div class="phone">
+  <div class="nav">
+    <div class="nav-back" id="c-back" role="button" tabindex="0" aria-label="Back"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"></path></svg></div>
+    <div class="nav-logo"><img src="logo.png" alt="SmartSkin AI"></div>
+    <div class="nav-spacer"></div>
+  </div>
+
+  <input type="file" id="c-file" accept="image/*" hidden>
+
+  <div class="cap">
+
+    <!-- ═══ vue CHOIX ═══ -->
+    <div id="v-choice" style="display:flex; flex-direction:column; flex:1; min-height:0;">
+      <div class="head">
+        <h1>Your face photo.</h1>
+        <p>Take it now with your camera, or upload a sharp photo of your face.</p>
+      </div>
+
+      <div class="cap-choice">
+        <button type="button" class="opt cap-opt" id="c-live">
+          <span class="opt-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5A1.5 1.5 0 014.5 7H7l1.2-1.8A1 1 0 019 4.8h6a1 1 0 01.8.4L17 7h2.5A1.5 1.5 0 0121 8.5v9A1.5 1.5 0 0119.5 19h-15A1.5 1.5 0 013 17.5z"></path><circle cx="12" cy="12.5" r="3.3"></circle></svg></span>
+          <span class="opt-tx">
+            <span class="opt-l">Take a photo</span>
+            <span class="opt-s">Guided framing, right here</span>
+          </span>
+          <span class="cap-opt-arrow"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3l5 5-5 5"></path></svg></span>
+        </button>
+
+        <button type="button" class="opt cap-opt" id="c-import">
+          <span class="opt-ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V4"></path><path d="M8 8l4-4 4 4"></path><path d="M4 14v3.5A1.5 1.5 0 005.5 19h13a1.5 1.5 0 001.5-1.5V14"></path></svg></span>
+          <span class="opt-tx">
+            <span class="opt-l" id="c-import-l">Upload a photo</span>
+            <span class="opt-s">From your gallery &mdash; you review it next</span>
+          </span>
+          <span class="cap-opt-arrow"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3l5 5-5 5"></path></svg></span>
+        </button>
+
+        <p class="cap-choice-err" id="c-err" role="alert" hidden></p>
+      </div>
+
+      <div class="shutter-zone cap-choice-foot">
+        <span class="reassure-capture">Your photo stays private &mdash; analyzed on the spot, never sold or shared.</span>
+      </div>
+    </div>
+
+    <!-- ═══ vue LIVE (caméra) ═══ -->
+    <div id="v-live" hidden style="flex-direction:column; flex:1; min-height:0;">
+      <div class="head">
+        <h1>Frame your face in the oval.</h1>
+        <p>Face the camera in even light, no makeup &mdash; then tap to capture.</p>
+      </div>
+
+      <div class="vf" id="c-vf">
+        <video class="vf-video" id="c-video" playsinline autoplay muted></video>
+        <svg class="vf-ovl" viewBox="0 0 386 418" fill="none" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <mask id="hole"><rect width="386" height="418" fill="#fff"></rect><ellipse cx="193" cy="206" rx="118" ry="150" fill="#000"></ellipse></mask>
+          </defs>
+          <rect width="386" height="418" fill="rgba(20,23,28,0.5)" mask="url(#hole)"></rect>
+          <ellipse class="guide-oval" cx="193" cy="206" rx="118" ry="150"></ellipse>
+          <path class="vf-corner" d="M20 54 L20 36 L38 36"></path>
+          <path class="vf-corner" d="M366 54 L366 36 L348 36"></path>
+          <path class="vf-corner" d="M20 364 L20 382 L38 382"></path>
+          <path class="vf-corner" d="M366 364 L366 382 L348 382"></path>
+        </svg>
+        <div class="vf-hint"><span class="ld"></span><span id="c-hint">Starting the camera&hellip;</span></div>
+        <div class="vf-loading" id="c-vf-loading"><span class="spinner" aria-hidden="true"></span>Starting the camera&hellip;</div>
+        <div class="flash" id="c-flash"></div>
+      </div>
+
+      <p class="crit-lbl">What makes a photo we can read</p>
+      <div class="crit">
+        <div class="c"><span class="ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.2l2 2 4-4.4"></path></svg></span>Face detected</div>
+        <div class="c"><span class="ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.2l2 2 4-4.4"></path></svg></span>Good distance</div>
+        <div class="c"><span class="ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.2l2 2 4-4.4"></path></svg></span>Well centered</div>
+        <div class="c"><span class="ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.2l2 2 4-4.4"></path></svg></span>Facing the camera</div>
+        <div class="c"><span class="ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.2l2 2 4-4.4"></path></svg></span>Enough light</div>
+        <div class="c"><span class="ico"><svg width="10" height="10" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5.2l2 2 4-4.4"></path></svg></span>Sharp image</div>
+      </div>
+
+      <div class="shutter-zone">
+        <button type="button" class="shutter" id="c-shoot" disabled aria-label="Capture"></button>
+        <button type="button" class="upload-link" id="c-live-upload">&larr; upload a photo instead</button>
+        <span class="reassure-capture">Your photo stays private &mdash; analyzed on the spot, never sold or shared.</span>
+      </div>
+    </div>
+
+    <!-- ═══ vue APERÇU (PhotoReviewScreen) ═══ -->
+    <div id="v-review" hidden style="flex-direction:column; flex:1; min-height:0;">
+      <div class="head">
+        <h1>Happy with it?</h1>
+        <p>Make sure your face is sharp and well lit.</p>
+      </div>
+
+      <div class="vf review">
+        <img class="review-photo" id="c-shot" alt="Captured photo of your face">
+      </div>
+
+      <div class="review-actions">
+        <button type="button" class="btn-ghost" id="c-retake">
+          <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 8a6 6 0 1 1 1.7 4.2M2 12.5V8.8h3.7"></path></svg>
+          Retake
+        </button>
+        <button type="button" class="cta-btn" id="c-use">
+          Use this photo
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M8 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </button>
+      </div>
+
+      <div class="shutter-zone">
+        <span class="reassure-capture">Your photo stays private &mdash; analyzed on the spot, never sold or shared.</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- overlay de préparation d'une photo importée (V1 : la vérification doit se VOIR) -->
+<div class="cap-analyzing" id="c-busy" hidden role="status" aria-live="polite">
+  <span class="spinner" aria-hidden="true"></span>
+  <p>Preparing your photo&hellip;</p>
+  <span class="cap-analyzing-sub">Getting it ready for your skin analysis</span>
+</div>
+
+<script src="commun/app.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  /* ── stockage : la photo voyage en data URL JPEG (contrat du lot) ──
+     ss-visage-photo    (session) : la photo retenue
+     ss-visage-erreur   (session) : motif renvoyé par /api/analyze (photo_quality) */
+  var CLE_PHOTO = "ss-visage-photo";
+  var CLE_ERREUR = "ss-visage-erreur";
+
+  var MAX_COTE = 1280;      // même ordre que le getUserMedia V1 (ideal 1280)
+  var QUALITES = [0.9, 0.82, 0.72];   // dégradés successifs si sessionStorage sature
+
+  var vues = {
+    choice: document.getElementById("v-choice"),
+    live: document.getElementById("v-live"),
+    review: document.getElementById("v-review")
+  };
+  var video = document.getElementById("c-video");
+  var shoot = document.getElementById("c-shoot");
+  var hint = document.getElementById("c-hint");
+  var err = document.getElementById("c-err");
+  var busy = document.getElementById("c-busy");
+  var fichier = document.getElementById("c-file");
+  var flux = null;      // MediaStream en cours
+  var pris = false;     // verrou : une seule capture par passage
+
+  function montrer(nom) {
+    var k;
+    for (k in vues) {
+      if (Object.prototype.hasOwnProperty.call(vues, k)) {
+        vues[k].hidden = (k !== nom);
+        if (k === nom) vues[k].style.display = "flex";
+      }
+    }
+    if (nom !== "live") stopCamera();
+  }
+  function erreur(msg) {
+    err.textContent = msg || "";
+    err.hidden = !msg;
+  }
+
+  /* ── canvas → data URL, en réduisant jusqu'à ce que sessionStorage l'accepte ──
+     miroir = caméra frontale : la preview est en miroir, la photo ne doit pas l'être
+     (dé-mirroring de captureJpeg, src/features/capture/camera.ts). */
+  function encoder(source, sw, sh, miroir) {
+    var i, echelle, c, ctx, url;
+    for (i = 0; i < QUALITES.length; i++) {
+      echelle = Math.min(1, MAX_COTE / Math.max(sw, sh)) * (i === 0 ? 1 : 0.8);
+      c = document.createElement("canvas");
+      c.width = Math.round(sw * echelle);
+      c.height = Math.round(sh * echelle);
+      ctx = c.getContext("2d");
+      if (miroir) { ctx.translate(c.width, 0); ctx.scale(-1, 1); }
+      ctx.drawImage(source, 0, 0, c.width, c.height);
+      url = c.toDataURL("image/jpeg", QUALITES[i]);
+      try {
+        sessionStorage.setItem(CLE_PHOTO, url);
+        return url;
+      } catch (e) { /* quota : on retente plus petit */ }
+    }
+    return null;
+  }
+
+  function apercu(url) {
+    document.getElementById("c-shot").src = url;
+    montrer("review");
+  }
+
+  /* ── caméra : mécanique de 01-scan.html (getUserMedia + repli) ──
+     Ici facingMode "user" (selfie) au lieu de "environment" (scan produit). */
+  function stopCamera() {
+    if (!flux) return;
+    var t = flux.getTracks();
+    for (var i = 0; i < t.length; i++) { t[i].stop(); }
+    flux = null;
+  }
+  function panne(message) {
+    document.getElementById("c-vf-loading").textContent = message;
+    hint.textContent = "Camera unavailable";
+    shoot.disabled = true;
+  }
+  function ouvrirCamera() {
+    erreur("");
+    pris = false;
+    shoot.disabled = true;
+    document.getElementById("c-flash").classList.remove("go");
+    hint.textContent = "Starting the camera…";
+    document.getElementById("c-vf-loading").hidden = false;
+    document.getElementById("c-vf-loading").textContent = "Starting the camera…";
+    montrer("live");
+
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      panne("This device has no camera we can use — upload a photo instead.");
+      return;
+    }
+    navigator.mediaDevices.getUserMedia({
+      video: { facingMode: "user", width: { ideal: 1280 }, height: { ideal: 1280 } },
+      audio: false
+    }).then(function (s) {
+      flux = s;
+      video.srcObject = s;
+      var jouer = video.play();
+      if (jouer && jouer.catch) jouer.catch(function () {});
+      document.getElementById("c-vf-loading").hidden = true;
+      /* court temps de stabilisation avant d'armer le déclencheur (01-scan) */
+      setTimeout(function () {
+        if (!flux) return;
+        shoot.disabled = false;
+        hint.textContent = "Fill the oval — tap to capture";
+      }, 1200);
+    }).catch(function (e) {
+      var refus = e && (e.name === "NotAllowedError" || e.name === "PermissionDeniedError");
+      panne(refus
+        ? "Allow camera access, or upload a photo."
+        : "Couldn't start the camera — upload a photo instead.");
+    });
+  }
+
+  /* ── capture ── */
+  shoot.addEventListener("click", function () {
+    if (pris || !video.videoWidth) return;
+    pris = true;
+    shoot.disabled = true;
+    document.getElementById("c-flash").classList.add("go");
+    var url = encoder(video, video.videoWidth, video.videoHeight, true);
+    stopCamera();
+    if (!url) {
+      pris = false;
+      montrer("choice");
+      erreur("Couldn't keep the photo on this device. Try again.");
+      return;
+    }
+    setTimeout(function () { apercu(url); }, 380);
+  });
+
+  /* ── import d'une photo existante ── */
+  function importer() {
+    erreur("");
+    fichier.click();
+  }
+  fichier.addEventListener("change", function () {
+    var f = this.files && this.files[0];
+    this.value = "";   // permet de re-choisir le même fichier
+    if (!f) return;
+    erreur("");
+    busy.hidden = false;
+    var img = new Image();
+    img.onload = function () {
+      var url = encoder(img, img.width, img.height, false);
+      URL.revokeObjectURL(img.src);
+      /* l'attente reste VISIBLE ~1 s : sinon l'utilisateur ne voit rien se passer (V1) */
+      setTimeout(function () {
+        busy.hidden = true;
+        if (!url) { montrer("choice"); erreur("Couldn't keep the photo on this device. Try a smaller one."); return; }
+        apercu(url);
+      }, 700);
+    };
+    img.onerror = function () {
+      URL.revokeObjectURL(img.src);
+      busy.hidden = true;
+      montrer("choice");
+      erreur("That file isn't a photo we can read.");
+    };
+    img.src = URL.createObjectURL(f);
+  });
+
+  document.getElementById("c-live").addEventListener("click", ouvrirCamera);
+  document.getElementById("c-import").addEventListener("click", importer);
+  document.getElementById("c-live-upload").addEventListener("click", function () {
+    stopCamera();
+    montrer("choice");
+  });
+
+  /* ── aperçu : reprendre / continuer ── */
+  function reprendre() {
+    try { sessionStorage.removeItem(CLE_PHOTO); } catch (e) {}
+    document.getElementById("c-shot").removeAttribute("src");
+    montrer("choice");
+  }
+  document.getElementById("c-retake").addEventListener("click", reprendre);
+
+  /* ── LA PORTE compte / paywall (décision canevas : dans le tunnel visage, le
+     compte vient APRÈS la capture et AVANT le paywall) ──
+     · déconnecté        → 15-compte.html?next=21-analyse.html (la page sait revenir)
+     · connecté, gratuit → 16-paywall.html, TOUJOURS : l'analyse (coûteuse, et porte
+       du bilan premium) ne tourne jamais sans abonnement. L'abandon du paywall mène
+       au dashboard gratuit (winback) — pas ici, donc pas de boucle.
+     · premium           → 21-analyse.html */
+  var use = document.getElementById("c-use");
+  use.addEventListener("click", function () {
+    use.disabled = true;
+    SS.moi().then(function (m) {
+      if (!m.connecte) { location.href = "15-compte.html?next=21-analyse.html"; return; }
+      if (!m.premium) { location.href = "16-paywall.html"; return; }
+      location.href = "21-analyse.html";
+    });
+  });
+
+  /* ── retour ── */
+  function retour() {
+    if (!vues.review.hidden) { reprendre(); return; }
+    if (!vues.live.hidden) { stopCamera(); montrer("choice"); return; }
+    if (history.length > 1) { history.back(); return; }
+    location.href = "19-questions.html";
+  }
+  var back = document.getElementById("c-back");
+  back.addEventListener("click", retour);
+  back.addEventListener("keydown", function (e) {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); retour(); }
+  });
+
+  /* ── état d'entrée ──
+     · motif renvoyé par 21-analyse (photo_quality) → affiché, photo repartie de zéro
+     · photo déjà en session (retour depuis le compte / le paywall) → on reprend l'aperçu */
+  var motif = null;
+  try {
+    motif = sessionStorage.getItem(CLE_ERREUR);
+    if (motif) sessionStorage.removeItem(CLE_ERREUR);
+  } catch (e) {}
+  var dejaPrise = null;
+  try { dejaPrise = sessionStorage.getItem(CLE_PHOTO); } catch (e) {}
+
+  if (motif) {
+    erreur(motif);
+    montrer("choice");
+  } else if (dejaPrise) {
+    apercu(dejaPrise);
+  } else {
+    montrer("choice");
+  }
+
+  /* la caméra ne doit pas rester allumée si la page part en arrière-plan */
+  window.addEventListener("pagehide", stopCamera);
+})();
+</script>
+</body>
+</html>

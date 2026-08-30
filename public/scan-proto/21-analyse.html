@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin AI — Analyzing your skin</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="commun/base.css">
+  <style>
+/* ═══ 21-analyse — l'attente pendant l'analyse (port de
+   src/components/screens/AnalyseScreen.tsx ; CSS porté de
+   src/components/screens/funnel.css §« Analyse en cours ») ═══
+   Le socle (tokens, .phone) vient de base.css ; ici, l'écran d'analyse V1. */
+
+[hidden] { display:none !important; }
+
+/* tokens absents de base.css, repris de src/app/globals.css (V1) */
+:root { --accent:#A6C3D6; --accent-d:#7FA6BE; --logo-h:29px; --logo-top:max(30px, calc(env(safe-area-inset-top) + 12px)); }
+
+/* colonne centrée (funnel.css .screen.analyse) ; le fond reste celui du proto
+   (dégradé + orbes de base.css) plutôt que le radial de la V1 */
+.phone { display:flex; flex-direction:column; align-items:center; padding:0 30px; }
+@media (min-width:480px) { .phone { min-height:860px; } }
+
+.analyse-logo { width:auto; height:var(--logo-h); margin-top:var(--logo-top); object-fit:contain; animation:rise .6s cubic-bezier(.22,1,.36,1) both; }
+.kicker { display:flex; align-items:center; gap:8px; margin-top:22px; font-family:var(--fd); font-weight:600; font-size:11px; letter-spacing:0.2em; text-transform:uppercase; color:var(--accent-d); }
+.kicker .live { width:6px; height:6px; border-radius:50%; background:var(--accent-d); animation:blink 1.4s ease-in-out infinite; }
+@keyframes blink { 0%,100%{opacity:1; box-shadow:0 0 0 0 rgba(127,166,190,0.5);} 50%{opacity:0.4; box-shadow:0 0 0 5px rgba(127,166,190,0);} }
+
+.scan { position:relative; width:236px; height:296px; margin-top:36px; border-radius:26px; overflow:hidden; background:var(--cloud);
+  box-shadow:0 18px 48px rgba(40,60,80,0.22), 0 4px 12px rgba(0,0,0,0.08); animation:scanIn .7s cubic-bezier(.22,1,.36,1) both .1s; flex-shrink:0; }
+@keyframes scanIn { from{opacity:0; transform:translateY(14px) scale(.97);} to{opacity:1; transform:none;} }
+/* la photo garde l'orientation retenue à l'aperçu (pas de re-miroir : elle est
+   déjà dé-mirrorée à la capture et c'est celle-là qui part au bilan) */
+.scan img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center 22%; }
+.scan-tint { position:absolute; inset:0; background:linear-gradient(180deg, rgba(26,29,33,0.12), transparent 30%, transparent 70%, rgba(26,29,33,0.35)); }
+.scan-svg { position:absolute; inset:0; width:100%; height:100%; }
+.scan-corner { stroke:rgba(255,255,255,0.65); stroke-width:1.6; fill:none; stroke-linecap:round; }
+.scan-sweep { position:absolute; left:0; right:0; top:0; height:34%; z-index:1; pointer-events:none;
+  background:linear-gradient(180deg, transparent, rgba(166,195,214,0.30) 86%, rgba(255,255,255,0.55));
+  box-shadow:0 1.5px 8px rgba(166,195,214,0.55);
+  animation:scanSweepA 2.6s cubic-bezier(.45,0,.4,1) infinite; }
+@keyframes scanSweepA { 0%{ transform:translateY(-110%); opacity:0; } 14%{ opacity:1; } 86%{ opacity:1; } 100%{ transform:translateY(310%); opacity:0; } }
+
+.prog-wrap { width:236px; margin-top:30px; animation:rise .6s cubic-bezier(.22,1,.36,1) both .5s; }
+.prog-top { display:flex; justify-content:space-between; align-items:baseline; margin-bottom:9px; }
+.prog-label { font-weight:700; font-size:15px; color:var(--ink); letter-spacing:-0.02em; }
+.prog-pct { font-family:var(--fm); font-size:12px; color:var(--accent-d); font-weight:500; }
+.prog-track { height:5px; background:var(--cloud); border-radius:100px; overflow:hidden; }
+.ana-fill { height:100%; width:0%; border-radius:100px; background:linear-gradient(to right, var(--accent), var(--accent-d)); transition:width .25s linear; }
+
+.status { display:flex; align-items:center; gap:9px; margin-top:22px; min-height:18px; text-align:center;
+  animation:rise .6s cubic-bezier(.22,1,.36,1) both .62s; }
+.status-dots { display:flex; gap:3px; }
+.status-dots i { width:4px; height:4px; border-radius:50%; background:var(--accent-d); animation:bob 1s ease-in-out infinite; }
+.status-dots i:nth-child(2){ animation-delay:0.15s; } .status-dots i:nth-child(3){ animation-delay:0.3s; }
+@keyframes bob { 0%,100%{transform:translateY(0); opacity:0.4;} 50%{transform:translateY(-3px); opacity:1;} }
+.status-msg { font-weight:500; font-size:13.5px; color:var(--graphite); letter-spacing:-0.01em; }
+.retry { font:inherit; font-weight:600; font-size:13.5px; color:var(--ink); background:none; border:none; cursor:pointer; text-decoration:underline; }
+.reassure-analyse { margin-top:auto; padding-top:34px; margin-bottom:44px; font-family:var(--fm); font-size:9px; letter-spacing:0.04em; color:var(--space); text-align:center; }
+
+@keyframes rise { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
+@media (prefers-reduced-motion: reduce) {
+  .scan-sweep { animation:none; opacity:0; }
+  .analyse-logo, .scan, .prog-wrap, .status, .kicker .live, .status-dots i { animation:none; }
+}
+
+/* ── consentement explicite avant l'envoi de la photo à l'IA tierce (App Store 5.1.2(i))
+   — port de l'encart d'AnalyseScreen.tsx, styles rendus en classes ── */
+.consent { position:fixed; inset:0; z-index:50; display:flex; align-items:center; justify-content:center; padding:16px;
+  background:rgba(12,14,18,0.55); -webkit-backdrop-filter:blur(3px); backdrop-filter:blur(3px); }
+.consent-box { width:100%; max-width:440px; background:#fff; border-radius:22px; padding:24px 22px 20px; box-shadow:0 12px 40px rgba(0,0,0,0.25); }
+.consent-ic { width:44px; height:44px; border-radius:12px; background:#EAF1FF; display:flex; align-items:center; justify-content:center; margin-bottom:14px; }
+.consent-box h2 { font-size:20px; font-weight:600; line-height:1.25; margin:0 0 8px; color:#14181F; }
+.consent-box p { font-size:14.5px; line-height:1.5; margin:0 0 6px; color:#3A4250; }
+.consent-box p.fine { font-size:13px; margin:0 0 18px; color:#6B7280; }
+.consent-box p.fine a { color:#2563EB; text-decoration:underline; }
+.consent-ok { width:100%; padding:14px; border:none; border-radius:14px; background:#14181F; color:#fff; font-family:inherit; font-size:15.5px; font-weight:600; cursor:pointer; }
+.consent-no { width:100%; padding:12px; margin-top:8px; border:none; border-radius:14px; background:transparent; color:#6B7280; font-family:inherit; font-size:14px; font-weight:500; cursor:pointer; }
+  </style>
+</head>
+<body>
+<div class="phone">
+  <img class="analyse-logo" src="logo.png" alt="SmartSkin AI">
+  <div class="kicker" id="a-kicker" hidden><span class="live"></span>AI analysis in progress</div>
+
+  <div class="scan">
+    <img id="a-photo" alt="">
+    <div class="scan-tint"></div>
+    <svg class="scan-svg" viewBox="0 0 236 296" fill="none">
+      <path class="scan-corner" d="M18 34 L18 18 L34 18"></path>
+      <path class="scan-corner" d="M218 34 L218 18 L202 18"></path>
+      <path class="scan-corner" d="M18 262 L18 278 L34 278"></path>
+      <path class="scan-corner" d="M218 262 L218 278 L202 278"></path>
+    </svg>
+    <div class="scan-sweep" id="a-sweep" hidden></div>
+  </div>
+
+  <div class="prog-wrap" id="a-prog" hidden>
+    <div class="prog-top">
+      <span class="prog-label" id="a-label">Analyzing your skin</span>
+      <span class="prog-pct" id="a-pct">0%</span>
+    </div>
+    <div class="prog-track"><div class="ana-fill" id="a-fill"></div></div>
+  </div>
+
+  <div class="status" id="a-status">
+    <span class="status-dots" id="a-dots" hidden><i></i><i></i><i></i></span>
+    <span class="status-msg" id="a-msg">Review the details below to start your analysis.</span>
+    <button type="button" class="retry" id="a-retry" hidden></button>
+  </div>
+
+  <div class="reassure-analyse">Analyzed securely in the EU &mdash; never sold or used for ads.</div>
+</div>
+
+<!-- consentement explicite AVANT l'envoi de la photo à l'IA tierce (Anthropic) —
+     exigé par l'App Store (5.1.2(i)). Tant qu'il n'est pas accepté, /api/analyze
+     n'est jamais appelé (garde identique à la V1). -->
+<div class="consent" id="a-consent" hidden>
+  <div class="consent-box" role="dialog" aria-modal="true" aria-labelledby="a-consent-h">
+    <div class="consent-ic">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l7 3v6.2c0 4.8-3.2 8-7 9.8-3.8-1.8-7-5-7-9.8V5l7-3z"></path><path d="M9 12l2.2 2.2L15.5 9.8"></path></svg>
+    </div>
+    <h2 id="a-consent-h">Analyze your photo</h2>
+    <p>To build your skin analysis, your <b>photo</b> and your <b>answers</b> are sent securely to our AI provider, <b>Anthropic (Claude)</b>. Processing takes place in the <b>European Union</b>.</p>
+    <p class="fine">Your photo is never sold and never used for advertising. <a href="/privacy">Privacy Policy</a></p>
+    <button type="button" class="consent-ok" id="a-agree">Agree &amp; analyze</button>
+    <button type="button" class="consent-no" id="a-cancel">Cancel</button>
+  </div>
+</div>
+
+<script src="commun/app.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  var CLE_PHOTO = "ss-visage-photo";      // data URL JPEG posée par 20-capture
+  var CLE_ANSWERS = "ss-visage-answers";  // réponses du questionnaire (forme Answers)
+  var CLE_ERREUR = "ss-visage-erreur";    // motif photo_quality relu par 20-capture
+
+  /* Étapes affichées selon l'avancement (%) — AnalyseScreen.tsx, verbatim. */
+  var STAGES = [
+    { at: 0, msg: "Detecting your face…" },
+    { at: 14, msg: "Reading your skin texture…" },
+    { at: 30, msg: "Analyzing pores and oil…" },
+    { at: 48, msg: "Mapping tone and radiance…" },
+    { at: 65, msg: "Assessing sensitive areas…" },
+    { at: 82, msg: "Compiling your diagnosis…" }
+  ];
+  // Constante de temps du remplissage : la barre avance EN CONTINU vers ~97 %
+  // sans jamais se figer, même si l'IA met plus longtemps que prévu (~40 s).
+  var FILL_TAU_MS = 14000;
+  function stageFor(pct) {
+    var m = STAGES[0].msg;
+    for (var i = 0; i < STAGES.length; i++) { if (pct >= STAGES[i].at) m = STAGES[i].msg; }
+    return m;
+  }
+
+  // forme EMPTY_ANSWERS de src/features/funnel/types.ts — filet si le questionnaire
+  // n'a rien laissé (accès direct) : l'analyse tourne sur la photo seule.
+  var ANSWERS_VIDES = { age: null, q1: [], q2: [], q3: [], q4: null, q5: { changed: null, symptoms: [] }, q6: null, q7: [] };
+
+  var elMsg = document.getElementById("a-msg");
+  var elDots = document.getElementById("a-dots");
+  var elRetry = document.getElementById("a-retry");
+  var elPct = document.getElementById("a-pct");
+  var elFill = document.getElementById("a-fill");
+  var elLabel = document.getElementById("a-label");
+
+  var dernierStatut = null;
+  function statut(msg) {
+    if (msg === dernierStatut) return;   // la boucle rAF passe ici 60×/s
+    dernierStatut = msg;
+    elMsg.textContent = msg; elMsg.hidden = false; elRetry.hidden = true;
+  }
+  function echec(msg, libelle, action) {
+    dernierStatut = null;
+    elDots.hidden = true;
+    elMsg.hidden = true;
+    elRetry.hidden = false;
+    elRetry.textContent = libelle;
+    elRetry.onclick = action;
+    document.getElementById("a-sweep").hidden = true;
+    if (msg) { elLabel.textContent = msg; }
+  }
+
+  /* ── entrée : sans photo, retour à la capture (garde de la V1) ── */
+  var photo = null;
+  try { photo = sessionStorage.getItem(CLE_PHOTO); } catch (e) {}
+  if (!photo) { location.replace("20-capture.html"); return; }
+  document.getElementById("a-photo").src = photo;
+
+  var answers = ANSWERS_VIDES;
+  try {
+    var brut = sessionStorage.getItem(CLE_ANSWERS);
+    if (brut) answers = JSON.parse(brut);
+  } catch (e) {}
+
+  /* ── porte compte : le bilan se range SOUS un compte (POST /api/scan).
+     Le tunnel a déjà fait passer par 15-compte ; cette garde couvre l'accès direct. ── */
+  SS.moi().then(function (m) {
+    if (!m.connecte) { location.replace("15-compte.html?next=21-analyse.html"); return; }
+    document.getElementById("a-consent").hidden = false;
+  });
+
+  document.getElementById("a-cancel").addEventListener("click", function () {
+    location.href = "index.html";
+  });
+  document.getElementById("a-agree").addEventListener("click", function () {
+    document.getElementById("a-consent").hidden = true;
+    document.getElementById("a-kicker").hidden = false;
+    document.getElementById("a-sweep").hidden = false;
+    document.getElementById("a-prog").hidden = false;
+    elDots.hidden = false;
+    statut(STAGES[0].msg);
+    lancer();
+  });
+
+  /* ── 1) l'appel réel, une seule fois ─────────────────────────────────────── */
+  var t0 = 0, resultat = null, doneAt = null, rate = false, rate429 = false;
+
+  function lancer() {
+    t0 = (window.performance && performance.now) ? performance.now() : Date.now();
+    fetch("/api/analyze", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ answers: answers, image: photo.split(",")[1] })
+    }).then(function (r) {
+      if (r.status === 422) {
+        // photo inexploitable : on renvoie à la capture avec le motif du moteur (V1)
+        return r.json().catch(function () { return {}; }).then(function (d) {
+          var motif = (d && typeof d.issue === "string" && d.issue)
+            ? d.issue
+            : "That photo couldn't be read — try again in even light, face to the camera.";
+          try {
+            sessionStorage.setItem(CLE_ERREUR, motif);
+            sessionStorage.removeItem(CLE_PHOTO);
+          } catch (e) {}
+          location.replace("20-capture.html");
+          return null;
+        });
+      }
+      if (r.status === 429) { rate = true; rate429 = true; return null; }
+      if (!r.ok) { rate = true; return null; }
+      return r.json();
+    }).then(function (d) {
+      if (!d) return;
+      resultat = d;
+      doneAt = (window.performance && performance.now) ? performance.now() : Date.now();
+    }).catch(function () { rate = true; });
+
+    boucle();
+  }
+
+  /* ── 2) la barre de progression, calée sur la durée réelle ───────────────── */
+  function boucle() {
+    var pctAtDone = null, finishedAt = null, last = 0;
+
+    function tick(ts) {
+      if (rate) {
+        echec(rate429 ? "Too many analyses" : "Analysis failed",
+          rate429 ? "Wait a moment, then retry" : "Analysis failed. Retry",
+          function () { location.reload(); });
+        return;
+      }
+
+      var value;
+      if (doneAt !== null) {
+        if (pctAtDone === null) pctAtDone = last;
+        var k = Math.min((ts - doneAt) / 700, 1);   // remontée vers 100 sur 700 ms
+        value = pctAtDone + (100 - pctAtDone) * k;
+      } else {
+        // creep continu 97·(1−e^(−t/τ)) : toujours croissant, jamais figé
+        value = 97 * (1 - Math.exp(-(ts - t0) / FILL_TAU_MS));
+      }
+      last = value;
+
+      if (value >= 99.5) {
+        elFill.style.width = "100%";
+        elPct.textContent = "100%";
+        elLabel.textContent = "Done";
+        statut("Diagnosis ready");
+        if (finishedAt === null) finishedAt = ts;
+        if (ts - finishedAt >= 600) { enregistrer(); return; }   // petit temps fort « prêt »
+      } else {
+        var arrondi = Math.round(value);
+        elFill.style.width = arrondi + "%";
+        elPct.textContent = arrondi + "%";
+        statut(stageFor(value));
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+  }
+
+  /* ── 3) persistance du scan, puis la sortie ──────────────────────────────────
+     La boucle se referme sur le PRODUIT (décision canevas) : si un scan produit a
+     déclenché le tunnel, la fin atterrit sur SON verdict perso — le bilan reste
+     accessible depuis le dashboard. Sans produit en attente (entrée dashboard),
+     on va au bilan. */
+  function sortie() {
+    var attente = null;
+    try { attente = JSON.parse(sessionStorage.getItem("ss-produit-attente") || "null"); } catch (e) {}
+    return attente && attente.suite
+      ? "06-result-premium.html" + attente.suite
+      : "18-bilan.html";
+  }
+  function enregistrer() {
+    elDots.hidden = false;
+    statut("Saving your report…");
+    fetch("/api/scan", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ result: resultat, answers: answers, photo: photo })
+    }).then(function (r) {
+      if (!r.ok) throw new Error("scan_" + r.status);
+      try { sessionStorage.removeItem(CLE_PHOTO); } catch (e) {}
+      location.replace(sortie());
+    }).catch(function () {
+      // l'analyse est faite : on ne la relance pas, on rejoue seulement la sauvegarde
+      echec("Almost there", "Couldn't save your report. Retry", enregistrer);
+    });
+  }
+})();
+</script>
+</body>
+</html>

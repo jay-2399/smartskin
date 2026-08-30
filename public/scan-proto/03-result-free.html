@@ -384,10 +384,24 @@
   "use strict";
   var q = new URLSearchParams(location.search);
 
-  // La carte verrouillée mène toujours au paywall (contrat §6) — la page 16
-  // arrive par un autre lot, le lien suffit.
+  // La carte verrouillée suit la même règle que la fourche (30/08) : le score
+  // perso demande le scan de peau — donc d'abord le tunnel visage (19-questions).
+  // Exception « retour direct paywall sans re-quiz » : tunnel déjà complété dans
+  // la session (réponses + photo) ET connecté → paywall direct.
   document.getElementById("d-lock").addEventListener("click", function(){
-    location.href = "16-paywall.html";
+    var dejaFait = false;
+    try {
+      dejaFait = !!(sessionStorage.getItem("ss-visage-answers") && sessionStorage.getItem("ss-visage-photo"));
+    } catch(e) {}
+    SS.moi().then(function(m){
+      if (m.connecte && dejaFait) { location.href = "16-paywall.html"; return; }
+      try {
+        sessionStorage.removeItem("ss-visage-answers");
+        sessionStorage.removeItem("ss-visage-photo");
+        sessionStorage.removeItem("ss-visage-erreur");
+      } catch(e) {}
+      location.href = "19-questions.html";
+    });
   });
 
   // Deux sources possibles, même forme de données (pattern de 06-result-premium) :
@@ -429,6 +443,15 @@
   function rendre(d){
     if (!d || !d.produit || !d.score || !d.score.formule || d.score.disponible === false) return;
     var p = d.produit, f = d.score.formule;
+    // Fil du tunnel visage : actualiser le paquet « produit en attente » (pastille
+    // du questionnaire + boucle de 21-analyse), même en arrivée directe sur la fiche.
+    try {
+      sessionStorage.setItem("ss-produit-attente", JSON.stringify({
+        nom: p.nom || key || "Your product",
+        image: p.image || null,
+        suite: depuisEtiquette ? "?source=inci" : "?p=" + encodeURIComponent(key)
+      }));
+    } catch(e) {}
 
     document.getElementById("d-brand").textContent = p.marque || "";
     document.getElementById("d-name").textContent = p.nom;

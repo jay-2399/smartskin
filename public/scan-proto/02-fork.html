@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="commun/base.css">
   <style>
 
-/* ═══ FORK (maquette Main.dc.html) ═══ */
+/* ═══ FORK v2 (maquette Main.dc.html du 30/08) — titres en miroir, carte perso SOMBRE ═══ */
 .fk-wrap { padding:6px 20px 26px; display:flex; flex-direction:column; gap:13px; }
 .fk-done { display:flex; align-items:center; gap:12px; }
 .fk-thumb { width:56px; height:56px; border-radius:17px; flex-shrink:0;
@@ -27,29 +27,62 @@
   -webkit-backdrop-filter:blur(22px) saturate(1.5); backdrop-filter:blur(22px) saturate(1.5);
   border:1px solid rgba(255,255,255,0.72); border-top-color:rgba(255,255,255,0.95);
   box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.95), 0 14px 30px rgba(40,55,75,0.12); }
-.fk-card.ai { border-color:rgba(110,154,182,0.45); border-top-color:rgba(255,255,255,0.95);
-  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.95), 0 0 0 3px rgba(166,195,214,0.18), 0 16px 34px rgba(40,55,75,0.16); }
-.fk-card.ai::after { content:''; position:absolute; right:-16%; bottom:-30%; width:64%; height:80%; pointer-events:none;
-  background:radial-gradient(ellipse at center, rgba(166,195,214,0.34), transparent 68%); }
+/* carte perso SOMBRE : le code visuel premium de toute l'app (même verre que les cartes verrouillées) */
+.fk-card.dark { background:linear-gradient(160deg, rgba(41,46,58,0.95) 0%, rgba(20,22,27,0.97) 100%);
+  border:1px solid rgba(255,255,255,0.14); border-top-color:rgba(255,255,255,0.30);
+  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.18), 0 18px 40px rgba(15,20,30,0.36); }
+.fk-card.dark::after { content:''; position:absolute; right:-16%; bottom:-30%; width:64%; height:80%; pointer-events:none;
+  background:radial-gradient(ellipse at center, rgba(166,195,214,0.26), transparent 68%); }
 .fk-card > * { position:relative; z-index:1; }
 .fk-k { font-size:8.5px; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:var(--space); }
-.fk-k.ai { color:var(--blue-d); }
-.fk-h { font-weight:800; font-size:20px; letter-spacing:-0.03em; color:var(--ink); margin-top:6px; }
+.fk-k.dark { color:#BCD6E6; }
+.fk-h { font-weight:800; font-size:20px; letter-spacing:-0.03em; color:var(--ink); margin-top:6px; line-height:1.15; }
+.fk-card.dark .fk-h { color:#fff; }
 .fk-p { font-size:12.5px; line-height:1.55; color:var(--graphite); margin-top:5px; }
+.fk-card.dark .fk-p { color:rgba(255,255,255,0.62); }
 .fk-feats { display:flex; flex-direction:column; gap:8px; margin-top:13px; }
-.fk-feat { display:flex; gap:9px; align-items:center; font-size:12px; font-weight:600; color:var(--arsenic); letter-spacing:-0.005em; }
-.fk-feat .rt-ic { width:22px; height:22px; margin-top:0; }
+.fk-feat { display:flex; gap:9px; align-items:flex-start; font-size:12px; font-weight:600; letter-spacing:-0.005em;
+  color:rgba(255,255,255,0.78); line-height:1.4; }
+.fk-feat b { font-weight:700; color:#fff; }
+/* la coche des cartes verrouillées (fiche gratuite), reprise telle quelle */
+.fk-check { color:#54D9A0; font-weight:800; font-size:13px; flex-shrink:0; margin-top:1px;
+  text-shadow:0 2px 10px rgba(43,193,130,0.30); }
+/* en-tête de carte : texte à gauche, visuel à droite */
+.fk-head { display:flex; align-items:flex-start; justify-content:space-between; gap:14px; }
+.fk-head-tx { min-width:0; flex:1; }
+/* carte claire : le packshot dans la tuile produit (vocabulaire alt-visual) */
+.fk-vis { width:58px; height:70px; border-radius:12px; flex-shrink:0;
+  background:linear-gradient(170deg,#E9EDF3 0%,#DDE3EB 100%);
+  box-shadow:inset 0 1px 2px rgba(255,255,255,0.8), inset 0 -4px 10px rgba(40,55,75,0.07);
+  display:flex; align-items:center; justify-content:center; }
+.fk-vis img { width:100%; height:100%; object-fit:contain; mix-blend-mode:multiply; transform:scale(1.06); }
+.fk-vis img.plate { mix-blend-mode:normal; transform:none; padding:8px; }
+/* carte sombre : médaillon silhouette (pas encore de photo à ce stade) + le produit en badge */
+.fk-vis-face { position:relative; width:64px; height:64px; flex-shrink:0; }
+.fvf-ph { position:relative; width:64px; height:64px; border-radius:50%; overflow:hidden;
+  background:linear-gradient(170deg,#E9EDF3 0%,#D5DBE4 100%);
+  box-shadow:0 10px 24px rgba(0,0,0,0.45), inset 0 0 0 1px rgba(255,255,255,0.4); }
+.fvf-ph img, .fvf-ph svg { width:100%; height:100%; object-fit:cover; display:block; }
+.fvf-ph::after { content:''; position:absolute; inset:0; border-radius:50%; pointer-events:none;
+  box-shadow:inset 0 2px 5px rgba(0,0,0,0.16), inset 0 -2px 4px rgba(255,255,255,0.22);
+  background:linear-gradient(145deg, rgba(255,255,255,0.30) 0%, rgba(255,255,255,0.06) 32%, rgba(255,255,255,0) 50%); }
+.fvf-prod { position:absolute; left:-9px; bottom:-5px; width:27px; height:27px; border-radius:9px;
+  background:linear-gradient(180deg,#FFFFFF,#EDF0F6); display:flex; align-items:center; justify-content:center;
+  box-shadow:0 5px 12px rgba(0,0,0,0.4), inset 0 1px 0 #fff; overflow:hidden; }
+.fvf-prod img { height:21px; width:auto; max-width:23px; object-fit:contain; }
 .fk-btn-light { margin-top:16px; width:100%; height:48px; border-radius:100px; cursor:pointer;
   background:linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.7));
   border:1px solid rgba(40,55,75,0.22); color:var(--ink);
   font-family:var(--fd); font-weight:800; font-size:13.5px; letter-spacing:-0.01em;
   box-shadow:inset 0 1px 0 rgba(255,255,255,0.95), 0 4px 12px rgba(40,55,75,0.10); }
-.fk-btn-light:focus-visible, .fk-btn-dark:focus-visible { outline:2px solid var(--blue-d); outline-offset:3px; }
-.fk-btn-dark { margin-top:16px; width:100%; height:48px; border:none; border-radius:100px; cursor:pointer;
-  background:linear-gradient(180deg, #2A2D34 0%, #191B1F 100%); color:#fff;
+.fk-btn-light:focus-visible, .fk-btn-white:focus-visible { outline:2px solid var(--blue-d); outline-offset:3px; }
+/* CTA inversé de la carte sombre : bouton blanc, l'élément le plus visible de l'écran */
+.fk-btn-white { margin-top:16px; width:100%; height:48px; border:none; border-radius:100px; cursor:pointer;
+  background:linear-gradient(180deg, #FFFFFF, #E9EDF4); color:var(--ink);
   font-family:var(--fd); font-weight:800; font-size:13.5px; letter-spacing:-0.01em;
-  box-shadow:0 10px 24px rgba(26,29,33,0.28), inset 0 1px 0 rgba(255,255,255,0.22); }
+  box-shadow:0 8px 20px rgba(0,0,0,0.35), inset 0 1px 0 #fff; }
 .fk-note { font-size:10px; color:var(--space); text-align:center; margin-top:9px; letter-spacing:0.01em; }
+.fk-card.dark .fk-note { color:rgba(255,255,255,0.5); }
 .fk-foot { font-size:11px; color:var(--space); text-align:center; padding:0 24px; line-height:1.5; }
 
 @keyframes fadeUp { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
@@ -87,24 +120,41 @@
     <p class="fk-sub" style="margin-top:-4px">Two ways to read this product &mdash; pick yours.</p>
 
     <div class="fk-card">
-      <span class="fk-k">Free &middot; 30 seconds</span>
-      <h2 class="fk-h">Formula score</h2>
-      <p class="fk-p">How good this product is on its own &mdash; actives, irritants, the full ingredient list decoded.</p>
+      <div class="fk-head">
+        <div class="fk-head-tx">
+          <h2 class="fk-h" style="margin-top:0">How good is this product?</h2>
+        </div>
+        <div class="fk-vis"><img id="fk-vis-img" src="effaclar.png" alt=""></div>
+      </div>
+      <p class="fk-p">One score for the formula itself &mdash; actives, irritants, the full ingredient list decoded.</p>
       <button type="button" class="fk-btn-light" id="fk-free">See the score</button>
-      <p class="fk-note">Free forever &middot; no account needed</p>
     </div>
 
-    <div class="fk-card ai">
-      <span class="fk-k ai">Personalized &middot; with your skin scan</span>
-      <h2 class="fk-h">For <em style="font-style:normal; color:var(--blue-d)">your</em> skin</h2>
-      <p class="fk-p">The same product, scored against your skin &mdash; type, sensitivities, and what you already use.</p>
-      <div class="fk-feats">
-        <div class="fk-feat"><span class="rt-ic good"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg></span> Double score &mdash; formula vs. your skin</div>
-        <div class="fk-feat"><span class="rt-ic good"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg></span> Every ingredient read for you</div>
-        <div class="fk-feat"><span class="rt-ic good"><svg width="11" height="11" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg></span> Better alternatives, matched to you</div>
+    <div class="fk-card dark">
+      <div class="fk-head">
+        <div class="fk-head-tx">
+          <span class="fk-k dark">Personalized &middot; 2 minutes</span>
+          <h2 class="fk-h">How good is it for <em style="font-style:normal; color:#BCD6E6">your</em> skin?</h2>
+        </div>
+        <div class="fk-vis-face">
+          <div class="fvf-ph">
+            <!-- silhouette neutre : à ce stade du parcours on n'a PAS encore la photo de l'utilisateur -->
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <circle cx="32" cy="25" r="11" fill="none" stroke="#9DA2B3" stroke-width="2.4"></circle>
+              <path d="M12 56c3.5-11 11-16.5 20-16.5S60.5 45 64 56" fill="none" stroke="#9DA2B3" stroke-width="2.4" stroke-linecap="round"></path>
+            </svg>
+          </div>
+          <div class="fvf-prod"><img id="fk-badge-img" src="effaclar.png" alt=""></div>
+        </div>
       </div>
-      <button type="button" class="fk-btn-dark" id="fk-perso">Analyze for my skin</button>
-      <p class="fk-note" style="color:var(--graphite)">7-day free trial &middot; takes a skin scan first</p>
+      <p class="fk-p">The same product, re-scored on your skin &mdash; type, sensitivities, and what you already use.</p>
+      <div class="fk-feats">
+        <div class="fk-feat"><span class="fk-check">✓</span> <span>The same product can score <b>84 on one skin &mdash; 47 on another</b></span></div>
+        <div class="fk-feat"><span class="fk-check">✓</span> <span>Every ingredient judged <b>for your skin</b> &mdash; not in general</span></div>
+        <div class="fk-feat"><span class="fk-check">✓</span> <span>Not right for you? <b>We name what to use instead</b></span></div>
+      </div>
+      <button type="button" class="fk-btn-white" id="fk-perso">Analyze for my skin</button>
+      <p class="fk-note">7 quick questions + 1 selfie &middot; 7-day free trial</p>
     </div>
 
     <p class="fk-foot">You can switch any time &mdash; scanning products stays free forever.</p>
@@ -136,12 +186,27 @@
     'font-weight="700" fill="#B4BBC7">INCI</text></svg>');
 
   var img = document.getElementById("fk-img");
+  var visImg = document.getElementById("fk-vis-img");
+  var badgeImg = document.getElementById("fk-badge-img");
   var doneP = document.getElementById("fk-done-p");
+
+  // Fil du produit pour le tunnel visage : la pastille « waiting for its verdict »
+  // du questionnaire (19) lit ce paquet, et 21-analyse referme la boucle sur
+  // `06-result-premium.html + suite`. Posé/actualisé à chaque affichage.
+  var attente = { nom: null, image: null, suite: null };
 
   function montrer(nom, image, n) {
     doneP.textContent = (nom || "Your product") + (n ? " · " + n + " ingredients read" : "");
-    if (image) { img.src = image; }
-    else { img.src = SILHOUETTE; img.style.mixBlendMode = "normal"; }
+    attente.nom = nom || "Your product";
+    attente.image = image || null;
+    attente.suite = suite;
+    if (image) { img.src = image; visImg.src = image; badgeImg.src = image; }
+    else {
+      img.src = SILHOUETTE; img.style.mixBlendMode = "normal";
+      visImg.src = SILHOUETTE; visImg.className = "plate";
+      badgeImg.src = SILHOUETTE; badgeImg.style.mixBlendMode = "normal";
+    }
+    try { sessionStorage.setItem("ss-produit-attente", JSON.stringify(attente)); } catch(e) {}
   }
 
   var suite = depuisEtiquette ? "?source=inci" : "?p=" + encodeURIComponent(key);
@@ -163,15 +228,28 @@
       .catch(function(){});
   }
 
-  // « Formula score — free » → fiche gratuite, même query.
+  // « How good is this product? » → fiche gratuite, même query.
   document.getElementById("fk-free").addEventListener("click", function(){
     location.href = "03-result-free.html" + suite;
   });
 
-  // « For your skin » → paywall si connecté, sinon compte d'abord (contrat §6).
+  // « Analyze for my skin » → le tunnel visage commence AUX QUESTIONS (la promesse
+  // est absorbée par cette carte — décision du 30/08). Tunnel frais : on purge les
+  // restes d'un passage précédent. Exception « retour direct paywall sans re-quiz » :
+  // un tunnel déjà complété dans la session (réponses + photo) saute au paywall.
   document.getElementById("fk-perso").addEventListener("click", function(){
+    var dejaFait = false;
+    try {
+      dejaFait = !!(sessionStorage.getItem("ss-visage-answers") && sessionStorage.getItem("ss-visage-photo"));
+    } catch(e) {}
     SS.moi().then(function(m){
-      location.href = m.connecte ? "16-paywall.html" : "15-compte.html?next=paywall";
+      if (m.connecte && dejaFait) { location.href = "16-paywall.html"; return; }
+      try {
+        sessionStorage.removeItem("ss-visage-answers");
+        sessionStorage.removeItem("ss-visage-photo");
+        sessionStorage.removeItem("ss-visage-erreur");
+      } catch(e) {}
+      location.href = "19-questions.html";
     });
   });
 })();
