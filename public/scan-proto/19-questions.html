@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin AI — Your skin profile</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="commun/base.css">
+  <style>
+/* ═══ 19-questions — le questionnaire du scan visage (7 étapes) ═══
+   PORT de la V1 : src/components/screens/QuestionScreen.tsx + questions-glass.css
+   + les règles de layout utiles de funnel.css (.opt, .list, .topbar, .footer).
+   Les deux feuilles V1 sont ici FUSIONNÉES (qglass gagnait dans la cascade V1)
+   et scopées sous `.qg` ; les tokens (--ink, --cloud, --graphite…) viennent de
+   base.css. Le fond + les orbes viennent de `.phone` (base.css), pas de
+   `.qglass::before` : dans le proto c'est le cadre téléphone qui les porte. */
+
+.qg {
+  --glass:rgba(255,255,255,0.46); --glass-hi:rgba(255,255,255,0.66);
+  --gline:rgba(255,255,255,0.7); --sheen:inset 0 1px 0 rgba(255,255,255,0.75);
+  --blur:blur(18px) saturate(165%);
+  /* layout de la V1 (.screen) : hauteur figée, seule la liste défile, pied ancré.
+     Sur ≥480px le proto affiche une carte téléphone → on garde le format 430×932
+     des maquettes, plafonné au viewport. */
+  display:flex; flex-direction:column; height:100dvh;
+}
+@media (min-width:480px) { .qg { height:932px; max-height:calc(100dvh - 120px); } }
+
+/* ── brand (logo centré, comme tous les écrans du tunnel V1) ── */
+.qg .brand { display:flex; align-items:center; justify-content:center;
+  padding:max(30px, calc(env(safe-area-inset-top) + 12px)) 24px 0;
+  animation:rise .5s cubic-bezier(.22,1,.36,1) both .02s; }
+.qg .brand img { height:29px; width:auto; display:block; }
+
+/* ── topbar : retour + progression en verre ── */
+.qg .topbar { padding:20px 24px 0; display:flex; align-items:center; gap:14px;
+  animation:rise .5s cubic-bezier(.22,1,.36,1) both .05s; }
+.qg .back { width:40px; height:40px; border-radius:50%; flex-shrink:0; cursor:pointer;
+  display:flex; align-items:center; justify-content:center; color:var(--ink);
+  background:var(--glass); -webkit-backdrop-filter:blur(12px) saturate(160%); backdrop-filter:blur(12px) saturate(160%);
+  border:1px solid var(--gline); box-shadow:var(--sheen), 0 4px 12px rgba(40,55,75,0.10); }
+.qg .back:focus-visible { outline:2px solid var(--blue-d); outline-offset:2px; }
+.qg .prog { flex:1; height:5px; border-radius:100px; overflow:hidden;
+  background:rgba(255,255,255,0.4); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px);
+  border:1px solid rgba(255,255,255,0.55); box-shadow:inset 0 1px 2px rgba(40,55,75,0.06); }
+.qg .prog-fill { height:100%; width:var(--pw); border-radius:100px;
+  background:linear-gradient(90deg, var(--blue-d), #40424D);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.35);
+  animation:grow .9s cubic-bezier(.22,1,.36,1) both .2s; }
+@keyframes grow { from { width:0; } to { width:var(--pw); } }
+.qg .prog-step { font-family:var(--fm); font-size:10px; color:var(--graphite); letter-spacing:0.08em; flex-shrink:0; }
+
+/* ── en-tête de question ── */
+.qg .qhead { padding:26px 26px 14px; }
+.qg .question { font-weight:800; font-size:28px; line-height:1.1; letter-spacing:-0.035em; color:var(--ink); }
+.qg .helper { font-weight:400; font-size:12.5px; color:var(--graphite); margin-top:11px; line-height:1.4; }
+.qg .helper svg { color:var(--graphite); vertical-align:-2px; margin-right:6px; }
+.qg .helper b { color:var(--ink); font-weight:700; }
+
+/* ── liste : colonne par défaut, grille 2 col. pour `age` et q1 ── */
+.qg .list { flex:1; min-height:0; overflow-y:auto; scrollbar-width:none;
+  padding:6px 22px 12px; display:flex; flex-direction:column; gap:10px; }
+.qg .list::-webkit-scrollbar { display:none; }
+.qg .list.grid2 { padding:4px 22px 12px; display:grid; grid-template-columns:1fr 1fr; gap:9px; align-content:start; }
+
+/* ── option : carte en verre dépoli ── */
+.qg .opt {
+  position:relative; display:flex; flex-direction:row; align-items:center; gap:14px;
+  padding:14px 46px 14px 14px; border-radius:18px; cursor:pointer; -webkit-tap-highlight-color:transparent;
+  font:inherit; text-align:left; color:inherit; flex-shrink:0;
+  background:var(--glass); -webkit-backdrop-filter:var(--blur); backdrop-filter:var(--blur);
+  border:1px solid var(--gline); box-shadow:0 8px 22px rgba(40,55,75,0.10), var(--sheen);
+  transition:background .24s, border-color .24s, transform .15s, box-shadow .24s, opacity .22s;
+  /* backwards (pas both) : `both` retiendrait opacity:1 et bloquerait .dim */
+  animation:rise .5s cubic-bezier(.22,1,.36,1) backwards;
+}
+.qg .opt:hover { background:var(--glass-hi); box-shadow:0 12px 28px rgba(40,55,75,0.14), inset 0 1px 0 rgba(255,255,255,0.85); }
+.qg .opt:active { transform:scale(0.99); }
+.qg .opt:focus-visible { outline:2px solid var(--blue-d); outline-offset:2px; }
+.qg .grid2 .opt { flex-direction:column; align-items:flex-start; gap:11px; padding:14px 14px 15px; }
+.qg .grid2 .opt:active { transform:scale(0.985); }
+
+.qg .opt-ic { width:46px; height:46px; border-radius:13px; flex-shrink:0;
+  background:rgba(255,255,255,0.5); -webkit-backdrop-filter:blur(6px); backdrop-filter:blur(6px);
+  border:1px solid rgba(255,255,255,0.6); box-shadow:inset 0 1px 0 rgba(255,255,255,0.8);
+  display:flex; align-items:center; justify-content:center; color:var(--graphite);
+  transition:background .24s, color .24s, box-shadow .24s, border-color .24s; }
+.qg .opt-tx { min-width:0; display:block; }
+.qg .opt-l { display:block; font-weight:700; font-size:15px; color:var(--ink); letter-spacing:-0.025em; line-height:1.12; }
+.qg .opt-s { display:block; font-size:11.5px; color:var(--space); margin-top:3px; line-height:1.25; }
+.qg .grid2 .opt-l { font-size:14.5px; }
+.qg .grid2 .opt-s { font-size:11px; }
+
+.qg .opt-radio { position:absolute; top:50%; right:14px; transform:translateY(-50%);
+  width:24px; height:24px; border-radius:50%;
+  border:1.5px solid rgba(110,154,182,0.4); background:rgba(255,255,255,0.4); box-shadow:var(--sheen);
+  display:flex; align-items:center; justify-content:center; color:transparent;
+  transition:all .22s cubic-bezier(.34,1.56,.64,1); }
+.qg .grid2 .opt-radio { top:13px; right:13px; transform:none; }
+
+/* état sélectionné */
+.qg .opt.sel { background:rgba(166,195,214,0.30); border-color:rgba(166,195,214,0.85);
+  box-shadow:0 14px 30px rgba(110,154,182,0.30), inset 0 1px 0 rgba(255,255,255,0.7); }
+.qg .opt.sel .opt-ic { background:linear-gradient(160deg, #B7CFDF, var(--blue-d)); border-color:rgba(255,255,255,0.55);
+  color:#fff; box-shadow:0 6px 14px rgba(110,154,182,0.30), inset 0 1px 0 rgba(255,255,255,0.5); }
+.qg .opt.sel .opt-s { color:var(--graphite); }
+.qg .opt.sel .opt-radio { background:linear-gradient(160deg, #B7CFDF, var(--blue-d)); border-color:transparent; color:#fff;
+  box-shadow:0 3px 8px rgba(110,154,182,0.30), inset 0 1px 0 rgba(255,255,255,0.5); transform:translateY(-50%) scale(1.06); }
+.qg .grid2 .opt.sel .opt-radio { transform:scale(1.06); }
+.qg .opt.dim { opacity:0.42; pointer-events:none; }
+
+/* q5 : gate (pastille carrée) + sous-bloc révélé */
+.qg .opt.gate .opt-radio { border-radius:8px; }
+.qg .reveal { display:flex; flex-direction:column; gap:10px; overflow:hidden; max-height:0; opacity:0; flex-shrink:0;
+  transform:translateY(-4px);
+  transition:max-height .42s cubic-bezier(.22,1,.36,1), opacity .3s ease, transform .42s cubic-bezier(.22,1,.36,1); }
+.qg .reveal.open { max-height:1400px; opacity:1; transform:none; }
+.qg .sub { font-family:var(--fm); font-size:10.5px; letter-spacing:0.07em; text-transform:uppercase; color:var(--graphite);
+  padding:8px 4px 2px; display:flex; align-items:center; gap:8px; }
+.qg .sub::before { content:""; flex:0 0 18px; height:1px; background:rgba(110,154,182,0.4); }
+
+/* ── pied : compteur + CTA sombre, ancré sous la liste (comme la V1) ── */
+.qg .footer { flex-shrink:0;
+  padding:14px 22px calc(env(safe-area-inset-bottom) + 26px);
+  background:linear-gradient(to top, #E5EAF1 62%, rgba(229,234,241,0)); }
+.qg .foot-row { display:flex; align-items:center; gap:14px; }
+.qg .counter { font-family:var(--fm); font-size:10px; color:var(--graphite); letter-spacing:0.05em; white-space:nowrap; }
+.qg .counter b { color:var(--ink); font-weight:500; }
+.qg .cta-btn { flex:1; width:auto; height:56px; border-radius:16px; border:1px solid rgba(255,255,255,0.08); cursor:pointer;
+  background:linear-gradient(180deg, #2A2D34 0%, #1A1D21 100%); color:#fff;
+  font-family:var(--fd); font-weight:600; font-size:15px; letter-spacing:-0.01em;
+  display:flex; align-items:center; justify-content:center; gap:9px;
+  box-shadow:0 8px 20px rgba(26,29,33,0.26), inset 0 1px 0 rgba(255,255,255,0.22);
+  transition:opacity .2s, transform .18s, box-shadow .2s; }
+.qg .cta-btn:disabled { opacity:0.34; box-shadow:none; cursor:not-allowed; transform:none; }
+.qg .cta-btn:not(:disabled):hover { transform:translateY(-2px); box-shadow:0 12px 26px rgba(26,29,33,0.30), inset 0 1px 0 rgba(255,255,255,0.28); }
+.qg .cta-btn svg { transition:transform .2s; }
+.qg .cta-btn:not(:disabled):hover svg { transform:translateX(3px); }
+
+/* rejouée à chaque changement d'étape (la V1 remontait la route) */
+@keyframes rise { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
+.qg .rise { animation:rise .55s cubic-bezier(.22,1,.36,1) both var(--d, 0s); }
+@media (prefers-reduced-motion: reduce) {
+  .qg .brand, .qg .topbar, .qg .rise, .qg .opt, .qg .prog-fill { animation:none; }
+}
+  </style>
+</head>
+<body>
+<div class="phone qg">
+  <div class="brand"><img src="logo.png" alt="SmartSkin AI"></div>
+
+  <div class="topbar">
+    <button type="button" class="back" id="q-back" aria-label="Back"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"></path></svg></button>
+    <div class="prog" id="q-prog" role="progressbar" aria-valuemin="1" aria-valuemax="7" aria-valuenow="1" aria-label="Step 1 of 7"></div>
+    <span class="prog-step" id="q-step"></span>
+  </div>
+
+  <div class="qhead" id="q-head"></div>
+  <div class="list" id="q-list"></div>
+
+  <div class="footer" id="q-footer">
+    <div class="foot-row">
+      <span class="counter" id="q-counter" style="display:none"></span>
+      <button type="button" class="cta-btn" id="q-cta" disabled></button>
+    </div>
+  </div>
+</div>
+
+<script src="commun/app.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  /* ═══════════════════════════════════════════════════════════════════════
+     DONNÉES — port VERBATIM de src/features/funnel/questions.ts
+     (libellés, sous-textes, aides, icônes et `value` inchangés : les `value`
+     alimentent le moteur de reco, et ces écrans sont validés par Apple).
+     q6 (budget) n'est pas repris : la V1 l'a retiré de STEP_ORDER, il n'est
+     jamais posé. Il reste `q6:null` dans la réponse écrite (forme d'`Answers`).
+     ═══════════════════════════════════════════════════════════════════════ */
+
+  var CHECK = '<svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"/></svg>';
+  var PERSON = '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="7.3" r="3.4"/><path d="M4.7 17.6c0-3.3 2.9-5.4 6.3-5.4s6.3 2.1 6.3 5.4"/></svg>';
+  var PERSON_MUTED = '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="7.3" r="3.4"/><path d="M4.7 17.6c0-3.3 2.9-5.4 6.3-5.4s6.3 2.1 6.3 5.4"/><path d="M6 7.3h10" opacity="0.55"/></svg>';
+
+  var QUESTIONS = {
+    age: {
+      id: "age", index: 1, mode: "age", grid: true, ctaLabel: "Continue",
+      title: "What age range are you in?",
+      helperHtml: "Helps us <b>calibrate</b> your routine to your skin.",
+      options: [
+        { value: "under_18", label: "Under 18", icon: PERSON },
+        { value: "18_24", label: "18 – 24", icon: PERSON },
+        { value: "25_34", label: "25 – 34", icon: PERSON },
+        { value: "35_44", label: "35 – 44", icon: PERSON },
+        { value: "45_plus", label: "45 +", icon: PERSON },
+        { value: "prefer_not", label: "Prefer not to say", icon: PERSON_MUTED }
+      ]
+    },
+    q1: {
+      id: "q1", index: 2, mode: "multi", maxSelect: 3, grid: true,
+      title: "What would you like to improve on your skin?",
+      helperHtml: "Pick <b>up to 3</b> priorities.",
+      options: [
+        { value: "hydration", label: "Hydration", sub: "tightness, dryness",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M11 3C11 3 5 9.5 5 13a6 6 0 0 0 12 0C17 9.5 11 3 11 3Z" stroke-linejoin="round"/></svg>' },
+        { value: "radiance", label: "Radiance", sub: "dull, tired look",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="4"/><path d="M11 2.5v2M11 17.5v2M2.5 11h2M17.5 11h2M5 5l1.4 1.4M15.6 15.6L17 17M17 5l-1.4 1.4M6.4 15.6L5 17"/></svg>' },
+        { value: "blemishes", label: "Acne & breakouts", sub: "pimples, blackheads",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><circle cx="8.5" cy="9.5" r="1.4" fill="currentColor" stroke="none"/><circle cx="13.5" cy="9" r="1.1" fill="currentColor" stroke="none"/><circle cx="12" cy="13.5" r="1.2" fill="currentColor" stroke="none"/></svg>' },
+        { value: "pores", label: "Pores", sub: "visible, uneven",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 7H8Q9.2 7 9.2 9.3L9.2 13.2Q9.2 17.6 11 17.6"/><path d="M19.5 7H14Q12.8 7 12.8 9.3L12.8 13.2Q12.8 17.6 11 17.6"/></svg>' },
+        { value: "dark_spots", label: "Even tone", sub: "dark spots, marks",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7.5"/><path d="M11 3.5a7.5 7.5 0 0 1 0 15Z" fill="currentColor" stroke="none"/></svg>' },
+        { value: "fine_lines", label: "Fine lines", sub: "first wrinkles",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M4 7.5c2.4-1.6 4.8 1.6 7.2 0s4.8-1.6 6.8 0M4 13c2.4-1.6 4.8 1.6 7.2 0s4.8-1.6 6.8 0"/></svg>' },
+        { value: "firmness", label: "Firmness", sub: "loss of bounce",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 16.5V6.2"/><path d="M6.6 10.6L11 6l4.4 4.6"/><path d="M6 19h10" opacity="0.45"/></svg>' },
+        { value: "redness", label: "Calm skin", sub: "redness, reactivity",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 16.5C5.5 10 10 5.5 16.5 5.5c0 6.5-4.5 11-11 11Z"/><path d="M7.6 14.4c2.2-2.7 4.9-4.8 7.9-6.2"/></svg>' },
+        { value: "eye_area", label: "Eye area", sub: "dark circles, bags",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M3 11C4.8 7.6 7.6 6 11 6s6.2 1.6 8 5c-1.8 3.4-4.6 5-8 5s-6.2-1.6-8-5Z"/><circle cx="11" cy="11" r="2.6"/></svg>' },
+        { value: "oiliness", label: "Oil balance", sub: "excess oil, T-zone",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 14.5a6.5 6.5 0 0 1 13 0"/><path d="M11 14.5l3.2-3.8"/><circle cx="11" cy="14.5" r="1" fill="currentColor" stroke="none"/></svg>' },
+        { value: "texture", label: "Texture", sub: "rough, uneven",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="6" cy="6" r="1.1" fill="currentColor"/><circle cx="11" cy="6" r="1.1" fill="currentColor"/><circle cx="16" cy="6" r="1.1" fill="currentColor"/><circle cx="6" cy="11" r="1.1" fill="currentColor"/><circle cx="11" cy="11" r="1.1" fill="currentColor"/><circle cx="16" cy="11" r="1.1" fill="currentColor"/><circle cx="6" cy="16" r="1.1" fill="currentColor"/><circle cx="11" cy="16" r="1.1" fill="currentColor"/><circle cx="16" cy="16" r="1.1" fill="currentColor"/></svg>' },
+        { value: "discover", label: "Not sure yet", sub: "help me find out", exclusive: true,
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="M14 8l-1.8 4.4L8 14l1.8-4.4L14 8Z" stroke-linejoin="round"/></svg>' }
+      ]
+    },
+    q2: {
+      id: "q2", index: 3, mode: "multi",
+      title: "Any ingredients that irritate your skin?",
+      helperHtml: "Select any that apply — <b>optional</b>.",
+      options: [
+        { value: "fragrance", label: "Fragrance", sub: "redness, stinging",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="7.3" y="9.5" width="7" height="8.5" rx="2.4"/><path d="M9.6 9.5V6.8h2.8v2.7"/><rect x="9.2" y="4.7" width="3.6" height="2.1" rx="0.6"/><circle cx="16" cy="5.8" r="0.7" fill="currentColor" stroke="none"/><circle cx="17.4" cy="7" r="0.55" fill="currentColor" stroke="none"/><circle cx="16.4" cy="8.3" r="0.5" fill="currentColor" stroke="none"/></svg>' },
+        { value: "alcohol", label: "Alcohol", sub: "tightness, dryness",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8.8 4h4.4"/><path d="M10 4v4L6.6 15.4A1.4 1.4 0 0 0 7.9 17.5h6.2a1.4 1.4 0 0 0 1.3-2.1L12 8V4"/><path d="M8.4 12.6h5.2"/></svg>' },
+        { value: "essential-oils", label: "Essential oils", sub: "lavender, citrus — sensitizing",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="9.5" y="3.8" width="3" height="7.4" rx="0.6"/><rect x="9.9" y="2.4" width="2.2" height="1.5" rx="0.4"/><path d="M11 13c0 0-1.3 1.5-1.3 2.5a1.3 1.3 0 0 0 2.6 0C12.3 14.5 11 13 11 13Z"/></svg>' },
+        { value: "sulfates", label: "Sulfates", sub: "foaming cleansers, drying",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="9.2" r="2.7"/><circle cx="13.2" cy="8.2" r="2"/><circle cx="12.6" cy="13" r="2.4"/><circle cx="8.4" cy="13.8" r="1.6"/></svg>' },
+        { value: "none", label: "None", sub: "nothing to report", exclusive: true,
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7.3"/><path d="M6.2 6.2l9.6 9.6"/></svg>' }
+      ]
+    },
+    q3: {
+      id: "q3", index: 4, mode: "multi",
+      title: "Have you used these actives before?",
+      helperHtml: "Check what your skin <b>already tolerates</b> — we'll ease in the rest.",
+      options: [
+        { value: "retinol", label: "Retinol / retinoids", sub: "anti-aging, renewal",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5.6 8.4A6 6 0 0 1 16.2 8"/><path d="M16.4 13.6A6 6 0 0 1 5.8 14"/><path d="M16.4 4.6v3.6h-3.6"/><path d="M5.6 17.4v-3.6h3.6"/></svg>' },
+        { value: "acids", label: "AHA / BHA acids", sub: "salicylic, glycolic — acne, pores",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 6.4v3.2M9.4 12.3l-2.3 1.4M12.6 12.3l2.3 1.4"/><circle cx="11" cy="4.8" r="1.7"/><circle cx="6" cy="14.6" r="1.7"/><circle cx="16" cy="14.6" r="1.7"/><circle cx="11" cy="11" r="1.7"/></svg>' },
+        { value: "vitc", label: "Vitamin C", sub: "radiance, dark spots",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8.3"/><path d="M16 11Q17.47 8.32 14.54 7.46Q13.68 4.53 11 6Q8.32 4.53 7.46 7.46Q4.53 8.32 6 11Q4.53 13.68 7.46 14.54Q8.32 17.47 11 16Q13.68 17.47 14.54 14.54Q17.47 13.68 16 11Z"/><path d="M11 11L16 11M11 11L14.54 7.46M11 11L11 6M11 11L7.46 7.46M11 11L6 11M11 11L7.46 14.54M11 11L11 16M11 11L14.54 14.54"/></svg>' },
+        { value: "niacinamide", label: "Niacinamide", sub: "pores, oil, redness",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 3.6L16.7 6.9V13.5L11 16.8 5.3 13.5V6.9z"/><circle cx="11" cy="10.2" r="1.5"/></svg>' },
+        { value: "none", label: "None, I'm a beginner", sub: "we'll start gently", exclusive: true,
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 18V9.5"/><path d="M11 11.5C11 9.3 9.3 7.7 7 7.7 7 9.9 8.7 11.5 11 11.5Z"/><path d="M11 10C11 7.8 12.7 6.2 15 6.2 15 8.4 13.3 10 11 10Z"/><path d="M7.5 18h7"/></svg>' }
+      ]
+    },
+    q4: {
+      id: "q4", index: 5, mode: "single",
+      title: "Do you wear sunscreen?",
+      helperHtml: "<b>SPF</b> changes the whole dark-spot strategy.",
+      /* Écran solaire : SANS icônes (fréquence abstraite → texte seul), fidèle à la maquette. */
+      options: [
+        { value: "daily", label: "Every day", sub: "rain or shine" },
+        { value: "sometimes", label: "Sometimes", sub: "summer, sunny days" },
+        { value: "never", label: "Never", sub: "not in my routine yet" }
+      ]
+    },
+    q5: {
+      id: "q5", index: 6, mode: "gate",
+      title: "Has your skin changed recently?",
+      helperHtml: "Over the <b>last 3 months</b> — to tell a passing flare-up from a lasting state.",
+      options: [
+        { value: "yes", label: "Yes, something changed", sub: "stress, hormones, season, product…",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11a8 8 0 0 1 13.5-5.5L19 8M19 3v5h-5"/><path d="M19 11a8 8 0 0 1-13.5 5.5L3 14M3 19v-5h5"/></svg>' },
+        { value: "no", label: "No, it's stable", sub: "same as usual",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h16"/><path d="M5 7.5h12M5 14.5h12" opacity=".45"/></svg>' }
+      ],
+      revealTitle: "What changed?",
+      revealOptions: [
+        { value: "breakouts", label: "More breakouts", sub: "a recent flare-up",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><circle cx="8" cy="9" r="1.1" fill="currentColor" stroke="none"/><circle cx="14" cy="8.5" r="1.1" fill="currentColor" stroke="none"/><circle cx="12.5" cy="13.5" r="1.1" fill="currentColor" stroke="none"/></svg>' },
+        { value: "dry", label: "Drier", sub: "tightness, new discomfort",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4l1.5 2L5 8M9 3l1.5 2L9 7M13 4l1.5 2L13 8M17 5l-1.5 2L17 9"/><path d="M4 13h14M4 16h14" opacity=".55"/></svg>' },
+        { value: "oily", label: "Oilier", sub: "shine, more oil",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 3s5 5.5 5 9a5 5 0 0 1-10 0c0-3.5 5-9 5-9Z"/><path d="M9 12.5a2 2 0 0 0 2 2" opacity=".6"/></svg>' },
+        { value: "redness", label: "Redness / sensitivity", sub: "new reactions",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 3c1 2.5 3.5 4 3.5 7a3.5 3.5 0 0 1-7 0c0-1.4.7-2.4 1.4-3.3C9.7 8.2 11 6 11 3Z"/><path d="M6 14a5 5 0 0 0 10 0" opacity=".5"/></svg>' },
+        { value: "spots", label: "Spots / marks", sub: "recently appeared",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M8 8.5a1.6 1.6 0 1 0 .01 0M14 13a1.3 1.3 0 1 0 .01 0M13.5 8a1 1 0 1 0 .01 0" fill="currentColor" stroke="none" opacity=".75"/></svg>' }
+      ]
+    },
+    q7: {
+      id: "q7", index: 7, mode: "multi", ctaLabel: "Start my analysis",
+      title: "Anything to flag?",
+      helperHtml: "To <b>rule out actives</b> not advised in your case.",
+      options: [
+        { value: "pregnancy", label: "Pregnancy / breastfeeding", sub: "we avoid retinoids & salicylic",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="9" r="5"/><circle cx="9.2" cy="8.6" r="0.55" fill="currentColor" stroke="none"/><circle cx="12.8" cy="8.6" r="0.55" fill="currentColor" stroke="none"/><path d="M9.4 11c1 .8 2.2.8 3.2 0"/><path d="M6.5 15.5c1-1.4 2.7-2.2 4.5-2.2s3.5.8 4.5 2.2"/></svg>' },
+        { value: "condition", label: "Rosacea / eczema", sub: "diagnosed reactive skin",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="5" width="13" height="12" rx="3.6"/><path d="M6.8 10c1.2-1.1 2.6 1 4 0s2.8-1.1 4.2 0"/><circle cx="8.6" cy="13.6" r="0.7" fill="currentColor" stroke="none"/><circle cx="13" cy="13.2" r="0.6" fill="currentColor" stroke="none"/></svg>' },
+        { value: "treatment", label: "Ongoing dermatological treatment", sub: "prescription (Accutane, etc.)",
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><g transform="rotate(-38 11 11)"><rect x="4.6" y="8.5" width="12.8" height="5" rx="2.5"/><path d="M11 8.5v5"/></g></svg>' },
+        { value: "none", label: "Nothing to report", sub: "no restrictions", exclusive: true,
+          icon: '<svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7.3"/><path d="M6.2 6.2l9.6 9.6"/></svg>' }
+      ]
+    }
+  };
+
+  /* STEP_ORDER de la V1 : q6 (budget) retiré → 7 étapes. */
+  var ORDRE = ["age", "q1", "q2", "q3", "q4", "q5", "q7"];
+  var TOTAL = ORDRE.length;
+  var CLE = "ss-visage-answers";
+  var SUIVANT = "20-capture.html";
+
+  var HELPER_IC = '<svg width="13" height="13" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.3"><circle cx="7" cy="7" r="5.5"/><path d="M7 9.5V6.5M7 4.6v.05" stroke-linecap="round"/></svg>';
+  var ARROW_IC = '<svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h9M8 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+  /* ═══ ÉTAT ═══ forme exacte d'`Answers` (src/features/funnel/types.ts) ═══ */
+  function vide() {
+    return { age: null, q1: [], q2: [], q3: [], q4: null, q5: { changed: null, symptoms: [] }, q6: null, q7: [] };
+  }
+
+  var rep = vide();
+  var iEtape = 0;
+
+  /* ═══ VALIDATION — port de src/features/funnel/validation.ts ═══ */
+
+  // valeurs exclusives connues, toutes questions confondues (comme la V1)
+  var EXCLUSIVES = (function () {
+    var set = {}, k, i, opts;
+    for (k in QUESTIONS) {
+      if (!Object.prototype.hasOwnProperty.call(QUESTIONS, k)) continue;
+      opts = QUESTIONS[k].options.concat(QUESTIONS[k].revealOptions || []);
+      for (i = 0; i < opts.length; i++) { if (opts[i].exclusive) set[opts[i].value] = true; }
+    }
+    return set;
+  })();
+
+  /** Bascule une valeur dans une sélection multi (exclusivité + maximum).
+   *  - cocher une option exclusive → la sélection ne contient plus qu'elle
+   *  - cocher une option normale → retire toute exclusive posée
+   *  - max atteint (q1 : 3) → une option de plus est ignorée (décocher reste possible) */
+  function basculer(courant, valeur, estExclusive, max) {
+    if (courant.indexOf(valeur) !== -1) {
+      return courant.filter(function (v) { return v !== valeur; });
+    }
+    if (estExclusive) return [valeur];
+    var nettoye = courant.filter(function (v) { return !EXCLUSIVES[v]; });
+    if (max !== undefined && nettoye.length >= max) return courant;
+    nettoye = nettoye.slice();
+    nettoye.push(valeur);
+    return nettoye;
+  }
+
+  function etapeValide(step, a) {
+    if (step === "age") return a.age !== null;
+    if (step === "q1") return a.q1.length > 0;
+    if (step === "q2") return a.q2.length > 0;
+    if (step === "q3") return a.q3.length > 0;
+    if (step === "q4") return a.q4 !== null;
+    if (step === "q5") {
+      if (a.q5.changed === false) return true;
+      if (a.q5.changed === true) return a.q5.symptoms.length > 0;
+      return false;
+    }
+    if (step === "q6") return a.q6 !== null;
+    if (step === "q7") return a.q7.length > 0;
+    return false;
+  }
+
+  /* ═══ STOCKAGE ═══
+     Contrat : à la fin, `ss-visage-answers` (session) contient un `Answers`.
+     On écrit aussi à CHAQUE réponse — sans quoi la reprise après rechargement
+     demandée par le lot n'aurait rien à reprendre. */
+  function sauver() {
+    try { sessionStorage.setItem(CLE, JSON.stringify(rep)); } catch (e) {}
+  }
+  function charger() {
+    var brut = null, o;
+    try { brut = sessionStorage.getItem(CLE); } catch (e) {}
+    if (!brut) return false;
+    try { o = JSON.parse(brut); } catch (e) { return false; }
+    if (!o || typeof o !== "object") return false;
+    var a = vide();
+    if (typeof o.age === "string") a.age = o.age;
+    if (typeof o.q4 === "string") a.q4 = o.q4;
+    if (typeof o.q6 === "string") a.q6 = o.q6;
+    ["q1", "q2", "q3", "q7"].forEach(function (k) {
+      if (Object.prototype.toString.call(o[k]) === "[object Array]") a[k] = o[k].slice();
+    });
+    if (o.q5 && typeof o.q5 === "object") {
+      if (o.q5.changed === true || o.q5.changed === false) a.q5.changed = o.q5.changed;
+      if (Object.prototype.toString.call(o.q5.symptoms) === "[object Array]") a.q5.symptoms = o.q5.symptoms.slice();
+    }
+    rep = a;
+    return true;
+  }
+  /** Reprise : la 1ʳᵉ étape encore invalide (on ne peut pas avoir dépassé une
+   *  étape invalide). Tout valide → la dernière, prête à être relancée. */
+  function etapeReprise() {
+    var i;
+    for (i = 0; i < TOTAL; i++) { if (!etapeValide(ORDRE[i], rep)) return i; }
+    return TOTAL - 1;
+  }
+
+  /* ═══ RENDU ═══ */
+  var elHead = document.getElementById("q-head");
+  var elList = document.getElementById("q-list");
+  var elFooter = document.getElementById("q-footer");
+  var elProg = document.getElementById("q-prog");
+  var elStep = document.getElementById("q-step");
+  var elCta = document.getElementById("q-cta");
+  var elCounter = document.getElementById("q-counter");
+
+  function esc(s) {
+    return String(s == null ? "" : s)
+      .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  }
+  function pad2(n) { return n < 10 ? "0" + n : "" + n; }
+  function rejouer(el, delai) {
+    el.classList.remove("rise");
+    void el.offsetWidth;              // reflow : relance l'animation
+    el.style.setProperty("--d", delai);
+    el.classList.add("rise");
+  }
+
+  function selectionMulti(step) {
+    var q = QUESTIONS[step];
+    if (q.mode === "multi") return rep[step];
+    return [];
+  }
+
+  /** q1 : options grisées (maquette) — exclusive posée, ou max atteint. */
+  function grisees(q, choisies) {
+    if (q.mode !== "multi" || q.maxSelect === undefined) return {};
+    var exclusivePosee = false, i, o, out = {};
+    for (i = 0; i < q.options.length; i++) {
+      o = q.options[i];
+      if (o.exclusive && choisies.indexOf(o.value) !== -1) { exclusivePosee = true; break; }
+    }
+    for (i = 0; i < q.options.length; i++) {
+      o = q.options[i];
+      var estChoisie = choisies.indexOf(o.value) !== -1;
+      if (exclusivePosee && !o.exclusive) out[o.value] = true;
+      else if (!exclusivePosee && o.exclusive && choisies.length > 0) out[o.value] = true;
+      else if (!exclusivePosee && !estChoisie && choisies.length >= q.maxSelect) out[o.value] = true;
+    }
+    return out;
+  }
+
+  function htmlOption(o, sel, dim, gate, delai, sym) {
+    var cls = "opt" + (gate ? " gate" : "") + (sel ? " sel" : "") + (dim ? " dim" : "") + (o.badge ? " featured" : "");
+    var h = '<button type="button" class="' + cls + '" data-v="' + esc(o.value) + '"'
+          + (sym ? ' data-sym="1"' : "")
+          + ' aria-pressed="' + (sel ? "true" : "false") + '"'
+          + (delai === null ? "" : ' style="animation-delay:' + delai + 's"') + '>';
+    if (o.icon) h += '<span class="opt-ic" aria-hidden="true">' + o.icon + '</span>';
+    h += '<span class="opt-tx"><span class="opt-l">' + esc(o.label)
+       + (o.badge ? '<span class="opt-badge">' + esc(o.badge) + '</span>' : "")
+       + '</span>';
+    if (o.sub) h += '<span class="opt-s">' + esc(o.sub) + '</span>';
+    h += '</span><span class="opt-radio" aria-hidden="true">' + CHECK + '</span></button>';
+    return h;
+  }
+
+  /** Rend la liste d'options. `reconstruire` = changement d'étape ; sinon on met
+   *  à jour les classes en place (reconstruire rejouerait l'animation `rise`). */
+  function rendreListe(reconstruire) {
+    var step = ORDRE[iEtape];
+    var q = QUESTIONS[step];
+    var choisies, dim, html = "", i;
+
+    if (q.mode === "age") choisies = rep.age ? [rep.age] : [];
+    else if (q.mode === "single") choisies = rep[step] ? [rep[step]] : [];
+    else if (q.mode === "multi") choisies = rep[step];
+    else choisies = rep.q5.changed === true ? ["yes"] : rep.q5.changed === false ? ["no"] : [];
+
+    dim = grisees(q, choisies);
+
+    if (!reconstruire) {
+      // mise à jour en place : classes + aria seulement
+      var noeuds = elList.querySelectorAll(".opt");
+      for (i = 0; i < noeuds.length; i++) {
+        var n = noeuds[i];
+        var v = n.getAttribute("data-v");
+        var estSym = n.getAttribute("data-sym") === "1";
+        var sel = estSym ? rep.q5.symptoms.indexOf(v) !== -1 : choisies.indexOf(v) !== -1;
+        n.classList.toggle("sel", sel);
+        n.classList.toggle("dim", !estSym && !!dim[v]);
+        n.setAttribute("aria-pressed", sel ? "true" : "false");
+      }
+      var rev = elList.querySelector(".reveal");
+      if (rev) rev.classList.toggle("open", rep.q5.changed === true);
+      return;
+    }
+
+    for (i = 0; i < q.options.length; i++) {
+      html += htmlOption(q.options[i], choisies.indexOf(q.options[i].value) !== -1,
+                         !!dim[q.options[i].value], q.mode === "gate", 0.16 + i * 0.04, false);
+    }
+    if (q.mode === "gate") {
+      var ouvert = rep.q5.changed === true;
+      html += '<div class="reveal' + (ouvert ? " open" : "") + '"><div class="sub">' + esc(q.revealTitle) + '</div>';
+      for (i = 0; i < q.revealOptions.length; i++) {
+        html += htmlOption(q.revealOptions[i], rep.q5.symptoms.indexOf(q.revealOptions[i].value) !== -1,
+                           false, false, null, true);
+      }
+      html += '</div>';
+    }
+    elList.innerHTML = html;
+    elList.className = "list" + (q.grid ? " grid2" : "");
+  }
+
+  function rendrePied() {
+    var step = ORDRE[iEtape];
+    var q = QUESTIONS[step];
+    if (q.maxSelect !== undefined) {
+      elCounter.style.display = "";
+      elCounter.innerHTML = "<b>" + selectionMulti(step).length + "</b>/" + q.maxSelect + " selected";
+    } else {
+      elCounter.style.display = "none";
+    }
+    elCta.disabled = !etapeValide(step, rep);
+    elCta.innerHTML = esc(q.ctaLabel || "Continue") + ARROW_IC;
+  }
+
+  function rendre() {
+    var q = QUESTIONS[ORDRE[iEtape]];
+    var pct = Math.round((q.index / TOTAL) * 100);
+
+    elProg.innerHTML = '<div class="prog-fill" style="--pw:' + pct + '%"></div>';
+    elProg.setAttribute("aria-valuenow", q.index);
+    elProg.setAttribute("aria-label", "Step " + q.index + " of " + TOTAL);
+    elStep.textContent = pad2(q.index) + " / " + pad2(TOTAL);
+
+    elHead.innerHTML = '<h1 class="question">' + esc(q.title) + '</h1>'
+      + '<p class="helper">' + HELPER_IC + '<span>' + q.helperHtml + '</span></p>';
+
+    rendreListe(true);
+    rendrePied();
+
+    rejouer(elHead, ".12s");
+    rejouer(elFooter, ".5s");
+    elList.scrollTop = 0;
+  }
+
+  /* ═══ INTERACTIONS ═══ */
+
+  elList.addEventListener("click", function (e) {
+    var btn = e.target.closest ? e.target.closest(".opt") : null;
+    if (!btn || !elList.contains(btn)) return;
+    var valeur = btn.getAttribute("data-v");
+    var step = ORDRE[iEtape];
+    var q = QUESTIONS[step];
+
+    if (btn.getAttribute("data-sym") === "1") {
+      rep.q5.symptoms = basculer(rep.q5.symptoms, valeur, false, undefined);
+    } else if (q.mode === "age") {
+      rep.age = valeur;
+    } else if (q.mode === "single") {
+      rep[step] = valeur;
+    } else if (q.mode === "multi") {
+      var exclusive = false, i;
+      for (i = 0; i < q.options.length; i++) {
+        if (q.options[i].value === valeur) { exclusive = !!q.options[i].exclusive; break; }
+      }
+      rep[step] = basculer(rep[step], valeur, exclusive, q.maxSelect);
+    } else { // gate
+      var change = valeur === "yes";
+      rep.q5 = { changed: change, symptoms: change ? rep.q5.symptoms : [] };
+    }
+
+    sauver();
+    rendreListe(false);
+    rendrePied();
+  });
+
+  elCta.addEventListener("click", function () {
+    if (!etapeValide(ORDRE[iEtape], rep)) return;
+    sauver();
+    if (iEtape >= TOTAL - 1) { location.href = SUIVANT; return; }
+    iEtape += 1;
+    rendre();
+  });
+
+  /* Retour : 1ʳᵉ étape → sortie du questionnaire (accueil du proto). */
+  document.getElementById("q-back").addEventListener("click", function () {
+    if (iEtape === 0) { location.href = "index.html"; return; }
+    iEtape -= 1;
+    rendre();
+  });
+
+  /* ═══ DÉMARRAGE ═══ */
+  if (charger()) iEtape = etapeReprise();
+  rendre();
+})();
+</script>
+</body>
+</html>
