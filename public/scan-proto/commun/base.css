@@ -1,0 +1,164 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   SmartSkin — proto scan V2 · socle de style commun (base.css)
+   Tokens + squelette copiés de 06-result-premium.html (source de vérité) ;
+   tabbar de DashboardAbonnee.dc.html ; scrim/modal d'AddRoutine.dc.html ;
+   modal compte de SaveShelf.dc.html. Chaque page ajoute son CSS spécifique
+   inline. Les 5 pages existantes du proto ne chargent PAS ce fichier.
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --bg:#F1F3F6; --ink:#1A1D21; --card:#FFFFFF; --cloud:#EDEFF7; --smoke:#D3D6E0; --steel:#BCBFCC;
+  --space:#9DA2B3; --graphite:#6E7180; --arsenic:#40424D;
+  --blue:#A6C3D6; --blue-d:#6E9AB6;
+  --fd:'Manrope',sans-serif; --fm:'Manrope',sans-serif;
+  --glass-bg:linear-gradient(180deg, rgba(255,255,255,0.80), rgba(255,255,255,0.62));
+  --glass-line:rgba(255,255,255,0.62);
+  --glass-shadow:inset 0 1px 0 rgba(255,255,255,0.75), 0 1px 2px rgba(0,0,0,0.03), 0 8px 22px rgba(40,55,75,0.075);
+}
+html { background:#DEE0E5; -webkit-font-smoothing:antialiased; }
+body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex; justify-content:center; align-items:flex-start; }
+
+/* ── cadre téléphone + orbes de fond ── */
+.phone { position:relative; width:100%; max-width:430px; min-height:100dvh;
+  background:linear-gradient(168deg,#EFF2F7 0%,#E5EAF1 100%); overflow-x:hidden; z-index:0; isolation:isolate; }
+.phone::before { content:''; position:absolute; top:-6%; left:-12%; right:-12%; height:130vh; z-index:-1; pointer-events:none;
+  background:
+    radial-gradient(38% 24% at 12% 5%,  rgba(166,195,214,0.72), transparent 68%),
+    radial-gradient(26% 17% at 96% 20%, rgba(179,160,201,0.40), transparent 70%),
+    radial-gradient(34% 20% at 60% 34%, rgba(166,195,214,0.46), transparent 70%),
+    radial-gradient(30% 18% at 4% 42%,  rgba(179,160,201,0.24), transparent 70%),
+    radial-gradient(44% 24% at 52% 96%, rgba(166,195,214,0.26), transparent 70%);
+  filter:saturate(1.1); }
+@media (min-width:480px) {
+  body { padding:40px 16px 80px; }
+  .phone { min-height:auto; border-radius:52px; overflow:hidden;
+    box-shadow:0 0 0 1px rgba(0,0,0,0.07),0 4px 8px rgba(0,0,0,0.05),0 32px 80px rgba(0,0,0,0.18),0 12px 32px rgba(0,0,0,0.09); }
+}
+
+/* ── NAV ── */
+.nav { position:sticky; top:0; z-index:20; display:flex; justify-content:space-between; align-items:center;
+  padding:calc(env(safe-area-inset-top) + 26px) 24px 14px;
+  background:linear-gradient(to bottom, var(--bg) 78%, transparent); }
+.nav-back { width:44px; height:44px; border-radius:50%;
+  background:linear-gradient(180deg, rgba(255,255,255,0.72), rgba(255,255,255,0.46));
+  -webkit-backdrop-filter:blur(14px) saturate(1.5); backdrop-filter:blur(14px) saturate(1.5);
+  border:1px solid rgba(255,255,255,0.7);
+  box-shadow:inset 0 1px 1px rgba(255,255,255,0.9), 0 2px 8px rgba(26,29,33,0.12);
+  display:flex; align-items:center; justify-content:center; color:var(--ink); cursor:pointer; }
+.nav-back:focus-visible { outline:2px solid var(--blue-d); outline-offset:2px; }
+.nav-logo { position:absolute; left:50%; top:calc(env(safe-area-inset-top) + 26px); transform:translateX(-50%);
+  height:44px; display:flex; align-items:center; pointer-events:none; }
+.nav-logo img { height:30px; width:auto; display:block; }
+.nav-spacer { width:44px; }
+
+/* ── sections + cartes verre ── */
+.section { padding:26px 20px 0; }
+.sec-head { display:flex; flex-direction:column; gap:2px; margin-bottom:12px; }
+.sec-kicker { font-family:var(--fm); font-size:8px; color:var(--space); letter-spacing:0.18em; text-transform:uppercase; }
+.sec-name { font-weight:700; font-size:20px; color:var(--ink); letter-spacing:-0.03em; line-height:1.05; }
+.vcard { position:relative; border-radius:18px; padding:16px 18px; margin-bottom:10px;
+  background:var(--glass-bg);
+  -webkit-backdrop-filter:blur(18px) saturate(1.4); backdrop-filter:blur(18px) saturate(1.4);
+  border:1px solid var(--glass-line); box-shadow:var(--glass-shadow); }
+
+/* ── CTA plein / ghost ── */
+.cta-wrap { padding:28px 20px 0; }
+.cta-btn { width:100%; height:54px;
+  background:linear-gradient(180deg,#2A2D34 0%,#1A1D21 100%); color:#fff; font-family:var(--fd);
+  font-weight:600; font-size:14.5px; letter-spacing:-0.01em; border:1px solid rgba(255,255,255,0.08); border-radius:15px;
+  cursor:pointer; display:flex; align-items:center; justify-content:center; gap:9px;
+  box-shadow:0 8px 20px rgba(26,29,33,0.26), inset 0 1px 0 rgba(255,255,255,0.22);
+  transition:transform .18s, box-shadow .2s; }
+.cta-btn:hover { transform:translateY(-2px); box-shadow:0 12px 26px rgba(26,29,33,0.30), inset 0 1px 0 rgba(255,255,255,0.28); }
+.cta-btn:focus-visible { outline:2px solid var(--blue-d); outline-offset:3px; }
+.cta-ghost { margin-top:12px; width:100%; height:54px;
+  background:transparent; color:var(--ink); font-family:var(--fd);
+  font-weight:600; font-size:14.5px; letter-spacing:-0.01em; border:1.5px solid rgba(26,29,33,0.75); border-radius:15px;
+  cursor:pointer; display:flex; align-items:center; justify-content:center; gap:9px;
+  transition:transform .18s, background .2s; }
+.cta-ghost:hover { background:rgba(26,29,33,0.05); }
+.cta-ghost:focus-visible { outline:2px solid var(--blue-d); outline-offset:3px; }
+.cta-sub { display:block; text-align:center; margin-top:14px; font-weight:600; font-size:12.5px; color:var(--graphite); text-decoration:none; cursor:pointer; }
+.cta-sub:hover { color:var(--ink); }
+
+/* ── nav basse : pilule flottante en verre (DashboardAbonnee) ── */
+.tabbar { position:fixed; z-index:40; left:50%; transform:translateX(-50%);
+  bottom:max(8px, calc(env(safe-area-inset-bottom) - 6px));
+  width:auto; max-width:calc(100% - 48px); height:64px; padding:7px 9px;
+  display:flex; align-items:center; justify-content:center; gap:12px;
+  border-radius:100px;
+  background:linear-gradient(180deg, rgba(255,255,255,0.72), rgba(255,255,255,0.5));
+  -webkit-backdrop-filter:blur(20px) saturate(1.6); backdrop-filter:blur(20px) saturate(1.6);
+  border:1px solid rgba(255,255,255,0.78); border-top-color:rgba(255,255,255,0.95);
+  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.9), 0 2px 6px rgba(40,55,75,0.08), 0 16px 40px rgba(40,55,75,0.24); }
+.tb-item { display:flex; align-items:center; justify-content:center; gap:7px; flex-shrink:0;
+  width:50px; height:50px; border-radius:100px; color:var(--graphite); text-decoration:none;
+  transition:color .2s, background .2s; -webkit-tap-highlight-color:transparent; cursor:pointer; }
+.tb-item:hover { color:var(--ink); }
+.tb-item:focus-visible { outline:2px solid var(--blue-d); outline-offset:2px; }
+.tb-item.active { width:auto; padding:0 18px; color:var(--ink);
+  background:linear-gradient(180deg, rgba(166,195,214,0.55), rgba(166,195,214,0.30));
+  border:1px solid rgba(110,154,182,0.45);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,0.7), 0 3px 10px rgba(110,154,182,0.25); }
+.tb-item.active span { font-size:12px; font-weight:700; letter-spacing:-0.01em; }
+.tb-scan { display:flex; align-items:center; gap:8px; height:50px; padding:0 22px; border-radius:100px;
+  background:linear-gradient(180deg,#2A2D34,#191B1F); color:#fff; font-weight:700; font-size:13px; letter-spacing:-0.01em;
+  text-decoration:none; cursor:pointer; -webkit-tap-highlight-color:transparent;
+  box-shadow:0 8px 18px rgba(26,29,33,0.35), inset 0 1px 0 rgba(255,255,255,0.2); }
+/* la pilule flotte au-dessus du bas de page : SS.tabbar() pose la classe sur <body> */
+body.has-tabbar .phone { padding-bottom:104px; }
+
+/* ── scrim + modale (AddRoutine / SaveShelf) ──
+   position:fixed (la maquette utilisait absolute dans un artboard figé) : sur une
+   page qui défile, la modale doit couvrir le viewport, pas le haut du document. */
+.scrim { position:fixed; inset:0; z-index:50; padding:24px; display:flex; align-items:center; justify-content:center;
+  background:rgba(15,18,26,0.44); -webkit-backdrop-filter:blur(7px); backdrop-filter:blur(7px); }
+.modal { width:100%; max-width:366px; border-radius:24px; padding:22px 20px 20px;
+  background:linear-gradient(165deg, rgba(255,255,255,0.96), rgba(255,255,255,0.85));
+  -webkit-backdrop-filter:blur(24px) saturate(1.5); backdrop-filter:blur(24px) saturate(1.5);
+  border:1px solid rgba(255,255,255,0.92); box-shadow:inset 0 1.5px 0 #fff, 0 30px 70px rgba(15,20,35,0.45); }
+.modal-h { font-weight:800; font-size:20px; letter-spacing:-0.03em; color:var(--ink); margin-top:6px; }
+.modal-sub { font-size:12.5px; line-height:1.55; color:var(--graphite); margin-top:5px; }
+.modal-note { font-size:10px; color:var(--space); text-align:center; margin-top:9px; letter-spacing:0.01em; }
+
+/* comparaison deux cartes (AddRoutine) */
+.swap-card { display:flex; align-items:center; gap:12px; padding:12px 14px; border-radius:16px;
+  background:#fff; border:1.5px solid var(--cloud); box-shadow:0 4px 14px rgba(40,55,75,0.08); }
+.swap-card.now { border-color:rgba(43,193,130,0.55); box-shadow:0 0 0 3px rgba(43,193,130,0.12), 0 4px 14px rgba(40,55,75,0.08); }
+.swap-card img { height:38px; width:auto; flex-shrink:0; }
+.swap-vs { text-align:center; font-size:9px; font-weight:800; letter-spacing:0.16em; color:var(--space); margin:9px 0; text-transform:uppercase; }
+.swap-tag { font-size:8.5px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:#189A66; }
+.alt-name { font-weight:700; font-size:14px; letter-spacing:-0.02em; color:var(--ink); margin-top:2px; }
+.alt-score { margin-left:auto; text-align:right; flex-shrink:0; }
+.alt-score b { display:block; font-weight:800; font-size:19px; letter-spacing:-0.5px; color:#189A66; }
+.alt-score b.mid { color:#D9822B; } .alt-score b.bad { color:#D8543F; }
+.alt-score span { font-size:8.5px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--space); }
+.swap-verdict { display:flex; gap:9px; align-items:flex-start; margin-top:15px; padding:12px 13px; border-radius:14px;
+  background:rgba(43,193,130,0.1); border:1px solid rgba(43,193,130,0.3); }
+.swap-verdict p { font-size:12px; line-height:1.5; color:var(--arsenic); }
+.swap-verdict p b { font-weight:700; }
+.rt-ic { width:26px; height:26px; border-radius:50%; flex-shrink:0; margin-top:1px;
+  display:flex; align-items:center; justify-content:center; }
+.rt-ic.good { background:rgba(43,193,130,0.14); color:#189A66; border:1px solid rgba(43,193,130,0.42); }
+
+/* bouton « Sign in with Apple » (SaveShelf — PAS de Google) */
+.auth-apple { margin-top:18px; width:100%; height:52px; border:none; border-radius:15px; cursor:pointer;
+  background:linear-gradient(180deg,#2A2D34,#191B1F); color:#fff; font-family:var(--fd); font-weight:700; font-size:14.5px;
+  display:flex; align-items:center; justify-content:center; gap:8px;
+  box-shadow:0 8px 20px rgba(26,29,33,0.26), inset 0 1px 0 rgba(255,255,255,0.22); }
+.auth-apple .apple-slot { display:flex; align-self:stretch; }
+.auth-apple .apple-slot svg { height:100%; width:auto; }
+
+/* ── petit toast de confirmation (SS.shelf.addFlow) ── */
+.ss-toast { position:fixed; left:50%; bottom:calc(env(safe-area-inset-bottom) + 96px); z-index:60;
+  padding:11px 18px; border-radius:100px; white-space:nowrap; pointer-events:none;
+  background:linear-gradient(180deg,#2A2D34,#191B1F); color:#fff; font-size:12.5px; font-weight:700; letter-spacing:-0.01em;
+  box-shadow:0 10px 26px rgba(26,29,33,0.35), inset 0 1px 0 rgba(255,255,255,0.2);
+  animation:ssToast 2.3s cubic-bezier(.22,1,.36,1) both; }
+@keyframes ssToast {
+  0% { opacity:0; transform:translate(-50%,10px); }
+  10%, 85% { opacity:1; transform:translate(-50%,0); }
+  100% { opacity:0; transform:translate(-50%,-6px); }
+}
+@media (prefers-reduced-motion: reduce) { .ss-toast { animation:none; transform:translateX(-50%); } }

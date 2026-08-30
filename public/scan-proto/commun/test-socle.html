@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin — test du socle (commun/base.css + commun/app.js)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="base.css">
+<style>
+  /* page de test jetable : exercer SS.* à la main + assertions automatiques */
+  .t-ok { color:#189A66; } .t-ko { color:#D8543F; }
+  #t-log p { font-size:12.5px; line-height:1.7; font-weight:600; }
+  .t-btns { display:flex; flex-direction:column; gap:8px; margin-top:10px; }
+  .t-btns button { height:44px; border-radius:12px; border:1px solid var(--smoke); background:#fff;
+    font-family:var(--fd); font-weight:700; font-size:13px; color:var(--ink); cursor:pointer; }
+</style>
+</head>
+<body>
+<div class="phone">
+  <div class="nav">
+    <div class="nav-back" role="button" tabindex="0" aria-label="Back" onclick="history.back()"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"></path></svg></div>
+    <div class="nav-logo"><img src="../logo-smartskin.png" alt="SmartSkin AI"></div>
+    <div class="nav-spacer"></div>
+  </div>
+
+  <div class="section">
+    <div class="sec-head"><span class="sec-kicker">Socle V2</span><span class="sec-name">Assertions automatiques</span></div>
+    <div class="vcard" id="t-log"><p>JS non chargé ?</p></div>
+  </div>
+
+  <div class="section">
+    <div class="sec-head"><span class="sec-kicker">À la main</span><span class="sec-name">Flux visuels</span></div>
+    <div class="vcard">
+      <div class="t-btns">
+        <button type="button" id="t-add1">addFlow produit A (slot cleanser libre → toast)</button>
+        <button type="button" id="t-add2">addFlow produit B (slot cleanser occupé → modal)</button>
+        <button type="button" id="t-save">forcer le modal SaveShelf (2 produits, déconnecté)</button>
+        <button type="button" id="t-reset">réinitialiser le stockage local du test</button>
+      </div>
+    </div>
+    <button type="button" class="cta-btn" style="margin-top:14px">CTA plein (visuel)</button>
+    <button type="button" class="cta-ghost">CTA ghost (visuel)</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+<script>
+(function () {
+  "use strict";
+  var A = { nom: "Test Gel Cleanser A", marque: "TestBrand", categorie: "cleanser", formule: 81, perso: 85, image: "../product-cerave.jpg" };
+  var B = { nom: "Test Foam Cleanser B", marque: "TestBrand", categorie: "cleanser", formule: 84, perso: 62, image: "../product-effaclar.png" };
+
+  function reset() {
+    ["ss-shelf", "ss-ma-routine", "ss-historique", "ss-nb-produits", "ss-compte-propose"].forEach(function (k) { localStorage.removeItem(k); });
+    sessionStorage.removeItem("ss-moi");
+  }
+
+  /* ── assertions automatiques (logique pure, sans serveur) ── */
+  var log = document.getElementById("t-log");
+  log.innerHTML = "";
+  function check(nom, ok) {
+    var p = document.createElement("p");
+    p.className = ok ? "t-ok" : "t-ko";
+    p.textContent = (ok ? "PASS  " : "FAIL  ") + nom;
+    log.appendChild(p);
+  }
+  reset();
+
+  // SS présent + API conforme au contrat §4
+  check("window.SS expose moi/natif/auth/shelf/historique/tabbar",
+    !!(window.SS && SS.moi && SS.natif && SS.natif.est && SS.natif.signInApple && SS.natif.achat &&
+       SS.natif.restaurer && SS.natif.prix && SS.natif.syncEntitlement &&
+       SS.auth && SS.auth.csrf && SS.auth.apple && SS.auth.loginEmail && SS.auth.signup && SS.auth.signout &&
+       SS.shelf && SS.shelf.liste && SS.shelf.sync && SS.shelf.addFlow &&
+       SS.historique && SS.historique.ajouter && SS.historique.liste && SS.tabbar));
+
+  // migration ss-ma-routine → ss-shelf au premier accès
+  localStorage.setItem("ss-ma-routine", JSON.stringify(["Vieux Produit V1"]));
+  var migre = SS.shelf.liste();
+  check("migration ss-ma-routine → ss-shelf (1 item, nom conservé, ajoute posé)",
+    migre.length === 1 && migre[0].nom === "Vieux Produit V1" && !!migre[0].ajoute);
+  reset();
+
+  // addFlow : slot libre → ajout direct + nb-produits++
+  SS.shelf.addFlow(A);
+  var l1 = SS.shelf.liste();
+  check("addFlow A (slot libre) → 1 item en shelf, categorie posée",
+    l1.length === 1 && l1[0].nom === A.nom && l1[0].categorie === "cleanser");
+  check("ss-nb-produits passé à 1", localStorage.getItem("ss-nb-produits") === "1");
+  check("toast affiché", !!document.querySelector(".ss-toast"));
+
+  // addFlow même nom → dédoublonné (toast, pas d'ajout)
+  SS.shelf.addFlow(A);
+  check("addFlow A à nouveau → pas de doublon", SS.shelf.liste().length === 1);
+
+  // addFlow même catégorie → modal AddRoutine injecté (asynchrone : SS.moi d'abord)
+  SS.shelf.addFlow(B);
+  setTimeout(function () {
+    var sc = document.querySelector(".scrim");
+    var okModal = !!sc && sc.querySelectorAll(".swap-card").length === 2 &&
+      sc.textContent.indexOf("Keep " + A.nom) >= 0 && sc.textContent.indexOf("Replace with " + B.nom) >= 0;
+    check("addFlow B (slot occupé) → modal comparaison (2 cartes, Keep/Replace)", okModal);
+    // Replace → B remplace A dans le slot, nb passe à 2 → modal SaveShelf (déconnecté)
+    if (sc) {
+      var btns = sc.querySelectorAll("button");
+      var repl = null;
+      for (var i = 0; i < btns.length; i++) { if (btns[i].textContent.indexOf("Replace") >= 0) repl = btns[i]; }
+      if (repl) repl.click();
+    }
+    var l2 = SS.shelf.liste();
+    check("Replace → B a pris le slot (1 item, nom = B)", l2.length === 1 && l2[0].nom === B.nom);
+    check("ss-nb-produits passé à 2", localStorage.getItem("ss-nb-produits") === "2");
+    setTimeout(function () {
+      var sc2 = document.querySelector(".scrim");
+      var okSave = !!sc2 && sc2.textContent.indexOf("Save your shelf") >= 0 &&
+        !!sc2.querySelector(".auth-apple") && sc2.textContent.indexOf("Not now") >= 0 &&
+        sc2.textContent.indexOf("Google") < 0;
+      check("modal SaveShelf à 2 produits (Apple seul, Not now visible, pas de Google)", okSave);
+      if (sc2) {
+        var notNow = sc2.querySelector('[data-ss="plustard"]');
+        if (notNow) notNow.click();
+      }
+      check("Not now → ss-compte-propose=1", localStorage.getItem("ss-compte-propose") === "1");
+
+      // historique : dédoublonnage + tête de liste + cap 50
+      SS.historique.ajouter({ nom: "Histo X", formule: 70 });
+      SS.historique.ajouter({ nom: "Histo Y", formule: 60 });
+      SS.historique.ajouter({ nom: "Histo X", formule: 75 });
+      var h = SS.historique.liste();
+      check("historique : X ré-ajouté → dédoublonné, en tête, valeur récente",
+        h.length === 2 && h[0].nom === "Histo X" && h[0].formule === 75 && h[1].nom === "Histo Y");
+      for (var i = 0; i < 60; i++) SS.historique.ajouter({ nom: "Cap " + i });
+      check("historique : cap à 50", SS.historique.liste().length === 50);
+
+      reset();
+    }, 300);
+  }, 300);
+
+  // tabbar : injectée avec 3 slots, actif = home
+  SS.tabbar("home");
+  var bar = document.querySelector(".tabbar");
+  check("tabbar injectée : Home actif + bouton Scan central + Historique",
+    !!bar && !!bar.querySelector('[data-ss="home"].active') && !!bar.querySelector(".tb-scan") &&
+    !!bar.querySelector('[data-ss="histo"]') && !bar.querySelector('[data-ss="histo"].active') &&
+    document.body.className.indexOf("has-tabbar") >= 0);
+
+  /* ── boutons manuels ── */
+  document.getElementById("t-add1").addEventListener("click", function () { reset(); SS.shelf.addFlow(A); });
+  document.getElementById("t-add2").addEventListener("click", function () { SS.shelf.addFlow(B); });
+  document.getElementById("t-save").addEventListener("click", function () {
+    reset();
+    localStorage.setItem("ss-nb-produits", "1");
+    SS.shelf.addFlow(A); // → nb=2, déconnecté (pas de /api/moi en statique) → SaveShelf
+  });
+  document.getElementById("t-reset").addEventListener("click", function () { reset(); location.reload(); });
+})();
+</script>
+</body>
+</html>

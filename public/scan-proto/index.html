@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin AI</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+  /* page d'aiguillage : rien à voir, juste le fond du proto (pas de flash blanc) */
+  html, body { margin:0; min-height:100dvh; background:#F1F3F6; }
+</style>
+</head>
+<body>
+<script src="commun/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  var go = function (url) { location.replace(url); };
+  // En natif : synchroniser l'entitlement StoreKit AVANT de lire le statut
+  // (résout toujours, filet 4 s) ; hors app c'est un no-op immédiat.
+  SS.natif.syncEntitlement()
+    .then(function () { return SS.moi(); })
+    .then(function (m) {
+      var dejaScanne = SS.historique.liste().length > 0;
+      if (!dejaScanne && !m.connecte) { go("01-scan.html"); return; }
+      go(m.premium ? "11-dashboard.html" : "12-dashboard-free.html");
+    })
+    .catch(function () { go("01-scan.html"); });
+})();
+</script>
+</body>
+</html>
