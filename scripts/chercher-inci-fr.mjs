@@ -22,6 +22,9 @@ const PAGES_MAX = 3;
 
 const args = process.argv.slice(2);
 const MAX = args.includes("--max") ? parseInt(args[args.indexOf("--max") + 1], 10) : Infinity;
+// Une fiche cherchée sans succès garde `inciWeb: null` — la refouiller repasse les mêmes
+// requêtes pour le même vide. --neufs ne vise que celles qui n'ont jamais été cherchées.
+const NEUFS = args.includes("--neufs");
 
 const ECARTES = /(amazon|ebay|ubuy|aliexpress|instacart|pinterest|youtube|facebook|instagram|tiktok|reddit|leboncoin|vinted)/i;
 const PRIORITAIRES = /(incidecoder|skinsort|cosdna|\.(?:laroche-posay|avene|bioderma|vichy|uriage|svr|ducray|aderma|eucerin|nuxe|caudalie|filorga|lierac|embryolisse|topicrem|noreva|klorane|weleda|bioil|isdin|payot|mixa)\.|fr\.(?:svr|nuxe|avene)\.|newpharma|cocooncenter|easypara|pharma-gdd|santediscount|doctipharma)/i;
@@ -65,7 +68,9 @@ function nomCourt(f) {
 }
 
 const fiches = JSON.parse(fs.readFileSync(FICHES, "utf8"));
-const cibles = Object.values(fiches).filter((f) => !f.erreur && !f._inciOk && !f.inciWeb && f.titre).slice(0, MAX);
+const cibles = Object.values(fiches)
+  .filter((f) => !f.erreur && !f._inciOk && !f.inciWeb && f.titre && (!NEUFS || !("inciWeb" in f)))
+  .slice(0, MAX);
 console.log(cibles.length + " fiches sans INCI — recherche web, sources d'autorité d'abord\n");
 
 let faits = 0;
