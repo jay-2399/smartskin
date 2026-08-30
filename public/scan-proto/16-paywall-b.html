@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>SmartSkin AI &mdash; Unlock your report</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="commun/base.css">
+  <style>
+
+/* ═══ PAYWALL — VARIANTE B (sombre immersif, design V1 PaywallB, wording V2
+   validé le 30/08 — planche 6c du canevas). Même mécanique que 16-paywall-a
+   (trial-first, CTA dynamique) — autre peau. ═══ */
+html { background:#0A0B0E; }
+.pwb {
+  --pwb-ink:#0E1014; --t1:rgba(255,255,255,0.96); --t2:rgba(255,255,255,0.64); --t3:rgba(255,255,255,0.42);
+  --accent:#BCD5E6; --accent-soft:rgba(166,195,214,0.16);
+  --glass-line-b:rgba(255,255,255,0.13);
+  position:relative; width:100%; max-width:430px; min-height:100dvh;
+  display:flex; flex-direction:column; background:var(--pwb-ink); color:#fff; overflow:hidden;
+  font-family:var(--fd); }
+@media (min-width:480px) {
+  body { padding:24px 16px; }
+  .pwb { min-height:min(calc(100dvh - 48px), 900px); border-radius:46px;
+    box-shadow:0 0 0 1px rgba(0,0,0,0.5),0 32px 80px rgba(0,0,0,0.5); }
+}
+
+/* ── média plein écran (vidéo portrait V1) ── */
+.pw-bg { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center top; z-index:0;
+  filter:brightness(0.56) saturate(1.08) contrast(1.03); }
+.pw-scrim { position:absolute; inset:0; z-index:1; pointer-events:none;
+  background:
+    radial-gradient(120% 80% at 50% 8%, rgba(166,195,214,0.16), transparent 52%),
+    linear-gradient(180deg, rgba(14,16,20,0.55) 0%, rgba(14,16,20,0.12) 24%, rgba(13,15,18,0.72) 56%, rgba(11,12,15,0.94) 78%, #0B0C0F 100%); }
+.pw-grain { position:absolute; inset:0; z-index:1; pointer-events:none; opacity:0.4; mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+
+/* ── couche UI ── */
+.pw-ui { position:relative; z-index:2; flex:1; display:flex; flex-direction:column;
+  padding:calc(env(safe-area-inset-top) + 20px) 24px calc(env(safe-area-inset-bottom) + 22px); }
+.pw-uitop { position:relative; display:flex; align-items:center; justify-content:space-between; }
+.pw-brand { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); pointer-events:none; }
+.pw-brand img { height:28px; width:auto; display:block; opacity:0.96; }
+.pw-icbtn { width:38px; height:38px; border-radius:50%; background:rgba(255,255,255,0.10); border:1px solid rgba(255,255,255,0.14); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px); display:flex; align-items:center; justify-content:center; color:#fff; cursor:pointer; }
+.pw-icbtn svg { width:14px; height:14px; }
+.pw-restore { font-family:var(--fd); font-size:12px; font-weight:600; color:var(--t2); letter-spacing:-0.01em; background:none; border:none; cursor:pointer; padding:6px 2px; }
+
+.pw-spacer { flex:1; min-height:72px; }
+.pw-content { animation:pwbRise .6s cubic-bezier(.22,1,.36,1) both .08s; }
+.pw-h1 { font-weight:800; font-size:32px; line-height:1.03; letter-spacing:-0.044em; color:#fff; }
+.pw-h1 .pw-soft { font-weight:300; color:var(--t2); }
+
+.pw-feats { margin-top:24px; display:flex; flex-direction:column; gap:10px; }
+.pw-feat { display:flex; align-items:center; gap:10px; }
+.pw-feat .pw-ck { width:19px; height:19px; flex-shrink:0; border-radius:50%; background:var(--accent-soft); border:1px solid var(--glass-line-b); color:var(--accent); display:flex; align-items:center; justify-content:center; }
+.pw-feat .pw-ck svg { width:11px; height:11px; }
+.pw-feat span { font-size:13px; font-weight:500; color:var(--t1); letter-spacing:-0.01em; }
+.pw-feat span b { font-weight:700; }
+
+/* ── social proof ── */
+.pw-proof { display:flex; align-items:center; gap:11px; margin-bottom:16px; }
+.pw-avatars { display:flex; }
+.pw-av { width:30px; height:30px; border-radius:50%; border:2.5px solid #fff; margin-left:-9px; overflow:hidden; background:#CBD9E1; }
+.pw-av:first-child { margin-left:0; }
+.pw-av img { width:100%; height:100%; object-fit:cover; display:block; }
+.pw-prooftx .pw-stars { color:#F1C15A; font-size:12px; letter-spacing:2px; line-height:1; }
+.pw-prooftx .pw-proofl { font-size:12px; color:var(--t2); margin-top:3px; letter-spacing:-0.005em; }
+.pw-prooftx .pw-proofl b { color:#fff; font-weight:700; }
+
+/* ── plans — hebdo (essai) sélectionné par défaut ── */
+.pw-plans { margin-top:18px; display:flex; gap:10px; align-items:stretch; }
+.pw-plan { position:relative; flex:1; border-radius:20px; padding:1.5px; overflow:visible; cursor:pointer;
+  background:rgba(255,255,255,0.13); transition:background .25s, box-shadow .25s; }
+.pw-plan.sel { background:#F5A623;
+  box-shadow:0 14px 34px rgba(0,0,0,0.35), 0 0 24px rgba(245,166,35,0.14); }
+.pw-plan:focus-visible { outline:2px solid var(--accent); outline-offset:3px; border-radius:20px; }
+.pw-plan-in { position:relative; overflow:hidden; height:100%; border-radius:18.5px; padding:13px 14px 12px;
+  background:linear-gradient(180deg, rgba(28,33,41,0.92), rgba(16,19,24,0.94));
+  -webkit-backdrop-filter:blur(12px); backdrop-filter:blur(12px); }
+.pw-plan.sel .pw-plan-in { background:linear-gradient(180deg, rgba(38,46,56,0.93) 0%, rgba(22,26,32,0.95) 58%, rgba(15,17,21,0.96) 100%); }
+.pw-plan.sel .pw-plan-in::before { content:''; position:absolute; inset:0; pointer-events:none;
+  background:radial-gradient(90% 120% at 12% 0%, rgba(245,166,35,0.20), transparent 58%); }
+.pw-plan-top { position:relative; display:flex; align-items:center; justify-content:space-between; }
+.pw-plan-name { font-family:var(--fd); font-weight:700; font-size:10.5px; letter-spacing:0.13em; text-transform:uppercase; color:var(--t2); transition:color .2s; }
+.pw-plan.sel .pw-plan-name { color:#F5A623; }
+.pw-radio { width:22px; height:22px; flex-shrink:0; border-radius:50%; border:1.5px solid rgba(255,255,255,0.22); background:transparent; color:var(--pwb-ink); display:flex; align-items:center; justify-content:center; transition:background .2s, border-color .2s, box-shadow .2s; }
+.pw-radio svg { width:12px; height:12px; opacity:0; transition:opacity .2s; }
+.pw-plan.sel .pw-radio { background:#F5A623; border-color:#F5A623; box-shadow:0 0 0 4px rgba(245,166,35,0.18), 0 2px 6px rgba(0,0,0,0.3); }
+.pw-plan.sel .pw-radio svg { opacity:1; }
+.pw-plan-price { position:relative; display:flex; align-items:baseline; gap:7px; margin-top:9px; }
+.pw-plan-now { font-size:25px; font-weight:800; letter-spacing:-0.045em; color:#fff; }
+.pw-plan-unit { font-size:12px; font-weight:700; color:var(--t2); }
+.pw-plan-savebadge { position:absolute; top:-8px; left:50%; transform:translateX(-50%); z-index:4; font-family:var(--fd); font-size:9px; font-weight:800; letter-spacing:0.06em; text-transform:uppercase; color:#fff; background:#F5A623; padding:4px 10px; border-radius:100px; box-shadow:0 4px 12px rgba(245,166,35,0.45); white-space:nowrap; }
+
+/* chip sous les plans — change avec le plan sélectionné */
+.pw-plan-note { margin-top:14px; display:flex; justify-content:center; }
+.pw-note { display:inline-flex; align-items:center; gap:8px; font-size:12px; font-weight:600; color:var(--t1); letter-spacing:-0.005em;
+  padding:9px 16px; border-radius:100px; border:1px solid rgba(255,255,255,0.45); background:rgba(255,255,255,0.055);
+  -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px);
+  box-shadow:inset 0 2px 7px rgba(0,0,0,0.42), inset 0 1px 0 rgba(255,255,255,0.12); }
+.pw-note svg { width:15px; height:15px; flex-shrink:0; }
+
+/* CTA blanc glossy (recette V1) */
+.pw-cta { margin-top:16px; position:relative; overflow:hidden; isolation:isolate; height:62px; border-radius:100px; border:none; cursor:pointer; width:100%; padding:0 24px;
+  color:#0E1014; font-family:var(--fd);
+  display:flex; align-items:center; justify-content:center;
+  background:linear-gradient(180deg, #fdfdfe 0%, #e8ebf0 50%, #cfd4de 100%);
+  box-shadow:
+    inset 0 2px 0 rgba(255,255,255,1),
+    inset 0 -13px 18px rgba(80,92,114,0.45),
+    inset 0 0 0 1px rgba(0,0,0,0.07),
+    0 3px 6px rgba(0,0,0,0.32),
+    0 12px 26px rgba(0,0,0,0.44),
+    0 26px 54px rgba(0,0,0,0.32); }
+.pw-cta::before { content:''; position:absolute; left:3px; right:3px; top:2px; height:52%; z-index:0; pointer-events:none;
+  border-radius:100px 100px 50% 50% / 100px 100px 30px 30px;
+  background:linear-gradient(180deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.4) 56%, rgba(255,255,255,0) 100%); }
+.pw-cta:disabled { opacity:0.7; cursor:default; }
+.pw-cta:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+.pw-cta-tx { position:relative; z-index:2; font-weight:700; font-size:15.5px; letter-spacing:-0.01em; text-align:center; }
+
+/* conversion de l'essai sous le CTA (exigence Apple) */
+.pw-fine { text-align:center; margin-top:12px; font-size:11.5px; line-height:1.45; color:var(--t3); }
+.pw-fine b { font-weight:700; color:var(--t2); }
+
+/* porte de sortie sans payer → fiche formule gratuite (BLANC souligné — demande produit) */
+.pw-skip { display:none; width:fit-content; margin:12px auto 0; font-size:13px; font-weight:600; letter-spacing:-0.01em;
+  color:#fff; text-decoration:underline; text-underline-offset:3px; text-decoration-thickness:1.2px;
+  background:none; border:none; cursor:pointer; font-family:var(--fd); }
+.pw-skip.on { display:block; }
+
+.pw-legal { text-align:center; margin-top:13px; font-size:10.5px; color:var(--t3); letter-spacing:0.01em; }
+.pw-legal a { color:var(--t2); text-decoration:underline; text-underline-offset:2px; }
+
+@keyframes pwbRise { from{opacity:0; transform:translateY(13px);} to{opacity:1; transform:none;} }
+@media (prefers-reduced-motion: reduce){ .pwb *, .pwb *::before, .pwb *::after{ animation:none !important; transition:none !important; } }
+
+  </style>
+</head>
+<body>
+<div class="pwb">
+  <video class="pw-bg" id="pw-video" autoplay loop muted playsinline poster="/paywall-b/hero-portrait.png" aria-hidden="true">
+    <source src="/paywall-b/hero-portrait.mp4" type="video/mp4">
+  </video>
+  <div class="pw-scrim"></div>
+  <div class="pw-grain"></div>
+
+  <div class="pw-ui">
+    <div class="pw-uitop">
+      <button type="button" class="pw-icbtn" id="pw-close" aria-label="Close">
+        <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 2l10 10M12 2L2 12"></path></svg>
+      </button>
+      <div class="pw-brand"><img src="logo-smartskin-white.png" alt="SmartSkin AI"></div>
+      <button type="button" class="pw-restore" id="pw-restore">Restore</button>
+    </div>
+
+    <div class="pw-spacer"></div>
+
+    <div class="pw-content">
+      <div class="pw-proof">
+        <div class="pw-avatars">
+          <span class="pw-av"><img src="/paywall-b/avatar-1.jpg" alt="" style="object-position:center 32%"></span>
+          <span class="pw-av"><img src="/paywall-b/avatar-2.jpg" alt="" style="object-position:center 26%"></span>
+          <span class="pw-av"><img src="/paywall-b/avatar-3.jpg" alt="" style="object-position:center 52%"></span>
+          <span class="pw-av"><img src="/paywall-b/avatar-4.jpg" alt="" style="object-position:68% 28%"></span>
+        </div>
+        <div class="pw-prooftx">
+          <div class="pw-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <div class="pw-proofl">Loved by <b>+100 users</b></div>
+        </div>
+      </div>
+
+      <h1 class="pw-h1">You&#39;re one step away<br>from your <span class="pw-soft">verdict.</span></h1>
+
+      <div class="pw-feats">
+        <div class="pw-feat"><span class="pw-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg></span><span>Know <b>what your skin needs</b></span></div>
+        <div class="pw-feat"><span class="pw-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg></span><span>Stop wasting money on <b>the wrong products</b></span></div>
+        <div class="pw-feat"><span class="pw-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg></span><span>See which ingredients <b>break you out</b></span></div>
+        <div class="pw-feat"><span class="pw-ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg></span><span>Never feel <b>ashamed of your skin</b> again</span></div>
+      </div>
+
+      <div class="pw-plans" role="radiogroup" aria-label="Choose your plan">
+        <div class="pw-plan" id="plan-annual" role="radio" aria-checked="false" tabindex="0">
+          <div class="pw-plan-in">
+            <div class="pw-plan-top">
+              <span class="pw-plan-name">1 Year</span>
+              <span class="pw-radio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg></span>
+            </div>
+            <div class="pw-plan-price"><span class="pw-plan-now" id="prix-annual">$39.90</span><span class="pw-plan-unit">/ year</span></div>
+          </div>
+        </div>
+
+        <div class="pw-plan sel" id="plan-weekly" role="radio" aria-checked="true" tabindex="0">
+          <span class="pw-plan-savebadge">7 days free</span>
+          <div class="pw-plan-in">
+            <div class="pw-plan-top">
+              <span class="pw-plan-name">Weekly</span>
+              <span class="pw-radio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg></span>
+            </div>
+            <div class="pw-plan-price"><span class="pw-plan-now">$3.99</span><span class="pw-plan-unit">/ week</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pw-plan-note">
+        <span class="pw-note" id="pw-note"></span>
+      </div>
+
+      <button type="button" class="pw-cta" id="pw-cta"><span class="pw-cta-tx" id="pw-cta-tx">Start my 7-day free trial</span></button>
+      <p class="pw-fine" id="pw-terms"></p>
+
+      <button type="button" class="pw-skip" id="pw-skip">Just see the formula</button>
+
+      <div class="pw-legal"><a href="/terms">Terms</a> &middot; <a href="/privacy">Privacy</a> &middot; Billed through your App&nbsp;Store account</div>
+    </div>
+  </div>
+</div>
+
+<script src="commun/app.js"></script>
+<script>
+(function () {
+  "use strict";
+  /* Mécanique partagée avec 16-paywall-a.html (variante claire) — même logique,
+     autre peau. Toute évolution ici doit être répercutée là-bas. */
+
+  var ICONE_CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="color:#39D286"><path d="M5 12.5l4.5 4.5L19 7"></path></svg>';
+  var ICONE_LOCK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 11V8a5 5 0 0 1 10 0v3"></path><rect x="5" y="11" width="14" height="9" rx="2.5"></rect></svg>';
+
+  function toast(txt) {
+    var t = document.createElement("div");
+    t.className = "ss-toast";
+    t.textContent = txt;
+    document.body.appendChild(t);
+    setTimeout(function () { if (t.parentNode) t.parentNode.removeChild(t); }, 2400);
+  }
+
+  /* iOS/WKWebView : forcer l'autoplay muet de la vidéo (recette V1). */
+  var v = document.getElementById("pw-video");
+  if (v) {
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) { v.pause(); }
+    else {
+      v.muted = true; v.setAttribute("muted", "");
+      v.playsInline = true; v.setAttribute("playsinline", "");
+      var tryPlay = function () { v.play().catch(function () {}); };
+      tryPlay();
+      v.addEventListener("canplay", tryPlay, { once: true });
+      v.addEventListener("loadeddata", tryPlay, { once: true });
+    }
+  }
+
+  /* Contexte : tunnel visage en cours ? produit en attente ? */
+  function enTunnel() {
+    try { return !!sessionStorage.getItem("ss-visage-photo"); } catch (e) { return false; }
+  }
+  function produitAttente() {
+    try { return JSON.parse(sessionStorage.getItem("ss-produit-attente") || "null"); } catch (e) { return null; }
+  }
+
+  /* Garde : le paywall suppose un compte (l'achat pose l'accès SUR un user). */
+  SS.moi().then(function (m) {
+    if (!m.connecte) location.replace("15-compte.html?next=paywall");
+  });
+
+  /* Croix : abandon en tunnel = dashboard gratuit (bilan en attente, winback) ;
+     hors tunnel = retour à la page d'origine. */
+  document.getElementById("pw-close").addEventListener("click", function () {
+    if (enTunnel()) { location.href = "12-dashboard-free.html"; return; }
+    if (history.length > 1) history.back(); else location.href = "index.html";
+  });
+
+  /* « Just see the formula » : la sortie honnête — la fiche gratuite du produit
+     scanné. Visible seulement quand un produit attend son verdict. */
+  var att = produitAttente();
+  var skip = document.getElementById("pw-skip");
+  if (att && att.suite) {
+    skip.className = "pw-skip on";
+    skip.addEventListener("click", function () {
+      location.href = "03-result-free.html" + att.suite;
+    });
+  }
+
+  /* ── plans : hebdo (essai 7 j) sélectionné par défaut — trial-first.
+     CTA + chip + mention changent avec le plan (jamais « free » sur l'annuel). ── */
+  var plan = "weekly";
+  var prixAnnuel = "$39.90";
+  var cta = document.getElementById("pw-cta");
+  var ctaTx = document.getElementById("pw-cta-tx");
+  function maj() {
+    var a = document.getElementById("plan-annual");
+    var w = document.getElementById("plan-weekly");
+    a.className = plan === "annual" ? "pw-plan sel" : "pw-plan";
+    w.className = plan === "weekly" ? "pw-plan sel" : "pw-plan";
+    a.setAttribute("aria-checked", plan === "annual" ? "true" : "false");
+    w.setAttribute("aria-checked", plan === "weekly" ? "true" : "false");
+    if (plan === "weekly") {
+      ctaTx.textContent = "Start my 7-day free trial";
+      document.getElementById("pw-note").innerHTML = ICONE_CHECK + "No payment due now";
+      document.getElementById("pw-terms").innerHTML = "<b>7 days free, then $3.99 / week.</b> Cancel anytime.";
+    } else {
+      ctaTx.textContent = "Unlock my report — " + prixAnnuel + " / year";
+      document.getElementById("pw-note").innerHTML = ICONE_LOCK + "One payment a year — cancel anytime";
+      document.getElementById("pw-terms").innerHTML = "Billed once a year &middot; that&#39;s $0.77 / week";
+    }
+  }
+  document.getElementById("plan-annual").addEventListener("click", function () { plan = "annual"; maj(); });
+  document.getElementById("plan-weekly").addEventListener("click", function () { plan = "weekly"; maj(); });
+  maj();
+
+  // Prix natif : le pont V1 renvoie UNE chaîne (getPrice) — appliquée à l'annuel.
+  SS.natif.prix(function (p) {
+    prixAnnuel = p;
+    document.getElementById("prix-annual").textContent = p;
+    maj();
+  });
+
+  /* ── achat : natif StoreKit ; fallback web = déblocage démo /api/iap/grant.
+     Succès : en tunnel → 21-analyse (l'analyse n'a pas encore tourné) ;
+     sinon produit en attente → son verdict perso ; sinon dashboard premium. ── */
+  function apresAchat() {
+    if (enTunnel()) return "21-analyse.html";
+    var a2 = produitAttente();
+    if (a2 && a2.suite) return "06-result-premium.html" + a2.suite;
+    return "11-dashboard.html";
+  }
+  var enCours = false;
+  cta.addEventListener("click", function () {
+    if (enCours) return;
+    enCours = true;
+    cta.disabled = true;
+    ctaTx.textContent = "Processing…";
+    SS.natif.achat(plan, function (ok) {
+      if (ok) { location.replace(apresAchat()); return; }
+      enCours = false;
+      cta.disabled = false;
+      maj();
+      toast("Purchase didn't go through");
+    });
+  });
+
+  /* ── restore (natif uniquement — sur web le pont répond false direct) ── */
+  document.getElementById("pw-restore").addEventListener("click", function () {
+    if (!SS.natif.est()) { toast("Restore works in the iPhone app"); return; }
+    SS.natif.restaurer(function (ok) {
+      if (ok) location.replace(apresAchat());
+      else toast("No previous purchase found");
+    });
+  });
+})();
+</script>
+</body>
+</html>
