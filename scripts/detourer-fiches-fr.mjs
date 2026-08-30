@@ -13,7 +13,11 @@ import { detourer } from "./detourer-packshot.mjs";
 const RACINE = path.resolve(import.meta.dirname, "..");
 const FICHES = path.join(RACINE, "data/scan/fiches-fr-brut.json");
 const SORTIE = path.join(RACINE, "public/packshots");
-const TAILLE = 420;
+// 900 px sur le grand côté : à 420 un tube étroit ne faisait que 180 px de large, soit une
+// image floue dès qu'un écran l'affiche en 2× ou 3×. À 900 il reste ~380 px de large, net
+// partout — pour ~21 Ko la photo.
+const TAILLE = process.argv.includes("--taille")
+  ? parseInt(process.argv[process.argv.indexOf("--taille") + 1], 10) : 900;
 const PARALLELE = 6;
 fs.mkdirSync(SORTIE, { recursive: true });
 

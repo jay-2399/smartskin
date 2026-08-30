@@ -186,13 +186,19 @@ select{border-radius:8px}
    plus de 25 % de trous dans leur propre silhouette). Sur fond sombre ces trous laissent
    passer le noir et le produit devient méconnaissable ; sur blanc ils redeviennent
    invisibles, exactement comme sur la photo d'origine. */
-.visuel{aspect-ratio:1;display:flex;align-items:center;justify-content:center;padding:14px;
-  background:#FFFFFF;border-bottom:1px solid var(--filet)}
+/* Carre GARANTI. La propriete aspect-ratio seule ne tient pas ici : la tuile est un élément flex, et une
+   image plus haute que large étire sa hauteur au lieu d'être contrainte par elle. Le produit
+   s'affichait alors presque à sa taille native, donc flou. Hauteur nulle + padding de 100 %,
+   image en position absolue : la tuile ne peut plus grandir, et l'image se contente de la place. */
+.visuel{position:relative;height:0;padding-top:100%;background:#FFFFFF;
+  border-bottom:1px solid var(--filet);overflow:hidden}
 /* PAS de mix-blend-mode ici. Les packshots sont DÉTOURÉS (canal alpha), pas des photos sur
    fond blanc : multiplier une étiquette blanche par un fond sombre la noircit entièrement,
    et le produit devient illisible. La transparence suffit, sur les deux thèmes. */
-.visuel img{max-width:100%;max-height:100%;object-fit:contain}
-.sans-image{font-size:12px;color:var(--encre-3)}
+.visuel img{position:absolute;inset:12px;margin:auto;max-width:calc(100% - 24px);
+  max-height:calc(100% - 24px);width:auto;height:auto;object-fit:contain}
+.sans-image{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  font-size:12px;color:#8D968C}
 .corps{padding:11px 13px 13px;display:flex;flex-direction:column;gap:8px;flex:1}
 .marque{font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--accent)}
 h3{margin:0;font-size:13.5px;font-weight:500;line-height:1.32;text-wrap:balance}
