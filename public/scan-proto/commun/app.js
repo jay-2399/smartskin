@@ -164,6 +164,16 @@
       postNatif({ action: "getPrice" });
     },
 
+    // Éligibilité à l'essai 7 j (offre d'intro Apple, une fois par compte) : le
+    // paywall masque « 7 days free » pour les non-éligibles. Hors app : pas de
+    // rappel — le web (démo) garde l'affichage essai par défaut.
+    essaiEligible: function (cb) {
+      // Callback enregistré même hors app (QA : __smartskinTrialEligible(false) en console).
+      window.__smartskinTrialEligible = function (ok) { if (cb) cb(ok === true); };
+      if (!SS.natif.est()) return;
+      postNatif({ action: "getTrialEligibility" });
+    },
+
     // Entitlement StoreKit → /api/iap/sync ; résout toujours (filet 4 s).
     syncEntitlement: function () {
       return new Promise(function (resolve) {

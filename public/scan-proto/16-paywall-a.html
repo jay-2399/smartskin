@@ -281,9 +281,13 @@
   }
 
   /* ── plans : hebdo (essai 7 j) sélectionné par défaut — trial-first.
-     CTA + chip + mention changent avec le plan (jamais « free » sur l'annuel). ── */
+     CTA + chip + mention changent avec le plan (jamais « free » sur l'annuel).
+     `eligible` : l'essai n'existe qu'UNE fois par compte Apple — le pont natif
+     répond ; non éligible → badge et « No payment due now » disparaissent,
+     le bouton dit « Subscribe » (promesse honnête, guideline 3.1.2). ── */
   var plan = "weekly";
   var prixAnnuel = "$39.90";
+  var eligible = true;   // affichage essai par défaut (web/démo) ; corrigé par le pont
   var cta = document.getElementById("pw-cta");
   var ctaTx = document.getElementById("pw-cta-tx");
   function maj() {
@@ -293,10 +297,20 @@
     w.className = plan === "weekly" ? "plan sel" : "plan";
     a.setAttribute("aria-checked", plan === "annual" ? "true" : "false");
     w.setAttribute("aria-checked", plan === "weekly" ? "true" : "false");
+    var badge = w.querySelector(".plan-badge");
+    if (badge) badge.style.display = eligible ? "" : "none";
+    var noteWrap = document.querySelector(".co-note");
+    noteWrap.style.display = "flex";
     if (plan === "weekly") {
-      ctaTx.textContent = "Start my 7-day free trial";
-      document.getElementById("pw-note").innerHTML = ICONE_CHECK + "No payment due now";
-      document.getElementById("pw-terms").innerHTML = "<b>7 days free, then $3.99 / week.</b> Cancel anytime.";
+      if (eligible) {
+        ctaTx.textContent = "Start my 7-day free trial";
+        document.getElementById("pw-note").innerHTML = ICONE_CHECK + "No payment due now";
+        document.getElementById("pw-terms").innerHTML = "<b>7 days free, then $3.99 / week.</b> Cancel anytime.";
+      } else {
+        ctaTx.textContent = "Subscribe — $3.99 / week";
+        noteWrap.style.display = "none";
+        document.getElementById("pw-terms").innerHTML = "Billed weekly &middot; cancel anytime";
+      }
     } else {
       ctaTx.textContent = "Unlock my report — " + prixAnnuel + " / year";
       document.getElementById("pw-note").innerHTML = ICONE_LOCK + "One payment a year — cancel anytime";
@@ -306,6 +320,7 @@
   document.getElementById("plan-annual").addEventListener("click", function () { plan = "annual"; maj(); });
   document.getElementById("plan-weekly").addEventListener("click", function () { plan = "weekly"; maj(); });
   maj();
+  SS.natif.essaiEligible(function (ok) { eligible = ok; maj(); });
 
   // Prix natif : le pont V1 renvoie UNE chaîne (getPrice) — appliquée à l'annuel.
   SS.natif.prix(function (p) {
