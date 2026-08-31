@@ -159,6 +159,10 @@ a.nav-back { text-decoration:none; }
       var s = liste[j];
       var visuel = s.image ? '<img src="' + esc(s.image) + '" alt="">' : '<span class="ph-thumb">' + SVG_SCAN + "</span>";
       var sousParts = [];
+      var nomL = s.nom;
+      if (s.marque && nomL.toLowerCase().indexOf(s.marque.toLowerCase()) === 0) {
+        nomL = nomL.slice(s.marque.length).replace(/^[\s\-\u2013\u2014\u00b7:]+/, "") || s.nom;
+      }
       var jour = libelleJour(s.date);
       if (jour) sousParts.push(jour);
       if (s.marque) sousParts.push(esc(s.marque));
@@ -169,7 +173,7 @@ a.nav-back { text-decoration:none; }
         : "";
       html +=
         '<a class="hist" href="03-result-free.html?p=' + encodeURIComponent(s.nom) + '">' + visuel +
-        '<div><p class="hist-name">' + esc(s.nom) + '</p><p class="hist-sub">' + sous + "</p></div>" + duo + "</a>";
+        '<div><p class="hist-name">' + esc(nomL) + '</p><p class="hist-sub">' + sous + "</p></div>" + duo + "</a>";
     }
     html += "</div>";
     zone.innerHTML = html;

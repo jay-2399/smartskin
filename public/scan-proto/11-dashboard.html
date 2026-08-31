@@ -315,10 +315,14 @@ a.nav-back { text-decoration:none; }
       } else if (typeof s.formule === "number") {
         duo = '<div class="hs-duo"><span class="hs-you ' + teinteProd(s.formule) + '">' + s.formule + '</span><p class="hs-f">Formula</p></div>';
       }
+      var nomL = s.nom;
+      if (s.marque && nomL.toLowerCase().indexOf(s.marque.toLowerCase()) === 0) {
+        nomL = nomL.slice(s.marque.length).replace(/^[\s\-\u2013\u2014\u00b7:]+/, "") || s.nom;
+      }
       html +=
         '<a class="alt" href="06-result-premium.html?p=' + encodeURIComponent(s.nom) + '">' + visuel +
         "<div>" + (s.marque ? '<span class="alt-brand">' + esc(s.marque) + "</span>" : "") +
-        '<p class="alt-name">' + esc(s.nom) + "</p></div>" + duo + "</a>";
+        '<p class="alt-name">' + esc(nomL) + "</p></div>" + duo + "</a>";
     }
     html += "</div>";
     zone.innerHTML = html;
