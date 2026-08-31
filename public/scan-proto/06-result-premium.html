@@ -777,6 +777,21 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 .gauge-prog.to62 { animation-name:gaugeFill62; }
 
 /* ═══ pourquoi / alternatives ═══ */
+/* sélecteur greffé en tête de la carte « Why » : même grammaire que la pilule du haut
+   de fiche, en plus petit (30 px au lieu de 36), séparé des raisons par le filet qui
+   sépare déjà deux raisons entre elles. */
+.seg-mini-hote { padding-bottom:13px; border-bottom:1px solid var(--cloud); margin-bottom:2px; }
+.seg-mini { margin:0; max-width:none; padding:3px; }
+.seg-mini .seg-thumb { top:3px; left:3px; width:calc(50% - 3px); height:calc(100% - 6px); }
+.seg-mini .seg-opt { height:30px; font-size:11px; gap:6px; }
+.seg-mini .seg-opt b { font-size:12px; }
+.seg-mini .seg-opt .dot { width:5px; height:5px; }
+.seg-mini .seg-opt .dot.good { box-shadow:0 0 0 2.5px rgba(43,193,130,0.16); }
+.seg-mini .seg-opt .dot.mid  { box-shadow:0 0 0 2.5px rgba(234,154,84,0.16); }
+.seg-mini .seg-opt .dot.bad  { box-shadow:0 0 0 2.5px rgba(224,102,87,0.16); }
+/* le dessin fait 30 px, la CIBLE tactile doit faire 44 : on l'étend sans rien déplacer */
+.seg-mini .seg-opt::after { content:''; position:absolute; left:0; right:0; top:-7px; bottom:-7px; }
+
 .why-rows { display:flex; flex-direction:column; }
 .why-row { display:flex; gap:10px; align-items:flex-start; padding:11px 0; border-top:1px solid var(--cloud); }
 .why-row:first-child { border-top:none; padding-top:2px; }
@@ -1007,6 +1022,16 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
   <div class="section s0 why-sec">
     <span class="sec-name" style="display:block; margin-top:22px">Why this score, for you</span>
     <div class="vcard" style="margin-top:8px">
+      <!-- petit frère du sélecteur du haut de fiche, greffé DANS la carte : la liste
+           qui suit est manifestement le contenu de l'onglet choisi. Les deux restent
+           d'accord — tout passe par afficher(). -->
+      <div class="seg-mini-hote">
+        <div class="seg seg-mini on-skin" id="d-seg-why">
+          <div class="seg-thumb"></div>
+          <div class="seg-opt" data-vue="formule"><span class="dot good" id="d-dot-fw"></span>Formula <b id="d-formule-w">–</b></div>
+          <div class="seg-opt sel" data-vue="perso"><span class="dot mid" id="d-dot-pw"></span>My skin <b id="d-perso-w">–</b></div>
+        </div>
+      </div>
       <div class="why-rows"><div id="d-why"></div></div>
     </div>
   </div>
@@ -1233,6 +1258,11 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
                             perso: typeof pe.score === "number" ? pe.score : null });
     document.getElementById("d-dot-f").className = "dot " + f.bande;
     document.getElementById("d-dot-p").className = "dot " + pe.bande;
+    // le sélecteur de la carte « Why » porte les mêmes scores et les mêmes couleurs
+    document.getElementById("d-formule-w").textContent = f.score;
+    document.getElementById("d-perso-w").textContent = pe.score;
+    document.getElementById("d-dot-fw").className = "dot " + f.bande;
+    document.getElementById("d-dot-pw").className = "dot " + pe.bande;
 
     var num = document.getElementById("d-perso");
     var arc = document.getElementById("d-arc");
@@ -1247,14 +1277,22 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
       arc.setAttribute("class", "gauge-prog " + s.bande);
       arc.style.strokeDashoffset = (L - (L - 36.2) * s.score / 100).toFixed(1);
       document.querySelector(".you-k").textContent = vue === "formule" ? "The formula itself" : "For your skin";
-      var seg = document.getElementById("d-seg");
-      seg.classList.toggle("on-skin", vue !== "formule");
-      seg.querySelectorAll(".seg-opt").forEach(function(o) { o.classList.toggle("sel", o.dataset.vue === vue); });
+      // les DEUX sélecteurs (haut de fiche et carte « Why ») suivent le même état :
+      // en avoir un qui contredise l'autre sur le même écran serait pire que pas de second
+      ["d-seg", "d-seg-why"].forEach(function(id) {
+        var seg = document.getElementById(id);
+        if (!seg) return;
+        seg.classList.toggle("on-skin", vue !== "formule");
+        seg.querySelectorAll(".seg-opt").forEach(function(o) { o.classList.toggle("sel", o.dataset.vue === vue); });
+      });
       majVerdict(vue);
       majWhy(vue);
     }
-    document.getElementById("d-seg").addEventListener("click", function(e) {
-      var o = e.target.closest(".seg-opt"); if (o) afficher(o.dataset.vue);
+    ["d-seg", "d-seg-why"].forEach(function(id) {
+      var seg = document.getElementById(id);
+      if (seg) seg.addEventListener("click", function(e) {
+        var o = e.target.closest(".seg-opt"); if (o) afficher(o.dataset.vue);
+      });
     });
 
     // verdict : phrase-gabarit déterministe, propre à la lecture affichée
