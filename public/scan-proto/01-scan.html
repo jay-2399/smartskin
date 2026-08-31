@@ -214,8 +214,14 @@ function retourScan(){
   /* dessine le flux sur le canvas, cadrage cover, à chaque frame */
   var toile = document.querySelector('canvas.cam');
   var ctx2d = toile.getContext('2d');
+  /* horloge fixe plutôt que requestAnimationFrame : iOS le suspend en mode
+     économie d'énergie dans les WebViews — l'aperçu resterait noir et figé. */
+  var timerPeinture = null;
   function peindre(){
-    if (!document.body.classList.contains('demo')) requestAnimationFrame(peindre);
+    if (document.body.classList.contains('demo')) {
+      if (timerPeinture !== null) { clearInterval(timerPeinture); timerPeinture = null; }
+      return;
+    }
     if (!video.videoWidth) return;
     var dpr = Math.min(window.devicePixelRatio || 1, 2);
     var cw = Math.round(toile.clientWidth * dpr), ch = Math.round(toile.clientHeight * dpr);
@@ -242,6 +248,7 @@ function retourScan(){
         video.srcObject = stream;
         /* iOS met la vidéo en pause à sa guise : on relance sans discuter */
         video.addEventListener('pause', function(){ video.play().catch(function(){}); });
+        timerPeinture = setInterval(peindre, 33);
         peindre();
         boot('live');
       })

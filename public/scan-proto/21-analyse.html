@@ -198,6 +198,8 @@
   try {
     var brut = sessionStorage.getItem(CLE_ANSWERS);
     if (brut) answers = JSON.parse(brut);
+    // questionnaire sauté (profil encore valable) → on reprend les réponses mémorisées
+    else if (window.SS && SS.visage && SS.visage.reponses()) answers = SS.visage.reponses();
   } catch (e) {}
 
   /* ── porte compte : le bilan se range SOUS un compte (POST /api/scan).
@@ -258,10 +260,13 @@
 
   /* ── 2) la barre de progression, calée sur la durée réelle ───────────────── */
   function boucle() {
-    var pctAtDone = null, finishedAt = null, last = 0;
+    var pctAtDone = null, finishedAt = null, last = 0, timer = null;
+    function arreter() { if (timer !== null) { clearInterval(timer); timer = null; } }
 
-    function tick(ts) {
+    function tick() {
+      var ts = (window.performance && performance.now) ? performance.now() : Date.now();
       if (rate) {
+        arreter();
         echec(rate429 ? "Too many analyses" : "Analysis failed",
           rate429 ? "Wait a moment, then retry" : "Analysis failed. Retry",
           function () { location.reload(); });
@@ -285,16 +290,20 @@
         elLabel.textContent = "Done";
         statut("Diagnosis ready");
         if (finishedAt === null) finishedAt = ts;
-        if (ts - finishedAt >= 600) { enregistrer(); return; }   // petit temps fort « prêt »
+        if (ts - finishedAt >= 600) { arreter(); enregistrer(); return; }   // petit temps fort « prêt »
       } else {
         var arrondi = Math.round(value);
         elFill.style.width = arrondi + "%";
         elPct.textContent = arrondi + "%";
         statut(stageFor(value));
       }
-      requestAnimationFrame(tick);
     }
-    requestAnimationFrame(tick);
+
+    /* horloge fixe, jamais rAF : le mode économie d'énergie d'iOS le suspend
+       dans les WebViews — la barre resterait figée à 0 % et l'analyse, pourtant
+       terminée côté serveur, ne serait jamais enregistrée. */
+    timer = setInterval(tick, 50);
+    tick();
   }
 
   /* ── 3) persistance du scan, puis la sortie ──────────────────────────────────
@@ -319,6 +328,7 @@
     }).then(function (r) {
       if (!r.ok) throw new Error("scan_" + r.status);
       try { sessionStorage.removeItem(CLE_PHOTO); } catch (e) {}
+      if (window.SS && SS.visage) SS.visage.compterScan();   // un cran vers la relance du questionnaire
       location.replace(sortie());
     }).catch(function () {
       // l'analyse est faite : on ne la relance pas, on rejoue seulement la sauvegarde

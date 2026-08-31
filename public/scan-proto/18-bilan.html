@@ -247,10 +247,10 @@
     var arc = document.getElementById("b-arc");
     arc.setAttribute("class", "gauge-prog " + v);
     var offset = 226.2 * (1 - b.score / 100);
-    // deux rAF : laisser le navigateur peindre l'état initial pour que la transition parte
-    requestAnimationFrame(function () {
-      requestAnimationFrame(function () { arc.style.strokeDashoffset = offset; });
-    });
+    // laisser le navigateur peindre l'état initial pour que la transition parte
+    // (setTimeout et non rAF : suspendu en mode économie d'énergie sur iOS,
+    //  la jauge resterait alors bloquée à zéro)
+    setTimeout(function () { arc.style.strokeDashoffset = offset; }, 40);
     var num = document.getElementById("b-score");
     num.className = "score-num " + v;
     num.textContent = b.score;
