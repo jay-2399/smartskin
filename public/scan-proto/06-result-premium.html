@@ -1212,6 +1212,13 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
 
     document.getElementById("d-formule").textContent = f.score;
     document.getElementById("d-perso-tab").textContent = pe.score;
+    // le scan rejoint l'historique local — la fiche GRATUITE le faisait, pas la
+    // premium : les scans d'une abonnée n'apparaissaient ni dans Recent scans
+    // ni dans History (vu au test iPhone du 2026-08-31)
+    SS.historique.ajouter({ nom: p.nom, marque: p.marque || undefined, image: p.image || undefined,
+                            categorie: p.categorie || undefined,
+                            formule: typeof f.score === "number" ? f.score : null,
+                            perso: typeof pe.score === "number" ? pe.score : null });
     document.getElementById("d-dot-f").className = "dot " + f.bande;
     document.getElementById("d-dot-p").className = "dot " + pe.bande;
 
