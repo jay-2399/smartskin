@@ -566,7 +566,37 @@
   var SVG_HOME = '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.4 10 3l6.5 5.4V16a1.2 1.2 0 0 1-1.2 1.2h-3V12.5h-4.6v4.7h-3A1.2 1.2 0 0 1 3.5 16z"></path></svg>';
   var SVG_SCAN = '<svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6V3.6A1.6 1.6 0 0 1 3.6 2H6M12 2h2.4A1.6 1.6 0 0 1 16 3.6V6M16 12v2.4a1.6 1.6 0 0 1-1.6 1.6H12M6 16H3.6A1.6 1.6 0 0 1 2 14.4V12"></path></svg>';
   var SVG_HISTO = '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 5.6V10l3 1.8"></path><path d="M3.2 8.4a7 7 0 1 1-.4 3.4"></path><path d="M3 7.5V4.6M3.2 8.4l2.8-.7"></path></svg>';
+  var CSS_TABBAR =
+    ".tabbar{position:fixed;z-index:40;left:50%;transform:translateX(-50%);" +
+    "bottom:max(8px, calc(env(safe-area-inset-bottom) - 6px));" +
+    "width:auto;max-width:calc(100% - 48px);height:64px;padding:7px 9px;" +
+    "display:flex;align-items:center;justify-content:center;gap:12px;border-radius:100px;" +
+    "background:linear-gradient(180deg,rgba(255,255,255,0.72),rgba(255,255,255,0.5));" +
+    "-webkit-backdrop-filter:blur(20px) saturate(1.6);backdrop-filter:blur(20px) saturate(1.6);" +
+    "border:1px solid rgba(255,255,255,0.78);border-top-color:rgba(255,255,255,0.95);" +
+    "box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.9),0 2px 6px rgba(40,55,75,0.08),0 16px 40px rgba(40,55,75,0.24);}" +
+    ".tb-item{display:flex;align-items:center;justify-content:center;gap:7px;flex-shrink:0;" +
+    "width:50px;height:50px;border-radius:100px;color:#6E7180;text-decoration:none;" +
+    "transition:color .2s,background .2s;-webkit-tap-highlight-color:transparent;cursor:pointer;}" +
+    ".tb-item:hover{color:#1A1D21;}" +
+    ".tb-item.active{width:auto;padding:0 18px;color:#1A1D21;" +
+    "background:linear-gradient(180deg,rgba(166,195,214,0.55),rgba(166,195,214,0.30));" +
+    "border:1px solid rgba(110,154,182,0.45);" +
+    "box-shadow:inset 0 1px 0 rgba(255,255,255,0.7),0 3px 10px rgba(110,154,182,0.25);}" +
+    ".tb-scan{display:flex;align-items:center;gap:8px;height:50px;padding:0 22px;border-radius:100px;" +
+    "background:linear-gradient(180deg,#2A2D34,#191B1F);color:#fff;font-family:'Manrope',sans-serif;font-weight:700;font-size:13px;letter-spacing:-0.01em;" +
+    "text-decoration:none;cursor:pointer;-webkit-tap-highlight-color:transparent;" +
+    "box-shadow:0 8px 18px rgba(26,29,33,0.35),inset 0 1px 0 rgba(255,255,255,0.2);}" +
+    "body.has-tabbar .phone{padding-bottom:104px;}";
+  function assurerStylesTabbar() {
+    if (document.getElementById("ss-styles-tabbar")) return;
+    var st = document.createElement("style");
+    st.id = "ss-styles-tabbar";
+    st.textContent = CSS_TABBAR;
+    document.head.appendChild(st);
+  }
   SS.tabbar = function (actif) {
+    assurerStylesTabbar();
     var bar = document.createElement("div");
     bar.className = "tabbar";
     bar.setAttribute("role", "navigation");
@@ -589,6 +619,84 @@
     document.body.appendChild(bar);
     document.body.className += (document.body.className ? " " : "") + "has-tabbar";
   };
+
+
+  /* ── halos des jauges : Safari/iOS IGNORE les drop-shadow CSS posés sur des
+     éléments SVG (les arcs de score étaient plats sur iPhone alors que les
+     maquettes rayonnent — vu au test du 2026-08-31). On pose de VRAIS filtres
+     SVG (feDropShadow, mêmes valeurs que le CSS) en style inline — prioritaire
+     sur la feuille — via un observateur : zéro retouche dans les pages. ── */
+  var GLOWS = {
+    good: ["#2BC182", [0.45, 0.40, 0.30]],
+    mid:  ["#EA9A54", [0.45, 0.40, 0.30]],
+    bad:  ["#E06657", [0.48, 0.42, 0.30]],
+  };
+  function assurerFiltresJauge() {
+    if (document.getElementById("ss-glow-defs")) return;
+    var NS = "http://www.w3.org/2000/svg";
+    var svg = document.createElementNS(NS, "svg");
+    svg.setAttribute("id", "ss-glow-defs");
+    svg.setAttribute("width", "0"); svg.setAttribute("height", "0");
+    svg.style.position = "absolute";
+    var defs = document.createElementNS(NS, "defs");
+    // trois ombres empilées ≈ drop-shadow(0 1px 2px) (0 4px 9px) (0 10px 20px)
+    var params = [[1, 1], [4, 4.5], [10, 10]];
+    for (var bande in GLOWS) {
+      var f = document.createElementNS(NS, "filter");
+      f.setAttribute("id", "ss-glow-" + bande);
+      f.setAttribute("x", "-60%"); f.setAttribute("y", "-60%");
+      f.setAttribute("width", "220%"); f.setAttribute("height", "220%");
+      for (var i = 0; i < 3; i++) {
+        var d = document.createElementNS(NS, "feDropShadow");
+        d.setAttribute("dx", "0"); d.setAttribute("dy", String(params[i][0]));
+        d.setAttribute("stdDeviation", String(params[i][1]));
+        d.setAttribute("flood-color", GLOWS[bande][0]);
+        d.setAttribute("flood-opacity", String(GLOWS[bande][1][i]));
+        f.appendChild(d);
+      }
+      defs.appendChild(f);
+    }
+    svg.appendChild(defs);
+    document.body.appendChild(svg);
+  }
+  function poserGlow(el) {
+    var bande = el.classList.contains("good") ? "good"
+      : el.classList.contains("mid") ? "mid"
+      : el.classList.contains("bad") ? "bad" : null;
+    if (!bande) { el.style.filter = ""; return; }
+    assurerFiltresJauge();
+    el.style.filter = "url(#ss-glow-" + bande + ")";
+    if (el.ownerSVGElement) el.ownerSVGElement.style.overflow = "visible";
+  }
+  function balayerGlows() {
+    var arcs = document.querySelectorAll(".gauge-prog, .ring-prog");
+    for (var i = 0; i < arcs.length; i++) poserGlow(arcs[i]);
+  }
+  if (window.MutationObserver) {
+    new MutationObserver(function (muts) {
+      for (var i = 0; i < muts.length; i++) {
+        var m = muts[i];
+        if (m.type === "attributes") {
+          if (m.target.matches && m.target.matches(".gauge-prog, .ring-prog")) poserGlow(m.target);
+          continue;
+        }
+        for (var j = 0; j < m.addedNodes.length; j++) {
+          var n = m.addedNodes[j];
+          if (n.nodeType === 1 && n.querySelectorAll) {
+            var arcs = n.querySelectorAll(".gauge-prog, .ring-prog");
+            for (var k = 0; k < arcs.length; k++) poserGlow(arcs[k]);
+          }
+        }
+      }
+    }).observe(document.documentElement, {
+      subtree: true, childList: true,
+      attributes: true, attributeFilter: ["class"],
+      // seuls les arcs nous intéressent : poserGlow filtre par classe
+    });
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", balayerGlows);
+  } else { balayerGlows(); }
 
   window.SS = SS;
 })();

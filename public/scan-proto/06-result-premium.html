@@ -1100,6 +1100,7 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 <script>
 function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "parfum": "Fragrance", "HE": "Essential oil", "alcool": "Drying alcohol", "creuse": "Few actives", "filtres-uv": "UV protection" })[t] || t; }
 (function(){
+  SS.tabbar(null);
   // V2 : cette fiche est PREMIUM — un visiteur non premium est renvoyé vers la
   // fiche gratuite, même query (produit ?p= ou étiquette ?source=inci).
   if (window.SS) SS.moi().then(function(m){
