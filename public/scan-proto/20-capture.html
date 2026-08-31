@@ -81,11 +81,16 @@
 .flash.go { animation:flash .5s ease both; }
 @keyframes flash { 0% { opacity:0; } 18% { opacity:0.95; } 100% { opacity:0; } }
 
-/* ── consignes de cadrage (funnel.css .crit, en version STATIQUE — cf. script) ── */
+/* ── consignes de cadrage (funnel.css .crit) — VIVANTES : pilotées par MediaPipe,
+   port fidèle de la V1 (src/features/capture), plus une version statique ── */
 .crit-lbl { font-family:var(--fm); font-size:9px; letter-spacing:0.12em; text-transform:uppercase; color:var(--space); padding:16px 4px 0; }
 .crit { display:grid; grid-template-columns:1fr 1fr; gap:7px 10px; padding:9px 4px 4px; animation:rise .55s cubic-bezier(.22,1,.36,1) both .3s; }
 .c { display:flex; align-items:center; gap:8px; font-size:11.5px; font-weight:500; color:var(--graphite); }
-.c .ico { width:18px; height:18px; border-radius:50%; flex-shrink:0; border:1.5px solid var(--smoke); background:var(--card); display:flex; align-items:center; justify-content:center; color:var(--steel); }
+.c .ico { width:18px; height:18px; border-radius:50%; flex-shrink:0; border:1.5px solid var(--smoke); background:var(--card); display:flex; align-items:center; justify-content:center; color:var(--steel); transition:border-color .25s, background .25s, color .25s; }
+.c.ok { color:var(--arsenic); }
+.c.ok .ico { border-color:rgba(31,201,119,0.6); background:rgba(31,201,119,0.14); color:#189A66; }
+.c.err .ico { border-color:rgba(216,84,63,0.5); background:rgba(216,84,63,0.10); color:#D8543F; }
+.guide-oval.ok { stroke:rgba(31,201,119,0.95); }
 
 /* ── bas d'écran (funnel.css .shutter-zone) ── */
 .shutter-zone { margin-top:auto; padding:20px 0 30px; display:flex; flex-direction:column; align-items:center; gap:14px; animation:rise .55s ease both .5s; }
@@ -242,6 +247,33 @@
   <span class="cap-analyzing-sub">Getting it ready for your skin analysis</span>
 </div>
 
+<script type="module">
+/* MediaPipe tasks-vision — même version et mêmes URLs que la V1 en ligne.
+   Chargé dès l'ouverture de la page : le modèle est prêt quand la caméra s'ouvre. */
+var CDN = "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.35";
+var MODELE = "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task";
+window.__vision = import(CDN + "/vision_bundle.mjs").then(function (m) {
+  return m.FilesetResolver.forVisionTasks(CDN + "/wasm").then(function (fileset) {
+    return { m: m, fileset: fileset };
+  });
+});
+window.__landmarkerVideo = window.__vision.then(function (v) {
+  return v.m.FaceLandmarker.createFromOptions(v.fileset, {
+    baseOptions: { modelAssetPath: MODELE },
+    runningMode: "VIDEO", numFaces: 2, outputFacialTransformationMatrixes: true
+  });
+});
+var lmImage = null;
+window.__landmarkerImage = function () {
+  if (!lmImage) lmImage = window.__vision.then(function (v) {
+    return v.m.FaceLandmarker.createFromOptions(v.fileset, {
+      baseOptions: { modelAssetPath: MODELE },
+      runningMode: "IMAGE", numFaces: 2, outputFacialTransformationMatrixes: true
+    });
+  });
+  return lmImage;
+};
+</script>
 <script src="commun/app.js"></script>
 <script>
 (function () {
@@ -269,6 +301,197 @@
   var fichier = document.getElementById("c-file");
   var flux = null;      // MediaStream en cours
   var pris = false;     // verrou : une seule capture par passage
+
+  /* ═══ VALIDATION LIVE — port fidèle de la V1 (src/features/capture ; seuils
+     de config.ts recalibrés caméra réelle, boucle ~18 fps lissée, stabilité
+     temporisée, auto-capture 3 s de tout-vert). L'ovale du viewfinder a la
+     MÊME géométrie que la V1 (386×418, ellipse 193/206 r 118/150). ═══ */
+  var CFG = {
+    faceSize: { minProjected: 470, ratioMin: 0.52, ratioMax: 0.95 },
+    luminance: { meanMin: 145, meanMax: 200, stddevMax: 50, lateralDeltaMax: 30, shadowRangeMax: 65 },
+    orientation: { yaw: 20, pitch: 20, roll: 25 },
+    stability: { maxDeltaFrac: 0.015, holdMs: 500 },
+    sharpness: { minVariance: 60 },
+    centering: { maxOffset: 0.15 },
+    autoCapture: { holdMs: 3000 },
+    upload: { ratioMin: 0.18, minProjected: 220, yaw: 32, pitch: 32, roll: 35,
+              meanMin: 55, meanMax: 235, shadowRangeMax: 80, minVariance: 35 }
+  };
+  var OVAL = { cx: 193 / 386, cy: 206 / 418, rx: 118 / 386, ry: 150 / 418 };
+  var SAMPLE = 64;
+  var _sc = null;
+  function sampleCtx() {
+    if (!_sc) { _sc = document.createElement("canvas"); _sc.width = SAMPLE; _sc.height = SAMPLE; }
+    return _sc.getContext("2d", { willReadFrequently: true });
+  }
+  function luminanceStats(rgba, size) {
+    var sum = 0, sumSq = 0, sumLeft = 0, sumRight = 0, half = size / 2;
+    var cellSum = [0,0,0,0,0,0,0,0,0], cellCnt = [0,0,0,0,0,0,0,0,0];
+    var x, y, l, cell;
+    for (y = 0; y < size; y++) for (x = 0; x < size; x++) {
+      var i = (y * size + x) * 4;
+      l = 0.299 * rgba[i] + 0.587 * rgba[i + 1] + 0.114 * rgba[i + 2];
+      sum += l; sumSq += l * l;
+      if (x < half) sumLeft += l; else sumRight += l;
+      cell = Math.min(2, Math.floor(y * 3 / size)) * 3 + Math.min(2, Math.floor(x * 3 / size));
+      cellSum[cell] += l; cellCnt[cell]++;
+    }
+    var n = size * size, mean = sum / n;
+    var cellMin = Infinity, cellMax = -Infinity, c, m;
+    for (c = 0; c < 9; c++) { if (!cellCnt[c]) continue; m = cellSum[c] / cellCnt[c];
+      if (m < cellMin) cellMin = m; if (m > cellMax) cellMax = m; }
+    return { mean: mean, stddev: Math.sqrt(Math.max(0, sumSq / n - mean * mean)),
+             lateralDelta: Math.abs(sumLeft / (n / 2) - sumRight / (n / 2)),
+             shadowRange: cellMax - cellMin };
+  }
+  function laplacianVariance(rgba, size) {
+    var vals = [], x, y;
+    function g(x2, y2) { return rgba[(y2 * size + x2) * 4]; }
+    for (y = 1; y < size - 1; y++) for (x = 1; x < size - 1; x++) {
+      vals.push(g(x - 1, y) + g(x + 1, y) + g(x, y - 1) + g(x, y + 1) - 4 * g(x, y));
+    }
+    var mean = 0, i; for (i = 0; i < vals.length; i++) mean += vals[i]; mean /= vals.length;
+    var v = 0; for (i = 0; i < vals.length; i++) v += (vals[i] - mean) * (vals[i] - mean);
+    return v / vals.length;
+  }
+  function euler(mm) {
+    var deg = function (r) { return r * 180 / Math.PI; };
+    return { yaw: deg(Math.atan2(mm[8], mm[10])),
+             pitch: deg(Math.asin(Math.max(-1, Math.min(1, -mm[9])))),
+             roll: deg(Math.atan2(mm[1], mm[5])) };
+  }
+  var SANS_VISAGE = { projectedHeight: 0, ratio: 0,
+    luminance: { mean: 0, stddev: 0, lateralDelta: 0, shadowRange: 0 },
+    pose: { yaw: 0, pitch: 0, roll: 0 }, sharpness: 0,
+    centerOffset: { x: 1, y: 1 }, movementDelta: 1 };
+  function buildFrame(faces, matrice, srcW, srcH, source, prevCenter) {
+    if (faces.length !== 1) {
+      var f0 = { faceCount: faces.length }; for (var k in SANS_VISAGE) f0[k] = SANS_VISAGE[k];
+      return { frame: f0, center: null };
+    }
+    var minX = 1, maxX = 0, minY = 1, maxY = 0, i, pt;
+    for (i = 0; i < faces[0].length; i++) { pt = faces[0][i];
+      if (pt.x < minX) minX = pt.x; if (pt.x > maxX) maxX = pt.x;
+      if (pt.y < minY) minY = pt.y; if (pt.y > maxY) maxY = pt.y; }
+    var bboxH = maxY - minY;
+    var centre = { x: (minX + maxX) / 2, y: (minY + maxY) / 2 };
+    // zone CENTRALE du visage (resserrée : exclut cheveux/barbe/oreilles — la V1
+    // documente le faux « contre-jour » que leur contraste provoquait)
+    var IX = 0.20, IY = 0.16, bw = maxX - minX;
+    var ctx = sampleCtx();
+    ctx.drawImage(source, (minX + bw * IX) * srcW, (minY + bboxH * IY) * srcH,
+                  bw * (1 - 2 * IX) * srcW, bboxH * (1 - 2 * IY) * srcH, 0, 0, SAMPLE, SAMPLE);
+    var rgba = ctx.getImageData(0, 0, SAMPLE, SAMPLE).data;
+    return { frame: {
+      faceCount: 1, projectedHeight: bboxH * srcH, ratio: bboxH / (2 * OVAL.ry),
+      luminance: luminanceStats(rgba, SAMPLE),
+      pose: matrice ? euler(matrice) : { yaw: 0, pitch: 0, roll: 0 },
+      sharpness: laplacianVariance(rgba, SAMPLE),
+      centerOffset: { x: Math.abs(centre.x - OVAL.cx) / (2 * OVAL.rx),
+                      y: Math.abs(centre.y - OVAL.cy) / (2 * OVAL.ry) },
+      movementDelta: prevCenter ? Math.hypot(centre.x - prevCenter.x, centre.y - prevCenter.y) : 0
+    }, center: centre };
+  }
+  /* critères — mêmes règles et messages que evaluate.ts */
+  function evaluer(f, stableDepuis, now) {
+    var crit = {};
+    crit.faceCount = f.faceCount === 0 ? { st: "err", msg: "Place your face in the frame" }
+      : f.faceCount > 1 ? { st: "err", msg: "Only one person in the frame" } : { st: "ok" };
+    crit.faceSize = f.ratio < CFG.faceSize.ratioMin ? { st: "err", msg: "Move closer" }
+      : f.ratio > CFG.faceSize.ratioMax ? { st: "err", msg: "Move back a little" }
+      : f.projectedHeight < CFG.faceSize.minProjected ? { st: "err", msg: "Move closer" } : { st: "ok" };
+    var L = f.luminance;
+    crit.luminance = L.mean < CFG.luminance.meanMin ? { st: "err", msg: "Not enough light" }
+      : L.mean > CFG.luminance.meanMax ? { st: "err", msg: "Too much direct light" }
+      : L.stddev >= CFG.luminance.stddevMax ? { st: "err", msg: "You are backlit, turn toward the light" }
+      : L.lateralDelta >= CFG.luminance.lateralDeltaMax ? { st: "err", msg: "Light too strong on one side, balance your lighting" }
+      : L.shadowRange >= CFG.luminance.shadowRangeMax ? { st: "err", msg: "Shadow on your face, even out the lighting" } : { st: "ok" };
+    var P = f.pose;
+    crit.orientation = Math.abs(P.yaw) > CFG.orientation.yaw ? { st: "err", msg: "Turn your head straight to the camera" }
+      : Math.abs(P.pitch) > CFG.orientation.pitch ? { st: "err", msg: "Keep your head level, not too high or low" }
+      : Math.abs(P.roll) > CFG.orientation.roll ? { st: "err", msg: "Straighten your head" } : { st: "ok" };
+    if (f.movementDelta >= CFG.stability.maxDeltaFrac) { crit.stability = { st: "err", msg: "Hold still…", depuis: null }; }
+    else {
+      var depuis = stableDepuis === null ? now : stableDepuis;
+      crit.stability = now - depuis >= CFG.stability.holdMs
+        ? { st: "ok", depuis: depuis } : { st: "warn", msg: "Hold still…", depuis: depuis };
+    }
+    crit.sharpness = f.sharpness < CFG.sharpness.minVariance
+      ? { st: "err", msg: "Blurry image, wait for focus" } : { st: "ok" };
+    crit.centering = (f.centerOffset.x > CFG.centering.maxOffset || f.centerOffset.y > CFG.centering.maxOffset)
+      ? { st: "warn", msg: "Center your face in the oval" } : { st: "ok" };   // SOFT
+    var ordre = ["faceCount", "faceSize", "luminance", "orientation", "stability", "sharpness"];
+    var canCapture = true, topMessage = null, i;
+    for (i = 0; i < ordre.length; i++) {
+      if (crit[ordre[i]].st !== "ok") { canCapture = false; if (!topMessage) topMessage = crit[ordre[i]].msg; }
+    }
+    crit.canCapture = canCapture; crit.topMessage = topMessage;
+    return crit;
+  }
+  /* application UI : les 6 coches (ordre du markup), l'ovale, le déclencheur, l'indice */
+  var rangs = document.querySelectorAll("#v-live .crit .c");
+  var CLES_RANGS = ["faceCount", "faceSize", "centering", "orientation", "luminance", "sharpness"];
+  var ovale = document.querySelector("#v-live .guide-oval");
+  function appliquerEtat(etat, now, vertDepuis) {
+    for (var i = 0; i < rangs.length; i++) {
+      var c = etat[CLES_RANGS[i]];
+      rangs[i].className = "c" + (c.st === "ok" ? " ok" : c.st === "err" ? " err" : "");
+    }
+    if (ovale) ovale.setAttribute("class", "guide-oval" + (etat.canCapture ? " ok" : ""));
+    shoot.disabled = !etat.canCapture || pris;
+    if (etat.canCapture) {
+      var reste = Math.ceil((CFG.autoCapture.holdMs - (now - vertDepuis)) / 1000);
+      hint.textContent = "Perfect — capturing in " + Math.max(1, reste) + "…";
+    } else {
+      hint.textContent = etat.topMessage || "Fill the oval";
+    }
+  }
+  function razEtat() {
+    for (var i = 0; i < rangs.length; i++) rangs[i].className = "c";
+    if (ovale) ovale.setAttribute("class", "guide-oval");
+    shoot.disabled = true;
+  }
+  /* boucle : ~18 fps mesure, ~8 fps UI, lissage exponentiel (alpha .35) */
+  var stopLoop = null;
+  function startValidation(lm) {
+    var prevCenter = null, prevFrame = null, lastRun = 0, lastUi = 0;
+    var stableDepuis = null, vertDepuis = null, stopped = false, rafId = 0;
+    var A = 0.35;
+    function ema(a, b) { return a + (b - a) * A; }
+    function tick(now) {
+      if (stopped) return;
+      rafId = requestAnimationFrame(tick);
+      if (now - lastRun < 55 || !video.videoWidth || video.readyState < 2) return;
+      lastRun = now;
+      var res;
+      try { res = lm.detectForVideo(video, now); } catch (e) { return; }
+      var mat = res.facialTransformationMatrixes && res.facialTransformationMatrixes[0]
+        ? res.facialTransformationMatrixes[0].data : null;
+      var r = buildFrame(res.faceLandmarks || [], mat, video.videoWidth, video.videoHeight, video, prevCenter);
+      prevCenter = r.center;
+      var f = r.frame;
+      if (prevFrame && f.faceCount === 1 && prevFrame.faceCount === 1) {
+        f.ratio = ema(prevFrame.ratio, f.ratio);
+        f.projectedHeight = ema(prevFrame.projectedHeight, f.projectedHeight);
+        f.sharpness = ema(prevFrame.sharpness, f.sharpness);
+        f.pose = { yaw: ema(prevFrame.pose.yaw, f.pose.yaw), pitch: ema(prevFrame.pose.pitch, f.pose.pitch), roll: ema(prevFrame.pose.roll, f.pose.roll) };
+        f.luminance = { mean: ema(prevFrame.luminance.mean, f.luminance.mean),
+          stddev: ema(prevFrame.luminance.stddev, f.luminance.stddev),
+          lateralDelta: ema(prevFrame.luminance.lateralDelta, f.luminance.lateralDelta),
+          shadowRange: ema(prevFrame.luminance.shadowRange, f.luminance.shadowRange) };
+      }
+      prevFrame = f;
+      var etat = evaluer(f, stableDepuis, now);
+      stableDepuis = etat.stability.depuis;
+      if (etat.canCapture) {
+        if (vertDepuis === null) vertDepuis = now;
+        if (now - vertDepuis >= CFG.autoCapture.holdMs && !pris) { capturer(); return; }
+      } else { vertDepuis = null; }
+      if (now - lastUi >= 120) { lastUi = now; appliquerEtat(etat, now, vertDepuis === null ? now : vertDepuis); }
+    }
+    rafId = requestAnimationFrame(tick);
+    return function () { stopped = true; cancelAnimationFrame(rafId); };
+  }
 
   function montrer(nom) {
     var k;
@@ -315,6 +538,8 @@
   /* ── caméra : mécanique de 01-scan.html (getUserMedia + repli) ──
      Ici facingMode "user" (selfie) au lieu de "environment" (scan produit). */
   function stopCamera() {
+    if (stopLoop) { stopLoop(); stopLoop = null; }
+    razEtat();
     if (!flux) return;
     var t = flux.getTracks();
     for (var i = 0; i < t.length; i++) { t[i].stop(); }
@@ -348,12 +573,17 @@
       var jouer = video.play();
       if (jouer && jouer.catch) jouer.catch(function () {});
       document.getElementById("c-vf-loading").hidden = true;
-      /* court temps de stabilisation avant d'armer le déclencheur (01-scan) */
-      setTimeout(function () {
-        if (!flux) return;
-        shoot.disabled = false;
-        hint.textContent = "Fill the oval — tap to capture";
-      }, 1200);
+      /* le déclencheur n'appartient plus à un timer : il attend le MODÈLE puis le
+         TOUT-VERT des critères (règle V1 non négociable). Secours honnête si le
+         modèle ne vient pas (offline, CDN bloqué) : on arme à la main et on le dit. */
+      hint.textContent = "Loading the face guide…";
+      var attenteModele = setTimeout(secoursSansModele, 12000);
+      (window.__landmarkerVideo || Promise.reject()).then(function (lm) {
+        clearTimeout(attenteModele);
+        if (!flux || stopLoop) return;
+        stopLoop = startValidation(lm);
+        hint.textContent = "Fill the oval";
+      }, function () { clearTimeout(attenteModele); secoursSansModele(); });
     }).catch(function (e) {
       var refus = e && (e.name === "NotAllowedError" || e.name === "PermissionDeniedError");
       panne(refus
@@ -362,8 +592,14 @@
     });
   }
 
-  /* ── capture ── */
-  shoot.addEventListener("click", function () {
+  function secoursSansModele() {
+    if (!flux || stopLoop) return;
+    shoot.disabled = false;
+    hint.textContent = "Face guide unavailable — tap when ready";
+  }
+
+  /* ── capture (clic OU auto-capture à 3 s de tout-vert) ── */
+  function capturer() {
     if (pris || !video.videoWidth) return;
     pris = true;
     shoot.disabled = true;
@@ -377,7 +613,31 @@
       return;
     }
     setTimeout(function () { apercu(url); }, 380);
-  });
+  }
+  shoot.addEventListener("click", capturer);
+
+  function validerImport(img) {
+    if (!window.__landmarkerImage) return Promise.resolve({ ok: true });
+    var delai = new Promise(function (res) { setTimeout(function () { res(null); }, 12000); });
+    return Promise.race([window.__landmarkerImage(), delai]).then(function (lm) {
+      if (!lm) return { ok: true };
+      var res = lm.detect(img);
+      var mat = res.facialTransformationMatrixes && res.facialTransformationMatrixes[0]
+        ? res.facialTransformationMatrixes[0].data : null;
+      var f = buildFrame(res.faceLandmarks || [], mat, img.naturalWidth, img.naturalHeight, img, null).frame;
+      var U = CFG.upload;
+      if (f.faceCount === 0) return { ok: false, message: "Place your face in the frame — we couldn't find a face in this photo." };
+      if (f.faceCount > 1) return { ok: false, message: "Only one person in the photo, please." };
+      if (f.ratio < U.ratioMin || f.projectedHeight < U.minProjected) return { ok: false, message: "Your face must be larger in the photo." };
+      if (f.luminance.mean < U.meanMin) return { ok: false, message: "Photo too dark." };
+      if (f.luminance.mean > U.meanMax) return { ok: false, message: "Photo too bright (overexposed)." };
+      if (f.luminance.shadowRange >= U.shadowRangeMax) return { ok: false, message: "Too much shadow on the face, even out the lighting." };
+      if (Math.abs(f.pose.yaw) > U.yaw || Math.abs(f.pose.pitch) > U.pitch || Math.abs(f.pose.roll) > U.roll)
+        return { ok: false, message: "Your face must face the camera." };
+      if (f.sharpness < U.minVariance) return { ok: false, message: "Photo too blurry." };
+      return { ok: true };
+    }).catch(function () { return { ok: true }; });
+  }
 
   /* ── import d'une photo existante ── */
   function importer() {
@@ -392,14 +652,25 @@
     busy.hidden = false;
     var img = new Image();
     img.onload = function () {
-      var url = encoder(img, img.width, img.height, false);
-      URL.revokeObjectURL(img.src);
-      /* l'attente reste VISIBLE ~1 s : sinon l'utilisateur ne voit rien se passer (V1) */
-      setTimeout(function () {
-        busy.hidden = true;
-        if (!url) { montrer("choice"); erreur("Couldn't keep the photo on this device. Try a smaller one."); return; }
-        apercu(url);
-      }, 700);
+      /* la photo importée passe les seuils ASSOUPLIS de la V1 (un selfie normal a un
+         visage plus petit, léger 3/4 toléré) — modèle indisponible : on laisse passer */
+      validerImport(img).then(function (verdict) {
+        if (!verdict.ok) {
+          URL.revokeObjectURL(img.src);
+          busy.hidden = true;
+          montrer("choice");
+          erreur(verdict.message);
+          return;
+        }
+        var url = encoder(img, img.width, img.height, false);
+        URL.revokeObjectURL(img.src);
+        /* l'attente reste VISIBLE ~1 s : sinon l'utilisateur ne voit rien se passer (V1) */
+        setTimeout(function () {
+          busy.hidden = true;
+          if (!url) { montrer("choice"); erreur("Couldn't keep the photo on this device. Try a smaller one."); return; }
+          apercu(url);
+        }, 700);
+      });
     };
     img.onerror = function () {
       URL.revokeObjectURL(img.src);
