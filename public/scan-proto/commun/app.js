@@ -599,6 +599,71 @@
     },
   };
 
+  /* ── SS.packshot : montrer le flacon, pas son fond ────────────────────────
+     Le catalogue mélange trois sources et elles ne se ressemblent pas :
+       · Ulta        (78 % des photos) → PNG DÉJÀ détourés, canal alpha ;
+       · Amazon      (8 %)             → JPEG sur fond blanc, mais servis avec
+                                         les en-têtes CORS : détourables ici ;
+       · INCIdecoder (12 %)            → JPEG sans CORS, intouchables depuis le
+                                         navigateur : eux gardent la carte blanche.
+     Le détourage part des BORDS de l'image : le blanc INTÉRIEUR d'une étiquette
+     est donc conservé, seul le fond disparaît. ~150 ms sur un JPEG de 1500 px. */
+  var SEUIL_BLANC = 238;   // en-deçà, c'est du produit, pas du fond
+  var MAX_COTE = 700;      // au-delà on ne gagne rien à l'écran, et ça coûte cher
+  var DEJA_ALPHA = /ultainc\.com|media\.ulta\.com/;
+
+  function detourer(url) {
+    return new Promise(function (ok, ko) {
+      var img = new Image();
+      img.crossOrigin = "anonymous";
+      img.onerror = function () { ko(new Error("cors")); };
+      img.onload = function () {
+        try {
+          var k = Math.min(1, MAX_COTE / Math.max(img.naturalWidth, img.naturalHeight));
+          var w = Math.round(img.naturalWidth * k), h = Math.round(img.naturalHeight * k);
+          if (!w || !h) return ko(new Error("vide"));
+          var c = document.createElement("canvas");
+          c.width = w; c.height = h;
+          var cx = c.getContext("2d", { willReadFrequently: true });
+          cx.drawImage(img, 0, 0, w, h);
+          var d = cx.getImageData(0, 0, w, h), p = d.data;
+          var vu = new Uint8Array(w * h), pile = [], i;
+          for (i = 0; i < w; i++) { pile.push(i); pile.push((h - 1) * w + i); }
+          for (i = 0; i < h; i++) { pile.push(i * w); pile.push(i * w + w - 1); }
+          while (pile.length) {
+            var id = pile.pop();
+            if (id < 0 || id >= w * h || vu[id]) continue;
+            var o = id * 4;
+            if (p[o] < SEUIL_BLANC || p[o + 1] < SEUIL_BLANC || p[o + 2] < SEUIL_BLANC) continue;
+            vu[id] = 1; p[o + 3] = 0;
+            var x = id % w, y = (id / w) | 0;
+            if (x > 0) pile.push(id - 1);
+            if (x < w - 1) pile.push(id + 1);
+            if (y > 0) pile.push(id - w);
+            if (y < h - 1) pile.push(id + w);
+          }
+          cx.putImageData(d, 0, 0);
+          ok(c.toDataURL("image/png"));
+        } catch (e) { ko(e); }
+      };
+      img.src = url;
+    });
+  }
+
+  /** Pose `url` dans `img`, détourée quand c'est possible. La classe `detoure`
+   *  dit à la page « ce flacon n'a plus de fond » — à elle de retirer la carte
+   *  blanche. Sans CORS, on ne fait rien : la carte blanche reste le repli. */
+  SS.packshot = function (img, url) {
+    if (!img || !url) return;
+    img.src = url;
+    if (DEJA_ALPHA.test(url)) { img.classList.add("detoure"); return; }
+    img.classList.remove("detoure");
+    detourer(url).then(function (png) {
+      img.src = png;
+      img.classList.add("detoure");
+    }).catch(function () {});
+  };
+
   /* ── SS.tabbar : pilule de navigation (Home · Scan · Historique) ────────── */
   var SVG_HOME = '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.4 10 3l6.5 5.4V16a1.2 1.2 0 0 1-1.2 1.2h-3V12.5h-4.6v4.7h-3A1.2 1.2 0 0 1 3.5 16z"></path></svg>';
   var SVG_SCAN = '<svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6V3.6A1.6 1.6 0 0 1 3.6 2H6M12 2h2.4A1.6 1.6 0 0 1 16 3.6V6M16 12v2.4a1.6 1.6 0 0 1-1.6 1.6H12M6 16H3.6A1.6 1.6 0 0 1 2 14.4V12"></path></svg>';

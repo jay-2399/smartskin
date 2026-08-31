@@ -569,7 +569,7 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 @media (prefers-reduced-motion: reduce) { .gauge-prog { animation:none; stroke-dashoffset:36.2; } }
 
 /* ── scène annotée : produit au centre, formule en légendes latérales ── */
-.co-stage { position:relative; width:100%; height:240px; margin:18px auto 8px; }
+.co-stage { position:relative; width:100%; height:272px; margin:18px auto 8px; }
 .co-prod { position:absolute; left:50%; top:0; transform:translateX(-50%); height:100%;
   display:flex; align-items:center; }
 /* Packshot réel = format imprévisible (flacon élancé, boîte plate, tube couché).
@@ -582,10 +582,12 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
   border-radius:14px; border:1px solid var(--cloud);
   box-shadow:0 14px 26px rgba(40,55,75,0.18), 0 3px 8px rgba(40,55,75,0.10);
   animation:hfIn 1s cubic-bezier(.22,1,.36,1) backwards .35s; }
-/* Packshot DÉJÀ détouré (PNG à canal alpha) : la carte blanche n'a plus lieu d'être,
-   le flacon flotte sur le fond. L'ombre passe en drop-shadow pour suivre sa silhouette
-   au lieu de dessiner un rectangle autour du vide. */
-.co-prod img.detoure { background:none; border:none; padding:0; box-shadow:none;
+/* Packshot détouré (alpha d'origine, ou fond retiré par SS.packshot) : plus de carte
+   blanche, le flacon flotte sur le fond et l'ombre suit sa silhouette. Il peut aussi
+   être plus GRAND que le couloir laissé libre entre les deux libellés latéraux : ses
+   bords sont vides, seul le flacon se voit — ce que la carte blanche interdisait. */
+.co-prod img.detoure { width:178px; height:216px; background:none; border:none; padding:0;
+  box-shadow:none;
   filter:drop-shadow(0 14px 20px rgba(40,55,75,0.22)) drop-shadow(0 3px 6px rgba(40,55,75,0.12)); }
 .co { position:absolute; width:78px; }
 .co-l { left:0; text-align:right; }
@@ -1205,15 +1207,7 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     var cp = document.getElementById("d-cat");
     if (CATS[p.categorie]) { cp.textContent = CATS[p.categorie]; cp.hidden = false; }
     var im = document.getElementById("d-img");
-    if (p.image) {
-      im.src = p.image;
-      // Ulta sert des PNG DÉTOURÉS (canal alpha), Amazon et INCIdecoder des JPEG à fond
-      // blanc — vérifié sur les trois sources. Les détourés se passent de la carte
-      // blanche, et `multiply` les teinterait du fond de page au lieu de rien faire.
-      var detoure = /ultainc\.com|media\.ulta\.com/.test(p.image);
-      im.classList.toggle("detoure", detoure);
-      im.style.mixBlendMode = detoure ? "normal" : "multiply";
-    }
+    if (p.image) { SS.packshot(im, p.image); }
     else {
       // Produit lu sur l'étiquette : on n'a AUCUNE photo de lui. Afficher le flacon de démo
       // ferait croire à un autre produit — on montre une silhouette neutre à la place.
