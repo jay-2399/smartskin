@@ -21,7 +21,12 @@ export const REGLES = [
   // agressifs : sulfates. Le repère historique du décapage (Löffler 2003).
   ["tensioactif-agressif", /\w*(YL|ETH|ETH-\d+)[ -]?SULFATE\b|COCO.?SULFATE|OLEFIN SULFONATE/],
   // doux : glucosides (sucre), isethionates, taurates, sarcosinates, glutamates, amphotères
-  ["tensioactif-doux", /\bGLUCOSIDE|ISETHIONATE|\bTAURATE|SARCOSINATE|GLUTAMATE\b|SULFOSUCCINATE|AMPHOACETATE|AMPHODIACETATE|COCAMIDOPROPYL BETAINE|COCOYL GLYCINATE|LAUROYL GLYCINATE|COCOYL APPLE|BETAINE\b(?=.*COCAMIDO)/],
+  // Les amphotères couvrent toute la famille des bétaïnes et sultaïnes, pas la seule
+  // cocamidopropyl : COCO-BETAINE, LAURYL BETAINE, les ...AMIDOPROPYL BETAINE et les
+  // ...HYDROXYSULTAINE sont le co-tensioactif doux le plus courant des gels lavants.
+  // La bétaïne SEULE (triméthylglycine) n'en est pas une : c'est un humectant, et le
+  // motif exige donc toujours un préfixe alkyle ou amido.
+  ["tensioactif-doux", /\bGLUCOSIDE|ISETHIONATE|\bTAURATE|SARCOSINATE|GLUTAMATE\b|SULFOSUCCINATE|AMPHOACETATE|AMPHODIACETATE|AMIDOPROP[H]?YL BETAINE|SULTAINE|\bCOCO[- ]?BETAINE\b|\bLAURYL BETAINE\b|COCOYL GLYCINATE|LAUROYL GLYCINATE|COCOYL APPLE/],
   // savon : acide gras saponifié (pH élevé). Détection fine au niveau PRODUIT (acide gras + base).
   ["tensioactif-savon", /^(POTASSIUM|SODIUM) (COCOATE|PALMATE|PALM KERNELATE|MYRISTATE|LAURATE|STEARATE|OLEATE)$/],
   ["base-saponifiante", /^(POTASSIUM|SODIUM) HYDROXIDE$|TRIETHANOLAMINE/],
