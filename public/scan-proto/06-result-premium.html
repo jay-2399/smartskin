@@ -567,21 +567,16 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 .co-stage { position:relative; width:100%; height:240px; margin:18px auto 8px; }
 .co-prod { position:absolute; left:50%; top:0; transform:translateX(-50%); height:100%;
   display:flex; align-items:center; }
-/* Les photos du catalogue sont carrées et LARGEMENT margées : mesuré sur 60 packshots pris au
-   hasard, le produit n'occupe que 38 % de la largeur en médiane. Les afficher en `contain` dans
-   la voie libre entre les deux légendes revenait donc à montrer surtout du blanc — 122 px de
-   flacon dans une scène de 240.
-   On leur donne une boîte PORTRAIT et `cover` : la marge latérale est rognée, le produit remplit
-   la hauteur — 160 px au lieu de 122, sans toucher à la scène.
-   La LARGEUR, elle, reste bornée à la voie libre entre les deux colonnes de légendes (289 − 2×78
-   = 133 px). Ce n'est pas de la prudence : une image plus large passe SOUS le texte des légendes,
-   et sur un produit large (pot, boîte de masques) la troisième légende devient illisible.
-   Le ratio 132/160 garde 82 % de la largeur du packshot. Les 15 % de produits qui occupent plus
-   que ça — mesuré sur 60 packshots — perdent ~9 % de chaque côté. */
-.co-prod img { width:132px; height:160px; object-fit:cover; border-radius:12px;
-  filter:drop-shadow(0 20px 28px rgba(40,55,75,0.32)) drop-shadow(0 4px 9px rgba(40,55,75,0.16));
-  animation:hfIn 1s cubic-bezier(.22,1,.36,1) backwards .35s;
-  transform:translateZ(0); will-change:filter; }
+/* Packshot réel = format imprévisible (flacon élancé, boîte plate, tube couché).
+   Le recadrage `cover` massacrait les packagings plats (logo coupé — vu au test
+   iPhone sur SVR Sebiaclear). Désormais : carte blanche + `contain` — TOUT
+   packshot s'affiche entier, proprement, quel que soit son format. Les flacons
+   très margés paraissent un peu plus petits : prix accepté pour ne plus jamais
+   mutiler une image. */
+.co-prod img { width:132px; height:160px; object-fit:contain; background:#fff; padding:6px;
+  border-radius:14px; border:1px solid var(--cloud);
+  box-shadow:0 14px 26px rgba(40,55,75,0.18), 0 3px 8px rgba(40,55,75,0.10);
+  animation:hfIn 1s cubic-bezier(.22,1,.36,1) backwards .35s; }
 .co { position:absolute; width:78px; }
 .co-l { left:0; text-align:right; }
 .co-r { right:0; text-align:left; }
@@ -1186,7 +1181,14 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     var p = d.produit, f = d.score.formule, pe = d.score.perso;
 
     document.getElementById("d-brand").textContent = p.marque || "";
-    document.getElementById("d-name").textContent = p.nom;
+    // le nom COMPLET est l'identité catalogue (recherche de fiche, shelf) : il
+    // reste dans data-nom-complet ; l'affichage retire la marque si elle ouvre le nom
+    var nomCourt = p.nom || "";
+    if (p.marque && nomCourt.toLowerCase().indexOf(p.marque.toLowerCase()) === 0) {
+      nomCourt = nomCourt.slice(p.marque.length).replace(/^[\s\-\u2013\u2014\u00b7:]+/, "") || p.nom;
+    }
+    document.getElementById("d-name").textContent = nomCourt;
+    document.getElementById("d-name").setAttribute("data-nom-complet", p.nom);
     // la catégorie sous le titre : elle décide de toute la grille de notation, la lire d'un coup
     // d'œil évite de croire qu'un nettoyant est jugé comme un sérum. Rien à dire → rien à afficher.
     var cp = document.getElementById("d-cat");
@@ -1655,7 +1657,8 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
   // V2 : le bouton principal délègue au flux commun SS.shelf.addFlow (clé ss-shelf,
   // slot libre → ajout direct, occupé → modal de comparaison).
   document.querySelector(".cta-wrap .cta-btn").addEventListener("click", function(){
-    var nom = document.getElementById("d-name").textContent.trim();
+    var el = document.getElementById("d-name");
+    var nom = (el.getAttribute("data-nom-complet") || el.textContent).trim();
     if (!nom) return;
     var catLabel = (document.getElementById("d-cat").textContent || "").trim(), cat;
     for (var ck in CATS) { if (CATS[ck] === catLabel) cat = ck; }

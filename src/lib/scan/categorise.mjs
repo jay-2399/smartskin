@@ -32,7 +32,7 @@ const NOM = [
   ["exfoliant", /\baha\b|\bbha\b|\bpha\b|glycolic|salicylic|lactic acid|enzyme/i, 1],
   ["mask", /\bmask\b|masque|sheet mask|masque tissu/i, 3],
   ["mask", /\bpatch(es)?\b/i, 1],
-  ["cleanser", /cleanser|nettoyant|face wash|\bwash\b|mousse nettoyante|gel moussant|pain nettoyant/i, 3],
+  ["cleanser", /cleanser|nettoyant|face wash|\bwash\b|mousse nettoyante|gel moussant|pain nettoyant|lavant/i, 3],
   ["cleanser", /cleansing (gel|foam|cream|balm|milk)|foaming|purifying gel/i, 2],
   ["toner", /\btoner\b|lotion tonique|astringent/i, 3],
   ["toner", /\bessence\b|\bmist\b|brume|tonique/i, 2],
