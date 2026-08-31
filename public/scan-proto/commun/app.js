@@ -652,16 +652,19 @@
 
   /** Pose `url` dans `img`, détourée quand c'est possible. La classe `detoure`
    *  dit à la page « ce flacon n'a plus de fond » — à elle de retirer la carte
-   *  blanche. Sans CORS, on ne fait rien : la carte blanche reste le repli. */
+   *  blanche. Sans CORS, on ne fait rien : la carte blanche reste le repli.
+   *  Rend une promesse résolue à true/false (elle ne rejette jamais) : les fiches
+   *  l'ignorent, la page de contrôle des packshots s'en sert pour compter. */
   SS.packshot = function (img, url) {
-    if (!img || !url) return;
+    if (!img || !url) return Promise.resolve(false);
     img.src = url;
-    if (DEJA_ALPHA.test(url)) { img.classList.add("detoure"); return; }
+    if (DEJA_ALPHA.test(url)) { img.classList.add("detoure"); return Promise.resolve(true); }
     img.classList.remove("detoure");
-    detourer(url).then(function (png) {
+    return detourer(url).then(function (png) {
       img.src = png;
       img.classList.add("detoure");
-    }).catch(function () {});
+      return true;
+    }).catch(function () { return false; });
   };
 
   /* ── SS.tabbar : pilule de navigation (Home · Scan · Historique) ────────── */

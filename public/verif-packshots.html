@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Contrôle des packshots détourés</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Page de CONTRÔLE, pas un écran produit : elle sert à juger 160 détourages d'un
+   coup d'œil. Le damier derrière chaque flacon est là pour ça — sur fond uni, un
+   fond blanc résiduel serait invisible ; sur le damier, il saute aux yeux. */
+:root {
+  --bg:#F1F3F6; --ink:#1A1D21; --card:#fff; --cloud:#EDEFF7; --steel:#BCBFCC;
+  --space:#9DA2B3; --graphite:#6E7180;
+  --ok:#3E9C6B; --ko:#D8543F; --attente:#C79A3C;
+}
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font-family:'Manrope',system-ui,sans-serif; -webkit-font-smoothing:antialiased; }
+
+header { padding:calc(env(safe-area-inset-top) + 22px) 20px 16px; max-width:1180px; margin:0 auto; }
+h1 { margin:0; font-size:23px; font-weight:800; letter-spacing:-0.02em; }
+.sub { margin:7px 0 0; font-size:13.5px; line-height:1.5; color:var(--graphite); max-width:62ch; }
+
+.compteurs { display:flex; flex-wrap:wrap; gap:8px; margin-top:15px; }
+.cpt { display:inline-flex; align-items:center; gap:7px; padding:7px 13px; border-radius:100px;
+  background:var(--card); border:1px solid var(--cloud); font-size:12.5px; font-weight:600; }
+.cpt b { font-weight:800; font-variant-numeric:tabular-nums; }
+.pt { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+.pt.ok { background:var(--ok); } .pt.ko { background:var(--ko); } .pt.att { background:var(--attente); }
+
+.filtres { display:flex; flex-wrap:wrap; gap:7px; margin-top:14px; }
+.filtres button { padding:7px 14px; border-radius:100px; cursor:pointer;
+  background:var(--card); border:1px solid var(--cloud); color:var(--graphite);
+  font-family:inherit; font-size:12.5px; font-weight:700; }
+.filtres button.on { background:var(--ink); border-color:var(--ink); color:#fff; }
+.filtres button:focus-visible { outline:2px solid var(--ink); outline-offset:2px; }
+
+main { max-width:1180px; margin:0 auto; padding:10px 20px calc(env(safe-area-inset-bottom) + 40px); }
+.grille { display:grid; gap:14px; grid-template-columns:repeat(auto-fill, minmax(158px, 1fr)); }
+
+.item { background:var(--card); border:1px solid var(--cloud); border-radius:16px; overflow:hidden;
+  display:flex; flex-direction:column; }
+/* le damier : deux dégradés croisés, aucune image externe */
+.vue { position:relative; height:172px; display:flex; align-items:center; justify-content:center; padding:10px;
+  background-color:#fff;
+  background-image:linear-gradient(45deg, #E4E7EF 25%, transparent 25%, transparent 75%, #E4E7EF 75%),
+                   linear-gradient(45deg, #E4E7EF 25%, transparent 25%, transparent 75%, #E4E7EF 75%);
+  background-size:16px 16px; background-position:0 0, 8px 8px; }
+.vue img { max-width:100%; max-height:100%; object-fit:contain;
+  filter:drop-shadow(0 6px 10px rgba(40,55,75,0.22)); }
+.vue.brut img { filter:none; }
+
+.bas { padding:10px 12px 12px; border-top:1px solid var(--cloud); }
+.nom { font-size:12px; font-weight:700; line-height:1.3; letter-spacing:-0.01em;
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.meta { margin-top:6px; display:flex; align-items:center; gap:6px; flex-wrap:wrap;
+  font-size:10px; font-weight:700; letter-spacing:0.05em; text-transform:uppercase; color:var(--space); }
+.etat { display:inline-flex; align-items:center; gap:5px; }
+.etat.ok { color:var(--ok); } .etat.ko { color:var(--ko); } .etat.att { color:var(--attente); }
+.ms { font-variant-numeric:tabular-nums; color:var(--steel); text-transform:none; letter-spacing:0; }
+
+.vide { padding:40px 0; text-align:center; color:var(--space); font-size:14px; }
+.note { margin-top:26px; padding:14px 16px; border-radius:14px; background:var(--card);
+  border:1px solid var(--cloud); font-size:12.5px; line-height:1.55; color:var(--graphite); }
+.note b { color:var(--ink); }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Contrôle des packshots détourés</h1>
+  <p class="sub">160 produits tirés au hasard dans les quatre sources d'images du catalogue,
+    passés par la même fonction que les fiches (<code>SS.packshot</code>). Le damier est là pour
+    trahir un fond blanc résiduel : un détourage réussi laisse voir les carreaux tout autour du flacon.</p>
+
+  <div class="compteurs" id="compteurs">
+    <span class="cpt"><span class="pt att"></span>Traitement en cours…</span>
+  </div>
+
+  <div class="filtres" id="filtres">
+    <button type="button" data-f="tout" class="on">Tout</button>
+    <button type="button" data-f="detoure">Détourés</button>
+    <button type="button" data-f="carte">Fond conservé</button>
+    <button type="button" data-f="ulta">Ulta</button>
+    <button type="button" data-f="amazon">Amazon</button>
+    <button type="button" data-f="local">Locales</button>
+    <button type="button" data-f="incidecoder">INCIdecoder</button>
+  </div>
+</header>
+
+<main>
+  <div class="grille" id="grille"></div>
+  <p class="vide" id="vide" hidden>Rien dans ce filtre.</p>
+
+  <div class="note">
+    <b>Comment lire.</b> <b>Détouré</b> = le fond a disparu, on voit le damier autour du flacon.
+    <b>Fond conservé</b> = l'image n'a pas pu être traitée (le serveur qui l'héberge interdit sa
+    lecture par une autre page) ; dans l'app, ces produits gardent leur carte blanche, ce qui reste
+    propre. Les images d'Ulta arrivent déjà détourées, elles ne passent par aucun traitement.
+    <b>Un halo blanc ou un morceau de fond qui reste</b> sur une image marquée « détouré » est un
+    vrai raté : c'est ce qu'il faut me signaler.
+  </div>
+</main>
+
+<script src="/scan-proto/commun/app.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  var grille = document.getElementById("grille");
+  var vide = document.getElementById("vide");
+  var compteurs = document.getElementById("compteurs");
+  var filtre = "tout";
+  var lignes = [];   // {el, source, detoure}
+
+  var LIB = { ulta: "Ulta", amazon: "Amazon", incidecoder: "INCIdecoder", local: "locale", autre: "autre" };
+
+  function carte(p) {
+    var el = document.createElement("div");
+    el.className = "item";
+    el.innerHTML =
+      '<div class="vue brut"><img alt=""></div>' +
+      '<div class="bas"><p class="nom"></p>' +
+      '<p class="meta"><span class="src"></span>' +
+      '<span class="etat att">&bull; en cours</span><span class="ms"></span></p></div>';
+    el.querySelector(".nom").textContent = p.n;
+    el.querySelector(".src").textContent = LIB[p.s] || p.s;
+    return el;
+  }
+
+  function marquer(el, etat, texte, ms) {
+    var e = el.querySelector(".etat");
+    e.className = "etat " + etat;
+    e.textContent = "• " + texte;
+    if (ms != null) el.querySelector(".ms").textContent = ms + " ms";
+  }
+
+  function majCompteurs() {
+    var det = 0, carteB = 0, att = 0;
+    lignes.forEach(function (l) {
+      if (l.etat === "detoure") det++; else if (l.etat === "carte") carteB++; else att++;
+    });
+    compteurs.innerHTML =
+      '<span class="cpt"><span class="pt ok"></span>Détourés <b>' + det + '</b></span>' +
+      '<span class="cpt"><span class="pt ko"></span>Fond conservé <b>' + carteB + '</b></span>' +
+      (att ? '<span class="cpt"><span class="pt att"></span>En cours <b>' + att + '</b></span>' : "");
+  }
+
+  function appliquerFiltre() {
+    var n = 0;
+    lignes.forEach(function (l) {
+      var ok = filtre === "tout"
+        || (filtre === "detoure" && l.etat === "detoure")
+        || (filtre === "carte" && l.etat === "carte")
+        || filtre === l.source;
+      l.el.style.display = ok ? "" : "none";
+      if (ok) n++;
+    });
+    vide.hidden = n > 0;
+  }
+
+  document.getElementById("filtres").addEventListener("click", function (e) {
+    var b = e.target.closest("button");
+    if (!b) return;
+    [].forEach.call(this.querySelectorAll("button"), function (x) { x.classList.remove("on"); });
+    b.classList.add("on");
+    filtre = b.getAttribute("data-f");
+    appliquerFiltre();
+  });
+
+  /* Les détourages sont lancés PAR PETITS PAQUETS : 160 flood-fills d'un coup
+     bloqueraient le fil principal une dizaine de secondes. */
+  function traiter(liste, i) {
+    if (i >= liste.length) { majCompteurs(); appliquerFiltre(); return; }
+    var lot = liste.slice(i, i + 6);
+    Promise.all(lot.map(function (l) {
+      var img = l.el.querySelector("img");
+      var t0 = performance.now();
+      return SS.packshot(img, l.p.u).then(function (ok) {
+        l.etat = ok ? "detoure" : "carte";
+        l.el.querySelector(".vue").classList.toggle("brut", !ok);
+        marquer(l.el, ok ? "ok" : "ko", ok ? "détouré" : "fond conservé",
+                ok ? Math.round(performance.now() - t0) : null);
+      });
+    })).then(function () {
+      majCompteurs();
+      setTimeout(function () { traiter(liste, i + 6); }, 0);
+    });
+  }
+
+  fetch("/verif-packshots.json", { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      data.forEach(function (p) {
+        var el = carte(p);
+        grille.appendChild(el);
+        lignes.push({ el: el, p: p, source: p.s, etat: "att" });
+      });
+      majCompteurs();
+      traiter(lignes, 0);
+    })
+    .catch(function () {
+      compteurs.innerHTML = '<span class="cpt"><span class="pt ko"></span>Échantillon introuvable</span>';
+    });
+})();
+</script>
+</body>
+</html>
