@@ -45,7 +45,72 @@
   }
   // mêmes seuils que le moteur (cf. 06-result-premium) : ≥75 good · ≥45 mid · sinon bad
   function teinte(n) { return n >= 75 ? "good" : n >= 45 ? "mid" : "bad"; }
+
+  /* ── styles des modales/toasts : injectés par app.js lui-même ──────────────
+     Les 5 pages d'origine (dont 06-result-premium) ne chargent PAS base.css :
+     sans ceci, le modal Add-to-routine s'ouvrait NU — images à taille réelle,
+     page élargie, écran « coupé » (bug vu sur iPhone le 2026-08-31).
+     Valeurs LITTÉRALES (pas de var()) : les :root diffèrent d'une page à
+     l'autre. Rules scopées sous .scrim pour ne jamais toucher la page hôte. */
+  var CSS_MODAUX =
+    ".scrim{position:fixed;inset:0;z-index:50;padding:24px;display:flex;align-items:center;justify-content:center;" +
+    "background:rgba(15,18,26,0.44);-webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px);}" +
+    ".scrim .modal{width:100%;max-width:366px;border-radius:24px;padding:22px 20px 20px;font-family:'Manrope',sans-serif;color:#1A1D21;" +
+    "background:linear-gradient(165deg,rgba(255,255,255,0.96),rgba(255,255,255,0.85));" +
+    "-webkit-backdrop-filter:blur(24px) saturate(1.5);backdrop-filter:blur(24px) saturate(1.5);" +
+    "border:1px solid rgba(255,255,255,0.92);box-shadow:inset 0 1.5px 0 #fff,0 30px 70px rgba(15,20,35,0.45);}" +
+    ".scrim .modal-h{font-weight:800;font-size:20px;letter-spacing:-0.03em;color:#1A1D21;margin:6px 0 0;}" +
+    ".scrim .modal-sub{font-size:12.5px;line-height:1.55;color:#6E7180;margin:5px 0 0;}" +
+    ".scrim .modal-note{font-size:10px;color:#9DA2B3;text-align:center;margin:9px 0 0;letter-spacing:0.01em;}" +
+    ".scrim .sec-kicker{font-size:8px;color:#9DA2B3;letter-spacing:0.18em;text-transform:uppercase;}" +
+    ".scrim .swap-card{display:flex;align-items:center;gap:12px;padding:12px 14px;border-radius:16px;" +
+    "background:#fff;border:1.5px solid #EDEFF7;box-shadow:0 4px 14px rgba(40,55,75,0.08);}" +
+    ".scrim .swap-card.now{border-color:rgba(43,193,130,0.55);box-shadow:0 0 0 3px rgba(43,193,130,0.12),0 4px 14px rgba(40,55,75,0.08);}" +
+    ".scrim .swap-card img{height:38px;width:auto;flex-shrink:0;}" +
+    ".scrim .swap-vs{text-align:center;font-size:9px;font-weight:800;letter-spacing:0.16em;color:#9DA2B3;margin:9px 0;text-transform:uppercase;}" +
+    ".scrim .swap-tag{font-size:8.5px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:#189A66;}" +
+    ".scrim .alt-name{font-weight:700;font-size:14px;letter-spacing:-0.02em;color:#1A1D21;margin:2px 0 0;}" +
+    ".scrim .alt-score{margin-left:auto;text-align:right;flex-shrink:0;}" +
+    ".scrim .alt-score b{display:block;font-weight:800;font-size:19px;letter-spacing:-0.5px;color:#189A66;}" +
+    ".scrim .alt-score b.mid{color:#D9822B;}.scrim .alt-score b.bad{color:#D8543F;}" +
+    ".scrim .alt-score span{font-size:8.5px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:#9DA2B3;}" +
+    ".scrim .swap-verdict{display:flex;gap:9px;align-items:flex-start;margin:15px 0 0;padding:12px 13px;border-radius:14px;" +
+    "background:rgba(43,193,130,0.1);border:1px solid rgba(43,193,130,0.3);}" +
+    ".scrim .swap-verdict p{font-size:12px;line-height:1.5;color:#40424D;margin:0;}" +
+    ".scrim .swap-verdict p b{font-weight:700;}" +
+    ".scrim .rt-ic{width:26px;height:26px;border-radius:50%;flex-shrink:0;margin-top:1px;display:flex;align-items:center;justify-content:center;}" +
+    ".scrim .rt-ic.good{background:rgba(43,193,130,0.14);color:#189A66;border:1px solid rgba(43,193,130,0.42);}" +
+    ".scrim .cta-btn{width:100%;height:54px;background:linear-gradient(180deg,#2A2D34 0%,#1A1D21 100%);color:#fff;" +
+    "font-family:'Manrope',sans-serif;font-weight:600;font-size:14.5px;letter-spacing:-0.01em;" +
+    "border:1px solid rgba(255,255,255,0.08);border-radius:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:9px;" +
+    "box-shadow:0 8px 20px rgba(26,29,33,0.26),inset 0 1px 0 rgba(255,255,255,0.22);}" +
+    ".scrim .cta-ghost{margin-top:12px;width:100%;height:54px;background:transparent;color:#1A1D21;" +
+    "font-family:'Manrope',sans-serif;font-weight:600;font-size:14.5px;letter-spacing:-0.01em;" +
+    "border:1.5px solid rgba(26,29,33,0.75);border-radius:15px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:9px;}" +
+    ".scrim .cta-sub{display:block;text-align:center;margin-top:14px;font-weight:600;font-size:12.5px;color:#6E7180;text-decoration:none;cursor:pointer;}" +
+    ".scrim .auth-apple{margin-top:18px;width:100%;height:52px;border:none;border-radius:15px;cursor:pointer;" +
+    "background:linear-gradient(180deg,#2A2D34,#191B1F);color:#fff;font-family:'Manrope',sans-serif;font-weight:700;font-size:14.5px;" +
+    "display:flex;align-items:center;justify-content:center;gap:8px;" +
+    "box-shadow:0 8px 20px rgba(26,29,33,0.26),inset 0 1px 0 rgba(255,255,255,0.22);}" +
+    ".scrim .auth-apple .apple-slot{display:flex;align-self:stretch;}" +
+    ".scrim .auth-apple .apple-slot svg{height:100%;width:auto;}" +
+    ".ss-toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom) + 96px);z-index:60;" +
+    "padding:11px 18px;border-radius:100px;white-space:nowrap;pointer-events:none;" +
+    "background:linear-gradient(180deg,#2A2D34,#191B1F);color:#fff;font-family:'Manrope',sans-serif;font-size:12.5px;font-weight:700;letter-spacing:-0.01em;" +
+    "box-shadow:0 10px 26px rgba(26,29,33,0.35),inset 0 1px 0 rgba(255,255,255,0.2);" +
+    "animation:ssToast 2.3s cubic-bezier(.22,1,.36,1) both;}" +
+    "@keyframes ssToast{0%{opacity:0;transform:translate(-50%,10px);}10%,85%{opacity:1;transform:translate(-50%,0);}100%{opacity:0;transform:translate(-50%,-6px);}}" +
+    "@media (prefers-reduced-motion: reduce){.ss-toast{animation:none;transform:translateX(-50%);}}";
+  function assurerStylesModaux() {
+    if (document.getElementById("ss-styles-modaux")) return;
+    var st = document.createElement("style");
+    st.id = "ss-styles-modaux";
+    st.textContent = CSS_MODAUX;
+    document.head.appendChild(st);
+  }
+
   function toast(txt) {
+    assurerStylesModaux();
     var t = document.createElement("div");
     t.className = "ss-toast";
     t.textContent = txt;
@@ -53,6 +118,7 @@
     setTimeout(function () { if (t.parentNode) t.parentNode.removeChild(t); }, 2400);
   }
   function ouvrirScrim(html, surFond) {
+    assurerStylesModaux();
     var sc = document.createElement("div");
     sc.className = "scrim";
     sc.innerHTML = html;
