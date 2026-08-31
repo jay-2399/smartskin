@@ -308,7 +308,14 @@ window.__landmarkerImage = function () {
      MÊME géométrie que la V1 (386×418, ellipse 193/206 r 118/150). ═══ */
   var CFG = {
     faceSize: { minProjected: 470, ratioMin: 0.52, ratioMax: 0.95 },
-    luminance: { meanMin: 145, meanMax: 200, stddevMax: 50, lateralDeltaMax: 30, shadowRangeMax: 65 },
+    /* Lumière — seuils DESSERRÉS par rapport à la V1 (145/200/50/30/65). Ceux-là
+       avaient été montés cran par cran pour une webcam de portable, éclairée de
+       face par un écran ; sur un téléphone tenu à bout de bras, une pièce
+       normalement éclairée le soir tombe vers 110-130 de moyenne et « Not enough
+       light » restait rouge en permanence. Le serveur refait de toute façon son
+       propre contrôle qualité (422) — et il accepte bien plus bas (55) pour une
+       photo importée : il y a de la marge sous ces valeurs. */
+    luminance: { meanMin: 100, meanMax: 225, stddevMax: 62, lateralDeltaMax: 42, shadowRangeMax: 85 },
     orientation: { yaw: 20, pitch: 20, roll: 25 },
     stability: { maxDeltaFrac: 0.015, holdMs: 500 },
     sharpness: { minVariance: 60 },
@@ -392,6 +399,24 @@ window.__landmarkerImage = function () {
       movementDelta: prevCenter ? Math.hypot(centre.x - prevCenter.x, centre.y - prevCenter.y) : 0
     }, center: centre };
   }
+  /* Lumière, avec hystérésis : une fois le critère au vert, la bande d'acceptation
+     s'élargit de MARGE. Sans cela une moyenne qui oscille d'un ou deux points
+     autour du seuil — ce que fait l'exposition automatique du téléphone en
+     permanence — fait clignoter « Not enough light » et interdit la capture. */
+  var MARGE_LUM = { mean: 14, ecart: 9 };
+  var lumVerte = false;
+  function jugerLumiere(L) {
+    var m = lumVerte ? MARGE_LUM.mean : 0, e = lumVerte ? MARGE_LUM.ecart : 0;
+    var r = L.mean < CFG.luminance.meanMin - m ? { st: "err", msg: "Not enough light" }
+      : L.mean > CFG.luminance.meanMax + m ? { st: "err", msg: "Too much direct light" }
+      : L.stddev >= CFG.luminance.stddevMax + e ? { st: "err", msg: "You are backlit, turn toward the light" }
+      : L.lateralDelta >= CFG.luminance.lateralDeltaMax + e ? { st: "err", msg: "Light too strong on one side, balance your lighting" }
+      : L.shadowRange >= CFG.luminance.shadowRangeMax + e ? { st: "err", msg: "Shadow on your face, even out the lighting" }
+      : { st: "ok" };
+    lumVerte = r.st === "ok";
+    return r;
+  }
+
   /* critères — mêmes règles et messages que evaluate.ts */
   function evaluer(f, stableDepuis, now) {
     var crit = {};
@@ -400,12 +425,7 @@ window.__landmarkerImage = function () {
     crit.faceSize = f.ratio < CFG.faceSize.ratioMin ? { st: "err", msg: "Move closer" }
       : f.ratio > CFG.faceSize.ratioMax ? { st: "err", msg: "Move back a little" }
       : f.projectedHeight < CFG.faceSize.minProjected ? { st: "err", msg: "Move closer" } : { st: "ok" };
-    var L = f.luminance;
-    crit.luminance = L.mean < CFG.luminance.meanMin ? { st: "err", msg: "Not enough light" }
-      : L.mean > CFG.luminance.meanMax ? { st: "err", msg: "Too much direct light" }
-      : L.stddev >= CFG.luminance.stddevMax ? { st: "err", msg: "You are backlit, turn toward the light" }
-      : L.lateralDelta >= CFG.luminance.lateralDeltaMax ? { st: "err", msg: "Light too strong on one side, balance your lighting" }
-      : L.shadowRange >= CFG.luminance.shadowRangeMax ? { st: "err", msg: "Shadow on your face, even out the lighting" } : { st: "ok" };
+    crit.luminance = jugerLumiere(f.luminance);
     var P = f.pose;
     crit.orientation = Math.abs(P.yaw) > CFG.orientation.yaw ? { st: "err", msg: "Turn your head straight to the camera" }
       : Math.abs(P.pitch) > CFG.orientation.pitch ? { st: "err", msg: "Keep your head level, not too high or low" }
@@ -450,6 +470,7 @@ window.__landmarkerImage = function () {
     for (var i = 0; i < rangs.length; i++) rangs[i].className = "c";
     if (ovale) ovale.setAttribute("class", "guide-oval");
     shoot.disabled = true;
+    lumVerte = false;   // l'hystérésis ne survit pas à une caméra fermée
   }
   /* boucle : ~18 fps mesure, ~8 fps UI, lissage exponentiel (alpha .35) */
   var stopLoop = null;
