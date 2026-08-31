@@ -769,7 +769,7 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 
   <div id="hero-stage" class="wait" style="position:relative; width:100%; height:308px; margin-top:6px; display:flex; align-items:center; justify-content:center;
     background:radial-gradient(50% 56% at 50% 58%, rgba(166,195,214,0.32), transparent 72%);">
-    <img id="p-img" src="effaclar.png" alt="Product" style="max-height:286px; max-width:70%; width:auto; object-fit:contain;
+    <img id="p-img" src="packshot-neutre.png" alt="Product" style="max-height:286px; max-width:70%; width:auto; object-fit:contain;
       filter:drop-shadow(0 26px 36px rgba(40,55,75,0.30)) drop-shadow(0 5px 10px rgba(40,55,75,0.16));">
   </div>
 
@@ -839,7 +839,7 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
   var wi = 0, waitTimer = setInterval(function(){ wi = (wi+1) % WAIT.length; chipT.textContent = WAIT[wi]; }, 2600);
 
   function setImg(u) {
-    if (!u) { img.src = 'effaclar.png'; img.classList.remove('flat'); return; }
+    if (!u) { img.src = 'packshot-neutre.png'; img.classList.remove('flat'); return; }
     if (/^https?:/.test(u)) { img.classList.add('flat'); } else { img.classList.remove('flat'); }
     img.src = u;
   }
@@ -875,7 +875,7 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
     alts.forEach(function(p, i) {
       var row = document.createElement('div'); row.className = 'cand-row';
       row.innerHTML = '<div class="cand-thumb"><img alt=""></div><div style="min-width:0; flex:1;"><p class="cand-name"></p><p class="cand-brand"></p></div><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg>';
-      row.querySelector('img').src = p.image || 'effaclar.png';
+      row.querySelector('img').src = p.image || 'packshot-neutre.png';
       row.querySelector('.cand-name').textContent = p.nom;
       row.querySelector('.cand-brand').textContent = p.marque || '';
       row.onclick = function() { var old = { nom:name.textContent, marque:brand.textContent, image:img.getAttribute('src') }; alts.splice(i, 1, old); renderMatch(p); buildSheet(); closeSheet(); yes.classList.remove('hidden'); };

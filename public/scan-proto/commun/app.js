@@ -657,6 +657,11 @@
    *  l'ignorent, la page de contrôle des packshots s'en sert pour compter. */
   SS.packshot = function (img, url) {
     if (!img || !url) return Promise.resolve(false);
+    // On garde l'URL D'ORIGINE à part : après détourage, `src` devient une URL de
+    // données de plusieurs centaines de Ko, et les écrans qui recopient l'image dans
+    // le stockage local (routine, historique) rempliraient le quota en une poignée
+    // de produits — sans bruit, puisque l'écriture échoue en silence.
+    img.dataset.packshot = url;
     img.src = url;
     if (DEJA_ALPHA.test(url)) { img.classList.add("detoure"); return Promise.resolve(true); }
     img.classList.remove("detoure");

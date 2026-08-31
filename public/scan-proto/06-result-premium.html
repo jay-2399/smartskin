@@ -940,11 +940,11 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 
   <div class="hero">
     <div class="hero-notch"></div>
-    <span class="hero-brand" id="d-brand">La Roche-Posay</span>
-    <h1 class="hero-product" id="d-name">Effaclar Duo+M</h1>
+    <span class="hero-brand" id="d-brand">&nbsp;</span>
+    <h1 class="hero-product" id="d-name">&nbsp;</h1>
     <span class="cat-pill" id="d-cat" hidden></span>
     <div class="co-stage">
-      <div class="co-prod"><img id="d-img" src="effaclar.png" alt="Product"></div><div id="d-callouts"></div>
+      <div class="co-prod"><img id="d-img" class="detoure" src="packshot-neutre.png" alt="Product"></div><div id="d-callouts"></div>
     </div>
 
     <div class="seg on-skin" id="d-seg">
@@ -1734,7 +1734,8 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     SS.shelf.addFlow({
       nom: nom,
       marque: (document.getElementById("d-brand").textContent || "").trim() || undefined,
-      image: document.getElementById("d-img").getAttribute("src") || undefined,
+      // l'URL d'origine, pas le `src` : celui-ci porte l'image détourée en URL de données
+      image: (function(i){ return i.dataset.packshot || i.getAttribute("src") || undefined; })(document.getElementById("d-img")),
       categorie: cat,
       formule: parseInt(document.getElementById("d-formule").textContent, 10) || null,
       perso: parseInt(document.getElementById("d-perso-tab").textContent, 10) || null
