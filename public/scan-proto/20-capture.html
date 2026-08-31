@@ -454,15 +454,14 @@ window.__landmarkerImage = function () {
   /* boucle : ~18 fps mesure, ~8 fps UI, lissage exponentiel (alpha .35) */
   var stopLoop = null;
   function startValidation(lm) {
-    var prevCenter = null, prevFrame = null, lastRun = 0, lastUi = 0;
-    var stableDepuis = null, vertDepuis = null, stopped = false, rafId = 0;
+    var prevCenter = null, prevFrame = null, lastUi = 0;
+    var stableDepuis = null, vertDepuis = null, stopped = false;
     var A = 0.35;
     function ema(a, b) { return a + (b - a) * A; }
-    function tick(now) {
+    function tick() {
       if (stopped) return;
-      rafId = requestAnimationFrame(tick);
-      if (now - lastRun < 55 || !video.videoWidth || video.readyState < 2) return;
-      lastRun = now;
+      var now = performance.now();
+      if (!video.videoWidth || video.readyState < 2) return;
       var res;
       try { res = lm.detectForVideo(video, now); } catch (e) { return; }
       var mat = res.facialTransformationMatrixes && res.facialTransformationMatrixes[0]
@@ -489,8 +488,11 @@ window.__landmarkerImage = function () {
       } else { vertDepuis = null; }
       if (now - lastUi >= 120) { lastUi = now; appliquerEtat(etat, now, vertDepuis === null ? now : vertDepuis); }
     }
-    rafId = requestAnimationFrame(tick);
-    return function () { stopped = true; cancelAnimationFrame(rafId); };
+    /* horloge fixe ~18 fps : requestAnimationFrame est SUSPENDU par le mode
+       économie d'énergie d'iOS (batterie jaune) dans les WebViews — la V1 y
+       échappait de justesse, pas nous. setInterval, lui, bat toujours. */
+    var timerId = setInterval(tick, 55);
+    return function () { stopped = true; clearInterval(timerId); };
   }
 
   function montrer(nom) {
