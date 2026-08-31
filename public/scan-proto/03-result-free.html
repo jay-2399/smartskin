@@ -56,6 +56,10 @@
   border-radius:14px; border:1px solid var(--cloud);
   box-shadow:0 14px 26px rgba(40,55,75,0.18), 0 3px 8px rgba(40,55,75,0.10);
   animation:hfIn 1s cubic-bezier(.22,1,.36,1) backwards .35s; }
+/* Packshot déjà détouré (PNG à canal alpha) : pas de carte blanche, et l'ombre
+   suit la silhouette du flacon au lieu d'un rectangle. */
+.co-prod img.detoure { background:none; border:none; padding:0; box-shadow:none;
+  filter:drop-shadow(0 14px 20px rgba(40,55,75,0.22)) drop-shadow(0 3px 6px rgba(40,55,75,0.12)); }
 @keyframes hfIn { from { opacity:0; transform:scale(1.06) translateY(6px); } to { opacity:1; transform:none; } }
 .co { position:absolute; width:96px; }
 .co-l { left:0; text-align:right; }
@@ -464,8 +468,12 @@
     document.getElementById("d-name").textContent = nomCourt;
     document.getElementById("d-name").setAttribute("data-nom-complet", p.nom);
     var im = document.getElementById("d-img");
-    if (p.image) { im.src = p.image; }
-    else { im.src = SILHOUETTE; im.style.filter = "none"; }
+    if (p.image) {
+      // Ulta sert des PNG détourés, Amazon et INCIdecoder des JPEG à fond blanc.
+      im.src = p.image;
+      im.classList.toggle("detoure", /ultainc\.com|media\.ulta\.com/.test(p.image));
+    }
+    else { im.src = SILHOUETTE; im.style.filter = "none"; im.classList.remove("detoure"); }
 
     // ── jauge formule (seule note d'un visiteur — on affiche ce que l'API donne) ──
     var arc = document.getElementById("d-arc"), num = document.getElementById("d-score");
