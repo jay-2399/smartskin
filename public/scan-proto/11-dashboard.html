@@ -31,6 +31,13 @@ a.nav-back { text-decoration:none; }
   font-size:13.5px; letter-spacing:-0.01em; }
 .btn-row { display:flex; gap:10px; margin-top:17px; }
 
+/* squelette : le bilan vient du réseau, la carte doit tenir sa place en attendant
+   (sinon le haut du dashboard a l'air d'avoir disparu le temps de l'appel) */
+.sk { border-radius:100px;
+  background:linear-gradient(90deg, rgba(110,125,145,0.09), rgba(110,125,145,0.19), rgba(110,125,145,0.09));
+  background-size:200% 100%; animation:sk-pass 1.3s ease-in-out infinite; }
+@keyframes sk-pass { from { background-position:200% 0; } to { background-position:-200% 0; } }
+
 /* demi-jauge de score (l'arc prend la couleur du verdict) */
 .gauge-wrap { position:relative; width:150px; margin:2px auto 0; }
 .gauge { display:block; width:150px; height:auto; overflow:visible; }
@@ -98,6 +105,7 @@ a.nav-back { text-decoration:none; }
   .s0 { animation:none; }
   .score-num { animation:none; }
   .gauge-prog { transition:none; }
+  .sk { animation:none; }
 }
 </style>
 </head>
@@ -164,7 +172,24 @@ a.nav-back { text-decoration:none; }
   document.getElementById("d-date").textContent =
     JOURS[auj.getDay()] + ", " + MOIS[auj.getMonth()] + " " + auj.getDate();
 
-  /* ── carte score (GET /api/moi/bilan) ── */
+  /* ── carte score (GET /api/moi/bilan) ──
+     Squelette d'abord : le bilan arrive du réseau et sur une connexion lente la
+     carte restait vide plusieurs secondes — le score ET les deux CTA semblaient
+     avoir disparu du dashboard. On occupe la place, à la bonne hauteur. */
+  function squelette() {
+    document.getElementById("score-card").innerHTML =
+      '<div class="gauge-wrap">' +
+      '<svg class="gauge" viewBox="0 0 170 93" aria-hidden="true">' + GAUGE_DEFS +
+      '<path class="gauge-track" d="M13 88 A72 72 0 0 1 157 88"></path></svg>' +
+      '<div class="score-row"><span class="score-num" style="animation:none; color:var(--cloud);">&ndash;</span>' +
+      '<span class="score-den">/100</span></div>' +
+      "</div>" +
+      '<span class="sec-kicker" style="display:block; margin-top:8px;">Skin score</span>' +
+      '<div class="sk" style="height:13px; width:58%; margin:13px auto 0;"></div>' +
+      '<div class="btn-row"><div class="sk" style="height:48px; flex:1;"></div>' +
+      '<div class="sk" style="height:48px; flex:1.18;"></div></div>';
+  }
+
   function rendreScore(bilan) {
     var card = document.getElementById("score-card");
     if (!bilan || typeof bilan.score !== "number") {
@@ -328,7 +353,10 @@ a.nav-back { text-decoration:none; }
     zone.innerHTML = html;
   }
 
-  /* ── garde jumelle puis rendu (contrat §6 : gratuit sur 11 → 12) ── */
+  /* ── garde jumelle puis rendu (contrat §6 : gratuit sur 11 → 12) ──
+     Le squelette est posé TOUT DE SUITE, sans attendre le statut du compte :
+     c'est justement l'attente qui laissait la carte vide. */
+  squelette();
   SS.moi().then(function (m) {
     if (!m.premium) { location.replace("12-dashboard-free.html"); return; }
     SS.tabbar("home");

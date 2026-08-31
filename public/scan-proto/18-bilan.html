@@ -420,6 +420,11 @@
       location.href = m.premium ? "11-dashboard.html" : "12-dashboard-free.html";
     });
   }
+  /* nav permanente, comme sur les fiches produit : le bilan est le point
+     d'arrivée du tunnel visage (on y arrive par location.replace), la flèche
+     retour n'a donc pas toujours où revenir. */
+  SS.tabbar(null);
+
   var back = document.getElementById("b-back");
   back.addEventListener("click", retour);
   back.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); retour(); } });
