@@ -1217,6 +1217,12 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
   function rendre(d){
     if (!d || !d.produit || !d.score || !d.score.disponible) return;
     var p = d.produit, f = d.score.formule, pe = d.score.perso;
+    // Pas de bloc perso : le serveur ne l'accorde qu'à une session premium, donc elle a
+    // expiré entre /api/moi (qui a laissé entrer) et /api/produit/fiche. Sans ce garde-fou,
+    // la suite plantait sur pe.score et la page gardait SILENCIEUSEMENT son contenu de
+    // démonstration — c'est-à-dire les chiffres d'un AUTRE produit. La fiche gratuite est
+    // exactement la vue « formule seule », et elle lit les mêmes sources : on y va.
+    if (!pe || typeof pe.score !== "number") { location.replace("03-result-free.html" + location.search); return; }
 
     document.getElementById("d-brand").textContent = p.marque || "";
     // le nom COMPLET est l'identité catalogue (recherche de fiche, shelf) : il
@@ -1340,9 +1346,14 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
           .map(function(d){
             // v2 : les lignes \u00ab merite \u00bb / \u00ab faute \u00bb portent d\u00e9j\u00e0 leur libell\u00e9 m\u00e9tier tout fait
             if (d.dit) { var t = d.dit.charAt(0).toUpperCase() + d.dit.slice(1); return { label: t, points: d.pts }; }
-            return { label: (d.inci ? d.inci.charAt(0) + d.inci.slice(1).toLowerCase() : libelleType(d.type))
-              + (d.type === "actif" ? " \u2014 proven active" : d.type === "risque" ? " \u2014 known irritant"
-              : d.type === "filtres-uv" ? "" : " \u2014 " + libelleType(d.type)), points: d.pts }; })
+            // Le suffixe de TYPE ne s'ajoute qu'à un nom d'INGRÉDIENT, où il apporte la
+            // catégorie. Sans `inci` le nom EST déjà le libellé du type, et l'ajouter le
+            // répétait : le malus parfum s'affichait « Fragrance complex — Fragrance complex ».
+            var nom = d.inci ? d.inci.charAt(0) + d.inci.slice(1).toLowerCase() : libelleType(d.type);
+            var suffixe = d.type === "actif" ? " \u2014 proven active"
+              : d.type === "risque" ? " \u2014 known irritant"
+              : (d.inci && d.type !== "filtres-uv") ? " \u2014 " + libelleType(d.type) : "";
+            return { label: nom + suffixe, points: d.pts }; })
       : (function(){
           // `factsAffiches` est la sélection resserrée (faits assez marquants pour être montrés
           // d'emblée). Le « voir tout » doit ouvrir sur le RESTE, pas s'arrêter là : on met la
