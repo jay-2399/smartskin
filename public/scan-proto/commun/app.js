@@ -562,6 +562,43 @@
     liste: function () { return lireJSON(localStorage, "ss-historique", []); },
   };
 
+  /* ── SS.visage : mémoire du questionnaire (ss-visage-profil) ──────────────
+     Les 7 questions décrivent un profil de peau, pas l'instant du scan : le
+     redemander à chaque capture est une corvée pour rien. On les garde et on
+     ne les repose que tous les CYCLE scans — la peau change, mais lentement.
+     Le questionnaire lui-même travaille toujours en sessionStorage (reprise
+     après rechargement) ; ici on ne stocke que la copie durable. */
+  var CYCLE_QUESTIONS = 5;
+  SS.visage = {
+    cycle: CYCLE_QUESTIONS,
+    /** Réponses mémorisées, ou null si le questionnaire n'a jamais été rempli. */
+    reponses: function () {
+      var p = lireJSON(localStorage, "ss-visage-profil", null);
+      return p && p.reponses ? p.reponses : null;
+    },
+    /** Nombre de scans faits depuis le dernier questionnaire. */
+    depuis: function () {
+      var p = lireJSON(localStorage, "ss-visage-profil", null);
+      return p && typeof p.scans === "number" ? p.scans : 0;
+    },
+    /** Faut-il (re)poser les questions ? Jamais rempli, ou cycle écoulé. */
+    doitDemander: function () {
+      return !SS.visage.reponses() || SS.visage.depuis() >= CYCLE_QUESTIONS;
+    },
+    /** Questionnaire terminé : on mémorise et le compteur repart à zéro. */
+    memoriser: function (reponses) {
+      if (!reponses) return;
+      ecrireJSON(localStorage, "ss-visage-profil", { reponses: reponses, scans: 0 });
+    },
+    /** Un scan visage est allé au bout → un cran de plus vers la relance. */
+    compterScan: function () {
+      var p = lireJSON(localStorage, "ss-visage-profil", null);
+      if (!p || !p.reponses) return;               // sans profil, rien à compter
+      p.scans = (typeof p.scans === "number" ? p.scans : 0) + 1;
+      ecrireJSON(localStorage, "ss-visage-profil", p);
+    },
+  };
+
   /* ── SS.tabbar : pilule de navigation (Home · Scan · Historique) ────────── */
   var SVG_HOME = '<svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 8.4 10 3l6.5 5.4V16a1.2 1.2 0 0 1-1.2 1.2h-3V12.5h-4.6v4.7h-3A1.2 1.2 0 0 1 3.5 16z"></path></svg>';
   var SVG_SCAN = '<svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6V3.6A1.6 1.6 0 0 1 3.6 2H6M12 2h2.4A1.6 1.6 0 0 1 16 3.6V6M16 12v2.4a1.6 1.6 0 0 1-1.6 1.6H12M6 16H3.6A1.6 1.6 0 0 1 2 14.4V12"></path></svg>';

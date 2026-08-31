@@ -410,6 +410,11 @@
     try { brut = sessionStorage.getItem(CLE); } catch (e) {}
     if (!brut) return false;
     try { o = JSON.parse(brut); } catch (e) { return false; }
+    return adopter(o);
+  }
+  /** Recopie un objet quelconque dans `rep`, champ par champ (jamais tel quel :
+   *  il vient d'un stockage qu'on ne contrôle plus). */
+  function adopter(o) {
     if (!o || typeof o !== "object") return false;
     var a = vide();
     if (typeof o.age === "string") a.age = o.age;
@@ -622,7 +627,12 @@
   elCta.addEventListener("click", function () {
     if (!etapeValide(ORDRE[iEtape], rep)) return;
     sauver();
-    if (iEtape >= TOTAL - 1) { location.href = SUIVANT; return; }
+    if (iEtape >= TOTAL - 1) {
+      // dernière étape : le profil est mémorisé et le compteur de scans repart à 0
+      if (window.SS && SS.visage) SS.visage.memoriser(rep);
+      location.href = SUIVANT;
+      return;
+    }
     iEtape += 1;
     rendre();
   });
@@ -634,8 +644,27 @@
     rendre();
   });
 
-  /* ═══ DÉMARRAGE ═══ */
-  if (charger()) iEtape = etapeReprise();
+  /* ═══ DÉMARRAGE ═══
+     Le questionnaire décrit un profil de peau, pas l'instant du scan : une fois
+     rempli, on le repose seulement tous les SS.visage.cycle scans (ou sur
+     demande explicite, `?refaire=1` depuis les réglages / le bilan). Entre-deux,
+     on réinjecte les réponses mémorisées et on file droit à la capture. */
+  var refaire = new URLSearchParams(location.search).get("refaire") === "1";
+  var memoire = (window.SS && SS.visage) ? SS.visage.reponses() : null;
+
+  // profil encore valable → droit à la capture (21-analyse relit la mémoire)
+  if (!refaire && memoire && !SS.visage.doitDemander()) { location.replace(SUIVANT); return; }
+
+  // « refaire » vient d'un geste explicite : on repart du début, pas d'un brouillon
+  if (refaire) { try { sessionStorage.removeItem(CLE); } catch (e) {} }
+
+  if (charger()) {
+    iEtape = etapeReprise();          // questionnaire interrompu : on le reprend où il en était
+  } else if (memoire) {
+    adopter(memoire);                 // relance de cycle : réponses pré-cochées…
+    sauver();
+    iEtape = 0;                       // …mais on repasse par toutes les questions
+  }
   rendre();
 })();
 </script>

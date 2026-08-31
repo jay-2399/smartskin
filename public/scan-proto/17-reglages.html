@@ -119,6 +119,10 @@
   <div class="section" style="padding-top:20px;">
     <div class="sec-head"><span class="sec-kicker">Privacy</span><span class="sec-name" style="font-size:17px;">Your data</span></div>
     <div class="vcard" style="padding:6px 18px;">
+      <div class="row tap" id="row-profil">
+        <div class="row-tx"><p class="row-t">Skin questionnaire</p><p class="row-s" id="profil-s">&nbsp;</p></div>
+        <div class="row-side"><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
+      </div>
       <div class="row tap" id="row-donnees">
         <div class="row-tx"><p class="row-t">Your photo &amp; data</p><p class="row-s">Erase scans &amp; shelf stored on this phone</p></div>
         <div class="row-side"><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
@@ -265,6 +269,18 @@
     })(tgls[i]);
   }
 
+  /* ── questionnaire : reposé tout seul tous les N scans, refaisable à la demande ── */
+  (function () {
+    var ligne = document.getElementById("row-profil");
+    var sous = document.getElementById("profil-s");
+    var reste = SS.visage.cycle - SS.visage.depuis();
+    sous.textContent = !SS.visage.reponses() ? "Not answered yet"
+      : reste <= 0 ? "Asked again at your next scan"
+      : reste === 1 ? "Asked again after 1 more scan"
+      : "Asked again after " + reste + " more scans";
+    ligne.addEventListener("click", function () { location.href = "19-questions.html?refaire=1"; });
+  })();
+
   /* ── données locales : vider historique + shelf de ce téléphone ── */
   document.getElementById("row-donnees").addEventListener("click", function () {
     var sc = ouvrirScrim(
@@ -282,6 +298,7 @@
         localStorage.removeItem("ss-ma-routine");
         localStorage.removeItem("ss-routine-checks");
         localStorage.removeItem("ss-nb-produits");
+        localStorage.removeItem("ss-visage-profil");
       } catch (e) {}
       sc.fermer();
       toast("Local data erased");
