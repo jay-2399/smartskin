@@ -3,7 +3,7 @@ import { auth } from "@/features/auth";
 import { db } from "@/lib/db";
 import { AnalysisResultSchema } from "@/features/analysis/schema";
 import { topConcerns } from "@/features/routine/recommend";
-import { ATTRIBUTE_BY_ID, LEVEL_TO_PERCENT } from "@/features/analysis/attributes";
+import { ATTRIBUTE_BY_ID, LEVEL_TO_PERCENT, SECTIONS, SECTION_LABELS } from "@/features/analysis/attributes";
 
 // Le bilan visage du compte, pour l'écran 18-bilan et la jauge du dashboard V2 :
 // dernière Analysis (score, curseurs les plus dégradés) + la courbe de TOUS les scans.
@@ -42,10 +42,45 @@ export async function GET() {
       })
     : [];
 
+  // Le moteur produit BIEN PLUS que 4 curseurs : une lecture de synthèse (verdict),
+  // un profil de peau (teint, sous-ton, phototype) et les 16 attributs commentés.
+  // Tout cela était parsé ci-dessus puis jeté — l'écran de bilan n'en montrait
+  // qu'un dixième. On le transmet, en résolvant ici les libellés et les bornes
+  // depuis le catalogue d'attributs pour que la page n'ait pas à les redéclarer.
+  const r = parsed.success ? parsed.data : null;
+  const parSection = r
+    ? SECTIONS.map((sid) => ({
+        id: sid,
+        titre: SECTION_LABELS[sid],
+        criteres: r.attributes
+          .filter((a) => ATTRIBUTE_BY_ID[a.id]?.section === sid)
+          .map((a) => {
+            const def = ATTRIBUTE_BY_ID[a.id];
+            return {
+              id: a.id,
+              label: def?.label ?? a.id,
+              bas: def?.low ?? "",
+              haut: def?.high ?? "",
+              niveau: LEVEL_TO_PERCENT[a.level] ?? 0,
+              libelle: a.tip,
+              situation: a.situation,
+            };
+          }),
+      })).filter((s) => s.criteres.length > 0)
+    : [];
+
   return NextResponse.json(
     {
       bilan: {
         score: dernier.score,
+        etat: r?.state ?? null,
+        resume: r?.sub ?? null,
+        typeDetail: r?.skinTypeBreakdown ?? null,
+        // `verdict` est optionnel au schéma (une sortie IA malformée le masque sans
+        // faire échouer le bilan) : la page doit savoir vivre sans.
+        verdict: r?.verdict ?? null,
+        profil: r?.profile ?? null,
+        sections: parSection,
         // Marge de progression si les curseurs dégradés s'améliorent : +2 points par
         // curseur affiché (le contrat fixe le champ, pas la formule — simple et borné).
         potentiel: Math.min(100, dernier.score + 2 * curseurs.length),
