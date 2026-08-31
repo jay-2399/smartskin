@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>SmartSkin AI — Your result (premium)</title>
+<title>SmartSkin AI — Find a product</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -694,14 +694,14 @@ input[type=search]::-webkit-search-cancel-button { -webkit-appearance:none; }
 <body>
 <div class="phone" style="min-height:100dvh;">
   <div class="nav">
-    <div class="nav-back" role="button" tabindex="0" onclick="location.href='01-scan.html'" aria-label="Back"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"></path></svg></div>
+    <div class="nav-back" role="button" tabindex="0" id="s-back" aria-label="Back"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13L5 8l5-5"></path></svg></div>
     <div class="nav-logo"><img src="logo.png" alt="SmartSkin AI"></div>
     <div class="nav-spacer"></div>
   </div>
 
   <div style="padding:4px 20px 0;">
     <h1 class="fk-title" style="font-size:26px;">Find a product</h1>
-    <p class="fk-sub" style="margin-top:6px;">2 419 face-care products, scored for your skin.</p>
+    <p class="fk-sub" style="margin-top:6px;" id="s-total">Face-care products, scored for your skin.</p>
     <div style="position:relative; margin-top:16px;">
       <svg style="position:absolute; left:15px; top:50%; transform:translateY(-50%); pointer-events:none;" width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="#9DA2B3" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="5.2"></circle><path d="M15.5 15.5l-3.6-3.6"></path></svg>
       <input id="q" type="search" autocomplete="off" autocapitalize="none" placeholder="Brand or product name…"
@@ -763,6 +763,26 @@ input[type=search]::-webkit-search-cancel-button { -webkit-appearance:none; }
   }
   q.addEventListener("input", function(){ clearTimeout(t); t = setTimeout(cherche, 180); });
   q.focus();
+
+  /* Combien de produits cette recherche couvre-t-elle vraiment : l'API le dit,
+     plutôt qu'un chiffre recopié dans le HTML (il annonçait 2 419 pour 3 122). */
+  fetch("/api/produit/recherche?q=", { cache: "no-store" })
+    .then(function(r){ return r.json(); })
+    .then(function(d){
+      if (typeof d.total !== "number") return;
+      document.getElementById("s-total").textContent =
+        d.total.toLocaleString("en-US") + " face-care products, scored for your skin.";
+    })
+    .catch(function(){});
+
+  /* Retour : on arrive ici DEPUIS la caméra ou DEPUIS le dashboard — renvoyer en
+     dur vers la caméra déroutait celui qui venait de l'accueil. */
+  document.getElementById("s-back").addEventListener("click", function(){
+    if (history.length > 1) { history.back(); return; }
+    SS.moi().then(function(m){ location.href = m.premium ? "11-dashboard.html" : "12-dashboard-free.html"; });
+  });
+
+  SS.tabbar(null);   // chercher est une impasse sans sortie sinon
 })();
 </script>
 </body>

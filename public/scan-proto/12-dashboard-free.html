@@ -13,7 +13,12 @@
 /* ── CSS de page : dashboard gratuit (source : DashboardGratuite.dc.html) ──
    Surface d'UPSELL, aucune popup : la lock-card entière mène au paywall. */
 [hidden] { display:none !important; }
-.dash-head { display:flex; align-items:flex-start; justify-content:space-between; padding:calc(env(safe-area-inset-top) + 14px) 20px 0; }
+/* barre du haut : recherche · logo · réglages, comme la nav des autres écrans */
+.dash-nav { display:flex; align-items:center; justify-content:space-between;
+  padding:calc(env(safe-area-inset-top) + 14px) 20px 0; }
+.dash-logo { display:flex; align-items:center; pointer-events:none; }
+.dash-logo img { height:26px; width:auto; display:block; }
+.dash-head { display:flex; align-items:flex-start; justify-content:space-between; padding:14px 20px 0; }
 .dash-title { font-weight:800; font-size:26px; letter-spacing:-0.035em; color:var(--ink); margin-top:4px; }
 a.nav-back { text-decoration:none; }
 
@@ -77,12 +82,19 @@ a.nav-back { text-decoration:none; }
 </head>
 <body>
 <div class="phone">
+    <!-- Barre du haut : le dashboard était le seul écran SANS logo, et la recherche
+       par nom n'était atteignable que par le menu « … » de la caméra. -->
+  <div class="dash-nav">
+    <a class="nav-back" href="08-search.html" aria-label="Search a product by name"><svg width="17" height="17" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="5.2"></circle><path d="M15.5 15.5l-3.6-3.6"></path></svg></a>
+    <div class="dash-logo"><img src="logo.png" alt="SmartSkin AI"></div>
+    <a class="nav-back" href="17-reglages.html" aria-label="Settings"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="2.6"></circle><path d="M16.2 12.4a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-1.8-.3 1.6 1.6 0 0 0-1 1.5v.2a2 2 0 1 1-4 0v-.1a1.6 1.6 0 0 0-1-1.5 1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0 .3-1.8 1.6 1.6 0 0 0-1.5-1h-.2a2 2 0 1 1 0-4h.1a1.6 1.6 0 0 0 1.5-1 1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3h.1a1.6 1.6 0 0 0 1-1.5v-.2a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 1 1.5 1.6 1.6 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8v.1a1.6 1.6 0 0 0 1.5 1h.2a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"></path></svg></a>
+  </div>
+
   <div class="dash-head">
     <div>
       <span class="sec-kicker" id="d-date">&nbsp;</span>
       <h1 class="dash-title">Your scans</h1>
     </div>
-    <a class="nav-back" href="17-reglages.html" aria-label="Settings" style="position:static;"><svg width="17" height="17" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="2.6"></circle><path d="M16.2 12.4a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-1.8-.3 1.6 1.6 0 0 0-1 1.5v.2a2 2 0 1 1-4 0v-.1a1.6 1.6 0 0 0-1-1.5 1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0 .3-1.8 1.6 1.6 0 0 0-1.5-1h-.2a2 2 0 1 1 0-4h.1a1.6 1.6 0 0 0 1.5-1 1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3h.1a1.6 1.6 0 0 0 1-1.5v-.2a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 1 1.5 1.6 1.6 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8v.1a1.6 1.6 0 0 0 1.5 1h.2a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1z"></path></svg></a>
   </div>
 
   <a class="lock-card" href="16-paywall.html">
