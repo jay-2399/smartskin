@@ -444,7 +444,9 @@
     try { depuisEtiquette = JSON.parse(sessionStorage.getItem("ss-inci-resultat") || "null"); } catch(e) {}
   }
   var key = q.get("p") || (function(){ try { return sessionStorage.getItem("ss-scan-produit"); } catch(e){ return null; } })();
-  if (!key && !depuisEtiquette) return;   // ni produit ni étiquette → la page garde son contenu de démo
+  // Même trou que sur la fiche premium : sans produit, la page gardait les chiffres de
+  // démonstration d'un AUTRE produit, présentés comme un vrai score. On renvoie scanner.
+  if (!key && !depuisEtiquette) { location.replace("01-scan.html"); return; }
 
   var source = depuisEtiquette
     ? Promise.resolve(depuisEtiquette)

@@ -1157,7 +1157,11 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     try { depuisEtiquette = JSON.parse(sessionStorage.getItem("ss-inci-resultat") || "null"); } catch(e) {}
   }
   var key = q.get("p") || (function(){ try { return sessionStorage.getItem("ss-scan-produit"); } catch(e){ return null; } })();
-  if (!key && !depuisEtiquette) return;   // ni produit ni étiquette → la page garde son contenu de démo
+  // Ni produit ni étiquette : la page GARDAIT son contenu de démonstration, c'est-à-dire
+  // les chiffres d'un AUTRE produit affichés comme un résultat. Ça arrive par un lien
+  // partagé, un signet, un retour arrière. La fourche renvoie déjà à la caméra dans le
+  // même cas — on fait pareil : mieux vaut redemander une photo qu'afficher un faux score.
+  if (!key && !depuisEtiquette) { location.replace("01-scan.html"); return; }
   var source = depuisEtiquette
     ? Promise.resolve(depuisEtiquette)
     : fetch("/api/produit/fiche?q=" + encodeURIComponent(key)).then(function(r){ return r.json(); });
