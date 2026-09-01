@@ -1222,7 +1222,17 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     // la suite plantait sur pe.score et la page gardait SILENCIEUSEMENT son contenu de
     // démonstration — c'est-à-dire les chiffres d'un AUTRE produit. La fiche gratuite est
     // exactement la vue « formule seule », et elle lit les mêmes sources : on y va.
-    if (!pe || typeof pe.score !== "number") { location.replace("03-result-free.html" + location.search); return; }
+    // Trois causes possibles, une seule réponse jusqu'ici. On transmet la raison à la
+    // fiche gratuite pour qu'elle adapte sa carte verrouillée :
+    //  · rien           → la session premium a expiré (le cas d'origine ci-dessus)
+    //  · aucun-bilan    → abonnée mais jamais scannée : lui vendre son abonnement serait absurde
+    //  · indisponible   → bilan illisible ou base en panne : ne rien promettre, ne rien accuser
+    if (!pe || typeof pe.score !== "number") {
+      var raison = d.score.profilManquant || "";
+      var q = location.search + (raison ? (location.search ? "&" : "?") + "profil=" + raison : "");
+      location.replace("03-result-free.html" + q);
+      return;
+    }
 
     document.getElementById("d-brand").textContent = p.marque || "";
     // le nom COMPLET est l'identité catalogue (recherche de fiche, shelf) : il

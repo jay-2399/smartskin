@@ -397,6 +397,7 @@
   };
 
   /* ── rendu du bilan complet ─────────────────────────────────────────────── */
+  var shelfBilan = null;   // hissé hors du rendu pour pouvoir re-noter puis redessiner
   function rendre(b) {
     var i, html;
 
@@ -537,7 +538,8 @@
       { cat: "moisturizer", titre: "A moisturizer" },
       { cat: "sunscreen", titre: "A daily SPF" }
     ];
-    var shelf = SS.shelf.liste();
+    if (!shelfBilan) shelfBilan = SS.shelf.liste();
+    var shelf = shelfBilan;
     html = "";
     for (i = 0; i < slots.length; i++) {
       var item = null;
@@ -629,8 +631,10 @@
     })
     .then(function (d) {
       if (!d) return; // redirection en cours
-      if (d.bilan) rendre(d.bilan);
-      else document.getElementById("b-vide").hidden = false;
+      if (d.bilan) {
+        rendre(d.bilan);
+        SS.rafraichirScores(shelfBilan, function () { rendre(d.bilan); });
+      } else document.getElementById("b-vide").hidden = false;
     })
     .catch(function () { document.getElementById("b-vide").hidden = false; });
 

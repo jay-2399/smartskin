@@ -333,10 +333,16 @@
      Succès : en tunnel → 21-analyse (l'analyse n'a pas encore tourné) ;
      sinon produit en attente → son verdict perso ; sinon dashboard premium. ── */
   function apresAchat() {
+    // Une photo en attente = le tunnel visage est en cours → l'analyse peut tourner.
     if (enTunnel()) return "21-analyse.html";
-    var a2 = produitAttente();
-    if (a2 && a2.suite) return "06-result-premium.html" + a2.suite;
-    return "11-dashboard.html";
+    // Sinon elle vient de payer SANS avoir scanné son visage (cartes verrouillées du
+    // dashboard ou de l'historique gratuits, qui mènent ici directement). L'envoyer au
+    // tableau de bord la laisserait abonnée et sans bilan : aucune note perso possible,
+    // et l'écran produit lui reproposerait d'acheter ce qu'elle vient de payer.
+    // On l'envoie donc scanner. Elle est déjà premium : 20-capture enchaînera droit sur
+    // l'analyse, sans repasser par ici. Et le produit en attente survit dans
+    // sessionStorage — 21-analyse y renverra une fois le bilan créé.
+    return "19-questions.html";
   }
   var enCours = false;
   cta.addEventListener("click", function () {

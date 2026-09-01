@@ -808,5 +808,44 @@
     document.addEventListener("DOMContentLoaded", balayerGlows);
   } else { balayerGlows(); }
 
+  /* ── SS.rafraichirScores : les notes enregistrées ne vieillissent pas ─────
+     La note perso est RECOPIÉE à côté du produit au moment de l'ajout (ss-historique,
+     et Protocol.products côté serveur). Tant que tout le monde partageait le même profil
+     figé, ce chiffre restait valable indéfiniment. Depuis que la note dépend du bilan
+     réel, il périme au scan visage suivant : quelqu'un dont la peau s'améliore verrait
+     sa routine afficher pour toujours la note de sa peau d'avant.
+     On recalcule donc à l'affichage (~16 ms pour 50 produits) au lieu de masquer un
+     chiffre périmé. Les entrées sont patchées EN MÉMOIRE : rien n'est réécrit dans le
+     stockage, qui n'est plus la vérité mais le repli hors ligne. */
+  SS.rafraichirScores = function (entrees, apres) {
+    if (!entrees || !entrees.length) return;
+    var noms = [];
+    for (var i = 0; i < entrees.length; i++) {
+      if (entrees[i] && entrees[i].nom) noms.push(entrees[i].nom);
+    }
+    if (!noms.length) return;
+    fetch("/api/produit/scores", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ produits: noms })
+    })
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (d) {
+        if (!d || !d.scores) return;
+        var change = false;
+        for (var i = 0; i < entrees.length; i++) {
+          var s = d.scores[entrees[i].nom];
+          if (!s) continue;   // produit hors catalogue : on garde ce qui est enregistré
+          if (typeof s.formule === "number" && entrees[i].formule !== s.formule) {
+            entrees[i].formule = s.formule; change = true;
+          }
+          var perso = typeof s.perso === "number" ? s.perso : null;
+          if (entrees[i].perso !== perso) { entrees[i].perso = perso; change = true; }
+        }
+        if (change && typeof apres === "function") apres();
+      })
+      .catch(function () { /* hors ligne : les chiffres enregistrés restent affichés */ });
+  };
+
   window.SS = SS;
 })();

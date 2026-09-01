@@ -332,9 +332,11 @@ a.nav-back { text-decoration:none; }
   }
 
   /* ── derniers scans (SS.historique, double score) → fiche premium ── */
+  var scansRecents = null;
   function rendreScans() {
     var zone = document.getElementById("scans-zone");
-    var liste = SS.historique.liste().slice(0, 3);
+    if (!scansRecents) scansRecents = SS.historique.liste().slice(0, 3);
+    var liste = scansRecents;
     if (!liste.length) {
       zone.innerHTML =
         '<div class="vcard" style="margin-top:12px;">' +
@@ -375,6 +377,7 @@ a.nav-back { text-decoration:none; }
     SS.tabbar("home");
     rendreRoutine();
     rendreScans();
+    SS.rafraichirScores(scansRecents, rendreScans);
     fetch("/api/moi/bilan", { cache: "no-store" })
       .then(function (r) { if (!r.ok) throw new Error("bilan_" + r.status); return r.json(); })
       .then(function (d) { rendreScore(d ? d.bilan : null); })

@@ -395,7 +395,31 @@
   // perso demande le scan de peau — donc d'abord le tunnel visage (19-questions).
   // Exception « retour direct paywall sans re-quiz » : tunnel déjà complété dans
   // la session (réponses + photo) ET connecté → paywall direct.
+  // Arrivée depuis la fiche premium faute de note perso : la carte verrouillée ne doit
+  // PAS proposer d'acheter à quelqu'un qui a déjà payé. Deux cas la réécrivent.
+  (function(){
+    var raison = q.get("profil");
+    if (!raison) return;
+    var titre = document.querySelector(".lock-t");
+    var btn = document.getElementById("d-lock");
+    var essai = document.querySelector(".lock-trial");
+    if (raison === "aucun-bilan") {
+      if (titre) titre.innerHTML = "Your personal score is <em style=\"font-style:normal; color:#BCD6E6\">waiting</em> for your scan.";
+      if (btn) btn.textContent = "Scan my skin";
+      if (essai) essai.textContent = "You're subscribed \u2014 one scan and it unlocks.";
+      if (btn) btn.dataset.direct = "19-questions.html";
+    } else if (raison === "indisponible") {
+      // Incident serveur : on n'invite à rien et on ne reproche rien.
+      if (titre) titre.textContent = "Your personal score is unavailable right now.";
+      if (btn) btn.hidden = true;
+      if (essai) essai.textContent = "Something went wrong on our side. Try again in a moment.";
+    }
+  })();
+
   document.getElementById("d-lock").addEventListener("click", function(){
+    // Réécrite ci-dessus : une abonnée sans bilan va scanner, pas au paywall.
+    var direct = this.dataset && this.dataset.direct;
+    if (direct) { location.href = direct; return; }
     var dejaFait = false;
     try {
       dejaFait = !!(sessionStorage.getItem("ss-visage-answers") && sessionStorage.getItem("ss-visage-photo"));
