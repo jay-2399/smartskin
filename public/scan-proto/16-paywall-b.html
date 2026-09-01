@@ -184,6 +184,7 @@ html { background:#0A0B0E; }
 
       <div class="pw-plans" role="radiogroup" aria-label="Choose your plan">
         <div class="pw-plan" id="plan-annual" role="radio" aria-checked="false" tabindex="0">
+          <span class="pw-plan-savebadge">7 days free</span>
           <div class="pw-plan-in">
             <div class="pw-plan-top">
               <span class="pw-plan-name">1 Year</span>
@@ -194,8 +195,7 @@ html { background:#0A0B0E; }
         </div>
 
         <div class="pw-plan sel" id="plan-weekly" role="radio" aria-checked="true" tabindex="0">
-          <span class="pw-plan-savebadge">7 days free</span>
-          <div class="pw-plan-in">
+                    <div class="pw-plan-in">
             <div class="pw-plan-top">
               <span class="pw-plan-name">Weekly</span>
               <span class="pw-radio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg></span>
@@ -287,7 +287,7 @@ html { background:#0A0B0E; }
      `eligible` : l'essai n'existe qu'UNE fois par compte Apple — le pont natif
      répond ; non éligible → badge et « No payment due now » disparaissent,
      le bouton dit « Subscribe » (promesse honnête, guideline 3.1.2). ── */
-  var plan = "weekly";
+  var plan = "annual";   // l'essai gratuit est porté par l'ANNUEL
   var prixAnnuel = "$39.90";
   var eligible = true;   // affichage essai par défaut (web/démo) ; corrigé par le pont
   var cta = document.getElementById("pw-cta");
@@ -299,24 +299,24 @@ html { background:#0A0B0E; }
     w.className = plan === "weekly" ? "pw-plan sel" : "pw-plan";
     a.setAttribute("aria-checked", plan === "annual" ? "true" : "false");
     w.setAttribute("aria-checked", plan === "weekly" ? "true" : "false");
-    var badge = w.querySelector(".pw-plan-savebadge");
+    var badge = a.querySelector(".pw-plan-savebadge");
     if (badge) badge.style.display = eligible ? "" : "none";
     var noteWrap = document.querySelector(".pw-plan-note");
     noteWrap.style.display = "flex";
-    if (plan === "weekly") {
+    if (plan === "annual") {
       if (eligible) {
         ctaTx.textContent = "Start my 7-day free trial";
         document.getElementById("pw-note").innerHTML = ICONE_CHECK + "No payment due now";
-        document.getElementById("pw-terms").innerHTML = "<b>7 days free, then $3.99 / week.</b> Cancel anytime.";
+        document.getElementById("pw-terms").innerHTML = "<b>7 days free, then " + prixAnnuel + " / year.</b> Cancel anytime.";
       } else {
-        ctaTx.textContent = "Subscribe — $3.99 / week";
+        ctaTx.textContent = "Unlock my report — " + prixAnnuel + " / year";
         noteWrap.style.display = "none";
-        document.getElementById("pw-terms").innerHTML = "Billed weekly &middot; cancel anytime";
+        document.getElementById("pw-terms").innerHTML = "Billed once a year &middot; that&#39;s $0.77 / week";
       }
     } else {
-      ctaTx.textContent = "Unlock my report — " + prixAnnuel + " / year";
-      document.getElementById("pw-note").innerHTML = ICONE_LOCK + "One payment a year — cancel anytime";
-      document.getElementById("pw-terms").innerHTML = "Billed once a year &middot; that&#39;s $0.77 / week";
+      ctaTx.textContent = "Subscribe — $3.99 / week";
+      document.getElementById("pw-note").innerHTML = ICONE_LOCK + "Cancel anytime";
+      document.getElementById("pw-terms").innerHTML = "Billed weekly &middot; cancel anytime";
     }
   }
   document.getElementById("plan-annual").addEventListener("click", function () { plan = "annual"; maj(); });
