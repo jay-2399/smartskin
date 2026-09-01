@@ -210,24 +210,27 @@
         .catch(function () { if (cb) cb(false); });
     },
 
+    // Restauration : on passe par l'ENTITLEMENT StoreKit, jamais par un grant à l'aveugle.
+    // Avant, on postait /api/iap/grant sans corps et le serveur en déduisait « lifetime » :
+    // restaurer un abonnement hebdomadaire posait un accès à vie, irréversible.
+    // syncEntitlement demande au natif QUEL produit est réellement possédé.
     restaurer: function (cb) {
       if (!SS.natif.est()) { if (cb) cb(false); return; }
       window.__smartskinRestoreDone = function (ok) {
-        if (ok) {
-          fetch("/api/iap/grant", { method: "POST" })
-            .then(function () { purgerMoi(); if (cb) cb(true); })
-            .catch(function () { purgerMoi(); if (cb) cb(true); });
-          return;
-        }
-        if (cb) cb(false);
+        if (!ok) { if (cb) cb(false); return; }
+        SS.natif.syncEntitlement().then(function () { purgerMoi(); if (cb) cb(true); });
       };
       postNatif({ action: "restore" });
     },
 
-    prix: function (cb) {
+    // Prix localisé StoreKit. LE PLAN EST OBLIGATOIRE : sans lui, Bridge.swift:61 fait
+    // `plan.map { Store.productID(for: $0) } ?? Store.lifetimeID` — il retombe sur le
+    // produit À VIE. Les paywalls affichaient donc le prix du lifetime sur la carte
+    // « 1 Year », et l'annonçaient comme le montant prélevé après l'essai.
+    prix: function (plan, cb) {
       if (!SS.natif.est()) return;
       window.__smartskinPrice = function (p) { if (p && cb) cb(p); };
-      postNatif({ action: "getPrice" });
+      postNatif({ action: "getPrice", plan: plan });
     },
 
     // Éligibilité à l'essai 7 j (offre d'intro Apple, une fois par compte) : le
@@ -862,11 +865,20 @@
   /* Le poste de dev porte la MÊME clé que la production (elle est dans .env), donc sans
      ce garde-fou chaque session locale polluerait l'entonnoir avec des visites fantômes.
      On ne mesure que depuis un vrai domaine. */
-  function surSiteReel() {
+  // Deux questions VOISINES mais pas opposées, et c'est tout l'intérêt de les séparer :
+  // leurs valeurs par défaut, quand l'hôte est inconnu (hostname vide — WebView sur
+  // `file://` ou schéma personnalisé), doivent tomber dans des sens CONTRAIRES.
+  //   · analytics  : hôte inconnu → NE PAS envoyer (on ne pollue pas la production)
+  //   · démo       : hôte inconnu → NE PAS montrer (un produit fabriqué ne doit jamais
+  //                  atteindre un utilisateur ; le doute profite à la prudence)
+  // Un seul `surSiteReel()` servant aux deux aurait rouvert la démo sur un hostname vide.
+  function estLocal() {
     var h = location.hostname;
-    return !!h && h !== "localhost" && h !== "127.0.0.1" && h !== "0.0.0.0"
-           && !/^192\.168\./.test(h) && !/\.local$/.test(h);
+    return h === "localhost" || h === "127.0.0.1" || h === "0.0.0.0"
+           || /^192\.168\./.test(h) || /\.local$/.test(h);
   }
+  function surSiteReel() { return !!location.hostname && !estLocal(); }
+  SS.estLocal = estLocal;
 
   var phPret = null;
   function chargerPH(cfg) {

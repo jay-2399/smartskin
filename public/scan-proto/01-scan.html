@@ -170,7 +170,7 @@ body.demo .demo-chip { display:block; }
           <text x="60" y="226" text-anchor="middle" font-family="Manrope,sans-serif" font-size="5" fill="#BCBFCC">30 ml e 1 fl oz</text>
         </svg>
       </div>
-      <span class="demo-chip">Demo mode — camera unavailable</span>
+      <span class="demo-chip">Camera unavailable</span>
     </div>
   </div>
 
@@ -235,6 +235,20 @@ function retourScan(){
 
   function boot(mode){
     document.body.classList.add(mode);
+    /* CAMÉRA INDISPONIBLE, EN PRODUCTION : on ne fait pas semblant.
+       Avant, le déclencheur s'armait quand même ; il effaçait la photo puis menait à
+       07-confirm, qui affirmait « PRODUCT IDENTIFIED — Effaclar Duo+M » sans avoir rien
+       vu. L'écran ne disait jamais que la permission avait été refusée.
+       Désormais : déclencheur non armé, message franc, et le menu de secours — qui
+       contient « Upload a photo », la seule issue réelle — s'ouvre tout seul.
+       En local, la démonstration reste intacte : elle sert à travailler sans caméra. */
+    if (mode === 'demo' && !(window.SS && SS.estLocal && SS.estLocal())) {
+      hint.textContent = 'Camera unavailable — upload a photo instead';
+      var sec = document.getElementById('secours'), btn = document.getElementById('plus');
+      if (sec) sec.classList.add('ouvert');
+      if (btn) btn.setAttribute('aria-expanded', 'true');
+      return;
+    }
     /* le déclencheur s'arme après un court temps de stabilisation */
     setTimeout(function(){
       shutter.disabled = false;
@@ -303,7 +317,9 @@ function retourScan(){
       c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
       savePhoto(c.toDataURL('image/jpeg', 0.85));
       URL.revokeObjectURL(img.src);
-      go();
+      // `go()` n'a jamais existé : ReferenceError, la photo était encodée mais on ne
+      // partait nulle part. C'était la SEULE issue quand la caméra est refusée.
+      location.href = '07-confirm.html';
     };
     img.src = URL.createObjectURL(f);
   });

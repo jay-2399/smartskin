@@ -741,7 +741,9 @@ window.__landmarkerImage = function () {
     if (!vues.review.hidden) { reprendre(); return; }
     if (!vues.live.hidden) { stopCamera(); montrer("choice"); return; }
     if (history.length > 1) { history.back(); return; }
-    location.href = "19-questions.html";
+    // Repli : l'aiguillage, PAS le questionnaire. Y renvoyer rouvrait le cul-de-sac —
+    // son garde constate que le profil est déjà rempli et repart droit sur cet écran.
+    location.href = "index.html";
   }
   var back = document.getElementById("c-back");
   back.addEventListener("click", retour);

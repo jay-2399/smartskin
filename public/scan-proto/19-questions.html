@@ -637,7 +637,12 @@
     if (iEtape >= TOTAL - 1) {
       // dernière étape : le profil est mémorisé et le compteur de scans repart à 0
       if (window.SS && SS.visage) SS.visage.memoriser(rep);
-      location.href = SUIVANT;
+      // `replace` et non `href` : le questionnaire est TERMINÉ, il ne doit pas rester
+      // dans l'historique. Sinon la flèche retour de 20-capture y revenait, le garde
+      // de la ligne 663 voyait un profil valable et renvoyait aussitôt à la capture —
+      // boucle fermée, sur un écran sans barre de navigation. Les deux seules sorties
+      // étaient alors de livrer sa photo de visage, ou de tuer l'app.
+      location.replace(SUIVANT);
       return;
     }
     iEtape += 1;

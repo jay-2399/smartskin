@@ -322,8 +322,9 @@
   maj();
   SS.natif.essaiEligible(function (ok) { eligible = ok; maj(); });
 
-  // Prix natif : le pont V1 renvoie UNE chaîne (getPrice) — appliquée à l'annuel.
-  SS.natif.prix(function (p) {
+  // Prix natif : on DEMANDE le prix de l'annuel. Sans le plan, le pont retombe sur le
+  // produit à vie et on affichait son prix sur la carte « 1 Year ».
+  SS.natif.prix("annual", function (p) {
     prixAnnuel = p;
     document.getElementById("prix-annual").textContent = p;
     maj();

@@ -912,6 +912,16 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
   });
 
   if (!photo) {
+    /* JAMAIS de produit fabriqu\u00e9 en production. Cet \u00e9cran affirmait \u00ab PRODUCT IDENTIFIED
+       \u2014 La Roche-Posay Effaclar Duo+M \u00bb sans avoir rien vu, d\u00e8s que la cam\u00e9ra \u00e9tait
+       refus\u00e9e ou l'URL ouverte directement \u2014 et proposait ensuite de payer sur ce
+       faux scan. Une identification invent\u00e9e sous une vraie marque n'est pas une
+       maquette dans un binaire soumis, c'est une affirmation fausse.
+       On garde la d\u00e9monstration en local, o\u00f9 elle sert \u00e0 travailler sans cam\u00e9ra.
+       Le test porte sur \u00ab suis-je en local ? \u00bb et non \u00ab suis-je en production ? \u00bb :
+       si app.js n'a pas charg\u00e9, ou si la WebView a un hostname vide, on tombe du c\u00f4t\u00e9
+       prudent \u2014 pas de d\u00e9mo \u2014 au lieu de la rouvrir. */
+    if (!(window.SS && SS.estLocal && SS.estLocal())) { location.replace('01-scan.html'); return; }
     alts = [ {nom:'Toleriane \u2014 fragrance-free', marque:'La Roche-Posay', image:'toleriane.jpg'},
              {nom:'Blemish Control Gel', marque:'CeraVe', image:'cerave.jpg'} ];
     renderMatch({nom:'Effaclar Duo+M', marque:'La Roche-Posay', image:'effaclar.png'});

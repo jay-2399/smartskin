@@ -317,9 +317,20 @@
     toast("Coming with the App Store release");
   });
 
-  /* ── sign out : SS.auth.signout (purge ss-moi) puis retour à l'aiguillage ── */
+  /* ── sign out : purge COMPLÈTE des clés ss-*, puis retour à l'aiguillage ──
+     `SS.auth.signout()` ne retire que `ss-moi`. Survivaient donc sur le téléphone
+     l'étagère, l'historique des scans, la routine, et surtout `ss-visage-profil` —
+     qui contient les réponses du questionnaire, dont q7 : grossesse ou allaitement,
+     rosacée ou eczéma diagnostiqués, traitement dermatologique en cours. Les données
+     de santé d'une personne restaient lisibles par la suivante qui se connectait sur
+     le même appareil. Ce que le compte contient de légitime est sur le serveur et
+     revient à la connexion suivante (étagère par /api/shelf, bilan par /api/moi/bilan).
+     `purgerToutSS` est déclarée plus bas — remontée par hoisting. */
   document.getElementById("row-signout").addEventListener("click", function () {
-    SS.auth.signout().then(function () { location.replace("index.html"); });
+    SS.auth.signout().then(function () {
+      purgerToutSS();
+      location.replace("index.html");
+    });
   });
 
   /* ── delete account (exigence Apple 5.1.1(v)) : confirmation → POST

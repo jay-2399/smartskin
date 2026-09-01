@@ -44,11 +44,15 @@ export function startNativePurchase(plan: "lifetime" | "weekly", onDone: (ok: bo
   lancer();
 }
 
-/** Restaure un achat déjà effectué (obligatoire App Store) ; `onDone(true)` si un achat est retrouvé. */
+/** Restaure un achat déjà effectué (obligatoire App Store) ; `onDone(true)` si un achat est retrouvé.
+ *
+ *  On passe par l'ENTITLEMENT StoreKit, pas par un grant à l'aveugle. Avant, la restauration
+ *  postait `/api/iap/grant` sans corps — et le serveur en déduisait « lifetime ». Restaurer un
+ *  abonnement hebdomadaire posait donc un accès à vie, irréversible. `syncNativeAccess` demande
+ *  au natif QUEL produit est réellement possédé et laisse /api/iap/sync poser le bon accès. */
 export function startNativeRestore(onDone: (ok: boolean) => void): void {
   window.__smartskinRestoreDone = async (ok) => {
-    // Achat retrouvé côté natif → on redonne l'accès à vie en base (compte connecté).
-    if (ok) await fetch("/api/iap/grant", { method: "POST" }).catch(() => {});
+    if (ok) await syncNativeAccess();
     onDone(!!ok);
   };
   window.webkit?.messageHandlers?.native?.postMessage({ action: "restore" });

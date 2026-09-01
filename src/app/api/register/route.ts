@@ -5,14 +5,19 @@ import { hashPassword } from "@/features/auth/password";
 import { writeRateLimit } from "@/lib/rate-limit";
 
 // Inscription email + mot de passe (Auth.js ne gère pas la création de compte).
-// Appelée au CHECKOUT (paywall) : le compte naît avec l'accès débloqué — paiement
-// SIMULÉ pour l'instant (le vrai grant viendra du webhook Stripe). Cf. checkout README.
+//
+// UN COMPTE NEUF N'A JAMAIS L'ACCÈS. Seul un achat le pose, par /api/iap/grant (plan
+// explicite) ou /api/iap/sync (entitlement StoreKit réel).
+//
+// Avant : `lifetimeAccess: !sansAcces` — un drapeau envoyé par le CLIENT. L'écran V2
+// postait bien `sansAcces: true`, mais rien ne l'imposait : une requête qui l'omettait
+// créait un compte premium à vie. C'était un vestige de l'ère Stripe, où l'inscription
+// suivait un paiement web ; Stripe a été retiré le 30/07 et le paiement est 100 % StoreKit.
+// Le drapeau est toujours envoyé par `SS.auth.signup` — zod l'ignore désormais.
 const schema = z.object({
   email: z.string().email(),
   password: z.string().min(8, "8 caractères minimum"),
-  name: z.string().trim().min(1).max(120).optional(), // nom du payeur (Stripe) → affiché au dashboard
-  // V2 (compte AVANT paywall) : créer le compte SANS accès — c'est l'achat qui le posera.
-  sansAcces: z.boolean().optional(),
+  name: z.string().trim().min(1).max(120).optional(), // nom repris de Sign in with Apple → dashboard
 });
 
 export async function POST(request: Request) {
@@ -32,6 +37,6 @@ export async function POST(request: Request) {
   }
 
   const passwordHash = await hashPassword(parsed.data.password);
-  await db.user.create({ data: { email, passwordHash, lifetimeAccess: !parsed.data.sansAcces, name: parsed.data.name ?? null } });
+  await db.user.create({ data: { email, passwordHash, lifetimeAccess: false, name: parsed.data.name ?? null } });
   return NextResponse.json({ ok: true });
 }

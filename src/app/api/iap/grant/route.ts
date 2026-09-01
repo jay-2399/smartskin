@@ -16,15 +16,23 @@ export async function POST(request: Request) {
   if (!session?.user?.id) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
-  // Baseline immédiat selon le plan acheté. Pour weekly, la date d'expiration RÉELLE d'Apple
-  // est corrigée juste après par la synchro StoreKit (/api/iap/sync).
-  const { plan } = await request.json().catch(() => ({ plan: "lifetime" }));
-  if (plan === "weekly") {
-    await db.user.update({ where: { id: session.user.id }, data: { accessUntil: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000) } });
-  } else if (plan === "annual") {
-    await db.user.update({ where: { id: session.user.id }, data: { accessUntil: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000) } });
-  } else {
+  // Baseline immédiat selon le plan acheté. Pour weekly et annual, la date d'expiration
+  // RÉELLE d'Apple est corrigée juste après par la synchro StoreKit (/api/iap/sync).
+  //
+  // LE PLAN DOIT ÊTRE EXPLICITE. Avant : `.catch(() => ({ plan: "lifetime" }))` puis un
+  // `else` attrape-tout — donc un corps vide, ou un plan inconnu, accordait l'accès À VIE
+  // et de façon irréversible. Les deux appels qui n'envoyaient rien étaient les
+  // restaurations ; elles passent désormais par l'entitlement StoreKit réel, qui SAIT
+  // quel produit a été acheté au lieu de le deviner.
+  const { plan } = await request.json().catch(() => ({} as { plan?: unknown }));
+  const jours = plan === "weekly" ? 7 : plan === "annual" ? 365 : 0;
+
+  if (plan === "lifetime") {
     await db.user.update({ where: { id: session.user.id }, data: { lifetimeAccess: true } });
+  } else if (jours) {
+    await db.user.update({ where: { id: session.user.id }, data: { accessUntil: new Date(Date.now() + jours * 24 * 60 * 60 * 1000) } });
+  } else {
+    return NextResponse.json({ error: "plan_manquant" }, { status: 400 });
   }
   return NextResponse.json({ ok: true });
 }

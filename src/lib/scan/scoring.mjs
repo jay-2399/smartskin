@@ -650,8 +650,14 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
   // Deux signaux, tous deux déclarés ou mesurés, jamais l'apparence : elle ne se protège
   // pas (q4), et elle a de la pigmentation. Réservé à ce qui RESTE sur la peau — un
   // nettoyant avec filtre UV ne protège de rien, il part au rinçage.
+  // `exposition` est le champ des grilles ACTIVES (< 1 = part au rinçage : cleanser 0.55,
+  // makeup-remover 0.5, mask 0.7, exfoliant 0.85 ; absent donc 1 sur tout ce qui reste posé).
+  // Ce test lisait `grille.rince`, qui n'existe QUE dans `categoriesLegacy` — le bloc marqué
+  // « PLUS UTILISÉ ». Il valait donc toujours undefined, `?? 1` le remontait à 1, et la
+  // condition était TOUJOURS vraie : des masques à l'argile et des baumes à lèvres
+  // recevaient un bonus de protection solaire, avec la phrase qui va avec.
   const grille = CONFIG.RUBRIQUES[categorie] || CONFIG.RUBRIQUES.indetermine;
-  if (filtresUV && (grille.rince ?? 1) >= 1) {
+  if (filtresUV && (grille.exposition ?? 1) >= 1) {
     const pigmentation = (profil.concerns?.spots || 0) > 0 ? 1 : 0;
     const besoin = Math.min(3, (profil.besoinSolaire || 0) + pigmentation);
     if (besoin > 0) {

@@ -202,10 +202,22 @@
     else if (window.SS && SS.visage && SS.visage.reponses()) answers = SS.visage.reponses();
   } catch (e) {}
 
-  /* ── porte compte : le bilan se range SOUS un compte (POST /api/scan).
-     Le tunnel a déjà fait passer par 15-compte ; cette garde couvre l'accès direct. ── */
+  /* ── porte compte ET porte premium ──
+     Le bilan se range SOUS un compte (POST /api/scan), et l'analyse IA est le produit
+     payant : elle ne tourne jamais sans abonnement.
+
+     La garde premium manquait. `20-capture` envoie la déconnectée vers
+     `15-compte.html?next=21-analyse.html`, donc elle revenait DIRECTEMENT ici après
+     avoir créé son compte, sans passer par le paywall — et cet écran ne testait que
+     `m.connecte`. Toute nouvelle utilisatrice obtenait l'analyse, le scan persisté et
+     le rapport premium entier, gratuitement.
+
+     Le test est ici plutôt que dans le routage de `20-capture` : il couvre du même coup
+     l'accès direct à l'URL, et il n'envoie pas au paywall une abonnée qui vient
+     simplement de se reconnecter (elle passe `premium`, elle continue). ── */
   SS.moi().then(function (m) {
     if (!m.connecte) { location.replace("15-compte.html?next=21-analyse.html"); return; }
+    if (!m.premium) { location.replace("16-paywall.html"); return; }
     document.getElementById("a-consent").hidden = false;
   });
 

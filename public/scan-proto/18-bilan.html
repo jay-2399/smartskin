@@ -161,6 +161,7 @@
 .cs-sit { font-size:12px; line-height:1.55; color:var(--graphite); margin-top:7px; }
 /* pied sources : verre, pas un aplat */
 .src-row { display:flex; align-items:center; gap:12px; margin:22px 20px 8px; padding:13px 16px; border-radius:16px;
+  text-decoration:none; color:inherit; -webkit-tap-highlight-color:transparent;
   background:linear-gradient(180deg, rgba(255,255,255,0.55) 0%, rgba(255,255,255,0.4) 100%);
   border:1px solid rgba(255,255,255,0.65);
   box-shadow:inset 0 1px 0 rgba(255,255,255,0.8), 0 4px 12px rgba(40,55,75,0.06); }
@@ -314,13 +315,18 @@
       </div>
     </div>
 
-    <div class="src-row">
+    <!-- Le chevron promettait une page depuis toujours, mais c'était un <div> sans
+         gestionnaire : les 6 citations médicales du correctif de rejet 1.4.1 étaient
+         orphelines. La page /sources est vivante (route group Next `(funnel)`), et son
+         bouton retour est un router.back() — donc on y va dans la même fenêtre, comme
+         17-reglages le fait déjà pour /privacy et /terms. -->
+    <a class="src-row" href="/sources">
       <div style="flex:1;">
         <p class="src-t">Sources &amp; medical disclaimer</p>
         <p class="src-s">Cosmetic assessment, not a medical diagnosis &mdash; always check with a doctor.</p>
       </div>
       <svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg>
-    </div>
+    </a>
   </div>
 </div>
 
