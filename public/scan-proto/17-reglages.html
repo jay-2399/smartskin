@@ -44,15 +44,6 @@
 .row-side { display:flex; align-items:center; gap:7px; flex-shrink:0; }
 .row-v { font-size:12px; font-weight:600; color:var(--graphite); }
 
-/* toggles (placebo local, comme la maquette) */
-.tgl { position:relative; width:44px; height:26px; border-radius:100px; flex-shrink:0; display:inline-block;
-  background:var(--smoke); box-shadow:inset 0 1px 2px rgba(40,55,75,0.14); cursor:pointer;
-  transition:background .2s; -webkit-tap-highlight-color:transparent; }
-.tgl i { position:absolute; top:2px; left:2px; width:22px; height:22px; border-radius:50%; background:#fff;
-  box-shadow:0 1px 3px rgba(0,0,0,0.22); transition:left .2s; }
-.tgl.on { background:linear-gradient(180deg,#7ED3A6,#2BC182);
-  box-shadow:inset 0 1px 2px rgba(0,0,0,0.10), 0 2px 6px rgba(43,193,130,0.30); }
-.tgl.on i { left:20px; box-shadow:0 1px 3px rgba(0,0,0,0.25); }
 
 .disclaim { padding:24px 32px 30px; text-align:center; font-size:10.5px; line-height:1.5; color:var(--space); }
 .cta-btn.danger { background:linear-gradient(180deg,#E06657 0%,#C74534 100%);
@@ -98,23 +89,13 @@
     </div>
   </div>
 
-  <div class="section" style="padding-top:20px;">
-    <div class="sec-head"><span class="sec-kicker">Reminders</span><span class="sec-name" style="font-size:17px;">Notifications</span></div>
-    <div class="vcard" style="padding:6px 18px;">
-      <div class="row">
-        <div class="row-tx"><p class="row-t">Routine reminders</p><p class="row-s">Morning 8:00 &middot; evening 21:30</p></div>
-        <div class="row-side"><span class="tgl on" role="switch" aria-checked="true" aria-label="Routine reminders"><i></i></span></div>
-      </div>
-      <div class="row">
-        <div class="row-tx"><p class="row-t">Face scan reminder</p><p class="row-s">When your next scan is ready</p></div>
-        <div class="row-side"><span class="tgl on" role="switch" aria-checked="true" aria-label="Face scan reminder"><i></i></span></div>
-      </div>
-      <div class="row">
-        <div class="row-tx"><p class="row-t">Tips by e-mail</p></div>
-        <div class="row-side"><span class="tgl" role="switch" aria-checked="false" aria-label="Tips by e-mail"><i></i></span></div>
-      </div>
-    </div>
-  </div>
+  <!-- Section « Notifications » RETIRÉE (2026-09-01). Les trois interrupteurs basculaient
+       à l'écran mais n'écrivaient nulle part : deux étaient allumés par défaut et
+       promettaient des rappels « Morning 8:00 · evening 21:30 » que rien n'envoyait, sur
+       une app qui ne demande même pas la permission de notifier. Guideline 2.1(a) : le
+       contenu de remplacement doit disparaître avant la soumission. Le gestionnaire
+       cosmétique et le CSS `.tgl` sont partis avec. À rétablir le jour où les
+       notifications natives existent vraiment. -->
 
   <div class="section" style="padding-top:20px;">
     <div class="sec-head"><span class="sec-kicker">Privacy</span><span class="sec-name" style="font-size:17px;">Your data</span></div>
@@ -145,10 +126,11 @@
         <div class="row-tx"><p class="row-t">Contact us</p></div>
         <div class="row-side"><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
       </div>
-      <div class="row tap" id="row-rate">
-        <div class="row-tx"><p class="row-t">Rate SmartSkin</p></div>
-        <div class="row-side"><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
-      </div>
+      <!-- « Rate SmartSkin » RETIRÉ : la ligne affichait « Coming with the App Store
+           release », un texte de remplacement que la guideline 2.1(a) nomme mot pour mot.
+           Pour la rétablir il faut le natif : SKStoreReviewController, ou l'ouverture de
+           itms-apps://…?action=write-review — la WebView n'a ni uiDelegate ni
+           navigationDelegate, donc un lien serait un tap mort. -->
     </div>
   </div>
 
@@ -257,18 +239,6 @@
     });
   });
 
-  /* ── notifications : toggles locaux placebo (décision d'architecture) ── */
-  var tgls = document.querySelectorAll(".tgl");
-  for (var i = 0; i < tgls.length; i++) {
-    (function (t) {
-      t.addEventListener("click", function () {
-        var on = t.className.indexOf("on") >= 0;
-        t.className = on ? "tgl" : "tgl on";
-        t.setAttribute("aria-checked", on ? "false" : "true");
-      });
-    })(tgls[i]);
-  }
-
   /* ── questionnaire : reposé tout seul tous les N scans, refaisable à la demande ── */
   (function () {
     var ligne = document.getElementById("row-profil");
@@ -312,9 +282,6 @@
   /* ── aide ── */
   document.getElementById("row-contact").addEventListener("click", function () {
     location.href = "mailto:byllel@davinci-digitale.fr";
-  });
-  document.getElementById("row-rate").addEventListener("click", function () {
-    toast("Coming with the App Store release");
   });
 
   /* ── sign out : purge COMPLÈTE des clés ss-*, puis retour à l'aiguillage ──
