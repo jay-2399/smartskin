@@ -899,6 +899,7 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
   not.addEventListener('click', openSheet);
   document.getElementById('scrim').addEventListener('click', function(e) { if (e.target === this) closeSheet(); });
   yes.addEventListener('click', function() {
+    try { SS.track("product_confirmed", { version: "v2" }); } catch (e) {}
     // on transmet le produit confirmé à la suite : elle ira chercher ses VRAIES notes.
     // V2 : un premium file droit sur sa fiche ; les autres passent par la fourche (02).
     var q = name.textContent || '';
@@ -954,5 +955,7 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 </script>
 </div>
 
+
+<script>try { SS.trackEcran("confirm"); } catch (e) {}</script>
 </body>
 </html>

@@ -243,6 +243,7 @@
       dejaFait = !!(sessionStorage.getItem("ss-visage-answers") && sessionStorage.getItem("ss-visage-photo"));
     } catch(e) {}
     SS.moi().then(function(m){
+      SS.track("fork_choice", { choix: "perso" });
       if (m.connecte && dejaFait) { location.href = "16-paywall.html"; return; }
       try {
         sessionStorage.removeItem("ss-visage-answers");
@@ -254,5 +255,7 @@
   });
 })();
 </script>
+
+<script>try { SS.trackEcran("fork"); } catch (e) {}</script>
 </body>
 </html>

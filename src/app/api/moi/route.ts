@@ -20,6 +20,14 @@ export async function GET() {
       premium: uid ? (premiumDeTest() ? true : await userHasAccess(uid)) : false,
       prenom: (uid && session?.user?.name?.split(" ")[0]) || null,
       email: (uid && session?.user?.email) || null,
+      // Config PUBLIQUE d'analytics, greffée ici plutôt que dans une route à part :
+      // le proto V2 est du HTML statique, il ne peut pas lire process.env, et cette
+      // route est déjà appelée par presque tous ses écrans. Clé publique par nature
+      // (NEXT_PUBLIC_), donc rien de sensible ne sort. Absente en local → no-op.
+      posthog: process.env.NEXT_PUBLIC_POSTHOG_KEY
+        ? { key: process.env.NEXT_PUBLIC_POSTHOG_KEY,
+            host: process.env.NEXT_PUBLIC_POSTHOG_HOST || "https://eu.i.posthog.com" }
+        : null,
     },
     { headers: { "Cache-Control": "no-store" } },
   );

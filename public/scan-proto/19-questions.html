@@ -344,6 +344,7 @@
 
   /* STEP_ORDER de la V1 : q6 (budget) retiré → 7 étapes. */
   var ORDRE = ["age", "q1", "q2", "q3", "q4", "q5", "q7"];
+  try { SS.track("onboarding_started", { version: "v2" }); } catch (e) {}
   var TOTAL = ORDRE.length;
   var CLE = "ss-visage-answers";
   var SUIVANT = "20-capture.html";
@@ -674,5 +675,7 @@
   rendre();
 })();
 </script>
+
+<script>try { SS.trackEcran("questions"); } catch (e) {}</script>
 </body>
 </html>

@@ -136,17 +136,17 @@
 
   /* ── SS.moi : /api/moi avec cache sessionStorage ss-moi (TTL 60 s) ──────── */
   var MOI_TTL = 60 * 1000;
-  var MOI_NEUTRE = { connecte: false, premium: false, prenom: null, email: null };
+  var MOI_NEUTRE = { connecte: false, premium: false, prenom: null, email: null, posthog: null };
   SS.moi = function (force) {
     var cache = lireJSON(sessionStorage, "ss-moi", null);
     if (!force && cache && typeof cache.t === "number" && Date.now() - cache.t < MOI_TTL) {
-      return Promise.resolve({ connecte: !!cache.connecte, premium: !!cache.premium, prenom: cache.prenom || null, email: cache.email || null });
+      return Promise.resolve({ connecte: !!cache.connecte, premium: !!cache.premium, prenom: cache.prenom || null, email: cache.email || null, posthog: cache.posthog || null });
     }
     return fetch("/api/moi", { cache: "no-store" })
       .then(function (r) { if (!r.ok) throw new Error("moi_" + r.status); return r.json(); })
       .then(function (m) {
-        var moi = { connecte: !!m.connecte, premium: !!m.premium, prenom: m.prenom || null, email: m.email || null };
-        ecrireJSON(sessionStorage, "ss-moi", { connecte: moi.connecte, premium: moi.premium, prenom: moi.prenom, email: moi.email, t: Date.now() });
+        var moi = { connecte: !!m.connecte, premium: !!m.premium, prenom: m.prenom || null, email: m.email || null, posthog: m.posthog || null };
+        ecrireJSON(sessionStorage, "ss-moi", { connecte: moi.connecte, premium: moi.premium, prenom: moi.prenom, email: moi.email, posthog: moi.posthog, t: Date.now() });
         return moi;
       })
       // serveur absent / offline : on répond « visiteur » sans mettre en cache
@@ -845,6 +845,75 @@
         if (change && typeof apres === "function") apres();
       })
       .catch(function () { /* hors ligne : les chiffres enregistrés restent affichés */ });
+  };
+
+  /* ── SS.track : mesure du parcours V2 ────────────────────────────────────
+     La V1 (React) est instrumentée depuis toujours ; ces 23 écrans-ci ne l'étaient
+     pas. Le jour où la porte d'entrée bascule sur la V2, sans ça on ne saurait plus
+     rien : ni combien scannent, ni combien choisissent la voie perso à la fourche,
+     ni où elles abandonnent.
+
+     Les noms d'événements de la V1 sont REPRIS À L'IDENTIQUE quand l'étape est la
+     même (question_answered, scan_completed, paywall_viewed…) : l'entonnoir déjà
+     construit dans PostHog continue de fonctionner à cheval sur les deux versions.
+
+     Le script est chargé PARESSEUSEMENT, à la première mesure, et seulement si le
+     serveur a donné une clé — en local il n'y en a pas, donc rien ne part. */
+  /* Le poste de dev porte la MÊME clé que la production (elle est dans .env), donc sans
+     ce garde-fou chaque session locale polluerait l'entonnoir avec des visites fantômes.
+     On ne mesure que depuis un vrai domaine. */
+  function surSiteReel() {
+    var h = location.hostname;
+    return !!h && h !== "localhost" && h !== "127.0.0.1" && h !== "0.0.0.0"
+           && !/^192\.168\./.test(h) && !/\.local$/.test(h);
+  }
+
+  var phPret = null;
+  function chargerPH(cfg) {
+    if (phPret) return phPret;
+    phPret = new Promise(function (ok) {
+      if (window.posthog && window.posthog.__loaded) return ok(window.posthog);
+      var sc = document.createElement("script");
+      sc.async = true;
+      sc.src = cfg.host.replace(/\/$/, "") + "/static/array.js";
+      sc.onload = function () {
+        try {
+          window.posthog.init(cfg.key, {
+            api_host: cfg.host,
+            person_profiles: "identified_only",   // même réglage que la V1 : coût maîtrisé
+            capture_pageview: false               // on nomme nos écrans nous-mêmes
+          });
+          ok(window.posthog);
+        } catch (e) { ok(null); }
+      };
+      sc.onerror = function () { ok(null); };   // bloqueur de pub, hors ligne : on n'insiste pas
+      document.head.appendChild(sc);
+    });
+    return phPret;
+  }
+
+  var fileTrack = [];
+  SS.track = function (event, props) {
+    if (!event) return;
+    fileTrack.push([event, props || {}]);
+    SS.moi().then(function (m) {
+      if (!m.posthog || !m.posthog.key || !surSiteReel()) { fileTrack.length = 0; return; }
+      chargerPH(m.posthog).then(function (ph) {
+        if (!ph) { fileTrack.length = 0; return; }
+        var f = fileTrack.splice(0, fileTrack.length);
+        for (var i = 0; i < f.length; i++) {
+          try { ph.capture(f[i][0], f[i][1]); } catch (e) {}
+        }
+      });
+    });
+  };
+
+  /** Écran vu — un seul appel par page, avec le nom qu'on lui donne. */
+  SS.trackEcran = function (nom, props) {
+    var p = props || {};
+    p.ecran = nom;
+    p.version = "v2";
+    SS.track("screen_viewed", p);
   };
 
   window.SS = SS;

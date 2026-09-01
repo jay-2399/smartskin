@@ -328,6 +328,7 @@
     }).then(function (r) {
       if (!r.ok) throw new Error("scan_" + r.status);
       try { sessionStorage.removeItem(CLE_PHOTO); } catch (e) {}
+      try { SS.track("analysis_completed", { version: "v2" }); } catch (e) {}
       if (window.SS && SS.visage) SS.visage.compterScan();   // un cran vers la relance du questionnaire
       location.replace(sortie());
     }).catch(function () {
@@ -337,5 +338,7 @@
   }
 })();
 </script>
+
+<script>try { SS.trackEcran("analysis"); } catch (e) {}</script>
 </body>
 </html>

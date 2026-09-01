@@ -417,6 +417,7 @@
   })();
 
   document.getElementById("d-lock").addEventListener("click", function(){
+    SS.track("paywall_intent", { source: "result_free_lock" });
     // Réécrite ci-dessus : une abonnée sans bilan va scanner, pas au paywall.
     var direct = this.dataset && this.dataset.direct;
     if (direct) { location.href = direct; return; }
@@ -608,5 +609,7 @@
   source.then(rendre).catch(function(){});
 })();
 </script>
+
+<script>try { SS.trackEcran("result_free"); } catch (e) {}</script>
 </body>
 </html>

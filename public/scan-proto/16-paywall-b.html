@@ -346,14 +346,18 @@ html { background:#0A0B0E; }
     // sessionStorage — 21-analyse y renverra une fois le bilan créé.
     return "19-questions.html";
   }
+  try { SS.track("paywall_viewed", { variant: "B", version: "v2" }); } catch (e) {}
   var enCours = false;
   cta.addEventListener("click", function () {
     if (enCours) return;
+    SS.track("paywall_cta_clicked", { variant: "B", plan: plan, version: "v2" });
     enCours = true;
     cta.disabled = true;
     ctaTx.textContent = "Processing…";
     SS.natif.achat(plan, function (ok) {
-      if (ok) { location.replace(apresAchat()); return; }
+      if (ok) { SS.track("purchase_completed", { variant: "B", plan: plan, version: "v2" });
+                location.replace(apresAchat()); return; }
+      SS.track("purchase_cancelled", { variant: "B", plan: plan, version: "v2" });
       enCours = false;
       cta.disabled = false;
       maj();
@@ -371,5 +375,7 @@ html { background:#0A0B0E; }
   });
 })();
 </script>
+
+<script>try { SS.trackEcran("paywall_b"); } catch (e) {}</script>
 </body>
 </html>
