@@ -42,7 +42,13 @@ export type Avis = {
   reserve: string | null;
 };
 
-export type ProfilAvis = { skinType?: string; concerns?: Record<string, number> };
+export type ProfilAvis = {
+  skinType?: string;
+  concerns?: Record<string, number>;
+  /** Le mot à AFFICHER par famille, calculé depuis les attributs qui l'ont alimentée
+   *  (cf. profil-peau.ts). Absent sur PROFIL_NEUTRE → repli sur LIBELLE_SOUCI. */
+  libelles?: Record<string, string>;
+};
 
 const DOSSIER = path.join(process.cwd(), "data");
 const ENRICHIS = path.join(DOSSIER, "avis-enrichis");
@@ -115,7 +121,7 @@ function pourProfil(e: Enrichi, profil: ProfilAvis): Avis | null {
   const declares = Object.entries(profil.concerns || {}).filter(([, v]) => v > 0).map(([k]) => k);
   const problemes = declares
     .filter((c) => e.concerns?.[c])
-    .map((c) => ({ cle: c, libelle: LIBELLE_SOUCI[c] || c, texte: e.concerns[c] }));
+    .map((c) => ({ cle: c, libelle: profil.libelles?.[c] ?? LIBELLE_SOUCI[c] ?? c, texte: e.concerns[c] }));
 
   // un aspect qui ne vaut QUE pour une peau ou un problème qui ne sont pas les siens ne
   // s'affiche pas : elle n'a pas à trier ce qui ne la concerne pas.

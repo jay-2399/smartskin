@@ -573,7 +573,11 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
         if (matchParFamille[fam] > CONFIG.maxActifsParFamille) continue;
         const pts = Math.min(CONFIG.bonusMatch * sev * w, CONFIG.maxMatchParIngredient);
         matchTotal += pts;
-        facts.push({ label: `${titre(it.name)} targets your ${libelle(b)}`, points: +pts.toFixed(1), inci: it.name, pos: it.pos });
+        // Le mot vient du PROFIL quand il en porte un : la famille `aging` couvre les rides,
+        // le grain ET le teint terne (mêmes actifs), donc un mot fixe serait faux pour
+        // quelqu'un. Repli sur le libellé de famille si le profil n'en a pas.
+        const mot = profil.libelles?.[b] ?? libelle(b);
+        facts.push({ label: `${titre(it.name)} targets your ${mot}`, points: +pts.toFixed(1), inci: it.name, pos: it.pos });
         break;
       }
     }

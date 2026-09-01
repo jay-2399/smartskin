@@ -49,10 +49,14 @@ export async function POST(request: Request) {
     const cat = categoriser(nom, inci);
     // Gating : gratuit = formule + ingrédients NEUTRES, sans perso (même règle que fiche).
     const { uid, premium } = await sessionPremium();
-    const pr = premium ? await profilUtilisateur(uid) : PROFIL_NEUTRE;
+    // Un premium SANS bilan visage ne reçoit jamais une peau inventée : profil neutre,
+    // pas de score perso, et `profilManquant` dit à l'écran quoi proposer.
+    const resolution = premium ? await profilUtilisateur(uid) : null;
+    const pr = resolution?.etat === "ok" ? resolution.profil : PROFIL_NEUTRE;
     const f = scoreFormule(inci, cat.categorie, cat.filtresUV);
     const score: Record<string, unknown> = { disponible: moteurDisponible(), formule: f };
-    if (premium) score.perso = scorePerso(inci, pr, cat.categorie, f, cat.filtresUV);
+    if (resolution?.etat === "ok") score.perso = scorePerso(inci, pr, cat.categorie, f, cat.filtresUV);
+    else if (resolution) score.profilManquant = resolution.etat;
 
     return NextResponse.json({
       statut: "ok",

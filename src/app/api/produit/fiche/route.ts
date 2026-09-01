@@ -37,12 +37,16 @@ export async function GET(request: Request) {
     // Gating : gratuit = score formule + composition NEUTRE (PROFIL_NEUTRE), sans
     // score perso ni avis personnalisés. Premium = profil du compte (profilUtilisateur).
     const { uid, premium } = await sessionPremium();
-    const pr = premium ? await profilUtilisateur(uid) : PROFIL_NEUTRE;
+    // Un premium SANS bilan visage ne reçoit jamais une peau inventée : profil neutre,
+    // pas de score perso, et `profilManquant` dit à l'écran quoi proposer.
+    const r = premium ? await profilUtilisateur(uid) : null;
+    const pr = r?.etat === "ok" ? r.profil : PROFIL_NEUTRE;
     const a = avisPour(p, pr);
     const brut = a ? null : tousLesAvis(p.asin || p.asinAvis || pidUlta(p.url) || "");
     const f = scoreFormule(p.inci || "", p.category, p.filtresUV);
     const score: Record<string, unknown> = { disponible: moteurDisponible(), formule: f };
-    if (premium) score.perso = scorePerso(p.inci || "", pr, p.category, f, p.filtresUV);
+    if (r?.etat === "ok") score.perso = scorePerso(p.inci || "", pr, p.category, f, p.filtresUV);
+    else if (r) score.profilManquant = r.etat;
     return NextResponse.json({
       produit: { nom: p.name, marque: p.brand, image: p.image, categorie: p.category, inci: p.inci, asin: p.asin, ref: p.asin || p.asinAvis || pidUlta(p.url) },
       score,
@@ -50,7 +54,7 @@ export async function GET(request: Request) {
       // `null` quand on n'a rien à dire À ELLE sur ce produit : l'écran n'affiche alors rien
       // plutôt que d'inventer. Les avis passent par le MÊME profil que le score perso — on ne
       // montre que le segment de sa peau et les problèmes qu'elle a déclarés. Gratuit → null.
-      avis: premium ? a : null,
+      avis: r?.etat === "ok" ? a : null,
       // Un produit peut avoir des avis BRUTS sans fiche enrichie : c'est le cas de tout ce qu'on
       // vient de collecter. L'écran le reconnaît à ceci et demande alors la synthèse à
       // /api/produit/overview. Les fiches déjà enrichies passent par `avis` et ne changent pas.

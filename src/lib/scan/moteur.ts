@@ -10,6 +10,7 @@ import path from "node:path";
 // toute correction faite ici reste échangeable avec le bac à sable.
 import { scoreFormule, scorePerso, moteurDisponible, parseInci, CONFIG } from "./scoring.mjs";
 import { categoriser } from "./categorise.mjs";
+import type { ProfilLu } from "@/lib/scan/profil-peau";
 
 const DOSSIER = path.join(process.cwd(), "data", "scan");
 const lire = (f: string) => JSON.parse(fs.readFileSync(path.join(DOSSIER, f), "utf8"));
@@ -25,13 +26,11 @@ export type Produit = {
 // ── chargement paresseux, une seule fois par instance ────────────────────────
 let _catalogue: Produit[] | null = null;
 let _dico: Record<string, unknown> | null = null;
-let _profil: Record<string, unknown> | null = null;
 let _marques: string[] | null = null;
 
 export const catalogue = (): Produit[] => (_catalogue ??=
   (lire("catalog.json") as Produit[]).map((p, i) => ({ ...p, id: i })));
 export const dictionnaire = () => (_dico ??= lire("dictionnaire.json"));
-export const profil = () => (_profil ??= lire("profil.json"));
 export const marqueDe = (p: Produit) => (p.brand || p.name.split(" ")[0]).trim();
 export const marques = (): string[] => (_marques ??=
   [...new Set(catalogue().map(marqueDe))].sort());
@@ -106,12 +105,7 @@ type Fiche = {
   essentialOil?: boolean; pregnancyFlag?: boolean; euFragranceAllergen?: boolean; src?: string;
   risks?: { irritant?: number; sensibilisant?: number; comedogenic?: number };
 };
-type ProfilPeau = {
-  skinType?: string; sensitivity?: number; pregnancy?: boolean;
-  concerns?: Record<string, number>;
-};
-
-export function ficheIngredients(inci: string, dico: Record<string, Fiche>, pr: ProfilPeau) {
+export function ficheIngredients(inci: string, dico: Record<string, Fiche>, pr: ProfilLu) {
   return parseInci(inci).map((it: { name: string; pos: number; fiche?: Fiche }) => {
     const d = it.fiche || dico[it.name] || null;
     if (!d) return { nom: it.name, pos: it.pos, groupe: "inconnu" };

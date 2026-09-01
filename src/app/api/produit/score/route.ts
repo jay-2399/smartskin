@@ -20,13 +20,17 @@ export async function POST(request: Request) {
     }
     // Gating : gratuit = formule + ingrédients NEUTRES, sans perso (même règle que fiche).
     const { uid, premium } = await sessionPremium();
-    const pr = premium ? await profilUtilisateur(uid) : PROFIL_NEUTRE;
+    // Un premium SANS bilan visage ne reçoit jamais une peau inventée : profil neutre,
+    // pas de score perso, et `profilManquant` dit à l'écran quoi proposer.
+    const r = premium ? await profilUtilisateur(uid) : null;
+    const pr = r?.etat === "ok" ? r.profil : PROFIL_NEUTRE;
     const formule = scoreFormule(inci, categorie, filtresUV);
     const reponse: Record<string, unknown> = {
       disponible: moteurDisponible(), algoVersion: CONFIG.algoVersion,
       formule, ingredients: ficheIngredients(inci, dictionnaire(), pr),
     };
-    if (premium) reponse.perso = scorePerso(inci, pr, categorie, formule, filtresUV);
+    if (r?.etat === "ok") reponse.perso = scorePerso(inci, pr, categorie, formule, filtresUV);
+    else if (r) reponse.profilManquant = r.etat;
     return NextResponse.json(reponse);
   } catch {
     return NextResponse.json({ statut: "erreur" }, { status: 500 });

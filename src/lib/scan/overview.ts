@@ -37,6 +37,10 @@ const LIBELLE_SOUCI: Record<string, string> = {
   blemishes: "breakouts", oiliness: "oiliness", dehydration: "dehydration", redness: "redness",
   darkspots: "dark spots", wrinkles: "fine lines", pores: "enlarged pores", texture: "uneven texture",
   dullness: "dullness", barrier: "a weakened barrier", sensitivity: "sensitivity",
+  // `aging` et `spots` manquaient : ce sont pourtant deux des 7 familles que `concerns`
+  // peut contenir. Sans elles, le PROMPT du modèle recevait « Flagged concerns: aging,
+  // spots » au lieu de mots lisibles — seul des trois libellés à changer une sortie d'IA.
+  aging: "fine lines", spots: "dark spots",
 };
 
 function consigne(peau: string | null, soucis: string[]): string {
@@ -94,8 +98,19 @@ function extraireJson(texte: string): string {
 // Deux lectures de la même fiche par la même personne doivent rendre le même texte : sans cache,
 // le paragraphe change à chaque rechargement, ce qui donne l'impression que rien n'est vrai.
 const cache = new Map<string, Overview>();
+const MAX_CACHE = 500;
+// L'empreinte doit couvrir EXACTEMENT ce qui entre dans le prompt, sinon deux personnes
+// se partagent un paragraphe écrit pour l'autre. Les LIBELLÉS en font partie depuis qu'ils
+// y sont injectés : deux profils peuvent partager la famille `aging` avec des mots
+// différents — « skin texture » pour l'une, « fine lines » pour l'autre.
 const empreinteProfil = (p: ProfilAvis) =>
-  [p.skinType || "", ...Object.entries(p.concerns || {}).filter(([, v]) => v > 0).map(([k]) => k).sort()].join("|");
+  [
+    p.skinType || "",
+    ...Object.entries(p.concerns || {})
+      .filter(([, v]) => v > 0)
+      .map(([k]) => `${k}:${p.libelles?.[k] ?? ""}`)
+      .sort(),
+  ].join("|");
 
 export function overviewConfigure(): boolean {
   return !!process.env.ANTHROPIC_API_KEY;
@@ -115,7 +130,7 @@ export async function overviewPour(ref: string, profil: ProfilAvis): Promise<Ove
   const peau = LIBELLE_PEAU[String(profil.skinType || "").toLowerCase()] || null;
   const soucis = Object.entries(profil.concerns || {})
     .filter(([, v]) => (v as number) > 0)
-    .map(([k]) => LIBELLE_SOUCI[k] || k);
+    .map(([k]) => profil.libelles?.[k] ?? LIBELLE_SOUCI[k] ?? k);
 
   try {
     const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
@@ -134,6 +149,10 @@ export async function overviewPour(ref: string, profil: ProfilAvis): Promise<Ove
       peau: j.peauCouverte === true ? peau : null,
       lus: Math.min(bruts.avis.length, MAX_AVIS),
     };
+    if (cache.size >= MAX_CACHE) {
+      const premier = cache.keys().next();
+      if (!premier.done) cache.delete(premier.value);   // FIFO
+    }
     cache.set(cle, out);
     return out;
   } catch {

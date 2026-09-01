@@ -18,7 +18,10 @@ export async function GET(request: Request) {
   // même forme que « pas d'avis » — l'écran gratuit ne distingue pas les deux cas.
   const { uid, premium } = await sessionPremium();
   if (!premium) return NextResponse.json({ overview: null });
-  const o = await overviewPour(ref, await profilUtilisateur(uid));
+  const r = await profilUtilisateur(uid);
+  // Sans bilan (ou base indisponible), la synthèse serait celle de personne : on n'en fait pas.
+  if (r.etat !== "ok") return NextResponse.json({ overview: null });
+  const o = await overviewPour(ref, r.profil);
   // `null` — pas d'avis bruts, pas de clé, ou l'appel a échoué. 200 quand même : l'absence
   // d'overview n'est pas une erreur pour l'écran, c'est un cas normal.
   return NextResponse.json({ overview: o });

@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { auth } from "@/features/auth";
 import { db } from "@/lib/db";
+import { oublierProfil } from "@/lib/scan/profil-utilisateur";
 import { writeRateLimit } from "@/lib/rate-limit";
 
 // Persiste un scan (bilan daté + photo) sous le compte connecté. Appelé à l'inscription
@@ -31,5 +32,8 @@ export async function POST(request: Request) {
       result,
     },
   });
+  // Le profil de peau vient de changer : le mémo de profil-utilisateur doit l'oublier,
+  // sinon la note perso des fiches produit resterait celle de l'ancien bilan pendant 5 min.
+  oublierProfil(session.user.id);
   return NextResponse.json({ ok: true });
 }
