@@ -143,3 +143,45 @@ describe("le mot affiché suit la personne, pas la famille", () => {
     expect(l.some((x) => x.includes("skin texture"))).toBe(false);
   });
 });
+
+describe("le bonus solaire va à qui en a besoin", () => {
+  const base = { skinType: "combination" as const, sensitivity: 0 as const, strengthCeiling: 3,
+    libelles: {}, pregnancy: false, allergies: [] };
+  function note(p: object, nomProduit: string) {
+    const prod = catalogue().find((x) => x.name.includes(nomProduit) && x.inci)!;
+    const f = scoreFormule(prod.inci!, prod.category, prod.filtresUV);
+    return scorePerso(prod.inci!, p, prod.category, f, prod.filtresUV).score;
+  }
+  const SOLAIRE = "La Roche-Posay Anthelios";
+  const NETTOYANT = "CeraVe Foaming Facial Cleanser";
+
+  it("celle qui ne se protège jamais note le solaire plus haut", () => {
+    const jamais = note({ ...base, concerns: {}, besoinSolaire: 2 }, SOLAIRE);
+    const toujours = note({ ...base, concerns: {}, besoinSolaire: 0 }, SOLAIRE);
+    expect(jamais).toBeGreaterThan(toujours);
+  });
+
+  it("la pigmentation compte aussi, même chez quelqu'un qui se protège", () => {
+    const taches = note({ ...base, concerns: { spots: 2 }, besoinSolaire: 0 }, SOLAIRE);
+    const sans = note({ ...base, concerns: {}, besoinSolaire: 0 }, SOLAIRE);
+    expect(taches).toBeGreaterThan(sans);
+  });
+
+  it("les deux signaux se cumulent, sans dépasser le plafond d'un ingrédient", () => {
+    const rien = note({ ...base, concerns: {}, besoinSolaire: 0 }, SOLAIRE);
+    const tout = note({ ...base, concerns: { spots: 2 }, besoinSolaire: 2 }, SOLAIRE);
+    expect(tout - rien).toBeGreaterThan(0);
+    expect(tout - rien).toBeLessThanOrEqual(10);
+  });
+
+  it("un produit SANS filtre UV ne bouge pas d'un point", () => {
+    const a = note({ ...base, concerns: { spots: 2 }, besoinSolaire: 2 }, NETTOYANT);
+    const b = note({ ...base, concerns: {}, besoinSolaire: 0 }, NETTOYANT);
+    expect(a).toBe(b);
+  });
+
+  it("la note de FORMULE du solaire est intacte — aucun barème universel n'a bougé", () => {
+    const p = catalogue().find((x) => x.name.includes(SOLAIRE) && x.inci)!;
+    expect(scoreFormule(p.inci!, p.category, p.filtresUV).score).toBe(78);
+  });
+});

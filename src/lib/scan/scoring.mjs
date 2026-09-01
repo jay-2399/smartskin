@@ -50,6 +50,13 @@ export const CONFIG = {
   malusAlcoolSeche: 6,
   malusHEReactive: 8,
   malusForceParCran: 5,       // force produit − plafond de tolérance
+  // PROTECTION SOLAIRE, côté PERSO. Le côté formule valorise déjà les filtres UV pour
+  // tout le monde (grille "sunscreen", + bonusFiltresUVHorsSolaire). Ce bonus-ci est
+  // l'autre moitié : protéger vaut PLUS à qui ne se protège pas, et à qui a des taches
+  // — les UV en sont le facteur aggravant n°1, et le solaire leur premier traitement.
+  // Même tarif qu'un actif (bonusMatch), plafonné comme lui : c'est un actif contre
+  // les taches, pas un cas à part.
+  bonusSolairePerso: 3.5,
   // ── ADÉQUATION CATÉGORIE × PEAU (v1.2) ──
   // On ne juge plus sur un libellé de catégorie (qui ne dit rien de la texture) : on DÉDUIT
   // la nature du produit de sa composition, puis on la confronte au type de peau.
@@ -637,6 +644,24 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
   if (nat.sulfate) {
     const pts = sensible ? CONFIG.sulfates.sensible : (CONFIG.sulfates[peau] ?? 0);
     if (pts) { score += pts; facts.push({ label: `Sulfate cleansing agents — harsh for your ${sensible ? "reactive" : libPeau(peau)} skin`, points: pts, adequacy: true }); }
+  }
+
+  // ── PROTECTION SOLAIRE : ce que ce produit vaut POUR ELLE ──
+  // Deux signaux, tous deux déclarés ou mesurés, jamais l'apparence : elle ne se protège
+  // pas (q4), et elle a de la pigmentation. Réservé à ce qui RESTE sur la peau — un
+  // nettoyant avec filtre UV ne protège de rien, il part au rinçage.
+  const grille = CONFIG.RUBRIQUES[categorie] || CONFIG.RUBRIQUES.indetermine;
+  if (filtresUV && (grille.rince ?? 1) >= 1) {
+    const pigmentation = (profil.concerns?.spots || 0) > 0 ? 1 : 0;
+    const besoin = Math.min(3, (profil.besoinSolaire || 0) + pigmentation);
+    if (besoin > 0) {
+      const pts = Math.min(CONFIG.bonusSolairePerso * besoin, CONFIG.maxMatchParIngredient);
+      score += pts;
+      const dit = (profil.besoinSolaire || 0) >= 2 ? "you say you skip sunscreen"
+                : (profil.besoinSolaire || 0) === 1 ? "you only wear it sometimes"
+                : `it protects your ${profil.libelles?.spots ?? "dark spots"}`;
+      facts.push({ label: `UV filters — ${dit}`, points: +pts.toFixed(1), adequacy: true });
+    }
   }
   if (sensible && nat.forceMax >= 2 && ["exfoliant", "treatment", "toner"].includes(categorie)) {
     score += CONFIG.exfoliantFort.sensible;

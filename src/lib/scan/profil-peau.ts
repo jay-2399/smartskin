@@ -26,6 +26,7 @@ export type ProfilPeau = {
   strengthCeiling: number;                              // 1-4, tel quel depuis EngineProfile
   concerns: Partial<Record<Famille, number>>;           // au plus 3 clés, Σ ≤ 4
   libelles: Partial<Record<Famille, string>>;           // le mot à AFFICHER par famille
+  besoinSolaire: 0 | 1 | 2;                             // 2 = ne se protège jamais
   pregnancy: boolean;
   allergies: string[];                                  // TOUJOURS [] en v1 — voir plus bas
 };
@@ -41,6 +42,7 @@ export type ProfilLu = {
   concerns?: Record<string, number>;
   libelles?: Record<string, string>;
   allergies?: string[];
+  besoinSolaire?: number;
 };
 
 /* ───────────── Les tables de correspondance ───────────── */
@@ -278,6 +280,22 @@ function libelleDe(c: Candidate): string {
   return uniques.length ? uniques.join(" & ") : MOT_FAMILLE[c.famille];
 }
 
+/** Se protège-t-elle du soleil ? (q4, aujourd'hui collecté et lu par personne.)
+ *
+ *  On ne descend PAS jusqu'au phototype : la règle simple « plus la peau est claire,
+ *  plus il faut de solaire » serait fausse pour la moitié des gens. Une peau claire
+ *  brûle vite ; une peau foncée brûle beaucoup moins mais marque bien plus, et la
+ *  protection solaire est justement le premier traitement de ces marques. Les deux
+ *  extrêmes en ont besoin, pour des raisons opposées. Et noter des produits selon la
+ *  couleur de peau demanderait une décision produit, pas un réglage de notation.
+ *
+ *  Réponse absente → 0 : on n'accorde pas un bonus qu'on ne peut pas justifier. */
+function besoinSolaireDe(answers: Answers): ProfilPeau["besoinSolaire"] {
+  if (answers.q4 === "never") return 2;
+  if (answers.q4 === "sometimes") return 1;
+  return 0;
+}
+
 /* ───────────── L'unique traduction ───────────── */
 
 /** Bilan visage + questionnaire → profil du moteur. Déterministe, ne jette jamais.
@@ -295,6 +313,7 @@ export function versProfilPeau(result: AnalysisResult, answers: Answers): Profil
     strengthCeiling: eng.strengthCeiling,
     concerns,
     libelles,
+    besoinSolaire: besoinSolaireDe(answers),
     pregnancy: eng.pregnant,
     // TOUJOURS vide. Verser q2 ici serait tentant et FAUX : scorePerso teste
     // `it.name.includes(a.toUpperCase())` puis plafonne à 10/100 — « fragrance »
@@ -321,6 +340,7 @@ export function cleProfil(p: ProfilLu): string {
     p.skinType ?? "",
     p.sensitivity ?? 0,
     p.strengthCeiling ?? "",
+    p.besoinSolaire ?? 0,
     p.pregnancy ? 1 : 0,
     a,
     c,

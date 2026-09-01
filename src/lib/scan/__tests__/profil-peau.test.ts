@@ -199,3 +199,29 @@ describe("cleProfil", () => {
     expect(cleProfil(p)).toBe(cleProfil({ ...p }));
   });
 });
+
+describe("protection solaire — q4, collecté et jamais lu jusqu'ici", () => {
+  it("« jamais » → besoin 2", () => {
+    expect(versProfilPeau(result(), ans({ q4: "never" })).besoinSolaire).toBe(2);
+  });
+  it("« parfois » → besoin 1", () => {
+    expect(versProfilPeau(result(), ans({ q4: "sometimes" })).besoinSolaire).toBe(1);
+  });
+  it("« tous les jours » → aucun besoin supplémentaire", () => {
+    expect(versProfilPeau(result(), ans({ q4: "daily" })).besoinSolaire).toBe(0);
+  });
+  it("réponse absente → 0 : on n'accorde pas un bonus qu'on ne peut pas justifier", () => {
+    expect(versProfilPeau(result(), ans()).besoinSolaire).toBe(0);
+  });
+  it("la carnation et le phototype n'entrent PAS dans le profil — décision assumée", () => {
+    const clair = versProfilPeau(result({}, "Mixte"), ans({ q4: "never" }));
+    const fonce = versProfilPeau(result({}, "Mixte"), ans({ q4: "never" }));
+    expect(clair.besoinSolaire).toBe(fonce.besoinSolaire);
+    expect(Object.keys(clair)).not.toContain("phototype");
+  });
+  it("le besoin solaire entre dans la clé de cache — il change la note", () => {
+    const a = { skinType: "oily", besoinSolaire: 0 };
+    const b = { skinType: "oily", besoinSolaire: 2 };
+    expect(cleProfil(a)).not.toBe(cleProfil(b));
+  });
+});
