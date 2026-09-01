@@ -225,3 +225,50 @@ describe("protection solaire — q4, collecté et jamais lu jusqu'ici", () => {
     expect(cleProfil(a)).not.toBe(cleProfil(b));
   });
 });
+
+describe("allergies déclarées (q7) — la règle la plus brutale du moteur", () => {
+  const dico = () => ({
+    FRAGRANCE: { euFragranceAllergen: true },
+    LINALOOL: { euFragranceAllergen: true },
+    CAMPHOR: { euFragranceAllergen: true },
+    "LAVANDULA ANGUSTIFOLIA OIL": { essentialOil: true },
+    METHYLISOTHIAZOLINONE: {},
+    "DMDM HYDANTOIN": {},
+    GLYCERIN: {},
+  });
+
+  it("sans dictionnaire, aucune allergie — on ne devine pas", () => {
+    expect(versProfilPeau(result(), ans({ q7: ["allergy-fragrance"] })).allergies).toEqual([]);
+  });
+  it("parfum coché → les allergènes déclarables, et rien d'autre", () => {
+    const a = versProfilPeau(result(), ans({ q7: ["allergy-fragrance"] }), dico()).allergies;
+    expect(a).toContain("FRAGRANCE");
+    expect(a).toContain("LINALOOL");
+    expect(a).not.toContain("GLYCERIN");
+  });
+  it("CAMPHOR est exclu — il attrapait le Mexoryl SX, un filtre solaire", () => {
+    const a = versProfilPeau(result(), ans({ q7: ["allergy-fragrance"] }), dico()).allergies;
+    expect(a).not.toContain("CAMPHOR");
+  });
+  it("huiles essentielles cochées → seulement les huiles", () => {
+    const a = versProfilPeau(result(), ans({ q7: ["allergy-eo"] }), dico()).allergies;
+    expect(a).toEqual(["LAVANDULA ANGUSTIFOLIA OIL"]);
+  });
+  it("conservateurs cochés → isothiazolinones et libérateurs de formaldéhyde", () => {
+    const a = versProfilPeau(result(), ans({ q7: ["allergy-preservative"] }), dico()).allergies;
+    expect(a.sort()).toEqual(["DMDM HYDANTOIN", "METHYLISOTHIAZOLINONE"]);
+  });
+  it("LE test qui compte : q2 « le parfum m'irrite » ne déclenche AUCUNE allergie", () => {
+    // q2 déclare une irritation → malus gradué. Le verser ici plafonnerait à 10/100
+    // un tiers du catalogue pour quelqu'un qui trouve juste que ça pique.
+    expect(versProfilPeau(result(), ans({ q2: ["fragrance"] }), dico()).allergies).toEqual([]);
+  });
+  it("grossesse cochée seule ne déclenche aucune allergie", () => {
+    expect(versProfilPeau(result(), ans({ q7: ["pregnancy"] }), dico()).allergies).toEqual([]);
+  });
+  it("les allergies entrent dans la clé de cache", () => {
+    const a = versProfilPeau(result(), ans({ q7: ["allergy-fragrance"] }), dico());
+    const b = versProfilPeau(result(), ans(), dico());
+    expect(cleProfil(a)).not.toBe(cleProfil(b));
+  });
+});

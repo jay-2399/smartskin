@@ -3,6 +3,7 @@ import { AnalysisResultSchema } from "@/features/analysis/schema";
 import type { Answers } from "@/features/funnel/types";
 import { PROFIL_NEUTRE } from "@/lib/scan/acces";
 import { versProfilPeau, type ProfilPeau } from "@/lib/scan/profil-peau";
+import { dictionnaire } from "@/lib/scan/moteur";
 
 export { cleProfil } from "@/lib/scan/profil-peau";
 
@@ -130,7 +131,9 @@ export async function profilUtilisateur(uid: string | null): Promise<Resolution>
   }
 
   try {
-    const profil = versProfilPeau(parsed.data, normaliserAnswers(row.answers));
+    // Le dictionnaire sert à déplier les allergies déclarées en liste d'INCI.
+    const profil = versProfilPeau(parsed.data, normaliserAnswers(row.answers),
+                                  dictionnaire() as Record<string, unknown>);
     const r: Resolution = { etat: "ok", profil };
     ecrireMemo(uid, r);
     return r;

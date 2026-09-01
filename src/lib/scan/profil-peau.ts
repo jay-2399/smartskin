@@ -280,6 +280,64 @@ function libelleDe(c: Candidate): string {
   return uniques.length ? uniques.join(" & ") : MOT_FAMILLE[c.famille];
 }
 
+/* ALLERGIES DÉCLARÉES (q7) → la liste des INCI concernés.
+   Le moteur plafonne la note à 10 dès qu'un ingrédient correspond : c'est brutal et
+   c'est juste, pour une VRAIE allergie. D'où trois précautions.
+
+   Une liste fermée, jamais du texte libre : le moteur matche par sous-chaîne, et
+   quelqu'un qui taperait « huile » plafonnerait presque tout le catalogue.
+
+   Le profil transporte les NOMS D'INGRÉDIENTS, pas le mot « parfum » : le dépliage se
+   fait ici, sur le dictionnaire, une fois — pas à chaque produit noté.
+
+   Et q7 n'est pas q2. q2 demande ce qui IRRITE et donne un malus gradué ; ici on parle
+   d'une allergie diagnostiquée, et le libellé de la question le dit. */
+type Predicat = (nom: string, fiche: { euFragranceAllergen?: boolean; essentialOil?: boolean }) => boolean;
+
+const GROUPES_ALLERGENES: Record<string, Predicat> = {
+  // Le parfum est l'allergène de contact le plus fréquent. On prend les 2 noms génériques
+  // plus les 137 allergènes que l'UE oblige à déclarer nommément — soit 33 % du catalogue.
+  "allergy-fragrance": (n, f) => n === "FRAGRANCE" || n === "PARFUM" || !!f.euFragranceAllergen,
+  "allergy-eo": (_n, f) => !!f.essentialOil,
+  // Isothiazolinones (allergène de l'année 2013) et libérateurs de formaldéhyde.
+  "allergy-preservative": (n) =>
+    /ISOTHIAZOLINONE/.test(n) ||
+    /^(DMDM HYDANTOIN|IMIDAZOLIDINYL UREA|DIAZOLIDINYL UREA|QUATERNIUM-15|BRONOPOL)$/.test(n),
+};
+
+/* Le moteur matche par SOUS-CHAÎNE, ce qui rend service : « LIMONENE » attrape aussi
+   « D-LIMONENE », la même substance. Vérifié sur tout le dictionnaire, ce débordement
+   est juste dans dix cas sur onze — variantes de FRAGRANCE, ETHYL LINALOOL, 4-TERPINEOL.
+
+   Le onzième ne l'est pas : « CAMPHOR » attrape TEREPHTHALYLIDENE DICAMPHOR SULFONIC
+   ACID, le Mexoryl SX, qui est un filtre solaire — rien à voir avec un parfum. Et une
+   API de sous-chaîne ne sait pas dire « CAMPHOR mais pas DICAMPHOR ».
+
+   Alors on tranche à la mesure. Retirer CAMPHOR change 17 produits : 12 cessent d'être
+   plafonnés à tort (Mexoryl), 5 cessent de l'être à raison (lotions asséchantes au
+   camphre). 12 contre 5 : on le retire. Les huiles de camphre restent couvertes par
+   l'allergie aux huiles essentielles, pour qui la déclare. */
+const EXCLUS = new Set(["CAMPHOR"]);
+
+/** Déplie les allergies cochées en liste d'INCI. Sans dictionnaire → [], jamais une
+ *  allergie qu'on ne saurait pas reconnaître. */
+function allergiesDe(answers: Answers, dico?: Record<string, unknown>): string[] {
+  if (!dico) return [];
+  const actifs = answers.q7.filter((v) => GROUPES_ALLERGENES[v]);
+  if (!actifs.length) return [];
+  const out = new Set<string>();
+  for (const [nom, fiche] of Object.entries(dico)) {
+    if (EXCLUS.has(nom)) continue;
+    for (const g of actifs) {
+      if (GROUPES_ALLERGENES[g](nom, fiche as { euFragranceAllergen?: boolean; essentialOil?: boolean })) {
+        out.add(nom);
+        break;
+      }
+    }
+  }
+  return [...out];
+}
+
 /** Se protège-t-elle du soleil ? (q4, aujourd'hui collecté et lu par personne.)
  *
  *  On ne descend PAS jusqu'au phototype : la règle simple « plus la peau est claire,
@@ -303,7 +361,11 @@ function besoinSolaireDe(answers: Answers): ProfilPeau["besoinSolaire"] {
  *  On RÉUTILISE buildEngineProfile plutôt que de redériver la tolérance : deux
  *  dérivations parallèles finiraient par se contredire — « ta barrière est fragile,
  *  va doucement » côté routine, un rétinol à 92/100 côté produit. */
-export function versProfilPeau(result: AnalysisResult, answers: Answers): ProfilPeau {
+export function versProfilPeau(
+  result: AnalysisResult,
+  answers: Answers,
+  dico?: Record<string, unknown>
+): ProfilPeau {
   const eng = buildEngineProfile(result, answers);
   const { concerns, libelles } = concernsDe(result, answers);
 
@@ -315,13 +377,11 @@ export function versProfilPeau(result: AnalysisResult, answers: Answers): Profil
     libelles,
     besoinSolaire: besoinSolaireDe(answers),
     pregnancy: eng.pregnant,
-    // TOUJOURS vide. Verser q2 ici serait tentant et FAUX : scorePerso teste
-    // `it.name.includes(a.toUpperCase())` puis plafonne à 10/100 — « fragrance »
-    // matcherait l'INCI FRAGRANCE/PARFUM, soit 836 produits, 26 % du catalogue.
-    // q2 déclare une IRRITATION, pas une allergie, et chaque item y a déjà son canal
-    // (parfum, HE, sulfates, alcool). Sa contribution est de monter `sensitivity`.
-    // Un vrai champ « allergie déclarée » est un chantier de questionnaire.
-    allergies: [],
+    // Alimenté par q7 UNIQUEMENT, jamais par q2. q2 déclare une IRRITATION — chaque
+    // item y a déjà son canal (parfum, HE, sulfates, alcool) et sa contribution est de
+    // monter `sensitivity`. Le verser ici plafonnerait à 10/100 le tiers du catalogue
+    // pour quelqu'un qui trouve juste que le parfum lui pique.
+    allergies: allergiesDe(answers, dico),
   };
 }
 
