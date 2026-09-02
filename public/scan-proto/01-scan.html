@@ -23,8 +23,8 @@
   --blue:#A6C3D6; --blue-d:#6E9AB6;
   --fd:'Manrope',sans-serif; --fm:'Manrope',sans-serif;
 }
-html { background:#DEE0E5; -webkit-font-smoothing:antialiased; }
-body { font-family:var(--fd); color:#fff; min-height:100dvh; display:flex; justify-content:center; align-items:flex-start; }
+html { background:#DEE0E5; -webkit-font-smoothing:antialiased; overscroll-behavior-y:none; }  /* pas de rebond : la WKWebView (fond #101216, isOpaque=false) apparaîtrait — voir commun/base.css */
+body { font-family:var(--fd); color:#fff; min-height:100dvh; overscroll-behavior-y:none; display:flex; justify-content:center; align-items:flex-start; }
 
 /* conteneur fluide : plein écran mobile, mockup encadré ≥480px */
 .phone { position:relative; width:100%; max-width:430px; min-height:100dvh;
