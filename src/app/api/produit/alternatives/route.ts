@@ -17,7 +17,29 @@ export const dynamic = "force-dynamic";
 type Classe = { nom: string; marque: string; image?: string; formule: number; perso: number };
 const cache = new Map<string, Classe[]>();
 const MAX_CACHE = 200;      // plafond FIFO : une clé par profil DISTINCT, pas par compte
-const GARDE = 20;           // la route en sert 6 au maximum — inutile de mémoriser 450 produits
+// La route en sert 6 au maximum, mais UNE PAR MARQUE : Paula's Choice a 203 fiches, et dans
+// une catégorie qu'elle domine ses produits remplissaient les 20 premières places à eux
+// seuls — l'écran montrait trois fois la même marque, dont deux fois le même tube. On garde
+// donc une tranche assez profonde pour y trouver trois marques distinctes après filtrage.
+const GARDE = 80;
+
+/** Trois marques distinctes, les mieux notées pour cette peau : la meilleure fiche de
+ *  chaque marque, dans l'ordre du classement. Le produit scanné est écarté AVANT le
+ *  dédoublonnage — sinon sa marque disparaîtrait des suggestions alors que son second
+ *  produit ferait peut-être mieux. */
+function troisMarques(l: Classe[], exclure: string, minimum: number, combien: number): Classe[] {
+  const vues = new Set<string>();
+  const out: Classe[] = [];
+  for (const x of l) {
+    if (x.nom.toLowerCase() === exclure || x.perso <= minimum) continue;
+    const m = x.marque.toLowerCase();
+    if (vues.has(m)) continue;
+    vues.add(m);
+    out.push(x);
+    if (out.length === combien) break;
+  }
+  return out;
+}
 
 // La clé inclut une empreinte du PROFIL : depuis le branchement du bilan réel, deux personnes
 // n'obtiennent plus le même classement. `cleProfil` ne contient pas l'uid, donc deux peaux
@@ -61,9 +83,7 @@ export async function GET(request: Request) {
     const r = await profilUtilisateur(uid);
     // Sans bilan, il n'y a pas de « mieux pour ta peau » à proposer.
     if (r.etat !== "ok") return NextResponse.json({ alternatives: [] });
-    const alternatives = classement(categorie, r.profil)
-      .filter((x) => x.nom.toLowerCase() !== exclure && x.perso > minimum)
-      .slice(0, combien);
+    const alternatives = troisMarques(classement(categorie, r.profil), exclure, minimum, combien);
     return NextResponse.json({ categorie, alternatives });
   } catch {
     return NextResponse.json({ alternatives: [] }, { status: 500 });

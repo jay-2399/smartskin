@@ -338,6 +338,8 @@
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ result: resultat, answers: answers, photo: photo })
     }).then(function (r) {
+      // trop tôt (moins de 7 jours) : rien n'est enregistré, le tableau de bord dit quand
+      if (r.status === 409) { location.replace("11-dashboard.html"); return; }
       if (!r.ok) throw new Error("scan_" + r.status);
       try { sessionStorage.removeItem(CLE_PHOTO); } catch (e) {}
       try { SS.track("analysis_completed", { version: "v2" }); } catch (e) {}

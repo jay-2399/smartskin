@@ -4,6 +4,7 @@ import { db } from "@/lib/db";
 import { AnalysisResultSchema } from "@/features/analysis/schema";
 import { topConcerns } from "@/features/routine/recommend";
 import { ATTRIBUTE_BY_ID, LEVEL_TO_PERCENT, SECTIONS, SECTION_LABELS } from "@/features/analysis/attributes";
+import { peutScanner, prochainScan } from "@/lib/scan/cadence";
 
 // Le bilan visage du compte, pour l'écran 18-bilan et la jauge du dashboard V2 :
 // dernière Analysis (score, curseurs les plus dégradés) + la courbe de TOUS les scans.
@@ -87,6 +88,9 @@ export async function GET() {
         skinType: dernier.skinType,
         skinAge: dernier.skinAge,
         date: dernier.createdAt.toISOString(),
+        // cadence du scan visage : le dashboard grise « Face scan » jusqu'à cette date
+        prochainScan: prochainScan(dernier.createdAt).toISOString(),
+        peutScanner: peutScanner(dernier.createdAt),
         photo: dernier.photoData,
         curseurs,
         evolution: scans.map((s) => ({ date: s.createdAt.toISOString().slice(0, 10), score: s.score })),

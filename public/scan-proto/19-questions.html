@@ -664,8 +664,23 @@
   var refaire = new URLSearchParams(location.search).get("refaire") === "1";
   var memoire = (window.SS && SS.visage) ? SS.visage.reponses() : null;
 
+  // Un scan tous les 7 jours : le serveur refuse de toute façon (POST /api/scan → 409),
+  // mais on le dit AVANT les sept questions et la photo. Le tableau de bord affiche la
+  // date du prochain : on y renvoie. Sans compte (1ᵉʳ scan) → 401 → rien à bloquer.
+  var garde = fetch("/api/moi/bilan", { cache: "no-store" })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (d) {
+      var bloque = !!(d && d.bilan && d.bilan.peutScanner === false);
+      if (bloque) location.replace("11-dashboard.html");
+      return bloque;
+    })
+    .catch(function () { return false; });
+
   // profil encore valable → droit à la capture (21-analyse relit la mémoire)
-  if (!refaire && memoire && !SS.visage.doitDemander()) { location.replace(SUIVANT); return; }
+  if (!refaire && memoire && !SS.visage.doitDemander()) {
+    garde.then(function (bloque) { if (!bloque) location.replace(SUIVANT); });
+    return;
+  }
 
   // « refaire » vient d'un geste explicite : on repart du début, pas d'un brouillon
   if (refaire) { try { sessionStorage.removeItem(CLE); } catch (e) {} }
