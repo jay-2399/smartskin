@@ -12,7 +12,7 @@ export default function PrivacyPage() {
     <main className="legal">
       <LegalBack />
       <h1>Privacy Policy</h1>
-      <p className="legal-updated">Last updated: July 28, 2026</p>
+      <p className="legal-updated">Last updated: September 1, 2026</p>
 
       <p>
         SmartSkin (&ldquo;we&rdquo;, &ldquo;us&rdquo;) provides an AI-powered skincare analysis app.
@@ -31,6 +31,8 @@ export default function PrivacyPage() {
         <li><strong>Face photo</strong> — the selfie you take (or upload) for skin analysis.</li>
         <li><strong>Skin questionnaire</strong> — your answers (age range, skin concerns, etc.).</li>
         <li><strong>Analysis results</strong> — your skin score, detected attributes, skin type, and recommended routine.</li>
+        <li><strong>Product photos</strong> — the pictures you take of a product, or of its ingredient list, so we can identify it and read its formula. They are sent to our AI provider for that single purpose and are <strong>not stored on our servers</strong>.</li>
+        <li><strong>Your shelf and scan history</strong> — the products you scan and choose to keep. Once you have an account, this list is stored and linked to it, so your shelf follows you from one device to another. You can empty it at any time from Settings, and deleting your account deletes it with everything else.</li>
         <li><strong>Account information</strong> — when you sign in with Apple, we receive a unique Apple identifier, your email (or Apple&rsquo;s private-relay address if you choose &ldquo;Hide My Email&rdquo;), and your name the first time you sign in.</li>
         <li><strong>Purchase status</strong> — whether you have an active plan. We never receive or store your card or payment details; all payments are handled by Apple.</li>
         <li><strong>Usage analytics</strong> — anonymous product-usage events (screens visited, taps) via PostHog and Microsoft Clarity, to improve the app.</li>
@@ -57,7 +59,7 @@ export default function PrivacyPage() {
       <h2>5. Who we share data with</h2>
       <p>We use a small number of trusted processors:</p>
       <ul>
-        <li><strong>Anthropic</strong> — AI skin analysis (photo + answers), EU processing.</li>
+        <li><strong>Anthropic</strong> — AI skin analysis (face photo + answers) and product identification (product photos), EU processing.</li>
         <li><strong>Apple</strong> — Sign in with Apple, and payments/subscriptions.</li>
         <li><strong>Render</strong> — hosting and database, located in the European Union (Frankfurt).</li>
         <li><strong>PostHog</strong> and <strong>Microsoft Clarity</strong> — anonymous product analytics.</li>
@@ -66,8 +68,8 @@ export default function PrivacyPage() {
 
       <h2>6. Where your data is stored, and for how long</h2>
       <p>
-        Your account data (scans, photos, results) is stored in the European Union. We keep it while
-        your account is active. If you delete your account, your photos, scans, and personal data are deleted.
+        Your account data (scans, photos, results, and your shelf) is stored in the European Union. We keep it while
+        your account is active. If you delete your account, your photos, scans, shelf, and personal data are deleted.
       </p>
 
       <h2>7. Your rights</h2>
