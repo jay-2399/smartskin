@@ -4,6 +4,10 @@ import { db } from "@/lib/db";
 import { writeRateLimit } from "@/lib/rate-limit";
 
 // Product ids App Store (doivent correspondre à Store.swift côté iOS).
+// PLUS VENDU depuis le 01/09, mais RECONNU POUR TOUJOURS : c'est par ici que « Restore
+// purchases » rend son accès à quelqu'un qui l'a acheté. Retirer cette ligne priverait
+// d'accès un client payant qui réinstalle — et la restauration d'un achat passé est une
+// exigence App Store, pas une option.
 const LIFETIME_ID = "1234";
 const WEEKLY_ID = "5678";
 const ANNUAL_ID = "231999"; // « SmartSkin + (Yearly) », 39,99 $/an, essai 7 j (groupe SmartSkin Sub)

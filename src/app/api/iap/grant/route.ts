@@ -24,12 +24,17 @@ export async function POST(request: Request) {
   // et de façon irréversible. Les deux appels qui n'envoyaient rien étaient les
   // restaurations ; elles passent désormais par l'entitlement StoreKit réel, qui SAIT
   // quel produit a été acheté au lieu de le deviner.
+  //
+  // « lifetime » N'EST PLUS ACCEPTÉ (01/09). Ce produit n'est plus vendu : aucun écran ne
+  // le propose et aucun repli du pont natif ne le désigne. Le laisser ici gardait ouverte
+  // une route qui accorde un accès PERMANENT et IRRÉVERSIBLE à qui poste le bon mot.
+  // Les clients qui l'ont acheté ne perdent rien : leur `lifetimeAccess` est déjà en base,
+  // et « Restore purchases » passe par /api/iap/sync, qui reconnaît toujours le produit
+  // 1234. C'est la restauration qui compte, pas cette route.
   const { plan } = await request.json().catch(() => ({} as { plan?: unknown }));
   const jours = plan === "weekly" ? 7 : plan === "annual" ? 365 : 0;
 
-  if (plan === "lifetime") {
-    await db.user.update({ where: { id: session.user.id }, data: { lifetimeAccess: true } });
-  } else if (jours) {
+  if (jours) {
     await db.user.update({ where: { id: session.user.id }, data: { accessUntil: new Date(Date.now() + jours * 24 * 60 * 60 * 1000) } });
   } else {
     return NextResponse.json({ error: "plan_manquant" }, { status: 400 });
