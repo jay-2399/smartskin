@@ -6,7 +6,7 @@ import { writeRateLimit } from "@/lib/rate-limit";
 // Product ids App Store (doivent correspondre à Store.swift côté iOS).
 const LIFETIME_ID = "1234";
 const WEEKLY_ID = "5678";
-const ANNUAL_ID = "9012"; // placeholder — à remplacer par le vrai product id App Store
+const ANNUAL_ID = "231999"; // « SmartSkin + (Yearly) », 39,99 $/an, essai 7 j (groupe SmartSkin Sub)
 
 // Synchronise l'accès en base à partir de l'entitlement StoreKit RÉEL rapporté par l'app.
 // Appelé (1) juste après l'achat (AppleSaveScreen) et (2) à chaque ouverture de l'app.

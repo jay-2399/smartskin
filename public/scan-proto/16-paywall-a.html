@@ -185,7 +185,7 @@
           <span class="plan-radio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg></span>
         </div>
         <div class="plan-price-row">
-          <span class="pp-now" id="prix-annual">$39.90</span>
+          <span class="pp-now" id="prix-annual">$39.99</span>
           <span class="pp-unit">/ year</span>
         </div>
       </div>
@@ -195,7 +195,7 @@
           <span class="plan-radio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg></span>
         </div>
         <div class="plan-price-row">
-          <span class="pp-now">$3.99</span>
+          <span class="pp-now">$4.99</span>
           <span class="pp-unit">/ week</span>
         </div>
       </div>
@@ -286,7 +286,7 @@
      répond ; non éligible → badge et « No payment due now » disparaissent,
      le bouton dit « Subscribe » (promesse honnête, guideline 3.1.2). ── */
   var plan = "annual";   // l'essai gratuit est porté par l'ANNUEL
-  var prixAnnuel = "$39.90";
+  var prixAnnuel = "$39.99";
   var eligible = true;   // affichage essai par défaut (web/démo) ; corrigé par le pont
   var cta = document.getElementById("pw-cta");
   var ctaTx = document.getElementById("pw-cta-tx");
@@ -312,7 +312,7 @@
         document.getElementById("pw-terms").innerHTML = "Billed once a year &middot; that&#39;s $0.77 / week";
       }
     } else {
-      ctaTx.textContent = "Subscribe — $3.99 / week";
+      ctaTx.textContent = "Subscribe — $4.99 / week";
       document.getElementById("pw-note").innerHTML = ICONE_LOCK + "Cancel anytime";
       document.getElementById("pw-terms").innerHTML = "Billed weekly &middot; cancel anytime";
     }

@@ -190,7 +190,7 @@ html { background:#0A0B0E; }
               <span class="pw-plan-name">1 Year</span>
               <span class="pw-radio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg></span>
             </div>
-            <div class="pw-plan-price"><span class="pw-plan-now" id="prix-annual">$39.90</span><span class="pw-plan-unit">/ year</span></div>
+            <div class="pw-plan-price"><span class="pw-plan-now" id="prix-annual">$39.99</span><span class="pw-plan-unit">/ year</span></div>
           </div>
         </div>
 
@@ -200,7 +200,7 @@ html { background:#0A0B0E; }
               <span class="pw-plan-name">Weekly</span>
               <span class="pw-radio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7"></path></svg></span>
             </div>
-            <div class="pw-plan-price"><span class="pw-plan-now">$3.99</span><span class="pw-plan-unit">/ week</span></div>
+            <div class="pw-plan-price"><span class="pw-plan-now">$4.99</span><span class="pw-plan-unit">/ week</span></div>
           </div>
         </div>
       </div>
@@ -288,7 +288,7 @@ html { background:#0A0B0E; }
      répond ; non éligible → badge et « No payment due now » disparaissent,
      le bouton dit « Subscribe » (promesse honnête, guideline 3.1.2). ── */
   var plan = "annual";   // l'essai gratuit est porté par l'ANNUEL
-  var prixAnnuel = "$39.90";
+  var prixAnnuel = "$39.99";
   var eligible = true;   // affichage essai par défaut (web/démo) ; corrigé par le pont
   var cta = document.getElementById("pw-cta");
   var ctaTx = document.getElementById("pw-cta-tx");
@@ -314,7 +314,7 @@ html { background:#0A0B0E; }
         document.getElementById("pw-terms").innerHTML = "Billed once a year &middot; that&#39;s $0.77 / week";
       }
     } else {
-      ctaTx.textContent = "Subscribe — $3.99 / week";
+      ctaTx.textContent = "Subscribe — $4.99 / week";
       document.getElementById("pw-note").innerHTML = ICONE_LOCK + "Cancel anytime";
       document.getElementById("pw-terms").innerHTML = "Billed weekly &middot; cancel anytime";
     }
