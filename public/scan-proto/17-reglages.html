@@ -123,7 +123,7 @@
     <div class="sec-head"><span class="sec-kicker">Support</span><span class="sec-name" style="font-size:17px;">Help</span></div>
     <div class="vcard" style="padding:6px 18px;">
       <div class="row tap" id="row-contact">
-        <div class="row-tx"><p class="row-t">Contact us</p></div>
+        <div class="row-tx"><p class="row-t">Contact us</p><p class="row-s">byllel@davinci-digitale.fr &middot; tap to copy</p></div>
         <div class="row-side"><svg width="13" height="13" viewBox="0 0 12 12" fill="none" stroke="#BCBFCC" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2l4 4-4 4"></path></svg></div>
       </div>
       <!-- « Rate SmartSkin » RETIRÉ : la ligne affichait « Coming with the App Store
@@ -280,8 +280,21 @@
   document.getElementById("row-terms").addEventListener("click", function () { location.href = "/terms"; });
 
   /* ── aide ── */
+  /* Pas de `mailto:` : la WebView ne sait pas l'ouvrir et la coquille n'a pas de règle
+     pour le passer à Mail — la navigation ÉCHOUE, et l'échec déclenche `onFail()`,
+     l'écran plein « Serveur injoignable » (SmartSkinScanApp.swift:130). Le bouton
+     envoyait donc sur l'écran hors-ligne. Ici : on copie l'adresse et on le dit ;
+     elle est aussi affichée sous la ligne, lisible sans rien toucher.
+     Le vrai passage à Mail se fera côté natif (decidePolicyFor → open) au prochain
+     binaire. */
+  var CONTACT = "byllel@davinci-digitale.fr";
   document.getElementById("row-contact").addEventListener("click", function () {
-    location.href = "mailto:byllel@davinci-digitale.fr";
+    var dit = function () { toast("Email copied — " + CONTACT); };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(CONTACT).then(dit, function () { toast("Write to " + CONTACT); });
+    } else {
+      toast("Write to " + CONTACT);
+    }
   });
 
   /* ── sign out : purge COMPLÈTE des clés ss-*, puis retour à l'aiguillage ──
