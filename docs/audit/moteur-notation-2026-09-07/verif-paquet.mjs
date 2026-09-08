@@ -51,9 +51,9 @@ function cause(p) {
   if (FICHES_REPAREES.test(String(p.name || ""))) return "fiche réparée au lot 1 (Weleda)";
   if (ALIAS_LOT1.test(s)) return "alias ajouté au lot 1";
   if (/\d+(?:[.,]\d+)?\s*%|\bUSP\b/i.test(s)) return "n % / USP (R1)";
-  if (/\(\s*NANO\s*\)/i.test(s)) return "(NANO) (R8)";
-  if (/THERMAL (SPRING )?WATER|SPRING WATER|VOLCANIC WATER|EAU THERMALE/i.test(s)) return "eau thermale (R8)";
-  if (/\([A-Z][A-Z\- ]+\)/.test(s)) return "parenthèse botanique (R8)";
+  if (/[([]\s*NANO\s*[)\]]/i.test(s)) return "(NANO) (R8)";
+  if (/(THERMAL|SPRING|VOLCANIC) WATER|EAU THERMALE/i.test(s)) return "eau thermale (R8)";
+  // (les noms botaniques parenthésés ne sont volontairement PAS canonicalisés : voir scoring.mjs)
   return "règle";
 }
 

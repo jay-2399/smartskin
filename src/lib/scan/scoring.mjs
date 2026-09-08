@@ -339,8 +339,21 @@ export function parseInci(inci) {
         !/[A-Z]{4,}/.test(t.replace(/AQUA|WATER|EAU|PURIFIED|DEIONIZED|DISTILLED/g, ""))) t = "WATER";
     // Tout ce qui se dit parfum en est un : « Perfume » ou « Aroma » ne contournent plus le malus.
     if (/PARFUM|FRAGRANCE|PERFUME|\bAROMA\b/.test(t) && !/AROMATIC/.test(t)) t = "FRAGRANCE";
+    // « (NANO) » est une mention réglementaire de taille de particule, pas un autre ingrédient :
+    // « TITANIUM DIOXIDE (NANO) » restait inconnu (audit du 7/09, G1).
+    t = t.replace(/\s*[([]\s*NANO\s*[)\]]/g, "").trim();
+    // Une eau thermale de marque est de l'eau : la laisser passer pour un actif « anti-rougeurs »
+    // faisait d'un sérum « eau + glycérine + gomme » un produit à 65 (D, triche mesurée).
+    if (/(THERMAL|SPRING|VOLCANIC) WATER|EAU THERMALE/.test(t) && !/EXTRACT|FERMENT|JUICE/.test(t)) t = "WATER";
     // Alias chaînés (« OCTISALATE 5% » → OCTISALATE → ETHYLHEXYL SALICYLATE) : trois sauts au plus.
     for (let saut = 0; saut < 3 && ALIAS[t] !== undefined && ALIAS[t] !== t; saut++) t = ALIAS[t];
+    // NOMS BOTANIQUES PARENTHÉSÉS — volontairement PAS canonicalisés ici.
+    // « CAMELLIA OLEIFERA (GREEN TEA) LEAF EXTRACT » et « CAMELLIA OLEIFERA LEAF EXTRACT » sont
+    // la même plante ; 255 paires de ce genre coexistent au dictionnaire et 99 se contredisent
+    // sur le fond (rôle, bénéfices, risques). L'audit proposait de se rabattre sur la fiche de
+    // base : mesuré, ce repli déplace 498 produits de jusqu'à 35 points, dans les deux sens —
+    // il ne corrige rien, il choisit au hasard laquelle des deux fiches contradictoires gagne.
+    // La correction est dans les DONNÉES, paire par paire (voir la section « ouvert » du rapport).
     pos += 1;
     out.push({ name: t, pos, fiche: DICT?.[t] ?? null });
   }
