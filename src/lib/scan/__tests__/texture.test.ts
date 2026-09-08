@@ -28,7 +28,7 @@ describe("ce qui fait une texture riche", () => {
   it("Toleriane Sensitive Riche reste riche après le recalage des seuils", () => {
     const p = catalogue().find((x) => /Toleriane.*Riche/i.test(x.name) && x.category === "moisturizer" && x.inci)!;
     expect(p).toBeDefined();
-    expect(texture(p.inci!, p.category, SECHE).some((x) => (x.points ?? 0) > 0)).toBe(true);
+    expect(texture(p.inci as string, p.category, SECHE).some((x) => (x.points ?? 0) > 0)).toBe(true);
   });
 });
 
