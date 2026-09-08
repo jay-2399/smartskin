@@ -11,8 +11,12 @@
   <link rel="stylesheet" href="commun/base.css">
   <style>
 
-/* ═══ FORK v2 (maquette Main.dc.html du 30/08) — titres en miroir, carte perso SOMBRE ═══ */
-.fk-wrap { padding:6px 20px 26px; display:flex; flex-direction:column; gap:13px; }
+/* ═══ FORK v3 (maquette « Écran Fork SmartSkin » du 08/09) ═══
+   Deux cartes empilées, pleine largeur. Chacune porte la DEMI-JAUGE de l'écran
+   résultat (03-result-free) : nette et colorée par la bande pour la note de
+   formule, floutée et neutre pour la note perso — le flou dit le manque, sans
+   rien laisser deviner du verdict. */
+.fk-wrap { padding:6px 20px 26px; display:flex; flex-direction:column; gap:14px; }
 .fk-done { display:flex; align-items:center; gap:12px; }
 .fk-thumb { width:56px; height:56px; border-radius:17px; flex-shrink:0;
   background:var(--glass-bg); border:1px solid var(--glass-line); box-shadow:var(--glass-shadow);
@@ -20,78 +24,83 @@
 .fk-thumb img { height:46px; width:auto; max-width:50px; object-fit:contain; mix-blend-mode:multiply; }
 .fk-done-k { display:flex; align-items:center; gap:5px; font-size:8.5px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#189A66; }
 .fk-done-p { font-weight:800; font-size:14.5px; letter-spacing:-0.02em; color:var(--ink); margin-top:3px; }
-.fk-title { font-weight:800; font-size:28px; letter-spacing:-0.035em; line-height:1.08; color:var(--ink); margin-top:8px; }
-.fk-sub { font-size:13px; line-height:1.5; color:var(--graphite); margin-top:6px; }
-.fk-card { position:relative; border-radius:22px; padding:20px; overflow:hidden;
-  background:linear-gradient(165deg, rgba(255,255,255,0.86), rgba(255,255,255,0.68));
+.fk-title { font-weight:800; font-size:28px; letter-spacing:-0.035em; line-height:1.08; color:var(--ink); }
+
+.fk-card { position:relative; border-radius:22px; padding:17px 16px; overflow:hidden;
+  background:linear-gradient(165deg, rgba(255,255,255,0.84), rgba(255,255,255,0.62));
   -webkit-backdrop-filter:blur(22px) saturate(1.5); backdrop-filter:blur(22px) saturate(1.5);
   border:1px solid rgba(255,255,255,0.72); border-top-color:rgba(255,255,255,0.95);
-  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.95), 0 14px 30px rgba(40,55,75,0.12); }
-/* carte perso SOMBRE : le code visuel premium de toute l'app (même verre que les cartes verrouillées) */
-.fk-card.dark { background:linear-gradient(160deg, rgba(41,46,58,0.95) 0%, rgba(20,22,27,0.97) 100%);
-  border:1px solid rgba(255,255,255,0.14); border-top-color:rgba(255,255,255,0.30);
-  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.18), 0 18px 40px rgba(15,20,30,0.36); }
-.fk-card.dark::after { content:''; position:absolute; right:-16%; bottom:-30%; width:64%; height:80%; pointer-events:none;
-  background:radial-gradient(ellipse at center, rgba(166,195,214,0.26), transparent 68%); }
+  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.95), 0 10px 24px rgba(40,55,75,0.09);
+  display:flex; flex-direction:column; gap:14px; }
+/* carte perso SOMBRE : le code visuel premium de toute l'app */
+.fk-card.dark { background:linear-gradient(160deg, rgba(41,46,58,0.96) 0%, rgba(18,20,25,0.98) 100%);
+  border:1px solid rgba(255,255,255,0.16); border-top-color:rgba(255,255,255,0.34);
+  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.20), 0 22px 46px rgba(15,20,30,0.42); }
+.fk-card.dark::after { content:''; position:absolute; right:-18%; top:-40%; width:76%; height:130%; pointer-events:none;
+  background:radial-gradient(ellipse at center, rgba(166,195,214,0.28), transparent 68%); }
 .fk-card > * { position:relative; z-index:1; }
-.fk-k { font-size:8.5px; font-weight:700; letter-spacing:0.15em; text-transform:uppercase; color:var(--space); }
-.fk-k.dark { color:#BCD6E6; }
-.fk-h { font-weight:800; font-size:20px; letter-spacing:-0.03em; color:var(--ink); margin-top:6px; line-height:1.15; }
+
+.fk-body { display:flex; gap:12px; align-items:center; }
+.fk-col { display:flex; flex-direction:column; gap:9px; min-width:0; }
+.fk-h { font-weight:800; font-size:19px; letter-spacing:-0.03em; line-height:1.18; color:var(--ink); }
+.fk-h .fk-h2 { color:#8A8F9E; }
 .fk-card.dark .fk-h { color:#fff; }
-.fk-p { font-size:12.5px; line-height:1.55; color:var(--graphite); margin-top:5px; }
-.fk-card.dark .fk-p { color:rgba(255,255,255,0.62); }
-.fk-feats { display:flex; flex-direction:column; gap:8px; margin-top:13px; }
-.fk-feat { display:flex; gap:9px; align-items:flex-start; font-size:12px; font-weight:600; letter-spacing:-0.005em;
-  color:rgba(255,255,255,0.78); line-height:1.4; }
-.fk-feat b { font-weight:700; color:#fff; }
-/* la coche des cartes verrouillées (fiche gratuite), reprise telle quelle */
-.fk-check { color:#54D9A0; font-weight:800; font-size:13px; flex-shrink:0; margin-top:1px;
-  text-shadow:0 2px 10px rgba(43,193,130,0.30); }
-/* en-tête de carte : texte à gauche, visuel à droite */
-.fk-head { display:flex; align-items:flex-start; justify-content:space-between; gap:14px; }
-.fk-head-tx { min-width:0; flex:1; }
-/* carte claire : le packshot dans la tuile produit (vocabulaire alt-visual) */
-.fk-vis { width:58px; height:70px; border-radius:12px; flex-shrink:0;
-  background:linear-gradient(170deg,#E9EDF3 0%,#DDE3EB 100%);
-  box-shadow:inset 0 1px 2px rgba(255,255,255,0.8), inset 0 -4px 10px rgba(40,55,75,0.07);
-  display:flex; align-items:center; justify-content:center; }
-.fk-vis img { width:100%; height:100%; object-fit:contain; mix-blend-mode:multiply; transform:scale(1.06); }
-.fk-vis img.plate { mix-blend-mode:normal; transform:none; padding:8px; }
-/* carte sombre : médaillon silhouette (pas encore de photo à ce stade) + le produit en badge */
-.fk-vis-face { position:relative; width:64px; height:64px; flex-shrink:0; }
-.fvf-ph { position:relative; width:64px; height:64px; border-radius:50%; overflow:hidden;
-  background:linear-gradient(170deg,#E9EDF3 0%,#D5DBE4 100%);
-  box-shadow:0 10px 24px rgba(0,0,0,0.45), inset 0 0 0 1px rgba(255,255,255,0.4); }
-.fvf-ph img, .fvf-ph svg { width:100%; height:100%; object-fit:cover; display:block; }
-.fvf-ph::after { content:''; position:absolute; inset:0; border-radius:50%; pointer-events:none;
-  box-shadow:inset 0 2px 5px rgba(0,0,0,0.16), inset 0 -2px 4px rgba(255,255,255,0.22);
-  background:linear-gradient(145deg, rgba(255,255,255,0.30) 0%, rgba(255,255,255,0.06) 32%, rgba(255,255,255,0) 50%); }
-.fvf-prod { position:absolute; left:-9px; bottom:-5px; width:27px; height:27px; border-radius:9px;
-  background:linear-gradient(180deg,#FFFFFF,#EDF0F6); display:flex; align-items:center; justify-content:center;
-  box-shadow:0 5px 12px rgba(0,0,0,0.4), inset 0 1px 0 #fff; overflow:hidden; }
-.fvf-prod img { height:21px; width:auto; max-width:23px; object-fit:contain; }
-.fk-btn-light { margin-top:16px; width:100%; height:48px; border-radius:100px; cursor:pointer;
-  background:linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.7));
-  border:1px solid rgba(40,55,75,0.22); color:var(--ink);
-  font-family:var(--fd); font-weight:800; font-size:13.5px; letter-spacing:-0.01em;
-  box-shadow:inset 0 1px 0 rgba(255,255,255,0.95), 0 4px 12px rgba(40,55,75,0.10); }
-.fk-btn-light:focus-visible, .fk-btn-white:focus-visible { outline:2px solid var(--blue-d); outline-offset:3px; }
-/* CTA inversé de la carte sombre : bouton blanc, l'élément le plus visible de l'écran */
-.fk-btn-white { margin-top:16px; width:100%; height:48px; border:none; border-radius:100px; cursor:pointer;
+.fk-card.dark .fk-h .fk-h2 { color:#BCD6E6; }
+
+/* ── la demi-jauge de 03-result-free, au format carte ── */
+.fk-g { position:relative; width:88px; flex-shrink:0; }
+.fk-gauge { display:block; width:88px; height:auto; overflow:visible; }
+.fk-track { fill:none; stroke:#C7CFDD; stroke-width:9; stroke-linecap:round; }
+.fk-arc { fill:none; stroke-width:9; stroke-linecap:round; stroke-dasharray:226.2; stroke-dashoffset:226.2; }
+.fk-arc.good { stroke:url(#fk-gg-good); filter:drop-shadow(0 2px 5px rgba(43,193,130,0.38)); }
+.fk-arc.mid  { stroke:url(#fk-gg-mid);  filter:drop-shadow(0 2px 5px rgba(234,154,84,0.38)); }
+.fk-arc.bad  { stroke:url(#fk-gg-bad);  filter:drop-shadow(0 2px 5px rgba(224,102,87,0.38)); }
+.fk-score { position:absolute; left:0; right:0; bottom:1px; display:flex; align-items:baseline; justify-content:center; gap:2px; }
+.fk-num { font-weight:800; font-size:28px; letter-spacing:-1.2px; line-height:1; color:var(--space); }
+.fk-num.good { color:#189A66; } .fk-num.mid { color:#D9822B; } .fk-num.bad { color:#D8543F; }
+.fk-den { font-size:9px; font-weight:700; color:var(--space); }
+/* jauge perso : floutée, neutre — pas de couleur de verdict à deviner */
+.fk-g.blur { opacity:0.95; }
+.fk-g.blur .fk-gauge { filter:blur(4px); }
+.fk-g.blur .fk-track { stroke:rgba(255,255,255,0.20); }
+.fk-g.blur .fk-arc { stroke:url(#fk-gg-you); stroke-dashoffset:66.6; filter:blur(4px) drop-shadow(0 2px 8px rgba(188,214,230,0.55)); }
+.fk-g.blur .fk-score { filter:blur(6.5px); }
+.fk-g.blur .fk-num { color:#fff; }
+.fk-g.blur .fk-den { color:rgba(255,255,255,0.5); }
+
+.fk-feats { display:flex; flex-direction:column; gap:9px; }
+.fk-feat { display:flex; gap:7px; align-items:flex-start; font-size:11.5px; font-weight:600; line-height:1.35; color:var(--arsenic); }
+.fk-card.dark .fk-feat { color:rgba(255,255,255,0.86); }
+.fk-feat.off { color:var(--steel); }
+.fk-ic { flex-shrink:0; margin-top:2px; }
+.fk-logos { display:flex; align-items:center; gap:6px; }
+.fk-logos span { font-size:11.5px; font-weight:600; color:rgba(255,255,255,0.62); }
+.fk-logos svg { height:10px; width:auto; display:block; flex-shrink:0; }
+.fk-logos img { height:11px; width:auto; display:block; flex-shrink:0; filter:brightness(0) invert(1); }
+
+.fk-btn-light { width:100%; height:44px; border-radius:100px; cursor:pointer;
+  background:rgba(255,255,255,0.34); border:1.5px solid rgba(40,55,75,0.26); color:var(--ink);
+  font-family:var(--fd); font-weight:800; font-size:12.5px; letter-spacing:-0.01em; }
+.fk-btn-white { width:100%; height:46px; border:none; border-radius:100px; cursor:pointer;
   background:linear-gradient(180deg, #FFFFFF, #E9EDF4); color:var(--ink);
-  font-family:var(--fd); font-weight:800; font-size:13.5px; letter-spacing:-0.01em;
+  font-family:var(--fd); font-weight:800; font-size:12.5px; letter-spacing:-0.01em;
   box-shadow:0 8px 20px rgba(0,0,0,0.35), inset 0 1px 0 #fff; }
-.fk-note { font-size:10px; color:var(--space); text-align:center; margin-top:9px; letter-spacing:0.01em; }
-.fk-card.dark .fk-note { color:rgba(255,255,255,0.5); }
-.fk-foot { font-size:11px; color:var(--space); text-align:center; padding:0 24px; line-height:1.5; }
+.fk-btn-light:focus-visible, .fk-btn-white:focus-visible { outline:2px solid var(--blue-d); outline-offset:3px; }
+
+/* « une fois pour toutes » : le bandeau vit DANS la carte sombre, à sa couleur */
+.fk-once { display:flex; align-items:center; gap:10px; padding:10px 11px; border-radius:14px;
+  background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.11); }
+.fk-once-ic { width:32px; height:32px; border-radius:10px; flex-shrink:0;
+  background:rgba(255,255,255,0.09); border:1px solid rgba(255,255,255,0.15);
+  display:flex; align-items:center; justify-content:center; color:rgba(255,255,255,0.85); }
+.fk-once p { font-size:11px; line-height:1.42; color:rgba(255,255,255,0.60); }
+.fk-once b { color:rgba(255,255,255,0.92); font-weight:700; }
 
 @keyframes fadeUp { from { opacity:0; transform:translateY(12px); } to { opacity:1; transform:none; } }
 .fk-wrap > * { animation:fadeUp .5s cubic-bezier(.22,1,.36,1) both; }
 .fk-wrap > *:nth-child(2) { animation-delay:.06s; }
-.fk-wrap > *:nth-child(3) { animation-delay:.1s; }
-.fk-wrap > *:nth-child(4) { animation-delay:.16s; }
-.fk-wrap > *:nth-child(5) { animation-delay:.24s; }
-.fk-wrap > *:nth-child(6) { animation-delay:.3s; }
+.fk-wrap > *:nth-child(3) { animation-delay:.12s; }
+.fk-wrap > *:nth-child(4) { animation-delay:.2s; }
 @media (prefers-reduced-motion: reduce) { .fk-wrap > * { animation:none; } }
 
   </style>
@@ -107,6 +116,13 @@
     <div class="nav-spacer"></div>
   </div>
 
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+    <linearGradient id="fk-gg-good" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7ED3A6"></stop><stop offset="1" stop-color="#2BC182"></stop></linearGradient>
+    <linearGradient id="fk-gg-mid" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F2C083"></stop><stop offset="1" stop-color="#EA9A54"></stop></linearGradient>
+    <linearGradient id="fk-gg-bad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EE9C90"></stop><stop offset="1" stop-color="#E06657"></stop></linearGradient>
+    <linearGradient id="fk-gg-you" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A6C3D6"></stop><stop offset="1" stop-color="#FFFFFF"></stop></linearGradient>
+  </defs></svg>
+
   <div class="fk-wrap">
     <div class="fk-done">
       <div class="fk-thumb"><img id="fk-img" src="packshot-neutre.png" alt=""></div>
@@ -117,47 +133,56 @@
     </div>
 
     <h1 class="fk-title">Your result is&nbsp;ready.</h1>
-    <p class="fk-sub" style="margin-top:-4px">Two ways to read this product &mdash; pick yours.</p>
 
     <div class="fk-card">
-      <div class="fk-head">
-        <div class="fk-head-tx">
-          <h2 class="fk-h" style="margin-top:0">How good is this product?</h2>
+      <div class="fk-body">
+        <div class="fk-g">
+          <svg class="fk-gauge" viewBox="0 0 170 93" aria-hidden="true">
+            <path class="fk-track" d="M13 88 A72 72 0 0 1 157 88"></path>
+            <path class="fk-arc" id="fk-arc" d="M13 88 A72 72 0 0 1 157 88"></path>
+          </svg>
+          <div class="fk-score"><span class="fk-num" id="fk-num">&ndash;</span><span class="fk-den">/100</span></div>
         </div>
-        <div class="fk-vis"><img id="fk-vis-img" src="packshot-neutre.png" alt=""></div>
+        <div class="fk-col">
+          <h2 class="fk-h">The product&rsquo;s score<br><span class="fk-h2">based on the formula</span></h2>
+          <div class="fk-feats">
+            <div class="fk-feat"><svg class="fk-ic" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#189A66" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span>Every ingredient decoded</span></div>
+            <div class="fk-feat"><svg class="fk-ic" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#189A66" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span>Actives, irritants and red flags</span></div>
+            <div class="fk-feat off"><svg class="fk-ic" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#C3C6D2" stroke-width="2.2" stroke-linecap="round"><path d="M2.5 6h7"></path></svg><span>Nothing about your skin</span></div>
+          </div>
+        </div>
       </div>
-      <p class="fk-p">One score for the formula itself &mdash; actives, irritants, the full ingredient list decoded.</p>
-      <button type="button" class="fk-btn-light" id="fk-free">See the score</button>
+      <button type="button" class="fk-btn-light" id="fk-free">See this score</button>
     </div>
 
     <div class="fk-card dark">
-      <div class="fk-head">
-        <div class="fk-head-tx">
-          <span class="fk-k dark">Personalized &middot; 2 minutes</span>
-          <h2 class="fk-h">How good is it for <em style="font-style:normal; color:#BCD6E6">your</em> skin?</h2>
+      <div class="fk-body">
+        <div class="fk-g blur">
+          <svg class="fk-gauge" viewBox="0 0 170 93" aria-hidden="true">
+            <path class="fk-track" d="M13 88 A72 72 0 0 1 157 88"></path>
+            <path class="fk-arc" d="M13 88 A72 72 0 0 1 157 88"></path>
+          </svg>
+          <div class="fk-score"><span class="fk-num">84</span><span class="fk-den">/100</span></div>
         </div>
-        <div class="fk-vis-face">
-          <div class="fvf-ph">
-            <!-- silhouette neutre : à ce stade du parcours on n'a PAS encore la photo de l'utilisateur -->
-            <svg viewBox="0 0 64 64" aria-hidden="true">
-              <circle cx="32" cy="25" r="11" fill="none" stroke="#9DA2B3" stroke-width="2.4"></circle>
-              <path d="M12 56c3.5-11 11-16.5 20-16.5S60.5 45 64 56" fill="none" stroke="#9DA2B3" stroke-width="2.4" stroke-linecap="round"></path>
-            </svg>
+        <div class="fk-col">
+          <h2 class="fk-h">The product&rsquo;s score<br><span class="fk-h2">tailored for your skin</span></h2>
+          <div class="fk-feats">
+            <div class="fk-feat"><svg class="fk-ic" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#54D9A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span>Every ingredient, scored for you</span></div>
+            <div class="fk-feat"><svg class="fk-ic" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#54D9A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span>Tells you if you should buy it (or not)</span></div>
+            <div class="fk-feat"><svg class="fk-ic" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#54D9A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span>Recommendations on how to use it</span></div>
+            <div class="fk-feat"><svg class="fk-ic" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#54D9A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span>Better alternatives for your skin</span></div>
+            <div class="fk-feat"><svg class="fk-ic" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#54D9A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="margin-top:0"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span style="display:flex; flex-direction:column; gap:5px;"><span>AI Smart Reviews<span style="font-size:7px; vertical-align:super;">&reg;</span></span><span class="fk-logos"><span>with</span><img src="amazon.svg" alt="Amazon"><span>and</span><img src="ulta.png" alt="Ulta Beauty"></span></span></div>
           </div>
-          <div class="fvf-prod"><img id="fk-badge-img" src="packshot-neutre.png" alt=""></div>
         </div>
       </div>
-      <p class="fk-p">The same product, re-scored on your skin &mdash; type, sensitivities, and what you already use.</p>
-      <div class="fk-feats">
-        <div class="fk-feat"><span class="fk-check">✓</span> <span>The same product can score <b>84 on one skin &mdash; 47 on another</b></span></div>
-        <div class="fk-feat"><span class="fk-check">✓</span> <span>Every ingredient judged <b>for your skin</b> &mdash; not in general</span></div>
-        <div class="fk-feat"><span class="fk-check">✓</span> <span>Not right for you? <b>We name what to use instead</b></span></div>
+      <button type="button" class="fk-btn-white" id="fk-perso">Score it for my skin</button>
+      <div class="fk-once">
+        <div class="fk-once-ic">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6V3.6A1.6 1.6 0 0 1 3.6 2H6M12 2h2.4A1.6 1.6 0 0 1 16 3.6V6M16 12v2.4a1.6 1.6 0 0 1-1.6 1.6H12M6 16H3.6A1.6 1.6 0 0 1 2 14.4V12"></path><path d="M6.6 6.9v1.3M11.4 6.9v1.3M9.4 6.9v2.5a.7.7 0 0 1-.7.7M6.7 11.5c1.5 1.1 3.1 1.1 4.6 0"></path></svg>
+        </div>
+        <p>Answer once &mdash; <b>7 questions + a face scan</b>. Every product you scan afterwards is scored for your skin.</p>
       </div>
-      <button type="button" class="fk-btn-white" id="fk-perso">Analyze for my skin</button>
-      <p class="fk-note">7 quick questions + 1 selfie &middot; 7-day free trial</p>
     </div>
-
-    <p class="fk-foot">You can switch any time &mdash; scanning products stays free forever.</p>
   </div>
 </div>
 
@@ -186,9 +211,24 @@
     'font-weight="700" fill="#B4BBC7">INCI</text></svg>');
 
   var img = document.getElementById("fk-img");
-  var visImg = document.getElementById("fk-vis-img");
-  var badgeImg = document.getElementById("fk-badge-img");
   var doneP = document.getElementById("fk-done-p");
+  var arc = document.getElementById("fk-arc");
+  var num = document.getElementById("fk-num");
+
+  // Mêmes bandes que partout ailleurs dans l'app (03, 06, 11…).
+  function teinte(n) { return n >= 75 ? "good" : n >= 45 ? "mid" : "bad"; }
+
+  // La jauge de la carte claire porte la VRAIE note de formule, pas un chiffre
+  // de maquette : sans note (produit non notable, réseau en panne), elle reste
+  // vide et le chiffre reste « – ».
+  var L = 226.2;
+  function jauge(score) {
+    if (typeof score !== "number" || !isFinite(score)) return;
+    arc.setAttribute("class", "fk-arc " + teinte(score));
+    arc.style.strokeDashoffset = (L - (L - 36.2) * score / 100).toFixed(1);
+    num.textContent = score;
+    num.className = "fk-num " + teinte(score);
+  }
 
   // Fil du produit pour le tunnel visage : la pastille « waiting for its verdict »
   // du questionnaire (19) lit ce paquet, et 21-analyse referme la boucle sur
@@ -200,12 +240,8 @@
     attente.nom = nom || "Your product";
     attente.image = image || null;
     attente.suite = suite;
-    if (image) { img.src = image; visImg.src = image; badgeImg.src = image; }
-    else {
-      img.src = SILHOUETTE; img.style.mixBlendMode = "normal";
-      visImg.src = SILHOUETTE; visImg.className = "plate";
-      badgeImg.src = SILHOUETTE; badgeImg.style.mixBlendMode = "normal";
-    }
+    if (image) { img.src = image; }
+    else { img.src = SILHOUETTE; img.style.mixBlendMode = "normal"; }
     try { sessionStorage.setItem("ss-produit-attente", JSON.stringify(attente)); } catch(e) {}
   }
 
@@ -215,25 +251,28 @@
     var n = (depuisEtiquette.lecture && depuisEtiquette.lecture.nbIngredients) ||
             (depuisEtiquette.score && depuisEtiquette.score.formule && depuisEtiquette.score.formule.nIngredients) || 0;
     montrer(depuisEtiquette.produit.nom, depuisEtiquette.produit.image, n);
+    if (depuisEtiquette.score && depuisEtiquette.score.formule) jauge(depuisEtiquette.score.formule.score);
   } else {
     montrer(key, null, 0);
-    // la fiche publique (réponse dégradée) donne l'image officielle + le nombre d'ingrédients
+    // la fiche publique (réponse dégradée) donne l'image officielle, le nombre
+    // d'ingrédients et la note de formule
     fetch("/api/produit/fiche?q=" + encodeURIComponent(key))
       .then(function(r){ return r.json(); })
       .then(function(d){
         if (!d || !d.produit) return;
-        var n = d.score && d.score.formule && d.score.formule.nIngredients;
-        montrer(d.produit.nom, d.produit.image, n || 0);
+        var f = d.score && d.score.formule;
+        montrer(d.produit.nom, d.produit.image, (f && f.nIngredients) || 0);
+        if (f) jauge(f.score);
       })
       .catch(function(){});
   }
 
-  // « How good is this product? » → fiche gratuite, même query.
+  // « See this score » → fiche gratuite, même query.
   document.getElementById("fk-free").addEventListener("click", function(){
     location.href = "03-result-free.html" + suite;
   });
 
-  // « Analyze for my skin » → le tunnel visage commence AUX QUESTIONS (la promesse
+  // « Score it for my skin » → le tunnel visage commence AUX QUESTIONS (la promesse
   // est absorbée par cette carte — décision du 30/08). Tunnel frais : on purge les
   // restes d'un passage précédent. Exception « retour direct paywall sans re-quiz » :
   // un tunnel déjà complété dans la session (réponses + photo) saute au paywall.
