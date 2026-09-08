@@ -254,9 +254,7 @@ body.demo .demo-chip { display:block; }
              V2 : un premium file droit sur sa fiche ; les autres passent par la fourche (02). */
           try { sessionStorage.setItem('ss-inci-resultat', JSON.stringify(d)); } catch(e) {}
           if (!window.SS) { location.href = '02-fork.html?source=inci'; return; }
-          SS.moi().then(function(m){
-            location.href = (m.premium ? '06-result-premium.html' : '02-fork.html') + '?source=inci';
-          });
+          SS.apresScan('?source=inci');
           return;
         }
         voile.hidden = true;

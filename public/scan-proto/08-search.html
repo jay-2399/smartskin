@@ -750,13 +750,11 @@ input[type=search]::-webkit-search-cancel-button { -webkit-appearance:none; }
       }).join("");
       res.querySelectorAll(".hist").forEach(function(el){
         el.onclick = function(){
-          // V2 : même fourche que 07 — premium droit sur sa fiche, sinon 02-fork.
+          // V2 : même routage que 07 (SS.apresScan) — premium droit sur sa fiche,
           try { sessionStorage.setItem("ss-scan-produit", el.dataset.nom); } catch(e) {}
           var suite = "?p=" + encodeURIComponent(el.dataset.nom);
           if (!window.SS) { location.href = "02-fork.html" + suite; return; }
-          SS.moi().then(function(m){
-            location.href = (m.premium ? "06-result-premium.html" : "02-fork.html") + suite;
-          });
+          SS.apresScan(suite);
         };
       });
     });

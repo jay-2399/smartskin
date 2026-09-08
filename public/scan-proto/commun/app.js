@@ -949,5 +949,26 @@
     SS.track("screen_viewed", p);
   };
 
+  /* APRÈS UN SCAN — vers quel écran on envoie.
+     Un premium va droit à sa fiche. Les autres passent par la fourche (02),
+     mais pas à chaque scan : elle ne se justifie qu'au premier, puis tous les
+     PERIODE_FOURCHE. Entre-temps la fiche gratuite porte déjà les appels à
+     l'abonnement (carte verrouillée, alternatives), et remettre un péage devant
+     chaque scan use plus qu'il ne convertit.
+     Compteur en localStorage : il doit survivre à la fermeture de l'app. */
+  var PERIODE_FOURCHE = 10;
+  SS.apresScan = function (suite) {
+    var q = suite || "";
+    return SS.moi().then(function (m) {
+      if (m.premium) { location.href = "06-result-premium.html" + q; return; }
+      var n = 0;
+      try { n = parseInt(localStorage.getItem("ss-nb-scans") || "0", 10) || 0; } catch (e) {}
+      try { localStorage.setItem("ss-nb-scans", String(n + 1)); } catch (e) {}
+      var fourche = n % PERIODE_FOURCHE === 0;
+      SS.track("scan_routage", { rang: n + 1, ecran: fourche ? "fork" : "fiche" });
+      location.href = (fourche ? "02-fork.html" : "03-result-free.html") + q;
+    });
+  };
+
   window.SS = SS;
 })();

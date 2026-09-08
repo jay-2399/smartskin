@@ -906,9 +906,7 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; overscroll-be
     try { sessionStorage.setItem('ss-scan-produit', q); } catch(e) {}
     var suite = '?p=' + encodeURIComponent(q);
     if (!window.SS) { location.href = '02-fork.html' + suite; return; }
-    SS.moi().then(function(m) {
-      location.href = (m.premium ? '06-result-premium.html' : '02-fork.html') + suite;
-    });
+    SS.apresScan(suite);
   });
 
   if (!photo) {
