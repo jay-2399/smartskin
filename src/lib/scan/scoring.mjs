@@ -136,7 +136,7 @@ export const CONFIG = {
     // passé en `prerequis` : son absence coûte, sa présence ne rapporte rien.
     cleanser: {
       label: "cleanser", metier: "clean without stripping the barrier", severite: 1.0, exposition: 0.55,
-      prerequis: [{ id: "douceur", quoi: "@tensioDoux", pts: 12, dit: "no gentle cleansing agent" }],
+      prerequis: [{ id: "douceur", quoi: "@douceur", pts: 12, dit: "no gentle cleansing agent" }],
       merites: [
         { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },        // 48 %
         { id: "profondeur", quoi: "tensioactif-doux", maxPos: 12, pts: 5, plafond: 12, pondere: true, dit: "gentle surfactants throughout" },
@@ -150,7 +150,9 @@ export const CONFIG = {
     },
     "makeup-remover": {
       label: "makeup remover", metier: "dissolve makeup and rinse clean", severite: 1.2, exposition: 0.5,
-      prerequis: [{ id: "dissout", quoi: ["emollient", "occlusif", "tensioactif-doux"], pts: 12, dit: "nothing here dissolves makeup" }],
+      // les tensioactifs non ioniques des eaux micellaires sont aussi des émulsifiants : c'est
+      // bien eux qui dissolvent le maquillage (audit du 7/09, B6)
+      prerequis: [{ id: "dissout", quoi: ["emollient", "occlusif", "tensioactif-doux", "emulsifiant"], pts: 12, dit: "nothing here dissolves makeup" }],
       merites: [
         { id: "sansParfum", quoi: "@sansParfum", pts: 14, dit: "no fragrance — it works near the eyes" },
         { id: "rincable", quoi: "emulsifiant", pts: 10, plafond: 10, dit: "rinses off cleanly" },
@@ -166,8 +168,8 @@ export const CONFIG = {
         { id: "concentre", quoi: "@actifTop5", pts: 16, dit: "a well-evidenced active high in the list" },  // 39 %
         { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },                            // 63 %
         { id: "richesse", quoi: "@actifs", pts: 2.2, plafond: 16, pondere: true, dit: "a deep active list" },
-        { id: "antiox", quoi: "antioxydant", pts: 6, plafond: 6, dit: "antioxidant support" },
-        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, dit: "barrier lipids" },              // 37 %
+        { id: "antiox", quoi: "antioxydant", pts: 6, plafond: 6, pondere: true, dit: "antioxidant support" },
+        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, pondere: true, dit: "barrier lipids" },              // 37 %
       ],
       penalites: [],
     },
@@ -178,7 +180,7 @@ export const CONFIG = {
         { id: "concentre", quoi: "@actifTop5", pts: 18, dit: "a well-evidenced active high in the list" },
         { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },
         { id: "richesse", quoi: "@actifs", pts: 2.2, plafond: 16, pondere: true, dit: "a deep active list" },
-        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, dit: "barrier lipids to offset the actives" },
+        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, pondere: true, dit: "barrier lipids to offset the actives" },
       ],
       penalites: [],
     },
@@ -189,7 +191,7 @@ export const CONFIG = {
         { id: "lipides", quoi: "lipide-barriere", pondere: true, pts: 16, plafond: 16, dit: "barrier lipids — rebuilds, not just coats" },  // 47 %
         { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },                            // 65 %
         { id: "occlusif", quoi: "occlusif", pondere: true, pts: 10, plafond: 10, dit: "seals the water in" }, // 74 %
-        { id: "antiox", quoi: "antioxydant", pts: 6, plafond: 6, dit: "antioxidant support" },
+        { id: "antiox", quoi: "antioxydant", pts: 6, plafond: 6, pondere: true, dit: "antioxidant support" },
         { id: "actifs", quoi: "@actifs", pts: 2, plafond: 10, pondere: true, dit: "useful actives" },
       ],
       penalites: [],
@@ -215,8 +217,9 @@ export const CONFIG = {
         { id: "spectre", quoi: "@spectreLarge", pts: 18, dit: "broad spectrum — UVA and UVB" },   // 75 %
         { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },                  // 60 %
         { id: "traite", quoi: "@actifTop5", pts: 10, dit: "it treats the skin as well as shields it" },
-        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, dit: "barrier lipids" },    // 30 %
-        { id: "actifs", quoi: "@actifs", pts: 1.5, plafond: 8, pondere: true, dit: "skincare actives" },
+        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, pondere: true, dit: "barrier lipids" },    // 30 %
+        // plafond 8 → 4 : les filtres occupent le top 5, la ligne n'était jamais remplissable (audit du 7/09, B1)
+        { id: "actifs", quoi: "@actifs", pts: 1.5, plafond: 4, pondere: true, dit: "skincare actives" },
       ],
       penalites: [],
     },
@@ -237,8 +240,8 @@ export const CONFIG = {
       merites: [
         { id: "sansParfum", quoi: "@sansParfum", pts: 14, dit: "no fragrance" },                  // 54 %
         { id: "concentre", quoi: "@actifTop5", pts: 12, dit: "a well-evidenced active high in the list" },  // 34 %
-        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, dit: "barrier lipids" },    // 33 %
-        { id: "antiox", quoi: "antioxydant", pts: 8, plafond: 8, dit: "antioxidant support" },    // 44 %
+        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, pondere: true, dit: "barrier lipids" },    // 33 %
+        { id: "antiox", quoi: "antioxydant", pts: 8, plafond: 8, pondere: true, dit: "antioxidant support" },    // 44 %
         { id: "actifs", quoi: "@actifs", pts: 2, plafond: 10, pondere: true, dit: "useful actives" },
       ],
       penalites: [],
@@ -258,7 +261,8 @@ export const CONFIG = {
       label: "product", metier: "care for the skin", severite: 1.0,
       prerequis: [],
       merites: [
-        { id: "actifs", quoi: "@actifs", pts: 2.5, plafond: 20, pondere: true, dit: "proven actives" },
+        // plafond 20 → 14 : la grille du scan à catégorie incertaine était la plus généreuse de toutes (audit du 7/09, B4)
+        { id: "actifs", quoi: "@actifs", pts: 2.5, plafond: 14, pondere: true, dit: "proven actives" },
         { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },
         { id: "soutien", quoi: ["humectant", "emollient", "occlusif", "lipide-barriere"], parType: true, pondere: true, pts: 5, plafond: 16, dit: "well-rounded base" },
       ],
@@ -377,10 +381,21 @@ const PREDICATS = {
   // actif à PREUVES FORTES haut dans la liste = le vrai signal de concentration (39 % des sérums)
   "@actifTop5": (ctx) => ctx.list.some((it) => it.pos <= 5 && it.fiche?.role === "active" &&
                                                (it.fiche.benefitPower || 0) >= 3) ? 1 : 0,
-  // l'avobenzone se dégrade au soleil si rien ne la stabilise : défaut de formulation réel
+  // l'avobenzone se dégrade au soleil si rien ne la stabilise : défaut de formulation réel.
+  // Les stabilisants sont lus par leur fonction (fonctions.mjs), pas par des noms commerciaux
+  // (« Tinosorb », « bemotrizinol ») qui n'apparaissent jamais dans une INCI — audit du 7/09, B1.
   "@photostable": (ctx) => (!ctx.list.some((it) => /AVOBENZONE|METHOXYDIBENZOYLMETHANE/.test(it.name))
-    || ctx.list.some((it) => /OCTOCRYLENE|TINOSORB|BEMOTRIZINOL|BISOCTRIZOLE|POLYSILICONE-15|DIETHYLHEXYL/.test(it.name))) ? 1 : 0,
-  "@filtresUV": (ctx) => (ctx.aFonction("filtre-uva") || ctx.aFonction("filtre-uvb")) ? 1 : 0,
+    || ctx.aFonction("stabilisant-avobenzone")) ? 1 : 0,
+  // Un solaire dont le catalogue atteste les filtres (drapeau posé à la catégorisation) n'est pas
+  // « sans filtre » parce que sa liste US a perdu sa section « Active ingredients ». Solaires
+  // seulement : hors solaire, ce drapeau ne vaut pas preuve (B4).
+  "@filtresUV": (ctx) => (ctx.aFonction("filtre-uva") || ctx.aFonction("filtre-uvb") || (ctx.cat === "sunscreen" && ctx.filtresUV)) ? 1 : 0,
+  // La douceur d'un nettoyant n'est pas la présence d'un tensioactif : un lait ou une crème
+  // lavante sans agent lavant est la forme la plus douce qui existe (audit du 7/09, B6). Le
+  // prérequis sanctionne « un système lavant agressif sans rien de doux ».
+  "@douceur": (ctx) => (ctx.aFonction("tensioactif-doux") ||
+    ((ctx.aFonction("emollient") || ctx.aFonction("emulsifiant") || ctx.aFonction("occlusif")) &&
+      !ctx.aFonction("tensioactif-agressif") && !PREDICATS["@savon"](ctx))) ? 1 : 0,
   "@troisActifs": (ctx) => ctx.list.filter((it) => it.fiche?.role === "active" && it.fiche.benefits?.length).length >= 3 ? 1 : 0,
   "@humectant": (ctx) => ctx.aFonction("humectant") ? 1 : 0,
   "@tensioDoux": (ctx) => ctx.aFonction("tensioactif-doux") ? 1 : 0,
@@ -447,7 +462,7 @@ export function scoreFormule(inci, categorie, filtresUV) {
   const parfumLignes = [], details = [];
 
   const ctx = {
-    list, barre, w: (it) => wPos(it, barre),
+    list, barre, w: (it) => wPos(it, barre), cat: categorie, filtresUV: !!filtresUV,
     aFonction: (f) => list.some((it) => (it.fiche?.fonctions || []).includes(f)),
   };
 
