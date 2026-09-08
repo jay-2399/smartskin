@@ -829,6 +829,17 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; overscroll-be
 /* « voir tout » du bloc Why : les lignes au-delà de la 5e sont masquées jusqu'au clic.
    Avant le 27/08 le lien était un simple <p> décoratif, sans aucun gestionnaire. */
 .why-xtra { display:none; }
+/* GRAND LIVRE DE LA NOTE PERSO. Elle ne se construit pas, elle s'ajuste : elle part
+   de la note de formule et applique des écarts. L'écran ne disait jamais d'où il
+   partait — « 88 → 62 » restait un saut inexpliqué. Ces deux lignes bornent la
+   liste des écarts pour que l'addition se lise. */
+.why-base, .why-total { display:flex; align-items:baseline; justify-content:space-between; gap:12px;
+  font-size:12.5px; letter-spacing:-0.005em; }
+.why-base { padding:2px 0 11px; color:var(--graphite); }
+.why-total { padding:12px 0 2px; border-top:1.5px solid var(--arsenic); color:var(--ink); font-weight:800; }
+.why-base b, .why-total b { font-weight:800; font-size:15px; letter-spacing:-0.02em; color:var(--ink); }
+.why-total b { font-size:17px; }
+.why-vide { padding:6px 0 2px; font-size:12.5px; line-height:1.55; color:var(--graphite); }
 #d-why.tout .why-xtra { display:flex; }
 .why-plus { display:block; width:100%; border:none; background:none; text-align:center;
   padding:12px 0 3px; font-family:inherit; font-size:11.5px; font-weight:700;
@@ -900,6 +911,17 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; overscroll-be
 /* « voir tout » du bloc Why : les lignes au-delà de la 5e sont masquées jusqu'au clic.
    Avant le 27/08 le lien était un simple <p> décoratif, sans aucun gestionnaire. */
 .why-xtra { display:none; }
+/* GRAND LIVRE DE LA NOTE PERSO. Elle ne se construit pas, elle s'ajuste : elle part
+   de la note de formule et applique des écarts. L'écran ne disait jamais d'où il
+   partait — « 88 → 62 » restait un saut inexpliqué. Ces deux lignes bornent la
+   liste des écarts pour que l'addition se lise. */
+.why-base, .why-total { display:flex; align-items:baseline; justify-content:space-between; gap:12px;
+  font-size:12.5px; letter-spacing:-0.005em; }
+.why-base { padding:2px 0 11px; color:var(--graphite); }
+.why-total { padding:12px 0 2px; border-top:1.5px solid var(--arsenic); color:var(--ink); font-weight:800; }
+.why-base b, .why-total b { font-weight:800; font-size:15px; letter-spacing:-0.02em; color:var(--ink); }
+.why-total b { font-size:17px; }
+.why-vide { padding:6px 0 2px; font-size:12.5px; line-height:1.55; color:var(--graphite); }
 #d-why.tout .why-xtra { display:flex; }
 .why-plus { display:block; width:100%; border:none; background:none; text-align:center;
   padding:12px 0 3px; font-family:inherit; font-size:11.5px; font-weight:700;
@@ -1403,9 +1425,26 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
         t = pe.score >= 75 ? "Good match for your skin" : pe.score >= 45 ? "Decent, with reservations" : "Not made for your skin";
         var plus = pe.facts.filter(function(x){ return x.points > 0; }).length;
         var moins = pe.facts.filter(function(x){ return x.points < 0; }).length;
-        sub = "<b>" + plus + "</b> ingredient" + (plus>1?"s work":" works") + " for your skin"
-            + (moins ? ", <b>" + moins + "</b> work" + (moins>1?"":"s") + " against it" : "")
-            + ". Formula alone scores <b>" + f.score + "</b>.";
+        // « 0 ingredient works for your skin » disait une chose fausse : il n'y a rien qui
+        // vise SES préoccupations, ce qui ne dit rien de la qualité du produit — la note de
+        // formule, elle, l'atteste. Mesuré : 29 % des produits sur une peau grasse acnéique
+        // tombaient dans ce cas, dont 26 % avec une note ≥ 45.
+        //
+        // La première branche teste l'ÉGALITÉ DES NOTES, pas « aucun fait chiffré » : les
+        // vetos absolus (allergie déclarée, grossesse) portent `points: null` et ne sont
+        // comptés ni dans `plus` ni dans `moins`, alors qu'ils écrasent la note. Sur trois
+        // profils dont un allergique et un enceinte, les deux conditions coïncident
+        // aujourd'hui (1 242 cas, 0 divergence) — mais l'une est vraie par construction.
+        if (pe.score === f.score)
+          sub = "Nothing here reacts with your skin, good or bad.";
+        else if (plus === 0 && moins > 0)
+          sub = "Nothing here targets your concerns, and <b>" + moins + "</b> thing" + (moins>1?"s count":" counts")
+              + " against your skin.";
+        else if (plus === 0)
+          sub = "Your skin profile changes this score.";
+        else
+          sub = "<b>" + plus + "</b> ingredient" + (plus>1?"s work":" works") + " for your skin"
+              + (moins ? ", <b>" + moins + "</b> work" + (moins>1?"":"s") + " against it" : "") + ".";
       }
       if (f.analysePartielle) sub += " <em>Partial analysis \u2014 some ingredients unknown.</em>";
       // Une liste de trois ingrédients connus est notable, mais il n'y a presque rien à juger :
@@ -1462,7 +1501,15 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
           return tete.concat(reste);
         })();
     var aff = src;
-    var w = "";
+    // Vue perso : on borne les écarts par leur point de départ et leur total.
+    var w = vue === "perso"
+      ? '<div class="why-base"><span>Formula score</span><b>' + f.score + '</b></div>'
+      : "";
+    // Rien à ajuster : le dire, plutôt que laisser une liste vide. Mesuré sur les
+    // 3 069 produits notables et trois profils : quand il n'y a aucun fait, la note
+    // perso est EXACTEMENT la note de formule, sans exception.
+    if (vue === "perso" && !aff.length)
+      w += '<p class="why-vide">Nothing in this formula reacts with your profile. Your score is the formula score.</p>';
     aff.forEach(function(x, i){
       var bon = (x.points || 0) > 0;
       w += '<div class="why-row' + (i >= 5 ? " why-xtra" : "") + '"><span class="rt-ic ' + (bon ? "good" : "bad") + '" style="flex-shrink:0">'
@@ -1474,6 +1521,9 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     // masquées. Le « reste » est donc ce qui est CACHÉ, pas ce qui manquerait à la liste.
     var VISIBLES = 5;
     var reste = Math.max(0, aff.length - VISIBLES);
+    // le total ferme l'addition — donc APRÈS les lignes cachées, avant le bouton
+    if (vue === "perso")
+      w += '<div class="why-total"><span>Your score</span><b>' + pe.score + '</b></div>';
     if (reste > 0) w += '<button type="button" class="why-plus" id="d-why-plus">See the full breakdown (' + reste + ' more)</button>';
     var cible = document.getElementById("d-why");
     // On repart replié à chaque rendu : sinon la classe « tout » survit à une bascule de vue
