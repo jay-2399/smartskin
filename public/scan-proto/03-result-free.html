@@ -318,6 +318,61 @@
 .sug-tx i:nth-child(2) { height:8px; width:58%; background:rgba(40,55,75,0.10); }
 .sug-sc { width:34px; height:22px; border-radius:6px; flex-shrink:0; background:rgba(24,154,102,0.20); }
 
+
+/* ═══ AI SMART REVIEWS, version gratuite ═══
+   Même place que sur la fiche premium : juste après le hero. Replié par défaut ; la
+   flèche ouvre un contenu verrouillé, titres NETS pour qu'on sache ce qu'on rate.
+   Les deux blocs personnels n'ont PAS de texte flouté mais des barres : sans profil,
+   `pourProfil` (avis.ts) ne peut pas choisir la phrase — il en existe une par type de
+   peau, et on ne sait pas laquelle est la sienne. Flouter un texte inventé serait
+   mentir ; flouter un vrai texte le livrerait à qui ouvre l'inspecteur. */
+.fav { margin-top:16px; }
+.fav-card { margin-top:8px; border-radius:20px; padding:16px; overflow:hidden;
+  background:var(--glass-bg); border:1px solid var(--glass-line); box-shadow:var(--glass-shadow); }
+.fav-head { display:flex; align-items:center; gap:14px; cursor:pointer; -webkit-tap-highlight-color:transparent; }
+.fav-note { font-weight:800; font-size:38px; letter-spacing:-2px; line-height:1; color:var(--ink); }
+.fav-meta { flex:1; min-width:0; }
+.fav-star { color:#E8A33D; font-size:14px; letter-spacing:2px; }
+.fav-nb { font-size:11.5px; color:var(--graphite); margin-top:2px; }
+.fav-nb b { color:var(--ink); font-weight:700; }
+.fav-src { display:flex; align-items:center; gap:6px; font-size:10px; color:var(--space); flex-shrink:0; }
+.fav-src img { height:11px; width:auto; display:block; }
+.fav-chev { width:34px; height:34px; border-radius:50%; flex-shrink:0; background:rgba(255,255,255,0.8);
+  border:1px solid var(--cloud); display:flex; align-items:center; justify-content:center;
+  color:var(--arsenic); transition:transform .3s cubic-bezier(.22,1,.36,1); }
+.fav-t { position:absolute; opacity:0; pointer-events:none; }
+.fav-t:checked ~ .fav-card .fav-chev { transform:rotate(180deg); }
+.fav-corps { display:none; margin-top:14px; flex-direction:column; gap:12px; position:relative; }
+.fav-t:checked ~ .fav-card .fav-corps { display:flex; }
+.fav-k { display:block; font-size:8.5px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:var(--space); }
+.fav-toi { border-radius:14px; padding:13px 14px;
+  background:linear-gradient(180deg, rgba(166,195,214,.20), rgba(166,195,214,.09));
+  border:1px solid rgba(166,195,214,.35); }
+.fav-toi .fav-k { color:var(--blue-d); }
+.fav-pb { border-radius:14px; padding:13px 14px; background:rgba(255,255,255,0.6); border:1px solid var(--cloud); }
+/* barres : la place d'un texte qui n'existe pas encore */
+.fav-barres { display:flex; flex-direction:column; gap:7px; margin-top:9px; }
+.fav-barres i { display:block; height:9px; border-radius:5px; background:rgba(40,55,75,0.13); }
+.fav-barres i:nth-child(2) { width:94%; }
+.fav-barres i:nth-child(3) { width:62%; background:rgba(40,55,75,0.09); }
+.fav-a { display:flex; align-items:center; gap:9px; font-size:12.5px; color:var(--arsenic);
+  padding:9px 0; border-top:1px solid var(--cloud); }
+.fav-a:first-of-type { border-top:none; }
+.fav-ic { width:19px; height:19px; border-radius:50%; flex-shrink:0; display:flex; align-items:center;
+  justify-content:center; font-size:10px; font-weight:800; }
+.fav-ic.pos { background:rgba(24,154,102,.13); color:#189A66; }
+.fav-ic.neg { background:rgba(216,84,63,.13); color:#D8543F; }
+.fav-flou { filter:blur(5px); opacity:0.92; pointer-events:none; user-select:none; }
+.fav-lock { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center;
+  justify-content:center; gap:9px; cursor:pointer; }
+.fav-lock .b { display:inline-flex; align-items:center; gap:8px; height:40px; padding:0 18px;
+  border-radius:100px; background:var(--ink); color:#fff;
+  font-family:var(--fd); font-weight:800; font-size:12.5px; letter-spacing:-0.01em;
+  box-shadow:0 10px 24px rgba(26,29,33,0.3); }
+.fav-lock .n { display:inline-flex; align-items:center; gap:6px; font-size:12px; font-weight:700;
+  color:var(--arsenic); padding:6px 13px; border-radius:100px; background:rgba(255,255,255,0.92);
+  border:1px solid rgba(40,55,75,0.10); box-shadow:0 2px 8px rgba(40,55,75,0.08); }
+.fav-lock .n i { width:3px; height:3px; border-radius:50%; background:var(--steel); }
   </style>
 </head>
 <body>
@@ -382,6 +437,38 @@
       <div class="lecture-lock" id="d-lecture-lock">
         <span class="b">Score it for my skin <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h9.5M9 4.5L12.5 8 9 11.5"></path></svg></span>
         <span class="n">7 questions <i></i> 1 face scan</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section s3 fav" id="d-fav" hidden>
+    <span class="sec-name" style="display:block">AI Smart Reviews&reg;</span>
+    <input type="checkbox" id="fav-t" class="fav-t">
+    <div class="fav-card">
+      <label class="fav-head" for="fav-t">
+        <span class="fav-note" id="d-fav-note">&ndash;</span>
+        <div class="fav-meta">
+          <div class="fav-star">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="fav-nb"><b id="d-fav-nb">&ndash;</b> global ratings</p>
+        </div>
+        <span class="fav-src">by <img id="d-fav-src" src="amazon.svg" alt="Amazon"></span>
+        <span class="fav-chev"><svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6l4 4 4-4"></path></svg></span>
+      </label>
+      <div class="fav-corps">
+        <div class="fav-toi">
+          <span class="fav-k">For your skin type</span>
+          <div class="fav-barres"><i></i><i></i><i></i></div>
+        </div>
+        <span class="fav-k">On what you flagged</span>
+        <div class="fav-pb"><div class="fav-barres"><i></i><i></i><i></i></div></div>
+        <div>
+          <span class="fav-k">What buyers report</span>
+          <div id="d-fav-aspects" style="margin-top:6px"></div>
+        </div>
+        <div class="fav-lock" id="d-fav-lock">
+          <span class="b">Score it for my skin <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h9.5M9 4.5L12.5 8 9 11.5"></path></svg></span>
+          <span class="n">7 questions <i></i> 1 face scan</span>
+        </div>
       </div>
     </div>
   </div>
@@ -598,6 +685,33 @@
   //    n'existent pas dans une réponse visiteur — profil neutre serveur) ──
   // Fonction à part : la liste s'affiche même quand on REFUSE de noter le produit. C'est
   // tout ce qu'on peut honnêtement montrer d'une composition qu'on ne sait pas juger.
+  /* AI SMART REVIEWS, teaser gratuit. `avisPublic` ne contient QUE du public : la note,
+     le nombre d'avis, la source, les aspects. Les deux blocs personnels restent des barres
+     — sans profil, le serveur ne peut pas choisir la phrase qui correspondrait à sa peau
+     (une par type dans le fichier enrichi), et en inventer une serait mentir. */
+  function esc(t){ return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+  function rendreAvis(d){
+    var a = d && d.avisPublic;
+    var sec = document.getElementById("d-fav");
+    if (!sec || !a || typeof a.note !== "number") return;
+    document.getElementById("d-fav-note").textContent = a.note;
+    document.getElementById("d-fav-nb").textContent =
+      typeof a.nbAvis === "number" ? a.nbAvis.toLocaleString("en-US") : "\u2013";
+    if (a.source === "ulta") {
+      var img = document.getElementById("d-fav-src");
+      img.src = "ulta.png"; img.alt = "Ulta Beauty"; img.style.height = "13px";
+    }
+    document.getElementById("d-fav-aspects").innerHTML = (a.aspects || []).slice(0, 5).map(function(x){
+      var bon = x.polarite === "pos";
+      return '<div class="fav-a"><span class="fav-ic ' + (bon ? "pos" : "neg") + '">'
+        + (bon ? "\u2713" : "\u2717") + '</span><span class="fav-flou">' + esc(x.libelle) + '</span></div>';
+    }).join("");
+    document.getElementById("d-fav-lock").addEventListener("click", function(){
+      var b = document.getElementById("d-lock"); if (b) b.click();
+    });
+    sec.hidden = false;
+  }
+
   function rendreIngredients(d){
     // Rien à décoder (produit hors périmètre) : la carte disparaît plutôt que d'afficher
     // trois onglets vides sous le titre « Every ingredient, decoded ».
@@ -664,7 +778,7 @@
     document.getElementById("d-verdict-s").textContent = sc.message || "";
 
     // « Best for / Avoid if », la carte verrouillée et l'ajout à la routine partent d'une note.
-    [".fit-chips", ".lock-card", "#d-add"].forEach(function(sel){
+    [".fit-chips", ".lock-card", "#d-add", "#d-fav"].forEach(function(sel){
       var el = document.querySelector(sel); if (el) el.style.display = "none";
     });
 
@@ -781,6 +895,7 @@
     if (!fams.length && !contre.length) document.querySelector(".fit-chips").style.display = "none";
 
     rendreIngredients(d);
+    rendreAvis(d);
 
     // le scan rejoint l'historique local (le gratuit ACCUMULE) — perso inconnu ici
     produitCourant = { nom: p.nom, marque: p.marque || undefined, image: p.image || undefined,

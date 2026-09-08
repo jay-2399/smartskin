@@ -65,6 +65,14 @@ export async function GET(request: Request) {
       // Un produit peut avoir des avis BRUTS sans fiche enrichie : c'est le cas de tout ce qu'on
       // vient de collecter. L'écran le reconnaît à ceci et demande alors la synthèse à
       // /api/produit/overview. Les fiches déjà enrichies passent par `avis` et ne changent pas.
+      // TEASER GRATUIT : la note, le nombre d'avis et la source sont PUBLICS — Amazon les
+      // affiche à tout le monde, les cacher n'aurait aucun sens. Les aspects le sont aussi
+      // (ils ne dépendent d'aucun profil). Rien de personnel ne part ici : « le segment de
+      // ta peau » et « ce que tu as signalé » n'existent PAS sans profil — pourProfil les
+      // renvoie `null` et `[]` —, donc l'écran gratuit les montre verrouillés, sans contenu.
+      avisPublic: r?.etat === "ok" || !a ? null
+        : { note: a.note, nbAvis: a.nbAvis, source: a.source, verifiable: a.verifiable,
+            aspects: a.aspects },
       avisBrut: a ? null : brut && brut.avis?.length
         ? { note: brut.note ?? null, nbAvis: brut.nbAvis ?? null, source: brut.source }
         : null,
