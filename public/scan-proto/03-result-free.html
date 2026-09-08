@@ -136,40 +136,56 @@
 .rt-ic.bad  { background:rgba(224,102,87,0.15); color:#D8543F; border:1px solid rgba(224,102,87,0.42);
   box-shadow:inset 0 1px 0 rgba(255,255,255,0.5), 0 2px 8px rgba(224,102,87,0.18); }
 
-/* ═══ CARTE VERROUILLÉE (le score perso, teasé) ═══ */
-.lock-card { position:relative; margin-top:12px; border-radius:20px; padding:18px; overflow:hidden;
-  background:linear-gradient(160deg, rgba(41,46,58,0.95) 0%, rgba(20,22,27,0.97) 100%);
-  border:1px solid rgba(255,255,255,0.13); border-top-color:rgba(255,255,255,0.28);
-  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.16), 0 14px 32px rgba(15,20,30,0.28); }
-.lock-glow { position:absolute; right:-22%; top:-42%; width:74%; height:130%; pointer-events:none;
-  background:radial-gradient(ellipse at center, rgba(166,195,214,0.26), transparent 70%); }
+/* ═══ CARTE VERROUILLÉE (le score perso, teasé) ═══
+   Même carte que la fourche (02), en version CLAIRE : sur cette fiche, tout est
+   clair sauf elle — une carte sombre au milieu se lisait comme une publicité
+   collée, pas comme la suite de l'écran.
+   La jauge floutée reste NEUTRE : un arc coloré laisserait deviner la bande. */
+.lock-card { position:relative; margin-top:12px; border-radius:22px; padding:17px 16px; overflow:hidden;
+  background:linear-gradient(165deg, rgba(255,255,255,0.86), rgba(255,255,255,0.66));
+  -webkit-backdrop-filter:blur(22px) saturate(1.5); backdrop-filter:blur(22px) saturate(1.5);
+  border:1px solid rgba(255,255,255,0.72); border-top-color:rgba(255,255,255,0.95);
+  box-shadow:inset 0 1.5px 0 rgba(255,255,255,0.95), 0 14px 30px rgba(40,55,75,0.12);
+  display:flex; flex-direction:column; gap:14px; }
+.lock-glow { position:absolute; right:-16%; top:-38%; width:74%; height:126%; pointer-events:none;
+  background:radial-gradient(ellipse at center, rgba(166,195,214,0.30), transparent 68%); }
 .lock-card > * { position:relative; z-index:1; }
-.lock-head { display:flex; align-items:center; gap:9px; }
-.lock-ic { width:27px; height:27px; border-radius:9px; flex-shrink:0;
-  background:rgba(166,195,214,0.16); border:1px solid rgba(166,195,214,0.38);
-  display:flex; align-items:center; justify-content:center; color:#BCD6E6; }
-.lock-k { font-size:8.5px; font-weight:700; letter-spacing:0.16em; text-transform:uppercase; color:rgba(255,255,255,0.5); }
-.lock-body { display:flex; gap:16px; align-items:center; margin-top:13px; }
-.lock-gwrap { position:relative; width:104px; flex-shrink:0; }
-.lock-blur { filter:blur(5px); opacity:0.8; }
-.lock-blur .gauge { width:104px; height:auto; display:block; }
-.lock-blur .gauge-track { stroke:rgba(255,255,255,0.16);
-  filter:drop-shadow(0 1px 0 rgba(255,255,255,0.12)) drop-shadow(0 -1.5px 2px rgba(0,0,0,0.60)) drop-shadow(0 3px 6px rgba(0,0,0,0.35)); }
-.lock-blur .gauge-prog { animation:none; stroke-dashoffset:86; }
-.lock-blur .score-num { font-size:30px; letter-spacing:-1px; color:#fff; animation:none; text-shadow:none; }
-.lock-q { position:absolute; inset:0; display:flex; align-items:flex-end; justify-content:center; padding-bottom:2px;
-  font-weight:800; font-size:26px; color:#fff; text-shadow:0 2px 10px rgba(0,0,0,0.5); }
-.lock-t { font-weight:800; font-size:17px; line-height:1.22; letter-spacing:-0.02em; color:#fff; }
-.lock-s { font-size:11.5px; line-height:1.5; color:rgba(255,255,255,0.62); margin-top:5px; }
-.lock-feats { display:flex; flex-direction:column; gap:6px; margin-top:10px; }
-.lock-feat { display:flex; align-items:flex-start; gap:7px; font-size:10.5px; font-weight:600; letter-spacing:-0.005em; line-height:1.35; color:rgba(255,255,255,0.75); }
-.lock-check { color:#54D9A0; font-weight:800; font-size:10px; flex-shrink:0; margin-top:1px; }
-.lock-btn { margin-top:15px; width:100%; height:48px; border:none; border-radius:100px; cursor:pointer;
-  background:linear-gradient(180deg, #FFFFFF, #E9EDF4); color:var(--ink);
-  font-family:var(--fd); font-weight:800; font-size:13.5px; letter-spacing:-0.01em;
-  box-shadow:0 8px 20px rgba(0,0,0,0.35), inset 0 1px 0 #fff; }
+.lock-body { display:flex; gap:12px; align-items:center; }
+.lock-col { display:flex; flex-direction:column; gap:9px; min-width:0; }
+.lock-t { font-weight:800; font-size:19px; letter-spacing:-0.03em; line-height:1.18; color:var(--ink); }
+.lock-t span { color:var(--blue-d); }
+.lock-gwrap { position:relative; width:88px; flex-shrink:0; }
+.lock-gwrap .gauge { display:block; width:88px; height:auto; overflow:visible; filter:blur(4px); }
+.lock-gwrap .gauge-track { fill:none; stroke:#C7CFDD; stroke-width:9; stroke-linecap:round; }
+.lock-gwrap .gauge-prog { fill:none; stroke:url(#lk-you); stroke-width:9; stroke-linecap:round;
+  stroke-dasharray:226.2; stroke-dashoffset:66.6; animation:none;
+  filter:blur(4px) drop-shadow(0 2px 8px rgba(110,154,182,0.35)); }
+.lock-score { position:absolute; left:0; right:0; bottom:1px; display:flex; align-items:baseline;
+  justify-content:center; gap:2px; filter:blur(6.5px); }
+.lock-score b { font-weight:800; font-size:28px; letter-spacing:-1.2px; line-height:1; color:var(--arsenic); }
+.lock-score i { font-style:normal; font-size:9px; font-weight:700; color:var(--space); }
+.lock-feats { display:flex; flex-direction:column; gap:9px; }
+.lock-feat { display:flex; gap:7px; align-items:flex-start; font-size:11.5px; font-weight:600;
+  line-height:1.35; color:var(--arsenic); }
+.lock-check { flex-shrink:0; margin-top:2px; }
+.lock-logos { display:flex; align-items:center; gap:6px; }
+.lock-logos span { font-size:11.5px; font-weight:600; color:var(--arsenic); }
+.lock-logos img { height:11px; width:auto; display:block; flex-shrink:0; }
+.lock-logos img.amz { height:10px; }
+.lock-btn { width:100%; height:46px; border:none; border-radius:100px; cursor:pointer;
+  background:var(--ink); color:#fff;
+  font-family:var(--fd); font-weight:800; font-size:12.5px; letter-spacing:-0.01em;
+  box-shadow:0 8px 20px rgba(26,29,33,0.26), inset 0 1px 0 rgba(255,255,255,0.14); }
 .lock-btn:focus-visible { outline:2px solid var(--blue-d); outline-offset:3px; }
-.lock-trial { font-size:10px; color:rgba(255,255,255,0.45); text-align:center; margin-top:8px; }
+/* bandeau « une fois pour toutes » — c'est lui que le mode « déjà abonné »
+   réécrit, d'où le sélecteur .lock-trial conservé */
+.lock-once { display:flex; align-items:center; gap:10px; padding:10px 11px; border-radius:14px;
+  background:rgba(40,55,75,0.045); border:1px solid rgba(40,55,75,0.09); }
+.lock-once-ic { width:32px; height:32px; border-radius:10px; flex-shrink:0;
+  background:rgba(255,255,255,0.85); border:1px solid rgba(40,55,75,0.10);
+  display:flex; align-items:center; justify-content:center; color:var(--arsenic); }
+.lock-trial { font-size:11px; line-height:1.42; color:var(--graphite); }
+.lock-trial b { color:var(--ink); font-weight:700; }
 
 /* ── liste INCI complète : tab-card sombre (good / watch out / neutral) ── */
 .rev-toggle { position:absolute; opacity:0; pointer-events:none; }
@@ -234,6 +250,74 @@
   .score-num, .verdict-t, .verdict-s { animation:none; }
 }
 
+
+/* ═══ SEGMENT Formula / My skin (repris de 06) ═══
+   Sur la fiche gratuite, l'onglet « My skin » ne cache pas une note : il montre
+   qu'il en existe une, floutée. La bascule est la démonstration du produit. */
+.seg { position:relative; display:flex; width:calc(100% - 4px); max-width:250px; margin:16px auto 0;
+  padding:4px; border-radius:100px;
+  background:linear-gradient(180deg, rgba(255,255,255,0.52), rgba(255,255,255,0.34));
+  -webkit-backdrop-filter:blur(14px) saturate(1.4); backdrop-filter:blur(14px) saturate(1.4);
+  border:1px solid rgba(255,255,255,0.72);
+  box-shadow:inset 0 1.5px 3px rgba(40,55,75,0.10), 0 1px 2px rgba(255,255,255,0.7); }
+.seg-thumb { position:absolute; top:4px; left:4px; width:calc(50% - 4px); height:calc(100% - 8px);
+  border-radius:100px; background:linear-gradient(180deg,#FFFFFF,#F2F5F9);
+  box-shadow:0 2px 6px rgba(40,55,75,0.16), inset 0 1px 0 #fff;
+  transition:transform .32s cubic-bezier(.22,1,.36,1); }
+.seg.on-skin .seg-thumb { transform:translateX(100%); }
+.seg-opt { position:relative; z-index:1; flex:1; display:flex; align-items:center; justify-content:center; gap:7px;
+  height:36px; cursor:pointer; -webkit-tap-highlight-color:transparent;
+  font-size:12px; font-weight:700; letter-spacing:-0.01em; color:var(--space); transition:color .28s; }
+.seg-opt.sel { color:var(--ink); }
+.seg-opt b { font-weight:800; font-size:13px; letter-spacing:-0.02em; }
+.seg-opt .dot { width:6px; height:6px; border-radius:50%; flex-shrink:0; background:var(--steel); }
+.seg-opt .dot.good { background:#2BC182; box-shadow:0 0 0 3px rgba(43,193,130,0.16); }
+.seg-opt .dot.mid  { background:#EA9A54; box-shadow:0 0 0 3px rgba(234,154,84,0.16); }
+.seg-opt .dot.bad  { background:#E06657; box-shadow:0 0 0 3px rgba(224,102,87,0.16); }
+.seg-opt svg { flex-shrink:0; }
+
+/* la lecture (jauge + verdict) : floutée quand on regarde « My skin » */
+.lecture { position:relative; transition:filter .3s; }
+.lecture.flou > *:not(.lecture-lock) { filter:blur(6px); opacity:0.85; pointer-events:none; user-select:none; }
+/* sous le flou, l'arc ne doit RIEN dire : ni sa couleur de bande, ni son niveau
+   de remplissage. On le neutralise, sinon « My skin » livre la note de formule. */
+.lecture.flou .gauge-prog { stroke:url(#lk-you) !important; stroke-dashoffset:66.6 !important;
+  filter:none !important; }
+.lecture.flou .score-row { filter:blur(4px); }
+/* le chiffre garde sinon la couleur et le halo de sa bande, lisibles sous le flou */
+.lecture.flou .score-num { color:var(--space) !important; text-shadow:none !important; }
+.lecture-lock { position:absolute; inset:0; display:none; flex-direction:column;
+  align-items:center; justify-content:center; gap:9px; cursor:pointer; }
+.lecture.flou .lecture-lock { display:flex; }
+.lecture-lock .b { display:inline-flex; align-items:center; gap:7px; height:38px; padding:0 17px;
+  border-radius:100px; background:var(--ink); color:#fff;
+  font-family:var(--fd); font-weight:800; font-size:12.5px; letter-spacing:-0.01em;
+  box-shadow:0 8px 20px rgba(26,29,33,0.28); }
+.lecture-lock .n { display:inline-flex; align-items:center; gap:6px;
+  font-size:12px; font-weight:700; letter-spacing:-0.01em; color:var(--arsenic);
+  padding:6px 13px; border-radius:100px; background:rgba(255,255,255,0.9);
+  border:1px solid rgba(40,55,75,0.10); box-shadow:0 2px 8px rgba(40,55,75,0.08); }
+.lecture-lock .n i { width:3px; height:3px; border-radius:50%; background:var(--steel); margin:0 2px; }
+
+/* ═══ SUGGESTIONS VERROUILLÉES (mêmes lignes que « Better for your skin » de 06) ═══
+   Aucune donnée réelle ici : des silhouettes. Flouter de vrais produits reviendrait
+   à les livrer à moitié, et un nom se devine sous un flou. */
+.sug { margin-top:18px; }
+.sug .sec-name { display:block; }
+.sug-s { font-size:12.5px; line-height:1.5; color:var(--graphite); margin-top:6px; }
+.sug-list { position:relative; margin-top:12px; }
+.sug-rows { filter:blur(5px); opacity:0.9; pointer-events:none; user-select:none;
+  display:flex; flex-direction:column; gap:10px; }
+.sug-row { display:flex; align-items:center; gap:14px; padding:13px 15px; border-radius:18px;
+  background:var(--glass-bg); border:1px solid var(--glass-line); box-shadow:var(--glass-shadow); }
+.sug-vis { width:44px; height:54px; border-radius:10px; flex-shrink:0;
+  background:linear-gradient(170deg,#E9EDF3 0%,#DDE3EB 100%);
+  box-shadow:inset 0 1px 2px rgba(255,255,255,0.8), inset 0 -4px 10px rgba(40,55,75,0.07); }
+.sug-tx { flex:1; min-width:0; display:flex; flex-direction:column; gap:7px; }
+.sug-tx i { display:block; height:10px; border-radius:5px; background:rgba(40,55,75,0.16); }
+.sug-tx i:nth-child(2) { height:8px; width:58%; background:rgba(40,55,75,0.10); }
+.sug-sc { width:34px; height:22px; border-radius:6px; flex-shrink:0; background:rgba(24,154,102,0.20); }
+
   </style>
 </head>
 <body>
@@ -272,6 +356,14 @@
         </div>
       </div>
     </div>
+    <div class="seg" id="d-seg">
+      <div class="seg-thumb"></div>
+      <div class="seg-opt sel" data-vue="formule"><span class="dot" id="d-dot-f"></span>Formula <b id="d-seg-f">&ndash;</b></div>
+      <div class="seg-opt" data-vue="perso"><span class="dot"></span>My skin
+        <svg width="11" height="11" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="10" height="7" rx="1.6"></rect><path d="M5.5 7V5a2.5 2.5 0 0 1 5 0v2"></path></svg>
+      </div>
+    </div>
+    <div class="lecture" id="d-lecture">
     <div class="gauge-wrap">
       <svg class="gauge" viewBox="0 0 170 93" aria-hidden="true">
         <defs>
@@ -287,6 +379,11 @@
     <span class="sec-kicker" style="display:block; margin-top:8px">Formula score</span>
     <p class="verdict-t" id="d-verdict-t" style="margin-top:6px">&nbsp;</p>
     <p class="verdict-s" id="d-verdict-s">Judged on its ingredients alone &mdash; <b>not on a specific skin</b>.</p>
+      <div class="lecture-lock" id="d-lecture-lock">
+        <span class="b">Score it for my skin <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h9.5M9 4.5L12.5 8 9 11.5"></path></svg></span>
+        <span class="n">7 questions <i></i> 1 face scan</span>
+      </div>
+    </div>
   </div>
 
   <div class="section s0 why-sec">
@@ -309,33 +406,35 @@
 
     <div class="lock-card">
       <div class="lock-glow"></div>
-      <div class="lock-head">
-        <span class="lock-ic"><svg width="12" height="12" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="10" height="7" rx="1.6"></rect><path d="M5.5 7V5a2.5 2.5 0 0 1 5 0v2"></path></svg></span>
-        <span class="lock-k">Your personal score</span>
-      </div>
+      <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+        <linearGradient id="lk-you" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#BCD0DE"></stop><stop offset="1" stop-color="#8FA9BD"></stop></linearGradient>
+      </defs></svg>
       <div class="lock-body">
         <div class="lock-gwrap">
-          <div class="lock-blur">
-            <svg class="gauge" viewBox="0 0 170 93" aria-hidden="true">
-              <path class="gauge-track" d="M13 88 A72 72 0 0 1 157 88"></path>
-              <path class="gauge-prog mid" d="M13 88 A72 72 0 0 1 157 88"></path>
-            </svg>
-            <div class="score-row" style="margin-top:-26px"><span class="score-num">62</span></div>
-          </div>
-          <div class="lock-q"><br></div>
+          <svg class="gauge" viewBox="0 0 170 93" aria-hidden="true">
+            <path class="gauge-track" d="M13 88 A72 72 0 0 1 157 88"></path>
+            <path class="gauge-prog" d="M13 88 A72 72 0 0 1 157 88"></path>
+          </svg>
+          <div class="lock-score"><b>84</b><i>/100</i></div>
         </div>
-        <div>
-          <p class="lock-t">Good product. But for <em style="font-style:normal; color:#BCD6E6">your</em> skin?</p>
+        <div class="lock-col">
+          <h2 class="lock-t">The product&rsquo;s score<br><span>tailored for your skin</span></h2>
           <div class="lock-feats">
-            <div class="lock-feat"><span class="lock-check">&#10003;</span> Your personal score</div>
-            <div class="lock-feat"><span class="lock-check">&#10003;</span> Ingredients read for you</div>
-            <div class="lock-feat"><span class="lock-check">&#10003;</span> Reviews from skin like yours</div>
-            <div class="lock-feat"><span class="lock-check">&#10003;</span> Better alternatives for you</div>
+            <div class="lock-feat"><svg class="lock-check" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#54D9A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span>Every ingredient, scored for you</span></div>
+            <div class="lock-feat"><svg class="lock-check" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#54D9A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span>Tells you if you should buy it (or not)</span></div>
+            <div class="lock-feat"><svg class="lock-check" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#54D9A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span>Recommendations on how to use it</span></div>
+            <div class="lock-feat"><svg class="lock-check" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#54D9A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span>Better alternatives for your skin</span></div>
+            <div class="lock-feat"><svg class="lock-check" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#54D9A0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span style="display:flex; flex-direction:column; gap:5px;"><span>AI Smart Reviews<span style="font-size:7px; vertical-align:super;">&reg;</span></span><span class="lock-logos"><span>with</span><img class="amz" src="amazon.svg" alt="Amazon"><span>and</span><img src="ulta.png" alt="Ulta Beauty"></span></span></div>
           </div>
         </div>
       </div>
-      <button type="button" class="lock-btn" id="d-lock">Get my personal score</button>
-      <p class="lock-trial">7-day free trial &middot; takes a skin scan first</p>
+      <button type="button" class="lock-btn" id="d-lock">Score it for my skin</button>
+      <div class="lock-once">
+        <div class="lock-once-ic">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6V3.6A1.6 1.6 0 0 1 3.6 2H6M12 2h2.4A1.6 1.6 0 0 1 16 3.6V6M16 12v2.4a1.6 1.6 0 0 1-1.6 1.6H12M6 16H3.6A1.6 1.6 0 0 1 2 14.4V12"></path><path d="M6.6 6.9v1.3M11.4 6.9v1.3M9.4 6.9v2.5a.7.7 0 0 1-.7.7M6.7 11.5c1.5 1.1 3.1 1.1 4.6 0"></path></svg>
+        </div>
+        <p class="lock-trial">Answer once &mdash; <b>7 questions + a face scan</b>. Every product you scan afterwards is scored for your skin.</p>
+      </div>
     </div>
 
     <div class="inx-card" style="margin-top:14px" id="d-ing-sec">
@@ -366,6 +465,18 @@
         <span class="m-good">See all 10 good ingredients</span><span class="m-neu">See all 22 neutral ingredients</span><span class="m-less">See less</span>
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4l4 4 4-4"></path></svg>
       </label>
+    </div>
+  </div>
+
+  <div class="section s3 sug">
+    <span class="sec-name">Better for your skin</span>
+    <p class="sug-s">Same job, higher score for you &mdash; once we know your skin.</p>
+    <div class="sug-list">
+      <div class="sug-rows" aria-hidden="true">
+        <div class="sug-row"><div class="sug-vis"></div><div class="sug-tx"><i></i><i></i></div><div class="sug-sc"></div></div>
+        <div class="sug-row"><div class="sug-vis"></div><div class="sug-tx"><i></i><i></i></div><div class="sug-sc"></div></div>
+        <div class="sug-row"><div class="sug-vis"></div><div class="sug-tx"><i></i><i></i></div><div class="sug-sc"></div></div>
+      </div>
     </div>
   </div>
 
@@ -404,7 +515,7 @@
     var btn = document.getElementById("d-lock");
     var essai = document.querySelector(".lock-trial");
     if (raison === "aucun-bilan") {
-      if (titre) titre.innerHTML = "Your personal score is <em style=\"font-style:normal; color:#BCD6E6\">waiting</em> for your scan.";
+      if (titre) titre.innerHTML = "Your personal score is <em style=\"font-style:normal; color:#6E9AB6\">waiting</em> for your scan.";
       if (btn) btn.textContent = "Scan my skin";
       if (essai) essai.textContent = "You're subscribed \u2014 one scan and it unlocks.";
       if (btn) btn.dataset.direct = "19-questions.html";
@@ -686,6 +797,30 @@
   });
 
   source.then(rendre).catch(function(){});
+
+  // ── bascule Formula / My skin ────────────────────────────────────────────
+  // « My skin » ne cache pas la note : il la montre floutée. C'est la même
+  // démonstration que la carte verrouillée, faite avec le vrai écran.
+  (function(){
+    var seg = document.getElementById("d-seg");
+    var lecture = document.getElementById("d-lecture");
+    if (!seg || !lecture) return;
+    seg.querySelectorAll(".seg-opt").forEach(function(opt){
+      opt.addEventListener("click", function(){
+        var perso = opt.dataset.vue === "perso";
+        seg.classList.toggle("on-skin", perso);
+        lecture.classList.toggle("flou", perso);
+        seg.querySelectorAll(".seg-opt").forEach(function(o){ o.classList.toggle("sel", o === opt); });
+        if (perso) SS.track("paywall_intent", { source: "result_free_tab" });
+      });
+    });
+    // le voile renvoie au même endroit que la carte verrouillée
+    document.getElementById("d-lecture-lock").addEventListener("click", function(){
+      var b = document.getElementById("d-lock");
+      if (b) { b.scrollIntoView({ behavior: "smooth", block: "center" }); b.click(); }
+    });
+  })();
+
 })();
 </script>
 
