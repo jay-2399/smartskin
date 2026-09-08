@@ -1135,7 +1135,7 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; overscroll-be
 
 <script src="commun/app.js"></script>
 <script>
-function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "parfum": "Fragrance", "HE": "Essential oil", "alcool": "Drying alcohol", "creuse": "Few actives", "filtres-uv": "UV protection" })[t] || t; }
+function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "parfum": "Fragrance", "HE": "Essential oil", "alcool": "Drying alcohol", "creuse": "Few actives", "filtres-uv": "UV protection", "banni": "Banned in the EU", "sensibilisant3": "Strong sensitiser", "plafond": "Score capped" })[t] || t; }
 (function(){
   SS.tabbar(null);
   // V2 : cette fiche est PREMIUM — un visiteur non premium est renvoyé vers la
@@ -1165,6 +1165,15 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
   var source = depuisEtiquette
     ? Promise.resolve(depuisEtiquette)
     : fetch("/api/produit/fiche?q=" + encodeURIComponent(key)).then(function(r){ return r.json(); });
+  // Produit lu sur l'étiquette : on n'a AUCUNE photo de lui. Afficher le flacon de démo
+  // ferait croire à un autre produit — on montre une silhouette neutre à la place.
+  var SILHOUETTE = "data:image/svg+xml;utf8," + encodeURIComponent(
+    '<svg xmlns="http://www.w3.org/2000/svg" width="120" height="190" viewBox="0 0 120 190">' +
+    '<rect x="47" y="6" width="26" height="26" rx="5" fill="none" stroke="#C6CCD6" stroke-width="2"/>' +
+    '<rect x="30" y="34" width="60" height="150" rx="12" fill="none" stroke="#C6CCD6" stroke-width="2"/>' +
+    '<path d="M44 92h32M44 106h32M44 120h20" stroke="#D9DEE6" stroke-width="2.4" stroke-linecap="round"/>' +
+    '<text x="60" y="72" text-anchor="middle" font-family="Manrope,sans-serif" font-size="9" ' +
+    'font-weight="700" fill="#B4BBC7">INCI</text></svg>');
   var CATS = { cleanser:"Cleanser", "makeup-remover":"Makeup remover", toner:"Toner", serum:"Serum",
                moisturizer:"Moisturiser", "eye-cream":"Eye cream", sunscreen:"Sunscreen",
                exfoliant:"Exfoliant", mask:"Mask", treatment:"Treatment" };
@@ -1205,8 +1214,12 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
                       body: JSON.stringify({ inci: inci, categorie: categorie }) })
       .then(function(r){ return r.json(); })
       .then(function(r){
-        if (!r || !r.formule) return;
-        depuisEtiquette.score = { disponible:true, formule:r.formule, perso:r.perso };
+        if (!r || (!r.formule && r.statut !== "non-evaluable")) return;
+        depuisEtiquette.score = r.formule
+          ? { disponible:true, formule:r.formule, perso:r.perso, algoVersion:r.algoVersion,
+              profilManquant:r.profilManquant }
+          : { disponible:false, statut:"non-evaluable", raison:r.raison, message:r.message,
+              algoVersion:r.algoVersion };
         depuisEtiquette.ingredients = r.ingredients;
         depuisEtiquette.produit.categorie = categorie;
         try { sessionStorage.setItem("ss-inci-resultat", JSON.stringify(depuisEtiquette)); } catch(e) {}
@@ -1216,10 +1229,75 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
       });
   }
 
+  // ── ON NE PEUT PAS NOTER CE PRODUIT ─────────────────────────────────────────
+  // Quatre causes, une seule page : liste d'ingrédients tronquée, solaire dont les filtres UV
+  // n'apparaissent pas dans la liste, étiquette photographiée en partie, produit hors périmètre.
+  // On montre le produit et les ingrédients qu'on a LUS, on dit pourquoi il n'y a pas de
+  // chiffre, et on cache tout ce qui suppose une note. Un « 48 » calculé sur une composition
+  // qu'on sait incomplète trompe davantage qu'il n'informe.
+  function rendreNonEvaluable(d) {
+    var p = d.produit || {}, sc = d.score || {};
+    document.getElementById("d-brand").textContent = p.marque || "";
+    var nomCourt = p.nom || "";
+    if (p.marque && nomCourt.toLowerCase().indexOf(p.marque.toLowerCase()) === 0) {
+      nomCourt = nomCourt.slice(p.marque.length).replace(/^[\s\-\u2013\u2014\u00b7:]+/, "") || p.nom;
+    }
+    document.getElementById("d-name").textContent = nomCourt;
+    document.getElementById("d-name").setAttribute("data-nom-complet", p.nom || "");
+    var cp = document.getElementById("d-cat");
+    if (CATS[p.categorie]) { cp.textContent = CATS[p.categorie]; cp.hidden = false; }
+    var im = document.getElementById("d-img");
+    if (p.image) { SS.packshot(im, p.image); }
+    else { im.src = SILHOUETTE; im.style.mixBlendMode = "normal"; im.style.filter = "none"; }
+
+    // la jauge reste vide : pas de chiffre, pas d'arc, pas de couleur — rien à interpréter
+    var num = document.getElementById("d-perso");
+    num.textContent = "\u2013";
+    num.className = "score-num";
+    var arc = document.getElementById("d-arc");
+    arc.style.animation = "none";
+    arc.setAttribute("class", "gauge-prog");
+    arc.style.strokeDashoffset = "226.2";
+    document.querySelector(".you-k").textContent = "No score";
+    // le sélecteur Formula / My skin n'a plus rien à basculer
+    document.getElementById("d-seg").style.display = "none";
+    document.getElementById("d-callouts").innerHTML = "";
+
+    document.getElementById("d-verdict-t").textContent = "We can't score this one";
+    document.querySelector(".verdict-s").textContent = sc.message || "";
+
+    // « Why », les alternatives et l'ajout à la routine partent tous d'une note.
+    var why = document.querySelector(".why-sec"); if (why) why.style.display = "none";
+    var mieux = document.getElementById("d-mieux"); if (mieux) mieux.style.display = "none";
+    var ajout = document.querySelector(".cta-wrap .cta-btn"); if (ajout) ajout.style.display = "none";
+
+    rendreIngredients(d);
+    // Le scan a bien eu lieu : il rejoint l'historique, sans chiffre. Le faire disparaître
+    // parce qu'on n'a pas su le noter donnerait l'impression que le scan a échoué.
+    SS.historique.ajouter({ nom: p.nom, marque: p.marque || undefined, image: p.image || undefined,
+                            categorie: p.categorie || undefined, formule: null, perso: null,
+                            algo: sc.algoVersion || undefined });
+  }
+
   // Le rendu est une FONCTION nommée : la fiche doit pouvoir se redessiner quand l'utilisateur
   // corrige la catégorie devinée d'une étiquette lue, sans recharger la page.
   function rendre(d){
-    if (!d || !d.produit || !d.score || !d.score.disponible) return;
+    if (!d || !d.produit || !d.score) return;
+    // Le moteur REFUSE désormais de noter certaines listes (tronquée, solaire dont les filtres
+    // manquent, étiquette coupée) et le catalogue signale les produits hors périmètre. La page
+    // sortait alors en silence : elle gardait son contenu de démonstration, c'est-à-dire les
+    // chiffres d'un AUTRE produit affichés comme un résultat (audit du 7/09, B4).
+    if (d.score.statut === "non-evaluable" || d.score.statut === "hors-perimetre") {
+      rendreNonEvaluable(d);
+      return;
+    }
+    if (!d.score.disponible) return;
+    // On peut ARRIVER ici depuis l'état « pas de note » : l'utilisatrice a corrigé la catégorie
+    // devinée et la liste est redevenue notable. Ce que rendreNonEvaluable avait caché revient.
+    document.getElementById("d-seg").style.display = "";
+    ["#d-mieux", ".why-sec", ".cta-wrap .cta-btn"].forEach(function(sel){
+      var el = document.querySelector(sel); if (el) el.style.display = "";
+    });
     var p = d.produit, f = d.score.formule, pe = d.score.perso;
     // Pas de bloc perso : le serveur ne l'accorde qu'à une session premium, donc elle a
     // expiré entre /api/moi (qui a laissé entrer) et /api/produit/fiche. Sans ce garde-fou,
@@ -1256,13 +1334,7 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     else {
       // Produit lu sur l'étiquette : on n'a AUCUNE photo de lui. Afficher le flacon de démo
       // ferait croire à un autre produit — on montre une silhouette neutre à la place.
-      im.src = "data:image/svg+xml;utf8," + encodeURIComponent(
-        '<svg xmlns="http://www.w3.org/2000/svg" width="120" height="190" viewBox="0 0 120 190">' +
-        '<rect x="47" y="6" width="26" height="26" rx="5" fill="none" stroke="#C6CCD6" stroke-width="2"/>' +
-        '<rect x="30" y="34" width="60" height="150" rx="12" fill="none" stroke="#C6CCD6" stroke-width="2"/>' +
-        '<path d="M44 92h32M44 106h32M44 120h20" stroke="#D9DEE6" stroke-width="2.4" stroke-linecap="round"/>' +
-        '<text x="60" y="72" text-anchor="middle" font-family="Manrope,sans-serif" font-size="9" ' +
-        'font-weight="700" fill="#B4BBC7">INCI</text></svg>');
+      im.src = SILHOUETTE;
       im.style.mixBlendMode = "normal";
       im.style.filter = "none";
     }
@@ -1275,7 +1347,8 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     SS.historique.ajouter({ nom: p.nom, marque: p.marque || undefined, image: p.image || undefined,
                             categorie: p.categorie || undefined,
                             formule: typeof f.score === "number" ? f.score : null,
-                            perso: typeof pe.score === "number" ? pe.score : null });
+                            perso: typeof pe.score === "number" ? pe.score : null,
+                            algo: f.algoVersion || undefined });
     document.getElementById("d-dot-f").className = "dot " + f.bande;
     document.getElementById("d-dot-p").className = "dot " + pe.bande;
     // le sélecteur de la carte « Why » porte les mêmes scores et les mêmes couleurs
@@ -1335,6 +1408,13 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
             + ". Formula alone scores <b>" + f.score + "</b>.";
       }
       if (f.analysePartielle) sub += " <em>Partial analysis \u2014 some ingredients unknown.</em>";
+      // Une liste de trois ingrédients connus est notable, mais il n'y a presque rien à juger :
+      // le dire évite de faire passer une eau thermale pour un sérum bien construit.
+      if ((f.badges || []).indexOf("minimaliste") >= 0)
+        sub += " <em>Very short list \u2014 there's little to judge.</em>";
+      // La catégorie décide de TOUTE la grille : quand elle est devinée, la note est un pari.
+      if (d.lecture && d.lecture.provisoire)
+        sub += " <em>Category guessed from the formula \u2014 change it above if it's wrong.</em>";
       document.getElementById("d-verdict-t").textContent = t;
       document.querySelector(".verdict-s").innerHTML = sub;
     }
@@ -1355,8 +1435,11 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     // bloc « Why this score » : les faits significatifs de la lecture affichée
     function majWhy(vue) {
     var src = vue === "formule"
-      ? f.details.filter(function(d){ return Math.abs(d.pts) >= 1; })
-          .sort(function(a,b){ return Math.abs(b.pts) - Math.abs(a.pts); })
+      // Une ligne « banni » qui plafonne la note ne porte PAS de points (c'est le plafond qui
+      // les retire, plus bas dans la liste) : filtrée sur |pts|, elle disparaissait, et la note
+      // se retrouvait bridée sans que l'ingrédient responsable soit jamais nommé.
+      ? f.details.filter(function(d){ return d.type === "banni" || Math.abs(d.pts || 0) >= 1; })
+          .sort(function(a,b){ return Math.abs(b.pts || 0) - Math.abs(a.pts || 0); })
           .map(function(d){
             // v2 : les lignes \u00ab merite \u00bb / \u00ab faute \u00bb portent d\u00e9j\u00e0 leur libell\u00e9 m\u00e9tier tout fait
             if (d.dit) { var t = d.dit.charAt(0).toUpperCase() + d.dit.slice(1); return { label: t, points: d.pts }; }
@@ -1367,7 +1450,7 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
             var suffixe = d.type === "actif" ? " \u2014 proven active"
               : d.type === "risque" ? " \u2014 known irritant"
               : (d.inci && d.type !== "filtres-uv") ? " \u2014 " + libelleType(d.type) : "";
-            return { label: nom + suffixe, points: d.pts }; })
+            return { label: nom + suffixe, points: typeof d.pts === "number" ? d.pts : null }; })
       : (function(){
           // `factsAffiches` est la sélection resserrée (faits assez marquants pour être montrés
           // d'emblée). Le « voir tout » doit ouvrir sur le RESTE, pas s'arrêter là : on met la
@@ -1408,38 +1491,7 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
     if (titre) titre.textContent = vue === "formule" ? "Why this formula score" : "Why this score, for you";
     }
 
-    // ── INGRÉDIENTS : lus dans le dictionnaire, groupés, avec les drapeaux perso ──
-    if (d.ingredients && d.ingredients.length) {
-      var FAM = { blemishes: "targets breakouts", oiliness: "regulates sebum", dehydration: "hydrates",
-                  redness: "soothes", aging: "anti-aging", spots: "fades dark spots", barrier: "repairs the barrier" };
-      var groupes = { benefique: [], surveiller: [], neutre: [] };
-      d.ingredients.forEach(function(x) {
-        var g = x.groupe === "inconnu" ? "neutre" : x.groupe;
-        groupes[g] = groupes[g] || []; groupes[g].push(x);
-      });
-      function ligne(x, i) {
-        var note = "";
-        if (x.groupe === "benefique") note = (x.benefits || []).map(function(b){ return FAM[b] || b; }).join(", ")
-          + (x.power >= 3 ? " · strong evidence" : x.power === 2 ? " · good evidence" : "");
-        else if (x.allergene) note = "EU-declared fragrance allergen";
-        else if (x.irritant >= 2) note = "known irritant";
-        else if (x.comedo >= 3) note = "may clog pores";
-        else note = x.src && x.src !== "inconnu" ? x.src : "no known effect";
-        var flag = x.flagPerso ? ' <b style="color:#F28E7E">— flagged for you</b>'
-                 : x.utile ? ' <b style="color:#54D9A0">— for your skin</b>' : "";
-        var g = x.groupe === "benefique" ? "good" : x.groupe === "surveiller" ? "bad" : "neu";
-        return '<div class="inx-row ' + g + (i >= 5 ? " xtra" : "") + '"><span class="inx-g">'
-          + (g === "good" ? "+" : g === "bad" ? "!" : "·") + '</span><p><b>'
-          + x.nom.charAt(0) + x.nom.slice(1).toLowerCase() + '</b> — ' + note + flag + '</p></div>';
-      }
-      ["benefique", "surveiller", "neutre"].forEach(function(k) {
-        var id = k === "benefique" ? "good" : k === "surveiller" ? "bad" : "neu";
-        var arr = groupes[k] || [];
-        document.getElementById("d-list-" + id).innerHTML = arr.map(ligne).join("") || '<div class="inx-row neu"><p>None.</p></div>';
-        document.getElementById("d-n-" + id).textContent = arr.length;
-      });
-      document.getElementById("d-ing-sec").style.display = "";
-    }
+    rendreIngredients(d);
     afficher("perso");
     mieuxPourToi(p, pe);
     var refAvis = d.produit && (d.produit.ref || d.produit.asin);
@@ -1450,6 +1502,44 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
   // Avis RÉELS d'acheteurs. Rien d'inventé : pas de données, pas de bloc. Et rien qui ne la
   // concerne pas : le serveur a déjà filtré sur SA peau et SES problèmes déclarés.
   var _asinCourant = null;
+
+
+  // ── INGRÉDIENTS : lus dans le dictionnaire, groupés, avec les drapeaux perso ──
+  // Fonction à part : la liste s'affiche même quand on REFUSE de noter le produit. C'est
+  // tout ce qu'on peut honnêtement montrer d'une composition qu'on ne sait pas juger.
+  function rendreIngredients(d) {
+  if (d.ingredients && d.ingredients.length) {
+    var FAM = { blemishes: "targets breakouts", oiliness: "regulates sebum", dehydration: "hydrates",
+                redness: "soothes", aging: "anti-aging", spots: "fades dark spots", barrier: "repairs the barrier" };
+    var groupes = { benefique: [], surveiller: [], neutre: [] };
+    d.ingredients.forEach(function(x) {
+      var g = x.groupe === "inconnu" ? "neutre" : x.groupe;
+      groupes[g] = groupes[g] || []; groupes[g].push(x);
+    });
+    function ligne(x, i) {
+      var note = "";
+      if (x.groupe === "benefique") note = (x.benefits || []).map(function(b){ return FAM[b] || b; }).join(", ")
+        + (x.power >= 3 ? " · strong evidence" : x.power === 2 ? " · good evidence" : "");
+      else if (x.allergene) note = "EU-declared fragrance allergen";
+      else if (x.irritant >= 2) note = "known irritant";
+      else if (x.comedo >= 3) note = "may clog pores";
+      else note = x.src && x.src !== "inconnu" ? x.src : "no known effect";
+      var flag = x.flagPerso ? ' <b style="color:#F28E7E">— flagged for you</b>'
+               : x.utile ? ' <b style="color:#54D9A0">— for your skin</b>' : "";
+      var g = x.groupe === "benefique" ? "good" : x.groupe === "surveiller" ? "bad" : "neu";
+      return '<div class="inx-row ' + g + (i >= 5 ? " xtra" : "") + '"><span class="inx-g">'
+        + (g === "good" ? "+" : g === "bad" ? "!" : "·") + '</span><p><b>'
+        + x.nom.charAt(0) + x.nom.slice(1).toLowerCase() + '</b> — ' + note + flag + '</p></div>';
+    }
+    ["benefique", "surveiller", "neutre"].forEach(function(k) {
+      var id = k === "benefique" ? "good" : k === "surveiller" ? "bad" : "neu";
+      var arr = groupes[k] || [];
+      document.getElementById("d-list-" + id).innerHTML = arr.map(ligne).join("") || '<div class="inx-row neu"><p>None.</p></div>';
+      document.getElementById("d-n-" + id).textContent = arr.length;
+    });
+    document.getElementById("d-ing-sec").style.display = "";
+  }
+  }
 
   function ech(t) { return String(t == null ? "" : t).replace(/[&<>]/g, function(c){
     return c === "&" ? "&amp;" : c === "<" ? "&lt;" : "&gt;"; }); }

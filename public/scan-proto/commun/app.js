@@ -425,6 +425,9 @@
       categorie: produit.categorie || undefined,
       formule: typeof produit.formule === "number" ? produit.formule : null,
       perso: typeof produit.perso === "number" ? produit.perso : null,
+      // version du moteur qui a produit ces deux chiffres : sans elle, un score recopié
+      // il y a six mois est indiscernable d'un score d'aujourd'hui (audit du 7/09, B10).
+      algo: produit.algo || undefined,
       ajoute: new Date().toISOString(),
     };
     if (typeof remplaceIdx === "number" && remplaceIdx >= 0 && remplaceIdx < items.length) {
@@ -557,6 +560,7 @@
         categorie: entree.categorie || undefined,
         formule: typeof entree.formule === "number" ? entree.formule : null,
         perso: typeof entree.perso === "number" ? entree.perso : null,
+        algo: entree.algo || undefined,
         date: entree.date || new Date().toISOString(),
       });
       if (garde.length > 50) garde.length = 50;
@@ -820,6 +824,18 @@
      On recalcule donc à l'affichage (~16 ms pour 50 produits) au lieu de masquer un
      chiffre périmé. Les entrées sont patchées EN MÉMOIRE : rien n'est réécrit dans le
      stockage, qui n'est plus la vérité mais le repli hors ligne. */
+  /* Le jour où le moteur change de version, les chiffres enregistrés bougent sans que
+     personne n'ait rien fait. On le dit UNE FOIS, à la première liste effectivement
+     recalculée — et jamais si rien n'a bougé, pour ne pas annoncer un changement invisible. */
+  function signalerNouvelAlgo(version, change) {
+    if (!version) return;
+    var vu = null;
+    try { vu = localStorage.getItem("ss-algo-vu"); } catch (e) { return; }
+    if (vu === version) return;
+    try { localStorage.setItem("ss-algo-vu", version); } catch (e) {}
+    if (vu && change) toast("Our scoring just got smarter \u2014 saved scores were refreshed");
+  }
+
   SS.rafraichirScores = function (entrees, apres) {
     if (!entrees || !entrees.length) return;
     var noms = [];
@@ -839,12 +855,17 @@
         for (var i = 0; i < entrees.length; i++) {
           var s = d.scores[entrees[i].nom];
           if (!s) continue;   // produit hors catalogue : on garde ce qui est enregistré
-          if (typeof s.formule === "number" && entrees[i].formule !== s.formule) {
-            entrees[i].formule = s.formule; change = true;
-          }
-          var perso = typeof s.perso === "number" ? s.perso : null;
+          // Le moteur REFUSE désormais de noter certaines listes (tronquées, solaire sans
+          // filtre lisible). La note enregistrée doit alors disparaître, pas survivre : elle
+          // a été calculée sur une composition qu'on sait fausse (audit du 7/09, B4).
+          var formule = s.nonEvaluable ? null : typeof s.formule === "number" ? s.formule : entrees[i].formule;
+          if (entrees[i].formule !== formule) { entrees[i].formule = formule; change = true; }
+          var perso = s.nonEvaluable ? null : typeof s.perso === "number" ? s.perso : null;
           if (entrees[i].perso !== perso) { entrees[i].perso = perso; change = true; }
+          entrees[i].nonEvaluable = !!s.nonEvaluable;
+          if (d.algoVersion) entrees[i].algo = d.algoVersion;
         }
+        signalerNouvelAlgo(d.algoVersion, change);
         if (change && typeof apres === "function") apres();
       })
       .catch(function () { /* hors ligne : les chiffres enregistrés restent affichés */ });

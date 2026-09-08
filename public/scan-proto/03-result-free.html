@@ -474,8 +474,107 @@
 
   var produitCourant = null;
 
+  function grouper(ings){
+    var g = { benefique: [], surveiller: [], neutre: [] };
+    (ings || []).forEach(function(x){
+      var k = x.groupe === "inconnu" ? "neutre" : x.groupe;
+      (g[k] = g[k] || []).push(x);
+    });
+    return g;
+  }
+
+  // ── liste INCI complète (mêmes lignes que la fiche premium ; les drapeaux perso
+  //    n'existent pas dans une réponse visiteur — profil neutre serveur) ──
+  // Fonction à part : la liste s'affiche même quand on REFUSE de noter le produit. C'est
+  // tout ce qu'on peut honnêtement montrer d'une composition qu'on ne sait pas juger.
+  function rendreIngredients(d){
+    // Rien à décoder (produit hors périmètre) : la carte disparaît plutôt que d'afficher
+    // trois onglets vides sous le titre « Every ingredient, decoded ».
+    if (!d.ingredients || !d.ingredients.length) {
+      document.getElementById("d-ing-sec").style.display = "none";
+      return;
+    }
+    var groupes = grouper(d.ingredients);
+    function ligne(x, i){
+      var note = "";
+      if (x.groupe === "benefique") note = (x.benefits || []).map(function(b){ return FAM[b] || b; }).join(", ")
+        + (x.power >= 3 ? " · strong evidence" : x.power === 2 ? " · good evidence" : "");
+      else if (x.allergene) note = "EU-declared fragrance allergen";
+      else if ((x.irritant || 0) >= 2) note = "known irritant";
+      else if ((x.comedo || 0) >= 3) note = "may clog pores";
+      else note = x.src && x.src !== "inconnu" ? x.src : "no known effect";
+      var g = x.groupe === "benefique" ? "good" : x.groupe === "surveiller" ? "bad" : "neu";
+      return '<div class="inx-row ' + g + (i >= 5 ? " xtra" : "") + '"><span class="inx-g">'
+        + (g === "good" ? "+" : g === "bad" ? "!" : "·") + '</span><p><b>'
+        + ech(cap(x.nom)) + '</b> — ' + ech(note) + '</p></div>';
+    }
+    ["benefique", "surveiller", "neutre"].forEach(function(k){
+      var id = k === "benefique" ? "good" : k === "surveiller" ? "bad" : "neu";
+      var arr = groupes[k] || [];
+      document.getElementById("d-list-" + id).innerHTML =
+        arr.map(ligne).join("") || '<div class="inx-row neu"><p>None.</p></div>';
+      document.getElementById("d-n-" + id).textContent = arr.length;
+    });
+    var nG = groupes.benefique.length, nN = groupes.neutre.length;
+    document.querySelector("#d-inx-more .m-good").textContent = "See all " + nG + " good ingredients";
+    document.querySelector("#d-inx-more .m-neu").textContent = "See all " + nN + " neutral ingredients";
+    if (nG <= 5 && nN <= 5) document.getElementById("d-inx-more").style.display = "none";
+  }
+
+
+  // ── ON NE PEUT PAS NOTER CE PRODUIT ─────────────────────────────────────────
+  // Quatre causes, une seule page : liste d'ingrédients tronquée, solaire dont les filtres UV
+  // n'apparaissent pas dans la liste, étiquette photographiée en partie, produit hors périmètre.
+  // On montre le produit et les ingrédients qu'on a LUS, on dit pourquoi il n'y a pas de
+  // chiffre, et on cache tout ce qui suppose une note — la carte verrouillée comprise : vendre
+  // « votre score perso » sur un produit qu'on ne sait pas noter serait vendre du vent.
+  function rendreNonEvaluable(d){
+    var p = d.produit || {}, sc = d.score || {};
+    document.getElementById("d-brand").textContent = p.marque || "";
+    var nomCourt = p.nom || "";
+    if (p.marque && nomCourt.toLowerCase().indexOf(p.marque.toLowerCase()) === 0) {
+      nomCourt = nomCourt.slice(p.marque.length).replace(/^[\s\-\u2013\u2014\u00b7:]+/, "") || p.nom;
+    }
+    document.getElementById("d-name").textContent = nomCourt;
+    document.getElementById("d-name").setAttribute("data-nom-complet", p.nom || "");
+    var im = document.getElementById("d-img");
+    if (p.image) { SS.packshot(im, p.image); }
+    else { im.src = SILHOUETTE; im.style.filter = "none"; im.classList.remove("detoure"); }
+
+    // la jauge reste vide : pas de chiffre, pas d'arc, pas de couleur — rien à interpréter
+    var arc = document.getElementById("d-arc"), num = document.getElementById("d-score");
+    arc.style.animation = "none";
+    arc.setAttribute("class", "gauge-prog");
+    arc.style.strokeDashoffset = "226.2";
+    num.textContent = "\u2013";
+    num.className = "score-num";
+    document.getElementById("d-callouts").innerHTML = "";
+    document.getElementById("d-verdict-t").textContent = "We can't score this one";
+    document.getElementById("d-verdict-s").textContent = sc.message || "";
+
+    // « Best for / Avoid if », la carte verrouillée et l'ajout à la routine partent d'une note.
+    [".fit-chips", ".lock-card", "#d-add"].forEach(function(sel){
+      var el = document.querySelector(sel); if (el) el.style.display = "none";
+    });
+
+    rendreIngredients(d);
+    // Le scan a bien eu lieu : il rejoint l'historique, sans chiffre. Le faire disparaître
+    // parce qu'on n'a pas su le noter donnerait l'impression que le scan a échoué.
+    SS.historique.ajouter({ nom: p.nom, marque: p.marque || undefined, image: p.image || undefined,
+                            categorie: p.categorie || undefined, formule: null, perso: null,
+                            algo: sc.algoVersion || undefined });
+  }
+
   function rendre(d){
-    if (!d || !d.produit || !d.score || !d.score.formule || d.score.disponible === false) return;
+    if (!d || !d.produit || !d.score) return;
+    // Le moteur REFUSE désormais de noter certaines listes, et le catalogue signale les produits
+    // hors périmètre. La page sortait alors en silence, en gardant les chiffres de démonstration
+    // d'un AUTRE produit affichés comme un résultat (audit du 7/09, B4).
+    if (d.score.statut === "non-evaluable" || d.score.statut === "hors-perimetre") {
+      rendreNonEvaluable(d);
+      return;
+    }
+    if (!d.score.formule || d.score.disponible === false) return;
     var p = d.produit, f = d.score.formule;
     // Fil du tunnel visage : actualiser le paquet « produit en attente » (pastille
     // du questionnaire + boucle de 21-analyse), même en arrivée directe sur la fiche.
@@ -514,14 +613,16 @@
       f.score >= 75 ? "A well-built formula" : f.score >= 45 ? "An average formula" : "A weak formula";
     var vs = "Judged on its ingredients alone — <b>not on a specific skin</b>.";
     if (f.analysePartielle) vs += " <em>Partial analysis — some ingredients unknown.</em>";
+    // Une liste de trois ingrédients connus est notable, mais il n'y a presque rien à juger.
+    if ((f.badges || []).indexOf("minimaliste") >= 0)
+      vs += " <em>Very short list — there's little to judge.</em>";
+    // La catégorie décide de TOUTE la grille : devinée, la note est un pari, et on le dit.
+    if (d.lecture && d.lecture.provisoire)
+      vs += " <em>Category guessed from the formula — the score may shift.</em>";
     document.getElementById("d-verdict-s").innerHTML = vs;
 
     // ── ingrédients groupés (calculés serveur avec le profil NEUTRE pour un visiteur) ──
-    var groupes = { benefique: [], surveiller: [], neutre: [] };
-    (d.ingredients || []).forEach(function(x){
-      var g = x.groupe === "inconnu" ? "neutre" : x.groupe;
-      (groupes[g] = groupes[g] || []).push(x);
-    });
+    var groupes = grouper(d.ingredients);
     function gravite(x){ return (x.irritant || 0) * 2 + (x.comedo || 0) + (x.allergene ? 2 : 0) + (x.sensibilisant || 0); }
     var bons = groupes.benefique.slice().sort(function(a, b){ return (b.power || 0) - (a.power || 0); });
     var mauvais = groupes.surveiller.slice().sort(function(a, b){ return gravite(b) - gravite(a); });
@@ -568,37 +669,13 @@
     } else { document.getElementById("d-fit-bad").style.display = "none"; }
     if (!fams.length && !contre.length) document.querySelector(".fit-chips").style.display = "none";
 
-    // ── liste INCI complète (mêmes lignes que la fiche premium ; les drapeaux perso
-    //    n'existent pas dans une réponse visiteur — profil neutre serveur) ──
-    function ligne(x, i){
-      var note = "";
-      if (x.groupe === "benefique") note = (x.benefits || []).map(function(b){ return FAM[b] || b; }).join(", ")
-        + (x.power >= 3 ? " · strong evidence" : x.power === 2 ? " · good evidence" : "");
-      else if (x.allergene) note = "EU-declared fragrance allergen";
-      else if ((x.irritant || 0) >= 2) note = "known irritant";
-      else if ((x.comedo || 0) >= 3) note = "may clog pores";
-      else note = x.src && x.src !== "inconnu" ? x.src : "no known effect";
-      var g = x.groupe === "benefique" ? "good" : x.groupe === "surveiller" ? "bad" : "neu";
-      return '<div class="inx-row ' + g + (i >= 5 ? " xtra" : "") + '"><span class="inx-g">'
-        + (g === "good" ? "+" : g === "bad" ? "!" : "·") + '</span><p><b>'
-        + ech(cap(x.nom)) + '</b> — ' + ech(note) + '</p></div>';
-    }
-    ["benefique", "surveiller", "neutre"].forEach(function(k){
-      var id = k === "benefique" ? "good" : k === "surveiller" ? "bad" : "neu";
-      var arr = groupes[k] || [];
-      document.getElementById("d-list-" + id).innerHTML =
-        arr.map(ligne).join("") || '<div class="inx-row neu"><p>None.</p></div>';
-      document.getElementById("d-n-" + id).textContent = arr.length;
-    });
-    var nG = groupes.benefique.length, nN = groupes.neutre.length;
-    document.querySelector("#d-inx-more .m-good").textContent = "See all " + nG + " good ingredients";
-    document.querySelector("#d-inx-more .m-neu").textContent = "See all " + nN + " neutral ingredients";
-    if (nG <= 5 && nN <= 5) document.getElementById("d-inx-more").style.display = "none";
+    rendreIngredients(d);
 
     // le scan rejoint l'historique local (le gratuit ACCUMULE) — perso inconnu ici
     produitCourant = { nom: p.nom, marque: p.marque || undefined, image: p.image || undefined,
                        categorie: p.categorie || undefined,
-                       formule: typeof f.score === "number" ? f.score : null, perso: null };
+                       formule: typeof f.score === "number" ? f.score : null, perso: null,
+                       algo: f.algoVersion || undefined };
     SS.historique.ajouter(produitCourant);
   }
 

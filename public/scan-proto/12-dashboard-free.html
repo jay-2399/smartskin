@@ -153,9 +153,10 @@ a.nav-back { text-decoration:none; }
     JOURS[auj.getDay()] + ", " + MOIS[auj.getMonth()] + " " + auj.getDate();
 
   /* ── ce que le gratuit accumule : compteur + historique local (score formule) ── */
+  var scans = SS.historique.liste();
   function rendreScans() {
     var zone = document.getElementById("scans-zone");
-    var liste = SS.historique.liste();
+    var liste = scans;
     var compteur = document.getElementById("nb-scans");
     if (liste.length) {
       compteur.hidden = false;
@@ -197,6 +198,9 @@ a.nav-back { text-decoration:none; }
     if (m.premium) { location.replace("11-dashboard.html"); return; }
     SS.tabbar("home");
     rendreScans();
+    // Les notes recopiées vieillissent : le moteur a changé de version, ou un produit
+    // n'est plus notable. Le dashboard gratuit les relisait telles quelles (audit du 7/09).
+    SS.rafraichirScores(scans, rendreScans);
   });
 })();
 </script>
