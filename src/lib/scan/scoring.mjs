@@ -76,8 +76,10 @@ export const CONFIG = {
     riche:  { oily: -12, combination: -7, normal: 0, dry: 6 },
     legere: { oily: 5, combination: 3, normal: 0, dry: -7 },
   },
-  seuilRiche: 8,              // score de richesse au-delà duquel un produit est « riche »
-  seuilLegere: 2,             // en dessous : « léger »
+  // Seuils recalés avec la richesse par classes (audit du 7/09, D9) : Toleriane Sensitive Riche
+  // et CeraVe Moisturizing Cream restent riches, CeraVe PM reste légère.
+  seuilRiche: 4,              // score de richesse au-delà duquel un produit est « riche »
+  seuilLegere: 1.5,           // en dessous : « léger »
   sulfates: { dry: -8, sensible: -8, combination: -3, oily: 0, normal: -2 },
   exfoliantFort: { sensible: -10 },   // exfoliant puissant sur peau réactive
   filtreMineralBonus: 4,      // solaire minéral sur peau sensible
@@ -355,16 +357,28 @@ function wPos(it, barre) {
 
 // ── NATURE DU PRODUIT, déduite de la composition (pas du libellé de catégorie) ──
 // « moisturizer » ne dit pas si la crème est riche ou légère : on le lit dans l'INCI.
-const MOTS_RICHE = ["BUTTER", "OIL", "WAX", "PETROLATUM", "LANOLIN", "SHEA", "SQUALANE", "TRIGLYCERIDE", "STEARATE", "PALMITATE", "MYRISTATE", "CERA "];
+// La richesse dépend de la NATURE du corps gras, pas du mot (audit du 7/09, D9) : beurres, cires,
+// pétrolatum et lanoline sont occlusifs et lourds ; les huiles végétales le sont moins ; les esters
+// courts, le squalane et les triglycérides caprylique/caprique sont des émollients « secs », à
+// étalement rapide ; et un glycéryl ou PEG-100 stéarate est un ÉMULSIFIANT dosé à 1-3 %, pas un
+// corps gras. Une lotion légère était « heavy for your oily skin » à cause de ses émulsifiants.
+const CLASSES_RICHE = [
+  [/^(GLYCERYL|PEG-\d+|SORBITAN|SUCROSE|POLYGLYCERYL[- ]?\d*|METHYL GLUCOSE)\b.*(STEARATE|PALMITATE|OLEATE|LAURATE)/, 0],
+  [/BUTTER|PETROLATUM|LANOLIN|SHEA|BEESWAX|^CERA |\bWAX\b/, 1],
+  [/\bOIL\b|\bOIL$/, 0.7],
+  [/SQUALANE|TRIGLYCERIDE|ALKANE|ISODODECANE|STEARATE|PALMITATE|MYRISTATE|OLEATE|LAURATE|ISONONANOATE|CAPRYLATE/, 0.3],
+];
 const MOTS_LEGER = ["WATER", "GLYCERIN", "PROPANEDIOL", "BUTYLENE GLYCOL", "PENTYLENE GLYCOL", "HYALURONATE", "AQUA"];
 const FILTRES_MINERAUX = ["ZINC OXIDE", "TITANIUM DIOXIDE"];
+
+const classeRiche = (nom) => { for (const [rx, k] of CLASSES_RICHE) if (rx.test(nom)) return k; return 0; };
 
 export function natureProduit(list) {
   let richesse = 0, sulfate = false, mineral = false, forceMax = 0;
   for (const it of list) {
     const p = it.pos;
     const poids = p <= 3 ? 4 : p <= 6 ? 2.5 : p <= 10 ? 1 : 0.3;
-    if (MOTS_RICHE.some((w) => it.name.includes(w)) && !MOTS_LEGER.some((w) => it.name === w)) richesse += poids;
+    if (!MOTS_LEGER.some((w) => it.name === w)) richesse += poids * classeRiche(it.name);
     // UNE SEULE lecture de la composition (27/08) : le côté perso lisait « SULFATE|SULFONATE|
     // SARCOSINATE » par motif de nom, et pénalisait donc les SARCOSINATES — que la note formule
     // récompense au contraire comme tensioactifs DOUX. Même ingrédient, deux verdicts opposés
@@ -766,11 +780,14 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
   const nat = natureProduit(list);
   const peau = profil.skinType || "normal";
 
-  if (nat.riche) {
+  // Un produit RINCÉ n'a pas de texture à juger : une huile démaquillante n'est pas « lourde »
+  // pour une peau grasse, elle part à l'eau. Et « pas assez nourrissant » n'a de sens que pour ce
+  // qui est censé nourrir : hydratant et contour des yeux (audit du 7/09, P8 + D9).
+  if (expo >= 1 && nat.riche) {
     const pts = CONFIG.richesse.riche[peau] ?? 0;
     if (pts) { score += pts; facts.push({ label: pts > 0 ? `Rich, nourishing texture — right for your ${libPeau(peau)} skin`
       : `Rich, oily texture — heavy for your ${libPeau(peau)} skin`, points: pts, adequacy: true }); }
-  } else if (nat.legere) {
+  } else if (expo >= 1 && nat.legere && ["moisturizer", "eye-cream"].includes(categorie)) {
     const pts = CONFIG.richesse.legere[peau] ?? 0;
     if (pts) { score += pts; facts.push({ label: pts > 0 ? `Light, water-based texture — right for your ${libPeau(peau)} skin`
       : `Light texture — not nourishing enough for your ${libPeau(peau)} skin`, points: pts, adequacy: true }); }
