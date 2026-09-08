@@ -246,9 +246,18 @@ describe("allergies déclarées (q7) — la règle la plus brutale du moteur", (
     expect(a).toContain("LINALOOL");
     expect(a).not.toContain("GLYCERIN");
   });
-  it("CAMPHOR est exclu — il attrapait le Mexoryl SX, un filtre solaire", () => {
+  it("CAMPHOR redevient un allergène déclaré : le moteur compare par nom entier, il n'attrape plus le Mexoryl SX", () => {
+    // L'exclusion compensait la comparaison par sous-chaîne (« CAMPHOR » attrapait
+    // TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID). Depuis l'audit du 7 septembre, la
+    // comparaison porte sur le nom entier : le camphre n'a plus de raison d'être écarté.
     const a = versProfilPeau(result(), ans({ q7: ["allergy-fragrance"] }), dico()).allergies;
-    expect(a).not.toContain("CAMPHOR");
+    expect(a).toContain("CAMPHOR");
+  });
+  it("les conservateurs et arômes déclarables sortent du groupe « parfum »", () => {
+    const a = versProfilPeau(result(), ans({ q7: ["allergy-fragrance"] }),
+      { ...dico(), "BENZYL ALCOHOL": { euFragranceAllergen: true }, MENTHOL: { euFragranceAllergen: true } }).allergies;
+    expect(a).not.toContain("BENZYL ALCOHOL");
+    expect(a).not.toContain("MENTHOL");
   });
   it("huiles essentielles cochées → seulement les huiles", () => {
     const a = versProfilPeau(result(), ans({ q7: ["allergy-eo"] }), dico()).allergies;

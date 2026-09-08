@@ -49,7 +49,14 @@ export const CONFIG = {
   // pèse donc que sur la note PERSO, proportionnellement à la réactivité déclarée. Un profil à
   // sensibilité 0 ne paie rien pour un allergène — sinon on pénalise le decyl glucoside, l'agent
   // lavant le plus doux du marché, pour quelqu'un qui n'y est pas allergique.
-  malusSensibilisant: 3,      // × niveau (1-3) × (sensibilité/3) × w(pos)
+  // Audit du 7/09 (B10) : les sensibilisants 1-2 pèsent peu et plafonnent (le decyl glucoside
+  // coûtait −6 à une peau réactive) ; le niveau 3 est dans la note FORMULE. La réactivité,
+  // elle, est une hyperréactivité aux IRRITANTS (menthol, alcool, acides mal dosés) : canal à part.
+  malusSensibilisant: 1,      // × niveau (1-2) × (sensibilité/3) × w(pos) × exposition
+  plafondSensibilisant: 8,    // × (sensibilité/3), somme des lignes
+  malusIrritantReactif: 2,    // × irritant (2) × (sensibilité/3) × w(pos) × exposition
+  plafondIrritantReactif: 10, // × (sensibilité/3)
+  plafondComedoGras: 6,       // somme des lignes comédogènes, peau grasse/mixte ou préoccupation
   malusParfumSensible: 4,     // × sensibilité (0-3) — affiché en UNE ligne avec le malus formule
   malusComedoGras: 3,         // comédogène ≥3 × peau grasse/mixte, × w(pos)
   malusAlcoolSeche: 6,
@@ -631,19 +638,31 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
   const facts = [];
   let matchTotal = 0, capAbsolu = Infinity, strengthMax = 0;
   const matchParFamille = {};
+  const S = profil.sensitivity || 0;
+  const grille = CONFIG.RUBRIQUES[categorie] || CONFIG.RUBRIQUES.indetermine;
+  const expo = grille.exposition ?? 1;
+  // Cumuls plafonnés et lignes « une fois par produit » (audit du 7/09, B5 et B10) : le parfum, les
+  // huiles essentielles, les allergènes et les irritants ne sont plus facturés à chaque ingrédient.
+  let sensiCumul = 0, irritCumul = 0, comedoCumul = 0, parfumVu = null, heVu = null, alcoolW = 0;
+  const vus = new Set();
 
   for (const it of list) {
     const f = it.fiche;
     if (!f) continue;
+    if (vus.has(it.name)) continue;        // un ingrédient écrit deux fois compte une fois
+    vus.add(it.name);
     const w = wPos(it, barre);
-    strengthMax = Math.max(strengthMax, f.strength || 0);
+    // la force d'un actif ne compte que bien dosée : un acide en position 30 ne rend pas le
+    // produit « trop fort » (D7)
+    if (f.strength && (f.lowDose || w >= 0.6)) strengthMax = Math.max(strengthMax, f.strength);
 
     // règles absolues — sécurité (modèle validé : exclusion binaire)
     if (profil.pregnancy && f.pregnancyFlag) {
       capAbsolu = Math.min(capAbsolu, CONFIG.capGrossesse);
       facts.push({ label: `${titre(it.name)} — not recommended during pregnancy`, points: null, absolu: true, inci: it.name });
     }
-    if (profil.allergies?.some((a) => it.name.includes(a.toUpperCase()))) {
+    // nom entier, jamais sous-chaîne : « CAMPHOR » n'attrape plus le Mexoryl SX (G2 #14)
+    if (profil.allergies?.some((a) => it.name === a.toUpperCase())) {
       capAbsolu = Math.min(capAbsolu, CONFIG.capAllergie);
       facts.push({ label: `${titre(it.name)} — declared allergy`, points: null, absolu: true, inci: it.name });
     }
@@ -656,7 +675,9 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
         const fam = b;
         matchParFamille[fam] = (matchParFamille[fam] || 0) + 1;
         if (matchParFamille[fam] > CONFIG.maxActifsParFamille) continue;
-        const pts = Math.min(CONFIG.bonusMatch * sev * w, CONFIG.maxMatchParIngredient);
+        // × preuve/3 : « l'eau thermale cible vos rougeurs +7 » n'est pas défendable pour un
+        // actif à preuve 1 ; la niacinamide (preuve 3) garde son plein tarif (P12d)
+        const pts = Math.min(CONFIG.bonusMatch * sev * w * ((f.benefitPower || 1) / 3), CONFIG.maxMatchParIngredient);
         matchTotal += pts;
         // Le mot vient du PROFIL quand il en porte un : la famille `aging` couvre les rides,
         // le grain ET le teint terne (mêmes actifs), donc un mot fixe serait faux pour
@@ -666,49 +687,84 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
         break;
       }
     }
-    // ALLERGÈNE DE CONTACT : ne compte que pour une peau déclarée réactive. Le parfum et les
-    // huiles essentielles ont déjà leur propre ligne juste en dessous — pas de double comptage.
+    // ALLERGÈNE DE CONTACT, niveaux 1-2 : ne compte que pour une peau déclarée réactive, à petit
+    // tarif et plafonné — l'allergie de contact est un mécanisme immunitaire qui ne concerne que
+    // les personnes sensibilisées, pas un trait de « peau sensible » (D8). Le niveau 3 est facturé
+    // par la formule. Le parfum et les huiles essentielles ont leur propre ligne — pas deux fois.
     const sensi = f.risks?.sensibilisant || 0;
-    if (sensi > 0 && (profil.sensitivity || 0) > 0 && !f.fragrance && !f.essentialOil) {
-      const pts = -CONFIG.malusSensibilisant * sensi * ((profil.sensitivity || 0) / 3) * w;
-      score += pts;
-      facts.push({ label: `${titre(it.name)} — a known contact allergen, and your skin reacts easily`,
-                   points: +pts.toFixed(1), inci: it.name, pos: it.pos });
+    if (sensi >= 1 && sensi <= 2 && S > 0 && !f.fragrance && !f.essentialOil) {
+      const plafond = -CONFIG.plafondSensibilisant * (S / 3);
+      let pts = -CONFIG.malusSensibilisant * sensi * (S / 3) * w * expo;
+      if (sensiCumul + pts < plafond) pts = plafond - sensiCumul;
+      if (pts < 0) {
+        sensiCumul += pts; score += pts;
+        facts.push({ label: `${titre(it.name)} — listed contact allergen${sensi === 1 ? " (rarely sensitising)" : ""}`,
+                     points: +pts.toFixed(1), inci: it.name, pos: it.pos });
+      }
     }
-    // flags perso (le malus parfum formule+perso s'affiche en UNE ligne : on fusionne ici)
-    if (f.fragrance && (profil.sensitivity || 0) > 0) {
-      const pts = -CONFIG.malusParfumSensible * profil.sensitivity;
-      score += pts;
-      facts.push({ label: `Fragrance — poorly suited to your reactive skin`, points: pts, inci: it.name, fusionFormule: true });
+    // IRRITANT × PEAU RÉACTIVE : ce qui pique (menthol, alcool, acides mal dosés, propylène
+    // glycol) — niveau 2 seulement, hors ce qui a déjà sa ligne (actifs forts, alcool, parfum,
+    // HE, sulfates). Le niveau 1 frappait 432 fiches, dont les tensioactifs les plus doux (D8).
+    const fns = f.fonctions || [];
+    if ((f.risks?.irritant || 0) === 2 && S > 0 && !(f.strength >= 1) && !f.dryingAlcohol && !f.fragrance && !f.essentialOil && !fns.includes("tensioactif-agressif")) {
+      const plafond = -CONFIG.plafondIrritantReactif * (S / 3);
+      let pts = -CONFIG.malusIrritantReactif * 2 * (S / 3) * w * expo;
+      if (irritCumul + pts < plafond) pts = plafond - irritCumul;
+      if (pts < 0) {
+        irritCumul += pts; score += pts;
+        facts.push({ label: `${titre(it.name)} — may sting on reactive skin`, points: +pts.toFixed(1), inci: it.name, pos: it.pos });
+      }
     }
-    if ((f.risks?.comedogenic || 0) >= 3 && ["oily", "combination"].includes(profil.skinType)) {
-      const pts = -CONFIG.malusComedoGras * w;
-      score += pts;
-      facts.push({ label: `${titre(it.name)} — pore-clogging risk for your ${profil.skinType} skin`, points: +pts.toFixed(1), inci: it.name });
+    // parfum et huiles essentielles : UNE ligne par produit, posée après la boucle (B5)
+    if (f.fragrance && !parfumVu) parfumVu = it.name;
+    if (f.essentialOil && !heVu) heVu = it.name;
+    // COMÉDOGÈNE : ≥ 4 partout, ≥ 3 en top 5, pour une peau grasse/mixte OU qui déclare des
+    // imperfections ou de la brillance ; plafond −6 (B10, variante produit)
+    const com = f.risks?.comedogenic || 0;
+    const concerne = ["oily", "combination"].includes(profil.skinType) || profil.concerns?.blemishes || profil.concerns?.oiliness;
+    if (concerne && (com >= 4 || (com >= 3 && it.pos <= 5))) {
+      let pts = -CONFIG.malusComedoGras * w;
+      if (comedoCumul + pts < -CONFIG.plafondComedoGras) pts = -CONFIG.plafondComedoGras - comedoCumul;
+      if (pts < 0) {
+        comedoCumul += pts; score += pts;
+        facts.push({ label: `${titre(it.name)} — pore-clogging risk for your ${libPeau(profil.skinType)} skin`, points: +pts.toFixed(1), inci: it.name });
+      }
     }
-    if (f.dryingAlcohol && ["dry"].includes(profil.skinType)) {
-      score -= CONFIG.malusAlcoolSeche;
-      facts.push({ label: `Drying alcohol — hard on your dry skin`, points: -CONFIG.malusAlcoolSeche, inci: it.name });
-    }
-    if (f.essentialOil && (profil.sensitivity || 0) >= 2) {
-      score -= CONFIG.malusHEReactive;
-      facts.push({ label: `Essential oils — risky on reactive skin`, points: -CONFIG.malusHEReactive, inci: it.name });
-    }
+    // alcool desséchant : pondéré par la position, une ligne par produit (le plus haut placé)
+    if (f.dryingAlcohol && w > alcoolW) alcoolW = w;
+  }
+
+  if (parfumVu && S > 0) {
+    const pts = -+(CONFIG.malusParfumSensible * S * expo).toFixed(1);
+    score += pts;
+    facts.push({ label: `Fragrance — poorly suited to your reactive skin`, points: pts, inci: parfumVu, fusionFormule: true });
+  }
+  if (heVu && S >= 2) {
+    const pts = -+(CONFIG.malusHEReactive * expo).toFixed(1);
+    score += pts;
+    facts.push({ label: `Essential oils — risky on reactive skin`, points: pts, inci: heVu });
+  }
+  if (alcoolW > 0 && (profil.skinType === "dry" || S >= 2)) {
+    const pts = -+(CONFIG.malusAlcoolSeche * alcoolW).toFixed(1);
+    score += pts;
+    facts.push({ label: `Drying alcohol — hard on your ${profil.skinType === "dry" ? "dry" : "reactive"} skin`, points: pts });
   }
 
   score += Math.min(matchTotal, CONFIG.plafondMatchs);
 
-  // force vs tolérance
+  // force vs tolérance : UNE ligne (« comfort zone » et « strong exfoliating actives »
+  // décrivaient le même fait) : −5 par cran, +5 si acide posé sur peau réactive (S11)
+  const sensible = S >= 2;
   const depassement = Math.max(0, strengthMax - (profil.strengthCeiling ?? 2));
-  if (depassement > 0) {
-    const pts = -CONFIG.malusForceParCran * depassement;
+  const acidePose = sensible && strengthMax >= 2 && ["exfoliant", "treatment", "toner"].includes(categorie);
+  if (depassement > 0 || acidePose) {
+    const pts = -CONFIG.malusForceParCran * depassement - (acidePose ? 5 : 0);
     score += pts;
-    facts.push({ label: `Stronger than your skin's comfort zone`, points: pts });
+    facts.push({ label: depassement > 0 ? `Stronger than your skin's comfort zone` : `Strong exfoliating actives — risky on reactive skin`, points: pts });
   }
   // ── ADÉQUATION : ce produit, en tant que ce qu'il EST, convient-il à cette peau ? ──
   const nat = natureProduit(list);
   const peau = profil.skinType || "normal";
-  const sensible = (profil.sensitivity || 0) >= 2;
 
   if (nat.riche) {
     const pts = CONFIG.richesse.riche[peau] ?? 0;
@@ -734,8 +790,7 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
   // « PLUS UTILISÉ ». Il valait donc toujours undefined, `?? 1` le remontait à 1, et la
   // condition était TOUJOURS vraie : des masques à l'argile et des baumes à lèvres
   // recevaient un bonus de protection solaire, avec la phrase qui va avec.
-  const grille = CONFIG.RUBRIQUES[categorie] || CONFIG.RUBRIQUES.indetermine;
-  if (filtresUV && (grille.exposition ?? 1) >= 1) {
+  if (filtresUV && expo >= 1) {
     const pigmentation = (profil.concerns?.spots || 0) > 0 ? 1 : 0;
     const besoin = Math.min(3, (profil.besoinSolaire || 0) + pigmentation);
     if (besoin > 0) {
@@ -747,15 +802,18 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
       facts.push({ label: `UV filters — ${dit}`, points: +pts.toFixed(1), adequacy: true });
     }
   }
-  if (sensible && nat.forceMax >= 2 && ["exfoliant", "treatment", "toner"].includes(categorie)) {
-    score += CONFIG.exfoliantFort.sensible;
-    facts.push({ label: `Strong exfoliating actives — risky on reactive skin`, points: CONFIG.exfoliantFort.sensible, adequacy: true });
-  }
   if (categorie === "sunscreen" && nat.mineral && sensible) {
     score += CONFIG.filtreMineralBonus;
     facts.push({ label: `Mineral UV filters — gentler on reactive skin`, points: CONFIG.filtreMineralBonus, adequacy: true });
   }
 
+  // La note perso ne dépasse jamais le plafond posé par la formule (interdit UE, hydroquinone) —
+  // il était contourné : Paula's Choice Skin Balancing 69 → 88 en perso (S3).
+  const capFormule = F.cap ?? Infinity;
+  if (score > capFormule) {
+    facts.push({ label: `Capped by its formula — ${String(F.details?.find((d) => d.type === "plafond")?.dit || "a formula-level limit applies").replace(/^capped at \d+ — /, "")}`, points: -+(score - capFormule).toFixed(1) });
+    score = capFormule;
+  }
   score = Math.min(score, capAbsolu);
   const final = clamp(score);
   facts.sort((a, b) => Math.abs(b.points ?? 99) - Math.abs(a.points ?? 99));

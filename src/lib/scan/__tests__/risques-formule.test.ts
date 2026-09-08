@@ -1,7 +1,9 @@
 import { describe, it, expect } from "vitest";
 import { scoreFormule } from "@/lib/scan/scoring.mjs";
 import { dictionnaire, ficheIngredients } from "@/lib/scan/moteur";
-import { PROFIL_NEUTRE } from "@/lib/scan/acces";
+
+// profil neutre, inline : `@/lib/scan/acces` tire NextAuth, qui ne se charge pas sous vitest
+const PROFIL_NEUTRE = { skinType: "normal", sensitivity: 0, concerns: {}, strengthCeiling: 3, pregnancy: false, allergies: [] as string[] };
 
 /* LES RISQUES ET LES PLAFONDS DE LA NOTE FORMULE (audit du 7 septembre, G2 #9-#12).
    La comédogénicité (échelle oreille de lapin, Fulton 1989) ne prédit pas le produit fini
