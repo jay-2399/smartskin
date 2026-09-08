@@ -22,6 +22,9 @@ export const CONFIG = {
     { maxPos: Infinity, w: 0.3 },
   ],
   wSous1pct: 0.3,             // au-delà de la barre des 1 %, ordre légalement libre
+  // Places qu'une ligne de mérite peut espérer occuper (B11.2, voir maxAtteignable).
+  // Les cinq premières positions sont celles du véhicule : aucune n'y figure.
+  placesAtteignables: [0.6, 0.6, 0.6, 0.6, 0.6, ...Array(30).fill(0.3)],
   // score FORMULE
   bonusActif: 3.5,            // × benefitPower (1-3) — calibré 2026-08-26 : une formule parfaite atteint 100
   maxActifsParFamille: 2,
@@ -504,12 +507,59 @@ function evalueLigne(l, ctx) {
   return { pts: Math.min(total, l.plafond ?? Infinity), n };
 }
 
-// Maximum atteignable d'une grille = somme de ses plafonds. Sert à normaliser : une grille
-// exigeante et une grille facile valent la même chose une fois remplies à 100 %.
+// CE QU'UNE GRILLE PEUT RÉELLEMENT RAPPORTER (audit du 7 septembre, B11.2).
+//
+// La note dit « quelle part de son métier ce produit accomplit ». Encore faut-il que cette part
+// soit atteignable. Jusqu'ici le dénominateur était la somme des plafonds — le maximum THÉORIQUE.
+// Or les lignes `pondere` multiplient leurs points par le poids de position, et une liste INCI
+// n'a que cinq places à poids plein, occupées par le véhicule : l'eau, le tensioactif d'un
+// nettoyant, la phase grasse d'une crème. Les émollients d'un nettoyant sont structurellement
+// plus bas : leur ligne vaut 16 points sur le papier et en paie 5 dans la vie réelle.
+//
+// Conséquence mesurée sur les 2 863 produits notables : le MEILLEUR nettoyant du catalogue
+// atteignait 43,6 points d'une grille qui en demande 50, le meilleur masque 49 sur 54. Ces
+// familles étaient notées sur un barème que leur chimie interdit de remplir — 20,7 % de verts
+// chez les nettoyants et 21,3 % chez les masques, contre 42 % chez les traitements.
+//
+// Le modèle de places, sans aucun recalage sur le catalogue : les cinq premières positions
+// appartiennent au véhicule, donc aucune ligne de mérite n'y prétend ; restent cinq places à
+// poids 0,6 puis le reste à 0,3 ; chaque place va à la ligne qui en tire le plus, jusqu'à son
+// plafond ; une ligne non pondérée prend son plafond sans consommer de place. Vérification :
+// le modèle retombe sur le maximum réellement observé à 0-8 % près, famille par famille.
 const _maxCache = new Map();
-function maxTheorique(R) {
+
+// combien de fois une ligne peut compter, avant son plafond
+function unitesMax(l) {
+  if (l.parType) return (Array.isArray(l.quoi) ? l.quoi : [l.quoi]).length;
+  if (l.quoi === "@actifs") return CONFIG.maxActifsParFamille * 3;   // 3 familles de bénéfices
+  if (typeof l.quoi === "string" && l.quoi.startsWith("@")) return 1;   // prédicat binaire
+  return l.maxPos ?? 12;
+}
+
+export function maxAtteignable(R) {
   if (_maxCache.has(R.label)) return _maxCache.get(R.label);
-  const m = R.merites.reduce((a, l) => a + (l.plafond ?? l.pts), 0);
+  const lignes = R.merites.map((l) => ({ l, reste: unitesMax(l), acquis: 0 }));
+  let total = 0;
+  for (const x of lignes) {
+    if (x.l.pondere) continue;
+    total += Math.min(x.l.plafond ?? x.l.pts, x.reste * x.l.pts);
+    x.reste = 0;
+  }
+  // un actif « prouvé » vaut benefitPower 3 : c'est le meilleur cas, donc celui du maximum
+  const mult = (l) => (l.quoi === "@actifs" ? 3 : 1);
+  for (const w of CONFIG.placesAtteignables) {
+    let best = null, gain = 0;
+    for (const x of lignes) {
+      if (x.reste <= 0) continue;
+      const g = Math.min(x.l.pts * mult(x.l) * w, (x.l.plafond ?? Infinity) - x.acquis);
+      if (g > gain) { gain = g; best = x; }
+    }
+    if (!best || gain <= 0.05) break;
+    best.acquis += gain;
+    best.reste -= 1;
+  }
+  for (const x of lignes) total += x.acquis;
+  const m = +total.toFixed(2);
   _maxCache.set(R.label, m);
   return m;
 }
@@ -567,7 +617,7 @@ export function scoreFormule(inci, categorie, filtresUV, opts = {}) {
   }
   // Normalisation par le maximum de CETTE grille : la note dit « quelle part de son métier
   // ce produit accomplit », pas « combien de points il a ramassés ».
-  const part = Math.min(1, brut / maxTheorique(R));
+  const part = Math.min(1, brut / maxAtteignable(R));
   const merite = part * CONFIG.budgetMetier;
   for (const { l, pts, n } of lignes)
     details.push({ type: "merite", id: l.id, pts: +(pts / Math.max(brut, 1e-9) * merite).toFixed(1), n, dit: l.dit });
@@ -688,6 +738,10 @@ export function scoreFormule(inci, categorie, filtresUV, opts = {}) {
   const ev = evaluabilite(list, categorie, filtresUV, opts.lecture || {});
 
   return { score: clamp(score), bande: bande(clamp(score)), details, couverture: ev.couverture10, metier: R.metier,
+           // diagnostic de calibration (B11) : les points métier bruts et le dénominateur qui
+           // les normalise. Sans eux, `part` est écrêté à 1 et la queue de distribution
+           // devient invisible — or c'est exactement ce que B11 doit mesurer.
+           metierBrut: +brut.toFixed(2), metierMax: maxAtteignable(R),
            analysePartielle: ev.badges.includes("partielle"), nIngredients: list.length,
            evaluable: ev.evaluable, raison: ev.raison, badges: ev.badges,
            cap: cap === Infinity ? null : cap,   // renvoyé pour que la note perso ne le dépasse jamais (S3) ; null = JSON-safe

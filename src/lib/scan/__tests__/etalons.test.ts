@@ -10,7 +10,16 @@ import { catalogue } from "@/lib/scan/moteur";
 
    Sur trente-deux étalons mesurés, vingt-huit tombent exactement sur le tableau E. Les deux
    Avène Cicalfate+ s'en écartent de −3, pour une raison voulue : leur eau thermale de marque ne
-   compte plus comme un actif anti-rougeurs. */
+   compte plus comme un actif anti-rougeurs.
+
+   JOURNAL DE CALIBRATION — B11.2, dénominateur atteignable (2026-09-08).
+   Les cinq premiers étalons montent de 3 à 5 points, et eux seuls. Ce sont les rincés : leur
+   grille était divisée par une somme de plafonds que la chimie d'un nettoyant interdit
+   d'atteindre — le meilleur nettoyant du catalogue plafonnait à 43,6 points d'une grille qui en
+   demandait 50. Le dénominateur devient ce qu'un produit réel peut y atteindre, et le CeraVe
+   Hydrating passe de 72 à 75, c'est-à-dire du orange au vert, ce que le rapport d'audit
+   attendait de lui. Les neuf autres étalons ne bougent pas : leur grille était déjà remplissable.
+   Mesure : docs/specs/scan-scoring-v2-calcul.md, section J. */
 
 type Etalon = [nom: string, formule: number | null, sècheReactive: number | null, grasseAcneique: number | null];
 
@@ -21,11 +30,11 @@ const GRASSE_ACNEIQUE = p({ skinType: "oily", concerns: { blemishes: 3, oiliness
 // nom EXACT de la fiche du catalogue → [formule, perso peau sèche réactive, perso peau grasse acnéique]
 // `null` en formule = produit qu'on ne peut pas noter.
 const ETALONS: Etalon[] = [
-  ["CeraVe Hydrating Facial Cleanser", 72, 88, 72],
-  ["La Roche-Posay Toleriane Purifying Foaming Face Wash for Oily Skin", 72, 82, 75],
-  ["Cetaphil Gentle Skin Cleanser Face Wash, For Sensitive Skin", 70, 90, 80],
-  ["Urban Hydration Aloe Vera Leaf Face & Body Bar Soap", 32, 33, 31],
-  ["Bioderma Sensibio H2O Micellar Water Makeup Remover", 77, 78, 77],
+  ["CeraVe Hydrating Facial Cleanser", 75, 91, 75],
+  ["La Roche-Posay Toleriane Purifying Foaming Face Wash for Oily Skin", 75, 85, 78],
+  ["Cetaphil Gentle Skin Cleanser Face Wash, For Sensitive Skin", 73, 93, 83],
+  ["Urban Hydration Aloe Vera Leaf Face & Body Bar Soap", 33, 34, 32],
+  ["Bioderma Sensibio H2O Micellar Water Makeup Remover", 82, 83, 82],
   ["La Roche-Posay Toleriane Double Repair Face Moisturizer with Niacinamide", 84, 94, 99],
   ["Avène Cicalfate+ Restorative Protective Cream", 67, 80, 57],
   ["Avène Cicalfate+ Intensive Skin Restorative Serum", 64, 75, 64],

@@ -59,10 +59,20 @@ describe("LA preuve que le bouchon est mort", () => {
     expect(Object.keys(grasseAcneique.concerns)).not.toEqual(Object.keys(secheReactive.concerns));
   });
 
-  it("leurs trois meilleurs nettoyants n'ont AUCUN produit en commun", () => {
-    const a = notes(grasseAcneique, "cleanser").slice(0, 3).map((x) => x.nom);
-    const b = notes(secheReactive, "cleanser").slice(0, 3).map((x) => x.nom);
-    expect(a.filter((n) => b.includes(n))).toEqual([]);
+  // Le classement en tête ne prouve plus rien : depuis B11.2, une trentaine de nettoyants
+  // saturent à 100 pour l'une comme pour l'autre, et le « top 3 » ne départage plus que des
+  // ex æquo — le test échouait sur l'ordre d'arrivée, pas sur le fond. On mesure donc le
+  // DÉSACCORD lui-même : sur 384 nettoyants, 52 séparent les deux peaux de plus de 15 points,
+  // et pas tous dans le même sens (178 en faveur de la grasse, 16 en faveur de la sèche).
+  // Un profil non branché donnerait exactement zéro partout.
+  it("les deux peaux notent le même rayon très différemment", () => {
+    const a = notes(grasseAcneique, "cleanser");
+    const b = new Map(notes(secheReactive, "cleanser").map((x) => [x.nom, x.perso]));
+    const ecarts = a.filter((x) => b.has(x.nom)).map((x) => x.perso - b.get(x.nom)!);
+    expect(ecarts.length).toBeGreaterThan(300);
+    expect(ecarts.filter((d) => Math.abs(d) > 15).length).toBeGreaterThan(30);   // mesuré 52
+    expect(ecarts.filter((d) => d > 5).length).toBeGreaterThan(100);             // mesuré 178
+    expect(ecarts.filter((d) => d < -5).length).toBeGreaterThan(8);              // mesuré 16
   });
 
   it("et leurs moyennes s'écartent nettement", () => {

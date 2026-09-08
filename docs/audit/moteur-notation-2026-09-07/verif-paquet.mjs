@@ -4,6 +4,7 @@
 //
 //   node docs/audit/moteur-notation-2026-09-07/verif-paquet.mjs --oracle   écarts produit par produit, par cause
 //   node docs/audit/moteur-notation-2026-09-07/verif-paquet.mjs --stats    tableau F (distribution, perso, monotonie)
+//   node docs/audit/moteur-notation-2026-09-07/verif-paquet.mjs --grilles  B11.1 : ce qu'une grille demande vs ce qu'un produit peut atteindre
 //
 // À lancer depuis la racine du dépôt (le moteur lit data/scan/ depuis process.cwd()).
 import fs from "node:fs";
@@ -99,4 +100,40 @@ if (mode === "--stats") {
   d = EV.map((p) => m.scoreFormule([...toks(p), ...toks(p).slice(0, 5)].join(", "), p.category, p.filtresUV).score - SF(p).score); console.log("  doublon top 5 en queue : gains", d.filter((x) => x > 0).length, "(attendu 0)");
   const capped = EV.filter((p) => { const c = SF(p).cap; return c !== undefined && c !== null && c < Infinity; });
   console.log("  plafonnés :", capped.length, "; perso au-dessus du cap :", capped.filter((p) => Math.max(...Object.values(PR).map((P) => SP(p, P).score)) > SF(p).cap).length, "(attendu 0)");
+}
+
+if (mode === "--grilles") {
+  // B11.1 — POURQUOI CERTAINES FAMILLES NE POUVAIENT PAS ÊTRE VERTES.
+  // Chaque grille était normalisée par son maximum THÉORIQUE : la somme des plafonds de ses
+  // lignes de mérite. Or ces lignes se disputent les mêmes places : « pondere: true » multiplie
+  // les points par le poids de position, et les cinq premières positions d'une liste INCI
+  // appartiennent au véhicule (l'eau, le tensioactif, la phase grasse). Une grille dont les
+  // plafonds supposent que toutes ses lignes tiennent la tête de liste demande l'impossible.
+  // Le moteur normalise depuis B11.2 par `maxAtteignable` ; ce tableau montre l'écart et le
+  // confronte au brut réellement ramassé par les produits du catalogue — le juge de paix.
+  const parCat = {};
+  for (const { p } of produits) {
+    if (p.fictif || !CATS.includes(p.category)) continue;
+    let f; try { f = SF(p); } catch { continue; }
+    if (f.evaluable === false) continue;
+    (parCat[p.category] ??= []).push(f);
+  }
+  const lignes = [];
+  for (const c of CATS) {
+    const L = parCat[c] || [];
+    if (!L.length) continue;
+    const R = m.CONFIG.RUBRIQUES[c];
+    const bruts = L.map((f) => f.metierBrut);
+    const th = R.merites.reduce((a, l) => a + (l.plafond ?? l.pts), 0);
+    const at = m.maxAtteignable(R);
+    lignes.push([c, th, at, pct(at, th), r1(Math.max(...bruts)), pct(at, Math.max(...bruts)),
+                 r1(q(bruts, .5)), r1(q(bruts, .9)),
+                 pct(bruts.filter((b) => b >= at - 0.01).length, bruts.length),
+                 R.merites.filter((l) => l.pondere).length + "/" + R.merites.length]);
+  }
+  console.log("## B11.1 — dénominateur des grilles (" + Object.values(parCat).reduce((a, x) => a + x.length, 0) + " produits évaluables)");
+  console.log(tableau(lignes, ["famille", "maxThéo", "maxAtteign", "% du théo", "brut max observé", "modèle/observé", "brut méd", "brut p90", "% au plafond", "lignes pondérées"]));
+  console.log("\nLecture : « modèle/observé » valide le modèle de places — il doit rester proche");
+  console.log("de 100 %. « % au plafond » est la part des produits qui saturent le dénominateur :");
+  console.log("elle doit rester faible, sinon la grille ne discrimine plus par le haut.");
 }
