@@ -35,6 +35,11 @@ export const CONFIG = {
   // plafonds NON COMPENSATOIRES (recherche structure, reco n°1)
   capRisque3Top5: 49,         // gravité 3 en positions 1-5 → jamais vert
   capRisque3Ailleurs: 69,     // gravité 3 plus loin → jamais « excellent »
+  // Interdit dans l'UE (audit du 7/09, B9) : plafond 45 quand l'interdiction s'applique (portée
+  // « tous », ou produit posé) ; en rincé où la substance reste légale, malus fixe × exposition.
+  capBanniUE: 45,
+  malusBanniRince: 5,
+  malusSensibilisant3: 5,     // allergène fort hors parfum/HE (isothiazolinones, Lilial…) : risque de population, pas trait de peau
   // score PERSO
   bonusMatch: 3.5,            // × sévérité (1-3) × w(pos) — aligné sur le tarif formule (v1.2)
   maxMatchParIngredient: 10,
@@ -473,7 +478,7 @@ export function scoreFormule(inci, categorie, filtresUV) {
   const list = parseInci(inci);
   const barre = barre1pct(list);
   let score = CONFIG.base;
-  let cap = Infinity, malusParfumCumule = 0;
+  let cap = Infinity, capMotif = null, malusParfumCumule = 0;
   const parfumLignes = [], details = [];
 
   const ctx = {
@@ -525,23 +530,55 @@ export function scoreFormule(inci, categorie, filtresUV) {
   // Un même ingrédient listé deux fois (doublon de la liste source, ou sous-liste) ne doit être
   // facturé qu'UNE fois, à sa position la plus haute — sinon un doublon de saisie coûte double.
   const vusRisque = new Set();
+  let premierActifIrritantVu = false;
   for (const it of list) {
     const f = it.fiche;
     if (!f) continue;
     if (vusRisque.has(it.name)) continue;
     vusRisque.add(it.name);
-    const grav = Math.max(f.risks?.irritant || 0, Math.ceil((f.risks?.comedogenic || 0) / 2));
+    // La comédogénicité (échelle oreille de lapin, Fulton 1989) ne prédit pas le produit fini
+    // (Draelos & DiNardo 2006) : elle ne pèse plus en formule, seulement côté perso (audit du 7/09, B9).
+    const grav = f.risks?.irritant || 0;
     // spec §5.2 : le niveau 1 ne pèse QUE sur une peau très sensible → hors score formule.
     // Un ingrédient qui prend déjà un malus FIXE ne prend pas en plus le malus générique.
     const aMalusFixe = f.fragrance || f.essentialOil || (f.dryingAlcohol && it.pos <= 5);
-    if (grav >= 2 && !aMalusFixe && !dejaFactures.has(it.name)) {
+    // Le premier actif prouvé irritant, bien dosé, ne paie pas : l'irritation d'un rétinol ou
+    // d'un acide est le prix connu de son efficacité. À partir du deuxième, empiler est un
+    // défaut de formulation réel (irritation cumulative) : plein tarif (audit du 7/09, B8).
+    const actifIrritant = f.role === "active" && (f.benefitPower || 0) >= 2 && grav === 2 && (f.lowDose || wPos(it, barre) >= 0.6);
+    const exonere = actifIrritant && !premierActifIrritantVu;
+    if (actifIrritant) premierActifIrritantVu = true;
+    if (grav >= 2 && !aMalusFixe && !dejaFactures.has(it.name) && !exonere) {
       // EXPOSITION : un produit qui part au rinçage en 30 s n'expose pas la peau comme une crème
       // laissée 8 h. C'est le même argument que la pondération par position — la DOSE compte —
       // et c'est précisément ce qu'on reproche à Yuka de ne pas faire.
       const pts = -CONFIG.malusRisque * grav * wPos(it, barre) * R.severite * (R.exposition ?? 1);
       score += pts;
       details.push({ type: "risque", inci: it.name, pos: it.pos, pts: +pts.toFixed(1), grav });
-      if (grav >= 3) cap = Math.min(cap, it.pos <= 5 ? CONFIG.capRisque3Top5 : CONFIG.capRisque3Ailleurs);
+      if (grav >= 3) {
+        const c = it.pos <= 5 ? CONFIG.capRisque3Top5 : CONFIG.capRisque3Ailleurs;
+        if (c < cap) { cap = c; capMotif = "capped at " + c + " — a high-risk ingredient" + (it.pos <= 5 ? " high in the list" : ""); }
+      }
+    }
+    // Interdit dans l'UE : Lilial, Lyral et hydroquinone le sont rincés compris (portée « tous ») ;
+    // la méthylisothiazolinone reste légale en rincé (15 ppm) et n'y prend qu'un malus (B9).
+    if (f.banniUE) {
+      if (f.banniUEPortee === "tous" || (R.exposition ?? 1) >= 1) {
+        if (CONFIG.capBanniUE < cap) { cap = CONFIG.capBanniUE; capMotif = "capped at " + CONFIG.capBanniUE + " — contains an ingredient banned in the EU"; }
+        details.push({ type: "banni", inci: it.name, pos: it.pos, cap: CONFIG.capBanniUE });
+      } else {
+        const pts = -+(CONFIG.malusBanniRince * (R.exposition ?? 1)).toFixed(2);
+        score += pts;
+        details.push({ type: "banni", inci: it.name, pos: it.pos, pts });
+      }
+    }
+    // Allergène fort hors parfum et huiles essentielles (isothiazolinones, libérateurs de
+    // formaldéhyde) : un risque de population, pas un trait de « peau sensible » — il pèse sur la
+    // formule, pour tout le monde (audit du 7/09, D2).
+    if ((f.risks?.sensibilisant || 0) >= 3 && !f.fragrance && !f.essentialOil) {
+      const pts = -+(CONFIG.malusSensibilisant3 * R.severite * (R.exposition ?? 1)).toFixed(2);
+      score += pts;
+      details.push({ type: "sensibilisant3", inci: it.name, pos: it.pos, pts });
     }
     let fixe = 0, typeFixe = null;
     if (f.fragrance && CONFIG.malusParfumFixe > fixe) { fixe = CONFIG.malusParfumFixe; typeFixe = "parfum"; }
@@ -570,13 +607,18 @@ export function scoreFormule(inci, categorie, filtresUV) {
     score += CONFIG.bonusFiltresUVHorsSolaire;
     details.push({ type: "filtres-uv", pts: CONFIG.bonusFiltresUVHorsSolaire, note: "protection UV en bonus" });
   }
-  score = Math.min(score, cap);
+  // Le plafond mord : on le dit, avec les points qu'il retire, au lieu de le taire (audit du 7/09, P12a).
+  if (score > cap) {
+    details.push({ type: "plafond", pts: -+(score - cap).toFixed(1), cap, dit: capMotif });
+    score = cap;
+  }
 
   const tete = list.slice(0, 10);
   const couverture = tete.length ? tete.filter((x) => x.fiche).length / tete.length : 0;
 
   return { score: clamp(score), bande: bande(clamp(score)), details, couverture, metier: R.metier,
            analysePartielle: couverture < CONFIG.seuilCouverture, nIngredients: list.length,
+           cap: cap === Infinity ? null : cap,   // renvoyé pour que la note perso ne le dépasse jamais (S3) ; null = JSON-safe
            algoVersion: CONFIG.algoVersion };
 }
 

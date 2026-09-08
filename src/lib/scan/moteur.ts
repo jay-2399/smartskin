@@ -109,7 +109,8 @@ export function ficheIngredients(inci: string, dico: Record<string, Fiche>, pr: 
   return parseInci(inci).map((it: { name: string; pos: number; fiche?: Fiche }) => {
     const d = it.fiche || dico[it.name] || null;
     if (!d) return { nom: it.name, pos: it.pos, groupe: "inconnu" };
-    const grav = Math.max(d.risks?.irritant || 0, Math.ceil((d.risks?.comedogenic || 0) / 2));
+    // même règle que scoring.mjs (audit du 7/09, B9) : la comédogénicité ne fait plus la gravité
+    const grav = d.risks?.irritant || 0;
     const sensi = d.risks?.sensibilisant || 0;
     const flagPerso = (d.fragrance && (pr.sensitivity || 0) > 0)
       || (sensi >= 2 && (pr.sensitivity || 0) >= 2)
@@ -120,7 +121,7 @@ export function ficheIngredients(inci: string, dico: Record<string, Fiche>, pr: 
     return {
       nom: it.name, pos: it.pos,
       groupe: d.role === "active" && d.benefits?.length ? "benefique"
-            : (grav >= 2 || d.fragrance || d.essentialOil) ? "surveiller" : "neutre",
+            : (grav >= 2 || d.fragrance || d.essentialOil || (d.risks?.comedogenic || 0) >= 4) ? "surveiller" : "neutre",
       benefits: d.benefits || [], power: d.benefitPower || 0,
       irritant: d.risks?.irritant || 0, sensibilisant: sensi,
       comedo: d.risks?.comedogenic || 0, allergene: !!d.euFragranceAllergen,
