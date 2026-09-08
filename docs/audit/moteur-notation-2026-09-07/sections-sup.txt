@@ -1,0 +1,37 @@
+
+if (section === "F2B") {
+  console.log("## F2 bis — D8 restreint aux irritants de niveau 2 (D8B) : nettoyants doux et toniques agressifs, perso sens3\n");
+  const rows = [];
+  for (const [n, b] of Object.entries({ "V0": ["BASE"], "D8 (irritant >=1)": ["D8"], "D8B (irritant 2 seulement)": ["D8B"], "D8B + S1": ["D8B", "S1"], "D8B + S1 + S5": ["D8B", "S1", "S5"] })) {
+    apply(...b);
+    const cl = CAT.filter((p) => p.category === "cleanser").map((p) => SP(p, PR.sens3).score);
+    const doux = CAT.filter((p) => p.category === "cleanser" && !/sulfate|parfum|fragrance/i.test(p.inci)).map((p) => SP(p, PR.sens3).score);
+    const ton = CAT.filter((p) => p.category === "toner" && /menthol|alcohol denat/i.test(p.inci)).map((p) => SP(p, PR.sens3).score);
+    const sol = CAT.filter((p) => p.category === "sunscreen").map((p) => SP(p, PR.sens3).score);
+    const ps = persoStats(PR.sens3);
+    rows.push([n, q(cl, .5), pct(cl.filter((v) => v < 45).length, cl.length), q(doux, .5), q(ton, .5), q(sol, .5), ps.dmoy, ps.rouge, ps.cinq, ...etalons([/CeraVe Hydrating|Toleriane Purifying|Sensibio|Tonique menthol|Effaclar toner/], ["sens3"]).map((e) => e[4])]);
+  }
+  console.log(tableau(rows, ["variante", "nettoyants med", "%rouge", "nettoyants sans sulfate ni parfum med", "toniques menthol/alcool med", "solaires med", "Dmoy", "%rouge", "%=5", "CeraVe H.", "Tol. Purif.", "Sensibio", "Tonique menthol", "Effaclar astr."]));
+}
+if (section === "F4B") {
+  console.log("## F4 bis — la triche se deplace vers les lignes non ponderees (antiox, lipides) : effet de POND\n");
+  const TO = ET["TO Niacinamide 10 % + Zinc"];
+  const soups = CAT.filter((p) => p.category === "serum" && m.scoreFormule(p.inci, "serum", p.filtresUV).score >= 90);
+  console.log("  serums >= 90 a l'etat actuel :", soups.length, soups.map((p) => p.name.slice(0, 40)).join(" ; "));
+  const rows = [];
+  for (const [n, b] of Object.entries({ "V0": ["BASE"], "U2": ["ACTW", "S6", "MONO", "D5"], "U2 + POND": ["ACTW", "S6", "MONO", "D5", "POND"], "U2 + POND + P6D": ["ACTW", "S6", "MONO", "D5", "POND", "P6D"], "U2 + POND + P6D + S5": ["ACTW", "S6", "MONO", "D5", "POND", "P6D", "S5"] })) {
+    apply(...b);
+    const t = m.decouperInci(TO.inci).map((x) => x.trim()); const i = t.findIndex((x) => /phenoxyethanol/i.test(x)); const t1 = [...t]; t1.splice(i + 1, 0, "Sodium Hyaluronate", "Panthenol", "Allantoin"); const t3 = [...t, "Camellia Sinensis Leaf Extract", "Centella Asiatica Extract", "Aloe Barbadensis Leaf Juice", "Chamomilla Recutita Flower Extract", "Glycyrrhiza Glabra Root Extract", "Panthenol", "Allantoin", "Sodium Hyaluronate"]; const t4 = [...t, "Ceramide NP", "Tocopherol"];
+    const ser = CAT.filter((p) => p.category === "serum").map((p) => SF(p).score);
+    rows.push([n, SF(TO).score, m.scoreFormule(t1.join(", "), "serum").score, m.scoreFormule([...t, "Retinol"].join(", "), "serum").score, m.scoreFormule(t3.join(", "), "serum").score, m.scoreFormule(t4.join(", "), "serum").score, ...soups.map((p) => SF(p).score), q(ser, .5), pct(ser.filter((v) => v >= 75).length, ser.length), Math.max(...ser), ET["Paula's Choice Resist (sérum)"] ? SF(ET["Paula's Choice Resist (sérum)"]).score : "-", ET["Effaclar Adapalene 0,1 %"] ? SF(ET["Effaclar Adapalene 0,1 %"]).score : "-"]);
+  }
+  console.log(tableau(rows, ["variante", "TO Niacinamide", "+3 actifs apres conservateur", "+Retinol queue", "+8 extraits queue", "+Ceramide NP+Tocopherol queue", ...soups.map((p) => p.name.slice(0, 18)), "serum med", "%vert", "max", "PC Resist", "Adapalene"]));
+  for (const [c, R] of Object.entries(G0)) { const np = R.merites.filter((l) => !l.pondere && !l.parType && typeof l.quoi === "string" && !l.quoi.startsWith("@")).map((l) => l.id + "(" + (l.plafond ?? l.pts) + ")"); if (np.length) console.log("  ", c.padEnd(15), "lignes par fonction NON ponderees :", np.join(", ")); }
+}
+if (section === "F6B") {
+  console.log("## F6 bis — P9 : ou sont les filtres organiques dans les non-solaires filtresUV ?");
+  const nonSol = CAT.filter((p) => p.category !== "sunscreen" && p.filtresUV);
+  const org = nonSol.map((p) => { const l = m.parseInci(p.inci); const f = l.filter((it) => (it.fiche?.fonctions || []).some((x) => x.startsWith("filtre")) && !/ZINC OXIDE|TITANIUM DIOXIDE/.test(it.name)); return { p, pos: f.length ? Math.min(...f.map((x) => x.pos)) : null, spf: /SPF|FPS|UV|SUN/i.test(p.name) }; });
+  console.log("  filtre organique en pos <= 8 :", org.filter((x) => x.pos && x.pos <= 8).length, "; filtre organique seulement au-dela de pos 8 :", org.filter((x) => x.pos && x.pos > 8).length, "->", org.filter((x) => x.pos && x.pos > 8).slice(0, 5).map((x) => x.p.name.slice(0, 35) + " (pos " + x.pos + ", SPF au nom : " + x.spf + ")").join(" ; "));
+  console.log("  sans filtre organique et sans SPF au nom :", org.filter((x) => !x.pos && !x.spf).length, "; avec SPF au nom :", org.filter((x) => x.spf).length);
+}

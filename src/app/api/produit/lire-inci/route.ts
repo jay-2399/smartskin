@@ -5,6 +5,7 @@ import {
   imageDepuisDataUrl, typeImage, erreur,
 } from "@/lib/scan/moteur";
 import { sessionPremium, PROFIL_NEUTRE } from "@/lib/scan/acces";
+import { scoreNonEvaluable } from "@/lib/scan/non-evaluable";
 import { profilUtilisateur } from "@/lib/scan/profil-utilisateur";
 import { writeRateLimit } from "@/lib/rate-limit";
 
@@ -46,26 +47,41 @@ export async function POST(request: Request) {
     // Sans identité catalogue, la CATÉGORIE se déduit de la composition — et le métier décide
     // de toute la grille de notation. On renvoie donc aussi le niveau de confiance, pour que
     // l'écran propose de corriger.
-    const cat = categoriser(nom, inci);
+    const cat = categoriser(nom, inci, marque);
     // Gating : gratuit = formule + ingrédients NEUTRES, sans perso (même règle que fiche).
     const { uid, premium } = await sessionPremium();
     // Un premium SANS bilan visage ne reçoit jamais une peau inventée : profil neutre,
     // pas de score perso, et `profilManquant` dit à l'écran quoi proposer.
     const resolution = premium ? await profilUtilisateur(uid) : null;
     const pr = resolution?.etat === "ok" ? resolution.profil : PROFIL_NEUTRE;
-    const f = scoreFormule(inci, cat.categorie, cat.filtresUV);
-    const score: Record<string, unknown> = { disponible: moteurDisponible(), formule: f };
-    if (resolution?.etat === "ok") score.perso = scorePerso(inci, pr, cat.categorie, f, cat.filtresUV);
-    else if (resolution) score.profilManquant = resolution.etat;
+    const lecture = { partielle: r?.partielle === true };
+    // CATÉGORIE DEVINÉE : quand les votes sont serrés, la grille peut être la mauvaise — et la
+    // grille décide de toute la note. On note alors sur les deux catégories les mieux placées et
+    // on garde la PLUS BASSE, puis on l'affiche comme provisoire (audit du 7/09, B4).
+    const seconde = cat.confiance !== "sur" ? cat.votes?.[1]?.c : null;
+    let categorie = cat.categorie;
+    let f = scoreFormule(inci, categorie, cat.filtresUV, { lecture });
+    if (seconde) {
+      const g = scoreFormule(inci, seconde, cat.filtresUV, { lecture });
+      if (g.score < f.score) { f = g; categorie = seconde; }
+    }
+    const score: Record<string, unknown> = f.evaluable
+      ? { disponible: moteurDisponible(), formule: f }
+      : scoreNonEvaluable(f.raison);
+    if (f.evaluable && resolution?.etat === "ok") score.perso = scorePerso(inci, pr, categorie, f, cat.filtresUV);
+    else if (f.evaluable && resolution) score.profilManquant = resolution.etat;
 
     return NextResponse.json({
       statut: "ok",
-      produit: { nom: nom || "Produit scanné", marque, image: null, categorie: cat.categorie, inci },
+      produit: { nom: nom || "Produit scanné", marque, image: null, categorie, inci },
       score,
       ingredients: ficheIngredients(inci, dictionnaire(), pr),
       lecture: {
         source: "étiquette photographiée", confianceCategorie: cat.confiance,
-        partielle: r?.partielle === true, nbIngredients: parseInci(inci).length,
+        // la note est calculée, mais la grille est un pari : l'écran doit le dire
+        provisoire: cat.confiance !== "sur",
+        categorieVotee: cat.categorie, categorieAlternative: seconde || null,
+        partielle: lecture.partielle, nbIngredients: parseInci(inci).length,
       },
     });
   } catch (e) {

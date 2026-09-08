@@ -1,5 +1,10 @@
 # SmartSkin Score — la formule maison (v1, 2026-08-26)
 
+> ⚠️ **Document historique.** Cette page décrit la v1 et n'est plus tenue à jour depuis le passage
+> aux grilles métier du 27/08/2026, puis l'audit du 07/09/2026. Le calcul tel qu'il tourne
+> aujourd'hui (`CONFIG.algoVersion = "2.1.0-audit"`) est décrit dans
+> **`docs/specs/scan-scoring-v2-calcul.md`**. En cas d'écart, c'est ce dernier qui fait foi.
+
 Deux notes par produit scanné, **100 % calculées, zéro IA dans les chiffres** :
 - **Score FORMULE** (0-100) : la qualité intrinsèque de la composition — la même pour tout le monde.
 - **Score PERSO** (0-100) : la même composition, relue pour UNE peau — part du score formule, ajustée par le profil.

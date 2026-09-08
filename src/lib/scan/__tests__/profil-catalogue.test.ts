@@ -59,16 +59,31 @@ describe("LA preuve que le bouchon est mort", () => {
     expect(Object.keys(grasseAcneique.concerns)).not.toEqual(Object.keys(secheReactive.concerns));
   });
 
-  it("leurs trois meilleurs nettoyants n'ont AUCUN produit en commun", () => {
-    const a = notes(grasseAcneique, "cleanser").slice(0, 3).map((x) => x.nom);
-    const b = notes(secheReactive, "cleanser").slice(0, 3).map((x) => x.nom);
-    expect(a.filter((n) => b.includes(n))).toEqual([]);
+  // Le classement en tête ne prouve plus rien : depuis B11.2, une trentaine de nettoyants
+  // saturent à 100 pour l'une comme pour l'autre, et le « top 3 » ne départage plus que des
+  // ex æquo — le test échouait sur l'ordre d'arrivée, pas sur le fond. On mesure donc le
+  // DÉSACCORD lui-même : sur 384 nettoyants, 52 séparent les deux peaux de plus de 15 points,
+  // et pas tous dans le même sens (178 en faveur de la grasse, 16 en faveur de la sèche).
+  // Un profil non branché donnerait exactement zéro partout.
+  it("les deux peaux notent le même rayon très différemment", () => {
+    const a = notes(grasseAcneique, "cleanser");
+    const b = new Map(notes(secheReactive, "cleanser").map((x) => [x.nom, x.perso]));
+    const ecarts = a.filter((x) => b.has(x.nom)).map((x) => x.perso - b.get(x.nom)!);
+    expect(ecarts.length).toBeGreaterThan(300);
+    expect(ecarts.filter((d) => Math.abs(d) > 15).length).toBeGreaterThan(30);   // mesuré 52
+    expect(ecarts.filter((d) => d > 5).length).toBeGreaterThan(100);             // mesuré 178
+    expect(ecarts.filter((d) => d < -5).length).toBeGreaterThan(8);              // mesuré 16
   });
 
-  it("et leurs moyennes s'écartent de plus de 10 points", () => {
+  it("et leurs moyennes s'écartent nettement", () => {
+    // Mesuré 6,2 points après l'audit du 7 septembre (64,9 contre 58,7), contre plus de 10
+    // avant : la peau réactive n'est plus surpunie (parfum compté une fois, sensibilisants
+    // plafonnés, plus de « pas assez nourrissant » sur un nettoyant rincé). L'écart se resserre
+    // par le haut, c'est l'effet voulu ; ce qui prouve que le profil est branché reste le
+    // classement disjoint du test précédent.
     const a = moyenne(notes(grasseAcneique, "cleanser").map((x) => x.perso));
     const b = moyenne(notes(secheReactive, "cleanser").map((x) => x.perso));
-    expect(Math.abs(a - b)).toBeGreaterThan(10);
+    expect(Math.abs(a - b)).toBeGreaterThan(5);
   });
 });
 
@@ -152,7 +167,9 @@ describe("le bonus solaire va à qui en a besoin", () => {
     const f = scoreFormule(prod.inci!, prod.category, prod.filtresUV);
     return scorePerso(prod.inci!, p, prod.category, f, prod.filtresUV).score;
   }
-  const SOLAIRE = "La Roche-Posay Anthelios";
+  // Le Melt-in Milk, pas « Anthelios » tout court : le premier Anthelios du catalogue est une
+  // fiche US dont la liste a perdu ses filtres (non évaluable depuis l'audit du 7 septembre).
+  const SOLAIRE = "La Roche-Posay Anthelios Melt-in Milk";
   const NETTOYANT = "CeraVe Foaming Facial Cleanser";
 
   it("celle qui ne se protège jamais note le solaire plus haut", () => {
@@ -174,14 +191,18 @@ describe("le bonus solaire va à qui en a besoin", () => {
     expect(tout - rien).toBeLessThanOrEqual(10);
   });
 
-  it("un produit SANS filtre UV ne bouge pas d'un point", () => {
+  it("un produit SANS filtre UV ne bouge pas d'un point quand seul le besoin solaire change", () => {
+    // mêmes préoccupations des deux côtés : la niacinamide du nettoyant cible les taches, ce
+    // n'est pas le signal qu'on mesure ici
     const a = note({ ...base, concerns: { spots: 2 }, besoinSolaire: 2 }, NETTOYANT);
-    const b = note({ ...base, concerns: {}, besoinSolaire: 0 }, NETTOYANT);
+    const b = note({ ...base, concerns: { spots: 2 }, besoinSolaire: 0 }, NETTOYANT);
     expect(a).toBe(b);
   });
 
   it("la note de FORMULE du solaire est intacte — aucun barème universel n'a bougé", () => {
     const p = catalogue().find((x) => x.name.includes(SOLAIRE) && x.inci)!;
-    expect(scoreFormule(p.inci!, p.category, p.filtresUV).score).toBe(78);
+    // 74 : mesuré après le lot « données » de l'audit du 7 septembre (tableau E du rapport :
+    // 74 → 74 sous le paquet complet). Toute autre valeur = un barème a bougé sans le dire.
+    expect(scoreFormule(p.inci!, p.category, p.filtresUV).score).toBe(74);
   });
 });

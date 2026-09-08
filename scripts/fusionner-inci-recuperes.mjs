@@ -28,6 +28,11 @@ const RECOLTES = [path.join(RACINE, "data/scan/inci-recuperes.json"),
 const SAUVEGARDE = path.join(RACINE, "data/scan/catalog.avant-inci.json");
 
 const seulementVerifier = process.argv.includes("--verifier");
+// --remplacer <fichier> : ces noms (un par ligne) peuvent voir leur inci EXISTANT écrasé — le
+// seul cas prévu : une liste amputée de ses filtres, re-récupérée (audit du 7 septembre, B1).
+const REMPLACER = process.argv.includes("--remplacer")
+  ? new Set(fs.readFileSync(process.argv[process.argv.indexOf("--remplacer") + 1], "utf8").split("\n").map((s) => s.trim()).filter(Boolean))
+  : new Set();
 const brut = fs.readFileSync(CATALOGUE, "utf8");
 const cat = JSON.parse(brut);
 const produits = Array.isArray(cat) ? cat : (cat.produits || cat.products || Object.values(cat).find(Array.isArray));
@@ -48,7 +53,7 @@ for (let [nom, v] of Object.entries(recolte)) {
   if (SANS_SUITE.has(v.type)) continue;
   const x = parNom.get(nom);
   if (!x) { refuses.push([nom, "introuvable dans le catalogue"]); continue; }
-  if (x.inci) { refuses.push([nom, "a DÉJÀ un inci — on n'écrase pas"]); continue; }
+  if (x.inci && !REMPLACER.has(nom)) { refuses.push([nom, "a DÉJÀ un inci — on n'écrase pas"]); continue; }
   if (!v.inci) { refuses.push([nom, "inci vide"]); continue; }
   // Le tri est ICI, à l'écriture, et pas seulement à la récolte. Une passe précédente avait
   // fusionné du mobilier de page — le menu d'un site, des fragments de HTML — parce que le tri

@@ -60,12 +60,25 @@ const HUILES = ["MINERAL OIL", "PARAFFINUM", "ETHYLHEXYL PALMITATE", "CAPRYLIC/C
   "ISOPROPYL MYRISTATE", "PENTAERYTHRITYL", "HYDROGENATED POLY"];
 const OCCLUSIFS = ["BUTTER", "PETROLATUM", "CERA ", "BEESWAX", "LANOLIN", "DIMETHICONE", "SHEA"];
 
-function tokens(inci) {
+export function tokens(inci) {
   return decouperInci(inci).map((t, i) => ({
     n: t.trim().toUpperCase().replace(/\s+/g, " ").replace(/\s*\([^)]*\)\s*/g, " ").trim(), pos: i + 1,
   })).filter((t) => t.n.length > 1);
 }
 const trouve = (L, mots, maxPos = 99) => L.some((t) => t.pos <= maxPos && mots.some((m) => t.n.includes(m)));
+
+// ── LE DRAPEAU « PROTECTION UV » (audit du 7 septembre, B4) ──
+// Dans un solaire, tout filtre reconnu vaut. Ailleurs, l'oxyde de zinc et le dioxyde de titane
+// seuls ne valent JAMAIS un SPF : ce sont aussi des pigments, des opacifiants et des cicatrisants
+// (Cicalfate+ a son oxyde de zinc en position 3, sans aucune protection mesurable). Une crème
+// de jour protège si elle porte un filtre organique haut placé, ou si son nom l'affirme — le nom
+// débarrassé de la marque : « SPF 30 » ou « spf30 », « FPS », « UV » en mot entier. Pas « Sun » :
+// « After Sun Club » et « Under the Greek Sun » ne protègent de rien.
+export function filtresUVDe(nom, marque, L, categorie) {
+  if (categorie === "sunscreen") return trouve(L, FILTRES_ORGA, 14) || trouve(L, FILTRES_MIN, 8);
+  const sansMarque = String(nom || "").replace(new RegExp(String(marque || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i"), "");
+  return trouve(L, FILTRES_ORGA, 8) || /\b(SPF|FPS)\s*\d|\b(SPF|FPS|UV)\b/i.test(sansMarque);
+}
 
 function preuvesComposition(L) {
   if (!L.length) return [];
@@ -90,7 +103,7 @@ function preuvesComposition(L) {
 // Sert aussi au scan d'une liste INCI photographiée : sans identité catalogue, on n'a que
 // le nom lu sur l'étiquette (parfois rien) et la composition. Le même faisceau de preuves
 // répond, et dit son niveau de confiance.
-export function categoriser(nom, inci) {
+export function categoriser(nom, inci, marque = "") {
   if (HORS_PERIMETRE.test(nom || "")) return { categorie: "hors-perimetre", confiance: "sur", votes: [] };
   const L = tokens(inci);
   const votes = Object.fromEntries(CATS.map((c) => [c, 0]));
@@ -102,7 +115,7 @@ export function categoriser(nom, inci) {
   const n2 = classement[1]?.[1] ?? 0;
   const confiance = (n1 >= 4 && n1 - n2 >= 2) ? "sur" : (n1 - n2 >= 2) ? "probable" : "incertain";
   return { categorie: c1, confiance, votes: classement.slice(0, 3).map(([c, n]) => ({ c, n })),
-           filtresUV: trouve(L, FILTRES_ORGA, 14) || trouve(L, FILTRES_MIN, 8) };
+           filtresUV: filtresUVDe(nom, marque, L, c1) };
 }
 
 if (!process.argv[1]?.endsWith("categorise.mjs")) { /* importé comme module : rien d'autre ne s'exécute */ }
@@ -136,7 +149,7 @@ for (const p of cat) {
     }
   }
   p._cat = finale; p._conf = confiance;
-  p._uv = trouve(L, FILTRES_ORGA, 14) || trouve(L, FILTRES_MIN, 8);
+  p._uv = filtresUVDe(nom, p.brand, L, finale);
   finale === p.category ? stats.inchange++ : stats.change++;
 }
 
@@ -162,7 +175,7 @@ if (APPLIQUER) {
   fs.writeFileSync(D + "catalog.bak2.json", JSON.stringify(cat));
   for (const p of cat) {
     p.categorieSource = p.categorieSource || p.category;
-    p.category = p._cat; p.catConfiance = p._conf; if (p._uv) p.filtresUV = true;
+    p.category = p._cat; p.catConfiance = p._conf; p.filtresUV = p._uv;
     delete p._cat; delete p._conf; delete p._uv;
   }
   fs.writeFileSync(D + "catalog.json", JSON.stringify(cat, null, 1));

@@ -294,10 +294,15 @@ function libelleDe(c: Candidate): string {
    d'une allergie diagnostiquée, et le libellé de la question le dit. */
 type Predicat = (nom: string, fiche: { euFragranceAllergen?: boolean; essentialOil?: boolean }) => boolean;
 
+// Déclarés parmi les allergènes de parfum, mais ce sont des conservateurs ou des arômes, pas
+// des matières parfumantes : ils plafonnaient à 10/100 68 produits SANS parfum pour qui coche
+// « allergie au parfum » — The Ordinary Caffeine en tête (audit du 7/09, S10).
+const HORS_PARFUM = new Set(["BENZYL ALCOHOL", "BENZYL BENZOATE", "BENZOIC ACID", "MENTHOL"]);
+
 const GROUPES_ALLERGENES: Record<string, Predicat> = {
   // Le parfum est l'allergène de contact le plus fréquent. On prend les 2 noms génériques
-  // plus les 137 allergènes que l'UE oblige à déclarer nommément — soit 33 % du catalogue.
-  "allergy-fragrance": (n, f) => n === "FRAGRANCE" || n === "PARFUM" || !!f.euFragranceAllergen,
+  // plus les allergènes que l'UE oblige à déclarer nommément — soit 33 % du catalogue.
+  "allergy-fragrance": (n, f) => n === "FRAGRANCE" || n === "PARFUM" || (!!f.euFragranceAllergen && !HORS_PARFUM.has(n)),
   "allergy-eo": (_n, f) => !!f.essentialOil,
   // Isothiazolinones (allergène de l'année 2013) et libérateurs de formaldéhyde.
   "allergy-preservative": (n) =>
@@ -305,29 +310,19 @@ const GROUPES_ALLERGENES: Record<string, Predicat> = {
     /^(DMDM HYDANTOIN|IMIDAZOLIDINYL UREA|DIAZOLIDINYL UREA|QUATERNIUM-15|BRONOPOL)$/.test(n),
 };
 
-/* Le moteur matche par SOUS-CHAÎNE, ce qui rend service : « LIMONENE » attrape aussi
-   « D-LIMONENE », la même substance. Vérifié sur tout le dictionnaire, ce débordement
-   est juste dans dix cas sur onze — variantes de FRAGRANCE, ETHYL LINALOOL, 4-TERPINEOL.
-
-   Le onzième ne l'est pas : « CAMPHOR » attrape TEREPHTHALYLIDENE DICAMPHOR SULFONIC
-   ACID, le Mexoryl SX, qui est un filtre solaire — rien à voir avec un parfum. Et une
-   API de sous-chaîne ne sait pas dire « CAMPHOR mais pas DICAMPHOR ».
-
-   Alors on tranche à la mesure. Retirer CAMPHOR change 17 produits : 12 cessent d'être
-   plafonnés à tort (Mexoryl), 5 cessent de l'être à raison (lotions asséchantes au
-   camphre). 12 contre 5 : on le retire. Les huiles de camphre restent couvertes par
-   l'allergie aux huiles essentielles, pour qui la déclare. */
-const EXCLUS = new Set(["CAMPHOR"]);
+/* Le moteur compare désormais chaque nom EN ENTIER (audit du 7/09, G2 #14) : « CAMPHOR » ne
+   peut plus attraper TEREPHTHALYLIDENE DICAMPHOR SULFONIC ACID (le Mexoryl SX, un filtre
+   solaire). L'exclusion qui compensait la sous-chaîne n'a plus lieu d'être : le camphre
+   redevient un allergène déclaré comme les autres. « D-LIMONENE » a sa propre fiche. */
 
 /** Déplie les allergies cochées en liste d'INCI. Sans dictionnaire → [], jamais une
  *  allergie qu'on ne saurait pas reconnaître. */
-function allergiesDe(answers: Answers, dico?: Record<string, unknown>): string[] {
+export function allergiesDe(answers: Answers, dico?: Record<string, unknown>): string[] {
   if (!dico) return [];
   const actifs = answers.q7.filter((v) => GROUPES_ALLERGENES[v]);
   if (!actifs.length) return [];
   const out = new Set<string>();
   for (const [nom, fiche] of Object.entries(dico)) {
-    if (EXCLUS.has(nom)) continue;
     for (const g of actifs) {
       if (GROUPES_ALLERGENES[g](nom, fiche as { euFragranceAllergen?: boolean; essentialOil?: boolean })) {
         out.add(nom);

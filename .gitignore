@@ -48,4 +48,4 @@ data/_travail-enrichissement/
 design/**/smartskin-v2-ecrans-cles.html
 
 # sauvegardes locales du catalogue (git garde déjà l état précédent)
-data/scan/catalog.avant-*.json
+data/scan/*.avant-*.json
