@@ -1,6 +1,4 @@
-// SmartSkin Score — moteur de notation (spec : docs/specs/scan-scoring-v2-calcul.md).
-// docs/specs/scan-scoring.md décrit la v1 et n'est plus tenu à jour : en cas d'écart, c'est
-// v2-calcul qui reflète ce fichier.
+// SmartSkin Score v1 — moteur de notation (spec : smartskin.app/docs/specs/scan-scoring.md v1.1)
 // Deux notes calculées, ZÉRO IA dans les chiffres :
 //   scoreFormule(inci)            → qualité intrinsèque de la composition (0-100)
 //   scorePerso(inci, profil)      → la même composition relue pour UNE peau (0-100) + facts[]
@@ -15,7 +13,7 @@ const D = path.join(process.cwd(), "data", "scan") + path.sep;
 
 // ── POIDS (calibrables sans toucher au code — chaque valeur sera revue en calibration) ──
 export const CONFIG = {
-  algoVersion: "2.1.0-audit",
+  algoVersion: "2.0.0-metier",
   base: 50,
   // pondération par position INCI (proxy concentration, fiable > 1 % seulement)
   wPos: [
@@ -24,9 +22,6 @@ export const CONFIG = {
     { maxPos: Infinity, w: 0.3 },
   ],
   wSous1pct: 0.3,             // au-delà de la barre des 1 %, ordre légalement libre
-  // Places qu'une ligne de mérite peut espérer occuper (B11.2, voir maxAtteignable).
-  // Les cinq premières positions sont celles du véhicule : aucune n'y figure.
-  placesAtteignables: [0.6, 0.6, 0.6, 0.6, 0.6, ...Array(30).fill(0.3)],
   // score FORMULE
   bonusActif: 3.5,            // × benefitPower (1-3) — calibré 2026-08-26 : une formule parfaite atteint 100
   maxActifsParFamille: 2,
@@ -40,11 +35,6 @@ export const CONFIG = {
   // plafonds NON COMPENSATOIRES (recherche structure, reco n°1)
   capRisque3Top5: 49,         // gravité 3 en positions 1-5 → jamais vert
   capRisque3Ailleurs: 69,     // gravité 3 plus loin → jamais « excellent »
-  // Interdit dans l'UE (audit du 7/09, B9) : plafond 45 quand l'interdiction s'applique (portée
-  // « tous », ou produit posé) ; en rincé où la substance reste légale, malus fixe × exposition.
-  capBanniUE: 45,
-  malusBanniRince: 5,
-  malusSensibilisant3: 5,     // allergène fort hors parfum/HE (isothiazolinones, Lilial…) : risque de population, pas trait de peau
   // score PERSO
   bonusMatch: 3.5,            // × sévérité (1-3) × w(pos) — aligné sur le tarif formule (v1.2)
   maxMatchParIngredient: 10,
@@ -54,14 +44,7 @@ export const CONFIG = {
   // pèse donc que sur la note PERSO, proportionnellement à la réactivité déclarée. Un profil à
   // sensibilité 0 ne paie rien pour un allergène — sinon on pénalise le decyl glucoside, l'agent
   // lavant le plus doux du marché, pour quelqu'un qui n'y est pas allergique.
-  // Audit du 7/09 (B10) : les sensibilisants 1-2 pèsent peu et plafonnent (le decyl glucoside
-  // coûtait −6 à une peau réactive) ; le niveau 3 est dans la note FORMULE. La réactivité,
-  // elle, est une hyperréactivité aux IRRITANTS (menthol, alcool, acides mal dosés) : canal à part.
-  malusSensibilisant: 1,      // × niveau (1-2) × (sensibilité/3) × w(pos) × exposition
-  plafondSensibilisant: 8,    // × (sensibilité/3), somme des lignes
-  malusIrritantReactif: 2,    // × irritant (2) × (sensibilité/3) × w(pos) × exposition
-  plafondIrritantReactif: 10, // × (sensibilité/3)
-  plafondComedoGras: 6,       // somme des lignes comédogènes, peau grasse/mixte ou préoccupation
+  malusSensibilisant: 3,      // × niveau (1-3) × (sensibilité/3) × w(pos)
   malusParfumSensible: 4,     // × sensibilité (0-3) — affiché en UNE ligne avec le malus formule
   malusComedoGras: 3,         // comédogène ≥3 × peau grasse/mixte, × w(pos)
   malusAlcoolSeche: 6,
@@ -81,10 +64,8 @@ export const CONFIG = {
     riche:  { oily: -12, combination: -7, normal: 0, dry: 6 },
     legere: { oily: 5, combination: 3, normal: 0, dry: -7 },
   },
-  // Seuils recalés avec la richesse par classes (audit du 7/09, D9) : Toleriane Sensitive Riche
-  // et CeraVe Moisturizing Cream restent riches, CeraVe PM reste légère.
-  seuilRiche: 4,              // score de richesse au-delà duquel un produit est « riche »
-  seuilLegere: 1.5,           // en dessous : « léger »
+  seuilRiche: 8,              // score de richesse au-delà duquel un produit est « riche »
+  seuilLegere: 2,             // en dessous : « léger »
   sulfates: { dry: -8, sensible: -8, combination: -3, oily: 0, normal: -2 },
   exfoliantFort: { sensible: -10 },   // exfoliant puissant sur peau réactive
   filtreMineralBonus: 4,      // solaire minéral sur peau sensible
@@ -124,13 +105,7 @@ export const CONFIG = {
   borne: [5, 100],           // 100 ATTEIGNABLE : réservé au sans-faute (0 malus + actifs prouvés)
   bandes: { vert: 75, orange: 45 },  // relevés avec l'échelle : 70 ne veut plus dire « bon » quand 100 existe
   // badge « analyse partielle » : couverture dictionnaire des positions 1-10 sous ce seuil
-  seuilCouverture: 0.8,
-  // Ce par quoi commence TOUTE formule réelle, y compris une huile pure ou une eau thermale.
-  // Une liste courte qui ne commence par rien de tout ça n'est pas une formule : c'est une liste
-  // amputée (audit du 7/09, B4).
-  basesPos1: /WATER|AQUA|OIL|BUTTER|WAX|ALCOHOL|GLYCERIN|GLYCOL|DIMETHICONE|SILOXANE|SILICONE|SQUALANE|ALKANE|ISODODECANE|PETROLATUM|PARAFFIN|HYPOCHLOROUS|SULFATE|GLUCOSIDE|BETAINE|SARCOSINATE|ISETHIONATE|TAURATE|GLUTAMATE|LACTYLATE|SULFOSUCCINATE|KAOLIN|BENTONITE|CLAY|SILICA|STARCH|TALC|ZINC OXIDE|TITANIUM DIOXIDE|CERA |TRIGLYCERIDE|HYDROGENATED|BENZOYL PEROXIDE|SALICYLIC ACID|ADAPALENE|AVOBENZONE|HOMOSALATE|OCTOCRYLENE|OCTINOXATE|OCTISALATE|SULFUR|LANOLIN|JUICE|FILTRATE|FERMENT|HAMAMELIS|ROSA |CENTELLA|ALOE|PROPANEDIOL|HEXANEDIOL|CHAMOMILLA|SNAIL|EXTRACT/,
-  nListeCourte: 5,            // au-delà, une liste est plausible même si un ingrédient manque
-  nMinimaliste: 3,            // en deçà, et tout connu : « formule minimaliste », noté tel quel
+  seuilCouverture: 0.7,
   // marqueurs de la barre des 1 % (plafond légal ou usage traceur)
   marqueurs1pct: ["PHENOXYETHANOL", "XANTHAN GUM", "CARBOMER", "DISODIUM EDTA", "SODIUM BENZOATE", "POTASSIUM SORBATE"],
 
@@ -150,11 +125,10 @@ export const CONFIG = {
   //     parType  — compte les TYPES distincts trouvés, pas les occurrences
   //     dit      — libellé affiché à l'utilisateur dans le « Why »
   // Ce que vaut une exécution PARFAITE de son métier, en points au-dessus du neutre.
-  // Chaque grille est normalisée par ce qu'un produit peut RÉELLEMENT y atteindre (voir
-  // `maxAtteignable`), donc « remplir 100 % de la grille nettoyant » vaut exactement autant que
-  // « remplir 100 % de la grille sérum ». C'est l'équité PAR CONSTRUCTION — et elle ne dépend
-  // d'aucun catalogue, contrairement aux offsets qu'elle remplace. La somme brute des plafonds
-  // ne servait plus qu'à ça et demandait l'impossible aux familles rincées (audit du 7/09, B11).
+  // Chaque grille est normalisée par SON PROPRE maximum théorique (somme de ses plafonds), donc
+  // « remplir 100 % de la grille nettoyant » vaut exactement autant que « remplir 100 % de la
+  // grille sérum ». C'est l'équité PAR CONSTRUCTION — et elle ne dépend d'aucun catalogue,
+  // contrairement aux offsets qu'elle remplace.
   budgetMetier: 42,
   RUBRIQUES: {
     // Chaque grille ne récompense que des critères MESURÉS comme discriminants dans sa famille
@@ -162,9 +136,9 @@ export const CONFIG = {
     // passé en `prerequis` : son absence coûte, sa présence ne rapporte rien.
     cleanser: {
       label: "cleanser", metier: "clean without stripping the barrier", severite: 1.0, exposition: 0.55,
-      prerequis: [{ id: "douceur", quoi: "@douceur", pts: 12, dit: "no gentle cleansing agent" }],
+      prerequis: [{ id: "douceur", quoi: "@tensioDoux", pts: 12, dit: "no gentle cleansing agent" }],
       merites: [
-        { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },        // 48 %
+        { id: "sansParfum", quoi: "@sansParfum", pts: 6.6, dit: "no fragrance" },
         { id: "profondeur", quoi: "tensioactif-doux", maxPos: 12, pts: 5, plafond: 12, pondere: true, dit: "gentle surfactants throughout" },
         { id: "soutien", quoi: ["emollient", "lipide-barriere"], parType: true, pondere: true, pts: 8, plafond: 16, dit: "leaves the barrier intact" },
         { id: "actifs", quoi: "@actifs", pts: 2, plafond: 10, pondere: true, dit: "useful actives" },
@@ -176,11 +150,9 @@ export const CONFIG = {
     },
     "makeup-remover": {
       label: "makeup remover", metier: "dissolve makeup and rinse clean", severite: 1.2, exposition: 0.5,
-      // les tensioactifs non ioniques des eaux micellaires sont aussi des émulsifiants : c'est
-      // bien eux qui dissolvent le maquillage (audit du 7/09, B6)
       prerequis: [{ id: "dissout", quoi: ["emollient", "occlusif", "tensioactif-doux", "emulsifiant"], pts: 12, dit: "nothing here dissolves makeup" }],
       merites: [
-        { id: "sansParfum", quoi: "@sansParfum", pts: 14, dit: "no fragrance — it works near the eyes" },
+        { id: "sansParfum", quoi: "@sansParfum", pts: 7, dit: "no fragrance — it works near the eyes" },
         { id: "rincable", quoi: "emulsifiant", pts: 10, plafond: 10, dit: "rinses off cleanly" },
         { id: "soutien", quoi: ["humectant", "lipide-barriere"], parType: true, pondere: true, pts: 8, plafond: 16, dit: "leaves the barrier intact" },
         { id: "actifs", quoi: "@actifs", pts: 2, plafond: 8, pondere: true, dit: "useful actives" },
@@ -189,24 +161,24 @@ export const CONFIG = {
     },
     serum: {
       label: "serum", metier: "deliver active ingredients", severite: 1.0,
-      prerequis: [{ id: "actifs", quoi: "@prereqActifs", pts: 12, dit: "too few actives for a serum" }],
+      prerequis: [{ id: "actifs", quoi: "@troisActifs", pts: 12, dit: "too few actives for a serum" }],
       merites: [
         { id: "concentre", quoi: "@actifTop5", pts: 16, dit: "a well-evidenced active high in the list" },  // 39 %
         { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },                            // 63 %
         { id: "richesse", quoi: "@actifs", pts: 2.2, plafond: 16, pondere: true, dit: "a deep active list" },
-        { id: "antiox", quoi: "antioxydant", pts: 6, plafond: 6, pondere: true, dit: "antioxidant support" },
-        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, pondere: true, dit: "barrier lipids" },              // 37 %
+        { id: "antiox", quoi: "antioxydant", pts: 6, plafond: 6, dit: "antioxidant support" },
+        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, dit: "barrier lipids" },              // 37 %
       ],
       penalites: [],
     },
     treatment: {
       label: "targeted treatment", metier: "correct one specific concern", severite: 1.0,
-      prerequis: [{ id: "actifs", quoi: "@prereqActifs", pts: 10, dit: "too few actives to treat anything" }],
+      prerequis: [{ id: "actifs", quoi: "@troisActifs", pts: 10, dit: "too few actives to treat anything" }],
       merites: [
         { id: "concentre", quoi: "@actifTop5", pts: 18, dit: "a well-evidenced active high in the list" },
         { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },
         { id: "richesse", quoi: "@actifs", pts: 2.2, plafond: 16, pondere: true, dit: "a deep active list" },
-        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, pondere: true, dit: "barrier lipids to offset the actives" },
+        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, dit: "barrier lipids to offset the actives" },
       ],
       penalites: [],
     },
@@ -217,7 +189,7 @@ export const CONFIG = {
         { id: "lipides", quoi: "lipide-barriere", pondere: true, pts: 16, plafond: 16, dit: "barrier lipids — rebuilds, not just coats" },  // 47 %
         { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },                            // 65 %
         { id: "occlusif", quoi: "occlusif", pondere: true, pts: 10, plafond: 10, dit: "seals the water in" }, // 74 %
-        { id: "antiox", quoi: "antioxydant", pts: 6, plafond: 6, pondere: true, dit: "antioxidant support" },
+        { id: "antiox", quoi: "antioxydant", pts: 6, plafond: 6, dit: "antioxidant support" },
         { id: "actifs", quoi: "@actifs", pts: 2, plafond: 10, pondere: true, dit: "useful actives" },
       ],
       penalites: [],
@@ -243,9 +215,8 @@ export const CONFIG = {
         { id: "spectre", quoi: "@spectreLarge", pts: 18, dit: "broad spectrum — UVA and UVB" },   // 75 %
         { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },                  // 60 %
         { id: "traite", quoi: "@actifTop5", pts: 10, dit: "it treats the skin as well as shields it" },
-        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, pondere: true, dit: "barrier lipids" },    // 30 %
-        // plafond 8 → 4 : les filtres occupent le top 5, la ligne n'était jamais remplissable (audit du 7/09, B1)
-        { id: "actifs", quoi: "@actifs", pts: 1.5, plafond: 4, pondere: true, dit: "skincare actives" },
+        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, dit: "barrier lipids" },    // 30 %
+        { id: "actifs", quoi: "@actifs", pts: 1.5, plafond: 8, pondere: true, dit: "skincare actives" },
       ],
       penalites: [],
     },
@@ -253,7 +224,7 @@ export const CONFIG = {
       label: "exfoliant", metier: "resurface without damaging", severite: 1.3, exposition: 0.85,
       prerequis: [{ id: "acide", quoi: ["acide-aha", "acide-bha", "acide-pha"], pts: 14, dit: "no exfoliating acid" }],
       merites: [
-        { id: "sansParfum", quoi: "@sansParfum", pts: 14, dit: "no fragrance on freshly exfoliated skin" },
+        { id: "sansParfum", quoi: "@sansParfum", pts: 11.9, dit: "no fragrance on freshly exfoliated skin" },
         { id: "tampon", quoi: ["humectant", "lipide-barriere"], parType: true, pondere: true, pts: 9, plafond: 18, dit: "buffered — limits the sting" },
         { id: "dose", quoi: ["acide-aha", "acide-bha", "acide-pha"], maxPos: 8, pts: 10, plafond: 10, pondere: true, dit: "the acid is high in the list" },
         { id: "actifs", quoi: "@actifs", pts: 2, plafond: 8, pondere: true, dit: "useful actives" },
@@ -266,8 +237,8 @@ export const CONFIG = {
       merites: [
         { id: "sansParfum", quoi: "@sansParfum", pts: 14, dit: "no fragrance" },                  // 54 %
         { id: "concentre", quoi: "@actifTop5", pts: 12, dit: "a well-evidenced active high in the list" },  // 34 %
-        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, pondere: true, dit: "barrier lipids" },    // 33 %
-        { id: "antiox", quoi: "antioxydant", pts: 8, plafond: 8, pondere: true, dit: "antioxidant support" },    // 44 %
+        { id: "lipides", quoi: "lipide-barriere", pts: 8, plafond: 8, dit: "barrier lipids" },    // 33 %
+        { id: "antiox", quoi: "antioxydant", pts: 8, plafond: 8, dit: "antioxidant support" },    // 44 %
         { id: "actifs", quoi: "@actifs", pts: 2, plafond: 10, pondere: true, dit: "useful actives" },
       ],
       penalites: [],
@@ -277,7 +248,7 @@ export const CONFIG = {
       prerequis: [{ id: "actifs", quoi: "@troisActifs", pts: 10, dit: "too few actives for a treatment mask" }],
       merites: [
         { id: "concentre", quoi: "@actifTop5", pts: 14, dit: "a well-evidenced active high in the list" },
-        { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },
+        { id: "sansParfum", quoi: "@sansParfum", pts: 8.4, dit: "no fragrance" },
         { id: "richesse", quoi: "@actifs", pts: 2, plafond: 14, pondere: true, dit: "concentrated actives" },
         { id: "confort", quoi: ["humectant", "lipide-barriere"], parType: true, pondere: true, pts: 7, plafond: 14, dit: "comfortable to leave on" },
       ],
@@ -287,8 +258,7 @@ export const CONFIG = {
       label: "product", metier: "care for the skin", severite: 1.0,
       prerequis: [],
       merites: [
-        // plafond 20 → 14 : la grille du scan à catégorie incertaine était la plus généreuse de toutes (audit du 7/09, B4)
-        { id: "actifs", quoi: "@actifs", pts: 2.5, plafond: 14, pondere: true, dit: "proven actives" },
+        { id: "actifs", quoi: "@actifs", pts: 2.5, plafond: 20, pondere: true, dit: "proven actives" },
         { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },
         { id: "soutien", quoi: ["humectant", "emollient", "occlusif", "lipide-barriere"], parType: true, pondere: true, pts: 5, plafond: 16, dit: "well-rounded base" },
       ],
@@ -299,6 +269,17 @@ export const CONFIG = {
 
 let DICT = null;
 try { DICT = JSON.parse(fs.readFileSync(D + "dictionnaire.json", "utf8")); } catch { DICT = null; }
+if (DICT) {
+  const fn = (k, f) => { if (DICT[k]) DICT[k].fonctions = [...new Set([...(DICT[k].fonctions || []), ...f])]; };
+  fn("ZINC OXIDE", ["filtre-uva", "filtre-uvb"]); fn("BIS-ETHYLHEXYLOXYPHENOL METHOXYPHENYL TRIAZINE", ["filtre-uva", "filtre-uvb"]);
+  fn("METHYLENE BIS-BENZOTRIAZOLYL TETRAMETHYLBUTYLPHENOL", ["filtre-uva", "filtre-uvb"]); fn("DROMETRIZOLE TRISILOXANE", ["filtre-uva", "filtre-uvb"]);
+  DICT["OCTISALATE"] = DICT["ETHYLHEXYL SALICYLATE"]; DICT["ZINC OXIDE (NANO)"] = DICT["ZINC OXIDE"]; DICT["TITANIUM DIOXIDE (NANO)"] = DICT["TITANIUM DIOXIDE"];
+  DICT["DIETHYLAMINO HYDROXYBENZOYL HEXYL BENZOATE"] = { role: "support", benefits: [], benefitPower: 0, risks: { irritant: 0, comedogenic: 0, sensibilisant: 0 }, fonctions: ["filtre-uva"] };
+  for (const k of ["BENZYL ALCOHOL", "4-T-BUTYLCYCLOHEXANOL", "PHENETHYL ALCOHOL", "PHENYLPROPANOL"]) if (DICT[k]) { DICT[k].fragrance = false; }
+  for (const k of ["PEG-6 CAPRYLIC/CAPRIC GLYCERIDES", "POLOXAMER 184", "POLOXAMER 188", "DISODIUM COCOAMPHODIACETATE", "SODIUM LAUROYL LACTYLATE", "POLYSORBATE 20", "PEG-40 HYDROGENATED CASTOR OIL"]) fn(k, ["tensioactif-doux"]);
+  if (DICT["PROPYLENE GLYCOL"]) { DICT["PROPYLENE GLYCOL"].risks.irritant = 1; DICT["PROPYLENE GLYCOL"].risks.sensibilisant = 2; }
+  DICT["PERFUME"] = DICT["FRAGRANCE"]; DICT["AROMA"] = DICT["FRAGRANCE"];
+}
 let ALIAS = {};
 try { ALIAS = JSON.parse(fs.readFileSync(D + "ingredients-canon.json", "utf8")).alias || {}; } catch {}
 
@@ -332,34 +313,15 @@ export function parseInci(inci) {
   // Une virgule ENTRE DEUX CHIFFRES appartient au nom (1,2-Hexanediol,
   // 2-Oleamido-1,3-Octadecanediol) : la couper inventait des positions fantômes.
   for (const tok of decouperInci(inci)) {
-    // Les étiquettes américaines collent le dosage au nom (« Zinc Oxide 20% », « Adapalene USP
-    // 0.1% ») : sans ce nettoyage, le filtre ou le rétinoïde restait inconnu (audit du 7/09, G2 #1).
     let t = tok.trim().replace(/\s+/g, " ").replace(/^[\d.]+%\s*/, "").replace(/\s*\([\d.,]+\s*%\)$/, "")
-      .replace(/\s*\d+(?:[.,]\d+)?\s*%/g, "")
-      .toUpperCase().replace(/\bUSP\b/g, "").replace(/\s*\(\s*\)/g, "")
-      .replace(/\s*\/\s*/g, "/").replace(/^[.*\-\s]+|[.*\-\s]+$/g, "");
+      .toUpperCase().replace(/\s*\/\s*/g, "/").replace(/^[.*\-\s]+|[.*\-\s]+$/g, "");
     if (t.length < 2 || t.length > 80) continue;
     // toutes les graphies de l'eau se ramènent à WATER, y compris les formes parenthésées
     // multilingues (« AQUA (WATER, EAU) », « WATER/AQUA/EAU »…) que le catalogue mélange.
     if (/^(AQUA|EAU|WATER)\b/.test(t) && /^[A-Z/() ,.]+$/.test(t) &&
         !/[A-Z]{4,}/.test(t.replace(/AQUA|WATER|EAU|PURIFIED|DEIONIZED|DISTILLED/g, ""))) t = "WATER";
-    // Tout ce qui se dit parfum en est un : « Perfume » ou « Aroma » ne contournent plus le malus.
-    if (/PARFUM|FRAGRANCE|PERFUME|\bAROMA\b/.test(t) && !/AROMATIC/.test(t)) t = "FRAGRANCE";
-    // « (NANO) » est une mention réglementaire de taille de particule, pas un autre ingrédient :
-    // « TITANIUM DIOXIDE (NANO) » restait inconnu (audit du 7/09, G1).
-    t = t.replace(/\s*[([]\s*NANO\s*[)\]]/g, "").trim();
-    // Une eau thermale de marque est de l'eau : la laisser passer pour un actif « anti-rougeurs »
-    // faisait d'un sérum « eau + glycérine + gomme » un produit à 65 (D, triche mesurée).
-    if (/(THERMAL|SPRING|VOLCANIC) WATER|EAU THERMALE/.test(t) && !/EXTRACT|FERMENT|JUICE/.test(t)) t = "WATER";
-    // Alias chaînés (« OCTISALATE 5% » → OCTISALATE → ETHYLHEXYL SALICYLATE) : trois sauts au plus.
-    for (let saut = 0; saut < 3 && ALIAS[t] !== undefined && ALIAS[t] !== t; saut++) t = ALIAS[t];
-    // NOMS BOTANIQUES PARENTHÉSÉS — volontairement PAS canonicalisés ici.
-    // « CAMELLIA OLEIFERA (GREEN TEA) LEAF EXTRACT » et « CAMELLIA OLEIFERA LEAF EXTRACT » sont
-    // la même plante ; 255 paires de ce genre coexistent au dictionnaire et 99 se contredisent
-    // sur le fond (rôle, bénéfices, risques). L'audit proposait de se rabattre sur la fiche de
-    // base : mesuré, ce repli déplace 498 produits de jusqu'à 35 points, dans les deux sens —
-    // il ne corrige rien, il choisit au hasard laquelle des deux fiches contradictoires gagne.
-    // La correction est dans les DONNÉES, paire par paire (voir la section « ouvert » du rapport).
+    if (["PARFUM", "PARFUM (FRAGRANCE)", "FRAGRANCE (PARFUM)"].includes(t)) t = "FRAGRANCE";
+    t = ALIAS[t] || t;
     pos += 1;
     out.push({ name: t, pos, fiche: DICT?.[t] ?? null });
   }
@@ -373,7 +335,7 @@ function barre1pct(list) {
 }
 
 function wPos(it, barre) {
-  if (it.fiche?.lowDose) return 1.0;                 // efficaces < 1 % : poids plein (exception)
+  if (it.fiche?.lowDose) return it.pos <= 5 ? 1.0 : 0.6;                 // efficaces < 1 % : poids plein (exception)
   if (it.pos >= barre) return CONFIG.wSous1pct;      // sous la barre : ordre non significatif
   for (const { maxPos, w } of CONFIG.wPos) if (it.pos <= maxPos) return w;
   return CONFIG.wSous1pct;
@@ -382,32 +344,16 @@ function wPos(it, barre) {
 
 // ── NATURE DU PRODUIT, déduite de la composition (pas du libellé de catégorie) ──
 // « moisturizer » ne dit pas si la crème est riche ou légère : on le lit dans l'INCI.
-// La richesse dépend de la NATURE du corps gras, pas du mot (audit du 7/09, D9) : beurres, cires,
-// pétrolatum et lanoline sont occlusifs et lourds ; les huiles végétales le sont moins ; les esters
-// courts, le squalane et les triglycérides caprylique/caprique sont des émollients « secs », à
-// étalement rapide ; et un glycéryl ou PEG-100 stéarate est un ÉMULSIFIANT dosé à 1-3 %, pas un
-// corps gras. Une lotion légère était « heavy for your oily skin » à cause de ses émulsifiants.
+const MOTS_RICHE = ["BUTTER", "OIL", "WAX", "PETROLATUM", "LANOLIN", "SHEA", "SQUALANE", "TRIGLYCERIDE", "STEARATE", "PALMITATE", "MYRISTATE", "CERA "];
 const MOTS_LEGER = ["WATER", "GLYCERIN", "PROPANEDIOL", "BUTYLENE GLYCOL", "PENTYLENE GLYCOL", "HYALURONATE", "AQUA"];
 const FILTRES_MINERAUX = ["ZINC OXIDE", "TITANIUM DIOXIDE"];
-
-// Un ester de stéarate précédé de GLYCERYL, PEG-n, SORBITAN… est un émulsifiant dosé à 1-3 % ;
-// précédé d'ASCORBYL ou RETINYL, c'est un actif dosé sous 1 %. Ni l'un ni l'autre n'est un corps gras.
-const EMULSIFIANT_OU_ACTIF = /(GLYCERYL|PEG-\d+|SORBITAN|SUCROSE|POLYGLYCERYL-\d+|METHYL GLUCOSE|ASCORBYL|RETINYL) /;
-function classeRiche(n) {
-  if (/BUTTER|WAX|PETROLATUM|LANOLIN|SHEA|CERA /.test(n)) return 1;          // occlusifs lourds
-  if (/\bOIL\b/.test(n)) return 0.7;                                          // huiles végétales
-  if (/STEARATE|PALMITATE|MYRISTATE/.test(n))
-    return EMULSIFIANT_OU_ACTIF.test(n) || /^PEG-/.test(n) ? 0 : 0.3;
-  if (/SQUALANE|TRIGLYCERIDE|ALKANE|ISODODECANE/.test(n)) return 0.3;         // émollients « secs »
-  return 0;
-}
 
 export function natureProduit(list) {
   let richesse = 0, sulfate = false, mineral = false, forceMax = 0;
   for (const it of list) {
     const p = it.pos;
     const poids = p <= 3 ? 4 : p <= 6 ? 2.5 : p <= 10 ? 1 : 0.3;
-    if (!MOTS_LEGER.some((w) => it.name === w)) richesse += poids * classeRiche(it.name);
+    { const n = it.name; let k = 0; if (/BUTTER|WAX|PETROLATUM|LANOLIN|SHEA|CERA |CERA$|PARAFFIN/.test(n)) k = 1; else if (/\bOIL\b/.test(n) && !/PEG|HYDROGENATED CASTOR/.test(n)) k = 0.7; else if (/TRIGLYCERIDE|SQUALANE|PALMITATE|MYRISTATE|STEARATE|ALKANE/.test(n)) k = /^(GLYCERYL|PEG|SORBITAN|SUCROSE|POLYGLYCERYL)/.test(n) ? 0 : 0.3; if (k && !MOTS_LEGER.some((w) => n === w)) richesse += poids * k; }
     // UNE SEULE lecture de la composition (27/08) : le côté perso lisait « SULFATE|SULFONATE|
     // SARCOSINATE » par motif de nom, et pénalisait donc les SARCOSINATES — que la note formule
     // récompense au contraire comme tensioactifs DOUX. Même ingrédient, deux verdicts opposés
@@ -415,7 +361,7 @@ export function natureProduit(list) {
     // fonctionnelle, partagée avec le score formule.
     if ((it.fiche?.fonctions || []).includes("tensioactif-agressif") && p <= 8) sulfate = true;
     if (FILTRES_MINERAUX.some((w) => it.name.includes(w))) mineral = true;
-    if (it.fiche?.strength) forceMax = Math.max(forceMax, it.fiche.strength);
+    if (it.fiche?.strength && (p <= 10 || it.fiche.lowDose)) forceMax = Math.max(forceMax, it.fiche.strength);
   }
   return { richesse, riche: richesse >= CONFIG.seuilRiche, legere: richesse <= CONFIG.seuilLegere,
            sulfate, mineral, forceMax };
@@ -427,41 +373,21 @@ export const bande = (s) => (s >= CONFIG.bandes.vert ? "good" : s >= CONFIG.band
 // ── SCORE FORMULE ──────────────────────────────────────────────────────────────
 // ── ÉVALUATEUR DE GRILLE MÉTIER ────────────────────────────────────────────────
 // Prédicats : les critères qui ne se lisent pas sur UN ingrédient mais sur la formule entière.
-const GLYCOLS_DE_BASE = /^(GLYCERIN|PROPANEDIOL|1,3-PROPANEDIOL|1,2-HEXANEDIOL|1,2-HEPTANEDIOL|[A-Z]+ GLYCOL)$/;
 const PREDICATS = {
   "@sansParfum": (ctx) => (ctx.list.every((it) => !it.fiche?.fragrance && !it.fiche?.essentialOil) ? 1 : 0),
   // savon = acide gras libre + base forte : saponification in situ, pH 9-10 (décape la barrière)
   "@savon": (ctx) => (ctx.aFonction("acide-gras-libre") && ctx.aFonction("base-saponifiante")) ||
                      ctx.aFonction("tensioactif-savon") ? 1 : 0,
   "@spectreLarge": (ctx) => (ctx.aFonction("filtre-uva") && ctx.aFonction("filtre-uvb")) ? 1 : 0,
-  // actif à PREUVES FORTES haut dans la liste = le vrai signal de concentration (39 % des sérums).
-  // Gradué par le poids de position du meilleur (1 / 0,6 / 0,3, et 1 pour un actif efficace à
-  // faible dose) : monter un actif de la 6e à la 5e place valait 11 points d'un coup (audit du 7/09, S4).
+  // actif à PREUVES FORTES haut dans la liste = le vrai signal de concentration (39 % des sérums)
   "@actifTop5": (ctx) => Math.max(0, ...ctx.list.filter((it) => it.fiche?.role === "active" && (it.fiche.benefitPower || 0) >= 3).map((it) => ctx.w(it))),
-  // l'avobenzone se dégrade au soleil si rien ne la stabilise : défaut de formulation réel.
-  // Les stabilisants sont lus par leur fonction (fonctions.mjs), pas par des noms commerciaux
-  // (« Tinosorb », « bemotrizinol ») qui n'apparaissent jamais dans une INCI — audit du 7/09, B1.
+  // l'avobenzone se dégrade au soleil si rien ne la stabilise : défaut de formulation réel
   "@photostable": (ctx) => (!ctx.list.some((it) => /AVOBENZONE|METHOXYDIBENZOYLMETHANE/.test(it.name))
-    || ctx.aFonction("stabilisant-avobenzone")) ? 1 : 0,
-  // Un solaire dont le catalogue atteste les filtres (drapeau posé à la catégorisation) n'est pas
-  // « sans filtre » parce que sa liste US a perdu sa section « Active ingredients ». Solaires
-  // seulement : hors solaire, ce drapeau ne vaut pas preuve (B4).
-  "@filtresUV": (ctx) => (ctx.aFonction("filtre-uva") || ctx.aFonction("filtre-uvb") || (ctx.cat === "sunscreen" && ctx.filtresUV)) ? 1 : 0,
-  // La douceur d'un nettoyant n'est pas la présence d'un tensioactif : un lait ou une crème
-  // lavante sans agent lavant est la forme la plus douce qui existe (audit du 7/09, B6). Le
-  // prérequis sanctionne « un système lavant agressif sans rien de doux ».
-  "@douceur": (ctx) => (ctx.aFonction("tensioactif-doux") ||
-    ((ctx.aFonction("emollient") || ctx.aFonction("emulsifiant") || ctx.aFonction("occlusif")) &&
-      !ctx.aFonction("tensioactif-agressif") && !PREDICATS["@savon"](ctx))) ? 1 : 0,
-  "@troisActifs": (ctx) => new Set(ctx.list.filter((it) => it.fiche?.role === "active" && it.fiche.benefits?.length).map((it) => it.name)).size >= 3 ? 1 : 0,
-  // Prérequis des sérums et traitements (audit du 7/09, B7) : UN actif à preuve ≥ 2, bien placé
-  // (positions 1-10 au-dessus de la barre des 1 %, ou efficace à faible dose comme le rétinol et
-  // les hyaluronates), hors glycols de base — la glycérine satisfaisait « trois actifs » partout.
-  // Un mono-actif dosé (The Ordinary Niacinamide 10 %) passe ; « eau + glycérine + gomme » non.
-  "@prereqActifs": (ctx) => ctx.list.some((it) => it.fiche?.role === "active" && (it.fiche.benefitPower || 0) >= 2 &&
-    !GLYCOLS_DE_BASE.test(it.name) && (it.fiche.lowDose || ctx.w(it) >= 0.6)) ? 1 : 0,
+    || ctx.list.some((it) => /OCTOCRYLENE|TINOSORB|BEMOTRIZINOL|BISOCTRIZOLE|POLYSILICONE-15|DIETHYLHEXYL/.test(it.name))) ? 1 : 0,
+  "@filtresUV": (ctx) => (ctx.filtresUV || ctx.aFonction("filtre-uva") || ctx.aFonction("filtre-uvb")) ? 1 : 0,
+  "@troisActifs": (ctx) => ctx.list.some((it) => it.fiche?.role === "active" && it.fiche.benefits?.length && (it.fiche.benefitPower || 0) >= 2 && !(it.fiche.benefits.length === 1 && it.fiche.benefits[0] === "dehydration") && (ctx.w(it) >= 0.6 || it.fiche.lowDose)) ? 1 : 0,
   "@humectant": (ctx) => ctx.aFonction("humectant") ? 1 : 0,
-  "@tensioDoux": (ctx) => ctx.aFonction("tensioactif-doux") ? 1 : 0,
+  "@tensioDoux": (ctx) => (ctx.aFonction("tensioactif-doux") || (!ctx.aFonction("tensioactif-agressif") && (ctx.aFonction("emollient") || ctx.aFonction("emulsifiant") || ctx.aFonction("occlusif")))) ? 1 : 0,
   "@apaisants": (ctx) => ctx.list.filter((it) => (it.fiche?.benefits || []).includes("redness")).length,
 };
 
@@ -470,20 +396,17 @@ function evalueLigne(l, ctx) {
   if (typeof l.quoi === "string" && l.quoi.startsWith("@")) {
     if (l.quoi === "@actifs") {
       let total = 0, n = 0;
-      const parFamille = {};
-      const vus = new Set();
+      const parFamille = {}; const nomsVus = new Set();
       for (const it of ctx.list) {
         const f = it.fiche;
         if (!f || f.role !== "active" || !f.benefits?.length) continue;
-        if (vus.has(it.name)) continue;                    // écrit deux fois = compté une fois (audit du 7/09, S6)
-        vus.add(it.name);
-        const w = ctx.w(it);
-        if (!(f.lowDose || w >= 0.6)) continue;            // une trace en fin de liste n'est pas un actif (P6)
+        if (nomsVus.has(it.name)) continue; nomsVus.add(it.name);
+        if (!(ctx.w(it) >= 0.6 || f.lowDose)) continue;
         const fam = f.benefits[0];
         parFamille[fam] = (parFamille[fam] || 0) + 1;
         if (parFamille[fam] > CONFIG.maxActifsParFamille) continue;   // 5 humectants ≠ 5 bonus
         n += 1;
-        total += l.pts * (f.benefitPower || 1) * (l.pondere ? w : 1);
+        total += l.pts * (f.benefitPower || 1) * (l.pondere ? ctx.w(it) : 1);
       }
       return { pts: Math.min(total, l.plafond ?? Infinity), n };
     }
@@ -491,12 +414,11 @@ function evalueLigne(l, ctx) {
     return { pts: Math.min(n * l.pts, l.plafond ?? Infinity), n };
   }
   const cherchees = Array.isArray(l.quoi) ? l.quoi : [l.quoi];
-  const vus = new Set(), vusNoms = new Set();
+  const vus = new Set(); const nomsVus = new Set();
   let total = 0, n = 0;
   for (const it of ctx.list) {
     if (l.maxPos && it.pos > l.maxPos) continue;
-    if (vusNoms.has(it.name)) continue;                    // un ingrédient = une ligne, comme pour les risques
-    vusNoms.add(it.name);
+    if (nomsVus.has(it.name)) continue; nomsVus.add(it.name);
     const fns = it.fiche?.fonctions || [];
     const match = cherchees.filter((c) => fns.includes(c));
     if (!match.length) continue;
@@ -510,104 +432,29 @@ function evalueLigne(l, ctx) {
   return { pts: Math.min(total, l.plafond ?? Infinity), n };
 }
 
-// CE QU'UNE GRILLE PEUT RÉELLEMENT RAPPORTER (audit du 7 septembre, B11.2).
-//
-// La note dit « quelle part de son métier ce produit accomplit ». Encore faut-il que cette part
-// soit atteignable. Jusqu'ici le dénominateur était la somme des plafonds — le maximum THÉORIQUE.
-// Or les lignes `pondere` multiplient leurs points par le poids de position, et une liste INCI
-// n'a que cinq places à poids plein, occupées par le véhicule : l'eau, le tensioactif d'un
-// nettoyant, la phase grasse d'une crème. Les émollients d'un nettoyant sont structurellement
-// plus bas : leur ligne vaut 16 points sur le papier et en paie 5 dans la vie réelle.
-//
-// Conséquence mesurée sur les 2 863 produits notables : le MEILLEUR nettoyant du catalogue
-// atteignait 43,6 points d'une grille qui en demande 50, le meilleur masque 49 sur 54. Ces
-// familles étaient notées sur un barème que leur chimie interdit de remplir — 20,7 % de verts
-// chez les nettoyants et 21,3 % chez les masques, contre 42 % chez les traitements.
-//
-// Le modèle de places, sans aucun recalage sur le catalogue : les cinq premières positions
-// appartiennent au véhicule, donc aucune ligne de mérite n'y prétend ; restent cinq places à
-// poids 0,6 puis le reste à 0,3 ; chaque place va à la ligne qui en tire le plus, jusqu'à son
-// plafond ; une ligne non pondérée prend son plafond sans consommer de place. Vérification :
-// le modèle retombe sur le maximum réellement observé à 0-8 % près, famille par famille.
+// Maximum atteignable d'une grille = somme de ses plafonds. Sert à normaliser : une grille
+// exigeante et une grille facile valent la même chose une fois remplies à 100 %.
 const _maxCache = new Map();
-
-// combien de fois une ligne peut compter, avant son plafond
-function unitesMax(l) {
-  if (l.parType) return (Array.isArray(l.quoi) ? l.quoi : [l.quoi]).length;
-  if (l.quoi === "@actifs") return CONFIG.maxActifsParFamille * 3;   // 3 familles de bénéfices
-  if (typeof l.quoi === "string" && l.quoi.startsWith("@")) return 1;   // prédicat binaire
-  return l.maxPos ?? 12;
-}
-
-export function maxAtteignable(R) {
+function maxTheorique(R) {
   if (_maxCache.has(R.label)) return _maxCache.get(R.label);
-  const lignes = R.merites.map((l) => ({ l, reste: unitesMax(l), acquis: 0 }));
-  let total = 0;
-  for (const x of lignes) {
-    if (x.l.pondere) continue;
-    total += Math.min(x.l.plafond ?? x.l.pts, x.reste * x.l.pts);
-    x.reste = 0;
-  }
-  // un actif « prouvé » vaut benefitPower 3 : c'est le meilleur cas, donc celui du maximum
-  const mult = (l) => (l.quoi === "@actifs" ? 3 : 1);
-  for (const w of CONFIG.placesAtteignables) {
-    let best = null, gain = 0;
-    for (const x of lignes) {
-      if (x.reste <= 0) continue;
-      const g = Math.min(x.l.pts * mult(x.l) * w, (x.l.plafond ?? Infinity) - x.acquis);
-      if (g > gain) { gain = g; best = x; }
-    }
-    if (!best || gain <= 0.05) break;
-    best.acquis += gain;
-    best.reste -= 1;
-  }
-  for (const x of lignes) total += x.acquis;
-  const m = +total.toFixed(2);
+  const m = R.merites.reduce((a, l) => a + (l.plafond ?? l.pts), 0);
   _maxCache.set(R.label, m);
   return m;
 }
 
 // ── SCORE FORMULE (v2.0 — grille métier, sans offset) ──────────────────────────
 // « À quel point ce produit réussit CE QU'IL PRÉTEND FAIRE. »
-// ── PEUT-ON NOTER CE PRODUIT ? (audit du 7 septembre, B4) ──
-// Trois cas où la note serait un mensonge : un solaire dont on ne lit aucun filtre (ça n'existe
-// pas, c'est une liste amputée), une liste trop courte pour être une formule, et une étiquette
-// que le modèle de vision dit avoir lue en partie. Mieux vaut « on ne peut pas noter » qu'un
-// chiffre rassurant. Une formule courte mais complète, elle, reste notée : c'est sa qualité.
-export function evaluabilite(list, categorie, filtresUV, lecture = {}) {
-  const n = list.length;
-  const connus = n ? list.filter((it) => it.fiche).length / n : 0;
-  const baseEnTete = n > 0 && CONFIG.basesPos1.test(list[0].name);
-  const tete = list.slice(0, 10);
-  const couverture10 = tete.length ? tete.filter((x) => x.fiche).length / tete.length : 0;
-
-  const solaireSansFiltre = categorie === "sunscreen" && !filtresUV &&
-    !list.some((it) => (it.fiche?.fonctions || []).some((f) => f.startsWith("filtre")));
-  const listeCourte = n <= CONFIG.nListeCourte && (connus < 1 || !baseEnTete);
-
-  let raison = null;
-  if (lecture.partielle) raison = "lecture-partielle";
-  else if (solaireSansFiltre) raison = "solaire-sans-filtre";
-  else if (listeCourte) raison = "liste-courte";
-
-  const badges = [];
-  if (!raison && n > 0 && n <= CONFIG.nMinimaliste && connus >= 1 && baseEnTete) badges.push("minimaliste");
-  if (!raison && (couverture10 < CONFIG.seuilCouverture || !baseEnTete)) badges.push("partielle");
-
-  return { evaluable: !raison, raison, badges, n, couverture10, baseEnTete };
-}
-
 // La note ne dépend PLUS du catalogue : un produit garde sa note même si on ajoute 500 références.
-export function scoreFormule(inci, categorie, filtresUV, opts = {}) {
+export function scoreFormule(inci, categorie, filtresUV) {
   const R = CONFIG.RUBRIQUES[categorie] || CONFIG.RUBRIQUES.indetermine;
   const list = parseInci(inci);
   const barre = barre1pct(list);
   let score = CONFIG.base;
-  let cap = Infinity, capMotif = null, malusParfumCumule = 0;
+  let cap = Infinity, malusParfumCumule = 0;
   const parfumLignes = [], details = [];
 
   const ctx = {
-    list, barre, w: (it) => wPos(it, barre), cat: categorie, filtresUV: !!filtresUV,
+    list, barre, filtresUV: !!filtresUV, w: (it) => wPos(it, barre),
     aFonction: (f) => list.some((it) => (it.fiche?.fonctions || []).includes(f)),
   };
 
@@ -620,7 +467,7 @@ export function scoreFormule(inci, categorie, filtresUV, opts = {}) {
   }
   // Normalisation par le maximum de CETTE grille : la note dit « quelle part de son métier
   // ce produit accomplit », pas « combien de points il a ramassés ».
-  const part = Math.min(1, brut / maxAtteignable(R));
+  const part = Math.min(1, brut / maxTheorique(R));
   const merite = part * CONFIG.budgetMetier;
   for (const { l, pts, n } of lignes)
     details.push({ type: "merite", id: l.id, pts: +(pts / Math.max(brut, 1e-9) * merite).toFixed(1), n, dit: l.dit });
@@ -655,56 +502,26 @@ export function scoreFormule(inci, categorie, filtresUV, opts = {}) {
   // Un même ingrédient listé deux fois (doublon de la liste source, ou sous-liste) ne doit être
   // facturé qu'UNE fois, à sa position la plus haute — sinon un doublon de saisie coûte double.
   const vusRisque = new Set();
-  let premierActifIrritantVu = false;
   for (const it of list) {
     const f = it.fiche;
     if (!f) continue;
     if (vusRisque.has(it.name)) continue;
     vusRisque.add(it.name);
-    // La comédogénicité (échelle oreille de lapin, Fulton 1989) ne prédit pas le produit fini
-    // (Draelos & DiNardo 2006) : elle ne pèse plus en formule, seulement côté perso (audit du 7/09, B9).
     const grav = f.risks?.irritant || 0;
     // spec §5.2 : le niveau 1 ne pèse QUE sur une peau très sensible → hors score formule.
     // Un ingrédient qui prend déjà un malus FIXE ne prend pas en plus le malus générique.
     const aMalusFixe = f.fragrance || f.essentialOil || (f.dryingAlcohol && it.pos <= 5);
-    // Le premier actif prouvé irritant, bien dosé, ne paie pas : l'irritation d'un rétinol ou
-    // d'un acide est le prix connu de son efficacité. À partir du deuxième, empiler est un
-    // défaut de formulation réel (irritation cumulative) : plein tarif (audit du 7/09, B8).
-    const actifIrritant = f.role === "active" && (f.benefitPower || 0) >= 2 && grav === 2 && (f.lowDose || wPos(it, barre) >= 0.6);
-    const exonere = actifIrritant && !premierActifIrritantVu;
-    if (actifIrritant) premierActifIrritantVu = true;
-    if (grav >= 2 && !aMalusFixe && !dejaFactures.has(it.name) && !exonere) {
+    if (grav >= 2 && !aMalusFixe && !dejaFactures.has(it.name)) {
       // EXPOSITION : un produit qui part au rinçage en 30 s n'expose pas la peau comme une crème
       // laissée 8 h. C'est le même argument que la pondération par position — la DOSE compte —
       // et c'est précisément ce qu'on reproche à Yuka de ne pas faire.
       const pts = -CONFIG.malusRisque * grav * wPos(it, barre) * R.severite * (R.exposition ?? 1);
       score += pts;
       details.push({ type: "risque", inci: it.name, pos: it.pos, pts: +pts.toFixed(1), grav });
-      if (grav >= 3) {
-        const c = it.pos <= 5 ? CONFIG.capRisque3Top5 : CONFIG.capRisque3Ailleurs;
-        if (c < cap) { cap = c; capMotif = "capped at " + c + " — a high-risk ingredient" + (it.pos <= 5 ? " high in the list" : ""); }
-      }
+      if (grav >= 3) cap = Math.min(cap, it.pos <= 5 ? CONFIG.capRisque3Top5 : CONFIG.capRisque3Ailleurs);
     }
-    // Interdit dans l'UE : Lilial, Lyral et hydroquinone le sont rincés compris (portée « tous ») ;
-    // la méthylisothiazolinone reste légale en rincé (15 ppm) et n'y prend qu'un malus (B9).
-    if (f.banniUE) {
-      if (f.banniUEPortee === "tous" || (R.exposition ?? 1) >= 1) {
-        if (CONFIG.capBanniUE < cap) { cap = CONFIG.capBanniUE; capMotif = "capped at " + CONFIG.capBanniUE + " — contains an ingredient banned in the EU"; }
-        details.push({ type: "banni", inci: it.name, pos: it.pos, cap: CONFIG.capBanniUE });
-      } else {
-        const pts = -CONFIG.malusBanniRince * (R.exposition ?? 1);
-        score += pts;
-        details.push({ type: "banni", inci: it.name, pos: it.pos, pts: +pts.toFixed(1) });
-      }
-    }
-    // Allergène fort hors parfum et huiles essentielles (isothiazolinones, libérateurs de
-    // formaldéhyde) : un risque de population, pas un trait de « peau sensible » — il pèse sur la
-    // formule, pour tout le monde (audit du 7/09, D2).
-    if ((f.risks?.sensibilisant || 0) >= 3 && !f.fragrance && !f.essentialOil) {
-      const pts = -CONFIG.malusSensibilisant3 * R.severite * (R.exposition ?? 1);
-      score += pts;
-      details.push({ type: "sensibilisant3", inci: it.name, pos: it.pos, pts: +pts.toFixed(1) });
-    }
+    if ((f.risks?.sensibilisant || 0) >= 3 && !f.fragrance && !f.essentialOil) { const m = 5 * R.severite * (R.exposition ?? 1); score -= m; details.push({ type: "sensibilisant-fort", inci: it.name, pos: it.pos, pts: -+m.toFixed(1) }); }
+    if (f.banniUE) cap = Math.min(cap, 45);
     let fixe = 0, typeFixe = null;
     if (f.fragrance && CONFIG.malusParfumFixe > fixe) { fixe = CONFIG.malusParfumFixe; typeFixe = "parfum"; }
     if (f.essentialOil && CONFIG.malusHEFixe > fixe) { fixe = CONFIG.malusHEFixe; typeFixe = "HE"; }
@@ -728,26 +545,18 @@ export function scoreFormule(inci, categorie, filtresUV, opts = {}) {
 
   // Filtres UV dans un NON-solaire (crème de jour avec SPF) : vrai plus, mais pas son métier.
   // Dans un solaire, ils sont déjà payés par la grille « spectre / filtres » — pas deux fois.
-  if (filtresUV && categorie !== "sunscreen") {
+  const uvCredible = list.some((it) => ((it.fiche?.fonctions || []).includes("filtre-uva") || (it.fiche?.fonctions || []).includes("filtre-uvb")) && (!/ZINC OXIDE|TITANIUM DIOXIDE/.test(it.name) || it.pos <= 6));
+  if (filtresUV && uvCredible && categorie !== "sunscreen") {
     score += CONFIG.bonusFiltresUVHorsSolaire;
     details.push({ type: "filtres-uv", pts: CONFIG.bonusFiltresUVHorsSolaire, note: "protection UV en bonus" });
   }
-  // Le plafond mord : on le dit, avec les points qu'il retire, au lieu de le taire (audit du 7/09, P12a).
-  if (score > cap) {
-    details.push({ type: "plafond", pts: -+(score - cap).toFixed(1), cap, dit: capMotif });
-    score = cap;
-  }
+  score = Math.min(score, cap);
 
-  const ev = evaluabilite(list, categorie, filtresUV, opts.lecture || {});
+  const tete = list.slice(0, 10);
+  const couverture = tete.length ? tete.filter((x) => x.fiche).length / tete.length : 0;
 
-  return { score: clamp(score), bande: bande(clamp(score)), details, couverture: ev.couverture10, metier: R.metier,
-           // diagnostic de calibration (B11) : les points métier bruts et le dénominateur qui
-           // les normalise. Sans eux, `part` est écrêté à 1 et la queue de distribution
-           // devient invisible — or c'est exactement ce que B11 doit mesurer.
-           metierBrut: +brut.toFixed(2), metierMax: maxAtteignable(R),
-           analysePartielle: ev.badges.includes("partielle"), nIngredients: list.length,
-           evaluable: ev.evaluable, raison: ev.raison, badges: ev.badges,
-           cap: cap === Infinity ? null : cap,   // renvoyé pour que la note perso ne le dépasse jamais (S3) ; null = JSON-safe
+  return { score: clamp(score), bande: bande(clamp(score)), details, couverture, metier: R.metier, cap,
+           analysePartielle: couverture < CONFIG.seuilCouverture, nIngredients: list.length,
            algoVersion: CONFIG.algoVersion };
 }
 
@@ -758,30 +567,22 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
   const barre = barre1pct(list);
   let score = F.score;
   const facts = [];
+  let parfumVu = false, heVu = false, sensiTotal = 0;
   let matchTotal = 0, capAbsolu = Infinity, strengthMax = 0;
   const matchParFamille = {};
-  const S = profil.sensitivity || 0;
-  const grille = CONFIG.RUBRIQUES[categorie] || CONFIG.RUBRIQUES.indetermine;
-  const expo = grille.exposition ?? 1;
-  // Cumuls plafonnés et lignes « une fois par produit » (audit du 7/09, B5 et B10) : le parfum, les
-  // huiles essentielles, les allergènes et les irritants ne sont plus facturés à chaque ingrédient.
-  let sensiCumul = 0, irritCumul = 0, comedoCumul = 0, parfumVu = null, heVu = null;
 
   for (const it of list) {
     const f = it.fiche;
     if (!f) continue;
     const w = wPos(it, barre);
-    // la force d'un actif ne compte que bien dosée : un acide en position 30 ne rend pas le
-    // produit « trop fort » (D7)
-    if (f.strength && (f.lowDose || w >= 0.6)) strengthMax = Math.max(strengthMax, f.strength);
+    if (w >= 0.6 || f.lowDose) strengthMax = Math.max(strengthMax, f.strength || 0);
 
     // règles absolues — sécurité (modèle validé : exclusion binaire)
     if (profil.pregnancy && f.pregnancyFlag) {
       capAbsolu = Math.min(capAbsolu, CONFIG.capGrossesse);
       facts.push({ label: `${titre(it.name)} — not recommended during pregnancy`, points: null, absolu: true, inci: it.name });
     }
-    // nom entier, jamais sous-chaîne : « CAMPHOR » n'attrape plus le Mexoryl SX (G2 #14)
-    if (profil.allergies?.some((a) => it.name === a.toUpperCase())) {
+    if (profil.allergies?.some((a) => it.name.includes(a.toUpperCase()))) {
       capAbsolu = Math.min(capAbsolu, CONFIG.capAllergie);
       facts.push({ label: `${titre(it.name)} — declared allergy`, points: null, absolu: true, inci: it.name });
     }
@@ -794,9 +595,7 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
         const fam = b;
         matchParFamille[fam] = (matchParFamille[fam] || 0) + 1;
         if (matchParFamille[fam] > CONFIG.maxActifsParFamille) continue;
-        // × preuve/3 : « l'eau thermale cible vos rougeurs +7 » n'est pas défendable pour un
-        // actif à preuve 1 ; la niacinamide (preuve 3) garde son plein tarif (P12d)
-        const pts = Math.min(CONFIG.bonusMatch * sev * w * ((f.benefitPower || 1) / 3), CONFIG.maxMatchParIngredient);
+        const pts = Math.min(CONFIG.bonusMatch * sev * w, CONFIG.maxMatchParIngredient);
         matchTotal += pts;
         // Le mot vient du PROFIL quand il en porte un : la famille `aging` couvre les rides,
         // le grain ET le teint terne (mêmes actifs), donc un mot fixe serait faux pour
@@ -806,92 +605,58 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
         break;
       }
     }
-    // ALLERGÈNE DE CONTACT, niveaux 1-2 : ne compte que pour une peau déclarée réactive, à petit
-    // tarif et plafonné — l'allergie de contact est un mécanisme immunitaire qui ne concerne que
-    // les personnes sensibilisées, pas un trait de « peau sensible » (D8). Le niveau 3 est facturé
-    // par la formule. Le parfum et les huiles essentielles ont leur propre ligne — pas deux fois.
+    // ALLERGÈNE DE CONTACT : ne compte que pour une peau déclarée réactive. Le parfum et les
+    // huiles essentielles ont déjà leur propre ligne juste en dessous — pas de double comptage.
     const sensi = f.risks?.sensibilisant || 0;
-    if (sensi >= 1 && sensi <= 2 && S > 0 && !f.fragrance && !f.essentialOil) {
-      const plafond = -CONFIG.plafondSensibilisant * (S / 3);
-      let pts = -CONFIG.malusSensibilisant * sensi * (S / 3) * w * expo;
-      if (sensiCumul + pts < plafond) pts = plafond - sensiCumul;
-      if (pts < 0) {
-        sensiCumul += pts; score += pts;
-        facts.push({ label: `${titre(it.name)} — listed contact allergen${sensi === 1 ? " (rarely sensitising)" : ""}`,
-                     points: +pts.toFixed(1), inci: it.name, pos: it.pos });
-      }
+    if (sensi > 0 && (profil.sensitivity || 0) > 0 && !f.fragrance && !f.essentialOil) {
+      const pts = -CONFIG.malusSensibilisant * sensi * ((profil.sensitivity || 0) / 3) * w;
+      sensiTotal += pts;
+      facts.push({ label: `${titre(it.name)} — a known contact allergen, and your skin reacts easily`,
+                   points: +pts.toFixed(1), inci: it.name, pos: it.pos });
     }
-    // IRRITANT × PEAU RÉACTIVE : ce qui pique (menthol, alcool, acides mal dosés, propylène
-    // glycol) — niveau 2 seulement, hors ce qui a déjà sa ligne (actifs forts, alcool, parfum,
-    // HE, sulfates). Le niveau 1 frappait 432 fiches, dont les tensioactifs les plus doux (D8).
-    const fns = f.fonctions || [];
-    if ((f.risks?.irritant || 0) === 2 && S > 0 && !(f.strength >= 1) && !f.dryingAlcohol && !f.fragrance && !f.essentialOil && !fns.includes("tensioactif-agressif")) {
-      const plafond = -CONFIG.plafondIrritantReactif * (S / 3);
-      let pts = -CONFIG.malusIrritantReactif * 2 * (S / 3) * w * expo;
-      if (irritCumul + pts < plafond) pts = plafond - irritCumul;
-      if (pts < 0) {
-        irritCumul += pts; score += pts;
-        facts.push({ label: `${titre(it.name)} — may sting on reactive skin`, points: +pts.toFixed(1), inci: it.name, pos: it.pos });
-      }
-    }
-    // parfum et huiles essentielles : UNE ligne par produit, posée après la boucle (B5)
-    if (f.fragrance && !parfumVu) parfumVu = it.name;
-    if (f.essentialOil && !heVu) heVu = it.name;
-    // COMÉDOGÈNE : ≥ 4 partout, ≥ 3 en top 5, pour une peau grasse/mixte OU qui déclare des
-    // imperfections ou de la brillance ; plafond −6 (B10, variante produit)
-    const com = f.risks?.comedogenic || 0;
-    const concerne = ["oily", "combination"].includes(profil.skinType) || profil.concerns?.blemishes || profil.concerns?.oiliness;
-    if (concerne && (com >= 4 || (com >= 3 && it.pos <= 5))) {
-      let pts = -CONFIG.malusComedoGras * w;
-      if (comedoCumul + pts < -CONFIG.plafondComedoGras) pts = -CONFIG.plafondComedoGras - comedoCumul;
-      if (pts < 0) {
-        comedoCumul += pts; score += pts;
-        facts.push({ label: `${titre(it.name)} — pore-clogging risk for your ${libPeau(profil.skinType)} skin`, points: +pts.toFixed(1), inci: it.name });
-      }
-    }
-    // alcool desséchant : pondéré par la position (un solvant d'extrait en position 20 n'assèche
-    // pas), et désormais aussi pour une peau réactive, pas seulement sèche
-    if (f.dryingAlcohol && (profil.skinType === "dry" || S >= 2)) {
-      const pts = -CONFIG.malusAlcoolSeche * w;
+    // flags perso (le malus parfum formule+perso s'affiche en UNE ligne : on fusionne ici)
+    if (f.fragrance && (profil.sensitivity || 0) > 0 && !parfumVu) {
+      parfumVu = true;
+      const pts = -CONFIG.malusParfumSensible * profil.sensitivity * ((CONFIG.RUBRIQUES[categorie] || CONFIG.RUBRIQUES.indetermine).exposition ?? 1);
       score += pts;
-      facts.push({ label: `Drying alcohol — hard on your dry skin`, points: +pts.toFixed(1), inci: it.name });
+      facts.push({ label: `Fragrance — poorly suited to your reactive skin`, points: pts, inci: it.name, fusionFormule: true });
+    }
+    if (((f.risks?.comedogenic || 0) >= 4 || ((f.risks?.comedogenic || 0) >= 3 && it.pos <= 5)) && (profil.concerns?.blemishes || profil.concerns?.oiliness || profil.skinType === "oily")) {
+      const pts = -CONFIG.malusComedoGras * w;
+      score += pts;
+      facts.push({ label: `${titre(it.name)} — pore-clogging risk for your ${profil.skinType} skin`, points: +pts.toFixed(1), inci: it.name });
+    }
+    if (f.dryingAlcohol && ["dry"].includes(profil.skinType) && it.pos <= 5) {
+      score -= CONFIG.malusAlcoolSeche;
+      facts.push({ label: `Drying alcohol — hard on your dry skin`, points: -CONFIG.malusAlcoolSeche, inci: it.name });
+    }
+    if (f.essentialOil && (profil.sensitivity || 0) >= 2 && !heVu) {
+      heVu = true;
+      score -= CONFIG.malusHEReactive;
+      facts.push({ label: `Essential oils — risky on reactive skin`, points: -CONFIG.malusHEReactive, inci: it.name });
     }
   }
 
-  if (parfumVu && S > 0) {
-    const pts = -CONFIG.malusParfumSensible * S * expo;
-    score += pts;
-    facts.push({ label: `Fragrance — poorly suited to your reactive skin`, points: +pts.toFixed(1), inci: parfumVu, fusionFormule: true });
-  }
-  if (heVu && S >= 2) {
-    score -= CONFIG.malusHEReactive;
-    facts.push({ label: `Essential oils — risky on reactive skin`, points: -CONFIG.malusHEReactive, inci: heVu });
-  }
-
+  score += Math.max(sensiTotal, -12 * ((profil.sensitivity || 0) / 3));
   score += Math.min(matchTotal, CONFIG.plafondMatchs);
 
-  // force vs tolérance : UNE ligne (« comfort zone » et « strong exfoliating actives »
-  // décrivaient le même fait) : −5 par cran, +5 si acide posé sur peau réactive (S11)
-  const sensible = S >= 2;
+  // force vs tolérance
   const depassement = Math.max(0, strengthMax - (profil.strengthCeiling ?? 2));
-  const acidePose = sensible && strengthMax >= 2 && ["exfoliant", "treatment", "toner"].includes(categorie);
-  if (depassement > 0 || acidePose) {
-    const pts = -CONFIG.malusForceParCran * depassement - (acidePose ? 5 : 0);
+  if (depassement > 0) {
+    const pts = -CONFIG.malusForceParCran * depassement;
     score += pts;
-    facts.push({ label: depassement > 0 ? `Stronger than your skin's comfort zone` : `Strong exfoliating actives — risky on reactive skin`, points: pts });
+    facts.push({ label: `Stronger than your skin's comfort zone`, points: pts });
   }
   // ── ADÉQUATION : ce produit, en tant que ce qu'il EST, convient-il à cette peau ? ──
   const nat = natureProduit(list);
   const peau = profil.skinType || "normal";
+  const sensible = (profil.sensitivity || 0) >= 2;
 
-  // Un produit RINCÉ n'a pas de texture à juger : une huile démaquillante n'est pas « lourde »
-  // pour une peau grasse, elle part à l'eau. Et « pas assez nourrissant » n'a de sens que pour ce
-  // qui est censé nourrir : hydratant et contour des yeux (audit du 7/09, P8 + D9).
-  if (expo >= 1 && nat.riche) {
+  if (nat.riche && ((CONFIG.RUBRIQUES[categorie] || CONFIG.RUBRIQUES.indetermine).exposition ?? 1) >= 1) {
     const pts = CONFIG.richesse.riche[peau] ?? 0;
     if (pts) { score += pts; facts.push({ label: pts > 0 ? `Rich, nourishing texture — right for your ${libPeau(peau)} skin`
       : `Rich, oily texture — heavy for your ${libPeau(peau)} skin`, points: pts, adequacy: true }); }
-  } else if (expo >= 1 && nat.legere && ["moisturizer", "eye-cream"].includes(categorie)) {
+  } else if (nat.legere && ((CONFIG.RUBRIQUES[categorie] || CONFIG.RUBRIQUES.indetermine).exposition ?? 1) >= 1 && ["moisturizer", "eye-cream"].includes(categorie)) {
     const pts = CONFIG.richesse.legere[peau] ?? 0;
     if (pts) { score += pts; facts.push({ label: pts > 0 ? `Light, water-based texture — right for your ${libPeau(peau)} skin`
       : `Light texture — not nourishing enough for your ${libPeau(peau)} skin`, points: pts, adequacy: true }); }
@@ -911,7 +676,9 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
   // « PLUS UTILISÉ ». Il valait donc toujours undefined, `?? 1` le remontait à 1, et la
   // condition était TOUJOURS vraie : des masques à l'argile et des baumes à lèvres
   // recevaient un bonus de protection solaire, avec la phrase qui va avec.
-  if (filtresUV && expo >= 1) {
+  const grille = CONFIG.RUBRIQUES[categorie] || CONFIG.RUBRIQUES.indetermine;
+  const uvCredibleP = list.some((it) => ((it.fiche?.fonctions || []).includes("filtre-uva") || (it.fiche?.fonctions || []).includes("filtre-uvb")) && (!/ZINC OXIDE|TITANIUM DIOXIDE/.test(it.name) || it.pos <= 6 || categorie === "sunscreen"));
+  if (filtresUV && uvCredibleP && (grille.exposition ?? 1) >= 1) {
     const pigmentation = (profil.concerns?.spots || 0) > 0 ? 1 : 0;
     const besoin = Math.min(3, (profil.besoinSolaire || 0) + pigmentation);
     if (besoin > 0) {
@@ -923,19 +690,16 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
       facts.push({ label: `UV filters — ${dit}`, points: +pts.toFixed(1), adequacy: true });
     }
   }
+  if (sensible && nat.forceMax >= 2 && ["exfoliant", "treatment", "toner"].includes(categorie)) {
+    score += CONFIG.exfoliantFort.sensible;
+    facts.push({ label: `Strong exfoliating actives — risky on reactive skin`, points: CONFIG.exfoliantFort.sensible, adequacy: true });
+  }
   if (categorie === "sunscreen" && nat.mineral && sensible) {
     score += CONFIG.filtreMineralBonus;
     facts.push({ label: `Mineral UV filters — gentler on reactive skin`, points: CONFIG.filtreMineralBonus, adequacy: true });
   }
 
-  // La note perso ne dépasse jamais le plafond posé par la formule (interdit UE, hydroquinone) —
-  // il était contourné : Paula's Choice Skin Balancing 69 → 88 en perso (S3).
-  const capFormule = F.cap ?? Infinity;
-  if (score > capFormule) {
-    facts.push({ label: `Capped by its formula — ${String(F.details?.find((d) => d.type === "plafond")?.dit || "a formula-level limit applies").replace(/^capped at \d+ — /, "")}`, points: -+(score - capFormule).toFixed(1) });
-    score = capFormule;
-  }
-  score = Math.min(score, capAbsolu);
+  score = Math.min(score, capAbsolu, F.cap ?? Infinity);
   const final = clamp(score);
   facts.sort((a, b) => Math.abs(b.points ?? 99) - Math.abs(a.points ?? 99));
 
