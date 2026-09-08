@@ -13,7 +13,7 @@ const D = path.join(process.cwd(), "data", "scan") + path.sep;
 
 // ── POIDS (calibrables sans toucher au code — chaque valeur sera revue en calibration) ──
 export const CONFIG = {
-  algoVersion: "2.0.0-metier",
+  algoVersion: "2.1.0-audit",
   base: 50,
   // pondération par position INCI (proxy concentration, fiable > 1 % seulement)
   wPos: [
@@ -119,7 +119,13 @@ export const CONFIG = {
   borne: [5, 100],           // 100 ATTEIGNABLE : réservé au sans-faute (0 malus + actifs prouvés)
   bandes: { vert: 75, orange: 45 },  // relevés avec l'échelle : 70 ne veut plus dire « bon » quand 100 existe
   // badge « analyse partielle » : couverture dictionnaire des positions 1-10 sous ce seuil
-  seuilCouverture: 0.7,
+  seuilCouverture: 0.8,
+  // Ce par quoi commence TOUTE formule réelle, y compris une huile pure ou une eau thermale.
+  // Une liste courte qui ne commence par rien de tout ça n'est pas une formule : c'est une liste
+  // amputée (audit du 7/09, B4).
+  basesPos1: /WATER|AQUA|OIL|BUTTER|WAX|ALCOHOL|GLYCERIN|GLYCOL|DIMETHICONE|SILOXANE|SILICONE|SQUALANE|ALKANE|ISODODECANE|PETROLATUM|PARAFFIN|HYPOCHLOROUS|SULFATE|GLUCOSIDE|BETAINE|SARCOSINATE|ISETHIONATE|TAURATE|GLUTAMATE|LACTYLATE|SULFOSUCCINATE|KAOLIN|BENTONITE|CLAY|SILICA|STARCH|TALC|ZINC OXIDE|TITANIUM DIOXIDE|CERA |TRIGLYCERIDE|HYDROGENATED|BENZOYL PEROXIDE|SALICYLIC ACID|ADAPALENE|AVOBENZONE|HOMOSALATE|OCTOCRYLENE|OCTINOXATE|OCTISALATE|SULFUR|LANOLIN|JUICE|FILTRATE|FERMENT|HAMAMELIS|ROSA |CENTELLA|ALOE|PROPANEDIOL|HEXANEDIOL|CHAMOMILLA|SNAIL|EXTRACT/,
+  nListeCourte: 5,            // au-delà, une liste est plausible même si un ingrédient manque
+  nMinimaliste: 3,            // en deçà, et tout connu : « formule minimaliste », noté tel quel
   // marqueurs de la barre des 1 % (plafond légal ou usage traceur)
   marqueurs1pct: ["PHENOXYETHANOL", "XANTHAN GUM", "CARBOMER", "DISODIUM EDTA", "SODIUM BENZOATE", "POTASSIUM SORBATE"],
 
@@ -497,8 +503,36 @@ function maxTheorique(R) {
 
 // ── SCORE FORMULE (v2.0 — grille métier, sans offset) ──────────────────────────
 // « À quel point ce produit réussit CE QU'IL PRÉTEND FAIRE. »
+// ── PEUT-ON NOTER CE PRODUIT ? (audit du 7 septembre, B4) ──
+// Trois cas où la note serait un mensonge : un solaire dont on ne lit aucun filtre (ça n'existe
+// pas, c'est une liste amputée), une liste trop courte pour être une formule, et une étiquette
+// que le modèle de vision dit avoir lue en partie. Mieux vaut « on ne peut pas noter » qu'un
+// chiffre rassurant. Une formule courte mais complète, elle, reste notée : c'est sa qualité.
+export function evaluabilite(list, categorie, filtresUV, lecture = {}) {
+  const n = list.length;
+  const connus = n ? list.filter((it) => it.fiche).length / n : 0;
+  const baseEnTete = n > 0 && CONFIG.basesPos1.test(list[0].name);
+  const tete = list.slice(0, 10);
+  const couverture10 = tete.length ? tete.filter((x) => x.fiche).length / tete.length : 0;
+
+  const solaireSansFiltre = categorie === "sunscreen" && !filtresUV &&
+    !list.some((it) => (it.fiche?.fonctions || []).some((f) => f.startsWith("filtre")));
+  const listeCourte = n <= CONFIG.nListeCourte && (connus < 1 || !baseEnTete);
+
+  let raison = null;
+  if (lecture.partielle) raison = "lecture-partielle";
+  else if (solaireSansFiltre) raison = "solaire-sans-filtre";
+  else if (listeCourte) raison = "liste-courte";
+
+  const badges = [];
+  if (!raison && n > 0 && n <= CONFIG.nMinimaliste && connus >= 1 && baseEnTete) badges.push("minimaliste");
+  if (!raison && (couverture10 < CONFIG.seuilCouverture || !baseEnTete)) badges.push("partielle");
+
+  return { evaluable: !raison, raison, badges, n, couverture10, baseEnTete };
+}
+
 // La note ne dépend PLUS du catalogue : un produit garde sa note même si on ajoute 500 références.
-export function scoreFormule(inci, categorie, filtresUV) {
+export function scoreFormule(inci, categorie, filtresUV, opts = {}) {
   const R = CONFIG.RUBRIQUES[categorie] || CONFIG.RUBRIQUES.indetermine;
   const list = parseInci(inci);
   const barre = barre1pct(list);
@@ -638,11 +672,11 @@ export function scoreFormule(inci, categorie, filtresUV) {
     score = cap;
   }
 
-  const tete = list.slice(0, 10);
-  const couverture = tete.length ? tete.filter((x) => x.fiche).length / tete.length : 0;
+  const ev = evaluabilite(list, categorie, filtresUV, opts.lecture || {});
 
-  return { score: clamp(score), bande: bande(clamp(score)), details, couverture, metier: R.metier,
-           analysePartielle: couverture < CONFIG.seuilCouverture, nIngredients: list.length,
+  return { score: clamp(score), bande: bande(clamp(score)), details, couverture: ev.couverture10, metier: R.metier,
+           analysePartielle: ev.badges.includes("partielle"), nIngredients: list.length,
+           evaluable: ev.evaluable, raison: ev.raison, badges: ev.badges,
            cap: cap === Infinity ? null : cap,   // renvoyé pour que la note perso ne le dépasse jamais (S3) ; null = JSON-safe
            algoVersion: CONFIG.algoVersion };
 }

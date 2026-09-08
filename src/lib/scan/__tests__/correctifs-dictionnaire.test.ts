@@ -1,5 +1,4 @@
 import { describe, it, expect } from "vitest";
-// @ts-expect-error — module JS pur, hors src (scripts/), volontairement non typé
 import { appliquerCorrectifs, appliquerAlias, appliquerCatalogue, CORRECTIFS } from "../../../../scripts/corriger-dictionnaire.mjs";
 
 /* LE SCRIPT DE CORRECTIFS : déclaratif, idempotent, et il s'arrête sur une dérive.

@@ -36,7 +36,7 @@ describe("où la texture compte", () => {
   it("un produit rincé n'a pas de texture à juger (huile démaquillante, peau grasse)", () => {
     const p = catalogue().find((x) => /Dermalogica Precleanse/i.test(x.name) && x.inci)!;
     expect(p).toBeDefined();
-    expect(texture(p.inci!, "makeup-remover", GRASSE)).toHaveLength(0);
+    expect(texture(p.inci as string, "makeup-remover", GRASSE)).toHaveLength(0);
   });
   it("un tonique aqueux n'est pas « pas assez nourrissant » pour une peau sèche", () => {
     expect(texture("Water, Glycerin, Butylene Glycol, Sodium Hyaluronate, Panthenol, Phenoxyethanol", "toner", SECHE)).toHaveLength(0);

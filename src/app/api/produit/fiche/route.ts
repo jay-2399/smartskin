@@ -5,6 +5,7 @@ import {
 } from "@/lib/scan/moteur";
 import { avisPour, pidUlta, tousLesAvis } from "@/lib/scan/avis";
 import { sessionPremium, PROFIL_NEUTRE } from "@/lib/scan/acces";
+import { scoreNonEvaluable } from "@/lib/scan/non-evaluable";
 import { profilUtilisateur } from "@/lib/scan/profil-utilisateur";
 
 // Fiche d'un produit du CATALOGUE : identité + les deux notes + le détail des ingrédients.
@@ -30,7 +31,9 @@ export async function GET(request: Request) {
     if (p.category === "hors-perimetre") {
       return NextResponse.json({
         produit: { nom: p.name, marque: p.brand, image: p.image, categorie: p.category },
-        score: { disponible: false, raison: "hors périmètre : ce n'est pas un soin du visage" },
+        score: { disponible: false, statut: "hors-perimetre",
+                 raison: "hors périmètre : ce n'est pas un soin du visage",
+                 message: "This isn't a face care product — we only score skincare for the face." },
       });
     }
 
@@ -44,9 +47,13 @@ export async function GET(request: Request) {
     const a = avisPour(p, pr);
     const brut = a ? null : tousLesAvis(p.asin || p.asinAvis || pidUlta(p.url) || "");
     const f = scoreFormule(p.inci || "", p.category, p.filtresUV);
-    const score: Record<string, unknown> = { disponible: moteurDisponible(), formule: f };
-    if (r?.etat === "ok") score.perso = scorePerso(p.inci || "", pr, p.category, f, p.filtresUV);
-    else if (r) score.profilManquant = r.etat;
+    // Liste incomplète ou solaire sans filtre lisible : on montre le produit et ses ingrédients,
+    // sans chiffre. Un « 48 » rassurant sur une liste tronquée trompe plus qu'il n'informe.
+    const score: Record<string, unknown> = f.evaluable
+      ? { disponible: moteurDisponible(), formule: f }
+      : scoreNonEvaluable(f.raison);
+    if (f.evaluable && r?.etat === "ok") score.perso = scorePerso(p.inci || "", pr, p.category, f, p.filtresUV);
+    else if (f.evaluable && r) score.profilManquant = r.etat;
     return NextResponse.json({
       produit: { nom: p.name, marque: p.brand, image: p.image, categorie: p.category, inci: p.inci, asin: p.asin, ref: p.asin || p.asinAvis || pidUlta(p.url) },
       score,

@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { catalogue, moteurDisponible, scoreFormule, scorePerso } from "@/lib/scan/moteur";
+import { catalogue, moteurDisponible, scoreFormule, scorePerso, CONFIG } from "@/lib/scan/moteur";
 import { sessionPremium } from "@/lib/scan/acces";
 import { profilUtilisateur } from "@/lib/scan/profil-utilisateur";
 
@@ -31,19 +31,24 @@ export async function POST(request: Request) {
     const parNom = new Map<string, ReturnType<typeof catalogue>[number]>();
     for (const p of catalogue()) if (p.inci) parNom.set(p.name.toLowerCase(), p);
 
-    const scores: Record<string, { formule: number; perso?: number }> = {};
+    const scores: Record<string, { formule: number | null; perso?: number | null; nonEvaluable?: boolean }> = {};
     for (const nom of produits.slice(0, 60)) {
       if (typeof nom !== "string") continue;
       const p = parNom.get(nom.toLowerCase());
       if (!p) continue;
       const f = scoreFormule(p.inci!, p.category, p.filtresUV);
+      // Un produit devenu non évaluable (liste incomplète) doit EFFACER la note enregistrée sur
+      // le téléphone, pas la laisser vivre sa vie (audit du 7/09, B4).
+      if (!f.evaluable) { scores[nom] = { formule: null, perso: null, nonEvaluable: true }; continue; }
       const ligne: { formule: number; perso?: number } = { formule: f.score };
       if (r?.etat === "ok") {
         ligne.perso = scorePerso(p.inci!, r.profil, p.category, f, p.filtresUV).score;
       }
       scores[nom] = ligne;
     }
-    return NextResponse.json({ scores });
+    // La version de l'algorithme voyage avec les notes : l'app sait ainsi que les siennes datent
+    // d'avant et peut le dire une fois à l'utilisatrice.
+    return NextResponse.json({ scores, algoVersion: CONFIG.algoVersion });
   } catch {
     // L'écran garde ses chiffres enregistrés : une panne ici ne doit rien effacer.
     return NextResponse.json({ scores: {} }, { status: 500 });

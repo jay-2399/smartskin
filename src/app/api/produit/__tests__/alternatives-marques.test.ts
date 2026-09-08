@@ -28,7 +28,7 @@ const CATALOGUE = [
 vi.mock("@/lib/scan/moteur", () => ({
   catalogue: () => CATALOGUE,
   marqueDe: (p: { brand: string }) => p.brand,
-  scoreFormule: (inci: string) => ({ score: Number(inci.split("|")[1]) }),
+  scoreFormule: (inci: string) => ({ score: Number(inci.split("|")[1]), evaluable: true }),
   scorePerso: (inci: string) => ({ score: Number(inci.split("|")[0]) }),
 }));
 vi.mock("@/lib/scan/acces", () => ({

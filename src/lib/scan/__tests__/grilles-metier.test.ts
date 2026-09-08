@@ -45,8 +45,9 @@ describe("solaires : stabilisants et filtres", () => {
     expect(avec.some((d) => d.type === "manque" && d.id === "filtres")).toBe(false);
   });
   it("la ligne « actifs » d'un solaire est plafonnée à 4, celle de la grille indéterminée à 14", () => {
-    expect(CONFIG.RUBRIQUES.sunscreen.merites.find((l: { id: string }) => l.id === "actifs").plafond).toBe(4);
-    expect(CONFIG.RUBRIQUES.indetermine.merites.find((l: { id: string }) => l.id === "actifs").plafond).toBe(14);
+    const plafond = (cat: string) => CONFIG.RUBRIQUES[cat].merites.find((l: { id: string }) => l.id === "actifs")?.plafond;
+    expect(plafond("sunscreen")).toBe(4);
+    expect(plafond("indetermine")).toBe(14);
   });
 });
 

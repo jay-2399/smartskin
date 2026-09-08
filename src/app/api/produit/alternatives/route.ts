@@ -50,10 +50,13 @@ function classement(categorie: string, pr: ProfilLu): Classe[] {
   if (enCache) return enCache;
   const l: Classe[] = catalogue()
     .filter((p: Produit) => p.category === categorie && p.inci)
-    .map((p: Produit) => {
+    .flatMap((p: Produit): Classe[] => {
       const f = scoreFormule(p.inci, p.category, p.filtresUV);
+      // On ne conseille jamais un produit qu'on ne sait pas noter (liste incomplète) : le
+      // recommander reviendrait à affirmer qu'il fait mieux, sans l'avoir lu (audit du 7/09, B4).
+      if (f.evaluable === false) return [];
       const pe = scorePerso(p.inci, pr, p.category, f, p.filtresUV);
-      return { nom: p.name, marque: marqueDe(p), image: p.image, formule: f.score, perso: pe.score };
+      return [{ nom: p.name, marque: marqueDe(p), image: p.image, formule: f.score, perso: pe.score }];
     })
     .sort((a, b) => b.perso - a.perso || b.formule - a.formule)
     .slice(0, GARDE);
