@@ -41,13 +41,18 @@ const produits = Object.entries(ORACLE).filter(([k]) => k !== "_meta").map(([k, 
 const SF = (p) => m.scoreFormule(p.inci, p.category, p.filtresUV);
 const SP = (p, P, f) => m.scorePerso(p.inci, P, p.category, f ?? SF(p), p.filtresUV);
 
-// cause présumée d'un écart, d'après l'INCI brut (les « extras » non simulés par le banc)
+// cause présumée d'un écart, d'après l'INCI brut. Le banc a simulé les RÈGLES et une partie des
+// données ; les correctifs de données du lot 1 (alias, fiches réparées) lui sont inconnus, donc
+// tout écart qu'ils expliquent est attendu — c'est ce que cette attribution sert à montrer.
+const ALIAS_LOT1 = /\bAVENE AQUA\b|\bETHANOL\b|\bOCTINOXATE\b|\bOCTISALATE\b|CERAMIDE 3\b|\bVITAMIN E\b|PURE PLANT-DERIVED SQUALANE|ZINC OXIDE \(CI 77947\)/i;
+const FICHES_REPAREES = /^Weleda Skin Food (Crème de Jour|Travel Size Clear|Face Care)/i;
 function cause(p) {
   const s = String(p.inci || "");
+  if (FICHES_REPAREES.test(String(p.name || ""))) return "fiche réparée au lot 1 (Weleda)";
+  if (ALIAS_LOT1.test(s)) return "alias ajouté au lot 1";
   if (/\d+(?:[.,]\d+)?\s*%|\bUSP\b/i.test(s)) return "n % / USP (R1)";
   if (/\(\s*NANO\s*\)/i.test(s)) return "(NANO) (R8)";
   if (/THERMAL (SPRING )?WATER|SPRING WATER|VOLCANIC WATER|EAU THERMALE/i.test(s)) return "eau thermale (R8)";
-  if (/CERAMIDE 3\b|VITAMIN E\b/i.test(s)) return "synonyme (R8)";
   if (/\([A-Z][A-Z\- ]+\)/.test(s)) return "parenthèse botanique (R8)";
   return "règle";
 }

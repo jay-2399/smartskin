@@ -65,10 +65,15 @@ describe("LA preuve que le bouchon est mort", () => {
     expect(a.filter((n) => b.includes(n))).toEqual([]);
   });
 
-  it("et leurs moyennes s'écartent de plus de 10 points", () => {
+  it("et leurs moyennes s'écartent nettement", () => {
+    // Mesuré 6,2 points après l'audit du 7 septembre (64,9 contre 58,7), contre plus de 10
+    // avant : la peau réactive n'est plus surpunie (parfum compté une fois, sensibilisants
+    // plafonnés, plus de « pas assez nourrissant » sur un nettoyant rincé). L'écart se resserre
+    // par le haut, c'est l'effet voulu ; ce qui prouve que le profil est branché reste le
+    // classement disjoint du test précédent.
     const a = moyenne(notes(grasseAcneique, "cleanser").map((x) => x.perso));
     const b = moyenne(notes(secheReactive, "cleanser").map((x) => x.perso));
-    expect(Math.abs(a - b)).toBeGreaterThan(10);
+    expect(Math.abs(a - b)).toBeGreaterThan(5);
   });
 });
 

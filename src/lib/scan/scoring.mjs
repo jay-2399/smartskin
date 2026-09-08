@@ -362,16 +362,20 @@ function wPos(it, barre) {
 // courts, le squalane et les triglycérides caprylique/caprique sont des émollients « secs », à
 // étalement rapide ; et un glycéryl ou PEG-100 stéarate est un ÉMULSIFIANT dosé à 1-3 %, pas un
 // corps gras. Une lotion légère était « heavy for your oily skin » à cause de ses émulsifiants.
-const CLASSES_RICHE = [
-  [/^(GLYCERYL|PEG-\d+|SORBITAN|SUCROSE|POLYGLYCERYL[- ]?\d*|METHYL GLUCOSE)\b.*(STEARATE|PALMITATE|OLEATE|LAURATE)/, 0],
-  [/BUTTER|PETROLATUM|LANOLIN|SHEA|BEESWAX|^CERA |\bWAX\b/, 1],
-  [/\bOIL\b|\bOIL$/, 0.7],
-  [/SQUALANE|TRIGLYCERIDE|ALKANE|ISODODECANE|STEARATE|PALMITATE|MYRISTATE|OLEATE|LAURATE|ISONONANOATE|CAPRYLATE/, 0.3],
-];
 const MOTS_LEGER = ["WATER", "GLYCERIN", "PROPANEDIOL", "BUTYLENE GLYCOL", "PENTYLENE GLYCOL", "HYALURONATE", "AQUA"];
 const FILTRES_MINERAUX = ["ZINC OXIDE", "TITANIUM DIOXIDE"];
 
-const classeRiche = (nom) => { for (const [rx, k] of CLASSES_RICHE) if (rx.test(nom)) return k; return 0; };
+// Un ester de stéarate précédé de GLYCERYL, PEG-n, SORBITAN… est un émulsifiant dosé à 1-3 % ;
+// précédé d'ASCORBYL ou RETINYL, c'est un actif dosé sous 1 %. Ni l'un ni l'autre n'est un corps gras.
+const EMULSIFIANT_OU_ACTIF = /(GLYCERYL|PEG-\d+|SORBITAN|SUCROSE|POLYGLYCERYL-\d+|METHYL GLUCOSE|ASCORBYL|RETINYL) /;
+function classeRiche(n) {
+  if (/BUTTER|WAX|PETROLATUM|LANOLIN|SHEA|CERA /.test(n)) return 1;          // occlusifs lourds
+  if (/\bOIL\b/.test(n)) return 0.7;                                          // huiles végétales
+  if (/STEARATE|PALMITATE|MYRISTATE/.test(n))
+    return EMULSIFIANT_OU_ACTIF.test(n) || /^PEG-/.test(n) ? 0 : 0.3;
+  if (/SQUALANE|TRIGLYCERIDE|ALKANE|ISODODECANE/.test(n)) return 0.3;         // émollients « secs »
+  return 0;
+}
 
 export function natureProduit(list) {
   let richesse = 0, sulfate = false, mineral = false, forceMax = 0;
@@ -588,18 +592,18 @@ export function scoreFormule(inci, categorie, filtresUV) {
         if (CONFIG.capBanniUE < cap) { cap = CONFIG.capBanniUE; capMotif = "capped at " + CONFIG.capBanniUE + " — contains an ingredient banned in the EU"; }
         details.push({ type: "banni", inci: it.name, pos: it.pos, cap: CONFIG.capBanniUE });
       } else {
-        const pts = -+(CONFIG.malusBanniRince * (R.exposition ?? 1)).toFixed(2);
+        const pts = -CONFIG.malusBanniRince * (R.exposition ?? 1);
         score += pts;
-        details.push({ type: "banni", inci: it.name, pos: it.pos, pts });
+        details.push({ type: "banni", inci: it.name, pos: it.pos, pts: +pts.toFixed(1) });
       }
     }
     // Allergène fort hors parfum et huiles essentielles (isothiazolinones, libérateurs de
     // formaldéhyde) : un risque de population, pas un trait de « peau sensible » — il pèse sur la
     // formule, pour tout le monde (audit du 7/09, D2).
     if ((f.risks?.sensibilisant || 0) >= 3 && !f.fragrance && !f.essentialOil) {
-      const pts = -+(CONFIG.malusSensibilisant3 * R.severite * (R.exposition ?? 1)).toFixed(2);
+      const pts = -CONFIG.malusSensibilisant3 * R.severite * (R.exposition ?? 1);
       score += pts;
-      details.push({ type: "sensibilisant3", inci: it.name, pos: it.pos, pts });
+      details.push({ type: "sensibilisant3", inci: it.name, pos: it.pos, pts: +pts.toFixed(1) });
     }
     let fixe = 0, typeFixe = null;
     if (f.fragrance && CONFIG.malusParfumFixe > fixe) { fixe = CONFIG.malusParfumFixe; typeFixe = "parfum"; }
@@ -657,14 +661,11 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
   const expo = grille.exposition ?? 1;
   // Cumuls plafonnés et lignes « une fois par produit » (audit du 7/09, B5 et B10) : le parfum, les
   // huiles essentielles, les allergènes et les irritants ne sont plus facturés à chaque ingrédient.
-  let sensiCumul = 0, irritCumul = 0, comedoCumul = 0, parfumVu = null, heVu = null, alcoolW = 0;
-  const vus = new Set();
+  let sensiCumul = 0, irritCumul = 0, comedoCumul = 0, parfumVu = null, heVu = null;
 
   for (const it of list) {
     const f = it.fiche;
     if (!f) continue;
-    if (vus.has(it.name)) continue;        // un ingrédient écrit deux fois compte une fois
-    vus.add(it.name);
     const w = wPos(it, barre);
     // la force d'un actif ne compte que bien dosée : un acide en position 30 ne rend pas le
     // produit « trop fort » (D7)
@@ -744,24 +745,23 @@ export function scorePerso(inci, profil, categorie, formule, filtresUV) {
         facts.push({ label: `${titre(it.name)} — pore-clogging risk for your ${libPeau(profil.skinType)} skin`, points: +pts.toFixed(1), inci: it.name });
       }
     }
-    // alcool desséchant : pondéré par la position, une ligne par produit (le plus haut placé)
-    if (f.dryingAlcohol && w > alcoolW) alcoolW = w;
+    // alcool desséchant : pondéré par la position (un solvant d'extrait en position 20 n'assèche
+    // pas), et désormais aussi pour une peau réactive, pas seulement sèche
+    if (f.dryingAlcohol && (profil.skinType === "dry" || S >= 2)) {
+      const pts = -CONFIG.malusAlcoolSeche * w;
+      score += pts;
+      facts.push({ label: `Drying alcohol — hard on your dry skin`, points: +pts.toFixed(1), inci: it.name });
+    }
   }
 
   if (parfumVu && S > 0) {
-    const pts = -+(CONFIG.malusParfumSensible * S * expo).toFixed(1);
+    const pts = -CONFIG.malusParfumSensible * S * expo;
     score += pts;
-    facts.push({ label: `Fragrance — poorly suited to your reactive skin`, points: pts, inci: parfumVu, fusionFormule: true });
+    facts.push({ label: `Fragrance — poorly suited to your reactive skin`, points: +pts.toFixed(1), inci: parfumVu, fusionFormule: true });
   }
   if (heVu && S >= 2) {
-    const pts = -+(CONFIG.malusHEReactive * expo).toFixed(1);
-    score += pts;
-    facts.push({ label: `Essential oils — risky on reactive skin`, points: pts, inci: heVu });
-  }
-  if (alcoolW > 0 && (profil.skinType === "dry" || S >= 2)) {
-    const pts = -+(CONFIG.malusAlcoolSeche * alcoolW).toFixed(1);
-    score += pts;
-    facts.push({ label: `Drying alcohol — hard on your ${profil.skinType === "dry" ? "dry" : "reactive"} skin`, points: pts });
+    score -= CONFIG.malusHEReactive;
+    facts.push({ label: `Essential oils — risky on reactive skin`, points: -CONFIG.malusHEReactive, inci: heVu });
   }
 
   score += Math.min(matchTotal, CONFIG.plafondMatchs);
