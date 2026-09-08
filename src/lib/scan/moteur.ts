@@ -39,7 +39,7 @@ export { scoreFormule, scorePerso, moteurDisponible, parseInci, categoriser, CON
 
 // ── appel vision (Anthropic), le seul point qui sort sur le réseau ───────────
 const CLE = process.env.ANTHROPIC_API_KEY;
-const MODELE = process.env.SCAN_MODEL || "claude-haiku-4-5-20251001";
+const MODELE = process.env.SCAN_MODEL || "claude-sonnet-5";
 
 /** Le format réel se lit dans les octets d'en-tête : l'extension ment souvent. */
 export function typeImage(buf: Buffer): string {
