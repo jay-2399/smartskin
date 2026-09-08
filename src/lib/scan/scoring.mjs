@@ -163,7 +163,7 @@ export const CONFIG = {
     },
     serum: {
       label: "serum", metier: "deliver active ingredients", severite: 1.0,
-      prerequis: [{ id: "actifs", quoi: "@troisActifs", pts: 12, dit: "too few actives for a serum" }],
+      prerequis: [{ id: "actifs", quoi: "@prereqActifs", pts: 12, dit: "too few actives for a serum" }],
       merites: [
         { id: "concentre", quoi: "@actifTop5", pts: 16, dit: "a well-evidenced active high in the list" },  // 39 %
         { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },                            // 63 %
@@ -175,7 +175,7 @@ export const CONFIG = {
     },
     treatment: {
       label: "targeted treatment", metier: "correct one specific concern", severite: 1.0,
-      prerequis: [{ id: "actifs", quoi: "@troisActifs", pts: 10, dit: "too few actives to treat anything" }],
+      prerequis: [{ id: "actifs", quoi: "@prereqActifs", pts: 10, dit: "too few actives to treat anything" }],
       merites: [
         { id: "concentre", quoi: "@actifTop5", pts: 18, dit: "a well-evidenced active high in the list" },
         { id: "sansParfum", quoi: "@sansParfum", pts: 12, dit: "no fragrance" },
@@ -372,15 +372,17 @@ export const bande = (s) => (s >= CONFIG.bandes.vert ? "good" : s >= CONFIG.band
 // ── SCORE FORMULE ──────────────────────────────────────────────────────────────
 // ── ÉVALUATEUR DE GRILLE MÉTIER ────────────────────────────────────────────────
 // Prédicats : les critères qui ne se lisent pas sur UN ingrédient mais sur la formule entière.
+const GLYCOLS_DE_BASE = /^(GLYCERIN|PROPANEDIOL|1,3-PROPANEDIOL|1,2-HEXANEDIOL|1,2-HEPTANEDIOL|[A-Z]+ GLYCOL)$/;
 const PREDICATS = {
   "@sansParfum": (ctx) => (ctx.list.every((it) => !it.fiche?.fragrance && !it.fiche?.essentialOil) ? 1 : 0),
   // savon = acide gras libre + base forte : saponification in situ, pH 9-10 (décape la barrière)
   "@savon": (ctx) => (ctx.aFonction("acide-gras-libre") && ctx.aFonction("base-saponifiante")) ||
                      ctx.aFonction("tensioactif-savon") ? 1 : 0,
   "@spectreLarge": (ctx) => (ctx.aFonction("filtre-uva") && ctx.aFonction("filtre-uvb")) ? 1 : 0,
-  // actif à PREUVES FORTES haut dans la liste = le vrai signal de concentration (39 % des sérums)
-  "@actifTop5": (ctx) => ctx.list.some((it) => it.pos <= 5 && it.fiche?.role === "active" &&
-                                               (it.fiche.benefitPower || 0) >= 3) ? 1 : 0,
+  // actif à PREUVES FORTES haut dans la liste = le vrai signal de concentration (39 % des sérums).
+  // Gradué par le poids de position du meilleur (1 / 0,6 / 0,3, et 1 pour un actif efficace à
+  // faible dose) : monter un actif de la 6e à la 5e place valait 11 points d'un coup (audit du 7/09, S4).
+  "@actifTop5": (ctx) => Math.max(0, ...ctx.list.filter((it) => it.fiche?.role === "active" && (it.fiche.benefitPower || 0) >= 3).map((it) => ctx.w(it))),
   // l'avobenzone se dégrade au soleil si rien ne la stabilise : défaut de formulation réel.
   // Les stabilisants sont lus par leur fonction (fonctions.mjs), pas par des noms commerciaux
   // (« Tinosorb », « bemotrizinol ») qui n'apparaissent jamais dans une INCI — audit du 7/09, B1.
@@ -396,7 +398,13 @@ const PREDICATS = {
   "@douceur": (ctx) => (ctx.aFonction("tensioactif-doux") ||
     ((ctx.aFonction("emollient") || ctx.aFonction("emulsifiant") || ctx.aFonction("occlusif")) &&
       !ctx.aFonction("tensioactif-agressif") && !PREDICATS["@savon"](ctx))) ? 1 : 0,
-  "@troisActifs": (ctx) => ctx.list.filter((it) => it.fiche?.role === "active" && it.fiche.benefits?.length).length >= 3 ? 1 : 0,
+  "@troisActifs": (ctx) => new Set(ctx.list.filter((it) => it.fiche?.role === "active" && it.fiche.benefits?.length).map((it) => it.name)).size >= 3 ? 1 : 0,
+  // Prérequis des sérums et traitements (audit du 7/09, B7) : UN actif à preuve ≥ 2, bien placé
+  // (positions 1-10 au-dessus de la barre des 1 %, ou efficace à faible dose comme le rétinol et
+  // les hyaluronates), hors glycols de base — la glycérine satisfaisait « trois actifs » partout.
+  // Un mono-actif dosé (The Ordinary Niacinamide 10 %) passe ; « eau + glycérine + gomme » non.
+  "@prereqActifs": (ctx) => ctx.list.some((it) => it.fiche?.role === "active" && (it.fiche.benefitPower || 0) >= 2 &&
+    !GLYCOLS_DE_BASE.test(it.name) && (it.fiche.lowDose || ctx.w(it) >= 0.6)) ? 1 : 0,
   "@humectant": (ctx) => ctx.aFonction("humectant") ? 1 : 0,
   "@tensioDoux": (ctx) => ctx.aFonction("tensioactif-doux") ? 1 : 0,
   "@apaisants": (ctx) => ctx.list.filter((it) => (it.fiche?.benefits || []).includes("redness")).length,
@@ -408,14 +416,19 @@ function evalueLigne(l, ctx) {
     if (l.quoi === "@actifs") {
       let total = 0, n = 0;
       const parFamille = {};
+      const vus = new Set();
       for (const it of ctx.list) {
         const f = it.fiche;
         if (!f || f.role !== "active" || !f.benefits?.length) continue;
+        if (vus.has(it.name)) continue;                    // écrit deux fois = compté une fois (audit du 7/09, S6)
+        vus.add(it.name);
+        const w = ctx.w(it);
+        if (!(f.lowDose || w >= 0.6)) continue;            // une trace en fin de liste n'est pas un actif (P6)
         const fam = f.benefits[0];
         parFamille[fam] = (parFamille[fam] || 0) + 1;
         if (parFamille[fam] > CONFIG.maxActifsParFamille) continue;   // 5 humectants ≠ 5 bonus
         n += 1;
-        total += l.pts * (f.benefitPower || 1) * (l.pondere ? ctx.w(it) : 1);
+        total += l.pts * (f.benefitPower || 1) * (l.pondere ? w : 1);
       }
       return { pts: Math.min(total, l.plafond ?? Infinity), n };
     }
@@ -423,10 +436,12 @@ function evalueLigne(l, ctx) {
     return { pts: Math.min(n * l.pts, l.plafond ?? Infinity), n };
   }
   const cherchees = Array.isArray(l.quoi) ? l.quoi : [l.quoi];
-  const vus = new Set();
+  const vus = new Set(), vusNoms = new Set();
   let total = 0, n = 0;
   for (const it of ctx.list) {
     if (l.maxPos && it.pos > l.maxPos) continue;
+    if (vusNoms.has(it.name)) continue;                    // un ingrédient = une ligne, comme pour les risques
+    vusNoms.add(it.name);
     const fns = it.fiche?.fonctions || [];
     const match = cherchees.filter((c) => fns.includes(c));
     if (!match.length) continue;
