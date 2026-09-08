@@ -302,15 +302,21 @@ export function parseInci(inci) {
   // Une virgule ENTRE DEUX CHIFFRES appartient au nom (1,2-Hexanediol,
   // 2-Oleamido-1,3-Octadecanediol) : la couper inventait des positions fantômes.
   for (const tok of decouperInci(inci)) {
+    // Les étiquettes américaines collent le dosage au nom (« Zinc Oxide 20% », « Adapalene USP
+    // 0.1% ») : sans ce nettoyage, le filtre ou le rétinoïde restait inconnu (audit du 7/09, G2 #1).
     let t = tok.trim().replace(/\s+/g, " ").replace(/^[\d.]+%\s*/, "").replace(/\s*\([\d.,]+\s*%\)$/, "")
-      .toUpperCase().replace(/\s*\/\s*/g, "/").replace(/^[.*\-\s]+|[.*\-\s]+$/g, "");
+      .replace(/\s*\d+(?:[.,]\d+)?\s*%/g, "")
+      .toUpperCase().replace(/\bUSP\b/g, "").replace(/\s*\(\s*\)/g, "")
+      .replace(/\s*\/\s*/g, "/").replace(/^[.*\-\s]+|[.*\-\s]+$/g, "");
     if (t.length < 2 || t.length > 80) continue;
     // toutes les graphies de l'eau se ramènent à WATER, y compris les formes parenthésées
     // multilingues (« AQUA (WATER, EAU) », « WATER/AQUA/EAU »…) que le catalogue mélange.
     if (/^(AQUA|EAU|WATER)\b/.test(t) && /^[A-Z/() ,.]+$/.test(t) &&
         !/[A-Z]{4,}/.test(t.replace(/AQUA|WATER|EAU|PURIFIED|DEIONIZED|DISTILLED/g, ""))) t = "WATER";
-    if (["PARFUM", "PARFUM (FRAGRANCE)", "FRAGRANCE (PARFUM)"].includes(t)) t = "FRAGRANCE";
-    t = ALIAS[t] || t;
+    // Tout ce qui se dit parfum en est un : « Perfume » ou « Aroma » ne contournent plus le malus.
+    if (/PARFUM|FRAGRANCE|PERFUME|\bAROMA\b/.test(t) && !/AROMATIC/.test(t)) t = "FRAGRANCE";
+    // Alias chaînés (« OCTISALATE 5% » → OCTISALATE → ETHYLHEXYL SALICYLATE) : trois sauts au plus.
+    for (let saut = 0; saut < 3 && ALIAS[t] !== undefined && ALIAS[t] !== t; saut++) t = ALIAS[t];
     pos += 1;
     out.push({ name: t, pos, fiche: DICT?.[t] ?? null });
   }
