@@ -27,6 +27,12 @@ const CLE = fs.readFileSync(path.join(RACINE, "bright_key.txt"), "utf8").trim();
 
 const args = process.argv.slice(2);
 const MAX = args.includes("--max") ? parseInt(args[args.indexOf("--max") + 1], 10) : Infinity;
+// --noms <fichier> : cibler des fiches PAR NOM (une par ligne), même si elles ont déjà un inci.
+// Cas des solaires US dont la section « Active ingredients » a été perdue au scrape : la liste
+// existe, amputée de ses filtres (audit du 7 septembre, B1).
+const NOMS = args.includes("--noms")
+  ? new Set(fs.readFileSync(args[args.indexOf("--noms") + 1], "utf8").split("\n").map((s) => s.trim()).filter(Boolean))
+  : null;
 const PARALLELE = 5;
 
 // ————— récupération d'une page (même garde-fou que bd.mjs : jamais de blocage infini) —————
@@ -107,7 +113,8 @@ function qualifier(brut) {
 // ————— la moisson —————
 const cat = JSON.parse(fs.readFileSync(CATALOGUE, "utf8"));
 const produits = Array.isArray(cat) ? cat : (cat.produits || cat.products || Object.values(cat).find(Array.isArray));
-const cibles = produits.filter((x) => !x.inci && x.url).slice(0, MAX);
+const cibles = (NOMS ? produits.filter((x) => NOMS.has(x.name) && x.url) : produits.filter((x) => !x.inci && x.url)).slice(0, MAX);
+if (NOMS) console.log(cibles.length + " fiche(s) ciblée(s) par nom sur " + NOMS.size + " demandée(s)");
 
 // reprise : on ne repaie jamais deux fois la même page
 let acquis = {};
@@ -128,7 +135,7 @@ for (const [nom, v] of Object.entries(acquis)) {
 }
 if (reclasses) console.log(reclasses + " fiches reclassées sans nouvelle requête");
 
-const aFaire = cibles.filter((x) => !(x.name in acquis));
+const aFaire = cibles.filter((x) => !(x.name in acquis) || NOMS);   // ciblée par nom = on repaie la page
 console.log(aFaire.length + " fiches à aspirer (" + PARALLELE + " en parallèle)\n");
 
 let faits = 0;

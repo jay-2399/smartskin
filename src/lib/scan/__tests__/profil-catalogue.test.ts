@@ -152,7 +152,9 @@ describe("le bonus solaire va à qui en a besoin", () => {
     const f = scoreFormule(prod.inci!, prod.category, prod.filtresUV);
     return scorePerso(prod.inci!, p, prod.category, f, prod.filtresUV).score;
   }
-  const SOLAIRE = "La Roche-Posay Anthelios";
+  // Le Melt-in Milk, pas « Anthelios » tout court : le premier Anthelios du catalogue est une
+  // fiche US dont la liste a perdu ses filtres (non évaluable depuis l'audit du 7 septembre).
+  const SOLAIRE = "La Roche-Posay Anthelios Melt-in Milk";
   const NETTOYANT = "CeraVe Foaming Facial Cleanser";
 
   it("celle qui ne se protège jamais note le solaire plus haut", () => {
@@ -174,14 +176,18 @@ describe("le bonus solaire va à qui en a besoin", () => {
     expect(tout - rien).toBeLessThanOrEqual(10);
   });
 
-  it("un produit SANS filtre UV ne bouge pas d'un point", () => {
+  it("un produit SANS filtre UV ne bouge pas d'un point quand seul le besoin solaire change", () => {
+    // mêmes préoccupations des deux côtés : la niacinamide du nettoyant cible les taches, ce
+    // n'est pas le signal qu'on mesure ici
     const a = note({ ...base, concerns: { spots: 2 }, besoinSolaire: 2 }, NETTOYANT);
-    const b = note({ ...base, concerns: {}, besoinSolaire: 0 }, NETTOYANT);
+    const b = note({ ...base, concerns: { spots: 2 }, besoinSolaire: 0 }, NETTOYANT);
     expect(a).toBe(b);
   });
 
   it("la note de FORMULE du solaire est intacte — aucun barème universel n'a bougé", () => {
     const p = catalogue().find((x) => x.name.includes(SOLAIRE) && x.inci)!;
-    expect(scoreFormule(p.inci!, p.category, p.filtresUV).score).toBe(78);
+    // 74 : mesuré après le lot « données » de l'audit du 7 septembre (tableau E du rapport :
+    // 74 → 74 sous le paquet complet). Toute autre valeur = un barème a bougé sans le dire.
+    expect(scoreFormule(p.inci!, p.category, p.filtresUV).score).toBe(74);
   });
 });

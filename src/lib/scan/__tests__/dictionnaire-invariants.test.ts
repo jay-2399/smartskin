@@ -62,11 +62,10 @@ describe("dictionnaire — solaires (B1)", () => {
 });
 
 describe("dictionnaire — parfum et conservateurs (B2)", () => {
-  it("un conservateur n'est pas un parfum, mais reste un allergène déclaré", () => {
-    for (const n of ["BENZYL ALCOHOL", "PHENETHYL ALCOHOL", "BENZOIC ACID"]) {
+  it("un conservateur n'est pas un parfum ; l'alcool benzylique reste un allergène déclaré", () => {
+    for (const n of ["BENZYL ALCOHOL", "PHENETHYL ALCOHOL", "PHENYLPROPANOL", "4-T-BUTYLCYCLOHEXANOL", "BENZOIC ACID"])
       expect(fiche(n).fragrance, n).toBe(false);
-      expect(fiche(n).euFragranceAllergen, n).toBe(true);
-    }
+    expect(fiche("BENZYL ALCOHOL").euFragranceAllergen).toBe(true);
   });
 });
 
