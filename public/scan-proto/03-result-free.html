@@ -373,6 +373,44 @@
   color:var(--arsenic); padding:6px 13px; border-radius:100px; background:rgba(255,255,255,0.92);
   border:1px solid rgba(40,55,75,0.10); box-shadow:0 2px 8px rgba(40,55,75,0.08); }
 .fav-lock .n i { width:3px; height:3px; border-radius:50%; background:var(--steel); }
+
+/* ═══ LES TROIS VOILES ═══
+   Un seul motif de carte pour les trois endroits verrouillés : le score perso,
+   les avis triés, les alternatives. La grande carte détaillée a été retirée —
+   elle disait la même chose une quatrième fois, sur 400 px. */
+.vc { width:278px; padding:16px 16px 15px; border-radius:20px; background:rgba(255,255,255,0.94);
+  border:1px solid rgba(40,55,75,0.09); box-shadow:0 16px 40px rgba(40,55,75,0.16);
+  display:flex; flex-direction:column; gap:13px; text-align:left; }
+.vc-t { font-weight:800; font-size:15.5px; letter-spacing:-0.03em; color:var(--ink); line-height:1.25; }
+.vc-t span { color:var(--blue-d); }
+.vc-s { font-size:11.5px; line-height:1.5; color:var(--graphite); margin-top:5px; }
+.vc-f { display:flex; flex-direction:column; gap:8px; }
+.vc-l { display:flex; gap:7px; align-items:flex-start; font-size:11.5px; font-weight:600; line-height:1.35; color:var(--arsenic); }
+.vc-c { flex-shrink:0; margin-top:2px; }
+.vc-b { display:flex; align-items:center; justify-content:center; gap:9px; height:42px; border-radius:100px;
+  background:var(--ink); color:#fff; font-weight:800; font-size:12.5px; letter-spacing:-0.01em; }
+.vc-p { display:flex; align-items:center; gap:10px; justify-content:center; }
+.vc-av { display:flex; flex-shrink:0; }
+.vc-av span { width:28px; height:28px; border-radius:50%; border:2.5px solid #fff; margin-left:-9px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.14); overflow:hidden; background:var(--cloud); flex-shrink:0; }
+.vc-av span:first-child { margin-left:0; }
+.vc-av img { width:100%; height:100%; object-fit:cover; display:block; }
+.vc-st { display:flex; gap:2px; }
+.vc-st svg { width:12px; height:12px; color:#F5A623; }
+.vc-n { font-size:11px; color:var(--graphite); }
+.vc-n b { color:var(--ink); font-weight:700; }
+/* la carte est plus haute que la lecture floutée : on ouvre la zone pour qu'elle
+   respire sous le segment au lieu de le chevaucher */
+.lecture.flou { padding-top:20px; min-height:300px; box-sizing:border-box; }
+.lecture.flou .lecture-lock { padding-top:20px; }
+.sug-lock { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; cursor:pointer; }
+.sug-list { min-height:250px; }
+/* La grande carte ne s'affiche plus QUE dans ses deux cas de réécriture (abonnée
+   sans bilan, incident serveur) : là, elle porte un message que les voiles ne
+   savent pas dire. Le reste du temps elle reste dans le DOM pour son bouton,
+   que les trois voiles déclenchent. */
+.lock-card { display:none; }
+.lock-card.visible { display:flex; }
   </style>
 </head>
 <body>
@@ -434,10 +472,7 @@
     <span class="sec-kicker" style="display:block; margin-top:8px">Formula score</span>
     <p class="verdict-t" id="d-verdict-t" style="margin-top:6px">&nbsp;</p>
     <p class="verdict-s" id="d-verdict-s">Judged on its ingredients alone &mdash; <b>not on a specific skin</b>.</p>
-      <div class="lecture-lock" id="d-lecture-lock">
-        <span class="b">Score it for my skin <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h9.5M9 4.5L12.5 8 9 11.5"></path></svg></span>
-        <span class="n">7 questions <i></i> 1 face scan</span>
-      </div>
+      <div class="lecture-lock" id="d-lecture-lock"><div class="vc"><div><p class="vc-t">Get this product&rsquo;s score<br><span>for your skin</span></p></div><div class="vc-f"><div class="vc-l"><svg class="vc-c" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#189A66" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span>Every ingredient, scored for you</span></div><div class="vc-l"><svg class="vc-c" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#189A66" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span>Tells you if you should buy it (or not)</span></div><div class="vc-l"><svg class="vc-c" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="#189A66" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.3l2.3 2.3 4.7-5"></path></svg><span>Better alternatives for your skin</span></div></div><span class="vc-b">Scan my skin <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h9.5M9 4.5L12.5 8 9 11.5"></path></svg></span><div class="vc-p"><div class="vc-av"><span><img src="/paywall-b/avatar-1.jpg" alt=""></span><span><img src="/paywall-b/avatar-2.jpg" alt=""></span><span><img src="/paywall-b/avatar-3.jpg" alt=""></span><span><img src="/paywall-b/avatar-4.jpg" alt=""></span></div><div style="display:flex; flex-direction:column; gap:2px;"><div class="vc-st"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg></div><div class="vc-n">Already <b>+100 users</b></div></div></div></div></div>
     </div>
   </div>
 
@@ -465,10 +500,7 @@
           <span class="fav-k">What buyers report</span>
           <div id="d-fav-aspects" style="margin-top:6px"></div>
         </div>
-        <div class="fav-lock" id="d-fav-lock">
-          <span class="b">Score it for my skin <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h9.5M9 4.5L12.5 8 9 11.5"></path></svg></span>
-          <span class="n">7 questions <i></i> 1 face scan</span>
-        </div>
+        <div class="fav-lock" id="d-fav-lock"><div class="vc"><div><p class="vc-t">Customer reviews<br><span>filtered for your skin</span></p><p class="vc-s">See what people with <b style="font-weight:700; color:var(--ink);">skin like yours</b> said about this product.</p></div><span class="vc-b">Scan my skin <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h9.5M9 4.5L12.5 8 9 11.5"></path></svg></span><div class="vc-p"><div class="vc-av"><span><img src="/paywall-b/avatar-1.jpg" alt=""></span><span><img src="/paywall-b/avatar-2.jpg" alt=""></span><span><img src="/paywall-b/avatar-3.jpg" alt=""></span><span><img src="/paywall-b/avatar-4.jpg" alt=""></span></div><div style="display:flex; flex-direction:column; gap:2px;"><div class="vc-st"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg></div><div class="vc-n">Already <b>+100 users</b></div></div></div></div></div>
       </div>
     </div>
   </div>
@@ -563,7 +595,7 @@
         <div class="sug-row"><div class="sug-vis"></div><div class="sug-tx"><i></i><i></i></div><div class="sug-sc"></div></div>
         <div class="sug-row"><div class="sug-vis"></div><div class="sug-tx"><i></i><i></i></div><div class="sug-sc"></div></div>
         <div class="sug-row"><div class="sug-vis"></div><div class="sug-tx"><i></i><i></i></div><div class="sug-sc"></div></div>
-      </div>
+      </div><div class="sug-lock" id="d-sug-lock"><div class="vc"><div><p class="vc-t">We might have better alternatives<br><span>for your skin</span></p><p class="vc-s"><b style="font-weight:700; color:var(--ink);">3 <span id="d-sug-cat">products</span></b> that we think will <b style="font-weight:700; color:var(--ink);">fit your skin better</b>.</p></div><span class="vc-b">Scan my skin <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h9.5M9 4.5L12.5 8 9 11.5"></path></svg></span><div class="vc-p"><div class="vc-av"><span><img src="/paywall-b/avatar-1.jpg" alt=""></span><span><img src="/paywall-b/avatar-2.jpg" alt=""></span><span><img src="/paywall-b/avatar-3.jpg" alt=""></span><span><img src="/paywall-b/avatar-4.jpg" alt=""></span></div><div style="display:flex; flex-direction:column; gap:2px;"><div class="vc-st"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.4l2.9 5.9 6.5.95-4.7 4.6 1.1 6.45L12 17.8l-5.8 3.05 1.1-6.45-4.7-4.6 6.5-.95z"></path></svg></div><div class="vc-n">Already <b>+100 users</b></div></div></div></div></div>
     </div>
   </div>
 
@@ -601,6 +633,8 @@
     var titre = document.querySelector(".lock-t");
     var btn = document.getElementById("d-lock");
     var essai = document.querySelector(".lock-trial");
+    var carte = document.querySelector(".lock-card");
+    if (carte) carte.classList.add("visible");
     if (raison === "aucun-bilan") {
       if (titre) titre.innerHTML = "Your personal score is <em style=\"font-style:normal; color:#6E9AB6\">waiting</em> for your scan.";
       if (btn) btn.textContent = "Scan my skin";
@@ -690,6 +724,12 @@
      — sans profil, le serveur ne peut pas choisir la phrase qui correspondrait à sa peau
      (une par type dans le fichier enrichi), et en inventer une serait mentir. */
   function esc(t){ return String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+  /* Libellés de catégorie au pluriel — mêmes mots que la fiche premium
+     (06-result-premium.html, CATS). Sans catégorie sûre : « products ». */
+  var CATS_PLURIEL = { cleanser:"cleansers", "makeup-remover":"makeup removers", toner:"toners",
+    serum:"serums", moisturizer:"moisturisers", "eye-cream":"eye creams", sunscreen:"sunscreens",
+    exfoliant:"exfoliants", mask:"masks", treatment:"treatments" };
+
   function rendreAvis(d){
     var a = d && d.avisPublic;
     var sec = document.getElementById("d-fav");
@@ -896,6 +936,11 @@
 
     rendreIngredients(d);
     rendreAvis(d);
+    var motCat = CATS_PLURIEL[p.categorie];
+    if (motCat) document.getElementById("d-sug-cat").textContent = motCat;
+    document.getElementById("d-sug-lock").addEventListener("click", function(){
+      var b = document.getElementById("d-lock"); if (b) b.click();
+    });
 
     // le scan rejoint l'historique local (le gratuit ACCUMULE) — perso inconnu ici
     produitCourant = { nom: p.nom, marque: p.marque || undefined, image: p.image || undefined,
