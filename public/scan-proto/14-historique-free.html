@@ -80,7 +80,7 @@ a.nav-back { text-decoration:none; }
   <div class="section s0" style="padding-top:14px;">
     <div id="liste-zone"></div>
     <p class="foot-note" id="foot" hidden>Formula scores &mdash; the product, not your skin</p>
-    <a class="up-link" id="up" href="16-paywall.html" hidden>See scores for your skin &rarr;</a>
+    <a class="up-link" id="up" href="19-questions.html" hidden>See scores for your skin &rarr;</a>
   </div>
 </div>
 
@@ -197,6 +197,29 @@ a.nav-back { text-decoration:none; }
     rendre();
     SS.rafraichirScores(historique, rendre);
   });
+  /* Vers le QUESTIONNAIRE, pas vers le paiement. Le tunnel prend la photo AVANT
+     de payer : quiconque s'abonnait par cette carte payait sans bilan, et tombait
+     sur la fiche gratuite à son premier scan produit. Même raccourci que 02-fork :
+     un tunnel déjà complété dans la session saute au paywall. */
+  function versLeTunnel(e) {
+    if (e) e.preventDefault();
+    var dejaFait = false;
+    try {
+      dejaFait = !!(sessionStorage.getItem("ss-visage-answers") && sessionStorage.getItem("ss-visage-photo"));
+    } catch (err) {}
+    SS.moi().then(function (m) {
+      if (m.connecte && dejaFait) { location.href = "16-paywall.html"; return; }
+      try {
+        sessionStorage.removeItem("ss-visage-answers");
+        sessionStorage.removeItem("ss-visage-photo");
+        sessionStorage.removeItem("ss-visage-erreur");
+      } catch (err) {}
+      location.href = "19-questions.html";
+    });
+  }
+  var lien = document.getElementById("up");
+  if (lien) lien.addEventListener("click", versLeTunnel);
+
 })();
 </script>
 

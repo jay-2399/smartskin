@@ -22,7 +22,7 @@
 .dash-title { font-weight:800; font-size:26px; letter-spacing:-0.035em; color:var(--ink); margin-top:4px; }
 a.nav-back { text-decoration:none; }
 
-/* carte verrouillée (verre sombre) → 16-paywall */
+/* carte verrouillée (verre sombre) → questionnaire, puis paywall après la photo */
 .lock-card { position:relative; display:block; margin:16px 20px 0; border-radius:20px; padding:18px; overflow:hidden;
   background:linear-gradient(160deg, rgba(41,46,58,0.95) 0%, rgba(20,22,27,0.97) 100%);
   border:1px solid rgba(255,255,255,0.13); border-top-color:rgba(255,255,255,0.28);
@@ -97,7 +97,7 @@ a.nav-back { text-decoration:none; }
     </div>
   </div>
 
-  <a class="lock-card" href="16-paywall.html">
+  <a class="lock-card" id="d-vers-tunnel" href="19-questions.html">
     <div class="lock-glow"></div>
     <div class="lock-body">
       <div class="lock-gwrap">
@@ -202,6 +202,29 @@ a.nav-back { text-decoration:none; }
     // n'est plus notable. Le dashboard gratuit les relisait telles quelles (audit du 7/09).
     SS.rafraichirScores(scans, rendreScans);
   });
+  /* Vers le QUESTIONNAIRE, pas vers le paiement. Le tunnel prend la photo AVANT
+     de payer : quiconque s'abonnait par cette carte payait sans bilan, et tombait
+     sur la fiche gratuite à son premier scan produit. Même raccourci que 02-fork :
+     un tunnel déjà complété dans la session saute au paywall. */
+  function versLeTunnel(e) {
+    if (e) e.preventDefault();
+    var dejaFait = false;
+    try {
+      dejaFait = !!(sessionStorage.getItem("ss-visage-answers") && sessionStorage.getItem("ss-visage-photo"));
+    } catch (err) {}
+    SS.moi().then(function (m) {
+      if (m.connecte && dejaFait) { location.href = "16-paywall.html"; return; }
+      try {
+        sessionStorage.removeItem("ss-visage-answers");
+        sessionStorage.removeItem("ss-visage-photo");
+        sessionStorage.removeItem("ss-visage-erreur");
+      } catch (err) {}
+      location.href = "19-questions.html";
+    });
+  }
+  var lien = document.getElementById("d-vers-tunnel");
+  if (lien) lien.addEventListener("click", versLeTunnel);
+
 })();
 </script>
 
