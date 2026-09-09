@@ -44,6 +44,19 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; display:flex;
 }
 
 /* ── NAV ── */
+/* Voile fixe sous la barre d'état. `.phone` est un conteneur de défilement
+   (overflow-x:hidden) qui ne défile pas lui-même : position:sticky sur .nav
+   n'accroche donc rien, et le contenu passe derrière l'heure et la Dynamic
+   Island. Un flou fixe, haut comme la safe area, garde le texte lisible.
+   Nul sur un appareil sans encoche (env() vaut 0). */
+.phone::after { content:''; position:fixed; top:0; left:0; right:0; z-index:15;
+  height:env(safe-area-inset-top); pointer-events:none;
+  -webkit-backdrop-filter:blur(12px) saturate(1.2); backdrop-filter:blur(12px) saturate(1.2);
+  -webkit-mask-image:linear-gradient(to bottom, #000 62%, transparent);
+  mask-image:linear-gradient(to bottom, #000 62%, transparent); }
+/* écrans dont le haut est une photo plein cadre : pas de voile */
+.phone.sans-voile::after { display:none; }
+
 .nav { position:sticky; top:0; z-index:20; display:flex; justify-content:space-between; align-items:center;
   padding:calc(env(safe-area-inset-top) + 26px) 24px 14px;
   background:linear-gradient(to bottom, var(--bg) 78%, transparent); }

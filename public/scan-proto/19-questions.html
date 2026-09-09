@@ -64,7 +64,7 @@
 .qg .attente.on { display:flex; }
 .qg .attente img { width:26px; height:26px; border-radius:50%; object-fit:contain; background:#fff; padding:2px; flex-shrink:0; }
 .qg .attente span { font-size:10.5px; font-weight:600; letter-spacing:-0.01em; color:var(--graphite);
-  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0; }
 .qg .attente span b { color:var(--ink); font-weight:800; }
 
 /* ── en-tête de question ── */
@@ -76,9 +76,9 @@
 
 /* ── liste : colonne par défaut, grille 2 col. pour `age` et q1 ── */
 .qg .list { flex:1; min-height:0; overflow-y:auto; scrollbar-width:none;
-  padding:6px 22px 12px; display:flex; flex-direction:column; gap:10px; }
+  padding:6px 22px 34px; display:flex; flex-direction:column; gap:10px; }
 .qg .list::-webkit-scrollbar { display:none; }
-.qg .list.grid2 { padding:4px 22px 12px; display:grid; grid-template-columns:1fr 1fr; gap:9px; align-content:start; }
+.qg .list.grid2 { padding:4px 22px 34px; display:grid; grid-template-columns:1fr 1fr; gap:9px; align-content:start; }
 
 /* ── option : carte en verre dépoli ── */
 .qg .opt {
@@ -137,7 +137,9 @@
 .qg .sub::before { content:""; flex:0 0 18px; height:1px; background:rgba(110,154,182,0.4); }
 
 /* ── pied : compteur + CTA sombre, ancré sous la liste (comme la V1) ── */
-.qg .footer { flex-shrink:0;
+/* le pied chevauche la fin de la liste : son dégradé transparent sert
+   d'estompe, une option coupée se voit au lieu d'être tranchée net */
+.qg .footer { flex-shrink:0; position:relative; z-index:2; margin-top:-22px;
   padding:14px 22px calc(env(safe-area-inset-bottom) + 26px);
   background:linear-gradient(to top, #E5EAF1 62%, rgba(229,234,241,0)); }
 .qg .foot-row { display:flex; align-items:center; gap:14px; }

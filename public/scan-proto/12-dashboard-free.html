@@ -46,9 +46,9 @@ a.nav-back { text-decoration:none; }
 
 /* demi-jauge floutée (statique, décor de la lock-card) */
 .gauge { display:block; overflow:visible; }
-.gauge-track { fill:none; stroke:#C7CFDD; stroke-width:9; stroke-linecap:round; }
+.gauge-track { fill:none; stroke:rgba(255,255,255,0.20); stroke-width:9; stroke-linecap:round; }
 .gauge-prog { fill:none; stroke-width:9; stroke-linecap:round; stroke-dasharray:226.2; stroke-dashoffset:36.2; }
-.gauge-prog.good { stroke:url(#gg-good); }
+.gauge-prog { stroke:url(#gg-you); }
 .score-row { display:flex; align-items:baseline; justify-content:center; gap:3px; margin-top:-26px; }
 .score-num { font-weight:800; line-height:0.9; }
 
@@ -104,10 +104,10 @@ a.nav-back { text-decoration:none; }
         <div class="lock-blur">
           <svg class="gauge" viewBox="0 0 170 93" aria-hidden="true">
             <defs>
-              <linearGradient id="gg-good" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7ED3A6"></stop><stop offset="1" stop-color="#2BC182"></stop></linearGradient>
+              <linearGradient id="gg-you" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#A6C3D6"></stop><stop offset="1" stop-color="#FFFFFF"></stop></linearGradient>
             </defs>
             <path class="gauge-track" d="M13 88 A72 72 0 0 1 157 88"></path>
-            <path class="gauge-prog good" d="M13 88 A72 72 0 0 1 157 88"></path>
+            <path class="gauge-prog" d="M13 88 A72 72 0 0 1 157 88"></path>
           </svg>
           <div class="score-row"><span class="score-num">84</span></div>
         </div>
