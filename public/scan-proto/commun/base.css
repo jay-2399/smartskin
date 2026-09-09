@@ -162,6 +162,11 @@ body.has-tabbar .phone { padding-bottom:104px; }
   display:flex; align-items:center; justify-content:center; }
 .rt-ic.good { background:rgba(43,193,130,0.14); color:#189A66; border:1px solid rgba(43,193,130,0.42); }
 
+/* L'attribut `hidden` doit gagner sur nos display:flex/grid. Sans ça, tout
+   élément stylé display:… reste VISIBLE malgré `hidden` : c'est ce qui laissait
+   le CTA « Scan my skin » sur la fiche premium d'un abonné qui a déjà son bilan. */
+[hidden] { display:none !important; }
+
 /* bouton « Sign in with Apple » (SaveShelf — PAS de Google) */
 .auth-apple { margin-top:18px; width:100%; height:52px; border:none; border-radius:15px; cursor:pointer;
   background:linear-gradient(180deg,#2A2D34,#191B1F); color:#fff; font-family:var(--fd); font-weight:700; font-size:14.5px;

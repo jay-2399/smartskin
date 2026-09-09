@@ -14,6 +14,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
+/* `hidden` doit gagner sur nos display:flex/grid — sinon un élément stylé
+   reste visible malgré l'attribut (cf. le CTA « Scan my skin » de la fiche
+   premium, visible chez un abonné qui a déjà son bilan). */
+[hidden] { display:none !important; }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
   --ink:#1A1D21; --cloud:#EDEFF7; --smoke:#D3D6E0; --steel:#BCBFCC;
