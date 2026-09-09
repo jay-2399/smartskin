@@ -635,6 +635,11 @@
     var essai = document.querySelector(".lock-trial");
     var carte = document.querySelector(".lock-card");
     if (carte) carte.classList.add("visible");
+    // Elle a DÉJÀ payé : les voiles gardent leur titre et leur bouton — ils décrivent ce
+    // qui lui manque, un scan — mais perdent la preuve sociale, qui est un argument de
+    // vente. Lui montrer « Already +100 users » trois fois, c'est lui revendre son
+    // abonnement (cf. 57c4c7e).
+    document.querySelectorAll(".vc-p").forEach(function (e) { e.hidden = true; });
     if (raison === "aucun-bilan") {
       if (titre) titre.innerHTML = "Your personal score is <em style=\"font-style:normal; color:#6E9AB6\">waiting</em> for your scan.";
       if (btn) btn.textContent = "Scan my skin";
