@@ -771,6 +771,13 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; overscroll-be
 .solo-chip i { width:6px; height:6px; border-radius:50%; background:#2BC182; box-shadow:0 0 0 3px rgba(43,193,130,0.16); }
 .solo-chip b { font-size:13px; font-weight:800; letter-spacing:-0.4px; color:#189A66; }
 .solo-chip .sc-den { font-size:9px; color:var(--space); letter-spacing:0; }
+/* bouton de l'état « abonnée sans bilan » : elle a payé, donc pas d'argument de
+   vente ici — juste le geste qui manque */
+.sp-cta { display:inline-flex; align-items:center; justify-content:center; gap:9px;
+  margin-top:16px; height:44px; padding:0 22px; border:none; border-radius:100px; cursor:pointer;
+  background:var(--ink); color:#fff; font-family:var(--fd); font-weight:800; font-size:13px;
+  letter-spacing:-0.01em; box-shadow:0 10px 24px rgba(26,29,33,0.28); }
+.sp-cta:focus-visible { outline:2px solid var(--blue-d); outline-offset:3px; }
 .you-k { display:block; font-size:9px; font-weight:700; letter-spacing:0.18em; text-transform:uppercase;
   color:var(--blue-d); margin-top:5px; text-align:center; }
 @keyframes gaugeFill62 { to { stroke-dashoffset:86; } }
@@ -995,6 +1002,9 @@ body { font-family:var(--fd); color:var(--ink); min-height:100dvh; overscroll-be
     </div>
     <p class="verdict-t" id="d-verdict-t" style="margin-top:12px">&nbsp;</p>
     <p class="verdict-s">&nbsp;</p>
+    <button type="button" class="sp-cta" id="d-sp-cta" hidden>Scan my skin
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h9.5M9 4.5L12.5 8 9 11.5"></path></svg>
+    </button>
   </div>
 
   <!-- Avis clients RÉELS (Amazon), rendus seulement quand on a quelque chose à dire À ELLE.
@@ -1301,6 +1311,83 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
                             algo: sc.algoVersion || undefined });
   }
 
+  /* Session premium expirée entre deux appels : on la redemande au serveur, sans
+     cache. Si elle est toujours abonnée, on recharge la fiche et elle ne voit rien.
+     Si elle ne l'est vraiment plus, la fiche gratuite EST sa place. */
+  function reessayerSession() {
+    SS.moi(true).then(function (m) {
+      if (!m.premium) { location.replace("03-result-free.html" + location.search); return; }
+      fetch("/api/produit/fiche?q=" + encodeURIComponent(key))
+        .then(function (r) { return r.json(); })
+        .then(function (d2) {
+          if (d2 && d2.score && d2.score.perso) { rendre(d2); return; }
+          rendreSansPerso(d2 || {}, (d2 && d2.score && d2.score.profilManquant) || "indisponible");
+        })
+        .catch(function () {});
+    });
+  }
+
+  /* ABONNÉE, PAS DE NOTE PERSO. Même dégradation que rendreNonEvaluable, à une
+     différence près : la note de FORMULE existe et s'affiche. Ce qui dépend de la
+     peau disparaît — le sélecteur, « Why this score », les alternatives. */
+  function rendreSansPerso(d, raison) {
+    var p = d.produit || {}, sc = d.score || {}, f = sc.formule || {};
+    document.getElementById("d-brand").textContent = p.marque || "";
+    var nomCourt = p.nom || "";
+    if (p.marque && nomCourt.toLowerCase().indexOf(p.marque.toLowerCase()) === 0) {
+      nomCourt = nomCourt.slice(p.marque.length).replace(/^[\s\-\u2013\u2014\u00b7:]+/, "") || p.nom;
+    }
+    document.getElementById("d-name").textContent = nomCourt;
+    document.getElementById("d-name").setAttribute("data-nom-complet", p.nom || "");
+    var cp = document.getElementById("d-cat");
+    if (CATS[p.categorie]) { cp.textContent = CATS[p.categorie]; cp.hidden = false; }
+    var im = document.getElementById("d-img");
+    if (p.image) { SS.packshot(im, p.image); }
+    else { im.src = SILHOUETTE; im.style.mixBlendMode = "normal"; im.style.filter = "none"; }
+
+    // la jauge porte la note de FORMULE — c'est la seule qu'on ait, et elle est vraie
+    var num = document.getElementById("d-perso");
+    var arc = document.getElementById("d-arc");
+    arc.style.animation = "none";
+    if (typeof f.score === "number") {
+      num.textContent = f.score;
+      num.className = "score-num " + f.bande;
+      arc.setAttribute("class", "gauge-prog " + f.bande);
+      arc.style.strokeDashoffset = (226.2 - 190 * f.score / 100).toFixed(1);
+      document.querySelector(".you-k").textContent = "The formula itself";
+    } else {
+      num.textContent = "\u2013";
+      num.className = "score-num";
+      arc.setAttribute("class", "gauge-prog");
+      arc.style.strokeDashoffset = "226.2";
+      document.querySelector(".you-k").textContent = "No score";
+    }
+    document.getElementById("d-seg").style.display = "none";
+    document.getElementById("d-callouts").innerHTML = "";
+
+    var titre = document.getElementById("d-verdict-t");
+    var sous = document.querySelector(".verdict-s");
+    if (raison === "aucun-bilan") {
+      titre.innerHTML = "Your score is <em style=\"font-style:normal; color:#6E9AB6\">waiting</em> for your scan.";
+      sous.innerHTML = "You're subscribed \u2014 one scan and every product you open is read on your skin.";
+      var b = document.getElementById("d-sp-cta");
+      if (b) { b.hidden = false; b.onclick = function () { location.href = "19-questions.html"; }; }
+    } else {
+      titre.textContent = "Your score is unavailable right now.";
+      sous.textContent = "Something went wrong on our side. Try again in a moment.";
+    }
+
+    // tout ce qui part d'une note perso
+    var why = document.querySelector(".why-sec"); if (why) why.style.display = "none";
+    var mieux = document.getElementById("d-mieux"); if (mieux) mieux.style.display = "none";
+
+    rendreIngredients(d);
+    SS.historique.ajouter({ nom: p.nom, marque: p.marque || undefined, image: p.image || undefined,
+                            categorie: p.categorie || undefined,
+                            formule: typeof f.score === "number" ? f.score : null, perso: null,
+                            algo: f.algoVersion || undefined });
+  }
+
   // Le rendu est une FONCTION nommée : la fiche doit pouvoir se redessiner quand l'utilisateur
   // corrige la catégorie devinée d'une étiquette lue, sans recharger la page.
   function rendre(d){
@@ -1321,20 +1408,19 @@ function libelleType(t) { return ({ "complexe-parfumant": "Fragrance complex", "
       var el = document.querySelector(sel); if (el) el.style.display = "";
     });
     var p = d.produit, f = d.score.formule, pe = d.score.perso;
-    // Pas de bloc perso : le serveur ne l'accorde qu'à une session premium, donc elle a
-    // expiré entre /api/moi (qui a laissé entrer) et /api/produit/fiche. Sans ce garde-fou,
-    // la suite plantait sur pe.score et la page gardait SILENCIEUSEMENT son contenu de
-    // démonstration — c'est-à-dire les chiffres d'un AUTRE produit. La fiche gratuite est
-    // exactement la vue « formule seule », et elle lit les mêmes sources : on y va.
-    // Trois causes possibles, une seule réponse jusqu'ici. On transmet la raison à la
-    // fiche gratuite pour qu'elle adapte sa carte verrouillée :
-    //  · rien           → la session premium a expiré (le cas d'origine ci-dessus)
-    //  · aucun-bilan    → abonnée mais jamais scannée : lui vendre son abonnement serait absurde
-    //  · indisponible   → bilan illisible ou base en panne : ne rien promettre, ne rien accuser
+    // ABONNÉE SANS NOTE PERSO. Cette page ne renvoie plus personne vers la fiche
+    // gratuite : un client qui paie n'a rien à faire sur la page des non-abonnés.
+    // Elle reste ici et montre ce qu'elle sait — le produit, sa note de formule, ses
+    // ingrédients — en disant à la place de la note perso ce qui manque.
+    //  · aucun-bilan    → jamais scannée : un bouton vers le questionnaire
+    //  · indisponible   → bilan illisible ou base en panne : on n'invite à rien
+    //  · rien           → la session a expiré entre /api/moi et /api/produit/fiche :
+    //                     on redemande AVANT de conclure, et on ne dégrade que si
+    //                     elle n'est réellement plus abonnée (là, 03 est sa place).
     if (!pe || typeof pe.score !== "number") {
       var raison = d.score.profilManquant || "";
-      var q = location.search + (raison ? (location.search ? "&" : "?") + "profil=" + raison : "");
-      location.replace("03-result-free.html" + q);
+      if (!raison) { reessayerSession(); return; }
+      rendreSansPerso(d, raison);
       return;
     }
 

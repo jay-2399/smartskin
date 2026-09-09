@@ -405,12 +405,13 @@
 .lecture.flou .lecture-lock { padding-top:20px; }
 .sug-lock { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; cursor:pointer; }
 .sug-list { min-height:250px; }
-/* La grande carte ne s'affiche plus QUE dans ses deux cas de réécriture (abonnée
-   sans bilan, incident serveur) : là, elle porte un message que les voiles ne
-   savent pas dire. Le reste du temps elle reste dans le DOM pour son bouton,
-   que les trois voiles déclenchent. */
+/* La grande carte ne s'affiche jamais : les trois voiles disent sa promesse en
+   trois fois moins de place. Elle reste dans le DOM pour son seul bouton, que les
+   voiles déclenchent — il porte la navigation vers le questionnaire.
+   Elle avait un second usage jusqu'au 09/09 : réapparaître pour une abonnée
+   renvoyée ici faute de note perso. 06 ne redirige plus ses abonnés, ce cas
+   n'existe plus, et la réécriture qui allait avec est partie. */
 .lock-card { display:none; }
-.lock-card.visible { display:flex; }
   </style>
 </head>
 <body>
@@ -625,33 +626,6 @@
   // perso demande le scan de peau — donc d'abord le tunnel visage (19-questions).
   // Exception « retour direct paywall sans re-quiz » : tunnel déjà complété dans
   // la session (réponses + photo) ET connecté → paywall direct.
-  // Arrivée depuis la fiche premium faute de note perso : la carte verrouillée ne doit
-  // PAS proposer d'acheter à quelqu'un qui a déjà payé. Deux cas la réécrivent.
-  (function(){
-    var raison = q.get("profil");
-    if (!raison) return;
-    var titre = document.querySelector(".lock-t");
-    var btn = document.getElementById("d-lock");
-    var essai = document.querySelector(".lock-trial");
-    var carte = document.querySelector(".lock-card");
-    if (carte) carte.classList.add("visible");
-    // Elle a DÉJÀ payé : les voiles gardent leur titre et leur bouton — ils décrivent ce
-    // qui lui manque, un scan — mais perdent la preuve sociale, qui est un argument de
-    // vente. Lui montrer « Already +100 users » trois fois, c'est lui revendre son
-    // abonnement (cf. 57c4c7e).
-    document.querySelectorAll(".vc-p").forEach(function (e) { e.hidden = true; });
-    if (raison === "aucun-bilan") {
-      if (titre) titre.innerHTML = "Your personal score is <em style=\"font-style:normal; color:#6E9AB6\">waiting</em> for your scan.";
-      if (btn) btn.textContent = "Scan my skin";
-      if (essai) essai.textContent = "You're subscribed \u2014 one scan and it unlocks.";
-      if (btn) btn.dataset.direct = "19-questions.html";
-    } else if (raison === "indisponible") {
-      // Incident serveur : on n'invite à rien et on ne reproche rien.
-      if (titre) titre.textContent = "Your personal score is unavailable right now.";
-      if (btn) btn.hidden = true;
-      if (essai) essai.textContent = "Something went wrong on our side. Try again in a moment.";
-    }
-  })();
 
   document.getElementById("d-lock").addEventListener("click", function(){
     SS.track("paywall_intent", { source: "result_free_lock" });
