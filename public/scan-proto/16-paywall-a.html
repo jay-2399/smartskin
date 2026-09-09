@@ -86,6 +86,7 @@
 .plan-price-row { display:flex; align-items:baseline; gap:7px; margin-top:11px; }
 .pp-now { font-weight:800; font-size:23px; letter-spacing:-0.04em; line-height:1; }
 .pp-unit { font-size:12px; font-weight:700; color:var(--graphite); }
+.pp-sub { margin-top:5px; font-size:11px; font-weight:600; color:var(--graphite); letter-spacing:-0.01em; }
 .plan-badge { position:absolute; top:-11px; left:50%; transform:translateX(-50%); z-index:2; font-size:9px; font-weight:800; letter-spacing:0.05em; text-transform:uppercase; color:#fff; background:#F5A623; padding:5px 11px; border-radius:100px; box-shadow:0 6px 14px rgba(245,166,35,0.42); white-space:nowrap; }
 
 /* chip sous les plans — change avec le plan sélectionné */
@@ -188,6 +189,7 @@
           <span class="pp-now" id="prix-annual">$39.99</span>
           <span class="pp-unit">/ year</span>
         </div>
+        <div class="pp-sub" id="sub-annual"></div>
       </div>
       <div class="plan sel" id="plan-weekly" role="radio" aria-checked="true" tabindex="0">
                 <div class="plan-top">
@@ -290,6 +292,34 @@
   var eligible = true;   // affichage essai par défaut (web/démo) ; corrigé par le pont
   var cta = document.getElementById("pw-cta");
   var ctaTx = document.getElementById("pw-cta-tx");
+
+  /* Prix annuel ramené à la semaine, CALCULÉ depuis le prix affiché — pas figé.
+     Sur iPhone ce prix vient de StoreKit : devise et séparateur décimal varient
+     selon le pays, un chiffre en dur y serait faux. Pas de pourcentage : celui
+     du canevas (« save 80% ») était calculé sur d'anciens prix et ne colle plus. */
+  function parSemaine(prix) {
+    var brut = (String(prix).match(/\d[\d\s\u00A0.,]*\d|\d/) || [])[0];
+    if (!brut) return "";
+    var norm = brut.replace(/[\s\u00A0]/g, "");
+    var dec = (norm.match(/([.,])(\d{1,2})$/) || [])[1] || null;
+    var n;
+    if (dec) {
+      var i = norm.lastIndexOf(dec);
+      n = parseFloat(norm.slice(0, i).replace(/[.,]/g, "") + "." + norm.slice(i + 1));
+    } else {
+      n = parseFloat(norm.replace(/[.,]/g, ""));
+    }
+    if (!isFinite(n) || n <= 0) return "";
+    // devise sans décimales (¥, ₩…) : on reste sans décimales
+    var sem = dec ? (n / 52).toFixed(2).replace(".", dec) : String(Math.round(n / 52));
+    return String(prix).replace(brut, sem);
+  }
+  function majSousPrix() {
+    var e = document.getElementById("sub-annual");
+    if (!e) return;
+    var s = parSemaine(prixAnnuel);
+    e.textContent = s ? s + " / week" : "";
+  }
   function maj() {
     var a = document.getElementById("plan-annual");
     var w = document.getElementById("plan-weekly");
@@ -309,13 +339,14 @@
       } else {
         ctaTx.textContent = "Unlock my report — " + prixAnnuel + " / year";
         noteWrap.style.display = "none";
-        document.getElementById("pw-terms").innerHTML = "Billed once a year &middot; that&#39;s $0.77 / week";
+        document.getElementById("pw-terms").innerHTML = "Billed once a year &middot; that&#39;s " + (parSemaine(prixAnnuel) || prixAnnuel) + " / week";
       }
     } else {
       ctaTx.textContent = "Subscribe — $4.99 / week";
       document.getElementById("pw-note").innerHTML = ICONE_LOCK + "Cancel anytime";
       document.getElementById("pw-terms").innerHTML = "Billed weekly &middot; cancel anytime";
     }
+    majSousPrix();
   }
   document.getElementById("plan-annual").addEventListener("click", function () { plan = "annual"; maj(); });
   document.getElementById("plan-weekly").addEventListener("click", function () { plan = "weekly"; maj(); });
