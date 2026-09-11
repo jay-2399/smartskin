@@ -94,6 +94,8 @@
     "box-shadow:0 8px 20px rgba(26,29,33,0.26),inset 0 1px 0 rgba(255,255,255,0.22);}" +
     ".scrim .auth-apple .apple-slot{display:flex;align-items:center;width:19px;height:26px;flex-shrink:0;}" +
     ".scrim .auth-apple .apple-slot svg{width:100%;height:100%;display:block;}" +
+    ".scrim .auth-apple:disabled{opacity:0.55;cursor:default;}" +
+    ".scrim .modal-err{display:none;margin:10px 0 0;font-size:12px;font-weight:600;line-height:1.45;color:#D8543F;text-align:center;}" +
     ".ss-toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom) + 96px);z-index:60;" +
     "padding:11px 18px;border-radius:100px;white-space:nowrap;pointer-events:none;" +
     "background:linear-gradient(180deg,#2A2D34,#191B1F);color:#fff;font-family:'Manrope',sans-serif;font-size:12.5px;font-weight:700;letter-spacing:-0.01em;" +
@@ -527,13 +529,43 @@
       '<span class="sec-kicker">Just added &middot; ' + nb + " products</span>" +
       '<h2 class="modal-h" style="margin-top:7px;">Save your shelf</h2>' +
       '<p class="modal-sub" style="margin-top:7px; font-size:13px;">Your products live on this phone only. Two taps keeps them safe &mdash; on any phone, for good.</p>' +
-      '<button type="button" class="auth-apple" data-ss="apple"><span class="apple-slot">' + APPLE_SVG + "</span>Sign in with Apple</button>" +
+      '<button type="button" class="auth-apple" data-ss="apple"><span class="apple-slot">' + APPLE_SVG + "</span>Continue with Apple</button>" +
+      '<p class="modal-err" data-ss="erreur" role="alert"></p>' +
       '<p class="modal-note" style="margin-top:12px;">No spam &mdash; your shelf, backed up. That\'s it.</p>' +
       '<a href="#" class="cta-sub" data-ss="plustard" style="margin-top:4px;">Not now</a>' +
       "</div>";
     var sc = ouvrirScrim(html, function () { fermerScrim(sc); });
-    sc.querySelector('[data-ss="apple"]').addEventListener("click", function () {
-      location.href = "15-compte.html?next=" + encodeURIComponent(pageCourante());
+    var btnApple = sc.querySelector('[data-ss="apple"]');
+    function erreur(msg) {
+      var e = sc.querySelector('[data-ss="erreur"]');
+      e.textContent = msg || "";
+      e.style.display = msg ? "block" : "none";
+    }
+    // Un bouton Apple ouvre Apple : la feuille native s'ouvre ici même, en mode
+    // "signup" (connecte OU inscrit), puis la page se recharge avec l'étagère
+    // synchronisée. Avant, il renvoyait vers 15-compte sans ouvrir Apple.
+    // Hors app native (pas de feuille Apple), 15-compte reste le repli.
+    btnApple.addEventListener("click", function () {
+      erreur("");
+      if (!SS.natif.est()) {
+        location.href = "15-compte.html?next=" + encodeURIComponent(pageCourante());
+        return;
+      }
+      btnApple.disabled = true;
+      SS.natif.signInApple(function (idToken, name) {
+        SS.auth.apple(idToken, name, "signup").then(function () {
+          var recharger = function () { location.replace(pageCourante()); };
+          SS.shelf.sync().then(recharger, recharger);
+        }, function () {
+          btnApple.disabled = false;
+          erreur("Apple sign-in didn't complete. Please try again.");
+        });
+      }, function (raison) {
+        btnApple.disabled = false;
+        if (String(raison || "").toLowerCase().indexOf("cancel") < 0) {
+          erreur("Apple sign-in didn't complete. Please try again.");
+        }
+      });
     });
     sc.querySelector('[data-ss="plustard"]').addEventListener("click", function (e) {
       e.preventDefault();

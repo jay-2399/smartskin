@@ -43,4 +43,17 @@ describe("Sign in with Apple — aucun écran V2 ne refuse un Apple ID sans comp
       expect(lire(f), f).not.toContain("No SmartSkin account found");
     }
   });
+
+  it("la fenêtre « Save your shelf » ouvre la feuille Apple elle-même, en mode signup", () => {
+    // Son bouton disait « Sign in with Apple » mais renvoyait vers 15-compte : un
+    // bouton Apple qui n'ouvre pas Apple, l'écart promesse/action des rejets passés.
+    const js = lire("commun/app.js");
+    const debut = js.indexOf("function modalSaveShelf(");
+    const modal = js.slice(debut, js.indexOf("SS.historique", debut));
+    expect(debut).toBeGreaterThan(0);
+    expect(modal).toMatch(/<\/span>Continue with Apple<\/button>/);
+    expect(modal).not.toMatch(/Sign in with Apple<\/button>/);
+    expect(modal).toContain("SS.natif.signInApple(");
+    expect(modal).toMatch(/SS\.auth\.apple\(idToken,\s*name,\s*"signup"\)/);
+  });
 });
