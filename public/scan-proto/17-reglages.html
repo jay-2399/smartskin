@@ -231,13 +231,31 @@
   });
 
   /* ── restore (mécanique V1 — natif seulement) ── */
-  document.getElementById("row-restore").addEventListener("click", function () {
-    if (!SS.natif.est()) { toast("Restore works in the iPhone app"); return; }
+  function restaurer() {
     SS.natif.restaurer(function (ok) {
-      if (ok) { toast("Purchase restored"); setTimeout(function () { location.reload(); }, 1200); }
+      // replace et non reload : l'adresse peut encore porter ?restore=1
+      if (ok) { toast("Purchase restored"); setTimeout(function () { location.replace("17-reglages.html"); }, 1200); }
       else toast("No previous purchase found");
     });
+  }
+  document.getElementById("row-restore").addEventListener("click", function () {
+    if (!SS.natif.est()) { toast("Restore works in the iPhone app"); return; }
+    // Sans compte, /api/iap/sync ne rattache l'achat à personne : l'écran disait
+    // « Purchase restored » sans rien activer. On connecte d'abord, comme les
+    // paywalls, puis la restauration reprend ici au retour.
+    SS.moi().then(function (m) {
+      if (!m.connecte) {
+        location.href = "15-compte.html?next=" + encodeURIComponent("17-reglages.html?restore=1");
+        return;
+      }
+      restaurer();
+    });
   });
+  // Retour de la connexion demandée par « Restore purchase » : on reprend.
+  if (new URLSearchParams(location.search).get("restore") === "1" && SS.natif.est()) {
+    history.replaceState(null, "", "17-reglages.html");
+    SS.moi().then(function (m) { if (m.connecte) restaurer(); });
+  }
 
   /* ── questionnaire : reposé tout seul tous les N scans, refaisable à la demande ── */
   (function () {
